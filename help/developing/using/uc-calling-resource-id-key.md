@@ -4,7 +4,7 @@ seo-title: 使用由两个字段组成的标识密钥调用资源
 description: 使用由两个字段组成的标识密钥调用资源
 seo-description: 了解如何使用由两个字段组成的标识密钥来调用资源
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 相关主题：
 
-* [创建或扩展资源](help/developing/using/creating-or-extending-the-resource.md)
-* [定义标识密钥](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [创建或扩展资源](../../developing/using/creating-or-extending-the-resource.md)
+* [定义标识密钥](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 步骤1：配置标识密钥
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. 在配置标识密钥之前，请确保已使用所需的字段扩展资源，并且已发布该字段。For more on this, refer to [this section](help/developing/using/creating-or-extending-the-resource.md).
+1. 在配置标识密钥之前，请确保已使用所需的字段扩展资源，并且已发布该字段。For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -47,14 +47,14 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. 您现在可以配置过滤器定义，以使用其标识密钥调用资源。
 
 ## 步骤2：配置过滤器定义
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -87,7 +87,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 配置识别密钥及其过滤器定义后，您可以使用营销活动标准界面或REST API调用资源。
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). 随后，该过滤器便会在左窗格中可用。
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 随后，该过滤器便会在左窗格中可用。
 
 ![](assets/uc_idkey9.png)
 
