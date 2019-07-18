@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 添加了如何使用复合标识密钥调用配置文件的用例。[阅读更多](../../developing/using/uc-calling-resource-id-key.md)
 
-在调用带有参数的蠕虫流程时，已添加关于使用没有登记期的重复分发的建议。[阅读更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
+已添加关于使用参数调用工作流时没有聚合期的建议。[阅读更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+有关如何在电子邮件设计器中将电子邮件内容另存为片段的部分已更新。[阅读更多](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
