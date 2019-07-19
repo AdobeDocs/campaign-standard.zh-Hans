@@ -10,7 +10,7 @@ products: SG_ CAMPAIGN/STANDARD
 audience: 频道
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: b27381 a9-19e5-4b65-b485-c72 f475 ba54 d
+discoiquuid: b27381a9-19e5-4b65-b485-c72 f475 ba54 d
 delivercontext-tags: Delivery创建，向导
 internal: n n
 snippet: y
