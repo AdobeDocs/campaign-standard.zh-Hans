@@ -1,15 +1,15 @@
 ---
-title: 使用由两个字段组成的标识密钥调用资源
-seo-title: 使用由两个字段组成的标识密钥调用资源
-description: 使用由两个字段组成的标识密钥调用资源
-seo-description: 了解如何使用由两个字段组成的标识密钥来调用资源
+title: 使用复合标识键调用资源
+seo-title: 使用复合标识键调用资源
+description: 使用复合标识键调用资源
+seo-description: 了解如何使用复合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
+source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
 
 ---
 
 
-# 使用由两个字段组成的标识密钥调用资源
+# 使用复合标识键调用资源
 
 在某些情况下，您可能需要为某个资源定义由两个字段组成的标识密钥。配置标识密钥后，您需要配置过滤器定义，以便能够使用此标识密钥从Campaign Standard界面或API调用资源。
 
@@ -38,16 +38,16 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey1.png)
 
-1. In the **[UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
+1. **[!UICONTROL Identification keys]** 在部分中，单击 **[!UICONTROL Create element]** 按钮。
 
    ![](assets/uc_idkey2.png)
 
-1. Add the two custom "CRM ID" and "Category" fields, then click **[UICONTROL Confirm]**.
+1. Add the two custom "CRM ID" and "Category" fields, then click **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[!UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. 您现在可以配置过滤器定义，以使用其标识密钥调用资源。
 
@@ -56,7 +56,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 >[!NOTE]
 > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
-1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
+1. In the **[!UICONTROL Filter definition]** tab, click **[!UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
 1. 编辑过滤器定义的属性以配置其规则。
 
@@ -66,11 +66,11 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey5.png)
 
-1. Select the first field used in the identification key ("CRM ID"), then activate the **[UICONTROL Switch to parameters]** option.
+1. Select the first field used in the identification key ("CRM ID"), then activate the **[!UICONTROL Switch to parameters]** option.
 
    ![](assets/uc_idkey6.png)
 
-1. In the **[UICONTROL Filter conditions]** section, keep the **[UICONTROL Equal]** operator, then define the parameter's name and click the plus sign to create it.
+1. **[!UICONTROL Filter conditions]** 在部分中，保留 **[!UICONTROL Equal]** 运算符，然后定义参数的名称并单击加号以创建它。
 
    ![](assets/uc_idkey7.png)
 
@@ -87,16 +87,20 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 配置识别密钥及其过滤器定义后，您可以使用营销活动标准界面或REST API调用资源。
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 随后，该过滤器便会在左窗格中可用。
+To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 随后，该过滤器便会在左窗格中可用。
 
 ![](assets/uc_idkey9.png)
 
 要使用Campaign Standard REST API中的过滤器定义，请使用以下语法：
 
-\“GET&lt; resourceName&gt;&lt; FilterName&gt;？&lt; param1_ parameter&gt;=&lt; value&gt;&amp;&lt; param2_ parameter&gt;=&lt; value&gt;\
+```
+GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+```
 
 在我们的情况下，从“Spring”类别检索配置文件并使用“123456”CRM ID的语法将是：
 
-\“GEThttps://mc.adobe.io/&lt; INCOUNT&gt;/campaign/profileAndServicesExt/profile/create_ key？category_ parameter= spring&amp; crm_ id_ parameter=123456\
+```
+GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
