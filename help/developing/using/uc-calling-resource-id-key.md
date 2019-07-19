@@ -4,7 +4,7 @@ seo-title: 使用复合标识键调用资源
 description: 使用复合标识键调用资源
 seo-description: 了解如何使用复合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
+source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 ---
 
@@ -94,13 +94,13 @@ To use the filter definition from the interface, use a **[!UICONTROL Query]** ac
 要使用Campaign Standard REST API中的过滤器定义，请使用以下语法：
 
 ```
-GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
 在我们的情况下，从“Spring”类别检索配置文件并使用“123456”CRM ID的语法将是：
 
 ```
-GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
