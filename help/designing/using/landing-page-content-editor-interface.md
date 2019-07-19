@@ -4,7 +4,7 @@ seo-title: 登陆页面内容编辑器界面
 description: 登陆页面内容编辑器界面
 seo-description: 了解如何使用编辑器的不同部分(如操作栏)修改登陆页面内容。
 page-status-flag: 从未激活
-uuid: 53729 a68-eed2-4c5 d-bc14-02c80 e897 c44
+uuid: 53729a68-eed2-4c5 d-bc14-02c80 e897 c44
 contentOwner: saviat
 products: SG_ CAMPAIGN/STANDARD
 audience: 设计
