@@ -15,7 +15,7 @@ context-tags: 计划，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
 
 ---
 
@@ -45,10 +45,10 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 1. Specify the **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**：将执行一次工作流。
-   * **[!UICONTROL Several times a day]**：工作流每天定期执行多次。
+   * **[!UICONTROL Several times a day]**：工作流每天定期执行多次。您可以在特定时间或定期设置执行。
    * **[!UICONTROL Daily]**：工作流在一个特定时间执行，每天一次。
    * **[!UICONTROL Weekly]**：工作流在指定时刻执行一次或几次。
-   * **[!UICONTROL Monthly]**：工作流在指定时刻执行一次或几次。
+   * **[!UICONTROL Monthly]**：工作流在指定时刻执行一次或几次。您可以在需要执行工作流时选择月份。您还可以在指定的工作日(如月的第二个星期二)上设置执行。
    * **[!UICONTROL Yearly]**：工作流在指定时刻执行一次或几次。
 
 1. 根据所选频率定义执行详细信息。详细信息字段可能因使用的频率(时间、重复频率、指定的天数等)而异。
@@ -62,6 +62,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
    * **[!UICONTROL Never]**：将根据指定的频率执行工作流，而不会限制时间帧或迭代数。
    * **[!UICONTROL After a certain number of iterations]**：将根据指定的频率执行工作流，直至达到 **X** 限制。**[!UICONTROL Number of iterations]** 因此需要指定。
    * **[!UICONTROL On a specific date]**：将根据指定的频率执行工作流，直至特定日期。因此，需要指定执行截止日期。
+
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. 这允许您在特定时区开始工作流，否则默认情况下，工作流将在服务器时区中运行。
 
