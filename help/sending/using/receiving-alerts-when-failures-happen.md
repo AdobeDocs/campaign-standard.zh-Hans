@@ -14,7 +14,7 @@ discoiquuid: 0766bd57-c5 f1-4f56-ac84-e5 a04 d3819 ec
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. 标准用户无法访问Adobe Campaign界面中的仪表板。他们只能接收通知通知。For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/types-of-users.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. 标准用户无法访问Adobe Campaign界面中的仪表板。他们只能接收通知通知。For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 在Adobe Campaign界面中，您可以：
 
@@ -182,7 +182,7 @@ To do this, you first need to extend the **Delivery** resource and add a new fil
 
 **相关主题：**
 
-[添加或扩展资源](../../developing/using/key-steps-of-adding-a-resource.md)
+[添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Delivery alerting parameters {#delivery-alerting-parameters}
 
