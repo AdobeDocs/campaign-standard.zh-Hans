@@ -14,7 +14,7 @@ discoiquuid: 3ffda143-f42 a-4cf9-b43 c-e53 d2454025
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Adobe Campaign提供预配置的内容块列表。这些内容块是动态的、
 1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
 
 您的内容块现在可用于消息或登陆页面的内容编辑器。
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. 在HTML中，空白会显示在屏幕上，因此它们会影响您的内容布局。
 
 ## About targeting dimension {#about-targeting-dimension}
 
