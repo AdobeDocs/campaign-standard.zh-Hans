@@ -15,7 +15,7 @@ context-tags: 工作流程，概述；工作流，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 >[!CAUTION]
 >
->建议不要同时运行多个工作流。同时执行过多的工作流时，系统可能会用尽资源并变得不稳定。我们还建议您逐步推广工作流。
+> Adobe建议客户优先处理工作流执行，并运行最多20个并发工作流程执行，以在您的实例中一致地实现最高性能。可以计划多个并发工作流程执行，并且默认情况下将执行顺序执行。您可以通过向客户服务部门提交票证来调整并发工作流程执行的默认设置。
 
 执行相关操作(开始、停止、暂停等)are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
