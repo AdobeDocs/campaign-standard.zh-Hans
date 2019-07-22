@@ -15,7 +15,7 @@ context-tags: 交付，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 灰条将重新排列链接到您的消息的各种图标。
 
 * **[!UICONTROL Summary]**：显示/隐藏有关消息的主要信息。
-* **[!UICONTROL Edit properties]**：允许您编辑消息的高级参数。
+* **[!UICONTROL Edit properties]**：允许您编辑消息 [的高级参数](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 * **[!UICONTROL Reports]**：使您能够访问与消息相关的报告。
 
 **相关主题：**
