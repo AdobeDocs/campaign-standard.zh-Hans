@@ -14,7 +14,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19796 b1143
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 * [设计电子邮件的主要步骤](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)：阅读从头开始设计电子邮件内容的关键步骤。
 * [将Experience Cloud触发器与Adobe Campaign结合](../../integrating/using/abandonment-triggers-use-cases.md)使用：在您的网站上向客户发送经过Adobe Analytics跟踪的特定行为的个性化电子邮件。
-* [添加或扩展资源](../../developing/using/key-steps-of-adding-a-resource.md)：了解如何创建新资源或扩展现有资源。
+* [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)：了解如何创建新资源或扩展现有资源。
 * [导入工作流模板](../../automating/using/importing-data.md#example--import-workflow-template)：使用导入模板定期导入具有相同结构的文件。
 * [设置双击过程](../../channels/using/setting-up-a-double-opt-in-process.md)：了解如何发送链接到登陆页面的电子邮件以确认客户订阅。
 * [个性化电子邮件](../../designing/using/example--email-personalization.md)：根据客户年龄个性化电子邮件。
