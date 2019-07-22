@@ -14,7 +14,7 @@ discoiquuid: 2a14500f-5ee-4131-8b1a-b7 fd65 b7 e aa
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d148014d1b90712e78b8af17d7ddee2659329ed
+source-git-commit: b9799c40bd7b6422409456db2c4f694f486b42f8
 
 ---
 
@@ -49,8 +49,8 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
    For more information on extensions, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta) documentation.
 
 1. Configure rules for your application in Adobe Launch, see [Configuring your application in Launch](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ConfiguringyourapplicationinLaunch)
-1. Configure your Adobe Launch application in Adobe Campaign Standard, see [Setting up your Adobe Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign) .
-1. Add channel specific configuration to your Mobile Application set-up, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) .
+1. Configure your Adobe Launch application in Adobe Campaign Standard, see [Setting up your Adobe Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
+1. Add channel specific configuration to your Mobile Application set-up, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
 
@@ -75,7 +75,7 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 
 1. 定义要从应用程序的订阅者收集的数据。根据您定义的标准协调在Adobe Campaign数据库中具有个人资料的移动应用程序的用户。
 
-   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication) .
+   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. 通过在设备上启动手机应用程序并登录，确保设置已成功完成。确保您选择接收通知。
 1. Then, in Adobe Campaign's advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
