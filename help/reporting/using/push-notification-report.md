@@ -14,7 +14,7 @@ discoiquuid: a425cd59-edfd-42c5-a6 bd-38773c353 ff0
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ The first table **Push notification Engagement Summary** is split into three cat
 
 * **[!UICONTROL Processed/sent]**：发送的推送通知总数。
 * **[!UICONTROL Delivered]**：成功发送的推送通知数量，与发送的推送通知的总数相关。
-* **[!UICONTROL Impressions]**：收件人看到的推送通知总数。
+* **[!UICONTROL Impressions]**：推送通知已发送到设备并在通知中心未更改的次数。在大多数情况下，展示次数应类似于交付的数字。这可确保设备获得消息，并将该信息rela回服务器。
 * **[!UICONTROL Unique impressions]**：收件人数量。
 * **[!UICONTROL Click through rate]**：与推送通知交互的用户百分比。
 * **[!UICONTROL Open rate]**：打开的推送通知百分比。
@@ -48,8 +48,8 @@ The second table **Push notification Clicks &amp; opens** is split into three ca
 
 * **[!UICONTROL Impressions]**：收件人看到的推送通知总数。
 * **[!UICONTROL Unique impressions]**：收件人数量。
-* **[!UICONTROL Click]**：用户与推送通知进行交互的次数，例如单击通知或按钮。
+* **[!UICONTROL Click]**：推送通知已发送到设备并由用户单击的次数。用户希望查看通知，随后将移至推送打开跟踪或取消通知。
 * **[!UICONTROL Unique clicks]**：唯一用户与推送通知交互的次数，例如，单击通知或按钮。
-* **[!UICONTROL Open]**：用户打开推送通知时应用程序的总数。
+* **[!UICONTROL Open]**：向设备发送的推送通知总数，并由用户单击打开应用程序。这与“推送单击”类似，但如果通知被忽略，则不会触发推送打开。
 * **[!UICONTROL Unique Opens]**：打开分发的收件人数量。
 
