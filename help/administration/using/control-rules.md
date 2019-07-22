@@ -14,7 +14,7 @@ discoiquuid: 305cadde-6424-4c6f-b11 b-1e8 bdwug6 ef1
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Adobe Campaign中提供的一系列默认规则可确保标准控制：
 
    当检查需要消息个性化完成时，请选择此阶段。
 
+>[!NOTE]
+>
+>由于安全原因，无法修改控制规则的内容。**[!UICONTROL Code]** 字段为只读字段。
