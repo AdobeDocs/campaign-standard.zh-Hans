@@ -15,7 +15,7 @@ context-tags: LandingPage，向导；LandingPage，概述；LandingPage，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 578993ccdf8f31c527c62a9d7fc84daa1c61e94a
+source-git-commit: 5dbb89eca363f252d0c69126878d4f79320e0f19
 
 ---
 
@@ -29,7 +29,7 @@ To learn more on resources configuration, see [Configuring the resource's data s
 
 >[!CAUTION]
 >
-> A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
+>A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
 
 **预先加载**
 
