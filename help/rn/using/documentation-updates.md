@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 本页列出了每个版本的Adobe Campaign Standard的所有新增功能和文档更新。
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## Release 19.3 - July 30 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 它指定根据客户聚集期准备分发，如果您计划每天多次调用工作流，则应确保他们没有任何时间段。
+
+添加了有关如何使用在工作流外部信号活动中声明的事件变量个性化交付的标签的信息。[阅读更多](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-更新了用户的类型。[阅读更多](../../administration/using/types-of-users.md)
+更新了用户的类型。[阅读更多](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Enhancement on Mass subscription - [Read more](../../automating/using/subscripti
 
 添加了S帐户建议。[阅读更多](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-更新了有关不同类型用户的部分。[阅读更多](../../administration/using/types-of-users.md)
+更新了有关不同类型用户的部分。[阅读更多](../../administration/using/users-management.md)
 
 更新了有关图像源个性化的部分。[阅读更多](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-在不同类型的Adobe Campaign用户中添加的部分。[阅读更多](../../administration/using/types-of-users.md)
+在不同类型的Adobe Campaign用户中添加的部分。[阅读更多](../../administration/using/users-management.md)
 
 工作流指南已重新组织和扩展。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
