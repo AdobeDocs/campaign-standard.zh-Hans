@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5 e-2bdce01 cfed
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -83,7 +83,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-of-adding-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 请注意，一旦已发布与配置文件字段关联的自定义资源，就会检索该维度的数据。<br /> </td> 
+   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 请注意，一旦已发布与配置文件字段关联的自定义资源，就会检索该维度的数据。<br /> </td> 
   </tr> 
   <tr> 
    <td> Push platform<br /> </td> 
