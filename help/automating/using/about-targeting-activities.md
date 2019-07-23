@@ -14,7 +14,7 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL 
 * [删除重复项](../../automating/using/deduplication.md)
 * [丰富性](../../automating/using/enrichment.md)
 
+**[!UICONTROL Targeting]** 活动允许您为出站过渡定义 **细分代码** 。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
