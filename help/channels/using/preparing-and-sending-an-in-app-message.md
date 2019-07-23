@@ -15,7 +15,7 @@ context-tags: 交付、触发器、返回；Delivery创建，向导
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ Adobe Campaign中提供三种类型的应用程序内消息：
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此消息类型使您能够定位移动应用程序中具有移动配置文件的所有已知或匿名用户。此消息类型只能使用非个人和非敏感属性进行个性化，不需要在Mobile SDK和Adobe Campaign的应用程序内消息服务之间进行安全握手。
 
    For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
