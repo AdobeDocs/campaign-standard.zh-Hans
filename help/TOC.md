@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign Standard帮助
 translation-type: tm+mt
-source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
+source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
 
 ---
 
@@ -175,6 +175,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [报告界面](reporting/using/reporting-interface.md)
       + [组件列表 ](reporting/using/list-of-components-.md)
       + [指示器计算](reporting/using/indicator-calculation.md)
+      + [疑难解答](reporting/using/troubleshooting.md)
    + List of reports {#list-of-reports}
       + [定义报表时间段](reporting/using/defining-the-report-period.md)
       + [退回摘要](reporting/using/bounce-summary.md)
@@ -196,6 +197,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [添加可视化](reporting/using/adding-visualizations.md)
       + [添加组件](reporting/using/adding-components.md)
       + [创建自定义配置文件维度](reporting/using/creating-a-custom-profile-dimension.md)
+      + [基于工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [关于Campaign集成](integrating/using/about-campaign-integrations.md)
    + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -274,6 +276,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [Contract](automating/using/reconciliation.md)
       + [提取文件](automating/using/extract-file.md)
       + [订阅服务](automating/using/subscription-services.md)
+      + [外部API](automating/using/external-api.md)
    + Filtering data {#filtering-data}
       + [编辑查询](automating/using/editing-queries.md)
       + [高级表达式编辑](automating/using/advanced-expression-editing.md)
@@ -291,7 +294,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [资源状态](developing/using/resource-statuses.md)
       + [监视数据模型变化](developing/using/monitoring-data-model-changes.md)
    + Adding or extending a resource {#adding-or-extending-a-resource}
-      + [添加资源的关键步骤](developing/using/key-steps-of-adding-a-resource.md)
+      + [添加资源的主要步骤](developing/using/key-steps-to-add-a-resource.md)
       + [创建或扩展资源](developing/using/creating-or-extending-the-resource.md)
       + [配置资源的数据结构](developing/using/configuring-the-resource-s-data-structure.md)
       + [配置屏幕定义](developing/using/configuring-the-screen-definition.md)
@@ -311,7 +314,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
    + [关于管理Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Users and security {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
-      + [用户类型](administration/using/types-of-users.md)
+      + [用户管理](administration/using/users-management.md)
       + [组织单位](administration/using/organizational-units.md)
       + [角色列表](administration/using/list-of-roles.md)
       + [管理组和用户](administration/using/managing-groups-and-users.md)
