@@ -15,7 +15,7 @@ context-tags: CusResource，main
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >建议使用30个字符最大值。
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
 1. Use the **[!UICONTROL Create element]** button to create a key.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can be edited.
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >建议使用30个字符最大值。
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -102,6 +107,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    ![](assets/schema_extension_26.png)
 
 1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >建议使用30个字符最大值。
+
 1. 要定义构成此索引的元素，请从为该资源创建的字段中选择字段。
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 在屏幕中，默认 **[!UICONTROL Label]** 情况下，这些和 **[!UICONTROL ID]** 字段是完成的，但是您可以编辑它们。
+
+   >[!NOTE]
+   >
+   >建议使用30个字符最大值。
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. 如果需要，修改资源的标签和ID。
+
+   >[!NOTE]
+   >
+   >建议使用30个字符最大值。
+
 1. 如果您需要将对此资源的访问权限限制为某些组织单位，请在此处指定它们。只有授权单位的用户才能在应用程序中使用此资源。
 1. 保存修改。
 
