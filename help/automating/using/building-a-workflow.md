@@ -15,7 +15,7 @@ context-tags: 工作流程，向导；工作流，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -94,6 +94,10 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
    >[!NOTE]
    >
    >您还可以通过复制现有活动复制现有活动。这样，您就可以保留最初定义的设置。For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. 要执行此操作，请双击过渡以访问其属性。
+
+**[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** 此外，活动允许您为出站过渡定义 **细分代码** 。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Configuring activities {#configuring-activities}
 
