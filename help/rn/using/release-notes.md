@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41 d34 b41
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
 每个版本都附带新增功能和修补程序。单击某个版本可查看其内容。Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* 修复了一个安全问题，以防止拒绝服务(DoS)攻击获取图像的无效请求。(AMP-33454)
+
+### Email Designer enhancements {#email-designer-enhancements-3}
+
+* 修复了在每次添加组件时将其他HTML样式标签添加到HTML模板的问题，这会显著增加模板的大小。(AMP-34694)
+* 修复了可阻止某些右上方工具栏菜单选项可用的问题。(AMP-34577)
+* 修复了将Mirror页面URL内容块插入电子邮件内容时出现的问题。(AMP-34779)
+* 修复了在电子邮件中使用JSPP代码时导致难以编辑内容的问题。(AMP-34574)
+* 修复了将超链接添加到超链接时顶部会截断图像的问题。(AMP-34382)
+* 修复了在Firefox中使用电子邮件设计器时出现的显示问题。(AMP-34364)
+* 修复了在电子邮件中定义动态内容时出现的高级模式的几个问题。(AMP-34351，Camp-34333，AMP-34331)
+* 修复了动态内容规则编辑器中出现的几个问题(Camp-34304、Camp-34303)。
+* 修复了一个问题，该问题可能导致链接字段无法显示在“电子邮件设计器设置”窗格(AMP-33749)中。
+* 修复了已发送电子邮件中过大的YouTube图标的问题。(AMP-33726)
+* 修复了一个安全问题，该问题导致镜像页面内容可编辑。(AMP-33691)
+* 修复了在使用大于动态内容中的符号时导致HTML输出损坏的问题。(AMP-33688)
+* 修复了在电子邮件设计器中编辑文本时使用撤消选项的问题。(AMP-32565)
+* 修复了在撤消样式而不是删除样式时创建额外标记的问题。(AMP-32359)
+* 现在可以定义电子邮件中使用的每个图像只能在桌面设备上显示还是只显示在移动设备上。
+* 现在可以设置Social内容组件的宽度和高度。
+* 修复了在删除该动态内容后无法删除动态内容旧源代码的问题。
+* 修复了一个问题，该问题可能会阻止在修改电子邮件后更新电子邮件的主题。
+* 修复了阻止n：n列结构在工作区进入工作区后被选中。
+* 修复了电子邮件仪表板中消息缩略图出现模糊的问题。
+* 修复了在Outlook中收到的电子邮件无法正确显示背景的问题。
+* 修复了电子邮件设计器主页上的一些排序问题。
+* 修复了在使用动态内容时复制变体发生的问题。
+* 从“电子邮件设计器设置”窗格中删除了一些不需要的字段。
+
+### Other improvements {#other-improvements-3}
+
+* 通过与Adobe Experience Platform位置服务的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的用户发送基于位置的营销消息。For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* 报告功能已得到改进，体验更好的体验。要使用此功能，您需要接受动态报告使用协议。For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* 在工作流中，添加了一个新选项来预览工作流的下一个执行步骤。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 在计划程序活动中，新选项允许您选择特定周的特定日期以进行月度交付。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 创建没有聚合期的重复分发时，交付功能板现在允许您在发送分发之前请求确认。For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 您现在可以使用在工作流外部信号活动中声明的事件变量来个性化交付的标签。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* GDPR删除查询已得到改进，可提高性能。(AMP-33504)
+* 从外部帐户配置界面中删除了“ftp”选项。(AMP-34472)
+
+### Other changes {#other-changes-2}
+
+* 在交付属性界面中添加了警告。它指定了根据他们的汇总时间段准备分发，并解冻以每天多次调用工作流，您应确保他们没有任何句点。(AMP-34393)
+* 自定义资源配置屏幕中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。
+* 现在，当尝试删除登陆页面使用的交易消息作为确认消息时，会显示一条消息。
+* 当活动运行时间超过个小时时，工作流日志中现在会显示警告。这不适用于推送通知、交付、信号、开始、结束、分叉和连接、计划和等待活动。
+* 当您达到同时运行的最大工作流数量时，工作流日志中会显示一条警告消息。
+* 现在已停止暂停或失败状态超过天的工作流，以减少磁盘空间。清理任务将显示在工作流日志中。
+* 使用“转移文件”活动时，如果文件大小超出可用磁盘空间，现在会记录错误。
+* 不再为应用程序内消息中的第二个按钮选择重定向到目标URL操作。
+
+### Patches {#patches-3}
+
+* 修复了可能导致GDPR访问请求失败的问题。
+* 修复了在收到唯一配置文件的多个触发器时会丢弃触发器的问题。
+* 修复了登录后可能导致错误自定义资源发布错误消息的问题。
+* 修复了创建或扩展自定义资源时显示空白页面的问题。
+* 修复了将appsubscriptionRCP作为定位维度无法在移动交付中定位的受众的问题。
+* 修复了阻止强制弹回电子邮件地址被放入隔离的错误。(AMP-24587)
+* 修复了添加字型规则，然后在保存字型前删除字体的问题。(AMP-32789)
+* 修复了捆绑动态内容时无法显示登陆页面内容的问题。(AMP-32924)
+* 修复了在对主交付的属性使用个性化时发生重复交付的问题。(AMP-32983)
+* 修复了工作流中的一个问题，该问题导致无法读取包含传入SMS消息数据的过渡结果。(AMP-33134)
+* 修复了在组合分叉和排除活动以创建受众时发生的工作流中的问题。(AMP-33401)
+* 修复了一个问题，该问题可能会阻止显示镜像页面内容，并防止发送的校样消息发送进行重复交付。(AMP-33413)
+* 修复了在配置文件和受众之间使用联盟活动时导致错误的问题。此问题是由于输入过渡中标识密钥不兼容造成的。(AMP-33713)
+* 修复了“测试”活动中的一个问题，该问题导致“recCount”表达式在双击时使用正确的语法。(AMP-33756)
+* 修复了打开帐单技术工作流日志时可能导致错误消息的问题。(AMP-34313)
+* 修复了在配置带有订阅的复选框字段时可能出现的登录页面中存在的问题。(AMP-34369)
+* 修复了配置列表并向其添加“图标”字段时出现的问题。(AMP-34585)
+* 修复了阻止使用“||“%”符号作为加载文件工作流活动中的日期或时间分隔符。(AMP-34706)
+* 修复了在添加活动、保存工作流然后点击浏览器的“返回”按钮时工作流中发生的问题。新添加的活动已从工作区中删除。(AMP-34788)
+* 修复了在登录页面中使用带有复选框的可见性条件时出现的问题。(AMP-34802)
+* 修复了“额外数据”选项卡中阻止字段显示在“附加数据”选项卡中(如果过滤维度设置为跟踪日志和目标维度为配置文件)的问题。
+* 修复了在导出“workflowTemplate”资源时导致错误消息的问题。
+* 修复了创建新配置文件时会阻止保存“国家/地区代码”字段(如果从对话框中选择“国家/地区代码”字段)的问题。
+* 修复了在使用直接邮件导入模板(updateQuarantinesDeliversRogsDirectMail)时出现的几个问题。
+* 修复了与资产集成有关的问题。
+* 修复了在“时间轴”视图上放大时出现的问题。(AMP-33628)
+* 修复了一个问题，该问题导致无法立即为具有预定日期和时间的电子邮件发送校样。(AMP-33723)
+* 修复了一个与在用户注销时生成错误日志相关的事务消息相关问题。(AMP-31698)
+* 修复了计划电子邮件时可能在特定环境上发生的错误。
+* 修复了导致更新交付执行工作流失败的问题。
+* 修复了一个安全问题，该问题导致主题包含多行时出现电子邮件内容。
+
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
