@@ -15,7 +15,7 @@ context-tags: 交付，部署，返回
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ You will be asked to finalize the send definitively by clicking the **[!UICONTRO
 >[!NOTE]
 >
 >如果消息已预定，则将在发送时间时发送该消息。For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+如果您使用的是没有聚合期的定期分发，则可以在发送发送之前请求确认。To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 **[!UICONTROL Deployment]** 此块显示发送进度。
 
