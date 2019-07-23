@@ -15,7 +15,7 @@ context-tags: Delivery TransactionalTemplate，概述
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 将活动分配给执行交付后，如果收件人的邮箱已满，交易消息会因临时错误而失败。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-如果已将事务事件分配给已失败的执行交付，则推迟并稍后重试此事件。重试后，它将分配给新的执行交付。
-
 >[!NOTE]
 >
 >将某个事件分配给执行交付时，该事件将显示在发送日志的发送日志中，并且仅此时显示。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 **发送日志更新**
 
-在将事务事件分配给已失败的执行提交后，将延迟此事件并在几分钟后重试。重试后，它将分配给新的执行交付。
-
-但是，新执行交付的发送日志不会立即更新(更新通过预定的工作流执行)。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+在重试过程中，不会立即更新新执行交付的发送日志(更新通过预定的工作流执行)。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **执行失败**
 
