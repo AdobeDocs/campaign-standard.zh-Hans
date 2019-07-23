@@ -14,7 +14,7 @@ discoiquuid: 332bd6be-3ca3-4d38-b608-8a66 c156 d080
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL 
 * [提取文件](../../automating/using/extract-file.md)
 * [订阅服务](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** 活动允许您为出站过渡定义 **细分代码** 。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
