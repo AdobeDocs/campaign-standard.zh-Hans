@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign Standard帮助
 translation-type: tm+mt
-source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
+source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
 
 ---
 
@@ -240,6 +240,7 @@ source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
       + [使用工作流数据](automating/using/using-workflow-data.md)
       + [执行工作流](automating/using/executing-a-workflow.md)
       + [使用外部参数调用工作流](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [工作流程最佳做法](automating/using/best-practices-workflows.md)
    + Targeting activities {#targeting-activities}
       + [关于定位活动](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
