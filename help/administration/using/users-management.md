@@ -14,7 +14,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23eded
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,13 +124,13 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 
    ![](assets/create_user_4.png)
 
-您的用户现在已创建，并且应接收到指向以下窗口的电子邮件重定向到以下窗口，用户必须先设置口令才能使用。此用户随后将能够连接到您的Adobe Campaign Standard实例。
+您的用户现在已创建，并且应接收到指向以下窗口的电子邮件重定向到以下窗口，用户必须先设置口令才能接受使用条款。此用户随后将能够连接到您的Adobe Campaign Standard实例。
 
 ![](assets/create_user_5.png)
 
-用户登录您的实例后，将与Adobe Campaign Standard同步。
+用户登录您的实例后，将立即同步到Adobe Campaign Standard。
 
-然后，您可以检查用户是否已与Adobe Campaign正确同步：
+然后，您可以检查用户是否已正确同步到Adobe Campaign：
 
 1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
 
@@ -149,3 +149,5 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 1. **[!UICONTROL Authorized connection zone]** 在字段中，选择用户将连接到此实例的方式，例如内部网络或VPN。
 
 1. Click **[!UICONTROL Save]**.
+
+您的用户现在可以使用Adobe Campaign Standard。
