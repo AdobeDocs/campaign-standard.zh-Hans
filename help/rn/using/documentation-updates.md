@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 19.3 - July 30 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 添加了有关如何使用在工作流外部信号活动中声明的事件变量个性化交付的标签的信息。[阅读更多](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+新增了有关如何在Adobe Campaign Standard中创建用户的新部分。[阅读更多](../../administration/using/users-management.md)
+
+已为动态报告添加故障排除。[阅读更多](../../reporting/using/troubleshooting.md)
+
+其中介绍了如何将不同应用程序内模板处理的不同应用程序内模板。[阅读更多](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+有关如何在电子邮件设计器中将电子邮件内容另存为片段的部分已更新。[阅读更多](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+添加了一条警告，提示添加额外空格如何影响电子邮件内容的布局。[阅读更多](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+已添加有关电子邮件设计器建议更新的新部分。[阅读更多](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+新增了关于如何使用真实客户数据发送证明的新部分。[阅读更多](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+已添加有关工作流最佳实践的新部分。[阅读更多](../../automating/using/best-practices-workflows.md)
+
+Campaign Standard和Classic错误消息列表已更新。[阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+在自定义资源文档中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。[阅读更多](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 新增了登陆页面限制的新页面。[阅读更多](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 已添加关于使用参数调用工作流时没有聚合期的建议。[阅读更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-有关如何在电子邮件设计器中将电子邮件内容另存为片段的部分已更新。[阅读更多](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Campaign Standard和Classic错误消息列表已更新。[阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+在自定义资源文档中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。[阅读更多](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 在新的“批处理大小”字段的“更新数据活动”部分中添加了信息，用于定义要上传的数据的最大批次大小。[阅读更多](../../automating/using/update-data.md#configuration)
 
 在新选项的Extract file活动部分中添加了一些信息，通过该选项，如果出站过渡为空，则可禁用文件生成过程。[阅读更多](../../automating/using/extract-file.md#configuration)
-
-新增了关于如何更新配置文件和服务Ext API的技术说明。[阅读更多](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
