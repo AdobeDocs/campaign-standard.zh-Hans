@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41 d34 b41
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
+source-git-commit: 8c1e17942d03250bbe863b2b57a0c810eaec6fa3
 
 ---
 
@@ -41,7 +41,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
