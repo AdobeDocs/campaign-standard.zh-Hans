@@ -15,7 +15,7 @@ context-tags: seedMember，概述
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 **相关主题：**
 
 [发送测试、准备和发送电子邮件](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 视频
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+本节介绍如何使用通过工作流访问的真实客户数据发送校样，而不是使用假冒测试配置文件数据。这样，您就可以检查工作流中使用的变量是否准确无误，并获取收件人收到的消息的视图。
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   此测试配置文件将成为目标受众的一部分。
+
+   >[!NOTE]
+   >
+   >在使用测试配置文件作为陷印时，对于消息中的任何丰富字段，相应的额外数据会随机从真实目标配置文件中选取并分配给陷印测试配置文件。
+
+1. 访问营销活动列表并创建测试工作流程。
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. 从链接的表中添加其他数据。For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. 从电子邮件消息控制板中，选择您创建的具有陷印使用情况的测试配置文件。
+
+1. 使用您在查询活动中定义的附加数据，添加到电子邮件内容个性化字段。
+
+1. 保存电子邮件并启动工作流。
+
+在消息准备过程中，目标计数包括您选择的测试配置文件。
+发送消息后，其他数据将由实际配置文件中的数据替换。
+
+>[!NOTE]
+>
+>只替换其他数据。测试配置文件不会使用任何真实的配置文件数据，如名字或姓氏。
