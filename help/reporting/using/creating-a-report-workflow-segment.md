@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >如果电子邮件发送的输入过渡为空，则默认情况下将添加先前过渡中的区段代码。
 
 您首先需要创建具有不同目标人群的工作流。这里，我们希望发送一封根据受众年龄个性化的电子邮件：一次交付20到30年的档案，另一个交付档案可用于30到40年的档案。
