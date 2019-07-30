@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97 d3403 b62
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ There are two categories of content elements that you can use: **fragments** and
 
 使用电子邮件设计器编辑电子邮件时，您可以将该电子邮件的一部分直接保存为片段。
 
+>[!CAUTION]
+>
+>您不能另存为包含个性化字段、动态内容或其他片段的结构。
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ There are two categories of content elements that you can use: **fragments** and
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 要使用新的片段，请打开任何其他电子邮件内容，并从片段列表中选择它。
+1. 要使用新的片段，请打开任何电子邮件内容并从片段列表中选择它。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
