@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41 d34 b41
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了在使用大于动态内容中的符号时导致HTML输出损坏的问题。(AMP-33688)
 * 修复了在电子邮件设计器中编辑文本时使用撤消选项的问题。(AMP-32565)
 * 修复了在撤消样式而不是删除样式时创建额外标记的问题。(AMP-32359)
-* 现在可以定义电子邮件中使用的每个图像只能在桌面设备上显示还是只显示在移动设备上。
-* 现在可以设置Social内容组件的宽度和高度。
+* 您现在可以定义电子邮件中使用的每个组件只能在桌面设备上显示，也可以仅显示在移动设备上。
+* 您现在可以设置Social内容组件的宽度和高度。
 * 修复了在删除该动态内容后无法删除动态内容旧源代码的问题。
 * 修复了一个问题，该问题可能会阻止在修改电子邮件后更新电子邮件的主题。
 * 修复了阻止n：n列结构在工作区进入工作区后被选中。
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 您现在可以使用在工作流外部信号活动中声明的事件变量来个性化交付的标签。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * GDPR删除查询已得到改进，可提高性能。(AMP-33504)
 * 从外部帐户配置界面中删除了“ftp”选项。(AMP-34472)
+* 您现在可以为每个电子邮件启用和禁用SMTP测试模式选项。For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (AMP-34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了在配置带有订阅的复选框字段时可能出现的登录页面中存在的问题。(AMP-34369)
 * 修复了配置列表并向其添加“图标”字段时出现的问题。(AMP-34585)
 * 修复了阻止使用“||“%”符号作为加载文件工作流活动中的日期或时间分隔符。(AMP-34706)
-* 修复了在添加活动、保存工作流然后点击浏览器的“返回”按钮时工作流中发生的问题。新添加的活动已从工作区中删除。(AMP-34788)
 * 修复了在登录页面中使用带有复选框的可见性条件时出现的问题。(AMP-34802)
 * 修复了“额外数据”选项卡中阻止字段显示在“附加数据”选项卡中(如果过滤维度设置为跟踪日志和目标维度为配置文件)的问题。
 * 修复了在导出“workflowTemplate”资源时导致错误消息的问题。
