@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ A note has been added in the [Calling a workflow with parameters](../../automati
 
 已添加有关电子邮件设计器建议更新的新部分。[阅读更多](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-新增了关于如何使用真实客户数据发送证明的新部分。[阅读更多](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 已添加有关工作流最佳实践的新部分。[阅读更多](../../automating/using/best-practices-workflows.md)
 
