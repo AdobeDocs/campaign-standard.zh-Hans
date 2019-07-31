@@ -15,7 +15,7 @@ context-tags: 工作流程，主要；工作流，概述
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
 
 工作流编辑屏幕由以下元素组成：
 
-* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities
-* [在](../../automating/using/workflow-interface.md#workspace)其中配置和组织活动的工作区
+* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities.
+* [在](../../automating/using/workflow-interface.md#workspace)其中配置和组织活动的工作区。
 * [操作栏](../../automating/using/workflow-interface.md#action-bar)，由允许您与工作流和/或组件交互的按钮组成。
 * [在选定活动周围出现的快速操作](../../automating/using/workflow-interface.md#quick-actions)允许您与之交互。
 
