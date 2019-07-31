@@ -15,7 +15,7 @@ context-tags: seedMember，概述
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -129,19 +129,19 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 
 [发送测试、准备和发送电子邮件](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 视频
 
-## Sending proofs using additional data {#sending-proofs-using-additional-data}
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
-本节介绍如何使用通过工作流访问的真实客户数据发送校样，而不是使用假冒测试配置文件数据。这样，您就可以检查工作流中使用的变量是否准确无误，并获取收件人收到的消息的视图。
+This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
 
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
-   此测试配置文件将成为目标受众的一部分。
+    This test profile becomes part of the targeted audience.
 
    >[!NOTE]
    >
-   >在使用测试配置文件作为陷印时，对于消息中的任何丰富字段，相应的额外数据会随机从真实目标配置文件中选取并分配给陷印测试配置文件。
+   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
 
-1. 访问营销活动列表并创建测试工作流程。
+1. Access the marketing activity list and create a test workflow.
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
@@ -149,21 +149,21 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. 从链接的表中添加其他数据。For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
    The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
 
-1. 从电子邮件消息控制板中，选择您创建的具有陷印使用情况的测试配置文件。
+1. From the email message dashboard, select the test profile with trap usage that you created.
 
-1. 使用您在查询活动中定义的附加数据，添加到电子邮件内容个性化字段。
+1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
 
-1. 保存电子邮件并启动工作流。
+1. Save the email and start the workflow.
 
-在消息准备过程中，目标计数包括您选择的测试配置文件。
-发送消息后，其他数据将由实际配置文件中的数据替换。
+During message preparation, the target count includes the test profile that you selected.
+Once the message is sent, additional data is replaced by data from a real profile.
 
 >[!NOTE]
->
->只替换其他数据。测试配置文件不会使用任何真实的配置文件数据，如名字或姓氏。
+   >
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
