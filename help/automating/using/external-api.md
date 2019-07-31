@@ -12,7 +12,7 @@ context-tags: ExternalAPI，workflow，main
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560246- HTTP头密钥不正确(标题键：'% s')。</td> 
    <td> <p>HTTP头密钥很坏(标题键：'% s')。</p>
-   <p> 注意：根据[RFC](https://tools.ietf.org/html/rfc7230#section-3.2.html)的形式，自定义标题键失败时记录此错误。</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF-560248-不允许HTTP头密钥(标题键：'% s')。</td> 
@@ -206,7 +206,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560247- AHTTTP标题值不正确(标题值：'% s')。</td> 
    <td> <p>HTTP头值不正确(标题值：'% s')。 </p>
-    <p>注意：当自定义标题值失败(根据RFC]失败时，会记录此错误(https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240- JSON有效负荷存在不良属性“%s”。</td> 
