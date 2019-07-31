@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 它指定根据客户聚集期准备分发，如果您计划每天多次调用工作流，则应确保他们没有任何时间段。
+Campaign Standard实施指南现已上线。[阅读更多](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-添加了有关如何使用在工作流外部信号活动中声明的事件变量个性化交付的标签的信息。[阅读更多](../../developing/using/uc-calling-resource-id-key.md)
+已创建关于Microsoft Dynamics365连接器实施和使用的一系列新帮助文章。请注意，此功能当前处于有限可用性。[阅读更多](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+添加了有关如何使用在工作流外部信号活动中声明的事件变量个性化交付的标签的信息。[阅读更多](../../automating/using/external-signal.md)
 
 新增了有关如何在Adobe Campaign Standard中创建用户的新部分。[阅读更多](../../administration/using/users-management.md)
+
+现在提供了一篇新文章，可用于简化营销活动，包括指向产品文档和教程视频的链接。[阅读更多](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 已为动态报告添加故障排除。[阅读更多](../../reporting/using/troubleshooting.md)
 
