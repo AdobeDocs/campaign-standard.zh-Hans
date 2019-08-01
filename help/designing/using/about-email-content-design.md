@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
+source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 ---
 
@@ -484,7 +484,7 @@ To have a plain text version different from the HTML version, you can disable th
 
 * **在Dreamweaver中添加营销活动个性化**
 
-   For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. Dreamweaver中的Campaign工具栏直接连接到Campaign实例的数据模型。这意味着您可以将希望个性化的任何数据从“名字”(如“名字”)拉到地址中。如果您在Campaign中创建了内容块，则还可以将这些内容直接拖入Dreamweaver。
+   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaver中的Campaign工具栏直接连接到Campaign实例的数据模型。这意味着您可以将希望个性化的任何数据从“名字”(如“名字”)拉到地址中。如果您在Campaign中创建了内容块，则还可以将这些内容直接拖入Dreamweaver。
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 
