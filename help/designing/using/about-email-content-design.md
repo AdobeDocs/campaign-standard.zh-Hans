@@ -14,12 +14,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
+source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 
 ---
 
 
-# About email content design{#about-email-content-design}
+# 关于电子邮件内容设计{#about-email-content-design}
 
 使用电子邮件设计器拖放界面在Adobe Campaign中创建和修改电子邮件内容。
 
@@ -31,21 +31,21 @@ source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 要了解有关一个或多个营销活动通用的操作，请参阅以下部分：
 
-* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
-* For more on importing another email content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
-* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-* For more on inserting links in an email, see [Inserting a link](../../designing/using/inserting-a-link.md).
-* For more on inserting images in an email, see [Inserting images](../../designing/using/inserting-images.md).
+* 有关个性化电子邮件内容的更多信息，请参阅 [插入个性化字段](../../designing/using/inserting-a-personalization-field.md) 和 [添加内容块](../../designing/using/adding-a-content-block.md)。
+* 有关导入其他电子邮件内容的详细信息，请参阅 [选择现有内容](../../designing/using/selecting-an-existing-content.md)。
+* 有关在电子邮件中定义动态内容的详细信息，请参阅 [在电子邮件中定义动态内容](../../designing/using/defining-dynamic-content-in-an-email.md)。
+* 有关在电子邮件中插入链接的详细信息，请参阅 [插入链接](../../designing/using/inserting-a-link.md)。
+* 有关在电子邮件中插入图像的详细信息，请参阅 [插入图像](../../designing/using/inserting-images.md)。
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+同时检查 [内容设计的最佳实践](../../designing/using/content-design-best-practices.md)。
 
-## About the Email Designer {#about-the-email-designer}
+## 关于电子邮件设计器 {#about-the-email-designer}
 
 通过电子邮件设计器，您可以创建电子邮件内容和电子邮件内容模板。它与简单的电子邮件、交易电子邮件、A/B测试电子邮件、多语言电子邮件和重复的电子邮件兼容。
 
-To get started with the Email Designer, watch this [set of videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
+要开始使用电子邮件设计器，请观看这 [套视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) ，这些视频解释了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件。
 
-### Email Designer home page {#email-designer-home-page}
+### 电子邮件设计器主页 {#email-designer-home-page}
 
 [创建电子邮件](../../channels/using/creating-an-email.md)时， **[!UICONTROL Email Designer]** 主页会在选择电子邮件内容时自动显示。
 
@@ -55,7 +55,7 @@ To get started with the Email Designer, watch this [set of videos](https://helpx
 
 ![](assets/email_designer_home_properties.png)
 
-**[!UICONTROL Templates]** 此选项卡允许您从现成的HTML内容中进行选择，或选择您已经创建的模板来快速开始设计电子邮件。See [Content templates](../../start/using/about-templates.md#content-templates).
+**[!UICONTROL Templates]** 此选项卡允许您从现成的HTML内容中进行选择，或选择您已经创建的模板来快速开始设计电子邮件。请参阅 [内容模板](../../start/using/about-templates.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
@@ -65,11 +65,11 @@ To get started with the Email Designer, watch this [set of videos](https://helpx
 
 如果您不选择模板，则电子邮件设计器主页还允许您选择如何开始设计内容：
 
-* Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-* Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/importing-content-from-a-file.md).
-* Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/importing-content-from-a-url.md).
+* 单击 **[!UICONTROL Create]** 按钮可从头开始创建新内容。请参阅 [从头开始设计电子邮件内容](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
+* 单击 **[!UICONTROL Upload]** 按钮可从计算机上传文件。请参阅 [从文件导入内容](../../designing/using/importing-content-from-a-file.md)。
+* 单击 **[!UICONTROL Import from URL]** 按钮可检索现有内容表单URL。请参阅 [从URL导入内容](../../designing/using/importing-content-from-a-url.md)。
 
-### Email Designer interface {#email-designer-interface}
+### 电子邮件设计器界面 {#email-designer-interface}
 
 电子邮件设计器提供了许多选项，用于创建、编辑和自定义内容的各个方面。
 
@@ -77,9 +77,9 @@ To get started with the Email Designer, watch this [set of videos](https://helpx
 
 ![](assets/email_designer_overview.png)
 
-From the elements available in the **Palette** (1), drag and drop structure components and content fragments into the main **Workspace** (2). Select a component or element in the **Workspace** (2) and customize its main styling and display characteristics from the **Settings** pane (3).
+从 **调色板** (1)中可用的元素，将结构组件和内容片段拖放到 **主Workspace** (2)中。在 **Workspace** (2)中选择一个组件或元素，并从 **“设置** ”窗格(3)中自定义其主样式和显示特性。
 
-Access more general options and settings from the main **Toolbar** (4).
+从主 **工具栏** (4)访问更多一般选项和设置。
 
 >[!NOTE]
 >
@@ -87,23 +87,23 @@ Access more general options and settings from the main **Toolbar** (4).
 
 ![](assets/email_designer_toolbar.png)
 
-The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. 它包含允许您更改文本样式的操作按钮和按钮。执行的修改始终适用于所选区域。
+编辑器界面 **的上下文工具栏** 根据所选区域提供各种功能。它包含允许您更改文本样式的操作按钮和按钮。执行的修改始终适用于所选区域。
 
-### General recommendations for using the Email Designer {#general-recommendations-for-using-the-email-designer}
+### 使用电子邮件设计器的一般建议 {#general-recommendations-for-using-the-email-designer}
 
 为了合理使用电子邮件设计器并尽可能简单地创建最佳电子邮件，我们建议您遵循以下原则：
 
 * 在HTML的&lt; head&gt;部分使用内联样式而不是单独的CSS和CSS。通过使用内嵌样式，您可以优化内容片段保存和重复使用。
 
-   See [Adding inline styling attributes](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
+   请参阅 [添加内嵌样式属性](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes)。
 
 * 通过创建和重用内容片段来使营销活动保持一致性，从而轻松解决您的品牌。
 
-   See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+   请参阅 [创建内容片段](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)。
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+同时检查 [内容设计的最佳实践](../../designing/using/content-design-best-practices.md)。
 
-### Email Designer compatibility mode {#email-designer-compatibility-mode}
+### 电子邮件设计器兼容性模式 {#email-designer-compatibility-mode}
 
 上传内容时，它必须包含特定标记才能完全兼容并可使用电子邮件设计器的WYSIWYG编辑器编辑。
 
@@ -120,16 +120,16 @@ Also check the [general best practices for content design](../../designing/using
 
 其他修改(如向电子邮件或高级样式添加新章节)必须通过HTML模式直接在电子邮件的源代码中完成。
 
-For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
+有关将现有电子邮件转换为电子邮件设计人员兼容电子邮件的更多信息，请参阅 [此部分](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents)。
 
-### Email Designer limitations {#email-designer-limitations}
+### 电子邮件设计器限制 {#email-designer-limitations}
 
-* 不能在片段中使用个性化字段。For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* 您无法直接保存为在电子邮件设计器中编辑的某个电子邮件内容的片段。您需要将对应于该内容的HTML复制粘贴到新片段中。For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+* 不能在片段中使用个性化字段。有关片段的详细信息，请参阅 [此部分](../../designing/using/defining-the-email-structure.md#about-fragments)。
+* 您无法直接保存为在电子邮件设计器中编辑的某个电子邮件内容的片段。您需要将对应于该内容的HTML复制粘贴到新片段中。有关此操作的详细信息，请参阅 [将内容保存为片段](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)。
 * 编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
-* 样式无法保存为主题，供以后重复使用。但是，CSS样式可以保存在内容模板或电子邮件中。For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+* 样式无法保存为主题，供以后重复使用。但是，CSS样式可以保存在内容模板或电子邮件中。有关样式的更多信息，请参阅 [此部分](../../designing/using/editing-email-styles.md)。
 
-### Email Designer updates {#email-designer-updates}
+### 电子邮件设计器更新 {#email-designer-updates}
 
 电子邮件设计器不断改进。如果您从现成的模板中创建了电子邮件内容，或者如果您创建了片段，则在下次打开内容时，您可能会收到以下更新消息：
 
@@ -145,28 +145,30 @@ Adobe建议将您的内容更新到最新版本，以避免出现CSS冲突问题
 
 * 如果有多个片段，则必须更新要在电子邮件内容中使用的每个片段。
 
-* 为避免对当前电子邮件产生影响，因为某些电子邮件可能正在准备阶段或在不希望更改的特定营销活动中，因此您可以选择不更新部分片段。
+* 为避免影响当前尚未准备好的电子邮件，您可以选择不更新某些片段。
 
 * 您仍可以发送未更新片段的电子邮件，但该片段不可编辑。
 
-## Designing an email content from scratch {#designing-an-email-content-from-scratch}
+* 更新已准备就绪的电子邮件中使用的片段不会影响这些电子邮件。
+
+## 从头开始设计电子邮件内容 {#designing-an-email-content-from-scratch}
 
 以下是使用电子邮件设计器从头开始创建和设计电子邮件内容的主要步骤：
 
 1. 创建电子邮件并打开其内容。
-1. 添加结构组件以使电子邮件成为形状。See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. 在结构组件中插入内容组件和片段。See [Adding fragments and content components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
-1. 添加图像并编辑电子邮件的文本。See [Inserting images](../../designing/using/inserting-images.md).
-1. 通过添加个性化字段、链接等，个性化您的电子邮件。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-1. 定义电子邮件的主题行。See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
+1. 添加结构组件以使电子邮件成为形状。请参阅 [编辑电子邮件结构](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)。
+1. 在结构组件中插入内容组件和片段。请参阅 [添加片段和内容组件](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)。
+1. 添加图像并编辑电子邮件的文本。请参阅 [插入图像](../../designing/using/inserting-images.md)。
+1. 通过添加个性化字段、链接等，个性化您的电子邮件。请参阅 [插入个性化字段](../../designing/using/inserting-a-personalization-field.md)、 [插入链接](../../designing/using/inserting-a-link.md) 和 [在电子邮件中定义动态内容](../../designing/using/defining-dynamic-content-in-an-email.md)。
+1. 定义电子邮件的主题行。请参阅 [个性化电子邮件主题行](../../designing/using/personalizing-the-subject-line-of-an-email.md)。
 1. 预览您的电子邮件。
 1. 保存您的内容，并在确保您已定义受众并正确安排发送后继续处理您的消息。
 
-You can also check out this [introduction video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans).
+您还可以查看此 [介绍视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)。
 
 >[!NOTE]
 >
->为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+>为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。有关此操作的详细信息，请参阅 [内容模板](../../start/using/about-templates.md#content-templates)。
 
 **相关主题**：
 
@@ -177,11 +179,11 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [预览消息](../../sending/using/previewing-messages.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
 
-## Designing an email using existing contents {#designing-an-email-using-existing-contents}
+## 使用现有内容设计电子邮件 {#designing-an-email-using-existing-contents}
 
 本节介绍如何将现有电子邮件转换为电子邮件设计人员兼容电子邮件。
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+默认情况下，如果只上传任何HTML(请参阅 [从某个文件](../../designing/using/importing-content-from-a-file.md)导入内容)，则会在“[兼容性模式](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)”中加载该内容，这会通过UI限制版本可能(只有就地版本，无需拖放)。
 
 但是，如果您要构建可组合到多个电子邮件中的模块化模板和片段框架，应考虑将电子邮件HTML转换为电子邮件设计器模板。
 
@@ -191,26 +193,26 @@ By default, if you just upload any HTML (see [Importing content from a file](../
 * [使用片段和组件](../../designing/using/about-email-content-design.md#using-fragments-and-components)从头开始创建HTML设计
 * [将HTML内容](../../designing/using/about-email-content-design.md#converting-an-html-content) 电子邮件转换为模块化电子邮件设计器内容
 
-### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
+### 通过现成的模板构建内容 {#building-content-from-an-out-of-the-box-template}
 
-1. 创建电子邮件并打开其内容。For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
-1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
-1. Click the **[!UICONTROL Templates]** tab.
+1. 创建电子邮件并打开其内容。有关此操作的详细信息，请参阅 [创建电子邮件](../../channels/using/creating-an-email.md)。
+1. 单击主页图标可访问 **[!UICONTROL Email Designer]** 主页。
+1. 单击 **[!UICONTROL Templates]** 选项卡。
 1. 选择现成的HTML模板。
 
-   不同的模板提供多种类型元素的各种组合。例如，“羽化”模板具有边距，而“Astro”模板没有边距。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+   不同的模板提供多种类型元素的各种组合。例如，“羽化”模板具有边距，而“Astro”模板没有边距。有关此操作的详细信息，请参阅 [内容模板](../../start/using/about-templates.md#content-templates)。
 
-1. 您可以组合这些元素以构建许多电子邮件变体。For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
-1. 您可以使用左侧的蓝色箭头来回拖动结构组件，从而移动元素。For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. 您还可以移动组件以更改每个结构元素的组织。For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. 您可以组合这些元素以构建许多电子邮件变体。例如，您可以通过选择结构组件并从上下文工具栏单击来 **[!UICONTROL Duplicate]** 复制电子邮件部分。
+1. 您可以使用左侧的蓝色箭头来回拖动结构组件，从而移动元素。有关此操作的详细信息，请参阅 [编辑电子邮件结构](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)。
+1. 您还可以移动组件以更改每个结构元素的组织。有关此操作的详细信息，请参阅 [添加片段和组件](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)。
 1. 根据需要修改每个元素的内容：图像、文本、链接。
-1. 根据需要调整样式选项到内容。For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. 根据需要调整样式选项到内容。有关此操作的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/editing-email-styles.md)。
 
-### Using fragments and components {#using-fragments-and-components}
+### 使用片段和组件 {#using-fragments-and-components}
 
 为了简单地使外部内容符合电子邮件设计器的要求，Adobe建议从头开始创建一条消息，并将现有电子邮件中的内容复制到片段和组件中。
 
-When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. 请确保在继续操作之前熟悉HTML。
+当您有无法重新创建的内容时，可以使用 **[!UICONTROL Html]** 内容组件复制原始电子邮件中的HTML代码。请确保在继续操作之前熟悉HTML。
 
 下面介绍了一个完整的示例。
 
@@ -234,7 +236,7 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
 要执行此操作，请执行以下步骤：
 
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+1. 在Adobe Campaign中，转至 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 并为标题创建一个片段。有关此操作的详细信息，请参阅 [创建内容片段](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)。
 1. 为片段添加任意所需的结构组件。
 
    ![](assets/des_loading_compatible_fragment_1.png)
@@ -245,7 +247,7 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
 1. 上传相应的图像，输入文本并调整设置。
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   有关管理样式设置和内嵌属性的更多信息，请参阅 [编辑电子邮件样式](../../designing/using/editing-email-styles.md)。
 
    ![](assets/des_loading_compatible_fragment_3.png)
 
@@ -254,7 +256,7 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/des_loading_compatible_fragment_4.png)
 
-   If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   如果您熟悉HTML，可以使用 **[!UICONTROL Html]** 内容组件从原始页脚复制HTML代码。有关此操作的详细信息，请参阅 [关于内容组件](../../designing/using/defining-the-email-structure.md#about-content-components)。
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -264,23 +266,23 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
 您现在可以使用电子邮件设计器创建电子邮件模板。使用内容组件反映电子邮件的不同部分，并调整设置，使其尽可能接近原始Newsletter。最后，插入刚刚创建的片段。
 
-1. 使用电子邮件设计器创建模板。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
-1. 将多个结构组件插入模板-对应于电子邮件的标题、页脚和正文。For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. 使用电子邮件设计器创建模板。有关此操作的详细信息，请参阅 [内容模板](../../start/using/about-templates.md#content-templates)。
+1. 将多个结构组件插入模板-对应于电子邮件的标题、页脚和正文。有关添加结构组件的详细信息，请参阅 [使用电子邮件设计器编辑电子邮件结构](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)。
 1. 根据需要插入任意数量的内容组件以创建Newsletter正文。这将是您每月更新的电子邮件的可编辑内容。
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   如果您熟悉HTML代码，Adobe建议利用 **[!UICONTROL Html]** 组件，您可以在其中复制粘贴原始电子邮件中更复杂的元素。使用其他组件，如 **[!UICONTROL Button]**&#x200B;或 **[!UICONTROL Image]****[!UICONTROL Text]** 其他内容。有关此操作的详细信息，请参阅 [关于内容组件](../../designing/using/defining-the-email-structure.md#about-content-components)。
 
    >[!NOTE]
    >
-   >Using the **[!UICONTROL Html]** component results in creating components that are editable with limited options. 在选择此组件之前，请确保您知道如何处理HTML代码。
+   >使用 **[!UICONTROL Html]** 组件创建可编辑的组件，但选项有限。在选择此组件之前，请确保您知道如何处理HTML代码。
 
 1. 调整内容组件，以尽可能多地匹配原始电子邮件。
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   有关管理样式设置和内嵌属性的更多信息，请参阅 [编辑电子邮件样式](../../designing/using/editing-email-styles.md)。
 
 1. 将之前创建的两个片段(页眉和页脚)插入到所需结构组件中。
 
@@ -298,7 +300,7 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 * [电子邮件设计器的简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)
 * [从头开始设计电子邮件内容](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
 
-### Converting an HTML content {#converting-an-html-content}
+### 转换HTML内容 {#converting-an-html-content}
 
 此用例提供了将HTML电子邮件转换为电子邮件设计器组件的快速方法。
 
@@ -337,11 +339,11 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 识别完所有块后，在电子邮件设计器中，对现有电子邮件的每个部分重复以下步骤：
 
 1. 打开电子邮件设计器以创建空电子邮件内容。
-1. 设置正文属性：背景颜色、宽度等。For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
-1. 添加结构组件。For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. 添加HTML组件。For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. 设置正文属性：背景颜色、宽度等。有关此操作的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/editing-email-styles.md)。
+1. 添加结构组件。有关此操作的详细信息，请参阅 [编辑电子邮件结构](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)。
+1. 添加HTML组件。有关此操作的详细信息，请参阅 [添加片段和组件](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)。
 1. 将HTML复制粘贴到该组件中。
-1. 切换到移动视图。For more on this, see [this section](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+1. 切换到移动视图。有关此操作的详细信息，请参阅 [此部分](../../designing/using/about-email-content-design.md#switching-to-mobile-view)。
 
    响应式视图已断开，因为您的CSS丢失。
 
@@ -358,18 +360,18 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    >[!NOTE]
    >
-   >Do not modify the CSS generated by the Email Designer: `<style acrite-template-css="true">` and `<style acrite-custom-styles="" type="text/css">`. 请确保在此之后添加样式。
+   >请勿修改电子邮件设计器生成的CSS： `<style acrite-template-css="true">``<style acrite-custom-styles="" type="text/css">`和.请确保在此之后添加样式。
 
 1. 返回移动视图以检查内容是否正确显示并保存更改。
 
-## Switching to mobile view {#switching-to-mobile-view}
+## 切换到移动视图 {#switching-to-mobile-view}
 
 您可以通过单独编辑移动显示屏的所有样式选项，微调电子邮件的响应式设计。例如，您可以调整边距和填充，使用较小或更大的字体大小、更改按钮或应用电子邮件的移动版本特有的不同背景颜色。
 
-移动视图中提供所有样式选项。The Email Designer style settings are presented in the [Editing email styles](../../designing/using/editing-email-styles.md) section.
+移动视图中提供所有样式选项。“电子邮件设计器”样式设置显示在 [“编辑电子邮件样式](../../designing/using/editing-email-styles.md) ”部分中。
 
-1. 创建电子邮件并开始编辑内容。For more on this, see [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.
+1. 创建电子邮件并开始编辑内容。有关此操作的详细信息，请参阅 [从头开始设计电子邮件内容](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
+1. 要访问专用的移动视图，请选择 **[!UICONTROL Switch to mobile view]** 按钮。
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -385,20 +387,20 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. 在移动设备上显示时，您可以隐藏组件。To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+1. 在移动设备上显示时，您可以隐藏组件。为此，请从中选择 **[!UICONTROL Show only on desktop devices]****[!UICONTROL Display options]**。
 您还可以选择在桌面设备上隐藏此组件，这意味着它将仅在移动设备上显示。**[!UICONTROL Show only on mobile devices]**为此，请选择。
 例如，此选项允许您在移动设备上显示特定图像，在桌面设备上显示另一幅图像。
 您可以从移动视图或桌面视图中设置此选项。
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. 您刚刚制作的样式更改不会反映出来。
+1. 再次单击 **[!UICONTROL Switch to mobile view]** 按钮可返回标准桌面视图。您刚刚制作的样式更改不会反映出来。
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >The only exception is the **[!UICONTROL Style inline]** settings. 任何样式内嵌设置更改也将应用于标准桌面视图。
+   >唯一的例外是 **[!UICONTROL Style inline]** 设置。任何样式内嵌设置更改也将应用于标准桌面视图。
 
 1. 对电子邮件结构或内容的任何其他更改，如文本编辑、上传新图像、添加新组件等。也会应用于标准视图。
 
@@ -406,7 +408,7 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. 更改会反映出来。
+   再次单击 **[!UICONTROL Switch to mobile view]** 按钮可返回标准桌面视图。更改会反映出来。
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -420,19 +422,19 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Switch again to mobile view, and now disable the **[!UICONTROL Background color]** setting.
+1. 再次切换到移动视图，现在禁用 **[!UICONTROL Background color]** 设置。
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    现在应用桌面视图中定义的背景颜色：它变灰(而非空白)。
 
-   The only exception is the **[!UICONTROL Border color]** setting. 在移动视图中禁用时，即使在桌面视图中定义了边框颜色，也不再应用边框。
+   唯一的例外是 **[!UICONTROL Border color]** 设置。在移动视图中禁用时，即使在桌面视图中定义了边框颜色，也不再应用边框。
 
-## Plain text and HTML modes {#plain-text-and-html-modes}
+## 纯文本和HTML模式 {#plain-text-and-html-modes}
 
-### Generating a text version of the email {#generating-a-text-version-of-the-email}
+### 生成电子邮件的文本版本 {#generating-a-text-version-of-the-email}
 
-By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
+默认情况下，会自动生成电子邮件的 **[!UICONTROL Plain text]** 版本并与 **[!UICONTROL Edit]** 版本同步。
 
 个性化字段和添加到HTML版本的内容块也与纯文本版本同步。
 
@@ -440,7 +442,7 @@ By default, the **[!UICONTROL Plain text]** version of your email is automatical
 >
 >要在纯文本版本中使用内容块，请确保它们不包含HTML代码。
 
-To have a plain text version different from the HTML version, you can disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch from the **[!UICONTROL Plain text]** view of your email.
+要有与HTML版本不同的纯文本版本，您可以通过从电子邮件视图中单击 **[!UICONTROL Sync with HTML]** 切换来禁用 **[!UICONTROL Plain text]** 此同步。
 
 ![](assets/email_designer_textversion.png)
 
@@ -448,29 +450,29 @@ To have a plain text version different from the HTML version, you can disable th
 
 >[!NOTE]
 >
->If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. **[!UICONTROL Plain text]** 视图中所做的更改不能反映在 **[!UICONTROL HTML]** 视图中。
+>如果在同步处于禁用状态时编辑 **[!UICONTROL Plain text]** 版本，下次启用该选项 **[!UICONTROL Sync with HTML]** 时，您在纯文本版本中所做的所有更改将替换为HTML版本。**[!UICONTROL Plain text]** 视图中所做的更改不能反映在 **[!UICONTROL HTML]** 视图中。
 
-### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
+### 在HTML中编辑电子邮件内容源 {#editing-an-email-content-source-in-html}
 
 对于最高级的用户和调试，您可以直接在HTML中查看和编辑电子邮件内容。
 
 您有两种方法可以编辑电子邮件的HTML版本：
 
-* Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the entire email.
+* 选择 **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** 以打开整个电子邮件的HTML版本。
 
    ![](assets/email_designer_html1.png)
 
-* From the WYSIWYG interface, select an element and click the **[!UICONTROL Source code]** icon.
+* 从WYSIWYG界面中，选择元素并单击 **[!UICONTROL Source code]** 图标。
 
-   只显示选定元素的源。You can edit the source code if the selected element is a **[!UICONTROL HTML]** content component. 其他组件处于只读模式，但仍可在电子邮件的完整HTML版本中编辑。
+   只显示选定元素的源。如果选定元素是 **[!UICONTROL HTML]** 内容组件，则可以编辑源代码。其他组件处于只读模式，但仍可在电子邮件的完整HTML版本中编辑。
 
    ![](assets/email_designer_html2.png)
 
-如果修改HTML代码，则电子邮件的响应性可能会被破坏。Make sure to test it using the **[!UICONTROL Preview]** button. See [Previewing messages](../../sending/using/previewing-messages.md).
+如果修改HTML代码，则电子邮件的响应性可能会被破坏。确保使用 **[!UICONTROL Preview]** 按钮测试它。请参阅 [预览消息](../../sending/using/previewing-messages.md)。
 
-## Design through Adobe Campaign integrations {#design-through-adobe-campaign-integrations}
+## 通过Adobe Campaign集成进行设计 {#design-through-adobe-campaign-integrations}
 
-### Editing content in Dreamweaver {#editing-content-in-dreamweaver}
+### 在Dreamweaver中编辑内容 {#editing-content-in-dreamweaver}
 
 通过Adobe Campaign Standard与Dreamweaver的集成，您可以在Dreamweaver界面中编辑电子邮件的内容。您可以访问Dreamweaver的强大界面，设计和开发响应式电子邮件内容。
 
@@ -484,15 +486,15 @@ To have a plain text version different from the HTML version, you can disable th
 
 * **在Dreamweaver中添加营销活动个性化**
 
-   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaver中的Campaign工具栏直接连接到Campaign实例的数据模型。这意味着您可以将希望个性化的任何数据从“名字”(如“名字”)拉到地址中。如果您在Campaign中创建了内容块，则还可以将这些内容直接拖入Dreamweaver。
+   对于电子邮件开发人员，不再需要添加 ```[[FIRSTNAME_PLACEHOLDER]]``` 类似文本或查找数据模型表的语法。Dreamweaver中的Campaign工具栏直接连接到Campaign实例的数据模型。这意味着您可以将希望个性化的任何数据从“名字”(如“名字”)拉到地址中。如果您在Campaign中创建了内容块，则还可以将这些内容直接拖入Dreamweaver。
 
-This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
+此功能在可从此处访问 [的Dreamweaver文档中进行详细](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)介绍。还提供演示 [视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) 。
 
-### Editing content in Experience Manager {#editing-content-in-experience-manager}
+### 在Experience Manager中编辑内容 {#editing-content-in-experience-manager}
 
-电子邮件内容可在Experience Manager中进行编辑，然后用于Adobe Campaign Standard中的一个或多个电子邮件。Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
+电子邮件内容可在Experience Manager中进行编辑，然后用于Adobe Campaign Standard中的一个或多个电子邮件。请参阅 [本文档](../../integrating/using/integrating-with-experience-manager.md)。
 
-### Email design options comparison {#email-design-options-comparison}
+### 电子邮件设计选项比较 {#email-design-options-comparison}
 
 Adobe Campaign提供多个电子邮件创作选项。下表显示了它们的主要可能性、优点和限制。
 
@@ -500,7 +502,7 @@ Adobe Campaign提供多个电子邮件创作选项。下表显示了它们的主
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer<br /> </th> 
+   <th> 电子邮件设计器<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -508,87 +510,83 @@ Adobe Campaign提供多个电子邮件创作选项。下表显示了它们的主
  <tbody> 
   <tr> 
    <td> <strong>启动空白电子邮件</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 支持的<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>编写HTML</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 不受支持<br /> </td> 
+   <td> 支持的<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>更新HTML</strong><br /> </td> 
-   <td> Only inside an HTML component<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> 仅在HTML组件内<br /> </td> 
+   <td> 不受支持<br /> </td> 
+   <td> 支持的<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>基本个性化</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 支持的<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>高级个性化</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> 不受支持<br /> </td> 
+   <td> 不受支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>校样/预览</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Preview in AEM<br /> Proof in Campaign<br /> </td> 
-   <td> Preview and proof in Campaign<br /> </td> 
+   <td> 支持的<br /> </td> 
+   <td> Campaign中的AEM<br /> 校样预览<br /> </td> 
+   <td> Campaign中的预览和校样<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>产品列表</strong><br /> </td> 
-   <td> Supported in email transactional messages<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> 电子邮件交易消息支持<br /> </td> 
+   <td> 不受支持<br /> </td> 
+   <td> 不受支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>益处</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     - 通过拖放体验轻松构建电子邮件<br/>-与传统内容编辑器类似的功能<br/>-可重复使用的片段内容
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     - 重用电子邮件中网站的资产<br/>-利用电子邮件内容中Experience
+ Manager的强大功能
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    - 开发人员可以直接编码电子邮件<br/>-双向同步<br/>-在Dreamweaver中脱机编辑和稍后同步<br/>-通过Dreamweaver将图像上载到Adobe
+ Campaign
   </td> 
   </tr> 
   <tr> 
    <td> <strong>限制</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     - 片段中没有条件内容<br/>-不可能使用Experience
+ Manager片段
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     - 高级个性化难以实现<br/>-需要在Adobe
+ Campaign中发送测试
   </td> 
-   <td> Dynamic content not supported<br /> </td> 
+   <td> 不支持动态内容<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>受众</strong><br /> </td> 
-   <td> Marketers who want to keep the flexibility to use HTML components in combination with drag-and-drop features<br /> </td> 
-   <td> Marketers already using Experience Manager who want to use standard email templates with little personalization<br /> </td> 
-   <td> Developers who want to code email contents and integrate directly with Adobe Campaign<br /> </td> 
+   <td> 希望将HTML组件与拖放功能结合使用的营销人员<br /> </td> 
+   <td> 已经使用Experience Manager的营销人员希望在很少个性化的情况下使用标准电子邮件模板<br /> </td> 
+   <td> 希望编码电子邮件内容并直接与Adobe Campaign集成的开发人员<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>了解更多信息</strong><br /> </td> 
-   <td> See <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">About the Email Designer</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a><br /> </td> 
+   <td> 请参阅 <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">关于电子邮件设计器</a><br /> </td> 
+   <td> 请参阅 <a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a><br /> </td> 
+   <td> 请参阅 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> ，观看此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">视频</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
