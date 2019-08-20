@@ -15,16 +15,16 @@ context-tags: CusResource，main
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
+source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
 
 ---
 
 
-# Configuring the resource's data structure{#configuring-the-resource-s-data-structure}
+# 配置资源的数据结构{#configuring-the-resource-s-data-structure}
 
 创建新的自定义资源后，必须配置数据结构。
 
-When editing the resource, in the **[!UICONTROL Data structure]** tab, you can add:
+编辑资源时， **[!UICONTROL Data structure]** 在选项卡中，您可以添加：
 
 * [Fields](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
 * [标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
@@ -32,23 +32,23 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 * [链接](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 * [发送日志](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-## Adding fields to a resource {#adding-fields-to-a-resource}
+## 将字段添加到资源 {#adding-fields-to-a-resource}
 
 您可以向资源添加新字段，以存储不属于现成数据模型之外的数据。
 
-1. Use the **[!UICONTROL Create element]** button to create a field.
+1. 使用 **[!UICONTROL Create element]** 按钮创建字段。
 1. 指定标签、ID、字段类型并定义为此字段授权的最大长度。
 
-   The **[!UICONTROL ID]** field is mandatory and must be unique for each field added.
+   字段为 **[!UICONTROL ID]** 必填字段，对于添加的每个字段都必须是唯一的。
 
    >[!NOTE]
    >
-   >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >如果将 **[!UICONTROL Label]** 字段留空，将从ID自动完成该字段。
    >建议使用30个字符最大值。
 
    ![](assets/schema_extension_4.png)
 
-1. To modify one of the fields, check the **[!UICONTROL Edit Properties]** button.
+1. 要修改其中一个字段，请选中 **[!UICONTROL Edit Properties]** 按钮。
 
    ![](assets/schema_extension_24.png)
 
@@ -56,57 +56,57 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
    ![](assets/schema_extension_5.png)
 
-1. Check the **[!UICONTROL Specify a list of authorized values]** option if you need to define values that will be offered to the user (enumeration values).
+1. 如果您需要定义将向用户提供的值(枚举值)，请选中 **[!UICONTROL Specify a list of authorized values]** 此选项。
 
-   Then, click **[!UICONTROL Create element]** and specify a **[!UICONTROL Label]** and **[!UICONTROL Value]**. 根据需要添加任意数量的值。
+   然后，单击 **[!UICONTROL Create element]** 并指定一个 **[!UICONTROL Label]** 和 **[!UICONTROL Value]**。根据需要添加任意数量的值。
 
-1. Once you have added your fields, check the **[!UICONTROL Add audit fields]** box to include fields detailing the creation date, the user that created the resource, the date, and the author of the last modification.
-1. Check the **[!UICONTROL Add access authorization management fields]** box to include the fields stating who has access rights to that particular resource.
+1. 添加字段后，请选中 **[!UICONTROL Add audit fields]** 相应的框，以包括创建日期的字段、创建资源的用户、日期以及上次修改的作者。
+1. 选中 **[!UICONTROL Add access authorization management fields]** 此复选框，以包含指示谁有权访问该特定资源的字段。
 
-   这些字段显示在数据和元数据中，这些字段在执行数据库更新后可显示。For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
+   这些字段显示在数据和元数据中，这些字段在执行数据库更新后可显示。有关此操作的详细信息，请参阅 [更新数据库结构](../../developing/using/updating-the-database-structure.md) 部分。
 
-1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. 请注意，现有实体将保留为空。
-1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Personalize the resource title]** box. 从为此资源创建的字段中选择一个字段。
+1. 选中 **[!UICONTROL Add automatic ID]** 此字段可自动生成ID。请注意，现有实体将保留为空。
+1. 要修改资源元素名称将在列表和创建步骤中显示的方式，请选中 **[!UICONTROL Personalize the resource title]** 框。从为此资源创建的字段中选择一个字段。
 
    ![](assets/schema_extension_18.png)
 
 此时将定义资源的字段。
 
-## Defining identification keys {#defining-identification-keys}
+## 定义标识密钥 {#defining-identification-keys}
 
 每个资源必须至少具有一个唯一密钥。例如，您可以指定一个密钥，以便两个产品在购买表中没有相同的ID。
 
-1. Specify it in the **[!UICONTROL Automatic primary key]** section the size for the storage if you would like to have a technical key automatically and incrementally generated.
+1. 如果您希望自动和递增生成技术密钥，请在 **[!UICONTROL Automatic primary key]** 部分中指定存储大小。
 
    ![](assets/schema_extension_6.png)
 
-1. Use the **[!UICONTROL Create element]** button to create a key.
+1. 使用 **[!UICONTROL Create element]** 按钮创建键。
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+   默认情况下，这些字段 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 字段已完成，但您可以编辑它们。
 
    >[!NOTE]
    >
    >建议使用30个字符最大值。
 
-1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
+1. 要定义组成此键的元素，请单击 **[!UICONTROL Create element]** 并选择您为此资源创建的字段。
 
    ![](assets/schema_extension_7.png)
 
-   Created keys are displayed in the **[!UICONTROL Custom keys]** section.
+   创建的键将显示在 **[!UICONTROL Custom keys]** 章节中。
 
 此时会创建资源的标识密钥。
 
-## Defining indexes {#defining-indexes}
+## 定义索引 {#defining-indexes}
 
 索引可引用一个或多个资源字段。索引允许数据库对记录进行排序，以便更轻松地恢复它们。它们优化SQL查询的性能。
 
 建议定义索引，但不是强制定义索引。
 
-1. Use the **[!UICONTROL Create element]** button to create an index.
+1. 使用 **[!UICONTROL Create element]** 按钮创建索引。
 
    ![](assets/schema_extension_26.png)
 
-1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+1. 默认情况下，这些字段 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 字段已完成，但您可以编辑它们。
 
    >[!NOTE]
    >
@@ -118,30 +118,30 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
 1. Click **[!UICONTROL Confirm]**.
 
-The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
+创建的索引将显示在 **[!UICONTROL Index]** 该部分的列表中。
 
-## Defining links with other resources {#defining-links-with-other-resources}
+## 定义与其他资源的链接 {#defining-links-with-other-resources}
 
 链接详细说明了一个表与其他表的关联情况。
 
-1. Use the **[!UICONTROL Create element]** button to create a link to a target resource.
+1. 使用 **[!UICONTROL Create element]** 按钮创建指向目标资源的链接。
 1. Click **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
 1. 资源以字母顺序显示，并且可以按名称筛选。他们的技术名称将显示在括号中。
 
-   Select an element from the list and click **[!UICONTROL Confirm]**.
+   从列表中选择一个元素，然后单击 **[!UICONTROL Confirm]**。
 
    ![](assets/schema_extension_9.png)
 
-1. Select the **[!UICONTROL Link type]** according to cardinality. 根据所选基数类型，如果记录被删除或重复，则行为可能会有所不同。
+1. 根据 **[!UICONTROL Link type]** 基数选择。根据所选基数类型，如果记录被删除或重复，则行为可能会有所不同。
 
    各种链接类型如下所示：
 
    * **[!UICONTROL 1 cardinality simple link]**：源表的一个出现最多可能有目标表的相应出现。
    * **[!UICONTROL N cardinality collection link]**：源表的一个出现可能有多个对应的目标表发生情况，但目标表的一个出现可能会有源表的最多一个相应的实例。
-   * **[!UICONTROL 0 or 1 cardinality simple link]**：源表的一个出现可能具有目标表或无的大多数对应的出现。Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
+   * **[!UICONTROL 0 or 1 cardinality simple link]**：源表的一个出现可能具有目标表或无的大多数对应的出现。请注意，这种类型 **[!UICONTROL Link type]** 可能会导致性能问题。
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 在屏幕中，默认 **[!UICONTROL Label]** 情况下，这些和 **[!UICONTROL ID]** 字段是完成的，但是您可以编辑它们。
@@ -155,8 +155,8 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
    >创建后重命名链接不可能。要重命名链接，必须将其删除并重新创建。
 
 1. **[!UICONTROL Category for the audience and targeting]** 该列表允许您将此链接分配给类别，使其在查询编辑器工具中更可见。
-1. If needed, the **[!UICONTROL Reverse link definition]** section allows you to display the label and ID of the resource in the targeted resource.
-1. Define the behavior of the records referenced by the link in the **[!UICONTROL Behavior if deleted/duplicated]** section.
+1. 如果需要， **[!UICONTROL Reverse link definition]** 该部分允许您在目标资源中显示资源的标签和ID。
+1. 定义 **[!UICONTROL Behavior if deleted/duplicated]** 部分中链接引用的记录的行为。
 
    默认情况下，链接不再引用目标记录后，将删除目标记录。
 
@@ -165,51 +165,51 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
 1. **[!UICONTROL Join definition]** 在该部分中，选择了默认 **[!UICONTROL Use the primary keys to make the join]** 选项，但您可以在以下两个选项之间进行选择：
 
    * **[!UICONTROL Use the primary key to make the join]**：此加入定义允许您使用配置文件主要密钥与购买的主要密钥协调。
-   * **[!UICONTROL Define specific join conditions]**：此加入定义允许您手动选择将加入两个资源的字段。Please note that if data are not correctly configured, the **Purchase** record will not be visible.
+   * **[!UICONTROL Define specific join conditions]**：此加入定义允许您手动选择将加入两个资源的字段。请注意，如果数据未正确配置， **则不会显示购买** 记录。
    ![](assets/schema_extension_17.png)
 
-The links created are displayed in the list in the **[!UICONTROL Links]** section.
+创建的链接将显示在 **[!UICONTROL Links]** 该部分的列表中。
 
 **示例：将创建的资源与“配置文件”资源链接**
 
-In this example, we want to link a new resource **Purchase** with the **Profiles **custom resource:
+在此示例中，我们希望将新的资源 **购买** 与 **配置文件** 自定义资源相链接：
 
-1. Create your new **Purchase** resource.
-1. To link it with the **Profiles** custom resource, unfold the **[!UICONTROL Links]** section in the **[!UICONTROL Data structure]** tab and click **[!UICONTROL Create element]**.
-1. Select the target resource, here **[!UICONTROL Profiles (profile)]**.
-1. In this example, keep the default **[!UICONTROL 1 cardinality simple link]** Link type selected.
+1. 创建新 **的购买** 资源。
+1. 要将其与 **配置文件** 自定义资源链接，请取消选择选项卡中的 **[!UICONTROL Links]****[!UICONTROL Data structure]** 章节并单击 **[!UICONTROL Create element]**。
+1. 在此处选择目标资源 **[!UICONTROL Profiles (profile)]**。
+1. 在此示例中，保持选中 **[!UICONTROL 1 cardinality simple link]** 的链接类型。
 
    ![](assets/custom_resource_link_to_profile_2.png)
 
-1. Choose a join definition, here keep the default **[!UICONTROL Use the primary key to make the join]**.
+1. 选择加入定义，此处保留默认 **[!UICONTROL Use the primary key to make the join]**&#x200B;值。
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. If needed, you can define a detail screen to be able to edit **Purchase** and link it to a profile.
+1. 如果需要，您可以定义详细信息屏幕，以编辑 **购买并** 将其链接到配置文件。
 
-   Unfold the **[!UICONTROL Detail screen configuration]** section and check the **[!UICONTROL Define a detail screen]** to configure the screen that corresponds to each element of the resource. 如果不选中此框，则无法访问此资源元素的详细信息视图。
+   取消设置 **[!UICONTROL Detail screen configuration]** 该部分并检查用于 **[!UICONTROL Define a detail screen]** 配置与资源每个元素对应的屏幕的屏幕。如果不选中此框，则无法访问此资源元素的详细信息视图。
 
 1. Click **[!UICONTROL Create element]**.
-1. Select your linked resource and click **[!UICONTROL Add]**.
+1. 选择链接的资源，然后单击 **[!UICONTROL Add]**。
 
-   Your new resource will then be available in the advanced menu by selecting **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**.
+   您的新资源随后将通过选择 **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**&#x200B;在高级菜单中可用。
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
-1. Once your configuration is done, click **[!UICONTROL Confirm]**.
+1. 配置完成后，单击 **[!UICONTROL Confirm]**。
 
    您现在可以发布新资源。
 
-By adding this link, a **Purchase** tab is added to the profiles detail screen from the **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** menu. Please note that this is specific to the **[!UICONTROL Profile]** resource.
+通过添加此链接， **将** 从 **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** 菜单中将购买选项卡添加到配置文件详细信息屏幕。请注意，这是 **[!UICONTROL Profile]** 特定于资源的。
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## Defining sending logs extension {#defining-sending-logs-extension}
+## 定义发送日志扩展 {#defining-sending-logs-extension}
 
 发送日志扩展允许您：
 
-* to extend dynamic report capabilities by **adding profile custom fields**
-* to extend the sending logs data with **segment code and profile data**
+* 通过 **添加配置文件自定义字段来扩展动态报告功能**
+* 用 **区段代码和配置文件数据扩展发送日志数据**
 
 **使用区段代码扩展**
 
@@ -217,11 +217,11 @@ By adding this link, a **Purchase** tab is added to the profiles detail screen f
 
 必须将区段代码定义为工作流。
 
-To activate this extension, check the option **[!UICONTROL Add segment code]**.
+要激活此扩展，请选中此选项 **[!UICONTROL Add segment code]**。
 
 ![](assets/sendinglogsextension_1.png)
 
-For more information on segment code, refer to the [Segmentation](../../automating/using/segmentation.md) section.
+有关区段代码的详细信息，请参阅 [分段](../../automating/using/segmentation.md) 部分。
 
 **扩展配置文件字段**
 
@@ -231,27 +231,27 @@ For more information on segment code, refer to the [Segmentation](../../automati
 
 ![](assets/sendinglogsextension_2.png)
 
-Click **[!UICONTROL Add field]** and select any custom field from the profile resource.
+单击 **[!UICONTROL Add field]** 并从配置文件资源中选择任意自定义字段。
 
-In order to generate a new sub-dimension linked to the Profile dimension, check the **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** option.
+要生成链接到配置文件维度的新子维度，请选中 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 该选项。
 
 ![](assets/sendinglogsextension_3.png)
 
 通过动态报告，您可以将自定义字段维度拖放到自由表单中。
 
-For more information on Dynamic Reporting, refer to the [List of components](../../reporting/using/list-of-components-.md).
+有关动态报告的详细信息，请参阅组件 [列表](../../reporting/using/list-of-components-.md)。
 
 >[!CAUTION]
 >
 >发送到动态报告的字段数量仅限20个。
 
-## Editing resource properties {#editing-resource-properties}
+## 编辑资源属性 {#editing-resource-properties}
 
-In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the status of the newly created resource. 您可以管理其访问权限及其常规属性。
+在自定义资源屏幕中 **[!UICONTROL Summary]** ，窗格指示新创建的资源的状态。您可以管理其访问权限及其常规属性。
 
 ![](assets/schema_extension_3.png)
 
-1. Click the **[!UICONTROL Edit properties]** button to add a description.
+1. 单击 **[!UICONTROL Edit properties]** 按钮添加描述。
 
    ![](assets/schema_extension_30.png)
 
@@ -266,7 +266,7 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 
 将保存您的修改。您需要再次发布资源以应用这些资源。
 
-## Generating a unique ID for profiles and custom resources {#generating-a-unique-id-for-profiles-and-custom-resources}
+## 为配置文件和自定义资源生成唯一ID {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 默认情况下，配置文件和自定义资源在创建时没有任何商业ID。您可以启用在创建元素时自动生成唯一ID的选项。此ID可用于：
 
@@ -276,12 +276,12 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 只能为配置文件和自定义资源启用它。
 
 1. 为配置文件资源创建扩展或创建新资源。
-1. In the data structure definition, check the **[!UICONTROL Add automatic ID field]** option, under the **[!UICONTROL Fields]** section.
+1. 在数据结构定义中，选中该 **[!UICONTROL Add automatic ID field]** 选项(在 **[!UICONTROL Fields]** 部分下)。
 1. 保存并发布对资源所做的修改。如果您希望此机制应用通过API创建的元素，请选中扩展API的选项。
 
 **[!UICONTROL ACS ID]** 现在，当手动创建新元素、从API手动创建新元素或从导入工作流插入新元素时，该字段便会自动填充。ACS ID字段是一个UUID字段，并且是索引的。
 
-When exporting profiles or custom resources, you can now add the **[!UICONTROL ACS ID]** column if it has been enabled for that resource. 您可以在外部工具中重复使用此ID来标识记录。
+导出配置文件或自定义资源时，如果已经为该资源启用 **[!UICONTROL ACS ID]** 了列，您现在可以添加该列。您可以在外部工具中重复使用此ID来标识记录。
 
 ![](assets/export_id_field.png)
 
@@ -289,5 +289,5 @@ When exporting profiles or custom resources, you can now add the **[!UICONTROL A
 
 >[!NOTE]
 >
->The **[!UICONTROL ACS ID]** field is not updated for profiles or elements created before activating the option. 只有新记录将具有ACS ID。此字段处于只读模式。您无法修改它。
+>在激活选项之前， **[!UICONTROL ACS ID]** 不会更新创建的配置文件或元素的字段。只有新记录将具有ACS ID。此字段处于只读模式。您无法修改它。
 
