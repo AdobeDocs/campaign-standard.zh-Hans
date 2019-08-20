@@ -14,14 +14,14 @@ discoiquuid: 4337a80b -fb9-4a37-bce3-fe2121 a66586
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 
 ---
 
 
-# Fatigue rules{#fatigue-rules}
+# 疲劳规则{#fatigue-rules}
 
-## About fatigue rules {#about-fatigue-rules}
+## 关于疲劳规则 {#about-fatigue-rules}
 
 疲劳规则允许营销人员制定全局跨渠道业务规则，这些规则会自动将主动提供的档案排除在营销活动中。
 
@@ -37,41 +37,41 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 * [管理字节数](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typology规则](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Creating a fatigue rule {#creating-a-fatigue-rule}
+## 创建疲劳规则 {#creating-a-fatigue-rule}
 
-To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the following steps:
+要创建和配置 **[!UICONTROL Fatigue]** 字型规则，请应用以下步骤：
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. 单击界面左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**。
 
    ![](assets/fatigue4.png)
 
-1. From the list of typology rules, click **[!UICONTROL Create]**.
+1. 从字型规则列表中，单击 **[!UICONTROL Create]**。
 
    ![](assets/fatigue.png)
 
-1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]**.
+1. 在 **[!UICONTROL Rule type]** 字段中，选择 **[!UICONTROL Fatigue]**。
 
    ![](assets/fatigue3.png)
 
-1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. 在 **[!UICONTROL Channel]** 字段中，选择规则适用的渠道。您可以选择单个渠道(电子邮件、短信、直接邮件、移动应用程序) **[!UICONTROL All channels]**&#x200B;或选择。请参阅 [选择渠道](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
    ![](assets/fatigue5.png)
 
-1. **[!UICONTROL General]** 在选项卡中，定义用于计算每个配置文件的最大消息数的方法。您可以选择恒定阈值或变量。您还可以调整配置文件和交付的阈值。For more on this, refer to [Defining the threshold](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. **[!UICONTROL General]** 在选项卡中，定义用于计算每个配置文件的最大消息数的方法。您可以选择恒定阈值或变量。您还可以调整配置文件和交付的阈值。有关此操作的详细信息，请参阅 [定义阈值](../../administration/using/fatigue-rules.md#defining-the-threshold)。
 
    ![](assets/fatigue2.png)
 
-1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. 选择将应用字型规则的一个 **[!UICONTROL Sliding period]** 。有关此操作的详细信息，请参阅 [设置滑动期](../../administration/using/fatigue-rules.md#setting-the-sliding-period)。
 
    ![](assets/fatigue6.png)
 
    在此示例中(请参阅上一个屏幕截图)，我们选择在15天的滑动期内发送最大数量的消息。
 
-1. **[!UICONTROL Application criteria]** 在选项卡中，您可以选择将此规则应用于所有交付，或根据要发送的消息限制规则适用性。仅在满足应用程序条件时才执行该规则。例如，只能在消息上使用以给定单词开头的标记或包含特定字母的ID对消息应用规则。See [Restricting the applicability of a filtering rule](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. **[!UICONTROL Application criteria]** 在选项卡中，您可以选择将此规则应用于所有交付，或根据要发送的消息限制规则适用性。仅在满足应用程序条件时才执行该规则。例如，只能在消息上使用以给定单词开头的标记或包含特定字母的ID对消息应用规则。请参阅 [限制过滤规则的适用性](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule)。
 
    ![](assets/fatigue20.png)
 
-1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../administration/using/about-typology-rules.md#typology-rules).
+1. 选择 **[!UICONTROL Typologies]** 选项卡，将您的字型规则链接到用于提交的字型。请参阅 [管理字节数](../../administration/using/about-typology-rules.md#managing-typologies) 和 [Typology规则](../../administration/using/about-typology-rules.md#typology-rules)。
 
    ![](assets/fatigue12.png)
 
@@ -79,7 +79,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
    >
    >可在交付模板中定义字节数，以自动应用于使用此模板创建的所有递送。
 
-在交付准备过程中，将根据已经发送给他们的交付数量，将配置文件排除在交付中(如果适用)。您可以在交付日志中查看疲劳规则执行结果。See [Viewing the fatigue results](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+在交付准备过程中，将根据已经发送给他们的交付数量，将配置文件排除在交付中(如果适用)。您可以在交付日志中查看疲劳规则执行结果。请参阅 [查看疲劳结果](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results)。
 
 ![](assets/fatigue16.png)
 
@@ -87,9 +87,9 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 >
 >要使疲劳规则正常工作，您需要为传送定义联系日期。如果您选择立即发送消息，则不会应用疲劳规则。
 
-## Choosing the channel {#choosing-the-channel}
+## 选择渠道 {#choosing-the-channel}
 
-疲劳规则适用于各种渠道。The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]**.
+疲劳规则适用于各种渠道。渠道是在字型规则设置 **[!UICONTROL Channel]** 的字段中定义的。您可以选择单个渠道或选择 **[!UICONTROL All channels]**&#x200B;单个渠道。
 
 ![](assets/fatigue5.png)
 
@@ -112,9 +112,9 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
 疲劳规则与所有交付类型兼容：一键式交付、重复交付、工作流交付和交易消息。
 
-**交易消息可** 用于发送面向事件(RTEvent)和营销消息(定位配置文件)的服务消息，例如再营销消息。疲劳规则仅与营销消息(定位档案)兼容。活动交易消息不包含配置文件信息，因此它们与疲劳规则不兼容(即使是使用配置文件进行丰富的情况)。With the support of marketing messages in transactional messaging, you can **apply a fatigue rule to all channels including marketing transactional messages**.
+**交易消息可** 用于发送面向事件(RTEvent)和营销消息(定位配置文件)的服务消息，例如再营销消息。疲劳规则仅与营销消息(定位档案)兼容。活动交易消息不包含配置文件信息，因此它们与疲劳规则不兼容(即使是使用配置文件进行丰富的情况)。借助交易消息中的营销消息支持，您可以 **对所有渠道(包括营销交易消息**)应用疲劳规则。
 
-## Defining the threshold {#defining-the-threshold}
+## 定义阈值 {#defining-the-threshold}
 
 每个疲劳规则定义一个阈值，即可在给定时间段内将消息发送到一个配置文件的最大消息数。达到此阈值后，直到结束期限结束后，才会再进行分发。此过程允许您在消息超出设置阈值时自动将配置文件排除在发送中，从而避免过度征求请求。
 
@@ -130,48 +130,48 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
 **使用变量阈值**
 
-To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field.
+要定义变量阈值，请选择字段 **[!UICONTROL Depends on the recipient]** 中的 **[!UICONTROL Threshold type]** 值。
 
 ![](assets/fatigue15.png)
 
 然后有两个选项：
 
-* 选择配置文件字段：根据选定的字段，阈值将因每个配置文件而异。For example, if you have extended the profiles resource with a 'Communication frequency' field, click the button on the right of the **[!UICONTROL Threshold computation formula]** field and select your field. 对于每个配置文件，阈值将取“通信频率”字段的值。
+* 选择配置文件字段：根据选定的字段，阈值将因每个配置文件而异。例如，如果您已将配置文件资源扩展为“通信频率”字段，请单击该 **[!UICONTROL Threshold computation formula]** 字段右侧的按钮并选择您的字段。对于每个配置文件，阈值将取“通信频率”字段的值。
 
    ![](assets/fatigue21.png)
 
-* define a formula: click the second button on the right of the **[!UICONTROL Threshold computation formula]** field to define an advanced threshold calculation formula. 例如，您可以根据配置文件所属的区段对授权消息的数量进行索引。这意味着属于“Web”区段的配置文件可能会收到比其他配置文件更多的消息。**[!UICONTROL Iif (@origin='Web', 5, 3)]** 类型公式授权向Web区段的配置文件发送个消息，并为其他区段提供3条消息。
+* 定义公式：单击 **[!UICONTROL Threshold computation formula]** 字段右侧的第二个按钮以定义高级阈值计算公式。例如，您可以根据配置文件所属的区段对授权消息的数量进行索引。这意味着属于“Web”区段的配置文件可能会收到比其他配置文件更多的消息。**[!UICONTROL Iif (@origin='Web', 5, 3)]** 类型公式授权向Web区段的配置文件发送个消息，并为其他区段提供3条消息。
 
    ![](assets/fatigue14.png)
 
 **改进配置文件和交付的阈值**
 
-默认情况下，将考虑所有消息以进行阈值计算。Check the **[!UICONTROL Refine Threshold on profiles and deliveries]** box to filter the profiles and deliveries to count when preparing the delivery.
+默认情况下，将考虑所有消息以进行阈值计算。选中 **[!UICONTROL Refine Threshold on profiles and deliveries]** 此框可过滤配置文件和提交内容以在准备分发时计数。
 
-In the following example, only male profiles are counted and only deliveries with a label starting with **Newsletters** are counted.
+在以下示例中，只有男性配置文件被计数，并且只有从 **新闻稿** 开始的标签才会计数。
 
 ![](assets/fatigue13.png)
 
-Refining the threshold on deliveries is different than restricting the applicability of the entire rule ( **[!UICONTROL Application criteria]** tab):
+在传送过程中细化阈值与限制整个规则( **[!UICONTROL Application criteria]** 选项卡)的适用性不同：
 
 * **[!UICONTROL Application criteria]**：您可以根据特定条件选择执行规则。例如，如果您的应用程序条件是“标签以新闻稿开头”，则该规则仅适用于尊重此条件的交付。如果交付的标签以“促销”开头，则该规则根本不会执行。
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**：所有使用此字型规则的交付将执行规则，但您决定在过去和计划提交中要计算的内容。例如，如果您的限制是“标签以新闻稿开头”，则即使传送标签以“促销”开头，也会执行该规则。在选定的滑动期内，它将计算其标签以“新闻稿”开头的交付次数。
 
-## Setting the sliding period {#setting-the-sliding-period}
+## 设置滑动时间 {#setting-the-sliding-period}
 
-疲劳规则定义在n天的滚动期内。The period is configured in the **[!UICONTROL Sliding period]** section, for example 2 weeks, 7 days or 5 hours.
+疲劳规则定义在n天的滚动期内。此期限在 **[!UICONTROL Sliding period]** 部分中进行配置，例如周、天或小时。
 
 ![](assets/fatigue6.png)
 
 执行该规则后，将考虑过去交付和计划交付。这保证在给定的滑动期间，从不超出阈值。
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. 因此，选定的期限增加了一倍，以支持未来交付及之前的分发。
+例如，如果您定义了48小时的期限，系统将在联系日期 **** 前48小时和联系日期后48小时 **内查看系统**。因此，选定的期限增加了一倍，以支持未来交付及之前的分发。
 
-To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. 提交日期在交付日期之前天之前发送，并计划在计算出规则的交付日期后的天内计入计算中。
+要将考虑到的交付限制为周期，请在“滑动期限”部分输入 **天** 和 **周****或** 周。提交日期在交付日期之前天之前发送，并计划在计算出规则的交付日期后的天内计入计算中。
 
-## Viewing the fatigue results {#viewing-the-fatigue-results}
+## 查看疲劳结果 {#viewing-the-fatigue-results}
 
-在交付准备过程中，将根据已经发送给他们的交付数量，将配置文件排除在交付中(如果适用)。To view fatigue rule execution results, click the button in the bottom right corner of the **[!UICONTROL Deployment]** block.
+在交付准备过程中，将根据已经发送给他们的交付数量，将配置文件排除在交付中(如果适用)。要查看疲劳规则执行结果，请单击 **[!UICONTROL Deployment]** 块右下角的按钮。
 
 ![](assets/fatigue22.png)
 
@@ -189,7 +189,7 @@ To restrict the deliveries taken into account to a 2-week period, enter **Day** 
 
    ![](assets/fatigue19.png)
 
-## Viewing the fatigue rule summary report {#viewing-the-fatigue-rule-summary-report}
+## 查看疲劳规则摘要报告 {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign提供关于疲劳规则的专用报告，可帮助您了解如何应用于您的营销活动。这使您能够了解营销活动如何相互影响，并做出适当调整。
 
@@ -218,11 +218,11 @@ Adobe Campaign提供关于疲劳规则的专用报告，可帮助您了解如何
 >
 >显示的数据与您访问该报告的计划、消息或营销活动不相关。此报告显示所有组织单位的所有疲劳规则和交付。这使您能够获得所有分发的全局视图，以了解营销活动对其他人的影响。
 
-## Examples {#examples}
+## 示例 {#examples}
 
 疲劳管理实施方面有许多可能。以下是您可以执行的一些操作示例：
 
-* Create a fatigue rule using a **constant threshold** that applies to **all channels**:
+* 使用适用于所有渠道的 **恒定阈值** 创建 **疲劳规则**：
 
    假设您创建多通道规则，在天的滑动期内持续阈值为3。
 
@@ -230,15 +230,15 @@ Adobe Campaign提供关于疲劳规则的专用报告，可帮助您了解如何
 
    ![](assets/fatigue23.png)
 
-* Create a fatigue rule using a **variable threshold** based on a **profile field**:
+* 使用基于配置文件字段 **的变量阈值** 创建 **疲劳规则**：
 
    您已经使用“通信限制”字段扩展了配置文件资源，为每个配置文件定义了不同的阈值。在疲劳规则中，根据此字段定义一个可变阈值，并选择天的滑动时间。让我们举两个档案示例：John的通信限制为1，David的阈值为2。两人昨天都已收到新闻稿电子邮件。您决定立即发送其他电子邮件。只有David才会收到它，因为John已经从目标中排除。
 
    ![](assets/fatigue24.png)
 
-* Create a fatigue rule using a **threshold computation formula**:
+* 使用 **阈值计算公式创建疲劳规则**：
 
-   您希望根据配置文件的年龄更改阈值。如果配置文件小于40，则您要定义限制4，对于旧配置文件则为限制2。您可以在疲劳规则中直接创建公式，以根据配置文件的年龄计算阈值，而不是为每个配置文件定义此阈值。In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]**.
+   您希望根据配置文件的年龄更改阈值。如果配置文件小于40，则您要定义限制4，对于旧配置文件则为限制2。您可以在疲劳规则中直接创建公式，以根据配置文件的年龄计算阈值，而不是为每个配置文件定义此阈值。在我们的示例中，该公式 **[!UICONTROL Iif (@age<40, 4, 2)]**&#x200B;将为。
 
    ![](assets/fatigue25.png)
 
@@ -246,7 +246,7 @@ Adobe Campaign提供关于疲劳规则的专用报告，可帮助您了解如何
    >
    >本节还包含使用阈值计算公式的疲劳规则分步示例。
 
-* Create a fatigue rule that **refines the threshold** on profiles and deliveries:
+* 创建一个疲劳规则 **，它细化配置文件和交付** 的阈值：
 
    您已将配置文件资源扩展为“分数”字段，并且您还将传送资源带到“类型”字段。您希望定义一个持续的阈值，但要从“警报”或“黑色星期五”类型的所有传送中排除所有的传送，并且所有档案的分数大于10。执行该规则时，将在过去和计划交付中计数，所有不属于“警报”或“黑色星期五”的交付均将发送至其得分小于10的档案。
 
@@ -256,12 +256,12 @@ Adobe Campaign提供关于疲劳规则的专用报告，可帮助您了解如何
 
 在此用例中，我们希望创建一条规则规则，以防止每周向付费档案发送超过两条消息，每周向标准档案发送2条消息。
 
-To identify customers and prospects, we extended the profiles resource with the **[!UICONTROL Status]** field, which contains 0 for premium profiles and 1 for standard profiles.
+为了识别客户和潜在客户，我们使用字段扩展了档案资源， **[!UICONTROL Status]** 该字段包含对高级档案的0，对于标准档案则为1。
 
 要创建规则，请应用以下步骤：
 
-1. Create a new **Fatigue** type typology rule.
-1. **[!UICONTROL Threshold]** 在部分中，我们希望根据每个配置文件创建一个计算阈值的公式。Select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field, then click the icon the second button on the right of the **[!UICONTROL Threshold computation formula]** field.
+1. 创建 **新的疲劳** 类型类型规则。
+1. **[!UICONTROL Threshold]** 在部分中，我们希望根据每个配置文件创建一个计算阈值的公式。选择字段 **[!UICONTROL Depends on the recipient]** 中的 **[!UICONTROL Threshold type]** 值，然后单击 **[!UICONTROL Threshold computation formula]** 字段右侧第二个按钮的图标。
 
    ![](assets/fatigue7.png)
 
@@ -269,22 +269,22 @@ To identify customers and prospects, we extended the profiles resource with the 
 
    ![](assets/fatigue8.png)
 
-1. Then select the profile's **Status** in the **[!UICONTROL Available fields]** section.
+1. 然后，在章节中选择配置文件 **的状态****[!UICONTROL Available fields]** 。
 
    ![](assets/fatigue9.png)
 
-1. Enter the desired values to create the following formula: **Iif(@status=0,2,4)**
+1. 输入所需的值以创建以下公式： **if(@ status=0,2,4)**
 
    ![](assets/fatigue10.png)
 
    此公式允许您在状态等于0时为值赋值，并为所有其他状态赋予值4。
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
-1. Indicate the **[!UICONTROL Sliding period]** on which the rule will apply: 7 days in this case, to restrict the deliveries taken into account to a 2-week period.
+1. 单击 **[!UICONTROL Confirm]** 以批准公式。
+1. 指示规则将应用的 **[!UICONTROL Sliding period]** 内容：天内，将考虑到的交付限制为周期。
 
    ![](assets/fatigue11.png)
 
-1. 现在，将刚刚创建的规则链接到字体，以便将其应用于提交内容。To do this, select the **[!UICONTROL Typologies]** tab, click **[!UICONTROL Create element]** and select the typology used for your deliveries.
+1. 现在，将刚刚创建的规则链接到字体，以便将其应用于提交内容。为此，请选择 **[!UICONTROL Typologies]** 选项卡，单击 **[!UICONTROL Create element]** 并选择用于提交的字型。
 
    ![](assets/fatigue12.png)
 
