@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 ### 电子邮件设计器限制 {#email-designer-limitations}
 
 * 不能在片段中使用个性化字段。有关片段的详细信息，请参阅 [此部分](../../designing/using/defining-the-email-structure.md#about-fragments)。
-* 您无法直接保存为在电子邮件设计器中编辑的某个电子邮件内容的片段。您需要将对应于该内容的HTML复制粘贴到新片段中。有关此操作的详细信息，请参阅 [将内容保存为片段](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)。
 * 编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
 * 样式无法保存为主题，供以后重复使用。但是，CSS样式可以保存在内容模板或电子邮件中。有关样式的更多信息，请参阅 [此部分](../../designing/using/editing-email-styles.md)。
 
