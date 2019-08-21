@@ -14,34 +14,38 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
 
 ---
 
 
-# Documentation Updates{#documentation-updates}
+# 文档更新{#documentation-updates}
 
 了解Adobe Campaign Standard文档的所有最新更新。
 
 本页列出了每个版本的Adobe Campaign Standard的所有新增功能和文档更新。
 
-You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+您还可以查阅Adobe Campaign [发行说明](../../rn/using/release-notes.md)。
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## 文档更新-2019年月 {#doc-updates-august-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+有关如何在“日志”选项卡中显示SQL查询的工作流故障排除部分，已添加了一个步骤。[阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+## 版本19.3-2019年7月 {#release-19-3---july-2019}
 
-Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-19}
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+外部API活动(公共测试版)- [阅读更多](../../automating/using/external-api.md)
+
+报告工作流区段报告- [阅读更多](../../reporting/using/creating-a-report-workflow-segment.md)
+
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-17}
 
 Campaign Standard实施指南现已上线。[阅读更多](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
 已创建关于Microsoft Dynamics365连接器实施和使用的一系列新帮助文章。请注意，此功能当前处于有限可用性。[阅读更多](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+在调用工作流 [中添加了一条备注，其中包含有关交付准备及其汇总期的参数](../../automating/using/calling-a-workflow-with-external-parameters.md) 部分。
 
 添加了有关如何使用在工作流外部信号活动中声明的事件变量个性化交付的标签的信息。[阅读更多](../../automating/using/external-signal.md)
 
@@ -67,7 +71,7 @@ Campaign Standard和Classic错误消息列表已更新。[阅读更多](https://
 
 在自定义资源文档中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。[阅读更多](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentation updates - July 2019 {#doc-updates-2019}
+## 文档更新-2019年月 {#doc-updates-2019}
 
 新增了登陆页面限制的新页面。[阅读更多](../../channels/using/landing-page-limitations.md)
 
@@ -79,19 +83,19 @@ Campaign Standard和Classic错误消息列表已更新。[阅读更多](https://
 
 在自定义资源文档中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。[阅读更多](../../developing/using/creating-or-extending-the-resource.md)
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## 版本19.2-2019年月 {#release-19-2---may-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release}
 
-Control Panel - [Read more](https://helpx.adobe.com/campaign/kb/control-panel.html)
+控制面板- [阅读更多](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-Local notifications - [Read more](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
+本地通知- [阅读更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Workflow enhancement - Add a payload to external signal activity - [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+工作流增强-向外部信号活动添加有效负荷- [阅读更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+登陆页面增强功能- Google ReCAPTCHA- [阅读更多](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release}
 
 域名委托文章已更新。[阅读更多](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -99,13 +103,13 @@ Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/
 
 直接从Adobe Campaign提供的上下文帮助链接已更新。
 
-The following [page](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) becomes the official Videos page for Adobe Campaign Standard.
+以下 [页面](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) 成为Adobe Campaign Standard的官方视频页面。
 
 添加了有关数据保留的部分，其中包括标准表的默认保留值。[阅读更多](../../administration/using/data-retention.md)
 
 添加了有关更新和维护操作的部分。[阅读更多](../../administration/using/updates-and-maintenance-operations.md)
 
-Information was added on the new sorting option in the **Transfer file** activity. [阅读更多](../../automating/using/transfer-file.md)
+在 **传输文件** 活动的新排序选项中添加了信息。[阅读更多](../../automating/using/transfer-file.md)
 
 [REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) 已更新：
 
@@ -115,7 +119,7 @@ Information was added on the new sorting option in the **Transfer file** activit
 * 添加了有关如何创建服务的信息。
 * 添加了如何使用参数调用工作流的信息。
 
-Information was added on the new **Test** activity. [阅读更多](../../automating/using/test.md)
+在新 **的测试** 活动中添加了信息。[阅读更多](../../automating/using/test.md)
 
 自动化指南已更新，其中包含指向相关工作流程活动的链接。[阅读更多](../../automating/using/workflow-interface.md#palette)
 
@@ -147,19 +151,19 @@ Information was added on the new **Test** activity. [阅读更多](../../automat
 
 Dreamweaver集成部分已更新并改进。[阅读更多](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## 版本19.1-2019年月 {#release-19-1---february-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-1}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-1}
 
-Push Channel Reporting improvements - [Read more](../../reporting/using/push-notification-report.md)
+推送渠道报告改进- [阅读更多](../../reporting/using/push-notification-report.md)
 
-Launch integration for Mobile App - [Read more](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
+启动移动应用程序集成- [阅读更多](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
-Mobile In-App Messaging - [Read more](../../channels/using/about-in-app-messaging.md)
+移动应用程序内消息传递- [阅读更多信息](../../channels/using/about-in-app-messaging.md)
 
-Workflow enhancements - Read more [here](../../automating/using/workflow-interface.md#duplicating-workflow-activities) and [here](../../automating/using/load-file.md#configuration)
+工作流程增强- [在此处](../../automating/using/workflow-interface.md#duplicating-workflow-activities) 和 [此处阅读更多内容](../../automating/using/load-file.md#configuration)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-1}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-1}
 
 为“编辑电子邮件设计人员”创建电子邮件内容和其他增强的新入门体验已添加到“编辑电子邮件内容”一章。[阅读更多](../../designing/using/about-email-content-design.md#email-designer-home-page)
 
@@ -197,29 +201,29 @@ Campaign Standard和Classic错误消息列表已更新。[阅读更多](https://
 
 添加了有关如何通过复制粘贴操作复制工作流活动的新部分。[阅读更多](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Added information on the new option in the Query ( [Read more](../../automating/using/query.md)) and Segmentation ( [Read more](../../automating/using/segmentation.md)) activities, that lets you add an outbound transition after the activity if it retrieves no data.
+新增了查询( [阅读更多](../../automating/using/query.md))和分段( [阅读更多](../../automating/using/segmentation.md))活动中的新选项，该选项允许您在活动检索无数据后添加出站过渡。
 
 在新的“批处理大小”字段的“更新数据活动”部分中添加了信息，用于定义要上传的数据的最大批次大小。[阅读更多](../../automating/using/update-data.md#configuration)
 
 在新选项的Extract file活动部分中添加了一些信息，通过该选项，如果出站过渡为空，则可禁用文件生成过程。[阅读更多](../../automating/using/extract-file.md#configuration)
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## 版本19.0-2019年月 {#release-19-0---january-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-2}
 
-Email Designer General Availability - [Read more](../../designing/using/about-email-content-design.md)
+电子邮件设计器一般可用性- [阅读更多](../../designing/using/about-email-content-design.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+交易电子邮件中的产品列表- [阅读更多信息](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Mobile View in the Email Designer - [Read more](../../designing/using/about-email-content-design.md#switching-to-mobile-view)
+电子邮件设计器中的移动视图- [阅读更多信息](../../designing/using/about-email-content-design.md#switching-to-mobile-view)
 
-In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-app-messaging.md)
+应用程序内消息测试改进- [阅读更多](../../channels/using/about-in-app-messaging.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-2}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-2}
 
 设计内容指南已更新，以反映电子邮件设计器一般可用性和传统电子邮件内容编辑器弃用。[阅读更多](../../designing/using/about-email-content-design.md)
 
-Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+更新了 [应用程序内](../../channels/using/about-in-app-messaging.md) 和 [推送通知](../../channels/using/about-push-notifications.md) 文档。
 
 添加了有关Adobe Campaign中不同类型受众的更多信息。[阅读更多](../../audiences/using/about-audiences.md)
 
@@ -229,29 +233,29 @@ Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push n
 
 在更新数据活动中新增了关于新字段的信息，该字段允许您配置要上传的数据的最大批次大小。[阅读更多](../../automating/using/update-data.md)
 
-Updated the [Importing content from a URL](../../designing/using/importing-content-from-a-url.md) documentation with information related to the Email designer.
+更新了 [从URL](../../designing/using/importing-content-from-a-url.md) 文档中导入的包含电子邮件设计器相关信息的内容。
 
 Microsoft Edge(最新版本)已添加到计算机的兼容浏览器列表中。[阅读更多](../../start/using/compatible-browsers.md)
 
 新增了有关Extract文件活动中新选项的信息，该选项可防止在入站过渡为空时生成文件。[阅读更多](../../automating/using/extract-file.md)
 
-The Configuring a mobile application using SDK V4 section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+使用SDK V部分配置移动应用程序已移到 [](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)此处。
 
-The Configuring a mobile application using Adobe Experience Platform SDKs section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+使用Adobe Experience Platform SDK部分配置移动应用程序 [已移到](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)此处。
 
-Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+视频已更新并移到 [](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)此处。
 
 更新了用户的类型。[阅读更多](../../administration/using/users-management.md)
 
-## Release 18.9 - September 2018 {#release-18-9---september-2018}
+## 版本18.9-2018年9月 {#release-18-9---september-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-3}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-3}
 
-In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
+应用程序内消息传递(测试版)- [阅读更多](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch for mobile apps(beta)- [阅读更多](../../administration/using/about-typology-rules.md#typology-rules)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-3}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-3}
 
 更新了推送通知指南，其中包含界面更改。[阅读更多](../../channels/using/about-push-notifications.md)
 
@@ -259,15 +263,15 @@ Adobe Launch integration for mobile apps (beta) - [Read more](../../administrati
 
 更新了推送通知现成报告部分。[阅读更多](../../reporting/using/push-notification-report.md)
 
-## Release 18.7 - July 2018 {#release-18-7---july-2018}
+## 版本18.7-2018年7月 {#release-18-7---july-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-4}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-4}
 
 [针对移动应用程序用户的高优先级标记](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 和 [字型过滤器](../../administration/using/about-typology-rules.md#typology-rules) 。
 
 在准备时从URL自动导入内容。[阅读更多](../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-4}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-4}
 
 新增了SMS连接器协议和设置的新技术说明。[阅读更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -277,19 +281,19 @@ Adobe Launch integration for mobile apps (beta) - [Read more](../../administrati
 
 了解如何通过创建现有电子邮件中的片段，轻松地使用Creative SDK编辑外部内容。[阅读更多](../../designing/using/about-email-content-design.md#using-fragments-and-components)
 
-The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
+现在 [部分提供HTML属性列表，以完全遵守Creative Designer](../../designing/using/editing-existing-contents-with-the-email-designer.md)。
 
 添加了有关多语言模板默认语言的信息。[阅读更多](../../start/using/creating-a-multilingual-template.md)
 
 用户和安全指南已更新，以反映新Campaign Standard实例的地理单位功能以及尚未创建的没有地理单位的现有实例的折旧。[阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Release 18.6 - June 2018 {#release-18-6---june-2018}
+## 版本18.6-2018年6月 {#release-18-6---june-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-5}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-5}
 
-The API documentation was updated with information on the **History** API. 添加了一个用例，用于为发送到配置文件的分发检索镜像页面。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+API文档通过 **历史** 记录API上的信息进行更新。添加了一个用例，用于为发送到配置文件的分发检索镜像页面。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-5}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-5}
 
 触发器-营销活动集成文档已更新并重新组织。[阅读更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -301,21 +305,21 @@ The API documentation was updated with information on the **History** API. 添�
 
 在查询活动部分中添加了一个示例，该示例关于如何定位分发中的特定链接的配置文件。[阅读更多](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Added a section in the API documentation related to **custom filters**. [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+在与 **自定义筛选器相关的API文档中添加了一个部分**。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## Release 18.5 - May 2018 {#release-18-5---may-2018}
+## 版本18.5-2018年月 {#release-18-5---may-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-6}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-6}
 
-GDPR: Core Service Integration - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR：核心服务集成- [阅读更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Push improvements - detailed delivery feedback - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
+推送改进-详细的交付反馈- [阅读更多](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
-Delivery logs extension - [Read more](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+交付日志扩展- [阅读更多](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-Dynamic reporting with Custom profile data - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
+使用自定义配置文件数据动态报告- [阅读更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-6}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-6}
 
 添加了Analytics中的营销活动量度列表。[阅读更多](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -337,19 +341,19 @@ Dynamic reporting with Custom profile data - [Read more](../../channels/using/cr
 
 内容编辑器文档的部分页面已合并，以提供更全面的可用操作视图。[阅读更多](../../designing/using/about-email-content-design.md)
 
-## Release 18.3 - March 2018 {#release-18-3---march-2018}
+## 版本18.3-2018年3月 {#release-18-3---march-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-7}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-7}
 
-EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+欧盟一般数据保护规定(GDPR)- [阅读更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer for Email - [Read more](../../designing/using/about-email-content-design.md#about-the-email-designer)
+Creative Designer for Email- [阅读更多信息](../../designing/using/about-email-content-design.md#about-the-email-designer)
 
-Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
+多语言推送交付- [阅读更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Use of Custom Resources in Transactional Messaging - [Read more](../../administration/using/configuring-transactional-messaging.md)
+在Transactional Messaging中使用自定义资源- [阅读更多信息](../../administration/using/configuring-transactional-messaging.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-7}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-7}
 
 GDPR API regrough功能允许自动处理GDPR请求。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
@@ -359,7 +363,7 @@ GDPR API regrough功能允许自动处理GDPR请求。[阅读更多](https://doc
 
 添加了一个技术说明，以了解如何生成用于推送通知的多语言CSV文件。[阅读更多](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)信息。
 
-Added information on the **Update Direct mail quarantines and delivery logs** import template. [阅读更多](../../automating/using/defining-import-templates.md)
+添加 **了有关更新直邮检疫和交付日志** 导入模板的信息。[阅读更多](../../automating/using/defining-import-templates.md)
 
 更新了技术工作流程列表。[阅读更多](../../administration/using/technical-workflows.md)
 
@@ -369,31 +373,31 @@ Added information on the **Update Direct mail quarantines and delivery logs** im
 
 更新了Campaign Standard产品内上下文帮助。
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## 版本18.2-2018年月 {#release-18-2---february-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-8}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-8}
 
-Subscription - subscribe or unsubscribe a list of profiles to multiple services - [Read more](../../automating/using/subscription-services.md)
+订阅-订阅或取消订阅配置文件的列表到多个服务- [阅读更多](../../automating/using/subscription-services.md)
 
-Enrichment activity - enrich data based on previous transitions - [Read more](../../automating/using/enrichment.md)
+丰富活动-根据先前的过渡功能丰富数据- [阅读更多](../../automating/using/enrichment.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-8}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-8}
 
 Campaign和Adobe解决方案集成的大多数URL已更改！检查书签！[阅读更多](../../integrating/using/about-campaign-integrations.md)
 
-The datamodel v1 is now available with the SQL structure for out-of-the box resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+datamodel v现在可用于现成资源的SQL结构- [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
-Added information on how to prepare a message in a delivery [Read more](../../sending/using/preparing-the-send.md)
+新增了有关如何在交付中准备消息的信息阅读更多 [信息](../../sending/using/preparing-the-send.md)
 
-Release notes have been reorganized in two pages so that you get a more global view of all the different releases: [Latest Release Notes](../../rn/using/release-notes.md) and [Previous release Notes](../../rn/using/release-notes-2015-2016.md)
+已在两个页面中重新组织了发行说明，以便您能够更全局地了解所有不同版本： [最新发行说明](../../rn/using/release-notes.md) 和 [上一发行说明](../../rn/using/release-notes-2015-2016.md)
 
 **[!UICONTROL Working with typologies]** 该部分已更新，可提高可见性。[阅读更多](../../administration/using/about-typology-rules.md)
 
-A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [阅读更多](../../automating/using/query.md)
+现在提供了一个新选项，用于在定义中定义许多其他数据时 **[!UICONTROL Query]** 获得性能。[阅读更多](../../automating/using/query.md)
 
 配置文件导入示例已更新，可让您的配置文件准备接收直接邮寄邮件。[阅读更多](../../automating/using/importing-data.md)
 
-A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [阅读更多](../../automating/using/enrichment.md)
+工作流中提供了新活动： **[!UICONTROL Enrichment]** 活动。[阅读更多](../../automating/using/enrichment.md)
 
 **[!UICONTROL Subscription Services]** 活动已更新以支持更多用例，包括使用单个文件更新订阅的订阅。[阅读更多](../../automating/using/subscription-services.md)
 
@@ -405,29 +409,29 @@ A new activity is available in workflows: the **[!UICONTROL Enrichment]** activi
 
 添加了有关如何根据重复工作流中的用户时区发送分发的信息。[阅读更多](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [阅读更多](../../channels/using/customizing-a-push-notification.md)
+通过逐步使用案例重新组织 **[!UICONTROL Customizing a push notification]** 了章节。[阅读更多](../../channels/using/customizing-a-push-notification.md)
 
 专用于黑名单管理的新部分。[阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 更新了有关交付失败和仲裁的信息。[阅读更多](../../sending/using/monitoring-a-delivery.md)
 
-New sections dedicated to [target mappings](../../administration/using/target-mappings-in-campaign.md) and [targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
+专用于 [定位映射](../../administration/using/target-mappings-in-campaign.md) 和 [定位维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)的新部分。
 
-## Release 18.1 - January 2018 {#release-18-1---january-2018}
+## 版本18.1-2018年月 {#release-18-1---january-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-9}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-9}
 
-Reporting for Fatigue Management - [Read more](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+疲劳管理报告- [阅读更多](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
-Report sharing - [Read more](../../reporting/using/reporting-interface.md#share-tab)
+报告共享- [阅读更多](../../reporting/using/reporting-interface.md#share-tab)
 
-Push improvements - Read more [here](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) and [here](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
+推送改进- [在此处](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) 和 [此处阅读更多内容](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
 
-Time-zone optimized deliveries - [Read more](../../automating/using/scheduler.md)
+时区优化交付- [阅读更多](../../automating/using/scheduler.md)
 
-API Signal activity triggering - [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+API信号活动触发- [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-9}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-9}
 
 更新了服务创建部分。[阅读更多](../../audiences/using/creating-a-service.md)
 
@@ -441,15 +445,15 @@ API Signal activity triggering - [Read more](https://docs.campaign.adobe.com/doc
 
 配置与Audience Manager或People核心服务集成的说明已更新。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Release 17.10 - October 2017 {#release-17-10---october-2017}
+## 版本17.10-2017年10月 {#release-17-10---october-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-10}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-10}
 
-Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
+疲劳管理- [阅读更多](../../administration/using/fatigue-rules.md)
 
-Content creation: Import from a URL - [Read more](../../designing/using/importing-content-from-a-url.md)
+内容创建：从URL导入- [阅读更多信息](../../designing/using/importing-content-from-a-url.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-10}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-10}
 
 更新了A/B测试范例。[阅读更多](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -465,15 +469,15 @@ Content creation: Import from a URL - [Read more](../../designing/using/importin
 
 [交付通知](../../sending/using/receiving-alerts-when-failures-happen.md) 部分已被移动和重新组织。
 
-The 'Custom resources' section has been clarified with a more detailed procedure on how to [define filters](../../developing/using/configuring-filter-definition.md).
+通过有关 [如何定义过滤器](../../developing/using/configuring-filter-definition.md)的更详细程序，已阐明“自定义资源”部分。
 
-Updated and clarified the [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.
+更新并明确了 [有关](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 如何将Adobe Marketing Cloud Mobile SDK与移动应用程序集成以接收Adobe Campaign Standard推送通知的技术说明。
 
 添加了一个技术说明，解释了在移动应用程序中接收的有效负荷结构。[阅读更多信息。](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.
+在Adobe Mobile Services界面中定义回呼时，推送渠道配置 [部分](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 已使用操作系统版本上新的有效负荷数据进行更新。
 
-The SMS documentation has been updated with some clarification added to the [SMS automatic replies](../../channels/using/managing-incoming-sms.md#managing-stop-sms) section.
+SMS文档已更新，部分说明添加 [到SMS自动回复](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 部分。
 
 通过API专门用于工作流程管理的新部分。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
@@ -481,17 +485,17 @@ The SMS documentation has been updated with some clarification added to the [SMS
 
 在API中简单和多过滤添加的信息。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## Release 17.9 - September 2017 {#release-17-9---september-2017}
+## 版本17.9-2017年9月 {#release-17-9---september-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-11}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-11}
 
-Library of Email templates - [Read more](../../start/using/about-templates.md#content-templates)
+电子邮件模板库- [阅读更多](../../start/using/about-templates.md#content-templates)
 
-Dynamic reporting with profile data - [Read more](../../reporting/using/about-dynamic-reports.md)
+使用档案数据动态报告- [阅读更多](../../reporting/using/about-dynamic-reports.md)
 
-Enhancement on Mass subscription - [Read more](../../automating/using/subscription-services.md)
+增强订阅增强功能- [阅读更多](../../automating/using/subscription-services.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-11}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-11}
 
 动态报告中提供的每个组件的详细列表，以及公式的一些更改。[阅读更多](../../reporting/using/list-of-components-.md)
 
@@ -521,23 +525,23 @@ Enhancement on Mass subscription - [Read more](../../automating/using/subscripti
 
 电子邮件交付工作流活动中“发送消息之前请求确认”添加的信息。[阅读更多](../../automating/using/email-delivery.md)
 
-## Release 17.7 - July 2017 {#release-17-7---july-2017}
+## 版本17.7-2017年7月 {#release-17-7---july-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-12}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-12}
 
-Multilingual Deliveries (Email &amp; SMS) - [Read more](../../channels/using/creating-a-multilingual-email.md)
+多语言交付(电子邮件和短信)- [阅读更多信息](../../channels/using/creating-a-multilingual-email.md)
 
-Adobe Campaign Notifications - [Read more](../../administration/using/sending-internal-notifications.md)
+Adobe Campaign通知- [阅读更多](../../administration/using/sending-internal-notifications.md)
 
-Delivery Alerting - [Read more](../../sending/using/receiving-alerts-when-failures-happen.md)
+交付通知- [阅读更多信息](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-Encrypted Declared ID in Datasources - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+数据源中的加密已声明ID- [阅读更多信息](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-KPI sharing from Campaign to Analytics - [Read more](../../integrating/using/about-campaign-analytics-integration.md)
+从Campaign到Analytics的KPI共享- [阅读更多信息](../../integrating/using/about-campaign-analytics-integration.md)
 
-Direct Mail Channel - Return To Sender, [Read more](../../channels/using/return-to-sender.md)
+直邮渠道-返回发送方， [阅读更多信息](../../channels/using/return-to-sender.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-12}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-12}
 
 [入门指南](../../start/using/step-by-step-guides.md) 和 [操作方法视频](../../start/using/how-to-videos.md) 已在专用部分中重新灌录。
 
@@ -553,15 +557,15 @@ Direct Mail Channel - Return To Sender, [Read more](../../channels/using/return-
 
 角色列表部分已更新。[阅读更多](../../administration/using/list-of-roles.md)
 
-## Release 17.5 - May 2017 {#release-17-5---may-2017}
+## 版本17.5-2017年月 {#release-17-5---may-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-13}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-13}
 
-Direct mail - [Read more](../../channels/using/about-direct-mail.md)
+直邮- [阅读更多](../../channels/using/about-direct-mail.md)
 
-Email BCC - [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+电子邮件密件抄送- [阅读更多信息](../../administration/using/configuring-email-channel.md#archiving-emails)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-13}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-13}
 
 “交付”指南已重新组织并更名为“渠道”。[阅读更多](../../channels/using/discovering-communication-channels.md)
 
@@ -575,25 +579,25 @@ Email BCC - [Read more](../../administration/using/configuring-email-channel.md#
 
 直接从Adobe Campaign提供的上下文帮助链接更新。
 
-## Release 17.4 - April 2017 {#release-17-4---april-2017}
+## 版本17.4-2017年月 {#release-17-4---april-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-14}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-14}
 
-Enhanced Image edition capabilities with the Creative SDK - [Read more](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+使用Creative SDK增强的图像版本功能- [阅读更多](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
 
-Transactional push notifications - [Read more](../../channels/using/transactional-push-notifications.md)
+交易推送通知- [阅读更多信息](../../channels/using/transactional-push-notifications.md)
 
-Recurring push notifications - [Read more](../../automating/using/push-notification-delivery.md)
+重复推送通知- [阅读更多](../../automating/using/push-notification-delivery.md)
 
-Amazon Simple Storage Service (S3) connector - [Read more](../../administration/using/external-accounts.md)
+Amazon Simple Storage Service(S3)连接器- [阅读更多](../../administration/using/external-accounts.md)
 
-Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver实时集成- [阅读更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-14}
 
 在不同类型的Adobe Campaign用户中添加的部分。[阅读更多](../../administration/using/users-management.md)
 
-工作流指南已重新组织和扩展。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+工作流指南已重新组织和扩展。轻松查找如何 [构建](../../automating/using/building-a-workflow.md) 和 [执行](../../automating/using/executing-a-workflow.md) 工作流、 [如何定位](../../automating/using/targeting-data.md) 和 [管理](../../automating/using/targeting-data.md#enriching-data) 数据、 [如何导入](../../automating/using/importing-data.md) 数据以及 [如何使用工作流数据](../../automating/using/using-workflow-data.md) 更新数据库或发送交付信息。
 
 现在可用于动态报告的报告指示符计算，包括完整描述和计算公式。[阅读更多](../../reporting/using/indicator-calculation.md)
 
@@ -605,108 +609,108 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 与Adobe Analytics for Mobile(目标点)集成，包括配置步骤和使用案例。[阅读更多](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Release 17.2 - March 2017 {#release-17-2---march-2017}
+## 版本17.2-2017年月 {#release-17-2---march-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-15}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-15}
 
-Dynamic reporting - [Read more](../../reporting/using/about-dynamic-reports.md)
+动态报告- [阅读更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver integration (Labs) - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver集成(Labs)- [阅读更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 
-Manual send time optimization - [Read more](../../sending/using/optimizing-the-sending-time.md)
+手动发送时间优化- [阅读更多](../../sending/using/optimizing-the-sending-time.md)
 
-Push notifications: improvements - [Read more](../../channels/using/about-push-notifications.md)
+推送通知：改进- [阅读更多](../../channels/using/about-push-notifications.md)
 
-Workflows: new Signal activity - [Read more](../../automating/using/external-signal.md)
+工作流：新的信号活动- [阅读更多](../../automating/using/external-signal.md)
 
-Workflows: new Read audience activity - [Read more](../../automating/using/read-audience.md)
+工作流：新阅读受众活动- [阅读更多](../../automating/using/read-audience.md)
 
-Points of Interest data - [Read more](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
+兴趣点数据- [阅读更多](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-Linked resources in REST APIs - [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
+REST API中的链接资源- [阅读更多](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-15}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-15}
 
 触发器集成：添加了两个用例。[阅读更多](../../integrating/using/abandonment-triggers-use-cases.md)
 
 我们使用新的信息和代码片段重新设计了开发人员API文档，从而改善了用户体验。[阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
-Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
+发现新 [读者群体](../../automating/using/read-audience.md) 和 [外部信号](../../automating/using/external-signal.md) 工作流程活动的示例。
 
-## Release 17.1 - January 2017 {#release-17-1---january-2017}
+## 版本17.1-2017年月 {#release-17-1---january-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-16}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-16}
 
-Log export for external reporting - [Read more](../../automating/using/exporting-logs.md)
+外部报告日志导出- [阅读更多](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Transactional Messaging API- [阅读更多信息](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
-Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
+交易消息的营销功能- [阅读更多信息](../../channels/using/profile-transactional-messages.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-16}
+### 随发行一起推出的其他文档更新 {#other-documentation-updates-coming-with-the-release-16}
 
-Incremental query workflow activity: new incremental mode - [Read more](../../automating/using/incremental-query.md)
+增量查询工作流程活动：新增量模式- [阅读更多](../../automating/using/incremental-query.md)
 
-Scheduler workflow activity update - [Read more](../../automating/using/scheduler.md)
+计划程序工作流活动更新- [阅读更多](../../automating/using/scheduler.md)
 
-URL change: Assets core service - [Read more](../../integrating/using/working-with-campaign-and-assets-core-service.md)
+URL更改：Assets核心服务- [阅读更多](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 
-URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+URL更改：People核心服务- [阅读更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 档案和受众指南已重新组织。[阅读更多](../../audiences/using/about-profiles-and-audiences.md)
 
-## Release 16.11 - November 2016 {#release-16-11---november-2016}
+## 版本16.11-2016年11月 {#release-16-11---november-2016}
 
-### Documentation updates coming with the release {#documentation-updates-coming-with-the-release}
+### 随版本一起推出的文档更新 {#documentation-updates-coming-with-the-release}
 
 新文档主页和新的外观。
 
-了解用户权限：已添加用例。Also consult the [user permission matrix](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+了解用户权限：已添加用例。另请参阅 [用户权限矩阵](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+使用API：已添加 [API扩展](../../developing/using/about-extending-the-api.md) 用例。另请参阅 [API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 营销活动错误消息：访问Campaign v和Standard中的错误消息的完整列表，按版本和语言筛选。[阅读更多](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Multi-branding use case - [Read more](../../administration/using/branding.md)
+多品牌使用案例- [阅读更多](../../administration/using/branding.md)
 
 通过电子邮件发送参数和SMTP的信息。[阅读更多](../../administration/using/configuring-email-channel.md#email-channel-parameters)
 
-New subject line data import interface - [Read more](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+新主题行数据导入界面- [阅读更多](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
 
-Creating push notification deliveries in a workflow - [Read more](../../automating/using/push-notification-delivery.md)
+在工作流中创建推送通知传送- [阅读更多信息](../../automating/using/push-notification-delivery.md)
 
 兼容性矩阵已在集成指南中更新。[阅读更多](../../integrating/using/about-campaign-integrations.md)
 
 新角色已添加到“用户和安全”部分。[阅读更多](../../administration/using/list-of-roles.md)
 
-Push notification templates - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md)
+推送通知模板- [阅读更多](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 SMS交付部分已更新以反映界面变更。[阅读更多](../../channels/using/creating-an-sms-message.md)
 
 推送通知交付已添加到时间轴。[阅读更多](../../start/using/timeline.md)
 
-## Release 16.10 - October 2016 {#release-16-10---october-2016}
+## 版本16.10-2016年10月 {#release-16-10---october-2016}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-17}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-17}
 
-Email predictive subject line - [Read more](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+电子邮件预测主题行- [阅读更多](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
 
-SMS transactional messaging - [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+SMS交易消息- [阅读更多信息](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
-Follow-up message for transactional messaging - [Read more](../../channels/using/follow-up-messages.md)
+交易消息的后续消息- [阅读更多信息](../../channels/using/follow-up-messages.md)
 
-Extended Profile &amp; Services API - [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
+Extended Profile&amp; Services API- [阅读更多](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-## Release 16.9 - September 2016 {#release-16-9---september-2016}
+## 版本16.9-2016年9月 {#release-16-9---september-2016}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-18}
+### 发行版中包含的新增功能 {#new-capabilities-included-in-the-release-18}
 
-Marketing Cloud Triggers - [Read more](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Marketing Cloud触发器- [阅读更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-Transactional messages: Pause / Unpublish - [Read more](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
+交易消息：暂停/取消发布- [阅读更多](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
 
-Multi-branding - [Read more](../../administration/using/branding.md)
+多品牌- [阅读更多](../../administration/using/branding.md)
 
-Responsive email design preview - [Read more](../../sending/using/previewing-messages.md)
+响应式电子邮件设计预览- [阅读更多](../../sending/using/previewing-messages.md)
 
-Push notifications - [Read more](../../channels/using/about-push-notifications.md)
+推送通知- [阅读更多](../../channels/using/about-push-notifications.md)
