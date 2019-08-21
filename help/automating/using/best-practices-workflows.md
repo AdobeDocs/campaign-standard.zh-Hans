@@ -14,7 +14,7 @@ context-tags: 工作流程，概述；工作流，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ## 导出列表{#exporting-lists}
 
-导出列表选项允许您默认导出100,000行，并由 **Nms_ ExportListLimit选项定义**。此选项可由职能管理员管理，位于 **“管理** ”&gt; **“应用程序设置** ”&gt; **“选项**”下。
+导出列表选项允许您默认导出100,000行，并由 **Nms_ ExportListLimit选项定义**。此选项可由职能管理员管理， **[!UICONTROL Administration]** 位于&gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**。
 有关详细信息，请参阅 [导出列表](../../automating/using/exporting-lists.md)。
 
 ## 疑难解答{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Adobe Campaign提供各种日志，以更好地了解您的工作流程问题。
 
 您可以在“日志”选项卡中分析SQL查询。
 
-1. 在工作流工作区中，单击 **编辑属性**。
-1. 在 **“常规** ”&gt; **“执行”**&#x200B;中，选中日志中 **的SQL查询并在** 引擎 **** 选项中执行“执行”，然后单击 **“确认**”。
+1. 在工作流工作区中，单击 **[!UICONTROL Edit properties]**。
+1. 在 **[!UICONTROL General]** &gt;中 **[!UICONTROL Execution]**，检查和 **[!UICONTROL Save SQL queries in the log]****[!UICONTROL Execute in the engine]** 选择选项并单击 **[!UICONTROL Confirm]**。
 
 **要在日志中查看SQL查询，请执行以下操作：**
-1. 单击 **“日志和任务**”。
-1. 在 **“日志** ”选项卡中，打开 **“搜索** ”面板。
-1. 选中 **仅显示SQL日志**。
+1. Click **[!UICONTROL Log and Tasks]**.
+1. 在 **[!UICONTROL Logs]** 选项卡中，打开 **[!UICONTROL Search]** 面板。
+1. 检查 **[!UICONTROL Display SQL logs only]**。
 
-查询将显示在日志 **的消息** 列中。
+查询将显示在日志 **[!UICONTROL Message]** 的列中。
 
 ### 使用交付日志{#using-delivery-logs}
 
