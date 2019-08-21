@@ -14,12 +14,12 @@ context-tags: 工作流程，概述；工作流，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# 工作流程最佳做法{#workflow-best-practices}
 
 通过Adobe Campaign，您可以设置所有类型的工作流以执行大量任务。但是，在设计和执行工作流时，您需要非常小心，因为实施不当可能导致性能、错误和平台问题。您可以在下面的最佳实践和疑难解答提示列表中找到。
 
@@ -27,7 +27,7 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 >
 >工作流设计和执行必须由Adobe Campaign高级用户执行。
 
-## Naming{#naming}
+## 命名命名{#naming}
 
 为了简化工作流程故障排除，Adobe建议您显式命名工作流并为其添加标签。填写工作流的描述字段以总结要执行的进程，以便操作员能够轻松理解。
 如果工作流是涉及多个工作流的流程的一部分，则您可以在输入标签时使用数字来清楚地排序。
@@ -40,13 +40,13 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 * 010-导出-导出交付日志
 * 011-导出-导出跟踪日志
 
-## Duplicating workflows{#duplicating-workflows}
+## 复制工作流{#duplicating-workflows}
 
-您可以复制工作流。In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. 复制后，工作流的修改不会传递到工作流的副本。可以编辑工作流的副本。
+您可以复制工作流。在中 **[!UICONTROL Marketing Activities]**，将鼠标悬停在工作流上并单击 **[!UICONTROL Duplicate element]**。复制后，工作流的修改不会传递到工作流的副本。可以编辑工作流的副本。
 
 ![](assets/duplicating_workflow.png)
 
-## Execution{#execution}
+## 执行执行{#execution}
 
 ### 工作流数量
 
@@ -66,15 +66,15 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 
 仍可以执行包含未结束过渡的工作流：它将生成一条警告消息，一旦到达过渡，工作流将暂停，但不会生成错误。您还可以在没有完成设计的情况下启动工作流，并在继续时完成它。
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+有关详细信息，请参阅 [执行工作流](../../automating/using//executing-a-workflow.md)。
 
-## Activity{#activity}
+## 活动{#activity}
 
 ### 工作流程设计
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. 避免退出工作流的最后一次过渡。
+要确保工作流正确结束，请使用一个 **[!UICONTROL End activity]**。避免退出工作流的最后一次过渡。
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+要访问过渡的详细信息视图，请选中工作流属性的“执行”部分中的 **[!UICONTROL Keep interim results]** 选项。
 
 >[!CAUTION]
 >
@@ -83,57 +83,76 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### 标记活动{#activity-labeling}
 
 在开发工作流时，将为所有Adobe Campaign对象生成一个名称，以供所有活动使用。虽然活动的名称是由该工具生成的，但无法编辑，但我们建议在配置时使用显式名称对其进行标记。
 
-### Duplicating activities{#activity-duplicating}
+### 复制活动{#activity-duplicating}
 
-要复制现有活动，您可以使用复制粘贴。这样，您就可以保留最初定义的设置。For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+要复制现有活动，您可以使用复制粘贴。这样，您就可以保留最初定义的设置。有关详细信息，请参阅 [复制工作流活动](../../automating/using/workflow-interface.md)。
 
-### Scheduler activity{#acheduler-activity}
+### 调度程序活动{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. 如果工作流的同一分支有多个调度程序(相互链接)，执行任务的数量将按指数级乘以，这会大幅超载数据库。
+构建工作流时，每个分支只能使用一 **[!UICONTROL Scheduler activity]** 个分支。如果工作流的同一分支有多个调度程序(相互链接)，执行任务的数量将按指数级乘以，这会大幅超载数据库。
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+您可以通过单击来预览工作流的下一个执行步骤 **[!UICONTROL Preview next executions]**。
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+有关详细信息，请参阅 [调度程序活动](../../automating/using/scheduler.md)。
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## 使用参数调用工作流{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). 参数的类型还必须与所需的值一致。
+确保名称和参数的数量与调用工作流时定义的参数相同(请参阅 [在调用工作流时定义参数](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。参数的类型还必须与所需的值一致。
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. 否则，运行活动时将发生错误。
+确保在中声明了所有参数 **[!UICONTROL External signal activity]**。否则，运行活动时将发生错误。
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+有关详细信息，请参阅 [调用使用外部参数](../../automating/using/calling-a-workflow-with-external-parameters.md)的工作流。
 
-## Exporting packages{#exporting-packages}
+## 导出包{#exporting-packages}
 
 要导出包，导出的资源不能包含默认ID。因此，必须使用Adobe Campaign Standard提供作为标准提供的模板的不同名称更改可导出资源的ID。
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+有关详细信息，请参阅 [管理包](../../automating/using/managing-packages.md)。
 
-## Exporting lists{#exporting-lists}
+## 导出列表{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+导出列表选项允许您默认导出100,000行，并由 **Nms_ ExportListLimit选项定义**。此选项可由职能管理员管理，位于 **“管理** ”&gt; **“应用程序设置** ”&gt; **“选项**”下。
+有关详细信息，请参阅 [导出列表](../../automating/using/exporting-lists.md)。
 
-## Troubleshooting{#workflow-troubleshooting}
+## 疑难解答{#workflow-troubleshooting}
 
 Adobe Campaign提供各种日志，以更好地了解您的工作流程问题。
 
-### Using workflow logs{#using-workflow-logs}
+### 使用工作流日志{#using-workflow-logs}
 
-您可以访问工作流日志以监视活动的执行。它按时间顺序对执行和执行错误的操作进行索引。
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+您可以访问工作流日志以监视活动的执行。它按时间顺序对执行和执行错误的操作进行索引。“日志”选项卡包含在执行全部或部分选定活动的历史记录中。
+任务选项卡详细介绍了活动的执行顺序。要获取有关活动的更多信息，请单击任务。
+有关详细信息，请参阅 [监视工作流执行](../../automating/using/executing-a-workflow.md#monitoring)。
 
-### Using delivery logs{#using-delivery-logs}
+#### 数据管理活动疑难解答{#troubleshooting-data-management-activities}
+
+您可以在“日志”选项卡中分析SQL查询。
+
+1. 在工作流工作区中，单击 **编辑属性**。
+1. 在 **“常规** ”&gt; **“执行”**&#x200B;中，选中日志中 **的SQL查询并在** 引擎 **** 选项中执行“执行”，然后单击 **“确认**”。
+
+**要在日志中查看SQL查询，请执行以下操作：**
+1. 单击 **“日志和任务**”。
+1. 在 **“日志** ”选项卡中，打开 **“搜索** ”面板。
+1. 选中 **仅显示SQL日志**。
+
+查询将显示在日志 **的消息** 列中。
+
+### 使用交付日志{#using-delivery-logs}
 
 交付日志允许监控交付成功。排除日志会在准备发送过程中返回被排除的消息。发送日志提供每个配置文件的交付状态。
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+有关更多信息，请参阅 [了解交付失败](../../sending/using/understanding-delivery-failures.md)。
 
-### Using delivery alerting{#delivery-alerting}
+### 使用交付通知{#delivery-alerting}
 
 交付通知功能是一种警报管理系统，它允许一组用户自动接收通知，其中包含执行其交付的信息。
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+有关更多信息，请参阅 [交付通知](../../sending/using/receiving-alerts-when-failures-happen.md)。
+
+**相关主题：**
+
+* [错误管理](../../automating/using/executing-a-workflow.md#error-management)
