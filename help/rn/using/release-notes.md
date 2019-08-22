@@ -14,47 +14,57 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41 d34 b41
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70f20623cfb4b902adf49cc2934cfdec0894f86c
+source-git-commit: 725c9bf196988717f313bbf72448067fef8e8647
 
 ---
 
 
-# Release Notes{#release-notes}
+# 发行说明{#release-notes}
 
 正在寻找特定版本的Adobe Campaign Standard？
 
-每个版本都附带新增功能和修补程序。单击某个版本可查看其内容。Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
+每个版本都附带新增功能和修补程序。单击某个版本可查看其内容。请参阅 [发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) ，了解下次发布的时间。
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+查看Adobe Campaign Standard的最新 [文档更新](../../rn/using/documentation-updates.md) 。如果要查找上一版本，请参阅以下页面： [2018发行说明](../../rn/using/release-notes-2018.md)， [2017年发行说明](../../rn/using/release-notes-2017.md)， [2015-2016发行说明](../../rn/using/release-notes-2015-2016.md)。另请参阅 [已弃用和删除功能的列表](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## 控制面板更新-2019年月 {#controlpanel-update---august-2019}
 
-### What's new? {#what-s-new-3}
+### 新增功能？ {#what-s-new-4}
+
+我们为管理用户添加了新功能，以便在其域的SSL证书过期之前接收通知。有关详细信息，请参阅 [详细文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
+
+此外，管理员用户现在可以删除添加到访问SFTP服务器的SSH密钥。
+
+请注意，控制面板仅适用于在AWS上托管的客户。这些更新将于月26日发布。
+
+## 版本19.3-2019年7月 {#release-19-3---july-2019}
+
+### 新增功能？ {#what-s-new-3}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 描述<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
+   <td> 外部API活动(公共测试版)<br /> </td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。</p><p>此功能目前处于公共测试版中。</p><p>有关详细信息，请参阅 <a href="../../automating/using/external-api.md">详细的文档</a> 和 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> Report on workflow segment<br /> </td> 
-   <td> <p>此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
+   <td> 工作流区段报告<br /> </td> 
+   <td> <p>此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。</p><p>有关详细信息，请参阅 <a href="../../reporting/using/creating-a-report-workflow-segment.md">详细的文档</a> 和 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">操作方法视频</a>。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-2}
+### 安全性增强功能 {#security-enhancements-2}
 
 * 修复了一个安全问题，以防止拒绝服务(DoS)攻击获取图像的无效请求。(AMP-33454)
 
-### Email Designer enhancements {#email-designer-enhancements-3}
+### 电子邮件设计器增强功能 {#email-designer-enhancements-3}
 
 * 修复了在每次添加组件时将其他HTML样式标签添加到HTML模板的问题，这会显著增加模板的大小。(AMP-34694)
 * 修复了可阻止某些右上方工具栏菜单选项可用的问题。(AMP-34577)
@@ -81,19 +91,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了在使用动态内容时复制变体发生的问题。
 * 从“电子邮件设计器设置”窗格中删除了一些不需要的字段。
 
-### Other improvements {#other-improvements-3}
+### 其他改进 {#other-improvements-3}
 
-* 通过与Adobe Experience Platform位置服务的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的用户发送基于位置的营销消息。For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* 报告功能已得到改进，体验更好的体验。要使用此功能，您需要接受动态报告使用协议。For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* 在工作流中，添加了一个新选项来预览工作流的下一个执行步骤。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 在计划程序活动中，新选项允许您选择特定周的特定日期以进行月度交付。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 创建没有聚合期的重复分发时，交付功能板现在允许您在发送分发之前请求确认。For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
-* 您现在可以使用在工作流外部信号活动中声明的事件变量来个性化交付的标签。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* 通过与Adobe Experience Platform位置服务的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的用户发送基于位置的营销消息。有关详细信息，请参阅 [详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
+* 报告功能已得到改进，体验更好的体验。要使用此功能，您需要接受动态报告使用协议。有关此操作的详细信息，请参阅 [详细文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+* 在工作流中，添加了一个新选项来预览工作流的下一个执行步骤。有关此操作的详细信息，请参阅 [详细文档](../../automating/using/scheduler.md)。
+* 在计划程序活动中，新选项允许您选择特定周的特定日期以进行月度交付。有关此操作的详细信息，请参阅 [详细文档](../../automating/using/scheduler.md)。
+* 创建没有聚合期的重复分发时，交付功能板现在允许您在发送分发之前请求确认。有关此操作的详细信息，请参阅 [详细文档](../../sending/using/confirming-the-send.md)。
+* 您现在可以使用在工作流外部信号活动中声明的事件变量来个性化交付的标签。有关此操作的详细信息，请参阅 [详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 * GDPR删除查询已得到改进，可提高性能。(AMP-33504)
 * 从外部帐户配置界面中删除了“ftp”选项。(AMP-34472)
-* 您现在可以为每个电子邮件启用和禁用SMTP测试模式选项。For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (AMP-34602)
+* 您现在可以为每个电子邮件启用和禁用SMTP测试模式选项。有关此操作的详细信息，请参阅 [详细文档](../../administration/using/configuring-email-channel.md#smtp-test-mode)。(AMP-34602)
 
-### Other changes {#other-changes-2}
+### 其他更改 {#other-changes-2}
 
 * 在交付属性界面中添加了警告。它指定了根据他们的汇总时间段准备分发，并解冻以每天多次调用工作流，您应确保他们没有任何句点。(AMP-34393)
 * 自定义资源配置屏幕中添加了警告。我们建议对自定义资源ID使用30个字符最大值。这也适用于自定义资源字段、键、索引和链接。
@@ -104,7 +114,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 使用“转移文件”活动时，如果文件大小超出可用磁盘空间，现在会记录错误。
 * 不再为应用程序内消息中的第二个按钮选择重定向到目标URL操作。
 
-### Patches {#patches-3}
+### 修补程序 {#patches-3}
 
 * 修复了可能导致GDPR访问请求失败的问题。
 * 修复了在收到唯一配置文件的多个触发器时会丢弃触发器的问题。
@@ -138,31 +148,31 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了一个安全问题，该问题导致主题包含多行时出现电子邮件内容。
 
 
-## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
+## 版本19.2.7-2019年7月 {#release-19-2-7---july-2019}
 
-### Improvements {#improvements-2}
+### 改进功能 {#improvements-2}
 
 * GDPR删除查询已得到改进，可提高性能。
 * 修复了在19.2升级后Web崩溃的问题。(AMP-34862)
 * 修复了一个问题，该问题可能会阻止非管理员用户保存或安排报告。(AMP-31133)
 * 修复了使用“||“作为加载文件工作流活动中的日期分隔符。(AMP-34706)
 
-## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
+## 版本19.2.4-2019年月 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+### 电子邮件设计器 {#email-designer-2}
 
 * 修复了在HTML中使用空样式标签时阻止用户编辑片段的问题。这是AMP-33778在19.2.3中的后续修复。
 
-## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
+## 版本19.2.3-2019年月 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+### 电子邮件设计器 {#email-designer-1}
 
 引入了在19.2版本中优化片段的一系列改进和修复。新创建的片段将无缝工作。以前构建的片段已灰显，需要迁移到新格式。为此，请单击每个片段并验证其迁移到新格式。我们建议您先测试几个片段，然后再迁移它们。
 
 * 修复了阻止用户在解锁片段后编辑片段的问题。更新到19.2时，这会影响现有片段。(AMP-33778)
 * 修复了使用动态内容时出现的问题。HTML中增加了额外的空格。
 
-### Other improvements {#other-improvements-2}
+### 其他改进 {#other-improvements-2}
 
 * 修复了SMS连接器断开连接后无法发送SMS发送的问题。
 * 修复了启用TLS时可能关闭SMTP连接的问题。
@@ -172,42 +182,42 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了一个问题，该问题导致您无法使用来自服务资源的信息丰富交易消息内容。(AMP-33707)
 * 修复了在尝试取消订阅服务配置文件时出现的黑名单登陆页面中存在的问题。
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## 版本19.2-2019年月 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+### 新增功能？ {#what-s-new-}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 描述<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Control Panel<br /> </td> 
-   <td> <p>为了帮助您以管理员用户的身份提高工作效率，您可以轻松监控容量和管理实例设置(从SFTP服务器管理开始)。</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>.</p></td> 
+   <td> 控制面板<br /> </td> 
+   <td> <p>为了帮助您以管理员用户的身份提高工作效率，您可以轻松监控容量和管理实例设置(从SFTP服务器管理开始)。</p><p>有关详细信息，请参阅 <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">详细的文档</a> 和 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> Local notifications<br /> </td> 
-   <td> <p>本地通知消息允许您在移动应用程序中提供新数据时通知用户，即使没有访问Internet或在前台运行的移动应用程序时也是如此。本地通知由移动应用程序在特定时间触发，具体取决于活动。</p><p>For more information, refer to the <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">detailed documentation</a>.</p></td> 
+   <td> 本地通知<br /> </td> 
+   <td> <p>本地通知消息允许您在移动应用程序中提供新数据时通知用户，即使没有访问Internet或在前台运行的移动应用程序时也是如此。本地通知由移动应用程序在特定时间触发，具体取决于活动。</p><p>有关详细信息，请参阅 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">详细文档</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> <p>在从另一个工作流成功满足定义条件或REST API调用与外部系统集成时，开始使用有效负荷启动工作流。This also includes a new <strong>test</strong> activity where you can run tests on this functionality.</p><p>For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">how-to video</a>.</p></td> 
+   <td> 工作流增强-向外部信号活动添加有效负荷<br /> </td> 
+   <td> <p>在从另一个工作流成功满足定义条件或REST API调用与外部系统集成时，开始使用有效负荷启动工作流。这还包括一个新 <strong>的测试</strong> 活动，您可以在此运行测试的测试。</p><p>有关详细信息，请参阅 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">详细的文档</a> 和 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
-   <td> <p>利用Google ReCAPTCHA防止登录页面上垃圾邮件，无需客户采取任何行动。</p><p>For more information, refer to the <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">detailed documentation</a>.</p></td> 
+   <td> 登陆页面增强功能- Google ReCAPTCHA<br /> </td> 
+   <td> <p>利用Google ReCAPTCHA防止登录页面上垃圾邮件，无需客户采取任何行动。</p><p>有关详细信息，请参阅 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">详细文档</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements}
+### 安全性增强功能 {#security-enhancements}
 
 * 修复了报告工作区中潜在的点击劫持安全问题。
 
-### Email Designer enhancements {#email-designer-enhancements}
+### 电子邮件设计器增强功能 {#email-designer-enhancements}
 
 * 修复了复制片段并尝试在电子邮件设计器中使用它们时出现的问题。(AMP-33193)
 * 修复了在电子邮件设计器界面中使用内嵌元素时创建多余空格的问题。(AMP-32163)
@@ -227,7 +237,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了在尝试使用RGB值定义颜色时出现的拾色器问题。
 * 修复了在手机上接收电子邮件时，镜像页面无法响应的问题。
 
-### Transactional Messaging enhancements {#transactional-messaging-enhancements}
+### Transactional Messaging增强功能 {#transactional-messaging-enhancements}
 
 为了优化操作和性能，已向Transactional Messaging通道添加了若干改进。
 
@@ -236,26 +246,26 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 交易消息处理过程已经过优化，能够并行多分析同一消息。
 * 修复了一个问题，该问题可能导致交易推送通知的吞吐量和滞后时间不一致。
 * 修复了一个问题，该问题导致目标受众的交易消息执行提交不正确。
-* 修复了导入包含活动配置和关联的事务消息的包时出现的问题。For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* 修复了导入包含活动配置和关联的事务消息的包时出现的问题。有关此操作的详细信息，请参阅 [详细文档](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages)。
 * 修复了在为包含产品列表的交易消息创建的测试配置文件中删除集合数据的问题。
 
-### Other changes {#other-changes}
+### 其他更改 {#other-changes}
 
-* 新选项已添加到SMS外部帐户。它允许限制发送SMS的MTA进程的最大数量，以更好地控制并行连接的数量。For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
-* 在发布带有API扩展的资源时，如果API已经发布，它现在每次再次发布时都会自动更新。以前，此操作是手动操作且未能更新API，因此API可能会破坏此API的配置文件或服务资源。For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* 新选项已添加到SMS外部帐户。它允许限制发送SMS的MTA进程的最大数量，以更好地控制并行连接的数量。有关详细信息，请参阅 [SMS连接器协议和设置](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 技术说明。
+* 在发布带有API扩展的资源时，如果API已经发布，它现在每次再次发布时都会自动更新。以前，此操作是手动操作且未能更新API，因此API可能会破坏此API的配置文件或服务资源。有关此操作的详细信息，请参阅 [详细文档](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)。
 * 已从动态报告中删除Zip代码维度。我们建议改用城市、国家/地区、州尺寸。
 * 应用程序内消息的“首次启动”生命周期事件触发器已被删除。
 * 在导出与安全组的包时，它现在包含分配给每个用户组的角色。(AMP-32960)
-* 在加载文件活动中，新选项允许您检查上传的文件列是否匹配列定义。For more information, refer to the [detailed documentation](../../automating/using/load-file.md). (AMP-3229)
-* 现在可以使用有效负荷开始工作流，以便您在工作流中的活动之间使用和共享外部参数。For more information, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md). (AMP-29412&amp; AMP-29413)
-* Campaign Standard API现在允许您使用有效负荷更新配置文件的地理和组织单位。For more information, refer to the [detailed documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+* 在加载文件活动中，新选项允许您检查上传的文件列是否匹配列定义。有关详细信息，请参阅 [详细文档](../../automating/using/load-file.md)。(AMP-3229)
+* 现在可以使用有效负荷开始工作流，以便您在工作流中的活动之间使用和共享外部参数。有关详细信息，请参阅 [详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。(AMP-29412&amp; AMP-29413)
+* Campaign Standard API现在允许您使用有效负荷更新配置文件的地理和组织单位。有关详细信息，请参阅 [详细文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 * 无法访问数据库中某个对象的错误消息已得到更清晰的理解。
-* 在Extract文件活动中，在定义要导出的文件名称时，Javascript功能已更新。现在只能在输出字段中使用formatDate函数。For more information, refer to the [detailed documentation](../../automating/using/extract-file.md).
+* 在Extract文件活动中，在定义要导出的文件名称时，Javascript功能已更新。现在只能在输出字段中使用formatDate函数。有关详细信息，请参阅 [详细文档](../../automating/using/extract-file.md)。
 * 自定义资源的自动序列ID生成已得到改进。默认情况下，新自定义资源的主键处于64位。
-* 自定义资源发布测试模式已得到改进。如果上次自定义资源发布失败且未修复，则现在向用户显示警告消息。自定义资源发布失败后，您可以回滚到上一个工作版本。For more information, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* 转移文件活动中新增了一个选项。它允许您在SFTP模式下使用文件下载操作对文件进行排序。For more information, refer to the [detailed documentation](../../automating/using/transfer-file.md). (AMP-33109)
+* 自定义资源发布测试模式已得到改进。如果上次自定义资源发布失败且未修复，则现在向用户显示警告消息。自定义资源发布失败后，您可以回滚到上一个工作版本。有关详细信息，请参阅 [详细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+* 转移文件活动中新增了一个选项。它允许您在SFTP模式下使用文件下载操作对文件进行排序。有关详细信息，请参阅 [详细文档](../../automating/using/transfer-file.md)。(AMP-33109)
 
-### Patches {#patches}
+### 修补程序 {#patches}
 
 * 修复了重新加载SMS设置时可能会导致MTA内存泄漏的问题。
 * 修复了一个问题，该问题可能会阻止在修复模式下发布数据库更新。
@@ -263,7 +273,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了导致报告共享工作流失败的错误。
 * 修复了阻止用户仅通过媒体URL发送应用程序内消息的错误。
 * 修复了显示移动应用程序的问题，即使其证书未上传到实例。
-* Fixed an error that prevented personalization fields from working when using the **Target all users of a Mobile app** template.
+* 修复了在使用移动应用 **** 程序模板的所有用户时阻止个性化字段工作的错误。
 * 提供了新的Campaign Standard实例。(AMP-32635&amp; AMP-32344)
 * 修复了一个错误，该错误导致在工作流中自定义日期公式。(AMP-30336)
 * 修复了定义可阻止“附加数据”和“区段代码”字段在下拉列表中可用的自定义日期公式的问题。(AMP-32383)
@@ -276,88 +286,88 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了可交付工作流在未成功完成的情况下关闭的问题。
 * 修复了可能阻止用户保存或安排报表的问题。(AMP-31133)
 
-## Release 19.1.3 - March 2019 {#release-19-1-3---march-2019}
+## 版本19.1.3-2019年3月 {#release-19-1-3---march-2019}
 
-### Email Designer enhancements {#email-designer-enhancements-1}
+### 电子邮件设计器增强功能 {#email-designer-enhancements-1}
 
 * 修复了保存模板后无法修改模板的问题。
 * 修复了在电子邮件中使用先前创建的模板时出现的各种问题。
 * 修复了阻止在导入的模板中隐藏组件的问题。
 
-### Other improvements {#other-improvements}
+### 其他改进 {#other-improvements}
 
 * 修复了查看字型规则时出现的错误。(AMP-32059&amp; AMP-31849)
 * 修复了阻止编辑规则规则的问题。(AMP-31750)
 * 修复了InMail进程可能会意外停止的问题。(AMP-31238)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## 版本19.1-2019年月 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+### 新增功能？ {#what-s-new--1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 描述<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Push channel Reporting improvements<br /> </td> 
-   <td> <p>推送渠道报告增加了若干增强功能，使您能够更直观地衡量用户参与度。在此版本中，我们将推送渠道指标列表扩展到三个不同的指标：印象、点击、打开(App Open)可帮助您更有效地测量和分析用户与推送通知的交互。此外，我们还要标准化这些指标的定义和实施。推送通知内置报告已通过常用可视化和指标改进。</p><p> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>.</p> </td> 
+   <td> 推送渠道报告改进<br /> </td> 
+   <td> <p>推送渠道报告增加了若干增强功能，使您能够更直观地衡量用户参与度。在此版本中，我们将推送渠道指标列表扩展到三个不同的指标：印象、点击、打开(App Open)可帮助您更有效地测量和分析用户与推送通知的交互。此外，我们还要标准化这些指标的定义和实施。推送通知内置报告已通过常用可视化和指标改进。</p><p> 有关详细信息，请参阅 <a href="../../reporting/using/push-notification-report.md">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> Launch integration for Mobile App<br /> </td> 
-   <td> <p>此版本包含将Adobe Campaign与Android和iOS版的Android及iOS Adobe Campaign Standard for Adobe Campaign Platform Launch和Mobile SDK的GA版本集成。这些扩展支持推送消息、应用程序内消息传递和移动应用程序配置文件更新。</p><p> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.</p> </td> 
+   <td> Launch for Mobile App<br /> </td> 
+   <td> <p>此版本包含将Adobe Campaign与Android和iOS版的Android及iOS Adobe Campaign Standard for Adobe Campaign Platform Launch和Mobile SDK的GA版本集成。这些扩展支持推送消息、应用程序内消息传递和移动应用程序配置文件更新。</p><p> 有关详细信息，请参阅 <a href="../../administration/using/about-typology-rules.md#typology-rules">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile In-App Messaging<br /> </td> 
-   <td> <p>此版本包含Campaign中的GA应用程序内渠道的GA版本。从功能性的观点来看，Beta版最明显的新增功能是针对Mobile SDK和MCIAS(Marketing Cloud应用程序内消息服务，将应用程序内规则提供给SDK的Marketing Cloud内消息服务)的动态报告。安全握手可确保用户的PII数据不会落入恶意手中，并且可使您在每次用户注销时清除消息缓存，从而在共享设备上保持用户的隐私。</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.</p> </td> 
+   <td> 移动应用程序内消息传递<br /> </td> 
+   <td> <p>此版本包含Campaign中的GA应用程序内渠道的GA版本。从功能性的观点来看，Beta版最明显的新增功能是针对Mobile SDK和MCIAS(Marketing Cloud应用程序内消息服务，将应用程序内规则提供给SDK的Marketing Cloud内消息服务)的动态报告。安全握手可确保用户的PII数据不会落入恶意手中，并且可使您在每次用户注销时清除消息缓存，从而在共享设备上保持用户的隐私。</p><p>有关详细信息，请参阅 <a href="../../channels/using/about-in-app-messaging.md">详细的文档</a> 和专门的 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">应用程序内教程</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> Workflow enhancements<br /> </td> 
+   <td> 工作流程增强功能<br /> </td> 
    <td> <p>添加了以下工作流功能：</p> 
     <ul> 
-     <li> 您现在可以在工作流中复制粘贴活动，也可以从同一营销活动实例中复制其他工作流。这样，您就可以轻松复制整个工作流或特定活动，并保留最初定义的设置。For more information, refer to the <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detailed documentation</a>. (AMP-20014) </li> 
-     <li> When using the <strong>Load file</strong> activity, you can now add a timestamp to the name of the file containing the rejected records. For more information, refer to the <a href="../../automating/using/load-file.md#configuration">detailed documentation</a>. </li> 
+     <li> 您现在可以在工作流中复制粘贴活动，也可以从同一营销活动实例中复制其他工作流。这样，您就可以轻松复制整个工作流或特定活动，并保留最初定义的设置。有关详细信息，请参阅 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">详细文档</a>。(AMP-20014) </li> 
+     <li> 使用 <strong>加载文件</strong> 活动时，您现在可以将时间戳添加到包含已拒绝记录的文件名称。有关详细信息，请参阅 <a href="../../automating/using/load-file.md#configuration">详细文档</a>。 </li> 
      <li> <strong>现在，查询</strong> 和 <strong>分段</strong> 活动允许您在活动检索无数据的情况下启用出站过渡。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-1}
+### 安全性增强功能 {#security-enhancements-1}
 
 * 生成的登陆页面HTML代码已更新，以防止搜索引擎索引。
 
-### Email Designer enhancements {#email-designer-enhancements-2}
+### 电子邮件设计器增强功能 {#email-designer-enhancements-2}
 
 * 由Behance艺术家设计的四个一流的响应式电子邮件模板现已推出。
 
-   For more information, refer to the [detailed documentation](../../start/using/about-templates.md#content-templates).
+   有关详细信息，请参阅 [详细文档](../../start/using/about-templates.md#content-templates)。
 
 * 我们新的入门培训体验将帮助您更快地开始电子邮件创建，并让您更轻松地访问文档和教程。
 
-   For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#email-designer-home-page).
+   有关详细信息，请参阅 [详细文档](../../designing/using/about-email-content-design.md#email-designer-home-page)。
 
 * 现在，您可以根据需要灵活配置列数和宽度。
 
-   For more information, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   有关详细信息，请参阅 [详细文档](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)。
 
 * 在移动视图中编辑时，您可以隐藏移动显示中的某些组件，以有效使用空间。
 
-   For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+   有关详细信息，请参阅 [详细文档](../../designing/using/about-email-content-design.md#switching-to-mobile-view)。
 
 * 现在，您可以在已经可用的电子邮件模板顶部添加自定义社交渠道。
 * 修复了在使用超过18个结构时，阻止向下滚动结构菜单的问题。(AMP-31173)
 * 修复了在转发包含Adobe Campaign发送的预标头的电子邮件时，内容顶部显示的预标头的问题。(AMP-30736)
-* Fixed an issue that prevented the subject line from being updated when clicking the **Refresh AEM content** option after modifying the subject in Adobe Experience Manager. (AMP-29984)
+* 修复了在Adobe Experience Manager中修改主题后，在单击 **刷新AEM内容** 选项时，无法更新主题行的问题。(AMP-29984)
 * 修复了阻止从Adobe Target使用动态图像的若干问题。
 * 修复了在准备内容之前从URL导入内容时，无法更新预览时无法更新预览的问题。
-* The YouTube icon has been added to the **Social** content component.
-* The **List** view has been added for content components and fragments displayed in the Email Designer palette.
+* YouTube图标已添加 **到社交** 内容组件。
+* 已为“电子邮件设计器”调色板中显示的内容组件和片段添加 **列表** 视图。
 
-### Other improvements {#other-improvements-1}
+### 其他改进 {#other-improvements-1}
 
 * Adobe Campaign现在完全兼容FCM V和AEP SDK应用程序。
 * Adobe Campaign支持Android和Apple的“佩戴操作系统”(Apple)的推送通知。
@@ -366,14 +376,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 配置文件创建屏幕中的时区下拉列表已从“地址”部分移至界面的上半部分。
 * 现在，您可以在配置自定义资源屏幕时添加分隔符，以便将字段组织成类别。
 
-   For more information, refer to the [detailed documentation](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+   有关详细信息，请参阅 [详细文档](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
-### Other changes {#other-changes-1}
+### 其他更改 {#other-changes-1}
 
-* Adobe Campaign和Adobe Experience Cloud将支持Microsoft Internet Explorer11(从2019年春季开始)和Campaign Standard19.2版本。请切换到Microsoft Edge或其他支持的浏览器。See [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
-* The **Country code** field from the Profile resource has been renamed to **Country/Region code**.
+* Adobe Campaign和Adobe Experience Cloud将支持Microsoft Internet Explorer11(从2019年春季开始)和Campaign Standard19.2版本。请切换到Microsoft Edge或其他支持的浏览器。请参阅 [已弃用和删除功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 页面。
+* 配置文件资源中 **的国家/地区代码** 字段已更名为 **国家/地区代码**。
 
-### Patches {#patches-1}
+### 修补程序 {#patches-1}
 
 * 修复了在向电子邮件事务发送测试配置文件时阻止发送消息的问题。(AMP-29854)
 * 修复了当从所有渠道发送消息时，如果同时触发来自所有渠道的消息，则会减慢从其他渠道发送的消息的问题。
@@ -396,51 +406,51 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修复了在创建应用程序内分发以及显示在交付控制板中显示的配置文件之间存在不一致的问题时。(AMP-28722)
 * 修复了Campaign和Assets核心服务集成导致您无法在电子邮件中选择共享资产的问题。
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## 版本19.0-2019年月 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+### 新增功能？ {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 描述<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Email Designer General Availability<br /> </td> 
+   <td> 电子邮件设计人员的一般可用性<br /> </td> 
    <td> <p>新的直观电子邮件设计器(以前称为Creative Designer)已移至GA。它现在支持旧版内容编辑器中的所有功能，包括：</p> 
     <ul> 
-     <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> 
-     <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
-     <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> 
+     <li> 使用Adobe Target <a href="../../integrating/using/adding-target-dynamic-content.md">中的动态图像</a> </li> 
+     <li> 能够在准备时自动 <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">从URL检索内容</a> </li> 
+     <li> 完全兼容 <a href="../../start/using/about-templates.md#content-templates">的现成内容模板</a>。 </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. 下面列出了改进和修复。</p><p>因此，旧版电子邮件内容编辑器现已弃用。For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>有关详细信息，请参阅 <a href="../../designing/using/about-email-content-design.md">详细的文档</a> 和 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">操作方法视频</a>。下面列出了改进和修复。</p><p>因此，旧版电子邮件内容编辑器现已弃用。有关详细信息，请参阅此 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">页面</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。例如，您可以自动发送废弃的电子邮件，其中列出了用户购物车中包含图像、价格和链接到每个产品的产品。</p><p>For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">how-to video</a>.</p> </td> 
+   <td> 交易电子邮件中的产品列表<br /> </td> 
+   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。例如，您可以自动发送废弃的电子邮件，其中列出了用户购物车中包含图像、价格和链接到每个产品的产品。</p><p>有关详细信息，请参阅 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">详细的文档</a> 和 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile View in the Email Designer<br /> </td> 
-   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。这允许您通过单独编辑移动显示屏的所有样式选项(如调整边距、较小的字体大小、不同背景颜色等)优化电子邮件的响应式设计。</p><p> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
+   <td> 电子邮件设计器中的移动视图<br /> </td> 
+   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。这允许您通过单独编辑移动显示屏的所有样式选项(如调整边距、较小的字体大小、不同背景颜色等)优化电子邮件的响应式设计。</p><p> 有关详细信息，请参阅 <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> In-App Messaging Beta Improvements<br /> </td> 
+   <td> 应用程序内消息测试测试<br /> </td> 
    <td> <p>应用程序内消息测试功能已通过以下功能增强：</p> 
     <ul> 
      <li> 应用程序内测试版符合GDPR规范 </li> 
      <li> 与Analytics API集成以填充触发器 </li> 
      <li> 直观的交付模板外观和说明 </li> 
      <li> 对从可用性标准进行创作界面的增强 </li> 
-    </ul> <p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.</p> </td> 
+    </ul> <p>有关详细信息，请参阅 <a href="../../channels/using/about-in-app-messaging.md">详细文档</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Improvements {#improvements}
+### 改进功能 {#improvements}
 
 * 现在，加载数据活动中的新选项允许您将一个后期处理舞台应用到包含被拒绝记录(例如，压缩格式压缩)。(CMS-24521)
 * 现在，更新数据活动中的新选项允许您配置要上传的数据的最大批次大小。(AMP-28400)
@@ -450,7 +460,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 定义了配置文件地址时可用国家/地区的列表。(AMP-26707)
 * 现在，尝试导入内置工作流时显示错误消息。
 
-### Email Designer {#email-designer}
+### 电子邮件设计器 {#email-designer}
 
 * 修复了一个问题，该问题导致在电子邮件模板上启用地理单位功能或通过电子邮件设计器创建的内容片段，即使在Adobe Campaign中禁用此功能，该功能在尝试再次访问模板或片段时也不可用。(AMP-28174)
 * 修复了使用电子邮件设计器编辑内容时会保存动态内容条件的问题。(AMP-27905)
@@ -466,11 +476,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 现在可以使用电子邮件设计器创建个人资料信息消息。(AMP-28900)
 * 修复了电子邮件设计器中的一个错误，该错误导致在准备时自动从URL检索内容时，内容可编辑，而应锁定。
 
-### Patches {#patches-2}
+### 修补程序 {#patches-2}
 
 * 修复了动态报告中显示错误提交日志的问题。(AMP-23446)
 * 修复了可能影响回弹摘要报告上的数字的问题(Camp-28703)
-* Fixed an issue with the Campaign and Assets Core Service integration which could prevent assets from being displayed when selecting **[!UICONTROL Image shared from Adobe Experience Cloud]** in an email (CAMP-28732).
+* 修复了Campaign和Assets核心服务集成存在的一个问题，该问题可能会阻止在通过电子邮件进行选择 **[!UICONTROL Image shared from Adobe Experience Cloud]** 时显示资产(AMP-28732)。
 * 修复了一个问题，该问题导致即使在SMTP外部帐户中授权翻译，也会阻止包含“œ”字符的SMS消息发送。(AMP-29041)
 * 修复了在工作流中使用分段活动时可能显示重复记录的问题。(AMP-28743)
 * 修复了一个问题，该问题导致阻止在工作流活动中删除列上的某个值映射。(AMP-28708)
