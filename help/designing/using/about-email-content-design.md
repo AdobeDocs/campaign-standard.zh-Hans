@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -177,6 +177,7 @@ Adobe建议将您的内容更新到最新版本，以避免出现CSS冲突问题
 * [安排消息](../../sending/using/about-scheduling-messages.md)
 * [预览消息](../../sending/using/previewing-messages.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
+* [无需HTML即可构建个性化电子邮件](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## 使用现有内容设计电子邮件 {#designing-an-email-using-existing-contents}
 
