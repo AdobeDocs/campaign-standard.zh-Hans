@@ -14,7 +14,7 @@ discoiquuid: 4337a80b -fb9-4a37-bce3-fe2121 a66586
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 * [准备工作](../../administration/using/configuring-email-channel.md#preparation)
 * [管理字节数](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typology规则](../../administration/using/about-typology-rules.md#typology-rules)
+* [优化交流频率以防止联系疲劳](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 创建疲劳规则 {#creating-a-fatigue-rule}
 
