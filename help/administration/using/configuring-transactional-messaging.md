@@ -14,28 +14,28 @@ discoiquuid: 3f968556-e774-43dc-a0 b8-7188d7665 fbc
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2f947cce39ce08f233292d34cb4440aa48a2b5
+source-git-commit: 8800562922e68d33cca93cd838c294198b630684
 
 ---
 
 
-# Configuring transactional messaging{#configuring-transactional-messaging}
+# 配置交易消息{#configuring-transactional-messaging}
 
 要使用Adobe Campaign发送交易消息，您首先需要描述活动数据的结构。
 
-Event configuration must be performed by an **administrator** by following the steps below:
+活动配置必须 **由管理员** 执行，以下步骤如下：
 
-配置可能因要发送的事务消息类型而异。For more on this, refer to [Transactional event specific configurations](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)
+配置可能因要发送的事务消息类型而异。有关此问题的详细信息，请参阅 [特定于事务的配置。](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)
 
-发布活动后，会自动创建相应的交易消息。For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
+发布活动后，会自动创建相应的交易消息。有关交易消息的更多信息，请参阅 [此页](../../channels/using/about-transactional-messaging.md)。
 
-## Creating an event {#creating-an-event}
+## 创建活动 {#creating-an-event}
 
 首先根据需要创建活动。
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]**.
-1. Click the **[!UICONTROL Create]** button.
-1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. **[!UICONTROL ID]** 字段为必填字段，应以前缀“EVT”开头。If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**.
+1. 单击左上角 **[!UICONTROL Adobe Campaign]** 的标志，然后选择 **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]**。
+1. 单击 **[!UICONTROL Create]** 按钮。
+1. 为活动提供一个 **[!UICONTROL Label]** 和一个 **[!UICONTROL ID]** 。**[!UICONTROL ID]** 字段为必填字段，应以前缀“EVT”开头。如果您不使用此前缀，单击 **[!UICONTROL Create]**&#x200B;后将自动添加该前缀。
 
    ![](assets/message-center_1.png)
 
@@ -43,29 +43,29 @@ Event configuration must be performed by an **administrator** by following the s
    >
    >ID不得超过64个字符，包括EVT前缀。
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
+1. 选择将用于发送交易消息 **[!UICONTROL Email]**&#x200B;的渠道或 **[!UICONTROL Mobile (SMS)]****[!UICONTROL Mobile application]** (推送通知)。
 
    >[!NOTE]
    >
    >每个活动配置只能使用一个频道。创建活动后，您无法更改渠道。
 
-1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]**.
+1. 选择与所需活动配置对应的定位维度，然后单击 **[!UICONTROL Create]**。
 
-   事件本身包含基于事件的交易消息目标数据，而基于个人资料的交易消息目标数据包含在Adobe Campaign数据库中。For more on this, refer to [Transactional event specific configurations](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations).
+   事件本身包含基于事件的交易消息目标数据，而基于个人资料的交易消息目标数据包含在Adobe Campaign数据库中。有关此问题的详细信息，请参阅 [Transactional事件特定配置](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)。
 
-## Defining the event attributes {#defining-the-event-attributes}
+## 定义活动属性 {#defining-the-event-attributes}
 
 **[!UICONTROL Fields]** 在部分中，定义将集成到活动内容中的属性，然后可用于个性化交易消息。
 
-The steps for adding and modifying fields are the same as for [custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
+添加和修改字段的步骤与 [自定义资源](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)相同。
 
 ![](assets/message-center_2.png)
 
 >[!NOTE]
 >
->If you want to create a multilingual transactional message, define an additional event attribute with the **[!UICONTROL AC_language]** ID. 这仅适用于活动交易消息。发布活动后，编辑多语言事务消息内容的步骤与多语言标准电子邮件相同。See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
+>如果要创建多语言交易消息，请使用 **[!UICONTROL AC_language]** ID定义其他事件属性。这仅适用于活动交易消息。发布活动后，编辑多语言事务消息内容的步骤与多语言标准电子邮件相同。请参阅 [创建多语言电子邮件](../../channels/using/creating-a-multilingual-email.md)。
 
-## Defining data collections {#defining-data-collections}
+## 定义数据集合 {#defining-data-collections}
 
 您可以向活动内容添加一组元素，每个元素本身包括多个属性。
 
@@ -93,58 +93,58 @@ The steps for adding and modifying fields are the same as for [custom resources]
 * [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 * [在交易消息中使用产品列表](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Enriching the transactional message content {#enriching-the-transactional-message-content}
+## 丰富交易消息内容 {#enriching-the-transactional-message-content}
 
 利用Adobe Campaign数据库中的信息丰富交易消息内容使您能够个性化消息。例如，从每个收件人的姓氏或CRM ID，您可以恢复数据(例如，他们的地址或出生日期)或配置文件表中添加的任何其他自定义字段，以便个性化发送给他们的信息。
 
-It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources.
+利用来自扩展 **[!UICONTROL Profile]** 或 **[!UICONTROL Service]** 资源的信息，可以丰富交易消息内容。
 
-此信息也可存储在新资源中。In that case, the resource must be linked to the **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the **[!UICONTROL Product]** resource like the product category or ID, if the **[!UICONTROL Product]** resource is linked to the **[!UICONTROL Profile]** resource.
+此信息也可存储在新资源中。在这种情况下，资源必须直接链接到或 **[!UICONTROL Profile]****[!UICONTROL Service]** 资源，或者通过其他表链接到资源。例如，在下面的配置中，如果资源链接到资源，则可以使用来自产品类别或ID等 **[!UICONTROL Product]** 资源的信息丰富 **[!UICONTROL Product]** 交易消息 **[!UICONTROL Profile]** 内容。
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+有关资源创建和发布的更多信息，请参阅 [此页面](../../developing/using/key-steps-to-add-a-resource.md)。
 
 1. **[!UICONTROL Enrichment]** 在部分中，单击 **[!UICONTROL Create element]** 按钮。
 
    ![](assets/message-center_addenrichment.png)
 
-1. 选择要与之链接的资源。In this case, choose the **[!UICONTROL Profile]** resource.
+1. 选择要与之链接的资源。在这种情况下，请选择 **[!UICONTROL Profile]** 资源。
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Use the **[!UICONTROL Create element]** button to link a field from the selected resource to one of the fields you previously added to the event (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 使用 **[!UICONTROL Create element]** 该按钮将一个字段从选定资源链接到之前添加到活动中的一个字段(请参阅 [定义活动属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 
-1. In this example, we reconcile the **[!UICONTROL Last name]** and the **[!UICONTROL First name]** fields with the corresponding fields in the **[!UICONTROL Profile]** resource.
+1. 在此示例中，我们将与 **[!UICONTROL Last name]** 资源中相应字段的 **[!UICONTROL First name]** 字段和解调整 **[!UICONTROL Profile]** 。
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-1. **[!UICONTROL Targeting enrichment]** 在部分中，选择将在提交执行过程中用作消息目标的丰富化。In this example, select **[!UICONTROL Profile]**. 对于基于个人资料的活动，必须选择定位丰富化。
+1. **[!UICONTROL Targeting enrichment]** 在部分中，选择将在提交执行过程中用作消息目标的丰富化。在此示例中，选择 **[!UICONTROL Profile]**。对于基于个人资料的活动，必须选择定位丰富化。
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
-Once the event and the message are published, the link with the **[!UICONTROL Profile]** resource will allow you to enrich the content of the transactional message.
+活动和消息发布后，包含 **[!UICONTROL Profile]** 资源的链接将允许您丰富交易消息的内容。
 
 **相关主题：**
 
 * [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 * [个性化交易消息](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)。
 
-## Previewing and publishing the event {#previewing-and-publishing-the-event}
+## 预览和发布活动 {#previewing-and-publishing-the-event}
 
 在使用活动之前，您必须预览并发布该活动。
 
-1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published. 发布活动后，此按钮还允许您查看生产中API的预览。See [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+1. 单击 **[!UICONTROL API preview]** 该按钮可查看REST API的模拟，网站开发人员在发布之前将使用该API。发布活动后，此按钮还允许您查看生产中API的预览。请参阅 [将活动的触发集成到网站](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)中。
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API根据选定的渠道和选定的定位维度而异。For more details on the various configurations, refer to [Transactional event specific configurations](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations).
+   >REST API根据选定的渠道和选定的定位维度而异。有关各种配置的详细信息，请参阅 [Transactional事件特定配置](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)。
 
-1. Click **[!UICONTROL Publish]** to start publication.
+1. 单击 **[!UICONTROL Publish]** 以开始发布。
 
    ![](assets/message-center_pub.png)
 
@@ -156,17 +156,17 @@ Once the event and the message are published, the link with the **[!UICONTROL Pr
 
 >[!NOTE]
 >
->Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
+>每次修改活动时，必须再次单击 **[!UICONTROL Publish]** 以生成由网站开发人员使用的更新的REST API。
 
-活动发布后，将自动创建链接到新活动的事务消息。为了使此活动触发发送交易消息，您必须修改并发布刚刚创建的消息。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+活动发布后，将自动创建链接到新活动的事务消息。为了使此活动触发发送交易消息，您必须修改并发布刚刚创建的消息。请参阅 [活动交易消息](../../channels/using/event-transactional-messages.md)。
 
 您可以访问直接从左侧区域的链接创建的事务消息。
 
 ![](assets/message-center_messagegeneration.png)
 
-您还必须将此触发器事件集成到您的网站中。See [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+您还必须将此触发器事件集成到您的网站中。请参阅 [将活动的触发集成到网站](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)中。
 
-### Unpublishing an event {#unpublishing-an-event}
+### 取消发布活动 {#unpublishing-an-event}
 
 **[!UICONTROL Unpublish]** 该按钮允许您取消活动的发布，该活动从REST API中删除与您先前创建的事件对应的资源。现在，即使活动通过您的网站触发，相应的消息也不会再发送，而且它们不会存储在数据库中。
 
@@ -174,158 +174,151 @@ Once the event and the message are published, the link with the **[!UICONTROL Pr
 
 >[!NOTE]
 >
->如果您已经发布了相应的交易消息，则交易消息发布也会被取消。See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>如果您已经发布了相应的交易消息，则交易消息发布也会被取消。请参阅 [取消发布交易消息](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
 
-Click the **[!UICONTROL Publish]** button to generate a new REST API.
+单击 **[!UICONTROL Publish]** 按钮以生成新的REST API。
 
-## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
+## 将活动触发集成到网站 {#integrating-the-triggering-of-the-event-in-a-website}
 
 创建活动后，您必须将此事件的触发集成到网站中。
 
-In the example described in the [Transactional messaging operating principle](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. 为此，网站Web开发人员必须使用Adobe Campaign Standard REST API。
+在 [Transactional Messaging操作原理](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 部分所述的示例中，您希望在客户在购物车购买产品之前离开网站时触发“购物车废弃”事件。为此，网站Web开发人员必须使用Adobe Campaign Standard REST API。
 
-See the [REST API Documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+请参阅 [REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
 
-## Transactional event specific configurations {#transactional-event-specific-configurations}
+## 特定于活动的活动配置 {#transactional-event-specific-configurations}
 
 交易活动配置可能因您要发送的交易消息类型(活动或配置文件)以及将使用的渠道而异。
 
-以下部分详细介绍了应根据所需的交易消息设置特定配置的详细信息。For more on the general steps to configure an event, refer to [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+以下部分详细介绍了应根据所需的交易消息设置特定配置的详细信息。有关配置活动的一般步骤，请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 
-### Event-based transactional messages {#event-based-transactional-messages}
+### 基于事件的交易消息 {#event-based-transactional-messages}
 
 要发送基于事件的交易消息，您首先需要创建和配置一个事件，以定位活动本身包含的数据。
+有关更多信息，请参阅 [使用事务性消息传递](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)。
 
-1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
-1. Enrich the transactional message content if you want to use additional information from the Adobe Campaign database (see [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)).
+1. 创建活动配置时，请选择 **[!UICONTROL Real-time event]** 定位维度(请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event))。
+1. 为活动添加字段，以便能够个性化事务消息(请参阅 [定义活动属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。
+1. 如果您希望使用来自Adobe Campaign数据库的其他信息(请参阅 [丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content))，请丰富交易消息内容。
 
    >[!NOTE]
    >
    >基于事件的交易消息应仅使用已发送事件中的数据来定义接收者和消息内容个性化。但是，您可以使用Adobe Campaign数据库中的信息丰富交易消息的内容。
 
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
 
    预览事件时，REST API包含根据选定频道指定电子邮件地址或手机的属性。
 
-   活动发布后，将自动创建链接到新活动的事务消息。In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
+   活动发布后，将自动创建链接到新活动的事务消息。要使活动触发发送事务消息，您必须修改并发布刚刚创建的消息，请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. 将活动集成到您的网站中(请参阅 [集成网站中的活动触发](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website))。
 
-### Profile-based transactional messages {#profile-based-transactional-messages}
+### 基于个人资料的交易消息 {#profile-based-transactional-messages}
 
 要发送基于个人资料的交易消息，您首先需要创建和配置Adobe Campaign数据库中包含的活动定位数据。
 
-1. When creating the event configuration, select the **[!UICONTROL Profile event]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)). 您必须添加至少一个字段才能创建丰富内容。You do not need to create other fields such as **First name** and **Last name** as you will be able to use personalization fields from the Adobe Campaign database.
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. 创建活动配置时，请选择 **[!UICONTROL Profile event]** 定位维度(请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event))。
+1. 为活动添加字段，以便能够个性化事务消息(请参阅 [定义活动属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。您必须添加至少一个字段才能创建丰富内容。您无需创建其他字段(如 **名字** 和 **姓氏)，** 因为您能够使用Adobe Campaign数据库中的个性化字段。
+1. 创建丰富性，以便将活动链接到 **[!UICONTROL Profile]** 资源(请参阅 [丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content))。在使用 **[!UICONTROL Profile]** 定位维度时，创建丰富是必需的。
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
 
-   When previewing the event, the REST API does not contain an attribute specifying the email address or the mobile phone as it will be retrieved from the **[!UICONTROL Profile]** resource.
+   预览事件时，REST API不包含指定电子邮件地址或手机将从 **[!UICONTROL Profile]** 资源检索的属性。
 
-   活动发布后，将自动创建链接到新活动的事务消息。In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see [Sending a profile transactional message](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message).
+   活动发布后，将自动创建链接到新活动的事务消息。要使活动触发发送事务消息，您必须修改并发布刚才创建的消息，请参阅 [发送配置文件事务消息](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)。
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. 将活动集成到您的网站中(请参阅 [集成网站中的活动触发](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website))。
 
-### Event-based transactional push notifications {#event-based-transactional-push-notifications}
+### 基于事件的交易推送通知 {#event-based-transactional-push-notifications}
 
-要发送交易推送通知，您需要相应地配置Adobe Campaign。See [Push configuration](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+要发送交易推送通知，您需要相应地配置Adobe Campaign。请参阅 [推送配置](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
 要向选择接收移动应用程序接收通知的所有用户发送匿名交易推送通知，您首先需要创建并配置一个事件定位活动中包含的数据。以下步骤如下所示。
 
 该事件必须包含以下三个元素：
 
 * **注册令牌**，它是一个手机应用程序和一个设备的用户ID。它可能与Adobe Campaign数据库中的任何配置文件不对应。
-* **移动应用程序名称** (适用于所有设备- Android和iOS)。这是在Adobe Campaign中配置的移动应用程序的ID，用于接收用户设备上的推送通知。For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* **移动应用程序名称** (适用于所有设备- Android和iOS)。这是在Adobe Campaign中配置的移动应用程序的ID，用于接收用户设备上的推送通知。有关此操作的详细信息，请参阅此 [页面](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 * **推送平台** (“gcm”for Android或“apns”for iOS)。
 
-1. When creating the event configuration, select the **[!UICONTROL Mobile application]** channel and the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
-1. Enrich the transactional message content if you want to use additional information from Adobe Campaign database (see [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)).
+1. 创建活动配置时，选择 **[!UICONTROL Mobile application]** 渠道和 **[!UICONTROL Real-time event]** 定位维度(请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event))。
+1. 为活动添加字段，以便能够个性化事务消息(请参阅 [定义活动属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。
+1. 如果您希望使用来自Adobe Campaign数据库的其他信息(请参阅 [丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content))，请丰富交易消息内容。
 
    >[!NOTE]
    >
    >基于事件的交易消息应仅使用已发送事件中的数据来定义接收者和消息内容个性化。但是，您可以使用Adobe Campaign数据库中的信息丰富交易消息的内容。
 
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
 
    预览事件时，REST API包含将用于定位交付的“registrationToken”、“application”和“pushPlatform”属性。
 
    ![](assets/message-center_push_api.png)
 
-   发布活动后，将自动创建链接到新活动的事务推送通知。To modify and publish the message that was just created, see [Sending a transactional push notification targeting an event](/channels/using/transactional-push-notifications.html#sending-a-transactional-push-notification-targeting-an
-----------event#sending-a-transactional-push-notification-targeting-an
-----------event#sending-a-transactional-push-notification-targeting-an
-----------event#sending-a-transactional-push-notification-targeting-an
-----------event).
+   发布活动后，将自动创建链接到新活动的事务推送通知。要修改和发布刚刚创建的消息，请参阅 [发送面向活动](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-an-event)的交易推送通知。
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. 将活动集成到您的网站中(请参阅 [集成网站中的活动触发](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website))。
 
-### Profile-based transactional push notifications {#profile-based-transactional-push-notifications}
+### 基于个人资料的交易推送通知 {#profile-based-transactional-push-notifications}
 
 要向已订阅移动应用程序的Adobe Campaign配置文件发送交易推送通知，您首先需要创建和配置一个定位Adobe Campaign数据库的活动。
 
-1. When creating the event configuration, select the **[!UICONTROL Mobile application]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
+1. 创建活动配置时，选择 **[!UICONTROL Mobile application]** 渠道和 **[!UICONTROL Profile]** 定位维度(请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event))。
 
    默认情况下，交易推送通知将发送到接收订阅的所有移动应用程序。要将推送通知发送到特定的手机应用程序，请在列表中选择该通知。其他移动应用程序将被消息锁定，但将从发送中排除。
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Add fields to the event, if you want to personalize the transactional message (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 如果要个性化事务消息，请向活动中添加字段(请参阅 [定义活动属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。
 
    >[!NOTE]
    >
-   >您必须添加至少一个字段才能创建丰富内容。You do not need to create other fields such as **First name** and **Last name** as you will be able to use personalization fields from the Adobe Campaign database.
+   >您必须添加至少一个字段才能创建丰富内容。您无需创建其他字段(如 **名字** 和 **姓氏)，** 因为您能够使用Adobe Campaign数据库中的个性化字段。
 
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. 创建丰富性，以便将活动链接到 **[!UICONTROL Profile]** 资源(请参阅 [丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content))。在使用 **[!UICONTROL Profile]** 定位维度时，创建丰富是必需的。
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
 
-   When previewing the event, the REST API does not contain an attribute specifying the registration token, the application name and the push platform as they will be retrieved from the **[!UICONTROL Profile]** resource.
+   预览事件时，REST API不包含指定注册令牌、应用程序名称和推送平台的属性，因为它们将从 **[!UICONTROL Profile]** 资源中检索。
 
-   发布活动后，将自动创建链接到新活动的事务推送通知。To modify and publish the message that was just created, see [Sending a transactional push notification targeting a profile](/channels/using/transactional-push-notifications.html#sending-a-transactional-push-notification-targeting-a
-----------profile#sending-a-transactional-push-notification-targeting-a
-----------profile#sending-a-transactional-push-notification-targeting-a
-----------profile#sending-a-transactional-push-notification-targeting-a
-----------profile).
+   发布活动后，将自动创建链接到新活动的事务推送通知。要修改和发布刚刚创建的消息，请参阅 [发送面向配置文件的交易推送通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)。
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. 将活动集成到您的网站中(请参阅 [集成网站中的活动触发](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website))。
 
-### Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
+### 配置活动以发送后续消息 {#configuring-an-event-to-send-a-follow-up-message}
 
-后续消息是预定义的营销交付模板，可在工作流中使用该模板向收件人发送特定交易消息的消息。For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
+后续消息是预定义的营销交付模板，可在工作流中使用该模板向收件人发送特定交易消息的消息。有关此操作的详细信息，请参阅 [跟进消息](../../channels/using/follow-up-messages.md)。
 
-1. 使用您创建的与发送活动事务消息相同的事件配置。See [Event-based transactional messages](../../administration/using/configuring-transactional-messaging.md#event-based-transactional-messages).
-1. When configuring your event, check the **[!UICONTROL Create follow-up delivery template for this event]** box before publishing the event.
+1. 使用您创建的与发送活动事务消息相同的事件配置。请参阅 [基于事件的交易消息](../../administration/using/configuring-transactional-messaging.md#event-based-transactional-messages)。
+1. 配置活动时，请在发布活动之前选中 **[!UICONTROL Create follow-up delivery template for this event]** 该框。
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
 
-   发布活动后，将自动创建与新活动关联的事务消息和后续交付模板。For more on using follow-up messages, see [Sending a follow-up message](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
+   发布活动后，将自动创建与新活动关联的事务消息和后续交付模板。有关使用跟进消息的详细信息，请参阅 [发送后续消息](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 
-## Use case: configuring an event to send a transactional message {#use-case--configuring-an-event-to-send-a-transactional-message}
+## 使用案例：配置活动以发送交易消息 {#use-case--configuring-an-event-to-send-a-transactional-message}
 
 在此示例中，我们希望配置一个活动，以便在我们网站上每次购买后发送确认消息，并具有以下prerequi站点：
 
-As we want to identify our client via his CRM ID, first make sure that the **[!UICONTROL Profile]** resource has been extended with this new field.
+当我们希望通过他的CRM ID识别我们的客户端时，首先确保 **[!UICONTROL Profile]** 通过此新字段扩展资源。
 
-In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. 这样，您就可以从该资源检索信息以丰富消息内容。
+同样，与购买对应的自定义资源必须已创建并发布，并且必须链接 **[!UICONTROL Profile]** 到资源。这样，您就可以从该资源检索信息以丰富消息内容。
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+有关资源创建和发布的更多信息，请参阅 [此页面](../../developing/using/key-steps-to-add-a-resource.md)。
 
-1. Create a new event using the **[!UICONTROL Email]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. 定义可用于个性化交易消息的属性。In our case, add the "CRM ID" and the "Product identifier" fields (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 使用 **[!UICONTROL Email]** 渠道和 **[!UICONTROL Profile]** 定位维度创建新活动(请参阅 [创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event))。
+1. 定义可用于个性化交易消息的属性。在我们的情况下，添加“CRM ID”和“产品标识符”字段(请参阅 [定义事件属性](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes))。
 
    ![](assets/message-center_usecase1.png)
 
-1. To enrich the message content with information regarding the client's previous purchases, create an enrichment targeting the **[!UICONTROL Purchase]** resource (see [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)).
+1. 要利用有关客户先前购买的信息丰富消息内容，请创建资源丰富定位( **[!UICONTROL Purchase]** 请参阅 [丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content))。
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource
+1. 在之前添加到消息的“产品标识符”字段之间创建连接条件，并在 **[!UICONTROL Purchase]** 资源中创建相应的字段
 
    ![](assets/message-center_usecase3.png)
 
-1. Preview and publish the event (see [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)).
-1. Integrate the event in your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
+1. 预览并发布活动(请参阅 [预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event))。
+1. 将活动集成到网站中(请参阅 [集成网站](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)中的活动)。
 
