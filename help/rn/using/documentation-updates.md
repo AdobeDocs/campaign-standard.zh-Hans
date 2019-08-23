@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
 ## 文档更新-2019年月 {#doc-updates-august-2019}
 
 有关如何在“日志”选项卡中显示SQL查询的工作流故障排除部分，已添加了一个步骤。[阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+添加了一篇新帮助文章，其中包含与控制面板中的子域和证书管理相关的信息。[阅读更多](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## 版本19.3-2019年7月 {#release-19-3---july-2019}
 
