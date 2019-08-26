@@ -15,12 +15,12 @@ context-tags: 交付，inappContent，返回
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 43183a3adc35da3dac807a888f1b694fbb9a623c
 
 ---
 
 
-# Customizing an In-App message{#customizing-an-in-app-message}
+# 自定义应用程序内消息{#customizing-an-in-app-message}
 
 要微调应用程序内消息，Adobe Campaign允许您在设计应用程序内应用程序时访问一组高级选项。
 
@@ -36,9 +36,9 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 * [发送应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 
-## Customizing with a message template {#customizing-with-a-message-template}
+## 使用消息模板自定义 {#customizing-with-a-message-template}
 
-### Layout {#layout}
+### 布局 {#layout}
 
 **[!UICONTROL Layout]** 下拉菜单提供了四种不同的选项，可根据您的消息需求进行选择：
 
@@ -60,7 +60,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 * **[!UICONTROL Local notification]**：此类型的布局显示为横幅消息。
 
-   它只能支持声音、文本和目标。For more on local notification, refer to [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
+   它只能支持声音、文本和目标。有关本地通知的详细信息，请参阅 [自定义本地通知消息类型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
 
 每种类型的布局都可以在手机、平板电脑、平台等不同设备上预览，如Android或iOS和方向，如内容编辑器的右窗口中的横向或portra。
 
@@ -70,35 +70,35 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 **[!UICONTROL Media]** 下拉菜单允许您向应用程序内消息中添加媒体，为最终用户创建引人注目的体验。
 
-1. Select your **[!UICONTROL Media Type]** between image and video.
-1. For the **[!UICONTROL Image]** media type, enter your URL in the **[!UICONTROL Media URL]** field based on the supported formats.
+1. 在图像和 **[!UICONTROL Media Type]** 视频之间选择您的图像。
+1. 对于 **[!UICONTROL Image]** 媒体类型，请根据支持的格式在 **[!UICONTROL Media URL]** 字段中输入您的URL。
 
-   If needed, you can also enter the path to a **[!UICONTROL Bundled image]** which can be used if the device is offline.
+   如果需要，您还可以输入可 **[!UICONTROL Bundled image]** 在设备脱机时使用的路径。
 
    ![](assets/inapp_customize_5.png)
 
-1. For the **[!UICONTROL Video]** media type, enter your URL in the **[!UICONTROL Media URL]** field.
+1. 对于 **[!UICONTROL Video]** 媒体类型，在 **[!UICONTROL Media URL]** 字段中输入您的URL。
 
-   Then, enter your **[!UICONTROL Video poster]** to be used while the video is downloading on the audience devices or until users tap the play button.
+   然后，在用户设备上下载视频时或在用户点击播放按钮之前输入您 **[!UICONTROL Video poster]** 要使用的视频。
 
    ![](assets/inapp_customize_6.png)
 
-### Text {#text}
+### 文本 {#text}
 
 如果需要，您还可以向应用程序内消息添加消息标题和内容。为了更好地个性化应用程序内消息，您可以为内容添加不同的个性化字段、内容块和动态文本。
 
-1. In the **[!UICONTROL Text]** drop-down, add a title in the **[!UICONTROL Message title]** field.
+1. 在 **[!UICONTROL Text]** 下拉列表中，在 **[!UICONTROL Message title]** 字段中添加标题。
 
    ![](assets/inapp_customize_9.png)
 
-1. Add your content in the **[!UICONTROL Message content]** field.
-1. To further personalize your text, click the ![](assets/edit_darkgrey-24px.png) icon to add personalization fields.
+1. 在 **[!UICONTROL Message content]** 字段中添加内容。
+1. 要进一步个性化您的文本，请单击 ![](assets/edit_darkgrey-24px.png) 图标以添加个性化字段。
 
    ![](assets/inapp_customize_8.png)
 
 1. 键入消息内容并根据需要添加个性化字段。
 
-   For more information on personalization field, refer to this [section](../../designing/using/inserting-a-personalization-field.md).
+   有关个性化字段的详细信息，请参阅本 [节](../../designing/using/inserting-a-personalization-field.md)。
 
    ![](assets/inapp_customize_10.png)
 
@@ -106,67 +106,67 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
    ![](assets/inapp_customize_11.png)
 
-### Buttons {#buttons}
+### 按钮 {#buttons}
 
 最多可向应用程序内消息添加两个按钮。
 
-1. In the **[!UICONTROL Buttons]** drop-down, enter the text of your first button in the **[!UICONTROL Primary]** category.
+1. 在 **[!UICONTROL Buttons]** 下拉列表中，输入 **[!UICONTROL Primary]** 类别中第一个按钮的文本。
 
    ![](assets/inapp_customize_12.png)
 
-1. Choose which of the two actions **[!UICONTROL Dismiss]** and **[!UICONTROL Redirect]** will be assigned to your primary button.
+1. 选择两个动作 **[!UICONTROL Dismiss]** 中的哪 **[!UICONTROL Redirect]** 个，并将分配给主按钮。
 1. **[!UICONTROL Secondary]** 在类别中，输入文本，根据需要向应用程序内应用程序添加第二个按钮。
 1. 选择与第二个按钮关联的操作。
-1. If you chose the **[!UICONTROL Redirect]** action, enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field.
+1. 如果选择 **[!UICONTROL Redirect]** 了此操作，请在 **[!UICONTROL Destination URL]** 字段中输入Web URL或取消链接。
 
    ![](assets/inapp_customize_13.png)
 
-1. Enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field, if you chose the **[!UICONTROL Redirect]** action,
+1. 在 **[!UICONTROL Destination URL]** 字段中输入Web URL或取消链接，如果您选择了 **[!UICONTROL Redirect]** 操作，
 1. 在预览窗口中或单击“预览”按钮，检查您的消息内容。
 
-   Refer to the [Previewing the In-App message](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) page.
+   请参阅 [预览应用程序内消息](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) 页面。
 
    ![](assets/inapp_customize_11.png)
 
-### Settings {#settings}
+### 设置 {#settings}
 
 1. **[!UICONTROL Settings]** 在类别中，在浅色和深色之间选择背景颜色。
-1. Choose to display or not a close button with the **[!UICONTROL Show close button]** option to provide users a way to dismiss the In-App message.
-1. Select if your button alignment will be horizontal or vertical with the **[!UICONTROL Button alignment]** option.
+1. 选择显示或不显示关闭按钮， **[!UICONTROL Show close button]** 以向用户提供取消应用程序内消息的方法。
+1. 选择按钮对齐是否为水平或垂直 **[!UICONTROL Button alignment]** 选项。
 1. 选择您的应用程序内消息是否可以在几秒钟后自动消失。
 
    ![](assets/inapp_customize_7.png)
 
-## Customizing a local notification message type {#customizing-a-local-notification-message-type}
+## 自定义本地通知消息类型 {#customizing-a-local-notification-message-type}
 
 本地通知只能由应用程序在特定时间触发，具体取决于活动。他们将提醒用户即使没有Internet访问权限，也会在其应用程序中发生一些事情。
 
 自定义本地通知：
 
-1. From your **[!UICONTROL Content]** page, select **[!UICONTROL Local notification]** in the **[!UICONTROL Layout]** category
+1. 在 **[!UICONTROL Content]** 您的页面中，选择 **[!UICONTROL Local notification]****[!UICONTROL Layout]** 类别中的
 
    ![](assets/inapp_customize_17.png)
 
-1. Under the **[!UICONTROL Text]** category, type down your **[!UICONTROL Message title]** and **[!UICONTROL Message content]**.
+1. 在 **[!UICONTROL Text]** 类别下，键入 **[!UICONTROL Message title]** 您和 **[!UICONTROL Message content]**&#x200B;您的下拉列表。
 
    ![](assets/inapp_customize_18.png)
 
-1. Under the **[!UICONTROL Advanced option]** category, in the **[!UICONTROL Wait to display]** field, choose how long in seconds your local notification will be displayed on screen once your event is triggered.
-1. **[!UICONTROL Sound]** 在字段中输入在收到本地通知时移动设备播放的声音文件的文件名。
+1. 在 **[!UICONTROL Advanced option]** 该类别下，在 **[!UICONTROL Wait to display]** 字段中选择在触发活动后将在屏幕上显示本地通知的时间(以秒为单位)。
+1. **[!UICONTROL Sound]** 在字段中输入在收到本地通知时移动设备要播放的声音文件的文件名。
 
    如果在手机应用程序的包中定义了该文件，则声音文件在发送通知时播放。否则，将播放设备的默认声音。
 
    ![](assets/inapp_customize_19.png)
 
-1. Specify a destination to redirect your users when they interact with your local notification in the **[!UICONTROL Deeplink URL]** field.
+1. 指定要在用户与 **[!UICONTROL Deeplink URL]** 您的本地通知交互时重定向用户的目标。
 1. 要以关键值对的形式传递有效负荷中的自定义数据，您可以向本地通知中添加自定义字段。**[!UICONTROL Custom fields]** 在类别中，单击 **[!UICONTROL Create an element]** 按钮。
-1. Enter your **[!UICONTROL Keys]** then the **[!UICONTROL Values]** associated with each key.
+1. 输入与 **[!UICONTROL Keys]** 每个键 **[!UICONTROL Values]** 关联的内容。
 
    请注意，自定义字段的处理和目的完全取决于移动应用程序。
 
 1. **[!UICONTROL Apple options]** 在类别中，填写 **[!UICONTROL Category]** 字段以添加自定义操作的类别ID(如果在Apple移动应用程序中可用)。
 
-## Customizing with a custom HTML message {#customizing-with-a-custom-html-message}
+## 使用自定义HTML消息进行自定义 {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 为此，您只需拖放或从计算机中选择文件。
 
-Your file must have a specific layout which can be found by clicking the **Download the sample file** option.
+您的文件必须具有特定布局，单击 **下载示例文件** 选项即可找到该布局。
 
 ![](assets/inapp_customize_16.png)
 
@@ -186,15 +186,15 @@ Your file must have a specific layout which can be found by clicking the **Downl
 
 导入HTML后，您可以在预览窗口中的不同设备上找到文件的预览。
 
-## Previewing the In-App message {#previewing-the-in-app-message}
+## 预览应用程序内消息 {#previewing-the-in-app-message}
 
 在发送应用程序内消息之前，您可以测试测试配置文件，以检查目标受众何时收到您的交付内容。
 
-1. Click the **[!UICONTROL Preview]** button.
+1. 单击 **[!UICONTROL Preview]** 按钮。
 
    ![](assets/inapp_sending_2.png)
 
-1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. 单击 **[!UICONTROL Select a test profile]** 按钮并选择其中一个测试配置文件以开始预览交付。有关测试配置文件的详细信息，请参阅此 [部分](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
 1. 在Android、iPhone手机甚至平板电脑等不同设备上检查消息。您还可以检查您的个性化字段是否检索正确的数据。
 
    ![](assets/inapp_sending_3.png)
