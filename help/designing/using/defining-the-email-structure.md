@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97 d3403 b62
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -167,10 +167,10 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 1. 转到 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 并单击 **[!UICONTROL Create]**。
 1. 单击电子邮件标签以访问电子邮件设计器 **[!UICONTROL Properties]** 的选项卡。
-1. 指定可识别的标签并选择以下参数，稍后在新电子邮件中查找片段：
+1. 指定可识别的标签，并在编辑电子邮件内容时选择以下参数以查找片段：
 
    * 由于片段只与电子邮件兼容，请 **[!UICONTROL Delivery]** 从 **[!UICONTROL Content type]** 下拉列表中进行选择。
-   * 从 **[!UICONTROL Fragment]****[!UICONTROL HTML type]** 下拉列表中选择，以将此内容用作电子邮件中的片段。
+   * **[!UICONTROL Fragment]** 从 **[!UICONTROL HTML type]** 下拉列表中选择可将此内容用作片段。
    ![](assets/email_designer_createfragment.png)
 
 1. 如果需要，您可以设置将用作片段缩略图的图像。从模板属性 **[!UICONTROL Thumbnail]** 的选项卡中选择它。
@@ -179,23 +179,29 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    编辑电子邮件时，该缩略图将显示在片段标签旁边。
 
-1. 保存更改以返回主工作区。
-1. 添加结构组件和可根据需要自定义的内容组件。
+1. 关闭 **[!UICONTROL Properties]** 选项卡以返回主工作区。
+1. 添加可根据需要自定义的结构组件和内容组件。
+
+   >[!NOTE]
+   >
+   >片段不能包括个性化字段、动态内容或其他片段。
+   >[移动视图](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 在片段中不可用。
+
 1. 编辑后，保存片段。
 
-该片段现在可用于使用电子邮件设计器构建的任何电子邮件。它显示在调色板的 **[!UICONTROL Fragments]** 部分下方。
+此片段现在可用于使用电子邮件设计器构建的任何电子邮件。它显示在调色板的 **[!UICONTROL Fragments]** 部分下方。
 
 >[!NOTE]
 >
->除非在电子邮件中使用了个性化字段，否则不能插入该片段中的个性化字段。为此，您需要解锁此片段。请参阅 [关于片段](../../designing/using/defining-the-email-structure.md#about-fragments)。
+>除非在电子邮件中使用并未锁定，否则您无法插入片段中的个性化字段。请参阅 [关于片段](../../designing/using/defining-the-email-structure.md#about-fragments)。
 
 ### 将内容保存为片段 {#saving-content-as-a-fragment}
 
 使用电子邮件设计器编辑电子邮件时，您可以将该电子邮件的一部分直接保存为片段。
 
->[!CAUTION]
->
->您不能另存为包含个性化字段、动态内容或其他片段的结构。
+* 您不能另存为包含个性化字段、动态内容或其他片段的结构。
+* 您只能选择彼此相邻的结构。
+<!--* You cannot select an empty structure.-->
 
 1. 在电子邮件设计器中编辑电子邮件时，从主工具栏中进行选择 **[!UICONTROL Save as fragment]** 。
 
@@ -207,7 +213,8 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    >[!NOTE]
    >
-   >您只能选择彼此相邻的结构。
+   >确保选择彼此相邻且不包括个性化字段、动态内容或其他片段的结构。
+   <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -222,6 +229,9 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 1. 要使用新的片段，请打开任何电子邮件内容并从片段列表中选择它。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>[移动视图](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 在片段中不可用。如果要编辑电子邮件移动视图，请先将其保存为片段，然后再将其保存为片段。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
