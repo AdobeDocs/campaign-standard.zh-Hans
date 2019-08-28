@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Adobe建议将您的内容更新到最新版本，以避免出现CSS冲突问题
    现在应用桌面视图中定义的背景颜色：它变灰(而非空白)。
 
    唯一的例外是 **[!UICONTROL Border color]** 设置。在移动视图中禁用时，即使在桌面视图中定义了边框颜色，也不再应用边框。
+
+>[!NOTE]
+>
+>移动视图 [在片段](../../designing/using/defining-the-email-structure.md#about-fragments)中不可用。
 
 ## 纯文本和HTML模式 {#plain-text-and-html-modes}
 
