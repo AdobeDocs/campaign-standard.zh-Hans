@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最终用户
 user-guide-title: Adobe Campaign Standard帮助
 translation-type: tm+mt
-source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
+source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 
 ---
 
@@ -290,6 +290,12 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [导出日志](automating/using/exporting-logs.md)
       + [管理包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
+   + 使用案例：工作流 {#workflow-use-case}
+      + [通过补充创建交付](automating/using/workflow-created-query-with-complement.md)
+      + [在创建日期创建交付](automating/using/workflow-creation-date-query.md)
+      + [创建每周交付](automating/using/workflow-weekly-offer.md)
+      + [在位置创建分段](automating/using/workflow-segmentation-location.md)
+      + [重定向非Opener](automating/using/workflow-cross-channel-retargeting.md)
 + 开发人员 {#developing}
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
