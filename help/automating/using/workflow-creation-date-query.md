@@ -15,7 +15,7 @@ context-tags: 工作流，用例，查询
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 在中 **[!UICONTROL Execution frequency]**，选择 **[!UICONTROL Daily]**。
 1. 选择工作流的执行 **[!UICONTROL Time]** 和执行 **[!UICONTROL Repetition frequency]** 。
 1. 选择 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 工作流。
+1. 确认活动并保存工作流程。
 
 >[!NOTE]
 >
 >要在特定时区启动工作流，请在&#x200B;**[!UICONTROL Execution options]**&#x200B;选项卡中为您的调度程序设置时区 **[!UICONTROL Time zone]**。
 
 ![](assets/time_zone.png)
-
-1. 确认活动并保存工作流程。
 
 ## 创建查询活动 {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Click **[!UICONTROL Confirm]**.
 1. 在 **[!UICONTROL Query]** 编辑器中，选择第一个查询并复制它。
 1. 打开重复项。
 1. 替换 **[!UICONTROL Day]** 为 **[!UICONTROL Month]** 查询。
-您应该最终做到这一点：
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
+
+您应该最终做到这一点：
+
+``` Month(@created) = Month(GetDate()) ```
 
 此时将显示最终查询：
 
