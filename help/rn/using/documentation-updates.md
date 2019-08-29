@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -29,9 +29,15 @@ source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ## 文档更新-2019年月 {#doc-updates-august-2019}
 
+添加了一个在侧重查询工作流程中使用案例的新部分。[阅读更多](../../automating/using/workflow-created-query-with-complement.md)
+
 有关如何在“日志”选项卡中显示SQL查询的工作流故障排除部分，已添加了一个步骤。[阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 添加了一篇新帮助文章，其中包含与控制面板中的子域和证书管理相关的信息。[阅读更多](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+描述内容模板和片段的部分已更新。[阅读更多](../../start/using/about-templates.md#content-templates)
+
+新增了有关如何将电子邮件内容另存为电子邮件设计器中的模板的新部分。[阅读更多](../../start/using/about-templates.md#saving-content-as-template)
 
 ## 版本19.3-2019年7月 {#release-19-3---july-2019}
 
