@@ -15,7 +15,7 @@ context-tags: '工作流，用例，查询，分段，交付 '
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. Click **[!UICONTROL Confirm]**.
 1. 在中 **[!UICONTROL List of outbound segments]**，单击 **[!UICONTROL Add an element]** 并单击 ![](assets/edit_darkgrey-24px.png) 以创建定位第二个城市中的人员的区段。芝加哥。
 1. 拖放 **[!UICONTROL Location]** 并 **[!UICONTROL City]** 使用运算符 **[!UICONTROL equals to]** 进行选择，然后输入 **[!UICONTROL Chicago]** 值。
-
->[!NOTE]
->
->为了接触进入芝加哥的所有人员，不考虑案例可取消选中区分大小写的选项。
-
+1. 为了接触进入芝加哥的所有人员，不考虑案例可取消选中区分大小写的选项。
 1. Click **[!UICONTROL Confirm]**.
 
 ## 创建电子邮件分发{#creating-an-email-delivery}
