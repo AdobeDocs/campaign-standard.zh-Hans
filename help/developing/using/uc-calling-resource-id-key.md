@@ -4,7 +4,7 @@ seo-title: 使用复合标识键调用资源
 description: 使用复合标识键调用资源
 seo-description: 了解如何使用复合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
+source-git-commit: ff9861a2b8a59843cc668cec9f89b9ea76822d66
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 在某些情况下，您可能需要为某个资源定义由两个字段组成的标识密钥。配置标识密钥后，您需要配置过滤器定义，以便能够使用此标识密钥从Campaign Standard界面或API调用资源。
 
-In this use case, the **Profile** resource has been extended with custom **"CRM ID"** and **"category"** field. 我们将为配置文件资源创建一个标识密钥，该密钥由这两个字段组成。然后，我们将配置过滤器定义，以便我们可以使用标识密钥访问配置文件资源。
+在此用例中， **配置文件** 资源已通过自定义 **“CRM ID”** 和 **“category”** 字段扩展。我们将为配置文件资源创建一个标识密钥，该密钥由这两个字段组成。然后，我们将配置过滤器定义，以便我们可以使用标识密钥访问配置文件资源。
 
-此使用案例的主要步骤如下：
+此用例的主要步骤有：
 
 1. 根据两个字段配置配置文件资源的标识密钥。
 1. 配置过滤器定义，以便能够使用其标识密钥调用配置文件资源。
@@ -30,11 +30,11 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 ## 步骤1：配置标识密钥
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> 此部分详细介绍了配置标识密钥时的全局 [概念](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
 1. 在配置标识密钥之前，请确保已使用所需的字段扩展资源，并且已发布该字段。For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Developement]****[!UICONTROL Custom resources]** /菜单，然后打开 **[!UICONTROL Profile]** 资源。
 
    ![](assets/uc_idkey1.png)
 
@@ -42,21 +42,21 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey2.png)
 
-1. Add the two custom "CRM ID" and "Category" fields, then click **[!UICONTROL Confirm]**.
+1. 添加两个自定义“CRM ID”和“类别”字段，然后单击 **[!UICONTROL Confirm]**。
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[!UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > 如果要在配置文件的界面中显示两个自定义字段，请配置 **[!UICONTROL Screen definition]** 该选项卡。For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. 您现在可以配置过滤器定义，以使用其标识密钥调用资源。
 
 ## 步骤2：配置过滤器定义
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
+> 此部分详细介绍了配置过滤器定义时的全局 [概念](../../developing/using/configuring-filter-definition.md)。
 
-1. In the **[!UICONTROL Filter definition]** tab, click **[!UICONTROL Add an element]**, then enter the filter definition's label and ID.
+1. 在 **[!UICONTROL Filter definition]** 选项卡中，单击 **[!UICONTROL Add an element]**，然后输入过滤器定义的标签和ID。
 
 1. 编辑过滤器定义的属性以配置其规则。
 
@@ -66,7 +66,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey5.png)
 
-1. Select the first field used in the identification key ("CRM ID"), then activate the **[!UICONTROL Switch to parameters]** option.
+1. 选择识别密钥(“CRM ID”)中使用的第一个字段，然后激活 **[!UICONTROL Switch to parameters]** 该选项。
 
    ![](assets/uc_idkey6.png)
 
@@ -87,7 +87,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 配置识别密钥及其过滤器定义后，您可以使用营销活动标准界面或REST API调用资源。
 
-To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 随后，该过滤器便会在左窗格中可用。
+要使用界面中的过滤器定义，请使用工作流中的 **[!UICONTROL Query]** 活动(请参阅 [此部分](../../automating/using/query.md))。随后，该过滤器便会在左窗格中可用。
 
 ![](assets/uc_idkey9.png)
 
@@ -103,4 +103,4 @@ GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+有关详细信息，请参阅 [Campaign Standard REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
