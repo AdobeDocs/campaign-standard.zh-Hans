@@ -15,7 +15,7 @@ context-tags: 工作流程，用例，细分
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 将鼠标悬停在区段上，然后单击 ![](assets/edit_darkgrey-24px.png) 定位在数据库中今年添加的目标客户。
 1. 拖放 **[!UICONTROL Profiles]** 并 **[!UICONTROL Created]** 使用过滤器类型进行选择 **[!UICONTROL Relative]**。
 1. 更改 **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**。
-
->[!NOTE]
->
->要观察规则的结构，请单击 **[!UICONTROL Advanced Mode]**。
-
 1. 点击 **[!UICONTROL Confirm]** 两次。
 1. 在中 **[!UICONTROL Advanced Options]**，检查 **[!UICONTROL Generate complement]** 以创建定位其余收件人的区段。
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>要观察规则的结构，请单击 **[!UICONTROL Advanced Mode]**。
 
 ## 创建电子邮件分发 {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
 1. 通过特定于每个分发的选件个性化您的电子邮件。
-
-有关更多信息，请参阅 [设计电子邮件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
-
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. Click **[!UICONTROL Save]**.
+
+有关更多信息，请参阅 [设计电子邮件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
 
 **相关主题：**
 
