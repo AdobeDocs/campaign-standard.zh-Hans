@@ -15,7 +15,7 @@ context-tags: 工作流，用例，查询，交付，调度程序
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 为您的交付选择a **[!UICONTROL Time]** 和a。**[!UICONTROL Repetition frequency]**
 1. 在中 **[!UICONTROL Days of the week]**，选择 **[!UICONTROL Tuesday]**。
 1. 为工作流指定一个 **[!UICONTROL Start]** 和 **[!UICONTROL Expiration]** 参数。
+1. 确认活动并保存工作流程。
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >要在特定 **[!UICONTROL Time Zone]**&#x200B;位置启动工作流，请在&#x200B;**[!UICONTROL Execution options]**“时区”字段中为您的调度程序设置时区。
-
-1. 确认活动并保存工作流程。
 
 ## 创建查询活动{#creating-a-query-activity}
 
