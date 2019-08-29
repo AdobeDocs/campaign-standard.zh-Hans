@@ -14,29 +14,29 @@ discoiquuid: 54028f63-c9 ca-4397-a079-e27 e0 cfdebf6
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
+source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
 
 ---
 
 
-# About access management{#about-access-management}
+# 关于访问管理{#about-access-management}
 
 Adobe Campaign允许您定义和管理分配给不同用户的权限。权限是授权或拒绝访问界面中某些功能或对象的权限和限制。这些权限基于以下两个概念：
 
-* **组织单位**：这些允许您为平台的不同对象(电子邮件、工作流、模板、用户、配置文件等)定义权限层次结构。Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
-* **角色**：一组统一权限，允许您定义分配给用户和用户组的授权。Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+* **组织单位**：这些允许您为平台的不同对象(电子邮件、工作流、模板、用户、配置文件等)定义权限层次结构。请参阅 [组织部门](../../administration/using/organizational-units.md) 部分。
+* **角色**：一组统一权限，允许您定义分配给用户和用户组的授权。请参阅 [角色](../../administration/using/list-of-roles.md) 列表部分。
 
-   与组织单位相结合，角色为用户提供了界面的筛选视图，并定义了对不同功能的访问。For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   与组织单位相结合，角色为用户提供了界面的筛选视图，并定义了对不同功能的访问。有关此操作的详细信息，请参阅 [“授权”表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
 >[!CAUTION]
 >
->注意，已经弃用地理单位功能。For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>注意，已经弃用地理单位功能。有关此操作的详细信息，请参阅此 [页面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
 
-Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu.
+角色、组和组织单位可以由平台的功能管理员在 **[!UICONTROL Administration > Users & Security]** 菜单下管理。
 
 ![](assets/user_management_1.png)
 
-Users are managed in the Admin console (refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section or the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+用户在Admin Console中进行管理(请参阅 [管理用户组和用户](../../administration/using/managing-groups-and-users.md) 部分或 [管理员控制台文档](https://helpx.adobe.com/enterprise/managing/user-guide.html))。
 
 ![](assets/user_management_6.png)
 
