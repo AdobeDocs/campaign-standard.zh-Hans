@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbutton92 d99
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
 
 ![](assets/content_templates_list.png)
 
-现成的内容模板是只读的。要编辑其中一个，您必须先复制它。
+现成的内容模板是只读的。要编辑其中一个，您必须先复制所需的模板。
 
 您可以创建新模板或片段，并定义自己的内容。有关此操作的详细信息，请参阅 [创建内容模板](../../start/using/about-templates.md#creating-a-content-template) 和 [创建内容片段](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)。
 
