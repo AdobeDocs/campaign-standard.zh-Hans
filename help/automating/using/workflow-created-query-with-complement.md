@@ -15,7 +15,7 @@ context-tags: 工作流程，用例，细分
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 在中 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 并使用 **[!UICONTROL no longer contact by email]** 该值进行选择 **[!UICONTROL no]**。
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## 创建分段活动 {#create-a-segmentation-activity}
 
 1. 在 **[!UICONTROL Activities]** &gt;中 **[!UICONTROL Targeting]**，拖放某个 **[!UICONTROL Segmentation]** 活动并双击它。
@@ -46,6 +48,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 在中 **[!UICONTROL Advanced Options]**，检查 **[!UICONTROL Generate complement]** 以创建定位其余收件人的区段。
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. Click **[!UICONTROL Save]**.
 
 有关更多信息，请参阅 [设计电子邮件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **相关主题：**
 
