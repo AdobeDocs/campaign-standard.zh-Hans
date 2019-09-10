@@ -15,7 +15,7 @@ context-tags: '工作流，用例，查询，分段，交付 '
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 在中 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 并选择 **[!UICONTROL email]** 操作符 **[!UICONTROL is not empty]**。
 1. 在中 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 并选择具有该值 **[!UICONTROL no longer contact by email]****[!UICONTROL no]**&#x200B;的字段。
 1. 点击 **[!UICONTROL Confirm]** 两次。
+
+![](assets/wf-complement-query.png)
 
 ## 创建分段活动{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-segmentation-location.png)
 
 **相关主题：**
 
