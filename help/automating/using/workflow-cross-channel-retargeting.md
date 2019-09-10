@@ -15,7 +15,7 @@ context-tags: '工作流，用例，查询，等待，交付 '
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 在中 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 并使用 **[!UICONTROL no longer contact by email]** 该值进行选择 **[!UICONTROL no ]**。
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## 创建电子邮件分发{#creating-an-email-delivery}
 
 1. 在每个区段之后拖放一个****[!UICONTROL Email delivery]电子邮件。
@@ -44,7 +46,6 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 选择 **[!UICONTROL Add an outbound transition without the population]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
-1. 重命名电子邮件电子 **邮件选件**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Using the Email Designer]**。
 1. 插入元素或选择现有模板。
 1. 通过特定于每个位置的选件个性化您的电子邮件。有关详细信息，请参阅 [设计电子邮件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
@@ -76,6 +77,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 有关更多信息，请参阅 [设计sms](../../channels/using/creating-an-sms-message.md)。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **相关主题：**
 
