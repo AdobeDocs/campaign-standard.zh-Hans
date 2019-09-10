@@ -4,7 +4,7 @@ seo-title: 文档更新
 description: 文档更新
 seo-description: 了解Adobe Campaign Standard文档的所有最新更新。
 page-status-flag: 从未激活
-uuid: 3bdc7d11-841-4110-a5 ba-7b1376 a03 dda
+uuid: 3 bdc7 d11-841-4110-a5 ba-7b1376 a03 dda
 contentOwner: saviat
 products: SG_ CAMPAIGN/STANDARD
 audience: rn
@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 本页列出了每个版本的Adobe Campaign Standard的所有新增功能和文档更新。
 
 您还可以查阅Adobe Campaign [发行说明](../../rn/using/release-notes.md)。
+
+## 文档更新-2019年月 {#doc-updates-september-2019}
+
+推送通知部分新增了一节，用于根据移动应用程序订阅数据创建和更新配置文件信息。[阅读更多](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+添加了一个新示例，其中显示如何发送包含从加载文件活动检索的额外数据的电子邮件。[阅读更多](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+新增了有关如何使用陷印的新部分。[阅读更多](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## 文档更新-2019年月 {#doc-updates-august-2019}
 
