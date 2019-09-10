@@ -15,7 +15,7 @@ context-tags: 工作流，用例，查询，交付，调度程序
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 选择 **[!UICONTROL is not empty]** 作为操作符。
 1. 在 **[!UICONTROL Shortcuts]** &gt;中 **[!UICONTROL General]**，添加配置文件并使用 **[!UICONTROL no longer contact by email]** 该值进行选择 **[!UICONTROL No]**。
 1. Click **[!UICONTROL Confirm]**.
+
+![](assets/wf-complement-query.png)
 
 ## 创建电子邮件分发{#creating-an-email-delivery}
 
