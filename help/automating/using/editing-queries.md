@@ -15,14 +15,14 @@ context-tags: queryFilter，概述；受众，主要
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Editing queries{#editing-queries}
+# 编辑查询{#editing-queries}
 
-## About query editor {#about-query-editor}
+## 关于查询编辑器 {#about-query-editor}
 
 查询编辑器是一个向导，用于过滤Adobe Campaign数据库中包含的数据。
 
@@ -30,24 +30,24 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 一些应用程序功能使用它来：
 
-* Create **Query** type **audiences**
-* Define **email** targets
-* Define populations in **workflow** activities
+* 创建 **查询** 类型 **受众**
+* 定义 **电子邮件** 目标
+* 定义 **工作流** 活动中的人群
 
-## Query editor interface {#query-editor-interface}
+## 查询编辑器界面 {#query-editor-interface}
 
-The query editor is made up of a **Palette** and a **Workspace**.
+查询编辑器由 **调色板** 和 **工作区**&#x200B;组成。
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### 调色板 {#palette}
 
 调色板位于编辑器左侧，分为两个选项卡，它们包含划分为主题块的元素。这些选项卡有：
 
 * **快捷键**、默认情况下可用或由实例管理员创建的快捷键。您可以在此处找到字段、节点、分组、1-1链接、1-N链接和其他预定义筛选器。
 * **用于** 访问目标资源中所有可用字段的资源管理器：节点，分组元素，链接(1-1和1-N)。
 
-必须将选项卡中包含的元素移入工作区，以便进行配置并考虑查询。Depending on the targeting dimension selected (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)), you can:
+必须将选项卡中包含的元素移入工作区，以便进行配置并考虑查询。根据选择的定位维度(请参阅 [定位维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources))，您可以：
 
 * 逐个选择受众或档案
 * 使用预定义滤镜
@@ -58,42 +58,42 @@ The query editor is made up of a **Palette** and a **Workspace**.
 
 工作区是中心区域，您可以在该区域中配置和合并规则、受众以及从调色板中添加的预定义筛选器。
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+当您将元素从调色板移到工作区时，将打开一个新窗口，您可以开始 [创建查询](../../automating/using/editing-queries.md#creating-queries)。
 
-## Creating queries {#creating-queries}
+## 创建查询 {#creating-queries}
 
 查询编辑器可用于定义消息中的受众或测试配置文件、工作流中的人群以及创建查询类型受众。
 
-Queries can be defined in the **[!UICONTROL Audience]** window while creating a delivery or in a **Query** activity while creating a workflow.
+创建工作流时，可以 **[!UICONTROL Audience]** 在窗口中创建分发或 **在查询** 活动中定义查询。
 
 1. 将元素从调色板移至工作区。此时将打开编辑规则的窗口。
 
-   * For a string or numerical **field**, specify the comparison operator and the value.
+   * 对于字符串或数值 **字段**，指定比较运算符和值。
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * For a date or date and time **field**, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.
+   * 对于日期、日期和时间 **字段**，您可以选择定义特定日期、两个日期之间的范围或相对于查询执行日期的句点。
 
       ![](assets/query_editor_date_field.png)
 
-   * For a Boolean **field**, check the boxes linked to the possible values for the field.
-   * For a **grouping** field, select the grouping field on which you want to create the rule, then define the condition in the same way as for the other fields.
+   * 对于Boolean **字段**，选中链接到可能的字段值的框。
+   * 对于 **分组** 字段，选择要在其上创建规则的分组字段，然后以与其他字段相同的方式定义条件。
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * For a **1-1** link with another database resource, select a value directly from the table targeted.
+   * 对于具有其他数据库资源的 **1-1** 链接，请直接从目标中选择一个值。
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * For a **1-N** link with another database resource, you can define a sub-query on the fields of this second resource.
+   * 对于 **具有其他数据库资源的1-N** 链接，您可以在第二个资源的字段中定义子查询。
 
       您无需指定子条件。
 
-      For example, you can only select the **[!UICONTROL Exists]** operator on the profile tracking logs and approve the rule. 该规则将返回跟踪日志存在的所有配置文件。
+      例如，只能在配置文件跟踪日志上选择 **[!UICONTROL Exists]** 操作符并批准规则。该规则将返回跟踪日志存在的所有配置文件。
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * For a **predefined filter**, enter or select the elements you like according to the criteria offered.
+   * 对于 **预定义的过滤器**，根据提供的条件输入或选择您喜欢的元素。
 
       管理员可以创建过滤器以促进复杂和重复的查询。它们将以预配置规则的形式显示在查询编辑器中，并限制用户执行的步骤数。
 
@@ -106,7 +106,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
    * **[!UICONTROL OR]**：两个条件的联合。考虑到至少两个条件之一的元素被考虑在内。
    * **[!UICONTROL EXCEPT]**：排除条件。与第一个标准匹配的元素会被考虑在内，除非它们也符合第二个标准。
 
-1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
+1. 您现在可以使用操作栏中 ![](assets/count.png) 的和 ![](assets/preview.png) 按钮来计算和预览查询目标的元素数。
 
    ![](assets/query_editor_combining_rules.png)
 
@@ -118,4 +118,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
 
 * [高级函数](../../automating/using/advanced-expression-editing.md)
 * [定义过滤器](../../developing/using/configuring-filter-definition.md)
-
+* [使用案例：创建一次每周一次的电子邮件分发](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：在位置上创建分发分段](../../automating/using/workflow-segmentation-location.md)
+* [使用案例：通过补充创建交付](../../automating/using/workflow-created-query-with-complement.md)
+* [使用案例：重定向向非Opener发送新交付的工作流](../../automating/using/workflow-cross-channel-retargeting.md)
