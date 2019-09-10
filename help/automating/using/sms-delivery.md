@@ -15,26 +15,26 @@ context-tags: sms，main；交付，SMSContent，返回
 internal: n n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# SMS delivery{#sms-delivery}
+# SMS交付{#sms-delivery}
 
-## Description {#description}
+## 描述 {#description}
 
 ![](assets/sms.png)
 
 ![](assets/recurrentsms.png)
 
-**[!UICONTROL SMS delivery]** 活动允许您配置在工作流中发送SMS。This can be a **single send** SMS and sent just once, or it can be a **recurring** SMS.
+**[!UICONTROL SMS delivery]** 活动允许您配置在工作流中发送SMS。这可以是 **单一发送** SMS，只发送一次，或者可能是 **** 重复的SMS。
 
 单一发送SMS消息是标准SMS，发送一次。
 
 重复SMS消息允许您在定义的时间段内多次将相同的SMS发送到不同的目标。您可以将分发汇总为每个时段，以获得符合您的需求的报表。
 
-## Context of use {#context-of-use}
+## 使用情境 {#context-of-use}
 
 **[!UICONTROL SMS delivery]** 该活动通常用于自动向在同一工作流中计算的目标发送SMS。
 
@@ -44,26 +44,26 @@ SMS收件人是通过在同一工作流程中通过查询活动(如查询、交�
 
 消息准备会根据工作流执行参数触发。在消息仪表板中，您可以选择是请求还是不需要手动确认发送消息(默认情况下需要)。您可以手动启动工作流或在工作流中放置调度程序活动以自动执行执行。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop an **[!UICONTROL SMS delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. 将 **[!UICONTROL SMS delivery]** 活动拖放到工作流中。
+1. 选择活动，然后使用出现的快速操作中 ![](assets/edit_darkgrey-24px.png) 的按钮打开该活动。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button in the workflow's action bar. This button is specific to the **[!UICONTROL SMS delivery]** activity. SMS属性可通过SMS仪表板中的操作栏进行访问。
+   >您可以通过工作流操作栏中的 ![](assets/dlv_activity_params-24px.png) 按钮访问活动的一般属性和高级选项(而不是交付本身)。此按钮特定于 **[!UICONTROL SMS delivery]** 活动。SMS属性可通过SMS仪表板中的操作栏进行访问。
 
 1. 选择SMS发送模式：
 
    * **[!UICONTROL SMS]**：SMS将发送一次。您可以在此处指定是否要为活动添加出站过渡。此过程的步骤中详细介绍了不同的过渡类型。
-   * **[!UICONTROL Recurring SMS]**：SMS会根据 **[!UICONTROL Scheduler]** 活动中定义的频率多次发送。选择发送的汇总时间。This allows you to regroup all the sends that occur during the defined period into one single view that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Recurring SMS]**：SMS会根据 **[!UICONTROL Scheduler]** 活动中定义的频率多次发送。选择发送的汇总时间。这允许您将在定义周期内发生的所有发送重新合并到一个名为 **重复执行** 的视图中，并可从应用程序的营销活动列表中访问该视图。
 
       例如，对于每天发送的连续生日SMS，您可以选择将发送汇总每个月。这允许您按月接收报告，但每天发送SMS。
 
-1. 选择SMS类型。The SMS types come from SMS templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
+1. 选择SMS类型。SMS类型来自 **[!UICONTROL Resources]** 于在&gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** 菜单中定义的SMS模板。
 1. 输入SMS的常规属性。您还可以将其附加到现有营销活动。使用SMS标签更新工作流的交付活动的标签。
-1. 定义SMS内容。Refer to the section concerning [Creating an SMS message](../../channels/using/creating-an-sms-message.md).
-1. By default, the **[!UICONTROL SMS delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL SMS delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. 定义SMS内容。请参阅 [有关创建SMS消息的部分](../../channels/using/creating-an-sms-message.md)。
+1. 默认情况下 **[!UICONTROL SMS delivery]** ，活动不包括任何出站过渡。如果要向 **[!UICONTROL SMS delivery]** 活动中添加出站过渡，请转到高级活动选项 **[!UICONTROL General]** (活动快速操作中 ![](assets/dlv_activity_params-24px.png) 的按钮)选项卡，然后检查以下任一选项：
 
    * **[!UICONTROL Add outbound transition without the population]**：这使您能够生成包含与入站过渡相同的相同人群的出站过渡。
    * **[!UICONTROL Add outbound transition with the population]**：这使您能够生成包含SMS被发送人群的出站过渡。在交付准备过程中排除的目标成员(隔离、无效编号等)已排除在此过渡中。
@@ -72,23 +72,23 @@ SMS收件人是通过在同一工作流程中通过查询活动(如查询、交�
 
 重新打开活动时，您被直接转至SMS仪表板。只能编辑其内容。
 
-默认情况下，启动交付工作流只会触发消息准备。在启动工作流之后，仍需要确认从工作流创建的消息的发送。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. 通过取消选中此选项，准备完成后无需进一步通知即可发送消息。
+默认情况下，启动交付工作流只会触发消息准备。在启动工作流之后，仍需要确认从工作流创建的消息的发送。但是，通过消息仪表板，并且只有在使用工作流创建消息时，您可以禁用 **[!UICONTROL Request confirmation before sending messages]** 该选项。通过取消选中此选项，准备完成后无需进一步通知即可发送消息。
 
-## Remarks {#remarks}
+## 注释 {#remarks}
 
 在工作流中创建的分发可以在应用程序的营销活动列表中访问。您可以使用仪表板查看工作流的执行状态。SMS摘要窗格中的链接允许您直接访问链接元素(工作流、营销活动、父交付情况以出现重复的SMS)。
 
-但是，默认情况下会掩盖重复分发的执行。To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
+但是，默认情况下会掩盖重复分发的执行。要查看这些内容，请在营销活动的搜索面板中检查 **[!UICONTROL Show recurring executions]** 该选项。
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL SMS delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+在父分发中，可从营销活动列表中访问，或直接通过关联的重复执行进行访问，您可以查看已处理的发送总数(根据配置 **[!UICONTROL SMS delivery]** 活动时指定的汇总时间)。为此，请通过选择来打开父交付 **[!UICONTROL Deployment]** 块的详细信息视图 ![](assets/wkf_dlv_detail_button.png)。
 
-## Example {#example}
+## 示例 {#example}
 
 ![](assets/wkf_sms_example_1.png)
 
 此示例为生日工作流程。每天都将SMS发送到生日所在的个人资料。要执行此操作，请执行以下操作：
 
-* The **[!UICONTROL Scheduler]** allows you to start the workflow every day at 8am.
+* 允许 **[!UICONTROL Scheduler]** 您在上午点开始工作流。
 
    ![](assets/wkf_delivery_example_2.png)
 
@@ -96,7 +96,8 @@ In the parent deliveries, which can be accessed from the marketing activity list
 
    ![](assets/wkf_delivery_example_3.png)
 
-* **[!UICONTROL SMS]** 重复。发送按月汇总。因此，一个月内发送的所有SMS信息将汇总到单个视图中。In one year, 365 deliveries are therefore executed but they are regrouped into 12 views (also called **recurring executions**) in the Adobe Campaign interface. 历史记录和报告详细信息每月显示，而不是每次发送。
+* **[!UICONTROL SMS]** 重复。发送按月汇总。因此，一个月内发送的所有SMS信息将汇总到单个视图中。在一年内，执行了365种分发，但在Adobe Campaign界面中将其重新嵌入12个视图(也称为 **重复执行)**。历史记录和报告详细信息每月显示，而不是每次发送。
 
    ![](assets/wkf_sms_example_4.png)
 
+有关在工作流中发送SMS的另一示例，请参阅 [使用案例：重定向向非Opener发送新的交付流程](../../automating/using/workflow-cross-channel-retargeting.md)。
