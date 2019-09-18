@@ -2,39 +2,42 @@
 title: 个性化SMS消息
 seo-title: 个性化SMS消息
 description: 个性化SMS消息
-seo-description: 在个性化SMS消息时发现翻译选项的特殊性。
+seo-description: 发现个性化SMS消息时音译选项的特异性。
 page-status-flag: 从未激活
-uuid: 123fe70c-c279-40a3-88b6-6bfb2453 ec83
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 频道
-content-type: reference
-topic-tags: sms-messages
-discoiquuid: 7c6485c-e3 c2-4caa-a547-002990ae3 f9
-delivercontext-tags: DeliquyCreate，向导；交付，smsContent，back；交付，SMSContent，返回
-internal: n n
+content-type: 参考
+topic-tags: sms消息
+discoiquuid: 7c64785c-e3c2-4caa-a547-002990ae3f9
+delivercontext-tags: deliveryCreation，向导；delivery,smsContent,back;delivery,smsContent,back
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Personalizing SMS messages{#personalizing-sms-messages}
+# 个性化SMS消息{#personalizing-sms-messages}
 
-The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). 但是，您必须了解转换选项，因为这些选项可能会影响编码，因此需要发送SMS消息。For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+个性化SMS消息的原则与电子邮件的原 [则相同](../../designing/using/personalization.md#inserting-a-personalization-field)。 但是，您必须注意音译选项，因为这些选项会影响编码，因此也会影响要发送的SMS消息数。 有关详细信息，请参阅音 [译和SMS长度部分](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 
-这里我们会采用一个示例SMS消息，其中包含个性化字段，根据是否选择了翻译，将不会生成相同数量的发送：
+这里，我们采集一个包含个性化字段的SMS短消息示例，根据是否已选择音译，这些字段将不会生成相同数量的发送：
 
-**&lt; firstName&gt;&lt; LastName&gt;，新产品现已可用。Come and check them out in store!**
+**&lt; FirstName &gt; &lt; lastName &gt;，新产品现已推出。 来店里看看！**
 
-* 对于名为“John Smith”的收件人，因为它不包含特殊字符，Adobe Campaign将选择GSM编码，以每SMS短消息授权最多160个字符。因此，消息将发送到单个部分。
-* 对于名为“raphaël Forêt”的收件人，字符'ë'和'force'无法在GSM中进行编码。根据是否启用了翻译，Adobe Campaign可以在以下两种行为之间进行选择：
+* 对于名为“John Smith”的收件人，由于其中不包含特殊字符，Adobe Campaign将选择GSM编码，该编码将对每条SMS消息最多160个字符进行授权。 因此，消息将通过单个部分发送。
+* 对于名为“Raphaël Forêt”的接收者，字符“ë”和“ê”不能用GSM编码。 根据是否启用了音译，Adobe Campaign可以在两种行为之间进行选择：
 
-   * 如果translation is authorized'ë'and'force'will replace by'e'，即可使用GSM编码，因此最多可在SMS中使用160个字符。此消息将作为单个SMS消息发送，但会略有改动。
-   * 如果未授权翻译，Adobe Campaign将选择以二进制格式(Unicode)发送消息：因此，所有字符都将因此发送。由于Unicode中的SMS消息仅限于70个字符，Adobe Campaign将必须以两部分发送消息。
+   * 如果音译被授权为“ë”,“ê”将被“e”取代，这意味着可以使用GSM编码，因此在SMS中最多可使用160个字符。 此消息将作为单条SMS消息发送，但稍作更改。
+   * 如果音译未获得授权，Adobe Campaign将选择以二进制格式(Unicode)发送消息：因此，将按此发送所有字符。 由于Unicode中的SMS消息仅限70个字符，Adobe Campaign将必须分两部分发送消息。
 
 >[!NOTE]
 >
->根据每个消息自动选择最佳编码的算法会按情况单独执行。这样，只能在Unicode中发送需要Unicode编码的个性化消息；所有其他人都将使用GSM编码。
+>自动选择最佳编码的算法是针对每条消息逐个执行的。 这样，只有需要Unicode编码的个性化消息才会以Unicode发送；其他所有人都将使用GSM编码。
 
+## SMS发送方 {#sms-sender}
+
+您可以个性化SMS发送者的姓名。 有关详细信息，请参阅 [SMS配置部分](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) 。
