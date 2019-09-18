@@ -4,37 +4,37 @@ seo-title: 使用新字段扩展配置文件资源
 description: 使用新字段扩展配置文件资源
 seo-description: 了解如何扩展配置文件资源。
 page-status-flag: 从未激活
-uuid: 9b99e95c-93ff-4187-90f7-db0 baf5369 ad
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: developing
-content-type: reference
-topic-tags: 使用案例—扩展资源
-discoiquuid: e0f8945-fc3 c-46a9-a8 e5-b181 a1 f ffcb
-internal: n n
+uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开发
+content-type: 参考
+topic-tags: use-cases-extending-resources
+discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 ---
 
 
-# Extending the profile resource with a new field{#extending-the-profile-resource-with-a-new-field}
+# 使用新字段扩展配置文件资源{#extending-the-profile-resource-with-a-new-field}
 
-## About extending profiles {#about-extending-profiles}
+## 关于扩展配置文件 {#about-extending-profiles}
 
-此用例详细介绍了如何使用专用字段扩展配置文件和测试配置文件。
+此用例详细说明了如何使用专用字段扩展配置文件和测试配置文件。
 
-这里，我们希望使用登陆页面更新我们的档案，然后使用特定客户感兴趣的新闻稿来定位档案。
+在此，我们希望使用登录页面使用新字段更新我们的配置文件，然后使用特定于他们兴趣的新闻稿定位配置文件。
 
 为此，请按照以下步骤操作：
 
-* [步骤1：扩展配置文件资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [步骤2：扩展测试配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [步骤3：发布自定义资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [第步：使用工作流更新和定位配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [第1步：扩展配置文件资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
+* [第2步：扩展测试配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
+* [第3步：发布自定义资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
+* [第4步：使用工作流更新和定位配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
 
-以下字段随后将添加到我们的配置文件中，并可定位到分发中：
+然后，以下字段将添加到我们的配置文件中，并可以定位到分发中：
 
 ![](assets/schema_extension_uc20.png)
 
@@ -44,160 +44,160 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 * [管理配置文件](../../audiences/using/about-profiles.md)
 * [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
-## Step 1: Extend the profile resource {#step-1--extend-the-profile-resource}
+## 第1步：扩展配置文件资源 {#step-1--extend-the-profile-resource}
 
-To create the new **Interest** field for our profiles, you first need to extend the out-of-the-box **[!UICONTROL Profiles (profile)]** resource.
+要为我们的配 **置文件创建** “兴趣”字段，您首先需要扩展现成的资 **[!UICONTROL Profiles (profile)]** 源。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
-1. Choose the **[!UICONTROL Extend an existing resource]** option.
-1. Select the **[!UICONTROL Profile (profile)]** resource.
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
+1. 如果尚未扩展该资 **[!UICONTROL Profiles]** 源，请单击 **[!UICONTROL Create]**。
+1. 选择选 **[!UICONTROL Extend an existing resource]** 项。
+1. 选择资 **[!UICONTROL Profile (profile)]** 源。
 1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
-1. In the **[!UICONTROL Fields]** category of the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]**.
+1. 在选 **[!UICONTROL Fields]** 项卡的类 **[!UICONTROL Data structure]** 别中，单击 **[!UICONTROL Create element]**。
 
    >[!NOTE]
    >
-   >Note that if you already extended the **[!UICONTROL Profile]** resource for previous purposes, you can start at this step by clicking **[!UICONTROL Add field]**.
+   >请注意，如果您已经将资源 **[!UICONTROL Profile]** 扩展到以前的用途，则可以通过单击开始执行此步骤 **[!UICONTROL Add field]**。
 
    ![](assets/schema_extension_uc6.png)
 
-1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]**. Select the **[!UICONTROL Text]** type and click **[!UICONTROL Add]**.
+1. 添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。 选择类 **[!UICONTROL Text]** 型并单击 **[!UICONTROL Add]**。
 
    ![](assets/schema_extension_uc9.png)
 
 1. To configure your field, in the **[!UICONTROL Data structure]** tab under the **[!UICONTROL Fields]** drop-down, click ![](assets/schema_extension_uc8.png) then ![](assets/schema_extension_uc7.png) from your previously created field.
-1. In this example we want to add specific values, to do so click **[!UICONTROL Specify a list of authorized values]**.
+1. 在此示例中，我们要添加特定值，要这样做，请单击 **[!UICONTROL Specify a list of authorized values]**。
 
    ![](assets/schema_extension_uc10.png)
 
-1. Click **[!UICONTROL Add an element]** then add as many value as needed by adding a **[!UICONTROL Label]** and an **[!UICONTROL ID]** and clicking **[!UICONTROL Add]**.
+1. 单 **[!UICONTROL Add an element]** 击，然后添加所需数量的值，方法是添加 **[!UICONTROL Label]** 和并 **[!UICONTROL ID]** 单击 **[!UICONTROL Add]**。
 
-   这里，我们将创建“书籍”、“演示”、“电影”和“N/A值”，供配置文件在这些选项之间进行选择。
+   在此，我们将为配置文件创建“书籍”、“展览”、“电影”和“无”值，以便在这些选项之间进行选择。
 
    ![](assets/schema_extension_uc11.png)
 
-1. To add this field in the **[!UICONTROL Profile]** screen, click the **[!UICONTROL Screen definition]** tab.
-1. In the **[!UICONTROL Detail screen configuration]** drop-down, click **[!UICONTROL Add a personalized fields section]** and click **[!UICONTROL Create element]**.
+1. 要在屏幕中添加此字 **[!UICONTROL Profile]** 段，请单击选 **[!UICONTROL Screen definition]** 项卡。
+1. 在下拉 **[!UICONTROL Detail screen configuration]** 列表中，单击并 **[!UICONTROL Add a personalized fields section]** 单击 **[!UICONTROL Create element]**。
 
    ![](assets/schema_extension_uc12.png)
 
-1. Select a **[!UICONTROL Type]**. 这里我们要添加一个输入字段。Then, select your previously created field and click **[!UICONTROL Add]**.
+1. 选择 **[!UICONTROL Type]**。 在此，我们要添加一个输入字段。 然后，选择您之前创建的字段并单击 **[!UICONTROL Add]**。
 
    ![](assets/schema_extension_uc2.png)
 
-1. To add a separator to better organize your profile window, click **[!UICONTROL Create an element]** and select **[!UICONTROL Separator]** from the **[!UICONTROL Type]** drop-down.
+1. 要添加分隔符以更好地组织您的配置文件窗 **[!UICONTROL Create an element]** 口，请单 **[!UICONTROL Separator]** 击并从下 **[!UICONTROL Type]** 拉菜单中选择。
 
    ![](assets/schema_extension_uc19.png)
 
-您的字段现已配置。我们现在需要将其扩展到测试配置文件。
+您的字段现已配置。 我们现在需要将其扩展到测试配置文件。
 
 >[!NOTE]
 >
->如果不需要扩展测试配置文件资源，可跳转至发布步骤。
+>如果您不需要扩展测试配置文件资源，可以跳到发布步骤。
 
-## Step 2: Extend the test profile {#step-2--extend-the-test-profile}
+## 第2步：扩展测试配置文件 {#step-2--extend-the-test-profile}
 
-要测试新创建的字段是否正确配置，您可以通过将交付发送到测试配置文件来测试该字段。首先，还需要对测试配置文件执行新字段。
+要测试新创建的字段是否正确配置，您可以通过将交付内容发送到测试配置文件来测试它。 首先，新字段也需要对测试配置文件进行。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
-1. Choose the **[!UICONTROL Extend an existing resource]** option.
-1. Select the **[!UICONTROL Test profile (seedMember)]** resource.
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
+1. 如果尚未扩展该资 **[!UICONTROL Profiles]** 源，请单击 **[!UICONTROL Create]**。
+1. 选择选 **[!UICONTROL Extend an existing resource]** 项。
+1. 选择资 **[!UICONTROL Test profile (seedMember)]** 源。
 1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
-1. In the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]**.
+1. 在选项卡 **[!UICONTROL Data structure]** 中，单击 **[!UICONTROL Create element]**。
 
    ![](assets/schema_extension_uc15.png)
 
-1. Select your previously created resource field and click **[!UICONTROL Add]**.
+1. 选择您之前创建的资源字段，然后单击 **[!UICONTROL Add]**。
 
    ![](assets/schema_extension_uc16.png)
 
-1. Carry out the same steps from step 11 to 13 as the extend profile walkthrough above to add this field in the **[!UICONTROL Test profile]** screen.
+1. 执行从步骤11到步骤13的相同步骤，如上面扩展配置文件演练，在屏幕中添加此字 **[!UICONTROL Test profile]** 段。
 1. Click **[!UICONTROL Save]**.
 
-档案和测试配置文件现在都将提供您的新字段。为使其正确配置，您需要发布自定义资源。
+现在，配置文件和测试配置文件都将提供新字段。 要正确配置该资源，您需要发布自定义资源。
 
-## Step 3: Publish your custom resource {#step-3--publish-your-custom-resource}
+## 第3步：发布自定义资源 {#step-3--publish-your-custom-resource}
 
-要应用对资源所执行的更改并能够使用该更改，您必须执行数据库更新。
+要应用对资源所做的更改并能够使用它，您必须执行数据库更新。
 
-1. From the advanced menu, select **Administration** &gt; **Development**, then **Publishing**.
-1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
+1. 从高级菜单中，选择“管 **理** ”&gt;“ **开发**” **，然后选择“**&#x200B;发布”。
+1. 默认情况下，选 **[!UICONTROL Determine modifications since the last publication]** 中此选项，这意味着将仅应用自上次更新以来执行的更改。
 
    ![](assets/schema_extension_uc14.png)
 
-1. Click **[!UICONTROL Prepare publication]** to start the analysis which will update your database.
-1. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
+1. 单 **[!UICONTROL Prepare publication]** 击以启动将更新数据库的分析。
+1. 执行发布后，单击“发 **布** ”按钮以应用新配置。
 
    ![](assets/schema_extension_uc17.png)
 
-1. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
+1. 发布后，每个资 **源的** “摘要”窗格会指示状态现在为“已发 **布** ”，并指定上次发布的日期。
 
    ![](assets/schema_extension_uc18.png)
 
-1. Select the **[!UICONTROL Profiles]** tab and click **[!UICONTROL New]** to see if your changes have been correctly implemented.
+1. 选择选 **[!UICONTROL Profiles]** 项卡并单 **[!UICONTROL New]** 击，查看更改是否已正确实现。
 
    ![](assets/schema_extension_uc20.png)
 
-您的新资源字段现在可供在分发中使用和定位。
+例如，您的新资源字段现已准备好在分发中使用和定位。
 
-## Step 4: Update and target profiles with a workflow {#step-4--update-and-target-profiles-with-a-workflow}
+## 第4步：使用工作流更新和定位配置文件 {#step-4--update-and-target-profiles-with-a-workflow}
 
-To update profiles with data for the new custom field, you can create a landing page using the **[!UICONTROL Profile acquisition]** template. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+要使用新自定义字段的数据更新配置文件，您可以使用模板创建登陆 **[!UICONTROL Profile acquisition]** 页面。 有关登录页面的详细信息，请参阅此 [页面](../../channels/using/about-landing-pages.md)。
 
-此处，我们希望在未填写此字段的工作流配置文件中定位。他们将收到一封电子邮件，要求他们更新其配置文件以接收个性化新闻稿和优惠。每个配置文件随后会根据他们所选的兴趣接收个性化新闻稿。
+此处，我们希望定位未填写此字段的工作流配置文件。 他们将收到一封电子邮件，要求他们更新个人资料以接收个性化的新闻稿和优惠信息。 然后，每个档案都将根据其选择的兴趣收到个性化的新闻稿。
 
-First, we need to create a landing page that will update the **Interest** fields of the targeted profiles:
+首先，我们需要创建一个登录页面，以更新目标配置 **文件的** “兴趣”字段：
 
-1. From the **[!UICONTROL Marketing activities]**, click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]**.
-1. 选择登陆页面类型。Here, since we want to update our profiles, select **[!UICONTROL Profile acquisition]**.
+1. 在中，单 **[!UICONTROL Marketing activities]**&#x200B;击，然 **[!UICONTROL Create]** 后选择 **[!UICONTROL Landing page]**。
+1. 选择登陆页面类型。 在此，由于我们要更新我们的配置文件，请选择 **[!UICONTROL Profile acquisition]**。
 1. Click **[!UICONTROL Create]**.
-1. Click the **[!UICONTROL Content]** block to start editing the content of your landing page.
+1. 单击该 **[!UICONTROL Content]** 块以开始编辑登录页面的内容。
 
    ![](assets/schema_extension_uc21.png)
 
-1. 根据需要自定义登陆页面。
-1. 单击配置为配置文件的字段，以选择兴趣选择。In the left pane, select your previously created **Interest** custom resource.
+1. 根据需要自定义登录页面。
+1. 单击为您的配置文件配置的字段，以选择“兴趣”。 在左窗格中，选择您之前创建的 **Interest** 自定义资源。
 
    ![](assets/schema_extension_uc22.png)
 
-1. 保存登陆页面并对其进行测试，以确认您的字段已正确配置。
-1. Click **[!UICONTROL Publish]** when your landing page is ready.
+1. 保存登陆页面并对其进行测试，以检查您的字段是否已正确配置。
+1. 登 **[!UICONTROL Publish]** 录页面准备就绪后单击。
 
-您的登陆页面现已准备就绪。要更新配置文件，您可以创建一个工作流，然后根据所选的兴趣发送特别优惠。
+您的登录页面现已准备就绪。 要更新配置文件，您可以创建一个工作流，然后根据所选兴趣发送特价优惠。
 
-1. From the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
-1. Drag and drop a **[!UICONTROL Query]** activity to target the profiles or audiences you need.
-1. Drag and drop an **[!UICONTROL Email delivery]** activity to start configuring your email which will contain a link to the landing page. Select the **[!UICONTROL Add an outbound transition with the population]**.
+1. 在选项卡 **[!UICONTROL Marketing activities]** 中，单击， **[!UICONTROL Create]** 然后选择 **[!UICONTROL Workflow]**。
+1. 拖放活动以 **[!UICONTROL Query]** 定位所需的档案或受众。
+1. 拖放活动以开 **[!UICONTROL Email delivery]** 始配置将包含登录页面链接的电子邮件。 选择 **[!UICONTROL Add an outbound transition with the population]**。
 
    ![](assets/schema_extension_uc3.png)
 
-1. 根据需要创建和设计您的电子邮件。For more information on email personalization, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
-1. 在电子邮件中添加一个按钮，该按钮会将档案重定向到登陆页面。
-1. Select the added button and click ![](assets/schema_extension_uc7.png) in the **[!UICONTROL Link]** section in the left pane.
+1. 根据需要创建和设计电子邮件。 有关电子邮件个性化的详细信息，请参阅此 [页](../../designing/using/quick-start.md)。
+1. 在电子邮件中添加一个按钮，该按钮会将配置文件重定向到您的登录页面。
+1. 选择添加的按钮，然 ![](assets/schema_extension_uc7.png) 后单击左 **[!UICONTROL Link]** 窗格中的部分。
 
    ![](assets/schema_extension_uc23.png)
 
-1. In the **[!UICONTROL Insert link]** window, select **[!UICONTROL Landing page]** from the **[!UICONTROL Link type]** drop-down then select the previously created landing page.
+1. 在窗 **[!UICONTROL Insert link]** 口中，从下拉 **[!UICONTROL Landing page]** 菜单中 **[!UICONTROL Link type]** 选择，然后选择之前创建的登录页面。
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. 您的电子邮件现已准备就绪，您可以回到工作流程中。
-1. Add a **[!UICONTROL Wait]** activity to let some time for your profiles to fill the landing page.
-1. Add a **[!UICONTROL Segmentation]** activity to split the outbound transition depending on their **Interests**.
-1. Create an outbound segment for each **Interest**.
+1. Click **[!UICONTROL Save]**. 您的电子邮件现已准备就绪，您可以返回工作流程。
+1. 添加一 **[!UICONTROL Wait]** 个活动，让您的配置文件有一段时间填充登录页面。
+1. 添加一 **[!UICONTROL Segmentation]** 个活动以根据其兴趣拆分出站转 **移**。
+1. 为每个Interest创建出站 **区段**。
 
    ![](assets/schema_extension_uc4.png)
 
-1. Add an **[!UICONTROL Email delivery]** activity after each transition and create a personalized email depending on the chosen **Interest**.
+1. 在每次转 **[!UICONTROL Email delivery]** 换后添加活动，并根据所选兴趣创建个性化的 **电子邮件**。
 1. 完成配置后启动工作流。
 
    ![](assets/schema_extension_uc25.png)
 
-配置文件现在会收到电子邮件，要求他们填写此兴趣字段，然后根据所选的值发送个性化电子邮件。
+配置文件现在将收到电子邮件，要求他们填写此“兴趣”字段，然后根据选定的值发送个性化电子邮件。
