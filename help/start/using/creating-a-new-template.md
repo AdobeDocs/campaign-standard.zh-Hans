@@ -2,44 +2,44 @@
 title: 创建新模板
 seo-title: 创建新模板
 description: 创建新模板
-seo-description: 了解如何创建新模板，包括电子邮件、SMS、推送通知交付等现有的现成活动模板。
+seo-description: 了解如何从现有的现成活动模板创建新模板，这些模板用于电子邮件、短信、推送通知发送等。
 page-status-flag: 从未激活
-uuid: 26e368ae-06e1-4c11-9899-c23 cc727 d398
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: start
-content-type: reference
+uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开始
+content-type: 参考
 topic-tags: 管理模板
-discoiquuid: d3e37141-1170-4332-a46 c-66a847 ed3531
-context-tags: CampaignTemplate，概述；feliyTemplate，概述；programTemplate，概述；workflowTemplate，概述；ImportTemplate，概述；
-internal: n n
+discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
+context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Creating a new template{#creating-a-new-template}
+# 创建新模板{#creating-a-new-template}
 
-Message templates can be managed by the functional administrator of the platform, under the **[!UICONTROL Resources > Templates]** menu. 现成的模板无法修改或删除。要创建新模板，必须复制现有模板。
+消息模板可以由平台的功能管理员在菜单下进行管 **[!UICONTROL Resources > Templates]** 理。 无法修改或删除现成模板。 要创建新模板，必须复制现有模板。
 
-1. 选择现有模板。In our example, we have chosen a **[!UICONTROL Delivery template]**.
+1. 选择现有模板。 在我们的例子中，我们选择了一个 **[!UICONTROL Delivery template]**。
 
    ![](assets/template_2.png)
 
-1. Hover over it with the mouse, then select the **[!UICONTROL Duplicate element]** option.
+1. 用鼠标将鼠标悬停在它上方，然后选择 **[!UICONTROL Duplicate element]** 选项。
 
    ![](assets/template_3.png)
 
-1. Configure any settings you want, just like you would do when [creating a new marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) from scratch.
+1. 像从头开始创建新的营销活动一样，配置您 [需要的任何设置](../../start/using/marketing-activities.md#creating-a-marketing-activity) 。
 
    ![](assets/template_4.png)
 
-创建的模板随后可在向导的第一个屏幕中被标准用户选择，同时创建营销活动。
+创建营销活动时，标准用户随后可以在向导的第一个屏幕中选择创建的模板。
 
 **相关主题：**
 
-* [品牌品牌](../../administration/using/branding.md)
-* [设计内容](../../designing/using/about-email-content-design.md)
+* [品牌](../../administration/using/branding.md)
+* [设计内容](../../designing/using/overview.md)
 
