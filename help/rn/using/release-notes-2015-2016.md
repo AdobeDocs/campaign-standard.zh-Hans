@@ -2,1101 +2,1101 @@
 title: 发行说明2015-2016
 seo-title: 发行说明2015-2016
 description: 发行说明2015-2016
-seo-description: 本页列出了Adobe Campaign Standard的所有2015和2016版。
+seo-description: 本页列出了所有2015和2016版Adobe Campaign Standard。
 page-status-flag: 从未激活
-uuid: d5a0f6cc-0cf-46cf-8dff-1717fb624f8f
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: reference
-topic-tags: paign-standard-release
-discoiquuid: a3ce6b80-1858-49d1-8880-353418127f4
-internal: n n
+content-type: 参考
+topic-tags: campaign-standard-releases
+discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Release Notes 2015-2016{#release-notes}
+# 发行说明2015-2016{#release-notes}
 
-正在寻找Adobe Campaign Standard的特定2015-2016版？
+是否正在寻找Adobe Campaign Standard的2015-2016版本？
 
-每个版本都附带新增功能和修补程序。单击某个版本可查看其内容。
+每个版本都提供新功能和修补程序。 单击某个版本可查看其内容。
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
+查看Adobe Campaign [Standard的最新文档](../../rn/using/documentation-updates.md) 更新。 如果要寻找较新的版本，请查阅此 [页](../../rn/using/release-notes.md)。
 
-## Release 16.11 - November 2016 {#release-16-11---november-2016}
+## 16.11版- 2016年11月 {#release-16-11---november-2016}
 
-### New capabilities {#new-capabilities}
+### 新功能 {#new-capabilities}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Deliverability exclusion rules<br /> </td> 
-   <td> 现在，已在可交付实例中管理经过加密的全局抑制列表以避免由于恶意活动而被列入黑名单，特别是使用Spam陷。<br /> 对于每个电子邮件发送，默认的字型规则将接收电子邮件地址与此列表中包含的地址或域名相比较。如果存在匹配项，则该收件人将从目标人群中排除。<br /> 有关详细信息，请参阅 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">详细文档</a>。<br /> </td> 
+   <td> 可交付性排除规则<br /> </td> 
+   <td> 加密的全局抑制列表现在在可交付性实例中进行管理，以避免由于恶意活动（特别是使用Spamtrap）而被列入黑名单。<br /> 对于每个电子邮件发送，两个默认的排版规则会比较收件人电子邮件地址与此列表中包含的禁止地址或域名。 如果存在匹配项，则该收件人将被排除在目标人群之外。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> General optimization<br /> </td> 
-   <td> 此更新包含修复客户遇到的问题的大量更改和修补程序。The global platform performances have also been optimized. <br /> </td> 
+   <td> 常规优化<br /> </td> 
+   <td> 此更新包括许多更改和修补程序，可修复我们的客户遇到的问题。 并对全球平台性能进行了优化。 <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches}
+### 修补程序 {#patches}
 
-#### General {#general}
+#### 常规 {#general}
 
 * 修复了多个安全问题。
-* 修复了REST API中有关空字段或重复字段的几个问题。
+* 修复了REST API中空字段或重复字段的几个问题。
 * 您现在可以直接从应用程序主页创建SMS消息和推送通知。
 
-#### Emails and SMS messages {#emails-and-sms-messages}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages}
 
 * 修复了阻止用户在内容编辑器中上传zip文件的问题。
-* 修复了在发送证书后阻止打开证据的问题。
-* Fixed an issue that led to an error message displaying when accessing the **[!UICONTROL Hot Clicks]** report on an A/B test email.
-* Fixed an issue that prevented modifications made using the **[!UICONTROL Show source]** mode from being applied.
-* 修复了可能导致无法导入预测性主题xml模型文件的问题。
-* A new screen dedicated to importing data for the subject line trained model is now available in **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** .
-* 修复了允许非管理员用户在电子邮件配置屏幕中编辑授权蒙版的问题。
+* 修复了在发送证明后无法打开证明的问题。
+* 修复了在访问A/B测试电子邮件上的报告时，导 **[!UICONTROL Hot Clicks]** 致显示错误消息的问题。
+* 修复了使用模式进行的修改无 **[!UICONTROL Show source]** 法应用的问题。
+* 修复了可能阻止导入预测主题行xml模型文件的问题。
+* 现在，中提供了专门用于为受培训的主题行模型导入数据的新屏幕 **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** 。
+* 修复了允许非管理员用户在电子邮件配置屏幕中编辑授权掩码的问题。
 
-#### Push notifications {#push-notifications}
+#### 推送通知 {#push-notifications}
 
-* Fixed an issue that prevented sending logs and event logs from being displayed for the recipients after sending a push notification using the **[!UICONTROL Send push on profiles]** template.
-* 修复了可阻止创建新移动应用程序的问题。
+* 修复了在使用模板发送推送通知后，发送日志和事件日志无法显示给收件人的问 **[!UICONTROL Send push on profiles]** 题。
+* 修复了可能阻止创建新移动应用程序的问题。
 
-#### Workflows {#workflows}
+#### 工作流 {#workflows}
 
-* Fixed a performance issue that occured when using the **[!UICONTROL Subscription]** activity.
-* 修复了一个问题，该问题导致工作流在其内部名称包含空格时无法正常工作。
+* 修复了使用活动时发生的性能 **[!UICONTROL Subscription]** 问题。
+* 修复了当工作流的内部名称包含空格时，该工作流无法正常工作的问题。
 
-#### Integrations {#integrations}
+#### 集成 {#integrations}
 
-* Fixed an issue that could lead to an error being displayed when using the **Image shared from Adobe Marketing Cloud** option in an email.
+* 修复了在电子邮件中使用从Adobe Marketing cloud共享的图 **像选项时** ，可能导致显示错误的问题。
 
-#### Custom resources {#custom-resources}
+#### 自定义资源 {#custom-resources}
 
-* 增强API字段的两个出版物之间的增强API日志预览。
-* 修复了在发布自定义资源之前无法删除自定义资源的问题。
-* 修复了阻止扩展配置文件的问题以及使用动态字段设置标识符密钥的问题。
+* 增强的API在两个扩展API字段的出版物之间记录预览。
+* 修复了自定义资源在发布之前无法删除的问题。
+* 修复了阻止使用动态字段扩展配置文件和设置标识符键的问题。
 * 修复了在自定义资源中添加链接时可能发生的问题。
 
-## Release 16.10 - October 2016 {#release-16-10---october-2016}
+## 16.10版- 2016年10月 {#release-16-10---october-2016}
 
-### New capabilities {#new-capabilities-1}
+### 新功能 {#new-capabilities-1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Email predictive subject line<br /> </td> 
-   <td> 编辑电子邮件时，新选项可让您尝试不同主题行，并在发送之前评估其打开率。通过根据过去的交付数据或使用特定于您的行业的预定义模型培训自己的模型，可以实现这一点。此功能适用于电子邮件以及仅包含英语内容的数据库。<br /> 有关启用和使用它的详细信息，请参阅 <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">详细文档</a>。<br /> </td> 
+   <td> 电子邮件预测主题行<br /> </td> 
+   <td> 在编辑电子邮件时，新选项可让您尝试不同的主题行并在发送电子邮件之前获得其打开率的估计。 这可以通过根据您过去的交付数据培训自己的模型或使用特定于您所在行业的预定义模型来实现。 此功能适用于电子邮件和仅包含英语内容的数据库。 <br /> 有关启用和使用它的详细信息，请参阅详细 <a href="../../designing/using/subject-line.md#predictive-subject-line">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> SMS transactional messaging<br /> </td> 
-   <td> SMS频道已添加到Adobe Campaign的交易消息功能。交易消息现在支持两个通道：电子邮件和短信。<br /> 有关详细信息，请参阅 <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event">详细文档</a>。<br /> </td> 
+   <td> SMS交易消息<br /> </td> 
+   <td> SMS渠道已添加到Adobe Campaign的交易消息传递功能中。 交易消息现在支持两个渠道：电子邮件和短信<br /> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Follow-up message for transactional messaging<br /> </td> 
-   <td> 现在可以创建一个活动定位工作流。这意味着您可以向之前收到交易消息的客户发送跟进消息。您可以按事件类型、活动日志和跟踪日志过滤目标。在跟进消息中，您将能够利用活动的内容(有效负荷)。<br /> 有关详细信息，请参阅 <a href="../../channels/using/follow-up-messages.md">详细文档</a>。<br /> </td> 
+   <td> 交易消息的跟进消息<br /> </td> 
+   <td> 现在可以创建面向活动的工作流。 这意味着您可以向之前收到交易消息的客户发送跟进消息。 您可以按事件类型、事件广播和跟踪日志过滤目标。 在后续消息中，您将能够利用事件的内容（有效负荷）。 <br /> 有关详细信息，请参阅详 <a href="../../channels/using/follow-up-messages.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Extended Profile &amp; Services API<br /> </td> 
-   <td> 您现在可以在Profile和Services API中暴露扩展字段。发布机制允许API映射配置文件或服务自定义资源的扩展字段。For this to work, the <strong>Datamodel</strong> role has been added. 此新角色允许用户配置一组有权访问数据模型的管理员。<br /> 有关详细信息，请参阅 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">详细文档</a>。<br /> </td> 
+   <td> 扩展的Profile &amp; Services API<br /> </td> 
+   <td> 您现在可以在Profile和Services API中显示扩展字段。 发布机制允许API映射配置文件或服务自定义资源的扩展字段。 为了使其正常工作， <strong>已添加Datamodel</strong> 角色。 此新角色允许用户配置一组管理员，他们将有权访问数据模型。<br /> 有关详细信息，请参阅详 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-1}
+### 修补程序 {#patches-1}
 
-#### General {#general-1}
+#### 常规 {#general-1}
 
 * 修复了多个安全问题。
 
-#### Emails and SMS messages {#emails-and-sms-messages-1}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-1}
 
-* The SMS external account configuration screen ( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** ) has been improved. **[!UICONTROL SMSC specifics]** 在部分中添加了若干参数以支持“文本”字段中的错误代码。
+* SMS外部帐户配置屏幕( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** )已得到改进。 在部分中添加了多个参 **[!UICONTROL SMSC specifics]** 数，以支持“文本”字段中的错误代码。
 
-#### Push notifications {#push-notifications-1}
+#### 推送通知 {#push-notifications-1}
 
-* Fixed an issue that prevented the predefined filters from being displayed when editing the audience of a push notification based on the **[!UICONTROL Send via push notification]** (mobileApp) template.
-* The mobile application configuration screen ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) now displays a message to indicate that the iOS or Android platform has been successfully created.
+* 修复了在编辑基于(mobileApp)模板的推送通知受众时无法显示预定义过 **[!UICONTROL Send via push notification]** 滤器的问题。
+* 移动应用程序配置屏幕( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )现在显示一条消息，指示已成功创建iOS或Android平台。
 
-#### Landing pages {#landing-pages}
+#### 登陆页面 {#landing-pages}
 
-* 修复了在提交登陆页面表单时无法发送确认电子邮件的问题。
+* 修复了在提交登录页面表单时无法发送确认电子邮件的问题。
 
-#### Audiences and queries {#audiences-and-queries}
+#### 受众和查询 {#audiences-and-queries}
 
 * 修复了在查询编辑器中选择配置文件时出现的几个问题。
 
-#### Transactional messages {#transactional-messages}
+#### 交易消息 {#transactional-messages}
 
-* 修复了防止取消发布交易模板的错误。
-* 修复了导致在事件列表中显示触发事件的问题。
+* 修复了阻止取消发布事务模板的错误。
+* 修复了导致触发事件显示在事件列表中的问题。
 
-#### Integrations {#integrations-1}
+#### 集成 {#integrations-1}
 
-* 修复了在更新受众之后，阻止共享受众在交付中使用的问题。
-* Fixed an issue that prevented a shared asset ( **[!UICONTROL Image shared from Adobe Marketing Cloud]** option) from being used in a landing page.
-* 修复了编辑从Adobe Audience Manager导入的共享受众时出现的问题。
+* 修复了在更新共享受众后无法在分发中使用该受众的问题。
+* 修复了阻止在登录页面中使 **[!UICONTROL Image shared from Adobe Marketing Cloud]** 用共享资产（选项）的问题。
+* 修复了编辑从Adobe Audience Manager导入的共享受众时发生的问题。
 
-## Release 16.9 - September 2016 {#release-16-9---september-2016}
+## 16.9版- 2016年9月 {#release-16-9---september-2016}
 
-### New capabilities {#new-capabilities-2}
+### 新功能 {#new-capabilities-2}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Remarketing Triggers<br /> </td> 
-   <td> Integration between the core service <span class="uicontrol">Triggers</span> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).<br /> 在Adobe Marketing Cloud中，您可以定义不同触发器，即要监控的客户行为，例如，所有放弃购物车或表单的客户，从购物车中删除的产品，甚至是会话过期的客户。创建触发器时，您可以定义触发器的条件以及将在事件(plo子)中发送到Adobe Campaign的数据。<br /> 在Adobe Campaign中，您可以选择之前创建的触发器，使用datamart数据丰富事件数据，并定义链接到该触发器的事务消息模板。例如，客户端放弃购物车后，将向Adobe Campaign发送一个事件，然后通过再营销电子邮件将此事件利用在15分钟内发送给客户端。<br /> 有关详细信息，请参阅 <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">详细文档</a>。<br /> </td> 
+   <td> 再营销触发器<br /> </td> 
+   <td> 核心服务触发器与 <span class="uicontrol">Adobe</span> Campaign之间的集成允许您向客户发送个性化电子邮件，作为对Adobe Analytics在您的网站上跟踪的特定行为的响应（15分钟内）。<br /> 在Adobe Marketing cloud中，您可以定义不同的触发器，即要监视的客户行为，例如所有放弃购物车或其表单的客户、从其购物车中删除产品的客户，甚至会话过期的客户。 在创建触发器时，您定义触发器的条件和在活动（上传）中将发送到Adobe Campaign的数据。 <br /> 在Adobe Campaign中，您选择之前创建的触发器，使用数据库数据丰富活动数据，并定义一个链接到该触发器的交易消息模板。 例如，当客户端放弃其购物车时，会向Adobe Campaign发送一个活动，然后Adobe Campaign会通过再营销电子邮件利用此活动，该电子邮件在15分钟内发送给客户。<br /> 有关详细信息，请参阅详 <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages: Pause / Unpublish<br /> </td> 
-   <td> 现在，您可以在更新内容模板的同时更新其内容。相应的消息将不再发送，但会存储在数据库中。恢复时，将处理排队的消息，如果它们尚未过期，则发送它们。<br /> 有关详细信息，请参阅 <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">详细文档</a>。<br /> 您现在还可以取消发布活动和事务模板。相应的消息不会再发送，而且它们不会存储在数据库中。<br /> 有关详细信息，请参阅 <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">详细文档</a>。<br /> </td> 
+   <td> 交易消息：暂停／取消发布<br /> </td> 
+   <td> 您现在可以在更新事务模板的内容时暂停其发布。 不再发送相应的消息，但是它们存储在数据库中。 恢复时，将处理已排队的消息，如果消息尚未过期，则发送这些消息。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">细文档</a>。<br /> 您现在还可以取消发布活动和交易模板。 相应的消息不再发送，也不再存储在数据库中。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Multibranding<br /> </td> 
-   <td> 具有多个品牌的客户现在可以在同一实例中管理它们。品牌是由Adobe Campaign实例管理员管理的一项功能，它允许您集中配置Adobe Campaign中与某个品牌相关的所有参数。这包括徽标等更多技术参数，如跟踪URL、Web分析、服务器URL、域名等。<br /> 有关详细信息，请参阅 <a href="../../administration/using/branding.md">详细文档</a>。<br /> </td> 
+   <td> 多品牌<br /> </td> 
+   <td> 拥有多个品牌的客户现在可以在同一实例中管理它们。 品牌是由Adobe Campaign实例管理员管理的一项功能，它允许您在Adobe Campaign中集中配置与品牌相关的所有参数。 这包括一些事项，如指向更多技术参数（如跟踪URL、Web分析、服务器URL、域名等）的徽标。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/branding.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Responsive email design preview<br /> </td> 
-   <td> 此功能允许您测试电子邮件在不同类型设备上的响应性。In the email preview, a grid has been added to test your email on various screen sizes.<br /> </td> 
+   <td> 响应式电子邮件设计预览<br /> </td> 
+   <td> 此功能允许您测试电子邮件对不同类型设备的响应性。 在电子邮件预览中，已添加一个网格，以在各种屏幕大小上测试您的电子邮件。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push notifications<br /> </td> 
-   <td> 新增了一个频道，使营销人员能够在iOS和Android移动设备上发送个性化的分段推送通知。消息可通过单次交付或使用工作流活动发送。将来版本中将提供与交易消息的兼容性。This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">here</a>).<br /> 有关详细信息，请参阅 <a href="../../channels/using/about-push-notifications.md">详细文档</a>。<br /> </td> 
+   <td> 推送通知<br /> </td> 
+   <td> 新的渠道已经添加，使营销人员能够在iOS和Android移动设备上发送个性化的分段推送通知。 消息可以通过单次传送或使用工作流活动发送。 将来版本中将提供与事务消息传递的兼容性。 此渠道利用Mobile核心服务的SDK(在此 <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">提供</a>)。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-2}
+### 修补程序 {#patches-2}
 
-#### General {#general-2}
+#### 常规 {#general-2}
 
-* 此版本在界面列表中引入了新的过滤和搜索功能。此新功能可用，例如，在日志中(交付、跟踪)、服务(订阅、订阅历史记录)、受众和工作流过渡。
-* 修复了有关客户档案中接触点数量的几个显示问题。
-* 修复了多个类型的问题。
+* 此版本在界面列表中引入了新的过滤和搜索功能。 此新增功能可用于日志（交付、跟踪）、服务（订阅、订阅历史记录）、受众和工作流转换。
+* 修复了与客户档案中的接触点数有关的几个显示问题。
+* 修复了多个类型学问题。
 
-#### Emails and SMS messages {#emails-and-sms-messages-2}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-2}
 
-* 修复了允许编辑错误证据的错误。它们现在是只读的。
-* 修复了在SMS过长或编码问题导致收件人被列入黑名单时被列入黑名单的问题。
+* 修复了允许编辑错误校样的错误。 它们现在为只读。
+* 修复了在SMS过长或存在编码问题时导致收件人被列入黑名单的问题。
 
-#### Custom resources {#custom-resources-1}
+#### 自定义资源 {#custom-resources-1}
 
-* 修复了在使用自定义资源的高级过滤器时阻止显示所有结果的错误。
+* 修复了使用自定义资源的高级过滤器时无法显示所有结果的错误。
 
-#### Transactional messages {#transactional-messages-1}
+#### 交易消息 {#transactional-messages-1}
 
-* 前缀现在自动添加到新事件定义的标识符。
-* 表示界面中的事务消息的图标已更改。
+* 前缀现在会自动添加到新事件定义的标识符中。
+* 界面中表示事务消息的图标已更改。
 
-#### Integrations {#integrations-2}
+#### 集成 {#integrations-2}
 
-* Fixed a display error that would occur when a high resolution image was inserted via the **Dynamic image from Adobe Target** option.
-* 修复了一个错误，该错误允许共享受众即使未在AMC数据源中设置目标ID也会被保存。
+* 修复了通过Adobe Target中的动态图像选项插入高分辨率图像时 **会出现的显示错误** 。
+* 修复了即使未在AMC数据源中设置目标ID也允许保存共享受众的错误。
 
-## Release 16.7 - July 2016 {#release-16-7---july-2016}
+## 16.7版- 2016年7月 {#release-16-7---july-2016}
 
-### New capabilities {#new-capabilities-3}
+### 新功能 {#new-capabilities-3}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Enriched transactional messages<br /> </td> 
-   <td> 您现在可以将交易模板与Adobe Campaign数据库链接，以恢复信息，从而丰富交易消息的内容。<br /> 有关详细信息，请参阅 <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content">详细文档</a>。<br /> </td> 
+   <td> 丰富的交易消息<br /> </td> 
+   <td> 您现在可以将交易模板与Adobe Campaign数据库关联起来，以恢复允许您丰富交易消息内容的信息。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic URLs for images<br /> </td> 
-   <td> 这一新功能允许您插入内容块和动态文本以进行跟踪和个性化，从而个性化图像源。<br /> 然后，可以通过在图像URL中输入参数，从AEM资产(S7)动态媒体的功能中受益。例如，您可以发送带有个性化图像的电子邮件“Hello Alexandre，获得关于即将在巴黎举办的活动的最新新闻！”或“Hello Frank，获取有关即将在纽约举办的活动的最新新闻！”。<br /> 有关详细信息，请参阅 <a href="../../designing/using/personalizing-urls.md">详细文档</a>。<br /> </td> 
+   <td> 图像的动态URL<br /> </td> 
+   <td> 此新功能允许您通过插入内容块和动态文本来实现图像源的个性化，以便进行跟踪和个性化。<br /> 然后，通过在图像URL中输入参数，从AEM资产(S7)动态媒体的功能中获利成为可能，这其中之一就是。 例如，您可以发送一封包含个性化图像的电子邮件，其中注明“Hello Alexandre，获取有关即将在巴黎举行的活动的最新消息！” 或者“你好，弗兰克，获取有关即将在纽约举行的活动的最新消息！”<br /> 有关详细信息，请参阅详 <a href="../../designing/using/personalization.md#personalizing-urls">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with People Core Service<br /> </td> 
-   <td> The Adobe Marketing Cloud <strong>Declared IDs</strong> are now covered by the integration between Adobe Campaign and People Core Service (Profiles &amp; Audiences).<br /> 这意味着您可以导入区段并导出由 <strong>访问者ID</strong>或 <strong>声明ID组成的受众</strong>。<br /> 有关详细信息，请参阅 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>。<br /> </td> 
+   <td> 与People Core service集成<br /> </td> 
+   <td> Adobe Campaign与People Core Service <strong>(Profiles &amp; Audiences)之间的集成现在涵盖Adobe Marketing Cloud</strong> Declared ID。<br /><strong> 这意味着您可以导入区段并导出由访客ID或 </strong>Declared<strong>ID组成 </strong>的受<br />众。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery logs<br /> </td> 
-   <td> The MTA logs (delivery server) now display the complete history of each message, particularly all of the delivery attempts as well as the associated error statuses, and this has no impact on the application's performance.<br /> </td> 
+   <td> 交付日志<br /> </td> 
+   <td> MTA日志（交付服务器）现在显示每条消息的完整历史记录，特别是所有交付尝试和相关的错误状态，这对应用程序的性能没有影响。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-3}
+### 修补程序 {#patches-3}
 
-#### General {#general-3}
+#### 常规 {#general-3}
 
-* 修复了可能会显示不相关字段而不是需要完成的字段的错误。在查询中编辑某个条件时多次修改比较运算符。
-* Fixed the behavior of the option **[!UICONTROL The last X days/months/quarters/years]** when defining a relative filtering condition for a date field. 计算的期限现在为相对于服务器日期和时间的滑动期限，而不是基于日历的时间。
+* 修复了一个错误，该错误可能会导致显示不相关的字段而不是需要完成的字段。 在查询中编辑条件时，比较运算符多次修改后会发生这种情况。
+* 修复了在为日期字段定 **[!UICONTROL The last X days/months/quarters/years]** 义相对筛选条件时选项的行为。 计算的时段现在是相对于服务器日期和时间的滑动时段，而不是基于日历的时段。
 
-#### Workflows {#workflows-1}
+#### 工作流 {#workflows-1}
 
-* Fixed an error that would return an incorrect list of values in the screen for selecting the targeting dimension in the properties of a **[!UICONTROL Query]** activity.
-* Fixed an error that would force the **Exists** operator to be selected when adding an average or count aggregate on a collection element in a **[!UICONTROL Query]** activity.
+* 修复了一个错误，该错误会在屏幕中返回一个错误的值列表，以便在活动的属性中选择定位维 **[!UICONTROL Query]** 度。
+* 修复了在活动中向集合元素添加平均聚合或计数聚合时， **会强制选择** “存在”运算符的错误 **[!UICONTROL Query]** 。
 
-#### Content editing {#content-editing}
+#### 内容编辑 {#content-editing}
 
-* 修复了导入HTML内容时可能导致显示问题(响应式设计)的错误：导入后第一次打开内容时，不再重写样式属性。
-* 修复了在动态内容变体上添加条件时导致的非阻止错误。
-* 修复了在登陆页面内容中添加复选框导致的错误。此复选框无法使用。
-* 修复了在块的开头放置文本时，在块中删除文本时可能出现的错误。
+* 修复了在导入HTML内容时可能导致显示问题（响应式设计）的错误：当内容在导入后首次打开时，样式属性不再被重写。
+* 修复了在动态内容变体中添加条件时导致的非阻塞错误。
+* 修复了在登录页面的内容中添加复选框所导致的错误。 复选框不可用。
+* 修复了在将光标放在相关块的开头时删除块中的文本时可能发生的错误。
 
-#### Transactional messages {#transactional-messages-2}
+#### 交易消息 {#transactional-messages-2}
 
-* 在集成网站时，您现在可以为任何给定活动定义过期日期。传递此日期后，不再发送与活动对应的消息。
+* 集成网站时，您现在可以为任何给定活动定义到期日期。 一旦传递了此日期，便无法再发送与活动对应的消息。
 
-## Release 16.6 - June 2016 {#release-16-6---june-2016}
+## 16.6版- 2016年6月 {#release-16-6---june-2016}
 
-### New capabilities {#new-capabilities-4}
+### 新功能 {#new-capabilities-4}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Profiles and Services API<br /> </td> 
-   <td> The Adobe Campaign <span class="uicontrol">Profiles and Services</span> API is available in the <a href="https://www.adobe.io/products/campaign">adobe.io</a> portal. 这允许更新、添加和删除Adobe Campaign配置文件，并使它们通过REST调用订阅或取消订阅服务。<br /> 有关详细信息，请参阅API <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">的详细说明</a>。<br /> </td> 
+   <td> Adobe Campaign配 <span class="uicontrol">置文件和服务</span> API可在 <a href="https://www.adobe.io/products/campaign">adobe.io门户中找到</a> 。 这允许更新、添加和删除Adobe Campaign配置文件，并允许它们通过REST调用订阅或取消订阅服务。<br /> 有关详细信息，请参 <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">阅API的详细说明</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-4}
+### 修补程序 {#patches-4}
 
-#### General {#general-4}
+#### 常规 {#general-4}
 
 * 现在，移动设备上禁用了工具提示，以确保屏幕上显示的信息易于阅读。
-* 修复了阻止用户滚动iPad屏幕上特定区域内容的错误。
-* 修复了在Internet Explorer11中编辑内容时遇到的一些兼容性错误。
-* 修复了一个错误，该错误可能导致在数据导入失败时无法访问详细日志。
+* 修复了阻止用户在iPad屏幕上滚动特定区域的内容的错误。
+* 修复了在Internet Explorer 11中编辑内容时遇到的多个兼容性错误。
+* 修复了在首次数据导入失败时无法访问详细日志的错误。
 * 修复了可能阻止保存范围过滤器的错误。
-* 修复了在配置列表的方式时阻止资源元素显示的错误。
-* 修复了查询编辑器浏览器中的错误。搜索字段返回的结果保留在搜索历史记录中，在每次新搜索时继续显示。
+* 修复了在配置显示列表的方式时阻止显示资源元素的错误。
+* 修复了查询编辑器资源管理器中的错误。 搜索字段返回的结果保留在搜索历史记录中，并在每次新搜索时继续显示。
 
-#### Emails and SMS messages {#emails-and-sms-messages-3}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-3}
 
 * 修复了一个错误，该错误导致链接到弹回的信息无法在交付日志中恢复。
-* 修复了防止访问交易消息动态内容块中的上下文的错误。
-* 修复了阻止在电子邮件内容中的动态文本中定义URL链接的错误。
-* 修复了交付创建向导顶部栏的显示。
-* 交付的主要密钥不再用作个性化字段。
+* 修复了阻止访问事务消息的动态内容块中的上下文的错误。
+* 修复了阻止在电子邮件内容中的动态文本上定义URL链接的错误。
+* 修复了传送创建向导顶栏的显示。
+* 交付的主要密钥无法再用作个性化字段。
 
-#### Workflows {#workflows-2}
+#### 工作流 {#workflows-2}
 
-* 工作流的两个活动之间的过渡现在可显示计算元素的计数并从一个活动转移到另一个活动。
-* **[!UICONTROL Query]** 在活动中添加其他数据时，现在隐藏不兼容的字段。
-* 在添加额外数据时显示的聚合定义窗口改进为仅提供与使用中的数据兼容的选项(例如：计算平均值仅适用于数字数据)。
-* 启动或重新启动现成的技术工作流程现在只能由具有管理权限的用户执行。
+* 工作流的两个活动之间的过渡现在显示从一个活动计算并传输到另一个活动的元素计数。
+* 现在，在活动中添加其他数据时，不兼容的字段会被隐 **[!UICONTROL Query]** 藏。
+* 添加其他数据时显示的聚合定义窗口已改进为仅提供与使用数据兼容的选件选项(例如：计算平均值只能用于数值数据)。
+* 现在，只有具有管理权限的用户才能执行现成的技术工作流。
 
-#### Landing pages {#landing-pages-1}
+#### 登陆页面 {#landing-pages-1}
 
-* 修复了一个错误，该错误可能会截断登陆页面属性中的32位AES编码密钥。
-* 修复了在定义可见性条件或将动态内容添加到登陆页面时无法正确显示查询编辑器的错误。
+* 修复了一个错误，该错误可能会截断登录页面属性中的32位AES编码密钥。
+* 修复了在定义可见性条件或向登录页面添加动态内容时，查询编辑器无法正确显示的错误。
 
-#### Custom resources {#custom-resources-2}
+#### 自定义资源 {#custom-resources-2}
 
-* The **[!UICONTROL Switch to parameters]** option is now hidden when defining a filter related to a profile's subscriptions to a service.
-* 修复了在从自定义资源配置0-1类型链接时可能发生的错误。
-* Fixed an error that, where relevant, could prevent the defined **Constant default value** from being edited when adding a **Date and time** type field in a custom resource.
+* 现在， **[!UICONTROL Switch to parameters]** 在定义与配置文件对服务的订阅相关的筛选器时，该选项处于隐藏状态。
+* 修复了从自定义资源配置0-1类型链接时可能发生的错误。
+* 修复了在自定义资源中添加“日期”和“时间”类型字段时，可能会阻止编辑定义的“常 **数”默认值****** （如果相关）的错误。
 
-## Release 16.5 - May 2016 {#release-16-5---may-2016}
+## 版本16.5 - 2016年5月 {#release-16-5---may-2016}
 
-### New capabilities {#new-capabilities-5}
+### 新功能 {#new-capabilities-5}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Predefined filters<br /> </td> 
-   <td> 管理员现在可以创建在查询编辑器中显示预配置规则的高级过滤器。选择这些过滤器可使用户在定义受众时更轻松地在简化界面中开发复杂的配置。<br /> 有关详细信息，请参阅 <a href="../../developing/using/configuring-filter-definition.md">详细文档</a>。<br /> </td> 
+   <td> 预定义的过滤器<br /> </td> 
+   <td> 管理员现在可以创建高级过滤器，这些过滤器以预配置规则的形式显示在查询编辑器中。 例如，选择这些过滤器可让用户在定义受众时更轻松地在简化的界面中开发复杂配置。<br /> 有关详细信息，请参阅详 <a href="../../developing/using/configuring-filter-definition.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Subscription Services<br /> </td> 
-   <td> <span class="uicontrol">新的订阅服务</span> 活动提供了将多个配置文件订阅一个服务或通过一个操作取消订阅服务的可能性。<br /> 此活动可在执行定位或导入包含已识别数据的文件后使用。<br /> 有关详细信息，请参阅 <a href="../../automating/using/subscription-services.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：订阅服务<br /> </td> 
+   <td> 新的订 <span class="uicontrol">阅服务活动</span> ，提供了通过单个操作将多个配置文件订阅到服务或从服务取消订阅的可能性。<br /> 执行定位或导入包含已识别数据的文件后，可以使用此活动。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: data enrichment<br /> </td> 
-   <td> The <span class="uicontrol">Additional data</span> tab is now available in <span class="uicontrol">Query</span> type activities. 通过此功能，您可以丰富查询目标，并将此数据传输到可被利用的下列工作流活动。<br /> 添加额外数据之后，您可以根据定义的其他数据创建条件，以对最初目标数据应用额外的过滤器级别。<br /> 有关详细信息，请参阅 <a href="../../automating/using/query.md#enriching-data">详细文档</a>。<br /> </td> 
+   <td> 工作流：数据丰富<br /> </td> 
+   <td> “其 <span class="uicontrol">他数据</span> ”选项卡现在在“查询 <span class="uicontrol">类型</span> ”活动中可用。 利用此功能，您可以丰富查询所针对的数据，并将这些数据传输到以下可利用的工作流活动。<br /> 在添加了附加数据之后，您可以通过基于定义的附加数据创建条件来对初始目标数据应用附加的过滤器级别。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/query.md#enriching-data">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Contextual help<br /> </td> 
-   <td> 上下文帮助功能现在不同的Adobe Campaign屏幕上可用。这意味着，只需单击一下，即可直接访问当前使用的功能的相关文档。要显示上下文帮助，请单击“？”icon in the upper-right corner of the screen, as shown in the example below.<br /> </td> 
+   <td> 上下文帮助<br /> </td> 
+   <td> 现在，上下文帮助功能可跨不同的Adobe Campaign屏幕使用。 这意味着，只需单击一下，即可直接访问有关您当前使用的功能的文档。 要显示上下文帮助，请单击“?” 图标，如下例所示。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+### 修补程序 {#patches-5}
 
-#### General {#general-5}
+#### 常规 {#general-5}
 
-* 各种界面新增功能，符合Marketing Cloud标准。
-* 标准化不同的下拉列表类型。
+* 各种界面符合Marketing cloud标准的新功能。
+* 不同下拉列表类型的标准化。
 
-#### Emails and SMS messages {#emails-and-sms-messages-4}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-4}
 
-* 修复了在指定错误地址掩码时阻止发送电子邮件的错误。
-* 现在支持通过TLS协议发送电子邮件。利用MX管理中的新列，您可以为每个域定义所需的TLS行为。
+* 修复了在指定错误地址掩码时无法发送电子邮件的错误。
+* 现在支持TLS协议以通过电子邮件发送。 MX管理中的新列允许您为每个域定义所需的TLS行为。
 * SMS界面已得到改进。
 
-#### Workflows {#workflows-3}
+#### 工作流 {#workflows-3}
 
-* 各种工作流程界面新增功能。
-* 修复了显示快速操作时出现的错误。
-* Fixed an error that could cause a workflow to fail when using a **[!UICONTROL Segmentation]** type activity containing a 1-N link.
-* 修复了一个错误，该错误导致工作流无法在混合设备上打开。
-* 修复了第一次启动工作流时无法显示暂停按钮的错误。
+* 各种工作流界面新增功能。
+* 修复了显示快速操作时发生的错误。
+* 修复了使用包含1-N链接的类型活动时可能导致 **[!UICONTROL Segmentation]** 工作流失败的错误。
+* 修复了阻止在混合设备上打开工作流的过渡的错误。
+* 修复了首次启动工作流时无法显示暂停按钮的错误。
 
-#### Content editor {#content-editor}
+#### 内容编辑器 {#content-editor}
 
-* 内容编辑器现在允许您个性化电子邮件或登陆页面中包含的任何URL。Refer to the [detailed documentation](../../designing/using/personalizing-urls.md).
-* 修复了一个错误，该错误可能导致图像在发送的创建向导及其内容之后被添加，从而导致图像丢失。
+* 内容编辑器现在允许您个性化电子邮件或登录页面中包含的任何URL。 请参阅详细 [文档](../../designing/using/personalization.md#personalizing-urls)。
+* 修复了在传送的创建向导中添加图像并随后对其内容进行修改时可能导致图像丢失的错误。
 
-#### Custom resources {#custom-resources-3}
+#### 自定义资源 {#custom-resources-3}
 
-* 修复了在自定义资源的配置屏幕中添加个性化的1-N类型链接时发生的错误。
+* 修复了在自定义资源的配置屏幕中添加个性化的1-N类型链接时出现的错误。
 * 改进了准备和发布自定义资源时进度栏的显示。
 * 修复了显示自定义资源的链接列表时出现的错误。
 
-#### Transactional messages {#transactional-messages-3}
+#### 交易消息 {#transactional-messages-3}
 
-* 优化了界面的用户友好度以及交易消息引擎的性能和可靠性。
-* 现在可以暂时暂停交易消息模板的发布。For more on this, refer to the [detailed documentation](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
-* 修复了可能导致内容块被添加到交易消息模板中的不兼容定位维度的错误。
-* 修复了API预览无法在活动配置屏幕中显示的错误。
+* 优化了界面的用户友好性以及事务消息引擎的性能和鲁棒性。
+* 现在可以暂时暂停交易消息模板的发布。 有关详细信息，请参阅详细 [文档](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)。
+* 修复了可能导致具有不兼容定位维的内容块添加到事务消息模板中的错误。
+* 修复了阻止在事件配置屏幕中显示API预览的错误。
 
-#### Audiences and queries {#audiences-and-queries-1}
+#### 受众和查询 {#audiences-and-queries-1}
 
-* 有关在查询编辑器中使用日期的各种修补程序。Refer to the [detailed documentation](../../automating/using/editing-queries.md#creating-queries).
+* 有关在查询编辑器中使用日期的各种修补程序。 请参阅详细 [文档](../../automating/using/editing-queries.md#creating-queries)。
 
-#### Administration {#administration}
+#### 管理 {#administration}
 
-* 修复了有关“标准用户”安全组的名称的错误，该错误阻止用户登录。
+* 修复了“标准用户”安全组名称相关的错误，该错误导致用户无法登录。
 
-## Release 16.3 - March 2016 {#release-16-3---march-2016}
+## 16.3版- 2016年3月 {#release-16-3---march-2016}
 
-### New capabilities {#new-capabilities-6}
+### 新功能 {#new-capabilities-6}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Interface and navigation<br /> </td> 
-   <td> 改进了Adobe Campaign界面，以使导航和操作变得简单直观。<br /> 您现在可以从应用程序的顶部栏进行导航。The advanced menus are accessible by selecting the <strong>Adobe Campaign</strong> logo.<br /> 有关详细信息，请参阅 <a href="../../start/using/interface-description.md">详细文档</a>。<br /> </td> 
+   <td> 界面和导航<br /> </td> 
+   <td> Adobe Campaign界面经过改进，使导航和操作更简单、直观。<br /> 您现在可以从应用程序的顶栏进行导航。 通过选择 <strong>Adobe Campaign徽标，可以访问高级菜</strong> 单。<br /> 有关详细信息，请参阅详 <a href="../../start/using/interface-description.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Save audience<br /> </td> 
-   <td> A new option, <span class="uicontrol">Create then update an audience</span> , is now available in the <span class="uicontrol">Save audience</span> activity. 此选项允许您手动输入受众标签。如果输入的标签与现有受众相对应，则将更新该标签。如果受众不存在，将创建该受众。<br /> 此外，每次执行工作流时，受众都将更新。<br /> 您始终可以选择受众更新模式：在每次执行时用新数据完成受众，或替换整个受众数据。<br /> 有关详细信息，请参阅 <a href="../../automating/using/save-audience.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：节省受众<br /> </td> 
+   <td> 现在，“保存 <span class="uicontrol">受众”活动中提供了新选项</span> “创建然后更新 <span class="uicontrol">受众</span> ”。 此选项允许您手动输入受众标签。 如果输入的标签与现有受众相对应，则将更新该标签。 如果受众不存在，则将创建该受众。<br /> 此外，每次执行工作流时，受众都将进行更新（再次）。<br /> 您始终可以选择受众更新模式：在每次执行时用新数据完成受众或替换整个受众数据。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/save-audience.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Segmentation<br /> </td> 
-   <td> <span class="uicontrol">分段</span> 活动现在允许用户对临时资源的数据进行分组。例如：导入的文件的数据。<br /> 有关详细信息，请参阅 <a href="../../automating/using/segmentation.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：细分<br /> </td> 
+   <td> “ <span class="uicontrol">分段</span> ”活动现在允许用户对临时资源的数据进行分段。 例如：导入文件的数据。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/segmentation.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+### 修补程序 {#patches-6}
 
-#### General {#general-6}
+#### 常规 {#general-6}
 
-* 修复了对列表进行排序时出现的显示错误：表示列的排序顺序的箭头只能反转特定类型的数据。
-* 修复了在查询中添加规则时，限制下拉菜单中显示的元素数量的错误。
+* 修复了在对列表排序时出现的显示错误：只能为某些类型的数据反转表示列排序顺序的箭头。
+* 修复了在查询中添加规则时限制下拉菜单中显示的元素数的错误。
 
-#### Emails and SMS messages {#emails-and-sms-messages-5}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-5}
 
 * 修复了可能阻止访问电子邮件呈现报告的错误。
-* 如果未提供发送者地址，则为消息准备发送舞台现在会返回错误。
+* 如果未提供发送者地址，消息的准备发送阶段现在会返回错误。
 
-#### Workflows {#workflows-4}
+#### 工作流 {#workflows-4}
 
-* 提取CSV格式文件时，某些文件格式选项是可见的，但不考虑。现在不再可见这些选项。
-* Fixed an error caused when the **[!UICONTROL Delete the source files after transfer]** option was checked for a **[!UICONTROL SFTP]** type file transfer.
-* Fixed an error that could prevent the counter and preview of **[!UICONTROL Query]** data from being displayed after refreshing the page.
-* 修复了通过在工作流中打开特定过渡而导致的错误，尤其是在传送活动或定位和筛选维度不同的查询之后。
-* 修复了在添加活动后未保存工作流，导致个性化字段插入工作流的交付活动的错误。
-* 修复了阻止显示电子邮件分发活动的出站转移定位维度的错误。
+* 在提取CSV格式文件时，某些文件格式选项是可见的，但未考虑这些选项。 这些选项现在不再可见。
+* 修复了选中类型文件传 **[!UICONTROL Delete the source files after transfer]** 输选项时导致的 **[!UICONTROL SFTP]** 错误。
+* 修复了刷新页面后无法显示计数 **[!UICONTROL Query]** 器和数据预览的错误。
+* 修复了在工作流中打开某些过渡导致的错误，尤其是在定位和筛选维度不同的交付活动或查询之后。
+* 修复了在添加活动后未保存工作流时，阻止将个性化字段插入工作流的分发活动的错误。
+* 修复了阻止显示电子邮件分发活动的出站过渡定位维度的错误。
 
-#### Landing pages {#landing-pages-2}
+#### 登陆页面 {#landing-pages-2}
 
-* 修复了一个错误，该错误导致个性化字段无法在登陆页面的可本地化内容块中正确运行。
+* 修复了导致个性化字段无法在登录页面的可本地化内容块中正常工作的错误。
 
-#### Custom resources {#custom-resources-4}
+#### 自定义资源 {#custom-resources-4}
 
-* Fixed an error that prevented a search on a custom resource from being carried out if the **[!UICONTROL Add search fields]** option of the resource screen definition was checked and if several fields were selected in the **[!UICONTROL Filter zone composition]** .
+* 修复了一个错误，该错误导致在选中资源屏幕定义选项以及在中选择了多个字段的情况下，无法执行对自定义资源的搜索 **[!UICONTROL Add search fields]****[!UICONTROL Filter zone composition]** 。
 
-## Release 16.2 - February 2016 {#release-16-2---february-2016}
+## 16.2版- 2016年2月 {#release-16-2---february-2016}
 
-### New capabilities {#new-capabilities-7}
+### 新功能 {#new-capabilities-7}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> A/B test for emails<br /> </td> 
-   <td> 您现在可以对电子邮件的内容、主题或发送方姓名执行A/B测试。此新功能可测试元素的三个变体。<br /> 从特定于A/B测试的新模板创建电子邮件时，创建向导中的新步骤允许您定义测试的参数。<br /> 有关详细信息，请参阅 <a href="../../channels/using/designing-an-a-b-test-email.md">详细文档</a>。<br /> </td> 
+   <td> 电子邮件的A/B测试<br /> </td> 
+   <td> 您现在可以对电子邮件的内容、主题或发件人名称进行A/B测试。 此新功能最多可测试元素的三个变体。<br /> 从特定于A/B测试的新模板之一创建电子邮件时，创建向导中的新步骤允许您定义测试的参数。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/designing-an-a-b-test-email.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Brand management<br /> </td> 
-   <td> 您现在可以定义一个或多个品牌以集中输入影响品牌身份的参数。Adobe Campaign允许您创建这些品牌并将其链接到交付或登陆页面模板。<br /> 有关详细信息，请参阅 <a href="../../administration/using/branding.md#assigning-a-brand-to-an-email">详细文档</a>。<br /> </td> 
+   <td> 品牌管理<br /> </td> 
+   <td> 您现在可以定义一个或多个品牌以集中输入影响品牌标识的参数。 Adobe Campaign允许您创建这些品牌并将它们链接到交付或登录页面模板。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/branding.md#assigning-a-brand-to-an-email">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Incremental query<br /> </td> 
-   <td> A new workflow activity, <span class="uicontrol">Incremental query</span> , allows you to carry out a query which, on every execution, targets only the new results. 之前执行的结果会自动排除。Linked to a <span class="uicontrol">Scheduler</span> activity, you can define the execution frequency of the <span class="uicontrol">Incremental query</span> .<br /> 有关详细信息，请参阅 <a href="../../automating/using/incremental-query.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：增量查询<br /> </td> 
+   <td> 新的工作流活动 <span class="uicontrol">增量查询</span> ，允许您执行查询，每次执行时，该查询只针对新结果。 之前执行的结果将自动排除。 链接到“ <span class="uicontrol">调度程序</span> ”活动，您可以定义增量查询的执 <span class="uicontrol">行频率</span> 。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/incremental-query.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages<br /> </td> 
-   <td> 改进了交易消息界面的用户友好性。All business process management linked to transactional messages is currently centralized in the <span class="uicontrol">Marketing plans</span> &gt; <span class="uicontrol">Transactional messages</span> menu. 活动配置也得到了改进。现在，活动可以独立于自定义资源进行管理。<br /> 有关详细信息，请参阅 <a href="../../channels/using/about-transactional-messaging.md">详细文档</a>。<br /> </td> 
+   <td> 交易消息<br /> </td> 
+   <td> 改进了事务消息界面的用户友好性。 与交易消息关联的所有业务流程管理当前都集中在“营销计划 <span class="uicontrol">”&gt;“交</span> 易消息”菜单中 <span class="uicontrol"></span> 。 事件配置也得到改进。 现在，活动可独立于自定义资源进行管理。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-transactional-messaging.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+### 修补程序 {#patches-7}
 
-#### General {#general-7}
+#### 常规 {#general-7}
 
-* 修复了报告、列表和查询中的几个显示错误。
+* 修复了报告、列表和查询中的多个显示错误。
 * 修复了移动设备上的多个兼容性和显示错误。
 
-#### Emails and SMS messages {#emails-and-sms-messages-6}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-6}
 
-* 修复了在创建消息(电子邮件或SMS)时可能阻止插入个性化字段显示个性化字段的错误。
-* 修复了一个错误，该错误可能导致通过Mblox发送的SMS消息无法正确传输。
+* 修复了在创建消息（电子邮件或SMS）时，用于插入个性化字段的按钮无法显示的错误。
+* 修复了一个错误，该错误可能会阻止通过Mblox发送的SMS消息正确传输。
 
-#### Audiences and queries {#audiences-and-queries-2}
+#### 受众和查询 {#audiences-and-queries-2}
 
-* 修复了在修改筛选维度之后在查询中添加其他条件时可能导致计数错误的计数错误。
+* 修复了在修改过滤维后在查询中添加附加条件时可能导致的计数错误。
 * 修复了在预览查询结果时可能导致分页错误的错误。
 
-#### Content editing {#content-editing-1}
+#### 内容编辑 {#content-editing-1}
 
-* 修复了在使用个性化枚举时无法正确考虑动态内容配置的错误。
+* 修复了一个错误，该错误可能导致在使用个性化枚举时无法正确考虑动态内容配置。
 
-#### Workflows {#workflows-5}
+#### 工作流 {#workflows-5}
 
-* Fixed an error that could prevent any action in a workflow from being carried out if there was an empty line in the **[!UICONTROL Fields to update]** tab of an **[!UICONTROL Update data]** activity.
-* 修复了阻止包含地理/组织单位信息的数据被导入的错误。
-* Fixed an error caused by adding a **[!UICONTROL Change axis]** type of **[!UICONTROL Exclusion]** rule.
-* Fixed an error that could lead to an unwanted additional segment being created when manipulating an outbound transition of a **[!UICONTROL Segmentation]** activity.
-* 修复了加载工作流模板中的文件导致的错误。
-* Fixed an error that could prevent spaces from being used as column separators in a **[!UICONTROL Load file]** activity.
+* 修复了一个错误，该错误可能会阻止在活动的选项卡中有空行时执行工作流 **[!UICONTROL Fields to update]** 中的任何操 **[!UICONTROL Update data]** 作。
+* 修复了阻止导入包含地理／组织单元信息的数据的错误。
+* 修复了添加规则类型 **[!UICONTROL Change axis]** 所导致的 **[!UICONTROL Exclusion]** 错误。
+* 修复了在操作活动的出站过渡时可能导致创建不需要的额外区段的错 **[!UICONTROL Segmentation]** 误。
+* 修复了在工作流模板中加载文件导致的错误。
+* 修复了一个错误，该错误会阻止将空间用作活动中的列分隔 **[!UICONTROL Load file]** 符。
 
-#### Custom resources {#custom-resources-5}
+#### 自定义资源 {#custom-resources-5}
 
-* 修复了一个错误，该错误导致自定义资源的状态在导入包后重新起草，如果在导出时已发布资源。
+* 修复了在导出时发布自定义资源时，导入包后无法重新起草自定义资源状态的错误。
 
-#### Packages {#packages}
+#### 包 {#packages}
 
-* 修复了一个错误，该错误导致包含工作流的包无法导出。
-* 修复了一个错误，该错误可能会阻止选择同一资源的多个元素。
+* 修复了阻止导出包含工作流的包的错误。
+* 修复了一个错误，该错误会阻止选择同一资源的多个元素。
 
-## Release 16.1 - January 2016 {#release-16-1---january-2016}
+## 16.1版- 2016年1月 {#release-16-1---january-2016}
 
-### New capabilities {#new-capabilities-8}
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Reports<br /> </td> 
-   <td> The following email specific reports have been added: <span class="uicontrol">Complaints</span> , <span class="uicontrol">Opens</span> , and <span class="uicontrol">Unsubscriptions</span> .<br /> 以下报表已得到改进： <span class="uicontrol">交付摘要</span> 、 <span class="uicontrol">退回摘要</span> 、 <span class="uicontrol">交付吞吐量</span> 和 <span class="uicontrol">跟踪指示器</span> 。<br /> 有关详细信息，请参阅 <a href="../../reporting/using/defining-the-report-period.md">详细文档</a>。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Query editing<br /> </td> 
-   <td> The query editor has been improved and now allows you to scan the <strong>1-N</strong> type links.<br /> 有关详细信息，请参阅 <a href="../../automating/using/editing-queries.md#creating-queries">详细文档</a>。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Content personalization<br /> </td> 
-   <td> As for email or landing page editing, the input interface for content block display conditions has been improved.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Workflows: column definition when importing<br /> </td> 
-   <td> <span class="uicontrol">现在，加载文件</span> 活动允许您详细配置导入的文件的列：预期的数据类型、日期和时间格式、处理以在空值或错误以及值重映射的情况下应用。<br /> 有关详细信息，请参阅 <a href="../../automating/using/load-file.md#column-format">详细文档</a>。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Mapping of SMS encodings<br /> </td> 
-   <td> 现在，可以为未使用标准编码的提供者定义个性化SMS消息的编码映射。管理员可以执行个性化映射的配置，并定义应考虑到的顺序。<br /> 有关详细信息，请参阅 <a href="../../administration/using/configuring-sms-channel.md#smsc-specifics">详细文档</a>。<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Patches {#patches-8}
-
-#### General {#general-8}
-
-* 改进了混合/触摸屏设备与Internet Explorer和Chrome的兼容性。
-* 修复了在指定的电子邮件地址包含语法错误时，可能导致为新用户/配置文件/测试配置文件输入的所有数据丢失的错误。
-
-#### Emails and SMS messages {#emails-and-sms-messages-7}
-
-* 修复了一个错误，该错误可能会阻止在电子邮件预览屏幕中生成内容缩略图。
-* 修复了可能阻止消息(电子邮件或SMS)在消息预览屏幕中显示的错误。
-
-#### Audiences and queries {#audiences-and-queries-3}
-
-* Fixed an error that could prevent a **Query** type audience from being created in the **Service** resource.
-* 修复了在高级模式中编辑查询条件时，可能无法正确显示函数列表的错误。
-* Fixed an error that could prevent a **Query** type audience from being created if it contained criteria based on collections.
-* 修复了一个错误，该错误可能会阻止在创建KPI时包含过滤器的查询。
-* 修复了一个错误，该错误可能会阻止预览从工作流创建的受众的内容。
-
-#### Custom resources {#custom-resources-6}
-
-* 修复了一个错误，该错误可能导致自定义资源包含具有动态默认值的字段。
-* Fixed an error caused by moving, then deleting an element in the **[!UICONTROL Detail screen configuration]** section while defining screens of a custom resource.
-* Fixed an error that occurred when a default value had been defined for an **integer** list that did not include **0** in its range of possible values.
-* 修复了一个错误，该错误导致在重新初始化后，可能无法在自定义资源的详细信息屏幕配置中添加元素。
-
-#### Workflows {#workflows-6}
-
-* 修复了一个错误，该错误可能会导致显示工作流中的所有活动，而不是只显示选定活动的那些活动。
-* Fixed an error in the **[!UICONTROL Scheduler]** activity. **[!UICONTROL Day of the month]** 未正确考虑该选项并替换为该选项 **[!UICONTROL Week day]** 。
-* Fixed an error that could prevent a **[!UICONTROL Scheduler]** activity from working correctly with the expiration mode set to **[!UICONTROL After a certain number of iterations]** .
-* Fixed an error that occurred when exporting data using an **[!UICONTROL Extract file]** activity. 导出文件中的行数不如导出元素的数量。
-* Fixed an error that could prevent a file in a **[!UICONTROL Load file]** activity from being selected.
-* Fixed an error that prevented fields that were to be updated in an **[!UICONTROL Update data]** activity from being deleted.
-* 修复了在打开工作流执行日志后无法保存对工作流所做修改的错误。
-* Fixed an error that caused a **[!UICONTROL Load file]** activity to be executed twice if it was configured to use the file from its inbound transition and this file had been loaded using a **[!UICONTROL Transfer file]** activity.
-* Fixed an error that could prevent certain temporary entities from being correctly processed by an **Exclusion** activity.
-* Fixed an error that could prevent a **[!UICONTROL Query]** activity from being executed correctly if the targeting dimension and the filtering dimension configured in the activity were different.
-* Fixed an error concerning the automatic naming of outbound transitions added to a **[!UICONTROL Fork]** activity that could prevent the workflow from being saved.
-
-#### Content editing {#content-editing-2}
-
-* 修复了在编辑内容时可能会导致图标或搜索栏不灵活显示的错误。
-
-#### Landing pages {#landing-pages-3}
-
-* 修复了阻止登陆页面使用包导入导入的错误。
-
-#### Transactional messages {#transactional-messages-4}
-
-* 现在可以在Message Center Push Agent运算符的安全参数中指定一个可信IP地址。
-* 修复了一个错误，该错误可能会阻止创建新类型的事件。
-
-## Release 15.11 - November 2015 {#release-15-11---november-2015}
-
-### New capabilities {#new-capabilities-9}
+### 新功能 {#new-capabilities-8}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> SMS Channel<br /> </td> 
-   <td> 您现在可以使用Adobe Campaign发送SMS消息。<br /> 与电子邮件一样，您可以从营销活动和营销活动列表中创建新的SMS分发。您还可以从工作流中创建单一发送和重复的SMS消息。<br /> 这些SMS交付基于可从交付模板列表中配置的模板。默认模板可用。<br /> 这些SMS交付使用SMPP3.4协议，大多数SMS路由器使用。<br /> 有关详细信息，请参阅 <a href="../../channels/using/about-sms-messages.md">详细文档</a>。<br /> </td> 
+   <td> 报告<br /> </td> 
+   <td> 添加了以下电子邮件特定报告：投 <span class="uicontrol">诉</span> 、打 <span class="uicontrol">开</span> 、取消 <span class="uicontrol">订阅</span> 。<br /> 改进了以下报告：交 <span class="uicontrol">货汇总、弹</span> 回汇总 <span class="uicontrol">、交货</span> 吞吐量 <span class="uicontrol">、跟踪指</span> 标 <span class="uicontrol"></span> 。<br /> 有关详细信息，请参阅详 <a href="../../reporting/using/defining-the-report-period.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Exploring transitions<br /> </td> 
-   <td> 您现在可以在工作流的最后一个过渡中探索数据及其结构。This allows you to check that the processes applied by each activity correspond to your needs.<br /> </td> 
+   <td> 查询编辑<br /> </td> 
+   <td> 查询编辑器已得到改进，现在允许您扫描 <strong>1-N类型链接</strong> 。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/editing-queries.md#creating-queries">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> File pre- and post-processing in workflows<br /> </td> 
-   <td> You can now carry out additional processing on a data file when importing or exporting it via the <span class="uicontrol">Load file</span> and <span class="uicontrol">Extract file</span> activities.<br /> 默认情况下，您可以在这些活动中解压缩GZIP格式文件并将其压缩。<br /> 有关详细信息，请参阅 <a href="../../automating/using/load-file.md">有关加载文件</a> 和 <a href="../../automating/using/extract-file.md">提取文件</a> 活动的文档。<br /> </td> 
+   <td> 内容个性化<br /> </td> 
+   <td> 对于电子邮件或登陆页面编辑，内容块显示条件的输入界面已得到改进。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Deliverability reports<br /> </td> 
-   <td> 电子邮件渲染报告现已可用。此报告允许您根据用于读取消息的支持和消息服务查看消息的不同呈现。<br /> 报告摘要还显示接收接收的消息、垃圾邮件消息、未接收消息和消息的数量。<br /> 有关详细信息，请参阅 <a href="../../sending/using/email-rendering.md#email-rendering-report-description">详细文档</a>。<br /> </td> 
+   <td> 工作流：导入时的列定义<br /> </td> 
+   <td> 现在 <span class="uicontrol">通过“加载文件</span> ”活动，您可以详细配置导入文件的列：预期的数据类型、日期和时间格式、空值或错误时要应用的处理以及值重映射。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/load-file.md#column-format">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Package Management<br /> </td> 
-   <td> It is now possible to import and export images in packages.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Quick actions<br /> </td> 
-   <td> 在列表或工作流中选择某个元素上方或之后时，某些操作会出现。其中一些操作现在相关元素周围显示为图标，以便于访问。These quick actions can be used to duplicate an element, delete it, show the detail, etc.<br /> </td> 
+   <td> SMS编码的映射<br /> </td> 
+   <td> 现在，可以为不使用标准编码的提供商定义个性化SMS消息的编码映射。 管理员可以进行个性化映射的配置，并定义其应考虑的顺序。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-sms-channel.md#smsc-specifics">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-9}
+### 修补程序 {#patches-8}
 
-#### General {#general-9}
+#### 常规 {#general-8}
 
-* 修复了一个错误，该错误可能会阻止从管理员帐户访问实例的常规参数。
-* **现在，在自定义资源中正确考虑浮动** 数据。
-* 修复了执行简化的导入列表中的显示错误，该错误是在修改相应模板的状态时导致的。
+* 改进了与Internet explorer和Chrome的兼容性，用于混合／触摸屏设备。
+* 修复了一个错误，该错误可能导致为新用户／配置文件／测试配置文件输入的所有数据丢失（如果指示的电子邮件地址包含语法错误）。
 
-#### Landing pages {#landing-pages-4}
+#### 电子邮件和SMS消息 {#emails-and-sms-messages-7}
 
-* 修复了在英语实例上可能出现法语错误显示的登录页面模板的某些元素。
+* 修复了一个错误，该错误会阻止在电子邮件预览屏幕中生成内容缩略图。
+* 修复了一个错误，该错误会阻止消息（电子邮件或SMS）的原始内容显示在消息预览屏幕中。
+
+#### 受众和查询 {#audiences-and-queries-3}
+
+* 修复了一个错误，该错误可能会阻 **止在** “服务”资源中创建 **Query** 类型受众。
+* 修复了在高级模式下编辑查询条件时可能无法正确显示函数列表的错误。
+* 修复了一个错误，该错误可能会阻止在 **Query** 类型受众中包含基于集合的条件时创建该受众。
+* 修复了一个错误，该错误可能会阻止创建包含交付KPI筛选器的查询。
+* 修复了一个错误，该错误会阻止预览从工作流创建的受众的内容。
+
+#### 自定义资源 {#custom-resources-6}
+
+* 修复了一个错误，该错误在自定义资源包含具有动态默认值的字段时可能导致服务器崩溃。
+* 修复了在定义自定义资源的屏幕时，在部分中移 **[!UICONTROL Detail screen configuration]** 动然后删除元素所导致的错误。
+* 修复了为未在其可能值范围中包含 **0** 的整数列表定义默认值时 **** 发生的错误。
+* 修复了一个错误，该错误可能会阻止在重新初始化后在自定义资源的详细信息屏幕配置中添加元素。
+
+#### 工作流 {#workflows-6}
+
+* 修复了一个错误，该错误可能导致工作流中所有活动的日志被显示，而不是只显示选定活动的日志。
+* 修复了活动中的错 **[!UICONTROL Scheduler]** 误。 该 **[!UICONTROL Day of the month]** 选项未正确考虑并替换为 **[!UICONTROL Week day]** 。
+* 修复了在过期模式设置 **[!UICONTROL Scheduler]** 为时，可能导致活动无法正确工作的错误 **[!UICONTROL After a certain number of iterations]** 。
+* 修复了使用活动导出数据时发生的错 **[!UICONTROL Extract file]** 误。 导出文件中的行数低于导出的元素数。
+* 修复了一个错误，该错误可能会阻止选 **[!UICONTROL Load file]** 择活动中的文件。
+* 修复了阻止删除活动中要更新的字段 **[!UICONTROL Update data]** 的错误。
+* 修复了在打开工作流执行日志后无法保存对工作流所做的修改的错误。
+* 修复了将活动配置 **[!UICONTROL Load file]** 为从其入站过渡中使用该文件并且该文件已使用活动加载时导致该活动执行两次的错误 **[!UICONTROL Transfer file]** 问题。
+* 修复了一个错误，该错误可能会阻止某些临时实体被排除活动正 **确处理** 。
+* 修复了一个错误，该错误可 **[!UICONTROL Query]** 能会在活动中配置的定位维和筛选维不同时，导致活动无法正确执行。
+* 修复了一个错误，该错误与添加到活动的出站过渡的自 **[!UICONTROL Fork]** 动命名有关，该错误会阻止保存工作流。
+
+#### 内容编辑 {#content-editing-2}
+
+* 修复了在编辑内容时可能导致图标或搜索栏显示不理想的错误。
+
+#### 登陆页面 {#landing-pages-3}
+
+* 修复了阻止使用包导入导入登录页面的错误。
+
+#### 交易消息 {#transactional-messages-4}
+
+* 现在，可以在消息中心推送代理运营商的安全参数中指定受信任的IP地址。
+* 修复了可能阻止创建新类型事件的错误。
+
+## 15.11版- 2015年11月 {#release-15-11---november-2015}
+
+### 新功能 {#new-capabilities-9}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> SMS频道<br /> </td> 
+   <td> 您现在可以使用Adobe Campaign发送SMS消息。<br /> 与电子邮件一样，您也可以从营销活动和营销活动列表中创建新的SMS分发。 您还可以从工作流中创建单个发送和重复的SMS消息。<br /> 这些SMS发送基于可从分发模板列表中配置的模板。 默认模板可用。<br /> 这些SMS交付使用SMPP 3.4协议，大多数SMS路由器都使用该协议。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-sms-messages.md">细文档</a>。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 探索过渡<br /> </td> 
+   <td> 您现在可以在工作流的上次过渡中浏览数据及其结构。 这允许您检查由每个活动应用的进程是否与您的需求相对应。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 工作流中的文件预处理和后处理<br /> </td> 
+   <td> 现在，通过“加载文件”和“提取文件”活动导入或导出数据文件时，可以对该数据文件进 <span class="uicontrol">行其</span> 他 <span class="uicontrol">处理</span> 。<br /> 默认情况下，您可以在这些活动中解压缩和压缩GZIP格式文件。<br /> 有关详细信息，请参阅有关“加载文件”和“ <a href="../../automating/using/load-file.md">提取文件</a> ” <a href="../../automating/using/extract-file.md">活动的文档</a> 。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 交付性报告<br /> </td> 
+   <td> 现在提供电子邮件渲染报告。 此报告允许您根据用于读取消息的支持和消息服务查看消息的不同呈现方式。<br /> 报告摘要还显示接收的消息、垃圾邮件、未接收的消息和等待接收的消息的数量。<br /> 有关详细信息，请参阅详 <a href="../../sending/using/email-rendering.md#email-rendering-report-description">细文档</a>。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 包管理<br /> </td> 
+   <td> 现在可以导入和导出包中的图像。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 快速操作<br /> </td> 
+   <td> 将指针悬停在列表或工作流中的某个元素上方或之后时，会显示某些操作。 其中一些操作现在显示为相关元素周围的图标以便于访问。 这些快速操作可用于复制元素、删除元素、显示详细信息等。<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 修补程序 {#patches-9}
+
+#### 常规 {#general-9}
+
+* 修复了一个错误，该错误会阻止从管理员帐户访问实例的常规参数。
+* **现在** ，自定义资源中正确考虑了浮动数据。
+* 修复了在已执行的简化导入列表中的显示错误，该错误在相应模板的状态被修改时导致。
+
+#### 登陆页面 {#landing-pages-4}
+
+* 修复了登录页面模板的某些元素，这些元素在英语实例中可能以法语显示不正确。
 
 #### Audiences {#audiences}
 
-* 修复了一个错误，该错误可能会阻止从Adobe Marketing Cloud导入的受众显示在受众列表中。
+* 修复了一个错误，该错误可能会阻止从Adobe Marketing cloud导入的受众显示在受众列表中。
 * 修复了在定义查询时可能强制区分大小写的错误。
-* 修复了在定义查询时无法过滤受众的错误。
+* 修复了在定义查询时可能阻止筛选受众的错误。
 * 修复了一个错误，该错误可能会阻止在受众中取消操作。
 
-#### Workflows {#workflows-7}
+#### 工作流 {#workflows-7}
 
-* Fixed an error that could prevent the fields that were to be updated in an **[!UICONTROL Update data]** activity from manually being configured.
-* Fixed an error that could cause the **[!UICONTROL Query]** activity to load infinitely when opened if the workflow had not been saved after having placed the activity in the diagram.
-* Fixed an error that could cause the server to stop while counting or previewing an audience selected from a **[!UICONTROL Query]** in a workflow.
-* 修复了打开工作流中的活动时可能出现的非关键错误。
-* Fixed an error that prevented a **[!UICONTROL Scheduler]** activity from being configured to execute a workflow several times a day.
-* 修复了可能导致在某些工作流活动中无法执行查询的字段的错误。
-* Fixed an error that could prevent the user from locating the KPIs added from a **[!UICONTROL Query]** on deliveries in the outbound transition.
-* 修复了将文件导入工作流后无法创建文件受众的错误。
-* Fixed an error that could prevent data from being updated on profiles if the **location/address3** field of the resource was used.
-* 修复了一个错误，该错误导致活动中的各个集合无法在工作流中重复。
-* 修复了阻止显示SQL的错误，从而允许诊断工作流中重复的分发。
+* 修复了一个错误，该错误可能会阻止手动配置活动中 **[!UICONTROL Update data]** 要更新的字段。
+* 修复了在将活动放入图 **[!UICONTROL Query]** 中后，如果未保存工作流，则在打开时可能导致活动无限加载的错误。
+* 修复了在计算或预览从工作流中选择的受众时可能导致服务器停止 **[!UICONTROL Query]** 的错误。
+* 修复了在工作流中的活动打开时可能显示的非关键错误。
+* 修复了阻止将活动配 **[!UICONTROL Scheduler]** 置为每天执行多次工作流的错误。
+* 修复了一个错误，该错误可能导致无法执行查询的字段显示在某些工作流活动中。
+* 修复了一个错误，该错误可能会阻止用户查找从出站转移的 **[!UICONTROL Query]** 分发中添加的KPI。
+* 修复了将文件导入工作流后可能无法创建文件受众的错误。
+* 修复了一个错误，该错误在使用了资源的 **location/address3** 字段时可能会阻止在配置文件上更新数据。
+* 修复了阻止在工作流中复制异构活动集合的错误。
+* 修复了阻止显示SQL的错误，从而允许诊断工作流中重复传送的错误。
 
-#### Content editor {#content-editor-1}
+#### 内容编辑器 {#content-editor-1}
 
-* 修复了一个错误，该错误会导致在登录页面的源代码中搜索或不可能进行搜索。
+* 修复了导致无法在登录页面或电子邮件的源代码中进行搜索的错误。
 
-#### Packages {#packages-1}
+#### 包 {#packages-1}
 
-* 修复了可能导致某些类型的元素(尤其是登陆页面、工作流)无法导出的各种错误。
-* 修复了一个错误，该错误导致在标签被修改时，将显示之前的包导入标签。
+* 修复了可能阻止某些类型的元素在包中导出的各种错误（特别是登录页面、工作流）。
+* 修复了一个错误，该错误会导致在修改标签时显示以前的包导入标签。
 * 修复了可能导致不兼容资源显示在可导出资源列表中的错误。
 
-## Release 15.10 - October 2015 {#release-15-10---october-2015-}
+## 版本15.10 - 2015年10月 {#release-15-10---october-2015-}
 
-### New capabilities {#new-capabilities-10}
+### 新功能 {#new-capabilities-10}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Workflows: Deduplication activity<br /> </td> 
-   <td> 现在，工作流中提供专用于取消复制数据的新活动。此活动允许您根据选定条件筛选目标中的任何副本。<br /> 有关详细信息，请参阅 <a href="../../automating/using/deduplication.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：重复数据消除活动<br /> </td> 
+   <td> 现在，工作流中提供了专用于重复数据消除的新活动。 此活动允许您根据所选条件筛选目标中的任何副本。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/deduplication.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Improved diagram<br /> </td> 
-   <td> 现在，您可以从工作流工作区中使用多个键盘快捷键来选择、打开和删除活动。<br /> 活动对齐方式也得到了改进，并允许更好地组织工作流。<br /> 有关详细信息，请参阅 <a href="../../automating/using/workflow-interface.md#workspace">详细文档</a>。<br /> </td> 
+   <td> 工作流：改进的图表<br /> </td> 
+   <td> 在工作流工作区中，您现在可以使用多个键盘快捷键来选择、打开和删除活动。<br /> 活动对齐方式也得到改进，使工作流能够更好地以可视方式组织。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/workflow-interface.md#workspace">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Extract file activity<br /> </td> 
-   <td> The date and time of the export is now automatically added to the labels of the files exported using an <span class="uicontrol">Extract file</span> activity. This way the files generated are unique.<br /> </td> 
+   <td> 工作流：提取文件活动<br /> </td> 
+   <td> 现在，导出的日期和时间会自动添加到使用Extract文件活动导出的文件的 <span class="uicontrol">标签中</span> 。 这样生成的文件是唯一的。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Simplified data import<br /> </td> 
-   <td> The name of the template from which a simplified import was carried out is now visible by default in the import list and in the detail of each import.<br /> </td> 
+   <td> 简化的数据导入<br /> </td> 
+   <td> 现在，执行简化导入的模板的名称在导入列表中和每个导入的详细信息中默认可见。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> Improvement and extended possibilities for managing and defining links for custom resources.<br /> </td> 
+   <td> 自定义资源<br /> </td> 
+   <td> 改进并扩展了管理和定义自定义资源链接的可能性。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-10}
+### 修补程序 {#patches-10}
 
-#### Email {#email}
+#### 电子邮件 {#email}
 
-* 修复了阻止服务取消订阅链接从镜像页面正确工作的错误。
-* 修复了一个错误，该错误可能导致电子邮件分发标签无法正确显示在电子邮件编辑页面上。
-* Fixed an error that could prevent an external **[!UICONTROL Routing]** account from being selected in a duplicated delivery template.
+* 修复了一个错误，该错误导致服务取消订阅链接无法从镜像页面正常工作。
+* 修复了一个错误，该错误会阻止电子邮件传送标签在电子邮件编辑页面上正确显示。
+* 修复了一个错误，该错误可能会阻 **[!UICONTROL Routing]** 止在复制的分发模板中选择外部帐户。
 
 #### Audiences {#audiences-1}
 
-* 修复了在查询中使用1-N链接时受众计数导致的错误。
-* 修复了一个错误，该错误可能会阻止在电子邮件分发的目标受众中选择配置文件。
+* 修复了在查询中使用1-N链接时在受众计数期间导致的错误。
+* 修复了一个错误，该错误可能导致无法在电子邮件分发的目标受众中选择配置文件。
 
-#### Workflows {#workflows-8}
+#### 工作流 {#workflows-8}
 
-* 修复了在工作流中配置电子邮件分发时可能出现显示问题的错误。
-* Fixed an error that could prevent the **[!UICONTROL Load file]** activity from working correctly. 随后将显示空白错误消息。
-* Fixed an error that could prevent the **[!UICONTROL Transfer file]** activity from working correctly. 并非总能正确地考虑访问权限。
-* Fixed an error that could prevent a file from being exported if the workflow contained a **[!UICONTROL Recurring email]** .
-* 修复了一个错误，该错误可能会阻止在工作流中创建电子邮件分发，或阻止主题和定义的内容被考虑。
-* Fixed an error that could prevent a reconciliation key from being selected in an **[!UICONTROL Update data]** activity when configuring the workflow of a simplified import template.
-* 修复了一个错误，该错误可能会阻止在删除活动后保存工作流。
+* 修复了在工作流中配置电子邮件分发时可能导致显示问题的错误。
+* 修复了可能导致活动无法正 **[!UICONTROL Load file]** 常工作的错误。 随后将显示空白错误消息。
+* 修复了可能导致活动无法正 **[!UICONTROL Transfer file]** 常工作的错误。 访问权限并非始终正确考虑。
+* 修复了一个错误，该错误在工作流包含文件时会阻止导出文件 **[!UICONTROL Recurring email]** 。
+* 修复了一个错误，该错误可能会阻止在工作流中创建电子邮件分发，或阻止将主题和定义的内容考虑在内。
+* 修复了在配置简化的导入模板的工作流时，会阻止在活 **[!UICONTROL Update data]** 动中选择对帐密钥的错误。
+* 修复了在删除活动后无法保存工作流的错误。
 
-#### Platform {#platform}
+#### 平台 {#platform}
 
-* 修复了一个错误，该错误导致在自定义资源包含指向该元素的资源类型的链接时，无法创建新元素。
-* 修复了可能导致写入某些日志的延迟15分钟的错误。
-* Fixed an error that could prevent the marketing activity list from being displayed when sorted by the **[!UICONTROL Date]** or **[!UICONTROL Indicators]** columns.
+* 修复了一个错误，该错误可能会阻止在自定义资源包含指向该元素资源类型的链接时创建新元素。
+* 修复了可能导致某些日志写入延迟15分钟的错误。
+* 修复了一个错误，该错误会阻止在按或列排序时显示营销活 **[!UICONTROL Date]** 动列 **[!UICONTROL Indicators]** 表。
 
-#### Landing pages {#landing-pages-5}
+#### 登陆页面 {#landing-pages-5}
 
-* 修复了在选择测试配置文件以预览登陆页面时出现的错误。
+* 修复了在选择测试配置文件以预览登陆页面时发生的错误。
 
-#### Transactional messages {#transactional-messages-5}
+#### 交易消息 {#transactional-messages-5}
 
-* 修复了在测试配置文件上删除活动后应用程序崩溃的错误。
+* 修复了在删除测试配置文件上的事件后可能导致应用程序崩溃的错误。
 
-#### Reports {#reports}
+#### 报告 {#reports}
 
-* Fixed an error that could cause incorrect data to be sent for the reports **[!UICONTROL deliveryThroughputReport]** and **[!UICONTROL deliveryTrackingReport]** .
+* 修复了一个错误，该错误可能导致为报告和发送错误 **[!UICONTROL deliveryThroughputReport]** 的数据 **[!UICONTROL deliveryTrackingReport]** 。
 
-#### Content editor {#content-editor-2}
+#### 内容编辑器 {#content-editor-2}
 
-* 修复了处理动态内容块时出现的HTML标签管理错误。
+* 修复了在处理动态内容块时发生的HTML标签管理错误。
 
-## Release 15.8 - August 2015 {#release-15-8---august-2015}
+## 15.8版- 2015年8月 {#release-15-8---august-2015}
 
-### New capabilities {#new-capabilities-11}
+### 新功能 {#new-capabilities-11}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Simplified data import<br /> </td> 
-   <td> 您现在可以以简化的方式导入数据。<br /> 用户只需选择由管理员预定义的模板，然后上传包含要导入的数据的文件。用户透明地执行模板中定义的工作流，用户可以访问导入结果的详细信息以及记录任何错误的日志。<br /> 这些文件中的数据可以插入数据库中，或用作直接创建受众的方法。<br /> 有关详细信息，请参阅 <a href="../../automating/using/about-data-import-and-export.md">详细文档</a>。<br /> </td> 
+   <td> 简化的数据导入<br /> </td> 
+   <td> 您现在可以以简化的方式导入数据。<br /> 用户只需选择管理员预定义的模板，然后上传包含要导入的数据的文件。 对于用户透明地执行在模板中定义的工作流，该用户可以访问导入结果的详细信息以及任何错误的日志。<br /> 这些文件中的数据可以插入到数据库中，或作为直接创建受众的手段。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/about-data-import-and-export.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Creating programs and campaigns<br /> </td> 
-   <td> 现在，已配置营销活动和计划，以使创建它们的日期自动用作开始日期。<br /> 结束日期根据开始日期进行配置，如：<br /> 
+   <td> 创建计划和营销活动<br /> </td> 
+   <td> 现在，营销活动和计划已配置好，因此创建之日会自动用作开始日期。<br /> 结束日期根据开始日期进行配置，例如：<br /> 
     <ul> 
-     <li> 适用于计划的D+186 </li> 
-     <li> 适用于营销活动的D+61 </li> 
-    </ul> For more information, refer to the <a href="../../start/using/programs-and-campaigns.md">detailed documentation</a>.<br /> </td> 
+     <li> D+186计划 </li> 
+     <li> D+61营销活动 </li> 
+    </ul>  有关详细信息，请参阅详 <a href="../../start/using/programs-and-campaigns.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email<br /> </td> 
-   <td> The list of tracked URLs is now read only.<br /> </td> 
+   <td> 电子邮件<br /> </td> 
+   <td> 跟踪的URL列表现在为只读。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages<br /> </td> 
-   <td> 您现在可以管理在创建帐户后的密码更改或确认等活动的个性化交易消息。<br /> 有关详细信息，请参阅 <a href="../../channels/using/about-transactional-messaging.md">详细文档</a>。<br /> </td> 
+   <td> 交易消息<br /> </td> 
+   <td> 现在，您可以管理针对创建帐户后的密码更改或确认等事件的个性化交易消息。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-transactional-messaging.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> 添加了多种功能，例如：扩展测试配置文件、状态管理和删除资源。<br /> 有关详细信息，请参阅 <a href="../../developing/using/resource-statuses.md">详细文档</a>。<br /> </td> 
+   <td> 自定义资源<br /> </td> 
+   <td> 添加了以下几个功能：扩展测试配置文件、状态管理和删除资源。<br /> 有关详细信息，请参阅详 <a href="../../developing/using/resource-statuses.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-11}
+### 修补程序 {#patches-11}
 
-#### Display {#display}
+#### 显示 {#display}
 
-* 修复了Safari中的查询编辑器中可能导致两个字段并列的错误。
+* 修复了一个错误，该错误可能导致在Safari的查询编辑器中并列两个字段。
 
-#### Content editor {#content-editor-3}
+#### 内容编辑器 {#content-editor-3}
 
-* 修复了一个错误，该错误导致在电子邮件主题中使用字符'&lt;'、'&amp;'和'&gt;'。
+* 修复了阻止在电子邮件主题中使用字符“&lt;”、“&amp;”和“&gt;”的错误。
 
-#### Email {#email-1}
+#### 电子邮件 {#email-1}
 
 * 修复了阻止用户在动态文本后添加文本的错误。
 
-#### Lists {#lists}
+#### 列表 {#lists}
 
-* Fixed an error that prevented the **Message** column in workflow execution logs from being exported correctly.
+* 修复了阻止正确导 **出工作流执行日志** “消息”列的错误。
 
-#### Profiles and audiences {#profiles-and-audiences}
+#### 档案和受众 {#profiles-and-audiences}
 
-* 修复了导致重复或删除元素时出现双重确认的错误。**仅使用Internet Explorer11的混合设备**。
+* 修复了导致重复或删除元素时间的双重确认的错误。 **仅使用Internet Explorer 11的混合设备**。
 
-#### Workflows {#workflows-9}
+#### 工作流 {#workflows-9}
 
 * 修复了可能阻止从工作流发送电子邮件的错误。
-* Fixed an error that could prevent a workflow from executing when the name of the rejection file was not specified in a **[!UICONTROL Load file]** activity.
-* Fixed an error that could prevent a workflow from executing when the **[!UICONTROL Execution frequency]** of a **[!UICONTROL Schedule]** activity was set to **[!UICONTROL Daily]** .
+* 修复了在活动中未指定拒绝文件名称时，可能会阻止工作流执行的错 **[!UICONTROL Load file]** 误。
+* 修复了一个错误，该错误可能会阻止在将活动 **[!UICONTROL Execution frequency]** 设置为时 **[!UICONTROL Schedule]** 执行工作流 **[!UICONTROL Daily]** 。
 
-#### Platform {#platform-1}
+#### 平台 {#platform-1}
 
-* 修复了阻止在负载平衡环境中生成缩略图的错误。
+* 修复了在负载平衡环境中无法生成缩略图的错误。
 
-## Release 15.7 - July 2015 {#release-15-7---july-2015}
+## 15.7版- 2015年7月 {#release-15-7---july-2015}
 
-### New capabilities {#new-capabilities-12}
+### 新功能 {#new-capabilities-12}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Exporting lists<br /> </td> 
-   <td> 现在，您可以将列表中的内容导出到CSV格式的文件中。This function is available in all screens with a <strong>List</strong> mode (for example: profile list).<br /> 导出的数据是导出时显示的列中的数据。通过编辑列表，您可以选择要导出的数据。<br /> 有关使用此功能的详细信息，请参阅 <a href="../../automating/using/exporting-lists.md">详细文档</a>。<br /> </td> 
+   <td> 导出列表<br /> </td> 
+   <td> 您现在可以将列表中的内容导出为CSV格式的文件。 此函数在具有列表模式的所有屏幕 <strong>中都可用</strong> (例如：配置文件列表)。<br /> 导出的数据是导出时显示的列中的数据。 因此，通过编辑列表，您可以选择要导出的数据。<br /> 有关使用此功能的详细信息，请参阅详细 <a href="../../automating/using/exporting-lists.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Profiles &amp; Audiences<br /> </td> 
-   <td> You can now share audiences between Adobe Campaign and your other Adobe Marketing Cloud solutions:<br /> 
+   <td> 与Adobe档案和受众集成<br /> </td> 
+   <td> 您现在可以在Adobe Campaign和您的其他Adobe Marketing cloud解决方案之间共享受众：<br /> 
     <ul> 
-     <li> Export: when you save an audience composed of profiles in a workflow, a new <span class="uicontrol">Share in Adobe Marketing Cloud</span> option allows you to add profiles to an existing audience or to create a new audience. </li> 
-     <li> Import: by creating a <strong>List</strong> type audience from the audience management screen, a new option allows you to identify it as an <span class="uicontrol">Adobe Marketing Cloud Audience</span> . 然后，您可以选择现有共享受众，将其导入Adobe Campaign。 </li> 
-    </ul> For more information on configuring and using this functionality, refer to the <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detailed documentation</a>.<br /> </td> 
+     <li> 导出：在工作流中保存由档案组成的受众时，Adobe Marketing Cloud <span class="uicontrol"></span> （在Adobe Marketing Cloud中共享）新选项允许您向现有受众添加档案或创建新受众。 </li> 
+     <li> 导入：通过从受 <strong>众管理屏幕创建</strong> List类型受众，新选项允许您将其标识为 <span class="uicontrol">Adobe Marketing cloud受众</span> 。 然后，您可以选择现有共享受众以将其导入Adobe Campaign。 </li> 
+    </ul> 有关配置和使用此功能的详细信息，请参阅详细 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor - Dynamic content<br /> </td> 
-   <td> 动态内容界面已得到改进。现在，箭头显示允许您直接在电子邮件正文中导航不同的动态内容。<br /> 有关使用此功能的详细信息，请参阅 <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">详细文档</a>。<br /> </td> 
+   <td> 数字内容编辑器——动态内容<br /> </td> 
+   <td> 动态内容界面已得到改进。 现在，箭头允许您直接在电子邮件正文中在不同的动态内容之间导航。<br /> 有关使用此功能的详细信息，请参阅详细 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor - Dynamic text<br /> </td> 
-   <td> From the content editor of an email, you can now define dynamic text:<br /> 
+   <td> 数字内容编辑器——动态文本<br /> </td> 
+   <td> 现在，您可以从电子邮件的内容编辑器中定义动态文本：<br /> 
     <ul> 
      <li> 在电子邮件主题中， </li> 
      <li> 在HTML模式下， </li> 
-     <li> 或在文本模式下。 </li> 
-    </ul> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
+     <li> 或文本模式。 </li> 
+    </ul>  有关使用此功能的详细信息，请参阅详细 <a href="../../channels/using/defining-dynamic-text.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Programs and campaigns - Reports<br /> </td> 
-   <td> 报表的界面和图形已得到改进。<br /> 有关使用此功能的详细信息，请参阅 <a href="../../reporting/using/defining-the-report-period.md">详细文档</a>。<br /> </td> 
+   <td> 计划和营销活动——报告<br /> </td> 
+   <td> 报表的界面和图形已得到改进。<br /> 有关使用此功能的详细信息，请参阅详细 <a href="../../reporting/using/defining-the-report-period.md">文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-12}
+### 修补程序 {#patches-12}
 
-#### Installation {#installation}
+#### 安装 {#installation}
 
 * Adobe Campaign实例名称现在限制为32个字符。
 
-#### Workflows {#workflows-10}
+#### 工作流 {#workflows-10}
 
-* 修复了在工作流中编辑查询时可能阻止“交付”资源的错误。
-* 修复了在工作流中编辑查询时无法处理某些链接资源的错误。
-* Fixed an error that could prevent a **Recurring delivery** activity from being modified if the workflow had already been executed.
+* 修复了在工作流中编辑查询时可能无法定位“交付”资源的错误。
+* 修复了在工作流中编辑查询时可能无法处理某些链接资源的错误。
+* 修复了一个错误，该错误可能会 **阻止在工作流已执行的情况下** ，修改重复的交付活动。
 
-#### Emails {#emails}
+#### 电子邮件 {#emails}
 
-* 修复了在通过表达式编辑器添加动态内容时，阻止JavaScript语法错误被选中的错误。
+* 修复了在通过表达式编辑器添加动态内容后，在发送电子邮件之前无法检查JavaScript语法错误的错误。
 
-#### Landing pages {#landing-pages-6}
+#### 登陆页面 {#landing-pages-6}
 
-* 修复了阻止登录页面从平板电脑编辑的错误。
+* 修复了阻止从平板电脑编辑登录页面的错误。
 
 #### Assets Core Service {#assets-core-service}
 
-* 从正在编辑的电子邮件或登陆页面中选择共享资源时，Adobe Campaign会过滤可用资源的列表。
+* 当从正在编辑的电子邮件或登录页面中选择共享资源时，现在会为Adobe Campaign筛选可用资源列表。
 
-## Release 15.6 - June 2015 {#release-15-6---june-2015}
+## 15.6版- 2015年6月 {#release-15-6---june-2015}
 
-### New capabilities {#new-capabilities-13}
+### 新功能 {#new-capabilities-13}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Workflows: Reconciliation activity<br /> </td> 
-   <td> A new <strong>Reconciliation</strong> activity links unidentified data (for example, after importing a file) with existing resources within a workflow.<br /> 此活动主要用于数据管理用途。It responds to two different use cases:<br /> 
+   <td> 工作流：协调活动<br /> </td> 
+   <td> 新的“ <strong>协调</strong> ”活动将无法识别的数据（例如，在导入文件后）与工作流中的现有资源链接起来。<br /> 此活动主要用于数据管理用途。 它响应两个不同的用例：<br /> 
     <ul> 
-     <li> <strong>添加关系</strong>： <strong>“关系”</strong> 选项卡允许您在Adobe Campaign数据库的入站数据和其他多个维度之间添加链接。 </li> 
-     <li> <strong>数据识别</strong>： <strong>通过标识</strong> 选项卡，您只需将入站数据关联到Adobe Campaign数据库中现有维度中的列。在退出活动时，数据被识别为属于指定维度。 </li> 
-    </ul> Refer to the <a href="../../automating/using/reconciliation.md">detailed documentation</a>.<br /> </td> 
+     <li> <strong>添加关系</strong>:“关 <strong>系</strong> ”选项卡允许您在入站数据和Adobe Campaign数据库的多个其他维之间添加链接。 </li> 
+     <li> <strong>数据识别</strong>:标 <strong>识</strong> 选项卡允许您将入站数据只与Adobe Campaign数据库中现有维中的列相关联。 当它离开活动时，数据将标识为属于指定的维。 </li> 
+    </ul> 请参阅详细 <a href="../../automating/using/reconciliation.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Extract file activity<br /> </td> 
-   <td> <strong>新的提取文件</strong> 活动允许您以外部文件的形式从工作流中导出Adobe Campaign数据库中的数据。<br /> 限制：当前无法为输出文件使用动态名称。<br /> 请参阅 <a href="../../automating/using/extract-file.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：提取文件活动<br /> </td> 
+   <td> 利用新 <strong>的Extract文件</strong> ，您可以从工作流中以外部文件的形式从Adobe Campaign数据库导出数据。 <br /> 限制：当前无法对输出文件使用动态名称。<br /> 请参阅详细 <a href="../../automating/using/extract-file.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Scheduler activity<br /> </td> 
-   <td> Improved widget that allows you to select the execution time of the <strong>Scheduler</strong> activity in a workflow.<br /> </td> 
+   <td> 工作流：调度程序活动<br /> </td> 
+   <td> 改进了构件，允许您在工作流中选择 <strong>Scheduler</strong> （调度程序）活动的执行时间。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Transfer file activity<br /> </td> 
-   <td> SFTP is now supported.<br /> </td> 
+   <td> 工作流：传输文件活动<br /> </td> 
+   <td> 现在支持SFTP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> <span class="uicontrol">“开发”</span> 菜单现在允许具有管理员权限的用户通过创建自己的自定义资源(如购买或产品表)丰富提供的数据模板。<br /> 现成的资源也可以扩展，以便为它们添加新字段。<br /> 此外，可以配置与新的或扩展的自定义资源对应的屏幕中的导航。<br /> 请参阅 <a href="../../developing/using/data-model-concepts.md">详细文档</a>。<br /> </td> 
+   <td> 自定义资源<br /> </td> 
+   <td> “开 <span class="uicontrol">发</span> ”菜单现在允许拥有管理员权限的用户通过创建自己的自定义资源（如购买表或产品表）来丰富提供的数据模板。 <br /> 还可以扩展开箱即用的资源，以向其添加新字段。<br /> 此外，可以配置与新的或扩展的自定义资源相对应的屏幕中的导航。<br /> 请参阅详细 <a href="../../developing/using/data-model-concepts.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Test profiles<br /> </td> 
-   <td> The <strong>Middle name</strong> and <strong>Title</strong> of the test profiles can now be selected when configuring the list of test profiles.<br /> </td> 
+   <td> 测试配置文件<br /> </td> 
+   <td> 配置 <strong>测试配置文件列表时</strong><strong></strong> ，现在可以选择测试配置文件的中间名和标题。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Content editor: Dynamic content<br /> </td> 
-   <td> 您可以定义不同的内容，这些内容将根据通过表达式编辑器定义的条件动态地显示给用户。<br /> 请参阅 <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">详细文档</a>。<br /> </td> 
+   <td> 内容编辑器：动态内容<br /> </td> 
+   <td> 您可以定义不同的内容，这些内容将根据表达式编辑器定义的条件动态显示给用户。<br /> 请参阅详细 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email<br /> </td> 
-   <td> <strong>现在，电子邮件的发送日志中提供了测试配置文件</strong> 列。<br /> </td> 
+   <td> 电子邮件<br /> </td> 
+   <td> 测试 <strong>配置文件列</strong> ，现在可在电子邮件的发送日志中显示。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-13}
+### 修补程序 {#patches-13}
 
-#### Lists {#lists-1}
+#### 列表 {#lists-1}
 
 * 现在，从列表中删除元素会导致列表自动刷新。
 * 修复了阻止从仅包含一列的列表中选择元素的错误。
-* 修复了一个错误，该错误导致应用于列表的更改在刷新页面之后会丢失。
-* 中间名称和测试配置文件标题现在都可以显示在测试配置文件列表中。
-* 修复了在使用Mozilla Firefox选择列表中的复选框时出现的错误。
+* 修复了在刷新页面后导致应用于列表显示的更改丢失的错误。
+* 测试配置文件的中间名称和标题现在都可以显示在测试配置文件列表中。
+* 修复了在Mozilla Firefox的列表中选择复选框时发生的错误。
 
 #### Audiences {#audiences-2}
 
-* Fixed an error that prevented the **[!UICONTROL Add]** button from being used in the audience interface.
+* 修复了阻止在受众界 **[!UICONTROL Add]** 面中使用按钮的错误。
 
-#### Emails {#emails-1}
+#### 电子邮件 {#emails-1}
 
-* 修复了一个JavaScript错误，该错误导致预览按钮在编辑电子邮件时无法在行中重复使用两次。
-* Fixed an error that prevented the **[!UICONTROL Edit properties]** and **[!UICONTROL Show proofs]** buttons from being used on Microsoft Surface Pro3 tablets using Internet Explorer 11.
-* 修复了一个错误，该错误可能会阻止显示电子邮件的发送日志。
+* 修复了在编辑电子邮件时，预览按钮在行中不能被使用两次的JavaScript错误。
+* 修复了使用Internet Explorer 11 **[!UICONTROL Edit properties]** 在Microsoft Surface Pro3 **[!UICONTROL Show proofs]** 平板电脑上无法使用和按钮的错误。
+* 修复了可能阻止显示电子邮件发送日志的错误。
 
-#### Landing pages {#landing-pages-7}
+#### 登陆页面 {#landing-pages-7}
 
-* Fixed an error that prevented the **Brand logo** content block from being used when editing content in a landing page.
-* 修复了登陆页面指定的有效性日期，阻止登陆页面显示在营销活动列表中的错误。
+* 修复了在登录页面中编 **辑内容时** ，无法使用品牌徽标内容块的错误。
+* 修复了在为登录页面指定了有效日期时，导致登录页面无法显示在营销活动列表中的错误。
 
-#### Workflows {#workflows-11}
+#### 工作流 {#workflows-11}
 
-* Fixed an error that prevented limiting a segment in group mode from working correctly when configuring a **Segmentation** activity.
-* Fixed an error that prevented a transition from being selected after having configured a **Segmentation** activity.
-* Fixed an error that prevented a transition from being deleted after having configured a **Segmentation** activity.
-* Fixed an error that prevented populations from being counted and previewed within a **Segmentation** activity.
-* 修复了一个错误，该错误导致有效删除重复的电子邮件。
-* Fixed an error that caused data from a deleted **Transfer file** activity to appear in a new **Transfer file** activity.
-* Fixed an error that prevented an exclusion rule from being correctly taken into account within an **Exclusion** activity.
-* 修复了在工作流中删除电子邮件分发活动时出现的错误。此时，也会从营销活动列表中删除相应的分发。
+* 修复了在配置分段活动时，在组模式下限制区段时无法正常工作的 **错误** 。
+* 修复了在配置了分段活动后无法选择过渡的 **错误** 。
+* 修复了在配置了分段活动后无法删除过渡的 **错误** 。
+* 修复了阻止在分段活动中计数和预览人群的 **错误** 。
+* 修复了导致重复电子邮件无法有效删除的错误。
+* 修复了导致删除的传输文件活动中的 **数据显示在** 新的传输文件活 **动中的错误** 。
+* 修复了阻止排除规则在排除活动中正确考虑的错 **误** 。
+* 修复了在工作流中删除电子邮件分发活动时发生的错误。 相应的分发现在也从营销活动列表中删除。
 
-#### Navigation {#navigation}
+#### 导航 {#navigation}
 
 * 您现在可以使用Tab键在同一页面上的字段之间正确导航。
 
-## Release 15.4 - April 2015 {#release-15-4---april-2015}
+## 15.4版- 2015年4月 {#release-15-4---april-2015}
 
-### New capabilities {#new-capabilities-14}
+### 新功能 {#new-capabilities-14}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Package exports / Package imports<br /> </td> 
-   <td> <strong>“部署”</strong> 菜单现在允许具有管理员权限的用户通过导出和导入包在不同Adobe Campaign实例之间交换资源。<br /> 请参阅 <a href="../../automating/using/managing-packages.md">详细文档</a>。<br /> </td> 
+   <td> 包导出／包导入<br /> </td> 
+   <td> “部 <strong>署</strong> ”菜单现在允许拥有管理员权限的用户通过导出和导入包在不同的Adobe Campaign实例之间交换资源。<br /> 请参阅详细 <a href="../../automating/using/managing-packages.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Reports<br /> </td> 
-   <td> All reports (except the <strong>Hot clicks</strong> report) can now be accessed from a program. These reports are:<br /> 
+   <td> 报告<br /> </td> 
+   <td> 现在可以从程序访问所 <strong>有报告(热点单击</strong> )。 这些报告包括：<br /> 
     <ul> 
-     <li> 计划交付量 </li> 
-     <li> 计划跟踪指示器 </li> 
-     <li> 按域划分的计划划分 </li> 
-     <li> 计划不可交付和弹回 </li> 
-     <li> 计划URL和单击流 </li> 
-    </ul> 这些报告可在特定时间段内筛选(例如三个月、六个月等)。营销活动报告也可以过滤。<br /> 请参阅 <a href="../../reporting/using/about-dynamic-reports.md">详细文档</a>。<br /> </td> 
+     <li> 计划交付吞吐量 </li> 
+     <li> 方案跟踪指标 </li> 
+     <li> 按域划分的计划 </li> 
+     <li> 计划非交付项和退回 </li> 
+     <li> 程序URL并单击流 </li> 
+    </ul> 这些报告可以在给定时间段（例如三个月、六个月等）内过滤。 还可以过滤系列活动报告。<br /> 请参阅详细 <a href="../../reporting/using/about-dynamic-reports.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: <strong>Email delivery</strong> activity<br /> </td> 
-   <td> The <strong>Email delivery</strong> activity in the workflows has been improved. 您现在可以从应用程序营销活动列表中查找电子邮件、重复电子邮件和有关重复电子邮件执行的详细信息。<br /> 请参阅 <a href="../../automating/using/email-delivery.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：电子 <strong>邮件发送活动</strong><br /> </td> 
+   <td> 工作 <strong>流中的</strong> “电子邮件交付”活动已得到改进。 您现在可以从应用程序营销活动列表中查找电子邮件、重复电子邮件以及有关重复执行电子邮件的详细信息。<br /> 请参阅详细 <a href="../../automating/using/email-delivery.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: <strong>Segmentation</strong> activity<br /> </td> 
-   <td> <strong>分段</strong> 活动现在在工作流中可用。此活动允许您创建一个或多个区段，并将区段代码与在同一工作流程中放置的活动所计算的人群相关联。在此活动中，可以在一个过渡中或在不同的过渡中处理区段。现在有了筛选人群和限制每个区段的规模以优化个性化的选项。例如，您可以随机选择符合特定条件的配置文件。<br /> 请参阅 <a href="../../automating/using/segmentation.md">详细文档</a>。<br /> </td> 
+   <td> 工作流：细 <strong>分活动</strong><br /> </td> 
+   <td> 现 <strong>在</strong> ，分段活动在工作流中可用。 此活动允许您创建一个或多个区段，并将区段代码从在同一工作流中上游的活动计算的人群链接到这些区段。 从此活动中，可以在一个过渡或不同的多个过渡中处理区段。 现在有多种选项可用于过滤人口和限制每个区段的大小，以优化个性化。 例如，您可以随机选择与特定条件对应的配置文件。<br /> 请参阅详细 <a href="../../automating/using/segmentation.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integrations: <strong>Assets Core Service</strong><br /> </td> 
-   <td> You can now use shared resources via <strong>Assets Core Service</strong> in your email and landing page contents. 您可以直接从Adobe Marketing Cloud管理共享资源。<br /> 请参阅 <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">详细文档</a>。<br /> </td> 
+   <td> 集成：资 <strong>产核心服务</strong><br /> </td> 
+   <td> 您现在可以通过电子邮件和登 <strong>录页面内容中的Assets Core</strong> service使用共享资源。 您可以直接从Adobe Marketing cloud管理您的共享资源。<br /> 请参阅详细 <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integrations: <strong>Adobe Target</strong><br /> </td> 
-   <td> You can now insert images that are dynamically computed by <strong>Adobe Target</strong> into your Adobe Campaign emails. 这允许您根据在Adobe Target区段中定义的条件个性化内容，从而提供同一电子邮件的几个版本。<br /> 请参阅 <a href="../../integrating/using/about-campaign-target-integration.md">详细文档</a>。<br /> </td> 
+   <td> 集成：Adobe <strong>Target</strong><br /> </td> 
+   <td> 您现在可以将 <strong>Adobe Target动态计算的图像插入</strong> Adobe Campaign电子邮件。 这允许您根据Adobe Target区段中定义的标准个性化同一电子邮件的多个版本。<br /> 请参阅详细 <a href="../../integrating/using/about-campaign-target-integration.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor: <strong>Block selector</strong><br /> </td> 
-   <td> 在HTML内容编辑器中选择块后，将在编辑区域的底部显示痕迹导航。这使您能够轻松导航到不同的元素并选择它们。<br /> 请参阅 <a href="../../designing/using/managing-landing-page-structure-and-style.md">详细文档</a>。<br /> </td> 
+   <td> 数字内容编辑器：块选 <strong>择器</strong><br /> </td> 
+   <td> 在HTML内容编辑器中选择块后，编辑区域底部将显示痕迹导航。 这样，您便可以轻松导航到不同的元素并进行选择。<br /> 请参阅详细 <a href="../../channels/using/managing-landing-page-structure-and-style.md">文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Release 15.3 - March 2015 {#release-15-3---march-2015}
+## 15.3版- 2015年3月 {#release-15-3---march-2015}
 
-### New capabilities {#new-capabilities-15}
+### 新功能 {#new-capabilities-15}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 功能<br /> </th> 
+   <th> 说明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Reports<br /> </td> 
-   <td> 现在可以直接从计划或营销活动访问报告。<strong>提交摘要</strong> 报告已添加到计划级别。<br /> 请参阅 <a href="../../reporting/using/delivery-summary.md">详细文档</a>。<br /> </td> 
+   <td> 报告<br /> </td> 
+   <td> 现在可以直接从程序或营销活动访问报告。 “交 <strong>付摘要</strong> ”报告已添加到计划级别。<br /> 请参阅详细 <a href="../../reporting/using/delivery-summary.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Update data<br /> </td> 
-   <td> In the workflows, the available <strong>Update data</strong> activity has a new option, which allows you to automatically link inbound data fields with the fields of an application schema. 这有助于促进更新字段的选择过程。<br /> 请参阅 <a href="../../automating/using/update-data.md">详细文档</a>。<br /> </td> 
+   <td> 更新数据<br /> </td> 
+   <td> 在工作流中，可用的 <strong>更新数据活动有一个新选项</strong> ，该选项允许您自动将入站数据字段与应用程序架构的字段关联起来。 这有助于简化更新字段的选择过程。<br /> 请参阅详细 <a href="../../automating/using/update-data.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email delivery<br /> </td> 
-   <td> In workflows, the advanced options of the <strong>Email delivery</strong> activity can now be accessed via a specific button in the action bar. This button is only available if an <strong>Email delivery</strong> activity is selected. 主要优点是它允许您向活动添加出站过渡，并在工作流中显示活动的名称时编辑活动的名称。<br /> 请参阅 <a href="../../automating/using/email-delivery.md">详细文档</a>。<br /> </td> 
+   <td> 电子邮件发送<br /> </td> 
+   <td> 在工作流中，现在可以通过操 <strong>作栏中的特定按钮访问</strong> “电子邮件交付”活动的高级选项。 此按钮仅在选择“电子邮件 <strong>分发</strong> ”活动时可用。 主要益处是它允许您向活动添加出站转移，并编辑活动在工作流中显示的名称。<br /> 请参阅详细 <a href="../../automating/using/email-delivery.md">文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-14}
+### 修补程序 {#patches-14}
 
-#### General {#general-10}
+#### 常规 {#general-10}
 
-* 修复了一个错误，该错误导致收件人在创建分发时无法显示。
-* 修复了导致基于“已打开”条件的受众无法使用的错误。
+* 修复了在创建分发时无法显示收件人的错误。
+* 修复了阻止使用基于“已打开的收件人”条件的受众的错误。
 * 修复了禁止删除空配置文件的错误。
-* 修复了预览交付时出现的错误。
-* 修复了导致营销活动重复的错误。
+* 修复了预览分发时发生的错误。
+* 修复了阻止复制营销活动的错误。
 * 修复了删除营销活动时发生的错误。
 
