@@ -1,0 +1,224 @@
+---
+title: 快速开始电子邮件内容设计
+seo-title: 快速开始电子邮件内容设计
+description: 快速开始电子邮件内容设计
+seo-description: 开始使用电子邮件设计器构建电子邮件内容。
+page-status-flag: 从未激活
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 设计
+content-type: 参考
+topic-tags: 编辑——电子邮件——内容
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+
+---
+
+# 快速开始电子邮件内容设计{#quick-start}
+
+电子邮件设计器提供了四种创建电子邮件的方法。
+
+您可以创建以下电子邮件：
+
+* 您可以通过轻松添加结构和内容组件以及个性化其内容以快速发送来从空白画布创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，请 [快速入门](../../designing/using/quick-start.md#from-scratch-email) ，或查看完 [整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+
+* 您可以通过从此处选择模板并构建新的电子邮件内容，从现成模板创建电子邮件。 [了解更多](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
+
+您还可以创建包含现有内容的电子邮件：
+
+* 您可以转换现有HTML内容（在外部或在旧版编辑器中创建）。 [了解更多](../../designing/using/quick-start.md#converting-an-html-content)
+* 您可以在兼容性模式下直接导入现有HTML内容。 [了解更多](../../designing/using/quick-start.md#compatibility-mode)
+
+## 没有现有内容 {#without-existing-content}
+
+### 从头开始创建电子邮件 {#from-scratch-email}
+
+您可以轻松创建电子邮件、添加组件和个性化其内容以快速发送交付。 您可以根据需要调整样式选项以适应您的内容。 有关管理样式设置和内联属性的更多信息，请参阅编 [辑电子邮件样式](../../designing/using/styles.md)。
+
+### 添加主题行 {#add-a-subject-line}
+
+在发送电子邮件时，主题行是必填的。 有关详细信息，请 [参阅定义电子邮件的主题行](../../designing/using/subject-line.md)。
+
+1. 创建电子邮件。
+1. 关闭主页。
+1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
+
+![](assets/subject-line-quick-start.png)
+
+### 添加结构组件 {#add-structure-components}
+
+结构组件将定义电子邮件的布局。 有关详细信息，请 [参阅定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+
+在“结构”组件中，拖放要使用的布局的组件。
+
+>[!NOTE]
+>
+>您可以选择将添加到电子邮件中的不同内容布局。
+
+![](assets/structure-components-quick-start.png)
+
+### 添加内容组件 {#add-content-components}
+
+您可以向电子邮件中添加多个内容组件，如图像、文本和按钮。 有关详细信息，请参阅 [内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+
+* 图像
+
+1. 在内 **容组件中**，将图像拖放到您的某个结构组件中。
+1. 单击“ **浏览**”。
+1. 从计算机中选择图像文件。
+
+![](assets/browse-image-quick-start.png)
+
+* 文本与个性化
+
+1. 在内 **容组件中**，将文本拖放到您的某个结构组件中。
+1. 单击组件并输入文本。
+1. 要添加个性化字段，请单击工 **具栏中的插入** 个性化字段。
+1. 选择您需要的字段，如“名”。
+
+![](assets/edit-text-quick-start.png)
+
+* HTML
+
+1. 在内 **容组件中**，将HTML拖放到您的某个结构组件中。
+1. 单击 **显示源代码**。
+1. 输入您的HTML内容。
+1. 单击“ **保存**”。
+
+![](assets/html-component-source-code.png)
+
+如果您熟悉HTML，则可以使用内容组件从原始页脚复制并粘贴HTML **[!UICONTROL Html]** 代码。 有关此内容的详细信息，请参 [阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+
+![](assets/des_loading_compatible_fragment_9.png)
+
+### 设置电子邮件组件的样式
+
+您可以调整电子邮件样式，例如，通过更改组件的填充。 有关管理样式设置和内联属性的更多信息，请参阅编 [辑电子邮件样式](../../designing/using/styles.md)。
+
+1. 单击您的文 **本组件**。
+1. 在右侧的调色板中，转到 **Padding**。
+1. 单击锁图标可中断顶部和底部参数或右侧和左侧参数之间的同步。
+1. 根据 **需要调整** “填充”。
+1. 单击“ **保存**”。
+
+![](assets/padding-quick-start.png)
+
+您现在可以保存并发送电子邮件。
+
+### 从现成模板构建内容 {#building-content-from-an-out-of-the-box-template}
+
+您可以从现成模板（如客户欢迎信息、新闻稿和重新参与电子邮件）构建电子邮件，并对其进行个性化设置。
+
+1. 创建电子邮件并打开其内容。 有关此方面的详细信息，请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)。
+1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
+1. 单击选 **[!UICONTROL Templates]** 项卡。
+1. 选择现成的HTML模板。
+不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
+1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并从上下文工具栏中单击来复制 **[!UICONTROL Duplicate]** 电子邮件部分。
+1. 您可以使用左边的蓝色箭头将结构组件拖动到另一个组件下方或上方，从而移动元素。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 您还可以移动组件来更改每个结构元素的组织。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 根据您的需求修改每个元素的内容：图像、文本、链接。
+1. 根据需要调整样式选项以适应您的内容。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
+
+## 使用现有内容 {#with-existing-content}
+
+如果要构建一个模块化模板和片段框架，这些模板和片段可以组合在一起以在多个电子邮件中重复使用，您应考虑将电子邮件HTML转换为电子邮件设计器模板。
+
+### 转换HTML内容 {#converting-an-html-content}
+
+此用例提供了一种将HTML电子邮件转换为电子邮件设计器组件的快速方法。
+
+>[!CAUTION]
+>
+>本节面向熟悉HTML代码的用户。
+
+>[!NOTE]
+>
+>与兼容性模式一样，HTML组件也可编辑，但选项有限：您只能执行就地版本。
+
+在电子邮件设计器之外，确保将原始HTML分为可重用的部分。
+
+1. 打开电子邮件设计器以创建空的电子邮件内容。
+1. 设置正文级属性：背景颜色、宽度等。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
+
+如果不是这样，请从HTML中剪切不同的块。 例如，下面是一个明确标识的部分：
+
+```
+<!-- 3 COLUMN w/CTA (SCALED) -->
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
+<tbody>
+<tr>
+<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
+<tbody>
+<tr>
+...
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //3 COLUMN w/CTA (SCALED) -->
+```
+
+识别所有区块后，在电子邮件设计器中，对现有电子邮件的每个部分重复以下步骤：
+
+1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将HTML复制并粘贴到该组件中。
+1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/styles.md#switching-to-mobile-view)。
+
+   响应式视图因CSS缺失而中断。
+
+1. 要解决此问题，请切换到源代码模式，然后将样式部分复制并粘贴到新的样式部分。 例如：
+
+   ```
+   <style type="text/css">
+   a {text-decoration:none;}
+   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
+   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
+   ...
+   </style>
+   ```
+
+   >[!NOTE]
+   >
+   >确保在此之后在另一个自定义样式标签中添加样式。
+   >
+   >请勿修改由电子邮件设计人员生成的CSS:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
+
+1. 返回移动视图，检查内容是否正确显示并保存更改。
+
+### 导入和编辑HTML电子邮件 {#compatibility-mode}
+
+上传内容时，它必须包含特定标记才能与电子邮件设计器的WYSIWYG编辑器完全兼容和可编辑。
+
+如果上传的HTML的全部或部分内容不符合预期的标记，则内容会以“兼容性模式”加载，这会限制通过UI进行编辑的可能性。
+
+在兼容性模式下加载内容时，您仍可以通过界面执行以下修改（不可用的操作是隐藏的）:
+
+* 更改文本或更改图像
+* 插入链接和个性化字段
+* 编辑选定HTML块上的一些样式选项
+* 定义条件内容
+
+![](assets/email_designer_compatibility.png)
+
+其他修改（如向电子邮件添加新章节或高级样式）必须通过HTML模式直接在电子邮件的源代码中完成。
+尽管兼容性模式不允许您使用拖放，但它保证了与旧版编辑器相同的功能集。
+
+有关将现有电子邮件转换为与电子邮件设计人员兼容的电子邮件的更多信息，请参 [阅此部分](../../designing/using/using-existing-content.md)。
