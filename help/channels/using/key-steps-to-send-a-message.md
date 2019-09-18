@@ -1,41 +1,41 @@
 ---
-title: 发送消息的主要步骤
-seo-title: 发送消息的主要步骤
-description: 发送消息的主要步骤
-seo-description: 按照以下步骤，使用Adobe Campaign创建和发送消息。
+title: 发送消息的关键步骤
+seo-title: 发送消息的关键步骤
+description: 发送消息的关键步骤
+seo-description: 按照以下步骤使用Adobe Campaign创建和发送消息。
 page-status-flag: 从未激活
-uuid: d3fbb1e6-644-4b56-b9 d6-ae39 bd8 d4804
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 频道
-content-type: reference
+content-type: 参考
 topic-tags: 关于通信通道
-discoiquuid: a51351ee-e3 b6-4996-9e68-b7 d5157 b8207
-internal: n n
+discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Key steps to send a message{#key-steps-to-send-a-message}
+# 发送消息的关键步骤{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) getting started.
+要了解交付最佳实践，请查阅交付最 [佳实践](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) 快速入门。
 
 创建和发送消息的步骤如下：
 
-1. Create an **[!UICONTROL Email]**, a **[!UICONTROL SMS]**, a **[!UICONTROL direct mail]** or a **[!UICONTROL push notification]** marketing activity. Refer to [Creating an email](../../channels/using/creating-an-email.md), [Creating a SMS](../../channels/using/creating-an-sms-message.md), [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) and [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
-1. 选择消息的受众。Refer to [Creating audiences](../../audiences/using/creating-audiences.md).
-1. 定义消息内容及其个性化元素。Refer to the [content editor](../../designing/using/about-email-content-design.md) for email or specific content for other channels.
-1. 开始准备发送以计算目标人群并生成消息内容。Refer to [Approving messages](../../sending/using/preparing-the-send.md).
+1. 创建 **[!UICONTROL Email]**、 **[!UICONTROL SMS]**、或 **[!UICONTROL direct mail]** 营销活 **[!UICONTROL push notification]** 动。 请参阅 [创建电子邮件](../../channels/using/creating-an-email.md)、创 [建SMS](../../channels/using/creating-an-sms-message.md)、创建直 [接邮件传送和创建推](../../channels/using/creating-the-direct-mail.md)[](../../channels/using/preparing-and-sending-a-push-notification.md)送通知。
+1. 选择消息的受众。 请参阅创 [建受众](../../audiences/using/creating-audiences.md)。
+1. 定义消息内容及其个性化元素。 有关电子邮件 [或其他渠道的特定内容](../../designing/using/overview.md) ，请参阅内容编辑器。
+1. 开始准备发送以计算目标人群并生成消息内容。 请参阅批 [准消息](../../sending/using/preparing-the-send.md)。
 
    >[!NOTE]
    >
-   >您可以设置全局跨渠道疲劳规则，它们会自动排除营销活动中已被过度授权的配置文件。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >您可以设置全局跨渠道疲劳规则，这些规则将自动从营销活动中排除过度征求的档案。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-1. 发送证明。Refer to [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
-1. 发送消息并检查其交付。Refer to [Sending messages](../../sending/using/confirming-the-send.md).
-1. 查看专用交付报告。Refer to [Accessing reports](../../reporting/using/about-dynamic-reports.md).
+1. 发送校样。 请参阅发 [送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 发送邮件并检查其发送。 请参阅发 [送消息](../../sending/using/confirming-the-send.md)。
+1. 检查专用的交付报告。 请参阅访 [问报告](../../reporting/using/about-dynamic-reports.md)。
 
-[配置渠道](../../administration/using/about-channel-configuration.md) 部分详细介绍了高级消息参数。
+高级消息参数在配置渠道部分 [中有详细介绍](../../administration/using/about-channel-configuration.md) 。
