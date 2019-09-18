@@ -2,39 +2,39 @@
 title: 预览消息
 seo-title: 预览消息
 description: 预览消息
-seo-description: 了解如何在内容编辑器或电子邮件设计器中预览消息。
+seo-description: 了解如何在内容编辑器或电子邮件设计器中预览邮件。
 page-status-flag: 从未激活
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 发送
-content-type: reference
+content-type: 参考
 topic-tags: 准备和测试消息
-discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ex3ed
-internal: n n
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
 
-# Previewing messages{#previewing-messages}
+# 预览消息{#previewing-messages}
 
-After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
+在窗口中添加测试配置 **[!UICONTROL Audience]** 文件后，您可以预览邮件以检查其个性化情况以及收件人如何看到您的分发。
 
-1. In the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), click the **[!UICONTROL Preview]** button.
+1. 在“电子邮 [件设计器](../../designing/using/overview.md)”中，单击 **[!UICONTROL Preview]** 按钮。
 
    ![](assets/sending_preview.png)
 
-   并排显示您的电子邮件的桌面视图和响应式移动视图。
+   电子邮件的桌面视图和响应式移动视图并排显示。
 
-1. 在每个预览期间执行自动防垃圾邮件检查。Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
+1. 在每个预览期间执行自动防垃圾邮件检查。 单击该 **[!UICONTROL Anti-spam analysis]** 按钮可进一步了解该警告。
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. 选择按 **[!UICONTROL Change profile]** 钮，以选择要在上测试个性化元素的测试配置文件。
+1. 要退出模 **[!UICONTROL Preview]** 式，请单击屏 **[!UICONTROL Edit]** 幕左上角的按钮。
 
    ![](assets/sending_preview_edit.png)
 
