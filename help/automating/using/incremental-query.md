@@ -2,103 +2,103 @@
 title: 增量查询
 seo-title: 增量查询
 description: 增量查询
-seo-description: 增量式查询活动允许您从Adobe Campaign数据库过滤和提取大量元素。
+seo-description: 增量查询活动允许您从Adobe Campaign数据库中过滤和提取元素总量。
 page-status-flag: 从未激活
-uuid: 73b42422-e815-43ef-84c-97c4433 cc98
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 73b42422-e815-43ef-84c0-97c4433cc98
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 定位活动
-discoiquuid: 80961e73-42ec-463a-8496-cff69 fab0475
-context-tags: incremental，main
-internal: n n
+discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
+context-tags: 增量，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Incremental query{#incremental-query}
+# 增量查询{#incremental-query}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/incremental.png)
 
-**[!UICONTROL Incremental query]** 活动允许您过滤和提取Adobe Campaign数据库中的大量元素。每次执行此活动时，之前执行的结果将被排除。这允许您仅定位新元素。
+该活 **[!UICONTROL Incremental query]** 动允许您从Adobe Campaign数据库中过滤和提取大量元素。 每次执行此活动时，都会排除先前执行的结果。 这允许您仅将新元素作为目标。
 
-You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. 此数据存储在其他列中，只能用于进行中的工作流。
+您可以通过 **[!UICONTROL Additional data]** 专用选项卡为目标人群定义。 此数据存储在其他列中，并且只能用于进行中的工作流。
 
-活动使用查询编辑器工具。This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
+活动使用查询编辑器工具。 此工具在专用部分中 [有详细介绍](../../automating/using/editing-queries.md#about-query-editor)。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-An **[!UICONTROL Incremental query]** has to be linked to a **[!UICONTROL Scheduler]** in order to define the execution frequency of the workflow, and therefore the query.
+必须 **[!UICONTROL Incremental query]** 将一个链接到一个， **[!UICONTROL Scheduler]** 以定义工作流的执行频率，进而定义查询。
 
-**[!UICONTROL Processed data]** 此选项卡特定于此活动，允许您根据需要查看活动之前执行的任何结果。
+此选 **[!UICONTROL Processed data]** 项卡特定于此活动，允许您根据需要查看以前执行的活动的任何结果。
 
-**[!UICONTROL Incremental query]** 该活动可用于各种类型的用途：
+活动 **[!UICONTROL Incremental query]** 可用于各种类型的使用：
 
-* 将个人细分为定义消息、受众等目标。
+* 将个人细分以定义消息、受众等的目标
 * 导出数据。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop an **[!UICONTROL Incremental query]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
+1. 将活动拖放 **[!UICONTROL Incremental query]** 到工作流中。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 如果要对配置文件资源以外的资源运行查询，请转到活动的选项卡，然 **[!UICONTROL Properties]** 后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   该选 **[!UICONTROL Resource]****[!UICONTROL Targeting dimension]**&#x200B;项允许您调整调色板中显示的过滤器，而与所选资源相关的上下文过滤器与您要获取的人群类型（已识别的配置文件、交付、链接到所选资源的数据等）相对应。
 
-1. **[!UICONTROL Target]** 在选项卡中，通过定义和合并规则来运行查询。
-1. **[!UICONTROL Processed data]** 在选项卡中，选择要用于工作流执行的增量模式：
+1. 在选项卡 **[!UICONTROL Target]** 中，通过定义和组合规则来运行查询。
+1. 在选项 **[!UICONTROL Processed data]** 卡中，选择要用于工作流的下一个执行的增量模式：
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**：之前执行每个新执行的结果将被排除。
-   * **[!UICONTROL Use a date field]**：下一次执行只考虑所选日期字段大于或等于 **[!UICONTROL Incremental query]** 活动上一个执行日期的结果。You can select any date field pertaining to the resource selected in the **[!UICONTROL Properties]** tab. 查询大型资源(如日志数据)时，此模式具有更好的性能。
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**:每个新执行的先前执行的结果被排除。
+   * **[!UICONTROL Use a date field]**:下一个执行只考虑选定日期字段大于或等于活动上次执行日期的结果 **[!UICONTROL Incremental query]** 。 您可以选择与在选项卡中选择的资源相关的任何日期 **[!UICONTROL Properties]** 字段。 此模式在查询大资源（如日志数据）时具有更好的性能。
 
-      在第一次执行工作流后，您可以在此选项卡中看到将用于下一次执行的最后一个执行日期。每次执行工作流时，都会自动更新它。您仍可以手动输入新值来覆盖此值，从而满足您的需求。
+      在工作流的第一次执行之后，您可以在此选项卡中看到用于下一次执行的最后一个执行日期。 每次执行工作流时，系统都会自动更新它。 您仍然可以手动输入新值来覆盖此值，以便它符合您的需求。
    >[!NOTE]
    >
-   >**[!UICONTROL Use a date field]** 此模式可根据选择的日期字段允许更大的灵活性。例如，如果选定字段与修改日期相对应，则日期字段模式允许您检索最近更新过的数据，而另一模式只会排除先前执行中已定位的录制内容，即使自最后一次执行工作流以来也是如此。
+   >该模 **[!UICONTROL Use a date field]** 式根据所选的日期字段允许更大的灵活性。 例如，如果选定字段与修改日期相对应，则日期字段模式将允许您检索最近更新的数据，而另一个模式将仅排除在上一执行中已定位的录制内容，即使这些录制内容自上次执行工作流后已被修改也是如此。
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. 此数据存储在其他列中，只能用于进行中的工作流。特别是，您可以从链接到查询定位维度的Adobe Campaign数据库表中添加数据。Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. 您可以通过 **[!UICONTROL Additional data]** 专用选项卡为目标人群定义。 此数据存储在其他列中，并且只能用于进行中的工作流。 特别是，您可以从链接到查询的定位维的Adobe Campaign数据库表中添加数据。 请参阅丰 [富数据部分](../../automating/using/query.md#enriching-data) 。
 1. 确认活动的配置并保存工作流。
 
-## Enriching data {#enriching-data}
+## 丰富数据 {#enriching-data}
 
-Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+与查询一样，您也可以从中丰富数据 **[!UICONTROL Incremental query]**。 请参阅丰 [富数据部分](../../automating/using/query.md#enriching-data) 。
 
-## Example: incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
+## 示例：对服务订阅者的增量查询 {#example--incremental-query-on-subscribers-to-a-service}
 
-The following example shows the configuration of an **[!UICONTROL Incremental query]** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.
+以下示例显示了一个活动的配置，该活动会过滤订阅 **[!UICONTROL Incremental query]** Running Newsletter **** service的Adobe Campaign数据库中的配置文件，以向他们发送一封包含促销代码的欢迎电子邮件。
 
-该工作流由以下元素组成：
+工作流由以下元素组成：
 
 ![](assets/incremental_query_example1.png)
 
-* **[!UICONTROL Scheduler]** A activity，to execenecute the workflow at amp at am at6am.
+* 一 **[!UICONTROL Scheduler]** 个活动，每周一清晨6点执行工作流。
 
    ![](assets/incremental_query_example2.png)
 
-* **[!UICONTROL Incremental query]** 活动，该活动面向在第一次执行期间所有当前订户，然后仅针对在执行以下执行期间的那一周的新订户。
+* 在第 **[!UICONTROL Incremental query]** 一次执行期间针对当前所有订阅者的活动，在以下执行期间仅针对该周的新订阅者。
 
    ![](assets/incremental_query_example3.png)
 
-* **[!UICONTROL Email delivery]** 活动。该工作流每周执行一次，但您可以汇总发送的电子邮件和每月的结果，例如，在整个月内生成报告，而不是仅在一周内生成报告。
+* 活 **[!UICONTROL Email delivery]** 动。 该工作流每周执行一次，但您可以汇总发送的电子邮件和每月的结果，例如，在整个月（而不仅仅是一周）的时间段内生成报告。
 
-   To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]**.
+   为此，请选择在此处创建一个 **[!UICONTROL Recurring email]** 重新分组电子邮件和结果的页面 **[!UICONTROL By month]**。
 
    定义电子邮件的内容并插入欢迎促销代码。
 
-   For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/about-personalization.md) sections.
+   有关详细信息，请参阅电子邮件 [分发](../../automating/using/email-delivery.md)[和定义电子邮件内容](../../designing/using/personalization.md) 。
 
-然后启动工作流执行。每周新订户将收到包含促销代码的欢迎电子邮件。
+然后开始执行工作流。 每周新订阅者都会收到包含促销代码的欢迎电子邮件。
 
-## Example: incremental query on delivery logs {#example--incremental-query-on-delivery-logs}
+## 示例：交付日志中的增量查询 {#example--incremental-query-on-delivery-logs}
 
-You can use an **[!UICONTROL Incremental query]** activity to regularly export new logs in files. 如果您希望在外部报表或BI工具中使用日志数据，则该选项卡可能很有用。
+您可以使用活 **[!UICONTROL Incremental query]** 动定期导出文件中的新日志。 例如，如果要在外部报告或BI工具中使用日志数据，则此选项会很有用。
 
-[导出日志](../../automating/using/exporting-logs.md) 部分提供了一个完整的示例。
+导出日志部分提供了完整 [的示例](../../automating/using/exporting-logs.md) 。
