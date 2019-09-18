@@ -1,147 +1,147 @@
 ---
-title: 界面描述
-seo-title: 界面描述
-description: 界面描述
-seo-description: “了解如何导航和使用Adobe Campaign工作区：主页、顶部栏、高级菜单和操作栏”。
+title: 界面说明
+seo-title: 界面说明
+description: 界面说明
+seo-description: “了解如何导航和使用Adobe Campaign工作区：主页、顶栏、高级菜单和操作栏。”
 page-status-flag: 从未激活
-uuid: af9f0f1f-d24 a-4dc7-b4 a8-70290de6 eb3 f
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: start
-content-type: reference
+uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开始
+content-type: 参考
 topic-tags: 发现界面
-discoiquuid: dafd9860-cd22-4c30-86b7-631b64 b3 f3 f
-internal: n n
+discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
 
 
-# Interface description{#interface-description}
+# 界面说明{#interface-description}
 
-通过Adobe Campaign，您可以通过不同的菜单和屏幕导航来管理营销活动。
+Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
-所有Adobe Campaign屏幕都由以下元素组成：
+所有Adobe Campaign屏幕由以下元素组成：
 
-* 用于导航的顶部栏
-* 用于访问特定功能和配置的高级菜单
-* 可用于某些元素的中央区域
-* 根据上下文的侧面板，用于过滤或搜索显示的元素。
+* 用于导航的顶栏
+* 可访问特定功能和配置的高级菜单
+* 处理某些元素的中心区域
+* 根据上下文在显示的元素中过滤或搜索的侧面板。
 
 ![](assets/ux_interface_01.png)
 
-## Home page {#home-page}
+## 主页 {#home-page}
 
-主页由一组卡组成，可让您快速访问Adobe Campaign功能。在Campaign主页中可以看到的容量列表取决于您的权限以及为组织配置的选项。
+主页由一组卡组成，可让您快速访问Adobe Campaign的主要功能。 您可以在营销活动主页中看到的容量列表取决于您的权限和为组织配置的选项。
 
 ![](assets/overview_home_page.png)
 
-* **[!UICONTROL Create an email]** 卡片将带您进入电子邮件创建助手。此助手允许您选择电子邮件类型，选择消息收件人并定义内容。Refer to the [Creating an email](../../channels/using/creating-an-email.md) section.
-* **[!UICONTROL Create an SMS]** 卡片将带您进入SMS创建助手。此助手允许您选择SMS类型，选择消息收件人并定义内容。Refer to the [Creating an SMS](../../channels/using/creating-an-sms-message.md) section.
-* **[!UICONTROL Create a Direct mail]** 卡片将带您进入直接邮件创建助手。Refer to the [Creating a direct mail](../../channels/using/creating-the-direct-mail.md) section.
-* **[!UICONTROL Create a push notification]** 卡片将带您进入通知创建助手。此助手允许您选择推送通知类型，选择消息收件人并定义内容。Refer to the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* **[!UICONTROL Create an InApp message]** 卡片将带您进入InApp创建助手。此助手允许您选择要创建的InApp消息类型、定义其属性、受众和内容。Refer to the [Creating an InApp message](../../channels/using/about-in-app-messaging.md) section.
-* **[!UICONTROL Marketing activities]** 卡片将带您进入所有活动、程序和活动的完整列表，特别是电子邮件、SMS、工作流程和登录页面。然后，您可以通过按名称、日期、状态或活动类型搜索元素来筛选元素。For more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
-* **[!UICONTROL Programs & campaigns]** 卡片将转到您可以在其中创建和管理营销活动的程序列表。Refer to [Program list](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Timeline]** 卡片将您直接带到营销活动的互动时间线，您可以在该时间线中查阅正在进行的计划及其内容。Refer to [Timeline](../../start/using/timeline.md).
-* **[!UICONTROL Customer profiles]** 卡将您直接带到配置文件列表。您可以在此查阅列表中每个配置文件的相关事件。Refer to [Managing profiles](../../audiences/using/about-profiles.md).
-* **[!UICONTROL Audiences]** 卡片将您直接带到受众列表。您可以从此处访问现有受众并构建新受众。Refer to [Managing audiences](../../audiences/using/about-audiences.md).
+* 卡片 **[!UICONTROL Create an email]** 会将您带到电子邮件创建助手。 此助手允许您选择电子邮件类型、选择邮件收件人并定义内容。 请参阅创 [建电子邮件](../../channels/using/creating-an-email.md) 。
+* 该 **[!UICONTROL Create an SMS]** 卡会带您进入SMS创建助手。 此助手允许您选择SMS类型、选择消息收件人并定义内容。 请参阅创 [建SMS部分](../../channels/using/creating-an-sms-message.md) 。
+* 卡片 **[!UICONTROL Create a Direct mail]** 会将您带到直接邮件创建助手。 请参阅创 [建直邮部分](../../channels/using/creating-the-direct-mail.md) 。
+* 卡片 **[!UICONTROL Create a push notification]** 会将您带到通知创建助手。 此助手允许您选择推送通知类型、选择邮件收件人并定义内容。 请参阅创 [建推送通知部分](../../channels/using/preparing-and-sending-a-push-notification.md) 。
+* 卡片 **[!UICONTROL Create an InApp message]** 会将您带到InApp创建助手。 此助手允许您选择要创建的InApp消息类型，定义其属性、受众和内容。 请参阅创 [建InApp消息部分](../../channels/using/about-in-app-messaging.md) 。
+* 该 **[!UICONTROL Marketing activities]** 卡会带您进入所有活动、计划和营销活动的完整列表，特别是电子邮件、短信、工作流和登录页面。 然后，您可以在此处通过按名称、日期、状态或活动类型搜索来筛选元素。 有关详细信息，请参阅营销活 [动列表部分](../../start/using/marketing-activities.md#about-marketing-activities) 。
+* 该 **[!UICONTROL Programs & campaigns]** 卡会带您进入可在其中创建和管理营销活动的计划列表。 请参阅计 [划列表](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
+* 卡片 **[!UICONTROL Timeline]** 会直接将您带到营销活动的交互式时间线中，您可以在其中查阅正在进行的计划及其内容。 请参阅时 [间轴](../../start/using/timeline.md)。
+* 卡片 **[!UICONTROL Customer profiles]** 会直接将您带到配置文件列表。 从此处，您可以查阅与列表中每个配置文件相关的活动。 请参阅管 [理配置文件](../../audiences/using/about-profiles.md)。
+* 卡片 **[!UICONTROL Audiences]** 会直接将您带到受众列表。 从此处，您可以访问现有受众并构建新受众。 请参阅管 [理受众](../../audiences/using/about-audiences.md)。
 
-## Top bar {#top-bar}
+## 顶栏 {#top-bar}
 
-顶部栏在每个屏幕上都可见，允许您通过Adobe Campaign功能导航，并访问连接的Adobe配置文件、通知、其他Adobe Experience Cloud服务和解决方案以及文档。
+顶栏在每个屏幕上都可见，它允许您浏览Adobe Campaign功能，并访问连接的Adobe配置文件、通知、其他Adobe Experience cloud服务和解决方案以及文档。
 
 导航原则有：
 
-* The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. 菜单取决于您的个人资料和权限。
+* 页 **[!UICONTROL Adobe Campaign]** 面左上角的徽标可让您访问高级功能和配置。 菜单取决于您的个人资料和权限。
 
-   The advanced menu is presented in the [Advanced menu](../../start/using/interface-description.md#advanced-menu) section.
+   高级菜单显示在高级菜 [单部分](../../start/using/interface-description.md#advanced-menu) 。
 
-* The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
-* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities.
-* **[!UICONTROL Help]** 通过该按钮可访问产品文档和上下文帮助、发行说明、版本号、法律声明以及Adobe Experience Cloud社区和客户关怀的链接。
+* 该链 **[!UICONTROL Home]** 接允许您显示Adobe Campaign主页。
+* 通过 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]**&#x200B;链接， **[!UICONTROL Audiences]** 您可以访 **[!UICONTROL Reports]** 问链接到这些功能的视图。
+* 通过 **[!UICONTROL Help]** 该按钮可访问产品文档和上下文帮助、发行说明、版本号、法律声明，以及指向Adobe Experience cloud社区和客户关怀的链接。
 
    ![](assets/ux_help.png)
 
-* **选择解决方案** 图标可让您切换到其他Adobe Experience Cloud解决方案以及配置文件设置。
-* **通知** 图标显示最新警告或信息。
-* **用户** 图标允许您显示链接到个人资料的信息。It gives access to the **[!UICONTROL Sign out]** button.
+* 通过 **选择解决方案** ，您可以切换到其他Adobe Experience cloud解决方案以及配置文件设置。
+* 通知 **图标显示** ，以显示最新的警报或信息。
+* “用 **户** ”图标允许您显示与您的配置文件链接的信息。 它允许访问按 **[!UICONTROL Sign out]** 钮。
 
-## Advanced menu {#advanced-menu}
+## 高级菜单 {#advanced-menu}
 
-The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top left corner of each screen. 高级菜单可能因您的合同和用户权限而异。
+高级菜单通过单击每个屏幕左上角的 **Adobe Campaign** 图标来显示。 高级菜单可能因合同和用户权限而异。
 
-此菜单允许您导航到特定的功能和设置。
+此菜单允许您导航到特定功能和设置。
 
-### Marketing plans {#marketing-plans}
+### 营销计划 {#marketing-plans}
 
-**[!UICONTROL Marketing plans]** 该图标可让您访问以下功能：
+该图 **[!UICONTROL Marketing plans]** 标允许您访问以下功能：
 
-* **[!UICONTROL Marketing activities]** - 有关此操作的详细信息，请参阅 [营销活动列表](../../start/using/marketing-activities.md#about-marketing-activities) 部分。
-* **[!UICONTROL Programs & Campaigns]** - 有关此操作的详细信息，请参阅 [计划列表](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) 部分。
-* **[!UICONTROL Timeline]** - 有关此操作的详细信息，请参阅 [“时间轴](../../start/using/timeline.md) ”部分。
-* **[!UICONTROL Transactional messages]**(包含子菜单 **[!UICONTROL Deliveries]** )和 **[!UICONTROL Event configuration]** -有关此操作的详细信息，请参阅 [Transactional Messaging](../../channels/using/about-transactional-messaging.md) 部分。
+* **[!UICONTROL Marketing activities]** -有关详细信息，请参阅营销活 [动列表部分](../../start/using/marketing-activities.md#about-marketing-activities) 。
+* **[!UICONTROL Programs & Campaigns]** -有关详细信息，请参阅计划 [列表部分](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) 。
+* **[!UICONTROL Timeline]** -有关详细信息，请参阅时间 [轴](../../start/using/timeline.md) 。
+* **[!UICONTROL Transactional messages]**，其中包含子菜单和 **[!UICONTROL Deliveries]** - **[!UICONTROL Event configuration]** 有关详细信息，请参阅 [Transactional messaging](../../channels/using/about-transactional-messaging.md) 部分。
 
-### Profiles &amp; audiences {#profiles-e-audiences}
+### 档案和受众 {#profiles-e-audiences}
 
-**[!UICONTROL Profiles & audiences]** 该图标可让您访问以下功能：
+该图 **[!UICONTROL Profiles & audiences]** 标允许您访问以下功能：
 
-* **[!UICONTROL Profiles]** - 有关此操作的详细信息，请参阅 [管理配置文件](../../audiences/using/about-profiles.md) 部分。
-* **[!UICONTROL Test profiles]** - 有关此操作的详细信息，请参阅 [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) 部分。
-* **[!UICONTROL Audiences]** - 有关此操作的详细信息，请参阅 [管理受众](../../audiences/using/about-audiences.md) 部分。
-* **[!UICONTROL Services]** - 有关此操作的详细信息，请参阅 [创建服务](../../audiences/using/creating-a-service.md) 部分。
+* **[!UICONTROL Profiles]** -有关详细信息，请参阅管理配 [置文件](../../audiences/using/about-profiles.md) 。
+* **[!UICONTROL Test profiles]** -有关详细信息，请参阅管理测 [试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) 。
+* **[!UICONTROL Audiences]** -有关此信息，请参阅管理受 [众部分](../../audiences/using/about-audiences.md) 。
+* **[!UICONTROL Services]** -有关详细信息，请参阅创 [建服务部分](../../audiences/using/creating-a-service.md) 。
 
-### Resources {#resources}
+### 资源 {#resources}
 
-**[!UICONTROL Resources]** 该图标可让您访问以下功能：
+该图 **[!UICONTROL Resources]** 标允许您访问以下功能：
 
-* **[!UICONTROL Templates]**(其中包含每种类型的模板的子菜单)，请参阅 [管理模板](../../start/using/about-templates.md) 部分。
-* **[!UICONTROL Content blocks]** - 有关此操作的详细信息，请参阅 [添加内容块](../../designing/using/adding-a-content-block.md) 部分。
-* **[!UICONTROL Content templates & fragments]** - 有关此操作的详细信息，请参阅 [内容模板](../../start/using/about-templates.md#content-templates) 部分。
+* **[!UICONTROL Templates]**，其中包含每种类型模板的子菜单——有关详细信息，请参阅管理模 [板部分](../../start/using/about-templates.md) 。
+* **[!UICONTROL Content blocks]** -有关详细信息，请参阅添 [加内容块部分](../../designing/using/personalization.md#adding-a-content-block) 。
+* **[!UICONTROL Content templates & fragments]** -有关详细信息，请参阅内容 [模板部分](../../designing/using/using-reusable-content.md#content-templates) 。
 
-### Administration {#administration}
+### 管理 {#administration}
 
-**[!UICONTROL Administration]** 通过该图标，您可以访问只能由职能管理员执行的高级功能。For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+该图 **[!UICONTROL Administration]** 标允许您访问仅可由职能管理员执行的高级功能。 有关此方面的详细信息，请参阅“管 [理](../../administration/using/about-administrating-adobe-campaign.md) ”部分。
 
-## Central zone {#central-zone}
+## 中区 {#central-zone}
 
-用户界面的中心区域是一个动态区域，它包含一个元素列表或一组卡。它允许您编辑现有元素并创建资源。
+用户界面的中心区域是一个动态区域，例如，包含元素列表或卡集。 它允许您编辑现有元素和创建资源。
 
 ![](assets/ux_genericscreen.png)
 
-中心区域的内容和显示格式可能有所不同：
+中心区域的内容和显示格式可能会有所不同：
 
-* **提供各种元素** (如程序、营销活动、档案等)的列表。These elements can be viewed in **[!UICONTROL Card]** or **[!UICONTROL List]** mode. 使用更改模式按钮从一个切换到另一个。每个元素都显示指示符。
+* 列 **表** ，其中列出了各种元素，如计划、营销活动、档案等。 可以在或模式中查 **[!UICONTROL Card]** 看这些 **[!UICONTROL List]** 元素。 使用更改模式按钮从一个模式切换到另一个模式。 每个元素都显示指示符。
 
    ![](assets/ux_liste.png)
 
-   计数器可让您了解元素数量。如果此数量超过30，则需要单击此计数器以获取总数字。
+   计数器可让您了解元素的数量。 如果此数量超过30，则需要单击此计数器以获取总数。
 
-* A **dashboard** presenting an overview of all the parameters linked to an activity. 此屏幕包含交互式区域，允许您单独分离和配置不同的概念。
+* 功 **能板** ，显示与活动链接的所有参数的概述。 此屏幕包含交互区域，通过这些区域可以独立分隔和配置不同的概念。
 
    ![](assets/ux_dashboard.png)
 
-* If several offers are possible when creating an element, a **selection screen** allows you to select the type of element to add (campaigns, deliveries). 还提供此选择屏幕以访问报告。
+* 如果在创建元素时可以使用多个选件， **则选择屏幕** ，可以选择要添加的元素类型（营销活动、分发）。 此选择屏幕还提供用于访问报告的功能。
 
    ![](assets/ux_activityselection.png)
 
-* For the workflows and the query editor, a **workspace** with a palette is made available for you to design the object.
+* 对于工作流和查询编辑器，可 **以使用带调色板** 的工作区来设计对象。
 
-   您可以将元素从调色板拖放到工作区中，以配置相关元素。
+   您可以将元素从调色板拖放到工作区中以配置相关元素。
 
    ![](assets/ux_workspace.png)
 
-## Action bar {#action-bar}
+## 操作栏 {#action-bar}
 
-根据显示的屏幕类型，顶部会显示一个包含链接到屏幕的操作的栏。
+根据显示的屏幕类型，顶部将显示一个包含链接到屏幕的操作的栏。
 
 ![](assets/actionbar.png)
 
-此栏不仅包含常用的操作(如搜索和过滤)，还包含与屏幕相关的操作：
+此栏不仅包含搜索和筛选等常见操作，还包含与显示的屏幕相关的操作：
 
-* For actions related to **workspace** type screens, refer to either the [Action bar](../../automating/using/workflow-interface.md#action-bar) section for the workflows.
-* For actions related to **dashboard** screens, refer to the [Message dashboard](../../channels/using/message-dashboard.md) section for more information.
-* For actions related to **list** type screens, refer to the [Customizing lists](../../start/using/customizing-lists.md) section below.
+* 有关与工作区类 **型屏幕** ，请参阅工作 [流的操作栏](../../automating/using/workflow-interface.md#action-bar) 。
+* 有关与功能板屏幕相 **关的操作** ，请参阅消息功 [能板](../../channels/using/message-dashboard.md) (Message Dashboard)部分以了解更多信息。
+* 有关与列表类型屏 **幕相关的** ，请参阅以下自定 [义列表部分](../../start/using/customizing-lists.md) 。
 
