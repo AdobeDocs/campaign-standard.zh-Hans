@@ -1,88 +1,88 @@
 ---
-title: 个人资料信息消息
-seo-title: 个人资料信息消息
-description: 个人资料信息消息
-seo-description: 了解如何创建和发布个人资料信息消息。
+title: 分析交易消息
+seo-title: 分析交易消息
+description: 分析交易消息
+seo-description: 了解如何创建和发布个人资料交易消息。
 page-status-flag: 从未激活
-uuid: a fe979-74ae-46ff-a305-b86 a90679581
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: a8efe979-74ae-46ff-a305-b86a90679581
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 频道
-content-type: reference
-topic-tags: 交易消息传递
-discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
-internal: n n
+content-type: 参考
+topic-tags: 事务消息传递
+discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Profile transactional messages{#profile-transactional-messages}
+# 分析交易消息{#profile-transactional-messages}
 
-您可以根据客户营销档案发送交易消息，允许您：
+您可以根据客户营销档案发送交易消息，这允许您：
 
-* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../administration/using/fatigue-rules.md).
-* 在消息中包括取消订阅链接。
-* 将交易消息添加到全局交付报告。
-* 利用客户旅程中的交易消息。
+* 应用营销类型学规则，如 **[!UICONTROL Blacklisted address]** 或疲劳 [规则](../../administration/using/fatigue-rules.md)。
+* 在消息中包含取消订阅链接。
+* 将事务性消息添加到全局交付报告。
+* 在客户旅程中利用交易信息。
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+创建并发布活动(如上例所示，放弃购物车 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) )后，将自动创建相应的交易消息。
 
-[配置事件中显示配置步骤以发送配置文件事务消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 部分。
+配置事件以发送配置文 [件事务消息部分中介绍了配置步骤](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-要使活动触发发送交易消息，您必须个性化消息，然后对其进行测试并发布。
+为了使活动触发发送交易消息，您必须个性化消息，然后测试并发布消息。
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. 疲劳规则与个人资料信息消息兼容。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>要访问事务性消息，您必须具有管理权限或显示在(mcExec) **[!UICONTROL Message Center agents]** 安全组中。 疲劳规则与个人资料事务性消息兼容。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-## Sending a profile transactional message {#sending-a-profile-transactional-message}
+## 发送个人资料交易消息 {#sending-a-profile-transactional-message}
 
-创建、个性化和发布个人资料消息的步骤与活动交易消息相同。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+创建、个性化和发布个人资料事务消息的步骤与活动事务消息的步骤相同。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
 
-以下列出了差异。
+差异如下。
 
 1. 转到为编辑而创建的交易消息。
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
+1. 在事务性消息中，单击该 **[!UICONTROL Content]** 部分。 除了事务模板之外，您还可以选择默认的电子邮件模板（目标） **[!UICONTROL Profile]**。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 选择默认电子邮件模板。
+1. 选择默认的电子邮件模板。
 
-   与所有营销电子邮件相似，它包含取消订阅链接。
+   与所有营销电子邮件类似，它包含取消订阅链接。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   此外，相对于基于实时事件的配置，您可以直接访问所有配置文件信息以个性化您的信息。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   此外，与基于实时事件的配置不同，您可以直接访问所有配置文件信息以个性化您的信息。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
-1. 保存更改并发布消息。See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. 保存更改并发布消息。 请参 [阅发布交易消息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
-## Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+## 监控个人资料交易消息传送 {#monitoring-a-profile-transactional-message-delivery}
 
-消息发布后，您可以监控交付情况。
+在发布消息并完成站点集成后，您可以监控交付情况。
 
-1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+1. 要查看消息传送日志，请单击该块右下方的图 **[!UICONTROL Deployment]** 标。
 
-   For more information on accessing the logs, see [Monitoring the delivery](../../sending/using/monitoring-a-delivery.md).
+   有关访问日志的详细信息，请参阅 [监视交付](../../sending/using/monitoring-a-delivery.md)。
 
-1. Select the **[!UICONTROL Sending logs]** tab. **[!UICONTROL Status]** 在列中 **[!UICONTROL Sent]** ，指示配置文件已选择加入。
+1. 选择选 **[!UICONTROL Sending logs]** 项卡。 在列中， **[!UICONTROL Status]** 指示 **[!UICONTROL Sent]** 配置文件已选择加入。
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as blacklisted addresses.
+1. 选择选 **[!UICONTROL Exclusions logs]** 项卡可查看已从消息目标中排除的收件人，如列入黑名单的地址。
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
+对于已选择退出的任何配置文件，排 **[!UICONTROL Blacklisted address]** 版规则会排除相应的收件人。
 
-This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+此规则是特定类型学的一部分，该类型学应用于基于表的所有事务性消 **[!UICONTROL Profile]** 息。
 
 ![](assets/message-center_marketing_typology.png)
 
-**相关主题**：
+**相关主题**:
 
 * [站点集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Typologies](../../administration/using/about-typology-rules.md)
+* [类型](../../administration/using/about-typology-rules.md)
 
