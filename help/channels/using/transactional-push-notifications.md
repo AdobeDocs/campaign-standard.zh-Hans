@@ -4,74 +4,74 @@ seo-title: 交易推送通知
 description: 交易推送通知
 seo-description: 了解如何创建和发布交易推送通知。
 page-status-flag: 从未激活
-uuid: ef31c1b6-9ef8-42e3-b49 d-72f9 eac8 ea32
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 频道
-content-type: reference
-topic-tags: 交易消息传递
-discoiquuid: e645d4b9-001f-47d-47a0f-b4696 c75 c5 d3
-internal: n n
+content-type: 参考
+topic-tags: 事务消息传递
+discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Transactional push notifications{#transactional-push-notifications}
+# 交易推送通知{#transactional-push-notifications}
 
-可使用Adobe Campaign在iOS和Android移动设备上发送交易推送通知。通过利用Experience Cloud Mobile SDK，您可以在Adobe Campaign中设置的移动应用程序上收到这些消息。
-
->[!NOTE]
->
->推送渠道为可选渠道。请检查您的许可协议。For more information on standard push notifications, see [Push notifications](../../channels/using/about-push-notifications.md).
-
-您可以发送两种类型的交易推送通知：
-
-* 事件的交易推送通知。
-* 来自Adobe Campaign数据库的交易推送通知定位配置文件。
-
-Once you have created and published an event (the cart abandonment explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional push notification is created automatically.
-
-[配置事件中显示配置步骤以发送交易推送通知](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 部分。
-
-要使活动触发发送交易消息，您必须个性化消息，然后对其进行测试并发布。
+您可以使用Adobe Campaign在iOS和Android移动设备上发送交易推送通知。 这些消息会在您在Adobe Campaign中设置的移动应用程序上通过利用Experience Cloud Mobile SDK接收。
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>推送渠道是可选的。 请检查您的许可协议。 有关标准推送通知的详细信息，请参阅 [推送通知](../../channels/using/about-push-notifications.md)。
 
-## Transactional push notifications targeting an event {#transactional-push-notifications-targeting-an-event}
+您可以发送两种类型的事务推送通知：
 
-您可以向选择接收移动应用程序通知的所有用户发送匿名交易推送通知。
+* 针对活动的交易推送通知。
+* Adobe Campaign数据库中的事务推送通知定位配置文件。
 
-在这种情况下，仅活动本身中包含的数据用于定义交付目标。没有利用Adobe Campaign集成配置文件数据库中的数据。
+创建并发布活动(本节中介绍的购物车放弃 [情况](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle))后，将自动创建相应的交易推送通知。
 
-### Sending a transactional push notification targeting an event {#sending-a-transactional-push-notification-targeting-an-----------event}
+配置事件以发送事务推送通 [知部分中介绍了配置步骤](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-例如，一家航空公司希望邀请其移动应用程序用户进入相关门户，进行登机。
+为了使活动触发发送交易消息，您必须个性化消息，然后测试并发布消息。
 
-公司将通过一台设备使用一个手机应用程序向每位用户发送一个交易推送通知(使用注册令牌标识)。
+>[!NOTE]
+>
+>要访问事务性消息，您必须具有管理权限或显示在(mcExec) **[!UICONTROL Message Center agents]** 安全组中。
 
-1. 转到为编辑而创建的交易消息。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+## 针对活动的交易推送通知 {#transactional-push-notifications-targeting-an-event}
+
+您可以向已选择接收移动应用程序通知的所有用户发送匿名交易推送通知。
+
+在这种情况下，仅使用事件本身包含的数据来定义交付目标。 Adobe Campaign集成配置文件数据库中没有数据被利用。
+
+### 发送针对活动的交易推送通知 {#sending-a-transactional-push-notification-targeting-an-----------event}
+
+例如，航空公司希望邀请其移动应用程序用户前往相关登机口登机。
+
+公司将使用一个移动应用程序通过一个设备，为每个用户发送一个交易推送通知（用注册令牌标识）。
+
+1. 转到为编辑而创建的交易消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
 
    ![](assets/message-center_push_message.png)
 
-1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
+1. 单击 **[!UICONTROL Content]** 该块可修改消息的标题和正文。
 
-   您可以插入个性化字段，以添加您在创建活动时定义的元素。
+   您可以插入个性化字段以添加在创建活动时定义的元素。
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   要查找这些字段，请单击项目旁边的铅笔，单 **[!UICONTROL Insert personalization field]** 击并选择 **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**。
 
    ![](assets/message-center_push_personalization.png)
 
-   For more on editing a push notification content, see [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+   有关编辑推送通知内容的详细信息，请参 [阅创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 保存更改并发布消息。See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
-1. 使用Adobe Campaign Standard REST API，在Android(gcm)上使用一个移动应用程序(Weflight)发送一个事件至注册令牌(ABCDEF12345689)，其中包含培训数据。
+1. 保存更改并发布消息。 请参 [阅发布交易消息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+1. 使用Adobe Campaign Standard REST API，使用Android(gcm)上的一个移动应用程序(WeFlight)将事件发送到注册令牌(ABCDEF123456789)，其中包含登记数据。
 
    ```
    {
@@ -87,43 +87,43 @@ Once you have created and published an event (the cart abandonment explained in 
    }
    ```
 
-   For more on integrating the triggering of an event into an external system, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+   有关将事件触发集成到外部系统的详细信息，请参阅站 [点集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
-如果存在注册令牌，相应的用户将收到一个交易推送通知，其中包括以下内容：
+如果存在注册令牌，则相应的用户接收包括以下内容的事务推送通知：
 
-“你好Jane Green，滑板刚开始！请转到B18”。
+“简·格林，您好！ 请前往B18号门。”
 
-## Transactional push notifications targeting a profile {#transactional-push-notifications-targeting-a-profile}
+## 针对个人资料的交易推送通知 {#transactional-push-notifications-targeting-a-profile}
 
-您可以向订阅了移动应用程序的Adobe Campaign配置文件发送交易推送通知。This delivery can contain [personalization](../../designing/using/inserting-a-personalization-field.md) fields, such as the recipient's first name.
+您可以向订阅了移动应用程序的Adobe Campaign配置文件发送交易推送通知。 此分发可包含 [个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) ，如收件人的名字。
 
-在这种情况下，活动必须包含一些允许与Adobe Campaign数据库中的配置文件进行核对的字段。
+在这种情况下，活动必须包含一些字段，以允许与Adobe Campaign数据库中的配置文件进行对帐。
 
-定位配置文件时，每个移动应用程序和每台设备发送一个事务推送通知。例如，如果Adobe Campaign用户订阅了两个应用程序，则此用户将收到两个通知。如果用户已使用两种不同设备订阅同一应用程序，则此用户将在每台设备上收到通知。
+定位配置文件时，每个移动应用程序和每个设备发送一个事务推送通知。 例如，如果Adobe Campaign用户订阅了两个应用程序，则此用户将收到两个通知。 如果用户订阅了具有两个不同设备的同一应用程序，则此用户将在每个设备上收到通知。
 
-The mobile applications a profile has subscribed to are listed in the **[!UICONTROL Mobile App Subscriptions]** tab of this profile. To access this tab, select a profile and click the **[!UICONTROL Edit profile properties]** button on the right.
+配置文件订阅的手机应用程序列在此配置文件 **[!UICONTROL Mobile App Subscriptions]** 的选项卡中。 要访问此选项卡，请选择一个配置文件，然后单 **[!UICONTROL Edit profile properties]** 击右侧的按钮。
 
 ![](assets/push_notif_subscriptions.png)
 
-For more information on accessing and editing profiles, see [Profiles](../../audiences/using/creating-profiles.md).
+有关访问和编辑配置文件的详细信息，请参阅 [配置文件](../../audiences/using/creating-profiles.md)。
 
-### Sending a transactional push notification targeting a profile {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### 发送针对配置文件的交易推送通知 {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
-例如，一家航空公司想要向所有订阅其移动应用程序的Adobe Campaign用户发送最后一次展示板。
+例如，某航空公司希望向订阅其移动应用程序的所有Adobe Campaign用户发送最后一次登机通知。
 
-1. 转到为编辑而创建的交易消息。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 转到为编辑而创建的交易消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
 
    ![](assets/message-center_push_message_profile.png)
 
-1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
+1. 单击 **[!UICONTROL Content]** 该块可修改消息的标题和正文。
 
-   与基于实时事件的配置不同，您可以直接访问所有配置文件信息以个性化您的消息。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   与基于实时事件的配置不同，您可以直接访问所有配置文件信息以个性化您的信息。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
    ![](assets/message-center_push_content_profile.png)
 
-   有关编辑推送通知内容的更多信息。See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+   有关编辑推送通知内容的更多信息。 请参 [阅创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 保存更改并发布消息。See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. 保存更改并发布消息。 请参 [阅发布交易消息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 1. 使用Adobe Campaign Standard REST API将活动发送到配置文件。
 
    ```
@@ -136,9 +136,9 @@ For more information on accessing and editing profiles, see [Profiles](../../aud
    }
    ```
 
-   For more on integrating the triggering of an event into an external system, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+   有关将事件触发集成到外部系统的详细信息，请参阅站 [点集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
    >[!NOTE]
    >
-   >没有注册令牌、应用程序和推送平台字段。在此示例中，对电子邮件字段执行了排序。
+   >没有注册令牌、应用程序和推送平台字段。 在此示例中，对帐将与电子邮件字段一起执行。
 
