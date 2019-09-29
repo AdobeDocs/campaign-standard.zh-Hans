@@ -7,21 +7,21 @@ page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
 
-# 定义电子邮件的主题行和发送者{#defining-the-subject-line-of-an-email}
+# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
 
-邮件主题是准备和发送邮件的必填内容。
+The message subject is mandatory to prepare and send the message.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
 
 在编辑电子邮件时，您可以尝试不同的主题行并在发送电子邮件之前获得其打开率的估计。
 
-默认情况下，此功能处于禁用状态。 在导入第一个模型时启用它。 模型是特定于特定行业的培训数据集的结果。 模型允许系统在提交新的主题行时预测电子邮件的打开率。
+默认情况下，此功能处于禁用状态。 在导入第一个模型时启用它。 模型是特定于特定行业的培训数据集的结果。 Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
 
 ## 电子邮件发送者 {#email-sender}
 
-要定义将显示在所发送消息标题中的发件人姓名，请转到“电子邮件设计器”主页的选项卡（可通过主页图标访问）。 **[!UICONTROL Properties]**
+To define the name of the sender which will appear in the header of messages sent, go the  tab of the Email Designer home page (accessible through the home icon).**[!UICONTROL Properties]**
 
 ![](assets/delivery_content_edition16.png)
 
-* 该字 **[!UICONTROL From: name]** 段允许您输入发件人姓名。 默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign指指定此发件人的电子邮件渠道配置(通 **[!UICONTROL Administration > Channels > Email > Email accounts]** 过Adobe Campaign徽标从高级菜单)。
+* The  field allows you to enter the sender name. **[!UICONTROL From: name]**&#x200B;默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign refers to the email channel configuration (from the advanced menu  via the Adobe Campaign logo) to designate this sender.**[!UICONTROL Administration > Channels > Email > Email accounts]**
 
-   您可以通过单击“发送者姓名”块来更改 **发送者姓名** 。 然后，该字段将变为可编辑字段，您可以输入要使用的名称。
+   You can change the sender name by clicking the Sender name block. **** The field then becomes editable and you can enter the name you would like to use.
 
    这个领域可以个性化。 为此，您可以通过单击发件人姓名下方的图标来添加个性化字段、内容块和动态内容。
 
@@ -75,7 +75,7 @@ source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
 
 >[!NOTE]
 >
->标题参数不得为空。 发送方地址是允许发送电子邮件的必填地址（RFC标准）。 Adobe Campaign检查输入的电子邮件地址的语法。
+>标题参数不得为空。 The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign检查输入的电子邮件地址的语法。
 
 **相关主题：**
 
