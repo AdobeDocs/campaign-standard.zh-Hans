@@ -14,7 +14,7 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
 
 ---
 
@@ -34,6 +34,9 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
    ![](assets/sending_anti-spam_analysis.png)
 
 1. 选择按 **[!UICONTROL Change profile]** 钮，以选择要在上测试个性化元素的测试配置文件。
+
+   ![](assets/sending_test-profile.png)
+
 1. 要退出模 **[!UICONTROL Preview]** 式，请单击屏 **[!UICONTROL Edit]** 幕左上角的按钮。
 
    ![](assets/sending_preview_edit.png)
