@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 映射表单字段 {#mapping-form-fields}
 
-输入字段用于存储或更新Campaign数据库中的数据。 为此，您需要将数据库字段与输入区域、单选按钮或复选框类型块链接起来。 为此，请执行以下操作：
+输入字段用于存储或更新Campaign数据库中的数据。 为此，您需要将数据库字段与输入区域、单选按钮或复选框类型块链接起来。 操作步骤：
 
 1. 在登录页面中选择一个块。
 1. 完成调 **[!UICONTROL Form data]** 色板中的部分。
@@ -53,7 +53,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
    >
    >登陆页面只能映射到配置 **文件**。
 
-1. 通过选择（例如）或选择选 **[!UICONTROL Text]**&#x200B;择区 **[!UICONTROL Number]**&#x200B;域 **[!UICONTROL Date]** ，定义 **[!UICONTROL HTML type of the field]** 字段类型。
+1. 通过选择（例如，）或在选择区 **[!UICONTROL Text]**&#x200B;域中 **[!UICONTROL Number]**&#x200B;来定 **[!UICONTROL Date]** 义字段 **[!UICONTROL HTML type of the field]** 类型。
 
 >[!NOTE]
 >
@@ -61,14 +61,14 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 提交表单 {#submitting-the-form}
 
-您可以选择访客单击提交按钮时要执行的操作。 为此，请执行以下操作：
+您可以选择访客单击提交按钮时要执行的操作。 操作步骤：
 
 1. 选择登陆页面的提交按钮。
 1. 在左侧面板的下拉列表中选择操作。 可能的操作包括：( **[!UICONTROL Refresh]** 刷新页面)和 **[!UICONTROL Next page]** （显示确认页面）。
 
    ![](assets/editing_lp_content_5.png)
 
-此外，您还可以更改按钮的标签或配置特定链接。 为此，请执行以下操作：
+此外，您还可以更改按钮的标签或配置特定链接。 操作步骤：
 
 1. 选择提交按钮。
 1. 单击左 ![](assets/lp_link_properties.png) 侧面板中的按钮。
@@ -98,7 +98,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ### 确认登陆页面提交 {#confirm-a-landing-page-submission}
 
-当访客提交登陆页面时，您可以配置触发的操作。 为此，请执行以下操作：
+当访客提交登陆页面时，您可以配置触发的操作。 操作步骤：
 
 1. 编辑通过登陆页面功能板中的图 ![](assets/edit_darkgrey-24px.png) 标访问的登陆页面属性，并显示参 **[!UICONTROL Job]** 数。
 
@@ -114,13 +114,13 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 设置权限和预加载数据 {#setting-permissions-and-pre-loading-data}
 
-登录页面的访问权限可限于已识别的访客，例如，这些访客来自营销活动发送的消息中的链接。 在这种情况下，您可以在登录页面中预加载其数据。 为此，请执行以下操作：
+登录页面的访问权限可限于已识别的访客，例如，这些访客来自营销活动发送的消息中的链接。 在这种情况下，您可以在登录页面中预加载其数据。 操作步骤：
 
 1. 编辑通过登陆页面功能板中的图 ![](assets/edit_darkgrey-24px.png) 标访问的登陆页面属性，并显示参 **[!UICONTROL Access & loading]** 数。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 选择 **[!UICONTROL Preload visitor data]**。
+1. Select **[!UICONTROL Preload visitor data]**.
 
    如果页面的访客与数据库中的配置文件相对应，则其数据将显示在与数据库数据映射的表单字段中，并会考虑登录页面的个性化元素。
 
