@@ -2,25 +2,25 @@
 title: 测试电子邮件的主题行
 seo-title: 测试电子邮件的主题行
 description: 测试电子邮件的主题行
-seo-description: 了解如何在电子邮件设计器中定义电子邮件的主题行。
-page-status-flag: 从未激活
+seo-description: Discover how to define the subject line of an email in the Email Designer.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: sending
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # 测试主题 {#testing-a-subject}
 
-测试主题行：
+要测试主题行，请执行以下步骤：
 
 1. 创建或打开电子邮件。
 1. 打开内容，然后在相应的输入字段中输入电子邮件的主题。
@@ -38,23 +38,23 @@ source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
 
 * **预计开放率**:此图表可让您了解电子邮件及其当前主题的打开率。
 * **主题长度**:此指示器可让您查看主题的当前长度是否正确，或者它需要更长还是更短。
-* **彩色词**:在测试主题时，以绿色突出显示的单词是对增加打开率预测贡献最大的单词。 以红色突出显示的词是对增加开放率预测贡献最小的词。 如果在主题中添加或删除单词，高亮显示的单词将会更改。
-* **类别和字词建议**:向窗口的下部显示选定模型的多个相关类别。 这些类别按重要性顺序排序，它们允许您查看主题是否包含通过检查符号与其关联的词。 每个类别都包含一组建议单词，这些单词可用于您的主题中，以使其更相关并提高开放率。 这些单词是在给定类别中使用最频繁的单词。
+* **彩色词**:在测试主题时，以绿色突出显示的单词是对增加打开率预测贡献最大的单词。 Words highlighted in red are the words that contribute the least to increasing the open rate prediction. If you add or remove words in the subject, highlighted words will change.
+* **Categories and word suggestions: Towards the lower part of the window, a number of relevant categories for the selected model are displayed.** These categories are sorted by order of importance and they allow you to see whether your subject contains words that are associated with it via a check symbol. Each category contains a set of suggested words that could be used in your subject to make it more relevant and increase the open rate. These words are the words that are used the most often in a given category.
 
 >[!NOTE]
 >
->个性化字段和标点符号会从主题分析中去除。 对于动态／条件文本，所有变体都被视为一个主题行。
+>Personalization fields and punctuation marks are stripped from the subject analysis. In the case of dynamic/conditional text, all variants are considered as one subject line.
 
 ![](assets/predictive_subject_line_example.png)
 
-## 导入模型 {#importing-models}
+## Importing models {#importing-models}
 
-默认情况下，Adobe Campaign服务器上没有运行的模型。 有两种方法可获取模型并激活特征：
+By default, there is no model running on your Adobe Campaign server. There are two ways to get a model and activate the feature:
 
-* 您可以根据以前电子邮件的数据培训本地模型：
+* You can train a local model from the data of your previous email messages:
 
-   * 如果您已在使用Adobe Campaign，将自动对本地模型进行培训，以了解您已发送的消息。
-   * 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期、主题、发送、打开。 为此，请转到 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** ，然后按照连续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会自动使用您上传的数据进行培训。
+   * If you are already using Adobe Campaign, the local model will be automatically trained on the messages that you have already sent.
+   * If you are new to Adobe Campaign, you can extract a CSV file from your previous system/ESP that contains 4 columns: date, subject, sent, opens. 为此，请转到 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** ，然后按照连续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 The local model is automatically trained with the data you uploaded.
    * 如果您是Adobe Campaign的新用户，并且无法如上所述获得CSV文件，则可以使用预先培训的模型，或等到系统中有足够的交付数据来培训本地模型时再执行。 系统将自动确定当前数据集是否包含足够的数据来识别模式和训练模型。
 
       >[!NOTE]
