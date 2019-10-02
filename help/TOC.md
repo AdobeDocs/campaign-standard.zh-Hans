@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign standard帮助
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [发行说明2015-2016](rn/using/release-notes-2015-2016.md)
    + [文档更新](rn/using/documentation-updates.md)
 + 入门 {#getting-started}
-   + 关于Adobe Campaign {#about-adobe-campaign}
+   + About Adobe Campaign {#about-adobe-campaign}
       + [营销活动编排](start/using/campaign-orchestration.md)
       + [细分和定位](start/using/segmentation-and-targeting.md)
       + [动态和个性化内容](start/using/dynamic-and-personalized-content.md)
@@ -33,25 +33,25 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + 营销计划 {#marketing-plans}
       + [计划和营销活动](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
-      + [Timeline](start/using/timeline.md)
+      + [时间轴](start/using/timeline.md)
    + 管理模板 {#managing-templates}
       + [关于模板](start/using/about-templates.md)
       + [创建新模板](start/using/creating-a-new-template.md)
-      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
-      + [Using a template](start/using/using-a-template.md)
-   + Tutorials {#tutorials}
-      + [Step-by-step guides](start/using/step-by-step-guides.md)
-      + [How-to videos](start/using/how-to-videos.md)
-+ Profiles and audiences {#profiles-and-audiences}
-   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
-   + Managing profiles {#managing-profiles}
-      + [About profiles](audiences/using/about-profiles.md)
-      + [Creating profiles](audiences/using/creating-profiles.md)
-      + [Editing profiles](audiences/using/editing-profiles.md)
-      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [Active profiles](audiences/using/active-profiles.md)
+      + [创建多语言模板](start/using/creating-a-multilingual-template.md)
+      + [使用模板](start/using/using-a-template.md)
+   + 教程 {#tutorials}
+      + [逐步指南](start/using/step-by-step-guides.md)
+      + [操作说明视频](start/using/how-to-videos.md)
++ 档案和受众 {#profiles-and-audiences}
+   + [关于档案和受众](audiences/using/about-profiles-and-audiences.md)
+   + 管理用户档案 {#managing-profiles}
+      + [关于用户档案](audiences/using/about-profiles.md)
+      + [创建配置文件](audiences/using/creating-profiles.md)
+      + [编辑配置文件](audiences/using/editing-profiles.md)
+      + [整合了客户的用户档案](audiences/using/integrated-customer-profile.md)
+      + [使用中的用户档案](audiences/using/active-profiles.md)
    + 管理受众 {#managing-audiences}
-      + [About audiences](audiences/using/about-audiences.md)
+      + [关于受众](audiences/using/about-audiences.md)
       + [创建受众](audiences/using/creating-audiences.md)
       + [在消息中选择受众](audiences/using/selecting-an-audience-in-a-message.md)
    + 管理订阅 {#managing-subscriptions}
@@ -59,6 +59,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [创建服务](audiences/using/creating-a-service.md)
       + [提升服务](audiences/using/promoting-a-service.md)
       + [监视订阅](audiences/using/monitoring-subscriptions.md)
+      + [确认订阅服务](audiences/using/confirming-subscription-to-a-service.md)
    + 了解选择加入和选择退出流程 {#understanding-opt-in-and-opt-out-processes}
       + [关于选择加入和选择退出营销活动](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理Campaign中的选择加入和选择退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -81,24 +82,24 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [管理传入的SMS](channels/using/managing-incoming-sms.md)
       + [关于SMS和推送内容设计](channels/using/about-sms-and-push-content-design.md)
       + [SMS和推送内容编辑器界面](channels/using/sms-and-push-content-editor-interface.md)
-      + [Defining dynamic text](channels/using/defining-dynamic-text.md)
-   + Push notifications {#push-notifications}
-      + [About push notifications](channels/using/about-push-notifications.md)
-      + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
-      + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
+      + [定义动态文本](channels/using/defining-dynamic-text.md)
+   + 推送通知 {#push-notifications}
+      + [关于推送通知](channels/using/about-push-notifications.md)
+      + [准备和发送推送通知](channels/using/preparing-and-sending-a-push-notification.md)
+      + [自定义推送通知](channels/using/customizing-a-push-notification.md)
+      + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [基于移动应用程序数据创建和更新个人资料信息](channels/using/updating-profile-with-mobile-app-data.md)
-   + In-App messaging {#in-app-messaging}
-      + [About In-App messaging](channels/using/about-in-app-messaging.md)
-      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
-   + Direct mail {#direct-mail}
-      + [About direct mail](channels/using/about-direct-mail.md)
+   + 应用程序内消息传递 {#in-app-messaging}
+      + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
+      + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [自定义应用程序内消息](channels/using/customizing-an-in-app-message.md)
+   + 直邮 {#direct-mail}
+      + [关于直邮](channels/using/about-direct-mail.md)
       + [返回发件人](channels/using/return-to-sender.md)
-      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
+      + [创建直邮](channels/using/creating-the-direct-mail.md)
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
-      + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
-      + [Example of direct mail in a workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
+      + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
+      + [工作流中的直邮示例](channels/using/example-of-direct-mail-in-a-workflow.md)
    + 交易消息 {#transactional-messaging}
       + [关于交易消息传递](channels/using/about-transactional-messaging.md)
       + [活动事务消息](channels/using/event-transactional-messages.md)
@@ -125,18 +126,19 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
    + [使用现有内容设计电子邮件](designing/using/using-existing-content.md)
    + [使用可重用内容设计电子邮件](designing/using/using-reusable-content.md)
-   + [Multi-solution email design](designing/using/using-integrations.md)
+   + [多解决方案电子邮件设计](designing/using/using-integrations.md)
    + [个性化](designing/using/personalization.md)
-   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
-   + [Managing styles](designing/using/styles.md)
-   + [Managing links](designing/using/links.md)
-   + [Managing images](designing/using/images.md)
+   + [纯文本和HTML模式](designing/using/plain-text-html-modes.md)
+   + [管理样式](designing/using/styles.md)
+   + [管理链接](designing/using/links.md)
+   + [管理图像](designing/using/images.md)
 + 测试和发送 {#testing-and-sending}
-   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + [关于使用Campaign发送消息](sending/using/about-sending-messages-with-campaign.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览消息](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
       + [管理测试配置文件和发送校样](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
    + 调度消息 {#sheduling-messages}
       + [关于调度消息](sending/using/about-scheduling-messages.md)
@@ -161,10 +163,10 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + 报告列表 {#list-of-reports}
       + [定义报表期间](reporting/using/defining-the-report-period.md)
       + [弹回摘要](reporting/using/bounce-summary.md)
-      + [Breakdown by domains](reporting/using/breakdown-by-domains.md)
-      + [Complaints](reporting/using/complaints.md)
+      + [按域划分](reporting/using/breakdown-by-domains.md)
+      + [投诉](reporting/using/complaints.md)
       + [交付摘要](reporting/using/delivery-summary.md)
-      + [Delivery throughput](reporting/using/delivery-throughput.md)
+      + [交付吞吐量](reporting/using/delivery-throughput.md)
       + [应用程序内报告](reporting/using/in-app-report.md)
       + [非交付项和弹回](reporting/using/non-deliverables-and-bounces.md)
       + [打开](reporting/using/opens.md)
@@ -233,7 +235,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [细分](automating/using/segmentation.md)
       + [阅读受众](automating/using/read-audience.md)
       + [节省受众](automating/using/save-audience.md)
-      + [重复数据消除](automating/using/deduplication.md)
+      + [重复数据删除](automating/using/deduplication.md)
       + [丰富化](automating/using/enrichment.md)
    + 执行活动 {#execution-activities}
       + [关于执行活动](automating/using/about-execution-activities.md)
@@ -256,7 +258,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [更新数据](automating/using/update-data.md)
       + [加载文件](automating/using/load-file.md)
       + [传输文件](automating/using/transfer-file.md)
-      + [协调](automating/using/reconciliation.md)
+      + [调解](automating/using/reconciliation.md)
       + [提取文件](automating/using/extract-file.md)
       + [订阅服务](automating/using/subscription-services.md)
       + [外部API](automating/using/external-api.md)
