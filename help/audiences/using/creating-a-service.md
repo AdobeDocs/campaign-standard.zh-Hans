@@ -2,52 +2,59 @@
 title: 创建服务
 seo-title: 创建服务
 description: 创建服务
-seo-description: 了解如何创建您的第一个服务并对其进行配置，以向用户发送电子邮件确认。
+seo-description: 了解如何创建您的第一项服务并对其进行配置，以向订阅者发送电子邮件确认。
 page-status-flag: 从未激活
-uuid: 0d95d852-0f2-4b7b-b301-8fb4844 c3 ca2
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受众
-content-type: reference
+uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 参考
 topic-tags: 管理订阅
-discoiquuid: 6b7788fe-fa6 c-472a-97db-765595ce1589
-context-tags: service，wizard；service，main
-internal: n n
+discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
+context-tags: 服务，向导；服务，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 32a11ad57eee6bc0b7ab693fbaa55811f36f94dc
 
 ---
 
 
-# Creating a service{#creating-a-service}
+# 创建服务{#creating-a-service}
 
-为了能够管理订阅，您首先需要创建一个服务并配置它。配置新服务允许您指定配置文件订阅或取消订阅服务时将接收的电子邮件确认。您还将定义链接到该服务的订阅和取消订阅登录页面。例如，插入到电子邮件中的服务订阅链接会自动将配置文件定向到服务中指定的订阅登陆页面。
+为了能够管理订阅，您首先需要创建并配置服务。 通过配置新服务，您可以指定配置文件订阅或取消订阅服务时将收到的电子邮件确认。 您还将定义链接到该服务的订阅和取消订阅登录页面。 例如，插入到电子邮件中的服务订阅链接会自动将配置文件定向到服务中指定的订阅登录页面。
 
 配置服务：
 
-1. From the advanced menu **Profiles &amp; audiences** &gt; **Services** via the Adobe Campaign logo, add a new service or select an existing service. 如果您创建新服务，只需按照屏幕上显示的步骤操作。
+1. 从高级菜单 **[!UICONTROL Profiles & audiences]** &gt;中， **[!UICONTROL Services]** 通过Adobe Campaign徽标添加新服务或选择现有服务。 如果创建新服务，只需按照屏幕上显示的步骤操作。
 
-   提供默认服务模板。此模板预先配置了默认登录页面和确认电子邮件。您可以创建其他模板来定义特定配置。For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   默认服务模板可用。 此模板已预配置默认登录页面和确认电子邮件。 您可以创建其他模板来定义特定配置。 有关详细信息，请参阅管理模 [板部分](../../start/using/about-templates.md) 。
 
-1. In the **Service properties** section, accessed via the ![](assets/edit_darkgrey-24px.png) button in the service dashboard, configure the confirmation messages for subscriptions and unsubscriptions.
+1. 在通过 **[!UICONTROL Service properties]** 服务功能板中的按钮 ![](assets/edit_darkgrey-24px.png) 访问的部分中，为订阅和取消订阅配置确认消息。
 
    ![](assets/lp_service_parameters.png)
 
-1. 为订阅和取消订阅选择确认消息模板。有三种模式：
+1. 填写字 **[!UICONTROL Service label]** 段。 使用自定义确认消息时，服务标签是必填的。
 
-   * **[!UICONTROL No message]**：此模式允许您创建服务，而无需确认消息。
-   * **[!UICONTROL Default message]**：此模式将使用默认订阅或取消订阅确认消息。默认确认消息是通用的，对于使用默认模式的所有服务都是相同的。
-   * **[!UICONTROL Custom message]**：此模式允许您处理每个服务特定的自定义确认消息。You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific transactional message template. Refer to [Transactional messages](../../channels/using/about-transactional-messaging.md) for more information on transactional event and message configuration.
+1. 为订阅和取消订阅选择确认消息模板。 有三种模式可用：
 
-1. 保存服务。现已准备好使用。
+   * **[!UICONTROL No message]**:此模式允许您创建无确认消息的服务。
+   * **[!UICONTROL Default message]**:此模式将使用默认订阅或取消订阅确认事务消息。 默认确认消息是通用消息，对于使用默认模式的所有服务，该消息都是相同的。
 
-创建服务后，您可以开始提升它。
+      >[注意]
+      >
+      >在选中该框后，您可以通过单击部分中的默认消息标签或从 **[!UICONTROL Service properties]** Adobe Campaign事务性消息列表中选择默认消息来修改默认消 **[!UICONTROL Show internal transactional messages]** 息。
+
+   * **[!UICONTROL Custom message]**:此模式允许您处理特定于每个服务的自定义确认消息。 然后，选择与 **[!UICONTROL Custom subscription event configuration]** 特定事务消息模板关 [联的](../../channels/using/about-transactional-messaging.md) 。 有关此功能的详细信息，请参 [阅确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
+
+1. 保存服务。 它现已准备好使用。
+
+创建服务后，即可开始提升它。
 
 **相关主题：**
 
-* [管理服务和订阅](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) 视频
+* [管理服务和订阅视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [提升服务](../../audiences/using/promoting-a-service.md)
-* [创建由订阅者创建的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [将表单链接到登陆页面中的服务](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
+* [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [将表单链接到登录页面中的服务](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 
