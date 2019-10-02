@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
 * 您只能使用活动上下文中有限的字段个性化消息内容。
 * 对于使用默认模式的所有服务，此消息将是相同的。
 
-要为给定服务发送特定的确认消息，您可以创建自定义确认消息，在该消息中，您还可以利用来自其他资源的个性化字段。 为此，您必须创建和配置事务性消息。 可以引用此消息：
+要为给定服务发送特定的确认电子邮件，您可以创建自定义消息，在该消息中，您还可以利用来自其他资源的个性化字段。 为此，您必须创建和配置事务性消息。 可以引用此消息：
 * 服务本身。 有关详细信息，请参 [阅从服务配置确认消息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)。
 * 从订阅登录页面。 有关详细信息，请参 [阅从登陆页面配置确认消息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)。
 
@@ -166,7 +166,7 @@ source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
 
 ### 第2步：创建和配置服务 {#step-2--create-and-configure-the-service-2}
 
-1. 从高级菜单 **[!UICONTROL Profiles & audiences]** &gt;通 **[!UICONTROLS过Adobe Campaign徽标]** ，创建服务。
+1. 从高级菜单 **[!UICONTROL Profiles & audiences]** &gt;中 **[!UICONTROL Services]** 通过Adobe Campaign徽标创建服务。
 1. 转到该部 **[!UICONTROL Service properties]** 分，可通过服务功能板 ![](assets/edit_darkgrey-24px.png) 中的按钮访问该部分。
 1. 填写字 **[!UICONTROL Service label]** 段。 此标签将显示在确认消息和订阅登录页面中。
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
