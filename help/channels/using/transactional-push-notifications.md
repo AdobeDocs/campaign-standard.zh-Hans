@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
    ![](assets/message-center_push_content.png)
 
-   要查找这些字段，请单击项目旁边的铅笔，单 **[!UICONTROL Insert personalization field]** 击并选择 **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**。
+   要查找这些字段，请单击项目旁边的铅笔，单 **[!UICONTROL Insert personalization field]** 击并选择 **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**。
 
    ![](assets/message-center_push_personalization.png)
 
@@ -113,13 +113,13 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 1. 转到为编辑而创建的交易消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. 单击 **[!UICONTROL Content]** 该块可修改消息的标题和正文。
 
    与基于实时事件的配置不同，您可以直接访问所有配置文件信息以个性化您的信息。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    有关编辑推送通知内容的更多信息。 请参 [阅创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
