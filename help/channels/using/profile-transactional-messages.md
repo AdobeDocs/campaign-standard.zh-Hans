@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 差异如下。
 
 1. 转到为编辑而创建的交易消息。
-1. 在事务性消息中，单击该 **[!UICONTROL Content]** 部分。 除了事务模板之外，您还可以选择默认的电子邮件模板（目标） **[!UICONTROL Profile]**。
+1. 在事务性消息中，单击该 **[!UICONTROL Content]** 部分。 除了事务模板之外，您还可以选择任何电子邮件模板定位 **[!UICONTROL Profile]**。
 
    ![](assets/message-center_marketing_templates.png)
 
