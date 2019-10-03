@@ -7,21 +7,21 @@ page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
 products: SG_CAMPAIGN/STANDARD
-audience: designing
-content-type: reference
-topic-tags: editing-email-content
+audience: 设计
+content-type: 参考
+topic-tags: 编辑——电子邮件——内容
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
+source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
 
 ---
 
 
-# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
+# 定义电子邮件的主题行和发送者{#defining-the-subject-line-of-an-email}
 
-The message subject is mandatory to prepare and send the message.
+邮件主题是准备和发送邮件的必填内容。
 
 >[!NOTE]
 >
@@ -32,24 +32,24 @@ The message subject is mandatory to prepare and send the message.
 **要定义电子邮件的主题行，请执行以下操作**:
 
 1. 创建电子邮件。
-1. 关闭主页。
-1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-您还可以通过单击相应的图标将个性化字段、内容块和动态内容添加到主题行。
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**相关主题：**
+**Related topics:**
 
-* [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [添加内容块](../../designing/using/personalization.md#adding-a-content-block)
-* [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## 预测主题行 {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-在编辑电子邮件时，您可以尝试不同的主题行并在发送电子邮件之前获得其打开率的估计。
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-默认情况下，此功能处于禁用状态。 在导入第一个模型时启用它。 模型是特定于特定行业的培训数据集的结果。 Models allow the system to predict the open rate of the email when a new subject line is submitted.
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. 模型允许系统在提交新的主题行时预测电子邮件的打开率。
 
 >[!NOTE]
 >
@@ -57,17 +57,17 @@ The message subject is mandatory to prepare and send the message.
 
 **相关主题**
 
-* [测试主题行](../../sending/using/testing-subject-line-email.md)
+* [测试电子邮件的主题行](../../sending/using/testing-subject-line-email.md)
 
 ## 电子邮件发送者 {#email-sender}
 
-To define the name of the sender which will appear in the header of messages sent, go the  tab of the Email Designer home page (accessible through the home icon).**[!UICONTROL Properties]**
+要定义将显示在所发送消息标题中的发件人姓名，请转到“电子邮件设计器”主页的选项卡（可通过主页图标访问）。 **[!UICONTROL Properties]**
 
 ![](assets/delivery_content_edition16.png)
 
-* The  field allows you to enter the sender name. **[!UICONTROL From: name]**&#x200B;默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign refers to the email channel configuration (from the advanced menu  via the Adobe Campaign logo) to designate this sender.**[!UICONTROL Administration > Channels > Email > Email accounts]**
+* The  field allows you to enter the sender name. **[!UICONTROL From: name]**&#x200B;默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign指指定此发件人的电子邮件渠道配置(通 **[!UICONTROL Administration > Channels > Email > Email accounts]** 过Adobe Campaign徽标从高级菜单)。
 
-   You can change the sender name by clicking the Sender name block. **** The field then becomes editable and you can enter the name you would like to use.
+   您可以通过单击“发送者姓名”块来更改 **发送者姓名** 。 然后，该字段将变为可编辑字段，您可以输入要使用的名称。
 
    这个领域可以个性化。 为此，您可以通过单击发件人姓名下方的图标来添加个性化字段、内容块和动态内容。
 
@@ -75,7 +75,7 @@ To define the name of the sender which will appear in the header of messages sen
 
 >[!NOTE]
 >
->标题参数不得为空。 The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign检查输入的电子邮件地址的语法。
+>标题参数不得为空。 发送方地址是允许发送电子邮件的必填地址（RFC标准）。 Adobe Campaign检查输入的电子邮件地址的语法。
 
 **相关主题：**
 
