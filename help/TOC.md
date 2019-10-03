@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign standard帮助
 translation-type: tm+mt
-source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
+source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 
 ---
 
@@ -37,30 +37,30 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + 管理模板 {#managing-templates}
       + [关于模板](start/using/about-templates.md)
       + [创建新模板](start/using/creating-a-new-template.md)
-      + [创建多语言模板](start/using/creating-a-multilingual-template.md)
-      + [使用模板](start/using/using-a-template.md)
+      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
+      + [Using a template](start/using/using-a-template.md)
    + 教程 {#tutorials}
       + [逐步指南](start/using/step-by-step-guides.md)
       + [操作说明视频](start/using/how-to-videos.md)
-+ 档案和受众 {#profiles-and-audiences}
-   + [关于档案和受众](audiences/using/about-profiles-and-audiences.md)
++ Profiles and audiences {#profiles-and-audiences}
+   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
       + [关于用户档案](audiences/using/about-profiles.md)
-      + [创建配置文件](audiences/using/creating-profiles.md)
-      + [编辑配置文件](audiences/using/editing-profiles.md)
+      + [Creating profiles](audiences/using/creating-profiles.md)
+      + [Editing profiles](audiences/using/editing-profiles.md)
       + [整合了客户的用户档案](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
-   + 管理受众 {#managing-audiences}
-      + [关于受众](audiences/using/about-audiences.md)
-      + [创建受众](audiences/using/creating-audiences.md)
-      + [在消息中选择受众](audiences/using/selecting-an-audience-in-a-message.md)
-   + 管理订阅 {#managing-subscriptions}
+   + Managing audiences {#managing-audiences}
+      + [About audiences](audiences/using/about-audiences.md)
+      + [Creating audiences](audiences/using/creating-audiences.md)
+      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
+   + Managing subscriptions {#managing-subscriptions}
       + [关于订阅](audiences/using/about-subscriptions.md)
-      + [创建服务](audiences/using/creating-a-service.md)
-      + [提升服务](audiences/using/promoting-a-service.md)
+      + [Creating a service](audiences/using/creating-a-service.md)
+      + [Promoting a service](audiences/using/promoting-a-service.md)
       + [监视订阅](audiences/using/monitoring-subscriptions.md)
-      + [确认订阅服务](audiences/using/confirming-subscription-to-a-service.md)
-   + 了解选择加入和选择退出流程 {#understanding-opt-in-and-opt-out-processes}
+      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
+   + Understanding opt-in and opt-out processes {#understanding-opt-in-and-opt-out-processes}
       + [关于选择加入和选择退出营销活动](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理Campaign中的选择加入和选择退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [确定分发的退出配置文件](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
@@ -89,23 +89,23 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [自定义推送通知](channels/using/customizing-a-push-notification.md)
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [基于移动应用程序数据创建和更新个人资料信息](channels/using/updating-profile-with-mobile-app-data.md)
-   + 应用程序内消息传递 {#in-app-messaging}
-      + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
-      + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [自定义应用程序内消息](channels/using/customizing-an-in-app-message.md)
-   + 直邮 {#direct-mail}
-      + [关于直邮](channels/using/about-direct-mail.md)
-      + [返回发件人](channels/using/return-to-sender.md)
-      + [创建直邮](channels/using/creating-the-direct-mail.md)
-      + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
-      + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
-      + [工作流中的直邮示例](channels/using/example-of-direct-mail-in-a-workflow.md)
-   + 交易消息 {#transactional-messaging}
-      + [关于交易消息传递](channels/using/about-transactional-messaging.md)
-      + [活动事务消息](channels/using/event-transactional-messages.md)
+   + In-App messaging {#in-app-messaging}
+      + [About In-App messaging](channels/using/about-in-app-messaging.md)
+      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+   + Direct mail {#direct-mail}
+      + [About direct mail](channels/using/about-direct-mail.md)
+      + [Return to sender](channels/using/return-to-sender.md)
+      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
+      + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
+      + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
+      + [Example of direct mail in a workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
+   + Transactional messaging {#transactional-messaging}
+      + [About transactional messaging](channels/using/about-transactional-messaging.md)
+      + [Event transactional messages](channels/using/event-transactional-messages.md)
       + [分析交易消息](channels/using/profile-transactional-messages.md)
       + [交易推送通知](channels/using/transactional-push-notifications.md)
-      + [跟进消息](channels/using/follow-up-messages.md)
+      + [Follow-up messages](channels/using/follow-up-messages.md)
    + 登陆页面 {#landing-pages}
       + [关于登陆页面](channels/using/about-landing-pages.md)
       + [登录页面限制](channels/using/landing-page-limitations.md)
@@ -129,28 +129,28 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + [多解决方案电子邮件设计](designing/using/using-integrations.md)
    + [个性化](designing/using/personalization.md)
    + [纯文本和HTML模式](designing/using/plain-text-html-modes.md)
-   + [管理样式](designing/using/styles.md)
+   + [管理电子邮件样式](designing/using/styles.md)
    + [管理链接](designing/using/links.md)
    + [管理图像](designing/using/images.md)
 + 测试和发送 {#testing-and-sending}
-   + [关于使用Campaign发送消息](sending/using/about-sending-messages-with-campaign.md)
-   + 准备和测试消息 {#preparing-and-testing-messages}
+   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + Preparing and testing messages {#preparing-and-testing-messages}
       + [预览消息](sending/using/previewing-messages.md)
-      + [准备发送](sending/using/preparing-the-send.md)
-      + [管理测试配置文件和发送校样](sending/using/managing-test-profiles-and-sending-proofs.md)
-      + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
-      + [电子邮件渲染](sending/using/email-rendering.md)
+      + [Preparing the send](sending/using/preparing-the-send.md)
+      + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
+      + [Email rendering](sending/using/email-rendering.md)
    + 调度消息 {#sheduling-messages}
-      + [关于调度消息](sending/using/about-scheduling-messages.md)
-      + [优化发送时间](sending/using/optimizing-the-sending-time.md)
+      + [About scheduling messages](sending/using/about-scheduling-messages.md)
+      + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
       + [在收件人的时区发送消息](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
       + [计算发送日期](sending/using/computing-the-sending-date.md)
-   + 发送和跟踪消息 {#sending-and-tracking-messages}
-      + [确认发送](sending/using/confirming-the-send.md)
-      + [跟踪消息](sending/using/tracking-messages.md)
-   + 监视消息 {#monitoring-messages}
-      + [监控交付](sending/using/monitoring-a-delivery.md)
-      + [在失败时接收警报](sending/using/receiving-alerts-when-failures-happen.md)
+   + Sending and tracking messages {#sending-and-tracking-messages}
+      + [Confirming the send](sending/using/confirming-the-send.md)
+      + [Tracking messages](sending/using/tracking-messages.md)
+   + Monitoring messages {#monitoring-messages}
+      + [Monitoring a delivery](sending/using/monitoring-a-delivery.md)
+      + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
       + [了解交付失败](sending/using/understanding-delivery-failures.md)
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
 + 报告 {#reporting}
@@ -178,14 +178,14 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [热点单击](reporting/using/hot-clicks.md)
    + 自定义报告 {#customizing-reports}
       + [添加面板](reporting/using/adding-panels.md)
-      + [添加可视化](reporting/using/adding-visualizations.md)
-      + [添加组件](reporting/using/adding-components.md)
-      + [创建自定义配置文件维度](reporting/using/creating-a-custom-profile-dimension.md)
-      + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
-+ 与Adobe cloud集成 {#integrating-with-adobe-cloud}
-   + [关于Campaign集成](integrating/using/about-campaign-integrations.md)
-   + 使用Campaign和Experience Manager {#working-with-campaign-and-experience-manager}
-      + [与Experience manager集成](integrating/using/integrating-with-experience-manager.md)
+      + [Adding visualizations](reporting/using/adding-visualizations.md)
+      + [Adding components](reporting/using/adding-components.md)
+      + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
+      + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
++ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
+   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
+   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
+      + [Integrating with Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [在Experience manager中创建营销活动表单 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 使用Campaign和Target {#working-with-campaign-and-target}
       + [关于Campaign-Target集成](integrating/using/about-campaign-target-integration.md)
