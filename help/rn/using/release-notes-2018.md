@@ -14,7 +14,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 * 通过在定义营销活动属性时选择移动应用程序，定位特定移动应用程序上的用户。 此功能适用于推送和应用程序内消息传递渠道。
 
-    有关详细信息，请参阅详 [细文档](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
+   有关详细信息，请参阅详 [细文档](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
 * 使用Creative Designer界面选择内容块时，现在将加载并显示列表中的所有内容块。 (CAMP-27311)
 
@@ -159,7 +159,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ### 改进 {#improvements-2}
 
-* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与个人资料的营销历史记录相关的信息：接触点数、已发送的交付、镜像页面URL等。 有关详细信息，请参阅专 [用用例](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
+* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与个人资料的营销历史记录相关的信息：接触点数、已发送的交付、镜像页面URL等。 有关详细信息，请参阅专 [用用例](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
 * 为了 **[!UICONTROL Database cleanup]** 确保数据库备份的更好性能，已优化了技术工作流程。
 * Creative Designer for email现在也提供法语和德语版。
 
@@ -169,7 +169,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 在开箱 **即用的技术工作流程中** ，功能管理员现在可以定义更新规则javascript活动中要忽略的连续错误数 **量** 。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 在管理单元访问限制条件时生成的SQL已得到优化。
 * 该 **[!UICONTROL Update]** 活动现在允许您添加、更新或删除与订阅相关的数据（nms:appSubscriptionRcp表）。
-* 为了 **[!UICONTROL Update delivery execution]** 优化性能，技术工作流分为两个工作流：- **[!UICONTROL Update delivery execution]**:更新交付的跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**:更新交付的KPI，默认情况下每小时开始一次。 有关技术工作流程的详细信息，请参阅此 [部分](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* 为了 **[!UICONTROL Update delivery execution]** 优化性能，技术工作流分为两个工作流：- **[!UICONTROL Update delivery execution]**:更新交付的跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**:更新交付的KPI，默认情况下每小时开始一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * 发送消息时，部分中的状态现 **[!UICONTROL Deployment]** 在可以有两个值： **[!UICONTROL Sending]**:正在发送消息。 **[!UICONTROL Sending (retry)]**:重试通过正在进行中。
 * 具有该角色 **[!UICONTROL Delivery preparation]** 的用户现在可以发送校样。 (CAMP-24313)
 * 通过 **SMPP** , SMPP上的启用TLS选项已经通过SMPP外部帐户 **添加到SMS路由中** 。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -219,7 +219,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
     <ul> 
      <li> 导出包含“冻结”数据的扩展广播：作为营销人员，我希望导出区段代码等于“A”的所有配置文件（来自工作流引擎）。 </li> 
      <li> 对“冻结”数据进行细分：作为营销人员，我希望重新定 <strong>位自上次发送</strong> 1000个忠诚度积分或区段代码等于“A”的所有档案。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自定义配置文件数据进行动态报告<br /> </td> 
@@ -305,11 +305,11 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
  <tbody> 
   <tr> 
    <td> 欧盟一般数据保护规定(GDPR)<br /> </td> 
-   <td> GDPR是欧盟(EU)的新隐私法，该法规将2018年5月25日生效的数据保护要求协调化并现代化。 GDPR适用于持有欧盟数据主体数据的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的隐私权（包括同意管理、数据保留设置和用户角色）外，我们还将作为数据处理者的角色利用此机会加入其他功能，以帮助您为某些GDPR请求做好数据管理者的准备：<br /> 
+   <td> GDPR是欧盟(EU)的新隐私法，该法规将2018年5月25日生效的数据保护要求协调化并现代化。 GDPR 适用于所持有数据的数据主体位于欧盟的 Adobe Campaign 客户。<br /> 除了Adobe Campaign中已有的隐私权（包括同意管理、数据保留设置和用户角色）外，我们还将作为数据处理者的角色利用此机会加入其他功能，以帮助您为某些GDPR请求做好数据管理者的准备：<br /> 
     <ul> 
      <li> 访问权限：允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括Adobe Campaign中存储的数据。 </li> 
      <li> 删除权：使数据主体能够擦除由数据管理者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email（测试版）<br /> </td> 
@@ -323,7 +323,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 多语言推送交付<br /> </td> 
-   <td> 电子邮件和短信渠道中已经存在的同一简单多语言界面，现已添加到推送渠道中，无论客户喜欢使用何种语言，都能帮助您吸引客户。<br /> 此功能为管理跨多个区域的推送营销活动并希望以其首选语言定位用户的客户提供了可伸缩的自动解决方案。 它允许您通过一个模板电子表格将所有语言变体上载到单个推送交付，只需单击一下即可。 然后，Adobe Campaign会根据用户的语言偏好执行自动细分，通过简化工作流和报告帮助减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
+   <td> 电子邮件和短信渠道中已经存在的同一简单多语言界面，现已添加到推送渠道中，无论客户喜欢使用何种语言，都能帮助您吸引客户。<br /> 此功能为管理跨多个区域的推送营销活动并希望以其首选语言定位用户的客户提供了可伸缩的自动解决方案。 它允许您通过模板化电子表格将所有语言变体上传到单个推送交付，只需单击一下即可。 然后，Adobe Campaign会根据用户的语言偏好执行自动细分，通过简化工作流和报告帮助减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 自定义资源在事务性消息传递中的使用<br /> </td> 
@@ -331,7 +331,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
     <ul> 
      <li> 利用自定义字段作为协调标准，将交易消息与配置文件匹配 </li> 
      <li> 利用完整档案、服务和链接数据进一步个性化交易信息 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,15 +473,15 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关“可用内容”和“可移动内容”的详细信息，请参阅详 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">细文档</a>。<br /><strong> 警 </strong>告：这些推送通知更新要求客户升级其移动应用程序。 有关更 <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">多信息</a> ，请参阅此技术说明。<br /> </td> 
+    </ul> 有关“可用内容”和“可移动内容”的详细信息，请参阅详 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">细文档</a>。<br /><strong> 警 </strong>告：这些推送通知更新要求客户升级其移动应用程序。 Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化交付<br /> </td> 
-   <td> 计划在每个收件人所在时区的特定日／时间发送重复的电子邮件、短信和推送通知，确保在正确的时间发送您的消息，而无需设置多次发送。 <br /> 有关详细信息，请参阅详 <a href="../../automating/using/scheduler.md">细文档</a>。<br /> </td> 
+   <td> 计划在每个收件人时区的特定日／时间发送重复的电子邮件、短信和推送通知，确保在正确的时间发送您的消息，而无需设置多次发送。 <br /> 有关详细信息，请参阅详 <a href="../../automating/using/scheduler.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> API信号活动触发<br /> </td> 
-   <td> 现在可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br /> 有关详细信息，请参阅详 <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">细文档</a> 。<br /> </td> 
+   <td> 现在可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br /> 有关详细信息，请参阅详 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">细文档</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 #### 工作流 {#workflows-3}
 
 * 修复了在查询中使用其他数据并添加包含空格的别名时导致错误消息的问题。 非字母数字字符现在替换为“_”。
-* 修复了在某些情况下，计算KPI的技术工作流在默认情况下可能会停止的问题。
+* 修复了在某些情况下，技术工作流计算KPI时可能会默认停止的问题。
 
 #### 档案和受众 {#profiles-and-audiences}
 
