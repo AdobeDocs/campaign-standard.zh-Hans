@@ -14,7 +14,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80dffe691855a22f1a337df5fb4bda58c8bcc4a0
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign的主要功能包括：
 
 * **准备** -此初始阶段允许用户正式确定营销活动的需求、意图和目标：创建营销计划、确定目标、定义内容和创建模式、预期结果和相关人员。
 * **定位** -定位阶段允许用户定义数据收集模式、结构、细分、受众、种子和测试、要设计的筛选条件等。 在此阶段，您还可以设置订阅／取消订阅方法。 请参阅 [档案和受众](../../audiences/using/about-profiles.md)。
-* **创建消息和内容** -此阶段涉及选择通 [信渠道](../../channels/using/discovering-communication-channels.md)。 您还可以设计登 [录页面](../../channels/using/about-landing-page-content-design.md) ，以获取或更新配置文件，并扩展数据库。 请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)、创建SMS [消息](../../channels/using/creating-an-sms-message.md)、创建 [SMS通知、在应用程序中创建推送消息、](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)创建直接邮件创建直接邮件。
+* **创建消息和内容** -此阶段涉及选择通 [信渠道](../../channels/using/discovering-communication-channels.md)。 您还可以设计登 [录页面](../../channels/using/about-landing-pages.md) ，以获取或更新配置文件，并扩展数据库。 请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)、创建SMS [消息](../../channels/using/creating-an-sms-message.md)、创建 [SMS通知、在应用程序中创建推送消息、](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)创建直接邮件创建直接邮件。
 * **测试和发送** -执行阶段允许用户执行各种验证步骤（内容、目标），尤其是通过预览屏幕以及在发送之前向批准者发送证明。 请参阅 [测试和发送](../../sending/using/about-sending-messages-with-campaign.md)。
 * **监视和报告** -一旦执行了营销活动并发送了不同的消息，此阶段允许用户收集发送的不同状态以及跟踪和监视信息。 系列活动和交付报告会生成，用于跟踪系列活动和收件人活动的影响。 请参阅 [报告工具](../../reporting/using/about-dynamic-reports.md)。
 * **自动化** -在此阶段，还有其他因素，如导入／导出机制实施方法、数据管理和更新模式、个性化数据识别等。 定义。 请参 [阅工作流和数据管理](../../automating/using/workflow-data-and-processes.md)。
