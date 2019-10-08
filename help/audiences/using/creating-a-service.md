@@ -15,7 +15,7 @@ context-tags: 服务，向导；服务，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -34,14 +34,14 @@ source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
 
    ![](assets/lp_service_parameters.png)
 
-1. Fill in the **[!UICONTROL Service label]** field. The service label is mandatory when using a custom confirmation message.
+1. 填写字 **[!UICONTROL Service label]** 段。 使用自定义确认消息时，服务标签是必填的。
 
-1. Select a confirmation message template for subscriptions and unsubscriptions. Three modes are available:
+1. 为订阅和取消订阅选择确认消息模板。 有三种模式可用：
 
-   * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
-   * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. 默认确认消息是通用消息，对于使用默认模式的所有服务，该消息都是相同的。
+   * **[!UICONTROL No message]**:此模式允许您创建无确认消息的服务。
+   * **[!UICONTROL Default message]**:此模式将使用默认订阅或取消订阅确认事务消息。 默认确认消息是通用消息，对于使用默认模式的所有服务，该消息都是相同的。
 
-      >[NOTE]
+      >[!NOTE]
       >
       >在选中该框后，您可以通过单击部分中的默认消息标签或从 **[!UICONTROL Service properties]** Adobe Campaign事务性消息列表中选择默认消息来修改默认消 **[!UICONTROL Show internal transactional messages]** 息。
 
