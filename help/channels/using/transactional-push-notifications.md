@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 >[!NOTE]
 >
->要访问事务性消息，您必须具有管理权限或显示在(mcExec) **[!UICONTROL Message Center agents]** 安全组中。
+>要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]** 部分。
 
 ## 针对活动的交易推送通知 {#transactional-push-notifications-targeting-an-event}
 
