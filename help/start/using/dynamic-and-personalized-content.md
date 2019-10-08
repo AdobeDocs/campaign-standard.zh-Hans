@@ -14,7 +14,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 插入预 [定义的个性化基块](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件](../../designing/using/subject-line.md) 或短信的发送者
 * [个性化电子邮件的主题行](../../designing/using/subject-line.md) ，或使用“预测”主题行功 [能对其进行优化](../../designing/using/subject-line.md#predictive-subject-line) ,
-* 在电 [子邮件或登录页面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中创 [建条件内容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* 在电 [子邮件或登录页面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中创 [建条件内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * 在 [SMS消息](../../channels/using/defining-dynamic-text.md) 或推送通知中插入动态文本
 
 ![](assets/delivery_content_43.png)
