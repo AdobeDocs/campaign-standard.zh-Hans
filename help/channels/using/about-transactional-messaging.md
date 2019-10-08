@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign中提供两种类型的交易消息：
 >
 >Adobe Campaign优先处理事务性消息，而不是处理任何其他交付。
 
-Adobe Campaign Standard API也提供交易消息传递。 有关详细信息，请参阅专 [用文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
+Adobe Campaign Standard API也提供交易消息传递。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
 
 ## 交易消息传递操作原则 {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 执行所有这些步骤后，一旦用户离开站点而未在其购物车中订购产品，他们将自动收到通知电子邮件。
 
 ## 交易消息传递限制 {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>要访问事务性消息，您必须具有管理权限。
 
 ### 设计和发布 {#design-and-publication}
 
@@ -95,13 +99,13 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 
 ### 权限和品牌 {#permissions-and-branding}
 
-在品牌管理方面 [](../../administration/using/branding.md) ，交易消息传递比标准消息传递带来的灵活性要小。 Adobe建议将交易消息中使用的所有品牌关联到组 **[!UICONTROL All]** 织单位。 有关此问题的详细信息，请阅读下面的详细说明。
+在品牌管理方面 [](../../administration/using/branding.md) ，交易消息传递比标准消息传递带来的灵活性要小。 Adobe建议将交易消息中使用的所有品牌关联到组 **[!UICONTROL All]** 织 [单位](../../administration/using/organizational-units.md)。 有关此问题的详细信息，请阅读下面的详细说明。
 
 编辑交易消息时，您可以将其链接到品牌以自动应用一些参数，如品牌名称或品牌徽标。 默认 **[!UICONTROL Default brand]** 情况下，会在事务消息属性中选择该选项。
 
 ![](assets/message-center_branding.png)
 
-要访问事务性消息，您必须是(mcExec)安全组的一部分，该安全组链接到组 **[!UICONTROL Message Center agents]** 织 **[!UICONTROL Message Center]** 单元 [](../../administration/using/organizational-units.md)。 因此，交易消息中使用的所有对象（包括品牌）必须从组织单位中可见，这意味着这些对象必须位于或组 **[!UICONTROL Message Center]** 织单 **[!UICONTROL Message Center]****[!UICONTROL All]** 位中。
+交易消息中使用的所有对象（包括品牌）必须从组织单位中可见，这 **[!UICONTROL Message Center]** 意味着这些对象必须位于或组 **[!UICONTROL Message Center]** 织单 **[!UICONTROL All]** 位中。
 
 但是，如果消息属性中选择的品牌链接到的组织单元与或不同 **[!UICONTROL Message Center]** , **[!UICONTROL All]**&#x200B;则这将导致错误，并且您将无法发送交易消息。
 
