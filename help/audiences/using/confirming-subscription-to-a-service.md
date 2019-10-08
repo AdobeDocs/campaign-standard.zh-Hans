@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[注意]
+   >[!NOTE]
    >
    >该字 **[!UICONTROL publicLabel]** 段是必填字段。 如果不将其添加到活动数据结构，则Adobe Campaign将无法与服务进行协调。 订阅服务时，此字段将填入相应服 **[!UICONTROL Service label]** 务的字段。
 
@@ -74,7 +74,7 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[注意]
+   >[!NOTE]
    >
    >这样，您就可以在交易消息中使用资 **[!UICONTROL Service]** 源中的个性化字段。
 
@@ -109,7 +109,7 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
    ![](assets/confirmation_service-label.png)
 
-   >[注意]
+   >[!NOTE]
    >
    >必须填写此字段才能启用事务消息的对帐。
 
@@ -120,7 +120,11 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
 
-现在，每次配置文件订阅此服务时，他都会收到您定义的交易消息，其中具有映射到选定服务的个性化字段。 仅在用户首次订阅时发送消息。
+现在，每次配置文件订阅此服务时，他都会收到您定义的交易消息，其中具有映射到选定服务的个性化字段。
+
+>[!NOTE]
+>
+>仅在用户首次订阅时发送消息。
 
 ## 从登陆页面配置确认消息 {#configuring-confirmation-message-from-landing-page}
 
@@ -147,7 +151,7 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[注意]
+   >[!NOTE]
    >
    >该字 **[!UICONTROL serviceName]** 段是必填字段。 如果不将其添加到活动数据结构，则Adobe Campaign将无法与订阅的服务进行协调。
 
@@ -156,7 +160,7 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[注意]
+   >[!NOTE]
    >
    >这样，您就可以在交易消息中使用资 [!UICONTROL Service] 源中的个性化字段。
 
@@ -192,6 +196,6 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 现在，每当配置文件通过提交登陆页面订阅您的新闻稿时，他都会收到您通过映射到服务的个性化字段定义的确认消息。
 
->[注意]
+>[!NOTE]
 >
 >每次提交登录页面时，即使配置文件已订阅，也会发送消息。
