@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 >[!NOTE]
 >
->要访问事务性消息，您必须具有管理权限或显示在(mcExec) **[!UICONTROL Message Center agents]** 安全组中。 事件事务消息不包含配置文件信息，因此它们与疲劳规则不兼容（即使在丰富了配置文件的情况下）。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md#choosing-the-channel)。
+>要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]** 部分。
+>
+>事件事务消息不包含配置文件信息，因此它们与疲劳规则不兼容（即使在丰富了配置文件的情况下）。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
 ## 在事务消息中定义测试配置文件 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -48,36 +50,36 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
    ![](assets/message-center_test-profile.png)
 
-1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
+1. 在部分中指定要以JSON格式发送的 **[!UICONTROL Event data used for personalization]** 信息。 这是预览消息和测试配置文件收到证明时将使用的内容。
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >您还可以输入与配置文件表相关的信息。 See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+   >您还可以输入与配置文件表相关的信息。 请参 [阅丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
 
-1. After having been created, the test profile will be pre-specified in the transactional message. Click the  block of the message to check the target of your proof.**[!UICONTROL Test profiles]**
+1. 创建之后，测试配置文件将在事务消息中预先指定。 单击 **[!UICONTROL Test profiles]** 消息块以检查您的证明目标。
 
    ![](assets/message-center_5.png)
 
-### Creating a test profile outside the transactional message {#creating-a-test-profile-outside-the-transactional-----------message}
+### 在事务性消息之外创建测试配置文件 {#creating-a-test-profile-outside-the-transactional-----------message}
 
-You can also create a new test profile or use one that already exists in the  menu.**[!UICONTROL Test profiles]**
+您还可以创建新的测试配置文件，或使用菜单中已存在的测试配置 **[!UICONTROL Test profiles]** 文件。
 
 1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标，然后选择 **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]**。
-1. In the  section of the page of the test profile that you have chosen, select the event that you have just created. **[!UICONTROL Event]** In this example, select "Cart abandonment (EVTcartAbandonment)".
-1. Specify the information to send in JSON format in the  text box.**[!UICONTROL Event data]**
+1. 在您 **[!UICONTROL Event]** 选择的测试配置文件页面的部分，选择您刚刚创建的活动。 在此示例中，选择“购物车放弃(EVTcartEligation)”。
+1. 在文本框中指定要以JSON格式发送 **[!UICONTROL Event data]** 的信息。
 
    ![](assets/message-center_3.png)
 
-1. Save your changes.
+1. 保存更改。
 
-You can now access the message that you created and select the updated test profile.
+您现在可以访问您创建的消息并选择更新的测试配置文件。
 
-**Related topics:**
+**相关主题：**
 
-* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [Defining audiences](../../audiences/using/creating-audiences.md)
+* [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [定义受众](../../audiences/using/creating-audiences.md)
 
 ## 个性化交易消息 {#personalizing-a-transactional-message}
 
@@ -91,7 +93,7 @@ You can now access the message that you created and select the updated test prof
 
    >[注意]
    >
-   >指向放弃购物车的链接是指向外部URL的链接，该URL会将访客重定向到其购物车。 此参数在Adobe Campaign中未管理。
+   >指向放弃的购物车的链接是指向外部URL的链接，该URL会将访客重定向到他们的购物车。 此参数在Adobe Campaign中未管理。
 
 1. 在此示例中，您要添加在创建活动时定义的三 [个字段](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):first name, last product cansfired, total cart amount. 为此，请在消 [息内容中插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 。
 
@@ -109,7 +111,7 @@ You can now access the message that you created and select the updated test prof
 
 1. 通过选择您为此活动定义的配置文件来预览消息。
 
-   预览消息的步骤在预览消息部分有 [详细介绍](../../sending/using/preparing-the-send.md) 。
+   预览消息的步骤在预览消息部分有 [详细介绍](../../sending/using/previewing-messages.md) 。
 
    ![](assets/message-center_9.png)
 
@@ -135,28 +137,28 @@ You can now access the message that you created and select the updated test prof
 
 在事务性消息中使用产品列表之前，您需要在事件级别定义产品列表以及要显示的列表中每个产品的字段。 有关此功能的详细信息，请参 [阅定义数据集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. In the transactional message, click the  block to modify the email content.**[!UICONTROL Content]**
-1. Drag and drop a structure component to the workspace. For more on this, see Editing the email structure.[](../../designing/using/designing-from-scratch.md#defining-the-email-structure)
+1. 在事务性消息中，单击 **[!UICONTROL Content]** 该块以修改电子邮件内容。
+1. 将结构组件拖放到工作区。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see Adding fragments and components.[](../../designing/using/designing-from-scratch.md#defining-the-email-structure)
+   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. Select the structure component you just created and click the  icon from the contextual toolbar.**[!UICONTROL Enable product listing]**
+1. 选择刚刚创建的结构组件，然后单击上 **[!UICONTROL Enable product listing]** 下文工具栏中的图标。
 
    ![](assets/message-center_loop_create.png)
 
-   The structure component is highlighted with an orange frame and the  settings are displayed in the left palette.**[!UICONTROL Product listing]**
+   结构组件以橙色框架高亮显示，设 **[!UICONTROL Product listing]** 置显示在左侧调色板中。
 
    ![](assets/message-center_loop_palette.png)
 
-1. Select how the elements of the collection will be displayed:
+1. 选择集合元素的显示方式：
 
-   * **[!UICONTROL Row]**: horizontally, meaning each element on one row under the other.
-   * **[!UICONTROL Column]**: vertically, meaning each element next to the other on the same row.
+   * **[!UICONTROL Row]**:水平，表示位于另一行下的一行上的每个元素。
+   * **[!UICONTROL Column]**:垂直，即同一行上的每个元素相邻。
    >[!NOTE]
    >
-   >The  option is only available when using a multicolumn structure component ( ,  and  ). **[!UICONTROL Column]****[!UICONTROL 2:2 column]****[!UICONTROL 3:3 column]****[!UICONTROL 4:4 column]** When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see Editing the email structure.[](../../designing/using/designing-from-scratch.md#defining-the-email-structure)
+   >仅 **[!UICONTROL Column]** 当使用多列结构组件（、和）时， **[!UICONTROL 2:2 column]**&#x200B;此选项 **[!UICONTROL 3:3 column]****[!UICONTROL 4:4 column]** 才可用。 编辑产品列表时，仅填写第一列：其他列将不被考虑在内。 有关选择结构组件的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the  &gt;  &gt;  node.**[!UICONTROL Context]****[!UICONTROL Real-time event]****[!UICONTROL Event context]**
+1. 选择在配置与事务性消息相关的事件时创建的数据收集。 您可以在 **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt;节点下 **[!UICONTROL Event context]** 找到。
 
    ![](assets/message-center_loop_selection.png)
 
@@ -225,10 +227,10 @@ You can now access the message that you created and select the updated test prof
 
    ![](assets/message-center_loop_fallback.png)
 
-   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
+   如果集合在触发事件时为空，将显示回退内容，例如，如果客户的购物车中没有任何内容。
 
 1. 从“设置”窗格中，编辑产品列表的样式。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
-1. 使用链接到相关交易事件且您为其定义了收集数据的测试配置文件预览电子邮件。 For example, add the following information in the  section for the test profile you want to use:**[!UICONTROL Event data]**
+1. 使用链接到相关交易事件且您为其定义了收集数据的测试配置文件预览电子邮件。 例如，在要使用的测试配置文 **[!UICONTROL Event data]** 件的部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
@@ -258,7 +260,7 @@ You can now access the message that you created and select the updated test prof
 
 例如，可以使用按钮暂停发布 **[!UICONTROL Pause]** 事务性消息，以修改消息中包含的数据。 因此，不再处理这些事件，而是将其保留在Adobe Campaign数据库的队列中。
 
-在REST API中定义的时间段内(请参阅 [REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))或在使用触发器核心服务的触发器事件中(请参阅 [Campaign和Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))，将保留排队的事件。
+在REST API中定义的时间段内(请参阅 [REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))或在使用触发器核心服务的触发器事件中(请参阅 [Campaign和Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))，将保留排队的事件。
 
 ![](assets/message-center_pause.png)
 
