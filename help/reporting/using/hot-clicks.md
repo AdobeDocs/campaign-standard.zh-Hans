@@ -15,7 +15,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ![](assets/delivery_reports_10.png)
 
-如果您为分发创建了动态内容，则可以查看您定义的每个条件的百分比。 有关在分发中插入条件内容的详细信息，请参阅 [定义动态内容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)。
+如果您为分发创建了动态内容，则可以查看您定义的每个条件的百分比。 有关在分发中插入条件内容的详细信息，请参阅 [定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 例如，假设您创建了具有以下条件的交付：
 
