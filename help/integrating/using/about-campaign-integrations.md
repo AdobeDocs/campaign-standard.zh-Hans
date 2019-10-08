@@ -14,7 +14,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 组织是允许管理员配置组和用户以及控制Experience cloud中的单点登录的实体。 该组织的工作方式与跨所有Experience cloud产品和解决方案的登录公司类似。 大多数情况下，组织是您的公司名称。 但是，公司可以拥有许多组织。 用户和组织管理在 [Adobe Experience cloud帮助门户中有详细介绍](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-如果您希望将来自其他系统的数据流与Adobe Campaign集成，请查看我们的 [API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+如果您希望将来自其他系统的数据流与Adobe Campaign集成，请查看我们的 [API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
   <tr> 
    <th> 解决方案<br /> </th> 
    <th> 用例<br /> </th> 
-   <th> 请参阅<br /> </th> 
+   <th> Refer to<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
