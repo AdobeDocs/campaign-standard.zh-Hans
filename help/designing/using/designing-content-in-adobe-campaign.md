@@ -14,7 +14,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 要提高营销活动的效率，请个性化您的内容。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)[和添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 
-您还可以定义因每个配置文件而异的动态内容。 请参 [阅在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [在登陆页面中定义动态内容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)。
+您还可以定义因每个配置文件而异的动态内容。 请参 [阅在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [在登陆页面中定义动态内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
 
 使用链接和图像增强您的消息和登录页面。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)[和插入图像](../../designing/using/images.md#inserting-images)。
 
