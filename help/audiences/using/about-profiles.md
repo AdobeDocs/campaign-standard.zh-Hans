@@ -1,36 +1,36 @@
 ---
-title: 关于配置文件
-seo-title: 关于配置文件
-description: 关于配置文件
-seo-description: 联系人在Campaign数据库中存储为配置文件，并在整个生命周期中更新。
+title: 关于用户档案
+seo-title: 关于用户档案
+description: 关于用户档案
+seo-description: 联系人作为配置文件存储在Campaign数据库中，并在整个生命周期中进行更新。
 page-status-flag: 从未激活
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受众
-content-type: reference
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 参考
 topic-tags: 管理配置文件
-discoiquuid: a35e736c-a17 b-420c -8411-debc3 c6275 a
+discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: 收件人，概述
-internal: n n
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About profiles{#about-profiles}
+# 关于用户档案{#about-profiles}
 
-通过Adobe Campaign，您可以在整个生命周期中管理联系人：创建、导入、定位、操作跟踪、更新等。联系人存储在数据库中，作为包含链接到这些信息的信息的配置文件：姓氏、名字、地址、订阅、交付等。
+Adobe Campaign可让您在整个生命周期中管理联系人：创建、导入、定位、操作跟踪、更新等。 联系人作为包含与其链接的信息的配置文件存储在数据库中：姓氏、名字、地址、订阅、分发等。
 
 >[!NOTE]
 >
->还可使用Adobe Campaign Standard API提供配置文件。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>配置文件也可通过Adobe Campaign Standard API使用。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) 。
 
 ![](assets/marketing_history.png)
 
-创建营销活动时，您可以根据简单或高级标准选择配置文件来定义分发目标。实际上，配置文件是数据库中的一个条目，其中包含定位、符合条件和跟踪行为所需的所有信息。
+在创建营销活动时，您可以根据简单或高级标准选择配置文件来定义分发的目标。 从技术上讲，配置文件是数据库中的一个条目，其中包含定位、资格鉴定和跟踪行为所需的所有信息。
 
-配置文件可以是：客户端、潜在客户、根据您的单位订阅新闻稿、收件人、用户或任何其他配额的个人。To define various types of profiles, use [targeting dimensions](../../automating/using/query.md#targeting-dimensions-and-resources).
+配置文件可以是：客户、潜在客户、订阅新闻稿的个人、收件人、用户或任何其他面额，具体取决于您的组织。 要定义各种类型的配置文件，请使用定 [位维](../../automating/using/query.md#targeting-dimensions-and-resources)。
 
