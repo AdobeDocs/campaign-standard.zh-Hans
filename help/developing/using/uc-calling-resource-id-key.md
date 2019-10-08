@@ -4,7 +4,7 @@ seo-title: 使用复合标识密钥调用资源
 description: 使用复合标识密钥调用资源
 seo-description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -25,14 +25,14 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 * [创建或扩展资源](../../developing/using/creating-or-extending-the-resource.md)
 * [定义标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 第1步：配置标识密钥{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 配置标识密钥时的全局概念在本节中 [有详细介绍](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
-1. 在配置标识密钥之前，请确保资源已扩展到所需字段，并且已发布。 For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. 在配置标识密钥之前，请确保资源已扩展到所需的字段并且已发布。 如需详细信息，请参阅[此部分](../../developing/using/creating-or-extending-the-resource.md)。
 
 1. 转到/ **[!UICONTROL Administration]****[!UICONTROL Developement]** /菜 **[!UICONTROL Custom resources]** 单，然后打开资 **[!UICONTROL Profile]** 源。
 
@@ -47,7 +47,7 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 如果要在配置文件的界面中显示两个自定义字段，请配置选 **[!UICONTROL Screen definition]** 项卡。 For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > 如果要在配置文件的界面中显示两个自定义字段，请配置选 **[!UICONTROL Screen definition]** 项卡。 如需详细信息，请参阅[此部分](../../developing/using/configuring-the-screen-definition.md)。
 
 1. 您现在可以将过滤器定义配置为能够使用其标识密钥调用资源。
 
@@ -106,4 +106,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-有关详细信息，请参 [阅Campaign Standard REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
+有关详细信息，请参 [阅Campaign Standard REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
