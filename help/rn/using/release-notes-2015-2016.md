@@ -14,7 +14,7 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -238,7 +238,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 与People Core service集成<br /> </td> 
-   <td> Adobe Campaign与People Core Service <strong>(Profiles &amp; Audiences)之间的集成现在涵盖Adobe Marketing Cloud</strong> Declared ID。<br /><strong> 这意味着您可以导入区段并导出由访客ID或 </strong>Declared<strong>ID组成 </strong>的受<br />众。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
+   <td> Adobe Campaign与People Core Service <strong>(Profiles &amp; Audiences)之间的集成现在涵盖Adobe Marketing Cloud</strong> Declared ID。<br /><strong> 这意味着您可以导入区段并导出由访客ID或 </strong>Declared<strong>ID组成 </strong>的受<br />众。有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交付日志<br /> </td> 
@@ -804,7 +804,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
     <ul> 
      <li> D+186计划 </li> 
      <li> D+61营销活动 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../start/using/programs-and-campaigns.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../start/using/programs-and-campaigns.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件<br /> </td> 
@@ -879,7 +879,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 数字内容编辑器——动态内容<br /> </td> 
-   <td> 动态内容界面已得到改进。 现在，箭头允许您直接在电子邮件正文中在不同的动态内容之间导航。<br /> 有关使用此功能的详细信息，请参阅详细 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">文档</a>。<br /> </td> 
+   <td> 动态内容界面已得到改进。 现在，箭头允许您直接在电子邮件正文中在不同的动态内容之间导航。<br /> 有关使用此功能的详细信息，请参阅详细 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数字内容编辑器——动态文本<br /> </td> 
@@ -888,7 +888,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
      <li> 在电子邮件主题中， </li> 
      <li> 在HTML模式下， </li> 
      <li> 或文本模式。 </li> 
-    </ul>  有关使用此功能的详细信息，请参阅详细 <a href="../../channels/using/defining-dynamic-text.md">文档</a>。<br /> </td> 
+    </ul> 有关使用此功能的详细信息，请参阅详细 <a href="../../channels/using/defining-dynamic-text.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 计划和营销活动——报告<br /> </td> 
@@ -963,7 +963,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 内容编辑器：动态内容<br /> </td> 
-   <td> 您可以定义不同的内容，这些内容将根据表达式编辑器定义的条件动态显示给用户。<br /> 请参阅详细 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">文档</a>。<br /> </td> 
+   <td> 您可以定义不同的内容，这些内容将根据表达式编辑器定义的条件动态显示给用户。<br /> 请参阅详细 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件<br /> </td> 
@@ -1057,7 +1057,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 数字内容编辑器：块选 <strong>择器</strong><br /> </td> 
-   <td> 在HTML内容编辑器中选择块后，编辑区域底部将显示痕迹导航。 这样，您便可以轻松导航到不同的元素并进行选择。<br /> 请参阅详细 <a href="../../channels/using/managing-landing-page-structure-and-style.md">文档</a>。<br /> </td> 
+   <td> 在HTML内容编辑器中选择块后，编辑区域底部将显示痕迹导航。 这样，您便可以轻松导航到不同的元素并进行选择。<br /> 请参阅详细 <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
