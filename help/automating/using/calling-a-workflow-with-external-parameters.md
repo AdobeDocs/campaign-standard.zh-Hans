@@ -14,7 +14,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Campaign standard允许您调用包含参数（受众名称要定位、要导入
 
 ## 在调用工作流时定义参数 {#defining-the-parameters-when-calling-the-workflow}
 
-本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 在定义参数之前，请确保：
 
@@ -76,7 +76,7 @@ Campaign standard允许您调用包含参数（受众名称要定位、要导入
 
 ## 监视事件变量 {#monitoring-the-events-variables}
 
-可以监视工作流中可用的事件变量，包括声明的外部参数。 为此，请按照以下步骤操作：
+可以监视工作流中可用的事件变量，包括声明的外部参数。 为此请执行以下操作步骤：
 
 1. 选择活动后面的活 **[!UICONTROL External signal]** 动，然后单击按 **[!UICONTROL Log and tasks]** 钮。
 1. 在选项卡 **[!UICONTROL Tasks]** 中，单击 ![](assets/edit_darkgrey-24px.png) 按钮。
@@ -175,7 +175,7 @@ $(vars/@parameterName)
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. 单击按 **[!UICONTROL Confirm]** 钮。
+1. Click the **[!UICONTROL Confirm]** button.
 
 声明的事件变量现在可从个性化字段列表中使用。 您可以在交货中使用它们来执行以下操作：
 
@@ -225,7 +225,7 @@ $(vars/@parameterName)
 
 ### 第1步：配置API调用 {#step-1--configuring-the-api-call}
 
-进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 在我们的例子中，我们希望使用以下参数调用工作流：
 
@@ -317,7 +317,7 @@ $(vars/@parameterName)
 
    ![](assets/extsignal_uc7.png)
 
-工作流1已配置，您现在可以构建工作流2。 For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+工作流1已配置，您现在可以构建工作流2。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2)。
 
 ### 第3步：配置工作流2 {#step-3--configuring-workflow-2}
 
