@@ -2,95 +2,95 @@
 title: 外部信号
 seo-title: 外部信号
 description: 外部信号
-seo-description: 在其他工作流中成功满足某些条件时，外部信号活动会触发工作流。
+seo-description: 当在另一个工作流中成功满足某些条件时，外部信号活动会触发一个工作流。
 page-status-flag: 从未激活
-uuid: 884b6daf-bfd9-440b-836-004b80 c76 def
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 884b6daf-bfd9-440b-8336-004b80c76def
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 执行活动
-discoiquuid: 911c71b5-da8 b-4916-b645-13bba6 d21715
-context-tags: 信号，主信号
-internal: n n
+discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
+context-tags: 信号，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# External signal{#external-signal}
+# 外部信号{#external-signal}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/signal.png)
 
-**[!UICONTROL External signal]** 当在另一个工作流中或从REST API调用成功满足某些条件时，活动会触发工作流。
+当在 **[!UICONTROL External signal]** 另一个工作流中或通过REST API调用成功满足某些条件时，活动将触发工作流。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL External signal]** 该活动用于组织和编排属于同一客户旅程的不同流程的不同流程。它允许从另一个工作流程开始工作流，从而支持更复杂的客户旅程，同时能够更好地监控和应对问题。
+该活 **[!UICONTROL External signal]** 动用于组织和编排不同的流程，这些流程是进入不同工作流的同一客户旅程的一部分。 它允许从另一个工作流开始一个工作流，支持更复杂的客户旅程，同时能够更好地监控和应对问题。
 
-**[!UICONTROL External signal]** 活动被设计为工作流的第一个活动。It can be triggered from the **[!UICONTROL End]** activity of another workflow or from a REST API call (for more on this, refer to the [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) ).
+该 **[!UICONTROL External signal]** 活动设计为作为工作流的第一个活动。 它可以从其他工作流 **[!UICONTROL End]** 的活动或REST API调用中触发(有关详细信息，请参阅 [API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) )。
 
-触发后，可以定义外部参数并在工作流事件变量中可用。The process to call a workflow with external parameters is detailed in [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+触发后，可以定义外部参数，并在工作流事件变量中可用。 使用外部参数调用工作流的过程在本节中有 [详细介绍](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 >[!NOTE]
 >
->活动的触发频率不能超过10分钟。
+>不能比每10分钟触发一次更频繁。
 
-Note that an **[!UICONTROL External signal]** activity can be triggered from several different events. In that case, the **[!UICONTROL External signal]** is triggered as soon as one of the source workflows or API call is executed. 它并不要求所有源工作流都已完成。
+请注意，活 **[!UICONTROL External signal]** 动可以从多个不同的事件触发。 在这种情况下， **[!UICONTROL External signal]** 一旦执行源工作流或API调用之一，就会触发该事件。 它不要求所有源工作流都完成。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-When configuring an external signal, it is important to first configure the **[!UICONTROL External signal]** activity in the destination workflow. Once this configuration is done, the **[!UICONTROL External signal]** activity of this workflow becomes available to configure the **[!UICONTROL End]** activity of the source workflow.
+配置外部信号时，务必首先在目标工作流 **[!UICONTROL External signal]** 中配置活动。 完成此配置后，此工作 **[!UICONTROL External signal]** 流的活动便可用于配置源工作流 **[!UICONTROL End]** 的活动。
 
-1. Drag and drop an **[!UICONTROL External signal]** activity into your destination workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. 编辑活动的标签。This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]**.
+1. 将活动拖放到 **[!UICONTROL External signal]** 目标工作流中。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 编辑活动的标签。 配置触发的源工作流时需要此标签 **[!UICONTROL External signal]**。
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   如果要使用参数调用工作流，请使用区 **[!UICONTROL Parameters]** 域声明它们。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)。
 
    ![](assets/external_signal_configuration.png)
 
-1. 确认活动的配置，添加所需的任何其他活动并保存工作流。
+1. 确认活动的配置，添加您需要的任何其他活动并保存工作流。
 
    >[!NOTE]
    >
-   >如果要从其他工作流触发目标工作流，请继续执行以下步骤。If you want to trigger the destination workflow from a REST API call, consult the [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) to get more details.
+   >如果要从其他工作流触发目标工作流，请继续执行以下步骤。 如果要通过REST API调用触发目标工作流，请查阅 [API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) ，以获取更多详细信息。
 
-1. Open the source workflow and select an **[!UICONTROL End]** activity. If there is no **[!UICONTROL End]** activity available, add one after the last activity of a branch of the workflow.
+1. 打开源工作流并选择一个 **[!UICONTROL End]** 活动。 如果没有可用 **[!UICONTROL End]** 的活动，请在工作流分支的最后一个活动之后添加一个活动。
 
-   默认情况下，某些活动没有任何出站过渡。From the **[!UICONTROL Properties]** tab of these activities, you can add an outbound transition.
+   默认情况下，某些活动没有任何出站过渡。 从这些 **[!UICONTROL Properties]** 活动的选项卡中，可以添加出站过渡。
 
-   For example, in an **[!UICONTROL Update data]** activity, go to the **[!UICONTROL Transitions]** tab and check the **[!UICONTROL Add an outbound transition without the population]** option. 此选项允许添加不包含任何数据且不占用系统中不必要的空间的过渡。It is just used to connect the extra **[!UICONTROL End]** activity that triggers the destination workflow.
+   例如，在活动 **[!UICONTROL Update data]** 中，转到选项卡并 **[!UICONTROL Transitions]** 选中相应的选 **[!UICONTROL Add an outbound transition without the population]** 项。 此选项允许添加不包含任何数据且不占用系统中任何不必要的空间的过渡。 它仅用于连接触发目标工作 **[!UICONTROL End]** 流的额外活动。
 
    ![](assets/external_signal_empty_transition.png)
 
-1. In the **[!UICONTROL External signal]** tab of the **[!UICONTROL End]** activity, select the destination workflow as well as the **[!UICONTROL External signal]** activity to trigger within that workflow.
+1. 在活动 **[!UICONTROL External signal]** 的选项卡中， **[!UICONTROL End]** 选择目标工作流以及要在该工作流 **[!UICONTROL External signal]** 中触发的活动。
 
-   When you set an **[!UICONTROL End]** activity to trigger another workflow, its icon is updated with an additional signal symbol.
+   当您设置活动以触 **[!UICONTROL End]** 发另一个工作流时，其图标会被更新，并带有额外的信号符号。
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   如果要使用参数调用工作流，请使用该区 **[!UICONTROL Parameters and values]** 域。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)。
 
    ![](assets/external_signal_end.png)
 
 1. 保存源工作流。
 
-Once the **[!UICONTROL End]** activity of the source workflow or the REST API call is executed, the destination workflow is automatically triggered from the **[!UICONTROL External signal]** activity.
+一旦执 **[!UICONTROL End]** 行源工作流或REST API调用的活动，目标工作流就会从活动自动触发 **[!UICONTROL External signal]** 。
 
 >[!NOTE]
 >
->必须手动启动目标工作流，然后才能触发该工作流。When started, the **[!UICONTROL External activity]** is activated and waits for the signal from the source workflow.
+>必须手动启动目标工作流，才能触发该工作流。 启动时，将激 **[!UICONTROL External activity]** 活源工作流并等待源工作流中的信号。
 
 ## Example {#example}
 
-The following example illustrates the **[!UICONTROL External signal]** activity in a typical use case. 数据导入在源工作流中执行。完成导入并更新数据库后，将触发第二个工作流。第二个工作流用于更新导入数据的集合。
+以下示例说明了 **[!UICONTROL External signal]** 典型用例中的活动。 在源工作流中执行数据导入。 完成导入并更新数据库后，将触发另一个工作流。 第二个工作流用于更新导入数据上的聚合。
 
-源工作流显示如下：
+源工作流如下所示：
 
-* [加载文件](../../automating/using/load-file.md) 活动会上传包含新购买数据的文件。Note that the [database has been extended](../../developing/using/data-model-concepts.md) accordingly as purchase data are not present by default in the datamart.
+* “加 [载文件](../../automating/using/load-file.md) ”活动上传包含新购买数据的文件。 请注意，数 [据库已相应地扩展](../../developing/using/data-model-concepts.md) ，因为默认情况下，数据库中不存在购买数据。
 
    例如：
 
@@ -104,17 +104,17 @@ The following example illustrates the **[!UICONTROL External signal]** activity 
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* [对帐](../../automating/using/reconciliation.md) 活动创建导入的数据与数据库之间的链接，以便事务数据正确连接到配置文件和产品。
-* [更新数据](../../automating/using/update-data.md) 活动会插入并更新数据库的事务处理资源与传入数据。
-* **[!UICONTROL End]** 活动触发了用于更新集合的目标工作流。
+* “对 [帐](../../automating/using/reconciliation.md) ”活动创建导入的数据与数据库之间的链接，以便事务数据能够正确地连接到配置文件和产品。
+* “更 [新数据](../../automating/using/update-data.md) ”活动会插入数据库的“事务”资源，并用传入的数据更新该资源。
+* 活动 **[!UICONTROL End]** 会触发目标工作流，该工作流用于更新聚合。
 
 ![](assets/signal_example_source1.png)
 
 目标工作流如下所示：
 
-* **[!UICONTROL External signal]** 活动等待源工作流成功完成。
-* [查询](../../automating/using/query.md#enriching-data) 活动定位配置文件，并将其丰富的集合设置为检索上次购买日期。
-* [更新数据](../../automating/using/update-data.md) 活动将额外数据存储在专用自定义字段中。Note that the profile resource has been extended to add the **Last purchase date** field.
+* 活动 **[!UICONTROL External signal]** 会等待源工作流成功完成。
+* 查询 [活动目标配置文件](../../automating/using/query.md#enriching-data) ，并使用集合集来丰富这些配置文件，以检索上次购买日期。
+* “更 [新数据](../../automating/using/update-data.md) ”活动将附加数据存储在专用自定义字段中。 请注意，配置文件资源已扩展以添加上次购 **买日期字段** 。
 
 ![](assets/signal_example_source2.png)
 
