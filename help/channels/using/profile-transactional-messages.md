@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -36,7 +36,9 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 >[!NOTE]
 >
->要访问事务性消息，您必须具有管理权限或显示在(mcExec) **[!UICONTROL Message Center agents]** 安全组中。 疲劳规则与个人资料事务性消息兼容。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
+>要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]** 部分。
+>
+>疲劳规则与个人资料事务性消息兼容。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
 ## 发送个人资料交易消息 {#sending-a-profile-transactional-message}
 
