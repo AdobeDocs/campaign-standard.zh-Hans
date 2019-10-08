@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -29,9 +29,13 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ## 文档更新- 2019年10月 {#doc-updates-october-2019}
 
+添加了与Campaign standard设置相关的新部分。 [阅读更多](../../administration/using/about-campaign-standard-settings.md)
+
 新增了一节，其中介绍了如何向订阅特定服务的配置文件发送自动自定义确认电子邮件。 [阅读更多](../../audiences/using/confirming-subscription-to-a-service.md)
 
 “交易消息”部分已用最新的UI更新进行了修改，包括使用电子邮件设计器编辑内容。 [阅读更多](../../channels/using/event-transactional-messages.md)
+
+登录页面章节已重新组织。 此外，还新增了一个部分，详细介绍了设置登录页面的步骤。 [阅读更多](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
 ## 文档更新- 2019年9月 {#doc-updates-september-2019}
 
@@ -99,7 +103,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ## 文档更新- 2019年7月 {#doc-updates-2019}
 
-在登录页面限制上添加了新页面。 [阅读更多](../../channels/using/landing-page-limitations.md)
+在登录页面限制上添加了新页面。 [阅读更多](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 在如何使用组合标识密钥调用配置文件方面添加了一个用例。 [阅读更多](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -137,7 +141,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 在“传输文件”活动中新的排序选项上添加 **了信息** 。 [阅读更多](../../automating/using/transfer-file.md)
 
-更新 [了REST API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) :
+更新 [了REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) :
 
 * 新增了一节，其中包含有关为何使用Campaign Standard REST API的一般信息。
 * 已提供预设计的API请求集合，它代表常见用例。
@@ -317,7 +321,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 ### 版本中包含的新功能 {#new-capabilities-included-in-the-release-5}
 
-API文档已更新，其中包含 **History** API的相关信息。 添加了一个用例，说明如何检索发送到配置文件的分发的镜像页面。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+API文档已更新，其中包含 **History** API的相关信息。 添加了一个用例，说明如何检索发送到配置文件的分发的镜像页面。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-5}
 
@@ -331,7 +335,7 @@ API文档已更新，其中包含 **History** API的相关信息。 添加了一
 
 在查询活动部分添加了一个示例，说明如何定位在分发中单击特定链接的配置文件。 [阅读更多](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-在API文档中添加了与自定义过滤器相关 **的部分**。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+在API文档中添加了与自定义过滤器相关 **的部分**。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## 版本18.5 - 2018年5月 {#release-18-5---may-2018}
 
@@ -381,7 +385,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
 添加了有关如何设置登录页面的信息，以便让收件人能够被列入黑名单。 [阅读更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -455,7 +459,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 时区优化交付——阅 [读更多](../../automating/using/scheduler.md)
 
-API信号活动触发——阅 [读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+API信号活动触发——阅 [读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -505,11 +509,11 @@ API信号活动触发——阅 [读更多](https://docs.campaign.adobe.com/doc/s
 
 SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-专用于通过API进行工作流管理的新部分。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+专用于通过API进行工作流管理的新部分。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
-新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
 
-在API中添加了关于简单和多次筛选的信息。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+在API中添加了关于简单和多次筛选的信息。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## 17.9版- 2017年9月 {#release-17-9---september-2017}
 
@@ -659,7 +663,7 @@ REST API中的链接资源——阅 [读更多](../../developing/using/updating-
 
 触发器集成：添加了两个用例。 [阅读更多](../../integrating/using/abandonment-triggers-use-cases.md)
 
-我们重新设计了开发人员API文档，其中包含新信息和代码片段，以改进用户体验。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+我们重新设计了开发人员API文档，其中包含新信息和代码片段，以改进用户体验。 [阅读更多](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 了解新的“阅读受众”和“外 [部信号](../../automating/using/read-audience.md) ”工 [作流活动的示例](../../automating/using/external-signal.md) 。
 
@@ -669,7 +673,7 @@ REST API中的链接资源——阅 [读更多](../../developing/using/updating-
 
 外部报告的日志导出——阅 [读更多](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API —— 阅读 [更多信息](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Transactional Messaging API —— 阅读 [更多信息](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 交易消息的营销功能——阅 [读更多](../../channels/using/profile-transactional-messages.md)
 
@@ -693,7 +697,7 @@ URL更改：人员核心服务——阅 [读更多](../../integrating/using/abou
 
 了解用户权限：已添加用例。 另请查阅用 [户权限表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-使用API:已 [添加API扩展用例](../../developing/using/about-extending-the-api.md) 。 另请查阅 [API文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+使用API:已 [添加API扩展用例](../../developing/using/about-extending-the-api.md) 。 另请查阅 [API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 营销活动错误消息：访问按版本和语言筛选的Campaign v6和Standard中的错误消息的完整列表。 [阅读更多](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
