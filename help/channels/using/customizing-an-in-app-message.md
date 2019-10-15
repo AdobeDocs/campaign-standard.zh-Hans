@@ -15,7 +15,7 @@ context-tags: 交付，inAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 * [发送应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [应用程序内报告](../../reporting/using/in-app-report.md)
+* [实施本地通知跟踪](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## 使用消息模板进行自定义 {#customizing-with-a-message-template}
 
@@ -98,7 +99,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 1. 键入消息内容并根据需要添加个性化字段。
 
-   有关个性化字段的详细信息，请参阅此 [部分](../../designing/using/personalization.md#inserting-a-personalization-field)。
+   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
@@ -140,6 +141,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 ## 自定义本地通知消息类型 {#customizing-a-local-notification-message-type}
 
 本地通知只能由应用程序在特定时间触发，具体取决于事件。 他们会提醒用户，即使没有访问Internet，应用程序中也会发生一些事情。
+要了解如何跟踪本地通知，请参阅此 [页](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)。
 
 要自定义本地通知，请执行以下操作：
 
@@ -190,11 +192,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 在发送应用程序内消息之前，您可以测试测试配置文件以检查目标受众在收到您的分发时将看到什么。
 
-1. 单击按 **[!UICONTROL Preview]** 钮。
+1. Click the **[!UICONTROL Preview]** button.
 
    ![](assets/inapp_sending_2.png)
 
-1. 单击该 **[!UICONTROL Select a test profile]** 按钮并选择其中一个测试配置文件以开始预览分发。 有关测试配置文件的详细信息，请参阅此 [部分](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+1. 单击该 **[!UICONTROL Select a test profile]** 按钮并选择其中一个测试配置文件以开始预览分发。 For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 1. 在Android、iPhone手机甚至平板电脑等不同设备上查看您的消息。 您还可以检查您的个性化字段是否正在检索正确的数据。
 
    ![](assets/inapp_sending_3.png)
