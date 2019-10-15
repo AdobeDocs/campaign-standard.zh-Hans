@@ -2,79 +2,79 @@
 title: 添加面板
 seo-title: 添加面板
 description: 添加面板
-seo-description: 动态报告允许您添加面板以更好地过滤数据，具体取决于选定的时间段。
+seo-description: 动态报告允许您添加面板以根据所选时间段更好地过滤数据。
 page-status-flag: 从未激活
-uuid: e76e837-5efc-4250-8192-dee1 a0 bd62 fe
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
 topic-tags: 自定义报告
-discoiquuid: f4e1e676-5ca2-4a58-96d7-d378 ff803710
-internal: n n
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding panels{#adding-panels}
+# 添加面板{#adding-panels}
 
-## Adding a blank panel {#adding-a-blank-panel}
+## 添加空白面板 {#adding-a-blank-panel}
 
-要启动报表，您可以将一组面板添加到现成的现成报表中。每个面板都包含不同的数据集，由自由表单和可视化组成。
+要启动报告，您可以向现成的或自定义报告中添加一组面板。 每个面板都包含不同的数据集，并由自由格式表和可视化组成。
 
-此面板允许您根据需要构建报表。您可以在报表中添加任意数量的面板，以便过滤具有不同时间段的数据。
+此面板允许您根据需要构建报表。 您可以在报表中添加任意数量的面板，以便按不同的时间段过滤数据。
 
-1. Click the **Panels** icon. You can also add a panel by clicking the **Insert tab** and selecting **New Blank Panel**.
+1. 单击“面 **板** ”图标。 您还可以通过单击“插入”选项卡并选择“ **新建空白面板** ”来 **添加面板**。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Blank Panel** into your dashboard.
+1. 将空白面板拖 **放到功能板** 中。
 
    ![](assets/dynamic_report_panel.png)
 
-您现在可以将自由形式表格添加到面板以开始定位数据。
+您现在可以向面板中添加自由格式表，以开始定位数据。
 
-## Adding a freeform table {#adding-a-freeform-table}
+## 添加自由格式表 {#adding-a-freeform-table}
 
-Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the **Component** table.
+自由格式表允许您创建一个表，以使用“组件”表中提供的不同度量和维度分析 **数据** 。
 
-每个表和可视化都可调整大小，可进行移动以更好地自定义报表。
+每个表和可视化都可调整大小，并且可以移动以更好地自定义您的报表。
 
-1. Click the **Panels** icon.
+1. 单击“面 **板** ”图标。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Freeform** item into your dashboard.
+1. 将自由格式项 **目拖放** 到功能板中。
 
-   You can also add a table by clicking the **Insert** tab and selecting **New Freeform** or by clicking **Add a freeform table** in an empty panel.
+   您还可以通过单击“插入”选项卡并选择“新 **建自由形式** ”(New Freeform **)，或者通过单击空面板中** 的“添加自由形式表 **”(Add a freeform table** )来添加表。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. If needed, drag and drop **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar to filter your report depending on your recipient's age range.
+1. 从Campaign 19.4版本开始，默认情况下 **[!UICONTROL Exclude proof]** 将已选择该版本。 如果需要，可以将选项卡中的某个图标拖放 **[!UICONTROL Segments]** 到顶 **[!UICONTROL Components]** 部栏中来更改它。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Drag and drop items from the **Components** tab into the columns and rows to build your table.
+1. 将“组件”选项卡中的 **项目拖放到列** 和行中，以构建表。
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Click the **Settings** icon to change how the data is displayed in your columns.
+1. 单击“ **设置** ”图标以更改数据在列中的显示方式。
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   The **[!UICONTROL Column settings]** is composed of:
+   其 **[!UICONTROL Column settings]** 中包括：
 
-   * **[!UICONTROL Number]**：允许您在列中显示或隐藏摘要编号。
-   * **[!UICONTROL Percent]**：允许您在列中显示或隐藏百分比。
-   * **[!UICONTROL Interpret zero as no value]**：允许您在值等于零时显示或隐藏。
-   * **[!UICONTROL Background]**：允许您在单元格中显示或隐藏水平进度栏。
-   * **[!UICONTROL Include retries]**：允许您在结果中包含重试。This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**:允许您在列中显示或隐藏摘要编号。
+   * **[!UICONTROL Percent]**:允许您在列中显示或隐藏百分比。
+   * **[!UICONTROL Interpret zero as no value]**:允许您在值等于零时显示或隐藏。
+   * **[!UICONTROL Background]**:允许您在单元格中显示或隐藏水平进度栏。
+   * **[!UICONTROL Include retries]**:允许您在结果中包含重试。 这仅适用于 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**。
 
-1. Select one or multiple rows and click the **Visualize** icon. 添加可视化以反映您选择的行。
+1. 选择一行或多行，然后单击“可视化 **”** 图标。 将添加一个可视化，以反映您选择的行。
 
    ![](assets/dynamic_report_freeform_5.png)
 
-您现在可以根据需要添加任意数量的组件，并添加可视化以提供数据的图形表示。
+您现在可以根据需要添加任意数量的组件，还可以添加可视化功能以提供数据的图形表示形式。
