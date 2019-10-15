@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
     <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 此方法是您应用于所有访问和删除请求的方法。 不建议使用Campaign API和界面访问和删除请求。 但是，如果您仍需在19.4中使用这些方法，请注意，规章类型已在Campaign界面和API中添加，并且是强制性的。 对于该接口，默认值将设置为GDPR。 对于API，您需要在有效负荷中包含此字段。 请参阅 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API文档</a>。</p></li>
     <li>“ <strong>CCPA选择退出</strong> ”字段已添加到配置文件资源中，以允许Adobe Campaign用户跟踪消费者是否选择退出个人信息销售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">了解更多信息</a>。</li>
   </ul>
+    <p>请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365集成(GA)<br /> </td> 
    <td> 
     <p>Adobe Campaign Standard与Microsoft Dynamics 365之间的集成现已可用。 您将能够将联系人和自定义实体记录从Dynamics 365传输到Campaign，并将电子邮件事件数据从Campaign返回到Dynamics 365，以便更好地协调销售／营销。</p>
-    <p>请参阅详细 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">文档</a> ，以设置此集成。</p>
+    <p>请参阅详 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">细文档</a> ，以设置此集成并查看操 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">作方法视频</a>。</p>
   </td>
   </tr> 
  </tbody> 
