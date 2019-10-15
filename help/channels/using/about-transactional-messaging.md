@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 1. 此外，为了在客户端放弃购物车时触发该事件，必须使用Adobe Campaign Standard REST API从公司网站发送该事件。 请参阅 [站点集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 执行所有这些步骤后，一旦用户离开站点而未在其购物车中订购产品，他们将自动收到通知电子邮件。
+
+## 交易消息发布流程 {#transactional-messaging-pub-process}
+
+下图说明了事务性消息发布过程。
+
+![](assets/message-center_pub-process.png)
+
+有关事件配置步骤的详细信息，请参阅 [事务消息配置](../../administration/using/configuring-transactional-messaging.md)。
 
 ## 交易消息传递限制 {#transactional-messaging-limitations}
 
