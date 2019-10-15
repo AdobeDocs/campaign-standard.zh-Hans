@@ -2,83 +2,83 @@
 title: 疑难解答
 seo-title: 疑难解答
 description: 疑难解答
-seo-description: 查找与动态报告相关的常见问题。
+seo-description: 在此处查找与动态报告相关的常见问题。
 page-status-flag: 从未激活
-uuid: a84a18bd-4e33-466e-a6 ce-d7008 fe12746
-contentOwner: bentain
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: 班多
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
 topic-tags: 疑难解答
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n n
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# 疑难解答{#troubleshooting}
 
-您可以在此部分中找到与动态报告相关的常见问题。
+您可以在本节中找到与动态报告相关的常见问题。
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## 对于“唯一”(Unique)打开和“唯一”(Unique)单击，聚合行中的计数与单行中的计数不匹配 {#unique-open-clicks-no-match}
 
 这是预期行为。
-我们可以采取以下示例来解释此行为。
+我们可以以以下示例来解释此行为。
 
-电子邮件将发送到配置文件P和P2。
+电子邮件会发送到配置文件P1和P2。
 
-P在第一天打开电子邮件两次，然后在第二天打开一次。
+P1在第一天打开两次电子邮件，第二天打开三次。
 
-但是，P在第一天打开电子邮件一次，但在几天内不会重新打开它。
-以下是配置文件与发送的电子邮件交互的可视演示：
+但是，P2会在第一天打开一次电子邮件，之后几天不再打开它。
+以下是档案与已发送电子邮件交互情况的直观表现形式：
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong><br /> </th> 
-   <th align="center"> <strong>打开时间</strong><br /> </th> 
+   <th align="center"> <strong>日</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong><br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> 第1天<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> 第2天<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. 但是，由于电子邮件仅面向个配置文件，因此打开率应显示150%。
+要了解唯一打开次数的总数，我们需要总和其行计数， **[!UICONTROL Unique Opens]** 该计数值为3。 但是，由于电子邮件的目标仅为2个档案，因此公开率应显示150%。
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. 在这种情况下，即使P在第天和第日打开电子邮件，其唯一打开仍将保持为1。
+为了不获得高于100的百分比，将 **[!UICONTROL Unique Opens]** 的定义保留为打开的唯一广播的数量。 在这种情况下，即使P1在第1天和第2天打开电子邮件，其唯一打开次数仍为1。
 
-这将导致下表：
+这将产生下表：
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong><br /> </th> 
-   <th align="center"> <strong>打开时间</strong><br /> </th> 
+   <th align="center"> <strong>日</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong><br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> 第1天<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> 第2天<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -87,43 +87,43 @@ To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique
 
 >[!NOTE]
 >
->唯一计数基于基于HLL的草图，这可能会导致较大的计数不准确。
+>唯一计数基于基于HLL的草图，这可能在较大计数时造成细微的不准确。
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## 打开计数与数据库计数不匹配 {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+这可能是因为，在动态报告中使用启发式算法跟踪打开情况，即使我们无法跟踪操作也是如 **[!UICONTROL Open]** 此。
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+例如，如果用户在其客户端上禁用了图像，并单击了电子邮件中的链接，则数据库可能 **[!UICONTROL Open]** 不会跟踪该链接，但会跟 **[!UICONTROL Click]** 踪。
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+因此，跟 **[!UICONTROL Open]** 踪日志计数在数据库中可能没有相同的计数。
 
-Such occurrences are added as **"an email click implies an email open"**.
+此类情况会添加为“ **电子邮件单击意味着电子邮件打开”**。
 
 >[!NOTE]
 >
->由于独特计数基于基于HLL的草图，因此可以体验到计数之间的细微不一致。
+>由于唯一计数基于基于HLL的草图，因此可以体验计数之间细微的不一致。
 
-## 计算重复/交易交付的计数是多少？
+## 如何计算重复／事务性交付的计数？
 
-在处理重复和交易交付时，计数将归因于父和子交付。
+处理重复和事务性提交时，计数将同时归属于父项和子项提交。
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+我们可以举一个名为 **R1** 的重复交付的示例，该交付设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)运行。
 
-假设只有一人多次打开所有子交付。In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+假设只有一个人多次打开所有子交付件。 在这种情况下，单个重复的子提交将分别 **[!UICONTROL Open]** 显示为1。
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+但是，由于同一人点击了所有交付，因此父项重复交付也将具有 **[!UICONTROL Unique open]** 1个。
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+在Adobe Campaign Standard 19.2.1版本发布后，“唯一计数”的定义从与交付交互的唯一人数 **“唯一人数”更改为“** 交互的唯一消息数” ********。
 
-在Adobe Campaign Standard19.2.1版本之前，报告如下所示：
+在Adobe Campaign Standard 19.2.1版本之前，报告如下所示：
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>交付</strong><br /> </th> 
    <th align="center"> <strong>已发送</strong><br /> </th> 
-   <th align="center"> <strong>已交付</strong><br /> </th>
-   <th align="center"> <strong>打开时间</strong><br /> </th> 
+   <th align="center"> <strong>交付</strong><br /> </th>
+   <th align="center"> <strong>打开</strong><br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th>
   </tr> 
  </thead> 
@@ -159,15 +159,15 @@ After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique cou
  </tbody> 
 </table>
 
-在Adobe Campaign Standard19.2.1版本之后，报告如下所示：
+在Adobe Campaign Standard 19.2.1版本发布后，报表如下所示：
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>交付</strong><br /> </th> 
    <th align="center"> <strong>已发送</strong><br /> </th> 
-   <th align="center"> <strong>已交付</strong><br /> </th>
-   <th align="center"> <strong>打开时间</strong><br /> </th> 
+   <th align="center"> <strong>交付</strong><br /> </th>
+   <th align="center"> <strong>打开</strong><br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th>
   </tr> 
  </thead> 
@@ -203,16 +203,26 @@ After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique cou
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## 颜色在我的报告表中有什么意义？ {#reports-color-signification}
 
-报告中显示的颜色是randomized的，不能个性化。它们表示进度栏并显示以帮助更好地突出显示报表中达到的最大值。
+报告中显示的颜色是随机的，无法个性化。 它们代表一个进度栏，并会显示出来以帮助您更好地突出显示报告中达到的最大值。
 
 在以下示例中，单元格的颜色相同，因为其值为100%。
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. 但是，如果达到较低的限制，它将获得较低的值。
+如果您将“自定 **[!UICONTROL Conditional formatting]** 义”更改为“自定义”，则当值达到上限时，单元格将变得更绿色。 但是，如果达到下限，它会变得更红。
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+例如，在此处，我们将 **[!UICONTROL Upper limit]** 设置为500和**[!UICONTROL Lower limit**] 0。
 
 ![](assets/troubleshooting_2.png)
+
+## 为什么值N/A显示在我的报告中？
+
+![](assets/troubleshooting_3.png)
+
+值 **N/A** 有时可显示在动态报告中。 这可以由于以下两个原因显示：
+
+* 已删除传送，此处显示为 **N/A** ，以避免结果出现差异。
+* 将维度拖放到 **[!UICONTROL Transactional Delivery]** 报表时，值 **N/A** 可能会因此显示。 这是因为动态报表会获取每个交付，即使它们不是事务性的。
+在将维度拖放到报表时也可 **[!UICONTROL Delivery]** 能会发生这种情况，但在这种情况下， **** N/A值将表示交易提交。
