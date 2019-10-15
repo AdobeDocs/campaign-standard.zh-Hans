@@ -2,454 +2,466 @@
 title: '组件列表 '
 seo-title: '组件列表 '
 description: '组件列表 '
-seo-description: 在此处找到动态报告中可用的每个组件及其定义的列表。
+seo-description: 在此处查找动态报表中可用的每个组件的列表及其定义。
 page-status-flag: 从未激活
-uuid: a2403806-8df4-4bb1-bac2-2689dc584 ae0
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
-topic-tags: 关于报告
-discoiquuid: 17cf126a-7ce1-4e11-bb5 e-2bdce01 cfed
-internal: n n
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
+topic-tags: about-reporting
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# List of components {#list-of-components}
+# 组件列表 {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+要进一步了解维度与指标之间的兼容性，请参阅 [此表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，则单元格将显示值 **None**。
 
 ![](assets/dynamic_report_compatibility.png)
 
 ## Dimensions {#dimensions}
 
-下表列出了报表及其定义中使用的维度。
+下表提供了报表中使用的维列表及其定义。
 
 <table> 
  <thead> 
   <tr> 
    <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Browser<br /> </td> 
-   <td> Browser from which the message was opened or clicked on.<br /> </td> 
+   <td> 浏览器<br /> </td> 
+   <td> 从中打开或单击消息的浏览器。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
-   <td> Label and ID of your campaign.<br /> </td> 
+   <td> 营销活动<br /> </td> 
+   <td> 营销活动的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> City<br /> </td> 
+   <td> 城市<br /> </td> 
    <td> City registered in the recipient's profile.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Country<br /> </td> 
-   <td> Country registered in the recipient's profile.<br /> </td> 
+   <td> 国家／地区<br /> </td> 
+   <td> 收件人个人资料中注册的国家／地区。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery<br /> </td> 
-   <td> Label and ID of the delivery.<br /> </td> 
+   <td> 交付<br /> </td> 
+   <td> 交付的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Device<br /> </td> 
-   <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
+   <td> 设备<br /> </td> 
+   <td> 打开／查看／单击电子邮件/SMS/推送通知的设备。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Gender<br /> </td> 
-   <td> 收件人的性别，例如男性或女性。If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
+   <td> 失败原因<br /> </td> 
+   <td> 导致每个交付发生弹回的错误类型，例如用户未知、无效域或邮箱已满。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App message actions<br /> </td> 
-   <td> Actions on the In-App message delivered, e.g. actions on button 1 or 2 or dismissals.<br /> </td> 
+   <td> 性别<br /> </td> 
+   <td> 接受者的性别，如男性或女性。 如果收件人的个人资料中的性别字段为空，则该值将为“无”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Message type<br /> </td> 
-   <td> Channel used for the delivery, such as email, SMS, push notification or In-App.<br /> </td> 
+   <td> 应用程序内消息操作<br /> </td> 
+   <td> 对已交付的应用程序内消息执行的操作，例如对按钮1或2的操作或取消。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mobile App name<br /> </td> 
-   <td> Name of the mobile application<br /> </td> 
+   <td> 消息类型<br /> </td> 
+   <td> 用于交付的渠道，如电子邮件、短信、推送通知或应用程序内。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform of the device from which the message was opened/viewed/clicked on.<br /> </td> 
+   <td> 移动应用程序名称<br /> </td> 
+   <td> 移动应用程序的名称<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 请注意，一旦已发布与配置文件字段关联的自定义资源，就会检索该维度的数据。<br /> </td> 
+   <td> 平台<br /> </td> 
+   <td> 打开／查看／单击消息的设备的平台。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push platform<br /> </td> 
-   <td> Platform of the device from which the push notification was opened, such as iOS or Android.<br /> </td> 
+   <td> 配置文件<br /> </td> 
+   <td> 重新分组在配置文件资源扩展期间创建的现成配置文件和自定义配置文件字段，有关详细信息，请参阅此页 <a href="../../developing/using/key-steps-to-add-a-resource.md">或</a> 本示 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">例</a>。<br /> 请注意，一旦发布了链接到配置文件字段的自定义资源，即会检索此维的数据。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recipient domain<br /> </td> 
-   <td> Domain used to open the email.<br /> </td> 
+   <td> 推送平台<br /> </td> 
+   <td> 打开推送通知的设备的平台，如iOS或Android。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recurring delivery<br /> </td> 
-   <td> Label and ID of the recurring delivery.<br /> </td> 
+   <td> 收件人域<br /> </td> 
+   <td> 用于打开电子邮件的域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
-   <td> Domain used to send the email.<br /> </td> 
+   <td> 重复交付<br /> </td> 
+   <td> 重复交付的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender IP<br /> </td> 
-   <td> IP used to send the email.<br /> </td> 
+   <td> 发送者域<br /> </td> 
+   <td> 用于发送电子邮件的域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
-   <td> State registered in the recipient's profile.<br /> </td> 
+   <td> 发送方IP<br /> </td> 
+   <td> 用于发送电子邮件的IP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL<br /> </td> 
-   <td> URL that was clicked on by the user from the message.<br /> </td> 
+   <td> 州<br /> </td> 
+   <td> 在收件人配置文件中注册的状态。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL category<br /> </td> 
-   <td> Category assigned to the tracking URL.<br /> </td> 
+   <td> 跟踪URL<br /> </td> 
+   <td> 用户从消息中单击的URL。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL label<br /> </td> 
-   <td> Label given to the URL, such as mirror page, contact us or open.<br /> </td> 
+   <td> 跟踪URL类别<br /> </td> 
+   <td> 分配给跟踪URL的类别。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional delivery<br /> </td> 
-   <td> Label and ID of the transactional delivery.<br /> </td> 
+   <td> 跟踪URL标签<br /> </td> 
+   <td> 为URL提供的标签，如镜像页面，请与我们联系或打开。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br /> </td> 
-   <td> Variant of the email in case of A/B testing.<br /> </td> 
+   <td> 交易交付<br /> </td> 
+   <td> 交易交付的标签和ID。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 变体<br /> </td> 
+   <td> A/B测试时电子邮件的变体。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Metrics {#metrics}
+## 指标 {#metrics}
 
-下表提供报告中使用的量度列表及其定义，具体取决于交付类型。
+下表根据交付类型，提供了报告中使用的度量列表及其定义。
 
-### Email and SMS metrics {#email-and-sms-metrics}
+### 电子邮件和短信量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 量度<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
+   <td> 列入黑名单<br /> </td> 
+   <td> 宣布电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
-   <td> Percentage of deliveries marked as blacklisted.<br /> </td> 
+   <td> 列入黑名单的比率<br /> </td> 
+   <td> 标为黑名单的交货百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> 弹回次数+错误<br /> </td> 
+   <td> 在发送和自动返回处理过程中累积的与已发送消息总数有关的错误总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of emails that bounced compared to email sent.<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
+   <td> 弹回的电子邮件与发送的电子邮件的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> 内容在分发中的点击次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of clicks in a delivery.<br /> </td> 
+   <td> 点击率<br /> </td> 
+   <td> 分发中的点击率。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> 交付<br /> </td> 
+   <td> 成功发送的消息数，与已发送消息的总数有关。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of messages successfully sent.<br /> </td> 
+   <td> 交付率<br /> </td> 
+   <td> 成功发送的消息百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce<br /> </td> 
-   <td> Total number of permanent errors, such as a wrong email address.<br /> </td> 
+   <td> 强弹<br /> </td> 
+   <td> 永久错误的总数，如错误的电子邮件地址。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to permanent errors.<br /> </td> 
+   <td> 硬弹回率<br /> </td> 
+   <td> 由于永久错误而失败的提交百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
-   <td> Number of recipients who clicked on the mirror page link.<br /> </td> 
+   <td> “镜像”页<br /> </td> 
+   <td> 单击镜像页面链接的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
-   <td> Percentage of clicks on the mirror page link compared to the total delivery messages.<br /> </td> 
+   <td> 镜像页面速率<br /> </td> 
+   <td> 与总交付消息相比，镜像页面链接上的点击量百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer clicks<br /> </td> 
-   <td> Number of time an offer was clicked on in a delivery.<br /> </td> 
+   <td> 选件点击<br /> </td> 
+   <td> 在分发中单击选件的时间。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer click rate<br /> </td> 
-   <td> Percentage of clicks on an offer.<br /> </td> 
+   <td> 优惠点击率<br /> </td> 
+   <td> 选件的点击率。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> 打开<br /> </td> 
+   <td> 邮件在分发中打开的次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened messages.<br /> </td> 
+   <td> 开放率<br /> </td> 
+   <td> 已打开消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
+   <td> 传送的发送总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
-   <td> Number of messages that bounced and resulted in the quarantine of the address.<br /> </td> 
+   <td> 隔离<br /> </td> 
+   <td> 弹回并导致地址隔离的消息数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
-   <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+   <td> 隔离率<br /> </td> 
+   <td> 与已发送邮件相比，隔离的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
-   <td> Number of messages classified as spam by the SMTP servers.<br /> </td> 
+   <td> 已拒绝<br /> </td> 
+   <td> SMTP服务器分类为垃圾邮件的邮件数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
-   <td> Percentage of messages marked as rejected.<br /> </td> 
+   <td> 拒绝率<br /> </td> 
+   <td> 标记为已拒绝的消息百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
-   <td> Total number of temporary errors, such as a full inbox.<br /> </td> 
+   <td> 软弹起<br /> </td> 
+   <td> 临时错误的总数，如完整收件箱。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to temporary reason.<br /> </td> 
+   <td> 软弹出率<br /> </td> 
+   <td> 因临时原因而失败的交货百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 唯一点击<br /> </td> 
+   <td> 单击分发中内容的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 唯一打开次数<br /> </td> 
+   <td> 打开分发的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
-   <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+   <td> 取消订阅率<br /> </td> 
+   <td> 与已交付消息相比，收件人取消订阅的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> 取消订阅<br /> </td> 
+   <td> 取消订阅链接的点击次数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### 推送通知量度 {#push-notification-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 量度<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery in relation to the total number of sent messages, e.g. errors from MCPNS or provider.<br /> </td> 
+   <td> 弹回次数+错误<br /> </td> 
+   <td> 在发送过程中累积的与已发送消息总数相关的错误总数，例如MCPNS或提供商的错误。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of push notifications that bounced compared to push notifications sent.<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
+   <td> 与发送的推送通知相比，弹回的推送通知百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 推送通知已发送到设备并被用户点击的次数。The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> 推送通知被交付到设备并被用户点击的次数。 用户要么要查看通知，然后将其移至“推送打开”跟踪，要么将其关闭。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of users who interacted with the push notification.<br /> </td> 
+   <td> 点击率<br /> </td> 
+   <td> 与推送通知交互的用户百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of push notifications successfully sent, in relation to the total number of sent push notifications.<br /> </td> 
+   <td> 交付<br /> </td> 
+   <td> 成功发送的推送通知数（与已发送的推送通知总数相关）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of push notifications successfully sent.<br /> </td> 
+   <td> 交付率<br /> </td> 
+   <td> 成功发送推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> 推送通知已发送到设备并在通知中心未更改的次数。在大多数情况下，展示次数应类似于交付的数字。This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> 展示次数<br /> </td> 
+   <td> 推送通知已发送到设备且未在通知中心更改的次数。 在大多数情况下，展示次数应与已交付的数字相似。 这确保设备获得消息并将该信息转发回服务器。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of push notifications sent.<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
+   <td> 发送的推送通知总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> 向设备发送的推送通知总数，并由用户单击打开应用程序。This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> 打开<br /> </td> 
+   <td> 交付到设备并由用户点击以打开应用程序的推送通知总数。 这与推送单击类似，但如果通知被取消，则不会触发推送打开。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened push notifications.<br /> </td> 
+   <td> 开放率<br /> </td> 
+   <td> 已打开推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique click<br /> </td> 
-   <td> Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> 唯一单击<br /> </td> 
+   <td> 唯一用户与推送通知交互的次数，例如单击通知或按钮。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by recipient.<br /> </td> 
+   <td> 独特印象<br /> </td> 
+   <td> 按收件人显示次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### In-App metrics {#in-app-metrics}
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Total number of In-App messages delivered to the device by the service provider.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Impressions<br /> </td> 
-   <td> Total of In-App messages seen by recipients depending on whether trigger criterion was met.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App clicks <br /> </td> 
-   <td> Total number of recipients who clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App click through rate<br /> </td> 
-   <td> Percentage of users who clicked on Button 1 or Button 2 compared to users who saw the message.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> Total number of messages that recipients dismissed either by clicking the close button or auto-dismiss.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> Percentage of In-App messages that recipients dismissed.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of In-App messages sent from Adobe Campaign as part of the delivery sent process.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by a unique recipient.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App clicks<br /> </td> 
-   <td> Number of times recipients clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> Number of time recipients dismissed an In-App message.<br /> </td> 
+   <td> 唯一打开次数<br /> </td> 
+   <td> 打开分发的收件人数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Segments {#segments}
-
-下表列出了报表中使用的区段及其定义。
+### 应用程序内指标 {#in-app-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Segment<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 量度<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age: Boomers 1<br /> </td> 
-   <td> Recipients born from 1946 to 1954.<br /> </td> 
+   <td> 交付<br /> </td> 
+   <td> 服务提供商交付到设备的应用程序内消息总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Boomers 2<br /> </td> 
-   <td> Recipients born from 1955 to 1965.<br /> </td> 
+   <td> 展示次数<br /> </td> 
+   <td> 接收方查看的应用程序内消息总数，具体取决于是否满足触发器标准。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 18 to 25<br /> </td> 
-   <td> Recipients from 18 to 25 years old.<br /> </td> 
+   <td> 应用程序内单击 <br /> </td> 
+   <td> 单击按钮1或按钮2的收件人总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 26 to 30<br /> </td> 
-   <td> Recipients from 26 to 30 years old.<br /> </td> 
+   <td> 应用程序内点击率<br /> </td> 
+   <td> 单击“按钮1”或“按钮2”的用户与查看消息的用户的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 31 to 40<br /> </td> 
-   <td> Recipients from 31 to 40 years old.<br /> </td> 
+   <td> 应用程序内解聘<br /> </td> 
+   <td> 收件人通过单击关闭按钮或自动关闭而忽略的消息总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 41 to 50<br /> </td> 
-   <td> Recipients from 41 to 50 years old.<br /> </td> 
+   <td> 应用程序内解雇率<br /> </td> 
+   <td> 收件人忽略的应用程序内消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation X<br /> </td> 
-   <td> Recipients born from 1966 to 1976.<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
+   <td> 作为发送流程的一部分从Adobe Campaign发送的应用程序内消息总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Y (Millennials)<br /> </td> 
-   <td> Recipients born from 1977 to 1994.<br /> </td> 
+   <td> 独特印象<br /> </td> 
+   <td> 唯一收件人的展示次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Z<br /> </td> 
-   <td> Recipients born from 1995 to today.<br /> </td> 
+   <td> 唯一的应用程序内点击<br /> </td> 
+   <td> 收件人单击按钮1或按钮2的次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Greater than 50<br /> </td> 
-   <td> Recipients whose age is greater than 50.<br /> </td> 
+   <td> 独特的应用程序内免职<br /> </td> 
+   <td> 收件人忽略应用程序内消息的时间。<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 细分 {#segments}
+
+>[!NOTE]
+>
+>默认情况下，该区 **[!UICONTROL Exclude proof]** 段已被选中以过滤您的报表，但可以根据需要进行更改。
+
+下表提供了报告中使用的区段列表及其定义。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 细分<br /> </th> 
+   <th> 定义<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> 年龄：婴儿潮一代1<br /> </td> 
+   <td> 1946年至1954年出生的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 25<br /> </td> 
-   <td> Recipients whose age is less than 25.<br /> </td> 
+   <td> 年龄：婴儿潮一代2<br /> </td> 
+   <td> 1955年至1965年出生的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 30<br /> </td> 
-   <td> Recipients whose age is less than 30.<br /> </td> 
+   <td> 年龄：从18到25<br /> </td> 
+   <td> 18岁到25岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 40<br /> </td> 
-   <td> Recipients whose age is less than 40.<br /> </td> 
+   <td> 年龄：从26到30<br /> </td> 
+   <td> 26岁到30岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 50<br /> </td> 
-   <td> Recipients whose age is less than 50.<br /> </td> 
+   <td> 年龄：从31到40<br /> </td> 
+   <td> 31岁到40岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Silent Generation<br /> </td> 
-   <td> Recipients born in 1945 or before.<br /> </td> 
+   <td> 年龄：从41到50<br /> </td> 
+   <td> 41岁到50岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> All visits<br /> </td> 
-   <td> Every recipient<br /> </td> 
+   <td> 年龄：X代<br /> </td> 
+   <td> 1966年至1976年出生的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：Y代（千禧一代）<br /> </td> 
+   <td> 1977年至1994年出生的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：Z代<br /> </td> 
+   <td> 1995年至今的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：大于50<br /> </td> 
+   <td> 年龄大于50的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：少于25<br /> </td> 
+   <td> 年龄低于25岁的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：少于30<br /> </td> 
+   <td> 年龄小于30的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：少于40<br /> </td> 
+   <td> 年龄低于40岁的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：少于50<br /> </td> 
+   <td> 年龄低于50岁的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年龄：静默生成<br /> </td> 
+   <td> 1945年或之前出生的收件人。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 所有访问<br /> </td> 
+   <td> 每个收件人<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> 排除证明<br /> </td> 
+   <td> 从报告中排除校样（仅从Campaign 19.4版本开始）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
