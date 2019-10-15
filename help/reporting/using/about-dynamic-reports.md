@@ -2,89 +2,97 @@
 title: 关于动态报告
 seo-title: 关于动态报告
 description: 关于动态报告
-seo-description: 利用动态报告，将变量和维度拖放到自由形式环境中，分析营销活动的成功与否。
+seo-description: 利用动态报告，将变量和维度拖放到自由形式环境中，并分析营销活动的成功。
 page-status-flag: 从未激活
-uuid: a84a18bd-4e33-466e-a6 ce-d7008 fe12746
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
-topic-tags: 关于报告
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
+topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n n
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 
 ---
 
 
-# About dynamic reports{#about-dynamic-reports}
+# 关于动态报告{#about-dynamic-reports}
 
 >[!NOTE]
 >
->Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
+>只有具有管理权限或组织单位设置为“全部” **的用户** ，才能创建或保存新报告。 For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
 
-动态报告提供完全可自定义和实时报告。它增加了对个人资料数据的访问权限，通过性别、城市和年龄等配置文件维度实现人口统计分析，除了功能电子邮件营销活动数据，如打开和点击。通过拖放界面，您可以探索数据，确定针对最重要客户细分执行电子邮件营销活动的方式，并衡量其对收件人的影响。
+动态报告提供完全可自定义的实时报告。 它增加了对个人资料数据的访问，除了功能性电子邮件营销活动数据（如打开次数和点击次数）之外，还支持按个人资料维度（如性别、城市和年龄）进行人口统计分析。 通过拖放界面，您可以浏览数据、确定电子邮件营销活动如何针对最重要的客户细分执行以及衡量其对收件人的影响。
 
-凭借其拖放菜单和可自定义的可视化功能，动态报告功能允许您通过无限制的细分和比较组合维度、指标和时间范围。
+借助拖放菜单和可自定义的可视化功能，动态报表功能允许您将维度、指标和时间范围组合到任何组合中，并进行无限的细分和比较。
 
 
 **相关主题：**
 
 * [报告列表](../../reporting/using/defining-the-report-period.md)
 * [组织单位](../../administration/using/organizational-units.md)
-* [动态报告](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) 视频
+* [“动态报告](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) ”视频
 
-## Accessing dynamic reports {#accessing-dynamic-reports}
+## 访问动态报告 {#accessing-dynamic-reports}
 
 可以访问报告：
 
-* From the home page by selecting **[!UICONTROL Reports]** tab in the top bar or the **[!UICONTROL Reports]** card to access reports for all deliveries.
+* 在主页中，选择顶栏或 **[!UICONTROL Reports]** 卡片中的选项卡，以访 **[!UICONTROL Reports]** 问所有分发的报告。
 
    ![](assets/campaign_reports_access.png)
 
-* In each program, campaign, and message, from the **Reports** button by clicking **Dynamic Reports** to only view the reports specific to the delivery.
+* 在每个计划、营销活动和消息中，通过单击 **Dynamic Reports** （动态报表）按钮， **** 从Reports（报表）按钮仅查看特定于分发的报表。
 
    ![](assets/campaign_reports_description.png)
 
-某些报告无法在交付后立即提供，具体取决于收集和处理信息所花费的时间。
+根据收集和处理信息所花费的时间，某些报告在发送后不能立即可用。
 
-动态报告分为两类：
+动态报表分为两类：
 
-* **模板**，可通过使用 **“另存为** ”选项(**“项目”&gt;“另存为”)复制这些模板。**) 。
-* **自定义报告(** 以蓝色标识)，可通过单击“报告”主页上的 **“创建新项目** ”按钮直接 **创建该** 报告。
+* **模板**，可通过使用“另存为”选项(“项目” **&gt;“另存为** ..”)复制模板来修&#x200B;**改这些模板。**)。
+* **自定义报告** （以蓝色标识），可通过单击“报告”主页上的“创 **建新项目** ”按钮直 **接创建** 。
 
 >[!NOTE]
 >
->根据您的组织单位过滤数据。
+>数据会根据您的组织单位进行筛选。
 
 ![](assets/dynamic_report_overview.png)
 
+## 动态报告使用协议 {#dynamic-reporting-usage-agreement}
 
-## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
+>[!NOTE]
+>
+>这些更改仅适用于Campaign Standard 19.4的起始版本。
 
-动态报告允许您根据配置文件维度筛选报表数据。
+动态报告使用协议的目的是作为数据处理的弹出同意。 默认情况下，协议仅可见，且只有分配有管理权限的用户才能接受或拒绝。
 
-只有在接受动态报告使用协议后，才可在报表中显示和使用配置文件维度。默认情况下，该协议仅可见，并且仅由分配有管理权限的用户接受或拒绝。
+有三个选项可用：
 
-本协议允许美国传输和存储以下资料数据：城市、国家/地区、州、性别和细分。
+* **[!UICONTROL Ask me later]**:单击稍后询问，窗口将在24小时内停止显示。
+* **[!UICONTROL Accept]**:接受本协议后，即授权Adobe Campaign收集客户的个人身份信息并将其传输到报告或数据中心。
+* **[!UICONTROL Decline]**:拒绝协议后，您的报表中不会显示配置文件维度，也不会收集或发送客户的个人身份信息。 请注意，在这种情况下，仍将收集externalID并用于标识最终用户。
 
-接受本协议后，所有欧洲和非欧洲数据将传输至美国。
+下表显示接受本协议后会发生的情况，具体取决于您所在的地区。
 
-![](assets/pii_window.png)
+|  | 动态报告 | Microsoft Dynamics 365连接器 |
+|---|---|---|
+| 美洲和亚太地区（亚太地区） | **功能可用**。 <br>开箱即用（即，城市、国家／地区、州、性别和年龄段）以及将自定义档案信息推送到美国报告中心。 有关配置文件维的详细信息，请参阅本 [页](../../reporting/using/list-of-components-.md) | **功能可用**。 <br>所有现成和自定义配置文件字段以及Adobe Campaign Standard事件字段均在美国数据中心进行处理。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>开箱即用（即，城市、国家／地区、州、性别和年龄段）以及将自定义档案信息推送到EMEA报告中心。 有关配置文件维的详细信息，请参阅本 [页](../../reporting/using/list-of-components-.md) | **功能可用。** 在 <br>EMEA数据中心内处理的所有现成和自定义配置文件字段以及Adobe Campaign Standard活动字段。 **[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。 |
 
-有三个可用选项：
+下表根据您所在的地区显示拒绝本协议后会发生什么情况。 请注意，即使您拒绝本协议，仍可报告交付情况和Microsoft Dynamics 365集成。
 
-* **[!UICONTROL Ask me later]**：单击以后，该窗口将停止显示24小时。
-* **[!UICONTROL Accept]**：接受本协议后，即授权Adobe Campaign收集客户的个人身份信息，并将其传输至美国。
-* **[!UICONTROL Decline]**：通过拒绝协议，档案维度将不会显示在您的报表中，并且客户的个人识别信息将不会被收集或发送。
+| 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
+|---|---|---|
+| 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义配置文件信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到美国数据中心。 <br>除区段代码和镜像页面ID外，所有Adobe Campaign Standard事件字段均在美国数据中心处理。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除区段代码和镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。 |
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt;来更改 **[!UICONTROL Options]**。
 
-可随时更改该值。The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
+可以随时更改该值。 值1对应于 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)
-
