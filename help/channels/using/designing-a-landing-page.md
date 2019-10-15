@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 ## 设置权限和预加载数据 {#setting-permissions-and-pre-loading-data}
 
-登录页面的访问权限可限于已识别的访客，例如，这些访客来自营销活动发送的消息中的链接。 在这种情况下，您可以在登录页面中预加载其数据。 操作步骤：
+登录页面的访问权限可限于已识别的访客（例如，来自营销活动发送的消息中的链接）或特定组织单位的访客。
+对于已识别的访客，您可以在登录页面中预加载其数据。 操作步骤：
 
 1. 编辑通过登陆页面功能板中的图 ![](assets/edit_darkgrey-24px.png) 标访问的登陆页面属性，并显示参 **[!UICONTROL Access & loading]** 数。
 
@@ -384,6 +385,26 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 * 使用URL参数，使用以下选项识别访 **[!UICONTROL Authorize visitor identification via URL parameters]** 客：然后，必须选择加载键，并将过滤器参数与相应URL的参数映射。
 * 使用此选项授权任何访客访问登 **[!UICONTROL Authorize unidentified visitors]** 录页。
+
+登录页面也可以链接到组织单元。 这将定义用户对不同登录页面的访问权限。 要分配组织单位，请执行以下操作：
+
+1. 通过图标访问登录页面 **[!UICONTROL Edit properties]** 属性。
+
+   ![](assets/lp_parameters_google3.png)
+
+1. 打开 **[!UICONTROL Access authorization]**。
+
+1. 单击下拉菜单并选择您的组织单位。 有关如何创建组织单位的详细信息，请参阅此 [页](../../administration/using/organizational-units.md)。
+
+   ![](assets/lp_org_unit_2.png)
+
+1. 自 **[!UICONTROL Created by]**&#x200B;动完 **[!UICONTROL Created]**&#x200B;成、 **[!UICONTROL Access authorization]** 和 **[!UICONTROL Last modified]** 字段。
+
+1. 然后， **[!UICONTROL Confirm]** 单击 **[!UICONTROL Save]**。
+
+登录页面现在只能由选定组织单位内的用户访问和管理。
+
+![](assets/lp_org_unit_3.png)
 
 ## 设置Google reCAPTCHA {#setting-google-recaptcha}
 
