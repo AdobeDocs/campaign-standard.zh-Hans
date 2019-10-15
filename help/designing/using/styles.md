@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -148,7 +148,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 #### 示例：调整垂直对齐和填充 {#example--adjusting-vertical-alignment-and-padding}
 
-要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此，请按照以下步骤操作：
+要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此请执行以下操作步骤：
 
 1. 直接在电子邮件中或使用左侧调色板中提供的结构树选择结构 **组件**。
 1. 在上下 **文工具栏**，单 **[!UICONTROL Select a column]** 击并选择要编辑的工具栏。 也可以从结构树中选择它。
@@ -172,6 +172,30 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 1. 以类似的方式继续调整其他列的对齐方式和填充。
 
    ![](assets/des_adjusting_columns.png)
+
+1. 保存更改。
+
+### 关于样式链接 {#about-styling-links}
+
+您可以在电子邮件设计器中为链接添加下划线并选择其颜色和目标。
+
+1. 在插入链接的组件中，选择链接的标签文本。
+
+1. 在组件设置中，选中 **[!UICONTROL Underline link]** 以在链接的标签文本上加下划线。
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. 要选择将在其中打开您的链接的浏览上下文，请选择一个 **[!UICONTROL Target]**。
+
+   ![](assets/stylelinks-target.png)
+
+1. 要更改链接的颜色，请单击 **[!UICONTROL Link color]**。
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. 选择所需的颜色。
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. 保存更改。
 
