@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## 新增功能
 
-* **[电子邮件设计](channels/using/event-transactional-messages.md)**<br/>人员在您的交易邮件中使用电子邮件设计人员。
+* **[隐私管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理了解Adobe Campaign提供的工具，帮助您遵守隐私。
 
-* **[工作流区段](reporting/using/creating-a-report-workflow-segment.md)**<br/>根据工作流区段创建报表。
+* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
 
-* **[新的工作流使用案例](automating/using/workflow-created-query-with-complement.md)**<br/>阅读我们的工作流查询使用案例。
+* **[电子邮件设计](designing/using/designing-content-in-adobe-campaign.md)**<br/>人员请参阅重新组织的电子邮件设计人员文档。
 
-* **[加载文件活动](automating/using/load-file.md)**<br/>使用“加载文件”活动发送包含其他数据的电子邮件。
+* **[登录页](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>面了解有关如何设置登录页面的更多信息。
 
 [单击此处以获取更多更新](rn/using/documentation-updates.md)
 
