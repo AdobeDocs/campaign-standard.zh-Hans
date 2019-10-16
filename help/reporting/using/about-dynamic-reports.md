@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
+source-git-commit: 7df9d0d4a3cb801619d703857fb71f2ee9ccb435
 
 ---
 
@@ -82,14 +82,14 @@ source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 |  | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和亚太地区（亚太地区） | **功能可用**。 <br>开箱即用（即，城市、国家／地区、州、性别和年龄段）以及将自定义档案信息推送到美国报告中心。 有关配置文件维的详细信息，请参阅本 [页](../../reporting/using/list-of-components-.md) | **功能可用**。 <br>所有现成和自定义配置文件字段以及Adobe Campaign Standard事件字段均在美国数据中心进行处理。 |
-| EMEA（欧洲中东和非洲） | **功能可用**。 <br>开箱即用（即，城市、国家／地区、州、性别和年龄段）以及将自定义档案信息推送到EMEA报告中心。 有关配置文件维的详细信息，请参阅本 [页](../../reporting/using/list-of-components-.md) | **功能可用。** 在 <br>EMEA数据中心内处理的所有现成和自定义配置文件字段以及Adobe Campaign Standard活动字段。 **[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>开箱即用（即，城市、国家／地区、州、性别和年龄段）以及将自定义档案信息推送到EMEA报告中心。 有关配置文件维的详细信息，请参阅本 [页](../../reporting/using/list-of-components-.md) | **功能可用。** 在 <br>EMEA数据中心内处理的所有现成和自定义配置文件字段以及Adobe Campaign Standard活动字段。 <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。 |
 
 下表根据您所在的地区显示拒绝本协议后会发生什么情况。 请注意，即使您拒绝本协议，仍可报告交付情况和Microsoft Dynamics 365集成。
 
 | 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义配置文件信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到美国数据中心。 <br>除区段代码和镜像页面ID外，所有Adobe Campaign Standard事件字段均在美国数据中心处理。 |
-| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除区段代码和镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除区段代码和镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。  <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。 |
 
 此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt;来更改 **[!UICONTROL Options]**。
 
