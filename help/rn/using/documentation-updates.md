@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365集成(GA)-阅 [读更多](https://helpx.adobe.com/campaig
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-18}
 
-Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard和Campaign Classic的错误消息列表已更新。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内的隐私管理文档。 [阅读更多](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
