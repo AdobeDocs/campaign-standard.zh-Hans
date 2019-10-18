@@ -14,7 +14,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dec43f3646a775fb16c3751635087666fc3969fb
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -56,7 +56,7 @@ Campaign standard提供了多种工具，帮助您扩展营销数据库。 本�
 ## 从Microsoft Dynamics同步配置文件365
 
 Campaign standard与Microsoft Dynamics 365集成后，您可以将联系人数据从Microsoft Dynamics 365传递到Campaign数据库。
-然后，这些联系人会显示在配置文件列表中，并可以定位在营销活动中。
+这些联系人随后会显示在列 **[!UICONTROL Profiles]** 表中，并可在营销活动中定位。
 
 有关此集成的详细信息，请参阅专 [用文档](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
 
