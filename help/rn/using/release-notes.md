@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
+source-git-commit: a206521e458620c7b452f403353fec482fe18dee
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 * [营销活动发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新文档更新](../../rn/using/documentation-updates.md)
-* [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 以前的发行说明： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
