@@ -14,7 +14,7 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign允许您使用不同的Adobe Experience cloud应用程序交换�
 集成支持两种类型的Adobe Experience Cloud ID:
 
 * **访客ID**:此类型的ID允许您将Adobe Experience cloud访客与Adobe Campaign配置文件进行协调。
-* **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign数据库中的配置文件进行协调。 此集成支持常规声明ID、散列声明ID和加密声明ID。 有关 **[!UICONTROL Declared ID]** 有效性，请参阅此 [页](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
+* **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign数据库中的配置文件进行协调。 此集成支持常规声明ID、散列声明ID和加密声明ID。 要了解有关有效性的 **[!UICONTROL Declared ID]** 更多信息，请参阅此 [页面](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
 
    加密允许您通过指定加密算法，使用声明的ID在数据源（例如PII）中共享加密数据。
 
