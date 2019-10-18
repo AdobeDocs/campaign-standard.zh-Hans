@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a206521e458620c7b452f403353fec482fe18dee
+source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a206521e458620c7b452f403353fec482fe18dee
    <p>除了Adobe Campaign中已有的隐私权功能（包括同意管理、数据保留设置和用户角色）外，我们还将利用此机会加入其他功能，以帮助您做好CCPA准备工作：</p>
    <ul>
     <li>访问权和删除权：我们正在利用为GDPR添加的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
-    <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 此方法是您应用于所有访问和删除请求的方法。 不建议使用Campaign API和界面访问和删除请求。 但是，如果您仍需在19.4中使用这些方法，请注意，规章类型已在Campaign界面和API中添加，并且是强制性的。 对于该接口，默认值将设置为GDPR。 对于API，您需要在有效负荷中包含此字段。 请参阅 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API文档</a>。</p></li>
+    <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 此方法是您应用于所有访问和删除请求的方法。 不建议使用Campaign API和界面访问和删除请求。  请参阅已弃 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">用和已删除功能文章</a>。</p></li>
     <li>“ <strong>CCPA选择退出</strong> ”字段已添加到配置文件资源中，以允许Adobe Campaign用户跟踪消费者是否选择退出个人信息销售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">了解更多信息</a>。</li>
   </ul>
     <p>请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
