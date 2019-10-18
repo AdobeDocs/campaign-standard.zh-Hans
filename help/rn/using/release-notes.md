@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
+source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
  <tbody> 
   <tr> 
    <td> 加利福尼亚消费者隐私法(CCPA)<br /> </td> 
-   <td> <p>CCPA是加利福尼亚州新的隐私法，该法律将2020年1月1日生效的数据保护要求协调并现代化。 CCPA适用于持有居住在加利福尼亚的数据主体数据的Adobe Campaign客户。</p>
+   <td> <p>CCPA是加利福尼亚州新的隐私法，它使2020年1月1日生效的数据保护要求协调并现代化。 CCPA适用于持有居住在加利福尼亚的数据主体数据的Adobe Campaign客户。</p>
    <p>除了Adobe Campaign中已有的隐私权功能（包括同意管理、数据保留设置和用户角色）外，我们还将利用此机会加入其他功能，以帮助您做好CCPA准备工作：</p>
    <ul>
     <li>访问权和删除权：我们正在利用为GDPR添加的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
