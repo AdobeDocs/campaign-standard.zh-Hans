@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
 
 ---
 
@@ -45,7 +45,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-已添加新部分。 它提供了不同方法的概述，这些方法允许您丰富Campaign standard数据库。 [阅读更多](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## 文档更新- 2019年10月 {#doc-updates-october-2019}
 
