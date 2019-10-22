@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 要进一步了解维度与指标之间的兼容性，请参阅 [此表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，则单元格将显示值 **None**。
 
-![](assets/dynamic_report_compatibility.png)
+[![图像](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 ## Dimensions {#dimensions}
 
