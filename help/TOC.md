@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign standard帮助
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
 
 ---
 
@@ -25,7 +25,6 @@ source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
       + [动态和个性化内容](start/using/dynamic-and-personalized-content.md)
       + [跟踪、监视和报告](start/using/tracking--monitoring-and-reporting.md)
       + [与Adobe解决方案集成](start/using/integrating-with-adobe-solutions.md)
-      + [丰富Campaign数据库](start/using/enriching-campaign-database.md)
    + 发现界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面说明](start/using/interface-description.md)
