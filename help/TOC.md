@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: 最终用户
 user-guide-title: Adobe Campaign standard帮助
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [管理测试配置文件和发送校样](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
-   + 调度消息 {#sheduling-messages}
+   + 计划消息 {#scheduling-messages}
       + [关于调度消息](sending/using/about-scheduling-messages.md)
       + [优化发送时间](sending/using/optimizing-the-sending-time.md)
       + [在收件人的时区发送消息](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
