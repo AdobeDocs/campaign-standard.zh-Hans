@@ -4,7 +4,7 @@ seo-title: Adobe Campaign Standard 产品文档
 solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
@@ -16,15 +16,19 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## 新增功能
 
-* **[隐私管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理了解Adobe Campaign提供的工具，帮助您遵守隐私。
+* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
-* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
+* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
+了解与交付设计和发送相关的最佳实践的更多信息。
 
-* **[电子邮件设计](designing/using/designing-content-in-adobe-campaign.md)**<br/>人员请参阅重新组织的电子邮件设计人员文档。
+* **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+请查阅重新组织的电子邮件设计工具文档。
 
-* **[登录页](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>面了解有关如何设置登录页面的更多信息。
+* **[登陆页面](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+了解有关如何设置登陆页面的更多信息。
 
-[单击此处以获取更多更新](rn/using/documentation-updates.md)
+[单击此处以了解更多更新](rn/using/documentation-updates.md)
 
 ## 热门页面
 
@@ -37,17 +41,18 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色和安全组</strong></a>
     </div>
-    <em></em>了解如何定义权限并为Campaign用户分配角色。
+    <em>了解如何定义权限并为 Campaign 用户分配角色。</em>
     <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="设计人员" src="start/using/assets/design.png" />
+      <img alt="设计工具" src="start/using/assets/design.png" />
     </a>
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>设计电子邮件</strong></a>
     </div>
-    <em>了解如何使用电子邮件设计人员创建响应式个性化电子邮件</em><br>
+    <em>了解如何使用电子邮件设计工具创建响应式及个性化的电子邮件</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="开发人员" src="start/using/assets/dev.png" />
@@ -55,7 +60,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <strong>面向开发人员的资源</strong>
     </div>
     <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience cloud触发器</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 触发器</a></em></p>
     <br>
   </td>
 </tr>
