@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
 * 页 **[!UICONTROL Adobe Campaign]** 面左上角的徽标可让您访问高级功能和配置。 菜单取决于您的个人资料和权限。
 
-   高级菜单显示在高级菜 [单部分](../../start/using/interface-description.md#advanced-menu) 。
+   高级菜单显示在高级菜 [单部分](#advanced-menu) 。
 
 * 该链 **[!UICONTROL Home]** 接允许您显示Adobe Campaign主页。
 * 通过 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]**&#x200B;链接， **[!UICONTROL Audiences]** 您可以访 **[!UICONTROL Reports]** 问链接到这些功能的视图。
@@ -103,7 +103,7 @@ Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
 ### 管理 {#administration}
 
-该图 **[!UICONTROL Administration]** 标允许您访问仅可由职能管理员执行的高级功能。 有关此方面的详细信息，请参阅“管 [理](../../administration/using/about-administrating-adobe-campaign.md) ”部分。
+该图 **[!UICONTROL Administration]** 标允许您访问仅可由职能管理员执行的高级功能。 For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
 
 ## 中区 {#central-zone}
 
