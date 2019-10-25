@@ -4,105 +4,105 @@ seo-title: 更新数据库结构
 description: 更新数据库结构
 seo-description: 了解如何更新Adobe Campaign数据库。
 page-status-flag: 从未激活
-uuid: 6c802f4f-d298-4ca4-acdb-09f2 ad3865 b9
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: developing
-content-type: reference
+uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开发
+content-type: 参考
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 2448b126-66b8-4608-aa6 c-8028fb1902 a4
-context-tags: 部署，主要；EventCusResource，概述
-internal: n n
+discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
+context-tags: deploy,main;eventCusResource，概述
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Updating the database structure{#updating-the-database-structure}
+# 更新数据库结构{#updating-the-database-structure}
 
-为了使您对数据模型的修改生效并能够使用它们，需要更新数据库结构。
+要使您对数据模型的修改有效并能够使用它们，需要更新数据库结构。
 
 >[!NOTE]
 >
 >自定义资源在Adobe执行的自动更新期间自动刷新。
 
-## Publishing a custom resource {#publishing-a-custom-resource}
+## 发布自定义资源 {#publishing-a-custom-resource}
 
-要应用对资源所执行的更改，必须执行数据库更新。
+要应用对资源所做的更改，必须执行数据库更新。
 
 >[!NOTE]
 >
->如果修改或删除在活动上使用的自定义资源字段，相应的活动将自动取消发布。See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>如果修改或删除了在事件上使用的自定义资源的字段，则相应的事件将自动取消发布。 请参 [阅配置事务消息](../../administration/using/configuring-transactional-messaging.md)。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Publishing]**.
-1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Publishing]**。
+1. 默认情况下，选 **[!UICONTROL Determine modifications since the last publication]** 中此选项，这意味着将仅应用自上次更新以来执行的更改。
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Repair database structure]** reestablishes a correct configuration if the publication failed before completing. 直接在数据库中执行且不使用自定义资源的任何修改都将被删除。
+   >如果 **[!UICONTROL Repair database structure]** 发布在完成之前失败，则会重新建立正确的配置。 将删除直接在数据库中执行的、不使用自定义资源的任何修改。
 
    ![](assets/schema_extension_12.png)
 
-1. Click the **[!UICONTROL Prepare publication]** button to start the analysis. 请注意，当实例不有意忙于工作时，应进行大表更新。
+1. 单击 **[!UICONTROL Prepare publication]** 按钮以开始分析。 请注意，当实例不因工作流而忙得很多时，应进行大表更新。
 
-   To learn more on the action to perform on the Profiles &amp; Services API, refer to [Publishing a resource with API extension](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+   要进一步了解对Profiles &amp; Services API执行的操作，请参阅 [发布带API扩展的资源](#publishing-a-resource-with-api-extension)。
 
    ![](assets/schema_extension_13.png)
 
-1. Once the publication has been carried out, click the **[!UICONTROL Publish]** button to apply your new configurations.
-1. Once published, the **[!UICONTROL Summary]** pane of each resource indicates that the status is now **[!UICONTROL Published]** and specifies the date of the last publication.
+1. 执行发布后，单击按钮以应 **[!UICONTROL Publish]** 用您的新配置。
+1. 发布后，每 **[!UICONTROL Summary]** 个资源的窗格将指示状态现在为 **[!UICONTROL Published]** 状态并指定上次发布的日期。
 
    >[!NOTE]
    >
-   >如果对资源进行了新更改，则必须重复此操作以应用更改。
+   >如果对资源进行了新更改，则必须对要应用的更改重复此操作。
 
-   If resources have the **[!UICONTROL Pending re-draft]** status before publishing, then an additional message will appear inviting you to check your actions because publishing will result in definitive changes (deleting columns, tables...). To help you carry out this last change, an **[!UICONTROL SQL Script]** tab is available. 它提供将在发布期间执行的SQL命令。
+   如果资源在发 **[!UICONTROL Pending re-draft]** 布之前处于状态，则会显示另一条消息，邀请您检查您的操作，因为发布将导致最终更改（删除列、表……）。 为帮助您执行上次更改，可使 **[!UICONTROL SQL Script]** 用选项卡。 它提供将在发布过程中执行的SQL命令。
 
    ![](assets/schema_extension_scriptsql.png)
 
    >[!NOTE]
    >
-   >You can stop the Re-draft process by clicking the **[!UICONTROL Cancel re-draft]** button. 此操作会将资源的状态还原回原来的状态。
+   >单击该按钮可停止“重绘”过 **[!UICONTROL Cancel re-draft]** 程。 此操作会将资源的状态还原回其原始状态。
 
-1. If your publication failed, you can always go back to the previous publication by clicking **[!UICONTROL Back to latest successful publication]**.
+1. 如果发布失败，您始终可以通过单击返回到上一个发布 **[!UICONTROL Back to latest successful publication]**。
 
-   请注意，如果将出版物保留为失败状态，将在登录实例后打开一个弹出窗口，以提醒您修复此发布。在修复发布之前，不会使用新产品版本升级您的实例。
+   请注意，如果将出版物保留为失败状态，您登录实例后将立即打开一个弹出窗口，提醒您修复此出版物。 在您的发布被修复之前，您的实例不会升级为新产品版本。
 
    ![](assets/schema_extension_31.png)
 
-## Publishing a resource with API extension {#publishing-a-resource-with-api-extension}
+## 使用API扩展发布资源 {#publishing-a-resource-with-api-extension}
 
-在下列情况下，您可以创建配置文件和服务API：
+在以下情况下，您可以创建Profile和Services API:
 
-* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]**, you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
-* When you define a custom resource and you create a link between the resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** and the custom resource, you can perform an update to include the new resource in the API.
+* 扩展自定义资源时， **[!UICONTROL Profiles]** 或 **[!UICONTROL Services]**&#x200B;者，您可以执行Profiles and Services API的更新，以集成在自定义资源扩展中声明的字段。
+* 定义自定义资源并在资源或自定义资源之间创建 **[!UICONTROL Profiles]** 链 **[!UICONTROL Services]** 接时，可以执行更新以将新资源包含在API中。
 
 您可以在发布屏幕中选择此选项。
 
-* 如果API尚未发布(意味着您从未扩展过资源，或者您从未对此资源或其他资源检查过此选项)，您可以选择创建或不使用。
+* 如果API尚未发布（即，如果您从未扩展过资源，或者您尚未为此资源或其他资源选中此选项），则可以选择是否创建它。
 
    ![](assets/create-profile-and-services-api.png)
 
-* 如果API已发布(意味着您已经延长了资源并选中了此选项)，则会强制执行API更新。
+* 如果API已发布（即，如果您已扩展资源并选中此选项一次），则将强制进行API更新。
 
-   事实上，一旦创建完毕，API会在您每次再次发布它时自动更新。这是为了避免破坏此API的配置文件或服务资源，并使您的实例损坏。
+   事实上，一旦创建了API,API会在您每次再次发布时自动更新。 这是为了避免破坏此API的配置文件或服务资源并损害实例。
 
-Note that by default, the custom resource is integrated, but, for a specific behavior, if you don't want to publish this resource, you can select the option **[!UICONTROL Hide this resource from APIs]** available in the **[!UICONTROL Resource Properties]**.
+请注意，默认情况下，自定义资源是集成的，但是，对于特定行为，如果您不想发布此资源，则可以在中选择可 **[!UICONTROL Hide this resource from APIs]** 用的选项 **[!UICONTROL Resource Properties]**。
 
 ![](assets/removefromextoption.png)
 
-After the **[!UICONTROL Prepare Publication]** step, Adobe Campaign displays the delta between the current version of the API and the future version after the publication in the tab **[!UICONTROL Profiles & Services API Preview]**. 如果您第一次扩展API，delta会将现成的自定义资源定义与扩展进行比较。
+执行此步 **[!UICONTROL Prepare Publication]** 骤后，Adobe Campaign会在选项卡中显示API的当前版本与发布后的将来版本之间的增量 **[!UICONTROL Profiles & Services API Preview]**。 如果您是第一次扩展API，则增量将比较现成的自定义资源定义与您的扩展。
 
-选项卡中显示的信息分为三部分：添加、删除和修改元素。
+选项卡中显示的信息分为三个部分：添加、删除和修改的元素。
 
 ![](assets/extendpandsapi_diff.png)
 
-delta的分析是一个强制步骤，因为发布步骤将修改API行为，而且极有可能影响周围的多米诺开发。
+对delta的分析是一个必需步骤，因为发布步骤将修改API行为，并且极有可能在多米诺效应下影响周围的开发。
 
 >[!NOTE]
 >
->This publication updates the **[!UICONTROL profilesAndServicesExt]** API. **[!UICONTROL profilesAndServices]** API不会更新。
+>此出版物更新 **[!UICONTROL profilesAndServicesExt]** API。 不 **[!UICONTROL profilesAndServices]** 更新API。
 
-For more information on the Adobe Campaign API, consult the dedicated Adobe Campaign documentation on [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+有关Adobe Campaign API的详细信息，请查阅有关 [Adobe IO的专用Adobe Campaign文档](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html)。
