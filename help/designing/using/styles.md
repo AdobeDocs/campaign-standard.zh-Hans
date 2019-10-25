@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 1. 选择一个结构组件(直接在电子邮件中或使用左侧调色板中提供的结构 **树**)。
 1. 在上下文 **工具栏中**，单 **[!UICONTROL Select a column]** 击以选择所需的列。
 
-请参阅此部分 [的示例](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding)。
+请参阅此部分 [的示例](#example--adjusting-vertical-alignment-and-padding)。
 
 ### 调整样式设置 {#adjusting-style-settings}
 
-1. 在电子邮件中选择元素。 有关此内容的详细信息，请参 [阅选择元素](../../designing/using/styles.md#selecting-an-element)。
+1. 在电子邮件中选择元素。 有关此内容的详细信息，请参 [阅选择元素](#selecting-an-element)。
 1. 根据您的需要调整设置。 每个选定的元素提供一组不同的设置。
 
-   您可以插入背景、更改大小、修改水平或垂直对齐方式、管理颜色、 [添加填充](../../designing/using/styles.md#selecting-an-element)或边距等。
+   您可以插入背景、更改大小、修改水平或垂直对齐方式、管理颜色、 [添加填充](#selecting-an-element)或边距等。
 
-   为此，请使用窗格中显示的选项或 **[!UICONTROL Settings]** 添加内 [联样式属性](../../designing/using/styles.md#adding-inline-styling-attributes)。
+   为此，请使用窗格中显示的选项或 **[!UICONTROL Settings]** 添加内 [联样式属性](#adding-inline-styling-attributes)。
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 您可以通过单独编辑移动显示的所有样式选项来微调电子邮件的响应式设计。 例如，您可以调整边距和填充、使用较小或较大的字体大小、更改按钮或应用特定于移动版电子邮件的不同背景颜色。
 
-所有样式选项均在移动视图中可用。 “电子邮件设计器”样式设置显示在“编辑电子 [邮件样式”部分](../../designing/using/styles.md) 。
+所有样式选项均在移动视图中可用。 “电子邮件设计器”样式设置显示在“编辑电子 [邮件样式”部分](#editing-email-styles) 。
 
 1. 创建电子邮件并开始编辑内容。 有关此方面的详细信息，请参 [阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 要访问专用的移动视图，请选择 **[!UICONTROL Switch to mobile view]** 按钮。
