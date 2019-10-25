@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   为了能够发送电子邮件，此上下文会删除黑名单字段。 我们稍后会看到，第一个登录页面在确认前将此字段设置为 **true** ，以防止向未确认的配置文件发送电子邮件。 有关此方面的详细信息，请参 [阅步骤3:创建客户获取登陆页面](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)。
+   为了能够发送电子邮件，此上下文会删除黑名单字段。 我们稍后会看到，第一个登录页面在确认前将此字段设置为 **true** ，以防止向未确认的配置文件发送电子邮件。 有关此方面的详细信息，请参 [阅步骤3:创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登录页面的内容：例如，您可以显示个性化数据并将确认按钮的标签更改为“单击此处确认我的订阅”。
 
@@ -96,7 +96,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 1. 在下 **[!UICONTROL Profile]** 拉列 **[!UICONTROL Targeting enrichment]** 表中选择作为。
 1. 单击 **[!UICONTROL Publish]** 以发布活动。
 
-活动已准备就绪。 您现在可以设计电子邮件模板。 此模板必须包含指向之前创建的 **CONFIRMATION** 登陆页面的链接。 有关此问题的详细信息，请参 [阅设计确认消息](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)。
+活动已准备就绪。 您现在可以设计电子邮件模板。 此模板必须包含指向之前创建的 **CONFIRMATION** 登陆页面的链接。 有关此问题的详细信息，请参 [阅设计确认消息](#design-the-confirmation-message)。
 
 ### 创建排版规则 {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    并将值设置为 **true**。
 
-   这是强制要求强制列入黑名单，并避免向未确认同意的访客发送消息。 确认登陆页面的验证将在确认后将此字段设 **置为** false。 有关此方面的详细信息，请参 [阅步骤1:创建确认登陆页面](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)。
+   这是强制要求强制列入黑名单，并避免向未确认同意的访客发送消息。 确认登陆页面的验证将在确认后将此字段设 **置为** false。 有关此方面的详细信息，请参 [阅步骤1:创建确认登陆页面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** &gt;部 **[!UICONTROL Specific actions]** 分中，选择选项 **[!UICONTROL Start sending messages]**。
 1. 在关联的下拉列表中，选择您创建的 **CONFIRM** Transactional Message模板。
