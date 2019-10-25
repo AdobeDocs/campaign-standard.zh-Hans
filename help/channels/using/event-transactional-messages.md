@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与测试配置文件中输入的信息匹配。 有关详细信息，请参 [阅在交易消息中定义测试配置文件](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+   您可以检查个性化字段是否与测试配置文件中输入的信息匹配。 有关详细信息，请参 [阅在交易消息中定义测试配置文件](#defining-a-test-profile-in-a-transactional-message)。
 
 ## 在交易消息中使用产品列表 {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   有关在事务性消息中定义测试配置文件的详细信息，请参 [阅此部分](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+   有关在事务性消息中定义测试配置文件的详细信息，请参 [阅此部分](#defining-a-test-profile-in-a-transactional-message)。
 
 ## 测试交易消息 {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->要再次发布消息，您需要返回到相应的活动配置，发布消息，然后发布消息。 有关此内容的详细信息，请参 [阅发布交易消息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+>要再次发布消息，您需要返回到相应的活动配置，发布消息，然后发布消息。 有关此内容的详细信息，请参 [阅发布交易消息](#publishing-a-transactional-message)。
 
-如果取消发布已暂停的事务性消息，则可能必须等待最多24小时才能再次发布该消息。 这样，工作流便 **[!UICONTROL Database cleanup]** 可清除发送到队列的所有事件。 暂停消息的步骤在暂停交易消息发 [布部分中有详细介绍](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) 。
+如果取消发布已暂停的事务性消息，则可能必须等待最多24小时才能再次发布该消息。 这样，工作流便 **[!UICONTROL Database cleanup]** 可清除发送到队列的所有事件。 暂停消息的步骤在暂停交易消息发 [布部分中有详细介绍](#suspending-a-transactional-message-publication) 。
 
 每 **[!UICONTROL Database cleanup]** 天凌晨4点运行的工作流可通过 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;访问 **[!UICONTROL Workflows]**。
 
@@ -288,7 +288,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 * **交易消息**:要删除事务性消息，应取消发布消息，而不应暂停消息。
 
-   如果取消发布交易消息，则还需要取消发布活动配置以成功删除您的交易消息，除非将另一个交易消息链接到相应的事件。 有关如何取消发布交易消息的详细信息，请参阅此 [部分](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
+   如果取消发布交易消息，则还需要取消发布活动配置以成功删除您的交易消息，除非将另一个交易消息链接到相应的事件。 有关如何取消发布交易消息的详细信息，请参阅此 [部分](#unpublishing-a-transactional-message)。
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 当事务消息无法发送时，有两个重试系统：
 
-* 在事务消息处理级别，事务消息可在事件被分配到执行交付之前失败，这意味着在事件接收和交付准备之间。 请参阅 [事件处理重试过程](../../channels/using/event-transactional-messages.md#event-processing-retry-process)。
-* 在发送处理级别，一旦事件被分配到执行交付，事务消息就可能由于临时错误而失败。 请参阅 [消息发送重试过程](../../channels/using/event-transactional-messages.md#message-sending-retry-process)。
+* 在事务消息处理级别，事务消息可在事件被分配到执行交付之前失败，这意味着在事件接收和交付准备之间。 请参阅 [事件处理重试过程](#event-processing-retry-process)。
+* 在发送处理级别，一旦事件被分配到执行交付，事务消息就可能由于临时错误而失败。 请参阅 [消息发送重试过程](#message-sending-retry-process)。
 
 ### 事件处理重试进程 {#event-processing-retry-process}
 
