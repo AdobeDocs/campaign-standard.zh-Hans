@@ -14,7 +14,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,9 +31,9 @@ source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
 
 要将多语言内容变体用于推送通知交付，请执行以下步骤：
 
-* [第1步：上传多语言内容变体](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [第2步：使用多语言内容变体预览并最终确定推送通知](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [第3步：发送和分析多语言推送通知交付](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [第1步：上传多语言内容变体](#step-1--upload-multilingual-content-variant)
+* [第2步：使用多语言内容变体预览并最终确定推送通知](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [第3步：发送和分析多语言推送通知交付](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## 第1步：上传多语言内容变体 {#step-1--upload-multilingual-content-variant}
 
