@@ -15,7 +15,7 @@ context-tags: 交付，sms内容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 SMS和推送内容编辑器分为两个不同的部分，允许您查看和编辑消息。
 
-1. 操 **作栏包含** 页面的常规选项。 您可以在此处插入个性化字段或内容块、添加条件文本和预览SMS内容。 请参 [阅SMS和推送内容编辑器操作栏](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar)。
-1. 屏幕 **的编辑区域** ，允许您直接输入文本消息并选择要插入个性化的位置。 请参 [阅SMS和推送内容编辑模式](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes)。
+1. 操 **作栏包含** 页面的常规选项。 您可以在此处插入个性化字段或内容块、添加条件文本和预览SMS内容。 请参 [阅SMS和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
+1. 屏幕 **的编辑区域** ，允许您直接输入文本消息并选择要插入个性化的位置。 请参 [阅SMS和推送内容编辑模式](#sms-and-push-content-edition-modes)。
 
 ## SMS和推送内容编辑器操作栏 {#sms-and-push-content-editor-action-bar}
 
