@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
 
 ---
 
@@ -67,13 +67,13 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
 
 >[!NOTE]
 >
->这些更改仅适用于Campaign Standard 19.4的起始版本。
+> 从Campaign Standard 19.4版本开始，动态报告的同意弹出窗口已更新，以包括Adobe Campaign Standard和Microsoft Dynamics 365集成。
 
 动态报告使用协议的目的是作为数据处理的弹出同意。 默认情况下，协议仅可见，且只有分配有管理权限的用户才能接受或拒绝。
 
 有三个选项可用：
 
-* **[!UICONTROL Ask me later]**:单击稍后询问，窗口将在24小时内停止显示。
+* **[!UICONTROL Ask me later]**:单击“ **稍后询问**”，窗口将在24小时内停止显示。 在您接受或拒绝协议之前，配置文件维度不会显示在您的报表中，也不会收集或发送客户的个人身份信息。
 * **[!UICONTROL Accept]**:接受本协议后，即授权Adobe Campaign收集客户的个人身份信息并将其传输到报告或数据中心。
 * **[!UICONTROL Decline]**:拒绝协议后，您的报表中不会显示配置文件维度，也不会收集或发送客户的个人身份信息。 请注意，在这种情况下，仍将收集externalID并用于标识最终用户。
 
@@ -88,11 +88,13 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
 
 | 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
-| 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义配置文件信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到美国数据中心。 <br>除镜像页面ID外，所有在美国数据中心处理的Adobe Campaign standard事件字段。 |
-| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。  <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。 |
+| 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义配置文件信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到美国数据中心。 <br>除镜像页面ID外，所有在美国数据中心处理的Adobe Campaign standard事件字段。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。  <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
 
 此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt;来更改 **[!UICONTROL Options]**。
 
 可以随时更改该值。 值1对应于 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
+
+请注意，对于Adobe Campaign Standard 19.4之前的版本，值-1对应于 **[!UICONTROL Ask me later]**、0和 **[!UICONTROL Decline]** 1 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)
