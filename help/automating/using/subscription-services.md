@@ -2,83 +2,83 @@
 title: 订阅服务
 seo-title: 订阅服务
 description: 订阅服务
-seo-description: 通过订阅服务活动，您可以将配置文件放置在大量资产中，并将其订阅服务或取消订阅服务。
+seo-description: 订阅服务活动允许您批量接收配置文件并将其订阅到服务或取消订阅服务。
 page-status-flag: 从未激活
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 数据管理活动
-discoiquuid: 74a6df0e-fd85-4404-a42 c-9a7406512717
-context-tags: setFofservice，workflow，main
-internal: n n
+discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
+context-tags: setOfService，工作流，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Subscription Services{#subscription-services}
+# 订阅服务{#subscription-services}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/wf_subscription.png)
 
-**[!UICONTROL Subscription Services]** 通过该活动，您可以将配置文件放置在大量资产中，并将其订阅服务或取消订阅服务。
+该活 **[!UICONTROL Subscription Services]** 动允许您批量获取配置文件，并将其订阅到服务或取消订阅服务。
 
 >[!CAUTION]
 >
->在工作流上下文中管理订阅时，订阅或取消订阅的配置文件不会接收服务属性中定义的不同确认电子邮件。
+>当在工作流的上下文中管理订阅时，订阅或取消订阅的配置文件不会接收在服务属性中定义的不同的确认电子邮件。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL Subscription Services]** 该活动是唯一一项Adobe Campaign功能，它允许通过单一操作订阅或取消订阅服务。
+该活 **[!UICONTROL Subscription Services]** 动是唯一一项Adobe Campaign功能，它允许在单个操作中订阅或取消订阅服务的多个配置文件。
 
-在执行定位或导入包含已识别数据的文件后，您可以使用此活动。
+在进行定位或导入了包含已识别数据的文件后，您可以使用此活动。
 
-如果在文件中通过专用列指定，则此活动还允许您选择操作(订阅或取消订阅)以及执行操作所在的服务。
+如果通过专用列在文件中指定，则此活动还允许您选择操作（订阅或取消订阅）以及执行该操作的服务。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Subscription Services]** activity into your workflow.
-1. 在导入之后的其他定位活动之后连接它，如查询或排序。
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Service]** for which you would like to manage the subscriptions using one of the following options:
+1. 将活动拖放 **[!UICONTROL Subscription Services]** 到工作流中。
+1. 在导入后的查询或对帐等其他定位活动之后连接它。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 使用 **[!UICONTROL Service]** 以下选项之一选择要管理其订阅的选项：
 
-   * **[!UICONTROL Select a specific service]**：手动选择服务。
-   * **[!UICONTROL Select services from the inbound transition]**：在入站过渡中指定服务。例如，您可以导入一个文件，它指定要为每一行管理的服务。If you choose this option, make sure a link has been created beforehand between the data and the **Service** resource, as shown in [this example](../../automating/using/subscription-services.md#example--updating-multiple-subscription-statuses-from-a-file).
+   * **[!UICONTROL Select a specific service]**:手动选择服务。
+   * **[!UICONTROL Select services from the inbound transition]**:服务在入站过渡中指定。 例如，可以导入一个文件，该文件指定要为每行管理的服务。 如果选择此选项，请确保数据与服务资源之间已预先创建了链接，如本 **例所示**[](#example--updating-multiple-subscription-statuses-from-a-file)。
 
-      然后，为每个记录动态选择执行操作的服务。
+      然后，为每个记录动态地选择要执行操作的服务。
 
-1. Select the **[!UICONTROL Operation type]** to execute using one of the following options:
+1. 使用 **[!UICONTROL Operation type]** 以下选项之一选择要执行的选项：
 
-   * **[!UICONTROL Select a specific operation type]**：根据需要手动选择或 **[!UICONTROL Subscribe]****[!UICONTROL Unsubscribe]** 配置文件。
-   * **[!UICONTROL Select an operation type from a path of inbound transition]**：选择用于指定每个记录执行操作的入站数据列。
+   * **[!UICONTROL Select a specific operation type]**:手动选择是要选择配置 **[!UICONTROL Subscribe]** 文件还 **[!UICONTROL Unsubscribe]** 是配置。
+   * **[!UICONTROL Select an operation type from a path of inbound transition]**:选择入站数据的列，该列指定对每个记录执行的操作。
 
-      在此列中，必须将操作指定为布尔或整数。Use **0** to unsubscribe a record and **1** to subscribe.
+      在此列中，必须将操作指定为Boolean或Integer。 使用 **0** 可取消订阅记录， **使用** 1可订阅。
 
-      In case the values contained in an imported file do not match the above requirements, you can still use the [Remapping of values](../../automating/using/load-file.md#column-format) option available in the **[!UICONTROL Load file]** activity
+      如果导入文件中包含的值与上述要求不匹配，您仍可以使用活动中可用的“重 [新映射值](../../automating/using/load-file.md#column-format) ”选项 **[!UICONTROL Load file]** 。
 
-1. 如果入站数据包含与配置文件的订阅日期对应的列，则将其选中。您可以将其留空，但在运行工作流时不设置订阅日期。
-1. 定义订阅的来源。You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. 您可以将其留空，但在运行工作流时没有设置源。
-1. 如果需要，您可以生成出站过渡。此过渡的数据与入站活动中的数据完全相同。
+1. 如果入站数据包含一列，该列与服务的配置文件的订阅日期相对应，请选择该列。 您可以将其留空，但运行工作流时不会设置订阅日期。
+1. 定义订阅的源。 您可以通过选中该选项将其设置为入站数据的一个字段或您选择的常数 **[!UICONTROL Set a constant as origin]** 值。 可以将其留空，但运行工作流时不设置源。
+1. 如果需要，您可以生成出站过渡。 此过渡包含的数据与入站活动中的数据完全相同。
 1. 确认活动的配置并保存工作流。
 
-   现在可以执行此操作。执行后，您可以查看服务详细信息中订阅或取消订阅服务的配置文件。
+   现在可以执行。 一旦执行，您就可以在服务的详细信息中查看订阅或取消订阅服务的配置文件。
 
-## Example: Subscribing profiles to a specific service after importing a file {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 示例：在导入文件后将配置文件订阅到特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例说明如何导入包含配置文件的文件并将其订阅现有服务。导入文件后，需要执行一个对帐，以便将所导入的数据识别为配置文件。为确保文件不包含任何重复项，将对数据执行取消删除活动。
+此示例说明了如何导入包含配置文件的文件并将其订阅到现有服务。 导入文件后，需要执行协调，以便将导入的数据标识为配置文件。 为确保文件不包含任何重复项，将对数据执行重复数据消除活动。
 
-此时将显示工作流：
+该工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 活动将加载配置文件文件并定义导入列的结构。
+* 活动 **[!UICONTROL Load file]** 加载配置文件并定义导入的列的结构。
 
-   对于此示例，加载的文件为. csv格式，并且包含以下数据：
+   在此示例中，加载的文件采用。csv格式并包含以下数据：
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -95,29 +95,29 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    ![](assets/subscription_activity_example2.png)
 
-* **[!UICONTROL Reconciliation]** 活动会将文件中的数据识别为Adobe Campaign数据库的配置文件维度。Only the **[!UICONTROL Identification]** tab is configured. 它会根据配置文件的电子邮件地址识别文件数据。
+* 活 **[!UICONTROL Reconciliation]** 动会将文件中的数据标识为属于Adobe Campaign数据库的配置文件维度。 只配置 **[!UICONTROL Identification]** 了选项卡。 它根据配置文件的电子邮件地址来标识文件数据。
 
    ![](assets/subscription_activity_example3.png)
 
-* A **[!UICONTROL Deduplication]** based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 如果从文件导入的数据包含任何重复项，则订阅服务的订阅将失败。
+* 根据 **[!UICONTROL Deduplication]** 临时资源 **的电子邮件** （由对帐产生）字段识别任何副本。 如果从文件导入的数据包含任何重复项，则对服务的订阅将失败以获取所有数据。
 
    ![](assets/subscription_activity_example5.png)
 
-* **[!UICONTROL Subscription Services]** 活动允许您选择要订阅的服务、对应于订阅日期的字段以及订阅源。
+* 通过 **[!UICONTROL Subscription Services]** 活动，您可以选择配置文件必须订阅的服务、与订阅日期对应的字段以及订阅的源。
 
    ![](assets/subscription_activity_example4.png)
 
-## Example: Updating multiple subscription statuses from a file {#example--updating-multiple-subscription-statuses-from-a-file}
+## 示例：从文件更新多个订阅状态 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含配置文件的文件，并将其订阅更新到文件中指定的多个服务。导入文件后，需要执行一个对帐，以便将导入的数据识别为配置文件，并提供指向服务的链接。为确保文件不包含任何重复项，将对数据执行取消删除活动。
+此示例说明如何导入包含配置文件的文件，并将其订阅更新到文件中指定的多个服务。 导入文件后，需要执行协调，以便将导入的数据标识为具有指向服务的链接的配置文件。 为确保文件不包含任何重复项，将对数据执行重复数据消除活动。
 
-此时将显示工作流：
+该工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 活动将加载配置文件文件并定义导入列的结构。
+* 活动 **[!UICONTROL Load file]** 加载配置文件并定义导入的列的结构。
 
-   对于此示例，加载的文件为. csv格式，并且包含以下数据：
+   在此示例中，加载的文件采用。csv格式并包含以下数据：
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -134,27 +134,27 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    ![](assets/subscription_example_load_file.png)
 
-   如您所注意，该操作在文件中指定为“sub”或“unsub”。The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. 为了符合此要求，将在“操作”列的详细信息中执行值的重新映射。
+   正如您所注意的，操作在文件中指定为“sub”或“nimbust”。 系统需要一个 **Boolean** 或 **** Integer值来识别要执行的操作：“0”可取消订阅，“1”可订阅。 为了满足此要求，将在“operation”列的详细信息中执行值的重新映射。
 
    ![](assets/subscription_example_remapping.png)
 
-   如果文件已经使用“0”和“1”识别操作，则无需重新映射这些值。Only make sure that the column is processed as a **Boolean** or **Integer** in the **[!UICONTROL Column definition]** tab.
+   如果您的文件已使用“0”和“1”来标识操作，则无需重新映射这些值。 仅确保在选项卡中将列作为 **Boolean****或Integer** 进行 **[!UICONTROL Column definition]** 处理。
 
-* **[!UICONTROL Reconciliation]** 活动会将文件中的数据识别为Adobe Campaign数据库的配置文件维度。Through the **[!UICONTROL Identification]** tab, the **email** field of the file is matched to the **email** field of the profile resource.
+* 活 **[!UICONTROL Reconciliation]** 动会将文件中的数据标识为属于Adobe Campaign数据库的配置文件维度。 通过选 **[!UICONTROL Identification]** 项卡，文件的 **电子邮件字段与配置文件资源** 的电子邮件字段相匹配 **** 。
 
    ![](assets/subscription_activity_example3.png)
 
-   **[!UICONTROL Relations]** 在选项卡中，将使用服务资源创建链接，以允许识别文件的 **服务** 字段。In this example, the values match the **name** field of the service resource.
+   在选 **[!UICONTROL Relations]** 项卡中，使用服务资源创建一个链接，以允许 **识别文件的** “服务”字段。 在此示例中，这些值与服务资 **源的名称** 字段相匹配。
 
    ![](assets/subscription_example_service_relation.png)
 
-* A **[!UICONTROL Deduplication]** based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. 消除重复项很重要，因为在重复的情况下，订阅服务的订阅将失败。
+* 根据 **[!UICONTROL Deduplication]** 临时资源 **的电子邮件** （由对帐产生）字段识别重复项。 消除重复项很重要，因为在出现重复项的情况下，对服务的订阅将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* A标 **[!UICONTROL Subscription Services]** 识要更新的服务是通过活动中创建的链接从过渡中来 **[!UICONTROL Reconciliation]** 的。
 
-   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. 此处只能选择Boolean或整数字段。If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
+   该 **[!UICONTROL Operation type]** 字段标识为来自 **文件的** operation字段。 此处只能选择布尔或整数字段。 如果包含要执行的操作的文件列未出现在列表中，请确保您已在活动中正确设置了列格式，如本示例前面所述。 **[!UICONTROL Load file]**
 
    ![](assets/subscription_activity_example_from_file.png)
 
