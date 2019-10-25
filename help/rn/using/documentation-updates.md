@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365集成(GA)-阅 [读更多](https://helpx.adobe.com/campaig
 
 Campaign Standard和Campaign Classic的错误消息列表已更新。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内的隐私管理文档。 [阅读更多](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内的隐私管理文档。 [阅读更多](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 添加了表示事务消息发布过程的新图表。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
