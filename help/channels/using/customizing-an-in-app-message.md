@@ -15,7 +15,7 @@ context-tags: 交付，inAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 通过应用程序内内容编辑器，您可以在两种应用程序内消息模式之间进行选择：
 
-* [消息模板](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template):此模板允许您使用图像或视频以及操作按钮完全自定义应用程序内。
-* [自定义消息](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message):通过此模板可导入自定义HTML。
+* [消息模板](#customizing-with-a-message-template):此模板允许您使用图像或视频以及操作按钮完全自定义应用程序内。
+* [自定义消息](#customizing-with-a-custom-html-message):通过此模板可导入自定义HTML。
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 * **[!UICONTROL Local notification]**:此类布局显示为横幅消息。
 
-   它只能支持声音、文本和目标。 有关本地通知的详细信息，请参 [阅自定义本地通知消息类型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
+   它只能支持声音、文本和目标。 有关本地通知的详细信息，请参 [阅自定义本地通知消息类型](#customizing-a-local-notification-message-type)。
 
 每种类型的布局都可以在不同的设备(如手机、平板电脑、平台（如Android或iOS）上预览，并可在内容编辑器的右窗口中显示方向（如横向或纵向）。
 
@@ -125,7 +125,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 1. 在字段中输入您的Web URL或 **[!UICONTROL Destination URL]** 深层链接(如果您选择了操 **[!UICONTROL Redirect]** 作)
 1. 在预览窗口中或通过单击“预览”按钮检查您的消息内容。
 
-   请参阅预 [览应用程序内消息页](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) 。
+   请参阅预 [览应用程序内消息页](#previewing-the-in-app-message) 。
 
    ![](assets/inapp_customize_11.png)
 
