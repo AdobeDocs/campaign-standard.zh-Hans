@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
    * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击选 **[!UICONTROL Templates]** 项卡。
    * [内容从头开始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，从新开始：单击该 **[!UICONTROL Create]** 按钮。
-   * [以ZIP或HTML文件形式从您的计算机中获取内容](../../designing/using/using-existing-content.md#importing-content-from-a-file):单击该 **[!UICONTROL Upload]** 按钮。
-   * [来自现有URL的内容](../../designing/using/using-existing-content.md#importing-content-from-a-url) （仅适用于电子邮件）:单击该 **[!UICONTROL Import from URL]** 按钮。
+   * [以ZIP或HTML文件形式从您的计算机中获取内容](#importing-content-from-a-file):单击该 **[!UICONTROL Upload]** 按钮。
+   * [来自现有URL的内容](#importing-content-from-a-url) （仅适用于电子邮件）:单击该 **[!UICONTROL Import from URL]** 按钮。
    ![](assets/des_loading_2.png)
 
 1. 加载内容。 所选内容将替换当前内容。
@@ -49,7 +49,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
    >[!NOTE]
    >
-   >电子邮 [件设计器使用特定](../../designing/using/overview.md) 的标签。 上传到Campaign的标准HTML内容必须与期望的标记匹配，才能完全兼容并从电子邮件设计器中编辑。 如果不匹配，您的内容将以兼容性模 [式上传](../../designing/using/using-existing-content.md#compatibility-mode)。 要使现有内容兼容，请参 [阅此部分](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)。
+   >电子邮 [件设计器使用特定](../../designing/using/overview.md) 的标签。 上传到Campaign的标准HTML内容必须与期望的标记匹配，才能完全兼容并从电子邮件设计器中编辑。 如果不匹配，您的内容将以兼容性模 [式上传](#compatibility-mode)。 要使现有内容兼容，请参 [阅此部分](#editing-existing-contents-with-the-email-designer)。
 
 **相关主题：**
 
@@ -60,7 +60,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 要充分利用电子邮件设计器的 [版本可能性](../../designing/using/overview.md)，上传的HTML必须包含使其符合所见即所得编辑器的特定标记。
 
-如果HTML的全部或部分内容没有此标记，则内容随后将以“兼容模式” [加载](../../designing/using/using-existing-content.md#compatibility-mode)。
+如果HTML的全部或部分内容没有此标记，则内容随后将以“兼容模式” [加载](#compatibility-mode)。
 
 要使现有外部内容在电子邮件设计器中完全可编辑，请参阅使 [用现有内容设计电子邮件一节](../../designing/using/using-existing-content.md) 。
 
@@ -128,7 +128,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击按 **[!UICONTROL Preview]** 钮。
 
-可以个性化从中检索内容的远程URL。 为此，请按照以下步骤操作：
+可以个性化从中检索内容的远程URL。 为此请执行以下操作步骤：
 
 1. 单击屏幕顶部的电子邮件标签以访问“电子邮件设计器”选 **[!UICONTROL Properties]** 项卡。
 1. 查找字 **[!UICONTROL Remote URL]** 段。
@@ -213,7 +213,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/styles.md#switching-to-mobile-view)。
+1. 切换到移动视图。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    响应式视图因CSS缺失而中断。
 
