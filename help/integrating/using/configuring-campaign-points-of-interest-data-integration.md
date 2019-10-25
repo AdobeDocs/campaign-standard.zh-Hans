@@ -1,113 +1,113 @@
 ---
-title: 配置营销活动点数据集成
-seo-title: 配置营销活动点数据集成
-description: 配置营销活动点数据集成
+title: 配置营销活动目标点数据集成
+seo-title: 配置营销活动目标点数据集成
+description: 配置营销活动目标点数据集成
 seo-description: 了解如何在Adobe Campaign中配置兴趣点数据功能，以根据用户的位置发送个性化消息。
 page-status-flag: 从未激活
-uuid: 0689a06c-cc1 a-442f-95b8-a07 fcec85 d79
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 集成
-content-type: reference
-topic-tags: 使用营销活动和分析-移动-移动
-discoiquuid: a967c6cc-c53 b-41b4-866b-90860d78 f463
-internal: n n
+content-type: 参考
+topic-tags: 使用Campaign和Analytics for Mobile
+discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# 配置营销活动点数据集成{#configuring-campaign-points-of-interest-data-integration}
+# 配置营销活动目标点数据集成{#configuring-campaign-points-of-interest-data-integration}
 
-## 配置与Adobe Experience Platform SDK的营销活动点数据集成 {#configuring-campaign-poi-aep-sdk}
+## 配置与Adobe Experience Platform SDK的Campaign-Points数据集成 {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->应使用Adobe Experience Platform SDK在Adobe Campaign Standard中配置您的移动应用程序。有关详细步骤，请参阅此 [页面](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+>您的移动应用程序应已使用Adobe Experience Platform SDK在Adobe Campaign Standard中配置。 有关详细步骤，请参阅此 [页](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-用于收集位置数据的移动应用程序必须由Adobe Campaign界面中的 **管理员** 配置。
+用于收集位置数据的移动应用程序必须由管理员在 **Adobe** Campaign界面中配置。
 
-要能够将Adobe Experience Platform Location Services与使用Adobe Experience Platform SDK配置的移动应用程序结合使用，您需要：
+要能够将Adobe Experience Platform Location services与使用Adobe Experience Platform SDK配置的移动应用程序一起使用，您需要：
 
-1. 在Adobe **[!UICONTROL Places]** Experience Platform Launch中为您的移动应用程序配置添加和 **[!UICONTROL Places Monitor]** 扩展。在Adobe Campaign中设置移动应用程序。请参阅 [安装Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) 中的Place扩展并 [在Experience Platform Launch中安装Place Monitor扩展](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)。
+1. 在Adobe Experience Platform **[!UICONTROL Places]** Launch中 **[!UICONTROL Places Monitor]** ，将这些和扩展添加到您的移动应用程序配置中。 在Adobe Campaign中设置移动应用程序。 请参 [阅在Adobe Experience Platform Launch中安装Places扩展](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) , [在Experience Platform Launch中安装Places Monitor扩展](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)。
 
-1. 设置扩展后，在其中 **[!UICONTROL Adobe Experience Platform Launch]** 创建数据元素以从这些扩展检索数据。请参阅此 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 以创建您的数据元素。
+1. 设置扩展后，在中创建数据元素，以从 **[!UICONTROL Adobe Experience Platform Launch]** 这些扩展中检索数据。 请参阅本 [页](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) ，创建数据元素。
 
-1. 然后，您 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;需要创建规则以支持兴趣点和Adobe Campaign之间的移动使用案例。\
-   此规则将在用户进入地理围栏 **[!UICONTROL Point of Interest]**&#x200B;时触发。请参阅此 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 以创建规则。
+1. 然后，您 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;需要创建规则，以支持兴趣点和Adobe Campaign之间的移动使用案例。\
+   此规则将在用户进入地理围栏时触发 **[!UICONTROL Point of Interest]**。 请参阅此 [页](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) ，以创建规则。
 
-1. 在位置定义 **[!UICONTROL Points of Interest]** 您的位置。请参阅 [创建目标点](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)。
+1. 在地点 **[!UICONTROL Points of Interest]** 中定义。 请参 [阅创建兴趣点](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)。
 
-1. 确保在Adobe Campaign中访问移动应用程序和收集的位置数据。请参阅 [访问用于收集位置数据](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) 和 [访问收集的位置数据](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data)的移动应用程序。
+1. 确保您在Adobe Campaign中访问移动应用程序和收集的位置数据。 请参 [阅访问用于收集位置数据的移动应用程序](#accessing-mobile-apps-used-to-collect-location-data) ，以 [及访问收集的位置数据](#accessing-collected-location-data)。
 
-## 使用SDK V配置营销活动点数据集成 {#configuring-campaign-poi-sdkv4}
+## 使用SDK V4配置Campaign-Points的数据集成 {#configuring-campaign-poi-sdkv4}
 
-用于收集位置数据的移动应用程序必须由Adobe Campaign界面中的 **管理员** 配置。
+用于收集位置数据的移动应用程序必须由管理员在 **Adobe** Campaign界面中配置。
 
-要将Point of Interest数据功能与使用SDK V配置的移动应用程序结合使用，您需要：
+要将兴趣点数据功能用于配置了SDK V4的移动应用程序，您需要：
 
-1. 有权访问适用于移动设备的Adobe Analytics。请查看您的许可协议或与您的Adobe客户经理联系以了解更多信息。
-1. 在Adobe Campaign中设置移动应用程序。请参阅 [在Campaign中设置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)。
-1. 在Adobe Mobile Services界面中设置移动应用程序。这使您能够确保将由Adobe Mobile Services收集的数据发送到Adobe Campaign。请参阅 [在Adobe Mobile Services中配置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services)。
-1. 执行移动应用程序的特定设置：
+1. 有权访问Adobe Analytics for Mobile。 有关详细信息，请查看您的许可协议或与您的Adobe客户经理联系。
+1. 在Adobe Campaign中设置移动应用程序。 请参 [阅在Campaign中设置移动应用程序](#setting-up-a-mobile-app-in-campaign)。
+1. 在Adobe Mobile services界面中设置您的移动应用程序。 这使您能够确保由Adobe Mobile services收集的数据被发送到Adobe Campaign。 请参 [阅在Adobe Mobile services中配置移动应用程序](#configuring-a-mobile-app-in-adobe-mobile-services)。
+1. 执行手机应用程序的特定设置：
 
-   * 使用移动应用程序打包从Adobe Mobile Services界面下载的配置文件。
-   * 将Experience Cloud Mobile SDK集成到您的移动应用程序中。请参阅 [将SDK集成到移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application)中。
+   * 将从Adobe Mobile services界面下载的配置文件与移动应用程序打包。
+   * 将Experience Cloud Mobile SDK集成到您的移动应用程序中。 请参 [阅将SDK集成到移动应用程序中](#integrating-the-sdk-into-a-mobile-application)。
 
-1. 在Adobe Mobile Services界面中定义兴趣点。请参阅 [定义Adobe Mobile Services中的兴趣点](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services)。
-1. 定义要从移动应用程序的订阅者收集的数据。请参阅 [收集订阅者的兴趣点数据](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data)。
-1. 确保在Adobe Campaign中访问移动应用程序和收集的位置数据。请参阅 [访问用于收集位置数据](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) 和 [访问收集的位置数据](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data)的移动应用程序。
+1. 在Adobe Mobile services界面中定义目标点。 请参 [阅定义Adobe Mobile services中的兴趣点](#defining-points-of-interest-in-adobe-mobile-services)。
+1. 定义要从移动应用程序的用户处收集的数据。 请参 [阅收集用户的兴趣点数据](#collecting-subscribers--points-of-interest-data)。
+1. 确保您在Adobe Campaign中访问移动应用程序和收集的位置数据。 请参 [阅访问用于收集位置数据的移动应用程序](#accessing-mobile-apps-used-to-collect-location-data) ，以 [及访问收集的位置数据](#accessing-collected-location-data)。
 
-### 使用SDK V在Adobe Campaign中设置移动应用程序 {#setting-up-a-mobile-app-in-campaign}
+### 使用SDK V4在Adobe Campaign中设置移动应用程序 {#setting-up-a-mobile-app-in-campaign}
 
 要能够通过Adobe Campaign收集兴趣点数据，您必须配置Adobe Campaign将从中接收数据的移动应用程序。
 
-1. 单击左上角 **[!UICONTROL Adobe Campaign]** 的标志，然后选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**。
+1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的标志，然后选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**。
 1. 单击 **[!UICONTROL Create]** 以设置应用程序。
-1. 在 **[!UICONTROL Application name]** 字段中输入名称，然后单击 **[!UICONTROL Create]**。
+1. 在字段中输入名 **[!UICONTROL Application name]** 称并单击 **[!UICONTROL Create]**。
 
-   请勿填写 **[!UICONTROL Device-specific settings]** 章节。这仅适用于配置接收推送通知的应用程序。
+   不要填写该 **[!UICONTROL Device-specific settings]** 部分。 这仅适用于配置接收推送通知的应用程序。
 
-**[!UICONTROL Mobile application properties]** 在该部分中，列出了两个URL： **[!UICONTROL Collect PII endpoint]****[!UICONTROL Location Services endpoint]**&#x200B;和.它们将在Adobe Mobile Services界面中使用。请参阅 [在Adobe Mobile Services中配置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services)。
+在部 **[!UICONTROL Mobile application properties]** 分中，列出了两个URL: **[!UICONTROL Collect PII endpoint]** 和 **[!UICONTROL Location Services endpoint]**。 它们将用于Adobe Mobile services界面。 请参 [阅在Adobe Mobile services中配置移动应用程序](#configuring-a-mobile-app-in-adobe-mobile-services)。
 
-* **[!UICONTROL Collect PII endpoint]** 该URL用于在移动应用程序启动时从移动应用程序中收集用户的Experience Cloud ID和注册令牌。当用户使用电子邮件、名字、姓氏等凭据登录应用程序时，还会收集此数据，并使用Adobe Campaign配置文件调解用户的注册令牌。
-* **[!UICONTROL Location Services endpoint]** 该URL用于收集位置数据，如用户的纬度、longitude和从目标点的半径。
+* URL用 **[!UICONTROL Collect PII endpoint]** 于在移动应用程序启动时从其收集用户的Experience Cloud ID和注册令牌。 当用户使用电子邮件、名、姓等凭据登录应用程序时，也会收集这些数据，并使用这些数据将用户的注册令牌与Adobe Campaign配置文件进行协调。
+* 该 **[!UICONTROL Location Services endpoint]** URL用于从目标点收集位置数据，如用户的纬度、经度和半径。
 
-您现在可以在Adobe Mobile Services中使用这些值完成配置，如 [在Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) 部分配置移动应用程序中所述。
+您现在可以在Adobe Mobile services中使用这些值来完成配置，如在Adobe Mobile services中配 [置移动应用程序一节中所述](#configuring-a-mobile-app-in-adobe-mobile-services) 。
 
 ![](assets/poi_mobile_app_properties.png)
 
-### 在Adobe Mobile Services中配置V移动应用程序 {#configuring-a-mobile-app-in-adobe-mobile-services}
+### 在Adobe Mobile services中配置V4移动应用程序 {#configuring-a-mobile-app-in-adobe-mobile-services}
 
-要将Adobe Mobile Services收集的数据发送到Adobe Campaign，您必须在Mobile Services界面中配置回执。
+要将Adobe Mobile services收集的数据发送到Adobe Campaign，您必须在Mobile services界面中配置回发。
 
-您需要在Adobe Campaign中设置的移动应用程序参数中找到特定信息(请参阅 [在Campaign中设置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign))：
+您需要在Adobe Campaign中设置的移动应用程序参数中找到的特定信息(请参阅在Campaign中 [设置移动应用程序](#setting-up-a-mobile-app-in-campaign)):
 
 * **[!UICONTROL IMS Organization ID]**
 * **[!UICONTROL Collect PII Endpoint]**
 * **[!UICONTROL Location Services endpoint]**
 
-您必须具有Adobe Analytics的访问权限才能进行以下配置。如果您不是Adobe Analytics用户，请与Adobe Campaign管理员联系。
+您必须具有访问Adobe Analytics的权限才能进行以下配置。 如果您不是Adobe Analytics用户，请与您的Adobe Campaign管理员联系。
 
 1. 登录 [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/)。
 1. 创建应用程序或选择现有应用程序。
-1. 转到 **[!UICONTROL Manage App Settings]** 页面。
-1. 在 **访客ID服务** 部分中，选中 **启用，** 然后从下拉列表中选择您的组织。单击 **“保存**”。
+1. 转到页 **[!UICONTROL Manage App Settings]** 面。
+1. 在“访 **客ID服务** ”部分，选 **中“启用** ”并从下拉列表中选择您的组织。 单击“ **保存**”。
 
    >[!CAUTION]
    >
-   >此组织必须与您在Adobe Campaign实例中使用的相同。
+   >此组织必须与您在Adobe Campaign实例中使用的组织相同。
 
 1. Click **[!UICONTROL Manage Postbacks]**.
-1. 创建回帖。
+1. 创建回发。
 
-   * 选择 **[!UICONTROL PII]****[!UICONTROL Postback Type]**&#x200B;为。
-   * **[!UICONTROL URL]** 在字段中，复制您在Adobe Campaign界面中配置的移动应用程序中 **[!UICONTROL Collect PII Endpoint]** 的URL，后跟服务器名称。请参阅 [在Campaign中设置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)。
-   * 填写 **[!UICONTROL Post Body]** 字段如下所示：
+   * 选择 **[!UICONTROL PII]** 作为 **[!UICONTROL Postback Type]**。
+   * 在该字 **[!UICONTROL URL]** 段中，从您在Adobe Campaign界面中配置的移动应用程序复制 **[!UICONTROL Collect PII Endpoint]** URL，前面加有服务器名。 请参 [阅在Campaign中设置移动应用程序](#setting-up-a-mobile-app-in-campaign)。
+   * 填写以 **[!UICONTROL Post Body]** 下字段：
 
-      对于iOS：
+      对于iOS:
 
       ```
       {
@@ -120,7 +120,7 @@ source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
       }
       ```
 
-      对于Android：
+      对于Android:
 
       ```
       {
@@ -133,15 +133,15 @@ source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
       }
       ```
 
-   * 将 **内容类型设置** 为 **[!UICONTROL application/json]**。
-   * **哪些数据标签触发回头客？**&#x200B;通常选择任何事件 **[!UICONTROL Launched]** 。**[!UICONTROL exists]**
+   * 将内 **容类型设置** 为 **[!UICONTROL application/json]**。
+   * 在哪些数 **据标记中触发回发？**，请选择任何事件，通常 **[!UICONTROL Launched]** 为和 **[!UICONTROL exists]**。
    * Click **[!UICONTROL Save & Activate]**.
 
-1. 创建第二个帖子。
+1. 创建第二个回发。
 
-   * 选择 **[!UICONTROL Postback]****[!UICONTROL Postback Type]**&#x200B;为。
-   * **[!UICONTROL URL]** 在字段中，复制您在Adobe Campaign界面中配置的移动应用程序中 **[!UICONTROL Location Services Endpoint]** 的URL，后跟服务器名称。请参阅 [在Campaign中设置移动应用程序](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)。
-   * 填写 **[!UICONTROL Post Body]** 字段如下所示：
+   * 选择 **[!UICONTROL Postback]** 作为 **[!UICONTROL Postback Type]**。
+   * 在该字 **[!UICONTROL URL]** 段中，从您在Adobe Campaign界面中配置的移动应用程序复制 **[!UICONTROL Location Services Endpoint]** URL，前面加有服务器名。 请参 [阅在Campaign中设置移动应用程序](#setting-up-a-mobile-app-in-campaign)。
+   * 填写以 **[!UICONTROL Post Body]** 下字段：
 
       ```
       {
@@ -160,62 +160,62 @@ source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
       }
       ```
 
-   * 将 **内容类型设置** 为 **[!UICONTROL application/json]**。
-   * **哪些数据标签触发回头客？**&#x200B;选择 **[!UICONTROL campaign.test]****[!UICONTROL exists]**&#x200B;和.
+   * 将内 **容类型设置** 为 **[!UICONTROL application/json]**。
+   * 在哪些数 **据标记中触发回发？**, select **[!UICONTROL campaign.test]** and **[!UICONTROL exists]**.
    * Click **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >
->有关配置回车的详细信息，请参阅 [Adobe Mobile Services文档](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html)。
+>有关配置回发的详细信息，请参阅 [Adobe Mobile services文档](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html)。
 
-### 将SDK集成到移动应用程序中 {#integrating-the-sdk-into-a-mobile-application}
+### 将SDK集成到移动应用程序 {#integrating-the-sdk-into-a-mobile-application}
 
-Mobile核心服务的软件开发工具包(SDK)便于将移动应用程序集成到Adobe Campaign中。
+移动核心服务的软件开发工具包(SDK)简化了移动应用程序与Adobe Campaign的集成。
 
-本 [页](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)介绍了此步骤。
+本页介绍了此 [步骤](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
-### 在Adobe Mobile Services中定义兴趣点 {#defining-points-of-interest-in-adobe-mobile-services}
+### 定义Adobe Mobile services的兴趣点 {#defining-points-of-interest-in-adobe-mobile-services}
 
-定义用于收集位置数据的兴趣点：
+要定义用于收集位置数据的目标点，请执行以下操作：
 
-1. 转到Adobe Mobile Services界面。
+1. 转到Adobe Mobile services界面。
 1. 添加应用程序。
 
-   有关在Mobile Services中管理应用程序的更多信息，请参阅 [Adobe Mobile Services文档](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html)。
+   有关在Mobile services中管理应用程序的详细信息，请参阅 [Adobe Mobile services文档](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html)。
 
 1. 定义目标点。
 
-   有关管理兴趣点的更多信息，请参阅 [Adobe Mobile Services文档](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html)。
+   有关管理目标点的更多信息，请参阅 [Adobe Mobile services文档](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html)。
 
-### 收集订阅者的兴趣点数据 {#collecting-subscribers--points-of-interest-data}
+### 收集用户兴趣点数据 {#collecting-subscribers--points-of-interest-data}
 
-特定的自定义资源允许您定义要从应用程序的订阅者收集的数据。
+特定的自定义资源允许您定义要从应用程序订阅者收集的数据。
 
-此步骤在 [使用SDK V](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 页配置移动应用程序中介绍。
+使用SDK V4配置移 [动应用程序页面中介绍了此步骤](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 。
 
 
 ## 访问用于收集位置数据的移动应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 
-要在Adobe Campaign中访问已成功创建的应用程序，请执行以下操作：
+要在Adobe Campaign中访问成功创建的应用程序，请执行以下操作：
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 标志。
-1. 选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** 或 **[!UICONTROL Mobile app (AEP SDK)]** 取决于SDK。
-1. 从列表中选择一个移动应用程序以显示其属性。
+1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标。
+1. 选 **[!UICONTROL Administration]** 择&gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** ，或根据 **[!UICONTROL Mobile app (AEP SDK)]** SDK进行选择。
+1. 从列表中选择一个手机应用程序以显示其属性。
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-应用程序的订阅者列表也会显示在 **[!UICONTROL Mobile application subscribers]** 选项卡中。用户是在其移动设备上安装了应用程序的所有用户。Adobe Campaign数据库配置文件使用注册令牌进行标识。
+该应用程序的订阅者列表也显示在该选 **[!UICONTROL Mobile application subscribers]** 项卡中。 订阅者是在其移动设备上安装了应用程序的所有用户。 Adobe Campaign数据库配置文件使用注册令牌进行标识。
 
 ## 访问收集的位置数据 {#accessing-collected-location-data}
 
-完成设置后，收集的目标点数据会列在每个配置文件 **[!UICONTROL Places]** 的选项卡中。访问列表：
+完成设置后，收集的“目标点”数据将列在每个配置文件 **[!UICONTROL Places]** 的选项卡中。 要访问列表，请执行以下操作：
 
 1. 选择配置文件。
-1. 单击右侧的 **[!UICONTROL Edit profile properties]** 按钮。
-1. 选择 **[!UICONTROL Places]** 选项卡。
+1. 单击右 **[!UICONTROL Edit profile properties]** 侧的按钮。
+1. 选择选 **[!UICONTROL Places]** 项卡。
 
    ![](assets/poi_profile_places.png)
 
-此时会列出当前配置文件所收集的兴趣点数据。位置数据存储在Adobe Campaign数据库中六个月。
+将列出收集的当前配置文件的兴趣点数据。 位置数据在Adobe Campaign数据库中存储6个月。
 
-有关访问和编辑配置文件的更多信息，请参阅 [配置文件](../../audiences/using/about-profiles.md)。
+有关访问和编辑配置文件的详细信息，请参阅 [配置文件](../../audiences/using/about-profiles.md)。
