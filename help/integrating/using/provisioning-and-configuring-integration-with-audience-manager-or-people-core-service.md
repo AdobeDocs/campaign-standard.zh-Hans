@@ -14,14 +14,14 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
 # 配置与Audience manager或People核心服务的集成{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-在Adobe Campaign中设置和配置Audience manager和People核心需要执行两个步骤：向Adobe [提交请求](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) ，然 [后在Adobe Campaign中配置集成](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign)。
+在Adobe Campaign中设置和配置Audience manager和People核心需要执行两个步骤：向Adobe [提交请求](#submitting-request-to-adobe) ，然 [后在Adobe Campaign中配置集成](#configuring-the-integration-in-adobe-campaign)。
 
 ## 向Adobe提交请求 {#submitting-request-to-adobe}
 
@@ -76,10 +76,10 @@ Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导
 
 提交此请求后，Adobe将继续为您提供集成，并与您联系以提供您必须完成配置的详细信息和信息：
 
-* [第1步：在Adobe Campaign中配置或检查外部帐户](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [第2步：配置数据源](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [第3步：配置系列活动跟踪服务器](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
-* [第4步：配置访客ID服务](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
+* [第1步：在Adobe Campaign中配置或检查外部帐户](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [第2步：配置数据源](#step-2--configure-the-data-sources)
+* [第3步：配置系列活动跟踪服务器](#step-3--configure-campaign-tracking-server)
+* [第4步：配置访客ID服务](#step-4--configure-the-visitor-id-service)
 
 ### 第1步：在Adobe Campaign中配置或检查外部帐户 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
