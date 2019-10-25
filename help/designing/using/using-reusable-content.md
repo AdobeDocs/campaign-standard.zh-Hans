@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ### 内容模板 {#content-templates}
 
-您可以管理将在“电子邮件设计器”主页的选 **[!UICONTROL Templates]** 项卡中提供 [的HTML内容](../../designing/using/overview.md) 。 不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+您可以管理将在“电子邮件设计器”主页的选 **[!UICONTROL Templates]** 项卡中提供 [的HTML内容](../../designing/using/overview.md) 。 不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](#content-templates)。
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 您现在可以使用电子邮件设计器创建电子邮件模板。 使用内容组件反映电子邮件的不同部分，并调整设置，使其尽可能接近原始新闻稿。 最后，插入您刚刚创建的片段。
 
-1. 使用电子邮件设计器创建模板。 有关此内容的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+1. 使用电子邮件设计器创建模板。 有关此内容的详细信息，请参 [阅内容模板](#content-templates)。
 1. 将多个结构组件插入模板中——与电子邮件的页眉、页脚和正文相对应。 有关添加结构组件的更多信息，请参 [阅使用电子邮件设计器编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 插入所需数量的内容组件以创建新闻稿的正文。 这将是您每月更新的电子邮件的可编辑内容。
 
@@ -134,8 +134,8 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 要在电子邮件设计器中充分利用片段，请执行以下操作：
 
-* 创建您自己的片段。 请参 [阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)[和将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
-* 在电子邮件中根据需要多次使用它们。 请参 [阅将元素插入电子邮件](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email)。
+* 创建您自己的片段。 请参 [阅创建内容片段](#creating-a-content-fragment)[和将内容另存为片段](#saving-content-as-a-fragment)。
+* 在电子邮件中根据需要多次使用它们。 请参 [阅将元素插入电子邮件](#inserting-elements-into-an-email)。
 * 编辑片段时，将同步更改：它们会自动传播到包含该片段的所有电子邮件（前提是尚未准备或发送它们）。
 
 在添加到电子邮件中时，片段默认处于锁定状态。 如果要修改特定电子邮件的片段，您可以在使用该片段的电子邮件中解锁该片段，从而中断与原始片段的同步。 更改将不再同步。
@@ -150,7 +150,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 要定义电子邮件的内容，您可以在预先放置的结构组件中添加内容元素。 请参阅 [编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 通过选择左侧的+图 **标** ，访问内容元素。 选择 [片段](../../designing/using/using-reusable-content.md#about-fragments)[或内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+1. 通过选择左侧的+图 **标** ，访问内容元素。 选择 [片段](#about-fragments)[或内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 1. 如果您已经知道要添加的片段的标签或部分标签，则可以搜索它。
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
    >[!NOTE]
    >
-   >将片段添加到电子邮件时，默认情况下会锁定。 如果要修改特定电子邮件的片段，或直接在片段中进行更改，则可以中断与原始片段的同步。 请参阅 [关于片段](../../designing/using/using-reusable-content.md#about-fragments)。
+   >将片段添加到电子邮件时，默认情况下会锁定。 如果要修改特定电子邮件的片段，或直接在片段中进行更改，则可以中断与原始片段的同步。 请参阅 [关于片段](#about-fragments)。
 
 1. 对您需要添加到电子邮件中的所有元素重复此过程。
 1. 保存电子邮件。
@@ -176,7 +176,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->如果修改了片段，则更改会自动传播到使用该片段的电子邮件中。 有关此方面的详细信息，请参 [阅关于片段](../../designing/using/using-reusable-content.md#about-fragments)。
+>如果修改了片段，则更改会自动传播到使用该片段的电子邮件中。 有关此方面的详细信息，请参 [阅关于片段](#about-fragments)。
 
 ### 创建内容片段 {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->除非在电子邮件中使用并且已解锁，否则不能在片段中插入个性化字段。 请参阅 [关于片段](../../designing/using/using-reusable-content.md#about-fragments)。
+>除非在电子邮件中使用并且已解锁，否则不能在片段中插入个性化字段。 请参阅 [关于片段](#about-fragments)。
 
 ### 将内容另存为片段 {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 为此请执行以下操作步骤：
 
-1. 在Adobe Campaign中，转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 为标题创建片段。 有关此内容的详细信息，请 [参阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+1. 在Adobe Campaign中，转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 为标题创建片段。 有关此内容的详细信息，请 [参阅创建内容片段](#creating-a-content-fragment)。
 1. 向片段添加所需数量的结构组件。
 
 ![](assets/des_loading_compatible_fragment_1.png)
