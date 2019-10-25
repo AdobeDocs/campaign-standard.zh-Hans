@@ -4,18 +4,18 @@ seo-title: 编辑查询
 description: 编辑查询
 seo-description: 借助预定义的过滤器和规则构建人群。
 page-status-flag: 从未激活
-uuid: a49c7739-a96 c-45cb-9ac5-1ce299161 a97
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
-topic-tags: 筛选数据
+content-type: 参考
+topic-tags: 过滤数据
 discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
-context-tags: queryFilter，概述；受众，主要
-internal: n n
+context-tags: queryFilter，概述；audience,main
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,101 +24,101 @@ source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ## 关于查询编辑器 {#about-query-editor}
 
-查询编辑器是一个向导，用于过滤Adobe Campaign数据库中包含的数据。
+查询编辑器是一个向导，通过该向导可过滤Adobe Campaign数据库中包含的数据。
 
-通过此功能，您可以通过预定义的过滤器和规则来构建用户以更好地定位收件人。
+借助此功能，您可以借助预定义的过滤器和规则构建人群，以更好地定位收件人。
 
-一些应用程序功能使用它来：
+几个应用程序功能使用它来：
 
-* 创建 **查询** 类型 **受众**
-* 定义 **电子邮件** 目标
-* 定义 **工作流** 活动中的人群
+* 创建 **查询** 类型受 **众**
+* 定义电 **子邮件** 目标
+* 在工作流活动中定 **义人群**
 
 ## 查询编辑器界面 {#query-editor-interface}
 
-查询编辑器由 **调色板** 和 **工作区**&#x200B;组成。
+查询编辑器由调板和工 **作区** 组 **成**。
 
 ![](assets/query_editor_overview.png)
 
 ### 调色板 {#palette}
 
-调色板位于编辑器左侧，分为两个选项卡，它们包含划分为主题块的元素。这些选项卡有：
+位于编辑器左侧的调色板被分为两个选项卡，其中包含分为主题块的元素。 这些选项卡包括：
 
-* **快捷键**、默认情况下可用或由实例管理员创建的快捷键。您可以在此处找到字段、节点、分组、1-1链接、1-N链接和其他预定义筛选器。
-* **用于** 访问目标资源中所有可用字段的资源管理器：节点，分组元素，链接(1-1和1-N)。
+* 默认 **情况下**，快捷键可用，或由实例管理员创建。 在此，您将找到字段、节点、分组、1-1链接、1-N链接和其他预定义的过滤器。
+* 通过 **资源管理器** ，您可以访问目标资源中的所有可用字段：节点、分组元素、链接（1-1和1-N）。
 
-必须将选项卡中包含的元素移入工作区，以便进行配置并考虑查询。根据选择的定位维度(请参阅 [定位维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources))，您可以：
+选项卡中包含的元素必须移到工作区中才能进行配置并考虑查询。 根据所选定的定位维(请参 [阅定位维和资源](../../automating/using/query.md#targeting-dimensions-and-resources))，您可以：
 
 * 逐个选择受众或档案
-* 使用预定义滤镜
+* 使用预定义的过滤器
 * 为您选择的字段定义简单规则
-* 定义允许您将函数应用于特定字段的高级规则
+* 定义允许您将函数应用于某些字段的高级规则
 
-### Workspace {#workspace}
+### 工作区 {#workspace}
 
-工作区是中心区域，您可以在该区域中配置和合并规则、受众以及从调色板中添加的预定义筛选器。
+工作区是中心区域，您可以在其中配置和合并从调色板中添加的规则、受众和预定义的过滤器。
 
-当您将元素从调色板移到工作区时，将打开一个新窗口，您可以开始 [创建查询](../../automating/using/editing-queries.md#creating-queries)。
+将元素从调色板移入工作区时，将打开一个新窗口，您可以启动“创建 [查询”](#creating-queries)。
 
 ## 创建查询 {#creating-queries}
 
-查询编辑器可用于定义消息中的受众或测试配置文件、工作流中的人群以及创建查询类型受众。
+查询编辑器可用于定义消息中的受众或测试配置文件、工作流中的人群以及创建查询类型的受众。
 
-创建工作流时，可以 **[!UICONTROL Audience]** 在窗口中创建分发或 **在查询** 活动中定义查询。
+可以在创建分发时在窗 **[!UICONTROL Audience]** 口中定义查询，也可以在创建工作流时在 **Query** 活动中定义查询。
 
-1. 将元素从调色板移至工作区。此时将打开编辑规则的窗口。
+1. 将元素从调色板移入工作区。 此时将打开用于编辑规则的窗口。
 
-   * 对于字符串或数值 **字段**，指定比较运算符和值。
+   * 对于字符串或数字字 **段**，指定比较运算符和值。
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * 对于日期、日期和时间 **字段**，您可以选择定义特定日期、两个日期之间的范围或相对于查询执行日期的句点。
+   * 对于日期或日期和时间字 **段**，您可以选择定义特定日期、两个日期之间的范围或相对于查询执行日期的期间。
 
       ![](assets/query_editor_date_field.png)
 
-   * 对于Boolean **字段**，选中链接到可能的字段值的框。
-   * 对于 **分组** 字段，选择要在其上创建规则的分组字段，然后以与其他字段相同的方式定义条件。
+   * 对于布尔 **字段**，选中链接到字段可能值的框。
+   * 对于分 **组字段** ，选择要在其上创建规则的分组字段，然后以与其他字段相同的方式定义条件。
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * 对于具有其他数据库资源的 **1-1** 链接，请直接从目标中选择一个值。
+   * 对于与另 **一数据库资源的1-1** 链接，请直接从目标表中选择一个值。
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * 对于 **具有其他数据库资源的1-N** 链接，您可以在第二个资源的字段中定义子查询。
+   * 对于与 **另一个数据库资源的1-N** 链接，您可以在第二个资源的字段上定义子查询。
 
       您无需指定子条件。
 
-      例如，只能在配置文件跟踪日志上选择 **[!UICONTROL Exists]** 操作符并批准规则。该规则将返回跟踪日志存在的所有配置文件。
+      例如，您只能在配置文件跟踪日 **[!UICONTROL Exists]** 志上选择运算符并批准规则。 该规则将返回所有存在跟踪日志的配置文件。
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * 对于 **预定义的过滤器**，根据提供的条件输入或选择您喜欢的元素。
+   * 对于预 **定义的筛选器**，请根据提供的条件输入或选择所需的元素。
 
-      管理员可以创建过滤器以促进复杂和重复的查询。它们将以预配置规则的形式显示在查询编辑器中，并限制用户执行的步骤数。
+      管理员可以创建过滤器以便于进行复杂和重复的查询。 这些规则将以预配置规则的形式显示在查询编辑器中，并且它们限制用户需要执行的步骤数。
 
       ![](assets/query-editor_filter_email-audience_filter.png)
 
-1. 您可以指定规则的名称。然后，它将显示为工作区中的规则名称。如果未提供规则，则会自动显示条件的自动描述。
-1. 要组合工作区元素，请将它们彼此锁定以创建不同的组和/或组级别。然后，您可以选择一个逻辑运算符，将元素组合到同一级别：
+1. 您可以为规则指定名称。 然后，该名称将作为规则名称显示在工作区中。 如果未给规则指定名称，则会显示条件的自动描述。
+1. 要合并工作区元素，请将它们互锁在一起以创建不同的组和／或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
-   * **[!UICONTROL AND]**：两个条件的交叉点。只考虑与每个标准匹配的元素。
-   * **[!UICONTROL OR]**：两个条件的联合。考虑到至少两个条件之一的元素被考虑在内。
-   * **[!UICONTROL EXCEPT]**：排除条件。与第一个标准匹配的元素会被考虑在内，除非它们也符合第二个标准。
+   * **[!UICONTROL AND]**:两个标准的交集。 只考虑与每个标准匹配的元素。
+   * **[!UICONTROL OR]**:两个标准的结合。 考虑与两个标准中的至少一个匹配的元素。
+   * **[!UICONTROL EXCEPT]**:排除条件。 除非也匹配第二准则，否则将考虑与第一准则匹配的元素。
 
-1. 您现在可以使用操作栏中 ![](assets/count.png) 的和 ![](assets/preview.png) 按钮来计算和预览查询目标的元素数。
+1. 您现在可以使用操作栏中的和按钮计算并预览查询所 ![](assets/count.png) 定位 ![](assets/preview.png) 的元素数量。
 
    ![](assets/query_editor_combining_rules.png)
 
-如果要修改查询的元素，请单击编辑图标。规则将在之前配置时打开，然后您可以执行必要的调整。
+如果要修改查询的元素，请单击编辑图标。 规则会按先前配置的方式打开，然后您可以进行任何必要的调整。
 
-您的查询现已创建并定义，这使您能够建立一个人群以更好地个性化您的交付。
+现在可以创建和定义您的查询，这样您就可以构建一个群体，从而更好地个性化您的交付。
 
 **相关主题：**
 
-* [高级函数](../../automating/using/advanced-expression-editing.md)
+* [高级功能](../../automating/using/advanced-expression-editing.md)
 * [定义过滤器](../../developing/using/configuring-filter-definition.md)
-* [使用案例：创建一次每周一次的电子邮件分发](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：在位置上创建分发分段](../../automating/using/workflow-segmentation-location.md)
-* [使用案例：通过补充创建交付](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重定向向非Opener发送新交付的工作流](../../automating/using/workflow-cross-channel-retargeting.md)
+* [用例：创建每周一次的电子邮件发送](../../automating/using/workflow-weekly-offer.md)
+* [用例：创建按位置分段的交付](../../automating/using/workflow-segmentation-location.md)
+* [用例：使用补充创建交付](../../automating/using/workflow-created-query-with-complement.md)
+* [用例：重定向工作流向非打开者发送新分发](../../automating/using/workflow-cross-channel-retargeting.md)
