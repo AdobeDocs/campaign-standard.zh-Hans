@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 * 对于使用默认模式的所有服务，此消息将是相同的。
 
 要为给定服务发送特定的确认电子邮件，您可以创建自定义消息，在该消息中，您还可以利用来自其他资源的个性化字段。 为此，您必须创建和配置事务性消息。 可以引用此消息：
-* 服务本身。 有关详细信息，请参 [阅从服务配置确认消息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)。
-* 从订阅登录页面。 有关详细信息，请参 [阅从登陆页面配置确认消息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)。
+* 服务本身。 有关详细信息，请参 [阅从服务配置确认消息](#configuring-confirmation-message-from-service)。
+* 从订阅登录页面。 有关详细信息，请参 [阅从登陆页面配置确认消息](#configuring-confirmation-message-from-landing-page)。
 
 ## 从服务配置确认消息 {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 #### 设计确认消息 {#design-the-confirmation-message-2}
 
-本节介绍了设计事务消息的步 [骤](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1)。
+本节介绍了设计事务消息的步 [骤](#design-the-confirmation-message-1)。
 
 ### 第2步：创建和配置服务 {#step-2--create-and-configure-the-service-2}
 
