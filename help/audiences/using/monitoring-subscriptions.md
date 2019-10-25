@@ -1,72 +1,72 @@
 ---
-title: 监控订阅
-seo-title: 监控订阅
-description: 监控订阅
-seo-description: 了解如何使用仪表板和报告跟踪您的订阅者并测量服务的成功与否。
+title: 监视订阅
+seo-title: 监视订阅
+description: 监视订阅
+seo-description: 了解如何使用仪表板和报告跟踪订阅者并衡量服务的成功程度。
 page-status-flag: 从未激活
-uuid: b0d8eb80-fa51-4518-a5 e6-56de4046 f6 ff
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受众
-content-type: reference
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 参考
 topic-tags: 管理订阅
-discoiquuid: 36750524-eb54-47e8-aa1 b-ae0 b94 f58 cb1
-internal: n n
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring subscriptions{#monitoring-subscriptions}
+# 监视订阅{#monitoring-subscriptions}
 
-使用Adobe Campaign界面跟踪用户并衡量服务的成功与否。
+使用Adobe Campaign界面跟踪订阅者并衡量服务的成功程度。
 
-您可以选择监控订阅和取消订阅：
+您有几个用于监视订阅和取消订阅的选项：
 
-* 从服务仪表板查看当前订阅您的服务的人员的列表。See [Service dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* 从服务功能板中查看当前订阅您的服务的人员列表。 请参阅 [服务功能板](#service-dashboard)。
+* 从服务功能板的“订阅历史记录”选项卡 **中查阅订阅** 和取消订阅的历史记录。 请参阅 [订阅历史记录](#subscription-history)。
+* 显示详细描述服务报告中订阅和取消订阅的演变的 **报告**。 请参阅 [服务报告](#service-reports)。
+* 查找个人从个人资料中订阅的服务 **列表**。 请参 [阅链接到配置文件的事件历史记录](#history-of-events-linked-to-a-profile)。
 
-## Service dashboard {#service-dashboard}
+## 服务仪表板 {#service-dashboard}
 
-查看订阅服务的人员的列表：
+要查看订阅服务的人员列表，请执行以下操作：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 选择您选择的服务以显示相应的仪表板。
-1. The list of people subscribed to the service can be found in the **Subscriptions** tab.
+1. 通过高级菜单“配置文件和受众 **” &gt;** Services ****（可从Adobe Campaign徽标访问）转至服务列表。
+1. 选择您选择的服务以显示相应的功能板。
+1. 订阅服务的用户列表可在“订阅”选项卡中 **找到** 。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history {#subscription-history}
+## 订阅历史记录 {#subscription-history}
 
-要查看订阅和取消订阅历史记录，请执行以下操作：
+要查阅订阅和取消订阅历史记录，请执行以下操作：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 选择您选择的服务以显示相应的仪表板。
-1. Select the **Subscription history** tab to display the dates on which each person subscribed and unsubscribed.
+1. 通过高级菜单“配置文件和受众 **” &gt;** Services ****（可从Adobe Campaign徽标访问）转至服务列表。
+1. 选择您选择的服务以显示相应的功能板。
+1. 选择“订 **阅历史记录** ”选项卡以显示每个订阅和取消订阅的人的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports {#service-reports}
+## 服务报告 {#service-reports}
 
-显示影响订阅和取消订阅演化的报告：
+要显示详细说明订阅和取消订阅演变的报告，请执行以下操作：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 选择您选择的服务以显示相应的仪表板。
-1. Click the **Reports** button in the action bar, then **Subscription monitoring** in the selection screen.
+1. 通过高级菜单“配置文件和受众 **” &gt;** Services ****（可从Adobe Campaign徽标访问）转至服务列表。
+1. 选择您选择的服务以显示相应的功能板。
+1. 单击操 **作栏中的** “报告”按钮，然后在选 **择屏幕中单** 击“订阅”监视。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. **服务摘要** 报告显示订阅的数量、订阅的整体演变情况以及一个随着时间推移显示进度的曲线。
+1. “服 **务摘要** ”报告显示订阅数、订阅的总体演变以及显示一段时间内进度的曲线。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile {#history-of-events-linked-to-a-profile}
+## 与配置文件链接的事件历史记录 {#history-of-events-linked-to-a-profile}
 
-要查阅联系人订阅的服务列表，您可以咨询其营销历史记录。For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
+要查阅联系人订阅的服务列表，您可以查阅其营销历史记录。 有关详细信息，请参阅集成式客 [户配置文件部分](../../audiences/using/integrated-customer-profile.md) 。
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
