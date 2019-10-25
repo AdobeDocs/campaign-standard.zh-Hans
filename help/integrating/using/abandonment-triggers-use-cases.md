@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 本节介绍了可通过Adobe Campaign和Experience Cloud触发器之间的集成实现的不同用例。 您将找到两个使用案例示例：
 
-* [浏览放弃触发器](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger):向放弃访问您网站的客户发送通信。
-* [搜索放弃触发器](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger):重新吸引在您的网站上搜索但未购买的访客。
+* [浏览放弃触发器](#browse-abandonment-trigger):向放弃访问您网站的客户发送通信。
+* [搜索放弃触发器](#search-abandonment-trigger):重新吸引在您的网站上搜索但未购买的访客。
 
 >[!NOTE]
 >
@@ -123,11 +123,11 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 ## 搜索放弃触发器 {#search-abandonment-trigger}
 
-在此用例中，我们将创建一个触发器，以便与访问我们的旅行预订网站、搜索目的地、找不到成功结果且此后未预订任何内容的访客重新互动。 一般过程与上一个使用案例中的过程相同(请参阅浏览 [放弃触发器](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger))。 我们将在此集中讨论如何个性化再营销电子邮件。
+在此用例中，我们将创建一个触发器，以便与访问我们的旅行预订网站、搜索目的地、找不到成功结果且此后未预订任何内容的访客重新互动。 一般过程与上一个使用案例中的过程相同(请参阅浏览 [放弃触发器](#browse-abandonment-trigger))。 我们将在此集中讨论如何个性化再营销电子邮件。
 
 ### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger-1}
 
-按照上一个用例中所述的步骤创建Experience cloud触发器。 请参 [阅创建Experience cloud触发器](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger)。 主要区别在于触发器的定义。
+按照上一个用例中所述的步骤创建Experience cloud触发器。 请参 [阅创建Experience cloud触发器](#creating-an-experience-cloud-trigger)。 主要区别在于触发器的定义。
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 ### 在Adobe Campaign中使用触发器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 按照上一个用例中所述的步骤，在Adobe Campaign中创建触发器。 请参 [阅在Adobe Campaign中使用触发器](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign)。 主要区别在于我们如何访问和使用触发器有效负荷中推送的元数据。
+1. 按照上一个用例中所述的步骤，在Adobe Campaign中创建触发器。 请参 [阅在Adobe Campaign中使用触发器](#using-the-trigger-in-adobe-campaign)。 主要区别在于我们如何访问和使用触发器有效负荷中推送的元数据。
 1. 在您在Adobe Campaign中创建的搜索放弃触发器中，单击图 **[!UICONTROL Event content and enrichment]** 标以查看推送到Adobe Campaign的有效负荷。
 
    ![](assets/trigger_uc_search_2.png)
