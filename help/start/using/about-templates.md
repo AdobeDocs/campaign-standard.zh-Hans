@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -60,9 +60,9 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 
 现成内容模板为只读模板。 要编辑其中一个模板，您必须首先复制所需的模板。
 
-您可以创建新模板或片段，并定义您自己的内容。 有关此内容的详细信息，请 [参阅创建内容模板](../../start/using/about-templates.md#creating-a-content-template)[和创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+您可以创建新模板或片段，并定义您自己的内容。 有关此内容的详细信息，请 [参阅创建内容模板](#creating-a-content-template)[和创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
-在使用电子邮件设计器编辑内容时，您还可以通过将内容另存为片段或模板来创建内容模板。 有关详细信息，请参 [阅将内容另存为模板](../../start/using/about-templates.md#saving-content-as-template) , [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+在使用电子邮件设计器编辑内容时，您还可以通过将内容另存为片段或模板来创建内容模板。 有关详细信息，请参 [阅将内容另存为模板](#saving-content-as-template) , [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
 
 ### 开箱即用的电子邮件内容模板 {#email-content-templates}
 
@@ -77,7 +77,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 * 了解如何在此视频中个性化 [内容模板](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
 * 有关编辑内容的详细信息，请参阅关于 [电子邮件内容设计](../../designing/using/overview.md)。
 
-### 创建内容模板 {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 您可以创建自己的内容模板，以根据需要多次使用它们。
 
