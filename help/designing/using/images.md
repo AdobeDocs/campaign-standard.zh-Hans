@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 * 从Adobe Experience cloud共享的图像——请参阅使 [用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /资产（按需）
 * Adobe Target中的动态图像——请参阅使 [用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
-如果启用，您可以使用Adobe Creative SDK修改图像。 请参 [阅使用Adobe Creative SDK修改图像](images.md#modifying-images-with-the-adobe-creative-sdk)。
+如果启用，您可以使用Adobe Creative SDK修改图像。 请参 [阅使用Adobe Creative SDK修改图像](#modifying-images-with-the-adobe-creative-sdk)。
 
 >[!CAUTION]
 >
