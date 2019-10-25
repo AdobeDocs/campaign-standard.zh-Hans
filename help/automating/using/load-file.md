@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
    例如，您可以更改列的标签，选择其类型（字符串、整数、日期等） 甚至指定错误处理。
 
-   有关详细信息，请参阅列 [格式部分](../../automating/using/load-file.md#column-format) 。
+   有关详细信息，请参阅列 [格式部分](#column-format) 。
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ## 示例2:发送包含丰富字段的电子邮件 {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 加载文件活动还允许在同一工作流程中从外部文件发送包含附加数据的电子邮件。
 
