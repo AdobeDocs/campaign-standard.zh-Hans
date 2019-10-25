@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 在此示例中，我们要创建自定义配置文件字段 **忠诚度计划** ，该字段将分为三个级别：金、银和铜。 此自定义配置文件随后将扩展为能够在动态报告中将其用作自定义配置文件维度。
 
-* [第1步：创建新的配置文件字段](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [第2步：使用配置文件字段扩展发送日志](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [第3步：创建已登记到忠诚度计划的分发目标收件人](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [第4步：创建动态报告以使用自定义配置文件维度筛选收件人](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [第1步：创建新的配置文件字段](#step-1--create-a-new-profile-field)
+* [第2步：使用配置文件字段扩展发送日志](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [第3步：创建已登记到忠诚度计划的分发目标收件人](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [第4步：创建动态报告以使用自定义配置文件维度筛选收件人](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## 第1步：创建新的配置文件字段 {#step-1--create-a-new-profile-field}
 
@@ -91,7 +91,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 现在，您的配置文件字段已创建完毕，我们需要使用配置文件字段扩展发送日志，以在动态报告中创建关联的自定义配置文件维度。
 
-在使用我们的配置文件字段扩展日志之前，请确保PII窗口已被接受以有权访问该选 **[!UICONTROL Sending logs extension]** 项卡。 有关此方面的详细信息，请参阅本 [页](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+在使用我们的配置文件字段扩展日志之前，请确保PII窗口已被接受以有权访问该选 **[!UICONTROL Sending logs extension]** 项卡。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 1. 从高级菜单中，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** ，然后选择自 **[!UICONTROL Profile (profile)]** 定义资源。
 1. 打开 **[!UICONTROL Sending logs extension]** 下拉列表。
-1. 单击按 **[!UICONTROL Create element]** 钮。
+1. Click the **[!UICONTROL Create element]** button.
 
    ![](assets/custom_profile_9.png)
 
@@ -108,7 +108,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
    ![](assets/custom_profile_10.png)
 
-   此选项仅在PII窗口被接受时可用。 有关此方面的详细信息，请参阅本 [页](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+   此选项仅在PII窗口被接受时可用。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. 单击 **[!UICONTROL Add]** 然后保存自定义资源。
 1. 由于自定义资源已被修改，因此我们需要发布它以实施新的更改。
