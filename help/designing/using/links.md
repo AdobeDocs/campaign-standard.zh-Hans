@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ![](assets/des_link_edit.png)
 
-使用电子邮件设计器编 [辑电子邮件时](../../designing/using/overview.md)，您可以轻松访问和修改您从列出电子邮件中包含的所有URL的表格中创建的链接。 此列表允许您集中查看并查找电子邮件内容中的每个URL。 要访问它，请参阅关 [于跟踪的URL](../../designing/using/links.md#about-tracked-urls)。
+使用电子邮件设计器编 [辑电子邮件时](../../designing/using/overview.md)，您可以轻松访问和修改您从列出电子邮件中包含的所有URL的表格中创建的链接。 此列表允许您集中查看并查找电子邮件内容中的每个URL。 要访问它，请参阅关 [于跟踪的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 
