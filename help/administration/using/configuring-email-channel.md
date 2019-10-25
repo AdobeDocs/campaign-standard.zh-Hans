@@ -15,7 +15,7 @@ context-tags: extAccountEmail，概述；emailConfig,main;ruleSet，概述；交
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -173,7 +173,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 临时未传送的消息可能会自动重试。 此部分指示在发送开始( **[!UICONTROL Max. number of retries]** )后应执行的重试次数和重试之间的最小延迟( **[!UICONTROL Retry period]** )。
 
-默认情况下，在第一天内计划5次重试，最小时间间隔为1小时，在一天的24小时内展开。 每天一次重试的程序设置为在此之后，直到交付截止日期为止，该截止日期在“有效性”期间 [参数部分中定义](../../administration/using/configuring-email-channel.md#validity-period-parameters) 。
+默认情况下，在第一天内计划5次重试，最小时间间隔为1小时，在一天的24小时内展开。 每天一次重试的程序设置为在此之后，直到交付截止日期为止，该截止日期在“有效性”期间 [参数部分中定义](#validity-period-parameters) 。
 
 可以全局更改重试次数（与Adobe技术管理员联系）或每个交付或交付模板的重试次数
 
@@ -206,7 +206,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 >如果为电子邮件启用了此选项，则在取消选中该选项之前，不会发送任何消息。
 >电子邮件或电子邮件模板功能板中将显示警告。
 
-有关配置SMTP的详细信息，请参阅电 [子邮件SMTP参数列表](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) 。
+有关配置SMTP的详细信息，请参阅电 [子邮件SMTP参数列表](#list-of-email-smtp-parameters) 。
 
 ### 有效期参数 {#validity-period-parameters}
 
@@ -268,7 +268,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:允许您使用个性化字段、内容块和动态文本在消息准备阶段计算电子邮件的标签值。
 
-   还可以使用已声明到工作流的外部信号活动中的事件变量个性化传送标签。 For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   还可以使用已声明到工作流的外部信号活动中的事件变量个性化传送标签。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**:此选项允许您在准备阶段将SQL查询日志添加到日志中。
 
