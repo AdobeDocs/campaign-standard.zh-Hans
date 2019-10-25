@@ -15,7 +15,7 @@ context-tags: 工作流，概述；工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 * **错误** （红色）
 
-   执行工作流时出错。 此工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用按 ![](assets/printpreview_darkgrey-24px.png) 钮访问工作流日志(请参阅 [监视](../../automating/using/executing-a-workflow.md#monitoring))。
+   执行工作流时出错。 此工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用按 ![](assets/printpreview_darkgrey-24px.png) 钮访问工作流日志(请参阅 [监视](#monitoring))。
 
 市场营销活动列表允许您显示所有工作流及其状态。 有关此方面的详细信息，请参 [阅管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities)。
 
@@ -146,7 +146,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 该图 ![](assets/printpreview_darkgrey-24px.png) 标将打开工作流日志和任务菜单。
 
-在工作流执行选项中指定的持续时间内保存工作流历史记录(请参 [阅工作流属性](../../automating/using/executing-a-workflow.md#workflow-properties))。 因此，在此期间，即使重新启动后，也会保存所有消息。 如果不希望保存先前执行中的消息，则必须单击按钮以清除历史记 ![](assets/delete_darkgrey-24px.png) 录。
+在工作流执行选项中指定的持续时间内保存工作流历史记录(请参 [阅工作流属性](#workflow-properties))。 因此，在此期间，即使重新启动后，也会保存所有消息。 如果不希望保存先前执行中的消息，则必须单击按钮以清除历史记 ![](assets/delete_darkgrey-24px.png) 录。
 
 该选 **[!UICONTROL Log]** 项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
 
@@ -174,9 +174,9 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 >[!NOTE]
 >
->您可以为每个活动单独应用此配置。 为此，请选择一个活动，然后使用快速操作将其打开 ![](assets/edit_darkgrey-24px.png)。 然后在“执行选项”选项卡中选择错 **误管理模** 式。 请参阅 [活动执行选项](../../automating/using/executing-a-workflow.md#activity-execution-options)。
+>您可以为每个活动单独应用此配置。 为此，请选择一个活动，然后使用快速操作将其打开 ![](assets/edit_darkgrey-24px.png)。 然后在“执行选项”选项卡中选择错 **误管理模** 式。 请参阅 [活动执行选项](#activity-execution-options)。
 
-工作 **[!UICONTROL Execution]** 流属性的部分还允许您定义在工作流执行 **[!UICONTROL Consecutive errors]** 自动挂起之前已授权的许多属性。 只要未达到此数量，就会忽略错误的元素，并正常执行其他工作流分支。 如果达到此编号，则暂停工作流，并自动通知工作流主管（电子邮件和应用程序内通知）。 请参 [阅工作流属性](../../automating/using/executing-a-workflow.md#workflow-properties)[和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+工作 **[!UICONTROL Execution]** 流属性的部分还允许您定义在工作流执行 **[!UICONTROL Consecutive errors]** 自动挂起之前已授权的许多属性。 只要未达到此数量，就会忽略错误的元素，并正常执行其他工作流分支。 如果达到此编号，则暂停工作流，并自动通知工作流主管（电子邮件和应用程序内通知）。 请参 [阅工作流属性](#workflow-properties)[和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
 还可以在工作流的执行属性中定义监督者。
 
