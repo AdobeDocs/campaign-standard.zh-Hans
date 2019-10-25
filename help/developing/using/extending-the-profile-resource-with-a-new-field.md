@@ -14,7 +14,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 为此，请按照以下步骤操作：
 
-* [第1步：扩展配置文件资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [第2步：扩展测试配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [第3步：发布自定义资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [第4步：使用工作流更新和定位配置文件](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [第1步：扩展配置文件资源](#step-1--extend-the-profile-resource)
+* [第2步：扩展测试配置文件](#step-2--extend-the-test-profile)
+* [第3步：发布自定义资源](#step-3--publish-your-custom-resource)
+* [第4步：使用工作流更新和定位配置文件](#step-4--update-and-target-profiles-with-a-workflow)
 
 然后，以下字段将添加到我们的配置文件中，并可以定位到分发中：
 
@@ -41,7 +41,7 @@ source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 相关主题：
 
 * [关于自定义资源](../../developing/using/data-model-concepts.md)
-* [管理配置文件](../../audiences/using/about-profiles.md)
+* [管理用户档案](../../audiences/using/about-profiles.md)
 * [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
 ## 第1步：扩展配置文件资源 {#step-1--extend-the-profile-resource}
