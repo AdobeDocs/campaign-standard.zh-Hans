@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+已添加新部分。 它提供了不同方法的概述，这些方法允许您丰富Campaign standard数据库。 [阅读更多](../../start/using/enriching-campaign-database.md)
+
+添加了一个新部分，用于说明如何设置与电子邮件设计器的链接样式。 [阅读更多](../../designing/using/styles.md#about-styling-links)
 
 ## 文档更新- 2019年10月 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 “交易消息”部分已用最新的UI更新进行了修改，包括使用电子邮件设计器编辑内容。 [阅读更多](../../channels/using/event-transactional-messages.md)
 
 登录页面章节已重新组织。 此外，还新增了一个部分，详细介绍了设置登录页面的步骤。 [阅读更多](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+Audience Manager集成页面已更新以反映 **Declared ID的更改** 。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 文档更新- 2019年9月 {#doc-updates-september-2019}
 
