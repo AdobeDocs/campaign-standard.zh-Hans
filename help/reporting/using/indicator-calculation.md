@@ -1,228 +1,226 @@
 ---
-title: 指示器计算
-seo-title: 指示器计算
-description: 指示器计算
-seo-description: 通过每个指标公式列表了解报表结果。
+title: 指标计算
+description: 通过每个指标公式的列表了解报告的结果。
 page-status-flag: 从未激活
-uuid: dfbc9d7e-62db-4e77-bb8 e-0ac826 ec7333
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
-topic-tags: 关于报告
-discoiquuid: 45b11631-6b32-4074-8c8d-afd06407810
-internal: n n
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec733
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
+topic-tags: about-reporting
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Indicator calculation{#indicator-calculation}
+# 指标计算{#indicator-calculation}
 
-下表提供了不同报表中使用的指示符列表及其计算公式，具体取决于交付类型。
+下表根据交付类型提供了不同报表中使用的指示器列表及其计算公式。
 
-## Email delivery {#email-delivery}
+## 电子邮件投放 {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
+   <th> <strong>标签</strong><br /> </th> 
    <th> <strong>字段名称</strong><br /> </th> 
    <th> <strong>指示器计算公式</strong><br /> </th> 
-   <th> <strong>注释</strong><br /> </th> 
+   <th> <strong>评论</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br /> </td> 
+   <td> 帐户已禁用<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> 列入黑名单<br /> </td> 
+   <td> @列入黑名单<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
+   <td> 列入黑名单的比率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
+   <td> 弹回次数+错误<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
+   <td> @单击<br /> </td> 
+   <td> count（@trackingUrlType=1或10或11）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> 点击率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 速率计算的分母仅基于“已交付”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 交付率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> 硬弹回<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br /> </td> 
+   <td> 硬弹回率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br /> </td> 
+   <td> 域无效<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br /> </td> 
+   <td> 邮箱已满<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> “镜像”页<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 速率计算的分母仅基于“已交付”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> 镜像页面速率<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br /> </td> 
+   <td> 未连接<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 打开<br /> </td> 
    <td> @opens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11)- unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 开放率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 速率计算的分母仅基于“已交付”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
+   <td> 隔离<br /> </td> 
    <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> 隔离率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
+   <td> 拒绝<br /> </td> 
+   <td> @已拒绝<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
+   <td> 已拒绝<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> 拒绝率<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @delivered + @bounces<br /> </td> 
+   <td> @delived + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> 软弹起<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> 软弹出率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 唯一点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> 使用ThetaSketch概念计算唯一点击量。<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 唯一打开次数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br /> </td> 
+   <td> 无法访问 <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br /> </td> 
+   <td> 取消订阅<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> 取消订阅率<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 速率计算的分母仅基于“已交付”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br /> </td> 
+   <td> 用户未知<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -230,150 +228,150 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </tbody> 
 </table>
 
-## Push notification delivery {#push-notification-delivery}
+## 推送通知投放 {#push-notification-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
+   <th> <strong>标签</strong><br /> </th> 
    <th> <strong>字段名称</strong><br /> </th> 
    <th> <strong>指示器计算公式</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 交付率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 打开<br /> </td> 
    <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 开放率<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> (@opens/@delivered)*100<br /> </td> 
+   <td> (@opens/@delived)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 唯一打开次数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unique opens is calculated using ThetaSketch concepts of unique RecipientIds.<br /> </td> 
+   <td> 唯一打开使用唯一RecipientId的ThetaSketch概念计算。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 展示次数<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> 独特印象<br /> </td> 
+   <td> @uniqueidespaces<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> @clicks<br /> </td> 
+   <td> @单击<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 唯一点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> 使用ThetaSketch概念计算唯一点击量。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> 点击率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## In-App delivery {#in-app-delivery}
+## 应用程序内投放 {#in-app-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
+   <th> <strong>标签</strong><br /> </th> 
    <th> <strong>字段名称</strong><br /> </th> 
    <th> <strong>指示器计算公式</strong><br /> </th> 
-   <th> <strong>注释</strong><br /> </th> 
+   <th> <strong>评论</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已处理／已发送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
-   <td> sent=delivered<br /> </td> 
+   <td> sent=已交付<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
-   <td> delivered=sent<br /> </td> 
+   <td> delivered=已发送<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 展示次数<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view) or @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
+   <td> @count(status=view)或@count（status=button 1单击+按钮2单击+不再续）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> 独特印象<br /> </td> 
+   <td> @uniqueidespaces<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> <span class="uicontrol">对于根据其Campaign配置文件(InAppProfile)</span> 模板，用户=收件人ID的定位用户。<br /> 对于 <span class="uicontrol">针对移动应用程序(InApp广播)的所有用户(InApp广播)</span> 和 <span class="uicontrol">根据其移动配置文件(InApp)</span> 模板(即表示用户、移动应用程序和设备的独特组合)的目标用户，定位移动应用程序的所有用户。<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于其营销活动配置文件(inAppProfile)模板的Target用户</span> ，用户=收件人Id。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)</span> 和 <span class="uicontrol">Target用户的所有用户(基于其移动配置文件(inApp)模板)</span> ，用户= MC id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> 应用程序内单击 <br /> </td> 
    <td> @inappclicks<br /> </td> 
-   <td> @count (status=click)<br /> </td> 
+   <td> @count(status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
+   <td> 唯一的应用程序内点击<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> <span class="uicontrol">对于根据其Campaign配置文件(InAppProfile)</span> 模板，用户=收件人ID的定位用户。<br /> 对于 <span class="uicontrol">针对移动应用程序(InApp广播)的所有用户(InApp广播)</span> 和 <span class="uicontrol">根据其移动配置文件(InApp)</span> 模板(即表示用户、移动应用程序和设备的独特组合)的目标用户，定位移动应用程序的所有用户。<br /> </td> 
+   <td> @unique(@count(status=clicks))<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于其营销活动配置文件(inAppProfile)模板的Target用户</span> ，用户=收件人Id。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)</span> 和 <span class="uicontrol">Target用户的所有用户(基于其移动配置文件(inApp)模板)</span> ，用户= MC id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> 应用程序内点击率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Total clicks on Button 1 or Button 2/total impressions*100<br /> </td> 
+   <td> Button 1或Button 2的总点击量／总印象*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> @dismissal<br /> </td> 
-   <td> @count (status=close)<br /> </td> 
+   <td> 应用程序内解聘<br /> </td> 
+   <td> @censiblation<br /> </td> 
+   <td> @count(status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> @uniquedismissal<br /> </td> 
-   <td> @unique(@count (status=close))<br /> </td> 
-   <td> <span class="uicontrol">对于根据其Campaign配置文件(InAppProfile)</span> 模板，用户=收件人ID的定位用户。<br /> 对于 <span class="uicontrol">针对移动应用程序(InApp广播)的所有用户(InApp广播)</span> 和 <span class="uicontrol">根据其移动配置文件(InApp)</span> 模板(即表示用户、移动应用程序和设备的独特组合)的目标用户，定位移动应用程序的所有用户。<br /> </td> 
+   <td> 独特的应用程序内免职<br /> </td> 
+   <td> @uniqueccensible<br /> </td> 
+   <td> @unique(@count(status=close))<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于其营销活动配置文件(inAppProfile)模板的Target用户</span> ，用户=收件人Id。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)</span> 和 <span class="uicontrol">Target用户的所有用户(基于其移动配置文件(inApp)模板)</span> ，用户= MC id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> @dismissalrate<br /> </td> 
-   <td> Total close/total impressions*100<br /> </td> 
+   <td> 应用程序内解雇率<br /> </td> 
+   <td> @rensulate<br /> </td> 
+   <td> 总结／总展示次数*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
