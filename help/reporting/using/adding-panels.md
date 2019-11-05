@@ -1,8 +1,6 @@
 ---
 title: 添加面板
-seo-title: 添加面板
-description: 添加面板
-seo-description: 动态报告允许您添加面板以根据所选时间段更好地过滤数据。
+description: 动态报告允许您添加面板以根据所选时间段更好地过滤数据。
 page-status-flag: 从未激活
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
