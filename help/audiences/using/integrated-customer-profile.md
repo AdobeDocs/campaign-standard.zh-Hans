@@ -1,8 +1,6 @@
 ---
-title: 整合了客户的用户档案
-seo-title: 整合了客户的用户档案
-description: 整合了客户的用户档案
-seo-description: “在单一视图中跟踪每个客户互动：Adobe Campaign集成式客户档案会在整个客户生命周期中进行更新。”
+title: 整合的客户档案
+description: “在单一视图中跟踪每个客户互动：Adobe Campaign集成式客户档案会在整个客户生命周期中进行更新。”
 page-status-flag: 从未激活
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: marketingHistory，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 整合了客户的用户档案{#integrated-customer-profile}
+# 整合的客户档案{#integrated-customer-profile}
 
 数据库的每个联系人都可以使用集成的客户档案。 此营销历史记录将与客户联系相关的所有相关营销信息组合到一个视图中。 然后，您可以在一个中心位置访问所有数字行为、线上和线下交易：联系信息、收到的电子邮件、跟踪日志、订阅和取消订阅等。
 
