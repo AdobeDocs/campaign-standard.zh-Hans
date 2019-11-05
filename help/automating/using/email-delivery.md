@@ -1,8 +1,6 @@
 ---
-title: 电子邮件发送
-seo-title: 电子邮件发送
-description: 电子邮件发送
-seo-description: 电子邮件发送活动允许您配置在工作流中发送单个发送电子邮件或循环电子邮件。
+title: 电子邮件投放
+description: 电子邮件发送活动允许您配置在工作流中发送单个发送电子邮件或循环电子邮件。
 page-status-flag: 从未激活
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: 交付，工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 电子邮件发送{#email-delivery}
+# 电子邮件投放{#email-delivery}
 
 ## 说明 {#description}
 
@@ -88,11 +86,11 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ![](assets/wkf_display_recurrent_executions_3.png)
 
-## 示例 {#example}
+## Example {#example}
 
 ![](assets/wkf_delivery_example_1.png)
 
-此示例是生日工作流。 每天都会向当天生日的个人资料发送电子邮件。 为此，请执行以下操作：
+此示例是生日工作流。 每天都会向当天生日的个人资料发送电子邮件。 操作步骤：
 
 * 您 **[!UICONTROL Scheduler]** 可以在每天上午8点开始工作流。
 
@@ -102,7 +100,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
    ![](assets/wkf_delivery_example_3.png)
 
-* 重复 **[!UICONTROL Email]** 出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总到一个视图中。 因此，在一年内，将执行365个提交，但会在Adobe Campaign界面中将其重新分组为12个视 **图(也称为重复执行**)。 历史记录和报告详细信息每月都会显示，而不是每次发送。
+* 重复 **[!UICONTROL Email]** 出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总到一个视图中。 因此，在一年内，将执行365次提交，但会在Adobe Campaign界面中将其重新分组为12个视图( **也称为重复执行**)。 历史记录和报告详细信息每月都会显示，而不是每次发送。
 
    ![](assets/wkf_delivery_example_4.png)
 
