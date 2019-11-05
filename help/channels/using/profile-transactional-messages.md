@@ -1,8 +1,6 @@
 ---
-title: 分析交易消息
-seo-title: 分析交易消息
-description: 分析交易消息
-seo-description: 了解如何创建和发布个人资料交易消息。
+title: 用户档案交易消息
+description: 了解如何创建和发布个人资料交易消息。
 page-status-flag: 从未激活
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 分析交易消息{#profile-transactional-messages}
+# 用户档案交易消息{#profile-transactional-messages}
 
 您可以根据客户营销档案发送交易消息，这允许您：
 
@@ -42,7 +40,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ## 发送个人资料交易消息 {#sending-a-profile-transactional-message}
 
-创建、个性化和发布个人资料事务消息的步骤与活动事务消息的步骤相同。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+创建、个性化和发布个人资料事务消息的步骤与活动事务消息的步骤相同。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 差异如下。
 
