@@ -1,41 +1,39 @@
 ---
 title: 数据保留
-seo-title: 数据保留
-description: 数据保留
-seo-description: null
+description: null
 page-status-flag: 从未激活
-uuid: d90852b4-e9 f3-4187-bbea-e748 d16 d1590
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
-topic-tags: 应用程序设置
-discoiquuid: b791562b-6c51-447d-9e5b-bb77136 f3 dd8
-internal: n n
+uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 管理
+content-type: 参考
+topic-tags: application-settings
+discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Data retention{#data-retention}
+# 数据保留{#data-retention}
 
-Campaign中的标准日志表在其上具有预设置的保留期，通常将其数据存储限制为个月或更少。
+Campaign中的标准日志表具有预先设置的保留期，通常将其数据存储限制在6个月或更短的时间内。
 
-以下是标准表的默认保留值。请注意，在实施过程中，Adobe技术管理员会设置保留配置，并且根据客户要求，每个实施的值可能会有所不同。
+以下是标准表的默认保留值。 请注意，保留配置由Adobe技术管理员在实施过程中设置，并且每个实施的值可能因客户要求而异。
 
-* **整合跟踪**：个月
-* **交付日志**：个月
-* **跟踪日志**：个月
-* **事件**：个月
-* **事件处理统计数据**：个月
-* **存档的事件**：个月
-* **临时实体**：天
-* **忽略的管道事件**：个月
-* **交付通知**：个月
-* **出口审核**：个月
+* **统一跟踪**:6个月
+* **交付日志**:6个月
+* **跟踪日志**:6个月
+* **活动**:1个月
+* **事件处理的统计信息**:6个月
+* **存档的活动**:6个月
+* **临时实体**:7天
+* **忽略的管道事件**:1个月
+* **交付通知**:1个月
+* **导出审核**:6个月
 
-使用标准工作流程功能，可以为任何自定义表设置保留期。
+使用标准的工作流功能，可以为任何自定义表设置保留期。
 
-联系Adobe顾问或技术管理员以了解有关保留的更多信息，或者如果您需要设置自定义表的保留。
+联系Adobe顾问或技术管理员以了解有关保留的更多信息，或者您是否需要为自定义表设置保留。
