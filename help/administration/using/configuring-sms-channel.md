@@ -1,8 +1,6 @@
 ---
-title: 配置SMS通道
-seo-title: 配置SMS通道
-description: 配置SMS通道
-seo-description: “了解SMS配置步骤：路由、编码、格式和高级属性。 "
+title: 配置短信渠道
+description: “了解SMS配置步骤：路由、编码、格式和高级属性。 "
 page-status-flag: 从未激活
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: extAccountMobile，概述；extAccount,main;delivery,smsContent,ba
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置SMS通道{#configuring-sms-channel}
+# 配置短信渠道{#configuring-sms-channel}
 
 要发送SMS消息，管理员必须在&gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL SMS]** &gt;菜单下配置一个或多个外部帐 **[!UICONTROL SMS accounts]** 户。
 
