@@ -1,8 +1,6 @@
 ---
-title: 设置双重加入流程
-seo-title: 设置双重加入流程
-description: 设置双重加入流程
-seo-description: 按照以下步骤，使用Adobe Campaign中的登录页面设置双重选择加入流程。
+title: 设置双重选择启用流程
+description: 按照以下步骤，使用Adobe Campaign中的登录页面设置双重选择加入流程。
 page-status-flag: 从未激活
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 设置双重加入流程{#setting-up-a-double-opt-in-process}
+# 设置双重选择启用流程{#setting-up-a-double-opt-in-process}
 
 ## 关于双选 {#about-double-opt-in}
 
