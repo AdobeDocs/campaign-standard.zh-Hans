@@ -1,8 +1,6 @@
 ---
-title: 关于Campaign-Audience manager或人员核心服务集成
-seo-title: 关于Campaign-Audience manager或人员核心服务集成
-description: 关于Campaign-Audience manager或人员核心服务集成
-seo-description: 通过Audience Manager/People核心服务集成，您可以在不同的Adobe Experience cloud解决方案中共享受众或细分。
+title: 关于 Campaign-Audience Manager 或 People 核心服务集成
+description: 通过Audience Manager/People核心服务集成，您可以在不同的Adobe Experience cloud解决方案中共享受众或细分。
 page-status-flag: 从未激活
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于Campaign-Audience manager或人员核心服务集成{#about-campaign-audience-manager-or-people-core-service-integration}
+# 关于 Campaign-Audience Manager 或 People 核心服务集成{#about-campaign-audience-manager-or-people-core-service-integration}
 
 Adobe Campaign允许您使用不同的Adobe Experience cloud应用程序交换和共享受众／细分。 将 **Adobe Campaign****与People核心服务** (也称为Profiles &amp; Audiences核心服务 ****)或Adobe Audience manager集成后，您可以：
 
