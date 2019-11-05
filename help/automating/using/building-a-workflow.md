@@ -1,28 +1,26 @@
 ---
 title: 构建工作流
-seo-title: 构建工作流
-description: 构建工作流
-seo-description: 本节详细介绍了创建新工作流程的主要原则和最佳做法。
+description: 本节详细介绍了创建新工作流的主要原则和最佳做法。
 page-status-flag: 从未激活
-uuid: 11374f648-40da-937b-09f419250f4c
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 11374f64-8d34-40da-937b-09f419250f4c
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
-topic-tags: 工作流常规操作
-discoiquuid: c26fcb0e-19d5-4bd5-b7 d6-2d22 ce92 ad90
-context-tags: 工作流程，向导；工作流，主要
-internal: n n
+content-type: 参考
+topic-tags: 工作流——一般操作
+discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
+context-tags: 工作流，向导；工作流，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # 构建工作流{#building-a-workflow}
 
-本节详细介绍了创建新工作流程的主要原则和最佳做法：
+本节详细介绍了创建新工作流的主要原则和最佳实践：
 
 * 创建工作流。
 * 添加和链接活动。
@@ -32,7 +30,7 @@ source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 您可以从计划、营销活动或营销活动列表创建工作流。
 
-创建营销活动详见 [“创建营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity) ”部分。
+有关创建营销活动的详细信息，请参 [阅创建营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity) 。
 
 1. 开始创建工作流类型营销活动后，请选择要使用的模板。
 
@@ -40,79 +38,79 @@ source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
    >[!NOTE]
    >
-   >默认情况下，每个营销活动提供几种类型。这些组件允许您根据需要预配置某些参数。有关更多信息，请参阅 [管理模板](../../start/using/about-templates.md) 部分。
+   >默认情况下，每个营销活动提供多种类型。 这些参数允许您根据需要预配置某些参数。 有关详细信息，请参阅管理模 [板一节](../../start/using/about-templates.md) 。
 
 1. 输入工作流的常规属性。
 
    ![](assets/workflow_creation_2.png)
 
-   您可以在 **“标签”** 字段中输入名称，并修改ID。活动名称及其ID显示在界面中，但消息收件人不可见。
+   您可以在“标签”字段中输入 **名称** ，然后修改ID。 活动名称及其ID显示在界面中，但邮件收件人看不到这些名称和ID。
 
    >[!NOTE]
    >
-   >您可以从营销活动列表中创建父营销活动中的工作流。您可以通过选择已经创建的营销活动将此工作流链接到营销活动。
+   >您可以从营销活动列表中在父营销活动中创建工作流。 您可以通过选择已创建的营销活动来将此工作流关联到营销活动。
 
    您可以添加用户可在营销活动内容中看到的描述。
 
-   由于其使他们能够更轻松地查找并排除在预期的方式下执行的操作，因此Adobe建议您提供工作流的适当名称和标签：填写工作流的描述字段以总结要执行的进程，以便操作员能够轻松理解。
+   由于如果它们没有以预期的方式执行，可以更轻松地查找和排除故障，Adobe建议为工作流提供正确的名称和标签：填写工作流的描述字段以汇总要执行的过程，以便操作员能够轻松理解它。
 
-1. 确认创建活动，随后将显示该活动的仪表板。有关此操作的详细信息，请参阅 [工作流界面](../../automating/using/workflow-interface.md) 部分。
+1. 确认创建活动，随后将显示该活动的功能板。 有关详细信息，请参阅“工作 [流界面](../../automating/using/workflow-interface.md) ”部分。
 
 **相关主题：**
 
-[创建工作流](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html) 视频
+[创建工作流视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## 添加和链接活动 {#adding-and-linking-activities}
 
-您现在必须定义各种活动，并将它们链接到图表中。
+您现在必须定义各种活动，并在图中将它们链接在一起。
 
 >[!NOTE]
 >
->如果未显示调色板，请单击工具栏的第一个按钮以显示它。
+>如果未显示调板，请单击工具栏的第一个按钮以显示它。
 
-活动按类别的不同部分内的类别分组。
+活动按类别分组在调色板的不同部分中。
 
 * 第一部分包含定位活动。
-* 第二部分包含执行活动，主要用于协调其他活动。
-* 第三部分包含可用于在不同渠道发送消息的活动。此部分中的活动可能因实例上启用的渠道而异。
+* 第二节包括执行活动，主要用于协调其他活动。
+* 第三部分包含可用于在不同渠道上发送消息的活动。 此部分中的活动可能因实例上启用的渠道而异。
 * 第四部分包含文件处理和数据管理活动。
 
-要创建图表，请执行以下操作：
+要创建图，请执行以下操作：
 
-1. 通过将活动从调色板拖动到图表中，添加活动。
+1. 通过从调色板中拖动活动并将其放入图中来添加活动。
 
-   例如，在图表中添加 **“开始** ”活动，然后添加 **电子邮件分发** 活动。
+   例如，在图中添 **加开始** ，然后添 **加电子邮件交付** 。
 
-1. 通过拖动 **开始** 活动转移并将其放到 **电子邮件交付** 活动上，将活动关联到一起。
-
-   >[!NOTE]
-   >
-   >您可以在之前的过渡结束时放置新活动，从而自动将活动链接到上一个活动。
-
-1. 添加所需的活动，并将它们链接到一起以完成工作流程。
+1. 将“开始”活动过渡拖放到“电 **子邮件** ”交付活动中，将活动链 **接到一起** 。
 
    >[!NOTE]
    >
-   >您还可以通过复制现有活动复制现有活动。这样，您就可以保留最初定义的设置。有关此操作的详细信息，请参阅 [复制工作流活动](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
+   >通过在上一个活动的过渡结束时放置新活动，可以自动将活动链接到上一个活动。
 
-将工作流程活动链接到一起后，您可以使用所选的 **标签** 来个性化它们之间的过渡。要执行此操作，请双击过渡以访问其属性。
+1. 添加所需的活动并将它们链接在一起，以完成您的工作流。
 
-**[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** 此外，活动允许您为出站过渡定义 **细分代码** 。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+   >[!NOTE]
+   >
+   >您还可以通过复制粘贴来复制现有活动。 这样，您就可以保留最初定义的设置。 有关此内容的详细信息，请参阅复 [制工作流活动](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
+
+将工作流活动关联在一起后，您便可以使用您选择的标签个性化它们 **之间的** 过渡。 为此，请双击过渡以访问其属性。
+
+此外，活 **[!UICONTROL Targeting]** 动 **[!UICONTROL Data management (ETL)]** 允许您为其出站过 **渡定义段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流使用案例：**
 
-* [使用案例：创建一次每周一次的电子邮件分发](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：在位置上创建分发分段](../../automating/using/workflow-segmentation-location.md)
-* [使用案例：通过补充创建交付](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重定向向非Opener发送新交付的工作流](../../automating/using/workflow-cross-channel-retargeting.md)
+* [用例：创建每周一次的电子邮件发送](../../automating/using/workflow-weekly-offer.md)
+* [用例：创建按位置分段的交付](../../automating/using/workflow-segmentation-location.md)
+* [用例：使用补充创建交付](../../automating/using/workflow-created-query-with-complement.md)
+* [用例：重定向工作流向非打开者发送新分发](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 配置活动 {#configuring-activities}
 
-默认情况下，活动未设置，如果未配置数据，则无法正确处理数据。每个活动都包含多个用于管理特定配置和活动的选项卡，如出站过渡、标签等。
+默认情况下，活动未设置，如果未配置，则无法正确处理数据。 每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如出站过渡、标签等。
 
-1. 确保所有活动都已正确连接。某些活动需要检测传入数据的结构或性质以提供正确的配置选项。
-1. 双击某个活动或选择它，然后单击 **[!UICONTROL Edit]** 上下文操作以打开其配置窗口。
+1. 确保所有活动都正确连接。 某些活动需要检测传入数据的结构或性质以提供正确的配置选项。
+1. 双击某个活动或选择该活动，然后单击上下文 **[!UICONTROL Edit]** 操作以打开其配置窗口。
 1. 编辑活动的标签。
-1. 定义处理数据所需的所有不同选项。请参阅本文档的活动特定部分，了解每个活动的可能选项。
+1. 定义处理数据所需的所有不同选项。 请参阅本文档中活动的特定部分，了解每个活动的可能选项。
 1. 保存活动，并为工作流的每个活动重复这些操作。
 1. 保存工作流。
