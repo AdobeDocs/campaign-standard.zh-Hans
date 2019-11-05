@@ -1,8 +1,6 @@
 ---
 title: 使用电子邮件设计器
-seo-title: 使用电子邮件设计器
-description: 使用电子邮件设计器
-seo-description: 了解电子邮件设计人员及其如何启用电子邮件设计内容。
+description: 了解电子邮件设计人员及其如何启用电子邮件设计内容。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
