@@ -1,8 +1,6 @@
 ---
 title: 工作流界面
-seo-title: 工作流界面
-description: 工作流界面
-seo-description: 了解用于创建、编辑和执行工作流的界面和选项。
+description: 了解用于创建、编辑和执行工作流的界面和选项。
 page-status-flag: 从未激活
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 工作流，主；工作流，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
