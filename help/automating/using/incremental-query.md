@@ -1,8 +1,6 @@
 ---
 title: 增量查询
-seo-title: 增量查询
-description: 增量查询
-seo-description: 增量查询活动允许您从Adobe Campaign数据库中过滤和提取元素总量。
+description: 增量查询活动允许您从Adobe Campaign数据库中过滤和提取元素总量。
 page-status-flag: 从未激活
 uuid: 73b42422-e815-43ef-84c0-97c4433cc98
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 增量，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -41,7 +39,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 活动 **[!UICONTROL Incremental query]** 可用于各种类型的使用：
 
 * 将个人细分以定义消息、受众等的目标
-* 导出数据。
+* 导出数据.
 
 ## 配置 {#configuration}
 
