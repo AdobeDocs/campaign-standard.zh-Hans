@@ -1,8 +1,6 @@
 ---
-title: 使用兴趣点数据个性化营销活动消息
-seo-title: 使用兴趣点数据个性化营销活动消息
-description: 使用兴趣点数据个性化营销活动消息
-seo-description: 了解如何通过兴趣点数据集成根据订阅者的位置创建个性化消息。
+title: 使用兴趣点数据个性化 Campaign 消息
+description: 了解如何通过兴趣点数据集成根据订阅者的位置创建个性化消息。
 page-status-flag: 从未激活
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用兴趣点数据个性化营销活动消息{#personalizing-campaign-messages-with-point-of-interest-data}
+# 使用兴趣点数据个性化 Campaign 消息{#personalizing-campaign-messages-with-point-of-interest-data}
 
 在Adobe Campaign中，您可以使用从移动应用程序订户收集的兴趣点数据向他们发送个性化的营销消息，如电子邮件。
 
