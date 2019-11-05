@@ -1,8 +1,6 @@
 ---
-title: 细分和定位
-seo-title: 细分和定位
-description: 细分和定位
-seo-description: “了解Campaign中的档案、定位和受众创建：利用Experience cloud解决方案构建受众、导入联系人共享受众，并避免营销疲劳。”
+title: 分段和定位
+description: “了解Campaign中的档案、定位和受众创建：利用Experience cloud解决方案构建受众、导入联系人共享受众，并避免营销疲劳。”
 page-status-flag: 从未激活
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 细分和定位{#segmentation-and-targeting}
+# 分段和定位{#segmentation-and-targeting}
 
 ## 配置文件 {#profiles}
 
