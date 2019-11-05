@@ -1,8 +1,6 @@
 ---
 title: 准备和发送应用程序内消息
-seo-title: 准备和发送应用程序内消息
-description: 准备和发送应用程序内消息
-seo-description: 创建应用程序内消息，以针对具有特定内容的应用程序订阅者。
+description: 创建应用程序内消息，以针对具有特定内容的应用程序订阅者。
 page-status-flag: 从未激活
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 交付，触发器，返回；交付创建，向导
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
    ![](assets/inapp_creating_5.png)
 
-1. 编辑消息内容并定义高级选项。 请参 [阅自定义应用程序内消息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)。
+1. 编辑消息内容并定义高级选项。 See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
