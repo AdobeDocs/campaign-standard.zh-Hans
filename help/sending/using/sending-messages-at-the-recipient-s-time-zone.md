@@ -1,8 +1,6 @@
 ---
-title: 在收件人的时区发送消息
-seo-title: 在收件人的时区发送消息
-description: 在收件人的时区发送消息
-seo-description: 了解如何在收件人的时区发送消息。
+title: 按收件人的时区发送消息
+description: 了解如何在收件人的时区发送消息。
 page-status-flag: 从未激活
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在收件人的时区发送消息{#sending-messages-at-the-recipient-s-time-zone}
+# 按收件人的时区发送消息{#sending-messages-at-the-recipient-s-time-zone}
 
 在管理日期和时间很重要的营销活动时，您可以计划将每个收件人的本地时间考虑在内的分发：他们将在您安排的时区收到电子邮件、短信或推送通知。
 
@@ -27,7 +25,7 @@ source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 >
 >要使用此功能，请确保您的分发目标的所有配置文件在其属性的部分中都指定了 **[!UICONTROL Address]** 一个时区。 有关访问配置文件属性的详细信息，请参阅此 [部分](../../audiences/using/editing-profiles.md)。
 
-要在收件人的时区发送分发，您还可以在工作流中 **[!UICONTROL Scheduler]** 使用活动。 有关此方面的详细信息，请参阅本 [页](../../automating/using/scheduler.md)。
+要在收件人的时区发送分发，您还可以在工作流中 **[!UICONTROL Scheduler]** 使用活动。 For more on this, refer to this [page](../../automating/using/scheduler.md).
 
 在以下示例中，我们希望向全世界所有客户发送仅在情人节有效的促销代码。 为了在白天提供足够的使用时间，所有客户必须在2月14日上午8:00收到您的消息，具体时间取决于其所在的时区。
 
