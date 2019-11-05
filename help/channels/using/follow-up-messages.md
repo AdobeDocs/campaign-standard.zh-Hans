@@ -1,8 +1,6 @@
 ---
 title: 跟进消息
-seo-title: 跟进消息
-description: 跟进消息
-seo-description: 了解如何创建和发布跟进消息。
+description: 了解如何创建和发布跟进消息。
 page-status-flag: 从未激活
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->如果您在创建活 **[!UICONTROL Profile]** 动配置时选择了定位维度，则后续消息还将利用Adobe Campaign营销数据库。 请参阅 [概要分析事务性消息](../../channels/using/profile-transactional-messages.md)。
+>如果您在创建活 **[!UICONTROL Profile]** 动配置时选择了定位维度，则后续消息还将利用Adobe Campaign营销数据库。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
