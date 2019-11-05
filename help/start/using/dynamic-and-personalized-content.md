@@ -1,8 +1,6 @@
 ---
 title: 动态和个性化内容
-seo-title: 动态和个性化内容
-description: 动态和个性化内容
-seo-description: 通过Adobe Campaign，您可以使用客户偏好和数据通过电子邮件、短信、推送通知、InApp消息或直邮创建个性化的营销活动。
+description: 通过Adobe Campaign，您可以使用客户偏好和数据通过电子邮件、短信、推送通知、InApp消息或直邮创建个性化的营销活动。
 page-status-flag: 从未激活
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
