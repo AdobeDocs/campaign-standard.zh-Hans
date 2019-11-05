@@ -1,8 +1,6 @@
 ---
 title: 创建多语言电子邮件
-seo-title: 创建多语言电子邮件
-description: 创建多语言电子邮件
-seo-description: 请按照以下步骤创建一封以不同首选语言为目标的多语言电子邮件。
+description: 请按照以下步骤创建一封以不同首选语言为目标的多语言电子邮件。
 page-status-flag: 从未激活
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
