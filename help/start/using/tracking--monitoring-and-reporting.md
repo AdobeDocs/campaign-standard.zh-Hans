@@ -1,34 +1,32 @@
 ---
-title: 跟踪、监控和报告
-seo-title: 跟踪、监控和报告
-description: 跟踪、监控和报告
-seo-description: 了解如何通过丰富客户档案数据来跟踪消息并了解客户行为。通过Adobe Campaign，可使用报告和分析工具来利用每个新营销活动。
+title: 跟踪、监视和报告
+description: 了解如何通过丰富客户档案数据来跟踪消息并了解客户行为。 借助Adobe Campaign，使用报告和分析工具充分利用每个新营销活动。
 page-status-flag: 从未激活
-uuid: 09592947-e65 f-4be-b39 f-1e0 c9 f6 d014 b
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: start
-content-type: reference
+uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开始
+content-type: 参考
 topic-tags: about-adobe-campaign
-discoiquuid: fc9b08e8-74e5-45f6-b484-90f6 b3161030
-internal: n n
+discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking, monitoring and reporting{#tracking-monitoring-and-reporting}
+# 跟踪、监视和报告{#tracking-monitoring-and-reporting}
 
-除了功能强大的现成报告模板之外，Adobe Campaign还允许您在交付、营销活动、用户或细分级别上创建自定义报告。通过渐进式丰富客户档案数据，跟踪消息并了解客户行为。利用报告和分析工具，您可以利用每个新营销活动，更好地定位营销行动并优化其影响和投资回报。
+除了功能强大的现成报告模板之外，Adobe Campaign还允许您创建分发、营销活动、用户或区段级别的自定义报告。 通过逐步丰富客户的个人资料数据来跟踪消息并了解客户的行为。 利用报告和分析工具，您可以充分利用每个新营销活动，更好地定位营销活动，并优化其影响和投资回报。
 
-图形界面可快速、轻松地访问主要指示器和交付统计数据。
+图形界面提供对主要指标和交付统计数据的快速、轻松访问。
 
 ![](assets/dynamic_report_intro.png)
 
-营销活动报告用户界面有助于创建动态报告。您可以使用拖放变量自定义报表，并分析营销活动的成功与否。根据查询和计算的复杂程度，数据可以汇总到列表视图中或以一种格式访问，从而便于生成营销分析报告。
+营销活动报告用户界面便于创建动态报告。 您可以使用拖放变量来自定义报告并分析营销活动的成功与否。 根据查询和计算的复杂性，数据可以汇总到列表视图中，或以便于生成营销分析报告的格式进行访问。
 
-For more information on reports, refer to the [Accessing reports](../../reporting/using/about-dynamic-reports.md) section.
+有关报告的详细信息，请参阅访问 [报告部分](../../reporting/using/about-dynamic-reports.md) 。
 
-通过Adobe Campaign，您可以单独监控和跟踪每个分发。消息仪表板会显示专用日志到跟进过程、规则和确定可能的错误和警告。For more about delivery monitoring, refer to the [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) section. Tracking principles and capabilities are presented in the [Tracking messages](../../sending/using/tracking-messages.md) section.
+通过Adobe Campaign，您可以单独监控和跟踪每个交付。 消息功能板显示专用日志，用于跟进进程、规则并识别可能的错误和警告。 有关交付监控的详细信息，请参阅“ [监控交付](../../sending/using/monitoring-a-delivery.md) ”部分。 “跟踪消息”部分介绍了跟踪原 [则和功能](../../sending/using/tracking-messages.md) 。
