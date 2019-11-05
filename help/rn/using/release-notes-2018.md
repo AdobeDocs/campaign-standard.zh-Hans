@@ -1,8 +1,6 @@
 ---
-title: 发行说明2018
-seo-title: 发行说明2018
-description: 发行说明2018
-seo-description: 本页列出了所有2018版Adobe Campaign Standard。
+title: 发行说明 2018
+description: 本页列出了所有2018版Adobe Campaign Standard。
 page-status-flag: 从未激活
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 发行说明2018{#release-notes}
+# 发行说明 2018{#release-notes}
 
 是否正在寻找Adobe Campaign Standard的特定2018版本？
 
@@ -29,7 +27,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ## 18.9版- 2018年9月 {#release-18-9---september-2018}
 
-### 有什么新增功能？ {#what-s-new-}
+### What's new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -94,7 +92,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ## 18.7版- 2018年7月 {#release-18-7---july-2018}
 
-### 有什么新增功能？ {#what-s-new--1}
+### What's new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -195,7 +193,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ## 版本18.5 - 2018年5月 {#release-18-5---may-2018}
 
-### 有什么新增功能？ {#what-s-new--2}
+### What's new? {#what-s-new--2}
 
 <table> 
  <thead> 
@@ -522,7 +520,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 * 修复了在查询中使用其他数据并添加包含空格的别名时导致错误消息的问题。 非字母数字字符现在替换为“_”。
 * 修复了在某些情况下，技术工作流计算KPI时可能会默认停止的问题。
 
-#### 档案和受众 {#profiles-and-audiences}
+#### 用户档案和受众 {#profiles-and-audiences}
 
 * 修复了在受众的查询中添加多个过滤器时出现的错误。
 * 修复了更改配置文件图片时出现的显示问题。
