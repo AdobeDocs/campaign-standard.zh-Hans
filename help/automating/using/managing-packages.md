@@ -1,8 +1,6 @@
 ---
 title: 管理包
-seo-title: 管理包
-description: 管理包
-seo-description: 管理员可以定义包，以便通过结构化XML文件在不同的Adobe Campaign实例之间交换资源。
+description: 管理员可以定义包，以便通过结构化XML文件在不同的Adobe Campaign实例之间交换资源。
 page-status-flag: 从未激活
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
