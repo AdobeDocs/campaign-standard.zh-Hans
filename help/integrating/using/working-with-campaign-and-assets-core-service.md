@@ -1,8 +1,6 @@
 ---
-title: 使用Campaign和Assets核心服务
-seo-title: 使用Campaign和Assets核心服务
-description: 使用Campaign和Assets核心服务
-seo-description: 由于集成了Assets核心服务，您可以在Adobe Campaign消息和登录页面中使用Adobe Experience cloud内共享的任何资源。
+title: 使用 Campaign 和 Assets 核心服务
+description: 由于集成了Assets核心服务，您可以在Adobe Campaign消息和登录页面中使用Adobe Experience cloud内共享的任何资源。
 page-status-flag: 从未激活
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用Campaign和Assets核心服务{#working-with-campaign-and-assets-core-service}
+# 使用 Campaign 和 Assets 核心服务{#working-with-campaign-and-assets-core-service}
 
 将资产核心服务或按需资产（具体取决于您的Adobe Experience cloud环境的配置）与Adobe Campaign集成后，您便可以在Adobe Campaign电子邮件和登录页面中使用Adobe Experience cloud内共享的任何资产。
 
