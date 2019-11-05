@@ -1,20 +1,18 @@
 ---
-title: Testing the subject line of an email
-seo-title: Testing the subject line of an email
-description: Testing the subject line of an email
-seo-description: Discover how to define the subject line of an email in the Email Designer.
-page-status-flag: never-activated
+title: 测试电子邮件的主题行
+description: 了解如何在电子邮件设计器中定义电子邮件的主题行。
+page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
+contentOwner: 绍维亚
 products: SG_CAMPAIGN/STANDARD
 audience: 发送
-content-type: reference
-topic-tags: editing-email-content
+content-type: 参考
+topic-tags: 编辑——电子邮件——内容
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 要测试主题行，请执行以下步骤：
 
 1. 创建或打开电子邮件。
-1. Open the content and enter the subject of the email in the corresponding input field.
+1. 打开内容，然后在相应的输入字段中输入电子邮件的主题。
 1. 单击 **[!UICONTROL Test subject]** 按钮以访问窗 **[!UICONTROL Test your subject line]** 口。 您仍可以从此窗口编辑主题。
 1. 选择正确的模型以考虑开放率预测。 有多种型号可用，每种型号都对应于特定行业。
 1. Click **[!UICONTROL Test]**.
@@ -54,21 +52,21 @@ source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 * 您可以根据以前电子邮件的数据培训本地模型：
 
    * 如果您已在使用Adobe Campaign，将自动对本地模型进行培训，以了解您已发送的消息。
-   * 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期、主题、发送、打开。 To do that, go to  &gt;  &gt;  &gt;  and follow the instructions provided on the successive screens. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]** When the subject upload is complete, import a local model as described below. The local model is automatically trained with the data you uploaded.
-   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
+   * 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期、主题、发送、打开。 为此，请转到 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** ，然后按照连续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会自动使用您上传的数据进行培训。
+   * 如果您是Adobe Campaign的新用户，并且无法如上所述获得CSV文件，则可以使用预先培训的模型，或等到系统中有足够的交付数据来培训本地模型时再执行。 系统将自动确定当前数据集是否包含足够的数据来识别模式和训练模型。
 
       >[!NOTE]
       >
-      >There is no defined number of subject lines needed to train your own model. To be able to train it, the subject lines need to be varied and to have no duplicates. If there is not enough data to process, the system will not be able to train the model. You can only have one trained model on your instance.
-   要培训本地模型，请从此处下载subjectLineTraining.xml [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，然后使用包导入功 [](../../automating/using/managing-packages.md) 能将其上传到您的Adobe Campaign实例。 A technical workflow will automatically do the training for you.
+      >培训您自己的模型不需要定义的主题行数。 为了能够训练它，主题线必须是多样的，没有重复项。 如果没有足够的数据进行处理，系统就无法对模型进行训练。 实例上只能有一个经过培训的模型。
+   要培训本地模型，请从此处下载subjectLineTraining.xml [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，然后使用包导入功 [](../../automating/using/managing-packages.md) 能将其上传到您的Adobe Campaign实例。 技术工作流将自动为您完成培训。
 
-   The first time you want to train a model, an administrator can force the  to start from the  &gt;  &gt;  menu.**[!UICONTROL SubjectLine Training workflow]****[!UICONTROL Administration]****[!UICONTROL Application settings]****[!UICONTROL Workflows]**
+   当您第一次要培训模型时，管理员可以从&gt; **[!UICONTROL SubjectLine Training workflow]** &gt;菜单强制开始模 **[!UICONTROL Administration]** 型 **[!UICONTROL Application settings]** 的操 **[!UICONTROL Workflows]** 作。
 
-   Once a model has been uploaded and trained, the feature is automatically activated and a new option appears next to the subject line field of your messages.
+   上传并培训模型后，该功能将自动激活，消息的主题行字段旁边将显示一个新选项。
 
-   Then, the technical workflow will automatically continue to train your model every week.
+   然后，技术工作流将每周自动继续培训您的模型。
 
-* 您可以导入特定行业（医疗等）的预先培训的模型using the package import feature. [](../../automating/using/managing-packages.md)这些模型在此 [处可用](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，并且无法接受培训。
+* 您可以导入特定行业（医疗等）的预先培训的模型使用包 [导入功能](../../automating/using/managing-packages.md) 。 这些模型在此 [处可用](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，并且无法接受培训。
 
    上传模型后，该功能将自动激活，消息的主题行字段旁边将显示一个新选项。
 
