@@ -1,8 +1,6 @@
 ---
-title: 关于Campaign standard设置
-seo-title: 关于Campaign standard设置
-description: 关于Campaign standard设置
-seo-description: 关于Campaign standard设置
+title: 关于 Campaign Standard 设置
+description: 关于 Campaign Standard 设置
 page-status-flag: 从未激活
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount，概述
 translation-type: tm+mt
-source-git-commit: c6c6d2a2a2b898486447826e358e98f679888aa1
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于Campaign standard设置{#about-campaign-standard-settings}
+# 关于 Campaign Standard 设置{#about-campaign-standard-settings}
 
 [!DNL Campaign] “标准”附带不同的应用程序元素，这些元素可以配置为满足您的需求。 例如，您可以：
 
