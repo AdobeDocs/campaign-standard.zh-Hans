@@ -1,8 +1,6 @@
 ---
-title: 设计A/B测试电子邮件
-seo-title: 设计A/B测试电子邮件
-description: 设计A/B测试电子邮件
-seo-description: 发现A/B测试功能，然后按照以下步骤从Adobe Campaign中的A/B测试模板创建电子邮件。
+title: 设计 A/B 测试电子邮件
+description: 发现A/B测试功能，然后按照以下步骤从Adobe Campaign中的A/B测试模板创建电子邮件。
 page-status-flag: 从未激活
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: delivery,abTesting,back;deliveryCreation，向导；delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 设计A/B测试电子邮件{#designing-an-a-b-test-email}
+# 设计 A/B 测试电子邮件{#designing-an-a-b-test-email}
 
 Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体。 每个变体被发送到群体样本以确定哪个具有最佳结果。 一旦确定，则将获胜变体发送到剩余人群。
 
@@ -30,7 +28,7 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
 >
 >无法对在Adobe Experience manager中创建的电子邮件进行A/B测试。
 
-## 创建A/B测试电子邮件 {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 可以使用标准电子邮件创建向导创建A/B测试，并向其添加A/B测试配置步骤。 创建标准电子邮件在创建电子邮 [件部分有详细介绍](../../channels/using/creating-an-email.md) 。
 
