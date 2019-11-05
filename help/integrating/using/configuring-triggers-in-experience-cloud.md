@@ -1,8 +1,6 @@
 ---
-title: 在Experience cloud中配置触发器
-seo-title: 在Experience cloud中配置触发器
-description: 在Experience cloud中配置触发器
-seo-description: '了解如何配置Adobe Experience Cloud Triggers集成，以开始根据客户先前的行为向客户发送个性化的交付。 '
+title: 在 Experience Cloud 中配置触发器
+description: '了解如何配置Adobe Experience Cloud Triggers集成，以开始根据客户先前的行为向客户发送个性化的交付。 '
 page-status-flag: 从未激活
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在Experience cloud中配置触发器{#configuring-triggers-in-experience-cloud}
+# 在 Experience Cloud 中配置触发器{#configuring-triggers-in-experience-cloud}
 
 ## 激活功能 {#activating-the-functionality}
 
