@@ -1,8 +1,6 @@
 ---
 title: 配置电子邮件渠道
-seo-title: 配置电子邮件渠道
-description: 配置电子邮件渠道
-seo-description: 了解如何配置电子邮件渠道。
+description: 了解如何配置电子邮件渠道。
 page-status-flag: 从未激活
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: extAccountEmail，概述；emailConfig,main;ruleSet，概述；交
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
