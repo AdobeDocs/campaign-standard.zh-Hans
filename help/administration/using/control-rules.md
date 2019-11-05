@@ -1,63 +1,61 @@
 ---
 title: 控制规则
-seo-title: 控制规则
-description: 控制规则
-seo-description: 了解如何通过控制规则加强消息的质量检查。
+description: 了解如何使用控制规则加强消息的质量检查。
 page-status-flag: 从未激活
-uuid: 33a1c90c-534e-4fe1-982c-f4 e1858 d4 d2 d
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
-topic-tags: 使用字型规则
-discoiquuid: 305cadde-6424-4c6f-b11 b-1e8 bdwug6 ef1
-internal: n n
+uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 管理
+content-type: 参考
+topic-tags: 排版规则
+discoiquuid: 305cade-6424-4c6f-b11b-1e8bdbad6ef1
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Control rules{#control-rules}
+# 控制规则{#control-rules}
 
 控制规则允许用户在发送消息之前检查消息的有效性和质量，如字符显示、SMS消息大小、地址格式等。
 
-Adobe Campaign中提供的一系列默认规则可确保标准控制：
+Adobe Campaign中提供的一组默认规则可确保标准控件：
 
-* **[!UICONTROL Check subject]** (电子邮件)：检查主题和发送者地址是否包含可能在某些邮件传输代理上造成问题的特殊字符，并检查邮件主题是否已完成。
-* **[!UICONTROL Check URL labels]** (电子邮件)：检查每个跟踪URL是否有一个标签。
-* **[!UICONTROL Check URLs]** (电子邮件)：检查跟踪URL(是否存在“&amp;”字符)。
-* **[!UICONTROL Check proof size]** (所有渠道)：如果证据目标人群超过100个收件人，则生成错误消息。
-* **检查取消订阅链接** (电子邮件)：检查每个内容中是否存在至少一个取消订阅(选择退出) URL(HTML和文本)。
-* **[!UICONTROL Check delivery size]** (所有渠道)：检查消息的大小。
-* **[!UICONTROL Check social network sharing link]** (电子邮件)：在内容中包括社交网络共享链接(VirallLinks)时检查镜像页面是否存在链接。
-* **[!UICONTROL A/B Test]**：通过A/B测试提取测试人群。
+* **[!UICONTROL Check subject]** （电子邮件）:检查主题和发送者地址是否不包含可能导致某些邮件传输代理出现问题的特殊字符，并检查邮件主题是否已完成。
+* **[!UICONTROL Check URL labels]** （电子邮件）:检查每个跟踪URL是否都有标签。
+* **[!UICONTROL Check URLs]** （电子邮件）:检查跟踪URL（存在“&amp;”字符）。
+* **[!UICONTROL Check proof size]** （所有渠道）:如果证明目标数量超过100个接收者，则生成错误消息。
+* **选中取消订阅链接** （电子邮件）:检查每个内容（HTML和文本）中是否存在至少一个取消订阅（退出）URL。
+* **[!UICONTROL Check delivery size]** （所有渠道）:检查消息的大小。
+* **[!UICONTROL Check social network sharing link]** （电子邮件）:在内容中包含社交网络共享链接(ViralLinks)时，检查指向镜像页面的链接是否存在。
+* **[!UICONTROL A/B Test]**:提取测试群体以通过A/B测试进行递送。
 
-您可以选择将规则从交付周期的某个阶段应用到的时刻。Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
+您可以从交付生命周期的某一阶段选择应用规则的时间。 从排版规则字段的下拉列表中选择要应 **[!UICONTROL Phase]** 用的值。
 
 ![](assets/typology_phase.png)
 
-可能的值有：
+可能的值包括：
 
-* **在定位之初**
+* **定位开始时**
 
-   控制规则可在此阶段应用，以便在出错时不执行个性化步骤。
+   该控制规则可在此阶段应用，以便在出错时不执行个性化步骤。
 
 * **定位后**
 
    如果您需要了解目标的音量以应用控制规则，请选择此阶段。
 
-   For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
+   例如，检查校样 **大小控制规则在定位阶段** 之后适用：如果证明收件人太多，此规则将阻止准备消息个性化。
 
-* **在个性化之初**
+* **个性化开始时**
 
-   如果检查批准消息个性化，必须选择此阶段。在分析阶段执行消息个性化。
+   如果检查涉及批准消息个性化，则必须选择此阶段。 消息个性化在分析阶段执行。
 
-* **在分析结束时**
+* **分析结束时**
 
-   当检查需要消息个性化完成时，请选择此阶段。
+   当检查要求消息个性化完成时，请选择此阶段。
 
 >[!NOTE]
 >
->由于安全原因，无法修改控制规则的内容。**[!UICONTROL Code]** 字段为只读字段。
+>出于安全原因，无法修改控制规则的内容。 该 **[!UICONTROL Code]** 字段为只读字段。
