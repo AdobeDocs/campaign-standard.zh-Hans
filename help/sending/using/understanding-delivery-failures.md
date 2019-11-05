@@ -1,8 +1,6 @@
 ---
-title: 了解交付失败
-seo-title: 了解交付失败
-description: 了解交付失败
-seo-description: 了解如何使用Campaign管理交付失败。
+title: 了解投放失败
+description: 了解如何使用Campaign管理交付失败。
 page-status-flag: 从未激活
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 了解交付失败{#understanding-delivery-failures}
+# 了解投放失败{#understanding-delivery-failures}
 
 ## 关于交付失败 {#about-delivery-failures}
 
