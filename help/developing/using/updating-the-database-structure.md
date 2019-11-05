@@ -1,8 +1,6 @@
 ---
 title: 更新数据库结构
-seo-title: 更新数据库结构
-description: 更新数据库结构
-seo-description: 了解如何更新Adobe Campaign数据库。
+description: 了解如何更新Adobe Campaign数据库。
 page-status-flag: 从未激活
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: deploy,main;eventCusResource，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->如果修改或删除了在事件上使用的自定义资源的字段，则相应的事件将自动取消发布。 请参 [阅配置事务消息](../../administration/using/configuring-transactional-messaging.md)。
+>如果修改或删除了在事件上使用的自定义资源的字段，则相应的事件将自动取消发布。 See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Publishing]**。
 1. 默认情况下，选 **[!UICONTROL Determine modifications since the last publication]** 中此选项，这意味着将仅应用自上次更新以来执行的更改。
