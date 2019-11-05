@@ -1,8 +1,6 @@
 ---
-title: 发现工作流
-seo-title: 发现工作流
-description: 发现工作流
-seo-description: Adobe Campaign提供了一个全面的图形环境，使您能够设计和自动化流程。
+title: 了解工作流
+description: Adobe Campaign提供了一个全面的图形环境，使您能够设计和自动化流程。
 page-status-flag: 从未激活
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 发现工作流{#discovering-workflows}
+# 了解工作流{#discovering-workflows}
 
 Adobe Campaign提供了一个全面 [的图形环境](../../automating/using/workflow-interface.md) ，允许您设计 [包括细分、营销活动执行](../../automating/using/workflow-operating-principles.md) 、文件处理、批准等复杂流程。 本节将介绍原则和最 [佳实践](../../automating/using/building-a-workflow.md)。
 
