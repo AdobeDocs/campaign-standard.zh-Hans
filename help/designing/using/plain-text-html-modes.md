@@ -1,8 +1,6 @@
 ---
-title: 纯文本和HTML模式
-seo-title: 纯文本和HTML模式
-description: 纯文本和HTML模式
-seo-description: 发现纯文本和HTML模式
+title: 纯文本和 HTML 模式
+description: 发现纯文本和HTML模式
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 纯文本和HTML模式 {#plain-text-and-html-modes}
+# 纯文本和 HTML 模式 {#plain-text-and-html-modes}
 
 ## 生成电子邮件的文本版本 {#generating-a-text-version-of-the-email}
 
