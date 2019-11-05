@@ -1,8 +1,6 @@
 ---
 title: 在Adobe Campaign中设计内容
-seo-title: 在Adobe Campaign中设计内容
-description: 在Adobe Campaign中设计内容
-seo-description: 了解可通过Adobe Campaign在内容中定义的所有元素。
+description: 了解可通过Adobe Campaign在内容中定义的所有元素。
 page-status-flag: 从未激活
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign电子邮件设计人员{#designing-content-in-adobe-campaign}
+# Campaign 电子邮件设计工具{#designing-content-in-adobe-campaign}
 
 在Adobe Campaign中创建电子邮件后，您需要定义其内容。
 
@@ -45,5 +43,5 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
 * [设计登陆页面](../../channels/using/designing-a-landing-page.md)
-* [创建SMS消息](../../channels/using/creating-an-sms-message.md)
+* [创建短信消息](../../channels/using/creating-an-sms-message.md)
 * [创建和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
