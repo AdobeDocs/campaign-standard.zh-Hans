@@ -1,8 +1,6 @@
 ---
-title: 配置事务消息传递
-seo-title: 配置事务消息传递
-description: 配置事务消息传递
-seo-description: 了解如何配置交易消息传递。
+title: 配置交易消息传递
+description: 了解如何配置交易消息传递。
 page-status-flag: 从未激活
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d765fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置事务消息传递{#configuring-transactional-messaging}
+# 配置交易消息传递{#configuring-transactional-messaging}
 
 要通过Adobe Campaign发送交易消息，您首先需要描述活动数据的结构。
 
@@ -63,7 +61,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->如果要创建多语言事务消息，请使用 **[!UICONTROL AC_language]** ID定义其他事件属性。 这仅适用于活动事务消息。 活动发布后，编辑多语言交易消息内容的步骤与编辑多语言标准电子邮件的步骤相同。 请参阅 [创建多语言电子邮件](../../channels/using/creating-a-multilingual-email.md)。
+>如果要创建多语言事务消息，请使用 **[!UICONTROL AC_language]** ID定义其他事件属性。 这仅适用于活动事务消息。 活动发布后，编辑多语言交易消息内容的步骤与编辑多语言标准电子邮件的步骤相同。 See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## 定义数据集合 {#defining-data-collections}
 
@@ -160,7 +158,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 >
 >每次修改活动时，您必须再次单 **[!UICONTROL Publish]** 击以生成将由网站开发人员使用的更新的REST API。
 
-发布活动后，将自动创建链接到新活动的交易消息。 要使此事件触发发送交易消息，您必须修改并发布刚创建的消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+发布活动后，将自动创建链接到新活动的交易消息。 要使此事件触发发送交易消息，您必须修改并发布刚创建的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 您可以直接从左侧区域的链接访问创建的事务消息。
 
