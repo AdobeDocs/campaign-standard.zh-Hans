@@ -1,8 +1,6 @@
 ---
 title: “工作流用例：在个人资料的创建日期创建提交”
-seo-title: “工作流用例：在个人资料的创建日期创建提交”
 description: “工作流用例：在个人资料的创建日期创建提交”
-seo-description: “工作流用例：在个人资料的创建日期创建提交”
 page-status-flag: 从未激活
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 工作流，用例，查询
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -106,4 +104,5 @@ Click **[!UICONTROL Confirm]**.
 
 * [查询](../../automating/using/query.md)
 * [调度程序](../../automating/using/scheduler.md)
-* [电子邮件发送](../../automa
+* [电子邮件投放](../../automating/using/email-delivery.md)
+* [电子邮件渠道](../../channels/using/creating-an-email.md)
