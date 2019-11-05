@@ -1,8 +1,6 @@
 ---
 title: 添加组件
-seo-title: 添加组件
-description: 添加组件
-seo-description: 将组件拖放到自由格式表中，开始过滤数据并构建报表。
+description: 将组件拖放到自由格式表中，开始过滤数据并构建报表。
 page-status-flag: 从未激活
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
