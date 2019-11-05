@@ -1,8 +1,6 @@
 ---
 title: 关于应用程序内消息传递
-seo-title: 关于应用程序内消息传递
-description: 关于应用程序内消息传递
-seo-description: 在手机应用程序内显示消息或警报，并显示应用程序内消息。
+description: 在手机应用程序内显示消息或警报，并显示应用程序内消息。
 page-status-flag: 从未激活
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 交付，触发器，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
