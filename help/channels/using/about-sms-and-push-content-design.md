@@ -1,8 +1,6 @@
 ---
-title: 关于SMS和推送内容设计
-seo-title: 关于SMS和推送内容设计
-description: 关于SMS和推送内容设计
-seo-description: 了解用于在Adobe Campaign中修改SMS消息和推送通知内容的编辑器。
+title: 关于短信和推送内容设计
+description: 了解用于在Adobe Campaign中修改SMS消息和推送通知内容的编辑器。
 page-status-flag: 从未激活
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: 交付，sms内容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于SMS和推送内容设计{#about-sms-and-push-content-design}
+# 关于短信和推送内容设计{#about-sms-and-push-content-design}
 
 使用内容编辑器在Adobe Campaign中定义、修改和个性化SMS消息和推送通知的内容。
 
@@ -43,6 +41,6 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 **相关主题：**
 
-* [创建SMS消息](../../channels/using/creating-an-sms-message.md)
+* [创建短信消息](../../channels/using/creating-an-sms-message.md)
 * [创建和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 
