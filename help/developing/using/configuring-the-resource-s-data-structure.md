@@ -1,8 +1,6 @@
 ---
 title: 配置资源的数据结构
-seo-title: 配置资源的数据结构
-description: 配置资源的数据结构
-seo-description: 了解如何配置数据结构。
+description: 了解如何配置数据结构。
 page-status-flag: 从未激活
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
