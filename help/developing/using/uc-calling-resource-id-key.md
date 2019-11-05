@@ -1,15 +1,13 @@
 ---
-title: 使用复合标识密钥调用资源
-seo-title: 使用复合标识密钥调用资源
-description: 使用复合标识密钥调用资源
-seo-description: 了解如何使用组合标识密钥调用资源
+title: 使用复合标识关键码调用资源
+description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用复合标识密钥调用资源{#calling-a-resource-using-a-composite-identification-key}
+# 使用复合标识关键码调用资源{#calling-a-resource-using-a-composite-identification-key}
 
 在某些情况下，您可能需要为资源定义由两个字段组成的标识密钥。 配置标识密钥后，您需要配置过滤器定义，以便能够从Campaign standard界面或API中使用该标识密钥调用资源。
 
