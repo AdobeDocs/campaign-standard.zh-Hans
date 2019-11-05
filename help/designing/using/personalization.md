@@ -1,8 +1,6 @@
 ---
 title: 个性化
-seo-title: 个性化
-description: 个性化
-seo-description: 了解如何在电子邮件设计器中个性化电子邮件。
+description: 了解如何在电子邮件设计器中个性化电子邮件。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Adobe Campaign提供的内容和消息显示可以通过多种不同的方式进
 * 插入动态的个性化字段。请参 [阅插入个性化字段](#inserting-a-personalization-field)。
 * 插入预定义的个性化基块。 请参 [阅添加内容块](#adding-a-content-block)。
 * 个性化电子邮件的发送者。 请参 [阅个性化发送者](#personalizing-the-sender)。
-* 个性化电子邮件主题。 请参 [阅个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+* 个性化电子邮件主题。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * 创建条件性内容。请参阅 [在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)
 
 ## 个性化发送者 {#personalizing-the-sender}
