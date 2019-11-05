@@ -1,8 +1,6 @@
 ---
 title: 丰富数据库
-seo-title: 丰富数据库
-description: 丰富数据库
-seo-description: 了解丰富数据库的各种方法。
+description: 了解丰富数据库的各种方法。
 page-status-flag: 从未激活
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: 勒梅特
@@ -14,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e114c4a9a6d6189c192ba72140a0e0b55f325ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
