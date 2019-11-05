@@ -1,39 +1,37 @@
 ---
 title: 关于受众
-seo-title: 关于受众
-description: 关于受众
-seo-description: 了解如何从查询、列表或文件构建受众，以及如何从Adobe Experience Cloud中导入受众。
+description: 了解如何从查询、列表或文件构建受众，以及如何从Adobe Experience cloud导入受众。
 page-status-flag: 从未激活
-uuid: b3996642-96ec-489e-b146-c8 c2 cb52 aa32
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受众
-content-type: reference
+uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 参考
 topic-tags: 管理受众
-discoiquuid: 750ed8d-67a5-4180-bfec-2a8 e3098 c812
+discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: 受众，向导；受众，概述；交付，受众，返回
-internal: n n
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About audiences{#about-audiences}
+# 关于受众{#about-audiences}
 
 受众是基于规则和属性的档案列表。
 
-Adobe Campaign允许您使用查询或使用专用工作流程自动创建受众。您还可以从Adobe Experience Cloud中使用共享受众。All of the audiences are regrouped into a list that can be accessed via the **[!UICONTROL Audiences]** card on the Adobe Campaign home page or from the **[!UICONTROL Audiences]** link.
+Adobe Campaign允许您使用查询或自动使用专用工作流手动创建受众。 您还可以使用Adobe Experience cloud中的共享受众。 所有受众将重新分组到一个列表中，该列表可通过Adobe Campaign主页 **[!UICONTROL Audiences]** 上的卡片或链接访问该 **[!UICONTROL Audiences]** 列表。
 
 ![](assets/audience_1.png)
 
-您可以在Adobe Campaign中处理不同的受众类型。受众的类型与创建该受众的方式对应：
+您可以在Adobe Campaign中处理不同的受众类型。 受众类型与创建受众的方式相对应：
 
-* **[!UICONTROL Query]**：表示受众是从 [Adobe](../../automating/using/editing-queries.md#about-query-editor) Campaign数据库中的数据查询创建的，该查询来自受众列表。每次进一步使用查询定义的受众都会重新计算。
-* **[!UICONTROL List]**：表示受众是一个固定的配置文件列表。These lists are created in a [workflow](../../automating/using/discovering-workflows.md), where the data dimension is known when saving the audience. For example, after targeting activities (especially **[!UICONTROL Query]** ) or after the reconciliation of data imported from a file.
-* **[!UICONTROL File]**：表示受众是从 [文件导入](../../automating/using/load-file.md) 工作流直接创建的，并且在保存受众时数据维度未知。
-* **[!UICONTROL Experience Cloud]**：表示受众从Adobe Experience Cloud导入。仅当配置了受众共享功能时，此选项才可用。For more information, see [Importing an audience from the Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
+* **[!UICONTROL Query]**:指示受众是从受众列表 [中](../../automating/using/editing-queries.md#about-query-editor) ，从Adobe Campaign数据库查询数据创建的。 由查询定义的受众在每次进一步使用时都被重新计算。
+* **[!UICONTROL List]**:表示受众是配置文件的固定列表。 这些列表是在保存受众时已 [知数据维度的工作流](../../automating/using/discovering-workflows.md)中创建的。 例如，在定位活动(尤其是 **[!UICONTROL Query]** )之后或从文件导入的数据对帐之后。
+* **[!UICONTROL File]**:指示受众是直接从文件导入工作 [流创建的](../../automating/using/load-file.md) ，并且保存受众时数据维度未知。
+* **[!UICONTROL Experience Cloud]**:表示受众是从Adobe Experience cloud导入的。 仅当已配置受众共享功能时，此选项才可用。 有关详细信息，请 [参阅从Adobe Experience cloud导入受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
 
 ![](assets/audience_type_selection.png)
 
