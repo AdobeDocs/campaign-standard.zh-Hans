@@ -1,8 +1,6 @@
 ---
 title: 电子邮件渲染
-seo-title: 电子邮件渲染
-description: 电子邮件渲染
-seo-description: 了解电子邮件渲染功能。
+description: 了解电子邮件渲染功能。
 page-status-flag: 从未激活
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -67,7 +65,7 @@ Litmus网站上列出了可用于Adobe Campaign中 **电子邮件呈现的移动
 **相关主题**:
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [管理测试配置文件和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [管理测试用户档案和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [查询编辑器](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 电子邮件渲染报告说明 {#email-rendering-report-description}
