@@ -1,8 +1,6 @@
 ---
 title: “工作流用例：重新定位非开放者”
-seo-title: “工作流用例：重新定位非开放者”
 description: “工作流用例：重新定位非开放者”
-seo-description: “工作流用例：重新定位非开放者”
 page-status-flag: 从未激活
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: '工作流，用例，查询，等待，交付 '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -83,6 +81,6 @@ source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 **相关主题：**
 
 * [查询](../../automating/using/query.md)
-* [SMS交付](../../automating/using/sms-delivery.md)
-* [电子邮件发送](../../automating/using/email-delivery.md)
+* [短信投放](../../automating/using/sms-delivery.md)
+* [电子邮件投放](../../automating/using/email-delivery.md)
 * [电子邮件渠道](../../channels/using/creating-an-email.md)
