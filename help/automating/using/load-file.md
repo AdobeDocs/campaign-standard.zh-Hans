@@ -1,8 +1,6 @@
 ---
 title: 加载文件
-seo-title: 加载文件
-description: 加载文件
-seo-description: “加载文件”活动允许您将数据导入一个结构化表单，以在Adobe Campaign中使用此数据。
+description: “加载文件”活动允许您将数据导入一个结构化表单，以在Adobe Campaign中使用此数据。
 page-status-flag: 从未激活
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
