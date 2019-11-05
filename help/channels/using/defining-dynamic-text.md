@@ -1,8 +1,6 @@
 ---
 title: 定义动态文本
-seo-title: 定义动态文本
-description: 定义动态文本
-seo-description: 了解如何根据Adobe Campaign中定义的条件向用户动态显示不同的文本。
+description: 了解如何根据Adobe Campaign中定义的条件向用户动态显示不同的文本。
 page-status-flag: 从未激活
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
