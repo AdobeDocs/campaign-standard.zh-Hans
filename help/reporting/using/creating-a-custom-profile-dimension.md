@@ -1,8 +1,6 @@
 ---
-title: 创建自定义配置文件维度
-seo-title: 创建自定义配置文件维度
-description: 创建自定义配置文件维度
-seo-description: 了解如何根据自定义配置文件数据创建自定义配置文件维度。
+title: 创建自定义用户档案维度
+description: 了解如何根据自定义配置文件数据创建自定义配置文件维度。
 page-status-flag: 从未激活
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 创建自定义配置文件维度{#creating-a-custom-profile-dimension}
+# 创建自定义用户档案维度{#creating-a-custom-profile-dimension}
 
 还可以根据在配置文件自定义资源扩展期间创建的自定义配置文件数据创建和管理报告。
 
