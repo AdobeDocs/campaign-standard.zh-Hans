@@ -1,8 +1,6 @@
 ---
 title: 关于推送通知
-seo-title: 关于推送通知
-description: 关于推送通知
-seo-description: 了解Adobe Campaign中推送通知渠道的主要特性。
+description: 了解Adobe Campaign中推送通知渠道的主要特性。
 page-status-flag: 从未激活
 uuid: 961aeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: mobileApp，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
