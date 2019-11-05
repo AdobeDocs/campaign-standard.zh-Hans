@@ -1,8 +1,6 @@
 ---
 title: 外部信号
-seo-title: 外部信号
-description: 外部信号
-seo-description: 当在另一个工作流中成功满足某些条件时，外部信号活动会触发一个工作流。
+description: 当在另一个工作流中成功满足某些条件时，外部信号活动会触发一个工作流。
 page-status-flag: 从未激活
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 信号，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
