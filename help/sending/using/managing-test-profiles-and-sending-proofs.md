@@ -1,8 +1,6 @@
 ---
-title: 管理测试配置文件和发送校样
-seo-title: 管理测试配置文件和发送校样
-description: 管理测试配置文件和发送校样
-seo-description: 了解如何管理测试配置文件和校样。
+title: 管理测试用户档案和发送校样
+description: 了解如何管理测试配置文件和校样。
 page-status-flag: 从未激活
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: seedMember，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 管理测试配置文件和发送校样{#managing-test-profiles-and-sending-proofs}
+# 管理测试用户档案和发送校样{#managing-test-profiles-and-sending-proofs}
 
 ## 关于测试配置文件 {#about-test-profiles}
 
@@ -158,12 +156,12 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
    ![](assets/trap_select.png)
 
-1. 消息内容准备就绪后，单击该 **[!UICONTROL Prepare]** 按钮。 请参 [阅准备发送](../../sending/using/preparing-the-send.md)。
+1. 消息内容准备就绪后，单击该 **[!UICONTROL Prepare]** 按钮。 See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >确保选择了主目标。 否则，将无法发送您的消息。
 
-1. Click the **[!UICONTROL Confirm]** button. 请参 [阅确认发送](../../sending/using/confirming-the-send.md)。
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
