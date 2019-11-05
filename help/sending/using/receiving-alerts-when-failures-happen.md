@@ -1,8 +1,6 @@
 ---
-title: 在失败时接收警报
-seo-title: 在失败时接收警报
-description: 在失败时接收警报
-seo-description: 了解如何使用警报管理系统。
+title: 在失败时接收提醒
+description: 了解如何使用警报管理系统。
 page-status-flag: 从未激活
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在失败时接收警报{#receiving-alerts-when-failures-happen}
+# 在失败时接收提醒{#receiving-alerts-when-failures-happen}
 
 ## 关于交付警报 {#about-delivery-alerting}
 
@@ -277,7 +275,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **相关主题：**
 
-* [了解交付失败](../../sending/using/understanding-delivery-failures.md)
+* [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [管理Campaign中的黑名单](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
