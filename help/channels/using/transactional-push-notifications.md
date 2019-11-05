@@ -1,8 +1,6 @@
 ---
 title: 交易推送通知
-seo-title: 交易推送通知
-description: 交易推送通知
-seo-description: 了解如何创建和发布交易推送通知。
+description: 了解如何创建和发布交易推送通知。
 page-status-flag: 从未激活
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -54,7 +52,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 公司将使用一个移动应用程序通过一个设备，为每个用户发送一个交易推送通知（用注册令牌标识）。
 
-1. 转到为编辑而创建的交易消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+1. 转到为编辑而创建的交易消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
@@ -111,7 +109,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 例如，某航空公司希望向订阅其移动应用程序的所有Adobe Campaign用户发送最后一次登机通知。
 
-1. 转到为编辑而创建的交易消息。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+1. 转到为编辑而创建的交易消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
