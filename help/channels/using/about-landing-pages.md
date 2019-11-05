@@ -1,8 +1,6 @@
 ---
 title: 关于登陆页面
-seo-title: 关于登陆页面
-description: 关于登陆页面
-seo-description: 发现Campaign登陆页面及其生命周期。
+description: 发现Campaign登陆页面及其生命周期。
 page-status-flag: 从未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: landingPage，向导；landingPage，概述；landingPage，主页
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
