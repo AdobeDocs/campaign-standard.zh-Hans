@@ -1,8 +1,6 @@
 ---
-title: 编辑配置文件
-seo-title: 编辑配置文件
-description: 编辑配置文件
-seo-description: 了解如何编辑现有配置文件和访问联系信息、首选渠道、跟踪日志、订阅等。
+title: 编辑用户档案
+description: 了解如何编辑现有配置文件和访问联系信息、首选渠道、跟踪日志、订阅等。
 page-status-flag: 从未激活
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 编辑配置文件{#editing-profiles}
+# 编辑用户档案{#editing-profiles}
 
 ## 访问配置文件属性 {#accessing-profile-properties}
 
@@ -43,7 +41,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 相关主题：
 
-* [整合了客户的用户档案](../../audiences/using/integrated-customer-profile.md)
+* [整合的客户档案](../../audiences/using/integrated-customer-profile.md)
 * [在收件人的时区发送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## 一般配置文件数据 {#general-profile-data}
@@ -57,7 +55,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ![](assets/profile_creation4.png)
 
-## 发送和跟踪日志 {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 该和 **[!UICONTROL Sending logs]** 选 **[!UICONTROL Tracking logs]** 项卡将发送到配置文件的分发列表以及所有相关跟踪数据分组在一起。
 
