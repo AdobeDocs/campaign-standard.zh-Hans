@@ -1,42 +1,40 @@
 ---
-title: 关于Campaign-Analytics集成
-seo-title: 关于Campaign-Analytics集成
-description: 关于Campaign-Analytics集成
-seo-description: 通过收集Adobe Campaign Standard的KPI数据，您现在可以与Adobe Analytics共享营销活动数据，以衡量Adobe Campaign中的电子邮件营销指标。
+title: 关于 Campaign-Analytics 集成
+description: 通过从Adobe Campaign Standard收集KPI数据，您现在可以与Adobe Analytics共享营销活动数据，从而衡量Adobe Campaign的电子邮件营销指标。
 page-status-flag: 从未激活
-uuid: a351e1d-50cb-4ec5-8b66-318b797af77f
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 集成
-content-type: reference
-topic-tags: 使用营销活动和分析
-discoiquuid: 2ea51543-fe4 d-462b-b47 e-9cca1 d68 dfa
-internal: n n
+content-type: 参考
+topic-tags: 使用活动和分析
+discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About Campaign-Analytics integration{#about-campaign-analytics-integration}
+# 关于 Campaign-Analytics 集成{#about-campaign-analytics-integration}
 
-借助Adobe Campaign中的Adobe Analytics集成，您现在可以直接在Adobe Analytics中跟踪电子邮件交付的成功与否。
+借助Adobe Campaign中的Adobe Analytics集成，您现在可以直接在Adobe Analytics中跟踪电子邮件发送的成功情况。
 
-Adobe Campaign Standard与Adobe Analytics之间的这种集成允许您：
+Adobe Campaign standard与Adobe Analytics之间的这一集成允许您：
 
-* 将您的KPI(关键绩效指标)数据从Adobe Campaign Standard共享到Adobe Analytics。
+* 将您的KPI（关键绩效指标）数据从Adobe Campaign standard共享到Adobe Analytics。
 * 使用Adobe Analytics参数丰富跟踪公式。
 
-这将首先创建链接到Adobe Analytics的外部帐户。技术工作流随后将自动启动，默认情况下，每15分钟自动执行一次。然后将KPI数据推送到Analytics。
+首先创建一个链接到Adobe Analytics的外部帐户即可完成此操作。 然后，技术工作流将自动启动，默认情况下每15分钟自动执行一次。 然后，您的KPI数据会推送到Analytics。
 
-此集成仅可用于电子邮件分发。
+此集成仅适用于电子邮件发送。
 
-An integration between Adobe Analytics' core service **Triggers** and Adobe Campaign is also available. 它允许您向客户发送个性化电子邮件，作为对Adobe Analytics在网站上跟踪的特定行为的反应(在15分钟内)。
+Adobe Analytics核心服务触发器与Adobe **Campaign** 之间的集成也可用。 它允许您向客户发送个性化电子邮件，作为对Adobe Analytics在您网站上跟踪的特定行为的响应（15分钟内）。
 
 **相关主题：**
 
-* [Analytics中的营销活动维度和指标](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+* [Analytics 中的 Campaign 维度和指标](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [报告](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html) 文档
+* [Adobe Analytics文档](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
 
