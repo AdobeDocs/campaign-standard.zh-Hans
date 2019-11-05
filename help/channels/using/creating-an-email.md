@@ -1,8 +1,6 @@
 ---
 title: 创建电子邮件
-seo-title: 创建电子邮件
-description: 创建电子邮件
-seo-description: 请按照以下步骤在Adobe Campaign中创建单发电子邮件。
+description: 请按照以下步骤在Adobe Campaign中创建单发电子邮件。
 page-status-flag: 从未激活
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -72,7 +70,7 @@ source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
    ![](assets/delivery_planning.png)
 
-1. 准备消息以分析其目标。 请参 [阅准备发送](../../sending/using/confirming-the-send.md)。
+1. 准备消息以分析其目标。 See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
