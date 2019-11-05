@@ -1,8 +1,6 @@
 ---
 title: 发行说明
-seo-title: 发行说明
-description: 发行说明
-seo-description: 本页列出了Adobe Campaign Standard的所有最新版本。
+description: 本页列出了Adobe Campaign Standard的所有最新版本。
 page-status-flag: 从未激活
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -33,7 +31,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 19.4版- 2019年10月 {#release-19-4---october-2019}
 
-### 有什么新增功能？ {#what-s-new-5}
+### What's new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -150,7 +148,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
 
-### 有什么新增功能？ {#what-s-new-4}
+### What's new? {#what-s-new-4}
 
 我们为管理员用户添加了新功能，使其能够在域的SSL证书过期之前接收通知。 有关详细信息，请参阅详 [细文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
 
@@ -160,7 +158,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 19.3版- 2019年7月 {#release-19-3---july-2019}
 
-### 有什么新增功能？ {#what-s-new-3}
+### What's new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -280,13 +278,13 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 19.2.4版- 2019年6月 {#release-19-2-4---june-2019}
 
-### 电子邮件设计人员 {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * 修复了在HTML中使用空样式标签时用户无法编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
 ## 19.2.3版- 2019年6月 {#release-19-2-3---june-2019}
 
-### 电子邮件设计人员 {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 为优化19.2版本中的片段引入了一系列改进和修复。 新创建的片段将无缝工作。 先前构建的片段已灰显，需要迁移到新格式。 为此，请单击每个片段并验证其迁移到新格式。 我们建议您先测试几个片段，然后再迁移所有片段。
 
@@ -305,7 +303,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### 有什么新增功能？ {#what-s-new-}
+### What's new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -423,7 +421,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 19.1版- 2019年2月 {#release-19-1---february-2019}
 
-### 有什么新增功能？ {#what-s-new--1}
+### What's new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -529,7 +527,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 19.0版- 2019年1月 {#release-19-0---january-2019}
 
-### 有什么新增功能？ {#what-s-new--2}
+### What's new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -581,7 +579,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 * 定义配置文件地址时可用国家／地区的列表已丰富。 (CAMP-26707)
 * 现在，在尝试导入内置工作流时显示错误消息。
 
-### 电子邮件设计人员 {#email-designer}
+### Email Designer {#email-designer}
 
 * 修复了在电子邮件模板或使用电子邮件设计器创建的内容片段上启用地理单元功能的问题，即使在Adobe Campaign中禁用了该功能，这使模板或片段在再次尝试访问时不可用。 (CAMP-28174)
 * 修复了在使用电子邮件设计器编辑内容时无法保存动态内容条件的问题。 (CAMP-27905)
