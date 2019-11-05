@@ -1,8 +1,6 @@
 ---
-title: 界面说明
-seo-title: 界面说明
-description: 界面说明
-seo-description: “了解如何导航和使用Adobe Campaign工作区：主页、顶栏、高级菜单和操作栏。”
+title: 界面描述
+description: “了解如何导航和使用Adobe Campaign工作区：主页、顶栏、高级菜单和操作栏。”
 page-status-flag: 从未激活
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 界面说明{#interface-description}
+# 界面描述{#interface-description}
 
 Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
