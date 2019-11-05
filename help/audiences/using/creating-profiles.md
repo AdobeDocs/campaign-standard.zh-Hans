@@ -1,8 +1,6 @@
 ---
-title: 创建配置文件
-seo-title: 创建配置文件
-description: 创建配置文件
-seo-description: 了解如何使用API、导入功能、在线获取、自动或手动更新创建配置文件并收集联系人的数据。
+title: 创建用户档案
+description: 了解如何使用API、导入功能、在线获取、自动或手动更新创建配置文件并收集联系人的数据。
 page-status-flag: 从未激活
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 4ab8a984-f898-4ff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 创建配置文件{#creating-profiles}
+# 创建用户档案{#creating-profiles}
 
 在Adobe Campaign中，配置文件默认用于定义消息的主要目标。
 
