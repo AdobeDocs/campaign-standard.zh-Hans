@@ -1,8 +1,6 @@
 ---
 title: 管理样式
-seo-title: 管理样式
-description: 管理样式
-seo-description: 了解如何在电子邮件设计器中管理电子邮件样式。
+description: 了解如何在电子邮件设计器中管理电子邮件样式。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
