@@ -1,8 +1,6 @@
 ---
 title: '个性化电子邮件 '
-seo-title: 关于电子邮件设计人员
-description: 关于电子邮件设计人员
-seo-description: 探索使您能够为电子邮件设计内容的电子邮件设计器。
+description: 探索使您能够为电子邮件设计内容的电子邮件设计器。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
