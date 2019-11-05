@@ -1,8 +1,6 @@
 ---
 title: 关于模板
-seo-title: 关于模板
-description: 关于模板
-seo-description: “Adobe Campaign模板允许您根据自己的需求预配置参数：模板可能包含营销活动的完整或部分配置，以简化非技术最终用户的Adobe Campaign使用。”
+description: “Adobe Campaign模板允许您根据自己的需求预配置参数：模板可能包含营销活动的完整或部分配置，以简化非技术最终用户的Adobe Campaign使用。”
 page-status-flag: 从未激活
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
