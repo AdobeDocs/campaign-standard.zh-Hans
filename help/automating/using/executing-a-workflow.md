@@ -1,8 +1,6 @@
 ---
 title: 执行工作流
-seo-title: 执行工作流
-description: 执行工作流
-seo-description: 了解如何执行和监控工作流。
+description: 了解如何执行和监控工作流。
 page-status-flag: 从未激活
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 工作流，概述；工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
