@@ -1,8 +1,6 @@
 ---
-title: 与Adobe解决方案集成
-seo-title: 与Adobe解决方案集成
-description: 与Adobe解决方案集成
-seo-description: 了解与Adobe Experience cloud核心服务和解决方案（如Adobe Analytics和Experience Manager）的集成如何通过深入的洞察和便捷的内容管理改进您的Adobe Campaign战略。
+title: 与 Adobe 解决方案集成
+description: 了解与Adobe Experience cloud核心服务和解决方案（如Adobe Analytics和Experience Manager）的集成如何通过深入的洞察和便捷的内容管理改进您的Adobe Campaign战略。
 page-status-flag: 从未激活
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 与Adobe解决方案集成{#integrating-with-adobe-solutions}
+# 与 Adobe 解决方案集成{#integrating-with-adobe-solutions}
 
 与其他Adobe Experience cloud解决方案集成可能需要您调整初始配置。 有关详细信息，请与Adobe技术管理员联系。
 
