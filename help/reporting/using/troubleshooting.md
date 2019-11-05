@@ -1,8 +1,6 @@
 ---
-title: 疑难解答
-seo-title: 疑难解答
-description: 疑难解答
-seo-description: 在此处查找与动态报告相关的常见问题。
+title: 故障排除
+description: 在此处查找与动态报告相关的常见问题。
 page-status-flag: 从未激活
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 班多
@@ -14,12 +12,12 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 疑难解答{#troubleshooting}
+# 故障排除{#troubleshooting}
 
 您可以在本节中找到与动态报告相关的常见问题。
 
@@ -39,7 +37,7 @@ P1在第一天打开两次电子邮件，第二天打开三次。
  <thead> 
   <tr> 
    <th align="center"> <strong>日</strong><br /> </th> 
-   <th align="center"> <strong>打开</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +65,7 @@ P1在第一天打开两次电子邮件，第二天打开三次。
  <thead> 
   <tr> 
    <th align="center"> <strong>日</strong><br /> </th> 
-   <th align="center"> <strong>打开</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -123,7 +121,7 @@ P1在第一天打开两次电子邮件，第二天打开三次。
    <th align="center"> <strong>交付</strong><br /> </th> 
    <th align="center"> <strong>已发送</strong><br /> </th> 
    <th align="center"> <strong>交付</strong><br /> </th>
-   <th align="center"> <strong>打开</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th>
   </tr> 
  </thead> 
@@ -167,7 +165,7 @@ P1在第一天打开两次电子邮件，第二天打开三次。
    <th align="center"> <strong>交付</strong><br /> </th> 
    <th align="center"> <strong>已发送</strong><br /> </th> 
    <th align="center"> <strong>交付</strong><br /> </th>
-   <th align="center"> <strong>打开</strong><br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
    <th align="center"> <strong>唯一打开次数</strong><br /> </th>
   </tr> 
  </thead> 
