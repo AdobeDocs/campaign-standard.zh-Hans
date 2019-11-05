@@ -1,8 +1,6 @@
 ---
-title: 消息功能板
-seo-title: 消息功能板
-description: 消息功能板
-seo-description: 了解消息功能板由哪些部分组成，包括操作栏和各种功能块。
+title: 消息仪表板
+description: 了解消息功能板由哪些部分组成，包括操作栏和各种功能块。
 page-status-flag: 从未激活
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: 交付，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 消息功能板{#message-dashboard}
+# 消息仪表板{#message-dashboard}
 
 消息功能板是由不同图标（重新分组为操作栏）和各种功能块组成的工作区，这些功能块允许您建立消息的参数并发送消息。 这些元素如下所示。
 
@@ -76,5 +74,5 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 * **[!UICONTROL Deployment]**:允许您跟踪消息准备或发送的进度。 单击此块右下角的按钮可访问发送和分析日志。 此块仅在准备发送后显示。 有关详情。 请参阅 [确认发送](../../sending/using/confirming-the-send.md)。
 * **[!UICONTROL Audience]**:允许您建立消息的主目标以及测试配置文件。 请参阅 [创建受众](../../audiences/using/creating-audiences.md)。
 * **[!UICONTROL Schedule]**:允许您指定消息的发送日期。 请参 [阅计划](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:允许您定义消息的内容并预览该消息。 请参 [阅发送消息的关键步骤](../../channels/using/key-steps-to-send-a-message.md)。
+* **[!UICONTROL Content]**:允许您定义消息的内容并预览该消息。 See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
