@@ -1,8 +1,6 @@
 ---
 title: 使用外部参数调用工作流
-seo-title: 使用外部参数调用工作流
-description: 使用外部参数调用工作流
-seo-description: 本节详细介绍如何使用外部参数调用工作流。
+description: 本节详细介绍如何使用外部参数调用工作流。
 page-status-flag: 从未激活
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -87,7 +85,7 @@ Campaign standard允许您调用包含参数（受众名称要定位、要导入
 
    ![](assets/extsignal_monitoring_3.png)
 
-## 使用外部参数自定义工作流 {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 触发工作流后，这些参数将被引入事件变量中，并可用于自定义工作流的活动。
 
@@ -128,7 +126,7 @@ $(vars/@parameterName)
 
 * [编辑表达式](../../automating/using/advanced-expression-editing.md#edit-an-expression)
 * [标准语法](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [函数列表](../../automating/using/list-of-functions.md)
+* [功能列表](../../automating/using/list-of-functions.md)
 
 ### 使用事件变量自定义活动 {#customizing-activities-with-events-variables}
 
