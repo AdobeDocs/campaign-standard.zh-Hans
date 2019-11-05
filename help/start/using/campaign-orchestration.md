@@ -1,8 +1,6 @@
 ---
 title: 营销活动编排
-seo-title: 营销活动编排
-description: 营销活动编排
-seo-description: Adobe Campaign是一款功能强大的跨渠道营销活动管理工具，可帮助您协调线上和线下策略，以创建个性化的客户体验。
+description: Adobe Campaign是一款功能强大的跨渠道营销活动管理工具，可帮助您协调线上和线下策略，以创建个性化的客户体验。
 page-status-flag: 从未激活
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,5 +38,5 @@ Adobe Campaign的主要功能包括：
 * **创建消息和内容** -此阶段涉及选择通 [信渠道](../../channels/using/discovering-communication-channels.md)。 您还可以设计登 [录页面](../../channels/using/about-landing-pages.md) ，以获取或更新配置文件，并扩展数据库。 请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)、创建SMS [消息](../../channels/using/creating-an-sms-message.md)、创建 [SMS通知、在应用程序中创建推送消息、](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)创建直接邮件创建直接邮件。
 * **测试和发送** -执行阶段允许用户执行各种验证步骤（内容、目标），尤其是通过预览屏幕以及在发送之前向批准者发送证明。 请参阅 [测试和发送](../../sending/using/about-sending-messages-with-campaign.md)。
 * **监视和报告** -一旦执行了营销活动并发送了不同的消息，此阶段允许用户收集发送的不同状态以及跟踪和监视信息。 系列活动和交付报告会生成，用于跟踪系列活动和收件人活动的影响。 请参阅 [报告工具](../../reporting/using/about-dynamic-reports.md)。
-* **自动化** -在此阶段，还有其他因素，如导入／导出机制实施方法、数据管理和更新模式、个性化数据识别等。 定义。 请参 [阅工作流和数据管理](../../automating/using/workflow-data-and-processes.md)。
+* **自动化** -在此阶段，还有其他因素，如导入／导出机制实施方法、数据管理和更新模式、个性化数据识别等。 定义。 See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
 
