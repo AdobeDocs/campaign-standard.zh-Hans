@@ -1,66 +1,64 @@
 ---
-title: 阅读受众
-seo-title: 阅读受众
-description: 阅读受众
-seo-description: 阅读受众活动允许您检索现有受众，并通过应用其他过滤条件来调整受众。
+title: 读取受众
+description: 阅读受众活动允许您检索现有受众并通过应用其他过滤条件来优化它。
 page-status-flag: 从未激活
-uuid: 58c54e71-f4 a7-4ae9-80a3-33c379 ab1 db9
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 定位活动
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4 ba7422 f
-context-tags: ReadAudience，主要
-internal: n n
+discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
+context-tags: readAudience,main
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Read audience{#read-audience}
+# 读取受众{#read-audience}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/prefill.png)
 
-**[!UICONTROL Read audience]** 活动允许您检索现有受众，并通过应用其他过滤条件来调整现有受众。
+该活 **[!UICONTROL Read audience]** 动允许您检索现有受众并通过应用其他过滤条件来优化它。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL Read audience]** 活动是为您只需要选择现有受众而设计的 **[!UICONTROL Query]** 活动的一个更简单版本。
+该活 **[!UICONTROL Read audience]** 动是活动的一个更简单的版本， **[!UICONTROL Query]** 专为只需要选择现有受众的情况而设计。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drop a **[!UICONTROL Read audience]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the audience you want to retrieve from the **[!UICONTROL Properties]** tab.
+1. 将活动 **[!UICONTROL Read audience]** 拖入工作流。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 从选项卡中选择要检索的受 **[!UICONTROL Properties]** 众。
 
-   You can retrieve audiences of the following types: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]**. For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
+   您可以检索以下类型的受众： **[!UICONTROL List]**、 **[!UICONTROL Query]****[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。 有关受众类型的更多信息，请参阅“受 [众](../../audiences/using/about-audiences.md) ”文档。
 
-   The **[!UICONTROL Use a dynamic audience]** option lets you define the name of the audience to target based on the workflow's events variables. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   通过 **[!UICONTROL Use a dynamic audience]** 此选项，您可以根据工作流的事件变量定义要定位的受众名称。 有关此内容的详细信息，请参阅使 [用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 。
 
    ![](assets/readaudience_activity1.png)
 
-1. If you want to apply additional filtering to the selected audience, add conditions via the **[!UICONTROL Source filtering]** tab of the activity.
+1. 如果要对选定受众应用其他筛选，请通过活动的选 **[!UICONTROL Source filtering]** 项卡添加条件。
 
-   For more information about creating filtering conditions, refer to the [Creating queries](../../automating/using/editing-queries.md#creating-queries) documentation.
+   有关创建筛选条件的详细信息，请参阅创 [建查询](../../automating/using/editing-queries.md#creating-queries) 文档。
 
 1. 确认活动的配置并保存工作流。
 
-## Example: Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
+## 示例：协调文件受众与数据库 {#example--reconcile-a-file-audience-with-the-database}
 
-This example shows how to use the **[!UICONTROL Read audience]** activity to reconcile an audience directly created from a file import.
+此示例说明如何使用活 **[!UICONTROL Read audience]** 动协调从文件导入直接创建的受众。
 
-执行文件导入时，您可以直接在受众中保存其内容。此受众是文件受众，其数据没有链接到任何数据库资源。
+执行文件导入时，您可以直接将其内容保存到受众中。 此受众是文件受众，其数据不链接到任何数据库资源。
 
 导入工作流的设计如下：
 
 ![](assets/readaudience_activity_example3.png)
 
-* [加载文件](../../automating/using/load-file.md) 活动会上传包含从外部工具提取的配置文件数据的文件。
+* “加 [载文件](../../automating/using/load-file.md) ”活动上传包含从外部工具提取的配置文件数据的文件。
 
    例如：
 
@@ -78,28 +76,28 @@ This example shows how to use the **[!UICONTROL Read audience]** activity to rec
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* [节省受众](../../automating/using/save-audience.md) 的活动会将传入的数据另存为受众。由于数据尚未协调，受众是文件受众，而数据也不被视为个人资料数据。
+* “保 [存受众](../../automating/using/save-audience.md) ”活动会将传入数据保存为受众。 由于尚未协调数据，因此受众是文件受众，其数据尚未被识别为档案数据。
 
-排序工作流的设计如下：
+协调工作流的设计如下：
 
 ![](assets/readaudience_activity_example2.png)
 
-* **[!UICONTROL Read audience]** 活动上传在导入工作流中创建的文件受众。受众数据尚未与Adobe Campaign数据库协调。
-* [“帐帐”](../../automating/using/reconciliation.md) 活动通过 **[!UICONTROL Identification]** 其选项卡将传入的数据标识为配置文件。For example by using the **email** field as reconciliation criteria.
-* [更新数据](../../automating/using/update-data.md) 活动使用传入数据插入并更新数据库的配置文件资源。As the data is already identified as profiles, you can select the **[!UICONTROL Directly using the targeting dimension]** option and select **[!UICONTROL Profiles]** in the **[!UICONTROL Identification]** tab of the activity. 然后，您只需添加需要在按选项卡中更新的字段列表。
+* 活动 **[!UICONTROL Read audience]** 会上传在导入工作流程中创建的文件受众。 受众数据尚未与Adobe Campaign数据库协调。
+* “对 [帐](../../automating/using/reconciliation.md) ”活动通过选项卡将传入数据标识为配置 **[!UICONTROL Identification]** 文件。 例如，使用电子邮件字 **段作为** “对帐标准”。
+* “更 [新数据](../../automating/using/update-data.md) ”活动会插入数据库的配置文件资源并更新传入的数据。 由于数据已标识为配置文件，因此您可以选 **[!UICONTROL Directly using the targeting dimension]** 择选项并在活 **[!UICONTROL Profiles]** 动的选 **[!UICONTROL Identification]** 项卡中进行选择。 然后，您只需根据选项卡添加需要更新的字段列表。
 
-## Example: Union on two refined audiences {#example--union-on-two-refined-audiences}
+## 示例：两个精细受众的联合 {#example--union-on-two-refined-audiences}
 
-The workflow defined in this example shows the union of two **[!UICONTROL Read audience]** activities. 此工作流程的目标是向年龄在18到30岁之间的黄金或银色会员发送电子邮件。
+此示例中定义的工作流显示了两个活动的联 **[!UICONTROL Read audience]** 合。 此工作流程的目标是向18到30岁的金牌或银牌会员发送电子邮件。
 
 系统中已创建特定受众以跟踪金牌和银牌会员。
 
-工作流的设计如下：
+工作流设计如下：
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first **[!UICONTROL Read audience]** activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* A second **[!UICONTROL Read audience]** activity that retrieves the Silver members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* **[!UICONTROL Union]** 将两个 **[!UICONTROL Read audiences]** 活动中的人员整合到一个最终人口中的活动。
-* **[!UICONTROL Email delivery]** 将电子邮件发送给 **[!UICONTROL Union]** 来自活动的人群的活动。
+* 第一个活 **[!UICONTROL Read audience]** 动，它检索黄金会员受众并通过仅选择18到30岁之间的档案来优化受众。
+* 第二个 **[!UICONTROL Read audience]** 活动可检索银会员受众，并通过仅选择年龄在18到30岁之间的档案来优化受众。
+* 一种 **[!UICONTROL Union]** 将两种活动中的人群 **[!UICONTROL Read audiences]** 团结为最终群体的活动。
+* 向来 **[!UICONTROL Email delivery]** 自活动的人群发送电子邮件的活动 **[!UICONTROL Union]** 。
 
