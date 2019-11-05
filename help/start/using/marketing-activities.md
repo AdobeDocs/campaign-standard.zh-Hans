@@ -1,8 +1,6 @@
 ---
 title: 营销活动
-seo-title: 营销活动
-description: 营销活动
-seo-description: “了解如何创建和管理您的营销活动：营销活动、电子邮件、短信和推送通知发送、登录页面、工作流。 您可以轻松地设计新活动、编辑现有活动并查阅其状态和有效性。”
+description: “了解如何创建和管理您的营销活动：营销活动、电子邮件、短信和推送通知发送、登录页面、工作流。 您可以轻松地设计新活动、编辑现有活动并查阅其状态和有效性。”
 page-status-flag: 从未激活
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 活动，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
