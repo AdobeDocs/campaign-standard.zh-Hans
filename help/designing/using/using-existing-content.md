@@ -1,8 +1,6 @@
 ---
 title: '使用现有内容设计电子邮件 '
-seo-title: '使用现有内容设计电子邮件 '
-description: '使用现有内容设计电子邮件 '
-seo-description: 了解如何使用电子邮件设计器中的现有内容电子邮件内容设计电子邮件。
+description: 了解如何使用电子邮件设计器中的现有内容电子邮件内容设计电子邮件。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# 使用现有内容进行设计 {#designing-using-existing-content}
+# Designing using existing content {#designing-using-existing-content}
 
 ## 选择现有内容{#selecting-an-existing-content}
 
