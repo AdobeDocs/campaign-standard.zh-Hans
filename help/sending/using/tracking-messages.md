@@ -1,8 +1,6 @@
 ---
 title: 跟踪消息
-seo-title: 跟踪消息
-description: 跟踪消息
-seo-description: 了解如何跟踪送达收件人的行为。
+description: 了解如何跟踪送达收件人的行为。
 page-status-flag: 从未激活
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bcc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,16 +21,16 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ## 关于跟踪 {#about-tracking}
 
-借助Adobe Campaign的跟踪功能，您可以跟踪交付收件人的行为。 为此，Adobe Campaign使用会话cookie和永久cookie。
+借助Adobe Campaign的跟踪功能，您可以跟踪交付收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
 您可以通过授权请求（例如，页面上出现的请求）通知用户您的站点已装备有Web跟踪工具，该请求带有一个复选框以授权使用Cookie，或在他们登录的第一页的顶部添加一个横幅，等等。 应避免弹出窗口，因为它们经常被浏览器阻止。
 
-Adobe Campaign使用两种类型的Cookie:
+Adobe Campaign 使用两种类型的 Cookie：
 
-* 会话Cookie(nlid)。 其中包含发送给联系人的电子邮件标识符(broadlogId)和消息模板的标识符(deliveryId)。 当联系人单击Adobe Campaign发送的电子邮件中包含的URL时，会添加该URL，并允许您跟踪他们在Web上的行为。 关闭浏览器时，会自动擦除此会话Cookie。 联系人可以配置其浏览器以拒绝cookie。
+* 会话Cookie(nlid)。 其中包含发送给联系人的电子邮件标识符(broadlogId)和消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
 * 在Adobe Experience cloud解决方案之间共享的Cookie。 这使您能够识别在访问网站时与Experience cloud解决方案交互的用户。 此Cookie的说明可从以下网页获取： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
-跟踪信息可用于数据库的每个联系人 **[!UICONTROL integrated customer profiles]**。 For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+跟踪信息可用于数据库的每个联系人 **[!UICONTROL integrated customer profiles]**。 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
 
 ## 跟踪日志 {#tracking-logs}
 
