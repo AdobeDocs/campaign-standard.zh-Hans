@@ -1,8 +1,6 @@
 ---
 title: “工作流用例：使用补充创建交付”
-seo-title: “工作流用例：使用补充创建交付”
 description: “工作流用例：使用补充创建交付”
-seo-description: “工作流用例：使用补充创建交付”
 page-status-flag: 从未激活
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 工作流，用例，分段
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -76,4 +74,4 @@ source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 * [查询](../../automating/using/query.md)
 * [细分活动](../../automating/using/segmentation.md)
-* [电子邮件发送](../../automating/using/email-delivery.md)
+* [电子邮件投放](../../automating/using/email-delivery.md)
