@@ -1,8 +1,6 @@
 ---
 title: 关于类型学规则
-seo-title: 关于类型学规则
-description: 关于类型学规则
-seo-description: 了解排版规则在Adobe Campaign中的工作方式。
+description: 了解排版规则在Adobe Campaign中的工作方式。
 page-status-flag: 从未激活
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 类型学，概述；类型学规则，主要；类型学规则，
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -93,7 +91,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 在标准操作模式下，这些规则按以下顺序应用：
 
 1. 控制规则（如果在定位开始时应用它们）。
-1. 筛选规则：
+1. 筛选规则:
 
    * 地址资格的本机应用程序规则：定义的地址／未验证的地址／列入黑名单的地址／隔离地址／地址质量。
    * 过滤用户定义的规则。
