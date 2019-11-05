@@ -1,8 +1,6 @@
 ---
 title: 创建新模板
-seo-title: 创建新模板
-description: 创建新模板
-seo-description: 了解如何从现有的现成活动模板创建新模板，这些模板用于电子邮件、短信、推送通知发送等。
+description: 了解如何从现有的现成活动模板创建新模板，这些模板用于电子邮件、短信、推送通知发送等。
 page-status-flag: 从未激活
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplat
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
