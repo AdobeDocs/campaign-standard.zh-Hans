@@ -1,8 +1,6 @@
 ---
 title: 编辑查询
-seo-title: 编辑查询
-description: 编辑查询
-seo-description: 借助预定义的过滤器和规则构建人群。
+description: 借助预定义的过滤器和规则构建人群。
 page-status-flag: 从未激活
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: queryFilter，概述；audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
