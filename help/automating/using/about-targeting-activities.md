@@ -1,43 +1,41 @@
 ---
 title: 关于定位活动
-seo-title: 关于定位活动
-description: 关于定位活动
-seo-description: 可以从屏幕左侧访问定位活动。
+description: 定位活动可以从屏幕的左侧访问。
 page-status-flag: 从未激活
-uuid: a6cbc431-1ae3-428e-b2 c9-893454b32 ae2
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 定位活动
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
-internal: n n
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About targeting activities{#about-targeting-activities}
+# 关于定位活动{#about-targeting-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Targeting]** section.
+从调色板中，在屏幕左侧展开该部 **[!UICONTROL Targeting]** 分。
 
-这些活动专门用于定位、处理人口数据和过滤活动。它们允许您通过定义集合以及使用相交、联合或排除操作来定义集和拆分或组合这些集。
+这些活动特定于定位、操作人口数据和筛选活动。 它们允许您通过定义集并使用交集、联合或排除运算拆分或组合这些集来构建一个或多个目标。
 
 ![](assets/wkf_targeting_activities.png)
 
-**[!UICONTROL Targeting]** 该部分提供以下活动：
+该 **[!UICONTROL Targeting]** 部分提供以下活动：
 
-* [Query](../../automating/using/query.md)
+* [查询](../../automating/using/query.md)
 * [增量查询](../../automating/using/incremental-query.md)
-* [Union](../../automating/using/union.md)
-* [Intersection](../../automating/using/intersection.md)
+* [合并](../../automating/using/union.md)
+* [交叉](../../automating/using/intersection.md)
 * [排除](../../automating/using/exclusion.md)
 * [分段](../../automating/using/segmentation.md)
-* [阅读受众](../../automating/using/read-audience.md)
-* [节省受众](../../automating/using/save-audience.md)
-* [删除重复项](../../automating/using/deduplication.md)
-* [丰富性](../../automating/using/enrichment.md)
+* [读取受众](../../automating/using/read-audience.md)
+* [保存受众](../../automating/using/save-audience.md)
+* [重复数据删除](../../automating/using/deduplication.md)
+* [扩充](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 活动允许您为出站过渡定义 **细分代码** 。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Targeting]** 活动允许您为其出站过 **渡定义区段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
