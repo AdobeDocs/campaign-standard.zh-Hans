@@ -1,8 +1,6 @@
 ---
 title: 定义直邮受众
-seo-title: 定义直邮受众
-description: 定义直邮受众
-seo-description: 了解如何定义直邮递送的目标。
+description: 了解如何定义直邮递送的目标。
 page-status-flag: 从未激活
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -38,7 +36,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ## 添加测试和陷印配置文件 {#adding-test-and-trap-profiles}
 
-添加测试配置文件，以便使用少量配置文件测试文件。 它允许您在准备实际文件之前快速创建一个文件范例以测试和验证结构。 请参 [阅管理测试配置文件和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+添加测试配置文件，以便使用少量配置文件测试文件。 它允许您在准备实际文件之前快速创建一个文件范例以测试和验证结构。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 使用陷阱是直接发送邮件的关键。 它们允许您验证您的直邮提供商是否确实在发送通信，以及他们是否没有将您的客户列表发送给其他提供商。 请参阅 [使用陷印](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
 
