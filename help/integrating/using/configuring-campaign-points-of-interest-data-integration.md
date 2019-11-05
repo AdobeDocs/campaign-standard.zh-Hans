@@ -1,8 +1,6 @@
 ---
-title: 配置营销活动目标点数据集成
-seo-title: 配置营销活动目标点数据集成
-description: 配置营销活动目标点数据集成
-seo-description: 了解如何在Adobe Campaign中配置兴趣点数据功能，以根据用户的位置发送个性化消息。
+title: 配置 Campaign-兴趣点数据集成
+description: 了解如何在Adobe Campaign中配置兴趣点数据功能，以根据用户的位置发送个性化消息。
 page-status-flag: 从未激活
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置营销活动目标点数据集成{#configuring-campaign-points-of-interest-data-integration}
+# 配置 Campaign-兴趣点数据集成{#configuring-campaign-points-of-interest-data-integration}
 
 ## 配置与Adobe Experience Platform SDK的Campaign-Points数据集成 {#configuring-campaign-poi-aep-sdk}
 
