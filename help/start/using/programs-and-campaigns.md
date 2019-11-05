@@ -1,107 +1,105 @@
 ---
 title: 计划和营销活动
-seo-title: 计划和营销活动
-description: 计划和营销活动
-seo-description: 在Adobe Campaign中，计划和营销活动允许您分组和编排与这些活动关联的不同营销活动。有关计划和营销活动的报告允许您分析其影响。
+description: 在Adobe Campaign中，计划和营销活动允许您对与其关联的不同营销活动进行分组和编排。 通过计划和营销活动的报告，您可以分析其影响。
 page-status-flag: 从未激活
-uuid: fe2812a8-196f-4aa-4ab-a739-fbbfd754 cb
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: start
-content-type: reference
+uuid: fe2812a8-196f-4aba-a739-fbbffd754cb
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 开始
+content-type: 参考
 topic-tags: 营销计划
-discoiquuid: 21b84028-d1 a7-4ad6-891a-862a94565514
-context-tags: 营销活动，概述；CampaignExplorer，主要
-internal: n n
+discoiquuid: 21b84028-d1a7-4ad6-891a-862a9456514
+context-tags: campaign，概述；campaignExplorer，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Programs and campaigns{#programs-and-campaigns}
+# 计划和营销活动{#programs-and-campaigns}
 
-## About plans, programs and campaigns {#about-plans--programs-and-campaigns}
+## 关于计划、计划和营销活动 {#about-plans--programs-and-campaigns}
 
-Adobe Campaign允许您计划营销活动，在这些活动中，您可以创建和管理不同类型的活动：电子邮件、SMS信息、推送通知、工作流程、着陆页面。这些营销活动及其内容可收集到计划中。
+Adobe Campaign允许您计划市场营销活动，在该活动中可以创建和管理不同类型的活动：电子邮件、SMS消息、推送通知、工作流、登录页面。 这些营销活动及其内容可以收集到项目中。
 
-这些程序和营销活动允许您重组和查看与它们关联的不同营销活动。
+计划和营销活动允许您重新分组和查看与其关联的不同营销活动。
 
-* **计划** 可能包含其他计划以及营销活动、工作流程和登录页面。它显示在时间轴中，并帮助您组织营销活动：您可以按国家/地区、品牌、单位等划分它们。
-* **营销活动** 使您能够在单个实体下收集所选的所有营销活动。营销活动可能包含电子邮件、短信、推送通知、直接邮寄广告、工作流程和登陆页面。
+* 计 **划可能** 包含其他计划以及营销活动、工作流和登陆页面。 它显示在时间轴中，并帮助您组织营销活动：您可以按国家／地区、品牌、单位等分隔它们。
+* 营销 **活动** ，使您能够在一个实体下收集您选择的所有营销活动。 营销活动可能包含电子邮件、短信、推送通知、直邮、工作流和登陆页面。
 
-为了更好地组织您的营销计划，Adobe建议您遵循以下层次结构：“计划”&gt;“子程序”&gt;“营销活动”&gt;“工作流”&gt;“交付”。
+为了更好地组织您的营销计划，Adobe建议采用以下层次结构：“程序”&gt;“子程序”&gt;“营销活动”&gt;“工作流”&gt;“提交”。
 
-有关计划和营销活动的报告允许您分析其影响。例如，您可以在营销活动级别构建报告，汇总该营销活动包含的所有分发的数据。
+通过计划和营销活动的报告，您可以分析其影响。 例如，您可以在营销活动级别构建报表，以汇总该营销活动包含的所有分发的数据。
 
 **相关主题：**
 
-* [时间轴](../../start/using/timeline.md)
+* [时间线](../../start/using/timeline.md)
 * [关于动态报告](../../reporting/using/about-dynamic-reports.md)
 
-## Creating a program {#creating-a-program}
+## 创建程序 {#creating-a-program}
 
-该计划是第一个组织级别。它可以包含子程序、营销活动、工作流或登陆页面。
+该计划是组织的第一级。 它可以包含子程序、营销活动、工作流或登陆页面。
 
-1. From the Adobe Campaign home page, select the **[!UICONTROL Programs & Campaigns]** card.
-1. Click on the **[!UICONTROL Create]** button.
-1. In the **[!UICONTROL Creation mode]** screen, select a program type.
+1. 从Adobe Campaign主页中，选择 **[!UICONTROL Programs & Campaigns]** 卡。
+1. 单击该按 **[!UICONTROL Create]** 钮。
+1. 在屏幕 **[!UICONTROL Creation mode]** 中，选择程序类型。
 
    ![](assets/programs_and_campaigns_2.png)
 
-   The program types available are based on templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Program templates]** section. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   可用的程序类型基于在 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt;部分中定义的 **[!UICONTROL Program templates]** 模板。 有关详细信息，请参阅管理模 [板部分](../../start/using/about-templates.md) 。
 
-1. In the **[!UICONTROL Properties]** screen, enter the name and ID of the program.
+1. 在屏幕 **[!UICONTROL Properties]** 中，输入程序的名称和ID。
 
    ![](assets/programs_and_campaigns_3.png)
 
-1. 为程序选择开始日期和结束日期。这些日期仅适用于计划本身。
+1. 选择程序的开始和结束日期。 这些日期仅适用于程序本身。
 
-   您可以在父程序内创建您的程序。为此，请从现有程序中选择父程序。
+   您可以在父程序中创建程序。 为此，请从现有程序中选择父程序。
 
-1. Click on **[!UICONTROL Create]** to confirm the creation of the program.
+1. 单击 **[!UICONTROL Create]** 以确认程序的创建。
 
-创建并显示该程序。Use the **[!UICONTROL Create]** button to add sub-programs, campaigns, workflows or landing pages.
+此时会创建并显示程序。 使用按 **[!UICONTROL Create]** 钮可添加子程序、营销活动、工作流或登陆页面。
 
 >[!NOTE]
 >
->您还可以从营销活动列表中创建计划。
+>您还可以从营销活动列表创建计划。
 
-## Creating a campaign {#creating-a-campaign}
+## 创建营销活动 {#creating-a-campaign}
 
-在计划和子计划中，您可以添加营销活动。营销活动可包含电子邮件、短信、推送通知、工作流和登陆页面等营销活动。
+在计划和子计划中，您可以添加营销活动。 营销活动可以包含营销活动，如电子邮件、短信、推送通知、工作流和登录页。
 
-1. From the Adobe Campaign home page, select the **[!UICONTROL Programs & Campaigns]** card and access a program or sub-program.
-1. Click on the **[!UICONTROL Create]** button and select **[!UICONTROL Campaign]**.
-1. In the **[!UICONTROL Creation mode]** screen, select a campaign type.
+1. 从Adobe Campaign主页中，选择卡 **[!UICONTROL Programs & Campaigns]** 并访问程序或子程序。
+1. 单击该按 **[!UICONTROL Create]** 钮并选择 **[!UICONTROL Campaign]**。
+1. 在屏幕 **[!UICONTROL Creation mode]** 中，选择营销活动类型。
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Campaign templates]**. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   可用的营销活动类型基于在 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt;中定义的模板 **[!UICONTROL Campaign templates]**。 有关详细信息，请参阅管理模 [板部分](../../start/using/about-templates.md) 。
 
-1. In the **[!UICONTROL Properties]** screen, enter the name and ID of the campaign.
-1. 选择营销活动的开始日期和结束日期。这些日期仅适用于营销活动本身。
+1. 在屏 **[!UICONTROL Properties]** 幕中，输入营销活动的名称和ID。
+1. 选择营销活动的开始和结束日期。 这些日期仅适用于营销活动本身。
 
    ![](assets/programs_and_campaigns_8.png)
 
-1. Click on **[!UICONTROL Create]** to confirm the creation of the campaign.
+1. 单击以 **[!UICONTROL Create]** 确认创建营销活动。
 
-创建并显示营销活动。Use the **[!UICONTROL Create]** button to add marketing activities to your campaign.
+系统会创建并显示营销活动。 使用该 **[!UICONTROL Create]** 按钮可向营销活动添加营销活动。
 
 >[!NOTE]
 >
->根据您的许可协议，您只能访问其中一些活动。
+>根据您的许可协议，您只能访问其中的一些活动。
 
-您还可以从营销活动列表中创建营销活动。您可以选择通过营销活动的属性窗口将营销活动链接到父计划或子计划。
+您还可以从营销活动列表创建营销活动。 您可以选择通过营销活动的属性窗口将营销活动关联到父程序或子程序。
 
-## Programs and campaigns icons and statuses {#programs-and-campaigns-icons-and-statuses}
+## 计划和营销活动图标和状态 {#programs-and-campaigns-icons-and-statuses}
 
-每个计划和列表中的每个营销活动都有一个可视符号和一个图标，其颜色指示执行状态。此状态取决于计划或营销活动的有效期。
+列表中的每个程序和每个营销活动都有一个可视符号和一个图标，其颜色指示执行状态。 此状态取决于计划或营销活动的有效期。
 
-* Gray: the program/campaign has not yet started - **[!UICONTROL Editing]** status.
-* Blue: the program/campaign is in progress - **[!UICONTROL In progress]** status.
-* Green: the program/campaign has finished - **[!UICONTROL Finished]** status. By default, the current date is automatically shown as the validity start date and the end date is calculated according to the start date (**D+186 days**). 您可以在计划或营销活动属性中更改这些日期。
+* 灰色：计划／营销活动尚未开始——状 **[!UICONTROL Editing]** 态。
+* 蓝色：计划／营销活动正在进行——状 **[!UICONTROL In progress]** 态。
+* 绿色：计划／营销活动已完成——状 **[!UICONTROL Finished]** 态。 默认情况下，当前日期会自动显示为有效起始日期，并根据开始日期(**D+186天**)计算结束日期。 您可以在计划或营销活动属性中更改这些日期。
 
 ![](assets/programs_and_campaigns.png)
 
