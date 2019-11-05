@@ -1,8 +1,6 @@
 ---
 title: 登陆页面模板
-seo-title: 登陆页面模板
-description: 登陆页面模板
-seo-description: 了解有关登录页面模板的更多信息。
+description: 了解有关登录页面模板的更多信息。
 page-status-flag: 从未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 勒梅特
@@ -15,7 +13,7 @@ context-tags: landingPage，向导；landingPage，概述；landingPage，主页
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
