@@ -1,8 +1,6 @@
 ---
 title: 根据工作流区段创建报告
-seo-title: 根据工作流区段创建报告
-description: 根据工作流区段创建报告
-seo-description: 了解如何根据报告中的工作流细分检查交付是否成功。
+description: 了解如何根据报告中的工作流细分检查交付是否成功。
 page-status-flag: 从未激活
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 班多
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 >[!CAUTION]
 >必须接受动态报告使用协议才能开始收集这些数据。
->有关本协议的详细信息，请参阅本 [页](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## 第1步：使用细分更新配置文件自定义资源{#step-1--update-profiles-custom-resource-segments}
 
@@ -71,7 +69,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
    ![](assets/report_segment_1.png)
 
-1. 添加一 **[!UICONTROL Segmentation]** 个活动，将查询结果拆分为两个目标人群。 有关细分的详细信息，请参阅此 [页](../../automating/using/targeting-data.md#segmenting-data)。
+1. 添加一 **[!UICONTROL Segmentation]** 个活动，将查询结果拆分为两个目标人群。 For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
 
 1. 双击活动 **[!UICONTROL Segmentation]** 以对其进行配置。 通过单击编辑第一个区段 **[!UICONTROL Edit properties]**。
 
