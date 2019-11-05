@@ -1,8 +1,6 @@
 ---
-title: 发行说明2017
-seo-title: 发行说明2017
-description: 发行说明2017
-seo-description: 本页列出了所有2017版Adobe Campaign Standard。
+title: 发行说明 2017
+description: 本页列出了所有2017版Adobe Campaign Standard。
 page-status-flag: 从未激活
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 发行说明2017{#release-notes}
+# 发行说明 2017{#release-notes}
 
 是否正在寻找Adobe Campaign Standard的特定2017版本？
 
@@ -92,7 +90,7 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
 * 修复了活动的问 **[!UICONTROL Reconciliation]** 题。
 * 修复了在活动中使用通配符的问 **[!UICONTROL File Transfer]** 题。
 
-#### 档案和受众 {#profiles-and-audiences}
+#### 用户档案和受众 {#profiles-and-audiences}
 
 * 修复了一个问题，该问题可能导致在某些情况下无法正确考虑查询条件，从而导致错误结果。
 * 修复了在已准备但从未发送和过期的消息中定位配置文件时，可能会阻止访问配置文件的问题。
@@ -137,28 +135,28 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
 
 #### 平台 {#platform-1}
 
-* 一些客户需要能够利用Adobe Campaign Standard提供的ID，因为他们没有管理唯一的密钥来识别自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作对帐密钥。  有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+* 一些客户需要能够利用Adobe Campaign Standard提供的ID，因为他们没有管理唯一的密钥来识别自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作对帐密钥。 有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP协议已弃用。 您现在应改用SFTP。 为了不阻止现有实施，FTP上的现有配置仍将像以前一样工作，但新活动不会显示此选项。
 
 #### 电子邮件、短信和直邮 {#emails--sms-messages-and-direct-mail-1}
 
-* 现在，可以创建新的警报标准，以将其用于发送警报通知。  有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 现在，可以创建新的警报标准，以将其用于发送警报通知。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 交付警报通知具有新设计，并且交付警报功能板用户体验已得到改进。
 * 现在，当路由外部帐户被禁用时，受影响的分发（电子邮件、SMS和推送）中会显示一条警告消息，并且 **Preview** （预览）按钮隐藏在这些分发中。
 * 修复了在主题行中启用动态文本时，电子邮件内容的A/B测试预览出现错误的问题。
 
 #### 交易消息 {#transactional-messages}
 
-* 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。  有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
+* 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。 有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义应从何时发送链接到活动的交易消息开始的日期。
 * 修复了在删除链接到已接收和已处理事件的配置文件后，执行包含后续消息的工作流时导致SQL错误的问题。
-* 修复了无法删除链接到事件的配置文件的错误。
+* 修复了阻止删除链接到事件的配置文件的错误。
 * 修复了一个问题，该问题可能会阻止跟踪链接的重定向工作。
 * 修复了阻止您对电子邮件或SMS消息中的特定链接进行跟踪的问题。
 
 #### 报告 {#reports-1}
 
-* 热点 **单击** (Hot clicks)报告已得到改进。 此外，现在可以根据在分发中定义的每个条件内容显示热点点击，并且可以显示重复分发或交易消息的每次执行的热点点击。  有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 热点 **单击** (Hot clicks)报告已得到改进。 此外，现在可以根据在分发中定义的每个条件内容显示热点点击，并且可以显示重复分发或交易消息的每次执行的热点点击。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修复了导致隔离度量无法检索正确数据的问题。
 * 新的预设时间范围已添加到日历构件。
 * 动态 [报告指标](../../reporting/using/indicator-calculation.md) ，营销 [](../../sending/using/confirming-the-send.md) 活动的KPI（显示在已发送消息的仪表板上）已保持一致，以便更加一致。
@@ -173,9 +171,9 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
 * 现在，Analytics &amp; Campaign集成支持eVar和事件。
 * 发送包含放弃购物车内容的电子邮件时，从购物车中删除的元素的有效负荷参数现在是可选的。
 
-#### 档案和受众 {#profiles-and-audiences-1}
+#### 用户档案和受众 {#profiles-and-audiences-1}
 
-* Adobe Campaign现在提供一个报告，其中显示活动配置文件的数量。 此报告仅提供信息，对计费没有直接影响。  有关详细信息，请参阅详 [细文档](../../audiences/using/active-profiles.md)。
+* Adobe Campaign现在提供一个报告，其中显示活动配置文件的数量。 此报告仅提供信息，对计费没有直接影响。 有关详细信息，请参阅详 [细文档](../../audiences/using/active-profiles.md)。
 * 修复了在使用Profiles and Services API时，配置文件无法订阅服务的问题。
 
 ## 17.7版- 2017年7月 {#release-17-7---july-2017}
@@ -192,27 +190,27 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
  <tbody> 
   <tr> 
    <td> 多语种电子邮件和短信发送<br /> </td> 
-   <td> 根据自动细分的客户首选语言，通过单次分发来定义和执行多语言电子邮件和短信发送。 向下报告每次交付的效果，包括语言和各个级别。<br /> 随着内外内容的不断增长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息传送是跨国公司有效客户沟通战略的关键部分；多语言国家／地区的公司；以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。  有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-email.md">细文档</a>。<br /> </td> 
+   <td> 根据自动细分的客户首选语言，通过单次分发来定义和执行多语言电子邮件和短信发送。 向下报告每次交付的效果，包括语言和各个级别。<br /> 随着内外内容的不断增长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息传送是跨国公司有效客户沟通战略的关键部分；多语言国家／地区的公司；以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-email.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。  有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。 有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交付警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，可向用户或外部利益相关方触发重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。  有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，可向用户或外部利益相关方触发重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。 有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中的加密Declared ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。  有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 从营销活动到分析的KPI共享<br /> </td> 
-   <td> 与Adobe Analytics共享营销活动数据，通过转化、统一点击前和点击后行为，衡量Campaign中的电子邮件营销指标以及其他营销和广告工作。<br /> 在Analytics中直接跟踪整体绩效并发现与外部计划的协同作用。 将您从此整合视图中的学习内容应用回营销活动中；最终提高开放、点进率和转化率，提高收入和整体营销活动效果。 <br /> 需要Adobe Analytics。  有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-analytics-integration.md">细文档</a>。<br /> </td> 
+   <td> 与Adobe Analytics共享营销活动数据，通过转化、统一点击前和点击后行为，衡量Campaign中的电子邮件营销指标以及其他营销和广告工作。<br /> 在Analytics中直接跟踪整体绩效并发现与外部计划的协同作用。 将您从此整合视图中的学习内容应用回营销活动中；最终提高开放、点进率和转化率，提高收入和整体营销活动效果。 <br /> 需要Adobe Analytics。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-analytics-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道——返回发件人<br /> </td> 
-   <td> 现在支持与直接邮件提供商进行包含“返回给发送者”信息的平面文件交换。 对“直邮”渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这使营销人员能够收到错误地址的通知并通过其他渠道与客户互动或鼓励他更新其邮寄地址。 这还可以减少营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道提供。  有关详细信息，请参阅详 <a href="../../channels/using/return-to-sender.md">细文档</a>。<br /> </td> 
+   <td> 现在支持与直接邮件提供商进行包含“返回给发送者”信息的平面文件交换。 对“直邮”渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这使营销人员能够收到错误地址的通知并通过其他渠道与客户互动或鼓励他更新其邮寄地址。 这还可以减少营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道提供。 有关详细信息，请参阅详 <a href="../../channels/using/return-to-sender.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -412,7 +410,7 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
     <ul> 
      <li> 所有收件人都会收到邮件，并考虑到其时区。 </li> 
      <li> 每个接收者在由公式定义的计算日期和时间接收消息。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../sending/using/optimizing-the-sending-time.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../sending/using/optimizing-the-sending-time.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送通知新功能<br /> </td> 
@@ -423,7 +421,7 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
      <li> 交互式推送 </li> 
      <li> 丰富内容支持 </li> 
      <li> 有效负荷大小计算器 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
@@ -431,7 +429,7 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
     <ul> 
      <li> <span class="uicontrol">结束活动</span> :新选项卡允许您指定在执行此活动后要触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span> :使用新的空出站过渡来添加一个触 <strong>发另一个工作流的</strong> “结束”活动。 空的出站过渡不会携带任何数据，也不会占用系统上不必要的空间 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../automating/using/external-signal.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../automating/using/external-signal.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新阅读受众活动<br /> </td> 
@@ -497,7 +495,7 @@ source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
      <li> 在消息中包含取消订阅链接。 </li> 
      <li> 将事务性消息添加到全局交付报告。 </li> 
      <li> 在客户旅程中利用交易信息。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../channels/using/profile-transactional-messages.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/profile-transactional-messages.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
