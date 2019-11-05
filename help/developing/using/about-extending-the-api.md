@@ -1,8 +1,6 @@
 ---
-title: 关于扩展API
-seo-title: 关于扩展API
-description: 关于扩展API
-seo-description: null
+title: 关于扩展 API
+description: null
 page-status-flag: 从未激活
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于扩展API{#about-extending-the-api}
+# 关于扩展 API{#about-extending-the-api}
 
 此用例详细介绍了公共Profiles API中自定义资源配置文件的扩展字段。 例如，使用从计费系统生成的促销代码即时更新客户档案。
 
