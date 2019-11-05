@@ -1,8 +1,6 @@
 ---
 title: 确认订阅服务
-seo-title: 确认订阅服务
-description: 确认订阅服务
-seo-description: 请按照以下步骤为订阅Adobe Campaign中服务的配置文件设置确认消息。
+description: 请按照以下步骤为订阅Adobe Campaign中服务的配置文件设置确认消息。
 page-status-flag: 从未激活
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
