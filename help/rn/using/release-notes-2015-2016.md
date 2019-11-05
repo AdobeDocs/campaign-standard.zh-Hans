@@ -1,8 +1,6 @@
 ---
-title: 发行说明2015-2016
-seo-title: 发行说明2015-2016
-description: 发行说明2015-2016
-seo-description: 本页列出了所有2015和2016版Adobe Campaign Standard。
+title: 发行说明 2015-2016
+description: 本页列出了所有2015和2016版Adobe Campaign Standard。
 page-status-flag: 从未激活
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 发行说明2015-2016{#release-notes}
+# 发行说明 2015-2016{#release-notes}
 
 是否正在寻找Adobe Campaign Standard的2015-2016版本？
 
@@ -839,7 +837,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 * 修复了阻止正确导 **出工作流执行日志** “消息”列的错误。
 
-#### 档案和受众 {#profiles-and-audiences}
+#### 用户档案和受众 {#profiles-and-audiences}
 
 * 修复了导致重复或删除元素时间的双重确认的错误。 **仅使用Internet Explorer 11的混合设备**。
 
@@ -1083,7 +1081,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
    <td> 在工作流中，可用的 <strong>更新数据活动有一个新选项</strong> ，该选项允许您自动将入站数据字段与应用程序架构的字段关联起来。 这有助于简化更新字段的选择过程。<br /> 请参阅详细 <a href="../../automating/using/update-data.md">文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 电子邮件发送<br /> </td> 
+   <td> 电子邮件投放<br /> </td> 
    <td> 在工作流中，现在可以通过操 <strong>作栏中的特定按钮访问</strong> “电子邮件交付”活动的高级选项。 此按钮仅在选择“电子邮件 <strong>分发</strong> ”活动时可用。 主要益处是它允许您向活动添加出站转移，并编辑活动在工作流中显示的名称。<br /> 请参阅详细 <a href="../../automating/using/email-delivery.md">文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
