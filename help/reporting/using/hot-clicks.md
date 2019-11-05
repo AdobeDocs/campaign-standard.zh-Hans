@@ -1,8 +1,6 @@
 ---
-title: 热点单击
-seo-title: 热点单击
-description: 热点单击
-seo-description: 通过热点点击即装即用报告，了解客户点击交付的位置。
+title: 热门点击
+description: 通过热点点击即装即用报告，了解客户点击交付的位置。
 page-status-flag: 从未激活
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 热点单击{#hot-clicks}
+# 热门点击{#hot-clicks}
 
 可以从每个传送或交易消 **[!UICONTROL Reports]** 息中的按钮访问此报告。
 
