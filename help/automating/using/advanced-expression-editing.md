@@ -1,91 +1,89 @@
 ---
 title: 高级表达式编辑
-seo-title: 高级表达式编辑
-description: 高级表达式编辑
-seo-description: 查询版本向导允许您定义高级表达式。
+description: 查询版向导允许您定义高级表达式。
 page-status-flag: 从未激活
-uuid: a635f999-27ce-41e0-a88 c-8a3882 e31 efe
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
-topic-tags: 筛选数据
-discoiquuid: 4375153c-0621-4d4c-bcfci-66d157 f04 f6 c
-context-tags: queryFilter，概述；受众，主要
-internal: n n
+content-type: 参考
+topic-tags: 过滤数据
+discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
+context-tags: queryFilter，概述；audience,main
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Advanced expression editing{#advanced-expression-editing}
+# 高级表达式编辑{#advanced-expression-editing}
 
-## About advanced expression editing {#about-advanced-expression-editing}
+## 关于高级表达式编辑 {#about-advanced-expression-editing}
 
-编辑表达式涉及手动输入条件以构成规则。
+编辑表达式需要手动输入条件以形成规则。
 
-此模式允许您使用高级函数。这些函数允许您操作用于执行特定查询的值，如处理日期、字符串、数字字段、排序等。
+此模式允许您使用高级功能。 这些函数允许您处理用于执行特定查询的值，如操作日期、字符串、数字字段、排序等。
 
-编辑表达式时也可以使用事件变量。For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+编辑表达式时也可以使用事件变量。 有关此内容的详细信息，请参阅使 [用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 。
 
 您可以编辑表达式，以便：
 
-* Define a query, via the **[!UICONTROL Advanced mode]** option which is available when a rule is added.
+* 通过添加规则时 **[!UICONTROL Advanced mode]** 可用的选项定义查询。
 
    ![](assets/expression_editor_2.png)
 
-* 在工作流中编辑表达式。例如，为活动添加其他数据。
-* 编辑可见性条件以定义如何显示HTML内容编辑器中的块。在这种情况下，将以JavaScript格式编辑表达式，但不会将高级函数用作标准。
+* 在工作流中编辑表达式。 例如，向活动添加其他数据。
+* 编辑可见性条件以定义HTML内容编辑器中块的显示方式。 在这种情况下，表达式将以JavaScript格式进行编辑，并且不提供将高级函数作为标准使用。
 
-## Edit an expression {#edit-an-expression}
+## 编辑表达式 {#edit-an-expression}
 
-高级表达式版本可让您手动定义一个特定于您的需求的表达式。
+高级表达式版本允许您手动定义一个与您的需求特别对应的表达式。
 
-在创建工作流时，可以在创建电子邮件或在查询活动中使用“受众”窗口时使用编辑表达式。
+编辑表达式可在创建电子邮件时在“受众”窗口中使用，也可以在创建工作流时在查询活动中使用。
 
-1. Access the expression editing window via one of the methods detailed in the [About advanced expression editing](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing) section. 它涉及以下元素：
+1. 通过“关于高级表达式编辑”部分中详细介绍的方法之一 [访问表达式编辑窗口](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing) 。 它涉及以下元素：
 
-   * 定义表达式的输入字段。
-   * The list of available fields that can be used in the expression and correspond to the targeting dimension of the query (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * 在其中定义表达式的输入字段。
+   * 可用字段列表，可在表达式中使用并与查询的定位维对应(请参阅定 [位维和资源](../../automating/using/query.md#targeting-dimensions-and-resources))。
    * 可用函数列表，按类别排序。
    ![](assets/expression_editor_1.png)
 
-1. 通过直接在相应字段中输入表达式或使用可用字段和函数的列表来编辑表达式。
+1. 通过直接在相应字段中输入表达式或使用可用字段和函数列表来编辑表达式。
 
-   双击某个字段或表达式可将其添加到放置光标的表达式。
+   双击字段或表达式可将其添加到放置光标的表达式中。
 
-   可以使用工作流的事件变量来构建表达式。For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   可以使用工作流的事件变量构建表达式。 有关此内容的详细信息，请参阅使 [用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 。
 
-1. 根据需要为您的规则提供特定名称。输入的名称将在查询编辑器工作区中显示为规则名称。
+1. 根据需要为规则指定一个特定名称。 输入的名称将作为规则名称显示在查询编辑器工作区中。
 
-编辑表达式可让您根据需要个性化受众表达式以定位您的人群。
+通过编辑表达式，您可以个性化“受众”表达式以根据需要定位受众。
 
 **相关主题：**
 
 * [表达式语法](../../automating/using/advanced-expression-editing.md#expression-syntax)
-* [函数列表](../../automating/using/list-of-functions.md)
+* [功能列表](../../automating/using/list-of-functions.md)
 
-## Expression Syntax {#expression-syntax}
+## 表达式语法 {#expression-syntax}
 
-### Standard syntax {#standard-syntax}
+### 标准语法 {#standard-syntax}
 
-标准表达式由一个或多个符合以下语法元素的条件组成：
+标准表达式由一个或多个条件组成，这些条件与以下语法元素相关：
 
-* Each condition takes the form of **&lt;value1&gt; &lt;comparison operator&gt; &lt;value2&gt;** whereby:
+* 每个条件都采用 **&lt;value1&gt; &lt;comparison operator&gt; &lt;value2&gt;的形式，据此** :
 
-   * **&lt; value1&gt;** 是一个字段或函数。For example **@created** for the date a profile was created or **Year(@created)** for the year a profile was created.
-   * **&lt;比较运算符&gt;** 是 [比较运算符](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的操作符之一。This operator defines the comparison method between **&lt;value1&gt;** and **&lt;value2&gt;**.
-   * **&lt; value2&gt;** 是一个字段、一个函数或手动输入的值。
+   * **&lt;value1&gt;** 是字段或函数。 例如 **,@created** for the date a profile was created or **Year(@created)** for the year a profile was created.
+   * **&lt;comparison operator&gt;** 是“比较”运算符部分中列出的 [运算符之一](../../automating/using/advanced-expression-editing.md#comparison-operators) 。 此运算符定义 **&lt;value1&gt;和****&lt;value2&gt;之间的比较方法**。
+   * **&lt;value2&gt;** 是手动输入的字段、函数或值。
    >[!NOTE]
    >
-   >**&lt; value1&gt;** 和 **&lt; value2&gt;** 类型数据必须相同。For example, if **&lt;value1&gt;** is a date, then **&lt;value2&gt;** must also be a date.
+   >&lt; **value1&gt;** 和 **** &lt;value2&gt;类型数据必须相同。 例如，如果 **&lt;value1&gt;是日期** ，则 **&lt;value2&gt;** 也必须是日期。
 
-* 如果您希望使用多个条件，可以使用逻辑运算符组合它们。
+* 如果要使用多个条件，可以使用逻辑运算符将它们组合在一起。
 
-   * **[!UICONTROL AND]**：两种条件相交。
-   * **[!UICONTROL OR]**：两种条件相结合。
+   * **[!UICONTROL AND]**:两个条件相交。
+   * **[!UICONTROL OR]**:两个条件结合在一起。
 
 例如：
 
@@ -93,26 +91,26 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-在此示例中，创建日期处于当前月份和年的配置文件为目标。
+在此示例中，目标是创建日期在当前月份和年份的配置文件。
 
-### JavaScript syntax {#javascript-syntax}
+### JavaScript语法 {#javascript-syntax}
 
-定义HTML内容编辑器文本类型块的可见性条件时，必须使用JavaScript类型语法的表达式。
+定义HTML内容编辑器的文本类型块的可见性条件时，必须使用具有JavaScript类型语法的表达式。
 
 JavaScript表达式由一个或多个条件组成，它们使用以下语法元素：
 
-* Each condition takes the form of **&lt;context&gt; &lt;comparison operator&gt; &lt;value2&gt;** whereby:
+* 每个条件都采用 **&lt;context&gt; &lt;comparison operator&gt; &lt;value2&gt;的形式，据此** :
 
-   * **&lt; context&gt;** 是一个字段或一个允许您指定上下文的函数。For example **context.profile.@email** for a profile's email address or **context.profile.firstName.length()** for the number of characters of a profile's first name.
-   * **&lt;比较运算符&gt;** 是 [比较运算符](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的操作符之一。This operator defines the comparison method between **&lt;context&gt;** and **&lt;value2&gt;**.
-   * **&lt; value2&gt;** 是一个字段、一个函数或手动输入的值。
+   * **&lt;context&gt;** 是允许您指定上下文的字段或函数。 例如， **context.profile。@email** （针对配置文件的电子邮件地址）或 **context.profile.firstName.length()** （针对配置文件名的字符数）。
+   * **&lt;comparison operator&gt;** 是“比较”运算符部分中列出的 [运算符之一](../../automating/using/advanced-expression-editing.md#comparison-operators) 。 此运算符定义 **&lt;context&gt;和****&lt;value2&gt;之间的比较方法**。
+   * **&lt;value2&gt;** 是手动输入的字段、函数或值。
    >[!NOTE]
-   **&lt; context&gt;** 和 **&lt; value2&gt;** 类型数据必须相同。For example, if **&lt;context&gt;** is a date, then **&lt;value2&gt;** must also be a date.
+   &lt; **context&gt;****** 和&lt;value2&gt;类型数据必须相同。 例如，如果 **&lt;context&gt;** is a date，则 **&lt;value2&gt;** assuble be date.
 
-* 如果您希望使用多个条件，可以使用逻辑运算符组合它们。
+* 如果要使用多个条件，可以使用逻辑运算符将它们组合在一起。
 
-   * **[!UICONTROL &&]**：两种条件相交。
-   * **[!UICONTROL ||]**：两种条件相结合。
+   * **[!UICONTROL &&]**:两个条件相交。
+   * **[!UICONTROL ||]**:两个条件结合在一起。
 
 例如：
 
@@ -120,21 +118,21 @@ JavaScript表达式由一个或多个条件组成，它们使用以下语法元�
 context.profile.age > 21 && context.profile.firstName.length() > 0
 ```
 
-In this example, profiles older than 21 years of age and whose first name has been provided (symbolized by the fact that the **firstName** field contains at least one character).
+在此示例中，提供了21岁以上且其名字的配置文件(以 **firstName** 字段至少包含一个字符为例)。
 
-## Comparison operators {#comparison-operators}
+## 比较运算符 {#comparison-operators}
 
 对于某些规则，查询编辑器允许您选择一个值来定义条件。
 
-条件必须使用下列运算符之一链接到值。
+条件必须通过使用下列运算符之一链接到值。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Operator<br /> </th> 
-   <th> Standard syntax<br /> </th> 
-   <th> JavaScript syntax<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> 运算符<br /> </th> 
+   <th> 标准语法<br /> </th> 
+   <th> JavaScript语法<br /> </th> 
+   <th> 说明<br /> </th> 
    <th> Example<br /> </th> 
   </tr> 
  </thead> 
@@ -143,71 +141,71 @@ In this example, profiles older than 21 years of age and whose first name has be
    <td> <span class="uicontrol">等于</span><br /> </td> 
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
-   <td> The first value must be completely identical to the second value.<br /> </td> 
-   <td> <strong>@ lastName= Martin</strong> 检索姓氏为“Martin”的配置文件，但只有这些相同字符。<br /> </td> 
+   <td> 第一个值必须与第二个值完全相同。<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> 将检索其姓氏为“Martin”的配置文件，只检索这些相同的字符。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">大于</span><br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
-   <td> The first value must categorically be more than the second value.<br /> </td> 
-   <td> <strong>@ age&gt;50</strong> 检索年龄大于“50”、因此“51”、“52”等配置文件。<br /> </td> 
+   <td> 第一个值必须绝对大于第二个值。<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> 可检索早于“50”、“51”、“52”等的配置文件。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">小于</span><br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> The first value must categorically be less than the second value.<br /> </td> 
-   <td> <strong>@ created&lt; aysago(100)</strong> 检索在不超过100天前在数据库中创建的所有配置文件。<br /> </td> 
+   <td> 第一个值必须绝对小于第二个值。<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> 检索在不到100天前的数据库中创建的所有配置文件。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">大于或等于</span><br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
-   <td> The first value must be more than or equal to the second value.<br /> </td> 
-   <td> <strong>@ age&gt;=30</strong> 检索30年以上的配置文件。<br /> </td> 
+   <td> 第一个值必须大于或等于第二个值。<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> 可检索年龄在30岁及以上的档案。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">小于或等于</span><br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> The first value must be less than or equal to the second value.<br /> </td> 
-   <td> <strong>@ age&lt;=60</strong> 检索60或更少的配置文件。<br /> </td> 
+   <td> 第一值必须小于或等于第二值。<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> 可检索年龄在60岁或以下的配置文件。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">不同的 </span><br /> </td> 
+   <td> <span class="uicontrol">不同 </span><br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
-   <td> The first value must be different from the second value.<br /> </td> 
-   <td> <strong>@语言！= English</strong> retrieves profiles that have not been defined as English speaking.<br /> </td> 
+   <td> 第一个值必须不同于第二个值。<br /> </td> 
+   <td> <strong>@language != English</strong> 将检索尚未定义为英语的配置文件。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">包含</span><br /> </td> 
    <td> IN<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> The first value must contain the second value.<br /> </td> 
-   <td> <strong>@域in mail</strong>.此处，返回所有具有“邮件”值的域名。Consequently, the 'gmail.com' domain name will make up part of the returned results.<br /> </td> 
+   <td> 第一个值必须包含第二个值。<br /> </td> 
+   <td> <strong>@domain IN mail</strong>。 此处，结果中将返回所有具有“mail”值的域名。 因此，“gmail.com”域名将构成返回结果的一部分。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">赞一样</span><br /> </td> 
+   <td> <span class="uicontrol">喜欢</span><br /> </td> 
    <td> LIKE<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">类似</span> 于 <span class="uicontrol">包含</span> 运算符的非常相似。It lets you insert a <span class="uicontrol">%</span> wild card character in the value that is being searched.<br /> </td> 
-   <td> <strong>@ LastName LIKE Mart%n</strong>.Here, the substitution character <strong>%</strong> serves as a "joker" to find the name "Martin" in the hypothetical case that the spelling is not correct.<br /> </td> 
+   <td> <span class="uicontrol">Like</span> 与Contains运算符非 <span class="uicontrol">常相似</span> 。 它允许您在所搜 <span class="uicontrol">索的值中</span> ，插入%通配符。<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>。 在此处，替换字符 <strong>%</strong> 用作“小丑”，在拼写不正确的假设情况下查找名称“Martin”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">不像</span><br /> </td> 
-   <td> NOT<br /> </td> 
+   <td> <span class="uicontrol">不喜欢</span><br /> </td> 
+   <td>  NOT<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> Is similar to <span class="uicontrol">Like</span>. 它允许您不恢复输入的值。Here too, the entered value must contain the <span class="uicontrol">%</span> wild card character.<br /> </td> 
-   <td> <strong>@ lastName NOT Smi%h</strong>.此处，收件人对应于名称“Smi%h”(sith Smith，etc)。are not returned as a result.<br /> </td> 
+   <td> 与“喜欢”类 <span class="uicontrol">似</span>。 它不允许您恢复输入的值。 在此，输入的值也必须包含 <span class="uicontrol">%</span> 通配符。<br /> </td> 
+   <td> <strong>@lastName不是Smi%h</strong>。 此处，收件人与名称“Smi%h”（so Smith，等）对应不返回。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">为空</span><br /> </td> 
-   <td> IS NULL<br /> </td> 
+   <td> 为空<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> The first value must correspond to an empty value.<br /> </td> 
-   <td> <strong>@ MobilePhone IS NULL</strong> 检索未提供手机号码的所有配置文件。<br /> </td> 
+   <td> 第一个值必须与空值对应。<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> 将检索其手机号码尚未提供的所有配置文件。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
