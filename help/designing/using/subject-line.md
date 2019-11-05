@@ -1,8 +1,6 @@
 ---
 title: 定义电子邮件的主题行和发送者
-seo-title: 定义电子邮件的主题行和发送者
-description: 定义电子邮件的主题行和发送者
-seo-description: 了解如何在电子邮件设计器中定义电子邮件的主题行和发件人。
+description: 了解如何在电子邮件设计器中定义电子邮件的主题行和发件人。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,24 +30,24 @@ source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
 **要定义电子邮件的主题行，请执行以下操作**:
 
 1. 创建电子邮件。
-1. Close homepage.
-1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+1. 关闭主页。
+1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
 
 ![](assets/email_designer_subject.png)
 
-You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
+您还可以通过单击相应的图标将个性化字段、内容块和动态内容添加到主题行。
 
-**Related topics:**
+**相关主题：**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [添加内容块](../../designing/using/personalization.md#adding-a-content-block)
+* [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Predictive subject line {#predictive-subject-line}
+## 预测主题行 {#predictive-subject-line}
 
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
+在编辑电子邮件时，您可以尝试不同的主题行并在发送电子邮件之前获得其打开率的估计。
 
-This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. 模型允许系统在提交新的主题行时预测电子邮件的打开率。
+默认情况下，此功能处于禁用状态。 在导入第一个模型时启用它。 模型是特定于特定行业的培训数据集的结果。 模型允许系统在提交新的主题行时预测电子邮件的打开率。
 
 >[!NOTE]
 >
@@ -65,7 +63,7 @@ This feature is disabled by default. It is enabled when the first model is impor
 
 ![](assets/delivery_content_edition16.png)
 
-* The  field allows you to enter the sender name. **[!UICONTROL From: name]**&#x200B;默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign指指定此发件人的电子邮件渠道配置(通 **[!UICONTROL Administration > Channels > Email > Email accounts]** 过Adobe Campaign徽标从高级菜单)。
+* 该字 **[!UICONTROL From: name]** 段允许您输入发件人姓名。 默认情况下，默认的 **发件人姓名块** ，会自动输入该字段。 Adobe Campaign指指定此发件人的电子邮件渠道配置(通 **[!UICONTROL Administration > Channels > Email > Email accounts]** 过Adobe Campaign徽标从高级菜单)。
 
    您可以通过单击“发送者姓名”块来更改 **发送者姓名** 。 然后，该字段将变为可编辑字段，您可以输入要使用的名称。
 
