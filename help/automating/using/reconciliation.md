@@ -1,89 +1,87 @@
 ---
-title: Contract
-seo-title: Contract
-description: Contract
-seo-description: 通过“帐帐”活动，您可以将未识别的数据链接到现有资源。
+title: 调解
+description: “对帐”活动允许您将未识别的数据关联到现有资源。
 page-status-flag: 从未激活
-uuid: 7884db8c-1717-4724-be15-3b0 b32 cc071
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 数据管理活动
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
-context-tags: 调解，主要
-internal: n n
+context-tags: 协调，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Reconciliation{#reconciliation}
+# 调解{#reconciliation}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/reconciliation.png)
 
-**[!UICONTROL Reconciliation]** 活动允许您将未识别的数据链接到现有资源。
+该活 **[!UICONTROL Reconciliation]** 动允许您将未识别的数据链接到现有资源。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL Reconciliation]** 该活动主要用于数据管理目的，并暗示两种不同的用例：
+该活 **[!UICONTROL Reconciliation]** 动主要用于数据管理目的，并暗示两种不同的用例：
 
-* Adding relations: a **[!UICONTROL Links]** tab allows you to add links between the inbound data and several other Adobe Campaign database dimensions.
+* 添加关系：选项卡 **[!UICONTROL Links]** 允许您在入站数据与多个其他Adobe Campaign数据库维之间添加链接。
 
-   例如，包含购买数据的文件可能还包含用于标识购买的产品以及购买者的信息。Two additional dimensions (besides that of **Purchases**) are therefore concerned by the file data: the **Products** and **Profiles** dimensions. Relations then need to be created between these and the **Purchases** dimension (refer to the following example).
+   例如，包含购买数据的文件也可能包含用于识别所购买产品和购买者的信息。 因此，文件数据会涉及两个额外的维度( **除了“购买**”的维度):“产 **品** ”和“ **配置** ”维。 然后，需要在这些维和“购买”维之间 **创建关系** （请参阅以下示例）。
 
-   定义关系时，将列添加到入站数据，以引用链接维度的外键。
+   定义关系时，向入站数据添加列以引用链接维的外键。
 
    >[!NOTE]
    >
-   >此操作表示链接维度的数据已在数据库中。例如，如果您导入了一个显示购买了哪个产品的产品，在什么时间、哪个时间、哪个客户端等，以及数据库中必须已经存在该客户端。
+   >此操作意味着链接维的数据已在数据库中。 例如，如果导入一个购买文件，其中显示购买了哪个产品、何时购买了哪个客户端等，则数据库中必须已存在该产品和客户端。
 
-* Data identification: an **[!UICONTROL Identification]** tab allows you to simply link inbound data to columns of an existing dimension in the Adobe Campaign database. 活动完成后，数据被识别为属于定义的维度。
+* 数据标识：通过 **[!UICONTROL Identification]** 选项卡，您只需将入站数据链接到Adobe Campaign数据库中现有维的列。 在活动之后，数据被标识为属于定义的维。
 
-   例如，您可以执行保存受众、数据库更新等操作。
+   例如，您随后可以执行保存的受众、数据库更新等。
 
-For example, the **[!UICONTROL Reconciliation]** activity can be placed after a load data activity with the aim of importing non-standard data into the database.
+例如，可以将 **[!UICONTROL Reconciliation]** 活动放在加载数据活动之后，以便将非标准数据导入数据库。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Reconciliation]** activity into your workflow, following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to define links between the inbound data and other database dimensions, go to the **[!UICONTROL Links]** tab.
+1. 将活动拖放到您的 **[!UICONTROL Reconciliation]** 工作流中，然后进行包含定位维度不直接来自Adobe Campaign的人群的过渡。 有关详细信息，请参阅定 [位维和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 如果要定义入站数据和其他数据库维之间的链接，请转到选 **[!UICONTROL Links]** 项卡。
 
-   根据需要添加任意数量的关系。对于每个关系，首先选择链接的维度，然后在链接详细信息中指定相应的字段。
+   添加所需数量的关系。 对于每个关系，首先选择链接的维，然后在链接详细信息中指定相应的字段。
 
-1. If you would like to simply identify the inbound data, go to the **[!UICONTROL Identification]** tab and check the **[!UICONTROL Identify the document from the working data]** box.
+1. 如果您只想标识入站数据，请转到选项卡并 **[!UICONTROL Identification]** 选中该 **[!UICONTROL Identify the document from the working data]** 框。
 
-   选择要将入站数据协调到的定位维度。
+   选择要协调入站数据的目标维。
 
-   添加排序条件，将入站过渡记录链接到选定定位维度记录。如果指定了多个条件，则必须对它们进行验证，以便链接所有数据之间的链接。
+   添加对帐条件以将入站过渡记录链接到选定的定位维记录。 如果指定了多个标准，则必须验证所有标准，以使其所有数据之间的链接正常工作。
 
-   Choose the **[!UICONTROL Processing unidentified source lines]** mode:
+   选择模 **[!UICONTROL Processing unidentified source lines]** 式：
 
-   * **[!UICONTROL Ignore them]**：仅可识别的数据保留在活动的出站过渡中。
-   * **[!UICONTROL Keep in the outbound population]**：入站过渡中的所有数据都保留在活动的出站过渡中。
+   * **[!UICONTROL Ignore them]**:只有可识别的数据会保留在活动的出站过渡中。
+   * **[!UICONTROL Keep in the outbound population]**:入站过渡中的所有数据都保留在活动的出站过渡中。
 
 1. 确认活动的配置并保存工作流。
 
-## Example 1: Relation definition {#example-1--relation-definition}
+## 示例1:关系定义 {#example-1--relation-definition}
 
-以下示例演示了一个工作流，它使用文件中的购买数据更新数据库。购买数据包含来自其他维度的数据引用元素，例如客户电子邮件和产品代码。
+以下示例演示了一个使用文件中的购买数据更新数据库的工作流。 采购数据包含引用其他维度元素（如客户电子邮件和产品代码）的数据。
 
 >[!NOTE]
 >
->The **Transactions** and **Products** resources used in this example do not exist in the Adobe Campaign database by default. They were therefore created beforehand using the [Custom resources](../../developing/using/data-model-concepts.md) function. 与导入文件中的电子邮件地址以及产品相对应的配置文件预先加载到数据库中。
+>默 **认情况下** ,Adobe Campaign数据库中不存在此示例中使用的Transactions和 **** Products资源。 因此，它们是使用“自定义资源” [功能预先创建](../../developing/using/data-model-concepts.md) 的。 与导入文件中的电子邮件地址以及产品相对应的配置文件会提前加载到数据库中。
 
 该工作流由以下活动组成：
 
 ![](assets/reconciliation_example1.png)
 
-* A **[!UICONTROL Load file]** activity, which loads and detects the data of the file to import. 导入的文件包含以下数据：
+* 一 **[!UICONTROL Load file]** 个活动，它加载并检测要导入的文件的数据。 导入的文件包含以下数据：
 
-   * 事务日期
+   * 交易日期
    * 客户端电子邮件地址
    * 购买的产品代码
    ```
@@ -99,29 +97,29 @@ For example, the **[!UICONTROL Reconciliation]** activity can be placed after a 
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* **[!UICONTROL Reconciliation]** 将购买数据绑定到数据库配置文件以及产品的活动。因此，必须定义文件数据与配置文件表以及产品表之间的关系。This configuration is carried out in the activity's **[!UICONTROL Relations]** tab:
+* 将购 **[!UICONTROL Reconciliation]** 买数据绑定到数据库配置文件和产品的活动。 因此，有必要定义文件数据与配置文件表以及产品表之间的关系。 此配置在活动的选项卡中执 **[!UICONTROL Relations]** 行：
 
-   * **与配置文件的关系**：该文件 **的客户** 端列链接到配置文件维度的 **电子邮件****** 字段。
-   * **与产品的关系**：该文件 **的产品** 列链接到配置文件维度的 **productCode****** 字段。
-   列添加到入站数据中，以便引用链接尺寸的外键。
+   * 与配置文件的 **关系**:文件的 **client** （客户端）列链接 **到** Profiles（配置文件）维度的email（电子邮件）字段 **** 。
+   * 与产品的 **关系**:文件的 **product** column is linked to the **profiles** dimension of **Profiles** dimension.
+   将列添加到入站数据中以引用链接维的外键。
 
    ![](assets/reconciliation_example3.png)
 
-* **[!UICONTROL Update data]** 活动允许您定义要使用导入的数据更新的数据库字段。As the data was already identified as belonging to the **Transactions** dimension in the previous activity, here you can use the **[!UICONTROL Directly using the targeting dimension]** identification option.
+* 活动 **[!UICONTROL Update data]** 允许您定义要使用导入的数据进行更新的数据库字段。 由于数据已标识为属于上一活动中的“ **事务** ”维，因此您可以在此使用标识 **[!UICONTROL Directly using the targeting dimension]** 选项。
 
-   By using the option that automatically detects fields to update, the links configured in the previous activity (to profiles and products) are added to the list of **[!UICONTROL Fields to update]**. 您还必须确保与事务日期对应的字段正确添加到此列表。
+   通过使用自动检测要更新的字段的选项，将之前活动中配置的链接（指向配置文件和产品）添加到列表中 **[!UICONTROL Fields to update]**。 您还必须确保与事务处理日期对应的字段正确添加到此列表中。
 
    ![](assets/reconciliation_example5.png)
 
    ![](assets/reconciliation_example4.png)
 
-## Example 2: Identification {#example-2--identification}
+## 示例2:身份识别 {#example-2--identification}
 
-以下示例演示了一个工作流，它直接从包含新客户端的导入文件创建一个配置文件受众。它由以下活动组成：
+以下示例演示了一个工作流，该工作流直接从包含新客户端的导入文件创建档案受众。 由下列活动组成：
 
 ![](assets/identification_example2.png)
 
-* A **[!UICONTROL Load file]** activity, which loads and detects the data of the file to import. 导入的文件包含以下数据：
+* 一 **[!UICONTROL Load file]** 个活动，它加载并检测要导入的文件的数据。 导入的文件包含以下数据：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -136,11 +134,11 @@ For example, the **[!UICONTROL Reconciliation]** activity can be placed after a 
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* **[!UICONTROL Reconciliation]** 活动，该活动将加载文件的每一列链接到配置文件维度列。无法识别的文件记录(缺少数据、不兼容数据类型等)忽略最终受众数据的完整性。
+* 一个 **[!UICONTROL Reconciliation]** 活动，它将加载文件的每列链接到一个配置文件维列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
    ![](assets/identification_example1.png)
 
-* **[!UICONTROL Save audience]** 可保存档案受众的活动。
+* 一项 **[!UICONTROL Save audience]** 活动，可以保存档案的受众。
 
    ![](assets/identification_example3.png)
 
