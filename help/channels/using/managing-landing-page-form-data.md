@@ -1,8 +1,6 @@
 ---
 title: 管理登陆页面表单数据
-seo-title: 管理登陆页面表单数据
-description: 管理登陆页面表单数据
-seo-description: 了解如何管理登录页面表单数据。
+description: 了解如何管理登录页面表单数据。
 page-status-flag: 从未激活
 uuid: 5b22ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: 勒梅特
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
