@@ -1,8 +1,6 @@
 ---
 title: 自定义应用程序内消息
-seo-title: 自定义应用程序内消息
-description: 自定义应用程序内消息
-seo-description: 了解如何使用各种选项自定义应用程序内消息。
+description: 了解如何使用各种选项自定义应用程序内消息。
 page-status-flag: 从未激活
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: 交付，inAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
