@@ -1,8 +1,6 @@
 ---
 title: 设置登陆页面的主要步骤
-seo-title: 设置登陆页面的主要步骤
-description: 设置登陆页面的主要步骤
-seo-description: 了解设置登陆页面的主要步骤
+description: 了解设置登陆页面的主要步骤
 page-status-flag: 从未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 勒梅特
@@ -15,7 +13,7 @@ context-tags: landingPage，向导；landingPage，概述；landingPage，主页
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
