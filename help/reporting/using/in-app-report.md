@@ -1,51 +1,49 @@
 ---
 title: 应用程序内报告
-seo-title: 应用程序内报告
-description: 应用程序内报告
-seo-description: 通过应用程序内现成报告，了解应用程序内消息的成功与否。
+description: 通过现成的应用程序内报告，了解您的应用程序内消息的成功情况。
 page-status-flag: 从未激活
-uuid: 802dc606-a314-46dd-b361-b746 b0772303
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
+uuid: 802dc606-a314-46dd-b361-b746b0772303
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
 topic-tags: 报告列表
-discoiquuid: f17c2ad-8ba3-4475-93ed-288b2bcee872
-internal: n n
+discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bce872
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# In-App report{#in-app-report}
+# 应用程序内报告{#in-app-report}
 
 >[!CAUTION]
 >
->Please note that you have to drag and drop the **[!UICONTROL Message type]** metrics to your tables to split your data depending on your delivery types, in this case In-App deliveries.
+>请注意，您必须将度量拖放到表中，以根据您的交付类型（本例中为应用程序内交付） **[!UICONTROL Message type]** 来拆分数据。
 
-**应用程序内** 报告提供与应用程序内交付相关的详细信息。
+“应 **用程序内** ”报告提供与应用程序内交付相关的详细信息。
 
-每个表由摘要编号和图表表示。您可以更改详细信息在其各自的可视化设置中的显示方式。
+每个表由摘要编号和图表表示。 您可以更改详细信息在各自的可视化设置中的显示方式。
 
 ![](assets/inapp_report.png)
 
-The first table **In-App Engagement Summary** is split into three categories: by day, by mobile app and by delivery. 它包含接收人重新激活的可用数据：
+第一个表“应 **用程序内参与摘要** ”分为三个类别：按日、按移动App和按交付分发。 它包含接收方对交付反应的可用数据：
 
-* **[!UICONTROL Processed/sent]**：应用程序内交付的发送总数。
-* **[!UICONTROL Delivered]**：成功发送的应用程序内消息的数量(相对于已发送的消息总数)。
-* **[!UICONTROL Impressions]**：收件人看到的应用程序内消息总数，具体取决于是否满足触发标准。
-* **[!UICONTROL Unique impressions]**：收件人数量。
-* **[!UICONTROL In-App click through rate]**：与看到消息的用户相比，单击Button或Button的用户百分比。
-* **[!UICONTROL In-App dismissal rate]**：接收人忽略的应用程序内消息百分比。
+* **[!UICONTROL Processed/sent]**:应用程序内交付的发送总数。
+* **[!UICONTROL Delivered]**:成功发送的应用程序内消息数（与已发送消息的总数相关）。
+* **[!UICONTROL Impressions]**:接收方查看的应用程序内消息总数，具体取决于是否满足触发器标准。
+* **[!UICONTROL Unique impressions]**:按收件人显示次数。
+* **[!UICONTROL In-App click through rate]**:单击“按钮1”或“按钮2”的用户与查看消息的用户的百分比。
+* **[!UICONTROL In-App dismissal rate]**:收件人忽略的应用程序内消息的百分比。
 
 ![](assets/inapp_report_1.png)
 
-The second table **In-App Clicks &amp; Dismissals** is split into three categories: by day, by mobile app and by delivery. 它包含每个交付的收件人行为的可用数据：
+第二个表“ **应用程序内点击和免除** ”分为三个类别：按日、按移动App和按交付分发。 它包含每个交付的收件人行为的可用数据：
 
-* **[!UICONTROL In-App clicks]**：单击Button或Button的收件人总数。
-* **[!UICONTROL Unique In-App clicks]**：收件人单击按钮或按钮的次数。
-* **[!UICONTROL In-App dismissal]**：收件人通过单击关闭按钮或自动取消静音而忽略的消息总数。
-* **[!UICONTROL Unique In-App dismissal]**：收件人拒绝应用程序内消息的次数。
+* **[!UICONTROL In-App clicks]**:单击按钮1或按钮2的收件人总数。
+* **[!UICONTROL Unique In-App clicks]**:收件人单击按钮1或按钮2的次数。
+* **[!UICONTROL In-App dismissal]**:收件人通过单击关闭按钮或自动关闭而忽略的消息总数。
+* **[!UICONTROL Unique In-App dismissal]**:收件人忽略应用程序内消息的时间。
 
