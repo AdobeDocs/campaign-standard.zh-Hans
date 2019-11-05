@@ -1,8 +1,6 @@
 ---
-title: 关于Campaign集成
-seo-title: 关于Campaign集成
-description: 关于Campaign集成
-seo-description: Adobe Campaign允许您使用其他Adobe解决方案并结合其不同的功能。
+title: 关于 Campaign 集成
+description: Adobe Campaign允许您使用其他Adobe解决方案并结合其不同的功能。
 page-status-flag: 从未激活
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于Campaign集成{#about-campaign-integrations}
+# 关于 Campaign 集成{#about-campaign-integrations}
 
 本节详细介绍了Adobe Campaign当前版本与其他解决方案和服务之间的功能集成。
 
@@ -86,7 +84,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">发送包含营销活动和兴趣点数据的基于位置的营销消息</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud触发器<br /> </td> 
+   <td> Experience Cloud Triggers<br /> </td> 
    <td> 允许您在Adobe Campaign中向客户发送个性化电子邮件，以响应Adobe Analytics在您的网站上跟踪的特定行为。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在Campaign Standard中使用Experience cloud触发器</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Efilation Triggers-Campaign使用案例</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> 根据网站活动视频触发再营销消息（步骤2）
