@@ -1,79 +1,77 @@
 ---
 title: 调度程序
-seo-title: 调度程序
-description: 调度程序
-seo-description: 调度程序活动允许您预定工作流或活动的启动时间。
+description: “调度程序”活动允许您计划工作流或活动的启动时间。
 page-status-flag: 从未激活
-uuid: f5e50a11-8dc9-4d98-951-024c0fb3f7da
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 执行活动
-discoiquuid: fb16cCea-3941-404f-899c-33f81ed4ed5
-context-tags: 计划，主要
-internal: n n
+discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
+context-tags: 计划，主
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Scheduler{#scheduler}
+# 调度程序{#scheduler}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/scheduler.png)
 
-**[!UICONTROL Scheduler]** 活动允许您预定工作流或活动的启动时间。
+活动 **[!UICONTROL Scheduler]** 允许您计划何时启动工作流或活动。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL Scheduler]** 活动应被视为计划开始。The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. 此活动不得具有入站过渡。
+活 **[!UICONTROL Scheduler]** 动应视为预定开始。 图表中的活动定位规则与活动的定位规 **[!UICONTROL Start]** 则相同。 此活动不得具有入站过渡。
 
-When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. 它将以其他方式设置以在服务器时区运行。
+在构建工作流时，每个分支只 **[!UICONTROL Scheduler]** 使用一个活动，并记住设置时区。 否则，它将设置为在服务器时区运行。
 
 >[!CAUTION]
 >
->The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. 这意味着，每10分钟不能自动执行一次工作流。
+>活 **[!UICONTROL Repetition frequency]** 动的时间不能少于10分钟。 这意味着工作流不能每10分钟自动执行多次。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Execution frequency]**:
+1. 将活动拖放 **[!UICONTROL Scheduler]** 到工作流中。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 指定 **[!UICONTROL Execution frequency]**:
 
-   * **[!UICONTROL Once]**：将执行一次工作流。
-   * **[!UICONTROL Several times a day]**：工作流每天定期执行多次。您可以在特定时间或定期设置执行。
-   * **[!UICONTROL Daily]**：工作流在一个特定时间执行，每天一次。
-   * **[!UICONTROL Weekly]**：工作流在指定时刻执行一次或几次。
-   * **[!UICONTROL Monthly]**：工作流在指定时刻执行一次或几次。您可以在需要执行工作流时选择月份。您还可以在指定的工作日(如月的第二个星期二)上设置执行。
-   * **[!UICONTROL Yearly]**：工作流在指定时刻执行一次或几次。
+   * **[!UICONTROL Once]**:该工作流只执行一次。
+   * **[!UICONTROL Several times a day]**:该工作流每天定期执行多次。 您可以在特定时间或定期设置执行。
+   * **[!UICONTROL Daily]**:该工作流在每天一次的特定时间执行。
+   * **[!UICONTROL Weekly]**:该工作流在指定的时刻执行，每周执行一次或多次。
+   * **[!UICONTROL Monthly]**:该工作流在指定的时刻执行，每月执行一次或多次。 您可以在需要执行工作流时选择月份。 您还可以在月份的指定工作日（如月份的第二个星期二）设置执行。
+   * **[!UICONTROL Yearly]**:该工作流在指定的时间执行，每年执行一次或多次。
 
-1. 根据所选频率定义执行详细信息。详细信息字段可能因使用的频率(时间、重复频率、指定的天数等)而异。
+1. 根据所选频率定义执行详细信息。 细节字段可能会因所使用的频率（时间、重复频率、指定天数等）而不同。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Repetition frequency]** 该字段允许您留出工作流的时间。For example, if you select a daily execution period and the repetition frequency is set at **2** (days), the workflow will be triggered every two days. 不能少于10分钟。If the repetition frequency is set at **0** (also the default value), this option is not taken into account and the workflow will run according to the execution frequency specified.
+   >该 **[!UICONTROL Repetition frequency]** 字段允许您在触发工作流时留出时间。 例如，如果您选择每日执行期，而重复频率设置为 **2** （天），则每两天将触发一次工作流。 时间不能少于10分钟。 如果重复频率设置为 **0** （也是默认值），则不考虑此选项，并且工作流将根据指定的执行频率运行。
 
 1. 指定执行何时过期：
 
-   * **[!UICONTROL Never]**：将根据指定的频率执行工作流，而不会限制时间帧或迭代数。
-   * **[!UICONTROL After a certain number of iterations]**：将根据指定的频率执行工作流，直至达到 **X** 限制。**[!UICONTROL Number of iterations]** 因此需要指定。
-   * **[!UICONTROL On a specific date]**：将根据指定的频率执行工作流，直至特定日期。因此，需要指定执行截止日期。
+   * **[!UICONTROL Never]**:将根据指定的频率执行该工作流，而不限制时间帧或迭代次数。
+   * **[!UICONTROL After a certain number of iterations]**:将根据指定的频率执行工作流，直到达到 **X的限制** 。 因 **[!UICONTROL Number of iterations]** 此需要指定。
+   * **[!UICONTROL On a specific date]**:将根据指定的频率执行该工作流，直到特定日期。 因此，需要指定执行截止日期。
 
-1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
+1. 单击以检查您的工作流的下一个十个执行的计划 **[!UICONTROL Preview next executions]**。
 
-1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. 这允许您在特定时区开始工作流，否则默认情况下，工作流将在服务器时区中运行。
+1. 在选 **[!UICONTROL Execution options]** 项卡中，在字段中为调度程序设置时 **[!UICONTROL Time zone]** 区。 这允许您在特定时区启动工作流，否则默认情况下，该工作流将在服务器时区运行。
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   有关根据收件人的时区发送交付的详细信息，请参阅此 [部分](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ，或循环 [工作流的此示例](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) 。
 
 1. 确认活动的配置并保存工作流。
 
 ## Example {#example}
 
-在以下示例中，将配置活动，以便将工作流每周、每隔一周(星期一)启动，以确保持续时间不变。
+在以下示例中，活动已配置好，以便每隔周一的清晨7点，在不确定的持续时间内以每周为单位启动工作流。
 
 ![](assets/wkf_scheduler_example.png)
 
