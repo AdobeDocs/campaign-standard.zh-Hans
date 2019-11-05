@@ -1,8 +1,6 @@
 ---
 title: 关于交易消息传递
-seo-title: 关于交易消息传递
-description: 关于交易消息传递
-seo-description: 了解您可以发送的不同类型的事务性消息以及它们在Adobe Campaign中的使用方式。
+description: 了解您可以发送的不同类型的事务性消息以及它们在Adobe Campaign中的使用方式。
 page-status-flag: 从未激活
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -57,7 +55,7 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 落实这些步骤包括：
 
 1. 配置将命名为“购物车放弃”的活动并发布此活动配置，该配置会自动创建交易消息。 在配置活动以发送活动事务消息部分 [中，将显示创建和发布活动](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
-1. 交易信息必须经过个性化、测试和发布。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+1. 交易信息必须经过个性化、测试和发布。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. 此外，为了在客户端放弃购物车时触发该事件，必须使用Adobe Campaign Standard REST API从公司网站发送该事件。 请参阅 [站点集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 执行所有这些步骤后，一旦用户离开站点而未在其购物车中订购产品，他们将自动收到通知电子邮件。
@@ -81,7 +79,7 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 在设计和发布事务性消息时，您需要执行的某些步骤无法恢复。 您需要注意以下限制：
 
 * 每个事件配置只能使用一个渠道。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* 创建活动后，便无法更改渠道。 因此，如果消息未成功发送，您需要设计一种机制，以允许使用工作流从其他渠道发送消息。 请参 [阅工作流数据和流程](../../automating/using/workflow-data-and-processes.md)。
+* 创建活动后，便无法更改渠道。 因此，如果消息未成功发送，您需要设计一种机制，以允许使用工作流从其他渠道发送消息。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
 * 在创建活动后，您无 **[!UICONTROL Real-time event]** 法更改 **[!UICONTROL Profile]** 定位维度（或）。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 无法回滚发布，但可以取消发布事件：此操作使事件和关联的事务消息无法访问。 请参阅 [取消发布活动](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * 唯一可与活动关联的事务消息是发布该活动时自动创建的消息。 请参 [阅预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
@@ -92,14 +90,14 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 
 **基于事件的交易消息**:
 
-* 个性化信息来自活动本身包含的数据。 请参阅 [活动事务消息](../../channels/using/event-transactional-messages.md)。
+* 个性化信息来自活动本身包含的数据。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * 在活动事 **务消息中** ，不能使用取消订阅链接内容块。
 * 基于事件的交易消息应仅使用发送事件中的数据来定义收件人和消息内容个性化。 但是，您可以使用Adobe Campaign数据库中的信息丰富事务性消息的内容。 请参 [阅丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
 * 由于事件事务消息不包含配置文件信息，因此即使对配置文件进行了扩充，它们也与疲劳规则不兼容。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
 **基于档案的交易消息**:
 
-* 个性化信息可以来自活动中包含的数据，也可以来自已调节的配置文件记录。 请参阅 [概要分析事务性消息](../../channels/using/profile-transactional-messages.md)。
+* 个性化信息可以来自活动中包含的数据，也可以来自已调节的配置文件记录。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * 您可以在个人资料 **事务性消息中使用** “取消订阅”链接内容块。 请参 [阅添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲劳规则与个人资料事务性消息兼容。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
