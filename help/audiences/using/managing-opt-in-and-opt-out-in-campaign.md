@@ -1,8 +1,6 @@
 ---
-title: 管理Campaign中的选择加入和选择退出
-seo-title: 管理Campaign中的选择加入和选择退出
-description: 管理Campaign中的选择加入和选择退出
-seo-description: 了解如何在Adobe Campaign中管理选择加入和选择退出。
+title: 管理 Campaign 中的选择启用和选择禁用
+description: 了解如何在Adobe Campaign中管理选择加入和选择退出。
 page-status-flag: 从未激活
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 管理Campaign中的选择加入和选择退出{#managing-opt-in-and-opt-out-in-campaign}
+# 管理 Campaign 中的选择启用和选择禁用{#managing-opt-in-and-opt-out-in-campaign}
 
 ## 从配置文件管理选择加入和选择退出 {#managing-opt-in-and-opt-out-from-a-profile}
 
