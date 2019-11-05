@@ -1,41 +1,39 @@
 ---
-title: 许可证数
-seo-title: 许可证数
-description: 许可证数
-seo-description: 了解有关安装在您的实例上的许可证的更多信息。
+title: 许可证
+description: 了解有关实例上安装的许可证的更多信息。
 page-status-flag: 从未激活
-uuid: fea2ea2b-e036-4fe4-9db2-7ba25 ec8 fb3 b
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: administration
-content-type: reference
-topic-tags: users-and-security
-discoiquuid: b0056f83-610e-4fdc-95cd-bb5 ed f5 c483
-internal: n n
+uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 管理
+content-type: 参考
+topic-tags: 用户和安全性
+discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Licenses{#licenses}
+# 许可证{#licenses}
 
-**[!UICONTROL Licenses]** 通过此窗口，您可以查看实例中已安装的许可证以及有关该实例的不同信息，例如构建号码、发布版本或如果已接受或由谁接受协议条款。
+通过 **[!UICONTROL Licenses]** 该窗口可以查看实例上已安装的许可证及有关该实例的不同信息，如内部版本号、发行版本，或者协议条款是否已被接受以及协议对象。
 
 ![](assets/license_1.png)
 
-借助新的构建或新功能，许可条款可能会更改并且需要由实例的职能管理员接受。
+使用新版本或新功能时，许可条款可能会更改，并且需要由实例的职能管理员接受。
 
-登录后将为标准用户显示以下窗口，不需要执行任何操作。They can still work on Adobe Campaign by clicking the **[!UICONTROL OK]** button.
+标准用户登录后将显示以下窗口，他们无需执行任何操作。 他们仍可通过单击按钮在Adobe Campaign上 **[!UICONTROL OK]** 工作。
 
 ![](assets/license_2.png)
 
-An administrator has to read and confirm the new terms of agreement in the following 30 days of the build installation by checking **[!UICONTROL I accept the terms from the license agreement]** and clicking **[!UICONTROL Confirm]**.
+管理员必须在构建安装后的30天内通过选中并单击来阅读并确认新的协议条 **[!UICONTROL I accept the terms from the license agreement]** 款 **[!UICONTROL Confirm]**。
 
 ![](assets/license_3.png)
 
-如果未接受该协议，则超过30天的时间内，用户将无法使用此实例。标准用户将无法访问Adobe Campaign功能，只有在职能管理员接受协议条款之前，才会看到以下消息。
+如果协议未被接受，则通过这30天后，用户将无法使用此实例。 标准用户将无法访问Adobe Campaign功能，并且只有在职能管理员接受协议条款之前，才会看到以下消息。
 
 ![](assets/license_4.png)
 
