@@ -1,8 +1,6 @@
 ---
-title: 配置与Audience manager或People核心服务的集成
-seo-title: 配置与Audience manager或People核心服务的集成
-description: 配置与Audience manager或People核心服务的集成
-seo-description: '了解如何配置Audience Manager/People核心服务集成，以开始使用不同的Adobe Experience cloud解决方案共享受众或细分。 '
+title: 准备和配置与 Audience Manager 或 People 核心服务的集成
+description: '了解如何配置Audience Manager/People核心服务集成，以开始使用不同的Adobe Experience cloud解决方案共享受众或细分。 '
 page-status-flag: 从未激活
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置与Audience manager或People核心服务的集成{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# 准备和配置与 Audience Manager 或 People 核心服务的集成{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 在Adobe Campaign中设置和配置Audience manager和People核心需要执行两个步骤：向Adobe [提交请求](#submitting-request-to-adobe) ，然 [后在Adobe Campaign中配置集成](#configuring-the-integration-in-adobe-campaign)。
 
@@ -27,7 +25,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导入和导出受众或区段。
 
-必须首先配置此集成。 要请求提供此集成，请向Digital-Request@adobe.com发送一封电 [子邮件](mailto:Digital-Request@adobe.com) ，其中包含以下信息：
+必须首先配置此集成。要请求配置此集成，请向 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 发送一封电子邮件，其中包含以下信息：
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导
 
 如果您使用的是Adobe Audience Manager而不是People Core Service，则所有情 **[!UICONTROL Declared ID]** 况下都可正常使用。
 
-您可以向以下地址提 **[!UICONTROL Declared ID]** 出供应请求： [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)。
+您可以向以下地址提出 **[!UICONTROL Declared ID]** 配置请求：[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)。
 
 ## 在Adobe Campaign中配置集成 {#configuring-the-integration-in-adobe-campaign}
 
