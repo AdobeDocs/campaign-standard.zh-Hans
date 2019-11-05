@@ -1,8 +1,6 @@
 ---
-title: 监控交付
-seo-title: 监控交付
-description: 监控交付
-seo-description: 了解如何监控交付。
+title: 监控投放
+description: 了解如何监控交付。
 page-status-flag: 从未激活
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: 交付，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 监控交付{#monitoring-a-delivery}
+# 监控投放{#monitoring-a-delivery}
 
 有几种方法可监控交付情况并衡量其影响：
 
@@ -44,7 +42,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **相关主题：**
 
-* [在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [报告](../../reporting/using/about-dynamic-reports.md)
 
 ## 交付日志 {#delivery-logs}
