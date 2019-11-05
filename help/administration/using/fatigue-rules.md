@@ -1,8 +1,6 @@
 ---
 title: 疲劳规则
-seo-title: 疲劳规则
-description: 疲劳规则
-seo-description: 创建疲劳规则以管理与配置文件的过度通信。
+description: 创建疲劳规则以管理与配置文件的过度通信。
 page-status-flag: 从未激活
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
