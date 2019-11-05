@@ -1,8 +1,6 @@
 ---
-title: 发现通信渠道
-seo-title: 发现通信渠道
-description: 发现通信渠道
-seo-description: 了解如何在各种渠道发送个性化消息以及创建跨渠道营销活动以更好地定位收件人。
+title: 了解通信渠道
+description: 了解如何在各种渠道发送个性化消息以及创建跨渠道营销活动以更好地定位收件人。
 page-status-flag: 从未激活
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 发现通信渠道{#discovering-communication-channels}
+# 了解通信渠道{#discovering-communication-channels}
 
 Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通过专用报告衡量其有效性。
 
