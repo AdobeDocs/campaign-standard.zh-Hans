@@ -1,8 +1,6 @@
 ---
 title: '从头开始设计电子邮件 '
-seo-title: '从头开始设计电子邮件 '
-description: '从头开始设计电子邮件 '
-seo-description: 了解如何在电子邮件设计器中从头开始设计电子邮件内容。
+description: 了解如何在电子邮件设计器中从头开始设计电子邮件内容。
 page-status-flag: 从未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 1. 在结构组件中插入内容组件和片段。 请参阅 [添加片段和内容组件](#defining-the-email-structure)。
 1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images)。
 1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)、插入 [链接和在电子邮](../../designing/using/links.md#inserting-a-link) 件中定义动态内容 [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 定义电子邮件的主题行。 请参 [阅个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+1. 定义电子邮件的主题行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 预览电子邮件。
 1. 保存您的内容，并在确保已定义受众并正确计划发送后继续处理您的消息。
 
