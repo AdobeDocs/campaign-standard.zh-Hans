@@ -1,36 +1,34 @@
 ---
-title: 打开时间
-seo-title: 打开时间
-description: 打开时间
-seo-description: 通过打开报告，了解根据各种条件查看哪个交付最多。
+title: 打开
+description: 通过“打开”报告，了解根据各种标准查看最多的交付。
 page-status-flag: 从未激活
-uuid: fe5453b6-cac1-43be-860e-c65 c8 a5168 d6
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 报告报告
-content-type: reference
+uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
+audience: 报告
+content-type: 参考
 topic-tags: 报告列表
-discoiquuid: c87188e8-cea7-4cc6-becf-b9788 e5 ec36 b
-context-tags: feliyOpenRaterForport，main；Campaign OpenRateForport，主要；programOpenRateForport，main
-internal: n n
+discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
+context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Opens{#opens}
+# 打开{#opens}
 
-**[!UICONTROL Opens]** 此报告识别收件人查看的交付次数。
+The **[!UICONTROL Opens]** report identifies the deliveries that have been most viewed by recipients.
 
 ![](assets/delivery_reports_opens.png)
 
-四个表格和图表划分了根据以下情况打开电子邮件的收件人总数：
+四个表和图表根据以下情况细分了打开电子邮件的收件人总数：
 
 * 浏览器
 * 设备
-* Platform
+* 平台
 * 域
 
-**[!UICONTROL TOP 5]** 表格和图形显示提供的最多消息数。
+The **[!UICONTROL TOP 5]** table and graph display the deliveries with the highest number of delivered messages.
