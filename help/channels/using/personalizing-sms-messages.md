@@ -1,8 +1,6 @@
 ---
-title: 个性化SMS消息
-seo-title: 个性化SMS消息
-description: 个性化SMS消息
-seo-description: 发现个性化SMS消息时音译选项的特异性。
+title: 个性化短信消息
+description: 发现个性化SMS消息时音译选项的特异性。
 page-status-flag: 从未激活
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，向导；delivery,smsContent,back;delive
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 个性化SMS消息{#personalizing-sms-messages}
+# 个性化短信消息{#personalizing-sms-messages}
 
 个性化SMS消息的原则与电子邮件的原 [则相同](../../designing/using/personalization.md#inserting-a-personalization-field)。 但是，您必须注意音译选项，因为这些选项会影响编码，因此也会影响要发送的SMS消息数。 有关详细信息，请参阅音 [译和SMS长度部分](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 
