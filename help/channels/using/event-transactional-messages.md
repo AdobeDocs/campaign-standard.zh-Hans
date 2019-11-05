@@ -1,8 +1,6 @@
 ---
-title: 活动事务消息
-seo-title: 活动事务消息
-description: 活动事务消息
-seo-description: 了解如何创建和发布活动交易消息。
+title: 事件交易消息
+description: 了解如何创建和发布活动交易消息。
 page-status-flag: 从未激活
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: deliveryTransactionalTemplate，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 活动事务消息{#event-transactional-messages}
+# 事件交易消息{#event-transactional-messages}
 
 您可以发送针对活动的活动事务性消息。 此类事务性消息不包含配置文件信息：交付目标由事件本身包含的数据定义。
 
