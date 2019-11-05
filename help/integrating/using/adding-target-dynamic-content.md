@@ -1,8 +1,6 @@
 ---
-title: 添加Target动态内容
-seo-title: 添加Target动态内容
-description: 添加Target动态内容
-seo-description: 了解如何在您的Adobe Campaign交付中添加Adobe Target动态内容。
+title: 添加 Target 动态内容
+description: 了解如何在您的Adobe Campaign交付中添加Adobe Target动态内容。
 page-status-flag: 从未激活
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: 绍维亚
@@ -14,12 +12,12 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 添加Target动态内容{#adding-target-dynamic-content}
+# 添加 Target 动态内容{#adding-target-dynamic-content}
 
 通过Adobe target集成，可以将动态图像添加到交付中，以根据体验个性化您的内容。
 
