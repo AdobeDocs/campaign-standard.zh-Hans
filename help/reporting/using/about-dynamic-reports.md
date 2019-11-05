@@ -1,8 +1,6 @@
 ---
 title: 关于动态报告
-seo-title: 关于动态报告
-description: 关于动态报告
-seo-description: 利用动态报告，将变量和维度拖放到自由形式环境中，并分析营销活动的成功。
+description: 利用动态报告，将变量和维度拖放到自由形式环境中，并分析营销活动的成功。
 page-status-flag: 从未激活
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
