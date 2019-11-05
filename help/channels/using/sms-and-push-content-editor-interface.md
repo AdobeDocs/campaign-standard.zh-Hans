@@ -1,8 +1,6 @@
 ---
-title: SMS和推送内容编辑器界面
-seo-title: SMS和推送内容编辑器界面
-description: SMS和推送内容编辑器界面
-seo-description: 了解如何使用编辑器的不同部分来修改SMS和推送内容。
+title: 短信和推送内容编辑器界面
+description: 了解如何使用编辑器的不同部分来修改SMS和推送内容。
 page-status-flag: 从未激活
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: 交付，sms内容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMS和推送内容编辑器界面{#sms-and-push-content-editor-interface}
+# 短信和推送内容编辑器界面{#sms-and-push-content-editor-interface}
 
 SMS和推送内容编辑器分为两个不同的部分，允许您查看和编辑消息。
 
@@ -75,7 +73,7 @@ SMS和推送内容编辑器分为两个不同的部分，允许您查看和编�
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">启用动态文本</span><br /> </td> 
    <td> SMS和推送<br /> </td> 
-   <td> 允许您在内容中插入动态文本。 请参阅 <a href="../../channels/using/defining-dynamic-text.md" target="_blank">定义动态文本</a>。<br /> </td> 
+   <td> 允许您在内容中插入动态文本。 See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
