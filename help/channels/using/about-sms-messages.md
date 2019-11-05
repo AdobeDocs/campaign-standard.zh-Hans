@@ -1,8 +1,6 @@
 ---
-title: 关于SMS消息
-seo-title: 关于SMS消息
-description: 关于SMS消息
-seo-description: 了解Adobe Campaign中SMS渠道的主要特性。
+title: 关于短信消息
+description: 了解Adobe Campaign中SMS渠道的主要特性。
 page-status-flag: 从未激活
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，向导；delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 关于SMS消息{#about-sms-messages}
+# 关于短信消息{#about-sms-messages}
 
 Adobe Campaign允许您发送SMS（短消息服务）消息。
 
@@ -43,7 +41,7 @@ Adobe Campaign允许您发送SMS（短消息服务）消息。
 
 * [管理模板](../../start/using/about-templates.md)
 * [SMS配置](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
-* [SMS报告](../../reporting/using/sms-report.md)
+* [短信报告](../../reporting/using/sms-report.md)
 
 ## SMS交付模板 {#sms-delivery-template}
 
