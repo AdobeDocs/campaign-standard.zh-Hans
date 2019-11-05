@@ -1,8 +1,6 @@
 ---
 title: 关于订阅
-seo-title: 关于订阅
-description: 关于订阅
-seo-description: null
+description: null
 page-status-flag: 从未激活
 uuid: b0263e40-f910-49f2-a138-0a1302aeec6
 contentOwner: 绍维亚
@@ -14,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
