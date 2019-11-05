@@ -1,8 +1,6 @@
 ---
-title: 创建SMS消息
-seo-title: 创建SMS消息
-description: 创建SMS消息
-seo-description: 请按照以下步骤在Adobe Campaign中创建单发SMS消息。
+title: 创建短信消息
+description: 请按照以下步骤在Adobe Campaign中创建单发SMS消息。
 page-status-flag: 从未激活
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，向导
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 创建SMS消息{#creating-an-sms-message}
+# 创建短信消息{#creating-an-sms-message}
 
 创建SMS交付与创建常规电子邮件非常相似。 以下步骤介绍了特定于此渠道的配置。 有关其他 [选项的更多信息](../../channels/using/creating-an-email.md) ，请参阅创建电子邮件。
 
@@ -28,7 +26,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 要创建SMS消息并将其发送到手机，您需要：
 
-* 在渠 **[!UICONTROL Routing]** 道上使用该模式配 **[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]** 户。 有关详细信息，请参阅“路 [由](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) ”(Routing)部分。
+* 在渠 **[!UICONTROL Routing]** 道上使用该模式配 **[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]** 户。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * 正确链接到此外部帐户的分发模板。
 
 1. 创建SMS交付。 您可以从Adobe Campaign主页、营销活 [动中](../../start/using/interface-description.md#home-page)，或营销活 [动列表](../../start/using/marketing-activities.md#creating-a-marketing-activity)[中执行此操作](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -55,7 +53,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 1. 将内容添加到SMS 在SMS创建完成后，您还可以通 **[!UICONTROL Content]** 过单击交付仪表板的部分来定义内容。 请参 [阅关于SMS内容设计](../../channels/using/about-sms-and-push-content-design.md)。
 
-   如果您已经将个性化字段或条件文本插入到SMS消息的内容中，则消息的长度可能因收件人而异。 事实上，这些因素可能会引入GSM编码中未考虑的字符。 这就是在个性化实施后必须评估消息长度的原因。 请参 [阅个性化SMS消息](../../channels/using/personalizing-sms-messages.md)。
+   如果您已经将个性化字段或条件文本插入到SMS消息的内容中，则消息的长度可能因收件人而异。 事实上，这些因素可能会引入GSM编码中未考虑的字符。 这就是在个性化实施后必须评估消息长度的原因。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
