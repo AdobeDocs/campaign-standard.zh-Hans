@@ -1,8 +1,6 @@
 ---
 title: 准备和发送推送通知
-seo-title: 准备和发送推送通知
-description: 准备和发送推送通知
-seo-description: 请按照以下步骤在Adobe Campaign中创建单发推送通知。
+description: 请按照以下步骤在Adobe Campaign中创建单发推送通知。
 page-status-flag: 从未激活
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
    您还可以在工作流中使用推送通知交付活动。 此活动显示在推送通 [知传送部分](../../automating/using/push-notification-delivery.md) 。
 
-1. 选择 **[!UICONTROL Push notification]**。
+1. Select **[!UICONTROL Push notification]**.
 1. 选择模板。
 
    ![](assets/push_notif_type.png)
@@ -61,7 +59,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 1. 您现在可以自定义推送通知。 首先，选择消息样式：或 **[!UICONTROL Alert/Message/Badge]** 者 **[!UICONTROL Silent push]**。 “关于推送通知”部分中介绍了 [推送通知类型](../../channels/using/about-push-notifications.md) 。
 
-   编辑推送通知的内容并定义高级选项。 请参 [阅自定义推送通知](../../channels/using/customizing-a-push-notification.md)。
+   编辑推送通知的内容并定义高级选项。 See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
