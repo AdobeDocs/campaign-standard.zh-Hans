@@ -1,8 +1,6 @@
 ---
-title: 直接邮递
-seo-title: 直接邮递
-description: 直接邮递
-seo-description: “直接邮寄”活动允许您配置在工作流中发送单个发送直接邮寄邮件或重复发送的直接邮寄邮件。
+title: 直邮投放
+description: “直接邮寄”活动允许您配置在工作流中发送单个发送直接邮寄邮件或重复发送的直接邮寄邮件。
 page-status-flag: 从未激活
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: 绍维亚
@@ -15,12 +13,12 @@ context-tags: directMail，工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 直接邮递{#direct-mail-delivery}
+# 直邮投放{#direct-mail-delivery}
 
 ## 说明 {#description}
 
@@ -92,6 +90,6 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
 
-## 示例 {#example}
+## Example {#example}
 
 “直邮” **[!UICONTROL Direct mail delivery]** 一章中提供 [了示例](../../channels/using/example-of-direct-mail-in-a-workflow.md) 。
