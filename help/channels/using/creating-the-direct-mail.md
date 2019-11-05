@@ -1,104 +1,102 @@
 ---
-title: 创建直接邮件
-seo-title: 创建直接邮件
-description: 创建直接邮件
-seo-description: 按照以下步骤在Adobe Campaign中创建直接邮件分发。
+title: 创建直邮
+description: 请按照以下步骤在Adobe Campaign中创建直邮分发。
 page-status-flag: 从未激活
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 频道
-content-type: reference
+content-type: 参考
 topic-tags: 直邮
-discoiquuid: 5b0227f-9438-4001-bc2 f-3d8661 d173 b3
-context-tags: delivery，directmailContent，返回
-internal: n n
+discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
+context-tags: delivery,directMailContent,back
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating the direct mail{#creating-the-direct-mail}
+# 创建直邮{#creating-the-direct-mail}
 
-创建直接邮寄邮件与创建常规电子邮件非常相似。以下步骤描述了特定于此渠道的配置。Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.
+创建直邮递送与创建常规电子邮件非常相似。 以下步骤介绍了特定于此渠道的配置。 有关其他 [选项的更多信息](../../channels/using/creating-an-email.md) ，请参阅创建电子邮件。
 
-1. 创建新的直接邮寄邮件。You can create one from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), in a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or in a [marketing activity list](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. 创建新的直邮递送。 您可以从Adobe Campaign主页、营销活 [动中](../../start/using/interface-description.md#home-page)、营销活 [动](../../start/using/marketing-activities.md#creating-a-marketing-activity)[](../../start/using/programs-and-campaigns.md#creating-a-campaign)或营销活动列表中创建。
 
    >[!NOTE]
    >
-   >您还可以在工作流中添加直接邮件活动。For more on this, refer to the [Workflows](../../automating/using/direct-mail-delivery.md) guide.
+   >您还可以在工作流中添加直邮活动。 有关详细信息，请参阅工作 [流指南](../../automating/using/direct-mail-delivery.md) 。
 
    ![](assets/direct_mail_1.png)
 
-1. Choose either the out-of-the-box **[!UICONTROL Direct mail]** template or one of your own templates. For more information on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+1. 选择现成模板或您自 **[!UICONTROL Direct mail]** 己的模板之一。 有关模板的详细信息，请参阅管理模 [板一节](../../start/using/about-templates.md) 。
 
    ![](assets/direct_mail_2.png)
 
-1. 输入分发的常规属性。
+1. 输入传送的常规属性。
 
    ![](assets/direct_mail_3.png)
 
-1. 定义您希望包含在提取文件中的受众以及测试和陷印配置文件。See [Defining the direct mail audience](../../channels/using/defining-the-direct-mail-audience.md).
+1. 定义要包含在提取文件以及测试和陷印配置文件中的受众。 See [Defining the direct mail audience](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
    >[!NOTE]
    >
-   >受众定义与定义普通电子邮件受众非常相似。See [Creating audiences](../../audiences/using/creating-audiences.md).
+   >受众定义与定义常规电子邮件受众非常相似。 请参阅 [创建受众](../../audiences/using/creating-audiences.md)。
 
-1. 编辑文件的内容：要包括的每个配置文件、文件结构、页眉和页脚的列。See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
+1. 编辑文件内容：列，以用于每个配置文件、文件结构、页眉和页脚。 See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
 
    ![](assets/direct_mail_5.png)
 
-1. Click on the **[!UICONTROL Schedule]** section of the delivery dashboard to define the contact date. 对于直邮，联系日期为必填字段。For more information, refer to [Scheduling the send](../../sending/using/about-scheduling-messages.md).
+1. 单击交 **[!UICONTROL Schedule]** 付功能板的部分以定义联系日期。 对于直邮，联系日期为必填。 有关详细信息，请参阅 [安排发送](../../sending/using/about-scheduling-messages.md)。
 
    ![](assets/direct_mail_8.png)
 
-1. If you added test profiles (refer to [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), you can test your delivery before preparing the final file. 它允许您创建仅包含所选测试配置文件的示例文件。
+1. 如果您添加了测试配置文件(请参 [阅添加测试和陷印配置文件](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles))，则可以在准备最终文件之前测试交付。 它允许您创建一个仅包含所选测试配置文件的示例文件。
 
-   Click on **[!UICONTROL Test]** to generate the sample file. Click on **[!UICONTROL Summary]**, in the top left corner, then select **[!UICONTROL Proofs]**. On the left part of the screen, select the proof and click on **[!UICONTROL Download file]**.
+   单击以 **[!UICONTROL Test]** 生成示例文件。 单击 **[!UICONTROL Summary]**&#x200B;左上角的，然后选择 **[!UICONTROL Proofs]**。 在屏幕的左侧，选择校样并单击 **[!UICONTROL Download file]**。
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Export]** role is required to allow Adobe Campaign to export the file and make it available for download. 请联系您的管理员。
+   >该 **[!UICONTROL Export]** 角色是允许Adobe Campaign导出文件并供下载的必需角色。 请联系您的管理员。
 
    ![](assets/direct_mail_19.png)
 
-1. Once you have defined your delivery content, audience and contact date, click on the **[!UICONTROL Prepare]** button, on the delivery dashboard.
+1. 在定义了交付内容、受众和联系日期后，单击交付控制 **[!UICONTROL Prepare]** 板上的按钮。
 
    ![](assets/direct_mail_16.png)
 
-   应用Typology规则。例如，所有未指定的邮件都将从目标中排除。This is why you need to make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information (see [Recommendations](../../channels/using/about-direct-mail.md#recommendations)). If you have defined a **[!UICONTROL Maximum volume of message]** in the direct mail properties or at the template level, it will also be applied here.
+   应用类型学规则。 例如，所有未指定的邮政地址都会从目标中排除。 因此，您需要确保选中了配置文 **[!UICONTROL Address specified]** 件信息中的框(请参阅 [Recommendations](../../channels/using/about-direct-mail.md#recommendations))。 如果您已在直邮 **[!UICONTROL Maximum volume of message]** 属性中或在模板级别定义了，则此处也将应用该属性。
 
    ![](assets/direct_mail_25.png)
 
    >[!NOTE]
    >
-   >您可以设置全局跨渠道疲劳规则，它们会自动排除营销活动中已被过度授权的配置文件。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >您可以设置全局跨渠道疲劳规则，这些规则将自动从营销活动中排除过度征求的档案。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-1. Click on **[!UICONTROL Explore file]** to preview the first 100 lines of the file.
+1. 单击 **[!UICONTROL Explore file]** 可预览文件的前100行。
 
    ![](assets/direct_mail_18.png)
 
-   可在屏幕左侧下载完整文件供本地下载。Downloading the file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+   可在屏幕左侧访问完整文件以进行本地下载。 下载文件将在菜单中生成日志 **[!UICONTROL Export audits]** 条目。 有关导出审核的详细信息，请参阅“审核 [导出](../../administration/using/auditing-export-logs.md) ”一节。
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Export]** role is required to allow Adobe Campaign to export the file and make it available for download. 请联系您的管理员。
+   >该 **[!UICONTROL Export]** 角色是允许Adobe Campaign导出文件并供下载的必需角色。 请联系您的管理员。
 
-   If you need to change the delivery content, you only have to click on the **[!UICONTROL Regenerate file]** button to take the change into account. 无需重新准备。
+   如果需要更改分发内容，您只需单击该按 **[!UICONTROL Regenerate file]** 钮即可将更改考虑在内。 不必再做准备了。
 
    ![](assets/direct_mail_21.png)
 
-1. To confirm that the file is final, click on **[!UICONTROL Confirm]** in the delivery dashboard.
+1. 要确认文件为最终文件，请在提交功 **[!UICONTROL Confirm]** 能板中单击。
 
    ![](assets/direct_mail_20.png)
 
-您现在可以将提取文件发送到直接邮件提供商。为此，您有几个选项：
+您现在可以将提取文件发送到直接邮件提供者。 对于此，您有几个选项：
 
-* 通过常规电子邮件发送并附加文件
-* Send it via Campaign: perform your direct mail within a campaign [workflow](../../automating/using/direct-mail-delivery.md) and add a **[!UICONTROL Transfer file]** to send the file via FTP for example. See [Transfer file](../../automating/using/transfer-file.md).
+* 通过定期电子邮件发送，并附加文件
+* 通过Campaign发送：在营销活动工作流程中 [执行直邮](../../automating/using/direct-mail-delivery.md) ，并添 **[!UICONTROL Transfer file]** 加一个FTP发送文件的示例。 请参阅 [传输文件](../../automating/using/transfer-file.md)。
 
-提供商检索错误地址的列表，并将此信息发送到自动黑名单中列出错误地址的Adobe Campaign。See [Return to sender](../../channels/using/return-to-sender.md).
+提供商会检索错误地址列表，并将此信息发送到Adobe Campaign,Adobe Campaign会自动将错误地址列入黑名单。 See [Return to sender](../../channels/using/return-to-sender.md).
