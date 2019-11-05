@@ -1,49 +1,47 @@
 ---
-title: 并加入
-seo-title: 并加入
-description: 并加入
-seo-description: 通过与加入活动，您可以同步工作流的多个执行分支。
+title: AND-连接
+description: AND-join活动允许您同步工作流的多个执行分支。
 page-status-flag: 从未激活
-uuid: 9b54fd4c-9915-400f-a494-74e52 c329 b8 a
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
+contentOwner: 绍维亚
+products: SG_CAMPAIGN/STANDARD
 audience: 自动化
-content-type: reference
+content-type: 参考
 topic-tags: 执行活动
-discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59 b383 ca
-context-tags: and join，main
-internal: n n
+discoiquuid: 4b55efa2-652e-4493-bfa7-eae59b383ca
+context-tags: andjoin, main
+internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# AND-join{#and-join}
+# AND-连接{#and-join}
 
-## Description {#description}
+## 说明 {#description}
 
 ![](assets/and_join.png)
 
-**[!UICONTROL AND-join]** 活动允许您同步工作流的多个执行分支。
+该活 **[!UICONTROL AND-join]** 动允许您同步工作流的多个执行分支。
 
-## Context of use {#context-of-use}
+## 使用环境 {#context-of-use}
 
-**[!UICONTROL AND-join]** 在所有的入站过渡都已完成后，活动只会触发其出站过渡，也就是说，所有以前的活动都已完成。
+活 **[!UICONTROL AND-join]** 动仅在激活所有入站过渡后触发其出站过渡，换言之，在所有前面的活动完成之后。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. 将多个活动等多个活动拖放到工作流程中，以形成至少两个不同的执行分支。
-1. Drag and drop an **[!UICONTROL AND-join]** activity into your workflow.
-1. 将其连接到您要同步的两个不同分支之后。
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. 选择要保留在出站过渡中的主集合。如果您未选择任何设置，将从活动中随机发送人群。
+1. 将多个活动（如查询）放入您的工作流中，以至少形成两个不同的执行分支。
+1. 将活动拖放 **[!UICONTROL AND-join]** 到工作流中。
+1. 在要同步的两个不同的分支之后连接它。
+1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
+1. 选择要在出站过渡中保留的主集。 如果不选择任何集，则会从活动中发送随机人群。
 1. 确认活动的配置并保存工作流。
 
 ## Example {#example}
 
-The following example shows two workflow branches before they are joined with the **[!UICONTROL AND-join]** activity. File extraction can only take place when the three inbound transitions of the **[!UICONTROL AND-join]** activity are enabled.
+以下示例显示了两个工作流分支，然后再将其与活动结合 **[!UICONTROL AND-join]** 在一起。 只有在启用活动的三个入站过渡时，才能进行 **[!UICONTROL AND-join]** 文件提取。
 
 ![](assets/wkf_and-join_example.png)
 
