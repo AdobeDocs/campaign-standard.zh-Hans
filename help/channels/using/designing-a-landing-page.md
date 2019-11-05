@@ -1,8 +1,6 @@
 ---
 title: 设计登陆页面
-seo-title: 设计登陆页面
-description: 设计登陆页面
-seo-description: 按照以下步骤设计登录页面的内容并将其链接到服务。
+description: 按照以下步骤设计登录页面的内容并将其链接到服务。
 page-status-flag: 从未激活
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: 绍维亚
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
