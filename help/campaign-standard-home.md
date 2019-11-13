@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
@@ -77,3 +77,7 @@ L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 * [发布计划指南](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+* [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+
+* [Adobe Campaign Standard实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
