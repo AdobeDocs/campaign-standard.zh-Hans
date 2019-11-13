@@ -13,16 +13,16 @@ context-tags: 角色，概述；角色，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # 角色列表{#list-of-roles}
 
-默认情况下，Adobe Campaign提供一组角色，允许您定义分配给用户和用户组的统一授权。 角色与组织单位相结合，为用户提供界面的筛选视图并定义他们对不同功能的访问。 有关详细信息，请参阅“角色 [和权限”表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+默认情况下，Adobe Campaign提供一组角色，允许您定义分配给用户和用户组的统一授权。 角色与组织单位相结合，为用户提供界面的筛选视图并定义他们对不同功能的访问。 有关详细信息，请参阅“角色 [和权限”表](/help/administration/using/assets/acs_rights.pdf)。
 
-[![图像](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 可以从菜单中管理角 **[!UICONTROL Administration > Users & Security > Roles]** 色。
 
