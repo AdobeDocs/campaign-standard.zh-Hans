@@ -1,18 +1,18 @@
 ---
 title: 文档更新
 description: 了解Adobe Campaign standard文档的所有最新更新。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign发 [行说明](../../rn/using/release-notes.md)。
+
+## 文档更新- 2019年11月 {#doc-updates-november-2019}
+
+新增了一个用例，用于说明如何使用Campaign standard中的工作流构建控制组。 阅[读更多](../../automating/using/workflow-control-group.md)
 
 ## 19.4版- 2019年10月 {#release-19-4---october-2019}
 
