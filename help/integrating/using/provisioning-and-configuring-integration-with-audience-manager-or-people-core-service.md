@@ -1,18 +1,18 @@
 ---
 title: 准备和配置与 Audience Manager 或 People 核心服务的集成
 description: '了解如何配置Audience Manager/People核心服务集成，以开始使用不同的Adobe Experience cloud解决方案共享受众或细分。 '
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 集成
-content-type: 参考
-topic-tags: 使用Campaign和Audience manager或People核心服务
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -66,7 +66,9 @@ Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导
 * 如果受众是通过People核心服务从Adobe Campaign共享到Ad Cloud的，您将无法使用配置来对受 **[!UICONTROL Declared ID]** 众进行历史回填。 在构建受众时，还会出现一些延迟。
 * 如果受众是通过People Core service从Adobe Analytics共享到Adobe Campaign的，则不会在Adobe Campaign中填充区段 **[!UICONTROL Declared ID]**。
 
-如果您使用的是Adobe Audience Manager而不是People Core Service，则所有情 **[!UICONTROL Declared ID]** 况下都可正常使用。
+>[!NOTE]
+>
+>如果您使用的是Adobe Audience Manager而不是People Core Service，则所有情 **[!UICONTROL Declared ID]** 况下都可正常使用。
 
 您可以向以下地址提出 **[!UICONTROL Declared ID]** 配置请求：[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)。
 
