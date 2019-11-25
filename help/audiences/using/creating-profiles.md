@@ -1,18 +1,18 @@
 ---
 title: 创建用户档案
 description: 了解如何使用API、导入功能、在线获取、自动或手动更新创建配置文件并收集联系人的数据。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理配置文件
-discoiquuid: 4ab8a984-f898-4ff-ad8c-ed8f95362f96
+content-type: reference
+topic-tags: managing-profiles
+discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * 通过工作流从文件导入配置文件列 [表](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * 通过登陆页面在线收 [集数据](../../channels/using/about-landing-pages.md)
-* 通过 [REST API批量创建](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* 通过 [REST API批量创建](../../api/using/about-campaign-standard-apis.md)
 * 从 [Microsoft Dynamics同步配置文件](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 使用图形界面屏幕输入数据，如下所述
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->也可以使用Adobe Campaign Standard API创建配置文件。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) 。
+>也可以使用Adobe Campaign Standard API创建配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/managing-profiles.md)。
 
 配置文件也可以根据组织单位进行分区。 要将组织字段添加到配置文件，请参阅分区配 [置文件部分](../../administration/using/organizational-units.md#partitioning-profiles) 。
 
