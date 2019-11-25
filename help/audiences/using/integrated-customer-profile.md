@@ -1,19 +1,19 @@
 ---
 title: 整合的客户档案
 description: “在单一视图中跟踪每个客户互动：Adobe Campaign集成式客户档案会在整个客户生命周期中进行更新。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理配置文件
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
-context-tags: marketingHistory，主
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->还可以使用Adobe Campaign Standard API访问营销历史。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) 。
-
+>还可以使用Adobe Campaign Standard API访问营销历史。 有关详细信息，请参阅专 [用文档](../../api/using/interacting-with-marketing-history.md) 。
