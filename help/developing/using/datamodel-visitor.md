@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
 
 ---
 
@@ -19,169 +19,169 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## 对象描述
 
-    &lt;table&gt;
-    &lt;th&gt;
-    &lt;th&gt;
-    &lt;th&gt;名称&lt;th&gt;标签/th&gt;类型（长度）
-    &lt;th&gt;第&lt;th&gt;第&lt;th&gt;值
-    &lt;/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    &lt;tr&lt;tr&gt;TDey/td&gt;主资源&lt;td&gt;主资源ID/td&gt;&lt;td&gt;本发明的促进转售促进转售促进转售促进转售促进转售促进转售促进转售促促进转售促促进转售促促进转售促促促进转售促促进转售促促促促进转售促促促进转售促促促进转售促促促促进转售促进转售促促进转售促促促促促促进转售促进转售促进转售促进转售促促进转售促进转售促进转售。/td&gt;由[（用户）][t↓[d])[t↓[d]所创造的[（用户）↓[t↓[d]基]][t↓[t↓[d]]由[t↓[d][t↓[d]所创造的[t↓[d][t↓[d]][d]的[t↓[t↓[d])][T↓[d]的[T↓[T↓[D]的]的][T↓[T↓[T↓[D]的]的][T↓[T↓[D][T↓[D]的][D]的][T↓[T↓[D↓[T↓[T↓[T↓[T↓[T↓[L↓[T↓[L↓[T↓[D]的]的]的]的]的]的]的][T↓[T↓[T↓[T↓[td&gt;&lt;/td&gt;tdID&lt;td/td&gt;tdID Tr&lt;tdTd&gt;TdId&lt;tdId&lt;/tdItdD&lt;tdItdD&lt;/tdItdId&lt;tdTdItdD&lt;/tdTdDDDDId&gt;TdId&lt;tdIdDTdTTdTdTdDTdDDTDDTTDDTDDTDDTTDTTDTTDDDTDDTDDTTTTTD&lt;tTDTDTD&lt;tTDTTDTDT本发明的课题是，使本发明的外部ID↓[ID](TD↓[ID])的外部ID↓[ID](TD↓[ID])的TD↓[ID](TD↓[ID])↓[ID])。td弦(td)&lt;/td&gt;(td4)&lt;/td&gt;t↓[td](t↓[t↓[d]/t↓[d])第一名&lt;/t↓[t↓[d]/t↓[d](t↓[d]/t↓[d])&gt;T↓[d](t↓[d])/t↓[t↓[t↓[d])])]转导。前url(td&gt;td)串(255)&lt;td/td&gt;&lt;td&lt;td&gt;(tr&gt;td)UnitBase)&lt;/td&gt;地理单元td/td地理连接td&lt;td/td链接td最后修改日期&lt;/td&gt;td&lt;/td&gt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/&gt;tr&lt;td&gt;LastName&lt;/td&gt;LastTd&lt;/td&gt;LastName&lt;/td&gt;Td&lt;/td&gt;Name&gt;&gt;Td&lt;/td&gt;By(userModified)&lt;/td&gt;Base&lt;td&gt;Td&lt;/td&gt;Modified&lt;/td&gt;Org&lt;/org&gt;Org&lt;/&gt;Org&lt;/&gt;Org&lt;/Tr&lt;/tdUnit&lt;/tdLink&lt;/td&gt;&lt;/td&gt;原产于&lt;/td&gt;原产于&lt;/td&gt;原产于&lt;/td&gt;原产于&lt;/td&gt;原产于&lt;&lt;td&gt;(字节&lt;/字节&gt;&lt;/td&gt;Li&lt;td&gt;Li&lt;td-未定义-0&lt;/li&gt;INVALID TD VALUE - __Invalid________&lt;/lalililadiflilivalilili/ul&gt;本发明&lt;/tr&gt;本发明&lt;/td&gt;本发明&lt;/td&gt;本发明&lt;/td&gt;本发明&lt;/td&gt;本发明的本发明&lt;/td&gt;本发明的本发明&lt;/td&gt;本发明&lt;/td&gt;本发明的本发明&lt;/td&gt;本发明的本发明的本发明。(128)TD/TD(Td)TD(Td)TD(Td)TD(Td)TD(Td)TD(Td)TD(Td)TD(Td)TD)TD(Td)。本发明涉及经济、社会、经济、社会、文化、文化、文化、文化、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育、体育等。&lt;/td&gt;&lt;td&lt;td&lt;td&lt;td&lt;td&lt;td&lt;td&gt;&lt;td&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/td&gt;&lt;/td&gt;&lt;Tr&lt;RerP(&lt;/RerCp&gt;&lt;&lt;/Tr&gt;&lt;/Tr&gt;&lt;&lt;/Tr&gt;&lt;TrTrT&gt;&lt;/T&gt;&lt;/Tr&gt;&lt;/T&gt;&lt;/T&gt;&lt;/T&gt;&lt;/T&gt;&lt;T&gt;&lt;/T&gt;&lt;T&gt;&lt;Tr&lt;/T&gt;&lt;T&gt;&lt;T&gt;&lt;T&gt;&lt;/T&lt;R&lt;T&gt;&lt;/R&lt;T&gt;&lt;T&lt;T&gt;&lt;T&lt;/T&gt;R&lt;T&gt;&lt;/T&gt;&lt;R&lt;T&gt;&lt;/T&lt;T&gt;tr&gt;&lt;td&gt;标题&lt;/td&gt;td&gt;标题&lt;/td&gt;标签&lt;td&gt;&lt;td&gt;标题&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/td&gt;标签标题&lt;/td&gt;&lt;/td&gt;表。
+<table>
+    <tr>
+        <th>名称</th>
+        <th>标签</th>
+        <th>类型（长度）</th>
+        <th>枚举值</th>
+    </tr>
+    <tr>
+        <td>PKey</td>
+        <td>主资源ID</td>
+        <td>字符串 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>评论</td>
+        <td>引介评论</td>
+        <td>string(255)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>已创建</td>
+        <td>已创建</td>
+        <td>date </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>createdBy(userBase)</td>
+        <td>创建者</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>交付（交付）</td>
+        <td>交付</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>deliveryId</td>
+        <td>上次传送的ID</td>
+        <td>整数 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>desc</td>
+        <td>说明</td>
+        <td>string(512)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>电子邮件</td>
+        <td>电子邮件</td>
+        <td>string(128)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>externalId</td>
+        <td>外部ID</td>
+        <td>字符串(64)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>firstName</td>
+        <td>名字</td>
+        <td>字符串(30)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>forwardUrl</td>
+        <td>转发url</td>
+        <td>string(255)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>geoUnit(geoUnitBase)</td>
+        <td>地理单位</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>lastModified</td>
+        <td>上次修改时间</td>
+        <td>date </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>lastName</td>
+        <td>姓氏</td>
+        <td>字符串(50)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>modifiedBy(userBase)</td>
+        <td>修改者</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>orgUnit(orgUnitBase)</td>
+        <td>组织单位</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>来源</td>
+        <td>源</td>
+        <td>枚举（字节） </td>
+        <td>
+            <ul>
+            <li>未定义——未定义- 0</li>
+            <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>收件人（收件人）</td>
+        <td>已识别的配置文件</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>recipientId</td>
+        <td>个人资料ID</td>
+        <td>整数 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerEmail</td>
+        <td>反向链接电子邮件</td>
+        <td>string(128)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerFirstName</td>
+        <td>引用名</td>
+        <td>字符串(30)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerId</td>
+        <td>参照ID</td>
+        <td>整数 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerLastName</td>
+        <td>引用姓氏</td>
+        <td>字符串(50)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerRcp（收件人）</td>
+        <td>反向链接</td>
+        <td>链接 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>标题</td>
+        <td>标签</td>
+        <td>string(255)</td>
+        <td> </td>
+    </tr>
+</table>
 
 ## 滤镜
 
