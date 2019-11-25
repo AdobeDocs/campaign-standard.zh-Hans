@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
     <div>
     <strong>面向开发人员的资源</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
+    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 触发器</a></em></p>
     <br>
   </td>
