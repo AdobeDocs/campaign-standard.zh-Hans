@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
++ 使用API {#working-with-apis}
+   + 关于Campaign Standard API {#about-campaign-standard-apis}
+      + [概述](api/using/about-campaign-standard-apis.md)
+      + [为何使用Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [设置API访问](api/using/setting-up-api-access.md)
+   + 全局概念 {#global-concepts}
+      + [必读](api/using/must-read.md)
+      + [端点](api/using/endpoints.md)
+      + [元数据机制](api/using/metadata-mechanism.md)
+      + [动词](api/using/verbs.md)
+      + 其他操作 {#additional-operations}
+         + [排序](api/using/sorting.md)
+         + [筛选](api/using/filtering.md)
+         + [计数](api/using/counting.md)
+         + [分页](api/using/pagination.md)
+      + [自定义资源](api/using/custom-resources.md)
+   + [管理用户档案](api/using/managing-profiles.md)
+   + [管理服务和订阅](api/using/managing-services-and-subscriptions.md)
+   + [与营销历史互动](api/using/interacting-with-marketing-history.md)
+   + [隐私管理](api/using/privacy-management.md)
+   + [管理事务性消息](api/using/managing-transactional-messages.md)
+   + [管理工作流](api/using/managing-workflows.md)
+   + [管理组织单位](api/using/managing-organizational-units.md)
+   + [管理地理单位](api/using/managing-geographical-units.md)
+   + [故障排除](api/using/troubleshooting.md)
