@@ -1,0 +1,266 @@
+---
+title: 筛选
+description: 了解如何执行筛选操作。
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: campaign-standard-apis
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+
+---
+
+
+# 筛选 {#filtering}
+
+## 检索过滤器元数据
+
+过滤器可用于每个资源。 要标识与某个资源关联的筛选器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+
+要识别过滤器的元数据并确定如何使用该元数据，您必须对先前返回的URL执行GET请求。
+
+<br/>
+
+***示例请求***
+
+以下示例负载显示如何检索“配置文件”资源的“byText”过滤器元数据。 首先对“配置文件”资源元数据执行GET请求。
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+它返回描述过滤器的URL。
+
+```
+{
+"filters": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
+    }
+  }
+```
+
+对URL执行GET请求。 它返回配置文件资源的过滤器列表，每个过滤器都关联有元数据。
+
+```
+{
+"birthday": {
+        "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
+        "category": "0150_profile",
+        "condition": ...,
+        "data": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/birthday?type=$value&precision=$value&operator=$value&day=$value&month=$value&includeStart=$value&endDay=$value&endMonth=$value&includeEnd=$value&relativeValue=$value&nextUnitsValue=$value&previousUnitsValue=$value",
+        "formType": "webPage",
+        "fragmentName": "",
+        "label": "Birthday",
+}
+```
+
+## 过滤元数据结构
+
+每个过滤器都有相同的元数据结构：
+
+* @formType **** 和 **** @webPage字段是技术字段。
+* 数 **据字段** 提供了如何使用过滤器的示例。
+* 元数 **据节点** 描述过滤器参数。
+* 条 **件节点** ，描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个过滤器条件，如 **果enabled** If **为true** ，将应用expr。
+
+<br/>
+
+筛选元数据结构示例：
+
+```
+"byText": {
+        "PKey": "...",
+        "category": "99_none",
+        "condition": ...,
+        "data": "/profileAndServices/profile/byText?text=$value",
+        "formType": "none",
+        "fragmentName": "",
+        "label": "By name or email",
+    }
+```
+
+## 使用滤镜
+
+对以下请求执行过滤：
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
+
+可以在单个请求中组合多个过滤器：
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
+
+<br/>
+
+***示例请求***
+
+* 检索类型为“email”的“服务”资源的示例GET请求。
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+   响应请求。
+
+   ```
+   {
+       "content": [
+           {
+               "PKey": "<PKEY>",
+               "created": "2019-09-25 23:20:35.000Z",
+               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
+               "label": "Marketing Newsletter",
+               "lastModified": "2019-09-25 23:20:35.000Z",
+               "limitedDuration": false,
+               "messageType": "email",
+               "mode": "newsletter",
+               ...
+           },
+           ...
+       ],
+       ...
+   }
+   ```
+
+* 范例GET请求，用于检索电子邮件或姓氏字段中包含“Doe”的“配置文件”资源（byText过滤器会搜索电子邮件和姓氏字段）。
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+   响应请求。
+
+   ```
+   {
+       "content": [
+           {
+               "PKey": "<PKEY>",
+               "firstName": "John",
+               "lastName":"Doe",
+               "birthDate": "1980-10-24",
+               ...
+           }
+           ...
+       ],
+       ...
+   }
+   ```
+
+* 示例GET请求，用于检索服务资源，类型为“email”，标签为“sport”。
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+   响应请求。
+
+   ```
+   {
+       "content": [
+           {
+               "PKey": "<PKEY>",
+               "created": "2019-09-26 09:36:01.014Z",
+               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+               "label": "sport",
+               "lastModified": "2019-09-26 09:36:01.014Z",
+               "limitedDuration": false,
+               "messageType": "email",
+               "mode": "newsletter",
+               "name": "SVC13",
+               ...
+           }
+       ],
+       ...
+   }
+   ```
+
+## 自定滤镜
+
+如果要使用自定义筛选器，则必须在Adobe Campaign standard界面中创建和自定义该筛选器。 然后，自定义过滤器将具有与现成过滤器相同的行为：
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+有关详细信息，请参阅Campaign standard文档：
+
+* [配置筛选条件定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [用例：使用复合标识密钥调用资源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+
+<br/>
+
+***示例请求***
+
+检索事务处理金额为100美元或更高的“配置文件”资源的示例GET请求。 请注意，“byAmount”过滤器首先在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+<!--
+Response to the request.
+
+```
+
+{
+    "content": [
+        {
+            "PKey": "<PKEY>",
+            "builtIn": false,
+            "created": "2019-09-26 09:36:01.014Z",
+            "desc": "",
+            "end": "",
+            "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>",
+            ...
+        }
+    ],
+}
+
+```
+
+-->
+
+<!-- exemple à vérifier de bout en bout-->
+
+<!--+category = query editor
+privacy ?
+displayFOrmat ?
+pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType
+-->
+
+
+
+
+
+<!--
+ if link ou collection.* resName +
+* resTarget tout ca, ca va ensemble : le système de lien, resTarget va donner la ressource targetée par le lien. type
+resType = type technique (long..) resType = link alors unbound='false' ou 'true'
+If type = enumeration alors champ "values" rajouté et les valeurs sont dans values
+pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType
+ail faut que la valeur poster soit conforme ,elle doit valider la dataPolicy . La dataPolicy peut soit controler la valeur (email invalide), soit transformé (cas du smartCase par exemple)
+type dans les metadata = type de haut-niveau (nombre, text)
+-->
