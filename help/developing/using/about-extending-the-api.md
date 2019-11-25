@@ -1,18 +1,18 @@
 ---
 title: 关于扩展 API
-description: null
-page-status-flag: 从未激活
+description: 了解如何在公共Profiles API中为自定义资源配置文件公开扩展字段。
+page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开发
-content-type: 参考
-topic-tags: use-case-extending-the-api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相关主题：**
 
 * [关于自定义资源](../../developing/using/data-model-concepts.md)
-* [API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [API文档](../../api/using/about-campaign-standard-apis.md)
