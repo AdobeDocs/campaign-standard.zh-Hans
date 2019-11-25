@@ -1,18 +1,18 @@
 ---
 title: 使用外部参数调用工作流
 description: 本节详细介绍如何使用外部参数调用工作流。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -49,7 +49,7 @@ Campaign standard允许您调用包含参数（受众名称要定位、要导入
 
 ## 在调用工作流时定义参数 {#defining-the-parameters-when-calling-the-workflow}
 
-本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](../../api/using/managing-workflows.md)。
 
 在定义参数之前，请确保：
 
@@ -223,7 +223,7 @@ $(vars/@parameterName)
 
 ### 第1步：配置API调用 {#step-1--configuring-the-api-call}
 
-进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](../../api/using/managing-workflows.md)。
 
 在我们的例子中，我们希望使用以下参数调用工作流：
 
