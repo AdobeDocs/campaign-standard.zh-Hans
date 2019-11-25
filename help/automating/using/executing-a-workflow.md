@@ -1,19 +1,19 @@
 ---
 title: 执行工作流
 description: 了解如何执行和监控工作流。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: 工作流，概述；工作流，主
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 使用REST API，您可以启 **动**、暂 **停**、恢 **复和停** 止Rest工作流 **** 。
 
-您可以在 [API文档中找到更多详细信息和REST调用示例。](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+您可以在 [API文档中找到更多详细信息和REST调用示例。](../../api/using/managing-workflows.md)
 
 ## 生命周期 {#life-cycle}
 
