@@ -1,18 +1,18 @@
 ---
 title: 分段和定位
 description: “了解Campaign中的档案、定位和受众创建：利用Experience cloud解决方案构建受众、导入联系人共享受众，并避免营销疲劳。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign配置文件代表存储在数据库中的所有联系人。 每�
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign提出了各种档案获取机制：通过Adobe Campaign界面直接输入 [,](../../channels/using/about-landing-pages.md)通过 [Campaign API批量创建Adobe Campaign界面，在线收集数据](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)，手动或自动导入机制。
+Adobe Campaign提出了各种档案获取机制：通过Adobe Campaign界面直接输入 [,](../../channels/using/about-landing-pages.md)通过 [Campaign API批量创建Adobe Campaign界面，在线收集数据](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)，手动或自动导入机制。
 
 **相关主题：**
 
