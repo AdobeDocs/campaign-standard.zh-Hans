@@ -1,19 +1,19 @@
 ---
 title: 事件交易消息
 description: 了解如何创建和发布活动交易消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 事务消息传递
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
-context-tags: deliveryTransactionalTemplate，概述
+context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,7 +258,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 例如，可以使用按钮暂停发布 **[!UICONTROL Pause]** 事务性消息，以修改消息中包含的数据。 因此，不再处理这些事件，而是将其保留在Adobe Campaign数据库的队列中。
 
-在REST API中定义的时间段内(请参阅 [REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))或在使用触发器核心服务的触发器事件中(请参阅 [Campaign和Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))，将保留排队的事件。
+在REST API中定义的时间段内(请参阅 [REST API文档](../../api/using/about-campaign-standard-apis.md))或在使用触发器核心服务的触发器事件中(请参阅 [Campaign和Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))，将保留排队的事件。
 
 ![](assets/message-center_pause.png)
 
