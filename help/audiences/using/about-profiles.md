@@ -1,19 +1,19 @@
 ---
 title: 关于用户档案
 description: 联系人作为配置文件存储在Campaign数据库中，并在整个生命周期中进行更新。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理配置文件
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
-context-tags: 收件人，概述
+context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign可让您在整个生命周期中管理联系人：创建、导入
 
 >[!NOTE]
 >
->配置文件也可通过Adobe Campaign Standard API使用。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) 。
+>配置文件也可通过Adobe Campaign Standard API使用。 有关详细信息，请参阅专 [用文档](../../api/using/managing-profiles.md)。
 
 ![](assets/marketing_history.png)
 
