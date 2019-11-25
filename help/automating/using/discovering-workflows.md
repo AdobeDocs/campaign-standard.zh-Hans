@@ -1,18 +1,18 @@
 ---
 title: 了解工作流
 description: Adobe Campaign提供了一个全面的图形环境，使您能够设计和自动化流程。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign提供了一个全面 [的图形环境](../../automating/using/wor
 * 将数据导入Campaign数据库。 有关详细信息，请参阅导 [入和导出数据](../../automating/using/about-data-import-and-export.md)。
 * 诸如数据库清理、恢复跟踪信息等技术流程。 在本节中进一步了解技术工 [作流程](../../administration/using/technical-workflows.md)。
 
-工作流也可从Adobe Campaign Standard API访问。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows)。
+工作流也可从Adobe Campaign Standard API访问。 有关详细信息，请参阅专 [用文档](../../api/using/managing-workflows.md)。
 
 **相关主题：**
 
