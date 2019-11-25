@@ -1,18 +1,18 @@
 ---
 title: 发行说明 2018
 description: 本页列出了所有2018版Adobe Campaign Standard。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * 通过在定义营销活动属性时选择移动应用程序，定位特定移动应用程序上的用户。 此功能适用于推送和应用程序内消息传递渠道。
 
-   有关详细信息，请参阅详 [细文档](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
+    有关详细信息，请参阅详 [细文档](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
 * 使用Creative Designer界面选择内容块时，现在将加载并显示列表中的所有内容块。 (CAMP-27311)
 
@@ -157,7 +157,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 改进 {#improvements-2}
 
-* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与个人资料的营销历史记录相关的信息：接触点数、已发送的交付、镜像页面URL等。 有关详细信息，请参阅专 [用用例](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
+* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与个人资料的营销历史记录相关的信息：接触点数、已发送的交付、镜像页面URL等。 有关详细信息，请参阅专 [用用例](../../api/using/interacting-with-marketing-history.md) 。
 * 为了 **[!UICONTROL Database cleanup]** 确保数据库备份的更好性能，已优化了技术工作流程。
 * Creative Designer for email现在也提供法语和德语版。
 
@@ -217,7 +217,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 导出包含“冻结”数据的扩展广播：作为营销人员，我希望导出区段代码等于“A”的所有配置文件（来自工作流引擎）。 </li> 
      <li> 对“冻结”数据进行细分：作为营销人员，我希望重新定 <strong>位自上次发送</strong> 1000个忠诚度积分或区段代码等于“A”的所有档案。 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">细文档</a>。<br /> </td> 
+    </ul>  有关详细信息，请参阅详 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自定义配置文件数据进行动态报告<br /> </td> 
@@ -307,7 +307,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 访问权限：允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括Adobe Campaign中存储的数据。 </li> 
      <li> 删除权：使数据主体能够擦除由数据管理者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">细文档</a>。<br /> </td> 
+    </ul>  有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email（测试版）<br /> </td> 
@@ -321,7 +321,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 多语言推送交付<br /> </td> 
-   <td> 电子邮件和短信渠道中已经存在的同一简单多语言界面，现已添加到推送渠道中，无论客户喜欢使用何种语言，都能帮助您吸引客户。<br /> 此功能为管理跨多个区域的推送营销活动并希望以其首选语言定位用户的客户提供了可伸缩的自动解决方案。 它允许您通过模板化电子表格将所有语言变体上传到单个推送交付，只需单击一下即可。 然后，Adobe Campaign会根据用户的语言偏好执行自动细分，通过简化工作流和报告帮助减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
+   <td> 电子邮件和短信渠道中已经存在的同一简单多语言界面，现已添加到推送渠道中，无论客户喜欢使用何种语言，都能帮助您吸引客户。<br /> 此功能为管理跨多个区域的推送营销活动并希望以其首选语言定位用户的客户提供了可伸缩的自动解决方案。 它允许您通过一个模板电子表格将所有语言变体上载到单个推送交付，只需单击一下即可。 然后，Adobe Campaign会根据用户的语言偏好执行自动细分，通过简化工作流和报告帮助减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 自定义资源在事务性消息传递中的使用<br /> </td> 
@@ -329,7 +329,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 利用自定义字段作为协调标准，将交易消息与配置文件匹配 </li> 
      <li> 利用完整档案、服务和链接数据进一步个性化交易信息 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md">细文档</a>。<br /> </td> 
+    </ul>  有关详细信息，请参阅详 <a href="../../administration/using/configuring-transactional-messaging.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -479,7 +479,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> API信号活动触发<br /> </td> 
-   <td> 现在可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br /> 有关详细信息，请参阅详 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">细文档</a> 。<br /> </td> 
+   <td> 现在可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br /> 有关详细信息，请参阅详 <a class="anchorLink" href="../../api/using/managing-workflows.md">细文档</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -518,7 +518,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 #### 工作流 {#workflows-3}
 
 * 修复了在查询中使用其他数据并添加包含空格的别名时导致错误消息的问题。 非字母数字字符现在替换为“_”。
-* 修复了在某些情况下，技术工作流计算KPI时可能会默认停止的问题。
+* 修复了在某些情况下，计算KPI的技术工作流在默认情况下可能会停止的问题。
 
 #### 用户档案和受众 {#profiles-and-audiences}
 
