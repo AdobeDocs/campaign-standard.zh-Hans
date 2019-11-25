@@ -1,18 +1,18 @@
 ---
 title: 关于订阅
-description: null
-page-status-flag: 从未激活
-uuid: b0263e40-f910-49f2-a138-0a1302aeec6
-contentOwner: 绍维亚
+description: 了解有关Campaign standard中的服务和订阅的更多信息。
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理订阅
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign允许您通过一组服务创建和管理新闻稿和跨渠道通
 * 订阅和／或取消订阅 **确认机制**。
 * 订阅历 **史记录**。
 
-还可以使用Adobe Campaign Standard API管理订阅。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) 。
+还可以使用Adobe Campaign Standard API管理订阅。 有关详细信息，请参阅专 [用文档](../../api/using/managing-services-and-subscriptions.md) 。
