@@ -2,7 +2,7 @@
 title: 使用复合标识关键码调用资源
 description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * [创建或扩展资源](../../developing/using/creating-or-extending-the-resource.md)
 * [定义标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST API](../../api/using/about-campaign-standard-apis.md)
 
 ## 第1步：配置标识密钥{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-有关详细信息，请参 [阅Campaign Standard REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
+有关详细信息，请参 [阅Campaign Standard REST API文档](../../api/using/filtering.md)。
