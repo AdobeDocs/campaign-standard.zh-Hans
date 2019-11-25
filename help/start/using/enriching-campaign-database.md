@@ -1,18 +1,18 @@
 ---
 title: 丰富数据库
 description: 了解丰富数据库的各种方法。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 勒梅特
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ Campaign standard与Microsoft Dynamics 365集成后，您可以将联系人数�
 
 Campaign Standard API允许您执行更新数据库的操作，如配置文件或服务的创建、更新或删除。
 
-有关如何使用API的详细信息，请参阅专 [用文档](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+有关如何使用API的详细信息，请参阅专 [用文档](../../api/using/about-campaign-standard-apis.md)。
 
 >[!CAUTION]
 >
