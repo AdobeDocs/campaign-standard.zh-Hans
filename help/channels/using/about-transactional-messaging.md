@@ -1,18 +1,18 @@
 ---
 title: 关于交易消息传递
 description: 了解您可以发送的不同类型的事务性消息以及它们在Adobe Campaign中的使用方式。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 事务消息传递
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign中提供两种类型的交易消息：
 >
 >Adobe Campaign优先处理事务性消息，而不是处理任何其他交付。
 
-Adobe Campaign Standard API也提供交易消息传递。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
+Adobe Campaign Standard API也提供交易消息传递。 有关详细信息，请参阅专 [用文档](../../api/using/managing-transactional-messages.md)。
 
 ## 交易消息传递操作原则 {#transactional-messaging-operating-principle}
 
