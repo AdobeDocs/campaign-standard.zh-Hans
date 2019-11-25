@@ -1,18 +1,18 @@
 ---
 title: 编辑用户档案
 description: 了解如何编辑现有配置文件和访问联系信息、首选渠道、跟踪日志、订阅等。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理配置文件
-discoiquuid: 8d3ba7bf-90ae-4c6d-aeb-a48572a69f2f
+content-type: reference
+topic-tags: managing-profiles
+discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >您只能修改选项卡中的信 **[!UICONTROL General]** 息——但部分除外 **[!UICONTROL Traceability]** 。
 
-使用Adobe Campaign Standard API也可以编辑配置文件。 有关详细信息，请参阅专 [用文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) 。
+使用Adobe Campaign Standard API也可以编辑配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/managing-profiles.md) 。
 
 相关主题：
 
