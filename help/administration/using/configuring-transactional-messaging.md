@@ -1,18 +1,18 @@
 ---
 title: 配置交易消息传递
 description: 了解如何配置交易消息传递。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 配置渠道
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d765fbc
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
+discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -184,7 +184,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在“交易消息传递操作原则 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ”部分中描述的示例中，您希望在客户之一离开您的网站后，在购买其购物车中的产品之前，触发“购物车放弃”事件。 为此，您的网站Web开发人员必须使用Adobe Campaign Standard REST API。
 
-请参阅 [REST API文档](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
+请参阅 [REST API文档](../../api/using/managing-transactional-messages.md) 。
 
 ## 事务性事件特定配置 {#transactional-event-specific-configurations}
 
@@ -224,7 +224,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    预览活动时，REST API不包含指定从资源检索电子邮件地址或手机的属 **[!UICONTROL Profile]** 性。
 
-   发布活动后，将自动创建链接到新活动的交易消息。 要使事件触发发送交易消息，您必须修改并发布刚刚创建的消息，请参阅发送 [个人资料交易消息](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)。
+   发布活动后，将自动创建链接到新活动的交易消息。 要使事件触发发送交易消息，您必须修改并发布刚刚创建的消息，请参阅发 [送配置文件交易消息](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)。
 
 1. 将事件集成到您的网站中(请参 [阅将事件的触发集成到网站](#integrating-the-triggering-of-the-event-in-a-website))。
 
