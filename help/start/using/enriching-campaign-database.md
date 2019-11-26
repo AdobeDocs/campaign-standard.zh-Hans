@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Campaign standard提供了多种工具，帮助您扩展营销数据库。 本�
 * 将每个输入字段与数据库中的相应字段进行映射。
 * 通过网站或消息的直接链接在线提供登录页面。
 
-有关登录页面的更多信息，请参阅专 [用文档](../../channels/using/about-landing-pages.md)。
+有关登录页面的更多信息，请参阅专 [用文档](../../channels/using/getting-started-with-landing-pages.md)。
 
 ## 从Microsoft Dynamics同步配置文件365
 
