@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [交易推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
    + 登陆页面 {#landing-pages}
-      + [关于登陆页面](channels/using/about-landing-pages.md)
-      + [设置登陆页面的主要步骤](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [关于登陆页面](channels/using/getting-started-with-landing-pages.md)
+      + [设置登陆页面的主要步骤](channels/using/getting-started-with-landing-pages.md)
       + [关于登陆页面模板](channels/using/landing-page-templates.md)
+      + [配置登陆页面](channels/using/configuring-landing-page.md)
       + [设计登陆页面](channels/using/designing-a-landing-page.md)
       + [管理登陆页面表单数据](channels/using/managing-landing-page-form-data.md)
-      + [共享登陆页面](channels/using/sharing-a-landing-page.md)
+      + [测试和发布登录页面](channels/using/testing-publishing-landing-page.md)
       + [设置双重选择启用流程](channels/using/setting-up-a-double-opt-in-process.md)
 + 设计电子邮件内容 {#designing-content}
    + [Campaign 电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)
