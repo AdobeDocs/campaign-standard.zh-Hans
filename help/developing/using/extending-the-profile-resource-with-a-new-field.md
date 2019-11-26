@@ -1,18 +1,18 @@
 ---
 title: 使用新字段扩展用户档案资源
 description: 了解如何扩展配置文件资源。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开发
-content-type: 参考
-topic-tags: use-cases-extending-resources
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 第4步：使用工作流更新和定位配置文件 {#step-4--update-and-target-profiles-with-a-workflow}
 
-要使用新自定义字段的数据更新配置文件，您可以使用模板创建登陆 **[!UICONTROL Profile acquisition]** 页面。 有关登录页面的详细信息，请参阅此 [页面](../../channels/using/about-landing-pages.md)。
+要使用新自定义字段的数据更新配置文件，您可以使用模板创建登陆 **[!UICONTROL Profile acquisition]** 页面。 有关登录页面的详细信息，请参阅此 [页面](../../channels/using/getting-started-with-landing-pages.md)。
 
 此处，我们希望定位未填写此字段的工作流配置文件。 他们将收到一封电子邮件，要求他们更新个人资料以接收个性化的新闻稿和优惠信息。 然后，每个档案都将根据其选择的兴趣收到个性化的新闻稿。
 
