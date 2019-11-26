@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -24,7 +24,7 @@ L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 * **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 请查阅重新组织的电子邮件设计工具文档。
 
-* **[登陆页面](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[登陆页面](channels/using/getting-started-with-landing-pages.md)**<br/>
 了解有关如何设置登陆页面的更多信息。
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
