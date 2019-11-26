@@ -1,18 +1,18 @@
 ---
 title: 导入数据
 description: 了解如何使用工作流导入数据。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -89,6 +89,26 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 * **按顺序导入相关文件**。 如果导入由多个相互依赖的文件组成，则工作流应确保以正确的顺序导入文件。 当文件失败时，不导入其他文件。
 * **在导入数据时**，可以消除重复项、协调并保持一致性。
 
+## 管理加密数据 {#managing-encrypted-data}
+
+在某些情况下，您要导入营销活动服务器的数据可能需要加密，例如，如果它包含PII数据。
+
+要能够导入或导出加密文件，您首先需要联系Adobe客户服务中心，以便他们为您的实例提供所需的加密／解密命令。
+
+为此，请提交一个请求，指明：
+
+* 将 **在** Campaign界面中显示的标签以使用该命令。 例如“加密文件”。
+* 要在 **实例上安** 装的命令。
+例如，要使用PGP解密文件，该命令将为：
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+一旦请求得到处理，加密／解密命令就会在和活动 **!UICONTROL Pre-processing stage]** 的字段中 **[!UICONTROL Data loading (file)]** 可用 **[!UICONTROL Extracting data (file)]** 。 您可以使用它们解密或加密要导入或导出的文件。
+
+![](assets/preprocessing-encryption.png)
+
 ## 示例：导入工作流模板 {#example--import-workflow-template}
 
 如果需要定期导入具有相同结构的文件，则使用导入模板是最佳做法。
@@ -112,7 +132,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 1. 配置活 **[!UICONTROL Load file]** 动：
 
-   * 通过上传示例文件来定义期望的结构。 示例文件应仅包含几行，但包含导入所需的所有列。 检查并编辑文件格式，确保正确设置每列的类型：文本、日期、整数等。 例如：
+   * 通过上传示例文件来定义期望的结构。 示例文件应仅包含几行，但包含导入所需的所有列。 检查并编辑文件格式，确保正确设置每列的类型：文本、日期、整数等。例如：
 
       ```
       lastname;firstname;birthdate;email;crmID
@@ -197,4 +217,3 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 该模板现在可以使用，并且可用于每个新工作流。 然后，需要全部指定包含要在活动中导入的数据的文 **[!UICONTROL Load file]** 件。
 
 ![](assets/import_template_example9.png)
-
