@@ -1,18 +1,18 @@
 ---
 title: 设置双重选择启用流程
 description: 按照以下步骤，使用Adobe Campaign中的登录页面设置双重选择加入流程。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 登陆页面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要创建并配置此登录页面，您需要：
 
-1. 根据模 [板设计新的登录](../../channels/using/about-landing-pages.md) 页 **[!UICONTROL Profile acquisition (acquisition)]** 面。 输入标签“**CONFIRMATION**”。
+1. 根据模 [板设计新的登录](../../channels/using/getting-started-with-landing-pages.md) 页 **[!UICONTROL Profile acquisition (acquisition)]** 面。 输入标签“**CONFIRMATION**”。
 
    如果需要使用 [服务](../../audiences/using/about-subscriptions.md)，您还可以使用模 **[!UICONTROL Subscription (sub)]** 板。
 
@@ -67,7 +67,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [测试并发布登陆页](../../channels/using/sharing-a-landing-page.md) 。
+1. [测试并发布登陆页](../../channels/using/testing-publishing-landing-page.md) 。
 
 ## 第2步：创建确认电子邮件 {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要创建并配置此登录页面，您需要：
 
-1. 根据模 [板设计新的登录](../../channels/using/about-landing-pages.md) 页 **[!UICONTROL Profile acquisition (acquisition)]** 面。 输入标签“**ACQUISITION**”。
+1. 根据模 [板设计新的登录](../../channels/using/getting-started-with-landing-pages.md) 页 **[!UICONTROL Profile acquisition (acquisition)]** 面。 输入标签“**ACQUISITION**”。
 1. 编辑登陆页面属性：在 **[!UICONTROL Job]** &gt;部 **[!UICONTROL Additional data]** 分中，单击并 **[!UICONTROL Add an element]** 输入以下上下文路径：
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [测试并发布登陆页](../../channels/using/sharing-a-landing-page.md) 。
+1. [测试并发布登陆页](../../channels/using/testing-publishing-landing-page.md) 。
 
 现在配置了双选入机制。 您可以从此登录页面的公共URL开始，从头到尾运行并测 **[!UICONTROL ACQUISITION]** 试过程。 此URL显示在登陆页面功能板中。
