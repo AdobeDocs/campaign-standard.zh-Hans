@@ -1,18 +1,18 @@
 ---
 title: '使用现有内容设计电子邮件 '
 description: 了解如何使用电子邮件设计器中的现有内容电子邮件内容设计电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 **相关主题：**
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [管理登陆页面](../../channels/using/about-landing-pages.md)
+* [管理登陆页面](../../channels/using/getting-started-with-landing-pages.md)
 
 ## 使用电子邮件设计器编辑现有内容{#editing-existing-contents-with-the-email-designer}
 
