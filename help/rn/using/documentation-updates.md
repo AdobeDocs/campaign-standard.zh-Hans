@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 新增了一个用例，用于说明如何使用Campaign standard中的工作流构建控制组。 阅[读更多](../../automating/using/workflow-control-group.md)
 
+与登录页面属性相关的信息已移至专用部分。 [阅读更多](../../channels/using/configuring-landing-page.md)
+
+控制面板文档已集成到新的协作文档集中。 [阅读更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+指示器 **计算表** (Indicator calculation table has been updated)。 [阅读更多](../../reporting/using/indicator-calculation.md)
+
 API文档集已集成到Campaign standard文档中。[阅读更多](../../api/using/about-campaign-standard-apis.md)
+
+已移动并更新创建个性化电子邮件入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## 19.4版- 2019年10月 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 添加了表示事务消息发布过程的新图表。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+已移动并更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 已添加新部分。 它提供了不同方法的概述，这些方法允许您丰富Campaign standard数据库。 [阅读更多](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 “交易消息”部分已用最新的UI更新进行了修改，包括使用电子邮件设计器编辑内容。 [阅读更多](../../channels/using/event-transactional-messages.md)
 
-登录页面章节已重新组织。 此外，还新增了一个部分，详细介绍了设置登录页面的步骤。 [阅读更多](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+登录页面章节已重新组织。 此外，还新增了一个部分，详细介绍了设置登录页面的步骤。 [阅读更多](../../channels/using/getting-started-with-landing-pages.md)
 
 Audience Manager集成页面已更新以反映 **Declared ID的更改** 。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ## 文档更新- 2019年7月 {#doc-updates-2019}
 
-在登录页面限制上添加了新页面。 [阅读更多](../../channels/using/about-landing-pages.md#landing-page-limitations)
+在登录页面限制上添加了新页面。 [阅读更多](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 在如何使用组合标识密钥调用配置文件方面添加了一个用例。 [阅读更多](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 工作流增强——向外部信号活动添加有效负荷——阅 [读更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-登录页面增强-Google reCAPTCHA —— 阅 [读更多](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+登录页面增强-Google reCAPTCHA —— 阅 [读更多](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release}
 
