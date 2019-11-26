@@ -1,19 +1,19 @@
 ---
 title: 创建服务
 description: 了解如何创建您的第一项服务并对其进行配置，以向订阅者发送电子邮件确认。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理订阅
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: 服务，向导；服务，主
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [管理服务和订阅视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [推广服务](../../audiences/using/promoting-a-service.md)
 * [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [将表单链接到登录页面中的服务](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
