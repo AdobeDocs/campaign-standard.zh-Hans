@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
   </tr> 
   <tr> 
    <td> 登录页面增强- Google reCAPTCHA<br /> </td> 
-   <td> <p>利用Google reCAPTCHA防止登录页面上的垃圾邮件，无需客户采取任何操作。</p><p> 有关详细信息，请参阅详 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">细文档</a>。</p></td> 
+   <td> <p>利用Google reCAPTCHA防止登录页面上的垃圾邮件，无需客户采取任何操作。</p><p> 有关详细信息，请参阅详 <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">细文档</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
