@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 要在Campaign中创建或更新配置文件，您可以：
 
 * 通过工作流从文件导入配置文件列 [表](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* 通过登陆页面在线收 [集数据](../../channels/using/about-landing-pages.md)
+* 通过登陆页面在线收 [集数据](../../channels/using/getting-started-with-landing-pages.md)
 * 通过 [REST API批量创建](../../api/using/about-campaign-standard-apis.md)
 * 从 [Microsoft Dynamics同步配置文件](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 使用图形界面屏幕输入数据，如下所述
@@ -67,6 +67,6 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 **相关主题：**
 
-* [关于登陆页面](../../channels/using/about-landing-pages.md) ，分步指南
+* [关于登陆页面](../../channels/using/getting-started-with-landing-pages.md) ，分步指南
 * [导入配置文件](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
