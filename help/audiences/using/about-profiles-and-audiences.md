@@ -1,18 +1,18 @@
 ---
 title: 关于用户档案和受众
 description: “了解Adobe Campaign中的档案和受众管理：定义目标人群、选择受众、筛选收件人、收集数据和更新配置文件。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
+content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign可实时构建丰富的客户档案，让您能够随客户偏好
 
    使用工作流和查询编辑器，您可以根据您对营销活动的信息、活动及其营销历史记录，构建受众，这些受众将被您的营销活动定位。 这允许您按不限数量的标准筛选订阅的配置文件、样本或创建目标受众。
 
-在开始向联系人发送消息之前，您需要确保获得其许可。 否则，您的电子邮件可能会标记为垃圾邮件，这将影响您的平台交付能力。 要确保构建健康的配置文件数据库，请首先保护此权限。 通过Campaign，我们建议您通过服务和登录页面使用简单的加入和退出 [机制](../../audiences/using/creating-a-service.md)，以 [](../../channels/using/about-landing-pages.md) 更新您的联系信息并扩展数据库。
+在开始向联系人发送消息之前，您需要确保获得其许可。 否则，您的电子邮件可能会标记为垃圾邮件，这将影响您的平台交付能力。 要确保构建健康的配置文件数据库，请首先保护此权限。 通过Campaign，我们建议您通过服务和登录页面使用简单的加入和退出 [机制](../../audiences/using/creating-a-service.md)，以 [](../../channels/using/getting-started-with-landing-pages.md) 更新您的联系信息并扩展数据库。
 
 在消息中提供取消订阅链接将使配置文件在必要时被列入黑名单，从而提高平台交付能力。 有关黑名单的详细信息，请 [参阅关于营销活动中的选择加入和选择退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
