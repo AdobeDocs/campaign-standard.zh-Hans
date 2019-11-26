@@ -1,19 +1,19 @@
 ---
 title: 营销活动
 description: “了解如何创建和管理您的营销活动：营销活动、电子邮件、短信和推送通知发送、登录页面、工作流。 您可以轻松地设计新活动、编辑现有活动并查阅其状态和有效性。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
-topic-tags: 营销计划
+audience: start
+content-type: reference
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: 活动，概述
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [创建InApp消息](../../channels/using/about-in-app-messaging.md)
 * [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [创建登陆页面](../../channels/using/about-landing-pages.md)
+* [创建登陆页面](../../channels/using/getting-started-with-landing-pages.md)
 * [创建营销活动](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [创建程序](../../start/using/programs-and-campaigns.md#creating-a-program)
 
