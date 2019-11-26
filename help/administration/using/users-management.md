@@ -1,18 +1,18 @@
 ---
 title: 用户管理
 description: 'Adobe Campaign用户具有特定角色。 发现主要用户类型。 '
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 用户和安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 * [管理计划和营销活动](../../start/using/programs-and-campaigns.md):创建包括不同类型的活动（电子邮件、短信、推送通知、工作流、登录页面）的营销活动。
 * 管理配 [置文件](../../audiences/using/about-profiles.md) 和测 [试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md):管理由您的分发定向的已识别和测试收件人。 添加名字、姓、联系信息、订阅、电子邮件等信息。
 * [创建和发送消息](../../sending/using/confirming-the-send.md):创建您的信息，选择受众，定义消息内容及其个性化元素，发送校样并向受众发送最终消息。
-* [创建和发布登陆页面](../../channels/using/about-landing-pages.md):创建并管理您希望为客户提供的一组服务，例如订阅或取消订阅表单。
+* [创建和发布登陆页面](../../channels/using/getting-started-with-landing-pages.md):创建并管理您希望为客户提供的一组服务，例如订阅或取消订阅表单。
 * [创建和执行营销活动工作流](../../automating/using/building-a-workflow.md):使用工作流程实现营销活动流程自动化。
 * 通过可用报告监控您的 [营销活动](../../reporting/using/defining-the-report-period.md)。
 
