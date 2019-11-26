@@ -1,18 +1,18 @@
 ---
 title: 确认订阅服务
 description: 请按照以下步骤为订阅Adobe Campaign中服务的配置文件设置确认消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理订阅
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要创建和配置此登录页面，请执行以下步骤：
 
-1. 根据模 [板设计新的登录](../../channels/using/about-landing-pages.md) 页 **[!UICONTROL Subscription]** 面。
+1. 根据模 [板设计新的登录](../../channels/using/getting-started-with-landing-pages.md) 页 **[!UICONTROL Subscription]** 面。
 1. 编辑登陆页面属性。 在 **[!UICONTROL Job]** &gt;部 **[!UICONTROL Specific actions]** 分，选择 **[!UICONTROL Specific service]** 选项，然后从下拉列表中选择刚刚创建的服务。
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 自定义登录页面的内容。
 
-1. [测试并发布登陆页](../../channels/using/sharing-a-landing-page.md) 。
+1. [测试并发布登陆页](../../channels/using/testing-publishing-landing-page.md) 。
 
 现在，每当配置文件通过提交登陆页面订阅您的新闻稿时，他都会收到您通过映射到服务的个性化字段定义的确认消息。
 
