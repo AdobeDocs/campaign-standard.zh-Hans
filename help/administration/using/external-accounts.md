@@ -1,19 +1,19 @@
 ---
 title: 外部帐户
 description: 配置外部帐户以设置与外部系统（如SFTP服务器）的连接。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
-context-tags: extAccount,main;extAccount，概述
+context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -134,7 +134,7 @@ Amazon S3服务器字段应填写如下：
 
 Google reCAPTCHA机制允许您保护登录页面免受由机器人程序引起的垃圾邮件和滥用。 这对于您的客户来说是非侵入式的，因为它不需要客户进行任何交互，并且基于与您网站的交互。 要注册您的站点，请参阅本 [页](https://www.google.com/recaptcha/admin/create)。 您需要选择V3 reCAPTCHA类型。
 
-要将Google reCAPTCHA V3添加到登录页面，您首先需要在外部帐户中配置它。 有关如何将其添加到登录页面的详细信息，请参阅此 [部分](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)。
+要将Google reCAPTCHA V3添加到登录页面，您首先需要在外部帐户中配置它。 有关如何将其添加到登录页面的详细信息，请参阅此 [部分](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 对于Google reCAPTCHA V3外部帐户，请提供以下详细信息：
 
@@ -146,4 +146,3 @@ Google reCAPTCHA机制允许您保护登录页面免受由机器人程序引起�
    0.0值表 **[!UICONTROL Threshold]** 示它可能是一个机器人，1.0可能是一个良好的交互。 默认情况下，可以使用0.5的阈值。
 
 ![](assets/external_accounts_3.png)
-
