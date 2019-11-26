@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign配置文件代表存储在数据库中的所有联系人。 每�
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign提出了各种档案获取机制：通过Adobe Campaign界面直接输入 [,](../../channels/using/about-landing-pages.md)通过 [Campaign API批量创建Adobe Campaign界面，在线收集数据](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)，手动或自动导入机制。
+Adobe Campaign提出了各种档案获取机制：通过Adobe Campaign界面直接输入 [,](../../channels/using/getting-started-with-landing-pages.md)通过 [Campaign API批量创建Adobe Campaign界面，在线收集数据](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)，手动或自动导入机制。
 
 **相关主题：**
 
