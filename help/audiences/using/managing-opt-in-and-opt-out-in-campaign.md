@@ -1,18 +1,18 @@
 ---
 title: 管理 Campaign 中的选择启用和选择禁用
 description: 了解如何在Adobe Campaign中管理选择加入和选择退出。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 了解——选择加入——选择退出流程
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->登录页面还可用于启用服务订阅。 有关详细信息，请参见[此页面](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)。
+>登录页面还可用于启用服务订阅。 有关详细信息，请参见[此页面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
 
-1. 创建登 **[!UICONTROL Profile acquisition]** 陆页面(请参 [阅此部分](../../channels/using/about-landing-pages.md))。
+1. 创建登 **[!UICONTROL Profile acquisition]** 陆页面(请参 [阅此部分](../../channels/using/getting-started-with-landing-pages.md))。
 1. 在每个所需渠道的登录页面内容中添加一个复选框，然后将其链接到Campaign数据库中的相应字段。
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 设置登录页面以退出所有交付 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-要允许用户从所有分发中选择退出，您必须创建并发布登 **[!UICONTROL BlackList]** 录页面。 有关创建登陆页面的详细信息，请参 [阅此页](../../channels/using/about-landing-pages.md)。
+要允许用户从所有分发中选择退出，您必须创建并发布登 **[!UICONTROL BlackList]** 录页面。 有关创建登陆页面的详细信息，请参 [阅此页](../../channels/using/getting-started-with-landing-pages.md)。
 
 用户单击登陆页面链接后，将自 **[!UICONTROL No longer contact (by any channel)]** 动选择配置文件中的选项。
 
