@@ -1,19 +1,19 @@
 ---
 title: 管理登陆页面表单数据
 description: 了解如何管理登录页面表单数据。
-page-status-flag: 从未激活
-uuid: 5b22ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: 勒梅特
+page-status-flag: never-activated
+uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 登陆页面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >[!NOTE]
 >
 >内置登录页面的默认字段已预配置。 您可以根据需要修改它们。
-
-## 将表单链接到服务 {#linking-a-form-to-a-service}
-
-您可以将表单链接到服务，以便配置文件在验证登陆页面时可以订阅特定服务。
-
-通过用于链接登陆页面的参数，您可以指定执行的操作类型以及登陆页面是专门链接到单个服务还是通用。
-
-要选择要链接的服务，您需要：
-
-1. 编辑通过登陆页面功能板中的图 ![](assets/edit_darkgrey-24px.png) 标访问的登陆页面属性，并显示参 **[!UICONTROL Job]** 数。
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. 在下 **[!UICONTROL Subscription]** 拉列 **[!UICONTROL Specific actions]** 表中选择。
-
-   ![](assets/lp_parameters_5.png)
-
-1. 选择 **[!UICONTROL Specific service]** 以将登陆页面链接到单个服务。 如果要对登录页面使用多项服务，请勿选择此选项。
-
-   使用 **[!UICONTROL Specified service in the URL]** 此选项可允许登录页面用于多项服务。 因此，在配置服务时必须引用登陆页面。
 
 ## 数据存储与协调{#data-storage-and-reconciliation}
 
