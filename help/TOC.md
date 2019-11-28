@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
 
 ---
 
@@ -108,8 +108,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
       + [交易推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
    + 登陆页面 {#landing-pages}
-      + [关于登陆页面](channels/using/getting-started-with-landing-pages.md)
-      + [设置登陆页面的主要步骤](channels/using/getting-started-with-landing-pages.md)
+      + [登陆页面快速入门](channels/using/getting-started-with-landing-pages.md)
       + [关于登陆页面模板](channels/using/landing-page-templates.md)
       + [配置登陆页面](channels/using/configuring-landing-page.md)
       + [设计登陆页面](channels/using/designing-a-landing-page.md)
