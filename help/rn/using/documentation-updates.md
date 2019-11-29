@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ API文档集已集成到Campaign standard文档中。[阅读更多](../../api/us
 已移动并更新创建个性化电子邮件入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+数据模型已集成到Campaign standard文档中。 [阅读更多](../../developing/using/datamodel-audience.md)
+
+新的API endpoint **/customResources** 已添加到API文档中。[阅读更多](../../api/using/interacting-with-custom-resources.md)
 
 ## 19.4版- 2019年10月 {#release-19-4---october-2019}
 
