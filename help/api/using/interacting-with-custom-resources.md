@@ -12,13 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 206bb19acfd4c1bcbc7e8839cdf2d13a6279642f
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
 
 # 与自定义资源交互 {#interacting-with-custom-resources}
-
 
 通过 **/customResources端点** ，您可以在REST中显示ACS自定义实体。 基于此API，可在自定义实体和外部端点之间集成。
 
