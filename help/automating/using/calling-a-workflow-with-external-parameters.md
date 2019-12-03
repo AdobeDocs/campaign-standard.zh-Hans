@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ Campaign standard允许您调用包含参数（受众名称要定位、要导入
 
 ## 在调用工作流时定义参数 {#defining-the-parameters-when-calling-the-workflow}
 
-本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](../../api/using/managing-workflows.md)。
+本节详细介绍了在调用工作流时如何定义参数。 有关如何通过API调用执行此操作的详细信息，请参阅 [REST API文档](../../api/using/triggering-a-signal-activity.md)。
 
 在定义参数之前，请确保：
 
@@ -223,7 +223,7 @@ $(vars/@parameterName)
 
 ### 第1步：配置API调用 {#step-1--configuring-the-api-call}
 
-进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](../../api/using/managing-workflows.md)。
+进行API调用以触发包含参数的Workflow 1。 有关API调用语法的详细信息，请参阅 [Campaign Standard REST API文档](../../api/using/triggering-a-signal-activity.md)。
 
 在我们的例子中，我们希望使用以下参数调用工作流：
 
