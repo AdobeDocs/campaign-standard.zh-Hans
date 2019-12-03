@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 该活 **[!UICONTROL External signal]** 动用于组织和编排不同的流程，这些流程是进入不同工作流的同一客户旅程的一部分。 它允许从另一个工作流开始一个工作流，支持更复杂的客户旅程，同时能够更好地监控和应对问题。
 
-该 **[!UICONTROL External signal]** 活动设计为作为工作流的第一个活动。 它可以从其他工作流 **[!UICONTROL End]** 的活动或REST API调用中触发(有关详细信息，请参阅 [API文档](../../api/using/managing-workflows.md))。
+该 **[!UICONTROL External signal]** 活动设计为作为工作流的第一个活动。 它可以从其他工作流 **[!UICONTROL End]** 的活动或REST API调用中触发(有关详细信息，请参阅 [API文档](../../api/using/triggering-a-signal-activity.md))。
 
 触发后，可以定义外部参数，并在工作流事件变量中可用。 使用外部参数调用工作流的过程在本节中有 [详细介绍](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
@@ -56,7 +56,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
    >[!NOTE]
    >
-   >如果要从其他工作流触发目标工作流，请继续执行以下步骤。 如果要通过REST API调用触发目标工作流，请查阅 [API文档](../../api/using/managing-workflows.md) ，以获取更多详细信息。
+   >如果要从其他工作流触发目标工作流，请继续执行以下步骤。 如果要通过REST API调用触发目标工作流，请查阅 [API文档](../../api/using/triggering-a-signal-activity.md) ，以获取更多详细信息。
 
 1. 打开源工作流并选择一个 **[!UICONTROL End]** 活动。 如果没有可用 **[!UICONTROL End]** 的活动，请在工作流分支的最后一个活动之后添加一个活动。
 
