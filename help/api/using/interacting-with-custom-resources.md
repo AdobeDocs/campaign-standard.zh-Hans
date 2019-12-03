@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -46,4 +46,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >隐私API端点和工作流(/privacy/privacyTool)不管理未链接到配置文件实体的自定义资源。
->您有责任管理和清理这些自定义资源的任何PII。 有关隐私工具的详细信息，请单 [击此处](../../api/using/privacy-management.md)。
+>您有责任管理和清理这些自定义资源的任何PII。 有关隐私工具的详细信息，请单 [击此处](../../api/using/creating-a-privacy-request.md)。
+
