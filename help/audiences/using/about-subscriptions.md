@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign允许您通过一组服务创建和管理新闻稿和跨渠道通
 * 订阅和／或取消订阅 **确认机制**。
 * 订阅历 **史记录**。
 
-还可以使用Adobe Campaign Standard API管理订阅。 有关详细信息，请参阅专 [用文档](../../api/using/managing-services-and-subscriptions.md) 。
+还可以使用Adobe Campaign Standard API管理订阅。 有关详细信息，请参阅专 [用文档](../../api/using/creating-a-service.md) 。
