@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [管理测试用户档案和发送校样](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
-   + 计划消息 {#scheduling-messages}
+   + 计划消息发送 {#scheduling-messages}
       + [关于计划消息发送](sending/using/about-scheduling-messages.md)
       + [优化发送时间](sending/using/optimizing-the-sending-time.md)
       + [按收件人的时区发送消息](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
@@ -276,7 +276,7 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [创建每周投放](automating/using/workflow-weekly-offer.md)
       + [创建位置分段](automating/using/workflow-segmentation-location.md)
       + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
-      + [构建控制组](automating/using/workflow-control-group.md)
+      + [构建对照组](automating/using/workflow-control-group.md)
 + 开发 {#developing}
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
@@ -302,16 +302,16 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
    + 数据模型 {#datamodel}
       + [受众](developing/using/datamodel-audience.md)
       + [营销活动](developing/using/datamodel-campaign.md)
-      + [交付](developing/using/datamodel-delivery.md)
-      + [登录页面](developing/using/datamodel-landingpage.md)
+      + [投放](developing/using/datamodel-delivery.md)
+      + [登陆页面](developing/using/datamodel-landingpage.md)
       + [营销历史](developing/using/datamodel-history.md)
-      + [个人资料](developing/using/datamodel-profile.md)
-      + [计划](developing/using/datamodel-program.md)
+      + [用户档案](developing/using/datamodel-profile.md)
+      + [项目](developing/using/datamodel-program.md)
       + [种子成员](developing/using/datamodel-seed.md)
       + [服务](developing/using/datamodel-service.md)
-      + [订阅活动](developing/using/datamodel-subscription.md)
+      + [订阅事件](developing/using/datamodel-subscription.md)
       + [跟踪日志](developing/using/datamodel-tracking.md)
-      + [取消订阅活动](developing/using/datamodel-unsubscription.md)
+      + [退订事件](developing/using/datamodel-unsubscription.md)
       + [访客](developing/using/datamodel-visitor.md)
 + 管理 {#administrating}
    + [关于管理 Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
@@ -343,11 +343,11 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
-+ 使用API {#working-with-apis}
-   + 关于Campaign Standard API {#about-campaign-standard-apis}
++ 使用 API {#working-with-apis}
+   + 关于 Campaign Standard API {#about-campaign-standard-apis}
       + [概述](api/using/about-campaign-standard-apis.md)
-      + [为何使用Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
-      + [设置API访问](api/using/setting-up-api-access.md)
+      + [为何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [设置 API 访问](api/using/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
       + [必读](api/using/must-read.md)
       + [端点](api/using/endpoints.md)
@@ -359,13 +359,32 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
          + [计数](api/using/counting.md)
          + [分页](api/using/pagination.md)
       + [自定义资源](api/using/custom-resources.md)
-   + [管理用户档案](api/using/managing-profiles.md)
-   + [管理服务和订阅](api/using/managing-services-and-subscriptions.md)
-   + [与营销历史互动](api/using/interacting-with-marketing-history.md)
-   + [隐私管理](api/using/privacy-management.md)
-   + [管理事务性消息](api/using/managing-transactional-messages.md)
-   + [管理工作流](api/using/managing-workflows.md)
    + [与自定义资源交互](api/using/interacting-with-custom-resources.md)
-   + [管理组织单位](api/using/managing-organizational-units.md)
-   + [管理地理单位](api/using/managing-geographical-units.md)
+   + 管理用户档案 {#managing-profiles}
+      + [检索配置文件](api/using/retrieving-profiles.md)
+      + [更新配置文件](api/using/updating-profiles.md)
+      + [创建用户档案](api/using/creating-profiles.md)
+   + 管理服务和订阅 {#managing-services-and-subscriptiopns}
+      + [创建服务](api/using/creating-a-service.md)
+      + [检索订阅](api/using/retrieving-subscriptions.md)
+      + [执行订阅](api/using/perform-subscriptions.md)
+      + [删除订阅](api/using/deleting-subscriptions.md)
+   + [与营销历史互动](api/using/interacting-with-marketing-history.md)
+   + 隐私管理 {#privacy-management}
+      + [创建隐私请求](api/using/creating-a-privacy-request.md)
+      + [监视隐私请求](api/using/monitoring-a-privacy-request.md)
+      + [检索隐私数据文件](api/using/retrieving-privacy-data-files.md)
+      + [管理CCPA退出](api/using/managing-ccpa-opt-out.md)
+   + [管理交易消息](api/using/managing-transactional-messages.md)
+   + 管理工作流 {#managing-workflows}
+      + [控制工作流](api/using/controlling-a-workflow.md)
+      + [触发信号活动](api/using/triggering-a-signal-activity.md)
+   + 管理组织单位 {#managing-organizational-units}
+      + [检索配置文件的组织单元](api/using/retrieving-an-organizational-unit.md)
+      + [更新个人资料的组织单位](api/using/updating-profile-organizational-unit.md)
+      + [更新组织单位属性](api/using/updating-organizational-unit-attributes.md)
+   + 管理地理单位 {#managing-geographical-units}
+      + [检索配置文件的地理单元](api/using/retrieving-a-geographical-unit.md)
+      + [更新个人资料的地理单位](api/using/updating-a-geographical-unit.md)
+      + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
    + [故障排除](api/using/troubleshooting.md)
