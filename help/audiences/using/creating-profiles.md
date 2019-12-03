@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 >[!NOTE]
 >
->也可以使用Adobe Campaign Standard API创建配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/managing-profiles.md)。
+>也可以使用Adobe Campaign Standard API创建配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/creating-profiles.md)。
 
 配置文件也可以根据组织单位进行分区。 要将组织字段添加到配置文件，请参阅分区配 [置文件部分](../../administration/using/organizational-units.md#partitioning-profiles) 。
 
