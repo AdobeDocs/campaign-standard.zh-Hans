@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign提供了一个全面 [的图形环境](../../automating/using/wor
 * 将数据导入Campaign数据库。 有关详细信息，请参阅导 [入和导出数据](../../automating/using/about-data-import-and-export.md)。
 * 诸如数据库清理、恢复跟踪信息等技术流程。 在本节中进一步了解技术工 [作流程](../../administration/using/technical-workflows.md)。
 
-工作流也可从Adobe Campaign Standard API访问。 有关详细信息，请参阅专 [用文档](../../api/using/managing-workflows.md)。
+工作流也可从Adobe Campaign Standard API访问。 有关详细信息，请参阅专 [用文档](../../api/using/controlling-a-workflow.md)。
 
 **相关主题：**
 
