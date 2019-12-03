@@ -12,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
    >
    >您只能修改选项卡中的信 **[!UICONTROL General]** 息——但部分除外 **[!UICONTROL Traceability]** 。
 
-使用Adobe Campaign Standard API也可以编辑配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/managing-profiles.md) 。
+使用Adobe Campaign Standard API也可以编辑配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/updating-profiles.md) 。
 
 相关主题：
 
