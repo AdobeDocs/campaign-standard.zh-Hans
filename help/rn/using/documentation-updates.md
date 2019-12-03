@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 添加了一个新部分，用于说明如何设置与电子邮件设计器的链接样式。 [阅读更多](../../designing/using/styles.md#about-styling-links)
 
-与隐私相关的信息已添加到API文档中单击 [此处](../../api/using/privacy-management.md)
+与隐私相关的信息已添加到API文档中单击 [此处](../../api/using/creating-a-privacy-request.md)
 
 ## 文档更新- 2019年10月 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../../api/using/privacy-management.md)
+GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../../api/using/creating-a-privacy-request.md)
 
 添加了有关如何设置登录页面的信息，以便让收件人能够被列入黑名单。 [阅读更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 时区优化交付——阅 [读更多](../../automating/using/scheduler.md)
 
-API信号活动触发——阅 [读更多](../../api/using/managing-workflows.md)
+API信号活动触发——阅 [读更多](../../api/using/triggering-a-signal-activity.md)
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ API信号活动触发——阅 [读更多](../../api/using/managing-workflows.md
 
 SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/managing-workflows.md)
+专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
 新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
