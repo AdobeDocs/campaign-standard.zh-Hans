@@ -80,4 +80,4 @@ L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
 * [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Adobe Campaign Standard实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Adobe Campaign Standard 实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
