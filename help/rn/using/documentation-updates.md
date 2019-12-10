@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign发 [行说明](../../rn/using/release-notes.md)。
+
+## 文档更新- 2019年12月 {#doc-updates-december-2019}
+
+配置S3外部帐户文档已更新。 [阅读更多](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+重新组织了“设计电子邮件内容”部分。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
+
+可交付性入门指南已集成到核心文档中并进行了更新。 [阅读更多](../../sending/using/about-deliverability.md)
 
 ## 文档更新- 2019年11月 {#doc-updates-november-2019}
 
@@ -289,7 +297,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 交易电子邮件中的产品列表——阅 [读更多](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-电子邮件设计器中的移动视图——阅 [读更多](../../designing/using/styles.md#switching-to-mobile-view)
+电子邮件设计器中的移动视图——阅 [读更多](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 应用程序内消息传递测试版改进——阅 [读更多](../../channels/using/about-in-app-messaging.md)
 
