@@ -1,27 +1,25 @@
 ---
 title: 管理样式
 description: 了解如何在电子邮件设计器中管理电子邮件样式。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # 管理样式 {#managing-styles}
 
-## 编辑电子邮件样式{#editing-email-styles}
-
-### 编辑元素 {#editing-an-element}
+## 编辑元素 {#editing-an-element}
 
 在电子邮件设计器中，选择元素时，窗格中将显示特定于所选内容类型的多个选 **[!UICONTROL Settings]** 项。 您可以使用这些选项轻松更改电子邮件的样式。
 
@@ -49,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 请参阅此部分 [的示例](#example--adjusting-vertical-alignment-and-padding)。
 
-### 调整样式设置 {#adjusting-style-settings}
+## 调整样式设置 {#adjusting-style-settings}
 
 1. 在电子邮件中选择元素。 有关此内容的详细信息，请参 [阅选择元素](#selecting-an-element)。
 1. 根据您的需要调整设置。 每个选定的元素提供一组不同的设置。
@@ -62,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 保存您的内容。
 
-### 关于填充和边距 {#about-padding-and-margin}
+## 关于填充和边距 {#about-padding-and-margin}
 
 通过电子邮件设计器界面，您可以快速调整填充和边距设置。
 
@@ -88,7 +86,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_padding_lock_icon.png)
 
-### 关于对齐 {#about-alignment}
+## 样式对齐 {#about-alignment}
 
 * **文本对齐**:将鼠标光标放在某些文本上，然后使用上下文工具栏对齐它。
 
@@ -102,7 +100,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/des_set_vertical_alignment.png)
 
-### 关于背景 {#about-backgrounds}
+## 设置背景 {#about-backgrounds}
 
 在设置电子邮件设计器的背景时，Adobe建议：
 
@@ -144,9 +142,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    您还可以在列级别设置背景图像，但很少使用此图像。
 
-#### 示例：调整垂直对齐和填充 {#example--adjusting-vertical-alignment-and-padding}
+### 示例：调整垂直对齐和填充 {#example--adjusting-vertical-alignment-and-padding}
 
-要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此请执行以下操作步骤：
+要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此，请按照以下步骤操作：
 
 1. 直接在电子邮件中或使用左侧调色板中提供的结构树选择结构 **组件**。
 1. 在上下 **文工具栏**，单 **[!UICONTROL Select a column]** 击并选择要编辑的工具栏。 也可以从结构树中选择它。
@@ -173,7 +171,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 保存更改。
 
-### 关于样式链接 {#about-styling-links}
+## 样式链接 {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 保存更改。
 
-### 添加内联样式属性 {#adding-inline-styling-attributes}
+## 添加内联样式属性 {#adding-inline-styling-attributes}
 
 在“电子邮件设计器”界面中，选择某个元素并在侧面板上显示其设置时，您可以自定义该特定元素的内联属性及其值。
 
@@ -218,7 +216,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以通过单独编辑移动显示的所有样式选项来微调电子邮件的响应式设计。 例如，您可以调整边距和填充、使用较小或较大的字体大小、更改按钮或应用特定于移动版电子邮件的不同背景颜色。
 
-所有样式选项均在移动视图中可用。 “电子邮件设计器”样式设置显示在“编辑电子 [邮件样式”部分](#editing-email-styles) 。
+所有样式选项均在移动视图中可用。 “电子邮件设计器”样式设置以前在本页中显示。
 
 1. 创建电子邮件并开始编辑内容。 有关此方面的详细信息，请参 [阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 要访问专用的移动视图，请选择 **[!UICONTROL Switch to mobile view]** 按钮。
