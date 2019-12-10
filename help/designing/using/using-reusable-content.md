@@ -1,18 +1,18 @@
 ---
 title: '创建和使用可重用内容 '
 description: 开始使用电子邮件设计器构建可重复使用的电子邮件内容。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 了解如何掌握电子邮件内容版本。 使用Email Designer，您可以使用自己的预定义内容创建模板和片段，并重复使用它们进行后续分发。
 
-## 使用模板进行设计 {#designing-templates}
+## 使用模板设计电子邮件 {#designing-templates}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >避免另存为具有空结构组件的片段内容。 插入&gt;fragment后，它们便不可编辑。
    >
-   >移 [动视图](../../designing/using/styles.md#switching-to-mobile-view) （片段）不可用。
+   >移 [动视图](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) （片段）不可用。
 
 1. 编辑后，保存您的片段。
 
@@ -249,7 +249,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->移 [动视图](../../designing/using/styles.md#switching-to-mobile-view) （片段）不可用。 如果要编辑电子邮件移动视图，请在将内容另存为片段之前进行编辑。
+>移 [动视图](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) （片段）不可用。 如果要编辑电子邮件移动视图，请在将内容另存为片段之前进行编辑。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 使用电子邮件设计器，为每个可重用的部分创建一个片段。 在此示例中，您将创建两个片段：一个用于表头，一个用于表尾。 然后，您可以将现有内容中的相关部分复制到这些片段中。
 
-为此请执行以下操作步骤：
+为此，请按照以下步骤操作：
 
 1. 在Adobe Campaign中，转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 为标题创建片段。 有关此内容的详细信息，请 [参阅创建内容片段](#creating-a-content-fragment)。
 1. 向片段添加所需数量的结构组件。
