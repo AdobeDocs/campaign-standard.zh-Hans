@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [设置双重选择启用流程](channels/using/setting-up-a-double-opt-in-process.md)
 + 设计电子邮件内容 {#designing-content}
    + [Campaign 电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)
-   + [快速入门](designing/using/quick-start.md)
-   + [使用和建议](designing/using/overview.md)
+   + [电子邮件设计人员入门](designing/using/quick-start.md)
    + [定义主题行和发件人](designing/using/subject-line.md)
-   + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
-   + [使用现有内容设计电子邮件](designing/using/using-existing-content.md)
-   + [使用可再使用内容设计电子邮件](designing/using/using-reusable-content.md)
-   + [多解决方案电子邮件设计](designing/using/using-integrations.md)
-   + [个性化](designing/using/personalization.md)
-   + [纯文本和 HTML 模式](designing/using/plain-text-html-modes.md)
+   + 设计电子邮件内容{#designing-email-content}
+      + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
+      + [使用现有内容设计电子邮件](designing/using/using-existing-content.md)
+      + [使用可再使用内容设计电子邮件](designing/using/using-reusable-content.md)
+      + [使用多解决方案集成设计电子邮件](designing/using/using-integrations.md)
+      + [编辑纯文本、HTML和移动电子邮件](designing/using/plain-text-html-modes.md)
+   + [个性化电子邮件内容](designing/using/personalization.md)
    + [管理电子邮件样式](designing/using/styles.md)
    + [管理链接](designing/using/links.md)
    + [管理图像](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [在失败时接收提醒](sending/using/receiving-alerts-when-failures-happen.md)
       + [了解投放失败](sending/using/understanding-delivery-failures.md)
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
+   + 管理交付性 {#managing-deliverability}
+      + [关于可交付性](sending/using/about-deliverability.md)
+      + [启动新平台](sending/using/starting-new-platform.md)
+      + [控制电子邮件内容](sending/using/control-email-content.md)
+      + [提高声誉](sending/using/improving-reputation.md)
+      + [白名单](sending/using/whitelists.md)
+      + [技术建议](sending/using/technical-recommendations.md)
+      + [监控交付性](sending/using/monitor-deliverability.md)
+      + [故障排除](sending/using/troubleshooting.md)
 + 报告 {#reporting}
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
