@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ---
 
@@ -437,7 +437,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 移动应用程序的启动集成<br /> </td> 
-   <td> <p>此版本包含Adobe Campaign与Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS扩展的集成。 这些扩展支持推送消息、应用程序内消息和移动应用程序配置文件更新。</p><p>  有关详细信息，请参阅详 <a href="../../administration/using/about-typology-rules.md#typology-rules">细文档</a>。</p> </td> 
+   <td> <p>此版本包含Adobe Campaign与Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS扩展的集成。 这些扩展支持推送消息、应用程序内消息和移动应用程序配置文件更新。</p><p>  有关详细信息，请参阅详 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 移动应用程序内消息传递<br /> </td> 
@@ -475,7 +475,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * 在移动视图中编辑时，您可以仅在移动显示屏中隐藏某些组件，以有效利用空间。
 
-    有关详细信息，请参阅详 [细文档](../../designing/using/styles.md#switching-to-mobile-view)。
+    有关详细信息，请参阅详 [细文档](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 * 现在，您可以在已有可用渠道的基础上，将自定义社交渠道添加到电子邮件模板中。
 * 修复了在使用18个以上结构时无法向下滚动结构菜单的问题。 (CAMP-31173)
@@ -546,7 +546,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
      <li> 能够在准 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">备时自动从URL检索内容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">兼容的现成内容模板</a>。 </li> 
     </ul> 
-    <p>有关详细信息，请参 <a href="../../designing/using/overview.md">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">和操作方法视频</a>。 以下列出了改进和修复。</p><p>因此，现在已弃用旧版电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>有关详细信息，请参 <a href="../../designing/using/overview.md">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">和操作方法视频</a>。 以下列出了改进和修复。</p><p>因此，现在已弃用旧版电子邮件内容编辑器。  有关详细信息，请参阅本 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">页</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 交易电子邮件中的产品列表<br /> </td> 
@@ -554,7 +554,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 电子邮件设计器中的移动视图<br /> </td> 
-   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。 这允许您通过单独编辑移动显示的所有样式选项（如调整边距、较小的字体大小、不同的背景颜色等）来微调电子邮件的响应式设计。</p><p>  有关详细信息，请参阅详 <a href="../../designing/using/styles.md#switching-to-mobile-view">细文档</a>。</p> </td> 
+   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。 这允许您通过单独编辑移动显示的所有样式选项（如调整边距、较小的字体大小、不同的背景颜色等）来微调电子邮件的响应式设计。</p><p>  有关详细信息，请参阅详 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内消息传递测试版改进<br /> </td> 
