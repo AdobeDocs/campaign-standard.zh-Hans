@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 要使现有外部内容在电子邮件设计器中完全可编辑，请参阅使 [用现有内容设计电子邮件一节](../../designing/using/using-existing-content.md) 。
 
-## 导入 {#importing}
+## 导入现有电子邮件内容 {#importing}
 
 ### 从文件导入内容 {#importing-content-from-a-file}
 
@@ -126,7 +126,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击按 **[!UICONTROL Preview]** 钮。
 
-可以个性化从中检索内容的远程URL。 为此请执行以下操作步骤：
+可以个性化从中检索内容的远程URL。 为此，请按照以下步骤操作：
 
 1. 单击屏幕顶部的电子邮件标签以访问“电子邮件设计器”选 **[!UICONTROL Properties]** 项卡。
 1. 查找字 **[!UICONTROL Remote URL]** 段。
@@ -211,7 +211,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    响应式视图因CSS缺失而中断。
 
@@ -228,6 +228,15 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
    >[!NOTE]
    >
-   >请勿修改由电子邮件设计人员生成的CSS: `<style acrite-template-css="true">` 和 `<style acrite-custom-styles="" type="text/css">`。 确保在此之后添加样式。
+   >确保在此之后在另一个自定义样式标签中添加样式。
+   >
+   >请勿修改由电子邮件设计人员生成的CSS:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. 返回移动视图，检查内容是否正确显示并保存更改。
