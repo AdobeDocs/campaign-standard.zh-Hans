@@ -1,18 +1,18 @@
 ---
 title: 定义报告周期
 description: 报告的时间段允许您根据所选日期筛选数据。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 报告列表
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -28,4 +28,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 在应用或修改过滤器时，报告会自动更新。 选定的报告期间将控制该期间发生的事件，而不是在时间间隔内创建的提交的整套数据，例如，如果提交从1月1日至5日运行，而报告期为1月1日至2日，您可能会看到部分数据。 这会影响打开／单击计数，因为打开或单击可能在发送交付后一个月内发生。
 
 ![](assets/campaign_reports_5.png)
-
