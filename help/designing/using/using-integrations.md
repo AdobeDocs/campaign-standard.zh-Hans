@@ -1,22 +1,25 @@
 ---
 title: '通过Adobe Campaign集成设计电子邮件 '
 description: 了解如何通过电子邮件设计器中的Adobe Campaign集成来设计电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # 多解决方案电子邮件设计 {#multi-solution-email-design}
+
+Adobe Campaign提供多个电子邮件创作选项。 您可以使用Dreamweaver等解决方案在电子邮件设计器中编辑电子邮件内容和创建响应式消息。 您还可以使用Adobe Experience manager通过电子邮件发送内容，并在Adobe Campaign standard的电子邮件中使用它。
 
 ## 在Dreamweaver中编辑内容 {#editing-content-in-dreamweaver}
 
@@ -38,7 +41,7 @@ Adobe Campaign standard与Dreamweaver集成，使您能在Dreamweaver界面中�
 
 ## 在Experience manager中编辑内容 {#editing-content-in-experience-manager}
 
-可以在Experience manager中编辑电子邮件内容，然后在Adobe Campaign standard中将其用于一条或多条电子邮件。 请参阅[本文档](../../integrating/using/integrating-with-experience-manager.md)。
+可以在Experience manager中编辑电子邮件内容，然后在Adobe Campaign standard中将其用于一条或多条电子邮件。 请参阅 [本文档](../../integrating/using/integrating-with-experience-manager.md)。
 
 ## 电子邮件设计选项比较 {#email-design-options-comparison}
 
@@ -99,22 +102,30 @@ Adobe Campaign提供多个电子邮件创作选项。 下表显示了每种解�
   <tr> 
    <td> <strong>优势</strong><br /> </td> 
    <td> 
-     -通过拖放体验轻松构建电子邮件<br/>-类似于旧版内容编辑器的功能<br/>-包含片段的可重用内容
+     <p>-通过拖放体验轻松构建电子邮件</p>
+     <p>-类似于传统内容编辑器的功能</p>
+     <p>-可重复使用的片段内容</p>
   </td> 
    <td> 
-     -在电子邮件中重用网站中的资产<br/>-在电子邮件内容中利用Experience manager的强大功能
+     <p>-在电子邮件中重用来自网站的资源</p>
+     <p>-在电子邮件内容中利用Experience Manager的强大功能</p>
     </td> 
    <td> 
-    -开发人员可以直接编写电子邮件代码<br/>-双向同步<br/>-在Dreamweaver中脱机编辑并稍后同步<br/>-通过Dreamweaver将图像上传到Adobe Campaign
+    <p>-开发人员可以直接编写电子邮件代码的功能</p>
+    <p>-双向同步</p>
+    <p>-在Dreamweaver中脱机编辑并稍后同步</p>
+    <p>-通过Dreamweaver将图像上传到Adobe Campaign</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>限制</strong><br /> </td> 
    <td> 
-     -片段内没有条件内容<br/>-无法使用Experience manager片段
+     <p>-片段中没有条件内容</p>
+     <p>-无法使用Experience manager片段</p>
   </td> 
    <td> 
-     -难以实施的高级个性化<br/>-需要在Adobe Campaign中发送测试
+     <p>-难以实施的高级个性化</p>
+     <p>-需要在Adobe Campaign中发送测试</p>
   </td> 
    <td> 不支持动态内容<br /> </td> 
   </tr> 
@@ -126,9 +137,9 @@ Adobe Campaign提供多个电子邮件创作选项。 下表显示了每种解�
   </tr> 
   <tr> 
    <td> <strong>了解更多信息</strong><br /> </td> 
-   <td> 了解 <a href="../../designing/using/overview.md">电子邮件设计人员</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> 查看 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 并观看此视 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">频</a><br /> </td> 
+   <td> 请参 <a href="../../designing/using/overview.md">阅关于电子邮件设计器</a>。<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> 请参 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">阅Dreamweaver和Campaign</a> ，并观看此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">视频</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
