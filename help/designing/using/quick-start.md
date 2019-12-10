@@ -1,37 +1,42 @@
 ---
-title: 快速开始电子邮件内容设计
+title: 电子邮件设计人员入门
 description: 开始使用电子邮件设计器构建电子邮件内容。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# 快速开始电子邮件内容设计{#quick-start}
+# 电子邮件设计人员入门 {#quick-start}
 
 电子邮件设计器提供了四种创建电子邮件的方法。
 
-您可以创建以下电子邮件：
+您可以在电子邮件设 [计器中创建新的电子邮件](#without-existing-content):
 
 * 您可以通过轻松添加结构和内容组件以及个性化其内容以快速发送来从空白画布创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，请 [快速入门](#from-scratch-email) ，或查看完 [整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 * 您可以通过从此处选择模板并构建新的电子邮件内容，从现成模板创建电子邮件。 [了解更多](#building-content-from-an-out-of-the-box-template)
 
-您还可以创建包含现有内容的电子邮件：
+您还可以创建包含现有内 [容的电子邮件](#with-existing-content):
 
 * 您可以转换现有HTML内容（在外部或在旧版编辑器中创建）。 [了解更多](#converting-an-html-content)
 * 您可以在兼容性模式下直接导入现有HTML内容。 [了解更多](#compatibility-mode)
 
-## 没有现有内容 {#without-existing-content}
+| 无内容 | 包含内容 |
+|---|---|
+| 从头开始创建电子邮件 | 转换现有HTML内容 |
+| 从现成模板构建内容 | 导入现有HTML |
+
+## 使用编辑器设计电子邮件 {#without-existing-content}
 
 ### 从头开始创建电子邮件 {#from-scratch-email}
 
@@ -63,7 +68,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以向电子邮件中添加多个内容组件，如图像、文本和按钮。 有关详细信息，请参阅 [内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
-* 图像
+* **图像**
 
 1. 在内 **容组件中**，将图像拖放到您的某个结构组件中。
 1. 单击“ **浏览**”。
@@ -71,7 +76,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/browse-image-quick-start.png)
 
-* 文本与个性化
+* **文本与个性化**
 
 1. 在内 **容组件中**，将文本拖放到您的某个结构组件中。
 1. 单击组件并输入文本。
@@ -80,7 +85,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. 在内 **容组件中**，将HTML拖放到您的某个结构组件中。
 1. 单击 **显示源代码**。
@@ -123,7 +128,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 根据您的需求修改每个元素的内容：图像、文本、链接。
 1. 根据需要调整样式选项以适应您的内容。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
 
-## 使用现有内容 {#with-existing-content}
+## 使用现有电子邮件内容 {#with-existing-content}
 
 如果要构建一个模块化模板和片段框架，这些模板和片段可以组合在一起以在多个电子邮件中重复使用，您应考虑将电子邮件HTML转换为电子邮件设计器模板。
 
@@ -171,7 +176,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    响应式视图因CSS缺失而中断。
 
