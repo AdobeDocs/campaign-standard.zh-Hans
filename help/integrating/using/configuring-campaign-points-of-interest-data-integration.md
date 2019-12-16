@@ -1,18 +1,18 @@
 ---
 title: 配置 Campaign-兴趣点数据集成
 description: 了解如何在Adobe Campaign中配置兴趣点数据功能，以根据用户的位置发送个性化消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 集成
-content-type: 参考
-topic-tags: 使用Campaign和Analytics for Mobile
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -29,14 +29,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要能够将Adobe Experience Platform Location services与使用Adobe Experience Platform SDK配置的移动应用程序一起使用，您需要：
 
-1. 在Adobe Experience Platform **[!UICONTROL Places]** Launch中 **[!UICONTROL Places Monitor]** ，将这些和扩展添加到您的移动应用程序配置中。 在Adobe Campaign中设置移动应用程序。 请参 [阅在Adobe Experience Platform Launch中安装Places扩展](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) , [在Experience Platform Launch中安装Places Monitor扩展](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)。
+1. 在Adobe Experience Platform **[!UICONTROL Places]** Launch中 **[!UICONTROL Places Monitor]** ，将这些和扩展添加到您的移动应用程序配置中。 在Adobe Campaign中设置移动应用程序。 请参 [阅在Adobe Experience Platform Launch中安装Places扩展](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) , [在Experience Platform Launch中安装Places Monitor扩展](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch)。
 
 1. 设置扩展后，在中创建数据元素，以从 **[!UICONTROL Adobe Experience Platform Launch]** 这些扩展中检索数据。 请参阅本 [页](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) ，创建数据元素。
 
 1. 然后，您 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;需要创建规则，以支持兴趣点和Adobe Campaign之间的移动使用案例。\
    此规则将在用户进入地理围栏时触发 **[!UICONTROL Point of Interest]**。 请参阅此 [页](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) ，以创建规则。
 
-1. 在地点 **[!UICONTROL Points of Interest]** 中定义。 请参 [阅创建兴趣点](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)。
+1. 在地点 **[!UICONTROL Points of Interest]** 中定义。 请参 [阅创建兴趣点](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. 确保您在Adobe Campaign中访问移动应用程序和收集的位置数据。 请参 [阅访问用于收集位置数据的移动应用程序](#accessing-mobile-apps-used-to-collect-location-data) ，以 [及访问收集的位置数据](#accessing-collected-location-data)。
 
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您必须具有访问Adobe Analytics的权限才能进行以下配置。 如果您不是Adobe Analytics用户，请与您的Adobe Campaign管理员联系。
 
-1. 登录 [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/)。
+1. 登录 [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/)。
 1. 创建应用程序或选择现有应用程序。
 1. 转到页 **[!UICONTROL Manage App Settings]** 面。
 1. 在“访 **客ID服务** ”部分，选 **中“启用** ”并从下拉列表中选择您的组织。 单击“ **保存**”。
