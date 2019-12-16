@@ -1,18 +1,18 @@
 ---
 title: 根据工作流区段创建报告
 description: 了解如何根据报告中的工作流细分检查交付是否成功。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: 班多
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 自定义报告
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -92,7 +92,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/report_segment_3.png)
 
-1. 根据不同的目标人群个性化您的交付。 有关电子邮件创建的详细信息，请参阅此 [页](../../designing/using/overview.md)。
+1. 根据不同的目标人群个性化您的交付。 有关电子邮件创建的详细信息，请参阅此 [页](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 1. 保存工作流。
 
