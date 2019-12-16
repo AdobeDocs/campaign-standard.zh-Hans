@@ -1,18 +1,18 @@
 ---
 title: 定义动态文本
 description: 了解如何根据Adobe Campaign中定义的条件向用户动态显示不同的文本。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 定义条件内容
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->对于SMS和推送，您只能定义动态文本。 您可以在登录页面中定义动态内容和文本。 如果要使用电子邮件设计器定义动态文 [本](../../designing/using/overview.md)，请参阅 [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+>对于SMS和推送，您只能定义动态文本。 您可以在登录页面中定义动态内容和文本。 如果要使用电子邮件设计器定义动态文 [本](../../designing/using/designing-content-in-adobe-campaign.md)，请参阅 [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 以下示例演示如何定义SMS消息中的动态文本。
 
