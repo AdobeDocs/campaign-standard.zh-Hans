@@ -1,18 +1,18 @@
 ---
 title: 关于模板
 description: “Adobe Campaign模板允许您根据自己的需求预配置参数：模板可能包含营销活动的完整或部分配置，以简化非技术最终用户的Adobe Campaign使用。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
-topic-tags: 管理模板
+audience: start
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 
 ### 开箱即用的电子邮件内容模板 {#email-content-templates}
 
-您可以管理电子邮件设计器主页 **[!UICONTROL Templates]** 选项卡中提 [供的HTML内容](../../designing/using/overview.md) 。
+您可以管理电子邮件设计器主页 **[!UICONTROL Templates]** 选项卡中提 [供的HTML内容](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 现成的电子邮件内容模板包括十八个针对移动设备优化的布局和四个由Behance艺术家设计的一流响应式模板。 它们与最新的使用方式（如客户欢迎消息、新闻稿和重新参与电子邮件等）相对应。 您可以根据品牌内容轻松自定义这些内容，从而简化从头开始设计电子邮件的过程。
 
@@ -73,7 +73,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 **相关主题：**
 
 * 了解如何在此视频中个性化 [内容模板](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
-* 有关编辑内容的详细信息，请参阅关于 [电子邮件内容设计](../../designing/using/overview.md)。
+* 有关编辑内容的详细信息，请参阅关于 [电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此缩略图将显示在“电子邮 **[!UICONTROL Templates]** 件设计器”主 [页的选项卡中](../../designing/using/overview.md) 。
+   此缩略图将显示在“电子邮 **[!UICONTROL Templates]** 件设计器”主 [页的选项卡中](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 1. 关闭选 **[!UICONTROL Properties]** 项卡以返回到主工作区。
 1. 添加结构组件和内容组件，您可以根据需要自定义这些组件和内容组件。
@@ -102,7 +102,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
    > 不能在内容模板中插入个性化字段或条件内容。
 1. 编辑后，保存模板。
 
-此模板现在可用于使用电子邮件设计器构建的任何电子邮件。 从“电子邮件设计 **[!UICONTROL Templates]** 器”主页的选 [项卡中选择](../../designing/using/overview.md) 。
+此模板现在可用于使用电子邮件设计器构建的任何电子邮件。 从“电子邮件设计 **[!UICONTROL Templates]** 器”主页的选 [项卡中选择](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]** 的&gt; **[!
 
 1. 要查找您刚刚创建的模板，请转至 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
 
-1. 要使用新模板，请从“电子邮件设计器”主 **[!UICONTROL Templates]** 页的选项卡 [中选择它](../../designing/using/overview.md) 。
+1. 要使用新模板，请从“电子邮件设计器”主 **[!UICONTROL Templates]** 页的选项卡 [中选择它](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
    ![](assets/content_template_new.png)
 
