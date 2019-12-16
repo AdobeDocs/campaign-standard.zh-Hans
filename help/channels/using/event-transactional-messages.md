@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -121,7 +121,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 >[!CAUTION]
 >
->只有在通过“电子邮件设计器”界面编辑交易电子邮件时，产品列 [表才可用](../../designing/using/overview.md#email-designer) 。
+>只有在通过“电子邮件设计器”界面编辑交易电子邮件时，产品列 [表才可用](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 。
 
 要在交易消息中添加已放弃产品的列表，请执行以下步骤。
 
