@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 68921819a5335626e45678ec569172ffef46a636
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 您可以设置以下类型的外部帐户：
 
-* SFTP。 For more on this, refer to [this section](#sftp-external-account).
-* Amazon Storage Service(S3)。 For more on this, refer to [this section](#amazon-s3-external-account).
-* Adobe Experience Manager。 For more on this, refer to [this section](#adobe-experience-manager-external-account).
-* Adobe Analytics。 For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA。 For more on this, refer to [this section](#google-recaptcha-external-account).
+* SFTP。 如需详细信息，请参阅[此部分](#sftp-external-account)。
+* Amazon Storage Service(S3)。 如需详细信息，请参阅[此部分](#amazon-s3-external-account)。
+* Adobe Experience Manager。 如需详细信息，请参阅[此部分](#adobe-experience-manager-external-account)。
+* Adobe Analytics。 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
+* Google reCAPTCHA。 如需详细信息，请参阅[此部分](#google-recaptcha-external-account)。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Campaign附带一组预定义的外部帐户。 要与外部系统（如�
 
 技术流程（如技术工作流或营销活动工作流程）使用外部帐户。 在工作流中设置文件传输或与任何其他应用程序（Adobe Target、Experience Manager等）进行数据交换时，您需要选择一个外部帐户。
 
-1. 单击按 **[!UICONTROL Create]** 钮。
+1. Click the **[!UICONTROL Create]** button.
 1. 输入标签。 在工作流中选择外部帐户时，将使用标签和ID。
 1. 选择要创建的帐户类型。
 1. 通过在相关时指定凭据、服务器地址、端口号或密钥，配置对帐户的访问。
@@ -67,7 +67,7 @@ Adobe Campaign附带一组预定义的外部帐户。 要与外部系统（如�
 
 ### Adobe托管的SFTP服务器建议 {#adobe-hosted-sftp-server-recommendations}
 
-为ETL目的管理文件和数据时，这些文件存储在Adobe提供的托管SFTP服务器上。 此SFTP设计为一个临时存储空间，您可以在该空间控制文件的保留和删除。
+管理用于 ETL 的文件和数据时，这些文件存储在 Adobe 提供的托管 SFTP 服务器上。此 SFTP 旨在作为临时存储空间，您可以在其上控制文件的保留和删除。
 
 如果未正确使用或监视，该空间会快速填充服务器上可用的物理空间，并导致严重问题。 它可能导致您的平台上的数据丢失或损坏。
 
@@ -76,11 +76,11 @@ Adobe Campaign附带一组预定义的外部帐户。 要与外部系统（如�
 * 保持尽可能少的数据。
 * 使用基于密钥的身份验证来避免口令过期。 支持的格 **式仅****限OpenSSH和** SSH2。 您必须向Adobe支持团队提供公钥，才能将其上传到Campaign服务器上。
 * 只要需要多长时间，即可保留数据。 15天为最大时限。
-* 使用工作流正确删除数据（从消耗数据的工作流中管理保留）。
-* 在SFTP上传和工作流中使用批量处理。
-* 处理错误／例外。
-* 偶尔，登录SFTP以直接检查其中的内容。
-* 请记住，SFTP磁盘管理是您的主要责任。
+* 按照工作流程正确删除数据（通过消费数据的工作流程来管理保留）。
+* 在 SFTP 上传和工作流程中使用批处理。
+* 处理错误/例外状况。
+* 时常登入 SFTP 以直接检查其内容。
+* 请记住，SFTP 硬盘的管理主要由您负责。
 
 另外，请注意，您尝试从中启动SFTP连接的公共IP必须列在营销活动实例的白名单中。 IP地址的白名单可以通过支 [持票证请求](https://support.neolane.net)，并提供用于身份验证的公共密钥。
 
@@ -115,9 +115,9 @@ Amazon S3服务器字段应填写如下：
 
 为了帮助您设置Amazon S3帐户，我们建议您遵循以下建议：
 
-* 创建严格的存储段策略以限制对S3存储段的访问。 可在创建存储段时配置存储段策略。 有关详细信息，请参阅 [Amazon S3文档](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
+* 创建严格的存储段策略以限制对S3存储段的访问。 可在创建存储段时配置存储段策略。 有关详细信息，请参阅 [Amazon S3文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
 * 在创建外部帐户时，通过选中该框，启用加密功能可将敏感数据存储在S3存储 **[!UICONTROL Keep files in S3 encrypted]** 桶中。
-* 授予存储段权限，以指定谁可以访问存储段中的对象。 有关存储段权限的详细信息，请参阅 [Amazon S3文档](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* 授予存储段权限，以指定谁可以访问存储段中的对象。 有关存储段权限的详细信息，请参阅 [Amazon S3文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
 ## Adobe Experience manager外部帐户 {#adobe-experience-manager-external-account}
 
