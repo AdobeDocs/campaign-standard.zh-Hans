@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Campaign Standard实施指南现已上线。[阅读更多](https://helpx.adobe.c
 
 另外，还增加了一个警告，说明额外的空白如何影响电子邮件内容的布局。 [阅读更多](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-已添加有关电子邮件设计器的新部分，建议进行更新。 [阅读更多](../../designing/using/overview.md#email-designer-updates)
+已添加有关电子邮件设计器的新部分，建议进行更新。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Dreamweaver集成部分已更新和改进。 [阅读更多](../../designing/usin
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-1}
 
-用于创建电子邮件内容的全新入门体验以及对电子邮件设计器的其他增强功能已添加到“编辑电子邮件内容”一章。 [阅读更多](../../designing/using/overview.md#email-designer-home-page)
+用于创建电子邮件内容的全新入门体验以及对电子邮件设计器的其他增强功能已添加到“编辑电子邮件内容”一章。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 新增了“事务性消息传递限制”一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ### 版本中包含的新功能 {#new-capabilities-included-in-the-release-2}
 
-电子邮件设计人员的一般可用性- [阅读更多](../../designing/using/overview.md)
+电子邮件设计人员的一般可用性- [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 交易电子邮件中的产品列表——阅 [读更多](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-2}
 
-“设计内容”指南已更新，以反映电子邮件设计人员的一般可用性和旧版电子邮件内容编辑器的弃用情况。 [阅读更多](../../designing/using/overview.md)
+“设计内容”指南已更新，以反映电子邮件设计人员的一般可用性和旧版电子邮件内容编辑器的弃用情况。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 更新了应 [用程序内通知](../../channels/using/about-in-app-messaging.md) 和推 [送通知文档](../../channels/using/about-push-notifications.md) 。
 
@@ -359,7 +359,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 更新了Experience Manager与Adobe Campaign文档的集成。 [阅读更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-“设计内容”指南已经过完全重新组织，特别是为了演示允许您为电子邮件设计内容的两个编辑器。 [阅读更多](../../designing/using/overview.md)
+“设计内容”指南已经过完全重新组织，特别是为了演示允许您为电子邮件设计内容的两个编辑器。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 了解如何通过从您的现有电子邮件中创建片段，使用Creative SDK完全编辑外部内容。 [阅读更多](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 已更新与触发器集成的受支持Analytics SKU列表。 [阅读更多](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-内容编辑器文档的某些页面已合并，以提供可用不同操作的更全面视图。 [阅读更多](../../designing/using/overview.md)
+内容编辑器文档的某些页面已合并，以提供可用不同操作的更全面视图。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## 18.3版- 2018年3月 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 欧盟一般数据保护规定(GDPR)-阅 [读更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-适用于电子邮件的Creative Designer —— 阅 [读更多](../../designing/using/overview.md)
+适用于电子邮件的Creative Designer —— 阅 [读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 多语言推送交付- [阅读更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 “配 [置事务消息](../../administration/using/configuring-transactional-messaging.md) ”部分已重新组织， [并添加了分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-添加了一项技术说明，了解如何生成用于推送通知的多语言CSV文件。 [阅读更多](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+添加了一项技术说明，了解如何生成用于推送通知的多语言CSV文件。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
 添加了有关“更新直 **接”邮件隔离和交付日志导入模板** 的信息。 [阅读更多](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ URL更改：人员核心服务——阅 [读更多](../../integrating/using/abou
 
 使用API:已 [添加API扩展用例](../../developing/using/about-extending-the-api.md) 。 另请查阅 [API文档](../../api/using/about-campaign-standard-apis.md)。
 
-营销活动错误消息：访问按版本和语言筛选的Campaign v6和Standard中的错误消息的完整列表。 [阅读更多](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+营销活动错误消息：访问按版本和语言筛选的Campaign v6和Standard中的错误消息的完整列表。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 多品牌使用案例——阅 [读更多](../../administration/using/branding.md)
 
