@@ -1,18 +1,18 @@
 ---
 title: 管理链接
 description: 了解如何与电子邮件设计人员管理链接。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->下图显示了如何使用电子邮件中的电子邮 [件设计器](../../designing/using/overview.md) 插入链接。
+>下图显示了如何使用电子邮件中的电子邮 [件设计器](../../designing/using/designing-content-in-adobe-campaign.md) 插入链接。
 
 1. 选择元素，然后从上下文 **[!UICONTROL Insert link]** 工具栏中单击。
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_link_edit.png)
 
-使用电子邮件设计器编 [辑电子邮件时](../../designing/using/overview.md)，您可以轻松访问和修改您从列出电子邮件中包含的所有URL的表格中创建的链接。 此列表允许您集中查看并查找电子邮件内容中的每个URL。 要访问它，请参阅关 [于跟踪的URL](#about-tracked-urls)。
+使用电子邮件设计器编 [辑电子邮件时](../../designing/using/designing-content-in-adobe-campaign.md)，您可以轻松访问和修改您从列出电子邮件中包含的所有URL的表格中创建的链接。 此列表允许您集中查看并查找电子邮件内容中的每个URL。 要访问它，请参阅关 [于跟踪的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 
