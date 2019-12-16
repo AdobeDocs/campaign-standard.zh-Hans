@@ -1,24 +1,24 @@
 ---
 title: 加载文件
 description: “加载文件”活动允许您将数据导入一个结构化表单，以在Adobe Campaign中使用此数据。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 数据管理活动
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# 加载文件{#load-file}
+# 加载文件 {#load-file}
 
 ## 说明 {#description}
 
@@ -80,7 +80,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    该选 **[!UICONTROL Column definition]** 项卡允许您精确指定每列的数据结构，以便导入不包含任何错误的数据（例如，使用空值管理），并使其与Adobe Campaign数据库中已存在的类型相匹配，以便将来执行操作。
 
-   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等） 甚至指定错误处理。
+   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等）甚至指定错误处理。
 
    有关详细信息，请参阅列 [格式部分](#column-format) 。
 
