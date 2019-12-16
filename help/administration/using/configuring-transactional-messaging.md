@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -89,7 +89,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 **相关主题：**
 
 * [预览和发布活动](#previewing-and-publishing-the-event)
-* [在交易消息中使用产品列表](#using-product-listings-in-a-transactional-message)
+* [在交易消息中使用产品列表](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## 丰富交易消息内容 {#enriching-the-transactional-message-content}
 
