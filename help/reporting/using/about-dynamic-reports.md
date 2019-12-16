@@ -1,18 +1,18 @@
 ---
 title: 关于动态报告
 description: 利用动态报告，将变量和维度拖放到自由形式环境中，并分析营销活动的成功。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -63,10 +63,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 动态报告使用协议 {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> 从Campaign Standard 19.4版本开始，动态报告的同意弹出窗口已更新，以包括Adobe Campaign Standard和Microsoft Dynamics 365集成。
-
 动态报告使用协议的目的是作为数据处理的弹出同意。 默认情况下，协议仅可见，且只有分配有管理权限的用户才能接受或拒绝。
 
 有三个选项可用：
@@ -92,7 +88,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt;来更改 **[!UICONTROL Options]**。
 
 可以随时更改该值。 值1对应于 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
-
-请注意，对于Adobe Campaign Standard 19.4之前的版本，值-1对应于 **[!UICONTROL Ask me later]**、0和 **[!UICONTROL Decline]** 1 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)
