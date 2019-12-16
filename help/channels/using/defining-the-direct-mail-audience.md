@@ -1,19 +1,19 @@
 ---
 title: 定义直邮受众
 description: 了解如何定义直邮递送的目标。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 直邮
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 对于直邮，目标配置文件是将包含在提取文件中的配置文件，您会将其发送给直邮提供商。
 
-对于每个目标配置文件，提取文件中会添加一个新行。 定义提取屏幕中定义了将包括给每个收件人的配置文件 [信息的数量](#defining-the-extraction) 。
+对于每个目标配置文件，提取文件中会添加一个新行。 定义提取屏幕中定义了将包括给每个收件人的配置文件 [信息的数量](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 。
 
 >[!CAUTION]
 >
