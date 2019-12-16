@@ -1,18 +1,18 @@
 ---
 title: 预览消息
 description: 了解如何在内容编辑器或电子邮件设计器中预览邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 准备和测试消息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在窗口中添加测试配置 **[!UICONTROL Audience]** 文件后，您可以预览邮件以检查其个性化情况以及收件人如何看到您的分发。
 
-1. 在“电子邮 [件设计器](../../designing/using/overview.md)”中，单击 **[!UICONTROL Preview]** 按钮。
+1. 在“电子邮 [件设计器](../../designing/using/designing-content-in-adobe-campaign.md)”中，单击 **[!UICONTROL Preview]** 按钮。
 
    ![](assets/sending_preview.png)
 
