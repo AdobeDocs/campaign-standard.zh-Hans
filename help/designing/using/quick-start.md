@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 | 无内容 | 包含内容 |
 |---|---|
-| 从头开始创建电子邮件 | 转换现有HTML内容 |
-| 从现成模板构建内容 | 导入现有HTML |
+| [从头开始创建电子邮件](#from-scratch-email) | [转换现有HTML内容](#converting-an-html-content) |
+| [从现成模板构建内容](#building-content-from-an-out-of-the-box-template) | [导入现有HTML](#compatibility-mode) |
 
 ## 使用编辑器设计电子邮件 {#without-existing-content}
 
@@ -176,7 +176,7 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到移动视图。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    响应式视图因CSS缺失而中断。
 
