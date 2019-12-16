@@ -1,19 +1,19 @@
 ---
 title: 登陆页面模板
 description: 了解有关登录页面模板的更多信息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
-contentOwner: 勒梅特
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 登陆页面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
-context-tags: landingPage，向导；landingPage，概述；landingPage，主页
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -45,4 +45,4 @@ Campaign附带一组内置登录页面模板：
 <input id="email" type="email" name="email"/>
 ```
 
-“类型”属性的正式列表位于以下地址： [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
+“类型”属性的正式列表位于以下地址： [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
