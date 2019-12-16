@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
+source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
 
 ---
 
@@ -119,7 +119,7 @@ source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
    + [Campaign 电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)
    + [电子邮件设计人员入门](designing/using/quick-start.md)
    + [定义主题行和发件人](designing/using/subject-line.md)
-   + 设计电子邮件内容{#designing-email-content}
+   + 构建电子邮件内容{#building-email-content}
       + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
       + [使用现有内容设计电子邮件](designing/using/using-existing-content.md)
       + [使用可再使用内容设计电子邮件](designing/using/using-reusable-content.md)
