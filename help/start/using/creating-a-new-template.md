@@ -1,19 +1,19 @@
 ---
 title: 创建新模板
 description: 了解如何从现有的现成活动模板创建新模板，这些模板用于电子邮件、短信、推送通知发送等。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
-topic-tags: 管理模板
+audience: start
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相关主题：**
 
 * [品牌](../../administration/using/branding.md)
-* [设计内容](../../designing/using/overview.md)
+* [设计内容](../../designing/using/designing-content-in-adobe-campaign.md)
 
