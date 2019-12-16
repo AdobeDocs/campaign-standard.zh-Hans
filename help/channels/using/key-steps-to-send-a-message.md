@@ -1,31 +1,31 @@
 ---
 title: 发送消息的关键步骤
 description: 按照以下步骤使用Adobe Campaign创建和发送消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 关于通信通道
+audience: channels
+content-type: reference
+topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # 发送消息的关键步骤{#key-steps-to-send-a-message}
 
-要了解交付最佳实践，请查阅交付最 [佳实践](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) 快速入门。
+要了解交付最佳实践，请查阅交付最 [佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) 快速入门。
 
 创建和发送消息的步骤如下：
 
 1. 创建 **[!UICONTROL Email]**、 **[!UICONTROL SMS]**、或 **[!UICONTROL direct mail]** 营销活 **[!UICONTROL push notification]** 动。 请参阅 [创建电子邮件](../../channels/using/creating-an-email.md)、创 [建SMS](../../channels/using/creating-an-sms-message.md)、创建直 [接邮件传送和创建推](../../channels/using/creating-the-direct-mail.md)[](../../channels/using/preparing-and-sending-a-push-notification.md)送通知。
 1. 选择消息的受众。 请参阅创 [建受众](../../audiences/using/creating-audiences.md)。
-1. 定义消息内容及其个性化元素。 有关电子邮件 [或其他渠道的特定内容](../../designing/using/overview.md) ，请参阅内容编辑器。
+1. 定义消息内容及其个性化元素。 有关电子邮件 [或其他渠道的特定内容](../../designing/using/designing-content-in-adobe-campaign.md) ，请参阅内容编辑器。
 1. 开始准备发送以计算目标人群并生成消息内容。 请参阅批 [准消息](../../sending/using/preparing-the-send.md)。
 
    >[!NOTE]
