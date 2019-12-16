@@ -1,25 +1,25 @@
 ---
 title: 配置移动应用程序
 description: 了解如何配置Adobe Campaign以使用SDK V4或Experience Platform SDK发送推送通知或应用程序内消息。
-page-status-flag: 从未激活
-uuid: 63e1476a-7875-4f48-ba9e-97f1a007e42
-contentOwner: 绍维亚
+page-status-flag: never-activated
+uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 配置渠道
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # 配置移动应用程序{#configuring-a-mobile-application}
 
-推送通知或应用程序内消息会在移动应用程序上接收，这些应用程序首先需要在Adobe Mobile services中配置，具体取决于您要使用的渠道。
+推送通知或应用程序内消息会在移动应用程序上接收，这些应用程序首先需要在Adobe Campaign standard中配置，具体取决于您要使用的渠道。
 
 * 要发送应用程序内消息和推送通知，您的移动应用程序需要通过利用Adobe Experience Platform SDK在Adobe Campaign中设置。 请参 [阅使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)。
 
