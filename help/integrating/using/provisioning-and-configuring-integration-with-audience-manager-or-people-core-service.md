@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -47,7 +47,7 @@ Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导
   </tr> 
   <tr> 
    <td> <strong>AAM或People Service</strong><br /> </td> 
-   <td> 示例：Adobe Audience Manager </td> 
+   <td> 示例：Adobe Audience Manager。 无论您是否拥有Audience manager许可证，请务必向供应团队提及。</td> 
   </tr> 
   <tr> 
    <td> <strong>声明的ID或访客ID</strong><br /> </td> 
@@ -59,18 +59,6 @@ Audience Manager(AAM)或People核心服务集成允许您在Adobe Campaign中导
   </tr> 
  </tbody> 
 </table>
-
-*适 **[!UICONTROL Declared ID]** 用于所有共享受众集成。 请注意，如果您使用的是People核心服务，则使用的情况会 **[!UICONTROL Declared ID]** 因解决方案而异：
-
-* 如果受众通过People核心服务从Adobe Campaign共享到Adobe Target，则可 **[!UICONTROL Declared ID]** 以进行配置。
-* 如果受众是通过People核心服务从Adobe Campaign共享到Ad Cloud的，您将无法使用配置来对受 **[!UICONTROL Declared ID]** 众进行历史回填。 在构建受众时，还会出现一些延迟。
-* 如果受众是通过People Core service从Adobe Analytics共享到Adobe Campaign的，则不会在Adobe Campaign中填充区段 **[!UICONTROL Declared ID]**。
-
->[!NOTE]
->
->如果您使用的是Adobe Audience Manager而不是People Core Service，则所有情 **[!UICONTROL Declared ID]** 况下都可正常使用。
-
-您可以向以下地址提出 **[!UICONTROL Declared ID]** 配置请求：[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)。
 
 ## 在Adobe Campaign中配置集成 {#configuring-the-integration-in-adobe-campaign}
 
