@@ -1,19 +1,19 @@
 ---
 title: 准备和发送应用程序内消息
 description: 创建应用程序内消息，以针对具有特定内容的应用程序订阅者。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 应用程序内消息传递
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
-context-tags: 交付，触发器，返回；交付创建，向导
+context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,7 +79,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 输入应用程序内消息属性，然后在字段中选择您的移动应用 **[!UICONTROL Associate a Mobile App to a delivery]** 程序。
+1. 输入应用程序内消息属性，然后在字段中选择您的移动应用 **[!UICONTROL Associate a Mobile App to a delivery]** 程序。 请注意，如果您未使用Adobe Campaign Standard配置移动应用程序，则该应用程序不会显示在列表中。 有关移动应用程序配置的详细信息，请参阅本 [页](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/inapp_creating_3.png)
 
