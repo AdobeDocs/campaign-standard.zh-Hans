@@ -1,18 +1,18 @@
 ---
 title: 创建电子邮件
 description: 请按照以下步骤在Adobe Campaign中创建单发电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 电子邮件
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/email_creation_3.png)
 
-1. 使用电子邮件设计器定义消息内容、发送者姓名和主题并实现 [个性化](../../designing/using/overview.md)。 有关此方面的详细信息，请参阅关 [于电子邮件内容设计](../../designing/using/overview.md)。
+1. 使用电子邮件设计器定义消息内容、发送者姓名和主题并实现 [个性化](../../designing/using/designing-content-in-adobe-campaign.md)。 有关此方面的详细信息，请参阅关 [于电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    ![](assets/email_creation_4.png)
 
