@@ -1,18 +1,18 @@
 ---
 title: 在失败时接收提醒
 description: 了解如何使用警报管理系统。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 监视消息
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    * 构建过滤排版规则以在传送分析过程中排除邮件目标的一部分，如隔离的收件人。 请参 [阅创建筛选规则](../../administration/using/filtering-rules.md)。
    * 定期更新客户数据库，以保持良好的隔离管理流程。 请参 [阅关于检疫](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
-   * 一般而言，尽可能提高可交付性。 请参阅Adobe Campaign v7管理可 [交付性详细指南](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) ，并与Adobe Campaign管理员联系以获取帮助。
+   * 一般而言，尽可能提高可交付性。 请参阅Adobe Campaign可交付 [性详细文档](../../sending/using/about-deliverability.md) ，并与您的Adobe Campaign管理员联系以获得帮助。
 
 
 
