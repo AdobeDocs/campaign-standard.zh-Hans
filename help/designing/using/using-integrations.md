@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign standard与Dreamweaver集成，使您能在Dreamweaver界面中�
 
 ## 在Experience manager中编辑内容 {#editing-content-in-experience-manager}
 
-可以在Experience manager中编辑电子邮件内容，然后在Adobe Campaign standard中将其用于一条或多条电子邮件。 请参阅 [本文档](../../integrating/using/integrating-with-experience-manager.md)。
+可以在Experience manager中编辑电子邮件内容，然后在Adobe Campaign standard中将其用于一条或多条电子邮件。 请参阅[本文档](../../integrating/using/integrating-with-experience-manager.md)。
 
 ## 电子邮件设计选项比较 {#email-design-options-comparison}
 
@@ -137,7 +137,7 @@ Adobe Campaign提供多个电子邮件创作选项。 下表显示了每种解�
   </tr> 
   <tr> 
    <td> <strong>了解更多信息</strong><br /> </td> 
-   <td> 请参 <a href="../../designing/using/overview.md">阅关于电子邮件设计器</a>。<br /> </td> 
+   <td> 请参 <a href="../../designing/using/designing-content-in-adobe-campaign.md">阅关于电子邮件设计器</a>。<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> 请参 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">阅Dreamweaver和Campaign</a> ，并观看此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">视频</a>。<br /> </td> 
   </tr> 
