@@ -1,18 +1,18 @@
 ---
 title: 添加 Target 动态内容
 description: 了解如何在您的Adobe Campaign交付中添加Adobe Target动态内容。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 集成
-content-type: 参考
-topic-tags: 使用系列活动和目标
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 在Adobe Campaign中访问图像之前，必须先在Adobe target中执行以下任务：
 
 * 创建一个或多个 [重定向选件](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)，您必须在其中指定要使用的图像的URL。
-* 创建一个或多 [个受众](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html)，以定义活动的目标。
-* 创建基 [于表单的体验编写器活动](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) ，您必须在其中选择一个rawbox并指定多个体验，具体取决于创建的重定向选件的数量。 对于每个体验，您必须选择其中一个已创建的重定向选件。
+* 创建一个或多 [个受众](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)，以定义活动的目标。
+* 创建基 [于表单的体验编写器活动](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) ，您必须在其中选择一个rawbox并指定多个体验，具体取决于创建的重定向选件的数量。 对于每个体验，您必须选择其中一个已创建的重定向选件。
 * 使用Adobe Campaign中的信息创建区段以指定体验。 要在选件的选择规则中使用Adobe Campaign中的数据，您必须在Adobe Target的rawbox中指定数据。
 
 1. 创建电子邮件分发。
@@ -54,6 +54,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相关主题：**
 
 * [Adobe Target门户](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [关于电子邮件内容设计](../../designing/using/overview.md)
+* [关于电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md)
 * [实时视频中个性化电子邮件图像](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
 
