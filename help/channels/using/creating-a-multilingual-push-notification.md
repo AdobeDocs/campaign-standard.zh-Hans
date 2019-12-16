@@ -1,18 +1,18 @@
 ---
 title: 创建多语言推送通知
 description: 创建多语种推送通知，以用户的首选语言和区域为目标。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 推送通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 在窗口 **[!UICONTROL Manage Content Variants]** 中，拖放文件或从计算机中选择文件。
 
-   文件必须采用UTF8编码，并且必须具有特定布局，可通过单击选项找到该布 **[!UICONTROL Download the sample file]** 局。 您还应该为区域设置值使用正确的语法。 有关文件格式和支持的区域设置的详细信息，请参阅此技 [术说明](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+   文件必须采用UTF8编码，并且必须具有特定布局，可通过单击选项找到该布 **[!UICONTROL Download the sample file]** 局。 您还应该为区域设置值使用正确的语法。 有关文件格式和支持的区域设置的详细信息，请参阅此技 [术说明](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
    ![](assets/multivariant_push_4.png)
 
