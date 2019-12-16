@@ -1,19 +1,19 @@
 ---
 title: 电子邮件投放
 description: 电子邮件发送活动允许您配置在工作流中发送单个发送电子邮件或循环电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 渠道活动
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-context-tags: 交付，工作流，主
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 选择电子邮件类型。 电子邮件类型来自在&gt; **[!UICONTROL Resources]** &gt;菜单中定义的 **[!UICONTROL Templates]** 电子邮件 **[!UICONTROL Delivery templates]** 模板。
 1. 输入电子邮件的常规属性。 您还可以将其附加到现有营销活动。 工作流的交付活动的标签将更新为电子邮件标签。
-1. 定义电子邮件内容。 请参阅有关内容编辑 [的部分](../../designing/using/overview.md)。
+1. 定义电子邮件内容。 请参阅有关内容编辑 [的部分](../../designing/using/designing-content-in-adobe-campaign.md)。
 1. 默认情况下，活 **[!UICONTROL Email delivery]** 动不包括任何出站过渡。 如果要向活动添加出站过渡，请转到高级活动选项的选 **[!UICONTROL Email delivery]** 项卡( **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) 活动快速操作中的按钮)，然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**:这样，您就可以生成一个出站过渡，其中包含与入站过渡完全相同的人数。
@@ -100,7 +100,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/wkf_delivery_example_3.png)
 
-* 重复 **[!UICONTROL Email]** 出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总到一个视图中。 因此，在一年内，将执行365次提交，但会在Adobe Campaign界面中将其重新分组为12个视图( **也称为重复执行**)。 历史记录和报告详细信息每月都会显示，而不是每次发送。
+* 重复 **[!UICONTROL Email]** 出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总到一个视图中。 因此，在一年内，将执行365个提交，但会在Adobe Campaign界面中将其重新分组为12个视 **图(也称为重复执行**)。 历史记录和报告详细信息每月都会显示，而不是每次发送。
 
    ![](assets/wkf_delivery_example_4.png)
 
