@@ -1,19 +1,19 @@
 ---
 title: 自定义推送通知
 description: 了解如何使用各种高级选项自定义推送通知。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 推送通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -107,10 +107,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 根据用户的操作，应用程序将收到通知，以便它能够执行任何相关任务。
 
 ## 添加到期日期 {#add-expiration-date}
-
->[!NOTE]
->
->这些更改仅适用于Campaign Standard 19.4的起始版本。
 
 通过为推送通知设置到期日期，您可以设置特定的到期日期，在该日期，Apple([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns))或Android([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options))将不再发送消息。
 
