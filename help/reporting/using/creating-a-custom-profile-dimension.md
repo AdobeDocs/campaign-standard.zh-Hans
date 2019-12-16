@@ -1,18 +1,18 @@
 ---
 title: 创建自定义用户档案维度
 description: 了解如何根据自定义配置文件数据创建自定义配置文件维度。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 自定义报告
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    ![](assets/custom_profile_17.png)
 
 1. 单击 **[!UICONTROL Confirm]** 完毕后，单击 **[!UICONTROL Next]**。
-1. 定义消息内容、发送者姓名和主题并实现个性化。 有关创建电子邮件的详细信息，请参阅 [此页](../../designing/using/overview.md)。
+1. 定义消息内容、发送者姓名和主题并实现个性化。 有关创建电子邮件的详细信息，请参阅 [此页](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    然后，单击 **[!UICONTROL Create]**。
 
