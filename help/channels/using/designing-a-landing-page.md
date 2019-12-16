@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 >[!NOTE]
 >
->如果您的实例是在Adobe Campaign Standard 19.0版本之前安装的，您仍可以访问旧版电子邮件内容编辑器。 界面、使用原则和配置基本上与登录页面的下面所述相同。 但是，在旧版电子邮件内容编辑器中可能不提供或维护所有功能，该编辑器从19.0版本开始已弃用。 要通过具有扩展功能的拖放界面快速编辑电子邮件内容，请使用电子邮 [件设计器](../../designing/using/overview.md)。
+>如果您的实例是在Adobe Campaign Standard 19.0版本之前安装的，您仍可以访问旧版电子邮件内容编辑器。 界面、使用原则和配置基本上与登录页面的下面所述相同。 但是，在旧版电子邮件内容编辑器中可能不提供或维护所有功能，该编辑器从19.0版本开始已弃用。 要通过具有扩展功能的拖放界面快速编辑电子邮件内容，请使用电子邮 [件设计器](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 本页介绍了登陆页面内容编辑器的特性。 有关一个或多个营销活动常见的操作的详细信息，请参阅设计电子邮件内容指 **南中的这些部分** :
 
@@ -38,7 +38,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 * [添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 * [插入链接](../../designing/using/links.md#inserting-a-link)。
 * [插入图像](../../designing/using/images.md)。
-* [内容设计的一般最佳实践](../../designing/using/overview.md#content-design-best-practices)。
+* [内容设计的一般最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
 >如果您有已预定义为HTML格式的登录页面，则可以使用按钮直接导入该 **[!UICONTROL Change content]** 页面。
