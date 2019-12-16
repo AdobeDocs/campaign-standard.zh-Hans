@@ -1,18 +1,18 @@
 ---
 title: 添加面板
 description: 动态报告允许您添加面板以根据所选时间段更好地过滤数据。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 自定义报告
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 从Campaign 19.4版本开始，默认情况下 **[!UICONTROL Exclude proof]** 将已选择该版本。 如果需要，可以将选项卡中的某个图标拖放 **[!UICONTROL Segments]** 到顶 **[!UICONTROL Components]** 部栏中来更改它。
+1. 默认 **[!UICONTROL Exclude proof]** 情况下，区段已被选中。 如果需要，可以将选项卡中的某个图标拖放 **[!UICONTROL Segments]** 到顶 **[!UICONTROL Components]** 部栏中来更改它。
 
    ![](assets/dynamic_report_panel_3.png)
 
