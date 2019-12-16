@@ -1,18 +1,18 @@
 ---
 title: '组件列表 '
 description: 在此处查找动态报表中可用的每个组件的列表及其定义。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
    <td> 收件人个人资料中注册的国家／地区。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
+   <td> 投放<br /> </td> 
    <td> 交付的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
   </tr> 
     <tr> 
    <td> 排除证明<br /> </td> 
-   <td> 从报告中排除校样（仅从Campaign 19.4版本开始）<br /> </td> 
+   <td> 从报告中排除校样<br /> </td> 
   </tr> 
  </tbody> 
 </table>
