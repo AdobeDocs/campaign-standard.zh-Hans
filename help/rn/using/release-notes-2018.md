@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 ### 其他更改 {#other-changes-1}
 
 * 报告共享超时时间已从1分钟增加到4分钟，以避免任何超时错误。
-* 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，您仍可以在保存更改后随时返回默认内容编辑器。 有关详细信息，请参阅详细 [文档](../../designing/using/overview.md)。
+* 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，您仍可以在保存更改后随时返回默认内容编辑器。 有关详细信息，请参阅详细 [文档](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 在Creative Designer中，现在可以向电子邮件中添加新内容组件：轮盘。 有关详细信息，请参阅详细 [文档](../../designing/using/designing-from-scratch.md#about-content-components)。
 * 在事务性消息热点单击报告中，当您单击“ **Change profile** （更改配置文件）”按钮时，现在仅列出链接到您为事务性消息定义的活动的测试配置文件。
 
@@ -317,7 +317,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
      <li> 创建和保存电子邮件内容模板并利用保存的模板帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（如页眉、页脚、文章等）简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> Creative Designer for email仅提供英语版。<br /> 有关详细信息，请参阅详细 <a href="../../designing/using/overview.md">文档</a> ，并观看此 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> Creative Designer for email仅提供英语版。<br /> 有关详细信息，请参阅详细 <a href="../../designing/using/designing-content-in-adobe-campaign.md">文档</a> ，并观看此 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送交付<br /> </td> 
