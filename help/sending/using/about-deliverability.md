@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -73,7 +73,7 @@ ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这�
 
 ## 发送到蜜罐地址 {#honeypot-addresses}
 
-ISP和其他组织(请参阅http://www.projecthoneypot.org/)使用的邮箱与实际人员不对应，而只是为了欺骗垃圾邮件发送者。 这些所谓的“蜜罐”地址发布在Web上，以便由垃圾邮件程序收集，从而捕获非法发送者。 使用双选择加入机制将这种地址添加到列表中。 使用第三方列表时，您必须确保其维护人员使用的方法。
+ISP和其他组织(请参阅https://www.projecthoneypot.org/)使用的邮箱与实际人员不对应，而只是为了欺骗垃圾邮件发送者。 这些所谓的“蜜罐”地址发布在Web上，以便由垃圾邮件程序收集，从而捕获非法发送者。 使用双选择加入机制将这种地址添加到列表中。 使用第三方列表时，您必须确保其维护人员使用的方法。
 
 ## 改编消息内容 {#adapt-message-content}
 
