@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 要检索包含与对帐值关联的所有信息的文件，请按照以下三个步骤操作：
 
-1. 执行 **POST** request to create a new request with attribute **type="access"**，请参阅 [Creating a new privacy request](#creating-a-privacy-request)。
+1. 执行 **POST** request to create a new request with attribute **type="access"**，请参阅 [Creating a new privacy request](../../api/using/creating-a-privacy-request.md)。
 
 1. 执行 **GET** request以检索有关该请求的信息。
 
