@@ -1,18 +1,18 @@
 ---
 title: 创建多语言电子邮件
 description: 请按照以下步骤创建一封以不同首选语言为目标的多语言电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 电子邮件
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    如果需要，请使用按钮添加变 **[!UICONTROL Add an element]** 体。 **[!UICONTROL Default]** 不得删除变体。 设置为时， **[!UICONTROL default]**&#x200B;将 [使用配置文件的首选语言](../../audiences/using/creating-profiles.md) ，来选择变体。 您还可以将变体设 **[!UICONTROL Default]** 置为任何其他语言。
 
 1. 确认创建电子邮件：随后将显示电子邮件功能板。
-1. 为每个变体定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人姓名或多个不同的内容。 使用下拉菜单在元素的不同变体之间导航。 有关详细信息，请参阅内 [容编辑器](../../designing/using/overview.md) 部分。
+1. 为每个变体定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人姓名或多个不同的内容。 使用下拉菜单在元素的不同变体之间导航。 有关详细信息，请参阅内 [容编辑器](../../designing/using/designing-content-in-adobe-campaign.md) 部分。
 
    ![](assets/multi_selectcontent.png)
 
