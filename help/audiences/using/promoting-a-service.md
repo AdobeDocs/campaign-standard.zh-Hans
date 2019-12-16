@@ -12,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
    >
    >还必须给用户取消订阅的可能性。 为此，请在自动发送给新订阅者的确认电子邮件(在服务属性中定义 <b></b> )中以及将来的新闻稿电子邮件中插入服务取消订阅链接。
 
-* 使订阅或取消订阅登录页面在网站上可用。 授予您登录页面访问权限的URL必须指定相关服务等参数以及访问该页面的配置文件ID。 此ID可在登陆页面参数中定义(请参 [阅配置登陆页面](../../channels/using/configuring-landing-page.md#))。
+* 使订阅或取消订阅登录页面在网站上可用。 授予您登录页面访问权限的URL必须指定相关服务等参数以及访问该页面的配置文件ID。 此ID可在登陆页面参数中定义(请参 [阅配置登陆页面](../../channels/using/configuring-landing-page.md)。
