@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 * **取消订阅链接和登录页面**:取消订阅链接是必需的。 它必须可见且有效，并且表单必须具有功能性。
 * **使用** Adobe Campaign提供的工具优化电子邮件内容（分发分析、反垃圾邮件分析）。
 
-有关编辑电子邮件内容的其他信息，请参阅 [Email Designer概述](../../designing/using/designing-content-in-adobe-campaign.md) ，以及 [Message设计最佳实践](../../designing/using/overview.md#content-design-best-practices)。
+有关编辑电子邮件内容的其他信息，请参阅 [Email Designer概述](../../designing/using/designing-content-in-adobe-campaign.md) ，以及 [Message设计最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 ## 发件人姓名和地址 {#sender-name}
 
