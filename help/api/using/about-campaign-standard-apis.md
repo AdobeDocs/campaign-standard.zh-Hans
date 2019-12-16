@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -30,10 +30,10 @@ Campaign Standard API旨在让您 **为Adobe Campaign** Standard创建集成，�
 
 >[!NOTE]
 >
->在执行API调用之前，请检查与您的许可协议相对应的比例限制。 For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>在执行API调用之前，请检查与您的许可协议相对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 要使用Campaign Standard API，您需要一个Adobe I/O帐户。 这是前进和发现API功能的必备第一步。
-For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
+如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
 
 我们提供的API使用 **标准概念** ，包括REST界面和JSON负载。
 
@@ -43,4 +43,4 @@ For more on this, refer to [this section](../../api/using/setting-up-api-access.
 
 本文档中对所有端点进行了详尽的说明，其中包含了操作API、完整API参考、代码示例和快速入门指南应了解的一般概念。
 
-如果有任何缺失或错误，请询问社 [区](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。
+如果有任何缺失或错误，请询问社 [区](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。
