@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 * [部署包：工作原理](../../developing/using/data-model-concepts.md)
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 第1步：导出结构 {#exporting-the-structure}
+## 导出结构 {#exporting-the-structure}
 
 在本节中，我们将执行第一个包导出，其中详细描述了自定义资源数据的物理结构。
 
