@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
 1. 如果您使用触发器， **[!UICONTROL Places]** 则将根据在Adobe Places中创建的所有库及其目标点自动填充“放置”上下文数据、“放置”自定义元数据或“放置”事件类型。
 
-   请注意，此触发器将仅应用于Experience Platform Launch中“位置扩展”中选定库中的目标点。 有关Places扩展及其安装方法的详细信息，请参阅本 [文档](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension)。
+   请注意，此触发器将仅应用于Experience Platform Launch中“位置扩展”中选定库中的目标点。 有关Places扩展及其安装方法的详细信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在选 **[!UICONTROL Frequency & duration]** 项卡中，选择触发器的频率、开始和结束日期、一周中的某天以及应用程序内消息处于活动状态的一天中的时间。
 
