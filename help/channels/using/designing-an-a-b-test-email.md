@@ -1,19 +1,19 @@
 ---
 title: 设计 A/B 测试电子邮件
 description: 发现A/B测试功能，然后按照以下步骤从Adobe Campaign中的A/B测试模板创建电子邮件。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 电子邮件
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
-context-tags: delivery,abTesting,back;deliveryCreation，向导；delivery,main
+context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
       要收集所有跟踪数据并正确考虑以选择入选变体，测试必须至少为1小时。
    ![](assets/ab_parameters.png)
 
-1. 定义A/B测试参数后，请转到向导中的下一步，然后定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人姓名或多个不同的内容。 使用轮盘在元素的不同变体之间导航。 有关详细信息，请参阅内 [容编辑器](../../designing/using/overview.md) 部分。
+1. 定义A/B测试参数后，请转到向导中的下一步，然后定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人姓名或多个不同的内容。 使用轮盘在元素的不同变体之间导航。 有关详细信息，请参阅内 [容编辑器](../../designing/using/designing-content-in-adobe-campaign.md) 部分。
 
    ![](assets/create_ab_testing2.png)
 
