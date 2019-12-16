@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 >[!NOTE]
 >
->下图显示了如何使用电子邮件设计器加载现 [有内容](../../designing/using/overview.md)。
+>下图显示了如何使用电子邮件设计器加载现 [有内容](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 1. 创建电子邮件或登录页面后，打开其内容。
 1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
@@ -47,7 +47,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
    >[!NOTE]
    >
-   >电子邮 [件设计器使用特定](../../designing/using/overview.md) 的标签。 上传到Campaign的标准HTML内容必须与期望的标记匹配，才能完全兼容并从电子邮件设计器中编辑。 如果不匹配，您的内容将以兼容性模 [式上传](#compatibility-mode)。 要使现有内容兼容，请参 [阅此部分](#editing-existing-contents-with-the-email-designer)。
+   >电子邮 [件设计器使用特定](../../designing/using/designing-content-in-adobe-campaign.md) 的标签。 上传到Campaign的标准HTML内容必须与期望的标记匹配，才能完全兼容并从电子邮件设计器中编辑。 如果不匹配，您的内容将以兼容性模 [式上传](#compatibility-mode)。 要使现有内容兼容，请参 [阅此部分](#editing-existing-contents-with-the-email-designer)。
 
 **相关主题：**
 
@@ -56,7 +56,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 ## 使用电子邮件设计器编辑现有内容{#editing-existing-contents-with-the-email-designer}
 
-要充分利用电子邮件设计器的 [版本可能性](../../designing/using/overview.md)，上传的HTML必须包含使其符合所见即所得编辑器的特定标记。
+要充分利用电子邮件设计器的 [版本可能性](../../designing/using/designing-content-in-adobe-campaign.md)，上传的HTML必须包含使其符合所见即所得编辑器的特定标记。
 
 如果HTML的全部或部分内容没有此标记，则内容随后将以“兼容模式” [加载](#compatibility-mode)。
 
@@ -126,7 +126,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击按 **[!UICONTROL Preview]** 钮。
 
-可以个性化从中检索内容的远程URL。 为此，请按照以下步骤操作：
+可以个性化从中检索内容的远程URL。 为此请执行以下操作步骤：
 
 1. 单击屏幕顶部的电子邮件标签以访问“电子邮件设计器”选 **[!UICONTROL Properties]** 项卡。
 1. 查找字 **[!UICONTROL Remote URL]** 段。
@@ -211,7 +211,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图。 有关此方面的详细信息，请参 [阅此部分](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到移动视图。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    响应式视图因CSS缺失而中断。
 
