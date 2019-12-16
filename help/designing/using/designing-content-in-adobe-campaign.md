@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * 要了解如何创建电子邮件内容，请参 [阅电子邮件设计人员入门](../../designing/using/quick-start.md)。
-* 有关电子邮件设计器的概述，请参阅 [使用电子邮件设计器](../../designing/using/overview.md)。
+* 有关电子邮件设计器的概述，请参阅 [使用电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 有关构建内容的更多信息：
    * 从头开始，请参阅 [从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
    * 使用现有内容，请参阅 [使用现有内容进行设计](../../designing/using/using-existing-content.md)。
