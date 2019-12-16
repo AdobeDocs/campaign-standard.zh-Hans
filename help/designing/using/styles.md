@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -144,7 +144,7 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ### 示例：调整垂直对齐和填充 {#example--adjusting-vertical-alignment-and-padding}
 
-要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此，请按照以下步骤操作：
+要调整由三列组成的结构组件中的填充和垂直对齐方式。 为此请执行以下操作步骤：
 
 1. 直接在电子邮件中或使用左侧调色板中提供的结构树选择结构 **组件**。
 1. 在上下 **文工具栏**，单 **[!UICONTROL Select a column]** 击并选择要编辑的工具栏。 也可以从结构树中选择它。
@@ -172,10 +172,6 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 1. 保存更改。
 
 ## 样式链接 {#about-styling-links}
-
->[!NOTE]
->
->从Campaign Standard 19.4版本开始，将提供此功能。
 
 您可以在电子邮件设计器中为链接添加下划线并选择其颜色和目标。
 
