@@ -12,20 +12,20 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
 
 # 个性化电子邮件内容 {#personalization}
 
-Adobe Campaign提供的内容和消息显示可以通过多种不同的方式进行个性化。 这些方式可以根据条件根据配置文件进行组合。 通常，Adobe Campaign允许您：
+Adobe Campaign提供的内容和消息显示可以通过多种不同的方式进行个性化。 这些方式可以根据条件根据配置文件进行组合。 一般而言，Adobe Campaign 允许您：
 
-* 插入动态个性化字段。 请参 [阅插入个性化字段](#inserting-a-personalization-field)。
+* 插入动态的个性化字段。请参 [阅插入个性化字段](#inserting-a-personalization-field)。
 * 插入预定义的个性化基块。 请参 [阅添加内容块](#adding-a-content-block)。
 * 个性化电子邮件的发送者。 请参 [阅个性化发送者](#personalizing-the-sender)。
 * 个性化电子邮件主题。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* 创建条件内容。 请参阅 [在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)
+* 创建条件性内容。请参阅 [在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)
 
 ## 个性化发送者 {#personalizing-the-sender}
 
@@ -41,7 +41,7 @@ Adobe Campaign提供的内容和消息显示可以通过多种不同的方式进
 
 ## 个性化URL{#personalizing-urls}
 
-Adobe Campaign允许您通过向邮件中添加个性化字段、内容块或动态内容，来个性化消息中的一个或多个URL。 为此，请执行以下操作：
+Adobe Campaign允许您通过向邮件中添加个性化字段、内容块或动态内容，来个性化消息中的一个或多个URL。 操作步骤：
 
 1. 插入外部URL并指定其参数。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)。
 1. 如果未显示，请单击“设置”窗格中选定URL旁边的铅笔以访问个性化选项。
@@ -61,11 +61,11 @@ Adobe Campaign允许您将数据库中的字段插入页面，如配置文件的
 
 >[!NOTE]
 >
->下图显示了如何使用电子邮件设计器插入 [个性化字段](../../designing/using/overview.md) 。
+>下图显示了如何使用电子邮件设计器插入 [个性化字段](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 要向内容添加个性化字段，请执行以下操作：
 
-1. 在文本块内单击，单击上下文 **[!UICONTROL Personalize]** 工具栏中的图标，然后选择 **[!UICONTROL Insert personalization field]**。 有关电子邮件设计器界面的详细信息，请参 [阅此部分](../../designing/using/overview.md#email-designer-interface)。
+1. 在文本块内单击，单击上下文 **[!UICONTROL Personalize]** 工具栏中的图标，然后选择 **[!UICONTROL Insert personalization field]**。 有关电子邮件设计器界面的详细信息，请参 [阅此部分](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign提供预配置内容块的列表。 这些内容块是动态的�
 
 >[!NOTE]
 >
->下图显示了如何使用电子邮件设计器插 [入内容块](../../designing/using/overview.md) 。
+>下图显示了如何使用电子邮件设计器插 [入内容块](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 要添加内容块，请执行以下操作：
 
-1. 在文本块内单击，单击上下文 **[!UICONTROL Personalize]** 工具栏中的图标，然后选择 **[!UICONTROL Insert content block]**。 有关电子邮件设计器界面的详细信息，请参 [阅此部分](../../designing/using/overview.md#email-designer-interface)。
+1. 在文本块内单击，单击上下文 **[!UICONTROL Personalize]** 工具栏中的图标，然后选择 **[!UICONTROL Insert content block]**。 有关电子邮件设计器界面的详细信息，请参 [阅此部分](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
 
    ![](assets/email_content_block_1.png)
 
@@ -182,7 +182,7 @@ Adobe Campaign提供预配置内容块的列表。 这些内容块是动态的�
 
 ## 个性化图像源{#personalizing-an-image-source}
 
-Adobe Campaign允许您根据特定标准个性化消息中的一个或多个图像或使用跟踪功能。 这是通过将个性化字段、内容块或动态内容插入图像源来实现的。 为此，请执行以下操作：
+Adobe Campaign允许您根据特定标准个性化消息中的一个或多个图像或使用跟踪功能。 这是通过将个性化字段、内容块或动态内容插入图像源来实现的。 操作步骤：
 
 1. 在消息内容中插入图像，或选择已存在的图像。
 1. 在图像属性调板中，选中该 **[!UICONTROL Enable personalization]** 选项。
