@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
+source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
 
 ---
 
@@ -32,6 +32,8 @@ source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 重新组织了“设计电子邮件内容”部分。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 可交付性入门指南已集成到核心文档中并进行了更新。 [阅读更多](../../sending/using/about-deliverability.md)
+
+有关如何导出／导入自定义资源的入门指南已集成到核心文档中。 [阅读更多](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 文档更新- 2019年11月 {#doc-updates-november-2019}
 
@@ -86,8 +88,6 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 “交易消息”部分已用最新的UI更新进行了修改，包括使用电子邮件设计器编辑内容。 [阅读更多](../../channels/using/event-transactional-messages.md)
 
 登录页面章节已重新组织。 此外，还新增了一个部分，详细介绍了设置登录页面的步骤。 [阅读更多](../../channels/using/getting-started-with-landing-pages.md)
-
-Audience Manager集成页面已更新以反映 **Declared ID的更改** 。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 文档更新- 2019年9月 {#doc-updates-september-2019}
 
