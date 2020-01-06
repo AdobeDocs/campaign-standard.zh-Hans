@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 配置服务：
 
-1. 从高级菜单 **[!UICONTROL Profiles & audiences]** &gt;中， **[!UICONTROL Services]** 通过Adobe Campaign徽标添加新服务或选择现有服务。 如果创建新服务，只需按照屏幕上显示的步骤操作。
+1. 从高级菜单 **[!UICONTROL Profiles & audiences]**>中，**[!UICONTROL Services]** 通过Adobe Campaign徽标添加新服务或选择现有服务。 如果创建新服务，只需按照屏幕上显示的步骤操作。
 
-   默认服务模板可用。 此模板已预配置默认登录页面和确认电子邮件。 您可以创建其他模板来定义特定配置。 有关详细信息，请参阅管理模 [板部分](../../start/using/about-templates.md) 。
+   默认服务模板可用。 此模板已预配置默认登录页面和确认电子邮件。 您可以创建其他模板来定义特定配置。 有关详细信息，请参阅管理模 [板部分](../../start/using/marketing-activity-templates.md) 。
 
-1. 在通过 **[!UICONTROL Service properties]** 服务功能板中的按钮 ![](assets/edit_darkgrey-24px.png) 访问的部分中，为订阅和取消订阅配置确认消息。
+1. 在通过 **[!UICONTROL Service properties]**服务功能板中的按钮![](assets/edit_darkgrey-24px.png)访问的部分中，为订阅和取消订阅配置确认消息。
 
    ![](assets/lp_service_parameters.png)
 
-1. 填写字 **[!UICONTROL Service label]** 段。 使用自定义确认消息时，服务标签是必填的。
+1. 填写字 **[!UICONTROL Service label]**段。 使用自定义确认消息时，服务标签是必填的。
 
 1. 为订阅和取消订阅选择确认消息模板。 有三种模式可用：
 
@@ -41,9 +41,9 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
       >[!NOTE]
       >
-      >在选中该框后，您可以通过单击部分中的默认消息标签或从 **[!UICONTROL Service properties]** Adobe Campaign事务性消息列表中选择默认消息来修改默认消 **[!UICONTROL Show internal transactional messages]** 息。
+      >在选中该框后，您可以通过单击部分中的默认消息标签或从 **[!UICONTROL Service properties]**Adobe Campaign事务性消息列表中选择默认消息来修改默认消**[!UICONTROL Show internal transactional messages]** 息。
 
-   * **[!UICONTROL Custom message]**:此模式允许您处理特定于每个服务的自定义确认消息。 然后，选择与 **[!UICONTROL Custom subscription event configuration]** 特定事务消息模板关 [联的](../../channels/using/about-transactional-messaging.md) 。 有关此功能的详细信息，请参 [阅确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
+   * **[!UICONTROL Custom message]**:此模式允许您处理特定于每个服务的自定义确认消息。 然后，选择与**[!UICONTROL Custom subscription event configuration]** 特定事务消息模板关 [联的](../../channels/using/about-transactional-messaging.md) 。 有关此功能的详细信息，请参 [阅确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
 
 1. 保存服务。 它现已准备好使用。
 
