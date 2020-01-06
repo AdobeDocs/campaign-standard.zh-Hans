@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -111,7 +111,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 描述内容模板和片段的部分已更新。 [阅读更多](../../designing/using/using-reusable-content.md#content-templates)
 
-新增了有关如何在电子邮件设计器中将电子邮件内容另存为模板的部分。 [阅读更多](../../start/using/about-templates.md#saving-content-as-template)
+新增了有关如何在电子邮件设计器中将电子邮件内容另存为模板的部分。 [阅读更多](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## 19.3版- 2019年7月 {#release-19-3---july-2019}
 
@@ -365,7 +365,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 本节现在提供HTML属性列表，以便完全符合Creative Designer的要 [求](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)。
 
-添加了多语言模板的默认语言信息。 [阅读更多](../../start/using/creating-a-multilingual-template.md)
+添加了多语言模板的默认语言信息。 [阅读更多](../../channels/using/multilingual-messages-template.md)
 
 用户和安全指南已更新，以反映新Campaign standard实例以及从18.7版本开始未创建地理单位的现有实例的地理单位功能的折旧。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -473,15 +473,15 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 发行说明已在两个页面中重新进行了组织，这样您就可以获得所有不同发行版的更全局视图：最 [新发行说明](../../rn/using/release-notes.md) 和先 [前发行说明](../../rn/using/release-notes-2015-2016.md)
 
-该部 **[!UICONTROL Working with typologies]** 分已更新，以提高可见性。 [阅读更多](../../administration/using/about-typology-rules.md)
+该部 **[!UICONTROL Working with typologies]**分已更新，以提高可见性。[阅读更多](../../administration/using/about-typology-rules.md)
 
-现在提供了一个新选项，允许在中定义许多其他数据时获 **[!UICONTROL Query]** 得性能。 [阅读更多](../../automating/using/query.md)
+现在提供了一个新选项，允许在中定义许多其他数据时获 **[!UICONTROL Query]**得性能。[阅读更多](../../automating/using/query.md)
 
 配置文件导入示例已更新，其中包含一些提示，可让您的配置文件随时收到直接电子邮件。 [阅读更多](../../automating/using/importing-data.md)
 
-工作流中提供了新活动：活 **[!UICONTROL Enrichment]** 动。 [阅读更多](../../automating/using/enrichment.md)
+工作流中提供了新活动：活 **[!UICONTROL Enrichment]**动。[阅读更多](../../automating/using/enrichment.md)
 
-已更 **[!UICONTROL Subscription Services]** 新活动以支持更多用例，包括使用单个文件更新对多个服务的订阅。 [阅读更多](../../automating/using/subscription-services.md)
+已更 **[!UICONTROL Subscription Services]**新活动以支持更多用例，包括使用单个文件更新对多个服务的订阅。[阅读更多](../../automating/using/subscription-services.md)
 
 添加了有关如何准备交付的分步使用案例。 [阅读更多](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 添加了有关如何根据重复工作流中用户的时区发送分发的信息。 [阅读更多](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-使用分 **[!UICONTROL Customizing a push notification]** 步使用案例重新组织了该部分。 [阅读更多](../../channels/using/customizing-a-push-notification.md)
+使用分 **[!UICONTROL Customizing a push notification]**步使用案例重新组织了该部分。[阅读更多](../../channels/using/customizing-a-push-notification.md)
 
 专门用于黑名单管理的新部分。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
