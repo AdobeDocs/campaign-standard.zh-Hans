@@ -1,19 +1,19 @@
 ---
 title: 品牌
 description: 发现所有可用于管理品牌标识的工具。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
-context-tags: 品牌，概述；品牌，主
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 配置和使用品牌的主要原则是：
 
 1. 创建和配置品牌——此操作需要特定权限，并由Adobe Campaign技术管理员执行。
-1. 为此品牌创建一个或多个交付和登录页面模板。 请参阅创 [建模板部分](../../start/using/about-templates.md) 。
+1. 为此品牌创建一个或多个交付和登录页面模板。 请参阅创 [建模板部分](../../start/using/marketing-activity-templates.md) 。
 1. 根据此模板创建消息和登陆页面。 请参阅创 [建电子邮件](../../channels/using/creating-an-email.md)[和创建登录页面](../../channels/using/designing-a-landing-page.md) 。
 
 >[!CAUTION]
 >
 >不能由最终用户创建或修改品牌：这些操作必须由Adobe Campaign技术管理员执行。 如需任何请求，请联系Adobe客户关怀。 不能在交易消息的上下文中使用多品牌。 有关此方面的详细信息，请参 [阅交易消息和品牌推广](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
-品牌位于菜单 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中。
+品牌位于菜单 **[!UICONTROL Administration > Instance settings > Brand configuration]**中。
 
 默认情况下，新创建的品牌仅对管理员分配了相应权限的用户可见。
 
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **网站URL** 和品 **牌的网站** “标签”
    * **品牌徽标**
 
-* **[!UICONTROL Header parameters of sent emails]** 个性化营销活动收件人将看到的内容。 此部分包含以下字段：
+* **[!UICONTROL Header parameters of sent emails]**个性化营销活动收件人将看到的内容。 此部分包含以下字段：
 
    ![](assets/branding_04_header.png)
 
@@ -88,11 +88,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->有关创建模板的详细信息，请参阅创 [建模板一节](../../start/using/about-templates.md) 。
+>有关创建模板的详细信息，请参阅创 [建模板一节](../../start/using/marketing-activity-templates.md) 。
 
 创建模板后，您可以将其链接到品牌。 操作步骤：
 
-1. 单击该 **[!UICONTROL Edit properties]** 按钮可访问模板属性。
+1. 单击该 **[!UICONTROL Edit properties]**按钮可访问模板属性。
 
    ![](assets/branding_04.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >默认情况下，将 **[!UICONTROL Default brand (branding)]** 选中该选项。
+   >默认情况下，将 **[!UICONTROL Default brand (branding)]**选中该选项。
 
    ![](assets/branding_05.png)
 
-   要查看所选品牌的配置方式，请单击该 **[!UICONTROL Navigate to the detail of the element selected]** 图标。
+   要查看所选品牌的配置方式，请单击该 **[!UICONTROL Navigate to the detail of the element selected]**图标。
 
    ![](assets/branding_06.png)
 
@@ -122,7 +122,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >品牌配置仅由Adobe管理，因为它需要特定权限和技术设置。
 
-1. Adobe Campaign管理员可在中创建品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他从高级菜 **单中添加“热带度假** ”元素，并配置 **[!UICONTROL ID]** 品牌和品 **[!UICONTROL Header parameters of sent emails]** 牌的品牌。
+1. Adobe Campaign管理员可在中创建品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他从高级菜**&#x200B;单中添加“热带度假&#x200B;**”元素，并配置**[!UICONTROL ID]** 品牌和品 **[!UICONTROL Header parameters of sent emails]**牌的品牌。
 
    ![](assets/branding_07.png)
 
@@ -138,7 +138,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 作为交付经理，您负责创建交付模板以使用新品牌。 要实现此目的，请按照以下步骤操作：
 
-1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;中，复制内置模板以配置新的分发模板。
+1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]**中，复制内置模板以配置新的分发模板。
 
    ![](assets/branding_08.png)
 
@@ -157,11 +157,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要创建链接到品牌的电子邮件，请执行以下步骤：
 
-1. 单击菜 **[!UICONTROL Create]** 单中的按 **[!UICONTROL Marketing activities]** 钮。
+1. 单击菜 **[!UICONTROL Create]**单中的按**[!UICONTROL Marketing activities]** 钮。
 
    ![](assets/branding_14.png)
 
-1. 选择活 **[!UICONTROL Email]** 动，然后选择链接到新品牌的模板。
+1. 选择活 **[!UICONTROL Email]**动，然后选择链接到新品牌的模板。
 
    ![](assets/branding_15.png)
 
