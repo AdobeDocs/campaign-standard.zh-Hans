@@ -1,19 +1,19 @@
 ---
 title: 组织单位
 description: 使用组织单位定义用户的访问级别。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 用户和安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
-context-tags: orgUnit，概述；orgUnit，主要；geoUnit，概述；geoUnit，主要
+context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->如果用户未链接到任何设备，该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问，请勿将其链接到设 **[!UICONTROL All]** 备。
+>如果用户未链接到任何设备，该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问，请勿将其链接到设 **[!UICONTROL All]**备。
 
 用户对父单元中的所有对象具有只读访问权限。 他对单位和儿童单位的所有物品都有读写权限。 用户无权访问并行分支中的对象。
 
-默认情况下，只有 **[!UICONTROL All]** 单位可用。
+默认情况下，只有 **[!UICONTROL All]**单位可用。
 
 为用户分配了组织单元后，此单元将始终应用于用户创建的对象。
 
@@ -48,30 +48,30 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 我们现在需要为Geometrixx Chastes和Geometrixx安全组创建组织单位：
 
-1. 从Adobe Campaign高级菜单中，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & security]** &gt; **[!UICONTROL Organizational units]**。
-1. 单击 **[!UICONTROL Create]** 以开始配置您的组织单位。
+1. 从Adobe Campaign高级菜单中，选择 **[!UICONTROL Administration]**>**[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
+1. 单击 **[!UICONTROL Create]**以开始配置您的组织单位。
 
    ![](assets/manage_units_1.png)
 
-1. 将默认值更 **[!UICONTROL Label]** 改为 **[!UICONTROL ID]** Geometrixx。
+1. 将默认值更 **[!UICONTROL Label]**改为**[!UICONTROL ID]** Geometrixx。
 1. 然后，将此单元链接到父单元。 我们选择了 **[!UICONTROL All]**。
 
    ![](assets/manage_units_2.png)
 
-1. 最后，单击 **[!UICONTROL Create]** 开始将新的组织单元分配给安全组。
+1. 最后，单击 **[!UICONTROL Create]**开始将新的组织单元分配给安全组。
 1. 对于Geometrixx Chastes单元，请按照相同的过程操作，但其父单元必须是先前创建的单元，Geometrixx。
 
    ![](assets/manage_units_3.png)
 
 要了解将不同设备分配给不同安全组的影响，分配给管理员和Geometrixx组的用户将创建两个电子邮件模板，以查看分配给标准用户和Geometrixx服装的其他用户可以访问或无法访问的内容。
 
-1. 从高级菜单中，选择 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery Templates]**。
-1. 复制现有模板并根据需要对其进行个性化设置。 有关此信息的详细信息，请参阅“关于 [模板](../../start/using/about-templates.md) ”部分。
-1. 创建模板后，选择图 **[!UICONTROL Edit properties]** 标以将单位分配给模板。
+1. 从高级菜单中，选择 **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
+1. 复制现有模板并根据需要对其进行个性化设置。 有关此信息的详细信息，请参阅“关于 [模板](../../start/using/marketing-activity-templates.md) ”部分。
+1. 创建模板后，选择图 **[!UICONTROL Edit properties]**标以将单位分配给模板。
 
    ![](assets/manage_units_6.png)
 
-1. 在下拉 **[!UICONTROL Access authorization]** 菜单中，选择组织单位。
+1. 在下拉 **[!UICONTROL Access authorization]**菜单中，选择组织单位。
 
    在此，我们将使用先前创建的组织单元Geometrixx创建一个模板。
 
@@ -87,7 +87,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/manage_units_8.png)
 
-组织单位可以限制对不同功能（如配置文件）的访问。 例如，如果我们的Geometrixx Chastes用户访问该选项卡， **[!UICONTROL Profiles]** 他将能够完全访问并修改Geometrixx Chastes组织单位的配置文件。
+组织单位可以限制对不同功能（如配置文件）的访问。 例如，如果我们的Geometrixx Chastes用户访问该选项卡， **[!UICONTROL Profiles]**他将能够完全访问并修改Geometrixx Chastes组织单位的配置文件。
 
 而具有Geometrixx组织单位的配置文件将为只读配置文件，但如果我们的用户尝试修改一个配置文件，则会出现以下错误： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
@@ -105,16 +105,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >我们建议在导入任何配置文件之前添加此选项。 如果您已经导入客户数据库，则必须进行更新，以便在已导入的配置文件中设置组织单位值。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择“管理”&gt;“ **开发”&gt;“自定义资源”**。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择“管理”>“ **开发”>“自定义资源”**。
 1. 选择 **配置文件** ，或创建新的自定义资源以扩展配置文件。
 1. 选中“ **添加访问授权管理字段** ”框，以在“配置文件扩展”中添加组 **织单位** 。
 
    ![](assets/user_management_9.png)
 
-1. Click **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**.
 1. 通过重新发布自定义资源来更新结构。 有关发布过程的详细信息，请参阅 [更新结构部分](../../developing/using/data-model-concepts.md) 。
 
-组织单位字段将添加到部分中的配置 **[!UICONTROL Access authorization]** 文件。
+组织单位字段将添加到部分中的配置 **[!UICONTROL Access authorization]**文件。
 
 ![](assets/user_management_10.png)
 
