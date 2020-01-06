@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + 营销计划 {#marketing-plans}
       + [计划和营销活动](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
+      + [营销活动模板](start/using/marketing-activity-templates.md)
       + [时间线](start/using/timeline.md)
-   + 管理模板 {#managing-templates}
-      + [关于模板](start/using/about-templates.md)
-      + [创建新模板](start/using/creating-a-new-template.md)
-      + [创建多语言模板](start/using/creating-a-multilingual-template.md)
-      + [使用模板](start/using/using-a-template.md)
    + 教程 {#tutorials}
       + [逐步指南](start/using/step-by-step-guides.md)
       + [操作说明视频](start/using/how-to-videos.md)
