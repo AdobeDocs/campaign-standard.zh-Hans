@@ -1,19 +1,19 @@
 ---
 title: 构建工作流
 description: 本节详细介绍了创建新工作流的主要原则和最佳做法。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: 工作流，向导；工作流，主
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >默认情况下，每个营销活动提供多种类型。 这些参数允许您根据需要预配置某些参数。 有关详细信息，请参阅管理模 [板一节](../../start/using/about-templates.md) 。
+   >默认情况下，每个营销活动提供多种类型。 这些参数允许您根据需要预配置某些参数。 有关详细信息，请参阅管理模 [板一节](../../start/using/marketing-activity-templates.md) 。
 
 1. 输入工作流的常规属性。
 
@@ -95,7 +95,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 将工作流活动关联在一起后，您便可以使用您选择的标签个性化它们 **之间的** 过渡。 为此，请双击过渡以访问其属性。
 
-此外，活 **[!UICONTROL Targeting]** 动 **[!UICONTROL Data management (ETL)]** 允许您为其出站过 **渡定义段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外，活 **[!UICONTROL Targeting]**动**[!UICONTROL Data management (ETL)]** 允许您为其出站过 **渡定义段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流使用案例：**
 
@@ -109,7 +109,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 默认情况下，活动未设置，如果未配置，则无法正确处理数据。 每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如出站过渡、标签等。
 
 1. 确保所有活动都正确连接。 某些活动需要检测传入数据的结构或性质以提供正确的配置选项。
-1. 双击某个活动或选择该活动，然后单击上下文 **[!UICONTROL Edit]** 操作以打开其配置窗口。
+1. 双击某个活动或选择该活动，然后单击上下文 **[!UICONTROL Edit]**操作以打开其配置窗口。
 1. 编辑活动的标签。
 1. 定义处理数据所需的所有不同选项。 请参阅本文档中活动的特定部分，了解每个活动的可能选项。
 1. 保存活动，并为工作流的每个活动重复这些操作。
