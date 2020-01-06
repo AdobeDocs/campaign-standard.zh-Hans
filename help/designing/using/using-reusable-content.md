@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
 
 ---
 
@@ -24,15 +24,30 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 >[!NOTE]
 >
-> 在Adobe Campaign Standard中，您可以创建可从“资源” **&gt;“模板”菜单访问的不** 同类型 **的** 模板。 电子邮件设计器中使用的模板是内容模板。 有关详细信息，请参阅 [关于模板](../../start/using/about-templates.md)。
+> 在Adobe Campaign Standard中，您可以创建可从“资源” **>“模板”菜单访问的不** 同类型 **的** 模板。 电子邮件设计器中使用的模板是内容模板。 有关详细信息，请参阅 [关于模板](../../start/using/marketing-activity-templates.md)。
 
-### 内容模板 {#content-templates}
+### 关于内容模板 {#content-templates}
 
-您可以管理将在“电子邮件设计器”主页的选 **[!UICONTROL Templates]** 项卡中提供 [的HTML内容](../../designing/using/designing-content-in-adobe-campaign.md) 。 不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](#content-templates)。
+您可以管理电子邮件设计器主页 **[!UICONTROL Templates]**选项卡中提[供的HTML内容](../../designing/using/designing-content-in-adobe-campaign.md)。
+
+现成的电子邮件内容模板包括十八个针对移动设备优化的布局和四个由Behance艺术家设计的一流响应式模板。 它们与最新的使用方式（如客户欢迎消息、新闻稿和重新参与电子邮件等）相对应。 您可以根据品牌内容轻松自定义这些内容，从而简化从头开始设计电子邮件的过程。
 
 ![](assets/template_content.png)
 
-要了解如何从现成模板构建电子邮件，请参阅电子邮 [件设计器](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)。
+HTML内容模板可从“高级”菜单 **[!UICONTROL Resources]**的>**[!UICONTROL Content templates & fragments]** 屏幕 [访问](../../start/using/interface-description.md#advanced-menu)。 您可以从中管理登陆页面内容模板、电子邮件内容模板以及片段。
+
+![](assets/content_templates_list.png)
+
+现成内容模板为只读模板。 要编辑其中一个模板，您必须首先复制所需的模板。
+
+您可以创建新模板或片段，并定义您自己的内容。 有关此内容的详细信息，请 [参阅创建内容模板](#creating-a-content-template)[和创建内容片段](#creating-a-content-fragment)。
+
+在使用电子邮件设计器编辑内容时，您还可以通过将内容另存为片段或模板来创建内容模板。 有关详细信息，请参 [阅将内容另存为模板](#saving-content-as-template) , [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+
+**相关主题：**
+
+* 了解如何在此视频中个性化 [内容模板](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
+* 有关编辑内容的详细信息，请参阅关于 [电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -40,28 +55,28 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 以下示例演示如何创建电子邮件内容模板。
 
-1. 转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**。
-1. 单击电子邮件标签以访问电子 **[!UICONTROL Properties]** 邮件设计器的选项卡。
+1. 转到 **[!UICONTROL Resources]**>并**[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**。
+1. 单击电子邮件标签以访问电子 **[!UICONTROL Properties]**邮件设计器的选项卡。
 1. 指定可识别的标签，并选择以下参数以便能够在电子邮件中使用此模板：
 
-   * 从 **[!UICONTROL Shared]** 下拉 **[!UICONTROL Delivery]** 列表 **[!UICONTROL Content type]** 中选择或。
-   * 从下 **[!UICONTROL Template]** 拉列 **[!UICONTROL HTML type]** 表中进行选择。
+   * 从 **[!UICONTROL Shared]**下拉**[!UICONTROL Delivery]** 列表 **[!UICONTROL Content type]**中选择或。
+   * 从下 **[!UICONTROL Template]**拉列**[!UICONTROL HTML type]** 表中进行选择。
    ![](assets/email_designer_create-template.png)
 
-1. 如果需要，您可以设置一幅图像，该图像将用作模板的缩略图。 从模板属性的选 **[!UICONTROL Thumbnail]** 项卡中选择它。
+1. 如果需要，您可以设置一幅图像，该图像将用作模板的缩略图。 从模板属性的选 **[!UICONTROL Thumbnail]**项卡中选择它。
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此缩略图将显示在“电子邮 **[!UICONTROL Templates]** 件设计器”主 [页的选项卡中](../../designing/using/designing-content-in-adobe-campaign.md) 。
+   此缩略图将显示在“电子邮 **[!UICONTROL Templates]**件设计器”主[页的选项卡中](../../designing/using/designing-content-in-adobe-campaign.md)。
 
-1. 关闭选 **[!UICONTROL Properties]** 项卡以返回到主工作区。
+1. 关闭选 **[!UICONTROL Properties]**项卡以返回到主工作区。
 1. 添加结构组件和内容组件，您可以根据需要自定义这些组件和内容组件。
    >[!NOTE]
    >
    > 不能在内容模板中插入个性化字段或条件内容。
 1. 编辑后，保存模板。
 
-此模板现在可用于使用电子邮件设计器构建的任何电子邮件。 从“电子邮件设计 **[!UICONTROL Templates]** 器”主页的选 [项卡中选择](../../designing/using/designing-content-in-adobe-campaign.md) 。
+此模板现在可用于使用电子邮件设计器构建的任何电子邮件。 从“电子邮件设计 **[!UICONTROL Templates]**器”主页的选[项卡中选择](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 ![](assets/content_template_new.png)
 
@@ -73,7 +88,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. 从“电 **[!UICONTROL Save as template]** 子邮件设计器”主工具栏中进行选择。
+1. 从“电 **[!UICONTROL Save as template]**子邮件设计器”主工具栏中进行选择。
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -81,9 +96,9 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. 要查找您刚刚创建的模板，请转至 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
+1. 要查找您刚刚创建的模板，请转至 **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**。
 
-1. 要使用新模板，请从“电子邮件设计器”主 **[!UICONTROL Templates]** 页的选项卡 [中选择它](../../designing/using/designing-content-in-adobe-campaign.md) 。
+1. 要使用新模板，请从“电子邮件设计器”主 **[!UICONTROL Templates]**页的选项卡[中选择它](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    ![](assets/content_template_new.png)
 
@@ -97,11 +112,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   如果您熟悉HTML代码，Adobe建议您利用 **[!UICONTROL Html]** 组件复制粘贴原始电子邮件中较复杂的元素。 将其他组件( **[!UICONTROL Button]**&#x200B;如 **[!UICONTROL Image]** 或 **[!UICONTROL Text]** 用于其余内容)。 有关此内容的详细信息，请参 [阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   如果您熟悉HTML代码，Adobe建议您利用 **[!UICONTROL Html]**组件复制粘贴原始电子邮件中较复杂的元素。 将其他组件(**[!UICONTROL Button]**&#x200B;如 **[!UICONTROL Image]**或**[!UICONTROL Text]** 用于其余内容)。 有关此内容的详细信息，请参 [阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
    >[!NOTE]
    >
-   >使用组 **[!UICONTROL Html]** 件可创建可编辑且选项有限的组件。 在选择此组件之前，请确保您知道如何处理HTML代码。
+   >使用组 **[!UICONTROL Html]**件可创建可编辑且选项有限的组件。 在选择此组件之前，请确保您知道如何处理HTML代码。
 
 1. 调整内容组件，尽可能与原始电子邮件匹配。
 
@@ -128,7 +143,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 ## 关于片段 {#about-fragments}
 
 片段是可重用的组件，可在一个或多个电子邮件中引用。
-可以在“资源” **&gt;“内容片段和模板”下** 的界面中找到这些片段 ****。
+可以在“资源” **>“内容片段和模板”下** 的界面中找到这些片段 ****。
 
 要在电子邮件设计器中充分利用片段，请执行以下操作：
 
@@ -180,34 +195,34 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 您可以根据需要在一个或多个电子邮件中创建您自己的内容片段。
 
-1. 转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**。
-1. 单击电子邮件标签以访问电子 **[!UICONTROL Properties]** 邮件设计器的选项卡。
+1. 转到 **[!UICONTROL Resources]**>并**[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**。
+1. 单击电子邮件标签以访问电子 **[!UICONTROL Properties]**邮件设计器的选项卡。
 1. 指定可识别的标签，并选择以下参数以在编辑电子邮件内容时查找片段：
 
-   * 由于片段仅与电子邮件兼容，因此请 **[!UICONTROL Delivery]** 从下拉列 **[!UICONTROL Content type]** 表中进行选择。
-   * 从下 **[!UICONTROL Fragment]** 拉列 **[!UICONTROL HTML type]** 表中进行选择，以便能够将此内容用作片段。
+   * 由于片段仅与电子邮件兼容，因此请 **[!UICONTROL Delivery]**从下拉列**[!UICONTROL Content type]** 表中进行选择。
+   * 从下 **[!UICONTROL Fragment]**拉列**[!UICONTROL HTML type]** 表中进行选择，以便能够将此内容用作片段。
    ![](assets/email_designer_createfragment.png)
 
-1. 如果需要，您可以设置一幅将用作片段缩略图的图像。 从模板属性的选 **[!UICONTROL Thumbnail]** 项卡中选择它。
+1. 如果需要，您可以设置一幅将用作片段缩略图的图像。 从模板属性的选 **[!UICONTROL Thumbnail]**项卡中选择它。
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    编辑电子邮件时，此缩略图将显示在片段标签旁边。
 
-1. 关闭选 **[!UICONTROL Properties]** 项卡以返回到主工作区。
+1. 关闭选 **[!UICONTROL Properties]**项卡以返回到主工作区。
 1. 添加结构组件和内容组件，您可以根据需要自定义这些组件和内容组件。
 
    >[!CAUTION]
    >
    >片段不能包括个性化字段、动态内容或其他片段。
    >
-   >避免另存为具有空结构组件的片段内容。 插入&gt;fragment后，它们便不可编辑。
+   >避免另存为具有空结构组件的片段内容。 插入>fragment后，它们便不可编辑。
    >
    >移 [动视图](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) （片段）不可用。
 
 1. 编辑后，保存您的片段。
 
-此片段现在可用于使用电子邮件设计器构建的任何电子邮件。 它显示在“调 **[!UICONTROL Fragments]** 色板”部分下。
+此片段现在可用于使用电子邮件设计器构建的任何电子邮件。 它显示在“调 **[!UICONTROL Fragments]**色板”部分下。
 
 >[!NOTE]
 >
@@ -221,7 +236,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 只能选择彼此相邻的结构。
 <!-- - You cannot select an empty structure.-->
 
-1. 在电子邮件设计器中编辑电子邮件时，从主 **[!UICONTROL Save as fragment]** 工具栏中进行选择。
+1. 在电子邮件设计器中编辑电子邮件时，从主 **[!UICONTROL Save as fragment]**工具栏中进行选择。
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -234,13 +249,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    >确保选择彼此相邻且不包含个性化字段、动态内容或其他片段的结构。
    <!--You cannot select an empty structure.-->
 
-1. Click **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**.
 
 1. 根据需要添加标签和说明，然后单击 **[!UICONTROL Save]**。
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. 要查找您刚刚创建的片段，请转到 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
+1. 要查找您刚刚创建的片段，请转到 **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**。
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
@@ -273,7 +288,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 为此请执行以下操作步骤：
 
-1. 在Adobe Campaign中，转到 **[!UICONTROL Resources]** &gt;并 **[!UICONTROL Content templates & fragments]** 为标题创建片段。 有关此内容的详细信息，请 [参阅创建内容片段](#creating-a-content-fragment)。
+1. 在Adobe Campaign中，转到 **[!UICONTROL Resources]**>并**[!UICONTROL Content templates & fragments]** 为标题创建片段。 有关此内容的详细信息，请 [参阅创建内容片段](#creating-a-content-fragment)。
 1. 向片段添加所需数量的结构组件。
 
 ![](assets/des_loading_compatible_fragment_1.png)
