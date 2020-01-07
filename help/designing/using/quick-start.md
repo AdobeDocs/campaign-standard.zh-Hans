@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
+source-git-commit: cc42e1ac6ed7570817163e2782e42258fa617a22
 
 ---
 
@@ -38,17 +38,22 @@ source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ## 使用编辑器设计电子邮件 {#without-existing-content}
 
+>[!NOTE]
+>
+>在这两种创建策略中，在发送电子邮件之前填写主题行至关重要。 了解如何 [添加主题行](#add-a-subject-line)。
+
 ### 从头开始创建电子邮件 {#from-scratch-email}
 
 您可以轻松创建电子邮件、添加组件和个性化其内容以快速发送交付。 您可以根据需要调整样式选项以适应您的内容。 有关管理样式设置和内联属性的更多信息，请参阅编 [辑电子邮件样式](../../designing/using/styles.md)。
+
+1. 创建电子邮件。
+1. 关闭主页。
 
 ### 添加主题行 {#add-a-subject-line}
 
 在发送电子邮件时，主题行是必填的。 有关详细信息，请 [参阅定义电子邮件的主题行](../../designing/using/subject-line.md)。
 
-1. 创建电子邮件。
-1. 关闭主页。
-1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
+1. 转到“电 **[!UICONTROL Properties]**子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该**[!UICONTROL Subject]** 部分。
 
 ![](assets/subject-line-quick-start.png)
 
@@ -94,7 +99,7 @@ source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ![](assets/html-component-source-code.png)
 
-如果您熟悉HTML，则可以使用内容组件从原始页脚复制并粘贴HTML **[!UICONTROL Html]** 代码。 有关此内容的详细信息，请参 [阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+如果您熟悉HTML，则可以使用内容组件从原始页脚复制并粘贴HTML **[!UICONTROL Html]**代码。 有关此内容的详细信息，请参[阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -117,12 +122,12 @@ source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 您可以从现成模板（如客户欢迎信息、新闻稿和重新参与电子邮件）构建电子邮件，并对其进行个性化设置。
 
 1. 创建电子邮件并打开其内容。 有关此方面的详细信息，请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)。
-1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
-1. 单击选 **[!UICONTROL Templates]** 项卡。
+1. 单击主页图标以访问 **[!UICONTROL Email Designer]**主页。
+1. 单击选 **[!UICONTROL Templates]**项卡。
 1. 选择现成的HTML模板。
 不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
-1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
-1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并从上下文工具栏中单击来复制 **[!UICONTROL Duplicate]** 电子邮件部分。
+1. 转到“电 **[!UICONTROL Properties]**子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该**[!UICONTROL Subject]** 部分。
+1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并从上下文工具栏中单击来复制 **[!UICONTROL Duplicate]**电子邮件部分。
 1. 您可以使用左边的蓝色箭头将结构组件拖动到另一个组件下方或上方，从而移动元素。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 您还可以移动组件来更改每个结构元素的组织。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 根据您的需求修改每个元素的内容：图像、文本、链接。
