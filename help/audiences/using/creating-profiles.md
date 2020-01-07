@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 要在Campaign中创建或更新配置文件，您可以：
 
-* 通过工作流从文件导入配置文件列 [表](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* 通过工作流从文件导入配置文件列 [表](../../automating/using/importing-data.md#example--import-workflow-template)
 * 通过登陆页面在线收 [集数据](../../channels/using/getting-started-with-landing-pages.md)
 * 通过 [REST API批量创建](../../api/using/about-campaign-standard-apis.md)
 * 从 [Microsoft Dynamics同步配置文件](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
@@ -44,14 +44,14 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    ![](assets/profile_creation1.png)
 
    * 联系信息，如名字、姓氏、性别、出生日期、照片、首选语言(针对多语种电子邮 [件](../../channels/using/creating-a-multilingual-email.md))，有助于更好地个性化交付。
-   * 配置文件的 **[!UICONTROL Time zone]** 用于在配置文件的时区发送交付。 For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * 该类 **[!UICONTROL Channels]** 别包含电子邮件地址、手机号码和退出信息，可让您了解访问配置文件的渠道。
-   * 一 **[!UICONTROL No longer contact]** 旦配置文件取消订阅渠道，该类别即会更新。
-   * 该 **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此配置 **[!UICONTROL Address specified]** 文件发送 [直邮的选项](../../channels/using/about-direct-mail.md) 。 如果未选 **[!UICONTROL Address specified]** 中此选项，则此配置文件将从每封直邮中排除。
-   * 该类 **[!UICONTROL Access authorization]** 别指示配置文件的组织单位(以管 [理权限](../../administration/using/about-access-management.md))。 另请参阅分 [区配置文件](../../administration/using/organizational-units.md#partitioning-profiles)。
-   * 该类 **[!UICONTROL Traceability]** 别会自动更新，其中包含有关创建或修改配置文件的用户的信息。
+   * 配置文件的 **[!UICONTROL Time zone]**用于在配置文件的时区发送交付。 For more on this, refer to this[section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * 该类 **[!UICONTROL Channels]**别包含电子邮件地址、手机号码和退出信息，可让您了解访问配置文件的渠道。
+   * 一 **[!UICONTROL No longer contact]**旦配置文件取消订阅渠道，该类别即会更新。
+   * 该 **[!UICONTROL Address]**类别包含需要填写的邮政地址以及向此配置**[!UICONTROL Address specified]** 文件发送 [直邮的选项](../../channels/using/about-direct-mail.md) 。 如果未选 **[!UICONTROL Address specified]**中此选项，则此配置文件将从每封直邮中排除。
+   * 该类 **[!UICONTROL Access authorization]**别指示配置文件的组织单位(以管[理权限](../../administration/using/about-access-management.md))。 另请参阅分[区配置文件](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * 该类 **[!UICONTROL Traceability]**别会自动更新，其中包含有关创建或修改配置文件的用户的信息。
 
-1. Click **[!UICONTROL Create]** to save the profile.
+1. 单击 **[!UICONTROL Create]**以保存配置文件。
 
 配置文件现在将显示在列表中。
 
@@ -68,5 +68,4 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 **相关主题：**
 
 * [关于登陆页面](../../channels/using/getting-started-with-landing-pages.md) ，分步指南
-* [导入配置文件](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-
+* [“导入配置文件](https://video.tv.adobe.com/v/24993?captions=chi_hans) ”视频
