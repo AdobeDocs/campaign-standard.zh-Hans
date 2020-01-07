@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -15,17 +15,13 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ## 新增功能
 
-* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
+* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>L解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
-* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-了解与交付设计和发送相关的最佳实践的更多信息。
+* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
 
-* **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-请查阅重新组织的电子邮件设计工具文档。
+* **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>请查阅重新组织的电子邮件设计工具文档。
 
-* **[登陆页面](channels/using/getting-started-with-landing-pages.md)**<br/>
-了解有关如何设置登陆页面的更多信息。
+* **[Campaign Standard移动指南了](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>解有关移动交付的一般准则的更多信息。
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
