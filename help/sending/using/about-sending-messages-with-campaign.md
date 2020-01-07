@@ -1,18 +1,18 @@
 ---
 title: 关于使用 Campaign 发送消息
 description: 发现测试和发送消息的不同步骤。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
+audience: sending
+content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a297570d9b
+discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -40,5 +40,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [管理测试用户档案和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [优化您的交付能力](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [优化您的交付能力](../../sending/using/about-deliverability.md)
