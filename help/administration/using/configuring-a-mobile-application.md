@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -25,13 +25,15 @@ source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 * 要仅发送推送通知，您可以使用SDK V4配置Adobe Campaign与Adobe Mobile service之间的集成。 请参 [阅使用SDK V4](#using-sdk-v4)。
 
-在Adobe Campaign中通过利用Experience Cloud Mobile SDK V4或Experience Platform SDK设置移动应用程序后，需要由管理员在 [!UICONTROL Administration] &gt; [!UICONTROL Channels] &gt;菜单下配置这些应 [!UICONTROL Mobile app] 用程序。
+在Adobe Campaign中通过利用Experience Cloud Mobile SDK V4或Experience Platform SDK设置移动应用程序后，需要由管理员在 [!UICONTROL Administration] > [!UICONTROL Channels] >菜单下配置这些应 [!UICONTROL Mobile app] 用程序。
 
 >[!CAUTION]
 >
 >推送通知和应用程序内实施必须由专家用户执行。 如果需要协助，请与您的Adobe客户主管或专业服务合作伙伴联系。
 
 设置手机应用程序后，您可以检索其收集的PII数据，以便从数据库创建或更新配置文件。 有关此内容的详细信息，请参阅此部分：根 [据移动应用程序数据创建和更新配置文件信息](../../channels/using/updating-profile-with-mobile-app-data.md)。
+
+有关Adobe Campaign standard中移动交付的一般准则，请参阅本 [页](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## 使用Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
@@ -43,12 +45,12 @@ source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 请按照以下步骤启动配置：
 
-1. 确保您可以访问渠 **[!UICONTROL Mobile]** 道：Adobe Campaign中的推送通知和应用程序内消息。 如果没有，请与您的客户团队联系。
+1. 确保您可以访问渠 **[!UICONTROL Mobile]**道：Adobe Campaign中的推送通知和应用程序内消息。 如果没有，请与您的客户团队联系。
 
    ![](assets/launch_1.png)
 
 1. 在Experience Platform Launch中通过创建移动类型的属性创建移动应用程序。 有关详细信息，请参阅 [Experience Platform Launch文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) 。
-1. 在Experience Platform **[!UICONTROL Adobe Campaign Standard]** Launch中为移动应用程序安装扩展：
+1. 在Experience Platform **[!UICONTROL Adobe Campaign Standard]**Launch中为移动应用程序安装扩展：
 
    有关扩展的详细信息，请参阅 [Experience Platform Launch文档](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
 
@@ -66,7 +68,7 @@ source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 要能够发送推送通知，您需要：
 
-1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]** 中访问渠道。
+1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]**中访问渠道。
 1. 在以下位置配置移动应用程序：
 
    * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign)。
@@ -82,11 +84,11 @@ source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
    For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. 通过在设备上启动移动应用程序并登录，确保安装已成功完成。 确保您选择接收通知。
-1. 然后，在Adobe Campaign的高级菜单中，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**。
+1. 然后，在Adobe Campaign的高级菜单中，选择 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**。
 1. 从列表中选择您的移动应用程序以显示其属性。 您的订阅信息将显示在订阅者列表下。
 
    ![](assets/push_notif_mobile_app.png)
 
-1. 要检查某个配置文件订阅的手机应用程序，请在菜 **[!UICONTROL Profiles & Audiences > Profiles]** 单中选择一个配置文件，然后单击右 **[!UICONTROL Edit profile properties]** 侧的按钮。 移动应用程序列在选项 **[!UICONTROL Mobile App Subscriptions]** 卡中。
+1. 要检查某个配置文件订阅的手机应用程序，请在菜 **[!UICONTROL Profiles & Audiences > Profiles]**单中选择一个配置文件，然后单击右**[!UICONTROL Edit profile properties]** 侧的按钮。 移动应用程序列在选项 **[!UICONTROL Mobile App Subscriptions]**卡中。
 
    ![](assets/push_notif_subscriptions.png)
