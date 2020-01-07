@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
 
 ---
 
@@ -117,9 +117,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
    + [定义主题行和发件人](designing/using/subject-line.md)
    + 构建电子邮件内容{#building-email-content}
       + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
-      + [使用现有内容设计电子邮件](designing/using/using-existing-content.md)
-      + [使用可再使用内容设计电子邮件](designing/using/using-reusable-content.md)
-      + [使用多解决方案集成设计电子邮件](designing/using/using-integrations.md)
+      + [使用现有内容](designing/using/using-existing-content.md)
+      + [使用可重用内容](designing/using/using-reusable-content.md)
+      + [使用多解决方案集成](designing/using/using-integrations.md)
       + [编辑纯文本、HTML和移动电子邮件](designing/using/plain-text-html-modes.md)
    + [个性化电子邮件内容](designing/using/personalization.md)
    + [管理电子邮件样式](designing/using/styles.md)
@@ -187,8 +187,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 + 与 Adobe Cloud 集成 {#integrating-with-adobe-cloud}
    + [关于 Campaign 集成](integrating/using/about-campaign-integrations.md)
    + 使用 Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
-      + [与 Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
-      + [在 Experience Manager 中创建 Campaign 表单 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [关于Campaign-Experience manager集成](integrating/using/integrating-with-experience-manager.md)
+      + [在Adobe Experience Manager中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
+      + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 使用 Campaign 和 Target {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
       + [配置 Campaign-Target 集成](integrating/using/configuring-the-campaign-target-integration.md)
@@ -283,6 +284,7 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
       + [创建位置分段](automating/using/workflow-segmentation-location.md)
       + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
       + [构建对照组](automating/using/workflow-control-group.md)
+      + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
 + 开发 {#developing}
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
