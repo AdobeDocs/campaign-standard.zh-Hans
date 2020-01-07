@@ -1,18 +1,18 @@
 ---
 title: 功能列表
 description: 查询编辑工具允许您使用高级功能执行复杂过滤。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 过滤数据
+audience: automating
+content-type: reference
+topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 关于函数 {#about-functions}
 
-查询编辑工具允许您使用高级功能执行复杂过滤。 为此，工具调板包含可在工 **[!UICONTROL Expression]** 作区中使用的元素。 有关此元素的详细信息，请参阅特 [定部分](../../automating/using/advanced-expression-editing.md)。
+查询编辑工具允许您使用高级功能执行复杂过滤。 为此，工具调板包含可在工 **[!UICONTROL Expression]**作区中使用的元素。 有关此元素的详细信息，请参阅特[定部分](../../automating/using/advanced-expression-editing.md)。
 
 此元素允许您手动输入条件。 您可以在此处使用以下部分中定义的函数。
 
@@ -321,7 +321,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 返回大于或等于一个数字的最大整数<br /> </td> 
+   <td> 返回小于或等于一个数字的最大整数<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -662,7 +662,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 聚合 {#aggregates}
 
-只有在从工作流的活动中添 [加其他数据时](../../automating/using/query.md#enriching-data) ，聚合函数才 **[!UICONTROL Query]** 可用。
+只有在从工作流的活动中添 [加其他数据时](../../automating/using/query.md#enriching-data) ，聚合函数才 **[!UICONTROL Query]**可用。
 
 集合函数用于对一组值执行计算。
 
