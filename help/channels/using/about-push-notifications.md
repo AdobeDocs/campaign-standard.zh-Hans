@@ -1,19 +1,19 @@
 ---
 title: 关于推送通知
 description: 了解Adobe Campaign中推送通知渠道的主要特性。
-page-status-flag: 从未激活
-uuid: 961aeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: 绍维亚
+page-status-flag: never-activated
+uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 推送通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
-context-tags: mobileApp，概述
+context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,17 +28,17 @@ Adobe Campaign允许您向iOS和Android移动设备发送个性化的分段推�
 
 这些消息在您在Adobe Campaign中设置的移动应用程序上通过利用Experience Cloud Mobile SDK V4或Experience Platform SDK接收。 有关此信息，请参阅使 [用SDK V4配置移动应用程序和](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)[使用Adobe Experience Platform SDK配置移动应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 需要扩展此资源以收集您打算从移动设备发送到Adobe Campaign的数据。 要执行此操作，请参阅本 [页](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，了解详细步骤。
 
 Adobe Campaign中提供两种类型的推送通知：
 
-* **[!UICONTROL Alert/Message/Badge]** 键入通知使您能够发送包含其他内容（声音、徽章、深层链接等）的基于文本的标准消息。在部分中定义的 **[!UICONTROL Advanced options]** 值。
+* **[!UICONTROL Alert/Message/Badge]**键入通知使您能够发送包含其他内容（声音、徽章、深层链接等）的基于文本的标准消息。在部分中定义的**[!UICONTROL Advanced options]** 值。
 
-   此通知类型允许您添加标题和消息，您可以在其中使用个性化字段。 要能够个性化您的消息，请确保选择模 **[!UICONTROL Send push on profiles]** 板。
+   此通知类型允许您添加标题和消息，您可以在其中使用个性化字段。 要能够个性化您的消息，请确保选择模 **[!UICONTROL Send push on profiles]**板。
 
-* **[!UICONTROL Silent push]** 类型通知用于无提示通知应用程序，不会向最终用户发送任何消息或内容。 此类消息的典型用例是使应用程序知道服务器上有可供下载的内容。
+* **[!UICONTROL Silent push]**类型通知用于无提示通知应用程序，不会向最终用户发送任何消息或内容。 此类消息的典型用例是使应用程序知道服务器上有可供下载的内容。
 
 可以设置某些特定配置来定义通知行为。 如需详细信息，请参阅[此部分](../../channels/using/customizing-a-push-notification.md)。
 
@@ -53,7 +53,7 @@ Adobe Campaign中提供两种类型的推送通知：
 * [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [创建多语言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推送通知报告](../../reporting/using/push-notification-report.md)
-* [推送和应用程序内常见问题解答](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## 先决条件 {#prerequisites}
 
@@ -65,7 +65,7 @@ Adobe Campaign中提供两种类型的推送通知：
 
 在发送推送通知之前，您应：
 
-1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]** 中访问渠道。
+1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]**中访问渠道。
 1. 在以下位置配置移动应用程序：
 
    * Adobe Campaign
