@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
+source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
 
 ---
 
@@ -24,6 +24,16 @@ source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign发 [行说明](../../rn/using/release-notes.md)。
+
+## 文档更新- 2020年1月 {#doc-updates-january-2020}
+
+“创建跨渠道交付工作流”入门指南已更新并包含在核心文档中。 [阅读更多](../../automating/using/workflow-cross-channel-delivery.md)
+
+动态报表的指示器计算部分已更新。 [阅读更多](../../reporting/using/indicator-calculation.md)
+
+添加了有关Adobe Campaign standard中移动交付的一般准则的新页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
+使用Campaign和Experience Manager文档已更新，其中新增了有关如何使用Campaign- **Experience manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 ## 文档更新- 2019年12月 {#doc-updates-december-2019}
 
