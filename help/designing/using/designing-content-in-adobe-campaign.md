@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 有关构建内容的更多信息：
    * 从头开始，请参阅 [从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
    * 使用现有内容，请参阅 [使用现有内容进行设计](../../designing/using/using-existing-content.md)。
-   * 使用集成，请参阅 [多解决方案电子邮件设计](../../designing/using/using-integrations.md)。
+   * 使用Creative cloud集成，请参阅多 [解决方案电子邮件设计](../../designing/using/using-integrations.md)。
 * 有关个性化的更多信息，请参 [阅个性化](../../designing/using/personalization.md)。
 
 创建电子邮件时，您可以选择使用预定义的模板或从其他源加载现有内容。 请参 [阅选择现有内容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
@@ -69,27 +69,27 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### Email Designer主页 {#email-designer-home-page}
 
-创 [建电子邮件时](../../channels/using/creating-an-email.md)，主页 **[!UICONTROL Email Designer]** 会在选择电子邮件内容时自动显示。
+创 [建电子邮件时](../../channels/using/creating-an-email.md)，主页 **[!UICONTROL Email Designer]**会在选择电子邮件内容时自动显示。
 
 ![](assets/email_designer_home_page.png)
 
-该选 **[!UICONTROL Properties]** 项卡允许您编辑电子邮件详细信息，如标签、发件人地址和姓名或电子邮件主题。 您还可以通过单击屏幕顶部的电子邮件标签来访问此选项卡。
+该选 **[!UICONTROL Properties]**项卡允许您编辑电子邮件详细信息，如标签、发件人地址和姓名或电子邮件主题。 您还可以通过单击屏幕顶部的电子邮件标签来访问此选项卡。
 
 ![](assets/email_designer_home_properties.png)
 
-该选 **[!UICONTROL Templates]** 项卡允许您从现成的HTML内容或您已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+该选 **[!UICONTROL Templates]**项卡允许您从现成的HTML内容或您已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅[内容模板](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-通过 **[!UICONTROL Learn & support]** 该选项卡，您可以轻松访问相关文档和教程。
+通过 **[!UICONTROL Learn & support]**该选项卡，您可以轻松访问相关文档和教程。
 
 ![](assets/email_designer_home_support.png)
 
 如果不选择模板，“电子邮件设计器”主页还允许您选择开始设计内容的方式：
 
-* 单击该 **[!UICONTROL Create]** 按钮可从头开始创建新内容。 请参 [阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 单击该 **[!UICONTROL Upload]** 按钮可从您的计算机上传文件。 请参 [阅从文件导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 单击该 **[!UICONTROL Import from URL]** 按钮可从URL检索现有内容。 请参 [阅从URL导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 单击该 **[!UICONTROL Create]**按钮可从头开始创建新内容。 请参[阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 单击该 **[!UICONTROL Upload]**按钮可从您的计算机上传文件。 请参[阅从文件导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 单击该 **[!UICONTROL Import from URL]**按钮可从URL检索现有内容。 请参[阅从URL导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ## 术语 {#terminology}
 
@@ -105,7 +105,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 为了合理使用电子邮件设计器并尽可能简单地创建最佳电子邮件，我们建议应用以下原则：
 
-* 在HTML的&lt;head&gt;部分中，使用内联样式，而不是单独的CSS和CSS。 通过使用内联样式，您可以优化内容片段的保存和重用。
+* 在HTML的&lt;head>部分中，使用内联样式，而不是单独的CSS和CSS。 通过使用内联样式，您可以优化内容片段的保存和重用。
 
    请参阅 [添加内联样式属性](../../designing/using/styles.md#adding-inline-styling-attributes)。
 
@@ -127,7 +127,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建议将您的内容更新到最新版本，以避免CSS冲突问题等问题。 Click **[!UICONTROL Update now]**.
+Adobe建议将您的内容更新到最新版本，以避免CSS冲突问题等问题。 单击 **[!UICONTROL Update now]**.
 
 如果内容更新期间发生错误，请检查HTML并修复它，然后再次运行此更新。
 
