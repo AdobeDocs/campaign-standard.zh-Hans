@@ -1,23 +1,23 @@
 ---
-title: 管理电子邮件中的图像
+title: 使用图像
 description: 了解如何使用电子邮件设计器管理电子邮件中的图像。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# 图像 {#images}
+# 使用图像 {#images}
 
 ## 插入图像{#inserting-images}
 
@@ -33,16 +33,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->如果选择通过编辑HTML版本的电子邮件直接添加图像，则不得在HTML页的&lt;script **&gt;标签中调用外部文件** 。 这些文件不会导入到Adobe Campaign服务器上。
+>如果选择通过编辑HTML版本的电子邮件直接添加图像，则不得在HTML页的&lt;script **>标签中调用外部文件** 。 这些文件不会导入到Adobe Campaign服务器上。
 
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此结构组件中，添加一个内 **[!UICONTROL Image]** 容组件。
+1. 在此结构组件中，添加一个内 **[!UICONTROL Image]**容组件。
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. 拖放图像或单击以从您的计算机中选择文件。
+1. 单击 **[!UICONTROL Browse]**. 拖放图像或单击以从您的计算机中选择文件。
 
    ![](assets/des_insert_images_2.png)
 
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 完成 **[!UICONTROL Save]** 修改后单击。 更新后的图像将保存在Adobe Campaign服务器上并可供使用。
+1. 完成 **[!UICONTROL Save]**修改后单击。 更新后的图像将保存在Adobe Campaign服务器上并可供使用。
 
 >[!NOTE]
 无法自定义图像编辑器中提供的工具。
