@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
+source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
 
 ---
 
@@ -91,7 +91,6 @@ source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 **相关主题**:
 
 * [创建电子邮件视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* [创建个性化的电子邮件](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) -分步指南
+* [创建个性化的电子邮件](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) -分步指南
 * [Adobe Campaign和Dreamweaver集成视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [与Adobe Experience Manager集成](../../integrating/using/integrating-with-experience-manager.md)
-
