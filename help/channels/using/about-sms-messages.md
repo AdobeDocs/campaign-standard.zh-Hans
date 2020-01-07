@@ -1,19 +1,19 @@
 ---
 title: 关于短信消息
 description: 了解Adobe Campaign中SMS渠道的主要特性。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: sms消息
-discoiquuid: 6134fe72-77de-4fd0-b794-4d96effaccf
-delivercontext-tags: deliveryCreation，向导；delivery,smsContent,back
+audience: channels
+content-type: reference
+topic-tags: sms-messages
+discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
+delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -30,32 +30,32 @@ Adobe Campaign允许您发送SMS（短消息服务）消息。
 
 如果GSM编码中的SMS消息长度限制为160个字符，如果采用Unicode，则仅限70个字符。 但是，某些特殊字符会影响消息的长度。 有关详细信息，请参阅 [SMS编码部分](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 
-可以从菜单、营销活 **[!UICONTROL Marketing activities]** 动或工作流中创建SMS消息，请参 [阅创建SMS消息](../../channels/using/creating-an-sms-message.md)。
+可以从菜单、营销活 **[!UICONTROL Marketing activities]**动或工作流中创建SMS消息，请参[阅创建SMS消息](../../channels/using/creating-an-sms-message.md)。
 
 要将SMS消息传送到移动电话，您需要：
 
-* 在渠 **[!UICONTROL Routing]** 道上使用该模式配 **[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]** 户。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* 在渠 **[!UICONTROL Routing]**道上使用该模式配**[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]**户。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
 * 正确链接到此外部帐户的分发模板。
 
 **相关主题：**
 
-* [管理模板](../../start/using/about-templates.md)
+* [管理模板](../../start/using/marketing-activity-templates.md)
 * [SMS配置](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [短信报告](../../reporting/using/sms-report.md)
+* [Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## SMS交付模板 {#sms-delivery-template}
 
-Adobe Campaign为移动设备提供了分发模板。 此模板必须正确链接到用于渠道的外部帐 **[!UICONTROL Mobile (SMS)]** 户。 要访问和修改它：
+Adobe Campaign为移动设备提供了分发模板。 此模板必须正确链接到用于渠道的外部帐 **[!UICONTROL Mobile (SMS)]**户。 要访问和修改它：
 
-1. 从高 **[!UICONTROL Resources]** 级菜 **[!UICONTROL Templates]** 单中 **[!UICONTROL Delivery templates]** 选择&gt; &gt;。
-1. 将鼠标悬停 **[!UICONTROL Send via SMS]** 在模板上，然后选择“复 **制”元素** 。
+1. 从高 **[!UICONTROL Resources]**级菜**[!UICONTROL Templates]** 单中 **[!UICONTROL Delivery templates]**选择> >。
+1. 将鼠标悬停 **[!UICONTROL Send via SMS]**在模板上，然后选择“复**&#x200B;制”元素&#x200B;**。
 1. 选择新模板。
-1. Click the **[!UICONTROL Edit properties]** button.
-1. 在模 **[!UICONTROL Advanced parameters]** 板属性的部分，确保模板已链接到要用于传送SMS的外部帐户。
+1. Click the **[!UICONTROL Edit properties]**button.
+1. 在模 **[!UICONTROL Advanced parameters]**板属性的部分，确保模板已链接到要用于传送SMS的外部帐户。
 
    ![](assets/sms_template.png)
 
 **相关主题：**
 
-* [管理模板](../../start/using/about-templates.md)
-
+* [管理模板](../../start/using/marketing-activity-templates.md)
