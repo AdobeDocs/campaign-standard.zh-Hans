@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 该部 **[!UICONTROL Advanced parameters]**分包含多个参数。
 
-前两个字段允许您输入必要的信息，以详细描述电子邮件标题（回复地址和回复地址文本）。 此信息可以个性化。 为此，请单击要更改的字段右侧的按钮，然后添加个性化字段。 插入和使用个性化字段在插入个性化字段一 [节中有详细介绍](../../designing/using/personalization.md#inserting-a-personalization-field) 。
+在前面的字段中，您可以输入必要的信息，以详细描述电子邮件标头。 您可以在此处管理回复地址和文本以及发件人地址（填充“发件人：”字段）。 此信息可以个性化。
+
+单击要更改的字段右侧的按钮，然后添加个性化字段、内容块或动态文本。
+
+![](assets/advancedparameters.png)
+
+个性化电子邮件内容文档中详细介绍了插入和 [使用个性化内容](../../designing/using/personalization.md) 。
 
 #### Target上下文 {#target-context}
 
@@ -326,4 +332,3 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 >[!NOTE]
 >
 >如果打开并点进发送到密件抄送地址的电子邮件，则在发送分析中和发送分析中会考虑这一问题， **[!UICONTROL Total opens]****[!UICONTROL Clicks]** 这可能会导致一些计算错误。
-
