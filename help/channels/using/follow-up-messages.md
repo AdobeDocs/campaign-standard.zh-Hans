@@ -1,18 +1,18 @@
 ---
 title: 跟进消息
 description: 了解如何创建和发布跟进消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 事务消息传递
-discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
+discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3fdde5e938dd2d29455396b21398530d09f6d1ae
 
 ---
 
@@ -31,15 +31,15 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在您创建并发布活动(如上例所示 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ，放弃购物车)后，将自动创建相应的交易消息和跟进消息。
 
-配置事件以发送后续消 [息部分中介绍了配置步骤](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
+配置事件以发送后续消 [息部分中介绍了配置步骤](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) 。
 
 要处理工作流中的事件，需要提交模板。 但是，在发布活动时，创 [建的事务消息](../../channels/using/event-transactional-messages.md) ，不能用作模板。 因此，您需要创建一个特定的后续交付模板，该模板设计为支持此活动类型并在工作流中用作模板。
 
 要访问此模板，请执行以下操作：
 
-1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标。
-1. 选择 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]**。
-1. 选中 **[!UICONTROL Follow-up messages]** 左窗格中的框。
+1. 单击左 **[!UICONTROL Adobe Campaign]**上角的徽标。
+1. Select **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. 选中 **[!UICONTROL Follow-up messages]**左窗格中的框。
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]** 部分。
+>要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]**部分。
 
 ## 发送跟进消息 {#sending-a-follow-up-message}
 
@@ -57,15 +57,15 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    请参 [阅创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
 
-1. 将活动拖放到 **[!UICONTROL Scheduler]** 您的工作流中并打开它。 将执行频率设置为每天一次。
+1. 将活动拖放到 **[!UICONTROL Scheduler]**您的工作流中并打开它。 将执行频率设置为每天一次。
 
    “调度程序”活动显示在“调 [度程序](../../automating/using/scheduler.md) ”部分。
 
-1. 将活动拖放到 **[!UICONTROL Query]** 您的工作流中并打开它。
+1. 将活动拖放到 **[!UICONTROL Query]**您的工作流中并打开它。
 
    “查询”活动显示在“查询” [部分](../../automating/using/query.md) 。
 
-1. 要在配置文件资源以外的资源上运行查询，请转到活动的选项卡， **[!UICONTROL Properties]** 然后单击下 **[!UICONTROL Resource]** 拉列表。
+1. 要在配置文件资源以外的资源上运行查询，请转到活动的选项卡， **[!UICONTROL Properties]**然后单击下**[!UICONTROL Resource]** 拉列表。
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -77,25 +77,25 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. 转到活动的选项卡 **[!UICONTROL Target]** 并将元素从部分拖 **[!UICONTROL Delivery logs (logs)]** 放到工作区 **[!UICONTROL Email]** 中。
+1. 转到活动的选项卡， **[!UICONTROL Target]**并将元素从调板拖**[!UICONTROL Delivery logs (logs)]** 放到工作区中。
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   选择 **[!UICONTROL Exists]** 以定位收到电子邮件的所有客户。
+   选择 **[!UICONTROL Exists]**以定位收到电子邮件的所有客户。
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. 将元 **[!UICONTROL Tracking logs (tracking)]** 素从调色板移到工作区，然后选择 **[!UICONTROL Does not exist]** 以定位所有未打开电子邮件的客户。
+1. 将元 **[!UICONTROL Tracking logs (tracking)]**素从调色板移到工作区，然后选择**[!UICONTROL Does not exist]** 以定位所有未打开电子邮件的客户。
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. 将您定位的活动(本例中的&#x200B;**购物车放弃** )从部分拖放到工 **[!UICONTROL Email]** 作区中。 然后定义一个规则，以定位三天前发送的所有消息。
+1. 将您定位的事件(本例中的“**购物车放弃** ”)从调色板拖放到工作区中。 然后定义一个规则，以定位三天前发送的所有消息。
 
    ![](assets/message-center_follow-up-created.png)
 
    这意味着在工作流执行三天前收到交易邮件且尚未打开邮件的所有收件人均为目标收件人。
 
-   Click **[!UICONTROL Confirm]** to save the query.
+   单击 **[!UICONTROL Confirm]**以保存查询。
 
 1. 将电子邮件分发活 **动拖放到您的** 工作流中。
 
@@ -103,9 +103,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   您还可以使用 [SMS交付或移动](../../automating/using/sms-delivery.md) 应用 [程序交付活动](../../automating/using/push-notification-delivery.md) 。 在这种情况下，请确保在创建活动配 **[!UICONTROL Mobile (SMS)]** 置时 **[!UICONTROL Mobile application]** 选择或渠道。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+   您还可以使用 [SMS交付或移动](../../automating/using/sms-delivery.md) 应用 [程序交付活动](../../automating/using/push-notification-delivery.md) 。 在这种情况下，请确保在创建活动配 **[!UICONTROL Mobile (SMS)]**置时**[!UICONTROL Mobile application]** 选择或渠道。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 
-1. 打开电子 **邮件发送** 。 在创建向导中，选中 **[!UICONTROL Follow-up messages]** 该框，然后选择发布活动后创建的后续交付模板。
+1. 打开电子 **邮件发送** 。 在创建向导中，选中 **[!UICONTROL Follow-up messages]**该框，然后选择发布活动后创建的后续交付模板。
 
    ![](assets/message-center_follow-up-template.png)
 
@@ -113,7 +113,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/message-center_follow-up-content.png)
 
-1. 通过选择 **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt;查找创建活动时定义的字段 **[!UICONTROL Event context]**。 请参 [阅个性化交易消息](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)。
+1. 通过选择 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >查找创建活动时定义的字段 **[!UICONTROL Event context]**。 请参[阅个性化交易消息](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)。
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -125,5 +125,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->如果您在创建活 **[!UICONTROL Profile]** 动配置时选择了定位维度，则后续消息还将利用Adobe Campaign营销数据库。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
+>如果您在创建活 **[!UICONTROL Profile]**动配置时选择了定位维度，则后续消息还将利用Adobe Campaign营销数据库。 See[Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
