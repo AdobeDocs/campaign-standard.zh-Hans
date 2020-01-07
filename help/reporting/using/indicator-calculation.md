@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # 指标计算{#indicator-calculation}
+
+>[!NOTE]
+>
+>为了更好地处理和管理大量数据和实时分析，动态报告使用近似的汇总来进行不同的计数估计。 近似集合提供有界的内存使用，并且通常比精确计算更快。
 
 下表根据交付类型提供了不同报表中使用的指示器列表及其计算公式。
 
@@ -152,13 +156,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 拒绝<br /> </td> 
-   <td> @已拒绝<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> 已拒绝<br /> </td> 
    <td> @rejected<br /> </td> 
