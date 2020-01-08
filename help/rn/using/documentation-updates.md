@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 有关如何使 **用Adobe Experience Platform SDK配置移动应用程序的页面中添加了有关Launch_URL_Campaign** 选项的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-重新组织了电子邮件设计人员指南。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
+重新组织了“电子邮件设计人员”指南。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## 文档更新- 2019年8月 {#doc-updates-august-2019}
 
