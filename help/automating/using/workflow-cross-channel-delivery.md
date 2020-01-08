@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
 有关Adobe Campaign中可用的工作流和不同渠道的更多详细信息，请检查以下文档：
 
 * [了解工作流](../../automating/using/discovering-workflows.md)
-* [通信渠道](../../channels/using/discovering-communication-channels.md)
+* [了解通信渠道](../../channels/using/discovering-communication-channels.md)
 
 ## 创建工作流 {#creating-workflow}
 
