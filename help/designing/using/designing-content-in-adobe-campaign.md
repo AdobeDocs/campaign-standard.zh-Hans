@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 在Adobe Campaign中创建电子邮件后，您需要定义其内容。
 
-电子邮件设计器使您能够通过由本机Creative cloud集成增强的拖放界面创建引人注目的、单独定制的电子邮件。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
+电子邮件设计器使您能够通过由本机Creative Cloud集成增强的拖放界面创建引人注目的、单独定制的电子邮件。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
 
 电子邮件设计器旨在提供针对响应式设计而优化的HTML，它允许您通过用户界面轻松定义可视性条件和动态内容并直接将其应用到电子邮件、模板或片段。 只需单击按钮，即可在拖放界面和HTML代码之间无缝切换。
 
