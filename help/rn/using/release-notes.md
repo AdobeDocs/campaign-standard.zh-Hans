@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 * [营销活动发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新文档更新](../../rn/using/documentation-updates.md)
 * [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * 以前的发行说明： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## 19.4版- 2019年12月 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>为了帮助提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关详细信息，请参 <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">和操作方法视频</a>。</p></td> 
+   <td> <p>为了帮助提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关详细信息，请参 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">和操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
@@ -467,7 +467,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
    有关详细信息，请参阅详 [细文档](../../designing/using/using-reusable-content.md#content-templates)。
 
-* 我们新的入门培训体验将帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
+* 我们新的入门培训体验可以帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
 
    有关详细信息，请参阅详 [细文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
