@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
 
-* **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>请查阅重新组织的电子邮件设计工具文档。
+* **[电子邮件设计](designing/using/designing-content-in-adobe-campaign.md)**<br/>人员请参阅重新组织的电子邮件设计人员文档。
 
 * **[Campaign Standard移动指南了](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>解有关移动交付的一般准则的更多信息。
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>设计电子邮件</strong></a>
     </div>
-    <em>了解如何使用电子邮件设计工具创建响应式及个性化的电子邮件</em>
-    <br>
+    <em>了解如何使用电子邮件设计器创建响应式个性化电子邮件</em><br>
   </td>
   <td valign="top">
        <img alt="开发人员" src="start/using/assets/dev.png" />
