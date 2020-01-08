@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 在工作流疑难解答部分中添加了一个过程，该过程介绍如何在日志选项卡中显示SQL查询。 [阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇帮助文章，其中包含控制面板中与子域和证书管理相关的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+新增了一篇帮助文章，其中包含控制面板中与子域和证书管理相关的信息。 [阅读更多](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 描述内容模板和片段的部分已更新。 [阅读更多](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ### 版本中包含的新功能 {#new-capabilities-included-in-the-release}
 
-控制面板——阅 [读更多](https://helpx.adobe.com/campaign/kb/control-panel.html)
+控制面板——阅 [读更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 本地通知——阅 [读更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
