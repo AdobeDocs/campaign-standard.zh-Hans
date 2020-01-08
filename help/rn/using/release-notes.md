@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 19.4版- 2019年12月 {#release-19-4---october-2019}
 
-### What's new? {#what-s-new-5}
+### What&#39;s new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -119,7 +119,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * 已做出改进，以帮助对事务性消息进行疑难解答：“数据”链接在事件配置屏幕中已更名为“上次事务事件”，它现在按降序列出接收的事件。 此外，还创建了新的事务性事件状态：“targetingFailed”。 当事务消息传递模块无法扩充用于消息定位的链接时，事务事件现在将处于此新状态（而不是“routingFailed”状态）。
 * 在限制对特定地理或组织单位的登录页面访问时，界面已得到改进。 其目的是警告登陆页面可能受可见性条件的影响：现在，创建登录页面时必须选择地理和组织单位。 选择设备后，现在会显示包含相关信息的横幅。 测试登录页面时显示的错误消息已更清晰。
 * 在Campaign Standard API中，如果键值与源键不同，或者您使用自己的业务键作为URI而不是Adobe提供的业务键，则无法使用PATCH操作修改自定义键。
-* "阿尔巴尼亚语——马其顿语"已添加到首选语言下拉列表中。 (CAMP-35396)
+* &quot;阿尔巴尼亚语——马其顿语&quot;已添加到首选语言下拉列表中。 (CAMP-35396)
 
 ### 修补程序 {#patches-4}
 
@@ -150,9 +150,9 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
 
-### What's new? {#what-s-new-4}
+### What&#39;s new? {#what-s-new-4}
 
-我们为管理员用户添加了新功能，使其能够在域的SSL证书过期之前接收通知。  有关详细信息，请参阅详 [细文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
+我们为管理员用户添加了新功能，使其能够在域的SSL证书过期之前接收通知。 有关详细信息，请参阅详 [细文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
 
 此外，管理员用户现在可以删除已添加的用于访问SFTP服务器的SSH密钥。
 
@@ -160,7 +160,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 19.3版- 2019年7月 {#release-19-3---july-2019}
 
-### What's new? {#what-s-new-3}
+### What&#39;s new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -214,7 +214,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ### 其他改进 {#other-improvements-3}
 
-* 通过与Adobe Experience Platform Location services的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的订户发送基于位置的营销消息。  有关详细信息，请参阅详 [细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
+* 通过与Adobe Experience Platform Location services的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的订户发送基于位置的营销消息。 有关详细信息，请参阅详 [细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 已改进报告功能，以获得更好的体验。 要使用此功能，您需要接受动态报告使用协议。 有关详细信息，请参阅详细 [文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 * 在工作流中，已添加一个新选项来预览工作流的接下来十个执行。 有关详细信息，请参阅详细 [文档](../../automating/using/scheduler.md)。
 * 在“计划程序”活动中，新选项允许您为月度交付选择特定周的特定日期。 有关详细信息，请参阅详细 [文档](../../automating/using/scheduler.md)。
@@ -305,7 +305,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+### What&#39;s new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -321,7 +321,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
-   <td> <p>本地通知消息允许您在用户的移动应用程序中有新数据可用时通知用户，即使没有访问Internet或前台运行的移动应用程序的权限。 本地通知由移动应用程序在特定时间触发，具体取决于事件。</p><p> 有关详细信息，请参阅详 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">细文档</a>。</p></td> 
+   <td> <p>本地通知消息允许您在用户的移动应用程序中有新数据可用时通知用户，即使没有访问Internet或前台运行的移动应用程序的权限。 本地通知由移动应用程序在特定时间触发，具体取决于事件。</p><p>有关详细信息，请参阅详 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">细文档</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流增强——向外部信号活动添加有效负荷<br /> </td> 
@@ -329,7 +329,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
   </tr> 
   <tr> 
    <td> 登录页面增强- Google reCAPTCHA<br /> </td> 
-   <td> <p>利用Google reCAPTCHA防止登录页面上的垃圾邮件，无需客户采取任何操作。</p><p> 有关详细信息，请参阅详 <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">细文档</a>。</p></td> 
+   <td> <p>利用Google reCAPTCHA防止登录页面上的垃圾邮件，无需客户采取任何操作。</p><p>有关详细信息，请参阅详 <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">细文档</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -377,14 +377,14 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * Zip代码维度已从Dynamic Reporting中删除。 我们建议改用“城市”、“国家”和“州”维度。
 * 已删除应用程序内消息的“首次启动”生命周期事件触发器。
 * 导出包含安全组的包时，它现在包含分配给每个组的角色。 (CAMP-32960)
-* 在“加载文件”活动中，新选项允许您检查要上传的文件的列是否与列定义匹配。  有关详细信息，请参阅详 [细文档](../../automating/using/load-file.md)。 (CAMP-32229)
-* 现在可以使用有效负荷启动工作流，这样您就可以在工作流中的活动之间使用和共享外部参数。  有关详细信息，请参阅详 [细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
-* Campaign Standard API现在允许您使用有效负荷更新配置文件的地理和组织单位。  有关详细信息，请参阅详 [细文档](../../api/using/about-campaign-standard-apis.md)。
+* 在“加载文件”活动中，新选项允许您检查要上传的文件的列是否与列定义匹配。 有关详细信息，请参阅详 [细文档](../../automating/using/load-file.md)。 (CAMP-32229)
+* 现在可以使用有效负荷启动工作流，这样您就可以在工作流中的活动之间使用和共享外部参数。 有关详细信息，请参阅详 [细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
+* Campaign Standard API现在允许您使用有效负荷更新配置文件的地理和组织单位。 有关详细信息，请参阅详 [细文档](../../api/using/about-campaign-standard-apis.md)。
 * 当数据库中的对象无法访问时，会有更清楚的错误消息。
-* 在“提取文件”活动中，在定义要导出的文件名称时，Javascript功能已更新。 “输出”字段中现在只能使用formatDate函数。  有关详细信息，请参阅详 [细文档](../../automating/using/extract-file.md)。
+* 在“提取文件”活动中，在定义要导出的文件名称时，Javascript功能已更新。 “输出”字段中现在只能使用formatDate函数。 有关详细信息，请参阅详 [细文档](../../automating/using/extract-file.md)。
 * 自定义资源的自动序列ID生成已得到改进。 新自定义资源的主键现在默认为64位。
-* 自定义资源发布测试模式已得到改进。 如果上次自定义资源发布失败且未修复，则现在将向用户显示一条警告消息。 自定义资源发布失败后，您可以回滚到上一个工作版本。  有关详细信息，请参阅详 [细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
-* 在“传输文件”活动中添加了新选项。 它允许您在SFTP模式下使用“文件下载”动作对文件进行排序。  有关详细信息，请参阅详 [细文档](../../automating/using/transfer-file.md)。 (CAMP-33109)
+* 自定义资源发布测试模式已得到改进。 如果上次自定义资源发布失败且未修复，则现在将向用户显示一条警告消息。 自定义资源发布失败后，您可以回滚到上一个工作版本。 有关详细信息，请参阅详 [细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+* 在“传输文件”活动中添加了新选项。 它允许您在SFTP模式下使用“文件下载”动作对文件进行排序。 有关详细信息，请参阅详 [细文档](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
 ### 修补程序 {#patches}
 
@@ -423,7 +423,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 19.1版- 2019年2月 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+### What&#39;s new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -435,11 +435,11 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
  <tbody> 
   <tr> 
    <td> 推送渠道报告改进<br /> </td> 
-   <td> <p>推送渠道报告中已添加了多项增强功能，使您能更直观地衡量用户参与度。 在此版本中，我们将推送渠道指标列表扩展为三个不同的指标：展示次数、点击次数、打开次数（应用程序打开次数）可帮助您更有效地衡量和分析用户与推送通知的交互情况。 与此同时，我们也在规范这些指标的定义和实施。 推送通知内置报告也已改进，其中包含常用的可视化和指标。</p><p>  有关详细信息，请参阅详 <a href="../../reporting/using/push-notification-report.md">细文档</a>。</p> </td> 
+   <td> <p>推送渠道报告中已添加了多项增强功能，使您能更直观地衡量用户参与度。 在此版本中，我们将推送渠道指标列表扩展为三个不同的指标：展示次数、点击次数、打开次数（应用程序打开次数）可帮助您更有效地衡量和分析用户与推送通知的交互情况。 与此同时，我们也在规范这些指标的定义和实施。 推送通知内置报告也已改进，其中包含常用的可视化和指标。</p><p> 有关详细信息，请参阅详 <a href="../../reporting/using/push-notification-report.md">细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 移动应用程序的启动集成<br /> </td> 
-   <td> <p>此版本包含Adobe Campaign与Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS扩展的集成。 这些扩展支持推送消息、应用程序内消息和移动应用程序配置文件更新。</p><p>  有关详细信息，请参阅详 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">细文档</a>。</p> </td> 
+   <td> <p>此版本包含Adobe Campaign与Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS扩展的集成。 这些扩展支持推送消息、应用程序内消息和移动应用程序配置文件更新。</p><p> 有关详细信息，请参阅详 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 移动应用程序内消息传递<br /> </td> 
@@ -449,8 +449,8 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
    <td> 工作流增强功能<br /> </td> 
    <td> <p>已添加以下工作流功能：</p> 
     <ul> 
-     <li> 您现在可以从同一营销活动实例复制粘贴工作流或其他工作流中的活动。 这样，您可以轻松复制整个工作流或特定活动，并保留最初定义的设置。  有关详细信息，请参阅详 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">细文档</a>。 (CAMP-20014) </li> 
-     <li> 使用“加 <strong>载文件</strong> ”活动时，您现在可以向包含拒绝记录的文件的名称中添加时间戳。  有关详细信息，请参阅详 <a href="../../automating/using/load-file.md#configuration">细文档</a>。 </li> 
+     <li> 您现在可以从同一营销活动实例复制粘贴工作流或其他工作流中的活动。 这样，您可以轻松复制整个工作流或特定活动，并保留最初定义的设置。 有关详细信息，请参阅详 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">细文档</a>。 (CAMP-20014) </li> 
+     <li> 使用“加 <strong>载文件</strong> ”活动时，您现在可以向包含拒绝记录的文件的名称中添加时间戳。 有关详细信息，请参阅详 <a href="../../automating/using/load-file.md#configuration">细文档</a>。 </li> 
      <li> <strong>查询</strong> 和分 <strong></strong> 段活动现在允许您启用出站过渡（如果活动没有检索数据）。 </li> 
     </ul> </td> 
   </tr> 
@@ -465,19 +465,19 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 * 由Behance艺术家设计的一套四种一流的响应式电子邮件模板现已推出。
 
-    有关详细信息，请参阅详 [细文档](../../designing/using/using-reusable-content.md#content-templates)。
+   有关详细信息，请参阅详 [细文档](../../designing/using/using-reusable-content.md#content-templates)。
 
 * 我们新的入门培训体验将帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
 
-    有关详细信息，请参阅详 [细文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
+   有关详细信息，请参阅详 [细文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
 * 您现在可以根据需要灵活配置列数和宽度。
 
-    有关详细信息，请参阅详 [细文档](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   有关详细信息，请参阅详 [细文档](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 * 在移动视图中编辑时，您可以仅在移动显示屏中隐藏某些组件，以有效利用空间。
 
-    有关详细信息，请参阅详 [细文档](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+   有关详细信息，请参阅详 [细文档](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 * 现在，您可以在已有可用渠道的基础上，将自定义社交渠道添加到电子邮件模板中。
 * 修复了在使用18个以上结构时无法向下滚动结构菜单的问题。 (CAMP-31173)
@@ -497,7 +497,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * “配置文件创建”屏幕中的“时区”下拉列表已从“地址”部分移至界面的上半部分。
 * 您现在可以在配置自定义资源屏幕时添加分隔符，以便将字段组织到类别中。
 
-    有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
+   有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
 ### 其他更改 {#other-changes-1}
 
@@ -529,7 +529,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 19.0版- 2019年1月 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+### What&#39;s new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -556,7 +556,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
   </tr> 
   <tr> 
    <td> 电子邮件设计器中的移动视图<br /> </td> 
-   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。 这允许您通过单独编辑移动显示的所有样式选项（如调整边距、较小的字体大小、不同的背景颜色等）来微调电子邮件的响应式设计。</p><p>  有关详细信息，请参阅详 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">细文档</a>。</p> </td> 
+   <td> <p>编辑电子邮件内容时，您现在可以切换到专用的移动视图。 这允许您通过单独编辑移动显示的所有样式选项（如调整边距、较小的字体大小、不同的背景颜色等）来微调电子邮件的响应式设计。</p><p> 有关详细信息，请参阅详 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内消息传递测试版改进<br /> </td> 
@@ -566,7 +566,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
      <li> 与Analytics API集成以填充触发器下拉列表 </li> 
      <li> 交付模板的直观外观和描述 </li> 
      <li> 从可用性角度对创作界面的增强 </li> 
-    </ul> <p> 有关详细信息，请参阅详 <a href="../../channels/using/about-in-app-messaging.md">细文档</a>。</p> </td> 
+    </ul> <p>有关详细信息，请参阅详 <a href="../../channels/using/about-in-app-messaging.md">细文档</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -601,7 +601,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 * 修复了在动态报告中显示错误交付日志的问题。 (CAMP-23446)
 * 修复了影响弹回摘要报告数字的问题(CAMP-28703)
-* 修复了营销活动和资产核心服务集成的一个问题，该问题可能会阻止在电子邮件中选择资产时 **[!UICONTROL Image shared from Adobe Experience Cloud]** 显示资产(CAMP-28732)。
+* 修复了营销活动和资产核心服务集成的一个问题，该问题可能会阻止在电子邮件中选择资产时 **[!UICONTROL Image shared from Adobe Experience Cloud]**显示资产(CAMP-28732)。
 * 修复了即使在SMPP外部帐户中授权了音译，也无法发送包含“oe”字符的SMS消息的问题。 (CAMP-29041)
 * 修复了在工作流中使用分段活动时可能显示重复记录的问题。 (CAMP-28743)
 * 修复了无法删除工作流活动中某列上的值映射之一的问题。 (CAMP-28708)
