@@ -1,5 +1,5 @@
 ---
-title: 管理事务性消息
+title: 管理交易消息
 description: 了解如何使用API管理事务性消息。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
 
-# 管理事务性消息 {#managing-transactional-messages}
+# 管理交易消息 {#managing-transactional-messages}
 
 ## 关于交易消息传递
 
@@ -25,7 +25,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 >[!NOTE]
 >
->创建和发布活动在Campaign文档 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">中显示</a>。
+>创建和发布活动将在此部分 [中显示](../../administration/using/configuring-transactional-messaging.md)。
 
 例如，您希望当您的客户之一在购买购物车中的产品之前离开您的网站时，会触发“购物车放弃”事件。 为此，您的Web开发人员必须使用REST Transactional Messages API。
 
@@ -40,9 +40,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;组织&gt;**:您的个人组织ID。 Refer to [this section](../../api/using/must-read.md).
+* **&lt;组织>**:您的个人组织ID。 Refer to [this section](../../api/using/must-read.md).
 
-* **&lt;transactionalAPI&gt;**:transactional Messages API endPoints。
+* **&lt;transactionalAPI>**:transactional Messages API endPoints。
 
    Transactional Messages API端点的名称取决于您的实例配置。 它对应于值“mc”后跟您的个人组织ID。 让我们举一个Geometrixx公司的示例，其组织ID为“geometrixx”。 在这种情况下，邮递要求如下：
 
@@ -50,7 +50,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    （请注意，在API预览期间，事务消息API端点也可见）
 
-* **&lt;eventID&gt;**:要发送的事件类型。 此ID是在创建事件定义时生成的。 请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+* **&lt;eventID>**:要发送的事件类型。 此ID是在创建事件定义时生成的。 请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 ### POST请求标题
 
@@ -88,7 +88,7 @@ POST响应返回创建时的事务事件状态。 要检索其当前状态（事
 
 <br/>
 
-***示例请求***
+***示例请求&#x200B;***
 
 发送活动的POST请求。
 
