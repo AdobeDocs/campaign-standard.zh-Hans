@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
+source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
 
 ---
 
@@ -367,7 +367,6 @@ source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
          + [计数](api/using/counting.md)
          + [分页](api/using/pagination.md)
       + [自定义资源](api/using/custom-resources.md)
-   + [与自定义资源交互](api/using/interacting-with-custom-resources.md)
    + 管理用户档案 {#managing-profiles}
       + [检索配置文件](api/using/retrieving-profiles.md)
       + [更新配置文件](api/using/updating-profiles.md)
@@ -377,6 +376,7 @@ source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
       + [检索订阅](api/using/retrieving-subscriptions.md)
       + [执行订阅](api/using/perform-subscriptions.md)
       + [删除订阅](api/using/deleting-subscriptions.md)
+   + [与自定义资源交互](api/using/interacting-with-custom-resources.md)
    + [与营销历史互动](api/using/interacting-with-marketing-history.md)
    + 隐私管理 {#privacy-management}
       + [创建隐私请求](api/using/creating-a-privacy-request.md)
