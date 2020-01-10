@@ -80,7 +80,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 以下是他们可以执行的主要任务：
 
 * [创建和执行复杂的数据管理工作流程](../../automating/using/about-data-management-activities.md):导入、扩充和转换数据以供给数据库，或导出外部文件中需要的数据以在您自己的工具中进行处理。
-* [管理模板](../../start/using/about-templates.md):管理您的模板，以根据您的需求预配置营销活动的特定参数。
+* [管理模板](../../start/using/marketing-activity-templates.md):管理您的模板，以根据您的需求预配置营销活动的特定参数。
 * [创建查询](../../automating/using/editing-queries.md#about-query-editor) , [并管理受众](../../audiences/using/about-audiences.md):使用查询或自动使用专用工作流程手动创建受众。
 * [执行高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor):使用高级函数处理用于执行特定查询的值，如日期、字符串、数字字段、排序等。
 * [使用现有导](../../automating/using/exporting-lists.md) 入模板导出列表和导入数据 [](../../automating/using/importing-data-with-import-templates.md)。
