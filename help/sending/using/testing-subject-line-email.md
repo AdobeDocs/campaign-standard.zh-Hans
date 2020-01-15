@@ -1,18 +1,18 @@
 ---
 title: 测试电子邮件的主题行
 description: 了解如何在电子邮件设计器中定义电子邮件的主题行。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: sending
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 创建或打开电子邮件。
 1. 打开内容，然后在相应的输入字段中输入电子邮件的主题。
-1. 单击 **[!UICONTROL Test subject]** 按钮以访问窗 **[!UICONTROL Test your subject line]** 口。 您仍可以从此窗口编辑主题。
+1. 单击 **[!UICONTROL Test subject]**按钮以访问窗**[!UICONTROL Test your subject line]** 口。 您仍可以从此窗口编辑主题。
 1. 选择正确的模型以考虑开放率预测。 有多种型号可用，每种型号都对应于特定行业。
-1. Click **[!UICONTROL Test]**.
+1. 单击 **[!UICONTROL Test]**.
 
 然后，将分析您的主题。
 
@@ -52,7 +52,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 您可以根据以前电子邮件的数据培训本地模型：
 
    * 如果您已在使用Adobe Campaign，将自动对本地模型进行培训，以了解您已发送的消息。
-   * 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期、主题、发送、打开。 为此，请转到 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** ，然后按照连续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会自动使用您上传的数据进行培训。
+   * 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期，主题，打开，发送。 为此，请转到 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Email]**>**[!UICONTROL Subject Line Import]** ，然后按照连续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会自动使用您上传的数据进行培训。
    * 如果您是Adobe Campaign的新用户，并且无法如上所述获得CSV文件，则可以使用预先培训的模型，或等到系统中有足够的交付数据来培训本地模型时再执行。 系统将自动确定当前数据集是否包含足够的数据来识别模式和训练模型。
 
       >[!NOTE]
@@ -60,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
       >培训您自己的模型不需要定义的主题行数。 为了能够训练它，主题线必须是多样的，没有重复项。 如果没有足够的数据进行处理，系统就无法对模型进行训练。 实例上只能有一个经过培训的模型。
    要培训本地模型，请从此处下载subjectLineTraining.xml [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，然后使用包导入功 [](../../automating/using/managing-packages.md) 能将其上传到您的Adobe Campaign实例。 技术工作流将自动为您完成培训。
 
-   当您第一次要培训模型时，管理员可以从&gt; **[!UICONTROL SubjectLine Training workflow]** &gt;菜单强制开始模 **[!UICONTROL Administration]** 型 **[!UICONTROL Application settings]** 的操 **[!UICONTROL Workflows]** 作。
+   当您第一次要培训模型时，管理员可以从> **[!UICONTROL SubjectLine Training workflow]**>菜单强制开始模**[!UICONTROL Administration]** 型 **[!UICONTROL Application settings]**的操**[!UICONTROL Workflows]** 作。
 
    上传并培训模型后，该功能将自动激活，消息的主题行字段旁边将显示一个新选项。
 
