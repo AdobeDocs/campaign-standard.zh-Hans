@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ---
 
@@ -34,6 +34,8 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 添加了有关Adobe Campaign standard中移动交付的一般准则的新页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 使用Campaign和Experience Manager文档已更新，其中新增了有关如何使用Campaign- **Experience manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+API文档主页已得到改进，并重新指导了不同的主题。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 ## 文档更新- 2019年12月 {#doc-updates-december-2019}
 
