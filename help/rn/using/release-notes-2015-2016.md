@@ -1,18 +1,18 @@
 ---
 title: 发行说明 2015-2016
 description: 本页列出了所有2015和2016版Adobe Campaign Standard。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 16.11版- 2016年11月 {#release-16-11---november-2016}
 
-### 新功能 {#new-capabilities}
+**新功能**
 
 <table> 
  <thead> 
@@ -48,39 +48,39 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches}
+**修补程序**
 
-#### 常规 {#general}
+_常规_
 
 * 修复了多个安全问题。
 * 修复了REST API中空字段或重复字段的几个问题。
 * 您现在可以直接从应用程序主页创建SMS消息和推送通知。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages}
+_电子邮件和SMS消息_
 
 * 修复了阻止用户在内容编辑器中上传zip文件的问题。
 * 修复了在发送证明后无法打开证明的问题。
-* 修复了在访问A/B测试电子邮件上的报告时，导 **[!UICONTROL Hot Clicks]** 致显示错误消息的问题。
-* 修复了使用模式进行的修改无 **[!UICONTROL Show source]** 法应用的问题。
+* 修复了在访问A/B测试电子邮件上的报告时，导 **[!UICONTROL Hot Clicks]**致显示错误消息的问题。
+* 修复了使用模式进行的修改无 **[!UICONTROL Show source]**法应用的问题。
 * 修复了可能阻止导入预测主题行xml模型文件的问题。
-* 现在，中提供了专门用于为受培训的主题行模型导入数据的新屏幕 **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** 。
+* 现在，中提供了专门用于为受培训的主题行模型导入数据的新屏幕 **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]**。
 * 修复了允许非管理员用户在电子邮件配置屏幕中编辑授权掩码的问题。
 
-#### 推送通知 {#push-notifications}
+_推送通知_
 
-* 修复了在使用模板发送推送通知后，发送日志和事件日志无法显示给收件人的问 **[!UICONTROL Send push on profiles]** 题。
+* 修复了在使用模板发送推送通知后，发送日志和事件日志无法显示给收件人的问 **[!UICONTROL Send push on profiles]**题。
 * 修复了可能阻止创建新移动应用程序的问题。
 
-#### 工作流 {#workflows}
+_工作流_
 
-* 修复了使用活动时发生的性能 **[!UICONTROL Subscription]** 问题。
+* 修复了使用活动时发生的性能 **[!UICONTROL Subscription]**问题。
 * 修复了当工作流的内部名称包含空格时，该工作流无法正常工作的问题。
 
-#### 集成 {#integrations}
+_集成_
 
 * 修复了在电子邮件中使用从Adobe Marketing cloud共享的图 **像选项时** ，可能导致显示错误的问题。
 
-#### 自定义资源 {#custom-resources}
+_自定义资源_
 
 * 增强的API在两个扩展API字段的出版物之间记录预览。
 * 修复了自定义资源在发布之前无法删除的问题。
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 16.10版- 2016年10月 {#release-16-10---october-2016}
 
-### 新功能 {#new-capabilities-1}
+**新功能**
 
 <table> 
  <thead> 
@@ -118,43 +118,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-1}
+**修补程序**
 
-#### 常规 {#general-1}
+_常规_
 
 * 修复了多个安全问题。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-1}
+_电子邮件和SMS消息_
 
-* SMS外部帐户配置屏幕( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** )已得到改进。 在部分中添加了多个参 **[!UICONTROL SMSC specifics]** 数，以支持“文本”字段中的错误代码。
+* SMS外部帐户配置屏幕( **[!UICONTROL Administration > Channels > SMS > SMS accounts]**)已得到改进。 在部分中添加了多个参**[!UICONTROL SMSC specifics]** 数，以支持“文本”字段中的错误代码。
 
-#### 推送通知 {#push-notifications-1}
+_推送通知_
 
-* 修复了在编辑基于(mobileApp)模板的推送通知受众时无法显示预定义过 **[!UICONTROL Send via push notification]** 滤器的问题。
-* 移动应用程序配置屏幕( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )现在显示一条消息，指示已成功创建iOS或Android平台。
+* 修复了在编辑基于(mobileApp)模板的推送通知受众时无法显示预定义过 **[!UICONTROL Send via push notification]**滤器的问题。
+* 移动应用程序配置屏幕( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]**)现在显示一条消息，指示已成功创建iOS或Android平台。
 
-#### 登陆页面 {#landing-pages}
+_登陆页面_
 
 * 修复了在提交登录页面表单时无法发送确认电子邮件的问题。
 
-#### 受众和查询 {#audiences-and-queries}
+_受众和查询_
 
 * 修复了在查询编辑器中选择配置文件时出现的几个问题。
 
-#### 交易消息 {#transactional-messages}
+_交易消息_
 
 * 修复了阻止取消发布事务模板的错误。
 * 修复了导致触发事件显示在事件列表中的问题。
 
-#### 集成 {#integrations-1}
+_集成_
 
 * 修复了在更新共享受众后无法在分发中使用该受众的问题。
-* 修复了阻止在登录页面中使 **[!UICONTROL Image shared from Adobe Marketing Cloud]** 用共享资产（选项）的问题。
+* 修复了阻止在登录页面中使 **[!UICONTROL Image shared from Adobe Marketing Cloud]**用共享资产（选项）的问题。
 * 修复了编辑从Adobe Audience Manager导入的共享受众时发生的问题。
 
 ## 16.9版- 2016年9月 {#release-16-9---september-2016}
 
-### 新功能 {#new-capabilities-2}
+**新功能**
 
 <table> 
  <thead> 
@@ -187,36 +187,36 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-2}
+**修补程序**
 
-#### 常规 {#general-2}
+_常规_
 
 * 此版本在界面列表中引入了新的过滤和搜索功能。 此新增功能可用于日志（交付、跟踪）、服务（订阅、订阅历史记录）、受众和工作流转换。
 * 修复了与客户档案中的接触点数有关的几个显示问题。
 * 修复了多个类型学问题。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-2}
+_电子邮件和SMS消息_
 
 * 修复了允许编辑错误校样的错误。 它们现在为只读。
 * 修复了在SMS过长或存在编码问题时导致收件人被列入黑名单的问题。
 
-#### 自定义资源 {#custom-resources-1}
+_自定义资源_
 
 * 修复了使用自定义资源的高级过滤器时无法显示所有结果的错误。
 
-#### 交易消息 {#transactional-messages-1}
+_交易消息_
 
 * 前缀现在会自动添加到新事件定义的标识符中。
 * 界面中表示事务消息的图标已更改。
 
-#### 集成 {#integrations-2}
+_集成_
 
 * 修复了通过Adobe Target中的动态图像选项插入高分辨率图像时 **会出现的显示错误** 。
 * 修复了即使未在AMC数据源中设置目标ID也允许保存共享受众的错误。
 
 ## 16.7版- 2016年7月 {#release-16-7---july-2016}
 
-### 新功能 {#new-capabilities-3}
+**新功能**
 
 <table> 
  <thead> 
@@ -245,32 +245,32 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-3}
+**修补程序**
 
-#### 常规 {#general-3}
+_常规_
 
 * 修复了一个错误，该错误可能会导致显示不相关的字段而不是需要完成的字段。 在查询中编辑条件时，比较运算符多次修改后会发生这种情况。
-* 修复了在为日期字段定 **[!UICONTROL The last X days/months/quarters/years]** 义相对筛选条件时选项的行为。 计算的时段现在是相对于服务器日期和时间的滑动时段，而不是基于日历的时段。
+* 修复了在为日期字段定 **[!UICONTROL The last X days/months/quarters/years]**义相对筛选条件时选项的行为。 计算的时段现在是相对于服务器日期和时间的滑动时段，而不是基于日历的时段。
 
-#### 工作流 {#workflows-1}
+_工作流_
 
-* 修复了一个错误，该错误会在屏幕中返回一个错误的值列表，以便在活动的属性中选择定位维 **[!UICONTROL Query]** 度。
-* 修复了在活动中向集合元素添加平均聚合或计数聚合时， **会强制选择** “存在”运算符的错误 **[!UICONTROL Query]** 。
+* 修复了一个错误，该错误会在屏幕中返回一个错误的值列表，以便在活动的属性中选择定位维 **[!UICONTROL Query]**度。
+* 修复了在活动中向集合元素添加平均聚合或计数聚合时， **会强制选择** “存在”运算符的错误 **[!UICONTROL Query]**。
 
-#### 内容编辑 {#content-editing}
+_内容编辑_
 
 * 修复了在导入HTML内容时可能导致显示问题（响应式设计）的错误：当内容在导入后首次打开时，样式属性不再被重写。
 * 修复了在动态内容变体中添加条件时导致的非阻塞错误。
 * 修复了在登录页面的内容中添加复选框所导致的错误。 复选框不可用。
 * 修复了在将光标放在相关块的开头时删除块中的文本时可能发生的错误。
 
-#### 交易消息 {#transactional-messages-2}
+_交易消息_
 
 * 集成网站时，您现在可以为任何给定活动定义到期日期。 一旦传递了此日期，便无法再发送与活动对应的消息。
 
 ## 16.6版- 2016年6月 {#release-16-6---june-2016}
 
-### 新功能 {#new-capabilities-4}
+**新功能**
 
 <table> 
  <thead> 
@@ -287,9 +287,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-4}
+**修补程序**
 
-#### 常规 {#general-4}
+_常规_
 
 * 现在，移动设备上禁用了工具提示，以确保屏幕上显示的信息易于阅读。
 * 修复了阻止用户在iPad屏幕上滚动特定区域的内容的错误。
@@ -299,7 +299,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修复了在配置显示列表的方式时阻止显示资源元素的错误。
 * 修复了查询编辑器资源管理器中的错误。 搜索字段返回的结果保留在搜索历史记录中，并在每次新搜索时继续显示。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-3}
+_电子邮件和SMS消息_
 
 * 修复了一个错误，该错误导致链接到弹回的信息无法在交付日志中恢复。
 * 修复了阻止访问事务消息的动态内容块中的上下文的错误。
@@ -307,27 +307,27 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修复了传送创建向导顶栏的显示。
 * 交付的主要密钥无法再用作个性化字段。
 
-#### 工作流 {#workflows-2}
+_工作流_
 
 * 工作流的两个活动之间的过渡现在显示从一个活动计算并传输到另一个活动的元素计数。
-* 现在，在活动中添加其他数据时，不兼容的字段会被隐 **[!UICONTROL Query]** 藏。
+* 现在，在活动中添加其他数据时，不兼容的字段会被隐 **[!UICONTROL Query]**藏。
 * 添加其他数据时显示的聚合定义窗口已改进为仅提供与使用数据兼容的选件选项(例如：计算平均值只能用于数值数据)。
 * 现在，只有具有管理权限的用户才能执行现成的技术工作流。
 
-#### 登陆页面 {#landing-pages-1}
+_登陆页面_
 
 * 修复了一个错误，该错误可能会截断登录页面属性中的32位AES编码密钥。
 * 修复了在定义可见性条件或向登录页面添加动态内容时，查询编辑器无法正确显示的错误。
 
-#### 自定义资源 {#custom-resources-2}
+_自定义资源_
 
-* 现在， **[!UICONTROL Switch to parameters]** 在定义与配置文件对服务的订阅相关的筛选器时，该选项处于隐藏状态。
+* 现在， **[!UICONTROL Switch to parameters]**在定义与配置文件对服务的订阅相关的筛选器时，该选项处于隐藏状态。
 * 修复了从自定义资源配置0-1类型链接时可能发生的错误。
 * 修复了在自定义资源中添加“日期”和“时间”类型字段时，可能会阻止编辑定义的“常 **数”默认值****** （如果相关）的错误。
 
 ## 版本16.5 - 2016年5月 {#release-16-5---may-2016}
 
-### 新功能 {#new-capabilities-5}
+**新功能**
 
 <table> 
  <thead> 
@@ -356,56 +356,56 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-5}
+**修补程序**
 
-#### 常规 {#general-5}
+_常规_
 
 * 各种界面符合Marketing cloud标准的新功能。
 * 不同下拉列表类型的标准化。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-4}
+_电子邮件和SMS消息_
 
 * 修复了在指定错误地址掩码时无法发送电子邮件的错误。
 * 现在支持TLS协议以通过电子邮件发送。 MX管理中的新列允许您为每个域定义所需的TLS行为。
 * SMS界面已得到改进。
 
-#### 工作流 {#workflows-3}
+_工作流_
 
 * 各种工作流界面新增功能。
 * 修复了显示快速操作时发生的错误。
-* 修复了使用包含1-N链接的类型活动时可能导致 **[!UICONTROL Segmentation]** 工作流失败的错误。
+* 修复了使用包含1-N链接的类型活动时可能导致 **[!UICONTROL Segmentation]**工作流失败的错误。
 * 修复了阻止在混合设备上打开工作流的过渡的错误。
 * 修复了首次启动工作流时无法显示暂停按钮的错误。
 
-#### 内容编辑器 {#content-editor}
+_内容编辑器_
 
 * 内容编辑器现在允许您个性化电子邮件或登录页面中包含的任何URL。 请参阅详细 [文档](../../designing/using/personalization.md#personalizing-urls)。
 * 修复了在传送的创建向导中添加图像并随后对其内容进行修改时可能导致图像丢失的错误。
 
-#### 自定义资源 {#custom-resources-3}
+_自定义资源_
 
 * 修复了在自定义资源的配置屏幕中添加个性化的1-N类型链接时出现的错误。
 * 改进了准备和发布自定义资源时进度栏的显示。
 * 修复了显示自定义资源的链接列表时出现的错误。
 
-#### 交易消息 {#transactional-messages-3}
+_交易消息_
 
 * 优化了界面的用户友好性以及事务消息引擎的性能和鲁棒性。
 * 现在可以暂时暂停交易消息模板的发布。 有关详细信息，请参阅详细 [文档](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)。
 * 修复了可能导致具有不兼容定位维的内容块添加到事务消息模板中的错误。
 * 修复了阻止在事件配置屏幕中显示API预览的错误。
 
-#### 受众和查询 {#audiences-and-queries-1}
+_受众和查询_
 
 * 有关在查询编辑器中使用日期的各种修补程序。 请参阅详细 [文档](../../automating/using/editing-queries.md#creating-queries)。
 
-#### 管理 {#administration}
+_管理_
 
 * 修复了“标准用户”安全组名称相关的错误，该错误导致用户无法登录。
 
 ## 16.3版- 2016年3月 {#release-16-3---march-2016}
 
-### 新功能 {#new-capabilities-6}
+**新功能**
 
 <table> 
  <thead> 
@@ -430,38 +430,38 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-6}
+**修补程序**
 
-#### 常规 {#general-6}
+_常规_
 
 * 修复了在对列表排序时出现的显示错误：只能为某些类型的数据反转表示列排序顺序的箭头。
 * 修复了在查询中添加规则时限制下拉菜单中显示的元素数的错误。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-5}
+_电子邮件和SMS消息_
 
 * 修复了可能阻止访问电子邮件呈现报告的错误。
 * 如果未提供发送者地址，消息的准备发送阶段现在会返回错误。
 
-#### 工作流 {#workflows-4}
+_工作流_
 
 * 在提取CSV格式文件时，某些文件格式选项是可见的，但未考虑这些选项。 这些选项现在不再可见。
-* 修复了选中类型文件传 **[!UICONTROL Delete the source files after transfer]** 输选项时导致的 **[!UICONTROL SFTP]** 错误。
-* 修复了刷新页面后无法显示计数 **[!UICONTROL Query]** 器和数据预览的错误。
+* 修复了选中类型文件传 **[!UICONTROL Delete the source files after transfer]**输选项时导致的**[!UICONTROL SFTP]** 错误。
+* 修复了刷新页面后无法显示计数 **[!UICONTROL Query]**器和数据预览的错误。
 * 修复了在工作流中打开某些过渡导致的错误，尤其是在定位和筛选维度不同的交付活动或查询之后。
 * 修复了在添加活动后未保存工作流时，阻止将个性化字段插入工作流的分发活动的错误。
 * 修复了阻止显示电子邮件分发活动的出站过渡定位维度的错误。
 
-#### 登陆页面 {#landing-pages-2}
+_登陆页面_
 
 * 修复了导致个性化字段无法在登录页面的可本地化内容块中正常工作的错误。
 
-#### 自定义资源 {#custom-resources-4}
+_自定义资源_
 
 * 修复了一个错误，该错误导致在选中资源屏幕定义选项以及在中选择了多个字段的情况下，无法执行对自定义资源的搜索 **[!UICONTROL Add search fields]****[!UICONTROL Filter zone composition]** 。
 
 ## 16.2版- 2016年2月 {#release-16-2---february-2016}
 
-### 新功能 {#new-capabilities-7}
+**新功能**
 
 <table> 
  <thead> 
@@ -490,48 +490,48 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-7}
+**修补程序**
 
-#### 常规 {#general-7}
+_常规_
 
 * 修复了报告、列表和查询中的多个显示错误。
 * 修复了移动设备上的多个兼容性和显示错误。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-6}
+_电子邮件和SMS消息_
 
 * 修复了在创建消息（电子邮件或SMS）时，用于插入个性化字段的按钮无法显示的错误。
 * 修复了一个错误，该错误可能会阻止通过Mblox发送的SMS消息正确传输。
 
-#### 受众和查询 {#audiences-and-queries-2}
+_受众和查询_
 
 * 修复了在修改过滤维后在查询中添加附加条件时可能导致的计数错误。
 * 修复了在预览查询结果时可能导致分页错误的错误。
 
-#### 内容编辑 {#content-editing-1}
+_内容编辑_
 
 * 修复了一个错误，该错误可能导致在使用个性化枚举时无法正确考虑动态内容配置。
 
-#### 工作流 {#workflows-5}
+_工作流_
 
-* 修复了一个错误，该错误可能会阻止在活动的选项卡中有空行时执行工作流 **[!UICONTROL Fields to update]** 中的任何操 **[!UICONTROL Update data]** 作。
+* 修复了一个错误，该错误可能会阻止在活动的选项卡中有空行时执行工作流 **[!UICONTROL Fields to update]**中的任何操**[!UICONTROL Update data]** 作。
 * 修复了阻止导入包含地理／组织单元信息的数据的错误。
-* 修复了添加规则类型 **[!UICONTROL Change axis]** 所导致的 **[!UICONTROL Exclusion]** 错误。
-* 修复了在操作活动的出站过渡时可能导致创建不需要的额外区段的错 **[!UICONTROL Segmentation]** 误。
+* 修复了添加规则类型 **[!UICONTROL Change axis]**所导致的**[!UICONTROL Exclusion]** 错误。
+* 修复了在操作活动的出站过渡时可能导致创建不需要的额外区段的错 **[!UICONTROL Segmentation]**误。
 * 修复了在工作流模板中加载文件导致的错误。
-* 修复了一个错误，该错误会阻止将空间用作活动中的列分隔 **[!UICONTROL Load file]** 符。
+* 修复了一个错误，该错误会阻止将空间用作活动中的列分隔 **[!UICONTROL Load file]**符。
 
-#### 自定义资源 {#custom-resources-5}
+_自定义资源_
 
 * 修复了在导出时发布自定义资源时，导入包后无法重新起草自定义资源状态的错误。
 
-#### 包 {#packages}
+_包_
 
 * 修复了阻止导出包含工作流的包的错误。
 * 修复了一个错误，该错误会阻止选择同一资源的多个元素。
 
 ## 16.1版- 2016年1月 {#release-16-1---january-2016}
 
-### 新功能 {#new-capabilities-8}
+**新功能**
 
 <table> 
  <thead> 
@@ -564,19 +564,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-8}
+**修补程序**
 
-#### 常规 {#general-8}
+_常规_
 
 * 改进了与Internet explorer和Chrome的兼容性，用于混合／触摸屏设备。
 * 修复了一个错误，该错误可能导致为新用户／配置文件／测试配置文件输入的所有数据丢失（如果指示的电子邮件地址包含语法错误）。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-7}
+_电子邮件和SMS消息_
 
 * 修复了一个错误，该错误会阻止在电子邮件预览屏幕中生成内容缩略图。
 * 修复了一个错误，该错误会阻止消息（电子邮件或SMS）的原始内容显示在消息预览屏幕中。
 
-#### 受众和查询 {#audiences-and-queries-3}
+_受众和查询_
 
 * 修复了一个错误，该错误可能会阻 **止在** “服务”资源中创建 **Query** 类型受众。
 * 修复了在高级模式下编辑查询条件时可能无法正确显示函数列表的错误。
@@ -584,43 +584,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修复了一个错误，该错误可能会阻止创建包含交付KPI筛选器的查询。
 * 修复了一个错误，该错误会阻止预览从工作流创建的受众的内容。
 
-#### 自定义资源 {#custom-resources-6}
+_自定义资源_
 
 * 修复了一个错误，该错误在自定义资源包含具有动态默认值的字段时可能导致服务器崩溃。
-* 修复了在定义自定义资源的屏幕时，在部分中移 **[!UICONTROL Detail screen configuration]** 动然后删除元素所导致的错误。
+* 修复了在定义自定义资源的屏幕时，在部分中移 **[!UICONTROL Detail screen configuration]**动然后删除元素所导致的错误。
 * 修复了为未在其可能值范围中包含 **0** 的整数列表定义默认值时 **** 发生的错误。
 * 修复了一个错误，该错误可能会阻止在重新初始化后在自定义资源的详细信息屏幕配置中添加元素。
 
-#### 工作流 {#workflows-6}
+_工作流_
 
 * 修复了一个错误，该错误可能导致工作流中所有活动的日志被显示，而不是只显示选定活动的日志。
-* 修复了活动中的错 **[!UICONTROL Scheduler]** 误。 该 **[!UICONTROL Day of the month]** 选项未正确考虑并替换为 **[!UICONTROL Week day]** 。
-* 修复了在过期模式设置 **[!UICONTROL Scheduler]** 为时，可能导致活动无法正确工作的错误 **[!UICONTROL After a certain number of iterations]** 。
-* 修复了使用活动导出数据时发生的错 **[!UICONTROL Extract file]** 误。 导出文件中的行数低于导出的元素数。
-* 修复了一个错误，该错误可能会阻止选 **[!UICONTROL Load file]** 择活动中的文件。
-* 修复了阻止删除活动中要更新的字段 **[!UICONTROL Update data]** 的错误。
+* 修复了活动中的错 **[!UICONTROL Scheduler]**误。 该**[!UICONTROL Day of the month]** 选项未正确考虑并替换为 **[!UICONTROL Week day]**。
+* 修复了在过期模式设置 **[!UICONTROL Scheduler]**为时，可能导致活动无法正确工作的错误**[!UICONTROL After a certain number of iterations]** 。
+* 修复了使用活动导出数据时发生的错 **[!UICONTROL Extract file]**误。 导出文件中的行数低于导出的元素数。
+* 修复了一个错误，该错误可能会阻止选 **[!UICONTROL Load file]**择活动中的文件。
+* 修复了阻止删除活动中要更新的字段 **[!UICONTROL Update data]**的错误。
 * 修复了在打开工作流执行日志后无法保存对工作流所做的修改的错误。
-* 修复了将活动配置 **[!UICONTROL Load file]** 为从其入站过渡中使用该文件并且该文件已使用活动加载时导致该活动执行两次的错误 **[!UICONTROL Transfer file]** 问题。
+* 修复了将活动配置 **[!UICONTROL Load file]**为从其入站过渡中使用该文件并且该文件已使用活动加载时导致该活动执行两次的错误**[!UICONTROL Transfer file]** 问题。
 * 修复了一个错误，该错误可能会阻止某些临时实体被排除活动正 **确处理** 。
-* 修复了一个错误，该错误可 **[!UICONTROL Query]** 能会在活动中配置的定位维和筛选维不同时，导致活动无法正确执行。
-* 修复了一个错误，该错误与添加到活动的出站过渡的自 **[!UICONTROL Fork]** 动命名有关，该错误会阻止保存工作流。
+* 修复了一个错误，该错误可 **[!UICONTROL Query]**能会在活动中配置的定位维和筛选维不同时，导致活动无法正确执行。
+* 修复了一个错误，该错误与添加到活动的出站过渡的自 **[!UICONTROL Fork]**动命名有关，该错误会阻止保存工作流。
 
-#### 内容编辑 {#content-editing-2}
+_内容编辑_
 
 * 修复了在编辑内容时可能导致图标或搜索栏显示不理想的错误。
 
-#### 登陆页面 {#landing-pages-3}
+_登陆页面_
 
 * 修复了阻止使用包导入导入登录页面的错误。
 
-#### 交易消息 {#transactional-messages-4}
+_交易消息_
 
 * 现在，可以在消息中心推送代理运营商的安全参数中指定受信任的IP地址。
 * 修复了可能阻止创建新类型事件的错误。
 
 ## 15.11版- 2015年11月 {#release-15-11---november-2015}
 
-### 新功能 {#new-capabilities-9}
+**新功能**
 
 <table> 
  <thead> 
@@ -657,44 +657,44 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-9}
+**修补程序**
 
-#### 常规 {#general-9}
+_常规_
 
 * 修复了一个错误，该错误会阻止从管理员帐户访问实例的常规参数。
 * **现在** ，自定义资源中正确考虑了浮动数据。
 * 修复了在已执行的简化导入列表中的显示错误，该错误在相应模板的状态被修改时导致。
 
-#### 登陆页面 {#landing-pages-4}
+_登陆页面_
 
 * 修复了登录页面模板的某些元素，这些元素在英语实例中可能以法语显示不正确。
 
-#### Audiences {#audiences}
+_受众_
 
 * 修复了一个错误，该错误可能会阻止从Adobe Marketing cloud导入的受众显示在受众列表中。
 * 修复了在定义查询时可能强制区分大小写的错误。
 * 修复了在定义查询时可能阻止筛选受众的错误。
 * 修复了一个错误，该错误可能会阻止在受众中取消操作。
 
-#### 工作流 {#workflows-7}
+_工作流_
 
-* 修复了一个错误，该错误可能会阻止手动配置活动中 **[!UICONTROL Update data]** 要更新的字段。
-* 修复了在将活动放入图 **[!UICONTROL Query]** 中后，如果未保存工作流，则在打开时可能导致活动无限加载的错误。
-* 修复了在计算或预览从工作流中选择的受众时可能导致服务器停止 **[!UICONTROL Query]** 的错误。
+* 修复了一个错误，该错误可能会阻止手动配置活动中 **[!UICONTROL Update data]**要更新的字段。
+* 修复了在将活动放入图 **[!UICONTROL Query]**中后，如果未保存工作流，则在打开时可能导致活动无限加载的错误。
+* 修复了在计算或预览从工作流中选择的受众时可能导致服务器停止 **[!UICONTROL Query]**的错误。
 * 修复了在工作流中的活动打开时可能显示的非关键错误。
-* 修复了阻止将活动配 **[!UICONTROL Scheduler]** 置为每天执行多次工作流的错误。
+* 修复了阻止将活动配 **[!UICONTROL Scheduler]**置为每天执行多次工作流的错误。
 * 修复了一个错误，该错误可能导致无法执行查询的字段显示在某些工作流活动中。
-* 修复了一个错误，该错误可能会阻止用户查找从出站转移的 **[!UICONTROL Query]** 分发中添加的KPI。
+* 修复了一个错误，该错误可能会阻止用户查找从出站转移的 **[!UICONTROL Query]**分发中添加的KPI。
 * 修复了将文件导入工作流后可能无法创建文件受众的错误。
 * 修复了一个错误，该错误在使用了资源的 **location/address3** 字段时可能会阻止在配置文件上更新数据。
 * 修复了阻止在工作流中复制异构活动集合的错误。
 * 修复了阻止显示SQL的错误，从而允许诊断工作流中重复传送的错误。
 
-#### 内容编辑器 {#content-editor-1}
+_内容编辑器_
 
 * 修复了导致无法在登录页面或电子邮件的源代码中进行搜索的错误。
 
-#### 包 {#packages-1}
+_包_
 
 * 修复了可能阻止某些类型的元素在包中导出的各种错误（特别是登录页面、工作流）。
 * 修复了一个错误，该错误会导致在修改标签时显示以前的包导入标签。
@@ -702,7 +702,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 版本15.10 - 2015年10月 {#release-15-10---october-2015-}
 
-### 新功能 {#new-capabilities-10}
+**新功能**
 
 <table> 
  <thead> 
@@ -735,54 +735,54 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-10}
+**修补程序**
 
-#### 电子邮件 {#email}
+_电子邮件_
 
 * 修复了一个错误，该错误导致服务取消订阅链接无法从镜像页面正常工作。
 * 修复了一个错误，该错误会阻止电子邮件传送标签在电子邮件编辑页面上正确显示。
-* 修复了一个错误，该错误可能会阻 **[!UICONTROL Routing]** 止在复制的分发模板中选择外部帐户。
+* 修复了一个错误，该错误可能会阻 **[!UICONTROL Routing]**止在复制的分发模板中选择外部帐户。
 
-#### Audiences {#audiences-1}
+_受众_
 
 * 修复了在查询中使用1-N链接时在受众计数期间导致的错误。
 * 修复了一个错误，该错误可能导致无法在电子邮件分发的目标受众中选择配置文件。
 
-#### 工作流 {#workflows-8}
+_工作流_
 
 * 修复了在工作流中配置电子邮件分发时可能导致显示问题的错误。
-* 修复了可能导致活动无法正 **[!UICONTROL Load file]** 常工作的错误。 随后将显示空白错误消息。
-* 修复了可能导致活动无法正 **[!UICONTROL Transfer file]** 常工作的错误。 访问权限并非始终正确考虑。
-* 修复了一个错误，该错误在工作流包含文件时会阻止导出文件 **[!UICONTROL Recurring email]** 。
+* 修复了可能导致活动无法正 **[!UICONTROL Load file]**常工作的错误。 随后将显示空白错误消息。
+* 修复了可能导致活动无法正 **[!UICONTROL Transfer file]**常工作的错误。 访问权限并非始终正确考虑。
+* 修复了一个错误，该错误在工作流包含文件时会阻止导出文件 **[!UICONTROL Recurring email]**。
 * 修复了一个错误，该错误可能会阻止在工作流中创建电子邮件分发，或阻止将主题和定义的内容考虑在内。
-* 修复了在配置简化的导入模板的工作流时，会阻止在活 **[!UICONTROL Update data]** 动中选择对帐密钥的错误。
+* 修复了在配置简化的导入模板的工作流时，会阻止在活 **[!UICONTROL Update data]**动中选择对帐密钥的错误。
 * 修复了在删除活动后无法保存工作流的错误。
 
-#### 平台 {#platform}
+_平台_
 
 * 修复了一个错误，该错误可能会阻止在自定义资源包含指向该元素资源类型的链接时创建新元素。
 * 修复了可能导致某些日志写入延迟15分钟的错误。
-* 修复了一个错误，该错误会阻止在按或列排序时显示营销活 **[!UICONTROL Date]** 动列 **[!UICONTROL Indicators]** 表。
+* 修复了一个错误，该错误会阻止在按或列排序时显示营销活 **[!UICONTROL Date]**动列**[!UICONTROL Indicators]** 表。
 
-#### 登陆页面 {#landing-pages-5}
+_登陆页面_
 
 * 修复了在选择测试配置文件以预览登陆页面时发生的错误。
 
-#### 交易消息 {#transactional-messages-5}
+_交易消息_
 
 * 修复了在删除测试配置文件上的事件后可能导致应用程序崩溃的错误。
 
-#### 报告 {#reports}
+_报告_
 
-* 修复了一个错误，该错误可能导致为报告和发送错误 **[!UICONTROL deliveryThroughputReport]** 的数据 **[!UICONTROL deliveryTrackingReport]** 。
+* 修复了一个错误，该错误可能导致为报告和发送错误 **[!UICONTROL deliveryThroughputReport]**的数据**[!UICONTROL deliveryTrackingReport]** 。
 
-#### 内容编辑器 {#content-editor-2}
+_内容编辑器_
 
 * 修复了在处理动态内容块时发生的HTML标签管理错误。
 
 ## 15.8版- 2015年8月 {#release-15-8---august-2015}
 
-### 新功能 {#new-capabilities-11}
+**新功能**
 
 <table> 
  <thead> 
@@ -819,41 +819,41 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-11}
+**修补程序**
 
-#### 显示 {#display}
+_显示_
 
 * 修复了一个错误，该错误可能导致在Safari的查询编辑器中并列两个字段。
 
-#### 内容编辑器 {#content-editor-3}
+_内容编辑器_
 
-* 修复了阻止在电子邮件主题中使用字符“&lt;”、“&amp;”和“&gt;”的错误。
+* 修复了阻止在电子邮件主题中使用字符“&lt;”、“&amp;”和“>”的错误。
 
-#### 电子邮件 {#email-1}
+_电子邮件_
 
 * 修复了阻止用户在动态文本后添加文本的错误。
 
-#### 列表 {#lists}
+_列表_
 
 * 修复了阻止正确导 **出工作流执行日志** “消息”列的错误。
 
-#### 用户档案和受众 {#profiles-and-audiences}
+_用户档案和受众_
 
 * 修复了导致重复或删除元素时间的双重确认的错误。 **仅使用Internet Explorer 11的混合设备**。
 
-#### 工作流 {#workflows-9}
+_工作流_
 
 * 修复了可能阻止从工作流发送电子邮件的错误。
-* 修复了在活动中未指定拒绝文件名称时，可能会阻止工作流执行的错 **[!UICONTROL Load file]** 误。
-* 修复了一个错误，该错误可能会阻止在将活动 **[!UICONTROL Execution frequency]** 设置为时 **[!UICONTROL Schedule]** 执行工作流 **[!UICONTROL Daily]** 。
+* 修复了在活动中未指定拒绝文件名称时，可能会阻止工作流执行的错 **[!UICONTROL Load file]**误。
+* 修复了一个错误，该错误可能会阻止在将活动 **[!UICONTROL Execution frequency]**设置为时**[!UICONTROL Schedule]** 执行工作流 **[!UICONTROL Daily]**。
 
-#### 平台 {#platform-1}
+_平台_
 
 * 修复了在负载平衡环境中无法生成缩略图的错误。
 
 ## 15.7版- 2015年7月 {#release-15-7---july-2015}
 
-### 新功能 {#new-capabilities-12}
+**新功能**
 
 <table> 
  <thead> 
@@ -895,33 +895,33 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-12}
+**修补程序**
 
-#### 安装 {#installation}
+_安装_
 
 * Adobe Campaign实例名称现在限制为32个字符。
 
-#### 工作流 {#workflows-10}
+_工作流_
 
 * 修复了在工作流中编辑查询时可能无法定位“交付”资源的错误。
 * 修复了在工作流中编辑查询时可能无法处理某些链接资源的错误。
 * 修复了一个错误，该错误可能会 **阻止在工作流已执行的情况下** ，修改重复的交付活动。
 
-#### 电子邮件 {#emails}
+_电子邮件_
 
 * 修复了在通过表达式编辑器添加动态内容后，在发送电子邮件之前无法检查JavaScript语法错误的错误。
 
-#### 登陆页面 {#landing-pages-6}
+_登陆页面_
 
 * 修复了阻止从平板电脑编辑登录页面的错误。
 
-#### Assets Core Service {#assets-core-service}
+_Assets Core Service_
 
 * 当从正在编辑的电子邮件或登录页面中选择共享资源时，现在会为Adobe Campaign筛选可用资源列表。
 
 ## 15.6版- 2015年6月 {#release-15-6---june-2015}
 
-### 新功能 {#new-capabilities-13}
+**新功能**
 
 <table> 
  <thead> 
@@ -970,9 +970,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-13}
+**修补程序**
 
-#### 列表 {#lists-1}
+_列表_
 
 * 现在，从列表中删除元素会导致列表自动刷新。
 * 修复了阻止从仅包含一列的列表中选择元素的错误。
@@ -980,22 +980,22 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 测试配置文件的中间名称和标题现在都可以显示在测试配置文件列表中。
 * 修复了在Mozilla Firefox的列表中选择复选框时发生的错误。
 
-#### Audiences {#audiences-2}
+_受众_
 
-* 修复了阻止在受众界 **[!UICONTROL Add]** 面中使用按钮的错误。
+* 修复了阻止在受众界 **[!UICONTROL Add]**面中使用按钮的错误。
 
-#### 电子邮件 {#emails-1}
+_电子邮件_
 
 * 修复了在编辑电子邮件时，预览按钮在行中不能被使用两次的JavaScript错误。
-* 修复了使用Internet Explorer 11 **[!UICONTROL Edit properties]** 在Microsoft Surface Pro3 **[!UICONTROL Show proofs]** 平板电脑上无法使用和按钮的错误。
+* 修复了使用Internet Explorer 11 **[!UICONTROL Edit properties]**在Microsoft Surface Pro3**[!UICONTROL Show proofs]** 平板电脑上无法使用和按钮的错误。
 * 修复了可能阻止显示电子邮件发送日志的错误。
 
-#### 登陆页面 {#landing-pages-7}
+_登陆页面_
 
 * 修复了在登录页面中编 **辑内容时** ，无法使用品牌徽标内容块的错误。
 * 修复了在为登录页面指定了有效日期时，导致登录页面无法显示在营销活动列表中的错误。
 
-#### 工作流 {#workflows-11}
+_工作流_
 
 * 修复了在配置分段活动时，在组模式下限制区段时无法正常工作的 **错误** 。
 * 修复了在配置了分段活动后无法选择过渡的 **错误** 。
@@ -1006,13 +1006,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修复了阻止排除规则在排除活动中正确考虑的错 **误** 。
 * 修复了在工作流中删除电子邮件分发活动时发生的错误。 相应的分发现在也从营销活动列表中删除。
 
-#### 导航 {#navigation}
+_导航_
 
 * 您现在可以使用Tab键在同一页面上的字段之间正确导航。
 
 ## 15.4版- 2015年4月 {#release-15-4---april-2015}
 
-### 新功能 {#new-capabilities-14}
+**新功能**
 
 <table> 
  <thead> 
@@ -1062,7 +1062,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 15.3版- 2015年3月 {#release-15-3---march-2015}
 
-### 新功能 {#new-capabilities-15}
+**新功能**
 
 <table> 
  <thead> 
@@ -1087,9 +1087,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修补程序 {#patches-14}
+**修补程序**
 
-#### 常规 {#general-10}
+_常规_
 
 * 修复了在创建分发时无法显示收件人的错误。
 * 修复了阻止使用基于“已打开的收件人”条件的受众的错误。
