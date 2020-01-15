@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
+source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 ---
 
 
 # 最新版本{#latest-release}
 
-[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控[制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]|文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2018.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2018.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 19.4版- 2019年12月 {#release-19-4---october-2019}
 
@@ -408,7 +408,7 @@ source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 * 修复了查看排版规则时的错误。 （CAMP-32059和CAMP-31849）
 * 修复了阻止编辑排版规则的问题。 (CAMP-31750)
-* 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
+* 修复了inMail进程中可能意外停止的问题。 (CAMP-31238)
 
 ## 19.1版- 2019年2月 {#release-19-1---february-2019}
 
@@ -456,7 +456,7 @@ source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
    有关详细信息，请参阅详 [细文档](../../designing/using/using-reusable-content.md#content-templates)。
 
-* 我们新的入门培训体验将帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
+* 我们新的入门培训体验可以帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
 
    有关详细信息，请参阅详 [细文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
