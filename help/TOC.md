@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 # Adobe Campaign Standard 帮助 {#using}
 
 + [产品文档](campaign-standard-home.md)
++ [最新更新](rn/using/documentation-updates.md)
 + 发行说明 {#release-notes}
-   + [发行说明](rn/using/release-notes.md)
-   + [发行说明 2018](rn/using/release-notes-2018.md)
-   + [发行说明 2017](rn/using/release-notes-2017.md)
-   + [发行说明 2015-2016](rn/using/release-notes-2015-2016.md)
-   + [文档更新](rn/using/documentation-updates.md)
+   + [最新版本](rn/using/release-notes.md)
+   + 先前版本 {#previous-releases}
+      + [发行说明 2018](rn/using/release-notes-2018.md)
+      + [发行说明 2017](rn/using/release-notes-2017.md)
 + 快速入门 {#getting-started}
    + 关于 Adobe Campaign {#about-adobe-campaign}
       + [营销活动编排](start/using/campaign-orchestration.md)
