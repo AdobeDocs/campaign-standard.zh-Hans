@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ## 版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
-### 新功能 {#new-capabilities}
+**新功能**
 
 <table> 
  <thead> 
@@ -48,9 +48,9 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches}
+**修补程序**
 
-#### 平台 {#platform}
+_平台_
 
 * 修复了可能导致无法正确解压大文件的问题。
 * 品牌管理的安全性已得到改进。 现在，Adobe技术管理员可以保留修改品牌名称和发件人地址。
@@ -58,14 +58,14 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修复了显示和筛选营销活动时的界面问题。
 * 修复了阻止使用POST Rest API调用更新订阅日期字段的问题。
 
-#### 电子邮件、短信和直邮 {#emails--sms-messages-and-direct-mail}
+_电子邮件、短信和直邮_
 
 * 修复了一个问题，该问题可能导致无法定位消息中的列表类型受众，从而导致准备失败。
 * 多语言电子邮件交付功能中新增了缺失的语言。
 * 内容缩略图（显示在交付功能板上）现在会在用户修改内容并保存时自动更新。
 * 修复了阻止打开交付的时区相关问题。
 
-#### 推送通知 {#push-notifications}
+_推送通知_
 
 * 在配置推送通知通道时，iOS的推送提供者平台应为apns **** ,Android **gcm**&#x200B;的推送提供者平台。
 * 修复了阻止iOS移动应用程序添加到Adobe Campaign界面中的错误。
@@ -74,7 +74,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 现在，通过协调移动应用程序用户的数据，可以从Adobe Campaign数据库创建或更新配置文件。
 * Adobe Campaign现在优先处理事务推送通知而不是标准推送通知。
 
-#### 报告 {#reports}
+_报告_
 
 * 修复了阻止热点单击百分比显示在电子邮件内容中的问题。
 * 修复了黑名单指标的问题，该指标被计为硬弹跳而非弹跳。
@@ -82,31 +82,31 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修复了在错误的年龄区段中计算配置文件的问题。
 * 软弹跳和硬弹跳计算公式已更改。
 
-#### 工作流 {#workflows}
+_工作流_
 
-* 修复了活动中 **[!UICONTROL Load file]** 在手动添加和删除活动中的列后可能导致错误的问题。
-* 技术 **[!UICONTROL deliverabilityUpdate]** 工作流程现在计划在服务器时间凌晨2点运行。
+* 修复了活动中 **[!UICONTROL Load file]**在手动添加和删除活动中的列后可能导致错误的问题。
+* 技术 **[!UICONTROL deliverabilityUpdate]**工作流程现在计划在服务器时间凌晨2点运行。
 * 修复了允许在不具有导出角色的情况下执行列表导出的安全问题。
-* 修复了活动的问 **[!UICONTROL Reconciliation]** 题。
-* 修复了在活动中使用通配符的问 **[!UICONTROL File Transfer]** 题。
+* 修复了活动的问 **[!UICONTROL Reconciliation]**题。
+* 修复了在活动中使用通配符的问 **[!UICONTROL File Transfer]**题。
 
-#### 用户档案和受众 {#profiles-and-audiences}
+_用户档案和受众_
 
 * 修复了一个问题，该问题可能导致在某些情况下无法正确考虑查询条件，从而导致错误结果。
 * 修复了在已准备但从未发送和过期的消息中定位配置文件时，可能会阻止访问配置文件的问题。
 
-#### 集成 {#integrations}
+_集成_
 
 * 修复了一个问题，该问题可能会阻止为触发器创建的某些数据源正确显示和被选择。
 
-#### 自定义资源 {#custom-resources}
+_自定义资源_
 
 * 修复了在列表屏幕中出现的一个问题，该问题导致自定义资源行可能在不显示任何数据的情况下显示。
 * 修复了阻止具有“False”值的布尔类型字段在自定义资源中显示的问题。
 
 ## 17.9版- 2017年9月 {#release-17-9---september-2017}
 
-### 新功能 {#new-capabilities-1}
+**新功能**
 
 <table> 
  <thead> 
@@ -131,54 +131,54 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches-1}
+**修补程序**
 
-#### 平台 {#platform-1}
+_平台_
 
-* 一些客户需要能够利用Adobe Campaign Standard提供的ID，因为他们没有管理唯一的密钥来识别自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作对帐密钥。  有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+* 一些客户需要能够利用Adobe Campaign Standard提供的ID，因为他们没有管理唯一的密钥来识别自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作对帐密钥。 有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP协议已弃用。 您现在应改用SFTP。 为了不阻止现有实施，FTP上的现有配置仍将像以前一样工作，但新活动不会显示此选项。
 
-#### 电子邮件、短信和直邮 {#emails--sms-messages-and-direct-mail-1}
+_电子邮件、短信和直邮_
 
-* 现在，可以创建新的警报标准，以将其用于发送警报通知。  有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 现在，可以创建新的警报标准，以将其用于发送警报通知。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 交付警报通知具有新设计，并且交付警报功能板用户体验已得到改进。
 * 现在，当路由外部帐户被禁用时，受影响的分发（电子邮件、SMS和推送）中会显示一条警告消息，并且 **Preview** （预览）按钮隐藏在这些分发中。
 * 修复了在主题行中启用动态文本时，电子邮件内容的A/B测试预览出现错误的问题。
 
-#### 交易消息 {#transactional-messages}
+_交易消息_
 
-* 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。  有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
+* 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。 有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义应从何时发送链接到活动的交易消息开始的日期。
 * 修复了在删除链接到已接收和已处理事件的配置文件后，执行包含后续消息的工作流时导致SQL错误的问题。
 * 修复了阻止删除链接到事件的配置文件的错误。
 * 修复了一个问题，该问题可能会阻止跟踪链接的重定向工作。
 * 修复了阻止您对电子邮件或SMS消息中的特定链接进行跟踪的问题。
 
-#### 报告 {#reports-1}
+_报告_
 
-* 热点 **单击** (Hot clicks)报告已得到改进。 此外，现在可以根据在分发中定义的每个条件内容显示热点点击，并且可以显示重复分发或交易消息的每次执行的热点点击。  有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 热点 **单击** (Hot clicks)报告已得到改进。 此外，现在可以根据在分发中定义的每个条件内容显示热点点击，并且可以显示重复分发或交易消息的每次执行的热点点击。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修复了导致隔离度量无法检索正确数据的问题。
 * 新的预设时间范围已添加到日历构件。
 * 动态 [报告指标](../../reporting/using/indicator-calculation.md) ，营销 [](../../sending/using/confirming-the-send.md) 活动的KPI（显示在已发送消息的仪表板上）已保持一致，以便更加一致。
 * 修复了可能导致流水线在debian 7上崩溃的问题。
 
-#### 工作流 {#workflows-1}
+_工作流_
 
 * 修复了导入的文件保留无法正常工作的问题。
 
-#### 集成 {#integrations-1}
+_集成_
 
 * 现在，Analytics &amp; Campaign集成支持eVar和事件。
 * 发送包含放弃购物车内容的电子邮件时，从购物车中删除的元素的有效负荷参数现在是可选的。
 
-#### 用户档案和受众 {#profiles-and-audiences-1}
+_用户档案和受众_
 
-* Adobe Campaign现在提供一个报告，其中显示活动配置文件的数量。 此报告仅提供信息，对计费没有直接影响。  有关详细信息，请参阅详 [细文档](../../audiences/using/active-profiles.md)。
+* Adobe Campaign现在提供一个报告，其中显示活动配置文件的数量。 此报告仅提供信息，对计费没有直接影响。 有关详细信息，请参阅详 [细文档](../../audiences/using/active-profiles.md)。
 * 修复了在使用Profiles and Services API时，配置文件无法订阅服务的问题。
 
 ## 17.7版- 2017年7月 {#release-17-7---july-2017}
 
-### 新功能 {#new-capabilities-2}
+**新功能**
 
 <table> 
  <thead> 
@@ -190,62 +190,62 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  <tbody> 
   <tr> 
    <td> 多语种电子邮件和短信发送<br /> </td> 
-   <td> 根据自动细分的客户首选语言，通过单次分发来定义和执行多语言电子邮件和短信发送。 向下报告每次交付的效果，包括语言和各个级别。<br /> 随着内外内容的不断增长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息传送是跨国公司有效客户沟通战略的关键部分；多语言国家／地区的公司；以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。  有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-email.md">细文档</a>。<br /> </td> 
+   <td> 根据自动细分的客户首选语言，通过单次分发来定义和执行多语言电子邮件和短信发送。 向下报告每次交付的效果，包括语言和各个级别。<br /> 随着内外内容的不断增长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息传送是跨国公司有效客户沟通战略的关键部分；多语言国家／地区的公司；以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-email.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。  有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。 有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交付警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，可向用户或外部利益相关方触发重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。  有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，可向用户或外部利益相关方触发重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。 有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中的加密Declared ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。  有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 从营销活动到分析的KPI共享<br /> </td> 
-   <td> 与Adobe Analytics共享营销活动数据，通过转化、统一点击前和点击后行为，衡量Campaign中的电子邮件营销指标以及其他营销和广告工作。<br /> 在Analytics中直接跟踪整体绩效并发现与外部计划的协同作用。 将您从此整合视图中的学习内容应用回营销活动中；最终提高开放、点进率和转化率，提高收入和整体营销活动效果。 <br /> 需要Adobe Analytics。  有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-analytics-integration.md">细文档</a>。<br /> </td> 
+   <td> 与Adobe Analytics共享营销活动数据，通过转化、统一点击前和点击后行为，衡量Campaign中的电子邮件营销指标以及其他营销和广告工作。<br /> 在Analytics中直接跟踪整体绩效并发现与外部计划的协同作用。 将您从此整合视图中的学习内容应用回营销活动中；最终提高开放、点进率和转化率，提高收入和整体营销活动效果。 <br /> 需要Adobe Analytics。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-analytics-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道——返回发件人<br /> </td> 
-   <td> 现在支持与直接邮件提供商进行包含“返回给发送者”信息的平面文件交换。 对“直邮”渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这使营销人员能够收到错误地址的通知并通过其他渠道与客户互动或鼓励他更新其邮寄地址。 这还可以减少营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道提供。  有关详细信息，请参阅详 <a href="../../channels/using/return-to-sender.md">细文档</a>。<br /> </td> 
+   <td> 现在支持与直接邮件提供商进行包含“返回给发送者”信息的平面文件交换。 对“直邮”渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这使营销人员能够收到错误地址的通知并通过其他渠道与客户互动或鼓励他更新其邮寄地址。 这还可以减少营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道提供。 有关详细信息，请参阅详 <a href="../../channels/using/return-to-sender.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 修补程序 {#patches-2}
+**修补程序**
 
-#### 常规 {#general}
+_常规_
 
-* 修复了允许任何用户导出列表的问题。 现在，仅允许具有该角 **[!UICONTROL Export]** 色的用户访问。
+* 修复了允许任何用户导出列表的问题。 现在，仅允许具有该角 **[!UICONTROL Export]**色的用户访问。
 
-#### 电子邮件、短信和直邮 {#emails--sms-messages-and-direct-mail-2}
+_电子邮件、短信和直邮_
 
 * 修复了updateDeliveryExecInfo **（更新交付执行信息）** 工作流程中将SMS发送的“ **To deliver** indicator”（发送指示符）设置为0的问题。
 * 在交 **付模板属性的** “高级参数”中，“路由选择 **** ”下拉列表现在仅显示与模板消息类型对应的外部帐户。 例如，电子邮件分发模板仅显示电子邮件外部帐户。
-* 修复了为测试配置文件定 **[!UICONTROL Text]** 义的首选电子邮件格式的问题。
+* 修复了为测试配置文件定 **[!UICONTROL Text]**义的首选电子邮件格式的问题。
 * 修复了在分发的计划定义屏幕中选择默认时区时导致Javascript错误的问题。
 * 修复了阻止陷阱显示在发送日志中的问题。
 * 现在，在交付创建向导的模板选择屏幕中，默认情况下隐藏跟进和A/B测试模板。 有关详细信息，请参阅详 [细文档](../../channels/using/creating-an-email.md)。
-* 修复了允许任何用户发送分发的问题。 现在，仅允许具有该角 **[!UICONTROL Start deliveries]** 色的用户访问。 有关详细信息，请参阅详 [细文档](../../sending/using/confirming-the-send.md)。
+* 修复了允许任何用户发送分发的问题。 现在，仅允许具有该角 **[!UICONTROL Start deliveries]**色的用户访问。 有关详细信息，请参阅详[细文档](../../sending/using/confirming-the-send.md)。
 
-#### 推送通知 {#push-notifications-1}
+_推送通知_
 
 * 修复了营销活动跟 **踪端点URL中阻止报告的问题** 。
 * 修复了在Android设备上无法显示推送通知标题的问题。
 * 修复了当推送通知仅包含标题（消息正文中没有标题）时，在iOS设备上无法显示推送通知的问题。
 * 修复了在要跟踪的分发中强制使用媒体附件URL的问题，该问题导致视频和图片无法嵌入到分发中。 现在，对于推送通知，默认情况下将取消激活媒体附件URL类型的URL跟踪。
 
-#### 报告 {#reports-2}
+_报告_
 
 * 更正了图表和表之间显示值不同的问题。
 * 更正了将推送通知值显示为电子邮件值的问题。
 * 修复了在营销活动之外创建分发时，将值显示为未知的问题。
 * 更正了将SMS报告数据显示为移动应用程序数据的问题。
 
-#### 工作流 {#workflows-2}
+_工作流_
 
 * 您现在可以过滤工作流日志（时间段和文本搜索）。 有关详细信息，请参阅详 [细文档](../../automating/using/executing-a-workflow.md#monitoring)。
 * 工作流提交中现在提供了一个选项，用于在发送之前取消激活确认。
@@ -254,7 +254,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ## 17.5版- 2017年5月 {#release-17-5---may-2017}
 
-### 新功能 {#new-capabilities-3}
+**新功能**
 
 <table> 
  <thead> 
@@ -275,33 +275,33 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches-3}
+**修补程序**
 
-#### 界面更新 {#interface-updates}
+_界面更新_
 
-* 在顶部栏中，已删 **[!UICONTROL Timeline]** 除链接，并替换为指向的链接 **[!UICONTROL Programs & Campaigns]** 。
+* 在顶部栏中，已删 **[!UICONTROL Timeline]**除链接，并替换为指向的链接**[!UICONTROL Programs & Campaigns]** 。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages}
+_电子邮件和SMS消息_
 
-* 修复了传送状态显示错误颜色 **[!UICONTROL Retry in progress]** 的问题。 颜色是灰色而不是蓝色。
+* 修复了传送状态显示错误颜色 **[!UICONTROL Retry in progress]**的问题。 颜色是灰色而不是蓝色。
 
-#### 工作流 {#workflows-3}
+_工作流_
 
-* 修复了将操作更改为在活动中执行时发生的问 **[!UICONTROL Transfer file]** 题。
+* 修复了将操作更改为在活动中执行时发生的问 **[!UICONTROL Transfer file]**题。
 
-#### 报告 {#reports-3}
+_报告_
 
-* 已 **[!UICONTROL Spam]** 更改 **[!UICONTROL Spam rate]** 了计算和指示符。
-* 改进 **[!UICONTROL Bounce]** 了指标，以获得更准确的结果。
+* 已 **[!UICONTROL Spam]**更改**[!UICONTROL Spam rate]** 了计算和指示符。
+* 改进 **[!UICONTROL Bounce]**了指标，以获得更准确的结果。
 
-#### 推送通知 {#push-notifications-2}
+_推送通知_
 
 * 修复了导致您无法在个人资料的营销历史记录中单击推送事件的问题。
 * 工作流中推送通知的使用已得到改进。
 
 ## 17.4版- 2017年4月 {#release-17-4---april-2017}
 
-### 新功能 {#new-capabilities-4}
+**新功能**
 
 <table> 
  <thead> 
@@ -334,13 +334,13 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches-4}
+**修补程序**
 
-#### 平台 {#platform-2}
+_平台_
 
 * 修复了内存消耗问题。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-1}
+_电子邮件和SMS消息_
 
 * 修复了在预览消息时内容无法与最新更改正确同步的问题。
 * 修复了阻止创建或删除MX或域电子邮件处理规则的问题。
@@ -349,44 +349,44 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修复了在显示内容中没有URL的分发的跟踪URL时导致错误的问题。
 * 修复了在发送的消息中无法正确应用图像的大小属性的问题。
 
-#### 交易消息 {#transactional-messages-1}
+_交易消息_
 
 * rtEventHistoId字段不再作为事务消息模板中的个性化字段公开。
 
-#### 登陆页面 {#landing-pages}
+_登陆页面_
 
-* 我们优化了登录页 **[!UICONTROL by email]** 面中使用的过滤器，以协调新订阅者与数据库配置文件。
+* 我们优化了登录页 **[!UICONTROL by email]**面中使用的过滤器，以协调新订阅者与数据库配置文件。
 * 修复了在表单配置中使用布尔字段时显示自由文本输入而非复选框的问题。
 * 修复了导致无法生成登录页面缩略图的问题。
 
-#### 工作流 {#workflows-4}
+_工作流_
 
-* 修复了编辑活动时(仅 **[!UICONTROL End]** 限Safari) **[!UICONTROL External Signal]** 的显示错误。
-* 改进了编辑包含错误受众的活 **[!UICONTROL Read Audience]** 动时显示的错误消息。
+* 修复了编辑活动时(仅 **[!UICONTROL End]**限Safari)**[!UICONTROL External Signal]** 的显示错误。
+* 改进了编辑包含错误受众的活 **[!UICONTROL Read Audience]**动时显示的错误消息。
 * 修复了在执行订阅活动时可能导致SQL错误的问题。
 
-#### 集成 {#integrations-2}
+_集成_
 
 * 兴趣点数据：修复了在计算位置订阅者时发生的错误。
 
-#### 受众和查询 {#audiences-and-queries}
+_受众和查询_
 
 * 修复了阻止在查询编辑器中对集合使用总和和和平均聚合的问题。
 * 修复了在更改筛选器资源后可能阻止重新加载查询编辑器的问题。
 
-#### 报告 {#reports-4}
+_报告_
 
 * 修复了在表中选择多行时无法正确计算开放率度量的问题。
 * 修复了仅将度量显示为整数值的错误。 现在可以使用小数显示度量。
 
-#### 推送通知 {#push-notifications-3}
+_推送通知_
 
 * 修复了在创建链接到MCPNS上创建失败的移动应用程序的Android应用程序时，不显示错误消息的问题。
 * 修复了允许用户向无提示通知添加声音的问题。
 
 ## 17.2版- 2017年3月 {#release-17-2---march-2017}
 
-### 新功能 {#new-capabilities-5}
+**新功能**
 
 <table> 
  <thead> 
@@ -410,7 +410,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
     <ul> 
      <li> 所有收件人都会收到邮件，并考虑到其时区。 </li> 
      <li> 每个接收者在由公式定义的计算日期和时间接收消息。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../sending/using/optimizing-the-sending-time.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../sending/using/optimizing-the-sending-time.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送通知新功能<br /> </td> 
@@ -421,7 +421,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
      <li> 交互式推送 </li> 
      <li> 丰富内容支持 </li> 
      <li> 有效负荷大小计算器 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
@@ -429,7 +429,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
     <ul> 
      <li> <span class="uicontrol">结束活动</span> :新选项卡允许您指定在执行此活动后要触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span> :使用新的空出站过渡来添加一个触 <strong>发另一个工作流的</strong> “结束”活动。 空的出站过渡不会携带任何数据，也不会占用系统上不必要的空间 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../automating/using/external-signal.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../automating/using/external-signal.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新阅读受众活动<br /> </td> 
@@ -446,30 +446,30 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches-5}
+**修补程序**
 
-#### 常规 {#general-1}
+_常规_
 
 * 现在，在导出交付日志时可以添加配置文件数据。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-2}
+_电子邮件和SMS消息_
 
-* 修复了即使在取消选 **[!UICONTROL Request confirmation before sending messages]** 中选项并保存交付后仍保持选中状态的问题。
+* 修复了即使在取消选 **[!UICONTROL Request confirmation before sending messages]**中选项并保存交付后仍保持选中状态的问题。
 * 修复了可能阻止取消发布交易电子邮件的问题。
 * 修复了在预览分发之前，内容无法与最新更改正确同步的问题。
 
-#### 登陆页面 {#landing-pages-1}
+_登陆页面_
 
 * 修复了用户在登录页面内容中单击时无法编辑的错误。
 
-#### 工作流 {#workflows-5}
+_工作流_
 
-* 修复了可能无法读取活动拒绝转换内容的问 **[!UICONTROL Load file]** 题。
-* 修复了在配置活动时无法正确考虑交换列的问 **[!UICONTROL Load file]** 题。
+* 修复了可能无法读取活动拒绝转换内容的问 **[!UICONTROL Load file]**题。
+* 修复了在配置活动时无法正确考虑交换列的问 **[!UICONTROL Load file]**题。
 
 ## 17.1版- 2017年1月 {#release-17-1---january-2017}
 
-### 新功能 {#new-capabilities-6}
+**新功能**
 
 <table> 
  <thead> 
@@ -495,7 +495,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
      <li> 在消息中包含取消订阅链接。 </li> 
      <li> 将事务性消息添加到全局交付报告。 </li> 
      <li> 在客户旅程中利用交易信息。 </li> 
-    </ul>  有关详细信息，请参阅详 <a href="../../channels/using/profile-transactional-messages.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/profile-transactional-messages.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
@@ -509,37 +509,37 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修补程序 {#patches-6}
+**修补程序**
 
-#### 常规 {#general-2}
+_常规_
 
-* 这些 **[!UICONTROL Access authorization]** 选项已返回到登录页面属性。
+* 这些 **[!UICONTROL Access authorization]**选项已返回到登录页面属性。
 * 修复了可能导致旧图像而不是正确图像呈现的问题。 如果源图像在分发或登录页面的内容定义中已更新，则会发生这种情况。
 * 修复了阻止用户编辑现有SFTP外部帐户中某些字段的问题。
 * 修复了多个UI问题。 例如，用户现在可以编辑配置文件属性并保存修改，而不会遇到UI问题。
 
-#### 电子邮件和SMS消息 {#emails-and-sms-messages-3}
+_电子邮件和SMS消息_
 
 * 修复了与包含HTML内容的分发模板相关的问题
 
-#### 推送通知 {#push-notifications-4}
+_推送通知_
 
 * 修复了可能阻止从应用程序回传到Adobe Campaign服务器的问题。
-* 修复了可能已阻止并 **[!UICONTROL Play a sound]** 需要 **[!UICONTROL Custom fields]** 考虑Android的问题。
+* 修复了可能已阻止并 **[!UICONTROL Play a sound]**需要**[!UICONTROL Custom fields]** 考虑Android的问题。
 * 修复了可能导致向用于Emoji的Unicode字符添加额外转义字符的问题。
 * 当订阅者的注册令牌被列入黑名单时，Adobe Campaign中的订阅者列表中的相应状态现在会立即更新。
 
-#### 工作流 {#workflows-6}
+_工作流_
 
 * 修复了可能阻止预览事件资源（例如rtEvent）上的查询的问题。
-* 现在，可以在活动的出站过 **[!UICONTROL Load file]** 渡中检索由活动生成的拒绝文件，并在下一个活动中进行处理。 例如，使用通过SFTP服务器上传拒绝文件 **[!UICONTROL Transfer file]** 。
-* 修复了在的选项卡中选择时，用户可能无法限制区段 **[!UICONTROL Temporary resource]** 人口的 **[!UICONTROL General]** 问题 **[!UICONTROL Segmentation]** 。
-* **[!UICONTROL Scheduler]** 活动不能再设置为每10分钟多触发一次工作流。
-* 修复了可能妨碍在活动 **[!UICONTROL Use common columns]** 中正常工作的问 **[!UICONTROL Union]** 题。
+* 现在，可以在活动的出站过 **[!UICONTROL Load file]**渡中检索由活动生成的拒绝文件，并在下一个活动中进行处理。 例如，使用通过SFTP服务器上传拒绝文件**[!UICONTROL Transfer file]** 。
+* 修复了在的选项卡中选择时，用户可能无法限制区段 **[!UICONTROL Temporary resource]**人口的**[!UICONTROL General]** 问题 **[!UICONTROL Segmentation]**。
+* **[!UICONTROL Scheduler]**活动不能再设置为每10分钟多触发一次工作流。
+* 修复了可能妨碍在活动 **[!UICONTROL Use common columns]**中正常工作的问**[!UICONTROL Union]** 题。
 
-#### 集成 {#integrations-3}
+_集成_
 
 * 修复了在Adobe Campaign中部署活动触发器时可能导致错误的问题。 当“30天后返回的可能性”元数据添加到Adobe Marketing cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从People核心服务导入受众时，可能导致技术工作流清除Target维字段的问题。 后续查询无法检索导入的受众。
-* 修复了选中选项时可 **[!UICONTROL Save audience]** 能导致工作流活动失败的 **[!UICONTROL Share in Adobe Marketing Cloud]** 问题。
+* 修复了选中选项时可 **[!UICONTROL Save audience]**能导致工作流活动失败的**[!UICONTROL Share in Adobe Marketing Cloud]** 问题。
 
