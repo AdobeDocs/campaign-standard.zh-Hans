@@ -1,5 +1,5 @@
 ---
-title: 发行说明
+title: 最新版本
 description: 本页列出了Adobe Campaign Standard的所有最新版本。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -12,37 +12,27 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 ---
 
 
-# 发行说明{#release-notes}
+# 最新版本{#latest-release}
 
-本页列出了所有2019版本及其新增功能和修补程序。 还包含控制面板更新。
-
-其他资源：
-
-* [营销活动发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [最新文档更新](../../rn/using/documentation-updates.md)
-* [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* 以前的发行说明： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
+[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控[制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]|文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2018.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 19.4版- 2019年12月 {#release-19-4---october-2019}
 
-### What&#39;s new? {#what-s-new-5}
+**有什么新增功能？**
 
 <table> 
  <thead> 
   <tr> 
-   <th> 功能<br /> </th> 
-   <th> 说明<br /> </th> 
+   <th> <strong>加利福尼亚消费者隐私法(CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 加利福尼亚消费者隐私法(CCPA)<br /> </td> 
    <td> <p>CCPA是加利福尼亚州新的隐私法，它使2020年1月1日生效的数据保护要求协调并现代化。 CCPA适用于持有居住在加利福尼亚的数据主体数据的Adobe Campaign客户。</p>
    <p>除了Adobe Campaign中已有的隐私权功能（包括同意管理、数据保留设置和用户角色）外，我们还将利用此机会加入其他功能，以帮助您做好CCPA准备工作：</p>
    <ul>
@@ -53,8 +43,17 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
     <p>请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365集成(GA)<br /> </td> 
+   <th> <strong>Microsoft Dynamics 365集成(GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
     <p>Adobe Campaign Standard与Microsoft Dynamics 365之间的集成现已可用。 您将能够将联系人和自定义实体记录从Dynamics 365传输到Campaign，并将电子邮件事件数据从Campaign返回到Dynamics 365，以便更好地协调销售／营销。</p>
     <p>请参阅详 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">细文档</a> ，以设置此集成并查看操 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">作方法视频</a>。</p>
@@ -63,7 +62,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 改进 {#improvements-3}
+**改进**
 
 * 动态报告的同意弹出窗口已更新，以包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报告时，将包含档案数据。 [阅读更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修复了在接收交付通知时显示错误联系日期的问题。
@@ -73,13 +72,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 对“加载文件”活动 **进行了改进** :工作流日志已更清晰，并且更详细地介绍了在文件加载失败时发生的错误。 激活“在文件中保留拒 **绝”选项时生成的出站过渡** ，已更名为“拒 **绝”**。 [阅读更多](../../automating/using/load-file.md)
 * 已将多语言相关日志添加到发送日志中，以便更好地了解由于上传的CSV文件中缺少语言导致的发送失败。
 
-### 安全增强 {#security-enhancements-3}
+**安全增强**
 
 * 修复了通过隐私请求删除量化配置文件信息时的一个问题，该问题删除了隔离列表中除电子邮件地址之外的所有数据。
 * 增强了安全性，防止在电子邮件标头中注入内容。
 * 已增强安全性，以防止SSRF攻击，其中可以使用xtk表达式（电子邮件HTML、文本内容和主题、SMS和推送通知内容）。
 
-### Email Designer增强功能 {#email-designer-enhancements-4}
+**Email Designer增强功能**
 
 * 修复了在电子邮件中插入时无法跟踪取消订阅、订阅和登录页面链接的问题。 (CAMP-37809)
 * 修复了在创建新电子邮件和选择模板时可能导致错误的问题。 (CAMP-38000)
@@ -106,7 +105,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修复了模板和片段中按钮的大小问题。
 * 修复了在按钮组件中插入图像时图像大小的问题。
 
-### 其他更改 {#other-changes-3}
+**其他更改**
 
 * 在交付KPI页面和动态报告页面上显示数据的默认时间范围已保持一致，以防止报告结果出现差异。 (CAMP-35148)
 * 应用程序证书过期时，日志中已添加一条错误消息。
@@ -121,7 +120,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 在Campaign Standard API中，如果键值与源键不同，或者您使用自己的业务键作为URI而不是Adobe提供的业务键，则无法使用PATCH操作修改自定义键。
 * &quot;阿尔巴尼亚语——马其顿语&quot;已添加到首选语言下拉列表中。 (CAMP-35396)
 
-### 修补程序 {#patches-4}
+**修补程序**
 
 * 修复了阻止对计划报表进行排序或搜索的问题。
 * 修复了触发器规则导致AND和OR规则混淆的问题。
@@ -148,19 +147,9 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修复了在交付完成后，交付状态可能保持为“开始等待”的问题。 (CAMP-35355)
 * 修复了在启用SQL日志后再禁用SQL日志后无法显示工作流日志的问题。
 
-## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
-
-### What&#39;s new? {#what-s-new-4}
-
-我们为管理员用户添加了新功能，使其能够在域的SSL证书过期之前接收通知。 有关详细信息，请参阅详 [细文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
-
-此外，管理员用户现在可以删除已添加的用于访问SFTP服务器的SSH密钥。
-
-请注意，控制面板仅适用于在AWS上托管的客户。 这些更新将于8月26日发布。
-
 ## 19.3版- 2019年7月 {#release-19-3---july-2019}
 
-### What&#39;s new? {#what-s-new-3}
+**有什么新增功能？**
 
 <table> 
  <thead> 
@@ -181,11 +170,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全增强 {#security-enhancements-2}
+**安全增强**
 
 * 修复了一个安全问题，以防止拒绝服务(DoS)攻击获取图像的无效请求。 (CAMP-33454)
 
-### Email Designer增强功能 {#email-designer-enhancements-3}
+**Email Designer增强功能**
 
 * 修复了每次添加组件时都会向HTML模板添加其他HTML样式标记的问题，该问题可能会大大增加模板的大小。 (CAMP-34694)
 * 修复了阻止某些右上方工具栏菜单选项可用的问题。 (CAMP-34577)
@@ -212,7 +201,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修复了在使用动态内容时复制变体时出现的问题。
 * 从“电子邮件设计器设置”窗格中删除了一些不需要的字段。
 
-### 其他改进 {#other-improvements-3}
+**其他改进**
 
 * 通过与Adobe Experience Platform Location services的集成，Adobe Campaign现在可兼容，通过Experience Platform SDK向移动应用程序的订户发送基于位置的营销消息。 有关详细信息，请参阅详 [细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 已改进报告功能，以获得更好的体验。 要使用此功能，您需要接受动态报告使用协议。 有关详细信息，请参阅详细 [文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
@@ -224,7 +213,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * “ftp”选项已从外部帐户配置界面中删除。 (CAMP-34472)
 * 您现在可以为每封电子邮件启用或禁用SMTP测试模式选项。 有关详细信息，请参阅详细 [文档](../../administration/using/configuring-email-channel.md#smtp-test-mode)。 (CAMP-34602)
 
-### 其他更改 {#other-changes-2}
+**其他更改**
 
 * 在交付属性界面中添加了警告。 它指定根据提交的汇总期准备提交，并解冻以每天多次调用工作流，您应确保它们没有任何期间。 (CAMP-34393)
 * 自定义资源配置屏幕中已添加警告。 我们建议对自定义资源ID使用最多30个字符。 这也适用于自定义资源字段、键、索引和链接。
@@ -235,7 +224,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 当使用“传输文件”活动时，如果文件大小超过可用磁盘空间，则现在会记录错误。
 * 无法再为应用程序内消息中的辅助按钮选择重定向到目标URL操作。
 
-### 修补程序 {#patches-3}
+**修补程序**
 
 * 修复了可能导致GDPR访问请求失败的问题。
 * 修复了在为唯一配置文件接收多个触发器时可能导致触发器被丢弃的问题。
@@ -271,7 +260,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 19.2.7版- 2019年7月 {#release-19-2-7---july-2019}
 
-### 改进 {#improvements-2}
+**改进**
 
 * GDPR删除查询已得到改进，以获得更好的性能。
 * 修复了在19.2升级后可能导致Web崩溃的问题。 (CAMP-34862)
@@ -280,20 +269,20 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 19.2.4版- 2019年6月 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+**电子邮件设计人员**
 
 * 修复了在HTML中使用空样式标签时用户无法编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
 ## 19.2.3版- 2019年6月 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+**电子邮件设计人员**
 
 为优化19.2版本中的片段引入了一系列改进和修复。 新创建的片段将无缝工作。 先前构建的片段已灰显，需要迁移到新格式。 为此，请单击每个片段并验证其迁移到新格式。 我们建议您先测试几个片段，然后再迁移所有片段。
 
 * 修复了在解锁片段后阻止用户编辑片段的问题。 在更新到19.2时，这会影响现有片段。 (CAMP-33778)
 * 修复了使用动态内容时的问题。 HTML中增加了额外的空格。
 
-### 其他改进 {#other-improvements-2}
+**其他改进**
 
 * 修复了在SMS连接器断开后，SMS发送无法恢复的问题。
 * 修复了启用TLS时可能关闭SMPP连接的问题。
@@ -305,7 +294,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### What&#39;s new? {#what-s-new-}
+**有什么新增功能？**
 
 <table> 
  <thead> 
@@ -334,11 +323,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全增强 {#security-enhancements}
+**安全增强**
 
 * 修复了报告工作区中的潜在Clickjacking安全问题。
 
-### Email Designer增强功能 {#email-designer-enhancements}
+**Email Designer增强功能**
 
 * 修复了复制片段并尝试在电子邮件设计器中使用它们时出现的问题。 (CAMP-33193)
 * 修复了在电子邮件设计器界面中使用内联元素时创建多余空格的问题。 (CAMP-32163)
@@ -358,7 +347,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修复了在尝试使用RGB值定义颜色时拾色器出现的问题。
 * 修复了在移动设备上接收电子邮件时镜像页面无法响应的问题。
 
-### Transactional Messaging增强功能 {#transactional-messaging-enhancements}
+**Transactional Messaging增强功能**
 
 为了优化操作和性能，已经向交易消息传递渠道添加了多项改进。
 
@@ -370,7 +359,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修复了导入包含事件配置和关联事务消息的包时出现的问题。 有关详细信息，请参阅详细 [文档](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages)。
 * 修复了从为包含产品列表的交易消息创建的测试配置文件中删除收集数据的问题。
 
-### 其他更改 {#other-changes}
+**其他更改**
 
 * SMS外部帐户中已添加了新选项。 它能够限制发送SMS的MTA进程的最大数量，以便更好地控制并行连接的数量。 有关详细信息，请参阅 [SMS连接器协议和设置技术](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 。
 * 在发布具有API扩展的资源时，如果该API已发布，则现在每次重新发布该资源时，它都会自动更新。 以前，此操作是手动操作，无法更新API可能会破坏此API的配置文件或服务资源。 有关详细信息，请参阅详细 [文档](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)。
@@ -386,7 +375,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 自定义资源发布测试模式已得到改进。 如果上次自定义资源发布失败且未修复，则现在将向用户显示一条警告消息。 自定义资源发布失败后，您可以回滚到上一个工作版本。 有关详细信息，请参阅详 [细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 * 在“传输文件”活动中添加了新选项。 它允许您在SFTP模式下使用“文件下载”动作对文件进行排序。 有关详细信息，请参阅详 [细文档](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
-### 修补程序 {#patches}
+**修补程序**
 
 * 修复了在重新加载SMS设置时可能导致MTA内存泄漏的问题。
 * 修复了可能阻止在修复模式下发布数据库更新的问题。
@@ -409,21 +398,21 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 19.1.3版- 2019年3月 {#release-19-1-3---march-2019}
 
-### Email Designer增强功能 {#email-designer-enhancements-1}
+**Email Designer增强功能**
 
 * 修复了在保存模板后无法对其进行修改的问题。
 * 修复了在电子邮件中使用以前创建的模板时的各种问题。
 * 修复了导入的模板中无法隐藏组件的问题。
 
-### 其他改进 {#other-improvements}
+**其他改进**
 
 * 修复了查看排版规则时的错误。 （CAMP-32059和CAMP-31849）
 * 修复了阻止编辑排版规则的问题。 (CAMP-31750)
-* 修复了inMail进程中可能意外停止的问题。 (CAMP-31238)
+* 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
 
 ## 19.1版- 2019年2月 {#release-19-1---february-2019}
 
-### What&#39;s new? {#what-s-new--1}
+**有什么新增功能？**
 
 <table> 
  <thead> 
@@ -457,17 +446,17 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全增强 {#security-enhancements-1}
+**安全增强**
 
 * 生成的登录页HTML代码已更新，以防止搜索引擎索引。
 
-### Email Designer增强功能 {#email-designer-enhancements-2}
+**Email Designer增强功能**
 
 * 由Behance艺术家设计的一套四种一流的响应式电子邮件模板现已推出。
 
    有关详细信息，请参阅详 [细文档](../../designing/using/using-reusable-content.md#content-templates)。
 
-* 我们新的入门培训体验可以帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
+* 我们新的入门培训体验将帮助您更快地开始创建电子邮件，并使您能更轻松地访问文档和教程。
 
    有关详细信息，请参阅详 [细文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
@@ -488,7 +477,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * YouTube图标已添加到 **Social内容组件** 。
 * 已为“ **电子邮件设计** ”调板中显示的内容组件和片段添加“列表”视图。
 
-### 其他改进 {#other-improvements-1}
+**其他改进**
 
 * Adobe Campaign现在完全符合FCM对SDK V4和AEP SDK应用程序的要求。
 * Adobe Campaign支持Android在Wear OS上推送通知以及Apple的watchOS。
@@ -499,12 +488,12 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
    有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
-### 其他更改 {#other-changes-1}
+**其他更改**
 
 * Adobe Campaign和Adobe Experience cloud将从2019年春季起停止对Microsoft Internet Explorer 11和Campaign Standard 19.2版本的支持。 请切换到Microsoft edge或其他支持的浏览器。 请参 [阅已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 页。
 * 配置 **文件资源中的国家／地区代码字段已更** 名为国家／地区代码 ****。
 
-### 修补程序 {#patches-1}
+**修补程序**
 
 * 修复了在将测试配置文件添加到电子邮件交易消息时无法发送消息的问题。 (CAMP-29854)
 * 修复了在同时触发所有渠道的消息发送时，如果一个渠道的消息发送量较低，则会减慢其他渠道的消息发送速度的问题。
@@ -529,7 +518,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 19.0版- 2019年1月 {#release-19-0---january-2019}
 
-### What&#39;s new? {#what-s-new--2}
+**有什么新增功能？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -571,7 +560,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 改进 {#improvements}
+**改进**
 
 * “加载数据”活动中的新选项现在允许您将后处理阶段应用到包含拒绝记录的文件(例如， Zip格式压缩)。 (CAMP-24521)
 * “更新数据”活动中的新选项现在允许您为要上传的数据配置最大批量大小。 (CAMP-28400)
@@ -581,7 +570,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 定义配置文件地址时可用国家／地区的列表已丰富。 (CAMP-26707)
 * 现在，在尝试导入内置工作流时显示错误消息。
 
-### Email Designer {#email-designer}
+**电子邮件设计人员**
 
 * 修复了在电子邮件模板或使用电子邮件设计器创建的内容片段上启用地理单元功能的问题，即使在Adobe Campaign中禁用了该功能，这使模板或片段在再次尝试访问时不可用。 (CAMP-28174)
 * 修复了在使用电子邮件设计器编辑内容时无法保存动态内容条件的问题。 (CAMP-27905)
@@ -597,7 +586,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 现在，可以使用电子邮件设计器创建个人资料交易邮件。 (CAMP-28900)
 * 修复了电子邮件设计器中的一个错误，该错误使内容在准备时从URL中自动检索内容时可编辑，而内容应被锁定。
 
-### 修补程序 {#patches-2}
+**修补程序**
 
 * 修复了在动态报告中显示错误交付日志的问题。 (CAMP-23446)
 * 修复了影响弹回摘要报告数字的问题(CAMP-28703)
