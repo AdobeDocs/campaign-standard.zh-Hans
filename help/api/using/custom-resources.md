@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # 自定义资源 {#custom-resources}
 
-Adobe Campaign附带一个预定义的数据模型，在该模型中，数据通过不同的资源进行定义。 您可以通过扩展资源来添加您自己的自定义字段（如购买表或产品表）来丰富提供的数据模型。
+Adobe Campaign附带一个预定义的数据模型，在该模型中，数据通过不同的资源进行定义。 您可以通过扩展资源来添加您自己的自定义字段或自定义表（如购买表或产品表）来丰富提供的数据模型。
 
 可通过API使用 **/profileAndServicesExt** endpoint和自定义资源名称访问自定义资源。
 
@@ -37,7 +37,7 @@ Adobe Campaign附带一个预定义的数据模型，在该模型中，数据通
 
 <br/>
 
-***示例请求***
+***示例请求&#x200B;***
 
 访问扩展profileAndServicesExt资源的示例GET请求。
 
