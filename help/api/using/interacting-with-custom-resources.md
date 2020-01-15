@@ -12,25 +12,25 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # 与自定义资源交互 {#interacting-with-custom-resources}
 
-通过 **/customResources端点** ，您可以在REST中显示ACS自定义实体。 基于此API，可在自定义实体和外部端点之间集成。
+通过 **/customResources端点** ，您可以在REST中显示ACS自定义资源。 基于此API，可在自定义实体和外部端点之间集成。
 
-/customResources与/profileAndServices端点具有完全相同的行为。
+/customResources端点的行为与/profileAndServices端点的行为完全相同。
 
-在此API中公开的自定义实体包括：
+此API中公开的自定义资源包括：
 
 * 链接到配置文件实体的所有实体
 * 链接到配置文件实体子项的所有实体
 * 所有与个人资料没有关联的实体，以及这些实体的子孙。
 
 >[!NOTE]
->/profileAndServicesExt下可用的自定义实体不在/customResources API中公开。
+>/profileAndServicesExt下提供的自定义资源不会在/customResources API中公开。
 
 以下是一个从自定义资源检索元数据的示例：
 
