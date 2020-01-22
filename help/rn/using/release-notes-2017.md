@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -150,7 +150,7 @@ _交易消息_
 * 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。 有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义应从何时发送链接到活动的交易消息开始的日期。
 * 修复了在删除链接到已接收和已处理事件的配置文件后，执行包含后续消息的工作流时导致SQL错误的问题。
-* 修复了阻止删除链接到事件的配置文件的错误。
+* 修复了无法删除链接到事件的配置文件的错误。
 * 修复了一个问题，该问题可能会阻止跟踪链接的重定向工作。
 * 修复了阻止您对电子邮件或SMS消息中的特定链接进行跟踪的问题。
 
@@ -329,7 +329,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver实时集成<br /> </td> 
-   <td> Adobe Campaign与Dreamweaver之间的集成现已实现。 它现在可与Dreamweaver的最新正式发布版本(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon">有关详细信息，请参阅此</a><br /> 视频 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html"></a>。<br /> </td> 
+   <td> Adobe Campaign与Dreamweaver之间的集成现已实现。 它现在可与Dreamweaver的最新正式发布版本(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon">有关详细信息，请参阅此</a><br /> 视频 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html"></a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,7 +402,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver集成（实验室）<br /> </td> 
-   <td> 通过Adobe Campaign和Dreamweaver的集成，您现在可以通过Adobe解决方案创建电子邮件营销活动。<br /> 您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并使内容在两个解决方案之间无缝同步。<br /> 对于初始版本，该集成可作为“实验室”功能提供，并且仅与Dreamweaver预发行版测试版一起使用。 如果要激活它，请联系AC-DW-integration@adobe.com。<br /> 有关详细信息，请参阅此视 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">频</a>。<br /> </td> 
+   <td> 通过Adobe Campaign和Dreamweaver的集成，您现在可以通过Adobe解决方案创建电子邮件营销活动。<br /> 您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并使内容在两个解决方案之间无缝同步。<br /> 对于初始版本，该集成可作为“实验室”功能提供，并且仅与Dreamweaver预发行版测试版一起使用。 如果要激活它，请联系AC-DW-integration@adobe.com。<br /> 有关详细信息，请参阅此视 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
