@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign standard与Dreamweaver集成，使您能在Dreamweaver界面中�
 
    对于电子邮件开发人员，不再需要添加类似文本， `[[FIRSTNAME_PLACEHOLDER]]` 也无需查找数据模型表的语法。 Dreamweaver中的Campaign工具栏直接连接到Campaign实例的数据模型。 这意味着您可以从名字到地址等数据中抽取任何想要实现个性化的数据。 如果您已在Campaign中创建了内容块，则还可以直接将这些内容块拖入Dreamweaver。
 
-此功能在此处可访问的Dreamweaver文档中有详细 [说明](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 还提供 [演示视](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) 频。
+此功能在此处可访问的Dreamweaver文档中有详细 [说明](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 还提供 [演示视](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) 频。
 
 ## 在Experience manager中编辑内容 {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaign提供多个电子邮件创作选项。 下表显示了每种解�
    <td> <strong>了解更多信息</strong><br /> </td> 
    <td> 请参 <a href="../../designing/using/designing-content-in-adobe-campaign.md">阅关于电子邮件设计器</a>。<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> 请参 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">阅Dreamweaver和Campaign</a> ，并观看此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">视频</a>。<br /> </td> 
+   <td> 请参 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">阅Dreamweaver和Campaign</a> ，并观看此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">视频</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
