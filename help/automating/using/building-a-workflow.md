@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 **相关主题：**
 
-[创建工作流视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+[创建工作流视频](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
 
 ## 添加和链接活动 {#adding-and-linking-activities}
 
