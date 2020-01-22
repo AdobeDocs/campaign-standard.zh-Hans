@@ -12,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 管理员可以通过管理控制台管理用户。 然后，用户会自动与Adobe Campaign同步。 有关详细信息，请参阅 [Admin Console文档](https://helpx.adobe.com/enterprise/using/users.html) 。
 
-要在Adobe Campaign中查看用户，请单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标，然后选择 **[!UICONTROL Administration > Users & Security > Users]**。
+要在Adobe Campaign中查看用户，请单击左 **[!UICONTROL Adobe Campaign]**上角的徽标，然后选择**[!UICONTROL Administration > Users & Security > Users]**。
 
 要从Adobe Campaign访问用户管理界面，请单击 **[!UICONTROL User administration]**。
 
@@ -35,7 +35,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 **相关主题：**
 
-* [管理用户权限](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) 视频
+* [管理用户权限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) 视频
 * [角色列表](../../administration/using/list-of-roles.md)
 * [授权列表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -57,9 +57,9 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 ### 功能管理员 {#functional-administrators}
 
-功能管理员是可以访问界面中技术最为完善的部分的用户。 他们担 **[!UICONTROL Administration]** 任此角色，并确保平台已全部建立，因此营销人员只需专注于提供其营销活动。
+功能管理员是可以访问界面中技术最为完善的部分的用户。 他们担 **[!UICONTROL Administration]**任此角色，并确保平台已全部建立，因此营销人员只需专注于提供其营销活动。
 
-功能管理员是Adobe Campaign界面中唯一可以访 **[!UICONTROL Administration]** 问菜单的用户。 由于这些用户需要访问技术资源，因此应为他们分配更高级的角 **[!UICONTROL Administration]** 色， **[!UICONTROL Datamodel]** 如现成的角色。 这些角色将组合在 **[!UICONTROL Administrators]** 现成的安全组中。 For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+功能管理员是Adobe Campaign界面中唯一可以访 **[!UICONTROL Administration]**问菜单的用户。 由于这些用户需要访问技术资源，因此应为他们分配更高级的角**[!UICONTROL Administration]** 色， **[!UICONTROL Datamodel]**如现成的角色。 这些角色将组合在**[!UICONTROL Administrators]** 现成的安全组中。 For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 以下是他们可以执行的主要任务：
 
@@ -75,7 +75,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 高级用户是在Adobe Campaign中执行最技术性使用案例的营销用户。 他们预配置营销人员用于发送和监控其分发的所有元素。
 
-与功能管理员相比，此类用户需要的常规角色更多，但仍应能够执行一些技术操作。 为此，应为其分配(例如， **[!UICONTROL Export]**&#x200B;或 **[!UICONTROL Generic import]****[!UICONTROL Workflow]** 现成角色)。 For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+与功能管理员相比，此类用户需要的常规角色更多，但仍应能够执行一些技术操作。 为此，应为其分配(例如， **[!UICONTROL Export]**或**[!UICONTROL Generic import]****[!UICONTROL Workflow]**现成角色)。 For more on this, refer to this[section](../../administration/using/list-of-roles.md).
 
 以下是他们可以执行的主要任务：
 
@@ -87,7 +87,7 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 ### 基本用户 {#basic-users}
 
-借助功能管理员和高级用户，营销人员可以个性化、投放和监控其营销活动，而不必担心技术配置。 为此，应分配这些角色，例 **[!UICONTROL Prepare deliveries]**&#x200B;如 **[!UICONTROL Workflow]** , **[!UICONTROL Start deliveries]** 即装即用的角色。 这些角色将组合在 **[!UICONTROL Standard Users]** 现成的安全组中。 For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+借助功能管理员和高级用户，营销人员可以个性化、投放和监控其营销活动，而不必担心技术配置。 为此，应分配这些角色，例 **[!UICONTROL Prepare deliveries]**如**[!UICONTROL Workflow]** , **[!UICONTROL Start deliveries]**即装即用的角色。 这些角色将组合在**[!UICONTROL Standard Users]** 现成的安全组中。 For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 以下是他们可以执行的主要任务：
 
@@ -100,25 +100,25 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 ## 创建用户 {#creating-a-user}
 
-要将用户添加到您的实例，必须先在Admin Console中创建该用户，然后再在Adobe Campaign standard中管理它。
+要将用户添加到您的实例，必须先在Admin Console中创建该用户，然后才能在Adobe Campaign standard中管理它。
 
-1. 从高级菜单中，选择并 **[!UICONTROL Administration > Users & Security > Users]** 单击以 **[!UICONTROL User administration]** 访问管理控制台。
+1. 从高级菜单中，选择并 **[!UICONTROL Administration > Users & Security > Users]**单击以**[!UICONTROL User administration]** 访问管理控制台。
 
    ![](assets/user_management_5.png)
 
-1. 在中， **[!UICONTROL Admin Console]**&#x200B;单击选项卡 **[!UICONTROL Users]** 。
+1. 在中， **[!UICONTROL Admin Console]**单击选项卡**[!UICONTROL Users]** 。
 
-1. Click **[!UICONTROL Add User]**.
+1. 单击 **[!UICONTROL Add User]**.
 
    ![](assets/create_user_2.png)
 
-1. 在选项卡 **[!UICONTROL User details]** 中，填写用户的详细信息，如电子邮件地址、姓名和姓氏。
+1. 在选项卡 **[!UICONTROL User details]**中，填写用户的详细信息，如电子邮件地址、姓名和姓氏。
 
    ![](assets/create_user_3.png)
 
-1. 在选项卡 **[!UICONTROL Assign products]** 中，为用户分配一个或多个安全组。 有关安全组的详细信息，请参阅此 [页](../../administration/using/managing-groups-and-users.md)。
+1. 在选项卡 **[!UICONTROL Assign products]**中，为用户分配一个或多个安全组。 有关安全组的详细信息，请参阅此[页](../../administration/using/managing-groups-and-users.md)。
 
-   完成 **[!UICONTROL Save]** 配置后单击。
+   完成 **[!UICONTROL Save]**配置后单击。
 
    ![](assets/create_user_4.png)
 
@@ -130,11 +130,11 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
 然后，您可以检查用户是否已正确同步到Adobe Campaign:
 
-1. 从高级菜单中，选 **[!UICONTROL Administration > Users & Security > Users]** 择您之前创建的用户。
+1. 从高级菜单中，选 **[!UICONTROL Administration > Users & Security > Users]**择您之前创建的用户。
 
-1. 更新 **[!UICONTROL Mobile]**&#x200B;或 **[!UICONTROL Time zone]** 根 **[!UICONTROL Regional settings]** 据需要。
+1. 更新 **[!UICONTROL Mobile]**或**[!UICONTROL Time zone]** 根 **[!UICONTROL Regional settings]**据需要。
 
-1. 检查用户的安全组。 在此，您可以看到已为用户分配了安全 **[!UICONTROL Administrators]** 组。
+1. 检查用户的安全组。 在此，您可以看到已为用户分配了安全 **[!UICONTROL Administrators]**组。
 
    >[!Note]
    >
@@ -142,10 +142,10 @@ Adobe Campaign允许您为用户分配一组角色，以定义他们可以访问
 
    ![](assets/create_user_6.png)
 
-1. 选 **[!UICONTROL Account disabled]** 中是否要取消激活此用户。
+1. 选 **[!UICONTROL Account disabled]**中是否要取消激活此用户。
 
-1. 在字 **[!UICONTROL Authorized connection zone]** 段中，选择用户将通过哪种方式连接到此实例，如内部网络或VPN。
+1. 在字 **[!UICONTROL Authorized connection zone]**段中，选择用户将通过哪种方式连接到此实例，如内部网络或VPN。
 
-1. Click **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**.
 
 您的用户现已准备好使用Adobe Campaign Standard。
