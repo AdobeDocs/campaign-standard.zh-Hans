@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
 
    >[!NOTE]
    >
-   >默认情况下，后续和A/B测试模板是隐藏的。 选中左侧（侧面板）的A/B测试 **[!UICONTROL Filter]** 框以显示它们。
+   >默认情况下，后续和A/B测试模板是隐藏的。 选中左侧（侧面板）的A/B测试 **[!UICONTROL Filter]**框以显示它们。
 
 1. 定义电子邮件的一般属性和目标受众，就像标准电子邮件一样。 请参阅创 [建受众](../../audiences/using/creating-audiences.md) 。
 1. 在创建向导的第四步中，定义A/B测试参数：
@@ -63,7 +63,7 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
 
 1. 确认创建电子邮件。 随后将显示电子邮件功能板。
 1. 计划发送。 定义的日期指示A/B测试的开始。
-1. 检查块中显示的A/B测试参 **[!UICONTROL A/B test parameters]** 数。 在通过选择块确认发送测试（步骤9）之前，您可以修改测试。
+1. 检查块中显示的A/B测试参 **[!UICONTROL A/B test parameters]**数。 在通过选择块确认发送测试（步骤9）之前，您可以修改测试。
 
    ![](assets/create_ab_testing3.png)
 
@@ -71,13 +71,13 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
 1. 在发送A/B测试之前，请通过发送校样来检查您的电子邮件。
 1. 准备完成后，确认发送测试。 确认后，将无法修改A/B测试参数。
 
-   A/B测试从中定义的日期开始。您 **[!UICONTROL Schedule]**&#x200B;可以使用和块跟踪其进 **[!UICONTROL A/B test]** 度 **[!UICONTROL Deployment]** 。
+   A/B测试从中定义的日期开始。您 **[!UICONTROL Schedule]**可以使用和块跟踪其进**[!UICONTROL A/B test]** 度 **[!UICONTROL Deployment]**。
 
    如果您希望将测试持续时间缩短，则可以随时手动选择入选变体。
 
-   测试完成后，块中会显示摘要表 **[!UICONTROL A/B Test]** 格，这允许您查看测试的不同变体的各种指示符。
+   测试完成后，块中会显示摘要表 **[!UICONTROL A/B Test]**格，这允许您查看测试的不同变体的各种指示符。
 
-1. 如果您选择了 **[!UICONTROL Send after confirmation]** 作为发送方法，则必须手动选择入选变体以开始将其发送到剩余人群。 如果您选择了 **[!UICONTROL Automatic]**&#x200B;该选项，则入选变体将在系统确定后立即自动发送到剩余人群。
+1. 如果您选择了 **[!UICONTROL Send after confirmation]**作为发送方法，则必须手动选择入选变体以开始将其发送到剩余人群。 如果您选择了**[!UICONTROL Automatic]**&#x200B;该选项，则入选变体将在系统确定后立即自动发送到剩余人群。
 
    >[!NOTE]
    >
@@ -87,10 +87,10 @@ Adobe Campaign中的A/B测试功能允许您定义两到三个电子邮件变体
 
 **相关主题**:
 
-[创建电子邮件视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[创建电子邮件视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## 关于A/B测试指示器 {#about-a-b-test-indicators}
 
 在电子邮件功能板中，有几个指示器可帮助您测量A/B测试：单击次数、打开次数、弹回次数等。
 
-请注意，该指 **[!UICONTROL Estimated recipient reactivity]** 示器是比较单击的收件人数量与打开电子邮件的收件人数量的比率。 例如，如果有10个收件人打开了电子邮件，而有5个收件人单击了该电子邮件。 反应性率为50%。
+请注意，该指 **[!UICONTROL Estimated recipient reactivity]**示器是比较单击的收件人数量与打开电子邮件的收件人数量的比率。 例如，如果有10个收件人打开了电子邮件，而有5个收件人单击了该电子邮件。 反应性率为50%。
