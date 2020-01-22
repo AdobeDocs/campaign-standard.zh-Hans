@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
@@ -21,11 +21,15 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 此用例详细介绍了公共Profiles API中自定义资源配置文件的扩展字段。 例如，使用从计费系统生成的促销代码即时更新客户档案。
 
-要发布API，您需要具有该角 **[!UICONTROL Datamodel]** 色。
+>[!NOTE]
+>
+>要发布API，请确保您具有该角 **[!UICONTROL Datamodel]**色。
 
-* 扩展配置文件自定义资源
-* 发布扩展
-* 验证扩展字段是否在API中可用
+公开公共API中扩展字段的步骤如下：
+
+1. [将扩展字段添加到配置文件资源](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [发布扩展](../../developing/using/step-2--publish-the-extension.md)
+1. [验证新扩展字段是否在API中可用](../../developing/using/step-3--verify-the-extension.md)
 
 **相关主题：**
 
