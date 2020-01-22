@@ -12,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: a3efdc4bbd594e0dc39c94a47fd7491617cb6a2f
 
 ---
 
@@ -34,13 +34,13 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 * [报告列表](../../reporting/using/defining-the-report-period.md)
 * [组织单位](../../administration/using/organizational-units.md)
-* [“动态报告](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) ”视频
+* [“动态报告](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html) ”视频
 
 ## 访问动态报告 {#accessing-dynamic-reports}
 
 可以访问报告：
 
-* 在主页中，选择顶栏或 **[!UICONTROL Reports]** 卡片中的选项卡，以访 **[!UICONTROL Reports]** 问所有分发的报告。
+* 在主页中，选择顶栏或 **[!UICONTROL Reports]**卡片中的选项卡，以访**[!UICONTROL Reports]** 问所有分发的报告。
 
    ![](assets/campaign_reports_access.png)
 
@@ -52,7 +52,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 动态报表分为两类：
 
-* **模板**，可通过使用“另存为”选项(“项目” **&gt;“另存为** ..”)复制模板来修&#x200B;**改这些模板。**)。
+* **模板**，可通过使用“另存为”选项(“项目” **>“另存为** ..”)复制模板来修&#x200B;**改这些模板。**)。
 * **自定义报告** （以蓝色标识），可通过单击“报告”主页上的“创 **建新项目** ”按钮直 **接创建** 。
 
 >[!NOTE]
@@ -67,7 +67,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 有三个选项可用：
 
-* **[!UICONTROL Ask me later]**:单击“ **稍后询问**”，窗口将在24小时内停止显示。 在您接受或拒绝协议之前，配置文件维度不会显示在您的报表中，也不会收集或发送客户的个人身份信息。
+* **[!UICONTROL Ask me later]**:单击“**&#x200B;稍后询问&#x200B;**”，窗口将在24小时内停止显示。 在您接受或拒绝协议之前，配置文件维度不会显示在您的报表中，也不会收集或发送客户的个人身份信息。
 * **[!UICONTROL Accept]**:接受本协议后，即授权Adobe Campaign收集客户的个人身份信息并将其传输到报告或数据中心。
 * **[!UICONTROL Decline]**:拒绝协议后，您的报表中不会显示配置文件维度，也不会收集或发送客户的个人身份信息。 请注意，在这种情况下，仍将收集externalID并用于标识最终用户。
 
@@ -85,8 +85,8 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 | 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义配置文件信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到美国数据中心。 <br>除镜像页面ID外，所有在美国数据中心处理的Adobe Campaign standard事件字段。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
 | EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义配置文件信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和收件人ID外，没有现成的或自定义配置文件字段发送到EMEA数据中心。 <br>除镜像页面ID外，所有在EMEA数据中心处理的Adobe Campaign Standard事件字段。  <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户活动的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
 
-此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt;来更改 **[!UICONTROL Options]**。
+此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** > **[!UICONTROL Application Settings]**>来更改**[!UICONTROL Options]**。
 
-可以随时更改该值。 值1对应于 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
+可以随时更改该值。 值1对应于 **[!UICONTROL Ask me later]**、2**[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)
