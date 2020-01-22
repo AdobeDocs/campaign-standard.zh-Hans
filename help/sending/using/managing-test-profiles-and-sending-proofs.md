@@ -1,19 +1,19 @@
 ---
 title: 管理测试用户档案和发送校样
 description: 了解如何管理测试配置文件和校样。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 准备和测试消息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
-context-tags: seedMember，概述
+context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -42,11 +42,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 创建测试配置文件 {#creating-test-profiles}
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择“配置文件和受众”&gt;“ **测试配置文件** ”以访问测试配置文件列表。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择“配置文件和受众”>“ **测试配置文件** ”以访问测试配置文件列表。
 
    ![](assets/test_profile_creation_1.png)
 
-1. 在功能板 **[!UICONTROL Test profiles]** 中，单击“ **创建**”。
+1. 在功能板 **[!UICONTROL Test profiles]**中，单击“**&#x200B;创建&#x200B;**”。
 
    ![](assets/test_profile_creation_2.png)
 
@@ -58,20 +58,20 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_creation_4.png)
 
-1. 根据需要输 **[!UICONTROL Email, Telephone, Mobile, Mobile app]**&#x200B;入联系渠道和测试配置文件地址。
+1. 根据需要输 **[!UICONTROL Email, Telephone, Mobile, Mobile app]**入联系渠道和测试配置文件地址。
 
    >[!NOTE]
    >
-   >您可以定义首选电子邮件格式：或 **[!UICONTROL Text]** 者 **[!UICONTROL HTML]**。
+   >您可以定义首选电子邮件格式：或 **[!UICONTROL Text]**者**[!UICONTROL HTML]**。
 
 1. 如果要使用此测试配置文件测试交易消息的个性化，请指定事件类型和此事件的数据。
-1. 单击 **[!UICONTROL Create]** 以保存测试配置文件。
+1. 单击 **[!UICONTROL Create]**以保存测试配置文件。
 
 测试配置文件随后将添加到配置文件列表中。
 
 **相关主题：**
 
-[创建测试配置文件](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) 视频
+[创建测试配置文件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) 视频
 
 ### 编辑测试配置文件 {#editing-test-profiles}
 
@@ -94,13 +94,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在消息中：
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Click the **[!UICONTROL Send a test]**button.
 
    ![](assets/bat_select.png)
 
 1. 选择要使用的校样类型：
 
-   * **[!UICONTROL Email rendering]**:选择此选项可根据目标收件箱测试接收消息的方式。 有关详细信息，请参阅电子 [邮件渲染](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Email rendering]**:选择此选项可根据目标收件箱测试接收消息的方式。 有关详细信息，请参阅电子[邮件渲染](../../sending/using/email-rendering.md)。
    * **[!UICONTROL Proof]**:选择此选项可在将消息发送到主目标之前测试该消息。 证明接收方负责通过检查其内容和格式来批准交付。
    * **[!UICONTROL Proof + Email rendering]**:此选项组合了前两个选项。
    ![](assets/bat_select1.png)
@@ -111,21 +111,21 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/bat_select2.png)
 
-1. 您可以使用下拉列表查 **[!UICONTROL Proofs]** 看校样。
+1. 您可以使用下拉列表查 **[!UICONTROL Proofs]**看校样。
 
    ![](assets/bat_view.png)
 
-1. 选择一个证明以访问其摘要。 对于电子邮件，如果您选择了“电 **子邮件渲染****[!UICONTROL Access email rendering]** ”选项作为校样类型，则校样标签的右侧将显示该图标。 请参阅 [电子邮件渲染](../../sending/using/email-rendering.md)。
+1. 选择一个证明以访问其摘要。 对于电子邮件，如果您选择了“电 **子邮件渲染****[!UICONTROL Access email rendering]**”选项作为校样类型，则校样标签的右侧将显示该图标。 请参阅[电子邮件渲染](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-根据收到证明的人员的评论，可能会要求您修改交付内容。 进行修改后，您必须重新开始准备电子邮件，然后重新发送证明。 每个新的证明都可以使用按钮 **[!UICONTROL Show proofs]** 访问。
+根据收到证明的人员的评论，可能会要求您修改交付内容。 进行修改后，您必须重新开始准备电子邮件，然后重新发送证明。 每个新的证明都可以使用按钮 **[!UICONTROL Show proofs]**访问。
 
 在完成交付内容之前，您必须发送所需数量的校样。 完成此操作后，您可以将交付发送到主目标并关闭审批周期。
 
 **相关主题：**
 
-[发送测试、准备和发送电子邮件视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+[发送测试、准备和发送电子邮件视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
 
 ## 使用陷印 {#using-traps}
 
@@ -152,16 +152,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 定义消息的受众时：
 
-1. 从选项卡 **[!UICONTROL Test profiles]** 中，选择测试配置文件。 确保其已作 **[!UICONTROL Trap]** 为预期用途。
+1. 从选项卡 **[!UICONTROL Test profiles]**中，选择测试配置文件。 确保其已作**[!UICONTROL Trap]** 为预期用途。
 
    ![](assets/trap_select.png)
 
-1. 消息内容准备就绪后，单击该 **[!UICONTROL Prepare]** 按钮。 See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. 消息内容准备就绪后，单击该 **[!UICONTROL Prepare]**按钮。 See[Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >确保选择了主目标。 否则，将无法发送您的消息。
 
-1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]**button. See[Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
