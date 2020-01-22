@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 * **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
 
-* **[电子邮件设计](designing/using/designing-content-in-adobe-campaign.md)**<br/>人员请参阅重新组织的电子邮件设计人员文档。
+* **[电子邮件设计](designing/using/designing-content-in-adobe-campaign.md)**<br/>器请参阅重新组织的电子邮件设计器文档。
 
 * **[Campaign Standard移动指南了](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>解有关移动交付的一般准则的更多信息。
 
