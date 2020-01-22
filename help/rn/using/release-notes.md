@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -306,7 +306,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>为了帮助提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关详细信息，请参 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">和操作方法视频</a>。</p></td> 
+   <td> <p>为了帮助提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关详细信息，请参 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">和操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
@@ -314,7 +314,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 工作流增强——向外部信号活动添加有效负荷<br /> </td> 
-   <td> <p>当从另一个工作流或REST API调用成功满足定义的条件以与外部系统集成时，使用有效负荷启动工作流。 这还包括一个新的测 <strong>试活动</strong> ，您可以在该活动中对此功能运行测试。</p><p>有关详细信息，请参 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">和操作方法视频</a>。</p></td> 
+   <td> <p>当从另一个工作流或REST API调用成功满足定义的条件以与外部系统集成时，使用有效负荷启动工作流。 这还包括一个新的测 <strong>试活动</strong> ，您可以在该活动中对此功能运行测试。</p><p>有关详细信息，请参 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">和操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登录页面增强- Google reCAPTCHA<br /> </td> 
@@ -432,7 +432,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 移动应用程序内消息传递<br /> </td> 
-   <td> <p>此版本包含Campaign中GA版本的应用程序内渠道。 从功能角度看，测试版中最显着的附加功能是应用程序内渠道动态报告以及Mobile SDK与MCIAS（为SDK提供应用程序内规则的Marketing cloud应用程序内消息传递服务）之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意的之手，并且允许您在用户每次注销时清除消息缓存，从而在共享设备上维护用户的隐私。</p><p>有关详细信息，请参阅详细 <a href="../../channels/using/about-in-app-messaging.md">文档</a> 和专用的 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">应用程序内教程</a>。</p> </td> 
+   <td> <p>此版本包含Campaign中GA版本的应用程序内渠道。 从功能角度看，测试版中最显着的附加功能是应用程序内渠道动态报告以及Mobile SDK与MCIAS（为SDK提供应用程序内规则的Marketing cloud应用程序内消息传递服务）之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意的之手，并且允许您在用户每次注销时清除消息缓存，从而在共享设备上维护用户的隐私。</p><p>有关详细信息，请参阅详细 <a href="../../channels/using/about-in-app-messaging.md">文档</a> 和专用的 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">应用程序内教程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流增强功能<br /> </td> 
@@ -537,11 +537,11 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
      <li> 能够在准 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">备时自动从URL检索内容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">兼容的现成内容模板</a>。 </li> 
     </ul> 
-    <p>有关详细信息，请参 <a href="../../designing/using/designing-content-in-adobe-campaign.md">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">和操作方法视频</a>。 以下列出了改进和修复。</p><p>因此，现在已弃用旧版电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>有关详细信息，请参 <a href="../../designing/using/designing-content-in-adobe-campaign.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">和操作方法视频</a>。 以下列出了改进和修复。</p><p>因此，现在已弃用旧版电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易电子邮件中的产品列表<br /> </td> 
-   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，并包含图像、价格和指向每个产品的链接。</p><p>有关详细信息，请参 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">阅详细文档</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">和操作方法视频</a>。</p> </td> 
+   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，并包含图像、价格和指向每个产品的链接。</p><p>有关详细信息，请参 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">和操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件设计器中的移动视图<br /> </td> 
@@ -584,7 +584,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 * 修复了在使用电子邮件设计器编辑电子邮件时无法显示新创建的片段的问题。 (CAMP-29928)
 * 修复了阻止按钮文本在使用电子邮件设计器创建并使用Outlook电子邮件客户端接收的电子邮件中正确显示的问题。
 * 现在，可以使用电子邮件设计器创建个人资料交易邮件。 (CAMP-28900)
-* 修复了电子邮件设计器中的一个错误，该错误使内容在准备时从URL中自动检索内容时可编辑，而内容应被锁定。
+* 修复了电子邮件设计器中的一个错误，该错误使内容在准备时从URL自动检索内容时可编辑，而内容应被锁定。
 
 **修补程序**
 
