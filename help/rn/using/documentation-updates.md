@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
+source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
 
 ---
 
@@ -27,7 +27,9 @@ source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ## 文档更新- 2020年1月 {#doc-updates-january-2020}
 
-“创建跨渠道交付工作流”入门指南已更新并包含在核心文档中。 [阅读更多](../../automating/using/workflow-cross-channel-delivery.md)
+Deliverability文档已更新，其中包含有关IP认证的新部分。 [阅读更多](../../sending/using/ip-certification.md)
+
+提供了一个新部分，其中介绍了如何创建跨渠道交付工作流。 [阅读更多](../../automating/using/workflow-cross-channel-delivery.md)
 
 动态报表的指示器计算部分已更新。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
@@ -197,7 +199,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 直接从Adobe Campaign提供的上下文帮助链接已更新。
 
-以下页 [面将变](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) 为Adobe Campaign standard的官方视频页面。
+以下页 [面将变](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 为Adobe Campaign standard的官方视频页面。
 
 添加了有关数据保留的部分，其中包括标准表的默认保留值。 [阅读更多](../../administration/using/data-retention.md)
 
@@ -337,7 +339,7 @@ Microsoft Edge（最新版本）已添加到计算机的兼容浏览器列表中
 
 使用Adobe Experience Platform SDK配置移动应用程序一节已移到 [此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-视频已更新并移到 [此处](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
+视频已更新并移到 [此处](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 更新了“用户类型”部分。 [阅读更多](../../administration/using/users-management.md)
 
@@ -685,7 +687,7 @@ Adobe Campaign通知——阅 [读更多](../../administration/using/sending-int
 
 Amazon Simple Storage Service(S3)连接器——阅 [读更多](../../administration/using/external-accounts.md)
 
-Dreamweaver实时集成——阅 [读更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### 随版本提供的其他文档更新 {#other-documentation-updates-coming-with-the-release-14}
 
@@ -709,7 +711,7 @@ Dreamweaver实时集成——阅 [读更多](https://helpx.adobe.com/campaign/kt
 
 动态报告——阅 [读更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver集成（实验室）-阅 [读更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver集成（实验室）-阅 [读更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手动发送时间优化——阅 [读更多](../../sending/using/optimizing-the-sending-time.md)
 
