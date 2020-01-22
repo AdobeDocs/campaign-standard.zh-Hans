@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -29,16 +29,16 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 >下图显示了如何使用电子邮件设计器加载现 [有内容](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 1. 创建电子邮件或登录页面后，打开其内容。
-1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
+1. 单击主页图标以访问 **[!UICONTROL Email Designer]**主页。
 
    ![](assets/des_loading_1.png)
 
 1. 选择要加载的内容的源：
 
-   * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击选 **[!UICONTROL Templates]** 项卡。
-   * [内容从头开始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，从新开始：单击该 **[!UICONTROL Create]** 按钮。
-   * [以ZIP或HTML文件形式从您的计算机中获取内容](#importing-content-from-a-file):单击该 **[!UICONTROL Upload]** 按钮。
-   * [来自现有URL的内容](#importing-content-from-a-url) （仅适用于电子邮件）:单击该 **[!UICONTROL Import from URL]** 按钮。
+   * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击选 **[!UICONTROL Templates]**项卡。
+   * [内容从头开始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，从新开始：单击该 **[!UICONTROL Create]**按钮。
+   * [以ZIP或HTML文件形式从您的计算机中获取内容](#importing-content-from-a-file):单击该 **[!UICONTROL Upload]**按钮。
+   * [来自现有URL的内容](#importing-content-from-a-url) （仅适用于电子邮件）:单击该 **[!UICONTROL Import from URL]**按钮。
    ![](assets/des_loading_2.png)
 
 1. 加载内容。 所选内容将替换当前内容。
@@ -66,7 +66,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 ### 从文件导入内容 {#importing-content-from-a-file}
 
-在“电子邮件设计器”主页中，单击 **[!UICONTROL Upload]** 按钮以从计算机上传文件，然后进行确认。
+在“电子邮件设计器”主页中，单击 **[!UICONTROL Upload]**按钮以从计算机上传文件，然后进行确认。
 
 zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并且必须遵循zip文件夹的树结构。
 
@@ -84,7 +84,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 在从URL导入内容之前，请确保它符合以下要求：
 
 * 内容需要通过此URL公开可用。
-* 出于安全原因，仅允许以 **[!UICONTROL https]** 开头的URL。
+* 出于安全原因，仅允许以 **[!UICONTROL https]**开头的URL。
 * 确保在绝对链接和HTTPS中设置所有资源（图像、CSS）。 否则，在发送电子邮件后，将显示镜像页面，而不显示其资源。 以下是绝对链接定义的示例：
 
    ```
@@ -97,16 +97,16 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 要从URL检索现有内容，请执行以下步骤：
 
-1. 从“电子邮件设计器”主页中，选择按 **[!UICONTROL Import from URL]** 钮。
+1. 从“电子邮件设计器”主页中，选择按 **[!UICONTROL Import from URL]**钮。
 
    ![](assets/email_designer_importfromurl.png)
 
 1. 定义从中检索内容的URL。
-1. Click **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**.
 
 **相关主题：**
 
-[从URL视频导入内容](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+[从URL视频导入内容](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
 
 ### 在准备时自动从URL检索内容 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -114,7 +114,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 要在准备时检索内容，请执行以下步骤：
 
-1. 选择选 **[!UICONTROL Content imported during preparation]** 项。
+1. 选择选 **[!UICONTROL Content imported during preparation]**项。
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
    >
    >在此步骤中，不应考虑内容编辑器中的HTML显示。 将在准备阶段检索。
 
-1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击按 **[!UICONTROL Preview]** 钮。
+1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击按 **[!UICONTROL Preview]**钮。
 
 可以个性化从中检索内容的远程URL。 为此请执行以下操作步骤：
 
-1. 单击屏幕顶部的电子邮件标签以访问“电子邮件设计器”选 **[!UICONTROL Properties]** 项卡。
-1. 查找字 **[!UICONTROL Remote URL]** 段。
+1. 单击屏幕顶部的电子邮件标签以访问“电子邮件设计器”选 **[!UICONTROL Properties]**项卡。
+1. 查找字 **[!UICONTROL Remote URL]**段。
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 插入所需的个性化字段、内容块或动态文本。
 
-   例 **[!UICONTROL Current date - YYYYMMDD]** 如，内容块允许您插入日期。
+   例 **[!UICONTROL Current date - YYYYMMDD]**如，内容块允许您插入日期。
 
    >[!NOTE]
    >
