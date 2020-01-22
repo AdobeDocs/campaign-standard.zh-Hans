@@ -12,14 +12,14 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # 操作说明视频{#how-to-videos}
 
-通过观看Campaign [Standard操作说明视频，了解关键功能](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
+通过观看Campaign [Standard操作说明视频，发现关键功能](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 * [创建电子邮件](https://video.tv.adobe.com/v/23721?captions=chi_hans):在Adobe Campaign中从主页创建电子邮件。
 * [创建登陆页面](https://video.tv.adobe.com/v/24093?captions=chi_hans):在Adobe Campaign中创建和编辑登陆页面。
