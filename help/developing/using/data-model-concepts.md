@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign附带预定义的数据模型。 此数据模型可由能够向�
 >
 >创建和修改资源是敏感操作，只能由专家用户执行。
 
-通过 **[!UICONTROL Administration]** Adobe Campaign徽 **[!UICONTROL Development]** 标访问的 **&gt;菜单允许您管理自定义资源**, **发布** ，以及访 ****&#x200B;问诊断工具。
+通过 **[!UICONTROL Administration]**Adobe Campaign徽**[!UICONTROL Development]** 标访问的 **>菜单允许您管理自定义资源**, **发布** ，以及访 ****&#x200B;问诊断工具。
 
 Adobe Campaign使用的数据是通过不同资源定义的。 您可以 **通过创建自己的自定义资源** （如购买表或产品表）来丰富提供的数据模板。
 
@@ -36,7 +36,7 @@ Adobe Campaign使用的数据是通过不同资源定义的。 您可以 **通�
 
 >[!NOTE]
 >
->您可以在此处找到现成的资源的数据模型表示 [形式](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)。
+>您可以在此处找到现成的资源的数据模型表示 [形式](../../developing/using/datamodel-introduction.md)。
 
 您还可以在 **与创建的资源对应的屏幕中** ，配置导航。
 
