@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 1. 为此品牌创建一个或多个交付和登录页面模板。 请参阅创 [建模板部分](../../start/using/marketing-activity-templates.md) 。
 1. 根据此模板创建消息和登陆页面。 请参阅创 [建电子邮件](../../channels/using/creating-an-email.md)[和创建登录页面](../../channels/using/designing-a-landing-page.md) 。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >不能由最终用户创建或修改品牌：这些操作必须由Adobe Campaign技术管理员执行。 如需任何请求，请联系Adobe客户关怀。 不能在交易消息的上下文中使用多品牌。 有关此方面的详细信息，请参 [阅交易消息和品牌推广](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
@@ -62,7 +62,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **回复（电子邮件地址）** ，并使用客户可以回复的电子邮件地址。
    * **使用品牌名称回复** （名称）。
    * **错误（电子邮件地址）** ，电子邮件地址用于发生错误时使用。
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >更新了电子邮件的标题参数后，如果发件人的姓名和电子邮件地址在从模板创建的电子邮件中没有更改，请检查模板的高级设置。
 
@@ -73,6 +73,9 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **用于托管和访问您创建的不同登录页面的应用程序服务器的外部URL** 。
    * **在提交过程中用作跟踪URL的跟踪服务器的外部URL** 。
    * **作为提交中默认镜像页面的镜像页面服务器的外部URL** 。
+   >[!NOTE]
+   >
+   >如果应用程序服务器和镜像页面服务器URL不安全(即，如果不以https://开头)，则无法从营销活动用户界面显示登录页面预览和镜像页面呈现。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**，它定义品牌的URL跟踪配置。
 
@@ -118,7 +121,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 #### 配置新品牌 {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >品牌配置仅由Adobe管理，因为它需要特定权限和技术设置。
 
