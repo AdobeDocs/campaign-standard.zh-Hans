@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >[!NOTE]
 >
 >Campaign Standard可让您在所有交付渠道中定位Adobe Experience Platform受众：电子邮件、SMS消息、直邮消息、推送通知和应用程序内消息。
+>
+>*注意：对于所有推送和应用程序内消息，Campaign standard仅支持已知配置文件的分发。
 
 有关如何使用工作流和交付的详细信息，请参阅以下部分：
 
