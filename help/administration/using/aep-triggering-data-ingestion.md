@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign standard允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
 
->[!NOTE]
->
->本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign Standard API的全局信息，请参 [阅本节](../../api/using/about-campaign-standard-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign Standard API的全局信息，请参 [阅本节](../../api/using/about-campaign-standard-apis.md)。
 
 ## 先决条件 {#prerequisites}
 
@@ -38,7 +36,7 @@ Adobe Campaign standard允许您通过API触发数据映射的即时摄取，并
 
 创建数据映射后，必须停止它的运行，以便您可以随时从API触发它。 为此，请执行以下步骤：
 
-1. 在Campaign Standard中，转到 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>菜**!UICONTROL Status of data export to platform]**单。
+1. 在Campaign Standard中，转到 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>菜**[!UICONTROL Status of data export to platform]** 单。
 
 1. 双击数据映射以将其打开，然后单击按 **[!UICONTROL Stop]**钮。
 
@@ -165,7 +163,7 @@ GET操作返回以下信息：
    }
    ```
 
-* 正在收集请求（当请求以批次上传数据或准备批次请求时）:
+* 正在收录请求（当请求以批次上传数据或准备批次请求时）:
 
    ```
    {
