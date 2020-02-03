@@ -12,7 +12,7 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
 
 它还允许您创建跨渠道营销活动以更好地定位收件人。
 
-Adobe Campaign中提供四个消息传递渠道：
+Adobe Campaign中提供五个消息传递渠道：
 
 * 电子邮件，在创建电子 [邮件部分中显示](../../channels/using/about-emails.md) 。
 * SMS，在创建SMS [消息部分中显示](../../channels/using/about-sms-messages.md) 。
