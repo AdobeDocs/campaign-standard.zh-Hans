@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 ---
 
@@ -28,12 +28,12 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 <br/>
 
-***示例请求***
+***示例请求&#x200B;***
 
 通过GET请求检索个人资料的营销历史记录。
 
 ```
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/History/"<PKEY>" \
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
