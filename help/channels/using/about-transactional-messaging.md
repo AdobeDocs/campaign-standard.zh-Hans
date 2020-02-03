@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -45,6 +45,10 @@ Adobe Campaign中提供两种类型的交易消息：
 >Adobe Campaign优先处理事务性消息，而不是处理任何其他交付。
 
 Adobe Campaign Standard API也提供交易消息传递。 有关详细信息，请参阅专 [用文档](../../api/using/managing-transactional-messages.md)。
+
+>[!IMPORTANT]
+>
+>升级到增强 [MTA后](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，所有交易消息都会与Adobe Campaign增强MTA一起发送，以改进交付性、吞吐量和弹回处理。 所有影响与标准营销消息相同，并在 [Adobe Campaign增强的MTA文档中详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
 
 ## 交易消息传递操作原则 {#transactional-messaging-operating-principle}
 
@@ -80,7 +84,7 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 
 * 每个事件配置只能使用一个渠道。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 创建活动后，便无法更改渠道。 因此，如果消息未成功发送，您需要设计一种机制，以允许使用工作流从其他渠道发送消息。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* 在创建活动后，您无 **[!UICONTROL Real-time event]** 法更改 **[!UICONTROL Profile]** 定位维度（或）。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* 在创建活动后，您无 **[!UICONTROL Real-time event]**法更改**[!UICONTROL Profile]** 定位维度（或）。 请参 [阅创建活动](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 无法回滚发布，但可以取消发布事件：此操作使事件和关联的事务消息无法访问。 请参阅 [取消发布活动](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * 唯一可与活动关联的事务消息是发布该活动时自动创建的消息。 请参 [阅预览和发布活动](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 
@@ -105,17 +109,17 @@ Adobe Campaign允许您向已将产品添加到其购物车的站点用户发送
 
 ### 权限和品牌 {#permissions-and-branding}
 
-在品牌管理方面 [](../../administration/using/branding.md) ，交易消息传递比标准消息传递带来的灵活性要小。 Adobe建议将交易消息中使用的所有品牌关联到组 **[!UICONTROL All]** 织 [单位](../../administration/using/organizational-units.md)。 有关此问题的详细信息，请阅读下面的详细说明。
+在品牌管理方面 [](../../administration/using/branding.md) ，交易消息传递比标准消息传递带来的灵活性要小。 Adobe建议将交易消息中使用的所有品牌关联到组 **[!UICONTROL All]**织[单位](../../administration/using/organizational-units.md)。 有关此问题的详细信息，请阅读下面的详细说明。
 
-编辑交易消息时，您可以将其链接到品牌以自动应用一些参数，如品牌名称或品牌徽标。 默认 **[!UICONTROL Default brand]** 情况下，会在事务消息属性中选择该选项。
+编辑交易消息时，您可以将其链接到品牌以自动应用一些参数，如品牌名称或品牌徽标。 默认 **[!UICONTROL Default brand]**情况下，会在事务消息属性中选择该选项。
 
 ![](assets/message-center_branding.png)
 
-交易消息中使用的所有对象（包括品牌）必须从组织单位中可见，这 **[!UICONTROL Message Center]** 意味着这些对象必须位于或组 **[!UICONTROL Message Center]** 织单 **[!UICONTROL All]** 位中。
+交易消息中使用的所有对象（包括品牌）必须从组织单位中可见，这 **[!UICONTROL Message Center]**意味着这些对象必须位于或组**[!UICONTROL Message Center]** 织单 **[!UICONTROL All]**位中。
 
-但是，如果消息属性中选择的品牌链接到的组织单元与或不同 **[!UICONTROL Message Center]** , **[!UICONTROL All]**&#x200B;则这将导致错误，并且您将无法发送交易消息。
+但是，如果消息属性中选择的品牌链接到的组织单元与或不同 **[!UICONTROL Message Center]**,**[!UICONTROL All]**&#x200B;则这将导致错误，并且您将无法发送交易消息。
 
-因此，如果要在交易消息的上下文中使用多品牌，您应将所有品牌关联到组织单 **[!UICONTROL Message Center]** 位或组织单 **[!UICONTROL All]** 位。
+因此，如果要在交易消息的上下文中使用多品牌，您应将所有品牌关联到组织单 **[!UICONTROL Message Center]**位或组织单**[!UICONTROL All]** 位。
 
 ### 导出和导入事务性消息 {#exporting-and-importing-transactional-messages}
 
