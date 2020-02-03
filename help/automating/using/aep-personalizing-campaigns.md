@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
 
 1. 打开活 **[!UICONTROL Read audience]**动。 在选项**[!UICONTROL Additional data]** 卡中，单击按 **[!UICONTROL Create element]**钮。
 
-   >[!NOTE]
-   >
-   >该选 **[!UICONTROL Additional data]**项卡仅在选择Adobe Experience platform受众后才可用。
+   请注意， **[!UICONTROL Additional data]**只有在选择Adobe Experience platform受众后，该选项卡才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >此功能不支持数组和映射数据类型。 此外，只有联合架构中的数据才会显示在选取器中。
 
 1. 从列表中选择所需的XDM字段，然后单击 **[!UICONTROL Confirm]**。
 
