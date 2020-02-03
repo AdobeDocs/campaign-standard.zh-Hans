@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -23,6 +23,12 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 此报告包含与发送或多个发送的传送吞吐量相关的数据。 它提供：
 
 * 每小时处理的消息数
-* 表格 **[!UICONTROL Top 5 deliveries]** 和补充摘要编号，显示5次交付的重试次数最佳。
+* 表格 **[!UICONTROL Top 5 deliveries]**和补充摘要编号，显示5次交付的重试次数最佳。
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>升级到增强的MTA后，页面 **[!UICONTROL Delivery throughput]**不再显示电子邮件收件人的吞吐量。 它显示从营销活动到增强的MTA的消息中继的吞吐量速度。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
