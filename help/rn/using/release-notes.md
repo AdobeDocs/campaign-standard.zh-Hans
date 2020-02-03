@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Adobe Experience Platform Data Connector现已与Adobe Campaign Standard集成。 您可以通过将XTK数据（在Campaign中摄取的数据）映射到Adobe Experience Platform数据模型(XDM)，在Adobe Experience Platform上提供Campaign数据。 </p>
-    <p>有关激活此功能的功能和条件的详细信息，请参阅详细 <a href="../../administration/using/aep-about-data-connector.md">文档</a>。</p>
+   <td> <p>Adobe Experience Platform Data Connector现已与Adobe Campaign Standard集成。 您可以通过将XTK数据（在Campaign中摄取的数据）映射到Adobe Experience Platform数据模型(XDM)，在Adobe Experience Platform上提供Campaign数据。 </p>
+    <p>请注意，此功能仅适用于Azure上托管的客户。 有关此功能和激活条件的详细信息，请参阅详细 <a href="../../administration/using/aep-about-data-connector.md">文档</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>与Audience Destination服务（测试版）集成 </strong><br /> </th> 
+   <th> <strong>受众目标（测试版） </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>受众目标服务现已与Adobe Campaign standard集成。 您可以基于复杂的大数据集构建高度针对性的受众，并与其他Adobe Experience cloud解决方案实时共享这些细分。</p>
-    <p>有关激活此功能的功能和条件的详细信息，请参阅详细 <a href="../../audiences/using/aep-about-audience-destinations-service.md">文档</a>。</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Campaign增强的MTA，用于交易消息传递</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Campaign增强型MTA现在发送交易消息，它提供了升级的发送基础结构，可改进交付性、吞吐量和弹回处理。</p>
-    <p>有关详细信息，请参阅详 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">细文档</a>。</p>
+   <td> <p>受众目标允许您将Adobe Experience Platform中的细分共享到Adobe Campaign。</p>
+    <p>请注意，此功能仅适用于Azure上托管的客户。 有关此功能和激活条件的详细信息，请参阅详细 <a href="../../audiences/using/aep-about-audience-destinations-service.md">文档</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **改进**
 
+* 增强的MTA的全球可用性：消息（包括交易消息）现在由Adobe Campaign增强型MTA发送，它提供了升级的发送基础结构，可改进交付性、吞吐量和弹回处理。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * 时区管理已得到增强。 您现在可以为整个 [工作流定义](../../automating/using/building-a-workflow.md) 特定时区。 选定的时区将应用于工作流的所有活动。 现在，有关为操作员或服务器配置的时区的信息显示在界面中（在日志中和选择时区后）。 (CAMP-37672)
 
-* 现在，Campaign Standard API允许您在使用大表时通过向调用URL添加 `_forcePagination=true parameter` 分页来执行分页。 [阅读更多](../../api/using/pagination.md)
+* 现在，通过向调用URL添加参数，Campaign Standard API允许您在使用大表时 `_forcePagination=true` 执行分页。 [阅读更多](../../api/using/pagination.md)
 
-* 交付日志ID（每个日志的唯一标识符）现在在所有定位维的交付日志和跟踪日志资源中可用。 这允许在导出时识别发送或跟踪日志。
+* 交付日志ID（每个日志的唯一标识符）现在在所有定位维的交付日志和跟踪日志资源中可用。 这允许在导出时识别发送或跟踪日志。 [阅读更多](../../automating/using/exporting-logs.md)
 
 **Email Designer增强功能**
 
