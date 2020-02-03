@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -27,7 +27,7 @@ Experience Data Model(XDM)是一套标准的数据架构，可以在其中摄取
 
 XDM架构的创建和管理可通过专用API或XDM用户界面使用。
 
-## XDM工作区(#xdm-workspace)
+## XDM工作区 {#xdm-workspace}
 
 XDM Workspace提供了查看、创建和扩展数据架构的功能。
 
