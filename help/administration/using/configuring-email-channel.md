@@ -1,6 +1,6 @@
 ---
-title: 配置电子邮件渠道
-description: 了解如何配置电子邮件渠道。
+title: 在Adobe Campaign standard中配置电子邮件渠道
+description: 了解如何在Adobe Campaign standard中配置电子邮件渠道。
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
@@ -70,34 +70,52 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ## 电子邮件处理规则 {#email-processing-rules}
 
+管 **[!UICONTROL Email processing rules]**理员可以通过菜单访问**[!UICONTROL Administration > Channels > Email]** 该。
+
 这些规则包含可由远程服务器返回的字符串列表，您可以通过该列表确定错误(**硬**、软 **或** 忽略 ****)。
 
 默认规则如下：
 
-**弹回邮件**
+### 弹回邮件 {#bounce-mails}
 
 当电子邮件失败时，远程消息服务器会向应用程序设置中指定的地址返回弹回错误消息。 Adobe Campaign会将每封弹回邮件的内容与规则列表中的字符串进行比较，然后为其分配三个错误类型之一。
 
 用户可以创建自己的规则。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >在导入包时以及通过“更新以实现可交付性 **”工作流更新数据时** ，将覆盖用户创建的规则。
 
-**管理电子邮件域**
+>[!IMPORTANT]
+>
+>升级到增强的MTA后，“营销活动”表格中的弹 **[!UICONTROL Message qualification]**出资格便不再被使用。 对于同步交付失败错误消息，增强的MTA可确定退回类型和资格，并将该信息发回到Campaign。 inMail进程仍可对异步弹回进行限定。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-域管理规则用于调节特定域的传出电子邮件的流。 他们对弹回消息进行采样，并在适当时阻止发送。 Adobe Campaign消息传递服务器应用特定于域的规则，然后应用规则列表中以星号表示的一般大小写规则。 默认情况下，Adobe Campaign中提供Hotmail和MSN域的规则。
+### 管理电子邮件域 {#managing-email-domains}
+
+域管理规则用于调节特定域的传出电子邮件的流。 他们对弹回消息进行采样，并在适当时阻止发送。 Adobe Campaign消息传递服务器应用特定于域的规则，然后应用规则列表中以星号表示的一般大小写规则。
 
 要配置域管理规则，只需设置阈值并选择某些SMTP参数。 阈 **值** (Threshold)是计算为错误百分比的限制，超过该百分比，向特定域的所有消息都被阻止。
-
-例如，在一般情况下，如果错误率达到90%，则至少300条邮件的发送将被阻止3小时。
 
 SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 * 您可以选择是否激活某些标识标准和加密密钥以检查域名，如 **Sender ID**、 **DomainKeys**、 **DKIM**&#x200B;和 **** S/MIMEConnect。
 * **SMTP中继**:允许您为特定域配置IP地址和中继服务器的端口。
 
-**MX管理**
+>[!IMPORTANT]
+>
+>升级到增强的MTA后，DKIM(DomainKeys Indedited Mail)电子邮件身份验证签名由增强的MTA完成。 作为增强的MTA升级的一部分，本机Campaign MTA的DKIM **[!UICONTROL Domain management]**签名将在表中关闭。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+
+### MX管理 {#mx-management}
+
+>[!IMPORTANT]
+>
+>升级到增强MTA后，Adobe Campaign **MX管理交付** ，不再使用吞吐量规则。 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 每个规则都为MX定义了地址掩码。 因此，其名称与此掩码匹配的任何MX都符合条件。 遮罩可以包含“*”和“?” 常规字符。
 
@@ -127,7 +145,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 * **最大消息数**:可通过一个连接发送的最大消息数。 在此数量后，连接将关闭，并重新打开新连接。
 * **[!UICONTROL Messages per hour]**:MX通过给定地址在一小时内可发送的最大消息数。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 如果参数已更改，则必须重新启动交付服务器(MTA)。
 >* 管理规则的修改或创建仅适用于专家用户。
@@ -153,7 +171,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >该ID必须是唯一的。
 
@@ -182,7 +200,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 * **使用收件人首选项** （默认模式）:消息格式根据存储在收件人配置文件中的数据定义，并默认存储在 **Email格式字段** (@emailFormat)中。 如果收件人希望以某种格式接收消息，则此格式为发送的格式。 如果字段未完成，则会发送多部分替代消息（请参阅下文）。
 * **让收件人邮件客户端选择最合适的格式（多部分替代）**:该消息包含两种格式：文本和HTML。 接收时显示的格式取决于接收方的邮件软件（多部分替代）的配置。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >此选项包括两个版本的消息。 因此，它会影响交付吞吐量，因为消息大小较大。
 
@@ -199,7 +217,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 如果为电子邮件模板启用SMTP测试模式选项，则通过此模板创建的所有电子邮件都将启用此选项。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果为电子邮件启用了此选项，则在取消选中该选项之前，不会发送任何消息。
 >电子邮件或电子邮件模板功能板中将显示警告。
@@ -208,14 +226,24 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 ### 有效期参数 {#validity-period-parameters}
 
-该部 **[!UICONTROL Validity]**分包含以下参数：
+该部 **[!UICONTROL Validity period]**分包含以下参数：
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**:取消选中此框后，必须在和字段中输入持续**[!UICONTROL Delivery duration]** 时间 **[!UICONTROL Resource validity limit]**。 如果要定义特定的时间和日期，请选中此框。
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**:Adobe Campaign会从开始日期开始发送消息。 此字段允许您指定消息的发送持续时间。
+
+   >[!IMPORTANT]
+   >
+   >升级到增强的MTA后，营销活动投放中的**[!UICONTROL Delivery duration] *参数**仅在设置为3.5天或更少时使用。 如果定义的值高于3.5天，则不会将其考虑在内。 所有影响在 [Adobe Campaign增强的MTA文档中均有详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+
 * **[!UICONTROL Resource validity duration]**:此字段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
 * **[!UICONTROL Mirror page management]**:镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件内容相同。 默认情况下，如果链接已插入邮件内容中，则会生成镜像页面。 此字段允许您修改生成此页面的方式：
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >必须为要创建的镜像页面的电子邮件定义HTML内容。
 
@@ -226,7 +254,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 >[!NOTE]
 >
->和 **[!UICONTROL Explicitly set validity dates]**参**[!UICONTROL Delivery duration]** 数不适用于事务消息。 有关事务性消息传递的更多信息，请参 [阅此部分](../../channels/using/about-transactional-messaging.md)。
+>该参 **[!UICONTROL Delivery duration]**数不适用于事务消息。 有关事务性消息传递的更多信息，请参[阅此部分](../../channels/using/about-transactional-messaging.md)。
 
 ### 跟踪参数 {#tracking-parameters}
 
@@ -284,7 +312,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 * **[!UICONTROL Bounce mails]**:默认情况下，平台的错误收件箱中会收到弹回邮件(在**[!UICONTROL Administration]** > **[!UICONTROL Channels]**>**[!UICONTROL Email]** >屏幕中 **[!UICONTROL Configuration]**定义)。 要为电子邮件定义特定的错误地址，请在字段中输入该地**[!UICONTROL Error address]** 址。
 * **[!UICONTROL Additional SMTP headers]**:此选项允许向消息中添加其他SMTP头。 在字段中输入的脚**[!UICONTROL Headers]** 本必须引用每行一个标题，形式 **为name:value**。 值会根据需要自动编码。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >为高级用户保留添加用于插入其他SMTP头的脚本。 此脚本的语法必须符合以下内容类型的要求：没有未使用的空间，没有空行等。
 
