@@ -12,7 +12,7 @@ discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 �
 
    此时将显示一个用于确认导出的弹出窗口。 确认导出后，文件会自动下载到您的计算机。
 
-文件以CSV格式生成，除非导出在iOS中执行，在这种情况下，生成的文件采用TXT格式。 它根据导出的资源和导出日期命名。 例如：name profileBase_20150426_120253.csv将应用于2015年4月26日12:02:53进行的配置文件导出。 它采用UTF-8格式进行编码。
+文件以CSV格式生成，扩展名为。TXT。 它根据导出的资源和导出日期命名。 例如：name profileBase_20150426_120253.txt将应用于2015年4月26日12:02:53进行的配置文件导出。 它采用UTF-8格式进行编码。
 
 数字值和日期考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 
