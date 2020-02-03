@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -12,10 +12,11 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 # Adobe Campaign Standard 帮助 {#using}
 
 + [产品文档](campaign-standard-home.md)
-+ [最新更新](rn/using/documentation-updates.md)
++ [最近更新](rn/using/documentation-updates.md)
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
-   + 先前版本 {#previous-releases}
+   + 之前版本 {#previous-releases}
+      + [发行说明 2019](rn/using/release-notes-2019.md)
       + [发行说明 2018](rn/using/release-notes-2018.md)
       + [发行说明 2017](rn/using/release-notes-2017.md)
 + 快速入门 {#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [关于 Campaign 中的选择启用和选择禁用](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的选择启用和选择禁用](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [为投放确定选择禁用的用户档案](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + 使用Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [关于受众目标服务](audiences/using/aep-about-audience-destinations-service.md)
+      + [管理Adobe Experience platform受众](audiences/using/aep-managing-audiences.md)
+      + [使用统一的细分构建器](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
    + 关于通信渠道 {#about-communication-channels}
       + [了解通信渠道](channels/using/discovering-communication-channels.md)
@@ -109,18 +114,18 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [配置登陆页面](channels/using/configuring-landing-page.md)
       + [设计登陆页面](channels/using/designing-a-landing-page.md)
       + [管理登陆页面表单数据](channels/using/managing-landing-page-form-data.md)
-      + [测试和发布登录页面](channels/using/testing-publishing-landing-page.md)
+      + [测试和发布登陆页面](channels/using/testing-publishing-landing-page.md)
       + [设置双重选择启用流程](channels/using/setting-up-a-double-opt-in-process.md)
 + 设计电子邮件内容 {#designing-content}
    + [Campaign 电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)
-   + [电子邮件设计人员入门](designing/using/quick-start.md)
+   + [电子邮件设计工具快速入门](designing/using/quick-start.md)
    + [定义主题行和发件人](designing/using/subject-line.md)
    + 构建电子邮件内容{#building-email-content}
       + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
       + [使用现有内容](designing/using/using-existing-content.md)
       + [使用可重用内容](designing/using/using-reusable-content.md)
       + [使用多解决方案集成](designing/using/using-integrations.md)
-      + [编辑纯文本、HTML和移动电子邮件](designing/using/plain-text-html-modes.md)
+      + [编辑纯文本、HTML 和移动电子邮件](designing/using/plain-text-html-modes.md)
    + [个性化电子邮件内容](designing/using/personalization.md)
    + [管理电子邮件样式](designing/using/styles.md)
    + [管理链接](designing/using/links.md)
@@ -146,14 +151,14 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [在失败时接收提醒](sending/using/receiving-alerts-when-failures-happen.md)
       + [了解投放失败](sending/using/understanding-delivery-failures.md)
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
-   + 管理交付性 {#managing-deliverability}
-      + [关于可交付性](sending/using/about-deliverability.md)
+   + 管理投放能力 {#managing-deliverability}
+      + [关于投放能力](sending/using/about-deliverability.md)
       + [启动新平台](sending/using/starting-new-platform.md)
       + [控制电子邮件内容](sending/using/control-email-content.md)
-      + [提高声誉](sending/using/improving-reputation.md)
+      + [提高您的声誉](sending/using/improving-reputation.md)
       + [IP认证](sending/using/ip-certification.md)
       + [技术建议](sending/using/technical-recommendations.md)
-      + [监控交付性](sending/using/monitor-deliverability.md)
+      + [监控投放能力](sending/using/monitor-deliverability.md)
       + [故障排除](sending/using/troubleshooting.md)
 + 报告 {#reporting}
    + 关于报告 {#about-reporting}
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [取消订阅](reporting/using/unsubscriptions.md)
       + [URL 和点击流](reporting/using/urls-and-click-streams.md)
       + [热门点击](reporting/using/hot-clicks.md)
+      + [服务摘要](reporting/using/service-summary.md)
    + 自定义报告 {#customizing-reports}
       + [添加面板](reporting/using/adding-panels.md)
       + [添加可视化](reporting/using/adding-visualizations.md)
@@ -187,8 +193,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + 与 Adobe Cloud 集成 {#integrating-with-adobe-cloud}
    + [关于 Campaign 集成](integrating/using/about-campaign-integrations.md)
    + 使用 Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
-      + [关于Campaign-Experience manager集成](integrating/using/integrating-with-experience-manager.md)
-      + [在Adobe Experience Manager中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
+      + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
+      + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 使用 Campaign 和 Target {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
@@ -276,7 +282,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [导出日志](automating/using/exporting-logs.md)
       + [管理包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
-      + [用例：导出／导入自定义资源](automating/using/exporting-importing-custom-resources.md)
+      + [用例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
    + 用例：工作流 {#workflow-use-case}
       + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
       + [创建在创建日期投放](automating/using/workflow-creation-date-query.md)
@@ -285,6 +291,9 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
       + [构建对照组](automating/using/workflow-control-group.md)
       + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
+   + 与Adobe Experience platform受众合作{与受众合作}
+      + [面向Adobe Experience Platform受众](automating/using/aep-targeting-audiences.md)
+      + [使用Adobe Experience Platform属性个性化营销活动](automating/using/aep-personalizing-campaigns.md)
 + 开发 {#developing}
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [使用新字段扩展用户档案资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 数据模型 {#datamodel}
+      + [简介](developing/using/datamodel-introduction.md)
       + [受众](developing/using/datamodel-audience.md)
       + [营销活动](developing/using/datamodel-campaign.md)
       + [投放](developing/using/datamodel-delivery.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [关于Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Experience Platform数据模型概述](administration/using/aep-data-model-overview.md)
+      + [映射定义](administration/using/aep-mapping-definition.md)
+      + [映射激活](administration/using/aep-mapping-activation.md)
+      + [通过API触发数据摄取](administration/using/aep-triggering-data-ingestion.md)
 + 使用 API {#working-with-apis}
    + 关于 Campaign Standard API {#about-campaign-standard-apis}
       + [概述](api/using/about-campaign-standard-apis.md)
@@ -369,8 +385,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [自定义资源](api/using/custom-resources.md)
    + [与自定义资源交互](api/using/interacting-with-custom-resources.md)
    + 管理用户档案 {#managing-profiles}
-      + [检索配置文件](api/using/retrieving-profiles.md)
-      + [更新配置文件](api/using/updating-profiles.md)
+      + [检索用户档案](api/using/retrieving-profiles.md)
+      + [更新用户档案](api/using/updating-profiles.md)
       + [创建用户档案](api/using/creating-profiles.md)
    + 管理服务和订阅 {#managing-services-and-subscriptiopns}
       + [创建服务](api/using/creating-a-service.md)
@@ -382,17 +398,17 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [创建隐私请求](api/using/creating-a-privacy-request.md)
       + [监视隐私请求](api/using/monitoring-a-privacy-request.md)
       + [检索隐私数据文件](api/using/retrieving-privacy-data-files.md)
-      + [管理CCPA退出](api/using/managing-ccpa-opt-out.md)
+      + [管理 CCPA 退出](api/using/managing-ccpa-opt-out.md)
    + [管理交易消息](api/using/managing-transactional-messages.md)
    + 管理工作流 {#managing-workflows}
       + [控制工作流](api/using/controlling-a-workflow.md)
       + [触发信号活动](api/using/triggering-a-signal-activity.md)
    + 管理组织单位 {#managing-organizational-units}
-      + [检索配置文件的组织单元](api/using/retrieving-an-organizational-unit.md)
-      + [更新个人资料的组织单位](api/using/updating-profile-organizational-unit.md)
+      + [检索用户档案的组织单位](api/using/retrieving-an-organizational-unit.md)
+      + [更新用户档案的组织单位](api/using/updating-profile-organizational-unit.md)
       + [更新组织单位属性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理单位 {#managing-geographical-units}
-      + [检索配置文件的地理单元](api/using/retrieving-a-geographical-unit.md)
-      + [更新个人资料的地理单位](api/using/updating-a-geographical-unit.md)
+      + [检索用户档案的地理单位](api/using/retrieving-a-geographical-unit.md)
+      + [更新用户档案的地理单位](api/using/updating-a-geographical-unit.md)
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
    + [故障排除](api/using/troubleshooting.md)
