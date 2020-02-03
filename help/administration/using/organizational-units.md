@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 >[!CAUTION]
 >
 >如果用户未链接到任何设备，该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问，请勿将其链接到设 **[!UICONTROL All]**备。
+>
+>默认情况下， **[!UICONTROL All (all)]**组织单元将分配给安全**[!UICONTROL Administrators]** 组。 它是只读的，无法修改。
 
 用户对父单元中的所有对象具有只读访问权限。 他对单位和儿童单位的所有物品都有读写权限。 用户无权访问并行分支中的对象。
 
