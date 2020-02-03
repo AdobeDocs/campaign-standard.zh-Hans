@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 * **[!UICONTROL Events]**:识别与贵公司客户接触点进行过某种互动的消费者的活动，例如“两周内订购两次的任何人”。 这可以从Adobe Analytics流式传输，或使用第三方ETL工具直接摄取到Adobe Experience Platform中。
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**多实体细分** ，允许您根据产品、商店或其他非配置文件类，使用其他数据扩展配置文件数据。 连接后，来自其他类的数据将变为可用，就像它们是配置文件架构的本机数据一样。
+>
+>有关详细信息，请参阅专 [用文档](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
 默认情况下，“统一区段构建器”显示有数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设 **[!UICONTROL Show full XDM schema]**置中的选项。
 
