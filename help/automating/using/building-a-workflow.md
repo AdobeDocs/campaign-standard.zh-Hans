@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    由于如果它们没有以预期的方式执行，可以更轻松地查找和排除故障，Adobe建议为工作流提供正确的名称和标签：填写工作流的描述字段以汇总要执行的过程，以便操作员能够轻松理解它。
 
 1. 确认创建活动，随后将显示该活动的功能板。 有关详细信息，请参阅“工作 [流界面](../../automating/using/workflow-interface.md) ”部分。
+
+1. 准备好配置工作流后，您可以单击按钮以访问其他选 **[!UICONTROL Edit properties]**项。 例如，您可以定义一个特定时区，默认情况下在工作流的所有活动中使用。 默认情况下，工作流的时区是为当前营销活动操作员定义的时区。
+
+   ![](assets/workflow_properties.png)
 
 **相关主题：**
 
