@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ### 弹回邮件 {#bounce-mails}
 
-当电子邮件失败时，远程消息服务器会向应用程序设置中指定的地址返回弹回错误消息。 Adobe Campaign会将每封弹回邮件的内容与规则列表中的字符串进行比较，然后为其分配三个错误类型之一。
+当电子邮件失败时，远程消息服务器会向应用程序设置中指定的地址返回弹回错误消息。
 
-用户可以创建自己的规则。
-
->[!IMPORTANT]
->
->在导入包时以及通过“更新以实现可交付性 **”工作流更新数据时** ，将覆盖用户创建的规则。
+Adobe Campaign会将每封弹回邮件的内容与规则列表中的字符串进行比较，然后为其分配三个错误类型之一。
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 >
 >有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
+用户可以创建自己的规则。
+
+>[!IMPORTANT]
+>
+>在导入包时以及通过“更新以实现可交付性 **”工作流更新数据时** ，将覆盖用户创建的规则。
+
 ### 管理电子邮件域 {#managing-email-domains}
 
-域管理规则用于调节特定域的传出电子邮件的流。 他们对弹回消息进行采样，并在适当时阻止发送。 Adobe Campaign消息传递服务器应用特定于域的规则，然后应用规则列表中以星号表示的一般大小写规则。
+域管理规则用于调节特定域的传出电子邮件的流。 他们对弹回消息进行采样，并在适当时阻止发送。
+
+Adobe Campaign消息传递服务器应用特定于域的规则，然后应用规则列表中以星号表示的一般大小写规则。
+
+>[!IMPORTANT]
+>
+>升级到增强的MTA后，DKIM(DomainKeys Indedited Mail)电子邮件身份验证签名由增强的MTA完成。 作为增强的MTA升级的一部分，本机Campaign MTA的DKIM **[!UICONTROL Domain management]**签名将在表中关闭。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 要配置域管理规则，只需设置阈值并选择某些SMTP参数。 阈 **值** (Threshold)是计算为错误百分比的限制，超过该百分比，向特定域的所有消息都被阻止。
 
@@ -103,19 +113,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 * 您可以选择是否激活某些标识标准和加密密钥以检查域名，如 **Sender ID**、 **DomainKeys**、 **DKIM**&#x200B;和 **** S/MIMEConnect。
 * **SMTP中继**:允许您为特定域配置IP地址和中继服务器的端口。
 
->[!IMPORTANT]
->
->升级到增强的MTA后，DKIM(DomainKeys Indedited Mail)电子邮件身份验证签名由增强的MTA完成。 作为增强的MTA升级的一部分，本机Campaign MTA的DKIM **[!UICONTROL Domain management]**签名将在表中关闭。
->
->有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
 ### MX管理 {#mx-management}
-
->[!IMPORTANT]
->
->升级到增强MTA后，Adobe Campaign **MX管理交付** ，不再使用吞吐量规则。 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
->
->有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 每个规则都为MX定义了地址掩码。 因此，其名称与此掩码匹配的任何MX都符合条件。 遮罩可以包含“*”和“?” 常规字符。
 
@@ -131,6 +129,12 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 * ?.mx.yahoo.com
 
 这些规则按顺序应用：应用其MX掩码与目标MX兼容的第一条规则。
+
+>[!IMPORTANT]
+>
+>升级到增强MTA后，Adobe Campaign **MX管理交付** ，不再使用吞吐量规则。 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
+>
+>有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 以下参数可用于每个规则：
 
@@ -238,7 +242,7 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
    >[!IMPORTANT]
    >
-   >升级到增强的MTA后，营销活动投放中的**[!UICONTROL Delivery duration] *参数**仅在设置为3.5天或更少时使用。 如果定义的值高于3.5天，则不会将其考虑在内。 所有影响在 [Adobe Campaign增强的MTA文档中均有详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+   >升级到增强的MTA后，系 **[!UICONTROL Delivery duration]**列活动提交中的参数仅在设置为3.5天或更少时才可用。 如果定义的值高于3.5天，则不会将其考虑在内。 所有影响在[Adobe Campaign增强的MTA文档中均有详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 * **[!UICONTROL Resource validity duration]**:此字段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
 * **[!UICONTROL Mirror page management]**:镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件内容相同。 默认情况下，如果链接已插入邮件内容中，则会生成镜像页面。 此字段允许您修改生成此页面的方式：
