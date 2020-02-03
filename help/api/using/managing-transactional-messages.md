@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 >[!NOTE]
 >
->创建和发布活动在Campaign文档 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">中显示</a>。
+>创建和发布活动在Campaign文档 [中显示](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 例如，您希望当您的客户之一在购买购物车中的产品之前离开您的网站时，会触发“购物车放弃”事件。 为此，您的Web开发人员必须使用REST Transactional Messages API。
 
