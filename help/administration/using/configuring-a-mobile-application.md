@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 推送通知或应用程序内消息会在移动应用程序上接收，这些应用程序首先需要在Adobe Campaign standard中配置，具体取决于您要使用的渠道。
 
-* 要发送应用程序内消息和推送通知，您的移动应用程序需要通过利用Adobe Experience Platform SDK在Adobe Campaign中设置。 请参 [阅使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)。
-
-* 要仅发送推送通知，您可以使用SDK V4配置Adobe Campaign与Adobe Mobile service之间的集成。 请参 [阅使用SDK V4](#using-sdk-v4)。
+要发送应用程序内消息和推送通知，您的移动应用程序需要通过利用Adobe Experience Platform SDK在Adobe Campaign中设置。 请参 [阅使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)。
 
 在Adobe Campaign中通过利用Experience Cloud Mobile SDK V4或Experience Platform SDK设置移动应用程序后，需要由管理员在 [!UICONTROL Administration] > [!UICONTROL Channels] >菜单下配置这些应 [!UICONTROL Mobile app] 用程序。
 
@@ -59,36 +57,3 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 1. 将特定于渠道的配置添加到您的移动应用程序设置中，请参 [阅Adobe Campaign中特定于渠道的应用程序配置](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/launch_2.png)
-
-## 使用SDK V4 {#using-sdk-v4}
-
-与应用程序内SDK不同，SDK V4和Adobe Experience Platform SDK支持推送通知。 有关将推送通知与移动应用程序一起使用的详细步骤，请参阅此 [页](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
-
-接收推送通知的移动应用程序必须由管理员在Adobe Campaign界面中配置。 通过配置Adobe Campaign和Adobe Mobile Services，您将能够将移动应用程序的数据用于营销活动。
-
-要能够发送推送通知，您需要：
-
-1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]**中访问渠道。
-1. 在以下位置配置移动应用程序：
-
-   * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign)。
-   * [Adobe Mobile Services](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices)。
-
-1. 执行手机应用程序的特定设置：
-
-   * 将从Adobe Mobile services界面下载的配置文件与移动应用程序打包。
-   * 将Experience Cloud Mobile SDK集成到您的移动应用程序中。
-
-1. 定义要从应用程序订阅者处收集的数据。 根据您定义的标准，协调在Adobe Campaign数据库中具有配置文件的移动应用程序的订阅者。
-
-   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
-
-1. 通过在设备上启动移动应用程序并登录，确保安装已成功完成。 确保您选择接收通知。
-1. 然后，在Adobe Campaign的高级菜单中，选择 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**。
-1. 从列表中选择您的移动应用程序以显示其属性。 您的订阅信息将显示在订阅者列表下。
-
-   ![](assets/push_notif_mobile_app.png)
-
-1. 要检查某个配置文件订阅的手机应用程序，请在菜 **[!UICONTROL Profiles & Audiences > Profiles]**单中选择一个配置文件，然后单击右**[!UICONTROL Edit profile properties]** 侧的按钮。 移动应用程序列在选项 **[!UICONTROL Mobile App Subscriptions]**卡中。
-
-   ![](assets/push_notif_subscriptions.png)
