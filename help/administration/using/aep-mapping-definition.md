@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 在本节中，您将了解如何将Campaign Standard字段与体验数据模型(XDM)字段进行映射。
 
->[!NOTE]
->
->要执行此任务，前提条件是：
->
-> * 通过接口或使用与XDM关联的REST API定义XDM架构
-> * 基于XDM架构定义的数据集创建
+要执行此任务，前提条件是：
 
+* 通过接口或使用与XDM关联的REST API定义XDM架构
+* 基于XDM架构定义的数据集创建
 
 1. 转到 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**并选择**[!UICONTROL Data mappings]** 条目。
 
@@ -78,8 +75,8 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 要编辑XDM映射，请打开它，修改所需的信息，然后保存它。
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >目前，如果您在部分中编辑一个值，然后在字段外部单 **[!UICONTROL Field mappings]**击，则在单击按钮之前，您所做的更改不会显示在界面**[!UICONTROL Save]** 中。 此行为仅在页面上的编辑是第 **[!UICONTROL Field Mappings]**一次编辑时发生一次。
-
-![](assets/aep_editmapping.png)
