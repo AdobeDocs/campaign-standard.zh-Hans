@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
+source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 使用 **_lineCount** 参数可以限制响应中列出的资源数。  然后，您可以使用 **下一个** 节点显示下一个结果。
 
->[!NOTE]>
+>[!NOTE]
 >
 >始终使用在下一个节点中返回 **的** URL值执行分页请求。
 >
