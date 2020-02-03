@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
+source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
 
 ---
 
@@ -31,9 +31,7 @@ source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
 
 Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../administration/using/aep-about-data-connector.md)
 
-与受众目标服务（测试版）集成——阅 [读更多](../../audiences/using/aep-about-audience-destinations-service.md)
-
-营销活动增强的交易消息传递MTA —— 阅 [读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+受众目标（测试版）-阅 [读更多](../../audiences/using/aep-about-audience-destinations-service.md)
 
 ### 随版本提供的其他文档更新
 
@@ -51,7 +49,7 @@ Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../ad
 
 Adobe Campaign增强型MTA文档现已推出。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-添加了注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
+已添加注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
 
 “导出日志”部分已更新，以反映“交付日志”和“跟踪日志”资源中的交付日志ID的可用性，这使得能够导出每个日志的唯一标识符。 [阅读更多](../../automating/using/exporting-logs.md)
 
