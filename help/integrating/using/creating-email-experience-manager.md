@@ -1,5 +1,5 @@
 ---
-title: 在Adobe Experience Manager中创建电子邮件内容。
+title: 在 Adobe Experience Manager 中创建电子邮件内容.
 description: 通过Adobe Experience manager集成，您可以直接在AEM中创建内容，然后在Adobe Campaign中使用它。
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d89c8afad835810292689f4b77b0c4d6ba6a86c
+source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
 
 
-# 在Adobe Experience Manager中创建电子邮件内容 {#creating-email-aem}
+# 在 Adobe Experience Manager 中创建电子邮件内容 {#creating-email-aem}
 
 Adobe Campaign standard与Adobe Experience manager之间的这一集成允许您在Adobe Campaign电子邮件中使用Adobe Experience manager中创建的内容。
 
@@ -46,7 +46,7 @@ Adobe Campaign standard与Adobe Experience manager之间的这一集成允许您
    * 在Adobe Experience manager创作和发布实例之间配置复制。
    * 通过配置专用的Adobe Experience manager与Adobe Campaign连接 **[!UICONTROL Cloud Service]**。
 
-## 在Adobe Experience Manager中创建电子邮件内容 {#use-case}
+## 在 Adobe Experience Manager 中创建电子邮件内容 {#use-case}
 
 要在Adobe Experience manager中创建电子邮件内容，请执行以下操作：
 
@@ -55,7 +55,7 @@ Adobe Campaign standard与Adobe Experience manager之间的这一集成允许您
 1. 通过插入文本、图像、个性化等编辑内容。
 1. 验证内容。
 
-有关详细信息，请参阅详 [细文档](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html)。
+有关详细信息，请参阅详 [细文档](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)。
 
 ![](assets/aem_content.png)
 
