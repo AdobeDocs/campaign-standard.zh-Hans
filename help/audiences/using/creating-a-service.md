@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 1. 在通过 **[!UICONTROL Service properties]**服务功能板中的按钮![](assets/edit_darkgrey-24px.png)访问的部分中，为订阅和取消订阅配置确认消息。
 
    ![](assets/lp_service_parameters.png)
+
+1. 选择选 **[!UICONTROL Subscriptions with an expiration date]**项可设置订阅的有效期。
+
+   ![](assets/lp_service_expiration.png)
+
+您可以在分段活动中使用到期日期来定位订阅未过期服务的配置文件。
 
 1. 填写字 **[!UICONTROL Service label]**段。 使用自定义确认消息时，服务标签是必填的。
 
