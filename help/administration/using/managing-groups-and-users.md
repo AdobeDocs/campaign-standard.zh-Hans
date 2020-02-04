@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ## 创建安全组并分配用户 {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >请注意，在Admin Console中，安全组称为配置文件。
 
@@ -139,7 +139,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 您的用户现在已分配到安全组，并可以连接到Adobe Campaign。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果用户从管理控制台中的安全组中删除，他们将保留在Adobe Campaign安全组的一部分，并且将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以阻止他们接收敏感信息。
 
