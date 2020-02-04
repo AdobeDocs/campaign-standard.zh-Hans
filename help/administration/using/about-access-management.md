@@ -1,18 +1,18 @@
 ---
 title: 关于访问管理
 description: 使用角色、组和组织单位管理Adobe Campaign运营商。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 用户和安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Campaign允许您定义和管理分配给不同用户的权限。 权限�
 
    角色与组织单位相结合，为用户提供界面的筛选视图并定义他们对不同功能的访问。 有关详细信息，请参阅“授 [权”表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >请注意，已弃用地理单元功能。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-角色、组和组织单元可由平台的功能管理员在菜单下进行管 **[!UICONTROL Administration > Users & Security]** 理。
+角色、组和组织单元可由平台的功能管理员在菜单下进行管 **[!UICONTROL Administration > Users & Security]**理。
 
 ![](assets/user_management_1.png)
 
@@ -38,7 +38,7 @@ Adobe Campaign允许您定义和管理分配给不同用户的权限。 权限�
 
 ![](assets/user_management_6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >只有具有管理权限的用户才有权访问用户管理。
 
