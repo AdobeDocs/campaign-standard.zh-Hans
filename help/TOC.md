@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
+source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
 
@@ -72,6 +72,7 @@ source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
       + [发送消息的关键步骤](channels/using/key-steps-to-send-a-message.md)
       + [访问消息](channels/using/accessing-messages.md)
       + [消息仪表板](channels/using/message-dashboard.md)
+      + [多语言消息模板](channels/using/multilingual-messages-template.md)
    + 电子邮件消息 {#email-messages}
       + [关于电子邮件](channels/using/about-emails.md)
       + [创建电子邮件](channels/using/creating-an-email.md)
