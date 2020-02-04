@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 平台的每个对象和用户都链接到组织单元。 该单元允许定义分层结构，以便向用户提供筛选的视图。 用户单元为不同的平台对象定义其访问级别。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果用户未链接到任何设备，该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问，请勿将其链接到设 **[!UICONTROL All]**备。
 >
@@ -103,7 +103,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 用户无法访问没有组织单位的配置文件。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >我们建议在导入任何配置文件之前添加此选项。 如果您已经导入客户数据库，则必须进行更新，以便在已导入的配置文件中设置组织单位值。
 
