@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -150,7 +150,7 @@ _交易消息_
 * 现在可以定义何时发送后续消息，例如，在发送交易消息后3天。 有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义应从何时发送链接到活动的交易消息开始的日期。
 * 修复了在删除链接到已接收和已处理事件的配置文件后，执行包含后续消息的工作流时导致SQL错误的问题。
-* 修复了无法删除链接到事件的配置文件的错误。
+* 修复了阻止删除链接到事件的配置文件的错误。
 * 修复了一个问题，该问题可能会阻止跟踪链接的重定向工作。
 * 修复了阻止您对电子邮件或SMS消息中的特定链接进行跟踪的问题。
 
@@ -198,7 +198,7 @@ _用户档案和受众_
   </tr> 
   <tr> 
    <td> 交付警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，可向用户或外部利益相关方触发重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。 有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，以触发向用户或外部利益相关方发送的重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪交付成功或失败。<br /> Adobe Campaign交付警报通过电子邮件和仪表板自动告知公司内所有相关的Adobe Campaign用户交付执行状态，从而提高了效率。 有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中的加密Declared ID<br /> </td> 
@@ -329,7 +329,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver实时集成<br /> </td> 
-   <td> Adobe Campaign与Dreamweaver之间的集成现已实现。 它现在可与Dreamweaver的最新正式发布版本(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon">有关详细信息，请参阅此</a><br /> 视频 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html"></a>。<br /> </td> 
+   <td> Adobe Campaign与Dreamweaver之间的集成现已实现。 它现在可与Dreamweaver的最新正式发布版本(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展：https://adobe.ly/acdw_addon <a href="https://adobe.ly/acdw_addon">有关详细信息，请参阅此</a><br /> 视频 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html"></a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
