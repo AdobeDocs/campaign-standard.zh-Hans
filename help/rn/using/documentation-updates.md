@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,9 +47,9 @@ Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../ad
 
 新部分介绍了可以在消息功能板中显示的警告。 [阅读更多](../../channels/using/message-dashboard.md#warnings)
 
-Adobe Campaign增强型MTA文档现已推出。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Adobe Campaign增强型MTA文档现已推出，其中描述了经过升级的发送基础架构，可改进交付性、吞吐量和弹回处理。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-已添加注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
+添加了注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
 
 “导出日志”部分已更新，以反映“交付日志”和“跟踪日志”资源中的交付日志ID的可用性，这使得能够导出每个日志的唯一标识符。 [阅读更多](../../automating/using/exporting-logs.md)
 
