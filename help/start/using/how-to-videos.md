@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 * [配置列表](https://video.tv.adobe.com/v/25288?captions=chi_hans):在Adobe Campaign中配置列表。
 * [创建报告](https://video.tv.adobe.com/v/25264?captions=chi_hans):创建您自己的动态报告。
 
-除了这些短视频和详细视频，您还可以在我们的网站上找到[培训资源](https://training.adobe.com/training/courses.html)以及[演示视频](http://www.adobe.com/training/video.html)。
+除了这些短视频和详细视频，您还可以在我们的网站上找到[培训资源](https://training.adobe.com/training/courses.html)以及[演示视频](https://www.adobe.com/training/video.html)。
