@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
 1. 确保在设置窗格中选择了所需的合并策略。
 
-   有关合并策略的详细信息，请参阅“区段生成器”用户指 [南中的专用部分](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   有关合并策略的详细信息，请参阅“区段生成器”用户指 [南中的专用部分](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
 左侧窗格列出可用于构建规则的所有属性、事件和受众。
 
-列出的字段是您的公司捕获的属性，可通过体验数据模型( [XDM)系统使用](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
+列出的字段是您的公司捕获的属性，并已通过体验数据模型( [XDM)系统提供](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
 
 字段按选项卡进行组织：
 
@@ -138,7 +138,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 根据需要在两个字段之间配置运算符。 在本例中，我们的区段要求家庭地址邮政编码不等于工作地址1。
+1. 根据需要在两个字段之间配置运算符。 在此示例中，我们希望我们的细分针对的配置文件的主地址与工作地址不同。
 
    ![](assets/aep_audiences_comparing_3.png)
 
