@@ -1,19 +1,19 @@
 ---
 title: 角色列表
 description: 查找可分配给用户的角色列表。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 用户和安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
-context-tags: 角色，概述；角色，主
+context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,21 +24,21 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ![](assets/user_management_3.png)
 
-可以从菜单中管理角 **[!UICONTROL Administration > Users & Security > Roles]** 色。
+可以从菜单中管理角 **[!UICONTROL Administration > Users & Security > Roles]**色。
 
 默认权限为：
 
 * **[!UICONTROL Administration]**:一般管理权限。
 * **[!UICONTROL Datamodel]**:有权运行出版物和创建自定义资源。
 * **[!UICONTROL Export]**:导出数据的权利。
-* **[!UICONTROL Generic import]**:有权对数据运行通用导入。 要使其正常工作，您需要将角 **[!UICONTROL Generic import]** 色链接到角 **[!UICONTROL Workflow]** 色。
+* **[!UICONTROL Generic import]**:有权对数据运行通用导入。 要使其正常工作，您需要将角**[!UICONTROL Generic import]** 色链接到角 **[!UICONTROL Workflow]**色。
 * **[!UICONTROL Prepare deliveries]**:有权创建、修改、准备和删除分发。 具有此角色的用户可以准备分发，但不能发送。
 * **[!UICONTROL Start deliveries]**:有权创建、修改、准备、发送和删除分发。
 * **[!UICONTROL Workflow]**:创建、修改、启动和删除工作流的权限。 具有此角色的用户即使在工作流中也无法发送分发。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Adobe管 **[!UICONTROL Deliverability]**&#x200B;理员仅 **[!UICONTROL Command execution]**&#x200B;可在内部使 **[!UICONTROL Export]**&#x200B;用、、和 **[!UICONTROL File access]****[!UICONTROL Message Center push]** 角色。 不应将其授予用户。
+>Adobe管 **[!UICONTROL Deliverability]**理员仅**[!UICONTROL Command execution]**&#x200B;可在内部使 **[!UICONTROL Export]**用、、和**[!UICONTROL File access]****[!UICONTROL Message Center push]**角色。 不应将其授予用户。
 
 **相关主题：**
 
