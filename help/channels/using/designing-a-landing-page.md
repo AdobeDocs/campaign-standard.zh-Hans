@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * [内容设计的一般最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
->如果您有已预定义为HTML格式的登录页面，则可以使用按钮直接导入该 **[!UICONTROL Change content]** 页面。
+>如果您有已预定义为HTML格式的登录页面，则可以使用按钮直接导入该 **[!UICONTROL Change content]**页面。
 >
 >在Adobe Campaign中导入HTML页面之前，请确保在各种浏览器中正确打开和显示该页面。 如果HTML页包含JavaScript脚本，则需要在编辑器外执行这些脚本时不会出错。 通常，请避免在邮件内容中使用脚本，以确保电子邮件客户端正确处理该脚本。
 
 ## 登陆页面内容编辑器界面{#landing-page-content-editor-interface}
 
-登陆页面内容编辑器使您能够轻松定义、修改和个性化Adobe Campaign中的内容。 要访问它，请单击登 **[!UICONTROL Content]** 录页面功能板中的块。
+登陆页面内容编辑器使您能够轻松定义、修改和个性化Adobe Campaign中的内容。 要访问它，请单击登 **[!UICONTROL Content]**录页面功能板中的块。
 
 内容编辑器分为三个不同的部分。 这些部分允许您查看和编辑内容。
 
@@ -135,13 +135,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    <td> 允许访问Adobe Campaign登录页面。 有关如何配置链接的详细信息，请参阅插入 <a href="../../designing/using/links.md#inserting-a-link">链接部分</a> 。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">订阅链接</span><br /> </td> 
    <td> 任何元素<br /> </td> 
    <td> 允许您插入服务订阅链接。 有关如何配置链接的详细信息，请参阅插入 <a href="../../designing/using/links.md#inserting-a-link">链接部分</a> 。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">取消订阅链接</span><br /> </td> 
    <td> 任何元素<br /> </td> 
    <td> 允许您插入服务取消订阅链接。 有关如何配置链接的详细信息，请参阅插入 <a href="../../designing/using/links.md#inserting-a-link">链接部分</a> 。<br /> </td> 
@@ -243,7 +243,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### 在内容编辑器中管理块 {#managing-blocks-in-the-content-editor}
 
-不同的HTML内容元素在登录页面中显示为块，与 **&lt;div&gt;****&lt;/div&gt;标签相对应** 。 选择要与其交互的块。 然后，它将被一个蓝色的盒子包围。
+不同的HTML内容元素在登录页面中显示为块，与 **&lt;div>****&lt;/div>标签相对应** 。 选择要与其交互的块。 然后，它将被一个蓝色的盒子包围。
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ![](assets/des_lp_content_7.png)
 
-* **左对齐**:将文本与选定块的左侧对齐(添加style="text-align:左；”)。
-* **中心**:将所选块中的文本居中(添加style="text-align:中心；”)。
-* **右对齐**:将文本与选定块的右侧对齐(添加style="text-align:对；”)。
+* **左对齐**:将文本与选定块的左侧对齐(添加style=&quot;text-align:左；”)。
+* **中心**:将所选块中的文本居中(添加style=&quot;text-align:中心；”)。
+* **右对齐**:将文本与选定块的右侧对齐(添加style=&quot;text-align:对；”)。
 
 您还可以使用工具栏更改字体属性：调整字体大小，使文本变为粗体或斜体，为文本添加下划线或更改其颜色。 Refer to [this section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### 在登录页面中插入图像 {#inserting-images-in-a-landing-page}
 
 1. 在登陆页面内容中，选择包含图像的块。
-1. 选择按 **[!UICONTROL Insert]** 钮。
+1. 选择按 **[!UICONTROL Insert]**钮。
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. 从上 **[!UICONTROL Local image]** 下文工具栏中进行选择。
+1. 从上 **[!UICONTROL Local image]**下文工具栏中进行选择。
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. 要删除应用于某个块的所有条件，请选择该块，然后单击该 **[!UICONTROL Disable dynamic content]** 图标。
+1. 要删除应用于某个块的所有条件，请选择该块，然后单击该 **[!UICONTROL Disable dynamic content]**图标。
 1. 选择要保留的动态内容。
 
    ![](assets/dynamic_content_lp_5.png)
