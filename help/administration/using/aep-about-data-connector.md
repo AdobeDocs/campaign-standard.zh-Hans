@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Experience Platform Data Connector将XTK数据（在Campaign中摄取的�
 Adobe Experience Platform Data Connector适用于了解Adobe Campaign Standard自定义资源并了解客户的整体数据架构如何位于Adobe Experience platform内的数据工程师。 ****
 
 以下各节介绍了在Campaign standard和Adobe Experience platform之间执行数据映射的关键步骤。 这从创建XDM架构和数据集开始。
+
+此页中还提供操作说 [明视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
 
 >[!NOTE]
 >配置Adobe Experience Platform Data Connector并成功将数据引入Adobe Experience Platform后，您需要启用数据集，以便将数据包含在实时客户档案中。
