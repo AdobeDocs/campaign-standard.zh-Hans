@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 >
 >有关详细信息，请参阅专 [用文档](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
-默认情况下，“统一区段构建器”显示有数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设 **[!UICONTROL Show full XDM schema]**置中的选项。
+默认情况下，“统一区段构建器”显示已存在数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设 **[!UICONTROL Show full XDM schema]**置中的选项。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
    您可以根据需要添加任意数量的附加规则，以定位正确的配置文件。
 
-   向容器添加规则时，该规则将附加到任何具有AND运算符的现有规则中。 单击该运算符可访问将其更改为OR的选项。
+   向容器添加规则时，该规则将附加到任何现有规则中的AND逻辑运算符。 如果需要，单击逻辑运算符可对其进行修改。
 
    ![](assets/aep_audiences_andoperator.png)
 
