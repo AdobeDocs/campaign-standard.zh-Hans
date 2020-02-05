@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
       + [构建对照组](automating/using/workflow-control-group.md)
       + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
-   + 与Adobe Experience platform受众合作{与受众合作}
+   + 与Adobe Experience platform受众合作 {#working-with-aep-audiences}
       + [面向Adobe Experience Platform受众](automating/using/aep-targeting-audiences.md)
       + [使用Adobe Experience Platform属性个性化营销活动](automating/using/aep-personalizing-campaigns.md)
 + 开发 {#developing}
