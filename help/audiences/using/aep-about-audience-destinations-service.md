@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 然后，Adobe Campaign Standard将使用 **Audience Destinations** （受众目标）服务从AEP中检索多步骤和／或跨渠道营销活动计划的一组档案(称为 **Audiences**)。
 
-**受众** 是通过首先构建细分来创建的 ****，这些细分本质上是一组基于客户档案中来自AEP的几乎任何变量（例如，档案、事件、多实体数据）的规则，以创建多维目标。 统一配置文件和分段服务的全局概念可在这些专用 [文档中引用](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+**受众** 是通过首先构建细分来创建的 ****，这些细分本质上是一组基于客户档案中来自AEP的几乎任何变量（例如，档案、事件、多实体数据）的规则，以创建多维目标。 统一配置文件和分段服务的全局概念在这些专 [用文档中引用](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
-创建区段后，您便可以将其激活为受众，以便在 [Campaign Standard工作流中进行分发](../../automating/using/aep-targeting-audiences.md)。 此外，您还可以根据需要使用Adobe Experience Platform中的情境数据来 [个性化](../../automating/using/aep-personalizing-campaigns.md) ，并向营销活动添加动态内容。
+创建区段后，您便可以将其激活为受众，以便在 [Campaign Standard工作流中进行分发](../../automating/using/aep-targeting-audiences.md)。 此外，您还可以使用Adobe Experience Platform中的情境数据来个性化 [营销](../../automating/using/aep-personalizing-campaigns.md) ，并将动态内容添加到营销活动中。
 
-此部分还提供演 [示视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
+此部分还提供操作说明 [视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
 这些部分中使用的术语：
 
