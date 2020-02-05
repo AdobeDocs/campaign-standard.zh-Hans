@@ -51,7 +51,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
    然后，该资源进入“ **草稿** ”模式，其激活状态为 **[!UICONTROL Inactive]**。
 
-1. 在模 **[!UICONTROL List]**式中，检查要删除的资源，然后单击![](assets/delete_darkgrey-24px.png)图**[!UICONTROL Delete element]** 标。
+1. 在模 **[!UICONTROL List]**&#x200B;式中，检查要删除的资源，然后单击![](assets/delete_darkgrey-24px.png)图&#x200B;**[!UICONTROL Delete element]** 标。
 
    ![](assets/schema_extension_uc28.png)
 
