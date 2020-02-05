@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
+source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
 
 ---
 
@@ -27,13 +27,13 @@ source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ## 20.1版- 2019年2月 {#release-20-1---february-2020}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../administration/using/aep-about-data-connector.md)
 
 受众目标（测试版）-阅 [读更多](../../audiences/using/aep-about-audience-destinations-service.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 隐私管理文档已更新，其中包含有关如何为自定义配置文件资源创建CCPA退出字段的信息。 [阅读更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
@@ -99,13 +99,13 @@ API文档集已集成到Campaign standard文档中。[阅读更多](../../api/us
 
 ## 19.4版- 2019年10月 {#release-19-4---october-2019}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 加利福尼亚消费者隐私法(CCPA)-阅 [读更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365集成(GA)-阅 [读更多](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 Campaign Standard和Campaign Classic的错误消息列表已更新。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -157,13 +157,13 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 ## 19.3版- 2019年7月 {#release-19-3---july-2019}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 外部API活动（公共测试版）-阅 [读更多](../../automating/using/external-api.md)
 
 关于工作流区段的报告——阅 [读更多](../../reporting/using/creating-a-report-workflow-segment.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 Campaign Standard实施指南现已上线。[阅读更多](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
@@ -209,7 +209,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 控制面板——阅 [读更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
@@ -219,7 +219,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 登录页面增强-Google reCAPTCHA —— 阅 [读更多](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 域名委派文章已更新。 [阅读更多](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -277,7 +277,7 @@ Dreamweaver集成部分已更新和改进。 [阅读更多](../../designing/usin
 
 ## 19.1版- 2019年2月 {#release-19-1---february-2019}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 推送渠道报告改进——阅 [读更多](../../reporting/using/push-notification-report.md)
 
@@ -287,7 +287,7 @@ Dreamweaver集成部分已更新和改进。 [阅读更多](../../designing/usin
 
 工作流增强——阅读此处 [和此处](../../automating/using/workflow-interface.md#duplicating-workflow-activities) ，了解更 [多](../../automating/using/load-file.md#configuration)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 用于创建电子邮件内容的全新入门体验以及对电子邮件设计器的其他增强功能已添加到“编辑电子邮件内容”一章。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
@@ -333,7 +333,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 ## 19.0版- 2019年1月 {#release-19-0---january-2019}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 电子邮件设计人员的一般可用性- [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -343,7 +343,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 应用程序内消息传递测试版改进——阅 [读更多](../../channels/using/about-in-app-messaging.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 “设计内容”指南已更新，以反映电子邮件设计人员的一般可用性和旧版电子邮件内容编辑器的弃用情况。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -373,13 +373,13 @@ Microsoft Edge（最新版本）已添加到计算机的兼容浏览器列表中
 
 ## 18.9版- 2018年9月 {#release-18-9---september-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 应用程序内消息传递（测试版）-阅 [读更多](../../channels/using/about-in-app-messaging.md)
 
 Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](../../administration/using/about-typology-rules.md#typology-rules)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 更新了包含界面更改的推送通知指南。 [阅读更多](../../channels/using/about-push-notifications.md)
 
@@ -389,13 +389,13 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 ## 18.7版- 2018年7月 {#release-18-7---july-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 [针对移动App用户的高优](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 先级标记 [](../../administration/using/about-typology-rules.md#typology-rules) 和类型学过滤器。
 
 准备时从URL自动导入内容。 [阅读更多](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 添加了有关SMS连接器协议和设置的新技术。 [阅读更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -413,11 +413,11 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 ## 18.6版- 2018年6月 {#release-18-6---june-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 API文档已更新，其中包含 **History** API的相关信息。 添加了一个用例，说明如何检索发送到配置文件的分发的镜像页面。 [阅读更多](../../api/using/interacting-with-marketing-history.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 触发器——营销活动集成文档已更新和重新组织。 [阅读更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -433,7 +433,7 @@ API文档已更新，其中包含 **History** API的相关信息。 添加了一
 
 ## 版本18.5 - 2018年5月 {#release-18-5---may-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -443,7 +443,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 使用自定义配置文件数据进行动态报告- [阅读更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 添加了在Analytics中找到的系列活动指标列表。 [阅读更多](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -467,7 +467,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 ## 18.3版- 2018年3月 {#release-18-3---march-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 欧盟一般数据保护规定(GDPR)-阅 [读更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -477,7 +477,7 @@ GDPR:核心服务集成——阅 [读更多](https://docs.campaign.adobe.com/doc
 
 在事务性消息传递中使用自定义资源——阅 [读更多](../../administration/using/configuring-transactional-messaging.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../../api/using/creating-a-privacy-request.md)
 
@@ -499,13 +499,13 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 ## 18.2版- 2018年2月 {#release-18-2---february-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 订阅——订阅或取消订阅多项服务的配置文件列表——阅 [读更多](../../automating/using/subscription-services.md)
 
 丰富化活动——根据以前的过渡来丰富数据- [阅读更多](../../automating/using/enrichment.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！ [阅读更多](../../integrating/using/about-campaign-integrations.md)
 
@@ -543,7 +543,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 ## 18.1版- 2018年1月 {#release-18-1---january-2018}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 疲劳管理报告——阅 [读更多](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
@@ -555,7 +555,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 API信号活动触发——阅 [读更多](../../api/using/triggering-a-signal-activity.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 更新了服务创建部分。 [阅读更多](../../audiences/using/creating-a-service.md)
 
@@ -571,13 +571,13 @@ API信号活动触发——阅 [读更多](../../api/using/triggering-a-signal-a
 
 ## 版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 疲劳管理——阅 [读更多](../../administration/using/fatigue-rules.md)
 
 内容创建：从URL导入——阅 [读更多](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 更新了A/B测试范例。 [阅读更多](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -611,7 +611,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 ## 17.9版- 2017年9月 {#release-17-9---september-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 电子邮件模板库——阅 [读更多](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -619,7 +619,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 批量订阅增强——阅 [读更多](../../automating/using/subscription-services.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 动态报表中可用的每个组件的详细列表以及公式中的某些更改。 [阅读更多](../../reporting/using/list-of-components-.md)
 
@@ -651,7 +651,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 ## 17.7版- 2017年7月 {#release-17-7---july-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 多语言交付（电子邮件和短信）-阅 [读更多](../../channels/using/creating-a-multilingual-email.md)
 
@@ -665,7 +665,7 @@ Adobe Campaign通知——阅 [读更多](../../administration/using/sending-int
 
 直邮渠道——返回发件人，阅 [读更多](../../channels/using/return-to-sender.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 入门 [指南和操作方](../../start/using/step-by-step-guides.md) 法视频已在专用部分中重新分组 [](../../start/using/how-to-videos.md) 。
 
@@ -683,13 +683,13 @@ Adobe Campaign通知——阅 [读更多](../../administration/using/sending-int
 
 ## 17.5版- 2017年5月 {#release-17-5---may-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 直邮——阅 [读更多](../../channels/using/about-direct-mail.md)
 
 密件抄送电子邮件- [阅读更多内容](../../administration/using/configuring-email-channel.md#archiving-emails)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 “分发”指南已重新组织并更名为“渠道”。 [阅读更多](../../channels/using/discovering-communication-channels.md)
 
@@ -705,7 +705,7 @@ Adobe Campaign通知——阅 [读更多](../../administration/using/sending-int
 
 ## 17.4版- 2017年4月 {#release-17-4---april-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 借助Creative SDK增强的图像编辑功能——阅 [读更多](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
@@ -717,7 +717,7 @@ Amazon Simple Storage Service(S3)连接器——阅 [读更多](../../administra
 
 Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 添加到不同类型的Adobe Campaign用户上的部分。 [阅读更多](../../administration/using/users-management.md)
 
@@ -735,7 +735,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 ## 17.2版- 2017年3月 {#release-17-2---march-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 动态报告——阅 [读更多](../../reporting/using/about-dynamic-reports.md)
 
@@ -753,7 +753,7 @@ Dreamweaver集成（实验室）-阅 [读更多](https://docs.adobe.com/content/
 
 REST API中的链接资源——阅 [读更多](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 触发器集成：添加了两个用例。 [阅读更多](../../integrating/using/abandonment-triggers-use-cases.md)
 
@@ -763,7 +763,7 @@ REST API中的链接资源——阅 [读更多](../../developing/using/updating-
 
 ## 17.1版- 2017年1月 {#release-17-1---january-2017}
 
-### 版本中包含的新功能
+**版本中包含的新功能**
 
 外部报告的日志导出——阅 [读更多](../../automating/using/exporting-logs.md)
 
@@ -771,7 +771,7 @@ Transactional Messaging API —— 阅读 [更多信息](../../api/using/about-c
 
 交易消息的营销功能——阅 [读更多](../../channels/using/profile-transactional-messages.md)
 
-### 随版本提供的其他文档更新
+**随版本提供的其他文档更新**
 
 增量式查询工作流活动：新增模式——阅 [读更多](../../automating/using/incremental-query.md)
 
