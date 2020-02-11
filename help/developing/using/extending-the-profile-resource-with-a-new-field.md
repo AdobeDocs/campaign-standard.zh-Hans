@@ -12,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -40,17 +40,17 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 * [关于自定义资源](../../developing/using/data-model-concepts.md)
 * [管理用户档案](../../audiences/using/about-profiles.md)
-* [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [管理测试配置文件](../../audiences/using/managing-test-profiles.md)
 
 ## 第1步：扩展配置文件资源 {#step-1--extend-the-profile-resource}
 
 要为我们的配 **置文件创建** “兴趣”字段，您首先需要扩展现成的资 **[!UICONTROL Profiles (profile)]** 源。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
 1. 如果尚未扩展该资 **[!UICONTROL Profiles]** 源，请单击 **[!UICONTROL Create]**。
 1. 选择选 **[!UICONTROL Extend an existing resource]** 项。
 1. 选择资 **[!UICONTROL Profile (profile)]** 源。
-1. Click **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 要测试新创建的字段是否正确配置，您可以通过将交付内容发送到测试配置文件来测试它。 首先，新字段也需要对测试配置文件进行。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后 **[!UICONTROL Custom resources]**。
 1. 如果尚未扩展该资 **[!UICONTROL Profiles]** 源，请单击 **[!UICONTROL Create]**。
 1. 选择选 **[!UICONTROL Extend an existing resource]** 项。
 1. 选择资 **[!UICONTROL Test profile (seedMember)]** 源。
-1. Click **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
@@ -117,7 +117,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
    ![](assets/schema_extension_uc16.png)
 
 1. 执行从步骤11到步骤13的相同步骤，如上面扩展配置文件演练，在屏幕中添加此字 **[!UICONTROL Test profile]** 段。
-1. Click **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**.
 
 现在，配置文件和测试配置文件都将提供新字段。 要正确配置该资源，您需要发布自定义资源。
 
@@ -125,7 +125,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 要应用对资源所做的更改并能够使用它，您必须执行数据库更新。
 
-1. 从高级菜单中，选择“管 **理** ”&gt;“ **开发**” **，然后选择“**&#x200B;发布”。
+1. 从高级菜单中，选择“管 **理** ”>“ **开发**” **，然后选择“**&#x200B;发布”。
 1. 默认情况下，选 **[!UICONTROL Determine modifications since the last publication]** 中此选项，这意味着将仅应用自上次更新以来执行的更改。
 
    ![](assets/schema_extension_uc14.png)
@@ -147,7 +147,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ## 第4步：使用工作流更新和定位配置文件 {#step-4--update-and-target-profiles-with-a-workflow}
 
-要使用新自定义字段的数据更新配置文件，您可以使用模板创建登陆 **[!UICONTROL Profile acquisition]** 页面。 有关登录页面的详细信息，请参阅此 [页面](../../channels/using/getting-started-with-landing-pages.md)。
+要使用新自定义字段的数据更新配置文件，您可以使用模板创建登录 **[!UICONTROL Profile acquisition]** 页面。 有关登录页面的详细信息，请参阅此 [页面](../../channels/using/getting-started-with-landing-pages.md)。
 
 此处，我们希望定位未填写此字段的工作流配置文件。 他们将收到一封电子邮件，要求他们更新个人资料以接收个性化的新闻稿和优惠信息。 然后，每个档案都将根据其选择的兴趣收到个性化的新闻稿。
 
@@ -155,7 +155,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 1. 在中，单 **[!UICONTROL Marketing activities]**&#x200B;击，然 **[!UICONTROL Create]** 后选择 **[!UICONTROL Landing page]**。
 1. 选择登陆页面类型。 在此，由于我们要更新我们的配置文件，请选择 **[!UICONTROL Profile acquisition]**。
-1. Click **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**.
 1. 单击该 **[!UICONTROL Content]** 块以开始编辑登录页面的内容。
 
    ![](assets/schema_extension_uc21.png)
@@ -186,7 +186,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. 您的电子邮件现已准备就绪，您可以返回工作流程。
+1. 单击 **[!UICONTROL Save]**. 您的电子邮件现已准备就绪，您可以返回工作流程。
 1. 添加一 **[!UICONTROL Wait]** 个活动，让您的配置文件有一段时间填充登录页面。
 1. 添加一 **[!UICONTROL Segmentation]** 个活动以根据其兴趣拆分出站转 **移**。
 1. 为每个Interest创建出站 **区段**。
