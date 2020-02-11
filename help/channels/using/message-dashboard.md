@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 灰色栏会重新分组与消息链接的各种图标。
 
 * **[!UICONTROL Summary]**:显示／隐藏有关消息的主要信息。
-* **[!UICONTROL Edit properties]**:允许您编辑消息的高[级参数](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
+* **[!UICONTROL Edit properties]**:允许您编辑消息的高 [级参数](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 * **[!UICONTROL Reports]**:允许您访问与消息相关的报告。
 
 **相关主题：**
@@ -47,9 +47,9 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 
 * **[!UICONTROL Show proofs]**:显示／隐藏已发送的校样列表（如果存在）。 仅在您发送校样后，才启用此按钮。
 
-   有关校样的详细信息，请参 [阅管理测试配置文件和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+   有关校样的详细信息，请参阅 [发送校样](../../sending/using/sending-proofs.md)。
 
-* **[!UICONTROL Send a test]**:允许您选择要使用的批准模式：或**[!UICONTROL Email rendering]**&#x200B;两者 **[!UICONTROL Proof]**兼有。 有关测试配置文件的详细信息，请参[阅发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+* **[!UICONTROL Send a test]**:允许您选择要使用的批准模式：或 **[!UICONTROL Email rendering]**&#x200B;两者 **[!UICONTROL Proof]** 兼有。 有关测试配置文件的详细信息，请参 [阅发送校样](../../sending/using/sending-proofs.md)。
 
    仅在您建立测试配置文件后，才启用此按钮。
 
@@ -57,11 +57,11 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
    >
    >对于SMS消息，别无选择：它自动成为 **[!UICONTROL Proof]**。
 
-* **[!UICONTROL Prepare send]**:开始准备发送。 出现**[!UICONTROL Deployment]** 该块并显示准备结果。 此按钮仅在输入目标后才显示。 您可以随时使用相应的按钮停止准备。
+* **[!UICONTROL Prepare send]**:开始准备发送。 出现 **[!UICONTROL Deployment]** 该块并显示准备结果。 此按钮仅在输入目标后才显示。 您可以随时使用相应的按钮停止准备。
 
    有关消息准备的详细信 [息，请准备发送](../../sending/using/preparing-the-send.md)。
 
-* **[!UICONTROL Confirm send]**:确认发送消息。 发送统计信息显示在块**[!UICONTROL Deployment]** 中。 此按钮仅在准备发送后显示。 您可以使用“停止发送”和“停止发送”按钮随 **时停止** 或暂停 **[!UICONTROL Pause]**发送。
+* **[!UICONTROL Confirm send]**:确认发送消息。 发送统计信息显示在块 **[!UICONTROL Deployment]** 中。 此按钮仅在准备发送后显示。 您可以使用“停止发送”和“停止发送”按钮随 **时停止** 或暂停 **[!UICONTROL Pause]** 发送。
 
    有关确认发送的详细信息，请参阅 [发送消息](../../sending/using/confirming-the-send.md)。
 
@@ -71,10 +71,10 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:允许您跟踪消息准备或发送的进度。 单击此块右下角的按钮可访问发送和分析日志。 此块仅在准备发送后显示。 有关详情。 请参阅[确认发送](../../sending/using/confirming-the-send.md)。
-* **[!UICONTROL Audience]**:允许您建立消息的主目标以及测试配置文件。 请参阅[创建受众](../../audiences/using/creating-audiences.md)。
-* **[!UICONTROL Schedule]**:允许您指定消息的发送日期。 请参[阅计划](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:允许您定义消息的内容并预览该消息。 See[Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Deployment]**:允许您跟踪消息准备或发送的进度。 单击此块右下角的按钮可访问发送和分析日志。 此块仅在准备发送后显示。 有关详情。 请参阅 [确认发送](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Audience]**:允许您建立消息的主目标以及测试配置文件。 请参阅 [创建受众](../../audiences/using/creating-audiences.md)。
+* **[!UICONTROL Schedule]**:允许您指定消息的发送日期。 请参 [阅计划](../../sending/using/about-scheduling-messages.md)。
+* **[!UICONTROL Content]**:允许您定义消息的内容并预览该消息。 See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## 警告 {#warnings}
 
