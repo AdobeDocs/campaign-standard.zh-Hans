@@ -1,18 +1,18 @@
 ---
 title: 疲劳规则
 description: 创建疲劳规则以管理与配置文件的过度通信。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参考
-topic-tags: 排版规则
+audience: administration
+content-type: reference
+topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要创建和配置排 **[!UICONTROL Fatigue]** 版规则，请应用以下步骤：
 
-1. 单击界面左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**。
+1. 单击界面左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**。
 
    ![](assets/fatigue4.png)
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >为了使疲劳规则有效，您需要为交付定义联系日期。 如果选择立即发送消息，则不会应用疲劳规则。
 
@@ -101,7 +101,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 直邮
 * 移动应用程序：此渠道允许您向配置文件或应用程序订阅者发送推送通知。 如果选择向配置文件发送通知，则通知将与多渠道疲劳规则兼容。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >疲劳规则与发送给应用程序订阅者的推送通知不兼容。 如果向应用程序订阅者发送消息，则疲劳规则不适用。
 
