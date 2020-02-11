@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -30,18 +30,18 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
    ![](assets/multi_create1.png)
 
 1. 定义电子邮件的一般属性和目标受众，就像标准电子邮件一样。 请参阅创 [建受众](../../audiences/using/creating-audiences.md) 。
-1. 在创建向导的第四步中，定义变体选项。 如果多语 [言模板](../../channels/using/multilingual-messages-template.md) 已包含所有正确的参数，您可以直接单击该按 **[!UICONTROL Create]**钮。
+1. 在创建向导的第四步中，定义变体选项。 如果多语 [言模板](../../channels/using/multilingual-messages-template.md) 已包含所有正确的参数，您可以直接单击该按 **[!UICONTROL Create]** 钮。
 
    ![](assets/multi_create4.png)
 
-   如果需要，请使用按钮添加变 **[!UICONTROL Add an element]**体。**[!UICONTROL Default]** 不得删除变体。 设置为时， **[!UICONTROL default]**将[使用配置文件的首选语言](../../audiences/using/creating-profiles.md)，来选择变体。 您还可以将变体设**[!UICONTROL Default]** 置为任何其他语言。
+   如果需要，请使用按钮添加变 **[!UICONTROL Add an element]** 体。 **[!UICONTROL Default]** 不得删除变体。 设置为时， **[!UICONTROL default]**&#x200B;将 [使用配置文件的首选语言](../../audiences/using/creating-profiles.md) ，来选择变体。 您还可以将变体设 **[!UICONTROL Default]** 置为任何其他语言。
 
 1. 确认创建电子邮件：随后将显示电子邮件功能板。
 1. 为每个变体定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人姓名或多个不同的内容。 使用下拉菜单在元素的不同变体之间导航。 有关详细信息，请参阅内 [容编辑器](../../designing/using/designing-content-in-adobe-campaign.md) 部分。
 
    ![](assets/multi_selectcontent.png)
 
-1. 测试和验证您的消息。 请参阅发送 [证明部分](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 。
+1. 测试和验证您的消息。 请参阅发送 [证明部分](../../sending/using/sending-proofs.md) 。
 1. 安排发送 **[!UICONTROL Send after confirmation option]**。
 1. 发送电子邮件后，您可以访问其日志和报告来衡量营销活动的成功程度。 For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 
