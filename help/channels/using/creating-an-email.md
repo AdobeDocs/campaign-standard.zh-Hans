@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >默认情况下，后续和A/B测试模板是隐藏的。 如果要显示左侧(侧 **[!UICONTROL Filter]**面板)的框，请选中它们。
+   >默认情况下，后续和A/B测试模板是隐藏的。 如果要显示左侧(侧 **[!UICONTROL Filter]** 面板)的框，请选中它们。
 
 1. 输入电子邮件的常规属性。 您可以在“标签”字段中输入 **名称** ，然后编辑ID。 活动名称及其ID都显示在界面中，但邮件收件人看不到它们。
 
@@ -43,7 +43,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 1. 根据您的业务标准定义消息的目标。 请参阅 [管理配置文件](../../audiences/using/about-profiles.md)。
 
-   您还可以定义将验证消息的测试配置文件。 请参阅 [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)。
+   您还可以定义将验证消息的测试配置文件。 请参阅 [管理测试配置文件](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_creation_3.png)
 
@@ -58,11 +58,11 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >要保存电子邮件，您首先需要对内容进行一些编辑。 如果单击 **[!UICONTROL Cancel]**此时，您将无法完成向导，并且将不会创建您的电子邮件。
+   >要保存电子邮件，您首先需要对内容进行一些编辑。 如果单击 **[!UICONTROL Cancel]** 此时，您将无法完成向导，并且将不会创建您的电子邮件。
 
    随后将显示电子邮件功能板。 它允许您检查消息并准 [备发送](../../sending/using/preparing-the-send.md)。
 
-   使用 **[!UICONTROL Edit properties]**右上角的按钮可以编辑电子邮件的属性。 例如，您可以配置电子邮件，以便在交付准备时间计算其标签。  本节中列出了可用[的参数](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
+   使用 **[!UICONTROL Edit properties]** 右上角的按钮可以编辑电子邮件的属性。 例如，您可以配置电子邮件，以便在交付准备时间计算其标签。  本节中列出了可用 [的参数](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >您可以设置全局跨渠道疲劳规则，这些规则将自动从营销活动中排除过度征求的档案。 有关此问题的详细信息，请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-1. 发送校样以检查和验证您的邮件并监控其收件箱呈现。 请参阅 [发送证明](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 发送校样以检查和验证您的邮件并监控其收件箱呈现。 请参阅 [发送证明](../../sending/using/sending-proofs.md)。
 
    ![](assets/bat_select.png)
 
