@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../ad
 
 发行说明经过重新组织和改进。 [阅读更多](../../rn/using/release-notes.md)
 
-已添加与管理员安全组相关的信息，指定已将组织单 **[!UICONTROL All (all)]**元分配给该组织单元，并且无法对其进行修改。[阅读更多](../../administration/using/managing-groups-and-users.md)
+已添加与管理员安全组相关的信息，指定已将组织单 **[!UICONTROL All (all)]** 元分配给该组织单元，并且无法对其进行修改。 [阅读更多](../../administration/using/managing-groups-and-users.md)
 
 添加了有关如何定义特定时区以在工作流中默认使用的信息。 [阅读更多](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 新增了一个示例，其中显示如何发送包含从加载文件活动检索的其他数据的电子邮件。 [阅读更多](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-新增了关于如何使用陷印的一节。 [阅读更多](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+新增了关于如何使用陷印的一节。 [阅读更多](../../sending/using/using-traps.md)。
 
 有关如何使 **用Adobe Experience Platform SDK配置移动应用程序的页面中添加了有关Launch_URL_Campaign** 选项的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 在多个页面中重新组织了发行说明，以便您获得所有不同发行版本的更全局视图。
 
-该部 **[!UICONTROL Working with typologies]**分已更新，以提高可见性。[阅读更多](../../administration/using/about-typology-rules.md)
+该部 **[!UICONTROL Working with typologies]** 分已更新，以提高可见性。 [阅读更多](../../administration/using/about-typology-rules.md)
 
-现在提供了一个新选项，允许在中定义许多其他数据时获 **[!UICONTROL Query]**得性能。[阅读更多](../../automating/using/query.md)
+现在提供了一个新选项，允许在中定义许多其他数据时获 **[!UICONTROL Query]** 得性能。 [阅读更多](../../automating/using/query.md)
 
 配置文件导入示例已更新，其中包含一些提示，可让您的配置文件随时收到直接电子邮件。 [阅读更多](../../automating/using/importing-data.md)
 
-工作流中提供了新活动：活 **[!UICONTROL Enrichment]**动。[阅读更多](../../automating/using/enrichment.md)
+工作流中提供了新活动：活 **[!UICONTROL Enrichment]** 动。 [阅读更多](../../automating/using/enrichment.md)
 
-已更 **[!UICONTROL Subscription Services]**新活动以支持更多用例，包括使用单个文件更新对多个服务的订阅。[阅读更多](../../automating/using/subscription-services.md)
+已更 **[!UICONTROL Subscription Services]** 新活动以支持更多用例，包括使用单个文件更新对多个服务的订阅。 [阅读更多](../../automating/using/subscription-services.md)
 
 添加了有关如何准备交付的分步使用案例。 [阅读更多](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ Campaign和Adobe解决方案集成的大多数URL都已更改！ 检查书签！
 
 添加了有关如何根据重复工作流中用户的时区发送分发的信息。 [阅读更多](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-使用分 **[!UICONTROL Customizing a push notification]**步使用案例重新组织了该部分。[阅读更多](../../channels/using/customizing-a-push-notification.md)
+使用分 **[!UICONTROL Customizing a push notification]** 步使用案例重新组织了该部分。 [阅读更多](../../channels/using/customizing-a-push-notification.md)
 
 专门用于黑名单管理的新部分。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
