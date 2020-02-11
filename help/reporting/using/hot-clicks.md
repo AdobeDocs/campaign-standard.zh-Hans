@@ -1,19 +1,19 @@
 ---
 title: 热门点击
 description: 通过热点点击即装即用报告，了解客户点击交付的位置。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 报告列表
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 如果收件人是男性或女性，则主图像上的链接会有所不同。
 * 您还添加了一个指向特价优惠的链接，该链接仅对超过25个的收件人可见。
 
-发送消息后，从传送功能板 **[!UICONTROL Reports]** 中 **[!UICONTROL Hot clicks]** 选择&gt;。
+发送消息后，从传送功能板 **[!UICONTROL Reports]** 中 **[!UICONTROL Hot clicks]** 选择>。
 
 默认情况下，未选择任何配置文件。 只显示性别未知的收件人以及年龄在25岁以下或年龄未知的收件人的单击。
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要显示超过25个收件人的单击次数，请单 **[!UICONTROL Change profile]** 击按钮，然后选择出生日期与此条件匹配的测试配置文件。
 
-有关测试配置文件的详细信息，请参 [阅关于测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+有关测试配置文件的详细信息，请参 [阅关于测试配置文件](../../audiences/using/managing-test-profiles.md)。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >由于跟踪的URL的ID对于每个执行都不同，因此不能为给定消息的所有执行交付聚合热点点击数据。 一次只能为一个执行交付显示它。
 
-发送消息后，从传送功能板 **[!UICONTROL Reports]** 中 **[!UICONTROL Hot clicks]** 选择&gt;。
+发送消息后，从传送功能板 **[!UICONTROL Reports]** 中 **[!UICONTROL Hot clicks]** 选择>。
 
 默认情况下，将选中最后一个执行交付。 单击该 **[!UICONTROL Change execution delivery]** 按钮以选择另一个。
 
