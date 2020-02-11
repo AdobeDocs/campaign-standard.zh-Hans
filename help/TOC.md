@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [编辑用户档案](audiences/using/editing-profiles.md)
       + [整合的客户档案](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
+      + [管理测试配置文件](audiences/using/managing-test-profiles.md)
    + 管理受众 {#managing-audiences}
       + [关于受众](audiences/using/about-audiences.md)
       + [创建受众](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览消息](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
-      + [管理测试用户档案和发送校样](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [发送校样](sending/using/sending-proofs.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
+      + [使用陷印](sending/using/using-traps.md)
    + 计划消息发送 {#scheduling-messages}
       + [关于计划消息发送](sending/using/about-scheduling-messages.md)
       + [优化发送时间](sending/using/optimizing-the-sending-time.md)
