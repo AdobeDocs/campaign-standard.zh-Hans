@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 * [关于计划消息发送](../../sending/using/about-scheduling-messages.md)
 * [准备发送](../../sending/using/preparing-the-send.md)
-* [管理测试用户档案和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [发送校样](../../sending/using/sending-proofs.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [优化您的交付能力](../../sending/using/about-deliverability.md)
