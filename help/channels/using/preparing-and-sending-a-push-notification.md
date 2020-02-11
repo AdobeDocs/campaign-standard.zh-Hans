@@ -13,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 使用Adobe Campaign创建推送通知的步骤有：
 
-1. 从窗口 **[!UICONTROL Marketing activities]** 中，创[建新的营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
+1. 从窗口 **[!UICONTROL Marketing activities]** 中，创 [建新的营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
 
    请注意，也可以从营销活动或Adobe Campaign主页 [创建](../../start/using/marketing-activities.md#creating-a-marketing-activity) 单个推 [送通知](../../start/using/interface-description.md#home-page)。
 
@@ -37,7 +37,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
    默认情况下，您可以选择以下两个模板之一：
 
-   * **[!UICONTROL Send push to Campaign profiles]**:使用此模板可定位已订阅您的移动应用程序并选择接收推送通知的Adobe Campaign CRM配置文件。 您可以将个[性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)（如收件人的名字）插入推送通知中。
+   * **[!UICONTROL Send push to Campaign profiles]**:使用此模板可定位已订阅您的移动应用程序并选择接收推送通知的Adobe Campaign CRM配置文件。 您可以将个 [性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) （如收件人的名字）插入推送通知中。
    * **[!UICONTROL Send push to app subscribers]**:使用此模板向所有已选择接收应用程序通知的已知和匿名移动应用程序用户发送推送通知。 您可以使用从移动应用程序收集的数据个性化这些消息。
    您还可以选择多语言模板。 有关详细信息，请参阅 [创建多语言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)。
 
@@ -57,7 +57,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
    ![](assets/push_notif_audience.png)
 
-1. 您现在可以自定义推送通知。 首先，选择消息样式：或 **[!UICONTROL Alert/Message/Badge]** 者 **[!UICONTROL Silent push]** 。 “关于推送通知”部分中介绍了 [推送通知类型](../../channels/using/about-push-notifications.md) 。
+1. 您现在可以自定义推送通知。 首先，选择消息样式：或 **[!UICONTROL Alert/Message/Badge]** 者 **[!UICONTROL Silent push]**。 “关于推送通知”部分介绍了推 [送通知类型](../../channels/using/about-push-notifications.md) 。
 
    编辑推送通知的内容并定义高级选项。 See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
@@ -71,7 +71,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 1. 在发送通知之前，您可以使用测试配置文件对通知进行测试，然后在发送发送通知之前准确查看收件人将看到的内容。 从交 **[!UICONTROL Audiences]** 付摘要中进行选择，然后单击选 **[!UICONTROL Test profiles]** 项卡。
 
-   有关发送测试的详细信息，请参阅测 [试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+   有关发送测试的详细信息，请参阅测 [试配置文件](../../sending/using/sending-proofs.md)。
 
 1. 选择测试配置文件，然 **[!UICONTROL Preview]** 后单击以显示通知：内容通过测试配置文件数据个性化。
 1. 检查不同设备上的推送通知布局：选择iPhone、Android手机、iPad或Android平板电脑以预览渲染。
@@ -92,7 +92,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
    ![](assets/push_send_1.png)
 
-1. 准备成功完成后，窗口 **[!UICONTROL Deployment]** 将显示以下KPI:**[!UICONTROL Target]** 和 **[!UICONTROL To deliver]** 。 Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking![](assets/lp_link_properties.png)button at the bottom of the **[!UICONTROL Deployment]** window.
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
 
    ![](assets/push_send_2.png)
 
