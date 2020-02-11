@@ -1,19 +1,19 @@
 ---
 title: 在消息中选择受众
 description: “选择电子邮件受众的分步过程：主要目标人群和测试档案。”
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 管理受众
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
-context-tags: deliveryCreation，向导；交付，受众，返回
+context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign允许您在消息的受众中配置多个配置文件类型。
 
 1. 定义 **[!UICONTROL Test profiles]** 要用于电子邮件的内容。 测试配置文件将收到您之前可以发送的校样，以在将电子邮件发送到主目标之前测试该电子邮件。
 
-   有关配置测试配置文件的详细信息，请参阅测 [试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md) 。
+   有关配置测试配置文件的详细信息，请参阅测 [试配置文件](../../audiences/using/managing-test-profiles.md) 。
 
 随后将更新受众块，并显示已为相关电子邮件选择目标和测试配置文件。
 
