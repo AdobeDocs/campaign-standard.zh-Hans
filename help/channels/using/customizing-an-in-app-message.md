@@ -1,19 +1,19 @@
 ---
 title: 自定义应用程序内消息
 description: 了解如何使用各种选项自定义应用程序内消息。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 应用程序内消息传递
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: 交付，inAppContent，返回
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -194,7 +194,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/inapp_sending_2.png)
 
-1. 单击该 **[!UICONTROL Select a test profile]** 按钮并选择其中一个测试配置文件以开始预览分发。 For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. 单击该 **[!UICONTROL Select a test profile]** 按钮并选择其中一个测试配置文件以开始预览分发。 For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. 在Android、iPhone手机甚至平板电脑等不同设备上查看您的消息。 您还可以检查您的个性化字段是否正在检索正确的数据。
 
    ![](assets/inapp_sending_3.png)
