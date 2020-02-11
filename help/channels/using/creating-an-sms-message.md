@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 要创建SMS消息并将其发送到手机，您需要：
 
-* 在渠 **[!UICONTROL Routing]**道上使用该模式配**[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]**户。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
+* 在渠 **[!UICONTROL Routing]** 道上使用该模式配 **[!UICONTROL Mobile (SMS)]** 置的外部帐 **[!UICONTROL Bulk delivery]** 户。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * 正确链接到此外部帐户的分发模板。
 
 1. 创建SMS交付。 您可以从Adobe Campaign主页、营销活 [动中](../../start/using/interface-description.md#home-page)，或营销活 [动列表](../../start/using/marketing-activities.md#creating-a-marketing-activity)[中执行此操作](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -51,7 +51,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    ![](assets/sms_creation_3.png)
 
-1. 将内容添加到SMS 在SMS创建完成后，您还可以通 **[!UICONTROL Content]**过单击交付仪表板的部分来定义内容。 请参[阅关于SMS内容设计](../../channels/using/about-sms-and-push-content-design.md)。
+1. 将内容添加到SMS 在SMS创建完成后，您还可以通 **[!UICONTROL Content]** 过单击交付仪表板的部分来定义内容。 请参 [阅关于SMS内容设计](../../channels/using/about-sms-and-push-content-design.md)。
 
    如果您已经将个性化字段或条件文本插入到SMS消息的内容中，则消息的长度可能因收件人而异。 事实上，这些因素可能会引入GSM编码中未考虑的字符。 这就是在个性化实施后必须评估消息长度的原因。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,7 +67,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >您可以设置全局跨渠道疲劳规则，这些规则将自动从营销活动中排除过度征求的档案。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-1. 发送校样以检查和验证您的邮件并监控其收件箱呈现。 请参阅发 [送证明](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 。
+1. 发送校样以检查和验证您的邮件并监控其收件箱呈现。 请参阅发 [送证明](../../sending/using/sending-proofs.md) 。
 1. 确认消息的发送。 发送将相应地开始到您定义的计划。
 
    ![](assets/sms_creation_7.png)
