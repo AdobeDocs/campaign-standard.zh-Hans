@@ -1,18 +1,18 @@
 ---
 title: 电子邮件渲染
 description: 了解电子邮件渲染功能。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 准备和测试消息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Litmus网站上列出了可用于Adobe Campaign中 **电子邮件呈现的移动
 
    ![](assets/email_rendering_05.png)
 
-1. 使用查询编辑器定义要使用的测试配置文件，包括用于电子邮件渲染的测 **试配置** 。 请参阅 [关于测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+1. 使用查询编辑器定义要使用的测试配置文件，包括用于电子邮件渲染的测 **试配置** 。 请参阅 [关于测试配置文件](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Litmus网站上列出了可用于Adobe Campaign中 **电子邮件呈现的移动
 
    >[!NOTE]
    >
-   >该选 **[!UICONTROL Proof + Email rendering]** 项允许您发送证明并同时使用电子邮件渲染功能。 您可以让证明收件人批准您的邮件，同时可以根据目标收件箱测试接收邮件的方式。 在这种情况下，您还需要选择“校样”测试配置文件。 请参阅 [关于测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+   >该选 **[!UICONTROL Proof + Email rendering]** 项允许您发送证明并同时使用电子邮件渲染功能。 您可以让证明收件人批准您的邮件，同时可以根据目标收件箱测试接收邮件的方式。 在这种情况下，您还需要选择“校样”测试配置文件。 请参阅 [关于测试配置文件](../../audiences/using/managing-test-profiles.md)。
 
    测试交付已发送。
 
@@ -65,7 +65,7 @@ Litmus网站上列出了可用于Adobe Campaign中 **电子邮件呈现的移动
 **相关主题**:
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [管理测试用户档案和发送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [发送校样](../../sending/using/sending-proofs.md)
 * [查询编辑器](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 电子邮件渲染报告说明 {#email-rendering-report-description}
