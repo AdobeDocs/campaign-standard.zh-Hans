@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,9 +36,9 @@ source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ## 添加测试和陷印配置文件 {#adding-test-and-trap-profiles}
 
-添加测试配置文件，以便使用少量配置文件测试文件。 它允许您在准备实际文件之前快速创建一个文件范例以测试和验证结构。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+添加测试配置文件，以便使用少量配置文件测试文件。 它允许您在准备实际文件之前快速创建一个文件范例以测试和验证结构。 请参阅 [管理测试配置文件](../../audiences/using/managing-test-profiles.md)。
 
-使用陷阱是直接发送邮件的关键。 它们允许您验证您的直邮提供商是否确实在发送通信，以及他们是否没有将您的客户列表发送给其他提供商。 请参阅 [使用陷印](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+使用陷阱是直接发送邮件的关键。 它们允许您验证您的直邮提供商是否确实在发送通信，以及他们是否没有将您的客户列表发送给其他提供商。 请参阅 [使用陷印](../../sending/using/using-traps.md)。
 
 对于直接邮件发送，在提取过程中添加陷印并混合在输出文档中。 默认情况下，它们按输出文件的排序顺序插入，但您可以选择在文件的结尾或开头插入。 定义受众时，从选项卡中选择所需的 **[!UICONTROL Trap insertion mode]** 选项。
 
