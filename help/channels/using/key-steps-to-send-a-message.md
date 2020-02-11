@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
    >
    >您可以设置全局跨渠道疲劳规则，这些规则将自动从营销活动中排除过度征求的档案。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md)。
 
-1. 发送校样。 请参阅发 [送校样](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 发送校样。 请参阅发 [送校样](../../sending/using/sending-proofs.md)。
 1. 发送邮件并检查其发送。 请参阅发 [送消息](../../sending/using/confirming-the-send.md)。
 1. 检查专用的交付报告。 请参阅访 [问报告](../../reporting/using/about-dynamic-reports.md)。
 
