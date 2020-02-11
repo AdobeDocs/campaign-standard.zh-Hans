@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 >[!NOTE]
 >
->要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]**部分。
+>要访问事务性消息，您必须是安全组的一 **[!UICONTROL Administrators (all units)]** 部分。
 >
 >事件事务消息不包含配置文件信息，因此它们与疲劳规则不兼容（即使在丰富了配置文件的情况下）。 请参阅 [疲劳规则](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
@@ -40,7 +40,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ### 在事务性消息中创建测试配置文件 {#creating-a-test-profile-within-the-transactional-----------message}
 
-1. 要访问您创建的消息，请单击左 **[!UICONTROL Adobe Campaign]**上角的标志，然后选择**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**>**[!UICONTROL Transactional messages]**。
+1. 要访问您创建的消息，请单击左 **[!UICONTROL Adobe Campaign]** 上角的标志，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 
    ![](assets/message-center_4.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    ![](assets/message-center_test-profile.png)
 
-1. 在部分中指定要以JSON格式发送的 **[!UICONTROL Event data used for personalization]**信息。 这是预览消息和测试配置文件收到证明时将使用的内容。
+1. 在部分中指定要以JSON格式发送的 **[!UICONTROL Event data used for personalization]** 信息。 这是预览消息和测试配置文件收到证明时将使用的内容。
 
    ![](assets/message-center_event-data.png)
 
@@ -56,17 +56,17 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >您还可以输入与配置文件表相关的信息。 请参 [阅丰富交易消息内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
 
-1. 创建之后，测试配置文件将在事务消息中预先指定。 单击 **[!UICONTROL Test profiles]**消息块以检查您的证明目标。
+1. 创建之后，测试配置文件将在事务消息中预先指定。 单击 **[!UICONTROL Test profiles]** 消息块以检查您的证明目标。
 
    ![](assets/message-center_5.png)
 
 ### 在事务性消息之外创建测试配置文件 {#creating-a-test-profile-outside-the-transactional-----------message}
 
-您还可以创建新的测试配置文件，或使用菜单中已存在的测试配置 **[!UICONTROL Test profiles]**文件。
+您还可以创建新的测试配置文件，或使用菜单中已存在的测试配置 **[!UICONTROL Test profiles]** 文件。
 
-1. 单击左 **[!UICONTROL Adobe Campaign]**上角的徽标，然后选择**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
-1. 在您 **[!UICONTROL Event]**选择的测试配置文件页面的部分，选择您刚刚创建的活动。 在此示例中，选择“购物车放弃(EVTcartEligation)”。
-1. 在文本框中指定要以JSON格式发送 **[!UICONTROL Event data]**的信息。
+1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
+1. 在您 **[!UICONTROL Event]** 选择的测试配置文件页面的部分，选择您刚刚创建的活动。 在此示例中，选择“购物车放弃(EVTcartEligation)”。
+1. 在文本框中指定要以JSON格式发送 **[!UICONTROL Event data]** 的信息。
 
    ![](assets/message-center_3.png)
 
@@ -76,14 +76,14 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 **相关主题：**
 
-* [管理测试配置文件](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [管理测试配置文件](../../audiences/using/managing-test-profiles.md)
 * [定义受众](../../audiences/using/creating-audiences.md)
 
 ## 个性化交易消息 {#personalizing-a-transactional-message}
 
 要在交易消息中设置个性化，请执行以下步骤：
 
-1. 单击 **[!UICONTROL Content]**该块以修改邮件的主题和内容。 在此示例中，选择包含图像和文本的任何模板。 有关电子邮件内容模板的详细信息，请参[阅使用模板设计](../../designing/using/using-reusable-content.md#designing-templates)。
+1. 单击 **[!UICONTROL Content]** 该块以修改邮件的主题和内容。 在此示例中，选择包含图像和文本的任何模板。 有关电子邮件内容模板的详细信息，请参 [阅使用模板设计](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
@@ -95,11 +95,11 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 1. 在此示例中，您要添加在创建活动时定义的三 [个字段](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):first name, last product cansfired, total cart amount. 为此，请在消 [息内容中插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 。
 
-1. 通过 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >浏览到这些字段 **[!UICONTROL Event context]**。
+1. 通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >浏览到这些字段 **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7.png)
 
-1. 要丰富消息的内容，请从与活动关联的表中选择字段，以添加字段。 在我们的示例中，通 **[!UICONTROL Title (salutation)]**过>**[!UICONTROL Profile]** >选择表中的字段 **[!UICONTROL Context]****[!UICONTROL Real-time event]****[!UICONTROL Event context]**。
+1. 要丰富消息的内容，请从与活动关联的表中选择字段，以添加字段。 在我们的示例中，通 **[!UICONTROL Title (salutation)]** 过> **[!UICONTROL Profile]** >选择表中的字段 **[!UICONTROL Context]****[!UICONTROL Real-time event]****[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -135,16 +135,16 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 在事务性消息中使用产品列表之前，您需要在事件级别定义产品列表以及要显示的列表中每个产品的字段。 有关此功能的详细信息，请参 [阅定义数据集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. 在事务性消息中，单击 **[!UICONTROL Content]**该块以修改电子邮件内容。
+1. 在事务性消息中，单击 **[!UICONTROL Content]** 该块以修改电子邮件内容。
 1. 将结构组件拖放到工作区。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
    例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 选择刚刚创建的结构组件，然后单击上 **[!UICONTROL Enable product listing]**下文工具栏中的图标。
+1. 选择刚刚创建的结构组件，然后单击上 **[!UICONTROL Enable product listing]** 下文工具栏中的图标。
 
    ![](assets/message-center_loop_create.png)
 
-   结构组件以橙色框架高亮显示，设 **[!UICONTROL Product listing]**置显示在左侧调色板中。
+   结构组件以橙色框架高亮显示，设 **[!UICONTROL Product listing]** 置显示在左侧调色板中。
 
    ![](assets/message-center_loop_palette.png)
 
@@ -154,15 +154,15 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    * **[!UICONTROL Column]**:垂直，即同一行上的每个元素相邻。
    >[!NOTE]
    >
-   >仅 **[!UICONTROL Column]**当使用多列结构组件（、和）时，**[!UICONTROL 2:2 column]**&#x200B;此选项 **[!UICONTROL 3:3 column]****[!UICONTROL 4:4 column]** 才可用。 编辑产品列表时，仅填写第一列：其他列将不被考虑在内。 有关选择结构组件的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >仅 **[!UICONTROL Column]** 当使用多列结构组件（、和）时， **[!UICONTROL 2:2 column]**&#x200B;此选项 **[!UICONTROL 3:3 column]****[!UICONTROL 4:4 column]** 才可用。 编辑产品列表时，仅填写第一列：其他列将不被考虑在内。 有关选择结构组件的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 选择在配置与事务性消息相关的事件时创建的数据收集。 您可以在 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >节点下 **[!UICONTROL Event context]**找到。
+1. 选择在配置与事务性消息相关的事件时创建的数据收集。 您可以在 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >节点下 **[!UICONTROL Event context]** 找到。
 
    ![](assets/message-center_loop_selection.png)
 
    有关配置事件的详细信息，请参 [阅定义数据集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. 使用下 **[!UICONTROL First item]**拉列表选择哪个元素将开始电子邮件中显示的列表。
+1. 使用下 **[!UICONTROL First item]** 拉列表选择哪个元素将开始电子邮件中显示的列表。
 
    例如，如果选择2，则集合的第一个项目将不会显示在电子邮件中。 产品列表将从第二个项目开始。
 
@@ -170,7 +170,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >如果希望垂直( **[!UICONTROL Column]**)显示列表的元素，则根据所选的结构组件（2、3或4列）限制最大项目数。 有关选择结构组件的详细信息，请参[阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >如果希望垂直( **[!UICONTROL Column]** )显示列表的元素，则根据所选的结构组件（2、3或4列）限制最大项目数。 有关选择结构组件的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ### 填充产品列表 {#populating-the-product-listing}
 
@@ -178,36 +178,36 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 有关在配置事件时创建集合和相关字段的详细信息，请参阅定 [义数据集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. 选择您插入的图像组件，选择 **[!UICONTROL Enable personalization]**并单击“设置”窗格中的铅笔。
+1. 选择您插入的图像组件，选择 **[!UICONTROL Enable personalization]** 并单击“设置”窗格中的铅笔。
 
    ![](assets/message-center_loop_image.png)
 
-1. 在打 **[!UICONTROL Add personalization field]**开的窗**[!UICONTROL Image source URL]** 口中选择。
+1. 在打 **[!UICONTROL Add personalization field]** 开的窗 **[!UICONTROL Image source URL]** 口中选择。
 
-   从 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]**中，打开与您创建的集合对应的节点(此处**[!UICONTROL Product list]** )，然后选择您定义的图像字段(此处 **[!UICONTROL Product image]**)。 单击**[!UICONTROL Save]**.
+   从 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]** 中，打开与您创建的集合对应的节点(此处 **[!UICONTROL Product list]** )，然后选择您定义的图像字段(此处 **[!UICONTROL Product image]** )。 单击 **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
    您选择的个性化字段现在显示在“设置”窗格中。
 
-1. 在所需位置，从上下文工 **[!UICONTROL Insert personalization field]**具栏中选择。
+1. 在所需位置，从上下文工 **[!UICONTROL Insert personalization field]** 具栏中选择。
 
    ![](assets/message-center_loop_product.png)
 
-1. 从 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]**中，打开与您创建的集合对应的节点(此处**[!UICONTROL Product list]** )，然后选择您创建的字段(此处 **[!UICONTROL Product name]**)。 单击**[!UICONTROL Confirm]**.
+1. 从 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]** 中，打开与您创建的集合对应的节点(此处 **[!UICONTROL Product list]** )，然后选择您创建的字段(此处 **[!UICONTROL Product name]** )。 单击 **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
    您选择的个性化字段现在显示在电子邮件内容中的所需位置。
 
 1. 以类似方式继续插入价格。
-1. 选择一些文本，然后从上 **[!UICONTROL Insert link]**下文工具栏中进行选择。
+1. 选择一些文本，然后从上 **[!UICONTROL Insert link]** 下文工具栏中进行选择。
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. 在打 **[!UICONTROL Add personalization field]**开的窗**[!UICONTROL Insert link]** 口中选择。
+1. 在打 **[!UICONTROL Add personalization field]** 开的窗 **[!UICONTROL Insert link]** 口中选择。
 
-   从 **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]**中，打开与您创建的集合对应的节点(此处**[!UICONTROL Product list]** )，然后选择您创建的URL字段(此处 **[!UICONTROL Product URL]**)。 单击**[!UICONTROL Save]**.
+   从 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >节点 **[!UICONTROL Event context]** 中，打开与您创建的集合对应的节点(此处 **[!UICONTROL Product list]** )，然后选择您创建的URL字段(此处 **[!UICONTROL Product URL]** )。 单击 **[!UICONTROL Save]**.
 
    >[!CAUTION]
    >
@@ -217,7 +217,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    您选择的个性化字段现在显示在“设置”窗格中。
 
-1. 选择应用产品列表的结构组件，然后选择以 **[!UICONTROL Show fallback]**定义默认内容。
+1. 选择应用产品列表的结构组件，然后选择以 **[!UICONTROL Show fallback]** 定义默认内容。
 
    ![](assets/message-center_loop_fallback_show.png)
 
@@ -228,7 +228,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    如果集合在触发事件时为空，将显示回退内容，例如，如果客户的购物车中没有任何内容。
 
 1. 从“设置”窗格中，编辑产品列表的样式。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
-1. 使用链接到相关交易事件且您为其定义了收集数据的测试配置文件预览电子邮件。 例如，在要使用的测试配置文 **[!UICONTROL Event data]**件的部分中添加以下信息：
+1. 使用链接到相关交易事件且您为其定义了收集数据的测试配置文件预览电子邮件。 例如，在要使用的测试配置文 **[!UICONTROL Event data]** 件的部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
@@ -240,7 +240,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ![](assets/message-center_10.png)
 
-发送证明的步骤详见发送 [证明部分](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 。
+发送证明的步骤详见发送 [证明部分](../../sending/using/sending-proofs.md) 。
 
 ## 发布交易消息 {#publishing-a-transactional-message}
 
@@ -250,23 +250,23 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 现在，一旦“购物车放弃”事件被触发，它会自动提示一条消息，其中包含收件人的标题和姓氏、购物车URL、上次咨询的产品或产品列表（如果您定义了产品列表）以及要发送的购物车总量。
 
-要访问与交易消息相关的报告，请使用 **[!UICONTROL Reports]**按钮。 请参阅[报告](../../reporting/using/about-dynamic-reports.md)。
+要访问与交易消息相关的报告，请使用 **[!UICONTROL Reports]** 按钮。 请参阅 [报告](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
 ## 暂停交易消息发布 {#suspending-a-transactional-message-publication}
 
-例如，可以使用按钮暂停发布 **[!UICONTROL Pause]**事务性消息，以修改消息中包含的数据。 因此，不再处理这些事件，而是将其保留在Adobe Campaign数据库的队列中。
+例如，可以使用按钮暂停发布 **[!UICONTROL Pause]** 事务性消息，以修改消息中包含的数据。 因此，不再处理这些事件，而是将其保留在Adobe Campaign数据库的队列中。
 
 在REST API中定义的时间段内(请参阅 [REST API文档](../../api/using/about-campaign-standard-apis.md))或在使用触发器核心服务的触发器事件中(请参阅 [Campaign和Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))，将保留排队的事件。
 
 ![](assets/message-center_pause.png)
 
-单击时， **[!UICONTROL Resume]**将处理所有已排队的事件（前提是这些事件未过期）。 现在，它们包含暂停模板发布时执行的所有修改。
+单击时， **[!UICONTROL Resume]**&#x200B;将处理所有已排队的事件（前提是这些事件未过期）。 现在，它们包含暂停模板发布时执行的所有修改。
 
 ## 取消发布交易消息 {#unpublishing-a-transactional-message}
 
-单击 **[!UICONTROL Unpublish]**可取消事务消息发布，也可取消相应事件的发布，该事件从REST API中删除与您先前创建的事件对应的资源。 现在，即使事件通过您的网站触发，相应的消息也不再发送，也不会存储在数据库中。
+单击 **[!UICONTROL Unpublish]** 可取消事务消息发布，也可取消相应事件的发布，该事件从REST API中删除与您先前创建的事件对应的资源。 现在，即使事件通过您的网站触发，相应的消息也不再发送，也不会存储在数据库中。
 
 ![](assets/message-center_unpublish-template.png)
 
@@ -274,15 +274,15 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 >
 >要再次发布消息，您需要返回到相应的活动配置，发布消息，然后发布消息。 有关此内容的详细信息，请参 [阅发布交易消息](#publishing-a-transactional-message)。
 
-如果取消发布已暂停的事务性消息，则可能必须等待最多24小时才能再次发布该消息。 这样，工作流便 **[!UICONTROL Database cleanup]**可清除发送到队列的所有事件。 暂停消息的步骤在暂停交易消息发[布部分中有详细介绍](#suspending-a-transactional-message-publication)。
+如果取消发布已暂停的事务性消息，则可能必须等待最多24小时才能再次发布该消息。 这样，工作流便 **[!UICONTROL Database cleanup]** 可清除发送到队列的所有事件。 暂停消息的步骤在暂停交易消息发 [布部分中有详细介绍](#suspending-a-transactional-message-publication) 。
 
-每 **[!UICONTROL Database cleanup]**天凌晨4点运行的工作流可通过**[!UICONTROL Administration]** > **[!UICONTROL Application settings]**>访问**[!UICONTROL Workflows]**。
+每 **[!UICONTROL Database cleanup]** 天凌晨4点运行的工作流可通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** >访问 **[!UICONTROL Workflows]**。
 
 ## 删除交易消息 {#deleting-a-transactional-message}
 
 ![](assets/message-center_delete-template.png)
 
-通过选择事务性消息，即使已发布该消息，您也 **[!UICONTROL Delete element]**可以使用按钮将其删除。 但是，只有在某些情况下才能删除事务消息：
+通过选择事务性消息，即使已发布该消息，您也 **[!UICONTROL Delete element]** 可以使用按钮将其删除。 但是，只有在某些情况下才能删除事务消息：
 
 * **交易消息**:要删除事务性消息，应取消发布消息，而不应暂停消息。
 
@@ -321,13 +321,13 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 >[!NOTE]
 >
->将事件分配给执行交付后，该事件将显示在该执行交付的发送日志中，并且仅在此时显示。 失败的提交会显示在事务 **[!UICONTROL Execution list]**消息的选项卡中。
+>将事件分配给执行交付后，该事件将显示在该执行交付的发送日志中，并且仅在此时显示。 失败的提交会显示在事务 **[!UICONTROL Execution list]** 消息的选项卡中。
 
 ### 限制 {#limitations}
 
 **发送日志更新**
 
-在重试过程中，不会立即更新新执行交付的发送日志（更新是通过计划的工作流执行的）。 这意味着消息可能处于状态，即 **[!UICONTROL Pending]**使事务事件已经由新的执行交付处理。
+在重试过程中，不会立即更新新执行交付的发送日志（更新是通过计划的工作流执行的）。 这意味着消息可能处于状态，即 **[!UICONTROL Pending]** 使事务事件已经由新的执行交付处理。
 
 **执行交付失败**
 
