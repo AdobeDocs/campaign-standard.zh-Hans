@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >不能由最终用户创建或修改品牌：这些操作必须由Adobe Campaign技术管理员执行。 如需任何请求，请联系Adobe客户关怀。 不能在交易消息的上下文中使用多品牌。 有关此方面的详细信息，请参 [阅交易消息和品牌推广](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
-品牌位于菜单 **[!UICONTROL Administration > Instance settings > Brand configuration]**中。
+品牌位于菜单 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中。
 
 默认情况下，新创建的品牌仅对管理员分配了相应权限的用户可见。
 
@@ -53,7 +53,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **网站URL** 和品 **牌的网站** “标签”
    * **品牌徽标**
 
-* **[!UICONTROL Header parameters of sent emails]**个性化营销活动收件人将看到的内容。 此部分包含以下字段：
+* **[!UICONTROL Header parameters of sent emails]** 个性化营销活动收件人将看到的内容。 此部分包含以下字段：
 
    ![](assets/branding_04_header.png)
 
@@ -75,7 +75,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **作为提交中默认镜像页面的镜像页面服务器的外部URL** 。
    >[!NOTE]
    >
-   >如果应用程序服务器和镜像页面服务器URL不安全(即，如果不以https://开头)，则无法从营销活动用户界面显示登录页面预览和镜像页面呈现。
+   >要在Campaign用户界面中显示登录页面预览和镜像页面呈现，应用程序服务器和镜像页面服务器URL必须是安全的。 在这种情况下，在设置这些URL时，请使用https://而不是http://。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**，它定义品牌的URL跟踪配置。
 
@@ -95,7 +95,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 创建模板后，您可以将其链接到品牌。 操作步骤：
 
-1. 单击该 **[!UICONTROL Edit properties]**按钮可访问模板属性。
+1. 单击该 **[!UICONTROL Edit properties]** 按钮可访问模板属性。
 
    ![](assets/branding_04.png)
 
@@ -103,11 +103,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
    >[!NOTE]
    >
-   >默认情况下，将 **[!UICONTROL Default brand (branding)]**选中该选项。
+   >默认情况下，将 **[!UICONTROL Default brand (branding)]** 选中该选项。
 
    ![](assets/branding_05.png)
 
-   要查看所选品牌的配置方式，请单击该 **[!UICONTROL Navigate to the detail of the element selected]**图标。
+   要查看所选品牌的配置方式，请单击该 **[!UICONTROL Navigate to the detail of the element selected]** 图标。
 
    ![](assets/branding_06.png)
 
@@ -125,7 +125,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >品牌配置仅由Adobe管理，因为它需要特定权限和技术设置。
 
-1. Adobe Campaign管理员可在中创建品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他从高级菜**&#x200B;单中添加“热带度假&#x200B;**”元素，并配置**[!UICONTROL ID]** 品牌和品 **[!UICONTROL Header parameters of sent emails]**牌的品牌。
+1. Adobe Campaign管理员可在中创建品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他从高级菜 **单中添加“热带度假** ”元素，并配置 **[!UICONTROL ID]** 品牌和品 **[!UICONTROL Header parameters of sent emails]** 牌的品牌。
 
    ![](assets/branding_07.png)
 
@@ -141,7 +141,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 作为交付经理，您负责创建交付模板以使用新品牌。 要实现此目的，请按照以下步骤操作：
 
-1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]**中，复制内置模板以配置新的分发模板。
+1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;中，复制内置模板以配置新的分发模板。
 
    ![](assets/branding_08.png)
 
@@ -160,11 +160,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 要创建链接到品牌的电子邮件，请执行以下步骤：
 
-1. 单击菜 **[!UICONTROL Create]**单中的按**[!UICONTROL Marketing activities]** 钮。
+1. 单击菜 **[!UICONTROL Create]** 单中的按 **[!UICONTROL Marketing activities]** 钮。
 
    ![](assets/branding_14.png)
 
-1. 选择活 **[!UICONTROL Email]**动，然后选择链接到新品牌的模板。
+1. 选择活 **[!UICONTROL Email]** 动，然后选择链接到新品牌的模板。
 
    ![](assets/branding_15.png)
 
