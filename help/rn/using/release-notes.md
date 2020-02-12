@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **Email Designer增强功能**
 
-修复了在修补过时的片段并保存内容时在其中添加HTML标记元素的问题。 (CAMP-40685)修复了在使用动态内容时添加空格的问题。 (CAMP-40605)修复了配置事务性电子邮件模板时的问题。 (CAMP-40604)
+* 修复了在修补过时的片段并保存内容时在其中添加HTML标记元素的问题。 (CAMP-40685)
+* 修复了在使用动态内容时添加空间的问题。 (CAMP-40605)
+* 修复了在配置交易电子邮件模板时的问题。 (CAMP-40604)
 
 ## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
