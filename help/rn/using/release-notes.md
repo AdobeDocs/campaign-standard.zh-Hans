@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # 最新版本{#latest-release}
 
 [发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2019.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## 版本20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
+
+* 修复了CAMP-39273在20.1中为使用漏洞的客户引入的回归问题。 39273号营被归还。
 
 ## 版本20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * 修复了在动态报表中导致取消订阅计数不一致的问题。 (CAMP-39949)
 * 修复了发送应用程序内消息时地址无法显示在发送日志屏幕中的问题。
 * 修复了SMS发送日志无法用正确数量的弹回进行更新的问题。 (CAMP-38395)
+* 修复了允许应用程序订阅发布调用更新推送通知令牌的漏洞。 (CAMP-39273)
