@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * 修复了阻止您从文本编辑器复制和粘贴文本的问题。 (CAMP-39028)
 * 修复了阻止显示单词建议的问题。 (CAMP-38970)
 * 修复了阻止用户保存片段的问题。 (ATU-2447)
+* 修复了动态结构无法复制的问题。 (CAMP-38367)
+* 修复了复制时动态内容无法保留条件的问题。 (CAMP-39051)
 
 **其他更改**
 
