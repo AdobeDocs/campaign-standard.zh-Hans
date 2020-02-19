@@ -3,28 +3,25 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
-translation-type: ht
-source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
+translation-type: tm+mt
+source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ---
 
 
 # 帮助中心 {#campaign-standard-documentation}
 
-![](start/using/assets/banner_acs_doc.jpg)
+![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 新增功能
 
-* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
+* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
-* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-了解与交付设计和发送相关的最佳实践的更多信息。
+* **[交付最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解与交付设计和发送相关的最佳实践的更多信息。
 
 * **[电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>请查阅重新组织的电子邮件设计工具文档。
 
-* **[Campaign Standard 移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
-了解有关移动交付一般准则的更多信息。
+* **[Campaign Standard 移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>了解有关移动交付一般准则的更多信息。
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
@@ -69,7 +66,7 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 * [发行说明](rn/using/release-notes.md)
 
-* [控制面板](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
+* [控制面板](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [操作说明视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
