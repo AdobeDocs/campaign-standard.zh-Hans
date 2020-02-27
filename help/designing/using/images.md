@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
+source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ---
 
@@ -29,8 +29,6 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 * 从Adobe Experience cloud共享的图像——请参阅使 [用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /资产（按需）
 * Adobe Target中的动态图像——请参阅使 [用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
-如果启用，您可以使用Adobe Creative SDK修改图像。 请参 [阅使用Adobe Creative SDK修改图像](#modifying-images-with-the-adobe-creative-sdk)。
-
 >[!CAUTION]
 >
 >如果选择通过编辑HTML版本的电子邮件直接添加图像，则不得在HTML页的&lt;script **>标签中调用外部文件** 。 这些文件不会导入到Adobe Campaign服务器上。
@@ -38,7 +36,7 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
 1. 添加结构组件。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此结构组件中，添加一个内 **[!UICONTROL Image]**容组件。
+1. 在此结构组件中，添加一个内 **[!UICONTROL Image]** 容组件。
 
    ![](assets/des_insert_images_1.png)
 
@@ -72,24 +70,27 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 </object>
 ```
 
-## 使用Adobe Creative SDK修改图像{#modifying-images-with-the-adobe-creative-sdk}
+<!--
+## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
-您可以编辑图像，并使用Adobe Creative SDK提供的一整套功能在编辑电子邮件或登录页面时直接在内容编辑器中增强图像。
+You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 
-图像编辑器提供功能强大、功能齐备的图像编辑UI组件，它允许您编辑图像并应用效果和帧、原始的高质量贴纸、美观的叠加、倾斜偏移和颜色初始化等有趣功能、专业级调整等。
+The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.
 
-要使用Adobe Creative SDK修改图像，请执行以下操作：
+To modify an image with the Adobe Creative SDK:
 
-1. 选择图像。
-1. 在工具栏中，单击Creative cloud图标。
+1. Select the image.
+1. In the toolbar, click the Creative Cloud icon.
 
    ![](assets/des_creative_sdk_icon.png)
 
-1. 通过窗口顶部的图标选择要使用的工具以修改图像。
+1. Select the tool you want to use through the icons on the top of the window to modify the image.
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 完成 **[!UICONTROL Save]**修改后单击。 更新后的图像将保存在Adobe Campaign服务器上并可供使用。
+1. Click **[!UICONTROL Save]** when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.
 
 >[!NOTE]
-无法自定义图像编辑器中提供的工具。
+>
+>Tools offered in the image editor cannot be customized.
+-->
