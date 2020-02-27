@@ -1,18 +1,18 @@
 ---
 title: 与 Adobe 解决方案集成
 description: 了解与Adobe Experience cloud核心服务和解决方案（如Adobe Analytics和Experience Manager）的集成如何通过深入的洞察和便捷的内容管理改进您的Adobe Campaign战略。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开始
-content-type: 参考
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -54,10 +54,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 在Adobe Campaign中向客户发送个性化电子邮件，作为对Adobe Analytics在您网站上跟踪的特定行为的响应。
 
    有关详细信息，请参 [阅在Campaign standard中使用Experience cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
-
-* 编辑图像，使用Adobe Creative SDK支持的一整套功能直接在内容编辑器中增强图像
-
-   有关详细信息，请参 [阅使用Adobe Creative SDK修改图像](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * 使用Adobe Experience Platform SDK在Adobe Campaign中自动执行移动应用程序属性激活过程。
 
