@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -96,11 +96,6 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    <td> 
     <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweaver视频</a> 、使用Campaign extension for Dreamweaver <br/>创 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">建个性化的电子邮件</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> 允许您编辑图像，并使用Adobe Creative SDK提供的一整套功能直接在内容编辑器中增强图像。<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">使用Adobe Creative SDK修改图像</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Platform SDK<br /> </td> 
