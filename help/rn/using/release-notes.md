@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
+source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
 
@@ -98,6 +98,8 @@ source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 * 管理员安全组的组织单位不能再更改。
 * 创建配置文件时，现在必须填写“组织单位”字段。
 * 现在，仅当删除活动和与其关联的事务模板时，才能删除Experience Cloud触发器。
+* Adobe Creative SDK已停用。 现在，在Campaign standard中已弃用它。 请参阅已 [弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
+
 
 **修补程序**
 
