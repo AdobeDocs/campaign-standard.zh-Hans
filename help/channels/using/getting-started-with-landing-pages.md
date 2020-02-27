@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: c71c207d724dac914935b3667527a3ce4403dd63
 
 ---
 
@@ -44,12 +44,12 @@ Campaign附带登录页面，这些Web表单可用于捕获受众信息、提供
 
 **编写和更新数据**
 
-* 登录页面仅限于 **[!UICONTROL Profile]**和**[!UICONTROL Subscription]** 资源。 可以保存记录并从 **[!UICONTROL Profile]**订阅／取消订阅更新到**[!UICONTROL Service]**。
+* 登录页面仅限于 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 资源。 可以保存记录并从 **[!UICONTROL Profile]** 订阅／取消订阅更新到 **[!UICONTROL Service]**。
 要了解有关资源配置的更多信息，请 [参阅配置资源的数据结构](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
 >[!CAUTION]
 >
->登陆页面无法显示或更新除和之外的任何其他资源中的 **[!UICONTROL Profile]**数据**[!UICONTROL Subscription]**。
+>登陆页面无法显示或更新除和之外的任何其他资源中的 **[!UICONTROL Profile]** 数据 **[!UICONTROL Subscription]**。
 
 **预加载**
 
@@ -79,7 +79,7 @@ Campaign附带登录页面，这些Web表单可用于捕获受众信息、提供
 
 在设置登陆页面之前，第一步是配置与您的需求对应的登陆页面模板。 模板准备就绪后，所有基于该模板的登录页面都将预先配置所需的参数。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选 **[!UICONTROL Resources]**择/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**，然后复制要使用的模板。
+1. 从高级菜单中，通过Adobe Campaign徽标，选 **[!UICONTROL Resources]** 择/ **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**，然后复制要使用的模板。
 1. 在模板属性中，指定登录页面必须具有的所有公用参数。 例如：定位维度、已识别或未识别访客的页面访问参数、访客对表单验证的特定操作、内容中使用的品牌／徽标等。 有关登录页面属性的详细信息，请参 [阅此部分](../../channels/using/configuring-landing-page.md)
 1. 保存修改。
 
@@ -128,9 +128,9 @@ Campaign附带登录页面，这些Web表单可用于捕获受众信息、提供
 
 有关如何测试登陆页面的详细信息，请参阅 [此部分](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 步骤发布登陆页面 {#publish-the-landing-page}
+## 第5步——发布登陆页面 {#publish-the-landing-page}
 
-测试成功后，您可以使用功能板中操作栏 **[!UICONTROL Publish]**中的按钮发布登录页面。 监视块显示发布的进度和状态。
+测试成功后，您可以使用功能板中操作栏 **[!UICONTROL Publish]** 的按钮发布登录页面。 监视块显示发布的进度和状态。
 
 发布登录页面后，即可在线访问该页面。 发布后，您始终可以更新它：为此，您必须在每次修改后重新发布它。 您还可以随时取消发布登录页面，以便不再可用。
 
