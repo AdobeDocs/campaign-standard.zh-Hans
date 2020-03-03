@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 ---
 
 
-# Campaign standard发布计划 {#release-planning}
+# 发布计划 {#release-planning}
 
 Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
@@ -29,7 +29,7 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
 订阅后，请 [直接在您的收件箱中接收发布通知](https://www.adobe.com/subscription/priority-product-update.html) ，以获取有关最新Adobe Experience cloud版本的详细信息。
 
-## 版本20.1.3 - 2月版本更新 {#release-20-1-3---february-release-update}
+## 版本20.1.4 - 2月版本更新 {#release-20-1-4---february-release-update}
 
 环境更新在以下指定时间段内以波浪形式发生。 有关此版本的详细信息，请参阅发 [行说明](../../rn/using/release-notes.md)。 如果您有其他问题，请联系 [Adobe客户服务](https://support.neolane.net/webApp/extranetLogin)。
 
