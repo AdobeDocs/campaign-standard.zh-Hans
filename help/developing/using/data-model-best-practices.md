@@ -123,7 +123,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 ### 索引 {#indexes}
 
-Adobe Campaign会自动向资源中 [定义的](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) 所有主键和内部键添加索引。
+Adobe Campaign会自动向资源中定 [义的](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) 所有主键和内部键添加索引。
 
 * Adobe建议定义其他索引，因为这可能会提高性能。
 * 但是，不要添加太多索引，因为它们使用数据库上的空间。 许多索引也可能会对性能产生负面影响。
