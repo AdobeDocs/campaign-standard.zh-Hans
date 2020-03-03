@@ -31,7 +31,7 @@ source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
 
 登录到Adobe Experience Manager创作实例，然后浏览您的站点以访问包含电子邮件内容的文件夹。
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
