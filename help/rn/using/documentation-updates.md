@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ---
 
@@ -24,6 +24,18 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign发 [行说明](../../rn/using/release-notes.md)。
+
+## 文档更新- 2020年3月 {#doc-updates-march-2020}
+
+配置移动应用程序文档和相关页面已更新以反映SDK V4折旧。 [阅读更多](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+Adobe Campaign Standard/Adobe Experience manager集成文档已更新和改进。 [阅读更多](../../integrating/using/configure-experience-manager.md)
+
+Campaign Email Designer文档和相关页面已更新，以反映Adobe Creative SDK的折旧。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+现已推出专门介绍Campaign standard数据模型最佳实践的新部分。 [阅读更多](../../developing/using/data-model-best-practices.md)
+
+现成的右侧 **[!UICONTROL Workflow]** 已添加信息。 [阅读更多](../../administration/using/list-of-roles.md)
 
 ## 20.1版- 2019年2月 {#release-20-1---february-2020}
 
