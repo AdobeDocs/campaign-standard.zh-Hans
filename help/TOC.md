@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
+source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
 
 ---
 
@@ -94,6 +94,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [准备和发送推送通知](channels/using/preparing-and-sending-a-push-notification.md)
       + [自定义推送通知](channels/using/customizing-a-push-notification.md)
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
+      + [为多语言推送通知生成CSV文件](channels/using/generating-csv-multilingual-push.md)
       + [基于移动应用程序数据创建和更新用户档案信息](channels/using/updating-profile-with-mobile-app-data.md)
    + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
@@ -199,6 +200,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
    + [关于 Campaign 集成](integrating/using/about-campaign-integrations.md)
    + 使用 Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
+      + [配置Campaign-Experience manager集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 使用 Campaign 和 Target {#working-with-campaign-and-target}
@@ -214,7 +216,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [准备和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
    + 使用 Campaign 和 Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [关于 Campaign-兴趣点数据集成](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [配置 Campaign-兴趣点数据集成](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -304,6 +306,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [数据模型概念](developing/using/data-model-concepts.md)
       + [资源状态](developing/using/resource-statuses.md)
       + [监视数据模型的变化](developing/using/monitoring-data-model-changes.md)
+      + [数据模型最佳实践](developing/using/data-model-best-practices.md)
    + 添加或扩展资源 {#adding-or-extending-a-resource}
       + [添加资源的关键步骤](developing/using/key-steps-to-add-a-resource.md)
       + [创建或扩展资源](developing/using/creating-or-extending-the-resource.md)
