@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2019.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## 版本20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
+
+* 修复了在现有工作流中打开“ **读取受众** ”活动时的问题。 (CAMP-41002)
+
 ## 版本20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
 
 * 修复了CAMP-39273在20.1中为使用漏洞的客户引入的回归问题。 39273号营被归还。
