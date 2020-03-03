@@ -250,7 +250,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 ![](assets/sendinglogsextension_3.png)
 
-从动态报表中，可以将自定义字段维度拖放到自由格式表中。
+从动态报表中，可将自定义字段维度拖放到自由格式表中。
 
 有关动态报告的详细信息，请参阅 [组件列表](../../reporting/using/list-of-components-.md)。
 
