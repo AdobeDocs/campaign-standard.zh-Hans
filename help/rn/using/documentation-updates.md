@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ## 文档更新- 2020年3月 {#doc-updates-march-2020}
 
-有关增强的MTA的更多详细信息已添加到核心文档中，特别是有关电子邮件处理规则和弹回邮件资格的信 [息阅读](../../administration/using/configuring-email-channel.md#email-processing-rules)
+关于增强的MTA的更多详细信息已添加到核心文档中，特别是关于电子邮件处理规则和弹回邮件资格的信息。 [阅读更多](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 已移动并更新用于通过电子邮件密送进行归档的部分。 [阅读更多](../../sending/using/archiving.md)
 
@@ -67,7 +67,7 @@ Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../ad
 
 Adobe Campaign增强型MTA文档现已推出，其中描述了经过升级的发送基础架构，可改进交付性、吞吐量和弹回处理。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-添加了注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
+已添加注释，以指示要从营销活动用户界面显示登录页面和镜像页面预览，应用程序服务器和镜像页面服务器URL必须是安全的。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
 
 “导出日志”部分已更新，以反映“交付日志”和“跟踪日志”资源中的交付日志ID的可用性，这使得能够导出每个日志的唯一标识符。 [阅读更多](../../automating/using/exporting-logs.md)
 
@@ -737,7 +737,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 **随版本提供的其他文档更新**
 
-添加到不同类型的Adobe Campaign用户上的部分。 [阅读更多](../../administration/using/users-management.md)
+添加到不同类型Adobe Campaign用户的部分。 [阅读更多](../../administration/using/users-management.md)
 
 重新组织并扩展了工作流指南。 轻松查找如何构建和执行工作流 [、如何定位和管理您的](../../automating/using/building-a-workflow.md) 数据、如何导 [](../../automating/using/executing-a-workflow.md)[](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 入数据、如何使用工作流、如何更新数据库或发送交付的工作流，以及如何使用工作流来更新数据库或发送交付。
 
