@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -56,13 +56,14 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 1. 确认创建活动，随后将显示该活动的功能板。 有关详细信息，请参阅“工作 [流界面](../../automating/using/workflow-interface.md) ”部分。
 
-1. 准备好配置工作流后，您可以单击按钮以访问其他选 **[!UICONTROL Edit properties]**项。 例如，您可以定义一个特定时区，默认情况下在工作流的所有活动中使用。 默认情况下，工作流的时区是为当前营销活动操作员定义的时区。
+1. 准备好配置工作流后，您可以单击按钮以访问其他选 **[!UICONTROL Edit properties]** 项。 例如，您可以定义一个特定时区，默认情况下在工作流的所有活动中使用。 默认情况下，工作流的时区是为当前营销活动操作员定义的时区。
 
    ![](assets/workflow_properties.png)
 
 **相关主题：**
 
-[创建工作流视频](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [创建工作流视频](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [工作流属性](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## 添加和链接活动 {#adding-and-linking-activities}
 
@@ -74,16 +75,16 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 活动按类别分组在调色板的不同部分中。
 
-* 第一部分包含定位活动。
-* 第二节包括执行活动，主要用于协调其他活动。
-* 第三部分包含可用于在不同渠道上发送消息的活动。 此部分中的活动可能因实例上启用的渠道而异。
-* 第四部分包含文件处理和数据管理活动。
+* 第一部分包含定 [位活动](../../automating/using/about-targeting-activities.md)
+* 第二节包括执行 [活动](../../automating/using/about-execution-activities.md)，主要用于协调其他活动。
+* 第三部分包含可用于在不同渠道上发送消息的活动 [](../../automating/using/about-channel-activities.md)。 此部分中的活动可能因实例上启用的渠道而异。
+* 第四部分包含文 [件处理和数据管理活动](../../automating/using/about-data-management-activities.md)。
 
 要创建图，请执行以下操作：
 
 1. 通过从调色板中拖动活动并将其放入图中来添加活动。
 
-   例如，在图中添 **加开始** ，然后添 **加电子邮件交付** 。
+   例如，在图中添 **[加开始](../../automating/using/start-and-end.md)**，然后添**[&#x200B;加电子邮件交付](../../automating/using/email-delivery.md)** 。
 
 1. 将“开始”活动过渡拖放到“电 **子邮件** ”交付活动中，将活动链 **接到一起** 。
 
@@ -99,7 +100,7 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 将工作流活动关联在一起后，您便可以使用您选择的标签个性化它们 **之间的** 过渡。 为此，请双击过渡以访问其属性。
 
-此外，活 **[!UICONTROL Targeting]**动**[!UICONTROL Data management (ETL)]** 允许您为其出站过 **渡定义段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外， **[!UICONTROL Targeting]** 活动 **[!UICONTROL Data management (ETL)]** 允许您为其出站过 **渡定义段代码** 。 然后，您可以根据这些细分代码创建报告，以衡量营销活动的效率。 如需详细信息，请参阅[此部分](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流使用案例：**
 
@@ -113,7 +114,7 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 默认情况下，活动未设置，如果未配置，则无法正确处理数据。 每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如出站过渡、标签等。
 
 1. 确保所有活动都正确连接。 某些活动需要检测传入数据的结构或性质以提供正确的配置选项。
-1. 双击某个活动或选择该活动，然后单击上下文 **[!UICONTROL Edit]**操作以打开其配置窗口。
+1. 双击某个活动或选择该活动，然后单击上下文 **[!UICONTROL Edit]** 操作以打开其配置窗口。
 1. 编辑活动的标签。
 1. 定义处理数据所需的所有不同选项。 请参阅本文档中活动的特定部分，了解每个活动的可能选项。
 1. 保存活动，并为工作流的每个活动重复这些操作。
