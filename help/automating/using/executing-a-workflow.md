@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 ---
 
@@ -44,21 +44,17 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ![](assets/wkf_transition_count.png)
 
-您可以打开过渡，以检查在执行工作流期间或之后发送的数据是否正确。 您可以查看数据和数据结构。
+您可以打开过渡以检查在执行工作流期间或之后发送的数据是否正确。 您可以查看数据和数据结构。
 
-默认情况下，只能访问工作流上次转换的详细信息。 要能够访问前面的活动的结果，您需要在启动工作流之前检查 **[!UICONTROL Keep interim results]**工作流属**[!UICONTROL Execution]** 性部分中的选项。
+默认情况下，只能访问工作流上次转换的详细信息。 要能够访问前面的活动的结果，您需要在启动工作流之前检查 **[!UICONTROL Keep interim results]** 工作流属 **[!UICONTROL Execution]** 性部分中的选项。
 
 >[!NOTE]
 >
 >此选项占用大量内存，旨在帮助构建工作流并确保其正确配置和行为。 在生产实例中不选中它。
 
-当过渡打开时，您可以编辑其或将 **[!UICONTROL Label]**其链接到**[!UICONTROL Segment code]** 该过渡。 为此，请编辑相应的字段并确认修改。
+当过渡打开时，您可以编辑其或 **[!UICONTROL Label]** 将其链 **[!UICONTROL Segment code]** 接到它。 为此，请编辑相应的字段并确认修改。
 
-## 从REST API控制工作流 {#controlling-a-workflow-from-the-rest-api}
-
-使用REST API，您可以启 **动**、暂 **停**、恢 **复和停** 止Rest工作流 **** 。
-
-您可以在 [API文档中找到更多详细信息和REST调用示例。](../../api/using/controlling-a-workflow.md)
+使用Campaign Standard REST API，您可以启 **动**、暂 **停**、恢 **复和停止** Campaign Standard工 **** 作流。 您可以在 [API文档中找到更多详细信息和REST调用示例。](../../api/using/controlling-a-workflow.md)
 
 ## 生命周期 {#life-cycle}
 
@@ -108,11 +104,11 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 **暂停**
 
-该按 ![](assets/pause_darkgrey-24px.png) 钮会暂停执行。 该工作流将处于“警 **告** （黄色）”状态。 在恢复之前不会激活任何新活动，但进行中的操作不会暂停。
+该按 ![](assets/pause_darkgrey-24px.png) 钮会暂停执行。 该工作流将处于“警 **告** （黄色）”状态。 在恢复之前不会激活新活动，但正在进行的操作不会暂停。
 
 **停止**
 
-该 ![](assets/stop_darkgrey-24px.png) 按钮会停止正在执行的工作流，然后该工作流将进入“已完 **成** ”（绿色）状态。 正在进行的操作会在可能的情况下中断，并且导入或正在进行的SQL查询会立即取消。 您不能从停止工作流的同一位置恢复工作流。
+该 ![](assets/stop_darkgrey-24px.png) 按钮会停止正在执行的工作流，然后该工作流将进入“已完 **成** ”（绿色）状态。 正在进行的操作会在可能的情况下中断，并且导入或正在进行的SQL查询会立即取消。 您无法从停止工作流的同一位置恢复工作流。
 
 **重新启动**
 
@@ -146,18 +142,18 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 在工作流执行选项中指定的持续时间内保存工作流历史记录(请参 [阅工作流属性](#workflow-properties))。 因此，在此期间，即使重新启动后，也会保存所有消息。 如果不希望保存先前执行中的消息，则必须单击按钮以清除历史记 ![](assets/delete_darkgrey-24px.png) 录。
 
-该选 **[!UICONTROL Log]**项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
+该选 **[!UICONTROL Log]** 项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
 
 ![](assets/wkf_execution_4.png)
 
-此标 **[!UICONTROL Tasks]**签详细说明了活动的执行顺序。 单击任务可获取更多信息。
+此标 **[!UICONTROL Tasks]** 签详细说明了活动的执行顺序。 单击任务可获取更多信息。
 
 ![](assets/wkf_execution_5.png)
 
 在这两个列表中：
 
 * 单击计数器可查看根据所应用的过滤器所进行的活动总数。 默认情况下，如果列表中的元素数少于30，则显示计数器。
-* 通过 **[!UICONTROL Configure list]**该按钮，您可以选择显示的信息、定义列顺序和对列表进行排序。
+* 通过 **[!UICONTROL Configure list]** 该按钮，您可以选择显示的信息、定义列顺序和对列表进行排序。
 * 您可以使用过滤器更快地查找所需的信息。 使用搜索字段在工作流活动名称中查找特定文本(例如：“query”)和日志。
 
 ## 错误管理 {#error-management}
@@ -166,7 +162,7 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 工作流状态将变为红色，错误将记录在日志中。
 
-您可以配置工作流，使其不会暂停并继续执行，而不会出现任何错误。 为此，请通过按钮转到工作流属性， ![](assets/edit_darkgrey-24px.png) 并在部分中 **[!UICONTROL Execution]**，选择“发生错误时**”**字段中的“忽略”选项****。
+您可以配置工作流，使其不会暂停并继续执行，而不会出现任何错误。 为此，请通过按钮转到工作流属性， ![](assets/edit_darkgrey-24px.png) 并在部分中 **[!UICONTROL Execution]** ，选择“发生错误时 **”** 字段中的“忽略”选项 **** 。
 
 在这种情况下，将中止错误的任务。 此模式特别适用于设计为稍后重新尝试操作（定期操作）的工作流。
 
@@ -174,47 +170,62 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 >
 >您可以为每个活动单独应用此配置。 为此，请选择一个活动，然后使用快速操作将其打开 ![](assets/edit_darkgrey-24px.png)。 然后在“执行选项”选项卡中选择错 **误管理模** 式。 请参阅 [活动执行选项](#activity-execution-options)。
 
-工作 **[!UICONTROL Execution]**流属性的部分还允许您定义在工作流执行**[!UICONTROL Consecutive errors]** 自动挂起之前已授权的许多属性。 只要未达到此数量，就会忽略错误的元素，并正常执行其他工作流分支。 如果达到此编号，则暂停工作流，并自动通知工作流主管（电子邮件和应用程序内通知）。 请参 [阅工作流属性](#workflow-properties)[和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+在工作 [流的属性中](#workflow-properties)，提供了与错误管理相关的其他选项。
 
-还可以在工作流的执行属性中定义监督者。
+![](assets/wkf_execution_error.png)
+
+可能的选项包括：
+
+* **[!UICONTROL Supervisors]**:允许您定义在工作流遇到错误时要通知的用户组（电子邮件和应用程序内通知）。 如果未定义组，则不会通知任何用户。 有关Adobe Campaign通知的详细信息，请参阅 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+
+* **[!UICONTROL In case of error]**:允许您指定活动遇到错误时要执行的操作。 有两个选项可用于此：
+
+   * **暂停进程**:工作流会自动挂起。 然后，工作流状态 **为“错误** ”，且关联的颜色将变为红色。 问题解决后，请重新启动工作流。
+   * **忽略**:不会执行活动，因此后面的任何活动（在同一分支中）也不会执行。 这可能对重复任务很有用。 如果分支将调度程序置于上游，则该调度程序应在下一个执行日期触发。
+
+* **[!UICONTROL Consecutive errors]** :允许您定义在工作流执行自动挂起之前已授权的多个连续错误。
+
+   * 如果指定的数 **[!UICONTROL 0]**&#x200B;字是，或者只要未达到指定的数字，则会忽略遇到错误的活动。 其他工作流分支正常执行。
+
+   * 如果达到指定的数量，则整个工作流将暂停并变为 **[!UICONTROL Erroneous]**。 如果已定义监事，则会通过电子邮件自动通知他们。 请参 [阅Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
 ## 工作流属性 {#workflow-properties}
 
-要修改工作流的执行选项，请使用 ![](assets/edit_darkgrey-24px.png) 按钮访问工作流属性并选择 **[!UICONTROL Execution]**部分。
-
-该字 **[!UICONTROL Default affinity]**段允许您强制在特定计算机上执行工作流或工作流活动。
-
-在字段 **[!UICONTROL History in days]**中，指定必须在其后清除历史记录的持续时间。
-
-您可以根据需要选 **[!UICONTROL Save SQL queries in the log]**中和**[!UICONTROL Execute in the engine (do not use in production)]** 选项。
-
-如果 **[!UICONTROL Keep interim results]**您希望能够查看过渡的详细信息，请选中此选项。 警告：选中此选项可能会显着降低工作流执行速度。
-
-该字 **[!UICONTROL Severity]**段允许您指定在Adobe Campaign实例中执行工作流的优先级。 关键工作流将首先执行。
-
-在字 **[!UICONTROL Supervisors]**段中，您可以定义工作流遇到错误时要通知的人员组（电子邮件和应用程序内通知）。 如果未定义组，则不会通知任何用户。 有关Adobe Campaign通知的详细信息，请参阅[Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
-
-该 **[!UICONTROL In case of error]**字段允许您指定活动遇到错误时要执行的操作。 有两个选项可用于此：
-
-* **暂停进程**:工作流会自动挂起。 然后，工作流状态 **为“错误** ”，且关联的颜色将变为红色。 问题解决后，请重新启动工作流。
-* **忽略**:不会执行活动，因此后面的任何活动（在同一分支中）也不会执行。 这可能对重复任务很有用。 如果分支将调度程序置于上游，则该调度程序应在下一个执行日期触发。
-
-   通过选择此选项，您还可以定义许 **[!UICONTROL Consecutive errors]**可的数量：
-
-   * 如果指定的数 **[!UICONTROL 0]**字是，或者只要未达到指定的数字，则会忽略遇到错误的活动。 其他工作流分支正常执行。
-   * 如果达到指定的数量，则整个工作流将暂停并变为 **[!UICONTROL Erroneous]**。 如果已定义监事，则会通过电子邮件自动通知他们。
+要修改工作流的执行选项，请使用 ![](assets/edit_darkgrey-24px.png) 按钮访问工作流属性并选择 **[!UICONTROL Execution]** 部分。
 
 ![](assets/wkf_execution_6.png)
+
+可能的选项包括：
+
+* **[!UICONTROL Default affinity]**:此字段允许您强制在特定计算机上执行工作流或工作流活动。
+
+* **[!UICONTROL History in days]**:指定清除历史记录的天数。 历史记录包含所有相关元素，如日志、任务、事件。 现成工作流模板的默认值是30天。
+
+   清除历史记录由数据库清除技术工作流执行，默认情况下每天执行该工作流(请参 [阅技术工作流列表](../../administration/using/technical-workflows.md))。
+
+   >[!IMPORTANT]
+   >
+   >如果字 **[!UICONTROL History in days]** 段留空，则其值将视为“1”，这意味着历史记录将在1天后清除。
+
+* **[!UICONTROL Save SQL queries in the log]**:允许您将工作流中的SQL查询保存到日志中。
+
+* ***[!UICONTROL Keep interim results]**:如果希望能够查看过渡的详细信息，请选中此选项。 警告：选中此选项可能会显着降低工作流执行速度。
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**:允许您在本地执行工作流，以便进行开发环境测试。
+
+* **[!UICONTROL Severity]**:允许您指定在Adobe Campaign实例中执行工作流的优先级。 关键工作流将首先执行。
+
+该部 **[!UICONTROL Error management]** 分提供了其他选项，允许您管理工作流在出错时的行为方式。 这些选项在“错误管理” [部分中有详细](#error-management) 说明。
 
 ## 活动属性 {#activity-properties}
 
 ### 活动的常规属性 {#general-properties-of-an-activity}
 
-每个活动都有一个选 **[!UICONTROL Properties]**项卡。 此选项卡允许您修改活动的常规参数，特别是标签和ID。 配置此选项卡是可选的。
+每个活动都有一个选 **[!UICONTROL Properties]** 项卡。 此选项卡允许您修改活动的常规参数，特别是标签和ID。 配置此选项卡是可选的。
 
 ### 管理活动的出站过渡 {#managing-an-activity-s-outbound-transitions}
 
-默认情况下，某些活动没有出站过渡。 您可以从选项卡或活 **[!UICONTROL Transitions]**动的选项卡中添加一个，**[!UICONTROL Properties]** 以将其他进程应用到同一工作流中的人群。
+默认情况下，某些活动没有出站过渡。 您可以从选项卡或活 **[!UICONTROL Transitions]** 动的选项卡中添加一个， **[!UICONTROL Properties]** 以将其他进程应用到同一工作流中的人群。
 
 根据活动，您可以添加几种类型的出站过渡：
 
@@ -223,37 +234,37 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 * 拒绝：人口遭到拒绝。 例如，如果由于活动的入站数据不正确或不完整，因此无法处理该活动的入站数据。
 * 补充：执行活动后剩余的人口。 例如，如果将分段活动配置为仅保存入站人口的百分比，则表明该活动已配置为。
 
-如果适用，请为活 **[!UICONTROL Segment code]**动的出站转移指定一个值。 此细分代码允许您确定目标群体中子集的来源，并稍后可能用于消息个性化目的。
+如果适用，请为活 **[!UICONTROL Segment code]** 动的出站转移指定一个值。 此细分代码允许您确定目标群体中子集的来源，并稍后可能用于消息个性化目的。
 
 ### 活动执行选项 {#activity-execution-options}
 
-在活动的属性屏幕中，有一个选 **[!UICONTROL Advanced options]**项卡，用于定义活动的执行模式和行为，以防出错。
+在活动的属性屏幕中，有一个选 **[!UICONTROL Advanced options]** 项卡，用于定义活动的执行模式和行为，以防出错。
 
 要访问这些选项，请在工作流中选择一个活动，然后使用操作栏中 ![](assets/edit_darkgrey-24px.png) 的按钮将其打开。
 
 ![](assets/wkf_advanced_parameters.png)
 
-该字 **[!UICONTROL Execution]**段允许您定义在启动任务时要执行的操作。 这有三种选择：
+该字 **[!UICONTROL Execution]** 段允许您定义在启动任务时要执行的操作。 这有三种选择：
 
 * **正常**:活动正常执行。
 * **启用但不执行**:活动会暂停，因此后续的任何进程也会暂停。 如果您希望在任务启动时出现，则此选项会很有用。
 * **不启用**:不执行活动，因此，（在同一分支中）后跟的所有活动也不执行。
 
-该 **[!UICONTROL In case of error]**字段允许您指定活动遇到错误时要执行的操作。 有两个选项可用于此：
+该 **[!UICONTROL In case of error]** 字段允许您指定活动遇到错误时要执行的操作。 有两个选项可用于此：
 
 * **暂停进程**:工作流会自动挂起。 然后，工作流状态 **为“错误** ”，且关联的颜色将变为红色。 问题解决后，请重新启动工作流。
 * **忽略**:不会执行活动，因此后面的任何活动（在同一分支中）也不会执行。 这可能对重复任务很有用。 如果分支将调度程序置于上游，则该调度程序应在下一个执行日期触发。
 
-该字 **[!UICONTROL Behavior]**段允许您定义在使用异步任务时要遵循的过程。 有两个选项可用于此：
+该字 **[!UICONTROL Behavior]** 段允许您定义在使用异步任务时要遵循的过程。 有两个选项可用于此：
 
 * **已授权多项任务**:即使第一个任务未完成，也可以同时执行多个任务。
 * **当前任务具有优先级**:任务完成后，将优先执行此操作。 只要一个任务仍在进行中，就不会执行任何其他任务。
 
-字 **[!UICONTROL Max. execution duration]**段允许您指定持续时间，如“30秒”或“1h”。 如果活动在指定的持续时间过后未完成，则会触发警报。 这不会影响工作流的工作方式。
+字 **[!UICONTROL Max. execution duration]** 段允许您指定持续时间，如“30秒”或“1h”。 如果活动在指定的持续时间过后未完成，则会触发警报。 这不会影响工作流的工作方式。
 
-该字 **[!UICONTROL Affinity]**段允许您强制在特定计算机上执行工作流或工作流活动。 为此，您必须为相关工作流或活动指定一个或多个相关性。
+该字 **[!UICONTROL Affinity]** 段允许您强制在特定计算机上执行工作流或工作流活动。 为此，您必须为相关工作流或活动指定一个或多个相关性。
 
-该 **[!UICONTROL Time zone]**字段允许您选择活动的时区。 Adobe Campaign允许您管理同一实例上多个国家／地区之间的时差。 创建实例时将配置所应用的设置。
+该 **[!UICONTROL Time zone]** 字段允许您选择活动的时区。 Adobe Campaign允许您管理同一实例上多个国家／地区之间的时差。 创建实例时将配置所应用的设置。
 
 >[!NOTE]
 >
