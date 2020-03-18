@@ -1,18 +1,18 @@
 ---
 title: 了解隔离管理
 description: 了解如何通过隔离管理优化您的可交付性。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 监视消息
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 无论如何，隔离程序都符合本条所述的特定规 [则](#conditions-for-sending-an-address-to-quarantine)。
 
-### 通过隔离优化交付 {#optimizing-your-delivery-through-quarantines}
+### 通过隔离优化您的交付 {#optimizing-your-delivery-through-quarantines}
 
 邮件准备过程中，将自动排除其电子邮件地址或电话号码处于隔离状态的配置文件(请参阅 [识别传送的隔离地址](#identifying-quarantined-addresses-for-a-delivery))。 这将加快交付速度，因为错误率对交付速度有显着影响。
 
@@ -81,7 +81,7 @@ Adobe Campaign根据在错误消息资格期间分配的传送失败类型和原
 
 * **忽略的错误**:忽略的错误不会发送地址进行隔离。
 * **硬错误**:相应的电子邮件地址会立即发送到隔离区。
-* **软错误**:软错误不会立即发送要隔离的地址，但会增加一个错误计数器。 当错误计数器达到限制阈值时，地址将进入隔离。 在默认配置中，阈值设置为5个错误，其中，如果两个错误间隔至少24小时，则它们会显着。 地址在第六个错误时被置于隔离中。 可以修改错误计数器阈值。 For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **软错误**:软错误不会立即发送要隔离的地址，但会增加一个错误计数器。 当错误计数器达到限制阈值时，地址将进入隔离。 在默认配置中，阈值设置为5个错误，其中，如果两个错误间隔至少24小时，则它们会显着。 地址在第五个错误时被隔离。 可以修改错误计数器阈值。 For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    当重试后传送成功时，重新初始化隔离之前的地址的错误计数器。 地址状态将变 **[!UICONTROL Valid]** 为，并在工作流两天后从隔离列表中删除 **[!UICONTROL Database cleanup]** 它。
 
