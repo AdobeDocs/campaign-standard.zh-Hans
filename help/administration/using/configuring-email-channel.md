@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign standard中配置电子邮件渠道
-description: 了解如何在Adobe Campaign standard中配置电子邮件渠道。
+title: 在Adobe Campaign Standard中配置电子邮件渠道
+description: 了解如何在Adobe Campaign Standard中配置电子邮件渠道。
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
 
 * **重试次数**
 
-   临时未传送的消息可能会自动重试。 此部分指示在发送开始后的一天(重试次数&#x200B;**)和重试之间的最小延迟(重试**&#x200B;期&#x200B;****)应执行多少次重试。
+   临时未传送的消息可能会自动重试。 此部分指示在发送开始后的一天(重试次数&#x200B;**)和重试之间的最小延迟(重试**&#x200B;期&#x200B;****)应执行的重试次数。
 
    默认情况下，在第一天内计划5次重试，最小时间间隔为1小时，在一天的24小时内展开。 每天一次重试的程序设定在此之后，直到交付截止日期（在部分中定义） **[!UICONTROL Delivery parameters]** 为止。
 
@@ -78,84 +78,86 @@ source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
 
 ### 弹回邮件 {#bounce-mails}
 
-当电子邮件失败时，远程消息服务器会向应用程序设置中指定的地址返回弹回错误消息。
+对于同步交付失败错误消息，增强的MTA可确定退回类型和资格，并将该信息发回到Campaign。 有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-Adobe Campaign会将每封弹回邮件的内容与规则列表中的字符串进行比较，然后为其分配三个错误类型之一。
-
->[!IMPORTANT]
->
->升级到增强的MTA后，“营销活动”表格中的弹 **[!UICONTROL Message qualification]** 出资格便不再被使用。 对于同步交付失败错误消息，增强的MTA可确定退回类型和资格，并将该信息发回到Campaign。 inMail进程仍可对异步弹回进行限定。
->
->有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-用户可以创建自己的规则。
+Campaign inMail进程仍可通过规则对异步弹回进行 **[!UICONTROL Bounce mails]** 限定。
 
 >[!IMPORTANT]
 >
->在导入包时以及通过“更新以实现可交付性 **”工作流更新数据时** ，将覆盖用户创建的规则。
+>升级到增强的MTA后，“营销活动”表格中的弹 **[!UICONTROL Message qualification]** 出资格便不再被使用。 有关弹回邮件资格的更多信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md)。
 
-### 管理电子邮件域 {#managing-email-domains}
-
-域管理规则用于调节特定域的传出电子邮件的流。 他们对弹回消息进行采样，并在适当时阻止发送。
-
-Adobe Campaign消息传递服务器应用特定于域的规则，然后应用规则列表中以星号表示的一般大小写规则。
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->升级到增强的MTA后，DKIM(DomainKeys Indedited Mail)电子邮件身份验证签名由增强的MTA完成。 作为增强的MTA升级的一部分，本机Campaign MTA的DKIM **[!UICONTROL Domain management]** 签名将在表中关闭。
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+
+### 电子邮件域的管理 {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+
+>[!IMPORTANT]
 >
->有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+>升级到增强的MTA后，Adobe Campaign规 **[!UICONTROL Domain management]** 则便不再使用。
 
-要配置域管理规则，只需设置阈值并选择某些SMTP参数。 阈 **值** (Threshold)是计算为错误百分比的限制，超过该百分比，向特定域的所有消息都被阻止。
+**DKIM(DomainKeys Indentifed Mail)** ，电子邮件身份验证签名由增强的MTA对所有域的所有消息执行。 除非在增强的MTA级别 **中指定，否则它不**&#x200B;会使用发送者ID **、DomainKeys****DKIM**&#x200B;或 **** S/MIME进行签名。
 
-SMTP参 **数用作应用于阻止规则的过滤器** 。
-
-* 您可以选择是否激活某些标识标准和加密密钥以检查域名，如 **Sender ID**、 **DomainKeys**、 **DKIM**&#x200B;和 **** S/MIMEConnect。
-* **SMTP中继**:允许您为特定域配置IP地址和中继服务器的端口。
+有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 ### MX管理 {#mx-management}
 
-每个规则都为MX定义了地址掩码。 因此，其名称与此掩码匹配的任何MX都符合条件。 遮罩可以包含“*”和“?” 常规字符。
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-例如，以下地址：
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>升级到增强的MTA后，Adobe Campaign交付 **[!UICONTROL MX management]** 吞吐量规则将不再使用。
+
+增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
+
+有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-与以下蒙版兼容：
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-这些规则按顺序应用：应用其MX掩码与目标MX兼容的第一条规则。
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->升级到增强MTA后，Adobe Campaign **MX管理交付** ，不再使用吞吐量规则。 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
->
->有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-以下参数可用于每个规则：
-
-* **[!UICONTROL Range of IDs]**:通过此选项，可以指示应用规则的标识符(publicId)范围。 您可以指定：
-
-   * 数字：该规则将仅适用于此publicId。
-   * 数字范围（数字1-数字2）:该规则将适用于这两个数字之间的所有publicId。
-   如果字段为空，则该规则适用于所有ID。
-
-* **[!UICONTROL Shared]**:此选项指示每小时最多的消息数和连接数适用于所有链接到此规则的MX。
-* **[!UICONTROL Maximum number of connections]**:从给定地址到MX的同时连接的最大数量。
-* **最大消息数**:可通过一个连接发送的最大消息数。 在此数量后，连接将关闭，并重新打开新连接。
-* **[!UICONTROL Messages per hour]**:MX通过给定地址在一小时内可发送的最大消息数。
-
->[!IMPORTANT]
->
->* 如果参数已更改，则必须重新启动交付服务器(MTA)。
->* 管理规则的修改或创建仅适用于专家用户。
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## 电子邮件属性列表 {#list-of-email-properties}
 
@@ -324,44 +326,10 @@ SMTP参 **数用作应用于阻止规则的过滤器** 。
 
 该部 **[!UICONTROL Access authorization]** 分包含以下参数：
 
-* 该字 **[!UICONTROL Organizational unit]** 段允许您将访问此电子邮件的权限限制给某些用户。 与指定设备或父设备关联的用户将有权访问此电子邮件。 与子单元关联的用户将仅对此电子邮件具有读取权限。
+* 该字 **[!UICONTROL Organizational unit]** 段允许您将访问此电子邮件的权限限制给某些用户。 与指定设备或父设备关联的用户将有权访问此电子邮件。 与子设备关联的用户将仅对此电子邮件具有读取权限。
 
    >[!NOTE]
    >
    >您可以通过“管理” **>“用户和安** 全”菜 **单配置组织单位** 。
 
 * 自 **[!UICONTROL Created by]**&#x200B;动完 **[!UICONTROL Created]**&#x200B;成、 **[!UICONTROL Modified by]** 和 **[!UICONTROL Last modified]** 字段。
-
-## 存档电子邮件 {#archiving-emails}
-
-您可以配置Adobe Campaign以保留从您的平台发送的电子邮件副本。
-
-但是，Adobe Campaign本身不管理存档的文件。 它确实允许您将您选择的消息发送到专用地址，从中可以使用外部系统处理和存档消息。
-
-当在传送模板中激活时，此功能允许您将相应已发送消息的精确副本发送到您必须指定的密件抄送电子邮件地址（对传送收件人不可见）。
-
-### 建议和限制 {#recommendations-and-limitations}
-
-* 此功能是可选的。 请检查您的许可协议，并联系您的帐户管理员以激活它。
-* 您选择的密件抄送地址必须提供给Adobe团队，由团队为您配置。
-* 您只能使用一个密送电子邮件地址。
-* 只有成功发送的电子邮件才会被考虑在内。 弹回次数不是。
-* 出于隐私原因，密件抄送电子邮件必须由能够安全地存储个人身份信息(PII)的存档系统处理。
-* 在创建新的分发模板时，默认情况下不启用电子邮件密送，即使已购买此选项也是如此。 您必须在要使用它的每个分发模板中手动启用它。
-
-### 激活电子邮件存档 {#activating-email-archiving}
-
-密件抄送电子邮件在电子邮件模 [板中通过](../../start/using/marketing-activity-templates.md)专用选项激活：
-
-1. 转到“资 **源** ”>“模 **板** ” **>“交**&#x200B;付模板”。
-1. 复制现成模 **[!UICONTROL Send via email]** 板。
-1. 选择复制的模板。
-1. 单击 **[!UICONTROL Edit properties]** 按钮可编辑模板的属性。
-1. 展开该 **[!UICONTROL Send]** 部分。
-1. 选中此 **[!UICONTROL Archive emails]** 框可保留每个基于此模板的传送的所有已发送消息的副本。
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->如果打开并点进发送到密件抄送地址的电子邮件，则在发送分析中和发送分析中会考虑这一问题， **[!UICONTROL Total opens]****[!UICONTROL Clicks]** 这可能会导致一些计算错误。
