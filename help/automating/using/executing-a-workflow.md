@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,9 +209,9 @@ source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 * **[!UICONTROL Save SQL queries in the log]**:允许您将工作流中的SQL查询保存到日志中。
 
-* ***[!UICONTROL Keep interim results]**:如果希望能够查看过渡的详细信息，请选中此选项。 警告：选中此选项可能会显着降低工作流执行速度。
+* **[!UICONTROL Keep interim results]**:如果希望能够查看过渡的详细信息，请选中此选项。 警告：选中此选项可能会显着降低工作流执行速度。
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**:允许您在本地执行工作流，以便进行开发环境测试。
+* **[!UICONTROL Execute in the engine (do not use in production)]**:允许您在本地执行该工作流，以便进行开发环境测试。
 
 * **[!UICONTROL Severity]**:允许您指定在Adobe Campaign实例中执行工作流的优先级。 关键工作流将首先执行。
 
