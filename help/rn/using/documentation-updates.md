@@ -1,6 +1,6 @@
 ---
 title: 文档更新
-description: 了解Adobe Campaign standard文档的所有最新更新。
+description: 了解Adobe Campaign Standard文档的所有最新更新。
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat
@@ -12,14 +12,14 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
 
 # 文档更新{#documentation-updates}
 
-了解Adobe Campaign standard文档的所有最新更新。
+了解Adobe Campaign Standard文档的所有最新更新。
 
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
@@ -27,15 +27,21 @@ source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ## 文档更新- 2020年3月 {#doc-updates-march-2020}
 
+有关增强的MTA的更多详细信息已添加到核心文档中，特别是有关电子邮件处理规则和弹回邮件资格的信 [息阅读](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+已移动并更新用于通过电子邮件密送进行归档的部分。 [阅读更多](../../sending/using/archiving.md)
+
 配置移动应用程序文档和相关页面已更新以反映SDK V4折旧。 [阅读更多](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Adobe Campaign Standard/Adobe Experience manager集成文档已更新和改进。 [阅读更多](../../integrating/using/configure-experience-manager.md)
+Adobe Campaign Standard/Adobe Experience Manager集成文档已更新和改进。 [阅读更多](../../integrating/using/configure-experience-manager.md)
 
 Campaign Email Designer文档和相关页面已更新，以反映Adobe Creative SDK的折旧。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-现已推出专门介绍Campaign standard数据模型最佳实践的新部分。 [阅读更多](../../developing/using/data-model-best-practices.md)
+现已推出专门介绍Campaign Standard数据模型最佳实践的新部分。 [阅读更多](../../developing/using/data-model-best-practices.md)
 
 现成的右侧 **[!UICONTROL Workflow]** 已添加信息。 [阅读更多](../../administration/using/list-of-roles.md)
+
+已在工作流的属性中的 **[!UICONTROL History in days field]** 可用属性中添加了信息。 [阅读更多](../../automating/using/executing-a-workflow.md)
 
 ## 20.1版- 2019年2月 {#release-20-1---february-2020}
 
@@ -61,7 +67,7 @@ Adobe Experience Platform Data Connector（测试版）-阅 [读更多](../../ad
 
 Adobe Campaign增强型MTA文档现已推出，其中描述了经过升级的发送基础架构，可改进交付性、吞吐量和弹回处理。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-已添加注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
+添加了注释，以指示应用程序服务器和镜像页面服务器URL必须是安全的，才能从营销活动用户界面中显示登录页面和镜像页面预览。 [阅读更多](../../administration/using/branding.md#configuring-and-using-brands)
 
 “导出日志”部分已更新，以反映“交付日志”和“跟踪日志”资源中的交付日志ID的可用性，这使得能够导出每个日志的唯一标识符。 [阅读更多](../../automating/using/exporting-logs.md)
 
@@ -73,9 +79,9 @@ Deliverability文档已更新，其中包含有关IP认证的新部分。 [阅�
 
 动态报表的指示器计算部分已更新。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
-添加了有关Adobe Campaign standard中移动交付的一般准则的新页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+添加了有关Adobe Campaign Standard中移动交付的一般准则的新页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-使用Campaign和Experience Manager文档已更新，其中新增了有关如何使用Campaign- **Experience manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+使用Campaign和Experience Manager文档已更新，其中新增了有关如何使用Campaign- **Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API文档主页已得到改进，并重新指导了不同的主题。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
@@ -91,7 +97,7 @@ API文档主页已得到改进，并重新指导了不同的主题。 [阅读更
 
 ## 文档更新- 2019年11月 {#doc-updates-november-2019}
 
-新增了一个用例，用于说明如何使用Campaign standard中的工作流构建控制组。 阅[读更多](../../automating/using/workflow-control-group.md)
+新增了一个用例，用于说明如何使用Campaign Standard中的工作流构建控制组。 阅[读更多](../../automating/using/workflow-control-group.md)
 
 与登录页面属性相关的信息已移至专用部分。 [阅读更多](../../channels/using/configuring-landing-page.md)
 
@@ -99,13 +105,13 @@ API文档主页已得到改进，并重新指导了不同的主题。 [阅读更
 
 指示器 **计算表** (Indicator calculation table has been updated)。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
-API文档集已集成到Campaign standard文档中。[阅读更多](../../api/using/about-campaign-standard-apis.md)
+API文档集已集成到Campaign Standard文档中。[阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 已移动并更新创建个性化电子邮件入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 已更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-数据模型已集成到Campaign standard文档中。 [阅读更多](../../developing/using/datamodel-audience.md)
+数据模型已集成到Campaign Standard文档中。 [阅读更多](../../developing/using/datamodel-audience.md)
 
 新的API endpoint **/customResources** 已添加到API文档中。[阅读更多](../../api/using/interacting-with-custom-resources.md)
 
@@ -127,7 +133,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 已移动并更新“交付最佳实践”快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-已添加新部分。 它提供了不同方法的概述，这些方法允许您丰富Campaign standard数据库。 [阅读更多](../../start/using/enriching-campaign-database.md)
+已添加新部分。 它提供了不同方法的概述，这些方法允许您丰富Campaign Standard数据库。 [阅读更多](../../start/using/enriching-campaign-database.md)
 
 添加了一个新部分，用于说明如何设置与电子邮件设计器的链接样式。 [阅读更多](../../designing/using/styles.md#about-styling-links)
 
@@ -135,7 +141,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 ## 文档更新- 2019年10月 {#doc-updates-october-2019}
 
-添加了与Campaign standard设置相关的新部分。 [阅读更多](../../administration/using/about-campaign-standard-settings.md)
+添加了与Campaign Standard设置相关的新部分。 [阅读更多](../../administration/using/about-campaign-standard-settings.md)
 
 新增了一节，其中介绍了如何向订阅特定服务的配置文件发送自动自定义确认电子邮件。 [阅读更多](../../audiences/using/confirming-subscription-to-a-service.md)
 
@@ -185,7 +191,7 @@ Campaign Standard实施指南现已上线。[阅读更多](https://helpx.adobe.c
 
 添加了有关如何使用在工作流的外部信号活动中声明的事件变量个性化传送标签的信息。 [阅读更多](../../automating/using/external-signal.md)
 
-新增了一节，详细介绍了如何在Adobe Campaign standard中创建用户。 [阅读更多](../../administration/using/users-management.md)
+新增了一节，详细介绍了如何在Adobe Campaign Standard中创建用户。 [阅读更多](../../administration/using/users-management.md)
 
 现在提供了一篇新文章，其中包含用于简化营销活动的提示，包括产品文档和教程视频的链接。[阅读更多](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
@@ -239,7 +245,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 直接从Adobe Campaign提供的上下文帮助链接已更新。
 
-以下页 [面将变](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 为Adobe Campaign standard的官方视频页面。
+以下页 [面将成为](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign Standard的官方视频页面。
 
 添加了有关数据保留的部分，其中包括标准表的默认保留值。 [阅读更多](../../administration/using/data-retention.md)
 
@@ -319,7 +325,7 @@ Dreamweaver集成部分已更新和改进。 [阅读更多](../../designing/usin
 
 添加了有关如何链接自定义资源的信息。 [阅读更多](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-关于如何从Adobe Campaign standard推送通知显示图像，已添加一项新技术。 [阅读更多](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+关于如何从Adobe Campaign Standard推送通知显示图像，已添加一项新技术。 [阅读更多](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 新增了推送跟踪实施技术。 [阅读更多](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
@@ -421,7 +427,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 添加了多语言模板的默认语言信息。 [阅读更多](../../channels/using/multilingual-messages-template.md)
 
-用户和安全指南已更新，以反映新Campaign standard实例以及从18.7版本开始未创建地理单位的现有实例的地理单位功能的折旧。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+用户和安全指南已更新，以反映新Campaign Standard实例以及从18.7版本开始未创建地理单位的现有实例的地理单位功能的折旧。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 18.6版- 2018年6月 {#release-18-6---june-2018}
 
@@ -579,7 +585,7 @@ API信号活动触发——阅 [读更多](../../api/using/triggering-a-signal-a
 
 添加了有关“传输文件”活动的“历史记录”设置的信息。 [阅读更多](../../automating/using/transfer-file.md)
 
-配置与Audience manager或People核心服务集成的说明已更新。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+配置与Audience Manager或People核心服务集成的说明已更新。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
@@ -607,11 +613,11 @@ API信号活动触发——阅 [读更多](../../api/using/triggering-a-signal-a
 
 “自定义资源”部分已经过说明，其中包含有关如何定义过滤器的更详细 [的过程](../../developing/using/configuring-filter-definition.md)。
 
-更新并阐明 [了如何将](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK与移动应用程序集成以接收Adobe Campaign standard推送通知的技术说明。
+更新并阐明 [了如何将](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK与移动应用程序集成以接收Adobe Campaign Standard推送通知的技术说明。
 
 添加了一项技术说明在移动应用程序中接收到的有效负荷的结构。 [阅读更多内容。](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-推送渠道配置 [部分已更新](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ,OS版本上的新有效负荷数据可用于在Adobe Mobile services界面中定义回发时添加。
+推送渠道配置 [部分已更新](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ,OS版本上的新有效负荷数据可用于在Adobe Mobile Services界面中定义回发时添加。
 
 SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
@@ -709,7 +715,7 @@ Adobe Campaign通知——阅 [读更多](../../administration/using/sending-int
 
 现在提供了新的技术说明：“将Adobe Mobile SDK与您的移动应用程序集成”。 [阅读更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-有关配置People核心服务或Audience manager与Adobe Campaign集成的说明已更新。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+有关配置People核心服务或Audience Manager与Adobe Campaign集成的说明已更新。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改了授权表，使某些角色的功能更加清晰。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -737,7 +743,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 报告指示器计算现在可用于动态报告，包括完整说明和计算公式。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
-有关Adobe Mobile services配置的新专用部分，用于在Adobe Campaign中使用推送通知和目标点数据。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+有关Adobe Mobile Services配置的新专用部分，用于在Adobe Campaign中使用推送通知和目标点数据。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 更新了移动应用程序配置和实施部分，包括设置和发送推送通知的更详细步骤。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
