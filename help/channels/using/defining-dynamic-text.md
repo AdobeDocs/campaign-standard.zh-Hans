@@ -12,14 +12,14 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
 
 # 定义动态文本{#defining-dynamic-text}
 
-动态文本的定义方式与动态内容相同。 请参阅定义 [动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 。
+动态文本的定义方式与动态内容相同。 请参阅定义 [动态内容部分](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 以下示例演示如何定义SMS消息中的动态文本。
 
 1. 在消息或登录页面的正文中选择文本。
-1. Click **[!UICONTROL Enable dynamic text]**.
+1. 单击 **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
