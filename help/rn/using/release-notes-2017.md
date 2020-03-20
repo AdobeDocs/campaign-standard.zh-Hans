@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -84,11 +84,11 @@ _报告_
 
 _工作流_
 
-* 修复了活动中 **[!UICONTROL Load file]**在手动添加和删除活动中的列后可能导致错误的问题。
-* 技术 **[!UICONTROL deliverabilityUpdate]**工作流程现在计划在服务器时间凌晨2点运行。
+* 修复了活动中 **[!UICONTROL Load file]** 在手动添加和删除活动中的列后可能导致错误的问题。
+* 技术 **[!UICONTROL deliverabilityUpdate]** 工作流程现在计划在服务器时间凌晨2点运行。
 * 修复了允许在不具有导出角色的情况下执行列表导出的安全问题。
-* 修复了活动的问 **[!UICONTROL Reconciliation]**题。
-* 修复了在活动中使用通配符的问 **[!UICONTROL File Transfer]**题。
+* 修复了活动的问 **[!UICONTROL Reconciliation]** 题。
+* 修复了在活动中使用通配符的问 **[!UICONTROL File Transfer]** 题。
 
 _用户档案和受众_
 
@@ -126,7 +126,7 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 具有来源和日期的批量订阅<br /> </td> 
-   <td> 通过此批量订阅增强功能，您现在可以通过工作流中的订阅服务活动直接在Adobe Campaign standard数据库中存储订阅信息（源和日期）。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
+   <td> 通过此批量订阅增强功能，您现在可以通过工作流中的订阅服务活动直接在Adobe Campaign Standard数据库中存储订阅信息（源和日期）。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +194,7 @@ _用户档案和受众_
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。 有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，您将收到持续分发进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得通知，并使用户能够立即直接从应用程序内对活动通知采取行动。 团队的成果是高级敏捷性、效率和更顺畅的营销活动执行。 有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交付警报<br /> </td> 
@@ -202,7 +202,7 @@ _用户档案和受众_
   </tr> 
   <tr> 
    <td> 数据源中的加密Declared ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID发送电子邮件和SMS触发器，而无需在Campaign中存在配置文件。 由于加密的Declared ID可以由Adobe Campaign Standard解码，因此，从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售档案。<br /> 通过电子邮件和短信实时定位客户和未知的潜在客户，分别提高现有客户群的忠诚度和赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 从营销活动到分析的KPI共享<br /> </td> 
@@ -219,17 +219,17 @@ _用户档案和受众_
 
 _常规_
 
-* 修复了允许任何用户导出列表的问题。 现在，仅允许具有该角 **[!UICONTROL Export]**色的用户访问。
+* 修复了允许任何用户导出列表的问题。 现在，仅允许具有该角 **[!UICONTROL Export]** 色的用户访问。
 
 _电子邮件、短信和直邮_
 
-* 修复了updateDeliveryExecInfo **（更新交付执行信息）** 工作流程中将SMS发送的“ **To deliver** indicator”（发送指示符）设置为0的问题。
+* 修复了updateDeliveryExecInfo **(更新交** 付执行信息)工作流程中将SMS发送的“ **To deliver** indicator”（传送指示符）设置为0的问题。
 * 在交 **付模板属性的** “高级参数”中，“路由选择 **** ”下拉列表现在仅显示与模板消息类型对应的外部帐户。 例如，电子邮件分发模板仅显示电子邮件外部帐户。
-* 修复了为测试配置文件定 **[!UICONTROL Text]**义的首选电子邮件格式的问题。
+* 修复了为测试配置文件定 **[!UICONTROL Text]** 义的首选电子邮件格式的问题。
 * 修复了在分发的计划定义屏幕中选择默认时区时导致Javascript错误的问题。
 * 修复了阻止陷阱显示在发送日志中的问题。
 * 现在，在交付创建向导的模板选择屏幕中，默认情况下隐藏跟进和A/B测试模板。 有关详细信息，请参阅详 [细文档](../../channels/using/creating-an-email.md)。
-* 修复了允许任何用户发送分发的问题。 现在，仅允许具有该角 **[!UICONTROL Start deliveries]**色的用户访问。 有关详细信息，请参阅详[细文档](../../sending/using/confirming-the-send.md)。
+* 修复了允许任何用户发送分发的问题。 现在，仅允许具有该角 **[!UICONTROL Start deliveries]** 色的用户访问。 有关详细信息，请参阅详 [细文档](../../sending/using/confirming-the-send.md)。
 
 _推送通知_
 
@@ -270,7 +270,7 @@ _工作流_
   </tr> 
   <tr> 
    <td> 密件抄送<br /> </td> 
-   <td> 密件抄送电子邮件可保存发送给各个收件人的唯一电子邮件，因此品牌可以存档这些邮件。 通过向所有电子邮件添加密送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的准确副本。 这是金融服务业的常见法律要求，有助于客户服务中心实时解决冲突。<br /> 有关详细信息，请参阅详 <a href="../../administration/using/configuring-email-channel.md#archiving-emails">细文档</a>。<br /> </td> 
+   <td> 密件抄送电子邮件可保存发送给各个收件人的唯一电子邮件，因此品牌可以存档这些邮件。 通过向所有电子邮件添加密送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的准确副本。 这是金融服务业的常见法律要求，有助于客户服务中心实时解决冲突。<br /> 有关详细信息，请参阅详 <a href="../../sending/using/archiving.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,20 +279,20 @@ _工作流_
 
 _界面更新_
 
-* 在顶部栏中，已删 **[!UICONTROL Timeline]**除链接，并替换为指向的链接**[!UICONTROL Programs & Campaigns]** 。
+* 在顶部栏中，已删 **[!UICONTROL Timeline]** 除链接，并替换为指向的链接 **[!UICONTROL Programs & Campaigns]** 。
 
 _电子邮件和SMS消息_
 
-* 修复了传送状态显示错误颜色 **[!UICONTROL Retry in progress]**的问题。 颜色是灰色而不是蓝色。
+* 修复了为传送状态显示错误颜色 **[!UICONTROL Retry in progress]** 的问题。 颜色是灰色而不是蓝色。
 
 _工作流_
 
-* 修复了将操作更改为在活动中执行时发生的问 **[!UICONTROL Transfer file]**题。
+* 修复了将操作更改为在活动中执行时发生的问 **[!UICONTROL Transfer file]** 题。
 
 _报告_
 
-* 已 **[!UICONTROL Spam]**更改**[!UICONTROL Spam rate]** 了计算和指示符。
-* 改进 **[!UICONTROL Bounce]**了指标，以获得更准确的结果。
+* 已 **[!UICONTROL Spam]** 更改 **[!UICONTROL Spam rate]** 了计算和指示符。
+* 改进 **[!UICONTROL Bounce]** 了指标，以获得更准确的结果。
 
 _推送通知_
 
@@ -313,7 +313,7 @@ _推送通知_
  <tbody> 
   <tr> 
    <td> 借助Creative SDK增强的图像编辑功能<br /> </td> 
-   <td> 现在，您可以访问由Creative SDK提供支持的一整套功能，在编辑电子邮件或登录页面时直接在内容编辑器中增强您的图像。<br /> 此功能不需要获取其他Creative cloud解决方案。<br /> 有关详细信息，请参阅详 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">细文档</a>。<br /> </td> 
+   <td> 现在，您可以访问由Creative SDK提供支持的一整套功能，在编辑电子邮件或登录页面时直接在内容编辑器中增强您的图像。<br /> 此功能不需要获取其他Creative Cloud解决方案。<br /> 有关详细信息，请参阅详 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交易推送通知<br /> </td> 
@@ -355,14 +355,14 @@ _交易消息_
 
 _登陆页面_
 
-* 我们优化了登录页 **[!UICONTROL by email]**面中使用的过滤器，以协调新订阅者与数据库配置文件。
+* 我们优化了登录页 **[!UICONTROL by email]** 面中使用的过滤器，以协调新订阅者与数据库配置文件。
 * 修复了在表单配置中使用布尔字段时显示自由文本输入而非复选框的问题。
 * 修复了导致无法生成登录页面缩略图的问题。
 
 _工作流_
 
-* 修复了编辑活动时(仅 **[!UICONTROL End]**限Safari)**[!UICONTROL External Signal]** 的显示错误。
-* 改进了编辑包含错误受众的活 **[!UICONTROL Read Audience]**动时显示的错误消息。
+* 修复了编辑活动时(仅 **[!UICONTROL End]** 限Safari) **[!UICONTROL External Signal]** 的显示错误。
+* 改进了编辑包含错误受众的活 **[!UICONTROL Read Audience]** 动时显示的错误消息。
 * 修复了在执行订阅活动时可能导致SQL错误的问题。
 
 _集成_
@@ -381,7 +381,7 @@ _报告_
 
 _推送通知_
 
-* 修复了在创建链接到MCPNS上创建失败的移动应用程序的Android应用程序时，不显示错误消息的问题。
+* 修复了在创建链接到在MCPNS上创建失败的移动应用程序的Android应用程序时，不显示错误消息的问题。
 * 修复了允许用户向无提示通知添加声音的问题。
 
 ## 17.2版- 2017年3月 {#release-17-2---march-2017}
@@ -454,7 +454,7 @@ _常规_
 
 _电子邮件和SMS消息_
 
-* 修复了即使在取消选 **[!UICONTROL Request confirmation before sending messages]**中选项并保存交付后仍保持选中状态的问题。
+* 修复了即使在取消选 **[!UICONTROL Request confirmation before sending messages]** 中选项并保存交付后仍保持选中状态的问题。
 * 修复了可能阻止取消发布交易电子邮件的问题。
 * 修复了在预览分发之前，内容无法与最新更改正确同步的问题。
 
@@ -464,8 +464,8 @@ _登陆页面_
 
 _工作流_
 
-* 修复了可能无法读取活动拒绝转换内容的问 **[!UICONTROL Load file]**题。
-* 修复了在配置活动时无法正确考虑交换列的问 **[!UICONTROL Load file]**题。
+* 修复了可能无法读取活动拒绝转换内容的问 **[!UICONTROL Load file]** 题。
+* 修复了在配置活动时无法正确考虑交换列的问 **[!UICONTROL Load file]** 题。
 
 ## 17.1版- 2017年1月 {#release-17-1---january-2017}
 
@@ -513,7 +513,7 @@ _工作流_
 
 _常规_
 
-* 这些 **[!UICONTROL Access authorization]**选项已返回到登录页面属性。
+* 这些 **[!UICONTROL Access authorization]** 选项已返回到登录页面属性。
 * 修复了可能导致旧图像而不是正确图像呈现的问题。 如果源图像在分发或登录页面的内容定义中已更新，则会发生这种情况。
 * 修复了阻止用户编辑现有SFTP外部帐户中某些字段的问题。
 * 修复了多个UI问题。 例如，用户现在可以编辑配置文件属性并保存修改，而不会遇到UI问题。
@@ -525,21 +525,21 @@ _电子邮件和SMS消息_
 _推送通知_
 
 * 修复了可能阻止从应用程序回传到Adobe Campaign服务器的问题。
-* 修复了可能已阻止并 **[!UICONTROL Play a sound]**需要**[!UICONTROL Custom fields]** 考虑Android的问题。
+* 修复了可能已阻止并 **[!UICONTROL Play a sound]** 需要 **[!UICONTROL Custom fields]** 考虑Android的问题。
 * 修复了可能导致向用于Emoji的Unicode字符添加额外转义字符的问题。
 * 当订阅者的注册令牌被列入黑名单时，Adobe Campaign中的订阅者列表中的相应状态现在会立即更新。
 
 _工作流_
 
 * 修复了可能阻止预览事件资源（例如rtEvent）上的查询的问题。
-* 现在，可以在活动的出站过 **[!UICONTROL Load file]**渡中检索由活动生成的拒绝文件，并在下一个活动中进行处理。 例如，使用通过SFTP服务器上传拒绝文件**[!UICONTROL Transfer file]** 。
-* 修复了在的选项卡中选择时，用户可能无法限制区段 **[!UICONTROL Temporary resource]**人口的**[!UICONTROL General]** 问题 **[!UICONTROL Segmentation]**。
-* **[!UICONTROL Scheduler]**活动不能再设置为每10分钟多触发一次工作流。
-* 修复了可能妨碍在活动 **[!UICONTROL Use common columns]**中正常工作的问**[!UICONTROL Union]** 题。
+* 现在，可以在活动的出站过 **[!UICONTROL Load file]** 渡中检索由活动生成的拒绝文件，并在下一个活动中进行处理。 例如，使用通过SFTP服务器上传拒绝文件 **[!UICONTROL Transfer file]** 。
+* 修复了在的选项卡中选择时，用户可能无法限制区段 **[!UICONTROL Temporary resource]** 人口的 **[!UICONTROL General]** 问题 **[!UICONTROL Segmentation]** 。
+* **[!UICONTROL Scheduler]** 活动不能再设置为每10分钟多触发一次工作流。
+* 修复了可能妨碍在活动 **[!UICONTROL Use common columns]** 中正常工作的问 **[!UICONTROL Union]** 题。
 
 _集成_
 
-* 修复了在Adobe Campaign中部署活动触发器时可能导致错误的问题。 当“30天后返回的可能性”元数据添加到Adobe Marketing cloud中的“放弃”触发器时，会发生此错误。
+* 修复了在Adobe Campaign中部署活动触发器时可能导致错误的问题。 当“30天后返回的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从People核心服务导入受众时，可能导致技术工作流清除Target维字段的问题。 后续查询无法检索导入的受众。
-* 修复了选中选项时可 **[!UICONTROL Save audience]**能导致工作流活动失败的**[!UICONTROL Share in Adobe Marketing Cloud]** 问题。
+* 修复了选中选项时可 **[!UICONTROL Save audience]** 能导致工作流活动失败的 **[!UICONTROL Share in Adobe Marketing Cloud]** 问题。
 
