@@ -12,14 +12,14 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
 
 # 使用外部参数调用工作流{#calling-a-workflow-with-external-parameters}
 
-Campaign standard允许您调用包含参数（受众名称要定位、要导入的文件名称、消息内容的一部分等）的工作流。 这样，您便可以轻松地将Campaign自动化与外部系统集成。
+Campaign Standard允许您调用包含参数（受众名称要定位、要导入的文件名称、消息内容的一部分等）的工作流。 这样，您便可以轻松地将Campaign自动化与外部系统集成。
 
 让我们举一个例子，我们希望从CMS直接发送电子邮件。 在这种情况下，您可以配置系统以选择受众并将内容通过电子邮件发送到CMS。 单击发送后，将使用这些参数调用营销活动工作流，以便您在工作流中使用这些参数来定义要在分发中使用的受众和URL内容。
 
@@ -114,7 +114,7 @@ $(vars/@parameterName)
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png):在工作流中可用的所有变量中选择事件变量（请参阅）。
+* ![](assets/extsignal_picker.png):从工作流中可用的所有变量中选择事件变量。
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -162,7 +162,7 @@ $(vars/@parameterName)
 >
 >每次准备递送时，检索递送参数的值。
 >
->重复交付准备基于交付汇总 **期**。 例如，如果汇总期间为“按天”，则每天只重新准备一次交付。 如果在一天中修改了交付参数的值，则交付中不会更新它，因为它已准备一次。
+>重复交付准备基于交付汇总 **期**。 例如，如果汇总期间为“按天”，则每天只重新准备一次交付。 如果在一天中修改了交付参数的值，则在交付中不会更新它，因为它已准备一次。
 >
 >如果您计划每天多次调用工作流，请使 [!UICONTROL No aggregation] 用选项，以便每次都更新传送参数。 有关重复提交配置的详细信息，请参阅 [此部分](/help/automating/using/email-delivery.md#configuration)。
 
@@ -199,7 +199,7 @@ $(vars/@parameterName)
 
 ![](assets/extsignal_activities_segment.png)
 
-**传送标签**:根据事件变量定义交付标签。
+**传送标签**:根据事件变量定义传送标签。
 
 ![](assets/extsignal_activities_label.png)
 
