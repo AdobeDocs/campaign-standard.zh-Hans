@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -206,7 +206,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
       >[!NOTE]
       >
-      >如果您计划向这些配置文件发送直邮，请确保包含邮政地址，因为此信息对直邮提供商至关重要。 另外，请确保已选 **[!UICONTROL Address specified]** 中配置文件信息中的框。 要从工作流更新此选项，只需向要更新的字段添加一个元素，将 **1** 指定为，然 **[!UICONTROL Source]** 后选择 **PostalAddress/@addrDefined** field as **[!UICONTROL Destination]**。 有关直邮和使用选项的更多信 **[!UICONTROL Address specified]** 息，请参阅 [本文档](../../channels/using/about-direct-mail.md#recommendations)。
+      >如果您计划向这些配置文件发送直邮，请确保包含邮政地址，因为此信息对直邮提供商至关重要。 另外，请确保已选 **[!UICONTROL Address specified]** 中配置文件信息中的框。 要从工作流更新此选项，只需向要更新的字段中添加元素，然后指定 **1** **[!UICONTROL Source]** as并选择 `postalAddress/@addrDefined` 字段 **[!UICONTROL Destination]**。 有关直邮和使用选项的更多信 **[!UICONTROL Address specified]** 息，请参阅 [本文档](../../channels/using/about-direct-mail.md#recommendations)。
 
 1. 配置转 **[!UICONTROL Deduplication]** 换后包含未协调配置文件的活动：
 
@@ -225,7 +225,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
       ![](assets/import_template_example6.png)
 
-   * 在选项 **[!UICONTROL Fields to update]** 卡中，指示配置文件维中的字段，以使用文件中的相应列的值进行更新。 如果文件列的名称与收件人维字段的名称相同或几乎相同，则可以使用魔棒按钮自动匹配不同的字段。
+   * 在选项 **[!UICONTROL Fields to update]** 卡中，指示配置文件维中的字段，以使用文件中相应列的值进行更新。 如果文件列的名称与收件人维字段的名称相同或几乎相同，则可以使用魔棒按钮自动匹配不同的字段。
 
       ![](assets/import_template_example6_2.png)
 
