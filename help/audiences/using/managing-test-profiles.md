@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,10 +28,10 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 测试配置文件包含由发送者控制的虚假联系信息或联系信息，这些信息随后可用于以下上下文中的消息：
 
-* 用于发送 **校样**:证明是用于在向收件人发送最终交付之前检查消息的特定消息。 Proof测试配置文件负责检查分发的内容和格式。 请参阅 [发送校样](../../sending/using/sending-proofs.md)。
+* 用于发送 **校样**:证明是用于在将最终交付发送给收件人之前检查消息的特定消息。 Proof测试配置文件负责检查交付内容和格式。 请参阅 [发送校样](../../sending/using/sending-proofs.md)。
 * 对于电 **子邮件渲染**:电子邮件呈现测试配置文件用于检查根据接收消息的收件箱显示消息的方式。 例如，Web邮件、消息服务、移动等。 请参阅 [电子邮件渲染](../../sending/using/email-rendering.md)。
 
-   电子 **邮件渲染** ，使用是只读的。 使用此功能的测试配置文件仅在Adobe Campaign中现成可用。
+   电 **子邮件呈现** 使用为只读。 使用此功能的测试配置文件仅在Adobe Campaign中现成可用。
 
 * 作为陷 **阱**:消息将发送到测试配置文件，就像发送到主目标一样。 请参阅 [使用陷印](../../sending/using/using-traps.md)。
 * 要预览 **消息** ，请执行以下操作：在预览消息以测试个性化元素时，可以选择测试配置文件。 请参阅 [预览消息](/help/sending/using/previewing-messages.md)。
@@ -80,4 +80,4 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
    ![](assets/test_profile_edit.png)
 
-1. 单 **[!UICONTROL Save]****[!UICONTROL Test profiles]** 击（如果已输入更改），或选择测试配置文件的名称，然后在屏幕顶部的部分中返回至测试配置文件功能板。
+1. 单 **[!UICONTROL Save]** 击（如果已输入更改），或选择测试配置文件的名称，然后在屏幕顶部的部分中 **[!UICONTROL Test profiles]** ，返回至测试配置文件功能板。
