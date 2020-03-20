@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ The following parameters are available for each rule:
    还可以使用已声明到工作流的外部信号活动中的事件变量个性化传送标签。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**:此选项允许您在准备阶段将SQL查询日志添加到日志中。
+
+#### 校样设置 {#proof-settings}
+
+此部分允许您配置要在证明的主题行中使用的默认前缀。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### 电子邮件SMTP参数列表 {#list-of-email-smtp-parameters}
 
