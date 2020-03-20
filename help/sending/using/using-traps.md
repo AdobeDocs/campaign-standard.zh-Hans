@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -59,6 +59,8 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
    ![](assets/trap_confirm.png)
 
 消息将发送到主目标和测试配置文件。
+
+在发送事务性消息时，可以使用陷阱。 在这种情况下，测试配置文件将收到一条消息，每条事件配置。 有关事务性消息传递的更多信息，请参 [阅此部分](../../channels/using/about-transactional-messaging.md)。
 
 >[!NOTE]
 >
