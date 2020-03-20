@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
 ## 顶栏 {#top-bar}
 
-顶栏在每个屏幕上都可见，它允许您浏览Adobe Campaign功能，并访问连接的Adobe配置文件、通知、其他Adobe Experience cloud服务和解决方案以及文档。
+顶栏在每个屏幕上都可见，它允许您浏览Adobe Campaign功能，并访问连接的Adobe配置文件、通知、其他Adobe Experience Cloud服务和解决方案以及文档。
 
 导航原则有：
 
@@ -59,13 +59,26 @@ Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 
 * 该链 **[!UICONTROL Home]** 接允许您显示Adobe Campaign主页。
 * 通过 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]**&#x200B;链接， **[!UICONTROL Audiences]** 您可以访 **[!UICONTROL Reports]** 问链接到这些功能的视图。
-* 通过 **[!UICONTROL Help]** 该按钮可访问产品文档和上下文帮助、发行说明、版本号、法律声明，以及指向Adobe Experience cloud社区和客户关怀的链接。
-
-   ![](assets/ux_help.png)
-
-* 通过 **选择解决方案** ，您可以切换到其他Adobe Experience cloud解决方案以及配置文件设置。
+* 通过 **[!UICONTROL Help]** 该按钮可访问产品文档和上下文帮助、发行说明、版本号、法律声明，以及指向Adobe Experience Cloud社区和客户关怀的链接。
+* “组织”按钮
+* 通过 **解决方案切换器** 图标，您可以切换到其他Adobe Experience Cloud解决方案以及配置文件设置。
 * 通知 **图标显示** ，以显示最新的警报或信息。
 * “用 **户** ”图标允许您显示与您的配置文件链接的信息。 它允许访问按 **[!UICONTROL Sign out]** 钮。
+
+### 帮助 {#help}
+
+* **[!UICONTROL Search]** 允许您检索文档、文章和视频，并按解决方案筛选内容
+
+* **[!UICONTROL Help]** 选项卡
+   * 通过链接，您可以快速访问与您正在浏览的页面相关的文章、文档和视频
+   * **[!UICONTROL Learning]** 此链接允许您访问Experience League。
+   * **[!UICONTROL Community]** 此链接允许您访问专门讨论ACS问题的论坛。
+
+* **[!UICONTROL Support]** 选项卡允许您创建支持票证，并通过电话或Twitter与我们联系。
+
+* **[!UICONTROL Feedback ]** 选项卡允许您共享有关该解决方案的问题和想法。
+
+   ![](assets/ux_help.png)
 
 ## 高级菜单 {#advanced-menu}
 
@@ -142,4 +155,3 @@ Adobe Campaign允许您浏览不同的菜单和屏幕以管理营销活动。
 * 有关与工作区类 **型屏幕** ，请参阅工作 [流的操作栏](../../automating/using/workflow-interface.md#action-bar) 。
 * 有关与功能板屏幕相 **关的操作** ，请参阅消息功 [能板](../../channels/using/message-dashboard.md) (Message Dashboard)部分以了解更多信息。
 * 有关与列表类型屏 **幕相关的** ，请参阅以下自定 [义列表部分](../../start/using/customizing-lists.md) 。
-
