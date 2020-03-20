@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -105,7 +105,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 1. 确认活动的配置并保存工作流。
 
-如果执行工作流后活动发生任何错误，请参阅日志以获取有关文件中不正确的值的更多详细信息。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+如果执行工作流后活动发生任何错误，请参阅日志以获取有关文件中不正确的值的更多详细信息。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## 列格式 {#column-format}
 
@@ -131,7 +131,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
    * **[!UICONTROL White space management]**:指定是否需要在Text数据的字符串中忽略某些 **空格** 。
    * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**:指定日期、时间 **和日期****** 、 **日期和时间数据的格式** 。
    * **[!UICONTROL Format]**:允许您为整数和浮动数数据定义数 **值****的格式** 。
-   * **[!UICONTROL Separator]**:为 **Date**、 **Time**、 **Date time和time定义列上下文数据指定的分隔符（数字值的千位分隔符或小数分隔符，日期和时间的分隔符）、** DateTime、Date Time ******** 、IntegerTinger、TherFloating number定义了上下文数据。
+   * **[!UICONTROL Separator]**:为 **Date**、 **Time**、 **Date time和time定义列上下文数据指定的分隔符（数字值的千位分隔符或小数分隔符，日期和时间的分隔符）、Date**、 ******** Date时间和Integer时间、IntegerContext Number和Helfating Data。
 
 * **[!UICONTROL Remapping of values]**:此字段仅在列详细信息配置中可用。 它允许您在导入某些值时对其进行转换。 例如，您可以将“three”转换为“3”。
 * **[!UICONTROL Error processing]**:定义遇到错误时的行为。
