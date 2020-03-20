@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,17 +21,17 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-该活 **[!UICONTROL External API]**动通过** REST API调用从外部系统将&#x200B;**数据引入**&#x200B;工作流中&#x200B;**。
+该活 **[!UICONTROL External API]** 动通过 **REST API调用从外部系统将** 数据引入 **工作流中** 。
 
 REST端点可以是客户管理系统、 [](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe I/O Runtime实例或Experience Cloud REST端点（数据平台、Target、Analytics、Campaign等）。
 
 >[!NOTE]
 >
->出于安全原因，Campaign standard不支持使用JSSP。 如果需要执行代码，可以通过外部API活动调用Adobe I/O Runtime实例。
+>出于安全原因，Campaign Standard不支持使用JSSP。 如果需要执行代码，可以通过外部API活动调用Adobe I/O Runtime实例。
 
 >[!IMPORTANT]
 >
->此功能目前处于测试阶段。 在开始使用外部API活动之前，您需要接受使用协议。 请注意，由于Adobe尚未以商业方式发布此测试版功能，因此Adobe Client Care不支持它，它可能包含错误，可能无法像其他已发布功能一样正常工作。
+>此功能目前处于测试阶段。 在开始使用外部API活动之前，您需要接受使用协议。 请注意，由于Adobe尚未以商业方式发布此测试版功能，因此Adobe Client Care不支持它，它可能包含错误，可能无法与其他已发布功能一样正常工作。
 
 本活动的主要特点是：
 
@@ -41,8 +41,8 @@ REST端点可以是客户管理系统、 [](https://www.adobe.io/apis/experience
 
 为此活动设置了以下护栏：
 
-* 5MB HTTP响应数据大小限制
-* 请求超时为60秒
+* 50MB HTTP响应数据大小限制
+* 请求超时为10分钟
 * 不允许HTTP重定向
 * 拒绝非HTTPS Url
 * “接受：application/json”请求标题和“Content-Type:application/json&quot;响应头被允许
@@ -53,7 +53,7 @@ REST端点可以是客户管理系统、 [](https://www.adobe.io/apis/experience
 
 ## 配置 {#configuration}
 
-将活动拖放到 **[!UICONTROL External API]**您的工作流中，然后打开活动以启动配置。
+将活动拖放到 **[!UICONTROL External API]** 您的工作流中，然后打开活动以启动配置。
 
 ### 入站映射
 
