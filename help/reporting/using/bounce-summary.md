@@ -1,19 +1,19 @@
 ---
 title: 退回摘要
 description: 通过“弹出摘要”现成报告，了解已发送营销活动的状态及其可能遇到的错误。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 报告列表
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
-context-tags: bounceReport,main;campaignLecurationReport,main;programLecurationReport,main
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * **[!UICONTROL User unknown]**:发送到无效电子邮件地址时生成的错误类型。
 * **[!UICONTROL Invalid domain]**:将分发发送到域错误或不再存在的电子邮件地址时生成的错误类型。
-* **[!UICONTROL Unreachable]**:消息传送字符串中遇到的错误类型。 例如，SMTP中继事件、域暂时不可访问等。
+* **[!UICONTROL Unreachable]**:消息传送字符串中遇到的错误类型，如域暂时不可访问。
 * **[!UICONTROL Account disabled]**:将分发发送到不再存在的电子邮件地址时生成的错误类型。
 * **[!UICONTROL Mailbox full]**:当收件人的收件箱已满时生成的错误类型。 在生成此错误之前，有五次尝试传送消息。
 * **[!UICONTROL Not connected]**:当接收方的移动电话关闭或消息发送时未连接到网络时生成的错误类型。
