@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# 预览消息{#previewing-messages}
+# 预览消息 {#previewing-messages}
 
-在窗口中添加测试配置 **[!UICONTROL Audience]** 文件后，您可以预览邮件以检查其个性化情况以及收件人如何看到您的分发。
+Campaign Standard允许您在发送邮件之前预览邮件，以检查邮件的个性化情况以及收件人如何看到邮件。
+
+消息预览是使用您 **添加到消息目标的** “测试配置文件”执行的。
+
+对于 **电子邮件** ,Campaign Standard允许您使用目标配置文件而非测试配置文件预览邮件。 这样，您就可以获得特定配置文件将收到的消息的精确表示形式。 有关此方面的详细信息，请参阅 [使用目标配置文件测试电子邮件](../../sending/using/testing-messages-using-target.md)。
+
+要使用测试配置文件预览消息，请按照以下步骤操作：
 
 1. 在“电子邮 [件设计器](../../designing/using/designing-content-in-adobe-campaign.md)”中，单击 **[!UICONTROL Preview]** 按钮。
 
@@ -39,3 +45,8 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/sending_preview_edit.png)
 
+**相关主题**
+
+* [管理测试配置文件](../../audiences/using/managing-test-profiles.md)
+* [使用目标配置文件测试电子邮件](../../sending/using/testing-messages-using-target.md)
+* [发送校样](../../sending/using/sending-proofs.md)
