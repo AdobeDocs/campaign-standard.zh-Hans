@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 本页列出了Adobe Campaign Standard每个版本的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign发 [行说明](../../rn/using/release-notes.md)。
+
+## 20.2版- 2020年3月 {#release-20-2---march-2020}
+
+**版本中包含的新功能**
+
+Azure Blob集成——阅 [读更多](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+统一的Experience Cloud界面和域——阅 [读更多](../../start/using/interface-description.md#top-bar)
+
+使用目标配置文件进行电子邮件测试- [阅读更多](../../sending/using/testing-messages-using-target.md)
+
+**随版本提供的其他文档更新**
+
+对应用程序内消息渲染的限制已添加。 [阅读更多](../../channels/using/customizing-an-in-app-message.md)
+
+已添加有关如何在活动中使用聚合的信息 **[!UICONTROL Query]** 。 [阅读更多](../../automating/using/query.md#adding-an-aggregate)
+
+在配置移动应用程序时，MCPNS增加了限制。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+《管理指南》中新增了配置指南一节。 关于兼容浏览器和操作系统的部分已从入门指南移至此部分。 Campaign Standard网络端点的技术也已添加到此部分。 [阅读更多](../../administration/using/about-configuration-guidelines.md)
+
+现在提供了描述如何删除事件配置的新部分。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+描述如何测试电子邮件主题行以预测其打开率的页面已更新和改进，包括新的疑难排解 [部分](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [阅读更多](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+事务消息部分已更新以反映多用户界面的细微更新和改进。 [阅读更多](../../channels/using/about-transactional-messaging.md)
+
+与外部API活动保护栏相关的信息已更新。 [阅读更多](../../automating/using/external-api.md)
 
 ## 文档更新- 2020年3月 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Campaign Email Designer文档和相关页面已更新，以反映Adobe Creative 
 
 已在工作流的属性中的 **[!UICONTROL History in days field]** 可用属性中添加了信息。 [阅读更多](../../automating/using/executing-a-workflow.md)
 
-## 20.1版- 2019年2月 {#release-20-1---february-2020}
+## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
 **版本中包含的新功能**
 
@@ -281,7 +309,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 “使用API扩展发布资源”部分已说明并更新为最新的UI更改。 [阅读更多](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-“存档电子邮件”部分已重命名并重新组织。 [阅读更多](../../administration/using/configuring-email-channel.md#archiving-emails)
+“存档电子邮件”部分已重命名并重新组织。 [阅读更多](../../sending/using/archiving.md)
 
 “创建电子邮件”部分已更新，以反映最新的界面更改。 [阅读更多](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Dreamweaver集成部分已更新和改进。 [阅读更多](../../designing/usin
 
 “创建自定义内容块”部分已增强，其中包含有关定位维度的详细信息。 [阅读更多](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-添加了警告，指示电子邮件设计器不支持Internet Explorer 11。 [阅读更多](../../start/using/compatible-browsers.md)
+添加了警告，指示电子邮件设计器不支持Internet Explorer 11。 [阅读更多](../../administration/using/compatible-browsers.md)
 
 删除资源部分中已添加有关重新起草影响的警告。 [阅读更多](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Campaign Standard和Classic的错误消息列表已更新。 [阅读更多](http
 
 更新了 [从URL文档导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-url) （其中包含与电子邮件设计人员相关的信息）。
 
-Microsoft Edge（最新版本）已添加到计算机的兼容浏览器列表中。 [阅读更多](../../start/using/compatible-browsers.md)
+Microsoft Edge（最新版本）已添加到计算机的兼容浏览器列表中。 [阅读更多](../../administration/using/compatible-browsers.md)
 
 添加了有关“提取文件”活动中新选项的信息，该信息可防止在入站过渡为空时生成文件。 [阅读更多](../../automating/using/extract-file.md)
 
@@ -737,7 +765,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 **随版本提供的其他文档更新**
 
-添加到不同类型Adobe Campaign用户的部分。 [阅读更多](../../administration/using/users-management.md)
+添加到不同类型的Adobe Campaign用户上的部分。 [阅读更多](../../administration/using/users-management.md)
 
 重新组织并扩展了工作流指南。 轻松查找如何构建和执行工作流 [、如何定位和管理您的](../../automating/using/building-a-workflow.md) 数据、如何导 [](../../automating/using/executing-a-workflow.md)[](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 入数据、如何使用工作流、如何更新数据库或发送交付的工作流，以及如何使用工作流来更新数据库或发送交付。
 
