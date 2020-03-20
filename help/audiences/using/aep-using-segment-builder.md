@@ -1,5 +1,5 @@
 ---
-title: 使用统一的细分构建器
+title: 使用统一的区段生成器
 description: 了解如何使用统一的细分构建器创建受众。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,18 +13,18 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
 
-# 使用统一的细分构建器 {#using-the-unified-segment-builder}
+# 使用统一的区段生成器 {#using-the-unified-segment-builder}
 
 >[!IMPORTANT]
 >
 >受众目标服务目前处于测试阶段，可能会在不另行通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
-Unified Segment Builder允许您根据来自Unified Profile service的数据定义规则，从而建立 [受众](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+Unified Segment Builder允许您根据来自Unified Profile Service的数据定义规则，从而建立 [受众](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
 本节介绍构建区段时的全局概念。 有关“统一的区段生成器”本身的详细信息，请参阅“区 [段生成器”用户指南](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
@@ -60,7 +60,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Click the **[!UICONTROL Create segment]**button.
+1. Click the **[!UICONTROL Create segment]** button.
 
 ## 查找区段的正确字段
 
@@ -70,7 +70,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
 字段按选项卡进行组织：
 
-* **[!UICONTROL Attributes]**:可能源自Adobe Campaign数据库和／或Adobe Experience Platform的现有配置文件属性。 它们指附加到个人资料的静态信息（例如，电子邮件地址、居住国家／地区、忠诚度计划状态等）。
+* **[!UICONTROL Attributes]**:可能源自您的Adobe Campaign数据库和／或Adobe Experience Platform的现有配置文件属性。 它们指附加到个人资料的静态信息（例如，电子邮件地址、居住国家／地区、忠诚度计划状态等）。
 
    ![](assets/aep_audiences_attributestab.png)
 
@@ -84,7 +84,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 >
 >有关详细信息，请参阅专 [用文档](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
-默认情况下，“统一区段构建器”显示已存在数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设 **[!UICONTROL Show full XDM schema]**置中的选项。
+默认情况下，“统一区段构建器”显示已存在数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设 **[!UICONTROL Show full XDM schema]** 置中的选项。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -108,9 +108,9 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
    ![](assets/aep_audiences_malegender.png)
 
-   在该节中自动重新计算与该段对应的估计人 **[!UICONTROL Segment Properties]**口。
+   在该节中自动重新计算与该段对应的估计人 **[!UICONTROL Segment Properties]** 口。
 
-1. 通过 **[!UICONTROL View Profiles]**该按钮可预览与规则对应的前20条记录，从而使您能够快速验证区段。
+1. 通过 **[!UICONTROL View Profiles]** 该按钮可预览与规则对应的前20条记录，从而使您能够快速验证区段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ Unified Segment Builder允许您根据来自Unified Profile service的数据定�
 
 1. 选择将与第一个字段进行比较的第二个字段（例如，工作地址邮政编码）。
 
-   将其拖动到中心工作区中，该工作区与框中的第一个字段位于同一容 **[!UICONTROL Drop here to compare operands]**器中。
+   将其拖动到中心工作区中，该工作区与框中的第一个字段位于同一容 **[!UICONTROL Drop here to compare operands]** 器中。
 
    ![](assets/aep_audiences_comparing_2.png)
 
