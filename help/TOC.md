@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + 之前版本 {#previous-releases}
+      + [发行说明 2020](rn/using/release-notes-2020.md)
       + [发行说明 2019](rn/using/release-notes-2019.md)
       + [发行说明 2018](rn/using/release-notes-2018.md)
       + [发行说明 2017](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面描述](start/using/interface-description.md)
-      + [兼容的浏览器](start/using/compatible-browsers.md)
       + [自定义列表](start/using/customizing-lists.md)
    + 营销计划 {#marketing-plans}
       + [计划和营销活动](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [预览消息](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
       + [发送校样](sending/using/sending-proofs.md)
+      + [使用目标配置文件测试电子邮件](sending/using/testing-messages-using-target.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [使用陷印](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [访客](developing/using/datamodel-visitor.md)
 + 管理 {#administrating}
    + [关于管理 Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + 配置准则 {#configuration-guidelines}
+      + [关于配置准则](administration/using/about-configuration-guidelines.md)
+      + [兼容的浏览器](administration/using/compatible-browsers.md)
+      + [Campaign Standard网络端点](administration/using/campaign-standard-network-endpoints.md)
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
       + [用户管理](administration/using/users-management.md)
