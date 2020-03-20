@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -96,7 +96,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    如果您看到此消息，则在IP关联定义级别或发送进程级别会出现问题。 联系您的Adobe管理员。
 
-* *“此交易消息是现成的交易消息模板。 如果要修改它，您必须复制它并处理副本。”*
+* *“这是现成的交易消息模板。 如果要修改它，您必须复制它并处理副本。”*
 
    其中一些现成的事务性消息模板是内置的登录页面模板。 For more on this, see [this section](../../channels/using/landing-page-templates.md).
 
