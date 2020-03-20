@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
 
 * **[!UICONTROL User unknown]** （硬类型）:地址不存在。 不会尝试对此配置文件进行进一步提交。
 * **[!UICONTROL Quarantined address]** （硬类型）:地址被隔离了。
-* **[!UICONTROL Unreachable]** （软／硬类型）:消息传送链中发生错误（SMTP中继上发生事件，域暂时无法访问等）。 根据提供商返回的错误，地址将直接发送到隔离，或者在Campaign收到将隔离状态证明为合理的错误或错误数量达到5之前，将再次尝试传送。
+* **[!UICONTROL Unreachable]** （软／硬类型）:消息传送链中发生错误（例如，域暂时无法访问）。 根据提供商返回的错误，地址将直接发送到隔离，或者在Campaign收到将隔离状态证明为合理的错误或错误数量达到5之前，将再次尝试传送。
 * **[!UICONTROL Address empty]** （硬类型）:地址未定义。
 * **[!UICONTROL Mailbox full]** （可变类型）:此用户的邮箱已满，无法接受更多消息。 可以从隔离列表中删除此地址以再次尝试。 30天后自动删除。
 
