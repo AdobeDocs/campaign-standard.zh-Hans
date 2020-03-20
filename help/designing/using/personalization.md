@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign提供的内容和消息显示可以通过多种不同的方式进
 * 插入动态的个性化字段。请参 [阅插入个性化字段](#inserting-a-personalization-field)。
 * 插入预定义的个性化基块。 请参 [阅添加内容块](#adding-a-content-block)。
 * 个性化电子邮件的发送者。 请参 [阅个性化发送者](#personalizing-the-sender)。
-* 个性化电子邮件主题。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* 个性化电子邮件主题。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * 创建条件性内容。请参阅 [在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)。
 
 ## 个性化发送者 {#personalizing-the-sender}
@@ -292,9 +292,9 @@ Adobe Campaign允许您根据特定标准个性化消息中的一个或多个图
 
 1. 您使用两种不同的条件定 **义两种不同的动态内容**，例如：
 
-   **** 条件1:侧写的性别是男性的，
+   **条件1:** 侧写的性别是男性的，
 
-   **** 条件2:档案有20到30年历史。
+   **条件2:** 档案有20到30年历史。
 
    ![](assets/delivery_content_61.png)
 
