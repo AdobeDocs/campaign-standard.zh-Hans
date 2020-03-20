@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 * [自定义消息](#customizing-with-a-custom-html-message):通过此模板可导入自定义HTML。
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> 仅Android API 19及更高版本支持应用程序内消息渲染。
 
 **相关主题：**
 
@@ -65,7 +69,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ![](assets/inapp_customize_4.png)
 
-### 媒体 {#media}
+### Media {#media}
 
 通过 **[!UICONTROL Media]** 此下拉框，您可以向应用程序内消息中添加媒体，为最终用户创建引人入胜的体验。
 
