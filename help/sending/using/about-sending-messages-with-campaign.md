@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # 关于使用 Campaign 发送消息{#about-sending-messages-with-campaign}
 
-定义目标并创建消息内容后，您需要先对其进行测试并批准，然后再将其发送到主目标。 操作步骤：
+定义目标并创建消息内容后，您需要先测试并批准该目标，然后再将消息发送到主目标。 操作步骤：
 
 * 使用测试配置文件预览交付。
 * 计划发送：定义何时发送消息。
