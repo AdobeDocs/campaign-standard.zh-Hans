@@ -1,19 +1,19 @@
 ---
 title: 订阅服务
 description: 订阅服务活动允许您批量接收配置文件并将其订阅到服务或取消订阅服务。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 数据管理活动
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
-context-tags: setOfService，工作流，主
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
       在此列中，必须将操作指定为Boolean或Integer。 使用 **0** 可取消订阅记录， **使用** 1可订阅。
 
-      如果导入文件中包含的值与上述要求不匹配，您仍可以使用活动中可用的“重 [新映射值](../../automating/using/load-file.md#column-format) ”选项 **[!UICONTROL Load file]** 。
+      如果导入文件中包含的值与上述要求不匹配，您仍可以使用活动中可用的 [Remapping of values](../../automating/using/load-file.md#column-format)**[!UICONTROL Load file]** （值重映射）选项。
 
 1. 如果入站数据包含一列，该列与服务的配置文件的订阅日期相对应，请选择该列。 您可以将其留空，但运行工作流时不会设置订阅日期。
 1. 定义订阅的源。 您可以通过选中该选项将其设置为入站数据的一个字段或您选择的常数 **[!UICONTROL Set a constant as origin]** 值。 可以将其留空，但运行工作流时不设置源。
