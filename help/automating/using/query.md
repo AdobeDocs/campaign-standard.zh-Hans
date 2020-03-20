@@ -1,19 +1,19 @@
 ---
 title: 查询
 description: 查询活动允许您从Adobe Campaign数据库中过滤和提取元素总量。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 定位活动
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
-context-tags: 查询，主
+context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。 默认情况下，活动已预配置为搜索配置文件。
 1. 如果要对配置文件资源以外的资源运行查询，请转到活动的选项卡，然 **[!UICONTROL Properties]** 后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
-   该选 **[!UICONTROL Resource]****[!UICONTROL Targeting dimension]**&#x200B;项允许您调整调色板中显示的过滤器，而与所选资源相关的上下文过滤器与您要获取的人群类型（已识别的配置文件、交付、链接到所选资源的数据等）相对应。
+   该选 **[!UICONTROL Resource]****[!UICONTROL Targeting dimension]**&#x200B;项允许您调整调色板中显示的过滤器，而与所选资源相关的上下文过滤器与您要获取的人口类型（已识别的配置文件、交付、链接到所选资源的数据等）相对应。
 
    有关详细信息，请参阅定 [位维和资源](#targeting-dimensions-and-resources)。
 
@@ -55,7 +55,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 在选项 **[!UICONTROL Transition]** 卡中，选 **[!UICONTROL Enable an outbound transition]** 项允许您在查询活动后添加出站过渡，即使它未检索任何数据。
 
-   出站转移的段代码可以使用标准表达式和事件变量进行个性化设置(请参阅使 [用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables))。
+   出站转移的区段代码可以使用标准表达式和事件变量进行个性化设置(请参阅使 [用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables))。
 
 1. 确认活动的配置并保存工作流。
 
@@ -114,7 +114,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在上一个示例中，我们使用了与定位维不同的资源。 仅当您要查找位于远程表中的记录( **示例中的交付日志** )时，此操作才可能。
 
-如果我们要查找远程表中不存在的记录 **** （例如，未通过特定交付定位的配置文件），则必须使用相同的资源和定位维，因为该记录将不会出现在远程表（交付日志）中。
+如果我们要查找远程表中不存在的记录 **** （例如，未通过特定交付定位的配置文件），则必须使用相同的资源和定位维，因为该记录不会出现在远程表（交付日志）中。
 
 * 在这种情况下，我们希望定位配置文件。 我们将定位维度设置为 **[!UICONTROL Profiles (profile)]**。
 * 我们希望根据传送标签过滤选定的配置文件。 由于我们正在查找不在交付日志表中的记录，因此无法直接在交付日志中进行筛选。 因此，我们将资源设置为并 **[!UICONTROL Profile (profile)]** 在配置文件表上构建查询。
@@ -150,7 +150,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 在选项卡 **[!UICONTROL Additional data]** 中，添加一个新元素。
 1. 在打开的窗口中，在字 **[!UICONTROL Expression]** 段中，选择定位维中或某个链接维中直接可用的字段之一。 您可以编辑表达式，并使用维字段中的函数或简单计算（聚合除外）。
 
-   如果 **[!UICONTROL Alias]** 您编辑的表达式不是简单的XPATH路径，则会自动创建一个表达式(例如："Year(&lt;@birthDate&gt;)")。 如果您喜欢，可以修改它。 如果仅选择一个字段(例如："@age")，您无需定义 **[!UICONTROL Alias]**。
+   如果 **[!UICONTROL Alias]** 您编辑的表达式不是简单的XPATH路径，则会自动创建一个表达式(例如：&quot;Year(&lt;@birthDate>)&quot;)。 如果您喜欢，可以修改它。 如果仅选择一个字段(例如：&quot;@age&quot;)，您无需定义 **[!UICONTROL Alias]**。
 
 1. 选择 **[!UICONTROL Add]** 以确认将字段添加到其他数据。 执行查询时，与添加的字段对应的附加列将显示在活动的出站转换中。
 
@@ -159,6 +159,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ### 添加聚合 {#adding-an-aggregate}
 
 聚合允许从定位维的字段或链接到定位维的维的字段计算值。 例如：配置文件购买的平均金额。
+在将聚合与查询一起使用时，其函数可返回零，然后将其视为NULL。 使用查 **[!UICONTROL Output filtering]** 询的选项卡过滤聚集的值：
+
+* 如果您希望设置零值，则应进行筛选 **[!UICONTROL is null]**。
+* 如果不希望对零值进行筛选 **[!UICONTROL is not null]**。
+
+请注意，如果需要对聚合应用排序，您应过滤掉零值，否则NULL值将显示为最大数。
 
 1. 在选项卡 **[!UICONTROL Additional data]** 中，添加一个新元素。
 1. 在打开的窗口中，选择要在字段中用于创建聚合的集 **[!UICONTROL Expression]** 合。
