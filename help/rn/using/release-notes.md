@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>统一的Experience Cloud界面和域</strong><br /> </th> 
+   <th> <strong>统一的Experience Cloud界面</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>界面顶栏已得到增强，可改善所有Experience Cloud应用程序的体验。 对解决方案的访问已与以下URL统一：experience.adobe.com/&lt;应用程序名称&gt;。 标题现在允许您更轻松地在解决方案之间切换，并显示经过改进的帮助和通知。</p>
+   <td> <p>界面顶栏已得到增强，可改善所有Experience Cloud应用程序的体验。 标题现在允许您更轻松地在解决方案之间切换，并显示经过改进的帮助和通知。</p>
     <p>有关详细信息，请参阅详 <a href="../../start/using/interface-description.md#top-bar">细文档</a>。 </p>
    </td> 
   </tr> 
