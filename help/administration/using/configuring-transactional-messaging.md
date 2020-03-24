@@ -170,8 +170,8 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 您还必须将此触发事件集成到您的网站中。 请参 [阅集成网站中事件的触发](#integrating-the-triggering-of-the-event-in-a-website)。
 
 <!-->>[!NOTE]
->要查阅以前的出版物（如果有），请 **[!UICONTROL Latest transactional events]** 单击左侧区 **[!UICONTROL History]** 域中部分下方的链接。—>
->
+>要查阅以前的出版物（如果有），请 **[!UICONTROL Latest transactional events]** 单击左侧区 **[!UICONTROL History]** 域中部分下方的链接。-->
+
 ### 取消发布活动 {#unpublishing-an-event}
 
 通过 **[!UICONTROL Unpublish]** 该按钮可以取消事件的发布，该发布从REST API中删除与您先前创建的事件对应的资源。 现在，即使事件通过您的网站触发，相应的消息也不再发送，也不会存储在数据库中。
