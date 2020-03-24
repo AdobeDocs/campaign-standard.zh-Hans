@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 1. （可选）对于每个配置文件，定义 **要添加到** “证明主题行”的前缀。
 1. **在** “电子邮件设计器”中预览配置文件的消息显示方式。
 1. 发送校样。
+
+有关全局进程的详细信息，请参阅此处提供的教程视 [频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)。
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ Campaign Standard允许您导入可用于测试的档案受众。 例如，这�
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. 校样将根据在[!UICONTROL配置文件替换选项卡中配 **置的内[容发送&#x200B;]**。
+1. 校样将根据在选项卡中配置的校样进 **[!UICONTROL Profile substitutions]** 行发送。
 
    ![](assets/substitution_uc_proofs.png)
