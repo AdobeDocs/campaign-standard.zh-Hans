@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## 新增功能
 
-* **[使用目标配置文件进行电子邮](sending/using/testing-messages-using-target.md)**件测试了解如何在真实的目标配置文件上测试电子邮件。
+* **[使用目标配置文件进行电子邮](sending/using/testing-messages-using-target.md)**<br/>件测试了解如何在真实的目标配置文件上测试电子邮件。
 
 * **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
