@@ -1,6 +1,6 @@
 ---
 title: 最新版本
-description: 本页列出了Adobe Campaign Standard的所有最新版本。
+description: 本页列表了所有最新版本的Adobe Campaign标准版。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Azure Blob存储连接器现在可用于使用传输文件工作流程活动将数据导入或 <strong>导出到Adobe Campaign</strong> 。 </p>
+   <td> <p>Azure Blob存储连接器现在可用于使用传输文件工作流活动将数据导入或导出 <strong>到Adobe Campaign</strong> 。 </p>
     <p>有关详细信息，请参阅详 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">细文档</a>。</p>
    </td> 
   </tr> 
@@ -43,27 +43,12 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>统一的Experience Cloud界面</strong><br /> </th> 
+   <th> <strong>使用目标用户档案进行电子邮件测试</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>界面顶栏已得到增强，可改善所有Experience Cloud应用程序的体验。 标题现在允许您更轻松地在解决方案之间切换，并显示经过改进的帮助和通知。</p>
-    <p>有关详细信息，请参阅详 <a href="../../start/using/interface-description.md#top-bar">细文档</a>。 </p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>使用目标配置文件进行电子邮件测试</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>除了测试配置文件外，您现在还可以在真正有针对性的配置文件上测试电子邮件。 这样，您就可以获得配置文件将收到的消息的精确表示形式：自定义字段、动态和个性化信息，包括工作流中的其他数据等。 </p>
+   <td> <p>除了测试用户档案，您现在还可以在真正的目标用户档案上测试电子邮件。 这允许您获得用户档案将收到的消息的精确表示形式：自定义字段、动态和个性化信息，包括来自工作流的其他数据等。 </p>
     <p>有关详细信息，请参阅详细 <a href="../../sending/using/testing-messages-using-target.md">文档</a> 和教 <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">程视频</a>。 </p>
    </td> 
   </tr> 
@@ -72,12 +57,12 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->Campaign控制面板将于4月发布新功能，包括Google TXT记录管理、数据库空间监控和电子邮件警报。 有关这些功能的详细信息，请参阅控 [制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+>新功能将于4月在活动控制面板中发布，包括Google TXT记录管理、数据库空间监控和电子邮件警报。 有关这些功能的详细信息，请参阅控 [制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改进**
 
 * 事务消息传递用户体验得到增强，界面一致性得到提高。 [阅读更多](../../channels/using/about-transactional-messaging.md)
-* Campaign Standard现在允许您使用工作流中的其他数据将校样发送到测试配置文件。
+* Campaign Standard现在允许您使用来自工作流的其他数据将验证发送到测试用户档案。
 * 外部API活动的护栏已更新。 [阅读更多](../../automating/using/external-api.md)
 
 **Email Designer增强功能**
@@ -91,31 +76,31 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 * 修复了在从HTML内容切换为纯文本后，导致HTML标记显示在电子邮件中的问题。 (CAMP-41138)
 * 修复了仅定义一个边框时无法呈现按钮的问题。
 * 修复了HTML缩进中导致Microsoft Outlook中电子邮件的页脚向左移动的问题。 (CAMP-40987)
-* 修复了在切换到纯文本模式时，导致在纯文本内容中复制以HTML中定义的集合属性为目标的个性化字段的问题。 (CAMP-40365)
+* 修复了在切换到纯文本模式时，导致在纯文本内容中复制HTML中定义的集合属性的个性化字段的问题。 (CAMP-40365)
 * 修复了阻止链接插入选定文本段的问题。 (CAMP-41406)
 * 修复了在查询编辑器中选择时区时导致日期更改的问题。 (CAMP-38277)
 
 **其他更改**
 
 * 现 **在，KPI与Adobe Analytics** 现成工作流程的协调功能将运行到当前日期，而不是运行一天。
-* MCPNS不支持将APNS和APNS-SANDBOX作为平台添加到应用程序中。 在Adobe Campaign Standard中成功添加证书后，您现在无法再更改回设置，因为只能向MCPNS应用程序添加一个APNS平台（生产平台或沙箱）。
+* MCPNS不支持将APNS和APNS-SANDBOX作为平台添加到应用程序中。 在Adobe Campaign标准版中成功添加证书后，您现在无法再更改回设置，因为只能向MCPNS应用程序添加一个APNS平台（生产或沙箱）。
 
 **Experience Platform集成**
 
 >[!NOTE]
 >
->Campaign Standard中的Adobe Experience Platform功能目前处于测试阶段，可能会在不另行通知的情况下频繁更新。 请参阅详细文档：Experience Platform Data Connector [,](../../administration/using/aep-about-data-connector.md)[Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>Campaign Standard中的Adobe Experience Platform功能目前处于测试阶段，可能会在不另行通知的情况下频繁更新。 请参阅详细文档：Experience Platform Data Connector [,](../../administration/using/aep-about-data-connector.md)[受众目标](../../audiences/using/aep-about-audience-destinations-service.md)
 
-* 在工作流日志中，每10分钟，Campaign现在显示当前正在运行的作业已处理的记录数。
-* 修复了导入从数据库删除的Adobe Experience Platform配置文件时可能发生的问题。
+* 在工作流日志中，每10分钟显示一次，活动现在显示当前正在运行的作业已处理的记录数。
+* 修复了导入从数据库删除的Adobe Experience Platform用户档案时可能发生的问题。
 * 修复了工作流日志中的一个问题，该问题可能导致导入记录总数显示错误结果。
 
 **修补程序**
 
-* 修复了在别名字 **段中添加空格后，可能会发生的丰富化工作流活动的** 问题 **** ，该字段随后创建了一个新行项。 (CAMP-39229)
-* 修复了在发送证明消息时，每个测试配置文件都可能成为目标的问题。
-* 修复了取消发布和删除活动配置后发生的问题。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* 修复了在更改工作流 **时** ,“保存”按钮消失的问题。
-* 修复了在营销活动处理后手动删除隐私请求的问题，该问题导致与请求关联的数据即使在清除后也无法被删除。
+* 修复了扩充工作 **流活动的一个问题，该问题在别名字段中添加空格时可能会发生，****** 该字段随后创建了一个新行项。 (CAMP-39229)
+* 修复了发送用户档案消息时每个测试验证都可以定位的问题。
+* 修复了在取消发布和删除事件配置后发生的问题。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 修复了在对工作流进行 **更改时** ,“保存”按钮消失的问题。
+* 修复了在隐私请求处理后在活动中手动删除该请求时，即使在清除后，也无法删除与该请求关联的数据的问题。
 * 修复了在预览或发送包含Adobe Experience Manager特殊字符的消息时可能发生的问题。
-* 修复了在执行具有多个入站过渡的活动时，工作流中可能发生的问题。
+* 修复了在执行具有多个入站工作流的活动时，在过渡中可能发生的问题。
