@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
 所有发布日期均可更改：我们建议您定期访问此页面以检查更新。
 
-订阅后，请 [直接在您的收件箱中接收发布通知](https://www.adobe.com/subscription/priority-product-update.html) ，以获取有关最新Adobe Experience Cloud版本的详细信息。
+订阅后，请 [直接在您的收件箱中接收发布通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，以获取有关最新Adobe Experience Cloud版本的详细信息。
 
 ## 版本20.2.1 - 4月版 {#release-20-2-april-release}
 
