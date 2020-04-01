@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [编辑用户档案](audiences/using/editing-profiles.md)
       + [整合的客户档案](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
-      + [管理测试配置文件](audiences/using/managing-test-profiles.md)
+      + [管理测试用户档案](audiences/using/managing-test-profiles.md)
    + 管理受众 {#managing-audiences}
       + [关于受众](audiences/using/about-audiences.md)
       + [创建受众](audiences/using/creating-audiences.md)
@@ -140,8 +140,8 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览消息](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
-      + [发送校样](sending/using/sending-proofs.md)
-      + [使用目标配置文件测试电子邮件](sending/using/testing-messages-using-target.md)
+      + [发送验证](sending/using/sending-proofs.md)
+      + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [使用陷印](sending/using/using-traps.md)
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [添加组件](reporting/using/adding-components.md)
       + [创建自定义用户档案维度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
-+ 与 Adobe Cloud 集成 {#integrating-with-adobe-cloud}
++ 与其他解决方案集成 {#integrating-with-adobe-cloud}
    + [关于 Campaign 集成](integrating/using/about-campaign-integrations.md)
-   + 使用 Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
+   + 活动和Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
-      + [配置Campaign-Experience Manager集成](integrating/using/configure-experience-manager.md)
+      + [配置活动-Experience Manager集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + 使用 Campaign 和 Target {#working-with-campaign-and-target}
+   + 活动与目标 {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
       + [配置 Campaign-Target 集成](integrating/using/configuring-the-campaign-target-integration.md)
       + [添加 Target 动态内容](integrating/using/adding-target-dynamic-content.md)
-   + 使用 Campaign 和 Analytics {#working-with-campaign-and-analytics}
+   + 活动与分析 {#working-with-campaign-and-analytics}
       + [关于 Campaign-Analytics 集成](integrating/using/about-campaign-analytics-integration.md)
       + [配置 Campaign-Analytics 集成](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics 中的 Campaign 维度和指标](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + 使用 Campaign 和 Audience Manager 或 People 核心服务 {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [关于 Campaign-Audience Manager 或 People 核心服务集成](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [准备和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + 使用 Campaign 和 Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
+   + 移动活动和分析 {#working-with-campaign-and-analytics-for-mobile}
       + [关于 Campaign-兴趣点数据集成](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [配置 Campaign-兴趣点数据集成](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [使用兴趣点数据个性化 Campaign 消息](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + 使用 Campaign 和 Triggers {#working-with-campaign-and-triggers}
+   + 活动和触发器 {#working-with-campaign-and-triggers}
       + [关于 Adobe Experience Cloud 触发器](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [在 Experience Cloud 中配置触发器](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [在 Campaign 中使用触发器](integrating/using/using-triggers-in-campaign.md)
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
+   + 活动和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [使用Campaign Standard和Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+         + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [通知和建议](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [通过Campaign Standard集成请求和配置Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [将Microsoft Dynamics 365与Campaign Standard集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [配置Microsoft Dynamics 365以实现活动集成](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [为Microsoft Dynamics 365集成配置Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [映射活动自定义资源和Dynamics 365自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + 关于工作流和数据管理 {#about-workflows-and-data-management}
       + [工作流数据和流程](automating/using/workflow-data-and-processes.md)
