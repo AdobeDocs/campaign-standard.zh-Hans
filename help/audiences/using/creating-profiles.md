@@ -1,6 +1,6 @@
 ---
 title: 创建用户档案
-description: 了解如何使用API、导入功能、在线获取、自动或手动更新创建配置文件并收集联系人的数据。
+description: 了解如何使用API、导入功能、在线获取、自动或手动更新创建用户档案并收集联系人的数据。
 page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
@@ -12,26 +12,26 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
 
 # 创建用户档案{#creating-profiles}
 
-在Adobe Campaign中，配置文件默认用于定义消息的主要目标。
+在Adobe Campaign中，默认情况下使用用户档案来定义消息的主目标。
 
-要在Campaign中创建或更新配置文件，您可以：
+要在活动中创建或更新用户档案，您可以：
 
-* 通过工作流从文件导入配置文件列 [表](../../automating/using/importing-data.md#example--import-workflow-template)
-* 通过登陆页面在线收 [集数据](../../channels/using/getting-started-with-landing-pages.md)
+* 通过工作流从文件导入用户档案列表 [。](../../automating/using/importing-data.md#example--import-workflow-template)
+* 通过登陆页在线收集数 [据](../../channels/using/getting-started-with-landing-pages.md)
 * 通过 [REST API批量创建](../../api/using/about-campaign-standard-apis.md)
-* 从 [Microsoft Dynamics同步配置文件](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* 从 [Microsoft Dynamics同步用户档案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * 使用图形界面屏幕输入数据，如下所述
 
-例如，要直接在用户界面中创建新配置文件，请执行以下步骤：
+例如，要直接在用户界面中创建新用户档案，请执行以下步骤：
 
-1. 在Adobe Campaign主页中，单击“客户配置 **文件** ”卡或“配置 **文件** ”选项卡以访问配置文件列表。
+1. 在Adobe Campaign主页中，单击 **客户用户档案卡** 或 **** 用户档案选项卡以访问用户档案列表。
 
    ![](assets/profile_creation_1.png)
 
@@ -39,27 +39,27 @@ source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
    ![](assets/profile_creation.png)
 
-1. 输入配置文件数据。
+1. 输入用户档案数据。
 
    ![](assets/profile_creation1.png)
 
-   * 联系信息，如名字、姓氏、性别、出生日期、照片、首选语言(针对多语种电子邮 [件](../../channels/using/creating-a-multilingual-email.md))，有助于更好地个性化交付。
-   * 配置文件的 **[!UICONTROL Time zone]**用于在配置文件的时区发送交付。 For more on this, refer to this[section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * 该类 **[!UICONTROL Channels]**别包含电子邮件地址、手机号码和退出信息，可让您了解访问配置文件的渠道。
-   * 一 **[!UICONTROL No longer contact]**旦配置文件取消订阅渠道，该类别即会更新。
-   * 该 **[!UICONTROL Address]**类别包含需要填写的邮政地址以及向此配置**[!UICONTROL Address specified]** 文件发送 [直邮的选项](../../channels/using/about-direct-mail.md) 。 如果未选 **[!UICONTROL Address specified]**中此选项，则此配置文件将从每封直邮中排除。
-   * 该类 **[!UICONTROL Access authorization]**别指示配置文件的组织单位(以管[理权限](../../administration/using/about-access-management.md))。 另请参阅分[区配置文件](../../administration/using/organizational-units.md#partitioning-profiles)。
-   * 该类 **[!UICONTROL Traceability]**别会自动更新，其中包含有关创建或修改配置文件的用户的信息。
+   * 联系信息(如名字、姓氏、性别、出生日期、照片、首选语言(针对多语种电子邮件 [](../../channels/using/creating-a-multilingual-email.md)))有助于更好地个性化投放。
+   * 用户档案 **[!UICONTROL Time zone]** 用于在用户档案时区发送投放。 For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * 该类别 **[!UICONTROL Channels]** 包含电子邮件地址、手机号码和退出信息，可让您了解可访问该用户档案的渠道。
+   * 一 **[!UICONTROL No longer contact]** 旦类别取消订阅渠道，该用户档案即更新。
+   * 该 **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送直 **[!UICONTROL Address specified]** 接邮件的 [选](../../channels/using/about-direct-mail.md) 项。 如果未 **[!UICONTROL Address specified]** 选中此选项，则此用户档案将从每个直邮投放中排除。
+   * 类别 **[!UICONTROL Access authorization]** 指示用户档案的组织单位(以管 [理权限](../../administration/using/about-access-management.md))。 另请参 [阅分区用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * 该 **[!UICONTROL Traceability]** 类别会自动更新有关创建或修改用户档案的用户的信息。
 
-1. 单击 **[!UICONTROL Create]**以保存配置文件。
+1. 单 **[!UICONTROL Create]** 击以保存用户档案。
 
-配置文件现在将显示在列表中。
+用户档案现在将显示在列表中。
 
 >[!NOTE]
 >
->也可以使用Adobe Campaign Standard API创建配置文件。 有关详细信息，请参阅专 [用文档](../../api/using/creating-profiles.md)。
+>用户档案创建也可以使用Adobe Campaign标准API。 有关详细信息，请参阅专 [用文档](../../api/using/creating-profiles.md)。
 
-配置文件也可以根据组织单位进行分区。 要将组织字段添加到配置文件，请参阅分区配 [置文件部分](../../administration/using/organizational-units.md#partitioning-profiles) 。
+用户档案也可以根据其组织单位进行分区。 要将组织字段添加到用户档案，请参阅分区 [用户档案部分](../../administration/using/organizational-units.md#partitioning-profiles) 。
 
 >[!NOTE]
 >
@@ -67,5 +67,5 @@ source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 **相关主题：**
 
-* [关于登陆页面](../../channels/using/getting-started-with-landing-pages.md) ，分步指南
-* [“导入配置文件](https://video.tv.adobe.com/v/24993?captions=chi_hans) ”视频
+* [关于登陆页](../../channels/using/getting-started-with-landing-pages.md) 、分步指南
+* [导入用户档案](https://video.tv.adobe.com/v/24993?captions=chi_hans) 视频
