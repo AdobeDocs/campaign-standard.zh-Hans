@@ -1,5 +1,5 @@
 ---
-title: 电子邮件设计人员入门
+title: 电子邮件设计工具快速入门
 description: 开始使用电子邮件设计器构建电子邮件内容。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,17 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
-# 电子邮件设计人员入门 {#quick-start}
+# 电子邮件设计工具快速入门 {#quick-start}
 
 电子邮件设计器提供了四种创建电子邮件的方法。
 
 您可以在电子邮件设 [计器中创建新的电子邮件](#without-existing-content):
 
-* 您可以通过轻松添加结构和内容组件以及个性化其内容以快速发送来从空白画布创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，请 [快速入门](#from-scratch-email) ，或查看完 [整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 您可以通过轻松添加结构和内容组件以及个性化其内容以快速发送投放，从空白画布创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，请 [快速入门](#from-scratch-email) ，或查看完 [整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 * 您可以通过从此处选择模板并构建新的电子邮件内容，从现成模板创建电子邮件。 [了解更多](#building-content-from-an-out-of-the-box-template)
 
@@ -44,7 +44,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ### 从头开始创建电子邮件 {#from-scratch-email}
 
-您可以轻松创建电子邮件、添加组件和个性化其内容以快速发送交付。 您可以根据需要调整样式选项以适应您的内容。 有关管理样式设置和内联属性的更多信息，请参阅编 [辑电子邮件样式](../../designing/using/styles.md)。
+您可以轻松创建电子邮件、添加组件和个性化其内容以快速发送投放。 您可以根据需要调整样式选项以适应您的内容。 有关管理样式设置和内联属性的更多信息，请参阅编 [辑电子邮件样式](../../designing/using/styles.md)。
 
 1. 创建电子邮件。
 1. 关闭主页。
@@ -53,7 +53,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 在发送电子邮件时，主题行是必填的。 有关详细信息，请 [参阅定义电子邮件的主题行](../../designing/using/subject-line.md)。
 
-1. 转到“电 **[!UICONTROL Properties]**子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该**[!UICONTROL Subject]** 部分。
+1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
 
 ![](assets/subject-line-quick-start.png)
 
@@ -99,7 +99,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ![](assets/html-component-source-code.png)
 
-如果您熟悉HTML，则可以使用内容组件从原始页脚复制并粘贴HTML **[!UICONTROL Html]**代码。 有关此内容的详细信息，请参[阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+如果您熟悉HTML，则可以使用内容组件从原始页脚复制并粘贴HTML **[!UICONTROL Html]** 代码。 有关此内容的详细信息，请参 [阅关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -122,13 +122,13 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 您可以从现成模板（如客户欢迎信息、新闻稿和重新参与电子邮件）构建电子邮件，并对其进行个性化设置。
 
 1. 创建电子邮件并打开其内容。 有关此方面的详细信息，请参 [阅创建电子邮件](../../channels/using/creating-an-email.md)。
-1. 单击主页图标以访问 **[!UICONTROL Email Designer]**主页。
-1. 单击选 **[!UICONTROL Templates]**项卡。
+1. 单击主页图标以访问该 **[!UICONTROL Email Designer]** 主页。
+1. 单击选 **[!UICONTROL Templates]** 项卡。
 1. 选择现成的HTML模板。
 不同的模板显示了几种类型的元素的各种组合。 例如，“羽化”模板具有边距，而“Astro”模板没有边距。 有关此内容的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
-1. 转到“电 **[!UICONTROL Properties]**子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该**[!UICONTROL Subject]** 部分。
-1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并从上下文工具栏中单击来复制 **[!UICONTROL Duplicate]**电子邮件部分。
-1. 您可以使用左边的蓝色箭头将结构组件拖动到另一个组件下方或上方，从而移动元素。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 转到“电 **[!UICONTROL Properties]** 子邮件设计器”主页的选项卡（可通过主页图标访问）并填写该 **[!UICONTROL Subject]** 部分。
+1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并从上下文工具栏中单击来重复 **[!UICONTROL Duplicate]** 电子邮件部分。
+1. 您可以使用左边的蓝色箭头将结构组件拖动到另一个组件下方或上方，来移动元素。 有关此内容的详细信息，请参 [阅编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 您还可以移动组件来更改每个结构元素的组织。 有关此方面的详细信息，请参 [阅添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 根据您的需求修改每个元素的内容：图像、文本、链接。
 1. 根据需要调整样式选项以适应您的内容。 有关此内容的详细信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md)。
@@ -139,7 +139,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ### 转换HTML内容 {#converting-an-html-content}
 
-此用例提供了一种将HTML电子邮件转换为电子邮件设计器组件的快速方法。
+此用例优惠了将HTML电子邮件转换为电子邮件设计器组件的快速方法。
 
 >[!CAUTION]
 >
@@ -183,7 +183,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 1. 将HTML复制并粘贴到该组件中。
 1. 切换到移动视图。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
-   响应式视图因CSS缺失而中断。
+   响应式视图中断，因为您的CSS缺失。
 
 1. 要解决此问题，请切换到源代码模式，然后将样式部分复制并粘贴到新的样式部分。 例如：
 
