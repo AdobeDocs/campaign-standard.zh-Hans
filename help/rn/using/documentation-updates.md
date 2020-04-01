@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 本页列表了每个Adobe Campaign标准版的所有新增功能和文档更新。
 
 您还可以参阅Adobe Campaign [发行说明](../../rn/using/release-notes.md)。
+
+## 文档更新- 2020年4月 {#doc-updates-april-2020}
+
+Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与其他解决方案集成指南的核心文档中。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+其他资源已添加到文档主页。 [阅读更多](../../campaign-standard-home.md)
+
+有关Experience Cloud ID服务(ECID)的信息已添加到Adobe Experience Platform Data Connector文档。 [阅读更多](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+配置事务消息部分已得到改进，其中包含有关如何访问最新事务事件和更新的截屏的信息。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## 20.2版- 2020年3月 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Azure Blob集成——阅 [读更多](../../administration/using/external-accoun
 
 现在提供了描述如何删除事件配置的新部分。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-描述如何测试电子邮件主题行以预测其打开率的页面已更新和改进，包括新的疑难排解 [部分](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [阅读更多](../../sending/using/testing-subject-line-email.md#troubleshooting)
+描述如何测试电子邮件主题行以预测其打开率的页面已更新和改进，包括新的疑难排解 [部分](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [阅读更多](../../sending/using/testing-subject-line-email.md)
 
 事务消息部分已更新以反映多用户界面的细微更新和改进。 [阅读更多](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ API文档集已集成到Campaign Standard文档中。[阅读更多](../../api/us
 
 加利福尼亚消费者隐私法(CCPA)-阅 [读更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365集成(GA)-阅 [读更多](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365集成(GA)-阅 [读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **随版本提供的其他文档更新**
 
@@ -211,7 +222,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 Campaign Standard实施指南现已发布。[阅读更多](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-已创建一组关于Microsoft Dynamics 365连接器实施和用法的新帮助文章。 请注意，此功能当前处于“有限可用性”状态。[阅读更多](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+已创建一组关于Microsoft Dynamics 365连接器实施和用法的新帮助文章。 请注意，此功能当前处于“有限可用性”状态。[阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 在调用工作流中添加了一个注 [释](../../automating/using/calling-a-workflow-with-external-parameters.md) ，该工作流包含有关投放准备及其聚合周期的参数部分。
 
@@ -649,7 +660,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+新部分专门用于主密钥和将业务ID用作API中的密钥。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 在API中添加了关于简单和多次筛选的信息。 [阅读更多](../../api/using/filtering.md)
 
