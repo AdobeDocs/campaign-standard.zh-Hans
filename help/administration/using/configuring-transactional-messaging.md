@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >每次修改事件时，您必须再次单 **[!UICONTROL Publish]** 击以生成将由网站开发人员使用的更新的REST API。
 
->[!NOTE]
->
->每次修改事件时，您必须再次单 **[!UICONTROL Publish]** 击以生成将由网站开发人员使用的更新的REST API。
+   发布事件后，将自动创建链接到新事件的事务性消息。
 
-发布事件后，将自动创建链接到新事件的事务性消息。 要使此事件触发发送事务性消息，您必须修改并发布刚刚创建的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 您可以通过位于左侧区域的链接直接访问此事务性消息。
 
-您可以直接从左侧区域的链接访问创建的事务性消息。
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+要使事件触发发送事务性消息，您必须修改并发布刚刚创建的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 您还必须将此触发事件集成到您的网站中。 请参 [阅在网站中集成事件的触发](#integrating-the-triggering-of-the-event-in-a-website)。
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Adobe Campaign开始收到与此事件配置相关的事件后，通 **[!UICONTROL Latest transactional events]****[!UICONTROL History]** 过部分下方的链接，您可以访问第三方服务发送并由Adobe Campaign处理的最新事件。
+
+![](assets/message-center_latest-events.png)
+
+事件（JSON格式）从最新到最旧列出。 此列表允许您检查数据(如事件的内容或状态)，以便进行控制和调试。
 
 ### 取消发布事件 {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
    ![](assets/message-center_usecase2.png)
 
-1. 在以前添加到消息的“产品标识符”字段与资源中的相应字段之间创建连接条 **[!UICONTROL Purchase]** 件
+1. 在以前添加到消息的“产品标识符”字段与资源中的相应字段之间创建连接条 **[!UICONTROL Purchase]** 件。
 
    ![](assets/message-center_usecase3.png)
 
