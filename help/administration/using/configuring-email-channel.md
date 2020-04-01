@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign Standard中配置电子邮件渠道
-description: 了解如何在Adobe Campaign Standard中配置电子邮件渠道。
+title: 在Adobe Campaign标准中配置电子邮件渠道
+description: 了解如何在Adobe Campaign标准中配置电子邮件渠道。
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -28,29 +28,29 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 * **已发送电子邮件的标题参数**
 
-   在本节中，您可以指定发 **[!UICONTROL masks]** 送者地址和错误地址的授权。 如有必要，这些蒙版可以使用逗号分隔。 此配置是可选的。 输入这些字段后，在消息准备阶段，Adobe Campaign会检查输入的地址是否有效。 此操作模式可确保没有使用可能触发可交付性问题的地址。 传送地址必须在传送服务器上配置。
+   在本节中，您可以指定发 **[!UICONTROL masks]** 送者地址和错误地址的授权。 如有必要，这些蒙版可以使用逗号分隔。 此配置是可选的。 输入这些字段后，在消息准备阶段，Adobe Campaign会检查输入的地址是否有效。 此操作模式可确保没有使用可能触发可交付性问题的地址。 投放地址必须在投放服务器上配置。
 
 * **可交付性**
 
    此ID由支持提供。 必须使可交付性报告正确工作。
 
-* **传送参数**
+* **投放参数**
 
    Adobe Campaign会从开始日期开始发送消息。 该 **[!UICONTROL Message delivery duration]** 字段允许您指定消息的发送持续时间。
 
    该字 **[!UICONTROL Online resources validity duration]** 段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
 
-* **重试次数**
+* **重试**
 
-   临时未传送的消息可能会自动重试。 此部分指示在发送开始后的一天(重试次数&#x200B;**)和重试之间的最小延迟(重试**&#x200B;期&#x200B;****)应执行的重试次数。
+   临时未传送的消息可能会自动重试。 此部分指示在发送开始后一天应执行的重试数(**重试数**)和重试之间的最小延迟(**重试周期**)。
 
-   默认情况下，在第一天内计划5次重试，最小时间间隔为1小时，在一天的24小时内展开。 每天一次重试的程序设定在此之后，直到交付截止日期（在部分中定义） **[!UICONTROL Delivery parameters]** 为止。
+   默认情况下，在第一天安排五个重试，最小间隔为1小时，分布在一天的24小时内。 在此之后，每天进行一次重试，直到投放截止日期（在部分中定义） **[!UICONTROL Delivery parameters]** 为止。
 
 * **电子邮件隔离参数**
 
    在字段 **[!UICONTROL Time between two significant errors]** 中，输入一个值以定义应用程序在出现故障时在增加错误计数器之前等待的时间。 默认值： **&quot;1d&quot;**,1天。
 
-   到达该 **[!UICONTROL Maximum number of errors before quarantine]** 值后，将隔离电子邮件地址。 默认值： **&quot;5&quot;**:地址将在第六个错误时被隔离。 这意味着联系人将自动从后续分发中排除。
+   到达该 **[!UICONTROL Maximum number of errors before quarantine]** 值后，将隔离电子邮件地址。 默认值： **&quot;5&quot;**:地址将在第六个错误时被隔离。 这意味着联系人将自动从后续投放中排除。
 
 **相关主题**:
 
@@ -58,11 +58,11 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ## 电子邮件路由帐户 {#email-routing-accounts}
 
-默认 **[!UICONTROL Integrated email routing]** 情况下提供外部帐户。 它包含允许应用程序发送电子邮件的技术参数。
+默 **[!UICONTROL Integrated email routing]** 认情况下提供外部帐户。 它包含允许应用程序发送电子邮件的技术参数。
 
 ![](assets/channels_2.png)
 
-帐户类型必须始终设置为 **[!UICONTROL Routing]**、渠道设置 **[!UICONTROL Email]** 和交付模式设置为 **[!UICONTROL Bulk delivery]**。
+帐户类型必须始终设置为 **[!UICONTROL Routing]**、渠道设置为 **[!UICONTROL Email]** 和投放模式设置为 **[!UICONTROL Bulk delivery]**。
 
 **相关主题**:
 
@@ -72,19 +72,19 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 管 **[!UICONTROL Email processing rules]** 理员可以通过菜单访问 **[!UICONTROL Administration > Channels > Email]** 该。
 
-这些规则包含可由远程服务器返回的字符串列表，您可以通过该列表确定错误(**硬**、软 **或** 忽略 ****)。
+这些规则包含可由远程服务器返回的字符串列表，并允许您限定错误(**Hard**、 **Soft** 或 **Ignored**)。
 
 默认规则如下：
 
 ### 弹回邮件 {#bounce-mails}
 
-对于同步交付失败错误消息，增强的MTA可确定退回类型和资格，并将该信息发回到Campaign。 有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+对于同步投放故障错误消息，增强的MTA确定弹出类型和资格，并将该信息发回给活动。 有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-Campaign inMail进程仍可通过规则对异步弹回进行 **[!UICONTROL Bounce mails]** 限定。
+异步弹回仍由活动inMail进程通过规则进行 **[!UICONTROL Bounce mails]** 限定。
 
 >[!IMPORTANT]
 >
->升级到增强的MTA后，“营销活动”表格中的弹 **[!UICONTROL Message qualification]** 出资格便不再被使用。 有关弹回邮件资格的更多信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md)。
+>升级到增强的MTA后，不再使用活动表中 **[!UICONTROL Message qualification]** 的弹出资格。 有关弹回邮件资格的更多信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md)。
 
 <!--The user can create his own rules.
 
@@ -103,11 +103,11 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 >[!IMPORTANT]
 >
->升级到增强的MTA后，Adobe Campaign规 **[!UICONTROL Domain management]** 则便不再使用。
+>升级到增强的MTA后，不再使 **[!UICONTROL Domain management]** 用Adobe Campaign规则。
 
 **DKIM(DomainKeys Indentifed Mail)** ，电子邮件身份验证签名由增强的MTA对所有域的所有消息执行。 除非在增强的MTA级别 **另有指定，否则它不**&#x200B;会使用发送者ID **、** DomainKeys **或** S/MIME进行签名。
 
-有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 ### MX管理 {#mx-management}
 
@@ -119,11 +119,11 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 >[!IMPORTANT]
 >
->升级到增强的MTA后，Adobe Campaign交付 **[!UICONTROL MX management]** 吞吐量规则将不再使用。
+>升级到增强的MTA后，将不再使用Adobe Campaign **[!UICONTROL MX management]** 投放吞吐量规则。
 
 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
 
-有关Adobe Campaign增强型MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -159,9 +159,9 @@ The following parameters are available for each rule:
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. -->
 
-## 电子邮件属性列表 {#list-of-email-properties}
+## 列表电子邮件属性 {#list-of-email-properties}
 
-此部分详细列出了电子邮件或电子邮件模板的属性屏幕中可用的参数。
+本节详细介绍了电子邮件或电子邮件模板的属性屏幕中可用参数的列表。
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ The following parameters are available for each rule:
 
 ### 常规参数 {#general-parameters}
 
-在电子邮件参数屏幕顶部，使用和字段标识电 **[!UICONTROL Label]** 子邮 **[!UICONTROL ID]** 件。 此信息显示在界面中，但邮件收件人不可见。
+在电子邮件参数屏幕顶部，使用和字段标识电 **[!UICONTROL Label]** 子邮 **[!UICONTROL ID]** 件。 此信息显示在界面中，但消息收件人不可见。
 
 ![](assets/delivery_options_2.png)
 
@@ -181,36 +181,36 @@ The following parameters are available for each rule:
 >
 >该ID必须是唯一的。
 
-该字 **[!UICONTROL Brand]** 段允许您选择链接到分发的品牌。 有关使用和配置品牌的更多信息，请参阅品 [牌](../../administration/using/branding.md) 。
+该字 **[!UICONTROL Brand]** 段允许您选择链接到投放的品牌。 有关使用和配置品牌的更多信息，请参阅品 [牌](../../administration/using/branding.md) 。
 
-该字 **[!UICONTROL Campaign]** 段允许您输入链接到电子邮件的营销活动。
+该字 **[!UICONTROL Campaign]** 段允许您输入链接到电子邮件的活动。
 
-您还可以在相应的字 **[!UICONTROL Description]** 段中添加一个图像，并编辑列表中电子邮件缩略图上显示的图像。
+您还可以在相应的字 **[!UICONTROL Description]** 段中添加一个，并编辑列表中电子邮件缩略图上显示的图像。
 
 ### 发送参数 {#sending-parameters}
 
 该 **[!UICONTROL Send]** 部分仅适用于电子邮件模板。 它包含以下参数：
 
-#### 重试次数参数 {#retries-parameters}
+#### 重试参数 {#retries-parameters}
 
-临时未传送的消息可能会自动重试。 此部分指示在发送开始( **[!UICONTROL Max. number of retries]** )后应执行的重试次数和重试之间的最小延迟( **[!UICONTROL Retry period]** )。
+临时未传送的消息可能会自动重试。 此部分指示在发送开始( **[!UICONTROL Max. number of retries]** )后应执行多少重试以及重试之间的最小延迟( **[!UICONTROL Retry period]** )。
 
-默认情况下，在第一天内计划5次重试，最小时间间隔为1小时，在一天的24小时内展开。 每天一次重试的程序设置为在此之后，直到交付截止日期为止，该截止日期在“有效性”期间 [参数部分中定义](#validity-period-parameters) 。
+默认情况下，在第一天安排五个重试，最小间隔为1小时，分布在一天的24小时内。 在此之后，每天一次重试被编程，直到投放截止日期(在“有效性”期间参数部分中 [定义)](#validity-period-parameters) 。
 
-可以全局更改重试次数（与Adobe技术管理员联系）或每个交付或交付模板的重试次数
+可以全局更改重试数量（联系Adobe技术管理员）或针对每个投放或投放模板
 
 #### 电子邮件格式参数 {#email-format-parameters}
 
 您可以配置要发送的电子邮件的格式。 有三个可用选项：
 
-* **使用收件人首选项** （默认模式）:消息格式根据存储在收件人配置文件中的数据定义，并默认存储在 **Email格式字段** (@emailFormat)中。 如果收件人希望以某种格式接收消息，则此格式为发送的格式。 如果字段未完成，则会发送多部分替代消息（请参阅下文）。
-* **让收件人邮件客户端选择最合适的格式（多部分替代）**:该消息包含两种格式：文本和HTML。 接收时显示的格式取决于接收方的邮件软件（多部分替代）的配置。
+* **使用收件人首选项** （默认模式）:消息格式根据收件人用户档案中存储的数据定义，默认情况下存储在 **电子邮件格式字段** (@emailFormat)中。 如果收件人希望以某种格式接收消息，则此格式为发送的格式。 如果字段未完成，则会发送复合-可选消息（请参阅下文）。
+* **让收件人邮件客户选择最合适的格式(复合-可选)**:该消息包含两种格式：文本和HTML。 接收时显示的格式取决于收件人邮件软件(复合-可选)的配置。
 
    >[!IMPORTANT]
    >
-   >此选项包括两个版本的消息。 因此，它会影响交付吞吐量，因为消息大小较大。
+   >此选项包括两个版本的消息。 因此，它会影响投放吞吐量，因为消息大小较大。
 
-* **以文本格式发送所有消息**:消息以文本格式发送。 不会发送HTML格式，但仅当收件人单击消息中的链接时，才用于镜像页面。
+* **以文本格式发送所有消息**:消息以文本格式发送。 不会发送HTML格式，但仅当镜像页面单击消息中的链接时，才会将其用于收件人。
 
 #### SMTP测试模式 {#smtp-test-mode}
 
@@ -226,9 +226,9 @@ The following parameters are available for each rule:
 >[!IMPORTANT]
 >
 >如果为电子邮件启用了此选项，则在取消选中该选项之前，不会发送任何消息。
->电子邮件或电子邮件模板功能板中将显示警告。
+>电子邮件或电子邮件模板仪表板中将显示一条警告消息。
 
-有关配置SMTP的详细信息，请参阅电 [子邮件SMTP参数列表](#list-of-email-smtp-parameters) 。
+有关配置SMTP的详细信息，请参阅电子邮 [件SMTP参数的列表](#list-of-email-smtp-parameters) 。
 
 ### 有效期参数 {#validity-period-parameters}
 
@@ -244,23 +244,23 @@ The following parameters are available for each rule:
 
    >[!IMPORTANT]
    >
-   >升级到增强的MTA后，系 **[!UICONTROL Delivery duration]** 列活动提交中的参数仅在设置为3.5天或更少时才可用。 如果定义的值高于3.5天，则不会将其考虑在内。 所有影响在 [Adobe Campaign增强的MTA文档中均有详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+   >升级到增强的MTA后， **[!UICONTROL Delivery duration]** 活动投放中的参数仅在设置为3.5天或更少时才使用。 如果定义的值高于3.5天，则不会将其考虑在内。 所有影响在Adobe Campaign增强的MTA [文档中详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
 
 * **[!UICONTROL Resource validity duration]**:此字段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
-* **[!UICONTROL Mirror page management]**:镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件内容相同。 默认情况下，如果链接已插入邮件内容中，则会生成镜像页面。 此字段允许您修改生成此页面的方式：
+* **[!UICONTROL Mirror page management]**:镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件内容相同。 默认情况下，如果链接已插入邮件内容，则会生成镜像页面。 此字段允许您修改生成此页面的方式：
 
    >[!IMPORTANT]
    >
-   >必须为要创建的镜像页面的电子邮件定义HTML内容。
+   >必须为要创建镜像页面的电子邮件定义HTML内容。
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （默认模式）:如果链接已插入到邮件内容中，则会生成镜像页面。
-   * **强制生成镜像页面**:即使消息中未插入指向镜像页面的链接，也会创建镜像页面。
-   * **请勿生成镜像页面**:不会生成镜像页面，即使该链接位于消息中也是如此。
-   * **生成仅使用消息ID可访问的镜像页面**:通过此选项，您可以在分发日志窗口中访问包含个性化信息的镜像页面的内容。
+   * **强制生成镜像页面**:即使消息中未插入指向镜像页面的链接，也将创建镜像页面。
+   * **请勿生成镜像页面**:不会生成镜像页面，即使链接位于消息中也是如此。
+   * **生成仅使用消息ID可访问的镜像页面**:此选项允许您在镜像页面日志窗口中访问包含个性化信息的投放内容。
 
 >[!NOTE]
 >
->该参 **[!UICONTROL Delivery duration]** 数不适用于事务消息。 有关事务性消息传递的更多信息，请参 [阅此部分](../../channels/using/about-transactional-messaging.md)。
+>该 **[!UICONTROL Delivery duration]** 参数不适用于事务性消息。 有关事务性消息传递的更多信息，请参 [阅此部分](../../channels/using/about-transactional-messaging.md)。
 
 ### 跟踪参数 {#tracking-parameters}
 
@@ -282,17 +282,17 @@ The following parameters are available for each rule:
 
 个性化电子邮件内容文档中详细介绍了插入和 [使用个性化内容](../../designing/using/personalization.md) 。
 
-#### Target上下文 {#target-context}
+#### 目标环境 {#target-context}
 
-定位上下文允许您定义一组表，这些表将用于电子邮件定位（在受众定义屏幕中）和个性化（在HTML内容编辑器中定义个性化字段）。
+定位上下文允许您定义一组表，这些表将用于电子邮件定位(在受众定义屏幕中)和个性化(在HTML内容编辑器中定义个性化字段)。
 
 #### 路由 {#routing}
 
-此字段指示使用的路由模式。 它引用一个外部帐户。 例如，如果您希望使用包含特定品牌配置的外部帐户，则可以使用此帐户。
+此字段指示使用的路由模式。 它引用了外部帐户。 例如，如果您希望使用包含特定品牌配置的外部帐户，则可以使用此选项。
 
 >[!NOTE]
 >
->可通过“管理” **>“应用程序设** 置” **>“外部帐户”菜** 单访问外部帐户 **** 。
+>外部帐户可通过“管理” **>“应用程** 序设置” **>“** 外部帐户 **** ”菜单访问。
 
 #### 准备 {#preparation}
 
@@ -306,15 +306,15 @@ The following parameters are available for each rule:
 
 * **[!UICONTROL Compute the label during delivery preparation]**:允许您使用个性化字段、内容块和动态文本在消息准备阶段计算电子邮件的标签值。
 
-   还可以使用已声明到工作流的外部信号活动中的事件变量个性化传送标签。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+   还可以使用已声明到工作流外部信号投放中的事件变量个性化活动标签。 如需详细信息，请参阅[此部分](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
-* **[!UICONTROL Save SQL queries in the log]**:此选项允许您在准备阶段将SQL查询日志添加到日志中。
+* **[!UICONTROL Save SQL queries in the log]**:此选项允许您在准备阶段在日志中添加SQL查询日志。
 
-#### 校样设置 {#proof-settings}
+#### 验证设置 {#proof-settings}
 
-此部分允许您配置要在证明的主题行中使用的默认前缀。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+此部分允许您配置要在验证的主题行中使用的默认前缀。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
-### 电子邮件SMTP参数列表 {#list-of-email-smtp-parameters}
+### 列表电子邮件SMTP参数 {#list-of-email-smtp-parameters}
 
 该部 **[!UICONTROL SMTP]** 分包含以下参数：
 
@@ -326,7 +326,7 @@ The following parameters are available for each rule:
    >
    >为高级用户保留添加用于插入其他SMTP头的脚本。 此脚本的语法必须符合以下内容类型的要求：没有未使用的空间，没有空行等。
 
-### 访问授权参数列表 {#list-of-access-authorization-parameters}
+### 访问授权参数的列表 {#list-of-access-authorization-parameters}
 
 该部 **[!UICONTROL Access authorization]** 分包含以下参数：
 
