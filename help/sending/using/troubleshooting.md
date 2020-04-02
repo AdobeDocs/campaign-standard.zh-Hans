@@ -1,5 +1,5 @@
 ---
-title: 对Adobe Campaign标准中的可交付性问题进行疑难解答
+title: 对Adobe Campaign标准中的交付性问题进行疑难解答
 description: 了解在遇到Adobe Campaign标准的可交付性问题时要做什么。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
    * 状态是 **[!UICONTROL Blacklisted]** 反馈循环的结果（当人员将消息报告为垃圾邮件时）。
 
-   * 状态 **[!UICONTROL Quarantined]** 是软弹回或硬弹回的结果。 有关此方面的详细信息，请参 [阅此部分](../../sending/using/understanding-quarantine-management.md)。
+   * 状态 **[!UICONTROL Quarantined]** 是软弹回或硬弹回的结果。
+   有关此方面的详细信息，请参 [阅此部分](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)。
 
 * **不同的隔离错误原因意味着什么？**
 
