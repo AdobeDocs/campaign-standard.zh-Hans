@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -129,8 +129,8 @@ If you enter '.', the field will be left blank.
 
 1. 选择标题中包含的产品用户档案:
 
-* 您的活动实例的组织ID
-* **[!UICONTROL Administrators]**
+   * 您的活动实例的组织ID
+   * **[!UICONTROL Administrators]**
 
 示例： Campaign Standard-您的活动-组织ID —— 管理员
 
