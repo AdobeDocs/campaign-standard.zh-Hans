@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 单击Dynamics 365旁边的下拉框，即可在销售仪表板中查看该客户在Dynamics 365中的自定义实体。  此客户的自定义实体在下组合在一起 **[!UICONTROL Extensions]**。
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 可通过单击自定义实体来查看车 **[!UICONTROL vehicle]** 辆数据。  请参阅下面的车辆列表。
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 实体与实 **[!UICONTROL vehicle]** 体的关系 **[!UICONTROL Contact]** 见下文。 **[!UICONTROL Parental]** 已经被选中了 **[!UICONTROL Type of Behavior]**。
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Campaign Standard配置
 
 在活动中，可通过单击左上角的，然后选择 **[!UICONTROL Adobe Campaign]** 来查看客户的自定义资源 **[!UICONTROL Client data]**。
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### 映射自定义资源和自定义实体
 
@@ -82,14 +82,14 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 单击左 **[!UICONTROL Adobe Campaign]** 上角的鼠标按钮，然后单击鼠标 **[!UICONTROL Administration > Development > Custom Resources]**。
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. 单击 **[!UICONTROL Custom Resources]**。
 1. Click the **[!UICONTROL Create]** button.  这将打开一个弹出窗口。
 1. 选 **[!UICONTROL Create a new resource]** 择并输 **[!UICONTROL Vehicle]** 入标签和ID。
 1. 单击 **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 活动随后将显示数据结构和链接页面。  您可以看到已添加多个字段。
 
@@ -97,23 +97,23 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 * 关联用户档案是车辆记录所链接的用户档案的ID;链接后，它将链接到用户档案 **[!UICONTROL externalId]** 表的字段。
 * VIN和车辆名称是用于捕获车辆信息的字段。
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >每个自定义资源都必须有一个唯一字段，其ID为externalId（完全）。  此字段将映射到Dynamics 365中自定义资源的ID字段（请参阅下文）。
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### 定义标识键
 
 下一步是定义标识键。  首先，创建标识密钥，如下所示。
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 在“键定义”屏幕中，确保选择字 **[!UICONTROL externalId]** 段。
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 为标签和ID指定名称 **[!UICONTROL ExternalId]**。
 单击 **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 现在，单击新添加的过滤器元素上的编辑，并根据下面的图像配置过滤器。  如果您在字 **[!UICONTROL externalId]** 段中输 **[!UICONTROL Parameters]** 入并单击加号，则将 **[!UICONTROL externalId_parameter]** 显示。  选择此参数作为参数。
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### 定义链接
 
@@ -143,13 +143,13 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 1. 在中 **[!UICONTROL Join Definitions]**，选择 **[!UICONTROL Define specific join conditions]**。
 1. 然后单击 **[!UICONTROL Add an element]**。
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 对于连接定义，我们输入以下值。
 
 请注意， **[!UICONTROL @externalId]** 该条目是用户档案表的externalId字段，该条目 **[!UICONTROL ProfileExternalId]** 是车辆自定义资源中相应字段的ID。  当将用户档案记录的externalId值输入到车辆记 **[!UICONTROL ProfileExternalId]** 录的字段中时，这两个记录将链接在一起。
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 确认更改并保存自定义实体。
 
@@ -161,21 +161,21 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 1. 保留默认选项： **[!UICONTROL Determine modifications since the last publication]**.
 1. 单 **[!UICONTROL Prepare Publication]** 击并等待完成。
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 然后单 **[!UICONTROL Publish]** 击并等待完成。
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### 唯一入口计划
 
 假设客户已在Dynamics 365中填充车辆定制实体，且Unifi已设置其车辆定制实体作业和计划，则客户应能够启动车辆实体的入口计划。
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 在完成入口作业后，车辆数据现在可在活动中新填充的自定 **[!UICONTROL Vehicle]** 义资源中看到。
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **相关主题**
 
