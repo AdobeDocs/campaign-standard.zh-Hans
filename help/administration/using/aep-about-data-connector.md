@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Adobe Experience Platform Data Connector适用于理解 **** Adobe Campaign标�
 >
 >这可以通过API或Adobe Experience Platform界面执行。 有关详细信息，请参阅专用文档：
 >
->* [为实时客户用户档案启用数据集](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [使用API为实时客户用户档案和标识服务配置数据集](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [为实时客户用户档案启用数据集](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [使用API为实时客户用户档案和标识服务配置数据集](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## 重要概念 {#key-concepts}
 
 * “开箱即用”映射仅适用于默认情况下以Campaign Standard形式提供的字段。 要获取所有自定义字段和资源，每个客户都需要定义自己的映射。
 
-* Adobe Experience Platform Data Connector将定期推送用户档案数据通过平台&#x200B;。间隔时间为15mn。 此值可以使用 [Adobe Experience Platform API进行修改](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
+* Adobe Experience Platform Data Connector将定期推送用户档案数据通过平台&#x200B;。间隔时间为15mn。 此值可以使用 [Adobe Experience Platform API进行修改](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)。
 
 * 数据工程师可以发布、修改和暂停从活动到Adobe Experience Platform的映射。
 
