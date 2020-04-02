@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
 
 ---
 
@@ -231,7 +231,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + 活动和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [使用Campaign Standard和Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+      + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [通知和建议](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [通过Campaign Standard集成请求和配置Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
