@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Adobe Campaign与Microsoft Dynamics 365集成使CRM系统中所有可用的联�
 >[!CAUTION]
 >
 >对于“联系人”同步，此集成将Dynamics 365视为真相的来源。  对同步联系人属性的任何更改应在Dynamics 365中完成，而不应在活动中完成。  如果在活动中进行了更改，则最终会在同步过程中覆盖这些更改。
-
