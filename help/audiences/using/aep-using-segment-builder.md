@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ Unified Segment Builder允许您根据来自Unified Service的数据定义规则
 
 左侧窗格列表所有可用于构建规则的属性、事件和受众。
 
-列出的字段是公司捕获的属性，并已通过体验数据模型(XDM) [系统提供](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
+列出的字段是公司捕获的属性，并已通过体验数据模型(XDM) [系统提供](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)。
 
 字段按选项卡进行组织：
 
