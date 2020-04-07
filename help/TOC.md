@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: Adobe Campaign Standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [技术建议](sending/using/technical-recommendations.md)
       + [监控投放能力](sending/using/monitor-deliverability.md)
       + [故障排除](sending/using/troubleshooting.md)
+   + 使用类型学规则 {#working-with-typology-rules}
+      + [关于类型和类型规则](sending/using/about-typology-rules.md)
+      + [管理类型](sending/using/managing-typologies.md)
+      + [管理类型规则](sending/using/managing-typology-rules.md)
+      + [筛选规则](sending/using/filtering-rules.md)
+      + [疲劳规则](sending/using/fatigue-rules.md)
+      + [控制规则](sending/using/control-rules.md)
 + 报告 {#reporting}
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + 活动和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [通知和建议](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [通过Campaign Standard集成请求和配置Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [将Microsoft Dynamics 365与Campaign Standard集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [配置Microsoft Dynamics 365以实现活动集成](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [为Microsoft Dynamics 365集成配置Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [映射活动自定义资源和Dynamics 365自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [配置短信渠道](administration/using/configuring-sms-channel.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
       + [配置交易消息传递](administration/using/configuring-transactional-messaging.md)
-   + 使用类型学规则 {#working-with-typology-rules}
-      + [关于类型学规则](administration/using/about-typology-rules.md)
-      + [筛选规则](administration/using/filtering-rules.md)
-      + [疲劳规则](administration/using/fatigue-rules.md)
-      + [控制规则](administration/using/control-rules.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
