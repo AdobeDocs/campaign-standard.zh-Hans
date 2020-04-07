@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
@@ -35,6 +35,13 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 
 配置事务消息部分已得到改进，其中包含有关如何访问最新事务事件和更新的截屏的信息。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+与类型和类型规则相关的部分已得到改进，并更新了有关开箱即用类型规则的其他信息。 [阅读更多](../../sending/using/about-typology-rules.md)
+
+关于该活动的行动，已 **[!UICONTROL Transfer file]** 经增加 **!UICONTROL File listing]** 了信息。 [阅读更多](../../automating/using/transfer-file.md)
+
+投放临时故障后的重试文档已更新，更新后将重试升级到增强的MTA后，如何管理更多详细信息。 [阅读更多](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+删除事务性消息部分已得到增强和澄清。 [阅读更多](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## 20.2版- 2020年3月 {#release-20-2---march-2020}
 
@@ -138,7 +145,7 @@ API文档主页已得到改进，并重新指导了不同的主题。 [阅读更
 
 与登陆页财产有关的信息已移入专用部分。 [阅读更多](../../channels/using/configuring-landing-page.md)
 
-控制面板文档已集成到新的协作文档集中。 [阅读更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板文档已集成到新的协作文档集中。 [阅读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
 
 指示器 **计算表** (Indicator calculation table has been updated)。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
@@ -266,7 +273,7 @@ Campaign Standard和经典错误消息的列表已更新。 [阅读更多](https
 
 **版本中包含的新功能**
 
-控制面板——阅 [读更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板——阅 [读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
 
 本地通知——阅 [读更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -432,7 +439,7 @@ Microsoft Edge（最新版本）已添加到计算机的兼容浏览器列表中
 
 应用程序内消息传递（测试版）-阅 [读更多](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](../../sending/using/about-typology-rules.md#typology-rules)
 
 **随版本提供的其他文档更新**
 
@@ -446,7 +453,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 **版本中包含的新功能**
 
-[针对移动App用户的高优](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 先级标记 [](../../administration/using/about-typology-rules.md#typology-rules) 和类型学过滤器。
+[针对移动App用户的高优](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 先级标记 [](../../sending/using/about-typology-rules.md#typology-rules) 和类型学过滤器。
 
 准备时从URL自动导入内容。 [阅读更多](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -570,7 +577,7 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 在多个页面中重新组织了发行说明，以便您能够更全局地视图所有不同发行版。
 
-该部 **[!UICONTROL Working with typologies]** 分已更新，以提高可见性。 [阅读更多](../../administration/using/about-typology-rules.md)
+该部 **[!UICONTROL Working with typologies]** 分已更新，以提高可见性。 [阅读更多](../../sending/using/about-typology-rules.md)
 
 现在提供了一个新选项，允许在中定义许多其他数据时获 **[!UICONTROL Query]** 得性能。 [阅读更多](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 **版本中包含的新功能**
 
-疲劳管理报告-阅 [读更多](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+疲劳管理报告-阅 [读更多](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 报告共享——阅 [读更多](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ API信号活动触发- [阅读更多](../../api/using/triggering-a-signal-activi
 
 **版本中包含的新功能**
 
-疲劳管理——阅 [读更多](../../administration/using/fatigue-rules.md)
+疲劳管理——阅 [读更多](../../sending/using/fatigue-rules.md)
 
 内容创建：从URL导入——阅 [读更多](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
@@ -660,7 +667,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-新部分专门用于主密钥和将业务ID用作API中的密钥。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 在API中添加了关于简单和多次筛选的信息。 [阅读更多](../../api/using/filtering.md)
 
