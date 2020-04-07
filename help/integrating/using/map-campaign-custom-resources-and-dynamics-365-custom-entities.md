@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 接下来，我们将指定自定义资源的链接。  在这种情况下，我们选择使用 **[!UICONTROL Vehicles]** 自定义实体（源）链接到用户档案实体(目标) **[!UICONTROL 1 cardinality simple link]**。
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. 在屏幕 **[!UICONTROL Link definitions]** 中，选择删除选项： **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. 我们选择此选项，以便删除用户档案时，链接到该 **[!UICONTROL Vehicle]** 用户档案的所有记录也会被删除。
 1. 在中 **[!UICONTROL Join Definitions]**，选择 **[!UICONTROL Define specific join conditions]**。
