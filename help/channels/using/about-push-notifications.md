@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 Adobe Campaign允许您向iOS和Android移动设备发送个性化的分段推送通知。
 
-这些消息会在您在Adobe Campaign中设置的移动应用程序上通过利用Experience Platform SDK接收。 有关此功能的详细信息，请参 [阅使用Adobe Experience Platform SDK配置移动应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+这些消息会在您通过利用Experience Platform SDK在Adobe Campaign中设置的移动应用程序上接收。 有关此功能的详细信息，请参 [阅使用Adobe Experience Platform SDK配置移动应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
@@ -36,7 +36,7 @@ Adobe Campaign中提供两种类型的推送通知：
 
 * **[!UICONTROL Alert/Message/Badge]** 键入通知使您能够发送包含其他内容（声音、徽章、深层链接等）的基于文本的标准消息。在部分中定义的 **[!UICONTROL Advanced options]** 值。
 
-   此通知类型允许您添加标题和消息，您可以在其中使用个性化字段。 要能够个性化您的消息，请确保您选择了模 **[!UICONTROL Send push on profiles]** 板。
+   此通知类型允许您添加标题和消息，在其中可以使用个性化字段。 要能够个性化您的消息，请确保您选择了模 **[!UICONTROL Send push on profiles]** 板。
 
 * **[!UICONTROL Silent push]** 类型通知用于无提示通知应用程序，不会向最终用户发送任何消息或内容。 此类消息的典型用例是使应用程序知道服务器上有可供下载的内容。
 
@@ -58,24 +58,21 @@ Adobe Campaign中提供两种类型的推送通知：
 ## 先决条件 {#prerequisites}
 
 >[!NOTE]
->要利用Campaign的推送通知功能，您需要提供。pem格式的有效推送证书，且无密码。
+>要利用活动的推送通知功能，您需要提供。pem格式的有效推送证书，且无密码。
 如果您有有效的p12证书，则可以使用联机资源将其轻松转换为。pem文件。
-
-首先，要开始发送推送通知，您需要使用Experience Platform SDK配置移动应用程序。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 在发送推送通知之前，您应：
 
-1. 确保您可以在Adobe Campaign **[!UICONTROL Mobile app]** 中访问渠道。
-1. 在以下位置配置移动应用程序：
+1. 在Adobe Campaign中，确保可以访问该 **[!UICONTROL Push notification]** 渠道。 如果您无法访问这些渠道，请与您的帐户团队联系。
 
-   * Adobe Campaign
-   * Adobe Mobile Services界面
+1. 验证您的用户是否具有Adobe Campaign标准版和体验平台启动中所需的权限。
 
-1. 执行手机应用程序的特定设置：
+1. 在Experience Platform Launch中，创建移动属性。 有关详细信息，请 [参阅设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-   * 将从Adobe Mobile Services界面下载的配置文件与移动应用程序打包。
-   * 将Experience Cloud Mobile SDK集成到您的移动应用程序中。
+1. 在Experience Platform Launch中，安装该扩 **[!UICONTROL Adobe Campaign Standard]** 展。
 
-1. 定义要从应用程序订阅者处收集的数据。 根据您定义的标准，协调在Adobe Campaign数据库中具有配置文件的移动应用程序的订阅者。
+1. 在Adobe Campaign标准版中，配置您在Experience Platform Launch中创建的移动属性。 有关详细信息，请参 [阅在Adobe Campaign中设置Experience Platform Launch应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
 
-配置移动应用程序后，您现在可以开始准备和发送应用程序内消息。 有关此问题的详细信息，请参 [阅准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 将特定于渠道的配置添加到您的移动应用程序设置中。 有关详细信息，请参阅 [Adobe Campaign中特定于渠道的应用程序配置](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+
+1. 要支持移动用例实施，请参阅有关使用Adobe Experience Platform SDK在Adobe Campaign标准中支持的扩展、Experience Platform Launch规则和移动用例中的SDK实施的详细说明 [](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
