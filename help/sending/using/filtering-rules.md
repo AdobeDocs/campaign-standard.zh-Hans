@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 下表提供了有关现成过滤规则及其相关渠道的信息。
 
 | 标签 | 渠道 | 说明 |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | 所有 | 不包括没有指定地址（电子邮件、邮政地址等）的目标。 根据选定的渠道)。 |
 | **[!UICONTROL Blacklisted address]** | 所有 | 不包括已列入黑名单地址。 |
 | **[!UICONTROL Duplicate]** | 所有 | 不包括基于重复人口字段的目标 **[!UICONTROL Address]** 数据。 |
