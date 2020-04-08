@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -479,7 +479,7 @@ _已知问题_
   </tr> 
   <tr> 
    <td> API信号活动触发<br /> </td> 
-   <td> 现在可以直接从活动标准API为工作流触发信号Adobe Campaign。<br /> 有关详细信息，请参阅详 <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">细文档</a> 。<br /> </td> 
+   <td> 现在可以直接从活动标准API为工作流触发信号Adobe Campaign。<br /> 有关详细信息，请参阅详 <a href="/help/api/using/triggering-a-signal-activity.md">细文档</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
