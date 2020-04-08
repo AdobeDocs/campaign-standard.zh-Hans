@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2926b916ac8e8a2605694758407c48b1db359c60
+source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 
 ---
 
@@ -51,7 +51,6 @@ Adobe Campaign 使用两种类型的 Cookie：
     </td>
     <td valign="top">
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="条件" src="assets/icon_report.png"/></a>
-
 </tr>
 <tr>
 <td>电子邮件跟踪</td>
@@ -60,7 +59,6 @@ Adobe Campaign 使用两种类型的 Cookie：
 <td>跟踪日志</td>
 <td>跟踪报告</td>
 </tr>
-
 </table>
 
 ## Tracking logs {#tracking-logs}
