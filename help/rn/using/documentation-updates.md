@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 
 其他资源已添加到文档主页。 [阅读更多](../../campaign-standard-home.md)
 
-有关Experience Cloud ID服务(ECID)的信息已添加到Adobe Experience Platform Data Connector文档。 [阅读更多](../../administration/using/aep-about-data-connector.md#key-concepts)
+有关Experience Cloud ID服务(ECID)的信息已添加到Adobe Experience Platform Data Connector文档中。 [阅读更多](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 配置事务消息部分已得到改进，其中包含有关如何访问最新事务事件和更新的截屏的信息。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 与类型和类型规则相关的部分已得到改进，并更新了有关开箱即用类型规则的其他信息。 [阅读更多](../../sending/using/about-typology-rules.md)
 
-关于该活动的行动，已 **[!UICONTROL Transfer file]** 经增加 **!UICONTROL File listing]** 了信息。 [阅读更多](../../automating/using/transfer-file.md)
+关于该活动的行动，已 **[!UICONTROL Transfer file]** 经增加 **[!UICONTROL File listing]** 了信息。 [阅读更多](../../automating/using/transfer-file.md)
 
 投放临时故障后的重试文档已更新，更新后将重试升级到增强的MTA后，如何管理更多详细信息。 [阅读更多](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -667,7 +667,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+新部分专门用于主密钥和将业务ID用作API中的密钥。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 在API中添加了关于简单和多次筛选的信息。 [阅读更多](../../api/using/filtering.md)
 
