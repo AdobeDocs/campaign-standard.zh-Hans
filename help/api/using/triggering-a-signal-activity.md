@@ -12,16 +12,16 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
 
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign standard工作流程中，可能有一个或多个外部信 **号活动** 。 这些活动是等待触发的“监听器”。
+在Adobe Campaign标准工作流中，可以有一个或多个外部信 **号活动** 。 这些活动是等待被触发的“监听器”。
 
-Campaign Standard API允许您触发外部信 **号活动** ，以调用工作流。 API调用可以包括将被引入工作流的事件变量（要定位的受众名称、要导入的文件名、消息内容的一部分等）中的参数。 这样，您便可以轻松地将Campaign自动化与外部系统集成。
+Campaign StandardAPI允许您触发 **外部信号活动** ，以调用工作流。 API调用可以包括将被引入工作流的事件变量(要导入的受众名称、要导入的文件名、消息内容的一部分等)中的参数。 这样，您便可以轻松地将活动自动化与外部系统集成。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Campaign Standard API允许您触发外部信 **号活动** ，以调用工作�
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 对返回 **的URL执行POST** 请求以触发信号活动，有效负荷中有 **“source”** 参数。 此属性是必填的，它允许您指示触发请求源。
+1. 对返回 **的URL执行** POST请求 **，以触发信号活动，有效负荷中有** “source”参数。 此属性是必填的，它允许您指示触发请求源。
 
 如果要使用参数调用工作流，请使用“parameters”属性将其添 **加到有效负荷** 。 语法由参数的名称后跟其值组成(支持以下类型：字 **符串**&#x200B;数 **、数字**、 **boolean** 、 **date**/time)。
 
@@ -58,7 +58,7 @@ Campaign Standard API允许您触发外部信 **号活动** ，以调用工作�
 
 >[!NOTE]
 >
->向有效负荷添加参数时，请确保其名 **称****** 和类型值与“外部信号”活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
+>向有效负荷添加参数时，请确保其名 **称****** 和类型值与外部信号活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
 
 <br/>
 
@@ -117,7 +117,7 @@ Campaign Standard API允许您触发外部信 **号活动** ，以调用工作�
 
 <!-- + réponse -->
 
-如果外部信号活动中未声明其中一个参数，则POST请求将返回以下错误，指明缺少哪个参数。
+如果外部信号活动中未声明其中一个参数，则POST请求将返回以下错误，指示缺少哪个参数。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
