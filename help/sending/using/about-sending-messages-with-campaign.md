@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 | 有用页面 | 其他资源 |
 |---|---|
 | [优化您的交付能力](../../sending/using/about-deliverability.md) | [疲劳管理](../../sending/using/fatigue-rules.md) |
-| [监控投放](../../audiences/using/creating-profiles.md) | [设计A/B测试电子邮件](../../channels/using/designing-an-a-b-test-email.md) |
+| [控制投放吞吐量](../../reporting/using/delivery-throughput.md) | [设计A/B测试电子邮件](../../channels/using/designing-an-a-b-test-email.md) |
 | [在失败时接收通知](../../sending/using/receiving-alerts-when-failures-happen.md) | [监控投放](../../sending/using/monitoring-a-delivery.md) |
-| [构建对照组](../../automating/using/workflow-control-group.md) | [在失败时接收通知](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [控制投放吞吐量](../../reporting/using/delivery-throughput.md) | [监控投放](../../sending/using/monitoring-a-delivery.md) |
+| [构建对照组](../../automating/using/workflow-control-group.md) | [发送跟进消息](../../channels/using/follow-up-messages.md) |
