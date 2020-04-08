@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -32,5 +32,5 @@ Campaign Standard允许您将消息链接到 **类型**，以检查消息是否�
 
 1. 创建类型规则(请参 [阅此部分](../../sending/using/managing-typology-rules.md#creating-a-typology-rule))。
 1. 创建一种类型学，并参考您在其中创建的规则(请参 [阅本节](../../sending/using/managing-typologies.md#creating-a-typology))。
-1. 配置投放以使用您创建的排版(请参 [阅本节](../../sending/using/managing-typologies.md#applying-typologies-to-messages))。
+1. 配置投放以使用您创建的排版(请参 [阅此部分](../../sending/using/managing-typologies.md#applying-typologies-to-messages))。
 1. 在消息准备过程中，当满足标准时，用户档案将被排除。 您可以检查日志以监视排除。
