@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 
 删除事务性消息部分已得到增强和澄清。 [阅读更多](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## 20.2版- 2020年3月 {#release-20-2---march-2020}
+## 20.2版- 2020年4月 {#release-20-2---april-2020}
 
 **版本中包含的新功能**
 
@@ -667,7 +667,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-新部分专门用于主密钥和将业务ID用作API中的密钥。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 在API中添加了关于简单和多次筛选的信息。 [阅读更多](../../api/using/filtering.md)
 
