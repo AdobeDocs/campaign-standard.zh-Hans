@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 [单击此处](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件箱中订阅发布通知并获取有关Adobe Experience Cloud最新版本的详细信息。
 
-## 20.2版- 2020年3月 {#release-20-2---march-2020}
+## 20.2版- 2020年4月 {#release-20-2---april-2020}
 
 **新增内容?**
 
