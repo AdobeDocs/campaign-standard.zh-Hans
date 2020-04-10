@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * 修复了在隐私请求处理后在活动中手动删除该请求时，即使在清除后，也无法删除与该请求关联的数据的问题。
 * 修复了在预览或发送包含Adobe Experience Manager特殊字符的消息时可能发生的问题。
 * 修复了在执行具有多个入站工作流的活动时，在过渡中可能发生的问题。
+* 修复了阻止标准用户在工作流订阅或投放中将“目标到应用程序”用作查询维的问题。 (CAMP-37618)
