@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,11 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[使用目标用户档案进行电子邮](sending/using/testing-messages-using-target.md)**<br/>件测试了解如何在真正的目标用户档案上测试电子邮件。
 
-* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
+* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
 
-* **[Campaign Standard 移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>了解有关移动交付一般准则的更多信息。
+* **[Campaign Standard 移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
+了解有关移动交付一般准则的更多信息。
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
@@ -64,8 +66,8 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 | 有用页面 | 面向开发人员的资源 |
 |---|---|
 | [发行说明](rn/using/release-notes.md) | [实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [控制面板文档](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API文档](api/using/about-campaign-standard-apis.md) |
+| [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [活动API](api/using/about-campaign-standard-apis.md) |
 | [操作说明视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [列表错误消息](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [发布计划指南](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard数据模型](developing/using/datamodel-introduction.md) |
-| [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [活动集成](integrating/using/about-campaign-integrations.md) |
-| [Campaign Standard入门](start/using/campaign-orchestration.md) | [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [发布计划](rn/using/release-planning.md) | [活动数据模型](developing/using/datamodel-introduction.md) |
+| [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解决方案指南](integrating/using/about-campaign-integrations.md) |
+| [开始使用Campaign Standard](start/using/campaign-orchestration.md) | [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
