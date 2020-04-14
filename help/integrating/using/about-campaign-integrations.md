@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 根据您的环境，其他解决方案也可以链接到Adobe Experience Cloud。 它们作为“组织”（也称为“租户”）链接。
 
-组织是允许管理员配置组和用户以及控制Experience Cloud中的单点登录的实体。 组织的功能类似于跨所有Experience Cloud产品和解决方案的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以有许多组织。 用户和组织管理在 [Adobe Experience Cloud帮助门户中有详细介绍](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+组织是允许管理员配置组和用户以及控制Experience Cloud中的单点登录的实体。 组织的功能类似于跨所有Experience Cloud产品和解决方案的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以有许多组织。 用户和组织管理在 [Adobe Experience Cloud帮助门户中有详细介绍](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
 
 如果您希望将来自其他系统的数据流与Adobe Campaign集成，请查看我们的 [API文档](../../api/using/about-campaign-standard-apis.md)。
 
@@ -48,7 +48,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 允许您在Adobe Experience Manager中直接创建映射到Adobe Campaign数据库的电子邮件内容或表单。<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">使用活动和Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a> , <br/><a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和活动创建电子邮件</a> 
