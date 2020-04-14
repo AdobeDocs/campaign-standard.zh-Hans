@@ -1,18 +1,18 @@
 ---
 title: '从头开始设计电子邮件 '
 description: 了解如何在电子邮件设计器中从头开始设计电子邮件内容。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑——电子邮件——内容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -29,10 +29,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 添加结构组件以塑造电子邮件。 请参阅 [编辑电子邮件结构](#defining-the-email-structure)。
 1. 在结构组件中插入内容组件和片段。 请参阅 [添加片段和内容组件](#defining-the-email-structure)。
 1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images)。
-1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)、插入 [链接和在电子邮](../../designing/using/links.md#inserting-a-link) 件中定义动态内容 [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+1. 通过添加个性化字段、链接等个性化您的电子邮件。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)、插入 [链接和在电子邮](../../designing/using/links.md#inserting-a-link) 件中定义动态内容 [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 1. 定义电子邮件的主题行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 预览电子邮件。
-1. 保存您的内容，并在确保已定义受众并正确计划发送后继续处理您的消息。
+1. 保存内容，并在确保已定义受众并正确计划发送后继续处理消息。
 
 您还可以查看此简介 [视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)。
 
@@ -79,15 +79,15 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以在结构组件中添加所需数量的内容组件。 您还可以在结构组件中或移动到其他结构组件中。
 
-以下是电子邮件设计器中可用组件的列表：
+以下是电子邮件设计器中可用组件的列表:
 
 - **[!UICONTROL Button]**
 
-   如果需要使用多个按钮，而不是从头开始编辑每个按钮，则可以使用上下文工具栏 **[!UICONTROL Button]** 复制组件。
+   如果需要使用多个按钮，而不是从头开始编辑每个按钮，则可以使用上下文 **[!UICONTROL Button]** 工具栏重复组件。
 
    您还可以将按钮保存到可重用的片段中。 有关此内容的详细信息，请 [参阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)[和将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
 
-1. 选择 **[!UICONTROL Fallback view]** 以在电子邮件设计器中显示回退图像。
+选择 **[!UICONTROL Fallback view]** 以在电子邮件设计器中显示回退图像。
 
 - **[!UICONTROL Text]**
 
@@ -147,7 +147,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    1. 从计算机中选择一个备用图像。
    ![](assets/des_carousel_fallback.png)
 
-   传送组件与所有电子邮件程序不兼容。 当电子邮件中不支持传送时，请上传回退以显示图像。
+   传送组件与所有电子邮件项目不兼容。 当电子邮件中不支持传送时，请上传回退以显示图像。
 
    >[!NOTE]
    >
@@ -157,6 +157,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 - [创建电子邮件](../../channels/using/creating-an-email.md)
 - [在消息中选择受众](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [计划消息](../../sending/using/about-scheduling-messages.md)
+- [计划消息发送](../../sending/using/about-scheduling-messages.md)
 - [预览消息](../../sending/using/previewing-messages.md)
 - [电子邮件渲染](../../sending/using/email-rendering.md)
