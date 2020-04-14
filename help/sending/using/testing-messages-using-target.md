@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Campaign Standard允许您导入可用于测试的受众。 例如，这允许�
 
 1. Click the **[!UICONTROL Import]** button. 与消息用户档案对应的受众的目标被添加到标签，以及相 **[!UICONTROL Profile substitution]** 关的替换地址和前缀。
 
->[!NOTE]
->
->如果您再次导入具有不同替换地址和／或前缀的同一受众，则除了之前导入的用户档案之外，这些替换还将添加到该列表。
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >如果您再次导入具有不同替换地址和／或前缀的同一受众，则除了之前导入的用户档案之外，这些替换还将添加到该列表。
 
 ## 使用目标用户档案预览消息
 
