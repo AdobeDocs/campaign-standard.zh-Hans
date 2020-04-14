@@ -1,5 +1,5 @@
 ---
-title: 通过API触发数据摄取
+title: 通过 API 触发数据摄取
 description: 了解如何通过API触发数据摄取。
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,39 +12,39 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# 通过API触发数据摄取 {#triggering-data-ingestion-apis}
+# 通过 API 触发数据摄取 {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Campaign Standard Data服务目前处于测试阶段，可能会在不另行通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会在不另行通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
-Adobe Campaign standard允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
+Adobe Campaign标准版允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
 
-本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign Standard API的全局信息，请参 [阅本节](../../api/using/about-campaign-standard-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参 [阅本节](../../api/using/about-campaign-standard-apis.md)。
 
 ## 先决条件 {#prerequisites}
 
-在使用API之前，数据映射必须首先在Campaign standard界面中配置并发布。 有关详细信息，请参阅以下各节：
+在使用API之前，数据映射必须首先在Campaign Standard界面中配置并发布。 有关详细信息，请参阅以下各节：
 
 * [映射定义](../../administration/using/aep-mapping-definition.md)
 * [映射激活](../../administration/using/aep-mapping-activation.md)
 
 创建数据映射后，必须停止它的运行，以便您可以随时从API触发它。 为此，请执行以下步骤：
 
-1. 在Campaign Standard中，转到 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>菜**[!UICONTROL Status of data export to platform]** 单。
+1. 在Campaign Standard中，转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** >菜 **[!UICONTROL Status of data export to platform]** 单。
 
-1. 双击数据映射以将其打开，然后单击按 **[!UICONTROL Stop]**钮。
+1. 多次单击数据映射以将其打开，然后单击按 **[!UICONTROL Stop]** 钮。
 
    ![](assets/aep_datamapping_stop.png)
 
 1. 保存更改
 
-数据映射执行现已停止。 您可以使用Campaign Standard API手动触发它。
+数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发它。
 
 ## 开始立即获取数据映射 {#starting-immediate-ingestion}
 
@@ -54,7 +54,7 @@ Adobe Campaign standard允许您通过API触发数据映射的即时摄取，并
 
 >[!NOTE]
 >
->要执行收录POST API调用，用户必须具有 **SQL函数执行角色** ,Campaign standard管理员可通过执行以下JS脚本提供该角色：
+>要执行收录POST API调用，用户必须具有 **SQL函数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有关XDM映射请求状态及其相关作业的详细信息，请参阅Campaign standard界面中的“数据导出到平台的状态”菜单 **!UICONTROL [(请参阅]** 映射激活 [](../../administration/using/aep-mapping-activation.md))。
+有关XDM映射请求状态及其相关作业的详细信息可在Campaign Standard界面中的“数据导出到平台的状态 **!UICONTROL [”菜单(请参阅&#x200B;]**映射激活[](../../administration/using/aep-mapping-activation.md))。
 
 GET操作返回以下信息：
 
