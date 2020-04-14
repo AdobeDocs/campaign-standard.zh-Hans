@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + 测试和发送 {#testing-and-sending}
    + [关于使用 Campaign 发送消息](sending/using/about-sending-messages-with-campaign.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
-      + [预览消息](sending/using/previewing-messages.md)
+      + [预览投放](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
       + [发送验证](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
