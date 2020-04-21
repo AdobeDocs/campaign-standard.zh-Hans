@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 删除事务性消息部分已得到增强和澄清。 [阅读更多](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 预览 **投放部分** ，已使用移动投放示例进行更新。[阅读更多](../../sending/using/previewing-messages.md)
+
+添加了关于交易消息和删除未使用的实时事件的最佳实践。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+配置电子邮件渠道部分已更新，其中说明了Adobe Campaign增强MTA现在管理的所有电子邮件设置。 [阅读更多](../../administration/using/configuring-email-channel.md)
 
 ## 20.2版- 2020年4月 {#release-20-2---april-2020}
 
@@ -669,7 +673,7 @@ SMS文档已更新，在 [SMS自动回复部分添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-新部分专门用于主密钥和将业务ID用作API中的密钥。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+新部分专门用于主键和将业务ID用作API中的键。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
 
 在API中添加了关于简单和多次筛选的信息。 [阅读更多](../../api/using/filtering.md)
 
