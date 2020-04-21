@@ -13,12 +13,24 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
+source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
 
 ---
 
 
 # 配置电子邮件渠道{#configuring-email-channel}
+
+作为活动管 [理员](../../administration/using/about-administrating-adobe-campaign.md)，您可以配置电子邮件渠道设置。 这些高级设置包括常规电子邮件渠道参数、电子邮件路由帐户、电子邮件处理规则和电子邮件属性。 在此页上，您将学习如何编辑常规电子邮件和发送参数的默认值。
+
+请注意，某些电子邮件设置现在由Adobe Campaign增强MTA管理。 因此：
+* 活动用户界面中的某些配置不再应用：
+   * “配 **[!UICONTROL Retries]** 置”菜单 [和电子邮件属性的“发](#email-channel-parameters) 送”参数中的设置 [](#retries-parameters) 。
+   * “电 **[!UICONTROL MX management]** 子邮 **[!UICONTROL Domain management]** 件处理规 [则”菜单中的和规则](#email-processing-rules)。
+
+* 其他参数现在由增强的MTA部分管理，而某些配置仍可在活动内完成。 受影响的设置如下：
+   * 菜 **[!UICONTROL Message delivery duration]** 单中的参 **[!UICONTROL Configuration]** 数。 For more on this, see [this section](#email-channel-parameters).
+   * 部分 **[!UICONTROL Delivery duration]** 中 **[!UICONTROL Validity limit for sending messages]** 的或 **[!UICONTROL Validity period]** 参数。 For more on this, see [this section](#validity-period-parameters).
+   * 中 **[!UICONTROL Bounce mails]** 的规则 **[!UICONTROL Email processing rules]**。 For more on this, see [this section](#email-processing-rules).
 
 ## 电子邮件渠道参数 {#email-channel-parameters}
 
@@ -28,11 +40,11 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 * **已发送电子邮件的标题参数**
 
-   在本节中，您可以指定发 **[!UICONTROL masks]** 送者地址和错误地址的授权。 如有必要，这些蒙版可以使用逗号分隔。 此配置是可选的。 输入这些字段后，在消息准备阶段，Adobe Campaign会检查输入的地址是否有效。 此操作模式可确保没有使用可能触发可交付性问题的地址。 投放地址必须在投放服务器上配置。
+   在本节中，您可以指定发 **[!UICONTROL masks]** 送者地址和错误地址的授权。 如果使用了多个蒙版，则必须用逗号分隔这些蒙版。 填充这些字段后，Adobe Campaign会检查在消息准备阶段输入的地址是否有效。 此操作模式可确保没有使用可能触发可交付性问题的地址。 发送方地址和错误地址均由Adobe设置。 您需要与Adobe客户关怀团队联系以更新它们。
 
 * **可交付性**
 
-   此ID由支持提供。 必须使可交付性报告正确工作。
+   此ID由Adobe客户关怀团队提供。 交付能力报告必须正确运行。
 
 * **投放参数**
 
@@ -40,7 +52,7 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    >[!IMPORTANT]
    >
-   >升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后，仅 **[!UICONTROL Message delivery duration]** 当活动投放中的参数设置为3.5天或更少时，才使用该参数。 如果定义的值高于3.5天，则不会将其考虑在内。
+   >**活动中的此参数现在仅在设置为3.5天或更少时使用。** 如果定义的值高于3.5天，则不会将其考虑在内，因为它现在由Adobe Campaign增强MTA管理。
 
    该字 **[!UICONTROL Online resources validity duration]** 段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
 
@@ -48,9 +60,9 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    临时未传送的消息可能会自动重试。 有关详细信息，请参阅 [投放临时故障后的重试](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后， **活动中的** 重试设置将被忽略。 根据 **[!UICONTROL Number of retries]** IP在历史和当前给定域上的表现情况，增强的MTA管理(在发送开始后的一天应执行多少重试)和 **[!UICONTROL Retry period]** (重试之间的最小延迟)。
+   >根据IP在历史和当前给定域上的表现情况，将要执行的最大重试数和重试之间的最小延迟现在由Adobe Campaign增强MTA管理。 将忽 **** 略活动中的重试设置。
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -76,94 +88,37 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ## 电子邮件处理规则 {#email-processing-rules}
 
-管 **[!UICONTROL Email processing rules]** 理员可以通过菜单访问 **[!UICONTROL Administration > Channels > Email]** 该。
+管理 **[!UICONTROL Email processing rules]** 员可以通过菜单访问该 **[!UICONTROL Administration > Channels > Email]** 文件。
 
-这些规则包含可由远程服务器返回的字符串列表，并允许您限定错误(**Hard**、 **Soft** 或 **Ignored**)。
-
-默认规则如下。
+请注意，电子邮件域和MX规则现在由Adobe Campaign增强MTA管理：
+* **DKIM(DomainKeys Indentifed Mail)** ，电子邮件身份验证签名由增强的MTA对所有域的所有消息执行。 除非在增强的MTA级别 **另有指定，否则它不**&#x200B;会使用发送者ID **、** DomainKeys **或** S/MIME进行签名。
+* 增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈按域自定义您的吞吐量。
 
 ### 弹回邮件 {#bounce-mails}
 
-对于同步投放故障错误消息，增强的MTA确定弹出类型和资格，并将该信息发回给活动。 有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
 异步弹回仍由活动inMail进程通过规则进行 **[!UICONTROL Bounce mails]** 限定。
 
->[!IMPORTANT]
+此规则包含可由远程服务器返回的字符串列表，并允许您限定错误(**Hard**、 **Soft** 或 **Ignored**)。
+
+>[!NOTE]
 >
->升级到增强的MTA后，不再使用活动表中 **[!UICONTROL Message qualification]** 的弹出资格。 有关弹回邮件资格的更多信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
+>对于同步投放失败错误消息，Adobe Campaign增强MTA确定弹出类型和资格，并将该信息发回给活动。
 
-<!--The user can create his own rules.
+有关弹回邮件资格的更多信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### 电子邮件域的管理 {#managing-email-domains}
+### Management of email domains {#managing-email-domains}
 
-<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-The **SMTP parameters** act as filters applied for a blocking rule.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
-* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+### MX management {#mx-management}
 
->[!IMPORTANT]
->
->升级到增强的MTA后，不再使 **[!UICONTROL Domain management]** 用Adobe Campaign规则。
+The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-**DKIM(DomainKeys Indentifed Mail)** ，电子邮件身份验证签名由增强的MTA对所有域的所有消息执行。 除非在增强的MTA级别 **另有指定，否则它不**&#x200B;会使用发送者ID **、** DomainKeys **或** S/MIME进行签名。
-
-有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-### MX管理 {#mx-management}
-
-<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
-
-To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
-
->[!IMPORTANT]
->
->升级到增强的MTA后，将不再使用Adobe Campaign **[!UICONTROL MX management]** 投放吞吐量规则。
-
-增强的MTA使用其自己的MX规则，该规则允许它根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，按域自定义您的吞吐量。
-
-有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
-
-For example, the following addresses:
-
-* a.mx.yahoo.com 
-* b.mx.yahoo.com 
-* c.mx.yahoo.com
-
-are compatible with the following masks:
-
-* &#42;.yahoo.com
-* ?.mx.yahoo.com
-
-These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
-The following parameters are available for each rule:
-
-* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
-
-    * A number: the rule will only apply to this publicId.
-    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
-
-  If the field is empty, the rule applies to all IDs.
-
-* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
-* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
-* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
-
->[!IMPORTANT]
->
->* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. -->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
 ## 列表电子邮件属性 {#list-of-email-properties}
 
@@ -201,9 +156,9 @@ The following parameters are available for each rule:
 
 临时未传送的消息可能会自动重试。 有关详细信息，请参阅 [投放临时故障后的重试](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
->[!IMPORTANT]
+>[!NOTE]
 >
->升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后， **活动中的** 重试设置将被忽略。 增 **[!UICONTROL Retry period]** 强的MTA根据IP在历史和当前给定域上的表现情况来管理 **[!UICONTROL Max. number of retries]** (重试之间的最小延迟)和(在发送开始后应执行的重试数)。
+>现在，基于IP在历史和当前给定域上的表现情况，重试之间的最小延迟和要执行的重试的最大数量由Adobe Campaign增强MTA管理。 将忽略 **活动** 重试设置。
 
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
@@ -211,7 +166,7 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
 
-动量在活动中确实遵守投放持续时间设置(在“有效期参数 [](#validity-period-parameters) ”一节中定义)，但最多只有3.5天。 此时，重试队列中的任何消息都将从队列中删除，并作为弹回发送回来。 有关投放故障的详细信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
+在 **活动中设置的** 投放持续时间设置 [(在“有效期参数”部分中定义](#validity-period-parameters) ) **仍将保留，但最多只有3.5天**。 此时，重试队列中的任何消息都将从队列中删除，并作为弹回发送回来。 有关投放故障的详细信息，请参阅此 [部分](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
 #### 电子邮件格式参数 {#email-format-parameters}
 
@@ -260,7 +215,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
    >[!IMPORTANT]
    >
-   >升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后，仅 **[!UICONTROL Delivery duration]** 当活动投放中的参数设置为3.5天或更少时，才使用该参数。 如果定义的值高于3.5天，则不会将其考虑在内。
+   >此参数现在由Adobe Campaign增强MTA管理。 **您必须定义一个最多3.5天的值。** 如果定义的值高于3.5天，则不会将其考虑在内。
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:此字段用于上传的资源，主要用于镜像页面和图像。 本页上的资源在有限的时间内有效（以节省磁盘空间）。
 * **[!UICONTROL Mirror page management]**:镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件内容相同。 默认情况下，如果链接已插入邮件内容，则会生成镜像页面。 此字段允许您修改生成此页面的方式：
