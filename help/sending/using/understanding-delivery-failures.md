@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 >[!NOTE]
 >
->**电子邮件** （或“弹回”）错误消息由增强的MTA（同步弹回）或inMail进程（异步弹回）限定。 **MTA进程** （或“状态报告”的“SR”）符合SMS错误消息的条件。
+>**电子邮件** （或“弹回”）错误消息由增强的MTA（同步弹回）或inMail进程（异步弹回）限定。
+>
+>**MTA进程** （或“状态报告”的“SR”）符合SMS错误消息的条件。
 
 如果地址被隔离或投放已列入黑名单，则还可以在准备用户档案期间排除消息。 排除的消息列在投放 **[!UICONTROL Exclusion logs]** 仪表板的选项卡中(请参 [阅本节](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
@@ -80,13 +82,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 如果消息因“已忽略”类型的临时错误 **而失败** ，则将在投放持续期间执行重试。 有关错误类型的详细信息，请参阅 [投放失败类型和原因](#delivery-failure-types-and-reasons)。
 
-升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后， **活动中的** 重试设置将被忽略。 重试的数量(在发送开始后一天应执行多少重试)和重试之间的最小延迟由增强的MTA管理，这取决于IP在历史和当前给定域的表现情况。
+重试的数量(在发送开始后一天应执行多少重试)和重试之间的最小延迟现在由Adobe Campaign增强MTA管理，这取决于IP在历史和当前给定域的表现情况。 忽略 **重试** (在活动中)的设置。
 
 要修改投放的持续时间，请转到投放或投放模板的高级参数，并编辑“有效性” **[!UICONTROL Delivery duration]** 时段部分 [的字段](../../administration/using/configuring-email-channel.md#validity-period-parameters) 。
 
 >[!IMPORTANT]
 >
->升级到 [Adobe Campaign增强MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)后，仅 **[!UICONTROL Delivery duration]** 当活动投放中的参数设置为3.5天或更少时，才使用该参数。 如果定义的值高于3.5天，则不会将其考虑在内。
+>**现&#x200B;**[!UICONTROL Delivery duration]**在，只有在设置为3.5天或更少时，才会使用活动投放中的参数。** 如果定义的值高于3.5天，则不会将其考虑在内，因为它现在由Adobe Campaign增强MTA管理。
 
 例如，如果希望投放的重试在一天后停止，您可以将投放持续时间设置为 **1d**，增强的MTA将通过删除一天后重试队列中的消息来执行该设置。
 
@@ -105,19 +107,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ## 退回邮件资格 {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->升级到增强的MTA后，不再使用活动表中 **[!UICONTROL Message qualification]** 的弹出资格。
-
-对于同步投放故障错误消息，增强的MTA确定弹出类型和资格，并将该信息发回给活动。 有关Adobe Campaign增强MTA的详细信息，请参阅本 [文档](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+对于同步投放故障错误消息，增强的MTA确定弹出类型和资格，并将该信息发回给活动。
 
 inMail进程仍可通过规则对异步弹回进行 **[!UICONTROL Inbound email]** 限定。 要访问这些规则，请单 **[!UICONTROL Adobe Campaign]** 击左上角的标志，然后选择并 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 选择 **[!UICONTROL Bounce mails]**。 For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>现在，弹回邮件资格由Adobe Campaign增强MTA管理。 不再使用活动表中 **[!UICONTROL Message qualification]** 的弹出资格。
 
 <!--Bounces can have the following qualification statuses:
 
