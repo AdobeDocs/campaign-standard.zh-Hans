@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -50,12 +50,11 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
     <br>
   </td>
   <td valign="top">
-       <img alt="开发人员" src="start/using/assets/dev.png" />
-    <div>
-    <strong>面向开发人员的资源</strong>
+       <img alt="支持" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    获 <strong>得支持</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em>访问常见问题解答、最佳实践、帮助资源，并与活动专家联系。</em></p>
     <br>
   </td>
 </tr>
@@ -65,9 +64,9 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 | 有用页面 | 面向开发人员的资源 |
 |---|---|
-| [发行说明](rn/using/release-notes.md) | [实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [发行说明](rn/using/release-notes.md) | [Experience Cloud触发器](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [活动API](api/using/about-campaign-standard-apis.md) |
-| [操作说明视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [列表错误消息](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [列表错误消息](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [发布计划](rn/using/release-planning.md) | [活动数据模型](developing/using/datamodel-introduction.md) |
 | [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解决方案指南](integrating/using/about-campaign-integrations.md) |
 | [开始使用Campaign Standard](start/using/campaign-orchestration.md) | [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
