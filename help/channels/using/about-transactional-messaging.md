@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign中提供两种事务性消息:
 
 >[!IMPORTANT]
 >
->升级到增强MTA后 [](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，所有事务性消息都会与Adobe Campaign增强MTA一起发送，以改进交付性、吞吐量和弹回处理。 所有影响与标准营销消息相同，并在Adobe Campaign增强的MTA [文档中详细介绍](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+>所有事务性消息现在都随Adobe Campaign增强的MTA一起发送，以改进交付性、吞吐量和弹回处理。 所有影响与标准营销消息相同。
 
 ## 交易消息传递操作原则 {#transactional-messaging-operating-principle}
 
