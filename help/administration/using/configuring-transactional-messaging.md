@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 ## 创建事件 {#creating-an-event}
 
 开始，即创建与您的需求对应的事件。
+
+>[!NOTE]
+>
+>创建的实时事件数量可能会对您的平台产生影响。 为确保最佳性能，请确保删除不再需要的实时事件。 请参 [阅删除事件](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)。
 
 1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的标志，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. Click the **[!UICONTROL Create]** button.
@@ -95,7 +99,7 @@ source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 通过从事务性消息数据库中丰富Adobe Campaign内容，使您能够个性化消息。 例如，从每个收件人的姓氏或CRM ID中，您可以恢复数据(如其地址、出生日期或用户档案表中添加的任何其他自定义字段)，以便对发送给他们的信息进行个性化设置。
 
-可以利用来自扩展或资源的信息来丰富事务性消息 **[!UICONTROL Profile]** 内容 **[!UICONTROL Service]** 。
+可以用来自扩展的信息来丰富事务性消息内容 **[!UICONTROL Profile and services Ext API]**。 有关详细信息，请参 [阅扩展API:发布扩展](../../developing/using/step-2--publish-the-extension.md)
 
 此信息也可以存储在新资源中。 在这种情况下，必须直接或通过其他表 **[!UICONTROL Profile]** 将资 **[!UICONTROL Service]** 源链接到或资源。 例如，在以下配置中，如果资源已链接到资源，则可以使用资源(如产品事务性消息或ID)中的信息来丰富 **[!UICONTROL Product]** 内容，如产品类别或 **[!UICONTROL Product]****[!UICONTROL Profile]** ID。
 
