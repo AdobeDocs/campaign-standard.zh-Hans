@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -91,7 +91,7 @@ source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
    >[注意]
    >
-   >指向放弃的购物车的链接是指向外部URL的链接，该URL会将访客重定向到他们的购物车。 此参数在Adobe Campaign中不受管理。
+   >指向放弃购物车的链接是指向外部URL的链接，该URL会将访客重定向到其购物车。 此参数在Adobe Campaign中不受管理。
 
 1. 在此示例中，您要添加您在创建事件时定义的 [三个字段](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):first name, last product cansfired, total cart amount. 为此，请在消 [息内容中插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 。
 
@@ -284,7 +284,7 @@ source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ## 删除事务性消息 {#deleting-a-transactional-message}
 
-事务性消息取消发布后，或者事务性消息尚未发布，您可以从事务性消息列表中删除该。 操作步骤：
+事务性消息取消发布后，或者事务性消息尚未发布后，您可以从事务性消息列表中删除该。 操作步骤：
 
 1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的标志，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 1. 将鼠标悬停在您选择的消息上。
