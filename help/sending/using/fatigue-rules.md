@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 相关主题：
 
 * [准备](../../administration/using/configuring-email-channel.md#preparation)
-* [管理类型](../../sending/using/about-typology-rules.md#managing-typologies)
-* [类型规则](../../sending/using/about-typology-rules.md#typology-rules)
+* [管理类型](../../sending/using/managing-typologies.md)
+* [类型规则](../../sending/using/managing-typology-rules.md)
 * [优化通信频率以防止接触疲劳](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 创建疲劳规则 {#creating-a-fatigue-rule}
@@ -76,7 +76,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
    >[!NOTE]
    >
-   >可以在投放模板中定义类型学，该类型学将自动应用于使用此模板创建的所有投放。
+   >可以在投放模板中定义排版，并自动应用于使用此模板创建的所有投放。
 
 在投放准备过程中，用户档案将根据已发送给投放的投放数量从中排除（如果适用）。 您可以视图疲劳规则执行结果在投放日志中。 请参 [阅查看疲劳结果](#viewing-the-fatigue-results)。
 
@@ -255,7 +255,7 @@ Adobe Campaign专门提供疲劳规则报告，帮助您了解疲劳规则如何
 
 在此用例中，我们希望创建一个类型规则，以防止每周将超过2条消息投放为高级用户档案，将每周2条消息为标准用户档案。
 
-为了识别客户和潜在客户，我们扩展了用户档案资源，该字段 **[!UICONTROL Status]** 包含0表示高级用户档案,1表示标准用户档案。
+为了识别客户和潜在客户，我们扩展了用户档案资源，该字段包含0（对于高级）和1(对于标准用户档案) **[!UICONTROL Status]** (对于标准用户档案)。
 
 要创建规则，请应用以下步骤：
 
