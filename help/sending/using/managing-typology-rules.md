@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
 
 1. 访问/ **[!UICONTROL Administration]** / **[!UICONTROL Channels]** /菜 **[!UICONTROL Typologies]** 单，然后单击 **[!UICONTROL Typology rules]****[!UICONTROL Create]**。
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. 输入类型 **[!UICONTROL Label]**&#x200B;学，然后指 **[!UICONTROL Channel]** 定应用规则的类型。
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. 指定类型规则 **[!UICONTROL Type]**，然后根据需要配置它。 请注意，类型规则配置因类型而异。 有关详细信息，请参阅“筛选 **[规则](../../sending/using/filtering-rules.md)**”(Filtering rules**[)](../../sending/using/fatigue-rules.md)** 和“疲劳规则”(Fatiuge rules)部分。
 
 1. 选择要包含新规则的类型。 要执行此操作，请选择选 **[!UICONTROL Typologies]** 项卡，然后单击 **[!UICONTROL Create element]** 按钮。
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. 选择所需的类型学，然后单击 **[!UICONTROL Confirm]**。
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. 选择所有类型后，单击以 **[!UICONTROL Create]** 确认创建类型规则。
 
