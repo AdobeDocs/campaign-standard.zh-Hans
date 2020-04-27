@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * “前缀”字段中可用于使用目 **标用户档案** 测试消息的字符数 [](../../sending/using/testing-messages-using-target.md) ，已从32个增加到500个。
 * 可在实例上发布的实时事件的最大数目已从350增加到2000。 (CAMP-41608)
+* 通过使用syncWithLaunch技术工作流程，Adobe Launch与Campaign Standard之间的同步已得到改进。 此工作流程可自动将所有Adobe Launch移动属性导入到Adobe Campaign标准版中。 For more information, refer to [this page](../../administration/using/technical-workflows.md).
+
+   您需要向Adobe客户服务中心（直接或通过您的Adobe联系人）提交票证，以在活动实例中启用syncWithLaunch技术工作流程。 (CAMP-40082)
 
 **Email Designer增强功能**
 
