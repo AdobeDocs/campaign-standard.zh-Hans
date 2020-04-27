@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
+source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
 
@@ -25,6 +25,11 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 ![](assets/file_transfer.png)
 
 该 **[!UICONTROL Transfer file]** 活动允许您接收或发送文件，测试是否存在文件，或列表Adobe Campaign中的文件。
+
+>[!CAUTION]
+>
+>从20.3版开始，随活动下载的文件将在X天后删除，其中X由“工作流”属性中菜单下的 **[!UICONTROL Transfer File]** 字 **[!UICONTROL History in days]****[!UICONTROL Execution]** 段决定。
+
 
 ## 使用环境 {#context-of-use}
 
