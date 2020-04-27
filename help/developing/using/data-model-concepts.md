@@ -13,31 +13,31 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # 数据模型概念{#data-model-concepts}
 
-Adobe Campaign附带预定义的数据模型。 此数据模型可由能够向现 [有资源](../../administration/using/users-management.md#functional-administrators) （或扩展）添加新资源或扩展的管理员修改。
+Adobe Campaign包含预定义的数据模型。 此数据模型可由能够向现 [有资源](../../administration/using/users-management.md#functional-administrators) （或扩展）添加新资源或扩展的管理员修改。
 
 >[!CAUTION]
 >
 >创建和修改资源是敏感操作，只能由专家用户执行。
 
-通过 **[!UICONTROL Administration]**Adobe Campaign徽**[!UICONTROL Development]** 标访问的 **>菜单允许您管理自定义资源**, **发布** ，以及访 ****&#x200B;问诊断工具。
+通过 **[!UICONTROL Administration]** Adobe Campaign徽标访问的>菜单允许您管理自定义资 **[!UICONTROL Development]** 源 **,**&#x200B;发布 **，以及访******&#x200B;问诊断工具。
 
-Adobe Campaign使用的数据是通过不同资源定义的。 您可以 **通过创建自己的自定义资源** （如购买表或产品表）来丰富提供的数据模板。
+Adobe Campaign使用的数据通过不同的资源来定义。 您可以 **通过创建自己的自定义资源** （如购买表或产品表）来丰富提供的数据模板。
 
-无法修改现成资源（如营销活动、电子邮件或受众）。 但是，可以扩展自定义资源以添加新字段。
+无法修改内置资源(如活动、电子邮件或受众)。 但是，可以扩展自定义资源以添加新字段。
 
-扩展字段会生成前缀，这样它们就不会与现成的字段发生冲突。
+扩展字段会生成前缀，这样它们就不会与内置字段发生冲突。
 
 >[!NOTE]
 >
->您可以在此处找到现成的资源的数据模型表示 [形式](../../developing/using/datamodel-introduction.md)。
+>您可以在此页中查找内置资源的数据模型 [表示形式](../../developing/using/datamodel-introduction.md)。
 
-您还可以在 **与创建的资源对应的屏幕中** ，配置导航。
+您还可以在 [与创建的资源对应的屏幕中](configuring-the-screen-definition.md) ，配置导航。
 
 可以导出和 **导入自定义资源** ，例如从开发到生产环境。 有关此内容的详细信息，请 [参阅此分步使用案例](../../automating/using/exporting-importing-custom-resources.md)。
