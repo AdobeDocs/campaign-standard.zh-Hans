@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 要为自定义实体设置集成，请访问adobe-support@unifisoftware.com [](mailto:adobe-support@unifisoftware.com) ，请求完成此操作。  Unifi将要求两个系统中自定义实体表的名称以及所需的属性映射。  Unifi随后将创建相应的作业和计划。
 
-自定义实体支持的示例用例可在“用例”部分 [中查看](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)。
+自定义实体支持的示例用例如下所示。
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 
 ## 用例
-
 
 ### 开始状态
 
@@ -101,7 +100,7 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 >[!CAUTION]
 >
->每个自定义资源都必须有一个唯一字段，其ID为externalId（完全）。  此字段将映射到Dynamics 365中自定义资源的ID字段（请参阅下文）。
+>每个自定义资源都必须有一个唯一的字段，其ID为externalId（完全）。  此字段将映射到Dynamics 365中自定义资源的ID字段（请参阅下文）。
 
 ![](assets/FieldsInDynamics.png)
 
@@ -179,5 +178,5 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 **相关主题**
 
-* 使用Adobe Campaign标准版- Microsoft Dynamics 365
-* 在活动中添加自定义资源的关键步骤
+* [使用Adobe Campaign标准版- Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [在活动中添加自定义资源的关键步骤](../../developing/using/key-steps-to-add-a-resource.md)
