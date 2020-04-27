@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -49,11 +49,11 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    ![](assets/schema_extension_24.png)
 
-1. 在屏幕 **[!UICONTROL Field definition]** 中，您可以定义将用于受众和定位的类别，甚至可以添加描述。
+1. 在屏 **[!UICONTROL Field definition]** 幕中，您可以定义用于受众和定位的类别，甚至可以添加描述。
 
    ![](assets/schema_extension_5.png)
 
-1. 如果需 **[!UICONTROL Specify a list of authorized values]** 要定义将提供给用户的值（枚举值），请选中此选项。
+1. 如果 **[!UICONTROL Specify a list of authorized values]** 您需要定义将提供给用户的值(明细列表值)，请选中此选项。
 
    然后，单 **[!UICONTROL Create element]** 击并指定 **[!UICONTROL Label]** 和 **[!UICONTROL Value]**。 根据需要添加任意数量的值。
 
@@ -62,14 +62,14 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    这些字段显示在执行数据库更新后可显示的数据和元数据中。 有关详细信息，请参阅更新数 [据库结构一节](../../developing/using/updating-the-database-structure.md) 。
 
-1. 选中该 **[!UICONTROL Add automatic ID]** 字段可自动生成ID。 请注意，现有实体将保持为空。 有关详细信息，请参阅为配 [置文件和自定义资源生成唯一ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+1. 选中该 **[!UICONTROL Add automatic ID]** 字段可自动生成ID。 请注意，现有实体将保持为空。 有关详细信息，请参阅为 [用户档案和自定义资源生成唯一ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 1. 要修改资源元素名称在列表和创建步骤中的显示方式，请选中该 **[!UICONTROL Customize the title of the resource elements]** 框。 从您为此资源创建的字段中选择一个字段。
 
    ![](assets/schema_extension_18.png)
 
    >[!NOTE]
    >
-   >如果不选中此选项，则在列出此表中的所有实体时，将使用自动主键（每次将实体添加到表时自动创建）。
+   >如果不选中此选项，则在从此表中列表所有实体时，将使用自动主键（每次将实体添加到表时自动创建）。
 
 现在可以定义资源的字段。
 
@@ -77,7 +77,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 每个资源必须至少有一个唯一的密钥。 例如，您可以指定一个键，这样两个产品在购买表中就不能具有相同的ID。
 
-1. 如果希望自动 **[!UICONTROL Automatic primary key]** 且以增量方式生成技术密钥，请在部分中指定存储的大小。
+1. 如果您希望自动 **[!UICONTROL Automatic primary key]** 且以增量方式生成技术密钥，请在部分中指定存储的大小。
 
    ![](assets/schema_extension_6.png)
 
@@ -123,7 +123,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 1. 单击 **[!UICONTROL Confirm]**.
 
-创建的索引显示在部分中的列表 **[!UICONTROL Index]** 中。
+创建的索引将显示在部分的列表 **[!UICONTROL Index]** 中。
 
 >[!NOTE]
 >
@@ -148,9 +148,9 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    各种链接类型如下：
 
-   * **[!UICONTROL 1 cardinality simple link]**:源表的一个出现最多可以具有目标表的一个对应出现。
-   * **[!UICONTROL N cardinality collection link]**:源表的一个出现可以具有目标表的多个对应出现，但目标表的一个出现最多可以具有源表的一个对应出现。
-   * **[!UICONTROL 0 or 1 cardinality simple link]**:源表的一个实例最多可以具有目标表的一个对应实例或无。 请注意，这种类型可 **[!UICONTROL Link type]** 能导致性能问题。
+   * **[!UICONTROL 1 cardinality simple link]**:源表的一个出现最多可以具有目标表的一个对应的出现。
+   * **[!UICONTROL N cardinality collection link]**:源表的一个出现可以具有多个对应的目标表出现，但目标表的一个出现最多可以具有源表的一个对应出现。
+   * **[!UICONTROL 0 or 1 cardinality simple link]**:源表的一个出现最多可以具有目标表的一个对应出现或者没有。 请注意，这种类型可 **[!UICONTROL Link type]** 能导致性能问题。
    ![](assets/schema_extension_29.png)
 
 1. 在屏幕 **[!UICONTROL New link]** 中，默认情况下 **[!UICONTROL Label]** ，会 **[!UICONTROL ID]** 完成这些字段和字段，但您可以编辑它们。
@@ -159,21 +159,21 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
    >
    >最多使用30个字符。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >创建后无法重命名链接。 要重命名链接，必须删除该链接并重新创建它。
 
-1. 该列 **[!UICONTROL Category for the audience and targeting]** 表允许您将此链接分配到某个类别，使其在查询编辑器工具中更加可见。
+1. 该 **[!UICONTROL Category for the audience and targeting]** 列表允许您将此链接分配给类别，使其在查询编辑器工具中更可见。
 1. 如果需要， **[!UICONTROL Reverse link definition]** 该部分允许您在目标资源中显示资源的标签和ID。
 1. 定义部分中链接引用的记录的行 **[!UICONTROL Behavior if deleted/duplicated]** 为。
 
-   默认情况下，目标记录在链接不再引用后即被删除。
+   默认情况下，目标记录在链接不再引用后将被删除。
 
    ![](assets/schema_extension_16.png)
 
 1. 在部分 **[!UICONTROL Join definition]** 中，默认选项被选 **[!UICONTROL Use the primary keys to make the join]** 中，但您可以选择以下两个选项：
 
-   * **[!UICONTROL Use the primary key to make the join]**:此连接定义允许您使用配置文件的主要密钥来协调购买的主要密钥。
+   * **[!UICONTROL Use the primary key to make the join]**:此连接定义允许您使用用户档案主键与购买的主键协调。
    * **[!UICONTROL Define specific join conditions]**:此连接定义允许您手动选择将连接两个资源的字段。 请注意，如果数据配置不正确，则 **Purchase** record将不可见。
    ![](assets/schema_extension_17.png)
 
@@ -183,12 +183,12 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 >
 >要了解创建索引时的最佳实践，请参阅此 [部分](../../developing/using/data-model-best-practices.md#links)。
 
-**示例：将创建的资源与“配置文件”资源关联**
+**示例：将创建的资源与“用户档案”资源关联**
 
-在此示例中，我们要将新资源Purchase与 **Profiles** 自定义资 **源关联** :
+在此示例中，我们要将新资源 **Purchase** 与 **用户档案自定义资** 源链接：
 
 1. 创建新的 **购买** 资源。
-1. 要将其与Profiles自定义资 **源关联** ，请展开选 **[!UICONTROL Links]** 项卡中的部 **[!UICONTROL Data structure]** 分并单击 **[!UICONTROL Create element]**。
+1. 要将其与用户档案自定 **义资源链接** ，请展开选 **[!UICONTROL Links]** 项卡中的部分， **[!UICONTROL Data structure]** 然后单击 **[!UICONTROL Create element]**。
 1. 在此处选择目标资源 **[!UICONTROL Profiles (profile)]**。
 1. 在此示例中，保持默认的“链 **[!UICONTROL 1 cardinality simple link]** 接”类型处于选中状态。
 
@@ -198,14 +198,14 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. 如果需要，您可以定义一个详细信息屏幕，以便能够编辑 **Purchase** ，并将其链接到配置文件。
+1. 如果需要，您可以定义一个详细信息屏幕，以便能够编辑 **Purchase** ，并将其链接到用户档案。
 
-   展开 **[!UICONTROL Detail screen configuration]** 部分并检查以 **[!UICONTROL Define a detail screen]** 配置与资源的每个元素对应的屏幕。 如果不选中此框，将无法访问此资源的元素的详细信息视图。
+   展开 **[!UICONTROL Detail screen configuration]** 部分并检查以 **[!UICONTROL Define a detail screen]** 配置与资源的每个元素对应的屏幕。 如果不选中此框，则将无法访问此资源的元素的详细视图。
 
 1. 单击 **[!UICONTROL Create element]**.
 1. 选择您的链接资源，然后单击 **[!UICONTROL Add]**。
 
-   然后，您的新资源将显示在高级菜单中，方法是选择 **[!UICONTROL Client data]** > **[!UICONTROL Purchase]**。
+   然后，您的新资源将在高级菜单中通过选择 **[!UICONTROL Client data]** >可用 **[!UICONTROL Purchase]**。
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
@@ -213,7 +213,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    您现在可以发布新资源。
 
-通过添加此链接，“购 **买** ”选项卡会从“>”菜单添加到配置文件详细信息 **[!UICONTROL Profiles & audiences]** 屏幕 **[!UICONTROL Profiles]** 中。 请注意，这是特定于资源的 **[!UICONTROL Profile]** 操作。
+通过添加此链接，“购 **买** ”选项卡会从“>”菜单添加到用户档案详细信息 **[!UICONTROL Profiles & audiences]** 屏幕中 **[!UICONTROL Profiles]** 。 请注意，这是特定于资源的 **[!UICONTROL Profile]** 操作。
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -221,42 +221,42 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 发送日志扩展允许您：
 
-* 通过添加配置文件自定义字段来扩 **展动态报告功能**
-* 使用细分代码和配置文件数 **据扩展发送日志数据**
+* 通过添加用户档案自定义字段扩展动态 **报表功能**
+* 用段代码和用户档案数据扩展发 **送日志数据**
 
-**使用细分代码扩展**
+**通过段代码扩展**
 
-用户可以使用来自工作流引擎的区段代码扩展日志。
+用户可以扩展日志，段代码来自工作流引擎。
 
-区段代码必须定义到工作流中。
+必须在工作流中定义段代码。
 
 要激活此扩展，请选中该选项 **[!UICONTROL Add segment code]**。
 
 ![](assets/sendinglogsextension_1.png)
 
-有关区段代码的详细信息，请参阅“ [分段](../../automating/using/segmentation.md) ”部分。
+有关段代码的详细信息，请参阅“ [分段](../../automating/using/segmentation.md) ”部分。
 
-**使用配置文件字段扩展**
+**使用用户档案字段扩展**
 
 >[!NOTE]
 >
->管理员应已使用自定义字段扩展配置文件资源。
+>管理员应已使用自定义字段扩展用户档案资源。
 
 ![](assets/sendinglogsextension_2.png)
 
-单击 **[!UICONTROL Add field]** 并从配置文件资源中选择任何自定义字段。
+单击 **[!UICONTROL Add field]** 并从用户档案资源中选择任意自定义字段。
 
-要生成链接到“配置文件”(Profile)维的新子维，请选中该 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 选项。
+要生成链接到用户档案维的新子维，请选中该选 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 项。
 
 ![](assets/sendinglogsextension_3.png)
 
-从动态报表中，可将自定义字段维度拖放到自由格式表中。
+在动态报告中，可将自定义字段维度拖放到自由格式表中。
 
-有关动态报告的详细信息，请参阅 [组件列表](../../reporting/using/list-of-components-.md)。
+有关动态报告的详细信息，请参阅组 [件列表](../../reporting/using/list-of-components-.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->发送到Dynamic Reporting的字段数限制为20个。
+>发送到动态报告的字段数限制为20。
 
 ## 编辑资源属性 {#editing-resource-properties}
 
@@ -279,29 +279,29 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 将保存您的修改。 您需要再次发布资源以应用这些资源。
 
-## 为配置文件和自定义资源生成唯一ID {#generating-a-unique-id-for-profiles-and-custom-resources}
+## 为用户档案和自定义资源生成唯一ID {#generating-a-unique-id-for-profiles-and-custom-resources}
 
-默认情况下，配置文件和自定义资源在创建时没有业务ID。 您可以启用一个选项，该选项在创建元素时自动生成唯一ID。 此ID可用于：
+默认情况下，用户档案和自定义资源在创建时没有业务ID。 您可以启用一个选项，该选项在创建元素时自动生成唯一ID。 此ID可用于：
 
 * 在外部工具中轻松识别导出的记录。
 * 在导入在其他应用程序中处理的更新数据时协调记录。
 
-只能为配置文件和自定义资源启用它。
+只能为用户档案和自定义资源启用它。
 
-1. 为配置文件资源创建扩展或创建新资源。
+1. 为用户档案资源创建扩展或创建新资源。
 1. 在数据结构定义中，选中部 **[!UICONTROL Add automatic ID field]** 分下的选项 **[!UICONTROL Fields]** 。
 
    ![](assets/option_id_field.png)
 
    >[!NOTE]
    >
-   >只有新记录才有ACS ID。 对于在 **[!UICONTROL ACS ID]** 激活此选项之前创建的配置文件或元素，该字段将保留为空。
+   >只有新记录才有ACS ID。 对于在 **[!UICONTROL ACS ID]** 激活此选项之前创建的用户档案或元素，该字段将保留为空。
 
 1. 保存并发布对资源所做的修改。 如果希望此机制应用于通过API创建的元素，请选中此选项以扩展API。
 
 现在 **[!UICONTROL ACS ID]** 该字段可用，并在手动、从API或从导入工作流中插入新元素时自动填充。 ACS ID字段是UUID字段，并且已编制索引。
 
-在导出配置文件或自定义资源时，如果已为该 **[!UICONTROL ACS ID]** 资源启用该列，您现在可以添加该列。 您可以在外部工具中重复使用此ID来标识记录。
+在导出用户档案或自定义资源时，如果已为 **[!UICONTROL ACS ID]** 该资源启用该列，您现在可以添加该列。 您可以在外部工具中重复使用此ID来标识记录。
 
 ![](assets/export_id_field.png)
 
@@ -309,6 +309,6 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 >[!NOTE]
 >
->在启 **[!UICONTROL ACS ID]** 用该选项之前，不会更新创建的配置文件或元素的字段。 只有新记录才有ACS ID。
+>在启 **[!UICONTROL ACS ID]** 用该选项之前创建的用户档案或元素不会更新该字段。 只有新记录才有ACS ID。
 >
 >此字段处于只读模式。 您无法修改它。
