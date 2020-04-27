@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Adobe Campaign中提供两种事务性消息:
 
 交易消息传递也可从Adobe Campaign标准API中获取。 有关详细信息，请参阅专 [用文档](../../api/using/managing-transactional-messages.md)。
 
->[!IMPORTANT]
+>[!NOTE]
 >
->所有事务性消息现在都随Adobe Campaign增强的MTA一起发送，以改进交付性、吞吐量和弹回处理。 所有影响与标准营销消息相同。
+>所有事务性消息现在都随Adobe Campaign增强的MTA一起发送，以改进交付性、吞吐量和弹回处理。 所有影响与标准营销消息相同。 有关此方面的详细信息，请参 [阅此部分](../../administration/using/configuring-email-channel.md)。
 
 ## 交易消息传递操作原则 {#transactional-messaging-operating-principle}
 
