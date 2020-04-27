@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [为多语言推送通知生成CSV文件](channels/using/generating-csv-multilingual-push.md)
       + [基于移动应用程序数据创建和更新用户档案信息](channels/using/updating-profile-with-mobile-app-data.md)
+      + [实施推送跟踪](channels/using/push-tracking.md)
+      + [从Adobe Campaign标准推送通知中显示图像](channels/using/image-push-notification.md)
+      + [了解Campaign Standard推送通知有效负荷结构](channels/using/push-payload.md)
    + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
