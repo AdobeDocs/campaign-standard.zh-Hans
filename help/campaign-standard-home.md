@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## 新增功能
 
-* **[使用目标用户档案进行电子邮](sending/using/testing-messages-using-target.md)**<br/>件测试了解如何在真正的目标用户档案上测试电子邮件。
+* **[使用目标用户档案进行电子邮](sending/using/testing-messages-using-target.md)**<br/>件测试了解如何在真正的目标用户档案上测试电子邮件
 
-* **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-了解 Adobe Campaign 为帮助您遵守隐私要求所提供的工具。
+* **[隐私管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>&#x200B;理了解Adobe Campaign提供的工具，帮助您遵守隐私
 
-* **[Campaign Standard 移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
-了解有关移动交付一般准则的更多信息。
+* **[Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;了解有关移动投放的一般指南的更多信息
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
@@ -36,8 +34,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色和安全组</strong></a>
     </div>
-    <em>了解如何定义权限并为 Campaign 用户分配角色。</em>
-    <br>
+    <em>了解如何定义权限并为活动用户分配角色</em><br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -54,7 +51,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     获 <strong>得支持</strong></a>
     </div>
-    <p><em>访问常见问题解答、最佳实践、帮助资源，并与活动专家联系。</em></p>
+    <p><em>访问常见问题解答、最佳实践、帮助资源并与专家联系</em></p>
     <br>
   </td>
 </tr>
