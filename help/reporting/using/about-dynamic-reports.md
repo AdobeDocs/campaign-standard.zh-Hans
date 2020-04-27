@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # 关于动态报告{#about-dynamic-reports}
 
+动态报告提供完全可自定义的实时报告。 它增加了对用户档案数据的访问，除了功能性电子邮件分析数据（如打开和点击）之外，还通过用户档案维度（如性别、城市和年龄）实现人口统计活动。 通过拖放界面，您可以浏览数据、确定电子邮件活动对最重要客户细分的执行方式并衡量其对收件人的影响。
+
 >[!NOTE]
 >
 >只有具有管理权限或组织单位设置为“全部” **的用户** ，才能创建或保存新报告。 For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-动态报告提供完全可自定义的实时报告。 它增加了对用户档案数据的访问，除了功能性电子邮件分析数据（如打开和点击）之外，还通过用户档案维度（如性别、城市和年龄）实现人口统计活动。 通过拖放界面，您可以浏览数据、确定电子邮件活动对最重要客户细分的执行方式并衡量其对收件人的影响。
 
 借助拖放菜单和可自定义的可视化功能，动态报表功能允许您将维度、指标和时间范围组合到任何组合中，并进行无限的细分和比较。
 
@@ -82,7 +82,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 | 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
-| 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义用户档案信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到美国数据中心。 <br>除Adobe CampaignID外，美国数据中心中处理的所有事件标准ID字段均不在此列。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义用户档案信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到美国数据中心。 <br>除Adobe CampaignID外，美国数据中心中处理的所有事件标准ID字段均不在此范围之内。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
 | EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有将现成的和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** 除 <br>外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到EMEA数据中心。 <br>除Adobe CampaignID外，EMEA数据中心中处理的所有事件标准镜像页面字段。  <br>**[!UICONTROL Control data]** 它包含Adobe I/O注册数据以及在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅此 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
 
 此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]****[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** >来更改 **[!UICONTROL Options]**。
