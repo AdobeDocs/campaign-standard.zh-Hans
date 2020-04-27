@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Unifi完成其工作后，他们将通知您并提供进一步信息，以帮助
 >
 >默认情况下，SEND营销事件会从出口作业中筛选出来。  如果您希望在Dynamics 365中看到“发送营销事件”，则需要在Unifi中修改出口作业的过滤器（步骤5）。
 
-Unifi中有两个不同的角色，一个所有者用户和一个只读分析师用户。 所有者用户可以修改作业和计划，而只读分析师则不能。  给定客户实例只能有一个所有者用户。  如果客户需要更改分配为所有者用户的个人，他们可以向adobe-support@unifisoftware.com [](mailto:adobe-support@unifisoftware.com)。
+Unifi中有两个不同的角色，一个所有者用户和一个只读分析师用户。 所有者用户可以修改作业和计划，而只读分析师则不能。  给定客户实例只能有一个所有者用户。  如果客户需要更改分配为所有者用户的个人，他们可以向adobe-support@unifisoftware.com发送一封电子邮件，其中 [包含所请求的](mailto:adobe-support@unifisoftware.com) 更改。
 
 以下视频中显示了统一配置、作业详细信息、设置和监视。
 
