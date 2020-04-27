@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # 文档更新{#documentation-updates}
 
-了解有关Adobe Campaign标准版文档的所有最新更新。
+除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，此页还列表了Adobe Campaign标准文档中的所有新更新。
 
-本页列表了每个Adobe Campaign标准版的所有新增功能和文档更新。
+## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
-您还可以参阅Adobe Campaign [发行说明](../../rn/using/release-notes.md)。
+**版本中包含的新功能**
+
+泰国个人数据保护法(PDPA)-阅 [读更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+外部API活动(GA)-阅 [读更多](../../automating/using/external-api.md)
+
+**随版本提供的其他文档更新**
+
+* 信息已添加到工作流属 **[!UICONTROL History in days]** 性的字段中，现在包括活动下载的文件 **[!UICONTROL Transfer file]** 。 [阅读更多](../../automating/using/executing-a-workflow.md)
+
+* 在用户档案替换部分中添加了关于主题行前缀的500个字符限制的信息。 [阅读更多](../../sending/using/testing-messages-using-target.md)
 
 ## 文档更新- 2020年4月 {#doc-updates-april-2020}
 
-Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与其他解决方案集成指南的核心文档中。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Microsoft Dynamics 365与Adobe Campaign标准版文档的集成现在可在核心文档中找到。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 其他资源已添加到文档主页。 [阅读更多](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 
 配置事务消息部分已得到改进，其中包含有关如何访问最新事务事件和更新的截屏的信息。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-与类型和类型规则相关的部分已得到改进，并更新了有关开箱即用类型规则的其他信息。 [阅读更多](../../sending/using/about-typology-rules.md)
+字体和类型规则文档已得到改进，并更新了有关内置类型规则的其他信息。 [阅读更多](../../sending/using/about-typology-rules.md)
 
 关于该活动的行动，已 **[!UICONTROL Transfer file]** 经增加 **[!UICONTROL File listing]** 了信息。 [阅读更多](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ Microsoft Dynamics 365与Adobe Campaign标准版文档的集成已集成到与�
 添加了关于交易消息和删除未使用的实时事件的最佳实践。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 配置电子邮件渠道部分已更新，其中说明了Adobe Campaign增强MTA现在管理的所有电子邮件设置。 [阅读更多](../../administration/using/configuring-email-channel.md)
+
+“配置事务性消息传递”部分已更新，其中包含有关编辑事件配置所需权限以及如何丰富事务性消息中的集合的更多信息。 [阅读更多](../../administration/using/configuring-transactional-messaging.md)。
 
 ## 20.2版- 2020年4月 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ Adobe Campaign标准版/Adobe Experience Manager集成文档已更新和改进�
 
 现在提供了专门介绍Campaign Standard数据模型最佳实践的新部分。 [阅读更多](../../developing/using/data-model-best-practices.md)
 
-现成的右侧 **[!UICONTROL Workflow]** 已添加信息。 [阅读更多](../../administration/using/list-of-roles.md)
+内置权限中已 **[!UICONTROL Workflow]** 添加信息。 [阅读更多](../../administration/using/list-of-roles.md)
 
 工作流的资产中已添加 **[!UICONTROL History in days field]** 了相关信息。 [阅读更多](../../automating/using/executing-a-workflow.md)
 
@@ -453,7 +465,7 @@ Adobe Launch与移动应用程序（测试版）的集成——阅 [读更多](.
 
 添加了有关如何删除受众的信息。 [阅读更多](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-更新了现成的推送通知报告部分。 [阅读更多](../../reporting/using/push-notification-report.md)
+更新了推送通知内置报告部分。 [阅读更多](../../reporting/using/push-notification-report.md)
 
 ## 18.7版- 2018年7月 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 大多数用于活动和Adobe解决方案集成的URL都已更改！ 检查书签！ [阅读更多](../../integrating/using/about-campaign-integrations.md)
 
-数据模型v1现在可用于开箱即用资源的SQL结构——阅 [读更多](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+数据模型v1现在可用于内置资源的SQL结构——阅 [读更多](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 添加了有关如何准备投放中消息的信息阅读 [更多](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ API信号活动触发- [阅读更多](../../api/using/triggering-a-signal-activi
 
 新增了有关导出跟踪功能的部分。 [阅读更多](../../administration/using/auditing-export-logs.md)
 
-添加了有关现成包导出的精度。 [阅读更多](../../automating/using/managing-packages.md)
+添加了有关内置包导出的精度。 [阅读更多](../../automating/using/managing-packages.md)
 
 更新了外部帐户定义和示例。 [阅读更多](../../administration/using/external-accounts.md)
 
