@@ -1,19 +1,19 @@
 ---
 title: 配置屏幕定义
 description: 了解如何根据资源数据结构定义新的Adobe Campaign屏幕。
-page-status-flag: 从未激活
+page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 开发
-content-type: 参考
+audience: developing
+content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在创建资源或向现有资源添加新字段时，您可以定义希望它们显示在界面中的方式。
 
-此步骤不是强制性的，因为您仍然能够通过工作流、受众和REST API填充资源并访问其数据。
+此步骤不是必需的，因为您仍然能够通过工作流、受众和REST API填充资源并访问其数据。
 
 在选项卡 **[!UICONTROL Screen definition]** 中，您可以：
 
 * 在导航窗格中添加对自定义资源的访问权限
 * 个性化呈现构成资源的元素列表的方式
-* 定义资源每个元素的详细信息视图的显示方式
+* 定义资源每个元素的详细视图的显示方式
 
 ## 从导航菜单启用访问 {#enabling-access-from-the-navigation-menu}
 
@@ -46,14 +46,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 通过 **[!UICONTROL List configuration]** 屏幕定义部分，您可以定义在资源概述中默认显示的列和信息。
 
 1. 选中 **[!UICONTROL Customize the list configuration]** 该框可定义资源列的显示方式。
-1. 使用 **[!UICONTROL Create element]** 按钮从您创建的字段中选择字段。
+1. 使用按 **[!UICONTROL Create element]** 钮从您创建的字段中选择一个字段。
 1. 创建的字段将显示在列表中。 您可以编辑其标签和宽度。
 
    ![](assets/schema_extension_20.png)
 
 1. 在部 **[!UICONTROL Simple search]** 分中，选中 **[!UICONTROL Specify the fields to be taken into account in the search]** 以定义将包含在搜索中的字段。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >此配置将替换默认搜索中使用的字段。
 
@@ -67,21 +67,21 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 通过 **[!UICONTROL Detail screen configuration]** 屏幕定义部分，您可以定义将在资源每个元素的详细信息屏幕中显示的列和信息。
 
-1. 展开 **[!UICONTROL Detail screen configuration]** 部分并检查以 **[!UICONTROL Define a detail screen]** 配置与资源的每个元素对应的屏幕。 如果不选中此框，将无法访问此资源的元素的详细信息视图。
+1. 展开 **[!UICONTROL Detail screen configuration]** 部分并检查以 **[!UICONTROL Define a detail screen]** 配置与资源的每个元素对应的屏幕。 如果不选中此框，则将无法访问此资源的元素的详细视图。
 1. 只需单击一下，即可添加自定义资源中的所有字段。 要执行此操作，请单击图 ![](assets/addallfieldsicon.png) 标或使用按 **[!UICONTROL Add an element]** 钮。
 1. 从为此资源创建的元素中选择一个元素，然后指定字段类型：
 
    * **[!UICONTROL Input field]**:是可编辑字段。
    * **[!UICONTROL Value]**:是只读字段。
    * **[!UICONTROL List]**:是一张桌子。
-   * **[!UICONTROL Separator]**:将元素拆分为多个类别。
+   * **[!UICONTROL Separator]**:将元素拆分为类别。
    ![](assets/schema_extension_23.png)
 
 1. 添加的元素将显示在列表中。 您可以编辑其标签。
 
    ![](assets/schema_extension_22.png)
 
-1. 根据需要添 **[!UICONTROL Separator]** 加任意数量的元素，以将元素分成不同的类别。
+1. 根据需要添 **[!UICONTROL Separator]** 加任意数量的元素，以将元素拆分为不同的类别。
 
    这允许您显示分隔符以更好地组织窗口。
 
@@ -103,4 +103,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * **[!UICONTROL Authorize duplicating]**:此选项允许您激活链接到自定义资源的重复记录。
 * **[!UICONTROL Authorize deleting]**:此选项允许您激活删除链接到自定义资源的记录。
-
