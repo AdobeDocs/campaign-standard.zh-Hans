@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 
 ## 隐私合规性
 
-Adobe Campaign优惠一套工具，帮助您遵守GDPR、CCPA和其他隐私法规的隐私合规性。 阅读本文，进一 [步了解隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) ，以及我们为管理访问权、被遗忘权、同意权、数据保留和用户角色提供的功能。 您还会找到最佳实践，以在使用我们的服务时帮助您遵守隐私权。
+Adobe Campaign优惠一套工具，帮助您遵守GDPR、CCPA和其他隐私法规的隐私合规性。 阅读本文，进一 [步了解隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) ，以及我们为管理访问权、被遗忘权、同意权、数据保留和用户角色提供的功能。 您还会找到最佳实践，以帮助您在使用我们的服务时遵守隐私权。
 
 ## 相关主题
 
