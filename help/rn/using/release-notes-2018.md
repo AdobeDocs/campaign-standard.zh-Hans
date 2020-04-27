@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
    有关详细信息，请参阅详 [细文档](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
-* 使用Creative Designer界面选择内容块时，现在将加载并显示列表中的所有内容块。 (CAMP-27311)
+* 当使用Creative Designer界面选择内容块时，现在将加载并显示列表中的所有内容块。 (CAMP-27311)
 
    有关详细信息，请参阅详细 [文档](../../designing/using/personalization.md#adding-a-content-block)。
 
@@ -108,7 +108,7 @@ source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
   </tr> 
   <tr> 
    <td> 针对移动App用户的排版过滤器<br /> </td> 
-   <td> 支持排版订阅筛选——在为类型规则指定筛选条件时，可以选择应用程序订阅作为筛选和定位维度，从而为具有或没有用户档案的用户提供筛选属性的能力。 <br /> 有关详细信息，请参阅详 <a href="../../sending/using/about-typology-rules.md#typology-rules">细文档</a>。<br /> </td> 
+   <td> 支持排版订阅筛选——在为类型规则指定筛选条件时，可以选择应用程序订阅作为筛选和定位维度，从而为具有或没有用户档案的用户提供筛选属性的能力。 <br /> 有关详细信息，请参阅详 <a href="../../sending/using/about-typology-rules.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 在准备消息期间从URL自动导入内容<br /> </td> 
