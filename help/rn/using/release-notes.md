@@ -12,98 +12,104 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
+source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 ---
 
 
 # 最新版本{#latest-release}
 
-[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2019.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[发布计划](../../rn/using/release-planning.md) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2020.md) |已弃 [用功能](../../rn/using/deprecated-features.md)
 
-[单击此处](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件箱中订阅发布通知并获取有关Adobe Experience Cloud最新版本的详细信息。
-
-## 20.2版- 2020年4月 {#release-20-2---april-2020}
+## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
 **新增内容?**
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>Azure Blob集成</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Azure Blob存储连接器现在可用于使用传输文件工作流活动将数据导入或导出 <strong>到Adobe Campaign</strong> 。 </p>
-    <p>有关详细信息，请参阅详 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">细文档</a>。</p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>泰王国的个人数据保护法(PDPA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>泰国的个人数据保护法(PDPA)是一项新的隐私法，它协调了泰国的数据保护要求并使其现代化。 本规定适用于持有居住在本国的数据主体数据的Adobe Campaign客户。</p>
+<p>除了Adobe Campaign中已有的隐私权（包括同意管理、数据保留设置和用户角色）外，我们还将利用此机会加入其他功能，以帮助您做好PDPA准备：</p>
+<ul>
+<li>访问权和删除权：我们正在利用为GDPR和CCPA添加的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
+<li><p>创建隐私请求时，PDPA规定类型已添加到隐私核心服务中。 此方法是您应用于所有访问和删除请求的方法。 不建议使用活动API和接口访问和删除请求。  请参阅已弃 <a href="../../rn/using/deprecated-features.md">用和已删除功能文章</a>。</p></li>
+</ul>
+<p>请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>使用目标用户档案进行电子邮件测试</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>除了测试用户档案，您现在还可以在真正的目标用户档案上测试电子邮件。 这允许您获得用户档案将收到的消息的精确表示形式：自定义字段、动态和个性化信息，包括来自工作流的其他数据等。 </p>
-    <p>有关详细信息，请参阅详细 <a href="../../sending/using/testing-messages-using-target.md">文档</a> 和教 <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">程视频</a>。 </p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>外部API活动(GA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+  <td> <p>外部 <strong></strong> API活动正在从测试版过渡到GA。 此版本为JSON响应正文分析器带来了额外的灵活性。 您现在可以：</p>
+<ul>
+<li>解析最大深度为10个级别的嵌套JSON。 </li>
+<li>将选定属性解析为JSON中的叶节点，并将其拼合到单个表行中。</li>
+<li>从JSON中选择并使用数组对象，无需将对象命名为“data”，也不必将其命名为顶级。</li>
+</ul>
+<p><strong>注意：</strong> 客户需要用其 <strong>工作流中的GA External API</strong> 活动替换所有测试版外部API活动。  使用External API测试版的工作流将在20.3中停止工作。</p>
+<p>有关详细信息，请参 <a href="../../automating/using/external-api.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">和操作方法视频</a>。</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
-
->[!NOTE]
->
->新功能将于4月在活动控制面板中发布，包括Google TXT记录管理、数据库空间监控和电子邮件警报。 有关这些功能的详细信息，请参阅控 [制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改进**
 
-* 事务消息传递用户体验得到增强，界面一致性得到提高。 [阅读更多](../../channels/using/about-transactional-messaging.md)
-* Campaign Standard现在允许您使用来自工作流的其他数据将验证发送到测试用户档案。
-* 外部API活动的护栏已更新。 [阅读更多](../../automating/using/external-api.md)
+* “前缀”字段中可用于使用目 **标用户档案** 测试消息的字符数 [](../../sending/using/testing-messages-using-target.md) ，已从32个增加到500个。
+* 可在实例上发布的实时事件的最大数目已从350增加到2000。 (CAMP-41608)
 
 **Email Designer增强功能**
 
-* 修复了在个性化图像上多次单击时影响逃逸的问题。
-* 修复了复制动态文本组件时可能导致复制黄行的问题。 (CAMP-41249)
-* 修复了在表级而不是div级定义填充时Outlook中的填充问题。
-* 修复了在切换到HTML模式时导致图像宽度被修改的问题。 (CAMP-41116)
-* 修复了在为图标提供替代文本时无法访问社交媒体组件的问题。 (CAMP-41345)
-* 修复了在电子邮件设 `<br>` 计器中使用复制粘贴时显示可见标记的问题。
-* 修复了在从HTML内容切换为纯文本后，导致HTML标记显示在电子邮件中的问题。 (CAMP-41138)
-* 修复了仅定义一个边框时无法呈现按钮的问题。
-* 修复了HTML缩进中导致Microsoft Outlook中电子邮件的页脚向左移动的问题。 (CAMP-40987)
-* 修复了在切换到纯文本模式时，导致在纯文本内容中复制HTML中定义的集合属性的个性化字段的问题。 (CAMP-40365)
-* 修复了阻止链接插入选定文本段的问题。 (CAMP-41406)
-* 修复了在查询编辑器中选择时区时导致日期更改的问题。 (CAMP-38277)
+* 与严格的W3C相比，电子邮件设计人员现在可以处理更灵活的HTML格式。 (CAMP-42529)
+* 修复了可单击 [图像的问题](../../designing/using/links.md#inserting-a-link) ，以防止链接显示在内容块中图像旁边。 (CAMP-41586)
+* 修复了在被跟踪的URL中添加了登陆页时， [阻止重定向到类别](../../designing/using/links.md#about-tracked-urls) 的问题。 (CAMP-41537)
+* 修复了Outlook中按钮填充的问题。
+* 修复了导致HTML标记以纯文本显示的问题。
+* 内容块搜索现在显示服务器搜索结果以及预加载的结果。 (CAMP-41870)
 
 **其他更改**
 
-* 现 **在，KPI与Adobe Analytics** 现成工作流程的协调功能将运行到当前日期，而不是运行一天。
-* MCPNS不支持将APNS和APNS-SANDBOX作为平台添加到应用程序中。 在Adobe Campaign标准版中成功添加证书后，您现在无法再更改回设置，因为只能向MCPNS应用程序添加一个APNS平台（生产或沙箱）。
+* 自定义资源发布界面已得到改进，错误消息更清晰。
+* 未使用的投放映射已从接口中删除。
+* 从界面中删除了不必要的管理员角色。
+* 现在，复选框在登陆页中可为必填项。
+* 下载动态报告的CSV文件时，已删除200行的限制。 您现在可以包含报表的每一行。 (CAMP-40810)
+* 为多语言电子邮件添加了开箱即用语言列表的ES-US语言。 (CAMP-42279)
+* 现在，使用“传输文件”活动下载的文件将在X天后删除，其中X由“工作流”属性中“执行”菜单下的“ **History in days** ”字段 **** 确定。 [阅读更多](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 **Experience Platform集成**
 
->[!NOTE]
->
->Campaign Standard中的Adobe Experience Platform功能目前处于测试阶段，可能会在不另行通知的情况下频繁更新。 请参阅详细文档：Experience Platform Data Connector [,](../../administration/using/aep-about-data-connector.md)[受众目标](../../audiences/using/aep-about-audience-destinations-service.md)
-
-* 在工作流日志中，每10分钟显示一次，活动现在显示当前正在运行的作业已处理的记录数。
-* 修复了导入从数据库删除的Adobe Experience Platform用户档案时可能发生的问题。
-* 修复了工作流日志中的一个问题，该问题可能导致导入记录总数显示错误结果。
+* Adobe [Experience Platform受众的](../../automating/using/aep-targeting-audiences.md) “读取 **受众”激活的活动已得到改进** ，可提供更好的性能和稳定性。 此外，工作流日志在激活作业方面已变得更清晰、更详细，从而在阅读Adobe Experience Platform受众时可以更轻松地进行监控和疑难解答。
 
 **修补程序**
 
-* 修复了扩充工作 **流活动的一个问题，该问题在别名字段中添加空格时可能会发生，****** 该字段随后创建了一个新行项。 (CAMP-39229)
-* 修复了发送用户档案消息时每个测试验证都可以定位的问题。
-* 修复了在取消发布和删除事件配置后发生的问题。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* 修复了在对工作流进行 **更改时** ,“保存”按钮消失的问题。
-* 修复了在隐私请求处理后在活动中手动删除该请求时，即使在清除后，也无法删除与该请求关联的数据的问题。
-* 修复了在预览或发送包含Adobe Experience Manager特殊字符的消息时可能发生的问题。
-* 修复了在执行具有多个入站工作流的活动时，在过渡中可能发生的问题。
-* 修复了阻止标准用户在工作流订阅或投放中将“目标到应用程序”用作查询维的问题。 (CAMP-37618)
+* 修复了导致在自定义资源的发布作业期间创建重影资源的错误。
+* 修复了在用户档案资源扩展自定义资源时，可能会阻止用户档案显示的问题。 (CAMP-41009)
+* 修复了开箱即用的登陆页模板在打开编辑器时以法语显示其内容的问题。 (CAMP-41639)
+* 修复了动态内容推送通知中可能阻止显示emoji的问题。 (CAMP-40715)
+* 修复了外部重复数据删除 **活动中的问题** ，该问题可能导致分配给其中一个出站补充过渡的段代码不正确。 (CAMP-41400)
+* 修复了阻止删除计划报告的错误。 (CAMP-41302)
+* 修复了导致投放仪表板与投放摘要报表不 **一致的问题** 。 (CAMP-41145)
+* 修复了导致下载的报告中出现字符重叠显示问题的问题。
+* 修复了阻止预览投放进行验证替换的问题。
+* 修复了删除应用程序内本地通知的自定义字段时出现的错误。
+* 修复了charIndex函数无法在工作流中使用 **End** 或 **** File传输活动的问题。
+* 修复了工作流中的一个问题，该问题在对两个输入活动(包括目标资源)使用 **** 扩充活动时可能会发生。 (CAMP-42133)
+* 修复了使用未知函数时可能阻止工作流运行的问题。 (CAMP-41873)
+* 修复了在使用多个具有补充出站工作流的“保存受众 **** ”活动创建受众时可能发生的过渡问题。 (CAMP-39992)
+* 修复了在交易电子邮件中使用个性化时导致数据不一致的问题。 (CAMP-41842)
+* 修复了在推送通知投放中删除自定义字段时发生的问题。 (CAMP-37586)
+* 修复了阻止用户更改报告的错误。 (CAMP-42505)
