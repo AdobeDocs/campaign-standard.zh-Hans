@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # 配置电子邮件渠道{#configuring-email-channel}
 
-作为活动管 [理员](../../administration/using/about-administrating-adobe-campaign.md)，您可以配置电子邮件渠道设置。 这些高级设置包括常规电子邮件渠道参数、电子邮件路由帐户、电子邮件处理规则和电子邮件属性。 在此页上，您将学习如何编辑常规电子邮件和发送参数的默认值。
+作为活动管 [理员](../../administration/using/users-management.md#functional-administrators)，您可以配置电子邮件渠道设置。 这些高级设置包括常规电子邮件渠道参数、电子邮件路由帐户、电子邮件处理规则和电子邮件属性。 在此页上，您将学习如何编辑常规电子邮件和发送参数的默认值。
 
 请注意，某些电子邮件设置现在由Adobe Campaign增强MTA管理。 因此：
 * 活动用户界面中的某些配置不再应用：
@@ -273,7 +273,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
    >[!NOTE]
    >
-   >可通过> **[!UICONTROL Administration]** >菜单访问的 **[!UICONTROL Channels]** 排版在“排 **[!UICONTROL Typologies]** 版 [](../../sending/using/about-typology-rules.md) ”部分中显示。
+   >可通过> **[!UICONTROL Administration]** >菜单访问 **[!UICONTROL Channels]** 的类型在本节 **[!UICONTROL Typologies]** 中显示 [](../../sending/using/about-typology-rules.md)。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:允许您使用个性化字段、内容块和动态文本在消息准备阶段计算电子邮件的标签值。
 
