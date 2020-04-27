@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 要发送带有Adobe Campaign的事务性消息，您首先需要描述事件数据的结构。
 
-事件配置必须由管理员 **执行** ，具体步骤如下：
+事件配置必须由管理员 [执行](../../administration/using/users-management.md#functional-administrators) ，请执行以下步骤。
 
-配置可能因您要发送的事务性消息类型而异。 有关详细信息，请参阅交易 [事件特定配置](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>配置可能因您要发送的事务性消息类型而异。 有关详细信息，请参阅 [交易事件特定配置](#transactional-event-specific-configurations)。
 
 发布事件后，将自动创建相应的事务性消息。 For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
 ## 创建事件 {#creating-an-event}
 
-开始，即创建与您的需求对应的事件。
+要开始，请创建与您的需求相对应的事件。
 
 >[!NOTE]
 >
->创建的实时事件数量可能会对您的平台产生影响。 为确保最佳性能，请确保删除不再需要的实时事件。 请参 [阅删除事件](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)。
+>只有具有该角色 **[!UICONTROL Administration]** 并且是组织单位的一 **[!UICONTROL All]** 部分的 [用户才有权](../../administration/using/organizational-units.md) 创建事件配置。
 
 1. 单击左 **[!UICONTROL Adobe Campaign]** 上角的标志，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. Click the **[!UICONTROL Create]** button.
@@ -55,6 +57,10 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    事件本身包含的基于事务性消息的目标数据，而Adobe Campaign数据库中包含的基于用户档案的目标数据。 有关详细信息，请参阅 [交易事件特定配置](#transactional-event-specific-configurations)。
 
+>[!NOTE]
+>
+>创建的实时事件数量可能会对您的平台产生影响。 为确保最佳性能，请确保删除不再需要的实时事件。 请参 [阅删除事件](#deleting-an-event)。
+
 ## 定义事件属性 {#defining-the-event-attributes}
 
 在部 **[!UICONTROL Fields]** 分中，定义将集成到事件内容中并随后可用于个性化事务性消息的属性。
@@ -71,7 +77,7 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 您可以向事件内容添加元素的集合，每个元素本身包括多个属性。
 
-此集合可用于交易电子邮件中，以将产品列表添加到邮件内容中，例如产品列表-价格、参考编号、数量等。 为列表的每个产品。
+此集合可用于交易电子邮件中，以将 [产品列表添加到消息内容](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) ，例如产品列表-价格、参考编号、数量等。 为列表的每个产品。
 
 1. 在部分 **[!UICONTROL Collections]** 中，单击该按 **[!UICONTROL Create element]** 钮。
 
@@ -84,6 +90,12 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    ![](assets/message-center_collection_fields.png)
 
+1. 该选 **[!UICONTROL Enrichment]** 项卡允许您丰富集合的每个项目。 这样，您就可以使用Adobe Campaign数据库或您创建的其他资源中的信息个性化相应产品列表的元素。
+
+>[!NOTE]
+>
+>丰富集合元素的步骤与丰富事件一节中 [所述的步骤相同](#enriching-the-transactional-message-content) 。 请注意，丰富事件不允许您丰富集合：您需要在部分中向集合本身添加扩充 **[!UICONTROL Collections]** 。
+
 发布事件和消息后，您便可以在事务性消息中使用此集合。
 
 以下是此示例的API预览:
@@ -95,9 +107,9 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 * [预览和发布事件](#previewing-and-publishing-the-event)
 * [在事务性消息中使用产品列表](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## 丰富事务性消息内容 {#enriching-the-transactional-message-content}
+## 丰富事件 {#enriching-the-transactional-message-content}
 
-通过从事务性消息数据库中丰富Adobe Campaign内容，使您能够个性化消息。 例如，从每个收件人的姓氏或CRM ID中，您可以恢复数据(如其地址、出生日期或用户档案表中添加的任何其他自定义字段)，以便对发送给他们的信息进行个性化设置。
+您可以使用事务性消息数据库中的信息丰富Adobe Campaign内容，以便个性化您的消息。 例如，从每个收件人的姓氏或CRM ID中，您可以恢复数据(如其地址、出生日期或用户档案表中添加的任何其他自定义字段)，以便对发送给他们的信息进行个性化设置。
 
 可以用来自扩展的信息来丰富事务性消息内容 **[!UICONTROL Profile and services Ext API]**。 有关详细信息，请参 [阅扩展API:发布扩展](../../developing/using/step-2--publish-the-extension.md)
 
