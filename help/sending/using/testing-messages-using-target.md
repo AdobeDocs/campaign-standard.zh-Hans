@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
 
    如果要向验证主题行添加特定前缀，请填写该字 **[!UICONTROL Subject line prefix]** 段。
 
+   >[!NOTE]
+   >
+   >主题行前缀最多可包含500个字符。
+
    ![](assets/substitution_address.png)
 
    前缀将显示如下：
@@ -116,6 +120,10 @@ Campaign Standard允许您导入可用于测试的受众。 例如，这允许�
    ![](assets/substitution_audience_import.png)
 
 1. 选择要使用的受众，然后输入要用于发送到受众的验证的替换地址和前缀。
+
+   >[!NOTE]
+   >
+   >主题行前缀最多可包含500个字符。
 
    ![](assets/substitution_audience_define.png)
 
