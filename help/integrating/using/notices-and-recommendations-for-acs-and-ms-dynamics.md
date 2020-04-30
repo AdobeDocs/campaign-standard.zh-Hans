@@ -1,5 +1,5 @@
 ---
-title: “与Campaign Standard和Microsoft Dynamics 365合作：声明与建议”
+title: 关于Microsoft Dynamics 365集成
 description: 了解如何使用Campaign Standard和Microsoft Dynamics的注意事项和建议365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# 使用Campaign Standard和Microsoft Dynamics 365:通知和建议
+# 关于Microsoft Dynamics 365集成
 
 ## 区域支持
 
@@ -77,7 +77,7 @@ source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
 
 **根据加利福尼亚州消费者保护法(CCPA)和类似法律选择退出。**
 
-双向选择退出配置功能目前不能支持符合CCPA和／或其他现成数据隐私法的某些法定要求。 必须遵守CCPA或与选择退出相关的类似法律要求的客户负责实施自己的第三方解决方案以执行双向同步。
+双向选择退出配置功能目前不能支持符合CCPA和／或其他开箱即用数据隐私法的某些法定要求。 必须遵守CCPA或与选择退出相关的类似法律要求的客户负责实施自己的第三方解决方案以执行双向同步。
 
 >[!NOTE]
 >
