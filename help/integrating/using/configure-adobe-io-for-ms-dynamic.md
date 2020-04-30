@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ## 概述
 
-Adobe Campaign标准- Microsoft Dynamics 365集成在本页中有 [介绍](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+Adobe Campaign标准- Microsoft Dynamics 365集成在本页中 [有介绍](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 在执行本文中的置备后步骤之前，假定您已经进行了置备，并且拥有对贵组织的Campaign Standard实例的管理员访问权限。  如果尚未发生这种情况，您需要与Adobe客户服务部门联系以完成活动配置。
 
@@ -136,7 +136,7 @@ If you enter '.', the field will be left blank.
 
 单击 **[!UICONTROL Create Integration]**。
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### 设置集成详细信息
 
@@ -144,13 +144,13 @@ If you enter '.', the field will be left blank.
 
 查看集成详细信息。  在运行Unifi后置备步骤时，您需要返回给他们。
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. 单击选项卡 **[!UICONTROL Services]** 并添加和 **[!UICONTROL I/O Events]** 服 **[!UICONTROL I/O Management API]** 务。  要添加服务，请单击单选按钮，然后单击 **[!UICONTROL Add service]**。  您将为每项服务单独执行此操作。
 
 完成后，您的服务应像下图所示显示在最上方。 您无需在生成JWT和访问令牌时完成章节a-on。
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 活动中的帖子配置现已完成。  继续完成Microsoft [Dynamics 365的发布设置步骤](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 
