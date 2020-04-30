@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Campaign中设计内容
-description: 了解可通过Adobe Campaign在内容中定义的所有元素。
+description: 了解您可以通过Adobe Campaign在内容中定义的所有元素。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 在Adobe Campaign中创建电子邮件后，您需要定义其内容。
 
-电子邮件设计器使您能够通过由本机Creative cloud集成增强的拖放界面创建引人注目的、单独定制的电子邮件。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
+电子邮件设计器使您能够通过由本机Creative Cloud集成增强的拖放界面创建引人注目的、单独定制的电子邮件。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
 
 电子邮件设计器旨在提供针对响应式设计而优化的HTML，它允许您通过用户界面轻松定义可视性条件和动态内容并直接将其应用到电子邮件、模板或片段。 只需单击按钮，即可在拖放界面和HTML代码之间无缝切换。
 
@@ -36,16 +36,16 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 * 有关构建内容的更多信息：
    * 从头开始，请参阅 [从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
    * 使用现有内容，请参阅 [使用现有内容进行设计](../../designing/using/using-existing-content.md)。
-   * 使用Creative cloud集成，请参阅多 [解决方案电子邮件设计](../../designing/using/using-integrations.md)。
+   * 使用Creative Cloud集成，请参阅多 [解决方案电子邮件设计](../../designing/using/using-integrations.md)。
 * 有关个性化的更多信息，请参 [阅个性化](../../designing/using/personalization.md)。
 
 创建电子邮件时，您可以选择使用预定义的模板或从其他源加载现有内容。 请参 [阅选择现有内容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
 
 要提高营销活动的效率，请个性化您的内容。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)[和添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 
-您还可以定义因每个配置文件而异的动态内容。 请参 [阅在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [在登陆页面中定义动态内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
+您还可以定义因每个用户档案而异的动态内容。 请参 [阅在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [在登陆页中定义动态内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
 
-使用链接和图像增强您的消息和登录页面。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)[和插入图像](../../designing/using/images.md#inserting-images)。
+通过链接和图像增强您的消息和登陆页。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)[和插入图像](../../designing/using/images.md#inserting-images)。
 
 ## 电子邮件设计器界面 {#email-designer-interface}
 
@@ -65,35 +65,35 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ![](assets/email_designer_toolbar.png)
 
-编辑 **器界面的** “上下文”工具栏根据所选区域提供各种功能。 它包含允许您更改文本样式的操作按钮和按钮。 执行的修改始终适用于所选区域。
+编辑 **器界面的上下文工具栏** ，根据所选区域优惠各种功能。 它包含允许您更改文本样式的操作按钮和按钮。 执行的修改始终适用于所选区域。
 
-### Email Designer主页 {#email-designer-home-page}
+### 电子邮件设计人员主页 {#email-designer-home-page}
 
-创 [建电子邮件时](../../channels/using/creating-an-email.md)，主页 **[!UICONTROL Email Designer]**会在选择电子邮件内容时自动显示。
+创建 [电子邮件时](../../channels/using/creating-an-email.md)**[!UICONTROL Email Designer]** ,主页会在选择电子邮件内容时自动显示。
 
 ![](assets/email_designer_home_page.png)
 
-该选 **[!UICONTROL Properties]**项卡允许您编辑电子邮件详细信息，如标签、发件人地址和姓名或电子邮件主题。 您还可以通过单击屏幕顶部的电子邮件标签来访问此选项卡。
+该选 **[!UICONTROL Properties]** 项卡允许您编辑电子邮件详细信息，如标签、发件人地址和姓名或电子邮件主题。 您还可以通过单击屏幕顶部的电子邮件标签来访问此选项卡。
 
 ![](assets/email_designer_home_properties.png)
 
-该选 **[!UICONTROL Templates]**项卡允许您从现成的HTML内容或您已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅[内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+该选 **[!UICONTROL Templates]** 项卡允许您从现成的HTML内容或您已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-通过 **[!UICONTROL Learn & support]**该选项卡，您可以轻松访问相关文档和教程。
+通过 **[!UICONTROL Learn & support]** 该选项卡，您可以轻松访问相关文档和教程。
 
 ![](assets/email_designer_home_support.png)
 
 如果不选择模板，“电子邮件设计器”主页还允许您选择开始设计内容的方式：
 
-* 单击该 **[!UICONTROL Create]**按钮可从头开始创建新内容。 请参[阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 单击该 **[!UICONTROL Upload]**按钮可从您的计算机上传文件。 请参[阅从文件导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 单击该 **[!UICONTROL Import from URL]**按钮可从URL检索现有内容。 请参[阅从URL导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 单击按 **[!UICONTROL Create]** 钮以从头开始开始新内容。 请参 [阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 单击该 **[!UICONTROL Upload]** 按钮可从您的计算机上传文件。 请参 [阅从文件导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 单击该 **[!UICONTROL Import from URL]** 按钮可从URL检索现有内容。 请参 [阅从URL导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ## 术语 {#terminology}
 
-**模板**:模板是电子邮件的结构，您可以为多个分发构建和重复使用。
+**模板**:模板是电子邮件的结构，您可以为多个投放构建和重用。
 
 **片段**:片段是可重用的组件，可在一个或多个电子邮件中引用。
 
@@ -111,15 +111,15 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 * 如果导入包含HTML内容的ZIP文件，请使用常规CSS。 不支持SCSS样式表。
 
-* 通过创建和重用内容片段来保持营销活动的一致性，轻松解决您的品牌问题。
+* 通过创建和重用内容片段来保持营销活动的一致性，轻松解决品牌问题。
 
    请参 [阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
 * 编辑电子邮件 **内容时**:
 
-   在发送邮件之前先预览邮件。 Adobe Campaign提供了一种使用Litmus测试电子邮件呈现的方法。 有关此内容的详细信息，请参阅电 [子邮件渲染](../../sending/using/email-rendering.md)。
+   预览您的消息，然后发送。 Adobe Campaign优惠一种使用Litmus测试电子邮件呈现的方法。 有关此内容的详细信息，请参阅电 [子邮件渲染](../../sending/using/email-rendering.md)。
 
-有关消息的更多设计和一般最佳实践，请参阅以下Adobe Campaign分步指南：使 [用Adobe Campaign交付最佳实践](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
+以下Adobe Campaign分步指南介绍了更多有关消息的设计和一般最佳实践： [投放最佳实践与Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
 
 ### 更新片段 {#email-designer-updates}
 
@@ -152,7 +152,7 @@ Adobe建议将您的内容更新到最新版本，以避免CSS冲突问题等问
 * 编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
 * 样式无法保存为主题以供将来重用。 但是，CSS样式可保存在内容模板或电子邮件中。 有关样式的更多信息，请参 [阅此部分](../../designing/using/styles.md)。
 
-**相关主题**:
+**相关主题**
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
 * [设计登陆页面](../../channels/using/designing-a-landing-page.md)
