@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 Adobe Campaign 使用两种类型的 Cookie：
 
 * 会话Cookie(nlid)。 其中包含发送给联系人的电子邮件标识符(broadlogId)和消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
-* 在Adobe Experience Cloud解决方案之间共享的Cookie。 这使您能够识别在访问网站时与Experience Cloud解决方案交互的用户。 此Cookie的说明可从以下网页获取： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
+* 在Adobe Experience Cloud解决方案之间共享的Cookie。 这使您能够识别在访问网站时与Experience Cloud解决方案交互的用户。 此处提供此Cookie的说 [明](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
 使用Adobe Campaign标准进行跟踪后，您可以访问以下功能：
 
