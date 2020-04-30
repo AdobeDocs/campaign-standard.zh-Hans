@@ -1,5 +1,5 @@
 ---
-title: 通过Campaign Standard集成请求和配置Microsoft Dynamics 365
+title: 请求和配置Microsoft Dynamics 365集成
 description: 了解如何通过Campaign Standard集成请求和配置Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# 请求Microsoft Dynamics 365并集成Campaign Standard
+# 请求和配置Microsoft Dynamics 365集成
 
 要配置此集成，您需要执行以下步骤。
 
