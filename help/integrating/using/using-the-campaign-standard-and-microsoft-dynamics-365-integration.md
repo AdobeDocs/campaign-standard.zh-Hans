@@ -1,5 +1,5 @@
 ---
-title: 将Microsoft Dynamics 365与Campaign Standard集成
+title: 使用Microsoft Dynamics 365集成
 description: 了解如何通过Campaign Standard集成使用Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# 将Microsoft Dynamics 365与Campaign Standard集成
+# 使用Microsoft Dynamics 365集成
 
 此集成可执行多个作业：
 
@@ -90,23 +90,23 @@ source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
 
 在下面，您可以看到“Dynamics用户”的“联系人”屏幕快照。  在“时间轴”视图中，您将注意到Dynamics用户已发送一封与活动名称“2019LoyaltyCamp”和投放名称“DM190”关联的电子邮件。  Dynamics用户打开了电子邮件，并点击了电子邮件中的URL;这两个操作都创建了事件，如下所示。  如果您看到右角，您将看到“关系助手”(RA)卡；当前，它包含一个任务，用于跟踪单击的URL。
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 有关Dynamics用户的时间线视图的特写，请参阅以下内容。
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 以下是关系助理(RA)卡的特写。  AppSource应用程序包含一个监视Adobe电子邮件URL单击事件的工作流。  发生此事件时，它会创建任务并设置到期日。  这允许任务显示在RA卡中，从而使其具有额外的可见性。  Adobe电子邮件弹出事件也有一个类似的工作流，可添加任务以协调无效的电子邮件地址。  在解决方案中可以关闭这些工作流。
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 如果单击发送事件的主题，您将看到一个与下面类似的表单。  打开和弹出事件的表单类似。
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 电子邮件url单击事件的表单为单击的URL添加了其他属性：
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 以下是属性的列表和说明：
 
