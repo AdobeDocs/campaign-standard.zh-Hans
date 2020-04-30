@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 **随版本提供的其他文档更新**
 
-* 信息已添加到工作流属 **[!UICONTROL History in days]** 性的字段中，现在包括活动下载的文件 **[!UICONTROL Transfer file]** 。 [阅读更多](../../automating/using/executing-a-workflow.md)
+信息已添加到工作流属 **[!UICONTROL History in days]** 性的字段中，现在包括活动下载的文件 **[!UICONTROL Transfer file]** 。 [阅读更多](../../automating/using/executing-a-workflow.md)
 
-* 在用户档案替换部分中添加了关于主题行前缀的500个字符限制的信息。 [阅读更多](../../sending/using/testing-messages-using-target.md)
+在用户档案替换部分中添加了关于主题行前缀的500个字符限制的信息。 [阅读更多](../../sending/using/testing-messages-using-target.md)
+
+核心文档中新增了专门涉及隐私和同意的部分。 [阅读更多](../../start/using/privacy.md)
+
+* 已添加一个用例，允许您将旧版编辑器电子邮件转换为电子邮件设计器。 [阅读更多](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* 添加了有关电子邮件设计器的常见问题解答部分。 [阅读更多](../../designing/using/faq-email-designer.md)
 
 ## 文档更新- 2020年4月 {#doc-updates-april-2020}
 
