@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 单击Dynamics 365旁边的下拉框，即可在销售仪表板中查看该客户在Dynamics 365中的自定义实体。  此客户的自定义实体在下组合在一起 **[!UICONTROL Extensions]**。
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 可通过单击自定义实体来查看车 **[!UICONTROL vehicle]** 辆数据。  请参阅下面的车辆列表。
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 实体与实 **[!UICONTROL vehicle]** 体的关系 **[!UICONTROL Contact]** 见下文。 **[!UICONTROL Parental]** 已经被选中了 **[!UICONTROL Type of Behavior]**。
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Campaign Standard配置
 
@@ -100,9 +100,9 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 >[!CAUTION]
 >
->每个自定义资源都必须有一个唯一的字段，其ID为externalId（完全）。  此字段将映射到Dynamics 365中自定义资源的ID字段（请参阅下文）。
+>每个自定义资源都必须有一个唯一字段，其ID为externalId（完全）。  此字段将映射到Dynamics 365中自定义资源的ID字段（请参阅下文）。
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### 定义标识键
 
@@ -170,7 +170,7 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 假设客户已在Dynamics 365中填充车辆定制实体，且Unifi已设置其车辆定制实体作业和计划，则客户应能够启动车辆实体的入口计划。
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 在完成入口作业后，车辆数据现在可在活动中新填充的自定 **[!UICONTROL Vehicle]** 义资源中看到。
 
