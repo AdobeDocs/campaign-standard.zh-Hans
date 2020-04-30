@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ OAuth访问令牌允许Unifi通过Web API与您的Microsoft Dynamics 365实例�
 
 1. 单 **[!UICONTROL New registration]** 击屏幕顶部。
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. 填写应用程序注册屏幕：
 
@@ -74,7 +74,7 @@ OAuth访问令牌允许Unifi通过Web API与您的Microsoft Dynamics 365实例�
 
 1. 在应用程序概述屏幕左侧的子菜单中，单击 **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 输入说明，设置持续时间并单击 **[!UICONTROL OK]**。
 
@@ -90,11 +90,11 @@ OAuth访问令牌允许Unifi通过Web API与您的Microsoft Dynamics 365实例�
 
 1. 在此屏幕或应用程序概述屏幕中，单 **[!UICONTROL API permissions]** 击左侧子菜单中的。  单击 **[!UICONTROL Add a permission]**&#x200B;后，您需要在菜 **[!UICONTROL Dynamics CRM]** 单中进行选择。
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. 然后，选中该框 **[!UICONTROL user_impersonation]**&#x200B;并单击按 **[!UICONTROL Add permissions]** 钮。
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 有关权限设置的详细信息，请参阅 [此部分](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis)。
 
@@ -138,7 +138,7 @@ OAuth访问令牌允许Unifi通过Web API与您的Microsoft Dynamics 365实例�
 要将Dynamics 365应用程序集成到您的Campaign Standard环境，请执行以下步骤：
 
 1. 导航到以下链接：https://appsource.microsoft.com/en-us/marketplace/apps [](https://appsource.microsoft.com/en-us/marketplace/apps) 在搜索 _栏中搜索Dynamics 365_ 的Adobe Campaign。
-或者，您也可以导航到此链 [接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)。
+或者，您也可以导航到此链 [接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)。
 1. 按照说明为Dynamics 365实例安装应用程序。
 1. 安装后，导航到Dynamics 365实例，以管理员身份登录。
 1. 单击右上角的齿轮图标，然后单击 **[!UICONTROL Advanced Settings]**。 在顶部横幅中，单击旁边的下拉框 **[!UICONTROL Settings]**，单击下 **[!UICONTROL Processes]** 面的 **[!UICONTROL Process Center]**。
