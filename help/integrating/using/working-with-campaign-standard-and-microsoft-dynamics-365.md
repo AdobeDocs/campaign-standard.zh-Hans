@@ -1,6 +1,6 @@
 ---
-title: 使用Campaign Standard和Microsoft Dynamics 365
-description: 了解如何使用Campaign Standard和Microsoft Dynamics 365
+title: Microsoft Dynamics 365集成入门
+description: 了解如何开始使用Microsoft Dynamics 365集成
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# 使用Campaign Standard和Microsoft Dynamics 365
+# Microsoft Dynamics 365集成入门
 
 激活跨渠道通信的CRM数据：了解如何将联系人从Microsoft Dynamics 365传递到Adobe Campaign，并共享活动性能数据（发送、打开、单击和弹回）从Adobe Campaign传回Microsoft Dynamics 365。
 
