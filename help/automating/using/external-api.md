@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 在Campaign Standard20.3版本中，外部API功能已将Trom Beta版本移至“一般可用性(GA)”。
 
-因此，如果您使用测试版外部API活动，则需要在所有工作流中用GA外部API活动替换它们。  使用External API测试版的工作流将从20.3版本开始停止工作。
+>[!CAUTION]
+>
+>因此，如果您使用测试版外部API活动，则需要在所有工作流中用GA外部API活动替换它们。  使用External API测试版的工作流将从20.3版本开始停止工作。
 
 替换外部API活动时，将新的外部API活动添加到工作流中，手动复制配置详细信息，然后删除旧活动。
 
