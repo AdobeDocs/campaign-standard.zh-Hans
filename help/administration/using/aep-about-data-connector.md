@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform Data Connector适用于理解 **** Adobe Campaign标�
 
 * 不支持现成的订阅事件传输。 要传输订阅事件，您可以在Adobe Experience Platform上创建相应的XDM和数据集，然后为这些数据配置自定义数据映射。
 
-* 关于隐私请求，客户需要分别提出活动核心隐私服务和Adobe Experience Platform的请求以执行访问和删除操作。
+* 关于隐私请求（访问和删除操作），客户需要单独提出请求：一个用于通过隐私核心服务集成进行活动(请参 [阅本节](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess))，另一个用于通过其隐私服务进行Adobe Experience Platform [的集成](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。 有关访问和删除请求的详细信息，请参 [阅此页](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)。
 
 * 对于每个XDM字段，需要在Adobe Experience Platform中进行DULE标签。 这是应用DULE标签的客户责任。
 
