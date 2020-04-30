@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + 快速入门 {#getting-started}
    + 关于 Adobe Campaign {#about-adobe-campaign}
       + [营销活动编排](start/using/campaign-orchestration.md)
+      + [隐私和同意](start/using/privacy.md)
       + [分段和定位](start/using/segmentation-and-targeting.md)
       + [动态和个性化内容](start/using/dynamic-and-personalized-content.md)
       + [跟踪、监视和报告](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [使用可重用内容](designing/using/using-reusable-content.md)
       + [使用多解决方案集成](designing/using/using-integrations.md)
       + [编辑纯文本、HTML 和移动电子邮件](designing/using/plain-text-html-modes.md)
+      + [将旧版编辑器电子邮件转换为电子邮件设计器](designing/using/converting-emails-from-legacy-editor.md)
    + [个性化电子邮件内容](designing/using/personalization.md)
    + [管理电子邮件样式](designing/using/styles.md)
    + [管理链接](designing/using/links.md)
    + [管理图像](designing/using/images.md)
+   + [常见问题解答](designing/using/faq-email-designer.md)
 + 测试和发送 {#testing-and-sending}
    + [关于使用 Campaign 发送消息](sending/using/about-sending-messages-with-campaign.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + 活动和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [通知和建议](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [通过Campaign Standard集成请求和配置Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [将Microsoft Dynamics 365与Campaign Standard集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [关于Microsoft Dynamics 365集成](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [请求和配置Microsoft Dynamics 365集成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [使用Microsoft Dynamics 365集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [配置Microsoft Dynamics 365以实现活动集成](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [为Microsoft Dynamics 365集成配置Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
