@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
+source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
 
 ---
 
@@ -43,11 +43,11 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
  <tbody>
   <tr>
    <td>舞台<br /> </td>
-   <td><s>2020年4月27日至28日推迟</s><br /> </td>
+   <td>延迟<br /> </td>
   </tr>
   <tr>
    <td> 制作<br /> </td>
-   <td><s>2020年5月4日至11日推迟</s><br /> </td>
+   <td>延迟<br /> </td>
   </tr>
  </tbody>
 </table>
