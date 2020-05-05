@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Adobe Campaign标准允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
 
-本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参 [阅本节](../../api/using/about-campaign-standard-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参 [阅本节](../../api/using/get-started-apis.md)。
 
 ## 先决条件 {#prerequisites}
 
