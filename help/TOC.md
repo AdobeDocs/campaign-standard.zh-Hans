@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -21,30 +21,21 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [发行说明 2018](rn/using/release-notes-2018.md)
       + [发行说明 2017](rn/using/release-notes-2017.md)
    + [发布计划](rn/using/release-planning.md)
-   + [已弃用功能](rn/using/deprecated-features.md)
+   + [弃用功能](rn/using/deprecated-features.md)
 + 快速入门 {#getting-started}
-   + 关于 Adobe Campaign {#about-adobe-campaign}
-      + [营销活动编排](start/using/campaign-orchestration.md)
-      + [隐私和同意](start/using/privacy.md)
-      + [分段和定位](start/using/segmentation-and-targeting.md)
-      + [动态和个性化内容](start/using/dynamic-and-personalized-content.md)
-      + [跟踪、监视和报告](start/using/tracking--monitoring-and-reporting.md)
-      + [与 Adobe 解决方案集成](start/using/integrating-with-adobe-solutions.md)
-      + [丰富 Campaign 数据库](start/using/enriching-campaign-database.md)
+   + [关于Adobe Campaign标准](start/using/about-campaign-standard.md)
+   + [隐私和同意](start/using/privacy.md)
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面描述](start/using/interface-description.md)
       + [自定义列表](start/using/customizing-lists.md)
-   + 营销计划 {#marketing-plans}
+   + 使用营销活动 {#marketing-plans}
       + [计划和营销活动](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
       + [营销活动模板](start/using/marketing-activity-templates.md)
       + [时间线](start/using/timeline.md)
-   + 教程 {#tutorials}
-      + [逐步指南](start/using/step-by-step-guides.md)
-      + [操作说明视频](start/using/how-to-videos.md)
 + 用户档案和受众 {#profiles-and-audiences}
-   + [关于用户档案和受众](audiences/using/about-profiles-and-audiences.md)
+   + [开始使用用户档案和受众](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
       + [关于用户档案](audiences/using/about-profiles.md)
       + [创建用户档案](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [整合的客户档案](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
       + [管理测试用户档案](audiences/using/managing-test-profiles.md)
+      + [丰富 Campaign 数据库](audiences/using/enriching-campaign-database.md)
    + 管理受众 {#managing-audiences}
       + [关于受众](audiences/using/about-audiences.md)
       + [创建受众](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [管理 Adobe Experience Platform 受众](audiences/using/aep-managing-audiences.md)
       + [使用统一的区段生成器](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
+   + [通信渠道入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
-      + [了解通信渠道](channels/using/discovering-communication-channels.md)
       + [发送消息的关键步骤](channels/using/key-steps-to-send-a-message.md)
       + [访问消息](channels/using/accessing-messages.md)
       + [消息仪表板](channels/using/message-dashboard.md)
@@ -95,10 +87,10 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [准备和发送推送通知](channels/using/preparing-and-sending-a-push-notification.md)
       + [自定义推送通知](channels/using/customizing-a-push-notification.md)
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
-      + [为多语言推送通知生成CSV文件](channels/using/generating-csv-multilingual-push.md)
+      + [生成多语言推送通知的CSV文件](channels/using/generating-csv-multilingual-push.md)
       + [基于移动应用程序数据创建和更新用户档案信息](channels/using/updating-profile-with-mobile-app-data.md)
       + [实施推送跟踪](channels/using/push-tracking.md)
-      + [从Adobe Campaign标准推送通知中显示图像](channels/using/image-push-notification.md)
+      + [显示Adobe Campaign标准推送通知中的图像](channels/using/image-push-notification.md)
       + [了解Campaign Standard推送通知有效负荷结构](channels/using/push-payload.md)
    + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
@@ -142,7 +134,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [管理图像](designing/using/images.md)
    + [常见问题解答](designing/using/faq-email-designer.md)
 + 测试和发送 {#testing-and-sending}
-   + [关于使用 Campaign 发送消息](sending/using/about-sending-messages-with-campaign.md)
+   + [开始测试和发送](sending/using/get-started-sending-messages.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览投放](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
@@ -182,6 +174,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [疲劳规则](sending/using/fatigue-rules.md)
       + [控制规则](sending/using/control-rules.md)
 + 报告 {#reporting}
+   + [动态报告入门](reporting/using/get-started-reporting.md)
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
       + [报告界面](reporting/using/reporting-interface.md)
@@ -212,17 +205,17 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [创建自定义用户档案维度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + 与其他解决方案集成 {#integrating-with-adobe-cloud}
-   + [关于 Campaign 集成](integrating/using/about-campaign-integrations.md)
+   + [开始使用活动集成](integrating/using/get-started-campaign-integrations.md)
    + 活动和Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
       + [配置活动-Experience Manager集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + 活动与目标 {#working-with-campaign-and-target}
+   + 活动和目标 {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
       + [配置 Campaign-Target 集成](integrating/using/configuring-the-campaign-target-integration.md)
       + [添加 Target 动态内容](integrating/using/adding-target-dynamic-content.md)
-   + 活动与分析 {#working-with-campaign-and-analytics}
+   + 活动和分析 {#working-with-campaign-and-analytics}
       + [关于 Campaign-Analytics 集成](integrating/using/about-campaign-analytics-integration.md)
       + [配置 Campaign-Analytics 集成](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics 中的 Campaign 维度和指标](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
@@ -232,7 +225,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + 移动活动和分析 {#working-with-campaign-and-analytics-for-mobile}
+   + 活动和移动分析 {#working-with-campaign-and-analytics-for-mobile}
       + [关于 Campaign-兴趣点数据集成](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [配置 Campaign-兴趣点数据集成](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [使用兴趣点数据个性化 Campaign 消息](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -243,6 +236,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + 活动和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [为Microsoft Dynamics 365集成配置Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [关于Microsoft Dynamics 365集成](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -253,19 +247,16 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [为Microsoft Dynamics 365集成配置Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [映射活动自定义资源和Dynamics 365自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 管理流程和数据 {#managing-processes-and-data}
-   + 关于工作流和数据管理 {#about-workflows-and-data-management}
-      + [工作流数据和流程](automating/using/workflow-data-and-processes.md)
-      + [了解工作流](automating/using/discovering-workflows.md)
-      + [工作流操作原则](automating/using/workflow-operating-principles.md)
-      + [工作流界面](automating/using/workflow-interface.md)
+   + [数据和流程管理入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
+      + [工作流界面](automating/using/workflow-interface.md)
       + [构建工作流](automating/using/building-a-workflow.md)
       + [定位数据](automating/using/targeting-data.md)
       + [导入数据](automating/using/importing-data.md)
       + [使用工作流数据](automating/using/using-workflow-data.md)
       + [执行工作流](automating/using/executing-a-workflow.md)
-      + [使用外部参数调用工作流](automating/using/calling-a-workflow-with-external-parameters.md)
       + [工作流最佳实践](automating/using/best-practices-workflows.md)
+   + [使用外部参数调用工作流](automating/using/calling-a-workflow-with-external-parameters.md)
    + 定位活动 {#targeting-activities}
       + [关于定位活动](automating/using/about-targeting-activities.md)
       + [查询](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [面向 Adobe Experience Platform 受众](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform 属性个性化营销活动](automating/using/aep-personalizing-campaigns.md)
 + 开发 {#developing}
+   + [Campaign Standard数据模型入门](developing/using/get-started-data-model.md)
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
       + [资源状态](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [跟踪日志](developing/using/datamodel-tracking.md)
       + [退订事件](developing/using/datamodel-unsubscription.md)
       + [访客](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [关于 Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+      + [Experience Platform 数据模型概述](developing/using/aep-data-model-overview.md)
+      + [映射定义](developing/using/aep-mapping-definition.md)
+      + [映射激活](developing/using/aep-mapping-activation.md)
+      + [通过 API 触发数据摄取](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
-   + [关于管理 Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
-   + 配置准则 {#configuration-guidelines}
-      + [关于配置准则](administration/using/about-configuration-guidelines.md)
-      + [兼容的浏览器](administration/using/compatible-browsers.md)
-      + [Campaign Standard网络端点](administration/using/campaign-standard-network-endpoints.md)
+   + [开始Campaign Standard管理](administration/using/get-started-campaign-administration.md)
+   + [配置准则](administration/using/about-configuration-guidelines.md)
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
       + [用户管理](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [关于 Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Experience Platform 数据模型概述](administration/using/aep-data-model-overview.md)
-      + [映射定义](administration/using/aep-mapping-definition.md)
-      + [映射激活](administration/using/aep-mapping-activation.md)
-      + [通过 API 触发数据摄取](administration/using/aep-triggering-data-ingestion.md)
 + 使用 API {#working-with-apis}
+   + [开始使用Campaign StandardAPI](api/using/about-campaign-standard-apis.md)
    + 关于 Campaign Standard API {#about-campaign-standard-apis}
-      + [概述](api/using/about-campaign-standard-apis.md)
       + [为何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [设置 API 访问](api/using/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
