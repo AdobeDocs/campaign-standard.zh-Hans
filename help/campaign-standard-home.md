@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ## 新增功能
 
-* **[使用目标用户档案进行电子邮](sending/using/testing-messages-using-target.md)**<br/>件测试了解如何在真正的目标用户档案上测试电子邮件
+* **[使用目标用户档案进行电](sending/using/testing-messages-using-target.md)**<br/>子邮件测试了解如何在真正的目标用户档案上测试电子邮件
 
 * **[隐私管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>&#x200B;理了解Adobe Campaign提供的工具，帮助您遵守隐私
 
-* **[Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;了解有关移动投放的一般指南的更多信息
+* **[Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;了解有关移动投放一般指南的更多信息
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
@@ -34,7 +34,8 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色和安全组</strong></a>
     </div>
-    <em>了解如何定义权限并为活动用户分配角色</em><br>
+    <em>了解如何定义权限并为活动用户分配角色</em>
+    <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -49,7 +50,7 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
   <td valign="top">
        <img alt="支持" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    获 <strong>得支持</strong></a>
+    <strong>获取支持</strong></a>
     </div>
     <p><em>访问常见问题解答、最佳实践、帮助资源并与专家联系</em></p>
     <br>
@@ -65,5 +66,5 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 | [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [活动API](api/using/about-campaign-standard-apis.md) |
 | [实施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [列表错误消息](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [发布计划](rn/using/release-planning.md) | [活动数据模型](developing/using/datamodel-introduction.md) |
-| [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解决方案指南](integrating/using/about-campaign-integrations.md) |
-| [开始使用Campaign Standard](start/using/campaign-orchestration.md) | [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [已弃用和已删除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [开始使用Campaign Standard](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
