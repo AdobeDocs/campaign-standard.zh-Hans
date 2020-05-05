@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Adobe Campaign增强的MTA文档描述了经过升级的发送基础架构，可
 
 使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/get-started-apis.md)
 
 ## 文档更新- 2019年12月 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ API文档主页已得到改进，并重新指向不同的主题。 [阅读更多
 
 指 **示器计算** 表已更新。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
-API文档集已集成到Campaign Standard文档中。[阅读更多](../../api/using/about-campaign-standard-apis.md)
+API文档集已集成到Campaign Standard文档中。[阅读更多](../../api/using/get-started-apis.md)
 
 已移动并更新创建个性化电子邮件快速入门指南。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Campaign Standard和经典错误消息的列表已更新。 [阅读更多](https
 
 在“传输文件”活动的新排序选项中 **添加了信息** 。 [阅读更多](../../automating/using/transfer-file.md)
 
-更新 [了REST API文档](../../api/using/about-campaign-standard-apis.md) :
+更新 [了REST API文档](../../api/using/get-started-apis.md) :
 
 * 新增了一节，其中包含有关为何使用Campaign StandardREST API的一般信息。
 * 已提供预先设计的API请求集合，代表常用用例。
@@ -383,7 +383,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -697,7 +697,7 @@ SMS文档已更新，在SMS自动回复部分 [添加了一些说明](../../chan
 
 专用于通过API进行工作流管理的新部分。 [阅读更多](../../api/using/controlling-a-workflow.md)
 
-专用于主密钥和将业务ID用作API中的密钥的新部分。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+专用于主密钥和将业务ID用作API中的密钥的新部分。 [阅读更多](../../api/using/get-started-apis.md)
 
 在API中添加了关于简单和多过滤的信息。 [阅读更多](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ REST API中的链接资源——阅 [读更多](../../developing/using/updating-
 
 触发器集成： 添加了两个用例。 [阅读更多](../../integrating/using/abandonment-triggers-use-cases.md)
 
-我们使用新信息和代码片段重新设计了开发人员API文档，以改善用户体验。 [阅读更多](../../api/using/about-campaign-standard-apis.md)
+我们使用新信息和代码片段重新设计了开发人员API文档，以改善用户体验。 [阅读更多](../../api/using/get-started-apis.md)
 
 发现新的读取受众 [和外部信号](../../automating/using/read-audience.md) 工作 [流活动的](../../automating/using/external-signal.md) 示例。
 
@@ -859,7 +859,7 @@ REST API中的链接资源——阅 [读更多](../../developing/using/updating-
 
 外部报告的日志导出——阅 [读更多](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API —— 阅 [读更多](../../api/using/about-campaign-standard-apis.md)
+Transactional Messaging API —— 阅 [读更多](../../api/using/get-started-apis.md)
 
 事务性消息的营销功能- [阅读更多](../../channels/using/profile-transactional-messages.md)
 
