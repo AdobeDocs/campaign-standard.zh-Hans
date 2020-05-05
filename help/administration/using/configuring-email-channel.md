@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
    * 发件人地址和错误地址均由Adobe设置。 这些字段不能为空。
    * 您无法编辑这些字段。 要更新地址，请与Adobe客户关怀团队联系。
    * 要添加其他地址，您可以 [使用控制面板](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 来设置新的子域，或与Adobe客户关怀团队联系。 请注意，如果使用了多个蒙版，它们将用逗号分隔。
-   * 使用星形（如*@yourdomain.com）设置地址&#x200B;*是一个好做法*: 它允许您使用以子域名结尾的任何地址。
+   * 最好使用星形（如*@yourdomain.com）设置地址： 它允许您使用以子域名结尾的任何地址。
 
 * **可交付性**
 
