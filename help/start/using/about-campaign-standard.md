@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign标准版是一款功能强大的跨渠道活动管理工具，可
 
 **利用活动沟通渠道** ，在正确的位置提供营销活动: 电子邮件、短信、推送通知、应用程序内消息、直邮、登陆页。 通过为所有类型的消息（交易、循环、多语言消息）创建模板，获得消息策略的时间和一致性。 改进A/B测试，并使用个性化和动态内容功能吸引受众的兴趣。 [通信渠道入门](../../channels/using/get-started-communication-channels.md)
 
-**使用活动电子邮件设计器** ，创建引人入胜的单独定制电子邮件。 开始从头开始，或利用内置内容片段或模板，使用为响应式设计而优化的HTML格式设计电子邮件。 [电子邮件内容设计入门](../../designing/using/designing-content-in-adobe-campaign.md)
+**使用活动电子邮件设计** 器创建引人入胜的单独定制电子邮件。 开始从头开始，或利用内置内容片段或模板，使用为响应式设计而优化的HTML格式设计电子邮件。 [电子邮件内容设计入门](../../designing/using/designing-content-in-adobe-campaign.md)
 
 **使用预览、验证、电子邮件主题行测试** 、电子邮件渲染等多种测试功能，在发送前分析并检查邮件内容。 通过优化消息发送时间（计划、时区管理），确保消息在正确的时间发送。 [邮件测试和发送入门](../../sending/using/get-started-sending-messages.md)
 
@@ -78,7 +78,7 @@ Adobe Campaign标准版是一款功能强大的跨渠道活动管理工具，可
 
 **使用您自己的字段** 和资源扩展Campaign Standard数据模型，并监控所有视图模型变更为单一数据。 [Campaign Standard数据模型入门](../../developing/using/get-started-data-model.md)
 
-**利用REST API** 执行各种操作，并将Campaign Standard与您自己的生态系统相集成。 [开始使用Campaign StandardREST API](../../api/using/about-campaign-standard-apis.md)
+**利用REST API** 执行各种操作，并将Campaign Standard与您自己的生态系统相集成。 [开始使用Campaign StandardREST API](../../api/using/get-started-apis.md)
 
 **通过一个活动** ，管理视图: 监视您的实例，管理用户的权限。 设置外部服务器以连接到实例，并配置通信渠道的参数。 [开始Campaign Standard管理](../../administration/using/get-started-campaign-administration.md)
 
