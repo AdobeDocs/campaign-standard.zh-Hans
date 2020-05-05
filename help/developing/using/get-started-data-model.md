@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Standard允许您 **丰富预定义的模型** ，以创建您自己的
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-借助Campaign StandardAPI，为Adobe Campaign标准创建集成，并通过将活动与您使用的技术面板连接来构建您自己的生态系统。 [开始使用Campaign StandardREST API](../../api/using/about-campaign-standard-apis.md)
+借助Campaign StandardAPI，为Adobe Campaign标准创建集成，并通过将活动与您使用的技术面板连接来构建您自己的生态系统。 [开始使用Campaign StandardREST API](../../api/using/get-started-apis.md)
 
 ## 其他资源
 
