@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -100,7 +100,7 @@ Campaign Standard与Microsoft Dynamics 365集成后，您可以将联系人数�
 
 ### 通过API调用导入数据
 
-Campaign StandardAPI允许您执行操作来更新用户档案库，如创建、更新或删除数据库。 有关如何使用API的详细信息，请参阅专 [用文档](../../api/using/about-campaign-standard-apis.md)。
+Campaign StandardAPI允许您执行操作来更新用户档案库，如创建、更新或删除数据库。 有关如何使用API的详细信息，请参阅专 [用文档](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >
