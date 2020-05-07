@@ -3,6 +3,9 @@ title: 使用复合标识关键码调用资源
 description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 6%
 
 ---
 
