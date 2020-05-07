@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 1%
 
 ---
 
@@ -717,7 +720,7 @@ SMS文档已更新，在SMS自动回复部分 [添加了一些说明](../../chan
 
 与Adobe Analytics共享的KPI的详细列表。 [阅读更多](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-新动态报表视频。 [阅读更多](../../start/using/how-to-videos.md)
+新动态报表视频。
 
 添加了S3帐户建议。 [阅读更多](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Adobe Campaign通知- [阅读更多](../../administration/using/sending-internal
 
 **随版本提供的其他文档更新**
 
-入门 [指南](../../start/using/step-by-step-guides.md)[](../../start/using/how-to-videos.md) 和操作方法视频已在专用部分中重新分组。
+入门指南和操作方法视频已重新分组到一个专用部分。
 
 电子邮件呈现文档已更新。 [阅读更多](../../sending/using/email-rendering.md)
 
