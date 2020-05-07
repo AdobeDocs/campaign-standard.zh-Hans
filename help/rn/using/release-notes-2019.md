@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '7621'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +97,7 @@ source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 * 修复了更新可重用内容时片段的问题。 (CAMP-35186)
 * 修复了在电子邮件中仅显示移动条件内容时的问题。 (CAMP-35155)
 * 修复了随机显示零宽不间断空格的问题。 (CAMP-35116)
-* 修复了“另存为片段”对话框中 **按钮的位置** 。
+* 修复了“另存为片段”对话框中 **按钮的位置** 问题。
 * 修复了在图像标题和替换文本中添加HTML标记时的预览问题。
 * 修复了在电子邮件设计器中编辑在旧版编辑器的电子邮件中创建的链接时的问题。
 * 修复了在内容中留下重复的样式标记的问题。
