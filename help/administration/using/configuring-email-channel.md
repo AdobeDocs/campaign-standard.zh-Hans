@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **授权的蒙版字段**
 
-   列表 **[!UICONTROL Header parameters of sent emails]** 可用于向收件人发送电子邮件的授权电子邮件地址（发件人地址），并通知他们任何错误（错误地址）。  Adobe Campaign检查在消息准备阶段输入的地址是否有效。 此操作模式确保没有使用可能触发可交付性问题的地址。
+   此部 **[!UICONTROL Header parameters of sent emails]** 分列表了授权电子邮件地址，您可以使用这些地址向收件人发送电子邮件（发件人地址），并允许他们返回自动回复，如异步退回、办公外回复等。 （错误地址）。  Adobe Campaign检查在消息准备阶段输入的地址是否有效。 此操作模式确保没有使用可能触发可交付性问题的地址。
    * 发件人地址和错误地址均由Adobe设置。 这些字段不能为空。
    * 您无法编辑这些字段。 要更新地址，请与Adobe客户关怀团队联系。
    * 要添加其他地址，您可以 [使用控制面板](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 来设置新的子域，或与Adobe客户关怀团队联系。 请注意，如果使用了多个蒙版，它们将用逗号分隔。
@@ -53,7 +56,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **投放参数**
 
-   Adobe Campaign从开始日期开始发送消息。 该 **[!UICONTROL Message delivery duration]** 字段允许您指定发送消息的持续时间。
+   Adobe Campaign从开始日期开始发送消息。 该 **[!UICONTROL Message delivery duration]** 字段允许您指定在投放中重试遇到临时错误或软弹回的任何消息的时间范围。
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **电子邮件隔离参数**
 
-   在字 **[!UICONTROL Time between two significant errors]** 段中，输入一个值，以定义在出现故障时应用程序在增加错误计数器之前等待的时间。 默认值为“ **1d**”,1天。
+   在字 **[!UICONTROL Time between two significant errors]** 段中，输入一个值，以定义在软退回失败时应用程序在增加错误计数器之前等待的时间。 默认值为“ **1d**”,1天。
 
    到达该 **[!UICONTROL Maximum number of errors before quarantine]** 值后，将隔离该电子邮件地址。 默认值为 **&quot;5&quot;**: 地址将在第五个错误时被隔离。 这意味着联系人将自动从后续投放中排除。
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -104,7 +107,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 活动inMail进程仍通过规则对异步弹回进行 **[!UICONTROL Bounce mails]** 限定。
 
-此规则包含可由远程服务器返回的字符串列表，并允许您限定错误(硬&#x200B;**、软****或****忽略**)。
+这些规则包含可由远程服务器返回的字符串列表，并允许您确定错误(硬&#x200B;**、软****或****忽略**)。
 
 >[!NOTE]
 >
