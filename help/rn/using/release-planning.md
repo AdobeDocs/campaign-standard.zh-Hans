@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90e99ab01ad118753a772feebe8647ac2ed54d09
+source-git-commit: b032807bc0a6572691d6f6d2e49ce7a1a58dd21a
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 ---
 
 
-# 发布计划 {#release-planning}
+# 发行计划 {#release-planning}
 
 Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
@@ -46,7 +46,7 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
  <tbody>
   <tr>
    <td>舞台<br /> </td>
-   <td>2020年5月12日至13日<br /> </td>
+   <td>2020年5月13日至14日<br /> </td>
   </tr>
   <tr>
    <td> 制作<br /> </td>
