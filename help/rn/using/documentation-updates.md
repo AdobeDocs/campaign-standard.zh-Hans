@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 1%
 Campaign Standard概述页面已经过丰富和重新组织为专题主题。 [阅读更多](../../start/using/about-campaign-standard.md)
 
 “电子邮件渠道参数”部分已明确，其中包含有关授权掩码字段和投放报告ID的进一步信息。 [阅读更多](../../administration/using/configuring-email-channel.md)
+
+核心文档中现已提供使用Adobe Experience Platform SDK配置移动应用程序，其中包含有关Launch技术工作流程中同步移动应用程序AEPSDK的更多信息。 [阅读更多](../../administration/using/configuring-a-mobile-application.md)
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -158,7 +160,7 @@ Adobe Campaign增强的MTA文档描述了经过升级的发送基础架构，可
 
 新增了有关Adobe Campaign标准中移动投放的一般准则的页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/get-started-apis.md)
 
@@ -386,7 +388,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
