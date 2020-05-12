@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 9%
 
 ---
 
@@ -158,7 +161,7 @@ Google reCAPTCHA机制允许您保护登陆页免受由机器人程序造成的�
 >
 >在Adobe Campaign标准中配置外部帐户所需的信息，可在Azure门户中通过选择> **[!UICONTROL Settings]** 找到 **[!UICONTROL Access keys]**。
 
-Azure Blob存储连接器可用于使用传输文件工作流活动将数据导入或 **[!UICONTROLT导出到Adobe Campaign]** 。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob存储连接器可用于使用工作流活动将数据导入或导出 **[!UICONTROL Transfer file]** 到Adobe Campaign。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 对于Microsoft Azure Blob存储外部帐户，请提供以下详细信息：
 
