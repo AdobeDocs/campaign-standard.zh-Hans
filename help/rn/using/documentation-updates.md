@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Campaign Standard概述页面已经过丰富和重新组织为专题主题。 [�
 
 **随版本提供的其他文档更新**
 
-已在工作流属性的字 **[!UICONTROL History in days]** 段中添加了信息，现在包括活动下载的文 **[!UICONTROL Transfer file]** 件。 [阅读更多](../../automating/using/executing-a-workflow.md)
+已在工作流属性的字 **[!UICONTROL History in days]** 段中添加了信息，现在包括活动下载的文 **[!UICONTROL Transfer file]** 件。 [阅读更多](../../automating/using/managing-execution-options.md)
 
 在用户档案替换部分中添加了有关主题行前缀的500个字符限制的信息。 [阅读更多](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Adobe Campaign标准版/Adobe Experience Manager集成文档已更新和改进�
 
 内置权限中 **[!UICONTROL Workflow]** 已添加信息。 [阅读更多](../../administration/using/list-of-roles.md)
 
-已添加有关工作流属 **[!UICONTROL History in days field]** 性中可用的信息。 [阅读更多](../../automating/using/executing-a-workflow.md)
+已添加有关工作流属 **[!UICONTROL History in days field]** 性中可用的信息。 [阅读更多](../../automating/using/about-workflow-execution.md)
 
 ## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
@@ -818,7 +818,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 针对不同类型的Adobe Campaign用户添加了章节。 [阅读更多](../../administration/using/users-management.md)
 
-重新组织并扩展了工作流指南。 轻松找到如何构 [建和执](../../automating/using/building-a-workflow.md) 行工作流 [、如何目标和管](../../automating/using/executing-a-workflow.md) 理您的投放、如何导 [](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 入、如何使用工作流数据更新或发送。
+重新组织并扩展了工作流指南。 轻松找到如何构 [建和执](../../automating/using/building-a-workflow.md) 行工作流 [、如何目标和管](../../automating/using/about-workflow-execution.md) 理您的投放、如何导 [](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 入、如何使用工作流数据更新或发送。
 
 报告指示器计算现可用于动态报告，包括完整说明和计算公式。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
