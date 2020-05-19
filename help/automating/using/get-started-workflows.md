@@ -12,7 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +54,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计复杂的
 阅读更多：
 
 * [构建工作流](../../automating/using/building-a-workflow.md)
-* [执行工作流](../../automating/using/executing-a-workflow.md)
+* [执行工作流](../../automating/using/about-workflow-execution.md)
 * [工作流最佳实践](../../automating/using/best-practices-workflows.md)
 
 ## 筛选数据 {#filter-data}
