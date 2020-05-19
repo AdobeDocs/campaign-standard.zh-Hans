@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 93%
+source-wordcount: '1451'
+ht-degree: 92%
 
 ---
 
@@ -239,7 +239,6 @@ ht-degree: 93%
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [为 Microsoft Dynamics 365 集成配置 Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + 使用 Campaign Standard 和 Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [关于Microsoft Dynamics 365集成](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 93%
       + [定位数据](automating/using/targeting-data.md)
       + [导入数据](automating/using/importing-data.md)
       + [使用工作流数据](automating/using/using-workflow-data.md)
-      + [执行工作流](automating/using/executing-a-workflow.md)
       + [工作流最佳实践](automating/using/best-practices-workflows.md)
+   + [执行工作流]{#executing-a-workflow}
+      + [关于工作流执行](automating/using/about-workflow-execution.md)
+      + [工作流生命周期](automating/using/workflow-life-cycle.md)
+      + [执行命令](automating/using/execution-commands.md)
+      + [监视工作流执行](automating/using/monitoring-workflow-execution.md)
+      + [管理执行选项](automating/using/managing-execution-options.md)
+      + [管理活动属性](automating/using/activity-properties.md)
    + [使用外部参数调用工作流](automating/using/calling-a-workflow-with-external-parameters.md)
    + 定位活动 {#targeting-activities}
       + [关于定位活动](automating/using/about-targeting-activities.md)
