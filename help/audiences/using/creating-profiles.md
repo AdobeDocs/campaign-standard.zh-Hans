@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 要在活动中创建或更新用户档案，您可以：
 
-* 通过工作流从文件导入用户档案 [列表](../../automating/using/importing-data.md#example--import-workflow-template)
+* 通过工作流从文件导入用户档案 [列表](../../automating/using/creating-import-workflow-templates.md)
 * 通过登陆页在线收集数 [据](../../channels/using/getting-started-with-landing-pages.md)
 * 通过REST API批量 [创建](../../api/using/get-started-apis.md)
 * 同步Microsoft Dynamics [中的用户档案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
