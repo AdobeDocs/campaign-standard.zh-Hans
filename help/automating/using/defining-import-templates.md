@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. 转到选 **[!UICONTROL Workflow]** 项卡。 在此处，您可以根据需要添加新活动，以丰富默认提供的工作流。
 
-   有关如何配置工作流活动的详细信息，请参阅本节中描述的用例： [示例： 导入工作流模板](../../automating/using/importing-data.md#example--import-workflow-template)。 此用例将帮助您设置一个工作流，它可重用于导入来自用户档案库中CRM的Adobe Campaign。
+   有关如何配置工作流活动的详细信息，请参阅本节中描述的用例： [示例： 导入工作流模板](../../automating/using/creating-import-workflow-templates.md)。 此用例将帮助您设置一个工作流，它可重用于导入来自用户档案库中CRM的Adobe Campaign。
 
 1. 保存模板，以便正确考虑工作流的配置。
 1. 从选项卡上传示例 **[!UICONTROL Properties]** 文件。 上传的文件只能包含将来导入或示例数据所必需的列。 示例文件中的数据允许您在定义工作流后测试简化的导入。
@@ -84,6 +87,6 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 **相关主题：**
 
 * [工作流](../../automating/using/get-started-workflows.md)
-* [导入数据](../../automating/using/importing-data.md)
-* [示例： 导入工作流模板](../../automating/using/importing-data.md#example--import-workflow-template)
+* [导入和导出数据](../../automating/using/about-data-import-and-export.md)
+* [示例： 导入工作流模板](../../automating/using/creating-import-workflow-templates.md)
 
