@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + 工作流常规操作 {#workflow-general-operation}
       + [工作流界面](automating/using/workflow-interface.md)
       + [构建工作流](automating/using/building-a-workflow.md)
-      + [定位数据](automating/using/targeting-data.md)
-      + [导入数据](automating/using/importing-data.md)
-      + [使用工作流数据](automating/using/using-workflow-data.md)
       + [工作流最佳实践](automating/using/best-practices-workflows.md)
    + 执行工作流 {#executing-a-workflow}
       + [关于工作流执行](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [功能列表](automating/using/list-of-functions.md)
    + 导入和导出数据 {#importing-and-exporting-data}
       + [关于数据导入和导出](automating/using/about-data-import-and-export.md)
+      + [导入最佳实践](automating/using/import-best-practices.md)
       + [使用导入模板导入数据](automating/using/importing-data-with-import-templates.md)
-      + [定义导入模板](automating/using/defining-import-templates.md)
+      + [创建用于导入数据的工作流模板](automating/using/creating-import-workflow-templates.md)
+      + [管理加密数据](automating/using/managing-encrypted-data.md)
       + [导出日志](automating/using/exporting-logs.md)
       + [管理包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
