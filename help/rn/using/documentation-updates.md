@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ Adobe Campaign增强的MTA文档描述了经过升级的发送基础架构，可
 
 新增了有关Adobe Campaign标准中移动投放的一般准则的页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/get-started-apis.md)
 
@@ -388,7 +388,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -584,7 +584,7 @@ GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../.
 
 添加了一项技术说明，了解如何生成用于推送通知的多语言CSV文件。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
-添加了有关更新直 **接邮件隔离和投放日志导入模板** 的信息。 [阅读更多](../../automating/using/defining-import-templates.md)
+添加了有关更新直 **接邮件隔离和投放日志导入模板** 的信息。 [阅读更多](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 更新了技术工作流列表。 [阅读更多](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ SQL结构中现在提供内置资源的datamodel v1 —— 阅 [读更多](https
 
 现在提供了一个新选项，允许在定义数据中的许多附加数据时 **[!UICONTROL Query]** 获得性能。 [阅读更多](../../automating/using/query.md)
 
-用户档案导入示例已更新，其中包含一些提示，让用户档案随时可以收到直接邮件。 [阅读更多](../../automating/using/importing-data.md)
+用户档案导入示例已更新，其中包含一些提示，让用户档案随时可以收到直接邮件。 [阅读更多](../../automating/using/about-data-import-and-export.md)
 
 新活动在工作流中可用： 活动 **[!UICONTROL Enrichment]** 。 [阅读更多](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Dreamweaver实时集成——阅 [读更多](https://docs.adobe.com/content/help
 
 针对不同类型的Adobe Campaign用户添加了章节。 [阅读更多](../../administration/using/users-management.md)
 
-重新组织并扩展了工作流指南。 轻松找到如何构 [建和执](../../automating/using/building-a-workflow.md) 行工作流 [、如何目标和管](../../automating/using/about-workflow-execution.md) 理您的投放、如何导 [](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 入、如何使用工作流数据更新或发送。
+重新组织并扩展了工作流指南。 轻松找到如 [何构建](../../automating/using/building-a-workflow.md) 和执行工作 [流、如何](../../automating/using/about-workflow-execution.md) 目标和管 [理数据、如何导](../../automating/using/about-targeting-activities.md)[](../../automating/using/about-targeting-activities.md#enriching-data)[](../../automating/using/about-data-import-and-export.md) 入和导出数据，以及如何使用工作流数据更新投放库或发送。
 
 报告指示器计算现可用于动态报告，包括完整说明和计算公式。 [阅读更多](../../reporting/using/indicator-calculation.md)
 
