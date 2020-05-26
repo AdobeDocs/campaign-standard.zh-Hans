@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 1%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Campaign允许您将用户档案库中的字段插入页面，如的名字
 
 >[!NOTE]
 >
->如果电子邮件是通过工作流创建的，则工作流中计算的其他数据也会在个性化字段中可用。 有关从工作流添加其他数据的详细信息，请参阅丰 [富数据](../../automating/using/targeting-data.md#enriching-data) 一节。
+>如果电子邮件是通过工作流创建的，则工作流中计算的其他数据也会在个性化字段中可用。 有关从工作流添加其他数据的详细信息，请参阅丰 [富数据](../../automating/using/about-targeting-activities.md#enriching-data) 一节。
 
 ## 添加内容块{#adding-a-content-block}
 
@@ -283,7 +286,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 
 **相关主题：**
 
-* [发送验证](../../sending/using/sending-proofs.md)
+* [发送校样](../../sending/using/sending-proofs.md)
 * [高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor)
 
 ### 优先级顺序 {#order-of-priority}
