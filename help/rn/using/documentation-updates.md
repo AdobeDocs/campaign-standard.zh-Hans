@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5809'
-ht-degree: 1%
+source-wordcount: '5842'
+ht-degree: 9%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 1%
 # 文档更新{#documentation-updates}
 
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，本页还列表了Adobe Campaign标准文档中的所有新更新。
+
+## 文档更新- 2020年6月 {#doc-updates-june-2020}
+
+Campaign Standard- Microsoft Dynamics 365集成当前不可用。 正在开发新的连接器，并将在将来推出。 有关详细信息，请联系您的Adobe销售代表。
 
 ## 文档更新- 2020年5月 {#doc-updates-may-2020}
 
@@ -160,7 +164,7 @@ Adobe Campaign增强的MTA文档描述了经过升级的发送基础架构，可
 
 新增了有关Adobe Campaign标准中移动投放的一般准则的页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/get-started-apis.md)
 
@@ -176,7 +180,7 @@ API文档主页已得到改进，并重新指向不同的主题。 [阅读更多
 
 ## 文档更新- 2019年11月 {#doc-updates-november-2019}
 
-新增了一个用例，用于说明如何使用Campaign Standard中的工作流构建对照组。 [阅读更多](../../automating/using/workflow-control-group.md)
+新增了一个用例，用于说明如何使用Campaign Standard中的工作流构建对照组。 [Read more](../../automating/using/workflow-control-group.md)
 
 与登陆页财产有关的信息已移入专用部分。 [阅读更多](../../channels/using/configuring-landing-page.md)
 
@@ -234,7 +238,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 新增了一个示例，显示如何发送包含从加载文件活动检索的其他数据的电子邮件。 [阅读更多](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-新增了有关如何使用陷印的部分。 [阅读更多](../../sending/using/using-traps.md)。
+新增了有关如何使用陷阱的部分。 [阅读更多](../../sending/using/using-traps.md)。
 
 有关如何使 **用Adobe Experience Platform** SDK配置移动应用程序的页面中添加了有关Launch_URL_活动选项的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -388,7 +392,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -694,7 +698,7 @@ API信号活动触发- [阅读更多](../../api/using/triggering-a-signal-activi
 
 更新并阐明了 [如何将](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK与移动应用程序集成以接收Adobe Campaign标准推送通知的技术说明。
 
-添加了一个技术说明，用于解释在移动应用程序中接收的有效负荷的结构。 [阅读更多。](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+添加了一个技术说明，用于解释在移动应用程序中接收的有效负荷的结构。 [阅读更多.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 推送渠道配 [置部分](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 已更新为操作系统版本上的新有效负荷数据，以在Adobe Mobile Services界面中定义回传时添加该数据。
 
