@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Campaign是Adobe Experience Cloud解决方案的一部分。 在活动中�
 
 因此，作为收集和共享个人数据的公司，您是数据管理者，您的客户是数据主体，Adobe Campaign在按照您的指示处理其个人数据时充当数据处理者。 请注意，您作为数据管理者有责任处理与数据主体的关系，例如管理隐私 [请求](#privacy-requests)。
 
-当将活动与其他Experience Cloud解决方案集成时，您需要支付额外的个人护理费以保护数据 [，例如，](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [、](../../integrating/using/about-campaign-analytics-integration.md)受众经理或People core service [，或与其他解决方案(如](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)Microsoft Dynamics 365)进行集成。
+当将活动与其他Experience Cloud解决方案集成时，您需要支付额外的个人护理费以保护数据 [，例如，](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [、](../../integrating/using/about-campaign-analytics-integration.md)受众经理或People core service [，或与其他解决方案(如](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft Dynamics 365)进行集成。
 
 ## 数据采集 {#data-acquisition}
 
