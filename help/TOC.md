@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 91%
+source-wordcount: '1403'
+ht-degree: 92%
 
 ---
 
@@ -239,15 +239,7 @@ ht-degree: 91%
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + 使用 Campaign Standard 和 Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [关于Microsoft Dynamics 365集成](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [请求和配置Microsoft Dynamics 365集成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [使用Microsoft Dynamics 365集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [为 Microsoft Dynamics 365 集成配置 Adobe IO](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [为 Campaign 集成配置 Microsoft Dynamics 365](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [为 Microsoft Dynamics 365 集成配置 Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [映射 Campaign 自定义资源和 Dynamics 365 自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + [数据和流程管理入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
