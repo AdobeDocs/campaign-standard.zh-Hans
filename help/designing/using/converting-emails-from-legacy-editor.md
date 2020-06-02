@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 开始使用电子邮件设计器，从旧版编辑器中创建的电子邮件HTML中构建可重用的模板和片段。
 
->[!IMPORTANT]
->
->此部分面向熟悉HTML代码的高级用户。
-
 此用例允许您通过使用HTML电子邮件并在电子邮件设计器中将其划分为HTML组件来创建电子邮件设计器模板。
 
 >[!NOTE]
 >
 >与兼容性模式一样，HTML组件也可编辑，但选项有限： 只能执行就地版本。
+
+>[!IMPORTANT]
+>
+>此部分面向熟悉HTML代码的高级用户。
 
 ## 准备电子邮件内容
 
