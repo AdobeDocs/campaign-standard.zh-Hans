@@ -2,7 +2,7 @@
 title: 使用复合标识关键码调用资源
 description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 6%
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->要调用客户筛选器，请使用“by”前缀，后跟在步骤2中配置筛选器定义时定义的筛 [选器名称](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
+>要调用自定义筛选器，请使用“by”前缀，后跟在步骤2中配置筛选器定义时定义的筛 [选器名称](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
 
 在本例中，用“123456”CRM ID从“spring”用户档案检索类别的语法为：
 
