@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,6 @@ ht-degree: 1%
 组织是允许管理员配置组和用户以及控制Experience Cloud中的单点登录的实体。 组织的功能类似于跨所有Experience Cloud产品和解决方案的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以有许多组织。 用户和组织管理在Adobe Experience Cloud帮 [助门户中有详细介绍](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
 
 如果您希望将来自其他系统的数据流与Adobe Campaign集成，请查看我们的 [API文档](../../api/using/get-started-apis.md)。
-
->[!NOTE]
->
->Adobe Campaign标准版还可以连接到Microsoft Dynamics 365: 此集成支持同步CRM系统中所有可用的联系人数据，使所有相关的联系人数据都可用于活动活动。 有关此集成的详细信息，请参 [阅使用活动和Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
-
 
 <table> 
  <thead> 
