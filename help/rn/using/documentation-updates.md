@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 9%
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，本页还列表了Adobe Campaign标准文档中的所有新更新。
 
 ## 文档更新- 2020年6月 {#doc-updates-june-2020}
+
+对旧版支持网站的引用已被新URL取代。 [了解更多](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+自定义Litmus帐户配置已从收件箱渲染功能中删除。 [阅读更多](../../sending/using/email-rendering.md)
 
 Campaign Standard- Microsoft Dynamics 365集成当前不可用。 正在开发新的连接器，并将在将来推出。 相关帮助页面已被删除。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -164,7 +168,7 @@ Adobe Campaign增强的MTA文档描述了经过升级的发送基础架构，可
 
 新增了有关Adobe Campaign标准中移动投放的一般准则的页面。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示部分**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+使用活动和Experience Manager文档已更新，其中新增了有关如 **何使用活动与Experience Manager集成的提示**。 [阅读更多](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API文档主页已得到改进，并重新指向不同的主题。 [阅读更多](../../api/using/get-started-apis.md)
 
@@ -238,7 +242,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 新增了一个示例，显示如何发送包含从加载文件活动检索的其他数据的电子邮件。 [阅读更多](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-新增了有关如何使用陷阱的部分。 [阅读更多](../../sending/using/using-traps.md)。
+新增了有关如何使用陷印的部分。 [阅读更多](../../sending/using/using-traps.md)。
 
 有关如何使 **用Adobe Experience Platform** SDK配置移动应用程序的页面中添加了有关Launch_URL_活动选项的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -250,7 +254,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 在工作流疑难解答部分中添加了一个过程，该部分讲述如何在日志选项卡中显示SQL查询。 [阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇帮助文章，其中包含控制面板中与子域和证书管理相关的信息。 [阅读更多](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+新增了一篇帮助文章，其中包含控制面板中与子域和证书管理相关的信息。 [阅读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 描述内容模板和片段的部分已更新。 [阅读更多](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -392,7 +396,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
