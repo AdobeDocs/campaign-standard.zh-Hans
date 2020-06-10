@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
 **最新！** 订阅Campaign Standard [发布通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件箱中获取有关即将发布版本的详细信息。
 
-## 版本20.3.1 - 5月版 {#release-20-3-may-release}
+## 版本20.4 - 10月版 {#release-20-4-oct-release}
 
-环境更新在批次中发生，时间为以下指定时间帧。 有关此版本的详细信息，请参阅发 [行说明](../../rn/using/release-notes.md)。 如果您有其他问题，请联系 [Adobe客户关怀](https://support.neolane.net/webApp/extranetLogin)。
+环境更新在批次中发生，时间为以下指定时间帧。 有关此版本的详细信息，请参阅发 [行说明](../../rn/using/release-notes.md)。 如果您有其他问题，请联系 [Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
  <tbody>
   <tr>
    <td>舞台<br /> </td>
-   <td>2020年5月26日至27日<br /> </td>
+   <td>2020年9月21日至22日<br /> </td>
   </tr>
   <tr>
    <td> 制作<br /> </td>
-   <td>2020年5月28日至6月1日<br /> </td>
+   <td>2020年9月28日至10月5日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
 **问： 验证过程是什么？**
 
-答： 升级登台实例时，Adobe建议验证您的进程和使用案例是否能使用此新版本正常工作，并向Adobe Client Care报 [告任何问题](https://support.neolane.net/webApp/extranetLogin)。
+答： 升级登台实例时，Adobe建议验证您的进程和使用案例是否能使用此新版本正常工作，并向Adobe Client Care报 [告任何问题](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 **问： 在升级过程中是否可以访问该实例？**
 
@@ -87,4 +87,4 @@ Adobe通过添加新功能、增强和修复不断改进其解决方案。
 
 答： 登录到活动时，将显示包含最新版本的发布通知弹出窗口。
 
-如有其他问题，请与Adobe [客户关怀部门联系](https://support.neolane.net/webApp/extranetLogin)。
+如有其他问题，请与Adobe [客户关怀部门联系](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
