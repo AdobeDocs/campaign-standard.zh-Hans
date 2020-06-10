@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1554'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,7 @@ Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用�
 
 外部帐户由技术工作流或活动工作流等技术流程使用。 在工作流中设置文件传输或与任何其他应用程序(Adobe目标、Experience Manager等)进行数据交换时，您需要选择外部帐户。
 
-1. Click the **[!UICONTROL Create]** button.
+1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
 1. 输入标签。 在工作流中选择外部帐户时，将使用标签和ID。
 1. 选择要创建的帐户类型。
 1. 根据需要指定凭据、服务器地址、端口号或密钥，以配置对帐户的访问。
@@ -86,9 +86,9 @@ Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须在活动实例中列入白名单。 IP地址的白名单可以通过支 [持票](https://support.neolane.net)请求，同时提供用于身份验证的公共密钥。
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须在活动实例中列入白名单。 IP地址的白名单可以通过支 [持票](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求，同时提供用于身份验证的公共密钥。
 
-SFTP服务器可从控制面板进行管理。 有关详细信息，请参阅控 [制面板文档](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html)。
+SFTP服务器可从控制面板进行管理。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Amazon S3服务器字段应填写如下：
 
 为了帮助您设置Amazon S3帐户，我们建议您遵循以下建议：
 
-* 创建严格存储段策略以限制对S3存储段的访问。 在创建存储段时可以配置存储段策略。 有关详细信息，请参 [阅Amazon S3文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
+* 创建严格存储段策略以限制对S3存储段的访问。 在创建存储段时可以配置存储段策略。 For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * 在创建外部帐户时，通过选中该框，启用加密以在S3存储桶中存储敏感 **[!UICONTROL Keep files in S3 encrypted]** 数据。
 * 授予存储段权限，以指定谁可以访问存储段中的对象。 有关存储桶权限的详细信息，请参 [阅Amazon S3文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
