@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 以下标准可用于投放警报仪表板:
 
-* **[!UICONTROL Deliveries failed]**: 在已定义的范围内计划的任何投放，其状态都错误。
+* **[!UICONTROL Deliveries failed]**: 在已定义的范围内计划的任何投放，其状态错误。
 * **[!UICONTROL Deliveries with preparation failed]**: 在定义范围内修改的任何投放，其准备步骤(目标计算和内容生成)失败。 有关此内容的详细信息，请 [参阅准备发送](../../sending/using/preparing-the-send.md)。
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**: 在已定义的范围内计划的任何投放(至少 **[!UICONTROL In progress]**&#x200B;具有状态)，软跳出错误率大于已定义百分比。
 * **[!UICONTROL Delivery with bad error ratio for hard bounces]**: 在已定义范围内计划的任何投放，其状态至 **[!UICONTROL In progress]**&#x200B;少为，硬弹回错误率大于已定义百分比。
@@ -258,7 +258,7 @@ ht-degree: 1%
 
    出现警报的可 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 能原因包括：
 
-   * 收件人是已列入黑名单的，这意味着他们不再希望被联系。
+   * 收件人在块列表中，这意味着他们不再希望联系。
    * 收件人的电子邮件地址不存在。
    * 收件人的域不存在。
    * 收件人服务器正在阻止投放。
@@ -280,5 +280,5 @@ ht-degree: 1%
 
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
-* [管理活动中的黑名单](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
