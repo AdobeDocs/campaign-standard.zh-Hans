@@ -1,27 +1,30 @@
 ---
 title: 为投放确定选择禁用的用户档案
-description: 了解如何为分发确定退出配置文件。
-page-status-flag: 从未激活
-uuid: ad09a4d3-7ad6-47b8-9c56-73bba6fa60
-contentOwner: 绍维亚
+description: 了解如何为投放确定退出用户档案。
+page-status-flag: never-activated
+uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 了解——选择加入——选择退出流程
-discoiquuid: 896859da-a230-4f13-9b1f-cbf34b3c0e0
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
+discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 41%
 
 ---
 
 
 # 为投放确定选择禁用的用户档案{#identifying-opt-out-profiles-for-a-delivery}
 
-特定交付的退出配置文件在准备阶段后列在交付控制板 **[!UICONTROL Exclusion logs]** 的选项卡中。
+特定投放的退出用户档案在准备阶段后列在投放仪表板 **[!UICONTROL Exclusion logs]** 的选项卡中。
 
-![](assets/exclusion_blacklisting.png)
+![](assets/exclusion_blocklisting.png)
 
 **相关主题：**
 
