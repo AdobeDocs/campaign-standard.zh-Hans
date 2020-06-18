@@ -1,6 +1,6 @@
 ---
-title: 对Adobe Campaign标准中的交付性问题进行疑难解答
-description: 了解在遇到Adobe Campaign标准的可交付性问题时要做什么。
+title: Adobe Campaign Standard中的可交付性问题疑难解答
+description: 了解在遇到Adobe Campaign Standard的可交付性问题时要做什么。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,60 +13,62 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
 
 # 故障排除{#troubleshooting}
 
-您是否遇到可交付性问题？ 您可以在此处找到解决方案。
+您是否遇到交付能力问题？ 您可以在此处找到解决方案。
 
 ## ISP的相同错误消息 {#same-error-for-an-isp}
 
-**为什么对于特定ISP，我始终会收到相同的错误消息？**
+**为什么对于特定ISP，我始终收到相同的错误消息？**
 
-如果ISP始终收到相同的错误消息，则ISP可能已检测到您的电子邮件或IP存在错误。 执行以下建议：
-* 检查您是否收到链接到不存在的电子邮件地址的大比例故障(用&#x200B;**户未知故障** )。
-* 更新订阅表单以检测输入的域名中的任何错误(例如：gmaul.com或yaho.com)。
-* 如果您注意到错误消息被声明为垃圾邮件或您的消息被持续阻止的错误，请尝试排除在目标过去12个月中未打开或单击您的某条消息的收件人。
+如果您始终收到与ISP相同的错误消息，则ISP可能已检测到您的电子邮件或IP存在错误。 执行以下建议：
+* 检查您是否收到链接到不存在的电子邮件地址的大部分失败(用&#x200B;**户未知** 失败)。
+* 更新订阅表单以检测输入的域名中的任何错误(例如： gmaul.com或yaho.com)。
+* 如果您注意到错误消息被声明为垃圾邮件或消息被持续阻止的错误，请尝试排除在目标过去12个月中未打开或单击某封邮件的收件人。
 
-如果问题仍然存在，请与商业或交付服务或Adobe Campaign支持联系。
+如果问题仍然存在，请与商业或可交付性服务或Adobe Campaign支持联系。
 
-## 黑名单与隔离 {#blacklisting-versus-quarantine}
+## 块列表与隔离 {#block-list-versus-quarantine}
 
-* **已列入黑名单的电子邮件地址与隔离的电子邮件地址之间有何区别？**
+* **阻止列表中的电子邮件地址与隔离的电子邮件地址之间有何区别？**
 
-   * 状态是 **[!UICONTROL Blacklisted]** 反馈循环的结果（当人员将消息报告为垃圾邮件时）。
+   * 状态 **[!UICONTROL On block list]** 是反馈循环的结果（当人员将邮件报告为垃圾邮件时）。
 
    * 状态 **[!UICONTROL Quarantined]** 是软弹回或硬弹回的结果。
-   有关此方面的详细信息，请参 [阅此部分](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)。
+   有关此方面的详细信息，请参 [阅此部分](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)。
 
 * **不同的隔离错误原因意味着什么？**
 
-   以下是10个可能的原因：未定义，用户未知，无效域,已列入黑名单地址，拒绝，错误忽略，不可到达，帐户禁用，邮箱已满，未连接。
+   以下是10个可能的原因： 未定义、用户未知、无效域、块列表地址、拒绝、忽略错误、不可到达、帐户禁用、邮箱已满、未连接。
 
    有关此方面的详细信息，请参 [阅了解隔离管理](../../sending/using/understanding-quarantine-management.md)。
 
-## 未列入黑名单 {#unblacklisting}
+## 从块列表中删除 {#removing-from-block-list}
 
-* **我的一个收件人是错误的。 如何将其取消黑名单以便开始再次发送消息？**
+* **我的一个收件人误地被添加到了阻止名单。 如何从块列表中删除它们，以便我能够开始再次发送消息？**
 
    * 转到 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
-   * 在相应记录的详细信息中，将字段的值设 **[!UICONTROL Status]** 置为 **[!UICONTROL Valid]**。
+   * 在相应记录的详细信息中，将字段的值 **[!UICONTROL Status]** 设置为 **[!UICONTROL Valid]**。
    * 保存记录。
 
-* **如何确定我的IP是否已列入黑名单? 如何取消IP黑名单？**
+* **如何确定我的IP是否在块列表中？ 如何从块列表中删除我的IP?**
 
-   要检查您的IP地址是否已列入黑名单，您可以使用各个网站验证它：
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
-   通常，IP地址检查的结果将返回一个列表，其中包含黑名单的详细信息以及已列入黑名单IP地址的网站的名称。
+   要检查您的IP地址是否在块列表中，您可以使用各种网站验证它，例如：
+   * [MX工具箱](https://mxtoolbox.com/)
+   * [我的IP地址是什么](https://whatismyipaddress.com)
+   通常，IP地址检查的结果将返回一个列表，其中包含块列表的详细信息以及阻止IP地址的网站的名称。
 
    通过单击相应的链接，您可以访问网站详细信息。
 
-   然后，您可以请求从已列入黑名单IP地址的网站中取消列出您的网站。
+   然后，您可以请求从将IP地址添加到其块列表的网站中取消列出您的网站。
 
    >[!NOTE]
    >
