@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 1%
+source-wordcount: '1289'
+ht-degree: 2%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 1%
 >
 >**MTA进** 程会对SMS错误消息（或“状态报告”的“SR”）进行限定。
 
-如果地址被隔离或投放已列入黑名单，也可以在用户档案准备过程中排除邮件。 排除的消息列在投放 **[!UICONTROL Exclusion logs]** 仪表板的选项卡中(请参 [阅本节](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
+如果地址被隔离或投放在阻止列表上，也可以在用户档案准备过程中排除邮件。 排除的消息列在投放 **[!UICONTROL Exclusion logs]** 仪表板的选项卡中(请参 [阅本节](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
 ![](assets/exclusion_logs.png)
 
 **相关主题：**
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
-* [管理活动中的黑名单](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ ht-degree: 1%
 | **[!UICONTROL Refused]** | 软／硬 | 由于作为垃圾邮件报告的安全反馈，该地址已置于隔离中。 根据提供者返回的错误，地址将直接发送给隔离，或者在活动收到错误证明隔离状态正确或错误数达到5之前再次尝试投放。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 分段中已检测到地址。 |
 | **[!UICONTROL Not defined]** | 柔和 | 地址已被限定，因为错误尚未递增。 当服务器发送新的错误消息时，会发生此类错误： 这可能是一个孤立的错误，但如果再次发生，错误计数器会增加，这将提醒技术团队。 |
-| **[!UICONTROL Error ignored]** | 已忽略 | 地址在白名单中，无论如何，都会向其发送电子邮件。 |
-| **[!UICONTROL Blacklisted address]** | 硬 | 发送时地址已列入黑名单。 |
+| **[!UICONTROL Error ignored]** | 已忽略 | 地址在允许列表中，无论如何，都会向其发送电子邮件。 |
+| **[!UICONTROL Address on block list]** | 硬 | 地址已在发送时添加到块列表。 |
 | **[!UICONTROL Account disabled]** | 软／硬 | 当Internet访问提供商(IAP)检测到长时间的非活动时，它可以关闭用户帐户： 投放到用户地址将不可能。 “软”或“硬”类型取决于收到的错误类型： 如果帐户因为6个月的非活动而暂时禁用，并且仍可激活，则将分配状 **[!UICONTROL Erroneous]** 态并重试投放。 如果收到错误信号表明帐户已永久停用，则帐户将直接发送给隔离。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 发送消息时，用户档案的移动电话关闭或未连接到网络。 |
 | **[!UICONTROL Invalid domain]** | 柔和 | 电子邮件地址的域不正确或不再存在。 此用户档案将再次定位，直到错误计数达到5。 此后，记录将设置为隔离状态，并且以后不会重试。 |
