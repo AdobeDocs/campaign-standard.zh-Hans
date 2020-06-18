@@ -1,6 +1,6 @@
 ---
 title: 发行说明 2017
-description: 本页列表所有2017版Adobe Campaign标准。
+description: 本页列表所有2017版Adobe Campaign Standard。
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,21 +12,21 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 0%
+source-wordcount: '4631'
+ht-degree: 3%
 
 ---
 
 
 # 发行说明 2017{#release-notes}
 
-是否正在寻找Adobe Campaign标准的2017版本？
+是否正在寻找2017年版本的Adobe Campaign Standard?
 
 每个版本都提供新功能和修补程序。 单击某个版本可视图其内容。
 
-视图Standard的 [最新文档](../../rn/using/documentation-updates.md) 更新。 如果您正在寻找更新的版本，请查阅本 [页](../../rn/using/release-notes.md)。
+视图最新 [文档更新](../../rn/using/documentation-updates.md) ，以Adobe Campaign Standard。 如果您正在寻找更新的版本，请查阅本 [页](../../rn/using/release-notes.md)。
 
 ## 版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 **修补程序**
 
-_平台_
+_Platform_
 
 * 修复了一个问题，该问题可能会阻止正确解压大文件。
 * 品牌管理的安全性已得到改进。 现在，Adobe技术管理员可以保留修改品牌名称和发件人地址。
@@ -80,7 +80,7 @@ _推送通知_
 _报告_
 
 * 修复了阻止热点单击百分比显示在电子邮件内容中的问题。
-* 修复了黑名单指标的问题，该指标被计为硬弹回而非弹回。
+* 修复了块列表度量的问题，该度量被计为硬弹回而非弹回。
 * 修复了导致在摘要数据中显示负计数的问题。
 * 修复了在错误的年龄段中统计用户档案的问题。
 * 软弹跳和硬弹跳计算公式已更改。
@@ -129,28 +129,28 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 具有来源和日期的成批订阅<br /> </td> 
-   <td> 通过此批量订阅增强功能，您现在可以通过工作流中的订阅服务活动直接将订阅信息(来源和日期)存储在Adobe Campaign标准数据库中。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
+   <td> 通过此批量订阅增强，您现在可以通过工作流中的订阅服务活动直接将订阅信息(来源和日期)存储在Adobe Campaign Standard数据库中。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **修补程序**
 
-_平台_
+_Platform_
 
-* 一些客户需要能够利用来自Adobe Campaign标准的ID，因为他们没有管理唯一的密钥来标识自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作合并关键项。 有关详细信息，请参阅详 [细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+* 一些客户需要能够利用来自Adobe Campaign Standard的ID，因为他们没有管理唯一的密钥来识别自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作合并关键项。 有关详细信息，请参阅[详细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP协议已弃用。 您现在应改用SFTP。 为了不阻止现有实施，FTP上的现有配置仍能正常工作，但新活动将不显示此选项。
 
 _电子邮件、短信和直邮_
 
-* 现在，可以创建新的警报标准，以便在投放警报通知中使用它们。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 现在，可以创建新的警报标准，以便在投放警报通知中使用它们。 有关详细信息，请参阅[详细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 投放警报通知具有新设计，投放警报仪表板用户体验已得到改进。
 * 现在，当路由外部帐户被禁用时，受影响的投放（电子邮件、短信和推送）中会显示一条警告消息， **而预览** 按钮隐藏在这些投放中。
 * 修复了在主题行中启用动态文本时，电子邮件内容的A/B测试预览出错的问题。
 
 _事务性消息_
 
-* 现在可以定义何时发送后续消息，例如，在发送事务性消息后3天。 有关详细信息，请参阅详 [细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
+* 现在可以定义何时发送后续消息，例如，在发送事务性消息后3天。 有关详细信息，请参阅[详细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义链接到事务性消息的事件的发送日期。
 * 修复了在删除链接到已接收和已处理用户档案的事件后，执行包含后续消息的工作流时导致SQL错误的问题。
 * 修复了阻止删除链接到用户档案的事件的错误。
@@ -159,7 +159,7 @@ _事务性消息_
 
 _报告_
 
-* 热点 **点击** (Hot clicks)报告已得到改进。 此外，现在可以根据在投放中定义的每个条件内容显示热点单击，并可以显示重复投放或事务性消息的每次执行的热点单击。 有关详细信息，请参阅详 [细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 热点 **点击** (Hot clicks)报告已得到改进。 此外，现在可以根据在投放中定义的每个条件内容显示热点单击，并可以显示重复投放或事务性消息的每次执行的热点单击。 有关详细信息，请参阅[详细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修复了隔离度量无法检索正确数据的问题。
 * 新的预设时间范围已添加到日历构件。
 * 动 [态报告](../../reporting/using/indicator-calculation.md) 指标和 [活动的KPI](../../sending/using/confirming-the-send.md) (显示在已发送消息的仪表板上)已保持一致，以提高一致性。
@@ -171,12 +171,12 @@ _工作流_
 
 _集成_
 
-* 现在，Analytics和事件集成支持eVar和活动。
+* 现在支持eVar和事件进行Analytics和活动集成。
 * 当发送包含放弃购物车内容的电子邮件时，从购物车中删除的元素的有效负荷参数现在是可选的。
 
 _用户档案和受众_
 
-* Adobe Campaign现在提供一个报告，其中显示活动用户档案的数量。 此报告仅提供信息，对计费没有直接影响。 有关详细信息，请参阅详 [细文档](../../audiences/using/active-profiles.md)。
+* Adobe Campaign现在提供一个报告，其中显示活动用户档案的数量。 此报告仅提供信息，对计费没有直接影响。 有关详细信息，请参阅[详细文档](../../audiences/using/active-profiles.md)。
 * 修复了在使用用户档案和服务API时阻止用户档案订阅服务的问题。
 
 ## 版本17.7 - 2017年7月 {#release-17-7---july-2017}
@@ -193,27 +193,27 @@ _用户档案和受众_
  <tbody> 
   <tr> 
    <td> 多语言电子邮件和短信投放<br /> </td> 
-   <td> 根据自动细分的客户首选语言，通过单一投放定义并执行多语言电子邮件和短信投放。 报告每个投放的性能，包括语言和各个级别。<br /> 随着内容在国内外的发展，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息投放是跨国公司有效客户沟通策略的关键部分； 公司在多语言国家／地区； 以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-email.md">细文档</a>。<br /> </td> 
+   <td> 根据自动细分的客户首选语言，通过单一投放定义并执行多语言电子邮件和短信投放。 报告每个投放的性能，包括语言和各个级别。<br /> 随着内容在国内外的发展，越来越多的公司面临着以多种语言提供内容的挑战。 因此，简化本地化消息投放是跨国公司有效客户沟通策略的关键部分； 公司在多语言国家／地区； 以及希望在语言级别进一步个性化其内容的公司，无论客户位于何处。 有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign标准中接收有关重要系统活动的通知。 例如，您将收到持续投放进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得信息，并让用户能够立即直接从应用程序内对活动通知采取行动。 团队效果是高级敏捷性、效率和更顺畅地执行活动。 有关详细信息，请参阅详 <a href="../../administration/using/sending-internal-notifications.md">细文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard内接收有关重要系统活动的通知。 例如，您将收到持续投放进度或工作流出错时的通知。<br /> 实时通知可让相关利益相关方及时获得信息，并让用户能够立即直接从应用程序内对活动通知采取行动。 团队效果是高级敏捷性、效率和更顺畅地执行活动。 有关详细信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign标准中查看通知外，Adobe Campaign现在还提供电子邮件警报系统，以向重要系统活动的用户或外部利益相关者触发电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板让所有相关Adobe Campaign用户在公司中自动获知投放执行状态，从而提高了效率。 有关详细信息，请参阅详 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">细文档</a>。<br /> </td> 
+   <td> 除了直接以Adobe Campaign Standard查看通知外，Adobe Campaign现在还提供电子邮件警报系统，以向重要系统活动的用户或外部利益相关者触发电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板让所有相关Adobe Campaign用户在公司中自动获知投放执行状态，从而提高了效率。 有关详细信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中的加密Declared ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID，发送电子邮件和短信触发器，无需活动中的现有用户档案。 由于加密的Declared ID可以由Adobe Campaign标准解码，因此活动现在可以从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，可以创建新的可销售用户档案。<br /> 目标客户和未知潜在客户通过电子邮件和短信实时提高现有客户群的忠诚度，并分别赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用第一方Cookie受众（来自Adobe Cookie Manager*）。 <br /> *需要Adobe受众管理器。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">细文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为Declared ID，发送电子邮件和短信触发器，无需活动中的现有用户档案。 由于加密的声明ID可以通过Adobe Campaign Standard进行解码，因此当活动从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，现在可以创建新的可销售用户档案。<br /> Target客户和未知潜在客户通过电子邮件和短信实时提高现有客户群的忠诚度，并分别赢取新客户。 在潜在客户进行身份验证并在Adobe Campaign中利用这些洞察后，充分利用第一方cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 从活动到分析的KPI共享<br /> </td> 
-   <td> 与Adobe Analytics共享活动数据，通过转化、统一点击前和点击后行为，衡量来自活动的电子邮件营销指标以及其他营销和广告工作。<br /> 在Analytics中直接跟踪整体绩效并发现与外部项目的协同效应。 将您从这一整合视图中学到的知识重新应用于活动; 最终改进开放、点进和转化率，提高收入和整体活动表现。 <br /> 需要Adobe Analytics。 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-analytics-integration.md">细文档</a>。<br /> </td> 
+   <td> 从活动到Analytics的KPI共享<br /> </td> 
+   <td> 与AdobeAnalytics共享活动数据，通过转化、统一点击前和点击后行为，衡量来自活动的电子邮件营销指标以及其他营销和广告工作。<br /> 直接跟踪整体绩效并发现与Analytics外部项目的协同效应。 将您从这一整合视图中学到的知识重新应用于活动; 最终改进开放、点进和转化率，提高收入和整体活动表现。 <br /> AdobeAnalytics为必填项。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道-返回给发件人<br /> </td> 
-   <td> 现在支持与包含“返回给发件人”信息的直邮提供商进行平面文件交换。 对“直邮”渠道的这一增强允许将来的通信中排除相应的邮政地址。<br /> 这使营销人员能够收到错误地址的通知，并通过其他渠道与客户互动，或鼓励他更新其邮政地址。 这也减少了营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道。 有关详细信息，请参阅详 <a href="../../channels/using/return-to-sender.md">细文档</a>。<br /> </td> 
+   <td> 现在支持与包含“返回给发件人”信息的直邮提供商进行平面文件交换。 对“直邮”渠道的这一增强允许将来的通信中排除相应的邮政地址。<br /> 这使营销人员能够收到错误地址的通知，并通过其他渠道与客户互动，或鼓励他更新其邮政地址。 这也减少了营销人员避免将邮件发送到错误地址时浪费的营销资金。 <br /> “直邮”可作为附加渠道。 有关详细信息，请参阅<a href="../../channels/using/return-to-sender.md">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,8 +231,8 @@ _电子邮件、短信和直邮_
 * 修复了为测试电子邮件格式定 **[!UICONTROL Text]** 义的首选用户档案的问题。
 * 修复了在计划定义屏幕中选择默认时区时导致Javascript错误的问题。
 * 修复了阻止陷阱显示在发送日志中的问题。
-* 现在，在投放创建向导的模板选择屏幕中，默认情况下隐藏后续和A/B测试模板。 有关详细信息，请参阅详 [细文档](../../channels/using/creating-an-email.md)。
-* 修复了允许任何用户发送投放的问题。 现在，仅允许具有该 **[!UICONTROL Start deliveries]** 角色的用户访问。 有关详细信息，请参阅详 [细文档](../../sending/using/confirming-the-send.md)。
+* 现在，在投放创建向导的模板选择屏幕中，默认情况下隐藏后续和A/B测试模板。 For more information, refer to the [detailed documention](../../channels/using/creating-an-email.md).
+* 修复了允许任何用户发送投放的问题。 现在，仅允许具有该 **[!UICONTROL Start deliveries]** 角色的用户访问。 For more information, refer to the [detailed documention](../../sending/using/confirming-the-send.md).
 
 _推送通知_
 
@@ -250,7 +250,7 @@ _报告_
 
 _工作流_
 
-* 您现在可以过滤工作流日志（时间段和文本搜索）。 有关详细信息，请参阅详 [细文档](../../automating/using/monitoring-workflow-execution.md)。
+* 您现在可以过滤工作流日志（时间段和文本搜索）。 For more information, refer to the [detailed documention](../../automating/using/monitoring-workflow-execution.md).
 * 现在，工作流投放中有一个选项可用于在发送之前取消激活确认。
 * 修复了在循环过渡的创建向导中无法设置出站投放的问题。
 * 修复了在使用基于自定义资源字段的工作流查询活动时发生的具有大量值的明细列表的问题
@@ -269,11 +269,11 @@ _工作流_
  <tbody> 
   <tr> 
    <td> 直邮<br /> </td> 
-   <td> 借助Adobe Campaign标准的第一个线下渠道“直邮”，突破数字障碍并与现实世界建立联系。 此功能允许您个性化并生成直接邮件提供商所需的文件，作为跨渠道活动的一部分。 利用直邮重新吸引客户或通过吸引客户的触碰性接触点增强客户体验，将客户带到您的应用、网站或商店。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-direct-mail.md">细文档</a>。<br /> </td> 
+   <td> 突破数字障碍，借助Adobe Campaign Standard的首个线下渠道“直邮”连接现实世界。 此功能允许您个性化并生成直接邮件提供商所需的文件，作为跨渠道活动的一部分。 利用直邮重新吸引客户或通过吸引客户的触碰性接触点增强客户体验，将客户带到您的应用、网站或商店。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-direct-mail.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 密件抄送<br /> </td> 
-   <td> 密件抄送功能可保存发送给个别收件人的独特电子邮件，使品牌能够存档这些邮件。 通过向所有电子邮件添加密送电子邮件地址，Adobe Campaign标准客户可以利用此功能保留每封电子邮件的准确副本。 这是金融服务业的常见法律要求，有助于客户服务中心实时解决冲突。<br /> 有关详细信息，请参阅详 <a href="../../sending/using/archiving.md">细文档</a>。<br /> </td> 
+   <td> 密件抄送功能可保存发送给个别收件人的独特电子邮件，使品牌能够存档这些邮件。 通过向所有电子邮件添加密送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的准确副本。 这是金融服务业的常见法律要求，有助于客户服务中心实时解决冲突。<br /> 有关详细信息，请参阅详 <a href="../../sending/using/archiving.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,7 +339,7 @@ _推送通知_
 
 **修补程序**
 
-_平台_
+_Platform_
 
 * 修复了内存消耗问题。
 
@@ -413,7 +413,7 @@ _推送通知_
     <ul> 
      <li> 所有收件人都会收到消息，并将时区考虑在内。 </li> 
      <li> 每个收件人在由公式定义的计算日期和时间接收消息。 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../sending/using/optimizing-the-sending-time.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../sending/using/optimizing-the-sending-time.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送通知新功能<br /> </td> 
@@ -424,7 +424,7 @@ _推送通知_
      <li> 交互式推送 </li> 
      <li> 丰富内容支持 </li> 
      <li> 有效负荷大小计算器 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/about-push-notifications.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../channels/using/about-push-notifications.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流: 新信号活动<br /> </td> 
@@ -432,7 +432,7 @@ _推送通知_
     <ul> 
      <li> <span class="uicontrol">结束</span> 活动: 新选项卡允许您指定在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新活动</span> : 使用新的空出站过渡添加一个 <strong>结束活动</strong> ，以触发另一个工作流。 空出站过渡不携带任何数据，并且不占用系统上的不必要空间 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../automating/using/external-signal.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../automating/using/external-signal.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流: 新阅读受众活动<br /> </td> 
@@ -440,7 +440,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 兴趣点数据<br /> </td> 
-   <td> 兴趣点数据将Adobe Campaign与Adobe Analytics for Mobile集成。 当用户打开品牌的应用程序时，品牌可 <strong>以从用户的移动位置</strong> （称为兴趣点）收集数据。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile（一种付费解决方案）。<br /> 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">细文档</a>。<br /> </td> 
+   <td> 兴趣点数据将Adobe Campaign与Adobe Deporience for Mobile集成。 当用户打开品牌的应用程序时，品牌可 <strong>以从用户的移动位置</strong> （称为兴趣点）收集数据。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics移动版，后者是付费解决方案。<br /> 有关详细信息，请参阅详 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -494,18 +494,18 @@ _工作流_
    <td> 事务性消息的营销能力<br /> </td> 
    <td> 营销人员现在可以根据客户营销用户档案发送事务性消息。 这允许他们：<br /> 
     <ul> 
-     <li> 应用营销类型规则，如 <span class="uicontrol">已列入黑名单地址</span> 。 </li> 
+     <li> 应用营销类型规则，如 <span class="uicontrol">块列表上的地址</span> 。 </li> 
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务性消息添加到全局投放报告。 </li> 
      <li> 在客户旅程中利用事务性消息。 </li> 
-    </ul> 有关详细信息，请参阅详 <a href="../../channels/using/profile-transactional-messages.md">细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../channels/using/profile-transactional-messages.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
    <td> Transactional Messaging API现已通过adobe.io <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">提供</a>，从而更易于使用和监控：<br /> 
     <ul> 
      <li> 您可以从adobe.io平台报告和监控功能中受益。 </li> 
-     <li> 身份验证现在使用基于adobe.io令牌的身份验证而不是IP白名单执行，从而简化了安全过程。 </li> 
+     <li> 身份验证现在使用基于adobe.io令牌的身份验证而不是IP允许列表执行，从而简化了安全过程。 </li> 
      <li> 所有API现在都集成在单一平台上，因此，如果您已经支持用户档案和服务API，向集成添加交易消息功能将变得前所未有的简单。 </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _推送通知_
 * 修复了可能阻止从应用程序回传到Adobe Campaign服务器的问题。
 * 修复了可能已阻止并 **[!UICONTROL Play a sound]** 要 **[!UICONTROL Custom fields]** 考虑到Android的问题。
 * 修复了可能导致额外转义字符添加到用于Emoji的Unicode字符的问题。
-* 当用户的注册令牌变得已列入黑名单时，现在在Adobe Campaign的用户列表中立即更新相应的状态。
+* 当用户的注册令牌被添加到块列表时，相应的状态现在立即在Adobe Campaign的用户的应用列表中更新。
 
 _工作流_
 
@@ -542,7 +542,7 @@ _工作流_
 
 _集成_
 
-* 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 此错误是在将“30天后返回的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时发生的。
-* 修复了在从People核心服务导入目标时，技术工作流可能会清除受众维字段的问题。 后续查询无法检索导入的受众。
+* 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 在将“30天后返回的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时发生此错误。
+* 修复了在从People核心服务导入Target时，技术工作流可能会清除受众维字段的问题。 后续查询无法检索导入的受众。
 * 修复了在选中选项时可 **[!UICONTROL Save audience]** 能导致工作流活动失败 **[!UICONTROL Share in Adobe Marketing Cloud]** 的问题。
 
