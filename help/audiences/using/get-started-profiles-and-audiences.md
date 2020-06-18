@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 
 **受众** 是根据特定标准或一组标准构建的列表。 使用工作流和查询编辑器，您可以根据您对营销活动、活动和营销历史的信息，构建将由其定位的受众。 这允许您按不限数量的条件筛选订阅用户档案、采样或创建目标受众。
 
-阅读更多：
+阅读更多:
 
 * [关于用户档案](../../audiences/using/about-profiles.md)
 * [使用中的用户档案](../../audiences/using/active-profiles.md)
@@ -66,13 +66,13 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 
 借助活动，我们建议您通 **过服务使用简单的**[加入和退出机制](../../audiences/using/creating-a-service.md)[，以及](../../channels/using/getting-started-with-landing-pages.md) 登陆页来更新您的联系信息，并扩展您的数据库。
 
-在消 **息中提** 供退订链接可使用户档案在必要时保持已列入黑名单，从而提高平台交付能力。 有关黑名单的详细信 [息，请参阅关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+在消 **息中提** 供退订链接将使用户档案能够根据需要添加到块列表中，从而提高平台的可交付性。 有关块列表管理的详细信息， [请参阅关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!IMPORTANT]
 >
 >您必须遵守Adobe Campaign可接受 [的使用策略](https://www.adobe.com/legal/terms/aup.html)。
 
-阅读更多：
+阅读更多:
 
 * [关于订阅](../../audiences/using/about-subscriptions.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
