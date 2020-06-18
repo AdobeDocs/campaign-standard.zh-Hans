@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 9%
 * SFTP。 如需详细信息，请参阅[此部分](#sftp-external-account)。
 * Amazon存储服务(S3)。 如需详细信息，请参阅[此部分](#amazon-s3-external-account)。
 * Adobe Experience Manager。 如需详细信息，请参阅[此部分](#adobe-experience-manager-external-account)。
-* Adobe Analytics。 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
+* AdobeAnalytics。 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。 如需详细信息，请参阅[此部分](#google-recaptcha-external-account)。
 * Microsoft Azure Blob存储。 如需详细信息，请参阅[此部分](#microsoft-azure-external-account)。
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用于文件传输的FTP服务器）建立连接，您可以创建自己的外部帐户。
 
-外部帐户由技术工作流或活动工作流等技术流程使用。 在工作流中设置文件传输或与任何其他应用程序(Adobe目标、Experience Manager等)进行数据交换时，您需要选择外部帐户。
+外部帐户由技术工作流或活动工作流等技术流程使用。 在工作流中设置文件传输或与任何其他应用程序(Adobe Target、Experience Manager等)进行数据交换时，您需要选择外部帐户。
 
 1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
 1. 输入标签。 在工作流中选择外部帐户时，将使用标签和ID。
@@ -86,7 +86,7 @@ Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须在活动实例中列入白名单。 IP地址的白名单可以通过支 [持票](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求，同时提供用于身份验证的公共密钥。
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 向允许列表添加IP地址可以通过支 [持票](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求，同时提供用于身份验证的公共密钥。
 
 SFTP服务器可从控制面板进行管理。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -125,14 +125,14 @@ Amazon S3服务器字段应填写如下：
 
 ## Adobe Experience Manager外部帐户 {#adobe-experience-manager-external-account}
 
-将外部帐户与Experience Manager集成时，会使用Adobe Experience Manager活动。
+Adobe Experience Manager外部帐户用于将活动与Experience Manager集成。
 
 此文档提供与此集成相关的流程 [和要求](../../integrating/using/get-started-campaign-integrations.md)。
 
 在设置此新外部帐户时，您需要提供以下详细信息：
 
 * 服务器： 输入Adobe Experience Manager服务器的URL。 例如， **http://aem.domain.com:4502**。
-* AEM帐户凭据： 使用将访问Adobe Experience Manager实例的帐户。 它应是Experience Manager中活动远程组的帐户部分。
+* AEM帐户凭据： 使用将访问Adobe Experience Manager实例的帐户。 它应该是Experience Manager远程活动组的帐户部分。
 
 ## Google reCAPTCHA外部帐户 {#google-recaptcha-external-account}
 
@@ -159,7 +159,7 @@ Google reCAPTCHA机制允许您保护登陆页免受由机器人程序造成的�
 
 >[!NOTE]
 >
->在Adobe Campaign标准中配置外部帐户所需的信息，可在Azure门户中通过选择> **[!UICONTROL Settings]** 找到 **[!UICONTROL Access keys]**。
+>在Adobe Campaign Standard中配置外部帐户所需的信息，可在Azure门户中通过选择> **[!UICONTROL Settings]** 找到 **[!UICONTROL Access keys]**。
 
 Azure Blob存储连接器可用于使用工作流活动将数据导入或导出 **[!UICONTROL Transfer file]** 到Adobe Campaign。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
