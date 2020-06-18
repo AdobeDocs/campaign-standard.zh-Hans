@@ -1,34 +1,37 @@
 ---
 title: 关于 Campaign 中的选择启用和选择禁用
-description: 选择退出（或黑名单）导致任何分发或特定渠道的分发不再针对配置文件。
-page-status-flag: 从未激活
+description: 选择退出会导致用户档案不再为任何投放或特定渠道的投放所针对。
+page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参考
-topic-tags: 了解——选择加入——选择退出流程
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 9%
 
 ---
 
 
 # 关于 Campaign 中的选择启用和选择禁用{#about-opt-in-and-opt-out-in-campaign}
 
-选择退出（或黑名单）导致任何分发或特定渠道的分发不再针对配置文件。
+选择退出会导致用户档案不再为任何投放或特定渠道的投放所针对。
 
-要使配置文件能够选择加入或选择退出，您必须创建一个专用的登录页面。 有关详细信息，请参 [阅设置选择加入和选择退出登录页面](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)。
+要让用户档案能够选择加入或选择退出者，您必须创建专用登陆页。 有关此内容的详细信 [息，请参阅设置选择加入和选择退出登陆页](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)。
 
-操作员还可以手动选择加入或退出配置文件。 有关详细信息，请参 [阅从配置文件管理选择加入和选择退出](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
+用户档案也可以由操作员手动选择加入或退出。 有关此内容的详细信 [息，请参阅管理用户档案的加入和退出](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
 
-在交付分析期间，选择退出配置文件会自动被排除以加快交付（错误率对交付速度有显着影响）。
+选择退出用户档案在投放分析期间自动被排除，以加快投放(错误率对投放速度有显着影响)。
 
 >[!NOTE]
 >
->选择退出适用于配 **置文件**，而不是链接到电子邮件地址或电话号 **码的隔** 离选项 ****。 因此，选择退出配置文件将从分发中排除所有与其链接的地址。 如果用户在数据库中有两个配置文件，他仍将被提交作为目标，因为只有一个配置文件是选择退出的。 为确保他的所有地址都被排除，请将其添加到隔离地址。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
+>选择退出适用于 **用户档案**，而不是链接到电子邮件地 **址或电** 话号码的隔离 ****。 因此，选择退出用户档案将从投放中排除与其链接的所有地址。 如果用户在用户档案库中有两个投放，他仍然会被锁定，因为只有一个用户档案选择退出。 要确保其所有地址都被排除，请将其添加到隔离地址。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
 
 For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
