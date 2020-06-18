@@ -1,6 +1,6 @@
 ---
 title: '组件列表 '
-description: 在此处查找动态报表中可用的每个组件的列表及其定义。
+description: 在此处查找动态报表中每个组件的列表及其定义。
 page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
@@ -12,20 +12,23 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 0%
 
 ---
 
 
 # 组件列表 {#list-of-components}
 
-要进一步了解维度与指标之间的兼容性，请参阅 [此表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，则单元格将显示值 **None**。
+要进一步了解维度和指标之间的兼容性，请参 [阅下表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，单元格将显示值 **None**。
 
 ![](assets/dynamic_report_compatibility.png)
 
 ## Dimensions {#dimensions}
 
-下表提供了报表中使用的维列表及其定义。
+下表提供了报表中使用的维的列表及其定义。
 
 <table> 
  <thead> 
@@ -41,19 +44,19 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 营销活动<br /> </td> 
-   <td> 营销活动的标签和ID。<br /> </td> 
+   <td> 活动的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
    <td> 城市<br /> </td> 
-   <td> City registered in the recipient's profile.<br /> </td> 
+   <td> 城市在收件人用户档案注册。<br /> </td> 
   </tr> 
   <tr> 
    <td> 国家／地区<br /> </td> 
-   <td> 收件人个人资料中注册的国家／地区。<br /> </td> 
+   <td> 在收件人用户档案注册的国家。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放<br /> </td> 
-   <td> 交付的标签和ID。<br /> </td> 
+   <td> 投放的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
    <td> 设备<br /> </td> 
@@ -61,55 +64,55 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 失败原因<br /> </td> 
-   <td> 导致每个交付发生弹回的错误类型，例如用户未知、无效域或邮箱已满。<br /> </td> 
+   <td> 导致每个投放弹回的错误类型，例如用户未知、无效域或邮箱已满。<br /> </td> 
   </tr> 
   <tr> 
    <td> 性别<br /> </td> 
-   <td> 接受者的性别，如男性或女性。 如果收件人的个人资料中的性别字段为空，则该值将为“无”。<br /> </td> 
+   <td> 收件人的性别，如男性或女性。 如果收件人用户档案中的性别字段为空，则该值将为无。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内消息操作<br /> </td> 
-   <td> 对已交付的应用程序内消息执行的操作，例如对按钮1或2的操作或取消。<br /> </td> 
+   <td> 已交付对应用程序内消息的操作，例如按钮1或2的操作或解除的操作。<br /> </td> 
   </tr> 
   <tr> 
    <td> 消息类型<br /> </td> 
-   <td> 用于交付的渠道，如电子邮件、短信、推送通知或应用程序内。<br /> </td> 
+   <td> 用于投放的渠道，如电子邮件、短信、推送通知或应用程序内。<br /> </td> 
   </tr> 
   <tr> 
    <td> 移动应用程序名称<br /> </td> 
    <td> 移动应用程序的名称<br /> </td> 
   </tr> 
   <tr> 
-   <td> 平台<br /> </td> 
-   <td> 打开／查看／单击消息的设备的平台。<br /> </td> 
+   <td> Platform<br /> </td> 
+   <td> 消息从中打开／查看／单击的设备的Platform。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 配置文件<br /> </td> 
-   <td> 重新分组在配置文件资源扩展期间创建的现成配置文件和自定义配置文件字段，有关详细信息，请参阅此页 <a href="../../developing/using/key-steps-to-add-a-resource.md">或</a> 本示 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">例</a>。<br /> 请注意，一旦发布了链接到配置文件字段的自定义资源，即会检索此维的数据。<br /> </td> 
+   <td> 用户档案<br /> </td> 
+   <td> 重新分组在用户档案资源扩展期间创建的现成和自定义用户档案字段，有关详细信息，请参阅本 <a href="../../developing/using/key-steps-to-add-a-resource.md">页</a> 或本 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>。<br /> 请注意，一旦发布链接到用户档案字段的自定义资源，便会检索该维的数据。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送平台<br /> </td> 
-   <td> 打开推送通知的设备的平台，如iOS或Android。<br /> </td> 
+   <td> 打开推送通知的设备Platform，如iOS或Android。<br /> </td> 
   </tr> 
   <tr> 
    <td> 收件人域<br /> </td> 
    <td> 用于打开电子邮件的域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 重复交付<br /> </td> 
-   <td> 重复交付的标签和ID。<br /> </td> 
+   <td> 循环投放<br /> </td> 
+   <td> 重复投放的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 发送者域<br /> </td> 
+   <td> 发件人域<br /> </td> 
    <td> 用于发送电子邮件的域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 发送方IP<br /> </td> 
+   <td> 发件人IP<br /> </td> 
    <td> 用于发送电子邮件的IP。<br /> </td> 
   </tr> 
   <tr> 
    <td> 州<br /> </td> 
-   <td> 在收件人配置文件中注册的状态。<br /> </td> 
+   <td> 在收件人用户档案注册的州。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跟踪URL<br /> </td> 
@@ -121,11 +124,11 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 跟踪URL标签<br /> </td> 
-   <td> 为URL提供的标签，如镜像页面，请与我们联系或打开。<br /> </td> 
+   <td> 为URL提供的标签，如镜像页面、联系我们或打开。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交易交付<br /> </td> 
-   <td> 交易交付的标签和ID。<br /> </td> 
+   <td> 交易投放<br /> </td> 
+   <td> 事务投放的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
    <td> 变体<br /> </td> 
@@ -136,85 +139,85 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ## 指标 {#metrics}
 
-下表根据交付类型，提供了报告中使用的度量列表及其定义。
+下表根据投放类型为您提供了报告中使用的度量的列表及其定义。
 
 ### 电子邮件和短信量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> 量度<br /> </th> 
+   <th> 度量<br /> </th> 
    <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 列入黑名单<br /> </td> 
-   <td> 宣布电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
+   <td> 阻止列表<br /> </td> 
+   <td> 已声明电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 列入黑名单的比率<br /> </td> 
-   <td> 标为黑名单的交货百分比。<br /> </td> 
+   <td> 块列表速率<br /> </td> 
+   <td> 块列表上标记的投放百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 弹回次数+错误<br /> </td> 
-   <td> 在发送和自动返回处理过程中累积的与已发送消息总数有关的错误总数。<br /> </td> 
+   <td> 在投放和自动返回处理期间累积的与已发送消息总数相关的错误总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 弹回率+错误率<br /> </td> 
+   <td> 退回+错误率<br /> </td> 
    <td> 弹回的电子邮件与发送的电子邮件的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 内容在分发中的点击次数。<br /> </td> 
+   <td> 在投放中单击内容的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点击率<br /> </td> 
-   <td> 分发中的点击率。<br /> </td> 
+   <td> 投放中的点击百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
-   <td> 成功发送的消息数，与已发送消息的总数有关。<br /> </td> 
+   <td> 已交付<br /> </td> 
+   <td> 与已发送邮件总数相关的已成功发送邮件数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交付率<br /> </td> 
-   <td> 成功发送的消息百分比。<br /> </td> 
+   <td> 成功发送的邮件百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 强弹<br /> </td> 
+   <td> 硬弹起<br /> </td> 
    <td> 永久错误的总数，如错误的电子邮件地址。<br /> </td> 
   </tr> 
   <tr> 
    <td> 硬弹回率<br /> </td> 
-   <td> 由于永久错误而失败的提交百分比。<br /> </td> 
+   <td> 因永久错误而失败的投放百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> “镜像”页<br /> </td> 
-   <td> 单击镜像页面链接的收件人数。<br /> </td> 
+   <td> 镜像页面<br /> </td> 
+   <td> 单击收件人链接的镜像页面数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 镜像页面速率<br /> </td> 
-   <td> 与总交付消息相比，镜像页面链接上的点击量百分比。<br /> </td> 
+   <td> 镜像页面率<br /> </td> 
+   <td> 镜像页面链接上的点击量与总投放消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 选件点击<br /> </td> 
-   <td> 在分发中单击选件的时间。<br /> </td> 
+   <td> 优惠点击<br /> </td> 
+   <td> 优惠在投放中的单击时间。<br /> </td> 
   </tr> 
   <tr> 
    <td> 优惠点击率<br /> </td> 
-   <td> 选件的点击率。<br /> </td> 
+   <td> 优惠的点击百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 邮件在分发中打开的次数。<br /> </td> 
+   <td> 在投放中打开消息的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 开放率<br /> </td> 
-   <td> 已打开消息的百分比。<br /> </td> 
+   <td> 已打开邮件的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已处理／已发送<br /> </td> 
-   <td> 传送的发送总数。<br /> </td> 
+   <td> 投放的发送总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 隔离<br /> </td> 
@@ -222,39 +225,39 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 隔离率<br /> </td> 
-   <td> 与已发送邮件相比，隔离的百分比。<br /> </td> 
+   <td> 隔离与已发送消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已拒绝<br /> </td> 
+   <td> 被拒绝<br /> </td> 
    <td> SMTP服务器分类为垃圾邮件的邮件数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 拒绝率<br /> </td> 
-   <td> 标记为已拒绝的消息百分比。<br /> </td> 
+   <td> 被拒绝率<br /> </td> 
+   <td> 标记为已拒绝的邮件百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 软弹起<br /> </td> 
+   <td> 软弹跳<br /> </td> 
    <td> 临时错误的总数，如完整收件箱。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 软弹出率<br /> </td> 
-   <td> 因临时原因而失败的交货百分比。<br /> </td> 
+   <td> 软弹回率<br /> </td> 
+   <td> 因临时原因失败的投放百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 唯一点击<br /> </td> 
-   <td> 单击分发中内容的收件人数。<br /> </td> 
+   <td> 单击收件人中某个内容的投放数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 唯一打开次数<br /> </td> 
-   <td> 打开分发的收件人数。<br /> </td> 
+   <td> 打开收件人的投放数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 取消订阅率<br /> </td> 
-   <td> 与已交付消息相比，收件人取消订阅的百分比。<br /> </td> 
+   <td> 按收件人划分的退订与已传递消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 取消订阅<br /> </td> 
-   <td> 取消订阅链接的点击次数。<br /> </td> 
+   <td> 单击退订链接的次数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -264,29 +267,29 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 <table> 
  <thead> 
   <tr> 
-   <th> 量度<br /> </th> 
+   <th> 度量<br /> </th> 
    <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> 弹回次数+错误<br /> </td> 
-   <td> 在发送过程中累积的与已发送消息总数相关的错误总数，例如MCPNS或提供商的错误。<br /> </td> 
+   <td> 在投放期间累积的与已发送消息总数相关的错误总数，例如MCPNS或提供商的错误。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 弹回率+错误率<br /> </td> 
-   <td> 与发送的推送通知相比，弹回的推送通知百分比。<br /> </td> 
+   <td> 退回+错误率<br /> </td> 
+   <td> 与发送的推送通知相比，退回的推送通知百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 推送通知被交付到设备并被用户点击的次数。 用户要么要查看通知，然后将其移至“推送打开”跟踪，要么将其关闭。<br /> </td> 
+   <td> 推送通知被交付到设备并被用户点击的次数。 用户要么希望视图通知，然后将其移至“推送打开”跟踪，要么将其关闭。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点击率<br /> </td> 
    <td> 与推送通知交互的用户百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
+   <td> 已交付<br /> </td> 
    <td> 成功发送的推送通知数（与已发送的推送通知总数相关）。<br /> </td> 
   </tr> 
   <tr> 
@@ -295,7 +298,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
-   <td> 推送通知已发送到设备且未在通知中心更改的次数。 在大多数情况下，展示次数应与已交付的数字相似。 这确保设备获得消息并将该信息转发回服务器。<br /> </td> 
+   <td> 推送通知已发送到设备且未在通知中心更改的次数。 在大多数情况下，展示次数应与已交付数目相似。 这确保设备收到消息并将该信息转发回服务器。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已处理／已发送<br /> </td> 
@@ -303,11 +306,11 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 交付到设备并由用户点击以打开应用程序的推送通知总数。 这与推送单击类似，但如果通知被取消，则不会触发推送打开。<br /> </td> 
+   <td> 用户点击的推送通知总数，从而打开应用程序。 这与推送单击类似，但如果通知消失，则不会触发推送打开。<br /> </td> 
   </tr> 
   <tr> 
    <td> 开放率<br /> </td> 
-   <td> 已打开推送通知的百分比。<br /> </td> 
+   <td> 已打开的推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 唯一单击<br /> </td> 
@@ -319,7 +322,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 唯一打开次数<br /> </td> 
-   <td> 打开分发的收件人数。<br /> </td> 
+   <td> 打开收件人的投放数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -329,50 +332,50 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 <table> 
  <thead> 
   <tr> 
-   <th> 量度<br /> </th> 
+   <th> 度量<br /> </th> 
    <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 交付<br /> </td> 
-   <td> 服务提供商交付到设备的应用程序内消息总数。<br /> </td> 
+   <td> 已交付<br /> </td> 
+   <td> 服务提供商向设备传送的应用程序内消息总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
-   <td> 接收方查看的应用程序内消息总数，具体取决于是否满足触发器标准。<br /> </td> 
+   <td> 收件人看到的应用程序内消息总数，具体取决于是否满足触发器标准。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内单击 <br /> </td> 
-   <td> 单击按钮1或按钮2的收件人总数。<br /> </td> 
+   <td> 单击Button 1或Button 2的收件人总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点击率<br /> </td> 
-   <td> 单击“按钮1”或“按钮2”的用户与查看消息的用户的百分比。<br /> </td> 
+   <td> 单击“按钮1”或“按钮2”的用户与看到消息的用户的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内解聘<br /> </td> 
-   <td> 收件人通过单击关闭按钮或自动关闭而忽略的消息总数。<br /> </td> 
+   <td> 收件人通过单击关闭按钮或自动关闭而忽略的邮件总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内解雇率<br /> </td> 
-   <td> 收件人忽略的应用程序内消息的百分比。<br /> </td> 
+   <td> 收件人忽略的应用程序内消息百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已处理／已发送<br /> </td> 
-   <td> 作为发送流程的一部分从Adobe Campaign发送的应用程序内消息总数。<br /> </td> 
+   <td> 作为Adobe Campaign发送流程的一部分从投放发送的应用程序内消息总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 独特印象<br /> </td> 
    <td> 唯一收件人的展示次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一的应用程序内点击<br /> </td> 
-   <td> 收件人单击按钮1或按钮2的次数。<br /> </td> 
+   <td> 独特的应用程序内点击<br /> </td> 
+   <td> 收件人单击Button 1或Button 2的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 独特的应用程序内免职<br /> </td> 
-   <td> 收件人忽略应用程序内消息的时间。<br /> </td> 
+   <td> 收件人忽略应用程序内消息的时间数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,9 +384,9 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 >[!NOTE]
 >
->默认情况下，该区 **[!UICONTROL Exclude proof]** 段已被选中以过滤您的报表，但可以根据需要进行更改。
+>默认情况下，已选 **[!UICONTROL Exclude proof]** 择区段来筛选您的报表，但可以根据需要进行更改。
 
-下表提供了报告中使用的区段列表及其定义。
+下表提供了报告中使用的区段的列表及其定义。
 
 <table> 
  <thead> 
@@ -394,72 +397,72 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年龄：婴儿潮一代1<br /> </td> 
-   <td> 1946年至1954年出生的收件人。<br /> </td> 
+   <td> 年龄： 婴儿潮一代1<br /> </td> 
+   <td> 收件人从1946年到1954年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：婴儿潮一代2<br /> </td> 
-   <td> 1955年至1965年出生的收件人。<br /> </td> 
+   <td> 年龄： 婴儿潮一代2<br /> </td> 
+   <td> 收件人从1955年到1965年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从18到25<br /> </td> 
-   <td> 18岁到25岁的收件人。<br /> </td> 
+   <td> 年龄： 从18到25<br /> </td> 
+   <td> 收件人18岁到25岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从26到30<br /> </td> 
-   <td> 26岁到30岁的收件人。<br /> </td> 
+   <td> 年龄： 从26到30<br /> </td> 
+   <td> 收件人,26岁到30岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从31到40<br /> </td> 
-   <td> 31岁到40岁的收件人。<br /> </td> 
+   <td> 年龄： 从31到40<br /> </td> 
+   <td> 收件人31岁至40岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从41到50<br /> </td> 
-   <td> 41岁到50岁的收件人。<br /> </td> 
+   <td> 年龄： 从41到50<br /> </td> 
+   <td> 收件人41岁至50岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：X代<br /> </td> 
-   <td> 1966年至1976年出生的收件人。<br /> </td> 
+   <td> 年龄： X代<br /> </td> 
+   <td> 收件人人，生于1966年至1976年。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：Y代（千禧一代）<br /> </td> 
-   <td> 1977年至1994年出生的收件人。<br /> </td> 
+   <td> 年龄： Y代（千禧一代）<br /> </td> 
+   <td> 收件人从1977年到1994年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：Z代<br /> </td> 
-   <td> 1995年至今的收件人。<br /> </td> 
+   <td> 年龄： Z代<br /> </td> 
+   <td> 收件人从1995年出生到今天。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：大于50<br /> </td> 
-   <td> 年龄大于50的收件人。<br /> </td> 
+   <td> 年龄： 大于50<br /> </td> 
+   <td> 收件人年龄大于50岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于25<br /> </td> 
-   <td> 年龄低于25岁的收件人。<br /> </td> 
+   <td> 年龄： 少于25<br /> </td> 
+   <td> 年龄不到25岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于30<br /> </td> 
-   <td> 年龄小于30的收件人。<br /> </td> 
+   <td> 年龄： 少于30<br /> </td> 
+   <td> 年龄不到30岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于40<br /> </td> 
-   <td> 年龄低于40岁的收件人。<br /> </td> 
+   <td> 年龄： 少于40<br /> </td> 
+   <td> 年龄不到40岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于50<br /> </td> 
-   <td> 年龄低于50岁的收件人。<br /> </td> 
+   <td> 年龄： 少于50<br /> </td> 
+   <td> 年龄在50岁以下的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：静默生成<br /> </td> 
-   <td> 1945年或之前出生的收件人。<br /> </td> 
+   <td> 年龄： Silent Generation<br /> </td> 
+   <td> 收件人生于1945年或之前。<br /> </td> 
   </tr> 
   <tr> 
    <td> 所有访问<br /> </td> 
    <td> 每个收件人<br /> </td> 
   </tr> 
     <tr> 
-   <td> 排除证明<br /> </td> 
-   <td> 从报告中排除校样<br /> </td> 
+   <td> 排除验证<br /> </td> 
+   <td> 从报表中排除验证<br /> </td> 
   </tr> 
  </tbody> 
 </table>
