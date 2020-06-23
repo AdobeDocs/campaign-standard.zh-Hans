@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr> 
    <td> 
     <p>Adobe Campaign Standard与Microsoft Dynamics 365之间的集成现已可用。 您将能够将联系人和自定义实体记录从Dynamics 365传输到活动，并将电子邮件事件数据从活动传回到Dynamics 365，以便更好地协调销售／营销。</p>
-    <p>请参阅详 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">细文档</a> ，设置此集成并视图 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">操作方法视频</a>。</p>
+    <p>请参阅详 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">细文档</a> ，设置此集成并视图 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">操作方法视频</a>。</p>
   </td>
   </tr> 
  </tbody> 
@@ -179,7 +179,7 @@ ht-degree: 3%
 
 **Email Designer增强功能**
 
-* 修复了每次添加组件时向HTML模板添加其他HTML样式标记的问题，该问题可能会显着增加模板的大小。 (CAMP-34694)
+* 修复了每次添加组件时都向HTML模板添加其他HTML样式标记的问题，该问题可能会显着增加模板的大小。 (CAMP-34694)
 * 修复了可能阻止某些右上工具栏菜单选项可用的问题。 (CAMP-34577)
 * 修复了在将镜像页面URL内容块插入电子邮件内容时发生的问题。 (CAMP-34779)
 * 修复了在电子邮件中使用JSPP代码时出现的问题，使内容难以编辑。 (CAMP-34574)
