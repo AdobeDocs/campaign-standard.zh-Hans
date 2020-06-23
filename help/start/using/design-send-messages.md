@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign标准中自定义显示屏并在列表屏幕上操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何在Adobe Campaign Standard中自定义显示屏并在列表屏幕上操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -79,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 * 在消 [息中插入](../../designing/using/personalization.md#inserting-a-personalization-field) 动态个性化字段
 * 插入预 [定义个性化块](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件](../../designing/using/subject-line.md) 或短信的发送者。
-* [个性化电子邮件](../../designing/using/subject-line.md) ，或使用Predictive主 [题行功能](../../designing/using/subject-line.md#predictive-subject-line) ，对其进行优化
+* [个性化电子邮件](../../designing/using/subject-line.md) ，或使用Predictive主 [题行功能](../../designing/using/subject-line.md#subject-line) ，对其进行优化
 * 在电 [子邮件或登陆页](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [创建条件内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * 在 [SMS消息](../../channels/using/defining-dynamic-text.md) 或推送通知中插入动态文本
 
