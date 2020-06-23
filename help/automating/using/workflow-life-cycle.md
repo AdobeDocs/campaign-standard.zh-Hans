@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **进行中** （蓝色）
 
-   初始设计阶段完成后，工作流便可以启动，由服务器处理。
+   初始设计阶段完成后，工作流便可以启动并由服务器处理。
 
 * **已完成** （绿色）
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **错误** （红色）
 
-   执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用 ![](assets/printpreview_darkgrey-24px.png) 按钮访问工作流日志(请参 [阅监](#monitoring)视)。
+   执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用 ![](assets/printpreview_darkgrey-24px.png) 按钮访问工作流日志(请参 [阅监](../../automating/using/monitoring-workflow-execution.md)视)。
 
 营销活动的列表允许您显示所有工作流及其状态。 有关此方面的详细信息，请参 [阅管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities)。
 
