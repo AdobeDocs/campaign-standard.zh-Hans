@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 92%
+source-wordcount: '1402'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
 + 快速入门 {#getting-started}
-   + [关于Adobe Campaign标准](start/using/about-campaign-standard.md)
+   + [关于Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [隐私和同意](start/using/privacy.md)
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
@@ -64,7 +64,7 @@ ht-degree: 92%
    + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [关于 Audience Destinations 服务](audiences/using/aep-about-audience-destinations-service.md)
       + [管理 Adobe Experience Platform 受众](audiences/using/aep-managing-audiences.md)
-      + [使用统一的区段生成器](audiences/using/aep-using-segment-builder.md)
+      + [使用区段生成器](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
    + [通信渠道入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
