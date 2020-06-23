@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 9%
 
 ---
 
@@ -40,15 +43,15 @@ Campaign Standard **消息准备** ，分析了消息的目标、个性化和有
 
 **使用各种功能** ,预览和测试您的消息： 发送验证以测试用户档案或目标用户档案，测试电子邮件的主题行，检查消息的呈现情况，确保消息以最佳方式显示在各种Web客户端、Web邮件和设备上。
 
-利用活动计划功能$$定义消息的发送时间。 例如，您可以调整在收件人时区发送、优化发送时间或计算发送日期。
+利用活动计划功能定义消息的发送时间。 例如，您可以调整在收件人时区发送、优化发送时间或计算发送日期。
 
 在准 **备过程中** ，使用类型检查您的消息是否有效，是否通过疲劳、控制和定位规则满足您的质量标准。 例如，检查电子邮件是否始终包含主题行，或将未订阅者排除在邮件收件人。
 
-阅读更多：
+阅读更多:
 
 * [准备发送](../../sending/using/preparing-the-send.md)
 * [预览消息](../../sending/using/previewing-messages.md)
-* [发送验证](../../sending/using/sending-proofs.md)
+* [发送校样](../../sending/using/sending-proofs.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
 * [计划消息发送](../../sending/using/about-scheduling-messages.md)
 * [关于类型和类型规则](../../sending/using/about-typology-rules.md)
@@ -63,7 +66,7 @@ Campaign Standard **消息准备** ，分析了消息的目标、个性化和有
 
 最后，您可以配置Adobe Campaign以 **保留通过电子邮件密送** (Email BCC)从平台发送的电子邮件副本。 尤其是，如果您的组织需要存档所有出站电子邮件以符合要求，您可以启用此功能。
 
-阅读更多：
+阅读更多:
 
 * [确认发送](../../sending/using/confirming-the-send.md)
 * [跟踪消息](../../sending/using/tracking-messages.md)
@@ -80,7 +83,7 @@ Campaign Standard **消息准备** ，分析了消息的目标、个性化和有
 
 Campaign Standard提供 **了多种交付工** 具，帮助您提高成功发送邮件的数量： 投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
 
-阅读更多：
+阅读更多:
 
 * [关于投放能力](../../sending/using/about-deliverability.md)
 * [监控投放能力](../../sending/using/monitor-deliverability.md)
