@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 13%
 
 ---
 
 
-# 开始使用Campaign StandardAPI {#get-started-apis}
+# Get started with Campaign Standard APIs {#get-started-apis}
 
-Campaign StandardAPI旨在让您为 **Adobe Campaign标准创** 建集成 **，并通过将Adobe Campaign标准与您使用的技术面板连接来** 构建您自己的生态系统。
+Campaign StandardAPI旨在通过将 **Adobe Campaign Standard与您使用** 的技术面板 **，为Adobe Campaign Standard创** 建集成并构建您自己的生态系统。
 
-通过Adobe Campaign标准API，您可以访问以下功能：
+通过Adobe Campaign StandardAPI，您可以访问以下功能：
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">用户档案</a></p></td>
@@ -54,4 +54,4 @@ Campaign StandardAPI旨在让您为 **Adobe Campaign标准创** 建集成 **，�
 
 本文档中对所有端点进行了详尽的描述，其中包含操作API、完整API参考、代码示例和快速开始指南应了解的一般概念。
 
-如果有任何缺失或错误，请询问社 [区](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。
+如果有任何缺失或错误，请询问社 [区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
