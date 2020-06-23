@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 切勿假定传入数据是一致、正确的，或由IT部门或Adobe Campaign主管负责处理。 在项目过程中，请牢记数据清理。 在导入数据时，消除重复、协调和维护一致性。
 
-为导入数据而设计的通用工作流模板的示例在示例中 [可用： “导入工作流模板](#example--import-workflow-template) ”部分。
+为导入数据而设计的通用工作流模板的示例在示例中 [可用： “导入工作流模板](../../automating/using/creating-import-workflow-templates.md) ”部分。
 
 >[!NOTE]
 >
