@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **[!UICONTROL History in days]**: 指定必须清除历史记录的天数。 历史记录包含与工作流相关的元素： 日志、任务、事件（链接到工作流操作的技术对象）以及活动下载的 **[!UICONTROL Transfer file]** 文件。 现成工作流模板的默认值为30天。
 
-   清除历史记录由数据库清除技术工作流执行，默认情况下每天执行该工作流(请参 [阅技术工作流列表](../../administration/using/technical-workflows.md))。
+   清除历史记录由数据库清除技术工作流执行，默认情况下每天都执行该工作流(请 [参阅技术工作流列表](../../administration/using/technical-workflows.md))。
 
    >[!IMPORTANT]
    >
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Severity]**: 允许您指定在工作流实例中执行Adobe Campaign的优先级。 将首先执行关键工作流。
 
-该 **[!UICONTROL Error management]** 部分提供了其他选项，允许您管理工作流在出错时的行为方式。 这些选项在“错误管理” [部分中有](#error-management) 详细说明。
+该 **[!UICONTROL Error management]** 部分提供了其他选项，允许您管理工作流在出错时的行为方式。 这些选项在“错误管理” [部分中有](../../automating/using/monitoring-workflow-execution.md#error-management) 详细说明。
