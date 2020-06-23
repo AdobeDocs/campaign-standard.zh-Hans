@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard已弃用和已删除的功能
-description: 本页列表已弃用并删除了Adobe Campaign标准的功能。
+description: 本页列表已弃用并删除了Adobe Campaign Standard功能。
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
 此过程为客户提供了至少一个发布周期，以在实际删除之前，使其实施适应已弃用功能的新版本或后继版本。
 
 >[!NOTE]
->Adobe Campaign标准版和新功能列在发行 [说明中](../../rn/using/release-notes.md)。
+>Adobe Campaign Standard版本和新功能列在发 [行说明中](../../rn/using/release-notes.md)。
 
 
 ## 已弃用的功能 {#deprecated-features}
@@ -52,9 +52,9 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
  <tbody> 
   <tr> 
    <td> <p> 从20.1版本开始，SDK v4已弃用。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解更多</a>。</p><br/>
-   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile</a> SDK（以前称为v5）将独家支持即将推出的Adobe Experience Cloud功能。</p></br>
+   <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">移动SDK</a> （以前称为v5）将独家支持即将推出的Adobe Experience Cloud功能。</p></br>
      <p>
-     <em>目标删除日期： 2020年9月30日</em></p>
+     <em>Target删除日期： 2020年9月30日</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
    <td> <p>从活动19.4版本开始，已不再使用活动API和接口访问和删除请求。 删除2步用户档案不可用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隐私核心服务</a>。</p></br>
    <p>另请参阅 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隐私管理</a>。</p>
   <p> 
-  <em>目标删除版本： 活动20.4版本</em></p>
+  <em>Target删除版本： 活动20.4版本</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
    <td> <p>从活动19.0版本开始，已弃用传统电子邮件编辑器。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">新的电子邮件设计器</a> ，创建和个性化您的电子邮件内容。 </p></br>
    <p>阅读本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">节</a> ，了解如何调整电子邮件模板以适应新编辑者。</p></br>
   <p> 
-  <em>目标删除版本： 活动20.4版本</em></p>
+  <em>Target删除版本： 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -135,7 +135,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign和Adobe Experience Cloud已从2019年春季开始放弃对Microsoft Internet Explorer 11和活动19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">了解更多</a>。</p>
+   <td> <p>Adobe Campaign和Adobe Experience Cloud已从2019年春季开始放弃对Microsoft Internet Explorer 11和活动19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">了解更多</a>。</p>
    </td> 
   </tr> 
  </tbody> 
