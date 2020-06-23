@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 使用文件结构将其应用到其他文件的数据(使用活动恢 **[!UICONTROL Transfer file]** 复),
 * 使用文件中的结构和数据将其导入Adobe Campaign。
 
-## 配置 {#configuration}
+## Configuration {#configuration}
 
 活动配置涉及两个步骤。 首先，您需要通过上传示例文件来定义预期的文件结构。 完成此操作后，您可以指定要导入其数据的文件的来源。
 
@@ -98,6 +98,9 @@ ht-degree: 0%
       ![](assets/wkf_file_loading1.png)
 
 1. 如果要从中加载数据的文件已压缩为GZIP文件(.gz)，请在字 **[!UICONTROL Decompression]** 段中选择 **[!UICONTROL Add a pre-processing step]** 选项。 这允许您在加载数据之前解压缩文件。 仅当文件来自活动的入站过渡时，此选项才可用。
+
+   该字 **[!UICONTROL Add a pre-processing step]** 段还允许您在将文件导入数据库之前对其进行解密。 有关如何处理加密文件的详细信息，请参 [阅本节](../../automating/using/managing-encrypted-data.md)
+
 1. 该 **[!UICONTROL Keep the rejects in a file]** 选项允许您下载包含导入过程中发生的错误的文件，并将其应用到后处理阶段。 激活该选项后，出站过渡将重命名为“拒绝”。
 
    >[!NOTE]
