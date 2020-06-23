@@ -12,20 +12,23 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
 
 # 控制工作流 {#controlling-a-workflow}
 
-您可以通过包含工作流ID和所需执行命令的POST请求，直接从REST API控制工作流：
+您可以通过包含工作流ID和所需执行命令的POST请求直接从REST API控制工作流：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->如果Adobe Campaign中的工作流ID发生更改，则API请求将不再有效。
+>如果工作流ID在Adobe Campaign中发生更改，则API请求将不再工作。
 
 有四个执行命令可用于控制工作流：
 
@@ -34,13 +37,13 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 * 继续
 * 停止
 
-有关执行命令的详细信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html)。
+有关执行命令的详细信息，请参阅 [活动文档](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 
 ***示例请求***
 
-* 启动工作流。
+* 开始工作流。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
