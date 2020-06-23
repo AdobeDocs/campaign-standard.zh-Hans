@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 在活动中创建映射触发器 {#creating-a-mapped-trigger-in-campaign}
 
-您应确保在Adobe Experience Cloud（核心服务）中定义要预先监 **[!UICONTROL Triggers]** 控的行为。 For more on this, refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). 请注意，定义触发器时，需要启用别名。 对于每种行为（浏览／表单放弃、添加／删除产品、会话过期等），必须在Adobe Experience Cloud中添加新触发器。
+您应确保在Adobe Experience Cloud（核心服务）中定义要预先监 **[!UICONTROL Triggers]** 控的行为。 For more on this, refer to the [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). 请注意，定义触发器时，需要启用别名。 对于每种行为（浏览／表单放弃、添加／删除产品、会话过期等），必须在Adobe Experience Cloud中添加新触发器。
 
 您现在必须基于现有Adobe Experience Cloud触发器在Adobe Campaign中创建触发器事件。
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    ![](assets/remarketing_1.png)
 
-1. Click the **[!UICONTROL Create]** button. 此时将打开的创建向导显示Adobe Experience Cloud中定义的所有触发器的列表。 该 **[!UICONTROL Fired by Analytics]** 列显示由Adobe Experience Cloud触发器发送给活动的数量。 这是在Experience Cloud界面中创建的触发器的映射。
+1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。此时将打开的创建向导显示Adobe Experience Cloud中定义的所有触发器的列表。 该 **[!UICONTROL Fired by Analytics]** 列显示由Adobe Experience Cloud触发器发送给活动的数量。 这是在Experience Cloud界面中创建的触发器的映射。
 
    ![](assets/remarketing_2.png)
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/remarketing_3.png)
 
-1. 在字 **[!UICONTROL Transactional message validity duration]** 段中，定义在Analytics发送事件后消息保持有效的持续时间。 如果定义了2天的持续时间，则消息在该持续时间过后将不再发送。 如果将多条消息置于保留状态，这可确保在特定时间段后恢复这些消息时不会发送这些消息。
+1. 在字 **[!UICONTROL Transactional message validity duration]** 段中，定义在Analytics发送事件后邮件有效的持续时间。 如果定义了2天的持续时间，则消息在该持续时间过后将不再发送。 如果将多条消息置于保留状态，这可确保在特定时间段后恢复这些消息时不会发送这些消息。
 
    ![](assets/remarketing_4.png)
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 >
 >如果取消发布模板，该模板将自动取消发布触发器事件。
 
-在编辑内容时，您可以根据Analytics触发器发送的信息添加个性化字段。 如果您使用事件用户档案数据丰富Adobe Campaign数据，则可以根据此信息个性化信息。 要个性化您的消息，请选 **[!UICONTROL Transactional event]** 择> **[!UICONTROL Event context]** 并选择一个字段。
+编辑内容时，您可以根据Analytics触发器发送的信息添加个性化字段。 如果您使用事件用户档案数据丰富Adobe Campaign数据，则可以根据此信息个性化信息。 要个性化您的消息，请选 **[!UICONTROL Transactional event]** 择> **[!UICONTROL Event context]** 并选择一个字段。
 
 ![](assets/remarketing_8.png)
 
