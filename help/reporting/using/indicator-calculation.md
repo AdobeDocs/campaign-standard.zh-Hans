@@ -12,9 +12,9 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ ht-degree: 1%
   <tr> 
    <td> 唯一点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 使用ThetaSketch概念计算唯一单击。<br /> </td> 
+   <td> 使用ThetaSketch概念计算唯一单击。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ ht-degree: 1%
   <tr> 
    <td> 唯一打开次数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一打开是使用唯一RecipientId的ThetaSketch概念计算的。<br /> </td> 
+   <td> 唯一打开是使用唯一RecipientId的ThetaSketch概念计算的。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
@@ -293,7 +293,7 @@ ht-degree: 1%
   <tr> 
    <td> 唯一点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 使用ThetaSketch概念计算唯一单击。<br /> </td> 
+   <td> 使用ThetaSketch概念计算唯一单击。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 点击率<br /> </td> 
