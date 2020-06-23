@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，此页还列表Adobe Campaign Standard文档中的所有新更新。
 
 ## 文档更新- 2020年6月 {#doc-updates-june-2020}
+
+在如何使用控制面板和活动工作流 [加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)[和解](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 密数据方面添加了用例。
 
 “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些产品UI、选项名称和内部代码中可能仍然存在这些术语的某些出现，但在即将发布的活动版本中，这些术语将替换为“blocklist”和“allowlist”。
 
@@ -484,7 +486,7 @@ Microsoft Edge（最新版本）已添加到计算机兼容浏览器的列表中
 
 应用程序内消息传递（测试版）-阅 [读更多](../../channels/using/about-in-app-messaging.md)
 
-适用于移动应用程序的Adobe Launch集成（测试版）-阅 [读更多](../../sending/using/about-typology-rules.md#typology-rules)
+适用于移动应用程序的Adobe Launch集成（测试版）-阅 [读更多](../../sending/using/managing-typologies.md)
 
 **随版本提供的其他文档更新**
 
@@ -498,7 +500,7 @@ Microsoft Edge（最新版本）已添加到计算机兼容浏览器的列表中
 
 **此版本中包含的新功能**
 
-[针对移动应用](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android)[用户的高优先级](../../sending/using/about-typology-rules.md#typology-rules) 标记和排版过滤器。
+[针对移动应用](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android)[用户的高优先级](../../sending/using/managing-typologies.md) 标记和排版过滤器。
 
 准备时从URL自动导入内容。 [阅读更多](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Adobe Campaign通知- [阅读更多](../../administration/using/sending-internal
 
 直邮——阅 [读更多](../../channels/using/about-direct-mail.md)
 
-密件抄送- [阅读更多](../../administration/using/configuring-email-channel.md#archiving-emails)
+密件抄送- [阅读更多](../../sending/using/archiving.md)
 
 **随版本提供的其他文档更新**
 
