@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 **改进**
 
-* Adobe Campaign和Adobe Target集成现在允许您利用Target的权限 [功能](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 。 当在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定Target属性（at_property代码）。
+* Adobe Campaign和Adobe Target集成现在允许您利用Target的权限 [功能](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) 。 当在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定Target属性（at_property代码）。
 * 具有指向用户档案资源的自定义资源的自定义资源现在由GDPR隐私访问／删除请求考虑。 对于1个基数简单链接和N个基数集合链接，您需要在自定义资源中选择“删除／复制目标记录意味着删除／复制链接引用的记录”。 对于0或1个基数简单链接，选择“删除／复制记录意味着删除／复制链接引用的目标记录”。
 
 **其他更改**
