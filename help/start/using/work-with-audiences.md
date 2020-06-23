@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign标准中自定义显示屏并在列表屏幕上操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何在Adobe Campaign Standard中自定义显示屏并在列表屏幕上执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 7%
+source-wordcount: '788'
+ht-degree: 9%
 
 ---
 
@@ -90,7 +90,7 @@ Campaign Standard优惠多种工具，帮助您扩展营销数据库。 本节�
 ### 同步来自Microsoft Dynamics 365的用户档案
 
 Campaign Standard与Microsoft Dynamics 365集成后，您可以将联系人数据从Microsoft Dynamics 365传递给活动数据库。
-这些联系人随后会显示在用户档案列表中，并可以定位在营销活动中。 有关此集成的详细信息，请参阅专 [用文档](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
+这些联系人随后会显示在用户档案列表中，并可以定位在营销活动中。 有关此集成的详细信息，请参阅专 [用文档](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 >[!NOTE]
 >
