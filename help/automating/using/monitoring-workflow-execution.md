@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 该图 ![](assets/printpreview_darkgrey-24px.png) 标将打开工作流日志和任务菜单。
 
-工作流历史记录将保存在工作流执行选项中指定的持续时间内(请参 [阅工作流属](#workflow-properties)性)。 因此，在此期间，即使在重新启动后，也会保存所有消息。 如果不希望保存上次执行中的消息，则必须单击按钮以清除历史 ![](assets/delete_darkgrey-24px.png) 记录。
+工作流历史记录将保存在工作流执行选项中指定的持续时间内(请参 [阅工作流属](../../automating/using/managing-execution-options.md)性)。 因此，在此期间，即使在重新启动后，也会保存所有消息。 如果不希望保存上次执行中的消息，则必须单击按钮以清除历史 ![](assets/delete_darkgrey-24px.png) 记录。
 
 该选 **[!UICONTROL Log]** 项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以对每个活动单独应用此配置。 为此，请选择一个活动，然后使用快速操作将其打开 ![](assets/edit_darkgrey-24px.png)。 然后，在“执行选项”选项卡中选 **择错误管** 理模式。 请参阅 [活动执行选项](#activity-execution-options)。
+>您可以对每个活动单独应用此配置。 为此，请选择一个活动，然后使用快速操作将其打开 ![](assets/edit_darkgrey-24px.png)。 然后，在“执行选项”选项卡中选 **择错误管** 理模式。 请参阅 [活动执行选项](../../automating/using/activity-properties.md)。
 
-在工 [作流的属性中](#workflow-properties)，提供了与错误管理相关的其他选项。
+在工 [作流的属性中](../../automating/using/managing-execution-options.md)，提供了与错误管理相关的其他选项。
 
 ![](assets/wkf_execution_error.png)
 
