@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '199'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 ## 新增功能
 
-* “白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 [阅读更多](rn/using/documentation-updates.md)
-
 * **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 了解 Adobe Campaign 所提供的用于帮助实现隐私合规性的工具
+
+* **[外部API](automating/using/external-api.md)**<br/>使用外部API活动将数据从外部系统引入工作流
 
 * **[Campaign Standard Mobile 指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 详细了解移动投放的一般准则
