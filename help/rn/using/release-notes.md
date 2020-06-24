@@ -1,6 +1,6 @@
 ---
 title: 最新版本
-description: 本页列表了所有最新版本的Adobe Campaign标准。
+description: 此页列表所有最新版本的Adobe Campaign Standard。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # 最新版本{#latest-release}
 
 [发布计划](../../rn/using/release-planning.md) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |先 [前发行说明](../../rn/using/release-notes-2020.md) |已弃 [用功能](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **新的控制面板6月发布** ，包含活动用户档案监视、子域交付性审核和GPG密钥管理。 请参阅 [控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -69,15 +71,13 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->CNAME子域的证书续订将于5月在活动控制面板中发布。 有关此问题的详细信息，请参 [阅控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可以随CNAME** 子域的证书续订一起发布。 请参阅 [控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改进**
 
 * 使用目标用户档案测试消 **息** ，前 [缀字段中可使](../../sending/using/testing-messages-using-target.md) 用的字符数从32个增加到500个字符。
 * 可在实例上发布的最大实时事件数已从350增加到2000。 (CAMP-41608)
-* Adobe Launch与Campaign Standard之间的同步已通过使用syncWithLaunch技术工作流程得到改进。 此工作流程支持将所有Adobe Launch移动属性自动导入到Adobe Standard中。 For more information, refer to [this page](../../administration/using/technical-workflows.md).
+* Adobe Launch与Campaign Standard之间的同步已通过使用syncWithLaunch技术工作流程得到改进。 此工作流程支持将所有Adobe Launch移动属性自动导入Adobe Campaign Standard。 For more information, refer to [this page](../../administration/using/technical-workflows.md).
 
    您需要向Adobe客户服务中心（直接或通过您的Adobe联系人）提交票证，以便在活动实例中启用syncWithLaunch技术工作流程。 (CAMP-40082)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 **Experience Platform集成**
 
-* Adobe Experience Platform激活 [的受众](../../automating/using/aep-targeting-audiences.md) ，从读 **取受众活动改** 进后的，可提供更好的性能和稳定性。 此外，工作流日志在激活工作方面也变得更清晰、更详细，在阅读Adobe Experience Platform受众时可以更轻松地进行监控和故障排除。
+* Adobe激活 [受众的](../../automating/using/aep-targeting-audiences.md) “读取 **受众** ”Experience Platform已得到改进，可提供更好的性能和稳定性。 此外，工作流日志在激活作业方面已变得更清晰、更详细，在读取Adobe Experience Platform受众时可以更轻松地进行监控和故障排除。
 
 **修补程序**
 
