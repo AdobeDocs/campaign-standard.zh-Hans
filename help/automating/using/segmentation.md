@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ ht-degree: 0%
 >
 >默认情况下，入站人口的成员只能属于一个区段。 过滤器根据活动中段的顺序应用。
 
+**相关主题：**
+* [用例： 位置细分](../../automating/using/workflow-segmentation-location.md)
+* [用例： 构建对照组](../../automating/using/workflow-control-group.md)
+* [用例： 根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
+
 ## 使用环境 {#context-of-use}
 
 活动 **[!UICONTROL Segmentation]** 通常位于定位活动之后(查询、交叉点、合并、排除等) 以定义基于其形成分段的标准种群。
+
+**相关主题**
+
+* [用例： 根据用户档案的年龄组对其进行细分](../../automating/using/segmentation-age-groups.md)。
 
 ## Configuration {#configuration}
 
@@ -91,31 +100,6 @@ ht-degree: 0%
 
    * 如果 **[!UICONTROL Enable overlapping of outbound populations]** 希望入站人口的成员同时属于多个区段，请选中此选项。 活动的出站人口可能超过入站人口。
    * 如果 **[!UICONTROL Concatenate the code of each segment]** 已为入站人口分配要保留的段代码，请选中此选项。 在活动中指定的段代码将添加到初始段代码。
-   * 如果要 **[!UICONTROL Generate complement]** 利用剩余人口，请选中此选项。
+   * 如果要 **[!UICONTROL Generate complement]** 利用剩余人口，请选中此选项。 请参 [阅用例： 用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)。
 
 1. 确认活动的配置并保存工作流。
-
-## Example {#example}
-
-以下示例显示了根据用户档案组对数据库数据进行细分。 该工作流旨在为每个年龄组发送特定电子邮件。 考虑到此工作流是测试活动的一部分，每个用户档案段最多只能包含100个随机选择的受众，以便同时使用受限且具有代表性的。
-
-![](assets/wkf_segment_example_4.png)
-
-工作流由以下元素组成：
-
-* 用 **[!UICONTROL Scheduler]** 于指定工作流执行日期的活动。 请参阅 [调度程序](../../automating/using/scheduler.md) 部分。
-* 向已 **[!UICONTROL Query]** 输入生日和电子邮件地址的目标用户档案的活动。 请参阅 [查询](../../automating/using/query.md) 部分。
-* 用于 **[!UICONTROL Segmentation]** 创建3个区段的活动，这些区段分为不同的出站过渡: 18-25岁，26-32岁，用户档案32岁以上。 段根据以下参数进行定义：
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * 用于定义区段年龄组的年龄过滤器
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * 链 **[!UICONTROL Random sampling]** 接到限制为100的类 **[!UICONTROL Maximum size]** 型限制
-
-      ![](assets/wkf_segment_example_1.png)
-
-* 每个 **[!UICONTROL Email delivery]** 区段的活动。 请参阅“电子邮 [件投放](../../automating/using/email-delivery.md) ”部分。
-
