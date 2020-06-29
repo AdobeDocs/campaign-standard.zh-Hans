@@ -13,10 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,12 @@ ht-degree: 0%
 
 在导 **入文件** 后，可以使用更新活动，以便将恢复的数据插入Adobe Campaign数据库。 通过几个选项，您可以个性化更新数据。
 
-## 配置 {#configuration}
+**相关主题：**
+
+* [用例： 更新基于文件的数据](../../automating/using/update-database-file.md)
+* [根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+
+## Configuration {#configuration}
 
 1. 将活动拖放 **[!UICONTROL Update data]** 到工作流中。
 1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮打开它。
@@ -71,29 +76,3 @@ ht-degree: 0%
    如果已选择并 **[!UICONTROL Insert only]** 且导入的数据可能包含数据库中已存在的记录，请选中该框以 **[!UICONTROL Generate an outbound transition for the rejects]** 避免出现任何可能的错误。
 
 1. 确认活动的配置并保存工作流。
-
-## Example {#example}
-
-以下活动显示了活动后 **[!UICONTROL Update data]** 活动的配 **[!UICONTROL Load file]** 置。 此工作流的目的是使用从文件恢复的用户档案向Adobe Campaign库添加或更新数据。 使用的合并关键项是电子邮件地址。
-
-加载的文件是包 **含以下示** 例数据的。txt格式文件：
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-活动 **[!UICONTROL Update data]** 配置如下：
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
