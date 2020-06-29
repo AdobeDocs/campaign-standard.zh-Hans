@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 5%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -70,9 +70,6 @@ Adobe Campaign允许您处理入站数据集。 因此，您可以合并多个�
 * 聚合
 * 集合
 
-**相关主题**
+**相关主题：**
 
-* [用例： 创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
-* [用例： 在位置创建投放分段](../../automating/using/workflow-segmentation-location.md)
-* [用例： 使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)
-* [用例： 重定向工作流向非打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [用例： 个性化包含其他数据的电子邮件](../../automating/using/personalizing-email-with-additional-data.md)
