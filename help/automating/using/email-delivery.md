@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,14 @@ ht-degree: 0%
 
 根据工作流执行参数触发消息准备。 在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认情况下为必需）。 您可以手动开始工作流，或在工作流中放置调度程序活动以自动执行。
 
+**相关主题：**
+
+* [用例： 创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [用例： 在位置创建投放分段](../../automating/using/workflow-segmentation-location.md)
+* [用例： 使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)
+* [用例： 重定向工作流向非打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [用例： 生日投放](../../automating/using/birthday-delivery.md)
+
 ## Configuration {#configuration}
 
 1. 将活动拖放 **[!UICONTROL Email delivery]** 到工作流中。
@@ -59,7 +67,7 @@ ht-degree: 0%
    * **[!UICONTROL Email]**: 电子邮件只发送一次。 您可以在此处指定是否要向活动添加出站过渡。 不同的过渡类型在此过程的步骤7中详细介绍。
    * **[!UICONTROL Recurring email]**: 根据活动中定义的频率，电子邮件会发送多次 **[!UICONTROL Scheduler]** 。 选择发送的聚合期间。 这样，您就可以重新分组在一个电子邮件（也称为“重复执行”）中定义的时间段内发 **送的所有** ，并可以从应用程序的营销活动列表访问这些发送。
 
-      例如，对于每天发送的循环生日电子邮件，您可以选择聚合每月发送的生日电子邮件。 这样，尽管每天都会发送电子邮件，您仍可以按月接收投放报告。
+      例如，对于每天发送的循环生日电子邮件，您可以选择聚合每月发送的生日电子邮件。 这样，尽管每天都会发送电子邮件，您仍可以按月收到有关投放的报告。
    >[!NOTE]
    >
    >循环投放根据聚合期 **间编制**。 例如，如果聚合期为“按天”，则每天只重新准备一次投放。 如果您计划每天多次调用此工作流，请使用 [!UICONTROL No aggregation]。
@@ -91,28 +99,3 @@ ht-degree: 0%
 在父投放中(可从营销活动列表访问，或直接通过关联的重复执行访问)，您可以视图已处理的发送总数(根据配置活动时指定的汇总期 **[!UICONTROL Email delivery]** 间)。 为此，请通过选择打开父投放块的详细 **[!UICONTROL Deployment]** 视图 ![](assets/wkf_dlv_detail_button.png)。
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Example {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-此示例是生日工作流。 每天都会向用户档案发送一封电子邮件，其生日就在当天。 操作步骤：
-
-* 您 **[!UICONTROL Scheduler]** 可以在每天早8点开始工作流。
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* 该 **[!UICONTROL Query]** 活动允许您计算每次执行工作流时，提供电子邮件的用户档案及其生日都在当天。 生日计算是使用查询编辑工具调色板中提供的预定义过滤器进行的。
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* 重复 **[!UICONTROL Email]** 出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总为单个视图。 因此，在一年内，有365个投放被执行，但在Adobe Campaign界面中，它们被重新分 **组为12个视图**（也称重复执行）。 历史记录和报告详细信息每月均显示，而不是每次发送。
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**相关主题**
-
-* [用例： 创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
-* [用例： 在位置创建投放分段](../../automating/using/workflow-segmentation-location.md)
-* [用例： 使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)
-* [用例： 重定向工作流向非打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
