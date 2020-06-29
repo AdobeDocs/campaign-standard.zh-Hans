@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,11 @@ ht-degree: 0%
 
 当执 **[!UICONTROL Union]** 行分段、定义活动或准备消息目标时，受众用于组合来自入站过渡的人口。
 
-## 配置 {#configuration}
+**相关主题：**
+
+* [用例： 合并两家精炼受众](../../automating/using/union-on-two-refined-audiences.md)
+
+## Configuration {#configuration}
 
 1. 将活动拖放 **[!UICONTROL Union]** 到工作流中。
 1. 将其连接到前面的其他活动，如查询。
