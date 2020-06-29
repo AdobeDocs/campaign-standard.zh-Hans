@@ -1,6 +1,6 @@
 ---
-title: “工作流用例： 跨渠道投放”
-description: “工作流用例： 跨渠道投放”
+title: 跨渠道投放
+description: 此用例说明如何创建跨渠道投放
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 1%
 
 ---
 
 
-# 工作流用例： 创建跨渠道投放{#cross-channel-delivery}
+# 创建跨渠道交付{#cross-channel-delivery}
 
 此文档允许您通过标准用例发现以下Adobe Campaign功能： 创建跨渠道投放工作流。
 
@@ -51,7 +54,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 将查询活动插入您的工作流，以目标将接收您的投放的用户档案。
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放 **[!UICONTROL Query activity]**。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放一个 [查询](../../automating/using/query.md) 活动。
 1. 多次单击活动。
 1. 在选项卡 **[!UICONTROL Target]** 中，浏览快捷键并选择您的受众 [之一](../../audiences/using/about-audiences.md)。
 1. 将快捷方式拖放到编辑区域。 根据所选快捷键的类型，将显示一个窗口。
@@ -63,13 +66,11 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 使用 **[!UICONTROL Count]** 该按钮可以查看查询目标的用户档案数估计。
 
-构建查询活动的详细步骤在“查询” [部分](../../automating/using/query.md) 。
-
 ## 创建分段活动 {#creating-segmentation-activity}
 
 一旦目标由查询活动识别，您必须选择一个标准将目标分为两个不同的群体： 一个会收到一封电子邮件，另一个会收到一条短信。
 
-您必须使用分段活动，从查询上游计算的人群创建一个或多个区段。
+您必须使用分 [段活动](../../automating/using/segmentation.md) ，从查询上游计算的人群创建一个或多个区段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,11 +115,9 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ![](assets/wkf_segment_transitions.png)
 
-构建分段活动的详细步骤在分段部分 [中介绍](../../automating/using/segmentation.md) 。
-
 ## 创建投放 {#creating-deliveries}
 
-由于已创建两个过渡，您现在必须向分段活动的出站过渡添加两种类型的投放: 一 **[!UICONTROL Email delivery]** 个 **[!UICONTROL SMS delivery]**。
+由于已创建两个过渡，您现在必须向分段活动的出站过渡添加两种类型的投放: 电 [子邮件投放](../../automating/using/email-delivery.md) 活动 [,SMS](../../automating/using/sms-delivery.md) 投放活动。
 
 Adobe Campaign允许您向工作流中添加投放。 为此，请从工作流的投放 **[!UICONTROL Channels]** 面板的类别中选择一个活动。
 
@@ -126,7 +125,7 @@ Adobe Campaign允许您向工作流中添加投放。 为此，请从工作流�
 
 要创建电子邮件投放，请执行以下操作：
 
-1. 在第一个区段 **[!UICONTROL Email delivery]** 后拖放一个。
+1. 将电子邮件投放 [活动拖](../../automating/using/email-delivery.md) 放到第一个区段之后。
 1. 多次-单击活动进行编辑。
 1. Select **[!UICONTROL Simple email]**.
 1. 选择 **[!UICONTROL Add an outbound transition with the population]** 并单击 **[!UICONTROL Next]**。
@@ -141,18 +140,14 @@ Adobe Campaign允许您向工作流中添加投放。 为此，请从工作流�
 1. 编辑和保存您的内容。
 1. 在消 **[!UICONTROL Schedule]** 息仪表板的一节中，在发送消 **息之前取消选择[!UICONTROL请求确认** 。
 
-构建电子邮件活动的详细步骤会在“电子邮件 [投放](../../automating/using/email-delivery.md) ”部分。
-
 创建SMS投放:
 
-1. 拖放另一个 **[!UICONTROL SMS delivery]** 区段之后。
+1. 将SMS投放 [活动拖放](../../automating/using/sms-delivery.md) 到另一段之后。
 1. 多次-单击活动进行编辑。
 1. 选择 **[!UICONTROL SMS]** 并单击 **[!UICONTROL Next]**。
 1. 选择SMS模板并单击 **[!UICONTROL Next]**。
 1. 输入SMS属性并单击 **[!UICONTROL Next]**。
 1. 编辑和保存您的内容。
-
-构建SMS活动的详细步骤在SMS投放 [部分中介绍](../../automating/using/sms-delivery.md) 。
 
 创建和编辑投放后，工作流即可开始。
 
@@ -160,7 +155,7 @@ Adobe Campaign允许您向工作流中添加投放。 为此，请从工作流�
 
 ## 运行工作流 {#running-the-workflow}
 
-启动工作流后，查询活动所针对的人群将被分段，以接收电子邮件或短信投放。
+启动工作流后，活动所针对的人群 **[!UICONTROL Query]** 将被分段，以接收电子邮件或短信投放。
 
 要执行工作流，请单 **[!UICONTROL Start]** 击操作栏中的按钮。
 
