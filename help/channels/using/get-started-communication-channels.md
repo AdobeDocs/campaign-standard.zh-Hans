@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 13%
 
 ---
 
@@ -38,7 +41,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 **管理模板** ，以配置消息属性，并使您能够获得消息策略的时间和一致性。 例如，对于电子邮件，负责配置模板的功能管理员可以定义电子邮件的标准参数，如受众、计划或内容、与发送、有效性、跟踪等相关的高级参数，或与定位和个性化（定位上下文）相关的预配置参数。
 
-阅读更多：
+阅读更多:
 
 * [发送消息的关键步骤](../../channels/using/key-steps-to-send-a-message.md)
 * [访问消息](../../channels/using/accessing-messages.md)
@@ -56,7 +59,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 此外，利用Campaign Standard **个性化和动态内容功能** ，吸引受众的兴趣。
 
-阅读更多：
+阅读更多:
 
 * [创建电子邮件](../../channels/using/about-emails.md)
 * [创建SMS消息](../../channels/using/about-sms-messages.md)
@@ -72,7 +75,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 事务性消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种消息类型： **事件事务性消息** 定位没有用户档案信息的事件, **用户档案事务性消息定** 位来自您的数据库的用户档案。
 
-阅读更多：
+阅读更多:
 
 * [关于交易消息传递](../../channels/using/about-transactional-messaging.md)
 * [事件交易消息](../../channels/using/event-transactional-messages.md)
@@ -88,7 +91,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 登陆页还可用于获 **取或更新现有用户档案**，以及设置多次选择加入机制，从而使您能够保护平台免受错误或无效电子邮件地址或垃圾邮件程序的侵害。
 
-阅读更多：
+阅读更多:
 
 * [登陆页面快速入门](../../channels/using/getting-started-with-landing-pages.md)
 * [登陆页模板](../../channels/using/landing-page-templates.md)
@@ -103,3 +106,4 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 * [导入AEM内容](../../integrating/using/creating-email-experience-manager.md)
 * [用工作流发送消息](../../automating/using/about-channel-activities.md)
 * [通信渠道教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [用例： 创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
