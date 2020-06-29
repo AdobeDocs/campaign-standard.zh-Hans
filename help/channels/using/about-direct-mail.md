@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +41,10 @@ Adobe Campaign中的用户进程如下：
 1. 设置联系日期
 1. 生成文件
 
+**相关主题：**
+
+* [用例： 将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
+
 ## 建议 {#recommendations}
 
 ### 直邮提供商 {#direct-mail-providers}
@@ -57,4 +64,3 @@ Adobe Campaign优惠一组遵循最常见的邮政地址标准化的预定义计
 默认情况下，地址最多可包含六行： 第一个计算字段&#x200B;**[!UICONTROL Line 1]** (包含名字和姓氏，下一行包含邮政地址（公路等），最后一行包含邮政编码和城镇或城市。
 
 ![](assets/direct_mail_23.png)
-
