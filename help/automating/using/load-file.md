@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,13 @@ ht-degree: 0%
 
 * 使用文件结构将其应用到其他文件的数据(使用活动恢 **[!UICONTROL Transfer file]** 复),
 * 使用文件中的结构和数据将其导入Adobe Campaign。
+
+**相关主题：**
+
+* [用例： 使用外部数据更新数据库](../../automating/using/update-database-file.md)
+* [用例： 根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例： 发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [用例： 协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -157,75 +164,3 @@ ht-degree: 0%
    * **[!UICONTROL Generate an error for numerical fields]**: 仅为数字字段生成错误，否则插入NULL值。
    * **[!UICONTROL Insert NULL in the corresponding field]**: 授权空值。 因此插入值NULL。
    * **[!UICONTROL Generate an error]**: 如果值为空，则生成错误。
-
-## 示例1: 更新数据库 {#example-1-update-the-database}
-
-负载文件活动主要从传输文件活动构造数据以便将其集成到现有数据中。
-
-以下示例显示通过传输文件活动自动下载的加载文件活动的结果，后跟更新数据活动。 此工作流旨在用新的Adobe Campaign来丰富用户档案库，或使用从导入的文件中恢复的数据来更新现有用户档案库。
-
-![](assets/load_file_workflow_ex1.png)
-
-1. 将活动拖放 **[!UICONTROL Transfer file]** 到您的工作流中并以某种方式对其进行配置，以恢复您想要的文件。
-1. 将活动拖放 **[!UICONTROL Load file]** 到您的工作流中，并将其放在 **[!UICONTROL Transfer file]** 活动之后。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮打开它。
-1. 在选 **[!UICONTROL File to load]** 项卡的部 **[!UICONTROL Execution]** 分中，选中 **[!UICONTROL Use the file specified in the inbound transition]** 选项。
-
-   ![](assets/wkf_file_loading8.png)
-
-1. 按照之前指定的方式配置活动。
-1. 将活动拖放 **[!UICONTROL Update data]** 到您的工作流中，并将其放在 **[!UICONTROL Load file]** 活动之后，进行配置。 请参阅 [更新数据](../../automating/using/update-data.md)。
-
-启动工作流后，将提取来自已上载文件的数据，然后用于丰富Adobe Campaign数据库。
-
-## 示例2: 发送包含丰富字段的电子邮件 {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-加载文件活动还允许在同一工作流中从外部文件发送包含附加数据的电子邮件。
-
-以下示例演示如何使用通过加载文件活动从外部文件检索到的其他数据来发送电子邮件。 在此示例中，外部文件包含一列表用户档案及其关联的帐号。 您要导入此数据，以向每个用户档案发送一封包含其帐号的电子邮件。
-
-![](assets/load_file_workflow_ex2.png)
-
-1. 将活动拖放 **[!UICONTROL Query]** 到工作流中并打开它以定义主目标。
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. 拖放活动 **[!UICONTROL Load file]** 以将一些数据分配给用户档案。 在此示例中，加载一个包含与某些用户档案库对应的帐号的文件。
-
-   ![](assets/load_file_activity.png)
-
-1. 将活动拖放 **[!UICONTROL Enrichment]** 到工作流中，并将加载文件和查询活动链接到该工作流。
-
-1. 在扩充 **[!UICONTROL Advanced relations]** 活动的选项卡中，选择 **[!UICONTROL 0 or 1 cardinality simple link]** 要用于对帐的字段并定义这些字段。 这里，我们使用姓氏将数据与数据库用户档案协调起来。
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. 在选 **[!UICONTROL Additional data]** 项卡中，选择要在电子邮件中使用的元素。 在此选择帐户号(从您通过加载文件活动检索的文件中的列)。
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   有关此内容的详细信息，请参 [阅扩充](../../automating/using/enrichment.md) 部分。
-
-1. 将活动拖放 **[!UICONTROL Segmentation]** 到您的工作流中并打开它以细化主目标。
-
-   ![](assets/load_file_segmentation.png)
-
-   有关此方面的详细信息，请参 [阅分段](../../automating/using/segmentation.md) 部分。
-
-1. 将活动拖放 **[!UICONTROL Email delivery]** 到您的工作流中并打开它。
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. 添加个性化字段，并从节点选择扩充活动（此处为帐户号）中定义的其他 **[!UICONTROL Additional data (targetData)]** 数据。 这允许动态检索电子邮件内容中每个用户档案的帐号。
-
-   ![](assets/load_file_perso_field.png)
-
-1. 保存电子邮件并开始工作流。
-
-电子邮件将发送给目标。 每个用户档案都会收到包含其相应帐号的电子邮件。
-
-![](assets/load_file_email.png)
