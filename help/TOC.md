@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 91%
+source-wordcount: '1524'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 91%
       + [创建直邮](channels/using/creating-the-direct-mail.md)
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
-      + [工作流中的直邮示例](channels/using/example-of-direct-mail-in-a-workflow.md)
    + 交易消息传递 {#transactional-messaging}
       + [关于交易消息传递](channels/using/about-transactional-messaging.md)
       + [事件交易消息](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 91%
       + [管理包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
       + [用例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
-   + 用例：工作流 {#workflow-use-case}
-      + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
-      + [创建在创建日期投放](automating/using/workflow-creation-date-query.md)
-      + [创建每周投放](automating/using/workflow-weekly-offer.md)
-      + [创建位置分段](automating/using/workflow-segmentation-location.md)
-      + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
-      + [构建对照组](automating/using/workflow-control-group.md)
-      + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
+   + 用例 {#workflow-use-case}
+      + 投放 {#deliveries}
+         + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
+         + [在投放创建日期创建用户档案](automating/using/workflow-creation-date-query.md)
+         + [创建每周投放](automating/using/workflow-weekly-offer.md)
+         + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
+         + [在重复之前识别投放](automating/using/identifying-duplicated-before-delivery.md)
+         + [生日投放](automating/using/birthday-delivery.md)
+         + [将电子邮件和直邮投放](automating/using/coupling-email-direct-mail.md)
+         + [发送包含丰富字段的电子邮件](automating/using/sending-email-enriched-fields.md)
+         + [个性化包含其他数据的电子邮件](automating/using/personalizing-email-with-additional-data.md)
+      + 分段和定位 {#segmentation-targeting}
+         + [查询范例](automating/using/query-samples.md)
+         + [合并两家精炼受众](automating/using/union-on-two-refined-audiences.md)
+         + [创建位置分段](automating/using/workflow-segmentation-location.md)
+         + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
+         + [增量查询服务的订户](automating/using/incremental-query-on-subscribers.md)
+         + [根据年龄组进行细分](automating/using/segmentation-age-groups.md)
+         + [使用不同于定位维度的资源](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [构建对照组](automating/using/workflow-control-group.md)
+      + 数据管理 {#data-management}
+         + [协调文件受众与数据库](automating/using/reconcile-file-audience-with-database.md)
+         + [从导入的文件中消除重复数据](automating/using/deduplicating-data-imported-file.md)
+         + [用文件中包含的用户档案丰富数据](automating/using/enriching-profile-data-file.md)
+         + [外部信号活动和数据导入](automating/using/external-signal-data-import.md)
+         + [使用外部数据更新数据库](automating/using/update-database-file.md)
+         + [根据自动文件下载更新数据](automating/using/update-data-automatic-download.md)
+         + [使用关系进行数据协调](automating/using/reconciliation-using-relations.md)
+         + [使用协调进行数据更新](automating/using/data-update-reconciliation.md)
+         + [在外部文件中导出用户档案](automating/using/exporting-profiles-in-file.md)
+         + [从文件更新多个订阅状态](automating/using/updating-subscriptions-from-file.md)
+         + [将用户档案从文件订阅到特定服务](automating/using/subscribing-profiles-from-file.md)
    + 与 Adobe Experience Platform 受众合作 {#working-with-aep-audiences}
       + [面向 Adobe Experience Platform 受众](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform 属性个性化营销活动](automating/using/aep-personalizing-campaigns.md)
