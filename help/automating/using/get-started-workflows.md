@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">导入／导出数据</a></p></td></tr>
 </table>
 
-Adobe Campaign优惠是一个全面的图形环境，它允许您设计复杂的流程，包括细分、活动执行、文件处理、批准等。 例如，您可以使用工作流从服务器下载文件，解压它，然后将其记录导入Adobe Campaign库。
+Adobe Campaign优惠是一个全面的图形环境，它允许您设计包括细分、活动执行、文件处理等在内的复杂流程。 例如，您可以使用工作流从服务器下载文件，解压它，然后将其记录导入Adobe Campaign库。
 
 工作流还可能涉及用户，方法是为他们分配任务或让他们批准已执行的任务。 这意味着您可以向一个或多个用户分配任务，以处理内容或指定目标，并在发送消息之前批准验证。
 
@@ -51,7 +51,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计复杂的
 
 最后， [数据管理活动](../../automating/using/about-data-management-activities.md) 允许您处理数据库中的数据。
 
-阅读更多：
+阅读更多:
 
 * [构建工作流](../../automating/using/building-a-workflow.md)
 * [执行工作流](../../automating/using/about-workflow-execution.md)
@@ -65,7 +65,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计复杂的
 
 查询编辑器附带 **预定义过滤器和规则** ，可快速、轻松地进行筛选。 但是，您也可以使用 **高级表达式编辑** 功能。 这允许您手动输入条件和使用函数，以形成您自己的规则。
 
-阅读更多：
+阅读更多:
 
 * [编辑查询](../../automating/using/editing-queries.md)
 * [高级表达式编辑](../../automating/using/advanced-expression-editing.md)
@@ -87,7 +87,7 @@ Campaign Standard具有多 **种数据管理功能** ，可导入和导出数据
 
 最后， [导出列表](../../automating/using/exporting-lists.md) 允许您从Campaign Standard导出任何列表，例如，测试用户档案的列表、隔离电子邮件地址的列表等。
 
-阅读更多：
+阅读更多:
 
 * [导入和导出数据](../../automating/using/about-data-import-and-export.md)
 * [用例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)
