@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -50,12 +50,15 @@ ht-degree: 1%
 
 在此用例中，我们将构建一个工作流，以便使用控制面板中生成的密钥导入外部系统中已加密的数据。
 
+本节还提供了一个教程视频，其中显示了如何使用GPG密钥解密 [数据](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)。
+
 执行此用例的步骤如下：
 
 1. 使用控制面板生成密钥对（公共／私有）。 控制面板文档中提供 [了详细步骤](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
 
    * 公钥将与外部系统共享，外部系统将使用公钥加密要发送给活动的数据。
    * 活动将使用私钥解密传入的加密数据。
+
    ![](assets/gpg_generate.png)
 
 1. 在外部系统中，使用从控制面板下载的公钥加密要导入到Campaign Standard中的数据。
@@ -92,6 +95,8 @@ ht-degree: 1%
 ## 用例： 使用控制面板上安装的密钥加密和导出数据 {#use-case-gpg-encrypt}
 
 在此用例中，我们将构建一个工作流，以便使用控制面板上安装的密钥加密和导出数据。
+
+本节还提供了一个教程视频，其中显示了如何使用GPG密钥加密 [数据](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)。
 
 执行此用例的步骤如下：
 
