@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 83%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 83%
       + [发送校样](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
+      + [基于人工智能的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [使用陷阱](sending/using/using-traps.md)
    + 计划消息发送 {#scheduling-messages}
