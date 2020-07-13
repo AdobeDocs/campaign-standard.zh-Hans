@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5969'
 ht-degree: 9%
 
 ---
@@ -24,13 +24,17 @@ ht-degree: 9%
 
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，此页还列表Adobe Campaign Standard文档中的所有新更新。
 
+## 文档更新- 2020年7月 {#doc-updates-july-2020}
+
+以人工智能为后盾的新电子邮件功能： 发送时间优化和用户档案评分 [了解更多](../../sending/using/predictive.md)
+
 ## 文档更新- 2020年6月 {#doc-updates-june-2020}
 
 工作流使用案例已更新并重新组织为主题部分。 [阅读更多](../../automating/using/about-workflow-use-cases.md)
 
 在如何使用控制面板和活动工作流 [加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)[和解](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 密数据方面添加了用例。
 
-“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些产品UI、选项名称和内部代码中可能仍然存在这些术语的某些出现，但在即将发布的活动版本中，这些术语将替换为“blocklist”和“allowlist”。
+“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些术语的某些出现可能仍存在于产品UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
 
 对旧版支持网站的引用已被新URL取代。 [了解更多](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -402,7 +406,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -568,7 +572,7 @@ GDPR: 核心服务集成- [阅读更多](https://docs.campaign.adobe.com/doc/sta
 
 查询活动部分已用查询范例进行更新。 [阅读更多](../../automating/using/query.md#query-samples)
 
-专门用于块列表的部分已更名为“了解加入和退出进程”。 它已更新，其中包含有关如何管理特定渠道的选择加入以及如何设置登陆页以管理选择加入和选择退出的信息。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门针对阻止列表的章节已更名为“了解加入和退出流程”。 它已更新，其中包含有关如何管理特定渠道的选择加入以及如何设置登陆页以管理选择加入和选择退出的信息。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 了解使用Adobe托管SFTP服务器的最佳实践。 [阅读更多](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -592,7 +596,7 @@ GDPR: 核心服务集成- [阅读更多](https://docs.campaign.adobe.com/doc/sta
 
 GDPR API重新分组允许自动处理GDPR请求的功能。 [阅读更多](../../api/using/creating-a-privacy-request.md)
 
-添加了有关如何设置登陆页以让您的收件人能够添加到块列表的信息。 [阅读更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+添加了有关如何设置登陆页以让您的收件人能够添加到阻止列表的信息。 [阅读更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 “配 [置事务消息](../../administration/using/configuring-transactional-messaging.md) ”部分已重新组织， [并添加了一个分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
@@ -646,7 +650,7 @@ SQL结构中现在提供内置资源的datamodel v1 —— 阅 [读更多](https
 
 使用分 **[!UICONTROL Customizing a push notification]** 步使用案例重新组织了该部分。 [阅读更多](../../channels/using/customizing-a-push-notification.md)
 
-专门用于块列表管理的新部分。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门用于阻止列表管理的新部分。 [阅读更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 更新了有关投放故障和隔离的信息。 [阅读更多](../../sending/using/monitoring-a-delivery.md)
 
