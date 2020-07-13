@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可以随CNAME** 子域的证书续订一起发布。 [了解更多](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+**其他功能** （从7月13日开始）
+
+* **AI驱动的发送时间优化和用户档案评分** -您现在可以优化客户旅程的设计和投放，以预测每个人的参与偏好。 Adobe Campaign可以借助Journey AI分析和预测开放率、最佳发送时间以及基于历史互动指标的可能客户流失。 [了解更多](../../sending/using/predictive.md)
+* **巴西新的隐私法规** -除了活动已经提供的隐私权功能外，Adobe还帮助您为巴西的Lei Geral de Proteçao de Datos(LGPD)做好准备。 创建隐私请求时，LGPD规定已添加到Adobe隐私核心服务。 [了解更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * 修复了在交易电子邮件中使用个性化时导致数据不一致的问题。 (CAMP-41842)
 * 修复了在推送通知投放中删除自定义字段时发生的问题。 (CAMP-37586)
 * 修复了阻止用户更改报告的错误。 (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可以随CNAME** 子域的证书续订一起发布。 [了解更多](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
