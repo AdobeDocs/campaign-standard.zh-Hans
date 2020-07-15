@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign标准中的数据模型最佳实践
-description: 了解设计Adobe Campaign标准数据模型时的最佳实践。
+title: Adobe Campaign Standard的数据模型最佳实践
+description: 了解设计Adobe Campaign Standard数据模型时的最佳实践。
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Campaign系统极其灵活，可以扩展到初始实现之外。 但是�
 
 ## 数据模型架构 {#data-model-architecture}
 
-Adobe Campaign标准是一个功能强大的跨渠道活动管理系统，可帮助您调整线上和线下战略，创造个性化的客户体验。
+Adobe Campaign Standard是一个功能强大的跨渠道活动管理系统，可帮助您调整线上和线下策略，创造个性化的客户体验。
 
 ### 以客户为中心的方法 {#customer-centric-approach}
 
@@ -56,11 +56,11 @@ Adobe Campaign默认数据模型显示在本 [节](../../developing/using/datamo
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Adobe Campaign {#data-for-campaign}
 
@@ -68,7 +68,7 @@ Be able to provide a master customer record which will be sent to Adobe Campaign
 
 >[!NOTE]
 >
->Adobe Campaign不是数据仓库。 因此，请勿尝试将所有可能的客户及其关联信息导入Adobe Campaign。
+>Adobe Campaign不是data warehouse。 因此，请勿尝试将所有可能的客户及其关联信息导入Adobe Campaign。
 
 要决定Adobe Campaign中是否需要属性，请确定属性是否属于以下类别:
 * 用于分段的属 **性**
@@ -100,7 +100,7 @@ Adobe Campaign资源具有三个标识符，并且可以添加一个附加标识
 
 | 显示名称 | 技术名称 | 说明 | 最佳做法 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常对特定Adobe Campaign实例唯一。</li><li>在“Adobe Campaign标准”中，此值对最终用户不可见（URL中除外）。</li></ul> | <ul><li>通过 [API系统](../../api/using/get-started-apis.md)，可以检索PKey值（它是生成的／散列的值，而不是物理密钥）。</li><li>除了通过API检索、更新或删除记录外，不建议将其用于其他任何用途。</li></ul> |
+|  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常对特定Adobe Campaign实例唯一。</li><li>在Adobe Campaign Standard中，此值对最终用户不可见（URL中除外）。</li></ul> | <ul><li>通过 [API系统](../../api/using/get-started-apis.md)，可以检索PKey值（它是生成的／散列的值，而不是物理密钥）。</li><li>除了通过API检索、更新或删除记录外，不建议将其用于其他任何用途。</li></ul> |
 | ID | name或internalName | <ul><li>此信息是表中记录的唯一标识符。 此值可手动更新。</li><li>此标识符在其他Adobe Campaign实例中部署时保留其值。 它必须具有与生成的值不同的名称才能通过包导出。</li><li>这不是表的实际主键。</li></ul> | <ul><li>请勿使用空格“”、半列“:”或连字符“-”等特殊字符。</li><li>所有这些字符将替换为下划线“_”（允许的字符）。 例如，“abc-def”和“abc:def”将存储为“abc_def”并互相覆盖。</li></ul> |
 | 标签 | 标签 | <ul><li>标签是Adobe Campaign中对象或记录的业务标识符。</li><li>此对象允许空格和特殊字符。</li><li>它不能保证记录的唯一性。</li></ul> | <ul><li>建议确定对象标签的结构。</li><li>这是最易用的解决方案，用于为Adobe Campaign用户标识记录或对象。</li></ul> |
 | ACS ID | acsId | <ul><li>可以生成其他标识符： ACS [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>由于PKey不能在Adobe Campaign用户界面中使用，因此这是一种获得在插入用户档案记录期间生成的唯一值的解决方案。</li><li>仅当在将记录插入Adobe Campaign之前在资源中启用了该选项时，才能自动生成该值。</li></ul> | <ul><li>此UUID可用作合并关键项。</li><li>自动生成的ACS ID不能用作工作流或包定义中的引用。</li><li>此值特定于Adobe Campaign实例。</li></ul> |
