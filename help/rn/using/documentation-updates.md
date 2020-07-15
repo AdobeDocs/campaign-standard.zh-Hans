@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，此页还列表Adobe Campaign Standard文档中的所有新更新。
 
-## 文档更新- 2020年7月 {#doc-updates--july-2020}
+## 文档更新- 2020年7月 {#doc-updates-july-2020}
 
 新增了一节，其中载有与Campaign Standard监测相关的准则。 [阅读更多](../../administration/using/monitoring-guidelines.md)
 
-外部API护栏已更新。[阅读更多](../../automating/using/external-api.md)
+外部API护栏已更新。 [阅读更多](../../automating/using/external-api.md)
 
 隐私管理概述页面已更新，以包含有关泰国个人数据保护法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ ht-degree: 10%
 
 Campaign Standard中的隐私管理页面已更新，包括如何通过隐私核心服务集成管理隐私请求的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## 文档更新- 2020年7月 {#doc-updates-july-2020}
-
-以人工智能为后盾的新电子邮件功能： 发送时间优化和用户档案评分 [了解更多](../../sending/using/predictive.md)
+以人工智能为后盾的新电子邮件功能： 发送时间优化和用户档案评分。 [阅读更多](../../sending/using/predictive.md)
 
 ## 文档更新- 2020年6月 {#doc-updates-june-2020}
 
@@ -418,7 +416,7 @@ Launch集成到移动应用程序- [阅读更多](../../administration/using/con
 
 “编辑电子邮件内容”一章中新增了用于创建电子邮件内容的入门体验以及对电子邮件设计器的其他增强功能。 [阅读更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-新增了关于事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+新增了有关事务消息限制的一节。 [阅读更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 新增了一个比较Adobe Campaign中不同电子邮件创作选项的部分。 [阅读更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
