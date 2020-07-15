@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 83%
+source-wordcount: '1557'
+ht-degree: 82%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 83%
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [为多语言推送通知生成 CSV 文件](channels/using/generating-csv-multilingual-push.md)
       + [基于移动应用程序数据创建和更新用户档案信息](channels/using/updating-profile-with-mobile-app-data.md)
-      + [实施推送跟踪](channels/using/push-tracking.md)
-      + [显示 Adobe Campaign Standard 推送通知中的图像](channels/using/image-push-notification.md)
-      + [了解 Campaign Standard 推送通知有效负荷结构](channels/using/push-payload.md)
    + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 83%
          + [将电子邮件和直邮投放](automating/using/coupling-email-direct-mail.md)
          + [发送包含丰富字段的电子邮件](automating/using/sending-email-enriched-fields.md)
          + [个性化包含其他数据的电子邮件](automating/using/personalizing-email-with-additional-data.md)
+         + [发送循环推送通知](automating/using/recurring-push-notifications.md)
       + 分段和定位 {#segmentation-targeting}
          + [查询范例](automating/using/query-samples.md)
          + [合并两家精炼受众](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 83%
       + [通过 API 触发数据摄取](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
    + [开始Campaign Standard管理](administration/using/get-started-campaign-administration.md)
+   + [监控指南](administration/using/monitoring-guidelines.md)
    + [配置准则](administration/using/about-configuration-guidelines.md)
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 83%
       + [配置短信渠道](administration/using/configuring-sms-channel.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
       + [配置交易消息传递](administration/using/configuring-transactional-messaging.md)
+   + 配置移动渠道 {#configuring-mobile}
+      + [实施推送跟踪](administration/using/push-tracking.md)
+      + [显示 Adobe Campaign Standard 推送通知中的图像](administration/using/image-push-notification.md)
+      + [了解 Campaign Standard 推送通知有效负荷结构](administration/using/push-payload.md)
+      + [实施本地通知跟踪](administration/using/local-tracking.md)
+      + [SyncWithLaunch技术工作流程常见问题解答](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience PlatformSDK和Adobe Campaign集成常见问题解答](administration/using/aep-faq.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
