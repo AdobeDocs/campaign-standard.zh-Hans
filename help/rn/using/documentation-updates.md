@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 9%
+source-wordcount: '6084'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 9%
 # 文档更新{#documentation-updates}
 
 除了Adobe Campaign发 [行说明](../../rn/using/release-notes.md)，此页还列表Adobe Campaign Standard文档中的所有新更新。
+
+## 文档更新- 2020年7月 {#doc-updates--july-2020}
+
+新增了一节，其中载有与Campaign Standard监测相关的准则。 [阅读更多](../../administration/using/monitoring-guidelines.md)
+
+隐私管理概述页面已更新，以包含有关泰国个人数据保护法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+已重新组织和改进移动渠道指南。 新增了配置移动渠道指南，其中包含有关移动配置的技术文档。 [阅读更多](../../administration/using/push-tracking.md)
+
+Campaign Standard中的隐私管理页面已更新，包括如何通过隐私核心服务集成管理隐私请求的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## 文档更新- 2020年7月 {#doc-updates-july-2020}
 
@@ -32,9 +42,9 @@ ht-degree: 9%
 
 工作流使用案例已更新并重新组织为主题部分。 [阅读更多](../../automating/using/about-workflow-use-cases.md)
 
-在如何使用控制面板和活动工作流 [加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)[和解](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 密数据方面添加了用例。
+在如何使用控制面板和活动工作流加 [密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)[和解](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 密数据方面，增加了用例。
 
-“白名单”和“黑名单”术语已从Adobe Campaign文档中删除。 这些术语的某些出现可能仍存在于产品UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
+“白名单”和“黑名单”术语已从 Adobe Campaign 文档中删除。这些术语可能仍会出现于产品 UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
 
 对旧版支持网站的引用已被新URL取代。 [了解更多](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -264,7 +274,7 @@ GDPR入门指南已得到改进和丰富。 它现在是包括GDPR和CCPA在内�
 
 在工作流疑难解答部分中添加了一个过程，该部分讲述如何在日志选项卡中显示SQL查询。 [阅读更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇帮助文章，其中包含控制面板中与子域和证书管理相关的信息。 [阅读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+新增了一篇帮助文章，其中包含与控制面板中的子域和证书管理相关的信息。 [阅读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 描述内容模板和片段的部分已更新。 [阅读更多](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -326,7 +336,7 @@ Campaign Standard和经典错误消息的列表已更新。 [阅读更多](https
 
 **此版本中包含的新功能**
 
-控制面板——阅 [读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
+控制面板- [阅读更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
 
 本地通知- [阅读更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -812,7 +822,7 @@ Adobe Campaign通知- [阅读更多](../../administration/using/sending-internal
 
 现在提供新技术： “将Adobe Mobile SDK与您的移动应用程序集成”。 [阅读更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-关于配置人员核心服务或Audience Manager与Adobe Campaignhavget-started-communication-渠道集成的说明。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+已添加配置人员核心服务或Audience Manager与Adobe Campaign集成的说明。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改授权表，使某些角色的功能更清晰。 [阅读更多](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
