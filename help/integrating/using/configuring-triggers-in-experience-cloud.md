@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 ### 配置Experience Cloud人核心服务 {#configuring-experience-cloud-people-core-service}
 
-以前在DTM中引用的别名需要通过Experience Cloud属性在客户核心服务中创建。 确保新建一个并引用集成代码中的同一DTM别名（例如“visitorid”）。
+以前在DTM中引用的别名需要在Experience Cloud人核心服务中通过客户属性创建。 确保新建一个并引用集成代码中的同一DTM别名（例如“visitorid”）。
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -106,7 +106,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 以下是使用活动的最佳实践和限制列表-触发器集成：
 
-* 如果您有多个Campaign Standard实例，则只要触发器位于同一IMS组织ID中，所有实例都可以接收它们。 Analytics还需要在同一个IMS组织ID上。
+* 如果您有多个Campaign Standard实例，则只要触发器位于同一IMS组织ID中，所有实例都可以接收它们。 Analytics还需要使用同一个IMS组织ID。
 * 不能使用来自两个不同报表包的事件在触发器核心服务中创建触发器。
 * 触发器基于事务性消息。 只要您必须非常快速地发送消息，就会使用事务性消息。 您不能排队事务性消息，然后批量循环。
 * 触发器在本质上并非确定性。 当触发器生成时，它会发送与Cookie关联的所有别名，因此，如果在家中的共享浏览器(如零售亭、图书馆、网吧或共享设备（夫妻从同一设备登录），则无法映射到正确的ID。 用于使用浏览器登录的所有ID都发送到活动，该ID根据第一次对帐发送消息。 如果有多个“电子邮件ID”符合对帐条件，则活动不会发送电子邮件。 除非Analytics捕获并发送正确的电子邮件ID，否则活动无法知道该ID是什么。
