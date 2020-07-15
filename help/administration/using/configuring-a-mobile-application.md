@@ -1,6 +1,6 @@
 ---
 title: 配置移动应用程序
-description: 了解如何配置Adobe Campaign以使用SDK V4或Experience Platform SDK发送推送通知或应用程序内消息。
+description: 了解如何配置Adobe Campaign以使用SDK V4或Experience PlatformSDK发送推送通知或应用程序内消息。
 page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f09556fed8c3cca44a72ac6dfeb280379d58c3
+source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ ht-degree: 0%
 
 # 配置移动应用程序{#configuring-a-mobile-application}
 
-## 使用Adobe Experience Platform SDK配置移动应用程序 {#using-adobe-experience-platform-sdk}
+## 使用Adobe Experience PlatformSDK配置移动应用程序 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
 >推送通知和应用程序内实施必须由专家用户执行。 如果您需要协助，请与您的Adobe客户经理或专业服务合作伙伴联系。
 
-要使用Experience Platform SDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience Platform Experience Platform Launch中设置移动应用程序并在Adobe Campaign中进行配置。
+要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience PlatformExperience PlatformExperience Platform Launch中设置移动应用程序并在Adobe Campaign中配置。
 
 有关已弃用功能移动版本4 SDK的更多信息，请参阅 [本页](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html)。
 
 设置移动应用程序后，您可以检索其收集的PII数据，以从数据库创建或更新用户档案。 有关此内容的详细信息，请参阅此部分： [创建和更新基于移动应用程序用户档案的信息](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
-要通过使用Adobe Experience Platform SDK进一步了解Adobe Campaign标准中支持的不同移动使用案例，请参阅本 [页](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+要使用Adobe Campaign StandardSDK进一步了解Adobe Experience Platform支持的不同移动用例，请参阅本 [页](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
 
 要完成配置，请完成以下步骤：
 
@@ -42,30 +42,32 @@ ht-degree: 0%
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App message]**
    * **[!UICONTROL Adobe Places]**
+
    如果没有，请联系您的帐户团队。
 
-1. 检查您的用户是否在Adobe Campaign标准和体验平台启动中拥有必要的权限。
-   * 在Adobe Campaign标准中，确保IMS用户是标准用户和管理员产品用户档案的一部分。 此步骤允许用户登录到Adobe Campaign标准，导航到Experience Platform SDK移动应用程序页面，并视图您在Experience Platform Launch中创建的移动应用程序属性。
+1. 检查您的用户是否在Adobe Campaign Standard和Experience Platform Launch中具有必要的权限。
+   * 在Adobe Campaign Standard中，确保IMS用户是标准用户和管理员产品用户档案的一部分。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience PlatformSDK移动应用程序页面，并视图您在Experience Platform Launch中创建的移动应用程序属性。
 
-   * 在Experience Platform Launch中，确保您的IMS用户是Experience Platform Launch产品用户档案的一部分。
+   * 在Experience Platform Launch中，确保IMS用户是Experience Platform Launch产品用户档案的一部分。
 此步骤允许用户登录Experience Platform Launch以创建和视图属性。 有关Experience Platform Launch中产品用户档案的更多信息，请参阅创建产品用户档案。 在产品用户档案中，公司或属性上不应设置任何权限，但用户仍应能够登录。
+
    要完成其他任务，如安装扩展、发布应用程序、配置环境等，您需要在产品用户档案中设置权限。
 
 1. 在Experience Platform Launch中，创建 **[!UICONTROL Mobile property]**。 有关详细信息，请 [参阅设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-1. 在Experience Platform Launch中，单 **[!UICONTROL Extensions]** 击选项卡，转 **[!UICONTROL Catalog]**&#x200B;到并搜索扩 **[!UICONTROL Adobe Campaign Standard]** 展。 有关详细信息，请参阅 [Adobe Campaign标准](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
+1. 在Experience Platform Launch中，单 **[!UICONTROL Extensions]** 击选项卡，转 **[!UICONTROL Catalog]**&#x200B;到并搜索扩 **[!UICONTROL Adobe Campaign Standard]** 展。 有关详细信息，请参阅 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
 1. 要在Campaign Standard中支持位置用例，请安 **[!UICONTROL Places]** 装扩展和 **[!UICONTROL Places Monitor]** 扩展。
-   * 在Experience **[!UICONTROL Places]** Platform Launch中安装扩展。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * 在Experience **[!UICONTROL Places Monitor]** Platform Launch中安装扩展。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * 以Experience Platform Launch **[!UICONTROL Places]** 安装扩展。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * 以Experience Platform Launch **[!UICONTROL Places Monitor]** 安装扩展。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. 在Adobe Campaign标准中，配置您在Experience Platform Launch中创建的移动属性。 请参阅 [在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
+1. 在Adobe Campaign Standard中，配置您在Experience Platform Launch中创建的移动设备属性。 请参阅在 [Adobe Campaign中设置Adobe Experience Platform启动应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 将特定于渠道的配置添加到您的移动应用程序设置中。
 有关详细信息，请参 [阅Adobe Campaign中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 如果需要，您可以删除您的Experience Platform启动属性。
-有关详细信息，请参 [阅删除您的Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#delete-app)。
+1. 如果需要，您可以删除Experience Platform Launch属性。
+有关详细信息，请参 [阅删除Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#delete-app)。
 
 ## 从Launch技术工作流程同步移动应用程序AEPSDK {#aepsdk-workflow}
 
@@ -73,11 +75,11 @@ ht-degree: 0%
 >
 >此功能是20.3版开始的Adobe Campaign测试版功能。您需要向Adobe客户服务中心（直接或通过您的Adobe联系人）提交票证，以便在Adobe Campaign实例中启用 **[!UICONTROL sync Mobile app AEPSDK from Launch]** 技术工作流程。
 
-在Experience Platform Launch中创建和配置移动属性后，技 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 术工作流程现在将同步在Experience Platform Launch中导入的Adobe Launch移动属性。
+在Experience Platform Launch中创建和配置移动属性后，技 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 术工作流程现在将同步在Adobe Campaign Standard中导入的Adobe Launch移动属性。
 
 默认情况下，技术工作流每15分钟开始一次。 如果需要，可以手动重新启动它：
 
-1. 在“Adobe Campaign标准”中，从高级菜单中选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 1. 打开工 **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** 作流。
 
    ![](assets/launch_10.png)
@@ -88,9 +90,9 @@ ht-degree: 0%
 
    ![](assets/launch_11.png)
 
-您的工作流程现在将重新启动并同步在Adobe Campaign标准中导入的Adobe Launch移动属性。
+您的工作流程现在将重新启动并同步以Adobe Campaign Standard导入的Adobe Launch移动属性。
 
-## 在Adobe Campaign中设置Adobe Experience Platform Launch应用程序 {#set-up-campaign}
+## 在Adobe Campaign中设置Adobe Experience Platform启动应用程序 {#set-up-campaign}
 
 要在活动中使用Experience Platform Launch移动属性，您还需要在Adobe Campaign中配置此属性。 在Adobe Campaign中，确保IMS用户是标准用户和管理员产品用户档案的一部分。
 
@@ -106,7 +108,7 @@ ht-degree: 0%
 
    ![](assets/launch.png)
 
-1. 选择您在Experience Platform Launch中创建的移动应用程序。
+1. 选择您在Experience Platform Launch中创建的手机应用程序。
 它 **[!UICONTROL Property Status]** 应该 **[!UICONTROL Ready to configure]**&#x200B;是。
 
    >[!NOTE]
@@ -130,7 +132,7 @@ ht-degree: 0%
 
    ![](assets/launch_5.png)
 
-1. 要使此配置生效，需要在Experience Platform Launch中发布更改。
+1. 要使此配置生效，需要以Experience Platform Launch发布更改。
 
    有关详细信息，请参阅 [发布配置](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)。
 
@@ -162,19 +164,19 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >在Adobe Campaign标准版中成功添加证书后，您将无法再重新更改设置，因为只能向MCPNS应用程序添加一个APNS平台（生产平台或沙箱）。
+   >在Adobe Campaign Standard中成功添加证书后，您将无法再更改回设置，因为只能向MCPNS应用程序添加一个APNS平台（生产平台或沙箱）。
 
    ![](assets/launch_8.png)
 
 1. 单击该 **[!UICONTROL Mobile application subscribers]** 选项卡可查看订阅者的列表以及有关这些订阅者的其他信息，例如，他们是否选择退出通知。
 
-## 删除您的Adobe Experience Platform Launch应用程序 {#delete-app}
+## 删除Adobe Experience Platform启动应用程序 {#delete-app}
 
-无法撤消删除Experience Platform Launch应用程序的操作。
+无法删除Experience Platform Launch应用程序。
 
 >[!CAUTION]
 >
->无法撤消删除Experience Platform Launch应用程序的操作。
+>无法删除Experience Platform Launch应用程序。
 
 要删除Experience Platform Launch应用程序，请完成删除移动 [属性中的步骤](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch)。
 
@@ -182,4 +184,4 @@ ht-degree: 0%
 
 通过在Adobe Campaign中单击应用程序，您可以通过单击从Adobe Campaign中删除来选择从活动中完全删除此应用程序。
 
-    ![](assets/launch_9.png)
+![](assets/launch_9.png)
