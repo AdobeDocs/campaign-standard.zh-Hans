@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ ht-degree: 0%
 
 ### 限制和护栏 {#guardrails}
 
-为本活动设置了以下护栏：
+以下护栏适用于此活动:
 
-* 50MB HTTP响应数据大小限制
-* 请求超时为10分钟
+* 5MB HTTP响应数据大小限制
+* 请求超时为1分钟
 * 不允许HTTP重定向
 * 非HTTPS Url被拒绝
 * “接受： application/json”请求标题和“Content-Type: application/json”响应标头
@@ -82,7 +82,7 @@ JSON已设置特定的护栏：
 * JSON数组对象嵌套在一个或多个中间数组对象中。
 
 
-## 配置 {#configuration}
+## Configuration {#configuration}
 
 将活动拖放 **[!UICONTROL External API]** 到工作流中，然后打开活动以开始配置。
 
