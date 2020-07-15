@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 **活动是否收到触发器？**
 
-如果没有，请检查是否从管道接收到触发器。
+如果没有，则检查是否从管道接收到触发器。
 
 否则，请与Adobe联系以检查管线端点的配置。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 否则，请继续下一步。 如果是，请遵循以下指南行：
 
 * 检查事务模板是否已发布。
-* 检查用户档案是否不在块列表中。
+* 检查用户档案是否未开启阻止列表。
 * 检查类型规则的应用。
 * 检查事务性消息日志。
 
