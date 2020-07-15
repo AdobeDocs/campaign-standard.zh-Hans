@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # 发行说明 2019{#release-notes-2019}
 
-[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |最 [新发行说明](../../rn/using/release-notes.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控制面板版](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |最 [新发行说明](../../rn/using/release-notes.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 * 修复了在电子邮件中插入退订、订阅和登陆页链接时无法跟踪的问题。 (CAMP-37809)
 * 修复了在创建新电子邮件和选择模板时可能导致错误的问题。 (CAMP-38000)
-* 使用电子邮件设计器编辑链接时，您现在可以使用“下划线 **”链接选** 项。 此外，还 **添加了** Target **属性，并将默认值设置为“无**”。 [阅读更多](../../designing/using/styles.md#about-styling-links)
+* 使用电子邮件设计器编辑链接时，您现在可以使用“下划线 **”链接选** 项。 此外，还 **添加了** 目标 **属性，并将默认值设置为“无**”。 [阅读更多](../../designing/using/styles.md#about-styling-links)
 * 修复了电子邮件正文文本组件中链接的颜色问题。 (CAMP-37330)
 * 修复了删除图像时无法删除关联链接的问题。 (CAMP-37234)
 * 修复了在某个条件下无法保存对 **动态内容** “顺序”设置的修改的问题。 (CAMP-36883)
@@ -164,7 +164,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 外部API活动（公共测试版）<br /> </td> 
-   <td> <p>为了实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统的数据引入工作流中。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点(如Platform、Target、Analytics、活动)。</p><p>此功能当前为公共测试版。</p><p>有关详细信息，请参 <a href="../../automating/using/external-api.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">和操作方法视频</a>。</p></td> 
+   <td> <p>为了实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统的数据引入工作流中。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点(例如，目标平台、Analytics、活动)。</p><p>此功能当前为公共测试版。</p><p>有关详细信息，请参 <a href="../../automating/using/external-api.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">和操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 报告工作流区段<br /> </td> 
@@ -293,7 +293,7 @@ ht-degree: 3%
 * 已在活动中添加“Launch_URL_活动”选项，以管理使用Adobe Experience PlatformMobile SDK创建的移动应用程序的属性。
 * 修复了在上传新创建的移动属性的证书并退出移动应用程序属性页面后导致“沙箱环境”选项未选中的错误。
 * 修复了一个问题，该问题导致您无法用服务资源中的信息丰富事务性消息内容。 (CAMP-33707)
-* 修复了在尝试取消订阅服务登陆页时出现的块列表用户档案中的问题。
+* 修复了阻止列表登陆页中在尝试取消用户档案订阅服务时发生的问题。
 
 ## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
@@ -386,7 +386,7 @@ ht-degree: 3%
 * 修复了导致报告共享工作流失败的错误。
 * 修复了阻止用户仅使用媒体URL发送应用程序内消息的错误。
 * 修复了即使移动应用程序的证书未上载到实例也会显示该应用程序的问题。
-* 修复了在使用移动应用程序模板的个性化字段所 **有用户时Target无法工作** 的错误。
+* 修复了在使用移动应用程序模板的个性化字段所 **有用户时目标无法工作** 的错误。
 * 已设置新的Campaign Standard实例。 （CAMP-32635和CAMP-32344）
 * 修复了阻止在工作流中自定义日期公式的错误。 (CAMP-30336)
 * 修复了定义自定义日期公式时的问题，该公式可能会阻止“附加数据”和“段代码”字段在下拉列表中可用。 (CAMP-32383)
@@ -617,7 +617,7 @@ ht-degree: 3%
 * 修复了在查询编辑器中rtEvent的broadlog和跟踪日志之间存在连接条件的问题。 (CAMP-28780)
 * 修复了无法保存对“特定操作”登陆页选项的修改的问题。 (CAMP-29422)
 * 修复了在工作流中无法导出事件的有效负荷的问题。 (CAMP-29029)
-* 修复了阻止块列表上的SMS号码在SMS消息中被排除的问题。 (CAMP-28898)
+* 修复了阻止阻止列表上的SMS号码在SMS消息中被排除的问题。 (CAMP-28898)
 * 修复了在处理传入消息时出现错误时，可能会阻止SMPP提供者收到通知的问题。 (CAMP-29804)
 * 修复了允许删除具有关联外部帐户的投放的问题。 (CAMP-29738)
 * SMS消息的发送吞吐量已得到改进和稳定。
