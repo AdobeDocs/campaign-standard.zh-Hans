@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6084'
+source-wordcount: '6092'
 ht-degree: 10%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 10%
 ## 文档更新- 2020年7月 {#doc-updates--july-2020}
 
 新增了一节，其中载有与Campaign Standard监测相关的准则。 [阅读更多](../../administration/using/monitoring-guidelines.md)
+
+外部API护栏已更新。[阅读更多](../../automating/using/external-api.md)
 
 隐私管理概述页面已更新，以包含有关泰国个人数据保护法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
