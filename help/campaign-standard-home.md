@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,14 @@ ht-degree: 91%
 
 ## 新增功能
 
+* **[以AI为后盾的电子邮](sending/using/predictive.md)**<br/>件利用以AI为后盾的电子邮件优化设计和投放
+
 * **[隐私管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 了解 Adobe Campaign 所提供的用于帮助实现隐私合规性的工具
 
 * **[外部API](automating/using/external-api.md)**<br/>使用外部API活动将数据从外部系统引入工作流
 
-* **[Campaign Standard Mobile 指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
-详细了解移动投放的一般准则
+* **[移动投放入门](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;了解有关移动投放（SMS、推送、应用程序内）一般指导原则的更多信息
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
