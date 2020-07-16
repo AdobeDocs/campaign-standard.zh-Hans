@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ ht-degree: 0%
 
 以下护栏适用于此活动:
 
-* 5MB HTTP响应数据大小限制
-* 请求超时为1分钟
+* 50MB HTTP响应数据大小限制（建议使用5MB）
+* 请求超时为10分钟
 * 不允许HTTP重定向
 * 非HTTPS Url被拒绝
 * “接受： application/json”请求标题和“Content-Type: application/json”响应标头
 
->[!CAUTION]
+>[!NOTE]
 >
->请注意，活动用于获取活动范围的数据(最新优惠集、最新得分等)，而不是用于检索每个用户档案的特定信息，因为这样可能会导致大量数据被传输。 如果用例要求使用，建议使用“传输文 [件”活动](../../automating/using/transfer-file.md) 。
-
+>从活动20.4版本开始，http响应数据大小限制和护栏将降低到5MB和1分钟。  虽然此更改只会影响新的外部API活动，但建议当前的外部API活动实现与这些新的保证保持一致，以遵循最佳实践。
 
 JSON已设置特定的护栏：
 
@@ -75,16 +74,18 @@ JSON已设置特定的护栏：
 * **JSON最大密钥长度**: 将生成的内部密钥的最大长度限制为255。 此键与列ID关联。
 * **允许JSON最大重复键**:  将用作列ID的重复JSON属性名称的最大总数限制为150。
 
-
 活动不支持JSON结构，因为：
 
 * 将数组对象与其他非数组元素组合
 * JSON数组对象嵌套在一个或多个中间数组对象中。
 
+>[!CAUTION]
+>
+>外部API活动用于获取活动范围的数据(最新优惠集、最新得分等)，而不是用于检索每个用户档案的特定信息，因为这会导致传输大量数据。 如果用例要求使用，建议使用“传输文 [件”活动](../../automating/using/transfer-file.md) 。
 
 ## Configuration {#configuration}
 
-将活动拖放 **[!UICONTROL External API]** 到工作流中，然后打开活动以开始配置。
+将活动拖放 **[!UICONTROL External API]** 到工作流中并打开活动以开始配置。
 
 ### 入站映射
 
