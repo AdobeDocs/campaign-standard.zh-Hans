@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard优惠了两种新的机器学习模型： **预测发送
 
 * **预测性参与评分**: 预测性参与评分可预测收件人与消息互动的概率，以及在下一封电子邮件发送后7天内选择退出（取消订阅）的概率。 根据脱离接触、中度或低度的特定风险，这些概率被进一步分为几段。 此模型还为客户提供风险百分点排名，以便了解某个客户相对于其他客户的排名。
 
->[!NOTE]
-> **先决条件&#x200B;**
->
+>[!CAUTION]
 >此功能不随产品提供。 实施过程中需要Adobe Consulting参与。 请联系您的Adobe代表以了解更多信息。
 >
 >另外，该功能要求使用客户必须提供的Azure存储。
