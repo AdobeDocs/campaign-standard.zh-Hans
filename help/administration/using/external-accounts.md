@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 9%
@@ -32,7 +32,7 @@ ht-degree: 9%
 * SFTP。 如需详细信息，请参阅[此部分](#sftp-external-account)。
 * Amazon存储服务(S3)。 如需详细信息，请参阅[此部分](#amazon-s3-external-account)。
 * Adobe Experience Manager。 如需详细信息，请参阅[此部分](#adobe-experience-manager-external-account)。
-* AdobeAnalytics。 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
+* Adobe Analytics. 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。 如需详细信息，请参阅[此部分](#google-recaptcha-external-account)。
 * Microsoft Azure Blob存储。 如需详细信息，请参阅[此部分](#microsoft-azure-external-account)。
 
@@ -86,13 +86,13 @@ Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 向允许列表添加IP地址可以通过支 [持票](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求，同时提供用于身份验证的公共密钥。
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 向允许列表添加IP地址可通过支持票 [证请求](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，同时提供用于身份验证的公共密钥。
 
 SFTP服务器可从控制面板进行管理。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->控制面板仅适用于在AWS上托管的客户的管理员用户。
+>控制面板仅适用于在AWS托管的客户的管理员用户。
 在此处检查您的实例是否托管 [在AWS](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)。
 
 ## Amazon S3外部帐户 {#amazon-s3-external-account}
@@ -133,7 +133,9 @@ Adobe Experience Manager外部帐户用于将活动与Experience Manager集成�
 
 * 服务器： 输入Adobe Experience Manager服务器的URL。 例如：
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * AEM帐户凭据： 使用将访问Adobe Experience Manager实例的帐户。 它应该是Experience Manager远程活动组的帐户部分。
 
