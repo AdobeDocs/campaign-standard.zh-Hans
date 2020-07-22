@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->从活动20.4版本开始，http响应数据大小限制和护栏将降低到5MB和1分钟。  虽然此更改只会影响新的外部API活动，但建议当前的外部API活动实现与这些新的保证保持一致，以遵循最佳实践。
+>从活动20.4版本开始，http响应数据大小限制和响应超时护栏将分别降低到5MB和1分钟。  虽然此更改只会影响新的外部API活动，但强烈建议当前的外部API活动实现与这些新的保证保持一致，以遵循最佳实践。
 
 JSON已设置特定的护栏：
 
@@ -85,7 +85,7 @@ JSON已设置特定的护栏：
 
 ## Configuration {#configuration}
 
-将活动拖放 **[!UICONTROL External API]** 到工作流中并打开活动以开始配置。
+将活动拖放 **[!UICONTROL External API]** 到工作流中，然后打开活动以开始配置。
 
 ### 入站映射
 
