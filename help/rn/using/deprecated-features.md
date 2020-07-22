@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
    <td> <p> 从20.1版本开始，SDK v4已弃用。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解更多</a>。</p><br/>
    <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">移动SDK</a> （以前称为v5）将独家支持即将推出的Adobe Experience Cloud功能。</p></br>
      <p>
-     <em>Target删除日期： 2020年9月30日</em></p>
+     <em>目标删除日期： 2020年9月30日</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
    <td> <p>从活动19.4版本开始，已不再使用活动API和接口访问和删除请求。 删除2步用户档案不可用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隐私核心服务</a>。</p></br>
    <p>另请参阅 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隐私管理</a>。</p>
   <p> 
-  <em>Target删除版本： 活动20.4版本</em></p>
+  <em>目标删除日期： 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Adobe不断评估产品功能，以确定应用更现代的替代方案替换的
    <td> <p>从活动19.0版本开始，已弃用传统电子邮件编辑器。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">新的电子邮件设计器</a> ，创建和个性化您的电子邮件内容。 </p></br>
    <p>阅读本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">节</a> ，了解如何调整电子邮件模板以适应新编辑者。</p></br>
   <p> 
-  <em>Target删除版本： 2021</em></p>
+  <em>目标删除日期： 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
