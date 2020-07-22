@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
 
 
-# Understanding Campaign Standard Push Notifications Payload Structure {#push-payload}
+# Understanding push notifications payload structure {#push-payload}
 
 Adobe Campaign允许您在iOS和Android移动设备上将个性化和分段的推送通知发送到移动应用程序（移动应用程序）。
 
