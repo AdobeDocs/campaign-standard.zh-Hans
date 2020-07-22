@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience PlatformSDK和Adobe Campaign集成常见问题解答 {#aep-faq}
+# Adobe Experience PlatformSDK和Campaign Standard入门 {#aep-faq}
+
+要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience PlatformSDK中设置移动应用程序并在Adobe Campaign中进行配置。
+
+以下部分列表了有关此同步的常见问题。
+
+有关推送或应用程序内的更多信息，请参阅以下常见问题解答：
+
+* [推送通知常见问题解答](../../channels/using/about-push-notifications.md#push-faq)
+* [应用程序内常见问题解答](../../channels/using/about-push-notifications.md#in-app-faq)
+* [与Launch技术工作流程同步常见问题解答](../../administration/using/syncwithlaunch-faq.md)
+
+## 开始前的有用资源 {#resource-mobile-property}
+
+有关Adobe Experience PlatformSDK和Campaign Standard集成的更多信息，请查看以下资源：
+
+* 启动／移动概 [述视频](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* 启动／移动 [提示与技巧指南](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience PlatformSDK集成是否可用于Adobe Campaign Standard和Adobe Campaign经典？ {#aep-validity}
 
@@ -81,13 +98,6 @@ CollectPII调用的频率和设计应根据业务需求而定，不应因为给�
 ### 当我尝试在活动或启动中访问Adobe Experience Platform应用程序时，有时会收到一个属性不可用的错误。 {#aep-error}
 
 这是已知问题，由于令牌过期而发生。 您应尝试登录。
-
-## 一些有用的资源建议是什么，以进一步了解在Adobe Experience Platform启动中设置的移动属性？ {#resource-mobile-property}
-
-查看以下资源：
-
-* 启动／移动概 [述视频](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* 启动／移动 [提示与技巧指南](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## 要进一步了解Adobe Experience PlatformSDK（以前称为SDK V5），有哪些有用的资源建议？{#resource-aep}
 
