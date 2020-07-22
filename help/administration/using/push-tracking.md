@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ ht-degree: 0%
 ## 关于推送跟踪 {#about-push-tracking}
 
 要确保已完全开发推送通知，您需要确保正确实施跟踪部分。
+这假定您已经实施了推送通知实施的第一部分：
 
-通过以下步骤可确保正确实施推送跟踪。 这假定您已经实施了推送通知实施的第一部分： 注册应用程序用户并处理推送通知消息。
+* 注册应用程序用户
+* 处理推送通知消息
 
 推送跟踪分为三种类型：
 
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 * **推送打开** -当推送通知已发送到设备且用户单击了导致应用程序打开的通知时。  这与推送单击类似，但如果通知消失，则不会触发推送打开。
 
-要实施Campaign Standard跟踪，移动应用程序需要包含Mobile SDK。 Adobe Mobile Services上提供这些SDK。
+要实施Campaign Standard跟踪，移动应用程序需要包含Mobile SDK。 Adobe Mobile Services上提供这些SDK。 For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 要发送跟踪信息，需要发送三个变量。 两个是从Campaign Standard接收的数据的一部分，一个操作变量指示它是“印象”、“ **单击**” **还是** “ **打开”**。
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 ### 如何实现推印跟踪 {#push-impression-tracking-android}
 
-要进行印象跟踪，您必须在调用trackAction()函数时发送值“7”以执行操作。
+要进行印象跟踪，调用函数时必须发送值“7”以执行 **[!UICONTROL trackAction()]** 操作。
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### 如何实现点击跟踪 {#push-click-tracking-android}
 
-对于单击跟踪，您必须在调用trackAction()函数时发送值“2”以执行操作。
+对于单击跟踪，您必须在调用函数时发送值“2”以执行 **[!UICONTROL trackAction()]** 操作。
 
 要跟踪单击，需要处理两种情况：
 
@@ -82,7 +84,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 要处理此问题，您需要使用两种方法： 一个用于单击通知，另一个用于取消通知。
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-要使BroadcastReceiver正常工作，您需要将其注册到AndroidManifest.xml
+为了工作 **[!UICONTROL BroadcastReceiver]** ，您需要将其注册到 **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 要跟踪打开情况，您需要创建“用途”。 目的对象允许Android OS在完成某些操作时调用您的方法。 在这种情况下，请单击通知以打开应用程序。
 
-此代码基于点击印象跟踪的实现。 在“用途”设置下，您现在需要将跟踪信息发送回活动。 在这种情况下，您需要将“打开方法”设置为在应用程序中打开某个视图，这将调用onResume方法，方法中包含“意图对象”中的通知数据。
+此代码基于点击印象跟踪的实现。 设置 **[!UICONTROL Intent]** 后，您现在需要将跟踪信息发送回Adobe Campaign Standard。 在这种情况下，您需要将该设置 **[!UICONTROL Open Intent]** 为在应用程序中打开某个视图，这将使用中的通知数据调用onResume方法 **[!UICONTROL Intent Object]**。
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### 如何实现推印跟踪 {#push-impression-tracking-iOS}
 
-要进行印象跟踪，您必须在调用trackAction()函数时发送值“7”以执行操作。
+要进行印象跟踪，调用函数时必须发送值“7”以执行 **[!UICONTROL trackAction()]** 操作。
 
 要了解iOS通知的工作方式，需要详细说明应用程序的三种状态：
 
@@ -204,7 +206,7 @@ private void handleTracking() {
 
 如果应用程序关闭，则Apple在应用程序重新启动之前不会调用该应用程序。 这意味着您将无法知道在iOS上何时收到通知。
 
-为了在应用程序处于后台时仍能进行印象跟踪，我们需要发送 **Content-Available** ，让应用程序知道必须进行跟踪。
+为了在应用程 **[!UICONTROL Impression]** 序处于后台时仍能进行跟踪，我们需要发送该 **[!UICONTROL Content-Available]** 应用程序，以告知该应用程序必须进行跟踪。
 
 >[!CAUTION]
 >
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### 如何实现点击跟踪 {#push-click-tracking-iOS}
 
-对于单击跟踪，您必须在调用trackAction()函数时发送值“2”以执行操作。
+对于单击跟踪，您必须在调用函数时发送值“2”以执行 **[!UICONTROL trackAction()]** 操作。
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ func registerForPushNotifications() {
 
 ![](assets/tracking_push.png)
 
-然后，要处理取消并发送跟踪信息，您需要添加以下内容：
+然后，要处理 **[!UICONTROL Dismiss]** 并发送跟踪信息，您需要添加以下内容：
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
