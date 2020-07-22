@@ -1,6 +1,6 @@
 ---
-title: 关于访问管理
-description: 使用角色、组和组织单位管理Adobe Campaign操作员。
+title: 与Launch技术工作流程同步常见问题解答
+description: 有关Launch技术工作流程的常见问题。
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# SyncWithLaunch技术工作流程常见问题解答 {#syncwithlaunch-faq}
+# 与Launch技术工作流程同步常见问题解答 {#syncwithlaunch-faq}
 
-该工 **[!UICONTROL Sync with Launch]** 作流程支持将所有Adobe Launch移动属性自动导入Adobe Campaign Standard。
+您可以通过专用的技术工作流程将Adobe Launch移动 **[!UICONTROL Sync with Launch]** 设备属性导入Adobe Campaign Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
-For more information on this, refer to this [page](../../administration/using/technical-workflows.md).
+以下部分列表了有关此同步的常见问题。
 
 >[!NOTE]
 >
