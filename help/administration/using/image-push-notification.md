@@ -13,19 +13,21 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
 
-# 显示 Adobe Campaign Standard 推送通知中的图像 {#image-push}
+# 添加图像和视频iOS {#image-push}
 
 >[!NOTE]
 >
 >此文档仅适用于iOS设备。
+
+在此文档中，了解如何从Adobe Campaign StandardiOS推送通知中显示图像。
 
 ## 第1步： 设置推送通知 {#set-up-push}
 
@@ -41,11 +43,11 @@ Experience PlatformSDK支持推送通知。
 
 要微调推送通知，Adobe Campaign允许您在设计推送通知时访问一组高级选项。
 
-1. 创建推送通知。 有关详细信息，请参见此页面。
+1. 创建推送通知。 For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. 从推送通知内容页面访问“高级选项”部分。
+1. 从您的推送通知内容页面访问该 **[!UICONTROL Advanced options]** 部分。
 
-1. 在富媒体内容URL字段中输入文件的URL。
+1. 在字段中输入文件的 **[!UICONTROL Rich media content URL]** URL。
 对于iOS 10或更高版本，可插入图像、gif、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)
@@ -60,13 +62,13 @@ Experience PlatformSDK支持推送通知。
 >
 >如果您的应用程序位于Objective-C中，请参阅以下 [文档](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
-如果您的应用程序位于Swift中，请执行以下步骤：
+如果您的应用程序 [!DNL Swift]在，请按照以下步骤操作：
 
-1. 打开您的xCode项目。
+1. 打开您 [的DNL Xcode] 项目。
 
-1. 在Xcode项目中，选择“ **文件** ”>“ **新建** ” **>“**&#x200B;目标”。
+1. 在DNL Xcode [项目中] ，选择 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
-1. 选择“通知服务扩展”。
+1. Select **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
