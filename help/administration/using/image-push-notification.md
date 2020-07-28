@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Experience PlatformSDK支持推送通知。
 
 通过配置Adobe Campaign和Adobe Mobile Services，您将能够为活动使用移动应用程序的数据。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-要使用Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform启动中设置移动应用程序，并在Adobe Campaign中进行配置。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+要使用Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform Launch中设置移动应用程序，并在Adobe Campaign中进行配置。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## 第2步： 在Adobe Campaign中自定义推送通知 {#customize-push}
 
@@ -64,9 +64,9 @@ Experience PlatformSDK支持推送通知。
 
 如果您的应用程序 [!DNL Swift]在，请按照以下步骤操作：
 
-1. 打开您 [的DNL Xcode] 项目。
+1. 打开您的 [!DNL Xcode] 项目。
 
-1. 在DNL Xcode [项目中] ，选择 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
+1. 在您的 [!DNL Xcode] 项目中，选 **[!UICONTROL File]** 择 **[!UICONTROL New]** > > **[!UICONTROL Target]**。
 
 1. Select **[!UICONTROL Notification Service Extension]**.
 
