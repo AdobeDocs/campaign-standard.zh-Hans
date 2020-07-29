@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 # 加载文件 {#load-file}
 
 ## 说明 {#description}
+
+>[!CAUTION]
+>
+>使用此功能时，请记住SFTP存储、数据库存储和有效用户档案限制，这些限制均符合AdobeCampaign合同的规定。
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ ht-degree: 0%
    * **[!UICONTROL Use a default value]**: 将导致错误的值替换为在字段中定义的默认值 **[!UICONTROL Default value]** 。
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 将导致错误的值替换为默认值(在字段中定 **[!UICONTROL Default value]** 义)，除非为错误值定义了映射(请参阅 **[!UICONTROL Remapping of values]** 上面的选项)。
    * **[!UICONTROL Reject the line when there is no remapping value]**: 除非为错误值定义了映射，否则不会处理整行(请参 **[!UICONTROL Remapping of values]** 阅上面的选项)。
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** 有关导入文件中值的错误。 例如，遇到错误的数据类型（“4”,“整数”列全部用字母表示）、包含多于授权最大数字的字符串、具有错误分隔符的日期等。 但是，此选项不涉及由空值管理生成的错误。
