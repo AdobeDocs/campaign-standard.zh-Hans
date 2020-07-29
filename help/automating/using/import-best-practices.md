@@ -12,15 +12,19 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
 
 
 # 导入最佳实践 {#import-best-practices}
+
+>[!CAUTION]
+>
+>使用此功能时，请记住SFTP存储、数据库存储和有效用户档案限制，这些限制均符合AdobeCampaign合同的规定。
 
 谨慎并遵循下面详述的几个简单规则将有助于确保数据库内数据的一致性，避免在数据库更新或数据导出过程中出现常见错误。
 
