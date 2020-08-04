@@ -1,6 +1,6 @@
 ---
-title: 合并
-description: 合并活动允许您将多个活动的结果重新分组为单个目标。
+title: 并集
+description: 利用并集活动，可将多个活动的结果重组为单个目标。
 page-status-flag: never-activated
 uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat
@@ -16,49 +16,49 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
-# 合并{#union}
+# 并集{#union}
 
-## 说明 {#description}
+## 说明{#description}
 
 ![](assets/union.png)
 
-该 **[!UICONTROL Union]** 活动允许您将多个活动的结果重新分组为单个目标。
+利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。
 
 >[!NOTE]
 >
->这些集合不一定需要是同质的。
+>这些集不需要具有同样的性质。
 
-## 使用环境 {#context-of-use}
+## 使用环境{#context-of-use}
 
-当执 **[!UICONTROL Union]** 行分段、定义活动或准备消息目标时，受众用于组合来自入站过渡的人口。
+例如，当执行分段、定义受众或准备消息目标时，可使用 **[!UICONTROL Union]** 活动以组合来自集客过渡的群体。
 
 **相关主题：**
 
 * [用例： 合并两家精炼受众](../../automating/using/union-on-two-refined-audiences.md)
 
-## Configuration {#configuration}
+## 配置{#configuration}
 
-1. 将活动拖放 **[!UICONTROL Union]** 到工作流中。
-1. 将其连接到前面的其他活动，如查询。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮打开它。
-1. 选择以 **[!UICONTROL Reconciliation type]** 定义如何处理入站人口之间对抗中的重复:
+1. 将 **[!UICONTROL Union]** 活动拖放到工作流中。
+1. 将其连接至其前方的其他活动，例如查询。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择 **[!UICONTROL Reconciliation type]** 以定义如何处理集客群体之间重复项的冲突：
 
-   * **[!UICONTROL Keys only]**: 这是默认模式。 当来自不同入站活动的元素具有相同的键时，该过渡只保留一个元素。 仅当入站群体是同质的时候，才能使用此选项。
-   * **[!UICONTROL All shared columns]**: 根据与入站过渡共同的所有列对帐数据。 因此，您必须选择在发生重复时保留的主集。 如果入站人口定位维度不同，则可以使用此选项。
-   * **[!UICONTROL A selection of columns]**: 选择此选项可定义要应用列表协调的列的。 必须先选择主集（其中包含源数据），然后选择用于连接的列。
+   * **[!UICONTROL Keys only]**：这是默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。仅当集客群体具有同样的性质时，才能使用此选项。
+   * **[!UICONTROL All shared columns]**：根据集客过渡共有的所有列协调数据。因此，您必须选择要在出现重复时保留的主集。如果集客群体定向维度不同，则可以使用此选项。
+   * **[!UICONTROL A selection of columns]**：选择此选项可定义要应用数据协调之列的列表。必须先选择主集（包含源数据的集），然后选择用于连接的列。
 
-1. 如果 **[!UICONTROL Use common additional data only]** 您希望仅保留所有入站过渡中的其他数据，请选中此框。
-1. 如果要限制最终人口的大小，请选中此 **[!UICONTROL Limit size of generated population]** 框。 可以在字段中指定 **[!UICONTROL Maximum number of records]** 大小。
-1. 如果需要，可以管理活动 [的过渡](../../automating/using/activity-properties.md) ，以访问计算人口的高级选项。
+1. 如果您希望仅保留所有集客过渡中的附加数据，请勾选 **[!UICONTROL Use common additional data only]** 方框。
+1. 如果要限制最终群体的大小，请选中 **[!UICONTROL Limit size of generated population]** 方框。可以在 **[!UICONTROL Maximum number of records]** 字段中指定大小。
+1. 如果需要，可以管理活动的[过渡](../../automating/using/activity-properties.md)，以访问计算群体的高级选项。
 1. 确认活动的配置并保存工作流。
 
-## Example {#example}
+## 示例{#example}
 
-以下示例显示两个查询活动的结果，这些用户档案旨在从Adobe Campaign数据库重新分组18到27岁的和34到40岁的数据。 结果包含两个查询的所有用户档案或在配置过程中指定的最大记录数（如果适用）。
+下方的示例显示了两个查询活动的结果，这些活动旨在重组 Adobe Campaign 数据库 18 至 27 岁和 34 至 40 岁的用户档案。结果包含两个查询的所有用户档案，或在配置期间中指定的最大记录数量用户档案（如果适用）。
 
 ![](assets/wkf_union_example.png)
