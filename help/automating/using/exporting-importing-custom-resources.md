@@ -1,5 +1,5 @@
 ---
-title: 导出／导入自定义资源
+title: 导出/导入自定义资源
 description: 本教程介绍如何导出和导入自定义资源包。
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
@@ -11,43 +11,46 @@ topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
 
-# 导出／导入自定义资源 {#exporting-importing-custom-resources}
+# 导出/导入自定义资源{#exporting-importing-custom-resources}
 
-本教程介绍如何将自定义资源包从开发环境导出并导入到生产环境。
+本教程介绍如何将自定义资源包从开发环境导出并导入到制作环境。
 
-此示例面向链接到Adobe Campaign的职能管理员。
+此示例针对链接到 Adobe Campaign 的功能管理员。
 
-先决条件是：
+先决条件包括：
 
-* **一个或多个可用和已发布的自定义资源** 。
+* **一个或多个可用且已发布的自定义资源**。
 
-   此外，您必须为这些资源定义一个唯一的键，因为自动主键不会在包中导出。 因此，该资源可以具有主键和额外的唯一键，以保证记录的唯一性。
-* **创建和导出包** ，需要的权限。
+   此外，您必须为这些资源定义具有唯一性的密钥，因为不会导出资源包中的自动主密钥。因此，该资源可以具有主密钥和附加唯一密钥，以保证记录的唯一性。
+* **创建和导出资源包**&#x200B;所需的权限。
 
 其他资源：
 
-* [管理包](../../automating/using/managing-packages.md)
-* [部署包：工作原理](../../developing/using/data-model-concepts.md)
+* [管理资源包](../../automating/using/managing-packages.md)
+* [部署资源包：工作原理](../../developing/using/data-model-concepts.md)
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 导出结构 {#exporting-the-structure}
+## 导出结构{#exporting-the-structure}
 
-在本节中，我们将执行第一个包导出，其中详细描述了自定义资源数据的物理结构。
+在本节中，我们将执行第一个资源包导出，该资源包中详细介绍了自定义资源数据的物理结构。
 
-此示例包含两个自定义资源：产 **品和****订单**。
+此示例包含两个自定义资源：**Products** 和 **Orders**。
 
-1. 转到/ **[!UICONTROL Administration]****[!UICONTROL Deployment]** /菜 **[!UICONTROL Package exports]** 单。
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package exports]** 菜单。
 
-   我们将创建一个新包，以导出使用两个自定 **[!UICONTROL Custom resource (cusResource)]** 义资源“产品”和“订单”筛选的包。
+   我们将创建新的资源包，以导出使用两个自定义资源“Products”和“Orders”进行了筛选的 **[!UICONTROL Custom resource (cusResource)]**。
 
-1. 在页 **[!UICONTROL Package exports]** 面中，单 **[!UICONTROL Create]** 击以创建新包。
-1. 完成标签，然后单击 **[!UICONTROL Create element]**。
+1. 在 **[!UICONTROL Package exports]** 页面中，单击 **[!UICONTROL Create]** 以创建新资源包。
+1. 填写标签，然后单击 **[!UICONTROL Create element]**。
 
    ![](assets/cusresources_export1.png)
 
@@ -55,91 +58,91 @@ source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
    ![](assets/cusresources_export2.png)
 
-1. 在筛选条件中 **[!UICONTROL Custom resource]** 选择两个资源， **产品****和订单**，配置详细信息。
+1. 在筛选条件中选择 **Products** 和 **Orders** 这两个资源，以配置 **[!UICONTROL Custom resource]** 的详细信息。
 
-   确保不要忘记更改逻辑运算符。 必须将该值设置为 **OR** ，这样产品资源和订单资源的结构就会集成到包中。
+   确保更改逻辑运算符。必须将该值设置为 **OR**，以便将产品资源和订单资源的结构集成到资源包中。
 
    ![](assets/cusresources_export3.png)
 
-1. 确认并保存包定义。
+1. 确认并保存资源包定义。
 
 您现在可以单击 **[!UICONTROL Start export]**。
 
 ![](assets/cusresources_export4.png)
 
-生成的包位于“下载”文件夹中。 zip文件的名称是随机生成的。 您可以重命名它。
+生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
 
-## 导出数据 {#exporting-the-data}
+## 导出数据{#exporting-the-data}
 
-第二次导出将允许我们从“产品”和“订 **单”** 自定 **义资源导** 出数据。
+通过第二次导出，可导出 **Products** 和 **Orders** 自定义资源的数据。
 
-根据与结构导出相同的导出类型，您将创建另一个包含数据的包。
+根据与结构导出相同的导出类型，您将创建另一个包含数据的资源包。
 
-1. 在页 **[!UICONTROL Package exports]** 面中，单 **[!UICONTROL Create]** 击以创建新包。
-1. 填写标签，然 **[!UICONTROL Export data of my resources]** 后单 **[!UICONTROL Create element]** 击选项卡 **[!UICONTROL Export content]** 中。
-1. 搜索并选择产 **品资源** 。
+1. 在 **[!UICONTROL Package exports]** 页面中，单击 **[!UICONTROL Create]** 以创建新资源包。
+1. 使用 **[!UICONTROL Export data of my resources]** 填写标签，然后单击 **[!UICONTROL Export content]** 选项卡中的 **[!UICONTROL Create element]**。
+1. 搜索并选择 **Products** 资源。
 
    ![](assets/cusresources_exportdata1.png)
 
-1. 配置高级 **过滤条件** , **@Label IS NOT NULL**。
+1. 将高级&#x200B;**筛选条件**&#x200B;配置为 **@Label IS NOT NULL**。
 
    ![](assets/cusresources_exportdata2.png)
 
-1. 检查计数。
+1. 查看计数。
 
    ![](assets/cusresources_exportdata3.png)
 
-1. 对“订单”自定义资源重复 **相同** 的操作。
+1. 对 **Orders** 自定义资源重复相同的操作。
 
    ![](assets/cusresources_exportdata4.png)
 
-1. 确认并保存包定义。
+1. 确认并保存资源包定义。
 
 您现在可以单击 **[!UICONTROL Start export]**。
 
 ![](assets/cusresources_exportdata5.png)
 
-生成的包位于“下载”文件夹中。 zip文件的名称是随机生成的。 您可以重命名它。
+生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
 
-## 导入结构 {#importing-the-structure}
+## 导入结构{#importing-the-structure}
 
-### 导入包 {#importing-the-structure-package}
+### 导入资源包{#importing-the-structure-package}
 
-1. 连接到要 **导入新创建的包的目标实例** 。
-1. 转到/ **[!UICONTROL Administration]** /菜 **[!UICONTROL Deployment]****[!UICONTROL Package imports]** 单以创建新包，从第一个导出中导入文件。
-1. 将结构文件拖 **放到为此目的** 提供的区域中。 接受的格式为ZIP或XML。
+1. 连接到要导入新创建资源包的&#x200B;**目标实例**。
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入来自第一次导出的文件。
+1. 将&#x200B;**结构文件**&#x200B;拖放到为此目的而提供的区域中。可接受的格式为 ZIP 或 XML。
 
    ![](assets/cusresources_import2.png)
 
-1. 修改标签，例如“导 **入结构**”，然后单击 **[!UICONTROL Save]**。
-1. Click **[!UICONTROL Start import]**.
+1. 修改标签，例如 **Import structure**，然后单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Start import]**。
 
    ![](assets/cusresources_import3.png)
 
-### 发布 {#publish-structure}
+### 发布{#publish-structure}
 
-1. 转到/ **[!UICONTROL Administration]****[!UICONTROL Development]** /菜 **[!UICONTROL Publication]** 单。
-1. 单 **[!UICONTROL Prepare publication]** 击， **[!UICONTROL Publish]** 然后使用来自新自定义资源的数据更新实例。
-1. 与所安装的包对应的菜单条目将插入到菜单 **[!UICONTROL Client data]** 中。
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** 菜单。
+1. 单击 **[!UICONTROL Prepare publication]**，然后单击 **[!UICONTROL Publish]** 以使用来自新自定义资源的数据更新实例。
+1. 对应于所安装资源包的菜单项，将插入到 **[!UICONTROL Client data]** 菜单中。
 
    ![](assets/cusresources_import1.png)
 
-## 导入数据 {#importing-the-data}
+## 导入数据{#importing-the-data}
 
-在本节中，我们将导入链 **接到上一步中** ，实例上安装的包的数据。
+在本节中，我们将&#x200B;**导入数据**，这些数据会链接到上一步中安装到实例上的资源包。
 
-与上一步相同，它分为两个部分：导入包并发布。
+与上一步相同，此步骤分为两个部分：导入资源包和发布。
 
-### 导入包 {#importing-the-data-package}
+### 导入资源包{#importing-the-data-package}
 
-1. 转到/ **[!UICONTROL Administration]** /菜 **[!UICONTROL Deployment]****[!UICONTROL Package imports]** 单以创建新包以导入包含数据的文件。
-1. 将数据文件拖放到为此目的提供的区域中。 接受的格式为ZIP或XML。
-1. 修改标签，例如“导入数据”，然后单击 **[!UICONTROL Save]**。
-1. Click **[!UICONTROL Start import]**.
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入包含数据的文件。
+1. 将数据文件拖放到为此目的而提供的区域中。可接受的格式为 ZIP 或 XML。
+1. 修改标签，例如“Import data”，然后单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Start import]**。
 
    ![](assets/cusresources_importdata.png)
 
-### 发布 {#publish-data}
+### 发布{#publish-data}
 
-1. 转到/ **[!UICONTROL Administration]****[!UICONTROL Development]** /菜 **[!UICONTROL Publication]** 单。
-1. 单 **[!UICONTROL Prepare publication]** 击， **[!UICONTROL Publish]** 然后使用自定义资源中的数据更新实例。
+1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** 菜单。
+1. 单击 **[!UICONTROL Prepare publication]**，然后单击 **[!UICONTROL Publish]** 以使用来自自定义资源的数据更新实例。
