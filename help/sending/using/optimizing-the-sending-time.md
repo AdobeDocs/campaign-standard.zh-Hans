@@ -1,48 +1,51 @@
 ---
 title: 优化发送时间
-description: 了解如何设置发送时间和提高消息的打开率。
-page-status-flag: 从未激活
+description: 了解如何设置发送时间并提高消息的打开率。
+page-status-flag: never-activated
 uuid: c2c13934-9819-4e18-b5c7-60915c907f37
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 调度消息
+audience: sending
+content-type: reference
+topic-tags: sheduling-messages
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
 
 # 优化发送时间{#optimizing-the-sending-time}
 
-要提高消息的打开率，您可以手动定义每个收件人的发送时间。 每个配置文件都会在指定的日期和时间收到消息（如果可能）。
+要提高消息的打开率，您可以手动定义针对每个收件人的发送时间。只要有可能，每个用户档案都将在指定的日期和时间收到消息。
 
-可以在交付级别或使用工作流来定义发送时间。
+定义发送时间可以在投放级别完成，也可使用工作流完成。
 
-对于电子邮件，根据服务器负载和重试次数，将尽力在为每个收件人预定的日期和时间发送消息。
+对于电子邮件，将根据服务器负载和重试数量，尽量按每个收件人预定的日期和时间发送消息。
 
-* 重试次数取决于Internet提供商和您的声誉。 在第一次尝试时可能不接受该消息，并且可以执行多次重试。 请参 [阅电子邮件渠道参数列表](../../administration/using/configuring-email-channel.md)。
-* 由于带宽不足，可能会导致接收电子邮件的延迟。
+* 重试情况依赖于互联网提供商和您的声誉。第一次尝试时收件人可能不会接受该消息，可能需要执行多次重试。请参阅[电子邮件渠道参数的列表](../../administration/using/configuring-email-channel.md)。
+* 如果带宽不足，可能会延迟收到电子邮件。
 
-您可以查看发送日志中消息发送给每个收件人 [的时间](../../sending/using/monitoring-a-delivery.md#sending-logs)。
+您可以在[发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)中查看消息何时发送到每个收件人。
 
-有以下几个选项可用：
+提供了以下几个选项：
 
-* **[!UICONTROL No optimization]**:消息在用户的时间发送。
+* **[!UICONTROL No optimization]**：以用户的时间发送消息。
 
-   例如，如果您的时区是GMT+1，并且如果您在字段中输入上午9:00，则位于 **[!UICONTROL Start sending from]** GMT+3时区的收件人将在当地时间上午11:00收到该收件人的消息。
+   例如，如果您的时区是 GMT+1，并且如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 11:00 收到该消息。
 
-* **[!UICONTROL Send at the recipient's time zone]**:所有收件人都将收到邮件，并将其时区考虑在内。
+* **[!UICONTROL Send at the recipient's time zone]**：所有收件人都将收到考虑了当地时区时间的消息。
 
-   例如，如果您在字段中输入上午9:00，则位于 **[!UICONTROL Start sending from]** GMT+3时区的收件人将在当地时间上午9:00收到该收件人的消息。
+   例如，如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 9:00 收到该消息。
 
-   See [Sending messages at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   请参阅[按收件人的时区发送消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)。
 
-* **[!UICONTROL Send at a custom date defined by a formula]**:每个收件人将在指定公式配置的日期和时间收到消息。
+* **[!UICONTROL Send at a custom date defined by a formula]**：每个收件人都将在使用指定公式配置的日期和时间收到消息。
 
-   See [Computing the sending date](../../sending/using/computing-the-sending-date.md).
+   请参阅[计算发送日期](../../sending/using/computing-the-sending-date.md)。
 
