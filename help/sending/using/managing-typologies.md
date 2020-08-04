@@ -1,6 +1,6 @@
 ---
-title: 管理类型
-description: 了解如何使用类型。
+title: 管理分类
+description: 了解如何使用分类。
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -12,66 +12,69 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+workflow-type: ht
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
 
-# 管理类型 {#managing-typologies}
+# 管理分类{#managing-typologies}
 
-## 关于类型 {#about-typologies}
+## 关于分类{#about-typologies}
 
-类型是一组规则，允许您在发送邮件之前检查邮件的有效性。 例如：消息内容不为空、存在退订、排除重复等。
+分类是一组规则，可用于在发送消息之前检查消息的有效性。例如：消息内容不为空、存在退订、排除重复等。
 
-可通过> **[!UICONTROL Administration]** >菜单访 **[!UICONTROL Channels]** 问 **[!UICONTROL Typologies]** 字体。 默认情况下，应用程序中有默认的类型。 根据您的需求，您可以创建自己的字体或修改现有的字体。
+可通过 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 菜单访问分类。默认情况下，应用程序中提供了默认的分类。您也可以根据自己的需要，创建自己的分类或修改现有分类。
 
 ![](assets/typologies-list.png)
 
-对于每种类型， **[!UICONTROL Typology rules]** 该部分列表在使用带有消息的类型时执行的规则集。
+对于每种分类，**[!UICONTROL Typology rules]** 部分都列出了在消息中使用该分类时执行的规则集。
 
 ![](assets/typology_typo-rule-list.png)
 
 >[!NOTE]
 >
->要获取有关某个类型规则的更多详细信息，请多次单击它。 规则将以只读模式显示。
+>要了解其中某一个分类规则的更多详细信息，请双击该分类。规则将以只读模式显示。
 
-## 创建类型学 {#creating-a-typology}
+## 创建分类{#creating-a-typology}
 
-要创建新的排版，请按照以下步骤操作：
+要创建新的分类，请执行以下步骤：
 
-1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** >菜 **[!UICONTROL Typologies]** 单。
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 菜单。
 
-1. 此时将显示列表。 Click the **[!UICONTROL Create]** button.
+1. 随即会显示分类列表。单击 **[!UICONTROL Create]** 按钮。
 
    ![](assets/typologies-create.png)
 
-1. 定义类 **[!UICONTROL Label]**&#x200B;型，然后单 **[!UICONTROL Add an element]** 击按钮以选择要包含在其中的类型规则。 For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. 定义分类 **[!UICONTROL Label]**，然后单击 **[!UICONTROL Add an element]** 按钮以选择要包含在其中的分类规则。有关分类规则的更多信息，请参阅[此章节](../../sending/using/managing-typology-rules.md)。
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >该 **[!UICONTROL IP affinity]** 字段允许您根据配置管理关联。 它们在实例的配置文件中定义。 如果要使用关联，请与管理员联系。
+   >利用 **[!UICONTROL IP affinity]** 字段，可根据配置管理任务共用性。任务共用性通过实例的配置文件进行定义。如果要使用任务共用性，请与管理员联系。
 
-1. 单击 **[!UICONTROL Create]** 以确认您的选择。 您的排版现已准备好用于消息。
+1. 单击 **[!UICONTROL Create]** 以确认您的选择。您的分类现已准备就绪，可用于消息。
 
-## 对消息应用类型 {#applying-typologies-to-messages}
+## 对消息应用分类{#applying-typologies-to-messages}
 
-将排版学与消息或消息模板关联时，将执行排版学中包含的类型规则以检查消息的有效性。
+将分类与消息或消息模板关联时，将执行在分类中包含的分类规则以检查消息的有效性。
 
 >[!NOTE]
 >
->每个消息或消息模板只能分配一个类型学。
+>每个消息或消息模板只能分配一个分类。
 
-要将类型学链接到消息，请执行以下步骤：
+要将分类链接到消息，请执行以下步骤：
 
-1. 访问消息属性。 请注意，消息模板可从 **[!UICONTROL Resources]** >导航菜 **[!UICONTROL Templates]** 单访问。
+1. 访问消息的属性。请注意，可通过 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** 导航菜单访问消息模板。
 
-1. 在 **[!UICONTROL Advanced parameters]** >部 **[!UICONTROL Prearation]** 分中，选择要链接到消息的类型学。
+1. 在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** 部分，选择要链接到消息的分类。
 
    ![](assets/typology_message.png)
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**。
 
-   现在，选定的类型学已链接到消息。 将执行其所有关联类型规则以检查消息的有效性。
+   现在，选定的分类已链接到消息。随即将执行其所有关联分类规则，以检查消息的有效性。
