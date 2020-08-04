@@ -12,100 +12,103 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+workflow-type: ht
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
 
-# 发送校样 {#sending-proofs}
+# 发送校样{#sending-proofs}
 
-## 关于校样 {#about-proofs}
+## 关于校样{#about-proofs}
 
-证明是一条特定消息，允许您在将消息发送到主目标之前测试该消息。 证明的收件人负责批准邮件（其内容和表单）。
+利用校样这种特定的消息，可在将消息发送到主目标之前对消息进行测试。校样的收件人负责审阅消息（的内容和形式）。
 
-有两种类型的证明收件人：
+有两种校样收件人:
 
-* **测试配置文件** ，允许您定位不符合定义的定位标准的其他收件人。
+* 利用&#x200B;**测试用户档案**&#x200B;可定向不符合所规定定向标准的其他收件人。
 
-   可以将其添加到消息的受众中，以检测对收件人数据库的任何欺骗性使用，或确保电子邮件送达收件箱中。 有关此方面的详细信息，请参阅 [管理测试配置文件](../../audiences/using/managing-test-profiles.md)。
+   可以将校样收件人添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
    >[!NOTE]
    >
-   >为了发送证明，测试配置文件必须包含在邮件的受众中。
+   >要发送校样，消息的受众中必须包含测试用户档案。
 
-* **替换配置文件** ，允许您将自己置于某个目标配置文件的位置，并获得配置文件将收到的消息的精确表示形式。 有关此方面的详细信息，请参阅 [使用目标配置文件测试电子邮件](../../sending/using/testing-messages-using-target.md)。
+* 利用&#x200B;**替换用户档案**，可将您自己置于某一个定向用户档案的位置，并获得该用户档案将会收到的精确消息。有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
    >[!NOTE]
    >
    >此功能仅适用于电子邮件渠道。
 
-## 发送证明 {#sending-a-proof}
+## 发送校样{#sending-a-proof}
 
-要发送校样，请按照以下步骤操作：
+要发送校样，请执行以下步骤：
 
-1. 确保已配置校样收件人：
-   * **测试档案** ，必须包含在您消息的受众中。
-   * **消息准备成功** 后，必须添加替代配置文件(请参 [阅本节](../../sending/using/testing-messages-using-target.md))。
+1. 确保已配置校样收件人:
+   * 消息的受众中必须包含&#x200B;**测试用户档案**。
+   * 一旦成功地准备了消息，必须添加&#x200B;**替换用户档案**（请参阅[此章节](../../sending/using/testing-messages-using-target.md)）。
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. 单击 **[!UICONTROL Send a test]** 按钮。
 
    ![](assets/bat_select.png)
 
 1. 选择要使用的校样类型：
 
-   * **[!UICONTROL Email rendering]**:选择此选项可根据目标收件箱测试接收消息的方式。 有关详细信息，请参阅电子 [邮件渲染](../../sending/using/email-rendering.md)。
-   * **[!UICONTROL Proof]**:选择此选项可在将消息发送到主目标之前测试该消息。 证明接收方负责通过检查其内容和格式来批准交付。
-   * **[!UICONTROL Proof + Email rendering]**:此选项组合了前两个选项。
+   * **[!UICONTROL Email rendering]**：选择此选项可根据定向的收件箱测试接收消息的方式。有关更多信息，请参见[电子邮件渲染](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Proof]**：选择此选项，可在将消息发送到主目标之前对消息进行测试。校样收件人负责审阅投放，检查投放的内容和格式。
+   * **[!UICONTROL Proof + Email rendering]**：此选项是前两个选项的组合。
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >电子邮件渲染仅适用于测试配置文件。 如果消息中未添加测试配置文件，则只 **[!UICONTROL Proof]** 有选项可供选择。
+   >电子邮件渲染仅适用于测试用户档案。如果尚未向消息添加测试用户档案，则只提供 **[!UICONTROL Proof]** 选项供您选择。
 
 1. 确认您的选择。
 
-   校样将发送给已配置的收件人。
+   校样会发送给已配置的收件人。
 
    ![](assets/bat_select2.png)
 
-1. 您可以使用下拉列表查 **[!UICONTROL Proofs]** 看校样。
+1. 您可以使用 **[!UICONTROL Proofs]** 下拉列表查看校样。
 
    ![](assets/bat_view.png)
 
-1. 选择一个证明以访问其摘要。 对于电子邮件，如果您选择了“电 **子邮件渲染****[!UICONTROL Access email rendering]** ”选项作为校样类型，则校样标签的右侧将显示该图标。 请参阅 [电子邮件渲染](../../sending/using/email-rendering.md)。
+1. 选择校样以访问其摘要。对于电子邮件，如果您已选择了 **Email rendering** 选项作为校样类型，则验证标签的右侧将显示 **[!UICONTROL Access email rendering]** 图标。请参阅[电子邮件渲染](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-根据收到证明的人员的评论，可能会要求您修改交付内容。 进行修改后，您必须重新开始准备电子邮件，然后重新发送证明。 每个新的证明都可以使用按钮 **[!UICONTROL Show proofs]** 访问。
+根据校样收件人的评论，可能会要求您修改投放的内容。进行修改后，您必须重新开始准备电子邮件，然后重新发送校样。可使用 **[!UICONTROL Show proofs]** 按钮访问每个新校样。
 
-在完成交付内容之前，您必须发送所需数量的校样。 完成此操作后，您可以将交付发送到主目标并关闭审批周期。
+您必须发送所需数量的校样，直到完成投放的内容为止。完成此操作后，您可以将投放发送到主目标并结束审阅循环。
 
-## 配置校样的主题行 {#configuring-proofs-subject-line}
+## 配置校样的主题行{#configuring-proofs-subject-line}
 
-当发送证明时，其主题行默认配置有“ **Proof”** 前缀，以及表示证明编号的计数器。
+发送校样时，其主题行默认配置了&#x200B;**“Proof”**&#x200B;前缀，以及指示校样编号的计数。
 
 ![](assets/proof-prefix.png)
 
-要更改要使用的默认主题行，请执行以下步骤：
+要更改使用的默认主题行，请执行以下步骤：
 
-1. 在消息功能板中，单击按 **[!UICONTROL Open properties]** 钮。
-1. 在部 **[!UICONTROL Advanced parameters]** 分中，定义要在主题行中默认使用的前缀。
+1. 在消息仪表板中，单击 **[!UICONTROL Open properties]** 按钮。
+1. 在 **[!UICONTROL Advanced parameters]** 部分中，定义想要用在主题行中的默认前缀。
 
-要在主题行中隐藏证明编号，请激活选 **[!UICONTROL Hide proof prefix counter]** 项。
+要在主题行中隐藏校样的编号，请激活 **[!UICONTROL Hide proof prefix counter]** 选项。
 
 >[!NOTE]
 >
->如果要隐藏整个证明前缀，请将该字段留 **[!UICONTROL Subject line prefix]** 空。
+>如果要隐藏整个校样前缀，请将 **[!UICONTROL Subject line prefix]** 字段留空。
 
 ![](assets/proof-prefix-configuration.png)
 
-1. 单击 **[!UICONTROL Confirm]**. 默认情况下，设置将应用于为选定消息发送的所有校样。
+1. 单击 **[!UICONTROL Confirm]**。这些设置将默认应用于为选定消息发送的所有校样。
 
 **相关主题：**
 
-* [发送测试、准备和发送电子邮件视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [使用目标配置文件测试电子邮件](../../sending/using/testing-messages-using-target.md)。
-* [管理测试配置文件](../../audiences/using/managing-test-profiles.md)。
+* [发送测试、准备和发送电子邮件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)视频
+* [使用定向的用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)。
+* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 * [预览消息](../../sending/using/previewing-messages.md)
 * [配置电子邮件渠道](../../administration/using/configuring-email-channel.md)
