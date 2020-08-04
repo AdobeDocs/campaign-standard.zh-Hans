@@ -1,6 +1,6 @@
 ---
 title: 外部帐户
-description: 配置外部帐户以设置与外部系统（如SFTP服务器）的连接。
+description: 配置外部帐户以设置与外部系统（如 SFTP 服务器）的连接。
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -16,195 +16,194 @@ translation-type: tm+mt
 source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 9%
+ht-degree: 96%
 
 ---
 
 
 # 外部帐户{#external-accounts}
 
-外部帐户是一种配置，允许您配置和测试对Adobe Campaign外部服务器的访问。
+利用外部帐户配置，可配置和测试对 Adobe Campaign 外部服务器的访问。
 
-这些外部帐户可用于活动工作流访问和管理数据。
+这些外部帐户可用于 Campaign 工作流访问和管理数据。
 
-您可以设置以下类型的外部帐户:
+您可以设置以下类型的外部帐户：
 
-* SFTP。 如需详细信息，请参阅[此部分](#sftp-external-account)。
-* Amazon存储服务(S3)。 如需详细信息，请参阅[此部分](#amazon-s3-external-account)。
-* Adobe Experience Manager。 如需详细信息，请参阅[此部分](#adobe-experience-manager-external-account)。
-* Adobe Analytics. 如需详细信息，请参阅[此部分](../../integrating/using/configure-campaign-analytics-integration.md)。
-* Google reCAPTCHA。 如需详细信息，请参阅[此部分](#google-recaptcha-external-account)。
-* Microsoft Azure Blob存储。 如需详细信息，请参阅[此部分](#microsoft-azure-external-account)。
+* SFTP。有关更多信息，请参阅[此章节](#sftp-external-account)。
+* Amazon Storage Service (S3)。有关更多信息，请参阅[此章节](#amazon-s3-external-account)。
+* Adobe Experience Manager。有关更多信息，请参阅[此章节](#adobe-experience-manager-external-account)。
+* Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
+* Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
+* Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
 
 >[!NOTE]
 >
->Adobe在产品配置过程中使用其他类型的外部帐户。 从Campaign Standard17.9版本开始，FTP外部帐户仍可以定义，但在新的工作流活动中不再可用。 如果已设置连接，则仍启用该连接。
+>Adobe 在产品预配过程中，会使用其他类型的外部帐户。从 Campaign Standard 17.9 版开始，仍可以定义 FTP 外部帐户，但在新的工作流活动中已不再可用。如果已设置该连接，则仍可使用该连接。
 
-外部帐户可由管理员在菜单下进行 **[!UICONTROL Administration > Application settings > External accounts]** 配置。
+外部帐户可由管理员通过 **[!UICONTROL Administration > Application settings > External accounts]** 菜单进行配置。
 
-## 创建外部帐户 {#creating-an-external-account}
+## 创建外部帐户{#creating-an-external-account}
 
-Adobe Campaign附带一组预定义外部帐户。 要与外部系统（如用于文件传输的FTP服务器）建立连接，您可以创建自己的外部帐户。
+Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（如用于文件传输的 FTP 服务器）建立连接，您可以创建自己的外部帐户。
 
-外部帐户由技术工作流或活动工作流等技术流程使用。 在工作流中设置文件传输或与任何其他应用程序(Adobe Target、Experience Manager等)进行数据交换时，您需要选择外部帐户。
+技术工作流或营销策划工作流等技术流程，会使用外部帐户。在工作流中设置文件传输或与任何其他应用程序（Adobe Target、Experience Manager 等）进行数据交换时，您需要选择外部帐户。
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
-1. 输入标签。 在工作流中选择外部帐户时，将使用标签和ID。
+1. 单击 **[!UICONTROL Create]** 按钮。
+1. 输入标签。在工作流中选择外部帐户时，将使用标签和 ID。
 1. 选择要创建的帐户类型。
 1. 根据需要指定凭据、服务器地址、端口号或密钥，以配置对帐户的访问。
 
-   必需信息通常由您所连接的服务器的提供者提供。
+   所连接服务器的提供者通常会提供必需的信息。
 
 1. 保存您的帐户。
 
-将创建外部帐户并将其添加到帐户列表。 它现在可用于工作流活动和路由属性中的数据／文件传输或投放配置。
+外部帐户已创建并添加到帐户列表。现在可将其用于工作流活动和投放属性中的数据/文件传输或路由配置。
 
-## SFTP外部帐户 {#sftp-external-account}
+## SFTP 外部帐户{#sftp-external-account}
 
 不同的外部帐户类型需要指定不同的信息。
 
-对于SFTP外部帐户，请提供以下详细信息：
+对于 SFTP 外部帐户，请提供以下详细信息：
 
-* 服务器地址。 例如， **ftp.domain.com**。
-* 端口号。 For example, **22**.
-* SFTP服务器凭据： 用于连接到服务器的帐户名称和密码。
+* 服务器地址。例如，**ftp.domain.com**。
+* 端口号。例如，**22**。
+* SFTP 服务器凭据：用于连接到服务器的帐户名称和密码。
 
-### Adobe托管的SFTP服务器建议 {#adobe-hosted-sftp-server-recommendations}
+### Adobe 托管的 SFTP 服务器推荐{#adobe-hosted-sftp-server-recommendations}
 
 管理用于 ETL 的文件和数据时，这些文件存储在 Adobe 提供的托管 SFTP 服务器上。此 SFTP 旨在作为临时存储空间，您可以在其上控制文件的保留和删除。
 
-如果未正确使用或监视，该空间会快速填满服务器上可用的物理空间，并导致严重问题。 它可能导致您的平台上的数据丢失或损坏。
+如果未正确使用或监控，则该空间会快速填充服务器上可用的物理空间，并导致严重问题。这可能导致平台上的数据丢失或损坏。
 
-为避免出现此类问题，Adobe建议遵循以下最佳实践：
+为避免此类问题，Adobe 建议遵循以下最佳实践：
 
-* 保持尽可能少的数据。
-* 使用基于密钥的身份验证来避免口令过期。 支持的格 **式仅****限OpenSSH和** SSH2。 您必须向Adobe支持团队提供公钥，才能将其上传到活动服务器。
-* 只按需保留数据。 15天是最大时限。
+* 尽可能少地保留数据。
+* 使用基于密钥的身份验证以避免密码过期。支持的格式仅限 **OpenSSH** 和 **SSH2**。您必须向 Adobe 支持团队提供公共密钥，才能将其上传到 Campaign 服务器。
+* 仅将数据保留要求的时长。最大时限 15 天。
 * 按照工作流程正确删除数据（通过消费数据的工作流程来管理保留）。
 * 在 SFTP 上传和工作流程中使用批处理。
 * 处理错误/例外状况。
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 向允许列表添加IP地址可通过支持票 [证请求](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，同时提供用于身份验证的公共密钥。
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
-SFTP服务器可从控制面板进行管理。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/sftp-management/about-sftp-management.html)。
 
 >[!NOTE]
 >
->控制面板仅适用于在AWS托管的客户的管理员用户。
-在此处检查您的实例是否托管 [在AWS](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)。
+>控制面板仅适用于托管在 AWS 上的、客户的 Admin 用户。
+可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
 
-## Amazon S3外部帐户 {#amazon-s3-external-account}
+## Amazon S3 外部帐户 {#amazon-s3-external-account}
 
-Amazon S3服务器字段应填写如下：
+Amazon S3 服务器字段应按以下方式填写：
 
 ```
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-要以S3加密模式存储文件，请选中此 **[!UICONTROL Keep files in S3 encrypted]** 框。
+要以 S3 加密模式存储文件，请选中 **[!UICONTROL Keep files in S3 encrypted]** 方框。
 
 ![](assets/external_accounts_2.png)
 
-必需信息通常由您所连接的服务器的提供者提供。
+所连接服务器的提供者通常会提供必需的信息。
 
-指定与 **[!UICONTROL AWS Region]** 您的端点关联的。 您可以在官方的Amazon S3文档中检查受支持 [的地区和签名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+指定与您的端点关联的 **[!UICONTROL AWS Region]**。您可以在官方的 [Amazon S3 文档](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)中查看受支持的地区和签名版本。
 
 >[!NOTE]
 >
->您 **[!UICONTROL Receiver server]** 应在没有您的AWS区域的情况下输入，稍后会自动将其添加到您的URL。
+>输入的 **[!UICONTROL Receiver server]** 不应包含 AWS 区域，稍后会自动将其添加到您的 URL 中。
 
-### Amazon S3帐户建议 {#amazon-s3-account-recommendations}
+### Amazon S3 帐户建议{#amazon-s3-account-recommendations}
 
-为了帮助您设置Amazon S3帐户，我们建议您遵循以下建议：
+为了帮助您设置 Amazon S3 帐户，我们建议您遵循以下建议：
 
-* 创建严格存储段策略以限制对S3存储段的访问。 在创建存储段时可以配置存储段策略。 For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* 在创建外部帐户时，通过选中该框，启用加密以在S3存储桶中存储敏感 **[!UICONTROL Keep files in S3 encrypted]** 数据。
-* 授予存储段权限，以指定谁可以访问存储段中的对象。 有关存储桶权限的详细信息，请参 [阅Amazon S3文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
+* 创建严格存储段策略以限制对 S3 存储段的访问。在创建存储段时可以配置存储段策略。有关更多信息，请参阅 [Amazon S3 文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
+* 在创建外部帐户时，通过勾选 **[!UICONTROL Keep files in S3 encrypted]** 方框，可启用加密以在 S3 存储桶中存储敏感数据。
+* 授予存储段权限，以指定可访问存储段中对象的用户。有关存储桶权限的更多信息，请参阅 [Amazon S3 文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
-## Adobe Experience Manager外部帐户 {#adobe-experience-manager-external-account}
+## Adobe Experience Manager 外部帐户{#adobe-experience-manager-external-account}
 
-Adobe Experience Manager外部帐户用于将活动与Experience Manager集成。
+将 Campaign 与 Experience Manager 集成时，会使用 Adobe Experience Manager 外部帐户。
 
-此文档提供与此集成相关的流程 [和要求](../../integrating/using/get-started-campaign-integrations.md)。
+[此文档](../../integrating/using/get-started-campaign-integrations.md)提供了与此集成相关的流程和要求。
 
 在设置此新外部帐户时，您需要提供以下详细信息：
 
-* 服务器： 输入Adobe Experience Manager服务器的URL。 例如：
+* 服务器：输入 Adobe Experience Manager 服务器的 URL。例如：
 
    ```
    http://aem.domain.com:4502
    ```
 
-* AEM帐户凭据： 使用将访问Adobe Experience Manager实例的帐户。 它应该是Experience Manager远程活动组的帐户部分。
+* AEM 帐户凭据：使用访问 Adobe Experience Manager 实例的帐户。它应是 Experience Manager 中属于 campaign-remote 组的帐户。
 
-## Google reCAPTCHA外部帐户 {#google-recaptcha-external-account}
+## Google reCAPTCHA 外部帐户{#google-recaptcha-external-account}
 
 >[!NOTE]
 >
->Google reCAPTCHA配置需要Google帐户。
+>Google reCAPTCHA 配置需要 Google 帐户。
 
-Google reCAPTCHA机制允许您保护登陆页免受由机器人程序造成的垃圾邮件和滥用。 这对您的客户来说是非侵入式的，因为它不需要客户进行任何交互，并且基于与您网站的交互。 要注册您的站点，请参阅本 [页](https://www.google.com/recaptcha/admin/create)。 您需要选择V3 reCAPTCHA类型。
+利用 Google reCAPTCHA 机制，可保护登陆页面免受由机器人程序造成的垃圾邮件和滥用。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。要注册您的站点，请参阅[本页面](https://www.google.com/recaptcha/admin/create)。您需要选择 V3 reCAPTCHA 类型。
 
-要将Google reCAPTCHA V3添加到您的登陆页，您首先需要在外部帐户中配置它。 有关如何将其添加到登陆页的更多信息，请参阅此 [部分](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+要将 Google reCAPTCHA V3 添加到登陆页面，您首先需要在外部帐户中对其进行配置。有关如何将其添加到登陆页面的更多信息，请参阅此[章节](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
-对于Google reCAPTCHA V3外部帐户，请提供以下详细信息：
+对于 Google reCAPTCHA V3 外部帐户，请提供以下详细信息：
 
-* **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帐户
-* **[!UICONTROL Type]**: Google reCAPTCHA
+* 外部帐户的 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**
+* **[!UICONTROL Type]**：Google reCAPTCHA
 * 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** 0到1
+* 介于 0 到 1 之间的 **[!UICONTROL Threshold]**
 
-   0.0值表 **[!UICONTROL Threshold]** 示它可能是一个机器人，1.0可能是一个良好的交互。 默认情况下，可以使用阈值0.5。
+   0.0 **[!UICONTROL Threshold]** 值表示它可能是一个机器人，而 1.0 值可能属于良好的交互。默认情况下，可以使用 0.5 的阈值。
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure Blob存储外部帐户 {#microsoft-azure-external-account}
+## Microsoft Azure Blob Storage 外部帐户{#microsoft-azure-external-account}
 
 >[!NOTE]
 >
->在Adobe Campaign Standard中配置外部帐户所需的信息，可在Azure门户中通过选择> **[!UICONTROL Settings]** 找到 **[!UICONTROL Access keys]**。
+>有关在 Adobe Campaign Standard 中配置外部帐户所需的信息，可通过选择 **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** 查看 Azure Portal。
 
-Azure Blob存储连接器可用于使用工作流活动将数据导入或导出 **[!UICONTROL Transfer file]** 到Adobe Campaign。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工作流活动将数据导入或导出 Adobe Campaign。有关更多信息，请参阅此](../../automating/using/transfer-file.md#azure-blob-configuration-wf)章节[。
 
-对于Microsoft Azure Blob存储外部帐户，请提供以下详细信息：
+对于 Microsoft Azure Blob Storage 外部帐户，请提供以下详细信息：
 
-* **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帐户
-* **[!UICONTROL Type]**: Microsoft Azure Blob存储
-* 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。 要了解在何处查找您的帐户名称和密钥，请参阅本 [页](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Endpoint suffix]**。 可以在Azure门户的 **[!UICONTROL Connection string]** 菜单 **[!UICONTROL Access keys]** 中找到它。 For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* 你的 **[!UICONTROL Container]** 名字。 如果您计划使用多个容器，则需要创建与容器相同的外部帐户。
-* 通过 **[!UICONTROL Concurrency]** 此选项可微调文件传输的速度。
+* 外部帐户的 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**
+* **[!UICONTROL Type]**：Microsoft Azure Blob Storage
+* 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。要了解在何处查找您的帐户名称和密钥，请参阅本[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
+* 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
+* 您的 **[!UICONTROL Container]** 名称。如果您计划使用多个容器，则需要创建与容器相同数量的外部帐户。
+* 利用 **[!UICONTROL Concurrency]** 选项，可优化文件传输的速度。
 
 ![](assets/external_accounts_4.png)
 
-配置完毕后，单 **[!UICONTROL Test connection]** 击将Adobe Campaign链接到Microsoft Azure Blob存储。
+配置完毕后，单击 **[!UICONTROL Test connection]** 将 Adobe Campaign 链接到 Microsoft Azure Blob Storage。
 
-### Microsoft Azure Blob存储建议 {#azure-blob-recommendations}
+### Microsoft Azure Blob Storage 建议{#azure-blob-recommendations}
 
 **加密**
 
-Adobe Campaign使用安全连接(HTTPS)访问您的Microsoft Azure Blob存储帐户。
+Adobe Campaign 使用安全连接 (HTTPS) 访问 Microsoft Azure Blob Storage 帐户。
 
 **帐户密钥**
 
-配置外部帐户时，必须使用Azure门户 **[!UICONTROL Account key]** 中的一个可用。 有关在何处查找帐户密钥的详细信息，请参阅本 [页](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)。
+配置外部帐户时，必须使用 Azure Portal 提供的 **[!UICONTROL Account key]** 之一。有关在何处查找帐户密钥的更多信息，请参阅本[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)。
 
 **优化文件传输速度**
 
-通过 **[!UICONTROL Concurrency]** 此选项可微调文件传输的速度。
-它表示用于执行文件传输的线程数。 每个线程都将从blob下载约1MB的一部分。 然后，它们将排队以写入磁盘。 请注意，通过增加线程数，您还将增加应用程序在文件传输过程中使用的资源的负载。
+利用 **[!UICONTROL Concurrency]** 选项，可优化文件传输的速度。此选项代表用于执行文件传输的线程数。每个此类线程都将从 blob 下载约 1MB 的一部分。然后，它们将排队以写入磁盘。请注意，增加线程数，文件传输期间中应用程序所用资源的负载也会增加。
 
-在文件传输完成后，您可以在工作流日志中找到性能指标。
+在文件传输完成后，您可以在工作流日志中查看性能指标。
 
 **重试**
 
-默认情况下，Azure Blob的文件传输最多有四个重试。  如果Azure存储服务返回错误代码，如503（服务器忙）或500（操作超时），这可能表示您正在接近或超过存储帐户的可伸缩性。 在使用新帐户或执行测试时可能发生这种情况。
+默认情况下，Azure Blob 的文件传输最多可进行四次重试。如果 Azure Storage 服务返回错误代码，如 503（服务器忙）或 500（操作超时），则可能表示您正在接近或已超过存储帐户的可扩展能力。使用新帐户或执行测试时，可能发生这种情况。
 
-如果错误仍然存在，您可以通过在高级菜单> >下创建一个选项来增加重试 **[!UICONTROL Administration]** 的 **[!UICONTROL Application Settings]** 数量 **[!UICONTROL Options]**。
+如果错误仍然存在，您可以通过高级菜单 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** 创建一个选项，增加重试的次数。
 
-如果实现，则必须按如下方式创建选项：
+如要实施，则必须按以下方式创建选项：
 
 ```
 ID:        AzureBlob_Max_Retries
