@@ -1,6 +1,6 @@
 ---
 title: 定义直邮受众
-description: 了解如何定义直邮递送的目标。
+description: 了解如何定义直邮投放的目标。
 page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: sauviat
@@ -12,34 +12,37 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+workflow-type: ht
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
 
 # 定义直邮受众{#defining-the-direct-mail-audience}
 
-您可以在创建向导中定义受众，也可以通过单击交付仪表板的“ **受众** ”部分来定义受众。
+您可以在创建向导中定义受众，也可以通过单击投放仪表板的 **Audience** 部分定义受众。
 
 ![](assets/direct_mail_15.png)
 
-## 定义主目标 {#defining-the-main-target}
+## 定义主目标{#defining-the-main-target}
 
-对于直邮，目标配置文件是将包含在提取文件中的配置文件，您会将其发送给直邮提供商。
+对于直邮而言，定向的用户档案，指的是将要包含在提取文件中、发给直邮提供商的用户档案。
 
-对于每个目标配置文件，提取文件中会添加一个新行。 定义提取屏幕中定义了将包括给每个收件人的配置文件 [信息的数量](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 。
+提取文件中会为每个定向用户档案添加一个新行。对于 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 屏幕中定义的每个收件人，都将包含用户档案的相关信息。
 
 >[!CAUTION]
 >
->确保您的配置文件包含邮政地址，因为这些信息对直邮提供商至关重要。 另外，请确保已选中配 **[!UICONTROL Address specified]** 置文件信息中的复选框。 请参阅 [推荐](../../channels/using/about-direct-mail.md#recommendations)。
+>确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
-## 添加测试和陷印配置文件 {#adding-test-and-trap-profiles}
+## 添加测试和陷阱用户档案{#adding-test-and-trap-profiles}
 
-添加测试配置文件，以便使用少量配置文件测试文件。 它允许您在准备实际文件之前快速创建一个文件范例以测试和验证结构。 请参阅 [管理测试配置文件](../../audiences/using/managing-test-profiles.md)。
+添加测试用户档案，以便使用少量用户档案对文件进行测试。利用此功能，可在准备实际文件之前快速创建一个文件示例以测试和验证结构。请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
-使用陷阱是直接发送邮件的关键。 它们允许您验证您的直邮提供商是否确实在发送通信，以及他们是否没有将您的客户列表发送给其他提供商。 请参阅 [使用陷印](../../sending/using/using-traps.md)。
+陷阱的使用对于直邮投放至关重要。利用此功能，可验证您的直邮提供商是否确实在发送邮件，以及他们是否未将您的客户清单发送给其他提供商。请参阅[使用陷阱](../../sending/using/using-traps.md)。
 
-对于直接邮件发送，在提取过程中添加陷印并混合在输出文档中。 默认情况下，它们按输出文件的排序顺序插入，但您可以选择在文件的结尾或开头插入。 定义受众时，从选项卡中选择所需的 **[!UICONTROL Trap insertion mode]** 选项。
+直邮投放会在提取期间添加陷阱，并混在输出文档中。默认情况下，会按照输出文件的排列顺序插入陷阱，但也您可以选择在文件末尾或开头插入。定义受众时，从 **[!UICONTROL Trap insertion mode]** 选项卡中选择所需的选项。
 
 ![](assets/direct_mail_trap_insertion_mode.png)
