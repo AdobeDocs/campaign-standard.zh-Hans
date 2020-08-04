@@ -1,53 +1,56 @@
 ---
 title: 开始和结束
-description: “开始”和“结束”活动允许您清楚地标记工作流的开始和结束位置。
-page-status-flag: 从未激活
+description: 利用 Start 和 End 活动，可明确地标记工作流的开始位置和结束位置。
+page-status-flag: never-activated
 uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 执行活动
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
 
 # 开始和结束{#start-and-end}
 
-## 说明 {#description}
+## 说明{#description}
 
 ![](assets/start.png)
 
 ![](assets/end.png)
 
-通过 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 活动，您可以清楚地标记工作流的开始和结束位置。
+利用 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 活动，可明确地标记工作流的开始位置和结束位置。
 
-## 使用环境 {#context-of-use}
+## 使用环境{#context-of-use}
 
-执行工作流会从未进行入站过渡的活动开始，并在不再有任何任务正在进行时停止。 但是，您可以添加 **[!UICONTROL Start]** 和活 **[!UICONTROL End]** 动以清楚地标记工作流的开始和结束点。 这对于相对复杂的工作流程特别有用。
+执行的工作流属于此类情况：在没有集客过渡的情况下开始执行活动，并在没有任何正在进行的任务时停止。此时，您就可以添加 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 活动明确地标记工作流的开始位置和结束位置。这尤其适合用于相对较复杂的工作流。
 
-最好使用活动，而不 **[!UICONTROL End]** 是单独保留工作流的上次过渡，以确保工作流正确结束。
+最好的做法是使用 **[!UICONTROL End]** 活动，而不是任其留在工作流的最后一个过渡处，以确保工作流正确结束。
 
-## 配置 {#configuration}
+## 配置{#configuration}
 
-1. 将某个或活动 **[!UICONTROL Start]** 拖放到 **[!UICONTROL End]** 您的工作流中。
-1. 将活 **[!UICONTROL Start]** 动置于查询等其他活动之前，并将活动置于 **[!UICONTROL End]** 一系列活动之后。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
-1. 您可以配置 **End** 对象，使其中断工作流的所有正在执行的任务，包括尚未完成的任务。 为此，请选择相应的选项。
+1. 将 **[!UICONTROL Start]** 或 **[!UICONTROL End]** 活动拖放到您的工作流中。
+1. 将 **[!UICONTROL Start]** 活动放在其他活动（如查询）之前，将 **[!UICONTROL End]** 活动放在一系列活动之后。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 您可以配置 **End** 对象，以中断工作流的所有正在进行的任务，包括尚未完成的任务。要实现此目的，请选择相应的选项。
 1. 确认活动的配置并保存工作流。
 
-## 触发另一个工作流 {#triggering-another-workflow}
+## 触发另一个工作流{#triggering-another-workflow}
 
-使用活动 **[!UICONTROL External signal]** 的选项卡，您可 **[!UICONTROL End]** 以触发另一个工作流。 请参阅“ [External signal](../../automating/using/external-signal.md) （外部信号）”部分。
+使用 **[!UICONTROL End]** 活动的 **[!UICONTROL External signal]** 选项卡，可以触发另一个工作流。请参阅[外部信号](../../automating/using/external-signal.md)一节。
 
-## Example {#example}
+## 示例{#example}
 
-以下示例显示如何使用活动和多个活动执行复 **[!UICONTROL Start]** 杂的工作 **[!UICONTROL End]** 流。 该 **[!UICONTROL Stop all tasks in progress]** 框已选中第一个活 **[!UICONTROL End]** 动。 相应任务完成后，将停止整个工作流：它将具有与选择按钮相同 ![](assets/stop_darkgrey-24px.png) 的效果(请参阅“操作 [栏](../../automating/using/workflow-interface.md#action-bar) ”部分)。
+以下示例显示如何使用一个 **[!UICONTROL Start]** 活动和多个 **[!UICONTROL End]** 活动执行复杂的工作流。已经为第一个 **[!UICONTROL End]** 活动勾选了 **[!UICONTROL Stop all tasks in progress]** 方框。一旦相应的任务完成，整个工作流将停止：它与选择 ![](assets/stop_darkgrey-24px.png) 按钮具有相同的效果（请参阅[操作栏](../../automating/using/workflow-interface.md#action-bar)一节）。
 
 ![](assets/wkf_start_end_example.png)
 
