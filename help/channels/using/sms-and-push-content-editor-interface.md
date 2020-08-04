@@ -1,33 +1,36 @@
 ---
 title: 短信和推送内容编辑器界面
-description: 了解如何使用编辑器的不同部分来修改SMS和推送内容。
-page-status-flag: 从未激活
+description: 了解如何使用编辑器的不同部分修改短信和推送内容。
+page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 设计
-content-type: 参考
-topic-tags: 编辑SMS和推送内容
+audience: designing
+content-type: reference
+topic-tags: editing-sms-and-push-content
 discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
-context-tags: 交付，sms内容，返回
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
 
 # 短信和推送内容编辑器界面{#sms-and-push-content-editor-interface}
 
-SMS和推送内容编辑器分为两个不同的部分，允许您查看和编辑消息。
+短信和推送内容编辑器分为两个不同的部分，以便您查看和编辑消息。
 
-1. 操 **作栏包含** 页面的常规选项。 您可以在此处插入个性化字段或内容块、添加条件文本和预览SMS内容。 请参 [阅SMS和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
-1. 屏幕 **的编辑区域** ，允许您直接输入文本消息并选择要插入个性化的位置。 请参 [阅SMS和推送内容编辑模式](#sms-and-push-content-edition-modes)。
+1. **操作栏**&#x200B;包含页面的常规选项。您可以从此处插入个性化字段或内容块、添加条件文本并预览短信内容。请参阅[短信和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
+1. 利用该屏幕的&#x200B;**编辑区**，您可以直接输入文本消息并选择要插入个性化内容的位置。请参见[短信和推送内容编辑模式](#sms-and-push-content-edition-modes)。
 
-## SMS和推送内容编辑器操作栏 {#sms-and-push-content-editor-action-bar}
+## 短信和推送内容编辑器操作栏{#sms-and-push-content-editor-action-bar}
 
-操作栏包含不同的按钮，通过这些按钮可以与创建的内容交互。
+利用操作栏中的各个按钮，可与正在创建的内容交互。
 
 <table> 
  <thead> 
@@ -41,56 +44,56 @@ SMS和推送内容编辑器分为两个不同的部分，允许您查看和编�
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">预览</span><br /> </td> 
-   <td> 仅SMS<br /> </td> 
-   <td> 允许您查看如何为收件人呈现电子邮件。 请参阅 <a href="../../sending/using/previewing-messages.md">预览消息</a>。<br /> </td> 
+   <td> <span class="uicontrol">预览</span> <br /> </td> 
+   <td> 仅短信<br /> </td> 
+   <td> 允许您查看电子邮件向收件人呈现的方式。请参阅<a href="../../sending/using/previewing-messages.md">预览消息</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">撤消</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
-   <td> 取消执行的上一个操作。<br /> </td> 
+   <td> <span class="uicontrol">撤消</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
+   <td> 取消上次执行的操作。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">重做</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
-   <td> 重新执行上次取消的操作。<br /> </td> 
+   <td> <span class="uicontrol">重做</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
+   <td> 重新执行您取消的上一个操作。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">插入个性化字段</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
-   <td> 允许您从数据库向内容添加字段。 请参 <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">阅插入个性化字段</a>。<br /> </td> 
+   <td> <span class="uicontrol">插入个性化字段</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
+   <td> 用于向内容添加来自数据库的字段。请参阅<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">插入个性化字段</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">插入内容块</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
-   <td> 允许您向内容添加个性化区块。 请参 <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">阅添加内容块</a>。<br /> </td> 
+   <td> <span class="uicontrol">插入内容块</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
+   <td> 用于向内容添加个性化块。请参阅<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">添加内容块</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">启用动态文本</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
-   <td> 允许您在内容中插入动态文本。 See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
+   <td> <span class="uicontrol">启用动态文本</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
+   <td> 允许您在内容中插入动态文本。请参阅<a href="../../channels/using/defining-dynamic-text.md" target="_blank">定义动态文本</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">禁用动态文本</span><br /> </td> 
-   <td> SMS和推送<br /> </td> 
+   <td> <span class="uicontrol">禁用动态文本</span> <br /> </td> 
+   <td> 短信和推送<br /> </td> 
    <td> 允许您删除动态文本。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## SMS和推送内容编辑模式 {#sms-and-push-content-edition-modes}
+## 短信和推送内容编辑模式{#sms-and-push-content-edition-modes}
 
-SMS和推送内容编辑器提供以下功能：
+短信和推送内容编辑器提供了以下功能：
 
 * 输入文本。
-* 添加个性化字段。 有关此内容的详细信息，请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
-* 添加内容块。 有关此方面的详细信息，请 [参阅添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
-* 添加动态文本。 有关此内容的详细信息，请参 [阅定义动态文本](../../channels/using/defining-dynamic-text.md)。
-* 个性化SMS发送者的姓名（仅限SMS）。 有关详细信息，请参阅 [SMS配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
+* 添加个性化字段。有关更多信息，请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
+* 添加内容块。有关更多信息，请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
+* 添加动态文本有关更多信息，请参阅[定义动态文本](../../channels/using/defining-dynamic-text.md)。
+* 个性化短信发送者的姓名（仅限短信）。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
 
