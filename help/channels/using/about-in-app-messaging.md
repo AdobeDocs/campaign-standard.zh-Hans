@@ -1,6 +1,6 @@
 ---
 title: 关于应用程序内消息传递
-description: 在具有应用程序内消息传递的移动应用程序中显示消息或警报。
+description: 在具有应用程序内消息传递功能的移动应用程序中，显示消息或警报。
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -16,36 +16,36 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 1%
+ht-degree: 28%
 
 ---
 
 
 # 关于应用程序内消息传递{#about-in-app-messaging}
 
-应用程序内消息传递是一个消息传递渠道，当用户在移动应用程序中处于活动状态时，它允许您显示消息。 此消息类型对推送通知是免费的，这些通知会传送到用户电话的通知中心。 有关推送通知渠道的详细信息，请参阅此 [部分](../../channels/using/about-push-notifications.md)。
+利用应用程序内消息传递渠道，可向移动应用程序中的活动用户发送消息。这种消息类型可免费将通知推送到用户手机的通知中心。有关推送通知渠道的更多信息，请参阅此[章节](../../channels/using/about-push-notifications.md)。
 
-此渠道需要将移动应用程序与Adobe Experience PlatformSDK集成。 这些应用程序必须先在Adobe Experience Platform启动中激活，然后才能在Adobe Campaign中针对应用程序内投放可用。
+此渠道要求将移动应用程序与 Adobe Experience Platform SDK 集成。这些应用程序必须先在 Adobe Experience Platform Launch 中激活，然后才能在 Adobe Campaign 中用于应用程序内投放。
 
 ![](assets/launch_campaign.png)
 
-要开始在利用Experience PlatformSDK的移动应用程序上发送应用程序内消息，您需要满足以下先决条件：
+要在应用 Experience Platform SDK 的移动应用程序上发送应用程序内消息，您首先需要满足以下先决条件：
 
-1. 在Adobe Campaign中，确保可以访问 **[!UICONTROL In-App]** 渠道。 如果您无法访问这些渠道，请与您的帐户团队联系。
+1. 在 Adobe Campaign 中，确保可以访问 **[!UICONTROL In-App]** 渠道。如果您无法访问这些渠道，请与帐户管理团队联系。
 
-1. 要在Adobe Campaign StandardSDK应用程序中利用移动用例，必须在Adobe Experience Platform启动中创建移动应用程序并在Adobe Campaign Standard中配置。 有关分步指南，请参阅本 [页](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+1. 要在 Adobe Campaign Standard 中使用与 Experience Cloud SDK 应用程序集成的移动使用案例，必须在 Adobe Experience Platform Launch 中创建移动应用，并在 Adobe Campaign Standard 中对其进行配置。有关分步指南，请参阅此[页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-1. 配置完毕后，您现在可以准备应用程序内消息。 For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. 配置完毕后，您即可准备应用程序内消息。有关更多信息，请参见此[页面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 
-1. 然后，您可以决定发送应 [用程序内消息](../../channels/using/customizing-an-in-app-message.md) ，或自 [定义本地通知消息类型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
+1. 然后，您可以决定是发送[应用程序内消息](../../channels/using/customizing-an-in-app-message.md)还是[自定义本地通知消息类型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
 
-1. 您的投放现已准备好发送。 要了解更多信息，请参阅此 [页](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)。
+1. 您的投放现已准备就绪，可供发送。要了解更多信息，请参阅此[页面](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)。
 
 **相关内容：**
 
 * [应用程序内报告](../../reporting/using/in-app-report.md)
-* [Adobe Campaign Standard支持的移动用例](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Adobe Campaign Standard 中支持的移动使用案例](https://helpx.adobe.com/cn/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard Mobile 指南](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)
 
 ## 应用程序内常见问题解答 {#in-app-faq}
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 查看以下资源：
 
-* [视频教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [视频Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [博客文章](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [社区页](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 * 使用用户档案模板构建的消息只有在用户登录应用程序后才能送达。
 * 为了便于进行安全握手，移动应用程序开发人员应使用setLinkageField API传递其他身份验证详细信息。 请注意，链接字段是扩展appSubscriberRcp表时标识为移动用户档案和CRM用户档案之间的链接的字段。
 * 当用户使用resetLinkageField注销应用程序时，他们应刷新存储在设备上的应用程序内消息和resetLinkagefield。 这可确保当其他用户登录到应用程序时，他们看不到针对前一用户的消息。
-* 请参阅 [Mobile SDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) ，以实施此安全机制客户端。
+* 请参阅 [Mobile SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) ，以实施此安全机制客户端。
 
 ### 如何启用活动中的应用程序内报告? {#enable-inapp-reporting}
 
