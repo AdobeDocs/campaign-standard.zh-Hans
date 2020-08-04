@@ -1,75 +1,78 @@
 ---
 title: 确认发送
-description: 了解如何完成消息准备。
-page-status-flag: 从未激活
+description: 了解如何完成消息的准备工作。
+page-status-flag: never-activated
 uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 发送
-content-type: 参考
-topic-tags: 发送和跟踪消息
+audience: sending
+content-type: reference
+topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
-context-tags: 交付，部署，返回
+context-tags: delivery,deployment,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '312'
+ht-degree: 100%
 
 ---
 
 
 # 确认发送{#confirming-the-send}
 
-在您准备完消息并执行了批准步骤后，可以发送这些消息。 有关消息准备的详细信息，请参 [阅准备发送](../../sending/using/preparing-the-send.md)。
+您完成准备消息并执行批准步骤后，即可发送消息。有关消息准备的更多信息，请参阅[准备发送](../../sending/using/preparing-the-send.md)。
 
-只有具有该角色的用 **[!UICONTROL Start deliveries]** 户才能确认发送。 有关详细信息，请参阅角 [色列表部分](../../administration/using/list-of-roles.md) 。
+只有具有 **[!UICONTROL Start deliveries]** 角色的用户才能确认发送。有关更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
-没有此角色的用户将看到以下消息：
+不具有此角色的用户将看到以下消息：
 
 ![](assets/confirm_delivery_2.png)
 
-要发送您的分发，请单 **[!UICONTROL Confirm send]** 击消息操作栏中的按钮。
+要发送投放，请单击消息操作栏中的 **[!UICONTROL Confirm send]** 按钮。
 
 ![](assets/confirm_delivery.png)
 
-系统将要求您通过单击按钮来确定发送的 **[!UICONTROL OK]** 结束。
+系统将要求您通过单击 **[!UICONTROL OK]** 按钮以最终确定发送。
 
 ![](assets/confirm_delivery1.png)
 
-正在发送消息。
+发送消息。
 
 >[!NOTE]
 >
->如果消息已预定，则在到达发送时间时发送消息。 For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>如果为消息安排了发送时间，则会在到达该时间时发送消息。有关计划发送消息的更多信息，请参阅[此章节](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用的是没有汇总期的重复交付，则可以在发送交付之前请求确认。 为此，请打开交 **[!UICONTROL Schedule]** 付功能板的块，然后激活专用选项。
+如果您使用的是没有聚合期的定期投放，则可以在发送投放之前请求确认。要实现此目的，请打开投放仪表板的 **[!UICONTROL Schedule]** 块，然后激活专用选项。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-块 **[!UICONTROL Deployment]** 显示发送的进度。
+**[!UICONTROL Deployment]** 块可显示发送的进度。
 
-将消息发送到联系人后，区域会 **[!UICONTROL Deployment]** 显示您的KPI（关键绩效指标）数据，包括：
+将消息发送到联系人后，**[!UICONTROL Deployment]** 区域会显示您的 KPI（关键绩效指标）数据，包括：
 
-* 要传送的消息数
-* 发送的消息数
-* 已传送消息的百分比
-* 弹回和错误的百分比
+* 要投放的消息数
+* 已发送的消息数
+* 已投放邮件的百分比
+* 退回和错误的百分比
 * 打开消息的百分比
-* 消息中（用于电子邮件）的点击率
+* 点击消息的百分比（适用于电子邮件）
 
    >[!NOTE]
    >
-   >和 **[!UICONTROL Open rate]** 每 **[!UICONTROL Click-through rate]** 小时更新一次。
+   >**[!UICONTROL Open rate]** 和 **[!UICONTROL Click-through rate]** 每小时更新一次。
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新时间过长或未考虑发送日志的结果，请单击窗 **[!UICONTROL Compute stats]** 口中的按 **[!UICONTROL Deployment]** 钮。
+如果 KPI 更新时间过长或未考虑来自发送日志的结果，请单击 **[!UICONTROL Deployment]** 窗口中的 **[!UICONTROL Compute stats]** 按钮。
 
 ![](assets/sending_delivery7.png)
 
-该消息可在构成部分受众的其中一个客户档案的历史记录中查看。 See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
+可以在构成受众的其中一个客户用户档案的历史记录中查看消息。请参阅[整合后的客户用户档案](../../audiences/using/integrated-customer-profile.md)。
 
-发送邮件后，您可以跟踪其收件人的行为并对其进行监视以衡量其影响。 有关此内容的详细信息，请参阅以下各节：
+发送消息后，您可以跟踪其收件人的行为并对其进行监视以衡量其影响。有关更多信息，请参阅一下章节。
 
 * [跟踪消息](../../sending/using/tracking-messages.md)
 * [监控投放](../../sending/using/monitoring-a-delivery.md)
