@@ -1,6 +1,6 @@
 ---
 title: 创建服务
-description: 了解如何创建您的第一项服务并对其进行配置，以向订阅者发送电子邮件确认。
+description: 了解如何创建并配置您的第一项服务，以向订阅者发送电子邮件确认函。
 page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
@@ -12,52 +12,55 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
 
 # 创建服务{#creating-a-service}
 
-为了能够管理订阅，您首先需要创建并配置服务。 通过配置新服务，您可以指定配置文件订阅或取消订阅服务时将收到的电子邮件确认。 您还将定义链接到该服务的订阅和取消订阅登录页面。 例如，插入到电子邮件中的服务订阅链接会自动将配置文件定向到服务中指定的订阅登录页面。
+为了能够管理订阅，您首先需要创建并配置服务。通过配置新服务，可指定用户档案在订阅或取消订阅服务时将会收到的电子邮件确认函。您还可定义链接到服务的订阅和退订登陆页面。例如，插入到电子邮件中的服务订阅链接，可自动将用户档案定向到服务中指定的订阅登陆页面。
 
-配置服务：
+要配置服务，请执行以下操作：
 
-1. 从高级菜单 **[!UICONTROL Profiles & audiences]**>中，**[!UICONTROL Services]** 通过Adobe Campaign徽标添加新服务或选择现有服务。 如果创建新服务，只需按照屏幕上显示的步骤操作。
+1. 通过 Adobe Campaign 徽标访问高级菜单 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**，添加新服务或选择现有服务。如果是创建新服务，只需按照屏幕上显示的步骤进行操作即可。
 
-   默认服务模板可用。 此模板已预配置默认登录页面和确认电子邮件。 您可以创建其他模板来定义特定配置。 有关详细信息，请参阅管理模 [板部分](../../start/using/marketing-activity-templates.md) 。
+   提供了默认的服务模板。该模板预配置了默认登陆页面和确认电子邮件。您也可以创建其他模板以定义特定配置。有关更多信息，请参阅[管理模板](../../start/using/marketing-activity-templates.md)一节。
 
-1. 在通过 **[!UICONTROL Service properties]**服务功能板中的按钮![](assets/edit_darkgrey-24px.png)访问的部分中，为订阅和取消订阅配置确认消息。
+1. 通过服务仪表板 **[!UICONTROL Service properties]** 按钮访问 ![](assets/edit_darkgrey-24px.png) 部分，为订阅和退订配置确认消息。
 
    ![](assets/lp_service_parameters.png)
 
-1. 选择选 **[!UICONTROL Subscriptions with an expiration date]**项可设置订阅的有效期。
+1. 选择 **[!UICONTROL Subscriptions with an expiration date]** 选项可设置订阅的有效期。
 
    ![](assets/lp_service_expiration.png)
 
-   您可以在分段活动中使用到期日期来定位订阅未过期服务的配置文件。
+   您可以使用分段活动中的到期日期，定向订阅了未过期服务的用户档案。
 
-1. 填写字 **[!UICONTROL Service label]**段。 使用自定义确认消息时，服务标签是必填的。
+1. 填写 **[!UICONTROL Service label]** 字段。使用自定义确认消息时，必须填写服务标签。
 
-1. 为订阅和取消订阅选择确认消息模板。 有三种模式可用：
+1. 选择用于订阅和退订的确认消息模板。提供了三种模式：
 
-   * **[!UICONTROL No message]**:此模式允许您创建无确认消息的服务。
-   * **[!UICONTROL Default message]**:此模式将使用默认订阅或取消订阅确认事务消息。 默认确认消息是通用消息，对于使用默认模式的所有服务，该消息都是相同的。
+   * **[!UICONTROL No message]**：利用此模式可创建无确认消息的服务。
+   * **[!UICONTROL Default message]**：利用此模式可使用默认订阅或退订确认事务型消息。使用默认模式的所有服务，都使用相同的通用默认确认消息。
 
       >[!NOTE]
       >
-      >在选中该框后，您可以通过单击部分中的默认消息标签或从 **[!UICONTROL Service properties]**Adobe Campaign事务性消息列表中选择默认消息来修改默认消**[!UICONTROL Show internal transactional messages]** 息。
+      >要修改默认消息，可单击 **[!UICONTROL Service properties]** 部分中的默认消息标签，或从 Adobe Campaign 事务型消息列表中选择默认消息（勾选 **[!UICONTROL Show internal transactional messages]** 方框后）。
 
-   * **[!UICONTROL Custom message]**:此模式允许您处理特定于每个服务的自定义确认消息。 然后，选择与**[!UICONTROL Custom subscription event configuration]** 特定事务消息模板关 [联的](../../channels/using/about-transactional-messaging.md) 。 有关此功能的详细信息，请参 [阅确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
+   * **[!UICONTROL Custom message]**：利用此模式可处理特定于各项服务的自定义确认消息。然后，选择与特定[事务型消息模板](../../channels/using/about-transactional-messaging.md)关联的 **[!UICONTROL Custom subscription event configuration]**。有关更多信息，请参阅[确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
 
-1. 保存服务。 它现已准备好使用。
+1. 保存服务。服务现已准备就绪，可供使用。
 
-创建服务后，即可开始提升它。
+创建服务后，即可对其进行推广。
 
 **相关主题：**
 
-* [管理服务和订阅视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
+* [管理服务和订阅](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)视频
 * [推广服务](../../audiences/using/promoting-a-service.md)
 * [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
