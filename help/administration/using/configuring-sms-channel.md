@@ -1,6 +1,6 @@
 ---
 title: 配置短信渠道
-description: “了解SMS配置步骤： 路由、编码、格式和高级属性。 "
+description: “了解短信配置步骤：路由、编码、格式和高级属性。”
 page-status-flag: never-activated
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
@@ -16,96 +16,96 @@ translation-type: tm+mt
 source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
 workflow-type: tm+mt
 source-wordcount: '1625'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
 # 配置短信渠道{#configuring-sms-channel}
 
-要发送SMS消息，管理员必须在> > >菜单下配置一个或多 **[!UICONTROL Administration]** 个 **[!UICONTROL Channels]** 外部帐户 **[!UICONTROL SMS]****[!UICONTROL SMS accounts]** 。
+要发送短信消息，管理员必须通过 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 菜单配置一个或多个外部帐户。
 
-创建和修改外部帐户的步骤详见“ [外部帐户](../../administration/using/external-accounts.md) ”。 您将在下面找到特定于外部帐户发送SMS消息的参数。
+有关创建和修改外部帐户的详细步骤，请参见[外部帐户](../../administration/using/external-accounts.md)一节。下文中介绍了专用于外部帐户发送短信消息的参数。
 
-## 定义SMS路由 {#defining-an-sms-routing}
+## 定义短信路由{#defining-an-sms-routing}
 
-默认 **[!UICONTROL SMS routing via SMPP]** 情况下提供外部帐户，但添加其他帐户可能会很有用。
+默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
-如果要使用SMPP协议，还可以创建新外部帐户。 有关SMS协议和设置的详细信息，请参阅此技 [术说明](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。
+如果想要使用 SMPP 协议，您也可以创建新的外部帐户。有关短信协议和设置的更多信息，请参阅此[技术说明](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。
 
-1. 从创建新外部帐户 **[!UICONTROL Administration > Application settings > External accounts]**。
-1. 将帐户类型定 **[!UICONTROL Routing]**&#x200B;义为，渠道 **[!UICONTROL Mobile (SMS)]** 为，投放模式定义为 **[!UICONTROL Bulk delivery]**。
+1. 从 **[!UICONTROL Administration > Application settings > External accounts]** 创建新的外部帐户。
+1. 将帐户类型定义为 **[!UICONTROL Routing]**、渠道定义为 **[!UICONTROL Mobile (SMS)]**，投放模式定义为 **[!UICONTROL Bulk delivery]**。
 
    ![](assets/sms_routing.png)
 
 1. 定义连接设置。
 
-   要输入特定于发送SMS消息的连接设置，请与SMS服务提供商联系，SMS将向您解释如何完成不同的外部帐户字段。
+   要输入专用于发送短信消息的连接设置，请与短信服务提供商联系，提供商将向您说明如何填写各种外部帐户字段。
 
    ![](assets/sms_connection.png)
 
-   该 **[!UICONTROL Enable TLS over SMPP]** 选项允许您加密SMPP通信。
+   利用 **[!UICONTROL Enable TLS over SMPP]** 选项，可加密 SMPP 通信。
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** 允许您将所有SMPP流量转储到日志文件中。 必须启用此选项才能对连接器进行故障诊断，并与提供者看到的流量进行比较。
+   利用 **[!UICONTROL Enable verbose SMPP traces in the log file]** 可将所有 SMPP 通信记录转储到日志文件中。必须启用此选项才能对连接器进行故障诊断，并与提供商的通信记录进行对比。
 
-1. 联系Adobe,Adobe将根据所选的提供商 **[!UICONTROL SMS-C implementation name]** 为您提供输入字段的值。
-1. 定义SMPP渠道设置。 您可以在SMS编码和格 [式部分了解更多](#sms-encoding-and-formats) 。
+1. 联系 Adobe，Adobe 将根据所选的提供商为您提供用于输入到 **[!UICONTROL SMS-C implementation name]** 字段中的值。
+1. 定义 SMPP 渠道设置。有关更多信息，请参见[短信编码和格式](#sms-encoding-and-formats)一节。
 
-   如果 **[!UICONTROL Store incoming MO in the database]** 希望将所有传入的SMS存储在inSMS表中，请启用。 有关如何检索传入SMS的详细信息，请参阅此 [部分](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
+   如果您希望将所有传入的短信存储在 inSMS 表格中，请启用 **[!UICONTROL Store incoming MO in the database]**。有关如何检索传入短信的更多信息，请参阅此[章节](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
 
-   该 **[!UICONTROL Enable Real-time KPI updates during SR processing]** 选项允 **[!UICONTROL Delivered]** 许在发 **[!UICONTROL Bounces + Errors]** 送投放后实时更新KPI或KPI。 这些KPI可以在窗口中找 **[!UICONTROL Deployment]** 到，并直接从从提供商接收的SR（状态报告）重新计算。
+   利用 **[!UICONTROL Enable Real-time KPI updates during SR processing]** 选项，可在发送投放后实时更新 **[!UICONTROL Delivered]** 或 **[!UICONTROL Bounces + Errors]** KPI。这些 KPI 会显示在 **[!UICONTROL Deployment]** 窗口中，并可根据接收自提供商的 SR（状态报告）重新计算。
 
    ![](assets/sms_connection_1.png)
 
-1. 定义参 **[!UICONTROL Throughput and timeouts]** 数。
+1. 定义 **[!UICONTROL Throughput and timeouts]** 参数。
 
-   可以指定每秒MT的出站消息的最大吞吐量（“MT”，已终止移动设备）。 如果在相应字段中输入“0”，吞吐量将无限制。
+   您可以指定叫客消息的最大吞吐量（其单位为每秒 MT 数，其中的“MT”指的是“终端终止”）。如果在对应的字段中输入“0”，则吞吐量将没有限制。
 
-   需要以秒完成与持续时间对应的所有字段的值。
+   对应于持续时间的所有字段值，都必须填写以秒为单位的值。
 
-1. 定义SMS-C特定参数，以备您需要定义特定编码映射时使用。 有关详细信息，请参阅 [SMSC特定信息](#smsc-specifics) 部分。
+1. 需要定义特定编码映射时，可定义 SMS-C 特定参数。有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
 
-   如果 **[!UICONTROL Send full phone number (send characters other than digits)]** 您不想遵守SMPP协议并将前缀传输到SMS提供 **[!UICONTROL +]** 商(SMS-C)的服务器，请启用此选项。
+   如果您不想遵守 SMPP 协议，且想要将 **[!UICONTROL +]** 前缀转移给短信提供商的服务器 (SMS-C)，请启用 **[!UICONTROL Send full phone number (send characters other than digits)]** 选项。
 
-   但是，鉴于某些提供者需要使用前 **[!UICONTROL +]** 缀，建议您与提供者进行核对，并建议您在必要时启用此选项。
+   但是，鉴于某些提供商需要使用 **[!UICONTROL +]** 前缀，建议您与提供商进行核实，他们将会提供是否有必要启用此选项的建议。
 
-1. 如果需要，可定义自动回复以根据回复的内容触发操作。 如需详细信息，请参阅[此部分](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
-1. 保存SMS路由外部帐户的配置。
+1. 如果需要，可定义自动回复以根据回复的内容触发操作。有关更多信息，请参阅[此章节](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+1. 保存短信路由外部帐户的配置。
 
-您现在可以使用新路由发送带有Adobe Campaign的SMS消息。
+您现在可以通过 Adobe Campaign，使用新路由发送短信消息。
 
-## SMS编码和格式 {#sms-encoding-and-formats}
+## 短信编码和格式{#sms-encoding-and-formats}
 
-### SMS编码、长度和音译 {#sms-encoding--length-and-transliteration}
+### 短信编码、长度和音译{#sms-encoding--length-and-transliteration}
 
-默认情况下，SMS中的字符数符合GSM（全球移动通信系统）标准。
+默认情况下，短信的字符数应符合 GSM（全球移动通信系统）标准。
 
-使用GSM编码的SMS消息限于160个字符，或对于多个部分发送的消息，每个SMS限制153个字符。
+使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
 
 >[!NOTE]
 >
->某些字符计为两个（大括号、方括号、欧元符号等）。 可用GSM字符的列表在“字符 [表- GSM标准”部分介绍](#table-of-characters---gsm-standard) 。
+>某些字符会被计为两个字符（大括号、方括号、欧元符号等）。可用 GSM 字符的列表，请参见[字符表 - GSM 标准](#table-of-characters---gsm-standard)一节。
 
-如果您喜欢，可通过选中相应的框来授权字符音译。
+如果需要，您可通过勾选对应的方框来授权字符音译。
 
 ![](assets/sms_transliteration.png)
 
-音译包括当GSM标准未考虑SMS字符时，用另一个字符替换该字符。
+音译指的是，如果 GSM 标准无法识别某个短信字符，则会用另一个字符替换该字符。
 
-* 如果音译 **被授权**，则在发送消息时，未考虑的每个字符将替换为GSM字符。 例如，字母“ë”被替换为“e”。 因此，消息会稍作更改，但字符限制将保持不变。
-* 当音译未 **授权**，包含未考虑的字符的每条消息都以二进制格式(Unicode)发送： 因此，所有字符都按原样发送。 但是，使用Unicode的SMS消息最多限制为70个字符（对于多部分发送的消息，每个SMS限制为67个字符）。 如果超过最大字符数，则会发送多条消息，这可能会产生额外费用。
+* 如果&#x200B;**授权**&#x200B;音译，则发送消息后，无法识别的每个字符都将被替换为 GSM 字符。例如，字母“ë”会被替换为“e”。因此，消息会有些微变化，但字符限制将保持不变。
+* **未授权**&#x200B;音译时，包含无法识别字符的每条消息都将以二进制格式 (Unicode) 发送：这样，所有字符都会按原样发送。但是，使用 Unicode 的短信消息长度上限为 70 个字符（对于分段发送的消息，每段短信的长度上限为 67 个字符）。如果超过最大字符数，则会分段发送多条消息，这可能会产生额外的费用。
 
 >[!IMPORTANT]
 >
->将个性化字段插入SMS消息内容可能会引入GSM编码未考虑的字符。 个性化SMS消息部分 [提供了内容示例](../../channels/using/personalizing-sms-messages.md) 。
+>将个性化字段插入短信消息内容，可能会引入 GSM 编码无法识别的字符。有关内容的示例，请参见[个性化短信消息](../../channels/using/personalizing-sms-messages.md)一节。
 
-默认情况下，字符音译处于禁用状态。 如果您希望SMS消息中的所有字符都按原样保留，请不要更改正确的名称，例如，我们建议您不启用此选项。
+默认情况下，字符音译处于禁用状态。如果您希望将短信消息中的所有字符都按原样保留，以免名称等内容被错误地更改，我们建议您不要启用此选项。
 
-但是，如果SMS消息包含大量生成Unicode消息的字符，则可以选择启用此选项来限制发送消息的成本。
+但是，如果短信消息包含大量会生成 Unicode 消息的字符，则可以选择加入此选项以限制发送消息的成本。
 
-### 字符表- GSM标准 {#table-of-characters---gsm-standard}
+### 字符表 - GSM 标准{#table-of-characters---gsm-standard}
 
-本节介绍GSM标准中考虑的字符。 除下面提到的字符外，插入消息正文的所有字符都会将整个消息转换为二进制格式(Unicode)，因此将其限制为70个字符。 有关详细信息，请参阅 [SMS编码、长度和音译](#sms-encoding--length-and-transliteration) 部分。
+本节介绍 GSM 标准可识别的字符。除下方所列的字符外，插入消息正文的所有其他字符都会导致整个消息被转换为二进制格式 (Unicode)，从而使其长度限制变成 70 个字符。有关更多信息，请参阅[短信编码、长度和音译](#sms-encoding--length-and-transliteration)一节。
 
 **基本字符**
 
@@ -162,7 +162,7 @@ ht-degree: 1%
    <td> t<br /> </td> 
   </tr> 
   <tr> 
-   <td> 埃<br /> </td> 
+   <td> é<br /> </td> 
    <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
    <td> %<br /> </td> 
    <td> 5<br /> </td> 
@@ -172,7 +172,7 @@ ht-degree: 1%
    <td> u<br /> </td> 
   </tr> 
   <tr> 
-   <td> 耶<br /> </td> 
+   <td> ù<br /> </td> 
    <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
    <td> &amp;<br /> </td> 
    <td> 6<br /> </td> 
@@ -182,7 +182,7 @@ ht-degree: 1%
    <td> v<br /> </td> 
   </tr> 
   <tr> 
-   <td> 伊<br /> </td> 
+   <td> ì<br /> </td> 
    <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
    <td> '<br /> </td> 
    <td> 7<br /> </td> 
@@ -192,7 +192,7 @@ ht-degree: 1%
    <td> w<br /> </td> 
   </tr> 
   <tr> 
-   <td> 奥<br /> </td> 
+   <td> ò<br /> </td> 
    <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
    <td> (<br /> </td> 
    <td> 8<br /> </td> 
@@ -206,9 +206,9 @@ ht-degree: 1%
    <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
    <td> )<br /> </td> 
    <td> 9 </td> 
-   <td> 我<br /> </td> 
+   <td> I<br /> </td> 
    <td> Y<br /> </td> 
-   <td> 我<br /> </td> 
+   <td> i<br /> </td> 
    <td> y<br /> </td> 
   </tr> 
   <tr> 
@@ -222,7 +222,7 @@ ht-degree: 1%
    <td> z<br /> </td> 
   </tr> 
   <tr> 
-   <td> 岛<br /> </td> 
+   <td> Ø<br /> </td> 
    <td> ESC<br /> </td> 
    <td> +<br /> </td> 
    <td> ;<br /> </td> 
@@ -232,12 +232,12 @@ ht-degree: 1%
    <td> ä<br /> </td> 
   </tr> 
   <tr> 
-   <td> 岛<br /> </td> 
-   <td> AE<br /> </td> 
+   <td> ø<br /> </td> 
+   <td> Æ<br /> </td> 
    <td> ,<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> L<br /> </td> 
-   <td> 厄<br /> </td> 
+   <td> Ö<br /> </td> 
    <td> l<br /> </td> 
    <td> ö<br /> </td> 
   </tr> 
@@ -249,114 +249,114 @@ ht-degree: 1%
    <td> M<br /> </td> 
    <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
-   <td> -<br /> </td> 
+   <td> ñ<br /> </td> 
   </tr> 
   <tr> 
-   <td> 奥<br /> </td> 
+   <td> Å<br /> </td> 
    <td> ß<br /> </td> 
    <td> .<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> N<br /> </td> 
-   <td> 乌<br /> </td> 
+   <td> Ü<br /> </td> 
    <td> n<br /> </td> 
-   <td> 女<br /> </td> 
+   <td> ü<br /> </td> 
   </tr> 
   <tr> 
    <td> å<br /> </td> 
-   <td> 埃<br /> </td> 
+   <td> É<br /> </td> 
    <td> /<br /> </td> 
    <td> ?<br /> </td> 
    <td> O<br /> </td> 
    <td> §<br /> </td> 
    <td> o<br /> </td> 
-   <td> 如<br /> </td> 
+   <td> à<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-SP: 空间
+SP：空格键
 
-ESC: 逃生
+ESC：Escape 键
 
-LF: 线源
+LF：换行
 
-CR: 回车
+CR：回车
 
-**高级字符（计数两次）**
+**高级字符（计为两个字符）**
 
 ^ { } [ ~ ] | €
 
-### SMSC特性 {#smsc-specifics}
+### SMSC 详情{#smsc-specifics}
 
 >[!NOTE]
 >
->这些选项允许您调整连接器以使用非标准SMSC（即不完全遵循SMPP 3.4规范）或特定编码要求，并且只应由高级用户配置。
+>利用这些选项，可调整连接器以使用非标准 SMSC（即不完全遵循 SMPP 3.4 规范）或特定编码要求，并且只应由高级用户进行配置。
 
-发送SMS消息时，Adobe Campaign可以使用一个或多个文本编码。 每个编码都有其自己的特定字符集，并确定适合SMS消息的字符数。
+发送短信消息时，Adobe Campaign 可以使用一个或多个文本编码。每个编码都有属于自己的特定字符集，可确定其适合短信消息的字符数。
 
-该 **[!UICONTROL DATA_CODING]** 字段允许Adobe Campaign与使用编码的SMS-C通信。
+利用 **[!UICONTROL DATA_CODING]** 字段，Adobe Campaign 可与用于编码的 SMS-C 通信。
 
 >[!NOTE]
 >
->data_coding值与实际 **使用的编码** 之间的映射是标准化的。 但是，某些SMS-C有自己的具体映射： 在这种情况下，您的 **Adobe Campaign** 管理员需要声明此映射。 请咨询您的提供商，了解更多信息。
+>**Data_coding** 值与实际使用的编码之间的映射，经过标准化处理。但是，某些 SMS-C 具有属于自己的特定映射：在这种情况下，**Adobe Campaign** 管理员需要声明该映射。有关更多信息，请咨询您的提供商。
 
-该 **[!UICONTROL Define a specific mapping of encodings]** 功能允许您声明 **data_codings** ，并在必要时强制进行编码： 为此，请在表中指定单个编码。
+利用 **[!UICONTROL Define a specific mapping of encodings]** 功能，可声明 **data_codings**，并在必要时强制进行编码：要实现此目的，请指定表格中的一种编码。
 
 **配置**
 
-* 未检 **[!UICONTROL Define a specific mapping of encodings]** 查该功能时，连接器具有通用行为：
+* 未勾选 **[!UICONTROL Define a specific mapping of encodings]** 功能时，连接器会采取常规行为：
 
-   * 它将尝试使用其分配值data_coding = **0的GSM编码**。
-   * 如果GSM编码失败，它将 **使用** UCS2编码，它将值 **data_coding = 8**。
+   * 它会尝试将 GSM 编码用于分配值 **data_coding = 0**。
+   * 如果 GSM 编码失败，则会将 **UCS2** 编码用于分配值 **data_coding = 8**。
 
    ![](assets/sms_data_coding.png)
 
-* 检查 **[!UICONTROL Define a specific mapping of encodings]** 该功能后，您可以定义要使用的编码以及链接的字 **[!UICONTROL data_coding]** 段值。 Adobe Campaign将尝试在列表中使用第一个编码，如果第一个编码被证明不可能，则使用下面的编码。
+* 勾选 **[!UICONTROL Define a specific mapping of encodings]** 功能后，您可以定义要使用的编码以及链接的 **[!UICONTROL data_coding]** 字段值。Adobe Campaign 将尝试使用列表中的第一种编码，如果第一种编码被证实不可用，则使用后续的编码。
 
-   申报顺序很重要： 建议您按成本的升序排 **列列表** ，以便使用编码，在每条SMS消息中尽可能多地显示字符。
+   声明的顺序很重要：建议您按照&#x200B;**成本**&#x200B;的升序方式排列编码列表，以选出可尽量减少短信消息发送条数的编码。
 
-   仅声明要使用的编码。 如果SMS-C提供的某些编码与您的使用目的不对应，请不要在列表中声明这些编码。
+   仅声明您要使用的编码。如果 SMS-C 提供的某些编码与您的使用目的并不对应，请不要在列表中声明这些编码。
 
    ![](assets/sms_data_coding1.png)
 
-### 自动回复已发送到MO {#automatic-reply-sent-to-the-mo}
+### 发送给 MO 的自动回复{#automatic-reply-sent-to-the-mo}
 
-当用户档案回复通过活动发送的SMS消息时，您可以配置自动发回给他的消息以及要执行的操作。
+当某个用户档案回复通过 Campaign 发送的短信消息时，您可以配置自动发回给他的消息以及要自动执行的操作。
 
-有关更多信息，请参见[此部分](../../channels/using/managing-incoming-sms.md)。
+有关更多信息，请参见[此章节](../../channels/using/managing-incoming-sms.md)。
 
-## 配置SMS属性 {#configuring-sms-properties}
+## 配置短信属性{#configuring-sms-properties}
 
-本节详细介绍SMS列表或SMS模板的属性屏幕中SMS特有的参数的投放。
+本节详细介绍短信投放或短信模板的属性屏幕中特有的短信参数列表。
 
-发送SMS消息的特定参数在部分和 **[!UICONTROL Send]** 部分中重新 **[!UICONTROL Advanced parameters]** 分组。
+用于发送短信消息的特定参数，被重组到了 **[!UICONTROL Send]** 和 **[!UICONTROL Advanced parameters]** 章节。
 
 ![](assets/sms_options.png)
 
 从部 **[!UICONTROL Advanced parameters]** 分：
 
-* 该 **[!UICONTROL From]** 选项允许您使用字符串个性化SMS消息发送者的名称。 这是将作为收件人移动电话上SMS消息的发送者姓名显示的名称。
+* 利用 **[!UICONTROL From]**，可使用字符串将短信消息发送者的名称个性化。该名称在收件人的手机显示为短信消息的发送者。
 
-   如果此字段为空，则它将是将使用的外部帐户中提供的源编号。 如果未提供源代码，则将使用短代码。 SMS外部帐户的特定投放在定义SMS [路由部分中显示](#defining-an-sms-routing) 。
+   如果此字段为空，则将显示所用外部帐户中提供的源号码。如果未提供源号码，则将使用短代码。有关专用于短信投放的外部帐户，请参阅[定义短信路由](#defining-an-sms-routing)一节。
 
    ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
-   >请查看您所在国家／地区有关修改发件人地址的法律。 您还应查看您的SMS服务提供商，看他们是否优惠了此功能。
+   >请参见您所在国家/地区有关修改发件人地址的法律。您还应与短信服务提供商进行核实，了解他们是否提供此功能。
 
 从SMS **[!UICONTROL Send]** 模板的一节中：
 
-* 该 **[!UICONTROL Maximum number of SMS per message]** 选项允许您定义用于发送消息的SMS消息数。 如果超出此数量，则不会发送消息。
+* 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 
    >[!IMPORTANT]
    >
-   >如果已将个性化字段或条件文本插入到SMS消息的内容中，则消息的长度以及因此要发送的SMS消息的数量可能因收件人而异。 有关详细信息，请参阅个性 [化SMS消息部分](../../channels/using/personalizing-sms-messages.md) 。
+   >如果在短信消息内容中插入了个性化字段或条件文本，则消息的长度以及发送短信消息的数量，可能会因收件人而异。有关更多信息，请参阅[个性化短信消息](../../channels/using/personalizing-sms-messages.md)一节。
 
    ![](assets/sms_smpp_3.png)
 
-* 该 **[!UICONTROL Transmission mode]** 字段允许您确定SMS消息的投放方法：
+* 利用 **[!UICONTROL Transmission mode]** 字段，可确定短信消息的投放方法：
 
-   * **[!UICONTROL Saved on SIM card]**: 消息存储在收件人的电话SIM卡上。
-   * **[!UICONTROL Saved on mobile]**: 该消息存储在电话的内部存储器中。
-   * **[!UICONTROL Flash]**: 消息将作为通知显示在收件人的移动电话上，然后消息会消失而不进行保存。
+   * **[!UICONTROL Saved on SIM card]**：消息存储在收件人的手机 SIM 卡上。
+   * **[!UICONTROL Saved on mobile]**：消息存储在手机的内部存储中。
+   * **[!UICONTROL Flash]**：消息将作为通知显示在收件人的手机上，然后通知会消失且不进行保存。
