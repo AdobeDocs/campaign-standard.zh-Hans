@@ -1,46 +1,49 @@
 ---
 title: 分叉
-description: “分叉”活动允许您创建出站过渡以同时启动多个活动。
-page-status-flag: 从未激活
+description: 利用分叉活动，可创建叫客过渡以同时开始多个活动。
+page-status-flag: never-activated
 uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 执行活动
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
-context-tags: 叉，主
+context-tags: fork,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
 
 
 # 分叉{#fork}
 
-## 说明 {#description}
+## 说明{#description}
 
 ![](assets/fork.png)
 
-该 **[!UICONTROL Fork]** 活动允许您创建出站过渡以同时启动多个活动。
+利用 **[!UICONTROL Fork]** 活动，可创建叫客过渡以同时开始多个活动。
 
-## 使用环境 {#context-of-use}
+## 使用环境{#context-of-use}
 
-该活 **[!UICONTROL Fork]** 动允许您在同一工作流中独立地执行多个不同的活动。
+利用 **[!UICONTROL Fork]** 活动，可在同一工作流中独立地执行多个不同的活动。
 
-## 配置 {#configuration}
+## 配置{#configuration}
 
-1. 将活动拖放 **[!UICONTROL Fork]** 到工作流中。
-1. 将其连接到它前面的其他活动，如查询。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
-1. 通过创建、删除或复制出站过渡来指定其数量。 您还可以为其添加名称和标签。
+1. 将 **[!UICONTROL Fork]** 活动拖放到工作流中。
+1. 将其连接至其前方的其他活动，例如查询。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 通过创建、删除或复制叫客过渡来指定其数量。您还可以为其添加名称和标签属性。
 1. 确认活动的配置并保存工作流。
 
-## Example {#example}
+## 示例{#example}
 
-以下示例展示了两个查询活动的交集，这两个查询活动的目标是Adobe Campaign数据库中的档案（本例中为巴黎妇女）。 因此，分叉活动允许您同时使用多个活动：一个是使受众能够记住计算出的人群，另一个是细分人群以发送两个不同的电子邮件，其中每个区段都有目标内容。 第一封邮件发给18至40岁的巴黎女性，另一封则针对40岁以上的巴黎女性。
+下方的示例展示了用于 Adobe Campaign 数据库中目标用户档案的两个查询的交集，在本例中，目标是居住在巴黎的女士。因此，利用交叉活动可同时使用多个活动：一个用于保存受众以记住计算出的群体，另一个用于细分群体以发送两封不同的电子邮件，从而为各个区段提供不同的内容。第一封邮件发给 18 至 40 岁的巴黎女士，另一封邮件发给 40 岁以上的巴黎女士。
 
 ![](assets/wkf_fork_example.png)
 
