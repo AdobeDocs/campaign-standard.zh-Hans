@@ -1,6 +1,6 @@
 ---
 title: 准备和发送应用程序内消息
-description: 创建应用程序内消息，向应用程序订阅者目标特定内容。
+description: 创建应用程序内消息，以使用特定内容定向应用程序订阅者。
 page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
@@ -25,54 +25,54 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->应用程序内个性化依赖于链接字段，该字段通常为CRM ID和／或移动应用程序登录ID。 与Adobe Campaign相关时，您应自行负责保护此链接字段。 如果您无法保持链接字段的安全，则您的个性化信息可能很脆弱。 如果您未能遵循安全链接字段构成、管理和保护实践，则Adobe不承担因未经授权的访问或使用任何用户档案数据而造成的损害的责任。
+>应用程序内个性化依赖于关联字段，该字段通常为 CRM ID 和/或移动应用程序登录 ID。与 Adobe Campaign 搭配使用时，您应自行负责保护此关联字段的安全。如果您无法保持关联字段的安全，则您的个性化信息可能很容易被攻击。如果您未能遵循安全关联字段构成、管理和保护实践，那么对于因未经授权的访问或使用任何用户档案数据而造成的损害，Adobe 概不负责。
 
-Adobe Campaign中提供三种类型的应用程序内消息：
+Adobe Campaign 提供两种类型的应用程序内消息：
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: 此消息类型允许您目标订阅了您的移动应用程序的Adobe Campaign用户档案(CRM用户档案)。 此消息类型可在Adobe Campaign中以所有可用的用户档案属性进行个性化，但需要Mobile SDK与活动的应用程序内消息传递服务之间进行安全握手，以确保包含个人和敏感信息的消息仅由授权用户使用。
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：利用此消息类型，可定向订阅了您移动应用程序的 Adobe Campaign 用户档案（CRM 用户档案）。此消息类型可在 Adobe Campaign 中使用可用的用户档案属性进行个性化，但需要在 Mobile SDK 与 Campaign 的应用程序内消息传递服务之间进行安全握手，以确保包含个人和敏感信息的消息仅供授权用户使用。
 
-   要在用户设备上下载此消息类型，Mobile SDK必须发送链接字段，这些字段用于将移动用户档案连接到Adobe Campaign中的CRM用户档案。 有关支持应用程序内所需的SDK API的详细信息，请参阅本 [页](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
+   要在用户设备上下载此消息类型，Mobile SDK 必须发送关联字段，这些字段用于将移动用户档案连接到 Adobe Campaign 中的 CRM 用户档案。有关支持应用程序内消息所需 SDK API 的更多信息，请参阅本[页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: 此消息类型允许您向移动应用程序的所有用户（当前或将来）发送消息，即使他们没有Adobe Campaign用户档案。 因此，在自定义消息时不可能进行个性化，因为用户档案中甚至不存在用户Adobe Campaign。
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: 此消息类型允许您目标具有移动用户档案的移动应用程序的所有已知或匿名用户。 此消息类型可仅使用非个人属性和非敏感属性进行个性化，并且不需要Mobile SDK与Adobe Campaign的应用程序内消息传递服务之间的安全握手。
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：利用此消息类型，可向移动应用程序的所有用户（当前或将来）发送消息，即使他们当前在 Adobe Campaign 中没有用户档案。因此，在自定义消息时不可能进行个性化，因为用户档案甚至可能不存在于 Adobe Campaign 中。
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**：利用此消息类型，可定向在 Adobe Campaign 中具有移动用户档案的移动应用程序所有已知或匿名用户。此消息类型可仅使用非个人属性和非敏感属性进行个性化，并且不需要 Mobile SDK 与 Adobe Campaign 的应用程序内消息传递服务之间进行安全握手。
 
-   有关如何处理个人和敏感数据的更多信息，请参 [阅使用个人和敏感用户档案处理移动字段](#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+   有关如何处理个人和敏感数据的更多信息，请参阅[处理具有个人和敏感数据的移动用户档案字段](#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
-## 使用个人和敏感数据处理移动用户档案字段 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## 处理具有个人和敏感数据的移动用户档案字段{#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。
 
-需要扩展此资源以收集您打算从移动设备发送到Adobe Campaign的数据。 要执行此操作，请参阅 [本页](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，了解详细步骤。
+需要扩展此资源，才能收集您打算从移动设备发送到 Adobe Campaign 的数据。要实现此目的，请参阅此[页面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以了解详细步骤。
 
-为了更安全地实现应用程序内消息的个性化，需要相应地配置此资源中的移动配置文件字段。在您的 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;新移动用户档案字段创建时，请检查 **[!UICONTROL Personal and Sensitive]** 以使它们在应用程序内消息个性化期间不可用。
+为了更安全地实现应用程序内消息的个性化，需要相应地配置此资源中的移动配置文件字段。在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 中创建新移动用户档案字段时，请勾选 **[!UICONTROL Personal and Sensitive]** 以使它们在应用程序内消息个性化期间不可用。
 
 >[!NOTE]
 >
->如果此表中已有具有自定义资源扩展的现有实施，我们建议您在将字段用于个性化应用程序内消息之前，对这些字段进行适当的标签。
+>如果此表格中已存在带有自定义资源扩展的现有实施项，我们建议您在将字段用于个性化应用程序内消息之前，为这些字段添加适当的标签。
 
 ![](assets/in_app_personal_data_2.png)
 
-配置和 **[!UICONTROL Subscriptions to an application]** 发布自定义资源后，您可以使用模板开始准备应用程序内 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 投放。 只有非个人和非敏感字段才可从资源中 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 进行个性化。
+配置和发布 **[!UICONTROL Subscriptions to an application]** 自定义资源后，您即可使用 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 模板开始准备应用程序内投放。只有 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中的非个人和非敏感字段，才可进行个性化。
 
-If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users&#39; PII data remains secure.
+如果需要使用 **Personal and Sensitive** 字段进行个性化，我们建议使用 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 模板，此模板可提供额外的安全机制来确保用户 PII 数据的安全。
 
-## 准备应用程序内消息 {#preparing-your-in-app-message}
+## 准备应用程序内消息{#preparing-your-in-app-message}
 
-创建具有Adobe Campaign的独立应用程序内消息的步骤有：
+使用 Adobe Campaign 创建独立应用程序内消息的步骤如下所示：
 
-1. 从Adobe Campaign主页中，单 **[!UICONTROL In-App messaging]** 击卡。
+1. 从 Adobe Campaign 主页中，单击 **[!UICONTROL In-App messaging]** 卡。
 
-   您还可以通过单击按钮从“营销活动 **”选项卡** ，创建应用程 **[!UICONTROL Create]** 序内。
+   您还可以通过单击 **[!UICONTROL Create]** 按钮，从 **Marketing activities** 选项卡，创建应用程序内消息。
 
-   请注意，还可以从活动、Adobe Campaign主页或工作流中创建应用程序内消息。
+   请注意，还可以从营销策划、Adobe Campaign 主页或工作流创建应用程序内消息。
 
-1. 选择 **应用程序内消息**。
+1. 选择 **In-App message**。
 
    ![](assets/inapp_creating.png)
 
-1. 根据您的受众定位需求选择适当的模板。
+1. 根据您的受众定向需求，选择适当的模板。
 
    ![](assets/inapp_creating_2.png)
 
@@ -82,58 +82,58 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 输入应用程序内消息属性，然后在字段中选择您的移动应用 **[!UICONTROL Associate a Mobile App to a delivery]** 程序。 请注意，如果未配置带有Adobe Campaign Standard的移动应用程序，该应用程序将不会显示在列表中。 有关移动应用程序配置的详细信息，请参 [阅此页](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。请注意，如果您未使用 Adobe Campaign Standard 配置移动应用程序，则该应用程序不会显示在列表中。有关移动应用程序配置的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/inapp_creating_3.png)
 
-1. 选择要为应用程序内消息目标的受众。 您的受众会根据与此投放关联的移动应用程序进行预过滤。
+1. 选择为应用程序内消息定向的受众。您的受众会根据与此投放关联的移动应用程序进行预筛选。
 
-   请注意，此步骤不是移动应用程 **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** 序所需的，因为它目标了移动应用程序的所有用户。
+   请注意，使用 **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** 无需此步骤，因为它已经定向了移动应用程序的所有用户。
 
    ![](assets/inapp_creating_8.png)
 
-1. 在选 **[!UICONTROL Triggers]** 项卡中，拖放将触发消息的事件。 通过选择触发器，您可以选择用户执行的操作，以显示应用程序内消息。
+1. 在 **[!UICONTROL Triggers]** 选项卡中，拖放触发消息的事件。通过选择触发器，您可以选择用户执行哪种操作会显示应用程序内消息。
 
-   提供四类别事件:
+   提供了四种类别事件:
 
-   * **[!UICONTROL Mobile Application events]**: 在您的移动应用程序中实现的自定义事件。
+   * **[!UICONTROL Mobile Application events]**：在您的移动应用程序中实现的自定义事件。
 
-      有关事件创建的更多信息，请参 [阅此页](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+      有关事件创建的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-   * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDK支持的现成生命周期事件。
+   * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支持的现成生命周期事件。
 
-      有关生命周期事件的详细信息，请参 [阅本页](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
+      有关生命周期事件的更多信息，请参阅[本页面](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
 
-   * **[!UICONTROL Analytics Events]**: 根据移动应用程序中所指导的内容，支持以下三种类别: AdobeAnalytics、上下文数据或视图状态。
+   * **[!UICONTROL Analytics Events]**：根据移动应用程序中的感知方式，支持以下三种类别：Adobe Analytics、上下文数据或视图状态。
 
-      请注意，这些事件仅在您有AdobeAnalytics许可证时可用。
+      请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
 
-   * **[!UICONTROL Places]**: 以下三个类别利用实时位置数据来提供基于情境的移动体验： 放置上下文数据、放置自定义元数据或放置事件类型。
+   * **[!UICONTROL Places]**：以下三个类别利用实时位置数据来提供与上下文相关的移动体验：Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-      有关Adobe Places的更多信息，请参阅Places [文档](https://placesdocs.com/)。
+      有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://placesdocs.com/)。
    ![](assets/inapp_creating_4.png)
 
-1. 如果您使用Adobe **[!UICONTROL Analytics Events]** Launch，将根据在Adobe Experience Platform启动中的Analytics扩展中配置的报表包自动填充Adobe Analytics和视图状态事件，而必须手动添加上下文数据事件。
+1. 如果您使用 **[!UICONTROL Analytics Events]**，则将根据在 Adobe Experience Platform Launch 的 Analytics 扩展中配置的报告包自动填充 Adobe Analytics 和视图状态事件，而上下文数据事件必须手动添加。
 
-   请注意，这些事件仅在您有AdobeAnalytics许可证时可用。
+   请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
 
    ![](assets/inapp_creating_7.png)
 
-1. 如果您使用触 **[!UICONTROL Places]** 发器，将根据在Adobe Places中创建的所有库及其兴趣点自动填充“放置上下文事件类型”、“放置自定义元数据”或“放置位置”。
+1. 如果您使用 **[!UICONTROL Places]** 触发器，将根据在 Adobe Places 中创建的所有库及其兴趣点自动填充 Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-   请注意，此触发器将仅应用于Experience Platform Launch中“位置”扩展中所选库中的“感兴趣点”。 有关Places扩展及其安装方法的详细信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   请注意，此触发器将针对 Experience Platform Launch 的 Places 扩展中来自选定库中的“兴趣点”应用于设备。有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://docs.adobe.com/content/help/zh-Hans/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
-1. 在选 **[!UICONTROL Frequency & duration]** 项卡中，选择触发器的频率、开始和结束日期、星期的日期以及将激活应用程序内消息的一天的时间。
+1. 在 **[!UICONTROL Frequency & duration]** 选项卡中，选择触发器的频率、开始和结束日期、在一周中的哪一天以及在一天中的哪个时间激活应用程序内消息。
 
    ![](assets/inapp_creating_5.png)
 
-1. 编辑消息内容并定义高级选项。 See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. 编辑消息内容并定义高级选项请参阅[自定义应用程序内消息](https://helpx.adobe.com/cn/campaign/standard/channels/using/customizing-a-push-notification.html)。
 
    ![](assets/inapp_creating_6.png)
 
-1. 单击 **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**。
 
-您的应用程序内消息现已准备好发送到目标受众。
+您的应用程序内消息现已准备好发送到定向受众。
 
 **相关主题：**
 
@@ -141,31 +141,31 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 * [在工作流中发送应用程序内消息](../../automating/using/in-app-delivery.md)
 
-## 发送应用程序内消息 {#sending-your-in-app-message}
+## 发送应用程序内消息{#sending-your-in-app-message}
 
-准备完投放并执行批准步骤后，即可发送消息。
+您完成准备投放并执行批准步骤后，即可发送消息。
 
 1. 单击 **[!UICONTROL Prepare]** 以计算目标并生成消息。
 
    ![](assets/inapp_sending_4.png)
 
-1. 成功完成准备工作后，**部署**&#x200B;窗口会显示以下 KPI：**目标**&#x200B;和&#x200B;**要交付的内容**。
+1. 成功完成准备工作后，**部署**&#x200B;窗口会显示以下 KPI：**Target** 和 **To deliver**。
 
-   您可以单击投放中的潜在排 ![](assets/lp_link_properties.png) 除或错误按钮，检查“部署”窗口。
+   您可以单击 ![](assets/lp_link_properties.png)，打开 Deployment 窗口以查看投放中潜在排除或错误。
 
    ![](assets/inapp_sending_5.png)
 
-1. 单 **[!UICONTROL Confirm]** 击以开始发送应用程序内消息。
+1. 单击 **[!UICONTROL Confirm]** 以开始发送应用程序内消息。
 
    ![](assets/inapp_sending_6.png)
 
-1. 通过消息投放和日志检查仪表板的状态。 For more on this, refer to this [section](../../sending/using/monitoring-a-delivery.md).
+1. 通过消息仪表板和日志，检查投放的状态。有关更多信息，请参阅此](../../sending/using/monitoring-a-delivery.md)章节[。
 
-   **[!UICONTROL Delivered]** KPI **[!UICONTROL Sent]** 计数基于成功从活动发送到消息投放服务的内容。 请注意，这些KPI并不表示从消息投放服务成功接收或下载消息的移动设备计数。
+   **[!UICONTROL Delivered]** 和 **[!UICONTROL Sent]** KPI 计数基于成功从 Campaign 发送到消息投放服务的内容。请注意，这些 KPI 并不表示从消息投放服务成功接收或下载消息的移动设备计数。
 
    ![](assets/inapp_sending_7.png)
 
-1. 通过投放报告衡量您的应用程序内消息的影响。 For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. 通过投放报告衡量应用程序内消息的影响。有关报告的更多信息，请参考[此章节](../../reporting/using/in-app-report.md)。
 
 **相关主题：**
 
