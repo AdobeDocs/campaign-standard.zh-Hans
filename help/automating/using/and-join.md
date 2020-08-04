@@ -1,47 +1,50 @@
 ---
 title: AND-连接
-description: AND-join活动允许您同步工作流的多个执行分支。
-page-status-flag: 从未激活
+description: 利用 AND-连接活动，可同步工作流的多个执行分支。
+page-status-flag: never-activated
 uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自动化
-content-type: 参考
-topic-tags: 执行活动
-discoiquuid: 4b55efa2-652e-4493-bfa7-eae59b383ca
-context-tags: andjoin, main
+audience: automating
+content-type: reference
+topic-tags: execution-activities
+discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
+context-tags: andjoin,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
 
 # AND-连接{#and-join}
 
-## 说明 {#description}
+## 说明{#description}
 
 ![](assets/and_join.png)
 
-该活 **[!UICONTROL AND-join]** 动允许您同步工作流的多个执行分支。
+利用 **[!UICONTROL AND-join]** 活动，可同步工作流的多个执行分支。
 
-## 使用环境 {#context-of-use}
+## 使用环境{#context-of-use}
 
-活 **[!UICONTROL AND-join]** 动仅在激活所有入站过渡后触发其出站过渡，换言之，在所有前面的活动完成之后。
+一旦激活所有集客过渡，换言之，一旦完成所有先行工作，**[!UICONTROL AND-join]** 活动就会触发其所有叫客过渡。
 
-## 配置 {#configuration}
+## 配置{#configuration}
 
-1. 将多个活动（如查询）放入您的工作流中，以至少形成两个不同的执行分支。
-1. 将活动拖放 **[!UICONTROL AND-join]** 到工作流中。
-1. 在要同步的两个不同的分支之后连接它。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮将其打开。
-1. 选择要在出站过渡中保留的主集。 如果不选择任何集，则会从活动中发送随机人群。
+1. 将多个活动（例如查询）拖放到您的工作流中，以至少形成两个不同的执行分支。
+1. 将 **[!UICONTROL AND-join]** 活动拖放到工作流中。
+1. 将其连接到要同步的两个不同分支之后。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择要保留在叫客过渡中的主集。如果不选择任何集，则会从活动发送随机群体。
 1. 确认活动的配置并保存工作流。
 
-## Example {#example}
+## 示例{#example}
 
-以下示例显示了两个工作流分支，然后再将其与活动结合 **[!UICONTROL AND-join]** 在一起。 只有在启用活动的三个入站过渡时，才能进行 **[!UICONTROL AND-join]** 文件提取。
+下方的示例显示了在使用 **[!UICONTROL AND-join]** 活动连接之前的两个工作流分支。只有在启用了 **[!UICONTROL AND-join]** 活动的三个集客过渡后，才能进行文件提取活动。
 
 ![](assets/wkf_and-join_example.png)
 
