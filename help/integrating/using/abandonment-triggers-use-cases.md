@@ -1,166 +1,169 @@
 ---
 title: 放弃触发器使用案例
-description: 了解如何将Experience Cloud Triggers与这些不同的使用案例集成。
-page-status-flag: 从未激活
+description: 了解如何通过这些不同的使用案例使用 Experience Cloud Triggers 集成。
+page-status-flag: never-activated
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 集成
-content-type: 参考
-topic-tags: 使用系列活动和触发器
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '993'
+ht-degree: 100%
 
 ---
 
 
 # 放弃触发器使用案例{#abandonment-triggers-use-cases}
 
-本节介绍了可通过Adobe Campaign和Experience Cloud触发器之间的集成实现的不同用例。 您将找到两个使用案例示例：
+本节介绍可通过 Adobe Campaign 与 Experience Cloud Triggers 的集成实施的不同使用案例。本文包含两个使用案例示例：
 
-* [浏览放弃触发器](#browse-abandonment-trigger):向放弃访问您网站的客户发送通信。
-* [搜索放弃触发器](#search-abandonment-trigger):重新吸引在您的网站上搜索但未购买的访客。
+* [浏览放弃触发器](#browse-abandonment-trigger)：向放弃访问您网站的客户发送通信。
+* [搜索放弃触发器](#search-abandonment-trigger)：重新吸引在您的网站上进行了搜索但未购买的访客。
 
 >[!NOTE]
 >
->本节中描述的用例依赖于Experience cloud访客ID。 还可以使用Experience Cloud Declared ID实施这些功能。 还支持散列和加密的声明ID。 您可以通过直接解密加密的电子邮件地址／移动号码，将电子邮件／短信发送到Campaign中不存在的配置文件。 但在这种情况下，无法使用配置文件数据进行个性化。
+>本节介绍的使用案例取决于 Experience Cloud Visitor ID。还可以使用 Experience Cloud Declared ID 实施这些使用案例。另外还支持哈希化和加密的声明 ID。您可以通过直接解密已加密的电子邮件地址/移动号码，将电子邮件/短信发送给 Campaign 中不存在的用户档案。但在这种情况下，无法使用用户档案数据进行个性化。
 
-## 先决条件 {#pre-requisites}
+## 先决条件{#pre-requisites}
 
-为了实施这些使用案例，您需要访问以下解决方案／核心服务：
+为了实施这些使用案例，您必须有权访问以下解决方案/核心服务：
 
 * Adobe Campaign
-* Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select或Standard。
-* Experience Cloud触发核心服务
+* Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select 或 Standard。
+* Experience Cloud Triggers Core Service
 * Experience Cloud DTM Core Service
-* Experience Cloud访客ID和Experience Cloud人员核心服务
+* Experience Cloud Visitor ID 和 Experience Cloud People Core Service
 
-您还需要有一个有效的网站。
+您还需要拥有可用的网站。
 
-有关详细信息，请参阅配 [置解决方案和服务](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)。
+有关更多信息，请参阅[配置解决方案和服务](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)。
 
-## 浏览放弃触发器 {#browse-abandonment-trigger}
+## 浏览放弃触发器{#browse-abandonment-trigger}
 
-在此用例中，我们将创建一个简单的触发器，每次客户端放弃对网站的访问时都会触发该触发器。 此示例假定您已经有DTM收集数据并将其推送到Adobe Analytics，并且已创建您的所有事件。
+在此使用案例中，我们将创建一个简单的触发器，每次客户放弃访问网站时都会触发该触发器。此示例假定您拥有 DTM 用于收集数据并将数据推送到 Adobe Analytics，且已创建了所有事件。
 
-### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger}
+### 创建 Experience Cloud Trigger{#creating-an-experience-cloud-trigger}
 
-1. 从Experience **[!UICONTROL Manage Triggers]** Cloud激活核心服务菜单中进行选择。
+1. 从 Experience Cloud Activation Core Service 菜单选择 **[!UICONTROL Manage Triggers]**。
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. 选择触发器类型(在我 **[!UICONTROL Abandonment]** 们的用例中)。
+1. 选择触发器类型（在我们的使用案例中为 **[!UICONTROL Abandonment]**）。
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. 对于这个使用案例，我们需要一个简单的放弃触发器。 其业务目的是识别浏览我们旅行预订网站、查看“交易”页面但不预订任何旅行的访客。 一旦我们识别了这些受众，我们就希望在很短的时间内与他们联系。 在此示例中，我们选择在10分钟后发送触发器。
+1. 对于此使用案例，我们需要一个简单的放弃触发器。其业务目的是标识浏览我们的旅行预订网站、查看了“Deals”页面但不预订任何旅行的访客。我们希望一旦标识了此受众，就马上与他们联系。在本例中，我们选择在 10 分钟后发送触发信号。
 
    ![](assets/trigger_uc_browse_3.png)
 
-### 在Adobe Campaign中使用触发器 {#using-the-trigger-in-adobe-campaign}
+### 在 Adobe Campaign 中使用触发器{#using-the-trigger-in-adobe-campaign}
 
-既然我们已经创建了Experience Cloud触发器，我们就将它用在Adobe Campaign中吧。
+现在，我们已经创建了 Experience Cloud Trigger，接下来让我们将其用于 Adobe Campaign。
 
-在Adobe Campaign中，您需要创建一个与您在Experience Cloud中创建的触发器链接的触发器。
+在 Adobe Campaign 中，您需要创建一个触发器，使其链接到在 Experience Cloud 中创建的触发器。
 
-1. 要在Adobe Campaign中创建触发器，请单击左 **[!UICONTROL Adobe Campaign]** 上角的徽标，然后选择 **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Experience Cloud triggers]**。
+1. 要在 Adobe Campaign 中创建触发器，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
 
    ![](assets/remarketing_1.png)
 
-1. Click **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**。
 1. 选择您之前创建的触发器，然后单击 **[!UICONTROL Next]**。
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. 选择渠 **[!UICONTROL Email]** 道和定位 **[!UICONTROL Real-time event]** 维并单击 **[!UICONTROL Create]**。
+1. 选择 **[!UICONTROL Email]** 渠道和 **[!UICONTROL Real-time event]** 定向维度并单击 **[!UICONTROL Create]**。
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. 在Adobe Campaign中发布触发器。 此过程将自动创建事务消息模板。
+1. 在 Adobe Campaign 中发布触发器。此过程将自动创建事务型消息模板。
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 要显示消息模板，请单击右 **[!UICONTROL More]** 上方的按钮，然后单击 **[!UICONTROL Trigger Transactional Template]**。
+1. 要显示消息模板，请单击右上方的 **[!UICONTROL More]** 按钮，然后单击 **[!UICONTROL Trigger Transactional Template]**。
 
-1. 个性化其内容和发送方详细信息。
+1. 将其内容和发件人详细信息个性化。
 
    ![](assets/trigger_uc_browse_8.png)
 
-1. 发布消息模板。 触发器现在可以实时工作。
+1. 发布消息模板。现在，触发器已上线并正常运行。
 
    ![](assets/trigger_uc_browse_0.png)
 
-### 运行方案 {#running-the-scenario}
+### 运行场景{#running-the-scenario}
 
-1. 此用例从使用Adobe Campaign发送给受众的初始电子邮件开始。
+1. 此使用案例首先会通过 Adobe Campaign 向受众发送初始电子邮件。
 
    ![](assets/trigger_uc_browse_9.png)
 
-1. 收件人将打开电子邮件。
+1. 收件人打开电子邮件。
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 他点击链接，将他带到您的网站。 在此示例中，横幅将收件人带到行程预订网站的主页。
+1. 收件人点击指向您网站的链接。在本例中，横幅会将收件人导向旅行预订网站的主页。
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 收件人转到“交易”页面，但突然停止访问。 在10分钟后，Adobe Campaign会触发交易消息的发送。
+1. 收件人来到了“Deals”页面，但突然停止了访问。10 分钟后，Adobe Campaign 触发事务型消息的发送。
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. 您可以随时检查Experience cloud日志，查看触发器的触发次数。
+1. 您可以随时检查 Experience Cloud 的日志，查看触发器的触发次数。
 
    ![](assets/trigger_uc_browse_13.png)
 
-1. 您还可以显示Adobe Campaign触发器报告。
+1. 您还可以显示 Adobe Campaign 触发器报告。
 
    ![](assets/trigger_uc_browse_14.png)
 
-## 搜索放弃触发器 {#search-abandonment-trigger}
+## 搜索放弃触发器{#search-abandonment-trigger}
 
-在此用例中，我们将创建一个触发器，以便与访问我们的旅行预订网站、搜索目的地、找不到成功结果且此后未预订任何内容的访客重新互动。 一般过程与上一个使用案例中的过程相同(请参阅浏览 [放弃触发器](#browse-abandonment-trigger))。 我们将在此集中讨论如何个性化再营销电子邮件。
+在此使用案例中，我们将创建触发器以重新吸引那些访问我们的旅行预订网站、搜索了目的地、未成功找到结果、且没有预订任何内容的访客。一般过程与上一个使用案例中的过程相同（请参阅[浏览放弃触发器](#browse-abandonment-trigger)）。我们将重点介绍如何将再营销电子邮件个性化。
 
-### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger-1}
+### 创建 Experience Cloud Trigger{#creating-an-experience-cloud-trigger-1}
 
-按照上一个用例中所述的步骤创建Experience cloud触发器。 请参 [阅创建Experience cloud触发器](#creating-an-experience-cloud-trigger)。 主要区别在于触发器的定义。
+按照上一个使用案例中所述的步骤，创建 Experience Cloud Trigger。请参阅[创建 Experience Cloud Trigger](#creating-an-experience-cloud-trigger)。其主要区别在于触发器定义。
 
 ![](assets/trigger_uc_search_1.png)
 
-该部 **[!UICONTROL Include Meta Data]** 分允许您将从Analytics收集的任何数据传递到触发器有效负荷。 在此示例中，我们创建一个自定义eVar（例如，eVar 3）来收集访客输入的搜索词。 此术语随后将用于发送给同一访客的交易电子邮件。
+利用 **[!UICONTROL Include Meta Data]** 部分，可将从 Analytics 收集的任何数据传递到触发器有效载荷。在本例中，我们创建了一个自定义 eVar（例如，eVar 3）来收集访客输入的搜索词。此搜索词随后将用在发送至同一访客的事务型电子邮件中。
 
-### 在Adobe Campaign中使用触发器 {#using-the-trigger-in-adobe-campaign-1}
+### 在 Adobe Campaign 中使用触发器{#using-the-trigger-in-adobe-campaign-1}
 
-1. 按照上一个用例中所述的步骤，在Adobe Campaign中创建触发器。 请参 [阅在Adobe Campaign中使用触发器](#using-the-trigger-in-adobe-campaign)。 主要区别在于我们如何访问和使用触发器有效负荷中推送的元数据。
-1. 在您在Adobe Campaign中创建的搜索放弃触发器中，单击图 **[!UICONTROL Event content and enrichment]** 标以查看推送到Adobe Campaign的有效负荷。
+1. 按照上一个使用案例中所述的步骤，在 Adobe Campaign 中创建触发器。请参阅[在 Adobe Campaign 中使用触发器](#using-the-trigger-in-adobe-campaign)。主要区别在于我们如何在 Adobe Campaign 中访问和使用在触发器有效载荷中推送的元数据。
+1. 在 Adobe Campaign 中，进入您创建的搜索放弃触发器，单击 **[!UICONTROL Event content and enrichment]** 图标以查看推送到 Adobe Campaign 的有效载荷。
 
    ![](assets/trigger_uc_search_2.png)
 
-1. 如您所见，自定义eVar在触发器有效负荷中传递并映射到 **Event Context** table(ctx)。 我们现在可以访问它来个性化交易信息。
+1. 如您所见，自定义 eVar 在触发器有效载荷中传递并映射到 **Event context** 表格 (ctx)。我们现在可以对其进行访问以个性化事务型消息。
 
    ![](assets/trigger_uc_search_3.png)
 
-1. 在此示例中，我们选择在主题行和电子邮件正文中包含目标搜索词。
+1. 在本例中，我们选择在主题行和电子邮件正文中包含目的地搜索词。
 
    ![](assets/trigger_uc_search_4.png)
 
-1. 在选择个性化字段时，请在 **Transactional event** (rtEvent)表中查找有效负荷元数据，然后在 **Event context** (ctx)子表中查找。
+1. 选择个性化字段时，请先在 **Transactional event** (rtEvent) 表格中查找有效载荷元数据，然后在 **Event context** (ctx) 子表格中查找。
 
    ![](assets/trigger_uc_search_5.png)
 
-### 运行方案 {#running-the-scenario-1}
+### 运行场景{#running-the-scenario-1}
 
-1. 访客访问旅行预订网站并搜索目标。 在此示例中，访客正在寻找日本之旅，但没有找到任何结果。 这是我们与此访客联系并推荐其他旅游计划的机会。
+1. 访客进入旅行预订网站并搜索目的地。在本例中，访客正在寻找日本游旅程，但没有找到任何结果。这时，我们应抓住机会联系此访客并推荐其他旅行计划。
 
    ![](assets/trigger_uc_search_6.png)
 
    >[!NOTE]
    >
-   >在此用例中，我们假定访客／收件人已打开并单击来自同一网站的电子邮件。 这样，我们便可以使用和收集VisitorID，并将其映射到收件人。 我们只需做一次。
+   >在本使用案例中，我们假定访客/收件人已打开并单击了来自同一网站的电子邮件。这样，我们即可使用和收集 VisitorID 并将其映射到收件人。我们只需执行一次此操作。
 
-1. 稍后，同一访客／收件人会收到一条再营销消息。 该消息包括最近搜索的目标。
+1. 几分钟后，同一访客/收件人会收到再营销消息。该消息中包含最近搜索过的目的地。
 
    ![](assets/trigger_uc_search_7.png)
 
