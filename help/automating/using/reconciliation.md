@@ -1,6 +1,6 @@
 ---
-title: 调解
-description: “对帐”活动允许您将未识别的数据关联到现有资源。
+title: 协调
+description: 利用协调活动，可将未识别的数据链接到现有资源。
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -16,38 +16,38 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
 
-# 调解{#reconciliation}
+# 协调{#reconciliation}
 
-## 说明 {#description}
+## 说明{#description}
 
 ![](assets/reconciliation.png)
 
-该活动 **[!UICONTROL Reconciliation]** 允许您将未识别的数据链接到现有资源。
+利用 **[!UICONTROL Reconciliation]** 活动，可将未识别的数据链接到现有资源。
 
-## 使用环境 {#context-of-use}
+## 使用环境{#context-of-use}
 
-该 **[!UICONTROL Reconciliation]** 活动主要用于数据管理目的，并包含两种不同的使用情形：
+**[!UICONTROL Reconciliation]** 活动主要用于数据管理目的，并包含两种不同的使用情形：
 
-* 添加关系： 使用 **[!UICONTROL Links]** 选项卡可在入站数据和多个其他Adobe Campaign库维之间添加链接。
+* 添加关系：使用 **[!UICONTROL Links]** 选项卡可在集客数据和多个其他 Adobe Campaign 数据库维度之间添加链接。
 
-   例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。 因此，文件数据会涉及 **另外**&#x200B;两个维度（除购买维度外）: 产 **品** 和 **用户档案** 。 然后，需要在这些维和“购买 **”维** 之间创建关系（请参阅以下示例）。
+   例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。因此，文件数据会涉及额外的两个维度（除&#x200B;**购买**&#x200B;维度外）：**产品**&#x200B;和&#x200B;**用户档案**。然后，需要创建这些维度与&#x200B;**“购买”**&#x200B;维度之间的关系（请参阅以下示例）。
 
-   定义关系时，将向入站数据添加列以引用链接维的外键。
+   定义关系时，将向集客数据添加列，以引用链接维度的外键。
 
    >[!NOTE]
    >
-   >此操作意味着链接维的数据已在数据库中。 例如，如果导入一个购买文件，显示购买了哪个产品、购买时间、购买客户端等，则数据库中必须已经存在该产品和客户端。
+   >此操作意味着链接维度的数据已在数据库中。例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
 
-* 数据标识： 使用 **[!UICONTROL Identification]** 选项卡，您只需将入站数据链接到Adobe Campaign库中现有维的列。 活动后，数据被标识为属于定义的维。
+* 数据标识：使用 **[!UICONTROL Identification]** 选项卡，您只需将集客数据链接到 Adobe Campaign 数据库中现有维度的列即可。活动完成后，该数据会被标识为属于已定义的维度。
 
-   例如，您随后可以执行保存受众、数据库更新等。
+   例如，您随后可以执行保存受众、数据库更新等操作。
 
-例如，活动可 **[!UICONTROL Reconciliation]** 以放在加载数据活动之后，目的是将非标准数据导入数据库。
+例如，可以将 **[!UICONTROL Reconciliation]** 活动放在加载数据活动之后，从而将非标准数据导入数据库。
 
 **相关主题：**
 
@@ -55,23 +55,23 @@ ht-degree: 0%
 * [用例： 使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
 * [用例： 协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
-## Configuration {#configuration}
+## 配置{#configuration}
 
-1. 将活动拖放 **[!UICONTROL Reconciliation]** 到您的工作流中，遵循一个过渡，其定位维度不直接来自Adobe Campaign。 有关此内容的详细信息，请参 [阅定位维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮打开它。
-1. 如果要定义入站数据与其他数据库维之间的链接，请转到选 **[!UICONTROL Links]** 项卡。
+1. 将 **[!UICONTROL Reconciliation]** 活动拖放到您的工作流中的一个过渡（该过渡包含定向维度并非直接来自 Adobe Campaign 的群体）后方。有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 如果要定义集客数据与其他数据库维度之间的链接，请转到 **[!UICONTROL Links]** 选项卡。
 
-   添加所需数量的关系。 对于每个关系，首先选择链接的维，然后在链接详细信息中指定相应的字段。
+   根据需要，添加相应数量的关系。对于每个关系，首先选择链接的维度，然后在链接详细信息中指定相应的字段。
 
-1. 如果您只想标识入站数据，请转到选 **[!UICONTROL Identification]** 项卡并选中 **[!UICONTROL Identify the document from the working data]** 框。
+1. 如果您只想识别集客数据，请转到 **[!UICONTROL Identification]** 选项卡并勾选 **[!UICONTROL Identify the document from the working data]** 方框。
 
-   选择要协调入站定位维度的。
+   选择要协调集客数据的定向维度。
 
-   添加对帐条件以将入站过渡记录链接到选定的定位维度记录。 如果指定了多个标准，则必须对它们进行全部验证，以使其所有数据之间的链接正常工作。
+   添加协调条件，以将集客过渡记录链接到选定的定向维度记录。如果指定了多个标准，则必须对所有标准进行验证，以确保所有数据之间的链接正常工作。
 
-   选择模 **[!UICONTROL Processing unidentified source lines]** 式：
+   选择 **[!UICONTROL Processing unidentified source lines]** 模式：
 
-   * **[!UICONTROL Ignore them]**: 只有可识别数据保留在活动的出站过渡中。
-   * **[!UICONTROL Keep in the outbound population]**: 入站过渡的所有数据都保留在活动的出站过渡中。
+   * **[!UICONTROL Ignore them]**：仅在活动的叫客过渡中保留可识别数据。
+   * **[!UICONTROL Keep in the outbound population]**：在活动的叫客过渡中保留来自集客过渡的所有数据。
 
 1. 确认活动的配置并保存工作流。
