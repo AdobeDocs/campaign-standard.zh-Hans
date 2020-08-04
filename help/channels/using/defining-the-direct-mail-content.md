@@ -1,72 +1,75 @@
 ---
 title: 定义直邮内容
-description: 了解如何为直邮交付定义内容。
-page-status-flag: 从未激活
+description: 了解如何定义直邮投放的内容。
+page-status-flag: never-activated
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 频道
-content-type: 参考
-topic-tags: 直邮
-discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd599c2d1
+audience: channels
+content-type: reference
+topic-tags: direct-mail
+discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '337'
+ht-degree: 100%
 
 ---
 
 
 # 定义直邮内容{#defining-the-direct-mail-content}
 
-您可以在创建向导的最后一个屏幕中定义内容，也可以通过单击交付功能板的“ **内容** ”部分来定义内容。
+您可以在创建向导的最后一个屏幕中定义其内容，也可以通过单击投放仪表板的 **Content** 部分定义其内容。
 
 ![](assets/direct_mail_6.png)
 
-定 **[!UICONTROL Content]** 义屏幕特定于直邮渠道。 它分为四个选项卡： **[!UICONTROL Extraction]**、 **[!UICONTROL File structure]****[!UICONTROL Header]** 和 **[!UICONTROL Footer]**。
+**[!UICONTROL Content]** 定义屏幕专用于直邮渠道。该屏幕包含四个选项卡：**[!UICONTROL Extraction]**、**[!UICONTROL File structure]**、**[!UICONTROL Header]** 和 **[!UICONTROL Footer]**。
 
 ![](assets/direct_mail_11.png)
 
-## 定义提取 {#defining-the-extraction}
+## 定义提取{#defining-the-extraction}
 
-1. 首先，定义提取文件的名称。 单击字段右侧的按钮， **[!UICONTROL Output file]** 然后输入所需的标签。 您可以使用个性化字段、内容块和动态文本(请参 [阅定义内容](../../designing/using/personalization.md#example-email-personalization))。 例如，您可以使用交付ID或提取日期完成标签。
+1. 首先从定义提取文件的名称开始。单击 **[!UICONTROL Output file]** 字段右侧的按钮，输入所需的标签。您可以使用个性化字段、内容块和动态文本（请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)）。例如，您可以在标签中填写投放 ID 或提取日期。
 
    ![](assets/direct_mail_12.png)
 
-1. 单击或 **[!UICONTROL +]** 按钮 **[!UICONTROL Add an element]** 可添加输出列。 您 **[!UICONTROL Output columns]** 可以定义要导出到输出文件的配置文件信息（列）。
+1. 单击 **[!UICONTROL +]** 或 **[!UICONTROL Add an element]** 按钮以添加输出列。利用 **[!UICONTROL Output columns]** 可定义要导出到输出文件中的用户档案信息（列）。
 
    >[!CAUTION]
    >
-   >确保您的配置文件包含邮政地址，因为这些信息对直邮提供商至关重要。 另外，请确保已选中配 **[!UICONTROL Address specified]** 置文件信息中的复选框。 请参阅 [推荐](../../channels/using/about-direct-mail.md#recommendations)。
+   >确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
    ![](assets/direct_mail_13.png)
 
-1. 创建所需数量的列。 您可以通过单击列的表达式和标签来编辑列。
+1. 根据需要创建所需数量的列。您可以通过单击列的表达式和标签对列进行编辑。
 
 >[!NOTE]
 >
->有关输出列定义的详细信息，请参阅“提取文 [件](../../automating/using/extract-file.md) ”工作流活动部分。
+>有关输出列定义的更多信息，请参阅[提取文件](../../automating/using/extract-file.md)工作流活动一节。
 
-## 定义文件结构 {#defining-the-file-structure}
+## 定义文件结构{#defining-the-file-structure}
 
-“文 **件结构** ”选项卡允许您配置要导出的文件的输出、日期和编号格式。
+利用 **File structure** 选项卡，可为要导出的文件配置输出、日期和数字格式。
 
 ![](assets/direct_mail_14.png)
 
 >[!NOTE]
 >
->“提取文件”工作流活动部分详细介绍 [了可用](../../automating/using/extract-file.md) 的选项。
+>有关可用选项的详情，请参阅[提取文件](../../automating/using/extract-file.md)工作流活动一节。
 
-## 定义页眉和页脚 {#defining-the-header-and-footer}
+## 定义页眉和页脚{#defining-the-header-and-footer}
 
-有时，您可能需要在提取文件的开头或结尾添加信息。 为此，请使用配 **[!UICONTROL Header]** 置屏 **[!UICONTROL Footer]** 幕的和选 **[!UICONTROL Content]** 项卡。
+有时您可能需要在提取文件的开头或结尾添加信息。为此，请使用 **[!UICONTROL Content]** 配置屏幕的 **[!UICONTROL Header]** 和 **[!UICONTROL Footer]** 选项卡。
 
 ![](assets/direct_mail_7.png)
 
-例如，您可能希望在文件标题中包含发送者信息（对于直邮提供者）。 可以使用交付上下文中提供的信息个性化页脚和页眉。 请参阅 [定义内容](../../designing/using/personalization.md#example-email-personalization)。
+例如，您可能希望在文件的页眉中包含发件人的信息（提供给直邮服务提供商）。可以使用投放上下文中提供的信息，将页脚和页眉个性化。请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)。
 
-发送者地址在直接邮件属 **[!UICONTROL Send]** 性的部分或模板级别定义。
+直邮属性或模板级别中的 **[!UICONTROL Send]** 部分定义了发件人的地址。
 
 ![](assets/direct_mail_24.png)
 
