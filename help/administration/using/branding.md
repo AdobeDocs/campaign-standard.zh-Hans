@@ -1,6 +1,6 @@
 ---
-title: 品牌
-description: 发现管理品牌标识的所有可用工具。
+title: 品牌策略
+description: 了解可用于管理品牌策略的所有工具。
 page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
 contentOwner: sauviat
@@ -12,92 +12,95 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
+workflow-type: ht
+source-wordcount: '983'
+ht-degree: 100%
 
 ---
 
 
-# 品牌{#branding}
+# 品牌策略{#branding}
 
-## 关于品牌标识 {#about-brand-identity}
+## 关于品牌标识{#about-brand-identity}
 
-每个公司都有品牌视觉和技术指导。 通过Adobe Campaign，您可以定义一套规范，从徽标到技术方面（如电子邮件发送者、URL或域），为客户提供一致的品牌。
+每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。
 
-技术管理员可以定义一个或多个品牌以集中输入影响品牌标识的参数。 这包括品牌徽标、登陆页访问URL的域或消息跟踪设置。 通过Adobe Campaign，您可以创建这些品牌并将它们链接到消息或登陆页。 此配置在模板中进行管理。
+技术管理员可以定义一个或多个品牌，以集中输入影响品牌识别的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。通过 Adobe Campaign，您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。
 
-## 配置和使用品牌 {#configuring-and-using-brands}
+## 配置和使用品牌{#configuring-and-using-brands}
 
-配置和使用品牌的主要原则是：
+配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌——此操作需要特定权限，并由Adobe Campaign技术管理员执行。
-1. 为此品牌创建一个或多个投放和登陆页模板。 请参阅创 [建模板](../../start/using/marketing-activity-templates.md) 。
-1. 根据此模板创建消息和登陆页。 请参阅创 [建电子邮件](../../channels/using/creating-an-email.md)[和创建登陆页](../../channels/using/designing-a-landing-page.md) 。
+1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。
+1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
+1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
 >[!IMPORTANT]
 >
->不能由最终用户创建或修改品牌： 这些操作必须由Adobe Campaign技术管理员执行。 如需任何请求，请与Adobe客户关怀部门联系。
+>最终用户不能创建或修改品牌：必须由 Adobe Campaign 技术管理员执行这些操作。如有任何需求，请与 Adobe 客户关怀部门联系。
 >
->不能在事务消息的上下文中使用多品牌。 有关此方面的更多信息，请参 [阅事务性消息和品牌](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
+>不能在事务型消息的上下文中使用多品牌。有关更多信息，请参阅[事务型消息和品牌策略](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
-品牌可在菜单中找 **[!UICONTROL Administration > Instance settings > Brand configuration]** 到。
+通过 **[!UICONTROL Administration > Instance settings > Brand configuration]** 菜单可访问品牌。
 
 默认情况下，新创建的品牌仅对管理员分配了相应权限的用户可见。
 
-品牌 **由** 以下特征定义：
+**品牌**&#x200B;由以下特征定义：
 
-* 一种 **身份**，用于定义和个性化您的品牌。 此部分包含以下字段：
+* 用于定义和个性化品牌的&#x200B;**标识**。此部分包含以下字段：
 
    ![](assets/branding_01.png)
 
-   * **界面中** ，显示标签
-   * **品牌名称**
-   * **网站URL** 和 **品牌的网站** 标签
-   * **品牌徽标**
+   * 显示在界面中的 **Label**
+   * **Brand name**
+   * 品牌的 **Website URL** 和 **Website label**
+   * **Brand logo**
 
-* **[!UICONTROL Header parameters of sent emails]** 个性化活动将看到的内容。 此部分包含以下字段：
+* **[!UICONTROL Header parameters of sent emails]** 可将展示给营销策划收件人的标题个性化。此部分包含以下字段：
 
    ![](assets/branding_04_header.png)
 
-   * **发件人(电子邮件地址** )与品牌的电子邮件地址。
-   * **发件人** （姓名）。
-   * **使用客户可以回复的电子邮件地址** （电子邮件地址）回复。
-   * **使用品牌名称** ，回复到（名称）。
-   * **错误(电子邮件地址** )，电子邮件地址用于发生错误时。
+   * 使用品牌电子邮件地址的 **Sender (email address)**。
+   * 使用品牌名称的 **Sender (name)**。
+   * 带有客户回信用电子邮件地址的 **Reply to (email address)**。
+   * 带有品牌名称的 **Reply to (name)**。
+   * 带有出错回复用电子邮件地址的 **Error (email address)**。
    >[!IMPORTANT]
    >
-   >更新了电子邮件的标题参数后，如果发件人的姓名和电子邮件地址在从模板创建的电子邮件中没有更改，请检查模板的高级设置。
+   >更新了电子邮件的标题参数后，如果从模板创建的电子邮件中发件人的名称和电子邮件地址没有变化，请检查模板的高级设置。
 
-* **Internet上公开的服务器定义用于跟踪** 、也用于登陆页访问的服务器。 此部分包含以下字段：
+* **Server(s) exposed on the internet** 用于定义用于跟踪和登陆页面访问的服务器。此部分包含以下字段：
 
    ![](assets/configure_branding_04.png)
 
-   * **用于托管和访问您创建的不同登陆页** 的应用程序服务器的外部URL。
-   * **在投放期间用作跟踪** URL的跟踪服务器的外部URL。
-   * **镜像页面服务器的外部URL** ，用作投放中的默认镜像页面。
+   * **External URL of the application server** 用于托管和访问您创建的各种登陆页面。
+   * **External URL of the tracking server** 用作投放期间的跟踪 URL。
+   * **External URL of the mirror page server** 用作投放中的默认镜像页面。
    >[!NOTE]
    >
-   >要在登陆页用户界面中显示预览和镜像页面呈现，应用服务器和镜像页面服务器URL必须是安全的。 在这种情况下，在设置这些URL时，请使用https://，而不是http://。
+   >要在 Campaign 用户界面中显示登陆页面预览和镜像页面渲染，应用服务器和镜像页面服务器的 URL 必须是安全的。在这种情况下，在设置这些 URL 时，请使用 https://，而不是 http://。
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**，它定义品牌的URL跟踪配置。
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]** 用于定义品牌的 URL 跟踪配置。
 
-   此处定义了允许在外部系统（如Web分析工具，如Adobe Analytics或Google Analytics）上跟踪链接的其他参数。
+   此处定义了用于在外部系统（如 Adobe Analytics 或 Google Analytics 之类的 Web 分析工具）上跟踪链接的其他参数。
 
    ![](assets/branding_05.png)
 
-## 为电子邮件分配品牌 {#assigning-a-brand-to-an-email}
+## 为品牌分配电子邮件{#assigning-a-brand-to-an-email}
 
-### 将品牌关联到模板 {#linking-a-brand-to-a-template}
+### 将品牌链接到模板{#linking-a-brand-to-a-template}
 
-要使用为品牌定义的参数，必须将其链接到投放模板或登陆页模板。 为此，您必须创建或编辑模板。
+要使用为品牌定义的参数，必须将其链接到投放模板或登陆页面模板。为此，您必须创建或编辑模板。
 
 >[!NOTE]
 >
->有关创建模板的详细信息，请参阅创 [建模板部分](../../start/using/marketing-activity-templates.md) 。
+>有关创建模板的更多信息，请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 
-创建模板后，您可以将其链接到品牌。 操作步骤：
+创建模板后，您可以将其链接到品牌。操作步骤：
 
-1. 单击该 **[!UICONTROL Edit properties]** 按钮可访问模板属性。
+1. 单击 **[!UICONTROL Edit properties]** 按钮以访问模板属性。
 
    ![](assets/branding_04.png)
 
@@ -105,64 +108,64 @@ source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
    >[!NOTE]
    >
-   >默认情况下，将 **[!UICONTROL Default brand (branding)]** 选中该选项。
+   >默认情况下，选择 **[!UICONTROL Default brand (branding)]**。
 
    ![](assets/branding_05.png)
 
-   要视图所选品牌的配置方式，请单击 **[!UICONTROL Navigate to the detail of the element selected]** 图标。
+   要查看所选品牌的配置方式，请单击 **[!UICONTROL Navigate to the detail of the element selected]** 图标。
 
    ![](assets/branding_06.png)
 
-1. 确认您的选择并保存您的模板。
+1. 确认选择并保存模板。
 
-您的模板已链接到品牌。 在电子邮件编辑器中，默认发件人 **的电子邮件地址**、 **默认发件人姓名**&#x200B;或徽标等元 **** 素将使用配置的品牌数据。
+您的模板现已链接到品牌。在电子邮件编辑器中，**Email address of default sender**、**Default sender name** 或 **Logo** 等元素将使用配置的品牌数据。
 
-### 品牌使用案例 {#branding-use-case}
+### 品牌策略使用案例 {#branding-use-case}
 
-在此示例中，我们将创建一个与旅行相关的新品牌，并在电子邮件中使用它。
+在本例中，我们将创建一个与旅行相关的新品牌，并将其用在电子邮件中。
 
-#### 配置新品牌 {#configure-a-new-brand}
+#### 配置新品牌{#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
->品牌配置仅在需要特定权限和技术设置时由Adobe管理。
+>仅在需要特定权限和技术设置时，才由 Adobe 管理品牌配置。
 
-1. Adobe Campaign管理员在中创建品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他从高级 **菜单中添加** “热带度假”元素，并 **[!UICONTROL ID]** 配置品牌 **[!UICONTROL Header parameters of sent emails]** 和品牌。
+1. Adobe Campaign 管理员在 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中创建品牌。他从高级菜单中添加 **Vacations in the Tropics** 元素，并配置品牌的 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]**。
 
    ![](assets/branding_07.png)
 
-1. 然后，管理员配置Internet上 **公开的服务器的URL** ，以便使用登陆页，然后配置跟踪URL。
+1. 随后，管理员会配置 **Server(s) exposed on the Internet**，以便使用登陆页面，然后配置跟踪 URL。
 
-   在此示例中，使 **用的Web** Analytics工 **具是Google Analytics**。 管理员按如下方式配置跟踪URL:
+   在本例中，使用的 **Web 分析**&#x200B;工具为 **Google Analytics**。管理员按以下方式配置跟踪 URL：
 
    ![](assets/branding_12.png)
 
-品牌创建和配置正确。 现在，营销团队可以使用它。
+品牌已正确创建和配置。现在，可提供给营销团队使用。
 
-#### 实施新品牌 {#implement-a-new-brand}
+#### 实施新品牌{#implement-a-new-brand}
 
-作为投放经理，您负责创建投放模板以使用新品牌。 为此，请按照以下步骤操作：
+投放经理负责创建投放模板以使用新品牌。要实现此目的，请执行以下步骤：
 
-1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;中，重复内置模板以配置新投放模板。
+1. 在高级菜单 **[!UICONTROL Resources > Templates > Delivery templates]** 中，复制内置模板以配置新投放模板。
 
    ![](assets/branding_08.png)
 
-1. 要将此模板链接到 **热带度假品牌** ，请编辑模板属性并从下拉列表中选择品牌。
+1. 要将此模板链接到 **Vacations in the Tropics** 品牌，请编辑模板属性并从下拉列表中选择该品牌。
 
    ![](assets/branding_09.png)
 
 1. 配置此电子邮件模板以反映品牌标识。
-1. 模板完成后，您可以保存它。
+1. 在模板完成后，保存模板。
 
    ![](assets/branding_10.png)
 
-   该投放模板现在可用于创建将发送给受众的电子邮件。
+   现在，即可将该投放模板用于创建将要发送给受众的电子邮件。
 
-#### 在投放中使用新品牌 {#use-the-new-brand-in-a-delivery}
+#### 在投放中使用新品牌{#use-the-new-brand-in-a-delivery}
 
-要创建链接到品牌的电子邮件，请按照以下步骤操作：
+要创建链接到品牌的电子邮件，请执行以下步骤：
 
-1. 单击菜 **[!UICONTROL Create]** 单中的按 **[!UICONTROL Marketing activities]** 钮。
+1. 单击 **[!UICONTROL Marketing activities]** 菜单中的 **[!UICONTROL Create]** 按钮。
 
    ![](assets/branding_14.png)
 
@@ -170,7 +173,7 @@ source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
    ![](assets/branding_15.png)
 
-1. 您的电子邮件已配置。 您可以使用测试用户档案在测试信息之前检查信息，然后将其发送给受众。
+1. 您的电子邮件现已配置完成。您可以先检查信息，再使用测试用户档案测试信息，然后将其发送给受众。
 
    ![](assets/branding_16.png)
 
