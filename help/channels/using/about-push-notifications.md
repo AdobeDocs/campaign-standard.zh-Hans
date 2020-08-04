@@ -1,6 +1,6 @@
 ---
 title: 关于推送通知
-description: 发现Adobe Campaign中推送通知渠道的主要特性。
+description: 了解 Adobe Campaign 中推送通知渠道的主要特性。
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 2%
+ht-degree: 49%
 
 ---
 
@@ -25,60 +25,60 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->推送通知实施必须由专家用户执行。 如果您需要协助，请与您的Adobe客户经理或专业服务合作伙伴联系。 推送通知是可选功能。 请检查您的许可协议并联系您的帐户管理员以激活它。
+>必须由专家用户执行推送通知的实施。如果需要协助，请与您的 Adobe 客户经理或专业服务合作伙伴联系。推送通知属于可选功能。请核实您的许可协议并联系您的帐户管理员以将其激活。
 
-Adobe Campaign允许您向iOS和Android移动设备发送个性化的分段推送通知。
+利用 Adobe Campaign，可向 iOS 和 Android 移动设备发送个性化的分段推送通知。
 
-这些消息在您通过利用Adobe CampaignSDK以Experience Platform设置的移动应用程序上接收。 有关此信息，请参阅使 [用Adobe Experience PlatformSDK配置移动应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+通过利用 Experience Platform SDK 在 Adobe Campaign 中设置的移动应用程序，可接收此类消息。有关此功能的详细信息，请参阅[使用 Adobe Experience Platform SDK 配置移动应用程序](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。
 
-需要扩展此资源以收集您打算从移动设备发送到Adobe Campaign的数据。 要执行此操作，请参阅 [本页](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，了解详细步骤。
+需要扩展此资源，才能收集您打算从移动设备发送到 Adobe Campaign 的数据。要实现此目的，请参阅此[页面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以了解详细步骤。
 
-Adobe Campaign中提供两种类型的推送通知：
+Adobe Campaign 提供两种类型的推送通知：
 
-* **[!UICONTROL Alert/Message/Badge]** 类型通知允许您发送包含其他内容（声音、徽章、幻灯片等）的基于文本的标准消息。 在部分中定 **[!UICONTROL Advanced options]** 义。
+* **[!UICONTROL Alert/Message/Badge]** 类型通知允许您发送基于文本的标准消息，其中可包含在 **[!UICONTROL Advanced options]** 部分中定义的附加内容（声音、徽章、深度连接等）。
 
-   此通知类型允许您添加标题和消息，在其中可以使用个性化字段。 要能够个性化您的消息，请确保您选择了 **[!UICONTROL Send push on profiles]** 模板。
+   此通知类型允许您在个性化字段中添加标题和消息。要个性化您的消息，请确保选择 **[!UICONTROL Send push on profiles]** 模板。
 
-* **[!UICONTROL Silent push]** 类型通知用于无提示通知应用程序，不会向最终用户发送任何消息或内容。 此类消息的典型用例是让应用程序知道服务器上有可供下载的内容。
+* **[!UICONTROL Silent push]** 类型通知用于静默通知应用程序，不会向最终用户发送任何消息或内容。此类消息的典型用例，是让应用程序知道服务器上有可供下载的内容。
 
-可以设置某些特定配置来定义通知行为。 如需详细信息，请参阅[此部分](../../channels/using/customizing-a-push-notification.md)。
+可以设置某些特定配置来定义通知行为。有关更多信息，请参阅[此章节](../../channels/using/customizing-a-push-notification.md)。
 
-作为专家用户，要定义这些特定配置，请参阅移动应用程序 [技术说明](https://helpx.adobe.com/campaign/kb/acs-article-list.html)。
+作为专家用户，要定义这些特定配置，请参阅移动应用[技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html)。
 
 >[!NOTE]
 >
->有关隐私的法律因国家而异。 有些国家／地区要求您向用户通知移动应用程序收集的数据类型。 请查看您所在国家／地区与移动应用程序相关的法律。 确保发送到移动应用程序的推送通知符合Apple（Apple推送通知服务）和Google（Google Cloud Messaging或Firebase Cloud Messaging）指定的先决条件和条件。
+>有关隐私的法律因国家/地区而异。有些国家/地区要求您向用户告知移动应用所收集的数据类型。请查看您所在国家/地区与移动应用相关的法律。确保发送到移动应用的推送通知符合 Apple（Apple 推送通知服务）和 Google（Google Cloud Messaging 或 Firebase Cloud Messaging）指定的先决条件和条件。
 
 **相关内容：**
 
 * [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [创建多语言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推送通知报告](../../reporting/using/push-notification-report.md)
-* [Campaign Standard移动指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard Mobile 指南](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)
 
-## 先决条件 {#prerequisites}
+## 先决条件{#prerequisites}
 
 >[!NOTE]
->要利用活动的推送通知功能，您需要提供。pem格式的有效推送证书，且无密码。
-如果您有有效的p12证书，则可以使用联机资源将其轻松转换为。pem文件。
+>要利用 Campaign 的推送通知功能，您需要提供没有密码的、.pem 格式的有效推送证书。
+如果您拥有有效的 p12 证书，则可以使用联机资源轻松将其转换为 .pem 文件。
 
 在发送推送通知之前，您应：
 
-1. 在Adobe Campaign中，确保可以访问 **[!UICONTROL Push notification]** 渠道。 如果您无法访问这些渠道，请与您的帐户团队联系。
+1. 在 Adobe Campaign 中，确保可以访问 **[!UICONTROL Push notification]** 渠道。如果您无法访问这些渠道，请与帐户管理团队联系。
 
-1. 验证您的用户是否具有Adobe Campaign Standard和Experience Platform Launch中的必要权限。
+1. 验证您的用户是否拥有 Adobe Campaign Standard 和 Experience Platform Launch 的必要权限。
 
-1. 在Experience Platform Launch中，创建移动属性。 有关详细信息，请 [参阅设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在 Experience Platform Launch 中，创建移动属性。有关更多信息，请参阅[设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-1. 在Experience Platform Launch中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
+1. 在 Experience Platform Launch 中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
 
-1. 在Adobe Campaign Standard中，配置您在Experience Platform Launch中创建的移动设备属性。 有关详细信息，请参 [阅在Adobe Campaign中设置Experience Platform Launch应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
+1. 在 Adobe Campaign Standard 中，配置您在 Experience Platform Launch 中创建的移动属性。有关更多信息，请参阅[在 Adobe Campaign 中设置 Experience Platform Launch 应用程序](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
 
-1. 将特定于渠道的配置添加到您的移动应用程序设置中。 有关详细信息，请参 [阅Adobe Campaign中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 将特定于渠道的配置添加到您的移动应用设置中。有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 要支持移动用例实施，请参阅有关使用Experience Platform LaunchSDK在移动用例中支持的扩展、Adobe Experience Platform [规则和SDK实施的详细说明，这些SDK在Adobe Campaign Standard中受支持](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+1. 要支持移动使用案例实施，请参阅[在 Adobe Campaign Standard 中使用 Adobe Experience Platform SDK 支持的移动使用案例](https://helpx.adobe.com/cn/campaign/kb/configure-launch-rules-acs-use-cases.html)中关于扩展、Experience Platform Launch 规则和 SDK 实施的详细说明。
 
 ## 推送通知常见问题解答 {#push-faq}
 
@@ -86,14 +86,14 @@ Adobe Campaign中提供两种类型的推送通知：
 
 查看以下资源：
 
-* [视频教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [视频Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [产品文档](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK文档进行 [配置](../../administration/using/configuring-a-mobile-application.md)
 * [社区页](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 我必须做什么才能获得活动中的推送令牌？ {#push-token-acquisition}
 
-确保供应团队已在Adobe Campaign Standard中完成推送渠道的供应。 从SDK实施setPushIdentifier API。 For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+确保供应团队已在Adobe Campaign Standard中完成推送渠道的供应。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
 
 ### 将推送令牌和ECID活动后，我还需要发送推送通知吗？ {#sending-push}
 
