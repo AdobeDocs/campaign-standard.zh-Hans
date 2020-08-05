@@ -1,6 +1,6 @@
 ---
-title: 面向 Adobe Experience Platform 受众
-description: 了解如何在目标中Adobe Experience Platform受众。
+title: 定向 Adobe Experience Platform 受众
+description: 了解如何在工作流内目标Adobe Experience Platform受众。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -20,15 +20,15 @@ ht-degree: 5%
 ---
 
 
-# 面向 Adobe Experience Platform 受众 {#targeting-aep-audiences}
+# 定向 Adobe Experience Platform 受众 {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务。
+>受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
-使用Segment Builder创 [建Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md) 后，您可以像在工作流内部创建活动受众那样使用来个性化和发送消息。
+使用Segment Builder创建 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md) 后，您可以像在工作流内部创建活动受众那样使用该，以个性化和发送消息。
 
-要将Adobe Experience Platform受众激活到工作流中，请执行以下步骤：
+要在您的工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
 1. 在工作流 **[!UICONTROL Read audience]** 中添加活动，然后将其打开。
 
@@ -40,7 +40,7 @@ ht-degree: 5%
 
    单击“眼睛”按钮将直接转到与活动内选定受众关联的“区段生成器”（在另一个选项卡中）。
 
-1. 选择一 **[!UICONTROL Platform data mapping]** 个元素，为所选定位维度指定所需Adobe Experience Platform受众。
+1. 选择一 **[!UICONTROL Platform data mapping]** 个元素，为选定的Adobe Experience Platform定位维度指定所需的受众。
 
    默认情况下，用于对帐的主键(例如，用户档案表的iRecipientID、AppSubscription表的iAppSubscriptionID)将从下拉列表自动可用。 要在主键之外目标，必须创建自定义 **命名空间**。
 
@@ -62,7 +62,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Campaign Standard允许您在所有投放渠道中目标Adobe Experience Platform受众: 电子邮件、短信、直邮、推送通知和应用程序内消息。
+>Campaign Standard允许您目标所有投放渠道中的Adobe Experience Platform受众: 电子邮件、SMS消息、直接邮件消息、推送通知和应用程序内消息。
 >
 >*注意： 对于所有推送和应用程序内消息，Campaign Standard仅支持已知用户档案的投放。
 
