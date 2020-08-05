@@ -15,80 +15,80 @@ translation-type: tm+mt
 source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # 电子邮件渲染{#email-rendering}
 
-在点击按 **[!UICONTROL Send]** 钮之前，请确保以最佳方式在各种Web客户端、Web邮件和设备上显示您的消息。
+在点击 **[!UICONTROL Send]** 按钮之前，确保以最佳方式在各种 Web 客户端、Web 邮件和设备上显示您的消息。
 
-为了实现此功能，Adobe Campaign捕获渲染并在专用报告中提供。 这样，您就可以在接收消息的不同上下文预览已发送的消息。
+为了实现此功能，Adobe Campaign 会捕捉渲染状态并提供在专用报告中。这样，您就可以预览不同消息接收环境下所收到之消息的显示情况。
 
-可用于Adobe Campaign中电子邮件呈现的移 **动设备** 、消息和Web邮件客户端列在 [Litmus网站上](https://litmus.com/email-testing) (单击“ **视图所有电子邮**&#x200B;件客户端”)。
+可用于 Adobe Campaign 中&#x200B;**电子邮件渲染**&#x200B;的移动设备、即时消息传递和网络邮件客户端列表，请参见 Litmus [网站](https://litmus.com/email-testing)（单击 **View all email clients**）。
 
-## 检查电子邮件呈现报告 {#checking-the-email-rendering-report}
+## 查看电子邮件渲染报告{#checking-the-email-rendering-report}
 
-创建电子邮件投放并定义其内容以及目标用户群后，请按照以下步骤操作。
+创建电子邮件投放并定义其内容及定向群体后，请执行以下步骤。
 
-1. 单击 **受众** ，以访问 **[!UICONTROL Test profiles]** 选项卡。
+1. 单击 **Audience**，以访问 **[!UICONTROL Test profiles]** 选项卡。
 
    ![](assets/email_rendering_05.png)
 
-1. 使用查询编辑器定义要使用的测试用户档案，包括用于电子邮件渲染的 **测试用户档案** 。 请参 [阅关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
+1. 使用查询编辑器以定义要使用的测试用户档案，包括用于&#x200B;**电子邮件渲染**&#x200B;的测试用户档案。请参阅[关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_rendering_06.png)
 
 1. 检查并确认查询，然后保存更改。
-1. 单击操 **[!UICONTROL Test]** 作栏中的按钮。
+1. 单击操作栏中的 **[!UICONTROL Test]** 按钮。
 
    ![](assets/email_rendering_07.png)
 
-1. 选择选 **[!UICONTROL Email rendering]** 项，然后单击 **[!UICONTROL OK]**。
+1. 选择 **[!UICONTROL Email rendering]** 选项，然后单击 **[!UICONTROL OK]**。
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >该选 **[!UICONTROL Proof + Email rendering]** 项允许您发送验证并同时使用电子邮件渲染功能。 您可以让验证收件人批准您的邮件，同时可以根据目标收件箱测试接收邮件的方式。 在这种情况下，您还需要选择验证测试用户档案。 请参 [阅关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
+   >利用 **[!UICONTROL Proof + Email rendering]** 选项，可发送校样并同时使用电子邮件渲染功能。根据定向的收件箱，您可以让校样收件人对消息进行审阅，并测试接收消息的方式。在这种情况下，您还需要选择校样测试用户档案。请参阅[关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
    测试投放已发送。
 
-1. 在发送消息后几分钟内即可使用渲染缩略图。 要访问它们， **[!UICONTROL Proofs]** 请在下 **[!UICONTROL Summary]** 拉列表中选择。
+1. 在发送消息后几分钟内，即可获得渲染缩览图。要访问这些缩览图，请在 **[!UICONTROL Summary]** 下拉菜单中选择 **[!UICONTROL Proofs]**。
 
    ![](assets/email_rendering_03.png)
 
-1. 在列表 **[!UICONTROL Proofs]** 中，单击该 **[!UICONTROL Access email rendering]** 图标。
+1. 在 **[!UICONTROL Proofs]** 列表中，单击 **[!UICONTROL Access email rendering]** 图标。
 
    ![](assets/email_rendering_04.png)
 
-此时将显示专用的电子邮件呈现报告。 请参阅 [电子邮件呈现报告说明](#email-rendering-report-description)。
+随即会显示专用的电子邮件渲染报告。请参阅[电子邮件渲染报告说明](#email-rendering-report-description)。
 
-**相关主题**:
+**相关主题**：
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
 * [发送校样](../../sending/using/sending-proofs.md)
 * [查询编辑器](../../automating/using/editing-queries.md#about-query-editor)
 
-## 电子邮件呈现报告说明 {#email-rendering-report-description}
+## 电子邮件渲染报告说明{#email-rendering-report-description}
 
-此报告在收件人中显示电子邮件呈现。 根据收件人打开电子邮件投放的方式，电子邮件呈现方式可能会有所不同： 或通过电子邮件应用程序。
+此报告展示了显示在收件人面前的电子邮件渲染。根据收件人打开电子邮件投放的方式，电子邮件渲染可能会有所不同：在浏览器中打开、在移动设备上打开或通过电子邮件应用程序打开。
 
 >[!NOTE]
 >
->许可协议中列出了可用的渲染数量。 启用电子邮件 **渲染的投放** ，每个将您的可用渲染（称为令牌）减少一个。
+>许可协议中列出了可用渲染的数量。启用了 **Email rendering** 的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
 
-报告摘要显示接收的邮件数、无用的（垃圾邮件）、未接收的邮件数或待接收邮件数。
+报告摘要可显示已接收的消息数量、无用的（垃圾邮件）消息数量、未接收的消息数量或待接收的消息数量。
 
 ![](assets/inbox_rendering_report.png)
 
-报告分为三部分： **[!UICONTROL Mobile]**、 **[!UICONTROL Messaging clients]**&#x200B;和 **[!UICONTROL Webmails]**。 向下滚动报表可显示分组到这三个类别中的所有渲染。
+报告分为三部分：**[!UICONTROL Mobile]**、**[!UICONTROL Messaging clients]** 和 **[!UICONTROL Webmails]**。向下滚动报告，可显示分组到这三个类别中的所有渲染。
 
 ![](assets/inbox_rendering_report_3.png)
 
-要获取每个报告的详细信息，请单击相应的信息卡。 为所选接收方法显示呈现。
+要获取各个报告的详细信息，请单击相应的卡。将针对所选的接收方式显示对应的渲染。
 
 ![](assets/inbox_rendering_report_2.png)
 
-该 **[!UICONTROL Technical data]** 选项卡允许您获取更多信息，如接收和捕获日期以及电子邮件的完整标题。
+利用 **[!UICONTROL Technical data]** 选项卡，可获取更多信息，如接收日期和捕获日期以及电子邮件的完整标题。
