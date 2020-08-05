@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 81%
+source-wordcount: '1564'
+ht-degree: 87%
 
 ---
 
@@ -26,31 +26,31 @@ ht-degree: 81%
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
 + 快速入门 {#getting-started}
-   + [关于Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [隐私和同意](start/using/privacy.md)
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面描述](start/using/interface-description.md)
       + [自定义列表](start/using/customizing-lists.md)
    + 使用营销活动 {#marketing-plans}
-      + [计划和营销活动](start/using/programs-and-campaigns.md)
+      + [项目和营销策划](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
       + [营销活动模板](start/using/marketing-activity-templates.md)
       + [时间线](start/using/timeline.md)
 + 用户档案和受众 {#profiles-and-audiences}
-   + [开始使用用户档案和受众](audiences/using/get-started-profiles-and-audiences.md)
+   + [用户档案和受众快速入门](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
       + [关于用户档案](audiences/using/about-profiles.md)
       + [创建用户档案](audiences/using/creating-profiles.md)
       + [编辑用户档案](audiences/using/editing-profiles.md)
-      + [整合的客户档案](audiences/using/integrated-customer-profile.md)
+      + [整合的客户用户档案](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
       + [管理测试用户档案](audiences/using/managing-test-profiles.md)
-      + [丰富 Campaign 数据库](audiences/using/enriching-campaign-database.md)
+      + [扩充 Campaign 数据库](audiences/using/enriching-campaign-database.md)
    + 管理受众 {#managing-audiences}
       + [关于受众](audiences/using/about-audiences.md)
       + [创建受众](audiences/using/creating-audiences.md)
-      + [在消息中选择受众](audiences/using/selecting-an-audience-in-a-message.md)
+      + [选择消息的受众](audiences/using/selecting-an-audience-in-a-message.md)
    + 管理订阅 {#managing-subscriptions}
       + [关于订阅](audiences/using/about-subscriptions.md)
       + [创建服务](audiences/using/creating-a-service.md)
@@ -66,7 +66,7 @@ ht-degree: 81%
       + [管理 Adobe Experience Platform 受众](audiences/using/aep-managing-audiences.md)
       + [使用区段生成器](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
-   + [通信渠道入门](channels/using/get-started-communication-channels.md)
+   + [通信渠道快速入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
       + [发送消息的关键步骤](channels/using/key-steps-to-send-a-message.md)
       + [访问消息](channels/using/accessing-messages.md)
@@ -102,11 +102,11 @@ ht-degree: 81%
       + [创建直邮](channels/using/creating-the-direct-mail.md)
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
-   + 交易消息传递 {#transactional-messaging}
-      + [关于交易消息传递](channels/using/about-transactional-messaging.md)
-      + [事件交易消息](channels/using/event-transactional-messages.md)
-      + [用户档案交易消息](channels/using/profile-transactional-messages.md)
-      + [交易推送通知](channels/using/transactional-push-notifications.md)
+   + 事务型消息传递 {#transactional-messaging}
+      + [关于事务型消息传递](channels/using/about-transactional-messaging.md)
+      + [事件事务型消息](channels/using/event-transactional-messages.md)
+      + [用户档案事务型消息](channels/using/profile-transactional-messages.md)
+      + [事务型推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
    + 登陆页面 {#landing-pages}
       + [登陆页面快速入门](channels/using/getting-started-with-landing-pages.md)
@@ -115,10 +115,10 @@ ht-degree: 81%
       + [设计登陆页面](channels/using/designing-a-landing-page.md)
       + [管理登陆页面表单数据](channels/using/managing-landing-page-form-data.md)
       + [测试和发布登陆页面](channels/using/testing-publishing-landing-page.md)
-      + [设置双重选择启用流程](channels/using/setting-up-a-double-opt-in-process.md)
+      + [设置双重选择加入流程](channels/using/setting-up-a-double-opt-in-process.md)
 + 设计电子邮件内容 {#designing-content}
-   + [Campaign 电子邮件设计工具](designing/using/designing-content-in-adobe-campaign.md)
-   + [电子邮件设计工具快速入门](designing/using/quick-start.md)
+   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+   + [Email Designer 快速入门](designing/using/quick-start.md)
    + [定义主题行和发件人](designing/using/subject-line.md)
    + 构建电子邮件内容{#building-email-content}
       + [从头开始设计电子邮件](designing/using/designing-from-scratch.md)
@@ -126,14 +126,14 @@ ht-degree: 81%
       + [使用可重用内容](designing/using/using-reusable-content.md)
       + [使用多解决方案集成](designing/using/using-integrations.md)
       + [编辑纯文本、HTML 和移动电子邮件](designing/using/plain-text-html-modes.md)
-      + [将旧版编辑器电子邮件转换为电子邮件设计器](designing/using/converting-emails-from-legacy-editor.md)
+      + [将旧版编辑器的电子邮件转换为 Email Designer](designing/using/converting-emails-from-legacy-editor.md)
    + [个性化电子邮件内容](designing/using/personalization.md)
    + [管理电子邮件样式](designing/using/styles.md)
    + [管理链接](designing/using/links.md)
    + [管理图像](designing/using/images.md)
-   + [常见问题解答](designing/using/faq-email-designer.md)
+   + [常见问题](designing/using/faq-email-designer.md)
 + 测试和发送 {#testing-and-sending}
-   + [开始测试和发送](sending/using/get-started-sending-messages.md)
+   + [测试和发送快速入门](sending/using/get-started-sending-messages.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览投放](sending/using/previewing-messages.md)
       + [准备发送](sending/using/preparing-the-send.md)
@@ -165,22 +165,22 @@ ht-degree: 81%
       + [IP 认证](sending/using/ip-certification.md)
       + [技术建议](sending/using/technical-recommendations.md)
       + [监控投放能力](sending/using/monitor-deliverability.md)
-      + [故障排除](sending/using/troubleshooting.md)
-   + 使用类型学规则 {#working-with-typology-rules}
-      + [关于类型和类型规则](sending/using/about-typology-rules.md)
-      + [管理类型](sending/using/managing-typologies.md)
-      + [管理类型规则](sending/using/managing-typology-rules.md)
+      + [疑难解答](sending/using/troubleshooting.md)
+   + 使用分类规则 {#working-with-typology-rules}
+      + [关于分类和分类规则](sending/using/about-typology-rules.md)
+      + [管理分类](sending/using/managing-typologies.md)
+      + [管理分类规则](sending/using/managing-typology-rules.md)
       + [筛选规则](sending/using/filtering-rules.md)
       + [疲劳规则](sending/using/fatigue-rules.md)
       + [控制规则](sending/using/control-rules.md)
 + 报告 {#reporting}
-   + [动态报告入门](reporting/using/get-started-reporting.md)
+   + [动态报告快速入门](reporting/using/get-started-reporting.md)
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
       + [报告界面](reporting/using/reporting-interface.md)
       + [组件列表](reporting/using/list-of-components-.md)
       + [指标计算](reporting/using/indicator-calculation.md)
-      + [故障排除](reporting/using/troubleshooting.md)
+      + [疑难解答](reporting/using/troubleshooting.md)
    + 报告列表 {#list-of-reports}
       + [定义报告周期](reporting/using/defining-the-report-period.md)
       + [退回摘要](reporting/using/bounce-summary.md)
@@ -205,7 +205,7 @@ ht-degree: 81%
       + [创建自定义用户档案维度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + 与其他解决方案集成{#integrating-with-adobe-cloud}
-   + [开始使用活动集成](integrating/using/get-started-campaign-integrations.md)
+   + [Campaign 集成快速入门](integrating/using/get-started-campaign-integrations.md)
    + Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
       + [配置 Campaign-Experience Manager 集成](integrating/using/configure-experience-manager.md)
@@ -221,8 +221,8 @@ ht-degree: 81%
       + [Analytics 中的 Campaign 维度和指标](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign 和 Audience Manager 或 People 核心服务{#working-with-campaign-and-audience-manager-or-people-core-service}
       + [关于 Campaign-Audience Manager 或 People 核心服务集成](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [准备和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
-      + [故障排除](integrating/using/troubleshooting.md)
+      + [预配和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [疑难解答](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign 和 Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
@@ -236,9 +236,9 @@ ht-degree: 81%
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365集成入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Microsoft Dynamics 365 集成快速入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + 管理流程和数据 {#managing-processes-and-data}
-   + [数据和流程管理入门](automating/using/get-started-workflows.md)
+   + [数据和流程管理快速入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
       + [工作流界面](automating/using/workflow-interface.md)
       + [构建工作流](automating/using/building-a-workflow.md)
@@ -255,8 +255,8 @@ ht-degree: 81%
       + [关于定位活动](automating/using/about-targeting-activities.md)
       + [查询](automating/using/query.md)
       + [增量查询](automating/using/incremental-query.md)
-      + [合并](automating/using/union.md)
-      + [交叉](automating/using/intersection.md)
+      + [并集](automating/using/union.md)
+      + [交集](automating/using/intersection.md)
       + [排除](automating/using/exclusion.md)
       + [分段](automating/using/segmentation.md)
       + [读取受众](automating/using/read-audience.md)
@@ -284,14 +284,14 @@ ht-degree: 81%
       + [更新数据](automating/using/update-data.md)
       + [加载文件](automating/using/load-file.md)
       + [传输文件](automating/using/transfer-file.md)
-      + [调解](automating/using/reconciliation.md)
+      + [协调](automating/using/reconciliation.md)
       + [提取文件](automating/using/extract-file.md)
       + [订阅服务](automating/using/subscription-services.md)
-      + [外部 API](automating/using/external-api.md)
+      + [External API](automating/using/external-api.md)
    + 筛选数据 {#filtering-data}
       + [编辑查询](automating/using/editing-queries.md)
       + [高级表达式编辑](automating/using/advanced-expression-editing.md)
-      + [功能列表](automating/using/list-of-functions.md)
+      + [函数列表](automating/using/list-of-functions.md)
    + 导入和导出数据 {#importing-and-exporting-data}
       + [关于数据导入和导出](automating/using/about-data-import-and-export.md)
       + [导入最佳实践](automating/using/import-best-practices.md)
@@ -299,16 +299,16 @@ ht-degree: 81%
       + [创建用于导入数据的工作流模板](automating/using/creating-import-workflow-templates.md)
       + [管理加密数据](automating/using/managing-encrypted-data.md)
       + [导出日志](automating/using/exporting-logs.md)
-      + [管理包](automating/using/managing-packages.md)
+      + [管理资源包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
-      + [用例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
+      + [使用案例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
    + 用例 {#workflow-use-case}
       + [关于工作流使用案例](automating/using/about-workflow-use-cases.md)
       + 投放 {#deliveries}
          + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
          + [在投放创建日期创建用户档案](automating/using/workflow-creation-date-query.md)
          + [创建每周投放](automating/using/workflow-weekly-offer.md)
-         + [创建跨渠道交付](automating/using/workflow-cross-channel-delivery.md)
+         + [创建跨渠道投放](automating/using/workflow-cross-channel-delivery.md)
          + [在重复之前识别投放](automating/using/identifying-duplicated-before-delivery.md)
          + [生日投放](automating/using/birthday-delivery.md)
          + [将电子邮件和直邮投放](automating/using/coupling-email-direct-mail.md)
@@ -316,13 +316,13 @@ ht-degree: 81%
          + [个性化包含其他数据的电子邮件](automating/using/personalizing-email-with-additional-data.md)
          + [发送循环推送通知](automating/using/recurring-push-notifications.md)
       + 分段和定位 {#segmentation-targeting}
-         + [查询范例](automating/using/query-samples.md)
+         + [查询样例](automating/using/query-samples.md)
          + [合并两家精炼受众](automating/using/union-on-two-refined-audiences.md)
-         + [创建位置分段](automating/using/workflow-segmentation-location.md)
+         + [创建基于位置的分段](automating/using/workflow-segmentation-location.md)
          + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
          + [增量查询服务的订户](automating/using/incremental-query-on-subscribers.md)
          + [根据年龄组进行细分](automating/using/segmentation-age-groups.md)
-         + [使用不同于定位维度的资源](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [使用与定向维度不同的资源](automating/using/using-resources-different-from-targeting-dimensions.md)
          + [构建对照组](automating/using/workflow-control-group.md)
       + 数据管理 {#data-management}
          + [协调文件受众与数据库](automating/using/reconcile-file-audience-with-database.md)
@@ -336,11 +336,11 @@ ht-degree: 81%
          + [在外部文件中导出用户档案](automating/using/exporting-profiles-in-file.md)
          + [从文件更新多个订阅状态](automating/using/updating-subscriptions-from-file.md)
          + [将用户档案从文件订阅到特定服务](automating/using/subscribing-profiles-from-file.md)
-   + 与 Adobe Experience Platform 受众合作 {#working-with-aep-audiences}
-      + [面向 Adobe Experience Platform 受众](automating/using/aep-targeting-audiences.md)
-      + [使用 Adobe Experience Platform 属性个性化营销活动](automating/using/aep-personalizing-campaigns.md)
+   + 使用 Adobe Experience Platform 受众 {#working-with-aep-audiences}
+      + [定向 Adobe Experience Platform 受众](automating/using/aep-targeting-audiences.md)
+      + [使用 Adobe Experience Platform 属性个性化营销策划](automating/using/aep-personalizing-campaigns.md)
 + 开发 {#developing}
-   + [Campaign Standard数据模型入门](developing/using/get-started-data-model.md)
+   + [Campaign Standard 数据模型快速入门](developing/using/get-started-data-model.md)
    + 关于自定义资源 {#about-custom-resources}
       + [数据模型概念](developing/using/data-model-concepts.md)
       + [资源状态](developing/using/resource-statuses.md)
@@ -351,22 +351,22 @@ ht-degree: 81%
       + [创建或扩展资源](developing/using/creating-or-extending-the-resource.md)
       + [配置资源的数据结构](developing/using/configuring-the-resource-s-data-structure.md)
       + [配置屏幕定义](developing/using/configuring-the-screen-definition.md)
-      + [配置筛选条件定义](developing/using/configuring-filter-definition.md)
+      + [配置过滤器定义](developing/using/configuring-filter-definition.md)
       + [更新数据库结构](developing/using/updating-the-database-structure.md)
       + [删除资源](developing/using/deleting-a-resource.md)
       + [使用复合标识关键码调用资源](developing/using/uc-calling-resource-id-key.md)
-   + 用例：扩展 API {#use-case--extending-the-api}
+   + 使用案例：扩展 API {#use-case--extending-the-api}
       + [关于扩展 API](developing/using/about-extending-the-api.md)
       + [第 1 步：将扩展字段添加到用户档案资源](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
       + [第 2 步：发布扩展](developing/using/step-2--publish-the-extension.md)
       + [第 3 步：验证扩展](developing/using/step-3--verify-the-extension.md)
-   + 用例：扩展资源 {#use-cases--extending-resources}
+   + 使用案例：扩展资源 {#use-cases--extending-resources}
       + [使用新字段扩展用户档案资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 数据模型 {#datamodel}
       + [简介](developing/using/datamodel-introduction.md)
       + [受众](developing/using/datamodel-audience.md)
-      + [营销活动](developing/using/datamodel-campaign.md)
+      + [营销策划](developing/using/datamodel-campaign.md)
       + [投放](developing/using/datamodel-delivery.md)
       + [登陆页面](developing/using/datamodel-landingpage.md)
       + [营销历史](developing/using/datamodel-history.md)
@@ -385,7 +385,7 @@ ht-degree: 81%
       + [映射激活](developing/using/aep-mapping-activation.md)
       + [通过 API 触发数据摄取](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
-   + [开始Campaign Standard管理](administration/using/get-started-campaign-administration.md)
+   + [Campaign Standard 管理快速入门](administration/using/get-started-campaign-administration.md)
    + [监控指南](administration/using/monitoring-guidelines.md)
    + [配置准则](administration/using/about-configuration-guidelines.md)
    + 用户和安全性 {#users-and-security}
@@ -401,27 +401,29 @@ ht-degree: 81%
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
       + [配置短信渠道](administration/using/configuring-sms-channel.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
-      + [配置交易消息传递](administration/using/configuring-transactional-messaging.md)
+      + [配置事务型消息传递](administration/using/configuring-transactional-messaging.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
       + [添加图像和视频iOS](administration/using/image-push-notification.md)
       + [了解推送通知有效负荷结构](administration/using/push-payload.md)
       + [实施本地通知跟踪](administration/using/local-tracking.md)
-      + [SyncWithLaunch技术工作流程常见问题解答](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience PlatformSDK和活动入门](administration/using/aep-faq.md)
+      + [Adobe启动同步常见问题解答](administration/using/syncwithlaunch-faq.md)
+      + [Experience PlatformSDK集成常见问题解答](administration/using/aep-faq.md)
+      + [配置启动规则以支持Adobe Campaign Standard使用案例](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
       + [Campaign 中的目标映射](administration/using/target-mappings-in-campaign.md)
       + [技术工作流](administration/using/technical-workflows.md)
-      + [品牌](administration/using/branding.md)
+      + [品牌策略](administration/using/branding.md)
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
 + 使用 API {#working-with-apis}
-   + [开始使用Campaign StandardAPI](api/using/get-started-apis.md)
+   + [Campaign Standard API 快速入门](api/using/get-started-apis.md)
    + 关于 Campaign Standard API {#about-campaign-standard-apis}
-      + [为何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [为何使用Campaign StandardAPI](api/using/why-using-campaign-standard-apis.md)
       + [设置 API 访问](api/using/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
       + [必读](api/using/must-read.md)
@@ -449,8 +451,8 @@ ht-degree: 81%
       + [创建隐私请求](api/using/creating-a-privacy-request.md)
       + [监视隐私请求](api/using/monitoring-a-privacy-request.md)
       + [检索隐私数据文件](api/using/retrieving-privacy-data-files.md)
-      + [管理 CCPA 退出](api/using/managing-ccpa-opt-out.md)
-   + [管理交易消息](api/using/managing-transactional-messages.md)
+      + [管理 CCPA 选择退出](api/using/managing-ccpa-opt-out.md)
+   + [管理事务型消息](api/using/managing-transactional-messages.md)
    + 管理工作流 {#managing-workflows}
       + [控制工作流](api/using/controlling-a-workflow.md)
       + [触发信号活动](api/using/triggering-a-signal-activity.md)
@@ -462,4 +464,4 @@ ht-degree: 81%
       + [检索用户档案的地理单位](api/using/retrieving-a-geographical-unit.md)
       + [更新用户档案的地理单位](api/using/updating-a-geographical-unit.md)
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
-   + [故障排除](api/using/troubleshooting.md)
+   + [疑难解答](api/using/troubleshooting.md)
