@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience PlatformSDK和Adobe Campaign集成常见问题解答
-description: Adobe Experience PlatformSDK和Adobe Campaign集成常见问题解答
+title: Adobe Experience PlatformSDK与Adobe Campaign集成常见问题解答
+description: Adobe Experience PlatformSDK与Adobe Campaign集成常见问题解答
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# Adobe Experience PlatformSDK和Campaign Standard入门 {#aep-faq}
+# Experience PlatformSDK集成常见问题解答 {#aep-faq}
 
 要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience PlatformSDK中设置移动应用程序并在Adobe Campaign中进行配置。
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 * 启动／移动概 [述视频](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * 启动／移动 [提示与技巧指南](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## Adobe Experience PlatformSDK集成是否可用于Adobe Campaign Standard和Adobe Campaign经典？ {#aep-validity}
+## Adobe Experience PlatformSDK集成是否可用于Adobe Campaign Standard和Adobe Campaign Classic? {#aep-validity}
 
-是的， [!DNL Adobe Experience Platform SDK] 集成适用于Adobe Campaign Standard和Adobe Campaign经典。 您需要通过安装相 **[!UICONTROL Extension]** 应的 [!DNL Adobe Launch] 方式来启用集成。
+是的 [!DNL Adobe Experience Platform SDK] ,Adobe Campaign Standard和Adobe Campaign Classic均可集成。 您需要通过安装相 **[!UICONTROL Extension]** 应的 [!DNL Adobe Launch] 方式来启用集成。
 
-有关此内容的详细信息，请参 [阅本页](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) ,Campaign Classic [请参阅](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 本页。
+有关此内容的详细信息，请参 [阅本页](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) ,Campaign Classic [请参阅](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 本页。
 
 ## Adobe Experience PlatformSDK集成在Adobe Campaign方面有哪些功能？ {#aep-capabilities}
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 ![](assets/faq.png)
 
->[!Note]
+>[!N注意]
 >
 >[!DNL Places] 集成包括将事件作为应用程序内消息的触发器（推送通知为N/A），通过数据和本地通知支持丰 [!DNL Places] 富用户档案。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 有限集成包括用数据丰富 [!DNL Places] 用户档案。
 
-## Adobe Experience PlatformSDK集成在Adobe Campaign Standard下有哪些用例？ {#aep-use-cases}
+## Adobe Experience PlatformSDK集成在Adobe Campaign Standard有哪些用例？ {#aep-use-cases}
 
 支持以下用例：
 
@@ -67,17 +67,17 @@ ht-degree: 0%
 
 ## 要获得活动的移动用户档案，我必须做什么？ {#mobile-profile-campaign}
 
-为此，请按照以下步骤操作：
+要实现此目的，请执行以下步骤：
 
 1. 在中配 **[!UICONTROL Mobile property]** 置 [!DNL Launch]。
-1. 安装Adobe Campaign Standard扩展。 请注意，Adobe Campaign Standard扩展还 **[!UICONTROL Mobile Core]**&#x200B;需要 **[!UICONTROL Profile]** 安装 **[!UICONTROL Lifecycle]** 的扩展，默认安装在中 [!DNL Launch]。
+1. 安装Adobe Campaign Standard扩展。 请注意，Adobe Campaign Standard扩展 **[!UICONTROL Mobile Core]**&#x200B;还 **[!UICONTROL Profile]** 需要 **[!UICONTROL Lifecycle]** 默认安装的扩展 [!DNL Launch]。
    * 用户应配置会话超时( **[!UICONTROL Mobile Core]** 扩展)，这会影响生命周期事件的频率。
-   * 配置扩展后，用户应使用适用于iOS的Cocoapod和适用于Android的Gradle在移动应用程序中添加适当的依赖关系。 按照这里的 [指示](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
+   * 配置扩展后，用户应使用适用于iOS的Cocoapod和适用于Android的Gradle在移动应用程序中添加适当的依赖关系。 按照这里的 [指示](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
    * 始终使用最新版本的库。
    * 在移动应用程序中，注 **[!UICONTROL Campaign]**&#x200B;册、 **[!UICONTROL UserProfile]**&#x200B;扩 **[!UICONTROL Identity]**&#x200B;展和 **[!UICONTROL Lifecycle]** 扩展 **[!UICONTROL Signal]** 功能。 按照这里的 [指示](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core)。
    * 注册扩展后，开始ACPCore。 对于Android，请确保设置Application onCreate()。 按照Launch中针对您的移动属性的移动安装说明中提供的确切说明进行操作。
    * 还需要以下SDK API。 按照此处为Android和iOS介绍 [的](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) ，实施生命周期开始和暂停API。
-1. 在Adobe Campaign Standard **[!UICONTROL Mobile Property]** 中配置。 按照此处的 [步骤](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 在Adobe Campaign Standard **[!UICONTROL Mobile Property]** 配置。 按照此处的 [步骤](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 ## 要丰富活动中的移动用户档案，我必须做什么？ {#enrich-mobile-profile}
 
@@ -95,7 +95,7 @@ CollectPII呼叫的目的是丰富活动中的移动用户档案。 当有新的
 
 CollectPII调用的频率和设计应根据业务需求而定，不应因为给数据库造成额外负载而盲目触发。
 
-### 当我尝试在活动或启动中访问Adobe Experience Platform应用程序时，有时会收到一个属性不可用的错误。 {#aep-error}
+### 当我尝试在活动或启动中访问Adobe Experience Platform应用程序时，有时会出现属性不可用错误。 {#aep-error}
 
 这是已知问题，由于令牌过期而发生。 您应尝试登录。
 
