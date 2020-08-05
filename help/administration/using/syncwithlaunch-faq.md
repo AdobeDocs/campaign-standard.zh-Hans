@@ -12,43 +12,43 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 
-# 与Launch技术工作流程同步常见问题解答 {#syncwithlaunch-faq}
+# Adobe启动同步常见问题解答 {#syncwithlaunch-faq}
 
-您可以通过专用的技术工作流程将Adobe Launch移动 **[!UICONTROL Sync with Launch]** 设备属性导入Adobe Campaign Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
+您可以通过专用的技术工作流将Adobe启动移动 **[!UICONTROL Sync with Launch]** 属性导入Adobe Campaign Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
 以下部分列表了有关此同步的常见问题。
 
 >[!NOTE]
 >
->您需要向Adobe客户服务中心（直接或通过您的Adobe联系人）提交票证，以便在活动实例 **[!UICONTROL syncWithLaunch]** 中启用技术工作流程。
+>You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## 我在(组织单 [!DNL Launch] 元全部非管理员)中创建了属性。 我的应用程序处于Adobe Campaign中“准备配置”状态，但无法打开／配置它。 {#configuring-property}
 
-只有组织单元的管理员才能在Adobe Campaign Standard中配置移动应用程序。 配置完毕后，只有分配的组织单位的用户才能编辑应用程序。 有关组织单位的详细信息，请参 [阅本页](../../administration/using/organizational-units.md)。
+只有组织单位ALL的管理员才能在Adobe Campaign Standard配置移动应用程序。 配置完毕后，只有分配的组织单位的用户才能编辑应用程序。 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## 我无法编辑Adobe Campaign Standard中已配置的移动应用程序，而移动应用程序只处于读模式。 {#read-mode-mobile-app}
+## 我无法编辑在Adobe Campaign Standard配置的移动应用程序，并且移动应用程序只处于读模式。 {#read-mode-mobile-app}
 
 在部分中检查移动应用程序的组织 **[!UICONTROL Access Authorization ]** 单位。 只有已分配组织单元的用户才能编辑移动应用程序。
 
-有关组织单位的详细信息，请参 [阅本页](../../administration/using/organizational-units.md)。
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## 我是Adobe Campaign Standard组织单元ALL的管理员，但无法配置移动应用程序。 {#org-unit-mobile}
+## 我是Adobe Campaign StandardALL组织单位的管理员，但无法配置移动应用程序。 {#org-unit-mobile}
 
 组织单元设置为“全部”的管理员应对中的所有移动属性具有 [!DNL Launch] 配置移动应用程序的权限。
 
-有关组织单位的详细信息，请参 [阅本页](../../administration/using/organizational-units.md)。
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## 我在中创建了移动属 [!DNL Launch] 性，但我的属性在Adobe Campaign Standard中不可见。 {#visibility-mobile-property}
+## 我在Adobe Campaign Standard创建了一个 [!DNL Launch] 移动房产，但我的房产在不可见。 {#visibility-mobile-property}
 
-1. 检查Adobe Campaign Standard扩展是否安装在中的移动属性中 [!DNL Launch]。
+1. 检查是否已将Adobe Campaign Standard扩展安装在中的移动属性中 [!DNL Launch]。
 
 1. 验证实例的端点是否在扩展中正确配置。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 如何检查Adobe Campaign和启动项之间的同步是否已完成？ {#sync-campaign-launch}
 
-1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
+1. 在Adobe Campaign Standard，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 
 1. 打开工 **[!UICONTROL syncWithLaunch]** 作流。
 
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 ## 我在Launch中重置了已配置移动应用程序的键。 如何在Launch中重新配置密钥？ {#configuring-pkey}
 
-1. 在Adobe Launch中打开移动属性。
+1. 在Adobe启动中打开移动属性。
 
-1. 在Adobe Campaign Standard扩展中设置PKey已重置的新URL。
+1. 在重置PKey的Adobe Campaign Standard扩展中设置新URL。
 
 1. 保存它，让工作流在Adobe Campaign和之间同步 [!DNL Launch]。
 
@@ -82,12 +82,12 @@ ht-degree: 0%
 
 1. 只有这样，该属性才会以 **[!UICONTROL Ready to Configure]** Adobe Campaign显示，并且现在可以进行配置。
 
-## 我想在Adobe Campaign中配置移动属性。 我是否必须等待技术工作流程在Adobe Launch和Adobe Campaign之间同步？
+## 我想在Adobe Campaign中配置移动属性。 我是否必须等待技术工作流在Adobe启动和Adobe Campaign之间同步？
 
 您可以立即执行工作流：
 
-1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
+1. 在Adobe Campaign Standard，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 
 1. 打开工 **[!UICONTROL syncWithLaunch]** 作流。
 
-1. 单击活动 **[!UICONTROL Scheduler]** 并选择 **[!UICONTROL Immediate execution]**。
+1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.
