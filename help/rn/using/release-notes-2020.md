@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * 修复了在选择和更新测试用户档案时可能发生的性能问题。(CAMP-37976)
 * 修复了通过登陆页面订阅或退订时可能显示错误页面的问题。(CAMP-37771)
 * 修复了以 zip 格式上传内容时发生的问题，在 HTML 中引用的 PNG 文件的扩展名会变成大写字母。(CAMP-37913)
-* 修复了向投放添加测试用户档案时阻止发送应用程序内消息的问题。
+* 修复了在向投放添加测试用户档案时无法发送应用程序内消息的问题。
 * 修复了 External API 工作流活动链接到扩充活动时失败的错误。
 * 修复了可能导致短信消息状态显示不正确的问题。
 * 修复了自定义资源导致重复条目在 API 端点下显示不同的问题。
