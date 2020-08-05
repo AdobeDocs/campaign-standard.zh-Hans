@@ -1,6 +1,6 @@
 ---
-title: 使用 Adobe Experience Platform 属性个性化营销活动
-description: 了解如何使用Adobe Experience Platform属性对活动进行个性化。
+title: 使用 Adobe Experience Platform 属性个性化营销策划
+description: 了解如何使用活动体验平台属性来个性化您的Adobe。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,26 +12,29 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 7%
 
 ---
 
 
-# 使用 Adobe Experience Platform 属性个性化营销活动 {#personalizing-campaigns-using-aep-attributes}
+# 使用 Adobe Experience Platform 属性个性化营销策划 {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务。
+>受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 >
->**推送** 和 **应用程序内渠道尚不可** 用于使用Adobe Experience Platform中的情境进行个性化。
+>**推送** 和应 **用程序内渠道尚不可用** ，无法使用Adobe Experience Platform的情境数据进行个性化。
 
-使用Adobe Experience Platform受众配 [置工作流后](../../audiences/using/aep-about-audience-destinations-service.md)，您可以使用“体验数据模型”(XDM)中独有的用户档案属性个性化消息。
+在您的工作流配置了 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md)后，您可以使用体验数据模型(XDM)中独有的用户档案属性来个性化消息。
 
 为此，您必须在活动中添加以下属 **[!UICONTROL Read audience]** 性：
 
-1. 打开 **[!UICONTROL Read audience]** 活动。 在选项 **[!UICONTROL Additional data]** 卡中，单击 **[!UICONTROL Create element]** 按钮。
+1. 打开 **[!UICONTROL Read audience]** 活动。 In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
-   请注意， **[!UICONTROL Additional data]** 只有在选择了Adobe Experience Platform受众后，该选项卡才可用。
+   请注意， **[!UICONTROL Additional data]** 只有在选择了Adobe Experience Platform受众后，选项卡才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
