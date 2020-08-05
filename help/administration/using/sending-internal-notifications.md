@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -32,6 +32,6 @@ Adobe Campaign允许您直接在应用程序中接收有关重要系统活动的
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: 每当工作流出错时，都会通知选定安全组的每个成员（电子邮件和应用程序内通知）。 单击通知或电子邮件链接会显示相应的工作流。 默认情况下，通知会在现成的工作流模板中停用。 如果要激活它们，请编辑工作流或工作流模板的属性，并在“常规”>“执行”>“错误管理”>“监 **管者”下添加一个安全组**。 有关安全组的详细信息，请参阅 [管理组和用户](../../administration/using/managing-groups-and-users.md)。 有关工作流属性的详细信息，请参 [阅工作流属性](../../automating/using/managing-execution-options.md)。
+* **[!UICONTROL Workflows]**: 当工作流出错时，将通知选定安全组的每个成员（电子邮件和应用程序内通知）。 单击通知或电子邮件链接会显示相应的工作流。 默认情况下，通知会在现成的工作流模板中停用。 如果要激活它们，请编辑工作流或工作流模板的属性，并在“常规”>“执行”>“错误管理”>“监 **管者”下添加一个安全组**。 有关安全组的详细信息，请参阅 [管理组和用户](../../administration/using/managing-groups-and-users.md)。 有关工作流属性的详细信息，请参 [阅工作流属性](../../automating/using/managing-execution-options.md)。
 
    ![](assets/pulse_1.png)
