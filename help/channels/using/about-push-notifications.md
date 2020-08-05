@@ -93,7 +93,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 ### 我必须做什么才能获得活动中的推送令牌？ {#push-token-acquisition}
 
-确保供应团队已在Adobe Campaign Standard中完成推送渠道的供应。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
+确保供应团队已在Adobe Campaign Standard完成推送渠道的供应。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
 
 ### 将推送令牌和ECID活动后，我还需要发送推送通知吗？ {#sending-push}
 
@@ -165,4 +165,4 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 是，推送消息中支持深层链接。 深层链接应包括：
 
 * 一种语言，该语言规定需要禁用投放跟踪才能使开发人员工作。
-* Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的详细信息，请参阅 [本页](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅 [本页](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
