@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 更新了设计内容指南，以反映 Email Designer 的常规可用性和旧版电子邮件内容编辑器已被弃用。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-更新了[应用程序内](../../channels/using/about-in-app-messaging.md)和[推送通知](../../channels/using/about-push-notifications.md)文档。
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 添加了关于 Adobe Campaign 中各种类型受众的更多信息。[了解更多](../../audiences/using/about-audiences.md)
 
