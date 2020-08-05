@@ -16,16 +16,16 @@ translation-type: tm+mt
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 
 # 自定义推送通知{#customizing-a-push-notification}
 
-要微调推送通知，Adobe Campaign允许您在设计推送通知时访问一组高级选项。
+要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
-作为专家用户，要在Adobe Campaign中配置移动应用程序，请参阅以下技术说 [明了解Campaign Standard推送通知有效负荷结构](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)。
+专家用户要在 Adobe Campaign 中配置移动应用程序，请参阅以下技术说明[了解 Campaign Standard 推送通知有效载荷结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)。
 
 ![](assets/push_notif_advanced.png)
 
@@ -34,36 +34,37 @@ ht-degree: 0%
 * [推送通知报告](../../reporting/using/push-notification-report.md)
 * [在工作流中发送推送通知](../../automating/using/push-notification-delivery.md)
 
-## 播放声音 {#play-a-sound}
+## 播放提示音{#play-a-sound}
 
-该功 **[!UICONTROL Play a sound]** 能使应用程序能够在应用程序未运行时投放推送通知，在设备上播放声音。
+利用 **[!UICONTROL Play a sound]** 功能，就算应用未运行，也可让设备在收到推送通知投放时，播放提示音。
 
-音效会提醒用户推送通知，使其更加可见。 要在移动应用程序中包含声音，请执行以下操作：
+提示音可提醒用户存在推送通知，使推送通知更加醒目。要在移动应用程序中包含提示音，请执行以下操作：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
-1. 在字 **[!UICONTROL Play a sound]** 段中，输入在收到通知时由移动设备播放的声音文件的文件名（不带扩展名）。
+1. 在 **[!UICONTROL Play a sound]** 字段中，输入移动设备接收到通知时所播放之声音文件的文件名（不带扩展名）。
 
-   有关支持的媒体格式的更多信息，请 [参阅Apple](https://support.apple.com/kb/PH16864?locale=en_US) 和 [Android文档](https://developer.android.com/guide/topics/media/media-formats) 。
+   有关所支持媒体格式的更多信息，请参阅 [Apple](https://support.apple.com/kb/PH16864?locale=zh_CN) 和 [Android](https://developer.android.com/guide/topics/media/media-formats) 文档。
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果文件是在手机应用程序的包中定义的，则在发送通知时播放声音文件。 否则，将播放设备的默认声音。
+1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。否则，将播放设备的默认声音。
 
-用户随后将收到推送通知和声音，但前提是手机未静音。
+用户随后将收到推送通知，但只有手机未静音时才会播放提示音。
 
-## 刷新标记值 {#refresh-the-badge-value}
+## 刷新标记值{#refresh-the-badge-value}
 
-徽章用于直接在应用程序图标上显示新的未读信息数。 当用户打开或从应用程序中读取新内容时，徽章值将消失。
+标记用于直接在应用程序图标上显示新的未读信息数。当用户打开或从应用程序中读取新内容时，标记值将消失。
 
-在设备上收到通知时，它可以刷新或添加相关应用程序的标记值。 要从服务器端发送标记值，请执行以下操作：
+在设备上收到通知时，可能会刷新或增加相关应用程序的标记值。要从服务器端发送标记值，请执行以下操作：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
 1. 标记值必须是整数，并可以通过不同方式进行更新：
 
-   * 要刷新标记，请在字段中输入 **[!UICONTROL Value of the badge]** 0。 这将从应用程序图标中删除该徽章。
-   * 要添加标记值，请在字段中输入任意 **[!UICONTROL Value of the badge]** 数字。 用户收到推送通知后，此号码将自动显示在徽章中。
-   * 如果字段为空或不包含整数，标记值将不会更改。
-   在此，我们在字段中输 **[!UICONTROL Value of the badge]** 入了1，以告知用户他们的应用程序中有新信息。
+   * 要刷新标记，请在 **[!UICONTROL Value of the badge]** 字段中输入 0。这将从应用程序图标中移除该标记。
+   * 要添加标记值，请 在&#x200B;**[!UICONTROL Value of the badge]** 字段中输入任意数字。用户一旦收到推送通知，此数字就会自动显示在标记中。
+   * 如果字段为空或不包含整数，将不会更改标记值。
+
+   在此，我们在 **[!UICONTROL Value of the badge]** 字段中输入 1，以告知用户，其应用程序中有新信息。
 
    ![](assets/push_notif_advanced_8.png)
 
@@ -71,35 +72,35 @@ ht-degree: 0%
 
    ![](assets/push_notif_advanced_1.png)
 
-## 添加开发人员 {#add-a-deeplink}
+## 添加深层链接{#add-a-deeplink}
 
-利用Develink，您可以直接将用户带到应用程序内的内容（而不是打开Web浏览器页面）。
+利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。
 
-开发人员可以包含个性化数据以获得自定义应用程序内体验。 例如，收件人的名字会自动填写在应用程序将其定向到的页面上。
+深层链接可以包含用于自定义应用内体验的个性化数据。例如，收件人的名字会自动填写在应用程序所导向的页面上。
 
-在推送通知中添加深层链接：
+要在推送通知中添加深层链接：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
-1. 在字段中输入链 **[!UICONTROL Add a deeplink]** 接。
+1. 在 **[!UICONTROL Add a deeplink]** 字段中输入链接。
 
    ![](assets/push_notif_advanced_3.png)
 
-1. 发送消息后，用户将收到推送通知并通过与通知交互（例如点击或单击行动动员按钮）访问应用程序中的特定页面。
+1. 发送消息后，用户将收到推送通知并可通过与通知交互（例如点击或单击行动号召按钮）访问应用程序中的特定页面。
 
    ![](assets/push_notif_advanced_4.png)
 
-## 定义操作 {#define-an-action}
+## 定义操作{#define-an-action}
 
-您可以添加类别ID（如果在移动应用程序中可用），然后显示操作按钮。 这些通知为用户提供了一种更快的方式，无需在应用程序中打开或导航即可响应通知执行不同任务。
+您可以添加类别 ID（如果在移动应用程序中可用），然后显示操作按钮。这些通知为用户提供了一种更快的方式，无需在应用程序中打开或导航即可响应通知执行不同任务。
 
-用户电话上显示的对话框需要决定继续。 当用户选择其中一个操作时，系统会通知应用程序，以便它能够执行任何关联的任务。
+用户电话上显示的对话框要求决定是否继续。当用户选择其中一个操作时，系统会通知应用程序，以便其执行任何关联的任务。
 
-在推送通知中添加类别:
+在推送通知中添加类别：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
-1. 在字段中输入预定义的类别 **[!UICONTROL Category]** 名称，以在收到推送通知时显示可操作的按钮。
+1. 在 **[!UICONTROL Category]** 字段中输入预定义的类别名称，以在收到推送通知时显示可操作的按钮。
 
-   移动应用程序开发人员必须定义类别ID和按钮在应用程序中的预期行为。 有关此内容的详细信息，请参 [阅Apple Developer文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) (配&#x200B;**置类别和可操作通知部分** )或Android开发 [人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)。
+   移动应用程序开发人员必须定义类别 ID 和按钮在应用程序中的预期行为。有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html)（**配置类别和可操作通知**&#x200B;章节）或 [Android 开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)。
 
    ![](assets/push_notif_advanced_9.png)
 
@@ -109,85 +110,85 @@ ht-degree: 0%
 
 根据用户的操作，将通知应用程序以执行任何相关任务。
 
-## 添加到期日期 {#add-expiration-date}
+## 添加到期日期{#add-expiration-date}
 
-将过期日期设置为推送通知可设置特定的过期日期，在该日期，Apple(APNS)或Android([FCM](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns))将不再发送[消息](https://firebase.google.com/docs/cloud-messaging/concept-options)。
+通过为推送通知设置到期日期，在到达该日期后，Apple [(APNS)](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns) 或 Android [(FCM)](https://firebase.google.com/docs/cloud-messaging/concept-options) 将不再发送该消息。
 
-要向推送通知添加过期日期，请执行以下操作：
+要向推送通知添加到期日期，请执行以下操作：
 
-1. 选中该 **[!UICONTROL Expire message]** 选项。
+1. 勾选 **[!UICONTROL Expire message]** 选项。
 
    >[!NOTE]
    >
-   >通过选 **[!UICONTROL Expire message]** 择选项，持续时间将自动设置为0。 如果不更改值，APNS和FCM将尝试立即发送消息。 如果失败，消息将不再发送。
+   >通过选择 **[!UICONTROL Expire message]** 选项，持续时间将自动设置为 0。如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
 
-1. 在字段中 **[!UICONTROL Duration]** ，选择推送通知的有效性。
+1. 在 **[!UICONTROL Duration]** 字段中，选择推送通知的有效期。
 
    ![](assets/push_expiration.png)
 
-1. 在发送推送通知后，如果用户由于电话未打开或没有信号而未立即收到该通知，则推送仍将在过期日期时间段内发送。
+1. 在发送推送通知后，如果用户由于手机未打开或没有信号而未立即收到该通知，则会在到达过期日期之前尝试重新发送。
 
-请注意，如果推送通知在过期日期之前尚未发送，则将丢弃该通知。
+请注意，如果到达过期日期时仍未发送推送通知，则将弃用该通知。
 
-## 添加自定义字段 {#add-custom-fields}
+## 添加自定义字段{#add-custom-fields}
 
-自定义字段允许您以键值对的形式在有效负荷中传递自定义数据。 此选项可用于向应用程序传递预定义密钥以外的其他数据。
+利用自定义字段，可使用键值对的形式在有效载荷中传递自定义数据。此选项可用于向应用程序传递预定义键值以外的其他数据。
 
-为此，请执行以下操作：
+为实现此操作，请执行以下步骤：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
-1. 在类别 **[!UICONTROL Custom fields]** 中，单击该 **[!UICONTROL Add an element]** 按钮。
-1. 然后输 **[!UICONTROL Keys]** 入与每 **[!UICONTROL Values]** 个键关联的键。
+1. 在 **[!UICONTROL Custom fields]** 类别中，单击 **[!UICONTROL Add an element]** 按钮。
+1. 输入 **[!UICONTROL Keys]**，接着输入与各个键值关联的 **[!UICONTROL Values]**。
 
    ![](assets/push_notif_advanced_10.png)
 
-1. 自定义字段的处理和用途完全由移动应用程序决定。 在以下推送通知中，应用程序已使用自定义字段显示推送通知的按钮标签。
+1. 自定义字段的处理和用途完全取决于移动应用程序。在以下推送通知中，应用程序已使用自定义字段显示推送通知的按钮标签。
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## 添加富媒体内容 {#add-rich-media-content}
+## 添加富媒体内容{#add-rich-media-content}
 
-丰富媒体内容使您能够更好地参与用户活动，这意味着您的用户更倾向于打开您的推送通知。
+利用富媒体内容，可更好地吸引用户参与，这意味着用户将更倾向于打开您的推送通知。
 
-您可以包含将在通知本身中播放或显示的图像、gif、音频或视频文件。 您的应用程序用户无需打开应用程序即可看到它。
+您可以加入将在通知本身中播放或显示的图像、GIF 动图、音频或视频文件。您的应用程序用户无需打开应用程序即可查看这些内容。
 
 要在推送通知中包含富媒体，请执行以下操作：
 
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
-1. 在每个格式的字段中输入 **[!UICONTROL Rich media content URL]** 文件的URL: iOS和Android。
+1. 在每种格式（iOS 和 Android）的 **[!UICONTROL Rich media content URL]** 字段中输入文件的 URL。
 
-   对于iOS 10或更高版本，可插入图像、gif、音频和视频文件。 对于较早的iOS版本，将显示推送通知而不显示丰富内容。 有关如何在iOS设备上显示Adobe Campaign推送通知中的图像的详细步骤，请参阅此 [页](https://helpx.adobe.com/campaign/kb/display-image-push.html)。
+   对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。对于较早的 iOS 版本，将显示不带富文本内容的推送通知。有关如何在 iOS 设备上显示 Adobe Campaign 推送通知中图像的详细步骤，请参阅此[页面](https://helpx.adobe.com/cn/campaign/kb/display-image-push.html)。
 
-   对于Android，只能包含图像。
+   对于 Android，只能包含图像。
 
    ![](assets/push_notif_advanced_6.png)
 
-1. 发送消息后，用户将收到您的推送通知并可以视图富媒体内容。
+1. 发送消息后，用户将收到您的推送通知并可以查看富媒体内容。
 
    ![](assets/push_notif_advanced_2.png)
 
-## 更改iOS的通知行为 {#change-the-notification-behavior-for-ios}
+## 更改 iOS 的通知行为{#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
-对于iOS 10或更高版本，推送通知部分还提 **[!UICONTROL Advanced options]** 供了两个其他选项： **[!UICONTROL Mutable content]** 和 **[!UICONTROL Content available]**。
+对于iOS 10或更高版本，推送通知的 **[!UICONTROL Advanced options]** 部分还提供了两个其他选项：**[!UICONTROL Mutable content]** 和 **[!UICONTROL Content available]**。
 
-当选 **[!UICONTROL Mutable content]** 中该选项和／或添加富媒体内容URL时，可变内容标志将在推送有效负荷中发送，并且允许由iOS SDK中提供的通知服务应用程序扩展修改推送通知内容。 有关此的详细信息，请参 [阅Apple开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。
+当选中 **[!UICONTROL Mutable content]** 选项和/或添加富媒体内容 URL 后，将在推送有效载荷中发送可变内容标志，并且允许同您过 iOS SDK 提供的通知服务应用程序扩展修改推送通知内容。有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。
 
-然后，您可以利用移动应用程序扩展进一步修改从Adobe Campaign发送的推送通知的内容或演示。 例如，用户可以利用此选项：
+然后，您可以利用移动应用程序扩展进一步修改从 Adobe Campaign 发送之推送通知的内容或演示。例如，用户可以利用此选项：
 
 * 解密以加密格式传送的数据
 * 下载图像或其他媒体文件，并将它们作为附件添加到通知中
 * 更改通知的正文或标题文本
 * 向通知添加线程标识符
 
-选中 **[!UICONTROL Content available]** 后，将在推送有效负荷中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负荷数据。 即使应用程序在后台运行并且无需任何用户交互（例如点击推送通知），这也会起作用，但是，如果应用程序未运行，则这不适用。 有关此的详细信息，请参阅Apple [开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。
+选中 **[!UICONTROL Content available]** 后，将在推送有效载荷中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效载荷数据。即使应用程序在后台运行并且没有进行任何用户交互（例如点击推送通知），此功能也会起效；但是，如果应用程序未运行，则此功能不适用。有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。
 
-## 更改Android的通知行为 {#change-the-notification-behavior-for-android}
+## 更改 Android 的通知行为{#change-the-notification-behavior-for-android}
 
-对于Android，您可以在富媒体内容URL字段中输入 **文件的URL** 。 而对于iOS版本，对于Android，只能包含图像，而不能包含gif、音频或视频文件。
+对于 Android，您可以在 **Rich media content URL** 字段中输入文件的 URL。与 iOS 版本不同，Android 版本的推送通知只能包含图像，而不能包含 GIF 动图、音频或视频文件。
 
-通过 **[!UICONTROL High priority]** 此复选框，您可以设置推送通知的高优先级或普通优先级。 有关消息优先级的详细信息，请参阅Google开 [发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。
+利用 **[!UICONTROL High priority]** 复选框，您可以设置推送通知的高优先级或普通优先级。有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。
 
 ![](assets/push_notif_advanced_11.png)
 
