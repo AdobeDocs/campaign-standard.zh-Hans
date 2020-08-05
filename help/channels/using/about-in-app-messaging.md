@@ -49,7 +49,7 @@ ht-degree: 28%
 
 ## 应用程序内常见问题解答 {#in-app-faq}
 
-### 一些有用的资源建议是什么，以进一步了解Adobe Campaign Standard中的应用程序内渠道? {#resources-inapp}
+### 要进一步了解Adobe Campaign Standard的应用程序内渠道，有哪些有用的资源建议？ {#resources-inapp}
 
 查看以下资源：
 
@@ -105,7 +105,7 @@ ht-degree: 28%
 是，应用程序内消息支持深层链接。 深层链接应包括：
 
 * 一种语言，该语言规定需要禁用投放跟踪才能使开发人员工作。
-* Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的详细信息，请参阅 [本页](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅 [本页](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
 
 ### 当用户从推送通知启动应用程序时，是否可以触发应用程序内消息？ {#inapp-push-trigger}
 
