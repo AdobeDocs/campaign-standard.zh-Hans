@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 87%
    + [测试和发送快速入门](sending/using/get-started-sending-messages.md)
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览投放](sending/using/previewing-messages.md)
-      + [准备发送](sending/using/preparing-the-send.md)
       + [发送校样](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [基于人工智能的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [使用陷阱](sending/using/using-traps.md)
+      + [准备发送](sending/using/preparing-the-send.md)
    + 计划消息发送 {#scheduling-messages}
       + [关于计划消息发送](sending/using/about-scheduling-messages.md)
       + [优化发送时间](sending/using/optimizing-the-sending-time.md)
