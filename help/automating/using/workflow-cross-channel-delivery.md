@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ As two transitions were already created, you must now add two types of deliverie
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请选择 **[!UICONTROL Use the Email Designer]**。
 1. 编辑并保存您的内容。
-1. 在消息仪表板的 **[!UICONTROL Schedule]** 部分中，取消选中 **[!UICONTROL Request confirmation before sending messages}** 选项。
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 创建短信投放：
 
