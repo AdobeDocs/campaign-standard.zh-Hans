@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 要衡量投放的影响，您可能希望从目标中排除某些用户档案，以便他们不会收到给定的消息。 此对照组可用于与接收消息的目标群体的行为进行比较。
 
-要在Adobe Campaign Standard中执行此操作，您可以构建包含以下活动的工作流：
+要在Adobe Campaign Standard执行此操作，您可以构建包含以下活动的工作流：
 * 查询 [活动](../../automating/using/query.md) ,目标特定人口。
 * 分 [段活动](../../automating/using/segmentation.md) ，用于从此群体中分离随机对照组。
 * 电 [子邮件投放](../../automating/using/email-delivery.md) 活动，用于向主目标发送消息。
@@ -48,28 +48,28 @@ ht-degree: 1%
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. 保存更改。
-1. 更新数据库结构以发布扩 **[!UICONTROL Profile]** 展资源。 请参 [阅发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 更新数据库结构以发布扩 **[!UICONTROL Profile]** 展资源。 See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 有关扩展自定义资源的详细信息，请 [参阅添加资源的关键步骤](../../developing/using/key-steps-to-add-a-resource.md)。
 
-## 创建工作流 {#creating-a-workflow}
+## 创建工作流{#creating-a-workflow}
 
-1. 在中 **[!UICONTROL Marketing Activities]**，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
-1. 选择 **[!UICONTROL New Workflow]** 为工作流类型并单击 **[!UICONTROL Next]**。
+1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
+1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
 1. 输入工作流的属性并单击 **[!UICONTROL Create]**。
 
-创建工作流的详细步骤在构建工作流 [部分中介绍](../../automating/using/building-a-workflow.md) 。
+有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
 
-## 创建查询活动 {#create-a-query-activity}
+## 创建查询活动{#create-a-query-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放一个 [查询](../../automating/using/query.md) 活动。
 1. 多次-单击活动以定义目标。
 1. 例如，在拖 **[!UICONTROL Shortcuts]**&#x200B;放中，使 **[!UICONTROL Profile]**&#x200B;用运 **[!UICONTROL Age]** 算符进行选择， **[!UICONTROL Greater than]** 并在字段中键入 **[!UICONTROL Value]** 25。
 1. 单击 **[!UICONTROL Confirm]**.
 
-## 创建分段活动 {#creating-a-segmentation-activity}
+## 创建分段活动{#creating-a-segmentation-activity}
 
-1. 拖放分段 [活动](../../automating/using/segmentation.md) ，然后多次单击它。
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. 在选项卡 **[!UICONTROL Segments]** 中，选择要编辑的区段。
 1. 在该区 **[!UICONTROL Configuration]** 段的选项卡中，选择 **[!UICONTROL Limit the population of this segment]** 选项。
 
@@ -86,23 +86,23 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Confirm]**.
 
-## 创建电子邮件活动 {#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. 在> **[!UICONTROL Activities]** 中 **[!UICONTROL Channels]**，将电子邮件投放 [活动拖放](../../automating/using/email-delivery.md) 到主目标段之后。
-1. 单击活动并选 ![](assets/edit_darkgrey-24px.png) 择以编辑它。
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. 选择 **[!UICONTROL Single send email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Use the Email Designer]**。
-1. 编辑和保存您的内容。
-1. 在消 **[!UICONTROL Schedule]** 息仪表板的一节中，在发送消 **息之前取消选择[!UICONTROL请求确认** 。
+1. 编辑并保存您的内容。
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 ## 创建更新数据活动 {#creating-update-data-activity}
 
 1. 将更新活动拖 [放到对照组](../../automating/using/update-data.md) 段之后。
-1. 选择活动，然后使用显示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按钮打开它。
+1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在选 **[!UICONTROL General]** 项卡中， **[!UICONTROL Update]** 从下 **[!UICONTROL Operation type]** 拉列表中选择。
-1. 在选项 **[!UICONTROL Identification]** 卡中，选择 **[!UICONTROL Directly using the targeting dimension]** 选项。
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. 选择您 **[!UICONTROL Profile]** 之前扩展的资源作为要更新的维。
 
    ![](assets/wkf_control-update-identification.png)
@@ -113,13 +113,13 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Confirm]**.
 
-## 运行工作流 {#running-the-workflow}
+## 运行工作流{#running-the-workflow}
 
 单击 **[!UICONTROL Start]** 以运行工作流。
 
 运行工作流后，将排除对照组的填充，并将消息发送到其余的主目标。
 
-资源 **[!UICONTROL Profile]** 将按如下方式更新： 如果用户档案在对照组中，则检查相应的字段。
+资源 **[!UICONTROL Profile]** 将按如下方式更新：如果用户档案在对照组中，则检查相应的字段。
 
 ![](assets/wkf_control-group-profile-checked.png)
 
