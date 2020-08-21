@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ ht-degree: 0%
 
    您还可以根据事件触发器在Collect PII回传或其他回传中传递生命周期数据。 以下是生命周期数据JSON的示例：
 
-       “
-    {
- “marketingCloudId”:“{%mcid%%}”,     “
-    cusDayslastlaunch”: &quot;{%%DaysSinceLastUse%%}&quot;,
- &quot;     cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%%}&quot;,
- &quot;     cusLaunches&quot;: &quot;{%%启动%%}&quot;
- }     
-    &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    中定义的多次元素 [!DNL Experience Platform Launch] 应以百分比（例如%mcid%%）括起来，应用程序的上下文变量应以单个百分比（例如%contextdata.email%）括起来。
 
 1. 在 **[!UICONTROL Content Type]**&#x200B;中，键 **入application/json**。
