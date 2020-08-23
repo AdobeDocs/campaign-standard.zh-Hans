@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务。
+>Adobe Experience Platform数据连接器目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
-Adobe Campaign标准允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
+Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
 
 本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参 [阅本节](../../api/using/get-started-apis.md)。
 
-## 先决条件 {#prerequisites}
+## 先决条件{#prerequisites}
 
 在使用API之前，必须先在Campaign Standard界面中配置和发布数据映射。 有关这些内容的详细信息，请参阅以下部分：
 
@@ -51,13 +51,13 @@ Adobe Campaign标准允许您通过API触发数据映射的即时摄取，并检
 
 ## 开始立即获取数据映射 {#starting-immediate-ingestion}
 
-POST操作会触发XDM映射到Adobe Experience Platform的立即获取：
+通过POST操作，可立即触发XDM映射到Adobe Experience Platform:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->要执行收录POST API调用，用户必须具有 **SQL函数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
+>要执行收录POSTAPI调用，用户必须具有SQL函 **数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
@@ -107,16 +107,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有关XDM映射请求状态及其相关作业的详细信息，可在Campaign Standard界面中的“数据 **!UICONTROL [导出到平台的状态&#x200B;]**”菜单(请参[阅映射激活](../../developing/using/aep-mapping-activation.md))。
+有关XDM映射请求状态及其相关作业的详细信息，请在Campaign Standard界面中的菜单中查 **[!UICONTROL Status of data export to platform]** 看(请参阅 [映射激活](../../developing/using/aep-mapping-activation.md))。
 
 GET操作返回以下信息：
 
-* **batchId**: 仅当批准备和上传失败时，才填充此字段，
-* **信息**: XDM映射ID,
-* **numRecords**: 已摄取的记录数（仅限成功状态）,
-* **状态**: 收录请求状态(success/failed/in progress)
+* **batchId**:仅当批准备和上传失败时，才填充此字段，
+* **信息**:XDM映射ID,
+* **numRecords**:已摄取的记录数（仅限成功状态）,
+* **状态**:收录请求状态(success/failed/in progress)
 
-对GET操作的可能响应有：
+对GET操作的可能响应包括：
 
 * 收录请求成功：
 
