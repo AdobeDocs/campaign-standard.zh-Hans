@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ![](assets/faq.png)
 
->[!N注意]
+>[!NOTE]
 >
 >[!DNL Places] 集成包括将事件作为应用程序内消息的触发器（推送通知为N/A），通过数据和本地通知支持丰 [!DNL Places] 富用户档案。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 有限集成包括用数据丰富 [!DNL Places] 用户档案。
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 ## CollectPII调用的发射频率是多少？ {#collect-pii}
 
-CollectPII呼叫的目的是丰富活动中的移动用户档案。 当有新的有意义信息时，应根据用户档案的使用案例和业务需要将其添加到客户中时，会触发该信息。
+CollectPII呼叫的目的是丰富活动中的移动用户档案。 当有新的有意义信息时，应根据用户档案的使用案例和业务需求将其添加到客户中时，会触发该信息。
 
 ## 是否可以响应多个触发事件来触发CollectPII调用？ {#collect-pii-calls}
 
