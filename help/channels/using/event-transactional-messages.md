@@ -12,10 +12,10 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '2479'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '2478'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 1. 根据需要，添加主题并编辑消息内容。
 
-   >[注意]
+   >[!NOTE]
    >
    >指向放弃购物车的链接是指向外部 URL 的链接，会将用户重定向到其购物车。此参数不在 Adobe Campaign 中管理。
 
@@ -155,6 +155,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Row]**：水平，表示每行显示一个元素，逐行排列。
    * **[!UICONTROL Column]**: 垂直，表示使用同一行将各个元素邻近放置。
+
    >[!NOTE]
    >
    >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
