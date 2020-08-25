@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
       >
       >要修改默认消息，可单击 **[!UICONTROL Service properties]** 部分中的默认消息标签，或从 Adobe Campaign 事务型消息列表中选择默认消息（勾选 **[!UICONTROL Show internal transactional messages]** 方框后）。
 
-   * **[!UICONTROL Custom message]**：利用此模式可处理特定于各项服务的自定义确认消息。然后，选择与特定[事务型消息模板](../../channels/using/about-transactional-messaging.md)关联的 **[!UICONTROL Custom subscription event configuration]**。有关更多信息，请参阅[确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
+   * **[!UICONTROL Custom message]**：利用此模式可处理特定于各项服务的自定义确认消息。然后，选择与特定[事务型消息模板](../../channels/using/getting-started-with-transactional-msg.md)关联的 **[!UICONTROL Custom subscription event configuration]**。有关更多信息，请参阅[确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
 
 1. 保存服务。服务现已准备就绪，可供使用。
 
