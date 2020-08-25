@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -35,8 +35,8 @@ Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发
 >[!NOTE]
 >
 >事务型消息可以通过电子邮件、短信或推送通知发送，具体取决于您的选择。请核实您的许可协议。
->
->Adobe Campaign优先处理事务性消息，而不是任何其他投放。
+
+Adobe Campaign优先处理事务性消息，而不是任何其他投放。
 
 Adobe Campaign Standard API 也可使用事务型消息传递。有关更多信息，请参阅[专用文档](../../api/using/managing-transactional-messages.md)。
 
@@ -63,7 +63,7 @@ Adobe Campaign Standard API 也可使用事务型消息传递。有关更多信�
 <td><p>事实上，当它定义客户关系时，它会对客户行为产生强烈影响。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>比如说？</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>比如说？</b></p></td>
 <td><p>它可能是创建帐户后的欢迎消息、已发运订单的确认、发票……</p></td>
 <td><p>它也可以是确认密码更改的消息，或者客户浏览您的网站后的通知……</p></td>
 </tr>
@@ -77,11 +77,11 @@ Adobe Campaign 提供两类事务型消息：
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">事件事</a><br>务消息 <b>事件</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">事件事</a><br>务消息化 <b>事件</b></p></td>
 <td><p><ul><li>它们不包含用户档案信息。</li><li>它们与疲劳规 <a href="../../sending/using/fatigue-rules.md">则不兼容</a> (即使是与用户档案扩充)。</li><li>投放目标由事件本身包含的数据定义。</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">用户档案事</a><br>务性消息 <b>从Adobe Campaign营销数据库获取用户档案</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
 <td><p>用户档案事务性消息允许您：<ul><li>应用营销类型规则，如 <b>阻止列表或疲劳规</b> 则 <a href="../../sending/using/fatigue-rules.md">的地址</a>。</li><li>在消息中包含退订链接。</li><li>将事务型消息添加到全局投放报告。</li><li>在客户历程中使用事务型消息。</li></ul></p></td>
 </tr>
 </table>
