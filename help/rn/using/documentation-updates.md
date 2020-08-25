@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 94%
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
+
+## 文档更新 - 2020 年 8 月{#doc-updates-august-2020}
+
+提供了有关事务消息处理快速入门的新更新部分。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+
+已移动“事务消息限制”部分。 [阅读更多](../../channels/using/transactional-messaging-limitations.md)
 
 ## 文档更新 - 2020 年 7 月{#doc-updates-july-2020}
 
@@ -36,17 +42,17 @@ ht-degree: 94%
 
 Campaign Standard中的隐私管理页面已更新，包括如何通过隐私核心服务集成管理隐私请求的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-以人工智能为后盾的新电子邮件功能： 发送时间优化和用户档案评分。 [阅读更多](../../sending/using/predictive.md)
+以人工智能为后盾的新电子邮件功能：发送时间优化和用户档案评分。 [阅读更多](../../sending/using/predictive.md)
 
 ## 文档更新- 2020年6月 {#doc-updates-june-2020}
 
-工作流使用案例已更新并重新组织为主题部分。 [阅读更多](../../automating/using/about-workflow-use-cases.md)
+工作流用例已更新并重新组织为主题部分。[阅读更多](../../automating/using/about-workflow-use-cases.md)
 
-在如何使用控制面板和活动工作流加 [密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)[和解](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 密数据方面，增加了用例。
+在如何使用控制面板和活动工作流[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)和[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)数据方面添加了用例。
 
-“白名单”和“黑名单”术语已从 Adobe Campaign 文档中删除。这些术语可能仍会出现于产品 UI、选项名称和内部代码中，但将在即将发布的活动版本中替换为“阻止列表”和“允许列表”。
+“白名单”和“黑名单”术语已从 Adobe Campaign 文档中删除。这些术语可能还会出现在产品 UI、选项名称和内部代码中，但将在即将发布的 Campaign 版本中替换为“阻止列表”和“允许列表”。
 
-对旧版支持网站的引用已被新URL取代。 [了解更多](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+对旧版支持网站的引用已被新URL取代。 [了解详情](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
 自定义Litmus帐户配置已从收件箱渲染功能中删除。 [阅读更多](../../sending/using/email-rendering.md)
 
@@ -128,7 +134,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 更新并修正了描述如何测试电子邮件的主题行以预测其打开率的页面，包括新的[疑难解答](../../sending/using/testing-subject-line-email.md#troubleshooting)章节。[了解更多](../../sending/using/testing-subject-line-email.md)
 
-更新了“事务型消息传递”一节，以反映多个用户界面的轻微更新和改进。[了解更多](../../channels/using/about-transactional-messaging.md)
+更新了“事务型消息传递”一节，以反映多个用户界面的轻微更新和改进。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
 
 更新了与 External API 活动防护相关的信息。[了解更多](../../automating/using/external-api.md)
 
@@ -208,7 +214,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 与登陆页面属性有关的信息已移入专述章节。[了解更多](../../channels/using/configuring-landing-page.md)
 
-将“控制面板”文档集成到了新的协作文档集中。[了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
+控制面板文档已集成到新的协作文档集中。[了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
 
 更新了&#x200B;**指标计算**&#x200B;表格。[了解更多](../../reporting/using/indicator-calculation.md)
 
@@ -216,7 +222,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 移动并更新了“创建个性化电子邮件”快速入门指南。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
 
-更新了投放最佳做法快速入门指南。[了解更多](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+投放最佳实践快速入门指南已更新。[了解更多](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
 
 将“数据模型”集成到了 Campaign Standard 文档中。[了解更多](../../developing/using/datamodel-audience.md)
 
@@ -232,11 +238,11 @@ Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/work
 
 **随版本提供的其他文档更新**
 
-更新了 Campaign Standard 和 Campaign Classic 的错误消息列表。[了解更多](https://docs.campaign.adobe.com/doc/AC/cn/technicalResources/error_messages/error_codes.html)
+更新了 Campaign Standard 和 Campaign Classic 的错误消息列表。[阅读更多](https://docs.campaign.adobe.com/doc/AC/cn/technicalResources/error_messages/error_codes.html)
 
-改进并扩充了 GDPR 快速入门指南。隐私管理文档现在包含了 GDPR 和 CCPA。[了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/campaign-privacy.html)
+GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/campaign-privacy.html)
 
-添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 移动并更新了“投放最佳做法”快速入门指南。[了解更多](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在“编辑电子邮件内容”章节中新增了关于创建电子邮件内容以及 Email Designer 其他增强功能的初步体验。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-添加了关于事务型消息传递限制的新章节。[了解更多](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+添加了关于事务型消息传递限制的新章节。[了解更多](../../channels/using/transactional-messaging-limitations.md)
 
 添加了对比 Adobe Campaign 中各种电子邮件创作选项的新章节。[了解更多](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -846,7 +852,7 @@ Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh
 
 添加了关于不同类型 Adobe Campaign 用户的章节。[了解更多](../../administration/using/users-management.md)
 
-重组并扩展了工作流指南。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+重新组织并扩展了工作流指南。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
