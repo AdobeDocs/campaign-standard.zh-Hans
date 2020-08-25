@@ -11,9 +11,9 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 * **[!UICONTROL Marketing activities]** - 有关更多信息，请参阅[营销活动列表](../../start/using/marketing-activities.md#about-marketing-activities)一节。
 * **[!UICONTROL Programs & Campaigns]** - 有关更多信息，请参阅[项目列表](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)一节。
 * **[!UICONTROL Timeline]** - 有关更多信息，请参阅[时间线](../../start/using/timeline.md)一节。
-* **[!UICONTROL Transactional messages]**，其中包含子菜单 **[!UICONTROL Deliveries]** 和 **[!UICONTROL Event configuration]** - 有关更多信息，请参 阅[事务型消息传递](../../channels/using/about-transactional-messaging.md)一节。
+* **[!UICONTROL Transactional messages]**，其中包含子菜单 **[!UICONTROL Deliveries]** 和 **[!UICONTROL Event configuration]** - 有关更多信息，请参 阅[事务型消息传递](../../channels/using/getting-started-with-transactional-msg.md)一节。
 
 ### 用户档案和受众{#profiles-e-audiences}
 
