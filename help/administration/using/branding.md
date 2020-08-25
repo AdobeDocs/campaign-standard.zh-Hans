@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >最终用户不能创建或修改品牌：必须由 Adobe Campaign 技术管理员执行这些操作。如有任何需求，请与 Adobe 客户关怀部门联系。
 >
->不能在事务型消息的上下文中使用多品牌。有关更多信息，请参阅[事务型消息和品牌策略](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
+>不能在事务型消息的上下文中使用多品牌。有关更多信息，请参阅[事务型消息和品牌策略](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)。
 
 通过 **[!UICONTROL Administration > Instance settings > Brand configuration]** 菜单可访问品牌。
 
@@ -67,6 +67,7 @@ ht-degree: 100%
    * 带有客户回信用电子邮件地址的 **Reply to (email address)**。
    * 带有品牌名称的 **Reply to (name)**。
    * 带有出错回复用电子邮件地址的 **Error (email address)**。
+
    >[!IMPORTANT]
    >
    >更新了电子邮件的标题参数后，如果从模板创建的电子邮件中发件人的名称和电子邮件地址没有变化，请检查模板的高级设置。
@@ -78,6 +79,7 @@ ht-degree: 100%
    * **External URL of the application server** 用于托管和访问您创建的各种登陆页面。
    * **External URL of the tracking server** 用作投放期间的跟踪 URL。
    * **External URL of the mirror page server** 用作投放中的默认镜像页面。
+
    >[!NOTE]
    >
    >要在 Campaign 用户界面中显示登陆页面预览和镜像页面渲染，应用服务器和镜像页面服务器的 URL 必须是安全的。在这种情况下，在设置这些 URL 时，请使用 https://，而不是 http://。
