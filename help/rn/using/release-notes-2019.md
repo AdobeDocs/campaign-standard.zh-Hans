@@ -1,6 +1,6 @@
 ---
 title: 发行说明 2019
-description: 本页列表所有2019版Adobe Campaign Standard。
+description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,21 +12,21 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '7626'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
 # 发行说明 2019{#release-notes-2019}
 
-[发布计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控制面板版](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |最 [新发行说明](../../rn/using/release-notes.md) |已弃 [用功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[发布计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) |文 [档更新](../../rn/using/documentation-updates.md) |最 [新发行说明](../../rn/using/release-notes.md) |已弃 [用功能](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-**新增内容?**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -39,11 +39,11 @@ ht-degree: 3%
    <td> <p>CCPA是加利福尼亚州新的隐私法，它协调2020年1月1日起生效的数据保护要求并使其现代化。 CCPA适用于持有居住在加利福尼亚的数据主体数据的Adobe Campaign客户。</p>
    <p>除了Adobe Campaign中已有的隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还将利用此机会加入其他功能，以帮助您为CCPA做好准备：</p>
    <ul>
-    <li>访问权和删除权： 我们正在利用为GDPR增加的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
-    <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 此方法是您应用于所有访问和删除请求的方法。 不建议使用活动API和接口访问和删除请求。  请参阅已弃 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">用和已删除功能文章</a>。</p></li>
-    <li>已 <strong>在用户档案资源中添加</strong> “CCPA选择退出”字段，以允许Adobe Campaign用户跟踪消费者是否选择退出个人信息的销售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">了解更多</a>。</li>
+    <li>访问权和删除权：我们正在利用为GDPR增加的功能。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
+    <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">已弃用和已删除的功能</a>一文。</p></li>
+    <li>已 <strong>在用户档案资源中添加</strong> “CCPA选择退出”字段，以允许Adobe Campaign用户跟踪消费者是否选择退出个人信息的销售。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#ccpa">了解详情</a>。</li>
   </ul>
-    <p>请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
+    <p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">操作方法视频</a>。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -67,12 +67,12 @@ ht-degree: 3%
 
 **改进**
 
-* 动态报告的同意弹出窗口已更新，包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受条款后，在使用用户档案/Microsoft Dynamics 365集成和动态报告时，将包含Adobe Campaign Standard数据。 [阅读更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* 动态报告的同意弹出窗口已更新，其中包括Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态用户档案时，将包含报告数据。 [阅读更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修复了在接收投放通知时显示错误联系日期的问题。
 * 当事务性消息事件提交时，活动现在返回“400”错误消息而不是“500”。 (CAMP-28632)
 * 在动态 **验证中** ，新增了一个“排除”报告段。 现在，默认情况下已选择此区段来筛选您的报表。 [阅读更多](../../reporting/using/list-of-components-.md#segments)
 * 消息 **过期** 选项已添加到推送通知中。 它允许您指定消息不再由Apple(APNS)或Android(FCM)发送的过期日期。 [阅读更多](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 已对加载文件 **活动进行了** : 工作流日志已变得更清晰，并且更详细地说明了在文件无法加载时发生的错误。 激活“在文件中保 **留拒绝”选项时生成的** “出站过渡”已 **更名为Rejects**。 [阅读更多](../../automating/using/load-file.md)
+* 已对加载文件 **活动进行了** :工作流日志已变得更清晰，并且更详细地说明了在文件无法加载时发生的错误。 激活“在文件中保 **留拒绝”选项时生成的** “出站过渡”已 **更名为Rejects**。 [阅读更多](../../automating/using/load-file.md)
 * 已将多语言相关日志添加到发送日志中，以便更好地了解由于上传的CSV文件中缺少语言而导致的发送失败。
 
 **安全性增强**
@@ -81,18 +81,18 @@ ht-degree: 3%
 * 增强了安全性，防止在电子邮件标头中注入。
 * 已增强安全性，以防止SSRF攻击，这些攻击中可以使用xtk表达式（电子邮件HTML、文本内容和主题、SMS和推送通知内容）。
 
-**Email Designer增强功能**
+**Email Designer 增强功能**
 
 * 修复了在电子邮件中插入退订、订阅和登陆页链接时无法跟踪的问题。 (CAMP-37809)
 * 修复了在创建新电子邮件和选择模板时可能导致错误的问题。 (CAMP-38000)
-* 使用电子邮件设计器编辑链接时，您现在可以使用“下划线 **”链接选** 项。 此外，还 **添加了** 目标 **属性，并将默认值设置为“无**”。 [阅读更多](../../designing/using/styles.md#about-styling-links)
+* 使用电子邮件设计器编辑链接时，您现在可以使用“下划线 **”链接选** 项。 此外，还 **添加了** 目标 **属性，并将默认值设置为** None。 [阅读更多](../../designing/using/styles.md#about-styling-links)
 * 修复了电子邮件正文文本组件中链接的颜色问题。 (CAMP-37330)
 * 修复了删除图像时无法删除关联链接的问题。 (CAMP-37234)
 * 修复了在某个条件下无法保存对 **动态内容** “顺序”设置的修改的问题。 (CAMP-36883)
 * 修复了搜索登陆页时的问题。 搜索已从最初创建的50个扩展到所有数据库。 (CAMP-36839)
-* 修复了在发件人中保存电子邮件发件人的修改 **时的问题： 名称** 字段。 (CAMP-36606)
+* 修复了在发件人中保存电子邮件发件人的修改 **时的问题：名称** 字段。 (CAMP-36606)
 * 传送组件兼容性警告已修改以反映支持的电子邮件客户端。
-* 修复了移动设备上的显示问题。 高度属性现在始终设置为“高度： 自动”。 (CAMP-35497)
+* 修复了移动设备上的显示问题。 高度属性现在始终设置为“高度：自动”。 (CAMP-35497)
 * 修复了从结构组件删除片段时HTML中保留样式和meta标签的问题。 (CAMP-35390)
 * 修复了更新可重用内容时片段的问题。 (CAMP-35186)
 * 修复了在电子邮件中仅显示移动条件内容时的问题。 (CAMP-35155)
@@ -118,9 +118,9 @@ ht-degree: 3%
 * 提高了大型资源上的数据库性能。
 * 发送SMS消息时出现的一些错误的描述已经更清晰。 (CAMP-36558)
 * 现在，在执行直接或通过多个调度程序连接的工 **作流的活动** 活动时，会显示一条错误消息，因为这可能会导致实例的工作流服务器卡住。
-* 已做出改进，以帮助解决事务性消息传递问题： “事件”链接在事件配置屏幕中已更名为“最后一个事务性列表”，它现在按降序排序接收的事件。 此外，还创建了新的事务事件状态： “定位失败”。 当事务消息传递模块无法扩充用于消息定位的链接时，事务事件现在将处于此新状态（而不是“routingFailed”状态）。
-* 在限制登陆页访问特定地理或组织单位时，界面已得到改进。 其目的是警告登陆页可能受可见性条件的影响： 创建登陆页时必须选择地理和组织单位。 选择设备后，现在会显示包含相关信息的横幅。 测试登陆页时显示的错误消息已更清晰。
-* 在Campaign StandardAPI中，如果密钥值与来源密钥不同，或者您使用自己的业务密钥作为URI而不是Adobe提供的业务密钥，则无法使用PATCH操作修改自定义密钥。
+* 已做出改进，以帮助解决事务性消息传递问题：“事件”链接在事件配置屏幕中已更名为“最后一个事务性列表”，它现在按降序排序接收的事件。 此外，还创建了新的事务事件状态：“定位失败”。 当事务消息传递模块无法扩充用于消息定位的链接时，事务事件现在将处于此新状态（而不是“routingFailed”状态）。
+* 在限制登陆页访问特定地理或组织单位时，界面已得到改进。 其目的是警告登陆页可能受可见性条件的影响：创建登陆页时必须选择地理和组织单位。 选择设备后，现在会显示包含相关信息的横幅。 测试登陆页时显示的错误消息已更清晰。
+* 在Campaign StandardAPI中，如果密钥值与PATCH密钥不同，或者您使用自己的业务密钥作为URI而不是Adobe提供的业务密钥，则无法使用来源操作修改自定义密钥。
 * &quot;阿尔巴尼亚语——马其顿语&quot;已加入首选语言下拉列表。 (CAMP-35396)
 
 **修补程序**
@@ -128,7 +128,7 @@ ht-degree: 3%
 * 修复了阻止对计划报告进行排序或搜索的问题。
 * 修复了触发器规则导致AND和OR规则混合的问题。
 * 修复了在启动项中将移动属性显示为“已删除”的问题。 (CAMP-35382)
-* 修复了阻止Adobe Launch移动属性在Adobe Campaign中同步的问题。 （35411营，35089营，35014营，35487营）
+* 修复了阻止Adobe启动移动属性在Adobe Campaign中同步的问题。 （35411营，35089营，35014营，35487营）
 * 修复了在事件丰富用户档案数据时事务推送消息失败的问题。 (CAMP-34385)
 * 修复了移动属性无法在多个环境上同步的问题。 (CAMP-37060)
 * 修复了在推送通知中使用联系人日期公式选择模板时的问题。 (CAMP-35300)
@@ -150,9 +150,9 @@ ht-degree: 3%
 * 修复了在投放完成后可能将开始状态保留为“待处理”的问题。 (CAMP-35355)
 * 修复了在启用后再禁用SQL日志后无法显示工作流日志的问题。
 
-## 版本19.3 - 2019年7月 {#release-19-3---july-2019}
+## 19.3 版 - 2019 年 7 月{#release-19-3---july-2019}
 
-**新增内容?**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -164,11 +164,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 外部API活动（公共测试版）<br /> </td> 
-   <td> <p>为了实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统的数据引入工作流中。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点(例如，目标平台、Analytics、活动)。</p><p>此功能当前为公共测试版。</p><p>有关详细信息，请参 <a href="../../automating/using/external-api.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">和操作方法视频</a>。</p></td> 
+   <td> <p>为了实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统的数据引入工作流中。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience CloudREST端点(例如数据平台、目标、分析、活动)。</p><p>此功能当前为公共测试版。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 报告工作流区段<br /> </td> 
-   <td> <p>此功能允许营销人员按投放细分其段代码效果。 当您创建工作流并使用分段活动将区段分配给投放群时，这些区段现在可以进入同一投放。 这允许您根据单个投放中的多个区段显示打开／单击统计信息。</p><p>有关详细信息，请参 <a href="../../reporting/using/creating-a-report-workflow-segment.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">和操作方法视频</a>。</p></td>
+   <td> <p>此功能允许营销人员按投放细分其段代码效果。 当您创建工作流并使用分段活动将区段分配给投放群时，这些区段现在可以进入同一投放。 这允许您根据单个投放中的多个区段显示打开／单击统计信息。</p><p>有关更多信息，请参阅<a href="../../reporting/using/creating-a-report-workflow-segment.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">操作方法视频</a>。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -177,9 +177,9 @@ ht-degree: 3%
 
 * 修复了一个安全问题，以防止拒绝服务(DoS)攻击获取映像的无效请求。 (CAMP-33454)
 
-**Email Designer增强功能**
+**Email Designer 增强功能**
 
-* 修复了每次添加组件时都向HTML模板添加其他HTML样式标记的问题，该问题可能会显着增加模板的大小。 (CAMP-34694)
+* 修复了每次添加组件时向HTML模板添加其他HTML样式标记的问题，该问题可能会显着增加模板的大小。 (CAMP-34694)
 * 修复了可能阻止某些右上工具栏菜单选项可用的问题。 (CAMP-34577)
 * 修复了在将镜像页面URL内容块插入电子邮件内容时发生的问题。 (CAMP-34779)
 * 修复了在电子邮件中使用JSPP代码时出现的问题，使内容难以编辑。 (CAMP-34574)
@@ -219,11 +219,11 @@ ht-degree: 3%
 **其他更改**
 
 * 在投放属性界面中添加了警告。 它指定投放根据其聚合期准备，并解冻以每天多次调用工作流，您应确保他们没有任何期。 (CAMP-34393)
-* 自定义资源配置屏幕中已添加警告。 我们建议对自定义资源ID使用最多30个字符。 这也适用于自定义资源字段、键、索引和链接。
+* 自定义资源配置屏幕中已添加警告。 我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。
 * 现在，当尝试删除事务性消息时，登陆页会将其用作确认消息。
 * 当工作流运行超过6小时时，活动日志中现在显示警告。 这不适用于推送通知、投放、信号、开始、结束、分叉、AND-joint、计划和等待活动。
 * 当达到同时运行的最大工作流数时，工作流日志中现在会显示警告。
-* 已暂停或失败状态超过7天的工作流现在将停止，以减少磁盘空间。 清理任务显示在工作流日志中。
+* 已暂停或失败状态超过7天的工作流现在将停止，以减少磁盘空间。 清理任务会显示在工作流日志中。
 * 当使用“传输文件”活动时，如果文件大小超过可用磁盘空间，则现在会记录错误。
 * 无法再为应用程序内消息中的辅助按钮选择重定向到目标URL操作。
 
@@ -261,7 +261,7 @@ ht-degree: 3%
 * 修复了在主题包含多行时导致电子邮件内容中断的安全问题。
 
 
-## 版本19.2.7 - 2019年7月 {#release-19-2-7---july-2019}
+## 19.2.7 版 - 2019 年 7 月{#release-19-2-7---july-2019}
 
 **改进**
 
@@ -270,15 +270,15 @@ ht-degree: 3%
 * 修复了可能阻止非管理员用户保存或计划报告的问题。 (CAMP-31133)
 * 修复了在加载文件工作流活动中将“|”用作日期分隔符时的问题。 (CAMP-34706)
 
-## 版本19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
+## 19.2.4 版 - 2019 年 6 月{#release-19-2-4---june-2019}
 
-**电子邮件设计人员**
+**电子邮件设计工具**
 
 * 修复了在HTML中使用空样式标记时阻止用户编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
-## 版本19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
+## 19.2.3 版 - 2019 年 6 月{#release-19-2-3---june-2019}
 
-**电子邮件设计人员**
+**电子邮件设计工具**
 
 在19.2版本中引入了一系列改进和修复功能来优化片段。 新创建的片段将无缝工作。 以前构建的片段已灰显，需要迁移到新格式。 为此，请单击每个片段并验证其迁移到新格式。 我们建议您先测试几个片段，然后再迁移所有片段。
 
@@ -290,14 +290,14 @@ ht-degree: 3%
 * 修复了在SMS连接器断开连接后，SMS发送无法恢复的问题。
 * 修复了启用TLS时可能关闭SMPP连接的问题。
 * 修复了启用TLS时可能关闭SMPP连接的问题。
-* 已在活动中添加“Launch_URL_活动”选项，以管理使用Adobe Experience PlatformMobile SDK创建的移动应用程序的属性。
+* 已在活动中添加“Launch_URL_活动”选项，以管理使用Adobe Experience Platform移动SDK创建的移动应用程序的属性。
 * 修复了在上传新创建的移动属性的证书并退出移动应用程序属性页面后导致“沙箱环境”选项未选中的错误。
 * 修复了一个问题，该问题导致您无法用服务资源中的信息丰富事务性消息内容。 (CAMP-33707)
 * 修复了阻止列表登陆页中在尝试取消用户档案订阅服务时发生的问题。
 
-## 版本19.2 - 2019年5月 {#release-19-2---may-2019}
+## 19.2 版 - 2019 年 5 月{#release-19-2---may-2019}
 
-**新增内容?**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -309,15 +309,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关详细信息，请参 <a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">和操作方法视频</a>。</p></td> 
+   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
    <td> <p>本地通知消息允许您在用户的移动应用程序中有新数据可用时通知用户，即使您无法访问Internet或前台运行的移动应用程序。 本地通知由移动应用程序在特定时间触发，具体取决于事件。</p><p>有关详细信息，请参阅<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">详细文档</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> 工作流增强——向外部信号活动添加有效负荷<br /> </td> 
-   <td> <p>当从另一个工作流或REST API调用成功满足定义的条件时，将工作流与有效负荷开始，以与外部系统集成。 此外，还包含一个新 <strong>的测试活动</strong> ，您可以在该中对此功能运行测试。</p><p>有关详细信息，请参 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">和操作方法视频</a>。</p></td> 
+   <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
+   <td> <p>当从另一个工作流或REST API调用成功满足定义的条件并与外部系统集成时，将工作流与有效负荷开始。 此外，还包含一个新 <strong>的测试活动</strong> ，您可以在该中对此功能运行测试。</p><p>有关更多信息，请参阅<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登陆页增强- Google reCAPTCHA<br /> </td> 
@@ -330,7 +330,7 @@ ht-degree: 3%
 
 * 修复了报告工作区中潜在的点击劫持安全问题。
 
-**Email Designer增强功能**
+**Email Designer 增强功能**
 
 * 修复了复制片段并尝试在电子邮件设计器中使用它们时发生的问题。 (CAMP-33193)
 * 修复了在电子邮件设计器界面中使用内联元素时，创建不需要的空格的问题。 (CAMP-32163)
@@ -359,12 +359,12 @@ ht-degree: 3%
 * 事务消息传递过程已经优化，能够以同一消息的多个开始并行进行。
 * 修复了可能导致事务推送通知的吞吐量和延迟不一致的问题。
 * 修复了对于目标执行受众显示错误的事务性消息投放的问题。
-* 修复了导入包时使用事件配置和关联事务性消息的问题。 For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* 修复了导入包时使用事件配置和关联事务性消息的问题。 For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * 修复了从为包含产品列表的用户档案创建的测试事务性消息中删除收集数据的问题。
 
 **其他更改**
 
-* 新选项已添加到SMS外部帐户。 它能够限制发送SMS的MTA进程的最大数量，以便更好地控制并行连接的数量。 有关详细信息，请参 [阅SMS连接器协议和设置技术](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 说明。
+* 新选项已添加到SMS外部帐户。 它能够限制发送SMS的MTA进程的最大数量，以便更好地控制并行连接的数量。 有关详细信息，请参 [阅SMS连接器协议和设置技术](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html) 说明。
 * 在发布具有API扩展的资源时，如果API已经发布，则现在每次重新发布该资源时，它都会自动更新。 以前，此操作是手动操作，无法更新API可能会中断此API的用户档案或服务资源。 For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * 邮政编码维度已从动态报告中删除。 我们建议改用“城市”、“国家”、“州”维度。
 * 已删除应用程序内消息的“首次启动”生命周期事件触发器。
@@ -374,7 +374,7 @@ ht-degree: 3%
 * Campaign StandardAPI现在允许您使用有效负荷更新用户档案的地理和组织单位。 有关详细信息，请参阅[详细文档](../../api/using/get-started-apis.md)。
 * 当数据库中的对象无法访问时，错误消息已变得清晰明了。
 * 在“提取文件”活动中，在定义要导出的文件名称时更新了Javascript功能。 现在，“输出”字段中只能使用formatDate函数。 有关详细信息，请参阅[详细文档](../../automating/using/extract-file.md)。
-* 自定义资源的自动序列ID生成已得到改进。 新自定义资源的主键现在默认为64位。
+* 自定义资源的自动序列ID生成已得到改进。 默认情况下，新自定义资源的主键为64位。
 * 自定义资源发布测试模式已得到改进。 如果上次自定义资源发布失败且未修复，则现在将向用户显示一条警告消息。 在自定义资源发布失败后，您可以回滚到上一个工作版本。 有关详细信息，请参阅[详细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 * 在“传输文件”活动中添加了新选项。 它允许您在SFTP模式下使用文件下载操作对文件进行排序。 有关详细信息，请参阅[详细文档](../../automating/using/transfer-file.md)。(CAMP-33109)
 
@@ -382,7 +382,7 @@ ht-degree: 3%
 
 * 修复了在重新加载SMS设置时可能导致MTA内存泄漏的问题。
 * 修复了可能阻止在修复模式下发布数据库更新的问题。
-* 修复了导致AdobeAnalytics报告与Adobe Campaign动态报告不一致的问题。 (CAMP-25393)
+* 修复了导致Adobe Analytics报表与Adobe Campaign动态报告不一致的问题。 (CAMP-25393)
 * 修复了导致报告共享工作流失败的错误。
 * 修复了阻止用户仅使用媒体URL发送应用程序内消息的错误。
 * 修复了即使移动应用程序的证书未上载到实例也会显示该应用程序的问题。
@@ -399,9 +399,9 @@ ht-degree: 3%
 * 修复了导致交付性工作流在未完成时关闭的问题。
 * 修复了可能阻止用户保存或计划报告的问题。 (CAMP-31133)
 
-## 版本19.1.3 - 2019年3月 {#release-19-1-3---march-2019}
+## 19.1.3 版 - 2019 年 3 月{#release-19-1-3---march-2019}
 
-**Email Designer增强功能**
+**Email Designer 增强功能**
 
 * 修复了在保存模板后无法修改模板的问题。
 * 修复了在电子邮件中使用先前创建的模板时的各种问题。
@@ -413,9 +413,9 @@ ht-degree: 3%
 * 修复了阻止编辑类型规则的问题。 (CAMP-31750)
 * 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
 
-## 版本19.1 - 2019年2月 {#release-19-1---february-2019}
+## 19.1 版 - 2019 年 2 月{#release-19-1---february-2019}
 
-**新增内容?**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -427,15 +427,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 推送渠道报告改进<br /> </td> 
-   <td> <p>推送渠道报告中添加了多项增强功能，使您能够更直观地衡量用户参与度。 在此版本中，我们将推送渠道指标的列表扩展为三种不同的指标： 展示次数、点击次数、打开次数（应用程序打开次数）可帮助您更有效地衡量和分析用户与推送通知的交互情况。 与此同时，我们也在规范这些指标的定义和实施。 推送通知内置报表还通过常用可视化和指标进行了改进。</p><p> 有关详细信息，请参阅<a href="../../reporting/using/push-notification-report.md">详细文档</a>。</p> </td> 
+   <td> <p>推送渠道报告中添加了多项增强功能，使您能够更直观地衡量用户参与度。 在此版本中，我们将推送渠道指标的列表扩展为三种不同的指标：展示次数、点击次数、打开次数（应用程序打开次数）可帮助您更有效地衡量和分析用户与推送通知的交互情况。 与此同时，我们也在规范这些指标的定义和实施。 推送通知内置报表还通过常用可视化和指标进行了改进。</p><p> 有关详细信息，请参阅<a href="../../reporting/using/push-notification-report.md">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 针对移动应用程序的Launch集成<br /> </td> 
-   <td> <p>此版本包含将Adobe Campaign与GA版本的Android和iOS扩展集成，以在Adobe Experience Platform启动和移动SDK中Adobe Campaign Standard。 这些扩展支持推送消息、应用程序内消息和移动应用用户档案更新。</p><p> 有关详细信息，请参阅<a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">详细文档</a>。</p> </td> 
+   <td> <p>此版本包含将Adobe Campaign与Adobe Experience Platform LaunchAdobe Campaign Standard的GA版Android和iOS扩展以及移动SDK集成。 这些扩展支持推送消息、应用程序内消息和移动应用用户档案更新。</p><p> 有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 移动应用内消息传递<br /> </td> 
-   <td> <p>此版本包含GA版本的活动应用程序内渠道。 从功能角度看，测试版中最引人注目的新增功能是Mobile SDK与MCIAS（为SDK提供应用程序内规则的Marketing Cloud应用程序内消息传递服务）之间的应用程序内渠道和安全握手的动态报告。 安全握手可确保用户的PII数据不会落入恶意之手，并使您能够在用户每次注销时清除消息缓存，从而在共享设备上保持用户的隐私。</p><p>有关详细信息，请参阅详 <a href="../../channels/using/about-in-app-messaging.md">细文档</a> 和专用 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">的应用程序内教程</a>。</p> </td> 
+   <td> <p>此版本包含GA版本的活动应用程序内渠道。 从功能角度看，测试版中最引人注目的新增功能是Mobile SDK与MCIAS(Marketing Cloud应用程序内消息传递服务，为SDK提供应用程序内规则)的应用程序内渠道和安全握手的动态报告。 安全握手可确保用户的PII数据不会落入恶意之手，并使您能够在用户每次注销时清除消息缓存，从而在共享设备上保持用户的隐私。</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流增强<br /> </td> 
@@ -453,9 +453,9 @@ ht-degree: 3%
 
 * 生成的登陆页HTML代码已更新，以防止搜索引擎索引。
 
-**Email Designer增强功能**
+**Email Designer 增强功能**
 
-* 现在提供由Behance艺术家设计的一套四种一流的响应式电子邮件模板。
+* Behance艺术家设计的一套四款一流的响应式电子邮件模板现已推出。
 
    有关详细信息，请参阅[详细文档](../../designing/using/using-reusable-content.md#content-templates)。
 
@@ -474,8 +474,8 @@ ht-degree: 3%
 * 您现在可以在已有电子邮件模板的顶部添加自定义社交渠道。
 * 修复了在使用18个以上结构时无法向下滚动结构菜单的问题。 (CAMP-31173)
 * 修复了转发包含随Adobe Campaign发送的预头的电子邮件时在内容顶部显示预头的问题。 (CAMP-30736)
-* 修复了在Adobe Experience Manager中修改主题后单击“刷新AEM内容”选 **项时主题行无法** 更新的问题。 (CAMP-29984)
-* 修复了阻止使用动态图像的几个问题，使其无法Adobe Target。
+* 修复了在Adobe Experience Manager修改主题后单击“刷新AEM内容”选 **项时主题行无** 法更新的问题。 (CAMP-29984)
+* 修复了阻止使用Adobe Target动态图像的几个问题。
 * 修复了在准备时检索内容时，如果预览之前是从URL导入的，则该问题会阻止更新该内容。
 * YouTube图标已添加到社交 **内容** 组件。
 * 已 **为“电子邮件** ”设计器”调色板中显示的内容组件和片段添加列表视图。
@@ -493,7 +493,7 @@ ht-degree: 3%
 
 **其他更改**
 
-* Adobe Campaign和Adobe Experience Cloud将从2019年春季起停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 请参 [阅已弃用和已删除的功](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 能页。
+* Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 See [Deprecated and removed features](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html) page.
 * 用户档案 **资源中的** “国家／地区代码”字段已更 **名为“国家／地区代码”**。
 
 **修补程序**
@@ -505,7 +505,7 @@ ht-degree: 3%
 * 修复了在使用扩展用户档案资源时，PKEY生成可能发生的问题。 (CAMP-30285)
 * 修复了基于日历日的疲劳规则可能出现的问题。 (CAMP-30136)
 * 修复了在尝试访问名称以“Base”结尾的自定义资源时可能发生的问题。 (CAMP-30109)
-* 修复了无法使用PATCH调用为用户档案订阅服务的问题。 (CAMP-29728)
+* 修复了无法使用PATCH调用将用户档案订阅到服务的问题。 (CAMP-29728)
 * 修复了通过“加载文件”活动导入XML文件时可能损坏工作流的问题。 （29208号营地和28205号营地）
 * 修复了链接自定义资源时可能阻止生成反向基数链接的问题。 (CAMP-30476)
 * 修复了仅使用投放日志时无法扩展段代码的问题。
@@ -519,9 +519,9 @@ ht-degree: 3%
 * 修复了在创建应用程序内投放时导致目标用户档案与在投放仪表板中显示的之间出现差异的问题。 (CAMP-28722)
 * 修复了活动和资产核心服务集成的一个问题，该问题可能会妨碍您在电子邮件中选择共享资产。
 
-## 版本19.0 - 2019年1月 {#release-19-0---january-2019}
+## 19.0 版 - 2019 年 1 月{#release-19-0---january-2019}
 
-**新增内容?**
+**新增内容？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -536,18 +536,18 @@ ht-degree: 3%
    <td> 电子邮件设计人员常规可用性<br /> </td> 
    <td> <p>新的直观的电子邮件设计器（以前称为Creative Designer）已转向GA。 它现在支持旧版内容编辑器的所有功能，包括：</p> 
     <ul> 
-     <li> 动态图像 <a href="../../integrating/using/adding-target-dynamic-content.md">的Adobe Target</a> </li> 
+     <li> Adobe Target动 <a href="../../integrating/using/adding-target-dynamic-content.md">态图像的使用</a> </li> 
      <li> 能够在准 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">备时自动从URL检索内容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">兼容的现成内容模板</a>。 </li> 
     </ul> 
-    <p>有关详细信息，请参 <a href="../../designing/using/designing-content-in-adobe-campaign.md">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">和操作方法视频</a>。 以下列出了改进和修复。</p><p>因此，现在已弃用传统电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。以下列出了改进和修复。</p><p>因此，现在已弃用传统电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> 交易电子邮件中的产品列表<br /> </td> 
-   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关详细信息，请参 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">阅详细文档</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">和操作方法视频</a>。</p> </td> 
+   <td> Product Listings in Transactional Emails<br /> </td> 
+   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关更多信息，请参阅<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> 电子邮件设计人员中的移动视图<br /> </td> 
+   <td> Mobile View in the Email Designer<br /> </td> 
    <td> <p>现在，您可以在编辑电子邮件内容时切换到专用的移动视图。 这允许您通过单独编辑移动显示的所有样式选项（如调整边距、较小的字体大小、不同的背景颜色等）来微调电子邮件的响应式设计。</p><p> 有关详细信息，请参阅<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">详细文档</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -555,7 +555,7 @@ ht-degree: 3%
    <td> <p>应用程序内消息传递测试版功能已通过以下功能得到增强：</p> 
     <ul> 
      <li> 应用程序内测试渠道符合GDPR要求 </li> 
-     <li> 与AnalyticsAPI集成以填充触发器下拉列表 </li> 
+     <li> 与Analytics API集成以填充触发器下拉列表 </li> 
      <li> 直观的外观和投放模板描述 </li> 
      <li> 从可用性角度增强创作界面 </li> 
     </ul> <p>有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>。</p> </td> 
@@ -565,7 +565,7 @@ ht-degree: 3%
 
 **改进**
 
-* 现在，通过“加载数据”活动中的新选项，您可以将后处理阶段应用到包含拒绝记录的文件(例如， Zip格式压缩)。 (CAMP-24521)
+* 现在，通过“加载数据”活动中的新选项，您可以将后处理阶段应用到包含拒绝记录的文件(例如， Zip 格式压缩）。(CAMP-24521)
 * 现在，在“更新数据”活动中新增了一个选项，可让您为要上传的数据配置最大批处理大小。 (CAMP-28400)
 * 改进了用户档案的地址状态选择。 选择国家／地区时，“状态”下拉列表现在会自动更新为相关的状态值。 (CAMP-28874)
 * 如果入站活动为空，“提取文件”过渡中的新选项现在禁止生成文件。 这可避免在SFTP服务器上创建和上传空文件。
@@ -573,7 +573,7 @@ ht-degree: 3%
 * 现有国家在定义用户档案地址时的列表已得到丰富。 (CAMP-26707)
 * 现在，在尝试导入内置工作流时显示错误消息。
 
-**电子邮件设计人员**
+**电子邮件设计工具**
 
 * 修复了在电子邮件模板或使用电子邮件设计器创建的内容片段上启用地理单元功能的问题，即使在Adobe Campaign中禁用了此功能，这使得在再次尝试访问该模板或片段时该模板或片段不可用。 (CAMP-28174)
 * 修复了在使用电子邮件设计器编辑内容时无法保存动态内容条件的问题。 (CAMP-27905)
@@ -582,7 +582,7 @@ ht-degree: 3%
 * 修复了使用电子邮件设计器应用于按钮的样式设置的Microsoft Outlook呈现失真的问题。
 * 修复了电子邮件设计器中的一个问题，该问题导致可以从电子邮件中使用的内容片段编辑URL，但该URL不是预期的，因为该片段默认处于锁定状态。
 * 修复了阻止在Microsoft Office中显示电子邮件设计器分隔器组件的问题。
-* 修复了在使用旧版电子邮件内容编辑器查看从AEM同步的内容时，导致某些Internet浏览器页面冻结的问题。 (CAMP-29068)
+* 修复了在使用旧版电子邮件内容编辑器查看从AEM同步的内容时导致某些Internet浏览器页面冻结的问题。 (CAMP-29068)
 * 修复了在使用旧版电子邮件内容编辑器时单击电子邮件中的任何图像时出现的错误。 (CAMP-30424)
 * 修复了在通过电子邮件设计器编辑电子邮件时无法显示新创建的片段的问题。 (CAMP-29928)
 * 修复了阻止按钮文本在使用电子邮件设计器创建并使用Outlook电子邮件客户端接收的电子邮件中正确显示的问题。
