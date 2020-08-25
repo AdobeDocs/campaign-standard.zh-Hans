@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 87%
@@ -23,16 +23,13 @@ ht-degree: 87%
 
 # 事务型消息传递限制{#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>以下部分列表了在开始创建事务性消息之前您应了解的限制。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+以下部分列表了在开始创建事务性消息之前您应了解的限制。
 
 有关事务性消息的更多信息（包括如何配置和创建这些信息），请参 [阅事务消息快速入门](../../channels/using/getting-started-with-transactional-msg.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >要访问事务型消息，您必须具有管理权限。
 
