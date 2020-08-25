@@ -1,5 +1,5 @@
 ---
-title: 通信渠道入门
+title: 通信渠道快速入门
 description: 了解如何针对各种渠道发送个性化消息以及创建跨渠道活动以更好地目标收件人。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -12,21 +12,21 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 13%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
 
-# 通信渠道入门 {#discovering-communication-channels}
+# 通信渠道快速入门 {#discovering-communication-channels}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">全局概念</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通信渠道</a></p></td>
-<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">事务性消息</a></p></td>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">事务型消息传递</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登陆页面</a></p></td></tr>
 </table>
 
@@ -53,7 +53,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**有五种通信渠道** ，分别提供Adobe Campaign: 电子邮件、SMS消息、推送通知、应用程序内消息和直接邮件投放。
+**有五种通信渠道** ，分别提供Adobe Campaign:电子邮件、SMS消息、推送通知、应用程序内消息和直接邮件投放。
 
 对于每个渠道，都提供特定功能。 例如，电子邮件渠道允许您执行A/B测试，以测试电子邮件的3个版本。 利用SMS渠道，管理STOP SMS消息并将传入的SMS从收件人存储到您的数据库中。
 
@@ -67,20 +67,21 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 * [创建应用程序内消息](../../channels/using/about-in-app-messaging.md)
 * [创建直邮投放](../../channels/using/about-direct-mail.md)
 
-## 事务性消息 {#transactional-messages}
+## 事务型消息传递 {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**实时向客户发送** 个人和独特的消息： 欢迎消息、订单发运确认、密码修改等。
+**实时向客户发送** 个人和独特的消息：欢迎消息、订单发运确认、密码修改等。
 
 事务性消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种消息类型： **事件事务性消息** 定位没有用户档案信息的事件, **用户档案事务性消息定** 位来自您的数据库的用户档案。
 
 阅读更多:
 
-* [关于交易消息传递](../../channels/using/about-transactional-messaging.md)
-* [事件交易消息](../../channels/using/event-transactional-messages.md)
-* [用户档案交易消息](../../channels/using/profile-transactional-messages.md)
-* [交易推送通知](../../channels/using/transactional-push-notifications.md)
+* [关于交易消息传递](../../channels/using/getting-started-with-transactional-msg.md)
+* [交易消息快速入门](../../channels/using/getting-started-with-transactional-msg.md)
+* [事件事务型消息](../../channels/using/event-transactional-messages.md)
+* [用户档案事务型消息](../../channels/using/profile-transactional-messages.md)
+* [事务型推送通知](../../channels/using/transactional-push-notifications.md)
 * [跟进消息](../../channels/using/follow-up-messages.md)
 
 ## 登陆页面 {#landing-pages}
@@ -94,16 +95,16 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 阅读更多:
 
 * [登陆页面快速入门](../../channels/using/getting-started-with-landing-pages.md)
-* [登陆页模板](../../channels/using/landing-page-templates.md)
+* [登陆页面模板](../../channels/using/landing-page-templates.md)
 * [管理登陆页面表单数据](../../channels/using/managing-landing-page-form-data.md)
-* [设置双重选择启用流程](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [设置双重选择加入流程](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## 其他资源
 
 * [优化您的交付能力](../../sending/using/about-deliverability.md)
-* [投放最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
 * [设计电子邮件内容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [导入AEM内容](../../integrating/using/creating-email-experience-manager.md)
 * [用工作流发送消息](../../automating/using/about-channel-activities.md)
 * [通信渠道教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
-* [用例： 创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
+* [用例：创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
