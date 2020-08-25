@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 第 1 步：创建确认电子邮件{#step-1--create-the-confirmation-email-1}
 
-确认电子邮件将自动发送给（通过登陆页面或其他方式）订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/about-transactional-messaging.md)，其目标是订阅了服务的每个用户档案。
+确认电子邮件将自动发送给（通过登陆页面或其他方式）订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
 创建确认电子邮件的步骤如下所示。由于服务中将要引用事务型消息，因此您需要先创建事务型消息。
 
@@ -135,13 +135,13 @@ ht-degree: 100%
 
 ### 第 1 步：创建确认电子邮件{#step-1--create-the-confirmation-email-2}
 
-确认电子邮件将自动发送给通过登陆页面订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/about-transactional-messaging.md)，其目标是订阅了服务的每个用户档案。
+确认电子邮件将自动发送给通过登陆页面订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
 创建这些元素的步骤如下所示。由于登录页中将要引用事务型消息，因此您需要先创建事务型消息。
 
 #### 创建事件{#create-the-event-2}
 
-确认电子邮件是一种[事务型消息](../../channels/using/about-transactional-messaging.md)，它会对“订阅服务”事件产生反应。随后将会发送此消息，以确认订阅您的新闻通讯。
+确认电子邮件是一种[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，它会对“订阅服务”事件产生反应。随后将会发送此消息，以确认订阅您的新闻通讯。
 
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
