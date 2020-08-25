@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **改进**
 
-* 增强了事务型消息传递的用户体验，提升了界面的一致性。[了解更多](../../channels/using/about-transactional-messaging.md)
+* 增强了事务型消息传递的用户体验，提升了界面的一致性。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
 * 现在，可通过 Campaign Standard 使用来自工作流的附加数据向测试用户档案发送校样。
 * 更新了 External API 活动的防护。[了解更多](../../automating/using/external-api.md)
 
