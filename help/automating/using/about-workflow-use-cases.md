@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 19%
@@ -22,7 +22,7 @@ ht-degree: 19%
 
 # 关于工作流使用案例 {#about-workflow-use-cases}
 
-在is部分中，您将发现利用活动工作流功能的各种使用案例。
+在本节中，您将发现利用活动工作流功能的各种使用案例。
 
 它们将帮助您发现可以使用工作流的不同上下文，并响应您的需求。
 
