@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ ht-degree: 94%
 * 将事务型消息添加到全局投放报告。
 * 在客户历程中使用事务型消息。
 
-创建并发布事件后（例如上方[示例](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)中的放弃购物车），将自动创建相应的事务型消息。
+创建并发布事件后（例如上方[示例](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)中的放弃购物车），将自动创建相应的事务型消息。
 
 有关配置步骤，请参见[配置事件以发送用户档案事务型消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
