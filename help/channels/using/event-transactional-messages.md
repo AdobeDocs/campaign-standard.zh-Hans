@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 您可以发送定向某个事件的事件事务型消息。此类事务型消息不包含用户档案信息：根据事件本身包含的数据定义投放目标。
 
-创建并发布事件后（如[此章节](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)所述的放弃购物车事件），将自动创建相应的事务型消息。
+创建并发布事件后（如[此章节](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)所述的放弃购物车事件），将自动创建相应的事务型消息。
 
 有关配置步骤，请参见[配置事件以发送事务型消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)一节。
 
