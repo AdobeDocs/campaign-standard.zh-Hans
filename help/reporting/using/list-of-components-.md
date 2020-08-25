@@ -12,10 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensions {#dimensions}
+## Dimension {#dimensions}
 
 下表提供了报表中使用的维的列表及其定义。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 设备<br /> </td> 
-   <td> 打开／查看／单击电子邮件/SMS/推送通知的设备。<br /> </td> 
+   <td> 打开／查看／点击电子邮件/SMS/推送通知的设备。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失败原因<br /> </td> 
@@ -83,8 +83,8 @@ ht-degree: 0%
    <td> 移动应用程序的名称<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> 消息从中打开／查看／单击的设备的Platform。<br /> </td> 
+   <td> 平台<br /> </td> 
+   <td> 打开／查看／单击消息的设备的平台。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用户档案<br /> </td> 
@@ -92,7 +92,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 推送平台<br /> </td> 
-   <td> 打开推送通知的设备Platform，如iOS或Android。<br /> </td> 
+   <td> 打开推送通知的设备的平台，如iOS或Android。<br /> </td> 
   </tr> 
   <tr> 
    <td> 收件人域<br /> </td> 
@@ -152,19 +152,19 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 阻止列表<br /> </td> 
+   <td> 论阻止列表<br /> </td> 
    <td> 已声明电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 块列表速率<br /> </td> 
-   <td> 块列表上标记的投放百分比。<br /> </td> 
+   <td> 阻止列表率<br /> </td> 
+   <td> 阻止列表上标记的投放百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 弹回次数+错误<br /> </td> 
    <td> 在投放和自动返回处理期间累积的与已发送消息总数相关的错误总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 退回+错误率<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> 弹回的电子邮件与发送的电子邮件的百分比。<br /> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ ht-degree: 0%
    <td> 在投放期间累积的与已发送消息总数相关的错误总数，例如MCPNS或提供商的错误。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 退回+错误率<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> 与发送的推送通知相比，退回的推送通知百分比。<br /> </td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ ht-degree: 0%
    <td> 已打开的推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一单击<br /> </td> 
+   <td> 唯一点击<br /> </td> 
    <td> 唯一用户与推送通知交互的次数，例如单击通知或按钮。<br /> </td> 
   </tr> 
   <tr> 
@@ -397,63 +397,63 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年龄： 婴儿潮一代1<br /> </td> 
+   <td> 年龄：婴儿潮一代1<br /> </td> 
    <td> 收件人从1946年到1954年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 婴儿潮一代2<br /> </td> 
+   <td> 年龄：婴儿潮一代2<br /> </td> 
    <td> 收件人从1955年到1965年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 从18到25<br /> </td> 
+   <td> 年龄：从18到25<br /> </td> 
    <td> 收件人18岁到25岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 从26到30<br /> </td> 
+   <td> 年龄：从26到30<br /> </td> 
    <td> 收件人,26岁到30岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 从31到40<br /> </td> 
+   <td> 年龄：从31到40<br /> </td> 
    <td> 收件人31岁至40岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 从41到50<br /> </td> 
+   <td> 年龄：从41到50<br /> </td> 
    <td> 收件人41岁至50岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： X代<br /> </td> 
+   <td> 年龄：X代<br /> </td> 
    <td> 收件人人，生于1966年至1976年。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： Y代（千禧一代）<br /> </td> 
+   <td> 年龄：Y代（千禧一代）<br /> </td> 
    <td> 收件人从1977年到1994年出生。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： Z代<br /> </td> 
+   <td> 年龄：Z代<br /> </td> 
    <td> 收件人从1995年出生到今天。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 大于50<br /> </td> 
+   <td> 年龄：大于50<br /> </td> 
    <td> 收件人年龄大于50岁。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 少于25<br /> </td> 
+   <td> 年龄：少于25<br /> </td> 
    <td> 年龄不到25岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 少于30<br /> </td> 
+   <td> 年龄：少于30<br /> </td> 
    <td> 年龄不到30岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 少于40<br /> </td> 
+   <td> 年龄：少于40<br /> </td> 
    <td> 年龄不到40岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： 少于50<br /> </td> 
+   <td> 年龄：少于50<br /> </td> 
    <td> 年龄在50岁以下的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄： Silent Generation<br /> </td> 
+   <td> 年龄：Silent Generation<br /> </td> 
    <td> 收件人生于1945年或之前。<br /> </td> 
   </tr> 
   <tr> 
