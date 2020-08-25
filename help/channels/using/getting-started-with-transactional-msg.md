@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -25,13 +25,10 @@ ht-degree: 28%
 
 ## 概述
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>交易消息使您能够 <b>实时向客户发送</b> 个人和独特的消息。</p></td>
-<td class="noborder"><p>它可以是欢迎邮件、订单发运确认、密码修改等。</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+交易消息使您能够 <b>实时向客户发送</b> 个人和独特的消息。 它可以是欢迎邮件、订单发运确认、密码修改等。
 
 Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发送要转换为自定义事务性消息的事件。
 
@@ -51,26 +48,22 @@ Adobe Campaign Standard API 也可使用事务型消息传递。有关更多信�
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>什么是事务性消息?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>什么是事务性消息?</b></p></td>
 <td><p>它是由提供商（如网站）发送的个人和唯一通信。</p></td>
 <td><p>特别需要，因为它包含收件人要检查或确认的重要信息。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>什么时候到？</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>什么时候到？</b></p></td>
 <td><p> 由于此消息包含重要信息，因此用户希望实时发送该消息。</p></td>
 <td><p>因此，所触发的事件与到达的消息之间的延迟必须非常短。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>为什么这很重要？</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>为什么这很重要？</b></p></td>
 <td><p>一般而言，事务性消息的开放率很高。 因此，它应当精心设计。</p></td>
 <td><p>事实上，当它定义客户关系时，它会对客户行为产生强烈影响。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>比如说？</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>比如说？</b></td>
 <td><p>它可能是创建帐户后的欢迎消息、已发运订单的确认、发票……</p></td>
 <td><p>它也可以是确认密码更改的消息，或者客户浏览您的网站后的通知……</p></td>
 </tr>
@@ -84,21 +77,16 @@ Adobe Campaign 提供两类事务型消息：
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">事件事</a><br>务消息 <b>事件</b>。</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">事件事</a><br>务消息 <b>事件</b>。</td>
 <td><p><ul><li>它们不包含用户档案信息。</li><li>它们与疲劳规 <a href="../../sending/using/fatigue-rules.md">则不兼容</a> (即使是与用户档案扩充)。</li><li>投放目标由事件本身包含的数据定义。</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">用户档案事</a><br>务性消息 <b>从Adobe Campaign营销数据库获取用户档案</b>。</td>
+<td><p>用户档案事务性消息允许您：<ul><li>应用营销类型规则，如 <b>阻止列表或疲劳规</b> 则 <a href="../../sending/using/fatigue-rules.md">的地址</a>。</li><li>在消息中包含退订链接。</li><li>将事务型消息添加到全局投放报告。</li><li>在客户历程中使用事务型消息。</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">用户档案事</a><br>务性消息 <b>从Adobe Campaign营销数据库获取用户档案</b>。</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>用户档案事务性消息允许您：<ul><li>应用营销类型规则，如 <b>阻止列表或疲劳规</b> 则 <a href="../../sending/using/fatigue-rules.md">的地址</a>。</li><li>在消息中包含退订链接。</li><li>将事务型消息添加到全局投放报告。</li><li>在客户历程中使用事务型消息。</li></ul></p></td>
-</tr>
-</table>
 
 在配置要转换为事件的事务型消息时，就决定了消息的类型。请参阅[事务型消息传递配置](../../administration/using/configuring-transactional-messaging.md)。
 
@@ -148,7 +136,7 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 一旦用户离开网站而不订购购物车中的产品，他们就会自动收到通知电子邮件。
 
