@@ -12,9 +12,9 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 ## 电子邮件渠道参数{#email-channel-parameters}
 
-利用电子邮件配置屏幕，可定义电子邮件渠道的参数。管理员通过 **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**菜单访问这些配置。
+利用电子邮件配置屏幕，可定义电子邮件渠道的参数。管理员通过 **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]** 菜单访问这些配置。
 
 ![](assets/channels_1.png)
 
@@ -240,7 +240,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery duration]** 参数不适用于事务型消息。有关事务型消息传递的更多信息，请参阅[此章节](../../channels/using/about-transactional-messaging.md)。
+>**[!UICONTROL Delivery duration]** 参数不适用于事务型消息。有关事务型消息传递的更多信息，请参阅[此章节](../../channels/using/getting-started-with-transactional-msg.md)。
 
 ### 跟踪参数{#tracking-parameters}
 
