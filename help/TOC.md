@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
    + 事务型消息传递 {#transactional-messaging}
-      + [关于事务型消息传递](channels/using/about-transactional-messaging.md)
+      + [交易消息快速入门](channels/using/getting-started-with-transactional-msg.md)
+      + [事务型消息传递限制](channels/using/transactional-messaging-limitations.md)
       + [事件事务型消息](channels/using/event-transactional-messages.md)
       + [用户档案事务型消息](channels/using/profile-transactional-messages.md)
       + [事务型推送通知](channels/using/transactional-push-notifications.md)
