@@ -1,6 +1,6 @@
 ---
-title: 使用Campaign standard生成多语言推送通知的CSV文件
-description: 上传CSV文件以生成要交付的内容是支持多语言推送通知的功能。
+title: 为多语言推送通知生成CSV文件并提供Campaign Standard
+description: 上传CSV文件以生成投放内容是支持多语言推送通知的功能。
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -12,18 +12,21 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
 
-# 为多语言推送通知生成CSV文件{#generating-csv-multilingual-push}
+# 为多语言推送通知生成 CSV 文件{#generating-csv-multilingual-push}
 
-上传CSV文件以生成要交付的内容是支持多语言推送通知的功能。 CSV文件的格式需要遵循某些准则才能成功上传文件，并因此能够创建分发。 以下各节介绍了文件格式及其注意事项。
+上传CSV文件以生成投放内容是一项用于支持多语言推送通知的功能。 CSV文件的格式需要遵循某些准则才能成功上传文件，从而能够创建投放。 以下各节介绍了文件格式及其注意事项。
 
 ## 文件格式 {#file-format}
 
-多语言推送需要在CSV文件中包含14列：
+多语言推送需要CSV文件中的14列：
 
 * 标题
 * messageBody
@@ -36,43 +39,43 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 * isContentAvailable
 * isMutableContent
 * customFields
-* locale
+* 区域
 * 语言
 * silentPush
 
 ![](assets/multilingual_push_1.png)
 
-单击窗口中的，检查CSV **[!UICONTROL Download a sample file]** 范 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+在窗口中单击，以检查 **[!UICONTROL Download a sample file]** CSV示 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:定期推送有效负荷内容。 您需要以与创建推送交付时类似的方式提供此信息。
-* **自定义字段**: 对自定义字段使用JSON格式，例如&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;。 有关自定义字段的示例，请参阅上述示例文件。
+* **title, messageBody, sound, badge, deplinkURI,类别, iosMediaAttachmentURL, androidMediaAttachmentURL**:定期推送有效负荷内容。 您需要以与创建推送投放类似的方式提供此信息。
+* **自定义字段**: 对自定义字段使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`. 有关自定义字段的示例，请参阅上面的示例文件。
 * **isContentAvailable**:“内容可用”检查的标志，值1表示true，值0表示false。 默认值为0。 如果将此列留空，则该值将被视为0。
-* **isMutableContent**:mutable内容的标志，值1表示true，值0表示false。 默认值为0。 如果将此列留空，则该值将被视为0。
+* **isMutableContent**:可变内容的标志，值1表示true，值0表示false。 默认值为0。 如果将此列留空，则该值将被视为0。
 * **区域设置**:locale是语言变体的字段，例如“en_us”表示美语——英语，“fr_fr”表示法语——法语。
 * **语言**:与区域设置关联的语言的名称。 例如，如果区域设置为“en_us”，则语言的名称应为“English-United States”。
-* **silentPush**:推送通知类型的标志。 如果它是常规推送通知，则值应为0。 如果是静默推送，则值应为1。 默认值为0。 如果将此列留空，则该值将被视为0。
+* **silentPush**:推送通知类型标志。 如果它是常规推送通知，则值应为0。 如果是静默推送，则值应为1。 默认值为0。 如果将此列留空，则该值将被视为0。
 
 ## csv文件创建的约束和准则 {#constraints-guideline-csv}
 
 **每列的名称是固定的**。
-您应在CSV文件中包含每列的名称，如果不对内容使用任何列，则将其留空。
+您应在CSV文件中包含每列的名称，如果不对内容使用任何列，请将其留空。
 
-**“locale”和“language”列是必填字段，每行的值都是唯一的。**
+**“locale”和“language”列是必填字段，并且值对于每行都是唯一的。**
 此列的空值将导致文件上传失败。
 
-**列的顺序很重要**。 上载文件中各列的顺序需要与示例文件采用相同的格式。
+**列的顺序很重要**。 上载文件中的列顺序需要采用与示例文件相同的格式。
 
-**引用列内容**。 由于这是CSV（表示逗号分隔值）文件，因此必须引用包含逗号(,)的任何列内容。 例如，“你好，汤姆！”
+**引用列内容**。 由于这是CSV（代表逗号分隔值）文件，因此必须引用包含逗号(,)的任何列内容。 例如，“你好，汤姆！”
 
 **国际字符需要UTF-8编码。**
 
-**如果按纯文本生成文件，则每列按“,”分隔。**
+**如果以纯文本生成文件，则每列以“,”分隔。**
 
-**变体不匹配。** 如果您使用内容块并以特定语言为目标受众，则需要在CSV文件中列出每种目标语言，否则在发送分发时会出错。
+**变体不匹配。** 如果您使用具有特定语言的内容块和目标受众，您需要在CSV文件中列表每种目标语言，否则发送投放时会出错。
 
 ## 在csv文件中插入个性化字段 {#personalization-field-csv}
 
-如果要使用个性化字段，则应在文件 <span> 中包含标记。
+如果要使用个性化字段，应在文件 <span> 中包含标记。
 
 要在messageBody中插入“firstName”个性化字段，消息必须为：
 
@@ -86,9 +89,9 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-在范围中，有两个必填属性：
+在范围中有两个必填属性：
 
-* 一个是静态类。 无论您计划使用哪个个性化字段，它都始终为class=&quot;nl-dce-field nl-dce-done&quot;。
+* 一个是静态类。 无论您计划使用哪个个性化字段，它始终为class=&quot;nl-dce-field nl-dce-done&quot;。
 
 * 另一个是数据-nl-expr，它是个性化领域的路径。 例如，如果您从UI插入“firstName”个性化字段，则导航路径将为 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （如下图所示）。 在这种情况下，路径将
 
@@ -102,9 +105,9 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 
 支持以下语言：
 
-| locale | 语言 |
+| 区域 | 语言 |
 |:-:|:-:|
-| af_za | 南非语 |
+| af_za | 阿非利卡语——南非 |
 | sq_al | 阿尔巴尼亚——阿尔巴尼亚 |
 | ar_dz | 阿拉伯语——阿尔及利亚 |
 | ar_bh | 阿拉伯语——巴林 |
@@ -122,7 +125,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | ar_ae | 阿拉伯语——阿拉伯联合酋长国 |
 | ar_ye | 阿拉伯语——也门 |
 | hy_am | 亚美尼亚——亚美尼亚 |
-| az_az | 阿塞拜疆——阿塞拜疆 |
+| az_az | 阿塞拜疆 |
 | be_by | 白俄罗斯——白俄罗斯 |
 | bs_ba | 波斯尼亚——波斯尼亚 |
 | bg_bg | 保加利亚——保加利亚 |
@@ -135,7 +138,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | cs_cz | 捷克——切希亚 |
 | da_dk | 丹麦语——丹麦 |
 | nl_be | 荷兰语——比利时 |
-| nl_nl | 荷兰语——荷兰 |
+| nl_nl | 荷兰——荷兰 |
 | en_au | 英语——澳大利亚 |
 | en_bz | 英语——伯利兹 |
 | en_ca | 英语——加拿大 |
@@ -149,7 +152,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | en_gb | 英语——英国 |
 | en_us | 英语——美国 |
 | en_zw | 英语——津巴布韦 |
-| et_ee | 爱沙尼亚语——爱沙尼亚语 |
+| et_ee | 爱沙尼亚语——爱沙尼亚 |
 | fi_fi | 芬兰语——芬兰 |
 | fr_be | 法语——比利时 |
 | fr_ca | 法语——加拿大 |
@@ -165,17 +168,17 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | gu_in | 古吉拉特语——印度 |
 | he_il | 希伯来语——以色列 |
 | hi_in | 印地语——印度 |
-| hu_hu | 匈牙利语——匈牙利 |
-| is_is | 冰岛——冰岛 |
+| hu_hu | 匈牙利——匈牙利 |
+| is_is | 冰岛语——冰岛 |
 | id_id | 印度尼西亚——印度尼西亚 |
 | it_it | 意大利语——意大利 |
 | it_ch | 意大利语——瑞士 |
 | ja_jp | 日语——日本 |
 | kn_in | 坎纳达——印度 |
-| kk_kz | 哈萨克斯坦——哈萨克斯坦 |
+| kk_kz | 哈萨克语——哈萨克斯坦 |
 | ko_kr | 朝鲜语——韩国 |
 | lv_lv | 拉脱维亚——拉脱维亚 |
-| lt_lt | 立陶宛语——立陶宛语 |
+| lt_lt | 立陶宛语——立陶宛 |
 | mk_mk | 马其顿——马其顿 |
 | ms_my | 马来语——马来西亚 |
 | mr_in | 马拉地——印度 |
@@ -183,7 +186,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | pl_pl | 波兰——波兰 |
 | pt_br | 葡萄牙语——巴西 |
 | pt_pt | 葡萄牙语——葡萄牙 |
-| pa_in | 旁遮普——印度 |
+| pa_in | 旁遮普语——印度 |
 | ro_md | 罗马尼亚语——摩尔多瓦 |
 | ro_ro | 罗马尼亚——罗马尼亚 |
 | ru_kz | 俄语——哈萨克斯坦 |
@@ -207,8 +210,8 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | es_mx | 西班牙语——墨西哥 |
 | es_ni | 西班牙语——尼加拉瓜 |
 | es_pa | 西班牙语——巴拿马 |
-| es_py | 西班牙语——巴拉圭 |
-| es_pe | 西班牙语——秘鲁 |
+| tes_py | 西班牙语——巴拉圭 |
+| -pe | 西班牙语——秘鲁 |
 | es_pr | 西班牙语——波多黎各 |
 | es_es | 西班牙语——西班牙 |
 | es_uy | 西班牙语——乌拉圭 |
@@ -217,12 +220,12 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | sv_fi | 瑞典语——芬兰 |
 | sv_se | 瑞典语——瑞典 |
 | ta_in | 泰米尔——印度 |
-| tt_ru | 塔塔尔——俄语 |
+| Tt_ru | 塔塔尔——俄语 |
 | te_in | 泰卢古——印度 |
-| th_th | 泰语——泰国 |
+| -th | 泰语——泰国 |
 | tr_cy | 土耳其语——塞浦路斯 |
 | tr_tr | 土耳其语——土耳其 |
 | uk_ua | 乌克兰——乌克兰 |
 | ur_in | 乌尔都——印度 |
-| ur_pk | 乌尔都——巴基斯坦 |
-| vi_vn | 越南——越南 |
+| the ur_pk | 乌尔都——巴基斯坦 |
+| uvi_vn | 越南——越南 |
