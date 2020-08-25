@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -60,7 +60,7 @@ ht-degree: 89%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   为了能够发送电子邮件，此上下文会删除“开启阻止列表”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
+   我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登陆页面的内容：您可以显示个性化数据，例如将确认按钮的标签更改为“Click here to confirm my subscription”。
 
@@ -80,7 +80,7 @@ ht-degree: 89%
 
 ### 创建事件{#create-the-event}
 
-确认电子邮件属于[事务型消息](../../channels/using/about-transactional-messaging.md)，因为它对表单验证事件作出反应。您必须先创建事件，然后再创建事务型消息模板。
+确认电子邮件属于[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，因为它对表单验证事件作出反应。您必须先创建事件，然后再创建事务型消息模板。
 
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单以创建事件，然后输入标签“**CONFIRM**”。
 1. 选择 **[!UICONTROL Profile]** 定向维度并单击 **[!UICONTROL Create]**。
