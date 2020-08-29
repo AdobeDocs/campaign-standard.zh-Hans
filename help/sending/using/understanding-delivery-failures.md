@@ -71,7 +71,7 @@ ht-degree: 81%
 | **[!UICONTROL Not defined]** | 柔和 | 地址已被限定，因为错误尚未递增。 当服务器发送新的错误消息时，会发生此类错误： 这可能是一个孤立的错误，但如果再次发生，则错误计数会增加，从而提醒技术团队。 |
 | **[!UICONTROL Error ignored]** | 已忽略 | 该地址在允许列表上，无论如何，都会向其发送电子邮件。 |
 | **[!UICONTROL Address on block list]** | 硬 | 地址已在发送时添加到阻止列表。 |
-| **[!UICONTROL Account disabled]** | 软／硬 | 当Internet访问提供商(IAP)检测到长时间的非活动时，它可以关闭用户帐户： 投放到用户地址将不可能。 “Soft”或“Hard”类型取决于收到的错误类型：如果帐户因 6 个月不活动而被暂时禁用，且仍可激活，则将分配 **[!UICONTROL Erroneous]** 状态并重试投放。如果收到错误信号表明该帐户已永久停用，则会将该帐户直接隔离。 |
+| **[!UICONTROL Account disabled]** | 软／硬 | 当Internet访问提供商(IAP)检测到长时间的非活动时，它可以关闭用户帐户：投放到用户地址将不可能。 “Soft”或“Hard”类型取决于收到的错误类型：如果帐户因 6 个月不活动而被暂时禁用，且仍可激活，则将分配 **[!UICONTROL Erroneous]** 状态并重试投放。如果收到错误信号表明该帐户已永久停用，则会将该帐户直接隔离。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 发送消息时，用户档案的移动电话关闭或未连接到网络。 |
 | **[!UICONTROL Invalid domain]** | 柔和 | 电子邮件地址的域不正确或不再存在。 此用户档案将被重新定向，直到错误计数达到 5 为止。此后，该记录将设置为隔离状态，并且以后不会再进行重试。 |
 | **[!UICONTROL Text too long]** | 已忽略 | SMS消息中的字符数超过限制。 有关更多信息，请参阅[短信编码、长度和音译](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
