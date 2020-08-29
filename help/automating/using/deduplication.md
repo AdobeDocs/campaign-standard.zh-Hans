@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **相关主题**
 
-* [用例： 在重复之前识别投放](../../automating/using/identifying-duplicated-before-delivery.md)
-* [用例： 从导入的文件中消除重复数据](../../automating/using/deduplicating-data-imported-file.md)
+* [用例：在重复之前识别投放](../../automating/using/identifying-duplicated-before-delivery.md)
+* [用例：从导入的文件中消除重复数据](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 配置{#configuration}
 
