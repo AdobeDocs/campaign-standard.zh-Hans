@@ -39,7 +39,7 @@ ht-degree: 91%
 
 **相关主题：**
 
-* [用例： 在外部文件中导出用户档案](../../automating/using/exporting-profiles-in-file.md)
+* [用例：在外部文件中导出用户档案](../../automating/using/exporting-profiles-in-file.md)
 
 ## 配置{#configuration}
 
