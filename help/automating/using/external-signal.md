@@ -45,8 +45,8 @@ ht-degree: 96%
 
 **相关主题**
 
-* [用例： 外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)。
-* [用例： 调用工作流以使用外部参数从文件创建受众](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [用例：外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)。
+* [用例：调用工作流以使用外部参数从文件创建受众](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## 配置{#configuration}
 
