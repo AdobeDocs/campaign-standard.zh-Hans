@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板6月版** ，包含活动用户档案监视、子域交付性审核和GPG密钥管理。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -73,8 +73,8 @@ ht-degree: 88%
 
 **其他功能** （从7月13日开始）
 
-* **AI驱动的发送时间优化和用户档案评分** -您现在可以优化客户旅程的设计和投放，以预测每个人的参与偏好。 Adobe Campaign可以借助Journey AI分析和预测开放率、最佳发送时间以及基于历史互动指标的可能客户流失。 [了解更多](../../sending/using/predictive.md)
-* **巴西新的隐私法规** -除了活动已具备的隐私功能外，Adobe还有助于您为巴西Lei Geral de Proteçao de Datos(LGPD)做好准备。 创建隐私请求时，LGPD规定已添加到Adobe隐私核心服务。 [了解更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* **AI驱动的发送时间优化和用户档案评分** -您现在可以优化客户旅程的设计和投放，以预测每个人的参与偏好。 Adobe Campaign可以借助Journey AI分析和预测开放率、最佳发送时间以及基于历史互动指标的可能客户流失。 [了解详情](../../sending/using/predictive.md)
+* **巴西新的隐私法规** -除了活动已具备的隐私功能外，Adobe还有助于您为巴西Lei Geral de Proteçao de Datos(LGPD)做好准备。 创建隐私请求时，LGPD规定已添加到Adobe隐私核心服务。 [了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
@@ -128,4 +128,4 @@ ht-degree: 88%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板可以发行** ，并为CNAME子域续订证书。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **新控制面板可以发行** ，并为CNAME子域续订证书。 [了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
