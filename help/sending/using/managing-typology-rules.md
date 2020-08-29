@@ -51,7 +51,7 @@ ht-degree: 96%
 
    ![](assets/typology-rule-label.png)
 
-1. 指定分类规则的 **[!UICONTROL Type]**，然后根据需要进行配置。请注意，分类规则的配置因分类而异。有关更多信息，请参阅&#x200B;**[筛选规则](../../sending/using/filtering-rules.md)**和**[&#x200B;疲劳规则](../../sending/using/fatigue-rules.md)**章节。
+1. 指定分类规则的 **[!UICONTROL Type]**，然后根据需要进行配置。请注意，分类规则的配置因分类而异。有关更多信息，请参阅&#x200B;**[筛选规则](../../sending/using/filtering-rules.md)**&#x200B;和&#x200B;**[疲劳规则](../../sending/using/fatigue-rules.md)**&#x200B;章节。
 
 1. 选择要包含新规则的分类。要执行此操作，请选择 **[!UICONTROL Typologies]** 选项卡，然后单击 **[!UICONTROL Create element]** 按钮。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 1. 控制规则（如果在开始定向时应用）。
 1. 筛选规则：
 
-   * 地址资格的本机应用规则： 阻止列表/隔离地址／地址质量上的已定义地址／未验证地址／地址。
+   * 地址资格的本机应用规则：阻止列表/隔离地址／地址质量上的已定义地址／未验证地址／地址。
    * 筛选用户定义的规则。
 
 1. 控制规则（如果在定向结束时应用）。
