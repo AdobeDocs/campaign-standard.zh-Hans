@@ -51,9 +51,9 @@ ht-degree: 95%
 
 **相关主题：**
 
-* [用例： 使用关系进行数据协调](../../automating/using/reconciliation-using-relations.md)
-* [用例： 使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
-* [用例： 协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：使用关系进行数据协调](../../automating/using/reconciliation-using-relations.md)
+* [用例：使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
+* [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置{#configuration}
 
