@@ -51,7 +51,7 @@ ht-degree: 94%
 * [使用案例：创建基于地域划分的投放](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
 * [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
-* [用例： 生日投放](../../automating/using/birthday-delivery.md)
+* [用例：生日投放](../../automating/using/birthday-delivery.md)
 
 ## 配置{#configuration}
 
