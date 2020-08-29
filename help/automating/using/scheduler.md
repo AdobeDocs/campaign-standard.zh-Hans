@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **相关主题：**
 
-* [用例： 在投放创建日期创建用户档案](../../automating/using/workflow-creation-date-query.md)
-* [用例： 每周二创建电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [用例：在投放创建日期创建用户档案](../../automating/using/workflow-creation-date-query.md)
+* [用例：每周二创建电子邮件投放](../../automating/using/workflow-weekly-offer.md)
 
 ## 配置{#configuration}
 
