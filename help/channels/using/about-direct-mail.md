@@ -43,7 +43,7 @@ Adobe Campaign 中的用户进程如下所示：
 
 **相关主题：**
 
-* [用例： 将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
+* [用例：将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 
 ## 建议{#recommendations}
 
