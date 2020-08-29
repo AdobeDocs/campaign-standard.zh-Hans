@@ -48,10 +48,10 @@ ht-degree: 93%
 
 **相关主题：**
 
-* [用例： 使用外部数据更新数据库](../../automating/using/update-database-file.md)
-* [用例： 根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
-* [用例： 发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
-* [用例： 协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：使用外部数据更新数据库](../../automating/using/update-database-file.md)
+* [用例：根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例：发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置{#configuration}
 
