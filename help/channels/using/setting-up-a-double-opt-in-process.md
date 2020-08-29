@@ -60,7 +60,7 @@ ht-degree: 89%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
+   为了能够发送电子邮件，此上下文会删除“开启阻止列表”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登陆页面的内容：您可以显示个性化数据，例如将确认按钮的标签更改为“Click here to confirm my subscription”。
 
