@@ -36,6 +36,6 @@ ht-degree: 80%
 
 **相关主题**
 
-* [用例： 增量查询服务的订户](../../automating/using/incremental-query-on-subscribers.md)
-* [用例： 从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
+* [用例：增量查询服务的订户](../../automating/using/incremental-query-on-subscribers.md)
+* [用例：从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
 * [在导入文件后为特定服务订阅用户档案](../../automating/using/subscribing-profiles-from-file.md)
