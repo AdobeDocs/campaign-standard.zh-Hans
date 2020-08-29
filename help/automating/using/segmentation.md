@@ -34,9 +34,9 @@ ht-degree: 94%
 >默认情况下，集客群体的一个成员只能属于一个单一区段。根据活动中区段的顺序应用过滤器。
 
 **相关主题：**
-* [用例： 位置细分](../../automating/using/workflow-segmentation-location.md)
-* [用例： 构建对照组](../../automating/using/workflow-control-group.md)
-* [用例： 根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
+* [用例：位置细分](../../automating/using/workflow-segmentation-location.md)
+* [用例：构建对照组](../../automating/using/workflow-control-group.md)
+* [用例：根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
 
 ## 使用环境{#context-of-use}
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 **相关主题**
 
-* [用例： 根据用户档案的年龄组对其进行细分](../../automating/using/segmentation-age-groups.md)。
+* [用例：根据用户档案的年龄组对其进行细分](../../automating/using/segmentation-age-groups.md)。
 
 ## 配置{#configuration}
 
