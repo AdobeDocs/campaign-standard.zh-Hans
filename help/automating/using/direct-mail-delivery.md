@@ -47,7 +47,7 @@ ht-degree: 99%
 
 **相关主题：**
 
-* [用例： 将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
+* [用例：将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 * [关于直邮](../../channels/using/about-direct-mail.md)
 
 ## 配置{#configuration}
