@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '855'
+ht-degree: 92%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 94%
    * **[!UICONTROL Limit segment population]**：用于限制区段的大小。
    * **[!UICONTROL Filter and limit segment population]**：用于筛选区段群体并限制其大小。
    * **[!UICONTROL Label]**：区段标签。
-   * **[!UICONTROL Segment code]**：分配给区段群体的代码。段码可以使用标准表达式和事件变量进行个性化（请参阅[使用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)）。
+   * **[!UICONTROL Segment code]**:分配给区段填充的代码。段代码可以使用标准表达式和事件变量进行个性化(请参 [](../../automating/using/customizing-workflow-external-parameters.md)阅)。
    * **[!UICONTROL Exclude segment from population]**：用于从活动的叫客群体中排除指定的区段。只有选择了 **[!UICONTROL Generate all segments in the same transition]** 选项时，才可使用此选项。
 
    ![](assets/wkf_segment_new_segment.png)
