@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 默认情况下，每月一次事务性消息，并且每次编辑和发布事务性消息时都是如此。
 
-   有关事务性消息的更多信息，请参 [阅关于事务消息](../../channels/using/getting-started-with-transactional-msg.md)。
+   有关事务性消息的更多信息，请参 [阅交易消息快速入门](../../channels/using/getting-started-with-transactional-msg.md)。
 
 >[!NOTE]
 >
