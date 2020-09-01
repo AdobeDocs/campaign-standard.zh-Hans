@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 28%
+source-wordcount: '753'
+ht-degree: 27%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign 提供两类事务型消息：
 <td><p><ul><li>它们不包含用户档案信息。</li><li>它们与疲劳规 <a href="../../sending/using/fatigue-rules.md">则不兼容</a> (即使是与用户档案扩充)。</li><li>投放目标由事件本身包含的数据定义。</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">用户档案事</a><br>务性消息 <b>从Adobe Campaign营销数据库获取用户档案</b></p></td>
 <td><p>用户档案事务性消息允许您：<ul><li>应用营销类型规则，如 <b>阻止列表或疲劳规</b> 则 <a href="../../sending/using/fatigue-rules.md">的地址</a>。</li><li>在消息中包含退订链接。</li><li>将事务型消息添加到全局投放报告。</li><li>在客户历程中使用事务型消息。</li></ul></p></td>
 </tr>
 </table>
@@ -102,43 +102,71 @@ Adobe Campaign 提供两类事务型消息：
 
 利用 Adobe Campaign，可向购物车中添加了产品的网站用户发送通知电子邮件：如果此类用户离开网站且未完成购买，则会自动向他们发送“购物车放弃”电子邮件。
 
-将其置于适当位置的步骤如下。
+将其投入使用的步骤如下。
 
 ### 第1步——创建和发布事件配置 {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-配置将命名为“购物车废弃”的事件并发布此事件配置。
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-将部署网站开发人员将使用的API并自动创建事务性消息。
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>配置将命名为“购物车废弃”的事件并发布此事件配置。</p></td>
+<td>将部署网站开发人员将使用的API并自动创建事务性消息。</td>
+</tr>
+</table>
 
 创建和发布事件，可参阅[配置事件以发送事件事务型消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)一节。
 
 ### 第2步——编辑和发布事务性消息 {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-编辑和个性化事务性消息，测试它，然后发布它。
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>编辑和个性化事务性消息，测试它，然后发布它。</p></td>
+<td>事务性消息将随时可以发送。</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 第3步——集成事件触发 {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-使用REST事务性消息API将事件集成到您的网站中。
+Use the REST Transactional Messages API to integrate the event into your website.
 
-事件将在客户端放弃其购物车时触发。
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>使用REST事务性消息API将事件集成到您的网站中。</p></td>
+<td>事件将在客户端放弃其购物车时触发。</td>
+</tr>
+</table>
 
 有关将事件集成到网站的更多信息，请参阅 [网站集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 ### 第4步——消息投放 {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-一旦用户离开网站而不订购购物车中的产品，他们就会自动收到通知电子邮件。
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>执行所有这些步骤后，即可发送消息。</p></td>
+<td>一旦用户离开网站而不订购购物车中的产品，他们就会自动收到通知电子邮件。</td>
+</tr>
+</table>
 
 ## 关键步骤 {#key-steps}
 
