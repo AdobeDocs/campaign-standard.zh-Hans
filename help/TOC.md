@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
+source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 86%
@@ -252,7 +252,7 @@ ht-degree: 86%
       + [管理执行选项](automating/using/managing-execution-options.md)
       + [管理活动属性](automating/using/activity-properties.md)
    + 使用外部参数调用工作流 {#calling-workflow-external-parameters}
-      + [概述](automating/using/calling-a-workflow-with-external-paraleters.md)
+      + [概述](automating/using/calling-a-workflow-with-external-parameters.md)
       + [在外部信号活动中声明参数](automating/using/declaring-parameters-external-signal.md)
       + [在调用工作流时定义参数](automating/using/defining-parameters-calling-workflow.md)
       + [监视事件变量](automating/using/monitoring-events-variables.md)
