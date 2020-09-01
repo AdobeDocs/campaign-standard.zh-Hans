@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 98%
+source-wordcount: '1720'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 1. 在 **[!UICONTROL Transition]** 选项卡中，使用 **[!UICONTROL Enable an outbound transition]** 选项可在查询活动后添加叫客过渡，即使查询未检索到任何数据。
 
-   叫客过渡的段码可以使用标准表达式和事件变量进行个性化（请参阅[使用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)）。
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. 确认活动的配置并保存工作流。
 
