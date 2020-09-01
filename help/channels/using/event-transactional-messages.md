@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ ht-degree: 100%
 
 有关配置步骤，请参见[配置事件以发送事务型消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)一节。
 
-为了让事件触发发送事务型消息，您必须对消息进行个性化，然后测试并发布消息。
-
 >[!NOTE]
->
->要访问事务型消息，您必须归属于 **[!UICONTROL Administrators (all units)]** 安全组。
 >
 >由于事件事务型消息不包含用户档案信息，所以就算使用用户档案扩充了内容，也不兼容疲劳规则。请参阅[疲劳规则](../../sending/using/fatigue-rules.md#choosing-the-channel)。
 
-## 定义事务型消息的测试用户档案{#defining-a-test-profile-in-a-transactional-message}
+为了让事件触发发送事务型消息，您必须对消息进行个性化，然后测试并发布消息。
 
-定义一个自适应测试用户档案，用于预览消息并发送校样以对其进行校验。
+## 访问事务性消息 {#accessing-transactional-messages}
 
-### 在事务型消息中创建测试用户档案{#creating-a-test-profile-within-the-transactional-----------message}
+访问您创建的事务性消息:
 
-1. 要访问您创建的消息，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. 创建将会链接到事件的测试用户档案。
+1. 单击您选择的消息进行编辑。
 
-   ![](assets/message-center_test-profile.png)
-
-1. 在 **[!UICONTROL Event data used for personalization]** 部分中，指定要以 JSON 格式发送的信息。预览消息和测试用户档案接收校样时，将使用此内容。
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >您还可以输入与用户档案表格有关的信息。请参阅[扩充事务型消息的内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
-
-1. 创建后，将在事务型消息中预先指定测试用户档案。单击消息的 **[!UICONTROL Test profiles]** 块，可查看校样的目标。
-
-   ![](assets/message-center_5.png)
-
-### 在事务型消息之外创建测试用户档案{#creating-a-test-profile-outside-the-transactional-----------message}
-
-您还可以创建新的测试用户档案，或使用 **[!UICONTROL Test profiles]** 菜单中已存在的测试用户档案。
-
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
-1. 在所选测试用户档案页的 **[!UICONTROL Event]** 部分，选择之前创建的事件。在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
-1. 在 **[!UICONTROL Event data]** 文本框中指定要以 JSON 格式发送的信息。
-
-   ![](assets/message-center_3.png)
-
-1. 保存更改。
-
-现在即可访问您创建的消息，并选择更新后的测试用户档案。
-
-**相关主题：**
-
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
-* [定义受众](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>要访问事务型消息，您必须归属于 **[!UICONTROL Administrators (all units)]** 安全组。
 
 ## 个性化事务型消息{#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ ht-degree: 100%
 
 ## 测试事务型消息{#testing-a-transactional-message}
 
-保存事务型消息后，现在即可发送校样以进行测试。
+您首先需要创建特定的测试用户档案，以便能够正确检查事务性消息。
+
+### 定义特定测试用户档案 {#defining-specific-test-profile}
+
+定义将链接到事件的测试用户档案，以便预览消息并发送相关验证。
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. 在 **[!UICONTROL Event data used for personalization]** 部分中，指定要以 JSON 格式发送的信息。预览消息和测试用户档案接收校样时，将使用此内容。
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >您还可以输入与用户档案表格有关的信息。请参阅[扩充事务型消息的内容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
+
+1. 创建后，将在用户档案中预指定测试事务性消息。 单击消息的 **[!UICONTROL Test profiles]** 块，可查看校样的目标。
+
+   ![](assets/message-center_5.png)
+
+您还可以创建新的测试用户档案，或使用 **[!UICONTROL Test profiles]** 菜单中已存在的测试用户档案。操作步骤：
+
+1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
+1. 在部 **[!UICONTROL Event]** 分中，选择您刚刚创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
+1. 在 **[!UICONTROL Event data]** 文本框中指定要以 JSON 格式发送的信息。
+
+   ![](assets/message-center_3.png)
+
+1. 保存更改。
+1. 访问您创建的消息并选择更新的测试用户档案。
+
+**相关主题：**
+
+* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
+* [定义受众](../../audiences/using/creating-audiences.md)
+
+### 发送验证 {#sending-proof}
+
+创建一个或多个特定测试用户档案并保存事务性消息后，可以发送验证进行测试。
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ ht-degree: 100%
 
 ![](assets/message-center_13.png)
 
-## 暂停事务型消息发布{#suspending-a-transactional-message-publication}
+### 暂停事务型消息发布{#suspending-a-transactional-message-publication}
 
 例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
@@ -268,7 +276,7 @@ ht-degree: 100%
 
 单击 **[!UICONTROL Resume]** 后，将继续处理所有排队的事件（前提是它们未过期）。现在，它们包含暂停模板发布时执行的所有修改。
 
-## 取消发布事务型消息{#unpublishing-a-transactional-message}
+### 取消发布事务型消息{#unpublishing-a-transactional-message}
 
 单击 **[!UICONTROL Unpublish]** 可取消事务型消息发布，但也会取消相应事件的发布，从 REST API 中删除与之前创建的事件对应的资源。
 
@@ -286,7 +294,7 @@ ht-degree: 100%
 
 **[!UICONTROL Database cleanup]** 工作流每天凌晨 4 点运行，可通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** 访问。
 
-## 删除事务型消息{#deleting-a-transactional-message}
+### 删除事务型消息{#deleting-a-transactional-message}
 
 取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。操作步骤：
 
@@ -333,9 +341,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放显示在事务型消息的 **[!UICONTROL Execution list]** 选项卡中。
+>将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### 限制{#limitations}
+### 重试进程限制 {#limitations}
 
 **发送日志更新**
 
