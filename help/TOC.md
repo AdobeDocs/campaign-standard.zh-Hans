@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [监视工作流执行](automating/using/monitoring-workflow-execution.md)
       + [管理执行选项](automating/using/managing-execution-options.md)
       + [管理活动属性](automating/using/activity-properties.md)
-   + [使用外部参数调用工作流](automating/using/calling-a-workflow-with-external-parameters.md)
+   + 使用外部参数调用工作流 {#calling-workflow-external-parameters}
+      + [在外部信号活动中声明参数](automating/using/declaring-parameters-external-signal.md)
+      + [在调用工作流时定义参数](automating/using/defining-parameters-calling-workflow.md)
+      + [监视事件变量](automating/using/monitoring-events-variables.md)
+      + [使用外部参数自定义工作流](automating/using/customizing-workflow-external-parameters.md)
+      + [用例](automating/using/use-case-calling-workflow.md)
    + 定位活动 {#targeting-activities}
       + [关于定位活动](automating/using/about-targeting-activities.md)
       + [查询](automating/using/query.md)
