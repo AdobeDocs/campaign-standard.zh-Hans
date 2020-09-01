@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 ## 使用参数调用工作流{#workflow-with-parameters}
 
-确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[在调用工作流时定义参数](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)）。参数的类型还必须与预期值一致。
+确保参数的名称和数量与调用工作流时定义的参数相同(请参阅 [](../../automating/using/defining-parameters-calling-workflow.md))。 参数的类型还必须与预期值一致。
 
 确保已在 **[!UICONTROL External signal activity]** 中声明了所有的参数。否则，运行活动时将出错。
 
