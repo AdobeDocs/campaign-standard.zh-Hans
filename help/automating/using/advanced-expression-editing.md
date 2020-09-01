@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 利用此模式，可使用高级功能。利用这些函数，可处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
-在编辑表达式时，也可以使用事件变量。有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)一节。
+在编辑工作流时，还可以使用事件变量。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
 您可以编辑表达式，以：
 
@@ -51,13 +51,14 @@ ht-degree: 100%
    * 定义表达式的输入字段。
    * 可在表达式中使用并对应于查询中定向维度的可用字段清单（请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)）。
    * 可用函数的列表，按类别排序。
+
    ![](assets/expression_editor_1.png)
 
 1. 通过直接在相应字段中输入表达式以编辑表达式，或通过使用一系列可用字段和函数以编辑表达式。
 
    双击某个字段或表达式，可将其添加到光标所在的表达式中。
 
-   可以使用工作流的事件变量来构建表达式。有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)一节。
+   可以使用工作流的事件变量来构建表达式。有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
 1. 根据需要为规则指定一个特定名称。输入的名称将作为规则名称，显示在查询编辑器工作区中。
 
@@ -79,6 +80,7 @@ ht-degree: 100%
    * **&lt;value1>** 是字段或函数例如 **@created** 对应于创建用户档案的日期，而 **Year(@created)** 对应于创建用户档案的年份。
    * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
+
    >[!NOTE]
    >
    >**&lt;value1>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;value1>** 是日期，则 **&lt;value2>** 也必须是日期。
@@ -107,6 +109,7 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
    * **&lt;context>** 是用于指定上下文的字段或函数。例如 **context.profile.@email** 对应于用户档案的电子邮件地址，而 **context.profile.firstName.length()** 对应于用户档案名字的字符数。
    * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
+
    >[!NOTE]
    **&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
 
