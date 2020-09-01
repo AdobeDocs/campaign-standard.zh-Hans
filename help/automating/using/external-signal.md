@@ -13,10 +13,10 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 **相关主题**
 
 * [用例：外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)。
-* [用例：调用工作流以使用外部参数从文件创建受众](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [用例：调用工作流以使用外部参数从文件创建受众](../../automating/using/use-case-calling-workflow.md)
 
 ## 配置{#configuration}
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 编辑活动的标签。配置触发 **[!UICONTROL External signal]** 的源工作流时需要此标签。
 
-   如果要使用参数调用工作流，请使用 **[!UICONTROL Parameters]** 区域声明它们。有关更多信息，请参阅[此章节](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)。
+   如果要使用参数调用工作流，请使用 **[!UICONTROL Parameters]** 区域声明它们。For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ ht-degree: 96%
 
    当您设置 **[!UICONTROL End]** 活动以触发另一个工作流时，其图标会被更新，添加一个额外的信号标志。
 
-   如果要使用参数调用工作流，请使用 **[!UICONTROL Parameters and values]** 区域。有关更多信息，请参阅[此章节](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)。
+   如果要使用参数调用工作流，请使用 **[!UICONTROL Parameters and values]** 区域。For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
