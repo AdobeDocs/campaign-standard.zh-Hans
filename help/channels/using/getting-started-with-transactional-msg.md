@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 27%
@@ -28,7 +28,12 @@ ht-degree: 27%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-交易消息使您能够 <b>实时向客户发送</b> 个人和独特的消息。 它可以是欢迎邮件、订单发运确认、密码修改等。
+<table>
+<tr>
+<td ><br><p>交易消息使您能够 <b>实时向客户发送</b> 个人和独特的消息。</p></td>
+<td>它可以是欢迎邮件、订单发运确认、密码修改等。</td>
+</tr>
+</table>
 
 Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发送要转换为自定义事务性消息的事件。
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>配置将命名为“购物车废弃”的事件并发布此事件配置。</p></td>
+<td><br><p>配置将命名为“购物车废弃”的事件并发布此事件配置。</p></td>
 <td>将部署网站开发人员将使用的API并自动创建事务性消息。</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ The API that will be used by your website developer is deployed and a transactio
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>编辑和个性化事务性消息，测试它，然后发布它。</p></td>
+<td><br><p>编辑和个性化事务性消息，测试它，然后发布它。</p></td>
 <td>事务性消息将随时可以发送。</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>使用REST事务性消息API将事件集成到您的网站中。</p></td>
+<td><br><p>使用REST事务性消息API将事件集成到您的网站中。</p></td>
 <td>事件将在客户端放弃其购物车时触发。</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ The event will be triggered when a client abandons their cart.-->
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>执行所有这些步骤后，即可发送消息。</p></td>
+<td><br><p>执行所有这些步骤后，即可发送消息。</p></td>
 <td>一旦用户离开网站而不订购购物车中的产品，他们就会自动收到通知电子邮件。</td>
 </tr>
 </table>
