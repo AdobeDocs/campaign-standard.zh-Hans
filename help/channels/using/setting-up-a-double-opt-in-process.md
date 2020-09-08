@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 要设置此功能，您需要：
 
-1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. 自动创建并发送带确认链接的选择加入电子邮件。此电子邮件将定向提交登陆页面的群体。该电子邮件将基于允许定向“选择退出”用户档案的电子邮件模板。
 1. 重定向至确认登陆页面。此最终登陆页面将提供一个确认按钮：访客必须单击该按钮。您可以设计一封欢迎电子邮件，在确认完成后发送，例如，在电子邮件中为新收件人提供特殊优惠。
 
@@ -54,13 +54,13 @@ ht-degree: 89%
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Additional data]** 部分中，单击 **[!UICONTROL Add an element]** 并输入以下上下文路径：
 
-   /context/用户档案/阻止列表
+   /context/profile/blackList
 
    将值设置为 **false**，然后单击 **[!UICONTROL Add]**。
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   为了能够发送电子邮件，此上下文会删除“开启阻止列表”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
+   为了能够发送电列入阻止列表子邮件，此上下文会删除“已”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登陆页面的内容：您可以显示个性化数据，例如将确认按钮的标签更改为“Click here to confirm my subscription”。
 
@@ -101,12 +101,12 @@ ht-degree: 89%
 
 ### 创建分类{#create-the-typology-rule}
 
-您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认同意且仍在阻止列表的用户档案发送消息。 默认情况下，排版排除选择退出(即阻止列表)用户档案。 要创建此分类，请执行以下步骤：
+您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认其协议且仍被用户档案的发送消息列入阻止列表。 默认情况下，排版排除选择退出(即列入阻止列表)用户档案。 要创建此分类，请执行以下步骤：
 
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 并单击 **[!UICONTROL Typologies]**。
 1. 复制现成的分类&#x200B;**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 确认复制后，编辑新的分类并输入标签 **TYPOLOGY_PROFILE**。
-1. 删除“ **阻止列表地址** ”规则。
+1. Remove the **Denylisted address** rule.
 1. 单击 **[!UICONTROL Save]**。
 
 现在，可将此分类与确认电子邮件关联。
@@ -133,11 +133,11 @@ ht-degree: 89%
 1. 根据 **[!UICONTROL Profile acquisition (acquisition)]** 模板设计[新登陆页面](../../channels/using/getting-started-with-landing-pages.md)。输入标签“**ACQUISITION**”。
 1. 编辑登陆页面属性：在 **[!UICONTROL Job]** > **[!UICONTROL Additional data]** 部分中，单击 **[!UICONTROL Add an element]**，输入以下上下文路径：
 
-   /context/用户档案/阻止列表
+   /context/profile/blackList
 
    并将值设置为 **true**。
 
-   这是强制添加到阻止列表并避免向未确认其协议的访客发送消息的必备操作。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
+   这是强制添加到程阻止列表序并避免向未确认其协议的访客发送消息的必备选项。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 部分，选择选项 **[!UICONTROL Start sending messages]**。
 1. 在关联的下拉列表中，选择之前创建的 **CONFIRM** 事务型消息模板。
