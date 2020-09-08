@@ -10,10 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -54,43 +54,43 @@ ht-degree: 0%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>不再联系(由任何渠道)</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>不再通过电子邮件联系</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>不再通过传真联系</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>不再通过SMS联系</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>不再通过电话联系</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>不再通过直邮联系</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>不再通过推送通知进行联系</td>
                   <td>布尔 </td>
                   <td> </td>
@@ -189,7 +189,7 @@ ht-degree: 0%
                <tr>
                   <td>firstName</td>
                   <td>名字</td>
-                  <td>字符串(50)</td>
+                  <td>字符串(30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -238,12 +238,12 @@ ht-degree: 0%
                <tr>
                   <td>middleName</td>
                   <td>中间名</td>
-                  <td>字符串(50)</td>
+                  <td>字符串(30)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>移动电话</td>
-                  <td>移动</td>
+                  <td>手机</td>
                   <td>字符串(32)</td>
                   <td> </td>
                </tr>
@@ -410,7 +410,7 @@ ht-degree: 0%
                         <li>(GMT-07:00)洛矶山脉（美国和加拿大）-美国_丹佛——美国／丹佛</li>
                         <li>(GMT+01:00)中非——西非——罗安达——非洲／罗安达</li>
                         <li>(GMT+02:00)赫尔辛基，基辅，里加，索非亚，塔林，维尔纽斯——欧洲_赫尔辛基——欧洲／赫尔辛基</li>
-                        <li>(GMT)格林威治平均时间： 都柏林、爱丁堡、里斯本、伦敦——欧洲_伦敦——欧洲／伦敦</li>
+                        <li>(GMT)格林威治平均时间：都柏林、爱丁堡、里斯本、伦敦——欧洲_伦敦——欧洲／伦敦</li>
                         <li>(GMT-07:00)亚利桑那——美国_菲尼克斯——美国／菲尼克斯</li>
                         <li>(GMT+02:00)贝鲁特——亚洲_贝鲁特——亚洲／贝鲁特</li>
                         <li>(GMT+04:30)喀布尔——亚洲_喀布尔——亚洲／喀布尔</li>
