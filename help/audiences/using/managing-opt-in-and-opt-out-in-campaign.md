@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 操作员可以直接从“用户档案”选项卡选择加入或退出 **[!UICONTROL General]** 用户。
 
-在部 **[!UICONTROL No longer contact (on block list)]** 分中，选定的复选框与用户选择的渠道对选择退出应。 根据用户的需要选择渠道。
+在部 **[!UICONTROL No longer contact (denylisted)]** 分中，选定的复选框与用户选择的渠道对选择退出应。 根据用户的需要选择渠道。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,7 +34,7 @@ ht-degree: 8%
 
 要使用户能够选择加入或选择退出者，您必须创建和发布 **[!UICONTROL Profile acquisition]** 登陆页。 然后，他们可以根据自己的需要选择渠道。 为此，请执行以下步骤：
 
-您还可以设置一个 **[!UICONTROL Block List]** 登陆页，使用户能够从选择退出所有投放访问。 有关此内容的详细信息，请 [参阅从所有登陆页选择退出中设置投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
+您还可以设置一个 **[!UICONTROL Denylist]** 登陆页，使用户能够从选择退出所有投放访问。 有关此内容的详细信息，请 [参阅从所有登陆页选择退出中设置投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 ### 将登陆页设置选择退出为所有投放 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-要使用户能够从所选择退出有投放创建和发布 **[!UICONTROL Block list]** 登陆页。 有关登陆页创建的详细信息，请参 [阅本页](../../channels/using/getting-started-with-landing-pages.md)。
+要使用户能够从所选择退出有投放创建和发布 **[!UICONTROL Denylist]** 登陆页。 有关登陆页创建的详细信息，请参 [阅本页](../../channels/using/getting-started-with-landing-pages.md)。
 
 用户单击登陆页链接后，用户档案 **[!UICONTROL No longer contact (by any channel)]** 中的选项将自动选中。
 
