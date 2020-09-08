@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 4%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 每个版本都提供新功能和修补程序。 单击某个版本可视图其内容。
 
-视图最新 [的Adobe Campaign Standard](../../rn/using/documentation-updates.md) 文档更新。 如果您正在寻找更新的版本，请查阅 [本页](../../rn/using/release-notes.md)。
+视图最新 [的Adobe Campaign Standard](../../rn/using/documentation-updates.md) 文档更新。 如果您正在寻找更新的版本，请查阅本 [页](../../rn/using/release-notes.md)。
 
 ## 18.9 版 - 2018 年 9 月{#release-18-9---september-2018}
 
-**新增功能**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 * Adobe Campaign Standard现在支持AmazonS3 API的版本4。
 
-**其他变更**
+**其他更改**
 
 * 在广播中，现在区别于每小时的最大连接数和最大消息数。 当达到这些限制时，就可以知道为什么吞吐量受到限制。 以前，同一消息（“配额已满”）适用于两种情况。
 * 在活动中配置移动应用程序时，用户现在可以知道iOS证书和Android服务器密钥是否已成功上传及其过期日期。
@@ -89,13 +89,13 @@ ht-degree: 4%
 * 修复了导致从相机上传并以纵向模式拍摄的图片在不需要的旋转位置显示的问题。
 * 修复了在使用Creative Designer中的查询编辑器界面时显示选择信息不清的问题。
 * 修复了在Creative Designer中使用查询编辑器界面时无法正确复制元素的问题。
-* 修复了一个问题，该问题导致即使收件人已通过自动回复取消订阅，仍然会向阻止列表发送SMS消息。 (CAMP-27128)
+* 修复了一个问题，该问题导致即使已通过自动回复取消订阅，仍然会不断将SMS消息传送给已拒绝登记的收件人。 (CAMP-27128)
 * 修复了阻止显示导致“数据库清理”工作 **流失败的错误** 的问题。 (CAMP-26876)
 * 修复了一个问题，该问题可能会阻止在推送通知定义中删除自定义字段。 (CAMP-25588)
 
 ## 18.7 版 - 2018 年 7 月{#release-18-7---july-2018}
 
-**新增功能**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -133,11 +133,11 @@ ht-degree: 4%
 * Adobe Campaign与Adobe Target的集成现在允许您利用目标的“权 [限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) ”功能。 在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定目标属性（at_property代码）。
 * 具有指向用户档案资源的自定义资源的自定义资源现在由GDPR隐私访问／删除请求考虑。 对于1个基数简单链接和N个基数集合链接，您需要在自定义资源中选择“删除／复制目标记录意味着删除／复制链接引用的记录”。 对于0或1个基数简单链接，选择“删除／复制记录意味着删除／复制链接引用的目标记录”。
 
-**其他变更**
+**其他更改**
 
 * 报告共享超时时间已从1分钟增加到4分钟，以避免任何超时错误。
 * 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，在保存更改后，您仍可以随时返回默认内容编辑器。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
-* 在Creative Designer中，现在可以将新内容组件添加到电子邮件中： 旋转木马。 For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
+* 在Creative Designer中，现在可以将新内容组件添加到电子邮件中：旋转木马。 For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * 在事务性消息热点单击报告中，当您单击“更 **改用户档案** ”按钮时，现在仅列出链接到您为事务性消息定义的事件的测试用户档案。
 
 **修补程序**
@@ -160,18 +160,18 @@ ht-degree: 4%
 
 **改进**
 
-* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案营销历史相关的信息： 触点数、已发送投放、镜像页面URL等。 For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
+* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案营销历史相关的信息：触点数、已发送投放、镜像页面URL等。 For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * 为了 **[!UICONTROL Database cleanup]** 确保数据库备份的更好性能，技术工作流程已得到优化。
 * 现在还提供法语和德语版的Creative Designer for Email。
 
-**其他变更**
+**其他更改**
 
 * 已 **[!UICONTROL Compute stats]** 在已发送投放的 **[!UICONTROL Deployment]** 窗口中添加按钮。 它允许您检索最新的KPI，例如，如果发送的结果更新时间过长或未考虑到。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
 * 在开 **箱即用的** “更新”技术工作流中，功能管理员现在可以定义更新规则javascript活动中要忽略的连续错误 **数** 。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 优化了管理单元访问限制条件时生成的SQL。
 * 该 **[!UICONTROL Update]** 活动现在允许您添加、更新或删除与订阅相关的数据（nms:appSubscriptionRcp表）。
-* 为 **[!UICONTROL Update delivery execution]** 了优化性能，将技术工作流分为两个工作流: - **[!UICONTROL Update delivery execution]**: 更新投放跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**: 更新投放的KPI，默认情况下每小时启动一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* 当投放发送消息时，部分中的状 **[!UICONTROL Deployment]** 态现在可以有两个值： **[!UICONTROL Sending]**: 正在发送消息。 **[!UICONTROL Sending (retry)]**: 重试通过正在进行。
+* 为 **[!UICONTROL Update delivery execution]** 了优化性能，将技术工作流分为两个工作流:- **[!UICONTROL Update delivery execution]**:更新投放跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**:更新投放的KPI，默认情况下每小时启动一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* 当投放发送消息时，部分中的状 **[!UICONTROL Deployment]** 态现在可以有两个值： **[!UICONTROL Sending]**:正在发送消息。 **[!UICONTROL Sending (retry)]**:重试通过正在进行。
 * 具有角色 **[!UICONTROL Delivery preparation]** 的用户现在可以发送验证。 (CAMP-24313)
 * 已 **通过SMPP** 路由将“Enable TLS over SMPP **”（启用TLS over SMPP）选** 项添加到SMS外部帐户中。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
@@ -196,7 +196,7 @@ ht-degree: 4%
 
 ## 18.5 版 - 2018 年 5 月{#release-18-5---may-2018}
 
-**新增功能**
+**新增内容？**
 
 <table> 
  <thead> 
@@ -207,7 +207,7 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> GDPR: 核心服务集成<br /> </td> 
+   <td> GDPR:核心服务集成<br /> </td> 
    <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。 <br /> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -218,8 +218,8 @@ ht-degree: 4%
    <td> 投放日志扩展<br /> </td> 
    <td> 投放日志扩展允许您扩展发送日志，其中包含来自工作流的用户档案数据和段代码。 此信息随后可用于动态报表，并允许您在投放发送时保留某些信息的快照。<br /> 还有2个用例：<br /> 
     <ul> 
-     <li> 导出包含“冻结”数据的扩展广播： 作为营销人员，我希望导出段代码等于“A”(来自工作流引擎)的所有用户档案。 </li> 
-     <li> 对“冻结”数据进行分段： 作为营销人员，我希望重 <strong>新定位</strong> 自上次发送以来已赢得1000个忠诚度积分或段代码等于“A”的所有用户档案。 </li> 
+     <li> 导出包含“冻结”数据的扩展广播：作为营销人员，我希望导出段代码等于“A”(来自工作流引擎)的所有用户档案。 </li> 
+     <li> 对“冻结”数据进行分段：作为营销人员，我希望重 <strong>新定位</strong> 自上次发送以来已赢得1000个忠诚度积分或段代码等于“A”的所有用户档案。 </li> 
     </ul> 有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -233,7 +233,7 @@ ht-degree: 4%
 
 * 应用程序的总内存和CPU使用率已得到增强
 
-**其他变更**
+**其他更改**
 
 * 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 请参阅详细 [文档](../../automating/using/read-audience.md)。 (CAMP-23623)
 * 默认共享数据源的标识符现在处于只读模式，不再能更改。 更改此标识符可能会导致与Experience Cloud共享受众时出现一些问题。
@@ -241,13 +241,13 @@ ht-degree: 4%
 * AWS S3外部帐户现在支持区域和版本4身份验证机制。 请参阅详细 [文档](../../administration/using/external-accounts.md)。
 * 现在，资产选择窗口的加载速度应更快，并且允许选择资产，然后退出窗口而不会出现任何问题。
 * 技术工作流的属性和结构现在可由具有管理权限且属于“所有”组织和地理单位的用户修改。
-* 在创建新区段时，分段活动界面中已进行了增强： 现在，在添加限制后直接显示限制选项卡。 新区段的名称现已递增（“区段1”、“区段2”等）。
+* 在创建新区段时，分段活动界面中已进行了增强：现在，在添加限制后直接显示限制选项卡。 新区段的名称现已递增（“区段1”、“区段2”等）。
 * “nextProcessingDate”字段将添加到工作流资源。 此字段只能通过REST API调用显示，它允许您可视化工作流的下一个处理日期。
 * “sourceId”字段现在显示在跟踪日志资源(nms:trackingLog)中。
 * “总打开次数”和“总点击次数”值现在可通过工作流在平面文件中导出。 (CAMP-24186)
 * “英语- Danmark”现在以用户档案语的“首选语言”列表提供。 (CAMP-23728)
 * 当将分段活动与附加数据(targetData)链接一起使用时，现在会显示一条消息，通知您该数据在工作流之外不可用。 单击分段活动中的计数或预览按钮时，将显示此消息。 (CAMP-23651)
-* 已进行了增强，以优化工作流使用的磁盘空间： (CAMP-21979): 现在，“加载文件”活动处理的文件在默认情况下被删除。 通过某个选项，您可以根据特定需求保留这些资源。 删除工作流后，其专用文件夹会自动从服务器目录中隐藏。
+* 已进行了增强，以优化工作流使用的磁盘空间：(CAMP-21979):现在，“加载文件”活动处理的文件在默认情况下被删除。 通过某个选项，您可以根据特定需求保留这些资源。 删除工作流后，其专用文件夹会自动从服务器目录中隐藏。
 
 **修补程序**
 
@@ -272,7 +272,7 @@ ht-degree: 4%
 
 _平台_
 
-* 修复了一个错误，该错误可能会阻止正确处理GDPR访问或删除请求。 在提取的数据包含以下字符的某些情况下，会观察到这种行为： &amp; &lt; > &quot; &#39;。
+* 修复了一个错误，该错误可能会阻止正确处理GDPR访问或删除请求。 在提取的数据包含以下字符的某些情况下，会观察到这种行为：&amp; &lt; > &quot; &#39;。
 
 _电子邮件、短信和直邮_
 
@@ -308,8 +308,8 @@ _自定义资源_
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
    <td> GDPR是欧洲合并(EU)的新隐私法，它协调将于2018年5月25日生效的数据保护要求并使其现代化。 GDPR 适用于所持有数据的数据主体位于欧盟的 Adobe Campaign 客户。<br /> 除了Adobe Campaign中已具备的隐私权功能（包括同意管理、数据保留设置和用户角色）之外，我们还将作为数据处理者的角色利用这一机会加入其他功能，以帮助您为某些GDPR请求做好数据管理者的准备工作：<br /> 
     <ul> 
-     <li> 访问权限： 允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
-     <li> 删除权： 数据主体有权擦除其由数据管理者捕获的个人数据，可能包括以Adobe Campaign存储的数据。 </li> 
+     <li> 访问权限：允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
+     <li> 删除权：数据主体有权擦除其由数据管理者捕获的个人数据，可能包括以Adobe Campaign存储的数据。 </li> 
     </ul> 有关详细信息，请参阅<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -499,9 +499,9 @@ _电子邮件、短信和直邮_
 * 修复了在投放内容中插入表情符号时出现的显示问题。
 * 修复了在投放仍在版本中时允许用户访问发送日志的问题。
 * 活动 **[!UICONTROL Scheduler]** 现在允许您根据收件人的时区发送投放。
-* SMS: 数据库 **[!UICONTROL Store incoming MO]** 中的选项已添加到外部帐户。 选中后，所有传入的SMS都将存储在 **inSMS表** 中。
-* SMS: 服务现在附加到事件而不是事务模板。
-* SMS: 默认的SMTP连接超时已减少到30秒。
+* SMS:数据库 **[!UICONTROL Store incoming MO]** 中的选项已添加到外部帐户。 选中后，所有传入的SMS都将存储在 **inSMS表** 中。
+* SMS:服务现在附加到事件而不是事务模板。
+* SMS:默认的SMTP连接超时已减少到30秒。
 
 _推送通知_
 
