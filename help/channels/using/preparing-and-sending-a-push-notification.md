@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 5%
 
 ---
 
@@ -33,20 +33,21 @@ ht-degree: 2%
 
    您还可以在工作流中使用推送通知投放活动。 此活动显示在推送 [通知投放部分](../../automating/using/push-notification-delivery.md) 。
 
-1. Select **[!UICONTROL Push notification]**.
+1. 选择 **[!UICONTROL Push notification]**。
 1. 选择模板。
 
    ![](assets/push_notif_type.png)
 
    默认情况下，您可以选择以下两个模板之一：
 
-   * **[!UICONTROL Send push to Campaign profiles]**: 使用此模板目标订阅了您的移动应用程序并选择接收推送通知的Adobe CampaignCRM用户档案。 您可以在 [推送通知](../../designing/using/personalization.md#inserting-a-personalization-field) (如收件人的名字)中插入个性化字段。
-   * **[!UICONTROL Send push to app subscribers]**: 使用此模板向所有已选择接收来自您的应用程序的通知的已知和匿名移动应用程序用户发送推送通知。 您可以使用从移动应用程序收集的数据个性化这些信息。
+   * **[!UICONTROL Send push to Campaign profiles]**:使用此模板目标订阅了您的移动应用程序并选择接收推送通知的Adobe CampaignCRM用户档案。 您可以在 [推送通知](../../designing/using/personalization.md#inserting-a-personalization-field) (如收件人的名字)中插入个性化字段。
+   * **[!UICONTROL Send push to app subscribers]**:使用此模板向所有已选择接收来自您的应用程序的通知的已知和匿名移动应用程序用户发送推送通知。 您可以使用从移动应用程序收集的数据个性化这些信息。
+
    您还可以选择多语言模板。 有关详细信息，请参 [阅创建多语言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)。
 
-   有关模板的详细信息，请参阅管 [理模板](../../start/using/marketing-activity-templates.md) 部分。
+   For more on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. 输入您的推送通知属性，并在字段中选择您的移动应 **[!UICONTROL Associate a Mobile App to a delivery]** 用程序。
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    请注意，下拉列表将同时显示SDK V4和Experience PlatformSDK应用程序。
 
@@ -54,7 +55,7 @@ ht-degree: 2%
 
    您可以将推送通知链接到活动。 为此，请从已创建的活动中选择它。
 
-1. 在以下屏幕中，您可以指定受众，例如，所有订阅特定移动应用程序的VIP客户。 有关此方面的详细信息，请参 [阅创建受众](../../audiences/using/creating-audiences.md)。
+1. 在下面的屏幕中，您可以指定受众，例如，所有订阅特定移动应用程序的VIP客户。 有关此方面的详细信息，请参 [阅创建受众](../../audiences/using/creating-audiences.md)。
 
    您的受众将根据上一步中选择的移动应用程序自动过滤。
 
@@ -66,7 +67,7 @@ ht-degree: 2%
 
    ![](assets/push_notif_content.png)
 
-   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 有关有效负荷的详细结构，请参阅了解ACS [推送通知有效负荷结构](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 技术说明。
+   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 有关有效负荷的详细结构，请参阅了解ACS [推送通知有效负荷结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 技术说明。
 
 1. 单击 **[!UICONTROL Create]**.
 
@@ -76,8 +77,8 @@ ht-degree: 2%
 
    有关发送测试的详细信息，请参阅 [测试用户档案](../../sending/using/sending-proofs.md)。
 
-1. 选择测试用户档案并单击 **[!UICONTROL Preview]** 以显示通知： 内容通过测试用户档案数据进行个性化。
-1. 检查不同设备上的推送通知布局： 选择iPhone、Android手机、iPad或Android平板电脑进行预览渲染。
+1. 选择测试用户档案并单击 **[!UICONTROL Preview]** 以显示通知：内容通过测试用户档案数据进行个性化。
+1. 检查不同设备上的推送通知布局：选择iPhone、Android手机、iPad或Android平板电脑进行预览渲染。
 
    ![](assets/push_notif_preview.png)
 
@@ -91,7 +92,7 @@ ht-degree: 2%
 
 通过定义受众条件，可将推送通知发送到Adobe Campaign中的选定受众。 对于以下示例，我们选定的受众由4个目标移动应用程序订阅者组成。
 
-1. 单 **[!UICONTROL Prepare]** 击以计算目标并生成通知。
+1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
 
    ![](assets/push_send_1.png)
 
@@ -101,7 +102,7 @@ ht-degree: 2%
 
 1. 在选 **[!UICONTROL Exclusion logs]** 项卡中，您可以找到所有从发送的目标中排除的消息的列表以及此排除的原因。
 
-   在此，我们可以看到我们的一个移动应用程序订阅者被排除，因为地址被添加到块列表，而其他订阅者被排除，因为用户档案是重复。
+   在此，我们可以看到我们的移动App用户中有一个被排除，因为地列入阻止列表址被，而其他用户被排除，因为用户档案是重复。
 
    ![](assets/push_send_5.png)
 
@@ -110,13 +111,13 @@ ht-degree: 2%
    ![](assets/push_send_7.png)
 
 1. 您现在可以单击 **[!UICONTROL Confirm]** 以开始发送推送通知。
-1. 通过消息投放和日志检查仪表板的状态。 有关此方面的详细信息，请 [参阅发送消息](../../sending/using/confirming-the-send.md) 和 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+1. 通过消息仪表板和日志，检查投放的状态。有关此方面的详细信息，请 [参阅发送消息](../../sending/using/confirming-the-send.md) 和 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-   在此示例中，消息仪表板显示Adobe Campaign尝试发送两个推送通知： 一个已成功交付到设备，另一个失败。 要了解投放出错的原因，请 ![](assets/lp_link_properties.png) 单击窗口底部的按 **[!UICONTROL Deployment]** 钮。
+   在此示例中，消息仪表板显示Adobe Campaign尝试发送两个推送通知：一个已成功交付到设备，另一个失败。 要了解投放出错的原因，请 ![](assets/lp_link_properties.png) 单击窗口底部的按 **[!UICONTROL Deployment]** 钮。
 
    ![](assets/push_send_4.png)
 
-1. 在窗口 **[!UICONTROL Deployment]** 中，单击选 **[!UICONTROL Sending logs]** 项卡以访问已发送推送通知的列表及其状态。 对于此投放，成功发送了一个推送通知，而另一个由于设备令牌错误而失败。 此订阅者随后将从更多投放添加到块列表。
+1. 在窗口 **[!UICONTROL Deployment]** 中，单击选 **[!UICONTROL Sending logs]** 项卡以访问已发送推送通知的列表及其状态。 对于此投放，成功发送了一个推送通知，而另一个由于设备令牌错误而失败。 此订户随后将从更多投放添加到密语中。
 
    >[!NOTE]
    >
