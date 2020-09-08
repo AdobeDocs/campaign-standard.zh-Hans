@@ -1,5 +1,5 @@
 ---
-title: 监控Adobe Campaign Standard的可交付性
+title: Adobe Campaign Standard监测可交付性
 description: 使用Adobe Campaign Standard提供的工具监控平台的可交付性。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 7%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 0%
 * 定期检查整个平台的投放吞吐量，以验证其是否与原始设置一致。
 * 检查重试是否设置正确(重试时间为30分钟，投放模板中的重试超过20分钟)。
 * 定期验证弹回邮箱是否可访问，以及帐户是否即将过期。
-* 检查每个投放吞吐量，确保其与投放内容的有效性(例如， “flash sales”应在几分钟内交付，而不是几天内交付)。
+* 检查每个投放吞吐量，确保其与投放内容的有效性(例如，“flash sales”应在几分钟内交付，而不是几天内交付)。
 * 使用批次时，请验证在触发下一个波形之前，每个波形是否有足够的时间完成。
 * 检查错误和新隔离的数量是否与其他投放一致。
-* 仔细咨询投放日志，检查突出显示的错误类型（块列表、DNS问题、防垃圾邮件规则等……）。
+* 仔细咨询投放日志，检查突出显示的错误类型(阻止列表、DNS问题、防垃圾邮件规则等……)。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 还提供其他报告， **[!UICONTROL Delivery summary]** 如 **[!UICONTROL Non-deliverables and bounces]**&#x200B;或。 有关此方面的详细信息，请参 [阅动态报表](../../reporting/using/about-dynamic-reports.md)。
 
-## 监视投放 {#monitoring-deliveries}
+## 监控投放 {#monitoring-deliveries}
 
-消息仪表板允许您访问投放日志: **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]**&#x200B;以 **[!UICONTROL Tracking logs]** 及 **[!UICONTROL Tracked URLs]**。 它们显示发送的详细信息、已排除的目标、原因以及打开和单击等跟踪信息。
+消息仪表板允许您访问投放日志: **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]**&#x200B;以 **[!UICONTROL Tracking logs]** 及 **[!UICONTROL Tracked URLs]**。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
 有关此方面的详细信息，请 [参阅监视投放](../../sending/using/monitoring-a-delivery.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 接收警报 {#receiving-alerts}
 
-该功 **[!UICONTROL Delivery alerting]** 能是一个警报管理系统，它使一组用户能够自动接收包含其投放执行信息的通知。
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 有关详细信息，请参 [阅在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
@@ -68,6 +68,6 @@ Signal Spam还直接抱怨最终用户通过专用界面登录。 然后，这�
 
 ## 250ok {#solution-250ok}
 
-250ok是一种监视解决方案，它提供IP和域块列表以及信誉指标。
+250ok是一种监控解决方案，提供IP和域阻止列表以及信誉指标。
 
-提供的信息是实时的，它允许主动提供帮助。 250ok是Adobe可交付性内部工具的补充解决方案。
+提供的信息是实时的，它允许主动提供帮助。 250ok是Adobe交付能力内部工具的补充解决方案。
