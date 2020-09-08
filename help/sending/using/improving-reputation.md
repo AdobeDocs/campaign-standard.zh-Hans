@@ -1,6 +1,6 @@
 ---
-title: 通过Adobe Campaign Standard提高声誉
-description: 了解如何通过管理Adobe Campaign Standard电子邮件地址和隔离来提高您的声誉。
+title: 提高你在Adobe Campaign Standard的声誉
+description: 了解如何通过管理Adobe Campaign Standard电子邮件地址和隔离来提高您在重复的声誉。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 # 提高您的声誉{#improving-reputation}
 
-为避免让收件人精疲力尽，请从目标中删除重复电子邮件地址。 此步骤可保护您发送的信誉并确保良好的隔离管理。 Adobe Campaign优惠执行这些建议所需的工具，并避免被ISP添加到块列表中的风险。
+为避免让收件人精疲力尽，请从目标中删除重复电子邮件地址。 此步骤可保护您发送的信誉并确保良好的隔离管理。 Adobe Campaign优惠执行这些建议所需的工具，并避免被ISP列入阻止列表所的风险。
 
 在下面，您将找到有关重复和隔离管理的详细信息。
 
@@ -33,11 +33,11 @@ ht-degree: 2%
 * 同一邮件被多次发送。 即使活动在发送前默认执行外部重复数据删除过程，在拆分目标时，也没有任何内容可以阻止具有相同内容的不同操作发送相同的消息。
 * 退订请求未接受。 如果收件人在收到消息后取消订阅，其重复用户档案仍有资格获取将来的消息。
 
-除了选择加入程序的这一侧行，这种情况还可能导致用户将消息视为垃圾信息，并在ISP触发阻止列表过程。
+除了选择加入程序的这一侧行，这种情况还可能导致用户将消息视为垃圾信息，并在ISP阻止列表触发程序。
 
 对数据库执行操作时，必须特别小心。 要尽可能避免重复，必须执行以下操作：
 * **必须仔细配置导入。** 这在选择合并关键项时尤其重要。
-* **修改电子邮件地址时请注意。** 更改的电子邮件地址也可以是重复源。 特别地，具有不同域的两个地址可以被路由到同一邮箱，例如，在名称已更改且已保留前一个域一段时间的公司的情况下： joe.doe@amce-co.com和joe.doe@acme-rebranded.com。
+* **修改电子邮件地址时请注意。** 更改的电子邮件地址也可以是重复源。 特别地，具有不同域的两个地址可以被路由到同一邮箱，例如，在名称已更改且已保留前一个域一段时间的公司的情况下：joe.doe@amce-co.com和joe.doe@acme-rebranded.com。
 * **在自动导入过程中请注意。** 无论是列表，还是来自其他数据库，它们都是管理用户档案时要考虑的元素。 删除或移动其他分区中的用户档案时会发生什么情况？ 它可以通过自动导入在初始分区中重新创建，例如，下订单时。
 * **用户档案应分类到不同的文件夹。**
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ## 隔离 {#quarantines}
 
-Adobe Campaign 管理了一个隔离地址列表。在投放分析中，默认情况下将排除其地址被隔离的收件人: 他们不是目标。
+Adobe Campaign 管理了一个隔离地址列表。在投放分析中，默认情况下将排除其地址被隔离的收件人:他们不是目标。
 
 隔离管理在本节 [中详细介绍](../../sending/using/understanding-quarantine-management.md)。
 
