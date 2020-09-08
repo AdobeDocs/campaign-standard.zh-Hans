@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 1%
+source-wordcount: '2028'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 关于投放警报 {#about-delivery-alerting}
 
-投放 **警报功能** 是警报管理系统，它使一组用户能够自动接收包含关于其投放执行的信息的通知。
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 发送的通知默认包含基于以下条件的报告：
 
@@ -90,8 +90,8 @@ ht-degree: 1%
 
 1. 从下拉收件人中选择要通知 **[!UICONTROL Alert group]** 的列表组。 要修改或创建用户组，请参 [阅创建安全组和分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 1. 在部分 **[!UICONTROL Delivery alerting criteria]** 中，单 **[!UICONTROL Create element]** 击以添加条件。 请参 [阅关于警报标准](#about-alerting-criteria)。
-1. 选择按 **[!UICONTROL Edit properties]** 钮。 在选项卡 **[!UICONTROL Criteria parameters]** 中，定义如何应用条件。 请参 [阅标准参数](#criteria-parameters)。
-1. 单击 **[!UICONTROL Create]** 以保存仪表板。
+1. 选择 **[!UICONTROL Edit properties]** 按钮。在选项卡 **[!UICONTROL Criteria parameters]** 中，定义如何应用条件。 请参 [阅标准参数](#criteria-parameters)。
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 现在，每次投放符合您在此仪表板中定义的条件时，都会向指定的用户组发送警报通知。
 
@@ -105,13 +105,13 @@ ht-degree: 1%
 
 以下标准可用于投放警报仪表板:
 
-* **[!UICONTROL Deliveries failed]**: 在已定义的范围内计划的任何投放，其状态错误。
-* **[!UICONTROL Deliveries with preparation failed]**: 在定义范围内修改的任何投放，其准备步骤(目标计算和内容生成)失败。 有关此内容的详细信息，请 [参阅准备发送](../../sending/using/preparing-the-send.md)。
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: 在已定义的范围内计划的任何投放(至少 **[!UICONTROL In progress]**&#x200B;具有状态)，软跳出错误率大于已定义百分比。
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: 在已定义范围内计划的任何投放，其状态至 **[!UICONTROL In progress]**&#x200B;少为，硬弹回错误率大于已定义百分比。
-* **[!UICONTROL Deliveries with long start pending]**: 在已定义的范围内计划的任何投放, **[!UICONTROL Start pending]** 其状态长于已定义的持 **[!UICONTROL Start pending]** 续时间，状态意味着系统尚未考虑消息。
-* **[!UICONTROL Deliveries with low throughput]**: 任何投放的启动时间长于定义的持续时间，且小于定义的已处理消息百分比，吞吐量低于定义值。
-* **[!UICONTROL Deliveries in progress]**: 在已定义的范围内计划的任何投放，其状态 **[!UICONTROL In progress]** 为：
+* **[!UICONTROL Deliveries failed]**:在已定义的范围内计划的任何投放，其状态都错误。
+* **[!UICONTROL Deliveries with preparation failed]**:在定义范围内修改的任何投放，其准备步骤(目标计算和内容生成)失败。 有关此内容的详细信息，请 [参阅准备发送](../../sending/using/preparing-the-send.md)。
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:在已定义的范围内计划的任何投放(至少 **[!UICONTROL In progress]**&#x200B;具有状态)，软跳出错误率大于已定义百分比。
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**:在已定义范围内计划的任何投放，其状态至 **[!UICONTROL In progress]**&#x200B;少为，硬弹回错误率大于已定义百分比。
+* **[!UICONTROL Deliveries with long start pending]**:在已定义的范围内计划的任何投放, **[!UICONTROL Start pending]** 其状态长于已定义的持 **[!UICONTROL Start pending]** 续时间，状态意味着系统尚未考虑消息。
+* **[!UICONTROL Deliveries with low throughput]**:任何投放的启动时间长于定义的持续时间，且小于定义的已处理消息百分比，吞吐量低于定义值。
+* **[!UICONTROL Deliveries in progress]**:在已定义的范围内计划的任何投放，其状态 **[!UICONTROL In progress]** 为：
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**: 如果一个投放符合某个标准，则在监控期间内发送的每个通知中重复该标准。 否则，对于一个投放，每天（第一次出现时）只会按警报标准发送一个警报。
+* **[!UICONTROL Criteria frequency]**:如果一个投放符合某个标准，则在监控期间内发送的每个通知中重复该标准。 否则，对于一个投放，每天（第一次出现时）只会按警报标准发送一个警报。
 
    默认情况下，此选项设置为所有条件的每天一次。
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 * [发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [警报频率](#alerting-frequency)
-* [营销活动图标和状态](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [营销活动的图标和状态](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### 创建投放警报标准 {#creating-a-delivery-alerting-criterion}
 
@@ -160,13 +160,13 @@ ht-degree: 1%
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. 编辑新的筛选器定义： 在窗 **[!UICONTROL Filter definition]** 口中，将项目拖放 **[!UICONTROL Status]** 到工作区中，并选 **[!UICONTROL Finished]** 择作为筛选条件。
+1. 编辑新的筛选器定义：在窗 **[!UICONTROL Filter definition]** 口中，将项目拖放 **[!UICONTROL Status]** 到工作区中，并选 **[!UICONTROL Finished]** 择作为筛选条件。
 
    ![](assets/delivery-alerting_filter-status.png)
 
    有关创建和编辑自定义过滤器的详细信息，请参阅 [定义过滤器](../../developing/using/configuring-filter-definition.md)。
 
-1. 保存更改并发布资源。 有关此方面的详细信息，请 [参阅发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 保存更改并发布资源。 For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    过滤器已创建，现在可以在新的投放警报标准中选择。
 
@@ -193,24 +193,24 @@ ht-degree: 1%
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: 例如，如果在此字段中输入100，则只会向目标等于或大于100投放的收件人发送通知。 此参数适用于所有条件。
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: 当前时间前后的小时数。 只考虑具有此时间范围内的联系日期的投放。 此参数适用于所有条件。 默认情况下，此字段的值设置为24小时。
+* **[!UICONTROL Delivery target minimum size]**:例如，如果在此字段中输入100，则只会向目标等于或大于100投放的收件人发送通知。 此参数适用于所有条件。
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:当前时间前后的小时数。 只考虑具有此时间范围内的联系日期的投放。 此参数适用于所有条件。 默认情况下，此字段的值设置为24小时。
 
    有关联系日期的详细信息，请参 [阅关于计划](../../sending/using/about-scheduling-messages.md)。
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: 系统会为所有投放发送一条通知，其软跳出错误率大于指定值。 默认情况下，此字段的值设置为0.05(5%)。
+* **[!UICONTROL Maximum ratio of soft bounce errors]**:系统会为所有投放发送一条通知，其软跳出错误率大于指定值。 默认情况下，此字段的值设置为0.05(5%)。
 
    有关软弹回错误的详细信息，请参 [阅弹回邮件资格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)[和投放故障类型列表](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: 所有硬弹回错误率大于指定值的投放都会收到通知。 默认情况下，此字段的值设置为0.05(5%)。
+* **[!UICONTROL Maximum ratio of hard bounce errors]**:所有硬弹回错误率大于指定值的投放都会收到通知。 默认情况下，此字段的值设置为0.05(5%)。
 
    有关硬弹回错误的详细信息，请参 [阅弹回邮件资格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)[和投放故障类型列表](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: 系统会为状态超过此字段 **[!UICONTROL Start pending]** 中指定持续时间的所有投放发送通知，该 **[!UICONTROL Start pending]** 状态表示系统尚未考虑这些消息。
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: 该标准只考虑 **[!UICONTROL In progress]** 超过指定持续时间的开始投放(状态 **[!UICONTROL Deliveries with low throughput]** )。
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: 该标准只考虑已处理邮件百分比低于指定百分比的投放 **[!UICONTROL Deliveries with low throughput]** 。
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: 只有吞吐量低于指定值的投放才会考虑该标 **[!UICONTROL Deliveries with low throughput]** 准。
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: 只考虑已处理邮件百分比高于指定百分比的投放。
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:系统会为状态超过此字段 **[!UICONTROL Start pending]** 中指定持续时间的所有投放发送通知，该 **[!UICONTROL Start pending]** 状态意味着系统尚未考虑这些消息。
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:该标准只考虑 **[!UICONTROL In progress]** 超过指定持续时间的开始投放(状态 **[!UICONTROL Deliveries with low throughput]** )。
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:该标准只考虑已处理邮件百分比低于指定百分比的投放 **[!UICONTROL Deliveries with low throughput]** 。
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:只有吞吐量低于指定值的投放才会考虑该标 **[!UICONTROL Deliveries with low throughput]** 准。
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:只考虑已处理邮件百分比高于指定百分比的投放。
 
 ### 警报频率 {#alerting-frequency}
 
@@ -230,38 +230,42 @@ ht-degree: 1%
 
 首先，检查投放的“ **日志** ”选项卡以视图与投放和验证相关的所有信息。 红色和黄色图标允许您识别错误或警告。 红色图标指示阻止投放启动的严重错误。
 
-要视图每次出现投放的历史记录，请选择选 **[!UICONTROL Sending logs]** 项卡。 它包含已发送消息的列表及其状态。 您可以在此处检查每个投放的收件人 **[!UICONTROL Sent]**&#x200B;状态 **[!UICONTROL Pending]**( **[!UICONTROL Failed]**、、等等)。 有关此方面的详细信息，请参 [阅发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)。
+要视图每次出现投放的历史记录，请选择选 **[!UICONTROL Sending logs]** 项卡。 它包含已发送消息的列表及其状态。 您可以在此处检查每个投放的收件人 **[!UICONTROL Sent]**&#x200B;状态 **[!UICONTROL Pending]**( **[!UICONTROL Failed]**、、等等)。 For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 以下是根据投放满足的标准接收警报通知的几个可能原因。
 
-* **[!UICONTROL Deliveries failed]**: 此标准会通知所有状态错误的投放。 这可能是由于：
+* **[!UICONTROL Deliveries failed]**:此标准会通知所有状态错误的投放。 这可能是由于：
 
    * 投放服务器（MTA，消息传输代理）的问题
    * Adobe Campaign投放服务器与接收服务器之间的连接超时
    * 可交付性问题
    * 错误的工作流
+
    如果投放是通过工作流触发的，请检查该工作流是否正确启动。 有关此方面的详细信息，请参 [阅执行工作流](../../automating/using/about-workflow-execution.md)。 否则，请联系您的Adobe Campaign管理员以解决此问题。
 
-* **[!UICONTROL Deliveries with preparation failed]**: 在以下情况下，投放准备过程中可能会出错：
+* **[!UICONTROL Deliveries with preparation failed]**:在以下情况下，投放准备过程中可能会出错：
 
    * 投放缺少一个主题。
    * 个性化字段语法错误。
    * 目标不见了。
    * 投放超出大小限制。
+
    有关此内容的详细信息，请 [参阅准备发送](../../sending/using/preparing-the-send.md)。 但是，这些错误通常在消息分析期间发现。 请参 [阅控制规则](../../sending/using/control-rules.md)。
 
 * 出现警报的可 **[!UICONTROL Delivery with bad error ratio for soft bounces]** 能原因包括：
 
    * 收件人的服务器关闭。
    * 收件人邮箱已满。
+
    有关详细信息，请 **[!UICONTROL Exclusion logs]** 检查投放日志 **[!UICONTROL Exclusion causes]** 的选项卡和选项卡。 请参阅 [排除日志](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
 
    出现警报的可 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 能原因包括：
 
-   * 收件人在块列表中，这意味着他们不再希望联系。
+   * 收件人是列入阻止列表的，这意味着他们不再希望被联系。
    * 收件人的电子邮件地址不存在。
    * 收件人的域不存在。
    * 收件人服务器正在阻止投放。
+
    要避免出现软弹回和硬弹回错误，请遵循以下最佳实践：
 
    * 构建过滤类型规则，以在投放分析期间排除消息目标的一部分，如隔离收件人。 请参 [阅创建筛选规则](../../sending/using/filtering-rules.md)。
@@ -270,9 +274,9 @@ ht-degree: 1%
 
 
 
-* **[!UICONTROL Deliveries with long start pending]**: 通常，这意味着在MTA（消息传输代理）级别存在问题。 执行过程正在等待某些资源的可用性。 MTA可能尚未启动。
+* **[!UICONTROL Deliveries with long start pending]**:通常，这意味着在MTA（消息传输代理）级别存在问题。 执行过程正在等待某些资源的可用性。 MTA可能尚未启动。
 
-   **[!UICONTROL Deliveries with low throughput]**: 这又是一个可交付性问题，意味着MTA太慢。
+   **[!UICONTROL Deliveries with low throughput]**:这又是一个可交付性问题，意味着MTA太慢。
 
    有关这些问题的更多信息，请与Adobe Campaign管理员联系。
 
