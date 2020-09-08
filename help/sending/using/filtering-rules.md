@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 | 标签 | 渠道 | 说明 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 所有 | 排除没有指定地址（电子邮件、邮政地址等）的目标。 根据选定渠道)。 |
-| **[!UICONTROL Blocklisted address]** | 所有 | 排除块列表中的地址。 |
+| **[!UICONTROL Denylisted address]** | 所有 | 不包括此中的阻止列表地址。 |
 | **[!UICONTROL Duplicate]** | 所有 | 排除基于重复人口字段的 **[!UICONTROL Address]** 目标。 |
 | **[!UICONTROL Exclude mobile applications]** | 移动应用程序 | 不包括与消息中定义的移动应用程序不匹配的应用程序订阅。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 应用程序内 | 不包括与消息（应用程序内模板）中定义的移动应用程序不匹配的应用程序订阅。 |
@@ -47,13 +47,13 @@ ht-degree: 2%
 
 在电子邮件分析期间，这些规则将收件人电子邮件地址与在可交付性实例中管理的加密全局禁止列表中包含的禁止地址或域名进行比较。 如果存在匹配项，则消息不会发送到该收件人。
 
-这可以避免由于恶意活动（特别是使用垃圾邮件陷阱）而被添加到阻止列表。 例如，如果使用垃圾邮件陷阱通过您的某个Web表单进行订阅，则会自动向该垃圾邮件陷阱发送确认电子邮件，这会导致您的地址被自动添加到阻止列表中。
+这是为了避免由于列入阻止列表恶意活动，特别是使用Spamtrap而。 例如，如果使用垃圾邮件陷阱通过您的某个Web表单进行订阅，则会自动向该垃圾邮件陷阱发送确认电子邮件，这会导致您的地址被自动添加到该阻止列表垃圾邮件。
 
 >[!NOTE]
 >
 >全局禁止列表中包含的地址和域名将被隐藏。 在收件人分析日志中只指示被排除的投放数。
 
-## 创建筛选规则 {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 您可以根据自己的需要创建自己的过滤规则。 例如，您可以过滤新闻稿的目标群，使18岁以下的订阅者永远不会收到通信。
 
@@ -91,11 +91,11 @@ Campaign Standard允许您根 **据要** 目标 **的数据** ，配置定位和
 
 为此，请打开类型规则的属性，然后访问该 **[!UICONTROL Advanced information]** 部分。
 
-默认情况下，对进行筛选 **[!UICONTROL Profiles]**。 例如，如果规则针对移动应用程序，则可 **[!UICONTROL Filtering dimension]** 以将其更改为 **[!UICONTROL Subscriptions to an application]**。
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. 例如，如果规则针对移动应用程序，则可 **[!UICONTROL Filtering dimension]** 以将其更改为 **[!UICONTROL Subscriptions to an application]**。
 
 ![](assets/typology_rule-order_2.png)
 
-## 限制筛选规则的适用性 {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 可以根据要发送的消息限制过滤规则的适用性。
 
