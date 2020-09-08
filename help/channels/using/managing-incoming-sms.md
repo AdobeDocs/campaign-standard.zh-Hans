@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 7%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## 管理停止SMS {#managing-stop-sms}
 
-当用户档案回复通过活动发送的SMS消息时，您可以配置自动发回给他的消息以及要执行的操作。
+当某个用户档案回复通过 Campaign 发送的短信消息时，您可以配置自动发回给他的消息以及要自动执行的操作。
 
 此配置在SMS路由 **[!UICONTROL Automatic reply sent to the MO]** 外部帐户的 [一节中定义](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)。 MO代表“源于移动”，这意味着您可以配置对发送短信的移动设备的自动回复。
 
-为此，请执行以下操作：
+为实现此操作，请执行以下步骤：
 
-1. 从高级菜单中，通过Adobe Campaign标志，选 **[!UICONTROL Administration > Application settings > External accounts]****[!UICONTROL SMS routing via SMPP]** 择外部帐户。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. 在类别 **[!UICONTROL Automatic reply sent to the MO]** 下，单击 **[!UICONTROL Create element]** 开始以配置自动回复。
 
    ![](assets/sms_mo_1.png)
@@ -57,7 +57,8 @@ ht-degree: 1%
    * 操作 **[!UICONTROL Send to quarantine]** 会自动隔离用户档案电话号码。
    * 该操 **[!UICONTROL Remove from quarantine]** 作会从用户档案中删除隔离电话号码。
    * 该 **[!UICONTROL None]** 操作允许您仅向收件人发送消息，而不携带操作。
-   例如，在以下配置中，如果收件人发送关键字“STOP”，他们将自动收到退订确认，其电话号码将发送到状态为“STOP”的隔离 **[!UICONTROL On block list]** 。 此状态仅指电话号码，用户档案不会添加到块列表，以便用户继续接收电子邮件。
+
+   例如，在以下配置中，如果收件人发送关键字“STOP”，他们将自动收到退订确认，其电话号码将发送到状态为“STOP”的隔离 **[!UICONTROL Denylisted]** 。 此状态仅指电话号码，用户档案被列入阻止列表，以便用户继续接收电子邮件。
 
    ![](assets/sms_mo.png)
 
@@ -73,19 +74,19 @@ ht-degree: 1%
 
 通过 **[!UICONTROL Store incoming MO in the database]** 在类别 **[!UICONTROL SMPP channel settings]** 中进行检查，所有SMS都将存储在inSMS表中，并且可以通过工作流中的查询活动进行检索。
 
-为此，请执行以下操作：
+为实现此操作，请执行以下步骤：
 
-1. 在字段 **[!UICONTROL SMPP channel settings]** 中，检查 **[!UICONTROL Store incoming MO in the database]**。
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. 在选项卡 **[!UICONTROL Marketing activities]** 中，单击， **[!UICONTROL Create]** 然后选择 **[!UICONTROL Workflow]**。
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. 选择您的工作流类型。
 1. 编辑工作流的属性，然后单击 **[!UICONTROL Create]**。 For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
-1. 拖放活动 **[!UICONTROL Query]** ，然后多次单击活动。
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. 在查询 **[!UICONTROL Properties]** 的选项卡中，在字 **[!UICONTROL Incoming SMS (inSMS)]** 段中选 **[!UICONTROL Resource]** 择。
 
    ![](assets/sms_config_mo_4.png)
@@ -94,7 +95,7 @@ ht-degree: 1%
 
    ![](assets/sms_config_mo_5.png)
 
-1. 在此，我们希望目标前一天收到的每一条消息。 在类别 **[!UICONTROL Field]** 中，选择 **[!UICONTROL Creation date (created)]**。
+1. 在此，我们希望目标前一天收到的每一条消息。 In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
 1. 在中 **[!UICONTROL Filter type]**，选 **[!UICONTROL Relative]** 择，然后 **[!UICONTROL Level of precision]**&#x200B;在中选择 **[!UICONTROL Day]**。
 
    ![](assets/sms_config_mo_6.png)
