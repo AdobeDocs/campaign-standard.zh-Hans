@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 93%
+source-wordcount: '232'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign 附带一系列内置登陆页面模板：
 * **[!UICONTROL Acquisition]**：这是登陆页面的默认模板，用于在 Campaign 数据库中捕获和更新数据。
 * **[!UICONTROL Subscription]**：此模板用于提供服务订阅。
 * **[!UICONTROL Unsubscription]**：此模板可从发送给订阅者的电子邮件链接到服务，以便他们退订此服务。
-* **[!UICONTROL Block list]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。For more about block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 默认情况下，创建新登陆页面时会提供这些模板。
 
