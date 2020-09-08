@@ -1,6 +1,6 @@
 ---
-title: 开始使用用户档案和受众
-description: “了解用户档案和受众在Adobe Campaign中的管理： 定义目标人群、选择受众、筛选收件人、收集数据和更新用户档案。”
+title: 用户档案和受众快速入门
+description: “了解用户档案和受众在Adobe Campaign中的管理：定义目标人群、选择受众、筛选收件人、收集数据和更新用户档案。”
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 5%
+source-wordcount: '607'
+ht-degree: 8%
 
 ---
 
 
-# 开始使用用户档案和受众{#about-profiles-and-audiences}
+# 用户档案和受众快速入门{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户偏好的变化提供更相关、更个性化的优惠。 此外，Adobe Campaign集成了高级分析、数据管理和定位功能，以构建受众。
 
-**用户档案** 是存储在数据库中的单个联系人。 每个用户档案对应于用户档案库中的一个条目，该条目包含该被定向、限定和单独跟踪的必要信息： Adobe Campaign可以跟踪线上和线下渠道的每次交互，并将其合并到一个用户档案中。
+**用户档案** 是存储在数据库中的单个联系人。 每个用户档案对应于用户档案库中的一个条目，该条目包含该被定向、限定和单独跟踪的必要信息：Adobe Campaign可以跟踪线上和线下渠道的每次交互，并将其合并到一个用户档案中。
 
 **受众** 是根据特定标准或一组标准构建的列表。 使用工作流和查询编辑器，您可以根据您对营销活动、活动和营销历史的信息，构建将由其定位的受众。 这允许您按不限数量的条件筛选订阅用户档案、采样或创建目标受众。
 
@@ -54,9 +54,9 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 * [关于用户档案](../../audiences/using/about-profiles.md)
 * [使用中的用户档案](../../audiences/using/active-profiles.md)
 * [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
-* [丰富 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
+* [扩充 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
 * [关于受众](../../audiences/using/about-audiences.md)
-* [在消息中选择受众](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## 许可和同意 {#permission}
 
@@ -66,7 +66,7 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 
 借助活动，我们建议您通 **过服务使用简单的**[加入和退出机制](../../audiences/using/creating-a-service.md)[，以及](../../channels/using/getting-started-with-landing-pages.md) 登陆页来更新您的联系信息，并扩展您的数据库。
 
-在消 **息中提** 供退订链接将使用户档案能够根据需要添加到块列表中，从而提高平台的可交付性。 有关块列表管理的详细信息， [请参阅关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+在消 **息中提** 供退订链接，可在需要时将用户档案添加阻止列表到中，从而提高平台交付能力。 For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -81,9 +81,9 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign优惠一套工具，帮助您遵守 **GDPR** 、CCPA和其他隐私法规。
+Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-在本文中进一 [步了解](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) “隐私管理”以及我们为管理访问权、被遗忘权、同意权、数据保留和用户角色提供的功能。
+在本文中进一 [步了解](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html) “隐私管理”以及我们为管理访问权、被遗忘权、同意权、数据保留和用户角色提供的功能。
 
 本节介绍活动中的隐私和同意以及如何管 [理它们](../../start/using/privacy.md)。
 
