@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -152,12 +152,12 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 论阻止列表<br /> </td> 
+   <td> 列入阻止列表<br /> </td> 
    <td> 已声明电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 阻止列表率<br /> </td> 
-   <td> 阻止列表上标记的投放百分比。<br /> </td> 
+   <td> 投放上标记的阻止列表百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 弹回次数+错误<br /> </td> 
