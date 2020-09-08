@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# 为何使用 Campaign Standard API {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供的API允许现有系统与ACS平台集成，以实时解决现实中的问题。
 
-诸如注册或退出页面之类的公共网站需要连接到后端系统以存储用户档案信息。 后端系统(如Adobe Campaign)具有灵活性和能力，可将用户档案数据引入并对其执行自定义操作。
+诸如注册或退出页面之类的公共网站需要连接到后端系统以存储用户档案信息。 后端系统(如Adobe Campaign)具有灵活性和功能，可将用户档案数据引入其中并对其执行自定义操作。
 
 以下是一些示例：
 
@@ -65,7 +65,7 @@ Adobe Campaign Standard提供的API允许现有系统与ACS平台集成，以实
 
    ![替换文本](assets/postman_collection.png)
 
-1. 选择 **创建用户档案请求** ，然后使用您自己的信息( **** &lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>)更新POST请求和“标题”选项卡。 有关更多信息，请参阅[此章节](../../api/using/setting-up-api-access.md)。
+1. 选择 **创建用户档案请求** ，然后使用您自己的信息( **** &lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>)更新POST请求和“标题”选项卡。 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
 
    ![替换文本](assets/postman_uc1.png)
 
