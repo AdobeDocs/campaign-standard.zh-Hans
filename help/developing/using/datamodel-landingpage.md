@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>明细列表（字节） </td>
          <td>
             <ul>
-               <li>块列表——块列表- 3</li>
+               <li>黑名单——黑名单- 3</li>
                <li>无特定操作——无- 0</li>
                <li>退订-退订- 2</li>
                <li>无效值- __Invalid_value__ - __Invalid_value__</li>
@@ -595,7 +595,7 @@ ht-degree: 0%
                <li>(GMT-07:00)洛矶山脉（美国和加拿大）-美国_丹佛——美国／丹佛</li>
                <li>(GMT+01:00)中非——西非——罗安达——非洲／罗安达</li>
                <li>(GMT+02:00)赫尔辛基，基辅，里加，索非亚，塔林，维尔纽斯——欧洲_赫尔辛基——欧洲／赫尔辛基</li>
-               <li>(GMT)格林威治平均时间： 都柏林、爱丁堡、里斯本、伦敦——欧洲_伦敦——欧洲／伦敦</li>
+               <li>(GMT)格林威治平均时间：都柏林、爱丁堡、里斯本、伦敦——欧洲_伦敦——欧洲／伦敦</li>
                <li>(GMT-07:00)亚利桑那——美国_菲尼克斯——美国／菲尼克斯</li>
                <li>(GMT+02:00)贝鲁特——亚洲_贝鲁特——亚洲／贝鲁特</li>
                <li>(GMT+04:30)喀布尔——亚洲_喀布尔——亚洲／喀布尔</li>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>常规——常规- 0</li>
                <li>服务退订-退订- 3</li>
-               <li>块列表——块列表- 4</li>
+               <li>黑名单——黑名单- 4</li>
                <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                <li>收购——收购-1</li>
                <li>订阅到服务-订阅- 2</li>
@@ -680,8 +680,8 @@ ht-degree: 0%
     <th>类型</th>
     </tr>
     <tr>
-    <td>文本</td>
-    <td>字符串</td>
+    <td>text</td>
+    <td>string</td>
     </tr>
 </table>
 
