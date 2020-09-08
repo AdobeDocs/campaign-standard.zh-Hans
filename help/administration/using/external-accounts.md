@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到活动实例的允许列表。 Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到实例允许列表的活动。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/sftp-management/about-sftp-management.html)。
 
