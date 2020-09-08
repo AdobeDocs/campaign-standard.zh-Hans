@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 如果您看到它，请继续下一步。
 
-否则，请与您的Adobe客户经理或专业服务合作伙伴联系。 请参 [阅激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+否则，请与Adobe客户经理或专业服务合作伙伴联系。 请参 [阅激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
 
 **尝试创建触发器**
 
 按照活动中创建 [映射触发器中所述的步骤](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) ，创建触发器。
 
-如果已创建触发器，请继续执行下一步。 否则，表示触发器端点连接失败。 检查触发器是否以Experience Cloud(激活服务)提供。 否则，请联系您的Adobe客户经理或专业服务合作伙伴。 需要以下信息：
+如果已创建触发器，请继续执行下一步。 否则，表示触发器端点连接失败。 检查触发器是否以Experience Cloud(激活服务)提供。 否则，请与Adobe客户经理或专业服务合作伙伴联系。 需要以下信息：
 
 * Marketing Cloud公司名称
 * IMS组织ID
@@ -52,17 +52,17 @@ ht-degree: 1%
 
 按照编辑事务性消息模板中 [所述的步骤](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) ，编辑和发布事务模板。 然后，测试从网站生成触发器。
 
-如果Analytics接到触发器，请继续下一步。 如果不是，请检查以下项目：
+如果Analytics收到触发器，请继续执行下一步。 如果不是，请检查以下项目：
 
-* 触发器为Analytics启用
-* 使用MCID的网站在DTM中启用Analytics
-* 创建触发器时使用正确的Analytics报告套件
+* 已为Analytics启用触发器
+* 在DTM中启用了使用MCID和Analytics的网站
+* 创建触发器时使用正确的Analytics报表包
 
 **活动是否收到触发器？**
 
 如果没有，则检查是否从管道接收到触发器。
 
-否则，请与Adobe联系以检查管线端点的配置。
+否则，联系Adobe以检查管线端点的配置。
 
 如果是，请遵循以下指南行：
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 否则，请继续下一步。 如果是，请遵循以下指南行：
 
 * 检查事务模板是否已发布。
-* 检查用户档案是否未开启阻止列表。
+* 检查用户档案是否未列入阻止列表。
 * 检查类型规则的应用。
 * 检查事务性消息日志。
 
