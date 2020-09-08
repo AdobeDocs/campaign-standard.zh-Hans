@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -47,15 +47,15 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 块列出<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> 列入阻止列表<br /> </td> 
+   <td> @已列入黑名单<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 块列出率<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> 阻止列表率<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @已列入黑名单/@已发送<br /> </td> 
    <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 退回+错误率<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -256,7 +256,7 @@ ht-degree: 1%
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 退回+错误率<br /> </td> 
+   <td> 弹回率+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -337,7 +337,7 @@ ht-degree: 1%
    <td> 独特印象<br /> </td> 
    <td> @uniqueidess<br /> </td> 
    <td> @unique(@count(status=视图)<br /> </td> 
-   <td> 对于 <span class="uicontrol">基于Target用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板Target用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于目标用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板目标用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内单击 <br /> </td> 
@@ -349,7 +349,7 @@ ht-degree: 1%
    <td> 独特的应用程序内点击<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(status=clicks))<br /> </td> 
-   <td> 对于 <span class="uicontrol">基于Target用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板Target用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于目标用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板目标用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点击率<br /> </td> 
@@ -367,7 +367,7 @@ ht-degree: 1%
    <td> 独特的应用程序内免职<br /> </td> 
    <td> @uniquecception<br /> </td> 
    <td> @unique(@count(status=close))<br /> </td> 
-   <td> 对于 <span class="uicontrol">基于Target用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板Target用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于 <span class="uicontrol">基于目标用户档案(inAppProfile)模板的活动用户</span> ，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> ，以及基于其移动用户档案( <span class="uicontrol"></span> inApp)模板目标用户，用户= MC Id或等效项，它表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内解雇率<br /> </td> 
