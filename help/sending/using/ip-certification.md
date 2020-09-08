@@ -1,6 +1,6 @@
 ---
-title: 允许Adobe Campaign Standard中的列表
-description: 了解如何通过Adobe Campaign Standard优化允许列表。
+title: 允许列表Adobe Campaign Standard
+description: 了解如何优化允许列表与Adobe Campaign Standard的。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 IP认证是一种发送最佳实践项目，有助于确保接收电子邮件时不会被防垃圾邮件过滤器或其他电子邮件拦截系统阻止。
 
-目前有两个提供商优惠IP认证： Return Path和Certified Senders Alliance。
+目前有两个提供商优惠IP认证：Return Path和Certified Senders Alliance。
 
-已验证的发件人会添加到电子邮件允许列表中，全球邮箱提供商和电子邮件安全公司会使用这些列表。 这些商业允许列表基于一个系统，该系统允许发送方完全绕过防垃圾邮件过滤器，或在他们进入系统时分配增量点。
+认证发件人列入允许列表为全球邮箱提供商和电子邮件安全公司。 这些商业允许列表过滤器基于一种系统，该系统允许发送方完全绕过防垃圾邮件，或在他们进入系统时分配增量点数。
 
 Return [Path Certification](https://www.validity.com/products/returnpath/certification/) 项目优惠了许多优势，包括：
 * 在Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru等顶级邮箱提供商的收件箱放置量显着增加
@@ -42,6 +42,6 @@ Return [Path Certification](https://www.validity.com/products/returnpath/certifi
 * 充分遵守法律标准，防范法律和财务风险
 * 通过CSA投诉办公室的早期警告和每日垃圾邮件陷阱报告保护声誉
 
-ISP可免费使用这些服务，ISP的数量可能因允许列表而异。
+ISP可免费使用这些服务，ISP的数量可能因而允许列表异。
 
 但是，由于越来越多的ISP根据每个收件箱所有者的行为而不是分析邮件内容本身来构建其防垃圾邮件过滤器，使用IP认证无法保证收件箱的放置甚至投放。
