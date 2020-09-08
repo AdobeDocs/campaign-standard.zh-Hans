@@ -1,6 +1,6 @@
 ---
-title: 关于Adobe Campaign Standard中的可交付性
-description: 了解与交付性相关的概念和最佳实践以及Adobe Campaign Standard为优化发送投放而提供的工具。
+title: 关于Adobe Campaign Standard的可交付性
+description: 了解与交付能力相关的概念和最佳实践以及Adobe Campaign Standard为优化发送投放提供的工具。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 为了优化Adobe Campaign电子邮件的可投递性，我们建议使用下面列出的最佳实践。 传送能力问题通常与互联网服务提供商和邮件服务器管理员实施的防垃圾邮件措施有关。
 
-电子邮件可发送性是指一组特征，这些特征决定了邮件在短时间内通过个人电子邮件地址到达其目的地的能力，并在内容和格式方面具有预期的质量。 这些特征分为四个主要类别: 数据质量、消息和内容、发送基础架构和声誉。 它们共同构成了成功电子邮件交付项目的基础。
+电子邮件可发送性是指一组特征，这些特征决定了邮件在短时间内通过个人电子邮件地址到达其目的地的能力，并在内容和格式方面具有预期的质量。 这些特征分为四个主要类别:数据质量、消息和内容、发送基础架构和声誉。 它们共同构成了成功电子邮件交付项目的基础。
 
 可投递率是已成功投递给收件人的已发送电子邮件数。
 以下是要检查的关键点的列表，以确保良好的交付能力。
@@ -47,7 +47,7 @@ ht-degree: 5%
 ## 交付性工具 {#deliverability-tools}
 
 首先，开始通过查阅随Campaign Standard提供的可交付性工具的相关文档：
-* [投放最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
 * [个性化发件人姓名](../../designing/using/personalization.md#personalizing-the-sender)
 * [测试电子邮件的主题行](../../sending/using/testing-subject-line-email.md)
 * [优化发送时间](../../sending/using/optimizing-the-sending-time.md)
@@ -57,7 +57,7 @@ ht-degree: 5%
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
-* [隔离与块列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [隔离与阻止列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [动态报表](../../reporting/using/about-dynamic-reports.md)
 
 ## 检查网络配置 {#network-configuration}
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 ## 发送到有效地址 {#valid-addresses}
 
-垃圾邮件发送者通常使用基于列表频繁姓名和名字的地址生成器； 此外，他们很少处理邮件服务器发送的技术通知。 无效地址的高率通常被解释为垃圾邮件的标志。 多次选择加入机制和对技术弹回消息的有效处理使避免这种情况成为可能。
+垃圾邮件发送者通常使用基于列表频繁姓名和名字的地址生成器；此外，他们很少处理邮件服务器发送的技术通知。 无效地址的高率通常被解释为垃圾邮件的标志。 多次选择加入机制和对技术弹回消息的有效处理使避免这种情况成为可能。
 
 ## 降低投诉率 {#reduce-complaint-rate}
 
