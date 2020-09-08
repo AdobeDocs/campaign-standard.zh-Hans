@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ ht-degree: 95%
 * 通过定期电子邮件以附件形式发送
 * 通过 Campaign 发送：例如，在营销策划[工作流](../../automating/using/direct-mail-delivery.md)中执行“直邮”，并添加 **[!UICONTROL Transfer file]** 以通过 FTP 发送文件。请参阅[传输文件](../../automating/using/transfer-file.md)。
 
-提供者检索错误地址的列表，并将此信息发送给Adobe Campaign，该阻止列表自动将错误地址添加到该。 请参阅[退回发件人](../../channels/using/return-to-sender.md)。
+提供者检索错误地址的列表，并将此信息发送给自动错误地阻止列表址的Adobe Campaign。 请参阅[退回发件人](../../channels/using/return-to-sender.md)。
