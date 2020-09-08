@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 94%
 
 ---
@@ -55,8 +55,6 @@ Campaign Standard中的隐私管理页面已更新，包括如何通过隐私核
 工作流用例已更新并重新组织为主题部分。[阅读更多](../../automating/using/about-workflow-use-cases.md)
 
 在如何使用控制面板和活动工作流[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)和[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)数据方面添加了用例。
-
-“白名单”和“黑名单”术语已从 Adobe Campaign 文档中删除。这些术语可能还会出现在产品 UI、选项名称和内部代码中，但将在即将发布的 Campaign 版本中替换为“阻止列表”和“允许列表”。
 
 对旧版支持网站的引用已被新URL取代。 [了解详情](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 更新了“查询活动”章节。添加了查询示例。[了解更多](../../automating/using/query.md#query-samples)
 
-专门针对阻止列表的章节已更名为“了解加入和退出流程”。 其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专用于阻止列表程序的部分已更名为“了解加入和退出流程”。 其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 了解使用 Adobe 托管 SFTP 服务器的最佳实践。[了解更多](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多](../../api/using/creating-a-privacy-request.md)
 
-添加了有关如何设置登陆页以让您的收件人能够添加到阻止列表的信息。 [了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+添加了有关如何设置登陆页以让您的收件人能够的信列入阻止列表息。 [了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 重组了[配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md)章节，并添加了一个[分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
@@ -672,7 +670,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 通过分步使用案例，重组了 **[!UICONTROL Customizing a push notification]** 章节。[了解更多](../../channels/using/customizing-a-push-notification.md)
 
-专门用于阻止列表管理的新部分。 [了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门用于管阻止列表理的新部分。 [了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 更新了有关投放失败和隔离的信息。[了解更多](../../sending/using/monitoring-a-delivery.md)
 
