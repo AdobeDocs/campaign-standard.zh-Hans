@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 ### 功能管理员{#functional-administrators}
 
 功能管理员可访问界面中技术含量最高的部分。他们承担着 **[!UICONTROL Administration]** 的角色，负责确保平台的方方面面设置妥当，可让营销人员只需专注于投放活动。
+
+>[!CAUTION]
+>
+>只有具有角色和 **[!UICONTROL Administration]** 访问所有设备的 **职能管理** 员才能访问发送日志、消息日志、跟踪日志、排除日志、主张日志和订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
 功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
