@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 在某些情况下，您要导入活动服务器的数据可能需要加密，例如，如果它包含PII数据。
 
-要能够加密传出数据或解密传入数据，您需要使用控制面板管理 [GPG密钥](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)。
+要能够加密传出数据或解密传入数据，您需要使用控制面板管理GPG [密钥](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/instances-settings/gpg-keys-management.html)。
 
 >[!NOTE]
 >
@@ -46,31 +46,31 @@ ht-degree: 1%
 * [加载文件](../../automating/using/load-file.md)
 * [提取文件](../../automating/using/extract-file.md)
 
-## 用例： 导入使用控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
+## 用例：导入使用控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
 
-在此用例中，我们将构建一个工作流，以便使用控制面板中生成的密钥导入外部系统中已加密的数据。
+在此用例中，我们将构建一个工作流，以便使用在控制面板中生成的密钥导入外部系统中已加密的数据。
 
 本节还提供了一个教程视频，其中显示了如何使用GPG密钥解密 [数据](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)。
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共／私有）。 控制面板文档中提供 [了详细步骤](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
+1. 使用控制面板生成密钥对（公共／私有）。 控制面板文档中提供了详 [细步骤](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
 
    * 公钥将与外部系统共享，外部系统将使用公钥加密要发送给活动的数据。
    * 活动将使用私钥解密传入的加密数据。
 
    ![](assets/gpg_generate.png)
 
-1. 在外部系统中，使用从控制面板下载的公钥加密要导入到Campaign Standard中的数据。
+1. 在外部系统中，使用从控制面板下载的公钥加密要导入到Campaign Standard的数据。
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
 1. 在Campaign Standard中，构建一个工作流以导入加密数据，并使用通过控制面板安装的私钥对其进行解密。 为此，我们将按如下方式构建工作流：
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** 活动: 将文件从外部源传输到活动。 在此示例中，我们希望从SFTP服务器传输文件。
-   * **[!UICONTROL Load file]** 活动: 将数据从文件加载到数据库中，并使用控制面板中生成的私钥对其进行解密。
+   * **[!UICONTROL Transfer file]** 活动:将文件从外部源传输到活动。 在此示例中，我们希望从SFTP服务器传输文件。
+   * **[!UICONTROL Load file]** 活动:将文件中的数据加载到控制面板库，然后使用在数据库中生成的私钥进行解密。
 
 1. 打开 **[!UICONTROL Transfer file]** 活动，然后根据需要配置它。 有关如何配置活动的全局概念，请参 [阅本节](../../automating/using/load-file.md)。
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >请注意，您无需指定用于解密数据的私钥。 私钥存储在控制面板中，控制面板将自动检测用于解密文件的密钥。
+   >请注意，您无需指定用于解密数据的私钥。 私钥存储在控制面板中，它将自动检测用于解密文件的密钥。
 
    ![](assets/gpg_load.png)
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 1. 您现在可以运行工作流。
 
-## 用例： 使用控制面板上安装的密钥加密和导出数据 {#use-case-gpg-encrypt}
+## 用例：使用控制面板上安装的密钥加密和导出数据 {#use-case-gpg-encrypt}
 
 在此用例中，我们将构建一个工作流，以便使用控制面板上安装的密钥加密和导出数据。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公共／私有），然后将该公钥安装到控制面板上。 控制面板文档中提供 [了详细步骤](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)。
+1. 使用GPG实用程序生成GPG密钥对（公共／私有），然后将公钥安装到控制面板上。 控制面板文档中提供了详 [细步骤](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)。
 
    ![](assets/gpg_install.png)
 
@@ -108,9 +108,9 @@ ht-degree: 1%
 
    ![](assets/gpg-workflow-export.png)
 
-   * **[!UICONTROL Query]** 活动: 在此示例中，我们要执行一个查询来目标要导出的数据库中的数据。
-   * **[!UICONTROL Extract file]** 活动: 加密数据并将其提取到文件中。
-   * **[!UICONTROL Transfer file]** 活动: 将包含加密数据的文件传输到SFTP服务器。
+   * **[!UICONTROL Query]** 活动:在此示例中，我们要执行一个查询来目标要导出的数据库中的数据。
+   * **[!UICONTROL Extract file]** 活动:加密数据并将其提取到文件中。
+   * **[!UICONTROL Transfer file]** 活动:将包含加密数据的文件传输到SFTP服务器。
 
 1. 配置活动 **[!UICONTROL Query]** 以从库目标所需数据。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
 
@@ -130,4 +130,4 @@ ht-degree: 1%
 
 1. 您现在可以运行工作流。 执行目标后，查询的数据将导出到SFTP服务器中，生成加密的。gpg文件。
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
