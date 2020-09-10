@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
@@ -98,9 +98,9 @@ ht-degree: 80%
 
 1. **创建票证** -委派子域后，Adobe需要在生产环境中设置它。 要请求此项，请 [创建一个指向客户关怀](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) (Client Care)的票证，其中包含以下信息：
 
-   * 主题： [ACS] New brand set up
+   * 主题：ACS新品牌设置
 
-   * 内容：新域已委托给Adobe，我们希望在ACS平台中设置它
+   * 内容：新域已委托给Adobe，我们希望在活动平台中设置它
 
    * 域：XXX
 
