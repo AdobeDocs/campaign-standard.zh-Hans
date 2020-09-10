@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
+source-wordcount: '6128'
 ht-degree: 94%
 
 ---
@@ -28,19 +28,23 @@ ht-degree: 94%
 
 事件事务性消息科已重新组织和澄清。 [阅读更多](../../channels/using/event-transactional-messages.md)
 
+添加了警告说明，以警告用户有关日志访问权限限制的信息。 [阅读更多](../../administration/using/users-management.md)
+
+添加了新部分以详细说明创建新品牌的过程。 [阅读更多](../../administration/using/branding.md#creating-a-brand)
+
 ## 文档更新 - 2020 年 8 月{#doc-updates-august-2020}
 
 提供了有关事务消息处理快速入门的新更新部分。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-已移动“事务消息限制”部分。 [阅读更多](../../channels/using/transactional-messaging-limitations.md)
+“事 **务消息限制** ”部分已移 [到此处](../../channels/using/transactional-messaging-limitations.md)
 
-已移动“准备发送”部分。 [阅读更多](../../sending/using/preparing-the-send.md)
+“准 **备发送** ”部分已移 [到此处](../../sending/using/preparing-the-send.md)
 
 ## 文档更新 - 2020 年 7 月{#doc-updates-july-2020}
 
 新增了一节，其中载有与Campaign Standard监测相关的准则。 [阅读更多](../../administration/using/monitoring-guidelines.md)
 
-外部API护栏和限制部分已更新。[阅读更多](../../automating/using/external-api.md#guardrails)
+外部API护栏和限制部分已更新。 [阅读更多](../../automating/using/external-api.md#guardrails)
 
 隐私管理概述页面已更新，以包含有关泰国个人数据保护法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
