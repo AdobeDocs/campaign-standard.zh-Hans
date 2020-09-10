@@ -12,11 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -44,3 +44,7 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 您还可在对应于所创建资源的屏幕中[配置导航](configuring-the-screen-definition.md)。
 
 可以&#x200B;**导出和导入**&#x200B;自定义资源，例如从开发到制作环境。有关更多信息，请参阅此[分步使用案例](../../automating/using/exporting-importing-custom-resources.md)。
+
+>[!CAUTION]
+>
+>只有具有角 [色和](../../administration/using/users-management.md#functional-administrators)访问所 **[!UICONTROL Administration]** 有单元的功能管 **理员** ，才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
