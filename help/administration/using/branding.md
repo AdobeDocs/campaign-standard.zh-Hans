@@ -13,10 +13,10 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。
+1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。在活动中获取新品牌的步骤详 [细介绍本节](#creating-a-brand)。
 1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
@@ -89,6 +89,26 @@ ht-degree: 100%
    此处定义了用于在外部系统（如 Adobe Analytics 或 Google Analytics 之类的 Web 分析工具）上跟踪链接的其他参数。
 
    ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+您可以在活动中添加新的组织实体，或创建需要在其他子域下发送的新电子邮件类型。 要执行此操作，请执行以下步骤：
+
+1. **委派新子域** -对于要由Adobe使用的任何新子域，第一步是委派它。 您可以通过活动 [控制面板执行](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ，或联系Adobe技术联系人。 在本文中进一步了 [解子域委托](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。
+
+1. **创建票证** -委派子域后，Adobe需要在生产环境中设置它。 要请求此项，请 [创建一个指向客户关怀](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) (Client Care)的票证，其中包含以下信息：
+
+   * 主题： [ACS] New brand set up
+
+   * 内容：新域已委托给Adobe，我们希望在ACS平台中设置它
+
+   * 域：XXX
+
+   * 生产URL:XXX.活动.adobe.com
+
+1. **创建投放模板** -新品牌一经推出，最佳实践是至少创建一个引用此新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
+
+1. **检查可交付性** 准则——在开始使用新域之前，应与Adobe可交付性团队讨论该策略。 例如，如果应创建新关联以在域之间拆分IP，和／或应定义加速计划，则它们有助于定义最佳实践。 在本节中进一步了解可 [交付性最佳实践](../../sending/using/about-deliverability.md)。
 
 ## 为品牌分配电子邮件{#assigning-a-brand-to-an-email}
 
