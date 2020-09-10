@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 从下 **[!UICONTROL Extension]** 拉菜单中选择 **[!UICONTROL Mobile Core]**。 然 **[!UICONTROL Experience Cloud ID]** 后在 **[!UICONTROL Data element]** 类型下拉框中。
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. 要创建Pkey数据元素，请单击 **[!UICONTROL Add data element]**。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 您的用户数据现已配置为发送至活动。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### 推送通知跟踪回发 {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
