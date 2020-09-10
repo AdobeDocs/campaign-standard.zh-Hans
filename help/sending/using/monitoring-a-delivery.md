@@ -12,18 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 86%
 
 ---
 
 
 # 监控投放{#monitoring-a-delivery}
 
-有多种方法可用于监控投放并衡量其影响：
+有几种方法可监控投放并衡量其影响。 作为功能管理员，您可以访问消息日志和投放日志。
+>[!CAUTION]
+>
+>只有具有角 [色和](../../administration/using/users-management.md#functional-administrators)访问所 **[!UICONTROL Administration]** 有单元的功能管 **理员** ，才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
 * **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
