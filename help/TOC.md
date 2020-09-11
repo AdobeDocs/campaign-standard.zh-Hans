@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 集成快速入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [ Dynamics 365 集成快速入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [在活动和Dynamics之间管理数据365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [请求集成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [配置AdobeI/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [为 Campaign 集成配置 Dynamics 365](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [映射活动自定义资源和Dynamics 365自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [使用 Dynamics 365 集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [集成护栏](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + [数据和流程管理快速入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
