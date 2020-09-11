@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ ht-degree: 0%
 >可以在相应镜像页面电子邮件渠道的配置屏幕中修改电子邮件活动的到期期间(请参 [阅有效期参数](../../administration/using/configuring-email-channel.md#validity-period-parameters))。
 
 >[!NOTE]
-对于选择退出，当在Dynamics 365中修改了选择退出属性时，如果您已选择Dynamics 365到活动或双向选择退出配置，并且您正确映射了该特定属性，该属性将反映在活动中。
+>
+>对于选择退出，当在Dynamics 365中修改了选择退出属性时，如果您已选择Dynamics 365到活动或双向选择退出配置，并且您正确映射了该特定属性，该属性将反映在活动中。
 
 ## 数据流 {#data-flows}
 
@@ -124,7 +125,8 @@ ht-degree: 0%
 活动用户档案表属性externalId必须填充Dynamics 365联系人属性contactId，以使联系人进入工作。 活动自定义实体还必须填充Dynamics 365唯一ID属性；但是，此属性可以存储在任何活动自定义实体属性（即，不必是externalId）中。
 
 >[!NOTE]
-对于自定义实体入口，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
+>
+>对于自定义实体入口，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
 
 ### 电子邮件营销事件流
 
