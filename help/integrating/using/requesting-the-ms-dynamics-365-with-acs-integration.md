@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ ht-degree: 3%
 
 对于集成数据流中的任何问题，请确保将报表包包含在问题描述中以及以下信息：
 
-* 流程所有者：工程架构师
+* **流程所有者**:工程架构师
 
-* ES进程ID: [在入门过程中提供]
+* **ES进程ID**:在入门过程中提供
 
-* 流程标题：Dynamics 365/Adobe Campaign Standard集成
+* **流程标题**:Dynamics 365/Adobe Campaign Standard集成
 
-* 问题描述： [问题说明]
+* **问题描述**:问题说明
 
 集成支持覆盖期目前为24x5(周一至周五提供，不包括Adobe假期和休息期)。
