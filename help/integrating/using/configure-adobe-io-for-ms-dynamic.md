@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
+source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -44,53 +44,51 @@ Adobe Campaign Standard-本页介绍了Microsoft Dynamics 365 [集成](../../int
 
 1. 导航到 [AdobeIO控制台](https://console.adobe.io/home#) ，然后从屏幕右上方的下拉菜单中选择您的AdobeIMS组织ID。
 
-1. 然后单击下 **[!UICONTROL Create new project]** 面的 **[!UICONTROL Quick Start]**。
+1. 然后单击 **[!UICONTROL Create new project]** 下 **[!UICONTROL Quick Start]**&#x200B;方。
 
-![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
-1. 在 **[!UICONTROL Get started with your new project]**&#x200B;下，单击 **[!UICONTROL Add API]**。
+1. 在下 **[!UICONTROL Get started with your new project]**&#x200B;面，单击 **[!UICONTROL Add API]**。
 
-![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. 选择Adobe CampaignAPI（可能需要向底部滚动），然后单击“下一步”。
+1. 选择Adobe CampaignAPI（可能需要向底部滚动）并单击 **[!UICONTROL Next]**。
 
-![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. 在下一个屏幕上，您可以选择上传您自己的公钥或让AdobeIO为您生成密钥对。 这些说明将遵循后一个选项。 如果决定让AdobeIO生成密钥对，请单击选项1;然后单击“生成密钥对”按钮。
+1. 在下一个屏幕上，您可以选择上传您自己的公钥或让AdobeIO为您生成密钥对。 这些说明将遵循后一个选项。 如果决定让AdobeIO生成密钥对，请单击选项1;然后单击该 **[!UICONTROL Generate keypair]** 按钮。
 
-![](assets/adobeIO4.png)
+   ![](assets/adobeIO4.png)
 
 1. 在下一个屏幕上，将提示您命名并选择密钥对zip文件的下载位置。
 
 下载后，您可以解压缩文件以显示公钥和私钥。 AdobeIO已将公钥应用于AdobeIO项目。 你以后需要保留你的私钥；私钥将在集成工具的预集成设置过程中使用。
 
-1. 单击“下一步”继续
+1. 单击 **[!UICONTROL Next]** 继续
 
-![](assets/adobeIO5.png)
+   ![](assets/adobeIO5.png)
 
-1. 在下一个屏幕上，您将选择要与此项目关联的产品用户档案。
+1. 在下一个屏幕上，您将选择要与此项目关联的产品用户档案。 选择标题中包含的产品用户档案:活动实例的租户ID - [!UICONTROL Administrators]
 
-1. 选择标题中包含的产品用户档案:活动实例的租户ID - [!UICONTROL Administrators] 示例：Campaign Standard-您的活动租户ID —— 管理员
+   示例：Campaign Standard-您的活动租户ID —— 管理员
 
-1. 单击 [!UICONTROL Save configured API]。
+1. 单击 **[!UICONTROL Save configured API]**.
 
-![](assets/adobeIO6.png)
+   ![](assets/adobeIO6.png)
 
-1. 在下一个屏幕上，您将看到新AdobeIO项目的详细信息。
+1. 在下一个屏幕上，您将看到新AdobeIO项目的详细信息。 单 **[!UICONTROL Add to Project]** 击屏幕左上角的，并从下 **拉框** 中选择API。
 
-1. 单击屏幕左上角的“添加到项目”，并从下拉菜单中选择“API”。
+   ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. 在下一个屏幕上，您需要选择I/O事件API，然后单击 **[!UICONTROL Next]**。
 
-1. 在下一个屏幕上，您需要选择I/O事件API，然后单击“下一步”。
+1. 在下一个屏幕上单击 **[!UICONTROL Save the configured API]**。  您将返回到项目详细信息屏幕。
 
-1. 在下一个屏幕上，单击“保存已配置的API”。  您将返回到项目详细信息屏幕。
+1. 现在 **[!UICONTROL Add to Project]** 单击屏幕左上角的，并从下 **拉框** 中选择API，就像之前一样。
 
-1. 现在，单击屏幕左上角的“添加到项目”，并从下拉菜单中选择“API”，就像之前一样。
+1. 在下一个屏幕上，您需要选择I/O管理API并单击 **[!UICONTROL Next]**。
 
-1. 在下一个屏幕上，您需要选择I/O管理API并单击“下一步”。
-
-1. 在下一个屏幕上，单击“保存已配置的API”。
+1. 在下一个屏幕上单击 **[!UICONTROL Save the configured API]**。
 
 活动中的预集成设置现已完成。  继续完 [成Microsoft Dynamics 365的预集成设置](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 
