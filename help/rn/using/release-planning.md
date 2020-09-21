@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
+source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 98%
@@ -46,7 +46,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2020年9月21日至22日<br /> </td>
+   <td>2020年9月21日至23日<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
