@@ -13,7 +13,7 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-利用 **[!UICONTROL SMS delivery]** 活动，可在工作流中配置发送短信。这可以是只发送一次的&#x200B;**单次发送**&#x200B;短信，也可以是&#x200B;**定期**&#x200B;短信。
+利用 **[!UICONTROL SMS delivery]** 活动，可在工作流中配置发送短信。这可以是只发送一次的单次发送短信，也可以是定期短信。
 
-单次发送短信是标准短信，只发送一次。
-
-而利用定期短信，则会在定义的时间段内多次向不同目标发送同一短信。您可以按时段聚合投放，以获得对应于您需求的报告。
+* **单次发送短信是标准短信，只发送一次。**
+* **而利用定期短信，则会在定义的时间段内多次向不同目标发送同一短信。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
 
 ## 使用环境{#context-of-use}
 
