@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 # 配置移动应用程序{#configuring-a-mobile-application}
 
-## 使用Adobe Experience PlatformSDK配置移动应用程序 {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -70,10 +70,6 @@ ht-degree: 7%
 
 ## 从Launch技术工作流程同步移动应用程序AEPSDK {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->此功能是20.3版Adobe Campaign中的测试版功能。您需要向Adobe客户服务中心(直接或通过Adobe联系人)提交票证，以便在Adobe Campaign实例中启 **[!UICONTROL sync Mobile app AEPSDK from Launch]** 用技术工作流程。
-
 在Experience Platform Launch中创建和配置移动属性后，技 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 术工作流现在将同步在Adobe Campaign Standard导入的Adobe启动移动属性。
 
 默认情况下，技术工作流每15分钟开始一次。 如果需要，可以手动重新启动它：
@@ -95,9 +91,9 @@ ht-degree: 7%
 
 要在活动中使用Experience Platform Launch移动属性，您还需要在Adobe Campaign中配置此属性。 在Adobe Campaign中，确保IMS用户是标准用户和管理员产品用户档案的一部分。
 
-对于启用了“从启动项同步移动应用程序AEPSDK”技术工作流功能标志的用户，您需要等待技术工作流运行并将Launch移动属性同步到Adobe Campaign。 然后，您可以在Adobe Campaign中配置它。
+您需要等待技术工作流程运行，并将Launch移动属性同步到Adobe Campaign。 然后，您可以在Adobe Campaign中配置它。
 
-有关从Launch技术工作流功能标志同步移动应用程序AEPSDK的更多信息，请参阅此 [部分](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
+有关从Launch中同步移动应用程序AEPSDK的更多信息，请参阅此 [部分](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 
 >[!NOTE]
 >
