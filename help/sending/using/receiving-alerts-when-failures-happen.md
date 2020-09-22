@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -261,7 +261,7 @@ The **Delivery alerting** feature is an alert management system that enables a g
 
    出现警报的可 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 能原因包括：
 
-   * 收件人是列入阻止列表的，这意味着他们不再希望被联系。
+   * 收件人会添加到阻止列表中，这意味着他们不再希望联系。
    * 收件人的电子邮件地址不存在。
    * 收件人的域不存在。
    * 收件人服务器正在阻止投放。
