@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    * **[!UICONTROL Email rendering]**：选择此选项可根据定向的收件箱测试接收消息的方式。有关更多信息，请参见[电子邮件渲染](../../sending/using/email-rendering.md)。
    * **[!UICONTROL Proof]**：选择此选项，可在将消息发送到主目标之前对消息进行测试。校样收件人负责审阅投放，检查投放的内容和格式。
    * **[!UICONTROL Proof + Email rendering]**：此选项是前两个选项的组合。
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ ht-degree: 100%
 **相关主题：**
 
 * [发送测试、准备和发送电子邮件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)视频
-* [使用定向的用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)。
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+* [使用目标用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)
+* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
 * [预览消息](../../sending/using/previewing-messages.md)
 * [配置电子邮件渠道](../../administration/using/configuring-email-channel.md)
