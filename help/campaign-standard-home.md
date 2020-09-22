@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 80%
+source-wordcount: '227'
+ht-degree: 74%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 80%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 新增功能
+
+* **[对照组](sending/using/control-group.md)**<br/>通过排除活动的一部分来衡量其影响
 
 * **[以AI为后盾的电子邮](sending/using/predictive.md)**<br/>件利用以AI为后盾的电子邮件优化设计和投放
 
