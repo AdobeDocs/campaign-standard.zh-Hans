@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-利用 **[!UICONTROL Direct mail delivery]** 活动，可配置和准备包含要用于直邮营销策划之用户档案数据的文件。这可以是只发送一次的直邮，也可以是&#x200B;**定期**&#x200B;直邮。
+利用 **[!UICONTROL Direct mail delivery]** 活动，可配置和准备包含要用于直邮营销策划之用户档案数据的文件。这可以是只发送一次的直邮，也可以是定期直邮。
 
-标准直邮仅发送一次。
-
-而利用定期邮件，则可在定义的时间段内多次向不同目标发送同一直邮。您可以按时段聚合投放，以获得对应于您需求的报告。
+* **标准直邮仅发送一次。**
+* **而利用定期邮件，则可在定义的时间段内多次向不同目标发送同一直邮。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
 
 ## 使用环境{#context-of-use}
 
