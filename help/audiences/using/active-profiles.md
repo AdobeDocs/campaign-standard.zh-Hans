@@ -12,10 +12,10 @@ discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 19%
+source-wordcount: '310'
+ht-degree: 5%
 
 ---
 
@@ -26,10 +26,23 @@ Adobe Campaign提供一个报告，其中显示活动用户档案的数量。 �
 
 ![](assets/audience_active_profiles1.png)
 
-技术 **[!UICONTROL Billing]** 工作流每月生成一份报告，其中包含过去12个月滚动期间目标的活动用户档案数。
+>[!NOTE]
+>
+>如果您托管在AWS上，并使用构建10368中的Campaign Standard，您还可以直接从控制面板监视实例上使用的活动用户档案数。 For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>
+>请注意，活动用户档案量度仅对Marketing实例可 **用且相** 关。 它不适用于执行实例，也不适用于MID（中间采购）和RT（消息中心／实时消息）实例。
 
-在投放准备期间（类型规则，隔离）被排除在外的用户档案不包含在內。被多个投放项目定位的用户档案只被计算一次。在报表底部，您将找到每个定位维度的活动用户档案列表。
+
+在投放准备过程中排除的用户档案(类型规则、隔离、对照组)不予考虑。 被多个投放项目定位的用户档案只被计算一次。在报表底部，您将找到每个定位维度的活动用户档案列表。
+
+此报告每月由技术工作流 **[!UICONTROL Billing]** 生成。 它包含过去12个月滚动期间目标的活动用户档案数。
+
+请注意，在投放准备过程中排除的用户档案(类型规则、隔离)不会被考虑在内。 此外，一个被几个用户档案所瞄准的投放只计一次。
 
 ![](assets/audience_active_profiles2.png)
 
-如果您托管在AWS上，并使用构建10368中的Campaign Standard，您还可以直接从控制面板监视实例上使用的活动用户档案数。 有关此问题的详细信息，请参 [阅控制面板文档](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+在报表底部，您将找到开单工作流处理的有效用户档案的列表:
+
+* 来 **[!UICONTROL NmsRecipient]** 源包括使用Campaign Standard用户档案中的信息联系的所有客户。
+
+* 另一方面，仅使用特定信息（电子邮件地址、电话号码）而与活动用户档案无关的客户将归入来源 **[!UICONTROL anonymous]** 中。
