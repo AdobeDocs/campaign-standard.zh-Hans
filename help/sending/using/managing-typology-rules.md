@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 1. 控制规则（如果在开始定向时应用）。
 1. 筛选规则：
 
-   * 地址资格的本机应用规则：已定义的地址／未验证的地列入阻止列表址／已的地址／隔离的地址／地址质量。
+   * 地址资格的本机应用规则：定义的地址／未验证的地址/阻止列表地址／隔离地址／地址质量。
    * 筛选用户定义的规则。
 
 1. 控制规则（如果在定向结束时应用）。
