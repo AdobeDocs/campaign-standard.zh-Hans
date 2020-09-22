@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 10%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ## 兼容的浏览器{#compatible-browsers}
 
-Adobe Campaign标准版兼容大多数计算机浏览器以及平板电脑的主要操作系统。
+Adobe Campaign Standard与大多数计算机浏览器以及平板电脑的主要操作系统兼容。
 
-Adobe Campaign标准版仅支持平板电脑上的横向显示模式。
+Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
 
-以下是与列表标准兼容的浏览器的Adobe Campaign:
+以下是与Adobe Campaign Standard兼容的浏览器的列表:
 
 **计算机：**
 
@@ -39,7 +42,7 @@ Adobe Campaign标准版仅支持平板电脑上的横向显示模式。
 * iOS（版本7及更高版本）
 * Android（4.4版和更高版本）
 
-## Campaign Standard网络端点 {#campaign-standard-network-endpoints}
+## Campaign Standard 网络端点 {#campaign-standard-network-endpoints}
 
 以下是Campaign Standard中使用的不同端点。
 
@@ -49,7 +52,6 @@ Adobe Campaign标准版仅支持平板电脑上的横向显示模式。
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 跟踪 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| 适用于图像编辑器的Creative SDK | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | 资产集成 | `https://*.marketing-assets.adobe.com` |
 | 内部Adobe服务 | `https://*.adobe.io` |
 | 调查 | `https://adobe.allegiancetech.com` |
