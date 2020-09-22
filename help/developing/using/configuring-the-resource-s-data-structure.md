@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ ht-degree: 100%
    * **[!UICONTROL 1 cardinality simple link]**：源表格的一个存在最多可以拥有目标表格的一个对应存在。
    * **[!UICONTROL N cardinality collection link]**：源表格的一个存在可以拥有目标表格的多个对应存在，但目标表格的一个存在最多可以具有源表格的一个对应存在。
    * **[!UICONTROL 0 or 1 cardinality simple link]**：源表格的一个存在最多可以拥有目标表格的一个或零个对应存在。请注意，这种类型的 **[!UICONTROL Link type]** 可能导致性能问题。
+
    ![](assets/schema_extension_29.png)
 
 1. 在 **[!UICONTROL New link]** 屏幕中，**[!UICONTROL Label]** 和 **[!UICONTROL ID]** 字段默认已填写，但您可以编辑它们。
@@ -161,8 +162,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >最多使用 30 个字符。
-
-   >[!IMPORTANT]
    >
    >创建后无法重命名链接。要重命名链接，必须删除该链接并重新创建链接。
 
@@ -178,6 +177,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Use the primary key to make the join]**：利用此连接定义，可使用用户档案主键与购买的主键进行协调。
    * **[!UICONTROL Define specific join conditions]**：利用此连接定义，可手动选择将连接两个资源的字段。请注意，如果数据配置不正确，则不会显示&#x200B;**购买**&#x200B;记录。
+
    ![](assets/schema_extension_17.png)
 
 创建的链接将显示在 **[!UICONTROL Links]** 部分的列表中。
