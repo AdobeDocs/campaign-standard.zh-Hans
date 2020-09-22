@@ -12,38 +12,41 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 
-# Campaign 电子邮件设计工具{#designing-content-in-adobe-campaign}
+# Campaign Email Designer{#designing-content-in-adobe-campaign}
 
 在Adobe Campaign中创建电子邮件后，您需要定义其内容。
 
-电子邮件设计器使您能够通过由本机Creative Cloud集成增强的拖放界面创建引人注目的、单独定制的电子邮件。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
+电子邮件设计器使您能够通过拖放界面创建引人注目的单独定制电子邮件，并通过本机Creative Cloud集成加以增强。 无论您是从空白的白板开始，还是利用现有内容片段或模板，设计并优化每封电子邮件的所有内容，无论是促销还是交易。
 
-电子邮件设计器旨在提供针对响应式设计而优化的HTML，它允许您通过用户界面轻松定义可视性条件和动态内容并直接将其应用到电子邮件、模板或片段。 只需单击按钮，即可在拖放界面和HTML代码之间无缝切换。
+电子邮件设计器旨在提供为响应式设计而优化的HTML，它允许您通过用户界面轻松定义可视性条件和动态内容并将它们直接应用于电子邮件、模板或片段。 只需单击按钮，即可在拖放界面和HTML代码之间无缝切换。
 
-电子邮件设计器允许您创建电子邮件内容和电子邮件内容模板。 它兼容简单的电子邮件、交易电子邮件、A/B测试电子邮件、多语言电子邮件和重复电子邮件。
+电子邮件设计器允许您创建电子邮件内容和电子邮件内容模板。 它兼容简单的电子邮件、交易电子邮件、A/B测试电子邮件、多语言电子邮件和重复的电子邮件。
 
-要开始使用电子邮件设计器，请观看 [这组视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) ，其中解释了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件。
+要开始使用电子邮件设计器，请观 [看这组视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) ，它们解释了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * 要了解如何创建电子邮件内容，请参 [阅电子邮件设计人员入门](../../designing/using/quick-start.md)。
-* 有关电子邮件设计器的概述，请参阅 [使用电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)。
+* 有关电子邮件设计器的概述，请参 [阅使用电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 有关构建内容的更多信息：
-   * 从头开始，请参阅 [从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
-   * 使用现有内容，请参阅 [使用现有内容进行设计](../../designing/using/using-existing-content.md)。
-   * 使用Creative Cloud集成，请参阅多 [解决方案电子邮件设计](../../designing/using/using-integrations.md)。
+   * 请从头开始，参 [阅从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
+   * 使用现有内容，请参 [阅使用现有内容设计](../../designing/using/using-existing-content.md)。
+   * 使用Creative Cloud集成，请参 [阅多解决方案电子邮件设计](../../designing/using/using-integrations.md)。
 * 有关个性化的更多信息，请参 [阅个性化](../../designing/using/personalization.md)。
 
 创建电子邮件时，您可以选择使用预定义的模板或从其他源加载现有内容。 请参 [阅选择现有内容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
 
 要提高营销活动的效率，请个性化您的内容。 请参 [阅插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)[和添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 
-您还可以定义因每个用户档案而异的动态内容。 请参 [阅在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [在登陆页中定义动态内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
+您还可以定义因每个用户档案而异的动态内容。 请参 [阅在电子邮件中定义动态内](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)[容和在登陆页中定义动态内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
 
 通过链接和图像增强您的消息和登陆页。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)[和插入图像](../../designing/using/images.md#inserting-images)。
 
@@ -55,7 +58,7 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ![](assets/email_designer_overview.png)
 
-从调色板 **(1)中可用的元素，将结构组件和内容片段拖放到主** Workspace **** (2)中。 在 **Workspace** (2)中选择一个组件或元素，并从“设置”窗格(3)中自定义其主要样式 **和显示特征** 。
+从组件面板(1) **中** ，将结构组件和内容片段拖放到主工 **作区** (2)中。 在Workspace(2)中选择一个组 **件** 或元素，并从“设置”窗格(3)中自定 **义其主样** 式和显示特征。
 
 从主工具栏(4)访问更多常规 **选项** 和设置。
 
@@ -65,11 +68,11 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ![](assets/email_designer_toolbar.png)
 
-编辑 **器界面的上下文工具栏** ，根据所选区域优惠各种功能。 它包含允许您更改文本样式的操作按钮和按钮。 执行的修改始终适用于所选区域。
+编辑 **器界面的** “上下文”工具栏会根据所选区域优惠各种功能。 工具栏中包含操作按钮和用于更改文本样式的按钮。执行的修改始终应用于所选区域。
 
 ### 电子邮件设计人员主页 {#email-designer-home-page}
 
-创建 [电子邮件时](../../channels/using/creating-an-email.md)**[!UICONTROL Email Designer]** ,主页会在选择电子邮件内容时自动显示。
+创 [建电子邮件](../../channels/using/creating-an-email.md),主页 **[!UICONTROL Email Designer]** 会在选择电子邮件内容时自动显示。
 
 ![](assets/email_designer_home_page.png)
 
@@ -77,7 +80,7 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ![](assets/email_designer_home_properties.png)
 
-该选 **[!UICONTROL Templates]** 项卡允许您从现成的HTML内容或您已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+该 **[!UICONTROL Templates]** 选项卡允许您从现成的HTML内容或已创建的模板中进行选择，以快速开始设计电子邮件。 请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
@@ -85,7 +88,7 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ![](assets/email_designer_home_support.png)
 
-如果不选择模板，“电子邮件设计器”主页还允许您选择开始设计内容的方式：
+如果不选择模板，您还可以通过电子邮件设计器主页选择开始设计内容的方式：
 
 * 单击按 **[!UICONTROL Create]** 钮以从头开始开始新内容。 请参 [阅从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 * 单击该 **[!UICONTROL Upload]** 按钮可从您的计算机上传文件。 请参 [阅从文件导入内容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
@@ -99,58 +102,58 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 **结构组件**:定义电子邮件布局的结构元素。
 
-**内容组件**:内容组件是原始的空组件，放置到电子邮件中后，您可以编辑这些组件。
+**内容组件**:内容组件是原始的空组件，放置到电子邮件中后，即可编辑这些组件。
 
 ## 内容设计最佳实践 {#content-design-best-practices}
 
-为了合理使用电子邮件设计器并尽可能简单地创建最佳电子邮件，我们建议应用以下原则：
+为了正确使用电子邮件设计器并尽可能简单地创建最佳电子邮件，我们建议应用以下原则：
 
-* 在HTML的&lt;head>部分中，使用内联样式，而不是单独的CSS和CSS。 通过使用内联样式，您可以优化内容片段的保存和重用。
+* 在HTML的&lt;head>部分使用内联样式，而不是单独的CSS和CSS。 通过使用内联样式，您可以优化内容片段的保存和重用。
 
-   请参阅 [添加内联样式属性](../../designing/using/styles.md#adding-inline-styling-attributes)。
+   请参 [阅添加内联样式属性](../../designing/using/styles.md#adding-inline-styling-attributes)。
 
 * 如果导入包含HTML内容的ZIP文件，请使用常规CSS。 不支持SCSS样式表。
 
-* 通过创建和重用内容片段来保持营销活动的一致性，轻松解决品牌问题。
+* 通过创建和重用内容片段来保持营销活动的一致性，轻松实现品牌定位。
 
    请参 [阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
-* 编辑电子邮件 **内容时**:
+* 编辑电子邮 **件内容时**:
 
-   预览您的消息，然后发送。 Adobe Campaign优惠一种使用Litmus测试电子邮件呈现的方法。 有关此内容的详细信息，请参阅电 [子邮件渲染](../../sending/using/email-rendering.md)。
+   在发送邮件前预览您的邮件。 Adobe Campaign优惠使用Litmus测试电子邮件渲染的方法。 有关此方面的详细信息，请参阅电 [子邮件渲染](../../sending/using/email-rendering.md)。
 
-以下Adobe Campaign分步指南介绍了更多有关消息的设计和一般最佳实践： [投放最佳实践与Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
+以下部分介绍了有关消息的更多设计和一般最佳实践： [投放最佳实践](../../sending/using/delivery-best-practices.md)。
 
 ### 更新片段 {#email-designer-updates}
 
-电子邮件设计人员正在不断改进。 如果您从头开始、从现成模板创建电子邮件内容，或者如果您创建了片段，则您下次打开内容时可能会收到以下更新消息：
+电子邮件设计人员正在不断改进。 如果您从头开始、从现成模板创建电子邮件内容，或者如果您创建了片段，则下次打开内容时可能会收到以下更新消息：
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建议将您的内容更新到最新版本，以避免CSS冲突问题等问题。 单击 **[!UICONTROL Update now]**.
+Adobe建议将内容更新到最新版本，以避免CSS冲突问题等问题。 单击 **[!UICONTROL Update now]**.
 
 如果内容更新期间发生错误，请检查HTML并修复它，然后再次运行此更新。
 
 在涉及片段时，请注意以下事项：
 
-* 如果要向新电子邮件或模板中添加片段，并且如果收到此消息，则需要先更新此片段。
+* 如果要向新电子邮件或模板添加片段，并且如果收到此消息，则需要先更新此片段。
 
 * 如果您有多个片段，则必须更新要在电子邮件内容中使用的每个片段。
 
-* 为避免对当前尚未准备的电子邮件产生影响，您可以选择不更新某些片段。
+* 为避免影响尚未准备的当前电子邮件，您可以选择不更新某些片段。
 
-* 您仍可以发送电子邮件，其中已使用未更新的片段，但该片段不可编辑。
+* 您仍可以发送电子邮件，其中已经使用了未更新的片段，但该片段不可编辑。
 
 * 更新已准备好的电子邮件中使用的片段对这些电子邮件没有影响。
 
-## 电子邮件设计人员限制 {#email-designer-limitations}
+## 电子邮件设计器限制 {#email-designer-limitations}
 
-* 不能在片段中使用个性化字段。 有关片段的详细信息，请参 [阅此部分](../../designing/using/using-reusable-content.md#about-fragments)。
+* 不能在片段中使用个性化字段。 For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
-* 编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
-* 样式无法保存为主题以供将来重用。 但是，CSS样式可保存在内容模板或电子邮件中。 有关样式的更多信息，请参 [阅此部分](../../designing/using/styles.md)。
+* 在编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
+* 无法将样式保存为主题以供将来重用。 但是，CSS样式可保存在内容模板或电子邮件中。 For more on styles, see [this section](../../designing/using/styles.md).
 
 **相关主题**
 
