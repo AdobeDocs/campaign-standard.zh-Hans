@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 2%
 
 * **[!UICONTROL Save SQL queries in the log]**:允许您将工作流中的SQL查询保存到日志中。
 
-* **[!UICONTROL Keep interim results]**:如果要视图过渡的详细信息，请选中此选项。 警告：选中此选项可能会显着减慢工作流执行速度。
+* **[!UICONTROL Keep interim results]**:如果要视图过渡的详细信息，请选中此选项。
+
+   >[!CAUTION]
+   >
+   >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:允许您在本地执行工作流，以便进行开发环境测试。
 
