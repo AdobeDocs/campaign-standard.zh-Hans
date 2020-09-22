@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ ht-degree: 0%
 
 由于Dynamics 365和活动之间的选择退出属性存在差异，以及每个客户的业务要求存在差异，因此选择退出映射已被留作客户完成的一项练习。  务必确保在系统之间正确映射退出功能，以便最终用户选择退出首选项得以保持，并且他们不会通过已选择退出的渠道接收通信。
 
-请注意，只有具有“活动”前阻止列表缀（例如blockListEmail）或CCPA选择退出的特定属性的属性才能用于选择退出映射。  在Dynamics 365中，大多数选择退出字段带有“donot”前缀；但是，如果数据类型兼容，您也可以使用其他属性进行退出。
+请注意，只有带有“不再通过电子邮件联系”前缀的活动属性（例如，不再通过电子邮件联系）或CCPA选择退出的特定属性才能用于选择退出映射。 [了解详情](../../developing/using/datamodel-profile.md).
+在Dynamics 365中，大多数选择退出字段带有“donot”前缀；但是，如果数据类型兼容，您也可以使用其他属性进行退出。
 
 设置集成时，您将有机会指定您的企业需要的退出配置：
 
