@@ -2,10 +2,10 @@
 title: 使用复合标识关键码调用资源
 description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 6%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 * [定义标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign StandardREST API](../../api/using/get-started-apis.md)
 
-## 第1步： 配置标识密钥{#step-1-configure-the-identification-key}
+## 第1步：配置标识密钥{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 配置标识密钥时的全局概念在本节中 [有详细介绍](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
@@ -39,7 +39,7 @@ ht-degree: 6%
 
    ![](assets/uc_idkey1.png)
 
-1. 在部分 **[!UICONTROL Identification keys]** 中，单击该 **[!UICONTROL Create element]** 按钮。
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 1. 您现在可以配置筛选器定义，以便能够使用其标识密钥调用资源。
 
-## 第2步： 配置筛选器定义{#step-2-configure-the-filter-definition}
+## 第2步：配置筛选器定义{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > 配置筛选器定义时的全局概念在本节中 [有详细介绍](../../developing/using/configuring-filter-definition.md)。
@@ -76,7 +76,7 @@ ht-degree: 6%
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > 单击加号按钮后，将自动生成参数的名称。 请注意此信息，因为您需要它才能使用API中的筛选器。
+   > 单击+按 **钮** 后，将自动生成参数的名称。 请注意此信息，因为您需要它才能使用API中的筛选器。
 
 1. 对构成标识键的所有字段重复上述步骤(“类别”)，然后保存更改。
 
@@ -84,7 +84,7 @@ ht-degree: 6%
 
 1. 现在已配置筛选器定义。 您可以发布资源，以便筛选器可用。
 
-## 第3步： 根据资源的标识密钥调用资源{#step-3-call-the-resource-based-on-its-identification-key}
+## 第3步：根据资源的标识密钥调用资源{#step-3-call-the-resource-based-on-its-identification-key}
 
 一旦配置了标识密钥及其筛选器定义，您就可以使用它们从活动标准接口或REST API调用资源。
 
