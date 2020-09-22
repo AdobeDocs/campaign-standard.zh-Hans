@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 18%
+source-wordcount: '664'
+ht-degree: 17%
 
 ---
 
@@ -134,7 +134,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK 已停用。因此，从活动20.2版开始，Campaign Standard电子邮件中不再提供以Creative SDK为后盾的图像版本。</p></br>
+   <td> <p>[!DNLAdobeCreative SDK]已停用。 因此，从活动20.2版本开始，Campaign Standard电子邮件中由[!DNL Creative SDK]提供支持的图像版本不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 
