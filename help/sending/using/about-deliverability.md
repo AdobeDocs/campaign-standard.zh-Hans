@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 6%
@@ -57,7 +57,7 @@ ht-degree: 6%
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
-* [隔离与阻止列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [隔离与阻止列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [动态报表](../../reporting/using/about-dynamic-reports.md)
 
 ## 检查网络配置 {#network-configuration}
