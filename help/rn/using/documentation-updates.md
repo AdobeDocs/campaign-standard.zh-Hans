@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
+
+## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
+
+**此版本中包含的新功能**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+外部API（OAuth支持）-阅 [读更多](../../automating/using/external-api.md)
+
+旅程AI集成——阅 [读更多](../../sending/using/predictive.md)
+
+**随版本提供的其他文档更新**
+
+有关如何使用外部参数调用工作流的部分已通过表达式编辑器中提供的新功能进行了丰富。 [阅读更多](../../automating/using/customizing-workflow-external-parameters.md)
+
+已向工作流最佳实践中添加了建议，内容涉及每个工作流要使用的活动数。 [阅读更多](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## 文档更新 - 2020 年 9 月{#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ ht-degree: 94%
 添加了新部分以详细说明创建新品牌的过程。 [阅读更多](../../administration/using/branding.md#creating-a-brand)
 
 新的Campaign Standard- Microsoft Dynamics 365集成现已推出。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+已在活动用户档案报告中为匿名源添加信息。 [阅读更多](../../audiences/using/active-profiles.md)
 
 ## 文档更新 - 2020 年 8 月{#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 ## 文档更新 - 2019 年 11 月{#doc-updates-november-2019}
 
-新增了一个使用案例，描述如何使用 Campaign Standard 中的工作流构建对照组。[了解更多](../../automating/using/workflow-control-group.md)
+新增了一个使用案例，描述如何使用 Campaign Standard 中的工作流构建对照组。
 
 与登陆页面属性有关的信息已移入专述章节。[了解更多](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 在“推送通知”章节中新增了一节，介绍如何根据移动应用程序的订阅数据创建和更新用户档案信息。[了解更多](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-新增了一个示例，展示如何发送包含（检索自加载文件活动）附加数据的电子邮件。[了解更多](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+新增了一个示例，展示如何发送包含（检索自加载文件活动）附加数据的电子邮件。[了解更多](../../automating/using/sending-email-enriched-fields.md)
 
 新增了关于如何使用陷阱的章节。[了解更多](../../sending/using/using-traps.md)。
 
@@ -466,7 +484,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 添加了新章节，介绍如何通过复制粘贴操作，复制工作流活动。[了解更多](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-添加了关于查询（[了解更多](../../automating/using/query.md)）和分段（[了解更多](../../automating/using/segmentation.md)）活动中新选项的信息，利用该选项，可在活动后添加叫客过渡（如果未检索到数据）。
+添加了关于查询（[了解更多](../../automating/using/query-samples.md)）和分段（[了解更多](../../automating/using/segmentation.md)）活动中新选项的信息，利用该选项，可在活动后添加叫客过渡（如果未检索到数据）。
 
 在“更新数据活动”章节增加了关于“批次大小”字段的信息，利用该字段可定义上传数据的批次大小上限。[了解更多](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push n
 
 更新了准备投放角色定义。[了解更多](../../administration/using/list-of-roles.md)
 
-为“查询活动”章节添加了一个示例，介绍如何定向单击了投放中特定链接的用户档案。[了解更多](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+为“查询活动”章节添加了一个示例，介绍如何定向单击了投放中特定链接的用户档案。[了解更多](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 在 API 文档中添加了关于&#x200B;**自定义过滤器**&#x200B;的章节。[了解更多](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多](../../api/using/creating-a-privacy-request.md)
 
-添加了有关如何设置登陆页以让您的收件人能够的信列入阻止列表息。 [了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+添加了有关如何设置登陆页以让您的收件人能够进行的信阻止列表息。 [了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 重组了[配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md)章节，并添加了一个[分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
@@ -658,7 +676,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 更新了 **[!UICONTROL Working with typologies]** 章节，改善了可见性。[了解更多](../../sending/using/about-typology-rules.md)
 
-现在提供了一个新选项，利用该选项可更方便地定义 **[!UICONTROL Query]** 中的诸多附加数据。[了解更多](../../automating/using/query.md)
+现在提供了一个新选项，利用该选项可更方便地定义 **[!UICONTROL Query]** 中的诸多附加数据。[了解更多](../../automating/using/query-samples.md)
 
 更新了用户档案导入示例，提供了一些关于如何让用户档案准备接收直邮的提示。[了解更多](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 添加了关于如何使用短信自动回复的分步使用案例。[了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-添加了关于如何在定期工作流中根据用户时区发送投放的信息。[了解更多](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+添加了关于如何在定期工作流中根据用户时区发送投放的信息。[了解更多](../../automating/using/recurring-push-notifications.md)
 
 通过分步使用案例，重组了 **[!UICONTROL Customizing a push notification]** 章节。[了解更多](../../channels/using/customizing-a-push-notification.md)
 
