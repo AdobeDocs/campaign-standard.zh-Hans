@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 有关推送或应用程序内的更多信息，请参阅以下常见问题解答：
 
 * [推送通知常见问题解答](../../channels/using/about-push-notifications.md#push-faq)
-* [应用程序内常见问题解答](../../channels/using/about-push-notifications.md#in-app-faq)
+* [应用程序内常见问题解答](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [与Launch技术工作流程同步常见问题解答](../../administration/using/syncwithlaunch-faq.md)
 
 ## 开始前的有用资源 {#resource-mobile-property}
