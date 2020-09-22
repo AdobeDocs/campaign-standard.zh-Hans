@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
    * 该操 **[!UICONTROL Remove from quarantine]** 作会从用户档案中删除隔离电话号码。
    * 该 **[!UICONTROL None]** 操作允许您仅向收件人发送消息，而不携带操作。
 
-   例如，在以下配置中，如果收件人发送关键字“STOP”，他们将自动收到退订确认，其电话号码将发送到状态为“STOP”的隔离 **[!UICONTROL Denylisted]** 。 此状态仅指电话号码，用户档案被列入阻止列表，以便用户继续接收电子邮件。
+   例如，在以下配置中，如果收件人发送关键字“STOP”，他们将自动收到退订确认，其电话号码将发送到状态为“STOP”的隔离 **[!UICONTROL On denylist]** 。 此状态仅指电话号码，用户档案是这样用户继续接收电子邮件。
 
    ![](assets/sms_mo.png)
 
