@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '613'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 创建活动或消息时，可以指定投放的目标，方法是从活动库的联系人中选择，使用简单或高级条件，或选择受众。
 
-使用集成的客户用户档案和自定义细分，在所有渠道 **中更有效地** 识别 **客户的身份**。 了解客户、兴趣、人口统计和渠道偏好后，创建引人注目的个性化体验会更轻松。
+使用集成的客户用户档案、自定义细分和渠道, **在所有对照组中**&#x200B;更有效地 **** 识别客户，并 **使**&#x200B;其能够更有效地识别客户。 了解客户、兴趣、人口统计和渠道偏好后，创建引人注目的个性化体验会更轻松。
 
 Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户偏好的变化提供更相关、更个性化的优惠。 此外，Adobe Campaign集成了高级分析、数据管理和定位功能，以构建受众。
 
@@ -57,6 +57,7 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 * [扩充 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
 * [关于受众](../../audiences/using/about-audiences.md)
 * [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [添加对照组](../../sending/using/control-group.md)
 
 ## 许可和同意 {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 在本文中进一 [步了解](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html) “隐私管理”以及我们为管理访问权、被遗忘权、同意权、数据保留和用户角色提供的功能。
 
-本节介绍活动中的隐私和同意以及如何管 [理它们](../../start/using/privacy.md)。
-
-您还会找到最佳实践，以帮助您在使用我们的服务时遵守隐私。
+本节介绍活动中的隐私和同意以及如何管 [理它们](../../start/using/privacy.md)。 您还会找到最佳实践，以帮助您在使用我们的服务时遵守隐私。
 
 ## 其他资源
 
