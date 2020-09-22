@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 85%
 
 ---
 
@@ -78,6 +78,13 @@ ht-degree: 100%
 >[!NOTE]
 >
 >许可协议中列出了可用渲染的数量。启用了 **Email rendering** 的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
+>
+>令牌帐户用于每个呈现，而非整个电子邮件呈现报告，这意味着：
+>
+>**每次生成** “收件箱”呈现报告时，都会扣除每个消息客户端的一个令牌：一个用于Outlook 2000渲染的令牌，一个用于Outlook渲染，一个用于Apple Mail渲染，依此类推。
+>
+>**对于同一投放**，如果再次生成电子邮件渲染，则可用令牌的数量将再次减少为生成的渲染数量。
+
 
 报告摘要可显示已接收的消息数量、无用的（垃圾邮件）消息数量、未接收的消息数量或待接收的消息数量。
 
