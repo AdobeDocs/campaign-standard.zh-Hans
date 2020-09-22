@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 15%
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 发送验证使您能够检查退出链接、镜像页面和任何其他链接、验证消息、验证图像是否显示、检测可能的错误等。 您可能还希望检查在不同设备上的设计和渲染。
 
-了解更多[[在本节中](../../sending/using/sending-proofs.md)。
+在本节 [中了解更多](../../sending/using/sending-proofs.md)。
 
 ## 设置A/B测试投放 {#a-b-testing-deliveries}
 
