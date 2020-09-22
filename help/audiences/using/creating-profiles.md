@@ -12,10 +12,10 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # 创建用户档案{#creating-profiles}
 
 Adobe Campaign 默认使用用户档案来定义消息的主目标。
+
+>[!NOTE]
+>
+>也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles.md)。
 
 要在 Campaign 中创建或更新用户档案，您可以：
 
@@ -38,7 +42,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
    ![](assets/profile_creation_1.png)
 
-1. 然后单击 **[!UICONTROL Create]**。
+1. 单击 **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
@@ -51,7 +55,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系用户档案的渠道。
    * 一旦用户档案取消订阅了某个渠道，则会立即更新 **[!UICONTROL No longer contact]** 类别。
    * **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送[直邮](../../channels/using/about-direct-mail.md)的 **[!UICONTROL Address specified]** 选项。如果未勾选 **[!UICONTROL Address specified]** 选项，则此用户档案将从所有直邮投放中排除。
-   * **[!UICONTROL Access authorization]** 类别指示了用户档案的组织单位（用于[管理权限](../../administration/using/about-access-management.md)）。另请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
    * **[!UICONTROL Traceability]** 类别会自动更新与创建或修改用户档案之用户相关的信息。
 
 1. 单击 **[!UICONTROL Create]** 以保存用户档案。
@@ -59,13 +63,6 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 现在，该用户档案会显示在列表中。
 
 >[!NOTE]
->
->也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles.md)。
-
-用户档案还可根据其组织单位进行划分。要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
-
->[!NOTE]
->
 >首选语言字段用于在发送多语言消息时选择语言。有关多语言消息的更多信息，[请参阅此页面](../../channels/using/creating-a-multilingual-email.md)。
 
 **相关主题：**
