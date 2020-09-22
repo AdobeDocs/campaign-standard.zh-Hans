@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ ht-degree: 98%
 
    ![](assets/remarketing_4.png)
 
-1. 单击 **[!UICONTROL Publish]** 按钮以开始发布触发器事件。
+1. 您现在可以发布触发器。 有关此问题的详细信息，请参 [阅以活动发布触发器](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)。
+
+## 以活动发布触发器 {#publishing-trigger-in-campaign}
+
+在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发事件后，您现在需要发布它。
+
+1. 从先前创建的触发器中，单击 **[!UICONTROL Publish]** 按钮以开始发布触发器事件。
+
+   ![](assets/trigger_publish_1.png)
+
+1. 您可以在下检查触发器发布的进度 **[!UICONTROL Publication]**。
+
+   ![](assets/trigger_publish_2.png)
+
+1. 完成发布后，将在下面显示以下消息 **[!UICONTROL Publication]**。
+
+   ![](assets/trigger_publish_3.png)
+
 1. 如果在发布触发器事件后，您想要对触发器架构进行更改，请单击 **[!UICONTROL Update schema]** 按钮以检索最新更改。
 
    请注意，此操作将取消发布您的触发器和事务型消息，之后您将需要重新发布它们。
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-通过 **[!UICONTROL Show Trigger in Experience Cloud]** 按钮可查看 Adobe Experience Cloud 中的触发器定义。
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 发布事件后，将自动创建链接到新事件的事务型模板。然后，您必须修改并发布之前创建的模板。有关更多信息，请参阅[编辑模板](../../start/using/marketing-activity-templates.md)一节。
 
