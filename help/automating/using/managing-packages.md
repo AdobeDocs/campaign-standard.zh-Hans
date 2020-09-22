@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ ht-degree: 100%
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->如果导出的资源具有默认 ID，则不会授权导出资源包。因此，必须将可导出资源的 ID 更改为与 Adobe Campaign Standard 标准模板不同的名称。例如，要导出测试用户档案，则不得使用包含“SDM”或“sdm”值的 ID。在尝试导出包含默认 ID 的资源包时，会显示以下错误：“‘品牌（品牌策略）’实体类型使用了默认 ID (“BRD1”)，导入资源包时可能会造成冲突。请更改此名称并重复此操作。”
+>如果导出的资源具有默认 ID，则不会授权导出资源包。因此，必须将可导出资源的 ID 更改为与 Adobe Campaign Standard 标准模板不同的名称。例如，要导出测试用户档案，则不得使用包含“SDM”或“sdm”值的 ID。
+>
+>在尝试导出包含默认 ID 的资源包时，会显示以下错误：“‘品牌（品牌策略）’实体类型使用了默认 ID (“BRD1”)，导入资源包时可能会造成冲突。请更改此名称并重复此操作。”
 
 有关资源包导出的步骤，请参阅[导出资源包](#exporting-a-package)一节。
 
