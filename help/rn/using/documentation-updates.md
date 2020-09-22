@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Control groups - [Read More](../../sending/using/control-group.md)
 有关如何使用外部参数调用工作流的部分已通过表达式编辑器中提供的新功能进行了丰富。 [阅读更多](../../automating/using/customizing-workflow-external-parameters.md)
 
 已向工作流最佳实践中添加了建议，内容涉及每个工作流要使用的活动数。 [阅读更多](../../automating/using/best-practices-workflows.md#number-activities)
+
+新增了关于投放最佳实践的一节。 [阅读更多](../../sending/using/delivery-best-practices.md)
 
 ## 文档更新 - 2020 年 9 月{#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 更新并修正了 Adobe Campaign Standard/Adobe Experience Manager 集成文档。[了解更多](../../integrating/using/configure-experience-manager.md)
 
-更新了 Campaign Email Designe 的文档和相关页面，以反映 Adobe Creative SDK 已被弃用。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
 
 新增了专门介绍 Campaign Standard 数据模型最佳做法的新章节。[了解更多](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 将 API 文档集集成到了 Campaign Standard 文档中。[了解更多](../../api/using/get-started-apis.md)
 
-移动并更新了“创建个性化电子邮件”快速入门指南。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
+已移动并更新创建个性化电子邮件快速入门部分。 [阅读更多](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
 
-投放最佳实践快速入门指南已更新。[了解更多](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+投放最佳实践快速入门指南已更新。[了解更多](../../sending/using/delivery-best-practices.md)
 
 将“数据模型”集成到了 Campaign Standard 文档中。[了解更多](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/work
 
 **随版本提供的其他文档更新**
 
-更新了 Campaign Standard 和 Campaign Classic 的错误消息列表。[阅读更多](https://docs.campaign.adobe.com/doc/AC/cn/technicalResources/error_messages/error_codes.html)
+Adobe Campaign的错误消息列表已更新。 [阅读更多](https://docs.campaign.adobe.com/doc/AC/cn/technicalResources/error_messages/error_codes.html)
 
-GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/campaign-privacy.html)
+GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)
 
 添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-移动并更新了“投放最佳做法”快速入门指南。[了解更多](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+移动并更新了“投放最佳做法”快速入门指南。[了解更多](../../sending/using/delivery-best-practices.md)
 
 添加了新章节。新的章节提供了扩充 Campaign Standard 数据库的各种方法概述。[了解更多](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 添加了关于如何在推送通知中使用自定义字段的信息。[了解更多](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-更新了投放最佳实践分步指南。[了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_DeliveryBestPractices.html)
+更新了投放最佳实践分步指南。[了解更多](../../sending/using/delivery-best-practices.md)
 
 添加了关于跟踪日志类型的信息。[了解更多](../../sending/using/tracking-messages.md#tracking-logs)
 
