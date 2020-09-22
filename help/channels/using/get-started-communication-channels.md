@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 16%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 ## 其他资源
 
 * [优化您的交付能力](../../sending/using/about-deliverability.md)
-* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+* [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [设计电子邮件内容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [导入AEM内容](../../integrating/using/creating-email-experience-manager.md)
 * [用工作流发送消息](../../automating/using/about-channel-activities.md)
