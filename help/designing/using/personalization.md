@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 1%
+source-wordcount: '2570'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 Adobe Campaign传递的信息的内容和显示可以通过多种不同的方式进行个性化。 这些方式可以根据条件根据用户档案组合。 一般而言，Adobe Campaign 允许您：
 
-* 插入动态的个性化字段。请参 [阅插入个性化字段](#inserting-a-personalization-field)。
-* 插入预定义个性化块。 请参 [阅添加内容块](#adding-a-content-block)。
+* 插入动态的个性化字段。请参阅[插入个性化字段](#inserting-a-personalization-field)。
+* 插入预定义的个性化块. 请参阅[添加内容块](#adding-a-content-block)。
 * 个性化电子邮件的发送者。 请参 [阅个性化发送者](#personalizing-the-sender)。
 * 个性化电子邮件主题。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * 创建条件性内容。请参 [阅在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)。
@@ -46,7 +46,7 @@ Adobe Campaign传递的信息的内容和显示可以通过多种不同的方式
 
 Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动态内容，对消息中的一个或多个URL进行个性化。 操作步骤：
 
-1. 插入外部URL并指定其参数。 请参 [阅插入链接](../../designing/using/links.md#inserting-a-link)。
+1. 插入外部URL并指定其参数。 See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. 如果未显示，请单击“设置”窗格中选定URL旁边的铅笔以访问个性化选项。
 1. 添加要使用的个性化字段、内容块和动态内容。
 
@@ -88,7 +88,7 @@ Adobe Campaign允许您将用户档案库中的字段插入页面，如的名字
 >
 >如果电子邮件是通过工作流创建的，则工作流中计算的其他数据也会在个性化字段中可用。 有关从工作流添加其他数据的详细信息，请参阅丰 [富数据](../../automating/using/about-targeting-activities.md#enriching-data) 一节。
 
-## 添加内容块{#adding-a-content-block}
+## Adding a content block{#adding-a-content-block}
 
 Adobe Campaign优惠预配置内容块的列表。 这些内容块是动态的、个性化的，并具有特定的呈现。 例如，可以添加问候语或指向镜像页面的链接。
 
@@ -114,17 +114,17 @@ Adobe Campaign优惠预配置内容块的列表。 这些内容块是动态的�
 
 现成的内容块包括：
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: 此内容块只能用于 **投放**。
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Link to mirror page (MirrorPage)]**:此内容块只能用于 **投放**。
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: 此内容块只能用于 **登陆页**。
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: 此内容块只能用于 **投放**。
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: 此内容块只能用于 **投放**。
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:此内容块只能用于 **登陆页**。
+* **[!UICONTROL Default sender name (DefaultSenderName)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:此内容块只能用于 **投放**。
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:此内容块只能用于 **投放**。
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -142,18 +142,19 @@ Adobe Campaign优惠预配置内容块的列表。 这些内容块是动态的�
    ![](assets/content_bloc_01.png)
 
 1. 输入标签。
-1. 选择块的 **[!UICONTROL Content type]**。 有三个可用选项：
+1. 选择块的 **[!UICONTROL Content type]**。 提供了三个选项：
 
-   * **[!UICONTROL Shared]**: 内容块可以用于投放或登陆页。
-   * **[!UICONTROL Delivery]**: 内容块只能用于投放。
-   * **[!UICONTROL Landing page]**: 内容块只能用于登陆页。
+   * **[!UICONTROL Shared]**:内容块可以用于投放或登陆页。
+   * **[!UICONTROL Delivery]**:内容块只能用于投放。
+   * **[!UICONTROL Landing page]**:内容块只能用于登陆页。
+
    ![](assets/content_bloc_02.png)
 
 1. 您可以选择 **[!UICONTROL Targeting dimension]**。 有关此内容的详细信息，请参 [阅关于定位维度](#about-targeting-dimension)。
 
    ![](assets/content_bloc_04.png)
 
-1. 您可以选择选 **[!UICONTROL Depends on format]** 项来定义两个不同的块： 一个用于HTML电子邮件，另一个用于文本格式的电子邮件。 编辑器中随后将显示两个选项卡（HTML和文本）以定义相应的内容。
+1. 您可以选择选 **[!UICONTROL Depends on format]** 项来定义两个不同的块：一个用于HTML电子邮件，另一个用于文本格式的电子邮件。 编辑器中随后将显示两个选项卡（HTML和文本）以定义相应的内容。
 
    ![](assets/content_bloc_03.png)
 
@@ -171,11 +172,11 @@ Adobe Campaign优惠预配置内容块的列表。 这些内容块是动态的�
 
 事实上，在编辑消息时，您只能选择具有与消息的定位维度兼容的定位维度的内容块。
 
-例如，块的 **[!UICONTROL Unsubscription link]** 定位维度是因 **[!UICONTROL Profiles]** 为它包含特定于资源的 **[!UICONTROL Profiles]** 个性化字段。 因此，您不能在事件 **[!UICONTROL Unsubscription link]** 事务性消息中 [使用块](../../channels/using/event-transactional-messages.md)，因为该类型消息的定位维度是 **[!UICONTROL Real-time events]**。 但是，您可以在 **退订事务性消息** 中使 [用用户档案链接块](../../channels/using/profile-transactional-messages.md)，因为此类消息的定位维度是用户档案 ****。 最后，该 **[!UICONTROL Link to mirror page]** 块没有定位维度，因此您可以在任何消息中使用它。
+例如，块的 **[!UICONTROL Unsubscription link]** 定位维度是因 **[!UICONTROL Profiles]** 为它包含特定于资源的 **[!UICONTROL Profiles]** 个性化字段。 因此，您不能在事件 **[!UICONTROL Unsubscription link]** 事务性消息中 [使用块](../../channels/using/event-transactional-messages.md)，因为该类型消息的定位维度是 **[!UICONTROL Real-time events]**。 但是，您可以在 **退订事务性消息** 中使 [用用户档案链接块](../../channels/using/profile-transactional-messages.md)，因为此类消息的定位维度是用户档案 ****。 最后， **[!UICONTROL Link to mirror page]** 块没有定位维度，因此您可以在任何消息中使用它。
 
 如果将此字段留空，则无论定位维度是什么，内容块都将与所有消息兼容。 如果设置定位维度，该块将仅与具有相同定位维度的消息兼容。
 
-有关此内容的详细信息，请参 [阅定位维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 
 **相关主题：**
 
@@ -201,7 +202,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 
    >[!NOTE]
    >
-   >域名(http://mydomain.com)无法个性化，必须手动输入。 URL的其余部分可以进行个性化。 例如： http://mydomain.com/ `[Gender]` .jpg
+   >域名(http://mydomain.com)无法个性化，必须手动输入。 URL的其余部分可以进行个性化。 例如：http://mydomain.com/ `[Gender]` .jpg
 
 1. 确认更改。
 
@@ -215,7 +216,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 
 ![](assets/delivery_content_5.png)
 
-此选项仅对以下元素可用： 地址、块报价、中心、目录、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
+此选项仅对以下元素可用：地址、块报价、中心、目录、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
 表达式编辑器显示在高级 [表达式编辑部分](../../automating/using/editing-queries.md#about-query-editor) 。
 
@@ -226,6 +227,11 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 >不能为已包含具有动态内容的子元素的块或已构成动态内容的块定义条件。 无法编辑下拉列表等不可见的动态块。
 
 ### 在电子邮件中定义动态内容{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="定义动态内容"
+>abstract="根据通过收件人编辑器定义的规则为表达式定义不同的内容。"
 
 在电子邮件中，您可以定义不同的内容，这些内容将根据通过收件人编辑器定义的条件动态显示给表达式。 例如，从同一封电子邮件中，您可以确保每位用户档案根据其年龄范围收到不同的邮件。
 
@@ -240,7 +246,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 
    ![](assets/dynamic_content_3.png)
 
-   默认情况下，此部分包含两个元素： 默认变体和新变体。
+   默认情况下，此部分包含两个元素：默认变体和新变体。
 
    >[!NOTE]
    >
@@ -309,7 +315,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 
 每个动态内容只能定义一个优先级顺序。
 
-## 示例： 电子邮件个性化{#example-email-personalization}
+## 示例：电子邮件个性化{#example-email-personalization}
 
 在此示例中，营销服务团队的成员创建了一封电子邮件，通知其某些客户他们只有一个特殊优惠。 该团队成员决定根据客户各自的年龄个性化电子邮件。 年龄在18至27岁之间的客户将收到一封电子邮件，其中包含不同的图像和标语，这些图像和标语将发送给27岁以上的客户。
 
@@ -328,6 +334,11 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
    添加和配置个性化字段在插入个性化字 [段部分有详细介绍](#inserting-a-personalization-field) 。
 
 ### 配置图像 {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="管理动态图像"
+>abstract="根据通过表达式编辑器定义的规则，使用动态图像个性化电子邮件。"
 
 在此示例中，应用于图像的动态内容配置如下：
 
