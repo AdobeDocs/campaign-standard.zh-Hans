@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 ## 交付性工具 {#deliverability-tools}
 
 首先，开始通过查阅随Campaign Standard提供的可交付性工具的相关文档：
-* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+* [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [个性化发件人姓名](../../designing/using/personalization.md#personalizing-the-sender)
 * [测试电子邮件的主题行](../../sending/using/testing-subject-line-email.md)
 * [优化发送时间](../../sending/using/optimizing-the-sending-time.md)
