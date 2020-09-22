@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 是的 [!DNL Adobe Experience Platform SDK] ,Adobe Campaign Standard和Adobe Campaign Classic均可集成。 您需要通过安装相 **[!UICONTROL Extension]** 应的 [!DNL Adobe Launch] 方式来启用集成。
 
-有关此内容的详细信息，请参 [阅本页](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) ,Campaign Classic [请参阅](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 本页。
+有关详细信息，请参见此 [ 页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
 ## Adobe Experience PlatformSDK集成在Adobe Campaign方面有哪些功能？ {#aep-capabilities}
 
