@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '1651'
+ht-degree: 84%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 85%
       + [访问消息](channels/using/accessing-messages.md)
       + [消息仪表板](channels/using/message-dashboard.md)
       + [多语言消息模板](channels/using/multilingual-messages-template.md)
+   + 投放最佳实践 {#delivery-bestpractices}
+      + [学习最佳实践](sending/using/delivery-best-practices.md)
+      + [优化投放](sending/using/optimize-delivery.md)
+      + [使用模板](sending/using/use-templates.md)
+      + [构建个性化内容](sending/using/design-and-personalize.md)
+      + [定义正确的受众](sending/using/define-the-right-audience.md)
+      + [发送前检查](sending/using/check-before-sending.md)
+      + [跟踪和监视](sending/using/track-and-monitor.md)
    + 电子邮件消息 {#email-messages}
       + [关于电子邮件](channels/using/about-emails.md)
       + [创建电子邮件](channels/using/creating-an-email.md)
