@@ -1,5 +1,5 @@
 ---
-title: 开始测试和发送
+title: 测试和发送快速入门
 description: 发现测试和发送消息的不同步骤。
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -12,15 +12,15 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 9%
+source-wordcount: '580'
+ht-degree: 12%
 
 ---
 
 
-# 开始测试和发送 {#about-sending-messages-with-campaign}
+# 测试和发送快速入门 {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 Campaign Standard **消息准备** ，分析了消息的目标、个性化和有效性。 在此步骤中检测到的错误必须经过更正，才能继续。
 
-**使用各种功能** ,预览和测试您的消息： 发送验证以测试用户档案或目标用户档案，测试电子邮件的主题行，检查消息的呈现情况，确保消息以最佳方式显示在各种Web客户端、Web邮件和设备上。
+**使用各种功能** ,预览和测试您的消息：发送验证以测试用户档案或目标用户档案，测试电子邮件的主题行，检查消息的呈现情况，确保消息以最佳方式显示在各种Web客户端、Web邮件和设备上。
 
 利用活动计划功能定义消息的发送时间。 例如，您可以调整在收件人时区发送、优化发送时间或计算发送日期。
 
@@ -54,7 +54,7 @@ Campaign Standard **消息准备** ，分析了消息的目标、个性化和有
 * [发送校样](../../sending/using/sending-proofs.md)
 * [电子邮件渲染](../../sending/using/email-rendering.md)
 * [计划消息发送](../../sending/using/about-scheduling-messages.md)
-* [关于类型和类型规则](../../sending/using/about-typology-rules.md)
+* [关于分类和分类规则](../../sending/using/about-typology-rules.md)
 
 ## 发送、监视和跟踪 {#send-track-messages}
 
@@ -81,7 +81,7 @@ Campaign Standard **消息准备** ，分析了消息的目标、个性化和有
 
 可交付性允许衡量活动到达收件人收件箱的成功程度，而不会出现弹跳或标记为垃圾邮件。
 
-Campaign Standard提供 **了多种交付工** 具，帮助您提高成功发送邮件的数量： 投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
+Campaign Standard提供 **了多种交付工** 具，帮助您提高成功发送邮件的数量：投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
 
 阅读更多:
 
@@ -96,6 +96,6 @@ Campaign Standard提供 **了多种交付工** 具，帮助您提高成功发送
 * [设计A/B测试电子邮件](../../channels/using/designing-an-a-b-test-email.md)
 * [发送测试、准备和发送电子邮件（视频）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [查看电子邮件投放和报告（视频）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [电子邮件入门](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* [投放最佳实践](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
-* [用例： 构建对照组](../../automating/using/workflow-control-group.md)
+* [电子邮件入门](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
+* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+* [添加对照组](../../sending/using/control-group.md)
