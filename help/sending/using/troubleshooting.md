@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -38,30 +38,30 @@ ht-degree: 1%
 
 ## 阻止列表与隔离 {#denylist-versus-quarantine}
 
-* **的电子邮件地址列入阻止列表与隔离的电子邮件地址有何区别？**
+* **电子邮件地址与隔离电子邮件地阻止列表址之间有何差异？**
 
-   * 状态 **[!UICONTROL Denylisted]** 是反馈循环的结果（当人员将邮件报告为垃圾邮件时）。
+   * 状态 **[!UICONTROL On denylist]** 是反馈循环的结果（当人员将邮件报告为垃圾邮件时）。
 
    * 状态 **[!UICONTROL Quarantined]** 是软弹回或硬弹回的结果。
-   有关更多信息，请参阅[此章节](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)。
+   有关更多信息，请参阅[此章节](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。
 
 * **不同的隔离错误原因意味着什么？**
 
-   以下是10个可能的原因：未定义、用户未知、无效域、已列入阻止列表地址、已拒绝、已忽略错误、不可到达、帐户已禁用、邮箱已满、未连接。
+   以下是10个可能的原因：未定义、用户未知、无效域、地址、拒阻止列表绝、忽略错误、不可到达、禁用帐户、邮箱已满、未连接。
 
    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## 从阻止列表删除 {#removing-from-denylist}
 
-* **我的一个收件人误列入阻止列表会了。 如何从阻止列表中删除它们，以便开始再次发送邮件？**
+* **我的一个收件人被误阻止列表加到。 如何从阻止列表中删除它们，以便开始再次发送邮件？**
 
    * 转到 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
    * 在相应记录的详细信息中，将字段的值 **[!UICONTROL Status]** 设置为 **[!UICONTROL Valid]**。
    * 保存记录。
 
-* **如何确定我的IP是否被列入阻止列表? 如何从中删除我的IP阻止列表?**
+* **如何确定我的IP是否在阻止列表? 如何从中删除我的IP阻止列表?**
 
-   要检查您的IP地址是否列入阻止列表已，您可以使用各个网站进行验证，例如：
+   要检查您的IP地址是否阻止列表处于状态，您可以使用各个网站验证它，例如：
    * [MX工具箱](https://mxtoolbox.com/)
    * [我的IP地址是什么](https://whatismyipaddress.com)
 
