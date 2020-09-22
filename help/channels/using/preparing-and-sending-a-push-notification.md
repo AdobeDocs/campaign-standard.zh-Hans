@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   请注意，下拉列表将同时显示SDK V4和Experience PlatformSDK应用程序。
+   请注意，下拉框将同时显示SDK V4和Experience PlatformSDK应用程序。
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ ht-degree: 5%
 
 1. 在选 **[!UICONTROL Exclusion logs]** 项卡中，您可以找到所有从发送的目标中排除的消息的列表以及此排除的原因。
 
-   在此，我们可以看到我们的移动App用户中有一个被排除，因为地列入阻止列表址被，而其他用户被排除，因为用户档案是重复。
+   在此，我们可以看到我们的移动App订户被排除，因为该地址在阻止列表器上，而其他订户被排除，因为用户档案是重复。
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ ht-degree: 5%
 
    ![](assets/push_send_4.png)
 
-1. 在窗口 **[!UICONTROL Deployment]** 中，单击选 **[!UICONTROL Sending logs]** 项卡以访问已发送推送通知的列表及其状态。 对于此投放，成功发送了一个推送通知，而另一个由于设备令牌错误而失败。 此订户随后将从更多投放添加到密语中。
+1. 在窗口 **[!UICONTROL Deployment]** 中，单击选 **[!UICONTROL Sending logs]** 项卡以访问已发送推送通知的列表及其状态。 对于此投放，成功发送了一个推送通知，而另一个由于设备令牌错误而失败。 此订户随后将被添加到该阻止列表中，以免更多投放。
 
    >[!NOTE]
    >
