@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 96%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 >
 >控制面板仅适用于托管在 AWS 上的、客户的 Admin 用户。
 可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
+
+## OAuth 2.0帐户 {#oauth-account}
+
+对于OAuth 2.0外部帐户，请提供以下详细信息：
+
+* 授 **予类型**:仅支 **持客户端** 凭据。
+* 安 **全API URL**:输入授权端点。
+* **OAuth 2.0敏感凭据**:此部分用于性质敏感的凭据。 添加凭据值后，凭据值将在屏幕上被遮罩；到那时，它们将不可读，也无法编辑。 如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
+* **OAuth 2.0非敏感凭据**:此部分用于性质不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；也可编辑。  如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
+
+配置结束时，单击“测 **试连接器** ”以验证外部帐户设置是否正确。
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>凭据“Content-Type:application/x-www-form-urlencoded”和“grant_type=client_credentials”将自动添加到API调用；因此，您无需在凭据部分添加这些凭据。
 
 ## Amazon S3 外部帐户 {#amazon-s3-external-account}
 
