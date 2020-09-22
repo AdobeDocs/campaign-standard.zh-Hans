@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * 管理员安全组的组织单元不能再更改。
 * 现在创建用户档案时，必须填写 Organizational unit 字段。
 * 现在，仅当删除了事件和与其链接的事务型模板时，才能删除 Experience Cloud 触发器。
-* Adobe Creative SDK 已停用。现在，Campaign Standard 已将其弃用。请参阅[已弃用和已删除的功能](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)页面。
+* [!DNL Adobe Creative SDK] 已经退役。 现在，Campaign Standard 已将其弃用。请参阅[已弃用和已删除的功能](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)页面。
 
 
 **修补程序**
