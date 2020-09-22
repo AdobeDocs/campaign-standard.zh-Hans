@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 83%
+source-wordcount: '790'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
 
 在准备消息时，电子邮件地址或电话号码处于隔离状态的用户档案会被自动被排除（请参阅[确定投放的隔离地址](#identifying-quarantined-addresses-for-a-delivery)）。这样可加快投放速度，因为错误率对投放速度有显著的影响。
 
-如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离允许您避列入阻止列表免被这些提供者。
+如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离允许您避免被这阻止列表些提供商添加到。
 
 此外，隔离还可避免向错误的电话号码投放短信，有助于降低短信发送成本。
 
@@ -48,7 +48,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->当用户用诸如“STOP”的关键字回复SMS消息以从SMS投放中选择退出时，其不会像电子列入阻止列表邮件选择退出过程那样被用户档案。 该用户档案的电话号码将添加到隔离区，并标记 **[!UICONTROL Denylisted]** 状态。此状态仅指电话号码，用户档案不会列入阻止列表，以便用户继续接收电子邮件。 有关更多信息，请参阅[此章节](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+>当用户用诸如“STOP”的关键字回复SMS消息以从SMS投放中选择退出时，其不像在电子阻止列表邮件选择退出过程中那样处于用户档案状态。 该用户档案的电话号码将添加到隔离区，并标记 **[!UICONTROL On denylist]** 状态。此状态仅指电话号码，用户档案未处于状阻止列表态，以便用户继续接收电子邮件。 有关更多信息，请参阅[此章节](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
 
 ## 确定隔离的地址{#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign 可根据投放失败类型和在错误消息鉴别过程中分�
 
    如果重试投放成功，则隔离之前的地址错误计数会重新初始化。地址状态将变为 **[!UICONTROL Valid]**，并在完成 **[!UICONTROL Database cleanup]** 工作流两天后从列表中删除该地址。
 
-如果某个用户将电子邮件标记为垃圾邮件（**反馈机制**），则该邮件会自动重定向到由 Campaign 管理的技术邮箱。随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL Denylisted]** 状态。此状态只指地址，用户档案不在阻止列表程序上，因此用户继续接收SMS消息和推送通知。
+如果某个用户将电子邮件标记为垃圾邮件（**反馈机制**），则该邮件会自动重定向到由 Campaign 管理的技术邮箱。随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL On denylist]** 状态。此状态只指地址，用户档案不在阻止列表程序上，因此用户继续接收SMS消息和推送通知。
 
 >[!NOTE]
 Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
