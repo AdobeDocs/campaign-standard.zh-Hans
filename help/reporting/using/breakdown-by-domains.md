@@ -13,9 +13,9 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # 按域细分{#breakdown-by-domains}
 
-此报告包含电子邮件受众中表示的每个域的性能数据。 如果它是活动或项目报告，则性能数据可用于多个受众。 此数据允许您分析每个域的行为以响应特定事件。 例如，链接显示列入阻止列表、已URL等。
+此报告包含电子邮件受众中表示的每个域的性能数据。 如果它是活动或项目报告，则性能数据可用于多个受众。 此数据允许您分析每个域的行为以响应特定事件。 例如，链接显示、阻止列表URL等。
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ ht-degree: 3%
 * **单击**:在投放中单击内容的次数。
 * **取消订阅**:单击订阅链接的次数。
 * **镜像页面**:单击镜像页面链接的次数。
-* **列入阻止列表**:声明电子邮件为垃圾邮件或垃圾邮件的收件人数。 [了解详情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **阻止列表**:声明电子邮件为垃圾邮件或垃圾邮件的收件人数。 [了解详情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
