@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ IP认证是一种发送最佳实践项目，有助于确保接收电子邮件时
 
 目前有两个提供商优惠IP认证：Return Path和Certified Senders Alliance。
 
-认证发件人列入允许列表为全球邮箱提供商和电子邮件安全公司。 这些商业允许列表过滤器基于一种系统，该系统允许发送方完全绕过防垃圾邮件，或在他们进入系统时分配增量点数。
+经过认证的发送允许列表人可供全球邮箱提供商和电子邮件安全公司使用。 这些商业允许列表过滤器基于一种系统，该系统允许发送方完全绕过防垃圾邮件，或在他们进入系统时分配增量点数。
 
 Return [Path Certification](https://www.validity.com/products/returnpath/certification/) 项目优惠了许多优势，包括：
 * 在Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru等顶级邮箱提供商的收件箱放置量显着增加
