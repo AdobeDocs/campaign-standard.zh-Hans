@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 3%
 | 标签 | 渠道 | 说明 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 所有 | 排除没有指定地址（电子邮件、邮政地址等）的目标。 根据选定渠道)。 |
-| **[!UICONTROL Denylisted address]** | 所有 | 不包括此中的阻止列表地址。 |
+| **[!UICONTROL Address on denylist]** | 所有 | 不包括此中的阻止列表地址。 |
 | **[!UICONTROL Duplicate]** | 所有 | 排除基于重复人口字段的 **[!UICONTROL Address]** 目标。 |
 | **[!UICONTROL Exclude mobile applications]** | 移动应用程序 | 不包括与消息中定义的移动应用程序不匹配的应用程序订阅。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 应用程序内 | 不包括与消息（应用程序内模板）中定义的移动应用程序不匹配的应用程序订阅。 |
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 在电子邮件分析期间，这些规则将收件人电子邮件地址与在可交付性实例中管理的加密全局禁止列表中包含的禁止地址或域名进行比较。 如果存在匹配项，则消息不会发送到该收件人。
 
-这是为了避免由于列入阻止列表恶意活动，特别是使用Spamtrap而。 例如，如果使用垃圾邮件陷阱通过您的某个Web表单进行订阅，则会自动向该垃圾邮件陷阱发送确认电子邮件，这会导致您的地址被自动添加到该阻止列表垃圾邮件。
+这可以避免由于恶意活动阻止列表（特别是使用垃圾邮件陷阱）而添加到该。 例如，如果使用垃圾邮件陷阱通过您的某个Web表单进行订阅，则会自动向该垃圾邮件陷阱发送确认电子邮件，这会导致您的地址被自动添加到该阻止列表垃圾邮件。
 
 >[!NOTE]
 >
