@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 维护您的域和IP地址信誉至关重要。 以下是建立新平台的一些建议。
 
-开始在新平台上发送电子邮件是一个敏感步骤，因为该平台没有任何使用历史记录和信誉（当发送的IP从未用于此目的时）。 ISP自然会怀疑从未用来发送电子邮件的IP地址，并突然开始发送大量电子邮件流量。 实际上，垃圾邮件发送者通常使用“未知”IP地址（从未过的地址）列入阻止列表在检测前发送尽可能多的邮件。
+开始在新平台上发送电子邮件是一个敏感步骤，因为该平台没有任何使用历史记录和信誉（当发送的IP从未用于此目的时）。 ISP自然会怀疑从未用来发送电子邮件的IP地址，并突然开始发送大量电子邮件流量。 实际上，垃圾邮件发送者通常会使用“未知”IP地址(从未添加到程序的地阻止列表址)发送尽可能多的邮件，然后再进行检测。
 
 在生产阶段的开始，您无法期望在输出方面达到操作速度。 此外，您不应尝试以此速率发送消息，因为这可能会导致ISP阻止发送地址，并严重危害开始的其余阶段。
 
