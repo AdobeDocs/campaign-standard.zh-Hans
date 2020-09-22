@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 100%
 在执行工作流之前或之后，您可以打开活动，检查或编辑参数。
 
 您可以打开过渡，检查在执行工作流期间或执行工作流之后发送的数据是否正确。要访问过渡的详细视图，您必须勾选工作流属性 **[!UICONTROL Keep interim results]** 部分中的 **[!UICONTROL Execution]** 选项。
+
+>[!CAUTION]
+>
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ ht-degree: 100%
 
 1. 将某个活动从面板中拖放到图表中，以添加该活动。
 
-   例如，在图表上添加&#x200B;**[开始](../../automating/using/start-and-end.md)**活动，然后添加**[&#x200B;电子邮件投放](../../automating/using/email-delivery.md)**活动。
+   例如，在图表上添加&#x200B;**[开始](../../automating/using/start-and-end.md)**&#x200B;活动，然后添加&#x200B;**[电子邮件投放](../../automating/using/email-delivery.md)**&#x200B;活动。
 
 1. 通过将&#x200B;**开始**&#x200B;活动过渡拖放到&#x200B;**电子邮件投放**&#x200B;活动上，将两个活动链接到一起。
 
