@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign Standard优惠了两种新的机器学习模型： **预测发送
 >[!CAUTION]
 >此功能不随产品提供。 实施过程中需要Adobe咨询。 请联系您的Adobe代表以了解更多信息。
 >
->另外，该功能要求使用客户必须提供的Azure存储。
+>该功能需要使用客户必须提供的Azure存储。
 
 ## 预测发送时间优化{#predictive-send-time}
 
