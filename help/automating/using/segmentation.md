@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '849'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 92%
 
 **相关主题：**
 * [用例：位置细分](../../automating/using/workflow-segmentation-location.md)
-* [用例：构建对照组](../../automating/using/workflow-control-group.md)
 * [用例：根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
 
 ## 使用环境{#context-of-use}
