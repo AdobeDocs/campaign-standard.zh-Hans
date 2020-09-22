@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 5%
 
 ---
@@ -494,7 +494,7 @@ _工作流_
    <td> 事务性消息的营销能力<br /> </td> 
    <td> 营销人员现在可以根据客户营销用户档案发送事务性消息。 这允许他们：<br /> 
     <ul> 
-     <li> 应用营销类型规则, <span class="uicontrol">如列入阻止列表地址</span> 。 </li> 
+     <li> 应用营销类型规则, <span class="uicontrol">如阻止列表地址</span> 。 </li> 
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
@@ -530,7 +530,7 @@ _推送通知_
 * 修复了可能阻止从应用程序回传到Adobe Campaign服务器的问题。
 * 修复了可能已阻止并 **[!UICONTROL Play a sound]** 要 **[!UICONTROL Custom fields]** 考虑到Android的问题。
 * 修复了可能导致额外转义字符添加到用于Emoji的Unicode字符的问题。
-* 当用户的注册令牌被列入阻止列表时，现在在Adobe Campaign的用户列表中立即更新相应的状态。
+* 当将订户的注册令牌添加到阻止列表器时，现在在Adobe Campaign中的订户列表中立即更新相应的状态。
 
 _工作流_
 
