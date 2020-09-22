@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 4%
 * 修复了导致从相机上传并以纵向模式拍摄的图片在不需要的旋转位置显示的问题。
 * 修复了在使用Creative Designer中的查询编辑器界面时显示选择信息不清的问题。
 * 修复了在Creative Designer中使用查询编辑器界面时无法正确复制元素的问题。
-* 修复了一个问题，该问题导致即使已通过自动回复取消订阅，仍然会不断将SMS消息传送给已拒绝登记的收件人。 (CAMP-27128)
+* 修复了一个问题，该问题导致即使收件人已通过自阻止列表动回复取消订阅，仍然会向发送SMS消息。 (CAMP-27128)
 * 修复了阻止显示导致“数据库清理”工作 **流失败的错误** 的问题。 (CAMP-26876)
 * 修复了一个问题，该问题可能会阻止在推送通知定义中删除自定义字段。 (CAMP-25588)
 
