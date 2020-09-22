@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 否则，联系Adobe以检查管线端点的配置。
 
-如果是，请遵循以下指南行：
+如果是，请遵循以下准则：
 
 * 检查活动数据源中的对帐ID类型。
 * CustomerId数据源是通过Customer Attributes创建的。
@@ -74,10 +74,10 @@ ht-degree: 1%
 
 **触发器是否处于待定状态？**
 
-否则，请继续下一步。 如果是，请遵循以下指南行：
+否则，请继续下一步。 如果是，请遵循以下准则：
 
 * 检查事务模板是否已发布。
-* 检查用户档案是否未列入阻止列表。
+* 检查用户档案是否未。
 * 检查类型规则的应用。
 * 检查事务性消息日志。
 
