@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   为了能够发送电列入阻止列表子邮件，此上下文会删除“已”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
+   为了能够发送电子邮件，此上阻止列表下文将删除“开启”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登陆页面的内容：您可以显示个性化数据，例如将确认按钮的标签更改为“Click here to confirm my subscription”。
 
@@ -101,12 +101,12 @@ ht-degree: 90%
 
 ### 创建分类{#create-the-typology-rule}
 
-您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认其协议且仍被用户档案的发送消息列入阻止列表。 默认情况下，排版排除选择退出(即列入阻止列表)用户档案。 要创建此分类，请执行以下步骤：
+您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认其协议且仍处于用户档案状态的发送阻止列表消息。 默认情况下，排版排除选择退出(即阻止列表)用户档案。 要创建此分类，请执行以下步骤：
 
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 并单击 **[!UICONTROL Typologies]**。
 1. 复制现成的分类&#x200B;**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 确认复制后，编辑新的分类并输入标签 **TYPOLOGY_PROFILE**。
-1. Remove the **Denylisted address** rule.
+1. 删除“ **地阻止列表址** ”规则。
 1. 单击 **[!UICONTROL Save]**。
 
 现在，可将此分类与确认电子邮件关联。
