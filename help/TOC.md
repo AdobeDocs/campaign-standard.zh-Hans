@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [基于人工智能的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
+      + [添加对照组](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [准备发送](sending/using/preparing-the-send.md)
    + 计划消息发送 {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [增量查询服务的订户](automating/using/incremental-query-on-subscribers.md)
          + [根据年龄组进行细分](automating/using/segmentation-age-groups.md)
          + [使用与定向维度不同的资源](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [构建对照组](automating/using/workflow-control-group.md)
       + 数据管理 {#data-management}
          + [协调文件受众与数据库](automating/using/reconcile-file-audience-with-database.md)
          + [从导入的文件中消除重复数据](automating/using/deduplicating-data-imported-file.md)
