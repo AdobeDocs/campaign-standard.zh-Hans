@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ ht-degree: 93%
 
 可在配置活动时定义数据的提取方式。例如，要加载的文件可以是联系人的列表。
 
->[!CAUTION]
->
->只考虑“平面”结构文件，如 .txt、.csv 等文件。
-
 您可以：
 
 * 使用文件结构以将其应用到其他文件的数据（使用 **[!UICONTROL Transfer file]** 活动取回），或
 * 使用来自文件的结构和数据以将其导入 Adobe Campaign。
+
+>[!IMPORTANT]
+>
+>只考虑“平面”结构文件，如 .txt、.csv 等文件。
 
 **相关主题：**
 
