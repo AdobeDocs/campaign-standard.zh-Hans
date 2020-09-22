@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ ht-degree: 93%
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关更多信息，请参阅[定义事务型消息的测试用户档案](#defining-a-test-profile-in-a-transactional-message)。
+   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关更多信息，请参阅[定义事务型消息的测试用户档案](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)。
 
 ## 在事务型消息中使用产品清单{#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ ht-degree: 93%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](#defining-a-test-profile-in-a-transactional-message)。
+   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)。
 
 ## 测试事务型消息{#testing-a-transactional-message}
 
