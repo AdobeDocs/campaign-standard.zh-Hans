@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 100%
 * 聚合
 * 字符串处理
 * 排序
+
+>[!NOTE]
+>
+>所有活动中都提供其他函数，这些函数允许您在调用具有外部参数的工作流后使用事件变量。 本节详细介绍 [了这些方法](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ## 日期{#dates}
 
