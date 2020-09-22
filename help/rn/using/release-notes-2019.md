@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 8%
 
 ---
@@ -617,7 +617,7 @@ ht-degree: 8%
 * 修复了在查询编辑器中rtEvent的broadlog和跟踪日志之间存在连接条件的问题。 (CAMP-28780)
 * 修复了无法保存对“特定操作”登陆页选项的修改的问题。 (CAMP-29422)
 * 修复了在工作流中无法导出事件的有效负荷的问题。 (CAMP-29029)
-* 修复了阻止列入阻止列表SMS消息中排除已SMS号码的问题。 (CAMP-28898)
+* 修复了阻止上的SMS号阻止列表码在SMS消息中被排除的问题。 (CAMP-28898)
 * 修复了在处理传入消息时出现错误时，可能会阻止SMPP提供者收到通知的问题。 (CAMP-29804)
 * 修复了允许删除具有关联外部帐户的投放的问题。 (CAMP-29738)
 * SMS消息的发送吞吐量已得到改进和稳定。
