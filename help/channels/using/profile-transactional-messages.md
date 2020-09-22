@@ -12,9 +12,9 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 您可以根据客户营销用户档案发送事务型消息，这样可让您：
 
-* 应用营销分类规则，例如 **[!UICONTROL Denylisted address]** 或[疲劳规则](../../sending/using/fatigue-rules.md)。
+* 应用营销分类规则，例如 **[!UICONTROL Address on denylist]** 或[疲劳规则](../../sending/using/fatigue-rules.md)。
 * 在消息中包含退订链接。
 * 将事务型消息添加到全局投放报告。
 * 在客户历程中使用事务型消息。
@@ -74,11 +74,11 @@ ht-degree: 95%
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-对于选择退出的任何用户档案，**[!UICONTROL Denylisted address]** 分类规则将排除对应的收件人。
+对于选择退出的任何用户档案，**[!UICONTROL Address on denylist]** 分类规则将排除对应的收件人。
 
 此规则属于特定分类的一部分，该特定分类会基于 **[!UICONTROL Profile]** 表应用到所有事务型消息。
 
