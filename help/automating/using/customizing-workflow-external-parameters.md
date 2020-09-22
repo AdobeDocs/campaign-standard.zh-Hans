@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -51,41 +51,45 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png)：编辑组合变量和函数的表达式。有关表达式编辑器的更多信息，请参阅[此章节](../../automating/using/advanced-expression-editing.md)。
+* ![](assets/extsignal_expression_editor.png):编辑组合变量和函数的表达式(请参 [](../../automating/using/advanced-expression-editing.md)阅)。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**相关主题：**
+   此列表提供允许您执行复杂过滤的函数。 本节详细介绍了 [这些功能](../../automating/using/list-of-functions.md)。
 
-* [编辑表达式](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [标准语法](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [函数列表](../../automating/using/list-of-functions.md)
+   此外，您还可以使用以下函数，这些函数在所有活动中都可用，这些事件变量允许您在调用具有外部参数的工作流后使用变量(请参 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)阅):
+
+   | 名称 | 说明 | 语法 |
+   ---------|----------|---------
+   | 结束于 | 指示字符串（第1个参数）是否以特定字符串（第2个参数）结尾。 | EndWith(&lt;String>,&lt;String>) |
+   | startWith | 指示字符串（第1个参数）是否开始特定字符串（第2个参数）。 | startWith(&lt;String>,&lt;String>) |
+   | 提取 | 使用分隔符返回字符串的第一个字符。 | Extract(&lt;String>,&lt;Separator>) |
+   | ExtractRight | 使用分隔符返回字符串的最后一个字符。 | ExtractRight(&lt;String>,&lt;Separator>) |
+   | 日期格式 | 使用第2个参数中指定的格式设置日期格式(示例： “%4Y%2M%2D”) | DateFormat(&lt;Date>,&lt;Format>) |
+   | 文件名 | 返回文件路径的名称。 | FileName(&lt;String>) |
+   | 文件文本 | 返回文件路径的扩展名。 | FileExt(&lt;String>) |
+   | IsNull | 指示字符串或日期是否为null。 | IsNull(&lt;String/date>) |
+   | UrlUtf8Encode | 以UTF8对URL进行编码。 | UrlUtf8Encode(&lt;String>) |
 
 ## 使用活动变量自定义事件 {#customizing-activities-with-events-variables}
 
 事件变量可用于自定义多个活动，如下面的部分所列。 有关如何从活动调用变量的详细信息，请参 [阅本节](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)。
 
-**[!UICONTROL Read audience]** 活动:根据受众变量定义目标。
-
-有关如何使用活动的详细信息，请参阅专 [门的部分](../../automating/using/read-audience.md)。
+**[!UICONTROL Read audience]** 活动:根据受众变量定义目标。 有关如何使用活动的详细信息，请参 [阅本节](../../automating/using/read-audience.md)。
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** 活动:根据事件变量构建条件。
-
-有关如何使用活动的详细信息，请参阅专 [门的部分](../../automating/using/test.md)。
+**[!UICONTROL Test]** 活动:根据事件变量构建条件。 有关如何使用活动的详细信息，请参 [阅本节](../../automating/using/test.md)。
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** 活动:根据事件变量自定义要传输的文件。
-
-有关如何使用活动的详细信息，请参阅专 [门的部分](../../automating/using/transfer-file.md)。
+**[!UICONTROL Transfer file]** 活动:根据事件变量自定义要传输的文件。 有关如何使用活动的详细信息，请参 [阅本节](../../automating/using/transfer-file.md)。
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** 活动:参数可在查询中引用，方法是使用组合事件变量和函数的表达式。 为此，请添加一个规则，然后单 **[!UICONTROL Advanced mode]** 击链接以访问表达式编辑窗口(请参 [阅高级表达式编辑](../../automating/using/advanced-expression-editing.md))。
 
-有关如何使用活动的详细信息，请参阅专 [门的部分](../../automating/using/query.md)。
+有关如何使用活动的详细信息，请参 [阅本节](../../automating/using/query.md)。
 
 ![](assets/extsignal_activities_query.png)
 
