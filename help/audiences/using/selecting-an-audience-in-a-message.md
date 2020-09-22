@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 
    * 目标
    * 测试用户档案
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. 定义电子邮件的主 **[!UICONTROL Target]**。这是电子邮件的常规目标受众。
@@ -54,6 +55,10 @@ ht-degree: 100%
 1. 定义您想要用于电子邮件的 **[!UICONTROL Test profiles]**。测试用户档案将收到您之前发送的校样，以在将电子邮件发送到主目标之前对其进行测试。
 
    有关配置测试用户档案的更多信息，请参阅[测试用户档案](../../audiences/using/managing-test-profiles.md)一节。
+
+1. 如果需要，您可以使用相应的选项卡定义对照组。 这样，您就可以从目标中撤出一些用户档案，这样他们就不会收到消息。 For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. 您还可以使用替换地址来获得用户档案将收到的消息的确切表示形式。  有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
 随后将更新受众块，并显示已为相关电子邮件选择的目标和测试用户档案。
 
