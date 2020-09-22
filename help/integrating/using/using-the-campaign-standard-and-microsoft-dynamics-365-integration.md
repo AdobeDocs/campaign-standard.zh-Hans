@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -158,12 +158,12 @@ D365中显示以下事件属性：
 
 选择退出流映射由客户指定，因为不同公司之间的业务要求可能不同。  在活动端，只能使用OOTB退出属性进行退出映射：
 * 阻止列表
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 在Dynamics 365中，大多数选择退出字段带有“donot”前缀；但是，如果数据类型兼容，您也可以使用其他属性进行退出。
