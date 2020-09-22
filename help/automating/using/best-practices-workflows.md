@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -72,12 +72,15 @@ ht-degree: 98%
 
 利用工作流属性，可定义默认用在其所有活动中的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
-
 ## 活动{#activity}
+
+### 每个工作流的活动数 {#number-activities}
+
+我们建议在单个工作流中使用多达100个活动。 超过100个活动在设计和配置工作流时可能会遇到一些性能问题。
 
 ### 工作流设计
 
-要确保工作流正常结束，请使用 **[!UICONTROL End activity]**。避免任其留在工作流的最后一个过渡处。
+要确保工作流正常结束，请避免使用一个过渡，单独保留工作流的最后一个 **[!UICONTROL End activity]**。
 
 要访问过渡的详细视图，请勾选工作流属性“执行”部分中的 **[!UICONTROL Keep interim results]** 选项。
 
