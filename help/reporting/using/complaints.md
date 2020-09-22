@@ -13,7 +13,7 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -29,4 +29,4 @@ The **[!UICONTROL Complaints]** report identifies the deliveries that have recei
 
 按收件人 **域排序** 的Flop表显示已声明电子邮件或垃圾邮件的收件人数。 图表和摘要编号中也提供表的结果。
 
-“已 **交列入阻止列表付”与“率** ”表列表已将电子邮件声明为垃圾邮件或垃圾邮件的收件人数。 表按投放排序。
+“已 **交阻止列表付”和“按** ”表列表了已声明电子邮件为垃圾邮件或垃圾邮件的收件人数。 表按投放排序。
