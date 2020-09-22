@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当使用测试用户档案作为陷阱时，对于消息中的任何富集字段，从实际目标用户档案随机选取相应的附加数据并分配给陷阱测试用户档案。 有关扩充的更多信息，请 [参阅此示例](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)。
+>当使用测试用户档案作为陷阱时，对于消息中的任何富集字段，从实际目标用户档案随机选取相应的附加数据并分配给陷阱测试用户档案。 有关扩充的更多信息，请 [参阅此示例](../../automating/using/enriching-profile-data-file.md)。
