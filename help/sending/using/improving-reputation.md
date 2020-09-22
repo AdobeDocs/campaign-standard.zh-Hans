@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 # 提高您的声誉{#improving-reputation}
 
-为避免让收件人精疲力尽，请从目标中删除重复电子邮件地址。 此步骤可保护您发送的信誉并确保良好的隔离管理。 Adobe Campaign优惠执行这些建议所需的工具，并避免被ISP列入阻止列表所的风险。
+为避免让收件人精疲力尽，请从目标中删除重复电子邮件地址。 此步骤可保护您发送的信誉并确保良好的隔离管理。 Adobe Campaign优惠执行这些建议所需的工具，并避免被ISP添加阻止列表到的风险。
 
 在下面，您将找到有关重复和隔离管理的详细信息。
 
