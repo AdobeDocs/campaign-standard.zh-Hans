@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 12%
+source-wordcount: '575'
+ht-degree: 11%
 
 ---
 
@@ -97,5 +97,5 @@ Campaign Standard提供 **了多种交付工** 具，帮助您提高成功发送
 * [发送测试、准备和发送电子邮件（视频）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [查看电子邮件投放和报告（视频）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [电子邮件入门](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
-* [投放最佳实践](https://helpx.adobe.com/cn/campaign/kb/delivery-best-practices.html)
+* [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [添加对照组](../../sending/using/control-group.md)
