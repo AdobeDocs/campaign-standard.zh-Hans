@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ ht-degree: 97%
 
 利用定向维度和资源，可定义查询基于哪些元素来确定投放的目标。
 
-定向维度在目标映射中定义。有关更多信息，请参阅[此章节](../../administration/using/target-mappings-in-campaign.md)。
-
-可在创建工作流时，通过查询活动的 **[!UICONTROL Properties]** 选项卡定义定向维度和资源。
+它们以目标映射 [进行配](../../administration/using/target-mappings-in-campaign.md)置，并在创建工作流时在查询 **[!UICONTROL Properties]** 活动的选项卡中进行定义。
 
 >[!NOTE]
 >
