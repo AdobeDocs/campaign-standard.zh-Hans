@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +107,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景设置"
->abstract="通过电子邮件设计器，您可以个性化内容的背景颜色或背景图像。"
+>abstract="通过电子邮件设计器，您可以个性化内容的背景颜色或背景图像。请注意，并非所有电子邮件客户都支持背景图像。"
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他信息"
 
 在设置电子邮件设计器的背景时，Adobe建议：
 
