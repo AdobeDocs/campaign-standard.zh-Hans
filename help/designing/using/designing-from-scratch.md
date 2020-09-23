@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="关于结构组件"
->abstract="定义电子邮件布局的结构元素。"
+>abstract="结构组件定义电子邮件的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="定义电子邮件列"
->abstract="电子邮件设计器允许您轻松定义电子邮件的列结构。"
+>abstract="电子邮件设计器允许您通过定义列结构轻松定义电子邮件的布局。"
 
 电子邮件设计器允许您轻松定义电子邮件的结构。 通过使用简单的拖放操作添加和移动结构元素，您可以在数秒内设计电子邮件的形状。
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="关于内容组件"
->abstract="内容组件是原始的空组件，放置到电子邮件中后，即可编辑这些组件。"
+>abstract="内容组件是空的内容占位符，您可以通过编辑这些占位符来创建电子邮件。"
 
 内容组件是原始的空组件，放置到电子邮件中后，即可编辑这些组件。
 
@@ -164,7 +164,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="视频设置"
->abstract="使用此组件在电子邮件中插入视频。"
+>abstract="使用此组件在电子邮件中插入视频。 请注意，视频不适用于所有电子邮件客户端。 我们建议设置备用映像。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
+
 
 将视频组件插入电子邮件的结构组件，并在中输入视频链接 **[!UICONTROL Component Settings]**。
 
@@ -187,7 +189,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="传送设置"
->abstract="了解如何在内容中插入和配置传送。"
+>abstract="了解如何在您的内容中插入和配置传送。请注意，传送不适用于所有电子邮件客户端，并且在不支持时将显示回退图像。"
 
 1. 将组件拖放 **[!UICONTROL Carousel]** 到结构组件中。
 1. 浏览以从您的计算机中选择图像。
