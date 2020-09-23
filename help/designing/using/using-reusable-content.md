@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ HTML内容模板可从“高级”菜 **[!UICONTROL Resources]** 单的 **[!UICO
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="关于片段"
->abstract="片段是可重用的组件，可在一个或多个电子邮件中引用。"
+>abstract="片段是可重复使用的内容块，可在一个或多个电子邮件中引用。"
 
 片段是可重用的组件，可在一个或多个电子邮件中引用。
 可以在“资源”>“内容片段和模板” **下的界** 面 **中找到这些片段和模板**。
