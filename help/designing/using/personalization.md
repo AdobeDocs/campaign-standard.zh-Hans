@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2573'
 ht-degree: 3%
 
 ---
@@ -231,7 +231,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="定义动态内容"
->abstract="根据通过收件人编辑器定义的规则为表达式定义不同的内容。"
+>abstract="定义将仅根据您将定义的条件显示给某些用户档案的不同内容。"
 
 在电子邮件中，您可以定义不同的内容，这些内容将根据通过收件人编辑器定义的条件动态显示给表达式。 例如，从同一封电子邮件中，您可以确保每位用户档案根据其年龄范围收到不同的邮件。
 
@@ -338,7 +338,7 @@ Adobe Campaign允许您根据特定标准或使用跟踪来个性化消息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="管理动态图像"
->abstract="根据通过表达式编辑器定义的规则，使用动态图像个性化电子邮件。"
+>abstract="根据您将定义的条件，使用动态图像个性化电子邮件。"
 
 在此示例中，应用于图像的动态内容配置如下：
 
