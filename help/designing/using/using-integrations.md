@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign Standard与Dreamweaver的集成使您能够在Dreamweaver界面�
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用产品列表"
->abstract="产品列表允许您在电子邮件内容中引用一个或多个数据集合。"
+>abstract="产品列表允许您引用数据收集并在电子邮件内容中显示它。"
 
 产品列表允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于交易电子邮件。 此处提供此功能的专用 [部分](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 
