@@ -1,6 +1,6 @@
 ---
 title: 测试和发送快速入门
-description: 发现测试和发送消息的不同步骤。
+description: 了解如何准备和测试消息、计划、发送和监控消息、了解故障和隔离管理，以及优化交付能力。
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '586'
 ht-degree: 11%
 
 ---
