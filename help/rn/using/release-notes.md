@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * 现在，发布自定义资源时，准备后将显示确认弹出窗口。
 * 自定义资源失败时显示的弹出消息已得到改进，以便更清晰。
 * 表达式中的工作流编辑器已得到改进，以防止执行错误。 [新增功能](../../automating/using/customizing-workflow-external-parameters.md) :这些变量可用于所有活动，允许您在调用具有外部参数的工作流后使用事件变量。 此外，现在表达式编辑器中会显示工具提示以及函数说明。
-* 新过滤器已加入交易事件的列表。 它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
+* [新过滤器](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) 已添加到交易事件的列表中。 它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
 * 导出包时显示的日志更加具体，并详细说明在出现故障时遇到的错误。
 * 发送消息后，您现在可以搜索、过滤和导出跟踪的URL [的列表](../../sending/using/tracking-messages.md)。
 * 启 [动项和活动之间的自动同步](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) 现在为GA，默认情况下处于启用状态。
