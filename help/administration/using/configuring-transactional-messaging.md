@@ -12,10 +12,10 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
-ht-degree: 6%
+source-wordcount: '3169'
+ht-degree: 7%
 
 ---
 
@@ -201,12 +201,6 @@ Adobe Campaign开始收到与此事件配置相关的事件后， **[!UICONTROL 
 
 事件（JSON格式）从最新到最旧列出。 此列表允许您检查事件的内容或状态等数据，以便进行控制和调试。
 
-### 事务型消息传递发布流程 {#transactional-messaging-pub-process}
-
-下图说明了事务型消息传递的发布流程。
-
-![](assets/message-center_pub-process.png)
-
 ### 取消发布事件 {#unpublishing-an-event}
 
 通 **[!UICONTROL Unpublish]** 过该按钮可以取消事件的发布，该发布从REST API中删除与您先前创建的事件对应的资源。 现在，即使是通过您的网站触发了事件，也不再发送相应的消息，也不会将消息存储在数据库中。
@@ -218,6 +212,14 @@ Adobe Campaign开始收到与此事件配置相关的事件后， **[!UICONTROL 
 >如果您已发布相应的事务性消息，则事务性消息发布也会被取消。 See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 单击该 **[!UICONTROL Publish]** 按钮以生成新的REST API。
+
+### 事务型消息传递发布流程 {#transactional-messaging-pub-process}
+
+下图说明了事务型消息传递的发布流程。
+
+![](assets/message-center_pub-process.png)
+
+有关发布、暂停和取消发布事务性消息的详细信息，请参 [阅此部分](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
 ### 删除事件 {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Adobe Campaign开始收到与此事件配置相关的事件后， **[!UICONTROL 
 >
 >删除已发布且已使用的事件配置也会删除相应的事务性消息及其发送和跟踪日志。
 
+## 搜索事务事件 {#searching-transactional-events}
+
+要访问和搜索已创建的事务事件，请按照以下步骤操作。
+
+1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
+1. 单击 **[!UICONTROL Show search]** 按钮。
+
+   ![](assets/message-center_search-events.png)
+
+1. 您可以在上筛选 **[!UICONTROL Publication status]**。 这允许您仅显示已发布的事件（例如）。
+1. 您还可以使用筛选事件 **[!UICONTROL Last event received]**。 例如，如果输入10，则只显示上次事件在10天前或更久之前收到的事件配置。 这样，您就可以显示在给定期间中哪些事件处于非活动状态。
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >默认值为0。 随后将显示所有事件。
+
 ## 在网站中集成事件触发 {#integrating-the-triggering-of-the-event-in-a-website}
 
 创建事件后，您必须将触发此事件的操作集成到您的网站中。
 
 在Transactional messaging操作原则部分 [中描述的示例中](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) ，您希望当您的客户之一在购买购物车中的产品之前离开您的网站时，触发“购物车废弃”事件。 为此，您的网站Web开发人员必须使用Adobe Campaign StandardREST API。
 
-请参阅 [REST API文档](../../api/using/managing-transactional-messages.md) 。
+请参阅 [REST API文档](../../api/using/managing-transactional-messages.md)。
 
 ## 交易事件特定配置 {#transactional-event-specific-configurations}
 
