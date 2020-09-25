@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6215'
-ht-degree: 92%
+source-wordcount: '6247'
+ht-degree: 91%
 
 ---
 
@@ -41,6 +41,8 @@ Control groups - [Read More](../../sending/using/control-group.md)
 已向工作流最佳实践中添加了建议，内容涉及每个工作流要使用的活动数。 [阅读更多](../../automating/using/best-practices-workflows.md#number-activities)
 
 新增了关于投放最佳实践的一节。 [阅读更多](../../sending/using/delivery-best-practices.md)
+
+已添加一个部分来描述新过滤器，这些新事件能够根据其状态和到最后一次收到事件时搜索配置。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## 文档更新 - 2020 年 9 月{#doc-updates-september-2020}
 
