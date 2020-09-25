@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 管理快速入门
-description: Adobe Campaign为您提供一整套管理工具。 了解如何管理用户和配置渠道。
+description: 了解如何管理用户、定义角色和授予权限；了解监控指南、渠道特定配置和应用程序设置，如目标映射、技术工作流、品牌、数据保留等。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -43,14 +43,14 @@ ht-degree: 14%
 
 可用的不同菜单有：
 
-* [用户和安全](../../administration/using/about-access-management.md): 此菜单允许您管理对平台（用户、角色、安全组、设备）的访问。
-* [渠道](../../administration/using/about-channel-configuration.md): 此菜单重组链接到不同平台渠道（电子邮件、短信）的技术参数，以及类型和隔离管理。
-* [应用程序设置](../../administration/using/external-accounts.md): 此菜单允许您配置不同的应用程序元素(外部帐户、选项、技术工作流)。
-* [开发](../../developing/using/data-model-concepts.md): 此菜单允许您管理自定义资源并访问诊断工具。
-* [实例设置](../../administration/using/branding.md): 此菜单用于定义不同品牌并配置其设置(徽标、管理跟踪、URL域以访问登陆页等)。
-* [部署](../../automating/using/managing-packages.md): 此菜单重新分组包导入和导出选项。
-* [客户指标](../../audiences/using/active-profiles.md): Adobe Campaign提供一个报告，其中显示活动用户档案的数量。 此报告仅提供信息，对计费没有直接影响。
-* [隐私工具](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html): 此菜单允许您创建GDPR访问和删除请求并跟踪其演变。
+* [用户和安全](../../administration/using/about-access-management.md):此菜单允许您管理对平台（用户、角色、安全组、设备）的访问。
+* [渠道](../../administration/using/about-channel-configuration.md):此菜单重新分组链接到不同平台渠道（电子邮件、移动设备）的技术参数，以及类型和隔离管理。
+* [应用程序设置](../../administration/using/external-accounts.md):此菜单允许您配置不同的应用程序元素(外部帐户、选项、技术工作流)。
+* [开发](../../developing/using/data-model-concepts.md):此菜单允许您管理自定义资源并访问诊断工具。
+* [实例设置](../../administration/using/branding.md):此菜单用于定义不同品牌并配置其设置(徽标、管理跟踪、URL域以访问登陆页等)。
+* [部署](../../automating/using/managing-packages.md):此菜单重新分组包导入和导出选项。
+* [客户指标](../../audiences/using/active-profiles.md):Adobe Campaign提供一个报告，其中显示活动用户档案的数量。 此报告仅提供信息，对计费没有直接影响。
+* [隐私工具](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html):此菜单允许您创建GDPR访问和删除请求并跟踪其演变。
 
 ## 用户和安全性 {#users-security}
 
@@ -58,7 +58,7 @@ ht-degree: 14%
 
 邀请用户访问应用程序并管 **理安全组**，这些组是在您的组织内共享相同角色和权限的一组用户。 By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
-活动标准还允许您监视与安全相关的信息。 您可以通过屏幕检索有关用户执行的活动导出的 **[!UICONTROL Export audits]** 信息，并利用屏幕来监 **[!UICONTROL Licenses]** 视组织内所有已安装的许可证，以及内部版本号、发行版本和协议条款等不同信息。
+活动标准还允许您监视与安全相关的信息。 您可以通过屏幕检索有关用户执行的活动导出 **[!UICONTROL Export audits]** 的信息，并利用屏幕来监 **[!UICONTROL Licenses]** 视组织内所有已安装的许可证，以及内部版本号、发行版本和协议条款等不同信息。
 
 阅读更多:
 
@@ -75,7 +75,7 @@ ht-degree: 14%
 
 必须正确配置Adobe Campaign中的所有通信渠道，以便能够有效地发送消息。 **[!UICONTROL Channel]** 菜单允许您管理链接到不同渠道的技术参数。
 
-配置各种电 **子邮件** 参数： 跳出、隔离、电子邮件属性和路由参数的处理规则、typoly规则。 为SMS路由定义渠道配 **置和属性** ，以及SMS编码和格式。
+配置各种电 **子邮件** 参数：跳出、隔离、电子邮件属性和路由参数的处理规则、typoly规则。 为SMS路由定义渠道配 **置和属性** ，以及SMS编码和格式。
 
 设置移 **动应用** ，以便能够使用Adobe Experience PlatformSDK发送应用程序内消息和推送通知，并通过创建和 **设置事件来** 配置事务消息。
 
