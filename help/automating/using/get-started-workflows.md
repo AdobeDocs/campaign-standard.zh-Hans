@@ -1,6 +1,6 @@
 ---
 title: 流程和数据管理入门
-description: Adobe Campaign优惠一个全面的图形环境，它允许您设计流程并实现流程自动化。
+description: 利用Adobe Campaign的工作流程功能，通过一个功能强大的全面图形环境实现流程自动化。 了解如何加载数据、管理受众、发送消息、实施数据管理周期、自动化技术流程等。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计包括细
 
 工作流还可能涉及用户，方法是为他们分配任务或让他们批准已执行的任务。 这意味着您可以向一个或多个用户分配任务，以处理内容或指定目标，并在发送消息之前批准验证。
 
-工作流可以用于不同的上下文，例如：
+工作流可用于不同的上下文，例如：
 
 * 定位以管理受众或发送消息。
 * 数据管理(ETL)来操作数据。
@@ -61,7 +61,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计包括细
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-利用查询 **编辑器** ，从数据库中过滤数据并建立目标群，从而更好地收件人。 查询编辑器可用于在Campaign Standard中执行多个操作： 创建查询类型受众，在工作流活动中定义投放目标或人口。
+利用查询 **编辑器** ，从数据库中过滤数据并建立目标群，从而更好地收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众，在工作流活动中定义投放目标或人口。
 
 查询编辑器附带 **预定义过滤器和规则** ，可快速、轻松地进行筛选。 但是，您也可以使用 **高级表达式编辑** 功能。 这允许您手动输入条件和使用函数，以形成您自己的规则。
 
@@ -69,7 +69,7 @@ Adobe Campaign优惠是一个全面的图形环境，它允许您设计包括细
 
 * [编辑查询](../../automating/using/editing-queries.md)
 * [高级表达式编辑](../../automating/using/advanced-expression-editing.md)
-* [功能列表](../../automating/using/list-of-functions.md)
+* [函数列表](../../automating/using/list-of-functions.md)
 
 ## 导入／导出数据 {#import-export-data}
 
@@ -90,10 +90,10 @@ Campaign Standard具有多 **种数据管理功能** ，可导入和导出数据
 阅读更多:
 
 * [导入和导出数据](../../automating/using/about-data-import-and-export.md)
-* [用例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)
+* [使用案例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 其他资源
 
 * [流程和数据管理教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [技术工作流](../../administration/using/technical-workflows.md)
-* [Campaign Standard数据模型入门](../../developing/using/get-started-data-model.md)
+* [Campaign Standard 数据模型快速入门](../../developing/using/get-started-data-model.md)
