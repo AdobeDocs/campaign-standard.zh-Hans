@@ -1,6 +1,6 @@
 ---
 title: 通信渠道快速入门
-description: 了解如何针对各种渠道发送个性化消息以及创建跨渠道活动以更好地目标收件人。
+description: 了解如何在各种渠道（电子邮件、推送通知、App、SMS和直邮）上创建个性化消息。 了解如何使用模板、创建登陆页和检查投放最佳实践。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 16%
+source-wordcount: '532'
+ht-degree: 15%
 
 ---
 
