@@ -1,6 +1,6 @@
 ---
 title: 动态报告入门
-description: 访问活动内置投放报告，拖放变量和维度以创建新的动态报表，并分析活动的成功。
+description: 分析活动在内建或自定义动态报告中的成功。
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '349'
 ht-degree: 12%
 
 ---
