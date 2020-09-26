@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 快速入门
-description: Adobe Campaign是一款功能强大的跨渠道活动管理工具，可帮助您调整线上和线下策略，创造个性化的客户体验。
+description: 发现关键功能、用户界面和全局指南。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 4%
 
 ---
