@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 管理快速入门
-description: 了解如何管理用户、定义角色和授予权限；了解监控指南、渠道特定配置和应用程序设置，如目标映射、技术工作流、品牌、数据保留等。
+description: 发现用户和权限管理、监视指南、渠道特定配置和应用程序设置指南。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '650'
 ht-degree: 14%
 
 ---
