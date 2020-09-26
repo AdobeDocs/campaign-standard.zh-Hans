@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Campaign中设计内容
-description: 使用活动电子邮件设计器通过拖放界面创建引人注目的单独定制电子邮件。 从一张白纸开始，或利用现有内容片段或模板，为每封电子邮件设计和优化所有内容
+description: 利用活动电子邮件设计器，从空白的白板开始创建电子邮件内容，或利用现有内容片段或模板。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1145'
 ht-degree: 4%
 
 ---
