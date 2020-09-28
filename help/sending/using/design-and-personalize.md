@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 7%
@@ -142,4 +142,4 @@ ht-degree: 7%
 
 Adobe建议预览您的消息，检查其个性化以及收件人将如何看到您的投放。
 
-* 在电子邮件设计器 **[!UICONTROL Preview]** 中，通过按钮可视图每个内容的呈现，以用于收件人。 个性化字段和内容的条件元素被替换为所选用户档案的相应信息。 [了解详情](../../sending/using/previewing-messages.md)
+在电子邮件设计器 **[!UICONTROL Preview]** 中，通过按钮可视图每个内容的呈现，以用于收件人。 个性化字段和内容的条件元素被替换为所选用户档案的相应信息。 [了解详情](../../sending/using/previewing-messages.md)
