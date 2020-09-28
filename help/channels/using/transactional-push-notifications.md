@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ The configuration steps are presented in the [Configuring an event to send a tra
    有关编辑推送通知内容的详细信息，请 [参阅创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 保存更改并发布消息。请参阅[发布事务型消息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+
 1. 使用Adobe Campaign StandardREST API在Android(gcm)上使用一个移动应用程序(WeFlight)将事件发送到注册令牌(ABCDEF123456789)，其中包含登记数据。
 
    ```
@@ -114,13 +115,9 @@ The configuration steps are presented in the [Configuring an event to send a tra
 
 1. 请转至创建的事务型消息以对其进行编辑。请参阅[事件事务型消息](../../channels/using/event-transactional-messages.md)。
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    与基于实时事件的配置不同，您可以直接访问所有用户档案信息以个性化您的信息。 请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    有关编辑推送通知内容的更多信息。 请参 [阅创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
@@ -142,4 +139,3 @@ The configuration steps are presented in the [Configuring an event to send a tra
    >[!NOTE]
    >
    >没有注册令牌、应用程序和推送平台字段。 在此示例中，对帐是使用电子邮件字段执行的。
-
