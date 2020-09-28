@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,10 @@ ht-degree: 100%
 
 蓝色的垂直线条是用于突出显示当前日期的时间顺序标记。默认情况下，该线条位于屏幕中间。您可以在屏幕中向右或向左滚动以修改显示的时段。
 
-通过 ![](assets/timeline_zoom_in.png) 和 ![](assets/timeline_zoom_out.png) 按钮，您可以增加或减少周长。利用 ![](assets/timeline_zoom_in.png) 按钮可显示更多层级的详情，但显示的时段会缩短，最短级别为天数，而使用增 ![](assets/timeline_zoom_out.png) 按钮，可显示更长的时段。
+使用图标；
+
+* ![](assets/timeline_zoom_in.png) 在显示天数之前，减少周长或增加细节级别，期限更短
+* ![](assets/timeline_zoom_out.png) 增加周长，或显示更大的时间范围
 
 单击每个项目名称右侧的箭头，可显示相应的内容。项目可以包含子项目、营销策划和登陆页面。营销策划的部署方式与项目相同，可包含电子邮件、短信和登陆页面。
 
@@ -49,12 +52,12 @@ ht-degree: 100%
 
 每个元素都有一个与其类型对应的图标：
 
-* ![](assets/timeline_program_icon.png)：项目
-* ![](assets/timeline_campaign_icon.png)：营销策划
-* ![](assets/timeline_lp_icon.png)：登陆页面
-* ![](assets/timeline_email_icon.png)：电子邮件
-* ![](assets/timeline_sms_icon.png)：短信
-* ![](assets/timeline_push_icon.png)：推送通知
+* ![](assets/timeline_program_icon.png) 项目
+* ![](assets/timeline_campaign_icon.png) 营销活动
+* ![](assets/timeline_lp_icon.png) 登陆页
+* ![](assets/timeline_email_icon.png) 电子邮件
+* ![](assets/timeline_sms_icon.png) 短信
+* ![](assets/timeline_push_icon.png) 推送通知
 
 每个框左边框的彩色线条表示相关元素的状态。
 
