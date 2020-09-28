@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 25%
 
 ## 概述
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>介绍交易消息 <b>的概念</b></p></td>
-<td ><br><p>交易消息使您能够 <b>实时向客户发送</b> 个人和独特的消息。</p></td>
-<td>它可以是欢迎邮件、订单发运确认、密码修改等。</td>
-<td>Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发送要转换为自定义事务性消息的事件。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+介绍交易消息 **的概念**
+
+交易消息使您能够实时向客户发送个性化的独特消息。
+
+它们可以是欢迎信息、订购送货确认、密码更新等。
+Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发送要转换为自定义事务性消息的事件。
 
 事务型消息可以通过电子邮件、短信或推送通知发送，具体取决于您的选择。请核实您的许可协议。
 
@@ -73,16 +73,30 @@ Adobe Campaign Standard API 也可使用事务型消息传递。有关更多信�
 
 Adobe Campaign 提供两类事务型消息：
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">事件事</a><br>务消息化 <b>事件</b></p></td>
-<td><p><ul><li>事件事务性消息不包含用户档案信息。</li><li>它们与疲劳规 <a href="../../sending/using/fatigue-rules.md">则不兼容</a> (即使是与用户档案扩充)。</li><li>投放目标由事件本身包含的数据定义。</li></ul></p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">用户档案事</a><br>务性消息 <b>从Adobe Campaign营销数据库获取用户档案</b></p></td>
-<td><p>用户档案事务性消息允许您：<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>在消息中包含退订链接。</li><li>将事务型消息添加到全局投放报告。</li><li>在客户历程中使用事务型消息。</li></ul></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_event.svg" width="60px">
+
+对应于事件的[事件事务型消息](../../channels/using/event-transactional-messages.md)。
+
+* 事件事务性消息不包含用户档案信息。
+
+* 它们与疲劳规 [则不兼容](../../sending/using/fatigue-rules.md) (即使是与用户档案扩充)。
+
+* 投放目标由事件本身包含的数据定义。
+
+
+<img src="assets/do-not-localize/icon_profile.svg" width="60px">
+
+对应于 Campaign 营销数据库用户档案的[用户档案事务型消息](../../channels/using/profile-transactional-messages.md)。
+
+借助用户档案事务性消息，您可以：
+
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+
+* 在消息中包含退订链接。
+
+* 将事务型消息添加到全局投放报告。
+
+* 在客户历程中使用事务型消息。
 
 在配置要转换为事件的事务型消息时，就决定了消息的类型。请参阅[事务型消息传递配置](../../administration/using/configuring-transactional-messaging.md)。
 
@@ -100,53 +114,57 @@ Adobe Campaign 提供两类事务型消息：
 
 ### 第1步——创建和发布事件配置 {#create-event-configuration}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>事务事件配置</b></p></td>
-<td><br><p>配置将命名为“购物车废弃”的事件并发布此事件配置。</p></td>
-<td>将部署网站开发人员将使用的API并自动创建事务性消息。</td>
-<td>请注意，此步骤必须由具有管理权限的 <a href="../../administration/using/users-management.md#functional-administrators">用户执行</a>。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+**事务事件配置**:
+
+* 配置将命名为“购物车废弃”的事件并发布此事件配置。
+
+* 将部署网站开发人员将使用的API并自动创建事务性消息。
+
+* 请注意，此步骤必须由具有管理权限的 [用户执行](../../administration/using/users-management.md#functional-administrators)。
 
 创建和发布事件，可参阅[配置事件以发送事件事务型消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)一节。
 
 ### 第2步——编辑和发布事务性消息 {#create-transactional-message}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>事务性消息版</b></p></td>
-<td><br><p>编辑和个性化事务性消息，测试它，然后发布它。</p></td>
-<td>事务性消息将随时可以发送。</td>
-<td>此步骤可由具有基本访问权限的任何营销 <a href="../../administration/using/users-management.md#basic-users">用户执行</a>。
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+
+**事务性消息版**
+
+* 编辑和个性化事务性消息，测试它，然后发布它。
+
+* 事务性消息将随时可以发送。
+
+* 此步骤可由具有标准用户访问权限的任 [何营销用户执行](../../administration/using/users-management.md#basic-users)。
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 第3步——集成事件触发 {#integrate-event-trigger}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>事件触发集成</b></p></td>
-<td><br><p>使用REST事务性消息API将事件集成到您的网站中。</p></td>
-<td>事件将在客户端放弃其购物车时触发。</td>
-<td>此步骤由网站的开发人员执行。
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="55px">
+
+**事件触发集成**
+
+* 使用REST事务性消息API将事件集成到您的网站中。&lt;
+
+* 事件将在客户端放弃其购物车时触发。
+
+* 此步骤由网站的开发人员执行。
 
 有关将事件集成到网站的更多信息，请参阅 [网站集成](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 ### 第4步——消息投放 {#message-delivery}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>来自您网站的外部事件</b></p></td>
-<td><br><p>执行所有这些步骤后，即可发送消息。</p></td>
-<td>一旦用户离开网站而不订购其购物车中的产品，将触发相应的活动事件。</td>
-<td>然后，用户自动接收通知电子邮件。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
+**来自您网站的外部事件**
+
+* 执行所有这些步骤后，即可发送消息。
+
+* 一旦用户离开网站而不订购其购物车中的产品，将触发相应的活动事件。
+
+* 然后，用户自动接收通知电子邮件。
 
 ## 关键步骤 {#key-steps}
 
@@ -154,7 +172,7 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 ![](assets/message-center-overview.png)
 
-**相关主题：**
+## 相关主题
 
 * [发送消息的关键步骤](../../channels/using/key-steps-to-send-a-message.md)
 * [通信渠道快速入门](../../channels/using/get-started-communication-channels.md)
