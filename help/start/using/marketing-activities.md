@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 82%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 99%
 
 在主区域中，列表中的每种活动类型都拥有一个图标：
 
-* ![](assets/marketing_program_icon.png)：项目
-* ![](assets/marketing_campaign_icon.png)：营销策划
-* ![](assets/marketing_email_icon.png)：电子邮件
-* ![](assets/marketing_sms_icon.png)：短信
-* ![](assets/marketing_push_icon.png)：推送通知
-* ![](assets/marketing_lp_icon.png)：应用程序内消息
-* ![](assets/marketing_lp_icon.png)：登陆页面
-* ![](assets/marketing_workflow_icon.png)：工作流
+* ![](assets/marketing_program_icon.png) 项目
+* ![](assets/marketing_campaign_icon.png) 营销活动
+* ![](assets/marketing_email_icon.png) 电子邮件
+* ![](assets/marketing_sms_icon.png) 短信
+* ![](assets/marketing_push_icon.png) 推送通知
+* ![](assets/marketing_lp_icon.png) 应用程序内消息
+* ![](assets/marketing_lp_icon.png) 登陆页
+* ![](assets/marketing_workflow_icon.png) 工作流
 
 根据有效期和状态，与此图标关联的颜色，指示相应活动的执行状态。
 
@@ -86,16 +86,16 @@ ht-degree: 99%
 
 根据环境，您可以：
 
-* [创建电子邮件](../../channels/using/creating-an-email.md)
-* [创建短信](../../channels/using/creating-an-sms-message.md)
-* [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [创建应用程序内消息](../../channels/using/about-in-app-messaging.md)
-* [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [创建登陆页面](../../channels/using/getting-started-with-landing-pages.md)
-* [创建营销策划](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [创建项目](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 创建电子邮件——了 [解更多](../../channels/using/creating-an-email.md)
+* 创建SMS —— 了解 [更多](../../channels/using/creating-an-sms-message.md)
+* 创建推送通知——了 [解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 创建应用程序内消息——了解 [更多](../../channels/using/about-in-app-messaging.md)
+* 创建工作流——了 [解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 创建登陆页-了 [解更多](../../channels/using/getting-started-with-landing-pages.md)
+* 创建活动-了 [解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 创建项目-了 [解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动。您可以选择通过活动的属性，将营销活动关联到父营销策划（如果创建项目，则关联到父项目）。
+>您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，并选择通过活动的属性将营销活动关联到父项目(或者，如果您创建了项目，则将关联到父活动)。
 
