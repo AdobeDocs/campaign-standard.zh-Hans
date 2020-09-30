@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,6 +154,8 @@ Adobe建议将内容更新到最新版本，以避免CSS冲突问题等问题。
 
 * 在编辑样式时，只有大多数电子邮件客户端正式支持的Web字体才可用。
 * 无法将样式保存为主题以供将来重用。 但是，CSS样式可保存在内容模板或电子邮件中。 For more on styles, see [this section](../../designing/using/styles.md).
+* 推荐人meta标记在电子邮件设计器中不受支持。
+* 替代对（Unicode字符集的基本多语言平面中未包含的字符）不能以2字节（16位）存储，需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中出现一些不兼容问题。 在发送消息之前，您需要执行强测试。
 
 **相关主题**
 
