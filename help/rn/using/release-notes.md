@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 4%
 * 导出包时显示的日志更加具体，并详细说明在出现故障时遇到的错误。
 * 发送消息后，您现在可以搜索、过滤和导出跟踪的URL [的列表](../../sending/using/tracking-messages.md)。
 * 启 [动项和活动之间的自动同步](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) 现在为GA，默认情况下处于启用状态。
-* 事务性消息可以高优先级发送，即使在大量投放工作负载的情况下也是如此。
 * 通过删除发送验证导出，工作流导出包的大小已得到优化。
 * 添加了一条新消息以在文件传输活动中显示已下载文 **件的大小** 。
 * 无效会话令牌的错误消息已得到改进。
@@ -134,6 +133,7 @@ ht-degree: 4%
 **修补程序**
 
 * 修复了在启用跟踪时，阻止您使用推送通知或应用程序内消息传递的目标链接的问题。
+* 修复了在大量投放时，事务性消息中的高优先级不受尊重的问题。
 * 修复了一个问题，该问题可能会阻止您将品牌分配给交易电子邮件。 发布步骤期间可能显示多条错误消息。 (CAMP-44988)
 * 修复了工作流用户界面中的一个问题，该问题可能会阻止信息保存在请求数值的字段中。 (CAMP-44025)
 * 修复了在导入模板工作流中使用测试活动时 **可能显** 示错误消息的问题。 (CAMP-42910)
