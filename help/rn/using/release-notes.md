@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 4%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **工作流执行改进** （测试版）:在围绕工作流的全局倡议的背景下，已经制定了一些重大改进，以稳定内存管理、减少延迟和优化工作流在执行过程中消耗的内存。 这些改进目前采用测试版，并且仅适用于一组客户。 计划于2021年初全面上市。
 * 为了提高安全性，活动现在使用签 **名机制** 来跟踪电子邮件中的链接。
 * 上传iOS证书或Android密钥时，移动 **应用程序配置已得到改** 进，并显示更清晰的错误消息。
-* 新 **投放映射** (mapRtEventAppSubRcp)现在可用于事务推送消息定位用户档案。 这些投放的投放、排除和跟踪日志现在将在broadLogAppSubRcp、excludeLogAppSubRcp和trackingLogAppSubRcp表中可用。 这解决了在使用投放维发送事务推送消息时导致用户档案分析失败 **的问** 题。
 * **SMS错误管理** 已得到改进，以防止将过多用户档案添加到隔离列表。 默认情况下，SMS错误现在配置为软错误而不是硬错误。 请参见[此页面](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。
 
 **Email Designer 增强功能**
