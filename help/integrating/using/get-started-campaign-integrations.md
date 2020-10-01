@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 7%
@@ -54,21 +54,21 @@ ht-degree: 7%
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 允许您在Adobe Experience Manager直接创建映射到Adobe Campaign库的电子邮件内容或表单。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用活动和Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a> , <br/>创 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">建包含Experience Manager和活动的电子邮件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用活动和Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">创建包含Experience Manager和活动的电子邮件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> 目标<br /> Classic, Standard<br /> </td> 
    <td> 允许您插入由Adobe Target在打开由Adobe Campaign创建和发送的电子邮件时动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a> , <br/>集成活动和目标 <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">,</a><br/>实时视频中个性化电子邮件 <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html"></a> 图像（步骤3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">集成活动和目标</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时视频中个性化电子邮件图像</a> （步骤3）
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard、Premium <br /> </td> 
    <td> 允许您直接在Adobe Analytics跟踪电子邮件投放的成功。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">与Analytics共享活动</a><br/>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">共享KPI以实现集成活动报告</a> 视频（步骤1）
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">与Analytics共享活动</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">共享KPI以实现集成活动报告</a> 视频（步骤1）
     </td> 
   </tr> 
   <tr> 
@@ -90,14 +90,14 @@ ht-degree: 7%
    <td> Experience Cloud Triggers<br /> </td> 
    <td> 允许您向Adobe Campaign客户发送个性化电子邮件，以响应Adobe Analytics在您的网站上跟踪的特定行为。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在Experience Cloud、放弃触发器</a><br/>- <a href="../../integrating/using/abandonment-triggers-use-cases.md">活动使用案例中使用Campaign Standard触发器</a><br/>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">根据站点活动视频触发再营销消息</a> （步骤2）
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在Experience Cloud、放弃触发器</a>- <a href="../../integrating/using/abandonment-triggers-use-cases.md">活动使用案例中使用Campaign Standard触发器</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">根据站点活动视频触发再营销消息</a> （步骤2）
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> 允许您编辑来自Dreamweaver的电子邮件内容，并将其与Adobe Campaign同步。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver视频创建个性化</a> 、使 <br/>用 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">活动扩展功能的Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver视频创建个性化</a> 电子邮件， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用Dreamweaver活动扩展</a> 
   </td> 
   </tr> 
   <tr> 
