@@ -11,11 +11,11 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +41,7 @@ Adobe Campaign 提供的默认语言设置为 **EN**。默认语言可以更改�
    >您也可通过单击模板属性中的 **[!UICONTROL Initialize content variant]** 按钮，修改多语言模板中的现有标准模板。
 
 1. 修改属性以自定义标签、跟踪等。
+
 1. 单击变体拼贴，可修改所需变体的数量。随即会显示变体窗口。
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Adobe Campaign 提供的默认语言设置为 **EN**。默认语言可以更改�
    >请勿删除“default”变体，因为该变体将被发送到没有填写首选语言参数的用户档案。
 
 1. 根据需要自定义标签变体，然后单击 **[!UICONTROL Confirm]**。
+
 1. 您还可以直接为每个变体添加内容。
 
 现在，即可根据此多语言模板创建电子邮件或短信。
