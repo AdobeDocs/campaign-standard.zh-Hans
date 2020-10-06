@@ -1,5 +1,5 @@
 ---
-title: 准备和发送推送通知
+title: 创建和发送推送通知
 description: 按照以下步骤创建Adobe Campaign的单发推送通知。
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +86,9 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >如果有效负荷大小超过4KB限制，则不会传递消息。 个性化数据会影响消息的大小。
+   >如果有效负荷大小超过4KB限制，则不会传递消息。
+
+请注意，个性化数据会影响消息的大小。
 
 ## 发送通知 {#sending-the-notification}
 
@@ -131,4 +133,3 @@ ht-degree: 5%
 
 * [推送通知报告](../../reporting/using/push-notification-report.md)
 * [在工作流中发送推送通知](../../automating/using/push-notification-delivery.md)
-
