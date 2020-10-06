@@ -44,7 +44,7 @@ ht-degree: 100%
 
 如果您是从 Campaign Standard 20.2（或更早版本）升级，请注意，外部 API 功能从 Beta 版移至 Campaign Standard 20.3 版本中的“一般可用性”。
 
-因此，如果您之前使用的是 Beta 版 External API 活动，则需要在所有工作流中用 GA 版 External API 活动进行替换。  从 Campaign Standard 20.3 版本开始，使用 Beta 版外部 API 的工作流将无法工作。
+因此，如果您之前使用的是 Beta 版 External API 活动，则需要在所有工作流中用 GA 版 External API 活动进行替换。 从 Campaign Standard 20.3 版本开始，使用 Beta 版外部 API 的工作流将无法工作。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -180,35 +180,35 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
  </thead> 
  <tbody> 
   <tr> 
-   <td> 正在调用 API URL '%s'。</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>正在调用 API URL 'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
   </tr> 
   <tr> 
-   <td> 由于在 %d 毫秒内出现 %s，正在重试 API URL '%s'，请尝试 %d。</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>由于在 2364 毫秒内出现 HTTP - 401，正在重试 API URL 'https://example.com/api/v1/web-coupon?count=0'，请尝试 2。</p></td>
   </tr> 
   <tr> 
-   <td> 正在从 '%s’ 传输内容 (%s / %s)。</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>正在从 'https://example.com/api/v1/web-coupon?count=2’ 传输内容 (1234 / 1234)。</p></td> 
   </tr>
   <tr> 
-   <td> 正在对提供程序 ID '%s’ 使用缓存访问令牌。</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>正在对提供程序 ID 'EXT25’ 使用缓存访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。 </p></td> 
   </tr>
   <tr> 
-   <td> 已从服务器获取提供程序 ID '%s’ 的访问令牌。</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>已从服务器获取提供程序 ID 'EXT25’ 的访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。</p></td> 
   </tr>
   <tr> 
-   <td> 由于错误，正在刷新 OAuth 访问令牌 (HTTP: '%d')。</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>由于错误，正在刷新 OAuth 访问令牌 (HTTP: '401')。</p></td> 
   </tr>
   <tr> 
-   <td> 刷新 OAuth 访问令牌时出错（错误：'%d’）。 </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>刷新 OAuth 访问令牌时出错（错误：'404’）。</p></td> 
   </tr>
   <tr> 
-   <td> 在尝试 %d 时使用指定的外部帐户获取 OAuth 访问令牌失败，将在 %d 毫秒内重试。</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>在尝试 1 时使用指定的外部帐户获取 OAuth 访问令牌失败，将在 1387 毫秒内重试。</p></td> 
   </tr>
  </tbody> 
@@ -227,92 +227,92 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - API 请求正文超出限制（限制：'%d'）。</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>API 请求正文超出限制（限制：'5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - API 响应超出限制（限制：'%d'）。</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>API 响应超出限制（限制：'5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - 无法解析 API URL（错误：'%d'）。</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>无法解析 API URL（错误：'-2010'）。</p>
    <p> 注意：当 API URL 验证规则失败时，将记录此错误。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL 主机不能为“localhost”或 IP 地址文字（URL 主机：'%s'）。</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>API URL 主机不能为“localhost”或 IP 地址文字（URL 主机：'localhost'）。</p>
     <p>API URL 主机不能为“localhost”或 IP 地址文字（URL 主机：'192.168.0.5'）。</p>
     <p>API URL 主机不能为“localhost”或 IP 地址文字（URL 主机：'[2001]'）。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL 必须是安全 URL (https)（请求的 URL：'%s'）。</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>API URL 必须是安全 URL (https)（请求的 URL：'https://example.com/api/v1/web-coupon?count=2'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - 无法创建请求主体 JSON。添加“%s”时出错。</td> 
+   <td> WKF-560249 - 无法创建请求主体 JSON。Error when adding '%s'.</td> 
    <td> <p>无法创建请求主体 JSON。添加“params”时出错。</p>
     <p>无法创建请求主体 JSON。添加“data”时出错。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP 标头键值错误（标头键值：'%s'）。</td> 
-   <td> <p>HTTP 标头键值错误（标头键值：'%s'）。</p>
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
    <p> 注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头键值失败时，将记录此错误。</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - 不允许的 HTTP 标头键值（标头键值：'%s'）。</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>不允许的 HTTP 标头键值（标头键值：'%s'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  标头值错误（标头值：'%s'）。</td> 
-   <td> <p>HTTP 标头值损坏（标头值：'%s'）。 </p>
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头值失败时，将记录此错误。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON 有效载荷的属性“%s”不正确。</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>JSON 有效载荷的属性“blah”不正确。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - JSON 格式不正确或不可接受。</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>JSON 格式不正确或不可接受。</p>
    <p>注意：此消息仅适用于从外部 API 解析响应主体，并在尝试验证响应主体是否符合本活动强制规定的 JSON 格式时记录。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - 活动失败（原因：'%s'）。</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>因 HTTP 401 错误响应导致活动失败时 - 活动失败（原因：'HTTP - 401'）。</p>
         <p>因内部调用失败导致活动失败时 - 活动失败（原因：'iRc - -Nn'）。</p>
         <p>因 Content-Type 标头无效导致活动失败时- 活动失败（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "初始化 OAuth 帮助程序时出错（错误：'%d’）"。</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>此错误表示活动无法初始化内部 OAuth2.0 帮助程序工具，因为使用外部帐户中配置的属性初始化帮助程序时出错。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "不允许使用 HTTP 标头键值（标头键值：'%s'）。"</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>此警告（非错误）消息表示 OAuth 2.0 外部帐户已配置为将凭据添加为 HTTP 标头，但不允许使用标头键，因为它是保留的标头键。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - 找不到 '%s' ID 的外部帐户。</td> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
    <td> <p>找不到 'EXT25' ID 的外部帐户。  注意：此错误表示活动配置为使用外部帐户，但再也找不到该外部帐户。从数据库中删除帐户后很可能会发生此情况，而在正常操作环境中不可能发生此情况。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - 已禁用 '%s' ID 的外部帐户。</td> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
    <td> <p>已禁用 'EXT25' ID 的外部帐户。注意：此错误表示活动配置为使用外部帐户，但已禁用该帐户（或标记为非活动）。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - 不支持协议。</td> 
+   <td> WKF-560282 - Protocol not supported.</td> 
    <td> <p>此错误表示与活动关联的外部帐户不是 OAuth2.0 外部帐户。因此，除非出现某些损坏或手动更改活动配置，否则不可能发生此错误。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - 无法获取 OAuth 访问令牌。</td> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
    <td> <p>此错误的最常见原因是外部帐户配置错误（例如，使用外部帐户，但未测试连接是否成功）。外部帐户上的 URL/凭据可能已更改。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - 无法访问位于 %s 的页面。</td> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
    <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着外部授权服务器的 URL 不正确/已更改/来自服务器的响应为“找不到页面”。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - 凭据不完整/不正确。</td> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
    <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着凭据不正确或缺少连接到身份验证服务器所需的其他凭据。
 </p></td>
   </tr>
