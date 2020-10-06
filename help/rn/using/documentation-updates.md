@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 91%
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
-**此版本中包含的新功能**
+**此版本中包含的新增功能**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+控制 - [阅读更多](../../sending/using/control-group.md)
 
-外部API（OAuth支持）-阅 [读更多](../../automating/using/external-api.md)
+外部 API（OAuth 支持）- [阅读更多](../../automating/using/external-api.md)
 
-旅程AI集成——阅 [读更多](../../sending/using/predictive.md)
+Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 **随版本提供的其他文档更新**
 
-有关如何使用外部参数调用工作流的部分已通过表达式编辑器中提供的新功能进行了丰富。 [阅读更多](../../automating/using/customizing-workflow-external-parameters.md)
+有关如何使用外部参数调用工作流的部分已通过表达式编辑器中提供的新功能进行了扩充。[阅读更多](../../automating/using/customizing-workflow-external-parameters.md)
 
-已向工作流最佳实践中添加了建议，内容涉及每个工作流要使用的活动数。 [阅读更多](../../automating/using/best-practices-workflows.md#number-activities)
+已向工作流最佳实践中添加了关于每个工作流要使用的活动数的建议。[阅读更多](../../automating/using/best-practices-workflows.md#number-activities)
 
 新增了关于投放最佳实践的一节。 [阅读更多](../../sending/using/delivery-best-practices.md)
 
@@ -46,49 +46,49 @@ Control groups - [Read More](../../sending/using/control-group.md)
 
 ## 文档更新 - 2020 年 9 月{#doc-updates-september-2020}
 
-事件事务性消息科已重新组织和澄清。 [阅读更多](../../channels/using/event-transactional-messages.md)
+已重组并阐明事件事务性消息部分。[阅读更多](../../channels/using/event-transactional-messages.md)
 
-添加了警告说明，以警告用户有关日志访问权限限制的信息。 [阅读更多](../../administration/using/users-management.md)
+添加了警告说明，以警告用户与日志访问权有关的权限限制。[阅读更多](../../administration/using/users-management.md)
 
-添加了新部分以详细说明创建新品牌的过程。 [阅读更多](../../administration/using/branding.md#creating-a-brand)
+添加了新部分以详细说明创建新品牌的过程。[阅读更多](../../administration/using/branding.md#creating-a-brand)
 
-新的Campaign Standard- Microsoft Dynamics 365集成现已推出。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+现在提供新的 Campaign Standard - Microsoft Dynamics 365 集成。[阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-已在活动用户档案报告中为匿名源添加信息。 [阅读更多](../../audiences/using/active-profiles.md)
+已在活动用户档案报告中添加了有关匿名源的信息。[阅读更多](../../audiences/using/active-profiles.md)
 
 ## 文档更新 - 2020 年 8 月{#doc-updates-august-2020}
 
-提供了有关事务消息处理快速入门的新更新部分。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+提供有关事务性消息传递入门的新更新部分。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-“事 **务消息限制** ”部分已移 [到此处](../../channels/using/transactional-messaging-limitations.md)
+**事务性消息传递限制**&#x200B;部分已移至[此处](../../channels/using/transactional-messaging-limitations.md)
 
-“准 **备发送** ”部分已移 [到此处](../../sending/using/preparing-the-send.md)
+**准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md)
 
 ## 文档更新 - 2020 年 7 月{#doc-updates-july-2020}
 
-新增了一节，其中载有与Campaign Standard监测相关的准则。 [阅读更多](../../administration/using/monitoring-guidelines.md)
+添加了新部分，其中包含与 Campaign Standard 监控相关的准则。[阅读更多](../../administration/using/monitoring-guidelines.md)
 
-外部API护栏和限制部分已更新。 [阅读更多](../../automating/using/external-api.md#guardrails)
+外部 API 护栏和限制部分已更新。[阅读更多](../../automating/using/external-api.md#guardrails)
 
-隐私管理概述页面已更新，以包含有关泰国个人数据保护法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+“隐私管理概述”页面已更新，包含有关泰国的个人数据保护法 (PDPA) 和巴西的 Lei Geral de Proteção de Dados(LGPD) 的信息。[阅读更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-已重新组织和改进移动渠道指南。 新增了配置移动渠道指南，其中包含有关移动配置的技术文档。 [阅读更多](../../administration/using/push-tracking.md)
+已重组和改进移动渠道指南。添加了新的移动渠道配置指南，其中包含有关移动配置的技术文档。[阅读更多](../../administration/using/push-tracking.md)
 
-Campaign Standard中的隐私管理页面已更新，包括如何通过隐私核心服务集成管理隐私请求的说明。 [阅读更多](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+Campaign Standard 页面中的“隐私管理”已更新，包括阐明如何通过隐私核心服务集成来管理隐私请求。[阅读更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-以人工智能为后盾的新电子邮件功能：发送时间优化和用户档案评分。 [阅读更多](../../sending/using/predictive.md)
+AI 支持的新电子邮件功能：发送时间优化和用户档案评分。[阅读更多](../../sending/using/predictive.md)
 
-## 文档更新- 2020年6月 {#doc-updates-june-2020}
+## 文档更新 - 2020 年 6 月 {#doc-updates-june-2020}
 
 工作流用例已更新并重新组织为主题部分。[阅读更多](../../automating/using/about-workflow-use-cases.md)
 
 在如何使用控制面板和活动工作流[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)和[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)数据方面添加了用例。
 
-对旧版支持网站的引用已被新URL取代。 [了解详情](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+对旧版支持网站的引用已替换为新 URL。[了解详情](https://helpx.adobe.com/cn/campaign/kb/ac-support.html#acs-support-req)
 
-自定义Litmus帐户配置已从收件箱渲染功能中删除。 [阅读更多](../../sending/using/email-rendering.md)
+已从收件箱呈现功能中删除自定义 Litmus 帐户配置。[阅读更多](../../sending/using/email-rendering.md)
 
-Campaign Standard- Microsoft Dynamics 365集成当前不可用。 正在开发新的连接器，并将在将来推出。 相关帮助页面已被删除。 [阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard - Microsoft Dynamics 365 集成当前不可用。正在开发新的连接器，并将在将来推出。已删除相关帮助页面。[阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 文档更新 - 2020 年 5 月{#doc-updates-may-2020}
 
@@ -510,7 +510,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 更新了设计内容指南，以反映 Email Designer 的常规可用性和旧版电子邮件内容编辑器已被弃用。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+更新了[应用程序内](../../channels/using/about-in-app-messaging.md)和[推送通知](../../channels/using/about-push-notifications.md)文档。
 
 添加了关于 Adobe Campaign 中各种类型受众的更多信息。[了解更多](../../audiences/using/about-audiences.md)
 
@@ -620,7 +620,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 更新了“查询活动”章节。添加了查询示例。[了解更多](../../automating/using/query.md#query-samples)
 
-专用于阻止列表程序的部分已更名为“了解加入和退出流程”。 其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门介绍拒绝列表的部分已重命名为“了解选择加入和选择退出流程”。其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 了解使用 Adobe 托管 SFTP 服务器的最佳实践。[了解更多](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -644,7 +644,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多](../../api/using/creating-a-privacy-request.md)
 
-添加了有关如何设置登陆页以让您的收件人能够进行的信阻止列表息。 [了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+添加了有关如何设置登陆页以使收件人能够列入拒绝列表的信息。[了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 重组了[配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md)章节，并添加了一个[分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
@@ -698,7 +698,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 通过分步使用案例，重组了 **[!UICONTROL Customizing a push notification]** 章节。[了解更多](../../channels/using/customizing-a-push-notification.md)
 
-专门用于管阻止列表理的新部分。 [了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门介绍拒绝列表管理的新部分。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 更新了有关投放失败和隔离的信息。[了解更多](../../sending/using/monitoring-a-delivery.md)
 
@@ -860,7 +860,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)
 
-已添加配置人员核心服务或Audience Manager与Adobe Campaign集成的说明。 [阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改了授权表，使某些角色的职能更加清晰。[了解更多](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -884,7 +884,7 @@ Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh
 
 添加了关于不同类型 Adobe Campaign 用户的章节。[了解更多](../../administration/using/users-management.md)
 
-重新组织并扩展了工作流指南。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+重新组织并扩展了工作流指南。轻松了解如何[构建](../../automating/using/building-a-workflow.md)和[执行](../../automating/using/about-workflow-execution.md)工作流，如何[设定目标](../../automating/using/about-targeting-activities.md)和[管理](../../automating/using/about-targeting-activities.md#enriching-data)数据，如何[导入和导出](../../automating/using/about-data-import-and-export.md)数据，以及如何使用工作流数据更新数据库或发送投放。
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
