@@ -15,22 +15,22 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 19%
+ht-degree: 93%
 
 ---
 
 
 # Campaign Standard API 快速入门 {#get-started-apis}
 
-Campaign StandardAPI旨在通过将 **Adobe Campaign Standard与您使用的技术** 面板连接， **为Adobe Campaign Standard创建集成** ，并构建您自己的生态系统。
+Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的技术**&#x200B;面板连接，**使您为 Adobe Campaign Standard 创建集成，**&#x200B;并构建您自己的生态系统。
 
-通过Adobe Campaign StandardAPI，您可以访问以下功能：
+通过 Adobe Campaign Standard API，您可以访问以下功能：
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">用户档案</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服务和订阅</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自定义资源</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">营销历史</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">营销历史记录</a></p></td>
 </tr>
 <tr>
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="条件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">隐私管理</a></p></td>
@@ -41,17 +41,17 @@ Campaign StandardAPI旨在通过将 **Adobe Campaign Standard与您使用的技�
 
 >[!NOTE]
 >
->在执行API调用之前，请检查与您的许可协议相对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
-要使用Campaign StandardAPI，您需要AdobeI/O帐户。 这是前进和发现API功能的必备第一步。
+要使用 Campaign Standard API，您需要 AdobeI/O 帐户。这是前进和发现 API 功能的必备第一步。
 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
 
-我们提供的API使 **用标准概念** ，以及REST界面和JSON负载。
+我们提供的 API 使用 REST 接口的&#x200B;**标准概念**&#x200B;以及 JSON 负载。
 
 >[!NOTE]
 >
->所有示例都与Postman一起使用，但您可以随意使用您最喜爱的REST客户端。
+>所有示例都适用于 Postman，但可随意使用您最喜爱的 REST 客户端。
 
-本文档中对所有端点进行了详尽的描述，其中包含操作API、完整API参考、代码示例和快速开始指南应了解的一般概念。
+本文档中对所有端点进行了详尽的描述，其中包含您应当了解的关于操作 API、完整 API 引用、代码示例和快速入门指南的一般概念。
 
-如果有任何缺失或错误，请询问社 [区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
+如果有任何内容缺失或错误，请咨询[社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
