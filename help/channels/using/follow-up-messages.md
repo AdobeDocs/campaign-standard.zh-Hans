@@ -12,10 +12,10 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,4 +129,3 @@ The configuration steps are presented in the [Configuring an event to send a fol
 >[!NOTE]
 >
 >如果您在创建 **[!UICONTROL Profile]** 定位维度配置时选择了事件，则后续消息还将利用Adobe Campaign营销数据库。 请参阅[用户档案事务型消息](../../channels/using/profile-transactional-messages.md)。
-
