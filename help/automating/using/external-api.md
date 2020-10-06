@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -40,31 +40,31 @@ ht-degree: 64%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，已降低http响应数据大小限制和响应超时护栏，以符合最佳实践（请参阅“限制和护栏”部分）。 这些保护性修改不会对现有外部API活动生效；因此，建议在所有活动中将现有的外部API工作流替换为新版本。
+在 Campaign Standard 20.4 版本中，HTTP 响应数据大小限制和响应超时护栏已降低，从而符合最佳实践（请参阅“限制和护栏”部分）。这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
-如果您是从Campaign Standard20.2（或更早版本）升级，请注意，外部API功能将Campaign Standard20.3版本中的测试版测试版移动到常规可用性。
+如果您是从 Campaign Standard 20.2（或更早版本）升级，请注意，外部 API 功能从 Beta 版移至 Campaign Standard 20.3 版本中的“一般可用性”。
 
-因此，如果您之前使用的是 Beta 版 External API 活动，则需要在所有工作流中用 GA 版 External API 活动进行替换。  从Campaign Standard20.3版本开始，使用外部API测试版的工作流将无法工作。
+因此，如果您之前使用的是 Beta 版 External API 活动，则需要在所有工作流中用 GA 版 External API 活动进行替换。  从 Campaign Standard 20.3 版本开始，使用 Beta 版外部 API 的工作流将无法工作。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
 >[!NOTE]
 >
->您将无法复制活动特定的标题值，因为这些标题值在活动中被遮罩。
+>您将无法复制特定于活动的标头值，因为这些值在活动中已屏蔽。
 
 接下来，重新配置工作流的其他活动，将指向或使用 Beta 版 External API 活动的数据，替换为指向和/或使用新 External API 活动的数据。活动示例：电子邮件投放（个性化字段）、扩充活动等。
 
 ### 限制和防护{#guardrails}
 
-以下护栏适用于此活动:
+以下护栏适用于此活动：
 
-* 5MB HTTP响应数据大小限制(注意：这与上一版本中的50MB限制相比有所变化)
-* 请求超时为1分钟(注意：这与上一版本中的10分钟超时时间相比有所变化)
+* 5MB HTTP 响应数据大小限制（注意：这与先前版本中的 50MB 限制相比有所变化）
+* 请求超时为 1 分钟（注意：这与先前版本中的 10 分钟超时相比有所变化）
 * 不允许 HTTP 重定向
 * 拒绝非 HTTPS URL
 * 允许使用“Accept: application/json”请求标头和“Content-Type: application/json”响应标头
 
-已设置具体的护栏：
+已设定特定护栏：
 
 * **JSON Max Depth**：将可处理自定义嵌套 JSON 的最大深度限制为 10 级。
 * **JSON Max Key Length**：将生成内部键值的最大长度限制为 255。此键值与列 ID 关联。
@@ -72,7 +72,7 @@ ht-degree: 64%
 
 >[!CAUTION]
 >
->外部API活动用于获取活动范围的数据(最新优惠集、最新得分等)，而不是用于检索每个用户档案的特定信息，因为这会导致传输大量数据。 如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
+>外部 API 活动旨在用于获取营销活动范围的数据（最新优惠集、最新分数等），而非用于检索每个用户档案的特定信息，因为这可能会导致传输大量数据。如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
 
 ## 配置{#configuration}
 
@@ -122,13 +122,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-此选项卡允许您定义连接端点。 该 **[!UICONTROL URL]** 字段允许您定义将 **向ACS发送数** 据的HTTPS端点。
+通过此选项卡，可以定义连接端点。通过 **[!UICONTROL URL]** 字段，可以定义将向 ACS 发送数据的 **HTTPS 端点**。
 
 如果端点需要，可使用两种类型的身份验证方法：
 
-* 基本身份验证：在字段中输入您的用户名／密码 **[!UICONTROL Request Header(s)]** 信息。
+* 基本身份验证：在 **[!UICONTROL Request Header(s)]** 字段中输入用户名/密码信息。
 
-* OAuth身份验证：通过单击， **[!UICONTROL Use connection parameters defined in an external account]**&#x200B;您可以选择定义OAuth身份验证的外部帐户。 For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth 身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]**，可以选择定义了 OAuth 身份验证的外部帐户。有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 
@@ -184,32 +184,32 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>正在调用 API URL 'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
   </tr> 
   <tr> 
-   <td> 由于%s（在%d毫秒中），正在重试API URL“%s”，尝试%d。</td> 
-   <td> <p>由于HTTP - 401，在2364毫秒内重试API URL 'https://example.com/api/v1/web-coupon?count=0'，尝试2。</p></td>
+   <td> 由于在 %d 毫秒内出现 %s，正在重试 API URL '%s'，请尝试 %d。</td> 
+   <td> <p>由于在 2364 毫秒内出现 HTTP - 401，正在重试 API URL 'https://example.com/api/v1/web-coupon?count=0'，请尝试 2。</p></td>
   </tr> 
   <tr> 
    <td> 正在从 '%s’ 传输内容 (%s / %s)。</td> 
    <td> <p>正在从 'https://example.com/api/v1/web-coupon?count=2’ 传输内容 (1234 / 1234)。</p></td> 
   </tr>
   <tr> 
-   <td> 对提供程序ID“%s”使用缓存访问令牌。</td> 
-   <td> <p>对提供程序ID“EXT25”使用缓存访问令牌。 注意： EXT25是外部帐户的ID（或名称）。 </p></td> 
+   <td> 正在对提供程序 ID '%s’ 使用缓存访问令牌。</td> 
+   <td> <p>正在对提供程序 ID 'EXT25’ 使用缓存访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。 </p></td> 
   </tr>
   <tr> 
-   <td> 从服务器为提供程序ID“%s”获取访问令牌。</td> 
-   <td> <p>从服务器为提供程序ID“EXT25”获取访问令牌。 注意：EXT25是外部帐户的ID（或名称）。</p></td> 
+   <td> 已从服务器获取提供程序 ID '%s’ 的访问令牌。</td> 
+   <td> <p>已从服务器获取提供程序 ID 'EXT25’ 的访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。</p></td> 
   </tr>
   <tr> 
-   <td> 正在刷新OAuth访问令牌，因为出现错误(HTTP:“%d”)。</td> 
-   <td> <p>正在刷新OAuth访问令牌，因为出现错误(HTTP:“401”)。</p></td> 
+   <td> 由于错误，正在刷新 OAuth 访问令牌 (HTTP: '%d')。</td> 
+   <td> <p>由于错误，正在刷新 OAuth 访问令牌 (HTTP: '401')。</p></td> 
   </tr>
   <tr> 
-   <td> 刷新OAuth访问令牌时出错(错误：“%d”)。 </td> 
-   <td> <p>刷新OAuth访问令牌时出错(错误：“404”)。</p></td> 
+   <td> 刷新 OAuth 访问令牌时出错（错误：'%d’）。 </td> 
+   <td> <p>刷新 OAuth 访问令牌时出错（错误：'404’）。</p></td> 
   </tr>
   <tr> 
-   <td> 在尝试%d时使用指定的访问令牌获取OAuth外部帐户失败，在%d毫秒内重试。</td> 
-   <td> <p>在尝试1时使用指定的访问令牌获取OAuth外部帐户失败，在1387毫秒后重试。</p></td> 
+   <td> 在尝试 %d 时使用指定的外部帐户获取 OAuth 访问令牌失败，将在 %d 毫秒内重试。</td> 
+   <td> <p>在尝试 1 时使用指定的外部帐户获取 OAuth 访问令牌失败，将在 1387 毫秒内重试。</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>不允许的 HTTP 标头键值（标头键值：'%s'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP头值错误(头值：“%s”)。</td> 
+   <td> WKF-560247 -  标头值错误（标头值：'%s'）。</td> 
    <td> <p>HTTP 标头值损坏（标头值：'%s'）。 </p>
     <p>注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头值失败时，将记录此错误。</p></td> 
   </tr> 
@@ -281,39 +281,39 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> WKF-560246 - 活动失败（原因：'%s'）。</td> 
    <td> <p>因 HTTP 401 错误响应导致活动失败时 - 活动失败（原因：'HTTP - 401'）。</p>
         <p>因内部调用失败导致活动失败时 - 活动失败（原因：'iRc - -Nn'）。</p>
-        <p>因 Content-Type 标头无效导致活动失败时 - 活动失败（原因：'Content-Type - application/html'）。</p></td> 
+        <p>因 Content-Type 标头无效导致活动失败时- 活动失败（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "初始化OAuth帮助程序时出错(错误：“%d”)”。</td> 
-   <td> <p>此错误表示活动无法初始化内部OAuth2.0帮助程序工具，因为使用外部帐户中配置的属性初始化帮助程序时出错。</p></td>
+   <td> WKF-560278 - "初始化 OAuth 帮助程序时出错（错误：'%d’）"。</td> 
+   <td> <p>此错误表示活动无法初始化内部 OAuth2.0 帮助程序工具，因为使用外部帐户中配置的属性初始化帮助程序时出错。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "不允许HTTP头键(头键：“%s”)。”</td> 
-   <td> <p>此警告（非错误）消息表示OAuth 2.0外部帐户已配置为将凭据添加为HTTP头，但不允许使用头密钥，因为它是保留的头密钥。</p></td>
+   <td> WKF-560279 - "不允许使用 HTTP 标头键值（标头键值：'%s'）。"</td> 
+   <td> <p>此警告（非错误）消息表示 OAuth 2.0 外部帐户已配置为将凭据添加为 HTTP 标头，但不允许使用标头键，因为它是保留的标头键。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 —— 找不到“%s”ID的外部帐户。</td> 
-   <td> <p>找不到“EXT25”ID的外部帐户。  注意：此错误表示活动已配置为使用外部帐户，但再也找不到。 当帐户从数据库中删除时，这种情况极有可能发生，而在正常操作环境中，这种情况不可能发生。</p></td>
+   <td> WKF-560280 - 找不到 '%s' ID 的外部帐户。</td> 
+   <td> <p>找不到 'EXT25' ID 的外部帐户。  注意：此错误表示活动配置为使用外部帐户，但再也找不到该外部帐户。从数据库中删除帐户后很可能会发生此情况，而在正常操作环境中不可能发生此情况。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 —— 已禁用“%s”ID的外部帐户。</td> 
-   <td> <p>外部帐户为“EXT25”ID。 注意：此错误表示该活动已配置为使用外部帐户，但该帐户已被禁用（或标记为非活动）。</p></td>
+   <td> WKF-560281 - 已禁用 '%s' ID 的外部帐户。</td> 
+   <td> <p>已禁用 'EXT25' ID 的外部帐户。注意：此错误表示活动配置为使用外部帐户，但已禁用该帐户（或标记为非活动）。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 —— 不支持协议。</td> 
-   <td> <p>此错误表示与外部帐户关联的活动不是OAuth2.0外部帐户。 因此，除非出现某些损坏或手动更改活动配置，否则不太可能发生此错误。</p></td>
+   <td> WKF-560282 - 不支持协议。</td> 
+   <td> <p>此错误表示与活动关联的外部帐户不是 OAuth2.0 外部帐户。因此，除非出现某些损坏或手动更改活动配置，否则不可能发生此错误。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 —— 无法获取OAuth访问令牌。</td> 
-   <td> <p>此错误的最常见原因是外部帐户配置错误(例如， 使用外部帐户，但不测试连接是否成功)。 可能会更改外部帐户上的url/凭据。</p></td>
+   <td> WKF-560283 - 无法获取 OAuth 访问令牌。</td> 
+   <td> <p>此错误的最常见原因是外部帐户配置错误（例如，使用外部帐户，但未测试连接是否成功）。外部帐户上的 URL/凭据可能已更改。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 —— 无法访问以下网页：%s。</td> 
-   <td> <p>为OAuth设置外部帐户UI时，该错误消息会显示在该屏幕上。 这意味着外部授权服务器的URL不正确／更改／来自服务器的响应为“找不到页面”。</p></td>
+   <td> CRL-290199 - 无法访问位于 %s 的页面。</td> 
+   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着外部授权服务器的 URL 不正确/已更改/来自服务器的响应为“找不到页面”。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 —— 凭据不完整／不正确。</td> 
-   <td> <p>为OAuth设置外部帐户UI时，该错误消息会显示在该屏幕上。 这意味着凭据不正确或缺少连接到身份验证服务器所需的其他凭据。
+   <td> CRL-290200 - 凭据不完整/不正确。</td> 
+   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着凭据不正确或缺少连接到身份验证服务器所需的其他凭据。
 </p></td>
   </tr>
  </tbody> 
