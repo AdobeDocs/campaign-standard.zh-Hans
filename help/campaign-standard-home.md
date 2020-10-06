@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,16 +19,17 @@ ht-degree: 73%
 
 ## 新增功能
 
-* **[对照组](sending/using/control-group.md)**<br/>通过排除活动的一部分来衡量其影响
+* **[控制组](sending/using/control-group.md)**<br/>通过排除部分控制组受众来衡量活动的影响
 
-* **[以AI为后盾的电子邮](sending/using/predictive.md)**<br/>件利用以AI为后盾的电子邮件优化设计和投放
+* **[AI 支持的电子邮件](sending/using/predictive.md)**<br/>使用 AI 支持的电子邮件优化设计和交付
 
 * **[隐私管理](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)**<br/>
 了解 Adobe Campaign 所提供的用于帮助实现隐私合规性的工具
 
-* **[外部API](automating/using/external-api.md)**<br/>使用外部API活动将数据从外部系统引入工作流
+* **[外部 API](automating/using/external-api.md)**<br/>使用外部 API 活动将数据从外部系统引入工作流
 
-* **[移动投放入门](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)**<br/>&#x200B;了解有关移动投放（SMS、推送、应用程序内）一般指导原则的更多信息
+* **[移动投放入门](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)**<br/>
+了解有关移动投放（短信、推送、应用程序内）的一般指导原则的更多信息
 
 [单击此处以了解更多更新](rn/using/documentation-updates.md)
 
