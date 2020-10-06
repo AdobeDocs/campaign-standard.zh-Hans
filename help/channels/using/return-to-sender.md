@@ -12,7 +12,7 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -39,4 +39,3 @@ ht-degree: 2%
 * 在用户档案级别将不阻止列表正确的地址添加到
 * 投放主要指标(KPI)已更新
 * 投放日志更新
-
