@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 93%
 
 ## 个性化事务型消息{#personalizing-a-transactional-message}
 
-要设置事务型消息的个性化选项，请执行以下步骤：
+在此示例中，您将通过添加您在创建事务性消息时定义的三个字段，了解事件 [的个性化程度](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):first name, last product confisured, total cart amount.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的更多信息，请参阅[使用模板进行设计](../../designing/using/using-reusable-content.md#designing-templates)。
 
@@ -64,9 +66,7 @@ ht-degree: 93%
    >
    >指向放弃购物车的链接是指向外部 URL 的链接，会将用户重定向到其购物车。此参数不在 Adobe Campaign 中管理。
 
-1. 在本例中，您要添加在[创建事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)时定义的三个字段：名字、查看的最后一个产品、购物车总金额。要实现此目的，请在消息内容中[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
-
-1. 通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 浏览这些字段。
+1. 浏览> **[!UICONTROL Context]****[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 以获取个性化字段:first name, last product confisured, total cart amount.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ ht-degree: 93%
 
 您可以在事务型电子邮件的内容中创建引用一个或多个数据集合的产品清单。例如，在购物车放弃电子邮件中，您可以加入用户离开网站时购物车中所有产品的清单，以及各个产品的图像、价格和链接。
 
+通过此视频了 [解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html)。
+
 >[!IMPORTANT]
 >
 >只有通过 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 界面编辑事务型电子邮件时，才可使用产品清单。
-
-要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
-
-您还可以观看一系列视频，其中说明了在事务型电子邮件中配置产品清单所需的步骤。有关更多信息，请参阅[此页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html)。
-
->[!NOTE]
 >
 >Adobe Campaign 不支持嵌套产品清单，这意味着您不能将一个产品清单包含在另一个产品清单中。
 
-### 定义产品清单{#defining-a-product-listing}
+在以下示例中，您将学习在事务性消息中添加已放弃产品列表的步骤。
+
+### 第1步：定义产品列表 {#defining-a-product-listing}
 
 在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
@@ -144,7 +142,7 @@ ht-degree: 93%
    >
    >如果希望垂直显示清单中的元素 (**[!UICONTROL Column]**)，则最大项数将根据选则的结构组件（2 列、3 列或 4 列）而有所限制。有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-### 填充产品清单{#populating-the-product-listing}
+### 第2步：填充产品列表 {#populating-the-product-listing}
 
 要显示来自事务型电子邮件所链接事件的产品清单，请执行以下步骤。
 
