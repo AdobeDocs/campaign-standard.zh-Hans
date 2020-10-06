@@ -12,11 +12,11 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,4 +96,3 @@ ht-degree: 100%
 * 添加内容块。有关更多信息，请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 * 添加动态文本有关更多信息，请参阅[定义动态文本](../../channels/using/defining-dynamic-text.md)。
 * 个性化短信发送者的姓名（仅限短信）。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
-
