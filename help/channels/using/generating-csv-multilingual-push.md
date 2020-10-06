@@ -12,9 +12,9 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,22 +28,20 @@ ht-degree: 0%
 
 多语言推送需要CSV文件中的14列：
 
-* 标题
-* messageBody
-* 声音
-* 徽章
-* deeplinkURI
-* 类别
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* 区域
-* 语言
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. 标题
+1. messageBody
+1. 声音
+1. adge
+1. deeplinkURI
+1. 类别
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. 区域
+1. 语言
+1. silentPush
 
 在窗口中单击，以检查 **[!UICONTROL Download a sample file]** CSV示 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -110,8 +108,8 @@ ht-degree: 0%
 | af_za | 阿非利卡语——南非 |
 | sq_al | 阿尔巴尼亚——阿尔巴尼亚 |
 | ar_dz | 阿拉伯语——阿尔及利亚 |
-| ar_bh | 阿拉伯语——巴林 |
-| ar_iq | 阿拉伯语——伊拉克 |
+| 阿拉伯语 | 阿拉伯语——巴林 |
+| lar_iq | 阿拉伯语——伊拉克 |
 | ar_il | 阿拉伯语——以色列 |
 | ar_jo | 阿拉伯语——约旦 |
 | ar_kw | 阿拉伯语——科威特 |
@@ -178,11 +176,11 @@ ht-degree: 0%
 | kk_kz | 哈萨克语——哈萨克斯坦 |
 | ko_kr | 朝鲜语——韩国 |
 | lv_lv | 拉脱维亚——拉脱维亚 |
-| lt_lt | 立陶宛语——立陶宛 |
+| -lt | 立陶宛语——立陶宛 |
 | mk_mk | 马其顿——马其顿 |
 | ms_my | 马来语——马来西亚 |
 | mr_in | 马拉地——印度 |
-| no_no | 挪威语——挪威 |
+| pno_no | 挪威语——挪威 |
 | pl_pl | 波兰——波兰 |
 | pt_br | 葡萄牙语——巴西 |
 | pt_pt | 葡萄牙语——葡萄牙 |
@@ -210,8 +208,8 @@ ht-degree: 0%
 | es_mx | 西班牙语——墨西哥 |
 | es_ni | 西班牙语——尼加拉瓜 |
 | es_pa | 西班牙语——巴拿马 |
-| tes_py | 西班牙语——巴拉圭 |
-| -pe | 西班牙语——秘鲁 |
+| es_py | 西班牙语——巴拉圭 |
+| es_pe | 西班牙语——秘鲁 |
 | es_pr | 西班牙语——波多黎各 |
 | es_es | 西班牙语——西班牙 |
 | es_uy | 西班牙语——乌拉圭 |
@@ -220,12 +218,12 @@ ht-degree: 0%
 | sv_fi | 瑞典语——芬兰 |
 | sv_se | 瑞典语——瑞典 |
 | ta_in | 泰米尔——印度 |
-| Tt_ru | 塔塔尔——俄语 |
+| tt_ru | 塔塔尔——俄语 |
 | te_in | 泰卢古——印度 |
-| -th | 泰语——泰国 |
+| th_th | 泰语——泰国 |
 | tr_cy | 土耳其语——塞浦路斯 |
 | tr_tr | 土耳其语——土耳其 |
 | uk_ua | 乌克兰——乌克兰 |
 | ur_in | 乌尔都——印度 |
-| the ur_pk | 乌尔都——巴基斯坦 |
-| uvi_vn | 越南——越南 |
+| ur_pk | 乌尔都——巴基斯坦 |
+| vi_vn | 越南——越南 |
