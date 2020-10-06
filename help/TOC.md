@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -65,9 +65,9 @@ ht-degree: 83%
    + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [关于 Audience Destinations 服务](audiences/using/aep-about-audience-destinations-service.md)
       + [管理 Adobe Experience Platform 受众](audiences/using/aep-managing-audiences.md)
-      + [使用区段生成器](audiences/using/aep-using-segment-builder.md)
+      + [使用 Segment Builder](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
-   + [通信渠道快速入门](channels/using/get-started-communication-channels.md)
+   + [通信渠道入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
       + [发送消息的关键步骤](channels/using/key-steps-to-send-a-message.md)
       + [访问消息](channels/using/accessing-messages.md)
@@ -112,7 +112,7 @@ ht-degree: 83%
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
    + 事务型消息传递 {#transactional-messaging}
-      + [交易消息快速入门](channels/using/getting-started-with-transactional-msg.md)
+      + [事务性消息传递入门](channels/using/getting-started-with-transactional-msg.md)
       + [事务型消息传递限制](channels/using/transactional-messaging-limitations.md)
       + [事件事务型消息](channels/using/event-transactional-messages.md)
       + [用户档案事务型消息](channels/using/profile-transactional-messages.md)
@@ -149,9 +149,9 @@ ht-degree: 83%
       + [发送校样](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
       + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
-      + [基于人工智能的电子邮件](sending/using/predictive.md)
+      + [AI 支持的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
-      + [添加对照组](sending/using/control-group.md)
+      + [添加控制组](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [准备发送](sending/using/preparing-the-send.md)
    + 计划消息发送 {#scheduling-messages}
@@ -248,11 +248,11 @@ ht-degree: 83%
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [ Dynamics 365 集成快速入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [在活动和Dynamics之间管理数据365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [管理 Campaign 和 Dynamics 365 之间的数据](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [请求集成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [配置AdobeI/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [配置 Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [为 Campaign 集成配置 Dynamics 365](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [映射活动自定义资源和Dynamics 365自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [映射 Campaign 自定义资源和 Dynamics 365 自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [使用 Dynamics 365 集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [集成护栏](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 管理流程和数据 {#managing-processes-and-data}
@@ -270,7 +270,7 @@ ht-degree: 83%
       + [管理活动属性](automating/using/activity-properties.md)
    + 使用外部参数调用工作流 {#calling-workflow-external-parameters}
       + [概述](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [在外部信号活动中声明参数](automating/using/declaring-parameters-external-signal.md)
+      + [声明外部信号活动中的参数](automating/using/declaring-parameters-external-signal.md)
       + [在调用工作流时定义参数](automating/using/defining-parameters-calling-workflow.md)
       + [监视事件变量](automating/using/monitoring-events-variables.md)
       + [使用外部参数自定义工作流](automating/using/customizing-workflow-external-parameters.md)
@@ -330,27 +330,27 @@ ht-degree: 83%
       + [关于工作流使用案例](automating/using/about-workflow-use-cases.md)
       + 投放 {#deliveries}
          + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
-         + [在投放创建日期创建用户档案](automating/using/workflow-creation-date-query.md)
+         + [在用户档案的创建日期创建投放](automating/using/workflow-creation-date-query.md)
          + [创建每周投放](automating/using/workflow-weekly-offer.md)
          + [创建跨渠道投放](automating/using/workflow-cross-channel-delivery.md)
-         + [在重复之前识别投放](automating/using/identifying-duplicated-before-delivery.md)
+         + [在投放之前标识重复项](automating/using/identifying-duplicated-before-delivery.md)
          + [生日投放](automating/using/birthday-delivery.md)
-         + [将电子邮件和直邮投放](automating/using/coupling-email-direct-mail.md)
-         + [发送包含丰富字段的电子邮件](automating/using/sending-email-enriched-fields.md)
-         + [个性化包含其他数据的电子邮件](automating/using/personalizing-email-with-additional-data.md)
-         + [发送循环推送通知](automating/using/recurring-push-notifications.md)
+         + [耦合电子邮件和直邮邮件传递](automating/using/coupling-email-direct-mail.md)
+         + [发送包含扩充字段的电子邮件](automating/using/sending-email-enriched-fields.md)
+         + [使用附加数据个性化电子邮件](automating/using/personalizing-email-with-additional-data.md)
+         + [发送定期推送通知](automating/using/recurring-push-notifications.md)
       + 分段和定位 {#segmentation-targeting}
          + [查询样例](automating/using/query-samples.md)
-         + [合并两家精炼受众](automating/using/union-on-two-refined-audiences.md)
+         + [两个已优化受众的联合](automating/using/union-on-two-refined-audiences.md)
          + [创建基于位置的分段](automating/using/workflow-segmentation-location.md)
          + [重新定位未打开者](automating/using/workflow-cross-channel-retargeting.md)
-         + [增量查询服务的订户](automating/using/incremental-query-on-subscribers.md)
+         + [关于服务订阅者的增量查询](automating/using/incremental-query-on-subscribers.md)
          + [根据年龄组进行细分](automating/using/segmentation-age-groups.md)
          + [使用与定向维度不同的资源](automating/using/using-resources-different-from-targeting-dimensions.md)
       + 数据管理 {#data-management}
-         + [协调文件受众与数据库](automating/using/reconcile-file-audience-with-database.md)
-         + [从导入的文件中消除重复数据](automating/using/deduplicating-data-imported-file.md)
-         + [用文件中包含的用户档案丰富数据](automating/using/enriching-profile-data-file.md)
+         + [使用数据库协调文件受众](automating/using/reconcile-file-audience-with-database.md)
+         + [从导入的文件中删除数据重复项](automating/using/deduplicating-data-imported-file.md)
+         + [使用文件中包含的数据扩充用户档案数据](automating/using/enriching-profile-data-file.md)
          + [外部信号活动和数据导入](automating/using/external-signal-data-import.md)
          + [使用外部数据更新数据库](automating/using/update-database-file.md)
          + [根据自动文件下载更新数据](automating/using/update-data-automatic-download.md)
@@ -409,7 +409,7 @@ ht-degree: 83%
       + [通过 API 触发数据摄取](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
    + [Campaign Standard 管理快速入门](administration/using/get-started-campaign-administration.md)
-   + [监控指南](administration/using/monitoring-guidelines.md)
+   + [监控准则](administration/using/monitoring-guidelines.md)
    + [配置准则](administration/using/about-configuration-guidelines.md)
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
@@ -427,12 +427,12 @@ ht-degree: 83%
       + [配置事务型消息传递](administration/using/configuring-transactional-messaging.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
-      + [添加图像和视频iOS](administration/using/image-push-notification.md)
-      + [了解推送通知有效负荷结构](administration/using/push-payload.md)
+      + [添加图像和视频 iOS](administration/using/image-push-notification.md)
+      + [了解 推送通知有效载荷结构](administration/using/push-payload.md)
       + [实施本地通知跟踪](administration/using/local-tracking.md)
-      + [Adobe启动同步常见问题解答](administration/using/syncwithlaunch-faq.md)
-      + [Experience PlatformSDK集成常见问题解答](administration/using/aep-faq.md)
-      + [配置启动规则以支持Adobe Campaign Standard使用案例](administration/using/configuring-rules-launch.md)
+      + [Adobe Launch Synchronization 常见问题解答](administration/using/syncwithlaunch-faq.md)
+      + [Experience Platform SDK 集成常见问题解答](administration/using/aep-faq.md)
+      + [配置 Launch 规则以支持 Adobe Campaign Standard 用例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 83%
 + 使用 API {#working-with-apis}
    + [Campaign Standard API 快速入门](api/using/get-started-apis.md)
    + 关于 Campaign Standard API {#about-campaign-standard-apis}
-      + [为何使用Campaign StandardAPI](api/using/why-using-campaign-standard-apis.md)
+      + [为何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [设置 API 访问](api/using/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
       + [必读](api/using/must-read.md)
