@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 99%
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >您的修改仅对正在编辑的登陆页面有效。如果要将这些修改应用于其他登陆页面，您可以在专用模板中执行这些修改，然后使用该模板创建其他登陆页面。
+>[!NOTE]
+>
+>您的修改仅对正在编辑的登陆页面有效。如果要将这些修改应用于其他登陆页面，您可以在专用模板中执行这些修改，然后使用该模板创建其他登陆页面。
 
 ## 第 3 步 - 设计登陆页面{#design-the-landing-page}
 
