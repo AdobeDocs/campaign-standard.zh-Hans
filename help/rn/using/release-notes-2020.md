@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
-## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
+## 20.3 版 - 2020 年 5 月{#release-20-3---may-2020}
 
 **新增功能**
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 <td> <p>泰国的个人数据保护法 (PDPA) 是新的隐私法，旨在将泰国的数据保护要求现代化并协调一致。此法规适用于所持有数据的数据主体居住于泰国的 Adobe Campaign 客户。</p>
 <p>除了 Adobe Campaign 已提供的隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还利用此机会加入了额外的功能，以帮助您为 PDPA 做好准备：</p>
 <ul>
-<li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。<a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
+<li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。<a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
 <li><p>创建隐私请求时，“隐私核心服务”中添加了 PDPA 法规类型。您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="../../rn/using/deprecated-features.md">已弃用和已删除的功能</a>一文。</p></li>
 </ul>
 <p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">操作方法视频</a>。</p>
@@ -71,10 +71,10 @@ ht-degree: 95%
 </tbody> 
 </table>
 
-**其他功能** （从7月13日开始）
+**其他功能** （从 7 月 13 日开始）
 
-* **AI驱动的发送时间优化和用户档案评分** -您现在可以优化客户旅程的设计和投放，以预测每个人的参与偏好。 Adobe Campaign可以借助Journey AI分析和预测开放率、最佳发送时间以及基于历史互动指标的可能客户流失。 [了解详情](../../sending/using/predictive.md)
-* **巴西新的隐私法规** -除了活动已具备的隐私功能外，Adobe还有助于您为巴西Lei Geral de Proteçao de Datos(LGPD)做好准备。 创建隐私请求时，LGPD规定已添加到Adobe隐私核心服务。 [了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
+* **AI 支持的发送时间优化和用户档案评分** - 您现在可以优化客户旅程的设计和交付，以预测每个人的参与偏好。Adobe Campaign 凭借 Journey AI 提供技术支持，可以根据历史参与度分析和预测开放率、最佳发送时间以及可能的客户流失。[了解详情](../../sending/using/predictive.md)
+* **巴西新的隐私法规** - 除了 Campaign 中已提供的隐私功能外，Adobe 还帮助促进您为巴西的 Lei Geral de Proteçao de Datos (LGPD) 做好准备。在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板可以发行** ，并为CNAME子域续订证书。 [了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -310,7 +310,7 @@ ht-degree: 95%
 * 修复了在选择和更新测试用户档案时可能发生的性能问题。(CAMP-37976)
 * 修复了通过登陆页面订阅或退订时可能显示错误页面的问题。(CAMP-37771)
 * 修复了以 zip 格式上传内容时发生的问题，在 HTML 中引用的 PNG 文件的扩展名会变成大写字母。(CAMP-37913)
-* 修复了在向投放添加测试用户档案时无法发送应用程序内消息的问题。
+* 修复了在向投放添加测试用户档案时阻止发送应用程序内消息的问题。
 * 修复了 External API 工作流活动链接到扩充活动时失败的错误。
 * 修复了可能导致短信消息状态显示不正确的问题。
 * 修复了自定义资源导致重复条目在 API 端点下显示不同的问题。
