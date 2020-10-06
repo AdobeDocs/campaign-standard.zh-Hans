@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 在 Adobe Campaign 中，您可选择之前创建的触发器、使用数据集市扩充事件数据，并可定义链接到该触发器的事务型消息模板。例如，当客户放弃对您网站的访问时，即会向 Adobe Campaign 发送一个事件，随后 Adobe Campaign 会利用此事件，在 15 分钟内向该客户发送一封再营销电子邮件。
 
-下图详细说明了此集成的工作方式。
+下图详细说明此集成的工作方式。
 
 ![](assets/triggers_diagram.png)
 
 **相关主题：**
 
-* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)。
+* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html)。
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
