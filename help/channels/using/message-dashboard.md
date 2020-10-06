@@ -13,10 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,21 +52,11 @@ ht-degree: 4%
 
    有关验证的详细信息，请参 [阅发送验证](../../sending/using/sending-proofs.md)。
 
-* **[!UICONTROL Send a test]**:允许您选择要使用的审批模式： **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** 或两者用于电子邮件。 有关测试用户档案的详细信息，请参 [阅发送验证](../../sending/using/sending-proofs.md)。
+* **[!UICONTROL Send a test]**:允许您选择要使用的审批模式： **[!UICONTROL Email rendering]** （仅限电子邮件），或 **[!UICONTROL Proof]** 同时两者。 有关测试用户档案的详细信息，请参 [阅发送验证](../../sending/using/sending-proofs.md)。 仅在创建测试用户档案后，才启用此按钮。
 
-   仅在建立测试用户档案后，才启用此按钮。
+* **[!UICONTROL Prepare send]**:开始准备发送。 出现 **[!UICONTROL Deployment]** 块并显示准备结果。 此按钮仅在输入目标后才显示。 您可以随时使用相应的按钮停止准备。 For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >对于SMS消息，别无选择：它自动变成 **[!UICONTROL Proof]**&#x200B;了。
-
-* **[!UICONTROL Prepare send]**:开始准备发送。 出现 **[!UICONTROL Deployment]** 块并显示准备结果。 此按钮仅在输入目标后才显示。 您可以随时使用相应的按钮停止准备。
-
-   有关消息准备的详细信 [息，请准备发送](../../sending/using/preparing-the-send.md)。
-
-* **[!UICONTROL Confirm send]**:确认发送消息。 发送统计信息显示在块 **[!UICONTROL Deployment]** 中。 此按钮仅在准备发送后显示。 您可以随时使用“停止发送”和按钮 **停止** 或暂停 **[!UICONTROL Pause]** 发送。
-
-   有关确认发送的详细信息，请参 [阅发送消息](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Confirm send]**:确认发送消息。 发送统计信息显示在块 **[!UICONTROL Deployment]** 中。 此按钮仅在准备发送后显示。 您可以随时使用“停止发送”和按钮 **停止** 或暂停 **[!UICONTROL Pause]** 发送。 有关确认发送的详细信息，请参 [阅发送消息](../../sending/using/confirming-the-send.md)。
 
 ## 块 {#blocks}
 
