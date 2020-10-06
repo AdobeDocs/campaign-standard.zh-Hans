@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 98%
@@ -171,4 +171,3 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 * [在工作流中发送应用程序内消息](../../automating/using/in-app-delivery.md)
-
