@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 创建直邮投放与创建常规电子邮件非常相似。以下步骤描述了特定于此渠道的配置。有关其他选项的更多信息，请参阅[创建电子邮件](../../channels/using/creating-an-email.md)。
 
-1. 创建新直邮投放。您可以在 Adobe Campaign [主页](../../start/using/interface-description.md#home-page)的[营销策划](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[营销活动列表](../../start/using/programs-and-campaigns.md#creating-a-campaign)中创建直邮。
+>[!NOTE]
+>
+>您还可以在工作流中添加直邮活动。有关更多信息，请参阅[工作流](../../automating/using/direct-mail-delivery.md)指南。
 
-   >[!NOTE]
-   >
-   >您还可以在工作流中添加直邮活动。有关更多信息，请参阅[工作流](../../automating/using/direct-mail-delivery.md)指南。
+1. 创建新直邮投放。您可以在 Adobe Campaign [主页](../../start/using/interface-description.md#home-page)的[营销策划](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[营销活动列表](../../start/using/programs-and-campaigns.md#creating-a-campaign)中创建直邮。
 
    ![](assets/direct_mail_1.png)
 
