@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -147,7 +147,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 我必须做什么才能启用活动中的推送报告? {#push-reporting-enable}
 
-按照以下步骤操作：
+按照下面的步骤进行操作：
 
 * 配置推送跟踪回发。 此处可找到说 [明](../../administration/using/configuring-a-mobile-application.md)。
 * 从Mobile Core实施trackAction API。 Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
@@ -164,5 +164,5 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 是，推送消息中支持深层链接。 深层链接应包括：
 
-* 一种语言，该语言规定需要禁用投放跟踪才能使开发人员工作。
+* 声明需要禁用投放跟踪才能使开发人员工作的语言。
 * Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅 [本页](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
