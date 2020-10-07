@@ -1,5 +1,5 @@
 ---
-title: 通信渠道快速入门
+title: 通信渠道入门
 description: 在各种渠道上创建个性化信息、使用模板、创建登陆页并检查最佳实践。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -9,18 +9,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 通信渠道快速入门 {#discovering-communication-channels}
+# 通信渠道入门 {#discovering-communication-channels}
 
 <table>
 <tr>
@@ -78,7 +76,7 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 阅读更多:
 
 * [关于交易消息传递](../../channels/using/getting-started-with-transactional-msg.md)
-* [交易消息快速入门](../../channels/using/getting-started-with-transactional-msg.md)
+* [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md)
 * [事件事务型消息](../../channels/using/event-transactional-messages.md)
 * [用户档案事务型消息](../../channels/using/profile-transactional-messages.md)
 * [事务型推送通知](../../channels/using/transactional-push-notifications.md)
@@ -106,5 +104,5 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 * [设计电子邮件内容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [导入AEM内容](../../integrating/using/creating-email-experience-manager.md)
 * [用工作流发送消息](../../automating/using/about-channel-activities.md)
-* [通信渠道教程视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [通信渠道教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [用例：创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
