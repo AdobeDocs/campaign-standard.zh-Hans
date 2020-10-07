@@ -1,6 +1,6 @@
 ---
 title: 故障排除
-description: 进一步了解与常见问题相关的Campaign Standard API。
+description: 进一步了解与常见问题相关的Campaign StandardAPI。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,25 +9,26 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 故障排除 {#troubleshooting}
 
-* **转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅对企业帐户的选定成员可用。 如果您认为您应该具有访问权限，请联系您的系统管理员。”**
+* **转到Adobe.io控制台时，您会收到以下错误：“AdobeI/O控制台仅可用于选择企业帐户的成员。 如果您认为您应该具有访问权限，请与系统管理员联系。”**
 
-您只能为您所管理的IMS组织创建API密钥。 如果显示此消息，并且您要创建API密钥，并且要向IMS组织的管理员之一询问。
+您只能为您所管理的IMS组织创建API密钥。 如果显示此消息，并且您要创建API密钥，并且要请求IMS组织的管理员之一。
 
-* **向Adobe.io发出请求时，您会收到{"error_code":"403023","message":"Profile is not valid"}**
+* **向Adobe.io发出请求时，您会得到{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;用户档案无效&quot;}**
 
-这意味着您的特定Campaign产品的IMS配置存在问题：IMS团队需要修复它。
+这意味着您的特定活动产品的IMS配置存在问题：IMS团队需要修复它。
 
-要获取更多详细信息，您可以使用您的令牌调用IMS API，以查看IMS配置文件的外观：您需要有一个prodCtx，其中organization_id与您放入的URL中的organization_id相同，这样Adobe.io才能路由您的请求。
+要获取更多详细信息，您可以使用您的令牌调用IMS API，以查看IMS用户档案的外观：您需要有一个prodCtx，其中organization_id与您放入URL中的organization_id相同，以便Adobe.io能够路由您的请求。
 如果缺少IMS设置，则需要修复。
 
 ```
@@ -44,7 +45,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-使用此请求检查您的IMS配置文件。
+使用此请求检查您的IMS用户档案。
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -54,7 +55,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-在响应中，ORGANIZATION_ID值必须与第一个GET请求中的值相同。
+在响应中，ORGANIZATION_ID值在您的第一个GET请求中必须相同。
 
 ```
 {
@@ -79,17 +80,17 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{"code":500, "message":"糟糕。 出了点问题。 检查您的URI，然后重试。"}**
+* **向Adobe.io发出请求时，您得到{&quot;code&quot;:500, &quot;message&quot;:&quot;糟糕。 出了点问题。 请检查您的URI，然后重试。&quot;}**
 
-Adobe.io声明您的无效URI:您请求的URI很可能无效。 在Adobe.io上，选择Campaign服务时，您会得到一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的是否是您放入URL的。
+Adobe.io声明您的无效URI:您请求的URI很可能无效。 在Adobe.io上，当您选择活动服务时，您会得到一个选取器，其列表可能为organization_id。 您需要检查您选择的是否是您放入URL的那个。
 
-* **向Adobe.io发出请求时，您会收到{"error_code":"401013","message":"Oauth token is not valid"}**
+* **对Adobe.io执行请求时，您会得到{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
 
-您的令牌无效（用于生成令牌的不当IMS调用）或您的令牌已过期。
+您的令牌无效（用于生成令牌的不当IMS调用）或令牌已过期。
 
-* **我在创建后看不到个人资料**
+* **创作后我看不到用户档案**
 
-根据实例配置，创建的配置文件需要关联到 **orgUnit**。 要了解如何在您的创建中添加此字段，请查阅 [此部分](../../api/using/creating-profiles.md)。
+根据实例配置，创建的用户档案需要与orgUnit关 **联**。 要了解如何在创建中添加此字段，请参 [阅此部分](../../api/using/creating-profiles.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
