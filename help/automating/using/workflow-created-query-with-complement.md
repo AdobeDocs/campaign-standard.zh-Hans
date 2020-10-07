@@ -10,41 +10,39 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 使用补充创建投放 {#deliveries-with-complement}
 
-您可以向客户发送电子邮件： 一款面向不到一年前创建的客户，一款面向一年多前创建的客户。
+您可以向客户发送电子邮件：一款面向不到一年前创建的客户，一款面向一年多前创建的客户。
 
-1. 在中 **[!UICONTROL Marketing Activities]**，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
-1. 选择 **[!UICONTROL New Workflow]** 为工作流类型并单击 **[!UICONTROL Next]**。
+1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
+1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
 1. 输入工作流的属性并单击 **[!UICONTROL Create]**。
 
-## 创建查询活动 {#create-a-query-activity}
+## Create a Query activity {#create-a-query-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放一个 [查询](../../automating/using/query.md) 活动。
-1. 多次单击活动。
-1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放并 **[!UICONTROL Profiles]** 使用运 **[!UICONTROL email]** 算符进行选择 **[!UICONTROL is not empty]**。
-1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放并 **[!UICONTROL Profiles]** 使用值 **[!UICONTROL no longer contact by email]** 进行选择 **[!UICONTROL no]**。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
+1. 双击该活动。
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 1. 单击 **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
-## 创建分段活动 {#create-a-segmentation-activity}
+## Create a Segmentation activity {#create-a-segmentation-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放分段 [活动](../../automating/using/segmentation.md) ，然后多次单击它。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. 将鼠标悬停在区段上，然后单 ![](assets/edit_darkgrey-24px.png) 击以目标今年在数据库中添加的客户。
-1. 拖放并 **[!UICONTROL Profiles]** 使用筛 **[!UICONTROL Created]** 选器类型进行选择 **[!UICONTROL Relative]**。
-1. 将更改 **[!UICONTROL Level of precision]** 为并 **[!UICONTROL Year]** 选择 **[!UICONTROL This year]**。
+1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
+1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
 1. 单击 **[!UICONTROL Confirm]** 两次。
 1. 在中 **[!UICONTROL Advanced Options]**，选 **[!UICONTROL Generate complement]** 中以创建定位其余收件人的区段。
 1. 单击 **[!UICONTROL Confirm]**.
@@ -59,7 +57,7 @@ ht-degree: 5%
 ## 创建电子邮件投放 {#create-an-email-delivery}
 
 1. 在> **[!UICONTROL Activities]** 中 **[!UICONTROL Channels]**，将电子邮件投放 [](../../automating/using/email-delivery.md) 活动拖放到每个区段之后。
-1. 单击活动，然 ![](assets/edit_darkgrey-24px.png) 后选择编辑。
+1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Single send email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
@@ -67,8 +65,8 @@ ht-degree: 5%
 1. 插入元素或选择现有模板。
 1. 使用特定于每个优惠的投放个性化您的电子邮件。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
-有关详细信息，请参阅 [设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 ![](assets/wf-deliveries-with-a-complement.png)
