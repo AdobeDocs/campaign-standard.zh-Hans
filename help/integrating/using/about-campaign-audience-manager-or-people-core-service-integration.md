@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,14 +31,14 @@ Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和�
 
 集成支持两种类型的Adobe Experience CloudID:
 
-* **访客ID**: 此类型的ID允许您协调Adobe Experience Cloud访客与Adobe Campaign用户档案。 一旦通过AdobeIMS启用连接，Marketing Cloud访客ID服务即被激活，这将取代Adobe Campaign使用的永久cookie。 这允许您识别访客，然后将其链接到用户档案。
+* **访客ID**:此类型的ID允许您协调Adobe Experience Cloud访客与Adobe Campaign用户档案。 一旦通过AdobeIMS启用连接，Marketing Cloud访客ID服务即被激活，这将取代Adobe Campaign使用的永久cookie。 这允许您识别访客，然后将其链接到用户档案。
    <br>访客ID在用户档案单击通过Adobe Campaign发送的电子邮件后立即链接到用户档案:
    * 如果用户档案已经有访客ID，则用户档案的浏览器数据允许Adobe Campaign恢复并自动将用户档案链接到访客ID。
    * 如果找不到访客ID，则会创建新ID。 此访客ID存储在用户档案跟踪日志中。
 
    ID随后将由具有相同CNAME的其他Adobe Marketing Cloud应用程序识别。
 
-* **声明的ID**: 此类型的ID允许您将任何类型的数据与Adobe Campaign库中的元素进行协调。 它以Adobe Campaign表示为预定义合并关键项。 交换Adobe Campaign时，对数据库标识符进行散列处理。 然后，将这些散列ID与进口或出口涉及的Adobe Marketing Cloud受众的散列ID进行比较。
+* **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign库中的元素进行协调。 它以Adobe Campaign表示为预定义合并关键项。 交换Adobe Campaign时，对数据库标识符进行散列处理。 然后，将这些散列ID与进口或出口涉及的Adobe Marketing Cloud受众的散列ID进行比较。
    <br>此集成支持常规声明ID、散列声明ID和加密声明ID。
 
    >[!CAUTION]
@@ -49,8 +47,8 @@ Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和�
 
    加密允许您通过指定加密算法，使用声明的ID在数据源（例如PII）中共享加密数据。
 
-   例如，利用解密加密电子邮件地址或SMS号的能力，您还可以向用户发送触发消息，即使用户档案库中不存在触发消息。
+   例如，利用解密加密电子邮件地址或SMS号的能力，您还可以向用户发送触发消息，即使Adobe Campaign用户档案库中不存在触发消息。
 
-下图详细说明了此集成的工作方式。 这里，AAM代表Adobe Audience Manager和Adobe Campaign Standard。
+下图详细说明此集成的工作方式。这里，AAM代表Adobe Audience Manager和Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)
