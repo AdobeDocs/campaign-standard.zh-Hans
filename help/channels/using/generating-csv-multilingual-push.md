@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -108,8 +106,8 @@ ht-degree: 0%
 | af_za | 阿非利卡语——南非 |
 | sq_al | 阿尔巴尼亚——阿尔巴尼亚 |
 | ar_dz | 阿拉伯语——阿尔及利亚 |
-| 阿拉伯语 | 阿拉伯语——巴林 |
-| lar_iq | 阿拉伯语——伊拉克 |
+| ar_bh | 阿拉伯语——巴林 |
+| ar_iq | 阿拉伯语——伊拉克 |
 | ar_il | 阿拉伯语——以色列 |
 | ar_jo | 阿拉伯语——约旦 |
 | ar_kw | 阿拉伯语——科威特 |
@@ -176,11 +174,11 @@ ht-degree: 0%
 | kk_kz | 哈萨克语——哈萨克斯坦 |
 | ko_kr | 朝鲜语——韩国 |
 | lv_lv | 拉脱维亚——拉脱维亚 |
-| -lt | 立陶宛语——立陶宛 |
+| lt_lt | 立陶宛语——立陶宛 |
 | mk_mk | 马其顿——马其顿 |
 | ms_my | 马来语——马来西亚 |
 | mr_in | 马拉地——印度 |
-| pno_no | 挪威语——挪威 |
+| no_no | 挪威语——挪威 |
 | pl_pl | 波兰——波兰 |
 | pt_br | 葡萄牙语——巴西 |
 | pt_pt | 葡萄牙语——葡萄牙 |
