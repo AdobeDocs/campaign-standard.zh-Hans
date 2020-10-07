@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,15 +21,15 @@ ht-degree: 0%
 
 # 从文件更新多个订阅状态 {#updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多个服务。 导入文件后，需要执行协调，以便将导入的数据标识为具有指向服务的链接的用户档案。 为确保文件不包含任何重复，将对数据执行外部重复数据删除活动。
+此示例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
-工作流如下所示：
+其工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* “加 [载文件](../../automating/using/load-file.md) ”活动加载用户档案文件并定义导入列的结构。
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   在此示例中，加载的文件采用。csv格式并包含以下数据：
+   在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -48,26 +46,26 @@ ht-degree: 0%
 
    ![](assets/subscription_example_load_file.png)
 
-   如您所注意的，该操作在文件中指定为“sub”或“nims”。 系统需要一个 **布尔** 或整 **数值来** 识别要执行的操作： “0”取消订阅，“1”取消订阅。 为满足此要求，将在“操作”列的详细信息中执行值的重新映射。
+   如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。为满足此要求，将在“operation”列的详情中执行重映射值的操作。
 
    ![](assets/subscription_example_remapping.png)
 
-   如果文件已使用“0”和“1”来标识操作，则无需重新映射这些值。 仅确保在选项卡中将列作为 **布尔****或整数** 进行 **[!UICONTROL Column definition]** 处理。
+   如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* 协调 [活动](../../automating/using/reconciliation.md) 将文件中的数据标识为属于Adobe Campaign库的用户档案维。 通过选 **[!UICONTROL Identification]** 项卡， **文件的电子邮件** 字段与用户档案资 **源的电** 子邮件字段匹配。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
 
    ![](assets/subscription_activity_example3.png)
 
-   在选 **[!UICONTROL Relations]** 项卡中，将使用服务资源创建一个链接，以允 **许** 识别文件的服务字段。 在此示例中，这些值与服务 **资源** 的名称字段匹配。
+   在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。在本例中，这些值与服务资源的 **name** 字段匹配。
 
    ![](assets/subscription_example_service_relation.png)
 
-* 基 [于临](../../automating/using/deduplication.md) 时资 **源** （由对帐产生）的电子邮件字段的外部重复数据删除标识重复。 消除重复很重要，因为在出现重复时，对服务的订阅将对所有数据失败。
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* 订阅服务 [](../../automating/using/subscription-services.md) 活动通过在活动中创建的链接，将要更新的服务标识为来自过渡的 **[!UICONTROL Reconciliation]** 服务。
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-   该 **[!UICONTROL Operation type]** 文件标识为来自 **文件** 的操作字段。 此处只能选择布尔或整数字段。 如果列表中未显示包含要执行的操作的文件列，请确保已在活动中正确设置列格式，如本例前面所述。 **[!UICONTROL Load file]**
+   将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 
    ![](assets/subscription_activity_example_from_file.png)
