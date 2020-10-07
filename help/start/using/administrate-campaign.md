@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign标准中自定义显示屏并在列表屏幕上操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何自定义显示屏并在Adobe Campaign Standard的列表屏幕上操作：排序、过滤、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,14 +36,14 @@ source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
     </td>
 </tr>
 <tr>
-<td>活动数据模型</td>
+<td>Campaign 数据模型</td>
 <td>使用REST API</td>
 <td>管理用户</td>
 <td>配置和监视实例</td>
 </tr>
 </table>
 
-## 活动数据模型
+## Campaign 数据模型
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
