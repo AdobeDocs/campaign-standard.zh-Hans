@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +22,15 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ## 检索过滤器元数据
 
-过滤器可用于每个资源。 要标识与某个资源关联的筛选器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+过滤器适用于每个资源。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
 
-要识别过滤器的元数据并确定如何使用该元数据，您必须对先前返回的URL执行GET请求。
+要识别筛选器的元数据并确定如何使用它，您必须对先前返回的URL执行GET请求。
 
 <br/>
 
 ***示例请求***
 
-以下示例负载显示如何检索“配置文件”资源的“byText”过滤器元数据。 首先对“配置文件”资源元数据执行GET请求。
+以下示例负载显示如何检索“用户档案”资源的“byText”过滤器元数据。 首先对“GET”资源元数据执行用户档案请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -49,7 +50,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
   }
 ```
 
-对URL执行GET请求。 它返回配置文件资源的过滤器列表，每个过滤器都关联有元数据。
+对URL执行GET请求。 它返回列表资源的过滤器用户档案，并且每个筛选器都关联了元数据。
 
 ```
 {
@@ -64,14 +65,14 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 }
 ```
 
-## 过滤元数据结构
+## 过滤器元数据结构
 
-每个过滤器都有相同的元数据结构：
+每个筛选器都可以使用相同的元数据结构：
 
-* @formType **** 和 **** @webPage字段是技术字段。
+* @ **formType** 和 **** @webPage字段是技术字段。
 * 数 **据字段** 提供了如何使用过滤器的示例。
-* 元数 **据节点** 描述过滤器参数。
-* 条 **件节点** ，描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个过滤器条件，如 **果enabled** If **为true** ，将应用expr。
+* 元数 **据节点** 描述筛选器参数。
+* 条 **件节点** 描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个筛选条件， **如果** enabledIf为 **true** ，将应用expr。
 
 <br/>
 
@@ -89,13 +90,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
     }
 ```
 
-## 使用滤镜
+## 使用过滤器
 
-对以下请求执行过滤：
+对以下请求执行筛选：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-可以在单个请求中组合多个过滤器：
+可以在单个请求中合并多个过滤器:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
@@ -135,7 +136,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* 范例GET请求，用于检索电子邮件或姓氏字段中包含“Doe”的“配置文件”资源（byText过滤器会搜索电子邮件和姓氏字段）。
+* GET请求示例：检索电子邮件或姓氏字段中包含“Doe”的“用户档案”资源（byText过滤器搜索电子邮件和姓氏字段）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -163,7 +164,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* 示例GET请求，用于检索服务资源，类型为“email”，标签为“sport”。
+* GET请求示例，用于检索类型为“email”且标签为“sport”的服务资源。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -195,22 +196,22 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-## 自定滤镜
+## 自定义过滤器
 
-如果要使用自定义筛选器，则必须在Adobe Campaign standard界面中创建和自定义该筛选器。 然后，自定义过滤器将具有与现成过滤器相同的行为：
+如果要使用自定义过滤器，则必须在Adobe Campaign Standard界面中创建和自定义它。 然后，自定义过滤器将具有与开箱即用过滤器相同的行为：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有关详细信息，请参阅Campaign standard文档：
+有关此内容的详细信息，请参阅Campaign Standard文档：
 
-* [配置筛选条件定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [配置过滤器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [用例：使用复合标识密钥调用资源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
 ***示例请求***
 
-检索事务处理金额为100美元或更高的“配置文件”资源的示例GET请求。 请注意，“byAmount”过滤器首先在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
+GET请求示例：检索事务处理金额为100$或更多的“用户档案”资源。 请注意，“byAmount”过滤器首先在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
