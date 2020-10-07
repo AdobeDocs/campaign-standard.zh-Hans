@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 更新组织单位属性 {#updating-organizational-unit-attributes}
 
-1. 对orgUnitBase资源执行GET **请求** ，以检索组织单元PKey。
-1. 对“组织”单元执行PATCH请求，并在有效负荷中更新属性。
+1. 对orgUnitBase资源执 **行GET请** 求以检索组织单位PKey。
+1. 对组织单元执行PATCH请求，并在有效负荷中更新属性。
 
 <br/>
 
 ***示例请求***
 
-检索组织单位列表。
+检索组织单位的列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -52,7 +53,7 @@ source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
 },
 ```
 
-对“组织”单元执行PATCH请求，并在有效负荷中更新属性。
+对组织单元执行PATCH请求，并在有效负荷中更新属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
