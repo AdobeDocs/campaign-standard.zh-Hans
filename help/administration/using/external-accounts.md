@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 85%
@@ -94,7 +92,9 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 >[!NOTE]
 >
 >控制面板仅适用于托管在 AWS 上的、客户的 Admin 用户。
-可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
+
+>
+>可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
 
 ## OAuth 2.0帐户 {#oauth-account}
 
