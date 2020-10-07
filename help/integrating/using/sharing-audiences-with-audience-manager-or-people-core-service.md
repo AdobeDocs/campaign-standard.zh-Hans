@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +24,9 @@ ht-degree: 2%
 
 People核心服务集成允许通过技术工作流将受众直接导入Adobe Campaign，以丰富您的数据库。 有关人员核心服务中受众共享的详细信息，请参阅此 [文档](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
-只有通过IMS(通过受众进行身份验证)连接的用户才能从菜单中 **[!UICONTROL Audiences]** 导入Adobe Campaign中的Adobe ID/区段。
+只有通过IMS(通过Adobe ID进行身份验证)连接的用户才能从菜单中 **[!UICONTROL Audiences]** 导入Adobe Campaign中的People核心服务的受众/区段。
 
-1. 转到菜 **[!UICONTROL Audiences]** 单。
+1. Go to the **[!UICONTROL Audiences]** menu.
 1. 在操作栏中， **[!UICONTROL Create]** 选择要在屏幕上创建受众。
 1. 指定新受众的标签。
 1. 将受众设 **[!UICONTROL Type]** 置为 **[!UICONTROL Experience Cloud]** 指明所创建的受众是从People核心服务导入的受众。
@@ -44,24 +42,24 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 
 1. 确认创建受众。
 
-   然后，受众通过技术工作流导入。 它由记录组成，其中ID(“访客ID”或“声明的ID”)能够与用户档案维协调。 不会导入Adobe Campaign无法识别的People核心服务区段的ID。
+   然后，受众通过技术工作流导入。 它由记录组成，其中ID(“访客ID”或“声明ID”)能够与用户档案维协调。 不会导入Adobe Campaign无法识别的People核心服务区段的ID。
 
 您的受众现已导入到Adobe Campaign数据库中。 当区段直接从People核心服务或Audience Manager导入时，导入过程需要24到36小时进行同步。 在此期间后，您将能够在Adobe Campaign中查找和使用新受众。
 
 >[!NOTE]
 >
->如果要将受众从AdobeAnalytics导入Adobe Campaign，则首先需要在People Core Service或Audience Manager中共享这些受众。 此过程需要12-24小时，必须与活动进行24-36小时的同步。 在这种情况下，受众共享时间最长可达60小时。 有关People Core服务和Analytics经理中Adobe受众受众共享的详细信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
+>如果要将受众从Adobe Analytics导入Adobe Campaign，则首先需要在People Core Service或Audience Manager中共享这些受众。 此过程需要12-24小时，必须与活动在24-36小时内进行同步。 在这种情况下，受众共享时间最长可达60小时。 有关People Core服务和Adobe Analytics经理中的受众受众共享的详细信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
 ## 导出受众 {#exporting-an-audience}
 
 受众可以使用工作流和活动从Adobe Campaign导出到Audience Manager或人员核心服务 **[!UICONTROL Save audience]** 。
 
-它可以在新的工作流中执行，并且只有通过IMS(通过Adobe ID进行身份验证)连接的用户才能执行。
+它可以在新的工作流程中执行，并且只有通过IMS(通过Adobe ID进行身份验证)连接的用户才能执行。
 
 1. 从项目、活动或营销活动的列表创建新的工作流。
 1. 使用不同的可用活动目标一组用户档案。
 1. 定位后，将活动拖放 **[!UICONTROL Save audience]** 到工作流中，然后打开它。
-1. Select **[!UICONTROL Share in Adobe Experience Cloud]**.
+1. 选择 **[!UICONTROL Share in Adobe Experience Cloud]**。
 
    ![](assets/aam_save_audience_activity.png)
 
@@ -69,9 +67,10 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 
    * 如果您选择现有受众，则只会向受众添加新记录。
    * 要将用户档案列表导出到新受众，请填写字段，然 **[!UICONTROL Segment name]** 后在选择新 **[!UICONTROL Create]** 创建的受众之前单击。
+
    ![](assets/aam_save_audience_segment_picker.png)
 
-   为了进行核对和交换，这些记录必须具有Adobe Experience Cloud ID(“访客ID”或“声明ID”)。 在导入和导出受众时，不协调的记录会被忽略。
+   为了进行核对和交换，记录必须具有Adobe Experience CloudID(“访客ID”或“声明ID”)。 在导入和导出受众时，不协调的记录会被忽略。
 
 1. 要完成，请单击屏幕右上方的复选标记。
 1. 选择相应的 **[!UICONTROL Shared Data Source]**。
@@ -79,7 +78,7 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 1. 确认活动的配置并保存工作流。
 1. 开始工作流以导出受众。 Adobe Campaign与人员核心服务之间的同步可能需要数小时
 
-Adobe Campaign与人员核心服务之间的同步需要24到36小时。 在此期间后，您将能够在People核心服务中找到新的受众，并在其他Adobe Experience Cloud解决方案中重复使用它。 有关在Adobe People核心服务中使用Adobe Campaign共享受众的更多信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)。
+Adobe Campaign与人员核心服务之间的同步需要24到36小时。 在此期间，您将能够在People核心服务中找到新的受众，并在其他Adobe Experience Cloud解决方案中重复使用它。 有关在Adobe Campaign人员核心服务中使用受众共享Adobe的详细信息，请参阅本 [文档](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)。
 
 **相关主题：**
 
