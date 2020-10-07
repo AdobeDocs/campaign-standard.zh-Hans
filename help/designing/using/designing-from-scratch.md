@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 2%
 1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images)。
 1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参 [阅插入个性化字](../../designing/using/personalization.md#inserting-a-personalization-field)段 [、插入链接](../../designing/using/links.md#inserting-a-link) 和在电 [子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 1. 定义电子邮件的主题行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 预览电子邮件。
+1. 预览电子邮件.
 1. 保存您的内容，并在确保已定义受众并正确安排发送时间后继续处理您的消息。
 
 您还可以查看此介 [绍视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)。
