@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -333,7 +331,7 @@ CR：回车
 
 ![](assets/sms_options.png)
 
-从部 **[!UICONTROL Advanced parameters]** 分：
+From the **[!UICONTROL Advanced parameters]** section:
 
 * 利用 **[!UICONTROL From]**，可使用字符串将短信消息发送者的名称个性化。该名称在收件人的手机显示为短信消息的发送者。
 
