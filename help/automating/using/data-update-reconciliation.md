@@ -1,6 +1,6 @@
 ---
 title: 使用协调进行数据更新
-description: 以下示例演示了一个工作流，它直接从包含新客户端的导入文件创建受众用户档案。
+description: 下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,11 +21,11 @@ ht-degree: 0%
 
 # 使用协调进行数据更新 {#data-update-reconciliation}
 
-以下示例演示了一个工作流，它直接从包含新客户端的导入文件创建受众用户档案。 它由以下活动组成：
+下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。该工作流由以下活动组成：
 
 ![](assets/identification_example2.png)
 
-* 加 [载文件活动](../../automating/using/load-file.md) ，它加载并检测要导入的文件的数据。 导入的文件包含以下数据：
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. 导入的文件包含以下数据：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ ht-degree: 0%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* 一个 [对帐活动](../../automating/using/reconciliation.md) ，它将加载文件的每个列链接到一个用户档案维列。 无法识别的文件记录（缺少数据、数据类型不兼容等） 将被忽略，以保持最终受众数据的完整性。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
    ![](assets/identification_example1.png)
 
-* 保 [存受众](../../automating/using/save-audience.md) 活动，它保存用户档案的受众。
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)
