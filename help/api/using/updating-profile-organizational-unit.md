@@ -1,6 +1,6 @@
 ---
-title: 更新个人资料的组织单位
-description: 了解如何使用API更新个人资料的组织单位。
+title: 更新用户档案的组织单位
+description: 了解如何使用API更新用户档案的组织单位。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 更新个人资料的组织单位 {#managing-organizational-units}
+# 更新用户档案的组织单位 {#managing-organizational-units}
 
-1. 对orgUnitBase资源执行GET **请求** ，以检索组织单元PKey
-1. 对配置文件PKey执行PATCH请求，在有效负荷中包含所需的组织单元PKey。
+1. 对orgUnitBase资源执 **行GET请求** ，以检索组织单位PKey
+1. 对用户档案PKey执行PATCH请求，在有效负荷中使用所需的组织单位PKey。
 
 <br/>
 
 ***示例请求***
 
-检索组织单位列表。
+检索组织单位的列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -36,7 +37,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有组织单位。 检索要将配置文件分配到的设备的PKey。
+它返回所有组织单位。 检索要向其分配用户档案的设备的PKey。
 
 ```
 {
@@ -52,7 +53,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-对配置文件执行PATCH请求，有效负荷中所需组织单元的PKey。
+对用户档案执行PATCH请求，有效负荷中所需组织单位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
