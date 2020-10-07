@@ -1,6 +1,6 @@
 ---
 title: 导出列表
-description: 'Adobe Campaign允许您直接将概览屏幕中显示为列表的数据导出到文件中以供将来使用。 '
+description: 'Adobe Campaign允许您直接从概述屏幕中导出列表显示的数据，以供将来使用。 '
 page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
@@ -9,53 +9,54 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 导出列表{#exporting-lists}
 
-Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 导出文件中的列表会在菜单中生成日志 **[!UICONTROL Export audits]**条目。 有关导出审核的详细信息，请参阅“审核[导出](../../administration/using/auditing-export-logs.md)”一节。
+Adobe Campaign允许您直接在文件中导出列表以供将来使用。 在文件中导出列表会在菜单中生成日志 **[!UICONTROL Export audits]** 条目。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
 
-导出列表选项默认允许导出最多100,000行，并由 **Nms_ExportListLimit选项定义** 。 此选项可由功能管理员在> **[!UICONTROL Administration]****[!UICONTROL Application settings]** >菜单 **[!UICONTROL Options]**下管理。
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-对于具有该角色的用户，导出列表在具有“列 **表** ”模式视图的所有屏幕中都 **[!UICONTROL EXPORT (export)]**可用。
+对于具有角色的用户，导出列表在具有 **列表** 模式视图的所有屏幕中都 **[!UICONTROL EXPORT (export)]** 可用。
 
-1. 转到您选择的“列 **表** ”屏幕。 例如，测试配置文件概述屏幕( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** )。
-1. 检查屏幕是否处于“列 **表** ”模式。
+1. 转到您选择的 **列表** 屏幕。 例如，测试用户档案概述屏幕( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
+1. 检查屏幕是否处于 **列表** 模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 按您希望使用右上角的按钮导出列表中的列的 **[!UICONTROL Configure list]**顺序组织列。 除了配置的列外，还将导出资源的主键。
+1. 在列表中按您希望使用右上角的按钮导出列的顺 **[!UICONTROL Configure list]** 序组织列。 除配置的列外，还将导出资源的主键。
 1. 如果您喜欢，可以应用过滤器。 为此，请单击左上角的按钮以显示搜索窗格。
 
-   如果从包含不同资源的列表中进行导出，则必须应用筛选器，以便列表中只显示一种类型的资源。
+   如果从包含不同资源的列表进行导出，则必须应用过滤器，以便在列表中仅显示一种类型的资源。
 
 1. 如果您喜欢，请对所选列进行排序。
 1. 选择导出按钮 ![](assets/exportlistbutton.png)。
 
-   此时将显示一个用于确认导出的弹出窗口。 确认导出后，文件会自动下载到您的计算机。
+   将出现一个弹出窗口来确认导出。 确认导出后，文件会自动下载到您的计算机。
 
-文件以CSV格式生成，扩展名为。TXT。 它根据导出的资源和导出日期命名。 例如：name profileBase_20150426_120253.txt将应用于2015年4月26日12:02:53进行的配置文件导出。 它采用UTF-8格式进行编码。
+文件以CSV格式生成，扩展名为。TXT。 它根据导出的资源和导出日期命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12:02:53进行的用户档案导出。 它采用UTF-8格式进行编码。
 
-数字值和日期考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
+数字值和日期会考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 
 要执行大于此值的导出，您必须创建专用工作流。 请参阅“解 [压文件](../../automating/using/extract-file.md) ”部分。
 
 **示例**
 
-以下示例是从以下定义的配置文件列表中执行的导出：
+以下示例是从以下定义的用户档案列表执行的导出：
 
-* 显示列（按顺序）:姓、名、出生日期、电子邮件地址。
+* 显示的列（按顺序）:姓氏、名字、出生日期、电子邮件地址。
 * 名称按字母顺序排序。
 
 ![](assets/export_list_example1.png)
 
-生成的文件如下（前十条记录）所示：
+生成的文件如下所示（对于前十条记录）:
 
 ```
 Last name;First name;Birth date;Email;Zip code
