@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 6%
@@ -22,9 +20,9 @@ ht-degree: 6%
 
 # 关于 Campaign-兴趣点数据集成{#about-campaign-points-of-interest-data-integration}
 
-除了跟踪客户的在线状态外，您还可以利用客户的实际位置。 通过与AdobeAnalytics移动版集成，您可以使用Adobe Campaign将基于位置的营销消息发送给您的移动应用程序的订户。
+除了跟踪客户的在线状态外，您还可以利用客户的实际位置。 通过与Adobe Analytics移动版集成，您可以使用Adobe Campaign将基于位置的营销消息发送给您的移动应用程序的订户。
 
-兴趣点由纬度、经度和与标签关联的半径组成。 它们在Adobe Mobile Services界 [面中进行定义](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) 。
+兴趣点由纬度、经度和与标签关联的半径组成。 它们在Adobe [Mobile Services界面中定义](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) 。
 
 当Adobe Campaign打开您的移动应用程序时，如果位置与目标点匹配，则Experience Cloud通过移动SDK捕获数据。 您可以使用此信息根据用户的位置（如电子邮件、推送通知、短信）发送个性化消息。
 
