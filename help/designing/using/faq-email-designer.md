@@ -9,12 +9,10 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,13 +55,13 @@ ht-degree: 0%
 
 ## 为何需要更新片段？
 
-电子邮件设计人员正在不断改进。 如果您从头开始、从现成模板创建电子邮件内容或创建片段，则可能需要将内容更新到最新版本以避免CSS冲突问题等问题。
+Email Designer 正在不断改进。如果您从头开始、从现成模板创建电子邮件内容或创建片段，则可能需要将内容更新到最新版本以避免CSS冲突问题等问题。
 
 有关详细信息，请参阅 [更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## 能否在主题中保存样式？
 
-无法将样式保存为主题以供将来重用。 但是，CSS样式可保存在内容模板或电子邮件中。
+无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。
 
 有关详细信息，请参阅样 [式](../../designing/using/styles.md)
 
