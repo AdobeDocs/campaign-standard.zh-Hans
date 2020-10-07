@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         <th>名称</th>
         <th>标签</th>
         <th>类型（长度）</th>
-        <th>枚举值</th>
+        <th>明细列表值</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -34,8 +35,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>ctx</td>
-        <td>活动上下文</td>
-        <td>项目 </td>
+        <td>事件上下文</td>
+        <td>物料 </td>
         <td> </td>
     </tr>
     <tr>
@@ -47,7 +48,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     <tr>
         <td>emailFormat</td>
         <td>电子邮件格式</td>
-        <td>枚举（字节） </td>
+        <td>明细列表（字节） </td>
         <td>
             <ul>
             <li>文本——文本- 1</li>
@@ -59,12 +60,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>存档的活动ID</td>
+        <td>存档事件ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>mobilePhone</td>
+        <td>移动电话</td>
         <td>移动号码</td>
         <td>字符串(32)</td>
         <td> </td>
@@ -77,9 +78,9 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-## 滤镜
+## 过滤器
 
-按电子邮件（按电子邮件）
+通过电子邮件（通过电子邮件）
 
 <table>
     <tr>
@@ -92,7 +93,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-按状态或类型(byStatusOrType)
+按状态或类型（按状态或类型）
 
 <table>
         <tr>
@@ -101,10 +102,10 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         </tr>
         <tr>
         <td>状态</td>
-        <td>枚举</td>
+        <td>明细列表</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>类型</td>
         <td>字符串</td>
         </tr>
     </table>
