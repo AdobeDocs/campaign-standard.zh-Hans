@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 * **推送打开** -当推送通知已发送到设备且用户单击了导致应用程序打开的通知时。  这与推送单击类似，但如果通知消失，则不会触发推送打开。
 
-要实施Campaign Standard跟踪，移动应用程序需要包含Mobile SDK。 Adobe Mobile Services上提供这些SDK。 For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+要实施Campaign Standard跟踪，移动应用程序需要包含Mobile SDK。 这些SDK可在AdobeMobile Services上使用。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
 
 要发送跟踪信息，需要发送三个变量。 两个是从Campaign Standard接收的数据的一部分，一个操作变量指示它是“印象”、“ **单击**” **还是** “ **打开”**。
 
@@ -82,7 +80,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 * 用户可以看到通知，但会清除通知。
 * 用户看到通知并单击它，将其转换为开放跟踪。
 
-要处理此问题，您需要使用两种方法： 一个用于单击通知，另一个用于取消通知。
+要处理此问题，您需要使用两种方法：一个用于单击通知，另一个用于取消通知。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -200,9 +198,9 @@ private void handleTracking() {
 
 要了解iOS通知的工作方式，需要详细说明应用程序的三种状态：
 
-* **前景**: 当应用程序当前处于活动状态且当前处于屏幕上时（在前台）。
-* **背景**: 当is应用程序未在屏幕上但进程未关闭时。 当您多次单击主页按钮时，它通常会显示背景中的所有应用程序。
-* **关闭／关闭**: 一款流程已被扼杀的应用。
+* **前景**:当应用程序当前处于活动状态且当前处于屏幕上时（在前台）。
+* **背景**:当is应用程序未在屏幕上但进程未关闭时。 当您多次单击主页按钮时，它通常会显示背景中的所有应用程序。
+* **关闭／关闭**:一款流程已被扼杀的应用。
 
 如果应用程序关闭，则Apple在应用程序重新启动之前不会调用该应用程序。 这意味着您将无法知道在iOS上何时收到通知。
 
