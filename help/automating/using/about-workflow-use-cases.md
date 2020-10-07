@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,25 +29,25 @@ ht-degree: 17%
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 * [使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)
-* [在投放创建日期创建用户档案](../../automating/using/workflow-creation-date-query.md)
+* [在用户档案的创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
 * [创建每周投放](../../automating/using/workflow-weekly-offer.md)
 * [创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
-* [在重复之前识别投放](../../automating/using/identifying-duplicated-before-delivery.md)
+* [在投放之前标识重复项](../../automating/using/identifying-duplicated-before-delivery.md)
 * [生日投放](../../automating/using/birthday-delivery.md)
-* [将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
-* [发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
-* [个性化包含其他数据的电子邮件](../../automating/using/personalizing-email-with-additional-data.md)
-* [发送循环推送通知](../../automating/using/recurring-push-notifications.md)
+* [耦合电子邮件和直邮邮件传递](../../automating/using/coupling-email-direct-mail.md)
+* [发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [使用附加数据个性化电子邮件](../../automating/using/personalizing-email-with-additional-data.md)
+* [发送定期推送通知](../../automating/using/recurring-push-notifications.md)
 
 ## 分段和定位 {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [查询样例](../../automating/using/query-samples.md)
-* [合并两家精炼受众](../../automating/using/union-on-two-refined-audiences.md)
+* [两个已优化受众的联合](../../automating/using/union-on-two-refined-audiences.md)
 * [创建基于位置的分段](../../automating/using/workflow-segmentation-location.md)
 * [重新定位未打开者](../../automating/using/workflow-cross-channel-retargeting.md)
-* [增量查询服务的订户](../../automating/using/incremental-query-on-subscribers.md)
+* [关于服务订阅者的增量查询](../../automating/using/incremental-query-on-subscribers.md)
 * [根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
 * [使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -57,9 +55,9 @@ ht-degree: 17%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
-* [从导入的文件中消除重复数据](../../automating/using/deduplicating-data-imported-file.md)
-* [用文件中包含的用户档案丰富数据](../../automating/using/enriching-profile-data-file.md)
+* [使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
+* [从导入的文件中删除数据重复项](../../automating/using/deduplicating-data-imported-file.md)
+* [使用文件中包含的数据扩充用户档案数据](../../automating/using/enriching-profile-data-file.md)
 * [外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)
 * [使用外部数据更新数据库](../../automating/using/update-database-file.md)
 * [根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
