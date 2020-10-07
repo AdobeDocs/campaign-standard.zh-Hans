@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 1%
 >
 >此功能适用于电子邮件和仅包含英语内容的数据库。 如果您的实例包含其他语言的电子邮件，则培训的模型将不一致，并会导致错误的结果。 仅当实例上已有模型可用时，才会显示用于测试主题的选项。
 
-有关导入模型的详细信息，请参 [阅此部分](#importing-models)。
+For more on importing models, see this [section](#importing-models).
 
 ## 测试主题行 {#testing-subject-line}
 
@@ -40,8 +38,8 @@ ht-degree: 1%
 
 1. 创建或打开您的电子邮件。
 1. 打开内容，并在相应的输入字段中输入电子邮件的主题。
-1. 单击按 **[!UICONTROL Test subject]** 钮以访问该 **[!UICONTROL Test your subject line]** 窗口。 您仍可以从此窗口编辑主题。
-1. 选择要考虑开放率预测的正确模型。 有多种型号可用，每种型号都对应于特定行业。 有关使用模型的更多信息，请参 [阅此部分](#importing-models)。
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. 您仍可以从此窗口编辑主题。
+1. 选择要考虑开放率预测的正确模型。 有多种型号可用，每种型号都对应于特定行业。 For more on using models, see this [section](#importing-models).
 1. 单击 **[!UICONTROL Test]**.
 
 然后，将分析您的主题。
@@ -52,10 +50,10 @@ ht-degree: 1%
 
 会计算多个指标并显示一组工具，以帮助您：
 
-* **预计开放率**: 此图表为您提供了电子邮件当前主题的开放率的概念。
-* **主题长度**: 此指示器允许您查看主题的当前长度是否正确，或者它是否需要更长或更短。
-* **彩色词**: 在测试主题时，以绿色突出显示的单词是对提高开放率预测贡献最大的单词。 以红色突出显示的词是对提高开放率预测贡献最小的词。 如果在主题中添加或删除单词，突出显示的单词将会更改。
-* **类别和字词建议**: 向窗口的下部显示选定模型的多个相关类别。 这些类别按重要性顺序排序，它们允许您查看主题是否包含通过复选符号与其关联的词。 每个类别都包含一组建议单词，这些单词可用于您的主题，以使其更相关并提高开放率。 这些词是在给定类别中最常用的词。
+* **预计开放率**:此图表为您提供了电子邮件当前主题的开放率的概念。
+* **主题长度**:此指示器允许您查看主题的当前长度是否正确，或者它是否需要更长或更短。
+* **彩色词**:在测试主题时，以绿色突出显示的单词是对提高开放率预测贡献最大的单词。 以红色突出显示的词是对提高开放率预测贡献最小的词。 如果在主题中添加或删除单词，突出显示的单词将会更改。
+* **类别和字词建议**:向窗口的下部显示选定模型的多个相关类别。 这些类别按重要性顺序排序，它们允许您查看主题是否包含通过复选符号与其关联的词。 每个类别都包含一组建议单词，这些单词可用于您的主题，以使其更相关并提高开放率。 这些词是在给定类别中最常用的词。
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ ht-degree: 1%
 ### 培训本地模型 {#training-local-model}
 
 * 如果您已在使用Adobe Campaign，将自动对本地模型进行培训，以了解您已发送的消息。
-* 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件： 日期、主题、打开、发送。 为此，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > , **[!UICONTROL Subject Line Import]** 然后按照后续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会根据您上传的数据自动进行培训。
+* 如果您不熟悉Adobe Campaign，则可以从以前的系统/ESP中提取包含4列的CSV文件：日期、主题、打开、发送。 为此，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > , **[!UICONTROL Subject Line Import]** 然后按照后续屏幕上提供的说明操作。 主题上传完成后，请导入本地模型，如下所述。 本地模型会根据您上传的数据自动进行培训。
 * 如果您不熟悉Adobe Campaign，并且无法如上所述获取CSV文件，则可以使 [用预先培训的模型](#pre-trained-models) ，或等到系统中有足够的投放数据来培训本地模型。 系统将自动确定当前数据集是否包含足够的数据来识别模式和训练模型。
 
 >[!NOTE]
@@ -94,10 +92,10 @@ ht-degree: 1%
 
 可用的型号有：
 
-* 化妆品行业： subjectInsightComsetic.xml
-* 超市业： subjectInsightSupermarket.xml
-* 医疗行业： subjectInsightMedical.xml
-* 培训的模型： subjectlineTraining.xml。
+* 化妆品行业：subjectInsightComsetic.xml
+* 超市业：subjectInsightSupermarket.xml
+* 医疗行业：subjectInsightMedical.xml
+* 培训的模型：subjectlineTraining.xml。
 
 这些模型是不能训练的。
 
