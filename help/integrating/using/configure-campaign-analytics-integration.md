@@ -1,57 +1,58 @@
 ---
 title: 配置 Campaign-Analytics 集成
-description: 了解如何配置Adobe Analytics集成，以开始衡量电子邮件发送的成功程度。
-page-status-flag: 从未激活
+description: 了解如何将Adobe Analytics集成配置为开始衡量电子邮件投放的成功。
+page-status-flag: never-activated
 uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 集成
-content-type: 参考
-topic-tags: 使用活动和分析
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
 discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 配置 Campaign-Analytics 集成{#configure-campaign-analytics-integration}
 
-此集成允许您将关键绩效指标数据从Adobe Campaign直接共享到Adobe Analytics Standard或Premium。
+此集成允许您将关键绩效指标数据从Adobe Campaign直接共享到Adobe Analytics Standard或高级。
 
-要开始Adobe Campaign standard与Adobe Analytics之间的集成，您首先需要配置链接到Adobe Analytics的外部帐户。
+要开始Adobe Campaign Standard和Adobe Analytics之间的集成，您首先需要配置与Adobe Analytics链接的外部帐户。
 
-外部帐户和技术工作流只能由平台的职能管理员管理。
+外部帐户和技术工作流只能由平台的功能管理员进行管理。
 
-1. 从高级菜单中，通过Adobe Campaign徽标选择 **[!UICONTROL Administration > Application settings > External accounts]**。
-1. 选择外 **[!UICONTROL Share KPIs with Adobe Analytics]** 部帐户。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
 
    ![](assets/analytics_2.png)
 
-1. 在字 **[!UICONTROL Web services user name]** 段中 **[!UICONTROL Web services share secret]** 指定您 **[!UICONTROL Connection]** 的。
+1. 在字 **[!UICONTROL Web services user name]** 段中 **[!UICONTROL Web services share secret]** 指定您 **[!UICONTROL Connection]** 的和。
 
-   可以通过选择在Analytics中找到这些参数 **[!UICONTROL Admin > Company settings > Web services]**。
+   您可以通过选择在Analytics中找到这些参 **[!UICONTROL Admin > Company settings > Web services]**&#x200B;数。
 
    ![](assets/analytics_1.png)
 
-1. Click the **[!UICONTROL Refresh report suites]** button.
-1. 在Adobe Analytics报 **[!UICONTROL Analytics default report suite]** 告包的下拉列表中选择，以便用Adobe Campaign数据丰富内容。
+1. 单击 **[!UICONTROL Refresh report suites]** 按钮。
+1. 从下拉 **[!UICONTROL Analytics default report suite]** 列表中选择要用Adobe Campaign数据丰富的Adobe Analytics报表包。
 
-   您的外部帐户现已准备就绪，并可与Adobe Analytics关联。 您可以通过选中该框随时禁用该 **[!UICONTROL Enabled]** 功能。
+   您的外部帐户现已准备就绪，并已与Adobe Analytics建立联系。 您可以通过选中该框随时禁用该 **[!UICONTROL Enabled]** 功能。
 
    ![](assets/analytics.png)
 
-技 **[!UICONTROL Share KPIs with Adobe Analytics]** 术工作流现在将自动启动，并可通过选择从高级菜单查看 **[!UICONTROL Administration > Application settings > Workflow]**。 此技术工作流程将每15分钟自动执行一次，并将在Adobe Analytics中推送最多6个月的旧数据。
+技术 **[!UICONTROL Share KPIs with Adobe Analytics]** 工作流现在将自动启动，并可通过选择从高级菜单查看该工作流 **[!UICONTROL Administration > Application settings > Workflow]**。 此技术工作流程将每15分钟自动执行一次，并将在Adobe Analytics推送最多6个月的旧数据。
 
 ![](assets/analytics_3.png)
 
-您的数据现在可在Adobe Analytics中使用。
+您的数据现已在Adobe Analytics发布。
 
 **相关主题：**
 
 * [外部帐户](../../administration/using/external-accounts.md)
 * [技术工作流](../../administration/using/technical-workflows.md)
-* [分享KPI以实现集成的营销活动报告](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ，视频
+* [共享KPI以实现集成活动报告](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 视频
 
