@@ -1,5 +1,5 @@
 ---
-title: 管理CCPA退出
+title: 管理 CCPA 选择退出
 description: 了解如何使用API管理CCPA退出
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# 管理CCPA退出 {#managing-ccpa-optout}
+# 管理 CCPA 选择退出 {#managing-ccpa-optout}
 
-可以使用 **** ccpaOptOut配置文件属性和“true”或“false”值监视和管理配置文件的CCPA退出状态：
+用户档案的CCPA退出状态可以使用ccpaOptOut **用户档案属性和“true** ”或“false”值进行监视和管理：
 
 `"ccpaOptOut": <value>`
 
@@ -28,15 +29,15 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 >[!CAUTION]
 >
->“CCPA退出”属性仅从19.4开始可用。对于19.3环境，您需要扩展配置文件资源并添加一个布尔字段。 此字段将添加到API中，并带有所选标签。 我们建议您使用“CCPA退出”。
+>“CCPA退出”属性仅从19.4开始可用。对于19.3环境，您需要扩展用户档案资源并添加一个布尔字段。 此字段将添加到API中并带有所选标签。 我们建议您使用“CCPA退出”。
 >
->有关详细信息，请参阅隐私 [管理文档](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。
+>For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
 ***示例请求***
 
-* 检索配置文件CCPA退出状态的示例GET请求。
+* 检索GET的CCPA退出状态的示例用户档案请求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -46,7 +47,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   对GET请求的响应。
+   响应GET请求。
 
    ```
    {
@@ -58,7 +59,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    }
    ```
 
-* 标记CCPA退出配置文件的POST请求示例。
+* 示例POST请求，用于标记CCPA选择退出的用户档案。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +76,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -d }'
    ```
 
-   对GET请求的响应。
+   响应GET请求。
 
    ```
    {
@@ -88,7 +89,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    }
    ```
 
-* 用于更新CCPA选择退出的配置文件的示例PATCH请求。
+* PATCH请求示例，用于更新CCPA选择退出的用户档案。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +103,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -d }'
    ```
 
-   对GET请求的响应。
+   响应GET请求。
 
    ```
    {
