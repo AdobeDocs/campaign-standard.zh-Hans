@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 分页
 
-默认情况下，将在一个列表中加载25个资源。
+默认情况下，在列表中加载25个资源。
 
 使用 **_lineCount** 参数可以限制响应中列出的资源数。  然后，您可以使用 **下一个** 节点显示下一个结果。
 
@@ -27,13 +28,13 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 >
 >始终使用在下一个节点中返回 **的** URL值执行分页请求。
 >
->将计 **算_lineStart** 请求，并且必须始终在下一个节点返回的URL中 **使用** 。
+>将计 **算** _lineStart请求，并且必须始终在下一个节点返回的URL **中使用** 。
 
 <br/>
 
-***示例请求&#x200B;***
+***示例请求***
 
-显示1个配置文件资源记录的示例GET请求。
+显示GET资源1个记录的示例用户档案请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -64,7 +65,7 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 }
 ```
 
-默认情况下， **与具有** 大量数据的表交互时，下一个节点不可用。 要能够执行分页，必须将 **_forcePagination=true** 参数添加到调用URL。
+默认情况下， **与具** 有大量数据的表交互时，下一个节点不可用。 要能够执行分页，必须将 **_forcePagination=true** 参数添加到调用URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -76,4 +77,4 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 >[!NOTE]
 >
->在Campaign Standard XtkBigTableThreshold选项中定义表大于其上的记 **录数** 。 默认值是100,000条记录。
+>在Campaign StandardXtkBigTableThreshold选项中定义表大于其上的 **记录数** 。 默认值是100,000条记录。
