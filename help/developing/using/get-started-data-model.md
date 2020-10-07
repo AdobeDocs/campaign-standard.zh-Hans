@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">自定义资源</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">使用API</a></p></td></tr>
 </table>
 
-使用您自己的字段和资源扩展Campaign Standard数据模型，并监控所有数据模型更改为一个视图。
+使用您自己的字段和资源扩展 Campaign Standard 数据模型，并在单一视图中监控所有数据模型更改。
 
 ## 数据模型 {#data-model}
 
@@ -64,7 +62,7 @@ Campaign Standard允许您 **丰富预定义的模型** ，以创建您自己的
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-借助Campaign StandardAPI，为Adobe Campaign Standard创建集成并通过与您所使用的技术面板进行活动接口来构建您自己的生态系统。 [开始使用Campaign StandardREST API](../../api/using/get-started-apis.md)
+借助Campaign StandardAPI，为Adobe Campaign Standard创建集成并通过与您所使用的技术面板进行活动接口来构建您自己的生态系统。 [Campaign Standard REST API 入门](../../api/using/get-started-apis.md)
 
 ## 其他资源
 
