@@ -1,19 +1,20 @@
 ---
 title: 投放摘要
-description: 通过现成的“交付摘要”报告，了解您的交付统计信息，如发送数、退回次数和打开次数。
-page-status-flag: 从未激活
+description: 通过现成的投放摘要报告，了解投放统计信息，如发送数、弹回数和打开数。
+page-status-flag: never-activated
 uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
-contentOwner: 绍维亚
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 报告
-content-type: 参考
-topic-tags: 报告列表
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
-context-tags: deliveryLecurationReport,main;campaignLecurationReport,main;programLecurationReport,main
-internal: n
-snippet: y
+context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,19 +25,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/campaign_reports_1.png)
 
-每个表由摘要编号和图表表示。 您可以更改详细信息在各自的可视化设置中的显示方式。
+每个表由摘要编号和图表表示。 您可以更改详细信息在其各自的可视化设置中的显示方式。
 
-“交 **付统计信息** ”(Delivery statistics)表格包含可用于已发送电子邮件的数据，例如：
+投放 **统计表** 包含可用于已发送电子邮件的数据，例如：
 
-* **[!UICONTROL Processed/sent]**:传送的发送总数。
-* **[!UICONTROL Delivered]**:成功发送的消息数，与已发送消息的总数有关。 引发的错误（弹回）会被考虑在内。 但是，投诉（垃圾邮件声明）和消失消息（如“办公室外”）不会被考虑在内。
-* **[!UICONTROL Bounces + Errors]**:在发送和自动返回处理过程中累积的与已发送消息总数相关的错误总数。
+* **[!UICONTROL Processed/sent]**:投放的发送总数。
+* **[!UICONTROL Delivered]**:与已发送邮件总数相关的已成功发送邮件数。 引发的错误（弹回）将被考虑在内。 但是，投诉（垃圾邮件声明）和丢弃邮件（如“办公室外”）并不被考虑在内。
+* **[!UICONTROL Bounces + Errors]**:在投放和自动返回处理期间累积的与已发送消息总数相关的错误总数。
 
-“打 **开并单击** ”表包含每个传送的收件人活动的可用数据，如：
+“打 **开并单击** ”(Open and clicks)表格包含每个收件人活动的可用数据，如：
 
-* **单击**:内容在分发中的点击次数。
-* **打开**:邮件在分发中打开的次数。
-* **唯一打开次数**:打开分发的收件人数。
-* **唯一点击**:单击分发中内容的收件人数。
+* **单击**:在投放中单击内容的次数。
+* **打开**:在投放中打开消息的次数。
+* **唯一打开次**:打开收件人的投放数。
+* **唯一点击**:单击收件人中某个内容的投放数。
 
-“域 **重新分区** ”(Domain repartition)表根据接收方的域显示分发状态。
+“ **域重分** ”表根据投放的域显示收件人的状态。
