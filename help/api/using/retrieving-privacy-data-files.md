@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,21 +22,21 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 >[!CAUTION]
 >
->隐私 [核心服务集成](https://adobe.io/apis/cloudplatform/gdpr.html) ，是您应用于所有访问和删除请求的方法。 从19.4开始，不再使用Campaign API和界面访问和删除请求。 有关Campaign standard已弃用和已删除功能的详细信息，请参 [阅此页](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
+>隐私 [核心服务集成](https://adobe.io/apis/cloudplatform/gdpr.html) ，是您应用于所有访问和删除请求的方法。 从19.4开始，已弃用活动API和接口访问和删除请求。 有关Campaign Standard已弃用和已删除功能的详细信息，请 [参阅此页](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)。
 
 要检索包含与对帐值关联的所有信息的文件，请按照以下三个步骤操作：
 
-1. 执行 **POST** request to create a new request with attribute **type="access"**，请参阅 [Creating a new privacy request](../../api/using/creating-a-privacy-request.md)。
+1. 执行 **POST** 请求以创建属性 **type=&quot;access&quot;的新请求**，请参 [阅创建新隐私请求](../../api/using/creating-a-privacy-request.md)。
 
-1. 执行 **GET** request以检索有关该请求的信息。
+1. 执行 **GET** 请求以检索有关该请求的信息。
 
-1. 通过对返回的 **privacyRequestData** URL执行 **** POST请求（在有效负荷中包含隐私请求内部名称）来检索数据文件。 例如：{"name":"PT17"}。
+1. 通过对返回的privacyRequestData **URL执行** POST请 **求(有效负荷中包含隐私请** 求内部名称)来检索数据文件。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
 ***示例请求***
 
-使用type="access"属性创建隐私请求。
+使用type=&quot;access&quot;属性创建隐私请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
