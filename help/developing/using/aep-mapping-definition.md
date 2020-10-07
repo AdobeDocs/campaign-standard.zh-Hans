@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务。
+>Adobe Experience Platform数据连接器目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
 在本节中，您将了解如何使用体验数据模型(XDM)字段映射Campaign Standard字段。
 
@@ -38,14 +39,14 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 1. 填写必填字段并选择：
 
-   * **定位维度**: 这是Campaign Standard模式
-   * 数据 **集**: 这是与Adobe Experience Platform中的XDM数据包关联的模式。
+   * **定位维度**:这是Campaign Standard模式
+   * 数据 **集**:这是与Adobe Experience Platform的XDM模式关联的数据包。
 
 >[!NOTE]
 >
 >要将批量引入实时客户用户档案或身份服务，必须启用 [实时客户用户档案数据集](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)。
 >
->如果您选择的数据集已在现有数据映射中使用，则会显示一条警告，通知您的数据可能会被Adobe Experience Platform覆盖。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生这种情况。
+>如果您选择的数据集已在现有数据映射中使用，则会显示一条警告，通知您的数据可能会在Adobe Experience Platform被覆盖。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生这种情况。
 
 以下屏幕显示 **[!UICONTROL Field mappings]** 了一节，您可以在该节中为Campaign Standard模式中的每个字段创建新映射。
 
@@ -63,7 +64,7 @@ Campaign Standard中定义的扩展资源被映射为所有本机字段的样式
 
 您可以通过API自定义XDM扩展并定义您自己的扩展，从而更好地控制映射。
 
-有关 [XDM API的更多详细信息](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) ，请参阅模式注册表API教程。
+有关 [XDM API的更多详细信息](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html) ，请参阅模式注册表API教程。
 
 要映射明细列表字段，您需要使用表达式编辑器定义与XDM值对应的每个明细列表值。 例如，postalAdressfield需要定义为：
 
