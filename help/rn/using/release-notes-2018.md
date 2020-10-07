@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 4%
@@ -30,7 +28,7 @@ ht-degree: 4%
 
 ## 18.9 版 - 2018 年 9 月{#release-18-9---september-2018}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -55,7 +53,7 @@ ht-degree: 4%
 
 * Adobe Campaign Standard现在支持AmazonS3 API的版本4。
 
-**其他更改**
+**其他变更**
 
 * 在广播中，现在区别于每小时的最大连接数和最大消息数。 当达到这些限制时，就可以知道为什么吞吐量受到限制。 以前，同一消息（“配额已满”）适用于两种情况。
 * 在活动中配置移动应用程序时，用户现在可以知道iOS证书和Android服务器密钥是否已成功上传及其过期日期。
@@ -95,7 +93,7 @@ ht-degree: 4%
 
 ## 18.7 版 - 2018 年 7 月{#release-18-7---july-2018}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -133,7 +131,7 @@ ht-degree: 4%
 * Adobe Campaign与Adobe Target的集成现在允许您利用目标的“权 [限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) ”功能。 在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定目标属性（at_property代码）。
 * 具有指向用户档案资源的自定义资源的自定义资源现在由GDPR隐私访问／删除请求考虑。 对于1个基数简单链接和N个基数集合链接，您需要在自定义资源中选择“删除／复制目标记录意味着删除／复制链接引用的记录”。 对于0或1个基数简单链接，选择“删除／复制记录意味着删除／复制链接引用的目标记录”。
 
-**其他更改**
+**其他变更**
 
 * 报告共享超时时间已从1分钟增加到4分钟，以避免任何超时错误。
 * 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，在保存更改后，您仍可以随时返回默认内容编辑器。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -164,7 +162,7 @@ ht-degree: 4%
 * 为了 **[!UICONTROL Database cleanup]** 确保数据库备份的更好性能，技术工作流程已得到优化。
 * 现在还提供法语和德语版的Creative Designer for Email。
 
-**其他更改**
+**其他变更**
 
 * 已 **[!UICONTROL Compute stats]** 在已发送投放的 **[!UICONTROL Deployment]** 窗口中添加按钮。 它允许您检索最新的KPI，例如，如果发送的结果更新时间过长或未考虑到。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
 * 在开 **箱即用的** “更新”技术工作流中，功能管理员现在可以定义更新规则javascript活动中要忽略的连续错误 **数** 。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
@@ -196,7 +194,7 @@ ht-degree: 4%
 
 ## 18.5 版 - 2018 年 5 月{#release-18-5---may-2018}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -233,7 +231,7 @@ ht-degree: 4%
 
 * 应用程序的总内存和CPU使用率已得到增强
 
-**其他更改**
+**其他变更**
 
 * 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 请参阅详细 [文档](../../automating/using/read-audience.md)。 (CAMP-23623)
 * 默认共享数据源的标识符现在处于只读模式，不再能更改。 更改此标识符可能会导致与Experience Cloud共享受众时出现一些问题。
