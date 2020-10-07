@@ -1,6 +1,6 @@
 ---
-title: 检索配置文件的地理单元
-description: 了解如何使用API检索配置文件的地理单元。
+title: 检索用户档案的地理单位
+description: 了解如何使用API检索用户档案的地理单元。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# 检索配置文件的地理单元 {#retrieving-geographical-unit}
+# 检索用户档案的地理单位 {#retrieving-geographical-unit}
 
-1. 对配置文件PKey执行GET请求以检索 **geoUnit** URL。
+1. 对GETPKey执行用户档案请求以检 **索geoUnit** URL。
 1. 对URL执行GET请求，以检索有关地理单元的更多详细信息。
 
 <br/>
 
 ***示例请求***
 
-检索配置文件记录。
+检索用户档案记录。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -36,7 +37,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件的geoUnit URL。
+它返回用户档案的geoUnit URL。
 
 ```
 {
