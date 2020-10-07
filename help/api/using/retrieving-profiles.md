@@ -1,6 +1,6 @@
 ---
-title: 检索配置文件
-description: 了解如何使用API检索配置文件的更多信息。
+title: 检索用户档案
+description: 进一步了解如何使用API检索用户档案。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,25 +9,26 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 检索配置文件 {#retrieving-profiles}
+# 检索用户档案 {#retrieving-profiles}
 
-检索配置文件是使用 **GET请求执行** 的。
+检索用户档案是使用GET请 **求** 执行的。
 
-然后，您可以使用过滤器、排序和分页来优化搜索。 有关此内容的详细信息，请参阅“其 [他操作](../../api/using/sorting.md) ”部分。
+然后，您可以使用过滤器、排序和分页来优化搜索。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
 
 <br/>
 
 ***示例请求***
 
-* 检索所有配置文件的示例GET请求。
+* 检索所有GET的示例用户档案请求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -63,7 +64,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。 “下一个”节点返回URL，通过该URL可访问下一个10个电子邮件值。
+   响应请求。 “下一个”节点返回URL，该URL允许您访问下一个10个电子邮件值。
 
    ```
    {
