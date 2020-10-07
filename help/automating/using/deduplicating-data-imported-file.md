@@ -1,6 +1,6 @@
 ---
-title: 从导入的文件中消除重复数据
-description: 此示例说明如何在将数据加载到数据库之前从导入的文件中删除重复数据。
+title: 从导入的文件中删除数据重复项
+description: 此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
 
-# 从导入的文件中消除重复数据 {#deduplicating-the-data-from-an-imported-file}
+# 从导入的文件中删除数据重复项 {#deduplicating-the-data-from-an-imported-file}
 
-此示例说明如何在将数据加载到数据库之前从导入的文件中删除重复数据。 此过程可提高数据库中加载的数据的质量。
+此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。此过程可提高数据库加载数据的质量。
 
-该工作流由以下几部分组成：
+该工作流由以下步骤组成：
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 包含列表用户档案的文件使用“加载文件” [活动导入](../../automating/using/load-file.md) 。 在此示例中，导入的文件采用。csv格式，包含10个用户档案:
+* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
 
    ```
    lastname;firstname;dateofbirth;email
@@ -45,24 +43,24 @@ ht-degree: 0%
    Ross;Timothy;04/07/1986;timross@example.com
    ```
 
-   此文件还可用作检测和定义列格式的示例文件。 在选项卡 **[!UICONTROL Column definition]** 中，确保已正确配置导入文件的每列。
+   此文件还可用作检测和定义列格式的样例文件。在 **[!UICONTROL Column definition]** 选项卡中，确保已正确配置导入文件的每个列。
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* 一 [个外部重复数据删除](../../automating/using/deduplication.md) 活动。 外部重复数据删除在导入文件后和将数据插入数据库之前直接执行。 因此，它应以活动 **[!UICONTROL Temporary resource]** 的数据为 **[!UICONTROL Load file]** 基础。
+* 一 [个外部重复数据删除](../../automating/using/deduplication.md) 活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
 
-   在此示例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。 因此，重复标识在临时 **资源** 的电子邮件列上执行。 但是，两个电子邮件地址会在文件中显示两次。 因此，两行将被视为重复。
+   在本例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。因此，应对临时资源的 **email** 列执行重复项识别。现在，两个相同的电子邮件地址会在文件中显示两次。此时，这两行将被视为重复项。
 
    ![](assets/deduplication_example2_dedup.png)
 
-* 更新 [活动](../../automating/using/update-data.md) ，允许您将外部重复数据删除过程中保留的数据插入数据库。 只有在更新数据时，导入的数据才被标识为属于用户档案维。
+* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
 
-   在此，我们希望 **[!UICONTROL Insert only]** 用户档案库中尚未存在的数据。 我们将使用文件的电子邮件列和用户档案维中的电子邮件字段作为 **合并关键项** ，来执行此操作。
+   在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键值，以执行此操作。
 
    ![](assets/deduplication_example2_writer1.png)
 
-   从选项卡中指定要插入数据的文件列与数据库字段之间的映 **[!UICONTROL Fields to update]** 射。
+   从 **[!UICONTROL Fields to update]** 选项卡中指定要插入数据的文件列与数据库字段之间的映射。
 
    ![](assets/deduplication_example2_writer2.png)
 
-然后开始工作流。 然后，从外部重复数据删除进程保存的记录将添加到用户档案库中的记录。
+然后，启动工作流。接下来，在重复数据删除流程保存的记录，将被添加到数据库中的用户档案。
