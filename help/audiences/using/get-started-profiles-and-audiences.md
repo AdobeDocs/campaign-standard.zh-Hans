@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隐私合规性</a></p></td></tr>
 </table>
 
-活动集成式客户用户档案允许您在一个视图内跟踪所有渠道与客户的每次互动，从而为客户提供相关的个性化信息。
+通过 Campaign 集成客户用户档案，可以在一个视图内跨所有渠道跟踪与客户的每次互动，从而为客户提供相关的个性化信息。
 
-将受众库细分为目标，以优化营销活动的。
+按受众细分数据库，以优化营销活动的目标。
 
-使用服务和登陆页管理客户许可和同意，以建立简单的加入和退出机制。
+使用服务和登陆页管理客户权限和许可，以设置简单的选择加入和选择退出机制。
 
 ## 细分和定位 {#segmenting-targeting}
 
@@ -57,7 +55,7 @@ Adobe Campaign实时构建丰富的客户用户档案，使您能够随着客户
 * [扩充 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
 * [关于受众](../../audiences/using/about-audiences.md)
 * [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [添加对照组](../../sending/using/control-group.md)
+* [添加控制组](../../sending/using/control-group.md)
 
 ## 许可和同意 {#permission}
 
