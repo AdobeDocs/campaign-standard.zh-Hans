@@ -1,5 +1,5 @@
 ---
-title: 个性化包含其他数据的电子邮件
+title: 使用附加数据个性化电子邮件
 description: 此用例介绍如何向查询添加不同类型的附加数据，并将其用作电子邮件中的个性化字段。
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# 使用附加数据个性化电子邮件 {#example--personalizing-an-email-with-additional-data}
 
 以下示例说明了如何向查询添加不同类型的附加数据，以及如何在电子邮件中将其用于个性化字段。有关如何丰富活动所针对的数据的详 **[!UICONTROL Query]** 细信息，请 [参阅本节](../../automating/using/query.md#enriching-data)。
 
