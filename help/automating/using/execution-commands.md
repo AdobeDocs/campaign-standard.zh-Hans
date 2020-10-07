@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->启动是一个异步进程： 此时将保存请求，并且工作流执行引擎将尽快处理该请求。
+>启动是一个异步进程：此时将保存请求，并且工作流执行引擎将尽快处理该请求。
 
 **暂停**
 
@@ -61,7 +59,7 @@ ht-degree: 0%
 
 **已暂停执行**
 
-该按 ![](assets/check_pause_darkgrey-24px.png) 钮在选定活动暂停工作流： 不执行此任务以及随后（在同一分支中）的所有数据。
+该按 ![](assets/check_pause_darkgrey-24px.png) 钮在选定活动暂停工作流：不执行此任务以及随后（在同一分支中）的所有数据。
 
 **无执行**
 
