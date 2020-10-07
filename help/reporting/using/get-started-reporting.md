@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# 动态报告入门 {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ ht-degree: 12%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-利用动态报告 **拖放界面**，您可以探索数据，确定电子邮件活动对最重要客户细分的执行方式，并从一个位置衡量其对收件人的影响。
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **借助各种功能** ，管理动态报告：实时刷新数据、打印报表或将其导出为CSV文件。 您还可以通过一次性或重复的电子邮件与Campaign Standard用户共享报告。
 
