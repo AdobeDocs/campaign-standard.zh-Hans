@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -78,6 +76,7 @@ ht-degree: 100%
    * **[!UICONTROL Value]**：只读字段。
    * **[!UICONTROL List]**：表格。
    * **[!UICONTROL Separator]**：将元素拆分为类别。
+
    ![](assets/schema_extension_23.png)
 
 1. 添加的元素将显示在列表中。您可以编辑其标签。
