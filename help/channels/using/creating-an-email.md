@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +52,7 @@ ht-degree: 18%
 
    ![](assets/email_creation_4.png)
 
-   您可以使用预定义的内容模板或Dreamweaver或Adobe Experience Manager直接设计消息。 如果您不喜欢设计人员，还可以上传为您准备的内容，或从URL导入现有内容。 请参 [阅选择现有内容](../../designing/using/using-existing-content.md)。
+   您可以使用预定义的内容模板或Dreamweaver或Adobe Experience Manager直接设计消息。 如果您不喜欢设计人员，还可以上传为您准备的内容，或从URL导入现有内容。 请参阅[选择现有内容](../../designing/using/using-existing-content.md)。
 
 1. 预览您的消息。 请参阅[预览消息](../../sending/using/previewing-messages.md)。
 1. 确认创建电子邮件。
