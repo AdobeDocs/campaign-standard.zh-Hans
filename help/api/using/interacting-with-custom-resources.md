@@ -9,25 +9,26 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 与自定义资源交互 {#interacting-with-custom-resources}
 
-通过 **/customResources端点** ，您可以在REST中显示ACS自定义资源。 基于此API，可在自定义实体和外部端点之间集成。
+通过 **/customResources** endpoint，您可以在REST中显示ACS自定义资源。 基于此API，可在自定义实体和外部端点之间集成。
 
 /customResources端点的行为与/profileAndServices端点的行为完全相同。
 
 此API中公开的自定义资源包括：
 
-* 链接到配置文件实体的所有实体
-* 链接到配置文件实体子项的所有实体
-* 所有与个人资料没有关联的实体，以及这些实体的子孙。
+* 链接到用户档案实体的所有实体
+* 链接到用户档案实体子项的所有实体
+* 所有与用户档案没有关联的实体，对于这些实体来说，还包括其子孙。
 
 >[!NOTE]
 >/profileAndServicesExt下提供的自定义资源不会在/customResources API中公开。
@@ -45,6 +46,6 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->隐私API端点和工作流(/privacy/privacyTool)不管理未链接到配置文件实体的自定义资源。
->您有责任管理和清理这些自定义资源的任何PII。 有关隐私工具的详细信息，请单 [击此处](../../api/using/creating-a-privacy-request.md)。
+>隐私API端点和工作流(/privacy/privacyTool)不管理未链接到用户档案实体的自定义资源。
+>您有责任管理和清理这些自定义资源的任何PII。 有关隐私工具的更多信息，请 [单击此处](../../api/using/creating-a-privacy-request.md)。
 
