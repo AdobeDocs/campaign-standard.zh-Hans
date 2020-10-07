@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义显示屏并在列表屏幕上操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何自定义显示屏并在Adobe Campaign Standard的列表屏幕上操作：排序、过滤、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 个性化信息是发送相关内容、优惠个性化体验和增加开放性和转化率的关键。 通过Adobe Campaign传递的跨渠道消息可以通过多种不同的方式进行个性化。 根据用户档案，这些方式可以与条件结合。 您可以：
 
 * 在消 [息中插入](../../designing/using/personalization.md#inserting-a-personalization-field) 动态个性化字段
-* 插入预 [定义个性化块](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件](../../designing/using/subject-line.md) 或短信的发送者。
 * [个性化电子邮件](../../designing/using/subject-line.md) ，或使用Predictive主 [题行功能](../../designing/using/subject-line.md#subject-line) ，对其进行优化
 * 在电 [子邮件或登陆页](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [创建条件内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
