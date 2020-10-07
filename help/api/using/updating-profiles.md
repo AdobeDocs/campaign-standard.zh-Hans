@@ -1,6 +1,6 @@
 ---
-title: 更新配置文件
-description: 进一步了解如何使用API更新配置文件。
+title: 更新用户档案
+description: 进一步了解如何使用API更新用户档案。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,31 +9,32 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 更新配置文件 {#updating-profiles}
+# 更新用户档案 {#updating-profiles}
 
-更新配置文件时需要 **PATCH** 请求。
+更新用户档案是使用PATCH请 **求执** 行的。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是检索 **配置文件**。
+1. 第一步是 **检索用户档案**。
 
-1. 在第二个请求中，我们将对配置文件执行 **PATCH请求** ，并在有效负荷中提供完整的信息。
+1. 在第二个请求中，我们将对PATCH执 **行用户档案请** 求，并在有效负荷中执行完整的信息。
 
-1. 要检查PATCH请求是否更新了配置文件，我们可以执行最终的GET请求。
+1. 要检查PATCH请求是否更新了用户档案，我们可以执行最终GET请求。
 
 <br/>
 
 ***示例请求***
 
-检索配置文件的示例GET请求。
+检索GET的示例用户档案请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -59,7 +60,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-更新“phone”属性的PATCH请求。
+PATCH请求更新“phone”属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -70,7 +71,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"phone":"3301020304"}'
 ```
 
-它返回PKEY和URL以检索更新的配置文件。
+它返回PKEY和URL以检索更新的用户档案。
 
 ```
 {
