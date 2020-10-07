@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 外部信号和数据导入 {#external-signal-data-import}
+# External signal and data import {#external-signal-data-import}
 
-以下示例说明 **[!UICONTROL External signal]** 了典型用例中的活动。 在源工作流中执行数据导入。 完成导入并更新数据库后，将触发另一个工作流。 第二个工作流用于更新导入数据的聚合。
+下方的示例展示了典型使用案例中的 **[!UICONTROL External signal]** 活动。在源工作流中执行数据导入。完成导入并更新数据库后，将触发第二个工作流。第二个工作流用于更新导入数据的聚合。
 
 源工作流如下所示：
 
-* 加载 [文件活动](../../automating/using/load-file.md) ，上传包含新购买数据的文件。 请注意，数 [据库已相应扩展](../../developing/using/data-model-concepts.md) ，因为默认情况下，数据库中不存在购买数据。
+* [加载文件](../../automating/using/load-file.md)活动，上传包含新购买数据的文件。请注意，[数据库已扩展](../../developing/using/data-model-concepts.md)，因为默认情况下，数据库中不存在购买数据。
 
    例如：
 
@@ -41,16 +39,16 @@ ht-degree: 0%
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* 对帐 [活动](../../automating/using/reconciliation.md) 会创建导入数据与数据库之间的链接，以便事务数据能够正确连接到用户档案和产品。
-* “更 [新”活动](../../automating/using/update-data.md) ，用传入数据插入并更新数据库的“事务”资源。
-* 结束 [活动](../../automating/using/start-and-end.md) 会触发目标工作流，该工作流用于更新聚合。
+* [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
+* [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
 目标工作流如下所示：
 
-* 外部 [信号活动](../../automating/using/external-signal.md) ，会等待源工作流成功完成。
-* 查询 [活动](../../automating/using/query.md#enriching-data) 目标用户档案，并通过集合集对进行丰富，以检索上次购买日期。
-* 更 [新活动](../../automating/using/update-data.md) ，将附加数据存储在专用自定义字段中。 请注意，用户档案资源已扩展，可添加“上 **次购买日期** ”字段。
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* [查询](../../automating/using/query.md#enriching-data)活动会定向用户档案，并通过集合集对进行扩充，以检索上次购买日期。
+* [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，用户档案资源已扩展，添加了 **Last purchase date** 字段。
 
 ![](assets/signal_example_source2.png)
