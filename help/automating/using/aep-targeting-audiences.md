@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -26,7 +24,7 @@ ht-degree: 5%
 >
 >受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
-使用Segment Builder创建 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md) 后，您可以像在工作流内部创建活动受众那样使用该，以个性化和发送消息。
+使用Segment Builder创建 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md) 后，您可以像在工作流内部创建活动受众那样使用来个性化和发送消息。
 
 要在您的工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
@@ -62,9 +60,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Campaign Standard允许您目标所有投放渠道中的Adobe Experience Platform受众: 电子邮件、SMS消息、直接邮件消息、推送通知和应用程序内消息。
+>Campaign Standard允许您目标所有投放渠道中的Adobe Experience Platform受众:电子邮件、SMS消息、直接邮件消息、推送通知和应用程序内消息。
 >
->*注意： 对于所有推送和应用程序内消息，Campaign Standard仅支持已知用户档案的投放。
+>*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持已知用户档案的投放。
 
 有关如何使用工作流和投放的详细信息，请参阅以下部分：
 
