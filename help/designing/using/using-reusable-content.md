@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -200,7 +198,7 @@ HTML内容模板可从“高级”菜 **[!UICONTROL Resources]** 单的 **[!UICO
 >
 >如果修改了片段，则更改会自动传播到使用该片段的电子邮件中。 有关此方面的详细信息，请参 [阅关于片段](#about-fragments)。
 
-### 创建内容片段 {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 您可以创建您自己的内容片段，以便在一个或多个电子邮件中根据需要使用它们。
 
