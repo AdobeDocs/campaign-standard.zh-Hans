@@ -1,5 +1,5 @@
 ---
-title: 使用区段生成器
+title: 使用 Segment Builder
 description: 了解如何使用区段生成器创建受众。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,22 +10,20 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# 使用 Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务。
+>受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
 区段生成器允许您根据来自实时受众的数据定义 [规则，从而构建用户档案](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)。
 
@@ -43,7 +41,7 @@ Segment Builder界面由以下部分组成：
 
 要构建区段，请按照以下步骤操作：
 
-区段生成器现在应显示在工作区中。 它允许您使用Adobe Experience Platform数据构建细分，最终用于创建受众。
+区段生成器现在应显示在工作区中。 它允许您使用Adobe Experience Platform的数据构建细分，最终用于创建受众。
 
 1. 命名区段，然后输入说明（可选）。
 
@@ -63,7 +61,7 @@ Segment Builder界面由以下部分组成：
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. 单击&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Create segment]** 按钮。
 
 ## 查找区段的正确字段
 
@@ -73,11 +71,11 @@ Segment Builder界面由以下部分组成：
 
 字段按选项卡进行组织：
 
-* **[!UICONTROL Attributes]**: 现有用户档案属性可能源自Adobe Campaign数据库和／或Adobe Experience Platform。 它们指附加到用户档案的静态信息(例如，电子邮件地址、居住国家／地区、忠诚项目状态等)。
+* **[!UICONTROL Attributes]**:现有用户档案属性可能源自您的Adobe Campaign库和／或Adobe Experience Platform。 它们指附加到用户档案的静态信息(例如，电子邮件地址、居住国家／地区、忠诚项目状态等)。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: 识别与公司客户接触点进行过一些交互的消费者的活动，例如“两周内订购两次的任何人”。 这可以从AdobeAnalytics进行流处理，或使用第三方ETL工具直接引入Adobe Experience Platform。
+* **[!UICONTROL Events]**:识别与公司客户接触点进行过一些交互的消费者的活动，例如“两周内订购两次的任何人”。 这可以从Adobe Analytics进行流传输，或使用第三方ETL工具直接摄入Adobe Experience Platform。
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ Segment Builder界面由以下部分组成：
 >
 >**多实体细分** 允许您根据产品、商店或其他非用户档案类扩展用户档案数据，并添加其他数据。 连接后，来自其他类的数据将变得像用户档案模式的本机数据一样可用。
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>有关更多信息，请参阅[专用文档](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)。
 
 默认情况下，区段生成器显示其中已有数据的字段。 要显示完整模式（包括没有数据的字段），请从设 **[!UICONTROL Show full XDM schema]** 置中启用选项。
 
@@ -113,7 +111,7 @@ Segment Builder界面由以下部分组成：
 
    在该节中自动重新计算与该段对应的估计 **[!UICONTROL Segment Properties]** 人口。
 
-1. 按 **[!UICONTROL View Profiles]** 钮可预览前20条记录，这些记录与规则相对应，使您能够快速验证区段。
+1. 按 **[!UICONTROL View Profiles]** 钮将预览前20条记录，这些记录与规则对应，使您能够快速验证区段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
