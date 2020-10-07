@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 6%
 
 ---
 
 
-# 交付（nms：交付）
+# 投放(nms:投放)
 
 ## 对象描述
 
@@ -24,12 +25,12 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>证明</td>
-                  <td>布尔值 </td>
+                  <td>验证</td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -39,27 +40,27 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>abTesting</td>
-                  <td>A/B测试</td>
-                  <td>项目 </td>
+                  <td>AbTesting</td>
+                  <td>A/B 测试</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>高级</td>
-                  <td>高级交付</td>
-                  <td>布尔值 </td>
+                  <td>高级投放</td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>advancedParameters</td>
                   <td>高级参数</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience manager内容</td>
-                  <td>collection </td>
+                  <td>Adobe Experience Manager目录</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -77,59 +78,59 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>附件</td>
                   <td>附加的文件</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>品牌(brandingBase)</td>
+                  <td>品牌（品牌基础）</td>
                   <td>品牌</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>broadLogs</td>
-                  <td>交付日志</td>
-                  <td>collection </td>
+                  <td>投放日志</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>builtIn</td>
                   <td>内置应用程序对象</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>campaign(campaignBase)</td>
+                  <td>活动(campaignBase)</td>
                   <td>营销活动</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount(extAccountAEMBase)</td>
-                  <td>Adobe Experience manager客户</td>
+                  <td>Adobe Experience Manager帐户</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>命令</td>
                   <td>命令</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>内容</td>
                   <td>内容</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>contentSource</td>
                   <td>内容源</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>Adobe Experience Manager - aem - 1</li>
-                        <li>Adobe Campaign - campaign - 0</li>
+                        <li>Adobe Experience Manager- aem - 1</li>
+                        <li>Adobe Campaign-活动- 0</li>
                         <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -143,7 +144,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>已创建</td>
                   <td>已创建</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,13 +155,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>交付模式</td>
-                  <td>枚举（字节） </td>
+                  <td>投放模式</td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>批量交付——批量- 1</li>
-                        <li>中间采购——中间采购- 4</li>
-                        <li>说明——描述性- 2</li>
+                        <li>批量投放-批量- 1</li>
+                        <li>中间源-中间采购- 4</li>
+                        <li>描述——描述性- 2</li>
                         <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                         <li>外部——外部- 0</li>
                      </ul>
@@ -181,31 +182,31 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>emailPreview</td>
                   <td>电子邮件预览</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>excludeLogs</td>
                   <td>排除日志</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>排除</td>
                   <td>排除原因</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>执行</td>
-                  <td>交付执行参数</td>
-                  <td>项目 </td>
+                  <td>投放执行参数</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>executionType</td>
                   <td>执行类型</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>唯一——一次- 0</li>
@@ -218,7 +219,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>forecastLogs</td>
                   <td>ForecastLog</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -230,13 +231,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>hasAttachments</td>
                   <td>添加附加的文件</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>图标</td>
                   <td>图标</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>交易电子邮件- emailLightning - 60</li>
@@ -248,7 +249,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>其他——其他- 120</li>
                         <li>重复的SMS - smsRefresh - 31</li>
                         <li>移动应用程序- pushNotification - 40</li>
-                        <li>交易SMS - smsLightning - 61</li>
+                        <li>交易型SMS - smsLightning - 61</li>
                         <li>电子邮件——电子邮件- 0</li>
                         <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -257,43 +258,43 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>isExternal</td>
                   <td>是外部资源</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>母版</td>
-                  <td>布尔值 </td>
+                  <td>主控</td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>模板</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>迭代</td>
-                  <td>交付</td>
-                  <td>collection </td>
+                  <td>投放</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>工作</td>
-                  <td>作业</td>
-                  <td>collection </td>
+                  <td>工作</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>kpi</td>
                   <td>指标</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -305,16 +306,16 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>枚举（字符串）(255)</td>
+                  <td>明细列表（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>进行中——开始——开始</li>
+                        <li>正在进行——已开始——已开始</li>
                         <li>编辑——版本——版本</li>
                         <li>完成——完成——完成</li>
                         <li>警告——警告——警告</li>
@@ -326,13 +327,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>mailParameters</td>
                   <td>电子邮件标题参数</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -342,21 +343,21 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>master(deliveryBase)</td>
-                  <td>主实例</td>
+                  <td>主控(deliveryBase)</td>
+                  <td>主控实例</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpi</td>
-                  <td>主指示器</td>
-                  <td>项目 </td>
+                  <td>主控指标</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>messageType</td>
                   <td>渠道</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>传真——传真- 4</li>
@@ -377,7 +378,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>名称</td>
                   <td>ID</td>
                   <td>字符串(64)</td>
                   <td> </td>
@@ -385,7 +386,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>offerManagement</td>
                   <td>优惠管理</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -395,15 +396,15 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent(deliveryBase)</td>
-                  <td>父交付</td>
+                  <td>父项(deliveryBase)</td>
+                  <td>父投放</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>优先级</td>
-                  <td>交付优先级</td>
-                  <td>枚举（字节） </td>
+                  <td>投放优先级</td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>高——高- 20</li>
@@ -413,33 +414,33 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   </td>
                </tr>
                <tr>
-                  <td>program(programBase)</td>
-                  <td>计划</td>
+                  <td>项目(programBase)</td>
+                  <td>项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>校样</td>
-                  <td>校样</td>
-                  <td>collection </td>
+                  <td>验证</td>
+                  <td>验证</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
                   <td>推送通知预览</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
                   <td>PushNotification参数</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>实时报告</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -455,52 +456,52 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>场景</td>
-                  <td>交付模板参数</td>
-                  <td>项目 </td>
+                  <td>情景</td>
+                  <td>投放模板参数</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>调度</td>
-                  <td>交付计划</td>
-                  <td>项目 </td>
+                  <td>投放调度</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsParameters</td>
                   <td>SMS参数</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
                   <td>SMS预览</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>状态</td>
                   <td>状态</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>开始等待——开始待定- 51</li>
-                        <li>随时可送货——随时可用- 45</li>
-                        <li>重试等待——重试等待- 61</li>
-                        <li>重试进行中- retryInProgress - 62</li>
+                        <li>开始挂起- startPending - 51</li>
+                        <li>随时可送——随时可送- 45</li>
+                        <li>重试挂起——重试挂起- 61</li>
+                        <li>正在重试- retryInProgress - 62</li>
                         <li>失败——失败- 87</li>
                         <li>进行中——开始- 55</li>
-                        <li>定位待定- targetPrepPending - 11</li>
-                        <li>待定个性化- messagePrepingPending - 21</li>
+                        <li>定位待定- targetPrepPending-11</li>
+                        <li>个性化待定- messagePrepPending - 21</li>
                         <li>暂停——暂停- 75</li>
                         <li>编辑——版本- 0</li>
                         <li>完成——完成- 95</li>
-                        <li>正在计数——目标选择- 12</li>
+                        <li>正在计数- targetSelection - 12</li>
                         <li>消息已完成- messageReady - 25</li>
                         <li>个性化或计数失败- preparationError - 37</li>
                         <li>已停止——已取消- 85</li>
                         <li>正在进行的个性化——消息准备- 22</li>
-                        <li>目标就绪——目标就绪- 15</li>
+                        <li>目标就绪- targetReady - 15</li>
                         <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                         <li>正在进行的仲裁——目标仲裁- 13</li>
                      </ul>
@@ -508,50 +509,50 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>目标</td>
-                  <td>交付目标人数</td>
-                  <td>项目 </td>
+                  <td>投放目标</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>模板(deliveryTemplateSummary)</td>
-                  <td>交付模板</td>
+                  <td>投放模板</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>缩略图</td>
-                  <td>交付缩略图</td>
+                  <td>投放缩略图</td>
                   <td>string(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>标题</td>
-                  <td>交付</td>
+                  <td>投放</td>
                   <td>string(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>跟踪</td>
                   <td>跟踪参数</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingLogs</td>
                   <td>跟踪日志</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingUrl</td>
                   <td>跟踪的URL</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>事务消息的参数</td>
-                  <td>项目 </td>
+                  <td>事务性消息的参数</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -569,10 +570,10 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>workflowStatus</td>
                   <td>工作流状态</td>
-                  <td>枚举（字符串）(255)</td>
+                  <td>明细列表（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>进行中——开始——开始</li>
+                        <li>正在进行——已开始——已开始</li>
                         <li>编辑——版本——版本</li>
                         <li>完成——完成——完成</li>
                         <li>警告——警告——警告</li>
@@ -583,7 +584,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
             </table>
 
-## 滤镜
+## 过滤器
 
 按渠道类型（按渠道）
 
@@ -593,8 +594,8 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     <th>类型</th>
     </tr>
     <tr>
-    <td>通道</td>
-    <td>枚举</td>
+    <td>渠道</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
@@ -607,7 +608,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>executionType</td>
-    <td>枚举</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
@@ -620,7 +621,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>状态</td>
-    <td>枚举</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
@@ -663,7 +664,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -680,7 +681,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>枚举</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
@@ -693,11 +694,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>状态</td>
-    <td>枚举</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
-跟进消息(showFolcoup)
+随访消息（show跟进）
 
 <table>
     <tr>
@@ -705,12 +706,12 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     <th>类型</th>
     </tr>
     <tr>
-    <td>跟进</td>
-    <td>布尔值</td>
+    <td>随访</td>
+    <td>布尔</td>
     </tr>
 </table>
 
-包括高级提交(withAdvanced)
+包括高级投放(withAdvanced)
 
 <table>
     <tr>
@@ -719,11 +720,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>高级</td>
-    <td>布尔值</td>
+    <td>布尔</td>
     </tr>
 </table>
 
-包括来自异构列表的连续提交(withContinuous)
+包括来自异构投放的连续列表(withContinuous)
 
 <table>
     <tr>
@@ -732,11 +733,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>布尔值</td>
+    <td>布尔</td>
     </tr>
 </table>
 
-包含校样（使用FCP）
+包括验证（带FCP）
 
 <table>
     <tr>
@@ -744,8 +745,8 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     <th>类型</th>
     </tr>
     <tr>
-    <td>withFCP</td>
-    <td>布尔值</td>
+    <td>与FCP</td>
+    <td>布尔</td>
     </tr>
 </table>
 
@@ -758,15 +759,15 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
-在给定期间（按日历）提供
+在给定期间（按日历）存在
 
 <table>
     <tr>
@@ -775,11 +776,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
@@ -791,7 +792,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     <th>类型</th>
     </tr>
     <tr>
-    <td>oob</td>
-    <td>布尔值</td>
+    <td>奥布</td>
+    <td>布尔</td>
     </tr>
 </table>
