@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 创建服务 {#creating-a-service}
 
-通过对服务资源的 **POST请求** ，执行服务创建。
+服务创建是使用对服务 **资源** 的POST请求执行的。
 
 如果要创建具有特定属性的服务，请将其添加到有效负荷中。 否则，将使用默认服务创建新服务。
 
