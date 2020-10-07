@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -20,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Adobe启动同步常见问题解答 {#syncwithlaunch-faq}
+# Adobe Launch Synchronization 常见问题解答 {#syncwithlaunch-faq}
 
 您可以通过专用的技术工作流将Adobe启动移动 **[!UICONTROL Sync with Launch]** 属性导入Adobe Campaign Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
