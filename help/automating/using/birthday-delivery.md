@@ -1,6 +1,6 @@
 ---
 title: 生日投放
-description: 此示例是生日工作流。 每天都会向用户档案发送一封电子邮件，其生日就在当天。
+description: 本示例是生日工作流。每天向当天生日的用户档案发送一封电子邮件。
 page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
@@ -25,18 +23,18 @@ ht-degree: 0%
 
 ![](assets/wkf_delivery_example_1.png)
 
-此示例是生日工作流。 每天都会向用户档案发送一封电子邮件，其生日就在当天。
+本示例是生日工作流。每天向当天生日的用户档案发送一封电子邮件。
 
 要构建工作流，请按照以下步骤操作：
 
-* 该 [调度程序](../../automating/using/scheduler.md) 允许您每天早8点开始工作流。
+* The [Scheduler](../../automating/using/scheduler.md) allows you to start the workflow every day at 8am.
 
    ![](assets/wkf_delivery_example_2.png)
 
-* 该 [查询](../../automating/using/query.md) 活动允许您计算每次执行工作流时，提供电子邮件的用户档案以及其生日是当天的。 生日计算是使用查询编辑工具调色板中提供的预定义过滤器进行的。
+* The [Query](../../automating/using/query.md) activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. 使用查询编辑工具面板中提供的预定义过滤器，执行生日计算。
 
    ![](assets/wkf_delivery_example_3.png)
 
-* 电子 [邮件投放](../../automating/using/email-delivery.md) ，将重复出现。 发送按月汇总。 因此，一个月内发送的所有电子邮件都会汇总为单个视图。 因此，在一年内，有365个投放被执行，但在Adobe Campaign界面中，它们被重新分 **组为12个视图**（也称重复执行）。 历史记录和报告详细信息每月均显示，而不是每次发送。
+* 电子 [邮件投放](../../automating/using/email-delivery.md) ，将重复出现。 按月聚合发送情况。因此，一个月内发送的所有电子邮件，都会被聚合到单独的一个视图中。因此，一年内要执行 365 次投放，但在 Adobe Campaign 界面中，已将它们重组为 12 个视图（也称&#x200B;**定期执行**）。历史记录和报告将按月提供而不是按每次发送提供。
 
    ![](assets/wkf_delivery_example_4.png)
