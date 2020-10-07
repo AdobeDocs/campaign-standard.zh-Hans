@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -35,13 +36,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>builtIn</td>
                   <td>内置应用程序对象</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>已创建</td>
                   <td>已创建</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,9 +64,9 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>结束</td>
                   <td>结束日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,20 +77,20 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>历史</td>
-                  <td>订阅历史记录</td>
-                  <td>collection </td>
+                  <td>订阅历史</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>是外部资源</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>模板</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -101,13 +102,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>limitedDuration</td>
                   <td>有限持续时间</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -119,7 +120,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>messageType</td>
                   <td>渠道</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>移动(SMS)- sms - 1</li>
@@ -131,7 +132,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>模式</td>
                   <td>模式</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>病毒——病毒-1</li>
@@ -147,7 +148,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>名称</td>
                   <td>ID</td>
                   <td>字符串(64)</td>
                   <td> </td>
@@ -167,12 +168,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>开始</td>
                   <td>开始日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage(landingPageSubscriptionBase)</td>
-                  <td>订阅登录页</td>
+                  <td>订阅登陆页</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -191,7 +192,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>订阅</td>
                   <td>订阅</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -219,20 +220,20 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimcastLandingPage(landingPageUnsubscriptionBase)</td>
-                  <td>取消订阅登录页面</td>
+                  <td>不明嫌犯LandingPage(landingPageUnsubscriptionBase)</td>
+                  <td>退订登陆页</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimmacScenario(deliveryMCTemplateBase)</td>
-                  <td>取消订阅确认</td>
+                  <td>不明嫌犯场景(deliveryMCTemplateBase)</td>
+                  <td>退订确认</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimbusScenarioEventType</td>
-                  <td>NimmicScenarioEventType</td>
+                  <td>nimbasScenarioEventType</td>
+                  <td>不明嫌犯ScenarioEventType</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
@@ -244,7 +245,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
             </table>
 
-## 滤镜
+## 过滤器
 
 在给定时间段内可用（按计划）
 
@@ -255,11 +256,11 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
@@ -271,8 +272,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 <th>类型</th>
 </tr>
 <tr>
-<td>通道</td>
-<td>枚举</td>
+<td>渠道</td>
+<td>明细列表</td>
 </tr>
 </table>
 
@@ -289,7 +290,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 </tr>
 </table>
 
-通过定位资源(byTargetResource)
+按定位资源(byTargetResource)
 
 <table>
 <tr>
