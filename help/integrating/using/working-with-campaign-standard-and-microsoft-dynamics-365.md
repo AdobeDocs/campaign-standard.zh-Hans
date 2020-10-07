@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3590fd42e4692df6bba21ac721568ae60dfcdd65
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此功能不随产品提供。 实施过程中需要Adobe咨询。 请联系您的Adobe代表以了解更多信息。
+>此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 
 ## 原则
 
