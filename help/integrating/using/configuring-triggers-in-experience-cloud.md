@@ -1,6 +1,6 @@
 ---
 title: 在 Experience Cloud 中配置触发器
-description: '了解如何配置Adobe Experience Cloud Triggers集成，以便开始根据客户先前的行为向客户发送个性化投放。 '
+description: '了解如何配置Adobe Experience Cloud触发器集成，以便开始根据客户先前的行为向客户发送个性化投放。 '
 page-status-flag: never-activated
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 ## 激活功能 {#activating-the-functionality}
 
-该功能必须由Adobe以Adobe Campaign激活。 请联系您的Adobe客户经理或专业服务合作伙伴。
+该功能必须通过Adobe CampaignAdobe激活。 请联系您的Adobe客户经理或专业服务合作伙伴。
 
 Adobe团队需要以下信息才能激活触发器：
 
@@ -37,20 +35,20 @@ Adobe团队需要以下信息才能激活触发器：
 要使用此功能，您需要访问以下解决方案／核心服务：
 
 * Adobe Campaign
-* AdobeAnalytics旗舰版、高级版、基础版、OD、Select、Prime、移动应用、Select或Standard。
-* Experience Cloud触发核心服务
+* Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select 或 Standard。
+* Experience Cloud Triggers Core Service
 
    ![](assets/trigger_uc_prereq_1.png)
 
-* Experience CloudDTM核心服务
+* Experience Cloud DTM Core Service
 
    ![](assets/trigger_uc_prereq_2.png)
 
-* Experience Cloud访客ID和Experience Cloud人核心服务
+* Experience Cloud Visitor ID 和 Experience Cloud People Core Service
 
    ![](assets/trigger_uc_prereq_3.png)
 
-您还需要有一个有效的网站。
+您还需要拥有可用的网站。
 
 ![](assets/trigger_uc_prereq_4.png)
 
@@ -60,19 +58,19 @@ Adobe团队需要以下信息才能激活触发器：
 
 您需要配置 [Experience CloudDTM核心服务](#configuring-experience-cloud-dtm-core-service)、 [Experience Cloud人核心服务](#configuring-experience-cloud-people-core-service) 和 [活动](#configuring-triggers-and-aliases-in-campaign) ，才能运行这些用例。
 
-### 配置Experience CloudDTM核心服务 {#configuring-experience-cloud-dtm-core-service}
+### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience CloudDTM核心服务（动态标签管理）中，为您的网站页面激活Experience CloudID和AdobeAnalytics。
+1. 在Experience CloudDTM核心服务（动态标签管理）中，为您的网站页面激活Experience CloudID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. 网站、AdobeAnalytics和Adobe Campaign之间的ID协调需要使用别名。 创建别名，例如“visitorid”。
+1. 网站、Adobe Analytics和Adobe Campaign之间的ID协调需要使用别名。 创建别名，例如“visitorid”。
 
    ![](assets/trigger_uc_conf_2.png)
 
 ### 配置Experience Cloud人核心服务 {#configuring-experience-cloud-people-core-service}
 
-以前在DTM中引用的别名需要在Experience Cloud人核心服务中通过客户属性创建。 确保新建一个并引用集成代码中的同一DTM别名（例如“visitorid”）。
+以前在DTM中引用的别名需要通过Experience Cloud属性在客户核心服务中创建。 确保新建一个并引用集成代码中的同一DTM别名（例如“visitorid”）。
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -82,11 +80,11 @@ Adobe团队需要以下信息才能激活触发器：
 
 ### 在活动中配置触发器和别名 {#configuring-triggers-and-aliases-in-campaign}
 
-1. 确保在Adobe Campaign Standard **[!UICONTROL Experience Cloud triggers]** 实例上可见。 如果您没有，请与Adobe Campaign管理员联系。
+1. 确保在您的Adobe Campaign Standard **[!UICONTROL Experience Cloud triggers]** 实例上可见。 如果您没有，请与Adobe Campaign管理员联系。
 
    ![](assets/remarketing_1.png)
 
-1. 别名使Analytics的联系人能够与活动中的用户档案协调。 您需要将Experience CloudID服务中定义的别名与活动中的共享数据源匹配。 您需要通过数据源(> >)在Adobe Campaign中配置别名 **[!UICONTROL Administration]** 解 **[!UICONTROL Application Settings]** 决方 **[!UICONTROL Shared Data Sources]** 法。 确保在下拉菜单中选择正确的 **[!UICONTROL Data Source/Alias]** 数据源，该数据源将映射到在上一步中创建的同一客户属性数据源。
+1. 别名使Analytics中的联系人能够与活动中的用户档案对帐。 您需要将Experience CloudID服务中定义的别名与活动中的共享数据源匹配。 您需要通过数据源(> >)在Adobe Campaign中配置别名 **[!UICONTROL Administration]** 解 **[!UICONTROL Application Settings]** 决方 **[!UICONTROL Shared Data Sources]** 法。 确保在下拉菜单中选择正确的 **[!UICONTROL Data Source/Alias]** 数据源，该数据源将映射到在上一步中创建的同一客户属性数据源。
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -96,20 +94,20 @@ Adobe团队需要以下信息才能激活触发器：
 
 ## 在Experience Cloud界面中创建触发器 {#creating-a-trigger-in-the-experience-cloud-interface}
 
-需要创建Adobe Experience Cloud触发器，以便您能够在活动中使用它。
+需要创建Adobe Experience Cloud触发器，以便在活动中使用它。
 
 在Experience Cloud中创建新触发器，并确保选择在网站上使用的报表包。 确保选择正确的尺寸，以便触发器。
 
-请参阅Adobe [Experience Cloud文档](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html) ，并观看此 [视频](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)。
+请参阅 [Adobe Experience Cloud文](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html) 档并观看此 [视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)。
 
 ## 触发最佳实践和限制 {#triggers-best-practices-and-limitations}
 
 以下是使用活动的最佳实践和限制列表-触发器集成：
 
-* 如果您有多个Campaign Standard实例，则只要触发器位于同一IMS组织ID中，所有实例都可以接收它们。 Analytics还需要使用同一个IMS组织ID。
+* 如果您有多个Campaign Standard实例，则只要触发器位于同一IMS组织ID中，所有实例都可以接收它们。 分析还需要使用相同的IMS组织ID。
 * 不能使用来自两个不同报表包的事件在触发器核心服务中创建触发器。
 * 触发器基于事务性消息。 只要您必须非常快速地发送消息，就会使用事务性消息。 您不能排队事务性消息，然后批量循环。
-* 触发器在本质上并非确定性。 当触发器生成时，它会发送与Cookie关联的所有别名，因此，如果在家中的共享浏览器(如零售亭、图书馆、网吧或共享设备（夫妻从同一设备登录），则无法映射到正确的ID。 用于使用浏览器登录的所有ID都发送到活动，该ID根据第一次对帐发送消息。 如果有多个“电子邮件ID”符合对帐条件，则活动不会发送电子邮件。 除非Analytics捕获并发送正确的电子邮件ID，否则活动无法知道该ID是什么。
+* 触发器在本质上并非确定性。 当触发器生成时，它会发送与Cookie关联的所有别名，因此，如果在家中的共享浏览器(如零售亭、图书馆、网吧或共享设备（夫妻从同一设备登录），则无法映射到正确的ID。 用于使用浏览器登录的所有ID都发送到活动，该ID根据第一次对帐发送消息。 如果有多个“电子邮件ID”符合对帐条件，则活动不会发送电子邮件。 除非Analytics捕获并发送正确的电子邮件ID，否则活动无法了解该ID是什么。
 * 不能在活动中存储有效负荷的内容。 触发器不能用于更新用户档案的数据。
 * 触发器中不支持客户属性（这意味着，只能使用报表包数据来定义触发器业务规则）。
 * 集合在活动中不受支持。
