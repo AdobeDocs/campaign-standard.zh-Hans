@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 83%
@@ -31,7 +29,7 @@ ht-degree: 83%
 
 ## 通过电子邮件选择可联系的收件人{#selecting-recipients-contactable-via-email}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放一个 [查询](../../automating/using/query.md) 活动 ![](assets/query.png)。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity ![](assets/query.png).
 1. 双击该活动。
 1. 在 **[!UICONTROL Shortcuts]** 中，拖放 **[!UICONTROL Profiles]** 并选择字段 **[!UICONTROL email]** 和运算符 **[!UICONTROL is not empty]**。
 1. 在 **[!UICONTROL Shortcuts]** 中，拖放 **[!UICONTROL Profiles]** 并选择字段 **[!UICONTROL no longer contact by email]** 和值 **[!UICONTROL no]**。
