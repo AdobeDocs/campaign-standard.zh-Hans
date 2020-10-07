@@ -9,13 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +23,19 @@ ht-degree: 2%
 在创建工作流并将人口筛选为不同的目标受众后，您可以根据此定位工作流中定义的细分来衡量营销活动的效率。
 要在报表中目标这些区段，请执行以下操作：
 
-* [第1步： 使用区段更新用户档案自定义资源](#step-1--update-profiles-custom-resource-segments)
-* [第2步： 创建包含区段的工作流](#step-2--create-a-workflow-segments)
-* [第3步： 创建动态报表以筛选区段](#step-3--create-a-dynamic-report-filter-segments)
+* [第1步：使用区段更新用户档案自定义资源](#step-1--update-profiles-custom-resource-segments)
+* [第2步：创建包含区段的工作流](#step-2--create-a-workflow-segments)
+* [第3步：创建动态报表以筛选区段](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >必须接受动态报告使用协议，以便开始收集这些数据。
 >For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 第1步： 使用区段更新用户档案自定义资源{#step-1--update-profiles-custom-resource-segments}
+## 第1步：使用区段更新用户档案自定义资源{#step-1--update-profiles-custom-resource-segments}
 
 在报告段代码之前，您需要更新自 **[!UICONTROL Profiles]** 定义资源以便存储段代码。
 
-1. 从高级菜单中，通过Adobe Campaign标志，选 **[!UICONTROL Administration]** 择> **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然后选择 **[!UICONTROL Profile (profile)]** 资源。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
 1. 在选 **[!UICONTROL Sending logs extension]** 项卡的菜 **[!UICONTROL Data structure]** 单中，选 **[!UICONTROL Add segment code]** 中以允许段代码定位工作流并将其发送到动态报告。
 
    随 **[!UICONTROL Segment code]** 后，报表的维 **[!UICONTROL Profile]** 度部分中将提供该选项。
@@ -51,22 +49,22 @@ ht-degree: 2%
 
    ![](assets/custom_profile_7.png)
 
-1. 单 **[!UICONTROL Prepare publication]** 击，准备完成后，单击按 **[!UICONTROL Publish]** 钮。 有关自定义资源的详细信息，请参阅 [此页](../../developing/using/updating-the-database-structure.md)。
+1. 单 **[!UICONTROL Prepare publication]** 击，准备完成后，单击按 **[!UICONTROL Publish]** 钮。 For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 您现在可以开始使用段代码创建工作流。
 
 请注意，一旦在中启用段代码，将立即收集该段代码 **[!UICONTROL Sending logs extension]**。
 
-## 第2步： 创建包含区段的工作流 {#step-2--create-a-workflow-segments}
+## 第2步：创建包含区段的工作流 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >如果电子邮件过渡的输入投放为空，则默认情况下将添加上一个过渡的段代码。
 
-您首先需要创建具有不同目标群体的工作流。 在此，我们希望发送一封根据受众年龄个性化的电子邮件： 一个投放为20至30岁的用户档案，另一个为30至40岁的用户档案。
+您首先需要创建具有不同目标群体的工作流。 在此，我们希望发送一封根据受众年龄个性化的电子邮件：一个投放为20至30岁的用户档案，另一个为30至40岁的用户档案。
 
-1. 创建您的工作流。 有关如何创建工作流的详细信息，请参阅此 [页](../../automating/using/building-a-workflow.md)。
+1. 创建您的工作流。 For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
-1. 从调色板 **[!UICONTROL Query]** 拖放活动并将其放入工作区，即可添加此。
+1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
 1. 目标用户档案年龄在20到40岁之间，后来将他们细分为更有针对性的人群。
 
@@ -91,11 +89,11 @@ ht-degree: 2%
 
    ![](assets/report_segment_9.png)
 
-1. 将活动拖放 **[!UICONTROL Email delivery]** 到区段之后。
+1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
 
    ![](assets/report_segment_3.png)
 
-1. 根据不同的目标人群，个性化您的投放。 有关电子邮件创建的详细信息，请参 [阅此页](../../designing/using/designing-content-in-adobe-campaign.md)。
+1. 根据不同的目标人群，个性化您的投放。 For more on email creation, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 保存工作流。
 
@@ -103,7 +101,7 @@ ht-degree: 2%
 
 您现在可以访问报告来跟踪段代码。
 
-## 第3步： 创建动态报表以筛选区段 {#step-3--create-a-dynamic-report-filter-segments}
+## 第3步：创建动态报表以筛选区段 {#step-3--create-a-dynamic-report-filter-segments}
 
 在使用工作流发送投放后，您可以使用工作流中的段代码细分报表。
 
