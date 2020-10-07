@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +60,9 @@ Adobe Campaign 提供两种类型的推送通知：
 
 >[!NOTE]
 >要利用 Campaign 的推送通知功能，您需要提供没有密码的、.pem 格式的有效推送证书。
-如果您拥有有效的 p12 证书，则可以使用联机资源轻松将其转换为 .pem 文件。
+
+>
+>如果您拥有有效的 p12 证书，则可以使用联机资源轻松将其转换为 .pem 文件。
 
 在发送推送通知之前，您应：
 
