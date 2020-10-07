@@ -9,13 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +107,8 @@ ht-degree: 7%
    >[!NOTE]
    >
    >默认情况下，要检索在Adobe启动中创建的移动应用程序列表,Campaign Standard使用NmsServer_URL选项中定义的值来查找匹配的属性。
-在某些情况下，移动应用程序的活动端点可能与NmsServer_URL中定义的端点不同。 在这种情况下，在Launch_URL_活动选项中定义端点。 活动将使用此选项中的值在Adobe启动中查找匹配属性。
+   >
+   >在某些情况下，移动应用程序的活动端点可能与NmsServer_URL中定义的端点不同。 在这种情况下，在Launch_URL_活动选项中定义端点。 活动将使用此选项中的值在Adobe启动中查找匹配属性。
 
    ![](assets/launch_4.png)
 
