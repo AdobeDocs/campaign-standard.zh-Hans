@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
 
 # 更新地理单位属性 {#managing-geographical-units}
 
-1. 对geoUnitBase资源执行GET **请求** ，以检索地理单元PKey。
-1. 对地理单元执行PATCH请求，其属性将在有效负荷中更新。
+1. 对geoUnitBase资源执 **行GET请求** ，以检索地理单元PKey。
+1. 对地理单元执行PATCH请求，并在有效负荷中更新属性。
 
 <br/>
 
 ***示例请求***
 
-检索地理单位列表。
+检索地理单位的列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -52,7 +53,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-对地理单元执行PATCH请求，其属性将在有效负荷中更新。
+对地理单元执行PATCH请求，并在有效负荷中更新属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
