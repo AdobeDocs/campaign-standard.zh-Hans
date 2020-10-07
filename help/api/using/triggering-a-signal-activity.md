@@ -9,33 +9,34 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign标准工作流中，可以有一个或多个外部信 **号活动** 。 这些活动是等待被触发的“监听器”。
+在Adobe Campaign Standard工作流程中，可以有一个或多个外 **部信号** 活动。 这些活动是等待被触发的“监听器”。
 
-Campaign StandardAPI允许您触发 **外部信号活动** ，以调用工作流。 API调用可以包括将被引入工作流的事件变量(要导入的受众名称、要导入的文件名、消息内容的一部分等)中的参数。 这样，您便可以轻松地将活动自动化与外部系统集成。
+Campaign StandardAPI允许您触发 **外部信号** 活动来调用工作流。 API调用可以包括将被引入工作流的事件变量(受众名到目标、要导入的文件名、消息内容的一部分等)的参数。 这样，您便可以轻松地将活动自动化与外部系统集成。
 
 >[!NOTE]
 >
->外部信号活动的触发频率不能超过每10分钟，并且目标工作流必须已经运行。
+>外部信号活动不能比每10分钟触发一次的频率更高，并且目标工作流必须已运行。
 
-要触发工作流，请执行以下步骤：
+要触发工作流，请按照以下步骤操作：
 
-1. 对工作流 **执行GET** 请求以检索外部信号活动触发器URL。
+1. 在工作流 **上执** 行GET请求以检索外部信号活动触发器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 对返回 **的URL执行** POST请求 **，以触发信号活动，有效负荷中有** “source”参数。 此属性是必填的，它允许您指示触发请求源。
+1. 对返回 **的** URL执行POST请求 **，以触发信号活动，有效负荷中** 有“source”参数。 此属性是必需属性，它允许您指示触发请求源。
 
-如果要使用参数调用工作流，请使用“parameters”属性将其添 **加到有效负荷** 。 语法由参数的名称后跟其值组成(支持以下类型：字 **符串**&#x200B;数 **、数字**、 **boolean** 、 **date**/time)。
+如果要使用参数调用工作流，请使用“parameters”属性将其 **添加到有效负荷** 中。 语法由参数的名称后跟其值组成(支持以下类型： **string****、** number **、** boolean ****&#x200B;和date/time)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -58,7 +59,7 @@ Campaign StandardAPI允许您触发 **外部信号活动** ，以调用工作流
 
 >[!NOTE]
 >
->向有效负荷添加参数时，请确保其名 **称****** 和类型值与外部信号活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
+>向负载添加参数时，请确保其名 **称****和类型值** 与外部信号活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
 
 <br/>
 
@@ -93,7 +94,7 @@ Campaign StandardAPI允许您触发 **外部信号活动** ，以调用工作流
 }
 ```
 
-要触发信号活动，请在触发器url上使用“source”执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
+要触发信号活动，请在触发器url上使用“源”执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Campaign StandardAPI允许您触发 **外部信号活动** ，以调用工作流
 
 <!-- + réponse -->
 
-如果外部信号活动中未声明其中一个参数，则POST请求将返回以下错误，指示缺少哪个参数。
+如果某个参数未在外部信号活动中声明，POST请求将返回以下错误，指明缺少哪个参数。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
