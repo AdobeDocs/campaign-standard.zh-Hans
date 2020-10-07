@@ -1,6 +1,6 @@
 ---
 title: 与营销历史互动
-description: 了解如何与档案的营销历史互动。
+description: 了解如何与用户档案营销历史互动。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,28 +9,29 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 与营销历史互动 {#interacting-with-marketing-history}
 
-历史 **记录端点** ，可让您与个人资料的营销历史记录进行交互。
-例如，这样，您就可以轻松检索发送到配置文件的分发的镜像页面。 为此请执行以下操作步骤：
+历史 **端点** ，可让您与用户档案的营销历史交互。
+例如，这样，您就可以轻松检索发送给镜像页面的投放的用户档案。 为此请执行以下操作步骤：
 
-1. 使用历史端点 **和配置** 文件的主键执行GET。
-1. 对返回的事件 **href执行** GET请求。
-1. 它返回配置文件的事件列表，其中包含指向mirrorPage节点中镜像页面 **的链接** 。
+1. 使用历史端点 **和GET** 的主键执行用户档案。
+1. 对返回的GET **** href执行事件请求。
+1. 它返回用户档案的列表，该事件具有指向mirrorPage节点中镜像页面 **的** 。
 
 <br/>
 
-***示例请求&#x200B;***
+***示例请求***
 
-通过GET请求检索个人资料的营销历史记录。
+使用用户档案请求检索营销历史。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -40,7 +41,7 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-“事件”节点返回URL，通过该URL可访问配置文件中的事件。
+“事件”节点返回URL，用于访问用户档案上的事件。
 
 ```
 {
@@ -55,7 +56,7 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 }
 ```
 
-对返回的事件href执行GET请求。
+对返回的GEThref执行事件请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -65,7 +66,7 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件的事件列表，其中包含指向“mirrorPage”节点中镜像页面的链接。
+它返回用户档案的列表符事件，该具有指向“mirrorPage”节点中镜像页面符的链接。
 
 ```
     {
