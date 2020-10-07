@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,9 +33,9 @@ ht-degree: 0%
 
 * **本地打开** -当向设备发送本地通知且用户单击了导致应用程序打开的通知时。 这与本地单击类似，但如果通知被消失，则不会触发本地打开。
 
-要实现Adobe Campaign Standard跟踪，移动应用程序需要在应用程序中包含Mobile SDK。 这些SDK可在中获 [!DNL Adobe Mobile Services]得。
+要实施Adobe Campaign Standard的跟踪，移动应用程序需要在应用程序中包含Mobile SDK。 这些SDK可在中获 [!DNL Adobe Mobile Services]得。
 
-要发送跟踪信息，需要发送三个变量： 两个是从Adobe Campaign接收的数据的一部分，另一个是操作变量，它指示是印象、单击还是打开。
+要发送跟踪信息，需要发送三个变量：两个是从Adobe Campaign接收的数据的一部分，另一个是操作变量，它指示是印象、单击还是打开。
 
 | 变量 | 值 |
 | :-: | :-: |
@@ -51,21 +49,21 @@ ht-degree: 0%
 
 ### 适用于Android {#implement-local-impression-tracking-android}
 
-Adobe Experience PlatformMobile SDK在触发本地通知时开始其印象跟踪。
+Adobe Experience Platform移动SDK在触发本地通知时开始其印象跟踪。
 
 ### 适用于iOS {#implement-local-impression-tracking-ios}
 
 要解释如何实现印象跟踪，我们需要了解应用程序的三种状态：
 
-* **前景**: 当应用程序当前处于活动状态且前景显示在屏幕上时。
+* **前景**:当应用程序当前处于活动状态且前景显示在屏幕上时。
 
-* **背景**: 当应用程序未在屏幕上但进程未关闭时。 多次单击主页按钮时，通常会在后台显示所有应用程序。
+* **背景**:当应用程序未在屏幕上但进程未关闭时。 多次单击主页按钮时，通常会在后台显示所有应用程序。
 
-* **关闭／关闭**: 应用程序进程被终止时。 如果关闭某个应用程序，Apple将直到重新启动该应用程序后才调用它。 这意味着您永远无法真正了解iOS上何时收到通知。
+* **关闭／关闭**:应用程序进程被终止时。 如果关闭某个应用程序，Apple将直到重新启动该应用程序后才调用它。 这意味着您永远无法真正了解iOS上何时收到通知。
 
 要让印象跟踪在应用程序处于后台时仍然有效，我们需要发送“可用内容”，让应用程序知道需要进行跟踪。
 
-Adobe Experience PlatformMobile SDK在触发本地通知时开始其印象跟踪。
+Adobe Experience Platform移动SDK在触发本地通知时开始其印象跟踪。
 
 >[!CAUTION]
 >
@@ -83,7 +81,7 @@ Adobe Experience PlatformMobile SDK在触发本地通知时开始其印象跟踪
 
 * 用户看到通知并单击它，这将转为打开的跟踪。
 
-Adobe Experience PlatformMobile SDK跟踪第一个单击场景。
+Adobe Experience Platform移动SDK跟踪第一个点击场景。
 
 ### 适用于iOS {#implement-click-tracking-ios}
 
