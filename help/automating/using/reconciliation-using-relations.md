@@ -1,6 +1,6 @@
 ---
 title: 使用关系进行数据协调
-description: 以下示例演示了一个使用文件中的购买数据更新数据库的工作流。
+description: 下方的示例演示了使用文件中的购买数据更新数据库的工作流。
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,21 +21,21 @@ ht-degree: 0%
 
 # 使用关系进行数据协调 {#reconciliation-relations}
 
-以下示例演示了一个使用文件中的购买数据更新数据库的工作流。 采购数据包含引用其他维度元素的数据，如客户电子邮件和产品代码。
+下方的示例演示了使用文件中的购买数据更新数据库的工作流。购买数据包含来自其他维度的数据引用元素，例如客户电子邮件和产品代码。
 
 >[!NOTE]
 >
->默 **认情** 况下 **，此示例中** 使用的Transactions和Products资源在Adobe Campaign库中不存在。 因此，它们是使用“自定义资源” [功能预先创](../../developing/using/data-model-concepts.md) 建的。 与导入文件中的电子邮件地址以及产品对应的用户档案会预先加载到数据库中。
+>默认情况下，本示例中使用的&#x200B;**交易**&#x200B;和&#x200B;**产品**&#x200B;资源并不存在于 Adobe Campaign 数据库中。因此，它们是使用[自定义资源](../../developing/using/data-model-concepts.md)功能预先创建的。与导入文件中的电子邮件地址以及产品对应的用户档案，已预先加载到数据库中。
 
 工作流由以下活动组成：
 
 ![](assets/reconciliation_example1.png)
 
-* 加 [载文件活动](../../automating/using/load-file.md) ，它加载并检测要导入的文件的数据。 导入的文件包含以下数据：
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. 导入的文件包含以下数据：
 
    * 交易日期
-   * 客户端电子邮件地址
-   * 购买的产品代码
+   * 客户电子邮件地址
+   * 所购买产品的代码
 
    ```
    date;client;product
@@ -52,17 +50,18 @@ ht-degree: 0%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* 一种 [协调活动](../../automating/using/reconciliation.md) ，用于将购买数据绑定到数据库用户档案和产品。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。 此配置在活动的选项卡中执 **[!UICONTROL Relations]** 行：
+* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
 
-   * 与用户档案的 **关系**: 文件的 **client** 列链接到 **“用户档案”** 维的 **email** 字段。
-   * 与产品的 **关系**: 文件的 **product** column链接到 **用户档案维** 的product **Code** 字段。
-   列将添加到入站数据中以引用链接维的外键。
+   * 与&#x200B;**用户档案**&#x200B;的关系：文件的 **client** 列链接到&#x200B;**用户档案**&#x200B;维度的 **email** 字段。
+   * 与&#x200B;**产品**&#x200B;的关系：文件的 **product** 列链接到&#x200B;**用户档案**&#x200B;维度的 **productCode** 字段。
+
+   将向集客数据添加列，以引用链接维度的外键。
 
    ![](assets/reconciliation_example3.png)
 
-* “更 [新数据](../../automating/using/update-data.md) ”活动允许您定义要使用导入的数据进行更新的数据库字段。 由于数据已在上一活动中被标识为 **属于** “事务”维，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
+* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. 由于数据已在上一活动中被识别为归属&#x200B;**交易**&#x200B;维度，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
 
-   通过使用自动检测要更新的字段的选项，将之前活动中配置的链接(到用户档案和产品)添加到列表 **[!UICONTROL Fields to update]**。 您还必须确保与事务处理日期对应的字段正确添加到此列表。
+   通过使用“自动检测要更新字段”的选项，将之前活动中配置的链接（到用户档案和产品）添加到 **[!UICONTROL Fields to update]** 的列表。您还必须确保将与交易日期对应的字段正确添加到此列表。
 
    ![](assets/reconciliation_example5.png)
 
