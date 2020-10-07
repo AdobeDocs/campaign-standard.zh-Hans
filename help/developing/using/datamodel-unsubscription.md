@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
 
-# 取消订阅事件(nms:rtEvent)
+# 退订事件(nms:rtEvent)
 
 ## 对象描述
 
@@ -35,7 +36,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>ctx</td>
                   <td>False</td>
-                  <td>项目</td>
+                  <td>物料</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -47,11 +48,11 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>枚举</td>
+                  <td>明细列表</td>
                   <td>False</td>
                </tr>
                <tr>
-                  <td>mobilePhone</td>
+                  <td>移动电话</td>
                   <td>False</td>
                   <td>字符串</td>
                   <td>False</td>
@@ -64,7 +65,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
             </table>
 
-## 滤镜
+## 过滤器
 
 byEmail
 
@@ -88,10 +89,10 @@ byStatusOrType
         </tr>
         <tr>
         <td>状态</td>
-        <td>枚举</td>
+        <td>明细列表</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>类型</td>
         <td>字符串</td>
         </tr>
     </table>
