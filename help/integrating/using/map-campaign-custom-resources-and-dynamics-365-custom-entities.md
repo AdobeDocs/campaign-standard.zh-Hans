@@ -1,5 +1,5 @@
 ---
-title: 映射活动自定义资源和Dynamics 365自定义实体
+title: 映射 Campaign 自定义资源和 Dynamics 365 自定义实体
 description: 了解如何在Adobe Campaign Standard与Microsoft Dynamics 365集成的背景下映射资源和实体。
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -9,12 +9,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e11de4d4482400e62be2db076c88da5ae30d60cc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->此功能不随产品提供。 实施过程中需要Adobe咨询。 请联系您的Adobe代表以了解更多信息。
+>此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 
 ## 先决条件
 
