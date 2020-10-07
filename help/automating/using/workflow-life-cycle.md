@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,6 +45,6 @@ ht-degree: 0%
 
    执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用 ![](assets/printpreview_darkgrey-24px.png) 按钮访问工作流日志(请参 [阅监](../../automating/using/monitoring-workflow-execution.md)视)。
 
-营销活动的列表允许您显示所有工作流及其状态。 有关此方面的详细信息，请参 [阅管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities)。
+营销活动的列表允许您显示所有工作流及其状态。 For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
