@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -21,10 +22,12 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 >[!CAUTION]
 >
->Campaign Standard 18.7版本中已弃用“地理”单元功能。
-因此，新的Campaign standard实例以及没有创建地理单位的现有实例无法在18.7版本开始实施此功能。
-有关此功能的详细信息，请参阅“已弃 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">用功能</a> ”页。
+>Campaign Standard18.7版本已弃用地理单元功能。
+>
+>因此，从18.7版本开始，新Campaign Standard实例以及没有创建地理单位的现有实例无法实现此功能。
+>
+>有关此的详细信息，请参阅已弃 <a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">用功能</a> 页。
 
-通过 **geoUnitBase端点** ，您可以与地理单元交互，例如，允许您更新其属性或更新配置文件的单元。
+geoUnitBase **端点允许您** 与地理单元交互，例如，使您能够更新其属性或更新用户档案的单元。
 
-在扩 **展配置文件资源时** ,“地理单位”字段会添加到配置文件。 因此，请记住始终使用profileAndServicesExt **端点与** Geographical单元交互。 有关配置文件的资源扩展的详细信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+扩展 **用户档案资** 源时，将“地理单位”字段添加到用户档案。 因此，请记住始终使用profileAndServicesExt **端点与** Geographicual Units进行交互。 有关用户档案资源扩展的详细信息，请参阅 [活动文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
