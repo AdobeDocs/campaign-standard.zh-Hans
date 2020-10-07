@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 7%
 
 ---
 
 
-# 程序(nms:program)
+# 项目(nms:项目)
 
 ## 对象描述
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -35,19 +36,19 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>活动</td>
                   <td>活动</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>builtIn</td>
                   <td>内置应用程序对象</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>已创建</td>
                   <td>已创建</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,9 +64,9 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>结束</td>
                   <td>结束日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -77,13 +78,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>isExternal</td>
                   <td>是外部资源</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>模板</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -95,16 +96,16 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>枚举（字符串）(255)</td>
+                  <td>明细列表（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>进行中——开始——开始</li>
+                        <li>正在进行——已开始——已开始</li>
                         <li>编辑——版本——版本</li>
                         <li>完成——完成——完成</li>
                         <li>警告——警告——警告</li>
@@ -120,7 +121,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>名称</td>
                   <td>ID</td>
                   <td>字符串(64)</td>
                   <td> </td>
@@ -132,27 +133,27 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent(programBase)</td>
-                  <td>父程序</td>
+                  <td>父项(programBase)</td>
+                  <td>父项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>实时报告</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>开始</td>
                   <td>开始日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>状态</td>
                   <td>状态</td>
-                  <td>枚举（字节） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
                         <li>开始——开始- 1</li>
@@ -163,8 +164,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   </td>
                </tr>
                <tr>
-                  <td>模板（程序）</td>
-                  <td>计划模板</td>
+                  <td>模板(项目)</td>
+                  <td>项目模板</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -176,13 +177,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>标题</td>
-                  <td>计划</td>
+                  <td>项目</td>
                   <td>string(255)</td>
                   <td> </td>
                </tr>
             </table>
 
-## 滤镜
+## 过滤器
 
 按逻辑状态(byLogicalStatus)
 
@@ -193,7 +194,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>状态</td>
-    <td>枚举</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
@@ -219,7 +220,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -227,7 +228,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-包括来自异构列表的连续提交(withContinuous)
+包括来自异构投放的连续列表(withContinuous)
 
 <table>
     <tr>
@@ -236,7 +237,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>布尔值</td>
+    <td>布尔</td>
     </tr>
 </table>
 
@@ -249,11 +250,11 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         </tr>
         <tr>
         <td>withParent</td>
-        <td>布尔值</td>
+        <td>布尔</td>
         </tr>
     </table>
 
-仅限合格的父母（合格的父母）
+只有符合条件的父母（合格父母）
 
 <table>
     <tr>
@@ -261,12 +262,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     <th>类型</th>
     </tr>
     <tr>
-    <td>程序</td>
+    <td>项目</td>
     <td>链接</td>
     </tr>
 </table>
 
-在给定期间内计划（按计划）
+为给定期间计划（按计划）
 
 <table>
     <tr>
@@ -275,15 +276,15 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
-在给定期间（按日历）提供
+在给定期间（按日历）存在
 
 <table>
     <tr>
@@ -292,10 +293,10 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
