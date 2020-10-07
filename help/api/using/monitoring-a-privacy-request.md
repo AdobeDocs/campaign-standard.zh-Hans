@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 监视隐私请求 {#monitoring-a-privacy-request}
 
-您可以使用 **GET请求监视有关已创建隐私请求的信** 息。
+您可以使用GET请求监视有关已创建隐私请求 **的** 信息。
 
-状态列表说明可在隐私管理文 [档中找到](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+状态列表说明可在隐私管理 [文档中找到](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 <br/>
 
@@ -35,7 +36,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-对GET请求的响应。
+响应GET请求。
 
 ```
 {
