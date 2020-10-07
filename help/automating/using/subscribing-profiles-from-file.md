@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 在导入文件后为特定服务订阅用户档案 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例说明如何导入包含用户档案的文件并将其订阅到现有服务。 导入文件后，需要执行协调，以便将导入的数据标识为用户档案。 为确保文件不包含任何重复，将对数据执行外部重复数据删除活动。
+此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
-工作流如下所示：
+其工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* “加 [载文件](../../automating/using/load-file.md) ”活动加载用户档案文件并定义导入列的结构。
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   在此示例中，加载的文件采用。csv格式并包含以下数据：
+   在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -48,14 +46,14 @@ ht-degree: 0%
 
    ![](assets/subscription_activity_example2.png)
 
-* 协调 [活动](../../automating/using/reconciliation.md) 将文件中的数据标识为属于Adobe Campaign库的用户档案维。 只配置 **[!UICONTROL Identification]** 了选项卡。 它根据用户档案的电子邮件地址来标识文件数据。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
 
    ![](assets/subscription_activity_example3.png)
 
-* 基 [于临](../../automating/using/deduplication.md) 时资 **源的** “电子邮件”字段的外部重复数据删除（由对帐产生）标识任何重复。 如果从文件导入的重复包含任何订阅，则对于所有数据，对服务的将失败。
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* 订阅服务 [订阅](../../automating/using/subscription-services.md) 活动允许您选择用户档案必须订阅的服务、与订阅日期对应的字段以及订阅的来源。
+* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
 
    ![](assets/subscription_activity_example4.png)
