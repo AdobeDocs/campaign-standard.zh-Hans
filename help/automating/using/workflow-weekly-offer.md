@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 81%
 
 ## 创建调度程序活动{#creating-a-scheduler-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;中，拖放一个 [调度程序](../../automating/using/scheduler.md) 活动。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. 双击该活动。
 1. 配置投放的执行方式。
 1. 在 **[!UICONTROL Execution frequency]** 中，选择 **[!UICONTROL Weekly]**。
