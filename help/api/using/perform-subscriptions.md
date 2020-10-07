@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 执行订阅 {#performing-subscriptions}
 
-## 方法1:将配置文件订阅到服务
+## 方法1:订阅用户档案服务
 
-执行GET请求以检索配置文件。
+执行GET请求以检索用户档案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -31,7 +32,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件的订阅URL。
+它返回订阅的用户档案URL。
 
 ```
   {
@@ -45,7 +46,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   }
 ```
 
-在有效负荷内，对订阅URL执行POST请求，并将所需的服务主要密钥放在订阅URL中。
+在有效负荷中使用所需的服务主键对订阅URL执行POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -57,7 +58,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成服务节点的更新配置文件。
+它返回已完成服务节点的更新用户档案。
 
 ```
 {
@@ -72,7 +73,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-## 方法2:向服务订阅者添加配置文件
+## 方法2:向服务的订户添加用户档案
 
 执行GET请求以检索服务。
 
@@ -98,7 +99,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   },
 ```
 
-对订阅URL发出POST请求，有效负荷中包含所需的配置文件“主键”。
+在有效负荷中使用所需的POST主键对订阅URL发出用户档案请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -110,7 +111,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-它返回更新后的服务，并且用户节点已完成。
+它返回已完成订阅者节点的更新服务。
 
 ```
 {
