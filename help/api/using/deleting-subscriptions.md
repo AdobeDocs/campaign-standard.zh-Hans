@@ -9,23 +9,24 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 删除订阅 {#mdeleting-subscriptions}
 
-## 删除特定配置文件的服务订阅
+## 删除特定订阅的服务用户档案
 
 这是三步法。
 
-1. 检索所需配置文件的订阅URL。
-1. 对订阅URL执行GET请求。
-1. 对所需的服务URL执行DELETE请求。
+1. 检索所需订阅的用户档案URL。
+1. 对GETURL执行订阅请求。
+1. 对所需服务URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为“204无内容”。
 
@@ -33,7 +34,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ***示例请求***
 
-下面的示例负载说明如何从服务中取消订阅配置文件。 首先执行GET请求以检索配置文件。
+下面的示例有效负荷显示如何从服务中取消订阅配置文件。 首先执行GET请求以检索用户档案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -43,7 +44,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件的订阅URL。
+它返回订阅的用户档案URL。
 
 ```
   {
@@ -56,7 +57,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   }
 ```
 
-对订阅URL执行GET请求。
+对GETURL执行订阅请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -66,7 +67,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回选定配置文件的订阅列表，每个订阅服务都有一个URL。
+它返回所选用户档案的列表，每个订阅服务都有一个URL。
 
 ```
 ...
@@ -80,7 +81,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 ...
 ```
 
-对所需的服务URL执行DELETE请求。
+对所需服务URL执行DELETE请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -92,13 +93,13 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 <!-- + réponse -->
 
-## 删除特定配置文件的服务订阅
+## 删除特定订阅的服务用户档案
 
 这是三步法。
 
 1. 检索所需的服务及其订阅URL。
-1. 对订阅URL执行GET请求以检索所有配置文件订阅。
-1. 对所需的配置文件订阅URL执行DELETE请求。
+1. 对订阅URL执行GET请求以检索所有用户档案订阅。
+1. 对所需的DELETE订阅URL执行用户档案请求。
 
 如果删除请求成功，则响应状态为“204无内容”。
 
@@ -133,7 +134,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-对订阅URL执行GET请求。
+对GETURL执行订阅请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -143,7 +144,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回选定服务的订阅列表，每个配置文件订阅都有一个URL(href)。
+它返回所选服务的订阅列表，每个用户档案订阅都带有URL(href)。
 
 ```
 {
@@ -160,7 +161,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-对所需的配置文件订阅URL执行DELETE请求。
+对所需的DELETE订阅URL执行用户档案请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
