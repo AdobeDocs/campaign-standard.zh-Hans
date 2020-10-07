@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: 数据模型
 description: 了解数据模型
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 受众(nms:audience)
+# 受众(nms:受众)
 
 ## 对象描述
 
@@ -24,7 +25,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -35,7 +36,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>aamMappingId</td>
                   <td>Audience Manager映射ID</td>
-                  <td>string(100)</td>
+                  <td>字符串(100)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,13 +47,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>预览选定人群</td>
-                  <td>collection </td>
+                  <td>预览所选人口</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>数据架构</td>
+                  <td>数据模式</td>
                   <td>string(255)</td>
                   <td> </td>
                </tr>
@@ -65,11 +66,11 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>collectLineNumber</td>
                   <td>使用行号作为ID</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>计数</td>
+                  <td>count</td>
                   <td>计数</td>
                   <td>整数 </td>
                   <td> </td>
@@ -77,19 +78,19 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>countDate</td>
                   <td>计数日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countPreview</td>
                   <td>计数预览</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>已创建</td>
                   <td>已创建</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,8 +107,8 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>请勿将此作业历史化</td>
-                  <td>布尔值 </td>
+                  <td>不要将此作业历史化</td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -119,7 +120,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>expirationDate</td>
                   <td>过期时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -131,25 +132,25 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing cloud受众</td>
-                  <td>布尔值 </td>
+                  <td>Adobe Marketing Cloud受众</td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>是外部资源</td>
-                  <td>布尔值 </td>
+                  <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>collection </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -161,7 +162,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -171,7 +172,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>名称</td>
                   <td>ID</td>
                   <td>字符串(64)</td>
                   <td> </td>
@@ -191,13 +192,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>sharedAudience</td>
                   <td>共享受众的名称</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>源</td>
                   <td>源</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -213,22 +214,22 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
                   <td>类型</td>
-                  <td>枚举（字符串）(100)</td>
+                  <td>类型</td>
+                  <td>明细列表（字符串）(100)</td>
                   <td>
                      <ul>
-                        <li>查询——查询——查询</li>
-                        <li>列表——列表——列表</li>
+                        <li>查询-查询-查询</li>
+                        <li>列表-列表-列表</li>
                         <li>文件——文件——文件</li>
                         <li>无效值- __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>where</td>
+                  <td>在哪里</td>
                   <td>查询定义</td>
-                  <td>项目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -239,9 +240,9 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
             </table>
 
-## 滤镜
+## 过滤器
 
-通过筛选维(byFilteringResource)
+按过滤维度(byFilteringResource)
 
 <table>
     <tr>
@@ -275,8 +276,8 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     <th>类型</th>
     </tr>
     <tr>
-    <td>type</td>
-    <td>枚举</td>
+    <td>类型</td>
+    <td>明细列表</td>
     </tr>
     <tr>
     <td>isAMC</td>
