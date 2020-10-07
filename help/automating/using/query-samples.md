@@ -1,5 +1,5 @@
 ---
-title: 查询范例
+title: 查询样例
 description: 本节介绍使用查询活动时的用例。
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
@@ -10,54 +10,52 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
-# 查询范例 {#query-samples}
+# 查询样例{#query-samples}
 
-本节介绍使用活动时的用 **[!UICONTROL Query]** 例。 有关如何使用活动的 **[!UICONTROL Query]** 详细信息，请 [参阅本节](../../automating/using/query.md)。
+本节介绍使用活动时的用 **[!UICONTROL Query]** 例。 For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
 
-## 基于简单用户档案属性定位 {#targeting-on-simple-profile-attributes}
+## 基于简单用户档案属性定向{#targeting-on-simple-profile-attributes}
 
-以下示例展示了一个查询活动，其配置为居住在伦敦的18至30岁的目标男子。
+下方的示例展示了一个查询活动，该活动配置为定向居住在伦敦的 18 至 30 岁的男子。
 
 ![](assets/query_sample_1.png)
 
-## 根据电子邮件属性定位 {#targeting-on-email-attributes}
+## 基于电子邮件属性定向{#targeting-on-email-attributes}
 
-以下示例显示了配置为将查询活动与电子邮件地址域“orange.co.uk”目标用户档案的。
+下方的示例显示了一个查询活动，该活动配置为定向电子邮件地址域为“orange.co.uk”的用户档案。
 
 ![](assets/query_sample_emaildomain.png)
 
-以下示例显示配置为查询其电子邮件地址已提供的目标用户档案的活动。
+下方的示例显示了一个查询活动，该活动配置为定向已提供电子邮件地址的用户档案。
 
 ![](assets/query_sample_emailnotempty.png)
 
-## 瞄准生日在今天的用户档案 {#targeting-profiles-whose-birthday-is-today}
+## 定向生日为今天的用户档案{#targeting-profiles-whose-birthday-is-today}
 
-以下示例显示了一个查询活动，该用户档案配置为目标生日为今天的。
+以下示例显示了一个查询活动，该活动配置为定向生日为今天的用户档案。
 
-1. 在查询 **[!UICONTROL Birthday]** 中拖动过滤器。
+1. 将 **[!UICONTROL Birthday]** 过滤器拖动到查询中。
 
    ![](assets/query_sample_birthday.png)
 
-1. 将设置 **[!UICONTROL Filter type]** 为并 **[!UICONTROL Relative]** 选择 **[!UICONTROL Today]**。
+1. 将 **[!UICONTROL Filter type]** 设置为 **[!UICONTROL Relative]** 并选择 **[!UICONTROL Today]**。
 
    ![](assets/query_sample_birthday2.png)
 
-## 定位打开特定投放的用户档案 {#targeting-profiles-who-opened-a-specific-delivery}
+## 定向打开了特定投放的用户档案{#targeting-profiles-who-opened-a-specific-delivery}
 
-以下示例显示了一个查询活动，其配置为过滤打开投放并标有“Summer Time”的用户档案。
+以下示例显示了一个查询活动，该活动配置为筛选打开了标签为“Summer Time”之投放的用户档案。
 
-1. 在查询 **[!UICONTROL Opened]** 中拖动过滤器。
+1. 将 **[!UICONTROL Opened]** 过滤器拖动到查询中。
 
    ![](assets/query_sample_opened.png)
 
@@ -65,48 +63,48 @@ ht-degree: 0%
 
    ![](assets/query_sample_opened2.png)
 
-## 针对因特定原因投放失败的用户档案 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## 定向因特定原因投放失败的用户档案{#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-以下示例显示了一个查询活动，其配置为过滤因其邮箱已满而导致投放失败的用户档案。 此查询仅适用于具有管理权限且属于组织单位的 **[!UICONTROL All (all)]** 用户(请参 [阅本节](../../administration/using/organizational-units.md))。
+以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的用户档案。此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
 
-1. 选择资 **[!UICONTROL Delivery logs]** 源，以便直接在投放日志表中进行筛选(请参 [阅使用不同于定位维度的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md))。
+1. 选择 **[!UICONTROL Delivery logs]** 资源，以便直接在投放日志表中进行筛选（请参阅[使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)）。
 
    ![](assets/query_sample_failure1.png)
 
-1. 在查询 **[!UICONTROL Nature of failure]** 中拖动过滤器。
+1. 将 **[!UICONTROL Nature of failure]** 过滤器拖动到查询中。
 
    ![](assets/query_sample_failure2.png)
 
-1. 选择要目标的失败类型。 以我们为例 **[!UICONTROL Mailbox full]**。
+1. 选择要定向的失败类型。以 **[!UICONTROL Mailbox full]** 为例。
 
    ![](assets/query_sample_failure3.png)
 
-## 过去7天内未联系定位用户档案 {#targeting-profiles-not-contacted-during-the-last-7-days}
+## 定向过去 7 天内未联系的用户档案{#targeting-profiles-not-contacted-during-the-last-7-days}
 
-以下示例显示了一个查询活动，其配置为过滤过去7天内未联系到的用户档案。
+以下示例显示了一个查询活动，该活动配置为筛选过去 7 天内未联系的用户档案。
 
-1. 在查询 **[!UICONTROL Delivery logs (logs)]** 中拖动过滤器。
+1. 将 **[!UICONTROL Delivery logs (logs)]** 过滤器拖动到查询中。
 
    ![](assets/query_sample_7days.png)
 
-   在 **[!UICONTROL Does not exist]** 下拉列表中选择，然后拖动筛 **[!UICONTROL Delivery]** 选器。
+   在下拉列表中选择 **[!UICONTROL Does not exist]**，然后拖动 **[!UICONTROL Delivery]** 过滤器。
 
    ![](assets/query_sample_7days1.png)
 
-1. 按如下配置筛选器。
+1. 按照下方所示，配置过滤器。
 
    ![](assets/query_sample_7days2.png)
 
-## 定位单击特定链接的用户档案 {#targeting-profiles-who-clicked-a-specific-link-}
+## 定向单击了特定链接的用户档案{#targeting-profiles-who-clicked-a-specific-link-}
 
-1. 在查询 **[!UICONTROL Tracking logs (tracking)]** 中拖动过滤器。
+1. 将 **[!UICONTROL Tracking logs (tracking)]** 过滤器拖动到查询中。
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. 拖动滤 **[!UICONTROL Label (urlLabel)]** 镜。
+1. 拖动 **[!UICONTROL Label (urlLabel)]** 过滤器。
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. 在字 **[!UICONTROL Value]** 段中，键入在投放中插入链接时定义的标签，然后进行确认。
+1. 在 **[!UICONTROL Value]** 字段中，键入在投放中插入链接时定义的标签，然后进行确认。
 
    ![](assets/query_sample_trackinglogs3.png)
