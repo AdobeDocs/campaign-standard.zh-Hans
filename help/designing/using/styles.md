@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -203,7 +201,7 @@ ht-degree: 1%
 
 1. 保存更改。
 
-## 添加内联样式属性 {#adding-inline-styling-attributes}
+## Adding inline styling attributes {#adding-inline-styling-attributes}
 
 在“电子邮件设计器”界面中，选择某个元素并在侧面板中显示其设置时，您可以自定义该特定元素的内联属性及其值。
 
