@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,12 +49,12 @@ source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 控制规则可在投放生命周期的不同阶段应用：
 
-* **在定位开始**: 该控制规则可在此阶段应用，以便在错误事件中不执行个性化步骤。
+* **在定位开始**:该控制规则可在此阶段应用，以便在错误事件中不执行个性化步骤。
 
-* **定位后**: 定位后执行允许您了解目标的卷以应用控制规则。
+* **定位后**:定位后执行允许您了解目标的卷以应用控制规则。
 
-   例如，检查验证 **大小控制规则** （在定位阶段后应用）: 如果验证收件人过多，此规则将阻止准备消息个性化。
+   例如，检查验证 **大小控制规则** （在定位阶段后应用）:如果验证收件人过多，此规则将阻止准备消息个性化。
 
-* **在个性化开始**: 在支票与邮件个性化审批相关时应用。 消息个性化在分析阶段执行。
+* **在个性化开始**:在支票与邮件个性化审批相关时应用。 消息个性化在分析阶段执行。
 
-* **分析结束时**: 当检查需要完成消息个性化时。
+* **分析结束时**:当检查需要完成消息个性化时。
