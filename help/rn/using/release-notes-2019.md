@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '7624'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 8%
 
 ## 版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -108,7 +106,7 @@ ht-degree: 8%
 * 修复了模板和片段中按钮的大小问题。
 * 修复了在按钮组件中插入图像时图像大小的问题。
 
-**其他更改**
+**其他变更**
 
 * 投放KPI页面和动态报告页面上显示数据的默认时间范围已对齐，以防止报告结果出现差异。 (CAMP-35148)
 * 应用程序证书过期时，日志中已添加一条错误消息。
@@ -152,7 +150,7 @@ ht-degree: 8%
 
 ## 19.3 版 - 2019 年 7 月{#release-19-3---july-2019}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -216,7 +214,7 @@ ht-degree: 8%
 * “ftp”选项已从外部帐户配置界面中删除。 (CAMP-34472)
 * 您现在可以为每封电子邮件启用或禁用SMTP测试模式选项。 For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-**其他更改**
+**其他变更**
 
 * 在投放属性界面中添加了警告。 它指定投放根据其聚合期准备，并解冻以每天多次调用工作流，您应确保他们没有任何期。 (CAMP-34393)
 * 自定义资源配置屏幕中已添加警告。 我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。
@@ -297,7 +295,7 @@ ht-degree: 8%
 
 ## 19.2 版 - 2019 年 5 月{#release-19-2---may-2019}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -338,7 +336,7 @@ ht-degree: 8%
 * 修复了在删除Microsoft Office标签后仍在电子邮件设计器HTML模式下显示该标签的问题。 (CAMP-32141)
 * 如果您使用电子邮件设计器的先前版本创建了电子邮件，则打开此电子邮件内容时，现在会出现一个弹出窗口，提示用户更新至最新版本。 (CAMP-31529)
 * 修复了在发送给某些消息客户端时，会扭曲使用电子邮件设计器创建的电子邮件中的图像的问题。 (CAMP-31407)
-* 修复了在HTML模式下创建列表或按钮等元素时无法在纯文本模式下正确显示的问题。 (CAMP-32582,CAMP-32542)
+* 修复了在HTML模式下创建列表或按钮等元素时无法在纯文本模式下正确显示的问题。 （CAMP-32582 和 CAMP-32542）
 * 修复了无法在内容模板或片段属性中显示50个以上组织单位的问题。 (CAMP-32932)
 * 修复了在Outlook上接收使用电子邮件设计器创建的电子邮件时，视区背景颜色的问题。 (CAMP-31402)
 * 修复了在Outlook中打开使用电子邮件设计器创建的电子邮件内容时无法响应的问题。 (CAMP-31400)
@@ -362,7 +360,7 @@ ht-degree: 8%
 * 修复了导入包时使用事件配置和关联事务性消息的问题。 For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * 修复了从为包含产品列表的用户档案创建的测试事务性消息中删除收集数据的问题。
 
-**其他更改**
+**其他变更**
 
 * 新选项已添加到SMS外部帐户。 它能够限制发送SMS的MTA进程的最大数量，以便更好地控制并行连接的数量。 有关详细信息，请参 [阅SMS连接器协议和设置技术](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html) 说明。
 * 在发布具有API扩展的资源时，如果API已经发布，则现在每次重新发布该资源时，它都会自动更新。 以前，此操作是手动操作，无法更新API可能会中断此API的用户档案或服务资源。 For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -415,7 +413,7 @@ ht-degree: 8%
 
 ## 19.1 版 - 2019 年 2 月{#release-19-1---february-2019}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <thead> 
@@ -491,7 +489,7 @@ ht-degree: 8%
 
    有关详细信息，请参阅[详细文档](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
-**其他更改**
+**其他变更**
 
 * Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 See [Deprecated and removed features](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html) page.
 * 用户档案 **资源中的** “国家／地区代码”字段已更 **名为“国家／地区代码”**。
@@ -521,7 +519,7 @@ ht-degree: 8%
 
 ## 19.0 版 - 2019 年 1 月{#release-19-0---january-2019}
 
-**新增内容？**
+**新增功能**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -540,7 +538,7 @@ ht-degree: 8%
      <li> 能够在准 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">备时自动从URL检索内容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">兼容的现成内容模板</a>。 </li> 
     </ul> 
-    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。以下列出了改进和修复。</p><p>因此，现在已弃用传统电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。以下列出了改进和修复。</p><p>因此，现在已弃用传统电子邮件内容编辑器。 For more information, refer to this <a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
