@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 在本节中进一步了 [解测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
-您可以使 [用对照组](../../sending/using/control-group.md) ，通过排除活动的一部分受众来衡量其影响。 然后，您将能够将收到消息的目标群体的行为与未定位的联系人的行为进行比较。 根据发送日志，您还可以在将来目标对照组。
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. 然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
 
 ## 消除重复地址 {#deduplicate-addresses}
 
