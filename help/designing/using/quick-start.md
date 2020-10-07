@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 5%
@@ -124,7 +122,7 @@ ht-degree: 5%
 
 您可以从现成模板（如客户欢迎信息、新闻稿和重新参与电子邮件）构建电子邮件，并对其进行个性化设置。
 
-1. 创建电子邮件并打开其内容。 For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
+1. 创建电子邮件并打开其内容。 有关此方面的详细信息，请 [参阅创建电子邮件](../../channels/using/creating-an-email.md)。
 1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
 1. 单击选 **[!UICONTROL Templates]** 项卡。
 1. 选择现成的HTML模板。
