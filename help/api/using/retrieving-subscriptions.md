@@ -9,22 +9,23 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 检索订阅 {#retrieving-subscriptions}
 
-## 检索订阅服务的配置文件
+## 检索订阅服务的用户档案
 
-这是一个分两步的过程。
+这是两个步骤。
 
 1. 检索所需服务的订阅URL。
-1. 对订阅URL执行GET请求。 它返回服务的订阅列表以及每个关联的配置文件。
+1. 对GETURL执行订阅请求。 它返回服务的列表，以及每个关联用户档案。
 
 >[!CAUTION]
 >
@@ -58,7 +59,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   },
 ```
 
-对订阅URL执行GET请求。
+对GETURL执行订阅请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -68,7 +69,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-此时将显示服务的订阅列表，其中包含每个关联的配置文件。
+此时会显示服务的列表，其中包含每个关联的用户档案。
 
 ```
   {
@@ -85,18 +86,18 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   }
 ```
 
-## 检索配置文件订阅的服务
+## 检索用户档案订阅的服务
 
-这是一个分两步的过程。
+这是两个步骤。
 
-1. 检索给定配置文件的订阅URL。
-1. 对URL执行GET请求。 它返回配置文件的订阅列表以及每个关联服务。
+1. 检索给定订阅的用户档案URL。
+1. 对URL执行GET请求。 它返回用户档案的列表，以及每个相关服务。
 
 <br/>
 
 ***示例请求***
 
-执行GET请求以检索配置文件。
+执行GET请求以检索用户档案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -106,7 +107,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件的订阅URL。
+它返回订阅的用户档案URL。
 
 ```
   {
@@ -120,7 +121,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
   }
 ```
 
-对订阅URL执行GET请求。
+对GETURL执行订阅请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -130,7 +131,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置文件订阅的服务列表。
+它返回用户档案订阅的服务列表。
 
 ```
   {
