@@ -9,20 +9,18 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 跟踪消息{#tracking-messages}
 
-## 关于跟踪 {#about-tracking}
+## About tracking {#about-tracking}
 
 凭借其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
@@ -82,10 +80,10 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 在该列 **[!UICONTROL Type]** 中，可能的值为：
 
-* **[!UICONTROL Email click]**: 收件人单击了自定义链接。
-* **[!UICONTROL Mirror page]**: 收件人单击了指向镜像页面的链接。
-* **[!UICONTROL Open]**: 收件人打开了电子邮件。
-* **[!UICONTROL Opt-out]**: 收件人单击了退订链接。
+* **[!UICONTROL Email click]**:收件人单击了自定义链接。
+* **[!UICONTROL Mirror page]**:收件人单击了指向镜像页面的链接。
+* **[!UICONTROL Open]**:收件人打开了电子邮件。
+* **[!UICONTROL Opt-out]**:收件人单击了退订链接。
 
 >[!NOTE]
 >
