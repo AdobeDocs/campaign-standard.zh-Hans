@@ -1,6 +1,6 @@
 ---
 title: 通信渠道入门
-description: 在各种渠道上创建个性化信息、使用模板、创建登陆页并检查最佳实践。
+description: 在各种渠道上创建个性化信息，使用模板，创建登陆页并检查最佳实践。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 22%
 
 ---
 
