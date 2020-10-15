@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 数据模型快速入门
-description: 使用自定义字段和资源丰富Campaign Standard数据模型，并扩展REST API以公开扩展字段。
+description: 使用自定义字段和资源丰富 Campaign Standard 数据模型，并扩展 REST API 以公开扩展字段。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 29%
 
 ---
 
