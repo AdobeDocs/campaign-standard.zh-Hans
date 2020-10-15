@@ -1,6 +1,6 @@
 ---
 title: Campaign 集成快速入门
-description: 使用其他Adobe解决方案，并将其不同的功能与活动相结合。
+description: 使用其他 Adobe 解决方案，并将其不同的功能与 Campaign 相结合。
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
