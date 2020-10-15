@@ -1,6 +1,6 @@
 ---
 title: 测试和发送快速入门
-description: 准备、测试、计划、发送和监视您的消息。
+description: 准备、测试、计划、发送和监控您的消息。
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
