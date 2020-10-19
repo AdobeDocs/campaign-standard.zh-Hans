@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ ht-degree: 80%
 
 您可以在活动中添加新的组织实体，或创建需要在其他子域下发送的新电子邮件类型。 要执行此操作，请执行以下步骤：
 
-1. **委派新子域** -对于要由Adobe使用的任何新子域，第一步是委派它。 您可以通过活动 [控制面板执行](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ，或联系Adobe技术联系人。 在本文中进一步了 [解子域委托](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。
+1. **配置新子域** -对于Adobe要使用的任何新子域，第一步是配置它。 您可以通过活动 [控制面板执行](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ，或联系Adobe技术联系人。 在本文中进一步了 [解子域配置](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)。
 
-1. **创建票证** -委派子域后，Adobe需要在生产环境中设置它。 要请求此项，请 [创建一个指向客户关怀](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) (Client Care)的票证，其中包含以下信息：
+1. **创建票证** -配置子域后，Adobe需要在生产环境中设置它。 要请求此项，请 [创建一个指向客户关怀](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) (Client Care)的票证，其中包含以下信息：
 
    * 主题：ACS新品牌设置
 
-   * 内容：新域已委托给Adobe，我们希望在活动平台中设置它
+   * 内容：已配置新域，我们希望在我们的活动平台中设置它
 
    * 域：XXX
 
