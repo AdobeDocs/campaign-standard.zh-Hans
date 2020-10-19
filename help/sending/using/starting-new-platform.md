@@ -11,10 +11,10 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 如果您仍希望重新指定无效地址，则最好在建立平台信誉并逐位地执行此操作，以便随着时间的推移“稀释”使用不良地址。
 
 总结在启动时应遵循的原则：
-* **将专用子域委派到Adobe** ，该特定于从Adobe发送的电子邮件活动。
+* **配置专用子域** ，以使用特定于从活动发送的电子邮件活动的Adobe。
 * **将无效／非活动地址导入隔离表** （如果您有此信息）。
 * **限制投放吞吐量** (技术设置：限制mtachild的数量)。
 * **逐渐增加发送的卷**:不要从整个开始中目标整个列表库，而是每次发送时都额外添加的一小部分。 这样，您就可以在每一步增加卷，同时降低无效地址的总体速率。
