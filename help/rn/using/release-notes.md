@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
 workflow-type: tm+mt
-source-wordcount: '2387'
-ht-degree: 99%
+source-wordcount: '2412'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 99%
 # 最新版本{#latest-release}
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **新的控制面板10月版** ，包含使用CNAME进行域配置和新的库监视功能。 [了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
