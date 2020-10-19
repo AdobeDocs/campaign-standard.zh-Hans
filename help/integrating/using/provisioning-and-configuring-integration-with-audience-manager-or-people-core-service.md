@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '726'
+ht-degree: 8%
 
 ---
 
@@ -127,7 +127,7 @@ Audience Manager(AAM)或人员核心服务集成允许您导入和导出Adobe Ca
 
 要配置与People Core服务或受众管理器的集成，我们还需要配置活动跟踪服务器。
 
-在此，您需要确保活动跟踪服务器已注册到域(CNAME)。 您可以在本文中找到有关域名委托的更 [多信息](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)。
+在此，您需要确保活动跟踪服务器已注册到域(CNAME)。 您可以在本文中找到有关域名配置的 [更多信息](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)。
 
 ### 第4步：配置访客ID服务 {#step-4--configure-the-visitor-id-service}
 
