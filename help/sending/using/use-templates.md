@@ -11,10 +11,10 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![](assets/template-parameters.png)
 
-地址域必须与您委托给Adobe的子域相同。
+地址域必须与您配置的子域相同。
 
 字段 **[!UICONTROL Reply to]** 与用于回复的电子邮件地址和名称相对应。
 
