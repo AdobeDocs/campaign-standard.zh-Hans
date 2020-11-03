@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ CollectPII调用的频率和设计应根据业务需求而定，不应因为给�
 * Launch &amp;Experience PlatformSDK文档入 [门](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * 升级到Experience PlatformSDK文 [档](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * GithubExperience PlatformSDK文 [档](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## 在创建推送通知投放时，我收到错误“您没有对投放的写入权限”。 {#write-access-error}
+
+您应检查以下内容：
+
+* 移动应用程序应映射到需要创建和发送推送投放的用户的组织单位。 子组织单元的用户无法使用映射到父组织单元的应用程序创建推送投放。
+
+* 创建推送投放的活动或项目应映射到需要创建和发送推送投放的用户的组织单位。 子组织单元的用户不能在映射到父组织单元的活动或项目中创建推送投放。
