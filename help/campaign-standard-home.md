@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览Campaign Standard产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 97%
 
 ## 新增功能
 
-* **[控制组](sending/using/control-group.md)**<br/>通过排除部分控制组受众来衡量活动的影响
+* **[更新的发布计](rn/using/release-planning.md)**<br/>划即将到来的1月发布日期已添加到发布计划
 
-* **[AI 支持的电子邮件](sending/using/predictive.md)**<br/>使用 AI 支持的电子邮件优化设计和交付
+* **[控制组](sending/using/control-group.md)**<br/>
+通过排除部分控制组受众来衡量活动的影响
 
-* **[隐私管理](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)**<br/>
-了解 Adobe Campaign 所提供的用于帮助实现隐私合规性的工具
+* **[AI 支持的电子邮件](sending/using/predictive.md)**<br/>
+使用 AI 支持的电子邮件优化设计和交付
 
-* **[外部 API](automating/using/external-api.md)**<br/>使用外部 API 活动将数据从外部系统引入工作流
+* **[外部 API](automating/using/external-api.md)**<br/>
+使用外部 API 活动将数据从外部系统引入工作流
 
 * **[移动投放入门](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)**<br/>
 了解有关移动投放（短信、推送、应用程序内）的一般指导原则的更多信息
