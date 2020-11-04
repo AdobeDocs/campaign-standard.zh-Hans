@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 3%
 
 ---
 
@@ -61,8 +61,6 @@ ht-degree: 0%
 
 1. 在外部系统中，使用从控制面板下载的公钥加密要导入到Campaign Standard的数据。
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. 在Campaign Standard中，构建一个工作流以导入加密数据，并使用通过控制面板安装的私钥对其进行解密。 为此，我们将按如下方式构建工作流：
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ ht-degree: 0%
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，构建一个工作流以导出数据，并使用通过控制面板安装的私钥将其导出。 为此，我们将按如下方式构建工作流：
+1. 在Campaign Standard中，构建一个工作流以导出数据，并使用通过控制面板安装的私钥对其加密。 为此，我们将按如下方式构建工作流：
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ ht-degree: 0%
    ![](assets/gpg-transfer-encrypt.png)
 
 1. 您现在可以运行工作流。 执行目标后，查询的数据将导出到SFTP服务器中，生成加密的。gpg文件。
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
