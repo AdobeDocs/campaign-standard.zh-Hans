@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览Campaign Standard产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## 新增功能
 
-* **[更新的版本](rn/using/release-planning.md)**<br/>计划即将于2021年2月发布的日期已添加到版本计划中
+* **[更新的版本计划](rn/using/release-planning.md)**<br/> 即将在2021年2月发布日期已添加到版本计划中
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
@@ -33,7 +33,7 @@ ht-degree: 91%
 * **[移动投放入门](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)**<br/>
 了解有关移动投放（短信、推送、应用程序内）的一般指导原则的更多信息
 
-[单击此处以了解更多更新](rn/using/documentation-updates.md)
+[更多更新](rn/using/documentation-updates.md)
 
 ## 热门页面
 
