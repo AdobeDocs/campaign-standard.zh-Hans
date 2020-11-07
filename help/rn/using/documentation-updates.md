@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6220'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 已添加一个部分来描述新过滤器，这些新事件能够根据其状态和到最后一次收到事件时搜索配置。 [阅读更多](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## 文档更新 - 2020 年 9 月{#doc-updates-september-2020}
+## 2020 年 9 月 {#doc-updates-september-2020}
 
 已重组并阐明事件事务性消息部分。[阅读更多](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 已在活动用户档案报告中添加了有关匿名源的信息。[阅读更多](../../audiences/using/active-profiles.md)
 
-## 文档更新 - 2020 年 8 月{#doc-updates-august-2020}
+## 2020 年 8 月 {#doc-updates-august-2020}
 
 提供有关事务性消息传递入门的新更新部分。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 **准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md)
 
-## 文档更新 - 2020 年 7 月{#doc-updates-july-2020}
+## 2020 年 7 月 {#doc-updates-july-2020}
 
 添加了新部分，其中包含与 Campaign Standard 监控相关的准则。[阅读更多](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ Campaign Standard 页面中的“隐私管理”已更新，包括阐明如何�
 
 AI 支持的新电子邮件功能：发送时间优化和用户档案评分。[阅读更多](../../sending/using/predictive.md)
 
-## 文档更新 - 2020 年 6 月 {#doc-updates-june-2020}
+## 2020 年 6 月 {#doc-updates-june-2020}
 
 工作流用例已更新并重新组织为主题部分。[阅读更多](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ AI 支持的新电子邮件功能：发送时间优化和用户档案评分。[�
 
 Campaign Standard - Microsoft Dynamics 365 集成当前不可用。正在开发新的连接器，并将在将来推出。已删除相关帮助页面。[阅读更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## 文档更新 - 2020 年 5 月{#doc-updates-may-2020}
+## 2020 年 5 月 {#doc-updates-may-2020}
 
 Campaign Standard 概述页面进行了扩充，并重组到了专门的主题中。[了解更多](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 添加了有关 Email Designer 的常见问题章节。[了解更多](../../designing/using/faq-email-designer.md)
 
-## 文档更新 - 2020 年 4 月{#doc-updates-april-2020}
+## 2020 年 4 月 {#doc-updates-april-2020}
 
 核心文档中现在提供了关于 Microsoft Dynamics 365 与 Adobe Campaign Standard 集成的文档。[了解更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -166,9 +166,9 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 更新了“事务型消息传递”一节，以反映多个用户界面的轻微更新和改进。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-更新了与 External API 活动防护相关的信息。[了解更多](../../automating/using/external-api.md)
+更新了与 External API 活动防护相关的信息。[阅读更多](../../automating/using/external-api.md)
 
-## 文档更新 - 2020 年 3 月{#doc-updates-march-2020}
+## 2020 年 3 月 {#doc-updates-march-2020}
 
 核心文档中添加了关于 Enhanced MTA 的更多详细信息，特别是关于电子邮件处理规则和退回邮件鉴别的信息。[了解更多](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -214,7 +214,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 更新了“导出日志”一节，以反映投放日志和跟踪日志资源中的投放日志 ID 的可用性，利用该 ID 可导出各个日志的唯一标识符。[了解更多](../../automating/using/exporting-logs.md)
 
-## 文档更新 - 2020 年 1 月{#doc-updates-january-2020}
+## 2020 年 1 月 {#doc-updates-january-2020}
 
 更新了“可投放性”文档，新增了“IP 认证”一节。[了解更多](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 改进了 API 文档的主页，重新指向不同的主题。[了解更多](../../api/using/get-started-apis.md)
 
-## 文档更新 - 2019 年 12 月{#doc-updates-december-2019}
+## 11月- 2019年12月 {#doc-updates-december-2019}
 
 更新了“配置 S3 外部帐户”文档。[了解更多](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 将“可投放性”快速入门指南集成到了核心文档中并进行了更新。[了解更多](../../sending/using/about-deliverability.md)
 
 将有关如何导出/导入自定义资源的快速入门指南集成到了核心文档中。[了解更多](../../automating/using/exporting-importing-custom-resources.md)
-
-## 文档更新 - 2019 年 11 月{#doc-updates-november-2019}
 
 新增了一个使用案例，描述如何使用 Campaign Standard 中的工作流构建对照组。
 
@@ -282,7 +280,7 @@ GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在
 
 API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/creating-a-privacy-request.md)
 
-## 文档更新 - 2019 年 10 月{#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 添加了与 Campaign Standard 设置相关的新章节。[了解更多](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 修改了“事务型消息传递”章节，更新了最新的 UI，包括使用 Email Designer 编辑内容。[了解更多](../../channels/using/event-transactional-messages.md)
 
 重组了登陆页面章节。此外，还增加了一个新章节，详细说明了建立登陆页面的步骤。[了解更多](../../channels/using/getting-started-with-landing-pages.md)
-
-## 文档更新 - 2019 年 9 月{#doc-updates-september-2019}
 
 在“推送通知”章节中新增了一节，介绍如何根据移动应用程序的订阅数据创建和更新用户档案信息。[了解更多](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 重组了 Email Designer 指南。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## 文档更新 - 2019 年 8 月{#doc-updates-august-2019}
+## 2019 年 8 月 {#doc-updates-august-2019}
 
 添加了新章节，介绍了着重于查询的工作流使用案例。[了解更多](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在自定义资源文档中添加了警告。我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
-## 文档更新 - 2019 年 7 月{#doc-updates-2019}
+## 2019年6月至7月 {#doc-updates-2019}
 
 添加了有关登陆页面限制的新页面。[了解更多](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ URL 更改：资源核心服务 - [了解更多](../../integrating/using/working
 URL 更改：People 核心服务 - [了解更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 重组了用户档案和受众指南。[了解更多](../../audiences/using/get-started-profiles-and-audiences.md)
-
