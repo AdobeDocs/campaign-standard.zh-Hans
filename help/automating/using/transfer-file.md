@@ -11,10 +11,10 @@ topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 可将元字符或通配符（例如 * 或 ?）用于筛选文件。
 
 选择是要 **[!UICONTROL Define a file path]** 还是要 **[!UICONTROL Use a dynamic file path]**
-利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
+利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
 
 请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您无法浏览存储空间的上级目录。例如：
 
