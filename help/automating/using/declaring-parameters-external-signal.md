@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '108'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >确保参数的名称和数量与调用工作流时定义的参数相同(请参 [](../../automating/using/defining-parameters-calling-workflow.md)阅)。 此外，参数类型必须与期望值一致。
+   >确保参数的名称和数量与调用工作流时定义的参数相同(请参 [阅此页](../../automating/using/defining-parameters-calling-workflow.md))。 此外，参数类型必须与期望值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
