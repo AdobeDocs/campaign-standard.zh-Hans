@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    * **[!UICONTROL Limit segment population]**：用于限制区段的大小。
    * **[!UICONTROL Filter and limit segment population]**：用于筛选区段群体并限制其大小。
    * **[!UICONTROL Label]**：区段标签。
-   * **[!UICONTROL Segment code]**:分配给区段填充的代码。段代码可以使用标准表达式和事件变量进行个性化(请参 [](../../automating/using/customizing-workflow-external-parameters.md)阅)。
+   * **[!UICONTROL Segment code]**:分配给区段填充的代码。段代码可以使用标准表达式和事件变量进行个性化(请参 [阅此页](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：用于从活动的叫客群体中排除指定的区段。只有选择了 **[!UICONTROL Generate all segments in the same transition]** 选项时，才可使用此选项。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ ht-degree: 0%
       >[!NOTE]
       >
       >可以对每个值使用不同的限制。例如，您可以为 **[!UICONTROL Gender]** 字段指定分组，并将 **[!UICONTROL Male]** 成员的群体限制为 10 人，将 **[!UICONTROL Female]** 成员的群体限制为 30 人。如果您使用多个数据分组字段，则所有分组必须具有相同的大小。
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 确认区段的配置。
