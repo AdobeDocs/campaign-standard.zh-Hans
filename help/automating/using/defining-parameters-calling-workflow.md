@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 在定义参数之前，请确保：
 
-* 参数已在活动中声 **[!UICONTROL External Signal]** 明。 请参见 [](../../automating/using/declaring-parameters-external-signal.md)。
+* 参数已在活动中声 **[!UICONTROL External Signal]** 明。 请参阅[此页](../../automating/using/declaring-parameters-external-signal.md)。
 * 正在运行包含信号活动的工作流。
 
 要配置 **[!UICONTROL End]** 活动，请执行以下步骤：
@@ -33,7 +33,7 @@ ht-degree: 12%
 1. 选择要调用的工作流和外部信号活动。
 1. 单击按 **[!UICONTROL Create element]** 钮以添加参数，然后填写其名称和值。
 
-   * **[!UICONTROL Name]**:在活动中声明的 **[!UICONTROL External signal]** 名称(请参 [](../../automating/using/declaring-parameters-external-signal.md)阅)
+   * **[!UICONTROL Name]**:已在活动中声明的 **[!UICONTROL External signal]** 名称(请 [参阅此页](../../automating/using/declaring-parameters-external-signal.md))。
    * **[!UICONTROL Value]**:要分配给参数的值。 该值应遵循本 **节所述**&#x200B;的标 [准语法](../../automating/using/advanced-expression-editing.md#standard-syntax)。
 
    ![](assets/extsignal_definingparameters_2.png)
