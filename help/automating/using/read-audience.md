@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。
 
-   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
+   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 
