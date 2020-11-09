@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '803'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 触发工作流后，参数将引入事件变量中，并可用于自定义工作流的活动。
 
-例如，它们可以用于定义在受众中读取的活动 **[!UICONTROL Read audience]** ，在活动中传输的文件 **[!UICONTROL Transfer file]** 的名称等。 (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+例如，它们可以用于定义在受众中读取的活动 **[!UICONTROL Read audience]** ，在活动中传输的文件 **[!UICONTROL Transfer file]** 的名称等。 (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## 使用事件变量 {#using-events-variables}
 
@@ -49,13 +49,13 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):编辑组合变量和函数的表达式(请参 [](../../automating/using/advanced-expression-editing.md)阅)。
+* ![](assets/extsignal_expression_editor.png):编辑组合变量和函数的表达式(请 [参阅本页](../../automating/using/advanced-expression-editing.md))。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    此列表提供允许您执行复杂过滤的函数。 本节详细介绍了 [这些功能](../../automating/using/list-of-functions.md)。
 
-   此外，您还可以使用以下函数，这些函数在所有活动中都可用，这些事件变量允许您在调用具有外部参数的工作流后使用变量(请参 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)阅):
+   此外，您还可以使用以下函数，这些函数在所有活动中都可用，允许您在调用具有外部参数的工作流后使用事件变量(请参 [阅本节](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | 名称 | 说明 | 语法 |
    ---------|----------|---------
