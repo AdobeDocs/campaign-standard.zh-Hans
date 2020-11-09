@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign Standard允许您调用包含参数(受众名称要目标、要导入�
 使用参数调用工作流的过程如下：
 
 1. 在活动中声明参 **[!UICONTROL External signal]** 数。 See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
-1. 配置 **[!UICONTROL End]** 活动或API调用以定义参数并触发工作流 **[!UICONTROL External signal]** 活动。 See [](../../automating/using/defining-parameters-calling-workflow.md)
-1. 触发工作流后，参数将被引入工作流的事件变量中，并可在工作流中使用。 请参见 [](../../automating/using/customizing-workflow-external-parameters.md)。
+1. 配置 **[!UICONTROL End]** 活动或API调用以定义参数并触发工作流 **[!UICONTROL External signal]** 活动。 See [this page](../../automating/using/defining-parameters-calling-workflow.md)
+1. 触发工作流后，参数将被引入工作流的事件变量中，并可在工作流中使用。 请参阅[此页](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ![](assets/extsignal_process.png)
