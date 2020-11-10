@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 帮助中心
 breadcrumb-title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [已弃用的功能](rn/using/deprecated-features.md)
 + 快速入门 {#getting-started}
    + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [隐私和同意](start/using/privacy.md)
+   + 隐私 {#privacy}
+      + [隐私和同意](start/using/privacy.md)
+      + [隐私管理](start/using/privacy-management.md)
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面描述](start/using/interface-description.md)
@@ -74,10 +76,10 @@ ht-degree: 98%
       + [消息仪表板](channels/using/message-dashboard.md)
       + [多语言消息模板](channels/using/multilingual-messages-template.md)
    + 投放最佳实践 {#delivery-bestpractices}
-      + [学习最佳实践](sending/using/delivery-best-practices.md)
+      + [学习良好实践](sending/using/delivery-best-practices.md)
       + [优化投放](sending/using/optimize-delivery.md)
       + [使用模板](sending/using/use-templates.md)
-      + [构建个性化内容](sending/using/design-and-personalize.md)
+      + [生成个性化内容](sending/using/design-and-personalize.md)
       + [定义正确的受众](sending/using/define-the-right-audience.md)
       + [发送前检查](sending/using/check-before-sending.md)
       + [跟踪和监视](sending/using/track-and-monitor.md)
