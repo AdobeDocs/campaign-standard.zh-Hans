@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -57,8 +57,11 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 >
 >要执行收录POSTAPI调用，用户必须具有SQL函 **数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 POST操作会返回有关已创建请求状态的信息：
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有关XDM映射请求状态及其相关作业的详细信息，请在Campaign Standard界面中的菜单中查 **[!UICONTROL Status of data export to platform]** 看(请参阅 [映射激活](../../developing/using/aep-mapping-activation.md))。
+>
+>有关XDM映射请求状态及其相关作业的详细信息，请在Campaign Standard界面中的菜单中查 **[!UICONTROL Status of data export to platform]** 看(请参阅 [映射激活](../../developing/using/aep-mapping-activation.md))。
 
 GET操作返回以下信息：
 
