@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign的功能可帮助您遵守以下法规：
 
 * 被遗忘权( **删除请求** )也称为数据擦除，使数据主体能够让数据控制者擦除其个人数据，停止进一步散发数据，并可能让第三方停止处理数据。
 
-要了解如何创建 **Access** 和 **Delete请求以** 及Adobe Campaign如 [何处理请求，请参](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)阅实施步骤。
+要了解如何创建 **Access** 和 **Delete请求以** 及Adobe Campaign如 [何处理请求，请参](../../start/using/privacy-requests.md#about-privacy-requests)阅实施步骤。
 
 Campaign Standard中的隐私管理Tutorials也可在此 [处获得](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy)。
 
@@ -71,7 +71,7 @@ Campaign Standard中的隐私管理Tutorials也可在此 [处获得](https://exp
 
 有关同意管理的更多信息，请 [参阅关于订阅](../../audiences/using/about-subscriptions.md)[和开始使用登陆页](../../channels/using/getting-started-with-landing-pages.md)。
 
-除了Adobe Campaign提供的同意管理工具之外，您还可以跟踪消费者是否已选择出售个人信息。 请参阅[此章节](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa)。
+除了Adobe Campaign提供的同意管理工具之外，您还可以跟踪消费者是否已选择出售个人信息。 请参阅[此章节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 ### 数据保留 {#data-retention}
 
