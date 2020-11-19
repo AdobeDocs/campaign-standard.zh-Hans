@@ -5,7 +5,7 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览Campaign Standard产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: da0763c6b8dcac0d7e1c30decde768fd1da05b55
+source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[更新的版本计划](rn/using/release-planning.md)**<br/> 即将在2021年2月发布日期已添加到版本计划中
+* **[更新的版本计划](rn/using/release-planning.md)**<br/> 2021年2月即将发布的日期已添加到版本计划中
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
