@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于Adobe Campaign Standard的可交付性
 description: 了解与交付能力相关的概念和最佳实践以及Adobe Campaign Standard为优化发送投放提供的工具。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
