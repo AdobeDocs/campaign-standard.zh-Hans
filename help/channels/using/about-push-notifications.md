@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于推送通知
 description: 了解 Adobe Campaign 中推送通知渠道的主要特性。
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1280'
+ht-degree: 50%
 
 ---
 
@@ -156,7 +153,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 哪些报告可用于推送渠道? {#push-report-available}
 
-现成报告以Adobe Campaign形式提供，用于推送渠道。 请参阅此 [文档](../../reporting/using/push-notification-report.md)。
+现成报告以Adobe Campaign形式提供，用于推送渠道。 Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 请参阅 [本页](../../reporting/using/indicator-calculation.md#push-notification-delivery) ，了解如何计算每个推送量度。
 
