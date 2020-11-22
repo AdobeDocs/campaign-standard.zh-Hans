@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 发行说明 2019
 description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7624'
+ht-degree: 8%
 
 ---
 
@@ -307,7 +304,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">操作方法视频</a>。</p></td> 
+   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/control-panel-overview.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
