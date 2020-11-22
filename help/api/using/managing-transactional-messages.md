@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 管理事务型消息
 description: 了解如何使用API管理事务性消息。
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -51,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (请注意，事务性消息API端点在API预览期间也可见)
 
-* **&lt;eventID>**:要发送的事件类型。 此ID是在创建事件定义时生成的。 请参阅 [活动文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+* **&lt;eventID>**:要发送的事件类型。 此ID是在创建事件定义时生成的。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST请求标题
 
@@ -70,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST请求主体
 
-事件数据包含在JSONPOST主体中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供请求示例。 请参阅 [活动文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+事件数据包含在JSONPOST主体中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供请求示例。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 可以将以下可选参数添加到事件内容以管理链接到事件的事务性消息的发送：
 
