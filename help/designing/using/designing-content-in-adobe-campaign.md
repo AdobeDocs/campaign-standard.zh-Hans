@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在 Adobe Campaign 中设计内容
 description: 从头开始创建电子邮件内容，导入 HTML 或利用现有模板。
-page-status-flag: never-activated
-uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 91%
