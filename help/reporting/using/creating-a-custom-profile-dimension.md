@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 创建自定义用户档案维度
 description: 了解如何根据自定义用户档案数据创建自定义用户档案维。
-page-status-flag: never-activated
-uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
