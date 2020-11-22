@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 读取受众
 description: 利用读取受众活动，可检索现有受众，并通过应用附加筛选条件来优化现有受众。
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 87%
