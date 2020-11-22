@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 传输文件
 description: 利用传输文件活动，可接收或发送文件、测试文件是否存在或列出 Adobe Campaign 中的文件。
-page-status-flag: never-activated
-uuid: a2f18118-b681-4310-aee0-9e82179d2032
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 99%
