@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 了解Campaign Standard推送通知有效负荷结构
 description: 此文档用于描述在移动应用中接收的有效负荷的结构。
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1148'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +78,7 @@ Adobe Campaign允许您在iOS和Android移动设备上将个性化和分段的�
     "_mId":"h138a"} 
 ```
 
-**要与iOS APNS测试人员一起使[用的JSON示例有效负荷](https://pushtry.com/)**
+**要与iOS APNS测试人员一起使 [用的JSON示例有效负荷](https://pushtry.com/)**
 
 ```
 {
@@ -155,7 +152,7 @@ Adobe Campaign允许您在iOS和Android移动设备上将个性化和分段的�
 }
 ```
 
-**使用Google FCM测试程序的JSON[样本负载](https://pushtry.com/)**
+**使用Google FCM测试程序的JSON [样本负载](https://pushtry.com/)**
 
 ```
 {
