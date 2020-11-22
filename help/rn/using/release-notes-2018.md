@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 发行说明 2018
 description: 本页列出了所有 2018 版的 Adobe Campaign Standard。
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 4%
@@ -233,10 +230,10 @@ ht-degree: 4%
 
 **其他变更**
 
-* 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 请参阅详细 [文档](../../automating/using/read-audience.md)。 (CAMP-23623)
+* 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * 默认共享数据源的标识符现在处于只读模式，不再能更改。 更改此标识符可能会导致与Experience Cloud共享受众时出现一些问题。
 * 从Audience Manager导入受众现在可以处理拆分文件。 以前，只有区段的最后一个文件是由importSharedAudience技术工作流导入的。
-* AWS S3外部帐户现在支持区域和版本4身份验证机制。 请参阅详细 [文档](../../administration/using/external-accounts.md)。
+* AWS S3外部帐户现在支持区域和版本4身份验证机制。 Refer to the [detailed documentation](../../administration/using/external-accounts.md).
 * 现在，资产选择窗口的加载速度应更快，并且允许选择资产，然后退出窗口而不会出现任何问题。
 * 技术工作流的属性和结构现在可由具有管理权限且属于“所有”组织和地理单位的用户修改。
 * 在创建新区段时，分段活动界面中已进行了增强：现在，在添加限制后直接显示限制选项卡。 新区段的名称现已递增（“区段1”、“区段2”等）。
@@ -326,7 +323,7 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
-   <td> 除了开箱即用的字段之外，事务性消息传递现在还允许您使用自定义资源丰富消息的内容。<br /> 例如：<br /> 
+   <td> 除了开箱即用的字段之外，事务性消息传递现在还允许您使用自定义资源丰富消息的内容。<br />例如：<br /> 
     <ul> 
      <li> 利用自定义字段作为协调标准，将事务性消息与用户档案匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据，进一步个性化事务性消息 </li> 
