@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 发送包含扩充字段的电子邮件
 description: 下方的示例展示了如何使用通过加载文件活动，发送使用了（检索自外部文件的）附加数据的电子邮件。
-page-status-flag: never-activated
-uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '351'
+ht-degree: 75%
 
 ---
 
