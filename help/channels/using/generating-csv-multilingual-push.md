@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 为多语言推送通知生成CSV文件并提供Campaign Standard
 description: 上传CSV文件以生成投放内容是支持多语言推送通知的功能。
-page-status-flag: never-activated
-uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
