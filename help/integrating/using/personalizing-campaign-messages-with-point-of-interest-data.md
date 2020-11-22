@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用兴趣点数据个性化 Campaign 消息
 description: 了解如何通过兴趣点数据集成根据用户位置创建个性化消息。
-page-status-flag: never-activated
-uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
