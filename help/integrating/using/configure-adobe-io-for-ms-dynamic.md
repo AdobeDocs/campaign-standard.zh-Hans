@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 为 Microsoft Dynamics 365 集成配置 Adobe IO
 description: 了解如何为Microsoft Dynamics 365集成配置AdobeIO。
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -66,7 +63,7 @@ Adobe Campaign Standard-本页介绍了Microsoft Dynamics 365 [集成](../../int
 
    ![](assets/adobeIO5.png)
 
-1. 在下一个屏幕上，您将选择要与此项目关联的产品用户档案。 选择标题中包含的产品用户档案:活动实例的租户ID - [!UICONTROL Administrators]
+1. 在下一个屏幕上，您将选择要与此项目关联的产品用户档案。 选择解决方案中包含的产品用户档案:活动标准产品：campaigntitle:活动实例的租户ID - [!UICONTROL Administrators]
 
    示例：Campaign Standard-您的活动租户ID —— 管理员
 
