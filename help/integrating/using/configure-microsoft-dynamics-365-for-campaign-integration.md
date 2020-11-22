@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 为 Campaign 集成配置 Microsoft Dynamics 365
 description: 了解如何配置Microsoft Dynamics 365以实现活动集成。
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
