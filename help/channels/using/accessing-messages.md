@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 访问消息
 description: “了解如何访问消息及其高级功能：创建、定位、个性化、执行和报告。”
-page-status-flag: never-activated
-uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
