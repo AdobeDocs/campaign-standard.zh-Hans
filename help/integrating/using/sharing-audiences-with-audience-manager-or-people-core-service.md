@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用 Audience Manager 或 People 核心服务共享受众
 description: 了解如何在不同的Adobe Experience Cloud解决方案中导入或导出受众。
-page-status-flag: never-activated
-uuid: a3701e72-5846-4241-afee-d713b499a27a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 2%
 
 ---
 
