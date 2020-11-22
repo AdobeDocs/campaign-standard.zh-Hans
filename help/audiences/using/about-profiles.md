@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于用户档案
 description: 联系人作为用户档案存储在 Campaign 数据库中，并在其整个生命周期内不断更新。
-page-status-flag: never-activated
-uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
