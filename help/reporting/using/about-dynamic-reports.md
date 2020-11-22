@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 动态报告快速入门
 description: 通过动态报表，将变量和维度拖放到自由形式环境中，并分析活动的成功。
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '791'
+ht-degree: 5%
 
 ---
 
@@ -73,7 +70,7 @@ ht-degree: 0%
 | 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和亚太地区（亚太地区） | **功能可用**。 <br> 除ExternalID外，没有将现成的和自定义的用户档案信息推送到美国报告中心。 | **功能可用**。 <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到美国数据中心。 <br>除Adobe Campaign StandardID外，所有在美国数据中心处理的事件字段。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的和自定义的用户档案信息被推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到EMEA数据中心。 <br>除Adobe Campaign StandardID外，所有在EMEA数据中心处理的事件字段。  <br>**[!UICONTROL Control data]**它包含AdobeI/O注册数据以及在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本[页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的和自定义的用户档案信息被推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到EMEA数据中心。 <br>除Adobe Campaign StandardID外，所有在EMEA数据中心处理的事件字段。  <br>**[!UICONTROL Control data]**它包含AdobeI/O注册数据以及在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
 
 此选项不是最终选项，您始终可以通过选择> **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** > **[!UICONTROL Administration]** 来更 **[!UICONTROL Application Settings]** 改它 **[!UICONTROL Options]**。
 
