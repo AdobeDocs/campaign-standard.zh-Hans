@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 工作流界面
 description: 了解用于创建、编辑和执行工作流的界面和选项。
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 4%
 
 ---
 
@@ -122,7 +119,7 @@ ht-degree: 0%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理选择。 此按钮仅对调度程序和<span class="uicontrol">等待</span><span class="uicontrol">活动</span>可用。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理选择。 此按钮仅对调度程序和 <span class="uicontrol">等待</span><span class="uicontrol">活动</span> 可用。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>删除选定的活动。
 
