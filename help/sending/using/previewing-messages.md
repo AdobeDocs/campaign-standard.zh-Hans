@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 预览消息
 description: 了解如何在内容编辑器或电子邮件设计器中预览邮件。
-page-status-flag: never-activated
-uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 15%
 
 ---
 
