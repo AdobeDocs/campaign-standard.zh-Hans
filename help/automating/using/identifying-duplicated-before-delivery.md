@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在投放之前标识重复项
 description: 下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一用户档案发送多次通信。
-page-status-flag: never-activated
-uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 78%
