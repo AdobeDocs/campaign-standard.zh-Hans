@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于 Adobe Experience Cloud 触发器
 description: 现在您可通过使用 Adobe Analytics 跟踪客户的特定行为，从而在 Adobe Campaign 中向客户发送个性化电子邮件。
-page-status-flag: never-activated
-uuid: 0aa4bd6e-1bb5-4d0b-913b-eca93f050acd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '475'
+ht-degree: 100%
 
 ---
 
