@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 跟踪消息
 description: 了解如何跟踪投放收件人的行为。
-page-status-flag: never-activated
-uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 17%
 
 ---
 
 
 # 跟踪消息{#tracking-messages}
 
-## About tracking {#about-tracking}
+## 关于跟踪 {#about-tracking}
 
 凭借其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
