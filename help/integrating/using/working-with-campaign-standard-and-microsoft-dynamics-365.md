@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Microsoft Dynamics 365 集成快速入门
 description: 了解如何开始使用Microsoft Dynamics 365集成
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 10%
