@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 定义报告周期
 description: 报表的时间段允许您根据所选日期筛选数据。
-page-status-flag: never-activated
-uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
