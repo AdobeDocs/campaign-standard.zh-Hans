@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: '在 Experience Manager 中创建 Campaign 表单 '
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建表单以创建和更新用户档案或管理订阅。
-page-status-flag: never-activated
-uuid: 43057f81-d47d-4b96-b150-217c289cd608
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 12%
 
 ---
 
