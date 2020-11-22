@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign 中的目标映射
 description: 目标映射是活动为传递消息而使用的技术对象。 它们包含发送投放所需的所有技术设置。
-page-status-flag: never-activated
-uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 16%
