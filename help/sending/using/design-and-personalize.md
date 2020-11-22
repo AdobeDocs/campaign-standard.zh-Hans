@@ -1,25 +1,21 @@
 ---
-title: 构建个性化内容
-seo-title: 构建个性化内容
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: 生成个性化内容
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 7%
 
 ---
 
 
-# 构建个性化内容 {#build-personalized-content}
+# 生成个性化内容 {#build-personalized-content}
 
 在设计消息内容时，请尝试避免可能妨碍您执行投放的常见问题。 大多数时候，可能的错误都与个性化 [、使用现](../../designing/using/personalization.md)有内容时的格 [式设置](../../designing/using/using-existing-content.md) (以及转 [换HTML内容)和图](../../designing/using/using-existing-content.md#converting-an-html-content) 像相 [](../../designing/using/images.md)相关。
 
