@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 无法投放项和退回
 description: '通过非交付项和现成报告，了解您的投放可能遇到的错误。 '
-page-status-flag: never-activated
-uuid: b70ae9ec-b659-42bf-b663-73615307005b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
