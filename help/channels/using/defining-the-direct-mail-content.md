@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 定义直邮内容
 description: 了解如何定义直邮投放的内容。
-page-status-flag: never-activated
-uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '337'
+ht-degree: 100%
 
 ---
 
