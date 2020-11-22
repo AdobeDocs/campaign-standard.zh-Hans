@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 保存受众
 description: 利用保存受众活动，可使用工作流上游计算的群体更新现有受众或创建新受众。
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
-
    在更新期间保存或可用的受众类型，取决于置于工作流上游的活动。
 
    如果保存时定向维度未知（例如，如果受众来自导入的文件），则创建或更新的受众将采用 **[!UICONTROL File]** 类型。
