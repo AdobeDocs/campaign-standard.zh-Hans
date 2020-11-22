@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用 Campaign 和 Assets 核心服务
 description: 由于集成了Assets核心服务，您可以在Adobe Experience Cloud消息和登陆页中使用在Assets内共享的任何资源。
-page-status-flag: never-activated
-uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 10%
 
 ---
 
