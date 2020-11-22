@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于模板
 description: “利用 Adobe Campaign 模板，可根据需要预配置参数：模板可以包含营销活动的完整或部分配置，以简化非技术最终用户使用 Adobe Campaign 的操作。”
-page-status-flag: never-activated
-uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
