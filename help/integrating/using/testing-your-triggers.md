@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 测试触发器
 description: null
-page-status-flag: never-activated
-uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 2%
 
 ---
 
@@ -32,12 +29,12 @@ ht-degree: 0%
 
 **尝试创建触发器**
 
-按照活动中创 [建映射触发器中所述的步骤](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) ，创建触发器。
+按照活动中创建 [映射触发器中所述的步骤](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) ，创建触发器。
 
 如果已创建触发器，请继续执行下一步。 否则，表示触发器端点连接失败。 检查触发器是否以Experience Cloud(激活服务)提供。 否则，请与Adobe客户经理或专业服务合作伙伴联系。 需要以下信息：
 
 * Marketing Cloud公司名称
-* IMS组织ID
+* IMS 组织 ID
 * Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
 **尝试发布触发器**
