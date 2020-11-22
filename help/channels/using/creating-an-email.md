@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 创建电子邮件
 description: 按照以下步骤创建Adobe Campaign的单发电子邮件。
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '549'
+ht-degree: 21%
 
 ---
 
 
 # 创建电子邮件{#creating-an-email}
 
-您可以从活动、 [](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign [主页](../../start/using/interface-description.md#home-page)或营销 [活动列表创](../../start/using/marketing-activities.md#about-marketing-activities)建电子邮件。 您还可以从工作流创建单发送和重复发送的电子邮件。
+You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). 您还可以根据工作流创建单一发送和重复发送的电子邮件。
 
 1. 开始创建电子邮件营销活动后，请选择要使用的模板。
 
