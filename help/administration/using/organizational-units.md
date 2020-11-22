@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 组织单位
 description: 使用组织单位定义用户的访问级别。
-page-status-flag: never-activated
-uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 3%
 
 ---
 
