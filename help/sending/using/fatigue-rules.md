@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 疲劳规则
 description: 创建疲劳规则以管理与用户档案的过度通信。
-page-status-flag: never-activated
-uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2342'
+ht-degree: 100%
 
 ---
 
