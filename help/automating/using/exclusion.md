@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 排除
 description: 利用排除活动，可根据特定条件从一个群体中排除某些元素。
-page-status-flag: never-activated
-uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
 
