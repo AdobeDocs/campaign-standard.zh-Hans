@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 根据年龄组进行细分
 description: 本页根据用户档案库的年龄组显示数据库的细分。 该工作流旨在为每个年龄组发送特定的电子邮件。
-page-status-flag: never-activated
-uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 66%
