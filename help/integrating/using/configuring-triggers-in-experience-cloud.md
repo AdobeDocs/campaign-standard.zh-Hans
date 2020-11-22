@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在 Experience Cloud 中配置触发器
 description: '了解如何配置Adobe Experience Cloud触发器集成，以便开始根据客户先前的行为向客户发送个性化投放。 '
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 7%
 Adobe团队需要以下信息才能激活触发器：
 
 * Marketing Cloud公司名称
-* IMS组织ID
+* IMS 组织 ID
 * Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
 ## 配置解决方案和服务 {#configuring-solutions-and-services}
