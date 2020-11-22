@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 关于应用程序内消息传递
 description: 在具有应用程序内消息传递功能的移动应用程序中，显示消息或警报。
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 29%
@@ -74,7 +71,7 @@ ht-degree: 29%
 
 ### 哪些报告可用于应用程序内渠道? {#report-inapp}
 
-现成报告以Adobe Campaign形式提供，用于应用程序内渠道。 请参阅此 [文档](../../reporting/using/in-app-report.md)。
+现成报告以Adobe Campaign形式提供，用于应用程序内渠道。 Refer to this [documentation](../../reporting/using/in-app-report.md).
 
 请参阅 [本页](../../reporting/using/indicator-calculation.md#in-app-delivery) ，了解如何计算每个应用程序内指标。
 
