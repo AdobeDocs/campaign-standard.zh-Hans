@@ -54,8 +54,7 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 >
 >要执行收录POSTAPI调用，用户必须具有SQL函 **数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
