@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ ht-degree: 100%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在 Campaign Standard 20.4 版本中，HTTP 响应数据大小限制和响应超时护栏已降低，从而符合最佳实践（请参阅“限制和护栏”部分）。这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
-
-如果您是从 Campaign Standard 20.2（或更早版本）升级，请注意，外部 API 功能从 Beta 版移至 Campaign Standard 20.3 版本中的“一般可用性”。
-
-因此，如果您之前使用的是 Beta 版 External API 活动，则需要在所有工作流中用 GA 版 External API 活动进行替换。 从 Campaign Standard 20.3 版本开始，使用 Beta 版外部 API 的工作流将无法工作。
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
 >[!NOTE]
 >
 >您将无法复制特定于活动的标头值，因为这些值在活动中已屏蔽。
-
-接下来，重新配置工作流的其他活动，将指向或使用 Beta 版 External API 活动的数据，替换为指向和/或使用新 External API 活动的数据。活动示例：电子邮件投放（个性化字段）、扩充活动等。
 
 ### 限制和防护{#guardrails}
 
