@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
-source-wordcount: '7624'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -304,7 +304,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/control-panel-overview.html">操作方法视频</a>。</p></td> 
+   <td> <p>为了提高管理员用户的工作效率，您可以轻松监控容量并管理实例的设置（从SFTP服务器管理开始）。</p><p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本地通知<br /> </td> 
