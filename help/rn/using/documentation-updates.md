@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 98%
 ## 2020 年 11 月{#doc-updates-november-2020}
 
 隐私权部分已被移动，并且包含两个新页面： [隐私管理](../../start/using/privacy-management.md) 和 [管理隐私请求](../../start/using/privacy-requests.md)。
+
+在“Adobe Experience Platform数据连接器”部分添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。 [阅读更多](../../developing/using/aep-mapping-activation.md)
+
+“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
+
+新增了一节，其中列出了有关隐私的常见问题解答。 [阅读更多](../../start/using/privacy-faq.md)
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
