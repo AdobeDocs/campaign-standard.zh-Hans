@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 18%
+source-wordcount: '667'
+ht-degree: 17%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p>从活动19.4版本开始，已不再使用活动API和接口访问和删除请求。 删除2步用户档案不可用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隐私核心服务</a>。</p></br>
-   <p>另请参阅 <a href="https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html">管理隐私请求</a>。</p>
+   <p>另请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隐私请求</a>。</p>
   <p> 
   <em>目标移除日期：2021 年</em></p>
    </td> 
