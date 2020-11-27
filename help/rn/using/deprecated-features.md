@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
    <td> <p> 从20.1版本开始，SDK v4已弃用。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解详情</a>。</p><br/>
    <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">移动SDK</a> （以前称为v5）将独家支持即将推出的Adobe Experience Cloud特性和功能。</p></br>
      <p>
-     <em>目标删除日期：2020年9月30日</em></p>
+     <em>目标删除日期：2021年8月31日</em></p>
      </td> 
   </tr> 
  </tbody> 
