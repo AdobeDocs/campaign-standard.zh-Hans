@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 91%
+source-wordcount: '1225'
+ht-degree: 87%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 91%
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 
-电子邮件设计器使您能够通过拖放界面创建引人注目的单独定制电子邮件。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
+电子邮件设计器使您能够通过拖放创建引人注目的单独定制电子邮件
+界面。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
 
 Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能够直接通过用户界面轻松定义可视性条件和动态内容并将其应用于电子邮件、模板或片段。只需单击按钮，即可在拖放界面和 HTML 代码之间无缝切换。
 
 通过 Email Designer，可以创建电子邮件内容和电子邮件内容模板。它与简单电子邮件、事务电子邮件、A/B 测试电子邮件、多语言电子邮件和定期电子邮件兼容。
 
-要开始使用 Email Designer，请观看此[视频集合](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中说明了 Email Designer 的一般功能以及如何从头开始或使用模板来设计电子邮件。
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [在视频中发现电子邮件设计人员](#video)
 
 * 要了解如何创建电子邮件内容，请参阅 [Email Designer 入门](../../designing/using/quick-start.md)。
 * 有关 Email Designer 的概述，请参阅[使用 Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
@@ -117,7 +118,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
    在发送消息之前对其进行预览。Adobe Campaign 提供使用 Litmus 测试电子邮件呈现的方法。有关此方面的更多信息，请参阅[电子邮件呈现](../../sending/using/email-rendering.md)。
 
-以下部分介绍了有关消息的更多设计和一般最佳实践： [投放最佳实践](../../sending/using/delivery-best-practices.md)。
+以下部分介绍了有关消息的更多设计和一般最佳实践：[投放最佳实践](../../sending/using/delivery-best-practices.md)。
 
 ### 更新片段 {#email-designer-updates}
 
@@ -150,7 +151,7 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 * 在编辑样式时，只有大多数电子邮件客户端正式支持的 Web 字体才可用。
 * 无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。有关样式的更多信息，请参阅[此部分](../../designing/using/styles.md)。
 * 推荐人meta标记在电子邮件设计器中不受支持。
-* 替代对（Unicode字符集的基本多语言平面中未包含的字符）不能以2字节（16位）存储，需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中出现一些不兼容问题。 在发送消息之前，您需要执行强测试。
+* 替代对（Unicode字符集的基本多语言平面中未包含的字符）不能以2字节（16位）存储，需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中出现一些不兼容问题。在发送消息之前，您需要执行强测试。
 
 **相关主题**
 
@@ -158,3 +159,11 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 * [设计登陆页面](../../channels/using/designing-a-landing-page.md)
 * [创建短信消息](../../channels/using/creating-an-sms-message.md)
 * [创建和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## 教程视频{#video}
+
+此视频概述了电子邮件设计器。
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+要开始使用电子邮件设计器，请观看这组[视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中介绍了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件
