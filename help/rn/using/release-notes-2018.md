@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5402'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 每个版本都提供新功能和修补程序。 单击某个版本可视图其内容。
 
-视图最新 [的Adobe Campaign Standard](../../rn/using/documentation-updates.md) 文档更新。 如果您正在寻找更新的版本，请查阅本 [页](../../rn/using/release-notes.md)。
+视图Adobe Campaign Standard的最新[文档更新](../../rn/using/documentation-updates.md)。 如果要查找较新的版本，请查阅此[页面](../../rn/using/release-notes.md)。
 
 ## 18.9 版 - 2018 年 9 月{#release-18-9---september-2018}
 
@@ -37,10 +37,10 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 应用程序内消息传递（测试版）<br /> </td> 
-   <td> 应用程序内消息传递允许您通过提供上下文交互和触及已选择退出推送通知的用户，从而更有效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高App用户的转化率和保留率。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-in-app-messaging.md">细文档</a>。<br /> </td> 
+   <td> 应用程序内消息传递允许您通过提供上下文交互和触及已选择退出推送通知的用户，从而更有效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高App用户的转化率和保留率。<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
+   <td> AdobeLaunch集成（测试版）<br /> </td> 
    <td> Adobe启动与Adobe Campaign的集成现在可使用Mobile SDK V5简化和自动化活动中移动应用程序属性激活的过程。<br /> 有关详细信息，请参阅详 <a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ ht-degree: 4%
 * 在广播中，现在区别于每小时的最大连接数和最大消息数。 当达到这些限制时，就可以知道为什么吞吐量受到限制。 以前，同一消息（“配额已满”）适用于两种情况。
 * 在活动中配置移动应用程序时，用户现在可以知道iOS证书和Android服务器密钥是否已成功上传及其过期日期。
 
-   有关详细信息，请参阅有关如何使用SDK V4和SDK V5配置移动 [应用程序](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)[的详细文档](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+   有关详细信息，请参阅有关如何使用[SDK V4](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)和[SDK V5](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)配置移动应用程序的详细文档。
 
 * 在定义目标属性时，通过选择移动应用程序，在特定移动应用程序上活动用户。 此功能适用于推送和应用程序内消息传递渠道。
 
@@ -63,7 +63,7 @@ ht-degree: 4%
 
 * 使用Creative Designer界面选择内容块时，现在加载并显示来自列表的所有内容块。 (CAMP-27311)
 
-   For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
+   有关详细信息，请参阅[详细文档](../../designing/using/personalization.md#adding-a-content-block)。
 
 **修补程序**
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 * 修复了在使用Creative Designer中的查询编辑器界面时显示选择信息不清的问题。
 * 修复了在Creative Designer中使用查询编辑器界面时无法正确复制元素的问题。
 * 修复了一个问题，该问题导致即使收件人已通过自阻止列表动回复取消订阅，仍然会向发送SMS消息。 (CAMP-27128)
-* 修复了阻止显示导致“数据库清理”工作 **流失败的错误** 的问题。 (CAMP-26876)
+* 修复了无法显示导致&#x200B;**数据库清理**&#x200B;工作流失败的错误的问题。 (CAMP-26876)
 * 修复了一个问题，该问题可能会阻止在推送通知定义中删除自定义字段。 (CAMP-25588)
 
 ## 18.7 版 - 2018 年 7 月{#release-18-7---july-2018}
@@ -102,38 +102,38 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> Android推送通知的高优先级标志<br /> </td> 
-   <td> Android的高优先级标志——支持为Android应用程序提供高优先级的推送通知，这会导致休眠设备唤醒并运行一些有限的处理。 请注意，默认优先级为“正常”，这可能会延迟消息投放以节省电池。 <br /> 有关详细信息，请参阅详 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">细文档</a>。<br /> </td> 
+   <td> Android的高优先级标志——支持为Android应用程序提供高优先级的推送通知，这会导致休眠设备唤醒并运行一些有限的处理。 请注意，默认优先级为“正常”，这可能会延迟消息投放以节省电池。 <br /> For more information, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 针对移动应用订阅者的排版学过滤器<br /> </td> 
-   <td> 支持订阅的排版筛选——在为类型规则指定筛选条件时，可以选择应用订阅作为筛选和定位维度，为具有或没有用户档案的用户提供筛选属性的能力。 <br /> 有关详细信息，请参阅详 <a href="../../sending/using/about-typology-rules.md">细文档</a>。<br /> </td> 
+   <td> 移动应用程序订户的类型学过滤器<br /> </td> 
+   <td> 支持订阅的排版筛选——在为类型规则指定筛选条件时，可以选择应用订阅作为筛选和定位维度，为具有或没有用户档案的用户提供筛选属性的能力。 <br /> For more information, refer to the <a href="../../sending/using/about-typology-rules.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 在准备邮件期间从URL自动导入内容<br /> </td> 
+   <td> 在准备消息时从URL自动导入内容<br /> </td> 
    <td> 现在，可以在准备阶段从URL导入电子邮件内容。 对于重复的电子邮件投放，每次准备邮件时都会检索最新的HTML内容，确保该内容在发送电子邮件时始终保持最新。 此功能还允许您创建包含URL内容的预定分发，即使该内容尚未准备就绪。<br /> 有关详细信息，请参阅详 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 活动发布通知消息<br /> </td> 
-   <td> 现在，当用户在实例升级到新版本后登录时，会显示一条弹出消息。 消息指示版本号，并包含指向发行说明的链接。 您可以选择在下一个版本之前隐藏消息。 <br /> </td> 
+   <td> 现在，当用户在实例升级到新版本后登录时，会显示一条弹出消息。 消息指示版本号，并包含指向发行说明的链接。 您可以选择在下一个版本之前隐藏消息。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用户管理<br /> </td> 
-   <td> 从18.7版本开始，新Campaign Standard实例以及没有创建地理单元的现有实例现在都不具备地理单元功能。<br /> 有关详细信息，请参阅本 <a href="https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html">页</a>。<br /> </td> 
+   <td> 从18.7版本开始，新Campaign Standard实例以及没有创建地理单元的现有实例现在都不具备地理单元功能。<br /> 有关详细信息，请参阅本 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">页</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **改进**
 
-* Adobe Campaign与Adobe Target的集成现在允许您利用目标的“权 [限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) ”功能。 在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定目标属性（at_property代码）。
+* Adobe Campaign和Adobe Target集成现在允许您利用目标的[权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 在电子邮件中包含来自Adobe Target的动态图像时，您现在可以指定目标属性（at_property代码）。
 * 具有指向用户档案资源的自定义资源的自定义资源现在由GDPR隐私访问／删除请求考虑。 对于1个基数简单链接和N个基数集合链接，您需要在自定义资源中选择“删除／复制目标记录意味着删除／复制链接引用的记录”。 对于0或1个基数简单链接，选择“删除／复制记录意味着删除／复制链接引用的目标记录”。
 
 **其他变更**
 
 * 报告共享超时时间已从1分钟增加到4分钟，以避免任何超时错误。
 * 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，在保存更改后，您仍可以随时返回默认内容编辑器。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
-* 在Creative Designer中，现在可以将新内容组件添加到电子邮件中：旋转木马。 For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
-* 在事务性消息热点单击报告中，当您单击“更 **改用户档案** ”按钮时，现在仅列出链接到您为事务性消息定义的事件的测试用户档案。
+* 在Creative Designer中，现在可以将新内容组件添加到电子邮件中：旋转木马。 有关详细信息，请参阅[详细文档](../../designing/using/designing-from-scratch.md#about-content-components)。
+* 在事务性消息热点单击报告中，单击&#x200B;**更改用户档案**&#x200B;按钮时，现在只列出链接到您为事务性消息定义的事件的测试用户档案。
 
 **修补程序**
 
@@ -155,36 +155,36 @@ ht-degree: 4%
 
 **改进**
 
-* 该 **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案营销历史相关的信息：触点数、已发送投放、镜像页面URL等。 For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
-* 为了 **[!UICONTROL Database cleanup]** 确保数据库备份的更好性能，技术工作流程已得到优化。
+* **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案营销历史相关的信息：触点数、已发送投放、镜像页面URL等。 有关详细信息，请参阅[专用用例](../../api/using/interacting-with-marketing-history.md)。
+* **[!UICONTROL Database cleanup]**&#x200B;技术工作流程已经过优化，以确保数据库备份的更好性能。
 * 现在还提供法语和德语版的Creative Designer for Email。
 
 **其他变更**
 
-* 已 **[!UICONTROL Compute stats]** 在已发送投放的 **[!UICONTROL Deployment]** 窗口中添加按钮。 它允许您检索最新的KPI，例如，如果发送的结果更新时间过长或未考虑到。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
-* 在开 **箱即用的** “更新”技术工作流中，功能管理员现在可以定义更新规则javascript活动中要忽略的连续错误 **数** 。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
+* 已在已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中添加&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮。 它允许您检索最新的KPI，例如，如果发送的结果更新时间过长或未考虑到。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
+* 在&#x200B;**现成技术工作流程的**&#x200B;更新中，功能管理员现在可以定义&#x200B;**更新规则** javascript活动中要忽略的连续错误数。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 优化了管理单元访问限制条件时生成的SQL。
-* 该 **[!UICONTROL Update]** 活动现在允许您添加、更新或删除与订阅相关的数据（nms:appSubscriptionRcp表）。
-* 为 **[!UICONTROL Update delivery execution]** 了优化性能，将技术工作流分为两个工作流:- **[!UICONTROL Update delivery execution]**:更新投放跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**:更新投放的KPI，默认情况下每小时启动一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* 当投放发送消息时，部分中的状 **[!UICONTROL Deployment]** 态现在可以有两个值： **[!UICONTROL Sending]**:正在发送消息。 **[!UICONTROL Sending (retry)]**:重试通过正在进行。
-* 具有角色 **[!UICONTROL Delivery preparation]** 的用户现在可以发送验证。 (CAMP-24313)
-* 已 **通过SMPP** 路由将“Enable TLS over SMPP **”（启用TLS over SMPP）选** 项添加到SMS外部帐户中。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅相关的数据（nms:appSubscriptionRcp表）。
+* **[!UICONTROL Update delivery execution]**&#x200B;技术工作流已分为两个工作流，以优化性能：- **[!UICONTROL Update delivery execution]**:更新投放跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**:更新投放的KPI，默认情况下每小时启动一次。有关技术工作流的详细信息，请参阅此[部分](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* 当投放发送消息时，**[!UICONTROL Deployment]**&#x200B;部分的状态现在可以有两个值：**[!UICONTROL Sending]**:正在发送消息。 **[!UICONTROL Sending (retry)]**:重试通过正在进行。
+* 具有&#x200B;**[!UICONTROL Delivery preparation]**&#x200B;角色的用户现在可以发送验证。 (CAMP-24313)
+* **通过SMPP**&#x200B;启用TLS选项已通过SMPP **路由添加到** SMS外部帐户。 有关详细信息，请参阅此[部分](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)。
 
 **修补程序**
 
 * 修复了在包含来自Adobe Target的动态图像时，可能无法发送电子邮件的问题(CAMP-24848)。
-* 修复了技术工作流的 **[!UICONTROL Privacy Access/Delete Request]** 问题，如果任何请求失败，该问题将无法完成。
+* 修复了&#x200B;**[!UICONTROL Privacy Access/Delete Request]**&#x200B;技术工作流的问题，如果任何请求失败，则该问题不完成。
 * 修复了隐私核心服务无法接收来自活动的请求状态更新的问题。
-* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]** technical workflow from working properly (CAMP-25465).
+* 修复了可能阻止&#x200B;**[!UICONTROL Import shared audience]**&#x200B;技术工作流正常工作的问题(CAMP-25465)。
 * 修复了阻止活动隐私请求在核心Privacy Service中标记为已完成的问题。
 * 修复了在Adobe ID过长时，某些用户无法通过IMS身份验证登录Campaign Standard的问题。 (CAMP-24095)
 * 修复了Creative Designer中删除内容模块时可能出现的问题。 (CAMP-25242)
 * 修复了对数据库中没有用户档案的订阅者使用推送通知疲劳规则时的问题。 (CAMP-25344)
 * 修复了在访问投放排除日志时可能显示错误消息的问题。 (CAMP-24724)
 * 修复了在具有扩展发送日志的实例中阻止验证准备的问题。
-* 修复了在激活扩展后发布自定义资源时可能发 **[!UICONTROL Sending log]** 生的两个问题。
+* 修复了在激活&#x200B;**[!UICONTROL Sending log]**&#x200B;扩展后发布自定义资源时可能出现的两个问题。
 * 修复了在重复投放中未考虑投放持续时间时可能发生的问题。
-* 修复了对于具有100K以上记录的自定 **[!UICONTROL Client data]** 义资源，在菜单中对数据排序时可能发生的问题。 (CAMP-24308)
+* 修复了在&#x200B;**[!UICONTROL Client data]**&#x200B;菜单中对数据排序时，对于记录超过100K的自定义资源可能出现的问题。 (CAMP-24308)
 * 修复了在动态报表中使用搜索功能时未考虑的自定义用户档案维的问题。
 * 修复了动态报表中帐户级别的国际数据显示问题。
 * 现在，无需订阅或退订确认消息即可创建服务。
@@ -203,7 +203,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服务集成<br /> </td> 
-   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。 <br /> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">细文档</a>。<br /> </td> 
+   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。<br /> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进——详细的投放反馈<br /> </td> 
@@ -214,11 +214,11 @@ ht-degree: 4%
    <td> 投放日志扩展允许您扩展发送日志，其中包含来自工作流的用户档案数据和段代码。 此信息随后可用于动态报表，并允许您在投放发送时保留某些信息的快照。<br /> 还有2个用例：<br /> 
     <ul> 
      <li> 导出包含“冻结”数据的扩展广播：作为营销人员，我希望导出段代码等于“A”(来自工作流引擎)的所有用户档案。 </li> 
-     <li> 对“冻结”数据进行分段：作为营销人员，我希望重 <strong>新定位</strong> 自上次发送以来已赢得1000个忠诚度积分或段代码等于“A”的所有用户档案。 </li> 
+     <li> 对“冻结”数据进行分段：作为营销人员，我希望<strong>重新定位</strong>所有自上次发送以来已赢得1000个忠诚度积分的用户档案，或者段代码等于“A”的。 </li> 
     </ul> 有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic reporting with Custom profile data<br /> </td> 
+   <td> 使用自定义报告数据<br />进行动态用户档案 </td> 
    <td> 此功能允许您根据在用户档案资源扩展期间创建的自定义用户档案数据创建和管理报告。 您可以按用户档案属性(如忠诚度项目、首选渠道等)细分报表。<br /> 有关详细信息，请参阅详 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -230,10 +230,10 @@ ht-degree: 4%
 
 **其他变更**
 
-* 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
+* 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取查询和列表受众。 请参阅[详细文档](../../automating/using/read-audience.md)。 (CAMP-23623)
 * 默认共享数据源的标识符现在处于只读模式，不再能更改。 更改此标识符可能会导致与Experience Cloud共享受众时出现一些问题。
 * 从Audience Manager导入受众现在可以处理拆分文件。 以前，只有区段的最后一个文件是由importSharedAudience技术工作流导入的。
-* AWS S3外部帐户现在支持区域和版本4身份验证机制。 Refer to the [detailed documentation](../../administration/using/external-accounts.md).
+* AWS S3外部帐户现在支持区域和版本4身份验证机制。 请参阅[详细文档](../../administration/using/external-accounts.md)。
 * 现在，资产选择窗口的加载速度应更快，并且允许选择资产，然后退出窗口而不会出现任何问题。
 * 技术工作流的属性和结构现在可由具有管理权限且属于“所有”组织和地理单位的用户修改。
 * 在创建新区段时，分段活动界面中已进行了增强：现在，在添加限制后直接显示限制选项卡。 新区段的名称现已递增（“区段1”、“区段2”等）。
@@ -280,8 +280,8 @@ _工作流_
 _报告_
 
 * KPI共享工作流现在检索过去2个月而不是过去6个月的投放值。 修复了KPI共享外部帐户显示截断日期的问题。
-* 修复了一个问题，该问题可能导致某些邮件在“已发送”、“已 **交付**”和“ **弹回** ”量度 ****&#x200B;中不被考虑。
-* 修复了投放摘要报告中的选定时间范围 **过长时** 发生的错误。
+* 修复了一个问题，该问题可能导致在&#x200B;**已发送**、**已传送**&#x200B;和&#x200B;**弹出**&#x200B;度量中未考虑某些消息。
+* 修复了在&#x200B;**投放摘要报告**&#x200B;中的选定时间范围过长时发生的错误。
 
 _自定义资源_
 
@@ -300,7 +300,7 @@ _自定义资源_
  </thead> 
  <tbody> 
   <tr> 
-   <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
+   <td> 欧盟一般数据保护规定(GDPR)<br /> </td> 
    <td> GDPR是欧洲合并(EU)的新隐私法，它协调将于2018年5月25日生效的数据保护要求并使其现代化。 GDPR 适用于所持有数据的数据主体位于欧盟的 Adobe Campaign 客户。<br /> 除了Adobe Campaign中已具备的隐私权功能（包括同意管理、数据保留设置和用户角色）之外，我们还将作为数据处理者的角色利用这一机会加入其他功能，以帮助您为某些GDPR请求做好数据管理者的准备工作：<br /> 
     <ul> 
      <li> 访问权限：允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
@@ -315,14 +315,14 @@ _自定义资源_
      <li> 创建和保存电子邮件内容模板并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（如页眉、页脚、文章等） 简化内容创建，确保品牌一致性 </li> 
      <li> 在拖放界面中进行创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> Creative Designer for Email只提供英语版。<br /> 有关详细信息，请参阅详 <a href="../../designing/using/designing-content-in-adobe-campaign.md">细文档</a> ，并观看此 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> Creative Designer for Email只提供英语版。<br /> 有关详细信息，请参阅详 <a href="../../designing/using/designing-content-in-adobe-campaign.md">细</a> 文档并观看此 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
-   <td> 电子邮件和SMS渠道中已经存在同一种简单的多语言界面，现已添加到推送渠道中，帮助您吸引客户，无论他们喜欢什么语言。<br /> 此功能为管理跨多个区域的推送活动并希望以自己喜欢的语言目标用户的客户提供了可扩展的自动解决方案。 它允许您通过模板化电子表格将所有语言变体上传到单个推送投放，只需单击一次。 Adobe Campaign根据用户的语言偏好进行自动分段，通过简化工作流和报告来减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
+   <td> 电子邮件和SMS渠道中已经存在同一种简单的多语言界面，现已添加到推送渠道中，帮助您吸引客户，无论他们喜欢什么语言。<br /> 此功能为管理跨多个区域的推送活动并希望以自己喜欢的语言目标用户的客户提供了可扩展的自动解决方案。它允许您通过模板化电子表格将所有语言变体上传到单个推送投放，只需单击一次。 Adobe Campaign根据用户的语言偏好进行自动分段，通过简化工作流和报告来减少冗余。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/creating-a-multilingual-push-notification.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
+   <td> 在事务消息传递中使用自定义资源<br /> </td> 
    <td> 除了开箱即用的字段之外，事务性消息传递现在还允许您使用自定义资源丰富消息的内容。<br />例如：<br /> 
     <ul> 
      <li> 利用自定义字段作为协调标准，将事务性消息与用户档案匹配 </li> 
@@ -342,27 +342,27 @@ _平台_
 _电子邮件、短信和直邮_
 
 * 修复了导致多部分SMS被截断的问题，因为部分大小是以字符而不是字节计算的。
-* Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. 直接从从提供者接收的SR（状态报告）中重新计算它们。
+* 添加了一个选项，允许在发送投放后实时更新&#x200B;**[!UICONTROL Delivered]**&#x200B;或&#x200B;**[!UICONTROL Bounces + Errors]** KPI。 直接从从提供者接收的SR（状态报告）中重新计算它们。
 * 修复了投放调度程序中日历构件的问题。
 * 修复了在已发送目标中再次打开投放时的显示问题。
 * 修复了在创建发送日期延迟的电子邮件模板时，导致请求开始的错误消息的问题。
 * 修复了在编辑投放内容时可能导致图像渲染问题的问题。
 * 修复了复制验证时的活动问题。
 * 修复了在将活动模板添加到工作流后，通过导航栏访问投放时导致错误消息的问题。
-* 修复了一个问题，该问题可能会阻止自动选择A/B测试电子邮件的入选方，导致不发送该电子邮件。 如果投放处于状态，则可能会发生此 **[!UICONTROL retryInProgress]** 行为。
+* 修复了一个问题，该问题可能会阻止自动选择A/B测试电子邮件的入选方，导致不发送该电子邮件。 如果投放处于&#x200B;**[!UICONTROL retryInProgress]**&#x200B;状态，则可能发生此行为。
 * 修复了在重新打开A/B测试电子邮件的参数时，可能导致出现错误消息的问题。
 
 _受众和查询_
 
 * 修复了无法访问数据和为从Adobe Campaign Classic复制到标准版的收件人设置查询的问题。
-* 修复了在使用“计数”或“查询”按钮后在预览编辑器中使用过滤器类型字段 **时** 发生 **的问** 题。
+* 修复了在使用&#x200B;**Count**&#x200B;或&#x200B;**查询**&#x200B;按钮后，在预览编辑器中使用过滤器类型字段时发生的问题。
 
 _工作流_
 
-* 已优 **化付费** 工作流，以改善投放准备延迟。
+* **帐单**&#x200B;工作流已经过优化，可改善投放准备延迟。
 * 修复了在使用循环过渡活动时阻止在出站投放中显示人口数据的问题。
-* 修复了在更新数据过渡后阻止拒绝记录在活动中显 **示的问** 题。
-* 修复了可能导致delivabilityUpdate技术工 **作流失** 败的问题。
+* 修复了在&#x200B;**更新数据**&#x200B;过渡后，阻止在活动中显示拒绝记录的问题。
+* 修复了可能导致&#x200B;**deliverabilityUpdate**&#x200B;技术工作流失败的问题。
 
 _集成_
 
@@ -390,12 +390,12 @@ _事务型消息传递_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
-   <td> 订阅服务 <strong>工作流</strong> 活动现在允许您订阅或取消订阅列表用户档案到多项服务。 在您的工作流中，导入包含用户档案的文件，并针对每个用户档案、操作类型和服务进行导入。 订阅服务 <strong></strong> 活动将能够使用此信息并同时动态处理您的所有用户档案订阅和退订。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
+   <td> 订阅-订阅或取消订阅列表用户档案到多项服务<br /> </td> 
+   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或取消订阅列表用户档案到多项服务。 在您的工作流中，导入包含用户档案的文件，并针对每个用户档案、操作类型和服务进行导入。 <strong>订阅服务</strong>活动将能够使用此信息并同时动态处理所有用户档案订阅和退订。<br /> For more information, refer to the <a href="../../automating/using/subscription-services.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enrichment activity - enrich data based on previous transitions<br /> </td> 
-   <td> 新的 <span class="uicontrol">扩充</span> 工作流活动允许您利用入站过渡并使用其他数据完成输出过渡。 如果您目标用户档案,扩充活动允许您使用未存储在库中的其他数据（例如，来自导入的文件）来丰富用户档案信息。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/enrichment.md">细文档</a>。<br /> </td> 
+   <td> 扩充活动-根据以前的过渡<br />丰富数据 </td> 
+   <td> 新的<span class="uicontrol">扩充</span>工作流活动允许您利用入站过渡并使用其他数据完成输出过渡。 如果您目标用户档案,扩充活动允许您使用未存储在库中的其他数据（例如，来自导入的文件）来丰富用户档案信息。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/enrichment.md">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,13 +405,13 @@ _事务型消息传递_
 _平台_
 
 * Adobe Campaign界面的顶栏已使用新的Experience Cloud菜单进行更新。
-* 修复了阻止链接显示在解 **[!UICONTROL Offers]** 决方案下拉列表中的问题。
+* 修复了阻止指向&#x200B;**[!UICONTROL Offers]**&#x200B;的链接显示在解决方案下拉列表中的问题。
 
 _电子邮件、短信和直邮_
 
 * 投放制备阶段已得到增强以改进性能。
 * 修复了若干问题，这些问题可能导致跟踪日志在某些特殊情况下已损坏。
-* 修复了在准备投放和确认之间更改联系日期时发生的联系日期更新问题。 现在，当您在准备后更改联系日期时，您需要再次准备投放，然后才能确认发送。 请参阅详 [细文档](../../sending/using/preparing-the-send.md)。
+* 修复了在准备投放和确认之间更改联系日期时发生的联系日期更新问题。 现在，当您在准备后更改联系日期时，您需要再次准备投放，然后才能确认发送。 请参阅[详细文档](../../sending/using/preparing-the-send.md)。
 
 _推送通知_
 
@@ -421,19 +421,19 @@ _推送通知_
 _报告_
 
 * 修复了在某些浏览器中显示报表列表为空的错误。
-* 修复了在技术工作流程 **[!UICONTROL Report sharing]** 达到到期限制前发生的错误。
+* 修复了&#x200B;**[!UICONTROL Report sharing]**&#x200B;技术工作流中在达到其到期限制之前发生的错误。
 
 _工作流_
 
 * 修复了在拖放活动后无法访问它们的问题。
-* 修复了在某些情况下可能导致过渡的输 **[!UICONTROL Segmentation]** 出活动顺序更改的问题。
+* 修复了在某些情况下可能导致&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动的输出过渡顺序发生更改的问题。
 * 修复了读取包含受众类型字段且之前已从工作流中保存的明细列表时发生的错误
-* 修复了在定义在工 **[!UICONTROL Request confirmation before sending messages]** 作流中创建的投放的计划属性时，即使取消选中该选项也会导致选项保持选中的问题。
-* 现在，可以通过选项卡中的新选项在重复中禁 **[!UICONTROL Query]** 用自动删除活动行(DISTINCT **[!UICONTROL Additional data]** 子句)。 出于性能原因，在定义许多（超过100个）附加元素时，建议禁用此选项。
+* 修复了在定义在工作流中创建的投放的调度属性时，即使取消选中&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项后，该选项仍会保持选中的问题。
+* 现在，可通过&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡中的新选项在&#x200B;**[!UICONTROL Query]**&#x200B;重复中禁用自动删除活动行（DISTINCT子句）。 出于性能原因，在定义许多（超过100个）附加元素时，建议禁用此选项。
 
 _集成_
 
-* 对配置屏进行了 **[!UICONTROL Data sources]** 一些改进。
+* 对&#x200B;**[!UICONTROL Data sources]**&#x200B;配置屏幕进行了一些改进。
 
 _已知问题_
 
@@ -459,17 +459,17 @@ _已知问题_
   </tr> 
   <tr> 
    <td> 报告共享<br /> </td> 
-   <td> “报告共享”允许您以电子邮件附件的形式与Adobe Campaign用户共享报告，包括自动重复使用。 收到重复报告的用户可以通过电子邮件中的专用链接取消订阅这些通信。<br /> 有关详细信息，请参阅详 <a href="../../reporting/using/reporting-interface.md#share-tab">细文档</a>。<br /> </td> 
+   <td> “报告共享”允许您以电子邮件附件的形式与Adobe Campaign用户共享报告，包括自动重复使用。 收到重复报告的用户可以通过电子邮件中的专用链接取消订阅这些通信。<br /> For more information, refer to the <a href="../../reporting/using/reporting-interface.md#share-tab">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推送消息预览-在iOS和Android设备上，从推送通知内容编辑器中预览推送通知，以准确了解收件人在测试或执行投放之前将看到的内容。<br />有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>。<br /> 可用内容——当应用程序在较长时间内未打开时，其数据可能会过时。 这会导致用户最终打开应用程序时必须更新或替换数据，这可能导致应用程序使用延迟。 借助“可用内容”的新增支持，Adobe Campaign用户可以在发送推送通知时唤醒其应用程序以在后台刷新其数据，从而提高一致性并控制用户的应用程序内体验。<br /> 可变内容——借助可变内容的新增支持，Adobe Campaign用户现在可以利用其移动应用程序扩展进一步修改从Adobe Campaign发送的到达推送通知的内容或演示。 例如，用户可以利用可变内容执行以下操作： <br /> 
+   <td> 推送消息预览-在iOS和Android设备上，从推送通知内容编辑器中预览推送通知，以准确了解收件人在测试或执行投放之前将看到的内容。<br />有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>。<br /> 可用内容——当应用程序在较长时间内未打开时，其数据可能会过时。这会导致用户最终打开应用程序时必须更新或替换数据，这可能导致应用程序使用延迟。 借助“可用内容”的新增支持，Adobe Campaign用户可以在发送推送通知时唤醒其应用程序以在后台刷新其数据，从而提高一致性并控制用户的应用程序内体验。<br /> 可变内容——借助可变内容的新增支持，Adobe Campaign用户现在可以利用其移动应用程序扩展进一步修改从Adobe Campaign发送的到达推送通知的内容或演示。例如，用户可以利用可变内容执行以下操作：<br /> 
     <ul> 
      <li> 解密以加密格式传送的数据 </li> 
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关“可用内容”和“可变内容”的详细信息，请参阅详 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">细文档</a>。<br /> <strong>警告：</strong> 推送通知上的这些更新要求客户升级其移动应用程序。 Refer to <a href="https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+    </ul> 有关“可用内容”和“可变内容”的详细信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>。<br /> <strong>警告：</strong> 推送通知的这些更新要求客户升级其移动应用程序。有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">此技术说明</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化投放<br /> </td> 
@@ -493,8 +493,8 @@ _电子邮件、短信和直邮_
 
 * 修复了在投放内容中插入表情符号时出现的显示问题。
 * 修复了在投放仍在版本中时允许用户访问发送日志的问题。
-* 活动 **[!UICONTROL Scheduler]** 现在允许您根据收件人的时区发送投放。
-* SMS:数据库 **[!UICONTROL Store incoming MO]** 中的选项已添加到外部帐户。 选中后，所有传入的SMS都将存储在 **inSMS表** 中。
+* **[!UICONTROL Scheduler]**&#x200B;活动现在允许您根据收件人的时区发送投放。
+* SMS:数据库中的选项&#x200B;**[!UICONTROL Store incoming MO]**&#x200B;已添加到外部帐户。 选中后，所有传入的SMS都将存储到&#x200B;**inSMS**&#x200B;表中。
 * SMS:服务现在附加到事件而不是事务模板。
 * SMS:默认的SMTP连接超时已减少到30秒。
 
@@ -509,7 +509,7 @@ _报告_
 
 * 修复了显示率超过100%的错误。
 * 修复了用户无法以CSV格式下载报表的问题。
-* 在主页 **[!UICONTROL Report]** 中添加了新项。
+* 在主页中添加了新的&#x200B;**[!UICONTROL Report]**&#x200B;项。
 
 _工作流_
 
@@ -522,5 +522,5 @@ _用户档案和受众_
 * 修复了更改用户档案图片时出现的显示问题。
 * 添加了一个工具提示，在计算查询的填充数后显示确切的结果编号。
 * 修复了可能阻止用户选择受众或关闭受众选取器窗口的问题。
-* 列表编辑器中可用函数的表达式已更新。 已 **删除** FormatCurrency **和ConvertCurrency** 函数。
+* 列表编辑器中可用函数的表达式已更新。 **FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函数已被删除。
 
