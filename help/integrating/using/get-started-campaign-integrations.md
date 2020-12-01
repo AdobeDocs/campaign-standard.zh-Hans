@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 92%
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 允许您在 Adobe Experience Manager 中直接创建映射到 Adobe Campaign 数据库的电子邮件内容或表单。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用活动和Experience Manager</a>, <a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">创建包含Experience Manager和活动的电子邮件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用活动和Experience Manager</a>, <a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">创建包含Experience Manager和活动的电子邮件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic、Standard<br /> </td> 
    <td> 允许在打开由 Adobe Campaign 创建和发送的电子邮件时插入由 Adobe Target 动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a>, <a href="https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html">集成活动和目标</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时视频中个性化电子邮件图像</a> （步骤3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a>, <a href="https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html">集成活动和目标</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">以实时视频形</a> 式个性化电子邮件图像（第3步）
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 92%
    <td> Dreamweaver<br /> </td> 
    <td> 允许从 Dreamweaver 编辑电子邮件内容并将其与 Adobe Campaign 同步。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver视频创建个性化</a> 电子邮件， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用Dreamweaver活动扩展</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver视频创建个</a> 性化电子邮件， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用针对Dreamweaver的活动扩展</a> 
   </td> 
   </tr> 
   <tr> 
