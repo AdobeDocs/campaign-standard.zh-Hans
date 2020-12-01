@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ ht-degree: 100%
 
 ![](assets/workflow_overview.png)
 
-
 ## 创建工作流{#creating-a-workflow}
 
 您可以从项目、营销策划或营销活动列表创建工作流。
+
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中构建工作流](#video)
 
 有关创建营销活动的详情，请参阅[创建营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)一节。
 
@@ -67,14 +68,13 @@ ht-degree: 100%
 
 1. 确认创建活动，随后将显示该活动的仪表板。有关更多信息，请参阅[工作流界面](../../automating/using/workflow-interface.md)一节。
 
-1. 准备好配置工作流后，您可以单击 **[!UICONTROL Edit properties]** 按钮以访问其他选项。例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
+1. 准备好配置工作流后，您可以单击 **[!UICONTROL Edit properties]** 按钮以访问其他选项。
+
+   例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
+
+   有关工作流属性的详细信息，请参阅[此页](../../automating/using/managing-execution-options.md)。
 
    ![](assets/workflow_properties.png)
-
-**相关主题：**
-
-* [创建工作流](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)视频
-* [工作流属性](../../automating/using/managing-execution-options.md)
 
 ## 添加和链接活动{#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ ht-degree: 100%
 1. 定义处理数据所需的所有不同选项。请参阅本文档中关于活动的特定章节，了解每个活动可使用的选项。
 1. 保存活动，并为工作流的每个活动重复这些操作。
 1. 保存工作流。
+
+## 教程视频{#video}
+
+此视频演示如何创建工作流。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
