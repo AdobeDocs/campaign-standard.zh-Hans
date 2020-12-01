@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 创建短信投放与创建常规电子邮件非常相似。以下步骤描述了特定于此渠道的配置。有关其他选项的更多信息，请参阅[创建电子邮件](../../channels/using/creating-an-email.md)。
 
 有关高级短信参数的详情，请参见[短信配置](../../administration/using/configuring-sms-channel.md)一节。
+
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 要创建短信消息并将其发送到手机，您需要：
 
@@ -78,4 +80,11 @@ ht-degree: 100%
 
 * [关于短信和推送内容编辑](../../channels/using/about-sms-and-push-content-design.md)
 * [管理模板](../../start/using/marketing-activity-templates.md)
-* [创建短信投放](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)视频
+
+## 教程视频{#video}
+
+此视频演示如何创建SMS投放。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
