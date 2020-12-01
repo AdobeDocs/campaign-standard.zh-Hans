@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1239'
 ht-degree: 2%
 
 ---
@@ -22,21 +22,21 @@ ht-degree: 2%
 以下是使用电子邮件设计器从头开始创建和设计电子邮件内容的主要步骤：
 
 1. 创建电子邮件并打开其内容。
-1. 添加结构组件以塑造电子邮件。 请参 [阅编辑电子邮件结构](#defining-the-email-structure)。
-1. 在结构组件中插入内容组件和片段。 请参 [阅添加片段和内容组件](#defining-the-email-structure)。
-1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images)。
-1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参 [阅插入个性化字](../../designing/using/personalization.md#inserting-a-personalization-field)段 [、插入链接](../../designing/using/links.md#inserting-a-link) 和在电 [子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 定义电子邮件的主题行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. 添加结构组件以塑造电子邮件。 请参阅[编辑电子邮件结构](#defining-the-email-structure)。
+1. 在结构组件中插入内容组件和片段。 请参阅[添加片段和内容组件](#defining-the-email-structure)。
+1. 添加图像并编辑电子邮件的文本。 请参阅[插入图像](../../designing/using/images.md#inserting-images)。
+1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)、[插入链接](../../designing/using/links.md#inserting-a-link)和[在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+1. 定义电子邮件的主题行。 请参阅[个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
 1. 预览电子邮件.
 1. 保存您的内容，并在确保已定义受众并正确安排发送时间后继续处理您的消息。
 
-您还可以查看此介 [绍视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)。
+您还可以查看此[简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hans)。
 
 >[!NOTE]
 >
->为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。 有关此方面的详细信息，请参 [阅内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+>为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。 有关详细信息，请参阅[内容模板](../../designing/using/using-reusable-content.md#content-templates)。
 
-## 定义电子邮件结构 {#defining-the-email-structure}
+## 定义电子邮件结构{#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -53,7 +53,7 @@ ht-degree: 2%
 要编辑电子邮件的结构，请执行以下操作：
 
 1. 打开现有内容或创建新的电子邮件内容。
-1. 通过 **[!UICONTROL Structure components]** 选择左 **侧的** +图标访问。
+1. 通过选择左侧的&#x200B;**+**&#x200B;图标访问&#x200B;**[!UICONTROL Structure components]**。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 1. 可以使用由一个或多个列组成的多个结构组件。
 
-   选择 **[!UICONTROL n:n column]** 组件以定义所选列数（3到10）。 您还可以通过移动每列底部的箭头来定义每列的宽度。
+   选择&#x200B;**[!UICONTROL n:n column]**&#x200B;组件以定义所选列数（3到10）。 您还可以通过移动每列底部的箭头来定义每列的宽度。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 定义结构后，您便可以向电子邮件中添加内容片段和组件。
 
-## 使用预标题 {#preheader}
+## 使用前标{#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -90,18 +90,17 @@ ht-degree: 2%
 
 前标是简短的摘要文本，在从收件箱中查看电子邮件时，该文本会跟随主题行。 预报器提供更高的打开率。
 
-选择编 **[!UICONTROL Preheader]** 辑框并完成内容。
+选择&#x200B;**[!UICONTROL Preheader]**&#x200B;编辑框并完成内容。
 
 ![](assets/email_designer_preheader.png)
 
-您可以在 **[!UICONTROL Content block]**&#x200B;预标 **[!UICONTROL Dynamic content]** 题内 **[!UICONTROL Personalization fields]** 容中添加、或。
+您可以在前标内容中添加&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
 
 >[!NOTE]
 >
 >请注意，preheader并不与所有电子邮件项目兼容。 不支持时，将不显示Preheader。
 
-
-## 使用内容组件 {#about-content-components}
+## 使用内容组件{#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -116,45 +115,43 @@ ht-degree: 2%
 
 ### **[!UICONTROL Button]**
 
-如果您需要使用多个按钮而不是从头开始编辑每个按钮，则可以使用上下文 **[!UICONTROL Button]** 工具栏重复组件。
+如果您需要使用多个按钮，而不是从头开始编辑每个按钮，则可以使用上下文工具栏重复&#x200B;**[!UICONTROL Button]**&#x200B;组件。
 
-您还可以将按钮保存到可重用的片段中。 有关此方面的详细信息，请 [参阅创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)[和将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+您还可以将按钮保存到可重用的片段中。 有关详细信息，请参阅[创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)和[将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
 
-选择 **[!UICONTROL Fallback view]** 以在电子邮件设计器中显示回退图像。
+选择&#x200B;**[!UICONTROL Fallback view]**&#x200B;以在电子邮件设计器中显示回退图像。
 
 ### **[!UICONTROL Text]**
 
-    使用此组件在电子邮件中插入文本。 您可以在****中调整文本的颜色、样式[!UICONTROL Component Settings]和大小。
+使用此组件在电子邮件中插入文本。 您可以调整&#x200B;**[!UICONTROL Component Settings]**&#x200B;中文本的颜色、样式和大小。
 
 ### **[!UICONTROL Divider]**
 
-    使用此组件在电子邮件中插入分隔线。 您可以在****中选择断线的颜色、样式[!UICONTROL Component Settings]和大小。
+使用此组件在电子邮件中插入分隔线。 可以在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中选择断行的颜色、样式和大小。
 
-### **[!UICONTROL Html]**
+### **[!UICONTROL HTML]**
 
 使用此组件可复制粘贴现有HTML的不同部分。 这使您能够创建免费的模块化HTML组件。
 
 >[!NOTE]
 >
->免费的HTML组件可编辑，但选项有限。 如果未嵌入所有样式，请确保在HTML代码的标题 **部分** 添加正确的CSS，否则电子邮件将不响应。 使用按 **[!UICONTROL Preview]** 钮测试内容的响应度(请参阅预 [览消息](../../sending/using/previewing-messages.md))。
+>免费的HTML组件可编辑，但选项有限。 如果未嵌入所有样式，请确保在HTML代码的&#x200B;**head**&#x200B;部分添加正确的CSS，否则电子邮件将无响应。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按钮测试内容的响应性（请参阅[预览消息](../../sending/using/previewing-messages.md)）。
 
 要使外部内容符合电子邮件设计器的要求，Adobe建议从头开始创建邮件，并将现有电子邮件中的内容复制到片段和组件中。
 
-当您有无法重新创建的内容时，可以使用内容组件从原始电子邮件中复制并粘贴 **[!UICONTROL Html]** HTML代码。 继续操作之前，请确保您熟悉HTML。
-
-<!-- A full example is presented below. -->
+当您有无法重新创建的内容时，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;内容组件从原始电子邮件中复制粘贴HTML代码。 继续操作之前，请确保您熟悉HTML。
 
 >[!NOTE]
 >
 >新内容不会是原始电子邮件的精确副本，但以下步骤将指导您完成尽可能接近的消息创建。
 
-    **复制内容前**
-    
-    1。 在原始电子邮件中，确定将对您发送的每封电子邮件唯一使用的各个部分。
-    1. 保存您要使用的所有图像和资产。
-    1. 如果您熟悉HTML，请将原始HTML内容分成不同部分。
+**复制内容之前**
 
-### 视频 {#video-settings}
+1. 在原始电子邮件中，确定将对您发送的每封电子邮件唯一使用的各个部分。
+1. 保存您要使用的所有图像和资产。
+1. 如果您熟悉HTML，请将原始HTML内容分成不同部分。
+
+### 视频{#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
@@ -162,8 +159,7 @@ ht-degree: 2%
 >abstract="使用此组件在电子邮件中插入视频。 请注意，视频不适用于所有电子邮件客户端。 我们建议设置备用映像。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
-
-将视频组件插入电子邮件的结构组件，并在中输入视频链接 **[!UICONTROL Component Settings]**。
+将视频组件插入电子邮件的结构组件，并在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中输入视频链接。
 
 >[!NOTE]
 >
@@ -177,21 +173,21 @@ ht-degree: 2%
 
 ### **[!UICONTROL Social]**
 
-使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接及其图标的大小 **[!UICONTROL Component Settings]**。
+使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接及其图标在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中的大小。
 
-### 旋转 {#carousel-settings}
+### 传送{#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="传送设置"
 >abstract="了解如何在您的内容中插入和配置传送。请注意，传送不适用于所有电子邮件客户端，并且在不支持时将显示回退图像。"
 
-1. 将组件拖放 **[!UICONTROL Carousel]** 到结构组件中。
+1. 将&#x200B;**[!UICONTROL Carousel]**&#x200B;组件拖放到结构组件中。
 1. 浏览以从您的计算机中选择图像。
 
    ![](assets/des_carousel_browse.png)
 
-1. 在窗 **[!UICONTROL Settings]** 格中，设置要在传送中显示的缩略图数。
+1. 在&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中，设置您希望在传送中显示的缩略图数。
 1. 从您的计算机选择备用图像。
 
    ![](assets/des_carousel_fallback.png)
