@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 **相关主题：**
 
-* [发送测试、准备和发送电子邮件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)视频
+* [发送测试、准备和发送电子邮件](../../sending/using/get-started-sending-messages.md#video)视频
 * [使用目标用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)
 * [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
 * [预览消息](../../sending/using/previewing-messages.md)
