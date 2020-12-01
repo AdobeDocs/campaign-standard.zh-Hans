@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '781'
 ht-degree: 82%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 82%
 
 此外，隔离还可避免向错误的电话号码投放短信，有助于降低短信发送成本。
 
-有关安全防护和优化投放之最佳做法的更多信息，请参阅[此页面](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_DeliveryBestPractices.html)。
+有关安全防护和优化投放之最佳做法的更多信息，请参阅[此页面](../../sending/using/delivery-best-practices.md)。
 
-### 隔离与阻止列表 {#quarantine-vs-denylist}
+### 隔离与阻止列表{#quarantine-vs-denylist}
 
 **隔离**&#x200B;仅适用于地址，而不适用于用户档案本身。这意味着，如果两个用户档案具有相同的电子邮件地址，那么隔离该地址会同时影响这两个用户档案。
 
 同样，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后即可再次被投放操作定向。
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 有关流程阻止列表的详细信息，请 [参阅关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 有关过阻止列表程的详细信息，请参阅[关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!NOTE]
 >
@@ -86,8 +86,7 @@ Adobe Campaign 可根据投放失败类型和在错误消息鉴别过程中分�
 如果某个用户将电子邮件标记为垃圾邮件（**反馈机制**），则该邮件会自动重定向到由 Campaign 管理的技术邮箱。随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL On denylist]** 状态。此状态只指地址，用户档案不在阻止列表程序上，因此用户继续接收SMS消息和推送通知。
 
 >[!NOTE]
->
->Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
+Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
 
 隔离地址列表（请参阅[确定整个平台的隔离地址](#identifying-quarantined-addresses-for-the-entire-platform)）中的&#x200B;**[!UICONTROL Error reason]** 字段，说明了将选定地址置于隔离状态的原因。
 
