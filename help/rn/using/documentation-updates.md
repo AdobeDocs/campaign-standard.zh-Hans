@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
+## 2020 年 12 月 {#doc-updates-december-2020}
+
+“隐私”部分已被移动。 [阅读更多](../../start/using/privacy.md)
+
 ## 2020 年 11 月{#doc-updates-november-2020}
-
-隐私权部分已被移动，并且包含两个新页面： [隐私管理](../../start/using/privacy-management.md) 和 [管理隐私请求](../../start/using/privacy-requests.md)。
-
-在“Adobe Experience Platform数据连接器”部分添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。 [阅读更多](../../developing/using/aep-mapping-activation.md)
 
 “个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
 
 新增了一节，其中列出了有关隐私的常见问题解答。 [阅读更多](../../start/using/privacy-faq.md)
+
+隐私权部分已被移动，并且包含两个新页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
+
+在“Adobe Experience Platform数据连接器”部分添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。 [阅读更多](../../developing/using/aep-mapping-activation.md)
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 更新并修正了 Adobe Campaign Standard/Adobe Experience Manager 集成文档。[了解更多](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
+活动电子邮件设计器文档和相关页面已更新以反映[!DNL Adobe Creative SDK]折旧。 [了解更多](../../rn/using/deprecated-features.md)
 
 新增了专门介绍 Campaign Standard 数据模型最佳做法的新章节。[了解更多](../../developing/using/data-model-best-practices.md)
 
@@ -235,7 +239,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 改进了 API 文档的主页，重新指向不同的主题。[了解更多](../../api/using/get-started-apis.md)
 
-## 11月- 2019年12月 {#doc-updates-december-2019}
+## 11月- 2019年12月{#doc-updates-december-2019}
 
 更新了“配置 S3 外部帐户”文档。[了解更多](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -287,7 +291,7 @@ GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在
 
 API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## 9月- 2019年10月{#doc-updates-october-2019}
 
 添加了与 Campaign Standard 设置相关的新章节。[了解更多](../../administration/using/about-campaign-standard-settings.md)
 
@@ -359,7 +363,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在自定义资源文档中添加了警告。我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
-## 2019年6月至7月 {#doc-updates-2019}
+## 2019年6月至7月{#doc-updates-2019}
 
 添加了有关登陆页面限制的新页面。[了解更多](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -435,7 +439,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 扩充并重组了《快速入门指南》。[了解更多](../../start/using/about-campaign-standard.md)
 
-更新了“已弃用和已删除的功能”页面。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
+更新了“已弃用和已删除的功能”页面。[了解更多](../../rn/using/deprecated-features.md)
 
 更新并修正了“Dreamweaver 集成”章节。[了解更多](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 添加了关于多语言模板默认语言的信息。[了解更多](../../channels/using/multilingual-messages-template.md)
 
-更新了“用户和安全”指南，以明确从 18.7 版开始，新 Campaign Standard 实例和不包含地理单位的现有实例中，已经弃用了地理单位功能。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)
+更新了“用户和安全”指南，以明确从 18.7 版开始，新 Campaign Standard 实例和不包含地理单位的现有实例中，已经弃用了地理单位功能。[了解更多](../../rn/using/deprecated-features.md)
 
 ## 18.6 版 - 2018 年 6 月{#release-18-6---june-2018}
 
