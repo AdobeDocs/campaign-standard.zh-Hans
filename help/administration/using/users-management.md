@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)。
 
 管理员可以通过管理控制台对用户进行管理。然后，用户将自动与 Adobe Campaign 同步。有关更多信息，请参阅[管理控制台](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
+
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 要在 Adobe Campaign 中查看用户，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Users & Security > Users]**。
 
@@ -59,7 +61,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 >[!CAUTION]
 >
->只有具有角色和 **[!UICONTROL Administration]** 访问所有设备的 **职能管理** 员才能访问发送日志、消息日志、跟踪日志、排除日志、主张日志和订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**所有**&#x200B;设备的访问权限的职能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、命题日志和订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
 功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
@@ -151,3 +153,11 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 1. 单击 **[!UICONTROL Save]**。
 
 现在，您的用户即可以使用 Adobe Campaign Standard。
+
+## 教程视频(#video)
+
+此视频显示如何管理用户访问权限。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
