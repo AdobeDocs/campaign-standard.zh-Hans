@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 99%
 
 在此页中，您可以找到各个步骤的信息以及对专用文档的引用，以便获取更多详细信息。
 
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建登陆页](#video)
+
 **相关主题：**
 
-* [创建登陆页教程视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [创建服务](../../audiences/using/creating-a-service.md)
 * [设置双重选择加入流程](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ ht-degree: 99%
 发布后，您的登陆页面即可供使用。然后，您可以设置不同的机制，以便访问登陆页面从而将新的用户档案加入数据库，或获取关于现有用户档案的其他信息。
 
 有关登录页发布的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
+
+## 教程视频{#video}
+
+此视频演示如何创建和编辑登陆页。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
