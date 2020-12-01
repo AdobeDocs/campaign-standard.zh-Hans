@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '658'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 此过程为客户提供了至少一个版本周期，以在实际移除之前，使其实施适应已弃用功能的新版本或后继版本。
 
 >[!NOTE]
->Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
+>Adobe Campaign Standard版本和新功能列在[发行说明](../../rn/using/release-notes.md)中。
 
 
 ## 已弃用的功能 {#deprecated-features}
@@ -47,7 +47,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从20.1版本开始，SDK v4已弃用。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解详情</a>。</p><br/>
-   <p>Adobe Experience Platform <a href="https://aep-sdks.gitbook.io/docs/">移动SDK</a> （以前称为v5）将独家支持即将推出的Adobe Experience Cloud特性和功能。</p></br>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform移动SDK</a>（以前称为v5）将独家支持即将推出的Adobe Experience Cloud特性和功能。</p></br>
      <p>
      <em>目标删除日期：2021年8月31日</em></p>
      </td> 
@@ -62,8 +62,8 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从活动19.4版本开始，已不再使用活动API和接口访问和删除请求。 删除2步用户档案不可用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隐私核心服务</a>。</p></br>
-   <p>另请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隐私请求</a>。</p>
+   <td> <p>从活动19.4版本开始，已不再使用活动API和接口访问和删除请求。 删除2步用户档案不可用。 使用<a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隐私核心服务</a>。</p></br>
+   <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隐私请求</a>。</p>
   <p> 
   <em>目标移除日期：2021 年</em></p>
    </td> 
@@ -79,10 +79,10 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从活动19.0版本开始，已弃用传统电子邮件编辑器。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">新的电子邮件设计器</a> ，创建和个性化您的电子邮件内容。 </p></br>
-   <p>阅读本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">节</a> ，了解如何调整电子邮件模板以适应新编辑者。</p></br>
+   <td> <p>从活动19.0版本开始，已弃用传统电子邮件编辑器。 使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">活动电子邮件设计器</a>创建和个性化您的电子邮件内容。 </p></br>
+   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本节</a>，了解如何调整电子邮件模板以适应新编辑器。</p></br>
   <p> 
-  <em>目标移除日期：2021 年</em></p>
+  <em>目标删除日期：2021年底</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </tbody> 
 </table>
 
-## Removed Features {#removed-features}
+## 删除的功能{#removed-features}
 
 本节列表已从Campaign Standard中删除的特性和功能。
 
@@ -114,7 +114,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>倾向 <b>得分已从Adobe Experience Cloud</b> “触发器”中取消。 因此，这一选项已从Adobe Campaign Standard删除。 为避免扩充模式中倾向得分的任何过时值，我们建议更新模式以检索最新更改并重新发布现有触发器。 有关详细信息，请参阅 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> 以活动发布触发器 </a>。
+   <td> <p><b>倾向得分</b>已从Adobe Experience Cloud触发器中停用。 因此，这一选项已从Adobe Campaign Standard删除。 为避免扩充模式中倾向得分的任何过时值，我们建议更新模式以检索最新更改并重新发布现有触发器。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">以活动</a>发布触发器。
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign和Adobe Experience Cloud已从2019年春季开始放弃对Microsoft Internet Explorer 11和活动19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">了解详情</a>。</p>
+   <td> <p>Adobe Campaign和Adobe Experience Cloud已从2019年春季开始放弃对Microsoft Internet Explorer 11和活动19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">了解详情</a>。</p>
    </td> 
   </tr> 
  </tbody> 
