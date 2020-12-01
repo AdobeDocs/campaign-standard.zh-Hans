@@ -6,9 +6,9 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览Campaign Standard产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[更新的版本计划](rn/using/release-planning.md)**<br/> 2021年2月即将发布的日期已添加到版本计划中
+* **[更新的发](rn/using/release-planning.md)**<br/> 布计划即将发布的2021年2月发布日期已添加到发布计划
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
@@ -79,5 +79,5 @@ ht-degree: 90%
 | [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [发行计划](rn/using/release-planning.md) | [Campaign 数据模型](developing/using/datamodel-introduction.md) |
-| [已弃用和已删除的功能](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [已弃用和已删除的功能](rn/using/deprecated-features.md)) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard 快速入门](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html) |
