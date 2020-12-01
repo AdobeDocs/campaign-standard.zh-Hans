@@ -291,7 +291,7 @@ ht-degree: 99%
 * 管理员安全组的组织单元不能再更改。
 * 现在创建用户档案时，必须填写 Organizational unit 字段。
 * 现在，仅当删除了事件和与其链接的事务型模板时，才能删除 Experience Cloud 触发器。
-* [!DNL Adobe Creative SDK] 已经退役。现在，Campaign Standard 已将其弃用。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
+* [!DNL Adobe Creative SDK] 已停用。现在，Campaign Standard 已将其弃用。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
 
 
 **修补程序**
