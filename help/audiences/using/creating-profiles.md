@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 >[!NOTE]
 >
 >也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles.md)。
+
+![](assets/do-not-localize/how-to-video.png) [了解如何使用视频中的工作流导入用户档案](#video)
 
 要在 Campaign 中创建或更新用户档案，您可以：
 
@@ -50,7 +52,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系用户档案的渠道。
    * 一旦用户档案取消订阅了某个渠道，则会立即更新 **[!UICONTROL No longer contact]** 类别。
    * **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送[直邮](../../channels/using/about-direct-mail.md)的 **[!UICONTROL Address specified]** 选项。如果未勾选 **[!UICONTROL Address specified]** 选项，则此用户档案将从所有直邮投放中排除。
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
+   * **[!UICONTROL Access authorization]**&#x200B;类别指示用户档案的组织单位为[管理权限](../../administration/using/about-access-management.md)。 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
    * **[!UICONTROL Traceability]** 类别会自动更新与创建或修改用户档案之用户相关的信息。
 
 1. 单击 **[!UICONTROL Create]** 以保存用户档案。
@@ -60,7 +62,10 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 >[!NOTE]
 >首选语言字段用于在发送多语言消息时选择语言。有关多语言消息的更多信息，[请参阅此页面](../../channels/using/creating-a-multilingual-email.md)。
 
-**相关主题：**
+## 教程视频{#video}
 
-* [关于登陆页面](../../channels/using/getting-started-with-landing-pages.md)分步指南
-* [导入用户档案](https://video.tv.adobe.com/v/24993?captions=chi_hans)视频
+此视频演示如何使用工作流导入用户档案。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
