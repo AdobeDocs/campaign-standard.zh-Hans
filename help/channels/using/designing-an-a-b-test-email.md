@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ ht-degree: 100%
    >如果存在关联，则必须手动选择入选变体。您可以通知电子邮件创建者和修改者，已选中或需要选择某个变体。请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 现在，您的电子邮件已经定义并发送。您可以访问其日志和报告来衡量活动是否成功。
-
-**相关主题**：
-
-[创建电子邮件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)视频
 
 ## 关于 A/B 测试指标{#about-a-b-test-indicators}
 
