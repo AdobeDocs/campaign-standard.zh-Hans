@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [已弃用的功能](rn/using/deprecated-features.md)
 + 快速入门 {#getting-started}
    + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + 隐私 {#privacy}
-      + [隐私和同意](start/using/privacy.md)
-      + [隐私管理](start/using/privacy-management.md)
-      + [隐私请求](start/using/privacy-requests.md)
-      + [隐私常见问题解答](start/using/privacy-faq.md)
    + 了解界面 {#discovering-the-interface}
       + [关于界面](start/using/about-the-interface.md)
       + [界面描述](start/using/interface-description.md)
       + [自定义列表](start/using/customizing-lists.md)
+      + [辅助功能](start/using/accessibility.md)
    + 使用营销活动 {#marketing-plans}
       + [项目和营销策划](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
       + [营销活动模板](start/using/marketing-activity-templates.md)
       + [时间线](start/using/timeline.md)
+   + 隐私 {#privacy}
+      + [隐私和同意](start/using/privacy.md)
+      + [隐私管理](start/using/privacy-management.md)
+      + [隐私请求](start/using/privacy-requests.md)
+      + [隐私常见问题解答](start/using/privacy-faq.md)
 + 用户档案和受众 {#profiles-and-audiences}
    + [用户档案和受众快速入门](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
