@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # 创建服务{#creating-a-service}
 
 为了能够管理订阅，您首先需要创建并配置服务。通过配置新服务，可指定用户档案在订阅或取消订阅服务时将会收到的电子邮件确认函。您还可定义链接到服务的订阅和退订登陆页面。例如，插入到电子邮件中的服务订阅链接，可自动将用户档案定向到服务中指定的订阅登陆页面。
+
+![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 要配置服务，请执行以下操作：
 
@@ -55,7 +57,14 @@ ht-degree: 100%
 
 **相关主题：**
 
-* [管理服务和订阅](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)视频
 * [推广服务](../../audiences/using/promoting-a-service.md)
 * [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## 教程视频{#video}
+
+此视频演示如何创建服务并管理其订阅。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
