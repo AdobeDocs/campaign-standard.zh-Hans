@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign 允许您定义和管理分配给不同用户的权限。权限�
 * **组织单位**：利用组织单位可定义平台各种对象（电子邮件、工作流、模板、用户、用户档案等）的权限层次结构。请参阅[组织单位](../../administration/using/organizational-units.md)一节。
 * **角色**：通过一系列统一的权限，可定义分配给用户和用户组的授权。请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
-   将角色与组织单位相结合，可为用户提供一个经过筛选的界面视图，并定义用户对于各种功能的访问权限。有关更多信息，请参阅[授权表](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)。
+   将角色与组织单位相结合，可为用户提供一个经过筛选的界面视图，并定义用户对于各种功能的访问权限。有关更多信息，请参阅[授权表](../../administration/using/list-of-roles.md)。
 
 >[!IMPORTANT]
 >
->请注意，地理单位功能已被弃用。有关更多信息，请参见此[页面](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)。
+>请注意，地理单位功能已被弃用。有关更多信息，请参见此[页面](../../rn/using/deprecated-features.md)。
 
 平台的功能管理员可通过 **[!UICONTROL Administration > Users & Security]** 菜单管理角色、组和组织单位。
 
