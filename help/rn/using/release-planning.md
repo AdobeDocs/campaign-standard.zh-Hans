@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **最新！**&#x200B;请订阅 [Campaign Standard 发行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，以通过电子邮箱接收关于最新版本的详情。
 
-## 版本21.1 - 2月版 {#release-21-1-release}
+## 版本21.1 - 2月版{#release-21-1-release}
 
 在下方指定的时间段内，将不定时进行环境更新。有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)。如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
@@ -54,7 +54,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **问：受影响的范围包括？**
 
-答：[发行说明](../../rn/using/release-notes.md)中列出了更改，包括相关文档的链接。Adobe 还建议查阅[已弃用和已删除的功能页面](https://helpx.adobe.com/cn/campaign/kb/acs-deprecated-and-removed-features.html)。新版本会在 Stage 环境升级的日期提供这些页面。
+答：[发行说明](../../rn/using/release-notes.md)中列出了更改，包括相关文档的链接。Adobe 还建议查阅[已弃用和已删除的功能页面](../../rn/using/deprecated-features.md)。新版本会在 Stage 环境升级的日期提供这些页面。
 
 **问：采用什么验证流程？**
 
