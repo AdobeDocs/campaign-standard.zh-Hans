@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**利用活动消息仪表板** ，从一个位置配置和发送消息，并访问各种功能，如计划、多语言消息……
+**利用活动** 消息仪表板从一个位置配置和发送消息，并访问各种功能，如计划、多语言消息……
 
-**管理模板** ，以配置消息属性，并使您能够获得消息策略的时间和一致性。 例如，对于电子邮件，负责配置模板的功能管理员可以定义电子邮件的标准参数，如受众、计划或内容、与发送、有效性、跟踪等相关的高级参数，或与定位和个性化（定位上下文）相关的预配置参数。
+**管理** 模板以配置消息属性，并使您能够获得消息策略的时间和一致性。例如，对于电子邮件，负责配置模板的功能管理员可以定义电子邮件的标准参数，如受众、计划或内容、与发送、有效性、跟踪等相关的高级参数，或与定位和个性化（定位上下文）相关的预配置参数。
 
 阅读更多:
 
@@ -48,11 +48,11 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**有五种通信渠道** ，分别提供Adobe Campaign:电子邮件、SMS消息、推送通知、应用程序内消息和直接邮件投放。
+**有五个通** 信渠道可用于Adobe Campaign:电子邮件、SMS消息、推送通知、应用程序内消息和直接邮件投放。
 
 对于每个渠道，都提供特定功能。 例如，电子邮件渠道允许您执行A/B测试，以测试电子邮件的3个版本。 利用SMS渠道，管理STOP SMS消息并将传入的SMS从收件人存储到您的数据库中。
 
-此外，利用Campaign Standard **个性化和动态内容功能** ，吸引受众的兴趣。
+此外，利用Campaign Standard **个性化和动态内容功能**&#x200B;来吸引受众的兴趣。
 
 阅读更多:
 
@@ -66,16 +66,17 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**实时向客户发送** 个人和独特的消息：欢迎消息、订单发运确认、密码修改等。
+**实时向您的** 客户发送个人和唯一消息：欢迎消息、订单发运确认、密码修改等。
 
-事务性消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种消息类型： **事件事务性消息** 定位没有用户档案信息的事件, **用户档案事务性消息定** 位来自您的数据库的用户档案。
+事务性消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种消息类型：**事件事务性消息**&#x200B;定位没有用户档案信息的事件，以及&#x200B;**用户档案事务性消息**&#x200B;定位用户档案。
 
 阅读更多:
 
-* [关于交易消息传递](../../channels/using/getting-started-with-transactional-msg.md)
 * [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md)
-* [事件事务型消息](../../channels/using/event-transactional-messages.md)
-* [用户档案事务型消息](../../channels/using/profile-transactional-messages.md)
+* [配置事务事件](../../channels/using/configuring-transactional-event.md)
+* [发布交易事件](../../channels/using/publishing-transactional-event.md)
+* [编辑事务性消息](../../channels/using/editing-transactional-message.md)
+* [发布事务型消息](../../channels/using/publishing-transactional-message.md)
 * [事务型推送通知](../../channels/using/transactional-push-notifications.md)
 * [跟进消息](../../channels/using/follow-up-messages.md)
 
@@ -83,9 +84,9 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-活动附带的登陆页是Web表单，可用 **于捕获受众信息**、优惠订阅服务、显示数据和扩展数据库。
+活动附带的登陆页是Web表单，可用于&#x200B;**捕获受众的信息**、优惠服务订阅、显示数据和扩展数据库。
 
-登陆页还可用于获 **取或更新现有用户档案**，以及设置多次选择加入机制，从而使您能够保护平台免受错误或无效电子邮件地址或垃圾邮件程序的侵害。
+登陆页还可用于&#x200B;**获取或更新现有用户档案**，并设置多次选择加入机制，使您能够保护平台免受错误或无效电子邮件地址或垃圾邮件程序的攻击。
 
 阅读更多:
 
