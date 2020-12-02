@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅[配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md).
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅[取消发布事务事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Publishing]**。
 1. 默认勾选 **[!UICONTROL Determine modifications since the last publication]** 选项，这意味着仅应用自上次更新以来执行的更改。
