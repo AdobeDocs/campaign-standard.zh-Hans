@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 85%
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
-为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关详细信息，请参阅[编辑事务性消息](../../channels/using/editing-transactional-message.md)部分。
+为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关更多信息，请参阅[事务型模板](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)一节。
 
 >[!NOTE]
 >
