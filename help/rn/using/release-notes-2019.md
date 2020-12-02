@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * 通过与Adobe Experience Platform位置服务的集成，Adobe Campaign现在可兼容，通过Experience PlatformSDK向移动应用程序的订户发送基于位置的营销消息。 有关详细信息，请参阅[详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 报告功能已得到改进，以获得更好的体验。 要使用此功能，您需要接受动态报告使用协议。 有关详细信息，请参阅[详细文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
-* 在工作流中，已添加一个新选项来预览下一个十个工作流执行。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 在调度程序活动中，新选项允许您为月度投放选择特定周的特定日期。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 创建没有聚合期的重复投放时，投放仪表板现在允许您在发送投放之前请求确认。 For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 在工作流中，已添加一个新选项来预览下一个十个工作流执行。 有关详细信息，请参阅[详细文档](../../automating/using/scheduler.md)。
+* 在调度程序活动中，新选项允许您为月度投放选择特定周的特定日期。 有关详细信息，请参阅[详细文档](../../automating/using/scheduler.md)。
+* 创建没有聚合期的重复投放时，投放仪表板现在允许您在发送投放之前请求确认。 有关详细信息，请参阅[详细文档](../../sending/using/confirming-the-send.md)。
 * 您现在可以使用已在工作流的外部信号投放中声明的事件变量个性化活动的标签。 有关详细信息，请参阅[详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 * GDPR删除查询已得到改进，以获得更好的性能。 (CAMP-33504)
 * “ftp”选项已从外部帐户配置界面中删除。 (CAMP-34472)
@@ -488,7 +488,7 @@ ht-degree: 8%
 
 **其他变更**
 
-* Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到Microsoft Edge或其他受支持的浏览器。 请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页。
+* Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页。
 * 用户档案资源中的&#x200B;**国家／地区代码**&#x200B;字段已更名为&#x200B;**国家／地区代码**。
 
 **修补程序**
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 交易电子邮件中的产品列表<br /> </td> 
-   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关更多信息，请参阅<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">操作方法视频</a>。</p> </td> 
+   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关更多信息，请参阅<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件设计器中的移动视图<br /> </td> 
