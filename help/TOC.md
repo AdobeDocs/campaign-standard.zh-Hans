@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 99%
 
 ---
 
@@ -119,16 +119,11 @@ ht-degree: 98%
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
    + 事务型消息传递 {#transactional-messaging}
       + [事务性消息传递入门](channels/using/getting-started-with-transactional-msg.md)
-      + [交易消息最佳实践](channels/using/transactional-messaging-limitations.md)
-      + 事件配置{#event-configuration}
-         + [配置事务事件](channels/using/configuring-transactional-event.md)
-         + [发布交易事件](channels/using/publishing-transactional-event.md)
-      + 事务性消息版{#transactional-message-edition}
-         + [编辑事务性消息](channels/using/editing-transactional-message.md)
-         + [发布事务型消息](channels/using/publishing-transactional-message.md)
+      + [事务型消息传递限制](channels/using/transactional-messaging-limitations.md)
+      + [事件事务型消息](channels/using/event-transactional-messages.md)
+      + [用户档案事务型消息](channels/using/profile-transactional-messages.md)
       + [事务型推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
-      + [交易消息使用案例](channels/using/transactional-messaging-use-case.md)
    + 登陆页面 {#landing-pages}
       + [登陆页面快速入门](channels/using/getting-started-with-landing-pages.md)
       + [关于登陆页面模板](channels/using/landing-page-templates.md)
@@ -435,6 +430,7 @@ ht-degree: 98%
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
       + [配置短信渠道](administration/using/configuring-sms-channel.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
+      + [配置事务型消息传递](administration/using/configuring-transactional-messaging.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
       + [添加图像和视频 iOS](administration/using/image-push-notification.md)
