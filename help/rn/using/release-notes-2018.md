@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 4%
@@ -37,11 +37,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 应用程序内消息传递（测试版）<br /> </td> 
-   <td> 应用程序内消息传递允许您通过提供上下文交互和触及已选择退出推送通知的用户，从而更有效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高App用户的转化率和保留率。<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> 应用程序内消息传递允许您通过提供上下文交互和触及已选择退出推送通知的用户，从而更有效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高App用户的转化率和保留率。<br /> 有关详细信息，请参阅详 <a href="../../channels/using/about-in-app-messaging.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> AdobeLaunch集成（测试版）<br /> </td> 
-   <td> Adobe启动与Adobe Campaign的集成现在可使用Mobile SDK V5简化和自动化活动中移动应用程序属性激活的过程。<br /> 有关详细信息，请参阅详 <a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">细文档</a>。<br /> </td> 
+   <td> Adobe启动与Adobe Campaign的集成现在可使用Mobile SDK V5简化和自动化活动中移动应用程序属性激活的过程。<br /> 有关详细信息，请参阅详 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,11 +102,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> Android推送通知的高优先级标志<br /> </td> 
-   <td> Android的高优先级标志——支持为Android应用程序提供高优先级的推送通知，这会导致休眠设备唤醒并运行一些有限的处理。 请注意，默认优先级为“正常”，这可能会延迟消息投放以节省电池。 <br /> For more information, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detailed documentation</a>.<br /> </td> 
+   <td> Android的高优先级标志——支持为Android应用程序提供高优先级的推送通知，这会导致休眠设备唤醒并运行一些有限的处理。 请注意，默认优先级为“正常”，这可能会延迟消息投放以节省电池。 <br /> 有关详细信息，请参阅详 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 移动应用程序订户的类型学过滤器<br /> </td> 
-   <td> 支持订阅的排版筛选——在为类型规则指定筛选条件时，可以选择应用订阅作为筛选和定位维度，为具有或没有用户档案的用户提供筛选属性的能力。 <br /> For more information, refer to the <a href="../../sending/using/about-typology-rules.md">detailed documentation</a>.<br /> </td> 
+   <td> 支持订阅的排版筛选——在为类型规则指定筛选条件时，可以选择应用订阅作为筛选和定位维度，为具有或没有用户档案的用户提供筛选属性的能力。 <br /> 有关详细信息，请参阅详 <a href="../../sending/using/about-typology-rules.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 在准备消息时从URL自动导入内容<br /> </td> 
@@ -131,7 +131,7 @@ ht-degree: 4%
 **其他变更**
 
 * 报告共享超时时间已从1分钟增加到4分钟，以避免任何超时错误。
-* 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，在保存更改后，您仍可以随时返回默认内容编辑器。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* 编辑电子邮件内容时，默认情况下会打开新的Creative Designer。 如果需要，在保存更改后，您仍可以随时返回默认内容编辑器。 有关详细信息，请参阅[详细文档](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 在Creative Designer中，现在可以将新内容组件添加到电子邮件中：旋转木马。 有关详细信息，请参阅[详细文档](../../designing/using/designing-from-scratch.md#about-content-components)。
 * 在事务性消息热点单击报告中，单击&#x200B;**更改用户档案**&#x200B;按钮时，现在只列出链接到您为事务性消息定义的事件的测试用户档案。
 
@@ -203,7 +203,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服务集成<br /> </td> 
-   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。<br /> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
+   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。<br /> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进——详细的投放反馈<br /> </td> 
@@ -305,7 +305,7 @@ _自定义资源_
     <ul> 
      <li> 访问权限：允许数据主体接收由数据管理者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：数据主体有权擦除其由数据管理者捕获的个人数据，可能包括以Adobe Campaign存储的数据。 </li> 
-    </ul> 有关详细信息，请参阅<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">详细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email（测试版）<br /> </td> 
@@ -327,7 +327,7 @@ _自定义资源_
     <ul> 
      <li> 利用自定义字段作为协调标准，将事务性消息与用户档案匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据，进一步个性化事务性消息 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../administration/using/configuring-transactional-messaging.md">详细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -391,7 +391,7 @@ _事务型消息传递_
  <tbody> 
   <tr> 
    <td> 订阅-订阅或取消订阅列表用户档案到多项服务<br /> </td> 
-   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或取消订阅列表用户档案到多项服务。 在您的工作流中，导入包含用户档案的文件，并针对每个用户档案、操作类型和服务进行导入。 <strong>订阅服务</strong>活动将能够使用此信息并同时动态处理所有用户档案订阅和退订。<br /> For more information, refer to the <a href="../../automating/using/subscription-services.md">detailed documentation</a>.<br /> </td> 
+   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或取消订阅列表用户档案到多项服务。 在您的工作流中，导入包含用户档案的文件，并针对每个用户档案、操作类型和服务进行导入。 <strong>订阅服务</strong>活动将能够使用此信息并同时动态处理所有用户档案订阅和退订。<br /> 有关详细信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 扩充活动-根据以前的过渡<br />丰富数据 </td> 
@@ -459,7 +459,7 @@ _已知问题_
   </tr> 
   <tr> 
    <td> 报告共享<br /> </td> 
-   <td> “报告共享”允许您以电子邮件附件的形式与Adobe Campaign用户共享报告，包括自动重复使用。 收到重复报告的用户可以通过电子邮件中的专用链接取消订阅这些通信。<br /> For more information, refer to the <a href="../../reporting/using/reporting-interface.md#share-tab">detailed documentation</a>.<br /> </td> 
+   <td> “报告共享”允许您以电子邮件附件的形式与Adobe Campaign用户共享报告，包括自动重复使用。 收到重复报告的用户可以通过电子邮件中的专用链接取消订阅这些通信。<br /> 有关详细信息，请参阅详 <a href="../../reporting/using/reporting-interface.md#share-tab">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
