@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板10月版** ，包含使用CNAME进行域配置和新的库监视功能。 [了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 <tr> 
   <td> <p>您现在可以使用<strong>控制组</strong>通过排除活动的一部分受众来衡量其影响。然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
 </p>
-<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">教程视频</a>。
+<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hans#communication-channels">教程视频</a>。
 </p>
 </td> 
 </tr> 
@@ -112,7 +112,7 @@ ht-degree: 98%
 * 现在，发布自定义资源时，准备后将显示确认弹出窗口。
 * 自定义资源失败时显示的弹出消息已得到改进，从而提高清晰度。
 * 工作流中的表达式编辑器已得到改进，以防止执行错误。提供[新函数](../../automating/using/customizing-workflow-external-parameters.md)：可在所有活动中使用这些函数，从而能够在使用外部参数调用工作流后使用事件变量。此外，现在带有函数说明的表达式编辑器中会显示工具提示。
-* [已向事务事件列表中添加了新筛选器。](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
+* [已向事务事件列表中添加了新筛选器。](../../channels/using/configuring-transactional-event.md#searching-transactional-events)它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
 * 导出包时显示的日志更加具体，并详细说明在失败情况下遇到的错误。
 * 发送消息后，现在可以搜索、筛选和导出[跟踪的 URL](../../sending/using/tracking-messages.md) 的列表。
 * [Launch 和 Campaign 之间的自动同步](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)现在为 GA，默认情况下处于启用状态。
@@ -129,7 +129,7 @@ ht-degree: 98%
 **修补程序**
 
 * 修复了在启用跟踪时，阻止使用推送通知或应用程序内消息传递的目标链接的问题。
-* 修复了在大量投放时，事务性消息中的高优先级不受尊重的问题。
+* 修复了在批量投放时未遵循事务性消息中的高优先级的问题。
 * 修复了阻止将品牌分配给事务电子邮件的问题。在发布步骤期间可能显示若干错误消息。(CAMP-44988)
 * 修复了工作流用户界面中可能会阻止信息保存在请求数值的字段中的问题。(CAMP-44025)
 * 修复了在导入模板工作流中使用&#x200B;**测试**&#x200B;活动时可能显示错误消息的问题。(CAMP-42910)
