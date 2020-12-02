@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 4%
@@ -327,7 +327,7 @@ _自定义资源_
     <ul> 
      <li> 利用自定义字段作为协调标准，将事务性消息与用户档案匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据，进一步个性化事务性消息 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../administration/using/configuring-transactional-messaging.md">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
