@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2019.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 20.3 版 - 2020 年 5 月{#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+>新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改进**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 修复了在 **Alias** 字段中添加空格（这会创建新的行项）时，可能出现的&#x200B;**扩充**&#x200B;工作流活动问题。(CAMP-39229)
 * 修复了在发送校样消息时，可能会定向所有测试用户档案的问题。
-* 修复了取消发布和删除事件配置后发生的问题。[了解更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 修复了取消发布和删除事件配置后发生的问题。[了解更多](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 修复了在对工作流进行更改后，**保存**&#x200B;按钮消失的问题。
 * 修复了在 Campaign 中进行隐私请求处理后手动删除改请求时的问题，该问题会阻止删除与请求关联的数据，即使在清除后也无法删除。
 * 修复了在预览或发送包含 Adobe Experience Manager 特殊字符的消息时可能发生的问题。
