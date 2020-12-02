@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Adobe Campaign Standard与Dreamweaver的集成使您能够在Dreamweaver界面�
 >title="使用产品列表"
 >abstract="产品列表允许您引用数据收集并在电子邮件内容中显示它。"
 
-产品列表允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于交易电子邮件。 此功能的专用部分[此处](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)可用。
+产品列表允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于交易电子邮件。 此功能的专用部分[此处](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)可用。
 
 ## 电子邮件设计选项比较{#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign优惠多个电子邮件创作选项。 下表显示了其中每�
    <td> <strong>了解更多信息</strong><br /> </td> 
    <td> 请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">关于电子邮件设计器</a>。<br /> </td> 
    <td> 请参阅<a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a>。<br /> </td> 
-   <td> 请参阅<a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和活动</a>并观看此<a href="#video">视频</a>。<br /> </td> 
+   <td> 请参阅<a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和活动</a>并观看此<a href="#video">视频</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
