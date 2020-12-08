@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '942'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +24,18 @@ ht-degree: 97%
 
 用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。
 
-有关角色的更多信息，可参见下方页面中的表格，其中显示了基于用户角色可执行的不同操作：[Adobe Campaign Standard 授权](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)。
+有关角色的更多信息，可参见下方页面中的表格，其中显示了基于用户角色可执行的不同操作：[Adobe Campaign Standard 授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 默认安全组为：
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全组只是内部组，不应分配给用户。
 
 如果用户未链接到任何安全组，他将无法访问 Adobe Campaign。
 
