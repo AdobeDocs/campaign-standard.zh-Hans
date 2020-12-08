@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 修复了在 **Alias** 字段中添加空格（这会创建新的行项）时，可能出现的&#x200B;**扩充**&#x200B;工作流活动问题。(CAMP-39229)
 * 修复了在发送校样消息时，可能会定向所有测试用户档案的问题。
-* 修复了取消发布和删除事件配置后发生的问题。[了解更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 修复了取消发布和删除事件配置后发生的问题。[了解更多](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 修复了在对工作流进行更改后，**保存**&#x200B;按钮消失的问题。
 * 修复了在 Campaign 中进行隐私请求处理后手动删除改请求时的问题，该问题会阻止删除与请求关联的数据，即使在清除后也无法删除。
 * 修复了在预览或发送包含 Adobe Experience Manager 特殊字符的消息时可能发生的问题。
