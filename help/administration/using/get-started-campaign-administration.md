@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '644'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 配置各种&#x200B;**email**&#x200B;参数：跳出、隔离、电子邮件属性和路由参数的处理规则、typoly规则。 定义&#x200B;**SMS**&#x200B;路由的渠道配置和属性，以及SMS编码和格式。
 
-设置&#x200B;**移动应用程序**，以便能够使用Adobe Experience PlatformSDK发送应用程序内消息和推送通知，并通过创建和设置事件配置&#x200B;**事务消息**。
+设置&#x200B;**移动应用程序**，以便能够使用Adobe Experience PlatformSDK发送应用程序内消息和推送通知。
 
 阅读更多:
 
@@ -82,7 +82,6 @@ ht-degree: 14%
 * [配置电子邮件渠道](../../administration/using/configuring-email-channel.md)
 * [配置短信渠道](../../administration/using/configuring-sms-channel.md)
 * [配置移动应用程序](../../administration/using/configuring-a-mobile-application.md)
-* [配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md)
 
 ## 应用程序设置 {#application-settings}
 
