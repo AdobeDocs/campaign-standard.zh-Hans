@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '6305'
-ht-degree: 98%
+source-wordcount: '6359'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 98%
 
 “隐私”部分已被移动。 [阅读更多](../../start/using/privacy.md)
 
+Transactional messaging部分经过重新组织和改进，其中明确的入门部分包括[增强的图表](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，以说明整个过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+
+新增了辅助功能页面，进一步了解Adobe Campaign Standard工作区中的辅助功能支持。 [阅读更多](../../start/using/accessibility.md)
+
 ## 2020 年 11 月{#doc-updates-november-2020}
 
-“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
+“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。[阅读更多](../../start/using/privacy.md#use-case-scenario)
 
-新增了一节，其中列出了有关隐私的常见问题解答。 [阅读更多](../../start/using/privacy-faq.md)
+新增了一个部分，其中列出了有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
 
 “隐私”部分已移动并新增两个页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
 
@@ -51,11 +55,11 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 已新增关于“投放最佳实践”的部分。[阅读更多](../../sending/using/delivery-best-practices.md)
 
-已添加一个部分来描述新过滤器，这些新过滤器支持根据其状态和上次收到事件的时间来搜索事件配置。[阅读更多](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+已添加一个部分来描述新过滤器，这些新过滤器支持根据其状态和上次收到事件的时间来搜索事件配置。[阅读更多](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
-已重组并阐明事件事务性消息部分。[阅读更多](../../channels/using/event-transactional-messages.md)
+已重组并阐明事件事务性消息部分。[阅读更多](../../channels/using/editing-transactional-message.md)
 
 添加了警告说明，以警告用户与日志访问权有关的权限限制。[阅读更多](../../administration/using/users-management.md)
 
@@ -135,7 +139,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。[了解更多](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-对“配置事务型消息传递”章节进行了修改，修正了有关如何访问最新事务型事件的信息并更新了屏幕截图。[了解更多](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+Transactional messaging部分已得到改进，其中包含有关如何访问最新事务事件和更新屏幕截图的信息。 [了解更多](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 对“类型和类型规则”章节进行了修改，并更新了关于内置类型规则的更多信息。[了解更多](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +147,15 @@ Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud 
 
 更新了关于投放临时失败后重试的文档，提供了有关升级到 Enhanced MTA 后如何管理重试的更多详细信息。[了解更多](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-增强并阐明了“删除事务型消息”章节。[了解更多](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+增强并阐明了“删除事务型消息”章节。[了解更多](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
 更新了&#x200B;**预览投放**&#x200B;章节，添加了移动投放示例。[了解更多](../../sending/using/previewing-messages.md)
 
-添加了有关事务型消息传递和删除未使用实时事件的最佳做法。[了解更多](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+添加了有关事务型消息传递和删除未使用实时事件的最佳做法。[了解更多](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 更新了“配置电子邮件渠道”章节，明确了现在由 Adobe Campaign Enhanced MTA 管理的所有电子邮件设置。[了解更多](../../administration/using/configuring-email-channel.md)
 
-更新了“配置事务型消息传递”章节，提供了关于编辑事件配置所需权限以及如何扩充事务型消息中集合的更多信息。[了解更多](../../administration/using/configuring-transactional-messaging.md)。
+“事务性消息”部分已更新，其中包含有关编辑事件配置所需权限以及如何丰富事务性消息中的集合的更多信息。 [了解更多](../../channels/using/configuring-transactional-event.md)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -171,7 +175,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 《管理指南》中新增了“配置准则”一节。关于兼容浏览器和操作系统的章节已从快速入门指南移到了此章节。此章节还添加了关于 Campaign Standard 网络端点的技术说明。[了解更多](../../administration/using/about-configuration-guidelines.md)
 
-添加了新的章节，描述如何删除事件配置。[了解更多](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+添加了新的章节，描述如何删除事件配置。[了解更多](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 更新并修正了描述如何测试电子邮件的主题行以预测其打开率的页面，包括新的[疑难解答](../../sending/using/testing-subject-line-email.md#troubleshooting)章节。[了解更多](../../sending/using/testing-subject-line-email.md)
 
@@ -281,7 +285,7 @@ Adobe Campaign 的错误消息列表已更新。[阅读更多](https://docs.camp
 
 GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)
 
-添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 移动并更新了“投放最佳做法”快速入门指南。[了解更多](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +301,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 添加了新章节，介绍如何向订阅特定服务的用户档案自动发送自定义确认电子邮件。[了解更多](../../audiences/using/confirming-subscription-to-a-service.md)
 
-修改了“事务型消息传递”章节，更新了最新的 UI，包括使用 Email Designer 编辑内容。[了解更多](../../channels/using/event-transactional-messages.md)
+修改了“事务型消息传递”章节，更新了最新的 UI，包括使用 Email Designer 编辑内容。[了解更多](../../channels/using/editing-transactional-message.md)
 
 重组了登陆页面章节。此外，还增加了一个新章节，详细说明了建立登陆页面的步骤。[了解更多](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -417,7 +421,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于动态报告的指标计算章节。[了解更多](../../reporting/using/indicator-calculation.md)
 
-添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。[了解更多](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/dynamic_report_compatibility.pdf)
+添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 更新了工作流的功能列表。[了解更多](../../automating/using/list-of-functions.md)
 
@@ -427,7 +431,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了“管理链接”章节，提供了关于如何在 Email Designer 中管理跟踪 URL 的附加信息。[了解更多](../../designing/using/links.md#inserting-a-link)
 
-添加了新章节，介绍特定事务型消息的重试过程。[了解更多](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+添加了新章节，介绍特定事务型消息的重试过程。[了解更多](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
 
 阐明并更新了“发布带 API 扩展的资源”章节，改用了最新的 UI。[了解更多](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +509,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 Email Designer 常规可用性 - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-事务型电子邮件中的产品清单 - [了解更多](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+事务型电子邮件中的产品清单 - [了解更多](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -643,7 +647,7 @@ GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/s
 
 多语言推送投放 - [了解更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
-在事务型消息传递中使用自定义资源 - [了解更多](../../administration/using/configuring-transactional-messaging.md)
+在事务型消息传递中使用自定义资源 - [了解更多](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **随版本提供的其他文档更新**
 
@@ -651,7 +655,7 @@ GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多]
 
 添加了有关如何设置登陆页以使收件人能够列入拒绝列表的信息。[了解更多](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-重组了[配置事务型消息传递](../../administration/using/configuring-transactional-messaging.md)章节，并添加了一个[分步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
+重组了[配置事务型消息传递](../../channels/using/configuring-transactional-event.md)章节，并添加了一个[分步使用案例](../../channels/using/transactional-messaging-use-case.md)。
 
 添加了一项技术说明，介绍如何生成用于推送通知的多语言 CSV 文件。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
@@ -695,7 +699,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 添加了关于如何准备投放的分步使用案例。[了解更多](../../sending/using/preparing-the-send.md)
 
-删除了包含授权列表的章节。[了解更多](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf) (PDF)。
+删除了包含授权列表的章节。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF)。
 
 添加了关于如何使用短信自动回复的分步使用案例。[了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -867,7 +871,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。[了解更多](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+修改了授权表，使某些角色的职能更加清晰。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
@@ -937,7 +941,7 @@ Triggers 集成：添加了两个使用案例。[了解更多](../../integrating
 
 事务型消息传递 API - [了解更多](../../api/using/get-started-apis.md)
 
-事务型消息的营销功能 - [了解更多](../../channels/using/profile-transactional-messages.md)
+事务性消息的营销功能- [阅读更多](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **随版本提供的其他文档更新**
 
