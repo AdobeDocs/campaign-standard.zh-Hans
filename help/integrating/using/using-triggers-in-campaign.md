@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '751'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 87%
 # 在 Campaign 中使用触发器{#using-triggers-in-campaign}
 
 ## 在 Campaign 中创建映射触发器 {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此项的详细信息，请参阅此[页面](../../administration/using/list-of-roles.md)。
 
 您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
@@ -77,7 +81,7 @@ ht-degree: 87%
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
-为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关更多信息，请参阅[事务型模板](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)一节。
+为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关详细信息，请参阅[编辑事务性消息](../../channels/using/editing-transactional-message.md)部分。
 
 >[!NOTE]
 >
