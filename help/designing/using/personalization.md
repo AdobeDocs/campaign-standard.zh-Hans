@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 3%
@@ -167,7 +167,7 @@ Adobe Campaign优惠预配置内容块的列表。 这些内容块是动态的�
 
 事实上，在编辑消息时，您只能选择具有与消息的定位维度兼容的定位维度的内容块。
 
-例如，**[!UICONTROL Unsubscription link]**&#x200B;块的定位维度符为&#x200B;**[!UICONTROL Profiles]**，因为它包含特定于&#x200B;**[!UICONTROL Profiles]**&#x200B;资源的个性化字段。 因此，不能在[事件事务性消息](../../channels/using/event-transactional-messages.md)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;块，因为该类型消息的定位维度为&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[退订事务性消息](../../channels/using/profile-transactional-messages.md)中使用&#x200B;**用户档案链接**&#x200B;块，因为此类消息的定位维度是&#x200B;**用户档案**。 最后，**[!UICONTROL Link to mirror page]**&#x200B;块没有定位维度，因此您可以在任何消息中使用它。
+例如，**[!UICONTROL Unsubscription link]**&#x200B;块的定位维度符为&#x200B;**[!UICONTROL Profiles]**，因为它包含特定于&#x200B;**[!UICONTROL Profiles]**&#x200B;资源的个性化字段。 因此，不能在[事件事务性消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;块，因为该类型消息的定位维度为&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[退订事务性消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**用户档案链接**&#x200B;块，因为此类消息的定位维度是&#x200B;**用户档案**。 最后，**[!UICONTROL Link to mirror page]**&#x200B;块没有定位维度，因此您可以在任何消息中使用它。
 
 如果将此字段留空，则无论定位维度是什么，内容块都将与所有消息兼容。 如果设置定位维度，该块将仅与具有相同定位维度的消息兼容。
 
