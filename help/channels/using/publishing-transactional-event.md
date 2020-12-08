@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->事件配置和发布必须由[administrator](../../administration/using/users-management.md#functional-administrators)执行。
+>只有[职能管理员](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->具有发布事件配置的适当权限。
 
 [本节](../../channels/using/publishing-transactional-message.md)提供了一个图表，用于说明整个事务消息发布过程，包括发布和取消发布事件配置。
 
 完成发布后：
 * 相应的事务性消息会自动创建。 请参阅[编辑事务性消息](../../channels/using/editing-transactional-message.md)。
-* 将部署网站开发人员将使用的API，并且现在可以发送事务事件。 请参阅集成事件触发(../../channels/using/getting-started-with-transactional-msg.md#integrate-事件-trigger)。
+* 将部署网站开发人员将使用的API，并且现在可以发送事务事件。 请参阅[集成触发事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
 ## 预览和发布事件{#previewing-and-publishing-the-event}
 
@@ -36,13 +36,13 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL API preview]**&#x200B;按钮，查看网站开发人员在发布前将使用的REST API的模拟。
 
-   发布事件后，此按钮还允许您在生产中查看API的预览。 请参阅集成事件触发(../../channels/using/getting-started-with-transactional-msg.md#integrate-事件-trigger)。
+   发布事件后，此按钮还允许您在生产中查看API的预览。 请参阅[集成触发事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API根据所选渠道和所选定位维度而有所不同。 有关各种配置的详细信息，请参阅[事务事件特定配置](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
+   >REST API根据所选渠道和所选定位维度而有所不同。 有关各种配置的详细信息，请参阅[本节](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
 
 1. 单击&#x200B;**[!UICONTROL Publish]**&#x200B;以开始发布。
 
@@ -66,11 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >* 要使事件触发发送事务性消息，您必须修改并发布刚创建的消息。 请参阅[编辑](../../channels/using/editing-transactional-message.md)和[发布事务性消息](../../channels/using/publishing-transactional-message.md)部分。
-      >
-      >
-   * 您还必须[将此触发事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)集成到您的网站中。
-
+   >要使事件触发发送事务性消息，您必须修改并发布刚创建的消息。 请参阅[编辑](../../channels/using/editing-transactional-message.md)和[发布事务性消息](../../channels/using/publishing-transactional-message.md)部分。 您还必须[将此触发事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)集成到您的网站中。
 
 1. Adobe Campaign开始收到与此事件配置相关的事件后，可单击&#x200B;**[!UICONTROL History]**&#x200B;部分下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;链接，访问第三方服务发送并由Adobe Campaign处理的最新事件。
 
