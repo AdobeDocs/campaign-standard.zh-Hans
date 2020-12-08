@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 5%
@@ -493,7 +493,7 @@ _工作流_
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../channels/using/profile-transactional-messages.md">详细文档</a>。<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
