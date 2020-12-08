@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Adobe Campaign Standard允许您在以下不同设备上设计和测试电子邮
 ![](assets/accessibility_6.png)
 
 ## 上下文帮助{#contextual-help}
-
->[!NOTE]
->
-> 上下文帮助仅在使用电子邮件设计器时可用。
 
 上下文帮助可以帮助您更好地了解可用的不同请求字段和功能。 它还会指导您阅读产品文档，以了解有关所选功能的更多信息。
 
