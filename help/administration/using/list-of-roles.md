@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '227'
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,18 @@ ht-degree: 94%
 
 有关更多信息，请参阅[角色和权限表格](/help/administration/using/assets/acs_rights.pdf)，其中根据所选授权详细列出了界面中可用的功能。
 
-[![图像](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![图像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 可使用 **[!UICONTROL Administration > Users & Security > Roles]** 菜单管理角色。
 
 默认权限为：
 
 * **[!UICONTROL Administration]**：一般管理权限。
+
+   >[!NOTE]
+   >
+   >如果需要创建触发器，则需要&#x200B;**[!UICONTROL Administration]**&#x200B;才能访问触发器菜单。 有关触发器的详细信息，请参阅此[页面](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
+
 * **[!UICONTROL Datamodel]**：有权运行发布和创建自定义资源。
 * **[!UICONTROL Generic import]**：有权执行一般数据导入。要使其生效，您需要将 **[!UICONTROL Generic import]** 角色链接到 **[!UICONTROL Workflow]** 角色。
 * **[!UICONTROL Prepare deliveries]**：有权创建、修改、准备和删除投放。拥有此角色的用户可以准备投放，但不能发送。
