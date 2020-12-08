@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以访问界面的哪些部分。
 
-以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)。
+以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 管理员可以通过管理控制台对用户进行管理。然后，用户将自动与 Adobe Campaign 同步。有关更多信息，请参阅[管理控制台](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
 
@@ -37,7 +37,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 * [管理用户权限](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)视频
 * [角色列表](../../administration/using/list-of-roles.md)
-* [权限列表](https://docs.campaign.adobe.com/doc/standard/cn/Technotes/AdobeCampaign-ACSRights.pdf)
+* [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## 用户类型 {#type-of-users}
 
@@ -59,7 +59,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 功能管理员可访问界面中技术含量最高的部分。他们承担着 **[!UICONTROL Administration]** 的角色，负责确保平台的方方面面设置妥当，可让营销人员只需专注于投放活动。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**所有**&#x200B;设备的访问权限的职能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、命题日志和订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
