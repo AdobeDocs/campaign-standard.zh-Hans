@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 68%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # 编辑事务性消息{#editing-transactional-message}
 
-创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务性消息。 [配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)部分介绍了配置和发布该事件的步骤。
+创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务性消息。
+
+[配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)部分介绍了配置和发布该事件的步骤。
 
 访问、编辑和个性化此消息的步骤如下所述。
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>只有具有[管理](../../administration/using/users-management.md#functional-administrators)角色的用户才能访问和编辑事务性消息。
 
-消息准备就绪后，即可对其进行测试和发布。 请参阅[事务性消息生命周期](../../channels/using/publishing-transactional-message.md)。
+消息准备就绪后，即可对其进行测试和发布。 请参阅[测试事务性消息](../../channels/using/testing-transactional-message.md)和[事务性消息生命周期](../../channels/using/publishing-transactional-message.md)。
 
 ## 访问事务性消息{#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ ht-degree: 68%
 
 1. 单击您选择的消息进行编辑。
 
->[!IMPORTANT]
->
->要访问事务型消息，您必须归属于 **[!UICONTROL Administrators (all units)]** 安全组。有关详细信息，请参阅[用户管理](../../administration/using/users-management.md#functional-administrators)。
+   ![](assets/message-center_message-board.png)
+
+您还可以通过位于相应事务性消息配置屏幕左侧区域的链接直接访问事件。 请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 个性化事务型消息{#personalizing-a-transactional-message}
 
-要在事务性消息中设置个性化，请按照以下步骤操作。
+要编辑和个性化事务性消息，请按照以下步骤操作。
 
 >[!NOTE]
 >
->本节介绍如何个性化&#x200B;**基于事件的**&#x200B;事务性消息。  创建基于事件的事务性消息的配置步骤显示在[本节](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中。
+>本节介绍如何编辑&#x200B;**基于事件的**&#x200B;事务性消息。 **基于用户档案的**&#x200B;事务性消息特性详细如下[。](#profile-transactional-message-specificities)
 >
->**基于用户档案的**&#x200B;事务性消息特性详细如下[。](#profile-transactional-message-specificities)
+>创建基于事件的事务性消息的配置步骤显示在[本节](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中。
 
 例如，您希望向已将产品添加到购物车并离开网站的网站用户发送通知，而不进行购买。 此示例在[Transactional messaging操作原则](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍。
 
@@ -70,7 +74,7 @@ ht-degree: 68%
 
    ![](assets/message-center_7.png)
 
-1. 要扩充消息的内容，请从链接事件的表格中选择要添加的字段。在此示例中，通过&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;选择&#x200B;**[!UICONTROL Profile]**&#x200B;表中的&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段。
+1. 您还可以丰富消息的内容。 为此，请添加您链接到事件配置的表中的字段(请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段，直至&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ ht-degree: 68%
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关详细信息，请参阅[定义特定测试用户档案](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)。
+   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关详细信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 ## 在事务型消息中使用产品清单{#using-product-listings-in-a-transactional-message}
 
-您可以在事务型电子邮件的内容中创建引用一个或多个数据集合的产品清单。例如，在购物车放弃电子邮件中，您可以加入用户离开网站时购物车中所有产品的清单，以及各个产品的图像、价格和链接。
+在编辑交易电子邮件的内容时，您可以创建引用一个或多个数据集合的产品列表。 例如，在购物车废弃电子邮件中，您可以包含用户离开网站时购物车中的所有产品的列表，以及图像、价格和指向每个产品的链接。
 
 >[!IMPORTANT]
 >
->只有通过 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 界面编辑事务型电子邮件时，才可使用产品清单。
+>在通过[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面编辑事务性电子邮件内容时，产品列表仅对电子邮件渠道可用。
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
@@ -204,7 +208,7 @@ ht-degree: 68%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)。
+   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 ## 基于用户档案的事务性消息特异性{#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ ht-degree: 68%
 
 * 创建基于用户档案的事务性消息的配置步骤详见[本节](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
-### 编辑用户档案事务性消息{#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-创建、个性化和发布用户档案事务性消息的步骤与创建事件事务性消息的步骤基本相同。
+创建、编辑和个性化用户档案事务性消息的步骤与创建事件事务性消息的步骤基本相同。
 
 下方列出了两者之间的差异。
 
@@ -235,29 +239,39 @@ ht-degree: 68%
 
 1. 在发布消息之前保存更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-### 监控用户档案事务型消息投放{#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-发布消息并完成网站集成后，即可对投放进行监控。
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. 要查看消息投放日志，请单击 **[!UICONTROL Deployment]** 块右下方的图标。
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   有关访问日志的详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. 选择 **[!UICONTROL Sending logs]** 选项卡。在 **[!UICONTROL Status]** 列中，**[!UICONTROL Sent]** 表示用户档案已选择加入。
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. 选择&#x200B;**[!UICONTROL Exclusions logs]**&#x200B;选项卡以视图已被排除在消息目标之外的收件人，如地址阻止列表。
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-对于选择退出的任何用户档案，**[!UICONTROL Address on denylist]** 分类规则将排除对应的收件人。
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-此规则属于特定分类的一部分，该特定分类会基于 **[!UICONTROL Profile]** 表应用到所有事务型消息。
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**相关主题**：
+**Related topics**:
 
-* 集成事件触发(../../channels/using/getting-started-with-transactional-msg.md#integrate-事件-trigger)
-* [关于分类和分类规则](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
