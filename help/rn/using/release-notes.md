@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 * 现在，发布自定义资源时，准备后将显示确认弹出窗口。
 * 自定义资源失败时显示的弹出消息已得到改进，从而提高清晰度。
 * 工作流中的表达式编辑器已得到改进，以防止执行错误。提供[新函数](../../automating/using/customizing-workflow-external-parameters.md)：可在所有活动中使用这些函数，从而能够在使用外部参数调用工作流后使用事件变量。此外，现在带有函数说明的表达式编辑器中会显示工具提示。
-* [已向事务事件列表中添加了新筛选器。](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
+* [已向事务事件列表中添加了新筛选器。](../../channels/using/configuring-transactional-event.md#searching-transactional-events)它们允许您根据事件配置的状态以及上次收到事件的时间来筛选配置。
 * 导出包时显示的日志更加具体，并详细说明在失败情况下遇到的错误。
 * 发送消息后，现在可以搜索、筛选和导出[跟踪的 URL](../../sending/using/tracking-messages.md) 的列表。
 * [Launch 和 Campaign 之间的自动同步](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)现在为 GA，默认情况下处于启用状态。
