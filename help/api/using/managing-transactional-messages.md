@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## 关于事务型消息传递
 
-创建事件后，您必须将触发此事件的操作集成到您的网站中。
+创建并发布交易事件后，您需要将触发此事件的操作集成到您的网站中。
 
 >[!NOTE]
 >
->创建和发布事件在[活动文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)中。
+>配置事件显示在[此部分](../../channels/using/configuring-transactional-event.md)中。
 
 例如，您希望当您的客户之一在购买购物车中的产品之前离开您的网站时，触发“购物车废弃”事件。 为此，您的Web开发人员必须使用REST事务性消息API。
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (请注意，事务性消息API端点在API预览期间也可见)
 
-* **&lt;eventid>**:要发送的事件类型。此ID是在创建事件定义时生成的。 请参阅[活动文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+* **&lt;eventid>**:要发送的事件类型。此ID在创建事件配置时生成（请参阅[此部分](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 
 ### POST请求标题
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST请求主体
 
-事件数据包含在JSONPOST主体中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供请求示例。 请参阅[活动文档](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+事件数据包含在JSONPOST主体中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供请求示例。 请参阅[此章节](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event) 。
 
 可以将以下可选参数添加到事件内容以管理链接到事件的事务性消息的发送：
 
@@ -138,7 +138,7 @@ POST请求发送事件。
 
 * **待定**:事件处于挂起状态-事件在刚触发该状态时启用该状态。
 * **处理**:事件正在挂起投放-正在将其转换为消息并发送消息。
-* **暂停**:事件进程正在暂停。它不再被处理，而是被保留在Adobe Campaign库的队列中。 有关详细信息，请参阅[活动文档](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message)。
+* **暂停**:事件进程正在暂停。它不再被处理，而是被保留在Adobe Campaign库的队列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已处理**:已处理事件并成功发送消息。
 * **忽略**:事件被投放忽略，通常当地址处于隔离状态时。
 * **deliveryFailed**:处理投放时发生事件错误。
