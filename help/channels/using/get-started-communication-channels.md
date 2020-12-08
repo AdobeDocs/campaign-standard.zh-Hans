@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -72,10 +72,11 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 
 阅读更多:
 
-* [关于交易消息传递](../../channels/using/getting-started-with-transactional-msg.md)
 * [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md)
-* [事件事务型消息](../../channels/using/event-transactional-messages.md)
-* [用户档案事务型消息](../../channels/using/profile-transactional-messages.md)
+* [配置事务事件](../../channels/using/configuring-transactional-event.md)
+* [发布交易事件](../../channels/using/publishing-transactional-event.md)
+* [编辑事务性消息](../../channels/using/editing-transactional-message.md)
+* [发布事务型消息](../../channels/using/publishing-transactional-message.md)
 * [事务型推送通知](../../channels/using/transactional-push-notifications.md)
 * [跟进消息](../../channels/using/follow-up-messages.md)
 
