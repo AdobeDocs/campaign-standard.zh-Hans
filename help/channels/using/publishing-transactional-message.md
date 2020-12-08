@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 4e157a582de836fa325d95593491c756209b205e
+source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 77%
+source-wordcount: '650'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 77%
 
 当[事务性消息](../../channels/using/editing-transactional-message.md)准备好发送时，可以发布它。
 
-测试、发布、暂停、取消发布和删除事件的步骤详述如下。 本节还介绍事务消息重试过程。
+发布、暂停、取消发布和删除事务性消息的步骤详述如下。
+
+>[!IMPORTANT]
+>
+>只有具有[管理](../../administration/using/users-management.md#functional-administrators)角色的用户才能访问和发布事务性消息。
 
 ## 事务型消息传递发布流程 {#transactional-messaging-pub-process}
 
@@ -28,63 +32,63 @@ ht-degree: 77%
 
 ![](assets/message-center_pub-process.png)
 
-有关发布事务性消息的详细信息，请参阅[此部分](#publishing-a-transactional-message)。
-有关暂停事务性消息的详细信息，请参阅[此部分](#suspending-a-transactional-message-publication)。
-有关取消发布事务性消息的详细信息，请参阅[此部分](#unpublishing-a-transactional-message)。
+**相关主题：**
+* [发布事务型消息](#publishing-a-transactional-message)
+* [暂停事务性消息](#suspending-a-transactional-message-publication)
+* [取消发布事务型消息](#unpublishing-a-transactional-message)
+* [发布事件](../../channels/using/publishing-transactional-event.md)
 
-有关发布和取消发布事件的详细信息，请参阅[此部分](../../channels/using/publishing-transactional-event.md)。
+<!--## Testing a transactional message {#testing-a-transactional-message}
 
-## 测试事务型消息{#testing-a-transactional-message}
+You first need to create a specific test profile that will allow you to properly check the transactional message.
 
-您首先需要创建特定的测试用户档案，以便能够正确检查事务性消息。
+### Defining a specific test profile {#defining-specific-test-profile}
 
-### 定义特定测试用户档案{#defining-specific-test-profile}
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-定义将链接到事件的测试用户档案，以便预览消息并发送相关验证。
-
-1. 在事务性消息仪表板中，单击&#x200B;**[!UICONTROL Create test profile]**&#x200B;按钮。
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
-1. 在 **[!UICONTROL Event data used for personalization]** 部分中，指定要以 JSON 格式发送的信息。预览消息和测试用户档案接收校样时，将使用此内容。
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >您还可以输入与用户档案表格有关的信息。请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->。
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. 创建后，将在用户档案中预指定测试事务性消息。 单击消息的 **[!UICONTROL Test profiles]** 块，可查看校样的目标。
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
    ![](assets/message-center_5.png)
 
-您还可以创建新的测试用户档案，或使用 **[!UICONTROL Test profiles]** 菜单中已存在的测试用户档案。操作步骤：
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
-1. 在&#x200B;**[!UICONTROL Event]**&#x200B;部分，选择您刚刚创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
-1. 在 **[!UICONTROL Event data]** 文本框中指定要以 JSON 格式发送的信息。
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
    ![](assets/message-center_3.png)
 
-1. 保存更改。
-1. 访问您创建的消息并选择更新的测试用户档案。
+1. Save your changes.
+1. Access the message that you created and select the updated test profile.
 
-**相关主题：**
+**Related topics:**
 
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
-* [创建受众](../../audiences/using/creating-audiences.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Creating audiences](../../audiences/using/creating-audiences.md)
 
-### 发送验证{#sending-proof}
+### Sending the proof {#sending-proof}
 
-创建一个或多个特定测试用户档案并保存事务性消息后，可以发送验证进行测试。
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
-发送验证的步骤详见[发送验证](../../sending/using/sending-proofs.md)一节。
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
 ## 发布事务型消息{#publishing-a-transactional-message}
 
-检查事务型消息后，即可进行发布。
+编辑并测试事务性消息后，即可发布它。 只需单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
 
 ![](assets/message-center_12.png)
 
@@ -94,17 +98,22 @@ ht-degree: 77%
 
 ![](assets/message-center_13.png)
 
-### 暂停事务型消息发布{#suspending-a-transactional-message-publication}
+**相关主题**：
+* [编辑事务性消息](../../channels/using/editing-transactional-message.md)
+* [测试事务型消息](../../channels/using/testing-transactional-message.md)
+* [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+## 暂停事务型消息发布{#suspending-a-transactional-message-publication}
 
 例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
-排队的事件在REST API中定义的时间段内保留(请参阅[REST API文档](../../api/using/managing-transactional-messages.md)或在使用触发器核心服务时的触发器事件中保留(请参阅[关于Adobe Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+排队的事件在REST API中定义的时间段（请参阅[REST API文档](../../api/using/managing-transactional-messages.md)）或在使用触发器核心服务的触发器事件中保留(请参阅[关于Adobe Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
 单击 **[!UICONTROL Resume]** 后，将继续处理所有排队的事件（前提是它们未过期）。现在，它们包含暂停模板发布时执行的所有修改。
 
-### 取消发布事务型消息{#unpublishing-a-transactional-message}
+## 取消发布事务型消息{#unpublishing-a-transactional-message}
 
 单击 **[!UICONTROL Unpublish]** 可取消事务型消息发布，但也会取消相应事件的发布，从 REST API 中删除与之前创建的事件对应的资源。
 
@@ -122,7 +131,7 @@ ht-degree: 77%
 
 **[!UICONTROL Database cleanup]** 工作流每天凌晨 4 点运行，可通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** 访问。
 
-### 删除事务型消息{#deleting-a-transactional-message}
+## 删除事务型消息{#deleting-a-transactional-message}
 
 取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。操作步骤：
 
@@ -144,41 +153,96 @@ ht-degree: 77%
 
 * **来自现成事件模板的事务型消息（内部事务型消息）**：如果内部事务型消息是唯一与相应内部事件关联的消息，则无法删除该消息。首先必须复制事务型消息或通过 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 菜单创建另一个事务型消息。
 
-## 事务型消息重试流程{#transactional-message-retry-process}
+<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
-临时未投放的事务型消息将会自动重试，一直执行到投放过期为止。有关投放持续时间的更多信息，请参阅[有效性参数](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-发送事务型消息失败时，可使用以下两个重试系统：
+To monitor transactional messaging, you need to access **execution deliveries**. An execution delivery is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
 
-* 在事务型消息传递级别，如果将事务型消息放在分配给执行投放的事件之前，有可能会失败，这意味着，应放在事件接收和投放准备之间。请参阅[事件处理重试流程](#event-processing-retry-process)。
-* 在发送流程级别，一旦将事件分配给执行投放，则事务型消息可能因临时错误而失败。请参阅[消息发送重试流程](#message-sending-retry-process)。
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-### 事件处理重试流程{#event-processing-retry-process}
+   ![](assets/message-center_access_logs.png)
 
-如果无法将事件分配给执行投放，则延迟事件处理。随后执行重试，直到将其分配给新的执行投放为止。
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the execution delivery of your choice.
+
+   ![](assets/message-center_execution_delivery.png)
+
+1. Click again the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_execution_access_logs.png)
+
+   For each execution delivery, you can consult the delivery logs as you would do for a standard delivery. For more on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+**Related topics**:
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+### Profile-based transactional message specificities {#profile-transactional-message-monitoring}
+
+For profile-based transactional messages, you can monitor the following profile information.
+
+Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+![](assets/message-center_marketing_sending_logs.png)
+
+Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+
+## Transactional message retry process {#transactional-message-retry-process}
+
+A temporarily undelivered transactional message is subject to automatic retries that are performed until the delivery expires. For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+When a transactional message fails to be sent, there are two retry systems:
+
+* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
+* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
+
+The definition of **execution delivery** can be found in the [Monitoring transactional message delivery](#monitoring-transactional-message-delivery) section.
+
+### Event processing retry process {#event-processing-retry-process}
+
+When an event is triggered, it is assigned to an execution delivery.
+
+If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
 >[!NOTE]
 >
->延迟的事件不会显示在事务型消息发送日志中，因为并未将其分配给执行投放。
+>A postponed event does not appear in the transactional message sending logs, because it is not assigned to an execution delivery yet.
 
-例如，无法将事件分配给执行投放，因为其内容不正确、存在访问权限或品牌策略问题，在应用类型规则时检测到错误等。在这种情况下，您可以暂停消息，编辑该消息以修复问题，然后再次发布。然后，重试系统会将其分配给新的执行投放。
+For example, the event could not be assigned to an execution delivery because its content was not correct, there was an issue with access rights or branding, an error was detected on applying typology rules, etc. In this case, you can pause the message, edit it to fix the problem and publish it again. The retry system will then assign it to a new execution delivery.
 
-### 消息发送重试流程{#message-sending-retry-process}
+### Message sending retry process {#message-sending-retry-process}
 
-一旦将事件分配给执行投放，事务型消息就可能因临时错误而失败，例如，如果收件人邮箱已满。有关更多信息，请参阅[投放临时失败后重试](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+Once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error, if the recipient's mailbox is full for example. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放显示在事务性消息发送日志的&#x200B;**[!UICONTROL Execution list]**&#x200B;选项卡中。
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### 重试进程限制{#limitations}
+### Retry process limitations {#limitations}
 
-**发送日志更新**
+**Sending logs update**
 
-在重试流程中，不会立即更新新执行投放的发送日志（通过计划的工作流执行的更新）。这意味着即使新的执行投放已经处理了事务型事件，该消息仍然处于 **[!UICONTROL Pending]** 状态。
+In the retry process, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
-**失败的执行投放**
+**Failed execution delivery**
 
-无法停止执行投放。但是，如果当前执行投放失败，则会在收到新事件后立即创建新执行投放，所有新事件都由此新执行投放进行处理。失败的执行投放不会处理任何新事件。
+You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-如果分配给执行投放的部分事件已延迟，并且该执行投放失败，则重试系统不会为新的执行投放分配延迟事件，这意味着这些事件丢失。
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
