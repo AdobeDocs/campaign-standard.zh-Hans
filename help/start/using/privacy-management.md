@@ -6,28 +6,28 @@ description: 详细了解用于管理隐私的 Adobe Campaign Standard 功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 隐私管理 {#privacy-management}
 
-Adobe Campaign优惠一组工具，帮助您遵守[隐私规定](#privacy-management-regulations)（包括GDPR、CCPA、PDPA、LGPD）。
+Adobe Campaign 提供一套工具来帮助您遵守[隐私法规](#privacy-management-regulations)（包括 GDPR、CCPA、PDPA、LGPD）。
 
-以下是Adobe Campaign为确保GDPR和其他隐私法规准备就绪而提供的五大主要功能：
+以下是 Adobe Campaign 为确保 GDPR 和其他隐私法规就绪性而提供的五大主要功能：
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **访问权限**
+* **访问权**
 
 * **删除权**
 
-有关详细信息，请参阅[访问权和被遗忘权](#right-access-forgotten)。
+要获取与此有关的更多信息，请参阅[访问权和被遗忘权](#right-access-forgotten)。
 
 * **同意管理**
 
@@ -35,17 +35,17 @@ Adobe Campaign优惠一组工具，帮助您遵守[隐私规定](#privacy-manage
 
 * **权限管理**
 
-有关此问题的详细信息，请参阅[同意、保留和角色](#consent-retention-roles)。
+要获取与此有关的更多信息，请参阅[同意、保留和角色](#consent-retention-roles)。
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## 隐私管理规定{#privacy-management-regulations}
+## 隐私管理法规 {#privacy-management-regulations}
 
 Adobe Campaign 功能帮助您遵守以下法规：
 
-* **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。请访问以下链接，查找有关GDPR的一般信息：
+* **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。请访问下面的链接以查找有关 GDPR 的常规信息：
 
    * https://www.adobe.com/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
