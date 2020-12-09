@@ -3,13 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
+user-guide-description: '帮助中心提供使用Campaign Standard所需的主要功能、任务、设置和其他资源。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 98%
+source-wordcount: '1703'
+ht-degree: 97%
 
 ---
 
