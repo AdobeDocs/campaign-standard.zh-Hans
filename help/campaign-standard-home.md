@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 产品文档
-description: 浏览Campaign Standard产品文档
+description: 浏览 Campaign Standard 产品文档
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[更新的发](rn/using/release-planning.md)**<br/> 布计划即将发布的2021年2月发布日期已添加到发布计划
+* **[更新的发行计划](rn/using/release-planning.md)**<br/> 即将到来的 2021 年 2 月发行日期已添加到发行计划中
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
