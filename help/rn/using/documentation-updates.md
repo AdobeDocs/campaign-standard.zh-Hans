@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,21 +21,23 @@ ht-degree: 97%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
-“隐私”部分已被移动。 [阅读更多](../../start/using/privacy.md)
+事务消息部分经过重新组织和改进，其中明确的入门部分包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，以说明整个过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-Transactional messaging部分经过重新组织和改进，其中明确的入门部分包括[增强的图表](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，以说明整个过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+“隐私”部分已移动。[阅读更多](../../start/using/privacy.md)
 
 新增了辅助功能页面，进一步了解Adobe Campaign Standard工作区中的辅助功能支持。 [阅读更多](../../start/using/accessibility.md)
 
+“事务性消息传递”部分新增了一个限制，说明为获得最佳性能，已发布事务性消息的数量应保持在100以下。 [阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
 ## 2020 年 11 月{#doc-updates-november-2020}
 
-“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。[阅读更多](../../start/using/privacy.md#use-case-scenario)
+“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。*[阅读更多](../../start/using/privacy.md#use-case-scenario)
 
-新增了一个部分，其中列出了有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
+新增了一个部分，其中列出有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
 
 “隐私”部分已移动并新增两个页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
 
-在“Adobe Experience Platform数据连接器”部分添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。 [阅读更多](../../developing/using/aep-mapping-activation.md)
+在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../developing/using/aep-mapping-activation.md)
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -176,8 +178,6 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 《管理指南》中新增了“配置准则”一节。关于兼容浏览器和操作系统的章节已从快速入门指南移到了此章节。此章节还添加了关于 Campaign Standard 网络端点的技术说明。[了解更多](../../administration/using/about-configuration-guidelines.md)
 
 添加了新的章节，描述如何删除事件配置。[了解更多](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-更新并修正了描述如何测试电子邮件的主题行以预测其打开率的页面，包括新的[疑难解答](../../sending/using/testing-subject-line-email.md#troubleshooting)章节。[了解更多](../../sending/using/testing-subject-line-email.md)
 
 更新了“事务型消息传递”一节，以反映多个用户界面的轻微更新和改进。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
 
