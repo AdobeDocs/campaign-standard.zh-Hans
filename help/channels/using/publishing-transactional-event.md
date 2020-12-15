@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 配置事务型消息传递
-description: 了解如何配置事务消息传递。
+title: 发布交易事件
+description: 了解如何预览、发布、取消发布和删除事务事件配置。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 7%
+source-wordcount: '607'
+ht-degree: 6%
 
 ---
 
