@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 设置事务性消息的主要步骤
+title: 事务性消息传递入门
 description: 了解什么是交易消息，并了解在Adobe Campaign Standard建立事务性消息的主要步骤。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 7%
+source-wordcount: '963'
+ht-degree: 8%
 
 ---
 
