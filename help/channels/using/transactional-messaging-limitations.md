@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: 事务型消息传递限制
-description: 了解Adobe Campaign Standard事务性消息的主要限制和建议。
+description: 了解关于Adobe Campaign Standard事务性消息的主要建议和限制。
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 76%
+source-wordcount: '742'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-以下部分列表了在开始创建事务性消息之前您应了解的最佳实践和限制。
+本节列表了在开始创建事务性消息之前您应了解的最佳实践和限制。
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ ht-degree: 76%
 * 创建事件后，就无法再更改定向维度（**[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]**）。请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 * 无法回滚发布，但您可以取消发布事件：此操作会使事件和相关的事务型消息变为无法访问状态。请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 * 唯一可以与事务型消息关联的事件，就是发布该事件时自动创建的消息。请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+
+## 事务性消息数{#transactional-message-number}
+
+已发布的事务性消息数量可能对您的平台产生重大影响。 为获得最佳性能，已发布事务性消息数应保持在100以下。 要确保这一点，请取消发布或删除任何未使用的事务性消息。 请参阅[取消发布事务性消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)和[删除事务性消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)。
+
+为确保最佳性能，您还可以取消发布或删除未使用的事件。 的确，取消发布或删除事件也会取消发布或删除相应的事务性消息，以及其发送和跟踪日志（如果有）。 请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)和[删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
 
 ## 个性化{#personalization}
 
