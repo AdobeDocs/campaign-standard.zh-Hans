@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事件事务型消息
-description: 了解如何创建和发布事件事务型消息。
+title: 测试事务型消息
+description: 了解如何测试Adobe Campaign事务性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 43%
+source-wordcount: '278'
+ht-degree: 39%
 
 ---
 
