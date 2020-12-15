@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '577'
 ht-degree: 5%
 
 ---
@@ -74,18 +74,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 个性化信息是发送相关内容、优惠个性化体验和增加开放性和转化率的关键。 通过Adobe Campaign传递的跨渠道消息可以通过多种不同的方式进行个性化。 根据用户档案，这些方式可以与条件结合。 您可以：
 
-* 在消 [息中插入](../../designing/using/personalization.md#inserting-a-personalization-field) 动态个性化字段
-* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
-* [个性化电子邮件](../../designing/using/subject-line.md) 或短信的发送者。
-* [个性化电子邮件](../../designing/using/subject-line.md) ，或使用Predictive主 [题行功能](../../designing/using/subject-line.md#subject-line) ，对其进行优化
-* 在电 [子邮件或登陆页](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [创建条件内容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 在 [SMS消息](../../channels/using/defining-dynamic-text.md) 或推送通知中插入动态文本
+* 在消息中插入[动态个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
+* 插入[预定义个性化块](../../designing/using/personalization.md#adding-a-content-block)
+* [个性化](../../designing/using/subject-line.md) 电子邮件或短信的发送者
+* [个性化电](../../designing/using/subject-line.md) 子邮件的主题
+* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)或登陆页](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容[
+* 在SMS消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
 
 **阅读更多**
 
-* 通过端对端范 [例探索电子邮件个性化](../../designing/using/personalization.md#example-email-personalization)
+* 通过[端到端范例](../../designing/using/personalization.md#example-email-personalization)发现电子邮件个性化
 * [个性化URL](../../designing/using/personalization.md#personalizing-urls)
 * [设置图像的个性化](../../designing/using/personalization.md#personalizing-an-image-source)
 
