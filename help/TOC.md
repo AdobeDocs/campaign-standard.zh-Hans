@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: '帮助中心提供使用Campaign Standard所需的主要功能、任务、设置和其他资源。 '
+user-guide-description: '帮助中心可帮助了解在使用 Campaign Standard 时所需的主要功能、任务、设置及其他资源。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 97%
+source-wordcount: '1696'
+ht-degree: 98%
 
 ---
 
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [预览投放](sending/using/previewing-messages.md)
       + [发送校样](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
-      + [测试电子邮件的主题行](sending/using/testing-subject-line-email.md)
       + [AI 支持的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [添加控制组](sending/using/control-group.md)
