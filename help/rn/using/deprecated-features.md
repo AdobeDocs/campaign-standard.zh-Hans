@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>预测主题行</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自2020年12月15日起，已弃用“预测主题行”功能。</p><br/>
+   <p>我们建议您利用基于AI的电子邮件功能，根据历史互动指标分析和预测开放率、最佳发送时间和可能的客户流失。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解详情</a></p></br>
+     <p>
+     <em>目标删除：2021年4月</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>SDK v4 推送通知</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
    <td> <p>从 Campaign 19.4 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除将不可用。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隐私核心服务</a>。</p></br>
    <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隐私请求</a>。</p>
   <p> 
-  <em>目标移除日期：2021 年</em></p>
+  <em>目标删除日期：2021 年 4 月</em></p>
    </td> 
   </tr> 
  </tbody> 
