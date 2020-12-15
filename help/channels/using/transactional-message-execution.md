@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事件事务型消息
-description: 了解如何创建和发布事件事务型消息。
+title: 事务消息执行和监控
+description: 了解交易消息执行并了解如何监控事务性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 65%
+source-wordcount: '740'
+ht-degree: 62%
 
 ---
 
