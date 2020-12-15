@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
+source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -19,31 +19,33 @@ ht-degree: 100%
 
 了解 Adobe Campaign Standard 工作区中的辅助功能支持。
 
-辅助功能是指使产品可用于患有视觉、听觉、认知、运动和其他残疾的人员。软件产品的辅助功能示例包括屏幕阅读器支持、图形的对等文本、键盘快捷键、显示颜色更改为高对比度等等。
+辅助功能是指使产品可用于患有视觉、听觉、认知、运动和其他残疾的人员。软件产品的辅助功能示例包括语义结构化内容、屏幕阅读器支持、图形的对等文本、键盘快捷键等。
 
-Adobe Campaign Standard 提供了一些可供使用的工具，如对比度、键盘导航、上下文帮助和响应式调整大小。
+Adobe Campaign Standard提供的功能使对比度、标签、结构化内容、键盘导航和上下文帮助等更易于使用。
 
 ## 辅助功能 {#accessibility-features}
 
-### 对比度 {#contrast}
+### 对比度和颜色{#contrast}
 
-Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对比度，以确保视力低下或色觉缺失的用户具有可访问的观看体验。
+Adobe Campaign Standard用户界面努力在应用程序中提供足够的对比度，以确保低视觉或颜色缺陷的用户具有可访问的观看体验。
 
-* 工作流的暂停和取消图标已更新，以提高背景和前景之间的对比度。
-
-   ![](assets/accessibility_1.png)
-
-* 投放成功时显示的文本包含背景和前景之间对比度不足的大型绿色文本。对比度已更新，最小比率为 3:1。
+* 大文本和标题已得到增强，达到3:1的对比度。
 
    ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard 确保颜色、形状或位置不是用于传达信息或层次结构的唯一方法。
+* 应用程序中的帮助内容和正文文本已更新，符合4.5:1的对比度。
+
+* 工作流的暂停和取消图标已更新，以改善背景和前景颜色之间的对比度。
+
+   ![](assets/accessibility_1.png)
+
+* 颜色、形状和位置不是应用程序中用于传递信息或层次结构的唯一方法。
 
 ### 用户界面 {#user-interface}
 
-通过 Adobe Campaign Standard 用户界面，用户可更轻松地查看和收听内容，包括区分前景与背景，以及向不同可用按钮添加替代文本。
+Adobe Campaign Standard用户界面通过向可视元素添加替代文本以及使用语义结构以可视方式和有计划的方式传递信息，使所有用户能更轻松地与内容交互。
 
-* 当用户将必填 ID 字段留空时，图形会以可视方式指示哪个字段出错并显示错误消息文本。
+* 当用户将所需的ID字段留空时，图形会直观地指示出错消息文本的哪个字段，同一信息会通过屏幕阅读器等辅助技术有计划地传递给用户。
 
    ![](assets/accessibility_3.png)
 
@@ -51,39 +53,35 @@ Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对�
 
    ![](assets/accessibility_4.png)
 
-* 已添加图像按钮的替代文本，并且可以读取而不是查看插图。
+* 为图像添加了替代文本和按钮的辅助名称，并且可以使用辅助技术朗读，而不是只依赖视觉提示来识别元素。
 
-   ![](assets/accessibility_5.png)
+<!--
+### Create responsive resize for multiple devices {#resize-devices}
 
-* 使用列表时，数据表标题单元格不会在表的角落留空。
+When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-### 为多个设备创建响应式大小调整 {#resize-devices}
-
-为多个设备和平台进行设计时，针对各种移动和桌面分辨率的屏幕大小创建无缝体验至关重要。
-
-Adobe Campaign Standard 允许您在不同设备上设计并测试电子邮件和推送通知，例如：iPhone、Android 设备、iPad、Android 平板电脑和桌面。
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## 上下文帮助 {#contextual-help}
 
-上下文帮助可以帮助您更好地了解所请求的不同可用字段和功能。它还会指导您阅读产品文档，以了解有关所选功能的更多信息。
+上下文帮助可以帮助您更好地了解可用的不同请求字段和功能。 它还会指导您阅读产品文档，以了解有关所选功能的更多信息。
 
-设计电子邮件时，可以将鼠标悬停在信息按钮上。系统将显示工具提示，其中会提供功能描述和产品文档链接。
+在设计电子邮件时，您可以访问工具提示，其中提供功能描述和产品文档的链接。
 
 ![](assets/accessibility_7.png)
 
-## 支持屏幕放大器 {#screen-magnifiers}
+## 支持辅助技术{#screen-magnifiers}
 
-屏幕阅读器读取显示在计算机屏幕上的文本。它还会读取辅助功能标签或属性中提供的非文本信息，如应用程序中的按钮标签或图像描述。
-
-在 Adobe Campaign Standard 中，即使用户覆盖文本间距属性，内容和功能仍然可用。
+我们努力使Adobe Campaign Standard应用程序能通过各种辅助技术尽可能地使用，这些技术包括但不限于修改的键盘、屏幕放大软件、屏幕阅读器、语音识别软件和其他辅助设备。
 
 ## 使用首选语言 {#languages}
 
 Adobe Campaign Standard 提供不同语言形式：英语、法语和德语。
 
-请注意，语言在安装时进行设置，此后不能更改。
+请注意，语言是在安装时设置的，之后无法更改。
 
 ## 键盘快捷键 {#shortcuts}
 
