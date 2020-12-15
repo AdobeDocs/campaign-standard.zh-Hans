@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 配置事务型消息传递
-description: 了解如何配置事务消息传递。
-audience: administration
+title: 配置事务事件
+description: 了解如何在Adobe Campaign中配置事务事件。
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1672'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 完成配置后，必须发布事件。 请参阅[发布事务事件](../../channels/using/publishing-transactional-event.md)。
 
-## 创建事件{#creating-an-event}
+## 创建一个事件 {#creating-an-event}
 
 要开始，请创建与您的需求相对应的事件。
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->实时事件的数量可能会影响您的平台。 为确保最佳性能，请确保删除未使用的实时事件。 请参阅[删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
+>交易事件的数量可能会影响您的平台。 要确保最佳性能，请确保删除未使用的事件。 请参阅[删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
 
 ## 定义事件属性{#defining-the-event-attributes}
 
