@@ -6,9 +6,9 @@ description: 此页面详细描述最新 Campaign Standard 版本的内容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
