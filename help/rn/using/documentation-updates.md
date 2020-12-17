@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 “隐私”部分已移动。[阅读更多](../../start/using/privacy.md)
 
-新增了辅助功能页面，进一步了解Adobe Campaign Standard工作区中的辅助功能支持。 [阅读更多](../../start/using/accessibility.md)
+新增辅助功能页面，以详细了解 Adobe Campaign Standard 工作区中的辅助功能支持。[阅读更多](../../start/using/accessibility.md)
 
 “事务性消息传递”部分新增了一个限制，说明为获得最佳性能，已发布事务性消息的数量应保持在100以下。 [阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -117,7 +117,7 @@ Campaign Standard 概述页面进行了扩充，并重组到了专门的主题�
 
 **此版本中包含的新增功能**
 
-泰国个人数据保护法 (PDPA) - [了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html)
+泰国个人数据保护法 (PDPA) - [了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 External API 活动 (GA) - [了解更多](../../automating/using/external-api.md)
 
@@ -141,7 +141,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。[了解更多](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-Transactional messaging部分已得到改进，其中包含有关如何访问最新事务事件和更新屏幕截图的信息。 [了解更多](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+改进了“事务性消息传递”部分，包含有关如何访问最新事务性事件和已更新的屏幕截图的信息。[了解更多](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 对“类型和类型规则”章节进行了修改，并更新了关于内置类型规则的更多信息。[了解更多](../../sending/using/about-typology-rules.md)
 
@@ -157,7 +157,7 @@ Transactional messaging部分已得到改进，其中包含有关如何访问最
 
 更新了“配置电子邮件渠道”章节，明确了现在由 Adobe Campaign Enhanced MTA 管理的所有电子邮件设置。[了解更多](../../administration/using/configuring-email-channel.md)
 
-“事务性消息”部分已更新，其中包含有关编辑事件配置所需权限以及如何丰富事务性消息中的集合的更多信息。 [了解更多](../../channels/using/configuring-transactional-event.md)。
+更新了“事务性消息传递”部分，包含有关编辑事件配置所需的权限以及如何扩充事务性消息中的集合的更多信息。[了解更多](../../channels/using/configuring-transactional-event.md)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -275,13 +275,13 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 **此版本中包含的新增功能**
 
-加利福尼亚消费者隐私法 (CCPA) - [了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#ccpa)
+加利福尼亚消费者隐私法 (CCPA) - [了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **随版本提供的其他文档更新**
 
-Adobe Campaign 的错误消息列表已更新。[阅读更多](https://docs.campaign.adobe.com/doc/AC/cn/technicalResources/error_messages/error_codes.html)
+Adobe Campaign 的错误消息列表已更新。[阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)
 
@@ -607,7 +607,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **此版本中包含的新增功能**
 
-GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html)
+GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 推送改进 - 详细的投放反馈- [了解更多](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -809,7 +809,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了[投放警报](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文档，添加了疑难解答章节，提供了关于在收到警报时可以采取哪些操作的一些提示。
 
-提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_DeliveryBestPractices.html)
+提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
 更新了“跟进消息”文档，提供了经过改进的使用案例。[了解更多](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -941,7 +941,7 @@ Triggers 集成：添加了两个使用案例。[了解更多](../../integrating
 
 事务型消息传递 API - [了解更多](../../api/using/get-started-apis.md)
 
-事务性消息的营销功能- [阅读更多](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+事务性消息的营销功能 - [了解更多](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **随版本提供的其他文档更新**
 
