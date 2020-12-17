@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: '帮助中心可帮助了解在使用 Campaign Standard 时所需的主要功能、任务、设置及其他资源。 '
+user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,17 +121,17 @@ ht-degree: 98%
    + 事务型消息传递 {#transactional-messaging}
       + [事务性消息传递入门](channels/using/getting-started-with-transactional-msg.md)
       + [最佳实践和限制](channels/using/transactional-messaging-limitations.md)
-      + 事件配置{#event-configuration}
-         + [配置事务事件](channels/using/configuring-transactional-event.md)
-         + [发布交易事件](channels/using/publishing-transactional-event.md)
-      + 事务性消息版{#transactional-message-edition}
+      + 事件配置 {#event-configuration}
+         + [配置事务性事件](channels/using/configuring-transactional-event.md)
+         + [发布事务性事件](channels/using/publishing-transactional-event.md)
+      + 事务性消息编辑 {#transactional-message-edition}
          + [编辑事务性消息](channels/using/editing-transactional-message.md)
          + [测试事务型消息](channels/using/testing-transactional-message.md)
          + [事务性消息生命周期](channels/using/publishing-transactional-message.md)
          + [执行和监视](channels/using/transactional-message-execution.md)
       + [事务型推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
-      + [交易消息使用案例](channels/using/transactional-messaging-use-case.md)
+      + [事务性消息传递用例](channels/using/transactional-messaging-use-case.md)
    + 登陆页面 {#landing-pages}
       + [登陆页面快速入门](channels/using/getting-started-with-landing-pages.md)
       + [关于登陆页面模板](channels/using/landing-page-templates.md)
