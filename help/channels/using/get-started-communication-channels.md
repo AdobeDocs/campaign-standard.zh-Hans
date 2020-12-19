@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 通信渠道入门
-description: 在各种渠道上创建个性化信息，使用模板，创建登陆页并检查最佳实践。
+description: 在各种渠道上创建个性化信息，使用模板，创建登陆页，以及查看最佳实践。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -73,8 +73,8 @@ Adobe Campaign允许您跨每个渠道启动、评估和自动化活动。
 阅读更多:
 
 * [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md)
-* [配置事务事件](../../channels/using/configuring-transactional-event.md)
-* [发布交易事件](../../channels/using/publishing-transactional-event.md)
+* [配置事务性事件](../../channels/using/configuring-transactional-event.md)
+* [发布事务性事件](../../channels/using/publishing-transactional-event.md)
 * [编辑事务性消息](../../channels/using/editing-transactional-message.md)
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md)
 * [事务型推送通知](../../channels/using/transactional-push-notifications.md)
