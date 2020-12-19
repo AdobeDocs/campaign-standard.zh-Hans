@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 发行说明 2019{#release-notes-2019}
 
-[发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板发](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) 行|文 [档更新](../../rn/using/documentation-updates.md) |最新发 [行说明](../../rn/using/release-notes.md)  [|已弃用功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板发](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) 行|文 [档更新](../../rn/using/documentation-updates.md) |最新发 [行说明](../../rn/using/release-notes.md)  [|已弃用功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 
 ## 版本19.4 - 2019年12月{#release-19-4---october-2019}
 
@@ -36,7 +36,7 @@ ht-degree: 8%
    <ul>
     <li>访问权和删除权：我们正在利用为GDPR增加的功能。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
     <li><p>创建隐私请求时，隐私核心服务中已添加规章类型（GDPR或CCPA）。 您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已弃用和已删除的功能</a>一文。</p></li>
-    <li><strong>CCPA选择退出</strong>字段已添加到用户档案资源，以允许Adobe Campaign用户跟踪消费者是否已选择退出个人信息的销售。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#ccpa">了解详情</a>。</li>
+    <li><strong>CCPA选择退出</strong>字段已添加到用户档案资源，以允许Adobe Campaign用户跟踪消费者是否已选择退出个人信息的销售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">了解详情</a>。</li>
   </ul>
     <p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">操作方法视频</a>。</p>
 </td> 
