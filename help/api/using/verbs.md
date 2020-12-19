@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# GET/POST/PATCH/DELETE动词 {#verbs}
+# GET/POST/PATCH/DELETE动词{#verbs}
 
 对资源执行操作的可用动词有：
 
