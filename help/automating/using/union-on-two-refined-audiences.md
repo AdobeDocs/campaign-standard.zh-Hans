@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first [Read audience](../../automating/using/read-audience.md) activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
+* 第一个[读取受众](../../automating/using/read-audience.md)活动，它检索黄金成员受众，并通过仅选择18到30年的用户档案来细化它。
 * 其次是 **[!UICONTROL Read audience]** 活动，用于检索银牌会员受众，并通过仅选择 18 到 30 岁之间的用户档案对其进行优化。
-* A [Union](../../automating/using/union.md) activity that unites populations from both **[!UICONTROL Read audiences]** activities into one final population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* 一种[合并](../../automating/using/union.md)活动，将来自&#x200B;**[!UICONTROL Read audiences]**&#x200B;活动的人口合并为一个最终人口。
+* [电子邮件投放](../../automating/using/email-delivery.md)活动，将电子邮件发送给来自&#x200B;**[!UICONTROL Union]**&#x200B;活动的用户。
