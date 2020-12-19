@@ -24,18 +24,18 @@ ht-degree: 67%
 
 ![](assets/incremental_query_example1.png)
 
-* A [Scheduler](../../automating/using/scheduler.md) activity, to execute the workflow every Monday at 6 am.
+* [调度程序](../../automating/using/scheduler.md)活动，每周一早6点执行工作流。
 
    ![](assets/incremental_query_example2.png)
 
-* An [Incremental query](../../automating/using/incremental-query.md) activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
+* 一个[增量查询](../../automating/using/incremental-query.md)活动，在第一次执行期间目标所有当前订户，然后在以下执行期间仅该周的新订户。
 
    ![](assets/incremental_query_example3.png)
 
-* 电子 [邮件投放](../../automating/using/email-delivery.md) 活动。 该工作流每周执行一次，但您可以聚合每月发送的电子邮件和结果以生成报告，例如，生成针对整个月（而不仅仅是一周）时间段的报表。
+* [电子邮件投放](../../automating/using/email-delivery.md)活动。 该工作流每周执行一次，但您可以聚合每月发送的电子邮件和结果以生成报告，例如，生成针对整个月（而不仅仅是一周）时间段的报表。
 
    要实现此目的，请选择在此处创建一个 **[!UICONTROL Recurring email]**，以 **[!UICONTROL By month]** 重组电子邮件和结果。
 
-   定义电子邮件的内容并插入欢迎促销代码。有关此内容的详细信息，请参 [阅定义电子邮件内](../../designing/using/personalization.md) 容部分。
+   定义电子邮件的内容并插入欢迎促销代码。有关详细信息，请参阅[定义电子邮件内容](../../designing/using/personalization.md)部分。
 
 然后，启动工作流执行。新订阅者每周都将收到包含促销代码的欢迎电子邮件。
