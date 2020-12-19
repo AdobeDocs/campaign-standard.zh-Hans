@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
 
-本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参 [阅本节](../../api/using/get-started-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参阅[本节](../../api/using/get-started-apis.md)。
 
 ## 先决条件{#prerequisites}
 
@@ -34,9 +34,9 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 
 创建数据映射后，必须停止它的运行，以便您可以随时从API触发它。 为此，请执行以下步骤：
 
-1. 在Campaign Standard中，转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** >菜 **[!UICONTROL Status of data export to platform]** 单。
+1. 在Campaign Standard中，转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;菜单。
 
-1. 多次-单击数据映射以打开它，然后单击按 **[!UICONTROL Stop]** 钮。
+1. 多次-单击数据映射以打开它，然后单击&#x200B;**[!UICONTROL Stop]**&#x200B;按钮。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 
 数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发它。
 
-## 开始立即获取数据映射 {#starting-immediate-ingestion}
+## 开始立即获取数据映射{#starting-immediate-ingestion}
 
 通过POST操作，可立即触发XDM映射到Adobe Experience Platform:
 
@@ -52,9 +52,10 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 
 >[!NOTE]
 >
->要执行收录POSTAPI调用，用户必须具有SQL函 **数执行角色** ，该角色可由Campaign Standard管理员通过执行以下JS脚本提供：
+>要执行收录POSTAPI调用，用户必须具有&#x200B;**SQL函数执行**&#x200B;角色，Campaign Standard管理员可通过执行以下JS脚本来提供该角色：
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -94,7 +95,7 @@ POST操作会返回有关已创建请求状态的信息：
 }
 ```
 
-## 检索摄取请求的状态 {#retrieving-status}
+## 检索摄取请求{#retrieving-status}的状态
 
 可以使用GET操作和参数中的所需请求ID来检索摄取请求的状态：
 
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有关XDM映射请求状态及其相关作业的详细信息，请在Campaign Standard界面中的菜单中查 **[!UICONTROL Status of data export to platform]** 看(请参阅 [映射激活](../../developing/using/aep-mapping-activation.md))。
+>有关XDM映射请求状态及其相关作业的详细信息，请参阅&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;菜单中的Campaign Standard接口(请参阅[映射激活](../../developing/using/aep-mapping-activation.md))。
 
 GET操作返回以下信息：
 
