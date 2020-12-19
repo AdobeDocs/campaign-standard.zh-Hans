@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 更新用户档案的组织单位 {#managing-organizational-units}
 
-1. 对orgUnitBase资源执 **行GET请求** ，以检索组织单位PKey
+1. 在&#x200B;**orgUnitBase**&#x200B;资源上执行GET请求以检索组织单元PKey
 1. 对用户档案PKey执行PATCH请求，在有效负荷中使用所需的组织单位PKey。
 
 <br/>
