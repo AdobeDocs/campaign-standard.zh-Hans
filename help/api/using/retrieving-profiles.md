@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # 检索用户档案 {#retrieving-profiles}
 
-检索用户档案是使用GET请 **求** 执行的。
+使用&#x200B;**用户档案**&#x200B;请求执行检索GET。
 
-然后，您可以使用过滤器、排序和分页来优化搜索。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+然后，您可以使用过滤器、排序和分页来优化搜索。 有关详细信息，请参阅[其他操作](../../api/using/sorting.md)部分。
 
 <br/>
 
