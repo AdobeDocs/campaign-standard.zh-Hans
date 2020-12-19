@@ -32,7 +32,7 @@ ht-degree: 9%
 * 继续
 * 停止
 
-有关执行命令的详细信息，请参阅 [活动文档](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
+有关执行命令的详细信息，请参阅[活动文档](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 
