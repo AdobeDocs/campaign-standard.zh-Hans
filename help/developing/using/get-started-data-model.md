@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign Standard 数据模型快速入门
-description: 使用自定义字段和资源丰富 Campaign Standard 数据模型，并扩展 REST API 以公开扩展字段。
+description: 使用自定义字段和资源来丰富 Campaign Standard 数据模型，并扩展 REST API 以利用扩展的字段。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
