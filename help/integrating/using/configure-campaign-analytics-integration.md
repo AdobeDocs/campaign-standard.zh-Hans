@@ -23,25 +23,25 @@ ht-degree: 9%
 
 外部帐户和技术工作流只能由平台的功能管理员进行管理。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
+1. 从高级菜单中，通过Adobe Campaign标志选择&#x200B;**[!UICONTROL Administration > Application settings > External accounts]**。
+1. 选择&#x200B;**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;外部帐户。
 
    ![](assets/analytics_2.png)
 
-1. 在字 **[!UICONTROL Web services user name]** 段中 **[!UICONTROL Web services share secret]** 指定您 **[!UICONTROL Connection]** 的和。
+1. 在&#x200B;**[!UICONTROL Connection]**&#x200B;字段中指定&#x200B;**[!UICONTROL Web services user name]**&#x200B;和&#x200B;**[!UICONTROL Web services share secret]**。
 
-   您可以通过选择在Analytics中找到这些参 **[!UICONTROL Admin > Company settings > Web services]**&#x200B;数。
+   通过选择&#x200B;**[!UICONTROL Admin > Company settings > Web services]**，可以在Analytics中找到这些参数。
 
    ![](assets/analytics_1.png)
 
 1. 单击 **[!UICONTROL Refresh report suites]** 按钮。
-1. 从下拉 **[!UICONTROL Analytics default report suite]** 列表中选择要用Adobe Campaign数据丰富的Adobe Analytics报表包。
+1. 在&#x200B;**[!UICONTROL Analytics default report suite]**&#x200B;下拉框中，选择要用Adobe Campaign数据丰富的Adobe Analytics报表包。
 
-   您的外部帐户现已准备就绪，并已与Adobe Analytics建立联系。 您可以通过选中该框随时禁用该 **[!UICONTROL Enabled]** 功能。
+   您的外部帐户现已准备就绪，并已与Adobe Analytics建立联系。 您可以通过选中&#x200B;**[!UICONTROL Enabled]**&#x200B;框随时禁用它。
 
    ![](assets/analytics.png)
 
-技术 **[!UICONTROL Share KPIs with Adobe Analytics]** 工作流现在将自动启动，并可通过选择从高级菜单查看该工作流 **[!UICONTROL Administration > Application settings > Workflow]**。 此技术工作流程将每15分钟自动执行一次，并将在Adobe Analytics推送最多6个月的旧数据。
+现在，**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;技术工作流将自动启动，并可通过选择&#x200B;**[!UICONTROL Administration > Application settings > Workflow]**&#x200B;从高级菜单查看。 此技术工作流程将每15分钟自动执行一次，并将在Adobe Analytics推送最多6个月的旧数据。
 
 ![](assets/analytics_3.png)
 
@@ -51,5 +51,5 @@ ht-degree: 9%
 
 * [外部帐户](../../administration/using/external-accounts.md)
 * [技术工作流](../../administration/using/technical-workflows.md)
-* [共享KPI以实现集成活动报告](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 视频
+* [共享KPI以实现集成活动报](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 告视频
 
