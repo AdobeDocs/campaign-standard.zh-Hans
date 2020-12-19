@@ -24,8 +24,8 @@ ht-degree: 78%
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
-* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. 例如：
+* [查询](../../automating/using/query.md)活动,目标将接收消息的用户档案。
+* 加载购买数据的[文件](../../automating/using/load-file.md)活动。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ ht-degree: 78%
 
    对于此示例文件，我们将使用电子邮件地址，将数据与数据库用户档案进行协调。您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
+* 一个[扩充](../../automating/using/enrichment.md)活动，它在从文件加载的事务数据和在&#x200B;**[!UICONTROL Query]**&#x200B;中选择的用户档案之间创建链接。 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 78%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
+* 仅具有一个段的[分段](../../automating/using/segmentation.md)活动，它检索至少记录了两个事务的初始目标的用户档案。 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
+* [电子邮件投放](../../automating/using/email-delivery.md)活动，使用在&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定义的其他数据动态检索用户档案最后购买的两个数据。 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
 
    ![](assets/enrichment_example_workflow10.png)
 
