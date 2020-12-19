@@ -16,7 +16,7 @@ ht-degree: 79%
 ---
 
 
-# External signal and data import {#external-signal-data-import}
+# 外部信号和数据导入{#external-signal-data-import}
 
 下方的示例展示了典型使用案例中的 **[!UICONTROL External signal]** 活动。在源工作流中执行数据导入。完成导入并更新数据库后，将触发第二个工作流。第二个工作流用于更新导入数据的聚合。
 
@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。
-* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
+* [End](../../automating/using/start-and-end.md)活动触发目标工作流，该工作流用于更新聚合。
 
 ![](assets/signal_example_source1.png)
 
 目标工作流如下所示：
 
-* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* [外部信号](../../automating/using/external-signal.md)活动等待源工作流成功完成。
 * [查询](../../automating/using/query.md#enriching-data)活动会定向用户档案，并通过集合集对进行扩充，以检索上次购买日期。
 * [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，用户档案资源已扩展，添加了 **Last purchase date** 字段。
 
