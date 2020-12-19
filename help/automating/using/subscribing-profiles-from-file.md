@@ -16,7 +16,7 @@ ht-degree: 53%
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# 在导入文件{#subscribing-profiles-to-a-specific-service-after-importing-a-file}后为特定服务订阅用户档案
 
 此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* [加载文件](../../automating/using/load-file.md)活动加载用户档案文件并定义导入列的结构。
 
    在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
+* [协调](../../automating/using/reconciliation.md)活动将文件中的数据标识为属于Adobe Campaign库的用户档案维。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
+* 基于临时资源的&#x200B;**email**&#x200B;字段的[外部重复数据删除](../../automating/using/deduplication.md)标识任何重复。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* [订阅服务](../../automating/using/subscription-services.md)活动允许您选择用户档案必须订阅的服务、与订阅日期对应的字段以及订阅的来源。
 
    ![](assets/subscription_activity_example4.png)
