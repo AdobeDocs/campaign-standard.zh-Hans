@@ -28,7 +28,7 @@ ht-degree: 86%
 
 ![](assets/reconciliation_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. 导入的文件包含以下数据：
+* [加载文件](../../automating/using/load-file.md)活动，加载并检测要导入的文件的数据。 导入的文件包含以下数据：
 
    * 交易日期
    * 客户电子邮件地址
@@ -47,7 +47,7 @@ ht-degree: 86%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
+* [协调](../../automating/using/reconciliation.md)活动，将购买数据绑定到数据库用户档案和产品。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
 
    * 与&#x200B;**用户档案**&#x200B;的关系：文件的 **client** 列链接到&#x200B;**用户档案**&#x200B;维度的 **email** 字段。
    * 与&#x200B;**产品**&#x200B;的关系：文件的 **product** 列链接到&#x200B;**用户档案**&#x200B;维度的 **productCode** 字段。
@@ -56,7 +56,7 @@ ht-degree: 86%
 
    ![](assets/reconciliation_example3.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. 由于数据已在上一活动中被识别为归属&#x200B;**交易**&#x200B;维度，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
+* [更新数据](../../automating/using/update-data.md)活动允许您定义要使用导入的数据进行更新的数据库字段。 由于数据已在上一活动中被识别为归属&#x200B;**交易**&#x200B;维度，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
 
    通过使用“自动检测要更新字段”的选项，将之前活动中配置的链接（到用户档案和产品）添加到 **[!UICONTROL Fields to update]** 的列表。您还必须确保将与交易日期对应的字段正确添加到此列表。
 
