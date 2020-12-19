@@ -16,7 +16,7 @@ ht-degree: 59%
 ---
 
 
-# 编辑事务性消息{#editing-transactional-message}
+# 编辑事务性消息 {#editing-transactional-message}
 
 创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务性消息。
 
