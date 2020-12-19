@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/direct_mail_return_sender_1.png)
 
-导入模板位于 **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**。 重复此模板以创建您自己的模板。 有关使用导入模板的详细信息，请参阅 [使用导入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
+导入模板位于&#x200B;**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;下。 重复此模板以创建您自己的模板。 有关使用导入模板的详细信息，请参阅[使用导入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
 
 ![](assets/direct_mail_return_sender_2.png)
 
