@@ -21,48 +21,48 @@ ht-degree: 1%
 
 您有多种选项可用于监视订阅与退订:
 
-* 视图服务仪表板中当前订阅您服务的人员的列表。 请参 [阅服务仪表板](#service-dashboard)。
-* 从服务订阅的订阅历史记录选项卡 **中查** 阅仪表板和退订的历史记录。 查看 [订阅历史](#subscription-history)。
-* 显示详细说明服务报告中订阅和退订演变的 **报告**。 请参阅 [服务报告](#service-reports)。
-* 查找用户从其列表订阅的服务 **用户档案**。 请参 [阅链接到事件的历史记录](#history-of-events-linked-to-a-profile)。
+* 视图服务仪表板中当前订阅您服务的人员的列表。 请参阅[服务仪表板](#service-dashboard)。
+* 从服务订阅的&#x200B;**订阅历史记录**&#x200B;选项卡中查阅退订和仪表板的历史记录。 请参阅[订阅历史记录](#subscription-history)。
+* 显示详细说明服务&#x200B;**Reports**&#x200B;中订阅和退订演变的报告。 请参阅[服务报告](#service-reports)。
+* 查找用户从其&#x200B;**用户档案**&#x200B;订阅的服务列表。 请参阅[链接到用户档案的事件的历史记录](#history-of-events-linked-to-a-profile)。
 
-## 服务仪表板 {#service-dashboard}
+## 服务仪表板{#service-dashboard}
 
 视图订阅服务的人员的列表:
 
-1. 通过高级菜单列表和用户档案>服 **务转到服务** , ****&#x200B;可从Adobe Campaign徽标访问该受众。
+1. 通过高级菜单&#x200B;**列表和受众** > **服务**&#x200B;转到服务用户档案，该菜单可从Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 订阅服务的人员的列表位于“订阅”选 **项卡** 。
+1. 订阅服务的人员的列表位于&#x200B;**订阅**&#x200B;选项卡中。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## 订阅历史 {#subscription-history}
+## 订阅历史记录{#subscription-history}
 
 要查阅订阅和退订历史记录，请执行以下操作：
 
-1. 通过高级菜单列表和用户档案>服 **务转到服务** , ****&#x200B;可从Adobe Campaign徽标访问该受众。
+1. 通过高级菜单&#x200B;**列表和受众** > **服务**&#x200B;转到服务用户档案，该菜单可从Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 选择订阅 **历史记录** 选项卡，以显示每个人订阅和取消订阅的日期。
+1. 选择&#x200B;**订阅历史记录**&#x200B;选项卡以显示每个订阅和取消订阅的人的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## 服务报告 {#service-reports}
+## 服务报告{#service-reports}
 
 要显示详细说明订阅和退订演变的报告，请执行以下操作：
 
-1. 通过高级菜单列表和用户档案>服 **务转到服务** , ****&#x200B;可从Adobe Campaign徽标访问该受众。
+1. 通过高级菜单&#x200B;**列表和受众** > **服务**&#x200B;转到服务用户档案，该菜单可从Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 单击操 **作栏** 中的“报告”按钮，然后 **在选择屏** 幕中进行订阅监视。
+1. 单击操作栏中的&#x200B;**报告**&#x200B;按钮，然后单击选择屏幕中的&#x200B;**订阅监视**。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. 服务 **摘要报** 告显示订阅的数量、订阅的总体演化，以及显示一段时间内的进度的曲线。
+1. **服务摘要**&#x200B;报告显示订阅数、订阅的总体演化，以及显示一段时间内的进度的曲线。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## 链接到事件的用户档案历史 {#history-of-events-linked-to-a-profile}
+## 链接到事件{#history-of-events-linked-to-a-profile}的用户档案的历史记录
 
-要咨询联系人订阅的服务列表，可咨询其营销历史。 有关此方面的详细信息，请参阅集 [成式客户档案](../../audiences/using/integrated-customer-profile.md) 部分。
+要咨询联系人订阅的服务列表，可咨询其营销历史。 有关详细信息，请参阅[集成客户配置文件](../../audiences/using/integrated-customer-profile.md)部分。
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
