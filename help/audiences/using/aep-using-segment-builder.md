@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
-区段生成器允许您根据来自实时受众的数据定义 [规则，从而构建用户档案](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)。
+区段生成器允许您根据来自[实时客户用户档案](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)的数据定义规则，从而构建受众。
 
-本节介绍在构建区段时的全局概念。 有关区段生成器本身的详细信息，请参阅“区 [段生成器用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)”。
+本节介绍在构建区段时的全局概念。 有关Segment Builder本身的详细信息，请参阅[Segment Builder用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
 Segment Builder界面由以下部分组成：
 
@@ -46,7 +46,7 @@ Segment Builder界面由以下部分组成：
 
 1. 确保在设置窗格中选择了所需的合并策略。
 
-   有关合并策略的详细信息，请参阅“Segment Builder用户指 [南”中的专用部分](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+   有关合并策略的详细信息，请参阅[Segment Builder用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,25 +64,25 @@ Segment Builder界面由以下部分组成：
 
 左窗格列表所有可用于构建规则的属性、事件和受众。
 
-所列字段是公司捕获的属性，并已通过体验数据 [模型(XDM)系统提供](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)。
+列出的字段是公司捕获的属性，已通过[体验数据模型(XDM)系统](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)提供。
 
 字段按选项卡进行组织：
 
-* **[!UICONTROL Attributes]**:现有用户档案属性可能源自您的Adobe Campaign库和／或Adobe Experience Platform。 它们指附加到用户档案的静态信息(例如，电子邮件地址、居住国家／地区、忠诚项目状态等)。
+* **[!UICONTROL Attributes]**:现有用户档案属性可能源自您的Adobe Campaign库和／或Adobe Experience Platform。它们指附加到用户档案的静态信息(例如，电子邮件地址、居住国家／地区、忠诚项目状态等)。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:识别与公司客户接触点进行过一些交互的消费者的活动，例如“两周内订购两次的任何人”。 这可以从Adobe Analytics进行流传输，或使用第三方ETL工具直接摄入Adobe Experience Platform。
+* **[!UICONTROL Events]**:识别与公司客户接触点进行过一些交互的消费者的活动，例如“两周内订购两次的任何人”。这可以从Adobe Analytics进行流传输，或使用第三方ETL工具直接摄入Adobe Experience Platform。
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**多实体细分** 允许您根据产品、商店或其他非用户档案类扩展用户档案数据，并添加其他数据。 连接后，来自其他类的数据将变得像用户档案模式的本机数据一样可用。
+>**多实体细** 分允许您根据产品、商店或其他非用户档案类扩展用户档案数据。连接后，来自其他类的数据将变得像用户档案模式的本机数据一样可用。
 >
 >有关更多信息，请参阅[专用文档](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)。
 
-默认情况下，区段生成器显示其中已有数据的字段。 要显示完整模式（包括没有数据的字段），请从设 **[!UICONTROL Show full XDM schema]** 置中启用选项。
+默认情况下，区段生成器显示其中已有数据的字段。 要显示完整模式，包括没有数据的字段，请启用设置中的&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;选项。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ Segment Builder界面由以下部分组成：
 
 >[!NOTE]
 >
->以下部分提供有关规则定义的全局信息。 有关此方面的详细信息，请参 [阅“Segment Builder”用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+>以下部分提供有关规则定义的全局信息。 有关详细信息，请参阅[Segment Builder用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
 要构建规则，请按照以下步骤操作：
 
@@ -106,9 +106,9 @@ Segment Builder界面由以下部分组成：
 
    ![](assets/aep_audiences_malegender.png)
 
-   在该节中自动重新计算与该段对应的估计 **[!UICONTROL Segment Properties]** 人口。
+   在&#x200B;**[!UICONTROL Segment Properties]**&#x200B;节中自动重新计算与区段对应的估计人口。
 
-1. 按 **[!UICONTROL View Profiles]** 钮将预览前20条记录，这些记录与规则对应，使您能够快速验证区段。
+1. **[!UICONTROL View Profiles]**&#x200B;按钮可预览前20条与规则对应的记录，使您能够快速验证区段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Segment Builder界面由以下部分组成：
 
 1. 选择将与第一个字段进行比较的第二个字段（例如，工作地址邮政编码）。
 
-   将其拖动到中心工作区上，与框中的第一个字段容器 **[!UICONTROL Drop here to compare operands]** 相同。
+   将其拖动到中心工作区上，其容器与第一个字段所在的&#x200B;**[!UICONTROL Drop here to compare operands]**&#x200B;框中相同。
 
    ![](assets/aep_audiences_comparing_2.png)
 
