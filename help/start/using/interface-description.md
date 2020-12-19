@@ -38,7 +38,7 @@ ht-degree: 96%
 * 利用 **[!UICONTROL Create an SMS]** 卡，可使用短信创建助手。利用此助手，可选择短信类型、选择消息收件人并定义内容。请参阅[创建短信](../../channels/using/creating-an-sms-message.md)一节。
 * 利用 **[!UICONTROL Create a Direct mail]** 卡，可使用直邮创建助手。请参阅[创建直邮](../../channels/using/creating-the-direct-mail.md)一节。
 * 利用 **[!UICONTROL Create a push notification]** 卡，可使用通知创建助手。利用此助手，可选择推送通知的类型、选择消息收件人并定义内容。请参阅[创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)一节。
-* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. 此助手允许您选择要创建的应用程序内消息的类型，定义其属性、受众和内容。 Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
+* **[!UICONTROL Create an In-App message]**&#x200B;卡将带您进入应用程序内创建助手。 此助手允许您选择要创建的应用程序内消息的类型，定义其属性、受众和内容。 请参阅[创建应用程序内消息](../../channels/using/about-in-app-messaging.md)部分。
 * 利用 **[!UICONTROL Marketing activities]** 卡，可访问所有活动、项目和营销策划的完整列表，特别是电子邮件、短信、工作流和登陆页面。然后，您可以在此处按名称、日期、状态或活动类型进行搜索，以筛选元素。有关更多信息，请参阅[营销活动列表](../../start/using/marketing-activities.md#about-marketing-activities)一节。
 * 利用 **[!UICONTROL Programs & campaigns]** 卡可转到项目列表，您可以在其中创建和管理营销策划。请参阅[项目列表](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
 * 利用 **[!UICONTROL Timeline]** 卡可直接转到营销活动的交互式时间线，您可以在该时间线中查看正在进行的项目及其内容。请参阅[时间线](../../start/using/timeline.md)。
