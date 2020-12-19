@@ -27,4 +27,4 @@ ht-degree: 3%
 * A/B测试电子邮件：测试最多3个版本的电子邮件。
 * 交易电子邮件：基于客户行为触发的统一电子邮件。
 
-要了解创建和发送电子邮件时的最佳实践，请查阅 [投放最佳实践](../../sending/using/delivery-best-practices.md) 部分。
+要了解创建和发送电子邮件时的最佳实践，请查阅[投放最佳实践](../../sending/using/delivery-best-practices.md)部分。
