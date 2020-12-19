@@ -111,7 +111,7 @@ ht-degree: 98%
 
 要向推送通知添加到期日期，请执行以下操作：
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
+1. 检查&#x200B;**[!UICONTROL Expire message]**&#x200B;选项：通过选择&#x200B;**[!UICONTROL Expire message]**&#x200B;选项，持续时间将自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
 
 1. 在 **[!UICONTROL Duration]** 字段中，选择推送通知的有效期。
 
