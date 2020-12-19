@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 检索过滤器元数据
 
-过滤器适用于每个资源。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+过滤器适用于每个资源。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 有关元数据的详细信息，请参阅[此部分](../../api/using/metadata-mechanism.md)。
 
 要识别筛选器的元数据并确定如何使用它，您必须对先前返回的URL执行GET请求。
 
@@ -66,10 +66,10 @@ ht-degree: 1%
 
 每个筛选器都可以使用相同的元数据结构：
 
-* @ **formType** 和 **** @webPage字段是技术字段。
-* 数 **据字段** 提供了如何使用过滤器的示例。
-* 元数 **据节点** 描述筛选器参数。
-* 条 **件节点** 描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个筛选条件， **如果** enabledIf为 **true** ，将应用expr。
+* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;字段是技术字段。
+* **data**&#x200B;字段提供有关如何使用过滤器的示例。
+* **metadata**&#x200B;节点描述过滤器参数。
+* **condition**&#x200B;节点描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个过滤器条件，如果&#x200B;**enabledIf**&#x200B;为true，则将应用&#x200B;**expr**。
 
 <br/>
 
@@ -133,7 +133,8 @@ ht-degree: 1%
    }
    ```
 
-* GET请求示例：检索电子邮件或姓氏字段中包含“Doe”的“用户档案”资源（byText过滤器搜索电子邮件和姓氏字段）。
+* 检索包含“Doe”的“GET”资源的示例用户档案请求
+电子邮件或姓氏字段（byText过滤器会搜索电子邮件和姓氏字段）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
