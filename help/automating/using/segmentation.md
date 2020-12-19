@@ -44,7 +44,7 @@ ht-degree: 92%
 
 1. 将 **[!UICONTROL Segmentation]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. 在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中，选择要执行分段的&#x200B;**[!UICONTROL Resource type]**:
 
    * 如果对数据库中已存在的数据执行分段，则是 **[!UICONTROL Database resource]**。根据要分段的数据选择 **[!UICONTROL Filtering dimension]**。默认情况下，会对&#x200B;**用户档案**&#x200B;执行分段。
    * 如果对工作流的临时数据执行分段，则是 **[!UICONTROL Temporary resource]**：选择包含待分段数据的 **[!UICONTROL Targeted set]**。在导入文件后或扩充数据库中的数据后，可以会遇到此使用案例。
@@ -96,6 +96,6 @@ ht-degree: 92%
 
    * 如果想要集客群体的一个成员同时归属于多个区段，请勾选 **[!UICONTROL Enable overlapping of outbound populations]** 选项。活动的叫客群体可能超过集客群体。
    * 如果已经为集客群体分配了要保留的段码，请选中 **[!UICONTROL Concatenate the code of each segment]**&#x200B;选项。在活动中指定的段码，将被添加到初始段码。
-   * 如果要利用剩余群体，请选中 **[!UICONTROL Generate complement]** 选项。See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * 如果要利用剩余群体，请选中 **[!UICONTROL Generate complement]** 选项。请参阅[用例：使用补码](../../automating/using/workflow-created-query-with-complement.md)创建投放。
 
 1. 确认活动的配置并保存工作流。
