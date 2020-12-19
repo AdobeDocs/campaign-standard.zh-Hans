@@ -10,13 +10,13 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# 关于组织单位 {#about-organizational-units}
+# 关于组织单位{#about-organizational-units}
 
-通过 **orgUnitBase** endpoint，您可以与组织单位交互，例如，使您能够更新其属性或更新用户档案的组织单位。 有关活动中组织单位的详细信息，请参阅 [活动文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html)。
+通过&#x200B;**orgUnitBase**&#x200B;端点，您可以与组织单元交互，例如，允许您更新其属性或更新用户档案的组织单元。 有关活动中组织单位的详细信息，请参阅[活动文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hans#administrating)。
 
-扩展 **用户档案资** 源时，“组织单位”字段会添加到用户档案。 因此，请记住始终使用profileAndServicesExt **端点与** Geographicual Units进行交互。 有关用户档案资源扩展的详细信息，请参阅 [活动文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+在扩展用户档案资源时，将&#x200B;**组织单元**&#x200B;字段添加到用户档案。 因此，请记住始终使用&#x200B;**profileAndServicesExt**&#x200B;端点与地理单元交互。 有关用户档案资源扩展的详细信息，请参阅[活动文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
