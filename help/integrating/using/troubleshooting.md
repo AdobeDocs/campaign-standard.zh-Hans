@@ -23,16 +23,16 @@ ht-degree: 1%
 
 * **外部帐户**
 
-   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;中，确保正确配置了以下外部S3帐户。 在配置过程中应已配置上述S3服务器。
+   在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;中，确保正确配置以下外部S3帐户。 在配置过程中应已配置上述S3服务器。
 
    * **[!UICONTROL importSharedAudience]**:专用于导入受众的S3帐户。
    * **[!UICONTROL exportSharedAudience]**:专用于导出受众的S3帐户。
 
 * **共享数据源**
 
-   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;中，检查共享数据源设置是否正确。
+   在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;中，检查共享数据源设置是否正确。
 
-   **[!UICONTROL Priority]** 当您定义了多个数据源时使用。 优先级决定将哪个数据源用于匹配在定义的顺序中接收的别名。 **[!UICONTROL Priority]** 仅用于触发器实施。
+   **[!UICONTROL Priority]** 当您定义了多个数据源时使用。优先级决定将哪个数据源用于匹配在定义的顺序中接收的别名。 **[!UICONTROL Priority]** 仅用于触发器实施。
 
    检查合并关键项是否正确。 用于导出和导入受众的是此字段的哈希／加密值。
 
@@ -42,10 +42,10 @@ ht-degree: 1%
 
    如果选择AES加密算法，则必须正确设置以下附加字段：
 
-   * **AES的加密密钥** （英文）
-   * **AES的Encryption** IV（初始化矢量）
-   * **渠道** （电子邮件／短信／其他）:此字段允许直接解密电子邮件地址和SMS号码。 确保合并关键项与渠道字段的设置 **匹配** 。 如果您选择“其他”，则此特定解密不会发生，并且合并关键项将用于协调数据。
+   * **AES的** 加密密钥
+   * **AES的Encryption**  IV（初始化矢量）
+   * **渠道** （电子邮件／短信／其他）:此字段允许直接解密电子邮件地址和SMS号码。确保合并关键项符与&#x200B;**渠道**&#x200B;字段的设置匹配。 如果您选择“其他”，则此特定解密不会发生，并且合并关键项将用于协调数据。
 
-   Experience Cloud受众可能未共享，因为技术工作流已停止或暂停。 直接单击 **[!UICONTROL Import shared audience]** 数据源中的选项， **[!UICONTROL Show ImportShared Audience workflow]** 以访问工作流。
+   Experience Cloud受众可能未共享，因为技术工作流已停止或暂停。 直接单击数据源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;选项，访问&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流。
 
 在通过People核心服务共享受众或导入受众时，可能会丢失某些数据。 只能传输ID(“访客ID”或“声明ID”)与用户档案维协调的记录。 不会导入Adobe Campaign无法识别的People核心服务区段的ID。
