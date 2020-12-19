@@ -26,9 +26,9 @@ ht-degree: 66%
 
 工作流由以下元素组成：
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. 区段根据以下参数进行定义：
+* 用于指定工作流执行日期的[调度程序活动](../../automating/using/segmentation.md)。
+* [查询](../../automating/using/query.md)活动,目标已输入生日和电子邮件地址的用户档案。
+* [分段](../../automating/using/segmentation.md)活动，用于创建3个分为不同出站过渡的段：18-25岁，26-32岁，用户档案32岁以上。 区段根据以下参数进行定义：
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 每个 [区段的电子邮件投放](../../automating/using/email-delivery.md) 活动。
+* 每段[电子邮件投放](../../automating/using/email-delivery.md)活动。
