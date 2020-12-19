@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 动态报告入门
-description: 分析促销活动在内建或自定义动态报告中成功与否。
+description: 在内建或自定义的动态报告中，分析促销活动成功与否。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -63,7 +63,7 @@ Campaign Standard附带一组&#x200B;**随时可用的动态报告**，允许您
 
 拖放&#x200B;**可视化项目**，将数据的图形表示添加到报表中并根据需要进行配置。
 
-Create reports based on **custom profile data** created during the Profile resource extension, and **reports based on segments** defined in targeting workflows.
+根据在用户档案资源扩展期间创建的&#x200B;**自定义用户档案数据**&#x200B;创建报告，并根据在定位工作流中定义的区段&#x200B;**创建报告。**
 
 阅读更多:
 
@@ -84,4 +84,4 @@ Create reports based on **custom profile data** created during the Profile resou
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供其他Campaign Standard操作方法视频。[
