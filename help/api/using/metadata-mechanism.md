@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # 元数据机制 {#metadata-mechanism}
 
-您可以在GET请求中使用 **resourceType** 检索资源元数据：
+在GET请求中，可以使用&#x200B;**resourceType**&#x200B;检索资源元数据：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 响应会返回资源中的主元数据（所有其他字段都是描述性的或内部的）:
 
-* “内 **容** ”节点返回资源的字段。 对于内容节点中 **的每** 个字段，我们可以找到以下字段：
+* **Content**&#x200B;节点返回资源的字段。 对于&#x200B;**content**&#x200B;节点中的每个字段，我们可以找到以下字段：
 
    * &quot;apiName&quot;:API中使用的属性的名称。
    * “类型”:这是高级类型定义(字符串、数字、链接、集合、明细列表...)。
@@ -32,9 +32,9 @@ ht-degree: 1%
    * &quot;resType&quot;:这是技术类型。
 
       如果“type”是用值“link”或“collection”完成的，则resTarget值是链接所针对资源的名称。
-如果“type”是用值“明细列表”完成的，则会添加“values”字段，并在值节点中详细说明每个明细列表 **值** 。
+如果“type”是用值“明细列表”完成的，则会添加一个“values”字段，并在**values**&#x200B;节点中详细说明每个明细列表值。
 
-* 过滤器 **节点** 会返回URL以检索关联的过滤器。 For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* **过滤器**&#x200B;节点返回URL以检索相关过滤器。 有关过滤器的详细信息，请参阅[此部分](../../api/using/filtering.md)部分。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
