@@ -21,15 +21,15 @@ ht-degree: 2%
 
 **功能是否已激活？**
 
-要检查触发器-活动集成是否已激活，请单击左上角的Adobe Campaign标志，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**。 您应该看到该 **[!UICONTROL Experience Cloud Triggers]** 项目。
+要检查触发器-活动集成是否已激活，请单击左上角的Adobe Campaign标志，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**。 您应当看到&#x200B;**[!UICONTROL Experience Cloud Triggers]**&#x200B;项。
 
 如果您看到它，请继续下一步。
 
-否则，请与Adobe客户经理或专业服务合作伙伴联系。 请参 [阅激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+否则，请与Adobe客户经理或专业服务合作伙伴联系。 请参阅[激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
 
 **尝试创建触发器**
 
-按照活动中创建 [映射触发器中所述的步骤](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) ，创建触发器。
+按照[在活动](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中创建映射触发器中所述的步骤创建触发器。
 
 如果已创建触发器，请继续执行下一步。 否则，表示触发器端点连接失败。 检查触发器是否以Experience Cloud(激活服务)提供。 否则，请与Adobe客户经理或专业服务合作伙伴联系。 需要以下信息：
 
@@ -39,13 +39,13 @@ ht-degree: 2%
 
 **尝试发布触发器**
 
-按照活动中创建 [映射触发器中所述的步骤](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) ，发布触发器。
+按照[在活动](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中创建映射触发器中所述的步骤发布触发器。
 
 如果发布成功，请继续执行下一步。 否则，请与Adobe联系以重新启动实例，然后重试。
 
 **从网站生成触发器**
 
-按照编辑事务性消息模板中 [所述的步骤](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) ，编辑和发布事务模板。 然后，测试从网站生成触发器。
+按照[编辑事务性消息模板](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)中所述的步骤编辑和发布事务模板。 然后，测试从网站生成触发器。
 
 如果Analytics收到触发器，请继续执行下一步。 如果不是，请检查以下项目：
 
