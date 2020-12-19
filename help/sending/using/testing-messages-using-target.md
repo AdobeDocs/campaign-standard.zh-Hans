@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 选择用户档案和替换地址{#selecting-profiles}
 
-要使用目标用户档案进行测试，您必须先选择这些验证，然后定义将接收这些数据的替换地址。 To do this, you can either [select specific profiles](#selecting-individual-profiles) among the targeted profiles, or [import profiles from an existing audience](#importing-from-audience).
+要使用目标用户档案进行测试，您必须先选择这些验证，然后定义将接收这些数据的替换地址。 为此，您可以在目标用户档案中选择[特定用户档案](#selecting-individual-profiles)，或从现有受众](#importing-from-audience)导入用户档案。[
 
 >[!NOTE]
 >
@@ -273,4 +273,4 @@ Campaign Standard允许您导入可用于测试的受众。 例如，这允许�
 
 >[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供其他Campaign Standard操作方法视频。[
