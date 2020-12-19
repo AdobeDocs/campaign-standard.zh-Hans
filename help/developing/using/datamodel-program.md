@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>标题</td>
+                  <td>title</td>
                   <td>项目</td>
                   <td>string(255)</td>
                   <td> </td>
