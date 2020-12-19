@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 检索用户档案的地理单位 {#retrieving-geographical-unit}
 
-1. 对GETPKey执行用户档案请求以检 **索geoUnit** URL。
+1. 对用户档案PKey执行GET请求以检索&#x200B;**geoUnit** URL。
 1. 对URL执行GET请求，以检索有关地理单元的更多详细信息。
 
 <br/>
