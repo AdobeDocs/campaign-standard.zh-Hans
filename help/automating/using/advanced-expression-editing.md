@@ -106,8 +106,7 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
    >[!NOTE]
-   >
-   >**&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
+   **&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
@@ -156,7 +155,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">小于</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 第一个值必须绝对小于第二个值。<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> 可检索之前 100 天（不含第 100 天）内在数据库中创建的所有用户档案。<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">小于或等于</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 第一个值必须小于或等于第二个值。<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> 可检索年龄为 60 岁或更小的用户档案。<br /> </td> 
   </tr> 
