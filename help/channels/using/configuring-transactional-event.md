@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 配置事务事件
+title: 配置事务性事件
 description: 了解如何在Adobe Campaign中配置事务事件。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# 配置事务事件{#configuring-transactional-event}
+# 配置事务性事件 {#configuring-transactional-event}
 
 要发送具有Adobe Campaign的事务性消息，您首先需要通过创建和配置事件来描述事件的结构。
 
