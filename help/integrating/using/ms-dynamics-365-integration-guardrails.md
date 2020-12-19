@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 我们鼓励您交流集成使用率显着增加或“高峰”的已知实例（例如，新记录或更新记录的急剧增加），因为这可能会导致数据同步速度变慢。
 
-* 作为集成的一部分，您应完成Microsoft Azure和Dynamics 365中的预集成配置步骤。 请参阅此页上 [的配置步骤](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* 作为集成的一部分，您应完成Microsoft Azure和Dynamics 365中的预集成配置步骤。 请参阅此页上的配置步骤[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
 
 * 您应将Dynamics 365和活动数据模型集成并加以维护。
 
