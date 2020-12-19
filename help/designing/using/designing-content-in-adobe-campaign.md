@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 在 Adobe Campaign 中设计内容
-description: 从头开始创建电子邮件内容，导入 HTML 或利用现有模板。
+description: 从头开始创建电子邮件内容，可以导入 HTML 也可利用现有模板。
 audience: designing
 content-type: reference
 topic-tags: about-content-design
