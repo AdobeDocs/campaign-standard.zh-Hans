@@ -28,7 +28,7 @@ Adobe Campaign Standard和Adobe Analytics的这一集成将允许您：
 
 此集成仅适用于电子邮件投放。
 
-Adobe Analytics的核心服务触 **发器** 和Adobe Campaign之间也可集成。 它允许您向客户发送个性化电子邮件，作为对Adobe Analytics（15分钟内）在您的网站上跟踪的特定行为的回应。
+Adobe Analytics核心服务&#x200B;**触发器**&#x200B;和Adobe Campaign之间也可集成。 它允许您向客户发送个性化电子邮件，作为对Adobe Analytics（15分钟内）在您的网站上跟踪的特定行为的回应。
 
 **相关主题：**
 
