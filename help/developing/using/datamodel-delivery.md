@@ -524,7 +524,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>标题</td>
+                  <td>title</td>
                   <td>投放</td>
                   <td>string(255)</td>
                   <td> </td>
