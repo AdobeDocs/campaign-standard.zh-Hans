@@ -21,7 +21,7 @@ ht-degree: 8%
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[优化投放](optimize-delivery.md)** -确保发送流程的安全并优化
+**[优化投放](optimize-delivery.md)** -安全并优化发送流程
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
