@@ -200,7 +200,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>标题</td>
+                  <td>title</td>
                   <td>测试用户档案</td>
                   <td>string(255)</td>
                   <td> </td>
