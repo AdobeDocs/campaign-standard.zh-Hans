@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 删除特定订阅的服务用户档案 {#deleting-service-subscription}
+## 删除特定订阅{#deleting-service-subscription}的服务用户档案
 
 这是三步法。
 
