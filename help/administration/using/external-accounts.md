@@ -30,7 +30,7 @@ ht-degree: 85%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0。有关详细信息，请参阅[此部分](#oauth-account)。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到实例允许列表的活动。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到实例允许列表的活动。 可通过&lt;a0/允许列表>支持票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求向验证器添加IP地址，并提供用于验证的公钥。[
 
 可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -93,16 +93,16 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 >
 >可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
 
-## OAuth 2.0帐户 {#oauth-account}
+## OAuth 2.0帐户{#oauth-account}
 
 对于OAuth 2.0外部帐户，请提供以下详细信息：
 
-* 授 **予类型**:仅支 **持客户端** 凭据。
-* 安 **全API URL**:输入授权端点。
-* **OAuth 2.0敏感凭据**:此部分用于性质敏感的凭据。 添加凭据值后，凭据值将在屏幕上被遮罩；到那时，它们将不可读，也无法编辑。 如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
-* **OAuth 2.0非敏感凭据**:此部分用于性质不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；也可编辑。  如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
+* A **授予类型**:仅支持&#x200B;**客户端凭据**。
+* A **安全API URL**:输入授权端点。
+* **OAuth 2.0敏感凭据**:此部分用于性质敏感的凭据。添加凭据值后，凭据值将在屏幕上被遮罩；到那时，它们将不可读，也无法编辑。 如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
+* **OAuth 2.0非敏感凭据**:此部分用于性质不敏感的凭据。添加凭据值后，凭据值将显示在屏幕上；也可编辑。  如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
 
-配置结束时，单击“测 **试连接器** ”以验证外部帐户设置是否正确。
+配置结束时，单击&#x200B;**测试连接器**&#x200B;以验证外部帐户设置是否正确。
 
 ![](assets/external_accounts_OAuth.png)
 
@@ -188,7 +188,7 @@ Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工�
 * 外部帐户的 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**
 * **[!UICONTROL Type]**：Microsoft Azure Blob Storage
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。要了解在何处查找您的帐户名称和密钥，请参阅本[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
+* 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
 * 您的 **[!UICONTROL Container]** 名称。如果您计划使用多个容器，则需要创建与容器相同数量的外部帐户。
 * 利用 **[!UICONTROL Concurrency]** 选项，可优化文件传输的速度。
 
