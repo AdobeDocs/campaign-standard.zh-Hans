@@ -21,7 +21,7 @@ ht-degree: 10%
 
 从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页。
 
-1. 编辑电子邮件或登陆页的内容时，转到图像块，然后通过上下文 **[!UICONTROL Image shared from Adobe Experience Cloud]** 菜单进行选择。
+1. 编辑电子邮件或登陆页的内容时，转到图像块，然后通过上下文菜单选择&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
 
    ![](assets/dam_insert_image_dce.png)
 
