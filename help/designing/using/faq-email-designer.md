@@ -41,26 +41,26 @@ ht-degree: 7%
 
 您可以将自己的HTML内容上传到电子邮件设计器。 如果它尚未通过电子邮件设计器创建，它将以兼容模式加载，该模式旨在保留您的原始HTML，但通过UI限制某些版本功能。
 
-有关详细信息，请参阅兼 [容性模式](../../designing/using/using-existing-content.md#compatibility-mode)
+有关详细信息，请参阅[兼容性模式](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## 如何创建我的第一封电子邮件内容？
 
 首先，从主页创建电子邮件。
 然后，要向电子邮件中添加内容，您需要添加结构组件，并在其中插入内容组件。
 
-有关详细信息，请参 [阅从头开始创建电子邮件](../../designing/using/quick-start.md#from-scratch-email)
+有关详细信息，请参阅[从头开始创建电子邮件](../../designing/using/quick-start.md#from-scratch-email)
 
 ## 为何需要更新片段？
 
 Email Designer 正在不断改进。如果您从头开始、从现成模板创建电子邮件内容或创建片段，则可能需要将内容更新到最新版本以避免CSS冲突问题等问题。
 
-有关详细信息，请参阅 [更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+有关详细信息，请参阅[更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## 能否在主题中保存样式？
 
 无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。
 
-有关详细信息，请参阅样 [式](../../designing/using/styles.md)
+有关详细信息，请参阅[样式](../../designing/using/styles.md)
 
 ## 哪些字体可用？
 
