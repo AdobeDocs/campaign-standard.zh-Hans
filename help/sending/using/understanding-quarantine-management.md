@@ -39,7 +39,7 @@ ht-degree: 82%
 
 同样，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后即可再次被投放操作定向。
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 有关过阻止列表程的详细信息，请参阅[关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+另一方面，位于&lt;a0/阻止列表>**上将导致用户档案不再为任何投放所针对，例如在退订（退出）之后。**&#x200B;有关过阻止列表程的详细信息，请参阅[关于选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!NOTE]
 >
