@@ -51,7 +51,7 @@ ht-degree: 83%
 
    有关配置测试用户档案的更多信息，请参阅[测试用户档案](../../audiences/using/managing-test-profiles.md)一节。
 
-1. 如果需要，您可以使用相应的选项卡定义对照组。 这样，您就可以从目标中撤出一些用户档案，这样他们就不会收到消息。 For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. 如果需要，您可以使用相应的选项卡定义对照组。 这样，您就可以从目标中撤出一些用户档案，这样他们就不会收到消息。 有关详细信息，请参阅[添加对照组](../../sending/using/control-group.md)。
 
 1. 您还可以使用替换地址来获得用户档案将收到的消息的确切表示形式。  有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
