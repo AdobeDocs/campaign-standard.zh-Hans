@@ -58,7 +58,7 @@ ht-degree: 95%
 
 1. 在 **[!UICONTROL Transition]** 选项卡中，使用 **[!UICONTROL Enable an outbound transition]** 选项可在查询活动后添加叫客过渡，即使查询未检索到任何数据。
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   出站过渡的段代码可以使用标准表达式和事件变量进行个性化（请参阅[此页](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 1. 确认活动的配置并保存工作流。
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 
 利用定向维度和资源，可定义查询基于哪些元素来确定投放的目标。
 
-它们以目标映射 [进行配](../../administration/using/target-mappings-in-campaign.md)置，并在创建工作流时在查询 **[!UICONTROL Properties]** 活动的选项卡中进行定义。
+它们在[目标映射](../../administration/using/target-mappings-in-campaign.md)中进行配置，并在创建工作流时在查询活动的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡中进行定义。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 默认情况下，会设置定向维度和资源以定向用户档案。但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
 
-有关此的详细信息，请参阅此用例： [使用不同于定位维度的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+有关此的详细信息，请参阅此用例：[使用与定位维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 扩充数据{#enriching-data}
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 >
 >查询的 **[!UICONTROL Advanced options]** 选项卡中的 **[!UICONTROL Additional data]** 默认勾选 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 选项。出于性能上的考虑，如果 **[!UICONTROL Query]** 活动包含大量（100 以上）已定义的附加数据，则建议取消勾选此选项。请注意，取消勾选此选项可能会导致获取重复项，具体情况取决于查询的数据。
 
-本节将介绍如何使用其他数据个性化电子邮件 [的用例](../../automating/using/personalizing-email-with-additional-data.md)。
+有关如何使用额外数据个性化电子邮件的用例，请参见[本节](../../automating/using/personalizing-email-with-additional-data.md)。
 
 ### 添加简单字段{#adding-a-simple-field}
 
