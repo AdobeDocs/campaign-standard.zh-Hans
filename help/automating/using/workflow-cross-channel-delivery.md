@@ -65,7 +65,7 @@ ht-degree: 86%
 
 一旦通过查询活动标识了目标，您就必须选择条件以将目标分为两个不同的群体：一个接收电子邮件，另一个接收短信。
 
-You have to use a [Segmentation](../../automating/using/segmentation.md) activity to create one or several segments from a population computed upstream in a query.
+必须使用[Segmentation](../../automating/using/segmentation.md)活动，从查询上游计算的群体创建一个或多个区段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ You have to use a [Segmentation](../../automating/using/segmentation.md) activit
 
 ## 创建投放{#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
+由于已创建两个过渡，您现在必须向分段活动的出站过渡添加两种类型的投放:[电子邮件投放](../../automating/using/email-delivery.md)活动和[SMS投放](../../automating/using/sms-delivery.md)活动。
 
 利用 Adobe Campaign 可向工作流中添加投放。要实现此目的，请从工作流活动面板的 **[!UICONTROL Channels]** 类别中选择一个投放。
 
@@ -120,7 +120,7 @@ As two transitions were already created, you must now add two types of deliverie
 
 要创建电子邮件投放，请执行以下步骤：
 
-1. 将电子邮件投放 [活动拖](../../automating/using/email-delivery.md) 放到第一个区段之后。
+1. 在第一个区段后拖放[电子邮件投放](../../automating/using/email-delivery.md)活动。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL Simple email]**。
 1. 选择 **[!UICONTROL Add an outbound transition with the population]** 并单击 **[!UICONTROL Next]**。
@@ -133,11 +133,11 @@ As two transitions were already created, you must now add two types of deliverie
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请选择 **[!UICONTROL Use the Email Designer]**。
 1. 编辑并保存您的内容。
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. 在消息仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分，取消选择&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项。
 
 创建短信投放：
 
-1. 将SMS投放 [活动拖放](../../automating/using/sms-delivery.md) 到另一段之后。
+1. 将[SMS投放](../../automating/using/sms-delivery.md)活动拖放到另一个段之后。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL SMS]** 并单击 **[!UICONTROL Next]**。
 1. 选择短信模板并单击 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ As two transitions were already created, you must now add two types of deliverie
 
 ## 运行工作流{#running-the-workflow}
 
-Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
+启动工作流后，**[!UICONTROL Query]**&#x200B;活动所针对的人群将被分段，以接收电子邮件或SMS投放。
 
 要执行工作流，请单击操作栏中的 **[!UICONTROL Start]** 按钮。
 
