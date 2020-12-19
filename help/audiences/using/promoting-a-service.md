@@ -23,10 +23,10 @@ ht-degree: 3%
 
 * [在电子邮件中插入服务订阅或退订链接](../../designing/using/links.md#inserting-a-link)。
 
-* [在电子邮件中插入指向订阅或退订登陆页的链接](../../designing/using/links.md)。 在这种情况下，服务必须在相关登陆页的属性中直接引用(请 [参阅将登陆页关联到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service))。
+* [在电子邮件中插入指向订阅或退订登陆页的链接](../../designing/using/links.md)。在这种情况下，服务必须在相关登陆页的属性中直接引用(请参阅[将登陆页链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service))。
 
    >[!NOTE]
    >
-   >还必须给用户取消订阅的可能性。 为此，请在自动发送给新订 <b>户的确认电子邮件</b> （在服务属性中定义）以及将来的新闻稿电子邮件中插入服务退订链接。
+   >还必须给用户取消订阅的可能性。 为此，请在自动发送给新订阅者的确认电子邮件（在服务属性中定义）以及将来的新闻稿电子邮件中插入服务<b>退订链接</b>。
 
-* 在网站上提供订阅或退订登陆页。 授予您访问登陆页权限的URL必须指定相关服务等参数以及访问用户档案ID。 此ID可在登陆页参数中定义(请参 [阅配置登陆页](../../channels/using/configuring-landing-page.md))。
+* 在网站上提供订阅或退订登陆页。 授予您访问登陆页权限的URL必须指定相关服务等参数以及访问用户档案ID。 此ID可在登陆页参数中定义(请参阅[配置登陆页](../../channels/using/configuring-landing-page.md))。
