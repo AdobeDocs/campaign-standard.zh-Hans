@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign Standard 管理快速入门
-description: 发现用户和权限管理、监视指南、特定于渠道的配置和应用程序设置指南。
+description: 探索用户和权限管理、监控指南、特定于渠道的配置以及应用程序设置指南
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
