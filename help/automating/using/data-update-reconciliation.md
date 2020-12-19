@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. 导入的文件包含以下数据：
+* [加载文件](../../automating/using/load-file.md)活动，加载并检测要导入的文件的数据。 导入的文件包含以下数据：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
+* [协调](../../automating/using/reconciliation.md)活动，它将加载文件的每列链接到用户档案维列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* A [保存受众](../../automating/using/save-audience.md)活动，保存用户档案的受众。
 
    ![](assets/identification_example3.png)
