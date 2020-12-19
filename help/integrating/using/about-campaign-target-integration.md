@@ -27,4 +27,4 @@ Adobe Target可以使用几种类型的数据：
 * 链接到Adobe Target访客ID的区段（如果使用的数据不受法律限制）
 * Adobe Target数据：用户代理， IP地址，地理定位数据
 
-有关Adobe Campaign与Adobe Target之间集成的更多信息，您还可以参阅 [Adobe Target门户](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html)。
+有关Adobe Campaign与Adobe Target之间集成的详细信息，还可参阅[Adobe Target门户](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html)。
