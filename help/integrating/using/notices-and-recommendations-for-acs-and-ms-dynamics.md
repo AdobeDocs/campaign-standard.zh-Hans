@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 但是，用户档案删除与隐私删除不同。 活动中的隐私删除将删除活动用户档案记录和相关日志条目；而常规用户档案删除只会删除ACS用户档案记录，而保留活动日志中的残留内容。
 
-如果在集成中启用用户档案删除功能，则需要执行其他步骤才能正确处理数据主体隐私请求。 请参阅下面部分中 [的步骤](#manage-privacy-requests)。
+如果在集成中启用用户档案删除功能，则需要执行其他步骤才能正确处理数据主体隐私请求。 请参阅下面[部分中的步骤。](#manage-privacy-requests)
 
 ## 隐私
 
-### 管理隐私请求 {#manage-privacy-requests}
+### 管理隐私请求{#manage-privacy-requests}
 
 此集成旨在在Microsoft Dynamics 365和Adobe Campaign Standard之间传输最终用户数据（包括但不限于个人信息，如果其包含在最终用户数据中）。 作为公司管理者，您有责任遵守适用于您收集和使用个人数据的任何隐私法律和法规。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 如果已将集成配置为在Dynamics 365中删除联系人时向活动发出定期用户档案删除调用，则应遵循以下步骤。 确保在此过程中未对相关记录进行任何更新。
 
-1. 向Adobe Experience Platform Privacy Service发出隐私删除请 [求](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. 向[Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)发出隐私删除请求
 
 1. 监视请求，直到它成功完成
 
@@ -56,18 +56,17 @@ ht-degree: 0%
 * [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
 
 
-### 隐私和链接资源 {#privacy-linked-resources}
+### 隐私和链接资源{#privacy-linked-resources}
 
 如果任何活动自定义资源记录包含适用于客户使用活动的个人信息，则此类记录应链接到相应的活动用户档案记录（直接或通过其他自定义资源），以便与用户档案记录相关的隐私删除也可以删除包含个人信息的链接自定义资源记录；必须配置实体之间的链接和删除选项，以启用链接记录的类层叠删除。 个人信息不应输入到未链接到用户档案的自定义资源中。
 
-在本节中了解如何映射活动资源 [和Dynamics 365实体](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)。
+了解如何映射活动资源和Dynamics 365实体[，请参阅本节](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)。
 
 ## 选择退出
 
 由于Dynamics 365和活动之间的选择退出属性存在差异，以及每个客户的业务要求存在差异，因此选择退出映射已被留作客户完成的一项练习。  务必确保在系统之间正确映射退出功能，以便最终用户选择退出首选项得以保持，并且他们不会通过已选择退出的渠道接收通信。
 
-请注意，只有带有“不再通过电子邮件联系”前缀的活动属性（例如，不再通过电子邮件联系）或CCPA选择退出的特定属性才能用于选择退出映射。 [了解详情](../../developing/using/datamodel-profile.md).
-在Dynamics 365中，大多数选择退出字段带有“donot”前缀；但是，如果数据类型兼容，您也可以使用其他属性进行退出。
+请注意，只有带有“不再通过电子邮件联系”前缀的活动属性（例如，不再通过电子邮件联系）或CCPA选择退出的特定属性才能用于选择退出映射。 [了解详情](../../developing/using/datamodel-profile.md)。在Dynamics 365中，大多数选择退出字段带有“donot”前缀；但是，如果数据类型兼容，您也可以使用其他属性进行退出。
 
 设置集成时，您将有机会指定您的企业需要的退出配置：
 
@@ -99,7 +98,7 @@ ht-degree: 0%
 
 此集成将将联系人和自定义实体从Dynamics 365同步到活动。 集成不会修改在集成之外创建的活动记录（即，不是由同步作业创建的），包括集成配置时存在的活动记录。
 
-由于此集成使用活动 **[!UICONTROL externalId]** 中的字段将活动用户档案记录与Dynamics 365联系记录同步，因此必须用Dynamics 365填充此活动字段(**[!UICONTROL externalId]** )，才能使 **[!UICONTROL contactId]** 用您希望从Dynamics 365同步的记录。  自定义实体也使用Dynamics 365唯一ID进行同步。 活动自定义实体需要将此ID属性作为表列包含。 externalId列可用于存储此属性值，但活动自定义实体不需要它。
+由于此集成使用活动中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将活动用户档案记录与Dynamics 365联系人记录同步，因此必须为此活动字段(**[!UICONTROL externalId]**)填充Dynamics 365 **[!UICONTROL contactId]**，以便从Dynamics 365同步记录。  自定义实体也使用Dynamics 365唯一ID进行同步。 活动自定义实体需要将此ID属性作为表列包含。 externalId列可用于存储此属性值，但活动自定义实体不需要它。
 
 请记住，Dynamics 365仍是真理之源，并且当集成检测到Dynamics 365端的更新时，活动用户档案数据可以被覆盖。  根据您现有的部署，可能需要其他步骤来启用集成；因此，建议您与Adobe技术联系人密切合作。
 
