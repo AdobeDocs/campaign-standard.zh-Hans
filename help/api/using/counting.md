@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 计数
 
-Adobe CampaignREST API可以计算请求中的记录数。 为此，请使用在计数节点中返回 **的** URL。
+Adobe CampaignREST API可以计算请求中的记录数。 为此，请使用在&#x200B;**count**&#x200B;节点中返回的URL。
 
 <br/>
 
 ***示例请求***
 
-要计算messageType值等于“ **sms** ”的所有服务，请使用byChannel过滤器执 **行GET请** 求。
+要计算具有等于“sms”的&#x200B;**messageType**&#x200B;值的所有服务，请使用&#x200B;**byChannel**&#x200B;过滤器执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Adobe CampaignREST API可以计算请求中的记录数。 为此，请使用在
 }
 ```
 
-对计数节点的 **URL** 执行GET请求以检索结果数。
+对&#x200B;**count**&#x200B;节点的URL执行GET请求以检索结果数。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
