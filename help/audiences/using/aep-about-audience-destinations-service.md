@@ -28,7 +28,7 @@ ht-degree: 7%
 
 **受** 众是通过第 **一次构建细分来创建的**，这些细分实质上是一组基于Adobe Experience Platform客户用户档案内几乎任何变量(如用户档案、事件、多实体数据)的规则，以创建多维目标。实时客户用户档案和细分服务的全局概念在以下专用文档中引用：
 
-* [实时客户用户档案概述](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+* [实时客户用户档案概述](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [分段服务概述](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 创建区段后，您便可以将其激活为[Campaign Standard工作流](../../automating/using/aep-targeting-audiences.md)中的投放的受众。 此外，您还可以使用Adobe Experience Platform的情境数据来[个性化](../../automating/using/aep-personalizing-campaigns.md)，并向活动添加动态内容。
