@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ## 先决条件
 
-Microsoft [Dynamics 365-Adobe Campaign Standard集成支持自定义实体](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) ，使Dynamics 365中的自定义实体能够同步到活动中的相应自定义资源。
+[Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)支持自定义实体，使Dynamics 365中的自定义实体能够同步到活动中的相应自定义资源。
 
 自定义资源中的新数据可用于多种用途，包括细分和个性化。
 
@@ -33,7 +33,7 @@ Microsoft [Dynamics 365-Adobe Campaign Standard集成支持自定义实体](../.
 
 >[!CAUTION]
 >
->如果任何活动自定义资源记录包含个人信息，则应用特定建议。 在本节 [中了解更多](../../integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md#privacy-linked-resources)。
+>如果任何活动自定义资源记录包含个人信息，则应用特定建议。 请阅读本节[了解更多信息。](../../integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md#privacy-linked-resources)
 
 ## 声明
 
@@ -43,10 +43,10 @@ Microsoft [Dynamics 365-Adobe Campaign Standard集成支持自定义实体](../.
 * 对于自定义实体数据流，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
 * 如果在Dynamics 365中，父记录和链接的子记录在接近同一时间创建，则由于集成的并行处理，新的子记录在其父记录之前被写入活动的可能性很小。
 
-* 如果父记录和子记录使用1基数简 **单链接选项在活动端链接** ，则子记录将保持隐藏且无法访问（通过UI或API），直到父记录到达活动。
+* 如果使用&#x200B;**1基数简单链接**&#x200B;选项在活动端链接父记录和子记录，则子记录将保持隐藏且不可访问（通过UI或API），直到父记录到达活动。
 
-* (假定活动 **中有1个基数简单链接** )如果在Dynamics 365中更新或删除子记录，并且该更改在父记录以活动显示之前写入活动（不可能，但可能是远程），则更新或删除将不在活动中处理，并且将引发错误。 在更新的情况下，需要在Dynamics 365中再次更新相关记录，以同步更新的记录。 在删除的情况下，相关记录需要在活动端单独处理，因为Dynamics 365中不再有要删除或更新的记录。
+* (假定&#x200B;**1基数简单链接**&#x200B;在活动中)如果在Dynamics 365中更新或删除子记录，并且该更改在父记录以活动显示之前写入活动（不太可能，但是可能是远程），则该更新或删除在活动中不会处理，并且将引发错误。 在更新的情况下，需要在Dynamics 365中再次更新相关记录，以同步更新的记录。 在删除的情况下，相关记录需要在活动端单独处理，因为Dynamics 365中不再有要删除或更新的记录。
 
-* 如果您遇到这样的情况，即您认为自己有隐藏的子记录并且无法访问这些记录，则可以将基数链接类型临时更改为0或 **1基数简单链接** ，以访问这些记录。
+* 如果您遇到这样的情况，即您认为自己有隐藏的子记录并且无法访问这些记录，则可以将基数链接类型临时更改为&#x200B;**0或1基数简单链接**&#x200B;以访问这些记录。
 
-本节提供活动自定义资源的更全 [面概述](../../developing/using/key-steps-to-add-a-resource.md)。
+有关活动自定义资源的更全面概述，请参阅此部分[。](../../developing/using/key-steps-to-add-a-resource.md)
