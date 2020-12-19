@@ -206,7 +206,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>标题</td>
+                  <td>title</td>
                   <td>受众</td>
                   <td>string(255)</td>
                   <td> </td>
