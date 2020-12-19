@@ -33,10 +33,10 @@ ht-degree: 53%
 
 请按照以下步骤创建订阅机制：
 
-1. **创建服务** -按照本节 [中介绍的步骤](../../audiences/using/creating-a-service.md) ，创建订阅服务
-1. **共享链接** -了解如何在此页中提升和 [共享服务](../../audiences/using/promoting-a-service.md)
-1. **监视订阅** -在本节中探索监视服务订阅的 [几种方法](../../audiences/using/monitoring-subscriptions.md)
-1. **确认订阅** -请 [按照本教程](../../audiences/using/confirming-subscription-to-a-service.md) ，发送订阅确认消息
+1. **创建服务** -按照本节中 [描述的](../../audiences/using/creating-a-service.md) 步骤创建订阅服务
+1. **共享链接** -了解如何在本页中提升和 [共享服务](../../audiences/using/promoting-a-service.md)
+1. **监控订阅** -本节介绍监控订阅服务的 [几种方法](../../audiences/using/monitoring-subscriptions.md)
+1. **确认订阅** -按照 [本教](../../audiences/using/confirming-subscription-to-a-service.md) 程发送订阅确认消息
 
 ## 其他资源
 
