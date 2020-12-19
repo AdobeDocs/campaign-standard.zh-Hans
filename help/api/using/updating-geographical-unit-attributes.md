@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 更新地理单位属性 {#managing-geographical-units}
 
-1. 对geoUnitBase资源执 **行GET请求** ，以检索地理单元PKey。
+1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单元PKey。
 1. 对地理单元执行PATCH请求，并在有效负荷中更新属性。
 
 <br/>
