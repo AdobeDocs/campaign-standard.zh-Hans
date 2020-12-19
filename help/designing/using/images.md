@@ -15,26 +15,26 @@ ht-degree: 3%
 ---
 
 
-# 处理图像 {#images}
+# 使用图像{#images}
 
-## Inserting images{#inserting-images}
+## 插入图像{#inserting-images}
 
 您可以在电子邮件和登陆页中插入图像。
 
 根据您的配置，可以使用以下类型的图像：
 
 * 本地图像
-* 从Adobe Experience Cloud共享的图像- [请参阅使用活动和资产核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /资产（按需）
-* 来自Adobe Target的动态图像——请参 [阅使用活动和目标](../../integrating/using/about-campaign-target-integration.md)
+* 从Adobe Experience Cloud共享的图像——请参阅[使用活动和资产核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /资产（按需）
+* 来自Adobe Target的动态图像——请参阅[使用活动和目标](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果选择通过编辑HTML版本的电子邮件直接添加图像，则不 **得在HTML页的&lt;script>标签中调用外部** 文件。 这些文件将不会导入到Adobe Campaign服务器。
+>如果选择通过编辑HTML版本的电子邮件直接添加图像，则不得在HTML页的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。 这些文件将不会导入到Adobe Campaign服务器。
 
-### 在电子邮件中插入图像 {#inserting-images-in-an-email}
+### 在电子邮件{#inserting-images-in-an-email}中插入图像
 
 1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此结构组件中，添加一 **[!UICONTROL Image]** 个内容组件。
+1. 在此结构组件中，添加&#x200B;**[!UICONTROL Image]**&#x200B;内容组件。
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 选择包含图像的块时，调色板中会提供以下属性：
 
-* **启用个性化** ，允许您自定义图像源。 请参 [阅个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source)。
-* **图像标题** 允许您为图像定义标题。
-* **替代文本** (电子邮件 **)或题注** (登陆页)允许您定义链接到图像的题注(与替代 **HTML属性相** 对应)。
-* 编辑电子邮件 **时** ,“样式”允许您指定图像大小、背景和边框。
-* 编辑登陆页时， **Dimension** 允许您以像素为单位指定图像大小。
+* **启用** 个性化允许您自定义图像源。请参阅[个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source)。
+* **图像** 标题允许您为图像定义标题。
+* **替代文本** (电子邮 **件** )或题注(登陆页)允许您定义链接到图像的题注(与altHTML属 **** 性相对应)。
+* 编辑电子邮件时，**Style**&#x200B;允许您指定图像大小、背景和边框。
+* 编辑登陆页时，**Dimension**&#x200B;允许您以像素为单位指定图像大小。
 
-编辑器允许您处理其格 **式与浏览器兼** 容的所有图像类型。 要与编辑器兼容，必 **须按如下方** 式将“Flash”类型的动画插入HTML页面：
+编辑器允许您使用格式与浏览器兼容的所有图像类型&#x200B;**。**&#x200B;要与编辑器兼容，**“Flash”类型的动画**&#x200B;必须按如下方式插入HTML页面：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
