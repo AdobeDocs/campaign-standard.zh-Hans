@@ -118,7 +118,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 用户管理<br /> </td> 
-   <td> 从18.7版本开始，新Campaign Standard实例以及没有创建地理单元的现有实例现在都不具备地理单元功能。<br /> 有关详细信息，请参阅本 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">页</a>。<br /> </td> 
+   <td> 从18.7版本开始，新Campaign Standard实例以及没有创建地理单元的现有实例现在都不具备地理单元功能。<br /> 有关详细信息，请参阅本 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服务集成<br /> </td> 
-   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。<br /> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/cn/ACS_GDPR.html">细文档</a>。<br /> </td> 
+   <td> 隐私核心服务集成允许您通过单个JSON API调用在多解决方案环境中自动处理GDPR请求。 <br /> 从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求现在由活动自动处理。<br /> 有关详细信息，请参阅详 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进——详细的投放反馈<br /> </td> 
