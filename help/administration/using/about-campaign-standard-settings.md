@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # 关于 Campaign Standard 设置{#about-campaign-standard-settings}
 
-[!DNL Campaign] “标准”附带了可配置以满足您需求的不同应用程序元素。 例如，您可以：
+[!DNL Campaign] “标准”附带了可配置以满足您需求的不同应用程序元素。例如，您可以：
 
 * 设置外部帐户,
 * 配置目标映射以管理发送投放所需的技术设置，
 * 在应用程序中设置内部通知等。
 
-这些设置可从/ **[!UICONTROL Administration]** 菜单 **[!UICONTROL Application settings]** 中访问。
+这些设置可从&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Application settings]**&#x200B;菜单访问。
 
-此外，菜单中还提供技术选 **[!UICONTROL Options]** 项，允许您更具体地配置应用程序。 其中一些组件是内置的，在安装活动时可以根据需要手动添加其他组件（可用选项因实例中安装的包而异）。
+此外，**[!UICONTROL Options]**&#x200B;菜单中还提供技术选项，允许您更具体地配置应用程序。 其中一些组件是内置的，在安装活动时可以根据需要手动添加其他组件（可用选项因实例中安装的包而异）。
 
 >[!IMPORTANT]
 >
