@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Experience Platform数据连接器面向&#x200B;**数据工程师**，他�
 
 * 不支持订阅事件的现成传输。 要传输订阅事件，您可以在Adobe Experience Platform创建相应的XDM和数据集，然后为这些数据配置自定义数据映射。
 
-* 关于隐私请求（访问和删除操作），客户需要通过[隐私核心服务](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)发送单独的请求：一个是活动，一个是Adobe Experience Platform。 有关详细信息，请参阅活动中的[关于隐私请求](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)和[管理隐私请求](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+* 关于隐私请求（访问和删除操作），客户需要通过[隐私核心服务](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)发送单独的请求：一个是活动，一个是Adobe Experience Platform。 有关详细信息，请参阅活动中的[关于隐私请求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)和[管理隐私请求](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 * 对于每个XDM字段，需要在Adobe Experience Platform进行DULE标记。 这是应用DULE标签的客户责任。
 
