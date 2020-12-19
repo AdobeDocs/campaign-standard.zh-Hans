@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以定义一个公式，在特定日期和时间将消息发送给每个收件人。
 
-## 自定义日期公式 {#customizing-date-formula}
+## 自定义日期公式{#customizing-date-formula}
 
 例如，您可以在加速过程中使用发送时间优化。
 
@@ -33,57 +33,57 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. 访问营销活动列表并创建新工作流。 See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. 请参阅 [查询](../../automating/using/query.md) 部分。
-1. 选择受众，例如所有金牌客户，然后单 **[!UICONTROL Confirm]** 击以保存查询。
-1. Drag and drop a **Segmentation** activity into your workflow and open it. 请参阅 [分段](../../automating/using/segmentation.md) 。
+1. 访问营销活动列表并创建新工作流。 请参阅[创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+1. 将&#x200B;**查询**&#x200B;活动拖放到工作流中并将其打开。 请参阅[查询](../../automating/using/query.md)部分。
+1. 选择受众，例如所有金牌客户，然后单击&#x200B;**[!UICONTROL Confirm]**&#x200B;以保存查询。
+1. 将&#x200B;**分段**&#x200B;活动拖放到您的工作流中并将其打开。 请参阅[Segmentation](../../automating/using/segmentation.md)部分。
 1. 定义五个细分。 对于每个区段：
 
-   * 填写字 **[!UICONTROL Segment code]** 段：手动输入发送消息所需的日期和时间。
+   * 填写&#x200B;**[!UICONTROL Segment code]**&#x200B;字段：手动输入发送消息所需的日期和时间。
 
-      例如，您希望在6月1日上午10:00 GMT+1发送第一批批。 使用以下格式： **YYYY-MM-DD hh:mm:ss+tz**。
+      例如，您希望在6月1日上午10:00 GMT+1发送第一批批。 使用以下格式：**YYYY-MM-DD hh:mm:ss+tz**。
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      要在后天发送下一批，请 **输入2017-06-02 10:00:00** +01作为第二段。
+      要在次日发送下一批，请输入&#x200B;**2017-06-02 10:00:00+01**&#x200B;作为第二段。
 
       对于其余段，按如下方式定义下一批：
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * 确保您选择了 **[!UICONTROL Limit the population of this segment]** 选项。
+   * 确保选择&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;选项。
 
-      在标签 **[!UICONTROL Limitation]** 中，选 **[!UICONTROL Random sampling]** 择并输入每个区段的所需百分比：第一批10，第二批15，依此类推。
+      在&#x200B;**[!UICONTROL Limitation]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Random sampling]**&#x200B;并输入每个区段所需的百分比：第一批10，第二批15，依此类推。
 
       ![](assets/send-time_opt_segment_limitation.png)
 
 
-1. 定义所有区段后，选择并 **[!UICONTROL Generate all segments in the same transition]** 单击 **[!UICONTROL Confirm]**。
+1. 定义所有区段后，选择&#x200B;**[!UICONTROL Generate all segments in the same transition]**&#x200B;并单击&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. 请参阅电 [子邮件投放](../../automating/using/email-delivery.md) 部分。
-1. 单击电 **[!UICONTROL Schedule]** 子邮件仪表板中的部分，然后选择 **[!UICONTROL Messages to be sent automatically on the date specified below]**。
-1. 在字段 **[!UICONTROL Start sending from]** 中，定义联系人日期。
-1. 从发送时间优化下拉菜单中，选择 **[!UICONTROL Send at a custom date defined by a formula]**。
-1. 单击字 **[!UICONTROL Edit an expression]** 段的按 **[!UICONTROL Custom date formula]** 钮。
+1. 将&#x200B;**电子邮件投放**&#x200B;活动拖放到您的工作流中并将其打开。 请参阅[电子邮件投放](../../automating/using/email-delivery.md)部分。
+1. 单击电子邮件仪表板中的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分，然后选择&#x200B;**[!UICONTROL Messages to be sent automatically on the date specified below]**。
+1. 在&#x200B;**[!UICONTROL Start sending from]**&#x200B;字段中，定义联系日期。
+1. 从发送时间优化下拉菜单中，选择&#x200B;**[!UICONTROL Send at a custom date defined by a formula]**。
+1. 单击&#x200B;**[!UICONTROL Custom date formula]**&#x200B;字段的&#x200B;**[!UICONTROL Edit an expression]**&#x200B;按钮。
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. 使用函数和字段 **[!UICONTROL ToDateTime]** 创建以下 **[!UICONTROL Segment code]** 表达式。 您还可以直接键入表达式，但应确保使用正确的语法和拼写。
+1. 使用&#x200B;**[!UICONTROL ToDateTime]**&#x200B;函数和&#x200B;**[!UICONTROL Segment code]**&#x200B;字段创建以下表达式。 您还可以直接键入表达式，但应确保使用正确的语法和拼写。
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   该函 **[!UICONTROL ToDateTime]** 数将段代码从文本字符串转换为日期和时间值。
+   **[!UICONTROL ToDateTime]**&#x200B;函数将段代码从文本字符串转换为日期和时间值。
 
    确认表达式返回到上一个屏幕。
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   在窗口 **[!UICONTROL Schedule]** 中，自定义日期公式显示如下：
+   在&#x200B;**[!UICONTROL Schedule]**&#x200B;窗口中，自定义日期公式显示如下：
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -99,7 +99,7 @@ ht-degree: 1%
 >
 >确保确认发送时所有日期都在将来。 否则，消息将在确认发送后立即发送。
 
-## 使用表达式 {#using-an-expression}
+## 使用表达式{#using-an-expression}
 
 发送时间优化对于涉及呼叫中心的活动也很有用。 您可以确保不同时接收所有消息。 这样，您的组织可以根据其容量处理呼叫数。
 
@@ -109,55 +109,55 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. 访问营销活动列表并创建新工作流。 See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. 请参阅 [查询](../../automating/using/query.md) 部分。
-1. 选择一个受众，例如超过35个用户档案，然后 **[!UICONTROL Confirm]** 单击以保存查询。
-1. Drag and drop a **Segmentation** activity into your workflow and open it. 请参阅 [分段](../../automating/using/segmentation.md) 。
+1. 访问营销活动列表并创建新工作流。 请参阅[创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+1. 将&#x200B;**查询**&#x200B;活动拖放到工作流中并将其打开。 请参阅[查询](../../automating/using/query.md)部分。
+1. 选择一个受众，例如超过35个用户档案，然后单击&#x200B;**[!UICONTROL Confirm]**&#x200B;以保存查询。
+1. 将&#x200B;**分段**&#x200B;活动拖放到您的工作流中并将其打开。 请参阅[Segmentation](../../automating/using/segmentation.md)部分。
 1. 定义四个区段。 对于每个区段：
 
    * 按如下方式定义段代码:
 
-      * 上午8:00 —— 上午10:00: **0**. 消息将在上午8:00（联系日期）发送给目标口的第一季度。
-      * 上午10:00 —— 下午12:00:00 **2**. 消息将在上午10:00（联系日期+ 2小时）发送给目标人口的第二季度。
-      * 下午2:00 —下午4:00 : **6**. 呼叫中心在下午12:00至下午2:00之间关闭，消息将在下午2:00（联系日期+ 6小时）发送给目标群体的第三季度。
-      * 下午4:00 —下午6:00 : **8**. 消息将在下午4:00（联系日期+ 8小时）发送到最后一个季度的目标群。
+      * 上午8:00 —— 上午10:00:**0**。 消息将在上午8:00（联系日期）发送给目标口的第一季度。
+      * 上午10:00 —— 下午12:00:00 **2**。 消息将在上午10:00（联系日期+ 2小时）发送给目标人口的第二季度。
+      * 下午2:00 —下午4:00 :**6**。 呼叫中心在下午12:00至下午2:00之间关闭，消息将在下午2:00（联系日期+ 6小时）发送给目标群体的第三季度。
+      * 下午4:00 —下午6:00 :**8**。 消息将在下午4:00（联系日期+ 8小时）发送到最后一个季度的目标群。
 
       >[!NOTE]
       >
       >联系日期将在工作流的稍后的电子邮件投放活动中定义。
 
-   * 确保您选择了 **[!UICONTROL Limit the population of this segment]** 选项。
-   * 在标签 **[!UICONTROL Limitation]** 中，选 **[!UICONTROL Random sampling]** 择并输入每个区段的所需百分比： **25**.
+   * 确保选择&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;选项。
+   * 在&#x200B;**[!UICONTROL Limitation]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Random sampling]**&#x200B;并输入每个区段所需的百分比：**25**。
 
 
-1. 定义所有区段后，选择并 **[!UICONTROL Generate all segments in the same transition]** 单击 **[!UICONTROL Confirm]**。
+1. 定义所有区段后，选择&#x200B;**[!UICONTROL Generate all segments in the same transition]**&#x200B;并单击&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/send-time_opt_segment.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. 请参阅电 [子邮件投放](../../automating/using/email-delivery.md) 部分。
-1. 单击电 **[!UICONTROL Schedule]** 子邮件仪表板中的部分。
+1. 将&#x200B;**电子邮件投放**&#x200B;活动拖放到您的工作流中并将其打开。 请参阅[电子邮件投放](../../automating/using/email-delivery.md)部分。
+1. 单击电子邮件仪表板中的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分。
 1. 选择 **[!UICONTROL Messages to be sent automatically on the date specified below]**。
-1. 在字段 **[!UICONTROL Start sending from]** 中，定义联系人日期。
+1. 在&#x200B;**[!UICONTROL Start sending from]**&#x200B;字段中，定义联系日期。
 
    在此示例中，选择5月25日上午8:00。
 
-1. 从发送时间优化下拉菜单中，选择 **[!UICONTROL Send at a custom date defined by a formula]** 并单击按 **[!UICONTROL Edit an expression]** 钮。
+1. 从发送时间优化下拉菜单中，选择&#x200B;**[!UICONTROL Send at a custom date defined by a formula]**&#x200B;并单击&#x200B;**[!UICONTROL Edit an expression]**&#x200B;按钮。
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. 在中 **[!UICONTROL Expression editor]**，设置日期和段代码以计算每个客户的数据。
+1. 在&#x200B;**[!UICONTROL Expression editor]**&#x200B;中，设置日期和段代码，以计算每个客户的数据。
 
-   在函数列表中，选择 **[!UICONTROL AddHours]**。
+   在函数列表中，选择&#x200B;**[!UICONTROL AddHours]**。
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   在可用字段中，选择 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**。
+   在可用字段中，选择&#x200B;**[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**。
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   这使您能够检索字段中指定的日期和 **[!UICONTROL Start sending from]** 时间。
+   这使您能够检索在&#x200B;**[!UICONTROL Start sending from]**&#x200B;字段中指定的日期和时间。
 
-   在函数列表中，选择 **[!UICONTROL ToInteger]**。 在可用字段中，选择 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**。
+   在函数列表中，选择&#x200B;**[!UICONTROL ToInteger]**。 在可用字段中，选择&#x200B;**[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**。
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 
