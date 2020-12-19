@@ -18,7 +18,7 @@ ht-degree: 7%
 
 # 监控投放能力{#monitor-deliverability}
 
-在下面，您将找到报告的 **[!UICONTROL Delivery throughput]** 详细信息以及Adobe Campaign提供的不同监视工具。 以下是有关交付性监控的一些附加准则：
+在下面，您将找到&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;报告以及Adobe Campaign提供的不同监视工具的详细信息。 以下是有关交付性监控的一些附加准则：
 * 定期检查整个平台的投放吞吐量，以验证其是否与原始设置一致。
 * 检查重试是否设置正确(重试时间为30分钟，投放模板中的重试超过20分钟)。
 * 定期验证弹回邮箱是否可访问，以及帐户是否即将过期。
@@ -31,29 +31,29 @@ ht-degree: 7%
 
 此报告包含有关给定时间段内整个平台的投放吞吐量的信息，以测量消息传送速度。
 
-有关详细信息，请参阅 [投放吞吐量](../../reporting/using/delivery-throughput.md)。
+有关详细信息，请参阅[投放吞吐量](../../reporting/using/delivery-throughput.md)。
 
 ![](assets/delivery_reports_1.png)
 
 您可以通过更改时间刻度来配置显示的值。
 
-还提供其他报告， **[!UICONTROL Delivery summary]** 如 **[!UICONTROL Non-deliverables and bounces]**&#x200B;或。 有关此方面的详细信息，请参 [阅动态报表](../../reporting/using/about-dynamic-reports.md)。
+还提供其他报告，如&#x200B;**[!UICONTROL Delivery summary]**&#x200B;或&#x200B;**[!UICONTROL Non-deliverables and bounces]**。 有关详细信息，请参阅[动态报告](../../reporting/using/about-dynamic-reports.md)。
 
 ## 监控投放 {#monitoring-deliveries}
 
-消息仪表板允许您访问投放日志: **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]**&#x200B;以 **[!UICONTROL Tracking logs]** 及 **[!UICONTROL Tracked URLs]**。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+消息仪表板允许您访问投放日志:**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**&#x200B;和&#x200B;**[!UICONTROL Tracked URLs]**。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
-有关此方面的详细信息，请 [参阅监视投放](../../sending/using/monitoring-a-delivery.md)。
+有关详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
 
 ![](assets/sending_delivery1.png)
 
-## 接收警报 {#receiving-alerts}
+## 接收警报{#receiving-alerts}
 
-The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
+**[!UICONTROL Delivery alerting]**&#x200B;功能是警报管理系统，它使一组用户能够自动接收包含其投放执行信息的通知。
 
-有关详细信息，请参 [阅在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
+有关详细信息，请参阅[在发生故障时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-## 信号垃圾邮件 {#signal-spam}
+## 信号垃圾邮件{#signal-spam}
 
 Signal Spam是一种法国服务，它为法国ISP(Orange, SFR)优惠匿名反馈循环报告。
 
