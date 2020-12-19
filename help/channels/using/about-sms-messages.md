@@ -26,9 +26,9 @@ Adobe Campaign允许您传送SMS（短消息服务）消息。
 
 对于SMS消息，您只能以文本格式创建、修改和个性化消息。 您还可以在发送SMS消息之前预览这些消息。
 
-如果SMS消息采用GSM编码，则其长度限制为160个字符；如果SMS消息采用Unicode，则长度限制为70个字符。 但是，某些特殊字符会影响消息的长度。 For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+如果SMS消息采用GSM编码，则其长度限制为160个字符；如果SMS消息采用Unicode，则长度限制为70个字符。 但是，某些特殊字符会影响消息的长度。 有关详细信息，请参阅[SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)部分。
 
-可以从菜单、活动 **[!UICONTROL Marketing activities]** 或工作流中创建SMS消息，请参 [阅创建SMS消息](../../channels/using/creating-an-sms-message.md)。
+可以从&#x200B;**[!UICONTROL Marketing activities]**&#x200B;菜单、活动或工作流中创建SMS消息，请参阅[创建SMS消息](../../channels/using/creating-an-sms-message.md)。
 
 要将SMS消息传送到移动电话，您需要：
 
@@ -42,15 +42,15 @@ Adobe Campaign允许您传送SMS（短消息服务）消息。
 * [短信报告](../../reporting/using/sms-report.md)
 * [Campaign Standard Mobile 指南](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)
 
-## SMS投放模板 {#sms-delivery-template}
+## SMS投放模板{#sms-delivery-template}
 
-Adobe Campaign优惠移动设备的投放模板。 此模板必须正确链接到用于外部帐户的 **[!UICONTROL Mobile (SMS)]** 渠道。 要访问和修改它：
+Adobe Campaign优惠移动设备的投放模板。 此模板必须正确链接到用于&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;外部帐户的渠道。 要访问和修改它：
 
-1. 从高 **[!UICONTROL Resources]** 级 **[!UICONTROL Templates]** 菜单 **[!UICONTROL Delivery templates]** 中选择> >。
-1. 将鼠标悬 **[!UICONTROL Send via SMS]** 停在模板上，然后选择 **重复元素** 选项。
+1. 从高级菜单中选择&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**。
+1. 将鼠标悬停在&#x200B;**[!UICONTROL Send via SMS]**&#x200B;模板上，然后选择&#x200B;**重复元素**&#x200B;选项。
 1. 选择新模板。
 1. 单击 **[!UICONTROL Edit properties]** 按钮。
-1. 在模 **[!UICONTROL Advanced parameters]** 板属性的一节中，确保模板已链接到用于传送SMS的外部帐户。
+1. 在模板属性的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分，确保模板已链接到要用于传送SMS的外部帐户。
 
    ![](assets/sms_template.png)
 
