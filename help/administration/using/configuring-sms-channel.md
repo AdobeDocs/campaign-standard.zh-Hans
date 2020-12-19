@@ -328,7 +328,7 @@ CR：回车
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+从&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
 
 * 利用 **[!UICONTROL From]**，可使用字符串将短信消息发送者的名称个性化。该名称在收件人的手机显示为短信消息的发送者。
 
@@ -340,7 +340,7 @@ From the **[!UICONTROL Advanced parameters]** section:
    >
    >请参见您所在国家/地区有关修改发件人地址的法律。您还应与短信服务提供商进行核实，了解他们是否提供此功能。
 
-从SMS **[!UICONTROL Send]** 模板的一节中：
+从SMS模板的&#x200B;**[!UICONTROL Send]**&#x200B;部分：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 
