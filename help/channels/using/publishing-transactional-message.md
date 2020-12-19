@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# 事务性消息生命周期{#publishing-transactional-message}
+# 事务性消息生命周期 {#publishing-transactional-message}
 
 当[事务性消息](../../channels/using/editing-transactional-message.md)准备好发送时，可以发布它。
 
