@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Must-Read {#must-read}
+# 必读{#must-read}
 
 ## 技术要求
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## 资源表示
 
-所有API资源在JSON **中都可** 用（带有URL扩展），或在HTTP接受标头中可用：
+所有API资源在&#x200B;**JSON**&#x200B;中都可用，其URL扩展名为或在HTTP接受标头中：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->如果URL中没有扩展名， **则json格式是content** -type的默认格式。
+>如果URL中没有扩展名，**json格式是content-type的默认格式。**
 
 <br/>
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 由Adobe Campaign生成的自动主键值永远不能存储到外部数据库或网站中。 您必须在数据库定义中生成特定的关键字字段并在开发过程中使用它。
 
-## 自定义键 {#custom-keys}
+## 自定义键{#custom-keys}
 
 如果用户档案资源已使用自定义密钥字段进行扩展，则可以将此字段用作密钥，而不是Adobe Campaign生成的自动主密钥：
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 如果密钥值与PATCH密钥不同，或者您使用自己的业务密钥作为URI而不是Adobe提供的业务密钥，则无法使用来源操作修改自定义密钥。
 
-仅对顶级用户档案 **资源使用自定义密钥** 。 URL由API返回，不应由您自己构建。
+仅对&#x200B;**顶级用户档案资源**&#x200B;使用自定义键。 URL由API返回，不应由您自己构建。
 
 <br/>
 
