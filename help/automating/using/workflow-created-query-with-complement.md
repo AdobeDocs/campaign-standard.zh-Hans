@@ -24,24 +24,24 @@ ht-degree: 41%
 1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
 1. 输入工作流的属性并单击 **[!UICONTROL Create]**。
 
-## Create a Query activity {#create-a-query-activity}
+## 创建查询活动{#create-a-query-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL is not empty]**&#x200B;选择&#x200B;**[!UICONTROL email]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
 1. 单击 **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
-## Create a Segmentation activity {#create-a-segmentation-activity}
+## 创建分段活动{#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
-1. 将鼠标悬停在区段上，然后单 ![](assets/edit_darkgrey-24px.png) 击以目标今年在数据库中添加的客户。
-1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
-1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[Segmentation](../../automating/using/segmentation.md)活动，然后多次单击它。
+1. 将鼠标悬停在区段上，然后单击![](assets/edit_darkgrey-24px.png)以目标今年在数据库中添加的客户。
+1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择&#x200B;**[!UICONTROL Created]**（过滤器类型为&#x200B;**[!UICONTROL Relative]**）。
+1. 将&#x200B;**[!UICONTROL Level of precision]**&#x200B;更改为&#x200B;**[!UICONTROL Year]**&#x200B;并选择&#x200B;**[!UICONTROL This year]**。
 1. 单击 **[!UICONTROL Confirm]** 两次。
-1. 在中 **[!UICONTROL Advanced Options]**，选 **[!UICONTROL Generate complement]** 中以创建定位其余收件人的区段。
+1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;以创建面向其余收件人的区段。
 1. 单击 **[!UICONTROL Confirm]**.
 1. 单击 **[!UICONTROL Save]**.
 
@@ -49,11 +49,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->要观察规则的结构，请单击 **[!UICONTROL Advanced Mode]**。
+>要观察规则的结构，请单击&#x200B;**[!UICONTROL Advanced Mode]**。
 
 ## 创建电子邮件投放 {#create-an-email-delivery}
 
-1. 在> **[!UICONTROL Activities]** 中 **[!UICONTROL Channels]**，将电子邮件投放 [](../../automating/using/email-delivery.md) 活动拖放到每个区段之后。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到每个区段之后。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Single send email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
