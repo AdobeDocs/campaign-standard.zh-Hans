@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # 更新用户档案 {#updating-profiles}
 
-更新用户档案是使用PATCH请 **求执** 行的。
+使用&#x200B;**用户档案**&#x200B;请求执行更新PATCH。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是 **检索用户档案**。
+1. 第一步是&#x200B;**检索用户档案**。
 
-1. 在第二个请求中，我们将对PATCH执 **行用户档案请** 求，并在有效负荷中执行完整的信息。
+1. 在第二个请求中，我们将对用户档案执行&#x200B;**PATCH请求**，并在有效负荷中执行完整的信息。
 
 1. 要检查PATCH请求是否更新了用户档案，我们可以执行最终GET请求。
 
