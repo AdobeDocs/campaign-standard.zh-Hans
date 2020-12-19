@@ -17,18 +17,18 @@ ht-degree: 4%
 
 # 管理 CCPA 选择退出 {#managing-ccpa-optout}
 
-用户档案的CCPA退出状态可以使用ccpaOptOut **用户档案属性和“true** ”或“false”值进行监视和管理：
+用户档案的CCPA退出状态可以使用&#x200B;**ccpaOptOut**&#x200B;用户档案属性和“true”或“false”值进行监视和管理：
 
 `"ccpaOptOut": <value>`
 
-* **true**: 禁止销售个人信息。
+* **true**:禁止销售个人信息。
 * **false**:授权销售个人信息。
 
 >[!CAUTION]
 >
 >“CCPA退出”属性仅从19.4开始可用。对于19.3环境，您需要扩展用户档案资源并添加一个布尔字段。 此字段将添加到API中并带有所选标签。 我们建议您使用“CCPA退出”。
 >
->有关此方面的详细信息，请参阅 [管理隐私请求文档](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+>有关详细信息，请参阅[管理隐私请求文档](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 <br/>
 
