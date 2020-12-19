@@ -26,6 +26,6 @@ ht-degree: 4%
 * 消息属性。 创建新消息时，您可以根据需要查找属性。
 * 一些渠道优惠其他可选配置，如电子邮件密送。
 
-菜 **[!UICONTROL Channel]** 单重新分组链接到不同应用程序渠道（电子邮件、短信）的技术参数以及类型和隔离管理。
+**[!UICONTROL Channel]**&#x200B;菜单重新分组链接到不同应用程序渠道（电子邮件、SMS）的技术参数以及类型和隔离管理。
 
-Administrators can access these configurations in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+管理员可以在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]**&#x200B;菜单中访问这些配置。
