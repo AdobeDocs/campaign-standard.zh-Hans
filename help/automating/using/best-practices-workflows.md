@@ -70,13 +70,13 @@ ht-degree: 93%
 
 ## 活动{#activity}
 
-### 每个工作流的活动数 {#number-activities}
+### 每个工作流{#number-activities}的活动数
 
 我们建议在单个工作流中使用多达100个活动。 超过100个活动在设计和配置工作流时可能会遇到一些性能问题。
 
 ### 工作流设计
 
-要确保工作流正常结束，请避免使用一个过渡，单独保留工作流的最后一个 **[!UICONTROL End activity]**。
+要确保工作流正常结束，请避免使用&#x200B;**[!UICONTROL End activity]**&#x200B;单独保留工作流的最后过渡。
 
 要访问过渡的详细视图，请勾选工作流属性“执行”部分中的 **[!UICONTROL Keep interim results]** 选项。
 
@@ -107,7 +107,7 @@ ht-degree: 93%
 
 ## 使用参数调用工作流{#workflow-with-parameters}
 
-确保参数的名称和数量与调用工作流时定义的参数相同(请参 [阅此页](../../automating/using/defining-parameters-calling-workflow.md))。 参数的类型还必须与预期值一致。
+确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
 
 确保已在 **[!UICONTROL External signal activity]** 中声明了所有的参数。否则，运行活动时将出错。
 
