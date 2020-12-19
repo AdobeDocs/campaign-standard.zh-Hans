@@ -21,7 +21,7 @@ ht-degree: 86%
 有几种方法可监控投放并衡量其影响。 作为功能管理员，您可以访问消息日志和投放日志。
 >[!CAUTION]
 >
->只有具有角 [色和](../../administration/using/users-management.md#functional-administrators)访问所 **[!UICONTROL Administration]** 有单元的功能管 **理员** ，才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**访问权限的功能[管理员](../../administration/using/users-management.md#functional-administrators)所有**&#x200B;单元才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
 * **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
