@@ -19,7 +19,7 @@ ht-degree: 10%
 
 在跨渠道通信中激活CRM数据：了解如何将联系人从Microsoft Dynamics 365传递给Adobe Campaign，并共享活动性能数据（发送、打开、点击和弹回）从Adobe Campaign传回Microsoft Dynamics 365。
 
-本节列出了 [支持的版本](#support-software-versions)。
+本节](#support-software-versions)中列出了[支持的版本。
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ Adobe Campaign与Microsoft Dynamics 365集成支持CRM系统中所有可用联�
 
 相反，当Adobe Campaign内的用户档案与消息交互时，这些数据(例如：发送、打开、点击和弹回)会自动流入Microsoft Dynamics 365，以保留联系记录，同时保留营销活动。
 
-该集成还支持自定义实体， [使Dynamics](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) 365中的自定义实体能够同步到活动中的相应自定义实体。
+该集成还支持自定义实体，使Dynamics 365中的[自定义实体](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)能够与活动中的相应自定义实体同步。
 
 此集成旨在支持四个主要用例：
 
@@ -58,7 +58,7 @@ Adobe Campaign与Microsoft Dynamics 365的集成使系统能够访问客户洞�
 >
 >对于联系人和自定义实体同步，此集成将Dynamics 365视为真相的来源。  对同步属性所做的任何更改应在Dynamics 365中进行，而不应在活动中进行。  如果更改以活动进行，则最终可能会在同步过程中覆盖它们。
 
-## 支持软件版本 {#support-software-versions}
+## 支持软件版本{#support-software-versions}
 
 此集成需要以下软件版本：
 
