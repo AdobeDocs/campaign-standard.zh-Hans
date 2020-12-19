@@ -21,15 +21,15 @@ ht-degree: 0%
 
 * **入口**:
 
-   * 将联系人 **从** Dynamics 365导入活动
+   * 将&#x200B;**联系人**&#x200B;从Dynamics 365导入活动
 
-   * **自定义实体**:将自定义表从Dynamics 365引入活动。 在本节 [中了解更多](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)。
+   * **自定义实体**:将自定义表从Dynamics 365引入活动。请阅读本节[了解更多信息。](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 
 * **出口**:将电子邮件营销事件从ACS导入D365（电子邮件发送、打开、单击、弹出）
 
 * **选择退出**:双向同步退出状态(例如阻止列表)
 
-有关数据流的更多详细信息，请 [参阅本节](#data-flows)。
+有关数据流的更多详细信息，请参阅此部分[。](#data-flows)
 
 ## Adobe Campaign Standard用户体验
 
@@ -97,13 +97,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->可以在相应镜像页面电子邮件渠道的配置屏幕中修改电子邮件活动的到期期间(请参 [阅有效期参数](../../administration/using/configuring-email-channel.md#validity-period-parameters))。
+>电子邮件镜像页面的到期期可以在相应活动电子邮件渠道活动的配置屏幕中修改（请参见[有效期参数](../../administration/using/configuring-email-channel.md#validity-period-parameters)）。
 
 >[!NOTE]
 >
 >对于选择退出，当在Dynamics 365中修改了选择退出属性时，如果您已选择Dynamics 365到活动或双向选择退出配置，并且您正确映射了该特定属性，该属性将反映在活动中。
 
-## 数据流 {#data-flows}
+## 数据流{#data-flows}
 
 ### 联系人和自定义实体入口
 
