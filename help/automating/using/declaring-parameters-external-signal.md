@@ -15,16 +15,16 @@ ht-degree: 5%
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# 在外部信号活动{#declaring-the-parameters-in-the-external-signal-activity}中声明参数
 
-使用参数调用工作流的第一步是在活动中声明这 **[!UICONTROL External signal]** 些参数。
+使用参数调用工作流的第一步是在&#x200B;**[!UICONTROL External signal]**&#x200B;活动中声明它们。
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. 单击按 **[!UICONTROL Create element]** 钮，然后指定每个参数的名称和类型。
+1. 打开&#x200B;**[!UICONTROL External signal]**&#x200B;活动，然后选择&#x200B;**[!UICONTROL Parameters]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮，然后指定每个参数的名称和类型。
 
    >[!CAUTION]
    >
-   >确保参数的名称和数量与调用工作流时定义的参数相同(请参 [阅此页](../../automating/using/defining-parameters-calling-workflow.md))。 此外，参数类型必须与期望值一致。
+   >确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，参数类型必须与期望值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
