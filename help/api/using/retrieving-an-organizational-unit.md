@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 检索用户档案的组织单位 {#retrieving-organizational-units}
 
-1. 对GETPKey执行用户档案请求以检 **索orgUnit** URL。
+1. 对用户档案PKey执行GET请求以检索&#x200B;**orgUnit** URL。
 1. 对URL执行GET请求，以检索有关组织单位的更多详细信息。
 
 <br/>
