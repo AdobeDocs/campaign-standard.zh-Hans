@@ -81,14 +81,14 @@ ht-degree: 82%
 
 根据环境，您可以：
 
-* 创建电子邮件——了 [解更多](../../channels/using/creating-an-email.md)
-* 创建SMS —— 了解 [更多](../../channels/using/creating-an-sms-message.md)
-* 创建推送通知——了 [解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 创建应用程序内消息——了解 [更多](../../channels/using/about-in-app-messaging.md)
-* 创建工作流——了 [解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 创建登陆页-了 [解更多](../../channels/using/getting-started-with-landing-pages.md)
-* 创建活动-了 [解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 创建项目-了 [解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 创建电子邮件- [了解更多信息](../../channels/using/creating-an-email.md)
+* 创建SMS - [了解更多信息](../../channels/using/creating-an-sms-message.md)
+* 创建推送通知- [了解更多信息](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 创建应用程序内消息- [了解更多](../../channels/using/about-in-app-messaging.md)
+* 创建工作流- [了解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 创建登陆页- [了解更多](../../channels/using/getting-started-with-landing-pages.md)
+* 创建活动- [了解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 创建项目- [了解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
