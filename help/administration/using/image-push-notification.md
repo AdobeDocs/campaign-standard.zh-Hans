@@ -24,7 +24,7 @@ ht-degree: 20%
 
 在此文档中，了解如何从Adobe Campaign StandardiOS推送通知中显示图像。
 
-## 第1步：设置推送通知 {#set-up-push}
+## 第1步：设置推送通知{#set-up-push}
 
 Experience PlatformSDK支持推送通知。
 
@@ -34,40 +34,40 @@ Experience PlatformSDK支持推送通知。
 
 要使用Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform Launch设置移动应用程序并以Adobe Campaign配置。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
-## 第2步：在Adobe Campaign中自定义推送通知 {#customize-push}
+## 第2步：在Adobe Campaign{#customize-push}中自定义您的推送通知
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
 1. 创建推送通知. 有关详细信息，请参见此 [ 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 从您的推送通知内容页面访问该 **[!UICONTROL Advanced options]** 部分。
+1. 从您的推送通知内容页面访问&#x200B;**[!UICONTROL Advanced options]**&#x200B;部分。
 
-1. 在字段中输入文件的 **[!UICONTROL Rich media content URL]** URL。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**字段中输入文件的URL。
 对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)
 
 1. 预览并保存推送通知。
 
-## 第3步：调整移动应用程序代码 {#mobile-app-code}
+## 第3步：调整移动应用程序代码{#mobile-app-code}
 
 在Adobe Campaign中自定义推送通知后，您必须配置移动应用程序以在设备上显示图像。
 
 >[!NOTE]
 >
->如果您的应用程序位于Objective-C中，请参阅以下 [文档](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
+>如果您的应用程序位于Objective-C中，请参阅以下[文档](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
-如果您的应用程序 [!DNL Swift]在，请按照以下步骤操作：
+如果应用程序位于[!DNL Swift]中，请按照以下步骤操作：
 
-1. 打开您的 [!DNL Xcode] 项目。
+1. 打开[!DNL Xcode]项目。
 
-1. 在您的 [!DNL Xcode] 项目中，选 **[!UICONTROL File]** 择 **[!UICONTROL New]** > > **[!UICONTROL Target]**。
+1. 在[!DNL Xcode]项目中，选择&#x200B;**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
 1. 选择 **[!UICONTROL Notification Service Extension]**。
 
    ![](assets/push_notif_advanced_12.png)
 
-1. 检查是否 **已创建NotificationService** .swift文件类。
+1. 检查是否已创建&#x200B;**NotificationService.swift**&#x200B;文件类。
 
 1. 编辑此类，并将默认内容替换为以下内容。
 这允许应用程序使用图像URL处理传入参数，分析它，在本地复制它，然后从推送通知中显示它。
@@ -152,9 +152,9 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 第4步：测试发送推送 {#test-send-push}
+## 第4步：测试发送推送{#test-send-push}
 
-您现在可以测试构建应用程序以及您在以上步骤2中创建的投放。 有关准备和发送推送通知的详细信息，请参阅 [此页](../../channels/using/preparing-and-sending-a-push-notification.md)。
+您现在可以测试构建应用程序以及您在以上步骤2中创建的投放。 有关准备和发送推送通知的详细信息，请参阅此[页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 ![](assets/push_notif_advanced_34.png)
 
