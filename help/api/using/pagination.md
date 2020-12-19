@@ -19,13 +19,13 @@ ht-degree: 1%
 
 默认情况下，在列表中加载25个资源。
 
-使用 **_lineCount** 参数可以限制响应中列出的资源数。  然后，您可以使用 **下一个** 节点显示下一个结果。
+**_lineCount**&#x200B;参数允许您限制响应中列出的资源数。  然后，可以使用&#x200B;**next**&#x200B;节点显示下一个结果。
 
 >[!NOTE]
 >
->始终使用在下一个节点中返回 **的** URL值执行分页请求。
+>始终使用在&#x200B;**next**&#x200B;节点中返回的URL值执行分页请求。
 >
->将计 **算** _lineStart请求，并且必须始终在下一个节点返回的URL **中使用** 。
+>将计算&#x200B;**_lineStart**&#x200B;请求，并且必须始终在&#x200B;**下一个**&#x200B;节点中返回的URL中使用。
 
 <br/>
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-响应请求，下一个节 **点** 将执行分页。
+响应请求，使用&#x200B;**next**&#x200B;节点执行分页。
 
 ```
 {
@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-默认情况下， **与具** 有大量数据的表交互时，下一个节点不可用。 要能够执行分页，必须将 **_forcePagination=true** 参数添加到调用URL。
+默认情况下，与具有大量数据的表交互时，**next**&#x200B;节点不可用。 要执行分页，必须将&#x200B;**_forcePagination=true**&#x200B;参数添加到调用URL中。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Campaign StandardXtkBigTableThreshold选项中定义表大于其上的 **记录数** 。 默认值是100,000条记录。
+>Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义表大于其上的记录数。 默认值是100,000条记录。
