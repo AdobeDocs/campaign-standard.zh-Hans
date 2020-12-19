@@ -26,37 +26,37 @@ ht-degree: 1%
 * adobe campaign主页
 * 从营销列表活动
 
-## 在活动中访问消息 {#accessing-messages-in-campaigns}
+## 访问活动{#accessing-messages-in-campaigns}中的消息
 
 要访问活动的营销列表，请执行以下操作：
 
-1. 从顶部 **[!UICONTROL Marketing activities]** 导航栏转到。
+1. 从顶部导航栏转至&#x200B;**[!UICONTROL Marketing activities]**。
 1. 选择 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。
 
-   您还可以直接从主页 **[!UICONTROL Programs & Campaigns]** 中单击信息卡。 有关活动的详细信息，请参阅 [项目和活动部分](../../start/using/programs-and-campaigns.md) 。
+   您还可以直接单击主页中的&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;卡。 有关活动的详细信息，请参阅[项目和活动](../../start/using/programs-and-campaigns.md)部分。
 
 1. 选择项目，然后选择活动。
 
    ![](assets/delivery_list_1.png)
 
-1. 单击 **[!UICONTROL Summary]** 下拉列表。
-1. 单击 **[!UICONTROL Search]** 以过滤消息的显示方式（按名称、日期或状态）。
+1. 单击&#x200B;**[!UICONTROL Summary]**&#x200B;下拉列表。
+1. 单击&#x200B;**[!UICONTROL Search]**&#x200B;以过滤消息的显示方式（按名称、日期或状态）。
 
    要过滤重复消息，可选中相应的框。
 
-## 访问消息列表 {#accessing-the-message-list}
+## 访问消息列表{#accessing-the-message-list}
 
 要访问所有列表的营销活动的完整活动，请执行以下操作：
 
-1. 从上 **[!UICONTROL Marketing activities]** 部导航栏中进行选择。
+1. 从上部导航栏中选择&#x200B;**[!UICONTROL Marketing activities]**。
 
-   您还可以从主页卡 **[!UICONTROL Marketing activities]** 访问它。 有关营销活动列表的详细信息，请参阅管理 [营销活动部分](../../start/using/marketing-activities.md#creating-a-marketing-activity) 。
+   您还可以从主页上的&#x200B;**[!UICONTROL Marketing activities]**&#x200B;卡访问它。 有关营销活动列表的详细信息，请参阅[管理营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)部分。
 
-1. 要筛选营销活动(按名称、日期、状态或活动类型)，请 **[!UICONTROL Search]** 使用营销活动列表左侧的字段。
+1. 要筛选营销活动(按名称、日期、状态或活动类型)，请使用营销活动列表左侧的&#x200B;**[!UICONTROL Search]**&#x200B;字段。
 
 ![](assets/delivery_list_2.png)
 
-## 消息生命周期 {#message-life-cycle}
+## 消息生命周期{#message-life-cycle}
 
 消息的状态由列表中的特定颜色表示。 可能的状态包括：
 
