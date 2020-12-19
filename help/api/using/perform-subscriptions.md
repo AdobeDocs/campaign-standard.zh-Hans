@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 执行订阅 {#performing-subscriptions}
+# 执行订阅{#performing-subscriptions}
 
 ## 方法1:订阅用户档案服务
 
