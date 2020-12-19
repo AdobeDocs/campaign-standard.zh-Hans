@@ -21,15 +21,15 @@ ht-degree: 8%
 >
 >受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 >
->**推送** 和应 **用程序内渠道尚不可用** ，无法使用Adobe Experience Platform的情境数据进行个性化。
+>**Pushand** In- **** Appchannels尚无法使用Adobe Experience Platform的情境数据进行个性化。
 
-在您的工作流配置了 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md)后，您可以使用体验数据模型(XDM)中独有的用户档案属性来个性化消息。
+使用[Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md)配置工作流后，您可以使用体验数据模型(XDM)中独有的用户档案属性个性化消息。
 
-为此，您必须在活动中添加以下属 **[!UICONTROL Read audience]** 性：
+为此，您必须在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中添加以下属性：
 
-1. 打开 **[!UICONTROL Read audience]** 活动。 In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
+1. 打开&#x200B;**[!UICONTROL Read audience]**&#x200B;活动。 在&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮。
 
-   请注意， **[!UICONTROL Additional data]** 只有在选择了Adobe Experience Platform受众后，选项卡才可用。
+   请注意，**[!UICONTROL Additional data]**&#x200B;选项卡仅在选择了Adobe Experience Platform受众后才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -37,11 +37,11 @@ ht-degree: 8%
    >
    >此功能不支持数组和映射数据类型。 此外，只有合并模式中的数据才会显示在选取器中。
 
-1. 从列表中选择所需的XDM字段，然后单击 **[!UICONTROL Confirm]**。
+1. 从列表中选择所需的XDM字段，然后单击&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. 单击按 **[!UICONTROL Add]** 钮，将其添加到其他列表。
+1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;按钮，将其添加到其他列表。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -49,9 +49,9 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >在活动中最多可添加20个XDM字 **[!UICONTROL Read audience]** 段。
+   >在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中最多可添加20个XDM字段。
 
-1. 添加所有字段后，单击按 **[!UICONTROL Confirm]** 钮以保存更改。 现在，您可以使用它们来个性化您的投放。
+1. 添加所有字段后，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;按钮以保存更改。 现在，您可以使用它们来个性化您的投放。
 
 有关如何创建和个性化投放的更多信息，请参阅Campaign Standard文档：
 
