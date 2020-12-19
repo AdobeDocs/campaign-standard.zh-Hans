@@ -36,13 +36,13 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. 确认您的活动。
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
+1. 将[加载文件](../../automating/using/load-file.md)活动拖放到工作流中，并将其放在&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动之后。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在 **[!UICONTROL File to load]** 选项卡的 **[!UICONTROL Execution]** 中，勾选 **[!UICONTROL Use the file specified in the inbound transition]** 选项。
 
    ![](assets/wkf_file_loading8.png)
 
 1. 按照之前指定的方式配置活动。
-1. Drag and drop an [Update data](../../automating/using/update-data.md) activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it.
+1. 将[更新数据](../../automating/using/update-data.md)活动拖放到您的工作流中，并将其放在&#x200B;**[!UICONTROL Load file]**&#x200B;活动之后，进行配置。
 
 启动工作流后，将提取来自上传文件的数据，然后将其用于扩充 Adobe Campaign 数据库。
