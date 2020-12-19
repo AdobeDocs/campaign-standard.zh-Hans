@@ -21,13 +21,13 @@ ht-degree: 5%
 >
 >受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
 
-使用Segment Builder创建 [Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md) 后，您可以像在工作流内部创建活动受众那样使用来个性化和发送消息。
+使用区段生成器创建[Adobe Experience Platform受众](../../audiences/using/aep-about-audience-destinations-service.md)后，您可以像工作流内活动受众那样使用它来个性化和发送消息。
 
 要在您的工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
-1. 在工作流 **[!UICONTROL Read audience]** 中添加活动，然后将其打开。
+1. 将&#x200B;**[!UICONTROL Read audience]**&#x200B;活动添加到工作流，然后打开它。
 
-1. 选择下 **[!UICONTROL Adobe Experience Platform]** 面的选 **[!UICONTROL Type of audience]**&#x200B;项，然后添加所需的受众。
+1. 选择&#x200B;**[!UICONTROL Type of audience]**&#x200B;下的&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;选项，然后添加所需的受众。
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -35,23 +35,23 @@ ht-degree: 5%
 
    单击“眼睛”按钮将直接转到与活动内选定受众关联的“区段生成器”（在另一个选项卡中）。
 
-1. 选择一 **[!UICONTROL Platform data mapping]** 个元素，为选定的Adobe Experience Platform定位维度指定所需的受众。
+1. 选择&#x200B;**[!UICONTROL Platform data mapping]**&#x200B;元素，为所选的Adobe Experience Platform定位维度指定所需的受众。
 
-   默认情况下，用于对帐的主键(例如，用户档案表的iRecipientID、AppSubscription表的iAppSubscriptionID)将从下拉列表自动可用。 要在主键之外目标，必须创建自定义 **命名空间**。
+   默认情况下，用于对帐的主键(例如，用户档案表的iRecipientID、AppSubscription表的iAppSubscriptionID)将从下拉列表自动可用。 要在主键之外目标，必须创建自定义&#x200B;**命名空间**。
 
    >[!NOTE]
    >
-   >对于主键外的目标，还必须创建与自定义目标映射对应的自定义命名空间。 For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+   >对于主键外的目标，还必须创建与自定义目标映射对应的自定义命名空间。 有关目标映射的详细信息，请参阅[本节](../../administration/using/target-mappings-in-campaign.md)。
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   此列表包含已在实例上配置的所有体验数据模型(XDM)映射。 有关Adobe Experience Platform数据连接器的详细信息，请参 [阅此专用文档](../../developing/using/aep-about-data-connector.md)。
+   此列表包含已在实例上配置的所有体验数据模型(XDM)映射。 有关Adobe Experience Platform数据连接器的详细信息，请参阅[此专用文档](../../developing/using/aep-about-data-connector.md)。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. 正确配置受众和定位维度后，单击 **[!UICONTROL Confirm]** 按钮以保存更改。
+1. 正确配置受众和定位维度后，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;按钮以保存更改。
 
-您现在可以配置与其他活动的工作流。 例如，您可以链接活动 **[!UICONTROL Email delivery]** 以向已选定的受众发送电子邮件。
+您现在可以配置与其他活动的工作流。 例如，您可以链接&#x200B;**[!UICONTROL Email delivery]**&#x200B;活动，向已选择的受众发送电子邮件。
 
 ![](assets/aep_wkf_email.png)
 
