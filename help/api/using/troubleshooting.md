@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 故障排除 {#troubleshooting}
 
-* **转到Adobe.io控制台时，您会收到以下错误：“AdobeI/O控制台仅可用于选择企业帐户的成员。 如果您认为您应该具有访问权限，请与系统管理员联系。”**
+* **转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅对企业帐户的选定成员可用。如果您认为您应该具有访问权限，请与系统管理员联系。&quot;**
 
 您只能为您所管理的IMS组织创建API密钥。 如果显示此消息，并且您要创建API密钥，并且要请求IMS组织的管理员之一。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您得到{&quot;code&quot;:500, &quot;message&quot;:&quot;糟糕。 出了点问题。 请检查您的URI，然后重试。&quot;}**
+* **向Adobe.io发出请求时，您得到{&quot;code&quot;:500, &quot;message&quot;:&quot;糟糕。出了点问题。 检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的无效URI:您请求的URI很可能无效。 在Adobe.io上，当您选择活动服务时，您会得到一个选取器，其列表可能为organization_id。 您需要检查您选择的是否是您放入URL的那个。
 
@@ -87,7 +87,7 @@ Adobe.io声明您的无效URI:您请求的URI很可能无效。 在Adobe.io上�
 
 * **创作后我看不到用户档案**
 
-根据实例配置，创建的用户档案需要与orgUnit关 **联**。 要了解如何在创建中添加此字段，请参 [阅此部分](../../api/using/creating-profiles.md)。
+根据实例配置，创建的用户档案需要与&#x200B;**orgUnit**&#x200B;关联。 要了解如何在创建中添加此字段，请参阅[此部分](../../api/using/creating-profiles.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
