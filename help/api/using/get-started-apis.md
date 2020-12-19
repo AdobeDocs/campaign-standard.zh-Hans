@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign Standard API 快速入门
-description: 通过将 Campaign 与技术面板连接，创建集成并构建您自己的生态系统。
+description: 将 Campaign 与一组技术进行结合，从而创建集成并构建您自己的生态系统。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
