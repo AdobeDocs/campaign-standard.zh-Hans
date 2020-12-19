@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 打开{#opens}
 
-The **[!UICONTROL Opens]** report identifies the deliveries that have been most viewed by recipients.
+**[!UICONTROL Opens]**&#x200B;报告标识投放查看次数最多的收件人。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ The **[!UICONTROL Opens]** report identifies the deliveries that have been most 
 * 平台
 * 域
 
-The **[!UICONTROL TOP 5]** table and graph display the deliveries with the highest number of delivered messages.
+**[!UICONTROL TOP 5]**&#x200B;表和图表显示已传送消息数量最多的投放。
