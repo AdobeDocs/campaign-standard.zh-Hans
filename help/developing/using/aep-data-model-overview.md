@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# 体验数据模型概述 {#experience-data-model-overview}
+# 体验数据模型概述{#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 7%
 
 XDM模式的创建和管理可通过专用API或XDM用户界面提供。
 
-## XDM工作区 {#xdm-workspace}
+## XDM工作区{#xdm-workspace}
 
 XDM Workspace提供了视图、创建和扩展数据模式的能力。
 
 要访问XDM用户界面，请打开Adobe Experience Platform。 导航到“数据模型”窗口以创建或扩展XDM模式。
 
-请查阅完整的 [XDM工作区文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
+请查阅完整的[XDM Workspace文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ XDM Workspace提供了视图、创建和扩展数据模式的能力。
 * 视图模式描述符
 * 创建、更新和删除模式描述符
 
-可在开发人员指南中找到处理API调用的所 [有详细信息](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
+可在[开发人员指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)中找到用于操作API调用的所有详细信息。
