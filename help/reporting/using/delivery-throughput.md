@@ -21,10 +21,10 @@ ht-degree: 5%
 此报告包含与发送或多个发送的投放吞吐量相关的数据。 它提供：
 
 * 每小时处理的邮件数
-* 表 **[!UICONTROL Top 5 deliveries]** 格和补充摘要数字，显示5个投放重试获得最佳收益。
+* **[!UICONTROL Top 5 deliveries]**&#x200B;表和补充摘要编号，显示投放中获得最佳增益的五个重试。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->该 **[!UICONTROL Delivery throughput]** 页显示消息从活动到Adobe Campaign增强MTA的中继的吞吐量速度。
+>**[!UICONTROL Delivery throughput]**&#x200B;页显示消息从活动到Adobe Campaign增强MTA的中继的吞吐量速度。
