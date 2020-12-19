@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >因此，从18.7版本开始，新Campaign Standard实例以及没有创建地理单位的现有实例无法实现此功能。
 >
->有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已弃用功能</a>页。
+>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">已弃用功能</a>页。
 
 **geoUnitBase**&#x200B;端点允许您与地理单元交互，例如，允许您更新其属性或更新用户档案的单元。
 
