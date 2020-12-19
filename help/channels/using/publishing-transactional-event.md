@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 发布交易事件
+title: 发布事务性事件
 description: 了解如何预览、发布、取消发布和删除事务事件配置。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# 发布事务事件{#publishing-transactional-event}
+# 发布事务性事件 {#publishing-transactional-event}
 
 完成[配置](../../channels/using/configuring-transactional-event.md)后，事件即可发布。 预览、发布、取消发布和删除事件的步骤如下所述。
 
