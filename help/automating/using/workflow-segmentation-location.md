@@ -16,7 +16,7 @@ ht-degree: 83%
 ---
 
 
-# 位置细分 {#segmentation-on-location}
+# 位置{#segmentation-on-location}上的分段
 
 您可以向客户发送定向电子邮件，并提供当地商店的优惠。
 
@@ -26,7 +26,7 @@ ht-degree: 83%
 
 ## 通过电子邮件选择可联系的收件人{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity ![](assets/query.png).
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[查询](../../automating/using/query.md)活动![](assets/query.png)。
 1. 双击该活动。
 1. 在 **[!UICONTROL Shortcuts]** 中，拖放 **[!UICONTROL Profiles]** 并选择字段 **[!UICONTROL email]** 和运算符 **[!UICONTROL is not empty]**。
 1. 在 **[!UICONTROL Shortcuts]** 中，拖放 **[!UICONTROL Profiles]** 并选择字段 **[!UICONTROL no longer contact by email]** 和值 **[!UICONTROL no]**。
@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## 创建分段活动{#creating-a-segmentation-activity}
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. 拖放[Segmentation](../../automating/using/segmentation.md)活动，然后多次单击它。
 1. 单击区段，然后打开过渡以定向第一个城市的人群。在本例中，为“Boston”。
 1. 拖放 **[!UICONTROL Location]** 并选择 **[!UICONTROL City]** 和运算符 **[!UICONTROL equals to]**，同时选择值 **[!UICONTROL Boston]**。
 注意：要联系所有进入波士顿的人员，请取消选中“区分大小写”选项。
@@ -48,7 +48,7 @@ ht-degree: 83%
 
 ## 创建电子邮件投放{#creating-an-email-delivery}
 
-1. 在> **[!UICONTROL Activities]** 中 **[!UICONTROL Channels]**，将电子邮件投放 [](../../automating/using/email-delivery.md) 活动拖放到每个区段之后。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到每个区段之后。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Simple email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
