@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 交易消息使用案例
+title: 事务性消息传递用例
 description: 发现Adobe Campaign事务消息传递功能的端到端示例。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 事务消息使用案例{#transactional-messaging-use-case}
+# 事务性消息传递用例 {#transactional-messaging-use-case}
 
 在此示例中，您希望使用Adobe Campaign事务消息传递功能在您网站上的每次购买后发送确认电子邮件，通过客户的CRM ID识别客户。
 
