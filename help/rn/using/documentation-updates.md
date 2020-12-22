@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 99%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
-事务消息部分经过重新组织和改进，其中明确的入门部分包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，以说明整个过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+**现已弃** 用“预测主题链接”。[阅读更多](../../rn/using/deprecated-features.md)
 
-“隐私”部分已移动。[阅读更多](../../start/using/privacy.md)
+**事务消息**&#x200B;入门部分现在包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)来说明实施过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-新增辅助功能页面，以详细了解 Adobe Campaign Standard 工作区中的辅助功能支持。[阅读更多](../../start/using/accessibility.md)
+**隐私**&#x200B;部分已移至[此处](../../start/using/privacy.md)。
 
-“事务性消息传递”部分新增了一个限制，说明为获得最佳性能，已发布事务性消息的数量应保持在100以下。 [阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+新的&#x200B;**辅助功能**&#x200B;页面可用：它详细介绍了Adobe Campaign Standard工作区中的辅助功能支持。 [阅读更多](../../start/using/accessibility.md)
+
+已添加一个警告说明，为获得最佳性能，已发布事务性消息数应保持在100以下。 [阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+SMS连接器协议和设置页面已移至[此处](../../administration/using/sms-protocol.md)。
+
+**在事务性消息**&#x200B;部分中使用产品列表已移至[此处](../../designing/using/using-product-listings.md)。
 
 ## 2020 年 11 月{#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 Email Designer 常规可用性 - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-事务型电子邮件中的产品清单 - [了解更多](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+事务型电子邮件中的产品清单 - [了解更多](../../designing/using/using-product-listings.md)
 
 Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
