@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 交易电子邮件中的产品列表<br /> </td> 
-   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关更多信息，请参阅<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">操作方法视频</a>。</p> </td> 
+   <td> <p>您现在可以在交易电子邮件中引用一个或多个产品集合。 例如，您可以自动发送购物车放弃电子邮件，其中列出用户购物车中的所有产品，以及图像、价格和指向每个产品的链接。</p><p>有关更多信息，请参阅<a href="../../designing/using/using-product-listings.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件设计器中的移动视图<br /> </td> 
