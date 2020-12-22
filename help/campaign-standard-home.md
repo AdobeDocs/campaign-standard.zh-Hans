@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[更新的发行计划](rn/using/release-planning.md)**<br/> 即将到来的 2021 年 2 月发行日期已添加到发行计划中
+* **[更新错误硬跳](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 回了解如何在Gmail中断后更新错误硬跳回
+
+* **[发布](rn/using/release-planning.md)**<br/> 计划即将发布的2021年2月版本日期已添加到发布计划中
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
@@ -79,5 +81,5 @@ ht-degree: 100%
 | [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [发行计划](rn/using/release-planning.md) | [Campaign 数据模型](developing/using/datamodel-introduction.md) |
-| [已弃用和已删除的功能](rn/using/deprecated-features.md)) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [已弃用和已删除的功能](rn/using/deprecated-features.md) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard 快速入门](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html) |
