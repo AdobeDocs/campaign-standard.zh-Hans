@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 59%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
@@ -89,125 +89,125 @@ ht-degree: 59%
 
    您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关详细信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
-## 在事务型消息中使用产品清单{#using-product-listings-in-a-transactional-message}
+<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
-在编辑交易电子邮件的内容时，您可以创建引用一个或多个数据集合的产品列表。 例如，在购物车废弃电子邮件中，您可以包含用户离开网站时购物车中的所有产品的列表，以及图像、价格和指向每个产品的链接。
+When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
 >[!IMPORTANT]
 >
->在通过[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面编辑事务性电子邮件内容时，产品列表仅对电子邮件渠道可用。
+>Product listings are only available for the email channel, when editing transactional email content through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
-要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
+To add a list of abandoned products in a transactional message, follow the steps below.
 
-您还可以观看[此视频集](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)，说明在交易电子邮件中配置产品列表所需的步骤。
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
->Adobe Campaign 不支持嵌套产品清单，这意味着您不能将一个产品清单包含在另一个产品清单中。
+>Adobe Campaign does not support nested product listings, meaning that you cannot include a product listing inside another one.
 
-### 定义产品清单{#defining-a-product-listing}
+### Defining a product listing {#defining-a-product-listing}
 
-在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
+Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. 在事务型消息中，单击 **[!UICONTROL Content]** 块以修改电子邮件的内容。
-1. 将结构组件拖放到工作区。有关此内容的详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
+1. Drag and drop a structure component to the workspace. For more on this, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关此内容的详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Using content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-1. 选择之前创建的结构组件，然后单击上下文工具栏中的 **[!UICONTROL Enable product listing]** 图标。
+1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
 
    ![](assets/message-center_loop_create.png)
 
-   结构组件以橙色框突出显示，且 **[!UICONTROL Product listing]** 设置显示在左侧面板中。
+   The structure component is highlighted with an orange frame and the **[!UICONTROL Product listing]** settings are displayed in the left palette.
 
    ![](assets/message-center_loop_palette.png)
 
-1. 选择集合元素的显示方式：
+1. Select how the elements of the collection will be displayed:
 
-   * **[!UICONTROL Row]**：水平，表示每行显示一个元素，逐行排列。
-   * **[!UICONTROL Column]**: 垂直，表示使用同一行将各个元素邻近放置。
+    * **[!UICONTROL Row]**: horizontally, meaning each element on one row under the other.
+    * **[!UICONTROL Column]**: vertically, meaning each element next to the other on the same row.
 
    >[!NOTE]
    >
-   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. 选择配置与事务型消息相关的事件时创建的数据集合。您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
+1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node.
 
    ![](assets/message-center_loop_selection.png)
 
-   有关配置事件的更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
+   For more on configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. 使用 **[!UICONTROL First item]** 下拉列表选择电子邮件中显示清单的开头元素。
+1. Use the **[!UICONTROL First item]** drop-down list to select which element will start the list displayed in the email.
 
-   例如，如果您选择“2”，则集合的第一个项将不会显示在电子邮件中。产品清单将从第二项开始。
+   For example, if you select 2, the first item of the collection will not be displayed in the email. The product listing will start on the second item.
 
-1. 选择要在清单中显示的最大项数。
+1. Select the maximum number of items to display in the list.
 
    >[!NOTE]
    >
-   >如果希望垂直显示清单中的元素 (**[!UICONTROL Column]**)，则最大项数将根据选则的结构组件（2 列、3 列或 4 列）而有所限制。有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### 填充产品清单{#populating-the-product-listing}
+### Populating the product listing {#populating-the-product-listing}
 
-要显示来自事务型电子邮件所链接事件的产品清单，请执行以下步骤。
+To display a list of products coming from the event linked to the transactional email, follow the steps below.
 
-有关在配置事件时创建集合和相关字段的更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
+For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. 选择要插入的图像组件，选择 **[!UICONTROL Enable personalization]** 并单击 Settings 窗格中的铅笔。
+1. Select the image component you inserted, select **[!UICONTROL Enable personalization]** and click the pencil in the Settings pane.
 
    ![](assets/message-center_loop_image.png)
 
-1. 在打开的 **[!UICONTROL Image source URL]** 窗口中选择 **[!UICONTROL Add personalization field]**。
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Image source URL]** window that opens.
 
-   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前定义的图像字段（此处为 **[!UICONTROL Product image]**）。单击 **[!UICONTROL Save]**。
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the image field that you defined (here **[!UICONTROL Product image]** ). Click **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
-   现在，您选择的个性化字段即已显示在设置窗格中。
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. 在所需位置，从上下文工具栏中选择&#x200B;**[!UICONTROL Insert personalization field]** 
+1. At the desired position, select **[!UICONTROL Insert personalization field]** from the contextual toolbar.
 
    ![](assets/message-center_loop_product.png)
 
-1. 前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的字段（此处为 **[!UICONTROL Product name]**）。单击 **[!UICONTROL Confirm]**。
+1. From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the field that you created (here **[!UICONTROL Product name]** ). Click **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
-   现在，您选择的个性化字段即已显示在电子邮件内容中所需的位置。
+   The personalization field that you selected is now displayed at the desired position in the email content.
 
-1. 接下来以类似方式插入价格。
-1. 选择一些文本，然后从上下文工具栏中选择&#x200B;**[!UICONTROL Insert link]** 
+1. Proceed similarly to insert the price.
+1. Select some text and select **[!UICONTROL Insert link]** from the contextual toolbar.
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. 在打开的 **[!UICONTROL Insert link]** 窗口中选择 **[!UICONTROL Add personalization field]**。
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Insert link]** window that opens.
 
-   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的 URL 字段（此处为 **[!UICONTROL Product URL]**）。单击 **[!UICONTROL Save]**。
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
 
    >[!IMPORTANT]
    >
-   >出于安全原因，请确保将个性化字段插入以适当静态域名开头的链接中。
+   >For security reasons, make sure you insert the personalization field inside a link starting with a proper static domain name.
 
    ![](assets/message-center_loop_link_select.png)
 
-   现在，您选择的个性化字段即已显示在设置窗格中。
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. 选择应用产品清单的结构组件，然后选择 **[!UICONTROL Show fallback]** 以定义默认内容。
+1. Select the structure component on which the product listing is applied and select **[!UICONTROL Show fallback]** to define a default content.
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. 拖动一个或多个内容组件并根据需要对其进行编辑。
+1. Drag one or more content components and edit them as needed.
 
    ![](assets/message-center_loop_fallback.png)
 
-   如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
+   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. 在“设置”窗格中，编辑产品清单的样式。有关此方面的详细信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
-1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Managing email styles](../../designing/using/styles.md).
+1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
 ## 基于用户档案的事务性消息特异性{#profile-transactional-message-specificities}
 
@@ -216,8 +216,6 @@ ht-degree: 59%
 * 有关基于事件的事务性消息和基于用户档案的之间差异的详细信息，请参见[此部分](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
 
 * 创建基于用户档案的事务性消息的配置步骤详见[本节](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
-
-<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
 创建、编辑和个性化用户档案事务性消息的步骤与创建事件事务性消息的步骤基本相同。
 
