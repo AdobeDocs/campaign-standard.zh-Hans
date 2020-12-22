@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard 提供两种新的机器学习模型：**预测发送时
 >[!CAUTION]
 >此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 >
->该功能要求使用必须由客户提供的 Azure 存储器。
+>该功能需要使用客户必须提供的Azure或AmazonS3存储。
 
 ## 预测发送时间优化{#predictive-send-time}
 
