@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ ht-degree: 7%
 
 您可以向事件内容添加元素集合，每个元素本身都包含多个属性。
 
-此集合可用于交易电子邮件中，以将[产品列表](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)添加到邮件内容，例如产品列表-价格、参考编号、数量等。 列表的每个产品。
+此集合可用于交易电子邮件中，以将[产品列表](../../designing/using/using-product-listings.md)添加到邮件内容，例如产品列表-价格、参考编号、数量等。 列表的每个产品。
 
 1. 在&#x200B;**[!UICONTROL Collections]**&#x200B;部分，单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮。
 
@@ -96,7 +96,7 @@ ht-degree: 7%
 **相关主题：**
 
 * [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [在事务型消息中使用产品清单](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [在事务型消息中使用产品清单](../../designing/using/using-product-listings.md)
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## 丰富事件{#enriching-the-transactional-message-content}
