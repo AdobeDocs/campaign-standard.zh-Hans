@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 66%
@@ -64,7 +64,7 @@ ht-degree: 66%
 
 ### 产品列表
 
-请注意，产品列表仅在事务性&#x200B;**电子邮件**&#x200B;中可用。 请参阅[在事务型消息中使用产品清单](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)。
+请注意，产品列表仅在事务性&#x200B;**电子邮件**&#x200B;中可用。 请参阅[在事务型消息中使用产品清单](../../designing/using/using-product-listings.md)。
 
 ## 品牌策略 {#permissions-and-branding}
 
