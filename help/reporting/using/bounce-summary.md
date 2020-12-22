@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # 退回摘要{#bounce-summary}
 
-该报告会详细描述在投放期间遇到的整体硬错误和软错误，以及退回的自动处理。
+此报告详细描述了在投放期间遇到的硬错误和软错误以及弹回的自动处理(请参阅[了解投放故障](../../sending/using/understanding-delivery-failures.md))。
 
 ![](assets/campaign_reports_bounces.png)
 
