@@ -6,11 +6,11 @@ description: 了解 Adobe Campaign Standard 工作区中的辅助功能支持。
 audience: designing
 content-type: reference
 topic-tags: accessibility
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 45%
 
 辅助功能是指使产品可用于患有视觉、听觉、认知、运动和其他残疾的人员。软件产品的辅助功能示例包括语义结构化内容、屏幕阅读器支持、图形的对等文本、键盘快捷键等。
 
-Adobe Campaign Standard提供的功能使对比度、标签、结构化内容、键盘导航和上下文帮助等更易于使用。
+Adobe Campaign Standard 提供使其更便于使用的功能，例如对比度、标签、结构化内容、键盘导航和上下文帮助。
 
 ## 辅助功能 {#accessibility-features}
 
-### 对比度和颜色{#contrast}
+### 对比度和颜色 {#contrast}
 
-Adobe Campaign Standard用户界面努力在应用程序中提供足够的对比度，以确保低视觉或颜色缺陷的用户具有可访问的观看体验。
+Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对比度，以确保视力低下或色觉缺失的用户具有无障碍的观看体验。
 
-* 大文本和标题已得到增强，达到3:1的对比度。
+* 大文本和标题已得到增强，达到 3:1 的对比度。
 
    ![](assets/accessibility_2.png)
 
-* 应用程序中的帮助内容和正文文本已更新，符合4.5:1的对比度。
+* 应用程序中的帮助内容和正文文本已更新，达到 4.5:1 的对比度。
 
-* 工作流的暂停和取消图标已更新，以改善背景和前景颜色之间的对比度。
+* 工作流的暂停和取消图标已更新，以提高背景色和前景色之间的对比度。
 
    ![](assets/accessibility_1.png)
 
@@ -43,9 +43,9 @@ Adobe Campaign Standard用户界面努力在应用程序中提供足够的对比
 
 ### 用户界面 {#user-interface}
 
-Adobe Campaign Standard用户界面通过向可视元素添加替代文本以及使用语义结构以可视方式和有计划的方式传递信息，使所有用户能更轻松地与内容交互。
+Adobe Campaign Standard 用户界面通过向可视元素添加替代文本以及使用语义结构以直观且程序化的方式传递信息，使所有用户更轻松地与内容交互。
 
-* 当用户将所需的ID字段留空时，图形会直观地指示出错消息文本的哪个字段，同一信息会通过屏幕阅读器等辅助技术有计划地传递给用户。
+* 当用户将必需的 ID 字段留空时，图形会直观地指示哪个字段的消息文本出错，并且同一信息通过屏幕阅读器等辅助技术以程序化方式传递给用户。
 
    ![](assets/accessibility_3.png)
 
@@ -53,7 +53,7 @@ Adobe Campaign Standard用户界面通过向可视元素添加替代文本以及
 
    ![](assets/accessibility_4.png)
 
-* 为图像添加了替代文本和按钮的辅助名称，并且可以使用辅助技术朗读，而不是只依赖视觉提示来识别元素。
+* 添加了图像的替代文本和按钮的辅助名称，并且可以使用辅助技术大声读取，而不是只依赖视觉提示来识别元素。
 
 <!--
 ### Create responsive resize for multiple devices {#resize-devices}
@@ -67,21 +67,21 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## 上下文帮助 {#contextual-help}
 
-上下文帮助可以帮助您更好地了解可用的不同请求字段和功能。 它还会指导您阅读产品文档，以了解有关所选功能的更多信息。
+上下文帮助可以帮助您更好地了解所请求的不同可用字段和功能。它还会指导您阅读产品文档，以了解有关所选功能的更多信息。
 
-在设计电子邮件时，您可以访问工具提示，其中提供功能描述和产品文档的链接。
+在设计电子邮件时，您可以访问工具提示，其中将提供功能描述和产品文档链接。
 
 ![](assets/accessibility_7.png)
 
-## 支持辅助技术{#screen-magnifiers}
+## 支持辅助技术 {#screen-magnifiers}
 
-我们努力使Adobe Campaign Standard应用程序能通过各种辅助技术尽可能地使用，这些技术包括但不限于修改的键盘、屏幕放大软件、屏幕阅读器、语音识别软件和其他辅助设备。
+我们努力通过各种辅助技术提高 Adobe Campaign Standard 应用程序的易用性，这些技术包括但不限于改进键盘、屏幕放大软件、屏幕阅读器、语音识别软件和其他辅助设备。
 
 ## 使用首选语言 {#languages}
 
 Adobe Campaign Standard 提供不同语言形式：英语、法语和德语。
 
-请注意，语言是在安装时设置的，之后无法更改。
+请注意，语言在安装时进行设置，此后不能更改。
 
 ## 键盘快捷键 {#shortcuts}
 
