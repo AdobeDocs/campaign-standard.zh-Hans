@@ -6,11 +6,11 @@ description: 本页列出了即将发行的 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 ## 21.1 版 - 2 月发布 {#release-21-1-release}
 
-在下方指定的时间段内，将不定时进行环境更新。有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)。如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+在下方指定的时间段内，将不定时进行环境更新。有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)，当阶段环境升级开始。 如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 <table>
  <thead>
@@ -58,7 +58,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **问：采用什么验证流程？**
 
-答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)报告任何问题。
+答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)报告任何问题。
 
 **问：在升级过程中是否可以访问实例？**
 
@@ -80,4 +80,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。
