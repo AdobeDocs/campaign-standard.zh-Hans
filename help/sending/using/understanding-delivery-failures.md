@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 81%
+source-wordcount: '1299'
+ht-degree: 80%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 81%
 
 如果消息因 **Ignored** 类型的临时错误而失败，则会在投放持续期间执行重试。有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
 
-重试次数（开始发送后一天内应执行多少次重试）和重试之间的最短延迟，现在由 Adobe Campaign Enhanced MTA 根据 IP 在给定域名的历史和当前表现进行管理。Campaign 中的 **Retries** 设置将被忽略。
+重试次数（开始发送后一天内应执行多少次重试）和重试之间的最短延迟，现在由 Adobe Campaign Enhanced MTA 根据 IP 在给定域名的历史和当前表现进行管理。Campaign 中的 **Retries** 设置将被忽略。请注意，Adobe Campaign增强MTA不适用于推送渠道。
 
 要修改投放的持续时间，请转至投放或投放模板的高级参数，并编辑 [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters) 部分的 **[!UICONTROL Delivery duration]** 字段。
 
