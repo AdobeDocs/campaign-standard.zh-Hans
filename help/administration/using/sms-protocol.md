@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ SMPP传输单元（“数据包”）称为PDU。 **PDU**&#x200B;包含命令、
 
 例如，在发送MT时，使用发射器连接，并且确认MT的`RESP`也通过发射器渠道发送。 当您收到MO（或SR）时，接收器连接用于接收MO并发送确认MO的`RESP`。
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 在Adobe Campaign Standard,MT和SR协调是MTA的固有，因此没有专用的SMS过程。
 
@@ -500,7 +500,7 @@ Adobe Campaign Standard的总连接公式：
 
 最大窗口为4的传输示例：
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 当网络链路具有高延迟时，该窗口有助于提高吞吐量。  窗口的值必须至少是SMS/s的数量乘以链路的等待时间（以秒为单位），这样连接器在发送下一条消息之前就不会等待`SUBMIT_SM_RESP`。
 如果窗口太大，您可能会发送更多重复消息以防连接出现问题。 此外，大多数提供商对窗口有非常严格的限制，拒绝超出限制的消息。
@@ -758,7 +758,7 @@ SMS协议将SMS限制在255个部分，但一些手机很难将长消息与大�
 
 ## SMPP连接器{#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 箭头表示数据流。
 
