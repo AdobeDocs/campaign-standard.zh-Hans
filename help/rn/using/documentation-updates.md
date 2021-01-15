@@ -6,11 +6,11 @@ description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6372'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 98%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
-**现已弃** 用“预测主题链接”。[阅读更多](../../rn/using/deprecated-features.md)
+现已弃用&#x200B;**预测主题行**。[阅读更多](../../rn/using/deprecated-features.md)
 
-**事务消息**&#x200B;入门部分现在包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)来说明实施过程。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+**事务性消息传递**&#x200B;入门部分现在包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，用于说明实施过程。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
 **隐私**&#x200B;部分已移至[此处](../../start/using/privacy.md)。
 
-新的&#x200B;**辅助功能**&#x200B;页面可用：它详细介绍了Adobe Campaign Standard工作区中的辅助功能支持。 [阅读更多](../../start/using/accessibility.md)
+提供新的&#x200B;**辅助功能**&#x200B;页面：其中详细介绍 Adobe Campaign Standard 工作区中的辅助功能支持。[阅读更多](../../start/using/accessibility.md)
 
-已添加一个警告说明，为获得最佳性能，已发布事务性消息数应保持在100以下。 [阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+添加了警告说明，为获得最佳性能，已发布的事务性消息数应保持在 100 以下。[阅读更多](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
-SMS连接器协议和设置页面已移至[此处](../../administration/using/sms-protocol.md)。
+“短信连接器协议和设置”页面已移至[此处](../../administration/using/sms-protocol.md)。
 
-**在事务性消息**&#x200B;部分中使用产品列表已移至[此处](../../designing/using/using-product-listings.md)。
+**在事务性消息中使用产品列表**&#x200B;部分已移至[此处](../../designing/using/using-product-listings.md)。
 
 ## 2020 年 11 月{#doc-updates-november-2020}
 
@@ -317,7 +317,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 新增了关于如何使用陷阱的章节。[了解更多](../../sending/using/using-traps.md)。
 
-在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)
 
 重组了 Email Designer 指南。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -389,7 +389,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 **此版本中包含的新增功能**
 
-控制面板 - [了解更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板 - [了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
 
 本地通知 - [了解更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -543,9 +543,9 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 将“使用 SDK V4 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)。
 
-将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-将视频更新并移动到了[此处](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
+将视频更新并移动到了[此处](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.translate.html)。
 
 更新了“用户类型”章节。[了解更多](../../administration/using/users-management.md)
 
@@ -575,7 +575,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **随版本提供的其他文档更新**
 
-添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新了 Experience Manager 与 Adobe Campaign 集成的文档。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -777,7 +777,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-更新了推送渠道配置[章节](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
+更新了推送渠道配置[章节](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
 
 更新了“短信”文档，为[短信自动回复](../../channels/using/managing-incoming-sms.md#managing-stop-sms)章节添加了一些深入说明。
 
@@ -873,7 +873,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了多张屏幕截图，以反映界面的更改。
 
-提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -903,9 +903,9 @@ Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
-新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
 
-更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
 
 更新了关于如何在 Campaign 中处理图像的章节。[了解更多](../../designing/using/images.md#setting-up-image-properties)
 
@@ -917,7 +917,7 @@ Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh
 
 动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 集成（实验室）- [了解更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 集成（实验室）- [了解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
 
 手动发送时间优化 - [了解更多](../../sending/using/optimizing-the-sending-time.md)
 
