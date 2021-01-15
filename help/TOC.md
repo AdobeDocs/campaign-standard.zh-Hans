@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -447,9 +447,9 @@ ht-degree: 99%
       + [配置 Launch 规则以支持 Adobe Campaign Standard 用例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
    + 配置短信渠道 {#configuring-sms}
-      + [实施SMS渠道](administration/using/configuring-sms-channel.md)
-      + [SMS连接器协议和设置](administration/using/sms-protocol.md)
-      + [SMS疑难解答](administration/using/troubleshooting-sms.md)
+      + [实施短信渠道](administration/using/configuring-sms-channel.md)
+      + [短信连接器协议和设置](administration/using/sms-protocol.md)
+      + [短信疑难解答](administration/using/troubleshooting-sms.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
