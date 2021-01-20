@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。通过 **[!UICONTROL URL]** 字段，可以定义将向 ACS 发送数据的 **HTTPS 端点**。
+通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义将向活动发送数据的&#x200B;**HTTPS端点**。
 
 如果端点需要，可使用两种类型的身份验证方法：
 
