@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [ Dynamics 365 集成快速入门](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [管理 Campaign 和 Dynamics 365 之间的数据](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [请求集成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [配置 Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [为 Campaign 集成配置 Dynamics 365](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [映射 Campaign 自定义资源和 Dynamics 365 自定义实体](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [使用 Dynamics 365 集成](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [集成护栏](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Microsoft Dynamics 365集成入门](integrating/using/d365-acs-get-started.md)
+      + [最佳实践和限制](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [配置Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [配置活动和Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + 配置集成应用程序{#configure-integration-tool}
+         + [集成应用程序入门](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [访问集成应用程序](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [使用集成应用程序连接系统](integrating/using/d365-acs-self-service-app-settings.md)
+         + [管理同步工作流](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [在Microsoft Dynamics 365和活动之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + [数据和流程管理快速入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
