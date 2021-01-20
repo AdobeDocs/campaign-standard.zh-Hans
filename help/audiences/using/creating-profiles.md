@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 89%
@@ -30,7 +30,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 * 通过[工作流](../../automating/using/creating-import-workflow-templates.md)从文件导入用户档案列表
 * 通过[登陆页面](../../channels/using/getting-started-with-landing-pages.md)在线收集数据
 * 通过 [REST API](../../api/using/get-started-apis.md) 批量创建
-* 同步来自 [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) 的用户档案
+* 同步来自 [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) 的用户档案
 * 使用图形界面屏幕输入数据，如下所述
 
 例如，要直接在用户界面中创建新用户档案，请执行以下步骤：
@@ -68,4 +68,4 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
+此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供其他Campaign Standard操作方法视频。[
