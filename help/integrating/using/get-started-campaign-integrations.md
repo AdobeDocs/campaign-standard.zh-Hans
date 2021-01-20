@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 91%
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Adobe Campaign Standard 还可以连接到 Microsoft Dynamics 365：此集成支持同步 CRM 系统中所有可用联系人数据，从而使所有相关联系人数据都可用于 Campaign 活动。有关此集成的更多信息，请参阅[使用 Campaign 和 Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+>Adobe Campaign Standard 还可以连接到 Microsoft Dynamics 365：此集成支持同步 CRM 系统中所有可用联系人数据，从而使所有相关联系人数据都可用于 Campaign 活动。有关此集成的更多信息，请参阅[使用 Campaign 和 Dynamics 365](../../integrating/using/d365-acs-get-started.md)。
 
 
 <table> 
