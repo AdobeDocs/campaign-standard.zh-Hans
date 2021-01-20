@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -69,8 +69,8 @@ ht-degree: 5%
 
 | 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
-| 美洲和亚太地区（亚太地区） | **功能可用**。<br> 除ExternalID外，没有将现成的和自定义的用户档案信息推送到美国报告中心。 | **功能可用**。<br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到美国数据中心。<br>除Adobe Campaign StandardID外，所有在美国数据中心处理的事件字段。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（欧洲中东和非洲） | **功能可用**。<br>除ExternalID外，没有现成的和自定义的用户档案信息被推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到EMEA数据中心。<br>除Adobe Campaign StandardID外，所有在EMEA数据中心处理的事件字段。<br>**[!UICONTROL Control data]**它包含Adobe I/O注册数据以及在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| 美洲和亚太地区（亚太地区） | **功能可用**。<br> 除ExternalID外，没有将现成的和自定义的用户档案信息推送到美国报告中心。 | **功能可用**。<br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到美国数据中心。<br>除Adobe Campaign StandardID外，所有在美国数据中心处理的事件字段。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（欧洲中东和非洲） | **功能可用**。<br>除ExternalID外，没有现成的和自定义的用户档案信息被推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和用户档案ID外，没有现成的或自定义收件人字段发送到EMEA数据中心。<br>除Adobe Campaign StandardID外，所有在EMEA数据中心处理的事件字段。<br>**[!UICONTROL Control data]**它包含Adobe I/O注册数据以及在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅本 [页](../../integrating/using/d365-acs-get-started.md)。 |
 
 此选项不是最终选项，您始终可以通过选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中的&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;来更改它。
 
