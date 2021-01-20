@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 20%
@@ -86,7 +86,7 @@ Adobe Campaign会优惠一组工具，帮助您遵守GDPR、CCPA和其他隐私�
 ## 其他资源
 
 * [使用受众目标服务](../../audiences/using/aep-about-audience-destinations-service.md)
-* [使用Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
 * [用户档案和受众视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
