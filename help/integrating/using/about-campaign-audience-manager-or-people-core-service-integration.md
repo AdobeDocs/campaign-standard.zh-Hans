@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 5%
@@ -46,6 +46,6 @@ Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和�
 
    例如，利用解密加密电子邮件地址或SMS号的能力，您还可以向用户发送触发消息，即使Adobe Campaign用户档案库中不存在触发消息。
 
-下图详细说明此集成的工作方式。这里，AAM代表Adobe Audience Manager和Adobe Campaign Standard。
+下图详细说明此集成的工作方式。这里，AAM代表Adobe Audience Manager,ACS代表Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)
