@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 11%
@@ -85,7 +85,7 @@ Campaign Standard优惠多种工具，帮助您扩展营销数据库。 本节�
 ### 同步来自Microsoft Dynamics 365的用户档案
 
 Campaign Standard与Microsoft Dynamics 365集成后，您可以将联系人数据从Microsoft Dynamics 365传递给活动数据库。
-这些联系人随后会显示在用户档案列表中，并可以定位在营销活动中。 有关此集成的详细信息，请参阅[专用文档](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+这些联系人随后会显示在用户档案列表中，并可以定位在营销活动中。 有关此集成的详细信息，请参阅[专用文档](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
