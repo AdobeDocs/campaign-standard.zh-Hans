@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 4%
 
    ![](assets/push_notif_content.png)
 
-   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 [了解ACS推送通知有效负荷结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技术说明中介绍了有效负荷的详细结构。
+   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 [了解Campaign Standard推送通知有效负荷结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技术说明中介绍了有效负荷的详细结构。
 
 1. 单击 **[!UICONTROL Create]**.
 
