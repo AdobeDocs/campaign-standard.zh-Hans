@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 96%
@@ -41,11 +41,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021 年 1 月 25 日至 27 日<br /> </td>
+   <td>2021 年 2 月 1 日至 2 日<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>2021 年 2 月 1 日至 8 日<br /> </td>
+   <td>2021年2月8日至15日<br /> </td>
   </tr>
  </tbody>
 </table>
