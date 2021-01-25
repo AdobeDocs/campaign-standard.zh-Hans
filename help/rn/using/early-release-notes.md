@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2586'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,8 @@ ht-degree: 3%
 
 * 在使用外部参数调用工作流后，使用事件变量的活动中现在有新的&#x200B;**GetOption**&#x200B;函数可用。 它允许您返回指定函数的值。
 
-* 新选项允许Campaign Standard在启动工作流之前检查系统上的物理内存&#x200B;**可用性。**&#x200B;如果内存量太低，则工作流执行将延迟，直到系统内存达到此阈值。 这避免了性能的进一步降低，并减轻了中断的风险。 在服务器压力放松后，工作流将自动恢复。  如果您的工作流执行延迟，请尝试将此工作流重新计划到活动较少的时间，然后重试。 请注意，此选项为只读，无法修改。
+* 新选项允许Campaign Standard在启动工作流之前检查系统上的物理内存&#x200B;**可用性。**&#x200B;如果内存量太低，则工作流执行将延迟，直到系统内存达到此阈值。 这避免了性能的进一步降低，并减轻了中断的风险。 一旦服务器上的负载下降，且内存增加，工作流程将自动恢复。 请注意，此选项为只读，无法修改。
+
 
 **其他变更**
 
