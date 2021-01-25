@@ -7,9 +7,9 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [最近更新](rn/using/documentation-updates.md)
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
+   + [早期发行说明](rn/using/early-release-notes.md)
    + 之前版本 {#previous-releases}
       + [发行说明 2020](rn/using/release-notes-2020.md)
       + [发行说明 2019](rn/using/release-notes-2019.md)
