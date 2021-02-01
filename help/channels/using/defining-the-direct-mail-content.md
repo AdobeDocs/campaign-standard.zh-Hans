@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. 单击 **[!UICONTROL +]** 或 **[!UICONTROL Add an element]** 按钮以添加输出列。利用 **[!UICONTROL Output columns]** 可定义要导出到输出文件中的用户档案信息（列）。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
