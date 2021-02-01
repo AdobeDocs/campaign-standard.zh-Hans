@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard 提供两种新的机器学习模型：**预测发送时
 
 * **预测参与度评分**：预测参与度评分可预测收件人与消息互动的概率，以及在下次发送电子邮件后 7 天内选择退出（取消订阅）的概率。根据具体风险（脱离接触、中度或低度），这些概率进一步划分到相应的存储区中。除此以外，该模型还为客户提供风险百分等级，以便了解某个客户相对于其他客户的等级。
 
->[!CAUTION]
+>[!IMPORTANT]
 >此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 >
 >该功能需要使用客户必须提供的Azure或AmazonS3存储。
