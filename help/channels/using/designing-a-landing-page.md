@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -106,7 +106,7 @@ ht-degree: 100%
 
 ![](assets/delivery_content_17.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >利用某些工具栏功能，可将 HTML 格式的格式化。但是，如果页面包含 CSS 样式表，则样式表中的&#x200B;**说明**&#x200B;优先级可能要高于通过&#x200B;**工具栏**&#x200B;指定的说明。
 
