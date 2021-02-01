@@ -7,10 +7,10 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [配置 Campaign-Experience Manager 集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [通过Adobe Experience Manager集成创建多语言电子邮件](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 和 Target {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
       + [配置 Campaign-Target 集成](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Experience Platform SDK 集成常见问题解答](administration/using/aep-faq.md)
       + [配置 Launch 规则以支持 Adobe Campaign Standard 用例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
+      + [如何将您的移动应用程序从SDK v4迁移到Adobe Experience PlatformSDK](administration/using/sdkv4-migration.md)
    + 配置短信渠道 {#configuring-sms}
       + [实施短信渠道](administration/using/configuring-sms-channel.md)
       + [短信连接器协议和设置](administration/using/sms-protocol.md)
