@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Adobe Experience Platform数据连接器面向&#x200B;**数据工程师**，他�
 
 * 现成映射仅适用于默认以Campaign Standard提供的字段。 要获取所有自定义字段和资源，每个客户都需要定义自己的映射。
 
-* Adobe Experience Platform数据连接器将定期推送用户档案数据通过平&#x200B;台。 时间间隔为15mn。 可以使用[Adobe Experience PlatformAPI](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)修改此值。
+* Adobe Experience Platform数据连接器将定期推送用户档案数据通过平&#x200B;台。 时间间隔为15分钟。 可以使用[Adobe Experience PlatformAPI](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)修改此值。
 
 * 数据工程师可以发布、修改和暂停从活动到Adobe Experience Platform的映射。
 
@@ -80,6 +80,6 @@ Adobe Experience Platform数据连接器面向&#x200B;**数据工程师**，他�
 
 此视频概述了Adobe Experience Platform数据连接器。
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=chi_hans
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 有关“Adobe Experience Platform数据连接器”的其他视频，请访问[此处](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html)。
