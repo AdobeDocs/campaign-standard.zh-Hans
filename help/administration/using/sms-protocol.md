@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: SMS连接器协议和设置
+title: SMS 连接器协议和设置
 description: 进一步了解SMS连接器以及如何配置它。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
 
 
-# SMS连接器协议和设置{#sms-connector-protocol}
+# SMS 连接器协议和设置 {#sms-connector-protocol}
 
 >[!NOTE]
 >
@@ -521,7 +521,7 @@ Adobe Campaign Standard的总连接公式：
 
 0表示无限制，MTA将尽快发送MT。
 
-通常建议将此设置保持在1000以下，因为除非以最终架构和特别请求的SMPP提供者为基准，否则无法保证超出此数目的精确吞吐量。 最好将连接数增加到1000 MT/s以上。
+通常建议将此设置保持在1000以下，因为除非以最终体系结构为基准，否则无法保证超出此数目的精确吞吐量。 如果您需要超过1000的吞吐量，请与提供商联系。 最好将连接数增加到1000 MT/s以上。
 
 #### 重新连接{#time-reconnection}之前的时间
 
@@ -698,6 +698,10 @@ SR格式并非严格由SMPP协议规范强制执行。 它只是说明书[附录
 
 此设置只允许为每个消息添加一个TLV选项。
 
+>[!NOTE]
+>
+>从21.1版本开始，现在可以添加多个可选参数。 有关更多信息，请参阅此](../../administration/using/sms-protocol.md#automatic-reply-tlv)章节[。
+
 ### 发送给 MO 的自动回复{#automatic-reply}
 
 此功能允许快速将文本回复给MO并处理向阻止列表发送的每短代码。
@@ -715,6 +719,12 @@ SR格式并非严格由SMPP协议规范强制执行。 它只是说明书[附录
 >发送完整电话号码设置对自动回复隔离机制的行为有影响：如果未选中“发送完整电话号码”，则输入隔离的电话号码将前缀加号(“+”)，使其与国际电话号码格式兼容。
 
 表中的所有条目将按指定顺序处理，直到一个规则匹配。 如果多个规则与一个MO匹配，则只应用最前面的规则。
+
+### 自动回复可选参数(TLV){#automatic-reply-tlv}
+
+自21.1版本起，您可以添加可选参数以自动回复MT。 它们作为可选的TLV参数添加到回复的`SUBMIT_SM PDU`中，如[ SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）的第5.3节所述。
+
+有关可选参数的详细信息，请参阅此[部分](../../administration/using/sms-protocol.md#smpp-optional-parameters)。
 
 ## SMS投放模板参数{#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ SMS协议将SMS限制在255个部分，但一些手机很难将长消息与大�
 
 #### 有效期{#validity-period}
 
-有效期在`SUBMIT_SM PDU`的`validity_period`字段中传输。 日期始终以绝对UTC时间格式设置，日期字段将以“00+”结束。
+有效期在`SUBMIT_SM PDU`的`validity_period`字段中传输。 日期始终以绝对UTC时间格式设置（日期字段将以“00+”结束）。
+
+#### SMPP可选参数(TLV){#smpp-optional-parameters}
+
+自21.1版本起，您可以向为此投放发送的每个MT添加多个可选参数。 这些可选参数被添加到回复的`SUBMIT_SM PDU`中，如[ SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）的第5.3节所述。
+
+表中的每一行都表示一个可选参数：
+
+* **参数**:参数的说明。未传输给提供商。
+* **标记Id**:可选参数的标记。必须是有效的十六进制，格式为0x1234。 无效值将导致投放准备错误。
+* **值**:可选字段的值。当UTF-8传输到提供程序时，以UTF-8编码。 无法更改编码格式，无法发送二进制值或使用不同的编码，如UTF-16或GSM7。
+
+如果任何可选参数与外部帐户中定义的&#x200B;**服务标签ID**&#x200B;具有相同的&#x200B;**标签ID**，则以此表中定义的值为准。
 
 ## SMPP连接器{#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ SMS协议将SMS限制在255个部分，但一些手机很难将长消息与大�
 
 检查您没有旧的短信外部帐户。 如果将测试帐户保留为禁用状态，您将面临在生产系统上重新启用该帐户并生成潜在冲突的风险。
 
-如果同一Adobe Campaign实例上有多个帐户连接到同一提供程序，请与提供程序联系，确保它们实际区分这些帐户之间的连接。 拥有多个具有相同登录名的帐户需要额外配置。
+检查没有其他实例连接到此帐户。 特别是，确保阶段环境不连接到帐户。 一些提供商支持这一点，但它需要在Adobe Campaign端和提供商平台上进行非常具体的配置。
+
+如果需要在连接到同一提供程序的同一Adobe Campaign实例上拥有多个帐户，请与提供程序联系，以确保它们真正区分这些帐户之间的连接。 拥有多个具有相同登录名的帐户需要额外配置。
 
 ### 在检查{#enable-verbose}期间启用详细的SMPP跟踪
 
