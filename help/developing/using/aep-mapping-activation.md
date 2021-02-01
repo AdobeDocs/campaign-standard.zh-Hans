@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 导航到您的XDM模式。
 
-1. 将“提供隐私”混音添加到模式。
+1. 将&#x200B;**[!UICONTROL Profile Privacy]**&#x200B;混音添加到模式。
 
    ![](assets/aep_datamapping_privacyfield.png)
 
