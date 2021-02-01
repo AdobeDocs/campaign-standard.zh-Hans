@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 87%
+source-wordcount: '1250'
+ht-degree: 88%
 
 ---
 
@@ -118,7 +118,9 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
    在发送消息之前对其进行预览。Adobe Campaign 提供使用 Litmus 测试电子邮件呈现的方法。有关此方面的更多信息，请参阅[电子邮件呈现](../../sending/using/email-rendering.md)。
 
-以下部分介绍了有关消息的更多设计和一般最佳实践：[投放最佳实践](../../sending/using/delivery-best-practices.md)。
+* 推荐人meta标记在电子邮件设计器中不受支持。
+
+下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
 
 ### 更新片段 {#email-designer-updates}
 
