@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 90%
 
    在编辑 **[!UICONTROL Condition]** 字段时，以下两个按钮有助于调用事件变量以及编辑组合变量和函数的表达式：
 
-   * ![](assets/extsignal_picker.png):在工作流中可用的所有变量中选择事件变量(请参 [阅此页](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png):在工作流中可用的所有变量中选择事件变量(请 [参阅此页](../../automating/using/customizing-workflow-external-parameters.md))。
+
+      例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;变量在[文件传输](../../automating/using/transfer-file.md)活动后检查下载的文件数。
 
       ![](assets/wkf_test_activity_variables.png)
 
