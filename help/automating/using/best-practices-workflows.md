@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 93%
 
 默认情况下，我们建议不要同时执行 20 个以上的活动工作流。超过该限制的工作流将排队等候执行，以免影响性能。同样，Adobe 建议您将工作流的执行时间分散。
 在特定环境中，您需要运行的工作流可能会超过 20 个。这不适用于等待排程执行的工作流。如果出现这种情况，您需要与 Campaign 专家核实使用案例，并联系 Adobe 客户关怀部门以提高上限。
+
+>[!NOTE]
+>
+>在启动工作流之前，[!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流执行将被延迟，直到服务器上的负载下降，系统内存增加。
 
 ### 频度
 
