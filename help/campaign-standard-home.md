@@ -6,10 +6,10 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 95%
+source-wordcount: '233'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 95%
 * **[活动21.1 2月版已实时发布！](rn/using/release-notes.md)**<br/> 发现新功能、最新更新和修复
 
 * **[更新错误硬退回](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在 Gmail 中断后更新错误硬退回
-
-* **[发行计划](rn/using/release-planning.md)**<br/> 即将到来的 2021 年 2 月发行日期已添加到发行计划中
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
