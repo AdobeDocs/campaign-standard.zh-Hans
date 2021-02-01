@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!NOTE]
 >
->您可以在[此页](../../developing/using/datamodel-introduction.md)中找到内置资源的数据模型演示。
+>您可以在[此页](../../developing/using/datamodel-introduction.md)中找到内置资源的数据模型表示形式。
 
 您还可在对应于所创建资源的屏幕中[配置导航](configuring-the-screen-definition.md)。
 
