@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -102,7 +102,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * **OAuth 2.0敏感凭据**:此部分用于性质敏感的凭据。添加凭据值后，凭据值将在屏幕上被遮罩；到那时，它们将不可读，也无法编辑。 如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
 * **OAuth 2.0非敏感凭据**:此部分用于性质不敏感的凭据。添加凭据值后，凭据值将显示在屏幕上；也可编辑。  如果授权端点要求在HTTP授权标头中而非POST主体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
 
-配置结束时，单击&#x200B;**测试连接器**&#x200B;以验证外部帐户设置是否正确。
+输入帐户信息后，单击&#x200B;**测试连接**&#x200B;以验证外部帐户配置是否正确。
 
 ![](assets/external_accounts_OAuth.png)
 
