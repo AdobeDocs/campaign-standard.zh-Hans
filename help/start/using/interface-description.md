@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
+source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1249'
 ht-degree: 81%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 81%
 
 ## 顶部栏{#top-bar}
 
-顶栏显示在每个屏幕上，允许您浏览Adobe Campaign功能，并访问与Adobe连接的用户档案、通知、Adobe Experience Cloud服务和解决方案以及文档。
+顶栏显示在每个屏幕上，允许您浏览Adobe Campaign功能并访问与Adobe连接的用户档案、通知、Adobe Experience Cloud解决方案和活动文档。
 
 导航规则为：
 
@@ -58,24 +58,27 @@ ht-degree: 81%
 * 利用 **[!UICONTROL Home]** 链接，可显示 Adobe Campaign 主页。
 * 利用 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 链接，可访问与这些功能关联的视图。
 * 通过&#x200B;**解决方案切换器**&#x200B;图标，您可以在组织之间切换或切换到其他应用程序。
-* 通过&#x200B;**[!UICONTROL Help]**&#x200B;按钮可访问Adobe Campaign Standard文档、视频、发行说明和发行计划，以及Adobe Experience Cloud社区和客户关怀的链接。
-* “组织”按钮
+* **[!UICONTROL Help]**&#x200B;图标在](#help)下面有说明。[
 * **Notifications** 图标可显示最新的警报或信息。
-* **User** 图标可显示链接到用户档案的信息。它允许访问&#x200B;**[!UICONTROL Sign out]**&#x200B;按钮和&#x200B;**[!UICONTROL About]**&#x200B;屏幕。
+* **User** 图标可显示链接到用户档案的信息。如果需要&#x200B;**[!UICONTROL Sign out]**，请使用此图标。
 
 ### 帮助 {#help}
 
-* **[!UICONTROL Search]** 将Adobe Experience League引入产品：搜索结果包括文档和帮助文章、社区论坛的结果以及更多视频内容，使您能更轻松地访问更多内容，从而帮助您充分利用应用程序。
-* **[!UICONTROL Help]** 选项卡
-   * 通过链接，您可以快速访问Adobe Campaign Standard文档、视频和发行说明。
-   * **[!UICONTROL Learning]** 此链接允许您访问Adobe Campaign内容库。
-   * **[!UICONTROL Community]** 此链接允许您访问专门针对ACS问题的论坛。
+**帮助**&#x200B;图标将Adobe Experience League引入产品。
 
-* **[!UICONTROL Support]** 选项卡允许您打开支持案例，并通过电话或Twitter与我们联系。
+![](assets/ux_help.png)
 
-* **[!UICONTROL Feedback]**  更便于报告问题或分享您的想法。
+* **[!UICONTROL Search]** 字段：搜索结果包括文档和帮助文章、社区论坛的结果以及更多视频内容，使您能更轻松地访问更多内容，从而帮助您充分利用应用程序。
 
-   ![](assets/ux_help.png)
+三个选项卡可帮助您查找帮助和帮助：
+
+1. **[!UICONTROL Help]**&#x200B;选项卡包含：
+   * 快速访问具有上下文链接的Adobe Campaign Standard文档。
+   * **[!UICONTROL Learning]**&#x200B;链接，允许您访问Adobe Campaign课程库。
+   * **[!UICONTROL Community]**&#x200B;链接，用于访问专门讨论您的活动问题的论坛。
+   * 直接访问：帮助中心、客户关怀、Experience Cloud产品状态、开发人员连接、发行说明、发行计划和&#x200B;**[!UICONTROL About]**&#x200B;屏幕。
+1. **[!UICONTROL Support]**&#x200B;选项卡允许您打开支持案例并通过电话或Twitter与我们联系。
+1. 使用&#x200B;**[!UICONTROL Feedback]**&#x200B;选项卡，可以更轻松地报告问题或分享您的想法。
 
 ## 高级菜单{#advanced-menu}
 
