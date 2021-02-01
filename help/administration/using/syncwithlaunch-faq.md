@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 我无法编辑在Adobe Campaign Standard配置的移动应用程序，并且移动应用程序只处于读模式。{#read-mode-mobile-app}
 
-在&#x200B;**[!UICONTROL Access Authorization ]**&#x200B;部分检查移动应用程序的组织单位。 只有已分配组织单元的用户才能编辑移动应用程序。
+在&#x200B;**[!UICONTROL Access Authorization]**&#x200B;部分检查移动应用程序的组织单位。 只有已分配组织单元的用户才能编辑移动应用程序。
 
 有关组织单位的详细信息，请参阅此[页面](../../administration/using/organizational-units.md)。
 
