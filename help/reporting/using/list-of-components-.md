@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -247,8 +247,12 @@ ht-degree: 1%
    <td> 打开投放的收件人数。<br /> </td> 
   </tr> 
   <tr> 
+   <td> 唯一退订<br /> </td> 
+   <td> 单击收件人链接的退订数。<br /> </td> 
+  </tr> 
+  <tr> 
    <td> 取消订阅率<br /> </td> 
-   <td> 按收件人划分的退订与已传送消息的百分比。<br /> </td> 
+   <td> 与已传送邮件相比的唯一退订数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 取消订阅<br /> </td> 
