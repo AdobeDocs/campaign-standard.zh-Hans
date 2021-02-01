@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;页面显示Microsoft Dynamics 365中的实体列表以及将与之同步的Adobe Campaign中的自定义资源。 您可以添加新映射、编辑或删除现有映射。
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 下面是此表中各列的说明：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 1. 使用下拉列表选择Microsoft Dynamics 365和要映射的活动表。
 页面上的大多数其他输入将取决于您选择的表。
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >不能多次映射每个表。 因此，您将注意到下拉列表选择将不包括已映射的表。
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 如果编辑现有映射，您将看到表选择不可编辑。
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 这是设计的，因为页面中的进一步输入基于与这些表关联的字段。 更改表会使与这些表关联的所有字段都无效。  如果要更改要映射到的表，则需要返回上一页，删除要更改的映射，并添加新映射。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 在将新的Microsoft Dynamics 365添加到活动表映射时，需要标识ID字段。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
@@ -118,7 +118,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 主键将始终是&#x200B;**[!UICONTROL Field Mappings]**&#x200B;部分中列出的第一个字段名称。 作为提醒，右侧列出了以下图标，以提醒您这些是主键。
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### 添加其他字段映射
 
@@ -126,14 +126,14 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 在列表中选择Microsoft Dynamics 365和活动字段：
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 这些列表包含与Microsoft Dynamics 365关联的字段名称以及您在页面顶部选择的活动表。
 
 **[!UICONTROL Apply updates]**&#x200B;切换器允许您控制对此字段的更新是否将从Microsoft Dynamics 365传播到活动:
-* 如果它打开![](assets/d365-to-acs-icon-switch-on.png)，则对Microsoft Dynamics 365中值的更新将在更新发生时传播到Adobe Campaign。
+* 如果它打开![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)，则对Microsoft Dynamics 365中值的更新将在更新发生时传播到Adobe Campaign。
 
-* 如果关闭![](assets/d365-to-acs-icon-switch-off.png)，则该值将在最初加载（或重播）数据时传播，但对Microsoft Dynamics 365中字段的增量更新将不会传播。
+* 如果关闭![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，则该值将在最初加载（或重播）数据时传播，但对Microsoft Dynamics 365中字段的增量更新将不会传播。
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 选择字段值时，您将看到下拉菜单下显示的数据类型。   在将值从一个字段映射到另一个字段时，应牢记这一点。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 您可以控制的四个指标是：**发送**、**单击**、**打开**&#x200B;和&#x200B;**弹起**。
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 选择&#x200B;**是**&#x200B;以确认您确实希望此类型的事件流至Microsoft Dynamics 365。
 
@@ -208,7 +208,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 请记住，您需要单击“保存”以保存您的选择。 还要记住，必须停止Microsoft Dynamics 365 **工作流的**&#x200B;活动，然后单击“play”进行集成以合并您所做的更改。
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### 选择加入/out同步方向
 
