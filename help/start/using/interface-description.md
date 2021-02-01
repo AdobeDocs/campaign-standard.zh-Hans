@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 ## 顶部栏{#top-bar}
 
-利用各个屏幕上显示的顶部栏，可浏览 Adobe Campaign 功能、访问连接的 Adobe 用户档案、通知、其他 Adobe Experience Cloud 服务和解决方案以及文档。
+顶栏显示在每个屏幕上，允许您浏览Adobe Campaign功能，并访问与Adobe连接的用户档案、通知、Adobe Experience Cloud服务和解决方案以及文档。
 
 导航规则为：
 
@@ -57,13 +57,25 @@ ht-degree: 96%
 
 * 利用 **[!UICONTROL Home]** 链接，可显示 Adobe Campaign 主页。
 * 利用 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 链接，可访问与这些功能关联的视图。
-* 利用 **[!UICONTROL Help]** 按钮，可访问产品文档和上下文帮助、发行说明、版本号、法律声明，以及指向 Adobe Experience Cloud 社区和客户关怀的链接。
+* 通过&#x200B;**解决方案切换器**&#x200B;图标，您可以在组织之间切换或切换到其他应用程序。
+* 通过&#x200B;**[!UICONTROL Help]**&#x200B;按钮可访问Adobe Campaign Standard文档、视频、发行说明和发行计划，以及Adobe Experience Cloud社区和客户关怀的链接。
+* “组织”按钮
+* **Notifications** 图标可显示最新的警报或信息。
+* **User** 图标可显示链接到用户档案的信息。它允许访问&#x200B;**[!UICONTROL Sign out]**&#x200B;按钮和&#x200B;**[!UICONTROL About]**&#x200B;屏幕。
+
+### 帮助 {#help}
+
+* **[!UICONTROL Search]** 将Adobe Experience League引入产品：搜索结果包括文档和帮助文章、社区论坛的结果以及更多视频内容，使您能更轻松地访问更多内容，从而帮助您充分利用应用程序。
+* **[!UICONTROL Help]** 选项卡
+   * 通过链接，您可以快速访问Adobe Campaign Standard文档、视频和发行说明。
+   * **[!UICONTROL Learning]** 此链接允许您访问Adobe Campaign内容库。
+   * **[!UICONTROL Community]** 此链接允许您访问专门针对ACS问题的论坛。
+
+* **[!UICONTROL Support]** 选项卡允许您打开支持案例，并通过电话或Twitter与我们联系。
+
+* **[!UICONTROL Feedback]**  更便于报告问题或分享您的想法。
 
    ![](assets/ux_help.png)
-
-* 利用 **Select solution** 图标，可以切换到其他 Adobe Experience Cloud 解决方案以及用户档案设置。
-* **Notifications** 图标可显示最新的警报或信息。
-* **User** 图标可显示链接到用户档案的信息。用于访问 **[!UICONTROL Sign out]** 按钮。
 
 ## 高级菜单{#advanced-menu}
 
