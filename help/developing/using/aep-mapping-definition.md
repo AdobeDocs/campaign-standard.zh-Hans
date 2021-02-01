@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 **[!UICONTROL Create new field mapping]**&#x200B;按钮允许您在XDMCampaign Standard中选择表达式字段和相应的字段路径。
 
-如果找不到Campaign Standard字段，则可以使用搜索字段搜索该字段。 当前，搜索仅适用于在层次结构中打开的字段。
+如果找不到Adobe Campaign Standard字段，则可以使用搜索字段搜索该字段。 当前，搜索仅适用于在层次结构中打开的字段。
 
 ![](assets/aep_mapfield.png)
 
