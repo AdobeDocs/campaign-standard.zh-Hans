@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ ht-degree: 97%
 * 登陆页面被限制为仅使用 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 资源。记录可通过 **[!UICONTROL Profile]** 保存和更新，还可订阅/退订 **[!UICONTROL Service]**。
 要了解有关资源配置的更多信息，请参阅[配置资源的数据结构](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >登陆页面无法显示或更新来自非 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 之任何其他资源的数据。
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >登陆页面测试只能使用用户档案进行，不能使用测试用户档案进行。提交表单后，所选用户档案的数据将实时更新。要避免修改真实的用户档案，请使用虚假客户的用户档案。
 
@@ -139,4 +139,4 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
+此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供其他Campaign Standard操作方法视频。[
