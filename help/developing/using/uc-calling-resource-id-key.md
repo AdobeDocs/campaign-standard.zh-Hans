@@ -4,7 +4,7 @@ product: campaign
 title: 使用复合标识关键码调用资源
 description: 了解如何使用组合标识密钥调用资源
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 1. 在配置标识密钥之前，请确保资源已扩展到所需字段，并且已发布。 如需详细信息，请参阅[此部分](../../developing/using/creating-or-extending-the-resource.md)。
 
-1. 转到&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]**&#x200B;菜单，然后打开&#x200B;**[!UICONTROL Profile]**&#x200B;资源。
+1. 转到&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**&#x200B;菜单，然后打开&#x200B;**[!UICONTROL Profile]**&#x200B;资源。
 
    ![](assets/uc_idkey1.png)
 
