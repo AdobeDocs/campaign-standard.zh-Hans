@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# 新版本{#new-release}
+# 早期发行说明{#new-release}
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板发](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) 行|文 [档更新](../../rn/using/documentation-updates.md) |最新发 [行说明](../../rn/using/release-notes.md)  [|已弃用功能](../../rn/using/deprecated-features.md)
 
