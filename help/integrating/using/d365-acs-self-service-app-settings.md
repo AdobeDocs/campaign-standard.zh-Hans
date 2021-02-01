@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Microsoft Dynamics 365凭据授予集成应用程序从Microsoft Dynamics 365中提取数据的权限。  必须首先按照屏幕[上的步骤配置Microsoft Dynamics 365以进行活动集成](../../integrating/using/d365-acs-configure-d365.md)，才能生成将粘贴到此屏幕中的值。 下面描述的输入将引用此屏幕。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**:在本节中了解如何引用您的客 [户端ID](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Adobe Campaign凭据使用[Adobe I/O](https://www.adobe.io/)生成。 您需要�
 
 下图将详细说明Adobe I/O与设置屏幕输入之间的映射。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *私钥*:通过单击“生成公共／私有密钥对”按钮定义此开始的过程。这将创建一个必须下载的zip文件。 下载文件后，解压该文件，它将生成两个名为certificate_pub.crt和private.key的文件。 请确保将private.key放在安全位置，而不要共享它。 在文本编辑器中打开private.key文件。 在文本编辑器中复制整个值（在PC上依次为ctrl-A和ctrl-C，在Mac上依次为cmd-A和cmd-C）。 这应包括完整的带有“BEGIN PRIVATE KEY”和“END PRIVATE KEY”的行。 将整个多行文本粘贴到“设置”屏幕的“私钥”输入中。
 
@@ -58,7 +58,7 @@ Adobe Campaign凭据使用[Adobe I/O](https://www.adobe.io/)生成。 您需要�
 
 要为Microsoft Dynamics 365集成定义活动SFTP设置，请访问以下部分：
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 您需要指定：
 
