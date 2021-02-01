@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # 关于计划消息发送{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >只要对投放的计划进行更改，您就必须重新准备投放，方法是单击 **Prepare** 按钮，然后再单击 **Confirm**。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >复制投放时，会删除所有计划设置。除非您计划了新的联系日期，否则一旦发送确认，将立即发送复制的投放。
 
