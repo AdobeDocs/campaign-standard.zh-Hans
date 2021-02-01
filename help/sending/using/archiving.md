@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '357'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->当前，无法通过Adobe Campaign增强型MTA发送归档的电子邮件，即使您已升级到增强型MTA。
+>当前，无法通过Adobe Campaign增强的MTA发送存档的电子邮件。
 
 ## 激活电子邮件存档{#activating-email-archiving}
 
