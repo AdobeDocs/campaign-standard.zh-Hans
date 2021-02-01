@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ ht-degree: 100%
 
 要访问整合的客户用户档案，请执行以下步骤：
 
-1. 在 Adobe Campaign 主页中，单击 **[!UICONTROL Customer profiles]** 卡或 **Profiles** 选项卡。
-1. 选择联系人。
+1. 在Adobe Campaign主页中，单击&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡或&#x200B;**用户档案**&#x200B;选项卡以显示用户档案列表。
+
+1. 要根据特定字段搜索用户档案，请打开搜索窗格，然后选择要在其中执行搜索的字段。
+
+
+   ![](assets/profile-search.png)
+
+1. 指定要搜索的值，然后按Enter。
+
+   >[!NOTE]
+   >
+   >请注意，可以根据扩展资源时添加的电子邮件、名字和姓氏字段以及自定义字段执行搜索。
+   >
+   >搜索区分大小写，只对前缀执行。 例如，您将无法使用姓氏的最后字母查找用户档案。
+
+1. 选择联系人以打开其用户档案。
 
    ![](assets/mkt_hist_access.png)
 
 然后，您可以访问此联系人的&#x200B;**营销历史**。
 
-![](assets/mkt_hist_view.png)
-
 本页会收集关于用户档案的重要信息以及事件列表。
 
-单击列表中的事件可将其打开：您可以访问已发送的消息或用户档案已订阅的服务。
+单击列表中的事件以打开它：您可以访问已发送的消息或用户档案订阅的服务。
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
