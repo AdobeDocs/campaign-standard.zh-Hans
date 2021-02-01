@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ ht-degree: 81%
 
 ### 帮助 {#help}
 
-**帮助**&#x200B;图标将Adobe Experience League引入产品。
+右上角的&#x200B;**帮助**&#x200B;图标将Adobe Experience League引入产品中。
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** 字段：搜索结果包括文档和帮助文章、社区论坛的结果以及更多视频内容，使您能更轻松地访问更多内容，从而帮助您充分利用应用程序。
+使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找指南。 搜索结果包括文档和帮助文章、社区论坛的结果和视频内容，使您能够更轻松地访问更多内容，从而帮助您充分利用应用程序。
 
 三个选项卡可帮助您查找帮助和帮助：
 
