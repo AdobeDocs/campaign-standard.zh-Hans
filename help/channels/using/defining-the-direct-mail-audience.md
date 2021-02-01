@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 提取文件中会为每个定向用户档案添加一个新行。对于 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 屏幕中定义的每个收件人，都将包含用户档案的相关信息。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
