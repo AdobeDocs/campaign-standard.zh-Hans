@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
+
+## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
+
+**此版本中包含的新增功能**
+
+电子邮件反馈服务- [阅读更多](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Adobe Experience Manager集成改进- [阅读更多](../../integrating/using/creating-multilingual-email-aem.md)
+
+统一Experience Cloud接口- [阅读更多](../../start/using/interface-description.md#top-bar)
+
+**随版本提供的其他文档更新**
+
+已添加有关如何根据电子邮件、名字、姓氏或任何自定义字段搜索用户档案的信息。 [阅读更多](../../audiences/using/integrated-customer-profile.md)
+
+新的GetOption函数中已添加信息，该信息允许您在调用具有外部参数的工作流时返回指定函数的值。 [阅读更多](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动后，新的&#x200B;**[!UICONTROL filesCount]**&#x200B;输出变量上已添加信息。 [阅读更多](../../automating/using/transfer-file.md#output-variables)
+
+**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。 本页底部列出了某些客户仍在使用的一些旧参数。 [阅读更多](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
