@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 从 20.1 版本开始，弃用 SDK v4。<a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解详情</a>。</p><br/>
-   <p><a href="Https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（以前称为 v5）将专门支持即将推出的 Adobe Experience Cloud 特性和功能。</p></br>
+   <td> <p> 从活动20.1版本开始，SDK v4已弃用。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解详情</a>。</p><br/>
+   <p><a href="Https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（以前称为 v5）将专门支持即将推出的 Adobe Experience Cloud 特性和功能。</p>
+   <p>在本页</a>中了解如何从SDK v4迁移到Adobe Experience Platform移动SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
      <p>
      <em>目标删除日期：2021年8月31日</em></p>
      </td> 
@@ -112,7 +113,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 18.7 版本开始，弃用地理单位。组织单位和地理单位在 Campaign 中是完全相同的构造。用户应仅使用组织单位来构建其用户权限/数据访问层次结构。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hans#administrating">了解详情</a>。请注意，从 18.7 版本开始，新 Campaign Standard 实例以及未创建地理单位的现有实例无法实现此功能。</p>
+   <td> <p>从活动18.7版本开始，已弃用地理单元。 组织单位和地理单位在 Campaign 中是完全相同的构造。用户应仅使用组织单位来构建其用户权限/数据访问层次结构。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hans#administrating">了解详情</a>。请注意，从 18.7 版本开始，新 Campaign Standard 实例以及未创建地理单位的现有实例无法实现此功能。</p>
    </td> 
   </tr> 
  </tbody> 
