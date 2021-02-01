@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义将向活动发送数据的&#x200B;**HTTPS端点**。
+通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS端点**。
 
 如果端点需要，可使用两种类型的身份验证方法：
 
-* 基本身份验证：在 **[!UICONTROL Request Header(s)]** 字段中输入用户名/密码信息。
+* 基本身份验证：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分输入您的用户名／密码信息。
 
-* OAuth 身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]**，可以选择定义了 OAuth 身份验证的外部帐户。有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
+* OAuth身份验证：通过单击外部帐户中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，可以选择定义OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 大多数工作流活动中都提供了此选项卡。有关更多信息，请参阅[活动属性](../../automating/using/activity-properties.md)一节。
 
 ![](assets/externalAPI-options.png)
+
+## 测试
+
+要使用简单的测试端点测试外部API功能，可以使用Postman Echo:https://docs.postman-echo.com。
 
 ## 疑难解答
 
@@ -256,8 +260,8 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>不允许的 HTTP 标头键值（标头键值：'%s'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - HTTP头值错误(头值：“%s”)。</td> 
+   <td> <p>HTTP头值错误(头值：“%s”)。 </p>
     <p>注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头值失败时，将记录此错误。</p></td> 
   </tr> 
   <tr> 
