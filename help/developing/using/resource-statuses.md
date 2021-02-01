@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
    >
    >当要重新起草的资源仍包含通过其他资源的链接并且状态为“已发布”时，**[!UICONTROL Cancel re-draft]**&#x200B;选项可用。 此选项允许您还原“重新起草”过程。 自定义资源随后将恢复其原始状态。
 
-* **已发布**:资源已发布。如果资源在上次修改日期后被修改，则会显示一条消息，要求您重新发布资源，以便考虑最新修改。
+* **已发布**:资源已发布。如果资源在上次修改日期后被修改，则会显示一条消息，邀请您重新发布资源，以便考虑最新修改。
 
 **[!UICONTROL Do not publish latest modifications]**&#x200B;字段可防止在将来发布时考虑修改。
 
