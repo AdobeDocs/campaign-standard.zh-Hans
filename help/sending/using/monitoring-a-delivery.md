@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 86%
@@ -19,7 +19,8 @@ ht-degree: 86%
 # 监控投放{#monitoring-a-delivery}
 
 有几种方法可监控投放并衡量其影响。 作为功能管理员，您可以访问消息日志和投放日志。
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**访问权限的功能[管理员](../../administration/using/users-management.md#functional-administrators)所有**&#x200B;单元才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
 
