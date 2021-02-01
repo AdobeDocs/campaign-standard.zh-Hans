@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;页显示消息从活动到Adobe Campaign增强MTA的中继的吞吐量速度。
+>**[!UICONTROL Delivery throughput]**&#x200B;页显示消息从活动到Adobe Campaign增强MTA（消息传输代理）的中继的吞吐量速度。
