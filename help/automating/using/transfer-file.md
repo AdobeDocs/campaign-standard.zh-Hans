@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ ht-degree: 99%
 选择是要 **[!UICONTROL Define a file path]** 还是要 **[!UICONTROL Use a dynamic file path]**
 利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
 
-请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您无法浏览存储空间的上级目录。例如：
+请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您无法浏览存储空间的上级目录。
 
-    >**User&amp;lt;您的实例名称>/my_recipients.csv** 是正确的。
-    >>**../Hello/my_recipients.csv**
-    >**../hello/my_recipients.csv** 是错误的。
-    >>**//Myserver/hello/myrecipients.csv**
-    >**//myserver/hello/myrecipients.csv** 是错误的。
+例如：
+
+`user&lt;yourinstancename>/my_recipients.csv` 正确。
+
+`../hello/my_recipients.csv` 不正确。
+
+`//myserver/hello/myrecipients.csv` 不正确。
 
 ## 历史化设置{#historization-settings}
 
@@ -160,3 +162,16 @@ ht-degree: 99%
 >[!NOTE]
 >
 >如果不再执行活动，则不会检查或清除其文件夹。考虑到这一点，在传输大文件时要多加小心。
+
+## 输出变量{#output-variables}
+
+**[!UICONTROL Transfer file]**&#x200B;活动生成事件变量作为输出，您可以在其他活动中利用它，例如，使用[Test](../../automating/using/test.md)活动检查下载的文件数。
+
+请注意，事件变量也可以使用外部信号传递到另一个工作流（请参阅[使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md)）。
+
+可用的输出变量有：
+
+* **[!UICONTROL fileName]**:传输文件的名称。
+* **[!UICONTROL filesCount]**:传输的文件数。
+
+
