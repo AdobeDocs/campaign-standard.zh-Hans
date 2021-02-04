@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,15 @@ Adobe Experience Manager集成改进- [阅读更多](../../integrating/using/cre
 
 在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动后，新的&#x200B;**[!UICONTROL filesCount]**&#x200B;输出变量上已添加信息。 [阅读更多](../../automating/using/transfer-file.md#output-variables)
 
-**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。 本页底部列出了某些客户仍在使用的一些旧参数。 [阅读更多](../../administration/using/configuring-email-channel.md)
+**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。 某些客户仍在使用的某些旧参数会列在页面底部。 [阅读更多](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
 现已弃用&#x200B;**预测主题行**。[阅读更多](../../rn/using/deprecated-features.md)
 
-**事务性消息传递**&#x200B;入门部分现在包括[增强模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端用例](../../channels/using/transactional-messaging-use-case.md)，用于说明实施过程。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+**事务消息**&#x200B;入门部分现在包括[增强的模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地了解该过程。
+
+用于说明事务消息传递实施过程的端到端用例现已推出。 [阅读更多](../../channels/using/transactional-messaging-use-case.md)
 
 **隐私**&#x200B;部分已移至[此处](../../start/using/privacy.md)。
 
@@ -57,11 +59,13 @@ Adobe Experience Manager集成改进- [阅读更多](../../integrating/using/cre
 
 ## 2020 年 11 月{#doc-updates-november-2020}
 
-“个人数据和角色”部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。*[阅读更多](../../start/using/privacy.md#use-case-scenario)
+**个人数据和角色**&#x200B;部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
 
 新增了一个部分，其中列出有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
 
-“隐私”部分已移动并新增两个页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
+**隐私**&#x200B;部分已移动，并包含两个新页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
+
+**事务消息**&#x200B;部分已重新组织并收集到一个位置以改进导航。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
 在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
-已重组并阐明事件事务性消息部分。[阅读更多](../../channels/using/editing-transactional-message.md)
+**事件事务性消息**&#x200B;部分已重新组织和澄清。 [阅读更多](../../channels/using/editing-transactional-message.md)
 
 添加了警告说明，以警告用户与日志访问权有关的权限限制。[阅读更多](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 提供有关事务性消息传递入门的新更新部分。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-**事务性消息传递限制**&#x200B;部分已移至[此处](../../channels/using/transactional-messaging-limitations.md)
+**事务性消息传递限制**&#x200B;部分已移至[此处](../../channels/using/transactional-messaging-limitations.md)。
 
-**准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md)
+**准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md).
 
 ## 2020 年 7 月 {#doc-updates-july-2020}
 
