@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '913'
 ht-degree: 20%
 
 ---
@@ -94,17 +94,9 @@ ht-degree: 20%
 
 * 否则，状态变化为&#x200B;**[!UICONTROL Failed]**，而&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比会相应降低。
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 因此，您应等到有效期结束时才能看到最终&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比以及实际&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;消息的最终数。
 
 ### 电子邮件反馈服务（测试版）{#email-feedback-service}
-
->[!NOTE]
->
->本条仅适用于电子邮件渠道。
 
 利用电子邮件反馈服务(EFS)功能，可以准确报告每封电子邮件的状态，因为反馈会直接从增强的MTA（邮件传输代理）中捕获。
 
