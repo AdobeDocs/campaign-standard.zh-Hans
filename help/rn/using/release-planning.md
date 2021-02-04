@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 ## 21.1 版 - 2 月发布 {#release-21-1-release}
 
-在下方指定的时间段内，将不定时进行环境更新。有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)，当阶段环境升级开始。 如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+在下方指定的时间段内，将不定时进行环境更新。具体日期通过电子邮件发送给每位客户。
+
+有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)，当阶段环境升级开始。
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021 年 2 月 1 日至 2 日<br /> </td>
+   <td>2021 年 2 月 1 日至 10 日<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>2021年2月8日至15日<br /> </td>
+   <td>2021年2月8日至17日<br /> </td>
   </tr>
  </tbody>
 </table>
+
+如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 ## 问题与回答{#questions-and-answers}
 
