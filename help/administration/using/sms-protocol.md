@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 0%
 
 ---
@@ -704,7 +704,7 @@ SR格式并非严格由SMPP协议规范强制执行。 它只是说明书[附录
 
 ### 发送给 MO 的自动回复{#automatic-reply}
 
-此功能允许快速将文本回复给MO并处理向阻止列表发送的每短代码。
+此功能允许快速将文本回复给MO并处理按短发送的代阻止列表码。
 
 **关键字**&#x200B;和&#x200B;**短代码**&#x200B;列定义了触发自动回复的条件。 如果两个字段都匹配，则发送MO并触发其他操作。 要指定通配符，应将字段留空。 关键字与MO文本中的第一个字母数字单词匹配，将忽略标点和前导空格。 这意味着&#x200B;**Keyword**&#x200B;字段不能包含空格，且必须是单个单词。
 
