@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -34,11 +34,11 @@ ht-degree: 0%
 1. 浏览至https://experience.adobe.com/并登录Adobe Experience Cloud。
 1. 访问&#x200B;**Admin Console**。
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. 单击&#x200B;**[!UICONTROL Products]**&#x200B;以访问您的Experience Cloud解决方案。
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 1. 单击要配置的第一个实例。
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    实例页面应类似于：
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. 单击&#x200B;**[!UICONTROL New Profile]**&#x200B;按钮并添加一个名为：**Campaign Standard- your-prod-instance-name - D365/ACS Integration**
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 1. 如果您的条目类似于以下内容，则单击&#x200B;**[!UICONTROL Done]**&#x200B;按钮。
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    新产品用户档案已添加。
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## 授予用户{#add-users-to-profile}访问权限
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 1. 单击您之前创建的新用户档案: **Campaign Standard- your-prod-instance-name - D365/ACS集成**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. 单击&#x200B;**[!UICONTROL Developers]**&#x200B;选项卡。
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. 单击&#x200B;**[!UICONTROL Add Developer]**&#x200B;按钮
 
