@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
+source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -63,7 +63,7 @@ $(vars/@parameterName)
    | 日期格式 | 使用第2个参数中指定的格式设置日期格式(示例： “%4Y%2M%2D”) | DateFormat(&lt;Date>,&lt;Format>) |
    | 文件名 | 返回文件路径的名称。 | FileName(&lt;String>) |
    | 文件文本 | 返回文件路径的扩展名。 | FileExt(&lt;String>) |
-   | GetOption | 返回指定函数的值。 | GetOption(&lt;optionName> |
+   | GetOption | 返回指定函数的值。 | GetOption(&lt;optionName>) |
    | IsNull | 指示字符串或日期是否为null。 | IsNull(&lt;String/date>) |
    | UrlUtf8编码 | 以UTF8对URL进行编码。 | UrlUtf8Encode(&lt;String>) |
 
