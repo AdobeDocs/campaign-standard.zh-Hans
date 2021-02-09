@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 96%
 
 电子邮件反馈服务- [阅读更多](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Adobe Experience Manager集成改进- [阅读更多](../../integrating/using/creating-multilingual-email-aem.md)
+Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/creating-multilingual-email-aem.md)
 
-统一Experience Cloud接口- [阅读更多](../../start/using/interface-description.md#top-bar)
+统一 Experience Cloud 界面 - [阅读更多](../../start/using/interface-description.md#top-bar)
 
 **随版本提供的其他文档更新**
 
-已添加有关如何根据电子邮件、名字、姓氏或任何自定义字段搜索用户档案的信息。 [阅读更多](../../audiences/using/integrated-customer-profile.md)
+已添加有关如何根据电子邮件、名字、姓氏或任何自定义字段搜索用户档案的信息。[阅读更多](../../audiences/using/integrated-customer-profile.md)
 
-新的GetOption函数中已添加信息，该信息允许您在调用具有外部参数的工作流时返回指定函数的值。 [阅读更多](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+已添加有关新 GetOption 函数的信息，通过该函数可在使用外部参数调用工作流时返回指定函数的值。[阅读更多](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动后，新的&#x200B;**[!UICONTROL filesCount]**&#x200B;输出变量上已添加信息。 [阅读更多](../../automating/using/transfer-file.md#output-variables)
+已添加有关在使用 **[!UICONTROL Transfer file]** 活动后可用的新 **[!UICONTROL filesCount]** 输出变量的信息。[阅读更多](../../automating/using/transfer-file.md#output-variables)
 
-**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。 某些客户仍在使用的某些旧参数会列在页面底部。 [阅读更多](../../administration/using/configuring-email-channel.md)
+**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。某些客户仍在使用的某些旧参数会列在页面底部。 [阅读更多](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
@@ -147,7 +147,7 @@ Campaign Standard 概述页面进行了扩充，并重组到了专门的主题�
 
 **此版本中包含的新增功能**
 
-泰国个人数据保护法 (PDPA) - [了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+泰国个人数据保护法 (PDPA) - [了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
 
 External API 活动 (GA) - [了解更多](../../automating/using/external-api.md)
 
@@ -305,7 +305,7 @@ Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-au
 
 **此版本中包含的新增功能**
 
-加利福尼亚消费者隐私法 (CCPA) - [了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+加利福尼亚消费者隐私法 (CCPA) - [了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/d365-acs-get-started.md)
 
@@ -637,7 +637,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **此版本中包含的新增功能**
 
-GDPR：核心服务集成 - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
 
 推送改进 - 详细的投放反馈- [了解更多](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -711,7 +711,7 @@ GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多]
 
 Campaign 和 Adobe 解决方案集成的大多数 URL 都已更改！请检查您的书签！[了解更多](../../integrating/using/get-started-campaign-integrations.md)
 
-datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=zh-Hans)
 
 添加了关于如何在投放中准备消息的信息[了解更多](../../sending/using/preparing-the-send.md)
 
@@ -839,7 +839,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了[投放警报](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文档，添加了疑难解答章节，提供了关于在收到警报时可以采取哪些操作的一些提示。
 
-提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hans)
 
 更新了“跟进消息”文档，提供了经过改进的使用案例。[了解更多](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
