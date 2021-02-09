@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>改进的通知 - “通知”下拉列表现在包含两个选项卡：一个用于您自己的产品通知，另一个用于更多全球产品公告。</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../../start/using/interface-description.md#top-bar">详细文档</a>。
+</p>
+<p>注意：此更改将在2月10日到3月1日之间逐步转出给所有客户环境。
 </p>
 </td> 
 </tr> 
