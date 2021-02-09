@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 在下方指定的时间段内，将不定时进行环境更新。具体日期通过电子邮件发送给每位客户。
 
-有关此版本的详细信息，请参阅[发行说明](../../rn/using/release-notes.md)，当阶段环境升级开始。
+当阶段环境升级启动时，有关此版本的详细信息可在[发行说明](../../rn/using/release-notes.md)中获取。
 
 <table>
  <thead>
@@ -43,11 +43,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021 年 2 月 1 日至 10 日<br /> </td>
+   <td>2021 年 10 月 1 日至 2 日<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>2021年2月8日至17日<br /> </td>
+   <td>2021 年 2 月 8 日至 17 日<br /> </td>
   </tr>
  </tbody>
 </table>
