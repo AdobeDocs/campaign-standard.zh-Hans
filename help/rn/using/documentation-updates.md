@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 98%
+source-wordcount: '6571'
+ht-degree: 97%
 
 ---
 
@@ -19,11 +19,15 @@ ht-degree: 98%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
+## 2021 年 2 月 {#doc-updates-february-2021}
+
+添加了有关如何确保在先前执行中的一个或多个任务仍处于待定状态之前，不会重新计划工作流的信息。 [阅读更多](../../automating/using/scheduled-workflows-execution.md)
+
 ## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
 
 **此版本中包含的新增功能**
 
-电子邮件反馈服务- [阅读更多](../../sending/using/confirming-the-send.md#message-indicators)
+电子邮件反馈服务 — [阅读更多](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -37,7 +41,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 已添加有关在使用 **[!UICONTROL Transfer file]** 活动后可用的新 **[!UICONTROL filesCount]** 输出变量的信息。[阅读更多](../../automating/using/transfer-file.md#output-variables)
 
-**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。某些客户仍在使用的某些旧参数会列在页面底部。 [阅读更多](../../administration/using/configuring-email-channel.md)
+**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。页面底部列出了某些客户仍在使用的旧版参数。 [阅读更多](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
@@ -45,7 +49,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **事务消息**&#x200B;入门部分现在包括[增强的模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地了解该过程。
 
-用于说明事务消息传递实施过程的端到端用例现已推出。 [阅读更多](../../channels/using/transactional-messaging-use-case.md)
+现在提供了用于说明事务消息传递实施过程的端到端用例。 [阅读更多](../../channels/using/transactional-messaging-use-case.md)
 
 **隐私**&#x200B;部分已移至[此处](../../start/using/privacy.md)。
 
@@ -59,13 +63,13 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 ## 2020 年 11 月{#doc-updates-november-2020}
 
-**个人数据和角色**&#x200B;部分已使用用例方案进行更新，以说明不同角色在隐私方面如何进行交互。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
+**个人数据和角色**&#x200B;部分已使用用例方案进行更新，以说明不同角色在隐私方面如何互动。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
 
 新增了一个部分，其中列出有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
 
-**隐私**&#x200B;部分已移动，并包含两个新页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
+**隐私**&#x200B;部分已移动，并且包含两个新页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
 
-**事务消息**&#x200B;部分已重新组织并收集到一个位置以改进导航。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+**事务消息**&#x200B;部分已重新组织并收集到一个位置，以改进导航。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
 在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../developing/using/aep-mapping-activation.md)
 
