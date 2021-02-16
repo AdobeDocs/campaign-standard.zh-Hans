@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->在启动工作流之前，[!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流执行将被延迟，直到服务器上的负载下降，系统内存增加。
+>在启动工作流之前，[!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流执行将被延迟，直到服务器上的负载降低并系统内存增加。
 
 ### 频度
 
@@ -76,7 +76,7 @@ ht-degree: 89%
 
 ### 每个工作流{#number-activities}的活动数
 
-我们建议在单个工作流中使用多达100个活动。 超过100个活动在设计和配置工作流时可能会遇到一些性能问题。
+我们建议在单个工作流程中使用多达100个活动。 超过100个活动在设计和配置工作流时可能会遇到一些性能问题。
 
 ### 工作流设计
 
@@ -109,9 +109,11 @@ ht-degree: 89%
 
 有关更多信息，请参见[调度程序活动](../../automating/using/scheduler.md)。
 
+在设计包含多个活动的计划工作流时，您需要确保在工作流完成之前不会重新计划该工作流。 为此，您需要配置工作流，以防止在先前执行的一个或多个任务仍处于挂起状态时执行工作流。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
+
 ## 使用参数调用工作流{#workflow-with-parameters}
 
-确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
+确保参数的名称和数量与调用工作流时定义的内容相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
 
 确保已在 **[!UICONTROL External signal activity]** 中声明了所有的参数。否则，运行活动时将出错。
 
