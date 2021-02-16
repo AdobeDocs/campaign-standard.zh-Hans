@@ -7,10 +7,10 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 breadcrumb-title: 帮助中心
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 100%
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [监视工作流执行](automating/using/monitoring-workflow-execution.md)
       + [管理执行选项](automating/using/managing-execution-options.md)
       + [管理活动属性](automating/using/activity-properties.md)
+      + [计划工作流的重叠执行](automating/using/scheduled-workflows-execution.md)
    + 使用外部参数调用工作流 {#calling-workflow-external-parameters}
       + [概述](automating/using/calling-a-workflow-with-external-parameters.md)
       + [声明外部信号活动中的参数](automating/using/declaring-parameters-external-signal.md)
