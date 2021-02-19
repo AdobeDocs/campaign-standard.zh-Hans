@@ -23,18 +23,18 @@ ht-degree: 3%
 >
 >对于SMS和推送，您只能定义动态文本。 您可以在登陆页中定义动态内容和文本。 如果要使用[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)定义动态文本，请参阅[在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中定义动态内容。
 
-请注意，替代对（Unicode字符集的基本多语言平面中未包含的字符）不能以2字节（16位）存储，需要将其编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。
-<br>这些字符可能会导致动态文本中出现一些不兼容问题。在发送消息之前，您需要执行强测试。
+请注意，替代对（Unicode字符集的基本多语种平面中未包含的字符）不能以2字节（16位）存储，需要将其编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。
+<br>这些字符可能会导致动态文本中出现一些不兼容问题。在发送消息之前，需要执行强测试。
 
 
 以下示例演示如何定义SMS消息中的动态文本。
 
-1. 在邮件或登陆页正文中选择文本。
+1. 选择消息或登陆页正文中的文本。
 1. 单击 **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   调色板中显示&#x200B;**[!UICONTROL Dynamic text]**&#x200B;选项。 其配置方式与动态内容相同。
+   调色板中将显示&#x200B;**[!UICONTROL Dynamic text]**&#x200B;选项。 其配置方式与动态内容相同。
 
 1. 选择变体。
 
