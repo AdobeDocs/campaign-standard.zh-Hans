@@ -25,11 +25,11 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >如果API已发布（即，如果您已对此资源或其他资源选中此选项一次），将强制进行API更新。
+   >如果API已发布（即，如果您已对此资源或其他资源选中此选项一次），则强制进行API更新。
 
 1. 单击&#x200B;**[!UICONTROL Profiles & Services API Preview]**&#x200B;选项卡。
 
-   这将向您显示API的发布将应用于profilesAndServicesExt API的当前版本的更改。
+   这将向您显示发布API将应用于当前版本的profilesAndServicesExt API的更改。
 
    此处为促销代码字段(ID:cusBrand)。
 
