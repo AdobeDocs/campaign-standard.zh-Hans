@@ -21,7 +21,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此项的详细信息，请参阅此[页面](../../administration/using/list-of-roles.md)。
+>要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此的详细信息，请参阅此[页](../../administration/using/list-of-roles.md)。
 
 您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
@@ -49,13 +49,13 @@ ht-degree: 83%
 
    ![](assets/remarketing_4.png)
 
-1. 您现在可以发布触发器。 有关详细信息，请参阅[以活动](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)发布触发器。
+1. 您现在可以发布触发器。 有关详细信息，请参阅[在活动](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中发布触发器。
 
-## 以活动{#publishing-trigger-in-campaign}发布触发器
+## 在活动 {#publishing-trigger-in-campaign}中发布触发器
 
-在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发事件后，您现在需要发布它。
+在基于现有Adobe Experience Cloud触发器在Adobe Campaign中创建触发器事件后，您现在需要发布它。
 
-1. 从先前创建的触发器中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以开始发布触发器事件。
+1. 在您之前创建的触发器中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以开始发布触发器事件。
 
    ![](assets/trigger_publish_1.png)
 
@@ -63,7 +63,7 @@ ht-degree: 83%
 
    ![](assets/trigger_publish_2.png)
 
-1. 完成发布后，**[!UICONTROL Publication]**&#x200B;下将显示以下消息。
+1. 发布完成后，**[!UICONTROL Publication]**&#x200B;下将显示以下消息。
 
    ![](assets/trigger_publish_3.png)
 
@@ -73,7 +73,7 @@ ht-degree: 83%
 
    ![](assets/trigger_publish_4.png)
 
-1. 单击&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按钮可视图Adobe Experience Cloud的触发器定义。
+1. 单击&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按钮可视图Adobe Experience Cloud中的触发器定义。
 
 发布事件后，将自动创建链接到新事件的事务型模板。然后，您必须修改并发布之前创建的模板。有关更多信息，请参阅[编辑模板](../../start/using/marketing-activity-templates.md)一节。
 
