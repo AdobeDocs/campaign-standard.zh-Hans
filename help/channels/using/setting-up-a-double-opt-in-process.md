@@ -27,7 +27,7 @@ ht-degree: 90%
 
 要设置此功能，您需要：
 
-1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登陆页的访客将存储在数据库中，阻止列表但会添加到中，以便在最终验证之前不接收任何通信(请参阅阻止列表活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的管理)。[
+1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登陆页的访客将存储在数据库中，但会添加到阻止列表中，以便在最终验证之前不接收任何通信(请参阅活动&lt;a1/阻止列表>中的“管理”)。[](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 1. 自动创建并发送带确认链接的选择加入电子邮件。此电子邮件将定向提交登陆页面的群体。该电子邮件将基于允许定向“选择退出”用户档案的电子邮件模板。
 1. 重定向至确认登陆页面。此最终登陆页面将提供一个确认按钮：访客必须单击该按钮。您可以设计一封欢迎电子邮件，在确认完成后发送，例如，在电子邮件中为新收件人提供特殊优惠。
 
@@ -96,12 +96,12 @@ ht-degree: 90%
 
 ### 创建分类{#create-the-typology-rule}
 
-您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认其协议且仍处于用户档案状态的发送阻止列表消息。 默认情况下，排版排除选择退出(即阻止列表)用户档案。 要创建此分类，请执行以下步骤：
+您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。该类型学允许向尚未确认其同意且仍处于用户档案状态的发送阻止列表消息。 默认情况下，排版会排除退出(即阻止列表)用户档案。 要创建此分类，请执行以下步骤：
 
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 并单击 **[!UICONTROL Typologies]**。
 1. 复制现成的分类&#x200B;**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 确认复制后，编辑新的分类并输入标签 **TYPOLOGY_PROFILE**。
-1. 删除&#x200B;**&lt;a1/阻止列表>规则上的地址。**
+1. 删除&#x200B;**Address on 阻止列表 On Pack**&#x200B;规则。
 1. 单击 **[!UICONTROL Save]**。
 
 现在，可将此分类与确认电子邮件关联。
@@ -132,7 +132,7 @@ ht-degree: 90%
 
    并将值设置为 **true**。
 
-   这是强制添加到程阻止列表序并避免向未确认其协议的访客发送消息的必备选项。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
+   这是强制添加到阻止列表并避免向未确认其协议的访客发送消息的必备选项。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 部分，选择选项 **[!UICONTROL Start sending messages]**。
 1. 在关联的下拉列表中，选择之前创建的 **CONFIRM** 事务型消息模板。
