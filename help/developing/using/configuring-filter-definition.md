@@ -81,7 +81,7 @@ ht-degree: 95%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-配置过滤器后，您可以使用以下语法从Campaign StandardAPI中使用它：
+配置过滤器后，您可以使用以下语法从Campaign Standard API中使用它：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
