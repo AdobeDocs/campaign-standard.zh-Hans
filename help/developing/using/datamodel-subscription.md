@@ -26,7 +26,7 @@ ht-degree: 6%
         <th>明细列表值</th>
     </tr>
     <tr>
-        <td>PKey</td>
+        <td>PK</td>
         <td>主资源ID</td>
         <td>字符串 </td>
         <td> </td>
@@ -34,7 +34,7 @@ ht-degree: 6%
     <tr>
         <td>ctx</td>
         <td>事件上下文</td>
-        <td>物料 </td>
+        <td>项目 </td>
         <td> </td>
     </tr>
     <tr>
@@ -49,22 +49,22 @@ ht-degree: 6%
         <td>明细列表（字节） </td>
         <td>
             <ul>
-            <li>文本——文本- 1</li>
+            <li>文本 — 文本 — 1</li>
             <li>HTML - html - 2</li>
-            <li>无效值- __Invalid_value__ - __Invalid_value__</li>
-            <li>未知——未知- 0</li>
+            <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
+            <li>未知 — 未知 — 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>存档事件ID</td>
+        <td>存档的事件ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>移动电话</td>
-        <td>移动号码</td>
+        <td>mobilePhone</td>
+        <td>手机号码</td>
         <td>字符串(32)</td>
         <td> </td>
     </tr>
