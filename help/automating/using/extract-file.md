@@ -51,7 +51,7 @@ ht-degree: 91%
 
 1. 如果需要，可以通过在 **[!UICONTROL Add a pre-processing step]** 字段中选择 **[!UICONTROL Compression]** 以压缩输出文件。输出文件将压缩为 GZIP 文件 (.gz)。
 
-   **[!UICONTROL Add a pre-processing step]**&#x200B;字段还允许您在解压文件之前对其进行加密。 有关如何使用加密文件的详细信息，请参阅[本节](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a pre-processing step]**&#x200B;字段还允许您在解压文件之前对其加密。 有关如何使用加密文件的详细信息，请参阅[本节](../../automating/using/managing-encrypted-data.md)
 
 1. 单击 ![](assets/add_darkgrey-24px.png) 或 **[!UICONTROL Add an element]** 按钮以添加输出列。
 
