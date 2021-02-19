@@ -28,7 +28,7 @@ ht-degree: 76%
 
 ## 事务型消息传递发布流程 {#transactional-messaging-pub-process}
 
-下图说明了整个交易消息发布流程。
+下图说明了整个交易消息发布过程。
 
 ![](assets/message-center_pub-process.png)
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 发布事务型消息{#publishing-a-transactional-message}
 
-编辑并测试事务性消息后，即可发布它。 只需单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
+编辑和测试事务性消息后，即可发布它。 只需单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。
 
 ![](assets/message-center_12.png)
 
 现在，一旦触发“购物车废弃”事件，就会自动提示发送消息，其中包含收件人的头衔和姓氏、购物车 URL、查看的最后一个产品或产品清单（如果您定义了产品清单）以及购物车总金额。
 
-要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。请参阅[动态报告](../../reporting/using/about-dynamic-reports.md)。
+要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。请参阅[动态报表](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
-排队的事件在REST API中定义的时间段（请参阅[REST API文档](../../api/using/managing-transactional-messages.md)）或在使用触发器核心服务的触发器事件中保留(请参阅[关于Adobe Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+排队的事件在REST API中定义的时间段（请参阅[REST API文档](../../api/using/managing-transactional-messages.md)）或触发器事件(如果您使用触发器核心服务，请参阅[关于Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))中保留。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->要再次发布消息，您需要返回相应的事件配置[发布事件](../../channels/using/publishing-transactional-event.md)，然后[发布消息](#publishing-a-transactional-message)。
+>要再次发布消息，您需要返回到相应的事件配置[发布事件](../../channels/using/publishing-transactional-event.md)，然后[发布消息](#publishing-a-transactional-message)。
 
 如果取消发布已暂停的事务型消息，则可能需要等待最多 24 小时，才能再次发布该消息。这是为了让 **[!UICONTROL Database cleanup]** 工作流清理发送到队列的所有事件。
 
