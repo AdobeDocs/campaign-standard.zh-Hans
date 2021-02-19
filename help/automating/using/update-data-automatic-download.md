@@ -24,11 +24,11 @@ ht-degree: 79%
 
 ![](assets/load_file_workflow_ex1.png)
 
-要构建工作流，请按照以下步骤操作：
+要构建工作流，请执行以下步骤：
 
 1. 将[传输文件](../../automating/using/transfer-file.md)活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 以某种方式配置活动，以恢复您想要的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
+1. 以某种方式配置活动，以便恢复所需的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
 1. 选择 **Use connection parameters defined in an external account** 选项。
 1. 输入外部帐户的名称。
 1. 输入&#x200B;**远程服务器上的文件路径**。
