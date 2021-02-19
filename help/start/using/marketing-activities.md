@@ -81,16 +81,16 @@ ht-degree: 82%
 
 根据环境，您可以：
 
-* 创建电子邮件- [了解更多信息](../../channels/using/creating-an-email.md)
+* 创建电子邮件 — [了解更多信息](../../channels/using/creating-an-email.md)
 * 创建SMS - [了解更多信息](../../channels/using/creating-an-sms-message.md)
-* 创建推送通知- [了解更多信息](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 创建应用程序内消息- [了解更多](../../channels/using/about-in-app-messaging.md)
-* 创建工作流- [了解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 创建推送通知 — [了解更多信息](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 创建应用程序内消息 — [了解更多](../../channels/using/about-in-app-messaging.md)
+* 创建工作流 — [了解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * 创建登陆页- [了解更多](../../channels/using/getting-started-with-landing-pages.md)
 * 创建活动- [了解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * 创建项目- [了解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，并选择通过活动的属性将营销活动关联到父项目(或者，如果您创建了项目，则将关联到父活动)。
+>您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，并选择通过活动的属性将营销活动关联到父项目(或在创建项目时关联到父活动)。
 
