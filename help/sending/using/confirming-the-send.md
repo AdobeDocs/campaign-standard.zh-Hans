@@ -28,7 +28,7 @@ ht-degree: 20%
 
 ## 发送消息{#sending-message}
 
-准备完成后，请按照以下步骤发送消息。
+准备完成后，请按照以下步骤发送您的消息。
 
 1. 单击消息操作栏中的&#x200B;**[!UICONTROL Confirm send]**&#x200B;按钮。
 
@@ -82,19 +82,19 @@ ht-degree: 20%
 >
 >本条仅适用于电子邮件渠道。
 
-在每封电子邮件的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，**[!UICONTROL Delivered]**&#x200B;百分比开始以100%的比例递减，然后在整个投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)中逐渐递减，因为软和硬弹回报告回<!--from the Enhanced MTA to Campaign-->。
+在每封电子邮件的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，**[!UICONTROL Delivered]**&#x200B;百分比开始为100%，然后在投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)期间逐渐下降，因为软和硬弹回报告回<!--from the Enhanced MTA to Campaign-->。
 
-事实上，一旦将所有消息从活动成功中继到增强的MTA（消息传输代理），在[发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)中所有消息都显示为&#x200B;**[!UICONTROL Sent]**。 除非或直到消息的[弹回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从增强的MTA传回到活动，否则它们将保持该状态。
+事实上，所有消息在从活动成功中继到增强的MTA（消息传输代理）后立即在[发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)中显示为&#x200B;**[!UICONTROL Sent]**。 除非或直到将该消息的[弹回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从增强MTA传回活动，否则它们仍保持该状态。
 
-当硬弹回消息从增强的MTA报告回来时，其状态从&#x200B;**[!UICONTROL Sent]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比相应降低。
+当硬弹回消息从增强的MTA中报告回来时，其状态从&#x200B;**[!UICONTROL Sent]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比相应地降低。
 
-当从增强的MTA返回软弹跳消息时，它们仍显示为&#x200B;**[!UICONTROL Sent]**，且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，在投放有效期内，软弹跳消息将[重试](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure):
+当从增强的MTA中返回软弹跳消息时，它们仍显示为&#x200B;**[!UICONTROL Sent]**&#x200B;且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，在整个投放有效期内，软弹跳消息将[retried](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure):
 
-* 如果在有效期结束前重试成功，则消息状态将保持为&#x200B;**[!UICONTROL Sent]**，而&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比将保持不变。
+* 如果在有效期结束前重试成功，则消息状态将保持为&#x200B;**[!UICONTROL Sent]**&#x200B;且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比将保持不变。
 
-* 否则，状态变化为&#x200B;**[!UICONTROL Failed]**，而&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比会相应降低。
+* 否则，状态变化为&#x200B;**[!UICONTROL Failed]**&#x200B;并相应地降低&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
 
-因此，您应等到有效期结束时才能看到最终&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比以及实际&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;消息的最终数。
+因此，您应等到有效期结束时再查看最终&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比，以及实际&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;消息的最终数。
 
 ### 电子邮件反馈服务（测试版）{#email-feedback-service}
 
@@ -104,7 +104,7 @@ ht-degree: 20%
 >
 >电子邮件反馈服务目前提供测试版功能。
 
-投放启动后，当消息从活动成功中继到增强的MTA时，**[!UICONTROL Delivered]**&#x200B;百分比没有变化。
+启动投放后，当消息从活动成功中继到增强的MTA时，**[!UICONTROL Delivered]**&#x200B;百分比没有变化。
 
 ![](assets/efs-sending.png)
 
@@ -112,13 +112,13 @@ ht-degree: 20%
 
 ![](assets/efs-pending.png)
 
-当消息实际传回到目标用户档案，并且一旦从增强的MTA实时报告此信息，投放日志将显示成功接收消息的每个地址的&#x200B;**[!UICONTROL Sent]**&#x200B;状态。 每个成功投放会相应地增加&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
+当消息实际传递到目标用户档案，并且从增强的MTA实时报告此信息后，投放日志将显示成功接收消息的每个地址的&#x200B;**[!UICONTROL Sent]**&#x200B;状态。 每次成功投放,**[!UICONTROL Delivered]**&#x200B;百分比都相应增加。
 
-当硬弹回消息从增强的MTA报告回来时，其日志状态从&#x200B;**[!UICONTROL Pending]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并且&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比相应地增加。
+当硬弹回消息从增强的MTA中报告回来时，其日志状态从&#x200B;**[!UICONTROL Pending]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并相应地增加&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比。
 
-当从增强的MTA中返回软弹回消息时，其日志状态也从&#x200B;**[!UICONTROL Pending]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并相应地增加&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比。 **[!UICONTROL Delivered]**&#x200B;百分比保持不变。 然后，在投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)中重试软弹跳消息：
+当软弹回消息从增强的MTA中报回时，其日志状态也从&#x200B;**[!UICONTROL Pending]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并相应地增加&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比。 **[!UICONTROL Delivered]**&#x200B;百分比保持不变。 然后，在投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)中重试软弹跳消息：
 
-* 如果在有效期结束前重试成功，则消息状态将变为&#x200B;**[!UICONTROL Sent]**，并相应地增加&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
+* 如果在有效期结束前重试成功，则消息状态将变为&#x200B;**[!UICONTROL Sent]**&#x200B;并相应地增加&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
 
 * 否则，状态将保持为&#x200B;**[!UICONTROL Failed]**。 **[!UICONTROL Delivered]**&#x200B;和&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比保持不变。
 
@@ -126,7 +126,7 @@ ht-degree: 20%
 >
 >有关硬弹回和软弹回的详细信息，请参阅[此部分](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 >
->有关投放临时故障后重试的详细信息，请参见[本节](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+>有关投放临时故障后重试的详细信息，请参阅[本节](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
@@ -136,8 +136,8 @@ ht-degree: 20%
 
 | 发送进程中的步骤<br> | KPI摘要<br>无EFS | 发送日志状态<br>无EFS | KPI摘要<br>带有EFS | 发送日志状态<br>WITH EFS |
 |--- |--- |--- | --- | --- |
-| 消息从活动成功中继到增强的MTA | <ul><li>**[!UICONTROL Delivered]** 百分比开始100%</li><li>**[!UICONTROL Bounces + errors]** 开始占0%</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 开始占0%</li><li>**[!UICONTROL Bounces + errors]** 开始占0%</li></ul> | 待定 |
-| 从增强的MTA返回硬弹回消息 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
-| 从增强的MTA返回软弹跳消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
-| 软弹跳消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 百分比相应增加</li><li>**[!UICONTROL Bounces + errors]** 百分比相应减少</li></ul> | 已发送 |
-| 软弹跳消息重试失败 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比没有变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化 </li></ul> | 失败 |
+| 消息从活动成功中继到增强的MTA | <ul><li>**[!UICONTROL Delivered]** 100%的开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 以0%的百分比开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 待定 |
+| 硬弹回消息从增强的MTA中返回报告 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
+| 从增强的MTA返回软弹跳消息报告 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
+| 软弹回消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 百分比相应增加</li><li>**[!UICONTROL Bounces + errors]** 百分比相应减少</li></ul> | 已发送 |
+| 软弹回消息重试失败 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比没有变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化 </li></ul> | 失败 |
