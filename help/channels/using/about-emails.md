@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 关于电子邮件
-description: 发现可随Adobe Campaign发送的不同类型电子邮件。
+description: 发现可通过Adobe Campaign发送的不同类型电子邮件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 您可以发送不同类型的电子邮件：
 
-* 单发电子邮件：基本电子邮件，您只需发送一次即可定义目标。
-* 循环电子邮件：定期发送相同的电子邮件，并定期聚合每次发送及其报告。 一个常见的示例是生日电子邮件。 重复的电子邮件仅通过工作流提供。
+* 单一发送电子邮件：基本电子邮件，您只需发送一次即可发送到定义的目标。
+* 循环电子邮件：定期发送相同的电子邮件，并聚合每次发送及其报告。 一个常见的示例是生日电子邮件。 重复电子邮件仅通过工作流可用。
 * A/B测试电子邮件：测试最多3个版本的电子邮件。
 * 交易电子邮件：基于客户行为触发的统一电子邮件。
 
