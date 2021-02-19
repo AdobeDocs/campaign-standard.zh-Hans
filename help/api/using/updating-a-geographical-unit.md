@@ -18,7 +18,7 @@ ht-degree: 10%
 # 更新用户档案的地理单位 {#updating-a-geographical-unit}
 
 1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单元PKey。
-1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的地理单元PKey。
+1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的地理单位PKey。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有地理单位。 检索要向其分配用户档案的设备的PKey。
+它返回所有地理单位。 检索要向其分配用户档案的单元的PKey。
 
 ```
 {
