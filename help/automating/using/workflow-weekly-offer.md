@@ -16,7 +16,7 @@ ht-degree: 81%
 ---
 
 
-# 每星期二创建电子邮件投放{#creating-email-every-tuesday}
+# 每星期二创建一封电子邮件投放{#creating-email-every-tuesday}
 
 您可以在每个星期二向所有客户发送电子邮件以提供特惠信息。
 
@@ -43,7 +43,7 @@ ht-degree: 81%
 
 ## 创建查询活动{#creating-a-query-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，要选择收件人，请拖放[查询](../../automating/using/query.md)活动，然后多次单击它。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，要选择收件人，请拖放[查询](../../automating/using/query.md)活动，然后按住多次单击它。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** 中，拖放 **[!UICONTROL Email]**。
 1. 选择 **[!UICONTROL is not empty]** 作为运算符。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，添加用户档案并选择 **[!UICONTROL no longer contact by email]**（其值为 **[!UICONTROL No]**）。
