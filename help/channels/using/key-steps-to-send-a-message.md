@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # 发送消息的关键步骤{#key-steps-to-send-a-message}
 
-要了解投放最佳实践，请查阅[投放最佳实践](../../sending/using/delivery-best-practices.md)部分。
+要了解投放最佳做法，请查阅[投放最佳做法](../../sending/using/delivery-best-practices.md)部分。
 
 创建和发送消息的步骤如下所示：
 
