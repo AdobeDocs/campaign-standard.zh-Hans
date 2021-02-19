@@ -23,7 +23,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->如果工作流ID在Adobe Campaign中发生更改，则API请求将不再工作。
+>如果在Adobe Campaign中更改了工作流ID，则API请求将不再工作。
 
 有四个执行命令可用于控制工作流：
 
