@@ -19,7 +19,7 @@ ht-degree: 25%
 
 您可以使用&#x200B;**GET**&#x200B;请求监视有关已创建隐私请求的信息。
 
-状态列表说明位于[隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)中。
+状态列表说明可在[隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)中找到。
 
 <br/>
 
