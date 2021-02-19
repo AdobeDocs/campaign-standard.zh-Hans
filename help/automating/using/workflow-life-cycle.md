@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 工作流生命周期
-description: 进一步了解工作流生命周期
+description: 了解有关工作流生命周期的更多信息
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -22,21 +22,21 @@ ht-degree: 3%
 
 * **编辑** （灰色）
 
-   这是工作流的初始设计阶段（请参阅[创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)）。 该工作流尚未由服务器处理，可以修改且没有任何风险。
+   这是工作流的初始设计阶段（请参阅[创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)）。 服务器尚未处理该工作流，可以在不造成任何风险的情况下修改该工作流。
 
 * **进行中** （蓝色）
 
-   初始设计阶段完成后，工作流便可以启动并由服务器处理。
+   完成初始设计阶段后，可以启动工作流并由服务器处理。
 
 * **已完成** （绿色）
 
-   当不再有任何任务正在进行或操作符明确停止实例时，工作流即完成。
+   当不再有任何任务正在进行或当操作符显式停止实例时，工作流即完成。
 
-启动工作流后，该工作流还可能有两种其他状态：
+启动工作流后，该工作流还可能具有两种其他状态：
 
 * **警告** （黄色）
 
-   工作流无法完成或已使用![](assets/pause_darkgrey-24px.png)或![](assets/check_pause_darkgrey-24px.png)按钮暂停。
+   工作流无法完成或使用![](assets/pause_darkgrey-24px.png)或![](assets/check_pause_darkgrey-24px.png)按钮暂停。
 
 * **错误** （红色）
 
