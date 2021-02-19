@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 投放吞吐量
-description: 通过现成的投放吞吐量报告，了解投放的成功。
+description: 利用开箱即用的投放吞吐量报告，了解您的投放是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,10 +18,10 @@ ht-degree: 4%
 
 # 投放吞吐量{#delivery-throughput}
 
-此报告包含与发送或多个发送的投放吞吐量相关的数据。 它提供：
+此报表包含与发送或多个发送的投放吞吐量相关的数据。 它提供：
 
 * 每小时处理的邮件数
-* **[!UICONTROL Top 5 deliveries]**&#x200B;表和补充摘要编号，显示投放中获得最佳增益的五个重试。
+* **[!UICONTROL Top 5 deliveries]**&#x200B;表格和补充摘要数，显示投放增益最佳的五个重试。
 
 ![](assets/delivery_reports_1.png)
 
