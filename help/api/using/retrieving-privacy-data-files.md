@@ -19,11 +19,11 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->[隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html)集成是您应用于所有访问和删除请求的方法。 从19.4开始，已弃用活动API和接口访问和删除请求。 有关已弃用和已删除Campaign Standard功能的详细信息，请参阅[此页](../../rn/using/deprecated-features.md)。
+>[隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html)集成是您应用于所有访问和删除请求的方法。 从19.4开始，已不建议使用活动 API和接口访问和删除请求。 有关已弃用和已删除Campaign Standard功能的详细信息，请参阅[此页](../../rn/using/deprecated-features.md)。
 
 要检索包含与对帐值关联的所有信息的文件，请按照以下三个步骤操作：
 
-1. 执行&#x200B;**POST**&#x200B;请求以创建属性为&#x200B;**type=&quot;access&quot;**&#x200B;的新请求，请参阅[创建新隐私请求](../../api/using/creating-a-privacy-request.md)。
+1. 执行&#x200B;**POST**&#x200B;请求以创建属性为&#x200B;**type=&quot;access&quot;**&#x200B;的新请求，请参阅[创建新的隐私请求](../../api/using/creating-a-privacy-request.md)。
 
 1. 执行&#x200B;**GET**&#x200B;请求以检索有关该请求的信息。
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ***示例请求***
 
-使用type=&quot;access&quot;属性创建隐私请求。
+创建具有type=&quot;access&quot;属性的隐私请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
