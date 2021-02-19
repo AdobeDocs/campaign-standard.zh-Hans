@@ -65,7 +65,7 @@ ht-degree: 86%
 
 一旦通过查询活动标识了目标，您就必须选择条件以将目标分为两个不同的群体：一个接收电子邮件，另一个接收短信。
 
-必须使用[Segmentation](../../automating/using/segmentation.md)活动，从查询上游计算的群体创建一个或多个区段。
+您必须使用[分段](../../automating/using/segmentation.md)活动，从查询上游计算的人口创建一个或多个区段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -120,7 +120,7 @@ ht-degree: 86%
 
 要创建电子邮件投放，请执行以下步骤：
 
-1. 在第一个区段后拖放[电子邮件投放](../../automating/using/email-delivery.md)活动。
+1. 将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到第一个区段之后。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL Simple email]**。
 1. 选择 **[!UICONTROL Add an outbound transition with the population]** 并单击 **[!UICONTROL Next]**。
@@ -137,7 +137,7 @@ ht-degree: 86%
 
 创建短信投放：
 
-1. 将[SMS投放](../../automating/using/sms-delivery.md)活动拖放到另一个段之后。
+1. 将[SMS投放](../../automating/using/sms-delivery.md)活动拖放到另一段之后。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL SMS]** 并单击 **[!UICONTROL Next]**。
 1. 选择短信模板并单击 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ ht-degree: 86%
 
 ## 运行工作流{#running-the-workflow}
 
-启动工作流后，**[!UICONTROL Query]**&#x200B;活动所针对的人群将被分段，以接收电子邮件或SMS投放。
+启动工作流后，将分段&#x200B;**[!UICONTROL Query]**&#x200B;活动所针对的人口，以接收电子邮件或SMS投放。
 
 要执行工作流，请单击操作栏中的 **[!UICONTROL Start]** 按钮。
 
