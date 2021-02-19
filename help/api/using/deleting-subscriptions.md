@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 删除特定订阅{#deleting-service-subscription}的服务用户档案
+## 删除特定用户档案{#deleting-service-subscription}的服务订阅
 
 这是三步法。
 
 1. 检索所需订阅的用户档案URL。
 1. 对GETURL执行订阅请求。
-1. 对所需服务URL执行DELETE请求。
+1. 对所需的服务URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为“204无内容”。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ***示例请求***
 
-下面的示例有效负荷显示如何从服务中取消订阅配置文件。 首先执行GET请求以检索用户档案。
+以下负载示例说明如何从服务中取消订阅配置文件。 首先执行GET请求以检索用户档案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -80,7 +80,7 @@ ht-degree: 1%
 ...
 ```
 
-对所需服务URL执行DELETE请求。
+对所需的服务URL执行DELETE请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
