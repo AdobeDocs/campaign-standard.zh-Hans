@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 创建服务 {#creating-a-service}
 
-在服务资源上使用&#x200B;**POST**&#x200B;请求执行服务创建。
+服务创建是使用对服务资源的&#x200B;**POST**&#x200B;请求执行的。
 
 如果要创建具有特定属性的服务，请将其添加到有效负荷中。 否则，将使用默认服务创建新服务。
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ***示例请求***
 
-创建具有特定属性的服务的示例POST请求。
+用于创建具有特定属性的服务的示例POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -42,7 +42,7 @@ ht-degree: 8%
 -d }
 ```
 
-它返回具有更新属性的新创建的服务。
+它返回具有更新属性的新创建服务。
 
 ```
 {
