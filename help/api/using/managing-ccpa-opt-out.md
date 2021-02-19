@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 管理 CCPA 选择退出 {#managing-ccpa-optout}
 
-用户档案的CCPA退出状态可以使用&#x200B;**ccpaOptOut**&#x200B;用户档案属性和“true”或“false”值进行监视和管理：
+可以使用&#x200B;**ccpaOptOut**&#x200B;用户档案属性和“true”或“false”值监视和管理用户档案的CCPA退出状态：
 
 `"ccpaOptOut": <value>`
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->“CCPA退出”属性仅从19.4开始可用。对于19.3环境，您需要扩展用户档案资源并添加一个布尔字段。 此字段将添加到API中并带有所选标签。 我们建议您使用“CCPA退出”。
+>“CCPA退出”属性仅从19.4开始可用。对于19.3环境，您需要扩展用户档案资源并添加一个布尔字段。 此字段将添加到具有所选标签的API。 我们建议您使用“选择退出CCPA”。
 >
 >有关详细信息，请参阅[管理隐私请求文档](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
@@ -56,7 +56,7 @@ ht-degree: 4%
    }
    ```
 
-* 示例POST请求，用于标记CCPA选择退出的用户档案。
+* 标记CCPA选择退出用户档案的POST请求示例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -86,7 +86,7 @@ ht-degree: 4%
    }
    ```
 
-* PATCH请求示例，用于更新CCPA选择退出的用户档案。
+* 更新CCPA选择退出用户档案的PATCH请求示例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
