@@ -21,4 +21,4 @@ ht-degree: 16%
 
 管理员可以访问&#x200B;**[!UICONTROL Administration > Application settings > Target mappings]**&#x200B;菜单中的目标映射。
 
-目标映射的创建或修改可以满足特定需求。 无论如何，其定位维度始终应与用户档案（**[!UICONTROL nms:recipient]**&#x200B;表）对应。 有关定向维度的更多信息，请参阅[此页面](../../automating/using/query.md#targeting-dimensions-and-resources)。
+目标映射的创建或修改可以满足特定需求。 无论如何，其定位维度应始终与用户档案（**[!UICONTROL nms:recipient]**&#x200B;表）相对应。 有关定向维度的更多信息，请参阅[此页面](../../automating/using/query.md#targeting-dimensions-and-resources)。
