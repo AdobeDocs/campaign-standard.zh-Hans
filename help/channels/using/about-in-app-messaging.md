@@ -44,7 +44,7 @@ ht-degree: 29%
 
 ## 应用程序内常见问题解答{#in-app-faq}
 
-### 要进一步了解Adobe Campaign Standard的应用程序内渠道，有哪些有用的资源建议？{#resources-inapp}
+### 要进一步了解Adobe Campaign Standard中的应用程序内渠道，有哪些有用的资源建议？{#resources-inapp}
 
 查看以下资源：
 
@@ -54,64 +54,64 @@ ht-degree: 29%
 
 ### 活动扩展APIs setLinkageField和resetLinkageField的用途是什么？{#extensions-apis}
 
-由于应用程序内消息是由SDK从活动中提取的，因此我们希望提供一种安全机制，以确保包含PII数据的应用程序内消息不会落入恶意之手。 因此，我们具有以下机制，以确保向设备投放消息的安全：
+由于应用程序内消息是SDK从活动中提取的，因此我们希望提供一种安全机制，以确保包含PII数据的应用程序内消息不会落入恶意人手中。 因此，我们具有以下机制来确保消息安全地投放到设备：
 
-* 如果客户希望确保安全地传送此特定信息，则将移动用户档案字段（appSubscriberRcp表）字段标记为“个人”和“敏感”。
+* 如果客户希望确保安全地传递此特定信息，则将移动用户档案字段（appSubscriberRcp表）字段标记为“个人”和“敏感”。
 * 标记为此类的字段只能用于内置其他安全机制的用户档案模板（不能在appSubscriber模板或广播模板中）。
-* 使用用户档案模板构建的消息只有在用户登录应用程序后才能送达。
-* 为了便于进行安全握手，移动应用程序开发人员应使用setLinkageField API传递其他身份验证详细信息。 请注意，链接字段是扩展appSubscriberRcp表时标识为移动用户档案和CRM用户档案之间的链接的字段。
+* 仅当用户已登录应用程序时，才能提供使用用户档案模板生成的消息。
+* 为了便于这种安全握手，移动应用程序开发人员应使用setLinkageField API传递其他身份验证详细信息。 请注意，链接字段是在扩展appSubscriberRcp表时标识为Mobile 用户档案和CRM用户档案之间的链接的字段。
 * 当用户使用resetLinkageField注销应用程序时，他们应刷新存储在设备上的应用程序内消息和resetLinkagefield。 这可确保当其他用户登录到应用程序时，他们看不到针对前一用户的消息。
-* 请参阅[移动SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)以实施此安全机制客户端。
+* 要实现此安全机制客户端，请参阅[Mobile SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
 
-### 如何启用活动中的应用程序内报告?{#enable-inapp-reporting}
+### 要在活动中启用应用程序内报告，我必须做什么？{#enable-inapp-reporting}
 
-您需要配置应用程序内跟踪回传。 此处[可找到说明。](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback)
+您需要配置应用程序内跟踪回发。 可以在[此处](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback)找到说明。
 
-要实现本地通知跟踪，请参阅此[页面](../../administration/using/local-tracking.md)。
+要实现本地通知跟踪，请参阅此[页](../../administration/using/local-tracking.md)。
 
-### 哪些报告可用于应用程序内渠道?{#report-inapp}
+### 哪些报表可用于应用程序内渠道?{#report-inapp}
 
-现成报告以Adobe Campaign形式提供，用于应用程序内渠道。 请参阅此[文档](../../reporting/using/in-app-report.md)。
+Adobe Campaign中提供现成报告，用于应用程序内渠道。 请参阅此[文档](../../reporting/using/in-app-report.md)。
 
-请参阅此[页](../../reporting/using/indicator-calculation.md#in-app-delivery)以了解如何计算每个应用程序内度量。
+请参阅此[页](../../reporting/using/indicator-calculation.md#in-app-delivery)以了解如何计算每个应用程序内量度。
 
 ### 您是否支持与推送类似的应用程序内多语言内容变体？{#multilingual-inapp}
 
-现在没有多语言模板可用于应用程序内消息传递。
+现在，应用程序内消息传递没有可用的多语言模板。
 
-但是，如果目标是以非英语的语言发送应用程序内消息，则内容可直接粘贴到可用文本框中。
+但是，如果目标是以非英语语言发送应用程序内消息，则内容可以直接粘贴到可用文本框中。
 
 ![](assets/faq_inapp.png)
 
-### 活动个性化字段是否可以添加到自定义HTML?{#custom-html-inapp}
+### 是否可以将活动个性化字段添加到自定义HTML?{#custom-html-inapp}
 
 否，尚不支持此功能。
 
-### 我已配置警报消息，但该消息不显示在设备上。{#alert-message}
+### 我已配置了警报消息，但该消息不显示在设备上。{#alert-message}
 
-对于警报消息，至少需要一个“关闭”按钮（主按钮或辅助按钮应具有操作关闭）。 否则，可以保存消息，但不会收到消息。
+对于警报消息，至少需要一个“取消”按钮（主或次应具有操作“取消”）。 否则，可以保存消息，但不会接收消息。
 
-### 如果本地通知iOS自定义声音不播放；默认声音会改为播放吗？{#local-notification-sound}
+### 如果本地通知iOS自定义声音不播放；默认声音将改为播放吗？{#local-notification-sound}
 
-对于iOS上的自定义声音，您需要在创建本地通知时提供扩展名为的文件名（例如sound.caf）。 如果未提供此扩展，则使用默认声音。
+对于iOS上的自定义声音，您需要在创建本地通知（例如sound.caf）时提供带扩展名的文件名。 如果未提供此扩展，则使用默认声音。
 
-### 应用程序内消息是否支持深层链接？{#inapp-deeplinks}
+### 应用程序内消息中是否支持深层链接？{#inapp-deeplinks}
 
 是，应用程序内消息支持深层链接。 深层链接应包括：
 
-* 一种语言，该语言规定需要禁用投放跟踪才能使开发人员工作。
-* Appsflyer与Branch合作，可进行开发跟踪。 有关分支和Adobe Campaign Standard集成的详细信息，请参阅此[页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* 一种语言，该语言指明需要禁用投放跟踪才能使开发人员工作。
+* Appsflyer与Branch合作，可以进行开发跟踪。 有关分支和Adobe Campaign Standard集成的详细信息，请参阅此[页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
 
-### 当用户从推送通知启动应用程序时，是否可以触发应用程序内消息？{#inapp-push-trigger}
+### 当用户从推送通知中启动应用程序时，是否可以触发应用程序内消息？{#inapp-push-trigger}
 
 是的，这些消息也称为菊花链消息。 按照以下流程操作：
 
 1. 创建应用程序内消息。
 
-1. 定义自定义事件并将其选作此IAM的事件触发器，例如“秋季预览推动触发”。
+1. 定义自定义事件并将其选作此IAM的事件触发器，例如“从摔倒预览推送触发”。
 
-1. 在创作推送消息时，请定义一个自定义变量，其值可设置为用于触发IAM的事件，例如密钥=“inappkey”，值=“从秋季预览推送触发”。
+1. 在创作推送消息时，请定义一个自定义变量，其值可设置为用于触发IAM的事件，例如Key = &quot;inappkey&quot;,value = &quot;Trigger from fall 预览 Push&quot;。
 
-1. 在移动应用程序代码中，按如下方式实施事件触发器：
+1. 在移动应用代码中，按如下方式实施事件触发器：
 
    ![](assets/faq_inapp_2.png)
