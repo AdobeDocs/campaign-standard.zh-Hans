@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-默认情况下，与具有大量数据的表交互时，**next**&#x200B;节点不可用。 要执行分页，必须将&#x200B;**_forcePagination=true**&#x200B;参数添加到调用URL中。
+默认情况下，与具有大量数据的表交互时，**next**&#x200B;节点不可用。 要执行分页，必须将&#x200B;**_forcePagenation=true**&#x200B;参数添加到调用URL中。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义表大于其上的记录数。 默认值是100,000条记录。
+>在Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义表大于其的记录数。 默认值为100,000条记录。
