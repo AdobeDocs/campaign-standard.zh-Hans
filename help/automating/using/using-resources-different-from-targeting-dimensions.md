@@ -20,7 +20,7 @@ ht-degree: 81%
 
 此用例说明如何使用与定位维度不同的资源，例如，在远程表中查找特定记录。
 
-有关定位维度和资源的详细信息，请参阅[此部分](../../automating/using/query.md#targeting-dimensions-and-resources)
+有关定位维度和资源的详细信息，请参阅[本节](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **示例 1：确定被带“Welcome back !”标签的投放所定向的用户档案**。
 
