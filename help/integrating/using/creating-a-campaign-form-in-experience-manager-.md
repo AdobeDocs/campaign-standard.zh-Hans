@@ -17,11 +17,11 @@ ht-degree: 12%
 
 # 在 Experience Manager 中创建 Campaign 表单 {#creating-a-campaign-form-in-experience-manager}
 
-您可以在AEM站点上创建“表单”，并将表单中的字段映射到Adobe Campaign库中的字段。 这允许您创建和更新用户档案或管理服务订阅。
+您可以在AEM站点上创建“表单”，并将表单中的字段映射到Adobe Campaign数据库中的字段。 这允许您创建和更新用户档案或管理对服务的订阅。
 
 要在AEM站点上创建Adobe Campaign表单，请执行以下操作：
 
-1. 在AEM站点中，根据&#x200B;**Adobe Campaign用户档案**&#x200B;模板创建新页面。
+1. 在您的AEM站点中，根据&#x200B;**Adobe Campaign用户档案**&#x200B;模板创建新页面。
 
    ![](assets/aem_content_forms.png)
 
@@ -35,7 +35,7 @@ ht-degree: 12%
    * **Adobe Campaign:订阅服务**
    * **Adobe Campaign:取消订阅服务**
 
-1. 通过添加可映射到Adobe Campaign库字段的不同字段和组件，编辑表单的内容。
+1. 通过添加可以映射到Adobe Campaign数据库字段的不同字段和组件，编辑表单的内容。
 1. 测试并发布表单，使其可在AEM站点上访问。
 
 有关详细信息，请参阅[详细文档](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。
