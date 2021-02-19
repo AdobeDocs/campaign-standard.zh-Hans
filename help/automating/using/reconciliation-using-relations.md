@@ -47,7 +47,7 @@ ht-degree: 86%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* [协调](../../automating/using/reconciliation.md)活动，将购买数据绑定到数据库用户档案和产品。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
+* [协调](../../automating/using/reconciliation.md)活动，用于将购买数据绑定到数据库用户档案和产品。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
 
    * 与&#x200B;**用户档案**&#x200B;的关系：文件的 **client** 列链接到&#x200B;**用户档案**&#x200B;维度的 **email** 字段。
    * 与&#x200B;**产品**&#x200B;的关系：文件的 **product** 列链接到&#x200B;**用户档案**&#x200B;维度的 **productCode** 字段。
