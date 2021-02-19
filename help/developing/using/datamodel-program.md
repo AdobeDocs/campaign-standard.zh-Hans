@@ -26,7 +26,7 @@ ht-degree: 8%
                   <th>明细列表值</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -34,7 +34,7 @@ ht-degree: 8%
                <tr>
                   <td>活动</td>
                   <td>活动</td>
-                  <td>集合 </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -103,12 +103,12 @@ ht-degree: 8%
                   <td>明细列表（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>正在进行——已开始——已开始</li>
-                        <li>编辑——版本——版本</li>
-                        <li>完成——完成——完成</li>
-                        <li>警告——警告——警告</li>
-                        <li>错误——错误——错误</li>
-                        <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>进行中 — 已启动 — 已启动</li>
+                        <li>编辑 — 版本 — 版本</li>
+                        <li>完成 — 完成 — 完成</li>
+                        <li>警告 — 警告 — 警告</li>
+                        <li>错误 — 错误 — 错误</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -131,15 +131,15 @@ ht-degree: 8%
                   <td> </td>
                </tr>
                <tr>
-                  <td>父项(programBase)</td>
+                  <td>parent(programBase)</td>
                   <td>父项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>实时报告</td>
-                  <td>物料 </td>
+                  <td>实时报表</td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,10 +154,10 @@ ht-degree: 8%
                   <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>开始——开始- 1</li>
-                        <li>编辑——版本- 0</li>
-                        <li>完成——完成- 2</li>
-                        <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>开始 — 开始 — 1</li>
+                        <li>编辑 — 版本 — 0</li>
+                        <li>已完成 — 已完成 — 2</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -226,7 +226,7 @@ ht-degree: 8%
     </tr>
 </table>
 
-包括来自异构投放的连续列表(withContinuous)
+包含来自异构投放的连续列表(withContinuous)
 
 <table>
     <tr>
@@ -252,7 +252,7 @@ ht-degree: 8%
         </tr>
     </table>
 
-只有符合条件的父母（合格父母）
+仅符合条件的父母（合格父母）
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ ht-degree: 8%
     </tr>
 </table>
 
-在给定期间（按日历）存在
+在给定期间（按日历）
 
 <table>
     <tr>
