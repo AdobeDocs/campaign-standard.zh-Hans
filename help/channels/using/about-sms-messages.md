@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 关于短信消息
-description: 了解Adobe Campaign中SMS渠道的主要特性。
+description: 了解SMS渠道在Adobe Campaign中的主要特性。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
@@ -47,7 +47,7 @@ Adobe Campaign允许您传送SMS（短消息服务）消息。
 Adobe Campaign优惠移动设备的投放模板。 此模板必须正确链接到用于&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;外部帐户的渠道。 要访问和修改它：
 
 1. 从高级菜单中选择&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**。
-1. 将鼠标悬停在&#x200B;**[!UICONTROL Send via SMS]**&#x200B;模板上，然后选择&#x200B;**重复元素**&#x200B;选项。
+1. 使用鼠标将鼠标悬停在&#x200B;**[!UICONTROL Send via SMS]**&#x200B;模板上，然后选择&#x200B;**重复元素**&#x200B;选项。
 1. 选择新模板。
 1. 单击 **[!UICONTROL Edit properties]** 按钮。
 1. 在模板属性的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分，确保模板已链接到要用于传送SMS的外部帐户。
