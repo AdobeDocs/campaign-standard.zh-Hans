@@ -23,17 +23,17 @@ ht-degree: 4%
 工作流编辑屏幕由以下元素组成：
 
 * [调板](#palette)，引用可用活动。
-* [工作区](#workspace)，其中配置和组织活动。
-* [操作栏](#action-bar)，它由允许您与工作流和／或其组件交互的按钮组成。
+* [工作区](#workspace)，在其中配置和组织活动。
+* [操作栏](#action-bar)，由允许您与工作流和/或其组件交互的按钮组成。
 * [快速操作](#quick-actions)显示在选定活动周围，允许您与其交互。
 
 ![](assets/wkf_overview.png)
 
 ## 面板{#palette}
 
-调色板位于屏幕的左侧。 所有可用活动均按多个类别进行分类：
+调色板位于屏幕的左侧。 所有可用活动都分为几个类别:
 
-* [定位](../../automating/using/about-targeting-activities.md):活动(针对定位、操作人口数据和筛选活动)
+* [定位](../../automating/using/about-targeting-activities.md):活动特定于定位、操作人口数据和过滤活动
 * [执行](../../automating/using/about-execution-activities.md):活动特定于组织和执行工作流
 * [渠道](../../automating/using/about-channel-activities.md):活动表示不同的可用通信渠道
 * [数据管理(ETL)](../../automating/using/about-data-management-activities.md):活动特定于处理数据
@@ -46,11 +46,11 @@ ht-degree: 4%
 
 ## 工作区{#workspace}
 
-工作区是工作流编辑器中的中心区域。 您可以在此区域中放置活动，使用过渡将它们链接在一起并进行配置。
+工作区是工作流编辑器中的中心区域。 您可以在此区域放置活动，使用过渡将它们链接在一起并配置它们。
 
-要链接两个活动，请将箭头的末尾从第一个活动移到下一个活动，直到它们连接。 您还可以将活动移向其后面箭头的点，以将其链接到前一个活动。 如果移动任何活动，它们将保持链接。
+要链接两个活动，请将箭头的末端从第一个活动移到下一个活动，直到它们连接。 您还可以将活动移向其后面箭头的点，以将其链接到前一个活动。 如果移动任何活动，它们将保持链接。
 
-过渡跟踪处理数据的活动包含中间群体。 如果选中工作流属性&#x200B;**[!UICONTROL Execution]**&#x200B;部分的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;选项，则可以访问它们。
+过渡跟踪处理数据的活动包含中间群体。 如果选中工作流属性的&#x200B;**[!UICONTROL Execution]**&#x200B;部分中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;选项，则可以访问它们。
 
 >[!CAUTION]
 >
@@ -62,10 +62,10 @@ ht-degree: 4%
 某些功能仅在工作区中启用：
 
 * 通过在活动和过渡周围绘制一个区域来选择它们。
-* 按&#x200B;**Ctrl** +左键单击以选择多个活动和／或过渡。
-* 按&#x200B;**Enter**&#x200B;视图当前选定活动或过渡的详细信息。
+* 按&#x200B;**Ctrl** +左键单击以选择多个活动和/或过渡。
+* 按&#x200B;**Enter**&#x200B;视图当前所选活动或过渡的详细信息。
 * 按&#x200B;**删除**&#x200B;可删除当前选定的活动。
-* 按&#x200B;**Ctrl + C**&#x200B;可复制选定活动，按&#x200B;**Ctrl + V**&#x200B;可将其粘贴到工作区中。
+* 按&#x200B;**Ctrl + C**&#x200B;可复制选定的活动，按&#x200B;**Ctrl + V**&#x200B;可将其粘贴到工作区中。
 
 ![](assets/workflow_workspace.png)
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>打开工作流的执行日志。
 
-<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>启用多选模式。该工作流必须至少由两个活动组成。
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>启用多选模式。工作流必须由至少两个活动组成。
 
 <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>禁用多选模式。<br />
 
@@ -105,7 +105,7 @@ ht-degree: 4%
 
 ## 快速操作{#quick-actions}
 
-选择活动后，活动周围会显示快速操作按钮，允许您与其交互。
+选择活动后，活动周围会显示快速操作按钮，您可以与其交互。
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>打开选定活动。
 
@@ -119,19 +119,19 @@ ht-degree: 4%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理选择。此按钮仅对<span class="uicontrol">调度程序</span>和<span class="uicontrol">等待</span>活动可用。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理所选内容。此按钮仅适用于<span class="uicontrol">调度程序</span>和<span class="uicontrol">等待</span>活动。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>删除选定的活动。
 
 ## 复制工作流活动{#duplicating-workflow-activities}
 
-通过工作区，您可以通过将工作流活动复制粘贴到同一工作流中，或从同一重复实例复制到另一个工作流中，来对其进行活动。
+通过工作区，您可以通过将工作流活动复制粘贴到同一工作流或从同一活动实例复制到另一个工作流中，来重复工作流。
 
-复制活动后，将保留其整个配置。 对于投放活动（电子邮件、短信、推送通知……），与活动连接的投放对象是重复的。
+复制活动后，将保留其整个配置。 对于投放活动（电子邮件、短信、推送通知……），将复制附加到活动的投放对象。
 
 >[!NOTE]
 >
->无法将工作流活动从实例复制到其他实例。 不能复制来自技术工作流的活动。
+>无法将工作流活动从一个实例复制到另一个实例。 无法复制来自技术工作流的活动。
 
 要重复活动，请执行以下步骤：
 
@@ -147,9 +147,9 @@ ht-degree: 4%
 
    ![](assets/wkf_copypaste2.png)
 
-1. 该活动是重复的，其中包含最初配置的所有设置。
+1. 该活动是重复的，其中包含已初始配置的所有设置。
 
-还可以复制粘贴多个活动，从而重复整个工作流。
+您还可以复制粘贴多个活动，从而重复整个工作流。
 
 为此，请通过在活动周围绘制一个区域来选取这些区域。 然后单击操作栏中的&#x200B;**[!UICONTROL Copy selection]**&#x200B;按钮（或按&#x200B;**Ctrl + C**）。 然后，可将其粘贴到所需位置。
 
