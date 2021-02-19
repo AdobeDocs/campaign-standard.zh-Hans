@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 确认您的活动。
-1. 在&#x200B;**[!UICONTROL Extract file]**&#x200B;活动之后拖放[传输文件](../../automating/using/transfer-file.md)活动，以在外部帐户上恢复提取文件。
+1. 在&#x200B;**[!UICONTROL Extract file]**&#x200B;活动后拖放[传输文件](../../automating/using/transfer-file.md)活动，以在外部帐户上恢复提取文件。
 1. 打开活动并选择 **[!UICONTROL File upload]** 操作。
 
    ![](assets/wkf_data_export11.png)
