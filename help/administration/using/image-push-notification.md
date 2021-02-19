@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 显示 Adobe Campaign Standard 推送通知中的图像
-description: 在此了解如何在iOS设备上显示Adobe Campaign推送通知中的图像。
+description: 在此处了解如何在iOS设备上通过Adobe Campaign推送通知显示图像。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -22,17 +22,17 @@ ht-degree: 20%
 >
 >此文档仅适用于iOS设备。
 
-在此文档中，了解如何从Adobe Campaign StandardiOS推送通知中显示图像。
+在此文档中，了解如何从Adobe Campaign Standard iOS推送通知中显示图像。
 
 ## 第1步：设置推送通知{#set-up-push}
 
-Experience PlatformSDK支持推送通知。
+Experience Platform SDK支持推送通知。
 
 接收推送通知的移动应用程序必须由管理员在Adobe Campaign界面中配置。
 
-通过配置Adobe Campaign和Adobe移动服务，您将能够为活动使用移动应用程序的数据。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+通过配置Adobe Campaign和Adobe Mobile Services，您将能够将移动应用程序的数据用于活动。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-要使用Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform Launch设置移动应用程序并以Adobe Campaign配置。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+要使用Experience Cloud SDK应用程序发送推送通知，必须在Adobe Experience Platform Launch中设置移动应用程序并在Adobe Campaign中配置。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
 ## 第2步：在Adobe Campaign{#customize-push}中自定义您的推送通知
 
@@ -47,9 +47,9 @@ Experience PlatformSDK支持推送通知。
 
    ![](assets/push_notif_advanced_6.png)
 
-1. 预览并保存推送通知。
+1. 预览并保存您的推送通知。
 
-## 第3步：调整移动应用程序代码{#mobile-app-code}
+## 第3步：调整Mobile应用程序代码{#mobile-app-code}
 
 在Adobe Campaign中自定义推送通知后，您必须配置移动应用程序以在设备上显示图像。
 
@@ -57,11 +57,11 @@ Experience PlatformSDK支持推送通知。
 >
 >如果您的应用程序位于Objective-C中，请参阅以下[文档](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
-如果应用程序位于[!DNL Swift]中，请按照以下步骤操作：
+如果您的应用程序位于[!DNL Swift]中，请按照以下步骤操作：
 
 1. 打开[!DNL Xcode]项目。
 
-1. 在[!DNL Xcode]项目中，选择&#x200B;**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
+1. 在您的[!DNL Xcode]项目中，选择&#x200B;**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
 1. 选择 **[!UICONTROL Notification Service Extension]**。
 
@@ -130,9 +130,9 @@ Experience PlatformSDK支持推送通知。
    }
    ```
 
-移动设备在发送通知时应接收以下有效负荷。
+在发送通知时，移动设备应接收以下负载。
 
-图像URL将映射为关键媒体附件URL。 这是从应用程序代码角度下必须处理的键／值对，才能下载和显示图像。
+图像URL将映射为键媒体 — attachment-url。 这是从应用程序代码透视图下载和显示图像时必须处理的键/值对。
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {
