@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 使用 Campaign 和 Assets 核心服务
-description: 由于集成了Assets核心服务，您可以在Adobe Experience Cloud消息和登陆页中使用在Assets内共享的任何资源。
+description: 由于集成了Assets核心服务，您可以在您的Adobe Campaign消息和登陆页中使用Adobe Experience Cloud中共享的任何资源。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 使用 Campaign 和 Assets 核心服务{#working-with-campaign-and-assets-core-service}
 
-将Assets核心服务或Assets on Demand(取决于您的Adobe Experience Cloud环境的配置)与Adobe Campaign集成后，您便可以在Adobe Experience Cloud电子邮件和登陆页中使用Adobe Campaign内共享的任何资产。
+将Assets核心服务或Assets on Demand(具体取决于Adobe Experience Cloud环境的配置)与Adobe Campaign集成后，您便可以在Adobe Campaign电子邮件和登陆页中使用在Adobe Experience Cloud中共享的任何资产。
 
 从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页。
 
