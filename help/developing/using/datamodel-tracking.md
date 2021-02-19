@@ -14,7 +14,7 @@ ht-degree: 5%
 ---
 
 
-# 跟踪日志语(nms:remoteTracking)
+# 跟踪日志(nms:remoteTracking)
 
 ## 对象描述
 
@@ -26,7 +26,7 @@ ht-degree: 5%
                   <th>明细列表值</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -45,7 +45,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>pointerTo</td>
-                  <td>指针到</td>
+                  <td>指向</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
