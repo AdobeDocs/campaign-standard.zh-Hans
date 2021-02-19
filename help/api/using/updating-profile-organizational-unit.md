@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # 更新用户档案的组织单位 {#managing-organizational-units}
 
-1. 在&#x200B;**orgUnitBase**&#x200B;资源上执行GET请求以检索组织单元PKey
-1. 对用户档案PKey执行PATCH请求，在有效负荷中使用所需的组织单位PKey。
+1. 对&#x200B;**orgUnitBase**&#x200B;资源执行GET请求以检索组织单元PKey
+1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的组织单位PKey。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有组织单位。 检索要向其分配用户档案的设备的PKey。
+它返回所有组织单位。 检索要向其分配用户档案的单元的PKey。
 
 ```
 {
