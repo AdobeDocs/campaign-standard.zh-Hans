@@ -19,7 +19,7 @@ ht-degree: 25%
 
 在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。有关自定义资源的详细信息，请参阅[此页](../../developing/using/key-steps-to-add-a-resource.md)。
 
-此资源可以扩展为收集您打算从移动设备发送到Adobe Campaign的数据。
+此资源可以扩展以收集您打算从移动设备发送到Adobe Campaign的数据。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
 1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;并选择&#x200B;**[!UICONTROL Extend an existing resource]**&#x200B;选项。
@@ -31,7 +31,7 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >如果要管理多个移动应用程序，则必须列出所有应用程序使用的所有字段。 iOS或Android收集PII调用定义每个应用程序捕获的字段。
+   >如果管理多个移动应用程序，则必须列出所有应用程序使用的所有字段。 iOS或Android收集PII调用定义每个应用程序捕获的字段。
 
    ![](assets/in_app_personal_data.png)
 
@@ -39,7 +39,7 @@ ht-degree: 25%
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;类别中，配置用于将用户档案从Adobe Campaign库链接到应用程序订阅者（如电子邮件）的合并关键项。
+1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;类别中，配置用于将用户档案从Adobe Campaign数据库链接到应用程序订阅者（如电子邮件）的合并关键项。
 
    请注意，对于应用程序内消息，您只能为所有移动应用程序定义一个合并关键项。
 
