@@ -26,7 +26,7 @@ ht-degree: 6%
                   <th>明细列表值</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -76,7 +76,7 @@ ht-degree: 6%
                <tr>
                   <td>历史</td>
                   <td>订阅历史</td>
-                  <td>集合 </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -122,8 +122,8 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>移动(SMS)- sms - 1</li>
-                        <li>电子邮件——电子邮件- 0</li>
-                        <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>电子邮件 — 电子邮件 — 0</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -133,9 +133,9 @@ ht-degree: 6%
                   <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>病毒——病毒-1</li>
-                        <li>新闻稿——新闻稿- 0</li>
-                        <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>病毒 — 病毒–1</li>
+                        <li>新闻稿 — 新闻稿 — 0</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -190,7 +190,7 @@ ht-degree: 6%
                <tr>
                   <td>订阅</td>
                   <td>订阅</td>
-                  <td>集合 </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -230,15 +230,15 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimbasScenarioEventType</td>
-                  <td>不明嫌犯ScenarioEventType</td>
+                  <td>nimsScenarioEventType</td>
+                  <td>NimbastScenarioEventType</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>validityDuration</td>
                   <td>有效期</td>
-                  <td>数字 </td>
+                  <td>number </td>
                   <td> </td>
                </tr>
             </table>
@@ -288,7 +288,7 @@ ht-degree: 6%
 </tr>
 </table>
 
-按定位资源(byTargetResource)
+通过定位资源(byTargetResource)
 
 <table>
 <tr>
