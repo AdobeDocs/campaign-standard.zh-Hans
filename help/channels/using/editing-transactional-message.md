@@ -20,7 +20,7 @@ ht-degree: 30%
 
 创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务性消息。
 
-[配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)部分介绍了配置和发布该事件的步骤。
+配置和发布事件的步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)部分中介绍。
 
 访问、编辑和个性化此消息的步骤如下所述。
 
@@ -32,7 +32,7 @@ ht-degree: 30%
 
 ## 访问事务性消息{#accessing-transactional-messages}
 
-访问您创建的事务性消息:
+要访问您创建的事务性消息:
 
 1. 单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标。
 1. 选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
@@ -47,7 +47,7 @@ ht-degree: 30%
 
 ## 个性化事务型消息{#personalizing-a-transactional-message}
 
-要编辑和个性化事务性消息，请按照以下步骤操作。
+要编辑和个性化事务性消息，请执行以下步骤。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 30%
 >
 >创建基于事件的事务性消息的配置步骤显示在[本节](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中。
 
-例如，您希望向已将产品添加到购物车并离开网站的网站用户发送通知，而不进行购买。 此示例在[Transactional messaging操作原则](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍。
+例如，您希望向已将产品添加到购物车并离开网站的网站用户发送通知，而不进行购买。 此示例在[Transactional messaging operating prinice](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍。
 
 1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的详细信息，请参阅[使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates)。
 
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 您还可以丰富消息的内容。 为此，请添加您链接到事件配置的表中的字段(请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段，直至&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
+1. 您还可以丰富消息的内容。 为此，请从您链接到事件配置的表中添加字段(请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段，通过&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -209,11 +209,11 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## 基于用户档案的事务性消息特异性{#profile-transactional-message-specificities}
+## 基于用户档案的事务性消息特性{#profile-transactional-message-specificities}
 
-您可以根据客户营销用户档案发送事务性消息，这使您能够利用所有用户档案信息个性化消息内容、使用退订链接并应用[疲劳规则](../../sending/using/fatigue-rules.md)等营销类型规则。
+您可以根据客户营销用户档案发送事务性消息，这使您能够利用所有用户档案信息来个性化消息内容，使用退订链接，并应用[疲劳规则](../../sending/using/fatigue-rules.md)等营销类型规则。
 
-* 有关基于事件的事务性消息和基于用户档案的之间差异的详细信息，请参见[此部分](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
+* 有关基于事件的事务性消息和基于用户档案的之间差异的详细信息，请参阅[本节](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
 
 * 创建基于用户档案的事务性消息的配置步骤详见[本节](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
@@ -222,17 +222,17 @@ For more on creating a collection and related fields when configuring the event,
 下方列出了两者之间的差异。
 
 1. [请转至创建的事务型消息以对其进行编辑。](#accessing-transactional-messages)
-1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务电子邮件模板之外，您还可以选择任何针对&#x200B;**[!UICONTROL Profile]**&#x200B;资源的电子邮件模板。
+1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务性电子邮件模板之外，您还可以选择任何面向&#x200B;**[!UICONTROL Profile]**&#x200B;资源的电子邮件模板。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 选择默认电子邮件模板。与所有营销电子邮件相似，它包含&#x200B;**退订链接**。
+1. 选择默认电子邮件模板。与所有营销电子邮件类似，它包含&#x200B;**退订链接**。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
    有关模板的详细信息，请参阅[此部分](../../designing/using/using-reusable-content.md#content-templates)。
 
-1. 此外，与基于实时事件的配置不同，您可以&#x200B;**直接访问所有用户档案信息**&#x200B;以个性化您的信息。 您可以像添加任何其他标准营销电子邮件一样添加[个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
+1. 此外，与基于实时事件的配置不同，您可以&#x200B;**直接访问所有用户档案信息**&#x200B;来个性化您的消息。 您可以像添加任何其他标准营销电子邮件一样添加[个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
 1. 在发布消息之前保存更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
