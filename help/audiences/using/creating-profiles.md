@@ -68,4 +68,4 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供其他Campaign Standard操作方法视频。[
+其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
