@@ -18,7 +18,7 @@ ht-degree: 11%
 # 更新组织单位属性 {#updating-organizational-unit-attributes}
 
 1. 对&#x200B;**orgUnitBase**&#x200B;资源执行GET请求以检索组织单元PKey。
-1. 对组织单元执行PATCH请求，并在有效负荷中更新属性。
+1. 在组织单元上执行PATCH请求，并在有效负荷中更新属性。
 
 <br/>
 
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-对组织单元执行PATCH请求，并在有效负荷中更新属性。
+在组织单元上执行PATCH请求，并在有效负荷中更新属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
