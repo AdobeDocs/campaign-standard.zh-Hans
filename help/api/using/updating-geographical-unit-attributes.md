@@ -18,7 +18,7 @@ ht-degree: 11%
 # 更新地理单位属性 {#managing-geographical-units}
 
 1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单元PKey。
-1. 对地理单元执行PATCH请求，并在有效负荷中更新属性。
+1. 对地理单位执行PATCH请求，并在有效负荷中更新属性。
 
 <br/>
 
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-对地理单元执行PATCH请求，并在有效负荷中更新属性。
+对地理单位执行PATCH请求，并在有效负荷中更新属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
