@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 访问Adobe Campaign Standard与Microsoft Dynamics 365自助服务应用程序的集成
 
-此配置将要求您与组织的Experience Cloud(EC)管理员合作。 这些是访问自助服务集成应用程序界面所需的初始步骤。 访问该工具后，您将设置数据连接并配置Adobe Campaign与Microsoft Dynamics 365之间的数据流。
+此配置将要求您与组织的Experience Cloud(EC)管理员合作。 这些是授予您访问自助服务集成应用程序界面所需的初始步骤。 访问该工具后，您将设置与数据的连接并配置Adobe Campaign与Microsoft Dynamics 365之间的数据流。
 
 >[!NOTE]
 >
@@ -24,19 +24,19 @@ ht-degree: 0%
 
 ## 添加产品用户档案
 
-在本节中，您将学习如何授予对Adobe Campaign Standard与Microsoft Dynamics 365自助应用程序集成的访问权限。 对您在Adobe Experience Cloud的组织具有访问权限的用户将无权访问集成自助应用程序，除非您按照以下步骤授予他们访问权限。
+在本节中，您将学习如何授予对Adobe Campaign Standard与Microsoft Dynamics 365自助应用程序集成的访问权限。 对您在Adobe Experience Cloud中的组织具有访问权限的用户将无权访问集成自助应用程序，除非您按照以下步骤授予他们访问权限。
 
 >[!IMPORTANT]
 >
 > 这些步骤要求在您的组织的Experience Cloud中具有&#x200B;**管理员**&#x200B;角色。
 
 
-1. 浏览至https://experience.adobe.com/并登录Adobe Experience Cloud。
+1. 浏览到https://experience.adobe.com/并登录Adobe Experience Cloud。
 1. 访问&#x200B;**Admin Console**。
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. 单击&#x200B;**[!UICONTROL Products]**&#x200B;以访问您的Experience Cloud解决方案。
+1. 单击&#x200B;**[!UICONTROL Products]**&#x200B;访问您的Experience Cloud解决方案。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
    * 如果您在列表中看到此条目，则无需继续。 单击左侧菜单中的&#x200B;**Adobe Campaign Standard**&#x200B;并检查其他活动实例。
 
-   * 确保用实例的实际名称替换“您的生产实例名称”。
+   * 确保将“your-prod-instance-name”替换为实例的实际名称。
 
-1. 您可以将&#x200B;**[!UICONTROL Permission Group]**&#x200B;下拉菜单保留为默认值。
+1. 您可以将&#x200B;**[!UICONTROL Permission Group]**&#x200B;下拉列表保留为默认值。
 
-1. 如果您的条目类似于以下内容，则单击&#x200B;**[!UICONTROL Done]**&#x200B;按钮。
+1. 如果条目类似于以下内容，则单击&#x200B;**[!UICONTROL Done]**&#x200B;按钮。
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ## 授予用户{#add-users-to-profile}访问权限
 
-在&#x200B;**[!UICONTROL Products]**&#x200B;页面中，选择您的活动实例，然后按照以下步骤操作：
+在&#x200B;**[!UICONTROL Products]**&#x200B;页面中，选择您的活动实例，然后执行以下步骤：
 
-1. 单击您之前创建的新用户档案: **Campaign Standard- your-prod-instance-name - D365/ACS集成**
+1. 单击您之前创建的新用户档案: **Campaign Standard- your-prod-instance-name - D365/ACS Integration**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
