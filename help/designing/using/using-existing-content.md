@@ -18,7 +18,7 @@ ht-degree: 6%
 
 ## 选择现有内容{#selecting-an-existing-content}
 
-Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您可以使用其中一项，或者，如果需要发送的消息的内容是在Adobe Campaign之外准备的，则可以从计算机或URL导入该消息。
+Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您可以使用其中一种，或者，如果需要发送的消息的内容是在Adobe Campaign之外准备的，则可以从计算机或URL导入该消息。
 
 创建电子邮件或登陆页时，您可以选择从其他源加载现有内容。
 
@@ -34,9 +34,9 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 1. 选择要加载的内容的源：
 
    * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击选 **[!UICONTROL Templates]** 项卡。
-   * [从头开始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，到开始新鲜：单击按 **[!UICONTROL Create]** 钮。
-   * [以ZIP或HTML文件形式从您的计算机中获取内容](#importing-content-from-a-file):单击按 **[!UICONTROL Upload]** 钮。
-   * [来自现有URL的内容](#importing-content-from-a-url) （仅适用于电子邮件）:单击按 **[!UICONTROL Import from URL]** 钮。
+   * [从头到尾的内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，以及从开始到新鲜的内容：单击该 **[!UICONTROL Create]** 按钮。
+   * [以ZIP或HTML文件形式从您的计算机中下载内容](#importing-content-from-a-file):单击该 **[!UICONTROL Upload]** 按钮。
+   * [来自现有URL的内容](#importing-content-from-a-url) （仅适用于电子邮件）：单击该 **[!UICONTROL Import from URL]** 按钮。
 
    ![](assets/des_loading_2.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
    >[!NOTE]
    >
-   >[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)使用特定标记。 上传到活动的标准HTML内容必须与期望的标签相匹配，才能完全兼容并从电子邮件设计器中进行编辑。 如果不匹配，您的内容将以[兼容模式](#compatibility-mode)上传。 要使现有内容兼容，请参阅[此部分](#editing-existing-contents-with-the-email-designer)。
+   >[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)使用特定标记。 上传到活动的标准HTML内容必须与期望的标签匹配，才能完全兼容并可从电子邮件设计器中编辑。 如果不匹配，则内容将以[兼容模式](#compatibility-mode)上传。 要使现有内容兼容，请参阅[本节](#editing-existing-contents-with-the-email-designer)。
 
 **相关主题：**
 
@@ -55,11 +55,11 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 ## 使用电子邮件设计器{#editing-existing-contents-with-the-email-designer}编辑现有内容
 
-要充分利用[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)的编辑可能性，您上传的HTML必须包含使其与WYSIWYG编辑器兼容的特定标记。
+要充分利用[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md)的版本功能，您上传的HTML必须包含使其与WYSIWYG编辑器兼容的特定标记。
 
-如果HTML的全部或部分没有此标记，则内容随后将以“ [兼容模式](#compatibility-mode)”加载。
+如果HTML的全部或部分没有此标记，则将以“ [兼容模式](#compatibility-mode)”加载内容。
 
-要使现有外部内容在电子邮件设计器中完全可编辑，请参阅[使用现有内容设计电子邮件](../../designing/using/using-existing-content.md)部分。
+要使现有外部内容在电子邮件设计器中完全可编辑，请参阅[使用现有内容设计电子邮件部分](../../designing/using/using-existing-content.md)。
 
 ## 导入现有电子邮件内容{#importing}
 
@@ -67,16 +67,16 @@ Adobe Campaign附带一组预定义的内容，可帮助您快速入门。 您�
 
 在“电子邮件设计器”主页中，单击&#x200B;**[!UICONTROL Upload]**&#x200B;按钮从计算机上传文件，然后进行确认。
 
-zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并且必须遵循zip文件夹的树结构。
+对zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并且应遵循zip文件夹的树结构。
 
-支持以下格式进行导入：
+导入支持以下格式：
 
-* 带有合并样式表的HTML文件
-* 包含HTML文件、样式表(.CSS)和图像的。zip文件夹
+* 包含合并样式表的HTML文件
+* 一个.zip文件夹，其中包含HTML文件、样式表(.CSS)和图像
 
 >[!NOTE]
 >
->对于电子邮件内容，我们建议您导入一个包含样式表的HTML文件。
+>对于电子邮件内容，建议您导入包含了样式表的单个HTML文件。
 
 #### 从URL {#importing-content-from-a-url}导入内容
 
@@ -94,7 +94,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 >
 >从URL加载内容仅适用于电子邮件渠道。
 
-要从URL检索现有内容，请按照以下步骤操作：
+要从URL中检索现有内容，请执行以下步骤：
 
 1. 从“电子邮件设计器”主页中，选择&#x200B;**[!UICONTROL Import from URL]**&#x200B;按钮。
 
@@ -107,11 +107,11 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
+其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
 
-### 在准备时从URL自动检索内容{#retrieving-content-from-a-url-automatically-at-preparation-time}
+### 准备时从URL自动检索内容{#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-在准备邮件期间从URL导入内容使您能够在每次准备电子邮件时检索最新的HTML内容。 这样，重复电子邮件的内容在发送时始终保持最新。 此功能还允许您创建预定在特定日期的消息，即使该内容尚未准备就绪。
+在准备邮件期间从URL导入内容使您能够在每次准备电子邮件时检索最新的HTML内容。 这样，循环电子邮件的内容在发送时始终保持最新。 此功能还允许您创建在特定日期计划的消息，即使该内容尚未准备好。
 
 要在准备时检索内容，请执行以下步骤：
 
@@ -127,7 +127,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击&#x200B;**[!UICONTROL Preview]**&#x200B;按钮。
 
-可以对从中检索内容的远程URL进行个性化。 为此请执行以下操作步骤：
+可以对从中检索内容的远程URL进行个性化设置。 为此请执行以下操作步骤：
 
 1. 单击屏幕顶部的电子邮件标签以访问电子邮件设计器&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡。
 1. 查找&#x200B;**[!UICONTROL Remote URL]**&#x200B;字段。
@@ -142,13 +142,13 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
    >
    >可用个性化字段仅链接到&#x200B;**投放**&#x200B;属性(电子邮件创建日期、状态、活动标签……)。
 
-### 兼容性模式{#compatibility-mode}
+### 兼容模式{#compatibility-mode}
 
-上传内容时，内容中必须包含特定标记，以使其完全符合规范并可以使用电子邮件设计器的WYSIWYG编辑器进行编辑。
+上传内容时，内容中必须包含特定标签，才能与电子邮件设计器的WYSIWYG编辑器完全兼容并可编辑。
 
-如果所上传HTML的全部或部分内容不符合预期的标记，则内容将以“兼容性模式”加载，这将限制通过UI进行编辑的可能性。
+如果所上传HTML的全部或部分内容不符合预期的标记，则内容会以“兼容性模式”加载，这会限制通过UI进行编辑的可能性。
 
-当内容以兼容模式加载时，您仍可以通过界面执行以下修改（不可用的操作被隐藏）:
+在兼容模式下加载内容时，您仍可以通过界面执行以下修改（隐藏不可用的操作）：
 
 * 更改文本或更改图像
 * 插入链接和个性化字段
@@ -157,19 +157,19 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 ![](assets/email_designer_compatibility.png)
 
-其他修改（如向电子邮件添加新章节或高级样式）必须直接在电子邮件的源代码中通过HTML模式进行。
+其他修改（如向电子邮件中添加新章节或高级样式）必须通过HTML模式直接在电子邮件的源代码中完成。
 
-有关将现有电子邮件转换为与电子邮件设计器兼容的电子邮件的更多信息，请参阅[本节](../../designing/using/using-existing-content.md)。
+有关将现有电子邮件转换为与Email Designer兼容的电子邮件的详细信息，请参阅[此部分](../../designing/using/using-existing-content.md)。
 
 **相关主题**：
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [电子邮件设计人员简介视频](../../designing/using/designing-content-in-adobe-campaign.md#video)
+* [电子邮件设计器简介视频](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## 转换HTML内容{#converting-an-html-content}
 
-如果要构建一个模块化模板和片段框架，这些模板和片段可以合并在多个电子邮件中重复使用，您应考虑将电子邮件HTML转换为电子邮件设计器模板。
+如果您要构建一个模块化模板和片段框架，这些模板和片段可以合并在多个电子邮件中重复使用，您应考虑将电子邮件HTML转换为电子邮件设计器模板。
 
 此用例优惠了将HTML电子邮件转换为电子邮件设计器组件的快速方法。
 
@@ -205,18 +205,18 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-在确定所有区块后，在电子邮件设计器中，对现有电子邮件的每个区域重复以下步骤：
+确定所有区块后，在电子邮件设计器中，对现有电子邮件的每个部分重复以下步骤：
 
 1. 打开电子邮件设计器以创建空的电子邮件内容。
-1. 设置正文级属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 设置正文级别属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
 1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 将HTML复制并粘贴到该组件中。
+1. 将HTML复制粘贴到该组件中。
 1. 切换到移动视图。 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
-   响应式视图中断，因为您的CSS缺失。
+   响应式视图已断开，因为您的CSS丢失。
 
-1. 要解决此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分。 例如：
+1. 要修复此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分中。 例如：
 
    ```
    <style type="text/css">
@@ -229,7 +229,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
    >[!NOTE]
    >
-   >确保在此之后在另一个自定义样式标签中添加样式。
+   >请确保在此之后在另一个自定义样式标签中添加样式。
    >
    >请勿修改电子邮件设计器生成的CSS:
    >
