@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 使用外部参数调用工作流
-description: 本节详细介绍如何使用外部参数调用工作流。
+description: 本节详细介绍了如何使用外部参数调用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -24,8 +24,8 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，参数类型必须与期望值一致。
+   >确保参数的名称和数量与调用工作流时定义的内容相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，参数类型必须与预期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. 声明参数后，完成工作流配置，然后运行它。
+1. 声明参数后，请完成工作流配置，然后运行它。
