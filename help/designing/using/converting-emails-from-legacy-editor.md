@@ -38,19 +38,19 @@ ht-degree: 8%
 ## 创建电子邮件结构
 
 1. 打开&#x200B;**[!UICONTROL Email Designer]**&#x200B;以创建空的电子邮件内容。
-1. 设置正文级属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 设置正文级别属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
 1. 添加任意数量的结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ## 添加HTML内容
 
 1. 向每个结构组件添加一个HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 将HTML复制并粘贴到每个组件中。
+1. 将HTML复制粘贴到每个组件中。
 
 ## 管理电子邮件的样式{#manage-the-style-of-your-email}
 
 1. 切换到&#x200B;**[!UICONTROL Mobile view]**。 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
-1. 要解决此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分。 例如：
+1. 要修复此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分中。 例如：
 
    ```
    <style type="text/css">
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >确保在此之后在另一个自定义样式标签中添加样式。
+   >请确保在此之后在另一个自定义样式标签中添加样式。
    >
    >请勿修改电子邮件设计器生成的CSS:
    >
@@ -78,15 +78,15 @@ ht-degree: 8%
 
 ## 用例
 
-让我们尝试将在旧版编辑器中创建的电子邮件转换为&#x200B;**[!UICONTROL Email Designer]**&#x200B;模板。
+让我们尝试将在旧版编辑器中创建的此电子邮件转换为&#x200B;**[!UICONTROL Email Designer]**&#x200B;模板。
 
-### 识别电子邮件的部分
+### 识别电子邮件的
 
 我们可以在此电子邮件中识别11个部分。
 
 ![](assets/html-dce-view-mail.png)
 
-要确定HTML的哪个部分是哪个元素，可以选择它。
+要确定HTML的哪个部分是哪个元素，您可以选择它。
 
 ![](assets/breadcrumbs.png)
 
@@ -122,8 +122,8 @@ ht-degree: 8%
 
 1. 插入CSS元素，确保您的电子邮件适合移动视图。
 
-1. 切换到源代码，并将样式部分复制粘贴到新样式部分。
+1. 切换到源代码并将样式部分复制粘贴到新样式部分。
 
 有关详细信息，请参阅[管理电子邮件的样式](#manage-the-style-of-your-email)。
 
-您的旧版电子邮件现已在电子邮件设计器中提供。
+您的旧版电子邮件现在可在电子邮件设计器中使用。
