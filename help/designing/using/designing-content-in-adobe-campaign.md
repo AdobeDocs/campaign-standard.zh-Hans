@@ -19,7 +19,7 @@ ht-degree: 88%
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 
-电子邮件设计器使您能够通过拖放创建引人注目的单独定制电子邮件
+电子邮件设计器使您能够通过拖放操作创建引人入胜的单独定制电子邮件
 界面。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
 
 Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能够直接通过用户界面轻松定义可视性条件和动态内容并将其应用于电子邮件、模板或片段。只需单击按钮，即可在拖放界面和 HTML 代码之间无缝切换。
@@ -28,7 +28,7 @@ Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现电子邮件设计人员](#video)
+![](assets/do-not-localize/how-to-video.png) [在视频中探索电子邮件设计人员](#video)
 
 * 要了解如何创建电子邮件内容，请参阅 [Email Designer 入门](../../designing/using/quick-start.md)。
 * 有关 Email Designer 的概述，请参阅[使用 Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
@@ -120,7 +120,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
 * 推荐人meta标记在电子邮件设计器中不受支持。
 
-下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
+下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hans)。
 
 ### 更新片段 {#email-designer-updates}
 
@@ -153,7 +153,7 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 * 在编辑样式时，只有大多数电子邮件客户端正式支持的 Web 字体才可用。
 * 无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。有关样式的更多信息，请参阅[此部分](../../designing/using/styles.md)。
 * 推荐人meta标记在电子邮件设计器中不受支持。
-* 替代对（Unicode字符集的基本多语言平面中未包含的字符）不能以2字节（16位）存储，需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中出现一些不兼容问题。在发送消息之前，您需要执行强测试。
+* 代理对（未包含在Unicode字符集的基本多语言平面中的字符）不能以2个字节（16位）存储，需要将其编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中出现一些不兼容问题。在发送消息之前，需要执行强测试。
 
 **相关主题**
 
@@ -168,4 +168,4 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-要开始使用电子邮件设计器，请观看这组[视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中介绍了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件
+要开始使用电子邮件设计器，请观看此[视频集](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中说明了电子邮件设计器的一般功能以及如何从头开始或使用模板设计电子邮件
