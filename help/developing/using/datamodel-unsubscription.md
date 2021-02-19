@@ -26,7 +26,7 @@ ht-degree: 5%
                   <th>必需</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>False</td>
                   <td>字符串</td>
                   <td>False</td>
@@ -34,7 +34,7 @@ ht-degree: 5%
                <tr>
                   <td>ctx</td>
                   <td>False</td>
-                  <td>物料</td>
+                  <td>项目</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -50,7 +50,7 @@ ht-degree: 5%
                   <td>False</td>
                </tr>
                <tr>
-                  <td>移动电话</td>
+                  <td>mobilePhone</td>
                   <td>False</td>
                   <td>字符串</td>
                   <td>False</td>
