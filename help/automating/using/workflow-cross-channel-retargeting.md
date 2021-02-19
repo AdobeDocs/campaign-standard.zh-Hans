@@ -16,7 +16,7 @@ ht-degree: 38%
 ---
 
 
-# 重定向向非打开者发送新投放的工作流{#retargeting-delivery-to-non-openers}
+# 将新投放发送给非打开者的重定向工作流{#retargeting-delivery-to-non-openers}
 
 您可以向客户发送电子邮件，然后向未打开邮件的用户发送短信。
 
@@ -48,28 +48,28 @@ ht-degree: 38%
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
 
-## 在查询活动中定位非打开者{#targeting-non-openers-in-a-query-activity}
+## 在查询活动{#targeting-non-openers-in-a-query-activity}中定位非打开者
 
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;中，拖放[等待](../../automating/using/wait.md)活动。
 1. 在&#x200B;**[!UICONTROL Duration]**&#x200B;中，单击![](assets/duration-icon.png)并选择一天。
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放 **[!UICONTROL Query activity]**。
 1. 双击该活动。
 1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Tracking Logs]**&#x200B;并使用运算符&#x200B;**[!UICONTROL exists]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，用运算符&#x200B;**[!UICONTROL is equal to]**&#x200B;拖放&#x200B;**[!UICONTROL delivery]**&#x200B;并将投放选为值。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，拖放&#x200B;**[!UICONTROL type]**&#x200B;并检查&#x200B;**[!UICONTROL Open]**&#x200B;作为值。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，用运算符&#x200B;**[!UICONTROL is equal to]**&#x200B;拖放&#x200B;**[!UICONTROL delivery]**&#x200B;并选择投放作为值。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，拖放&#x200B;**[!UICONTROL type]**&#x200B;并将&#x200B;**[!UICONTROL Open]**&#x200B;作为值进行检查。
 1. 在规则之间选择运算符&#x200B;**[!UICONTROL except]**。
 1. 单击 **[!UICONTROL Confirm]**.
 
 ## 创建sms投放{#creating-a-sms-delivery}
 
-1. 在每个区段之后拖放一个sms投放。
+1. 在每个区段后拖放一个sms投放。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Simple sms]** 并单击 **[!UICONTROL Next]**。
 1. 选择一个sms模板，然后单击&#x200B;**[!UICONTROL Next]**。
 1. 输入sms属性，然后单击&#x200B;**[!UICONTROL Next]**。
 1. 要创建sms的布局，请单击&#x200B;**[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 利用各个位置特定的优惠个性化您的短信。
+1. 使用特定于每个位置的优惠个性化您的短信。
 有关详细信息，请参阅[设计sms](../../channels/using/creating-an-sms-message.md)部分。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
