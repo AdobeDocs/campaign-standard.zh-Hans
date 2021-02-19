@@ -52,7 +52,7 @@ ht-degree: 96%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   配置步骤显示在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分。
+   配置步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分中介绍。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL publicLabel]** 添加到数据结构，以启用协调。
 
@@ -141,7 +141,7 @@ ht-degree: 96%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   配置步骤显示在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分。
+   配置步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分中介绍。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL serviceName]** 添加到数据结构，以启用协调。
 
