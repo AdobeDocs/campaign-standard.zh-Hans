@@ -20,11 +20,11 @@ ht-degree: 62%
 
 ## 事务性消息执行投放{#transactional-message-execution-delivery}
 
-发布消息并完成网站集成后，当触发事件时，该消息将分配给执行投放。
+在发布消息并完成网站集成后，当触发事件时，该消息将分配给执行投放。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**执行投放**&#x200B;是每月为每个事务性消息创建一次的不可操作且非功能的技术消息，每次编辑并再次发布事务性消息。
+**执行投放**&#x200B;是每月为每个事务性消息创建一次的不可操作且功能不全的技术消息，每次编辑并再次发布事务性消息时。
 
 **相关主题**：
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -41,7 +41,7 @@ ht-degree: 62%
 
 ### 事件处理重试流程{#event-processing-retry-process}
 
-当事件被触发时，它被分配给执行投放。 如果无法将事件分配给执行投放，则延迟事件处理。随后执行重试，直到将其分配给新的执行投放为止。
+触发事件时，会将其分配给执行投放。 如果无法将事件分配给执行投放，则延迟事件处理。随后执行重试，直到将其分配给新的执行投放为止。
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ ht-degree: 62%
 
    对于每个执行投放，您可以咨询投放日志，就像对标准投放一样。 有关访问和使用日志的详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
 
-### 基于用户档案的事务性消息特异性{#profile-transactional-message-monitoring}
+### 基于用户档案的事务性消息特性{#profile-transactional-message-monitoring}
 
 对于基于用户档案的事务性消息，您可以监视以下用户档案信息。
 
@@ -99,7 +99,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-选择&#x200B;**[!UICONTROL Exclusions logs]**&#x200B;选项卡以视图已被排除在消息目标之外的收件人，如地址阻止列表。
+选择&#x200B;**[!UICONTROL Exclusions logs]**&#x200B;选项卡，以视图已从消息目标中排除的收件人，如中的地阻止列表址。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
