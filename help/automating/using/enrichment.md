@@ -34,7 +34,7 @@ ht-degree: 96%
 
 **相关主题**
 
-* [用例：用文件中包含的用户档案丰富数据](../../automating/using/enriching-profile-data-file.md)。
+* [用例：用文件中包含的数据丰富用户档案数据](../../automating/using/enriching-profile-data-file.md)。
 * [用例：发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
 
 ## 配置{#configuration}
