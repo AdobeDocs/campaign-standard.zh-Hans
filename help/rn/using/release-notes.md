@@ -80,7 +80,7 @@ ht-degree: 98%
 </ul>
 <p>有关更多信息，请参阅<a href="../../start/using/interface-description.md#top-bar">详细文档</a>。
 </p>
-<p>注意：此更改将在2月10日到3月1日之间逐步转出给所有客户环境。
+<p>注意：此更改将在2月10日至3月1日之间逐步转出给所有环境。
 </p>
 </td> 
 </tr> 
