@@ -26,7 +26,7 @@ ht-degree: 5%
                   <th>明细列表值</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -46,7 +46,7 @@ ht-degree: 5%
                <tr>
                   <td>audienceData</td>
                   <td>预览所选人口</td>
-                  <td>集合 </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 5%
                <tr>
                   <td>countPreview</td>
                   <td>计数预览</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -135,7 +135,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud受众</td>
+                  <td>Adobe Marketing Cloud 受众</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
@@ -148,7 +148,7 @@ ht-degree: 5%
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>集合 </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,13 +190,13 @@ ht-degree: 5%
                <tr>
                   <td>sharedAudience</td>
                   <td>共享受众的名称</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>源</td>
                   <td>源</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -219,15 +219,15 @@ ht-degree: 5%
                      <ul>
                         <li>查询-查询-查询</li>
                         <li>列表-列表-列表</li>
-                        <li>文件——文件——文件</li>
-                        <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>文件 — 文件 — 文件</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>在哪里</td>
                   <td>查询定义</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
