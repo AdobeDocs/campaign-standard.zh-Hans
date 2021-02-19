@@ -56,7 +56,7 @@ ht-degree: 91%
    <td> Target<br /> Classic、Standard<br /> </td> 
    <td> 允许在打开由 Adobe Campaign 创建和发送的电子邮件时插入由 Adobe Target 动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a>, <a href="https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html">集成活动和目标</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">以实时视频形</a> 式个性化电子邮件图像（第3步）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用活动和目标</a>, <a href="https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/campaign-and-target.html">集成活动和目标</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">以实时视频个性化电</a> 子邮件图像（步骤3）
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 91%
    <td> Dreamweaver<br /> </td> 
    <td> 允许从 Dreamweaver 编辑电子邮件内容并将其与 Adobe Campaign 同步。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver视频创建个</a> 性化电子邮件， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用针对Dreamweaver的活动扩展</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">利用Dreamweaver Video创建个性</a> 化的电子邮件， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用活动 extension for Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
