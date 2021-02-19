@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 创建用户档案
-description: 进一步了解如何使用API创建用户档案。
+description: 了解更多如何使用API创建用户档案。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 创建用户档案 {#creating-profiles}
 
-对用户档案资源使用&#x200B;**POST**&#x200B;请求执行创建用户档案。
+创建用户档案是使用用户档案资源上的&#x200B;**POST**&#x200B;请求执行的。
 
 >[!CAUTION]
 >
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ***示例请求***
 
-POST请求示例：使用电子邮件“john.doe@mail.com”创建用户档案。
+使用电子邮件“john.doe@mail.com”创建POST的示例用户档案请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ POST请求示例：使用电子邮件“john.doe@mail.com”创建用户档案�
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它返回新创建的用户档案，其电子邮件地址为“john.doe@mail.com”。
+它将返回新创建的用户档案，并带有“john.doe@mail.com”电子邮件地址。
 
 ```
 {
