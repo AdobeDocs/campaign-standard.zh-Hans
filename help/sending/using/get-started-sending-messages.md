@@ -24,25 +24,25 @@ ht-degree: 15%
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">交付性准则</a></p></td></tr>
 </table>
 
-定义目标并创建消息内容后，您需要准备并测试投放内容、个性化、渲染和配置。 这样，在将消息发送到主目标之前，您可以确保一切正确。 为此，提供多种功能，如预览、验证、电子邮件主题行测试或电子邮件渲染。
+定义目标并创建消息内容后，您需要准备并测试投放的内容、个性化、渲染和配置。 这样，在向主目标发送消息之前，您可以确保一切正确。 为此，提供多种功能，如预览、验证、电子邮件主题行测试或电子邮件呈现。
 
-执行营销活动并发送不同消息后，使用日志监视活动是否成功，并检索收件人的跟踪信息。
+执行营销活动并发送不同消息后，使用日志监视它们以检查活动是否成功，并检索收件人的跟踪信息。
 
-最后，利用Campaign Standard中可用的交付性指南和工具来增加已传递的消息数量并确保成功的营销活动。
+最后，利用Campaign Standard中提供的可交付性指南和工具来改进已传递的消息数量，并确保成功的营销活动。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何发送测试电子邮件、准备和发送视频中的电子邮件投放](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何发送测试电子邮件，准备和发送视频中的电子邮件投放](#video)
 
 ## 准备并测试{#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **消息准备**&#x200B;分析消息的目标、个性化和有效性。 在此步骤中检测到的错误必须经过更正，才能继续。
+Campaign Standard **消息准备**&#x200B;分析消息的目标、个性化和有效性。 在此步骤中检测到的错误必须进行更正，然后才能继续操作。
 
-**预览并** 使用各种功能测试消息：发送验证以测试用户档案或目标用户档案，测试电子邮件的主题行，检查消息的呈现情况，确保消息以最佳方式显示在各种Web客户端、Web邮件和设备上。
+**预览和** 测试消息，使用各种功能：发送验证以测试用户档案或目标用户档案，测试电子邮件的主题行，并检查消息的呈现，确保消息以最佳方式显示在各种Web客户端、Web邮件和设备上。
 
 利用活动计划功能定义消息的发送时间。 例如，您可以调整在收件人时区发送、优化发送时间或计算发送日期。
 
-使用&#x200B;**类型**&#x200B;在准备过程中检查您的消息是否有效，是否通过疲劳、控制和定位规则满足您的质量标准。 例如，检查电子邮件是否始终包含主题行，或将未订阅者排除在邮件收件人。
+使用&#x200B;**类型**&#x200B;在准备过程中检查您的消息是否有效并通过疲劳、控制和定位规则满足您的质量标准。 例如，检查您的电子邮件是否始终包含主题行，或将未订阅者排除在邮件收件人中。
 
 阅读更多:
 
@@ -57,11 +57,11 @@ Campaign Standard **消息准备**&#x200B;分析消息的目标、个性化和�
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-消息准备就绪后，您可以确认发送和访问日志以及报告至&#x200B;**，监视投放**&#x200B;并衡量活动的成功程度。 Adobe Campaign还提供电子邮件警报系统，跟踪投放成功或失败以及隔离管理功能。
+消息准备就绪后，您可以确认向&#x200B;**发送和访问日志以及报告，以监控投放**&#x200B;并衡量活动的成功程度。 Adobe Campaign还提供电子邮件警报系统，以跟踪投放成功或失败情况以及隔离管理功能。
 
-**通过使** 用会话和永久cookies检索跟踪信息(已点击URL、镜像页面、已打开的消息……)，跟踪消息收件人的行为。
+**通过使** 用会话和永久Cookie检索跟踪信息(单击的URL、镜像页面、打开的消息……)来跟踪消息收件人的行为。
 
-最后，您可以将Adobe Campaign配置为&#x200B;**保留通过电子邮件密送从平台发送的电子邮件**&#x200B;的副本。 尤其是，如果您的组织需要存档所有出站电子邮件以符合要求，您可以启用此功能。
+最后，您可以将Adobe Campaign配置为&#x200B;**保留通过电子邮件密送从您的平台发送的电子邮件**&#x200B;的副本。 特别是，如果您的组织需要存档所有出站电子邮件以符合要求，您可以启用此功能。
 
 阅读更多:
 
@@ -72,13 +72,13 @@ Campaign Standard **消息准备**&#x200B;分析消息的目标、个性化和�
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 
-## 交付性准则{#improve-deliverability}
+## 可交付性准则{#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
-可交付性允许衡量活动到达收件人收件箱的成功程度，而不会出现弹跳或标记为垃圾邮件。
+可交付性允许您衡量活动到达收件人收件箱时的成功程度，而不会出现弹跳或标记为垃圾邮件。
 
-Campaign Standard提供了多个&#x200B;**可交付性工具**，以帮助您提高成功传递消息的数量：投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
+Campaign Standard提供了多个&#x200B;**可交付性工具**，以帮助您增加成功传递的消息数：投放吞吐量报告、发送时间优化、消息预览、电子邮件呈现、隔离管理等
 
 阅读更多:
 
@@ -101,4 +101,4 @@ Campaign Standard提供了多个&#x200B;**可交付性工具**，以帮助您提
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-此处[提供其他Campaign Standard操作方法视频。](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)
+其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
