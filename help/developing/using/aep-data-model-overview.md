@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 体验数据模型概述
-description: 体验数据模型(XDM)是一套标准的数据模式，可以在其中摄取数据以用于Adobe Experience Platform解决方案和产品。
+description: 体验模式模型(XDM)是一套标准的数据模型，可以在其中摄取数据以用于Adobe Experience Platform解决方案和产品。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,19 +19,19 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform数据连接器目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
-体验数据模型(XDM)是一套标准的数据模式，可以在其中摄取数据以用于Adobe Experience Platform解决方案和产品。
+体验模式模型(XDM)是一套标准的数据模型，可以在其中摄取数据以用于Adobe Experience Platform解决方案和产品。
 
 XDM模式的创建和管理可通过专用API或XDM用户界面提供。
 
 ## XDM工作区{#xdm-workspace}
 
-XDM Workspace提供了视图、创建和扩展数据模式的能力。
+XDM Workspace提供了视图、创建和扩展数据模式的功能。
 
 要访问XDM用户界面，请打开Adobe Experience Platform。 导航到“数据模型”窗口以创建或扩展XDM模式。
 
-请查阅完整的[XDM Workspace文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
+请查阅完整的[XDM工作区文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ XDM Workspace提供了视图、创建和扩展数据模式的能力。
 * 视图模式描述符
 * 创建、更新和删除模式描述符
 
-可在[开发人员指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)中找到用于操作API调用的所有详细信息。
+[《开发人员指南》](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)中提供了用于操作API调用的所有详细信息。
