@@ -28,7 +28,7 @@ ht-degree: 80%
 
 配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。在活动中获取新品牌的步骤在本节[中详细介绍。](#creating-a-brand)
+1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。在活动中获取新品牌的步骤在本节](#creating-a-brand)中有详细说明。[
 1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
@@ -89,9 +89,9 @@ ht-degree: 80%
 
 您可以在活动中添加新的组织实体，或创建需要在其他子域下发送的新电子邮件类型。 要执行此操作，请执行以下步骤：
 
-1. **配置新子域** -对于要由Adobe使用的任何新子域，第一步是配置它。您可以通过[活动控制面板](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)执行此操作，或联系Adobe技术联系人。 在本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)中进一步了解子域配置[。
+1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是配置它。您可以通过[活动控制面板](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)执行此操作，或联系您的Adobe技术联系人。 请阅读本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)，进一步了解子域配置[。
 
-1. **创建票证** -配置子域后，Adobe需要在生产环境中设置它。要请求此项，请[创建一个指向客户关怀的票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，其中包含以下信息：
+1. **创建票证**  — 配置子域后，Adobe需要在生产环境中设置它。要请求此请求，[请使用以下信息创建到Client Care](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)的票证：
 
    * 主题：ACS新品牌设置
 
@@ -101,9 +101,9 @@ ht-degree: 80%
 
    * 生产URL:XXX.活动.adobe.com
 
-1. **创建投放模板** -新品牌一旦可用，最佳实践是创建至少一个引用此新品牌的新空白投放模板。[了解详情](#linking-a-brand-to-a-template)。
+1. **创建投放模板**  — 新品牌一经推出，最佳实践是至少创建一个引用此新品牌的新空白投放模板。[了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查可交付性** 准则——在开始使用新域之前，应与Adobe可交付性团队讨论该策略。例如，如果应创建新关联以在域之间拆分IP，和／或应定义加速计划，则它们有助于定义最佳实践。 在本节](../../sending/using/about-deliverability.md)中进一步了解可交付性最佳实践[。
+1. **检查可交付性** 准则 — 在开始使用新域之前，应与Adobe可交付性团队讨论该策略。它们有助于定义最佳实践，例如，如果应创建新关联以在域之间拆分IP，和/或是否应定义加速计划。 在本节](../../sending/using/about-deliverability.md)中了解有关可交付性最佳实践[的更多信息。
 
 ## 为品牌分配电子邮件{#assigning-a-brand-to-an-email}
 
