@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能时，请记住SFTP存储、数据库存储和有效用户档案限制(根据您的Adobe Campaign合同)。
+>使用此功能时，请记住SFTP存储、数据库存储和有效用户档案限制。
 
 ![](assets/data_loading.png)
 
@@ -44,7 +44,7 @@ ht-degree: 93%
 **相关主题：**
 
 * [用例：使用外部数据更新数据库](../../automating/using/update-database-file.md)
-* [用例：根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例：基于自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
 * [用例：发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
 * [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
