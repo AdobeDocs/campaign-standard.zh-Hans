@@ -88,9 +88,9 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 >[!IMPORTANT]
 >
->电子邮件域和MX规则现在自动管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->，并且无法更改。
+>电子邮件域和MX规则现在自动管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->，无法更改。
 
-* **DKIM(DomainKeys Indifed Mail)电子邮** 件身份验证签名针对所有域的所有邮件完成。它不使用&#x200B;**发送者ID**、**DomainKeys**&#x200B;或&#x200B;**S/MIME**&#x200B;进行签名。
+* **DKIM(DomainKeys Indifed Mail)电子邮** 件验证签名已针对所有域的所有邮件完成。它不使用&#x200B;**发件人ID**、**DomainKeys**&#x200B;或&#x200B;**S/MIME**&#x200B;进行签名。
 * MX规则根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域的实时反馈，自动按域自定义您的吞吐量。
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -105,7 +105,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 >[!IMPORTANT]
 >
->同步投放故障错误消息现在由Adobe Campaign增强型MTA进行鉴定，该MTA确定弹回类型和鉴定，并将该信息发回给活动。
+>同步投放失败错误消息现在由Adobe Campaign增强MTA限定，该MTA确定跳出类型和资格，并将该信息发回给活动。
 
 有关退回邮件鉴别的更多信息，请参阅[此章节](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
@@ -161,7 +161,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!IMPORTANT]
 >
->重试之间的最小延迟和要执行的最大重试数现在取决于IP在历史和当前给定域的执行情况。 将忽略活动中的&#x200B;**[!UICONTROL Retry period]**&#x200B;和&#x200B;**[!UICONTROL Max. number of retries]**&#x200B;设置。
+>重试之间的最小延迟和要执行的最大重试数现在取决于IP在历史和当前给定域中的执行情况。 将忽略活动中的&#x200B;**[!UICONTROL Retry period]**&#x200B;和&#x200B;**[!UICONTROL Max. number of retries]**&#x200B;设置。
 
 仍会遵从在 Campaign 中设置的&#x200B;**投放持续时间设置**（在[有效期参数](#validity-period-parameters)部分中定义），**但最长只有 3.5 天**。达到该时间后，重试队列中的所有消息都将从队列中删除，并作为退件发回。有关投放失败的更多信息，请参阅此[章节](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
@@ -306,27 +306,27 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Created by]**、**[!UICONTROL Created]**、**[!UICONTROL Modified by]** 和 **[!UICONTROL Last modified]** 字段会自动填写。
 
-## 旧设置{#legacy-settings}
+## 旧版设置{#legacy-settings}
 
-如果您&#x200B;**不是**&#x200B;运行最新版活动，则下面描述的参数和UI部分仍适用于您。
+如果您&#x200B;**不是**&#x200B;运行最新版活动，则下面描述的参数和UI部分仍然适用于您。
 
 ### 重试 {#legacy-retries}
 
-电子邮件属性的[配置菜单](#email-channel-parameters)和[发送参数](#retries-parameters)中的&#x200B;**[!UICONTROL Retries]**&#x200B;设置指示在发送开始之日应执行多少重试(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)以及重试之间的最小延迟(**[!UICONTROL Retry period]**)。
+[“配置”菜单](#email-channel-parameters)和电子邮件属性的[“发送参数](#retries-parameters)”中的&#x200B;**[!UICONTROL Retries]**&#x200B;设置指示在发送开始之日(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)应执行多少个重试以及重试之间的最小延迟(**[!UICONTROL Retry period]**)。
 
-可以全局更改重试数(联系Adobe技术管理员)或针对每个投放或投放模板。
+可以全局更改重试数(与Adobe技术管理员联系)或针对每个投放或投放模板。
 
-默认情况下，在第一天安排五个重试，最少间隔为1小时，分散到一天的24小时。 在此之后，每天一次重试被编程，直到投放截止日期为止，该截止日期在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜单的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分或投放级别的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定义(请参见下面的[投放持续时间](#legacy-delivery-duration)部分)。
+默认情况下，在第一天计划五个重试，最小时间间隔为1小时，分布在一天的24小时内。 在此之后，每天一次重试被编程，直到投放截止期为止，该截止期在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜单的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分或投放级别的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定义(请参阅下面的[投放持续时间](#legacy-delivery-duration)部分)。
 
 ### 投放持续时间{#legacy-delivery-duration}
 
-[配置菜单](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;参数允许您指定在投放中重试遇到临时错误或软弹回的任何消息的时间范围。
+通过[配置菜单](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;参数，可以指定在哪个时间段内重试投放中遇到临时错误或软跳回的任何消息。
 
-[有效期参数](#validity-period-parameters)部分中的&#x200B;**[!UICONTROL Delivery duration]**&#x200B;或&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;参数允许您指定发送消息的持续时间。
+在[有效期参数](#validity-period-parameters)部分中的&#x200B;**[!UICONTROL Delivery duration]**&#x200B;或&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;参数允许您指定发送消息的持续时间。
 
 ### 电子邮件处理规则{#legacy-email-processing-rules}
 
-管理员可通过&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [菜单](#email-processing-rules)访问和修改&#x200B;**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;和&#x200B;**[!UICONTROL Domain management]**&#x200B;规则。
+管理员可以通过&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [菜单](#email-processing-rules)访问和修改&#x200B;**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;和&#x200B;**[!UICONTROL Domain management]**&#x200B;规则。
 
 ### 退回邮件鉴别{#legacy-bounce-mail-qualification}
 
@@ -334,14 +334,14 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 弹回可以具有以下资格状态：
 
-* **[!UICONTROL To qualify]**:弹回邮件需要符合条件。必须由交付能力团队进行资格鉴定，以确保平台交付能力正确运行。 只要邮件不符合条件，弹回邮件就不会用于丰富电子邮件处理规则的列表。
-* **[!UICONTROL Keep]**:弹回邮件已经过鉴定，将由“更新” **用于** 交付能力工作流，与现有电子邮件处理规则进行比较，并丰富列表。
-* **[!UICONTROL Ignore]**:弹回邮件已经过鉴定，但不会被“更新” **以供交付** 工作流使用。因此，它不会发送到客户端实例。
+* **[!UICONTROL To qualify]**:“弹回邮件”需要合格。必须由交付能力团队进行资格鉴定，以确保平台交付能力正确运行。 只要邮件不合格，弹回邮件就不会用于丰富电子邮件处理规则的列表。
+* **[!UICONTROL Keep]**:弹回邮件已经过鉴定，将由“更新”工 **作流使** 用，以与现有的电子邮件处理规则进行比较，并丰富列表。
+* **[!UICONTROL Ignore]**:弹回邮件已验证，但不会被“更新” **工作流** 使用。因此，它不会发送到客户端实例。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### 已传递指示报告{#legacy-delivered-status-report}
 
-在每条消息的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，当软弹回和硬弹回报告时，**[!UICONTROL Delivered]**&#x200B;百分比将在投放的有效期内逐渐上升。
+在每条消息的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，随着软弹回和硬弹回的报告，在投放的有效期内，**[!UICONTROL Delivered]**&#x200B;百分比将逐渐上升。
 
-软弹跳消息在投放的第一天后显示为&#x200B;**[!UICONTROL Failed]**，并将在投放的有效期的每个附加日重试。
+软弹跳消息在投放的第一天后将显示为&#x200B;**[!UICONTROL Failed]**，并且将在投放有效期的每个附加日重试。
