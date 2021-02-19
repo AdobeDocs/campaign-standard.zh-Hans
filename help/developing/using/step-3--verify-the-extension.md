@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # 第 3 步：验证扩展{#step-verify-the-extension}
 
-1. 对GET和服务扩展API的元数据执行用户档案操作，以检查在用户档案自定义资源中添加的字段现在是否可用。
+1. 对用户档案和服务扩展API的元数据执行GET操作，以检查在用户档案自定义资源中添加的字段现在是否可用。
 
    ```
    GET profileAndServicesExt/resourceType/profile
