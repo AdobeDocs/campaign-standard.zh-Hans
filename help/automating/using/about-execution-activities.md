@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 关于执行活动
-description: 执行活动可从屏幕的左侧访问。
+description: 执行活动可从屏幕的左侧使用。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
