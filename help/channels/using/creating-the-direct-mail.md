@@ -97,4 +97,4 @@ ht-degree: 96%
 * 通过定期电子邮件以附件形式发送
 * 通过 Campaign 发送：例如，在营销策划[工作流](../../automating/using/direct-mail-delivery.md)中执行“直邮”，并添加 **[!UICONTROL Transfer file]** 以通过 FTP 发送文件。请参阅[传输文件](../../automating/using/transfer-file.md)。
 
-提供者检索错误地址的列表，并将此信息发送给自动错误地阻止列表址的Adobe Campaign。 请参阅[退回发件人](../../channels/using/return-to-sender.md)。
+提供者检索错误地址的列表，并将此信息发送给自动错阻止列表误地址的Adobe Campaign。 请参阅[退回发件人](../../channels/using/return-to-sender.md)。
