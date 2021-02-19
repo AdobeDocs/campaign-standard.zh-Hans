@@ -19,7 +19,7 @@ ht-degree: 10%
 
 ## 兼容的浏览器{#compatible-browsers}
 
-Adobe Campaign Standard与大多数计算机浏览器以及平板电脑的主要操作系统兼容。
+Adobe Campaign Standard兼容大多数计算机浏览器以及平板电脑的主要操作系统。
 
 Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
 
@@ -43,7 +43,7 @@ Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
 
 | 上下文 | URL |
 |--- |--- |
-| 活动实例 | `https://*.experiencecloud.adobe.com` (租户ID * +客户端域<br>`https://*.campaign.adobe.com` )(活动实例租户) |
+| 活动实例 | `https://*.experiencecloud.adobe.com` （租户ID * +客户端域）<br>`https://*.campaign.adobe.com` (活动实例租户) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 跟踪 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
