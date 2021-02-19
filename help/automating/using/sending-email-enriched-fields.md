@@ -26,7 +26,7 @@ ht-degree: 75%
 
 ![](assets/load_file_workflow_ex2.png)
 
-要构建工作流，请按照以下步骤操作：
+要构建工作流，请执行以下步骤：
 
 1. 将[查询](../../automating/using/query.md)活动拖放到工作流中，然后打开它以定义主目标。
 
@@ -36,7 +36,7 @@ ht-degree: 75%
 
    ![](assets/load_file_activity.png)
 
-1. 将[扩充](../../automating/using/enrichment.md)活动拖放到工作流中，并将加载文件和查询活动链接到该工作流。
+1. 将[扩充](../../automating/using/enrichment.md)活动拖放到工作流中，并将加载文件和查询活动链接到工作流。
 
 1. 在扩充活动的 **[!UICONTROL Advanced relations]** 选项卡中，选择 **[!UICONTROL 0 or 1 cardinality simple link]** 并定义要用于协调的字段。这里，我们使用“姓氏”将数据与数据库用户档案协调。
 
@@ -50,13 +50,13 @@ ht-degree: 75%
 
    有关更多信息，请参阅[扩充](../../automating/using/enrichment.md)一节。
 
-1. 将[分段](../../automating/using/segmentation.md)活动拖放到您的工作流中，然后打开它以细化主目标。
+1. 将[分段](../../automating/using/segmentation.md)活动拖放到您的工作流中，然后打开它以优化主目标。
 
    ![](assets/load_file_segmentation.png)
 
    有关更多信息，请参阅[分段](../../automating/using/segmentation.md)一节。
 
-1. 将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到您的工作流中并将其打开。
+1. 将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到您的工作流中并打开它。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
