@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: GET/POST/PATCH/DELETE动词
-description: 进一步了解Campaign StandardAPI中使用的动词。
+description: 进一步了解Campaign Standard API中使用的动词。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -20,7 +20,7 @@ ht-degree: 0%
 对资源执行操作的可用动词有：
 
 * `GET`:检索一个元素或元素集合
-* `POST`:创建带参数的资源。
+* `POST`:创建包含参数的资源。
 * `PATCH`:使用参数更新资源。
 * `DELETE`:删除资源。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
    -d '{"lastName":"Doe"}'
    ```
 
-   它返回带默认字段的用户档案。
+   它返回具有默认字段的用户档案。
 
    ```
    {
@@ -146,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   请求返回200响应，确认用户档案已被删除。
+   该请求返回200响应，确认已删除用户档案。
