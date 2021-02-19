@@ -24,7 +24,7 @@ ht-degree: 98%
 
 利用此模式，可使用高级功能。利用这些函数，可处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
-在编辑工作流时，还可以使用事件变量。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
+在编辑表达式时，还可以使用工作流的事件变量。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
 您可以编辑表达式，以：
 
