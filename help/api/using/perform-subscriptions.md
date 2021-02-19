@@ -43,7 +43,7 @@ ht-degree: 0%
   }
 ```
 
-在有效负荷中使用所需的服务主键对订阅URL执行POST请求。
+在有效负荷内具有所需服务主键的订阅URL上执行POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -70,7 +70,7 @@ ht-degree: 0%
 }
 ```
 
-## 方法2:向服务的订户添加用户档案
+## 方法2:向服务的订阅者添加用户档案
 
 执行GET请求以检索服务。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
   },
 ```
 
-在有效负荷中使用所需的POST主键对订阅URL发出用户档案请求。
+在订阅URL上发出POST请求，并在有效负荷内使用所需的用户档案主键。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -108,7 +108,7 @@ ht-degree: 0%
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成订阅者节点的更新服务。
+它返回已完成的订阅节点的更新服务。
 
 ```
 {
