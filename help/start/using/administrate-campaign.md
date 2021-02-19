@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 自定义列表
-description: “了解如何自定义显示屏并在Adobe Campaign Standard的列表屏幕上操作：排序、过滤、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何在Adobe Campaign Standard中自定义显示并对列表屏幕执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -44,42 +44,42 @@ ht-degree: 8%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. 苏西比特的红背凤蝶。 Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
 
 **阅读更多**
 
-* xxxx
-* xxxx
+* xx
+* xx
 
 ## 使用REST API
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. 苏西比特的红背凤蝶。 Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
 
 **阅读更多**
 
-* xxxx
-* xxxx
+* xx
+* xx
 
 ## 管理用户
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. 苏西比特的红背凤蝶。 Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
 
 **阅读更多**
 
-* xxxx
-* xxxx
+* xx
+* xx
 
 ## 配置和监视实例
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. 苏西比特的红背凤蝶。 Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
 
 **阅读更多**
 
-* xxxx
-* xxxx
+* xx
+* xx
