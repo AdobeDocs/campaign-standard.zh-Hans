@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 与营销历史互动
-description: 了解如何与用户档案营销历史互动。
+description: 了解如何与用户档案的营销历史互动。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -18,17 +18,17 @@ ht-degree: 10%
 # 与营销历史互动 {#interacting-with-marketing-history}
 
 通过&#x200B;**history**端点，您可以与用户档案的营销历史交互。
-例如，这样，您就可以轻松检索发送给镜像页面的投放的用户档案。 为此请执行以下操作步骤：
+例如，这样，您就可以轻松检索发送给用户档案的投放的镜像页面。 为此请执行以下操作步骤：
 
 1. 使用&#x200B;**history**&#x200B;端点和GET的主键执行用户档案。
-1. 对返回的&#x200B;**GET** href执行事件请求。
-1. 它返回用户档案的列表，该事件具有到&#x200B;**mirrorPage**&#x200B;节点中镜像页面的链接。
+1. 对返回的&#x200B;**事件** href执行GET请求。
+1. 它返回用户档案的列表，该事件具有指向&#x200B;**mirrorPage**&#x200B;节点中镜像页面的链接。
 
 <br/>
 
 ***示例请求***
 
-使用用户档案请求检索营销历史。
+使用用户档案请求检索GET营销历史。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -38,7 +38,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-“事件”节点返回URL，用于访问用户档案上的事件。
+“事件”节点返回允许您访问用户档案上的事件的URL。
 
 ```
 {
@@ -63,7 +63,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回用户档案的列表符事件，该具有指向“mirrorPage”节点中镜像页面符的链接。
+它返回用户档案的列表，该事件具有指向“mirrorPage”节点中镜像页面的链接。
 
 ```
     {
