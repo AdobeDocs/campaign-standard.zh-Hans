@@ -35,7 +35,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->所有活动中都提供其他函数，这些函数允许您在调用具有外部参数的工作流后使用事件变量。 详见[本节](../../automating/using/customizing-workflow-external-parameters.md)。
+>所有活动中都提供了其他函数，允许您在调用具有外部参数的工作流后使用事件变量。 详见[本节](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ## 日期{#dates}
 
