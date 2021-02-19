@@ -33,14 +33,14 @@ ht-degree: 53%
 
 请按照以下步骤创建订阅机制：
 
-1. **创建服务** -按照本节中 [描述的](../../audiences/using/creating-a-service.md) 步骤创建订阅服务
-1. **共享链接** -了解如何在本页中提升和 [共享服务](../../audiences/using/promoting-a-service.md)
-1. **监控订阅** -本节介绍监控订阅服务的 [几种方法](../../audiences/using/monitoring-subscriptions.md)
-1. **确认订阅** -按照 [本教](../../audiences/using/confirming-subscription-to-a-service.md) 程发送订阅确认消息
+1. **创建服务**  — 请按照本节 [中描述](../../audiences/using/creating-a-service.md) 的步骤创建订阅服务
+1. **共享链接**  — 了解如何在本页中提升和 [共享服务](../../audiences/using/promoting-a-service.md)
+1. **监视订阅**  — 本节介绍几种监视服务订阅 [的方法](../../audiences/using/monitoring-subscriptions.md)
+1. **确认订阅**  — 按照 [本](../../audiences/using/confirming-subscription-to-a-service.md) 教程发送订阅确认消息
 
 ## 其他资源
 
-* [用例：增量查询服务的订户](../../automating/using/incremental-query-on-subscribers.md)
+* [用例：增量查询服务用户](../../automating/using/incremental-query-on-subscribers.md)
 * [用例：从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
-* [在导入文件后为特定服务订阅用户档案](../../automating/using/subscribing-profiles-from-file.md)
+* [在导入文件后订阅用户档案到特定服务](../../automating/using/subscribing-profiles-from-file.md)
 * [选择加入和选择退出活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
