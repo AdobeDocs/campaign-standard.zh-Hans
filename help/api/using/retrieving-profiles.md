@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 检索用户档案
-description: 进一步了解如何使用API检索用户档案。
+description: 了解更多如何使用API检索用户档案。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 然后，您可以使用过滤器、排序和分页来优化搜索。 有关详细信息，请参阅[其他操作](../../api/using/sorting.md)部分。
 
-此外，Campaign StandardAPI允许您根据以下字段之一搜索用户档案:电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
+此外，Campaign Standard API允许您根据以下字段之一搜索用户档案:电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
 
 <br/>
 
@@ -63,7 +63,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。 “下一个”节点返回URL，该URL允许您访问下一个10个电子邮件值。
+   响应请求。 “下一个”节点返回URL，通过它可访问下一个10个电子邮件值。
 
    ```
    {
@@ -88,11 +88,11 @@ ht-degree: 5%
 
 ## 基于字段{#searching-field}搜索用户档案
 
-**[!UICONTROL filterType]**&#x200B;参数允许您根据以下字段之一检索用户档案:在扩展用户档案资源时，电子邮件、名字、姓氏或任何已在高级筛选中添加的自定义字段。
+**[!UICONTROL filterType]**&#x200B;参数允许您基于以下字段之一检索用户档案:在扩展用户档案资源时，电子邮件、名字、姓氏或在高级过滤中添加的任何自定义字段。
 
 >[!NOTE]
 >
->搜索区分大小写，只对前缀执行。 例如，您将无法使用姓氏的最后字母查找用户档案。
+>搜索区分大小写并仅对前缀执行。 例如，您将无法使用姓氏的最后字母查找用户档案。
 
 ***示例请求***
 
