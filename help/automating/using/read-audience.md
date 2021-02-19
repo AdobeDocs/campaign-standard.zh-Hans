@@ -30,7 +30,7 @@ ht-degree: 87%
 
 **相关主题**
 
-* [用例：合并两家精炼受众](../../automating/using/union-on-two-refined-audiences.md)
+* [用例：合并两个精细受众](../../automating/using/union-on-two-refined-audiences.md)
 * [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置{#configuration}
