@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 监视数据模型的变化{#monitoring-data-model-changes}
 
-**[!UICONTROL Diagnosis]**&#x200B;菜单允许您参考应用程序生成的不同技术对象，以便对其进行分析。
+**[!UICONTROL Diagnosis]**&#x200B;菜单允许您参考应用程序生成的不同技术对象，以便对它们进行分析。
 
 >[!NOTE]
 >
