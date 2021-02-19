@@ -38,7 +38,7 @@ ht-degree: 80%
 * 利用 **[!UICONTROL Create an SMS]** 卡，可使用短信创建助手。利用此助手，可选择短信类型、选择消息收件人并定义内容。请参阅[创建短信](../../channels/using/creating-an-sms-message.md)一节。
 * 利用 **[!UICONTROL Create a Direct mail]** 卡，可使用直邮创建助手。请参阅[创建直邮](../../channels/using/creating-the-direct-mail.md)一节。
 * 利用 **[!UICONTROL Create a push notification]** 卡，可使用通知创建助手。利用此助手，可选择推送通知的类型、选择消息收件人并定义内容。请参阅[创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)一节。
-* **[!UICONTROL Create an In-App message]**&#x200B;卡将带您进入应用程序内创建助手。 此助手允许您选择要创建的应用程序内消息的类型，定义其属性、受众和内容。 请参阅[创建应用程序内消息](../../channels/using/about-in-app-messaging.md)部分。
+* **[!UICONTROL Create an In-App message]**&#x200B;卡将带您进入应用程序内创建助手。 此助手允许您选择要创建的应用程序内消息的类型、定义其属性、受众和内容。 请参阅[创建应用程序内消息](../../channels/using/about-in-app-messaging.md)部分。
 * 利用 **[!UICONTROL Marketing activities]** 卡，可访问所有活动、项目和营销策划的完整列表，特别是电子邮件、短信、工作流和登陆页面。然后，您可以在此处按名称、日期、状态或活动类型进行搜索，以筛选元素。有关更多信息，请参阅[营销活动列表](../../start/using/marketing-activities.md#about-marketing-activities)一节。
 * 利用 **[!UICONTROL Programs & campaigns]** 卡可转到项目列表，您可以在其中创建和管理营销策划。请参阅[项目列表](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
 * 利用 **[!UICONTROL Timeline]** 卡可直接转到营销活动的交互式时间线，您可以在该时间线中查看正在进行的项目及其内容。请参阅[时间线](../../start/using/timeline.md)。
@@ -47,7 +47,7 @@ ht-degree: 80%
 
 ## 顶部栏{#top-bar}
 
-顶栏显示在每个屏幕上，允许您浏览Adobe Campaign功能并访问与Adobe连接的用户档案、通知、Adobe Experience Cloud解决方案和活动文档。
+顶栏在每个屏幕上都可见，它允许您浏览Adobe Campaign功能并访问连接的Adobe用户档案、通知、Adobe Experience Cloud解决方案和活动文档。
 
 导航规则为：
 
@@ -57,14 +57,14 @@ ht-degree: 80%
 
 * 利用 **[!UICONTROL Home]** 链接，可显示 Adobe Campaign 主页。
 * 利用 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 链接，可访问与这些功能关联的视图。
-* 通过&#x200B;**解决方案切换器**&#x200B;图标，您可以在组织之间切换或切换到其他应用程序。
-* **[!UICONTROL Help]**&#x200B;图标在](#help)下面有说明。[
+* **解决方案切换器**&#x200B;图标可让您在组织之间切换或切换到其他应用程序。
+* **[!UICONTROL Help]**&#x200B;图标在](#help)下方有说明。[
 * **Notifications** 图标可显示最新的警报或信息。
 * **User** 图标可显示链接到用户档案的信息。如果需要&#x200B;**[!UICONTROL Sign out]**，请使用此图标。
 
 ### 帮助 {#help}
 
-右上角的&#x200B;**帮助**&#x200B;图标将Adobe Experience League引入产品中。
+右上角的&#x200B;**帮助**&#x200B;图标将Adobe Experience League带入产品中。
 
 ![](assets/ux_help.png)
 
@@ -73,12 +73,12 @@ ht-degree: 80%
 三个选项卡可帮助您查找帮助和帮助：
 
 1. **[!UICONTROL Help]**&#x200B;选项卡包含：
-   * 快速访问具有上下文链接的Adobe Campaign Standard文档。
+   * 快速访问包含上下文链接的Adobe Campaign Standard文档。
    * **[!UICONTROL Learning]**&#x200B;链接，允许您访问Adobe Campaign课程库。
-   * **[!UICONTROL Community]**&#x200B;链接，用于访问专门讨论您的活动问题的论坛。
+   * **[!UICONTROL Community]**&#x200B;链接，可访问专门讨论您的活动问题的论坛。
    * 直接访问：帮助中心、客户关怀、Experience Cloud产品状态、开发人员连接、发行说明、发行计划和&#x200B;**[!UICONTROL About]**&#x200B;屏幕。
 1. **[!UICONTROL Support]**&#x200B;选项卡允许您打开支持案例并通过电话或Twitter与我们联系。
-1. 使用&#x200B;**[!UICONTROL Feedback]**&#x200B;选项卡，可以更轻松地报告问题或分享您的想法。
+1. **[!UICONTROL Feedback]**&#x200B;选项卡使报告问题或分享您的想法更加容易。
 
 ## 高级菜单{#advanced-menu}
 
