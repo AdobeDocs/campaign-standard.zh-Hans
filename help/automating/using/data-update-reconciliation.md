@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [协调](../../automating/using/reconciliation.md)活动，它将加载文件的每列链接到用户档案维列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
+* [协调](../../automating/using/reconciliation.md)活动，将加载文件的每列链接到用户档案维列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
    ![](assets/identification_example1.png)
 
-* A [保存受众](../../automating/using/save-audience.md)活动，保存用户档案的受众。
+* [保存受众](../../automating/using/save-audience.md)活动，保存用户档案受众。
 
    ![](assets/identification_example3.png)
