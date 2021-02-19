@@ -22,5 +22,5 @@ ht-degree: 55%
 1. 选择 **[!UICONTROL Extend an existing resource]** 选项。
 1. 选择 **[!UICONTROL Profile]** 资源。
 1. 单击 **[!UICONTROL Create]**。
-1. 在资源字段中添加&#x200B;**[!UICONTROL Text]**&#x200B;类型&#x200B;**[!UICONTROL Promo code]**&#x200B;字段，其ID为&#x200B;**[!UICONTROL Brand]**。
+1. 在资源字段中添加具有&#x200B;**[!UICONTROL Brand]** ID的&#x200B;**[!UICONTROL Text]**&#x200B;类型&#x200B;**[!UICONTROL Promo code]**&#x200B;字段。
 
