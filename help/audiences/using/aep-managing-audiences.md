@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 管理 Adobe Experience Platform 受众
-description: 了解如何在Campaign Standard内管理Adobe Experience Platform。
+description: 了解如何在Campaign Standard中管理Adobe Experience Platform。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -20,15 +20,15 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户必须托管在Azure上（目前仅限北美的beta版），才能访问这些功能。 如果您想要访问，请联系Adobe客户服务中心。
+>受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
 ## 访问Adobe Experience Platform受众
 
-要访问Adobe Experience Platform区段构建器，请导航到Campaign Standard主页上的&#x200B;**[!UICONTROL Audiences]**&#x200B;卡（或标题中的&#x200B;**[!UICONTROL Audiences]**&#x200B;链接），然后选择&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;环境。
+要访问Adobe Experience Platform区段生成器，请导航到Campaign Standard主页上的&#x200B;**[!UICONTROL Audiences]**&#x200B;卡（或标题中的&#x200B;**[!UICONTROL Audiences]**&#x200B;链接），然后选择&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;环境。
 
 ![](assets/aep_audiences_access.png)
 
-您首先将转到Adobe Experience Platform区段列表页，在该页可访问现有的Adobe Experience Platform区段以进一步编辑。
+您首先会转到Adobe Experience Platform区段列表页面，在该页面中可访问现有Adobe Experience Platform区段以进一步编辑。
 
 搜索栏和筛选器可帮助您找到所需的Adobe Experience Platform区段。
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. 区段生成器现在应显示在工作区中。 它允许您使用Adobe Experience Platform的数据构建细分，最终用于创建受众。
+1. 区段生成器现在应显示在您的工作区中。 它允许您使用Adobe Experience Platform中的数据构建区段，最终将用于创建受众。
 
 1. 在右侧窗格中命名区段并输入说明（可选）。
 
@@ -50,13 +50,13 @@ ht-degree: 3%
 
 1. 要成功创建区段，您必须选择与此区段的营销目的相符的&#x200B;**合并策略**。
 
-   在“设置”窗格中，将选择“平台默认合并策略”。 有关合并策略的详细信息，请参阅[Segment Builder用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)中的专用部分。
+   在“设置”窗格中，选择了“平台默认合并策略”。 有关合并策略的详细信息，请参阅[区段生成器用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 定义用于标识要在您的用户档案中检索的受众的规则。
+1. 定义用于标识要在受众中检索的用户档案的规则。
 
-   为此，请将所需的属性和／或事件从左窗格拖动到工作区中，定义相应的规则，然后单击&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮以保存区段（请参阅[使用区段生成器](../../audiences/using/aep-using-segment-builder.md)）。
+   为此，请将所需的属性和/或事件从左侧窗格拖入工作区，定义相应的规则，然后单击&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮以保存区段（请参阅[使用区段生成器](../../audiences/using/aep-using-segment-builder.md)）。
 
    ![](assets/aep_audiences_creation_query.png)
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 ## 编辑受众
 
-要编辑受众，请打开它并根据需要在Segment Builder界面中修改规则（请参阅[使用Segment Builder](../../audiences/using/aep-using-segment-builder.md)）。
+要编辑受众，请在区段生成器界面中根据需要打开并修改规则（请参阅[使用区段生成器](../../audiences/using/aep-using-segment-builder.md)）。
 
 完成更改后，单击&#x200B;**[!UICONTROL Save segment]**&#x200B;按钮以更新您的受众。
 
