@@ -22,7 +22,7 @@ ht-degree: 82%
 >
 >产品列表仅可用于通过[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面的&#x200B;**事务电子邮件**。
 
-在编辑交易电子邮件的内容时，您可以创建引用一个或多个数据集合的产品列表。 例如，在购物车废弃电子邮件中，您可以包含用户离开网站时购物车中的所有产品的列表，以及图像、价格和指向每个产品的链接。
+在编辑交易电子邮件的内容时，您可以创建引用一个或多个数据集合的产品列表。 例如，在购物车放弃电子邮件中，您可以包含用户离开网站时购物车中的所有产品的列表，以及图像、价格和指向每个产品的链接。
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
@@ -37,9 +37,9 @@ ht-degree: 82%
 在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
 
 1. 在事务型消息中，单击 **[!UICONTROL Content]** 块以修改电子邮件的内容。
-1. 将结构组件拖放到工作区。有关此内容的详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将结构组件拖放到工作区。有关详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关此内容的详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 1. 选择之前创建的结构组件，然后单击上下文工具栏中的 **[!UICONTROL Enable product listing]** 图标。
 
@@ -129,7 +129,7 @@ ht-degree: 82%
 
    如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
 
-1. 在“设置”窗格中，编辑产品清单的样式。有关此方面的详细信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
+1. 在“设置”窗格中，编辑产品清单的样式。有关详细信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
 1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)
