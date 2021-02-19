@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 关于服务订阅者的增量查询
-description: 以下示例演示如何配置增量查询活动以筛选服务的订阅者。
+description: 以下示例演示如何配置增量查询活动以过滤服务的订阅者。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -28,7 +28,7 @@ ht-degree: 67%
 
    ![](assets/incremental_query_example2.png)
 
-* 一个[增量查询](../../automating/using/incremental-query.md)活动，在第一次执行期间目标所有当前订户，然后在以下执行期间仅该周的新订户。
+* 一个[增量查询](../../automating/using/incremental-query.md)活动，它在第一次执行期间目标所有当前用户，然后在以下执行期间仅该周的新用户。
 
    ![](assets/incremental_query_example3.png)
 
