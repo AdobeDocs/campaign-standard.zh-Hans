@@ -16,7 +16,7 @@ ht-degree: 83%
 ---
 
 
-# 位置{#segmentation-on-location}上的分段
+# 位置{#segmentation-on-location}的分段
 
 您可以向客户发送定向电子邮件，并提供当地商店的优惠。
 
@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## 创建分段活动{#creating-a-segmentation-activity}
 
-1. 拖放[Segmentation](../../automating/using/segmentation.md)活动，然后多次单击它。
+1. 拖放[分段](../../automating/using/segmentation.md)活动，然后多次单击它。
 1. 单击区段，然后打开过渡以定向第一个城市的人群。在本例中，为“Boston”。
 1. 拖放 **[!UICONTROL Location]** 并选择 **[!UICONTROL City]** 和运算符 **[!UICONTROL equals to]**，同时选择值 **[!UICONTROL Boston]**。
 注意：要联系所有进入波士顿的人员，请取消选中“区分大小写”选项。
