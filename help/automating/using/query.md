@@ -96,7 +96,7 @@ ht-degree: 95%
 
 默认情况下，会设置定向维度和资源以定向用户档案。但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
 
-有关此的详细信息，请参阅此用例：[使用与定位维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+有关此内容的详细信息，请参阅此用例：[使用与定位维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 扩充数据{#enriching-data}
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 >
 >查询的 **[!UICONTROL Advanced options]** 选项卡中的 **[!UICONTROL Additional data]** 默认勾选 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 选项。出于性能上的考虑，如果 **[!UICONTROL Query]** 活动包含大量（100 以上）已定义的附加数据，则建议取消勾选此选项。请注意，取消勾选此选项可能会导致获取重复项，具体情况取决于查询的数据。
 
-有关如何使用额外数据个性化电子邮件的用例，请参见[本节](../../automating/using/personalizing-email-with-additional-data.md)。
+[本节](../../automating/using/personalizing-email-with-additional-data.md)介绍了如何使用额外数据个性化电子邮件的使用案例。
 
 ### 添加简单字段{#adding-a-simple-field}
 
