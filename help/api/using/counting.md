@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 计数
 
-Adobe CampaignREST API可以计算请求中的记录数。 为此，请使用在&#x200B;**count**&#x200B;节点中返回的URL。
+Adobe Campaign REST API可以计数请求中的记录数。 为此，请使用在&#x200B;**count**&#x200B;节点中返回的URL。
 
 <br/>
 
