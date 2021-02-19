@@ -19,15 +19,15 @@ ht-degree: 1%
 
 ## 检索过滤器元数据
 
-过滤器适用于每个资源。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 有关元数据的详细信息，请参阅[此部分](../../api/using/metadata-mechanism.md)。
+过滤器适用于每个资源。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求返回为给定资源定义所有过滤器的URL。 有关元数据的详细信息，请参阅[本节](../../api/using/metadata-mechanism.md)。
 
-要识别筛选器的元数据并确定如何使用它，您必须对先前返回的URL执行GET请求。
+要标识过滤器的元数据并确定如何使用它，您必须对以前返回的URL执行GET请求。
 
 <br/>
 
 ***示例请求***
 
-以下示例负载显示如何检索“用户档案”资源的“byText”过滤器元数据。 首先对“GET”资源元数据执行用户档案请求。
+以下示例负载说明如何检索“用户档案”资源的“byText”过滤器元数据。 首先对“GET”资源元数据执行用户档案请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -47,7 +47,7 @@ ht-degree: 1%
   }
 ```
 
-对URL执行GET请求。 它返回列表资源的过滤器用户档案，并且每个筛选器都关联了元数据。
+对URL执行GET请求。 它返回用户档案资源的过滤器列表，并且每个过滤器都关联元数据。
 
 ```
 {
@@ -64,11 +64,11 @@ ht-degree: 1%
 
 ## 过滤器元数据结构
 
-每个筛选器都可以使用相同的元数据结构：
+每个筛选器都有相同的元数据结构：
 
-* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;字段是技术字段。
+* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;字段为技术字段。
 * **data**&#x200B;字段提供有关如何使用过滤器的示例。
-* **metadata**&#x200B;节点描述过滤器参数。
+* **metadata**&#x200B;节点描述筛选器参数。
 * **condition**&#x200B;节点描述过滤器的用途。 元数据节点中描述的筛选器参数用于创建筛选器条件。 对于每个过滤器条件，如果&#x200B;**enabledIf**&#x200B;为true，则将应用&#x200B;**expr**。
 
 <br/>
@@ -89,11 +89,11 @@ ht-degree: 1%
 
 ## 使用过滤器
 
-对以下请求执行筛选：
+对以下请求执行过滤：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-可以在单个请求中合并多个过滤器:
+可以在单个请求中组合多个过滤器:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ***示例请求***
 
-* 检索类型为“email”的“服务”资源的示例GET请求。
+* 检索“email”类型的“service”资源的示例GET请求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,8 +133,8 @@ ht-degree: 1%
    }
    ```
 
-* 检索包含“Doe”的“GET”资源的示例用户档案请求
-电子邮件或姓氏字段（byText过滤器会搜索电子邮件和姓氏字段）。
+* 检索包含“Doe”的“用户档案”资源的示例GET请求
+“电子邮件”或“姓氏”字段（byText过滤器可搜索电子邮件和姓氏字段）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -162,7 +162,7 @@ ht-degree: 1%
    }
    ```
 
-* GET请求示例，用于检索类型为“email”且标签为“sport”的服务资源。
+* 用于检索服务资源的示例GET请求，类型为“email”，标签为“sport”。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -200,16 +200,16 @@ ht-degree: 1%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有关此内容的详细信息，请参阅Campaign Standard文档：
+有关详细信息，请参阅Campaign Standard文档：
 
 * [配置过滤器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [用例：使用复合标识密钥调用资源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+* [用例：使用复合标识键调用资源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
 ***示例请求***
 
-GET请求示例：检索事务处理金额为100$或更多的“用户档案”资源。 请注意，“byAmount”过滤器首先在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
+GET请求示例，用于检索事务处理金额为100$或更多的“用户档案”资源。 请注意，“byAmount”过滤器是先在Adobe Campaign Standard界面中定义的，并链接到“Transaction”自定义表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
