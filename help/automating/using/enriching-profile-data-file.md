@@ -24,7 +24,7 @@ ht-degree: 78%
 
 ![](assets/enrichment_example_workflow.png)
 
-* [查询](../../automating/using/query.md)活动,目标将接收消息的用户档案。
+* 一个[查询](../../automating/using/query.md)活动，用于目标将接收消息的用户档案。
 * 加载购买数据的[文件](../../automating/using/load-file.md)活动。 例如：
 
    ```
@@ -39,7 +39,7 @@ ht-degree: 78%
 
    对于此示例文件，我们将使用电子邮件地址，将数据与数据库用户档案进行协调。您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* 一个[扩充](../../automating/using/enrichment.md)活动，它在从文件加载的事务数据和在&#x200B;**[!UICONTROL Query]**&#x200B;中选择的用户档案之间创建链接。 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
+* 一个[扩充](../../automating/using/enrichment.md)活动，在从文件加载的事务数据和在&#x200B;**[!UICONTROL Query]**&#x200B;中选择的用户档案之间创建链接。 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
 
    ![](assets/enrichment_example_workflow2.png)
 
