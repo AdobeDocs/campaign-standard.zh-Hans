@@ -32,7 +32,7 @@ ht-degree: 92%
 
 **相关主题：**
 
-* [用例：根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例：基于自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
 
 ## 配置{#configuration}
 
@@ -165,13 +165,13 @@ ht-degree: 92%
 
 ## 输出变量{#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;活动生成事件变量作为输出，您可以在其他活动中利用它，例如，使用[Test](../../automating/using/test.md)活动检查下载的文件数。
+**[!UICONTROL Transfer file]**&#x200B;活动生成事件变量作为输出，您可以在其他活动中利用这些变量，例如，使用[Test](../../automating/using/test.md)活动检查下载的文件数。
 
 请注意，事件变量也可以使用外部信号传递到另一个工作流（请参阅[使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 可用的输出变量有：
 
-* **[!UICONTROL fileName]**:传输文件的名称。
+* **[!UICONTROL fileName]**:已传输文件的名称。
 * **[!UICONTROL filesCount]**:传输的文件数。
 
 
