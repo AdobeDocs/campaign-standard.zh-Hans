@@ -32,8 +32,8 @@ ht-degree: 90%
 
 使用图标；
 
-* ![](assets/timeline_zoom_in.png) 在显示天数之前，减少周长或增加细节级别，期限更短
-* ![](assets/timeline_zoom_out.png) 增加周长，或显示更大的时间范围
+* ![](assets/timeline_zoom_in.png) 减少周长，或在显示天数之前，在更有限的时间段内增加细节级别
+* ![](assets/timeline_zoom_out.png) 增加周长，或显示更长的时间范围
 
 单击每个项目名称右侧的箭头，可显示相应的内容。项目可以包含子项目、营销策划和登陆页面。营销策划的部署方式与项目相同，可包含电子邮件、短信和登陆页面。
 
