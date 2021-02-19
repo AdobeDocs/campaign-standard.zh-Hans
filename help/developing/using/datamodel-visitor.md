@@ -26,7 +26,7 @@ ht-degree: 5%
         <th>明细列表值</th>
     </tr>
     <tr>
-        <td>PKey</td>
+        <td>PK</td>
         <td>主资源ID</td>
         <td>字符串 </td>
         <td> </td>
@@ -57,7 +57,7 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>上一个投放的ID</td>
+        <td>最后一个投放的ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
@@ -127,8 +127,8 @@ ht-degree: 5%
         <td>明细列表（字节） </td>
         <td>
             <ul>
-            <li>未定义——未定义- 0</li>
-            <li>无效值- __Invalid_value__ - __Invalid_value__</li>
+            <li>未定义 — 未定义 — 0</li>
+            <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
