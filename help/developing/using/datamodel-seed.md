@@ -26,14 +26,14 @@ ht-degree: 9%
                   <th>明细列表值</th>
                </tr>
                <tr>
-                  <td>PKey</td>
+                  <td>PK</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>国家／地区（国家／地区）</td>
-                  <td>国家／地区</td>
+                  <td>国家/地区（国家）</td>
+                  <td>国家/地区</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -94,7 +94,7 @@ ht-degree: 9%
                <tr>
                   <td>位置</td>
                   <td>位置</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,11 +106,11 @@ ht-degree: 9%
                <tr>
                   <td>mobileApp</td>
                   <td>移动应用程序</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>移动电话</td>
+                  <td>mobilePhone</td>
                   <td>手机</td>
                   <td>字符串(32)</td>
                   <td> </td>
@@ -130,13 +130,13 @@ ht-degree: 9%
                <tr>
                   <td>nms_收件人</td>
                   <td>用户档案</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>事件</td>
-                  <td>物料 </td>
+                  <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,7 +164,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>注册令牌</td>
+                  <td>registrationToken</td>
                   <td>注册令牌</td>
                   <td>string(256)</td>
                   <td> </td>
@@ -182,7 +182,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink（状态）</td>
+                  <td>stateLink(state)</td>
                   <td>州</td>
                   <td>链接 </td>
                   <td> </td>
