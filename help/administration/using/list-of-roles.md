@@ -30,7 +30,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >如果您需要使用Experience Cloud触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;权限才能访问Experience Cloud触发器菜单。 有关Experience Cloud触发器的详细信息，请参阅此[页面](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
+   >如果您需要使用Experience Cloud触发器，则需要右&#x200B;**[!UICONTROL Administration]**&#x200B;才能访问Experience Cloud触发器菜单。 有关Experience Cloud触发器的详细信息，请参阅此[页面](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
 
 * **[!UICONTROL Datamodel]**：有权运行发布和创建自定义资源。
 * **[!UICONTROL Generic import]**：有权执行一般数据导入。要使其生效，您需要将 **[!UICONTROL Generic import]** 角色链接到 **[!UICONTROL Workflow]** 角色。
