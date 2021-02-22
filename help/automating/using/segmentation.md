@@ -88,6 +88,7 @@ ht-degree: 92%
       >[!NOTE]
       >
       >可以对每个值使用不同的限制。例如，您可以为 **[!UICONTROL Gender]** 字段指定分组，并将 **[!UICONTROL Male]** 成员的群体限制为 10 人，将 **[!UICONTROL Female]** 成员的群体限制为 30 人。如果您使用多个数据分组字段，则所有分组必须具有相同的大小。
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 确认区段的配置。

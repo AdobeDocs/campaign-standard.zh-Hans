@@ -86,7 +86,8 @@ Adobe Campaign 可根据投放失败类型和在错误消息鉴别过程中分�
 如果某个用户将电子邮件标记为垃圾邮件（**反馈机制**），则该邮件会自动重定向到由 Campaign 管理的技术邮箱。随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL On denylist]** 状态。此状态仅指地址，用户档案不在阻止列表上，因此用户继续接收SMS消息和推送通知。
 
 >[!NOTE]
-Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
+>
+>Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
 
 隔离地址列表（请参阅[确定整个平台的隔离地址](#identifying-quarantined-addresses-for-the-entire-platform)）中的&#x200B;**[!UICONTROL Error reason]** 字段，说明了将选定地址置于隔离状态的原因。
 
