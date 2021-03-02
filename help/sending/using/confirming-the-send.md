@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
+source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 20%
+source-wordcount: '942'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 您完成准备消息并执行批准步骤后，即可发送消息。有关消息准备的更多信息，请参阅[准备发送](../../sending/using/preparing-the-send.md)。
 
-只有具有 **[!UICONTROL Start deliveries]** 角色的用户才能确认发送。有关更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
+只有具有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的用户才能确认发送。 有关更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
 <!--Users without this role will see the following message: 
 
@@ -42,9 +42,9 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->如果为消息安排了发送时间，则会在到达该时间时发送消息。有关计划发送消息的更多信息，请参阅[此章节](../../sending/using/about-scheduling-messages.md)。
+>如果消息已计划，则在到达发送时间时发送消息。 有关计划发送消息的更多信息，请参阅[此章节](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用的是没有聚合期的定期投放，则可以在发送投放之前请求确认。为此，在配置消息时，请打开投放仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;块并激活专用选项。
+如果您使用的是没有聚合期的定期投放，则可以在发送投放之前请求确认。配置消息时，打开投放仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;块并激活专用选项。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ ht-degree: 20%
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新时间过长或未考虑发送日志的结果，请单击&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮。
+如果KPI更新时间过长或未反映发送日志的结果，请单击&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮。
 
 ![](assets/sending_delivery7.png)
 
@@ -94,7 +94,7 @@ ht-degree: 20%
 
 * 否则，状态变化为&#x200B;**[!UICONTROL Failed]**&#x200B;并相应地降低&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
 
-因此，您应等到有效期结束时再查看最终&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比，以及实际&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;消息的最终数。
+因此，您必须等到有效期结束才能看到最终&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比以及最终的&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;消息数。
 
 ### 电子邮件反馈服务（测试版）{#email-feedback-service}
 
@@ -112,7 +112,7 @@ ht-degree: 20%
 
 ![](assets/efs-pending.png)
 
-当消息实际传递到目标用户档案，并且从增强的MTA实时报告此信息后，投放日志将显示成功接收消息的每个地址的&#x200B;**[!UICONTROL Sent]**&#x200B;状态。 每次成功投放,**[!UICONTROL Delivered]**&#x200B;百分比都相应增加。
+当从增强的MTA实时报告到目标用户档案的消息投放时，投放日志显示成功接收消息的每个地址的&#x200B;**[!UICONTROL Sent]**&#x200B;状态。 每次成功投放,**[!UICONTROL Delivered]**&#x200B;百分比都相应增加。
 
 当硬弹回消息从增强的MTA中报告回来时，其日志状态从&#x200B;**[!UICONTROL Pending]**&#x200B;变为&#x200B;**[!UICONTROL Failed]**，并相应地增加&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比。
 
@@ -132,12 +132,24 @@ ht-degree: 20%
 
 ### EFS {#changes-introduced-by-efs}引入的更改
 
-下表显示了EFS功能引入的KPI和发送日志状态的更改。
+下表显示EFS功能引入的KPI和发送日志状态的更改。
 
-| 发送进程中的步骤<br> | KPI摘要<br>无EFS | 发送日志状态<br>无EFS | KPI摘要<br>带有EFS | 发送日志状态<br>WITH EFS |
-|--- |--- |--- | --- | --- |
-| 消息从活动成功中继到增强的MTA | <ul><li>**[!UICONTROL Delivered]** 100%的开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 以0%的百分比开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 待定 |
-| 硬弹回消息从增强的MTA中返回报告 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
-| 从增强的MTA返回软弹跳消息报告 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
-| 软弹回消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 | <ul><li>**[!UICONTROL Delivered]** 百分比相应增加</li><li>**[!UICONTROL Bounces + errors]** 百分比相应减少</li></ul> | 已发送 |
-| 软弹回消息重试失败 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比没有变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化 </li></ul> | 失败 |
+**通过电子邮件反馈服务**
+
+| 发送过程中的步骤 | KPI摘要 | 发送日志状态 |
+|--- |--- |--- |
+| 消息从活动成功中继到增强的MTA | <ul><li>**[!UICONTROL Delivered]** 以0%的百分比开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 待定 |
+| 硬弹回消息从增强的MTA中返回报告 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
+| 从增强的MTA返回软弹跳消息报告 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
+| 软弹回消息重试成功 | <ul><li>**[!UICONTROL Delivered]** 百分比相应增加</li><li>**[!UICONTROL Bounces + errors]** 百分比相应减少</li></ul> | 已发送 |
+| 软弹回消息重试失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比没有变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化 </li></ul> | 失败 |
+
+**无电子邮件反馈服务**
+
+| 发送过程中的步骤 | KPI摘要 | 发送日志状态 |
+|--- |--- |--- |
+| 消息从活动成功中继到增强的MTA | <ul><li>**[!UICONTROL Delivered]** 100%的开始</li><li>**[!UICONTROL Bounces + errors]** 以0%的百分比开始</li></ul> | 已发送 |
+| 硬弹回消息从增强的MTA中返回报告 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
+| 从增强的MTA返回软弹跳消息报告 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 |
+| 软弹回消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比没有变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比没有变化</li></ul> | 已发送 |
+| 软弹回消息重试失败 | <ul><li>**[!UICONTROL Delivered]** 百分比相应减少</li><li>**[!UICONTROL Bounces + errors]** 百分比相应增加</li></ul> | 失败 |
