@@ -6,9 +6,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365的集成支持CRM系统中所�
 
 支持票证可以通过Adobe客户关怀记录。
 
-对于集成数据流中的任何问题，请确保在问题描述中包含报表包以及以下信息：
+对于集成数据流的任何问题，请确保包括以下信息：
 
 * **流程所有者**:工程设计师
 * **ES进程ID**:在入职过程中提供
