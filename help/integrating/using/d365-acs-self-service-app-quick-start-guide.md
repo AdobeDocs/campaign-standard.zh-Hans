@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -52,9 +52,9 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序�
 
 打开浏览器并浏览到与您的区域关联的连接器：
 
-* [亚太地区](http://d365-acs-ap.ea.adobe.com/)
-* [欧洲、中东或非洲(EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [美洲](http://d365-acs-na.ea.adobe.com/)
+* [亚太地区](https://d365-acs-ap.ea.adobe.com/)
+* [欧洲、中东或非洲(EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [美洲](https://d365-acs-am.ea.adobe.com/)
 
 ## 隐私请求确认{#self-service-app-acknowledgement}
 
