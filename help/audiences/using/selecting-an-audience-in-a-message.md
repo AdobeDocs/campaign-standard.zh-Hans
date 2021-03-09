@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +39,15 @@ ht-degree: 83%
 
 1. 定义电子邮件的主 **[!UICONTROL Target]**。这是电子邮件的常规目标受众。
 
-   目标在 **[!UICONTROL Target]** 选项卡中定义，由数据库中已标识的用户档案组成。
-
-   您可以使用[查询编辑器](../../automating/using/editing-queries.md#creating-queries)功能构建主目标。
+   目标在 **[!UICONTROL Target]** 选项卡中定义，由数据库中已标识的用户档案组成。您可以使用[查询编辑器](../../automating/using/editing-queries.md#creating-queries)功能构建主目标。
 
    在此选项卡中，**[!UICONTROL Shortcuts]** 面板仅包含预定义过滤器和已标识档案中已定义的受众。利用 **[!UICONTROL Explorer]** 选项卡，可访问其他配置。
 
    这样，您就可以重复利用和组合现有受众，并进行对其应用附加过滤器等操作。
+
+   >[!NOTE]
+   >
+   >定位受众时，请注意，未引用受众的定义，而将&#x200B;**复制**&#x200B;到查询中。 如果在受众定位到查询后对查询进行了任何更改，请确保再次配置该以考虑新定义。
 
 1. 定义您想要用于电子邮件的 **[!UICONTROL Test profiles]**。测试用户档案将收到您之前发送的校样，以在将电子邮件发送到主目标之前对其进行测试。
 
