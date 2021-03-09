@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 
 因此，作为收集和共享个人数据的公司，您是数据控制者，您的客户是数据主体，Adobe Campaign 在按照您的指示处理其个人数据时充当数据处理者。请注意，作为数据控制者，您责任处理与数据主体的关系，例如管理[隐私请求](#privacy-requests)。
 
-在将 Campaign 与受众可从一个系统转移到另一个系统的其他 Experience Cloud 解决方案（例如 [Audience Destinations 服务](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager 或 People 核心服务](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)）或与掐解决方案（例如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)）集成时，需要格外注意个人数据保护。
+在将 Campaign 与受众可从一个系统转移到另一个系统的其他 Experience Cloud 解决方案（例如 [Audience Destinations 服务](../../integrating/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager 或 People 核心服务](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)）或与掐解决方案（例如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)）集成时，需要格外注意个人数据保护。
 
 ## 数据采集 {#data-acquisition}
 
