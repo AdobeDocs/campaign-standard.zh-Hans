@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 95%
    有关更多信息，请参阅[定向维度和资源](#targeting-dimensions-and-resources)。
 
 1. 在 **[!UICONTROL Target]** 选项卡中，可通过定义和组合规则来运行查询。
+
+   >[!NOTE]
+   >
+   >定位受众时，请注意，未引用受众的定义，而将&#x200B;**复制**&#x200B;到查询中。 如果在受众定位到查询后对查询进行了任何更改，请确保再次配置该以考虑新定义。
+
 1. 您可以通过专用选项卡定义针对定向群体的 **[!UICONTROL Additional data]**。此数据存储在附加的列中，并且只能用于正在进行的工作流。而且，您还可以从链接到查询定向维度的 Adobe Campaign 查询数据库表格添加数据。请参阅[扩充数据](#enriching-data)一节。
 
    >[!NOTE]
