@@ -7,9 +7,9 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 breadcrumb-title: 帮助中心
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [关于 Campaign 中的选择启用和选择禁用](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的选择启用和选择禁用](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [为投放确定选择禁用的用户档案](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [关于 Audience Destinations 服务](audiences/using/aep-about-audience-destinations-service.md)
-      + [管理 Adobe Experience Platform 受众](audiences/using/aep-managing-audiences.md)
-      + [使用 Segment Builder](audiences/using/aep-using-segment-builder.md)
 + 通信渠道 {#communication-channels}
    + [通信渠道入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [管理同步工作流](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 与 Campaign 之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
+   + 活动和Adobe Experience Platform {#adobe-experience-platform}
+      + 受众目标服务{#audience-destinations}
+         + [关于 Audience Destinations 服务](integrating/using/aep-about-audience-destinations-service.md)
+         + [管理 Adobe Experience Platform 受众](integrating/using/aep-managing-audiences.md)
+         + [使用 Segment Builder](integrating/using/aep-using-segment-builder.md)
+         + [定向 Adobe Experience Platform 受众](integrating/using/aep-targeting-audiences.md)
+         + [使用 Adobe Experience Platform 属性个性化营销策划](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [关于 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Experience Platform 数据模型概述](integrating/using/aep-data-model-overview.md)
+         + [映射定义](integrating/using/aep-mapping-definition.md)
+         + [映射激活](integrating/using/aep-mapping-activation.md)
+         + [通过 API 触发数据摄取](integrating/using/aep-triggering-data-ingestion.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + [数据和流程管理快速入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [在外部文件中导出用户档案](automating/using/exporting-profiles-in-file.md)
          + [从文件更新多个订阅状态](automating/using/updating-subscriptions-from-file.md)
          + [将用户档案从文件订阅到特定服务](automating/using/subscribing-profiles-from-file.md)
-   + 使用 Adobe Experience Platform 受众 {#working-with-aep-audiences}
-      + [定向 Adobe Experience Platform 受众](automating/using/aep-targeting-audiences.md)
-      + [使用 Adobe Experience Platform 属性个性化营销策划](automating/using/aep-personalizing-campaigns.md)
 + 开发 {#developing}
    + [Campaign Standard 数据模型快速入门](developing/using/get-started-data-model.md)
    + 关于自定义资源 {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [跟踪日志](developing/using/datamodel-tracking.md)
       + [退订事件](developing/using/datamodel-unsubscription.md)
       + [访客](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [关于 Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Experience Platform 数据模型概述](developing/using/aep-data-model-overview.md)
-      + [映射定义](developing/using/aep-mapping-definition.md)
-      + [映射激活](developing/using/aep-mapping-activation.md)
-      + [通过 API 触发数据摄取](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
    + [Campaign Standard 管理快速入门](administration/using/get-started-campaign-administration.md)
    + [监控准则](administration/using/monitoring-guidelines.md)
