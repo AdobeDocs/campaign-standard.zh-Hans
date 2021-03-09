@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6616'
 ht-degree: 97%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
-## 2021 年 2 月 {#doc-updates-february-2021}
+## 2021 年 3 月 {#doc-updates-march-2021}
 
-添加了有关如何确保在先前执行中的一个或多个任务仍处于待定状态之前，不会重新计划工作流的信息。 [阅读更多](../../automating/using/scheduled-workflows-execution.md)
+已添加信息，以指定在查询中选择au受众时，其定义将被复制而不被引用。 [阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+与受众目标服务和Adobe Experience Platform Data Connector相关的信息已重新分组到新部分。 [阅读更多](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
 
@@ -42,6 +44,8 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 已添加有关在使用 **[!UICONTROL Transfer file]** 活动后可用的新 **[!UICONTROL filesCount]** 输出变量的信息。[阅读更多](../../automating/using/transfer-file.md#output-variables)
 
 **配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。页面底部列出了某些客户仍在使用的旧版参数。 [阅读更多](../../administration/using/configuring-email-channel.md)
+
+添加了有关如何确保在先前执行中的一个或多个任务仍处于待定状态之前，不会重新计划工作流的信息。 [阅读更多](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
@@ -71,7 +75,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **事务消息**&#x200B;部分已重新组织并收集到一个位置，以改进导航。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../developing/using/aep-mapping-activation.md)
+在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../integrating/using/aep-mapping-activation.md)
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -173,7 +177,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 文档主页添加了其他资源。[了解更多](../../campaign-standard-home.md)
 
-Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。[了解更多](../../developing/using/aep-about-data-connector.md#key-concepts)
+Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。[了解更多](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 改进了“事务性消息传递”部分，包含有关如何访问最新事务性事件和已更新的屏幕截图的信息。[了解更多](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 **此版本中包含的新增功能**
 
-Adobe Experience Platform Data Connector (beta) - [了解更多](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta) - [了解更多](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (beta) - [了解更多](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **随版本提供的其他文档更新**
 
