@@ -6,11 +6,11 @@ description: 此页面详细描述最新 Campaign Standard 版本的内容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * 使用外部参数调用工作流后，在使用事件变量的活动中现在有新的 **GetOption** 函数可用。通过该函数可返回指定函数的值。[了解详情](../../automating/using/customizing-workflow-external-parameters.md)
 
-* 新选项允许Campaign Standard在启动工作流之前检查系统上的物理内存&#x200B;**可用性。**&#x200B;如果内存量太低，则工作流执行将延迟，直到系统内存达到此阈值。这可避免性能进一步降低，并减轻中断的风险。一旦服务器上的负载下降且内存增加，工作流程就将自动恢复。请注意，此选项为只读，无法修改。[了解详情](../../automating/using/best-practices-workflows.md#execution)
+* 通过新选项，Campaign Standard 可在启动工作流之前&#x200B;**检查系统上可用的物理内存**。如果内存量太低，则工作流执行将延迟，直到系统内存达到此阈值。这可避免性能进一步降低，并减轻中断的风险。一旦服务器上的负载下降且内存增加，工作流程就将自动恢复。请注意，此选项为只读，无法修改。[了解详情](../../automating/using/best-practices-workflows.md#execution)
 
 * 在 Adobe Campaign Standard 中提供了一个新流程，通过该流程可更轻松地从传统 SDK v4 移动应用程序迁移到 **Adobe Experience Platform Mobile SDK**。请参见[此页面](../../administration/using/sdkv4-migration.md)。
 
