@@ -296,7 +296,7 @@ ht-degree: 99%
       + [监视工作流执行](automating/using/monitoring-workflow-execution.md)
       + [管理执行选项](automating/using/managing-execution-options.md)
       + [管理活动属性](automating/using/activity-properties.md)
-      + [计划工作流的重叠执行](automating/using/scheduled-workflows-execution.md)
+      + [预定工作流的重叠执行](automating/using/scheduled-workflows-execution.md)
    + 使用外部参数调用工作流 {#calling-workflow-external-parameters}
       + [概述](automating/using/calling-a-workflow-with-external-parameters.md)
       + [声明外部信号活动中的参数](automating/using/declaring-parameters-external-signal.md)
