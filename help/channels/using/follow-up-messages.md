@@ -6,11 +6,14 @@ description: 了解如何创建、管理和发送后续消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
+feature: 交易消息传递
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 2%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
