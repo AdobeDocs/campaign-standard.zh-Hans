@@ -6,11 +6,14 @@ description: 了解如何在内容编辑器或电子邮件设计器中预览消�
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: 种子地址
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 15%
+source-wordcount: '629'
+ht-degree: 14%
 
 ---
 
