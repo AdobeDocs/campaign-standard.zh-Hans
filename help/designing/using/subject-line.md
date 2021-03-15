@@ -6,10 +6,13 @@ description: 了解如何在电子邮件设计器中定义电子邮件的主题�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 电子邮件设计
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
