@@ -6,11 +6,14 @@ description: 请按照以下步骤进行操作，以使用 Adobe Campaign 创建
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: 概述
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '178'
+ht-degree: 91%
 
 ---
 
