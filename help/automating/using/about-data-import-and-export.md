@@ -6,10 +6,13 @@ description: 了解使用Adobe Campaign导入和导出数据的不同方式。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: 工作流
+role: 数据架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 24%
 
 ---
