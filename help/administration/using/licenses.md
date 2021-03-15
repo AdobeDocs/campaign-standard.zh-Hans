@@ -6,10 +6,13 @@ description: 了解有关实例中安装的许可证的更多信息。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 访问管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
