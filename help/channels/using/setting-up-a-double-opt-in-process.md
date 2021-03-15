@@ -6,10 +6,13 @@ description: 请在 Adobe Campaign 中按照以下步骤操作，使用登陆页
 audience: channels
 content-type: reference
 topic-tags: landing-pages
+feature: 登陆页面
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1155'
 ht-degree: 90%
 
 ---
