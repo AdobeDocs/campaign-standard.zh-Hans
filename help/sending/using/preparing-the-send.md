@@ -6,10 +6,13 @@ description: 了解如何在发送前定义准备。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: 发送时间优化
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
