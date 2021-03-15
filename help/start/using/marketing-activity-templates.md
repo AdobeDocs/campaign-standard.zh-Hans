@@ -6,11 +6,14 @@ description: “利用 Adobe Campaign 模板，可根据需要预配置参数：
 audience: start
 content-type: reference
 topic-tags: managing-templates
+feature: 营销策划
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 99%
 
 ---
 
