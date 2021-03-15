@@ -4,18 +4,21 @@ description: 了解如何为Microsoft Dynamics 365集成配置Adobe IO。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM集成
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
 
 
-# Adobe Campaign Standard和Adobe I/O配置，用于Microsoft Dynamics 365集成
+# Adobe Campaign Standard和Adobe I/O Configuration for Microsoft Dynamics 365 integration
 
-本文将说明如何配置Adobe Campaign Standard和Adobe I/O，以使集成应用程序能够访问数据。
+本文将说明如何配置Adobe Campaign Standard和Adobe I/O，以便让集成应用程序访问数据。
 
 ## 配置Adobe Campaign Standard {#campaign-standard}
 
@@ -29,7 +32,7 @@ ht-degree: 2%
 
 ## 配置 Adobe I/O {#adobe-io}
 
-Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便让Adobe Campaign Standard与Microsoft Dynamics 365集成，以同步数据。
+Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便让Adobe Campaign Standard与Microsoft Dynamics 365集成访问以同步数据。
 
 ### 概述
 
