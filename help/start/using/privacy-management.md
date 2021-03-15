@@ -6,11 +6,14 @@ description: 详细了解用于管理隐私的 Adobe Campaign Standard 功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: 隐私
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 99%
 
 ---
 
