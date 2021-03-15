@@ -6,10 +6,13 @@ description: 本页列出了所有 2018 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概述
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5406'
 ht-degree: 4%
 
 ---
