@@ -6,10 +6,13 @@ description: 了解如何根据自定义用户档案数据创建自定义用户�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 报告
+role: 领导者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '816'
 ht-degree: 5%
 
 ---
