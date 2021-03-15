@@ -6,11 +6,14 @@ description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概述
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
-ht-degree: 97%
+source-wordcount: '6620'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +32,7 @@ ht-degree: 97%
 
 **此版本中包含的新增功能**
 
-电子邮件反馈服务 — [阅读更多](../../sending/using/confirming-the-send.md#message-indicators)
+电子邮件反馈服务 - [阅读更多](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -43,17 +46,17 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 已添加有关在使用 **[!UICONTROL Transfer file]** 活动后可用的新 **[!UICONTROL filesCount]** 输出变量的信息。[阅读更多](../../automating/using/transfer-file.md#output-variables)
 
-**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。页面底部列出了某些客户仍在使用的旧版参数。 [阅读更多](../../administration/using/configuring-email-channel.md)
+**配置电子邮件渠道**&#x200B;部分已更新，以明确最新的适用电子邮件设置。页面底部列出了某些客户仍在使用的一些旧参数。[阅读更多](../../administration/using/configuring-email-channel.md)
 
-添加了有关如何确保在先前执行中的一个或多个任务仍处于待定状态之前，不会重新计划工作流的信息。 [阅读更多](../../automating/using/scheduled-workflows-execution.md)
+添加了相关信息以说明如何确保只有在先前执行的一个或多个任务仍未完成时才会重新安排预定的工作流。[阅读更多](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
 现已弃用&#x200B;**预测主题行**。[阅读更多](../../rn/using/deprecated-features.md)
 
-**事务消息**&#x200B;入门部分现在包括[增强的模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地了解该过程。
+**开始使用事务性消息**&#x200B;部分现在包括[增强的模式](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地了解该过程。
 
-现在提供了用于说明事务消息传递实施过程的端到端用例。 [阅读更多](../../channels/using/transactional-messaging-use-case.md)
+现提供一个用于说明事务性消息传递实施过程的端到端用例。[阅读更多](../../channels/using/transactional-messaging-use-case.md)
 
 **隐私**&#x200B;部分已移至[此处](../../start/using/privacy.md)。
 
@@ -67,13 +70,13 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 ## 2020 年 11 月{#doc-updates-november-2020}
 
-**个人数据和角色**&#x200B;部分已使用用例方案进行更新，以说明不同角色在隐私方面如何互动。 [阅读更多](../../start/using/privacy.md#use-case-scenario)
+**个人数据和角色**&#x200B;部分已使用用例场景进行更新，以说明不同角色在隐私方面如何进行交互。[阅读更多](../../start/using/privacy.md#use-case-scenario)
 
 新增了一个部分，其中列出有关隐私的常见问题解答。[阅读更多](../../start/using/privacy-faq.md)
 
-**隐私**&#x200B;部分已移动，并且包含两个新页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
+**隐私**&#x200B;部分已移动并新增两个页面：[隐私管理](../../start/using/privacy-management.md)和[管理隐私请求](../../start/using/privacy-requests.md)。
 
-**事务消息**&#x200B;部分已重新组织并收集到一个位置，以改进导航。 [阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
+**事务性消息**&#x200B;部分已重新组织并汇集到一处，以改进导航。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
 在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../integrating/using/aep-mapping-activation.md)
 
@@ -99,7 +102,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
-**事件事务性消息**&#x200B;部分已重新组织和澄清。 [阅读更多](../../channels/using/editing-transactional-message.md)
+已重新组织并阐明&#x200B;**事件事务性消息**&#x200B;部分。[阅读更多](../../channels/using/editing-transactional-message.md)
 
 添加了警告说明，以警告用户与日志访问权有关的权限限制。[阅读更多](../../administration/using/users-management.md)
 
@@ -115,7 +118,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 **事务性消息传递限制**&#x200B;部分已移至[此处](../../channels/using/transactional-messaging-limitations.md)。
 
-**准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md).
+**准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md)。
 
 ## 2020 年 7 月 {#doc-updates-july-2020}
 
