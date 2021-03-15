@@ -6,10 +6,13 @@ description: 在此处查找与动态报告相关的常见问题。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
+feature: 报告
+role: 领导者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '668'
 ht-degree: 5%
 
 ---
@@ -124,7 +127,7 @@ P1在第一天打开两次电子邮件，第二天打开三次。
    <td align="center"> <strong>100<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>1<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
