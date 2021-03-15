@@ -6,10 +6,13 @@ description: 在此示例中，每月的第一天晚8点会根据用户的时区
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: 工作流
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '479'
 ht-degree: 4%
 
 ---
