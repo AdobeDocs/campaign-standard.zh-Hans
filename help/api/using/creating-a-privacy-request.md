@@ -6,11 +6,14 @@ description: 了解如何使用API创建隐私请求
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
