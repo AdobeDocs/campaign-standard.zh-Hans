@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 了解与投放设计和与Adobe Campaign一起发送相关的最佳实践。
+feature: 可投放性
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '99'
 ht-degree: 8%
 
 ---
