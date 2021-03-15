@@ -6,11 +6,14 @@ description: 活动工作区基于所有Adobe Experience Cloud解决方案通用
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: 概述
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 5%
 
 ---
 
