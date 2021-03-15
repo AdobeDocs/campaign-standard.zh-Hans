@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: 工作流
+role: 数据架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -106,8 +109,7 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
    >[!NOTE]
-   >
-   >**&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
+   **&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
