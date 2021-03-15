@@ -6,10 +6,13 @@ description: 根据不同资源的发布状态来发现不同的资源状态。
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
+feature: 数据模型
+role: 开发人员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
