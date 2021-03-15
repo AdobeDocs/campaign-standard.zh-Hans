@@ -6,10 +6,13 @@ description: '了解如何使用不同的Adobe Experience Cloud解决方案将Au
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+feature: People核心服务集成
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '726'
 ht-degree: 9%
 
 ---
