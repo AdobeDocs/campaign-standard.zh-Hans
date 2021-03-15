@@ -6,10 +6,13 @@ description: 了解如何设置对Campaign Standard API的访问。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -28,7 +31,7 @@ Adobe Campaign Standard API访问通过以下步骤设置。 [AdobeIO文档](htt
 1. **从先前生成的凭据创** 建JSON Web令牌(JWT)，然后使用私钥对其进行签名。JWT对Adobe验证您的身份和授予您对API的访问权限所需的所有身份和安全信息进行编码。
 1. **通过POST请求将JWT** 交换为访问令牌。此访问令牌必须用于API请求的每个标头。
 
-要建立安全的服务到服务Adobe I/O API会话，对Adobe服务的每个请求都必须在授权标头中包含以下信息。
+要建立安全的服务对服务Adobe I/OAPI会话，对Adobe服务的每个请求都必须在授权标头中包含以下信息。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -47,7 +50,7 @@ Adobe Campaign Standard API访问通过以下步骤设置。 [AdobeIO文档](htt
 
 * **&lt;access_token>**:您的个人访问令牌，在通过POST请求交换JSON Web令牌时检索到。
 
-* **&lt;api_key>**:您的个人API密钥。它在创建与Adobe Campaign服务的新集成后在Adobe I/O中提供。
+* **&lt;api_key>**:您的个人API密钥。它在创建与Adobe Campaign服务的新集成后以Adobe I/O形式提供。
 
    ![替换文本](assets/tenant.png)
 
