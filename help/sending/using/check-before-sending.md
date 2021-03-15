@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: “在您的消息准备就绪后，了解如何在发送前执行所有检查”
+feature: 可投放性
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 16%
+source-wordcount: '414'
+ht-degree: 15%
 
 ---
 
