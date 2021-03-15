@@ -6,11 +6,14 @@ description: 了解如何根据自动分段客户的首选语言，通过单次�
 audience: start
 content-type: reference
 topic-tags: managing-templates
+feature: 多语言消息
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 98%
 
 ---
 
