@@ -6,10 +6,13 @@ description: 定义目标人群、选择受众、筛选收件人、收集数据�
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
+feature: 用户档案
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 20%
 
 ---
