@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: 工作流
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +67,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
-
    在更新期间保存或可用的受众类型，取决于置于工作流上游的活动。
 
    如果保存时定向维度未知（例如，如果受众来自导入的文件），则创建或更新的受众将采用 **[!UICONTROL File]** 类型。
