@@ -6,11 +6,14 @@ description: 借助Adobe Target集成，您可以将Adobe Target生成的动态�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: 触发器
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
