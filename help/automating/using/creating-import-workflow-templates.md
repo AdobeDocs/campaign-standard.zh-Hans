@@ -6,10 +6,13 @@ description: 了解如何创建工作流模板以导入数据。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 工作流
+role: 数据架构师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1176'
 ht-degree: 1%
 
 ---
