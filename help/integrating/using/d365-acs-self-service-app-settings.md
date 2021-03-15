@@ -4,10 +4,13 @@ description: 了解如何配置活动-Dynamics集成应用程序
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM集成
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -35,9 +38,9 @@ Microsoft Dynamics 365凭据授予集成应用程序从Microsoft Dynamics 365中
 
 ### Adobe API凭据
 
-Adobe Campaign凭据是使用[Adobe I/O](https://www.adobe.io/)生成的。 您需要访问屏幕[配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)并按照此处的说明操作，才能填写本节中的输入。
+Adobe Campaign凭据使用[Adobe I/O](https://www.adobe.io/)生成。 您需要访问屏幕[配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)并按照此处的说明操作，才能填写本节中的输入。
 
-下图将详细说明Adobe I/O与设置屏幕输入之间的映射。
+下图将详细说明Adobe I/O和设置屏幕输入之间的映射。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
