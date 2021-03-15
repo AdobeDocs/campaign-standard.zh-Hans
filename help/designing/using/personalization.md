@@ -6,10 +6,13 @@ description: 了解如何在电子邮件设计器中个性化电子邮件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 电子邮件设计
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
