@@ -6,11 +6,14 @@ description: 了解 Adobe Campaign Standard 工作区中的辅助功能支持。
 audience: designing
 content-type: reference
 topic-tags: accessibility
+feature: 营销策划
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 99%
 
 ---
 
