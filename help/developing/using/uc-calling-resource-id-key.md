@@ -3,10 +3,13 @@ solution: Campaign Standard
 product: campaign
 title: 使用复合标识关键码调用资源
 description: 了解如何使用复合标识密钥调用资源
+feature: 数据模型
+role: 开发人员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
