@@ -6,10 +6,13 @@ description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概述
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '7607'
+source-wordcount: '7611'
 ht-degree: 8%
 
 ---
@@ -62,7 +65,7 @@ ht-degree: 8%
 
 **改进**
 
-* “动态报告”的“同意”弹出窗口已更新，包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报告时，将包含用户档案数据。 [阅读更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* “动态报告”的“同意”弹出窗口已更新，以包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报告时，将包含用户档案数据。 [阅读更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修复了在接收投放警报时显示错误联系日期的问题。
 * 当使用未知的上下文参数提交事务性消息事件时，活动现在返回“400”错误消息，而不是“500”。 (CAMP-28632)
 * 新的&#x200B;**排除验证**&#x200B;区段已添加到动态报告中。 此区段现在默认处于选中状态，以过滤您的报表。 [阅读更多](../../reporting/using/list-of-components-.md#segments)
