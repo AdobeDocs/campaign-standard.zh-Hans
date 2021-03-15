@@ -6,10 +6,13 @@ description: 了解有关使用API进行自定义资源管理的更多信息/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---
