@@ -6,11 +6,14 @@ description: 在内建或自定义的动态报告中，分析促销活动成功�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 报告
+role: 领导者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 19%
+source-wordcount: '375'
+ht-degree: 20%
 
 ---
 
