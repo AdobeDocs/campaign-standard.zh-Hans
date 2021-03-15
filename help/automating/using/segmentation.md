@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: 工作流
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 92%
 
 ---
@@ -88,7 +91,6 @@ ht-degree: 92%
       >[!NOTE]
       >
       >可以对每个值使用不同的限制。例如，您可以为 **[!UICONTROL Gender]** 字段指定分组，并将 **[!UICONTROL Male]** 成员的群体限制为 10 人，将 **[!UICONTROL Female]** 成员的群体限制为 30 人。如果您使用多个数据分组字段，则所有分组必须具有相同的大小。
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 确认区段的配置。
