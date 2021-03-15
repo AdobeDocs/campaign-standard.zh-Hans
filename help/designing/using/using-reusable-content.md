@@ -6,10 +6,13 @@ description: 开始使用电子邮件设计器构建可重用的电子邮件内�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 电子邮件设计
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 1%
 
 ---
