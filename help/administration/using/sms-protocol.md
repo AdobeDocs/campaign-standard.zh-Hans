@@ -6,10 +6,13 @@ description: 了解有关SMS连接器的更多信息以及如何配置它。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: 实例设置
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '8665'
+source-wordcount: '8669'
 ht-degree: 0%
 
 ---
@@ -472,7 +475,7 @@ Adobe Campaign Standard的连接总数公式：
 
 #### 短代码{#short-code}
 
-指示帐户的主短代码。 如果此帐户使用了多个短代码或短代码未知，请将此字段留空。
+指示帐户的主短代码。 如果此帐户使用了多个短代码，或者短代码未知，请将此字段留空。
 
 指定短代码对以下两个功能有帮助：
 
