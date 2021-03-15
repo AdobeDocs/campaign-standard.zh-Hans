@@ -1,22 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 计划工作流的重叠执行
+title: 预定工作流的重叠执行
 description: 了解如何防止重叠执行计划工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: 4a61c988f95dd84797e6e33707651304223045fb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
 
-# 计划工作流的重叠执行{#preventing-overlapping-execution-of-scheduled-workflows}
+# 预定工作流的重叠执行{#preventing-overlapping-execution-of-scheduled-workflows}
 
 ## 关于计划的工作流执行
 
