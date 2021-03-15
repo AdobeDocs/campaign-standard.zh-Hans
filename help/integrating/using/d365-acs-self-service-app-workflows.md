@@ -4,10 +4,13 @@ description: 活动和Dynamics集成工作流
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM集成
+role: 数据架构师
+level: 中间
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
