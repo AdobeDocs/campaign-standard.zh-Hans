@@ -10,9 +10,9 @@ feature: 实例设置
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
    <td> <span class="uicontrol">与 Adobe Analytics 协调 KPI</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> 此工作流每天从报告服务中获取一次 KPI，并将其与来自 Adobe Analytics 的数据进行协调。随后，如果需要，它会推送数据的差异。默认情况下，此工作流于每日凌晨 4 点 20 分启动。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">管理 NMAC 选择退出</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> 此工作流可更新移动设备上的退订通知。默认情况下，从凌晨 1 点到午夜之间，每 6 小时启动一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">消息中心本地存档</span> <br /> </td> 
