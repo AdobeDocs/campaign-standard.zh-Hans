@@ -11,9 +11,9 @@ feature: 实例设置
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * **本地展示**  — 当本地通知已发送到设备并且位于通知中心，但完全未触及时。在大多数情况下，展示次数应与已交付数量相同，但应相似。 它确保设备收到消息并将该信息转发回服务器。
 
-* **本地单击**  — 当向设备发送本地通知且用户单击了设备时。用户要么希望视图通知（通知将进而移动到本地打开跟踪），要么希望取消通知。
+* **本地单击**  — 当向设备发送本地通知且用户单击了通知时。用户要么希望视图通知（通知将进而移动到本地打开跟踪），要么希望取消通知。
 
 * **本地打开**  — 当向设备发送本地通知且用户单击了导致应用程序打开的通知时。这与本地单击类似，只是当通知被关闭时，不会触发本地打开。
 
@@ -39,39 +39,17 @@ ht-degree: 0%
 
 | 变量 | 值 |
 | :-: | :-: |
-| deliveryId | 来自传入数据的“deliveryId”（与使用“_dld”的推送跟踪类似） |
-| broadlogId | 来自传入数据的&quot;broadlogId&quot;（与使用&quot;_mld&quot;的推送跟踪类似） |
+| deliveryId | `deliveryId` 从传入数据(与使用的推送跟 `_dld` 踪类似) |
+| broadlogId | `broadlogId` 从传入数据(与使用的推送跟 `_mld` 踪类似) |
 | 行动 | “1”表示打开，“2”表示单击，“7”表示印象 |
 
 ## 实现本地印象跟踪{#implement-local-impression-tracking}
 
-要进行印象跟踪，您需要在调用collectMessageInfo()或trackAction()函数时发送值“7”以执行操作。
-
-### 对于Android {#implement-local-impression-tracking-android}
-
-Adobe Experience Platform Mobile SDK在触发本地通知时开始其印象跟踪。
-
-### 对于iOS {#implement-local-impression-tracking-ios}
-
-要解释如何实施印象跟踪，我们需要了解应用程序的三种状态：
-
-* **前景**:当应用程序当前处于活动状态时，并显示在前景中。
-
-* **背景**:应用程序未在屏幕上，但进程也未关闭。当多次单击主按钮时，它通常会在后台显示所有应用程序。
-
-* **关闭/关闭**:应用程序进程被终止时。如果关闭了某个应用程序，Apple在重新启动该应用程序之前不会调用它。 这意味着您永远无法真正了解iOS上何时收到通知。
-
-要让印象跟踪在应用程序处于后台时仍然有效，我们需要发送“可用内容”让应用程序知道需要进行跟踪。
-
-Adobe Experience Platform Mobile SDK在触发本地通知时开始其印象跟踪。
-
->[!CAUTION]
->
->iOS印象跟踪不准确，不应可靠查看。
+Adobe Experience Platform Mobile SDK将自动发送Android和iOS的展示事件，而无需任何其他配置。
 
 ## 实现单击跟踪{#implementing-click-tracking}
 
-对于单击跟踪，您需要在调用collectMessageInfo()或trackAction()函数时发送值“2”以执行操作。
+对于单击跟踪，您需要在调用`collectMessageInfo()`或`trackAction()`函数时发送值“2”以执行操作。
 
 ### 对于Android {#implement-click-tracking-android}
 
@@ -79,51 +57,26 @@ Adobe Experience Platform Mobile SDK在触发本地通知时开始其印象跟�
 
 * 用户可以看到通知，但会清除通知。
 
+   要在解除方案时跟踪单击，请在应用程序模块的AndroidManifest文件中添加广播接收器`NotificationDismissalHandler`。
+
+   ```
+   <receiver
+   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+   </receiver>
+   ```
+
 * 用户看到通知并单击它，这将转为打开跟踪。
 
-Adobe Experience Platform Mobile SDK会跟踪第一个单击场景。
+   此方案应生成单击并打开。 跟踪此单击将是跟踪打开情况所需的实现的一部分。 请参阅[实施开放跟踪](#implement-open-tracking)。
 
 ### 对于iOS {#implement-click-tracking-ios}
 
-```
-// AppDelegate.swift
-...
-import os.log
-import UserNotifications
-...
-  
-func registerForPushNotifications() {
-        let center = UNUserNotificationCenter.current()
-        center.delegate = notificationDelegate
-        //Here we are creating a new Category that allows us to handle Dismiss Actions
-        let defaultCategory = UNNotificationCategory(identifier: "DEFAULT", actions: [], intentIdentifiers: [], options: .customDismissAction)
-        //Add it to our array of Category, in this case we only have one
-        center.setNotificationCategories([defaultCategory])
-        center.requestAuthorization(options: [.alert, .sound, .badge]) {
-            (granted, error) in
-            os_log("Permission granted: %{public}@", type:. debug, granted.description)
-            if error != nil {
-                return
-            }
-            if granted {
-                os_log("Notifications allowed", type: .debug)
-            }
-            else {
-                os_log("Notifications denied", type: .debug)
-            }
-  
-            // 2. Attempt registration for remote notifications on the main thread
-            DispatchQueue.main.async {
-                UIApplication.shared.registerForRemoteNotifications()
-            }
-        }
-    }
-```
-
-然后，要处理取消并发送跟踪信息，您需要添加以下内容：
+要发送单击跟踪信息，您需要添加以下内容：
 
 ```
-func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+
+   func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
@@ -131,16 +84,22 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-                // If you're using  ACPCore v2.3.0 or later, use the line below.
+                
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+                
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                // Else comment out the above line and uncomment the line below
+                
+                //Else comment out the above line and uncomment the line below
+                
                 // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
+            
             ////MORE CODE
         }
         completionHandler()
     }
+}
 ```
 
 ## 实现开放跟踪{#implement-open-tracking}
@@ -161,38 +120,50 @@ protected void onResume() {
     super.onResume();
     handleTracking();
 }
-  
-  
+ 
+ 
 private void handleTracking() {
+
     //Check to see if this view was opened based on a notification
+
     Intent intent = getIntent();
     Bundle data = intent.getExtras();
-  
+ 
     if (data != null) {
-        //Looks it was opened based on the notification, lets get the tracking we passed on.
+
+        //Opened based on the notification, you need to get the tracking that was passed on.
+
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");
         String messageId = (String)notificationData.get("broadlogId");
-  
-  
-  
+
         if (deliveryId != null && messageId != null) {
             HashMap<String, String> contextData = new HashMap<>();
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-  
-            //Send Click Tracking since the user did click on the notification
+ 
+            //Send click tracking since the user did click on the notification
+
             contextData.put("action", "2");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using ACPCore v1.4.0 or later, use the next line.
+    
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
-  
-            //Send Open Tracking since the user opened the app
+ 
+            //Send open tracking since the user opened the app
+
             contextData.put("action", "1");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using  ACPCore v1.4.0 or later, use the next line.
+
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
         }
     }
@@ -207,34 +178,45 @@ import Foundation
 import UserNotifications
 import UserNotificationsUI
 import ACPCore
-  
+ 
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
-  
-    // Called when user clicks the local notification or also called from willPresent()
+ 
+    //Called when user clicks the local notification or also called from willPresent()
+
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-  
+ 
         let userInfo = response.notification.request.content.userInfo
         os_log("App push data %{public}@, in userNotificationCenter:didReceive()", type: .debug, userInfo)
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
-            //This is to handle the Dismiss Action
+
+            //This is to handle the Dismiss action
+
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-            // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-            // Else comment out the above line and uncomment the line below
-            // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+                //Else comment out the above line and uncomment the line below
+
+                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
             //This is to handle the tracking when the app opens
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-               // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+               //If you are using ACPCore v2.3.0 or later, use the next line.
+
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
-               // Else comment out the above line and uncomment the line below
+
+               //Else comment out the above line and uncomment the line below
+
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
             }
