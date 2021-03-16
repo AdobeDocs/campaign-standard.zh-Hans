@@ -7,9 +7,9 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [隐私管理](start/using/privacy-management.md)
       + [隐私请求](start/using/privacy-requests.md)
       + [隐私常见问题解答](start/using/privacy-faq.md)
+   + [帮助和支持选项](support.md)
 + 用户档案和受众 {#profiles-and-audiences}
    + [用户档案和受众快速入门](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
