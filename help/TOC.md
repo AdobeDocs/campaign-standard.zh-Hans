@@ -271,8 +271,8 @@ ht-degree: 99%
          + [管理同步工作流](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 与 Campaign 之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
-   + 活动和Adobe Experience Platform {#adobe-experience-platform}
-      + 受众目标服务{#audience-destinations}
+   + Campaign 和 Adobe Experience Platform {#adobe-experience-platform}
+      + Audience Destinations Service（受众目标服务）{#audience-destinations}
          + [关于 Audience Destinations 服务](integrating/using/aep-about-audience-destinations-service.md)
          + [管理 Adobe Experience Platform 受众](integrating/using/aep-managing-audiences.md)
          + [使用 Segment Builder](integrating/using/aep-using-segment-builder.md)
