@@ -26,9 +26,9 @@ ht-degree: 99%
 
 列出发送消息的关键步骤的部分已得到增强，并提供了其他信息和参考。 [阅读更多](../../channels/using/key-steps-to-send-a-message.md)
 
-已添加信息，以指定在查询中选择au受众时，其定义将被复制而不被引用。 [阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
+已新增信息来说明在查询中选择 au 受众时，其定义将被复制而不被引用。[阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-与受众目标服务和Adobe Experience Platform Data Connector相关的信息已重新分组到新部分。 [阅读更多](../../integrating/using/aep-about-audience-destinations-service.md)
+与 Audience Destinations Service（受众目标服务）和 Adobe Experience Platform Data Connector 相关的信息已重新归纳为一个新的小节。[阅读更多](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
 
