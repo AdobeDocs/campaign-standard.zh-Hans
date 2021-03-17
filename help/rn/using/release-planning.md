@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 ## 21.2 版 - 5 月版 {#release-21-2-release}
 
-在下方指定的时间段内，将不定时进行环境更新。具体日期会通过电子邮件发送给每位客户。
+在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
 当暂存环境升级开始时，有关此版本的详细信息可在[发行说明](../../rn/using/release-notes.md)中获取。
 
@@ -44,11 +44,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年4月19日至20日<br /> </td>
+   <td>2021 年 4 月 19 日至 20 日<br /> </td>
   </tr>
   <tr>
    <td> 制作<br /> </td>
-   <td>2021年4月26日至5月3日<br /> </td>
+   <td>2021 年 4 月 26 日至 5 月 3 日<br /> </td>
   </tr>
  </tbody>
 </table>
