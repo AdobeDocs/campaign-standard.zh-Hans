@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 69%
+source-wordcount: '1310'
+ht-degree: 66%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 69%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [跳出次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 识别消息的投放失败{#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ ht-degree: 69%
 | **[!UICONTROL Text too long]** | 已忽略 | SMS消息中的字符数超过限制。 有关更多信息，请参阅[短信编码、长度和音译](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS消息包含一个或多个编码不支持的字符。 有关更多信息，请参阅[字符表 - GSM 标准](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
+
+**相关主题：**
+* [硬弹回](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软弹回](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## 在投放临时失败后重试{#retries-after-a-delivery-temporary-failure}
 
 如果消息因 **Ignored** 类型的临时错误而失败，则会在投放持续期间执行重试。有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
@@ -91,13 +97,12 @@ ht-degree: 69%
 
 例如，如果希望投放的重试在一天后停止，可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息将在一天后删除。
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >消息在重试队列中处于最长3.5天且无法传送后，将超时，其状态将在[投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新为&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## 同步和异步错误{#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ ht-degree: 69%
 >
 >不再使用 Campaign **[!UICONTROL Message qualification]** 表格中的退回鉴别。
 
-异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Channels > Email > Email processing rules]**，接着选择 **[!UICONTROL Bounce mails]**。有关此规则的更多信息，请参阅此](../../administration/using/configuring-email-channel.md#email-processing-rules)章节[。
+异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Channels > Email > Email processing rules]**，接着选择 **[!UICONTROL Bounce mails]**。有关此规则的详细信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-<!--Bounces can have the following qualification statuses:
+有关弹回和不同种类弹回的详细信息，请参阅[本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
