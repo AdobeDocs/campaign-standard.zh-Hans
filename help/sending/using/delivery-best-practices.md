@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: 了解与投放设计和与Adobe Campaign一起发送相关的最佳实践。
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[个性化内容](optimize-delivery.md)**  — 应用正确的设置
+**[个性化内容](design-and-personalize.md)**  — 应用正确的设置
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
