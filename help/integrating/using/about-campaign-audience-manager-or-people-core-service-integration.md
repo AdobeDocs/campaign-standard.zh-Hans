@@ -10,10 +10,10 @@ feature: 触发器
 role: 数据架构师
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 4%
 
 ---
 
@@ -41,9 +41,12 @@ Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和�
 * **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign数据库中的元素进行协调。它在Adobe Campaign中表示为预定义合并关键项。 在交换数据时，Adobe Campaign数据库标识符被散列化。 然后，将这些哈希ID与导入或导出中涉及的Adobe Marketing Cloud受众的哈希ID进行比较。
    <br>此集成支持常规声明ID、散列声明ID和加密声明ID。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >声明的ID只能用于Adobe Audience Manager。 没有声明的ID就无法工作。
+   >声明的ID数据源现在还可以与People核心服务集成一起使用。
+   >
+   >如果您使用People核心服务集成并想添加Audience Manager集成，则需要Adobe Audience Manager顾问的帮助，以避免在Adobe Audience Manager上下文中转换到使用此Declared ID数据源时收集的所有ID同步丢失。
+
 
    加密允许您通过指定加密算法，使用声明的ID在数据源（例如PII）中共享加密数据。
 
