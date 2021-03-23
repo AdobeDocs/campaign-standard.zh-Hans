@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **时的电子邮件地址与隔离的电阻止列表子邮件地址有何区别？**
 
-   * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是反馈循环的结果（当某人将邮件报告为垃圾邮件时）。
+   * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)（当人将消息报告为垃圾邮件时）的结果。
 
    * 状态&#x200B;**[!UICONTROL Quarantined]**&#x200B;是软弹回或硬弹回的结果。
    有关更多信息，请参阅[此章节](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。
