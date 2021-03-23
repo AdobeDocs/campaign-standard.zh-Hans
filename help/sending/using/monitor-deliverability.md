@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 7%
+source-wordcount: '310'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 7%
 * 检查是否在重试中正确设置了重试(重试时间为30分钟，投放模板超过20分钟)。
 * 定期验证弹回邮箱是否可访问，以及帐户是否即将过期。
 * 检查每个投放吞吐量，确保其与投放内容的有效性一致(例如，“flash sales”应在数分钟内交付，而非数天内交付)。
-* 使用批次时，请验证在触发下一个波形之前，每个波形是否有足够的时间完成。
 * 检查错误和新隔离的数量是否与其他投放一致。
 * 仔细咨询投放日志，以检查高亮显示的错误类型(阻止列表、DNS问题、防垃圾邮件规则等……)。
 
@@ -56,16 +55,18 @@ ht-degree: 7%
 
 有关详细信息，请参阅[发生故障时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-## 信号垃圾邮件{#signal-spam}
+<!--## External tools (#external-tools)
 
-Signal Spam是一种法国服务，它优惠了法国ISP(Orange， SFR)的匿名反馈循环报告。
+### Signal Spam {#signal-spam}
 
-此服务可让您跟踪法国ISP的声誉并跟踪客户的活动演变。
+Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
-Signal Spam还提供最终用户通过专用界面登录的直接投诉。 然后，这些投诉将被隔离在电子邮件地址数据库中。
+This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
 
-## 250ok {#solution-250ok}
+Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-250ok是一款监控解决方案，它提供IP和域阻止列表以及信誉指标。
+### 250ok {#solution-250ok}
 
-提供的信息是实时的，它允许主动提供协助。 250ok是Adobe交付能力内部工具的补充解决方案。
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
+
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
