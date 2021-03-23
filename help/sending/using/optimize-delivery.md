@@ -8,12 +8,12 @@ topic-tags: deliveries-best-practices
 index: y
 description: 了解如何保护和优化上游发送流程。
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 6%
 
    * 在检查电子邮件的可交付性时，您希望重点关注四个主要类别:数据质量、消息和内容、发送基础架构和声誉。 有关此主题的更深入的介绍，请参阅[本节](../../sending/using/about-deliverability.md)。
 
-* 启动新平台时，应用本页](../../sending/using/starting-new-platform.md)中详细的[建议。
+* 启动新平台时，应用有关[本页](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)的详细建议。
 
 * 请联系您的Adobe代表以获得帮助。
 
