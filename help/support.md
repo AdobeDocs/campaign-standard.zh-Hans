@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: 帮助和支持选项
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -37,42 +37,50 @@ ht-degree: 5%
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### 主题Q&amp;A
-
-阅读一组特定问题与答案（按主题）：
-
-* [可投放性](sending/using/monitor-deliverability.md)
-* [InApp和推送通知](administration/using/aep-faq.md)
-* [电子邮件设计工具](designing/using/faq-email-designer.md)
-
-### 常见问题
-
-* [工作流中的错误管理](automating/using/monitoring-workflow-execution.md#error-management)
-* [工作流执行疑难解答](automating/using/best-practices-workflows.md)
-* [API疑难解答](api/using/troubleshooting.md)
-* [了解投放故障](sending/using/understanding-delivery-failures.md)
-
-### 最佳做法
-
-* [工作流最佳实践](automating/using/best-practices-workflows.md)
-* [工作流监视](automating/using/about-workflow-execution.md)
-* [了解跟踪管理](sending/using/tracking-messages.md)
-* [可交付性最佳实践](sending/using/about-deliverability.md)
-* [导入包含工作流的数据](automating/using/creating-import-workflow-templates.md)
-* [时区管理](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [失败时接收通知](sending/using/receiving-alerts-when-failures-happen.md)
-* [导入或转换电子邮件内容](designing/using/using-existing-content.md)
-* [投放最佳实践](sending/using/delivery-best-practices.md)
-
-### 操作说明
-
-* [升级到新版本](rn/using/release-planning.md)
-* [监视投放](sending/using/monitoring-a-delivery.md)
-* [了解隔离管理](sending/using/understanding-quarantine-management.md)
-* [隐私和同意管理](start/using/privacy-management.md)
-* [设计查询](automating/using/query.md)
-* [查询示例](automating/using/query-samples.md)
-* [配置移动渠道](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>主题Q&amp;A</strong></td><td><strong>常见问题</strong></td><td><strong>最佳做法</strong></td><td><strong>操作说明</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">可投放性</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp和推送通知</a></li>
+        <li><a href="designing/using/faq-email-designer.md">电子邮件设计工具</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">工作流中的错误管理</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">工作流执行疑难解答</a></li>
+        <li><a href="api/using/troubleshooting.md">API疑难解答</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">了解投放失败</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">工作流最佳实践</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">工作流监视</a></li>
+        <li><a href="sending/using/tracking-messages.md">了解跟踪管理</a></li>
+        <li><a href="sending/using/about-deliverability.md">可交付性最佳实践</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">导入包含工作流的数据</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">时区管理</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">失败时接收通知</a></li>
+        <li><a href="designing/using/using-existing-content.md">导入或转换电子邮件内容</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">投放最佳实践</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">升级到新版本</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">监视投放</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">了解隔离管理</a></li>
+        <li><a href="start/using/privacy-management.md">隐私和同意管理</a></li>
+        <li><a href="automating/using/query.md">设计查询</a></li>
+        <li><a href="automating/using/query-samples.md">查询示例</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">配置移动渠道</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign 控制面板
 
@@ -115,9 +123,7 @@ ht-degree: 5%
 
 ### 创建票证或开始聊天
 
-通过创建案例，您可以就您在Adobe产品中遇到的任何问题与Adobe客户支持团队联系。
-
-为帮助您解决问题或解决问题，Adobe Admin Console将允许您与Adobe客户支持部门进行聊天。
+通过创建案例，您可以就您在Adobe产品中遇到的任何问题与Adobe客户支持团队联系。 为帮助您解决问题或解决问题，Adobe Admin Console将允许您与Adobe客户支持部门进行聊天。
 
 要在该新系统中记录问题或开始聊天会话，请连接到[Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
