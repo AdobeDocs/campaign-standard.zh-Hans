@@ -6,13 +6,13 @@ description: 准备、测试、计划、发送和监控您的消息。
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 14%
 
 ---
 
@@ -86,8 +86,7 @@ Campaign Standard提供了多个&#x200B;**可交付性工具**，以帮助您增
 
 * [关于投放能力](../../sending/using/about-deliverability.md)
 * [监控投放能力](../../sending/using/monitor-deliverability.md)
-* [提高您的声誉](../../sending/using/improving-reputation.md)
-* [技术建议](../../sending/using/technical-recommendations.md)
+* [Adobe交付性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
 * [控制投放吞吐量](../../reporting/using/delivery-throughput.md)
 
 ## 其他资源
