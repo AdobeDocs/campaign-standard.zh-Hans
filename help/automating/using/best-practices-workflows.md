@@ -11,10 +11,10 @@ feature: 工作流
 role: 数据架构师
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 ### 工作流的数量
 
-默认情况下，我们建议不要同时执行 20 个以上的活动工作流。超过该限制的工作流将排队等候执行，以免影响性能。同样，Adobe 建议您将工作流的执行时间分散。
+默认情况下，我们建议不要同时执行 20 个以上的活动工作流。超过该限制的工作流将排队等候执行，以免影响性能。同样，Adobe建议您逐步扩展工作流执行。
 在特定环境中，您需要运行的工作流可能会超过 20 个。这不适用于等待排程执行的工作流。如果出现这种情况，您需要与 Campaign 专家核实使用案例，并联系 Adobe 客户关怀部门以提高上限。
 
 >[!NOTE]
