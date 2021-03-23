@@ -7,9 +7,9 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
    + 管理投放能力 {#managing-deliverability}
       + [关于投放能力](sending/using/about-deliverability.md)
-      + [启动新平台](sending/using/starting-new-platform.md)
       + [控制电子邮件内容](sending/using/control-email-content.md)
-      + [提高您的声誉](sending/using/improving-reputation.md)
-      + [IP 认证](sending/using/ip-certification.md)
-      + [技术建议](sending/using/technical-recommendations.md)
       + [监控投放能力](sending/using/monitor-deliverability.md)
       + [疑难解答](sending/using/troubleshooting.md)
    + 使用分类规则 {#working-with-typology-rules}
