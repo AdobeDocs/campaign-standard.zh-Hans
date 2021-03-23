@@ -8,75 +8,120 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: 可投放性
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 6%
 
 ---
 
 
-# 关于投放能力{#about-deliverability}
+# 什么是可交付性{#about-deliverability}
 
-可交付性允许您衡量活动到达收件人收件箱时的成功程度，而不会出现弹跳或标记为垃圾邮件。
+可交付性允许您衡量活动到达收件人收件箱时的成功程度，而不会出现弹跳或标记为垃圾邮件。 [了解为何交付能力很重要](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters)。
 
-交付率取决于诸多因素，特别是：
+更准确地说，电子邮件可发送性是指一系列特征，这些特征决定了邮件在短时间内通过个人电子邮件地址到达其目的地的能力，并在内容和格式方面达到预期的质量。<!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* 实例的正确配置
-* 您的IP地址信誉
-* 目标地址的质量
-* 低投诉和高反弹率
-* 您的消息内容
-* 邮件身份验证(SPF、DKIM、DMARC)
-* 发件人声誉
+要更深入地了解哪些是可交付性，并了解关键可交付性术语、概念和方法的更多信息，请参阅[Adobe可交付性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)。
 
-## 要检查的要点 {#deliverability-key-points}
+## 如何提高交付能力{#deliverability-key-points}
 
-为优化Adobe Campaign电子邮件的发送能力，我们建议使用下面列出的最佳实践。 传送能力问题通常与互联网服务提供商和邮件服务器管理员实施的防垃圾邮件措施有关。
+传送能力问题通常与互联网服务提供商和邮件服务器管理员实施的防垃圾邮件措施有关。
 
-电子邮件可发送性是指一系列特征，这些特征决定了邮件在短时间内通过个人电子邮件地址到达其目的地的能力，并且在内容和格式方面具有预期的质量。 这些特征分为四个主要类别:数据质量、消息和内容、发送基础架构和声誉。 它们共同构成了成功的电子邮件交付项目的基础。
+* 有关如何设计成功的电子邮件营销活动的一般建议，请参阅[可交付性战略和定义](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)。
 
-交付率是已发送电子邮件的数量，已成功发送给收件人。
-以下是要检查的要点列表，以确保良好的交付能力。
+* 有关如何优化Adobe Campaign电子邮件的可交付性的更多具体建议，我们建议使用本节中列出的最佳实践。
 
-## 交付工具{#deliverability-tools}
+>[!NOTE]
+>
+>由于ISP必须不断开发新的复杂过滤技术以保护其客户免受垃圾邮件发送者的攻击，因此电子邮件的发送能力的特点是不断变化的标准和规则。 请确保参阅定期更新的[Adobe交付能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)。
 
-首先，开始通过查阅随Campaign Standard提供的可交付工具的相关文档：
+### 可交付率
+
+交付能力率是点击收件人收件箱的邮件数与已传递的邮件数相比。 要提高交付能力，您可能会努力提高此比率。
+
+对于Adobe Campaign，可交付率取决于许多因素，特别是：
+
+* 正确配置实例：请联系您的Adobe代表以获得帮助。
+* 合法网络配置：请参阅[本节](../../sending/using/optimize-delivery.md#network-config)和[域设置和策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)。
+* 您的IP地址信誉：请参阅[ IP战略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)。
+* 目标地址的质量：请参阅[隔离管理](../../sending/using/optimize-delivery.md#quarantine-management)。
+* 低[投诉](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html)和[硬跳出率](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)。
+* 您的消息内容：请参阅[控制电子邮件内容](../../sending/using/control-email-content.md)。
+* 邮件身份验证(SPF、DKIM、DMARC):请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)。
+* 发件人声誉：要了解主ISP如何评估发送方的信誉，请参阅[本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)。
+
+## 活动交付工具{#deliverability-tools}
+
+Adobe Campaign提供了许多工具来跟踪和改进平台的交付性能。 本页还强调了在使用活动时优化交付能力时应牢记的主要原则。
+
+### 仔细构建您的信息
+
+在配置、设计和测试消息时，请确保遵循以下部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能将帮助您提高交付能力。
+
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
-* [个性化发件人姓名](../../designing/using/personalization.md#personalizing-the-sender)
-* [优化发送时间](../../sending/using/optimizing-the-sending-time.md)
+* [控制电子邮件内容](../../sending/using/control-email-content.md)
 * [预览消息](../../sending/using/previewing-messages.md)
-* [电子邮件渲染](../../sending/using/email-rendering.md)
-* [监控投放](../../sending/using/monitoring-a-delivery.md)
-* [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [发送校样](../../sending/using/sending-proofs.md)
+
+### 通过多次选择加入{#double-opt-in}验证同意
+
+为了避免向无效地址发送消息、限制不当通信并改善发送者信誉，Adobe建议实施多次选择加入机制。 这样，您就能确保收件人有意订阅。
+
+有关详细信息，请参阅[关于活动](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的选择加入和选择退出。
+
+有关从客户收集数据时的最佳实践的更多信息，请参阅[《Adobe交付性最佳实践指南》](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)。
+
+### 利用隔离管理
+
+Adobe Campaign管理一个列表，可以收集一致发生的垃圾邮件投诉、硬弹回和软弹回。
+
+为保护您的可交付性，默认情况下，其地址位于该列表上的收件人将被排除在将来所有投放之外，因为发送到这些联系人可能会损害您的发送信誉。
+
+如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可以使您避免被这阻止列表些提供商添加到。
+
+有关此方面的详细信息，请参阅以下部分：
+
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [隔离与阻止列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### 使用监视和报告工具
+
+使用Adobe Campaign提供的功能监控您的交付能力。
+
+Adobe Campaign允许您通过一套内置的实时指示器检查投放的表现。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->您还可以构建完全可自定义的实时报告，以改进对投放的洞察。
+
+有关此方面的详细信息，请参阅以下部分：
+
+* [监控投放能力](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [动态报告](../../reporting/using/about-dynamic-reports.md)
 
-## 正在检查网络配置{#network-configuration}
+<!--## General recommendations
 
-垃圾邮件发送者试图隐藏他们的真实身份，结果导致他们的服务器难以识别。 不尝试隐藏服务器标识的合法网络配置对于以大容量发送电子邮件至关重要。
+NOT SURE TO KEEP
 
-## 发送到有效地址{#valid-addresses}
+Here are a few additional recommendations when it comes to deliverability.
 
-垃圾邮件发送者经常使用基于频繁姓名和名字列表的地址生成器；此外，他们很少处理邮件服务器发送的技术通知。 无效地址的高率通常被解释为垃圾邮件的标志。 多次选择加入机制和对技术弹回消息的有效处理使避免这种情况成为可能。
+### Send to valid addresses {#valid-addresses}
 
-## 降低投诉率{#reduce-complaint-rate}
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-ISP通常将收到的消息报告为垃圾邮件。 这使得能够识别不可靠的来源。 通过快速满足选择退出请求、定期使用给定列表、通过多次选择加入系统验证同意并实施反馈循环，您可以降低投诉率。
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## 发送到蜜罐地址{#honeypot-addresses}
+### Reduce complaint rate {#reduce-complaint-rate}
 
-ISP和其他组织(请参阅https://www.projecthoneypot.org/)利用的邮箱与物理人员不对应，而只是为了欺骗垃圾邮件发送者。 这些所谓的“蜜罐”地址发布在Web上，以便由垃圾邮件程序收集，从而捕获非法发送者。 使用多次选择加入机制可阻止此类地址添加到列表。 使用第三方列表时，必须确定其维护器使用的方法。
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## 改编消息内容{#adapt-message-content}
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-某些邮件的内容会导致某些过滤器将其检测为垃圾邮件。 使用某些单词，在主题行和邮件中使用感叹号被解读为垃圾邮件的告诉信号。 众所周知，垃圾邮件发送者会用图像替换文本，以阻止防垃圾邮件过滤器自动分析违规文本。 为此，具有高比例图像或图像作为附件的消息（HTML格式）最终可能被阻止。
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## 定期发送{#regular-deliveries}
-
-垃圾邮件发送者会通过编程投放来保持自己的声誉。 他们有时需要调整营销计划以符合ISP强加的最佳实践，因此，在声誉达到高峰（加速）后，他们会配置常规投放。
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
