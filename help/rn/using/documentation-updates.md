@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 99%
 已新增信息来说明在查询中选择 au 受众时，其定义将被复制而不被引用。[阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 与 Audience Destinations Service（受众目标服务）和 Adobe Experience Platform Data Connector 相关的信息已重新归纳为一个新的小节。[阅读更多](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**Declared** ID数据源现在还可以与People核心服务集成一起使用。活动-Audience Manager或人员核心服务集成文档中已添加信息。 [阅读更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+关于如何为移动应用程序实施本地跟踪的信息已经添加。 [阅读更多](../../administration/using/local-tracking.md)
+
+[Deliverability](../../sending/using/about-deliverability.md)部分已更新，现在包括指向新[Adobe可交付性最佳实践指南](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)的链接。 所有与可应用于各种Adobe解决方案的可交付性相关的通用信息都已移至[最佳做法指南附录](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)。
 
 ## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 ## 2020 年 1 月 {#doc-updates-january-2020}
 
-更新了“可投放性”文档，新增了“IP 认证”一节。[了解更多](../../sending/using/ip-certification.md)
+更新了“可投放性”文档，新增了“IP 认证”一节。<!--[Read more](../../sending/using/ip-certification.md)-->
 
 新增了描述如何创建跨渠道投放工作流的章节。[了解更多](../../automating/using/workflow-cross-channel-delivery.md)
 
