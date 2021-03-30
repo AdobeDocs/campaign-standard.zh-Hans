@@ -11,10 +11,10 @@ feature: 实例设置
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 78%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 80%
 您可以在活动中添加新的组织实体，或创建需要在其他子域下发送的新电子邮件类型。 要执行此操作，请执行以下步骤：
 
 1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是配置它。您可以通过[活动控制面板](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)执行此操作，或联系您的Adobe技术联系人。 请阅读本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)，进一步了解子域配置[。
+
+   >[!NOTE]
+   >
+   >控制面板可供所有管理员用户访问。 授予用户管理员访问权限的步骤详见[此页](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
 
 1. **创建票证**  — 配置子域后，Adobe需要在生产环境中设置它。要请求此请求，[请使用以下信息创建到Client Care](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)的票证：
 
