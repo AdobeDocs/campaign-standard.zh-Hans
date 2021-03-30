@@ -8,9 +8,9 @@ feature: 概述
 role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 100%
   </td>
   <td valign="top">
        <img alt="支持" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/cn/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>获取支持</strong></a>
     </div>
     <p><em>访问常见问题解答、最佳实践、帮助资源并与专家联系</em></p>
