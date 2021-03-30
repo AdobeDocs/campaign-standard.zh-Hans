@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 5%
@@ -44,7 +44,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td> 内容创建：从URL<br />导入 </td> 
-   <td> 通过URL导入，您可以快速从网站中检索您的创意内容，以针对任何投放构建电子邮件。 此外，您还可以通过使第三方直接通过URL共享内容来简化您的创作流程。 导入的内容可以灵活地用作单个投放的一部分或在模板级别，以确保所有相关活动(无论是基于工作流还是事务性消息)的品牌一致性，并包括A/B或多变量测试。 从URL导入会自动转换和跟踪所有链接，以通过动态报告监视电子邮件性能。<br /> 有关详细信息，请参阅 <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">详细文档</a>。<br /> </td> 
+   <td> 通过URL导入，您可以快速从网站中检索您的创意内容，以针对任何投放构建电子邮件。 此外，您还可以通过使第三方直接通过URL共享内容来简化您的创作过程。 导入的内容可以灵活地用作单个投放的一部分或在模板级别，以确保所有相关活动(无论是基于工作流还是事务性消息)的品牌一致性，并包括A/B或多变量测试。 从URL导入会自动转换和跟踪所有链接，以通过动态报告监视电子邮件性能。<br /> 有关详细信息，请参阅 <a href="../../designing/using/using-existing-content.md">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
