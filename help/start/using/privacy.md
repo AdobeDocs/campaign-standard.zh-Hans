@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: 隐私
-role: 业务从业者
+role: 商业从业者
 level: 中间
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 
    >[!NOTE]
    >
-   >至于所有 Adobe 产品，Campaign 会收集有关应用程序和网站用户的信息。有关此内容的更多信息，请参阅 [Adobe 隐私策略](https://www.adobe.com/privacy/policy.html)。
+   >至于所有 Adobe 产品，Campaign 会收集有关应用程序和网站用户的信息。有关此内容的更多信息，请参阅 [Adobe 隐私策略](https://www.adobe.com/cn/privacy/policy.html)。
 
 * **如何使用 Adobe Experience Cloud 收集信息**
 
@@ -71,9 +71,9 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 
    >[!NOTE]
    >
-   >至于所有 Adobe 产品，Campaign 用户可以选择不共享通过应用程序和网站收集到的关于它们的信息。有关此内容的更多信息，请参阅 [Adobe Experience Cloud 使用信息常见问题解答](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html)。
+   >至于所有 Adobe 产品，Campaign 用户可以选择不共享通过应用程序和网站收集到的关于它们的信息。有关此内容的更多信息，请参阅 [Adobe Experience Cloud 使用信息常见问题解答](https://www.adobe.com/cn/privacy/experience-cloud-usage-info-faq.html)。
 
-有关A dobe Experience Cloud 隐私的更多详细信息，请参阅[此页面](https://www.adobe.com/privacy/marketing-cloud.html)。
+有关A dobe Experience Cloud 隐私的更多详细信息，请参阅[此页面](https://www.adobe.com/cn/privacy/marketing-cloud.html)。
 
 ## 个人数据和角色 {#personal-data}
 
@@ -131,7 +131,7 @@ Adobe Campaign 提供其他功能来促使您作为数据控制者为特定隐�
 
 >[!NOTE]
 >
->这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
