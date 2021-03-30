@@ -10,9 +10,9 @@ feature: 概述
 role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: dd71d843436220c0313d08d76c17633306301456
+source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
 workflow-type: tm+mt
-source-wordcount: '6736'
+source-wordcount: '6748'
 ht-degree: 98%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 98%
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
+
+Campaign Standard的“帮助和支持选项”页面已集成到核心文档中。 [阅读更多](../../support.md)
 
 列出发送消息的关键步骤的部分已得到增强，并提供了其他信息和参考。 [阅读更多](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -148,7 +150,7 @@ AI 支持的新电子邮件功能：发送时间优化和用户档案评分。[�
 
 在如何使用控制面板和活动工作流[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)和[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)数据方面添加了用例。
 
-对旧版支持网站的引用已替换为新 URL。[了解详情](https://helpx.adobe.com/cn/campaign/kb/ac-support.html)
+对旧版支持网站的引用已替换为新 URL。[了解详情](../../support.md)
 
 已从收件箱呈现功能中删除自定义 Litmus 帐户配置。[阅读更多](../../sending/using/email-rendering.md)
 
