@@ -10,9 +10,9 @@ feature: 访问管理
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 14%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 14%
 >
 >如果您对实施和配置问题有任何疑问或请求，请与您的Adobe客户经理联系。
 
-请注意，如果您的实例托管在AWS上，管理员用户还可以利用活动控制面板来管理每个实例的设置和跟踪使用情况。 有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)。
+请注意，管理员用户还可以利用活动控制面板管理每个实例的设置和跟踪使用情况。 有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)。
 
 ## 管理菜单{#administration-menu}
 
