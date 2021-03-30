@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: 业务从业者
+role: 商业从业者
 level: 初学者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 99%
 
 [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2019.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -210,7 +210,7 @@ ht-degree: 99%
 <li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。<a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
 <li><p>创建隐私请求时，“隐私核心服务”中添加了 PDPA 法规类型。您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="../../rn/using/deprecated-features.md">已弃用和已删除的功能</a>一文。</p></li>
 </ul>
-<p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">操作方法视频</a>。</p>
+<p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +231,7 @@ ht-degree: 99%
 <li>从 JSON 中选择并使用数组对象，而无需将对象命名为“data”或让其处于顶级。</li>
 </ul>
 <p><strong>注意：</strong>客户需要用其工作流中的 GA External API 活动替换所有<strong>测试版 External API 活动</strong>。从 20.3 版起，使用 External API 测试版的工作流将被废除。</p>
-<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">操作方法视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -276,7 +276,7 @@ ht-degree: 99%
 **修补程序**
 
 * 修复了导致在自定义资源的发布作业期间创建资源备份的错误。
-* 修复了使用自定义资源扩展用户档案资源时可能会阻止显示用户档案营销历史的问题。(营41009)
+* 修复了使用自定义资源扩展用户档案资源时可能会阻止显示用户档案营销历史的问题。(CAMP-41009)
 * 修复了打开编辑器时即装即用登陆页面模板以法语显示其内容的问题。(CAMP-41639)
 * 修复了推送通知中的动态内容可能阻止显示表情符号的问题。(CAMP-40715)
 * 修复了&#x200B;**重复数据删除**&#x200B;活动中可能导致分配给其中一个叫客补码过渡的段码不正确的问题。(CAMP-41400)
@@ -286,7 +286,7 @@ ht-degree: 99%
 * 修复了阻止预览投放进行校样替换的问题。
 * 修复了删除应用程序内本地通知的自定义字段时出错的问题。
 * 修复了 charIndex 函数无法用于工作流中&#x200B;**“结束”**&#x200B;或&#x200B;**“文件传输”**&#x200B;活动的问题。
-* 修复了使用&#x200B;**扩充**&#x200B;活动添加两个包含定向资源的输入活动（两者之间具有链接）时，可能发生的工作流问题。(营42133)
+* 修复了使用&#x200B;**扩充**&#x200B;活动添加两个包含定向资源的输入活动（两者之间具有链接）时，可能发生的工作流问题。(CAMP-42133)
 * 修复了在使用未知函数时可能阻止工作流运行的问题。(CAMP-41873)
 * 修复了在使用具有补码叫客过渡的多个&#x200B;**“保存受众”**&#x200B;活动创建受众时，可能发生的工作流问题。(CAMP-39992)
 * 修复了在事务型电子邮件中使用个性化功能导致数据不一致的问题。(CAMP-41842)
@@ -294,7 +294,7 @@ ht-degree: 99%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -332,7 +332,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+>新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
 
 **改进**
 
@@ -411,7 +411,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 现在集成到了 Adobe Standard 中。您可以将 XTK 数据（Campaign 摄取的数据）映射到 Adobe Experience Platform 数据模型 (XDM)，从而使 Campaign 数据在 Adobe Experience Platform 上可用。 </p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-data-connector.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">操作方法视频</a>。</p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-data-connector.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">操作方法视频</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +426,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>利用 Audience Destinations，可将来自 Adobe Experience Platform 的区段共享到 Adobe Campaign。</p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-audience-destinations-service.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">操作方法视频</a>。 </p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-audience-destinations-service.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">操作方法视频</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
