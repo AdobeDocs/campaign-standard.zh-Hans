@@ -7,12 +7,12 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: 用户档案
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
@@ -26,10 +26,9 @@ Adobe Campaign提供一个报告，其中显示活动用户档案的数量。 �
 
 >[!NOTE]
 >
->如果您托管在AWS上，并使用内部版本10368中的Campaign Standard，您还可以直接从控制面板监视实例上使用的活动用户档案的数量。 有关详细信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+>如果您使用的是内部版本10368中的Campaign Standard，则还可以直接从控制面板监视实例上使用的活动用户档案的数量。 有关详细信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 >
 >请注意，活动用户档案量度仅适用于&#x200B;**营销实例**。 它既不适用，也不适用于执行实例，即MID（中间采购）和RT（消息中心/实时消息）实例。
-
 
 在准备投放时排除的用户档案(类型规则、隔离、对照组)不会被考虑在内。 被多个投放项目定位的用户档案只被计算一次。在报表底部，您将找到每个定位维度的活动用户档案列表。
 
