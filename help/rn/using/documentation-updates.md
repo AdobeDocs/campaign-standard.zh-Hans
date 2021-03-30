@@ -26,7 +26,7 @@ ht-degree: 98%
 
 Campaign Standard的“帮助和支持选项”页面已集成到核心文档中。 [阅读更多](../../support.md)
 
-列出发送消息的关键步骤的部分已得到增强，并提供了其他信息和参考。 [阅读更多](../../channels/using/key-steps-to-send-a-message.md)
+在列出发送消息的关键步骤的部分，增加了其他信息和参考内容。[阅读更多](../../channels/using/key-steps-to-send-a-message.md)
 
 已新增信息来说明在查询中选择 au 受众时，其定义将被复制而不被引用。[阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -450,7 +450,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
-以下[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.translate.html)将变为 Adobe Campaign Standard 的官方视频页面。
+以下[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.html)将变为 Adobe Campaign Standard 的官方视频页面。
 
 添加了有关数据保留的章节，其中包括标准表格的默认保留值。[了解更多](../../administration/using/data-retention.md)
 
@@ -938,7 +938,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 Amazon Simple Storage Service (S3) 连接器 - [了解更多](../../administration/using/external-accounts.md)
 
-Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **随版本提供的其他文档更新**
 
