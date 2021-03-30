@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **[Campaign 21.1 2 月版已上线！](rn/using/release-notes.md)**<br/> 发现新功能、最新更新和修补程序
 
-* **[更新错误硬退回](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在 Gmail 中断后更新错误硬退回
+* **[更新错误硬退回](https://helpx.adobe.com/cn/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在 Gmail 中断后更新错误硬退回
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
@@ -81,7 +81,7 @@ ht-degree: 100%
 |---|---|
 | [发行说明](rn/using/release-notes.md) | [Experience Cloud 触发器](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
-| [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [发行计划](rn/using/release-planning.md) | [Campaign 数据模型](developing/using/datamodel-introduction.md) |
 | [已弃用和已删除的功能](rn/using/deprecated-features.md) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard 快速入门](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html) |
