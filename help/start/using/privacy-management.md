@@ -7,18 +7,18 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: 隐私
-role: 业务从业者
+role: 商业从业者
 level: 中间
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 隐私管理 {#privacy-management}
+# 隐私管理{#privacy-management}
 
 Adobe Campaign 提供一套工具来帮助您遵守[隐私法规](#privacy-management-regulations)（包括 GDPR、CCPA、PDPA、LGPD）。
 
@@ -50,7 +50,7 @@ Adobe Campaign 功能帮助您遵守以下法规：
 
 * **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。请访问下面的链接以查找有关 GDPR 的常规信息：
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/cn/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**（[加州消费者隐私法案](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）为加利福尼亚州居民提供与其个人信息有关的新权利，并要求在加利福尼亚开展业务的特定实体承担数据保护责任。
