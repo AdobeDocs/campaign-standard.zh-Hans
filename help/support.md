@@ -11,9 +11,9 @@ feature: 帮助和支持选项
 role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '593'
 ht-degree: 5%
 
 ---
@@ -91,9 +91,13 @@ ht-degree: 5%
 该控制面板允许您管理每个实例的设置和跟踪使用情况，从而帮助您以Campaign Standard产品管理员的身份提高工作效率。
 [请单](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) 击此处了解详细信息。
 
+>[!NOTE]
+>
+>控制面板可供所有管理员用户访问。 授予用户管理员访问权限的步骤详见[此页](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+
 ### 如何访问控制面板？
 
-控制面板可直接从Adobe Experience Cloud获得。 仅供管理员用户访问。 [请单](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 击此处了解详细信息。
+控制面板可直接从Adobe Experience Cloud获得。 [请单](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 击此处了解详细信息。
 
 ### 控制面板常见问题解答
 
