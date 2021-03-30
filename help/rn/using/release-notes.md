@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li>现在，<b>已传送</b>指示器的计算基于来自增强型 MTA 的实时反馈，以提高准确性和反应性。</li>
 <li>EFS 解决了同步软退回报告的延迟问题。</li>
 </ul>
-<p>有关更多信息，请参阅<a href="../../sending/using/confirming-the-send.md#message-indicators">详细文档</a>。
+<p>有关更多信息，请参阅<a href="../../sending/using/confirming-the-send.md">详细文档</a>。
 </p>
 </td> 
 </tr> 
