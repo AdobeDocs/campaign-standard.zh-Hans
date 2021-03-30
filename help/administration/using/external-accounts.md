@@ -11,10 +11,10 @@ feature: 实例设置
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 84%
+source-wordcount: '1778'
+ht-degree: 83%
 
 ---
 
@@ -91,10 +91,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 
 >[!NOTE]
 >
->控制面板仅适用于托管在 AWS 上的、客户的 Admin 用户。
-
->
->可通过[此处](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/faq.html#ims-org-id)查看您的实例是否托管在 AWS 上。
+>控制面板可供所有管理员用户访问。 授予用户管理员访问权限的步骤详见[此页](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
 
 ## OAuth 2.0帐户{#oauth-account}
 
