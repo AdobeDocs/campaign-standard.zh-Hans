@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: 性能监控
-role: 业务从业者
-level: 中间
+role: 商业从业者
+level: 中级
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
-
 
 # 通过电子邮件密送进行归档{#archiving-emails}
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->当前，无法使用Adobe Campaign增强的MTA发送存档的电子邮件。
+>目前，归档的电子邮件仍由使用简单SMTP中继的旧版归档模块发送。
 
 ## 激活电子邮件存档{#activating-email-archiving}
 
