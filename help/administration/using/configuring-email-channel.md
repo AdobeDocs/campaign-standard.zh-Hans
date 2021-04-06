@@ -9,15 +9,15 @@ topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: 实例设置
 role: 管理员
-level: 富有经验
+level: 有经验者
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # 配置电子邮件渠道{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ## 旧版设置{#legacy-settings}
 
-如果您&#x200B;**不是**&#x200B;运行最新版活动，则下面描述的参数和UI部分仍然适用于您。
+如果您&#x200B;**NOT**&#x200B;运行最新版活动，则下面描述的参数和UI部分仍然适用于您。
 
 ### 重试 {#legacy-retries}
 
@@ -340,6 +340,10 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL To qualify]**:“弹回邮件”需要合格。必须由交付能力团队进行资格鉴定，以确保平台交付能力正确运行。 只要邮件不合格，弹回邮件就不会用于丰富电子邮件处理规则的列表。
 * **[!UICONTROL Keep]**:弹回邮件已经过鉴定，将由“更新”工 **作流使** 用，以与现有的电子邮件处理规则进行比较，并丰富列表。
 * **[!UICONTROL Ignore]**:弹回邮件已验证，但不会被“更新” **工作流** 使用。因此，它不会发送到客户端实例。
+
+>[!NOTE]
+>
+>如果ISP发生停机，通过活动发送的电子邮件将被错误地标记为退回。 要更正此问题，您需要更新退回资格。 有关更多信息，请参阅[此页面](../../administration/using/update-bounce-qualification.md)。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
