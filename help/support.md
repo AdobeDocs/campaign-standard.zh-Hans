@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: 帮助和支持选项
 role: 商业从业者
 level: 初学者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 91%
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">工作流中的错误管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">工作流执行疑难解答</a></li>
-        <li><a href="api/using/troubleshooting.md">API疑难解答</a></li>
+        <li><a href="api/using/troubleshooting.md">API 疑难解答</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">了解投放失败</a></li>
         </ul>
     </td>
@@ -63,7 +63,7 @@ ht-degree: 91%
         <li><a href="sending/using/about-deliverability.md">可投放性最佳实践</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">使用工作流导入数据</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">时区管理</a></li>
-        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">发生故障时接收通知</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">出现失败时接收通知</a></li>
         <li><a href="designing/using/using-existing-content.md">导入或转化电子邮件内容</a></li>
         <li><a href="sending/using/delivery-best-practices.md">投放最佳实践</a></li>
         </ul>
@@ -71,7 +71,7 @@ ht-degree: 91%
     <td valign="top">
         <ul>
         <li><a href="rn/using/release-planning.md">升级到新版本</a></li>
-        <li><a href="sending/using/monitoring-a-delivery.md">监视投放</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">监测投放</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">了解隔离管理</a></li>
         <li><a href="start/using/privacy-management.md">隐私和同意管理</a></li>
         <li><a href="automating/using/query.md">设计查询</a></li>
@@ -93,11 +93,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->控制面板可供所有管理员用户访问。 授予用户管理员访问权限的步骤详见[此页](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
 ### 如何访问控制面板？
 
-可直接从 Adobe Experience Cloud 访问控制面板。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)以了解更多信息。
+可直接从 Adobe Experience Cloud 访问控制面板。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
 
 ### 控制面板常见问题解答
 
@@ -119,7 +119,7 @@ ht-degree: 91%
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新的票证系统已通过[Adobe Admin Console](https://adminconsole.adobe.com/overview)。 新系统要求每个用户都有新的个人帐户，并具有正确的权限。如果您发现无法使用 Adobe ID 登录，请通过 Experience League 请求访问，客户关怀团队将尽快为您进行设置。[了解详情](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新的票证系统已设计为通过 [Adobe Admin Console](https://adminconsole.adobe.com/overview) 运行。新系统要求每个用户都有新的个人帐户，并具有正确的权限。如果您发现无法使用 Adobe ID 登录，请通过 Experience League 请求访问，客户关怀团队将尽快为您进行设置。[了解详情](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### 询问专家！
 
@@ -127,8 +127,8 @@ ht-degree: 91%
 
 ### 创建票证或开始聊天
 
-通过创建案例，您可以就您在使用 Adobe 产品中遇到的任何问题联系 Adobe 客户支持团队。为帮助您解决问题或排除疑难，Adobe Admin Console 将支持您与 Adobe 客户支持团队聊天。
+通过创建案例，您可以就您在使用 Adobe 产品的过程中遇到的任何问题联系 Adobe 客户支持团队。为帮助您解决问题或排除疑难，Adobe Admin Console 将支持您与 Adobe 客户支持团队聊天。
 
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-请按照[本页](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
+请按照[本页](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
