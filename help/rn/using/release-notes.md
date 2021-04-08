@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: 概述
 role: 商业从业者
 level: 初学者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2482'
 ht-degree: 100%
 
