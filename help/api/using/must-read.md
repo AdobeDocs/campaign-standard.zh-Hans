@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: 数据工程师
-level: 富有经验
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # 必读{#must-read}
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Adobe CampaignAPI必须仅用于服务器到服务器。
 * 如果要实施的用例与Adobe API允许的比例一致，请始终与您的Adobe Campaign技术联系人联系。
 * 设置AdobeIO访问需要特定权限，如有任何问题，请与Adobe支持联系。
+
+## 权限和访问
+
+* 默认情况下，Adobe Campaign API使用管理员上下文，因此组织单位和角色不适用。
+* Adobe CampaignAPI被排除在角色上下文之外。
+* 如果要配置具有组织单位或角色的API，请首先与您的Adobe技术联系人联系。
 
 ## 资源表示
 
