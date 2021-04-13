@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 用户档案
-role: 业务从业者
-level: 初学者
+role: Business Practitioner
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 20%
 
 ---
-
 
 # 用户档案和受众快速入门{#about-profiles-and-audiences}
 
@@ -88,7 +88,7 @@ Adobe Campaign优惠一组工具，帮助您遵守GDPR、CCPA和其他隐私法�
 
 ## 其他资源
 
-* [使用受众目标服务](../../integrating/using/aep-about-audience-destinations-service.md)
+* [将Adobe Experience Platform受众引入活动](../../integrating/using/ingest-aep-data.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
