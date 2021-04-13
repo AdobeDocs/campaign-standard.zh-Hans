@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: 触发器
-role: 数据架构师
-level: 中间
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 90%
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
-
 
 # 关于 Campaign 集成{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ ht-degree: 90%
    <td> 允许您与您使用的不同 Adobe Experience Cloud 应用程序交换受众。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 核心服务（用户档案和受众）</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe实时客户数据平台(RTCDP)<br /> </td> 
+   <td> Adobe Campaign与Adobe实时客户数据平台(RTCDP)之间的集成使您能够共享细分数据并将受众导入Adobe Campaign。</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">源和目标入门</a></td>
+  </tr> 
   <tr> 
    <td> Asset 核心服务和 Assets On Demand<br /> </td> 
    <td> 允许将来自 Adobe Experience Cloud 库的资源插入到在 Adobe Campaign 中创建的电子邮件和登陆页。<br /> </td> 
@@ -105,4 +110,3 @@ ht-degree: 90%
   </tr> 
  </tbody> 
 </table>
-
