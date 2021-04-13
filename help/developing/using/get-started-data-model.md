@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: 数据模型
-role: 开发人员
-level: 中间
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
-
 
 # Campaign Standard 数据模型快速入门 {#get-started-data-model}
 
@@ -66,5 +66,5 @@ Campaign Standard允许您&#x200B;**丰富预定义的数据模型**&#x200B;以�
 
 ## 其他资源
 
-* [关于 Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [导出/导入自定义资源](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [将数据从活动导出到Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
