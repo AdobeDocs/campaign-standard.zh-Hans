@@ -6,9 +6,9 @@ description: 利用动态报表，将变量和维度拖放到自由形式环境�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 报告
-role: 领导者
-level: 初学者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

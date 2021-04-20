@@ -5,7 +5,7 @@ title: 将Adobe Experience Platform受众引入活动
 description: 了解如何将Adobe Experience Platform受众引入Campaign Standard。
 audience: integrating
 content-type: reference
-feature: 源和目标
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

@@ -6,9 +6,9 @@ description: 了解如何使用在旧版编辑器电子邮件中创建的电子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
-role: 业务从业者
-level: 中间
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

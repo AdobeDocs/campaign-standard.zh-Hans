@@ -6,9 +6,9 @@ description: “了解如何在Adobe Campaign Standard中自定义显示并对�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 营销策划
-role: 业务从业者
-level: 中间
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

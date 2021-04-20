@@ -6,9 +6,9 @@ description: 在此处查找中每个可用组件的列表     动态报表及�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 报告
-role: 领导者
-level: 初学者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

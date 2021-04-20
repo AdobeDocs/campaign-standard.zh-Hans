@@ -6,7 +6,7 @@ description: 在此处查找与动态报告相关的常见问题。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 报告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82

@@ -6,9 +6,9 @@ description: 了解如何使用密件抄送电子邮件地址使用Adobe Campaig
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: 性能监控
-role: 商业从业者
-level: 中级
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39

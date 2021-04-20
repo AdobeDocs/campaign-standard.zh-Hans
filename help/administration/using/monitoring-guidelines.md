@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: 访问管理
-role: 管理员
-level: 富有经验
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

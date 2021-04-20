@@ -6,9 +6,9 @@ description: 在各种渠道上创建个性化信息，使用模板，创建登�
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 概述
-role: 业务从业者
-level: 初学者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

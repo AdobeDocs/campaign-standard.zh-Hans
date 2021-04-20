@@ -4,7 +4,7 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
-feature: 概述
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3

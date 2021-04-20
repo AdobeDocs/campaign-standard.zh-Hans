@@ -6,9 +6,9 @@ description: 在此示例中，每月的第一天晚8点会根据用户的时区
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: 工作流
-role: 数据架构师
-level: 中间
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,8 +6,8 @@ description: 进一步了解可以使用Campaign Standard工作流执行的使�
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 工作流
-role: 数据架构师
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

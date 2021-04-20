@@ -6,7 +6,7 @@ description: 了解 Adobe Campaign Standard 工作区中的辅助功能支持。
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: 营销活动
+feature: Campaigns
 role: Business Practitioner
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e

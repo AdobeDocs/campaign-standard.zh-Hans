@@ -6,9 +6,9 @@ description: 数据管理活动位于屏幕的左侧。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-feature: 工作流
-role: 数据架构师
-level: 中间
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

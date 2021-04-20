@@ -6,9 +6,9 @@ description: 了解丰富数据库的各种方法。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: 用户档案
-role: 业务从业者
-level: 中间
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

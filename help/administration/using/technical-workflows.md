@@ -6,9 +6,9 @@ description: 技术工作流是现成的工作流，用于在 Adobe Campaign 中
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 实例设置
-role: 管理员
-level: 富有经验
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

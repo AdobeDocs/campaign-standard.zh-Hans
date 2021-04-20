@@ -6,9 +6,9 @@ description: 了解如何在特定日期和时间发送消息。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: 性能监控
-role: 业务从业者
-level: 中间
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 从头开始创建电子邮件内容，可以导入 HTML 也可利�
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: 电子邮件设计
-role: 业务从业者
-level: 初学者
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 了解如何向Adobe Campaign用户发送实时系统通知。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 实例设置
-role: 管理员
-level: 富有经验
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

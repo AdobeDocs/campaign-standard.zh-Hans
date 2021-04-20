@@ -6,9 +6,9 @@ description: 本教程介绍如何导出和导入自定义资源包。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-feature: 工作流
-role: 数据架构师
-level: 富有经验
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

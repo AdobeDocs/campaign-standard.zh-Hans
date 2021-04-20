@@ -6,9 +6,9 @@ description: 体验模式模型(XDM)是一套标准的数据模型，可以在�
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM集成
-role: 数据架构师
-level: 富有经验
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: 使用自定义字段和资源来丰富 Campaign Standard 数据模
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 数据模型
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

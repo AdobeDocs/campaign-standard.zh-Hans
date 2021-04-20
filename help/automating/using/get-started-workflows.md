@@ -6,9 +6,9 @@ description: 利用工作流实现流程自动化、管理数据和受众、发�
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 工作流
-role: 数据架构师
-level: 初学者
+feature: Workflows
+role: Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

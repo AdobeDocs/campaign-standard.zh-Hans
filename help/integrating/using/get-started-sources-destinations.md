@@ -5,7 +5,7 @@ title: 源和目标入门
 description: 了解有关Adobe Experience Platform源和目标的更多信息。
 audience: integrating
 content-type: reference
-feature: 源和目标
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

@@ -6,9 +6,9 @@ description: 了解如何扩展用户档案资源。
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-feature: 数据模型
-role: 开发人员
-level: 富有经验
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

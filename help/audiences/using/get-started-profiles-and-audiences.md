@@ -6,7 +6,7 @@ description: 定义目标人群、选择受众、筛选收件人、收集数据�
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: 用户档案
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f

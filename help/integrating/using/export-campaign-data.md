@@ -5,7 +5,7 @@ title: 将数据从活动导出到Adobe Experience Platform
 description: 了解如何将数据从Campaign Standard导出到Adobe Experience Platform。
 audience: integrating
 content-type: reference
-feature: 源和目标
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

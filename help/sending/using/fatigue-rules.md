@@ -6,9 +6,9 @@ description: 创建疲劳规则以管理与用户档案的过度通信。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: 类型规则
-role: 业务从业者
-level: 中间
+feature: Typology Rules
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

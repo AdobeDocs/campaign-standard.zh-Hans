@@ -6,7 +6,7 @@ description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概述
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1

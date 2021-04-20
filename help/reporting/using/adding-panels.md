@@ -6,9 +6,9 @@ description: 动态报表允许您添加面板以根据所选时间段更好地�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 报告
-role: 领导者
-level: 中间
+feature: Reporting
+role: Leader
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

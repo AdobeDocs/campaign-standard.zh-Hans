@@ -6,9 +6,9 @@ description: 了解如何编辑现有用户档案和访问联系信息、首选�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 用户档案
-role: 业务从业者
-level: 中间
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 了解如何根据Adobe Campaign中定义的条件向用户动态�
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-feature: 短信
-role: 业务从业者
-level: 初学者
+feature: SMS
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

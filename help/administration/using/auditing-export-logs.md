@@ -6,9 +6,9 @@ description: 管理员可以跟踪从Adobe Campaign导出的内容。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 访问管理
-role: 管理员
-level: 富有经验
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 了解如何通过兴趣点数据集成根据用户位置创建个�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 受众
-role: 数据架构师
-level: 中间
+feature: Audiences
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

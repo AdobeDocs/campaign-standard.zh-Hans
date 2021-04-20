@@ -6,7 +6,7 @@ description: 详细了解用于管理隐私的 Adobe Campaign Standard 功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 隐私
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a

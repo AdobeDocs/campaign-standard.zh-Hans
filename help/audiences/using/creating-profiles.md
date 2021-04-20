@@ -6,9 +6,9 @@ description: 了解如何使用 API、导入功能、在线获取、自动或手
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 用户档案
-role: 业务从业者
-level: 初学者
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

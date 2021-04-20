@@ -6,9 +6,9 @@ description: 了解如何在电子邮件设计器中个性化电子邮件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
-role: 商业从业者
-level: 中间
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

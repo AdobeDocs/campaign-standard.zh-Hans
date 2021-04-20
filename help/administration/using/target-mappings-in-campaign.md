@@ -6,9 +6,9 @@ description: 目标映射是活动为传递消息而使用的技术对象。 它
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 实例设置
-role: 管理员
-level: 富有经验
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

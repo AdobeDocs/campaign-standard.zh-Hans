@@ -6,9 +6,9 @@ description: 了解如何收集数据以填充 Campaign 数据库。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-feature: 工作流
-role: 数据架构师
-level: 富有经验
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
