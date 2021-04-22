@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,17 +268,17 @@ ht-degree: 98%
          + [在 Microsoft Dynamics 365 与 Campaign 之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 和 Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform源和目标{#aep-sources-destinations}
-         + [源和目标入门](integrating/using/get-started-sources-destinations.md)
-         + [将Adobe Experience Platform受众引入活动](integrating/using/ingest-aep-data.md)
-         + [将数据从活动导出到Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + 受众目标服务（测试版）{#audience-destinations}
+      + Adobe Experience Platform Sources 与 Destinations{#aep-sources-destinations}
+         + [Sources 与 Destinations 入门](integrating/using/get-started-sources-destinations.md)
+         + [将 Adobe Experience Platform 受众引入 Campaign](integrating/using/ingest-aep-data.md)
+         + [将数据从 Campaign 导出到 Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + Audience Destinations Service（受众目标服务）测试版{#audience-destinations}
          + [关于 Audience Destinations 服务](integrating/using/aep-about-audience-destinations-service.md)
          + [管理 Adobe Experience Platform 受众](integrating/using/aep-managing-audiences.md)
          + [使用 Segment Builder](integrating/using/aep-using-segment-builder.md)
          + [定向 Adobe Experience Platform 受众](integrating/using/aep-targeting-audiences.md)
          + [使用 Adobe Experience Platform 属性个性化营销策划](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector (beta) {#data-connector}
+      + Adobe Experience Platform Data Connector（测试版）{#data-connector}
          + [关于 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Experience Platform 数据模型概述](integrating/using/aep-data-model-overview.md)
          + [映射定义](integrating/using/aep-mapping-definition.md)
