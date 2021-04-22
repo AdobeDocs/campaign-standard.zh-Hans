@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
-feature: Overview
+feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## 新增功能
 
-* **[活动- RTCDP集](integrating/using/get-started-sources-destinations.md)**<br/> 成了解如何在活动和实时客户数据平台(RTCDP)之间共享数据
+* **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
 
 * **[更新错误硬退回](https://helpx.adobe.com/cn/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在 Gmail 中断后更新错误硬退回
 
