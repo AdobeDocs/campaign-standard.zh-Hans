@@ -6,17 +6,17 @@ description: 利用查询编辑工具，可使用高级函数进行复杂筛选�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: 工作流
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 98%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
-
 
 # 函数列表{#list-of-functions}
 
@@ -660,7 +660,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用 AES 算法（CBC 块模式），用密钥（第 2 个参数）和初始化矢量（第 3 个参数）对字符串（第 1 个参数）进行加密。密钥和初始化矢量必须以十六进制表示形式提供（以 <strong>\x</strong> 开头）。结果将以十六进制表示，但不带 <strong>\x</strong>。<br />请注意，密钥大小可以是 128 位、192 位、256 位（16、24、32 个十六进制字符），但建议您使用 256 位和与密钥长度相同的随机 IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
