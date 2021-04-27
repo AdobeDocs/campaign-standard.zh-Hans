@@ -1,31 +1,31 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 将数据从活动导出到Adobe Experience Platform
+title: 将数据从 Campaign 导出到 Adobe Experience Platform
 description: 了解如何将数据从Campaign Standard导出到Adobe Experience Platform。
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: 源和目标
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
+# 将数据从 Campaign 导出到 Adobe Experience Platform {#sources}
 
-# 将数据从活动导出到Adobe Experience Platform {#sources}
-
-要将Campaign Standard数据导出到Adobe实时客户数据平台(RTCDP)，您首先需要在Campaign Standard中构建一个工作流，以导出到要共享的数据的S3或Azure blob存储位置。
+要将Campaign Standard数据导出到Adobe实时客户数据平台(RTCDP)，您首先需要在Campaign Standard中构建一个工作流，以导出到Amazon存储服务(S3)或Azure Blob存储位置，以便共享数据。
 
 配置工作流并将数据发送到您的存储位置后，您需要将S3或Azure blob存储位置连接为Adobe体验平台中的&#x200B;**Source**。
 
 >[!NOTE]
-
-请注意，我们建议仅导出活动生成的数据（例如发送、打开、单击等） Adobe Experience Platform。 从第三方源（如您的CRM）中摄取的数据应直接导入Adobe Experience Platform。
+>
+>请注意，我们建议仅导出活动生成的数据（例如发送、打开、单击等） Adobe Experience Platform。 从第三方源（如您的CRM）中摄取的数据应直接导入Adobe Experience Platform。
 
 ## 在Campaign Standard中创建导出工作流
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ## 将存储位置连接为源
 
-以下列出了将S3或Azure Blob存储位置连接为Adobe体验平台中的&#x200B;**源**&#x200B;的主要步骤。 [源连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)中提供了有关这些步骤中每个步骤的详细信息。
+以下列出了将Amazon存储服务(S3)或Azure Blob存储位置连接为Adobe体验平台中的&#x200B;**源**&#x200B;的主要步骤。 [源连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)中提供了有关这些步骤中每个步骤的详细信息。
 
 1. 在Adobe Experience Platform **[!UICONTROL Sources]**&#x200B;菜单中，创建到存储位置的连接：
 
