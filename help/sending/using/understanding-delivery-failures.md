@@ -6,17 +6,17 @@ description: 了解如何通过 Campaign 管理投放失败。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: 可投放性
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1307'
 ht-degree: 66%
 
 ---
-
 
 # 了解投放失败{#understanding-delivery-failures}
 
@@ -78,8 +78,8 @@ ht-degree: 66%
 
 
 **相关主题：**
-* [硬弹回](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [软弹回](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [硬弹回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软弹回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 在投放临时失败后重试{#retries-after-a-delivery-temporary-failure}
 
