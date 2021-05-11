@@ -10,11 +10,11 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期随时可能更改：我们建议您定期访问此页面以查看更新。
 
-## 版本21.2 - 2021年6月版本{#release-21-2-release}
+## 21.2 版 - 2021 年 6 月版{#release-21-2-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
@@ -44,11 +44,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年6月7日至8日<br /> </td>
+   <td>2021 年 6 月 7 日至 8 日<br /> </td>
   </tr>
   <tr>
    <td> 制作<br /> </td>
-   <td>2021年6月14日至21日<br /> </td>
+   <td>2021 年 6 月 14 日至 21 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **问：采用什么验证流程？**
 
-答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)报告任何问题。
+答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)报告任何问题。
 
 **问：在升级过程中是否可以访问实例？**
 
@@ -87,4 +87,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
