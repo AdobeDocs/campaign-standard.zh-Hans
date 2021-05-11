@@ -6,17 +6,17 @@ description: 了解如何通过API触发数据摄取。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM集成
 role: Data Architect
 level: Experienced
+exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 4%
 
 ---
-
 
 # 通过 API 触发数据摄取 {#triggering-data-ingestion-apis}
 
