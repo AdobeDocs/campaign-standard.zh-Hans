@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +54,7 @@ ht-degree: 100%
       + [创建用户档案](audiences/using/creating-profiles.md)
       + [编辑用户档案](audiences/using/editing-profiles.md)
       + [整合的客户用户档案](audiences/using/integrated-customer-profile.md)
-      + [使用中的用户档案](audiences/using/active-profiles.md)
+      + [量度和活动用户档案](audiences/using/active-profiles.md)
       + [管理测试用户档案](audiences/using/managing-test-profiles.md)
       + [扩充 Campaign 数据库](audiences/using/enriching-campaign-database.md)
    + 管理受众 {#managing-audiences}
@@ -117,7 +116,7 @@ ht-degree: 100%
       + [创建直邮](channels/using/creating-the-direct-mail.md)
       + [定义直邮受众](channels/using/defining-the-direct-mail-audience.md)
       + [定义直邮内容](channels/using/defining-the-direct-mail-content.md)
-   + 事务型消息传递 {#transactional-messaging}
+   + 事务性消息传递 {#transactional-messaging}
       + [事务性消息传递入门](channels/using/getting-started-with-transactional-msg.md)
       + [最佳实践和限制](channels/using/transactional-messaging-limitations.md)
       + 事件配置 {#event-configuration}
@@ -184,8 +183,8 @@ ht-degree: 100%
    + 管理投放能力 {#managing-deliverability}
       + [关于投放能力](sending/using/about-deliverability.md)
       + [控制电子邮件内容](sending/using/control-email-content.md)
-      + [监控投放能力](sending/using/monitor-deliverability.md)
-      + [疑难解答](sending/using/troubleshooting.md)
+      + [监测可投放性](sending/using/monitor-deliverability.md)
+      + [故障排除](sending/using/troubleshooting.md)
    + 使用分类规则 {#working-with-typology-rules}
       + [关于分类和分类规则](sending/using/about-typology-rules.md)
       + [管理分类](sending/using/managing-typologies.md)
@@ -193,14 +192,14 @@ ht-degree: 100%
       + [筛选规则](sending/using/filtering-rules.md)
       + [疲劳规则](sending/using/fatigue-rules.md)
       + [控制规则](sending/using/control-rules.md)
-+ 报告 {#reporting}
++ 报告{#reporting}
    + [动态报告快速入门](reporting/using/get-started-reporting.md)
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
       + [报告界面](reporting/using/reporting-interface.md)
       + [组件列表](reporting/using/list-of-components-.md)
       + [指标计算](reporting/using/indicator-calculation.md)
-      + [疑难解答](reporting/using/troubleshooting.md)
+      + [故障排除](reporting/using/troubleshooting.md)
    + 报告列表 {#list-of-reports}
       + [定义报告周期](reporting/using/defining-the-report-period.md)
       + [退回摘要](reporting/using/bounce-summary.md)
@@ -243,7 +242,7 @@ ht-degree: 100%
    + Campaign 和 Audience Manager 或 People 核心服务{#working-with-campaign-and-audience-manager-or-people-core-service}
       + [关于 Campaign-Audience Manager 或 People 核心服务集成](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [预配和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
-      + [疑难解答](integrating/using/troubleshooting.md)
+      + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign 和 Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
@@ -295,7 +294,7 @@ ht-degree: 100%
       + [关于工作流执行](automating/using/about-workflow-execution.md)
       + [工作流生命周期](automating/using/workflow-life-cycle.md)
       + [执行命令](automating/using/execution-commands.md)
-      + [监视工作流执行](automating/using/monitoring-workflow-execution.md)
+      + [监控工作流执行](automating/using/monitoring-workflow-execution.md)
       + [管理执行选项](automating/using/managing-execution-options.md)
       + [管理活动属性](automating/using/activity-properties.md)
       + [预定工作流的重叠执行](automating/using/scheduled-workflows-execution.md)
@@ -417,7 +416,7 @@ ht-degree: 100%
    + 数据模型 {#datamodel}
       + [简介](developing/using/datamodel-introduction.md)
       + [受众](developing/using/datamodel-audience.md)
-      + [营销策划](developing/using/datamodel-campaign.md)
+      + [营销活动](developing/using/datamodel-campaign.md)
       + [投放](developing/using/datamodel-delivery.md)
       + [登陆页面](developing/using/datamodel-landingpage.md)
       + [营销历史](developing/using/datamodel-history.md)
@@ -444,7 +443,7 @@ ht-degree: 100%
    + 配置渠道 {#configuring-channels}
       + [关于渠道配置](administration/using/about-channel-configuration.md)
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
-      + [在 ISP 中断后更新退回限定条件](administration/using/update-bounce-qualification.md)
+      + [在 ISP 中断后更新退回限制条件](administration/using/update-bounce-qualification.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
@@ -458,8 +457,8 @@ ht-degree: 100%
       + [如何将移动应用程序从 SDK v4 迁移到 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 配置短信渠道 {#configuring-sms}
       + [实施短信渠道](administration/using/configuring-sms-channel.md)
-      + [短信连接器协议和设置](administration/using/sms-protocol.md)
-      + [短信疑难解答](administration/using/troubleshooting-sms.md)
+      + [SMS 连接器协议和设置](administration/using/sms-protocol.md)
+      + [SMS 疑难解答](administration/using/troubleshooting-sms.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
@@ -513,4 +512,4 @@ ht-degree: 100%
       + [检索用户档案的地理单位](api/using/retrieving-a-geographical-unit.md)
       + [更新用户档案的地理单位](api/using/updating-a-geographical-unit.md)
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
-   + [疑难解答](api/using/troubleshooting.md)
+   + [故障排除](api/using/troubleshooting.md)
