@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [创建用户档案](audiences/using/creating-profiles.md)
       + [编辑用户档案](audiences/using/editing-profiles.md)
       + [整合的客户用户档案](audiences/using/integrated-customer-profile.md)
-      + [量度和活动用户档案](audiences/using/active-profiles.md)
+      + [使用中的用户档案](audiences/using/active-profiles.md)
       + [管理测试用户档案](audiences/using/managing-test-profiles.md)
       + [扩充 Campaign 数据库](audiences/using/enriching-campaign-database.md)
    + 管理受众 {#managing-audiences}
