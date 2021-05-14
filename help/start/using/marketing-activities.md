@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: 营销活动
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 82%
 
 ---
-
 
 # 营销活动{#marketing-activities}
 
@@ -33,7 +32,7 @@ ht-degree: 82%
 >
 >您还可以通过从主页中选择 **[!UICONTROL Marketing activities]** 卡以访问营销活动。
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 利用 **[!UICONTROL Search]** 窗格，可根据不同的条件筛选元素：名称（标签和 ID）、日期、状态或活动类型。默认情况下，会选择除项目以外的所有活动类型。
 
@@ -96,4 +95,3 @@ ht-degree: 82%
 >[!NOTE]
 >
 >您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，并选择通过活动的属性将营销活动关联到父项目(或在创建项目时关联到父活动)。
-
