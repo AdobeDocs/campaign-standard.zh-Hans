@@ -10,10 +10,9 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
+## 2021 年 5 月 {#doc-updates-may-2021}
+
+**活动用户档案**&#x200B;报表部分已更新。 [阅读更多](../../audiences/using/active-profiles.md)
+
+**发行计划**&#x200B;页面已更新为新日期。 [阅读更多](../../rn/using/release-planning.md)
+
+
 ## 2021 年 4 月 {#doc-updates-april-2021}
 
 新的章节介绍了如何使用 Adobe Experience Platform Sources 与 Destinations 在 Campaign Standard 和 Adobe 实时客户数据平台 (RTCDP) 之间共享数据。[阅读更多](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
-Campaign Standard 的“帮助和支持选项”页面已集成到核心文档中。[阅读更多](../../support.md)
+新&#x200B;**帮助和支持选项**&#x200B;页。 [阅读更多](../../support.md)
 
 在列出发送消息的关键步骤的部分，增加了其他信息和参考内容。[阅读更多](../../channels/using/key-steps-to-send-a-message.md)
 
