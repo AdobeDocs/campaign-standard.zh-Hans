@@ -8,11 +8,10 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
 
-* **[更新错误硬退回](https://helpx.adobe.com/cn/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在 Gmail 中断后更新错误硬退回
+* **[更新错误硬跳](https://helpx.adobe.com/cn/campaign/kb/update-bounce-qualification.html)**<br/> 回了解如何在电子邮件中断后更新错误硬跳回
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
