@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: 关于订阅
 description: 进一步了解 Campaign Standard 中的服务和订阅。
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: 受众
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # 关于订阅{#about-subscriptions}
 
-利用 Adobe Campaign，可通过一系列&#x200B;**服务**，创建和管理新闻通讯与跨渠道通信：消息只能发送给订阅该服务（选择加入）的用户档案。创建消息时，会使用专用过滤器标识这些用户档案。
+使用Adobe Campaign创建和管理新闻稿和跨渠道通信，通过一组&#x200B;**服务**:消息仅发送给订阅该服务（选择加入）的用户档案。 创建消息时，会使用专用过滤器标识这些用户档案。
 
 可以设置订阅机制为客户提供订阅这些服务的机会，尤其是通过&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**。
 
