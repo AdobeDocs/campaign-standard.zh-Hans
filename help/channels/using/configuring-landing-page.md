@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 登陆页面
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # 配置登陆页面{#configuring-landing-page}
 
@@ -70,12 +69,11 @@ ht-degree: 99%
 
    如果页面访客与数据库中的用户档案相对应，则其数据将显示在使用数据库数据映射的表单字段中，且登陆页面的个性化元素也会被考虑在内。
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-您还可以：
+您还可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;选项授权任何访客访问登陆页。
 
-* 使用 **[!UICONTROL Authorize visitor identification via URL parameters]**&#x200B;选项，通过 URL 参数识别访客：然后您必须选择加载密钥，并将过滤器参数映射到对应 URL 的参数。
-* 使用 **[!UICONTROL Authorize unidentified visitors]** 选项可授权任何访客访问登陆页面。
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 登陆页面还可以链接到组织单位。这样可定义用户对不同登陆页面的访问权限。要分配组织单位，请执行以下操作：
 
@@ -111,7 +109,7 @@ ht-degree: 99%
 1. 勾选 **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** 选项。
 1. 选择您之前创建的 Google reCAPTCHA 外部帐户。
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. 单击 **[!UICONTROL Confirm]**。
 
