@@ -6,7 +6,7 @@ description: 跟踪的 URL 签名问题
 hidefromtoc: true
 hide: true
 source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
