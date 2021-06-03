@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 3%
 * 现在，标准用户可以使用与电子邮件设计器的资产核心服务集成。
 
 * 添加了新消息，以确认成功从v4推送应用程序迁移到v5推送应用程序。
+
+* 在创建JSONWeb令牌以对Campaign StandardAPI进行身份验证期间，产品配置文件现在&#x200B;**被视为**。 这意味着分配给安全组的组织单位和角色（与AdobeIO上的产品配置文件匹配）将应用于Campaign StandardRest API调用所需的IMS技术帐户。 (CAMP-47479)
+
 
 **修补程序**
 
@@ -111,5 +114,3 @@ ht-degree: 3%
 * 修复了Email Designer中的一个问题，即在尝试选择资产时，资产核心服务集成一直失败。 (CAMP-47446)
 
 * 修复了由于Campaign不支持由Journey Orchestration事件发送的具有精确值（即以00结尾）的时间戳，从而阻止某些Journey Orchestration投放的问题。
-
-* updateDeliveryIndicators技术工作流已优化。 具有相同broadlog/trackinglog架构的投放ID现在分组在一起。 这限制了查询的数量，从而提高了性能。
