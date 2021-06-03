@@ -10,16 +10,21 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # 最新版本{#latest-release}
 
 [发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
+
+
+## 21.2 版 - 2021 年 6 月{#release-21-2}
+
+[早期发行说明](e-release-notes.md)中列出了下一个Campaign Standard版本中包含的新增功能、改进和修复。
 
 ## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
 
