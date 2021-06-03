@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 100%
 + [最近更新](rn/using/documentation-updates.md)
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
-   + [早期发行说明](rn/using/early-release-notes.md)
+   + [早期发行说明](rn/using/e-release-notes.md)
    + 之前版本 {#previous-releases}
       + [发行说明 2020](rn/using/release-notes-2020.md)
-      + [发行说明 2019](rn/using/release-notes-2019.md)
-      + [发行说明 2018](rn/using/release-notes-2018.md)
-      + [发行说明 2017](rn/using/release-notes-2017.md)
+      + [发行说明2019](rn/using/release-notes-2019.md)
+      + [发行说明2018](rn/using/release-notes-2018.md)
+      + [发行说明2017](rn/using/release-notes-2017.md)
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
    + [跟踪的 URL 签名问题](rn/using/tracked-urls.md)
@@ -85,7 +85,7 @@ ht-degree: 100%
       + [生成个性化内容](sending/using/design-and-personalize.md)
       + [定义正确的受众](sending/using/define-the-right-audience.md)
       + [发送前检查](sending/using/check-before-sending.md)
-      + [跟踪和监视](sending/using/track-and-monitor.md)
+      + [跟踪和监测](sending/using/track-and-monitor.md)
    + 电子邮件消息 {#email-messages}
       + [关于电子邮件](channels/using/about-emails.md)
       + [创建电子邮件](channels/using/creating-an-email.md)
@@ -357,7 +357,7 @@ ht-degree: 100%
       + [导出列表](automating/using/exporting-lists.md)
       + [使用案例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
    + 用例 {#workflow-use-case}
-      + [关于工作流使用案例](automating/using/about-workflow-use-cases.md)
+      + [关于工作流用例](automating/using/about-workflow-use-cases.md)
       + 投放 {#deliveries}
          + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
          + [在用户档案的创建日期创建投放](automating/using/workflow-creation-date-query.md)
@@ -430,7 +430,7 @@ ht-degree: 100%
       + [访客](developing/using/datamodel-visitor.md)
 + 管理 {#administrating}
    + [Campaign Standard 管理快速入门](administration/using/get-started-campaign-administration.md)
-   + [监控准则](administration/using/monitoring-guidelines.md)
+   + [监测准则](administration/using/monitoring-guidelines.md)
    + [配置准则](administration/using/about-configuration-guidelines.md)
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
@@ -458,7 +458,7 @@ ht-degree: 100%
    + 配置短信渠道 {#configuring-sms}
       + [实施短信渠道](administration/using/configuring-sms-channel.md)
       + [SMS 连接器协议和设置](administration/using/sms-protocol.md)
-      + [SMS 疑难解答](administration/using/troubleshooting-sms.md)
+      + [短信故障排除](administration/using/troubleshooting-sms.md)
    + 应用程序设置 {#application-settings}
       + [关于 Campaign Standard 设置](administration/using/about-campaign-standard-settings.md)
       + [外部帐户](administration/using/external-accounts.md)
