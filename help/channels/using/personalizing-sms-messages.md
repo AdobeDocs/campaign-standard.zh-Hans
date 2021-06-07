@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
-feature: SMS
+feature: 短信
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # 个性化短信消息{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ ht-degree: 99%
 
 ## 短信发送方{#sms-sender}
 
-您可以将短信发送方的名称个性化。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)一节。
+>[!IMPORTANT]
+>
+>请参见您所在国家/地区有关修改发件人地址的法律。您还应与短信服务提供商进行核实，了解他们是否提供此功能。
+
+利用 **[!UICONTROL From]**，可使用字符串将短信消息发送者的名称个性化。该名称在收件人的手机显示为短信消息的发送者。
+
+如果此字段为空，则将显示所用外部帐户中提供的源号码。如果未提供源号码，则将使用短代码。有关专用于短信投放的外部帐户，请参阅[定义短信路由](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)一节。
+
+![](assets/sms_creation_8.png)
+
+
+
