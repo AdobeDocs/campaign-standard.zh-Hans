@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: 实例设置
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # 配置短信渠道{#configuring-sms-channel}
 
@@ -333,17 +332,13 @@ CR：回车
 
 从&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
 
-* 利用 **[!UICONTROL From]**，可使用字符串将短信消息发送者的名称个性化。该名称在收件人的手机显示为短信消息的发送者。
+* **[!UICONTROL Short code]**&#x200B;允许您向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的更多信息，请参阅[此部分](../../channels/using/managing-incoming-sms.md)。
 
-   如果此字段为空，则将显示所用外部帐户中提供的源号码。如果未提供源号码，则将使用短代码。有关专用于短信投放的外部帐户，请参阅[定义短信路由](#defining-an-sms-routing)一节。
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >请参见您所在国家/地区有关修改发件人地址的法律。您还应与短信服务提供商进行核实，了解他们是否提供此功能。
+   >如果&#x200B;**[!UICONTROL Short code]**&#x200B;字段留空，则将使用外部帐户中设置的&#x200B;**[!UICONTROL Short code]**&#x200B;字段值。
 
-从SMS模板的&#x200B;**[!UICONTROL Send]**&#x200B;部分：
+从短信模板的&#x200B;**[!UICONTROL Send]**&#x200B;部分：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 
