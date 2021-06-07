@@ -10,11 +10,10 @@ feature: 工作流
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 97%
+source-wordcount: '1971'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +37,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->所有活动中都提供了其他函数，允许您在调用具有外部参数的工作流后使用事件变量。 详见[本节](../../automating/using/customizing-workflow-external-parameters.md)。
+>所有活动中都提供了其他函数，允许您在使用外部参数调用工作流后使用事件变量。 [此部分](../../automating/using/customizing-workflow-external-parameters.md)中详细介绍了这些参数。
 
-## 日期{#dates}
+## 日期 {#dates}
 
 日期函数用于操作日期或时间值。
 
@@ -284,7 +283,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 地理位置营销{#geomarketing}
+## 地理位置营销 {#geomarketing}
 
 利用地理位置营销函数来操作地理值。
 
@@ -303,7 +302,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 数值{#numerical}
+## 数值 {#numerical}
 
 数值函数用于将文本转换为数字。
 
@@ -660,12 +659,12 @@ ht-degree: 97%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用 AES 算法（CBC 块模式），用密钥（第 2 个参数）和初始化矢量（第 3 个参数）对字符串（第 1 个参数）进行加密。密钥和初始化矢量必须以十六进制表示形式提供（以 <strong>\x</strong> 开头）。结果将以十六进制表示，但不带 <strong>\x</strong>。<br />请注意，密钥大小可以是 128 位、192 位、256 位（16、24、32 个十六进制字符），但建议您使用 256 位和与密钥长度相同的随机 IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt（&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;）<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 聚合{#aggregates}
+## 聚合 {#aggregates}
 
 只有从工作流的 **[!UICONTROL Query]** 活动[添加其他数据](../../automating/using/query.md#enriching-data)时，聚合函数才可用。
 
@@ -707,8 +706,16 @@ ht-degree: 97%
    <td> <strong>Min</strong>, Min<br /> </td> 
    <td> 返回数字、字符串或日期列中的最小值。<br /> </td> 
    <td> Min(&lt;值&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>，字符串聚合<br /> </td> 
+   <td> 返回字符串类型列值的串联，并由第二个参数（默认分隔符为逗号）中的字符分隔。<br /> </td> 
+   <td> StringAgg（&lt;字符串值&gt;,&lt;分隔符&gt;）
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> 返回数值列中值的和。<br /> </td> 
    <td> Sum(&lt;值&gt;)<br /> </td> 
@@ -716,7 +723,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 表示{#representation}
+## 表示 {#representation}
 
 表示函数用于对值进行排序。
 
