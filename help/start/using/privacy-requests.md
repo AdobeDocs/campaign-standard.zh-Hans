@@ -6,14 +6,13 @@ description: 了解如何在 Adobe Campaign Standard 中管理隐私请求
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: 隐私
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1712'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1624'
 ht-degree: 100%
 
 ---
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 要执行这些请求，您必须使用&#x200B;**隐私核心服务**&#x200B;集成。从隐私核心服务推送到所有 Experience Cloud 解决方案的隐私请求由 Campaign 通过专用工作流自动处理。
 
-### 先决条件{#prerequesites}
+### 先决条件 {#prerequesites}
 
 Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中存储的数据的隐私请求的工具。但是，数据控制者负责处理与数据主体（电子邮件、客户关怀或 Web 门户）的关系。
 
@@ -156,21 +155,21 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 * **[!UICONTROL Complete]**：请求的处理已完成，并且没有错误。
 * **[!UICONTROL Error]**：工作流遇到错误。原因显示在 **[!UICONTROL Request status]** 列的隐私请求列表中。例如，**[!UICONTROL Error data not found]** 表示在数据库中找不到与数据主体的 **[!UICONTROL Reconciliation value]** 匹配的收件人数据。
 
-### 禁用两步流程 {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-核心隐私服务不支持两步流程。
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->在使用核心隐私服务集成来管理隐私请求之前，您必须从 Campaign Standard 界面对删除请求禁用两步流程。
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-如果未禁用此选项，则通过隐私核心服务管理的所有删除请求都将保持挂起状态，并且将无法完成。
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-默认情况下，将激活两步流程。
+By default, the 2-step process is activated.
 
-要更改此模式，请单击 **[!UICONTROL Edit properties]**（位于 **[!UICONTROL Privacy Requests]** 屏幕的右上角），然后取消选中 **[!UICONTROL Activate the 2-step process]** 选项。
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## 选择退出个人信息销售 (CCPA) {#sale-of-personal-information-ccpa}
 
