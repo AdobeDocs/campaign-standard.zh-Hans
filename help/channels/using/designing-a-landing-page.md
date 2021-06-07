@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 登陆页面
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
-
 
 # 设计登陆页面{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ ht-degree: 99%
 
 设计登陆页面时，您需要定义页面本身、确认页面和出错页面的内容。使用操作栏下的切换器，可一一显示和配置这些页面。
 
-可通过 Campaign 内容编辑器设计登陆页面的内容。
+登陆页面的内容通过Campaign内容编辑器进行设计。
 
 >[!NOTE]
 >
->如果您安装的实例早于 Adobe Campaign Standard 19.0 版，则仍会访问旧版电子邮件内容编辑器。界面、使用原理和配置，基本上与下方所述的登陆页面相同。但是，从 19.0 版开始就弃用了旧版电子邮件内容编辑器，因此可能无法提供或维持该编辑器的所有功能。要通过具有扩展功能的拖放界面快速编辑电子邮件内容，请使用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
+>对于电子邮件设计，如果您的实例是在Adobe Campaign Standard 19.0版本之前安装的，则您仍然可以访问旧版电子邮件内容编辑器。 界面、使用原理和配置，基本上与下方所述的登陆页面相同。但是，从 19.0 版开始就弃用了旧版电子邮件内容编辑器，因此可能无法提供或维持该编辑器的所有功能。要通过具有扩展功能的拖放界面快速编辑电子邮件内容，请使用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 本页介绍登陆页面内容编辑器的特性。有关一个或多个营销活动通用操作的更多信息，请参阅&#x200B;**设计电子邮件内容**&#x200B;指南的以下章节：
 
 * [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
-* [插入链接](../../designing/using/links.md#inserting-a-link)。
-* [插入图像](../../designing/using/images.md)。
-* [内容设计的常见最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
+* [添加内容块](../../designing/using/personalization.md#adding-a-content-block)
+* [插入链接](../../designing/using/links.md#inserting-a-link)
+* [插入图像](../../designing/using/images.md)
+* [内容设计的一般最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >如果您的登陆页面已预定义为 HTML 格式，则可以使用 **[!UICONTROL Change content]** 按钮直接将其导入。
