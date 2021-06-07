@@ -6,17 +6,16 @@ description: 技术工作流是现成的工作流，用于在 Adobe Campaign 中
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: 实例设置
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # 技术工作流{#technical-workflows}
 
@@ -100,9 +99,14 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
    <td> 此工作流可同步在 Adobe Campaign Standard 中导入的 Adobe Launch 移动属性。每 15 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">更新投放执行</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> 此工作流可更新投放的跟踪。默认情况下，每 10 分钟启动一次。<br /> </td> 
+   <td> <span class="uicontrol">跟踪日志恢复</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> 此工作流可同步在 Adobe Campaign Standard 中导入的 Adobe Launch 移动属性。每 15 分钟启动一次。<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 此工作流会恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并仅限于Adobe内部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">更新投放指标</span> <br /> </td> 
@@ -121,4 +125,3 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
   </tr> 
  </tbody> 
 </table>
-
