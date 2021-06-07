@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 帮助中心
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [最新版本](rn/using/release-notes.md)
    + [早期发行说明](rn/using/e-release-notes.md)
    + 之前版本 {#previous-releases}
+      + [发行说明2021](rn/using/release-notes-2021.md)
       + [发行说明 2020](rn/using/release-notes-2020.md)
       + [发行说明2019](rn/using/release-notes-2019.md)
       + [发行说明2018](rn/using/release-notes-2018.md)
