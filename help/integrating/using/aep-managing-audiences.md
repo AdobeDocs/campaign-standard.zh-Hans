@@ -7,23 +7,22 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM集成
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # 管理 Adobe Experience Platform 受众 {#about-audiences}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
 ## 访问Adobe Experience Platform受众
 
@@ -31,9 +30,9 @@ ht-degree: 3%
 
 ![](assets/aep_audiences_access.png)
 
-您首先会转到Adobe Experience Platform区段列表页面，在该页面中可访问现有Adobe Experience Platform区段以进一步编辑。
+首先，会将您定向到Adobe Experience Platform区段列表页面，在该页面中，可以访问已有的Adobe Experience Platform区段以进一步编辑。
 
-搜索栏和筛选器可帮助您找到所需的Adobe Experience Platform区段。
+搜索栏和过滤器可帮助您找到所需的Adobe Experience Platform区段。
 
 ![](assets/aep_audiences_list.png)
 
@@ -41,34 +40,34 @@ ht-degree: 3%
 
 要直接在Campaign Standard中创建Adobe Experience Platform受众，请执行以下步骤：
 
-1. 在Adobe Experience Platform区段列表页中，单击右角的&#x200B;**[!UICONTROL New audience]**&#x200B;按钮。
+1. 在Adobe Experience Platform区段列表页面中，单击右角的&#x200B;**[!UICONTROL New audience]**&#x200B;按钮。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. 区段生成器现在应显示在您的工作区中。 它允许您使用Adobe Experience Platform中的数据构建区段，最终将用于创建受众。
+1. 现在，区段生成器应会显示在您的工作区中。 利用此功能，可使用Adobe Experience Platform中的数据构建区段，最终将用于创建受众。
 
-1. 在右侧窗格中命名区段并输入说明（可选）。
+1. 在右侧窗格中命名区段并输入描述（可选）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. 要成功创建区段，您必须选择与此区段的营销目的相符的&#x200B;**合并策略**。
+1. 要成功创建区段，必须选择与此区段的营销目的匹配的&#x200B;**合并策略**。
 
-   在“设置”窗格中，选择了“平台默认合并策略”。 有关合并策略的详细信息，请参阅[区段生成器用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)中的专用部分。
+   在设置窗格中，选择平台默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专述部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 定义用于标识要在受众中检索的用户档案的规则。
+1. 定义规则以标识要在受众中检索的用户档案。
 
-   为此，请将所需的属性和/或事件从左侧窗格拖入工作区，定义相应的规则，然后单击&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮以保存区段（请参阅[使用区段生成器](../../integrating/using/aep-using-segment-builder.md)）。
+   要执行此操作，请将所需的属性和/或事件从左窗格拖入工作区中，定义相应的规则，然后单击&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮以保存区段（请参阅[使用区段生成器](../../integrating/using/aep-using-segment-builder.md)）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-该受众现在已准备好激活，您可以将其用作活动的目标(请参阅[定位Adobe Experience Platform受众](../../integrating/using/aep-targeting-audiences.md))。
+受众现已准备就绪，您可以将其用作营销活动的目标(请参阅[定位Adobe Experience Platform受众](../../integrating/using/aep-targeting-audiences.md))。
 
 ## 编辑受众
 
-要编辑受众，请在区段生成器界面中根据需要打开并修改规则（请参阅[使用区段生成器](../../integrating/using/aep-using-segment-builder.md)）。
+要编辑受众，请根据需要在区段生成器界面中打开并修改规则（请参阅[使用区段生成器](../../integrating/using/aep-using-segment-builder.md)）。
 
-完成更改后，单击&#x200B;**[!UICONTROL Save segment]**&#x200B;按钮以更新您的受众。
+完成更改后，单击&#x200B;**[!UICONTROL Save segment]**&#x200B;按钮以更新受众。
 
 ![](assets/aep_audiences_editing.png)
