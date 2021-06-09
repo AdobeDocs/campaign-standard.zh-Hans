@@ -9,39 +9,38 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
-
 # 控制工作流 {#controlling-a-workflow}
 
-您可以通过包含工作流ID和所需执行命令的POST请求，直接从REST API控制工作流：
+您可以直接从REST API通过包含工作流ID和所需执行命令的POST请求来控制工作流：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->如果在Adobe Campaign中更改了工作流ID，则API请求将不再工作。
+>如果Adobe Campaign中的工作流ID发生更改，则API请求将不再工作。
 
 有四个执行命令可用于控制工作流：
 
 * 开始
 * 暂停
-* 继续
+* 恢复
 * 停止
 
-有关执行命令的详细信息，请参阅[活动文档](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
+有关执行命令的更多信息，请参阅[Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 
 ***示例请求***
 
-* 开始工作流。
+* 开始工作流.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
