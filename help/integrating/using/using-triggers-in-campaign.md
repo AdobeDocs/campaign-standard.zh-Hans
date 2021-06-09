@@ -5,17 +5,16 @@ title: 在 Campaign 中使用触发器
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: 触发器
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 82%
 
 ---
-
 
 # 在 Campaign 中使用触发器{#using-triggers-in-campaign}
 
@@ -23,9 +22,9 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此的详细信息，请参阅此[页](../../administration/using/list-of-roles.md)。
+>要创建触发器，您需要具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此内容的详细信息，请参见此[页面](../../administration/using/list-of-roles.md)。
 
-您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
+您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
 您现在必须基于现有 Adobe Experience Cloud 触发器在 Adobe Campaign 中创建触发器事件。
 
@@ -51,21 +50,21 @@ ht-degree: 82%
 
    ![](assets/remarketing_4.png)
 
-1. 您现在可以发布触发器。 有关详细信息，请参阅[在活动](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中发布触发器。
+1. 您现在可以发布触发器。 有关更多信息，请参阅[在Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中发布触发器。
 
-## 在活动 {#publishing-trigger-in-campaign}中发布触发器
+## 在Campaign {#publishing-trigger-in-campaign}中发布触发器
 
-在基于现有Adobe Experience Cloud触发器在Adobe Campaign中创建触发器事件后，您现在需要发布它。
+在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发器事件后，您现在需要发布该事件。
 
-1. 在您之前创建的触发器中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以开始发布触发器事件。
+1. 在之前创建的触发器中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以开始发布触发器事件。
 
    ![](assets/trigger_publish_1.png)
 
-1. 您可以在&#x200B;**[!UICONTROL Publication]**&#x200B;下检查触发器发布的进度。
+1. 您可以在&#x200B;**[!UICONTROL Publication]**&#x200B;下查看触发器发布的进度。
 
    ![](assets/trigger_publish_2.png)
 
-1. 发布完成后，**[!UICONTROL Publication]**&#x200B;下将显示以下消息。
+1. 发布完成后，将在&#x200B;**[!UICONTROL Publication]**&#x200B;下显示以下消息。
 
    ![](assets/trigger_publish_3.png)
 
@@ -75,7 +74,7 @@ ht-degree: 82%
 
    ![](assets/trigger_publish_4.png)
 
-1. 单击&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按钮可视图Adobe Experience Cloud中的触发器定义。
+1. 单击&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按钮可查看Adobe Experience Cloud中的触发器定义。
 
 发布事件后，将自动创建链接到新事件的事务型模板。然后，您必须修改并发布之前创建的模板。有关更多信息，请参阅[编辑模板](../../start/using/marketing-activity-templates.md)一节。
 
@@ -83,7 +82,7 @@ ht-degree: 82%
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
-为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关详细信息，请参阅[编辑事务性消息](../../channels/using/editing-transactional-message.md)部分。
+为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关更多信息，请参阅[编辑事务型消息](../../channels/using/editing-transactional-message.md)一节。
 
 >[!NOTE]
 >
@@ -102,4 +101,3 @@ ht-degree: 82%
 报告中会将已处理的事件数与 Analytics 已发送的事件数进行对比。其中还会显示所有最近触发的列表。
 
 ![](assets/trigger_uc_browse_14.png)
-
