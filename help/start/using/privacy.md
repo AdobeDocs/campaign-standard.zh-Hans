@@ -9,15 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
+feature: 隐私
 role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1480'
-ht-degree: 100%
+source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
+workflow-type: tm+mt
+source-wordcount: '1478'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +130,7 @@ Adobe Campaign 提供其他功能来促使您作为数据控制者为特定隐�
 
 >[!NOTE]
 >
->这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -139,7 +138,7 @@ Adobe Campaign 提供其他功能来促使您作为数据控制者为特定隐�
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**访问**&#x200B;和&#x200B;**删除**&#x200B;请求将显示在[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)上。[此页面](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)上详细描述了创建这些请求的实施步骤。[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hans#privacy)还提供教程。
+**访问**&#x200B;和&#x200B;**删除**&#x200B;请求将显示在[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)上。[此页面](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)上详细描述了创建这些请求的实施步骤。[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html)还提供教程。
 
 ## 跟踪功能 {#tracking-capabilities}
 
