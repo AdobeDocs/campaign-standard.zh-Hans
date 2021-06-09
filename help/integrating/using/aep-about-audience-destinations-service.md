@@ -7,47 +7,46 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM集成
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
-
 
 # 关于 Audience Destinations 服务 {#about-audiences}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
-利用[Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html)根据大型、复杂的数据集构建高度定向的受众，增强您的消费者体验。 Adobe Experience Platform整合了包括Adobe Analytics在内的线上和线下来源的用户档案、行为和多实体数据，帮助您构建360度全方位的客户视图，使您能够有效管理客户体验。
+利用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)根据大型复杂数据集构建高度定位的受众，从而增强您的消费者体验。 Adobe Experience Platform整合了包括Adobe Analytics在内的在线和离线来源的配置文件、行为和多实体数据，以帮助您构建客户的360度视图，从而使您能够有效管理客户体验。
 
-然后，Adobe Campaign Standard将使用&#x200B;**受众目标**&#x200B;服务从Adobe Experience Platform检索多步骤和/或跨渠道活动项目的用户档案集合，称为&#x200B;**受众**。
+然后，Adobe Campaign Standard将使用&#x200B;**Audience Destinations**&#x200B;服务从Adobe Experience Platform中检索多步和/或跨渠道营销活动项目的一组用户档案，称为&#x200B;**Audiences**。
 
-**受** 众是通过首先构建 **细分来创建**，这些细分实质上是一组基于来自Adobe Experience Platform的客户用户档案中几乎任何变量(如用户档案、事件、多实体数据)的规则，用于创建多维目标。有关实时用户档案和细分服务的全局概念在以下专用文档中引用：
+**** 受众是通过首先构建 **区段来创建的**，区段本质上是一组基于Adobe Experience Platform客户配置文件中几乎任何变量（例如，配置文件、事件、多实体数据）的规则，用于创建多维目标。以下专用文档中引用了有关实时客户资料和分段服务的全局概念：
 
-* [实时客户用户档案概述](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [分段服务概述](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
+* [实时客户资料概述](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Segmentation Service概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-创建区段后，您便可以将其作为[Campaign Standard工作流](../../integrating/using/aep-targeting-audiences.md)中投放的受众激活。 此外，您还可以使用Adobe Experience Platform中的情境数据来[个性化](../../integrating/using/aep-personalizing-campaigns.md)，并向活动添加动态内容。
+创建区段后，您可以将其作为[Campaign Standard工作流](../../integrating/using/aep-targeting-audiences.md)中投放的受众激活。 此外，您还可以使用Adobe Experience Platform中的上下文数据来[personalize](../../integrating/using/aep-personalizing-campaigns.md)，并将动态内容添加到营销活动。
 
-![](assets/do-not-localize/how-to-video.png) 此部分还提供操作说 [明视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html)。
+![](assets/do-not-localize/how-to-video.png) 此部分还提供操作方法 [视频](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
-这些部分中使用的术语：
+以下部分使用的术语：
 
-* **用户档案**:用户档案是用于定义消费者属性的Experience Platform标准数据模型。用户档案也可以是与个人和设备相关的事件数据和属性的聚合。
+* **用户档案**:用户档案是用于定义用户属性的Experience Platform标准数据模型。用户档案也可以是与人员或设备相关的事件数据和属性的汇总。
 
-   示例：“无名氏55岁。”
+   示例：“无名氏是一名55岁的男性。”
 
-* **细分**:一组规则，它使用属性和用户档案数据定义数据库中的事件子集。
+* **区段**:一组规则，通过属性和事件数据定义数据库中用户档案的子集。
 
    示例：“男性> 50岁。”
 
-* **受众**:满足区段规则的用户档案集合。
+* **受众**:符合区段规则的用户档案集合。
 
-   示例：列表数据库中所有年龄在50岁以上的男性对应的用户档案。
+   示例：数据库中所有年龄在50岁以上的男性对应的用户档案列表。
