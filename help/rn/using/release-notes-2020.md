@@ -6,25 +6,24 @@ description: 本页列出了所有 2020 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: 概述
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5298'
+ht-degree: 98%
 
 ---
 
-
 # 发行说明 2020{#release-notes-2020}
 
-[发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2019.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
+[发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2019.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 ## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p>您现在可以使用<strong>控制组</strong>通过排除活动的一部分受众来衡量其影响。然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
 </p>
-<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hans#communication-channels">教程视频</a>。
+<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">教程视频</a>。
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>Journey AI 使用高级机器学习 (ML)，通过预测每个人的参与偏好，使公司能够优化客户旅程的设计和交付。</p>
   <P>Journey AI 包含两个 ML 功能：</p>
 <ul> 
-     <li> <strong>预测参与度评分</strong> - 智能确定客户首选的参与度级别，以更好地针对和个性化信息，从而提高转化率和保留率。观看<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">教程视频</a>。</li> 
-     <li> <strong>预测发送时间优化</strong> - 预测向活动中的每个人发送电子邮件的最佳时间，从而最大化参与率并提高电子邮件活动 ROI。观看<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">教程视频</a>。</li>
+     <li> <strong>预测参与度评分</strong> - 智能确定客户首选的参与度级别，以更好地针对和个性化信息，从而提高转化率和保留率。观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">教程视频</a>。</li> 
+     <li> <strong>预测发送时间优化</strong> - 预测向活动中的每个人发送电子邮件的最佳时间，从而最大化参与率并提高电子邮件活动 ROI。观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">教程视频</a>。</li>
     </ul>
   <p>如果您想要了解如何开始使用 Journey AI，请查阅<a href="../../sending/using/predictive.md">详细文档</a>并联系您的客户主管。请注意，尽管现有 Campaign 客户可免费使用 Journey Ai，但实施成本约为 50 个小时。</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。<a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
 <li><p>创建隐私请求时，“隐私核心服务”中添加了 PDPA 法规类型。您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="../../rn/using/deprecated-features.md">已弃用和已删除的功能</a>一文。</p></li>
 </ul>
-<p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
+<p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>从 JSON 中选择并使用数组对象，而无需将对象命名为“data”或让其处于顶级。</li>
 </ul>
 <p><strong>注意：</strong>客户需要用其工作流中的 GA External API 活动替换所有<strong>测试版 External API 活动</strong>。从 20.3 版起，使用 External API 测试版的工作流将被废除。</p>
-<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 ## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>除了测试用户档案之外，您现在还可以在真正的定向用户档案上测试电子邮件。利用此功能，可了解用户档案将收到之以下消息的精确表示形式：自定义字段、动态和个性化信息，包含来自工作流的附加数据等。 </p>
-    <p>有关更多信息，请参阅<a href="../../sending/using/testing-messages-using-target.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教程视频</a>。 </p>
+    <p>有关更多信息，请参阅<a href="../../sending/using/testing-messages-using-target.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教程视频</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)。
+>新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 **改进**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 现在集成到了 Adobe Standard 中。您可以将 XTK 数据（Campaign 摄取的数据）映射到 Adobe Experience Platform 数据模型 (XDM)，从而使 Campaign 数据在 Adobe Experience Platform 上可用。 </p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-data-connector.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">操作方法视频</a>。</p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-data-connector.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">操作方法视频</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>利用 Audience Destinations，可将来自 Adobe Experience Platform 的区段共享到 Adobe Campaign。</p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-audience-destinations-service.md">详细文档</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">操作方法视频</a>。 </p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-audience-destinations-service.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">操作方法视频</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
