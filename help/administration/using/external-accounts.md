@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: 实例设置
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # 外部帐户{#external-accounts}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
-* OAuth 2.0。有关详细信息，请参阅[此部分](#oauth-account)。
+* OAuth 2.0。有关更多信息，请参阅[此部分](#oauth-account)。
 
 >[!NOTE]
 >
@@ -85,22 +84,22 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另外，请注意，您尝试从中启动SFTP连接的公共IP必须添加到实例允许列表上的活动。 可以通过&lt;a0/允许列表>支持票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求向添加IP地址，并提供用于身份验证的公钥。[
+另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例允许列表上的。 可通过[支允许列表持票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求向添加IP地址，同时提供用于身份验证的公共密钥。
 
-可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/sftp-management/about-sftp-management.html)。
+可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
 >[!NOTE]
 >
->控制面板可供所有管理员用户访问。 授予用户管理员访问权限的步骤详见[此页](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
 ## OAuth 2.0帐户{#oauth-account}
 
 对于OAuth 2.0外部帐户，请提供以下详细信息：
 
-* A **授权类型**:仅支持&#x200B;**客户端凭据**。
+* **授予类型**:仅支持&#x200B;**客户端凭据**。
 * **安全API URL**:输入授权端点。
-* **OAuth 2.0敏感凭据**:此部分用于性质敏感的凭据。添加凭据值后，这些凭据值将在屏幕上被遮罩；到那时，它们将不可读，也不可编辑。 如果授权端点要求在HTTP授权标头中而非POST体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
-* **OAuth 2.0非敏感凭据**:此部分用于性质上不敏感的凭据。添加凭据值后，这些凭据值将在屏幕上显示；也可编辑。  如果授权端点要求在HTTP授权标头中而非POST体参数中插入特定凭据，则可以为该凭据选择“在标头中包含”选项。
+* **OAuth 2.0敏感凭据**:此部分适用于性质敏感的凭据。凭据值添加后，屏幕上会屏蔽这些值；此时，它们将不可读或编辑。 如果授权端点要求在HTTP授权标头中插入特定凭据而不是POST主体参数，则可以为该凭据选择标头中包含选项。
+* **OAuth 2.0非敏感凭据**:此部分适用于性质不敏感的凭据。凭据值添加后，将在屏幕上显示；也可以编辑。  如果授权端点要求在HTTP授权标头中插入特定凭据而不是POST主体参数，则可以为该凭据选择标头中包含选项。
 
 输入帐户信息后，单击&#x200B;**测试连接**&#x200B;以验证外部帐户是否已正确配置。
 
@@ -108,7 +107,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 
 >[!NOTE]
 >
->凭据“Content-Type:application/x-www-form-urlencoded”和“grant_type=client_credentials”将自动添加到API调用；因此，您无需在凭据部分添加它们。
+>凭据“Content-Type:application/x-www-form-urlencoded”和“grant_type=client_credentials”将自动添加到API调用中；因此，您无需在凭据部分中添加它们。
 
 ## Amazon S3 外部帐户 {#amazon-s3-external-account}
 
