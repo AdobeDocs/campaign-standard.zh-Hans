@@ -7,17 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Triggers
+feature: 触发器
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 99%
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
-
 
 # 关于 Adobe Experience Cloud 触发器{#about-adobe-experience-cloud-triggers}
 
@@ -33,7 +32,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 **相关主题：**
 
-* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/activation/triggers.html)。
+* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
@@ -65,4 +64,3 @@ Adobe Campaign 用户流程的主要步骤如下：
 >[!NOTE]
 >
 >有关最佳实践和技术限制的更多信息，请参阅[触发器最佳实践和限制](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations)。
-
