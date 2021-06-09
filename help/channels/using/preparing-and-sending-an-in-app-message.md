@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: 应用程序内
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # 准备和发送应用程序内消息{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支持的现成生命周期事件。
 
-      有关生命周期事件的更多信息，请参阅[本页面](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
+      有关生命周期事件的更多信息，请参阅[本页面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根据移动应用程序中的感知方式，支持以下三种类别：Adobe Analytics、上下文数据或视图状态。
 
@@ -118,7 +117,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 如果您使用 **[!UICONTROL Places]** 触发器，将根据在 Adobe Places 中创建的所有库及其兴趣点自动填充 Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-   请注意，此触发器将针对 Experience Platform Launch 的 Places 扩展中来自选定库中的“兴趣点”应用于设备。有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://docs.adobe.com/content/help/zh-Hans/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   请注意，此触发器将针对 Experience Platform Launch 的 Places 扩展中来自选定库中的“兴趣点”应用于设备。有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 选项卡中，选择触发器的频率、开始和结束日期、在一周中的哪一天以及在一天中的哪个时间激活应用程序内消息。
 
