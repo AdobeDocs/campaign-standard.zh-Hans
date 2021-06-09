@@ -10,10 +10,10 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 与登陆页面属性有关的信息已移入专述章节。[了解更多](../../channels/using/configuring-landing-page.md)
 
-控制面板文档已集成到新的协作文档集中。[了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html)
+控制面板文档已集成到新的协作文档集中。[了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
 
 更新了&#x200B;**指标计算**&#x200B;表格。[了解更多](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 在工作流疑难解答章节中添加了一个程序，介绍如何在日志选项卡中显示 SQL 查询。[了解更多](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇帮助文章，提供了与控制面板中的子域和证书管理相关的信息。[了解更多](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+新增了一篇帮助文章，提供了与控制面板中的子域和证书管理相关的信息。[了解更多](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)
 
 更新了描述内容模板和片段的章节。[了解更多](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 **此版本中包含的新增功能**
 
-控制面板 - [了解更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 本地通知 - [了解更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
-以下[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.html)将变为 Adobe Campaign Standard 的官方视频页面。
+以下[页面](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)将变为 Adobe Campaign Standard 的官方视频页面。
 
 添加了有关数据保留的章节，其中包括标准表格的默认保留值。[了解更多](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-将视频更新并移动到了[此处](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
+将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 更新了“用户类型”章节。[了解更多](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 Amazon Simple Storage Service (S3) 连接器 - [了解更多](../../administration/using/external-accounts.md)
 
-Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **随版本提供的其他文档更新**
 
@@ -984,7 +984,7 @@ Dreamweaver 集成上线 - [了解更多](https://docs.adobe.com/content/help/zh
 
 动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 集成（实验室）- [了解更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手动发送时间优化 - [了解更多](../../sending/using/optimizing-the-sending-time.md)
 
