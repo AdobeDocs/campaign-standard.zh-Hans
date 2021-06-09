@@ -6,17 +6,16 @@ description: 'Adobe Campaign 用户担任着各种特定的角色。了解主要
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: 访问管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # 用户管理{#users-management}
 
@@ -38,7 +37,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 **相关主题：**
 
-* [管理用户权限](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)视频
+* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)视频
 * [角色列表](../../administration/using/list-of-roles.md)
 * [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
@@ -64,7 +63,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 >[!IMPORTANT]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**所有**&#x200B;单元的访问权限的职能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、命题日志和订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**访问权限的功能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。**&#x200B;非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
 
 功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
@@ -159,8 +158,8 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ## 教程视频(#video)
 
-此视频显示如何管理用户访问权限。
+此视频演示了如何管理用户访问权限。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
