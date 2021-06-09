@@ -2,29 +2,28 @@
 solution: Campaign Standard
 product: campaign
 title: 指标计算
-description: 列表每个量度的公式，了解报表结果。
+description: 通过每个量度公式的列表了解报表的结果。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: 报告
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # 指标计算{#indicator-calculation}
 
 >[!NOTE]
 >
->为了更好地处理和管理大容量和实时分析，动态报告使用近似聚合来进行不同的计数估计。 近似聚合优惠有界的内存使用，并且通常比精确计算快。
+>为了更好地处理和管理大量数据和实时分析，动态报告使用大致汇总来做出不同的计数估计。 近似聚合提供有界的内存使用，并且通常比精确计算更快。
 
-下表显示了不同报表中使用的指示器的列表，并根据投放类型给出了它们的计算公式。
+下表提供了不同报表中使用的指标列表及其计算公式，具体取决于投放类型。
 
 ## 电子邮件投放 {#email-delivery}
 
@@ -45,7 +44,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 在阻止列表<br /> </td> 
+   <td> 在阻止列表<br />上 </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2<br /> </td> 
    <td> </td> 
@@ -54,16 +53,16 @@ ht-degree: 2%
    <td> 阻止列表率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 弹回次数+错误<br /> </td> 
+   <td> 跳出次数+错误<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 跳出率+错误率<br /> </td> 
+   <td> 跳出+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -78,7 +77,7 @@ ht-degree: 2%
    <td> 点进率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> 速率计算的分母基于“仅交付”。<br /> </td> 
+   <td> 速率计算的分母基于“仅已交付”。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已传送<br /> </td> 
@@ -90,22 +89,22 @@ ht-degree: 2%
    <td> 传递率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬弹回<br /> </td> 
+   <td> 硬退回<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2和@failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 硬弹回率<br /> </td> 
+   <td> 硬退回率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 无效域<br /> </td> 
+   <td> 无效的域<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2<br /> </td> 
    <td> </td> 
@@ -120,10 +119,10 @@ ht-degree: 2%
    <td> 镜像页面<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6<br /> </td> 
-   <td> 速率计算的分母基于“仅交付”。<br /> </td> 
+   <td> 速率计算的分母基于“仅已交付”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 镜像页面率<br /> </td> 
+   <td> 镜像页面速率<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
@@ -144,7 +143,7 @@ ht-degree: 2%
    <td> 打开率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> 速率计算的分母基于“仅交付”。<br /> </td> 
+   <td> 速率计算的分母基于“仅已交付”。<br /> </td> 
   </tr> 
   <tr> 
    <td> 隔离<br /> </td> 
@@ -156,19 +155,19 @@ ht-degree: 2%
    <td> 隔离率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr>
   <tr> 
-   <td> 被拒绝<br /> </td> 
+   <td> 已拒绝<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 被拒绝速率<br /> </td> 
+   <td> 拒绝率<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已处理/已发送<br /> </td> 
@@ -177,7 +176,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 软跳<br /> </td> 
+   <td> 软退回<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1<br /> </td> 
    <td> </td> 
@@ -186,22 +185,22 @@ ht-degree: 2%
    <td> 软跳出率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> 速率计算的分母基于已发送计数（已交付+弹回）。<br /> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+退回）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 单次单击<br /> </td> 
+   <td> 独特点击量<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 使用ThetaSketch概念计算唯一单击。 有关详细信息，请参阅此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
+   <td> 独特点击量使用ThetaSketch概念计算。 有关更多信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 唯一打开次数<br /> </td> 
+   <td> 唯一打开数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 不可到达<br /> </td> 
+   <td> 无法访问<br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3<br /> </td> 
    <td> </td> 
@@ -216,7 +215,7 @@ ht-degree: 2%
    <td> 取消订阅率<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
-   <td> 速率计算的分母基于“仅交付”。<br /> </td> 
+   <td> 速率计算的分母基于“仅已交付”。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用户未知<br /> </td> 
@@ -246,7 +245,7 @@ ht-degree: 2%
   <tr> 
    <td> 已传送<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
    <td> 传递率<br /> </td> 
@@ -254,7 +253,7 @@ ht-degree: 2%
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跳出率+错误率<br /> </td> 
+   <td> 跳出+错误率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -269,19 +268,19 @@ ht-degree: 2%
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一打开次数<br /> </td> 
+   <td> 唯一打开数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一打开使用唯一RecipientId的ThetaSketch概念计算。 有关详细信息，请参阅此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
+   <td> 唯一打开数使用唯一RecipientId的ThetaSketch概念计算。 有关更多信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一印象<br /> </td> 
+   <td> 独特展示次数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=视图))<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
@@ -289,9 +288,9 @@ ht-degree: 2%
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 单次单击<br /> </td> 
+   <td> 独特点击量<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 使用ThetaSketch概念计算唯一单击。 有关详细信息，请参阅此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
+   <td> 独特点击量使用ThetaSketch概念计算。 有关更多信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 
@@ -322,20 +321,20 @@ ht-degree: 2%
   <tr> 
    <td> 已传送<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
-   <td> delivered<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
+   <td> delived=sent<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=视图)或@count(status=button 1 click + button 2 click + encrements)<br /> </td> 
+   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encrements)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 唯一印象<br /> </td> 
+   <td> 独特展示次数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=视图))<br /> </td> 
-   <td> 对于<span class="uicontrol">基于其活动用户档案(inAppProfile)</span>模板的目标用户，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> 和基于其 <span class="uicontrol">移动用户档案(inApp)模板的目标用</span> 户，用户= MC Id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动资料确定目标用户(inAppProfile)</span>模板，用户=收件人ID。<br /> 对于 <span class="uicontrol">定位移动设备应用程序(inAppBroadcast)的所有用户</span> 和 <span class="uicontrol">根据用户的移动资料(inApp)定位用户</span> 模板，用户= MC Id或等效项，表示用户、移动设备应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内单击<br /> </td> 
@@ -344,15 +343,15 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 唯一应用程序内单击<br /> </td> 
+   <td> 应用程序内独特点击次数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(status=clicks))<br /> </td> 
-   <td> 对于<span class="uicontrol">基于其活动用户档案(inAppProfile)</span>模板的目标用户，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> 和基于其 <span class="uicontrol">移动用户档案(inApp)模板的目标用</span> 户，用户= MC Id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动资料确定目标用户(inAppProfile)</span>模板，用户=收件人ID。<br /> 对于 <span class="uicontrol">定位移动设备应用程序(inAppBroadcast)的所有用户</span> 和 <span class="uicontrol">根据用户的移动资料(inApp)定位用户</span> 模板，用户= MC Id或等效项，表示用户、移动设备应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内点击率<br /> </td> 
+   <td> 应用程序内点进率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Button 1或Button 2的总点击量/总展示次数*100<br /> </td> 
+   <td> 按钮1或按钮2的总点击次数/总展示次数*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -362,17 +361,16 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 唯一应用程序内解除<br /> </td> 
+   <td> 独特应用程序内解除<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
-   <td> @unique(@count(status=close)<br /> </td> 
-   <td> 对于<span class="uicontrol">基于其活动用户档案(inAppProfile)</span>模板的目标用户，用户=收件人ID。<br /> 对于 <span class="uicontrol">目标移动应用程序(inAppBroadcast)的所有用户</span> 和基于其 <span class="uicontrol">移动用户档案(inApp)模板的目标用</span> 户，用户= MC Id或表示用户、移动应用程序和设备的唯一组合的等效项。<br /> </td> 
+   <td> @unique(@count(status=close))<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动资料确定目标用户(inAppProfile)</span>模板，用户=收件人ID。<br /> 对于 <span class="uicontrol">定位移动设备应用程序(inAppBroadcast)的所有用户</span> 和 <span class="uicontrol">根据用户的移动资料(inApp)定位用户</span> 模板，用户= MC Id或等效项，表示用户、移动设备应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内解聘率<br /> </td> 
+   <td> 应用程序内解雇率<br /> </td> 
    <td> @dismissalrate<br /> </td> 
-   <td> 总结/总展示次数*100<br /> </td> 
+   <td> 关闭/总展示次数*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
-
