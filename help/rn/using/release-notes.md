@@ -10,10 +10,10 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ ht-degree: 6%
 * 在多变体投放中，如果删除了默认变体，则用户将无法再创建语言副本。 现在，在语言副本创建期间会显示消息。 (CAMP-48235)
 
 * 现在，默认情况下禁用两步用户档案删除流程（从Campaign 19.4版本开始被弃用）。 以前，必须先从Campaign界面手动禁用该功能，然后才能使用隐私核心服务。 否则，删除请求将在未完成的情况下保持挂起状态。
-
-* 引入了新的“StringAgg”聚合函数，以连接字符串类型列的值。 (CAMP-47077) [了解详情](../../automating/using/list-of-functions.md#aggregates)
 
 * 在动态报告中，**Exclude Proof**&#x200B;区段已被删除。 (CAMP-46161)
 
