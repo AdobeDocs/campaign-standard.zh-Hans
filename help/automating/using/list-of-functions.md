@@ -10,10 +10,10 @@ feature: 工作流
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ ht-degree: 96%
    <td> 返回数字、字符串或日期列中的最小值。<br /> </td> 
    <td> Min(&lt;值&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>，字符串聚合<br /> </td> 
-   <td> 返回字符串类型列值的串联，并由第二个参数（默认分隔符为逗号）中的字符分隔。<br /> </td> 
-   <td> StringAgg（&lt;字符串值&gt;,&lt;分隔符&gt;）
-  </tr>
+
 
 
 
