@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
-breadcrumb-title: 帮助中心
-source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
+breadcrumb-title: Adobe Campaign Standard文档
+source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1787'
 ht-degree: 99%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
       + [自定义应用程序内消息](channels/using/customizing-an-in-app-message.md)
-   + 直邮 {#direct-mail}
+   + 直邮{#direct-mail}
       + [关于直邮](channels/using/about-direct-mail.md)
       + [返回发件人](channels/using/return-to-sender.md)
       + [创建直邮](channels/using/creating-the-direct-mail.md)
