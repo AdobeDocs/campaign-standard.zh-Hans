@@ -22,11 +22,11 @@ ht-degree: 99%
    + [最新版本](rn/using/release-notes.md)
    + [早期发行说明](rn/using/e-release-notes.md)
    + 之前版本 {#previous-releases}
-      + [发行说明2021](rn/using/release-notes-2021.md)
+      + [发行说明 2021](rn/using/release-notes-2021.md)
       + [发行说明 2020](rn/using/release-notes-2020.md)
-      + [发行说明2019](rn/using/release-notes-2019.md)
-      + [发行说明2018](rn/using/release-notes-2018.md)
-      + [发行说明2017](rn/using/release-notes-2017.md)
+      + [发行说明 2019](rn/using/release-notes-2019.md)
+      + [发行说明 2018](rn/using/release-notes-2018.md)
+      + [发行说明 2017](rn/using/release-notes-2017.md)
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
    + [跟踪的 URL 签名问题](rn/using/tracked-urls.md)
@@ -38,7 +38,7 @@ ht-degree: 99%
       + [自定义列表](start/using/customizing-lists.md)
       + [辅助功能](start/using/accessibility.md)
    + 使用营销活动 {#marketing-plans}
-      + [项目和营销策划](start/using/programs-and-campaigns.md)
+      + [项目和营销活动](start/using/programs-and-campaigns.md)
       + [营销活动](start/using/marketing-activities.md)
       + [营销活动模板](start/using/marketing-activity-templates.md)
       + [时间线](start/using/timeline.md)
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [关于用户档案](audiences/using/about-profiles.md)
       + [创建用户档案](audiences/using/creating-profiles.md)
       + [编辑用户档案](audiences/using/editing-profiles.md)
-      + [整合的客户用户档案](audiences/using/integrated-customer-profile.md)
+      + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
       + [使用中的用户档案](audiences/using/active-profiles.md)
       + [管理测试用户档案](audiences/using/managing-test-profiles.md)
       + [扩充 Campaign 数据库](audiences/using/enriching-campaign-database.md)
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
       + [自定义应用程序内消息](channels/using/customizing-an-in-app-message.md)
-   + 直邮{#direct-mail}
+   + 直邮 {#direct-mail}
       + [关于直邮](channels/using/about-direct-mail.md)
       + [返回发件人](channels/using/return-to-sender.md)
       + [创建直邮](channels/using/creating-the-direct-mail.md)
@@ -125,10 +125,10 @@ ht-degree: 99%
          + [发布事务性事件](channels/using/publishing-transactional-event.md)
       + 事务性消息编辑 {#transactional-message-edition}
          + [编辑事务性消息](channels/using/editing-transactional-message.md)
-         + [测试事务型消息](channels/using/testing-transactional-message.md)
+         + [测试事务性消息](channels/using/testing-transactional-message.md)
          + [事务性消息生命周期](channels/using/publishing-transactional-message.md)
          + [执行和监视](channels/using/transactional-message-execution.md)
-      + [事务型推送通知](channels/using/transactional-push-notifications.md)
+      + [事务性推送通知](channels/using/transactional-push-notifications.md)
       + [跟进消息](channels/using/follow-up-messages.md)
       + [事务性消息传递用例](channels/using/transactional-messaging-use-case.md)
    + 登陆页面 {#landing-pages}
@@ -164,7 +164,7 @@ ht-degree: 99%
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
       + [AI 支持的电子邮件](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
-      + [添加控制组](sending/using/control-group.md)
+      + [添加对照组](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [准备发送](sending/using/preparing-the-send.md)
    + 计划消息发送 {#scheduling-messages}
@@ -177,19 +177,19 @@ ht-degree: 99%
       + [跟踪消息](sending/using/tracking-messages.md)
       + [通过电子邮件密送进行归档](sending/using/archiving.md)
    + 监视消息 {#monitoring-messages}
-      + [监控投放](sending/using/monitoring-a-delivery.md)
+      + [监测投放](sending/using/monitoring-a-delivery.md)
       + [在失败时接收提醒](sending/using/receiving-alerts-when-failures-happen.md)
       + [了解投放失败](sending/using/understanding-delivery-failures.md)
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
-   + 管理投放能力 {#managing-deliverability}
-      + [关于投放能力](sending/using/about-deliverability.md)
+   + 管理可投放性 {#managing-deliverability}
+      + [关于可投放性](sending/using/about-deliverability.md)
       + [控制电子邮件内容](sending/using/control-email-content.md)
       + [监测可投放性](sending/using/monitor-deliverability.md)
       + [故障排除](sending/using/troubleshooting.md)
-   + 使用分类规则 {#working-with-typology-rules}
-      + [关于分类和分类规则](sending/using/about-typology-rules.md)
-      + [管理分类](sending/using/managing-typologies.md)
-      + [管理分类规则](sending/using/managing-typology-rules.md)
+   + 使用类型规则 {#working-with-typology-rules}
+      + [关于类型和类型规则](sending/using/about-typology-rules.md)
+      + [管理类型](sending/using/managing-typologies.md)
+      + [管理类型规则](sending/using/managing-typology-rules.md)
       + [筛选规则](sending/using/filtering-rules.md)
       + [疲劳规则](sending/using/fatigue-rules.md)
       + [控制规则](sending/using/control-rules.md)
@@ -225,7 +225,7 @@ ht-degree: 99%
       + [创建自定义用户档案维度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + 与其他解决方案集成{#integrating-with-adobe-cloud}
-   + [Campaign 集成快速入门](integrating/using/get-started-campaign-integrations.md)
+   + [Campaign 集成入门](integrating/using/get-started-campaign-integrations.md)
    + Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
       + [配置 Campaign-Experience Manager 集成](integrating/using/configure-experience-manager.md)
@@ -255,7 +255,7 @@ ht-degree: 99%
       + [在 Experience Cloud 中配置触发器](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [在 Campaign 中使用触发器](integrating/using/using-triggers-in-campaign.md)
       + [测试触发器](integrating/using/testing-your-triggers.md)
-      + [放弃触发器使用案例](integrating/using/abandonment-triggers-use-cases.md)
+      + [放弃触发器用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Microsoft Dynamics 365 集成入门](integrating/using/d365-acs-get-started.md)
       + [最佳实践和限制](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -277,8 +277,8 @@ ht-degree: 99%
          + [关于 Audience Destinations 服务](integrating/using/aep-about-audience-destinations-service.md)
          + [管理 Adobe Experience Platform 受众](integrating/using/aep-managing-audiences.md)
          + [使用 Segment Builder](integrating/using/aep-using-segment-builder.md)
-         + [定向 Adobe Experience Platform 受众](integrating/using/aep-targeting-audiences.md)
-         + [使用 Adobe Experience Platform 属性个性化营销策划](integrating/using/aep-personalizing-campaigns.md)
+         + [定位 Adobe Experience Platform 受众](integrating/using/aep-targeting-audiences.md)
+         + [使用 Adobe Experience Platform 属性个性化营销活动](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector（测试版）{#data-connector}
          + [关于 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Experience Platform 数据模型概述](integrating/using/aep-data-model-overview.md)
@@ -356,7 +356,7 @@ ht-degree: 99%
       + [导出日志](automating/using/exporting-logs.md)
       + [管理资源包](automating/using/managing-packages.md)
       + [导出列表](automating/using/exporting-lists.md)
-      + [使用案例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
+      + [用例：导出/导入自定义资源](automating/using/exporting-importing-custom-resources.md)
    + 用例 {#workflow-use-case}
       + [关于工作流用例](automating/using/about-workflow-use-cases.md)
       + 投放 {#deliveries}
@@ -366,7 +366,7 @@ ht-degree: 99%
          + [创建跨渠道投放](automating/using/workflow-cross-channel-delivery.md)
          + [在投放之前标识重复项](automating/using/identifying-duplicated-before-delivery.md)
          + [生日投放](automating/using/birthday-delivery.md)
-         + [耦合电子邮件和直邮邮件传递](automating/using/coupling-email-direct-mail.md)
+         + [耦合电子邮件和直邮投放](automating/using/coupling-email-direct-mail.md)
          + [发送包含扩充字段的电子邮件](automating/using/sending-email-enriched-fields.md)
          + [使用附加数据个性化电子邮件](automating/using/personalizing-email-with-additional-data.md)
          + [发送定期推送通知](automating/using/recurring-push-notifications.md)
@@ -406,12 +406,12 @@ ht-degree: 99%
       + [更新数据库结构](developing/using/updating-the-database-structure.md)
       + [删除资源](developing/using/deleting-a-resource.md)
       + [使用复合标识关键码调用资源](developing/using/uc-calling-resource-id-key.md)
-   + 使用案例：扩展 API {#use-case--extending-the-api}
+   + 用例：扩展 API {#use-case--extending-the-api}
       + [关于扩展 API](developing/using/about-extending-the-api.md)
       + [第 1 步：将扩展字段添加到用户档案资源](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
       + [第 2 步：发布扩展](developing/using/step-2--publish-the-extension.md)
       + [第 3 步：验证扩展](developing/using/step-3--verify-the-extension.md)
-   + 使用案例：扩展资源 {#use-cases--extending-resources}
+   + 用例：扩展资源 {#use-cases--extending-resources}
       + [使用新字段扩展用户档案资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 数据模型 {#datamodel}
@@ -436,7 +436,7 @@ ht-degree: 99%
    + 用户和安全性 {#users-and-security}
       + [关于访问管理](administration/using/about-access-management.md)
       + [用户管理](administration/using/users-management.md)
-      + [组织单位](administration/using/organizational-units.md)
+      + [组织实体](administration/using/organizational-units.md)
       + [角色列表](administration/using/list-of-roles.md)
       + [管理组和用户](administration/using/managing-groups-and-users.md)
       + [审核导出日志](administration/using/auditing-export-logs.md)
@@ -449,7 +449,7 @@ ht-degree: 99%
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
       + [添加图像和视频 iOS](administration/using/image-push-notification.md)
-      + [了解 推送通知有效载荷结构](administration/using/push-payload.md)
+      + [了解推送通知有效载荷结构](administration/using/push-payload.md)
       + [实施本地通知跟踪](administration/using/local-tracking.md)
       + [Adobe Launch Synchronization 常见问题解答](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 集成常见问题解答](administration/using/aep-faq.md)
@@ -465,7 +465,7 @@ ht-degree: 99%
       + [外部帐户](administration/using/external-accounts.md)
       + [Campaign 中的目标映射](administration/using/target-mappings-in-campaign.md)
       + [技术工作流](administration/using/technical-workflows.md)
-      + [品牌策略](administration/using/branding.md)
+      + [品牌化](administration/using/branding.md)
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
@@ -505,9 +505,9 @@ ht-degree: 99%
    + 管理工作流 {#managing-workflows}
       + [控制工作流](api/using/controlling-a-workflow.md)
       + [触发信号活动](api/using/triggering-a-signal-activity.md)
-   + 管理组织单位 {#managing-organizational-units}
-      + [检索用户档案的组织单位](api/using/retrieving-an-organizational-unit.md)
-      + [更新用户档案的组织单位](api/using/updating-profile-organizational-unit.md)
+   + 管理组织实体 {#managing-organizational-units}
+      + [检索用户档案的组织实体](api/using/retrieving-an-organizational-unit.md)
+      + [更新用户档案的组织实体](api/using/updating-profile-organizational-unit.md)
       + [更新组织单位属性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理单位 {#managing-geographical-units}
       + [检索用户档案的地理单位](api/using/retrieving-a-geographical-unit.md)
