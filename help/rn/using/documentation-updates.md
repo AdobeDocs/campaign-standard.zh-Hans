@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 98%
 
 **此版本中包含的新增功能**
 
-登陆页面验证 — 您现在可以向登陆页面添加强制协议选项。 [阅读更多](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+登陆页面验证 - 您现在可以向登陆页面添加强制协议选项。[阅读更多](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-**电子邮件大小**&#x200B;部分已更新，其中包含有关电子邮件最大大小的信息，该信息现在默认设置为100 MB。 [阅读更多](../../sending/using/design-and-personalize.md#email-size)
+**电子邮件大小**&#x200B;部分更新了有关电子邮件最大大小的信息，最大大小现在默认设置为 100 MB。[阅读更多](../../sending/using/design-and-personalize.md#email-size)
 
 **随版本提供的其他文档更新**
 
-添加了有关如何更改事务推送通知中的目标映射的信息。 [阅读更多](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+添加了有关如何更改事务推送通知中的目标映射的信息。[阅读更多](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## 2021 年 5 月 {#doc-updates-may-2021}
 
