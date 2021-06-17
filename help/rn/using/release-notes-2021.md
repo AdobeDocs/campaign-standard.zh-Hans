@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 发行说明2021
+title: 发行说明 2021
 description: 本页列出了所有 2021 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
@@ -12,8 +12,8 @@ level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * 修复了在复制粘贴已执行一次并利用临时资源的&#x200B;**重复数据删除**&#x200B;活动时可能发生的工作流中的问题。一旦数据重复，该活动的资源就会自动设置为空，从而导致工作流的其他活动出现问题。粘贴后，该活动的资源现在将保持不变，以便尽快触发错误，而不是稍后在工作流中触发错误。(CAMP-46903)
 
-* 修复了通过引入新的[target映射](../../administration/using/target-mappings-in-campaign.md)发送定向用户档案的事务推送通知时，导致投放分析失败的问题：**配置文件 — 用于推送的实时事件**(*mapRtEventAppSubRcp*)。 基于用户档案的事务推送通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的投放、排除和跟踪日志现在将存储在&#x200B;*broadLogAppSubRcp*、*excludeLogAppSubRcp*&#x200B;和&#x200B;*trackingLogAppSubRcp*&#x200B;表中。[
+* 修复了在发送针对用户档案的事务性推送通知时导致投放分析失败的问题，方法是引入新的[目标映射](../../administration/using/target-mappings-in-campaign.md)：**用户档案 - 推送的实时事件** (*mapRtEventAppSubRcp*)。[基于用户档案的事务性推送通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的投放、排除和跟踪日志现在将存储在 *broadLogAppSubRcp*、*excludeLogAppSubRcp* 和 *trackingLogAppSubRcp* 表中。
 
    >[!IMPORTANT]
    >
-   >由于此更改，如果您使用的是现有的基于用户档案的推送事务型通知(在升级到Adobe Campaign 21.1之前创建)，建议您将目标映射更新为新目标映射，然后再次发布消息。 请参见此处](../../channels/using/transactional-push-notifications.md#change-target-mapping)详细的步骤。 [使用上一个目标映射&#x200B;**Profile - Real-time事件**(*mapRtEventRcp*)可能会导致更长的投放准备时间和性能下降。
+   >由于此更改，如果您使用的是现有的基于用户档案的事务性推送通知（在升级到 Adobe Campaign 21.1 之前创建），建议您将目标映射更新为新目标映射，然后再次发布消息。请参见[此处](../../channels/using/transactional-push-notifications.md#change-target-mapping)的详细步骤。使用上一个目标映射“用户档案 - 实时事件”**** (*mapRtEventRcp*) 可能会导致更长的投放准备时间和性能下降。
 
 * 修复了在显示 5000 行时阻止运行投放报告的问题。
 * 修复了在修改投放模板后阻止更新变体 B 的内容的 A/B 测试问题。(CAMP-45235)
