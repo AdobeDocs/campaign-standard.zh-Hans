@@ -8,10 +8,10 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
+* **[Apple邮件隐私保护常](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 见问题解答查找针对Apple关于iOS 15的公告的初始指导
 
-* **[更新错误的硬弹回](https://helpx.adobe.com/cn/campaign/kb/update-bounce-qualification.html)**<br/> 了解如何在电子邮件服务出现中断后更新错误的硬弹回
+* **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
 
 * **[控制组](sending/using/control-group.md)**<br/>
 通过排除部分控制组受众来衡量活动的影响
