@@ -2,674 +2,673 @@
 solution: Campaign Standard
 product: campaign
 title: SMS 连接器协议和设置
-description: 了解有关SMS连接器的更多信息以及如何配置它。
+description: 进一步了解SMS连接器及其配置方法。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: 实例设置
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
 workflow-type: tm+mt
-source-wordcount: '8669'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
-
 
 # SMS 连接器协议和设置 {#sms-connector-protocol}
 
 >[!NOTE]
 >
->可在此[页面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages)中找到Adobe Campaign Classic的&#x200B;**SMS连接器协议和设置**。
+>此[页面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)中提供了适用于Adobe Campaign Classic的&#x200B;**SMS连接器协议和设置**。
 >
->通过本文档，所有对协议详细信息、字段名称和值的引用都引用[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
+>通过本文档，对协议、字段名称和值的详细信息的所有引用均引用[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
 
 ## 概述 {#overview}
 
-SMS可能仅限于发送没有格式的短文本消息，但其简单性使其成为宝贵的通信渠道。
+短信可能仅限于发送没有格式的短文本消息，但其简单性使其成为有价值的通信渠道。
 
-发送SMS主要有两种方式：
+发送短信的主要方式有两种：
 
-* 手动从电话发送，这是直接在人与人之间进行交流的常用方式。
+* 手动从电话发送，这是在人与人之间直接通信的常用方式。
 
-* 通过Internet发送，即Adobe Campaign发送消息的方式。 为此，您需要将Internet连接到移动网络的SMS服务提供商。
-Adobe Campaign使用SMPP协议将SMS发送到服务提供商。
+* 从互联网发送，就像Adobe Campaign发送邮件一样。 为此，您需要一个短信服务提供商，将Internet连接到移动网络。
+Adobe Campaign使用SMPP协议向服务提供商发送短信。
 
-此文档将指导您完成在Adobe Campaign和SMPP提供商之间建立的连接。
+本文档将指导您完成在Adobe Campaign与SMPP提供商之间设置的连接。
 
-SMPP提供商有时可能偏离官方规范，但Adobe Campaign中的SMS连接器提供了许多选项来调整其行为，使其与大多数提供商兼容。
+SMPP提供商有时可能会偏离官方规范，但Adobe Campaign的SMS连接器提供了许多选项来调整其行为，以便与大多数提供商兼容。
 
 >[!IMPORTANT]
 >
->设置与新提供程序的连接可能需要一些技术技能、TCP知识、二进制、十六进制表示和文本编码。 它还需要与提供商积极合作。
+>设置与新提供商的连接可能需要一些技术技能、TCP知识、二进制、十六进制表示和文本编码。 它还需要与提供商积极合作。
 
-### SMS类型{#sms-types}
+### 短信类型 {#sms-types}
 
-当通过SMS提供商发送大量SMS时，您会遇到三种不同的SMS:
+通过短信提供商发送批量短信时，您会遇到三种不同的短信：
 
-* **SMS MT（已终止移动）**:通过SMPP提供商向移动电话发送的SMS。
+* **短信MT（已终止移动设备）**:由Adobe Campaign通过SMPP提供商向移动电话发出的短信。
 
-* **SMS MO（移动端诞生）**:由移动设备通过SMPP提供商发送给Adobe Campaign的SMS。
+* **短信（源自移动设备）**:由移动设备通过SMPP提供商发送到Adobe Campaign的短信。
 
-* **SMS SR（状态报告）或DR或DLR(投放收据)**:由移动设备通过SMPP提供商发送给Adobe Campaign的返回回执，指示SMS已成功接收。Adobe Campaign还可能收到指示无法传递消息的SR，通常包含错误的描述。
+* **短信SR（状态报告）、DR或DLR（投放接收）**:移动设备通过SMPP提供商发送到Adobe Campaign的回执，指示短信已成功接收。Adobe Campaign可能还会收到指示无法发送消息的SR，通常包含错误描述。
 
-您需要区分鸣谢（RESP PDU， SMPP协议的一部分）和SR:SR是一种通过网络端对端发送的SMS，而确认只是一次传输成功的确认。
+您需要区分确认（RESP PDU， SMPP协议的一部分）和SR:SR是一种通过网络端对端发送的短信，而确认只是确认一次传输成功。
 
-确认和SR都可能触发错误，区分二者将有助于故障排除。
+确认和SR都可能触发错误，区分这两种错误将有助于进行故障排除。
 
-### SMS {#information-sms}携带的信息
+### 短信携带的信息 {#information-sms}
 
-短信携带的信息比文本多。 下面是您在SMS中可以找到的列表:
+短信携带的信息多于文本。 以下是您希望在短信中找到的内容列表：
 
-* 文本（限于140字节），表示70到160个字符之间，具体取决于编码。 有关详细信息和限制，请参阅下面的[SMS文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)。
+* 文本，长度限制为140字节，表示70到160个字符，具体取决于编码。 有关详细信息和限制，请参阅下面的[短信文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)。
 
-* 收件人地址，有时称为`ADC`或`MSISDN`。 这就是接收短信的手机数量。
+* 收件人地址，有时称为`ADC`或`MSISDN`。 即接收短信的移动设备数量。
 
-* 发件人地址，可以称为`oADC`，有时也称为`sender id`。 这可以是日常使用中的电话号码、通过提供商发送的简短代码或姓名。 名称是可选功能，在这种情况下，您无法回复SMS。
+* 发件人地址，可以称为`oADC`或有时称为`sender id`。 这可以是日常使用中的电话号码，也可以是通过提供商发送的简短代码或名称。 名称是一项可选功能，在这种情况下，您无法回复短信。
 
-* 一个标志，用于指示消息是否为Flash消息。 闪存消息是不存储在内存中的弹出窗口。
+* 用于指示消息是否为Flash消息的标记。 闪存消息是未存储在内存中的弹出窗口。
 
-* 指示是否需要SR的标志。
+* 用于指示SR是否为预期的标记。
 
-* 有效日期，之后不允许网络设备重试。
+* 有效日期，之后不允许任何网络设备重试。
 
-* 一个`data_coding`字段，指示文本的编码。
+* `data_coding`字段，用于指示文本的编码。
 
-## SMPP协议{#smpp-protocol}
+## SMPP协议 {#smpp-protocol}
 
-Adobe Campaign Standard支持SMPP协议3.4版。这是一种广泛的协议，允许向提供商(SMSC)发送SMS并接收SMS和接收。 有关详细信息，请参阅[SMPP文档](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
+Adobe Campaign Standard支持SMPP协议版本3.4。这是一种广泛的协议，允许向提供商(SMSC)发送短信，以及接收短信和接收。 有关更多信息，请参阅[SMPP文档](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
 
-SMS服务提供商端的网络设备通常称为SMSC。
+短信服务提供商端的网络设备通常称为SMSC。
 
-### SMPP连接{#smpp-connections}
+### SMPP连接 {#smpp-connections}
 
-Adobe Campaign通过TCP连接到SMS服务提供商的网络设备。 SMPP协议设置从Adobe Campaign到提供程序的永久TCP连接。 TCP连接始终由Adobe Campaign启动，甚至是接收消息。
+Adobe Campaign通过TCP连接到短信服务提供商的网络设备。 SMPP协议设置从Adobe Campaign到提供程序的永久TCP连接。 TCP连接始终由Adobe Campaign发起，甚至用于接收消息。
 SMPP会打开1个或2个TCP连接，具体取决于其模式。 所有连接始终由Adobe Campaign启动。
 
-SMPP协议可以在两种模式下工作：
+SMPP协议可以采用两种模式：
 
-* **发射机+接收机（或TX+RX）**:两个独立的TCP连接用于发送和接收消息。
-* **收发器（或TRX）**:单个TCP连接用于发送和接收消息。
+* **发射机+接收机（或TX+RX）**:两个单独的TCP连接用于发送和接收消息。
+* **收发器(abor TRX)**:单个TCP连接用于发送和接收消息。
 
 >[!NOTE]
 >
->TRX是Adobe Campaign Standard的首选，因为它减少了连接数并简化了故障时的连接恢复。
+>TRX是Adobe Campaign Standard的首选，因为它减少了连接数，并在出现故障时简化了连接恢复。
 
 ### SMPP PDU {#smpp-pdu}
 
 SMPP传输单元（“数据包”）称为PDU。 **PDU**&#x200B;包含命令、状态、序列号和数据。
 
-每个PDU必须由`SMPP RESP PDU`（同步响应）进行确认。 请求可以流水线处理：发送方可以发送许多命令而无需等待`RESP`，随时可以流水线处理的请求数称为窗口。 `RESP PDU` 可能以任何顺序到达，而与其相应的启动器PDU的顺序无关。
+每个PDU必须由`SMPP RESP PDU`（同步响应）进行确认。 请求可以流水线处理：发送者无需等待`RESP`即可发送许多命令，任何时间可能流水的请求数称为窗口。 `RESP PDU` 可以按与相应启动器PDU的顺序无关的任何顺序到达。
 
-在分离的&#x200B;**发射器+接收器**&#x200B;模式中，所使用的连接取决于所传输的消息类型。 发射机连接用于MT，接收机连接用于MO和SR。 每种消息的请求和响应都通过同一TCP连接发送。
+在分隔的&#x200B;**发射机+接收机**&#x200B;模式中，使用的连接取决于所发送的消息类型。 发射机连接用于MT，接收机连接用于MO和SR。 每种消息的请求和响应通过同一TCP连接发送。
 
-例如，当发送MT时，使用发射器连接，并且确认MT的`RESP`也通过发射器渠道发送。 当您收到MO（或SR）时，接收器连接用于接收MO并发送确认MO的`RESP`。
+例如，在发送MT时，使用发送器连接，并且确认MT的`RESP`也通过发送器信道发送。 当您收到MO（或SR）时，接收器连接用于接收MO并发送确认MO的`RESP`。
 
 ![](assets/do-not-localize/sms_protocol_1.png)
 
-在Adobe Campaign Standard中，MT和SR协调是MTA的本机，因此没有专用的SMS过程。
+在Adobe Campaign Standard中，MT和SR协调是MTA的本机，因此没有专用的短信流程。
 
-成功`SUBMIT_SM_RESP PDU`会触发发送日志中的“已发送”消息状态，而成功`DELIVER_SM (SR) PDU`会触发“已接收”消息状态。
+成功的`SUBMIT_SM_RESP PDU`会在发送日志中触发“已发送”消息状态，成功的`DELIVER_SM (SR) PDU`触发“已接收”消息状态。
 
-### 安全方面{#security-aspects}
+### 安全方面 {#security-aspects}
 
-协议本身不加密。 大多数提供商在时实现IP的变允许列表体，因此Adobe Campaign服务器IP地址必须向提供商声明。
+协议本身未加密。 大多数提供程序在时实施IP的变允许列表体，因此必须向提供程序声明Adobe Campaign服务器IP地址。
 
-Adobe Campaign支持在绑定阶段传递登录名和口令。 它还支持SMPP而不是TLS。 应当指出，需要证书才能获得适当的安全。 尽管SMPP连接器允许绕过证书检查，但它只应用于测试，因为没有证书的TLS提供的安全级别要低得多。
+Adobe Campaign支持在绑定阶段期间传递登录名和密码。 它还支持SMPP而不是TLS。 应当指出，需要证书才能获得适当的安全性。 虽然SMPP连接器允许绕过证书检查，但它只应用于测试，因为没有证书的TLS提供的安全级别要低得多。
 
-连接器使用系统`openssl`库提供的默认证书。 通常由Debian上的`/etc/ssl/certs`目录提供。 默认情况下，此目录由“ca-certificates”包提供，但可以自定义它。
+连接器使用系统`openssl`库提供的默认证书。 通常由Debian上的`/etc/ssl/certs`目录提供。 默认情况下，此目录由“ca-certificates”包提供，但可以对其进行自定义。
 
-### 每种PDU{#information-pdu}中的信息
+### 每种PDU中的信息 {#information-pdu}
 
-每种PDU都有不同的字段，这些字段携带不同的信息。 [SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)中详细介绍了这些PDU。
+每种PDU都有不同的字段，这些字段包含不同的信息。 [SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)中详细介绍了这些PDU。
 
-以下各节介绍PDU及其同步响应(`*_RESP PDU`)。 所有PDU都必须由相应的`RESP`进行确认，这是规范的必需部分。
+下面每个部分都描述PDU及其同步响应(`*_RESP PDU`)。 所有PDU必须由相应的`RESP`进行确认，这是规范的必备部分。
 
-PDU可以有可选字段。 此处只介绍最常见的字段。 有关详细信息，请参阅[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
+PDU可以具有可选字段。 此处只介绍了最常见的字段。 有关更多信息，请参阅[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
 
-#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_RECUIVER {#bind-transmitter}
+#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSFIER {#bind-transmitter}
 
-此PDU用于启动到SMSC的连接。 **发送器**、 **** 接收 **** 器和收发模式只更改允许通过此连接传输的SMS类型，具体而言：
+此PDU用于启动与SMSC的连接。 **发送器**、接 **** 收器 **** 和收发模式只更改允许通过此连接传输的短信类型，具体如下：
 
-| 模式 | 允许的短信种类 |
+| 模式 | 允许的短信类型 |
 |:-:|:-:|
 | 发射机 | MT |
-| 接收机 | MO + SR |
+| 接收器 | MO + SR |
 | 收发器 | MT + MO + SR |
 
-`BIND_* PDU`中值得注意的字段：
+`BIND_* PDU`中的显着字段：
 
-* **system_id**:用于身份验证的登录名。在外部帐户中设置。
+* **system_id**:用于身份验证的登录。在外部帐户中设置。
 
 * **密码**:用于身份验证的密码。在外部帐户中设置。
 
-* **system_type**:需要为某些提供者设置特定值。在外部帐户中设置，所有版本都提供。 通常区分不同类型的合同、渠道、国家等。
+* **system_type**:需要为某些提供程序设置特定值。在外部帐户中设置，可在所有版本中使用。 通常会区分不同类型的合同、渠道、国家/地区等。
 
-* **addr_** tonand  **addr_npi**:某些提供商要求。由外部帐户中的`Bind TON`和`Bind NPI`设置设置。
+* **addr_** tonand  **addr_npi**:某些提供程序需要。由外部帐户中的`Bind TON`和`Bind NPI`设置设置。
 
-* **address_range**:某些提供商要求。大多数情况下，这是在此连接上允许的简短代码列表。 在外部帐户中设置。
+* **address_range**:某些提供程序需要。大多数情况下，此连接中允许使用的快捷方式列表。 在外部帐户中设置。
 
-`BIND_*_RESP` 没有特定字段，它会确认连接是否成功。
+`BIND_*_RESP` 没有特定字段，则会确认连接是否成功。
 
-#### 取消绑定{#unbind}
+#### 取消绑定 {#unbind}
 
-在断开连接之前，必须由系统发送此PDU。 在关闭连接之前，它必须等待匹配的`UNBIND_RESP PDU`。
+此PDU必须由系统发送，然后才能断开连接。 必须等待匹配的`UNBIND_RESP PDU`才能关闭连接。
 
-符合SMSC的TCP连接不能关闭，TCP连接由Adobe Campaign连接器控制。
+符合SMSC不能关闭连接，TCP连接由Adobe Campaign连接器控制。
 
 #### SUBMIT_SM {#submit-sm}
 
-此PDU向SMSC发送MT。 其响应PDU给出MT的ID。
+此PDU向SMSC发送MT。 其响应PDU提供MT的ID。
 
-`SUBMIT_SM PDU`中值得注意的字段：
+`SUBMIT_SM PDU`中的显着字段：
 
-* **service_type**:提供商。在投放属性中设置。
+* **service_type**:某些提供程序所需。在投放属性中设置。
 
-* **source_addr_** tonand  **source_addr_npi**:指示传输的源地址类型。这些字段的含义是标准化的，但是，由于某些提供者使用它的方式不同，您应要求提供者提供其正确的值。 在外部帐户中设置。
+* **source_addr_** tonand  **source_addr_npi**:指示传输的源地址类型。这些字段的含义是标准化的，但由于某些提供商使用它的方式不同，因此您应该向提供商询问其正确值。 在外部帐户中设置。
 
 * **source_addr**:MT的源地址/oADC。它将显示在手机上。 在外部帐户和投放中设置，投放中的值优先于外部帐户的值。
 
-* **dest_addr_** ton和 **dest_addr_npi**:指示传输的目标地址类型（例如本地或国际格式）。这些字段的含义是标准化的，但是，由于某些提供者使用它的方式不同，您应要求提供者提供其正确的值。 在外部帐户中设置。
+* **dest_addr_** ton和 **dest_addr_npi**:指示传输的目的地址类型（如本地或国际格式）。这些字段的含义是标准化的，但由于某些提供商使用它的方式不同，因此您应该向提供商询问其正确值。 在外部帐户中设置。
 
 * **destination_addr**:收件人地址、电话号码或MSISDN。
 
-* **esm_class**:用于判断文本字段中是否使用了UDH。如果未使用`message_payload`模式，则连接器会自动启用拆分SMS。
+* **esm_class**:用于判断文本字段中是否使用了UDH。如果未使用`message_payload`模式，则连接器会自动为拆分短信启用。
 
-* **priority_flag**:优先于其他人。这与投放本身的优先级相关。
+* **priority_flag**:优先于其他邮件。这与投放本身的优先级相关。
 
-* **validity_period**:不应尝试重试的时间戳。在投放中设置。
+* **validity_period**:时间戳后，不应尝试重试。在投放本身中设置。
 
-* **registered_投放**:指示是否请求SR。Adobe Campaign始终设置此标志，但自动回复除外。 对于多部件消息，仅为第一部分设置标志。 所有版本都具有相同的行为。
+* **registered_delivery**:告知是否请求SR。Adobe Campaign始终设置此标志，但自动回复除外。 对于多部分消息，仅为第一部分设置标志。 所有版本都具有相同的行为。
 
-* **data_coding**:指示文本字段中使用的编码。有关详细信息，请参阅[SMS文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分。
+* **data_coding**:指示在文本字段中使用的编码。有关更多信息，请参阅[短信文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分。
 
-* **short_message**:消息的文本。如果使用UDH，则还包含UHD头。
+* **short_message**:消息的文本。如果使用UDH，则还包含UHD标头。
 
 Adobe Campaign支持以下可选字段：
 
-* **dest_addr_ubunit**:用于指定SMS的目标:Flash、移动或SIM卡。在投放属性中设置。
+* **dest_addr_ubit**:用于指定短信的目标：Flash、移动或SIM卡。在投放属性中设置。
 
-* **message_payload**:在外部帐户中启用时，长消息将在单个PDU中发送，文本将在此字段而非字段中 `short_message` 传输。
+* **message_payload**:在外部帐户中启用后，长报文将在单个PDU中发送，文本将在此字段中而非字段中 `short_message` 传输。
 
 #### SUBMIT_SM_RESP {#submit-sm-resp}
 
-此PDU将包含MT的ID。 这对于将其与传入SR匹配很有用。
+此PDU将包含MT的ID。 这对于将其与传入的SR匹配非常有用。
 
 >[!IMPORTANT]
 >
->许多提供者以十六进制形式传输MT ID。 确保在外部帐户中正确设置MT确认&#x200B;**中的** ID格式。
+>许多提供商以十六进制传输MT ID。 确保在外部帐户中正确设置MT确认&#x200B;**中的** ID格式。
 
-在发送SR后，某些提供者发送`SUBMIT_SM_RESP`。 为了解释该行为，Adobe Campaign会等待30秒，然后将&#x200B;**无效消息ID**&#x200B;回复到SR，ID未知。
+某些提供商在发送SR后发送`SUBMIT_SM_RESP`。 要考虑到这种行为，Adobe Campaign需要等待30秒，然后向ID未知的SR回复&#x200B;**无效消息ID**。
 
 #### DELIVER_SM {#delivery-sm}
 
-此PDU由SMSC发送给Adobe Campaign。 它包含MO或SR。
+此PDU由SMSC发送至Adobe Campaign。 它包含MO或SR。
 
-大多数字段与其`SUBMIT_SM`对应字段具有相同的含义。 以下是有用字段的列表:
+大多数字段与对应的`SUBMIT_SM`字段具有相同的含义。 以下是有用字段的列表：
 
-* **source_addr**:MO/SR的源地址。通常这是电话号码。
+* **source_addr**:MO/SR的源地址。通常是电话号码。
 
 * **destination_addr**:接收MO或SR的短代码。
 
 * **esm_class**:用于判断PDU是MO还是SR。
 
-* **short_message**:文本。对于SR，它包含SMPP协议规范附录B中描述的数据。 有关详细信息，请参阅[SR错误管理](../../administration/using/sms-protocol.md#sr-error-management)。
+* **short_message**:消息的文本。对于SR，它包含SMPP协议规范附录B中描述的数据。 有关更多详细信息，请参阅[SR错误管理](../../administration/using/sms-protocol.md#sr-error-management)。
 
-Adobe Campaign能够通过某种配置调整来读取`receipted_message_id`可选字段中的消息ID。
+Adobe Campaign能够在`receipted_message_id`可选字段中读取消息ID，并进行一些配置调整。
 
 #### DELIVER_SM_RESP {#deliver-sm-resp}
 
 此PDU由Adobe Campaign发送以确认SR和MO。
 
-Adobe Campaign Standard仅在所有处理步骤均成功后发送`DELIVER_SM_RESP`。 这保证在仍有处理错误的风险时，不会确认SR或MO。
+只有在所有处理步骤均成功后，Adobe Campaign Standard才会发送`DELIVER_SM_RESP`。 这可保证在仍存在处理错误风险时，不会确认任何SR或MO。
 
 #### INQUIRE_LINK {#enquire-links}
 
-此PDU仅用于检查连接是否处于活动状态。 应根据供应商的需要设置其频率。
+此PDU仅用于检查连接是否处于活动状态。 频度应根据提供商的需求进行设置。
 
 默认的60秒应与外部帐户中设置的大多数配置相匹配。
 
 #### INQUIRE_LINK_RESP {#enquire-links-resp}
 
-此PDU确认连接是活的。
+此PDU确认连接处于活动状态。
 
-### 多部SMS（长SMS）{#multipart}
+### 多部分短信（长短信） {#multipart}
 
-多部分SMS或长SMS是多部分发送的SMS。 由于移动网络协议中的技术限制，SMS不能大于140字节或需要拆分。 请参阅[SMS文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分，进一步了解适合SMS的字符数。
+多部分短信或长短信是分多部分发送的短信。 由于移动网络协议的技术限制，短信的长度不能超过140字节，否则需要拆分。 请参阅[短信文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分，了解有关短信中可容纳的字符数的更多信息。
 
-长信息的每个部分都是单独的SMS。 这些部件在网络上独立运行，并由接收手机组装。 为了处理重试和连接问题，Adobe Campaign以反向顺序发送这些部件，并仅在消息的第一部分（即最后发送的部分）上请求SR。 由于手机在收到第一部分时只显示一条消息，因此附加部分上的重试不会在手机上产生重复。
+长消息的每个部分都是单个短信。 这些部件在网络上独立运行，并由接收手机组装。 为了处理重试和连接问题，Adobe Campaign会以反向顺序发送这些部分，并仅在消息的第一部分（即上次发送的部分）请求SR。 由于移动电话仅在收到其第一部分时才显示消息，因此对其他部分的重试不会在移动电话上产生重复。
 
-使用&#x200B;**投放模板**&#x200B;中的&#x200B;**每条消息的最大SMS数**&#x200B;设置，可以为每条投放设置最大SMS数。 在发送时，超过此限制的消息将失败，原因是SMS过长。
+使用&#x200B;**投放模板**&#x200B;中的&#x200B;**每条消息的最大短信数**&#x200B;设置，可以设置每条消息的最大短信数。 在发送短信时，超过此限制的消息将失败，原因为短信过长。
 
-发送长短信有两种方法：
+有2种方法可发送长短信：
 
-* **UDH**:发送长消息的默认和推荐方式。在此模式中，连接器将消息拆分为多个`SUBMIT_SM PDU`s，其中包含UDH信息。 此协议是手机本身使用的协议。 这意味着Adobe Campaign对消息生成拥有最大的控制权，从而能够准确计算发送的部件数量和拆分方式。
+* **UDH**:发送长消息的默认和推荐方法。在此模式下，连接器将消息拆分为多个`SUBMIT_SM PDU`s，其中包含UDH信息。 此协议是手机本身使用的协议。 这意味着Adobe Campaign对消息生成的控制最强，能够准确计算发送了多少个部件以及它们的拆分方式。
 
-* **message_payload**:一次发送长信息的方式 `SUBMIT_SM PDU`提供商必须拆分它，这意味着Adobe Campaign不可能确切知道发送了多少部件。 某些提供商需要此模式，但我们建议您仅在它们不支持UDH时使用它。
+* **message_payload**:用单一方式发送整个长信息的方 `SUBMIT_SM PDU`式。提供商必须对其进行拆分，这意味着Adobe Campaign无法确切知道已发送的部件数量。 有些提供商需要此模式，但我们建议您仅在它们不支持UDH时才使用此模式。
 
-有关协议和格式的详细信息，请参阅[ SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu)的`esm_class`、`short_message`和`message_payload`字段的说明。
+有关协议和格式的更多详细信息，请参阅[SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu)的`esm_class`、`short_message`和`message_payload`字段的说明。
 
-### 吞吐量上限和窗口{#throughput-capping}
+### 吞吐量上限和窗口 {#throughput-capping}
 
-大多数提供程序要求每个SMPP连接都有吞吐量限制。 这可以通过在外部帐户中设置多个SMS来实现。 请注意，每个连接都会发生吞吐量限制，总有效吞吐量是每个连接的限制乘以连接总数。 这在[同时连接](../../administration/using/sms-protocol.md#connection-settings)部分中有详细说明。
+大多数提供程序要求对每个SMPP连接设置吞吐量限制。 可以通过在外部帐户中设置多个短信来实现这一点。 请注意，每个连接发生吞吐量限制，总有效吞吐量是每个连接的限制乘以连接总数。 有关详细信息，请参见[同时连接](../../administration/using/sms-protocol.md#connection-settings)一节。
 
-要达到最大的吞吐量，您需要微调最大发送窗口。 发送窗口是可以发送的`SUBMIT_SM PDU`数，无需等待`SUBMIT_SM_RESP`。 有关详细信息，请参阅[发送窗口设置](../../administration/using/sms-protocol.md#throughput-timeouts)部分。
+要达到最大的吞吐量，您需要微调最大发送窗口。 发送窗口是可以发送的`SUBMIT_SM PDU`数量，无需等待`SUBMIT_SM_RESP`。 有关更多详细信息，请参阅[发送窗口设置](../../administration/using/sms-protocol.md#throughput-timeouts)部分。
 
-### SR和错误管理（“附录B”）{#sr-error-management}
+### SR和错误管理（“附录B”） {#sr-error-management}
 
-SMPP协议定义`RESP PDU`s中的标准同步错误，但不定义SR的错误代码。 每个提供者使用各自的错误代码及其含义。
+SMPP协议定义了`RESP PDU`s中的标准同步错误，但它没有为SR定义错误代码。 每个提供商都使用各自的错误代码来表示其含义。
 
-在[SMPP协议规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第167页）的附录B部分中提出了建议，但这并不列表实际错误代码及其含义。
+在[SMPP协议规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第167页）的附录B部分中提出了建议，但并未列出实际错误代码及其含义。
 
-为了适应错误管理，Adobe Campaign的广播消息系统被用于正确设置错误及其严重性（硬、软等）。
+为了适应错误管理，Adobe Campaign的broadlog消息系统已被用于正确配置错误及其严重性（硬、软等）。
 
 如上所述，存在两种不同的错误：
 
-* `SUBMIT_SM_RESP`中在消息发送到SMSC后立即发生的同步回复
-* 可能会在较晚时间，当移动设备收到消息或消息超时时收到。 在这种情况下，在SR中发现错误。
+* 在`SUBMIT_SM_RESP`中发生的同步回复在消息发送到SMSC后立即发生
+* 在移动设备收到消息或消息超时时，可能会很晚收到的收据。 在这种情况下，在SR中发现错误。
 
-收到SR后，在其`short_message`字段（例如，附录B符合实现）中可找到状态和错误。 PDU的`short_message`字段通常称为&#x200B;**文本字段**，因为它包含MT中的文本。 对于SR，它包含技术信息加上一个名为&#x200B;**Text**&#x200B;的子字段。 这2个字段不同，`short_message`实际包含&#x200B;**Text**&#x200B;字段和其他信息。
+收到SR后，其`short_message`字段中会显示状态和错误（例如，附录B符合要求的实施）。 PDU的`short_message`字段通常称为&#x200B;**文本字段**，因为它包含MT中的文本。 对于SR，它包含技术信息以及名为&#x200B;**Text**&#x200B;的子字段。 这2个字段不同，`short_message`实际包含&#x200B;**Text**&#x200B;字段和其他信息。
 
-#### SR文本字段格式{#sr-text-field-format}
+#### SR文本字段格式 {#sr-text-field-format}
 
-规范建议对SR文本字段使用此格式。 它是子字段的列表，以空格分隔，并带有冒号以分隔字段名称及其值。 字段名称不区分大小写。
+规范建议对SR文本字段使用此格式。 它是子字段列表，用冒号以空格分隔，用于分隔字段名称及其值。 字段名称不区分大小写。
 
-与附录B建议匹配的SR文本字段示例：
-
-```
-id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
-```
-
-id字段是在`SUBMIT_SM_RESP PDU`（MT的确认）中接收的ID。
-
-`sub` 而 `dlvrd` 且应该计算传递的部件和传递的消息的数量，但这不是Adobe Campaign使用的，因为广播系统提供了更好、更集成的信息。
-
-`submit date` 和字 `done date` 段是指示MT何时发送以及移动设备何时发送SR的时间戳。如果移动设备设置的日期不正确，则可能会遇到时区问题，甚至会出现错误的时间戳。
-
-stat字段很重要，因为它会告知消息的状态。 唯一重要的状态是`DELIVRD`、`UNDELIV`和`REJECTD`。 `DELIVRD`状态表示成功，另两个表示错误。 其他值是可能的，但通常是中间通知，例如MT到达移动运营商，而不是移动电话。 这些中间通知被Adobe Campaign忽略。
-
-错误字段包含提供程序特定的错误代码。 提供者必须提供可能的错误代码表及其含义，才能解释此值。
-
-最后，文本字段通常包含MT文本的开头。 这被Adobe Campaign忽略，某些提供商不会通过传输来避免PII泄漏和网络带宽消耗。 它可在故障排除期间使用，通过阅读此字段更轻松地发现与测试MT匹配的SR。
-
-### Adobe Campaign Standard Extended通用SMPP {#sr-processing}中SR处理示例
-
-此示例显示按附录B建议实施的情况、外部帐户中的默认值和成功的SMS MT。
+与附录B推荐匹配的SR文本字段示例：
 
 ```
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-首先，应用`id extraction`正则表达式提取ID并将其与相应的MT协调。
+id字段是`SUBMIT_SM_RESP PDU`（MT的确认）中收到的ID。
 
-然后，应用`status extraction`正则表达式和`error code extraction`正则表达式以提取这些字段并附加到字符串。
+`sub` 而且 `dlvrd` 应该计算已投放部件和已投放消息的数量，但Adobe Campaign并未使用这项功能，因为broadlog系统提供了更好、更集成的信息。
 
-广播消息是使用此信息构建的，并附加原始未更改的字符串作为参考：
+`submit date` 和字 `done date` 段是指示MT何时发送以及移动设备何时发送SR的时间戳。设置了不正确日期的手机给出的时区、甚至错误的时间戳，可能会出现一些问题。
+
+stat字段很重要，因为它可告知消息的状态。 唯一重要的状态是`DELIVRD`、`UNDELIV`和`REJECTD`。 `DELIVRD`状态表示成功，其他两个状态表示错误。 其他值可能存在，但通常是中间通知，例如MT到达了移动设备运营商，但不是手机。 这些中间通知被Adobe Campaign忽略。
+
+错误字段包含特定于提供程序的错误代码。 提供程序必须提供可能的错误代码表及其含义才能解释此值。
+
+最后，文本字段通常包含MT文本的开头。 这被Adobe Campaign忽略，某些提供商不会传输它以避免PII泄漏和网络带宽消耗。 它可在故障排除期间通过读取此字段来更轻松地发现与测试MT匹配的SR。
+
+### Adobe Campaign Standard扩展通用SMPP中的SR处理示例 {#sr-processing}
+
+此示例显示了遵循附录B推荐的实施案例、外部帐户中的默认值以及成功的短信MT。
+
+```
+id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
+```
+
+首先，应用`id extraction`正则表达式来提取ID并将其与相应的MT协调。
+
+然后，将应用`status extraction`正则表达式和`error code extraction`正则表达式来提取这些字段，并将其附加到字符串中。
+
+broadlog消息将使用此信息构建，并附加原始的未更改字符串以供参考：
 
 ```
 SR ExampleProvider DELIVRD 000|MESSAGE=id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-然后，该消息被标准化，删除MESSAGE部分以能够使多个消息与相同的状态和错误代码匹配。
+然后，该消息被标准化，删除MESSAGE部分，以便能够匹配具有相同状态和错误代码的多个消息。
 
 ```
 SR ExampleProvider DELIVRD 000|#MESSAGE#
 ```
 
-如果广播消息表中尚未设置该消息，则将创建一个新条目，将整个消息用作&#x200B;**firstText**&#x200B;和标准化消息。 然后，连接器使用成功和`error`正则表达式确定成功还是失败：
+如果该消息尚未在broadlog消息表中设置，则将创建一个新条目，使用整个消息作为&#x200B;**firstText**&#x200B;和标准化消息。 然后，连接器使用success和`error`正则表达式来确定它是成功还是失败：
 
-* 如果它与`success`正则表达式匹配，则会将其视为成功。
+* 如果与`success`正则表达式匹配，则会将其视为成功。
 
 * 如果与`error`正则表达式匹配，则消息被限定为错误。
 
-* 如果这两个正则表达式都不匹配，则忽略SR。 它可能是中间通知，不由Adobe Campaign处理。
+* 如果这两个正则表达式中没有一个匹配，则忽略SR。 它可能是中间通知，Adobe Campaign不处理。
 
-默认情况下，所有错误都设置为软错误。 这意味着必须手动设置硬错误。
+默认情况下，所有错误都设置为软错误。 这意味着必须手动配置硬错误。
 
-### SMS文本编码{#sms-text-encoding}
+### 短信文本编码 {#sms-text-encoding}
 
-如果发生编码问题，应&#x200B;**始终与SMSC提供程序联系。**&#x200B;只有SMSC提供商才能确切了解他们支持的编码，以及由于其技术平台的限制而可能适用的特殊规则。
+如果发生编码问题，应始终&#x200B;**联系SMSC提供程序**。 只有SMSC提供商对其支持的编码有了确切的了解，并且由于其技术平台的限制而可能适用的特殊规则。
 
-SMS消息使用特殊的7位编码，通常称为GSM7编码。
+短信消息使用特殊的7位编码，通常称为GSM7编码。
 
-在SMPP协议中，GSM7文本将扩展为每个字符8位，以便更轻松地排除故障。 SMSC将在将其发送到移动设备之前将其打包为7位/字符。 这意味着在SMPP帧中，SMS的`short_message`字段最长可达160个字节，而在移动网络上发送时，该字段最长可限制为140个字节。
+在SMPP协议中，GSM7文本将扩展为每个字符8位，以便更轻松地进行故障排除。 SMSC会先将其打包为每个字符7位，然后再将其发送到移动设备。 这意味着在SMPP帧中，短信的`short_message`字段的长度可能最多为160字节，而在移动网络上发送时，该字段的长度可能最多为140字节。
 
-在编码出现问题时，需要检查以下重要事项：
+在出现编码问题时，请检查以下一些重要事项：
 
-* 确保您知道哪些字符属于哪个编码。 GSM7不完全支持音符（重音）。 在法语中尤其如此，在法语中，é和è是GSM7的一部分，但ê或ï不是。 西班牙语也是如此。
+* 确保知道哪些字符属于哪种编码。 GSM7不完全支持变音标记（重音）。 特别是在法语中，“é”和“è”是GSM7的一部分，但“ê”和“ï”不是。 西班牙语也是如此。
 
-* 带有Cedilla(ç)的C仅在GSM7字母表中的大写中存在，但某些电话将它呈现在小写或“smart”大写中。 一般建议是完全避免这种情况，并删除代码或切换到UCS-2。
+* 带有变音符(ç)的C仅在GSM7字母的大写中存在，但有些手机在小写或“智能”大写中呈现。 一般建议是完全避免它，并删除变量或切换到UCS-2。
 
-* **除非SMSC提供者明确** 请求，否则不要在SMS中使用ASCII。这种编码浪费了空间，因为它具有8位字符，并且比GSM7的覆盖范围更小。 在北美使用的CDMA网络可能需要此编码。
+* **除非SMSC提供商明确请** 求，否则请勿在短信中使用ASCII。此编码浪费了空间，因为它具有8位字符，并且比GSM7的覆盖范围更小。 在北美使用的CDMA网络可能需要此编码。
 
-* 不总是支持拉丁语–1。 尝试使用拉丁语–1之前，请检查与SMSC提供商的兼容性。
+* Latin-1并非始终受支持。 在尝试使用Latin-1之前，请检查与SMSC提供商的兼容性。
 
-* 国家语言转换表不受Adobe Campaign连接器支持。 必须改用UCS-2或其他`data_coding`。
+* Adobe Campaign连接器不支持国家语言班次表。 您必须改用UCS-2或其他`data_coding`。
 
-* UCS-2和UTF-16通常由电话混合。 在使用UCS-2中不存在的表情符号和其他字符时，这是个问题。
+* UCS-2和UTF-16通常由手机混合使用。 使用UCS-2中不存在的表情符号和其他字符时，会出现此问题。
 
-* 大多数手机没有所有UCS-2字符的字体字形。 智能手机往往能够很容易地显示稀有人物，但功能手机通常对它们所购买的国家的母语有用功能的支持有限。 如果要使用emoji或ASCII-art，请在发送前在各种电话上测试它。 Adobe Campaign预览不模拟缺失的字形，并将显示Web浏览器上可用的符号。
+* 大多数手机没有所有UCS-2字符的字体字形。 智能手机往往能够非常轻松地显示稀有字符，但功能手机通常对购买国母语中有用功能的支持有限。 如果您想使用表情符号或ASCII-art，请在发送前在各种手机上测试它。 Adobe Campaign预览不模拟缺少的字形，将显示Web浏览器上可用的符号。
 
-`data_coding`字段会告诉您使用的编码。 一个主要问题是，值0表示规范中的默认SMSC编码，通常指GSM7。 请咨询与`data_coding` = 0关联的SMSC合作伙伴，该Adobe Campaign仅支持该项。 其他`data_coding`值往往遵循规范，但确保的唯一方法是与SMSC提供程序进行检查。
+`data_coding`字段用于告知您使用的编码。 一个主要问题是，值0表示规范中的默认SMSC编码，通常指GSM7。 与编码与`data_coding` = 0关联的SMSC合作伙伴(Adobe Campaign仅支持此SMSC)联系。 其他`data_coding`值往往遵循规范，但确定的唯一方法是与SMSC提供程序进行核实。
 
-消息的最大大小取决于其编码。 下表总结了所有相关信息：
+消息的最大大小取决于其编码。 下表汇总了所有相关信息：
 
-| 编码 | 通常的data_coding | 消息大小（字符） | 多部件SMS的部件大小 | 可用字符 |
+| 编码 | 常用data_coding | 消息大小（字符） | 多部分短信的部件大小。 | 可用字符 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM7 | 0 | 160 | 152 | GSM7基本字符集+扩展（扩展字符为2个字符） |
-| 拉丁语–1 | 3 | 140 | 134 | ISO-8859-1 |
+| GSM7 | 0 | 160 | 152 | GSM7基本字符集+扩展（扩展字符需要2个字符） |
+| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode（因电话而异） |
 
-## SMPP外部帐户参数{#SMPP-parameters-external}
+## SMPP外部帐户参数 {#SMPP-parameters-external}
 
-SMPP协议的每个实现都有许多不同之处。 为了提高兼容性和适应性，可以使用许多设置来更改SMPP连接器的行为。 本节介绍每个参数及其对连接器的影响。
+SMPP协议的每个实现都有许多变体。 为了提高兼容性和适应性，可使用许多设置来更改SMPP连接器的行为。 本节介绍每个参数及其对连接器的影响。
 
-### 常规参数和路由{#general-parameters-routing}
+### 常规参数和路由 {#general-parameters-routing}
 
 **限制此帐户的MTA实例**
 
-可以设置允许连接到SMPP提供程序的MTA实例数的限制。 选中后，您最多可以指定可以使用多少MTA。
+可以设置允许连接到SMPP提供程序的MTA实例数限制。 选中此选项后，您最多可以指定使用的MTA数量。
 
 此选项允许对连接数进行更精细的控制，请参见[同时连接](../../administration/using/sms-protocol.md#connection-settings)。
 
-如果设置的值高于正在运行的MTA的数量，则所有MTA都将正常运行：此选项仅为限制，无法生成其他MTA。
+如果设置的值大于正在运行的MTA数，则所有MTA都将正常运行：此选项仅是限制，无法生成其他MTA。
 
-如果您需要精确控制连接数，例如提供者要求，则建议始终设置此选项，即使当前部署正在运行的MTA数目正确。 如果之后添加了其他MTA，则仍将遵守连接限制。
+如果您需要精确控制连接数（例如，提供商要求），则建议始终设置此选项，即使当前部署运行的MTA数量正确也是如此。 如果之后添加其他MTA，则仍将遵守连接限制。
 
-### 连接设置{#connection-settings}
+### 连接设置 {#connection-settings}
 
-#### SMPP连接模式{#smpp-connection-mode}
+#### SMPP连接模式 {#smpp-connection-mode}
 
-在&#x200B;**收发器**&#x200B;模式或分离的&#x200B;**发射器+接收器**&#x200B;模式中设置连接。 当切换到分离的&#x200B;**发射器+接收器**&#x200B;模式时，**SMPP连接模式**&#x200B;部分中的设置将应用于发射器，而&#x200B;**接收器连接设置**&#x200B;部分中的设置将应用于接收器连接，只有选中&#x200B;**对接收器**&#x200B;使用不同参数复选框。
+在&#x200B;**收发器**&#x200B;模式或在分离的&#x200B;**发射机+接收器**&#x200B;模式下设置连接。 当您切换到分隔的&#x200B;**发送器+接收器**&#x200B;模式时，**SMPP连接模式**&#x200B;部分中的设置适用于发送器，而&#x200B;**接收器连接设置**&#x200B;部分中的设置仅在选中&#x200B;**为接收器**&#x200B;使用不同的参数复选框时才适用于接收器连接。
 
-#### SMSC实现名称{#smsc-implementation-name}
+#### SMSC实施名称 {#smsc-implementation-name}
 
-设置SMSC实现的名称。 它应设置为提供者的名称。 请与管理员或交付能力团队联系，了解要在此字段中添加的内容。 在[SR错误管理](../../administration/using/sms-protocol.md#sr-error-management)部分中介绍了此字段的作用。
+设置SMSC实施的名称。 应将其设置为提供商的名称。 请联系管理员或投放能力团队，以了解在此字段中要添加的内容。 [SR错误管理](../../administration/using/sms-protocol.md#sr-error-management)部分中介绍了此字段的角色。
 
-#### 服务器{#server}
+#### 服务器 {#server}
 
 要连接到的服务器的DNS名称或IP地址。
 
-#### 端口{#port}
+#### 端口 {#port}
 
-要连接到的TCP端口。
+要连接的TCP端口。
 
-#### 帐户{#account}
+#### 帐户 {#account}
 
-连接的登录名。 在BIND PDU的`system_id`字段中传递。
+连接的登录。 在BIND PDU的`system_id`字段中传递。
 
-#### 密码{#password}
+#### 密码 {#password}
 
-SMPP连接的口令。 在BIND PDU的密码字段中传递。
+SMPP连接的密码。 在BIND PDU的密码字段中传递。
 
-#### 系统类型{#system-type}
+#### 系统类型 {#system-type}
 
-在BIND PDU的`system_id`字段中传递的值。 某些提供商需要此处的特定值。
+在BIND PDU的`system_id`字段中传递的值。 某些提供商需要在此处获得特定值。
 
-#### 同时连接{#simultaneous-connections}
+#### 同时连接 {#simultaneous-connections}
 
-在Adobe Campaign Standard中，它定义每个SMS线程和每个MTA进程的连接数。
-MTA进程的数量由部署决定：通常有2个MTA和1个线程。 使用smppConnectorThreads设置可以在config-instance.xml文件中更改线程数。 通常，每个容器有1个MTA进程，每个MTA进程有1个线程。
+在Adobe Campaign Standard中，它定义每个短信线程和每个MTA进程的连接数。
+MTA进程数由部署决定：通常有2个MTA和1个线程。 在config-instance.xml文件中，可以使用smppConnectorThreads设置更改线程数。 通常每个容器有1个MTA进程，每个MTA进程有1个线程。
 
 Adobe Campaign Standard的连接总数公式：
 
-* **总连接数=并发连接数*线程数* MTA数**
+* **总连接数=同时连接数*线程数* MTA数**
 
-在外部帐户中设置并发连接，在config-instance.xml文件(smppConnectorThreads)中设置线程数，并且在外部帐户中可以限制MTA数。
+在外部帐户中设置同时连接，在config-instance.xml文件(smppConnectorThreads)中设置线程数，并且外部帐户中的MTA数量可以受到限制。
 
-在分离的&#x200B;**发射机/接收机**&#x200B;模式中，上述连接数表示&#x200B;**发射机/接收机**&#x200B;对的数量，这意味着总连接数将是连接数的两倍。
+在分隔的&#x200B;**发送器/接收器**&#x200B;模式中，上述连接数表示&#x200B;**发送器/接收器**&#x200B;对的数量，这意味着总连接数将是连接数的两倍。
 
-#### 在SMPP {#enable-TLS}上启用TLS
+#### 通过SMPP启用TLS {#enable-TLS}
 
-使用TLS连接到提供程序。 连接将加密。 TLS连接由OpenSSL库管理，任何适用于OpenSSL的内容对于此连接均为true。
+使用TLS连接到提供程序。 连接将被加密。 TLS连接由OpenSSL库管理，对于此连接，任何适用于OpenSSL的内容均为true。
 
-#### 在日志文件{#enable-verbose-log-file}中启用详细的SMPP跟踪
+#### 在日志文件中启用详细的SMPP跟踪 {#enable-verbose-log-file}
 
-此设置会转储日志文件中的所有SMPP流量。 通常需要在初始设置期间调整参数。 在排除连接器故障时必须启用此功能，并与提供者看到的流量进行比较。
+此设置会转储日志文件中的所有SMPP流量。 通常需要在初始设置期间调整参数。 在对连接器进行故障诊断时，必须启用此功能，并将其与提供商看到的流量进行比较。
 
-### 接收器连接设置{#receiver-connection}
+### 接收器连接设置 {#receiver-connection}
 
-此部分仅在分离的&#x200B;**发射器+接收器**&#x200B;模式下可见。
+此部分仅在分隔的&#x200B;**发送器+接收器**&#x200B;模式下可见。
 
-#### 对接收器{#receiver-parameters}使用不同的参数
+#### 对接收器使用不同的参数 {#receiver-parameters}
 
-当该框未选中时，发送器和接收器也使用相同的设置。
+如果未选中该框，则发送器和接收器的设置相同。
 
-选中该框后，**连接设置**&#x200B;部分中的设置将应用于发射机，而&#x200B;**接收机连接**&#x200B;设置中的设置将应用于接收机。
+选中该框后，**连接设置**&#x200B;部分中的设置将应用于发送器，而&#x200B;**接收器连接**&#x200B;设置中的设置将应用于接收器。
 
-**接收服务器、端口、帐户、密码、系统类型**
+**接收器服务器、端口、帐户、密码、系统类型**
 
-当处于&#x200B;**发射器+接收器**&#x200B;模式时，这些设置将应用于接收器。 它们的工作方式与发射器部分类似，有关更多详细信息，请参阅上文。
+在&#x200B;**发送器+接收器**&#x200B;模式下，这些设置适用于接收器。 它们的工作方式与发射机部分类似，有关更多详细信息，请参阅上文。
 
-### SMPP渠道设置{#smpp-channel-settings}
+### SMPP渠道设置 {#smpp-channel-settings}
 
-#### 允许字符音译{#allow-character-transliteration}
+#### 允许字符音译 {#allow-character-transliteration}
 
-音译是寻找等效字符与缺失字符的过程。 例如，GSM编码中缺少法文“ê”（带扬抑符）字符，但可以用“e”替换，而不会损害可读性。
+音译是查找与缺失字符等效的过程。 例如，GSM编码中缺少法语“ê”（即带抑扬音符号）字符，但可以将其替换为“e”字符，而不会损害可读性。
 
-如果未选中此框，则文本编码将失败（如果无法按原样对字符串进行编码）。
+如果未选中此框，则如果文本编码无法按原样对字符串进行完全编码，则文本编码将失败。
 
-选中此框后，文本编码将尝试将字符串转换为近似版本，而不是失败。 如果某些字符在目标编码中没有对等项，文本编码将失败。
+选中此框后，文本编码将尝试将字符串转换为近似版本，而不是失败。 如果某些字符在目标编码中没有对等字符，则文本编码将失败。
 
-有关编码过程的更一般说明，请参阅[定义编码设置的特定映射。](../../administration/using/sms-protocol.md#SMSC-specifics)
+请参阅[定义编码的特定映射设置](../../administration/using/sms-protocol.md#SMSC-specifics) ，以了解编码过程的更一般说明。
 
-#### 在数据库{#incoming-mo-storing}中存储传入的MO
+#### 将传入的MO存储在数据库中 {#incoming-mo-storing}
 
 启用后，传入的MO将存储在数据库的inSMS表中。 可以使用任何工作流的查询活动查询此表。
 
-#### 在SR处理{#real-time-kpi}期间启用实时KPI更新
+#### 在SR处理期间启用实时KPI更新 {#real-time-kpi}
 
-启用后，当收到错误SR时，KPI将在主投放页上实时更新。
+启用后，当收到错误SR时，将在主投放页面上实时更新KPI。
 
-缺点是性能低，因为它会生成数据库争用。 如果禁用，则统计信息将由每20分钟运行一次的&#x200B;**syncfromexec**&#x200B;工作流更新。
+缺点是性能较低，因为它会产生数据库争用。 如果禁用，则会通过每20分钟运行一次的&#x200B;**syncfromexec**&#x200B;工作流来更新统计信息。
 
-#### 源编号{#source-number}
+#### 源编号 {#source-number}
 
-定义消息的默认源地址。 此设置仅在源编号在投放中留空时适用。
+定义消息的默认源地址。 仅当投放中的源编号留空时，此设置才适用。
 
 默认情况下，不会传递源编号字段，因此提供程序将用它替换短代码。
 
-这允许发送者地址/oADC覆盖功能。
+这会启用发送者地址/oADC覆盖功能。
 
-#### 短代码{#short-code}
+#### 短代码 {#short-code}
 
 指示帐户的主短代码。 如果此帐户使用了多个短代码，或者短代码未知，请将此字段留空。
 
-指定短代码对以下两个功能有帮助：
+指定短代码有助于实现以下两项功能：
 
-* 如果未提供源代码，预览将显示短代码。 它将反映手机上的真实行为。
+* 如果未提供源编号，则预览将显示短代码。 它将反映手机上的真实行为。
 
-* 自动阻止列表回复功能的隔离设置仅向用户发送特定短代码。
+* 自动回阻止列表复功能的设置仅发送给对特定短代码的用户进行隔离。
 
-#### 源吨/NPI，目标吨/NPI {#ton-npi}
+#### 来源吨/NPI，目的地吨/NPI {#ton-npi}
 
-[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第117页）的第5.2.5节中介绍了TON（编号类型）和NPI（编号计划指标）。 这些值应设置为提供程序的需要。
+[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第117页）的第5.2.5节介绍了TON（编号类型）和NPI（编号计划指标）。 这些值应根据提供程序的需求进行设置。
 
-在`SUBMIT_SM PDU`的`source_addr_ton`、`source_addr_npi`、`dest_addr_ton`和`dest_addr_npi`字段中按原样传输。
+它们按原样在`SUBMIT_SM PDU`的`source_addr_ton`、`source_addr_npi`、`dest_addr_ton`和`dest_addr_npi`字段中传输。
 
-#### 服务类型{#service-type}
+#### 服务类型 {#service-type}
 
-此字段按原样在`SUBMIT_SM PDU`的`service_type`字段中传输。 根据提供商的需要设置此值。
+此字段按原样在`SUBMIT_SM PDU`的`service_type`字段中传输。 根据提供商的需求设置此参数。
 
-### 吞吐量和超时{#throughput-timeouts}
+### 吞吐量和超时 {#throughput-timeouts}
 
-这些设置控制SMPP渠道的所有时间方面。 某些提供者需要非常精确地控制消息速率、窗口和重试定时。 这些设置应设置为与提供商的容量及其合同中指明的条件相匹配的值。
+这些设置控制SMPP渠道的所有计时方面。 某些提供程序需要非常精确地控制消息速率、窗口和重试计时。 这些设置应设置为与提供商的能力和合同中指明的条件相匹配的值。
 
-#### 发送窗口{#sending-window}
+#### 发送窗口 {#sending-window}
 
-窗口是可以发送的`SUBMIT_SM PDU`数，无需等待匹配的`SUBMIT_SM_RESP`。
+窗口是可以发送的`SUBMIT_SM PDU`s的数量，无需等待匹配的`SUBMIT_SM_RESP`。
 
 最大窗口为4的传输示例：
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-当网络链路具有高延迟时，该窗口有助于提高吞吐量。  窗口的值必须至少是SMS/s乘以链路的等待时间（以秒为单位），这样连接器在发送下一条消息之前就不会等待`SUBMIT_SM_RESP`。
-如果窗口太大，您可能会在出现连接问题时发送更多重复消息。 此外，大多数提供商对窗口有非常严格的限制，拒绝超过此限制的消息。
+当网络链路具有高延迟时，窗口有助于提高吞吐量。  窗口的值必须至少是SMS/s数乘以链接的延迟（以秒为单位），这样连接器就不会在发送下一条消息之前等待`SUBMIT_SM_RESP`。
+如果窗口太大，则在出现连接问题时，可能会发送更多重复的消息。 此外，大多数提供商对窗口和拒绝超出限制的消息都有非常严格的限制。
 
 如何计算最佳发送窗口公式：
 
 * 测量`SUBMIT_SM`和`SUBMIT_SM_RESP`之间的最大延迟。
 
-* 将此值以秒为单位乘以最大MT吞吐量。 这将给出最佳发送窗口值。
+* 将此值（以秒为单位）乘以最大MT吞吐量。 这将提供最佳发送窗口值。
 
-示例：如果在最大MT吞吐量中设置了300个SMS/s，并且在`SUBMIT_SM`和`SUBMIT_SM_RESP`之间平均有100ms的延迟，则最佳值为`300×0.1 = 30`。
+示例：如果在最大MT吞吐量中设置了300条短信，并且在`SUBMIT_SM`和`SUBMIT_SM_RESP`之间平均有100毫秒延迟，则最佳值为`300×0.1 = 30`。
 
-#### 最大MT吞吐量{#max-mt-throughput}
+#### 最大MT吞吐量 {#max-mt-throughput}
 
-每秒和每个连接的最大MT数。 严格强制执行此设置，MTA将永远不会以超过此限制的速度推送消息。 对于需要精确调节的提供商而言，此功能非常有用。
+每秒和每个连接的最大MT数。 严格强制执行此设置，MTA将永远不会以超出此限制的速度推送消息。 对于需要精确限制的提供程序而言，此功能非常有用。
 
-要了解总吞吐量限制，请将此数字乘以上面公式中详述的连接总数。
+要了解总吞吐量限制，请将此数字乘以上述公式中详细描述的连接总数。
 
 0表示无限制，MTA将尽快发送MT。
 
-通常建议将此设置保持在1000以下，因为除非在最终体系结构上进行适当的基准测试，否则无法保证高于此数的精确吞吐量。 如果您需要超过1000的吞吐量，请与您的提供商联系。 将连接数增加到1000 MT/s以上可能更好。
+通常建议将此设置保持在1000以下，因为除非在最终架构上以适当的基准进行基准，否则无法保证高于此数字的精确吞吐量。 如果您需要的吞吐量超过1000，请联系您的提供商。 增加连接数量以超过1000 MT/s可能更好。
 
-#### 重新连接{#time-reconnection}之前的时间
+#### 重新连接前逗留的时间 {#time-reconnection}
 
-当TCP连接丢失时，连接器将等待此秒数，然后尝试建立连接。
+当TCP连接丢失时，连接器将等待此秒数后再尝试建立连接。
 
-#### MT {#expiration-period}的过期时间
+#### MT的过期期限 {#expiration-period}
 
-`SUBMIT_SM`与其匹配的`SUBMIT_SM_RESP`之间的超时。 如果未按时收到`RESP`，则消息将被视为失败，并且MTA的全局重试策略将适用。
+从`SUBMIT_SM`到其匹配的`SUBMIT_SM_RESP`之间的超时。 如果未按时收到`RESP`，则消息将被视为失败，并且将应用MTA的全局重试策略。
 
-#### 绑定超时{#bind-timeout}
+#### 绑定超时 {#bind-timeout}
 
-TCP连接尝试与`BIND_*_RESP`回复之间的超时。 超时时，连接由Adobe Campaign连接器关闭，在重新连接之前，它将等待时间。
+TCP连接尝试与`BIND_*_RESP`回复之间的超时。 超时时，连接将被Adobe Campaign连接器关闭，在重新连接之前将等待时间，然后再重试。
 
-#### inquire_link期间{#enquire-link-period}
+#### inquire_link期间 {#enquire-link-period}
 
-`enquire_link` 是发送的一种特殊PDU，用于保持连接生效。此时段以秒为单位。 活动连接器仅在连接空闲时发送`enquire_link`以节省带宽。 如果在此时间段后未收到RESP，则连接将被视为死机，并将触发重新连接过程。
+`enquire_link` 是发送的一种特殊PDU，用于保持连接的活动状态。此时段以秒为单位。 为节省带宽，当连接空闲时，促销活动连接器仅发送`enquire_link`。 如果在此时间段后未收到RESP，则连接将被视为无效，并将触发重新连接过程。
 
-### SMSC 详情{#SMSC-specifics}
+### SMSC 详情 {#SMSC-specifics}
 
-这些设置是高级设置，可使Adobe Campaign连接器适应大多数SMPP实现特性。
+这些设置是高级设置，可使Adobe Campaign连接器适应大多数SMPP实施特性。
 
-#### 定义编码{#encoding-specific-mapping}的特定映射
+#### 定义编码的特定映射 {#encoding-specific-mapping}
 
-有关文本编码的详细信息，请参阅[SMS文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分。
+有关文本编码的详细信息，请参阅[短信文本编码](../../administration/using/sms-protocol.md#sms-text-encoding)部分。
 
-此设置允许您定义自定义编码映射（不同于规范）。 您将能够声明编码的列表及其`data_coding`值。
+此设置允许您定义自定义编码映射，与规范不同。 您将能够声明编码列表及其`data_coding`值。
 
-MTA将尝试使用列表中的第一个编码进行编码。 如果失败，它将尝试在列表上使用下一个编码，等等。 如果不能使用编码对消息进行编码，则会发生错误。 找到编码后，MTA将创建`SUBMIT_SM PDU`，并设置编码文本和`data_coding`字段，其值在表中指定。
+MTA将尝试使用列表中的第一种编码进行编码。 如果失败，则会尝试使用列表上的下一个编码，等等。 如果无法使用编码对消息进行编码，则会发生错误。 找到编码后，MTA将创建包含编码文本的`SUBMIT_SM PDU`字段，并使用表中指定的值设置`data_coding`字段。
 
-表中项目的顺序很重要：编码尝试从上到下。 您应将最便宜或最推荐的编码放在列表顶部，然后是越来越昂贵的编码。
+表中项目的顺序很重要：编码从上到下进行尝试。 您应该将最便宜或最推荐的编码放在列表的顶部，然后是越来越昂贵的编码。
 
-请注意，UCS-2永远不会失败，因为它可以对Adobe Campaign支持的所有字符进行编码，并且UCS-2 SMS的最大长度要小得多：仅70个字符。
+请注意，UCS-2永远不会失败，因为它可以对Adobe Campaign中支持的所有字符进行编码，并且UCS-2短信的最大长度要小得多：仅70个字符。
 
-您还可以使用此设置，通过在映射表中仅声明1行来强制始终使用特定编码。
+您还可以使用此设置强制特定编码始终通过在映射表中仅声明一行来使用。
 
-未选中复选框时使用的默认映射与下表相同：
+未勾选复选框时使用的默认映射等效于下表：
 
 | data_coding | 编码 |
 |---|---|
 | 0 | GSM |
 | 9 | UCS-2 |
 
-这意味着MTA将尝试在GSM中对消息进行编码。 如果成功，它将在`data_coding`设置为0时发送。
+这意味着MTA将尝试对GSM中的消息进行编码。 如果成功，它将在`data_coding`设置为0时发送该请求。
 
-如果消息无法在GSM中编码，则它将在UCS-2中编码，并将`data_coding`设置为8。
+如果消息无法以GSM编码，则将以UCS-2编码，并将`data_coding`设置为8。
 
 #### 启用message_payload {#enable-message-payload}
 
-如果未选中，长SMS将被MTA拆分，并与UDH一起以多个`SUBMIT_SM PDU`s发送。 消息将由手机按照UDH数据重组。
+如果未选中此选项，则长短信将被MTA拆分，并随UDH发送到多个`SUBMIT_SM PDU`s中。 在UDH数据之后，手机将重组该消息。
 
-选中后，长SMS将在一个SUBMIT_SM PDU中发送，并将文本放在message_payload可选字段中。 有关此的详细信息，请参见[SMPP规范](../../administration/using/sms-protocol.md#ACS-SMPP-connector)。
+选中此选项后，长短信将在一个SUBMIT_SM PDU中发送，并将文本置于message_payload可选字段中。 有关详细信息，请参阅[SMPP规范](../../administration/using/sms-protocol.md#ACS-SMPP-connector)。
 
-如果启用此功能，Adobe Campaign将无法单独计算SMS部件：所有消息将计为一部分发送。
+如果启用此功能，Adobe Campaign将无法单独计数短信部件：所有消息将计为一部分发送。
 
-#### 发送完整电话号码{#send-full-phone-number}
+#### 发送完整电话号码 {#send-full-phone-number}
 
-如果未选中此复选框，则只向提供者发送电话号码的数字（`SUBMIT_SM`字段的`destination_addr`字段）。 这是默认行为，因为SMPP中的国际数字指示符（通常为+前缀）被TON和NPI字段替换。
+如果未选中此复选框，则只会向提供商发送电话号码的位数（`SUBMIT_SM`字段的`destination_addr`字段）。 这是默认行为，因为SMPP中的国际数字指示符（通常为+前缀）被替换为TON和NPI字段。
 
-选中此复选框后，将按原样发送电话号码，没有预处理和潜在空格，+前缀或井号/哈希/星号。
+选中此复选框后，电话号码将按原样发送，且没有预处理和潜在空格， +前缀或井号/井号/星号。
 
-此功能还会影响自动回复功能的阻止列表行为：如果未选中此复选框，将在插入隔离表的电话号码中添加+前缀，以补偿SMPP协议本身从电话号码中删除的+前缀。
+此功能还会影响自动回复功阻止列表能的行为：未选中此复选框时，将在插入隔离表的电话号码中添加+前缀，以补偿SMPP协议本身从电话号码中删除的+前缀。
 
-#### 跳过TLS证书检查{#skip-tls}
+#### 跳过TLS证书检查 {#skip-tls}
 
-启用TLS后，跳过所有证书检查。
+启用TLS后，请跳过所有证书检查。
 
-如果选中此项，则连接不再安全，不应在生产中启用。
+选中此选项后，连接不再安全，不应在生产中启用该连接。
 
 它可用于调试或测试目的。
 
 #### 绑定TON/NPI {#bind-ton-npi}
 
-[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第117页）第5.2.5节中描述的TON（编号类型）和NPI（编号计划指标）。 这些值应设置为提供程序需要的任何值。
+[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)第5.2.5节中描述的TON（编号类型）和NPI（编号计划指标）（第117页）。 这些值应设置为提供程序需要的任何值。
 
-在BIND PDU的`addr_ton`和`addr_npi`字段中按原样传输它们。
+BIND PDU的`addr_ton`和`addr_npi`字段中按原样传输它们。
 
-#### 地址范围{#address-range}
+#### 地址范围 {#address-range}
 
-在BIND PDU的address_range字段中按原样发送。 此值应设置为提供程序需要的任何值。
+在BIND PDU的address_range字段中按原样发送。 此值应设置为提供程序需要的任何内容。
 
-#### 无效的ID确认计数{#invalid-id}
+#### ID确认计数无效 {#invalid-id}
 
 限制可为单个SR发送的&#x200B;**消息ID无效** `DELIVER_SM_RESP`的数量。
 
-**这应仅用于作为工作环境进行故** 障排除，并在正常情况下设置为0。
+**这应仅用于作为工作区进行故障诊** 断，并在正常情况下设置为0。
 
-Fox示例，当设置为2时：
+Fox示例，将设置为2时：
 
 * 提供程序发送ID为“1234”的SR(`DELIVER_SM`)。
 
 * 在数据库中找不到ID“1234”。
 
-* 连接器对该ID计数1 **无效ID**&#x200B;错误，因此它使用“消息ID无效”错误代码（正常行为）发送`DELIVER_SM_RESP`。
+* 连接器对该ID计为1 **无效ID**&#x200B;错误，因此会发送带有“消息ID无效”错误代码的`DELIVER_SM_RESP`（正常行为）。
 
-* 提供商重试ID为“1234”的同一SR。
+* 提供程序重试ID为“1234”的同一SR。
 
-* 在数据库中仍然找不到ID“1234”。
+* 在数据库中仍找不到ID“1234”。
 
-* 连接器对该ID计数2 **无效ID**&#x200B;错误，因此它发送`DELIVER_SM_RESP` &quot;OK&quot;，即使未正确处理也是如此。
+* 连接器将该ID计为2 **无效ID**&#x200B;错误，因此它会发送`DELIVER_SM_RESP` &quot;OK&quot;，即使未正确处理也是如此。
 
-* 当无效的SR块合法且无法处理消息时，此功能旨在刷新提供方端的SR缓冲区。
+* 当无效的SR块合法且无法处理消息时，此功能用于刷新提供方端的SR缓冲区。
 
-将此字段设置为0将禁用始终返回&#x200B;**消息ID invalid**&#x200B;的机制，这是正常行为。
+将此字段设置为0将禁用始终返回&#x200B;**消息ID无效**&#x200B;的机制，这是正常行为。
 
-将此字段设置为1会使连接器始终响应“OK”（确定），即使ID无效。 应将此值设置为1（仅在监管下），以排除故障并在最短时间内（例如从提供方问题中恢复）。
+将此字段设置为1会使连接器始终响应“OK”（确定），即使ID无效。 此值应仅设置为1，以便在监管下进行故障排除，并且最短时间（例如从提供方端问题恢复）。
 
-#### 提取SR {#regex-extraction}中ID的正则表达式
+#### SR中ID的Extraction正则表达式 {#regex-extraction}
 
-SR格式未严格由SMPP协议规范执行。 它只是说明书[附录B](../../administration/using/sms-protocol.md#sr-error-management)（第167页）中描述的建议。 某些SMPP实现器以不同格式设置此字段，因此Adobe Campaign需要一种方法提取正确的字段。
+SMPP协议规范并未严格强制实施SR格式。 它只是说明书[附录B](../../administration/using/sms-protocol.md#sr-error-management)（第167页）中描述的建议。 某些SMPP实施者对此字段的格式不同，因此Adobe Campaign需要一种方法来提取正确的字段。
 
-默认情况下，它在`id:`后最多捕获10个字母数字字符。
+默认情况下，它可捕获`id:`后最多10个字母数字字符。
 
-正则表达式必须只有一个捕获组，且括号中包含一个部分。 括号必须包围ID部分。 正则表达式格式为PCRE。
+正则表达式必须恰好具有一个包含括号中部分的捕获组。 括号必须包围ID部分。 正则表达式格式为PCRE。
 
-在调整此设置时，请务必尽可能多地包含上下文以避免出现虚假触发器。 如果有特定前缀，如标准中的`id:`，则在正则表达式中包括这些前缀。 还尽可能使用单词分隔符(\b)来避免捕获单词中间的文本。
+调整此设置时，请确保尽可能多地包含上下文以避免触发false。 如果标准中存在特定前缀（如`id:`），则在正则表达式中包含这些前缀。 尽量使用单词分隔符(\b)，以避免捕获单词中间的文本。
 
-正则表达式中不包含足够的上下文可能会引入一个小的安全漏洞：SR中可以包含消息的实际内容。 如果仅匹配没有上下文的特定ID格式（如UUID），则它可能正在分析实际文本内容，如嵌入在文本字段中的UUID，而不是ID。
+正则表达式中未包含足够的上下文可能会引入一个小的安全漏洞：消息的实际内容可以包含在SR中。 如果您仅与没有上下文的特定ID格式（例如UUID）匹配，则它可能会解析实际的文本内容（例如嵌入在文本字段中的UUID），而不是ID。
 
-#### 已应用正则表达式以确定成功/错误状态{#regex-applied}
+#### 应用正则表达式确定成功/错误状态 {#regex-applied}
 
-当遇到具有未知stat/err字段组合的消息时，这些正则表达式将应用于stat字段，以确定SR是成功还是错误。 将忽略不匹配任何这些regex的stat值的SR。
+遇到具有未知stat/err字段组合的消息时，会将这些正则表达式应用于stat字段，以确定SR是成功还是错误。 如果SR的stat值与这些区域中的任何区域不匹配，则将忽略该SR。
 
-默认情况下，以`DELIV`开头的stat值，例如[附录B](../../administration/using/sms-protocol.md#sr-error-management)中的`DELIVRD`将被视为已成功传送，且所有与错误匹配的stat值，例如`REJECTED`、`UNDELIV`被视为错误。
+默认情况下，以`DELIV`开头的stat值，例如[附录B](../../administration/using/sms-protocol.md#sr-error-management)中的`DELIVRD`将被视为已成功交付以及与错误(例如，`REJECTED`、`UNDELIV`被视为错误。
 
-#### MT确认{#id-format-mt}中的ID格式
+#### MT确认中的ID格式 {#id-format-mt}
 
-这表示在`SUBMIT_SM_RESP PDU`的`message_id`字段中返回的ID的格式。
+这表示在`SUBMIT_SM_RESP PDU`的`message_id`字段中返回的ID格式。
 
-* **请勿修改**:该ID按原样存储在数据库中，作为ASCII编码的文本。不进行预处理或过滤。
+* **请勿修改**:该ID按原样存储在数据库中，为ASCII编码的文本。不进行预处理或过滤。
 
-* **小数**:ID应为ASCII格式的十进制数。使用此设置时，将删除前导和尾随空格以及前导零。
+* **小数**:ID应为ASCII格式的小数。使用此设置时，将删除前导和尾随空格以及前导零。
 
-* **十六进制数字**:ID应为ASCII格式的十六进制数，不带前导0x，也不带尾随h。ID随后将转换为十进制数字，然后存储在数据库中。
+* **十六进制数**:ID应为ASCII格式的十六进制数，不带前导0x或尾随h。然后，该ID会先转换为十进制数，然后再存储到数据库中。
 
-* **十六进制字符串**:ID应为ASCII编码的文本，它本身是一个字节字符串，以十六进制编码。例如，在PDU中，您会找到`0x34 0x31 0x34 0x32 0x34 0x33` ，它转换为ASCII &quot;414243&quot;。 然后，该字符串被解码为字节的十六进制字符串，因此您获得“ABC”：您将在数据库中存储ID“ABC”。
+* **十六进制字符串**:ID应为ASCII编码的文本，其本身是以十六进制编码的字节字符串。例如，在PDU中，您会找到`0x34 0x31 0x34 0x32 0x34 0x33`，该字符将转换为ASCII“414243”。 然后，此字符串将解码为十六进制字节字符串，您将获得“ABC”，结果是：您将ID“ABC”存储在数据库中。
 
-#### SR {#id-format-sr}中的ID格式
+#### SR中的ID格式 {#id-format-sr}
 
-这表示由SR中ID的`Extraction`正则表达式捕获的ID的格式。 值与上述MT中的格式具有相同的含义和行为。
+这表示SR中ID的`Extraction`正则表达式捕获的ID的格式。 值的含义与上述MT中的格式相同，行为也相同。
 
 **可选字段中的SR ID或错误代码**
 
-如果选中，则可选字段的内容将附加到以上区域处理的文本。 文本的格式为`0xTAG:VALUE`, `0xTAG`是大写标记的4位十六进制值，例如`0x002E`。
+如果选中，则可选字段的内容将附加到上面由区域处理的文本中。 文本的格式为`0xTAG:VALUE`, `0xTAG`是标记的4位十六进制值(例如，`0x002E`。
 
-例如，您可能希望在`receipted_message_id`字段中捕获ID。 为此，请启用此复选框，以下文本将添加到状态：
+例如，您可能想要在`receipted_message_id`字段中捕获该ID。 为此，请启用此复选框，并将向状态添加以下文本：
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -677,7 +676,7 @@ SR格式未严格由SMPP协议规范执行。 它只是说明书[附录B](../../
 
 在此示例中，0x001E是可选字段的标记，UUID是字段的值。
 
-为了捕获此值，您现在可以在SR字段中ID的提取正则表达式中设置以下正则表达式：
+为了捕获此值，您现在可以在SR字段中ID的Extraction regex中设置以下正则表达式：
 
 ```
 \b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
@@ -685,186 +684,186 @@ SR格式未严格由SMPP协议规范执行。 它只是说明书[附录B](../../
 
 >[!IMPORTANT]
 >
->只能捕获具有文本(ASCII/UTF-8)值的可选字段。 具体而言，无法使用当前正则表达式系统可靠地捕获二进制字段。
+>您只能捕获具有文本(ASCII/UTF-8)值的可选字段。 具体而言，无法使用当前正则表达式系统可靠地捕获二进制字段。
 
 **文本字段中的SR ID或错误代码**
 
-如果选中，则在处理SR的状态文本期间将保留&#x200B;**Text**&#x200B;字段。
+如果选中此选项，则在处理SR的状态文本期间将保留&#x200B;**Text**&#x200B;字段。
 
-如果提供程序在此字段中放置重要数据（如ID或状态），则此功能很有用。 通常，此字段可以安全地被丢弃，因为它可能包含具有非ASCII编码的文本并中断正则表达式处理。
+如果提供程序在此字段中放置重要数据（如ID或状态），则此操作非常有用。 通常，可以安全地丢弃此字段，因为它可能包含采用非ASCII编码的文本并中断正则表达式处理。
 
-如果SR字段中ID的`Extraction`正则表达式不够具体，启用此选项可能会引入非常小的安全漏洞。 **Text**&#x200B;字段的内容可以解析为ID，攻击者可以使用它插入伪造的ID，这可能导致部分拒绝服务情况。
+如果SR字段中ID的`Extraction`正则表达式不够具体，则启用此选项可能会引入一个非常小的安全漏洞。 **Text**&#x200B;字段的内容可以解析为ID，攻击者可以使用它注入伪造的ID，这可能导致部分拒绝服务情况。
 
 **服务ID标记**
 
-允许添加自定义TLV。 此字段设置标记部分。 可以根据&#x200B;**服务中的投放或投放高级参数中的项目ID**&#x200B;值自定义该值。
+允许添加自定义TLV。 此字段设置标记部分。 可以在&#x200B;**服务或投放高级参数中的程序ID**&#x200B;值中为每个投放自定义值。
 
-此设置只允许为每个消息添加一个TLV选项。
+此设置仅允许为每个消息添加一个TLV选项。
 
 >[!NOTE]
 >
 >从21.1版本开始，现在可以添加多个可选参数。 有关更多信息，请参阅此](../../administration/using/sms-protocol.md#automatic-reply-tlv)章节[。
 
-### 发送给 MO 的自动回复{#automatic-reply}
+### 发送给 MO 的自动回复 {#automatic-reply}
 
-此功能允许快速将文本回复给MO并处理发送给的每短代码阻止列表。
+此功能允许快速回复MO文本并处理发送给MO的短阻止列表代码。
 
-**关键字**&#x200B;和&#x200B;**短代码**&#x200B;列定义触发自动回复的条件。 如果两个字段都匹配，则发送MO并触发其他操作。 要指定通配符，应将字段留空。 关键字与MO文本中的第一个字母数字词匹配，忽略标点和前导空格。 这意味着&#x200B;**Keyword**&#x200B;字段不能包含空格，且必须是单个字。
+**关键字**&#x200B;和&#x200B;**短代码**&#x200B;列定义触发自动回复的条件。 如果两个字段匹配，则发送MO并触发其他操作。 要指定通配符，应将字段留空。 关键词与MO文本中的第一个字母数字词匹配，忽略标点和前导空格。 这意味着&#x200B;**Keyword**&#x200B;字段不能包含空格，且必须是单个词。
 
-**Keyword**&#x200B;设置是前缀。 例如，如果您指定“AD”，它将匹配“AD”、“ADAPT”和“ADOBE”。 如果您有多个带有公共前缀的关键字，则需要注意订单，因为关键字是自上而下处理的。
+**Keyword**&#x200B;设置是前缀。 例如，如果您指定“AD”，则它将匹配“AD”、“ADAPT”和“ADOBE”。 如果您有多个具有相同前缀的关键词，则需要注意订单，因为关键词是从上到下处理的。
 
-**Reply**&#x200B;列是要回复的文本。 此字段中不提供任何个性化。 如果将此字段留空，则不会回复任何消息，但仍将触发其他操作。
+**Reply**&#x200B;列是要回复的文本。 此字段中没有可用的个性化。 如果将此字段留空，则不会回复任何消息，但仍会触发其他操作。
 
-当&#x200B;**Additional action**&#x200B;列&#x200B;**Keyword**&#x200B;和&#x200B;**Short code**&#x200B;匹配时，空短代码与所有短代码匹配时，该列会提供额外的操作。 您可以发送到隔离或从隔离中删除文本，并且不考虑对文本的回复。 如果指定&#x200B;**其他操作**，但将&#x200B;**回复**&#x200B;字段留空，则将执行操作，但不会发送回复。 隔离仅应用于指定的短代码，如果字段留空，则应用所有短代码。
+当&#x200B;**其他操作**&#x200B;列的&#x200B;**关键字**&#x200B;和&#x200B;**短代码**&#x200B;匹配时，空短代码匹配所有短代码时，该列会提供额外的操作。 您可以发送到隔离或从隔离中删除，但值为无对文本的回复。 如果您指定了&#x200B;**Additional action**，但将&#x200B;**Reply**&#x200B;字段留空，则将执行该操作，但不会发送任何回复。 隔离仅应用于指定的短代码，如果字段留空，则应用于所有短代码。
 
 >[!IMPORTANT]
 >
->发送完整电话号码设置对自动回复隔离机制的行为有影响：如果未选中“发送完整电话号码”，则输入隔离的电话号码将用加号(“+”)前缀，以使其与国际电话号码格式兼容。
+>发送完整电话号码设置对自动回复隔离机制的行为产生影响：如果未勾选“发送完整电话号码”，则输入隔离的电话号码将添加加号(“+”)，以使其与国际电话号码格式兼容。
 
-表中的所有条目将按指定顺序处理，直到一个规则匹配。 如果多个规则与一个MO匹配，则只应用最顶层的规则。
+表中的所有条目将按照指定的顺序进行处理，直到一个规则匹配为止。 如果多个规则与一个MO匹配，则仅应用最顶部的规则。
 
-### 自动回复可选参数(TLV){#automatic-reply-tlv}
+### 自动回复可选参数(TLV) {#automatic-reply-tlv}
 
-自21.1版本起，您可以添加可选参数以自动回复MT。 它们作为可选TLV参数添加到答复的`SUBMIT_SM PDU`中，如[SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）第5.3节所述。
+自21.1版本起，您可以向自动回复MT添加可选参数。 它们作为可选TLV参数添加到答复的`SUBMIT_SM PDU`中，如[SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）的5.3节所述。
 
-有关可选参数的详细信息，请参阅此[部分](../../administration/using/sms-protocol.md#smpp-optional-parameters)。
+有关可选参数的更多信息，请参阅此[部分](../../administration/using/sms-protocol.md#smpp-optional-parameters)。
 
-## SMS投放模板参数{#sms-delivery-template-parameters}
+## 短信投放模板参数 {#sms-delivery-template-parameters}
 
-某些参数可以按投放模板设置。
+可以为每个投放模板设置某些参数。
 
-### 从字段{#from-field}
+### 从字段 {#from-field}
 
-此字段为可选字段。 它允许覆盖发送者地址(oADC)。 此字段的内容放在`SUBMIT_SM PDU`的`source_addr`字段中。
+此字段为可选字段。 它允许覆盖发送者地址(oADC)。 此字段的内容放置在`SUBMIT_SM PDU`的`source_addr`字段中。
 
-SMPP规范将字段限制为21个字符，但某些提供者可能允许更长的值。 另请注意，在某些国家/地区可能会应用非常严格的限制，例如，长度、内容和允许的字符。
+SMPP规范将字段限制为21个字符，但某些提供程序可能允许较长的值。 另请注意，某些国家/地区可能会应用非常严格的限制，例如长度、内容和允许使用的字符。
 
 ### 投放参数 {#delivery-parameters}
 
-#### 每条消息{#maximum-sms}的最大SMS数
+#### 每条消息的最大短信数 {#maximum-sms}
 
-此设置仅在&#x200B;**消息有效负荷**&#x200B;设置被禁用时有效。 有关此的详细信息，请参阅此[页](../../administration/using/configuring-sms-channel.md)。 如果消息需要比此值更多的SMS，将触发错误。
+仅当&#x200B;**消息有效负荷**&#x200B;设置处于禁用状态时，此设置才起作用。 有关此内容的详细信息，请参见此[页面](../../administration/using/configuring-sms-channel.md)。 如果消息需要的短信数量超过此值，则会触发错误。
 
-SMS协议将SMS限制在255个部分，但一些手机很难将长消息与大约10个部分组合起来，这一限制取决于确切模型。 我们建议您不要浏览每封邮件的5部分。
+短信协议将短信的数量限制为255个部分，但一些手机无法将长信息与大约10个部分拼合在一起，这个限制取决于具体型号。 我们建议您不要将每封邮件的5个部分以上。
 
-由于个性化消息在Adobe Campaign中的作用，消息的大小可能有所不同。 发送大量长消息可能会增加发送成本。
+由于个性化消息在Adobe Campaign中的工作方式，消息大小可能会有所不同。 长消息量大可能会增加发送成本。
 
-#### 传输模式{#transmission-mode}
+#### 传输模式 {#transmission-mode}
 
-此字段指示要传输的SMS类型：正常或闪存消息，存储在手机或SIM卡上。
+此字段指示您希望传输的短信类型：正常或闪存消息，存储在移动或SIM卡上。
 
 此设置将在`SUBMIT_SM PDU`的`dest_addr_subunit`可选字段中传输。
 
-* **未** 指定的PDU中不发送任何可选字段。
+* **** 未指定的PDU不发送任何可选字段。
 
-* **** Flash将值设置为1。它发送一个闪存消息，该消息弹出到移动设备上且不存储在内存中。
+* **** Flash将值设置为1。它会发送一条闪存消息，该消息会在移动设备上弹出，且不会存储在内存中。
 
-* **** 标准化将值设置为0。它发出了一条普通的信息。
+* **** 标准化将值设置为0。它会发出正常信息。
 
-* **在移动** 设备上保存会将值设置为2。它让电话把短信存储在内存中。
+* **在移动设** 备上保存时，将值设置为2。它告知手机将短信存储在内存中。
 
-* **在终止时** 保存会将值设置为3。它让手机把手机短信存储在SIM卡中。
+* **在终止时** 保存，会将值设置为3。它让手机将短信存储在SIM卡中。
 
-#### 有效期{#validity-period}
+#### 有效期 {#validity-period}
 
-有效期在`SUBMIT_SM PDU`的`validity_period`字段中传输。 日期始终以绝对UTC时间格式设置（日期字段将以“00+”结尾）。
+有效期在`SUBMIT_SM PDU`的`validity_period`字段中发送。 日期始终以绝对UTC时间格式格式设置（日期字段将以“00+”结尾）。
 
-#### SMPP可选参数(TLV){#smpp-optional-parameters}
+#### SMPP可选参数(TLV) {#smpp-optional-parameters}
 
-自21.1版本起，您可以向为此投放发送的每个MT添加多个可选参数。 这些可选参数被添加到答复的`SUBMIT_SM PDU`中，如[SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）第5.3节所述。
+自21.1版本起，您可以向为此投放发送的每个MT添加多个可选参数。 这些可选参数被添加到回复的`SUBMIT_SM PDU`中，如[SMPP规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131页）的5.3节所述。
 
 表中的每一行都表示一个可选参数：
 
-* **参数**:参数的说明。未传输给提供者。
-* **标记Id**:可选参数的标记。必须是有效的十六进制，格式为0x1234。 无效值将导致投放准备错误。
-* **值**:可选字段的值。当UTF-8被传输到提供程序时，以UTF-8编码。 无法更改编码格式，无法发送二进制值或使用不同的编码，如UTF-16或GSM7。
+* **参数**:参数的描述。未传输给提供商。
+* **标记Id**:可选参数的标记。必须是有效的十六进制格式，格式为0x1234。 无效值将导致投放准备错误。
+* **值**:可选字段的值。在将UTF-8传输到提供程序时，将其编码为UTF-8。 编码格式无法更改，无法发送二进制值或使用不同的编码，如UTF-16或GSM7。
 
-如果任何可选参数与外部帐户中定义的&#x200B;**服务标签ID**&#x200B;具有相同的&#x200B;**标签ID**，则此表中定义的值将优先。
+如果任何可选参数与外部帐户中定义的&#x200B;**服务标签ID**&#x200B;具有相同的&#x200B;**标签ID**，则以此表中定义的值为准。
 
-## SMPP连接器{#ACS-SMPP-connector}
+## SMPP连接器 {#ACS-SMPP-connector}
 
 ![](assets/do-not-localize/sms_protocol_3.png)
 
 箭头表示数据流。
 
-此处要注意的最重要的一点是，有多个SMPP连接器线程。 这些线程都是相同的，并且共享相同的配置。 这就是为什么连接数总是乘以线程数。
+这里需要注意的最重要的一点是，有多个SMPP连接器线程。 这些线程都相同，并且共享相同的配置。 这就是连接数总是乘以线程数的原因。
 
 客户无法更改线程数，因为它需要更改配置文件。
 
-### SMPP连接器{#behavior-smpp-connector}行为说明
+### SMPP连接器行为的描述 {#behavior-smpp-connector}
 
-#### 匹配MT、SR和广播条目{#matching-mt-sr}
+#### 匹配MT、SR和broadlog条目 {#matching-mt-sr}
 
-在Adobe Campaign中，消息是广播条目。 在Adobe Campaign Standard中，外部连接器只需要了解工作的广播表：`nmsBroadLogExec`。 工作流负责将广播条目复制回其特定定位维度(nmsBroadLogXXX)。
+在Adobe Campaign中，消息是broadlog条目。 在Adobe Campaign Standard中，外部连接器只需要知道工作broadlog表：`nmsBroadLogExec`。 工作流负责将broadlog条目复制回其特定定向维度(nmsBroadLogXXX)。
 
-很遗憾，SMPP不允许发送ID和消息：提供者为每个MT提供一个MT ID，然后提供一个或多个具有相同ID的SR。
+遗憾的是，SMPP不允许随消息一起发送ID:提供商为每个MT提供MT ID，然后提供一个或多个具有相同ID的SR。
 
-提供程序提供的ID存储在`nmsBroadLogExec`表的`sProviderId`列中。 SR总是在成功发送和确认MT后到达，但有时可能出现故障，在Adobe Campaign中称为未完成的SR。 处理线程将这些SR临时存储在RAM中，直到完整信息到达。
+提供程序提供的ID存储在`nmsBroadLogExec`表的`sProviderId`列中。 SR始终在成功发送和确认MT后到达，但有时可能会不按顺序到达，在Adobe Campaign被称为杰出SR。 处理线程将这些SR临时存储在RAM中，直到完整信息到达。
 
 确认MT(`SUBMIT_SM_RESP`)后，将立即在数据库中更新`sProviderId`。
 
-每个SR由SMPP处理线程单独处理。 此过程是伪同步的：它被视为与外部同步，但通过事件驱动的实施在内部实现。 仅当成功更新broadlog时，如果遇到错误，则SR被拒绝时，才确认SR。
+每个SR都由SMPP处理线程单独处理。 此过程是伪同步的：它被视为从外部同步，但是通过事件驱动的实施在内部实施。 只有在成功更新broadlog时，如果遇到错误，SR才被确认，SR将被拒绝。
 
-以下是应用于每个SR的过程：
+以下是应用于每个SR的流程：
 
-* 使用正则表达式提取SR的ID。
-* 将在`nmsBroadLogExec:sProviderId`中搜索该ID。
-* 状态+错误代码是使用regex从SR中提取的。
-* 广播消息机制用于确定错误并查找广播消息ID。
-* 将使用上述所有信息更新广播。
-* SR得到确认。
+* SR的ID是使用正则表达式提取的。
+* 在`nmsBroadLogExec:sProviderId`中搜索ID。
+* 状态+错误代码使用regex从SR中提取。
+* broadlog消息机制用于确定错误并查找broadlog消息ID。
+* broadlog已更新，其中包含上述所有信息。
+* 确认SR。
 
-检查上述步骤需要&#x200B;**启用详细SMPP跟踪**&#x200B;以手动检查是否正确应用了所有步骤。 每次将Adobe Campaign连接到新的SMPP提供程序时都需要此设置。
+检查上述步骤需要&#x200B;**启用详细的SMPP跟踪**&#x200B;以手动检查所有步骤是否正确应用。 每次将Adobe Campaign连接到新的SMPP提供商时，都需要此设置。
 
-## 在上线前{#checklist}
+## 上线前 {#checklist}
 
-此清单提供了上线前应检查的列表。 设置不完整可能会导致许多问题。
+此检查列表列出了您在上线前应检查的内容。 设置不完整可能会导致许多问题。
 
-### 检查外部帐户冲突{#external-account-conflict}
+### 检查外部帐户冲突 {#external-account-conflict}
 
-检查您没有旧的SMS外部帐户。 如果将测试帐户保留为禁用状态，则可能会在生产系统上重新启用该帐户并生成潜在冲突。
+检查您没有旧的短信外部帐户。 如果禁用测试帐户，则可能会使测试帐户在生产系统上重新启用并产生潜在冲突。
 
-检查没有其他实例连接到此帐户。 特别是，确保舞台环境未连接到帐户。 一些提供商支持此功能，但它需要在Adobe Campaign端和提供商平台上进行非常具体的配置。
+检查没有其他实例连接到此帐户。 特别是，确保暂存环境未连接到帐户。 虽然有些提供商支持此功能，但它需要在Adobe Campaign端和提供商平台上进行非常具体的配置。
 
-如果您需要在连接到同一提供程序的同一Adobe Campaign实例上具有多个帐户，请与提供程序联系，以确保它们实际区分这些帐户之间的连接。 拥有多个具有相同登录名的帐户需要额外配置。
+如果您需要在同一Adobe Campaign实例上拥有多个连接到同一提供商的帐户，请联系该提供商，以确保他们能够实际区分这些帐户之间的连接。 拥有多个具有相同登录名的帐户需要额外配置。
 
-### 在检查{#enable-verbose}期间启用详细的SMPP跟踪
+### 在检查期间启用详细的SMPP跟踪 {#enable-verbose}
 
 您应始终在检查期间启用详细的SMPP跟踪。
-即使您无法自己检查日志，支持部门也会更轻松地为您提供帮助。
+即使您无法自行检查日志，支持团队也会更轻松地为您提供帮助。
 
-### 测试SMS {#test}
+### 测试短信 {#test}
 
 * **发送包含各种字符**
-的SMS如果您需要发送包含非GSM或非ASCII字符的SMS，请尝试尽可能发送包含多种字符的消息。如果设置自定义字符映射表，请至少为所有可能的对象发送一个SMS 
+的短信如果需要发送包含非GSM或非ASCII字符的短信，请尝试发送尽可能多的字符的消息。如果设置自定义字符映射表，请至少发送一条短信，以供所有可能 
 `data_coding` values.
 
 * **检查SR是否正**
-确处理SR应在投放日志中将SMS标记为已接收。投放日志应成功，如下所示：
+确处理。短信应在投放日志中标记为已接收。投放日志应该成功，如下所示：
 
-检查您是否更改了投放提供程序名称。 投放日志不应包含    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-检查您是否更改了投放提供程序名称。投放日志在生产环境上不应包含**SR Generic**。
+检查您是否更改了投放提供商名称。 投放日志不应包含    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+检查您是否更改了投放提供商名称。在生产环境中，投放日志不得包含**SR Generic**。
 
-* **检查是否已处**
-理MO如果需要处理MO（自动回复，将MO存储在数据库中等）试着做些测试。 发送几条短信，查看所有自动回复关键字，并检查回复是否足够快，不超过几秒。
-签入Adobe Campaign成功回复的日志 
+* **检查MO是否**
+已处理如果需要处理MO（自动回复、将MO存储在数据库中等）尝试做一些测试。 发送几条短信给所有自动回复关键词，并检查回复是否足够快，不超过几秒钟。
+在日志中检查Adobe Campaign是否成功回复了 
 `DELIVER_SM_RESP` (command_status=0)。
 
 ### 检查PDU {#check-pdus}
 
 即使消息看起来成功，检查PDU的格式是否正确也很重要。
 
-连接到以前未连接到Adobe Campaign的提供程序时，此步骤是必需的。
+连接到之前未连接到Adobe Campaign的提供程序时，需要执行此步骤。
 
-#### BIND {#bind}
+#### 绑定 {#bind}
 
-检查是否已正确发送`BIND_* PDUs`。 要检查的最重要的一点是提供程序始终返回成功的`BIND_*_RESP PDUs`(command_status = 0)。
+检查是否正确发送了`BIND_* PDUs`。 要检查的最重要的一点是，提供程序始终返回成功的`BIND_*_RESP PDUs`(command_status = 0)。
 
-检查`BIND_* PDU`s不太多。如果其中太多，则可能表明连接不稳定。 有关详细信息，请参阅[连接不稳定的问题](../../administration/using/sms-protocol.md#issues-unstable-connection)部分。
+检查`BIND_* PDU`s是否不太多。如果这些参数太多，则可能表示连接不稳定。 有关详细信息，请参阅[连接不稳定问题](../../administration/using/sms-protocol.md#issues-unstable-connection)部分。
 
 #### INQUIRE_LINK {#enquire-link-pdus}
 
-检查连接空闲时是否定期交换`ENQUIRE_LINK PDU`s。
+检查连接空闲时是否定期交换`ENQUIRE_LINK PDU`。
 
 #### SUBMIT_SM / DELIVER_SM {#submit-sm-deliver-sm}
 
@@ -872,31 +871,31 @@ SMS协议将SMS限制在255个部分，但一些手机很难将长消息与大�
 
 使用`SUBMIT_SM PDU`:
 
-* 检查`data_coding`是否正确，默认情况下为0。
-* 检查`short_message`是否已正确编码。 尝试使用支持多个编码的十六进制转换器对其进行解码。
+* 检查`data_coding`是否正确，默认为0。
+* 检查`short_message`是否进行了正确编码。 尝试使用支持多个编码的十六进制转换器对其进行解码。
 
 使用`SUBMIT_SM_RESP PDU`:
 
-* 检查是否成功，command_status = 0。
+* 检查成功，command_status = 0。
 * 检查其正文是否包含格式正确的ID，后跟“0”字节。
 
 使用`DELIVER_SM PDU`:
 
 * 解码十六进制`short_message`字段。
-* 使用正则表达式检查工具检查在SR中ID的`Extraction`正则表达式中定义的正则表达式是否只返回一个捕获组，并且它捕获消息中的整个ID。
+* 使用正则表达式检查工具检查SR中ID的`Extraction`正则表达式中定义的正则表达式是否只返回一个捕获组，并且捕获消息中的整个ID。
 * 检查提取的ID是否与`SUBMIT_SM_RESP`中的ID匹配。
 * 检查在SR中状态的`Extraction`正则表达式中定义的正则表达式是否返回stat字段的内容。
-* 检查在SR中错误的`Extraction`正则表达式中定义的正则表达式是否返回err字段的内容。
+* 检查SR中错误的`Extraction`正则表达式中定义的正则表达式是否返回err字段的内容。
 
 使用`DELIVER_SM_RESP PDU`:
 
-* 检查收到`DELIVER_SM PDU`后是否快速发送，通常不到1秒。
-* 检查是否成功，command_status = 0。
+* 检查收到`DELIVER_SM PDU`后是否快速发送了该请求，通常不到1秒。
+* 检查成功，command_status = 0。
 
-### 询问提供程序是否一切正常{#provider}
+### 询问提供商一切是否正常 {#provider}
 
-即使您的SMS成功，也要联系提供商以查看所有内容是否都正确。
+即使短信成功，请与提供商联系以查看所有内容是否均正确。
 
-### 禁用详细SMPP跟踪{#disable-verbose}
+### 禁用详细的SMPP跟踪 {#disable-verbose}
 
-完成所有检查后，最后一件事是&#x200B;**禁用详细SMPP跟踪**&#x200B;以不生成太多日志。 即使在生产系统上，您也可以重新启用它们以用于故障排除。
+完成所有检查后，最后一件事是&#x200B;**禁用详细的SMPP跟踪**，以不生成太多日志。 即使在生产系统上，您也可以重新启用它们，以便进行故障排除。
