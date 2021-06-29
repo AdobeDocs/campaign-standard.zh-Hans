@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: 应用程序内
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # 准备和发送应用程序内消息{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->应用程序内个性化依赖于关联字段，该字段通常为 CRM ID 和/或移动应用程序登录 ID。与 Adobe Campaign 搭配使用时，您应自行负责保护此关联字段的安全。如果您无法保持关联字段的安全，则您的个性化信息可能很容易被攻击。如果您未能遵循安全关联字段构成、管理和保护实践，那么对于因未经授权的访问或使用任何用户档案数据而造成的损害，Adobe 概不负责。
 
 Adobe Campaign 提供两种类型的应用程序内消息：
 
@@ -32,29 +28,15 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：利用此消息类型，可向移动应用程序的所有用户（当前或将来）发送消息，即使他们当前在 Adobe Campaign 中没有用户档案。因此，在自定义消息时不可能进行个性化，因为用户档案甚至可能不存在于 Adobe Campaign 中。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：利用此消息类型，可定向在 Adobe Campaign 中具有移动用户档案的移动应用程序所有已知或匿名用户。此消息类型可仅使用非个人属性和非敏感属性进行个性化，并且不需要 Mobile SDK 与 Adobe Campaign 的应用程序内消息传递服务之间进行安全握手。
 
-   有关如何处理个人和敏感数据的更多信息，请参阅[处理具有个人和敏感数据的移动用户档案字段](#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+   有关如何处理个人和敏感数据的更多信息，请参阅[处理具有个人和敏感数据的移动用户档案字段](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
-## 处理具有个人和敏感数据的移动用户档案字段{#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## 准备应用程序内消息 {#preparing-your-in-app-message}
 
-在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。
-
-需要扩展此资源，才能收集您打算从移动设备发送到 Adobe Campaign 的数据。要实现此目的，请参阅此[页面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以了解详细步骤。
-
-为了更安全地实现应用程序内消息的个性化，需要相应地配置此资源中的移动配置文件字段。在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 中创建新移动用户档案字段时，请勾选 **[!UICONTROL Personal and Sensitive]** 以使它们在应用程序内消息个性化期间不可用。
-
->[!NOTE]
+>[!CAUTION]
 >
->如果此表格中已存在带有自定义资源扩展的现有实施项，我们建议您在将字段用于个性化应用程序内消息之前，为这些字段添加适当的标签。
-
-![](assets/in_app_personal_data_2.png)
-
-配置和发布 **[!UICONTROL Subscriptions to an application]** 自定义资源后，您即可使用 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 模板开始准备应用程序内投放。只有 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中的非个人和非敏感字段，才可进行个性化。
-
-如果需要使用 **Personal and Sensitive** 字段进行个性化，我们建议使用 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 模板，此模板可提供额外的安全机制来确保用户 PII 数据的安全。
-
-## 准备应用程序内消息{#preparing-your-in-app-message}
+>应用程序内个性化依赖于关联字段，该字段通常为 CRM ID 和/或移动应用程序登录 ID。与 Adobe Campaign 搭配使用时，您应自行负责保护此关联字段的安全。如果您无法保持关联字段的安全，则您的个性化信息可能很容易被攻击。如果您未能遵循安全关联字段构成、管理和保护实践，那么对于因未经授权的访问或使用任何用户档案数据而造成的损害，Adobe 概不负责。
 
 使用 Adobe Campaign 创建独立应用程序内消息的步骤如下所示：
 
@@ -137,7 +119,22 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 * [在工作流中发送应用程序内消息](../../automating/using/in-app-delivery.md)
 
-## 发送应用程序内消息{#sending-your-in-app-message}
+## 预览应用程序内消息 {#previewing-the-in-app-message}
+
+在发送应用程序内消息之前，您可以使用测试用户档案进行测试，以查看定向受众在收到投放时将看到的内容。
+
+1. 单击 **[!UICONTROL Preview]** 按钮。
+
+   ![](assets/inapp_sending_2.png)
+
+1. 单击 **[!UICONTROL Select a test profile]** 按钮并选择一个测试用户档案，以开始预览您的投放。有关测试用户档案的更多信息，请参阅[此章节](../../audiences/using/managing-test-profiles.md)。
+1. 在 Android、iPhone 手机甚至平板电脑等不同设备上查看您的消息。您还可以检查个性化字段是否可以检索正确的数据。
+
+   ![](assets/inapp_sending_3.png)
+
+1. 现在，您可以发送消息并通过投放报告衡量其影响。
+
+## 发送应用程序内消息 {#sending-your-in-app-message}
 
 您完成准备投放并执行批准步骤后，即可发送消息。
 
