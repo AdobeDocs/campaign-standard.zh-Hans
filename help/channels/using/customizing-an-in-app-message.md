@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: 应用程序内
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # 自定义应用程序内消息{#customizing-an-in-app-message}
 
@@ -40,9 +39,9 @@ ht-degree: 99%
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 * [实施本地通知跟踪](../../administration/using/local-tracking.md)
 
-## 使用消息模板进行自定义{#customizing-with-a-message-template}
+## 使用消息模板进行自定义 {#customizing-with-a-message-template}
 
-### 布局{#layout}
+### 布局 {#layout}
 
 **[!UICONTROL Layout]** 下拉列表提供了四个不同的选项，供您根据消息传递需求进行选择：
 
@@ -70,7 +69,7 @@ ht-degree: 99%
 
 ![](assets/inapp_customize_4.png)
 
-### 媒体{#media}
+### 媒体 {#media}
 
 利用 **[!UICONTROL Media]** 下拉列表，可以向应用程序内消息中添加媒体，从而为最终用户创造有趣的体验。
 
@@ -87,7 +86,7 @@ ht-degree: 99%
 
    ![](assets/inapp_customize_6.png)
 
-### 文本{#text}
+### 文本 {#text}
 
 如果需要，您还可以向应用程序内消息添加消息标题和内容。为了更好地个性化您的应用程序内消息，您可以向内容添加各种个性化字段、内容块和动态文本。
 
@@ -110,7 +109,7 @@ ht-degree: 99%
 
    ![](assets/inapp_customize_11.png)
 
-### 按钮{#buttons}
+### 按钮 {#buttons}
 
 最多可以向应用程序内消息添加两个按钮。
 
@@ -128,11 +127,11 @@ ht-degree: 99%
 1. 如果选择了 **[!UICONTROL Redirect]** 操作，请在 **[!UICONTROL Destination URL]** 字段中输入 Web URL 或深层链接。
 1. 在预览窗口中或单击预览按钮，查看消息内容。
 
-   请参阅[预览应用程序内消息](#previewing-the-in-app-message)页面。
+   请参阅[预览应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message)页面。
 
    ![](assets/inapp_customize_11.png)
 
-### 设置{#settings}
+### 设置 {#settings}
 
 1. 在 **[!UICONTROL Settings]** 类别中，选择背景颜色（“亮”或“暗”）。
 1. 选择显示或不显示带有 **[!UICONTROL Show close button]** 选项的关闭按钮，为用户提供一种关闭应用程序内消息的方式。
@@ -141,7 +140,7 @@ ht-degree: 99%
 
    ![](assets/inapp_customize_7.png)
 
-## 自定义本地通知消息类型{#customizing-a-local-notification-message-type}
+## 自定义本地通知消息类型 {#customizing-a-local-notification-message-type}
 
 本地通知只能由应用程序在特定时间根据事件触发。即使没有互联网访问权限，本地通知也可以提醒用户，其应用程序中发生了一些情况。
 要了解如何跟踪本地通知，请参阅此[页面](../../administration/using/local-tracking.md)。
@@ -171,7 +170,7 @@ ht-degree: 99%
 
 1. 在 **[!UICONTROL Apple options]** 类别中，填写 **[!UICONTROL Category]** 字段以为自定义操作添加类别 Id（如果 Apple 移动应用程序中可用）。
 
-## 使用自定义 HTML 消息进行自定义{#customizing-with-a-custom-html-message}
+## 使用自定义 HTML 消息进行自定义 {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >
@@ -190,18 +189,3 @@ ht-degree: 99%
 ![](assets/inapp_customize_3.png)
 
 导入 HTML 后，您可以在预览窗口中找到不同设备上的文件预览。
-
-## 预览应用程序内消息{#previewing-the-in-app-message}
-
-在发送应用程序内消息之前，您可以使用测试用户档案进行测试，以查看定向受众在收到投放时将看到的内容。
-
-1. 单击 **[!UICONTROL Preview]** 按钮。
-
-   ![](assets/inapp_sending_2.png)
-
-1. 单击 **[!UICONTROL Select a test profile]** 按钮并选择一个测试用户档案，以开始预览您的投放。有关测试用户档案的更多信息，请参阅[此章节](../../audiences/using/managing-test-profiles.md)。
-1. 在 Android、iPhone 手机甚至平板电脑等不同设备上查看您的消息。您还可以检查个性化字段是否可以检索正确的数据。
-
-   ![](assets/inapp_sending_3.png)
-
-1. 现在，您可以发送消息并通过投放报告衡量其影响。有关报告的更多信息，请参考[此章节](../../reporting/using/in-app-report.md)。
