@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
+feature: 推送
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # 自定义推送通知{#customizing-a-push-notification}
 
@@ -32,7 +31,7 @@ ht-degree: 98%
 * [推送通知报告](../../reporting/using/push-notification-report.md)
 * [在工作流中发送推送通知](../../automating/using/push-notification-delivery.md)
 
-## 播放提示音{#play-a-sound}
+## 播放提示音 {#play-a-sound}
 
 利用 **[!UICONTROL Play a sound]** 功能，就算应用未运行，也可让设备在收到推送通知投放时，播放提示音。
 
@@ -45,11 +44,13 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。否则，将播放设备的默认声音。
+1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。您可以将其设置为&#x200B;**default**&#x200B;以播放设备的默认声音。
+
+   如果&#x200B;**[!UICONTROL Play a sound]**&#x200B;字段留空，则不会播放任何声音。
 
 用户随后将收到推送通知，但只有手机未静音时才会播放提示音。
 
-## 刷新标记值{#refresh-the-badge-value}
+## 刷新标记值 {#refresh-the-badge-value}
 
 标记用于直接在应用程序图标上显示新的未读信息数。当用户打开或从应用程序中读取新内容时，标记值将消失。
 
@@ -70,7 +71,7 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_1.png)
 
-## 添加深层链接{#add-a-deeplink}
+## 添加深层链接 {#add-a-deeplink}
 
 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。
 
@@ -87,7 +88,7 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_4.png)
 
-## 定义操作{#define-an-action}
+## 定义操作 {#define-an-action}
 
 您可以添加类别 ID（如果在移动应用程序中可用），然后显示操作按钮。这些通知为用户提供了一种更快的方式，无需在应用程序中打开或导航即可响应通知执行不同任务。
 
@@ -108,13 +109,13 @@ ht-degree: 98%
 
 根据用户的操作，将通知应用程序以执行任何相关任务。
 
-## 添加到期日期{#add-expiration-date}
+## 添加到期日期 {#add-expiration-date}
 
 通过为推送通知设置到期日期，在到达该日期后，Apple [(APNS)](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns) 或 Android [(FCM)](https://firebase.google.com/docs/cloud-messaging/concept-options) 将不再发送该消息。
 
 要向推送通知添加到期日期，请执行以下操作：
 
-1. 选中&#x200B;**[!UICONTROL Expire message]**&#x200B;选项：通过选择&#x200B;**[!UICONTROL Expire message]**&#x200B;选项，持续时间会自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
+1. 检查&#x200B;**[!UICONTROL Expire message]**&#x200B;选项：选择&#x200B;**[!UICONTROL Expire message]**&#x200B;选项后，持续时间将自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
 
 1. 在 **[!UICONTROL Duration]** 字段中，选择推送通知的有效期。
 
@@ -124,7 +125,7 @@ ht-degree: 98%
 
 请注意，如果到达过期日期时仍未发送推送通知，则将弃用该通知。
 
-## 添加自定义字段{#add-custom-fields}
+## 添加自定义字段 {#add-custom-fields}
 
 利用自定义字段，可使用键值对的形式在有效载荷中传递自定义数据。此选项可用于向应用程序传递预定义键值以外的其他数据。
 
@@ -140,7 +141,7 @@ ht-degree: 98%
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## 添加富媒体内容{#add-rich-media-content}
+## 添加富媒体内容 {#add-rich-media-content}
 
 利用富媒体内容，可更好地吸引用户参与，这意味着用户将更倾向于打开您的推送通知。
 
@@ -161,7 +162,7 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_2.png)
 
-## 更改 iOS 的通知行为{#change-the-notification-behavior-for-ios}
+## 更改 iOS 的通知行为 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
@@ -178,7 +179,7 @@ ht-degree: 98%
 
 选中 **[!UICONTROL Content available]** 后，将在推送有效载荷中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效载荷数据。即使应用程序在后台运行并且没有进行任何用户交互（例如点击推送通知），此功能也会起效；但是，如果应用程序未运行，则此功能不适用。有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。
 
-## 更改 Android 的通知行为{#change-the-notification-behavior-for-android}
+## 更改 Android 的通知行为 {#change-the-notification-behavior-for-android}
 
 对于 Android，您可以在 **Rich media content URL** 字段中输入文件的 URL。与 iOS 版本不同，Android 版本的推送通知只能包含图像，而不能包含 GIF 动图、音频或视频文件。
 
