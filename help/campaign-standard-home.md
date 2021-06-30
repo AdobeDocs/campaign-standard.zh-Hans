@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[Apple邮件隐私保护常](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 见问题解答查找针对Apple关于iOS 15的公告的初始指导
+* **[Apple 邮件隐私保护常见问题解答](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=zh-Hans)**<br/>&#x200B;查找 Apple 有关 iOS 15 公告的初步指导
 
 * **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
 
