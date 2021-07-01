@@ -8,10 +8,10 @@ feature: 概述
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+source-git-commit: f094c6735a94a7b0d02f6c02e8fe494c10f2eb41
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 |---|---|
 | [发行说明](rn/using/release-notes.md) | [Experience Cloud 触发器](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) | [Campaign API](api/using/get-started-apis.md) |
-| [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [发行计划](rn/using/release-planning.md) | [Campaign 数据模型](developing/using/datamodel-introduction.md) |
 | [已弃用和已删除的功能](rn/using/deprecated-features.md) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard 快速入门](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html) |
