@@ -10,20 +10,22 @@ feature: People核心服务集成
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 8%
 
 ---
 
 # 使用 Campaign 和 Assets 核心服务{#working-with-campaign-and-assets-core-service}
 
-将Assets核心服务或Assets（按需）与Adobe Campaign集成(具体取决于Adobe Experience Cloud环境的配置)后，您可以在Adobe Campaign电子邮件和登陆页面中使用Adobe Experience Cloud内共享的任何资产。
-
 >[!CAUTION]
 >
-> 与Assets核心服务的集成仅限于[功能管理员](../../administration/using/users-management.md#functional-administrators)。
+> Experience Cloud资产现已停用。 对于新实施，您无法再将Experience Cloud资产与Adobe Campaign Standard集成。
+
+将Assets核心服务或Assets（按需）与Adobe Campaign集成(具体取决于Adobe Experience Cloud环境的配置)后，您可以在Adobe Campaign电子邮件和登陆页面中使用Adobe Experience Cloud内共享的任何资产。
+
+与Assets核心服务的集成仅限于[功能管理员](../../administration/using/users-management.md#functional-administrators)。
 
 从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页面，如下所示：
 
