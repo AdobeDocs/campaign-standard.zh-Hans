@@ -7,19 +7,18 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: 类型规则
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 98%
+source-wordcount: '192'
+ht-degree: 100%
 
 ---
 
-
-# 关于分类和分类规则{#about-typology-rules}
+# 关于类型和类型规则{#about-typology-rules}
 
 通过 Campaign Standard 可将消息链接到&#x200B;**分类**，以检查消息是否有效且符合质量标准。
 
