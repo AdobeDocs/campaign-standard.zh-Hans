@@ -2,31 +2,30 @@
 solution: Campaign Standard
 product: campaign
 title: 配置准则
-description: 了解Campaign Standard配置指南。
+description: 了解Campaign Standard配置准则。
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: 访问管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 9%
+source-wordcount: '119'
+ht-degree: 10%
 
 ---
-
 
 # 配置准则 {#about-configuration-guidelines}
 
 ## 兼容的浏览器{#compatible-browsers}
 
-Adobe Campaign Standard兼容大多数计算机浏览器以及平板电脑的主要操作系统。
+Adobe Campaign Standard与大多数计算机浏览器以及平板电脑的主要操作系统兼容。
 
-Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
+Adobe Campaign Standard仅支持在平板电脑上使用横向作为显示模式。
 
-以下是与Adobe Campaign Standard兼容的浏览器的列表:
+以下是与Adobe Campaign Standard兼容的浏览器列表：
 
 **计算机：**
 
@@ -38,7 +37,7 @@ Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
 **平板电脑：**
 
 * iOS（版本7及更高版本）
-* Android（4.4版和更高版本）
+* Android（版本4.4及更高版本）
 
 ## Campaign Standard 网络端点 {#campaign-standard-network-endpoints}
 
@@ -46,7 +45,7 @@ Adobe Campaign Standard仅支持平板电脑上的横向显示模式。
 
 | 上下文 | URL |
 |--- |--- |
-| 活动实例 | `https://*.experiencecloud.adobe.com` （租户ID * +客户端域）<br>`https://*.campaign.adobe.com` (活动实例租户) |
+| Campaign实例 | `https://*.experiencecloud.adobe.com` （租户ID * +客户端域）<br>`https://*.campaign.adobe.com` （Campaign实例租户） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 跟踪 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
