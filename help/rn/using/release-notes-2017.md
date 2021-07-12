@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 发行说明2017
+title: 发行说明 2017
 description: 本页列出了所有 2017 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '4625'
+source-wordcount: '4624'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 查看[最新文档更新](../../rn/using/documentation-updates.md) for Adobe Campaign Standard。 如果要查找较新的版本，请查阅此[页面](../../rn/using/release-notes.md)。
 
-## 17.10 版 - 2017 年 10 月{#release-17-10---october-2017}
+## 17.10 版 - 2017 年 10 月 {#release-17-10---october-2017}
 
 **新功能**
 
@@ -104,7 +104,7 @@ _自定义资源_
 * 修复了列表屏幕中出现的问题，该问题导致可以在没有任何数据的情况下显示自定义资源行。
 * 修复了导致具有“False”值的布尔类型字段无法在自定义资源中显示的问题。
 
-## 17.9 版 - 2017 年 9 月{#release-17-9---september-2017}
+## 17.9 版 - 2017 年 9 月 {#release-17-9---september-2017}
 
 **新功能**
 
@@ -176,7 +176,7 @@ _用户档案和受众_
 * Adobe Campaign现在提供了显示活动用户档案数的报表。 此报表仅提供信息，对账单没有直接影响。 有关详细信息，请参阅[详细文档](../../audiences/using/active-profiles.md)。
 * 修复了在使用Profiles and Services API时阻止用户档案订阅服务的问题。
 
-## 17.7 版 - 2017 年 7 月{#release-17-7---july-2017}
+## 17.7 版 - 2017 年 7 月 {#release-17-7---july-2017}
 
 **新功能**
 
@@ -252,7 +252,7 @@ _工作流_
 * 修复了阻止在定期投放的创建向导中设置叫客过渡的问题。
 * 修复了在使用基于自定义资源字段的工作流查询活动时发生的问题，该活动包含具有大量值的枚举
 
-## 17.5 版 - 2017 年 5 月{#release-17-5---may-2017}
+## 17.5 版 - 2017 年 5 月 {#release-17-5---may-2017}
 
 **新功能**
 
@@ -299,7 +299,7 @@ _推送通知_
 * 修复了阻止您在用户档案的营销历史记录中单击推送事件的问题。
 * 工作流中推送通知的使用已得到改进。
 
-## 17.4 版 - 2017 年 4 月{#release-17-4---april-2017}
+## 17.4 版 - 2017 年 4 月 {#release-17-4---april-2017}
 
 **新功能**
 
@@ -316,7 +316,7 @@ _推送通知_
    <td> 现在，您可以访问由Creative SDK提供支持的整套功能，以在编辑电子邮件或登陆页面时直接在内容编辑器中增强您的图像。<br /> 此功能不需要获取其他Creative Cloud解决方案。<br /> 有关更多信息，请参阅详 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 事务型推送通知<br /> </td> 
+   <td> 事务性推送通知<br /> </td> 
    <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能中。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关更多信息，请参阅详 <a href="../../channels/using/transactional-push-notifications.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -329,7 +329,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver集成live<br /> </td> 
-   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 现在，它可与官方发布的上一版Dreamweaver(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">视频</a>。<br /> </td> 
+   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 现在，它可与官方发布的上一版Dreamweaver(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -384,7 +384,7 @@ _推送通知_
 * 修复了在创建链接到在MCPNS上创建失败的移动应用程序的Android应用程序时，未显示错误消息的问题。
 * 修复了允许用户向无提示通知添加声音的问题。
 
-## 17.2 版 - 2017 年 3 月{#release-17-2---march-2017}
+## 17.2 版 - 2017 年 3 月 {#release-17-2---march-2017}
 
 **新功能**
 
@@ -467,7 +467,7 @@ _工作流_
 * 修复了可能阻止读取&#x200B;**[!UICONTROL Load file]**&#x200B;活动拒绝过渡内容的问题。
 * 修复了在配置&#x200B;**[!UICONTROL Load file]**&#x200B;活动时无法正确考虑交换列的问题。
 
-## 17.1 版 - 2017 年 1 月{#release-17-1---january-2017}
+## 17.1 版 - 2017 年 1 月 {#release-17-1---january-2017}
 
 **新功能**
 
