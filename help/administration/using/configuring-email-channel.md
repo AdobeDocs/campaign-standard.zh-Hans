@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 76%
@@ -22,7 +22,7 @@ ht-degree: 76%
 
 Campaign [管理员](../../administration/using/users-management.md#functional-administrators)可以配置电子邮件渠道设置。这些高级设置包括常规电子邮件渠道参数、电子邮件路由帐户、电子邮件处理规则和电子邮件属性。在本页面上，您将学习如何编辑常规电子邮件和发送参数的默认值。
 
-## 电子邮件渠道参数{#email-channel-parameters}
+## 电子邮件渠道参数 {#email-channel-parameters}
 
 利用电子邮件配置屏幕，可定义电子邮件渠道的参数。管理员通过 **[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]** 菜单访问这些配置。
 
@@ -72,7 +72,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
    有关隔离的更多信息，请参阅[了解隔离管理](../../sending/using/understanding-quarantine-management.md)。
 
-## 电子邮件路由帐户{#email-routing-accounts}
+## 电子邮件路由帐户 {#email-routing-accounts}
 
 默认情况下，会提供 **[!UICONTROL Integrated email routing]** 外部帐户。其中包含允许应用程序发送电子邮件的技术参数。
 
@@ -84,7 +84,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 [外部帐户](../../administration/using/external-accounts.md)
 
-## 电子邮件处理规则{#email-processing-rules}
+## 电子邮件处理规则 {#email-processing-rules}
 
 管理员可以通过 **[!UICONTROL Administration > Channels > Email]** 菜单访问 **[!UICONTROL Email processing rules]**。
 
@@ -99,7 +99,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 * The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-### 退回邮件{#bounce-mails}
+### 退回邮件 {#bounce-mails}
 
 仍由 Campaign inMail 流程通过 **[!UICONTROL Bounce mails]** 规则对异步退件进行鉴别。
 
@@ -125,7 +125,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## 电子邮件属性的列表{#list-of-email-properties}
+## 电子邮件属性的列表 {#list-of-email-properties}
 
 本节详细介绍了电子邮件或电子邮件模板之属性屏幕中提供的参数列表。
 
@@ -137,7 +137,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ![](assets/delivery_options_1.png)
 
-### 常规参数{#general-parameters}
+### 常规参数 {#general-parameters}
 
 在电子邮件参数屏幕的顶部，使用 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 字段标识电子邮件。此信息显示在界面中，但消息收件人不可见。
 
@@ -153,11 +153,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 您还可以在相应的字段中添加 **[!UICONTROL Description]**，并编辑列表中电子邮件缩览图所显示的图像
 
-### 发送参数{#sending-parameters}
+### 发送参数 {#sending-parameters}
 
 **[!UICONTROL Send]** 部分仅适用于电子邮件模板。其中包含以下参数：
 
-#### 重试参数{#retries-parameters}
+#### 重试参数 {#retries-parameters}
 
 临时未送达的消息将会自动重试。有关更多信息，请参阅[投放临时失败后重试](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
@@ -167,7 +167,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 仍会遵从在 Campaign 中设置的&#x200B;**投放持续时间设置**（在[有效期参数](#validity-period-parameters)部分中定义），**但最长只有 3.5 天**。达到该时间后，重试队列中的所有消息都将从队列中删除，并作为退件发回。有关投放失败的更多信息，请参阅此[章节](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
-#### 电子邮件格式参数{#email-format-parameters}
+#### 电子邮件格式参数 {#email-format-parameters}
 
 您可以配置待发送电子邮件的格式。提供了三个选项：
 
@@ -180,7 +180,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **以文本格式发送所有消息**：消息以文本格式发送。不会发送 HTML 格式，仅当收件人单击消息中的链接时，才会将其用于镜像页面。
 
-#### SMTP 测试模式{#smtp-test-mode}
+#### SMTP 测试模式 {#smtp-test-mode}
 
 利用 **[!UICONTROL Enable SMTP test mode]** 选项，可测试通过 SMTP 连接发送的电子邮件，而无需实际发送消息。
 会一直处理消息直到与 SMTP 服务器建立连接为止，但不会发送消息。
@@ -198,7 +198,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 有关配置 SMTP 的更多信息，请参阅[电子邮件 SMTP 参数列表](#list-of-email-smtp-parameters)。
 
-### 有效期参数{#validity-period-parameters}
+### 有效期参数 {#validity-period-parameters}
 
 **[!UICONTROL Validity period]** 部分包含以下参数：
 
@@ -232,7 +232,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 >
 >**[!UICONTROL Delivery duration]** 参数不适用于事务型消息。有关事务型消息传递的更多信息，请参阅[此章节](../../channels/using/getting-started-with-transactional-msg.md)。
 
-### 跟踪参数{#tracking-parameters}
+### 跟踪参数 {#tracking-parameters}
 
 **[!UICONTROL Tracking]** 部分包含以下参数：
 
@@ -240,7 +240,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Tracking validity limit]**：用于定义在 URL 上激活跟踪的持续时间。
 * **[!UICONTROL Substitution URL for expired URLs]**：您可以输入要在跟踪过期后显示之网页的 URL。
 
-### 高级参数{#advanced-parameters}
+### 高级参数 {#advanced-parameters}
 
 **[!UICONTROL Advanced parameters]** 部分包含多个参数。
 
@@ -252,7 +252,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 有关插入和使用个性化内容的详细信息，请参阅](../../designing/using/personalization.md)个性化电子邮件内容[文档。
 
-#### 目标上下文{#target-context}
+#### 目标上下文 {#target-context}
 
 利用目标上下文可定义一组表格，用于电子邮件定向（在受众定义屏幕中）和个性化（在 HTML 内容编辑器中定义个性化字段）。
 
@@ -280,11 +280,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Save SQL queries in the log]**：此选项用于在准备阶段期间，向历程添加 SQL 查询日志。
 
-#### 校样设置{#proof-settings}
+#### 校样设置 {#proof-settings}
 
 利用此部分，可配置要用于校样主题行的默认前缀。有关更多信息，请参阅[此章节](../../sending/using/sending-proofs.md)。
 
-### 电子邮件 SMTP 参数的列表{#list-of-email-smtp-parameters}
+### 电子邮件 SMTP 参数的列表 {#list-of-email-smtp-parameters}
 
 **[!UICONTROL SMTP]** 部分包含以下参数：
 
@@ -296,7 +296,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
    >
    >高级用户可随时添加脚本以插入其他 SMTP 标头。此脚本的语法必须符合此内容类型的要求：没有未使用的空格，没有空行等。
 
-### 访问授权参数的列表{#list-of-access-authorization-parameters}
+### 访问授权参数的列表 {#list-of-access-authorization-parameters}
 
 **[!UICONTROL Access authorization]** 部分包含以下参数：
 
@@ -308,7 +308,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Created by]**、**[!UICONTROL Created]**、**[!UICONTROL Modified by]** 和 **[!UICONTROL Last modified]** 字段会自动填写。
 
-## 旧版设置{#legacy-settings}
+## 旧版设置 {#legacy-settings}
 
 如果您运行的是最新版本的Campaign，则下面描述的参数和UI部分仍适用于您。****
 
@@ -320,17 +320,17 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 默认情况下，计划在第一天进行五次重试，最小间隔为1小时，分布在一天的24小时内。 在此之后，每天对一次重试进行编程，直到投放截止时间为止（在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜单的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分或投放级别的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定义）（请参阅下面的[投放持续时间](#legacy-delivery-duration)部分）。
 
-### 投放持续时间{#legacy-delivery-duration}
+### 投放持续时间 {#legacy-delivery-duration}
 
 [配置菜单](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;参数允许您指定在投放中遇到临时错误或软退件的任何消息重试的时间范围。
 
 [有效期参数](#validity-period-parameters)部分中的&#x200B;**[!UICONTROL Delivery duration]**&#x200B;或&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;参数允许您指定发送消息的持续时间。
 
-### 电子邮件处理规则{#legacy-email-processing-rules}
+### 电子邮件处理规则 {#legacy-email-processing-rules}
 
 管理员可以通过&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [菜单](#email-processing-rules)访问和修改&#x200B;**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;和&#x200B;**[!UICONTROL Domain management]**&#x200B;规则。
 
-### 退回邮件鉴别{#legacy-bounce-mail-qualification}
+### 退回邮件鉴别 {#legacy-bounce-mail-qualification}
 
 要列出各种退回及其关联的错误类型和原因，请单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
 
@@ -346,7 +346,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 传递的指标报告{#legacy-delivered-status-report}
+### 传递的指标报告 {#legacy-delivered-status-report}
 
 在每条消息的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，随着软退回和硬退回的报告，在投放的有效期内，**[!UICONTROL Delivered]**&#x200B;百分比将逐步上升。
 
