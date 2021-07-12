@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: 短信
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # 管理传入的短信{#managing-incoming-sms}
 
-## 管理停止短信{#managing-stop-sms}
+## 管理停止短信 {#managing-stop-sms}
 
 当某个用户档案回复通过 Campaign 发送的短信消息时，您可以配置自动发回给他的消息以及要自动执行的操作。
 
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 如果需要，可以存储这些传入的短信。 有关此内容的详细信息，请参阅此[部分](#storing-incoming-sms)。
 
-## 存储传入的SMS {#storing-incoming-sms}
+## 存储传入短信 {#storing-incoming-sms}
 
 在&#x200B;**[!UICONTROL SMS routing via SMPP]**&#x200B;外部帐户中，您可以选择存储传入消息，例如，当订阅者回复“STOP”短信消息以从收件人列表中删除时。
 
