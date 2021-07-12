@@ -1,24 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事务型推送通知
+title: 事务性推送通知
 description: 了解如何使用Adobe Campaign Standard发送事务推送通知。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 交易消息传递
-role: Business Practitioner
+feature: 事务性消息传递
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
 
 ---
 
-# 事务型推送通知{#transactional-push-notifications}
+# 事务性推送通知{#transactional-push-notifications}
 
 您可以使用Adobe Campaign在iOS和Android移动设备上发送事务推送通知。 您在Adobe Campaign中设置的移动设备应用程序会利用Experience CloudMobile SDK来接收这些消息。
 
@@ -33,13 +33,13 @@ ht-degree: 4%
 * [定向事件的事务推送通知](#transactional-push-notifications-targeting-an-event)
 * [定向来自Adobe Campaign数据库](#transactional-push-notifications-targeting-a-profile) 的用户档案的事务推送通知
 
-## 针对事件{#transactional-push-notifications-targeting-an-event}的事务型推送通知
+## 定向事件的事务推送通知 {#transactional-push-notifications-targeting-an-event}
 
 您可以使用Adobe Campaign向选择从移动应用程序接收通知的所有用户&#x200B;**发送**&#x200B;匿名事务推送通知。
 
 在这种情况下，仅使用事件本身包含的&#x200B;**数据来定义投放目标**。 没有利用来自Adobe Campaign集成用户档案数据库的数据。
 
-### 配置基于事件的事务型推送通知{#configuring-event-based-transactional-push-notification}
+### 配置基于事件的事务型推送通知 {#configuring-event-based-transactional-push-notification}
 
 要向选择从移动应用程序接收通知的所有用户发送事务型推送通知，您首先需要创建并配置一个事件，以定向事件本身中包含的数据。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 1. 将事件集成到您的网站中（请参阅[集成触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)的事件）。
 
-### 发送基于事件的事务型推送通知{#sending-event-based-transactional-push-notification}
+### 发送基于事件的事务型推送通知 {#sending-event-based-transactional-push-notification}
 
 例如，某航空公司希望邀请其移动应用程序用户前往相关登机口登机。
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
 *“你好，简·格林，刚刚开始登机！请转至B18门。&quot;*
 
-## 定向用户档案{#transactional-push-notifications-targeting-a-profile}的事务推送通知
+## 定向用户档案的事务推送通知 {#transactional-push-notifications-targeting-a-profile}
 
 您可以向订阅了您移动应用程序的Adobe Campaign用户档案&#x200B;**发送事务推送通知**。 此投放可以包含[个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)，如直接从Adobe Campaign数据库检索的收件人的名字。
 
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 有关访问和编辑用户档案的更多信息，请参阅[关于用户档案](../../audiences/using/about-profiles.md)。
 
-### 配置基于用户档案的事务推送通知{#configuring-profile-based-transactional-push-notification}
+### 配置基于用户档案的事务推送通知 {#configuring-profile-based-transactional-push-notification}
 
 要向订阅了您移动应用程序的Adobe Campaign用户档案发送事务推送通知，您首先需要创建并配置以Adobe Campaign数据库为目标的事件。
 
@@ -163,7 +163,7 @@ ht-degree: 4%
 
 1. 将事件集成到您的网站中（请参阅[集成触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)的事件）。
 
-### 发送基于用户档案的事务推送通知{#sending-profile-based-transactional-push-notification}
+### 发送基于用户档案的事务推送通知 {#sending-profile-based-transactional-push-notification}
 
 例如，某航空公司希望向订阅其移动应用程序的所有Adobe Campaign用户发送最后一次登机电话。
 
@@ -196,7 +196,7 @@ ht-degree: 4%
 >
 >没有注册令牌、应用程序和推送平台字段。 在本例中，使用email字段执行协调。
 
-## 更改事务推送通知{#change-target-mapping}中的目标映射
+## 更改事务推送通知中的目标映射 {#change-target-mapping}
 
 事务型推送通知使用特定的[目标映射](../../administration/using/target-mappings-in-campaign.md)，其中包含发送此类投放所需的技术设置。
 
