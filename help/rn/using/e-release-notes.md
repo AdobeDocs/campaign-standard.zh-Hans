@@ -4,12 +4,13 @@ product: campaign
 title: 早期发行说明
 description: 早期发行说明
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -24,7 +25,7 @@ ht-degree: 100%
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
 
-## 21.2 版 - 2021 年 6 月{#release-21-2---june-2021}
+## 21.2 版 - 2021 年 6 月 {#release-21-2---june-2021}
 
 **改进**
 
@@ -54,18 +55,18 @@ ht-degree: 100%
 
 * 添加了新消息，以确认成功从 v4 推送应用程序迁移到 v5 推送应用程序。
 
-* 在创建 JSONWeb 令牌以对 Campaign Standard API 进行身份验证期间，产品配置文件现在&#x200B;**会被考虑在内**。这意味着分配给安全组的组织单位和角色（与 AdobeIO 上的产品配置文件匹配）将应用于 Campaign Standard Rest API 调用所需的 IMS 技术帐户。(CAMP-47479)
+* 在创建 JSONWeb 令牌以对 Campaign Standard API 进行身份验证期间，会“考虑”产品配置文件现在&#x200B;****。这意味着分配给安全组的组织单位和角色（与 AdobeIO 上的产品配置文件匹配）将应用于 Campaign Standard Rest API 调用所需的 IMS 技术帐户。(CAMP-47479)
 
 
 **修补程序**
 
-* 修复了导致批量处理日志表 (**xtkjoblog**) 的到期选项无法应用的问题。这会阻止正确清除表。
+* 修复了批量处理日志表 (**xtkjoblog**) 的到期选项无法应用的问题。这会阻止正确清除表。
 
-* 修复了阻止您更改&#x200B;**分段**&#x200B;工作流活动中过滤器顺序的问题。(CAMP-48357)
+* 修复了阻止您更改“分段”****&#x200B;工作流活动中过滤器顺序的问题。(CAMP-48357)
 
 * 修复了 20.4 中的可能会导致投放失败并出现空值错误的回归问题。(CAMP-48591)
 
-* 修复了导致无法通过 **Share** > **Send Report Now** 或 **Send Report on Schedule** 菜单发送报告的问题。(CAMP-47798)
+* 修复了阻止通过“共享”**** >****“立即发送报表”或&#x200B;****“按计划发送报表”菜单发送报表的问题。(CAMP-47798)
 
 * 修复了可能会由于过滤从 Gmail 帐户接收的跟踪事件而导致 Gmail 的打开率不正确的回归问题。(CAMP-46504)
 
