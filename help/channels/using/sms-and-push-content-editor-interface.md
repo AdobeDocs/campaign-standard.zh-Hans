@@ -7,17 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
-feature: SMS
-role: Business Practitioner
+feature: 短信
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 99%
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
-
 
 # 短信和推送内容编辑器界面{#sms-and-push-content-editor-interface}
 
@@ -26,7 +25,7 @@ ht-degree: 99%
 1. **操作栏**&#x200B;包含页面的常规选项。您可以从此处插入个性化字段或内容块、添加条件文本并预览短信内容。请参阅[短信和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
 1. 利用该屏幕的&#x200B;**编辑区**，您可以直接输入文本消息并选择要插入个性化内容的位置。请参见[短信和推送内容编辑模式](#sms-and-push-content-edition-modes)。
 
-## 短信和推送内容编辑器操作栏{#sms-and-push-content-editor-action-bar}
+## 短信和推送内容编辑器操作栏 {#sms-and-push-content-editor-action-bar}
 
 利用操作栏中的各个按钮，可与正在创建的内容交互。
 
@@ -85,7 +84,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## 短信和推送内容编辑模式{#sms-and-push-content-edition-modes}
+## 短信和推送内容编辑模式 {#sms-and-push-content-edition-modes}
 
 短信和推送内容编辑器提供了以下功能：
 
