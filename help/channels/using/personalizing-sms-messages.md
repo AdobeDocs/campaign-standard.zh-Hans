@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 feature: 短信
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 >
 >自动选择最佳编码的算法，需要针对每条消息逐条执行。通过这种方式，只将需要 Unicode 编码的个性化消息以 Unicode 发送，其他所有消息都将使用 GSM 编码。
 
-## 短信发送方{#sms-sender}
+## 短信发送方 {#sms-sender}
 
 >[!IMPORTANT]
 >
