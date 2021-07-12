@@ -7,25 +7,24 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: 性能监控
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 85%
+source-wordcount: '463'
+ht-degree: 86%
 
 ---
 
+# 监测投放{#monitoring-a-delivery}
 
-# 监控投放{#monitoring-a-delivery}
-
-有多种方法可监控投放并衡量其影响。 作为功能管理员，您可以访问消息日志和投放日志。
+有多种方法可监控投放并衡量其影响。 功能管理员可以访问消息日志和投放日志。
 
 >[!IMPORTANT]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**所有**&#x200B;单元的功能[管理员](../../administration/using/users-management.md#functional-administrators)可访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
+>只有功能[管理员](../../administration/using/users-management.md#functional-administrators)，具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
 
 * **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
@@ -50,9 +49,9 @@ ht-degree: 85%
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [报告](../../reporting/using/about-dynamic-reports.md)
 
-## 投放日志{#delivery-logs}
+## 投放日志 {#delivery-logs}
 
-### 发送日志{#sending-logs}
+### 发送日志 {#sending-logs}
 
 **[!UICONTROL Sending logs]** 选项卡提供了每次进行此投放的历史记录。此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
 
@@ -72,13 +71,13 @@ ht-degree: 85%
 >
 >要在 Campaign 用户界面中显示镜像页面的表达，镜像页面服务器 URL 必须是安全的。在本例中，[配置品牌](../../administration/using/branding.md#configuring-and-using-brands)时，请使用 https:// 而不是 http:// 设置此 URL。
 
-### 排除日志{#exclusion-logs}
+### 排除日志 {#exclusion-logs}
 
 **[!UICONTROL Exclusion logs]** 选项卡列出了从定向发送中排除的所有消息，并说明了发送失败的原因。
 
 ![](assets/sending_delivery4.png)
 
-### 排除原因{#exclusion-causes}
+### 排除原因 {#exclusion-causes}
 
 **[!UICONTROL Exclusion causes]** 选项卡显示从定向发送中排除的消息量（消息的数量）。
 
