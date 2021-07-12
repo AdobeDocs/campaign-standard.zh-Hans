@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: 类型规则
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
 
+# 管理类型规则 {#managing-typology-rules}
 
-# 管理分类规则{#managing-typology-rules}
-
-## 关于分类规则{#about-typology-rules}
+## 关于类型学规则 {#about-typology-rules}
 
 分类规则是一种业务规则，用于在发送之前对消息进行检查和筛选。可使用以下类型的分类规则：
 
@@ -37,7 +36,7 @@ ht-degree: 96%
 
 根据需要，您可以修改现有分类规则或创建新分类规则，但 **[!UICONTROL Control]** 规则除外，此类规则为只读类型，不能修改。
 
-## 创建分类规则{#creating-a-typology-rule}
+## 创建分类规则 {#creating-a-typology-rule}
 
 创建分类规则的主要步骤如下：
 
@@ -61,7 +60,7 @@ ht-degree: 96%
 
 1. 选择所有分类后，单击 **[!UICONTROL Create]** 以确认创建分类规则。
 
-## 分类规则执行顺序{#typology-rules-execution-order}
+## 分类规则执行顺序 {#typology-rules-execution-order}
 
 按照在定向、分析和消息个性化阶段期间指定的顺序，执行分类规则。
 
@@ -70,7 +69,7 @@ ht-degree: 96%
 1. 控制规则（如果在开始定向时应用）。
 1. 筛选规则：
 
-   * 地址资格的本机应用程序规则：已定义的地址/未验证的地址/地址，阻止列表/隔离的地址/地址质量。
+   * 地址鉴别的本机应用程序规则：已定义的地址/未验证的地址/地址(阻止列表/隔离的地址/地址质量)。
    * 筛选用户定义的规则。
 
 1. 控制规则（如果在定向结束时应用）。
