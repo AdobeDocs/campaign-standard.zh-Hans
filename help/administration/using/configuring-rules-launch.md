@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
    * [推送通知跟踪回发](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [位置回发](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## 创建数据元素{#create-data-elements}
+## 创建数据元素 {#create-data-elements}
 
 以下是建议您在[!DNL Experience Platform Launch]中创建的数据元素。
 您可以根据需要创建其他数据元素。
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然后，在“**[!UICONTROL Data element]**&#x200B;类型”下拉列表中，选择“**[!UICONTROL Campaign Server]**”。
 
-## 创建规则{#creating-rules}
+## 创建规则 {#creating-rules}
 
 您需要为以下项创建规则：
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * [推送通知跟踪回发](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [位置回发](../../administration/using/configuring-rules-launch.md#location-postback)
 
-### PII回发{#pii-postback}
+### PII回发 {#pii-postback}
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 您的用户数据现已配置为发送到Campaign。
 
-### 应用程序内跟踪回发{#inapp-tracking-postback}
+### 应用程序内跟踪回发 {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ ht-degree: 1%
 
    ![](assets/do-not-localize/rules_3.png)
 
-### 推送通知跟踪回发{#push-tracking-postback}
+### 推送通知跟踪回发 {#push-tracking-postback}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，选择0。
 
-### 位置回发{#location-postback}
+### 位置回发 {#location-postback}
 
 1. 在[!DNL Experience Platform Launch]的移动应用程序功能板中，单击&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add Rule]**。
 
