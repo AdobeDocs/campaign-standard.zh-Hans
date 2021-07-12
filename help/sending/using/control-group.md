@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: 对照组
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
-
-# 添加控制组 {#adding-control-group}
+# 添加对照组 {#adding-control-group}
 
 您可以使用控制组避免向部分受众发送消息，以便衡量活动的影响。
 
