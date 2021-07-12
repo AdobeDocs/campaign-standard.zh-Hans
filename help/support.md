@@ -7,19 +7,18 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: 帮助和支持选项
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
 
-# Campaign Standard 的帮助和支持选项{#help-support-options}
+# Campaign Standard 的帮助和支持选项 {#help-support-options}
 
 需要 Campaign Standard 支持？您找到了正确的地方！
 
@@ -125,10 +124,10 @@ ht-degree: 100%
 
 加入 Campaign Classic 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### 创建票证或开始聊天
+### 创建工单或开始聊天
 
 通过创建案例，您可以就您在使用 Adobe 产品的过程中遇到的任何问题联系 Adobe 客户支持团队。为帮助您解决问题或排除疑难，Adobe Admin Console 将支持您与 Adobe 客户支持团队聊天。
 
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-请按照[本页](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
+请按照[本页](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
