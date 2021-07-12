@@ -8,25 +8,25 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
 
 ---
 
-# 品牌策略{#branding}
+# 品牌化{#branding}
 
-## 关于品牌标识{#about-brand-identity}
+## 关于品牌标识 {#about-brand-identity}
 
 每个公司都具有属于自己的品牌视觉和技术准则。通过 Adobe Campaign，您可以定义从徽标到技术方面的一系列规定（如电子邮件发送者、URL 或域名），从而为客户提供一致的品牌形象。
 
 技术管理员可以定义一个或多个品牌，以集中输入影响品牌识别的参数。其中包括品牌徽标、登陆页面访问 URL 的域名或消息跟踪设置。通过 Adobe Campaign，您可以创建这些品牌并将它们链接到消息或登陆页面。此配置在模板中进行管理。
 
-## 配置和使用品牌{#configuring-and-using-brands}
+## 配置和使用品牌 {#configuring-and-using-brands}
 
 配置和使用品牌的主要原理如下：
 
@@ -87,7 +87,7 @@ ht-degree: 80%
 
    ![](assets/branding_05.png)
 
-## 创建新品牌{#creating-a-brand}
+## 创建新品牌 {#creating-a-brand}
 
 您可以在Campaign中添加组织的新实体，或创建需要在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
 
@@ -111,9 +111,9 @@ ht-degree: 80%
 
 1. **检查投放能力准则**  — 在开始使用新域之前，应与Adobe投放能力团队讨论该策略。例如，如果应创建新亲和度以在域之间拆分IP，和/或应定义提升计划，则这些变量将有助于定义最佳实践。 在此部分](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践的更多信息。[
 
-## 为品牌分配电子邮件{#assigning-a-brand-to-an-email}
+## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 
-### 将品牌链接到模板{#linking-a-brand-to-a-template}
+### 将品牌链接到模板 {#linking-a-brand-to-a-template}
 
 要使用为品牌定义的参数，必须将其链接到投放模板或登陆页面模板。为此，您必须创建或编辑模板。
 
@@ -147,7 +147,7 @@ ht-degree: 80%
 
 在本例中，我们将创建一个与旅行相关的新品牌，并将其用在电子邮件中。
 
-#### 配置新品牌{#configure-a-new-brand}
+#### 配置新品牌 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -165,7 +165,7 @@ ht-degree: 80%
 
 品牌已正确创建和配置。现在，可提供给营销团队使用。
 
-#### 实施新品牌{#implement-a-new-brand}
+#### 实施新品牌 {#implement-a-new-brand}
 
 投放经理负责创建投放模板以使用新品牌。要实现此目的，请执行以下步骤：
 
@@ -184,7 +184,7 @@ ht-degree: 80%
 
    现在，即可将该投放模板用于创建将要发送给受众的电子邮件。
 
-#### 在投放中使用新品牌{#use-the-new-brand-in-a-delivery}
+#### 在投放中使用新品牌 {#use-the-new-brand-in-a-delivery}
 
 要创建链接到品牌的电子邮件，请执行以下步骤：
 
