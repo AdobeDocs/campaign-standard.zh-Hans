@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: 直邮
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 98%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
-
 
 # 定义直邮受众{#defining-the-direct-mail-audience}
 
@@ -25,7 +24,7 @@ ht-degree: 98%
 
 ![](assets/direct_mail_15.png)
 
-## 定义主目标{#defining-the-main-target}
+## 定义主目标 {#defining-the-main-target}
 
 对于直邮而言，定向的用户档案，指的是将要包含在提取文件中、发给直邮提供商的用户档案。
 
@@ -35,7 +34,7 @@ ht-degree: 98%
 >
 >确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
-## 添加测试和陷阱用户档案{#adding-test-and-trap-profiles}
+## 添加测试和陷阱用户档案 {#adding-test-and-trap-profiles}
 
 添加测试用户档案，以便使用少量用户档案对文件进行测试。利用此功能，可在准备实际文件之前快速创建一个文件示例以测试和验证结构。请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
