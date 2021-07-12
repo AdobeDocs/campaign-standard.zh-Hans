@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
@@ -23,7 +23,7 @@ ht-degree: 23%
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">全局概念</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通信渠道</a></p></td>
-<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">事务型消息传递</a></p></td>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">事务性消息</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登陆页面</a></p></td></tr>
 </table>
 
@@ -79,7 +79,7 @@ Adobe Campaign允许您跨每个渠道启动、测量和自动化营销活动。
 * [发布事务性事件](../../channels/using/publishing-transactional-event.md)
 * [编辑事务性消息](../../channels/using/editing-transactional-message.md)
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md)
-* [事务型推送通知](../../channels/using/transactional-push-notifications.md)
+* [事务性推送通知](../../channels/using/transactional-push-notifications.md)
 * [跟进消息](../../channels/using/follow-up-messages.md)
 
 ## 登陆页面 {#landing-pages}
