@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 feature: 访问管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 94%
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 # 用户管理{#users-management}
 
-## 关于用户{#about-users}
+## 关于用户 {#about-users}
 
 Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以访问界面的哪些部分。
 
@@ -57,7 +57,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 >
 >功能管理员与 Adobe 技术管理员不同。Adobe 技术管理员承担着 Adobe 内部角色，而客户无法承担这种角色。他们负责管理实例预配、托管、基础架构监控和监督、技术疑难解答。
 
-### 功能管理员{#functional-administrators}
+### 功能管理员 {#functional-administrators}
 
 功能管理员可访问界面中技术含量最高的部分。他们承担着 **[!UICONTROL Administration]** 的角色，负责确保平台的方方面面设置妥当，可让营销人员只需专注于投放活动。
 
@@ -77,7 +77,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 * [导出和导入资源包](../../automating/using/managing-packages.md)：通过结构化 XML 文件在不同的 Adobe Campaign 实例之间交换资源。
 * [导出日志](../../automating/using/exporting-logs.md)和[定义导入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
 
-### 高级用户{#advanced-users}
+### 高级用户 {#advanced-users}
 
 高级用户是在 Adobe Campaign 中执行技术性使用案例的营销用户。他们负责预配置营销人员发送和监控投放所需的所有元素。
 
@@ -91,7 +91,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 * [执行高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor)：使用高级函数处理用于执行特定查询（如日期、字符串、数字字段、排序等）的值。
 * [导出列表](../../automating/using/exporting-lists.md)和[使用现有导入模板导入数据](../../automating/using/importing-data-with-import-templates.md)。
 
-### 基本用户{#basic-users}
+### 基本用户 {#basic-users}
 
 借助功能管理员和高级用户的帮助，营销人员可以集中精力进行个性化、投放和监控活动，而无需考虑技术配置。为此，应该为他们分配诸如 **[!UICONTROL Prepare deliveries]**、**[!UICONTROL Workflow]** 和 **[!UICONTROL Start deliveries]** 即装即用角色。这些角色将在 **[!UICONTROL Standard Users]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
