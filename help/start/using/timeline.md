@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: 活动
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
 
 # 时间线{#timeline}
 
@@ -35,7 +34,7 @@ ht-degree: 90%
 
 使用图标；
 
-* ![](assets/timeline_zoom_in.png) 减少周长，或在显示天数之前，在更有限的时间段内增加细节级别
+* ![](assets/timeline_zoom_in.png) 缩短周长，或在显示天数之前，在更有限的时间段内提高详细信息级别
 * ![](assets/timeline_zoom_out.png) 增加周长，或显示更长的时间范围
 
 单击每个项目名称右侧的箭头，可显示相应的内容。项目可以包含子项目、营销策划和登陆页面。营销策划的部署方式与项目相同，可包含电子邮件、短信和登陆页面。
@@ -52,8 +51,8 @@ ht-degree: 90%
 
 * ![](assets/timeline_program_icon.png) 项目
 * ![](assets/timeline_campaign_icon.png) 营销活动
-* ![](assets/timeline_lp_icon.png) 登陆页
-* ![](assets/timeline_email_icon.png) 电子邮件
+* ![](assets/timeline_lp_icon.png) 登陆页面
+* ![](assets/timeline_email_icon.png)电子邮件
 * ![](assets/timeline_sms_icon.png) 短信
 * ![](assets/timeline_push_icon.png) 推送通知
 
