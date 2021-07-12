@@ -5,21 +5,20 @@ title: 数据保留
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: 实例设置
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 62%
+source-wordcount: '133'
+ht-degree: 63%
 
 ---
 
-
 # 数据保留{#data-retention}
 
-活动中的标准日志表具有预设的保留期，通常将其存储限制为6个月或更短。
+Campaign中的标准日志表具有预设的保留期，通常将其数据存储限制为6个月或更短时间。
 
 以下是标准表的默认保留值。 请注意，保留时间配置由 Adobe 技术管理员在实施期间设置，每项实施的值可能因客户要求而异。
 
