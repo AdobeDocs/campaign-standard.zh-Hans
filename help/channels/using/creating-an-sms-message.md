@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
-feature: SMS
-role: Business Practitioner
+feature: 短信
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
-
 
 # 创建短信消息{#creating-an-sms-message}
 
@@ -84,10 +83,10 @@ ht-degree: 95%
 * [关于短信和推送内容编辑](../../channels/using/about-sms-and-push-content-design.md)
 * [管理模板](../../start/using/marketing-activity-templates.md)
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
-此视频演示如何创建SMS投放。
+以下视频演示了如何创建短信投放。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
