@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: 性能监控
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 24%
@@ -19,7 +19,7 @@ ht-degree: 24%
 
 # 跟踪消息{#tracking-messages}
 
-## 关于跟踪{#about-tracking}
+## 关于跟踪 {#about-tracking}
 
 凭借其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
@@ -61,7 +61,7 @@ Adobe Campaign 使用两种类型的 Cookie：
 </tr>
 </table>
 
-## 跟踪日志{#tracking-logs}
+## 跟踪日志 {#tracking-logs}
 
 **[!UICONTROL Tracking logs]**&#x200B;选项卡列出了此投放的跟踪历史记录。 此选项卡显示已发送消息的跟踪信息，如Adobe Campaign已跟踪的所有URL。 此选项卡中的跟踪信息每10分钟更新一次。
 
