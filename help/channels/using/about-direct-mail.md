@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: 直邮
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
-
 
 # 关于直邮{#about-direct-mail}
 
@@ -41,11 +40,11 @@ Adobe Campaign 中的用户进程如下所示：
 
 **相关主题：**
 
-* [用例：将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
+* [用例：耦合电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 
-## 建议{#recommendations}
+## 推荐 {#recommendations}
 
-### 直邮提供商{#direct-mail-providers}
+### 直邮提供商 {#direct-mail-providers}
 
 首先，您需要联系直邮提供商并收集其建议。确定提取文件中需要包含哪些用户档案信息，以便提供商将通信内容个性化并发送给受众。例如，名字和姓氏、邮政地址、促销代码等。您需要在直邮内容的 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 选项卡中添加这些字段。
 
@@ -53,7 +52,7 @@ Adobe Campaign 中的用户进程如下所示：
 
 ![](assets/direct_mail_22.png)
 
-### 邮政地址{#postal-addresses}
+### 邮政地址 {#postal-addresses}
 
 添加要包含在提取文件中的字段时，**[!UICONTROL Location]** 节点中提供了邮政地址字段。
 
