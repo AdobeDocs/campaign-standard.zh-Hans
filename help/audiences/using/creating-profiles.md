@@ -6,17 +6,16 @@ description: 了解如何使用 API、导入功能、在线获取、自动或手
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: 用户档案
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 88%
+source-wordcount: '381'
+ht-degree: 89%
 
 ---
-
 
 # 创建用户档案{#creating-profiles}
 
@@ -42,7 +41,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
    ![](assets/profile_creation_1.png)
 
-1. 单击 **[!UICONTROL Create]**.
+1. 单击 **[!UICONTROL Create]**。
 
    ![](assets/profile_creation.png)
 
@@ -65,10 +64,10 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 >[!NOTE]
 >首选语言字段用于在发送多语言消息时选择语言。有关多语言消息的更多信息，[请参阅此页面](../../channels/using/creating-a-multilingual-email.md)。
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
 此视频演示如何使用工作流导入用户档案。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
