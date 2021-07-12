@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: 登陆页面
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 96%
+source-wordcount: '1029'
+ht-degree: 97%
 
 ---
 
-
-# 登陆页面快速入门{#getting-started-with-landing-pages}
+# 登陆页面快速入门 {#getting-started-with-landing-pages}
 
 设置登陆页面的主要步骤如下：
 
@@ -26,7 +25,7 @@ ht-degree: 96%
 
 在此页中，您可以找到各个步骤的信息以及对专用文档的引用，以便获取更多详细信息。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建登陆页](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建登陆页面](#video)
 
 **相关主题：**
 
@@ -70,7 +69,7 @@ ht-degree: 96%
 
 * 登陆页面只能用于用户档案，而不能用于测试用户档案，这意味着登陆页面不能通过电子邮件验证进行测试。
 
-## 第 1 步 - 配置登陆页面模板{#configure-the-landing-page-template}
+## 第 1 步 - 配置登陆页面模板 {#configure-the-landing-page-template}
 
 在设置登陆页面之前，第一步是配置对应于您需求的登陆页面模板。模板准备就绪后，将使用所需的参数预配置基于该模板的所有登陆页面。
 
@@ -82,7 +81,7 @@ ht-degree: 96%
 
 ![](assets/lp-steps1.png)
 
-## 第 2 步 - 创建和配置登陆页面{#create-and-configure-the-landing-page}
+## 第 2 步 - 创建和配置登陆页面 {#create-and-configure-the-landing-page}
 
 使用上一步中定义的模板，在项目或营销策划中创建新的登陆页面。
 
@@ -97,7 +96,7 @@ ht-degree: 96%
 >
 >您的修改仅对正在编辑的登陆页面有效。如果要将这些修改应用于其他登陆页面，您可以在专用模板中执行这些修改，然后使用该模板创建其他登陆页面。
 
-## 第 3 步 - 设计登陆页面{#design-the-landing-page}
+## 第 3 步 - 设计登陆页面 {#design-the-landing-page}
 
 您现在可以定义登陆页面的内容。默认情况下，登陆页面包含三个可通过滚动箭头访问的页面：主内容页、确认页和错误页。
 
@@ -109,7 +108,7 @@ ht-degree: 96%
 
 如需有关登录页设计的更多信息，请参阅[此章节](../../channels/using/designing-a-landing-page.md)。
 
-## 第 4 步 - 测试登陆页面{#test-the-landing-page}
+## 第 4 步 - 测试登陆页面 {#test-the-landing-page}
 
 定义登陆页面后，您可以模拟其上线之后的执行和行为方式。
 
@@ -123,7 +122,7 @@ ht-degree: 96%
 
 有关如何测试登陆页面的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 第 5 步 - 发布登陆页{#publish-the-landing-page}
+## 第 5 步 - 发布登陆页 {#publish-the-landing-page}
 
 测试成功后，您可以使用仪表板操作栏中的 **[!UICONTROL Publish]** 按钮发布登陆页面。监视块可显示发布的进度和状态。
 
@@ -135,10 +134,10 @@ ht-degree: 96%
 
 有关登录页发布的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
-此视频演示如何创建和编辑登陆页。
+此视频演示如何创建和编辑登陆页面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
