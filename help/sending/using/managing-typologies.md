@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: 类型规则
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 99%
+source-wordcount: '310'
+ht-degree: 100%
 
 ---
 
+# 管理类型 {#managing-typologies}
 
-# 管理分类{#managing-typologies}
-
-## 关于分类{#about-typologies}
+## 关于分类 {#about-typologies}
 
 分类是一组规则，可用于在发送消息之前检查消息的有效性。例如：消息内容不为空、存在退订、排除重复等。
 
@@ -37,7 +36,7 @@ ht-degree: 99%
 >
 >要了解其中某一个分类规则的更多详细信息，请双击该分类。规则将以只读模式显示。
 
-## 创建分类{#creating-a-typology}
+## 创建分类 {#creating-a-typology}
 
 要创建新的分类，请执行以下步骤：
 
@@ -57,7 +56,7 @@ ht-degree: 99%
 
 1. 单击 **[!UICONTROL Create]** 以确认您的选择。您的分类现已准备就绪，可用于消息。
 
-## 对消息应用分类{#applying-typologies-to-messages}
+## 对消息应用分类 {#applying-typologies-to-messages}
 
 将分类与消息或消息模板关联时，将执行在分类中包含的分类规则以检查消息的有效性。
 
