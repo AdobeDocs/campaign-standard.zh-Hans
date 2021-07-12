@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 受众
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 90%
+source-wordcount: '250'
+ht-degree: 91%
 
 ---
-
 
 # 关于受众{#about-audiences}
 
@@ -29,7 +28,7 @@ Adobe Campaign 允许您使用查询手动创建受众，或使用专用工作�
 
 您可以在 Adobe Campaign 中处理不同的受众类型。受众的类型对应于其创建方式：
 
-* **[!UICONTROL Query]**:指示受众是使用Adobe Campaign库中 [](../../automating/using/editing-queries.md#about-query-editor) 的查询数据通过受众列表创建的。每次复用时都会重新计算由查询定义的受众。。
+* **[!UICONTROL Query]**:表示受众是使用Adobe Campaign数 [](../../automating/using/editing-queries.md#about-query-editor) 据库中的查询数据通过受众列表创建的。每次复用时都会重新计算由查询定义的受众。。
 * **[!UICONTROL List]**：表示受众是固定的用户档案列表。这些列表在[工作流](../../automating/using/get-started-workflows.md)中创建，在工作流中保存受众时，数据维度是已知的。例如，定向活动（尤其是 **[!UICONTROL Query]**）后或对从文件导入的数据进行协调后。
 * **[!UICONTROL File]**：表示受众是直接从[文件导入](../../automating/using/load-file.md)工作流创建的，且保存受众时数据维度未知。
 * **[!UICONTROL Experience Cloud]**：表示受众是从 Adobe Experience Cloud 导入的。仅当配置了受众共享功能时，此选项才可用。有关更多信息，请参阅[从 Adobe Experience Cloud 导入受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
