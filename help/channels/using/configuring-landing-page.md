@@ -8,19 +8,19 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: 登陆页面
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 97%
 
 ---
 
-# 配置登陆页面{#configuring-landing-page}
+# 配置登陆页面 {#configuring-landing-page}
 
-## 确认登陆页面提交{#confirm-a-landing-page-submission}
+## 确认登陆页面提交 {#confirm-a-landing-page-submission}
 
 您可以配置当访客提交登陆页面时触发的操作。操作步骤：
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_6.png)
 
-## 将登陆页面链接到服务{#linking-a-landing-page-to-a-service}
+## 将登陆页面链接到服务 {#linking-a-landing-page-to-a-service}
 
 您可以将表单链接到服务，以便用户档案在验证登陆页面时订阅特定服务。
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
    使用 **[!UICONTROL Specified service in the URL]** 选项，可允许登陆页面用于多项服务。此时，配置服务时必须引用登陆页面。
 
-## 设置权限和预加载数据{#setting-permissions-and-pre-loading-data}
+## 设置权限和预加载数据 {#setting-permissions-and-pre-loading-data}
 
 可将登陆页面限制为仅供来自 Campaign 所发送消息中链接的已标识访客访问，例如发送给特定组织单位的链接。
 对于已标识的访客，您可以在登陆页面中预载其数据。操作步骤：
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-您还可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;选项授权任何访客访问登陆页。
+您还可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;选项授权任何访客访问登陆页面。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
@@ -95,7 +95,7 @@ ht-degree: 97%
 
 ![](assets/lp_org_unit_3.png)
 
-## 设置 Google reCAPTCHA{#setting-google-recaptcha}
+## 设置 Google reCAPTCHA {#setting-google-recaptcha}
 
 您可以为登陆页面设置 Google reCAPTCHA V3，以防护来自机器人程序的垃圾邮件和滥用。要将其用于登陆页面，您首先需要创建外部帐户。有关其配置方式的更多信息，请参阅此[章节](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
 
