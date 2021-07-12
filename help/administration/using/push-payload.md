@@ -1,47 +1,46 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 了解Campaign Standard推送通知有效负荷结构
-description: 此文档旨在描述在移动应用中接收的有效负荷的结构。
+title: 了解Campaign Standard推送通知有效载荷结构
+description: 本文档旨在描述在移动应用程序中接收的有效载荷的结构。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: 实例设置
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 3%
 
 ---
 
+# 了解推送通知有效载荷结构 {#push-payload}
 
-# 了解 推送通知有效载荷结构 {#push-payload}
+Adobe Campaign允许您在iOS和Android移动设备上向移动应用程序（移动应用程序）发送个性化的分段推送通知。
 
-Adobe Campaign允许您将iOS和Android移动设备上的个性化和分段推送通知发送到移动应用程序（移动应用程序）。
+在移动设备应用程序上收到的每个推送通知都会携带一些信息，在发送警报推送通知时，应用程序会使用这些信息来显示推送通知，并且很可能还会进行一些进一步的计算，尤其是在发送无提示推送通知时。
 
-在移动应用程序上收到的每个推送通知都包含一些信息，在发送警报推送通知时，应用程序会使用这些信息显示推送通知，并且极有可能还会进行进一步计算，尤其是在发送无提示推送通知时。
+该信息由移动设备应用程序代码在事件处理程序中接收，该事件处理程序指示已收到推送通知。 在从Adobe Campaign Standard发送推送通知时，在移动设备应用程序中收到的信息也可能包含Campaign Standard特定信息，这些信息可用于利用Campaign Standard提供的某些功能。 此外，有效负载还可以包含可由移动设备应用程序使用的自定义数据。
 
-此信息由移动应用程序代码在指示已接收推送通知的事件处理程序中接收。 从Adobe Campaign Standard发送推送通知时，移动应用程序中收到的信息也可能包含Campaign Standard特定信息，这些信息可用于利用Campaign Standard提供的某些功能。 此外，有效负荷可包含可由移动应用程序使用的自定义数据。
-
-此文档描述从Adobe Campaign Standard成功将推送通知发送到应用程序时在移动应用程序中接收的有效负荷的结构。
+本文档介绍成功从Adobe Campaign Standard将推送通知发送到应用程序时，移动设备应用程序中收到的有效负载的结构。
 
 >[!NOTE]
 >
->有效负荷结构因移动应用程序（即，iOS应用程序、支持FCM的Android应用程序）的类型而异。
+>负载结构会因移动设备应用程序类型（即iOS应用程序、启用了FCM的Android应用程序）而异。
 
-## 推送有效负荷结构{#push-payload-structure}
+## 推送有效载荷结构 {#push-payload-structure}
 
-本节详细描述了不同移动平台的示例有效负荷的结构，并描述了其中包含的主要属性。 这是事件处理函数中移动应用程序代码中收到的有效负荷的结构，指示已接收推送通知。
+本节详细介绍各种移动平台的有效负载示例结构，并描述其中包含的主要属性。 这是事件处理程序中移动设备应用程序代码中接收的有效载荷的结构，指示已接收推送通知。
 
-有效负荷属性及其值将因推送通知高级选项中提供的配置而有所不同。 本节还提供Campaign Standard UI中这些配置与有效负荷中属性之间的映射，以便阐明在Campaign Standard中配置选项时有效负荷将如何更改。
+有效负载属性及其值将因推送通知高级选项中提供的配置而异。 此部分还提供了Campaign StandardUI中这些配置与有效负载中的属性之间的映射，以阐明在Campaign Standard中配置选项时有效负载将如何更改。
 
-### 对于iOS Mobile App {#payload-structure-ios}
+### 对于iOS移动设备应用程序 {#payload-structure-ios}
 
-**从Adobe Campaign发送到iOS应用程序的负载示例：**
+**从Adobe Campaign发送到iOS应用程序的有效负载示例：**
 
 ```
 {
@@ -81,7 +80,7 @@ Adobe Campaign允许您将iOS和Android移动设备上的个性化和分段推�
     "_mId":"h138a"} 
 ```
 
-**要与iOS APNS测试程序一起使 [用的JSON示例负载](https://pushtry.com/)**
+**要与iOS APNS测试器一起使用 [的JSON有效负载示例](https://pushtry.com/)**
 
 ```
 {
@@ -109,13 +108,13 @@ Adobe Campaign允许您将iOS和Android移动设备上的个性化和分段推�
 }
 ```
 
-有效负荷最重要的部分是aps词典，它包含Apple定义的键，用于确定接收通知的系统应如何提醒用户（如果有的话）。 本节包含预定义的键，这些键由移动应用程序用来制定推送通知的行为。
+有效负载中最重要的部分是aps字典，该字典包含Apple定义的键，用于确定接收通知的系统应如何向用户发出警报（如果是）。 此部分包含预定义键，移动设备应用程序使用这些键来构建推送通知的行为。
 
-有关应用程序内属性的详细信息，请参阅Apple开发人员文档：[创建远程通知有效负荷](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)。
+有关aps中属性的详细信息，请参阅Apple开发人员文档：[创建远程通知有效负荷](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)。
 
-### 对于Android应用程序{#payload-structure-android}
+### 对于Android应用程序 {#payload-structure-android}
 
-**从Adobe Campaign到Android应用程序的有效负荷发送示例**
+**从Adobe Campaign发送到Android应用程序的有效负载示例**
 
 ```
 {
@@ -155,7 +154,7 @@ Adobe Campaign允许您将iOS和Android移动设备上的个性化和分段推�
 }
 ```
 
-**使用Google FCM测试程序的JSON [示例负载](https://pushtry.com/)**
+**使用Google FCM测试器的JSON [有效负载示例](https://pushtry.com/)**
 
 ```
 {
@@ -197,38 +196,38 @@ Adobe Campaign允许您将iOS和Android移动设备上的个性化和分段推�
 }
 ```
 
-负载包含包含所有推送通知投放内容（包括自定义键/值对）的数据消息，如果需要，客户端应用程序必须处理该消息来构建和显示推送通知，否则必须添加任何其他业务逻辑。
+有效负载包含包含所有推送通知投放内容（包括自定义键/值对）的数据消息，客户端应用程序必须处理该消息以构建和显示推送通知（如果需要），或添加任何其他业务逻辑。
 
-要了解android负载的方面，请参阅[消息传递概念和选项(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options)。
+要了解android有效负载的方面，请参阅[消息传送概念和选项(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options)。
 
 >[!NOTE]
 >
->自2018年1月起，已删除对Android负载中通知消息的支持，以便能够唤醒应用程序并将控制权传递到移动应用程序，而无需用户与应用程序交互。
+>自2018年1月起，Android有效负载中对通知消息的支持已移除，以便能够唤醒应用程序并将控制权传递到移动设备应用程序，而无需用户与应用程序交互。
 
-### Campaign Standard配置和有效负荷属性之间的映射{#mapping-payload}
+### Campaign Standard配置和负载属性之间的映射 {#mapping-payload}
 
-| 活动配置 | iOS中受影响的属性 | Android中受影响的属性 | 说明 |
+| 营销活动配置 | iOS中受影响的属性 | Android中受影响的属性 | 说明 |
 |:-:|:-:|:-:|:-:|
-| 消息标题<br>消息正文 | 警报→标题<br>警报→正文 | 标题<br> | 此数据包含警报消息的特定信息。<br>标题和正文键提供警报的内容。 |
-| 播放提示音 | 声音 | 声音 | 要播放警报的自定义声音。 |
-| 徽章的值 | 徽章 | 徽章 | 用于标记应用程序图标的整数值。 |
+| 消息标题<br>消息正文 | 警报→标题<br>警报→主体 | 标题<br>body | 此数据包含警报消息的特定信息。<br>标题和正文键提供警报的内容。 |
+| 播放提示音 | 声音 | 声音 | 要与警报一起播放的自定义声音。 |
+| 标记的值 | 徽章 | 徽章 | 用于标记应用程序图标的整数值。 |
 | 添加深层链接 | uri | NA | 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。 |
-| 类别 | 类别 | 类别 | 使用远程通知显示自定义操作。 <br>类别键帮助系统将该类别的操作显示为警报界面中的按钮。 |
+| 类别 | 类别 | 类别 | 显示带有远程通知的自定义操作。 <br>类别键有助于系统在警报界面中将该类别的操作显示为按钮。 |
 | 自定义字段 | custom_field1、custom_field2... | custom_field1、custom_field2... | 要发送到应用程序的任何自定义数据。 |
-| 富媒体内容URL（图像、gif、音频和视频文件）<br>（仅适用于iOS 10或更高版本） | media-attachment-url | NA | 用于向通知添加丰富内容的媒体文件的URL。 <br>为此URL提供值时，可变内容标志会自动发送到有效负荷中。<br> （仅适用于iOS 10或更高版本） |
-| 可变内容<br>（仅适用于iOS 10或更高版本） | 可变内容 | NA | 应用程序中的Notification Service Extension将使用可变内容密钥“截取”所有远程通知，并允许您处理/处理请求有效负荷的内容，然后该内容可用于自定义通知。 此功能的用例包括下载和显示多个媒体、解密推送有效负荷中存在的任何加密数据。 有关详细信息，请参阅[修改远程通知的有效负荷](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（仅适用于iOS 10或更高版本） |
-| 可用内容 | 内容可用 | NA | 选择此选项可启用iOS应用程序处于后台/挂起状态时的唤醒。 唤醒意味着应用程序在后台运行，负责接收推送通知数据有效负荷的适当事件处理程序将获得一个控件，并可以使用数据进行任何计算，包括但不限于构建自定义推送通知并显示相同内容。 有关详细信息，请参阅[唤醒具有通知投放的应用程序](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| 富媒体内容URL（图像文件）<br>（仅适用于Android） | NA | media-attachment-url | 用于向通知添加丰富内容的图像文件的URL。 |
-| NA | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪单击/打开推送通知的时间，则需要这些属性。此信息由应用程序服务器在内部计算并发送，无需用户干预。<br>有关回发的信息可在此页 [中找到](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)。 |
+| 富媒体内容URL（图像、GIF动图、音频和视频文件）<br>（仅适用于iOS 10或更高版本） | media-attachment-url | NA | 用于向通知添加富内容的媒体文件URL。 <br>为此URL提供值时，可变内容标记会自动发送到有效负载中。<br> （仅适用于iOS 10或更高版本） |
+| 可变内容<br>（仅适用于iOS 10或更高版本） | 可变内容 | NA | 您的应用程序中的通知服务扩展将使用可变内容键“截获”所有远程通知，并允许您处理/处理请求有效负载的内容，该内容随后可用于自定义通知。 此功能的用例包括下载和显示多个媒体，解密推送有效载荷中存在的任何加密数据。 有关详细信息，请参见[修改远程通知的有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（仅适用于iOS 10或更高版本） |
+| 可用内容 | 内容可用 | NA | 选择此选项可启用iOS应用程序处于后台/暂停状态时的唤醒功能。 唤醒意味着应用程序在后台运行，而负责接收推送通知数据有效负载的相应事件处理程序将获得控制，并可以使用数据进行任何计算，包括但不限于构建自定义推送通知并显示相同内容。 有关更多信息，请参阅[通过通知投放唤醒应用程序](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| 富媒体内容URL（图像文件）<br>（仅适用于Android） | NA | media-attachment-url | 用于向通知添加富内容的图像文件的URL。 |
+| NA | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪何时单击/打开推送通知，则需要这些属性。此信息由应用程序服务器在内部计算并发送，无需用户干预。<br>有关回发的信息可在此页 [面中找到](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)。 |
 
-### 如何在移动应用程序代码{#payload-information}中检索负载信息
+### 如何在移动设备应用程序代码中检索有效负载信息 {#payload-information}
 
-应用程序服务器发送的有效负荷信息由移动应用程序代码在指示已接收推送通知的事件处理程序中接收。 此事件将因正在使用的移动平台而异，也因应用程序在前景还是背景中运行而异。 以下文档将帮助您根据您的用例确定要处理的事件处理程序。
+应用程序服务器发送的有效负荷信息由事件处理程序中的移动设备应用程序代码接收，该事件处理程序指示已收到推送通知。 此事件将因所处理的移动设备平台而异，也因应用程序是在前台还是后台运行而异。 以下文档将帮助您根据用例确定要处理的事件处理程序。
 
-* iOS应用程序：**处理远程通知[远程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)中的“远程通知**”部分。
+* iOS应用程序：**处理[远程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)中的远程通知**&#x200B;部分。
 * Android应用程序：[在Android客户端应用程序上接收消息](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**iOS移动应用程序示例**
+**iOS移动设备应用程序示例**
 
 ```
  - (void)application:(UIApplication *)application
