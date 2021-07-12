@@ -7,26 +7,25 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: 登陆页面
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
-
-# 关于登陆页面模板{#landing-page-templates}
+# 关于登陆页面模板 {#landing-page-templates}
 
 Campaign 附带一系列内置登陆页面模板：
 
 * **[!UICONTROL Acquisition]**：这是登陆页面的默认模板，用于在 Campaign 数据库中捕获和更新数据。
 * **[!UICONTROL Subscription]**：此模板用于提供服务订阅。
 * **[!UICONTROL Unsubscription]**：此模板可从发送给订阅者的电子邮件链接到服务，以便他们退订此服务。
-* **[!UICONTROL Denylist]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。有关阻止列表管理的详细信息，请参阅[关于在活动中选择加入和选择退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+* **[!UICONTROL Denylist]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。有关阻止列表管理的更多信息，请参阅[关于Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的选择启用和选择禁用。
 
 默认情况下，创建新登陆页面时会提供这些模板。
 
@@ -47,4 +46,3 @@ Campaign 附带一系列内置登陆页面模板：
 ```
 
 以下地址提供了“type”属性的官方列表：[https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
-
