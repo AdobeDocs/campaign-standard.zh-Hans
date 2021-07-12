@@ -6,21 +6,20 @@ description: 创建疲劳规则以管理与用户档案的过度通信。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
-role: Business Practitioner
+feature: 类型规则
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 99%
+source-wordcount: '2344'
+ht-degree: 100%
 
 ---
 
-
 # 疲劳规则{#fatigue-rules}
 
-## 关于疲劳规则{#about-fatigue-rules}
+## 关于疲劳规则 {#about-fatigue-rules}
 
 利用疲劳规则，营销人员可设置全局跨渠道业务规则，以自动从营销策划中排除发送营销信息过于频繁的用户档案。
 
@@ -33,11 +32,11 @@ ht-degree: 99%
 相关主题：
 
 * [准备](../../administration/using/configuring-email-channel.md#preparation)
-* [管理分类](../../sending/using/managing-typologies.md)
+* [管理类型](../../sending/using/managing-typologies.md)
 * [分类规则](../../sending/using/managing-typology-rules.md)
 * [优化通信频次以防止沟通疲劳](https://helpx.adobe.com/cn/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
-## 创建疲劳规则{#creating-a-fatigue-rule}
+## 创建疲劳规则 {#creating-a-fatigue-rule}
 
 要创建和配置 **[!UICONTROL Fatigue]** 分类规则，请应用以下步骤：
 
@@ -87,7 +86,7 @@ ht-degree: 99%
 >
 >要使疲劳规则生效，您需要为投放定义联系日期。如果选择立即发送消息，则不会应用疲劳规则。
 
-## 选择渠道{#choosing-the-channel}
+## 选择渠道 {#choosing-the-channel}
 
 疲劳规则适用于各种渠道。可在分类规则设置的 **[!UICONTROL Channel]** 字段中定义渠道。您可以选择单个渠道，也可以选择 **[!UICONTROL All channels]**。
 
@@ -114,7 +113,7 @@ ht-degree: 99%
 
 **事务型消息**&#x200B;可用于发送定向事件 (rtEvent) 的服务消息以及营销消息（定向用户档案），例如再营销消息。疲劳规则仅与营销消息（定向用户档案）兼容。由于事件事务型消息不包含用户档案信息，所以就算使用用户档案扩充了内容，也不兼容疲劳规则。借助事务型消息中的营销消息支持，您可以&#x200B;**对包括营销事务型消息在内的所有渠道应用疲劳规则**。
 
-## 定义阈值{#defining-the-threshold}
+## 定义阈值 {#defining-the-threshold}
 
 每个疲劳规则可定义一个阈值，即在指定时间段内可以向一个用户档案发送的消息数量上限。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除用户档案，从而避免过度通信。
 
@@ -157,7 +156,7 @@ ht-degree: 99%
 * **[!UICONTROL Application criteria]**：您可以选择是否根据特定条件执行规则。例如，如果应用条件为“Label starts with Newsletter”，则规则将仅适用于符合此条件的投放。如果投放标签的开头为“Promotion”，则不会执行规则。
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**：使用此分类规则的所有投放都将执行规则，但您可以决定是对过去的投放进行计数、还是对计划的投放进行计数。例如，如果限制为“Label starts with Newsletter”，那么即使投放标签开头为“Promo”，也会执行规则。这样，在所选的滑动周期内，标签以“Newsletter”开头的投放都将被计数。
 
-## 设置滑动周期{#setting-the-sliding-period}
+## 设置滑动周期 {#setting-the-sliding-period}
 
 疲劳规则被定义为 n 天的滚动周期。在 **[!UICONTROL Sliding period]** 部分中可以对该周期进行配置，例如 2 周、7 天或 5 小时。
 
@@ -169,7 +168,7 @@ ht-degree: 99%
 
 要将考虑的投放限制为 2 周的周期，请在 **Sliding period** 部分输入 **Day** 和 **7** 或“1 week”。计算时，将考虑在应用规则的投放日期之前 7 天内发送的投放数量和之后 7 天内计划发送的投放数量。
 
-## 查看疲劳结果{#viewing-the-fatigue-results}
+## 查看疲劳结果 {#viewing-the-fatigue-results}
 
 在投放准备期间，会根据已发送给用户档案的投放数量，将符合条件的用户档案从投放中排除。要查看疲劳规则执行结果，请单击 **[!UICONTROL Deployment]** 块右下角的按钮。
 
@@ -189,7 +188,7 @@ ht-degree: 99%
 
    ![](assets/fatigue19.png)
 
-## 查看疲劳规则摘要报告{#viewing-the-fatigue-rule-summary-report}
+## 查看疲劳规则摘要报告 {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign 可提供专门的疲劳规则报告，以帮助您了解疲劳规则如何应用于营销策划。这样您即可了解营销策划如何相互影响并做出正确的调整。
 
@@ -218,7 +217,7 @@ Adobe Campaign 可提供专门的疲劳规则报告，以帮助您了解疲劳�
 >
 >显示的数据与您报告的来源项目、消息或营销策划无关。此报告显示所有组织单位的所有疲劳规则和投放。利用此报告，您可以查看所有投放的全局信息，从而了解营销活动之间的相互影响。
 
-## 示例{#examples}
+## 示例 {#examples}
 
 疲劳管理的实施有许多可能性。下方提供了一些操作示例：
 
