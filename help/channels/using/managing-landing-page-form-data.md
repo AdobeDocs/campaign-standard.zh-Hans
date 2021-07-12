@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: 登陆页面
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 62%
@@ -29,7 +29,7 @@ ht-degree: 62%
 * 利用“**字段**”输入区域，您可以选择要与表单字段链接的数据库字段。
 * 利用“**必填**”选项，可设置为仅在用户填写字段后才授权页面提交。如果未填写必填字段，则会显示错误消息。
 
-## 映射表单字段{#mapping-form-fields}
+## 映射表单字段 {#mapping-form-fields}
 
 可使用输入字段存储或更新 Campaign 数据库中的数据。要执行此操作，您需要将数据库字段链接到输入区、单选按钮或复选框类型块。操作步骤：
 
@@ -63,7 +63,7 @@ ht-degree: 62%
 1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键值中使用的参数。
 1. 选择 **[!UICONTROL Update strategy]**：如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
 
-## 协议复选框{#agreement-checkbox}
+## “协议”复选框 {#agreement-checkbox}
 
 您可以在提交登陆页面之前，添加用户档案需要检查的复选框。
 
