@@ -6,17 +6,16 @@ description: 了解如何使用预测发送时间和参与度评分。
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 发送时间优化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # 利用 AI 支持的电子邮件优化设计和交付{#journey-ai}
 
@@ -35,7 +34,7 @@ Adobe Campaign Standard 提供两种新的机器学习模型：**预测发送时
 >[!IMPORTANT]
 >此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 >
->该功能需要使用客户必须提供的Azure或Amazon S3存储。
+>该功能要求使用必须由客户提供的Azure或Amazon S3存储。
 
 ## 预测发送时间优化{#predictive-send-time}
 
@@ -153,26 +152,3 @@ AddHours([currentDelivery/scheduling/@contactDate],
 例如，使用&#x200B;**保留级别**&#x200B;条件：
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
