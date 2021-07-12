@@ -6,17 +6,16 @@ description: 发现关键功能、用户界面和全局指南。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Overview
-role: Business Practitioner
+feature: 概述
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '778'
+ht-degree: 100%
 
 ---
-
 
 # Campaign Standard 入门 {#about-campaign-standard}
 
