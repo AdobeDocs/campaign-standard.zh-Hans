@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '6852'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
-## 21.2 版 - 2021 年 6 月{#release-21-2---june-2021}
+## 21.2 版 - 2021 年 6 月 {#release-21-2---june-2021}
 
 **此版本中包含的新增功能**
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 [可投放性](../../sending/using/about-deliverability.md)部分已更新，现包括指向新的 [Adobe 可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans)的链接。所有与适用于各种 Adobe 解决方案的可投放性相关的一般信息均已移至[最佳实践指南附录](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hans#additional-resources)。
 
-## 21.1 版 - 2021 年 2 月{#release-21-1---february-2021}
+## 21.1 版 - 2021 年 2 月 {#release-21-1---february-2021}
 
 **此版本中包含的新增功能**
 
@@ -100,7 +100,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **在事务性消息中使用产品列表**&#x200B;部分已移至[此处](../../designing/using/using-product-listings.md)。
 
-## 2020 年 11 月{#doc-updates-november-2020}
+## 2020 年 11 月 {#doc-updates-november-2020}
 
 **个人数据和角色**&#x200B;部分已使用用例场景进行更新，以说明不同角色在隐私方面如何进行交互。[阅读更多](../../start/using/privacy.md#use-case-scenario)
 
@@ -112,7 +112,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../integrating/using/aep-mapping-activation.md)
 
-## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
+## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
 
 **此版本中包含的新增功能**
 
@@ -186,7 +186,7 @@ Campaign Standard 概述页面进行了扩充，并重组到了专门的主题�
 
 现在，核心文档中提供了使用 Adobe Experience Platform SDK 配置移动应用程序的内容，添加了关于通过 Launch 技术工作流程同步移动应用程序 AEPSDK 的更多信息。[了解更多](../../administration/using/configuring-a-mobile-application.md)
 
-## 20.3 版 - 2020 年 5 月{#release-20-3---may-2020}
+## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
 
 **此版本中包含的新增功能**
 
@@ -230,9 +230,9 @@ Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud 
 
 更新了“配置电子邮件渠道”章节，明确了现在由 Adobe Campaign Enhanced MTA 管理的所有电子邮件设置。[了解更多](../../administration/using/configuring-email-channel.md)
 
-更新了“事务性消息传递”部分，包含有关编辑事件配置所需的权限以及如何扩充事务性消息中的集合的更多信息。[了解更多](../../channels/using/configuring-transactional-event.md)。
+更新了“事务性消息传递”部分，包含有关编辑事件配置所需的权限以及如何扩充事务性消息中的集合的更多信息。[阅读更多](../../channels/using/configuring-transactional-event.md)。
 
-## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
+## 20.2 版 - 2020 年 4 月 {#release-20-2---april-2020}
 
 **此版本中包含的新增功能**
 
@@ -254,7 +254,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 更新了“事务型消息传递”一节，以反映多个用户界面的轻微更新和改进。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-更新了与 External API 活动防护相关的信息。[阅读更多](../../automating/using/external-api.md)
+更新了与 External API 活动防护相关的信息。[了解更多](../../automating/using/external-api.md)
 
 ## 2020 年 3 月 {#doc-updates-march-2020}
 
@@ -274,7 +274,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 添加了关于工作流属性中可用 **[!UICONTROL History in days field]** 的信息。[了解更多](../../automating/using/about-workflow-execution.md)
 
-## 20.1 版 - 2020 年 2 月{#release-20-1---february-2020}
+## 20.1 版 - 2020 年 2 月 {#release-20-1---february-2020}
 
 **此版本中包含的新增功能**
 
@@ -284,7 +284,7 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 **随版本提供的其他文档更新**
 
-更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
+更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 重组并改进了发行说明。[了解更多](../../rn/using/release-notes.md)
 
@@ -344,9 +344,9 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 向 API 文档添加了新的 API 端点 **/customResources**。[了解更多](../../api/using/interacting-with-custom-resources.md)
 
-## 19.4 版 - 2019 年 10 月{#release-19-4---october-2019}
+## 19.4 版 - 2019 年 10 月 {#release-19-4---october-2019}
 
-**此版本中包含的新增功能**
+**此版本中包含的新功能**
 
 加利福尼亚消费者隐私法 (CCPA) - [了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa)
 
@@ -384,7 +384,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 新增了关于如何使用陷阱的章节。[了解更多](../../sending/using/using-traps.md)。
 
-在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)
+在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 重组了 Email Designer 指南。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -400,7 +400,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 添加了新章节，介绍如何在 Email Designer 中将电子邮件内容另存为模板。[了解更多](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
-## 19.3 版 - 2019 年 7 月{#release-19-3---july-2019}
+## 19.3 版 - 2019 年 7 月 {#release-19-3---july-2019}
 
 **此版本中包含的新增功能**
 
@@ -452,11 +452,11 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在自定义资源文档中添加了警告。我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
-## 19.2 版 - 2019 年 5 月{#release-19-2---may-2019}
+## 19.2 版 - 2019 年 5 月 {#release-19-2---may-2019}
 
-**此版本中包含的新增功能**
+**此版本中包含的新功能**
 
-控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
+控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 本地通知 - [了解更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -520,7 +520,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新并修正了“Dreamweaver 集成”章节。[了解更多](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## 19.1 版 - 2019 年 2 月{#release-19-1---february-2019}
+## 19.1 版 - 2019 年 2 月 {#release-19-1---february-2019}
 
 **此版本中包含的新增功能**
 
@@ -576,7 +576,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在“提取文件活动”章节中增加了有关新选项的信息，利用该选项可在叫客过渡为空时禁用文件生成流程。[了解更多](../../automating/using/extract-file.md#configuration)
 
-## 19.0 版 - 2019 年 1 月{#release-19-0---january-2019}
+## 19.0 版 - 2019 年 1 月 {#release-19-0---january-2019}
 
 **此版本中包含的新增功能**
 
@@ -610,13 +610,13 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 将“使用 SDK V4 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)。
 
-将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=zh-Hans)。
+将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 更新了“用户类型”章节。[了解更多](../../administration/using/users-management.md)
 
-## 18.9 版 - 2018 年 9 月{#release-18-9---september-2018}
+## 18.9 版 - 2018 年 9 月 {#release-18-9---september-2018}
 
 **此版本中包含的新增功能**
 
@@ -632,7 +632,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 更新了“推送通知内置报告”章节。[了解更多](../../reporting/using/push-notification-report.md)
 
-## 18.7 版 - 2018 年 7 月{#release-18-7---july-2018}
+## 18.7 版 - 2018 年 7 月 {#release-18-7---july-2018}
 
 **此版本中包含的新增功能**
 
@@ -642,7 +642,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **随版本提供的其他文档更新**
 
-添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)
+添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新了 Experience Manager 与 Adobe Campaign 集成的文档。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -656,7 +656,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 更新了“用户和安全”指南，以明确从 18.7 版开始，新 Campaign Standard 实例和不包含地理单位的现有实例中，已经弃用了地理单位功能。[了解更多](../../rn/using/deprecated-features.md)
 
-## 18.6 版 - 2018 年 6 月{#release-18-6---june-2018}
+## 18.6 版 - 2018 年 6 月 {#release-18-6---june-2018}
 
 **此版本中包含的新增功能**
 
@@ -676,7 +676,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 在 API 文档中添加了关于&#x200B;**自定义过滤器**&#x200B;的章节。[了解更多](../../api/using/filtering.md)
 
-## 18.5 版 - 2018 年 5 月{#release-18-5---may-2018}
+## 18.5 版 - 2018 年 5 月 {#release-18-5---may-2018}
 
 **此版本中包含的新增功能**
 
@@ -710,11 +710,11 @@ GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/do
 
 合并了内容编辑器文档的部分页面，以便更全面地查看可用的各种操作。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## 18.3 版 - 2018 年 3 月{#release-18-3---march-2018}
+## 18.3 版 - 2018 年 3 月 {#release-18-3---march-2018}
 
-**此版本中包含的新增功能**
+**此版本中包含的新功能**
 
-欧盟通用数据保护条例 (GDPR) - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
+欧盟通用数据保护条例 (GDPR) - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 适用于电子邮件的 Creative Designer - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -742,7 +742,7 @@ GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多]
 
 更新了 Campaign Standard 产品内上下文帮助。
 
-## 18.2 版 - 2018 年 2 月{#release-18-2---february-2018}
+## 18.2 版 - 2018 年 2 月 {#release-18-2---february-2018}
 
 **此版本中包含的新增功能**
 
@@ -786,7 +786,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https
 
 添加了关于[目标映射](../../administration/using/target-mappings-in-campaign.md)和[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)的新章节。
 
-## 18.1 版 - 2018 年 1 月{#release-18-1---january-2018}
+## 18.1 版 - 2018 年 1 月 {#release-18-1---january-2018}
 
 **此版本中包含的新增功能**
 
@@ -814,7 +814,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了使用 Audience Manager 或 People 核心服务集成的说明。[了解更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## 17.10 版 - 2017 年 10 月{#release-17-10---october-2017}
+## 17.10 版 - 2017 年 10 月 {#release-17-10---october-2017}
 
 **此版本中包含的新增功能**
 
@@ -844,7 +844,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-更新了推送渠道配置[章节](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
+更新了推送渠道配置[章节](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
 
 更新了“短信”文档，为[短信自动回复](../../channels/using/managing-incoming-sms.md#managing-stop-sms)章节添加了一些深入说明。
 
@@ -854,7 +854,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了关于 API 中简单筛选和多条件筛选的信息。[了解更多](../../api/using/filtering.md)
 
-## 17.9 版 - 2017 年 9 月{#release-17-9---september-2017}
+## 17.9 版 - 2017 年 9 月 {#release-17-9---september-2017}
 
 **此版本中包含的新增功能**
 
@@ -894,7 +894,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了关于电子邮件投放工作流活动中“发送邮件前请求确认”选项的信息。[了解更多](../../automating/using/email-delivery.md)
 
-## 17.7 版 - 2017 年 7 月{#release-17-7---july-2017}
+## 17.7 版 - 2017 年 7 月 {#release-17-7---july-2017}
 
 **此版本中包含的新增功能**
 
@@ -926,7 +926,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了“角色列表”章节。[了解更多](../../administration/using/list-of-roles.md)
 
-## 17.5 版 - 2017 年 5 月{#release-17-5---may-2017}
+## 17.5 版 - 2017 年 5 月 {#release-17-5---may-2017}
 
 **此版本中包含的新增功能**
 
@@ -940,7 +940,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了多张屏幕截图，以反映界面的更改。
 
-提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)
+提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -948,7 +948,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
-## 17.4 版 - 2017 年 4 月{#release-17-4---april-2017}
+## 17.4 版 - 2017 年 4 月 {#release-17-4---april-2017}
 
 **此版本中包含的新增功能**
 
@@ -970,21 +970,21 @@ Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/doc
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
-新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
+新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
+更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 更新了关于如何在 Campaign 中处理图像的章节。[了解更多](../../designing/using/images.md#setting-up-image-properties)
 
 更新了与 Adobe Analytics for Mobile (Point of Interest) 的集成，包括配置步骤和使用案例。[了解更多](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## 17.2 版 - 2017 年 3 月{#release-17-2---march-2017}
+## 17.2 版 - 2017 年 3 月 {#release-17-2---march-2017}
 
 **此版本中包含的新增功能**
 
 动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans)
+Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手动发送时间优化 - [了解更多](../../sending/using/optimizing-the-sending-time.md)
 
@@ -1006,7 +1006,7 @@ Triggers 集成：添加了两个使用案例。[了解更多](../../integrating
 
 查看新的[读取受众](../../automating/using/read-audience.md)和[外部信号](../../automating/using/external-signal.md)工作流活动的示例。
 
-## 17.1 版 - 2017 年 1 月{#release-17-1---january-2017}
+## 17.1 版 - 2017 年 1 月 {#release-17-1---january-2017}
 
 **此版本中包含的新增功能**
 
