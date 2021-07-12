@@ -2,47 +2,46 @@
 solution: Campaign Standard
 product: campaign
 title: 在事务型消息中使用产品清单
-description: 了解如何在事务性消息内容中使用产品列表。
+description: 了解如何在事务型消息内容中使用产品清单。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: Email Design
-role: Business Practitioner
+feature: 电子邮件设计
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 81%
+source-wordcount: '851'
+ht-degree: 82%
 
 ---
 
-
-# 在事务型消息中使用产品清单{#using-product-listings}
+# 在事务型消息中使用产品清单 {#using-product-listings}
 
 >[!IMPORTANT]
 >
->产品列表仅可用于通过[电子邮件设计器](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面的&#x200B;**事务电子邮件**。
+>产品清单仅可用于&#x200B;**通过[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面的事务型电子邮件**。
 
-在编辑交易电子邮件的内容时，您可以创建引用一个或多个数据集合的产品列表。 例如，在购物车放弃电子邮件中，您可以包含用户离开网站时购物车中的所有产品的列表，以及图像、价格和指向每个产品的链接。
+编辑事务型电子邮件的内容时，您可以创建引用一个或多个数据集合的产品清单。 例如，在购物车放弃电子邮件中，您可以包含用户离开网站时购物车中所有产品的列表，以及图像、价格和每个产品的链接。
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
-您还可以观看[此视频集](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)，说明在交易电子邮件中配置产品列表所需的步骤。
+您还可以观看[此视频集](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
 
 >[!NOTE]
 >
 >Adobe Campaign 不支持嵌套产品清单，这意味着您不能将一个产品清单包含在另一个产品清单中。
 
-## 定义产品清单{#defining-a-product-listing}
+## 定义产品清单 {#defining-a-product-listing}
 
 在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
 
 1. 在事务型消息中，单击 **[!UICONTROL Content]** 块以修改电子邮件的内容。
-1. 将结构组件拖放到工作区。有关详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将结构组件拖放到工作区。有关更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关更多信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 1. 选择之前创建的结构组件，然后单击上下文工具栏中的 **[!UICONTROL Enable product listing]** 图标。
 
@@ -59,7 +58,7 @@ ht-degree: 81%
 
    >[!NOTE]
    >
-   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 1. 选择配置与事务型消息相关的事件时创建的数据集合。您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
 
@@ -77,7 +76,7 @@ ht-degree: 81%
    >
    >如果希望垂直显示清单中的元素 (**[!UICONTROL Column]**)，则最大项数将根据选则的结构组件（2 列、3 列或 4 列）而有所限制。有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-## 填充产品清单{#populating-the-product-listing}
+## 填充产品清单 {#populating-the-product-listing}
 
 要显示来自事务型电子邮件所链接事件的产品清单，请执行以下步骤。
 
@@ -132,7 +131,7 @@ ht-degree: 81%
 
    如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
 
-1. 在“设置”窗格中，编辑产品清单的样式。有关详细信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
+1. 在“设置”窗格中，编辑产品清单的样式。有关更多信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
 1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)
