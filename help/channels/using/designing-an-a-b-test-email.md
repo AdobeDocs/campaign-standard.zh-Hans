@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: Email
-role: Business Practitioner
+feature: 电子邮件
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 99%
+source-wordcount: '818'
+ht-degree: 100%
 
 ---
-
 
 # 设计 A/B 测试电子邮件{#designing-an-a-b-test-email}
 
@@ -29,7 +28,7 @@ ht-degree: 99%
 >
 >无法对 Adobe Experience Manager 中创建的电子邮件进行 A/B 测试。
 
-## 创建 A/B 测试电子邮件{#creating-an-a-b-test-email}
+## 创建 A/B 测试电子邮件 {#creating-an-a-b-test-email}
 
 可以使用标准电子邮件创建向导创建 A/B 测试，该向导中添加了 A/B 测试配置步骤。有关创建标准电子邮件的详情，请参见[创建电子邮件](../../channels/using/creating-an-email.md)一节。
 
@@ -87,7 +86,7 @@ ht-degree: 99%
 
 现在，您的电子邮件已经定义并发送。您可以访问其日志和报告来衡量活动是否成功。
 
-## 关于 A/B 测试指标{#about-a-b-test-indicators}
+## 关于 A/B 测试指标 {#about-a-b-test-indicators}
 
 电子邮件仪表板中提供了一些有助于评估 A/B 测试的指标：单击次数、打开次数、退回次数等。
 
