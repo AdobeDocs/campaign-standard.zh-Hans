@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 95%
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 ![](assets/technical_workflows.png)
 
-## 技术工作流的列表{#list-of-technical-workflows}
+## 技术工作流的列表 {#list-of-technical-workflows}
 
 Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程。
 
