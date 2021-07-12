@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 发行说明2018
+title: 发行说明 2018
 description: 本页列出了所有 2018 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5401'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 查看[最新文档更新](../../rn/using/documentation-updates.md) for Adobe Campaign Standard。 如果要查找较新的版本，请查阅此[页面](../../rn/using/release-notes.md)。
 
-## 18.9 版 - 2018 年 9 月{#release-18-9---september-2018}
+## 18.9 版 - 2018 年 9 月 {#release-18-9---september-2018}
 
 **新增功能**
 
@@ -90,7 +90,7 @@ ht-degree: 4%
 * 修复了无法显示导致&#x200B;**数据库清理**&#x200B;工作流失败的错误的问题。 (CAMP-26876)
 * 修复了可能阻止删除推送通知定义中的自定义字段的问题。 (CAMP-25588)
 
-## 18.7 版 - 2018 年 7 月{#release-18-7---july-2018}
+## 18.7 版 - 2018 年 7 月 {#release-18-7---july-2018}
 
 **新增功能**
 
@@ -153,7 +153,7 @@ ht-degree: 4%
 * 修复了Creative Designer中的一个问题，该问题会在将具有内置样式的某些文本更改为链接或编辑该链接时，导致不需要的颜色字体和格式。 (CAMP-26001)
 * 修复了热点单击报告无法显示包含动态内容的投放中每个条件的百分比的问题。 以前，只显示对默认变体的单击。
 
-## 18.6 版 - 2018 年 6 月{#release-18-6---june-2018}
+## 18.6 版 - 2018 年 6 月 {#release-18-6---june-2018}
 
 **改进**
 
@@ -191,7 +191,7 @@ ht-degree: 4%
 * 修复了在动态报告中显示帐户级别的国际数据时出现的问题。
 * 现在，可以创建无订阅或退订确认消息的服务。
 
-## 18.5 版 - 2018 年 5 月{#release-18-5---may-2018}
+## 18.5 版 - 2018 年 5 月 {#release-18-5---may-2018}
 
 **新增功能**
 
@@ -263,7 +263,7 @@ ht-degree: 4%
 * 修复了可能会阻止加载Creative Designer的问题。 (CAMP-24573)
 * 修复了删除在电子邮件主题的个性化字段后添加的字符的问题。 (CAMP-24113)
 
-## 18.4 版 - 2018 年 4 月{#release-18-4---april-2018}
+## 18.4 版 - 2018 年 4 月 {#release-18-4---april-2018}
 
 **修补程序**
 
@@ -289,7 +289,7 @@ _自定义资源_
 
 * 修复了导致自定义资源准备失败的错误。
 
-## 18.3 版 - 2018 年 3 月{#release-18-3---march-2018}
+## 18.3 版 - 2018 年 3 月 {#release-18-3---march-2018}
 
 **新功能**
 
@@ -379,7 +379,7 @@ _事务性消息_
 * 修复了扩展投放资源时事务型消息模板的错误。
 * 现在可以删除事务型消息。
 
-## 18.2 版 - 2018 年 2 月{#release-18-2---february-2018}
+## 18.2 版 - 2018 年 2 月 {#release-18-2---february-2018}
 
 **新功能**
 
@@ -393,7 +393,7 @@ _事务性消息_
  <tbody> 
   <tr> 
    <td> 订阅 — 订阅或退订多个服务的用户档案列表<br /> </td> 
-   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或退订一系列用户档案至多项服务。 在工作流中，导入包含用户档案的文件，并针对每个用户档案、操作类型和服务导入文件。 <strong>订阅服务</strong>活动将能够使用此信息并同时动态处理所有配置文件订阅和退订。<br /> 有关更多信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
+   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或退订一系列用户档案至多项服务。 在工作流中，导入一个包含用户档案的文件，并针对每个用户档案、操作类型和服务进行导入。 <strong>订阅服务</strong>活动将能够使用此信息并同时动态处理所有配置文件订阅和退订。<br /> 有关更多信息，请参阅详 <a href="../../automating/using/subscription-services.md">细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 扩充活动 — 根据以前的过渡扩充数据<br /> </td> 
@@ -443,7 +443,7 @@ _已知问题_
 
 使用Campaign界面中的上下文帮助链接时，可能会出现一些问题。 它们将在18.3中修复。
 
-## 18.1 版 - 2018 年 1 月{#release-18-1---january-2018}
+## 18.1 版 - 2018 年 1 月 {#release-18-1---january-2018}
 
 **新功能**
 
