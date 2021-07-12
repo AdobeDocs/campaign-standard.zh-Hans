@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 受众
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
-
 
 # 选择消息的受众{#selecting-an-audience-in-a-message}
 
@@ -50,17 +49,16 @@ ht-degree: 73%
 
    >[!NOTE]
    >
-   >定位受众时，请注意，未引用受众的定义，而将&#x200B;**复制**&#x200B;到查询中。 如果在受众定位到查询后对查询进行了任何更改，请确保再次配置该以考虑新定义。
+   >定位受众时，请注意，未引用受众的定义，而是将&#x200B;**复制到查询中的**。 如果在查询中定向受众后对受众进行了任何更改，请确保再次配置查询以考虑新定义。
 
 1. 定义您想要用于电子邮件的 **[!UICONTROL Test profiles]**。测试用户档案将收到您之前发送的校样，以在将电子邮件发送到主目标之前对其进行测试。
 
    有关配置测试用户档案的更多信息，请参阅[测试用户档案](../../audiences/using/managing-test-profiles.md)一节。
 
-1. 如果需要，您可以使用相应的选项卡定义对照组。 这样，您就可以从目标中撤消某些用户档案，以便它们不会收到消息。 有关详细信息，请参阅[添加对照组](../../sending/using/control-group.md)。
+1. 如果需要，您可以使用相应的选项卡定义控制组。 这样，您就可以从目标中提取某些用户档案，以便他们不会收到消息。 有关更多信息，请参阅[添加控制组](../../sending/using/control-group.md)。
 
-1. 您还可以使用替换地址来获得用户档案将收到的消息的精确表示形式。  有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
+1. 您还可以使用替换地址获取用户档案将收到的消息的确切呈现形式。  有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
 随后将更新受众块，并显示已为相关电子邮件选择的目标和测试用户档案。
 
 ![](assets/delivery_audience_definition_3.png)
-
