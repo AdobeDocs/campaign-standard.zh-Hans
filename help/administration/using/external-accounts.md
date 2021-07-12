@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 84%
@@ -40,7 +40,7 @@ ht-degree: 84%
 
 外部帐户可由管理员通过 **[!UICONTROL Administration > Application settings > External accounts]** 菜单进行配置。
 
-## 创建外部帐户{#creating-an-external-account}
+## 创建外部帐户 {#creating-an-external-account}
 
 Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（如用于文件传输的 FTP 服务器）建立连接，您可以创建自己的外部帐户。
 
@@ -57,7 +57,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 
 外部帐户已创建并添加到帐户列表。现在可将其用于工作流活动和投放属性中的数据/文件传输或路由配置。
 
-## SFTP 外部帐户{#sftp-external-account}
+## SFTP 外部帐户 {#sftp-external-account}
 
 不同的外部帐户类型需要指定不同的信息。
 
@@ -67,7 +67,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 端口号。例如，**22**。
 * SFTP 服务器凭据：用于连接到服务器的帐户名称和密码。
 
-### Adobe 托管的 SFTP 服务器推荐{#adobe-hosted-sftp-server-recommendations}
+### Adobe 托管的 SFTP 服务器推荐 {#adobe-hosted-sftp-server-recommendations}
 
 管理用于 ETL 的文件和数据时，这些文件存储在 Adobe 提供的托管 SFTP 服务器上。此 SFTP 旨在作为临时存储空间，您可以在其上控制文件的保留和删除。
 
@@ -92,7 +92,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 >
 >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
-## OAuth 2.0帐户{#oauth-account}
+## OAuth 2.0帐户 {#oauth-account}
 
 对于OAuth 2.0外部帐户，请提供以下详细信息：
 
@@ -129,7 +129,7 @@ Amazon S3 服务器字段应按以下方式填写：
 >
 >输入的 **[!UICONTROL Receiver server]** 不应包含 AWS 区域，稍后会自动将其添加到您的 URL 中。
 
-### Amazon S3 帐户建议{#amazon-s3-account-recommendations}
+### Amazon S3 帐户建议 {#amazon-s3-account-recommendations}
 
 为了帮助您设置 Amazon S3 帐户，我们建议您遵循以下建议：
 
@@ -137,7 +137,7 @@ Amazon S3 服务器字段应按以下方式填写：
 * 在创建外部帐户时，通过勾选 **[!UICONTROL Keep files in S3 encrypted]** 方框，可启用加密以在 S3 存储桶中存储敏感数据。
 * 授予存储段权限，以指定可访问存储段中对象的用户。有关存储桶权限的更多信息，请参阅 [Amazon S3 文档](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
-## Adobe Experience Manager 外部帐户{#adobe-experience-manager-external-account}
+## Adobe Experience Manager 外部帐户 {#adobe-experience-manager-external-account}
 
 将 Campaign 与 Experience Manager 集成时，会使用 Adobe Experience Manager 外部帐户。
 
@@ -153,7 +153,7 @@ Amazon S3 服务器字段应按以下方式填写：
 
 * AEM 帐户凭据：使用访问 Adobe Experience Manager 实例的帐户。它应是 Experience Manager 中属于 campaign-remote 组的帐户。
 
-## Google reCAPTCHA 外部帐户{#google-recaptcha-external-account}
+## Google reCAPTCHA 外部帐户 {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -174,7 +174,7 @@ Amazon S3 服务器字段应按以下方式填写：
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure Blob Storage 外部帐户{#microsoft-azure-external-account}
+## Microsoft Azure Blob Storage 外部帐户 {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工�
 
 配置完毕后，单击 **[!UICONTROL Test connection]** 将 Adobe Campaign 链接到 Microsoft Azure Blob Storage。
 
-### Microsoft Azure Blob Storage 建议{#azure-blob-recommendations}
+### Microsoft Azure Blob Storage 建议 {#azure-blob-recommendations}
 
 **加密**
 
