@@ -7,21 +7,20 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 受众
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
-
 # 创建受众{#creating-audiences}
 
-## 创建查询受众{#creating-query-audiences}
+## 创建查询受众 {#creating-query-audiences}
 
 本节介绍如何创建&#x200B;**查询**&#x200B;受众。您也可以通过导入文件或在[工作流](../../automating/using/get-started-workflows.md)中设置定向以创建受众。
 
@@ -48,7 +47,7 @@ ht-degree: 99%
 >
 >您可以向此受众添加说明，并通过 **[!UICONTROL Edit properties]** 图标定义访问权限。
 
-## 创建列表受众{#creating-list-audiences}
+## 创建列表受众 {#creating-list-audiences}
 
 本节介绍如何在工作流中设置定向后创建&#x200B;**列表**&#x200B;受众。您也可以通过将文件导入[工作流](../../automating/using/get-started-workflows.md)创建受众，或通过 **[!UICONTROL Audiences]** 菜单中的查询创建受众。
 
@@ -100,7 +99,7 @@ ht-degree: 99%
 
    ![](assets/audience_files_3.png)
 
-## 创建 Experience Cloud 受众{#creating-experience-cloud-audiences}
+## 创建 Experience Cloud 受众 {#creating-experience-cloud-audiences}
 
 Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**Experience Cloud** 类型的受众，可通过 **[!UICONTROL Import shared audience]** 工作流，直接从 People 核心服务导入到 Adobe Campaign。
 
@@ -110,7 +109,7 @@ Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**
 
 ![](assets/audience_peoplecore.png)
 
-## 编辑受众{#editing-audiences}
+## 编辑受众 {#editing-audiences}
 
 受众有不同的编辑方式，具体方式取决于受众类型，如下所示：
 
@@ -125,7 +124,7 @@ Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**
 * 要编辑&#x200B;**列表**&#x200B;或&#x200B;**文件**&#x200B;受众，请编辑创建该受众的工作流，并修改 **[!UICONTROL Save audience]** 活动。启动工作流，以便修改受众。
 * 要编辑 **Experience Cloud** 受众，请参阅[通过 People 核心服务导入/导出受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)一节。
 
-## 删除受众{#deleting-audiences}
+## 删除受众 {#deleting-audiences}
 
 有两种方法可删除一个或多个受众。首先，为受众添加截止日期
 
@@ -147,4 +146,3 @@ Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**
 还有另一种删除受众的方法，您只需选择一个或多个受众，然后单击 **[!UICONTROL Delete element]** 按钮即可。
 
 ![](assets/audience_delete_1.png)
-
