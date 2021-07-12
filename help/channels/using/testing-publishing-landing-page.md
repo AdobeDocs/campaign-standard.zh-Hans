@@ -6,25 +6,24 @@ description: 了解如何测试和发布 Adobe Campaign 登陆页面。
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: 登陆页面
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
-
 # 测试和发布登陆页面{#testing-publishing--landing-page}
 
-## 关于登陆页面发布{#about-landing-page-publication}
+## 关于登陆页面发布 {#about-landing-page-publication}
 
 发布登陆页面之前，您需要执行测试：验证执行情况、配置访问权限并设置登陆页面终止服务的时间。这些步骤是先决条件，需要谨慎执行。
 
-## 测试登陆页面{#testing-the-landing-page-}
+## 测试登陆页面 {#testing-the-landing-page-}
 
 由于登陆页面将影响您的平台和数据，您需要仔细测试其执行情况。操作步骤：
 
@@ -48,7 +47,7 @@ ht-degree: 99%
 >
 >要在 Campaign 用户界面中显示登陆页面预览，应用程序服务器 URL 必须是安全的。在本例中，[配置品牌](../../administration/using/branding.md#configuring-and-using-brands)时，请使用 https:// 而不是 http:// 设置此 URL。
 
-## 设置有效性参数{#setting-up-validity-parameters}
+## 设置有效性参数 {#setting-up-validity-parameters}
 
 在发布之前，出于安全原因和平台性能的考虑，我们强烈建议您在登陆页面属性中设置过期日期。达到选定日期时，登陆页面将自动取消发布。操作步骤：
 
@@ -68,7 +67,7 @@ ht-degree: 99%
 >
 >您还可以定义部署日期和时间：随后登陆页面将在指定的日期自动发布。
 
-## 发布登陆页面{#publishing-a-landing-page}
+## 发布登陆页面 {#publishing-a-landing-page}
 
 发布登陆页面后，登陆页面就会上线并可被访客访问。
 
