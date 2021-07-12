@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: introduction
 index: y
 feature: 访问管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 20%
@@ -28,13 +28,13 @@ ht-degree: 20%
 
 Campaign Standard提供了多种监视实例的方法，以确保您的系统运行正常，并最终解决在设置工作流、发送投放等操作时可能出现的问题。
 
-## 监视系统{#monitoring-system}
+## 监控系统 {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **系统通知**
 
-Campaign Standard界面提供通知窗格，用于随时通知您系统中正在发生的情况：事件状态、系统更新、所需操作等。 [阅读更多](../../start/using/interface-description.md#top-bar)
+Campaign Standard界面提供了一个通知窗格，用于随时通知您系统中正在发生的情况：事件状态、系统更新、所需操作等。 [阅读更多](../../start/using/interface-description.md#top-bar)
 
 
 **技术工作流**
