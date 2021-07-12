@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 推送
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 50%
@@ -79,9 +79,9 @@ Adobe Campaign 提供两种类型的推送通知：
 
 1. 要支持移动使用案例实施，请参阅[在 Adobe Campaign Standard 中使用 Adobe Experience Platform SDK 支持的移动使用案例](https://helpx.adobe.com/cn/campaign/kb/configure-launch-rules-acs-use-cases.html)中关于扩展、Experience Platform Launch 规则和 SDK 实施的详细说明。
 
-## 推送通知常见问题解答{#push-faq}
+## 推送通知常见问题解答 {#push-faq}
 
-### 要了解有关推送渠道的更多信息，需要推荐哪些有用的资源？{#resource-push}
+### 要了解有关推送渠道的更多信息，需要推荐哪些有用的资源？ {#resource-push}
 
 请查看以下资源：
 
@@ -90,11 +90,11 @@ Adobe Campaign 提供两种类型的推送通知：
 * 使用AEP SDK [文档](../../administration/using/configuring-a-mobile-application.md)进行配置
 * [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### 在Campaign中获取推送令牌时必须执行哪些操作？{#push-token-acquisition}
+### 在Campaign中获取推送令牌时必须执行哪些操作？ {#push-token-acquisition}
 
 确保配置团队已完成在Adobe Campaign Standard中配置推送渠道。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
 
-### 在Campaign中拥有推送令牌和ECID后，我还需要发送推送通知吗？{#sending-push}
+### 在Campaign中拥有推送令牌和ECID后，我还需要发送推送通知吗？ {#sending-push}
 
 客户需要提供.pem格式的有效推送证书才能发送推送通知。 您不需要此证书的密码。
 
@@ -106,37 +106,37 @@ Adobe Campaign 提供两种类型的推送通知：
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 ```
 
-### 如何知道证书上传是否成功？{#certificate-upload}
+### 如何知道证书上传是否成功？ {#certificate-upload}
 
 您将看到以下消息。
 
 ![](assets/faq_2.png)
 
-### 我是否可以同时为iOS应用程序上传生产证书和沙盒证书（对于Android，不适用）？{#prod-sandbox-certificate}
+### 我是否可以同时为iOS应用程序上传生产证书和沙盒证书（对于Android，不适用）？ {#prod-sandbox-certificate}
 
 不能，应用程序在沙盒或生产模式下工作，设置后便无法更改为其他应用程序（即，从沙盒更改为生产应用程序）。 我们建议您先在沙盒模式下测试应用程序，然后转到生产模式。
 
 要更改到生产模式，您必须创建另一个应用程序。 另请务必不要选中沙盒复选框并上传生产证书。
 
-### 我是否可以同时上传iOS和Android凭据？{#ios-android-credentials}
+### 我是否可以同时上传iOS和Android凭据？ {#ios-android-credentials}
 
 是的，Campaign同时支持两个平台，并允许您上传两个平台的凭据。
 
-### 我已成功上传推送证书，但未发送推送消息。{#push-certificates-upload}
+### 我已成功上传推送证书，但未发送推送消息。 {#push-certificates-upload}
 
 请通过在[此处](https://pushtry.com/)测试您的推送证书，以确保这些证书有效。
 
-### 我能够从pushtry.com成功发送推送通知，但不能通过Campaign发送。{#push-not-sending}
+### 我能够从pushtry.com成功发送推送通知，但不能通过Campaign发送。 {#push-not-sending}
 
 请确保遵循[此处](../../administration/using/push-payload.md)提供的推送负载说明。
 
 请注意，对于Android，Campaign仅支持数据有效负载，而不支持通知有效负载
 
-### 我在Adobe Campaign Standard的“管理”部分中配置了一个应用程序，但“交付”属性中没有提供该移动设备应用程序。{#mobile-app-unavailable}
+### 我在Adobe Campaign Standard的“管理”部分中配置了一个应用程序，但“交付”属性中没有提供该移动设备应用程序。 {#mobile-app-unavailable}
 
 应用程序还必须上传有效的推送证书，才能在投放属性中使用该证书。
 
-### 我已尝试了此页面上的所有说明，但无法从Campaign发送推送。{#push-troubleshoot}
+### 我已尝试了此页面上的所有说明，但无法从Campaign发送推送。 {#push-troubleshoot}
 
 请开张客户关怀票证。
 
@@ -144,7 +144,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 移动设备应用程序开发人员需要处理应用程序中对媒体文件的支持。 有时，网络带宽也可能会阻止媒体文件渲染。 有关其他指针，请参阅此[页面](../../administration/using/image-push-notification.md)。
 
-### 在Campaign中启用推送报告时，我必须执行哪些操作？{#push-reporting-enable}
+### 在Campaign中启用推送报告时，我必须执行哪些操作？ {#push-reporting-enable}
 
 按照下面的步骤进行操作：
 
@@ -153,13 +153,13 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 此[page](../../administration/using/push-tracking.md)中提供了更多详细说明。
 
-### 哪些报表可用于推送渠道？{#push-report-available}
+### 哪些报表可用于推送渠道？ {#push-report-available}
 
 Adobe Campaign for Push渠道中提供了现成报表。 请参阅此[文档](../../reporting/using/push-notification-report.md)。
 
 请参阅此[页面](../../reporting/using/indicator-calculation.md#push-notification-delivery)以了解如何计算每个推送量度。
 
-### 推送消息和应用程序内消息是否支持深层链接？{#deeplink-push}
+### 推送消息和应用程序内消息是否支持深层链接？ {#deeplink-push}
 
 是，推送消息支持深层链接。 深层链接应包括：
 
