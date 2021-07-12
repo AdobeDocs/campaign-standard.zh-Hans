@@ -1,30 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 为多语言推送通知生成CSV文件并Campaign Standard
-description: 上传CSV文件以生成投放内容是支持多语言推送通知的功能。
+title: 为带有Campaign Standard的多语言推送通知生成CSV文件
+description: 上传CSV文件以生成内容以供交付是一项用于支持多语言推送通知的功能。
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Push
-role: Business Practitioner
+feature: 推送
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
 
-
 # 为多语言推送通知生成 CSV 文件{#generating-csv-multilingual-push}
 
-上传CSV文件以生成投放内容是支持多语言推送通知的功能。 CSV文件的格式需要遵循某些准则，才能成功上传文件，从而能够创建投放。 以下几节介绍了文件格式及其注意事项。
+上传CSV文件以生成内容以供交付是一项用于支持多语言推送通知的功能。 CSV文件的格式需要遵循某些准则才能成功上传文件，从而能够创建投放。 以下各节介绍了文件格式及其注意事项。
 
-## 文件格式{#file-format}
+## 文件格式 {#file-format}
 
-多语言推送需要CSV文件中包含14列：
+多语言推送需要CSV文件中的14列：
 
 1. title
 1. messageBody
@@ -37,42 +36,42 @@ ht-degree: 0%
 1. isContentAvailable
 1. isMutableContent
 1. customFields
-1. locale
+1. 语言
 1. 语言
 1. silentPush
 
-单击&#x200B;**[!UICONTROL Manage Content Variants]**&#x200B;窗口中的&#x200B;**[!UICONTROL Download a sample file]**，检查CSV示例。 有关详细信息，请参阅此[部分](../../channels/using/creating-a-multilingual-push-notification.md)。
+单击&#x200B;**[!UICONTROL Manage Content Variants]**&#x200B;窗口中的&#x200B;**[!UICONTROL Download a sample file]**&#x200B;以检查CSV示例。 有关更多信息，请参阅此[部分](../../channels/using/creating-a-multilingual-push-notification.md)。
 
-* **title， messageBody， sound， badge， deplinkURI， 类别, iosMediaAttachmentURL， androidMediaAttachmentURL**:定期推送有效负荷内容。您需要以与创建推送投放类似的方式提供此信息。
-* **自定义字段**:对自定义字段使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`.有关自定义字段的示例，请参阅上面的示例文件。
-* **isContentAvailable**:“内容可用”检查的标志，值1表示true，值0表示false。默认值为0。 如果将此列留空，该值将被视为0。
-* **isMutableContent**:可变内容的标志，值1表示true，值0表示false。默认值为0。 如果将此列留空，该值将被视为0。
-* **locale**:locale是语言变体的字段，例如“en_us”表示美语 — 英语，“fr_fr”表示法语 — 法语。
+* **title， messageBody， sound， badge， deeplinkURI， category， iosMediaAttachmentURL， androidMediaAttachmentURL**:常规推送负载内容。您需要以与创建推送投放类似的方式提供此信息。
+* **自定义字段**:对自定义字段(例如， `{"key1":"value1","key2":"value2"}`.有关自定义字段的示例，请参阅上面的示例文件。
+* **isContentAvailable**:标记“可用内容”检查，值1表示true，值0表示false。默认值为0。 如果将此列留空，则该值将被视为0。
+* **isMutableContent**:标记可变内容，值1表示true，值0表示false。默认值为0。 如果将此列留空，则该值将被视为0。
+* **区域设置**:“区域设置”是语言变体的字段，例如“en_us”表示美式英语，“fr_fr”表示法式法语。
 * **语言**:与区域设置关联的语言的名称。例如，如果区域设置为“en_us”，则语言的名称应为“English-United States”。
-* **silentPush**:推送通知类型的标志。如果是常规推送通知，则值应为0。 如果是静默推送，则值应为1。 默认值为0。 如果将此列留空，该值将被视为0。
+* **silentPush**:推送通知类型的标记。如果是常规推送通知，则值为0。 如果是静默推送，则值为1。 默认值为0。 如果将此列留空，则该值将被视为0。
 
-## 创建csv文件{#constraints-guideline-csv}的约束和准则
+## 创建CSV文件的限制和准则 {#constraints-guideline-csv}
 
-**每列的名称是固定的**。您应在CSV文件中包含每列的名称，如果不对内容使用任何列，请将其留空。
+**每列的名称是固定的**。您应当在CSV文件中包含每列的名称，如果不对内容使用任何列，请将其留空。
 
-**“locale”和“language”列是必填项，值对于每行都是唯一的。**
+**“区域设置”和“语言”列是必填列，每行的值都是唯一的。**
 此列的空值将导致文件上传失败。
 
-**列的顺序很重要**。上载文件中的列顺序需要采用与示例文件相同的格式。
+**列的顺序很重要**。上载文件中列的顺序需要遵循与样例文件相同的格式。
 
-**引用列内容**。由于这是CSV（表示逗号分隔值）文件，因此必须引用包含逗号(,)的任何列内容。 例如，“你好，汤姆！”
+**引用列内容**。由于这是CSV（表示逗号分隔值）文件，因此必须为包含逗号(,)的任何列内容加引号。 例如，“你好，汤姆！”
 
-**UTF-8编码对于国际字符是必需的。**
+**国际字符需要使用UTF-8编码。**
 
-**如果按纯文本生成文件，则按“，”分隔每列。**
+**如果通过纯文本生成文件，请按“，”分隔每列。**
 
-**变体不匹配。** 如果将内容块和目标受众用于特定语言，您需要在CSV文件中列表每种目标语言，否则发送投放时会出错。
+**变体不匹配。** 如果您使用内容块并定位具有特定语言的受众，则需要在CSV文件中列出每种目标语言，否则在发送投放时会出错。
 
-## 在csv文件{#personalization-field-csv}中插入个性化字段
+## 在csv文件中插入个性化字段 {#personalization-field-csv}
 
 如果要使用个性化字段，应在文件中包含<span>标记。
 
-要在messageBody中插入“firstName”个性化字段，消息必须为：
+要在messageBody中插入“firstName”个性化字段，消息需要：
 
 ```
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
@@ -84,11 +83,11 @@ ht-degree: 0%
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-在范围中有两个必填属性：
+在范围中，有两个必需属性：
 
-* 一个是静态类。 无论您计划使用哪个个性化字段，它始终都是class=&quot;nl-dce-field nl-dce-done&quot;。
+* 一个是静态类。 无论您计划使用哪个个性化字段，它都将始终为class=&quot;nl-dce-field nl-dce-done&quot;。
 
-* 另一个是数据 — nl-expr，它是个性化领域的路径。 例如，如果您从UI中插入“firstName”个性化字段，则导航路径将是&#x200B;**[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**（如下图所示）。 在这种情况下，路径将
+* 另一个是数据nl-expr ，它是个性化字段的路径。 例如，如果从UI插入“firstName”个性化字段，则导航路径将为&#x200B;**[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**（如下图所示）。 在这种情况下，路径将为
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -96,13 +95,13 @@ ht-degree: 0%
 
 ![](assets/multilingual_push_2.png)
 
-## 区域设置和语言名称{#locale-language-names}
+## 区域设置和语言名称 {#locale-language-names}
 
 支持以下语言：
 
-| locale | 语言 |
+| 语言 | 语言 |
 |:-:|:-:|
-| af_za | 南非语 |
+| af_za | 南非荷兰语 — 南非 |
 | sq_al | 阿尔巴尼亚 — 阿尔巴尼亚 |
 | ar_dz | 阿拉伯语 — 阿尔及利亚 |
 | ar_bh | 阿拉伯语 — 巴林 |
@@ -123,17 +122,17 @@ ht-degree: 0%
 | az_az | 阿塞拜疆 — 阿塞拜疆 |
 | be_by | 白俄罗斯 — 白俄罗斯 |
 | bs_ba | 波斯尼亚 — 波斯尼亚 |
-| bg_bg | 保加利亚 — 保加利亚 |
+| bg_bg | 保加利亚语 — 保加利亚 |
 | ca_es | 加泰罗尼亚语 — 西班牙 |
 | zh_cn | 简体中文 — 中国 |
 | zh_sg | 简体中文 — 新加坡 |
 | zh_hk | 繁体中文 — 中国香港特别行政区 |
 | zh_tw | 繁体中文 — 台湾地区 |
-| hr_hr | 克罗地亚 — 克罗地亚 |
-| cs_cz | 捷克 — 切希亚 |
+| hr_hr | 克罗地亚语 — 克罗地亚 |
+| cs_cz | 捷克语 — 捷希亚 |
 | da_dk | 丹麦语 — 丹麦 |
 | nl_be | 荷兰语 — 比利时 |
-| nl_nl | 荷兰 — 荷兰 |
+| nl_nl | 荷兰语 — 荷兰 |
 | en_au | 英语 — 澳大利亚 |
 | en_bz | 英语 — 伯利兹 |
 | en_ca | 英语 — 加拿大 |
@@ -163,7 +162,7 @@ ht-degree: 0%
 | gu_in | 古吉拉特语 — 印度 |
 | he_il | 希伯来语 — 以色列 |
 | hi_in | 印地语 — 印度 |
-| hu_hu | 匈牙利 — 匈牙利 |
+| hu_hu | 匈牙利语 — 匈牙利 |
 | is_is | 冰岛语 — 冰岛 |
 | id_id | 印度尼西亚 — 印度尼西亚 |
 | it_it | 意大利语 — 意大利 |
@@ -171,14 +170,14 @@ ht-degree: 0%
 | ja_jp | 日语 — 日本 |
 | kn_in | 卡纳达 — 印度 |
 | kk_kz | 哈萨克语 — 哈萨克斯坦 |
-| ko_kr | 韩语 — 韩国 |
-| lv_lv | 拉脱维亚 — 拉脱维亚 |
-| lt_lt | 立陶宛 — 立陶宛 |
+| ko_kr | 朝鲜语 — 韩国 |
+| lv_lv | 拉脱维亚语 — 拉脱维亚 |
+| lt_lt | 立陶宛语 — 立陶宛 |
 | mk_mk | 马其顿 — 马其顿 |
 | ms_my | 马来语 — 马来西亚 |
-| mr_in | 马拉地 — 印度 |
+| mr_in | 马拉地语 — 印度 |
 | no_no | 挪威语 — 挪威 |
-| pl_pl | 波兰 — 波兰 |
+| pl_pl | 波兰语 — 波兰 |
 | pt_br | 葡萄牙语 — 巴西 |
 | pt_pt | 葡萄牙语 — 葡萄牙 |
 | pa_in | 旁遮普语 — 印度 |
@@ -188,9 +187,9 @@ ht-degree: 0%
 | ru_ru | 俄语 — 俄罗斯 |
 | ru_ua | 俄语 — 乌克兰 |
 | a_in | 梵语 — 印度 |
-| sr_ba | 塞尔维亚 — 波斯尼亚 |
-| sr_rs | 塞尔维亚 — 塞尔维亚 |
-| sk_sk | 斯洛伐克 — 斯洛伐克 |
+| sr_ba | 塞尔维亚语 — 波斯尼亚 |
+| sr_rs | 塞尔维亚语 — 塞尔维亚 |
+| sk_sk | 斯洛伐克语 — 斯洛伐克语 |
 | sl_si | 斯洛文尼亚 — 斯洛文尼亚 |
 | es_ar | 西班牙语 — 阿根廷 |
 | es_bo | 西班牙语 — 玻利维亚 |
@@ -221,6 +220,6 @@ ht-degree: 0%
 | tr_cy | 土耳其语 — 塞浦路斯 |
 | tr_tr | 土耳其语 — 土耳其 |
 | uk_ua | 乌克兰语 — 乌克兰 |
-| ur_in | 乌尔都 — 印度 |
-| ur_pk | 乌尔都 — 巴基斯坦 |
+| ur_in | 乌尔都语 — 印度 |
+| ur_pk | 乌尔都语 — 巴基斯坦 |
 | vi_vn | 越南 — 越南 |
