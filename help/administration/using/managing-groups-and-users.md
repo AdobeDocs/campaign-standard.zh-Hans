@@ -7,27 +7,26 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Access Management
-role: Administrator
+feature: 访问管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---
 
-
 # 管理组和用户{#managing-groups-and-users}
 
-## 关于安全组{#about-security-groups}
+## 关于安全组 {#about-security-groups}
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
 用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。
 
-有关角色的详细信息，下页中的表显示了根据用户角色可用的可能操作：[Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+有关角色的更多信息，请参见下页中的表格，其中显示了根据用户角色可用的可能操作：[Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 默认安全组为：
 
@@ -38,9 +37,9 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全组仅是Adobe内部组，不应分配给任何用户。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全组仅Adobe内部，不应分配给任何用户。
 
-要能够访问Adobe Campaign，必须将每个用户分配给一个安全组。
+要能够访问Adobe Campaign，必须将每个用户分配到安全组。
 
 要限制某个用户的访问，请勿将该用户添加到 Campaign Standard 用户组，因为该组已链接到 **[!UICONTROL All]** 组织单位。
 
@@ -48,7 +47,7 @@ ht-degree: 88%
 >
 >默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
 
-## 创建安全组并分配用户{#creating-a-security-group-and-assigning-users}
+## 创建安全组并分配用户 {#creating-a-security-group-and-assigning-users}
 
 >[!IMPORTANT]
 >
@@ -136,7 +135,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >如果要将现成的安全组分配给用户，则需要重置组织单位。
+   >如果您为用户分配了现成的安全组，则需要重置组织单位。
 
    ![](assets/manage_security_group_6.png)
 
@@ -149,5 +148,4 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->如果从“管理”控制台中的安全组中删除了用户，则这些用户将仍是Adobe Campaign安全组的一部分，将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。
-
+>如果用户从Admin Console的安全组中删除，则他们将保持在Adobe Campaign安全组的一部分，并且将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。
