@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 用户档案
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 22%
@@ -32,7 +32,7 @@ ht-degree: 22%
 
 使用服务和登陆页管理客户权限和许可，以设置简单的选择加入和选择退出机制。
 
-## 分段和定位{#segmenting-targeting}
+## 分段和定位 {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -54,7 +54,7 @@ Adobe Campaign可实时构建丰富的客户用户档案，以便您在客户偏
 * [扩充 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
 * [关于受众](../../audiences/using/about-audiences.md)
 * [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [添加控制组](../../sending/using/control-group.md)
+* [添加对照组](../../sending/using/control-group.md)
 
 ## 许可和同意 {#permission}
 
