@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 配置移动应用程序{#configuring-a-mobile-application}
 
-## 使用Adobe Experience Platform SDK配置移动应用程序{#using-adobe-experience-platform-sdk}
+## 使用Adobe Experience Platform SDK配置移动应用程序 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ ht-degree: 7%
 1. 如果需要，您可以删除Experience Platform Launch资产。
 有关更多信息，请参阅[删除Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#delete-app)。
 
-## 从Launch技术工作流{#aepsdk-workflow}同步移动设备应用程序AEPSDK
+## 从Launch技术工作流同步移动设备应用程序AEPSDK {#aepsdk-workflow}
 
 在Experience Platform Launch中创建和配置移动资产后，**[!UICONTROL Sync Mobile app AEPSDK from Launch]**&#x200B;技术工作流现在将同步在Adobe Campaign Standard中导入的AdobeLaunch移动资产。
 
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 您的工作流现在将重新启动并同步在Adobe Campaign Standard中导入的AdobeLaunch移动资产。
 
-## 在Adobe Campaign中设置Adobe Experience Platform Launch应用程序{#set-up-campaign}
+## 在Adobe Campaign中设置Adobe Experience Platform Launch应用程序 {#set-up-campaign}
 
 要在Campaign中使用Experience Platform Launch移动资产，您还需要在Adobe Campaign中配置此资产。 在Adobe Campaign中，确保IMS用户是标准用户和管理员产品配置文件的一部分。
 
@@ -129,7 +129,7 @@ ht-degree: 7%
 
    有关更多信息，请参阅[发布配置](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)。
 
-## Adobe Campaign中特定于渠道的应用程序配置{#channel-specific-config}
+## Adobe Campaign中特定于渠道的应用程序配置 {#channel-specific-config}
 
 您的移动应用程序现已准备就绪，可在Campaign中用于推送通知或应用程序内投放。 现在，如果需要，您可以进一步配置，以创建将触发应用程序内消息和/或上传推送证书的事件。
 
@@ -163,7 +163,7 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL Mobile application subscribers]**&#x200B;选项卡可查看订阅者列表以及有关这些订阅者的其他信息，例如，他们是否退出了通知。
 
-## 删除Adobe Experience Platform Launch应用程序{#delete-app}
+## 删除Adobe Experience Platform Launch应用程序 {#delete-app}
 
 删除Experience Platform Launch应用程序时，无法撤销。
 
