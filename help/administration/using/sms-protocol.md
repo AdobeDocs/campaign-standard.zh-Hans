@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '8666'
 ht-degree: 0%
@@ -110,7 +110,7 @@ SMPP传输单元（“数据包”）称为PDU。 **PDU**&#x200B;包含命令、
 
 在Adobe Campaign Standard中，MT和SR协调是MTA的本机，因此没有专用的短信流程。
 
-成功的`SUBMIT_SM_RESP PDU`会在发送日志中触发“已发送”消息状态，成功的`DELIVER_SM (SR) PDU`触发“已接收”消息状态。
+成功的`SUBMIT_SM_RESP PDU`会在发送日志中触发“已发送”消息状态，而成功的`DELIVER_SM (SR) PDU`触发“已接收”消息状态。
 
 ### 安全方面 {#security-aspects}
 
@@ -381,7 +381,7 @@ SMPP协议的每个实现都有许多变体。 为了提高兼容性和适应性
 
 #### SMPP连接模式 {#smpp-connection-mode}
 
-在&#x200B;**收发器**&#x200B;模式或在分离的&#x200B;**发射机+接收器**&#x200B;模式下设置连接。 当您切换到分隔的&#x200B;**发送器+接收器**&#x200B;模式时，**SMPP连接模式**&#x200B;部分中的设置适用于发送器，而&#x200B;**接收器连接设置**&#x200B;部分中的设置仅在选中&#x200B;**为接收器**&#x200B;使用不同的参数复选框时才适用于接收器连接。
+在&#x200B;**收发器**&#x200B;模式或在分离的&#x200B;**发射机+接收器**&#x200B;模式下设置连接。 当您切换到分隔的&#x200B;**发送器+接收器**&#x200B;模式时，**SMPP连接模式**&#x200B;部分中的设置适用于发送器，而&#x200B;**接收器连接设置**&#x200B;部分中的设置适用于接收器连接，仅当您选中&#x200B;**为接收器**&#x200B;使用不同的参数复选框时。
 
 #### SMSC实施名称 {#smsc-implementation-name}
 
