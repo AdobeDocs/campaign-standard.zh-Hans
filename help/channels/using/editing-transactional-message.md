@@ -2,65 +2,64 @@
 solution: Campaign Standard
 product: campaign
 title: 编辑事务性消息
-description: 了解如何访问、编辑和个性化事务性消息。
+description: 了解如何访问、编辑和个性化事务型消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 事务性消息传递
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 30%
 
 ---
 
-
 # 编辑事务性消息 {#editing-transactional-message}
 
-创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务性消息。
+创建并发布事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->后，将自动创建相应的事务型消息。
 
-配置和发布事件的步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)部分中介绍。
+有关配置和发布事件的步骤，请参见[配置事务事件](../../channels/using/configuring-transactional-event.md)和[发布事务事件](../../channels/using/publishing-transactional-event.md)一节。
 
 访问、编辑和个性化此消息的步骤如下所述。
 
 >[!IMPORTANT]
 >
->只有具有[管理](../../administration/using/users-management.md#functional-administrators)角色的用户才能访问和编辑事务性消息。
+>只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的用户才能访问和编辑事务型消息。
 
-消息准备就绪后，即可对其进行测试和发布。 请参阅[测试事务性消息](../../channels/using/testing-transactional-message.md)和[事务性消息生命周期](../../channels/using/publishing-transactional-message.md)。
+消息准备就绪后，即可对其进行测试和发布。 请参阅[测试事务型消息](../../channels/using/testing-transactional-message.md)和[事务型消息生命周期](../../channels/using/publishing-transactional-message.md)。
 
-## 访问事务性消息{#accessing-transactional-messages}
+## 访问事务型消息 {#accessing-transactional-messages}
 
-要访问您创建的事务性消息:
+要访问您创建的事务型消息，请执行以下操作：
 
 1. 单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标。
 1. 选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 
    ![](assets/message-center_4.png)
 
-1. 单击您选择的消息进行编辑。
+1. 单击您选择的消息以对其进行编辑。
 
    ![](assets/message-center_message-board.png)
 
-您还可以通过位于相应事务性消息配置屏幕左侧区域的链接直接访问事件。 请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+您还可以通过位于相应事件配置屏幕左侧区域的链接直接访问事务型消息。 请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-## 个性化事务型消息{#personalizing-a-transactional-message}
+## 个性化事务型消息 {#personalizing-a-transactional-message}
 
-要编辑和个性化事务性消息，请执行以下步骤。
+要编辑和个性化事务型消息，请执行以下步骤。
 
 >[!NOTE]
 >
->本节介绍如何编辑&#x200B;**基于事件的**&#x200B;事务性消息。 **基于用户档案的**&#x200B;事务性消息特性详细如下[。](#profile-transactional-message-specificities)
+>本节介绍如何编辑&#x200B;**基于事件的**&#x200B;事务型消息。 **基于用户档案的**&#x200B;事务型消息的特性详见[下面的](#profile-transactional-message-specificities)。
 >
->创建基于事件的事务性消息的配置步骤显示在[本节](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中。
+>创建基于事件的事务型消息的配置步骤请参见[此部分](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
 
-例如，您希望向已将产品添加到购物车并离开网站的网站用户发送通知，而不进行购买。 此示例在[Transactional messaging operating prinice](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍。
+例如，您希望向将产品添加到购物车并离开网站而无需完成购买的网站用户发送通知。 [事务性消息传递工作原理](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍了此示例。
 
-1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的详细信息，请参阅[使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates)。
+1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的更多信息，请参阅[使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
@@ -76,7 +75,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 您还可以丰富消息的内容。 为此，请从您链接到事件配置的表中添加字段(请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段，通过&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
+1. 您还可以扩充消息的内容。 为此，请添加表中链接到事件配置的字段（请参阅[扩充事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段，直至&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -90,7 +89,7 @@ ht-degree: 30%
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关详细信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关更多信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 <!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -212,20 +211,20 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## 基于用户档案的事务性消息特性{#profile-transactional-message-specificities}
+## 基于用户档案的事务型消息特性 {#profile-transactional-message-specificities}
 
-您可以根据客户营销用户档案发送事务性消息，这使您能够利用所有用户档案信息来个性化消息内容，使用退订链接，并应用[疲劳规则](../../sending/using/fatigue-rules.md)等营销类型规则。
+您可以发送基于客户营销用户档案的事务型消息，利用该用户档案信息，可以个性化消息内容、使用退订链接，并应用营销分类规则，如[疲劳规则](../../sending/using/fatigue-rules.md)。
 
-* 有关基于事件的事务性消息和基于用户档案的之间差异的详细信息，请参阅[本节](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
+* 有关基于事件和基于用户档案的事务型消息之间差异的更多信息，请参阅[此部分](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
 
-* 创建基于用户档案的事务性消息的配置步骤详见[本节](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
+* 有关创建基于用户档案的事务型消息的配置步骤，请参见[此部分](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
-创建、编辑和个性化用户档案事务性消息的步骤与创建事件事务性消息的步骤基本相同。
+创建、编辑和个性化用户档案事务型消息的步骤与创建事件事务型消息的步骤大致相同。
 
 下方列出了两者之间的差异。
 
 1. [请转至创建的事务型消息以对其进行编辑。](#accessing-transactional-messages)
-1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务性电子邮件模板之外，您还可以选择任何面向&#x200B;**[!UICONTROL Profile]**&#x200B;资源的电子邮件模板。
+1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务型电子邮件模板之外，您还可以选择定向&#x200B;**[!UICONTROL Profile]**&#x200B;资源的任何电子邮件模板。
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -233,11 +232,11 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   有关模板的详细信息，请参阅[此部分](../../designing/using/using-reusable-content.md#content-templates)。
+   有关模板的更多信息，请参阅[此部分](../../designing/using/using-reusable-content.md#content-templates)。
 
 1. 此外，与基于实时事件的配置不同，您可以&#x200B;**直接访问所有用户档案信息**&#x200B;来个性化您的消息。 您可以像添加任何其他标准营销电子邮件一样添加[个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
-1. 在发布消息之前保存更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 在发布消息之前，请保存所做的更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
