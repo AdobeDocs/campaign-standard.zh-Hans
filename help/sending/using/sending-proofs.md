@@ -7,21 +7,20 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: 校样
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
 
+# 发送校样 {#sending-proofs}
 
-# 发送校样{#sending-proofs}
-
-## 关于校样{#about-proofs}
+## 关于校样 {#about-proofs}
 
 利用校样这种特定的消息，可在将消息发送到主目标之前对消息进行测试。校样的收件人负责审阅消息（的内容和形式）。
 
@@ -41,7 +40,7 @@ ht-degree: 99%
    >
    >此功能仅适用于电子邮件渠道。
 
-## 发送校样{#sending-a-proof}
+## 发送验证 {#sending-a-proof}
 
 要发送校样，请执行以下步骤：
 
@@ -83,7 +82,7 @@ ht-degree: 99%
 
 您必须发送所需数量的校样，直到完成投放的内容为止。完成此操作后，您可以将投放发送到主目标并结束审阅循环。
 
-## 配置校样的主题行{#configuring-proofs-subject-line}
+## 配置校样的主题行 {#configuring-proofs-subject-line}
 
 发送校样时，其主题行默认配置了&#x200B;**“Proof”**&#x200B;前缀，以及指示校样编号的计数。
 
