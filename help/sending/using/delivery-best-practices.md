@@ -1,35 +1,34 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 活动 投放最佳做法
+title: 营销活动投放最佳实践
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 了解与投放设计和与Adobe Campaign一起发送相关的最佳实践。
-feature: Deliverability
-role: Business Practitioner
+description: 了解与使用Adobe Campaign进行投放设计和发送相关的最佳实践。
+feature: 可投放性
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
-
 # 投放最佳实践 {#delivery-best-practices}
 
-了解与投放设计和与Adobe Campaign一起发送相关的最佳实践。 使用以下链接浏览主题并查找指导。
+了解与使用Adobe Campaign进行投放设计和发送相关的最佳实践。 使用以下链接浏览主题并查找指南。
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[优化投放](optimize-delivery.md)**  — 确保和优化发送过程
+**[优化投放](optimize-delivery.md)**  — 安全并优化发送流程
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用模板](use-templates.md)**  — 促进和加速新投放
+**[使用模板](use-templates.md)**  — 促进和加快新投放
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -49,7 +48,7 @@ ht-degree: 10%
 
 ## 相关内容
 
-* [开始使用交付能力](../../sending/using/about-deliverability.md)
+* [投放能力入门](../../sending/using/about-deliverability.md)
 
 * [消息入门](../../channels/using/get-started-communication-channels.md)
 
