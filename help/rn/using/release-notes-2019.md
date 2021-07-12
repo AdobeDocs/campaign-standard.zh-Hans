@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 发行说明2019
+title: 发行说明 2019
 description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7590'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) |  [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)  |  [文档更新](../../rn/using/documentation-updates.md)  |  [最新发行说明](../../rn/using/release-notes.md)  |  [已弃用功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 
-## 19.4版 — 2019年12月{#release-19-4---october-2019}
+## 19.4版 — 2019年12月 {#release-19-4---october-2019}
 
 **新增功能**
 
@@ -147,7 +147,7 @@ ht-degree: 8%
 * 修复了在投放完成后，可能会将投放状态保留为“开始挂起”的问题。 (CAMP-35355)
 * 修复了在启用后，禁用SQL日志后，工作流日志无法显示的问题。
 
-## 19.3 版 - 2019 年 7 月{#release-19-3---july-2019}
+## 19.3 版 - 2019 年 7 月 {#release-19-3---july-2019}
 
 **新增功能**
 
@@ -258,7 +258,7 @@ ht-degree: 8%
 * 修复了在主题包含多行时损坏电子邮件内容的安全问题。
 
 
-## 19.2.7 版 - 2019 年 7 月{#release-19-2-7---july-2019}
+## 19.2.7 版 - 2019 年 7 月 {#release-19-2-7---july-2019}
 
 **改进**
 
@@ -267,13 +267,13 @@ ht-degree: 8%
 * 修复了可能阻止非管理员用户保存或计划报表的问题。 (CAMP-31133)
 * 修复了在加载文件工作流活动中使用“|”作为日期分隔符时的问题。 (CAMP-34706)
 
-## 19.2.4 版 - 2019 年 6 月{#release-19-2-4---june-2019}
+## 19.2.4 版 - 2019 年 6 月 {#release-19-2-4---june-2019}
 
 **电子邮件设计工具**
 
 * 修复了在HTML中使用空样式标记时阻止用户编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
-## 19.2.3 版 - 2019 年 6 月{#release-19-2-3---june-2019}
+## 19.2.3 版 - 2019 年 6 月 {#release-19-2-3---june-2019}
 
 **电子邮件设计工具**
 
@@ -292,7 +292,7 @@ ht-degree: 8%
 * 修复了阻止使用服务资源中的信息扩充事务型消息内容的问题。 (CAMP-33707)
 * 修复了在尝试使用阻止列表户档案从服务取消订阅时，“订阅”登陆页面中发生的问题。
 
-## 19.2 版 - 2019 年 5 月{#release-19-2---may-2019}
+## 19.2 版 - 2019 年 5 月 {#release-19-2---may-2019}
 
 **新增功能**
 
@@ -396,7 +396,7 @@ ht-degree: 8%
 * 修复了在投放能力工作流未成功完成时导致其关闭的问题。
 * 修复了可能阻止用户保存或计划报表的问题。 (CAMP-31133)
 
-## 19.1.3 版 - 2019 年 3 月{#release-19-1-3---march-2019}
+## 19.1.3 版 - 2019 年 3 月 {#release-19-1-3---march-2019}
 
 **Email Designer 增强功能**
 
@@ -410,7 +410,7 @@ ht-degree: 8%
 * 修复了阻止编辑分类规则的问题。 (CAMP-31750)
 * 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
 
-## 19.1 版 - 2019 年 2 月{#release-19-1---february-2019}
+## 19.1 版 - 2019 年 2 月 {#release-19-1---february-2019}
 
 **新增功能**
 
@@ -516,7 +516,7 @@ ht-degree: 8%
 * 修复了在创建应用程序内投放时定向的用户档案与投放仪表板中显示的用户档案不一致的问题。 (CAMP-28722)
 * 修复了营销活动和资产核心服务集成可能阻止您在电子邮件中选择共享资产的问题。
 
-## 19.0 版 - 2019 年 1 月{#release-19-0---january-2019}
+## 19.0 版 - 2019 年 1 月 {#release-19-0---january-2019}
 
 **新增功能**
 
