@@ -6,19 +6,18 @@ description: 详细了解用于管理隐私的 Adobe Campaign Standard 功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
-role: Business Practitioner
+feature: 隐私
+role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
 ---
 
-# 隐私管理{#privacy-management}
+# 隐私管理 {#privacy-management}
 
 Adobe Campaign 提供一套工具来帮助您遵守[隐私法规](#privacy-management-regulations)（包括 GDPR、CCPA、PDPA、LGPD）。
 
