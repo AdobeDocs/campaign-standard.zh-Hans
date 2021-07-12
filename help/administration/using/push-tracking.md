@@ -2,58 +2,57 @@
 solution: Campaign Standard
 product: campaign
 title: 实施推送跟踪
-description: 此文档允许您确保在iOS和Android上正确实施推送通知跟踪。
+description: 本文档允许您确保在iOS和Android上正确实施推送通知跟踪。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: 实例设置
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
 
-
 # 实施推送跟踪 {#push-tracking}
 
-## 关于推送跟踪{#about-push-tracking}
+## 关于推送跟踪 {#about-push-tracking}
 
-要确保已完全开发推送通知，您需要确保正确实施跟踪部分，因为并非每个推送通知都已启用跟踪。 要启用此功能，开发人员需要确定哪些投放已启用跟踪功能，Adobe Campaign Standard将发送一个名为`_acsDeliveryTracking`的标志，该标志具有两个值&#x200B;**在**&#x200B;或&#x200B;**在**&#x200B;上。 应用程序开发人员应仅对变量设置为&#x200B;**on**&#x200B;的投放发送跟踪请求。
+要确保推送通知已完全开发，您需要确保正确实施了跟踪部分，因为并非每个推送通知都启用了跟踪。 要启用此功能，开发人员需要确定哪些投放启用了跟踪，Adobe Campaign Standard将发送一个名为`_acsDeliveryTracking`的标记，该标记具有两个值&#x200B;**，分别位于**&#x200B;或&#x200B;**off**。 应用程序开发人员应仅在将变量设置为&#x200B;**on**&#x200B;的投放上发送跟踪请求。
 
 >[!IMPORTANT]
 >
->此变量不适用于在21.1版本之前设置的投放或使用自定义模板的投放。
+>此变量不适用于21.1版本之前设置的投放或使用自定义模板的投放。
 
 推送跟踪分为三种类型：
 
-* **推送印象**  — 推送通知已发送到设备且位于通知中心但完全未触及时。这被视为一种印象。  在大多数情况下，展示次数数应类似，如果与已交付数不相同。 它确保设备收到消息并将该信息转发回服务器。
+* **推送展示次数**  — 将推送通知交付到设备且位于通知中心，但完全未接触时。这被视为一种印象。  在大多数情况下，如果展示次数与已交付的数量不同，则展示次数应相似。 它确保设备收到消息并将该信息转发回服务器。
 
-* **推送单击**  — 当推送通知已发送到设备且用户已单击设备时。用户要么希望视图通知（随后将移至“推送打开”跟踪），要么取消通知。
+* **推送点击**  — 将推送通知交付到设备且用户已单击设备时。用户想要查看通知（这反过来又将移至推送打开跟踪）或关闭通知。
 
-* **推送打开**  — 当推送通知已发送到设备且用户单击了导致应用程序打开的通知时。这与“推送单击”类似，但如果通知被关闭，则不会触发“推送打开”。
+* **推送打开**  — 将推送通知交付到设备且用户单击了导致应用程序打开的通知时。这类似于推送点击，除非取消通知后不会触发推送打开。
 
-要实施Campaign Standard跟踪，移动应用程序需要包含Mobile SDK。 这些SDK可在Adobe Mobile Services上找到。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
+要实施Campaign Standard跟踪，移动设备应用程序需要包含Mobile SDK。 这些SDK可在Mobile ServicesAdobe中使用。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
 
-要发送跟踪信息，有三个变量需要发送。 两个是从Campaign Standard接收的数据的一部分，一个操作变量指示它是&#x200B;**印象**、**单击**&#x200B;还是&#x200B;**打开**。
+要发送跟踪信息，需要发送三个变量。 两个是从Campaign Standard接收的数据的一部分，另一个是操作变量，该变量指示它是&#x200B;**Impression**、**Click**&#x200B;还是&#x200B;**Open**。
 
 | 变量 | 值 |
 |:-:|:-:|
 | broadlogId | 来自数据的_mId |
 | deliveryId | 来自数据的_dId |
-| 行动 | 1表示打开，2表示单击，7表示印象 |
+| 操作 | 1表示打开，2表示点击，7表示展示 |
 
-## Android {#implementation-android}的实现
+## Android实施 {#implementation-android}
 
-### 如何实现推送印象跟踪{#push-impression-tracking-android}
+### 如何实施推送展示跟踪 {#push-impression-tracking-android}
 
-要进行印象跟踪，在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时，必须发送值“7”以执行操作。
+要进行展示跟踪，在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时，必须发送值“7”以执行操作。
 
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 @Override
@@ -83,18 +82,18 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### 如何实现单击跟踪{#push-click-tracking-android}
+### 如何实施点击跟踪 {#push-click-tracking-android}
 
-要进行点击跟踪，您必须在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时发送值“2”以执行操作。
+对于点击跟踪，您必须在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时发送值“2”以执行操作。
 
-要跟踪单击，需要处理两种情况：
+要跟踪点击，需要处理两种情况：
 
-* 用户可以看到通知，但会清除通知。
-* 用户看到通知并单击它，将其转换为开放跟踪。
+* 用户看到通知但将其清除。
+* 用户看到通知并单击它，即可将其转换为打开的跟踪。
 
-要处理此问题，您需要使用两个方法：一个用于单击通知，另一个用于关闭通知。
+要处理此问题，您需要使用两个意图：一个用于单击通知，另一个用于关闭通知。
 
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -169,15 +168,15 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### 如何实现开放跟踪{#push-open-tracking-android}
+### 如何实施打开跟踪 {#push-open-tracking-android}
 
-您将需要发送“1”和“2”，因为用户必须单击通知才能打开应用程序。 如果应用程序未通过推送通知启动/打开，则不会发生跟踪事件。
+由于用户必须单击通知才能打开应用程序，因此您需要发送“1”和“2”。 如果应用程序未通过推送通知启动/打开，则不会发生跟踪事件。
 
-要跟踪打开，您需要创建“用途”。 目的对象允许Android OS在完成某些操作时调用您的方法。 在这种情况下，请单击通知以打开应用程序。
+要跟踪打开情况，您需要创建意图。 目的对象允许Android操作系统在完成某些操作后调用您的方法。 在这种情况下，单击通知以打开应用程序。
 
-此代码基于实现点击印象跟踪。 设置&#x200B;**[!UICONTROL Intent]**&#x200B;后，您现在需要将跟踪信息发送回Adobe Campaign Standard。 在这种情况下，您需要将&#x200B;**[!UICONTROL Open Intent]**&#x200B;设置为在应用程序中打开到某个视图，这将使用&#x200B;**[!UICONTROL Intent Object]**&#x200B;中的通知数据调用onResume方法。
+此代码基于点击展示次数跟踪的实施。 设置&#x200B;**[!UICONTROL Intent]**&#x200B;后，您现在需要将跟踪信息发送回Adobe Campaign Standard。 在这种情况下，您需要将&#x200B;**[!UICONTROL Open Intent]**&#x200B;设置为打开到应用程序中的特定视图，这将使用&#x200B;**[!UICONTROL Intent Object]**&#x200B;中的通知数据调用onResume方法。
 
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 @Override
@@ -223,29 +222,29 @@ private void handleTracking() {
 }
 ```
 
-## iOS {#implementation-iOS}的实现
+## iOS实施 {#implementation-iOS}
 
-### 如何实现推送印象跟踪{#push-impression-tracking-iOS}
+### 如何实施推送展示跟踪 {#push-impression-tracking-iOS}
 
-要进行印象跟踪，在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时，必须发送值“7”以执行操作。
+要进行展示跟踪，在调用&#x200B;**[!UICONTROL trackAction()]**&#x200B;函数时，必须发送值“7”以执行操作。
 
-要了解iOS通知的工作方式，需要详细说明应用程序的三个状态：
+要了解iOS通知的工作方式，需要详细描述应用程序的三种状态：
 
-* **前景**:当应用程序当前处于活动状态且当前处于屏幕上时（在前景中）。
-* **背景**:当is应用程序未在屏幕上但进程未关闭时。当您多次单击“主页”按钮时，它通常会显示后台的所有应用程序。
-* **关闭/关闭**:一个程序被杀的应用程序。
+* **前台**:当应用程序当前处于活动状态且当前处于屏幕上（在前台）时。
+* **背景**:当is应用程序未在屏幕上，但进程未关闭时。双击“主页”按钮时，通常会显示位于后台的所有应用程序。
+* **关闭/关闭**:一个进程已被终止的应用程序。
 
-如果某个应用程序已关闭，Apple将在应用程序重新启动之前调用该应用程序。 这意味着您将无法了解在iOS上何时收到通知。
+如果某个应用程序关闭，Apple在该应用程序重新启动后才会调用该应用程序。 这意味着您将无法知道何时在iOS上收到通知。
 
-为了使&#x200B;**[!UICONTROL Impression]**&#x200B;跟踪在应用程序处于后台时仍能正常工作，我们需要发送&#x200B;**[!UICONTROL Content-Available]**&#x200B;以告知应用程序必须完成跟踪。
+为了在应用程序处于后台时仍使&#x200B;**[!UICONTROL Impression]**&#x200B;跟踪正常工作，我们需要发送&#x200B;**[!UICONTROL Content-Available]**&#x200B;以告知应用程序必须完成跟踪。
 
 >[!CAUTION]
 >
->iOS印象跟踪不准确，不应被视为可靠。
+>iOS展示跟踪不准确，不应将其视为可靠。
 
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
-以下代码目标后台应用程序：
+以下代码针对后台应用程序：
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
@@ -272,7 +271,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-以下代码目标前台应用程序：
+以下代码针对前台应用程序：
 
 ```
 // This will get called when the app is in the foreground
@@ -297,10 +296,10 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### 如何实现单击跟踪{#push-click-tracking-iOS}
+### 如何实施点击跟踪 {#push-click-tracking-iOS}
 
-要进行点击跟踪，您必须在调用&#x200B;**[!UICONTROL trackAction()]**函数时发送值“2”以执行操作。
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+对于点击跟踪，您必须在调用&#x200B;**[!UICONTROL trackAction()]**函数时发送值“2”以执行操作。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 // AppDelegate.swift
@@ -337,7 +336,7 @@ func registerForPushNotifications() {
     }
 ```
 
-现在，在发送推送通知时，您需要添加类别。 在本例中，我们将其称为“DEFAULT”。
+现在，发送推送通知时，您需要添加类别。 在本例中，我们将其称为“DEFAULT”。
 
 ![](assets/tracking_push.png)
 
@@ -368,11 +367,11 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### 如何实现开放跟踪{#push-open-tracking-iOS}
+### 如何实施打开跟踪 {#push-open-tracking-iOS}
 
-您将需要发送“1”和“2”，因为用户必须单击通知才能打开应用程序。 如果应用程序未通过推送通知启动/打开，则不会发生跟踪事件。
+由于用户必须单击通知才能打开应用程序，因此您需要发送“1”和“2”。 如果应用程序未通过推送通知启动/打开，则不会发生跟踪事件。
 
-对于在21.1版本之前创建的投放或具有自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
+有关21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 import Foundation
