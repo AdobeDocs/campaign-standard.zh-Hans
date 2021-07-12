@@ -7,21 +7,20 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Profiles
-role: Business Practitioner
+feature: 用户档案
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '450'
 ht-degree: 95%
 
 ---
 
+# 管理测试用户档案 {#managing-test-profiles}
 
-# 管理测试用户档案{#managing-test-profiles}
-
-## 关于测试用户档案{#about-test-profiles}
+## 关于测试用户档案 {#about-test-profiles}
 
 利用测试用户档案可定向不符合所规定定向标准的其他收件人。可以将测试用户档案添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。
 
@@ -41,7 +40,7 @@ ht-degree: 95%
 
 ![](assets/test_profile.png)
 
-## 创建测试用户档案{#creating-test-profiles}
+## 创建测试用户档案 {#creating-test-profiles}
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **Profiles &amp; audiences > Test profiles**，以访问测试用户档案的列表。
 
@@ -70,7 +69,7 @@ ht-degree: 95%
 
 该测试用户档案随后将添加到用户档案的列表。
 
-## 编辑测试用户档案{#editing-test-profiles}
+## 编辑测试用户档案 {#editing-test-profiles}
 
 要编辑测试用户档案并查阅与其链接的数据，或对其进行修改，请执行以下步骤：
 
@@ -81,10 +80,10 @@ ht-degree: 95%
 
 1. 单击 **[!UICONTROL Save]**（如果已输入更改），或选择测试用户档案的名称，然后在屏幕顶部选择 **[!UICONTROL Test profiles]** 以返回测试用户档案仪表板。
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
 此视频演示如何创建测试用户档案。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
