@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: 直邮
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 98%
+source-wordcount: '339'
+ht-degree: 100%
 
 ---
-
 
 # 定义直邮内容{#defining-the-direct-mail-content}
 
@@ -29,7 +28,7 @@ ht-degree: 98%
 
 ![](assets/direct_mail_11.png)
 
-## 定义提取{#defining-the-extraction}
+## 定义提取 {#defining-the-extraction}
 
 1. 首先从定义提取文件的名称开始。单击 **[!UICONTROL Output file]** 字段右侧的按钮，输入所需的标签。您可以使用个性化字段、内容块和动态文本（请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)）。例如，您可以在标签中填写投放 ID 或提取日期。
 
@@ -49,7 +48,7 @@ ht-degree: 98%
 >
 >有关输出列定义的更多信息，请参阅[提取文件](../../automating/using/extract-file.md)工作流活动一节。
 
-## 定义文件结构{#defining-the-file-structure}
+## 定义文件结构 {#defining-the-file-structure}
 
 利用 **File structure** 选项卡，可为要导出的文件配置输出、日期和数字格式。
 
@@ -59,7 +58,7 @@ ht-degree: 98%
 >
 >有关可用选项的详情，请参阅[提取文件](../../automating/using/extract-file.md)工作流活动一节。
 
-## 定义页眉和页脚{#defining-the-header-and-footer}
+## 定义页眉和页脚 {#defining-the-header-and-footer}
 
 有时您可能需要在提取文件的开头或结尾添加信息。为此，请使用 **[!UICONTROL Content]** 配置屏幕的 **[!UICONTROL Header]** 和 **[!UICONTROL Footer]** 选项卡。
 
