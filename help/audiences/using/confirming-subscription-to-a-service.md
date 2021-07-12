@@ -6,21 +6,20 @@ description: 请在 Adobe Campaign 中按照以下步骤进行操作，为订阅
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: 受众
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
 
-
 # 确认订阅服务{#confirming-subscription-to-a-service}
 
-## 关于发送订阅确认函{#sending-subscription-confirmation}
+## 关于发送订阅确认函 {#sending-subscription-confirmation}
 
 本节介绍如何向订阅特定服务的用户档案自动发送自定义确认电子邮件。
 
@@ -34,7 +33,7 @@ ht-degree: 96%
 * 服务本身。有关更多信息，请参阅[配置服务的确认消息](#configuring-confirmation-message-from-service)。
 * 订阅登陆页面。有关更多信息，请参阅[配置登陆页面的确认消息](#configuring-confirmation-message-from-landing-page)。
 
-## 配置来自服务的确认消息{#configuring-confirmation-message-from-service}
+## 配置来自服务的确认消息 {#configuring-confirmation-message-from-service}
 
 例如，您希望向订阅您品牌新闻通讯的网站访客自动发送确认消息。
 
@@ -42,20 +41,20 @@ ht-degree: 96%
 
 配置来自服务的确认消息，使其仅在每个访客首次订阅该服务时发送确认事务型消息。如果某个用户档案已订阅，则不会再向该用户档案发送确认消息。
 
-### 第 1 步：创建确认电子邮件{#step-1--create-the-confirmation-email-1}
+### 第 1 步：创建确认电子邮件 {#step-1--create-the-confirmation-email-1}
 
 确认电子邮件将自动发送给（通过登陆页面或其他方式）订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
 创建确认电子邮件的步骤如下所示。由于服务中将要引用事务型消息，因此您需要先创建事务型消息。
 
-#### 创建事件{#create-the-event-1}
+#### 创建事件 {#create-the-event-1}
 
 确认电子邮件是一种事务型消息，它会对“订阅服务”事件产生反应。随后将会发送此消息，以确认订阅您的新闻通讯。
 
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   配置步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分中介绍。
+   有关配置步骤，请参见[配置事务事件](../../channels/using/configuring-transactional-event.md)一节。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL publicLabel]** 添加到数据结构，以启用协调。
 
@@ -81,26 +80,26 @@ ht-degree: 96%
 
 事件准备就绪。现在，您可以设计事务型电子邮件消息。
 
-#### 设计确认消息{#design-the-confirmation-message-1}
+#### 设计确认消息 {#design-the-confirmation-message-1}
 
 确认电子邮件是一种基于上文中所发布事件的事务型消息。
 
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** 并单击 **[!UICONTROL Transactional messages]**。
 1. 选择与上文中所发布事件对应的事务型电子邮件。
 
-1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。有关编辑事务性消息内容的详细信息，请参阅[编辑事务性消息](../../channels/using/editing-transactional-message.md)。
+1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。有关编辑事务型消息内容的更多信息，请参阅[编辑事务型消息](../../channels/using/editing-transactional-message.md)。
 1. 由于您可以直接访问 **[!UICONTROL Service]** 资源的所有字段，因此您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** > **[!UICONTROL Service]** 节点选择任何字段，以将内容个性化。
 
    ![](assets/confirmation_personalization-service.png)
 
    有关个性化事务型消息的更多信息，请参阅[此章节](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
-1. 使用测试用户档案预览消息。有关详细信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+1. 使用测试用户档案预览消息。有关更多信息，请参阅[定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 1. 单击 **[!UICONTROL Save & close]** 以保存您的内容。
 1. 发布事务型消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-### 第 2 步：创建和配置服务{#step-2--create-and-configure-the-service-1}
+### 第 2 步：创建和配置服务 {#step-2--create-and-configure-the-service-1}
 
 1. 从 Adobe Campaign 徽标访问高级菜单 **Profiles &amp; audiences** > **Services**，以创建服务。
 1. 通过服务仪表板的 ![](assets/edit_darkgrey-24px.png) 按钮，访问 **[!UICONTROL Service properties]** 部分。
@@ -125,26 +124,26 @@ ht-degree: 96%
 >
 >仅在用户首次订阅时发送消息。
 
-## 配置来自登录页的确认消息{#configuring-confirmation-message-from-landing-page}
+## 配置来自登录页的确认消息 {#configuring-confirmation-message-from-landing-page}
 
 您还可以使用登录页 **[!UICONTROL Job]** 部分的 **[!UICONTROL Start sending messages]** 选项，引用来自订阅登陆页面的确认消息。
 
 引用登陆页面的确认消息时，每次提交登陆页面时都会发送消息（即使用户档案已订阅）。
 
-### 第 1 步：创建确认电子邮件{#step-1--create-the-confirmation-email-2}
+### 第 1 步：创建确认电子邮件 {#step-1--create-the-confirmation-email-2}
 
 确认电子邮件将自动发送给通过登陆页面订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
 创建这些元素的步骤如下所示。由于登录页中将要引用事务型消息，因此您需要先创建事务型消息。
 
-#### 创建事件{#create-the-event-2}
+#### 创建事件 {#create-the-event-2}
 
 确认电子邮件是一种[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，它会对“订阅服务”事件产生反应。随后将会发送此消息，以确认订阅您的新闻通讯。
 
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   配置步骤在[配置事务事件](../../channels/using/configuring-transactional-event.md)部分中介绍。
+   有关配置步骤，请参见[配置事务事件](../../channels/using/configuring-transactional-event.md)一节。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL serviceName]** 添加到数据结构，以启用协调。
 
@@ -163,18 +162,18 @@ ht-degree: 96%
    >
    >这样，您即可在事务型消息中使用来自 [!UICONTROL Service] 资源的个性化字段。
 
-#### 设计确认消息{#design-the-confirmation-message-2}
+#### 设计确认消息 {#design-the-confirmation-message-2}
 
 有关设计事务型消息的步骤，请参阅本[章节](#design-the-confirmation-message-1)。
 
-### 第 2 步：创建和配置服务{#step-2--create-and-configure-the-service-2}
+### 第 2 步：创建和配置服务 {#step-2--create-and-configure-the-service-2}
 
 1. 从 Adobe Campaign 徽标访问高级菜单 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**，以创建服务。
 1. 通过服务仪表板的 ![](assets/edit_darkgrey-24px.png) 按钮，访问 **[!UICONTROL Service properties]** 部分。
 1. 填写 **[!UICONTROL Service label]** 字段。此标签将显示在确认消息和订阅登陆页面中。
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
 
-### 第 3 步：创建和配置登陆页面{#step-3--create-and-configure-the-landing-page}
+### 第 3 步：创建和配置登陆页面 {#step-3--create-and-configure-the-landing-page}
 
 创建将发布在您网站上的订阅登陆页面。
 
