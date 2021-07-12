@@ -6,21 +6,20 @@ description: “利用 Adobe Campaign 模板，可根据需要预配置参数：
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: 活动
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 99%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
+# 营销活动模板 {#marketing-activity-templates}
 
-# 营销活动模板{#marketing-activity-templates}
-
-## 关于模板{#about-templates}
+## 关于模板 {#about-templates}
 
 创建新的营销活动时，向导中的第一个屏幕会要求您选择类型或模板。利用模板可以根据需要预配置某些参数。模板可以包含营销活动的完整或部分配置。模板管理由功能管理员执行。
 
@@ -45,7 +44,7 @@ ht-degree: 99%
 * 导入
 * 事务型消息传递
 
-## 创建新模板{#creating-a-new-template}
+## 创建新模板 {#creating-a-new-template}
 
 平台的功能管理员可通过 **[!UICONTROL Resources > Templates]** 菜单管理消息模板。无法修改或删除现成模板。要创建新模板，必须复制现有模板之一。
 
@@ -63,7 +62,7 @@ ht-degree: 99%
 
 之后，创建营销活动时，标准用户可在向导的第一个屏幕中选择之前创建的模板。
 
-## 使用模板{#using-a-template}
+## 使用模板 {#using-a-template}
 
 我们现在将介绍如何使用前文中创建的模板。
 
