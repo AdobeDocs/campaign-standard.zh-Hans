@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: 了解如何保护和优化上游发送流程。
 feature: 可投放性
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 8%
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 * 您可以使用[促销活动控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能监控您的平台。
 
-## 正在检查网络配置{#network-config}
+## 检查网络配置 {#network-config}
 
 要在处理大量电子邮件时优化投放，并避免被误认为是垃圾邮件发送者，请确保您具有不会尝试隐藏服务器身份的合法网络配置。
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 * 请联系您的Adobe代表以获取帮助。
 
-## 隔离管理{#quarantine-management}
+## 隔离管理 {#quarantine-management}
 
 保持良好的隔离管理流程符合您的最佳利益。
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 * 隔离管理还可通过将错误电话号码排除在投放之外，帮助降低短信发送成本。
 
-## 双重选择加入机制{#double-opt-in}
+## 双重选择加入机制 {#double-opt-in}
 
 为避免向无效地址发送消息、限制不当通信并提高发件人信誉，Adobe建议实施双重选择加入机制以进行订阅后确认。 这有助于确保收件人有意订阅。
 
