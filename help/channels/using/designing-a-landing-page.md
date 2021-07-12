@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: 登陆页面
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 96%
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 # 设计登陆页面{#designing-a-landing-page}
 
-## 关于登陆页面内容设计{#about-content-design}
+## 关于登陆页面内容设计 {#about-content-design}
 
 登陆页面可创建为任意[营销活动](../../start/using/marketing-activities.md#about-marketing-activities)。
 
@@ -241,7 +241,7 @@ ht-degree: 96%
 
 ## 管理登陆页面的结构和样式{#managing-landing-page-structure-and-style}
 
-### 在内容编辑器中管理块{#managing-blocks-in-the-content-editor}
+### 在内容编辑器中管理块 {#managing-blocks-in-the-content-editor}
 
 不同的 HTML 内容元素在登陆页面中以块的形式显示，对应于 **&lt;div>****&lt;/div>** 标签。选择要与其交互的块。随后该块周围会显示一个蓝色的方框。
 
@@ -263,7 +263,7 @@ ht-degree: 96%
 
 ![](assets/des_lp_content_4.png)
 
-### 在内容编辑器中添加边框和背景{#adding-a-border-and-a-background-in-the-content-editor}
+### 在内容编辑器中添加边框和背景 {#adding-a-border-and-a-background-in-the-content-editor}
 
 您还可以通过从图表中选择颜色以定义背景&#x200B;**颜色**。该颜色将应用于所选的块。
 
@@ -273,7 +273,7 @@ ht-degree: 96%
 
 ![](assets/des_lp_content_6.png)
 
-### 在内容编辑器中更改文本样式{#changing-the-text-style-in-the-content-editor}
+### 在内容编辑器中更改文本样式 {#changing-the-text-style-in-the-content-editor}
 
 要更改文本样式，必须单击文本块的内部。
 
@@ -287,7 +287,7 @@ ht-degree: 96%
 
 您还可以使用工具栏更改字体属性：调整字体大小、使文本变为粗体或斜体、添加下划线或更改文本的颜色。请参阅[此章节](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface) 。
 
-### 在登陆页面中插入图像{#inserting-images-in-a-landing-page}
+### 在登陆页面中插入图像 {#inserting-images-in-a-landing-page}
 
 1. 在登陆页面内容中，选择包含图像的块。
 1. 选择 **[!UICONTROL Insert]** 按钮。
