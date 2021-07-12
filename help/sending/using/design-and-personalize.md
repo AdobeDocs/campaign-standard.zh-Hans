@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: 了解如何设计消息内容并尽量避免可能阻止您执行投放的常见问题。 
 feature: 可投放性
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 在设计消息内容时，请尽量避免可能阻止您执行投放的常见问题。 大多数情况下，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容](../../designing/using/using-existing-content.md) — 和[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content) — 和[图像](../../designing/using/images.md)时的格式设置相关。[
 
-## 优化个性化{#optimize-personalization}
+## 优化个性化 {#optimize-personalization}
 
 为避免可能阻止您执行投放并改善收件人体验的常见问题，Adobe Campaign允许您个性化邮件。
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 **提示**  — 使用不同的测试用户档案预览电子邮件，以确保正确配置了动态内容。
 
-## 构建优化内容{#optimize-content}
+## 构建优化内容 {#optimize-content}
 
 在构建电子邮件时，请牢记以下一般最佳实践。
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 
 了解如何在此部分](../../designing/using/personalization.md#adding-a-content-block)中插入选择退出链接[。
 
-### 电子邮件大小{#email-size}
+### 电子邮件大小 {#email-size}
 
 为避免出现性能或投放能力问题，建议电子邮件的最大大小约为&#x200B;**35KB**。
 
@@ -121,9 +121,9 @@ Adobe建议保留最大消息大小默认值。 但是，此值可在&#x200B;**[
 
 * 使用预览模式并发送校样，以在尽可能多的设备上测试渲染效果。 了解如何在发送前预览消息](../../sending/using/previewing-messages.md)。[
 
-* Campaign Email Designer为移动设备提供了响应式设计格式模板。 在本页](../../designing/using/using-reusable-content.md#content-templates)中了解更多[信息。
+* Campaign Email Designer为移动设备提供了响应式设计格式模板。 请参阅[此页面](../../designing/using/using-reusable-content.md#content-templates)以了解详情。
 
-## 管理映像{#manage-images}
+## 管理图像 {#manage-images}
 
 在使用图像时，请遵循以下准则。
 
@@ -145,7 +145,7 @@ Adobe建议保留最大消息大小默认值。 但是，此值可在&#x200B;**[
 
 要从外部访问，链接到营销活动的电子邮件和公共资源中使用的图像必须显示在可从外部访问的服务器上。
 
-## 预览消息{#preview-msg}
+## 预览消息 {#preview-msg}
 
 Adobe建议预览消息以检查其个性化以及收件人将如何看到您的投放。
 
