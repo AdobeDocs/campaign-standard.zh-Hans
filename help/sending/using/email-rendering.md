@@ -6,17 +6,16 @@ description: 了解电子邮件渲染功能。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 发送时间优化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
-
 
 # 电子邮件渲染{#email-rendering}
 
@@ -26,7 +25,7 @@ ht-degree: 82%
 
 可用于 Adobe Campaign 中&#x200B;**电子邮件渲染**&#x200B;的移动设备、即时消息传递和网络邮件客户端列表，请参见 Litmus [网站](https://litmus.com/email-testing)（单击 **View all email clients**）。
 
-## 生成电子邮件呈现{#checking-the-email-rendering-report}
+## 生成电子邮件渲染 {#checking-the-email-rendering-report}
 
 创建电子邮件投放并定义其内容及定向群体后，请执行以下步骤。
 
@@ -69,21 +68,21 @@ ht-degree: 82%
 * [发送校样](../../sending/using/sending-proofs.md)
 * [查询编辑器](../../automating/using/editing-queries.md#about-query-editor)
 
-## 电子邮件呈现报告{#email-rendering-report-description}
+## 电子邮件渲染报告 {#email-rendering-report-description}
 
 此报告展示了显示在收件人面前的电子邮件渲染。根据收件人打开电子邮件投放的方式，电子邮件渲染可能会有所不同：在浏览器中打开、在移动设备上打开或通过电子邮件应用程序打开。
 
-### 电子邮件呈现令牌
+### 电子邮件渲染令牌
 
 许可协议中列出了可用渲染的数量。启用了 **Email rendering** 的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
 
-令牌用于每个呈现，而非整个电子邮件呈现报表，这意味着：
+令牌用于每个渲染，而不用于整个电子邮件渲染报表，这意味着：
 
-* **每次** 生成“电子邮件”呈现报告时，都会扣除每个消息客户端的一个令牌：一个用于Outlook 2000渲染的令牌，一个用于Outlook渲染，一个用于Apple Mail渲染，等等。
+* **每次** 生成电子邮件渲染报告时，都会为每个消息传送客户端扣除一个令牌：一个用于Outlook 2000渲染的令牌，一个用于Outlook渲染的令牌，一个用于Apple Mail渲染的令牌，等等。
 
-* **对于同一投放**，如果您再次生成“电子邮件”呈现，则可用令牌的数量将再次减少为生成的呈现数。
+* **对于同一投放**，如果再次生成电子邮件渲染，则可用令牌的数量将再次减少所生成渲染的数量。
 
-### 报告摘要
+### 报表摘要
 
 报告摘要可显示已接收的消息数量、无用的（垃圾邮件）消息数量、未接收的消息数量或待接收的消息数量。
 
