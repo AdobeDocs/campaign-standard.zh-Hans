@@ -7,21 +7,20 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: 活动
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
+# 项目和营销活动{#programs-and-campaigns}
 
-# 项目和营销策划{#programs-and-campaigns}
-
-## 关于计划、项目和营销策划{#about-plans--programs-and-campaigns}
+## 关于计划、项目和营销策划 {#about-plans--programs-and-campaigns}
 
 利用 Adobe Campaign 可计划市场营销策划活动，并在这些活动中创建和管理不同类型的：电子邮件、短信、推送通知、工作流、登陆页面。这些营销策划及其内容可以收集成到项目中。
 
@@ -39,7 +38,7 @@ ht-degree: 99%
 * [时间线](../../start/using/timeline.md)
 * [关于动态报告](../../reporting/using/about-dynamic-reports.md)
 
-## 创建项目{#creating-a-program}
+## 创建项目 {#creating-a-program}
 
 项目是组织结构中的第一层。它可以包含子项目、营销策划、工作流或登陆页面。
 
@@ -67,7 +66,7 @@ ht-degree: 99%
 >
 >您还可从营销活动的列表创建项目。
 
-## 创建营销策划{#creating-a-campaign}
+## 创建营销策划 {#creating-a-campaign}
 
 在项目和子项目中，可以添加营销策划。营销策划可以包含营销活动，如电子邮件、短信、推送通知、工作流和登陆页面等。
 
@@ -94,7 +93,7 @@ ht-degree: 99%
 
 您也可以从营销活动列表创建营销策划。您可以通过营销策划的属性窗口，将营销活动关联到父项目或子项目。
 
-## 项目和营销策划的图标和状态{#programs-and-campaigns-icons-and-statuses}
+## 项目和营销策划的图标和状态 {#programs-and-campaigns-icons-and-statuses}
 
 列表的每个项目和每个营销策划都拥有一个可视符号和一个图标，图标的颜色可表示执行的状态。此状态取决于项目或营销策划的有效期。
 
@@ -103,4 +102,3 @@ ht-degree: 99%
 * 绿色：项目/营销策划已完成 - **[!UICONTROL Finished]** 状态。默认情况下，会自动显示当前日期作为有效期的开始日期，并根据开始日期计算结束日期（**D+186 天**）。您可以在项目或营销策划属性中更改这些日期。
 
 ![](assets/programs_and_campaigns.png)
-
