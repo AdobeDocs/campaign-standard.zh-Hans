@@ -6,17 +6,16 @@ description: 了解如何设置发送时间并提高消息的打开率。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 发送时间优化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 97%
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
-
 
 # 优化发送时间{#optimizing-the-sending-time}
 
@@ -46,4 +45,3 @@ ht-degree: 97%
 * **[!UICONTROL Send at a custom date defined by a formula]**：每个收件人都将在使用指定公式配置的日期和时间收到消息。
 
    请参阅[计算发送日期](../../sending/using/computing-the-sending-date.md)。
-
