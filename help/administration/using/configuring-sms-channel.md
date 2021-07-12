@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 95%
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 有关创建和修改外部帐户的详细步骤，请参见[外部帐户](../../administration/using/external-accounts.md)一节。下文中介绍了专用于外部帐户发送短信消息的参数。
 
-## 定义短信路由{#defining-an-sms-routing}
+## 定义短信路由 {#defining-an-sms-routing}
 
 默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
@@ -71,9 +71,9 @@ ht-degree: 95%
 
 您现在可以通过 Adobe Campaign，使用新路由发送短信消息。
 
-## 短信编码和格式{#sms-encoding-and-formats}
+## 短信编码和格式 {#sms-encoding-and-formats}
 
-### 短信编码、长度和音译{#sms-encoding--length-and-transliteration}
+### 短信编码、长度和音译 {#sms-encoding--length-and-transliteration}
 
 默认情况下，短信的字符数应符合 GSM（全球移动通信系统）标准。
 
@@ -100,7 +100,7 @@ ht-degree: 95%
 
 但是，如果短信消息包含大量会生成 Unicode 消息的字符，则可以选择加入此选项以限制发送消息的成本。
 
-### 字符表 - GSM 标准{#table-of-characters---gsm-standard}
+### 字符表 - GSM 标准 {#table-of-characters---gsm-standard}
 
 本节介绍 GSM 标准可识别的字符。除下方所列的字符外，插入消息正文的所有其他字符都会导致整个消息被转换为二进制格式 (Unicode)，从而使其长度限制变成 70 个字符。有关更多信息，请参阅[短信编码、长度和音译](#sms-encoding--length-and-transliteration)一节。
 
@@ -283,7 +283,7 @@ CR：回车
 
 ^ { } [ ~ ] | €
 
-### SMSC 详情{#smsc-specifics}
+### SMSC 详情 {#smsc-specifics}
 
 >[!NOTE]
 >
@@ -316,13 +316,13 @@ CR：回车
 
    ![](assets/sms_data_coding1.png)
 
-### 发送给 MO 的自动回复{#automatic-reply-sent-to-the-mo}
+### 发送给 MO 的自动回复 {#automatic-reply-sent-to-the-mo}
 
 当某个用户档案回复通过 Campaign 发送的短信消息时，您可以配置自动发回给他的消息以及要自动执行的操作。
 
 有关更多信息，请参见[此章节](../../channels/using/managing-incoming-sms.md)。
 
-## 配置短信属性{#configuring-sms-properties}
+## 配置短信属性 {#configuring-sms-properties}
 
 本节详细介绍短信投放或短信模板的属性屏幕中特有的短信参数列表。
 
