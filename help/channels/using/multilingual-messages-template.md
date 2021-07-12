@@ -6,19 +6,18 @@ description: 了解如何根据自动分段客户的首选语言，通过单次�
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Multilingual Messages
-role: Business Practitioner
+feature: 多语言消息
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 99%
 
 ---
 
-
-# 多语言消息模板{#multilingual-messages-template}
+# 多语言消息模板 {#multilingual-messages-template}
 
 多语言模板是用于管理多语言消息的特定模板。此类模板可用于&#x200B;**电子邮件和****短信消息**，并可用在独立模式、工作流或定期投放中。
 
