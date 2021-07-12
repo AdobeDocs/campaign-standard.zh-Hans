@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 实例设置
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 在本文档中，了解如何通过Adobe Campaign Standard iOS推送通知显示图像。
 
-## 步骤1:设置推送通知{#set-up-push}
+## 步骤1:设置推送通知 {#set-up-push}
 
 Experience PlatformSDK支持推送通知。
 
@@ -36,7 +36,7 @@ Experience PlatformSDK支持推送通知。
 
 要通过Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform Launch中设置移动应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
-## 步骤2:在Adobe Campaign {#customize-push}中自定义推送通知
+## 步骤2:在Adobe Campaign中自定义推送通知 {#customize-push}
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
@@ -51,7 +51,7 @@ Experience PlatformSDK支持推送通知。
 
 1. 预览并保存推送通知。
 
-## 步骤3:调整移动应用程序代码{#mobile-app-code}
+## 步骤3:调整移动应用程序代码 {#mobile-app-code}
 
 在Adobe Campaign中自定义推送通知后，您必须配置移动应用程序以在设备上显示图像。
 
@@ -154,7 +154,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 步骤4:测试发送推送{#test-send-push}
+## 步骤4:测试发送推送 {#test-send-push}
 
 您现在可以测试构建应用程序以及在上面步骤2中创建的投放。 有关准备和发送推送通知的更多信息，请参阅此[页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
