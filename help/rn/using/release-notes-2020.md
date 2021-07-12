@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
-## 20.4 版 - 2020 年 10 月{#release-20-4---october-2020}
+## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
 
 **新增功能**
 
@@ -191,7 +191,7 @@ ht-degree: 98%
 
 
 
-## 20.3 版 - 2020 年 5 月{#release-20-3---may-2020}
+## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
 
 **新增功能**
 
@@ -295,7 +295,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
-## 20.2 版 - 2020 年 4 月{#release-20-2---april-2020}
+## 20.2 版 - 2020 年 4 月 {#release-20-2---april-2020}
 
 **新增功能**
 
@@ -380,15 +380,15 @@ ht-degree: 98%
 * 修复了在执行具有多个集客过渡的活动时，工作流中可能发生的问题。
 * 修复了阻止标准用户在工作流查询或投放中将“订阅应用程序”用作定向维度的问题。(CAMP-37618)
 
-## 20.1.4 版 - 2020 年 2 月{#release-20-1-4---february-2020}
+## 20.1.4 版 - 2020 年 2 月 {#release-20-1-4---february-2020}
 
 * 修复了在现有工作流上打开&#x200B;**读取受众**&#x200B;活动时发生的问题。(CAMP-41002)
 
-## 20.1.3 版 - 2020 年 2 月{#release-20-1-3---february-2020}
+## 20.1.3 版 - 2020 年 2 月 {#release-20-1-3---february-2020}
 
 * 修复了 20.1 版引入的可能导致客户使用漏洞的退化问题 (CAMP-39273)。CAMP-39273 之前已被修复。
 
-## 20.1.2 版 - 2020 年 2 月{#release-20-1-2---february-2020}
+## 20.1.2 版 - 2020 年 2 月 {#release-20-1-2---february-2020}
 
 **Email Designer 增强功能**
 
@@ -396,7 +396,7 @@ ht-degree: 98%
 * 修复了在使用动态内容时添加空格的问题。(CAMP-40605)
 * 修复了配置事务性电子邮件模板时的问题。(CAMP-40604)
 
-## 20.1 版 - 2020 年 2 月{#release-20-1---february-2020}
+## 20.1 版 - 2020 年 2 月 {#release-20-1---february-2020}
 
 **新增功能**
 
