@@ -13,7 +13,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期随时可能更改：我们建议您定期访问此页面以查看更新。
 
-## 21.3 版 - 2021 年 6 月版 {#release-21-3-release}
+## 版本 21.3 - 2021 年 6 月版 {#release-21-3-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
@@ -43,11 +43,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年9月7-8日<br /> </td>
+   <td>2021 年 9 月 7 - 8 日<br /> </td>
   </tr>
   <tr>
-   <td>制作<br /> </td>
-   <td>2021年9月14-21日<br /> </td>
+   <td>作品<br /> </td>
+   <td>2021 年 9 月 14 - 21日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -56,7 +56,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 请订阅 [Campaign Standard 发行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，以通过电子邮箱接收关于最新版本的详情。
 
-## 问题与回答 {#questions-and-answers}
+## 问题与回答(&amp;A) {#questions-and-answers}
 
 **问：受影响的范围包括？**
 
