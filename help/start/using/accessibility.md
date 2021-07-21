@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## 使用首选语言 {#languages}
 
-Adobe Campaign Standard 提供不同语言形式：英语、法语和德语。
+Adobe Campaign Standard 提供不同语言版本：英语、法语和德语。
 
 请注意，语言在安装时进行设置，此后不能更改。
 
@@ -122,7 +122,7 @@ Adobe Campaign Standard 提供不同语言形式：英语、法语和德语。
 | Shift + Alt + S | 按计划发送报告 |
 | Shift = Alt + L | 计划报告 |
 
-## 进一步阅读 {#further-reading}
+## 阅读更多内容 {#further-reading}
 
 Adobe Campaign Standard 致力于提供不断增强的辅助功能，从而使产品对于每个人都易于使用。
 
