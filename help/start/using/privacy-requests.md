@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 ![](assets/privacy-disable-2-step-process.png)-->
 
-## 选择退出个人信息销售 (CCPA) {#sale-of-personal-information-ccpa}
+## 个人数据销售的选择退出 (CCPA) {#sale-of-personal-information-ccpa}
 
 **加州消费者隐私法案** (CCPA) 为加利福尼亚州居民提供了与其个人信息有关的新权利，并要求在加利福尼亚开展业务的特定实体承担数据保护责任。
 
