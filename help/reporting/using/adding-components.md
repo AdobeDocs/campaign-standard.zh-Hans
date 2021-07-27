@@ -10,9 +10,9 @@ feature: 报告
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    * **Dimension**:从投放日志获取详细信息，如收件人的浏览器或域，或投放成功与否。
    * **量度**:获取有关消息状态的详细信息。例如，如果已投放消息，且用户已将其打开。
-   * **[!UICONTROL Segments]**:根据收件人的年龄范围过滤数据。**[!UICONTROL Segments]** 可直接在自由格式表或面板顶栏中拖放。默认情况下，**[!UICONTROL Exclude proof]**&#x200B;区段已选中，但可根据需要进行更改。
+   * **[!UICONTROL Segments]**:根据收件人的年龄范围过滤数据。**[!UICONTROL Segments]** 可直接在自由格式表或面板顶栏中拖放。
 
       只有在管理员批准屏幕上显示的动态报告使用协议的条款和条件后，才可使用此类别。 如果管理员拒绝协议，区段将不会显示在&#x200B;**[!UICONTROL Components]**&#x200B;选项卡中，并且不会收集数据。
 
