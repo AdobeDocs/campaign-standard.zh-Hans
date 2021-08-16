@@ -2,25 +2,25 @@
 solution: Campaign Standard
 product: campaign
 title: External API
+description: 外部API活动通过HTTP API调用，将外部系统中的数据引入Campaign Standard工作流。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: Workflows
+feature: 工作流
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
 
+# 外部API {#external-api}
 
-# External API{#external-api}
-
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/wf_externalAPI.png)
 
@@ -40,7 +40,7 @@ ht-degree: 95%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard 20.4版本中，已降低http响应数据大小限制和响应超时护栏，以符合最佳实践 — 请参阅[限制和护栏](#guardrails)。 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
+在Campaign Standard20.4版本中，为了符合最佳实践，已降低http响应数据大小限制和响应超时护栏 — 请参阅[限制和护栏](#guardrails)。 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 >
 >您将无法复制特定于活动的标头值，因为这些值在活动中已屏蔽。
 
-### 限制和防护{#guardrails}
+### 限制和防护 {#guardrails}
 
 以下护栏适用于此活动：
 
@@ -68,7 +68,7 @@ ht-degree: 95%
 >
 >外部 API 活动旨在用于获取营销活动范围的数据（最新优惠集、最新分数等），而非用于检索每个用户档案的特定信息，因为这可能会导致传输大量数据。如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 将 **[!UICONTROL External API]** 活动拖放到工作流中，然后打开活动以开始配置。
 
@@ -116,13 +116,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS Endpoint**。
+通过此选项卡，可以定义连接端点。利用&#x200B;**[!UICONTROL URL]**&#x200B;字段，可定义Campaign Standard将与之通信的&#x200B;**HTTPS端点**。
 
 如果端点需要，可使用两种类型的身份验证方法：
 
 * 基本身份验证：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分输入您的用户名/密码信息。
 
-* OAuth身份验证：通过单击外部帐户中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，您可以选择定义OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
+* OAuth身份验证：通过单击外部帐户中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，可以选择定义了OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 
@@ -160,7 +160,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ## 测试
 
-要使用简单的测试端点测试外部API功能，可以使用Postman Echo:https://docs.postman-echo.com。
+要使用简单的测试端点测试外部API功能，您可以使用Postman Echo:https://docs.postman-echo.com。
 
 ## 疑难解答
 
@@ -262,8 +262,8 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>不允许的 HTTP 标头键值（标头键值：'%s'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP头值错误(头值：“%s”)。</td> 
-   <td> <p>HTTP头值错误(头值：“%s”)。 </p>
+   <td> WKF-560247 - HTTP标头值错误(标头值：“%s”)。</td> 
+   <td> <p>HTTP标头值错误(标头值：“%s”)。 </p>
     <p>注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头值失败时，将记录此错误。</p></td> 
   </tr> 
   <tr> 
