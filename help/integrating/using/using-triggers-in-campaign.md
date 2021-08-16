@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 在 Campaign 中使用触发器
+description: 在Adobe Campaign中基于现有的Adobe Experience Cloud触发器创建触发器事件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,10 +10,10 @@ feature: 触发器
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 82%
+source-wordcount: '765'
+ht-degree: 80%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 82%
 
 1. 您现在可以发布触发器。 有关更多信息，请参阅[在Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中发布触发器。
 
-## 在Campaign {#publishing-trigger-in-campaign}中发布触发器
+## 在Campaign中发布触发器 {#publishing-trigger-in-campaign}
 
 在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发器事件后，您现在需要发布该事件。
 
@@ -78,7 +79,7 @@ ht-degree: 82%
 
 发布事件后，将自动创建链接到新事件的事务型模板。然后，您必须修改并发布之前创建的模板。有关更多信息，请参阅[编辑模板](../../start/using/marketing-activity-templates.md)一节。
 
-## 编辑事务型消息模板{#editing-the-transactional-message-template}
+## 编辑事务型消息模板 {#editing-the-transactional-message-template}
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
@@ -92,7 +93,7 @@ ht-degree: 82%
 
 ![](assets/remarketing_8.png)
 
-## 访问报告{#accessing-the-reports}
+## 访问报告 {#accessing-the-reports}
 
 要在 Adobe Campaign 中查看专用触发器报告，请打开您之前创建的触发器事件，然后单击 **[!UICONTROL Show trigger report]**。
 
