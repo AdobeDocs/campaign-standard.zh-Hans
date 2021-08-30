@@ -6,14 +6,14 @@ description: 本页列出 Adobe Campaign Standard 的已弃用和已移除的功
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: 概述
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 76%
+source-wordcount: '727'
+ht-degree: 80%
 
 ---
 
@@ -39,22 +39,6 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 通常，首先将计划在未来版本中移除的功能设置为已弃用，并提供替代功能。这些特性和功能不再适用于新的 Campaign Standard 客户，也不应当用于任何新实施。它们也会从产品文档中移除。
 
 建议客户复查他们是否在其当前部署中利用相应的特性/功能，并制定计划来更改其实施，从而使用提供的替代功能。请参阅目标移除版本，以相应地规划环境和项目更新。
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Experience Cloud资产集成</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 自2021年7月起，Assets现在成为旧版核心服务，并在维护中。 <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">了解详情</a>。</p>
-   <p>对于新实施，您无法再将Experience Cloud资产与Adobe Campaign Standard集成。</p>
-     <em>目标移除日期：2022 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
