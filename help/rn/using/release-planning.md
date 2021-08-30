@@ -6,14 +6,14 @@ description: 本页列出了即将发行的 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 概述
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期随时可能更改：我们建议您定期访问此页面以查看更新。
 
-## 21.3版 — 2021年9月版 {#release-21-3-release}
+## 21.3 版 - 2021 年 9 月版 {#release-21-3-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
@@ -52,7 +52,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  </tbody>
 </table>
 
-如果您有其他问题，请联系 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如果您有其他问题，请联系 [Adobe 客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 ## 问题与回答(&amp;A) {#questions-and-answers}
 
