@@ -6,14 +6,14 @@ description: 了解如何创建、管理和发送跟进消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 要访问此模板，请执行以下操作：
 
-1. 单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标。
 1. 选择&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**。
 1. 选中左窗格中的&#x200B;**[!UICONTROL Follow-up messages]**&#x200B;框。
 

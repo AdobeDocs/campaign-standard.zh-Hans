@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 76%
+source-wordcount: '652'
+ht-degree: 74%
 
 ---
 
@@ -66,7 +66,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
@@ -137,7 +137,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。操作步骤：
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 1. 将鼠标指针悬停在您选择的消息上。
 1. 单击 **[!UICONTROL Delete element]** 按钮。
 

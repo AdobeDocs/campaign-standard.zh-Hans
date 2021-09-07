@@ -6,14 +6,14 @@ description: 了解如何通过 Campaign 管理投放失败。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: 可投放性
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 66%
+source-wordcount: '1303'
+ht-degree: 64%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 66%
 
 ## 在投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
-如果消息因 **Ignored** 类型的临时错误而失败，则会在投放持续期间执行重试。有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
+如果消息因临时错误而失败，则会在投放持续期间执行重试。 有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
 
 重试次数（开始发送后一天内应执行多少次重试）和重试之间的最短延迟现在<!--managed by the Adobe Campaign Enhanced MTA,-->取决于IP在给定域名的历史和当前表现。 Campaign 中的 **Retries** 设置将被忽略。
 
@@ -118,7 +118,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >不再使用 Campaign **[!UICONTROL Message qualification]** 表格中的退回鉴别。
 
-异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Channels > Email > Email processing rules]**，接着选择 **[!UICONTROL Bounce mails]**。有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
 有关退回和不同类型退回的更多信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
@@ -130,7 +130,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

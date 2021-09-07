@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 最新版本
-description: 此页面详细描述最新 Campaign Standard 版本的内容
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: 早期发行说明
+description: 早期发行说明
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# 早期发行说明 {#new-release}
 
-# 最新版本{#latest-release}
+本页介绍了下一个 Campaign Standard 版本中包含的新增功能、改进和修复。
+
+>[!CAUTION]
+>
+> 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
 ## 21.3 版 - 2021 年 9 月 {#release-21-3---sept-2021}
-
-下面列出了最新Campaign Standard版本中包含的新增功能、改进和修复。
 
 **新增功能**
 
@@ -98,7 +100,7 @@ ht-degree: 38%
 
 * 现在，在工作流中创建链接到 Adobe Experience Manager 内容的定期投放时，发送之前会检查内容批准状态。
 * 数据库连接限制现在与 Campaign 包一致，以避免连接错误。
-* 自定义资源发布中的新一致性检查可阻止用户创建重复的索引，这会导致发布失败。 改进的错误消息会要求用户根据需要重命名索引。
+* 在自定义资源中创建索引时添加了一致性检查并改进了错误消息。
 
 **其他变更**
 

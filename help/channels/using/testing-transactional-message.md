@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 40%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 40%
 
 您还可以创建新的测试用户档案，或使用 **[!UICONTROL Test profiles]** 菜单中已存在的测试用户档案。操作步骤：
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
 1. 在&#x200B;**[!UICONTROL Event]**&#x200B;部分中，选择之前创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
 1. 在 **[!UICONTROL Event data]** 文本框中指定要以 JSON 格式发送的信息。
 

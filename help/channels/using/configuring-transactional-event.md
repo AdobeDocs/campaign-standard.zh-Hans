@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 要开始配置，请创建与您的需求对应的事件。
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. 单击 **[!UICONTROL Create]** 按钮。
 1. 输入事件的&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**。 **[!UICONTROL ID]**&#x200B;字段是必填字段，且应以前缀“EVT”开头。 如果不使用此前缀，则在单击&#x200B;**[!UICONTROL Create]**&#x200B;后将自动添加该前缀。
 
@@ -151,7 +151,7 @@ ht-degree: 7%
 
 要访问和搜索已创建的事务型事件，请执行以下步骤。
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. 单击 **[!UICONTROL Show search]** 按钮。
 
    ![](assets/message-center_search-events.png)

@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 30%
+source-wordcount: '654'
+ht-degree: 29%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 30%
 
 要访问您创建的事务型消息，请执行以下操作：
 
-1. 单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标。
 1. 选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 
    ![](assets/message-center_4.png)

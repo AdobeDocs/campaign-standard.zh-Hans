@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: 访问管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 88%
+source-wordcount: '941'
+ht-degree: 87%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 88%
 
 管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Users & Security > Security groups]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Users & Security > Security groups]**。
 1. 创建新的安全组并指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
 
    ID 必须与在管理控制台中选择的 ID 相同。

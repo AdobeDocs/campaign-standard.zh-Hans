@@ -6,20 +6,20 @@ description: 了解如何在Adobe Campaign中配置Points of Interest数据功�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 受众
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1330'
+ht-degree: 2%
 
 ---
 
 # 配置 Campaign-兴趣点数据集成{#configuring-campaign-points-of-interest-data-integration}
 
-## 配置与Adobe Experience Platform SDK的Campaign — 目标点数据集成{#configuring-campaign-poi-aep-sdk}
+## 配置与Adobe Experience Platform SDK的Campaign — 兴趣点数据集成 {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 1. 确保在Adobe Campaign中访问移动应用程序和收集的位置数据。 请参阅[访问用于收集位置数据的移动设备应用程序](#accessing-mobile-apps-used-to-collect-location-data)和[访问收集的位置数据](#accessing-collected-location-data)。
 
-## 使用SDK V4 {#configuring-campaign-poi-sdkv4}配置Campaign — 目标点数据集成
+## 使用SDK V4配置Campaign — 兴趣点数据集成 {#configuring-campaign-poi-sdkv4}
 
 用于收集位置数据的移动应用程序必须由Adobe Campaign界面的&#x200B;**administrator**&#x200B;配置。
 
@@ -58,11 +58,11 @@ ht-degree: 3%
 1. 定义要从移动应用程序的订阅者那里收集的数据。 请参阅[收集订阅者的目标点数据](#collecting-subscribers--points-of-interest-data)。
 1. 确保在Adobe Campaign中访问移动应用程序和收集的位置数据。 请参阅[访问用于收集位置数据的移动设备应用程序](#accessing-mobile-apps-used-to-collect-location-data)和[访问收集的位置数据](#accessing-collected-location-data)。
 
-### 使用SDK V4 {#setting-up-a-mobile-app-in-campaign}在Adobe Campaign中设置移动应用程序
+### 使用SDK V4在Adobe Campaign中设置移动应用程序 {#setting-up-a-mobile-app-in-campaign}
 
 为了能够使用Adobe Campaign收集目标点数据，您必须配置Adobe Campaign将从中接收数据的移动应用程序。
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**。
 1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以设置应用程序。
 1. 在&#x200B;**[!UICONTROL Application name]**&#x200B;字段中输入名称，然后单击&#x200B;**[!UICONTROL Create]**。
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ![](assets/poi_mobile_app_properties.png)
 
-### 在Mobile Services中配置V4移动应用程序{#configuring-a-mobile-app-in-adobe-mobile-services}Adobe
+### 在Mobile Services中配置V4移动应用程序Adobe {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 要将Mobile Services收集的Adobe发送到Adobe Campaign，您必须在Mobile Services界面中配置回发。
 
@@ -166,13 +166,13 @@ ht-degree: 3%
 >
 >有关配置回发的详细信息，请参阅[AdobeMobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)。
 
-### 将SDK集成到移动应用程序{#integrating-the-sdk-into-a-mobile-application}
+### 将SDK集成到移动应用程序 {#integrating-the-sdk-into-a-mobile-application}
 
 移动核心服务的软件开发工具包(SDK)有助于将移动应用程序集成到Adobe Campaign。
 
 此[page](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)中介绍了此步骤。
 
-### 定义AdobeMobile Services中的目标点{#defining-points-of-interest-in-adobe-mobile-services}
+### 定义AdobeMobile Services中的目标点 {#defining-points-of-interest-in-adobe-mobile-services}
 
 要定义用于收集位置数据的目标点，请执行以下操作：
 
@@ -185,18 +185,18 @@ ht-degree: 3%
 
    有关管理目标点的更多信息，请参阅[AdobeMobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)。
 
-### 收集订阅者的目标点数据{#collecting-subscribers--points-of-interest-data}
+### 收集订阅者的兴趣点数据 {#collecting-subscribers--points-of-interest-data}
 
 使用特定的自定义资源可定义要从应用程序的订阅者那里收集的数据。
 
 [使用SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中介绍了此步骤。
 
 
-## 访问用于收集位置数据的移动设备应用程序{#accessing-mobile-apps-used-to-collect-location-data}
+## 访问用于收集位置数据的移动设备应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 
 要访问在Adobe Campaign中成功创建的应用程序，请执行以下操作：
 
-1. 单击左上角的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;徽标。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标。
 1. 根据SDK选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]**&#x200B;或&#x200B;**[!UICONTROL Mobile app (AEP SDK)]**。
 1. 从列表中选择一个移动设备应用程序以显示其属性。
 
@@ -204,7 +204,7 @@ ht-degree: 3%
 
 **[!UICONTROL Mobile application subscribers]**&#x200B;选项卡中还会显示应用程序订阅者的列表。 订阅者是指在其移动设备上安装了应用程序的所有用户。 Adobe Campaign数据库用户档案使用注册令牌进行标识。
 
-## 访问收集的位置数据{#accessing-collected-location-data}
+## 访问收集的位置数据 {#accessing-collected-location-data}
 
 完成设置后，收集的目标点数据将列在每个配置文件的&#x200B;**[!UICONTROL Places]**&#x200B;选项卡中。 要访问列表，请执行以下操作：
 

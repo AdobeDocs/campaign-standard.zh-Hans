@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 8%
+source-wordcount: '608'
+ht-degree: 6%
 
 ---
 
@@ -102,7 +102,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 取消发布事件后，或尚未发布事件时，可以从事件配置列表中将其删除。 操作步骤：
 
-1. 单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. 将鼠标悬停在所选事件配置上，然后选择&#x200B;**[!UICONTROL Delete element]**&#x200B;按钮。
 
    ![](assets/message-center_delete-button.png)

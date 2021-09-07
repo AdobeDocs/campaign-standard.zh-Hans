@@ -6,13 +6,13 @@ description: 了解如何在Email Designer中个性化电子邮件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 3%
 Adobe Campaign投放的消息的内容和显示可以通过几种不同的方式进行个性化。 根据用户档案的不同，可以根据条件组合这些方式。 一般而言，Adobe Campaign 允许您：
 
 * 插入动态的个性化字段。请参阅[插入个性化字段](#inserting-a-personalization-field)。
-* 插入预定义的个性化块。请参阅[添加内容块](#adding-a-content-block)。
+* 插入预定义的个性化块。
+请参阅[添加内容块](#adding-a-content-block)。
 * 将电子邮件的发件人个性化。 请参阅[个性化发件人](#personalizing-the-sender)。
 * 将电子邮件的主题个性化。 请参阅[个性化电子邮件的主题行](../../designing/using/subject-line.md#subject-line)。
 * 创建条件性内容。请参阅[在电子邮件中定义动态内容](#defining-dynamic-content-in-an-email)。
@@ -53,7 +54,9 @@ Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动
 
 >[!NOTE]
 >
->个性化URL不能应用于域名或URL扩展。 如果个性化不正确，则在消息分析期间将显示错误消息。 选择内容块时，不允许选择元素，如&#x200B;**链接到镜像页面**。 此类块在链接内部是禁止的。
+>禁用用于跟踪链接的URL签名机制后，将无法将个性化URL应用于域名或URL扩展。 如果个性化不正确，则在消息分析期间将显示错误消息。
+>
+>选择内容块时，不允许选择元素，如&#x200B;**链接到镜像页面**。 此类块在链接内部是禁止的。
 
 ## 插入个性化字段{#inserting-a-personalization-field}
 

@@ -6,14 +6,14 @@ description: 'Adobe Campaign 用户担任着各种特定的角色。了解主要
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 访问管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
-要在 Adobe Campaign 中查看用户，请单击左上角的 **[!UICONTROL Adobe Campaign]** 徽标，然后选择 **[!UICONTROL Administration > Users & Security > Users]**。
+要在Adobe Campaign中查看用户，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Users & Security > Users]**。
 
 要从 Adobe Campaign 访问用户管理界面，请单击 **[!UICONTROL User administration]**。
 
@@ -156,7 +156,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 现在，您的用户即可以使用 Adobe Campaign Standard。
 
-## 教程视频(#video)
+## 教程视频 {#video}
 
 此视频演示了如何管理用户访问权限。
 

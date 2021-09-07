@@ -6,13 +6,13 @@ description: 选择退出会导致用户档案不再为任何投放或特定渠�
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 受众
+feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 9%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->选择退出适用于&#x200B;**Profiles**，而不是与链接到&#x200B;**电子邮件地址**&#x200B;或&#x200B;**电话号码**&#x200B;的隔离。 因此，选择退出用户档案将从投放中排除链接到该用户档案的所有地址。 如果用户在数据库中有两个用户档案，则投放仍会定向他，因为他的其中一个用户档案是选择退出的。 要确保将其所有地址都排除，请将其添加到隔离地址。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
+>选择退出适用于&#x200B;**Profiles**，而不是与链接到&#x200B;**电子邮件地址**&#x200B;或&#x200B;**电话号码**&#x200B;的隔离。 因此，选择退出用户档案将从投放中排除链接到该用户档案的所有地址。 但是，如果用户在数据库中有两个用户档案，则投放仍会定向他，因为只会选择其中一个用户档案。 要确保将其所有地址都排除在外，请将其添加到隔离地址中。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
 
 有关服务订阅的更多信息，请参阅[本页](../../audiences/using/about-subscriptions.md)。
