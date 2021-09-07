@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ ht-degree: 30%
 
 * **** 隔离仅适用于地 **址** （或电话号码等），而不适用于用户档案本身。例如，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后可以再次被投放操作定向。 同样，如果两个用户档案的电话号码恰巧相同，那么隔离该号码后，这两个用户档案都将受到影响。
 
-   隔离地址或电话号码显示在[排除日志](identifying-quarantined-addresses-for-a-delivery)（用于投放）或[隔离列表](#identifying-quarantined-addresses-for-the-entire-platform)（用于整个平台）中。
+   隔离地址或电话号码显示在[排除日志](#identifying-quarantined-addresses-for-a-delivery)（用于投放）或[隔离列表](#identifying-quarantined-addresses-for-the-entire-platform)（用于整个平台）中。
 
 * 另一方面，位于&#x200B;**阻止列表**&#x200B;上将导致&#x200B;**用户档案**&#x200B;不再被投放定向，如在退订（选择退订）后，给定渠道不再定向。 例如，如果电子邮件渠道上的用阻止列表户档案有两个电子邮件地址，则这两个地址都将从投放中排除。 有关过阻止列表程的更多信息，请参阅[关于Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的选择启用和选择禁用。
 
