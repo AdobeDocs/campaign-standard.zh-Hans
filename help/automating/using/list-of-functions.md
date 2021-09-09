@@ -6,20 +6,20 @@ description: 利用查询编辑工具，可使用高级函数进行复杂筛选�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: 工作流
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
 # 函数列表{#list-of-functions}
 
-## 关于函数{#about-functions}
+## 关于函数 {#about-functions}
 
 利用查询编辑工具，可使用高级函数进行复杂筛选。为实现此目的，工具面板提供了可用于工作区的 **[!UICONTROL Expression]** 元素。有关此元素的详细信息，请参阅[特定章节](../../automating/using/advanced-expression-editing.md)。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 将字符串转换为日期+时区。<br />示例：ToDateTimeWithTimezone("2019-02-19 08:09:00","Asia/Tehran")<br /> </td> 
+   <td> 将字符串转换为日期+时区。<br /> 示例：ToDateTimeWithTimezone("2019-02-19 08:09:00","Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,11 +707,12 @@ ht-degree: 0%
    <td> 返回数字、字符串或日期列中的最小值。<br /> </td> 
    <td> Min(&lt;值&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>，字符串聚合<br /> </td>
+   <td> 返回字符串类型列值的串联，并由第二个参数（默认分隔符为逗号）中的字符分隔。<br /> </td>
+   <td> StringAgg（&lt;字符串值&gt;,&lt;分隔符&gt;）
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> 返回数值列中值的和。<br /> </td> 
    <td> Sum(&lt;值&gt;)<br /> </td> 

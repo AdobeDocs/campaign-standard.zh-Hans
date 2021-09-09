@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 38%
 
 * Adobe Experience Platform Data Connector和Audience Destinations服务现已在Campaign Standard中弃用。 如果您使用这些功能，则需要转到Adobe源和目标并调整实施。 [了解详情](../../integrating/using/get-started-sources-destinations.md)
 * [此页面](deprecated-features.md)中列出了已弃用和已删除的功能。
-* 引入了新的“StringAgg”聚合函数，以连接字符串类型列的值。(CAMP-47077)
+* 引入了新的“StringAgg”聚合函数，以连接字符串类型列的值。(CAMP-47077) [了解详情](../../automating/using/list-of-functions.md#aggregates)
 * **更新投放指示器**(updateDeliveryIndicators)技术工作流已得到改进，可获得更好的性能。
 * 应用程序内消息传送模板现在适用于Campaign Standard中支持的所有语言。
 * 通过减少投放分析期间对跟踪服务器的调用次数，已针对事务型消息优化了投放准备时间。
