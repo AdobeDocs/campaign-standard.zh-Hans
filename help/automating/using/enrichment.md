@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 扩充
 description: 扩充活动是一种高级活动，利用该活动可定义要在工作流中处理的附加数据。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
-
 # 扩充{#enrichment}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/enrichment.png)
 
 **[!UICONTROL Enrichment]** 活动是一种高级活动，利用该活动可定义要在工作流中处理的附加数据。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Enrichment]** 活动通常用在定向活动或导入文件之后、以及允许使用定向数据的活动之前。
 
@@ -37,10 +34,10 @@ ht-degree: 95%
 
 **相关主题**
 
-* [用例：用文件中包含的数据丰富用户档案数据](../../automating/using/enriching-profile-data-file.md)。
-* [用例：发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [用例：使用文件中包含的数据扩充用户档案数据](../../automating/using/enriching-profile-data-file.md)。
+* [用例：发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 要配置 **[!UICONTROL Enrichment]** 活动，请执行以下步骤：
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 构建工作流
 description: 本节详细介绍创建新工作流的主要原理和最佳实践。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,wizard;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
-
 
 # 构建工作流{#building-a-workflow}
 
@@ -39,7 +36,7 @@ ht-degree: 96%
 
 ![](assets/workflow_overview.png)
 
-## 创建工作流{#creating-a-workflow}
+## 创建工作流 {#creating-a-workflow}
 
 您可以从项目、营销策划或营销活动列表创建工作流。
 
@@ -75,11 +72,11 @@ ht-degree: 96%
 
    例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
-   有关工作流属性的详细信息，请参阅[此页](../../automating/using/managing-execution-options.md)。
+   有关工作流属性的更多信息，请参阅[此页面](../../automating/using/managing-execution-options.md)。
 
    ![](assets/workflow_properties.png)
 
-## 添加和链接活动{#adding-and-linking-activities}
+## 添加和链接活动 {#adding-and-linking-activities}
 
 您现在必须定义各种活动，并在图表中将它们链接到一起。
 
@@ -123,7 +120,7 @@ ht-degree: 96%
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
 * [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## 配置活动{#configuring-activities}
+## 配置活动 {#configuring-activities}
 
 默认情况下，如果不配置活动，就代表未正确设置活动，也无法正确处理数据。每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如叫客过渡、标签等。
 
@@ -134,10 +131,10 @@ ht-degree: 96%
 1. 保存活动，并为工作流的每个活动重复这些操作。
 1. 保存工作流。
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
-此视频演示如何创建工作流。
+以下视频演示了如何创建工作流。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。

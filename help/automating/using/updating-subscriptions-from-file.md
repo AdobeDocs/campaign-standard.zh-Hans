@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 从文件更新多个订阅状态
-description: 此用例说明如何导入包含用户档案的文件，并将其订阅更新到文件中指定的多个服务。
+description: 此用例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '417'
 ht-degree: 76%
 
 ---
-
 
 # 从文件更新多个订阅状态 {#updating-multiple-subscription-statuses-from-a-file}
 
@@ -27,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* [加载文件](../../automating/using/load-file.md)活动加载用户档案文件并定义导入列的结构。
+* [加载文件](../../automating/using/load-file.md)活动加载配置文件并定义导入列的结构。
 
    在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -52,7 +49,7 @@ ht-degree: 76%
 
    如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* [协调](../../automating/using/reconciliation.md)活动将文件中的数据标识为属于Adobe Campaign数据库的用户档案维。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
+* 通过[Reconciliation](../../automating/using/reconciliation.md)活动，将文件中的数据标识为属于Adobe Campaign数据库的用户档案维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -60,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* 基于临时资源（由对帐产生）的&#x200B;**email**&#x200B;字段的[外部重复数据删除](../../automating/using/deduplication.md)标识重复。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* 根据临时资源的&#x200B;**email**&#x200B;字段（由协调产生）的[重复数据删除](../../automating/using/deduplication.md)标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* [订阅服务](../../automating/using/subscription-services.md)活动通过在&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接将要更新的服务标识为来自过渡。
+* [订阅服务](../../automating/using/subscription-services.md)活动通过在&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接，将要更新的服务标识为来自过渡的服务。
 
    将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 

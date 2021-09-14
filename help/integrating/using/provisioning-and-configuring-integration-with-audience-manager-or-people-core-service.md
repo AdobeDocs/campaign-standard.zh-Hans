@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 预配和配置与 Audience Manager 或 People 核心服务的集成
 description: '了解如何配置Audience Manager/人员核心服务集成，以便开始与不同的Adobe Experience Cloud解决方案共享受众或区段。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People核心服务集成
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 9%
 
 ---
@@ -60,7 +58,7 @@ Audience Manager(AAM)或人员核心服务集成允许您在Adobe Campaign中导
  </tbody> 
 </table>
 
-## 在Adobe Campaign中配置集成{#configuring-the-integration-in-adobe-campaign}
+## 在Adobe Campaign中配置集成 {#configuring-the-integration-in-adobe-campaign}
 
 提交此请求后，Adobe将继续为您配置集成，并与您联系以提供完成配置所需的详细信息和信息：
 
@@ -69,7 +67,7 @@ Audience Manager(AAM)或人员核心服务集成允许您在Adobe Campaign中导
 * [步骤3:配置促销活动跟踪服务器](#step-3--configure-campaign-tracking-server)
 * [步骤4:配置访客ID服务](#step-4--configure-the-visitor-id-service)
 
-### 步骤1:在Adobe Campaign中配置或检查外部帐户{#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### 步骤1:在Adobe Campaign中配置或检查外部帐户 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 我们首先需要在Adobe Campaign中配置或检查外部帐户。 这些帐户应按Adobe进行配置，并且应将必要的信息通知您。
 
@@ -86,7 +84,7 @@ Audience Manager(AAM)或人员核心服务集成允许您在Adobe Campaign中导
 
 现在已为此集成配置了外部帐户。
 
-### 步骤2:配置数据源{#step-2--configure-the-data-sources}
+### 步骤2:配置数据源 {#step-2--configure-the-data-sources}
 
 在Audience Manager中创建以下两个数据源：Adobe Campaign(MID)和Adobe Campaign(DeclaredId)。 同时，以下两个数据源在Adobe Campaign中可用：
 
@@ -122,13 +120,13 @@ Audience Manager(AAM)或人员核心服务集成允许您在Adobe Campaign中导
 >
 >如果要为[Campaign-Triggers集成](../../integrating/using/configuring-triggers-in-experience-cloud.md)配置共享数据源，则不需要&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;字段。 **[!UICONTROL Priority]** 仅在配置“触发器 — 促销活动”集成时才需要使用。优先级决定首先配置哪个数据源。 优先级可以是任意数字，如1或100。 优先级越高，在协调期间的优先级就越高。
 
-### 步骤3:配置促销活动跟踪服务器{#step-3--configure-campaign-tracking-server}
+### 步骤3:配置促销活动跟踪服务器 {#step-3--configure-campaign-tracking-server}
 
 要配置与People Core服务或Audience Manager的集成，我们还需要配置促销活动跟踪服务器。
 
 在此，您需要确保在域(CNAME)上注册了促销活动跟踪服务器。 您可以在[本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)中找到有关域名配置的更多信息。
 
-### 步骤4:配置访客ID服务{#step-4--configure-the-visitor-id-service}
+### 步骤4:配置访客ID服务 {#step-4--configure-the-visitor-id-service}
 
 如果您的访客ID服务从未在您的Web属性或网站上配置，请参阅以下[文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)以了解如何配置服务或以下[视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)。
 

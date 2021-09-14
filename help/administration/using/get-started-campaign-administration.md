@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard 管理快速入门
 description: 探索用户和权限管理、监控指南、特定于渠道的配置以及应用程序设置指南
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: 访问管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 15%
 
 ---

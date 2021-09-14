@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在 Adobe Campaign 中设计内容
 description: 从头开始创建电子邮件内容，可以导入 HTML 也可利用现有模板。
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1248'
 ht-degree: 87%
 
 ---

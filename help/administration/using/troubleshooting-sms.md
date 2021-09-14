@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 短信故障排除
 description: 短信故障排除
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---

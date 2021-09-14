@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 监视隐私请求
 description: 了解如何使用API监控隐私请求
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 25%
 
 ---
-
 
 # 监视隐私请求 {#monitoring-a-privacy-request}
 
 您可以使用&#x200B;**GET**&#x200B;请求监视有关已创建隐私请求的信息。
 
-状态列表说明可在[隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)中找到。
+[隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)中提供了状态列表描述。
 
 <br/>
 

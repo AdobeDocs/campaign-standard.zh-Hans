@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 隐私请求
 description: 了解如何在 Adobe Campaign Standard 中管理隐私请求
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 隐私
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1624'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1623'
 ht-degree: 100%
 
 ---

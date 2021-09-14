@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 通过 Adobe Experience Manager 集成创建多语言电子邮件.
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，稍后在Adobe Campaign中使用它。
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 5%

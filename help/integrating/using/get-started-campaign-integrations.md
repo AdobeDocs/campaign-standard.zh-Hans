@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Campaign 集成快速入门
+title: Campaign 集成入门
 description: 使用其他 Adobe 解决方案，并将其不同的功能与 Campaign 相结合。
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 76%
+source-wordcount: '713'
+ht-degree: 77%
 
 ---
 
@@ -104,7 +102,7 @@ ht-degree: 76%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 允许从 Dreamweaver 编辑电子邮件内容并将其与 Adobe Campaign 同步。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweavervideo创建个</a> 性化电子邮 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">件，使用Campaign扩展进行Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">使用Dreamweavervideo创建个</a> 性化电子邮 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">件，使用Campaign扩展进行Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

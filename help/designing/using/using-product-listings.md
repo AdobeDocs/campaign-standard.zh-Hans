@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在事务型消息中使用产品清单
 description: 了解如何在事务型消息内容中使用产品清单。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '849'
 ht-degree: 82%
 
 ---

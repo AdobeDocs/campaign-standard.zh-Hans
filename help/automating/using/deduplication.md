@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 重复数据删除
 description: 利用重复数据删除活动，可删除集客活动结果中的重复项。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
-
 # 重复数据删除{#deduplication}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/deduplication.png)
 
 利用 **[!UICONTROL Deduplication]** 活动，可删除集客活动结果中的重复项。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Deduplication]** 活动通常用在定向活动或导入文件之后、以及允许使用定向数据的活动之前。
 
@@ -39,10 +36,10 @@ ht-degree: 96%
 
 **相关主题**
 
-* [用例：在重复之前识别投放](../../automating/using/identifying-duplicated-before-delivery.md)
-* [用例：从导入的文件中消除重复数据](../../automating/using/deduplicating-data-imported-file.md)
+* [用例：在投放之前标识重复项](../../automating/using/identifying-duplicated-before-delivery.md)
+* [用例：从导入的文件中删除数据重复项](../../automating/using/deduplicating-data-imported-file.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 要配置重复数据删除活动，必须输入标签、方法和重复数据删除条件，以及与结果相关的选项。
 

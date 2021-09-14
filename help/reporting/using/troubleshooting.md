@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 故障排除
 description: 请在此处找到与动态报告相关的常见问题。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 报告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 您可以在此部分中找到与动态报告相关的常见问题。
 
-## 对于“唯一打开数”和“唯一点击数”，聚合行中的计数与单行{#unique-open-clicks-no-match}中的计数不匹配
+## 对于“唯一”打开数和“唯一”点击数，聚合行中的计数与各个行中的计数不匹配 {#unique-open-clicks-no-match}
 
 这是预期行为。
 我们可以以以下示例来解释此行为。
@@ -92,7 +90,7 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 >
 >独特计数基于基于HLL的草图，这可能会在较大计数时造成轻微的不准确。
 
-## 打开计数与数据库计数{#open-counts-no-match-database}不匹配
+## 打开计数与数据库计数不匹配 {#open-counts-no-match-database}
 
 这可能是因为，在动态报告中使用启发式算法来跟踪打开次数，即使我们无法跟踪&#x200B;**[!UICONTROL Open]**&#x200B;操作也是如此。
 
@@ -106,7 +104,7 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 >
 >由于独特计数基于基于HLL的草图，因此可能会遇到计数之间细微的不一致。
 
-## 如何计算定期/事务性投放的计数？{#counts-recurring-deliveries}
+## 如何计算定期/事务性投放的计数？ {#counts-recurring-deliveries}
 
 使用定期投放和事务投放时，计数将同时归属于父投放和子投放。
 我们可以举一个名为**R1**的定期投放的示例，该投放设置为每天在第1天(RC1)、第2天(RC2)和第3天(RC3)运行。
@@ -157,7 +155,7 @@ P1在第一天打开电子邮件两次，第二天打开三次。
  </tbody> 
 </table>
 
-## 这些颜色在我的报表表格中的含义是什么？{#reports-color-signification}
+## 这些颜色在我的报表表格中的含义是什么？ {#reports-color-signification}
 
 报表中显示的颜色是随机排列的，无法进行个性化。 它们表示一个进度条，用于帮助您更好地突出显示报表中达到的最大值。
 

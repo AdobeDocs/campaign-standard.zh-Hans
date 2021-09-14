@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign活动用户档案
 description: 了解如何访问客户量度和活动用户档案
-feature: 用户档案
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 7%
 
 ---
@@ -43,4 +41,3 @@ Campaign功能管理员可以从&#x200B;**[!UICONTROL Administration > Customer 
 >[!NOTE]
 >
 >作为管理员用户，您还可以直接从控制面板监控实例上使用的活动配置文件数量。 有关更多信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
-

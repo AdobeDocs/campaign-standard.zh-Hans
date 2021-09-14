@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 管理电子邮件样式
 description: 了解如何在Email Designer中管理电子邮件样式。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---

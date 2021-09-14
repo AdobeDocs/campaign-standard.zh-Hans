@@ -1,29 +1,26 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: GET/POST/PATCH/DELETE动词
-description: 进一步了解Campaign Standard API中使用的动词。
+description: 进一步了解Campaign StandardAPI中使用的动词。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
+# GET/POST/PATCH/DELETE动词 {#verbs}
 
-# GET/POST/PATCH/DELETE动词{#verbs}
-
-对资源执行操作的可用动词有：
+对资源执行操作的可用动词包括：
 
 * `GET`:检索一个元素或元素集合
-* `POST`:创建包含参数的资源。
+* `POST`:使用参数创建资源。
 * `PATCH`:使用参数更新资源。
 * `DELETE`:删除资源。
 
@@ -33,7 +30,7 @@ ht-degree: 0%
 
 ***示例请求***
 
-* GET集合上的示例用户档案请求。
+* 配置文件集合中的GET请求示例。
 
 
    ```
@@ -45,7 +42,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它返回一组用户档案。
+   它返回一组配置文件。
 
 
    ```
@@ -69,7 +66,7 @@ ht-degree: 0%
    }
    ```
 
-* 特定GET的示例用户档案请求。
+* 特定用户档案中的GET请求示例。
 
 
    ```
@@ -81,7 +78,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它返回所请求的用户档案。
+   它会返回请求的用户档案。
 
 
    ```
@@ -95,7 +92,7 @@ ht-degree: 0%
    }
    ```
 
-* 创建POST的示例用户档案请求。
+* 创建用户档案的POST请求示例。
 
 
    ```
@@ -107,7 +104,7 @@ ht-degree: 0%
    -d '{"lastName":"Doe"}'
    ```
 
-   它返回具有默认字段的用户档案。
+   它会返回带有默认字段的用户档案。
 
    ```
    {
@@ -119,7 +116,7 @@ ht-degree: 0%
    }
    ```
 
-* 更新PATCH的示例用户档案请求。
+* 更新用户档案的PATCH请求示例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -130,7 +127,7 @@ ht-degree: 0%
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   它返回PKEY和URL以检索更新的用户档案。
+   它会返回PKEY和URL以检索更新的用户档案。
 
    ```
    {
@@ -139,7 +136,7 @@ ht-degree: 0%
    }
    ```
 
-* 删除DELETE的示例用户档案请求。
+* 删除用户档案的DELETE请求示例。
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -149,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   该请求返回200响应，确认已删除用户档案。
+   请求会返回200响应，确认用户档案已被删除。

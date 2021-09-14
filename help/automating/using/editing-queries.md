@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 编辑查询
 description: 依靠预定义过滤器和规则来构建群体。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
 
-
 # 编辑查询{#editing-queries}
 
-## 关于查询编辑器{#about-query-editor}
+## 关于查询编辑器 {#about-query-editor}
 
 查询编辑器是一个向导程序，可用于筛选 Adobe Campaign 数据库中包含的数据。
 
@@ -33,13 +30,13 @@ ht-degree: 99%
 * 定义&#x200B;**电子邮件**&#x200B;的目标
 * 定义&#x200B;**工作流**&#x200B;活动中的群体
 
-## 查询编辑器界面{#query-editor-interface}
+## 查询编辑器界面 {#query-editor-interface}
 
 查询编辑器由&#x200B;**面板**&#x200B;和&#x200B;**工作区**&#x200B;组成。
 
 ![](assets/query_editor_overview.png)
 
-### 面板{#palette}
+### 面板 {#palette}
 
 位于编辑器左侧的面板包含两个选项卡，其中包含了分为各种主题块的元素。这些选项卡包括：
 
@@ -53,13 +50,13 @@ ht-degree: 99%
 * 为所选字段定义简单规则
 * 定义高级规则，以便为特定字段应用函数
 
-### 工作区{#workspace}
+### 工作区 {#workspace}
 
 工作区是位于中央的区域，您可以在其中配置和组合从面板添加的规则、受众和预定义过滤器。
 
 将元素从面板移入工作区时，将打开一个新窗口，以便您开始[创建查询](#creating-queries)。
 
-## 创建查询{#creating-queries}
+## 创建查询 {#creating-queries}
 
 查询编辑器可用于定义消息中的受众或测试用户档案、工作流中的群体，还可用于创建查询类型受众。
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于 Campaign 中的选择启用和选择禁用
 description: 选择退出会导致用户档案不再为任何投放或特定渠道的投放所定向。
 audience: audiences
@@ -10,7 +8,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 9%

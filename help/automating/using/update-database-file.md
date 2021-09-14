@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部数据更新数据库
-description: 此用例说明如何使用从文件恢复的用户档案向Adobe Campaign数据库添加或更新数据。
+description: 此用例介绍如何使用从文件取回的数据，向Adobe Campaign数据库添加或更新用户档案。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,20 +8,19 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 32%
+source-wordcount: '106'
+ht-degree: 33%
 
 ---
 
-
 # 使用外部数据更新数据库 {#update-database-file}
 
-以下示例显示了&#x200B;**[!UICONTROL Load file]**&#x200B;活动后&#x200B;**[!UICONTROL Update data]**&#x200B;活动的配置。 此工作流的目标，是使用从文件取回的数据，向 Adobe Campaign 数据库添加或用户档案。
+以下示例显示&#x200B;**[!UICONTROL Load file]**&#x200B;活动后&#x200B;**[!UICONTROL Update data]**&#x200B;活动的配置。 此工作流的目标，是使用从文件取回的数据，向 Adobe Campaign 数据库添加或用户档案。
 
-在此示例中，使用的合并关键项是&#x200B;**电子邮件地址**。 在[加载文件](../../automating/using/load-file.md)活动中加载的文件是包含以下示例数据的&#x200B;**.txt**&#x200B;格式文件：
+在此示例中，使用的协调键值为&#x200B;**电子邮件地址**。 在[Load file](../../automating/using/load-file.md)活动中加载的文件是包含以下示例数据的&#x200B;**.txt**&#x200B;格式文件：
 
 ```
 lastname;firstname;email;birthdate
@@ -38,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-[更新数据](../../automating/using/update-data.md)活动的配置如下：
+[Update data](../../automating/using/update-data.md)活动的配置如下：
 
 ![](assets/deduplication_example2_writer1.png)
 

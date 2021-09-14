@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在发送消息时添加控制组
 description: 了解在使用 Adobe Campaign Standard 定义消息的目标时如何添加控制组。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: 对照组
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1332'
 ht-degree: 100%
 
 ---

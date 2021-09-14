@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 通过 API 触发数据摄取
 description: 了解如何通过API触发数据摄取。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM集成
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 4%
 
 ---
@@ -22,40 +19,40 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
-Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并检索摄取请求的状态。
+Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并检索摄取请求的状态。
 
-本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign Standard API的全局信息，请参阅[本节](../../api/using/get-started-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参阅[此部分](../../api/using/get-started-apis.md)。
 
-## 先决条件{#prerequisites}
+## 先决条件 {#prerequisites}
 
-在使用API之前，必须首先在Campaign Standard界面中配置和发布数据映射。 有关详细信息，请参阅以下部分：
+在使用API之前，必须先在Campaign Standard界面中配置并发布数据映射。 有关更多信息，请参阅以下章节：
 
 * [映射定义](../../integrating/using/aep-mapping-definition.md)
 * [映射激活](../../integrating/using/aep-mapping-activation.md)
 
-创建数据映射后，必须停止它的运行，以便您可以随时从API触发它。 为此，请执行以下步骤：
+创建数据映射后，必须停止该映射运行，以便您可以随时从API触发该映射。 为此，请执行以下步骤：
 
 1. 在Campaign Standard中，转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;菜单。
 
-1. 多次单击数据映射以将其打开，然后单击&#x200B;**[!UICONTROL Stop]**&#x200B;按钮。
+1. 双击数据映射以将其打开，然后单击&#x200B;**[!UICONTROL Stop]**&#x200B;按钮。
 
    ![](assets/aep_datamapping_stop.png)
 
 1. 保存更改
 
-数据映射执行现已停止。 您可以使用Campaign Standard API手动触发它。
+数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发。
 
-## 开始立即获取数据映射{#starting-immediate-ingestion}
+## 开始立即摄取数据映射 {#starting-immediate-ingestion}
 
-通过POST操作触发XDM映射到Adobe Experience Platform的即时引入：
+通过POST操作，可触发将XDM映射立即摄取到Adobe Experience Platform:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->要执行收录POST API调用，用户必须具有&#x200B;**SQL函数执行**&#x200B;角色，Campaign Standard管理员可通过执行以下JS脚本来提供该角色：
+>要执行摄取POSTAPI调用，用户必须具有&#x200B;**SQL函数执行**&#x200B;角色，Campaign Standard管理员可通过执行以下JS脚本来提供该角色：
 >
 >
 ```
@@ -63,9 +60,9 @@ Adobe Campaign Standard允许您通过API触发数据映射的即时摄取，并
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
 
-POST操作返回有关已创建请求状态的信息：
+POST操作会返回与创建的请求状态有关的信息：
 
-* 已成功提交XDM映射请求：
+* 已成功为XDM映射提交请求：
 
 ```
 {
@@ -75,7 +72,7 @@ POST操作返回有关已创建请求状态的信息：
 }
 ```
 
-* XDM映射的请求已在进行中：
+* 正在为XDM映射请求：
 
 ```
 {
@@ -98,9 +95,9 @@ POST操作返回有关已创建请求状态的信息：
 }
 ```
 
-## 检索摄取请求{#retrieving-status}的状态
+## 检索摄取请求的状态 {#retrieving-status}
 
-可以使用GET操作和参数中所需的请求ID来检索摄取请求的状态：
+可以通过GET操作和参数中的所需请求ID来检索摄取请求的状态：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -109,18 +106,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有关XDM映射请求状态及其相关作业的详细信息，可在&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;菜单的Campaign Standard接口中找到(请参阅[映射激活](../../integrating/using/aep-mapping-activation.md))。
+>有关XDM映射请求状态及其相关作业的详细信息，请参阅&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;菜单的Campaign Standard界面（请参阅[映射激活](../../integrating/using/aep-mapping-activation.md)）。
 
-GET操作返回以下信息：
+GET操作会返回以下信息：
 
-* **batchId**:仅当批准备和上传后出现故障时，才填充此字段，
+* **batchId**:仅当批量准备和上传失败时，才会填充此字段，
 * **信息**:XDM映射ID，
-* **numRecords**:已摄取的记录数（仅限成功状态），
-* **状态**:收录请求状态(success/failed/in progress)
+* **numRecords**:已摄取的记录数（仅限成功状态）、
+* **状态**:摄取请求状态（成功/失败/正在进行）
 
-对GET操作的可能响应有：
+对GET操作的可能响应包括：
 
-* 收录请求成功：
+* 成功摄取请求：
 
    ```
    {
@@ -132,7 +129,7 @@ GET操作返回以下信息：
    }
    ```
 
-* 收录请求失败，收录0个记录：
+* 摄取请求失败，摄取了0个记录：
 
    ```
    {
@@ -144,7 +141,7 @@ GET操作返回以下信息：
    }
    ```
 
-* 收录请求失败，某些记录在批处理下上传：
+* 摄取请求失败，某些记录在批次下上传：
 
    ```
    {
@@ -156,7 +153,7 @@ GET操作返回以下信息：
    }
    ```
 
-* 在收录某些记录后，收录请求已中止（在崩溃情况下可能发生这种情况）：
+* 摄取某些记录后，摄取请求中止（在崩溃情况下可能会发生这种情况）：
 
    ```
    {
@@ -168,7 +165,7 @@ GET操作返回以下信息：
    }
    ```
 
-* 正在收录请求（当请求在批中上载数据或正在为请求准备批时）：
+* 正在摄取请求（当请求以批量方式上传数据或正在为请求准备批处理时）：
 
    ```
    {

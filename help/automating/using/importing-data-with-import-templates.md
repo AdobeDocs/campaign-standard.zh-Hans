@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用导入模板导入数据
 description: 了解如何收集数据以填充 Campaign 数据库。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
-
 
 # 使用导入模板导入数据{#importing-data-with-import-templates}
 
@@ -45,7 +42,7 @@ ht-degree: 99%
 
 现在，已经提供了导入执行的详细信息。导入的文件以及包含已拒绝数据（未导入的数据）的文件，均可下载到您的计算机。
 
-## 设置导入模板{#setting-up-import-templates}
+## 设置导入模板 {#setting-up-import-templates}
 
 利用导入模板，管理员可预定义一定数量的技术导入配置。随后，标准用户可以使用这些模板来执行和上传文件。
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 基于移动应用程序数据创建和更新用户档案信息
 description: 了解如何根据移动应用程序数据创建和更新用户档案信息。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: 推送
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 4%
 
 ---

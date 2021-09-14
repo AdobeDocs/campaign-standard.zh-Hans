@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 预测用户参与度功能
 description: 了解如何使用预测发送时间和参与度评分。
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: 发送时间优化
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ Adobe Campaign Standard 提供两种新的机器学习模型：**预测发送时
 
 >[!IMPORTANT]
 >此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
-
 
 ## 预测发送时间优化{#predictive-send-time}
 
@@ -108,7 +105,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >根据您的实施，数据模型可能会不同。
-
 
 
 ## 预测参与度评分 {#predictive-scoring}

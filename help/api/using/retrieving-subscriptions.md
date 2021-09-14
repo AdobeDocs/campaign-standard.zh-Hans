@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 检索订阅
 description: 了解如何使用API检索订阅。
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
-
 
 # 检索订阅 {#retrieving-subscriptions}
 
@@ -25,11 +22,11 @@ ht-degree: 2%
 这是两步法。
 
 1. 检索所需服务的订阅URL。
-1. 对GETURL执行订阅请求。 它返回服务的订阅列表，以及每个关联用户档案。
+1. 对订阅URL执行GET请求。 它会返回服务订阅列表以及每个关联的用户档案。
 
 >[!CAUTION]
 >
->REST API返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL发出后续API请求</b>。
+>REST API会返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL来发出后续API请求</b>。
 
 <br/>
 
@@ -59,7 +56,7 @@ ht-degree: 2%
   },
 ```
 
-对GETURL执行订阅请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -69,7 +66,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-此时将显示服务的订阅列表，其中包含每个关联用户档案。
+此时将显示服务订阅列表，其中包含每个关联的用户档案。
 
 ```
   {
@@ -90,14 +87,14 @@ ht-degree: 2%
 
 这是两步法。
 
-1. 检索给定订阅的用户档案URL。
-1. 对URL执行GET请求。 它返回用户档案的订阅列表以及每个关联服务。
+1. 检索给定用户档案的订阅URL。
+1. 对URL执行GET请求。 它会返回用户档案的订阅列表以及每个关联的服务。
 
 <br/>
 
 ***示例请求***
 
-执行GET请求以检索用户档案。
+执行GET请求以检索配置文件。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -107,7 +104,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回订阅的用户档案URL。
+它会返回用户档案的订阅URL。
 
 ```
   {
@@ -121,7 +118,7 @@ ht-degree: 2%
   }
 ```
 
-对GETURL执行订阅请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -131,7 +128,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回用户档案订阅的服务列表。
+它会返回用户档案订阅的服务列表。
 
 ```
   {

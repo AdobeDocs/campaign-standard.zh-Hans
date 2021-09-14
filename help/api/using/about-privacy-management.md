@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于隐私管理
 description: 进一步了解使用API进行隐私管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 4%
@@ -15,19 +12,19 @@ ht-degree: 4%
 ---
 
 
-# 关于隐私管理{#about-privacy-management}
+# 关于隐私管理 {#about-privacy-management}
 
-Campaign Standard API提供允许自动处理与隐私法规（如GDPR和CCPA）相关的请求的功能。
+Campaign StandardAPI提供的功能允许自动处理与隐私法规（如GDPR和CCPA）相关的请求。
 
 您可以执行的操作如下：
 
 * 创建新的隐私请求，
 * 监控隐私请求，
 * 检索隐私数据文件，
-* 管理用户档案的CCPA退出状态。
+* 管理用户档案的CCPA选择退出状态。
 
-隐私API端点为&#x200B;**/privacy/privacyTool**。 资源元数据中提供了PrivacyTool资源描述和关联过滤器。 请参阅[元数据机制](../../api/using/metadata-mechanism.md)。
+隐私API端点为&#x200B;**/privacy/privacyTool**。 资源元数据中提供了PrivacyTool资源描述和关联的过滤器。 请参阅[元数据机制](../../api/using/metadata-mechanism.md)。
 
-使用&#x200B;**ccpaOptOut**&#x200B;用户档案属性管理CCPA退出。
+使用&#x200B;**ccpaOptOut**&#x200B;配置文件属性管理CCPA选择退出。
 
-有关Adobe Campaign Standard和隐私合规性的详细信息，请参阅[专用文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)。
+有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅[专用文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)。

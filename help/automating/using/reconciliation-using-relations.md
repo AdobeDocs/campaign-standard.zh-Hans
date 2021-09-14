@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用关系进行数据协调
 description: 下方的示例演示了使用文件中的购买数据更新数据库的工作流。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 85%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
-
 
 # 使用关系进行数据协调 {#reconciliation-relations}
 
@@ -31,7 +28,7 @@ ht-degree: 85%
 
 ![](assets/reconciliation_example1.png)
 
-* [加载文件](../../automating/using/load-file.md)活动，加载并检测要导入的文件的数据。 导入的文件包含以下数据：
+* [加载文件](../../automating/using/load-file.md)活动，用于加载并检测要导入的文件数据。 导入的文件包含以下数据：
 
    * 交易日期
    * 客户电子邮件地址
@@ -50,7 +47,7 @@ ht-degree: 85%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* [协调](../../automating/using/reconciliation.md)活动，用于将购买数据绑定到数据库用户档案和产品。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
+* [协调](../../automating/using/reconciliation.md)活动，用于将购买数据与数据库用户档案和产品绑定。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
 
    * 与&#x200B;**用户档案**&#x200B;的关系：文件的 **client** 列链接到&#x200B;**用户档案**&#x200B;维度的 **email** 字段。
    * 与&#x200B;**产品**&#x200B;的关系：文件的 **product** 列链接到&#x200B;**用户档案**&#x200B;维度的 **productCode** 字段。

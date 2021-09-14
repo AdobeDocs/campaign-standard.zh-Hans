@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新数据库结构
 description: 了解如何更新 Adobe Campaign 数据库。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
-
 
 # 更新数据库结构{#updating-the-database-structure}
 
@@ -27,13 +24,13 @@ ht-degree: 98%
 >
 >Adobe 执行自动更新期间，会自动刷新自定义资源。
 
-## 发布自定义资源{#publishing-a-custom-resource}
+## 发布自定义资源 {#publishing-a-custom-resource}
 
 要应用对资源执行的更改，必须执行数据库更新。
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅[取消发布事务事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅[取消发布事务型事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Publishing]**。
 1. 默认勾选 **[!UICONTROL Determine modifications since the last publication]** 选项，这意味着仅应用自上次更新以来执行的更改。
@@ -71,7 +68,7 @@ ht-degree: 98%
 
    ![](assets/schema_extension_31.png)
 
-## 使用 API 扩展发布资源{#publishing-a-resource-with-api-extension}
+## 使用 API 扩展发布资源 {#publishing-a-resource-with-api-extension}
 
 在以下案例中，您可以创建用户档案和服务 API：
 

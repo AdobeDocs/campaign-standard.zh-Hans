@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 将用户档案从文件订阅到特定服务
-description: 此用例说明如何导入包含用户档案的文件并将其订阅到现有服务。
+description: 此用例展示了如何导入包含用户档案的文件，并为其订阅现有服务。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
 
-
-# 在导入文件{#subscribing-profiles-to-a-specific-service-after-importing-a-file}后订阅特定服务的用户档案
+# 在导入文件后为用户档案订阅特定服务 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
@@ -27,7 +24,7 @@ ht-degree: 52%
 
 ![](assets/subscription_activity_example1.png)
 
-* [加载文件](../../automating/using/load-file.md)活动加载用户档案文件并定义导入列的结构。
+* [加载文件](../../automating/using/load-file.md)活动加载配置文件并定义导入列的结构。
 
    在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -46,14 +43,14 @@ ht-degree: 52%
 
    ![](assets/subscription_activity_example2.png)
 
-* [协调](../../automating/using/reconciliation.md)活动将文件中的数据标识为属于Adobe Campaign数据库的用户档案维。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
+* 通过[Reconciliation](../../automating/using/reconciliation.md)活动，将文件中的数据标识为属于Adobe Campaign数据库的用户档案维度。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
 
    ![](assets/subscription_activity_example3.png)
 
-* 基于临时资源（由对帐产生）的&#x200B;**email**&#x200B;字段的[外部重复数据删除](../../automating/using/deduplication.md)标识任何重复。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
+* 根据临时资源的&#x200B;**email**&#x200B;字段（由协调产生）的[重复数据删除](../../automating/using/deduplication.md)标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* [订阅服务](../../automating/using/subscription-services.md)活动允许您选择用户档案必须订阅的服务、与订阅日期对应的字段以及订阅的来源。
+* 通过[订阅服务](../../automating/using/subscription-services.md)活动，您可以选择用户档案必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
 
    ![](assets/subscription_activity_example4.png)

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '从头开始设计电子邮件 '
 description: 了解如何在Email Designer中从头开始设计电子邮件内容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1239'
 ht-degree: 2%
 
 ---

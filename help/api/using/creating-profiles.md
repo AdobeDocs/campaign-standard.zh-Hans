@@ -1,38 +1,35 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 创建用户档案
-description: 了解更多如何使用API创建用户档案。
+description: 了解如何使用API创建用户档案。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
-
 # 创建用户档案 {#creating-profiles}
 
-创建用户档案是使用用户档案资源上的&#x200B;**POST**&#x200B;请求执行的。
+对用户档案资源使用&#x200B;**POST**&#x200B;请求创建用户档案。
 
 >[!CAUTION]
 >
->如果要将<b>orgUnit</b>关联到创建的用户档案，您需要将用户档案资源与此字段扩展，并在发布扩展后，对<b>ProfileAndServicesExt</b>端点执行POST请求。
+>如果要将<b>orgUnit</b>与创建的配置文件关联，您需要使用此字段扩展配置文件资源，并在发布扩展后，在<b>ProfileAndServicesExt</b>端点上执行POST请求。
 >
->有关用户档案资源扩展的详细信息，请参阅<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">活动文档</a>。
+>有关用户档案的资源扩展的更多信息，请参阅<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>。
 
 <br/>
 
 ***示例请求***
 
-使用电子邮件“john.doe@mail.com”创建POST的示例用户档案请求。
+使用电子邮件“john.doe@mail.com”创建用户档案的示例POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -44,7 +41,7 @@ ht-degree: 4%
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它将返回新创建的用户档案，并带有“john.doe@mail.com”电子邮件地址。
+它会返回新创建的用户档案，其中包含“john.doe@mail.com”电子邮件地址。
 
 ```
 {

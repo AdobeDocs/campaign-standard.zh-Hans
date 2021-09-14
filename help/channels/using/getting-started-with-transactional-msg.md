@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 事务性消息传递入门
 description: 了解什么是事务型消息传递，并了解在Adobe Campaign Standard中设置事务型消息的主要步骤。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 8%
 
 ---

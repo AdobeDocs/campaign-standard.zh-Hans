@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 时间线
 description: 了解如何使用 Adobe Campaign Standard 界面将正在进行的项目及其内容可视化。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: 活动
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 90%
 
 ---

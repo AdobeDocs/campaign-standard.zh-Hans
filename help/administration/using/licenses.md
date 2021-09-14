@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 许可证
 description: 了解有关实例上安装的许可证的更多信息。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 访问管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---

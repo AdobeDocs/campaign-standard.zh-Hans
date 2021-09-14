@@ -1,32 +1,29 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部参数调用工作流
-description: 本节详细介绍了如何使用外部参数调用工作流。
+description: 本节详细介绍如何使用外部参数调用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '87'
 ht-degree: 19%
 
 ---
 
-
 # 监视事件变量 {#monitoring-the-events-variables}
 
-可以监视工作流中可用的事件变量，包括声明的外部参数。 为此请执行以下操作步骤：
+可以监控工作流中可用的事件变量，包括声明的外部参数。 为此请执行以下操作步骤：
 
 1. 选择&#x200B;**[!UICONTROL External signal]**&#x200B;活动后面的活动，然后单击&#x200B;**[!UICONTROL Log and tasks]**&#x200B;按钮。
 1. 在&#x200B;**[!UICONTROL Tasks]**&#x200B;选项卡中，单击![](assets/edit_darkgrey-24px.png)按钮。
 
    ![](assets/extsignal_monitoring_2.png)
 
-1. 任务的执行上下文将显示（ID、状态、持续时间等），包括所有事件变量，这些变量现在可用于工作流。
+1. 此时会显示任务的执行上下文（ID、状态、持续时间等），包括当前可用于工作流的所有事件变量。
 
    ![](assets/extsignal_monitoring_3.png)

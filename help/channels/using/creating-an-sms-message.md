@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 创建短信消息
 description: 按照以下步骤在 Adobe Campaign 中创建单次发送的短信消息。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
-feature: 短信
+feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---

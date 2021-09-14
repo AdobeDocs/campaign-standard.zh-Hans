@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 查询
 description: 利用查询活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
 
-
 # 查询{#query}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/query.png)
 
@@ -34,7 +31,7 @@ ht-degree: 93%
 * [查询样例](../../automating/using/query-samples.md)
 * [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Query]** 活动可用于各种类型的应用：
 
@@ -42,7 +39,7 @@ ht-degree: 93%
 * 扩充整个 Adobe Campaign 数据库表格的数据。
 * 导出数据。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Query]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。默认情况下，该活动预配置为搜索用户档案。
@@ -56,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >定位受众时，请注意，未引用受众的定义，而将&#x200B;**复制**&#x200B;到查询中。 如果在受众定位到查询后对查询进行了任何更改，请确保再次配置该以考虑新定义。
+   >定位受众时，请注意，未引用受众的定义，而是将&#x200B;**复制到查询中的**。 如果在查询中定向受众后对受众进行了任何更改，请确保再次配置查询以考虑新定义。
 
 1. 您可以通过专用选项卡定义针对定向群体的 **[!UICONTROL Additional data]**。此数据存储在附加的列中，并且只能用于正在进行的工作流。而且，您还可以从链接到查询定向维度的 Adobe Campaign 查询数据库表格添加数据。请参阅[扩充数据](#enriching-data)一节。
 
@@ -66,15 +63,15 @@ ht-degree: 93%
 
 1. 在 **[!UICONTROL Transition]** 选项卡中，使用 **[!UICONTROL Enable an outbound transition]** 选项可在查询活动后添加叫客过渡，即使查询未检索到任何数据。
 
-   出站过渡的段代码可以使用标准表达式和事件变量进行个性化（请参阅[此页](../../automating/using/customizing-workflow-external-parameters.md)）。
+   叫客过渡的段码可以使用标准表达式和事件变量进行个性化（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 1. 确认活动的配置并保存工作流。
 
-## 定向维度和资源{#targeting-dimensions-and-resources}
+## 定向维度和资源 {#targeting-dimensions-and-resources}
 
 利用定向维度和资源，可定义查询基于哪些元素来确定投放的目标。
 
-它们在[目标映射](../../administration/using/target-mappings-in-campaign.md)中进行配置，并在创建工作流时在查询活动的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡中进行定义。
+它们在[目标映射](../../administration/using/target-mappings-in-campaign.md)中进行配置，并在创建工作流时，在查询活动的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡中进行定义。
 
 >[!NOTE]
 >
@@ -104,9 +101,9 @@ ht-degree: 93%
 
 默认情况下，会设置定向维度和资源以定向用户档案。但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
 
-有关此内容的详细信息，请参阅此用例：[使用与定位维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+有关更多信息，请参阅此用例：[使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## 扩充数据{#enriching-data}
+## 丰富数据 {#enriching-data}
 
 通过 **[!UICONTROL Query]** 的 **[!UICONTROL Additional data]** 选项卡，利用 **[!UICONTROL Incremental query]** 和 **[!UICONTROL Enrichment]** 活动可扩充定向的数据，并将这些数据传输到后续的工作流中，以便我们使用。其中，您可以添加：
 
@@ -126,9 +123,9 @@ ht-degree: 93%
 >
 >查询的 **[!UICONTROL Advanced options]** 选项卡中的 **[!UICONTROL Additional data]** 默认勾选 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 选项。出于性能上的考虑，如果 **[!UICONTROL Query]** 活动包含大量（100 以上）已定义的附加数据，则建议取消勾选此选项。请注意，取消勾选此选项可能会导致获取重复项，具体情况取决于查询的数据。
 
-[本节](../../automating/using/personalizing-email-with-additional-data.md)介绍了如何使用额外数据个性化电子邮件的使用案例。
+有关如何使用附加数据个性化电子邮件的用例，请参见[此部分](../../automating/using/personalizing-email-with-additional-data.md)。
 
-### 添加简单字段{#adding-a-simple-field}
+### 添加简单字段 {#adding-a-simple-field}
 
 通过添加简单字段作为附加数据，该字段将直接显示在活动的叫客过渡中。这样可让用户核实，来自查询的数据是否为所需数据之类的情况。
 
@@ -141,7 +138,7 @@ ht-degree: 93%
 
 ![](assets/enrichment_add_simple_field.png)
 
-### 添加聚合{#adding-an-aggregate}
+### 添加聚合 {#adding-an-aggregate}
 
 利用聚合，可根据定向维度的字段或与链接到定向维度之维度的字段计算值。例如：用户档案购买的平均金额。
 将聚合与查询结合使用时，其函数可返回零，而零值会被视作“NULL”。使用查询的 **[!UICONTROL Output filtering]** 选项卡可筛选聚合的值：
@@ -178,7 +175,7 @@ ht-degree: 93%
 >
 >不能直接从 **[!UICONTROL New additional data]** 窗口的 **[!UICONTROL Expression]** 字段创建包含聚合的表达式。
 
-### 添加集合{#adding-a-collection}
+### 添加集合 {#adding-a-collection}
 
 1. 在 **[!UICONTROL Additional data]** 选项卡中，添加新元素。
 1. 在打开的窗口中，选择要在 **[!UICONTROL Expression]** 字段中添加的集合。随即会自动创建 **[!UICONTROL Alias]**。需要时也可返回查询的 **[!UICONTROL Additional data]** 选项卡以对其进行修改。
@@ -204,7 +201,7 @@ ht-degree: 93%
 1. 请参阅[为附加数据排序](#sorting-additional-data)一节。
 1. 选择 **[!UICONTROL Confirm]** 以添加集合。
 
-### 筛选添加的数据{#filtering-added-data}
+### 筛选添加的数据 {#filtering-added-data}
 
 添加聚合或集合时，可指定附加过滤器以限制要显示的数据。
 
@@ -212,7 +209,7 @@ ht-degree: 93%
 
 ![](assets/enrichment_filter_data.png)
 
-### 为附加数据排序{#sorting-additional-data}
+### 为附加数据排序 {#sorting-additional-data}
 
 向查询的数据添加聚合或集合时，您可以根据定义的字段值或表达式，指定是否要应用排序（无论升序还是降序）。
 
@@ -220,7 +217,7 @@ ht-degree: 93%
 
 ![](assets/enrichment_sort_data.png)
 
-### 根据附加数据筛选定向数据{#filtering-the-targeted-data-according-to-additional-data}
+### 根据附加数据筛选定向数据 {#filtering-the-targeted-data-according-to-additional-data}
 
 添加附加数据后，会在 **[!UICONTROL Query]** 中显示一个新的 **[!UICONTROL Output filtering]** 选项卡。利用此选项卡，可通过考虑添加的数据，对 **[!UICONTROL Target]** 选项卡中的初始定向数据应用附加过滤器。
 

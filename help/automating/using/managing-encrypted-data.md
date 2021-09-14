@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 管理加密数据
 description: 了解如何管理加密数据。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 工作流
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 5%
 
 ---
 
 # 管理加密数据 {#managing-encrypted-data}
 
-## 关于预处理阶段{#about-preprocessing-stages}
+## 关于预处理阶段 {#about-preprocessing-stages}
 
 在某些情况下，您要导入Campaign服务器的数据可能需要加密，例如，当其包含PII数据时。
 
@@ -43,7 +41,7 @@ ht-degree: 5%
 * [加载文件](../../automating/using/load-file.md)
 * [提取文件](../../automating/using/extract-file.md)
 
-## 用例：导入使用{#use-case-gpg-decrypt}控制面板生成的密钥加密的数据
+## 用例：导入使用由控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
 
 在此用例中，我们将构建一个工作流，以便使用控制面板中生成的密钥，导入已在外部系统中加密的数据。
 
@@ -87,7 +85,7 @@ ht-degree: 5%
 
 1. 您现在可以运行工作流。
 
-## 用例：使用安装在{#use-case-gpg-encrypt}控制面板上的密钥加密和导出数据
+## 用例：使用安装在控制面板上的密钥加密和导出数据 {#use-case-gpg-encrypt}
 
 在此用例中，我们将构建一个工作流，以便使用安装在控制面板上的密钥加密和导出数据。
 

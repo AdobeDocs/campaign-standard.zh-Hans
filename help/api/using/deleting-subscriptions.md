@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 删除订阅
 description: 了解如何使用API删除订阅。
 audience: developing
@@ -9,25 +7,24 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 76e2d102-c877-41a6-af87-2f407201a572
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
-
 
 # 删除订阅 {#mdeleting-subscriptions}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 删除特定用户档案{#deleting-service-subscription}的服务订阅
+## 删除特定用户档案的服务订阅 {#deleting-service-subscription}
 
 这是三步法。
 
-1. 检索所需订阅的用户档案URL。
-1. 对GETURL执行订阅请求。
+1. 检索所需配置文件的订阅URL。
+1. 对订阅URL执行GET请求。
 1. 对所需的服务URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为“204无内容”。
@@ -36,7 +33,7 @@ ht-degree: 2%
 
 ***示例请求***
 
-以下负载示例说明如何从服务中取消订阅配置文件。 首先执行GET请求以检索用户档案。
+以下负载示例显示了如何从服务中取消配置文件订阅。 首先执行GET请求以检索配置文件。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -46,7 +43,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回订阅的用户档案URL。
+它会返回用户档案的订阅URL。
 
 ```
   {
@@ -59,7 +56,7 @@ ht-degree: 2%
   }
 ```
 
-对GETURL执行订阅请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +66,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所选用户档案的列表，每个订阅服务都有一个URL。
+它会返回选定用户档案的订阅列表，以及每个订阅服务的URL。
 
 ```
 ...
@@ -95,13 +92,13 @@ ht-degree: 2%
 
 <!-- + réponse -->
 
-## 删除特定订阅的服务用户档案
+## 删除特定用户档案的服务订阅
 
 这是三步法。
 
 1. 检索所需的服务及其订阅URL。
 1. 对订阅URL执行GET请求以检索所有用户档案订阅。
-1. 对所需的DELETE订阅URL执行用户档案请求。
+1. 对所需的配置文件订阅URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为“204无内容”。
 
@@ -136,7 +133,7 @@ ht-degree: 2%
 },
 ```
 
-对GETURL执行订阅请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -146,7 +143,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所选服务的订阅列表，每个用户档案订阅都带有URL(href)。
+它会返回选定服务的订阅列表，每个用户档案订阅都包含一个URL(href)。
 
 ```
 {
@@ -163,7 +160,7 @@ ht-degree: 2%
 }
 ```
 
-对所需的DELETE订阅URL执行用户档案请求。
+对所需的配置文件订阅URL执行DELETE请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

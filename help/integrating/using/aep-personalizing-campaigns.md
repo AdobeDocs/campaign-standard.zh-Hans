@@ -1,34 +1,31 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 使用 Adobe Experience Platform 属性个性化营销策划
-description: 了解如何使用Adobe Experience Platform属性个性化您的活动。
+title: 使用 Adobe Experience Platform 属性个性化营销活动
+description: 了解如何使用Adobe体验平台属性个性化您的营销活动。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 7%
+source-wordcount: '271'
+ht-degree: 8%
 
 ---
 
-
-# 使用 Adobe Experience Platform 属性个性化营销策划 {#personalizing-campaigns-using-aep-attributes}
+# 使用 Adobe Experience Platform 属性个性化营销活动 {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会在不通知的情况下频繁进行更新。 客户需要托管在Azure上（目前仅针对北美）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 >
->**Pushand** In- **Appchannel尚不** 可使用Adobe Experience Platform中的情境数据进行个性化。
+>**** Pushand **内** 应用程序渠道尚无法使用Adobe Experience Platform中的上下文数据进行个性化。
 
-使用[Adobe Experience Platform 受众](../../integrating/using/aep-about-audience-destinations-service.md)配置工作流后，您便可以使用“体验模型”(XDM)中独有的用户档案属性个性化消息。
+使用[Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md)配置工作流后，您可以使用体验数据模型(XDM)中专门存在的配置文件属性来个性化消息。
 
-为此，必须将以下属性添加到&#x200B;**[!UICONTROL Read audience]**&#x200B;活动:
+要实现此目的，您必须将以下属性添加到&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中：
 
 1. 打开&#x200B;**[!UICONTROL Read audience]**&#x200B;活动。 在&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮。
 
@@ -38,13 +35,13 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >此功能不支持数组和映射数据类型。 此外，拾色器中将仅显示来自合并模式的数据。
+   >此功能不支持数组和映射数据类型。 此外，只有来自并集架构的数据才会显示在选取器中。
 
 1. 从列表中选择所需的XDM字段，然后单击&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;按钮，将其添加到其他列表。
+1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;按钮以将其添加到附加数据列表。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -52,11 +49,11 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中最多可添加20个XDM字段。
+   >在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中，最多可添加20个XDM字段。
 
-1. 添加所有字段后，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;按钮以保存更改。 现在，您可以使用它们来个性化您的投放。
+1. 添加所有字段后，单击&#x200B;**[!UICONTROL Confirm]**&#x200B;按钮以保存更改。 现在，即可使用这些配置文件对投放进行个性化。
 
-有关如何创建和个性化投放的详细信息，请参阅Campaign Standard文档：
+有关如何创建和个性化投放的更多信息，请参阅Campaign Standard文档：
 
 * [了解通信渠道](../../channels/using/get-started-communication-channels.md)
 * [关于渠道活动](../../automating/using/about-channel-activities.md)

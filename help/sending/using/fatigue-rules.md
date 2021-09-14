@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 疲劳规则
 description: 创建疲劳规则以管理与用户档案的过度通信。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: 类型规则
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 100%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 100%
 
 * [准备](../../administration/using/configuring-email-channel.md#preparation)
 * [管理类型](../../sending/using/managing-typologies.md)
-* [分类规则](../../sending/using/managing-typology-rules.md)
+* [类型规则](../../sending/using/managing-typology-rules.md)
 * [优化通信频次以防止沟通疲劳](https://helpx.adobe.com/cn/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 创建疲劳规则 {#creating-a-fatigue-rule}

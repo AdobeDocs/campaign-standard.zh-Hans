@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型
 description: 了解数据模型
 audience: developing
@@ -8,16 +6,15 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '144'
 ht-degree: 5%
 
 ---
 
-
-# 访客(nms:访客)
+# 访客(nms:visitor)
 
 ## 对象描述
 
@@ -26,18 +23,18 @@ ht-degree: 5%
         <th>名称</th>
         <th>标签</th>
         <th>类型（长度）</th>
-        <th>明细列表值</th>
+        <th>枚举值</th>
     </tr>
     <tr>
-        <td>PK</td>
+        <td>PKey</td>
         <td>主资源ID</td>
         <td>字符串 </td>
         <td> </td>
     </tr>
     <tr>
         <td>评论</td>
-        <td>推荐人注释</td>
-        <td>string(255)</td>
+        <td>反向链接注释</td>
+        <td>字符串(255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -53,27 +50,27 @@ ht-degree: 5%
         <td> </td>
     </tr>
     <tr>
-        <td>投放(投放)</td>
+        <td>投放（投放）</td>
         <td>投放</td>
         <td>链接 </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>最后一个投放的ID</td>
+        <td>上次投放的ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>desc</td>
         <td>说明</td>
-        <td>string(512)</td>
+        <td>字符串(512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>电子邮件</td>
         <td>电子邮件</td>
-        <td>string(128)</td>
+        <td>字符串(128)</td>
         <td> </td>
     </tr>
     <tr>
@@ -90,8 +87,8 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>转发url</td>
-        <td>string(255)</td>
+        <td>转发URL</td>
+        <td>字符串(255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -126,8 +123,8 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>来源</td>
-        <td>来源</td>
-        <td>明细列表（字节） </td>
+        <td>源</td>
+        <td>枚举（字节） </td>
         <td>
             <ul>
             <li>未定义 — 未定义 — 0</li>
@@ -136,58 +133,58 @@ ht-degree: 5%
         </td>
     </tr>
     <tr>
-        <td>收件人(收件人)</td>
-        <td>已识别用户档案</td>
+        <td>收件人（收件人）</td>
+        <td>已识别的用户档案</td>
         <td>链接 </td>
         <td> </td>
     </tr>
     <tr>
         <td>recipientId</td>
-        <td>用户档案ID</td>
+        <td>配置文件ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>推荐人电子邮件</td>
-        <td>string(128)</td>
+        <td>反向链接电子邮件</td>
+        <td>字符串(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>推荐人名</td>
+        <td>反向链接名字</td>
         <td>字符串(30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>推荐人ID</td>
+        <td>反向链接ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>推荐人姓氏</td>
+        <td>反向链接姓氏</td>
         <td>字符串(50)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp(收件人)</td>
-        <td>推荐人</td>
+        <td>referrerRcp（收件人）</td>
+        <td>反向链接</td>
         <td>链接 </td>
         <td> </td>
     </tr>
     <tr>
         <td>title</td>
         <td>标签</td>
-        <td>string(255)</td>
+        <td>字符串(255)</td>
         <td> </td>
     </tr>
 </table>
 
 ## 过滤器
 
-按姓、名或电子邮件（按文本）</p>
+按姓氏、名字或电子邮件（按文本）</p>
 
 <table>
         <tr>

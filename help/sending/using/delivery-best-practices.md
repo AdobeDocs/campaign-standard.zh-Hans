@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 营销活动投放最佳实践
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 了解与使用Adobe Campaign进行投放设计和发送相关的最佳实践。
-feature: 可投放性
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 8%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 

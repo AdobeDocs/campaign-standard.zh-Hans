@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 自定义列表
 description: “了解如何在Adobe Campaign Standard中自定义显示屏并对列表屏幕执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 活动
+feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---

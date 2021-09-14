@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '在 Experience Manager 中创建 Campaign 表单 '
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建表单，以创建和更新用户档案或管理订阅。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
@@ -40,4 +38,4 @@ ht-degree: 12%
 1. 通过添加可映射到Adobe Campaign数据库字段的不同字段和组件，编辑表单的内容。
 1. 测试并发布表单，以使其可在您的AEM网站上访问。
 
-有关详细信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。
+有关详细信息，请参阅[有详细说明的文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。

@@ -1,32 +1,29 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新用户档案
-description: 了解更多如何使用API更新用户档案。
+description: 了解如何使用API更新用户档案。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
-
 # 更新用户档案 {#updating-profiles}
 
-更新用户档案是使用&#x200B;**PATCH**&#x200B;请求执行的。
+使用&#x200B;**PATCH**&#x200B;请求来更新用户档案。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是&#x200B;**检索用户档案**。
+1. 第一步是&#x200B;**检索配置文件**。
 
-1. 在第二个请求中，我们将对用户档案执行&#x200B;**PATCH请求**，并在有效负荷中执行完整信息。
+1. 在第二个请求中，我们将对用户档案执行&#x200B;**PATCH请求**，其中包含有效载荷中的已完成信息。
 
 1. 要检查PATCH请求是否更新了用户档案，我们可以执行最终GET请求。
 
@@ -34,7 +31,7 @@ ht-degree: 5%
 
 ***示例请求***
 
-检索GET的示例用户档案请求。
+用于检索用户档案的GET请求示例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -71,7 +68,7 @@ PATCH请求更新“phone”属性。
 -d '{"phone":"3301020304"}'
 ```
 
-它返回PKEY和URL以检索更新的用户档案。
+它会返回PKEY和URL以检索更新的用户档案。
 
 ```
 {

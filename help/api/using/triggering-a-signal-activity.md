@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 触发信号活动
 description: 了解如何使用API触发信号活动。
 audience: developing
@@ -9,34 +7,33 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
-
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流中，可以有一个或多个&#x200B;**外部信号**&#x200B;活动。 这些活动是等待被触发的“监听器”。
+在Adobe Campaign Standard工作流中，可以存在一个或多个&#x200B;**外部信号**&#x200B;活动。 这些活动是等待触发的“侦听器”。
 
-Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调用工作流。 API调用可以包括将被引入工作流的事件变量(要导入的受众名、要导入的文件名、消息内容的一部分等)中的参数。 这样，您就可以轻松地将活动自动化与外部系统集成。
+Campaign StandardAPI允许您触发&#x200B;**External signal**&#x200B;活动以调用工作流。 API调用可以包含将被摄取到工作流事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
 >[!NOTE]
 >
->外部信号活动的触发频率不能超过每10分钟，并且目标工作流必须已在运行。
+>外部信号活动的触发频率不能超过每10分钟一次，并且目标工作流必须已经运行。
 
 要触发工作流，请执行以下步骤：
 
-1. 在工作流上执行&#x200B;**GET**&#x200B;请求以检索外部信号活动触发器URL。
+1. 在工作流中执行&#x200B;**GET**&#x200B;请求以检索外部信号活动触发器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 对返回的URL执行&#x200B;**POST**&#x200B;请求以触发信号活动，负载中有&#x200B;**&quot;source&quot;**&#x200B;参数。 此属性是必填项，它允许您指示触发请求源。
+1. 对返回的URL执行&#x200B;**POST**&#x200B;请求以触发信号活动，有效负载中具有&#x200B;**&quot;source&quot;**&#x200B;参数。 此属性是强制性的，它允许您指示触发请求源。
 
-如果要使用参数调用工作流，请使用&#x200B;**&quot;parameters&quot;**&#x200B;属性将其添加到有效负荷中。 语法由参数的名称后跟其值组成(支持以下类型：**string**、**number**、**boolean**&#x200B;和&#x200B;**date/time**)。
+如果要使用参数调用工作流，请使用&#x200B;**&quot;parameters&quot;**&#x200B;属性将它们添加到有效负载中。 语法由参数的名称后跟其值组成(支持以下类型：**字符串**、**数字**、**布尔值**&#x200B;和&#x200B;**日期/时间**)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -59,13 +56,13 @@ Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调
 
 >[!NOTE]
 >
->向负载添加参数时，请确保其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值与“外部信号”活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
+>在向有效负载中添加参数时，请确保其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值与外部信号活动中声明的信息一致。 此外，有效载荷尺寸不应超过64Ko。
 
 <br/>
 
 ***示例请求***
 
-对工作流执行GET请求。
+在工作流中执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -75,7 +72,7 @@ Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回工作流信号活动和关联的触发器url。
+它会返回工作流信号活动和关联的触发器URL。
 
 ```
 {
@@ -94,7 +91,7 @@ Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调
 }
 ```
 
-要触发信号活动，请在触发器url上使用“source”执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
+要触发信号活动，请对具有“源”的触发器url执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -118,7 +115,7 @@ Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调
 
 <!-- + réponse -->
 
-如果某个参数未在外部信号活动中声明，则POST请求将返回以下错误，指示缺少哪个参数。
+如果某个参数未在外部信号活动中声明，则POST请求会返回以下错误，指示缺少哪个参数。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 增量查询
 description: 利用增量查询活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
 
-
 # 增量查询{#incremental-query}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/incremental.png)
 
@@ -31,7 +28,7 @@ ht-degree: 98%
 
 此活动可使用查询编辑器工具。有关该工具的详情，可参见[专述章节](../../automating/using/editing-queries.md#about-query-editor)。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Incremental query]** 必须链接到 **[!UICONTROL Scheduler]** 以定义工作流的执行频次，从而定义查询。
 
@@ -47,9 +44,9 @@ ht-degree: 98%
 
 **相关主题**
 
-* [用例：增量查询服务用户](../../automating/using/incremental-query-on-subscribers.md)
+* [用例：关于服务订阅者的增量查询](../../automating/using/incremental-query-on-subscribers.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Incremental query]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -73,6 +70,6 @@ ht-degree: 98%
 1. 您可以通过专用选项卡定义针对定向群体的 **[!UICONTROL Additional data]**。此数据存储在附加的列中，并且只能用于正在进行的工作流。而且，您还可以从链接到查询定向维度的 Adobe Campaign 查询数据库表格添加数据。请参阅[扩充数据](../../automating/using/query.md#enriching-data)一节。
 1. 确认活动的配置并保存工作流。
 
-## 扩充数据{#enriching-data}
+## 丰富数据 {#enriching-data}
 
 就像查询一样，您可以扩充来自 **[!UICONTROL Incremental query]** 的数据。请参阅[扩充数据](../../automating/using/query.md#enriching-data)一节。

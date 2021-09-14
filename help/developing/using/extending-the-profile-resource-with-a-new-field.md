@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用新字段扩展用户档案资源
 description: 了解如何扩展用户档案资源。
 audience: developing
@@ -9,18 +7,17 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 99%
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
-
 # 使用新字段扩展用户档案资源{#extending-the-profile-resource-with-a-new-field}
 
-## 关于扩展用户档案{#about-extending-profiles}
+## 关于扩展用户档案 {#about-extending-profiles}
 
 本使用案例详细说明了如何使用专用字段扩展用户档案和测试用户档案。
 
@@ -43,7 +40,7 @@ ht-degree: 99%
 * [管理用户档案](../../audiences/using/about-profiles.md)
 * [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
 
-## 第 1 步：扩展用户档案资源{#step-1--extend-the-profile-resource}
+## 第 1 步：扩展用户档案资源 {#step-1--extend-the-profile-resource}
 
 要为我们的用户档案创建新的 **Interest** 字段，您首先需要扩展现成的 **[!UICONTROL Profiles (profile)]** 资源。
 
@@ -97,7 +94,7 @@ ht-degree: 99%
 >
 >如果不需要扩展测试用户档案资源，可跳转到发布步骤。
 
-## 第 2 步：扩展测试用户档案{#step-2--extend-the-test-profile}
+## 第 2 步：扩展测试用户档案 {#step-2--extend-the-test-profile}
 
 要测试新创建的字段是否正确配置，可通过向测试用户档案发送投放以进行测试。首先，也需要对测试用户档案应用新字段。
 
@@ -122,7 +119,7 @@ ht-degree: 99%
 
 用户档案和测试用户档案现在都已拥有可用的新字段。要使其正确配置，您需要发布自定义资源。
 
-## 第 3 步：发布自定义资源{#step-3--publish-your-custom-resource}
+## 第 3 步：发布自定义资源 {#step-3--publish-your-custom-resource}
 
 要应用对资源所作的更改并使用更改后的资源，必须执行数据库更新。
 
@@ -146,7 +143,7 @@ ht-degree: 99%
 
 例如，您的新资源字段现已准备就绪，可在投放中使用和定向。
 
-## 第 4 步：使用工作流更新和定向用户档案{#step-4--update-and-target-profiles-with-a-workflow}
+## 第 4 步：使用工作流更新和定向用户档案 {#step-4--update-and-target-profiles-with-a-workflow}
 
 要使用新自定义字段更新用户档案的数据，您可以使用 **[!UICONTROL Profile acquisition]** 模板创建登陆页面。有关登陆页面的更多信息，请参阅[此页面](../../channels/using/getting-started-with-landing-pages.md)。
 

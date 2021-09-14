@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 早期发行说明
 description: 早期发行说明
-feature: 概述
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +21,6 @@ ht-degree: 45%
 >[!CAUTION]
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
-
 
 ## 21.3 版 - 2021 年 9 月 {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>新的“审核跟踪”功能可实时捕获在Adobe Campaign内发生的操作和事件的完整列表。 它包括一种访问数据历史的自助方式，可帮助回答以下问题：</p>
+<p>新的审核记录功能可实时捕获在 Adobe Campaign 内发生的操作和事件的全面列表。审核记录功能提供了一种访问数据历史记录的自助方式，可帮助回答以下问题：</p>
 <ul>
-<li>此工作流发生了什么情况，上次更新时是谁？</li>
-<li>谁做了最后的更改？</li>
-<li>该对象之前的状态是什么？</li>
+<li>此工作流发生了什么变化，谁最后进行了更新？</li>
+<li>谁进行了最后的改动？</li>
+<li>之前的状态是什么样？</li>
 </ul>
-<p>Adobe Campaign现在可以审核创建、编辑和删除操作：工作流、选项、自定义资源。 还会跟踪这些项目的修改。</p>
+<p>Adobe Campaign 现在会审核以下项目的创建、编辑和删除操作：工作流、选项、自定义资源。此外，还会跟踪这些项目的修改。</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -86,7 +83,7 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>您现在可以在诊断模式下运行Campaign工作流。 此模式记录信息，以帮助排查执行问题。 默认情况下，如果工作流查询花费了超过一分钟时间，则会记录整个执行计划。</p>
+<p>您现在可以在诊断模式下运行 Campaign 工作流。此模式会记录信息，帮助排除执行问题。默认情况下，如果工作流查询花费了超过一分钟时间，则会记录整个执行计划。</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -96,13 +93,13 @@ ht-degree: 45%
 
 **改进**
 
-* 现在，在工作流中创建链接到Adobe Experience Manager内容的定期投放时，发送之前会检查内容批准状态。
-* 数据库连接限制现在与Campaign包一致，以避免连接错误。
+* 现在，在工作流中创建链接到 Adobe Experience Manager 内容的定期投放时，发送之前会检查内容批准状态。
+* 数据库连接限制现在与 Campaign 包一致，以避免连接错误。
 * 在自定义资源中创建索引时添加了一致性检查并改进了错误消息。
 
 **修补程序**
 
-* 修复了从URL导入电子邮件内容时的超时错误。 (CAMP-49054)
-* 修复了在访问带有书签的URL或从浏览器刷新页面时，会话结束导致的错误(-69)。 (CAMP-49003、CAMP-48930、CAMP-48894)
-* 修复了将规则从旧版可交付性服务器同步到新可交付性服务器时的问题。 (CAMP-48923)
-* 修复了在Email Designer中加载带有HTML标记的电子邮件模板时的问题。 (CAMP-48243)
+* 修复了从 URL 导入电子邮件内容时出现的超时错误。(CAMP-49054)
+* 修复了访问已添加书签的 URL 或从浏览器刷新页面时，会话结束导致的错误 (-69)。(CAMP-49003、CAMP-48930、CAMP-48894)
+* 修复了将规则从旧版可交付性服务器同步到新版可交付性服务器时出现的问题。(CAMP-48923)
+* 修复了在电子邮件设计工具中加载带有 HTML 标签的电子邮件模板时出现的问题。(CAMP-48243)

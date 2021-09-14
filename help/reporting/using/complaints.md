@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 投诉
-description: 通过现成的投诉报告，了解投放被宣布为垃圾邮件的时间。
+description: 通过现成投诉报告，了解将投放声明为垃圾邮件的时间。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,21 +8,20 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '86'
+ht-degree: 2%
 
 ---
 
-
 # 投诉{#complaints}
 
-**[!UICONTROL Complaints]**&#x200B;报告将收到最多声明的投放标识为垃圾邮件。
+**[!UICONTROL Complaints]**&#x200B;报告将收到最多声明的投放识别为垃圾邮件。
 
 ![](assets/delivery_reports_complaints.png)
 
-按收件人域排序的&#x200B;**Flop**&#x200B;表显示已声明电子邮件或垃圾邮件的收件人数。 图表和摘要数字中也提供了表的结果。
+按收件人域排序的&#x200B;**Flop**&#x200B;表显示已声明电子邮件或垃圾邮件的收件人数量。 表格的结果也显示在图表和概要数字中。
 
-**“Delivered vs On**&#x200B;阻止列表”表列表了已声明电子邮件为垃圾邮件或垃圾邮件的收件人数。 表按投放排序。
+**已送达与已送达**&#x200B;阻止列表表列出了声明电子邮件为垃圾邮件或垃圾邮件的收件人数量。 表按投放排序。

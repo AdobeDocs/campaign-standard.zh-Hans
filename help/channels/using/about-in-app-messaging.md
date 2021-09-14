@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于应用程序内消息传递
 description: 在具有应用程序内消息传递功能的移动应用程序中，显示消息或警报。
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: 应用程序内
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 99%
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 

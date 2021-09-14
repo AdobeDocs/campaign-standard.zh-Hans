@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型
 description: 了解数据模型
 audience: developing
@@ -8,16 +6,15 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 6%
 
 ---
 
-
-# 投放(nms:投放)
+# 投放(nms:delivery)
 
 ## 对象描述
 
@@ -26,16 +23,16 @@ ht-degree: 6%
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>明细列表值</th>
+                  <th>枚举值</th>
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>验证</td>
+                  <td>校样</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>PK</td>
+                  <td>PKey</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -61,7 +58,7 @@ ht-degree: 6%
                <tr>
                   <td>aemContents</td>
                   <td>Adobe Experience Manager内容</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -79,11 +76,11 @@ ht-degree: 6%
                <tr>
                   <td>附件</td>
                   <td>附加的文件</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>品牌(brandingBase)</td>
+                  <td>品牌策略(brandingBase)</td>
                   <td>品牌</td>
                   <td>链接 </td>
                   <td> </td>
@@ -91,7 +88,7 @@ ht-degree: 6%
                <tr>
                   <td>broadLogs</td>
                   <td>投放日志</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -101,7 +98,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>活动(campaignBase)</td>
+                  <td>campaign(campaignBase)</td>
                   <td>营销活动</td>
                   <td>链接 </td>
                   <td> </td>
@@ -127,11 +124,11 @@ ht-degree: 6%
                <tr>
                   <td>contentSource</td>
                   <td>内容源</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
-                        <li>Adobe Campaign-活动- 0</li>
+                        <li>Adobe Campaign — 促销活动 — 0</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -157,12 +154,12 @@ ht-degree: 6%
                <tr>
                   <td>deliveryMode</td>
                   <td>投放模式</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
-                        <li>批量投放 — 批量 — 1</li>
-                        <li>中间源 — 中间采购 — 4</li>
-                        <li>描述 — 描述 — 2</li>
+                        <li>批量交付 — 批量 — 1</li>
+                        <li>中间源 — 中间源 — 4</li>
+                        <li>描述 — 描述性 — 2</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                         <li>外部 — 外部 — 0</li>
                      </ul>
@@ -177,7 +174,7 @@ ht-degree: 6%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>string(512)</td>
+                  <td>字符串(512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -189,13 +186,13 @@ ht-degree: 6%
                <tr>
                   <td>excludeLogs</td>
                   <td>排除日志</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>排除</td>
+                  <td>排除项</td>
                   <td>排除原因</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -207,12 +204,12 @@ ht-degree: 6%
                <tr>
                   <td>executionType</td>
                   <td>执行类型</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
-                        <li>唯一 — 一次 — 0</li>
+                        <li>独特 — oneTime - 0</li>
                         <li>连续 — 连续 — 1</li>
-                        <li>消息中心 — 消息中心 — 2</li>
+                        <li>消息中心 — messageCenter - 2</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -220,7 +217,7 @@ ht-degree: 6%
                <tr>
                   <td>forecastLogs</td>
                   <td>ForecastLog</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -231,26 +228,26 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>添加附加文件</td>
+                  <td>添加附加的文件</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>图标</td>
                   <td>图标</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
-                        <li>交易电子邮件 — emailLightning - 60</li>
+                        <li>事务型电子邮件 — emailLightning - 60</li>
                         <li>传真 — 传真 — 4</li>
-                        <li>移动(SMS)- sms - 1</li>
-                        <li>循环电子邮件 — email刷新 — 30</li>
+                        <li>移动（短信） — sms - 1</li>
+                        <li>定期电子邮件 — emailRefresh - 30</li>
                         <li>直邮 — 纸张 — 3</li>
                         <li>电话 — 电话 — 2</li>
                         <li>其他 — 其他 — 120</li>
-                        <li>循环SMS - smsRefresh - 31</li>
+                        <li>定期短信 — 短信刷新 — 31</li>
                         <li>移动应用程序 — pushNotification - 40</li>
-                        <li>交易型SMS - smsLightning - 61</li>
+                        <li>事务型短信 — smsLightning - 61</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -277,19 +274,19 @@ ht-degree: 6%
                <tr>
                   <td>迭代</td>
                   <td>投放</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>作业</td>
                   <td>作业</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -299,9 +296,9 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
+                  <td>label</td>
                   <td>标签</td>
-                  <td>标签</td>
-                  <td>string(128)</td>
+                  <td>字符串(128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -313,14 +310,14 @@ ht-degree: 6%
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>明细列表（字符串）(255)</td>
+                  <td>枚举（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>进行中 — 已启动 — 已启动</li>
-                        <li>编辑 — 版本 — 版本</li>
-                        <li>完成 — 完成 — 完成</li>
+                        <li>正在进行 — 已启动 — 已启动</li>
+                        <li>编辑 — 编辑 — 编辑 — 编辑</li>
+                        <li>已完成 — 已完成 — 已完成</li>
                         <li>警告 — 警告 — 警告</li>
-                        <li>错误 — 错误 — 错误</li>
+                        <li>错误 — 错误 — 错误 — 错误</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -358,11 +355,11 @@ ht-degree: 6%
                <tr>
                   <td>messageType</td>
                   <td>渠道</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>传真 — 传真 — 4</li>
-                        <li>移动(SMS)- sms - 1</li>
+                        <li>移动（短信） — sms - 1</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>电话 — 电话 — 2</li>
                         <li>直邮 — 纸张 — 3</li>
@@ -386,7 +383,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>offerManagement</td>
-                  <td>优惠管理</td>
+                  <td>选件管理</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
@@ -397,7 +394,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent(deliveryBase)</td>
+                  <td>父项(deliveryBase)</td>
                   <td>父投放</td>
                   <td>链接 </td>
                   <td> </td>
@@ -405,7 +402,7 @@ ht-degree: 6%
                <tr>
                   <td>优先级</td>
                   <td>投放优先级</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>高 — 高 — 20</li>
@@ -415,15 +412,15 @@ ht-degree: 6%
                   </td>
                </tr>
                <tr>
-                  <td>项目(programBase)</td>
+                  <td>program(programBase)</td>
                   <td>项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>验证</td>
-                  <td>验证</td>
-                  <td>collection </td>
+                  <td>校样</td>
+                  <td>校样</td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -447,7 +444,7 @@ ht-degree: 6%
                <tr>
                   <td>resourceVersion</td>
                   <td>资源版本</td>
-                  <td>string(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -457,7 +454,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>场景</td>
+                  <td>方案</td>
                   <td>投放模板参数</td>
                   <td>项目 </td>
                   <td> </td>
@@ -470,39 +467,39 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>smsParameters</td>
-                  <td>SMS参数</td>
+                  <td>短信参数</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>SMS预览</td>
+                  <td>短信预览</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>state</td>
                   <td>状态</td>
-                  <td>状态</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>开始挂起 — startPending - 51</li>
-                        <li>随时可送货 — 随时可送 — 45</li>
-                        <li>重试挂起 — 重试挂起 — 61</li>
+                        <li>准备投放 — 准备 — 45</li>
+                        <li>重试挂起 — retryPending - 61</li>
                         <li>重试进行中 — retryInProgress - 62</li>
                         <li>失败 — 失败 — 87</li>
-                        <li>进行中 — 开始 — 55</li>
+                        <li>正在进行 — 已开始 — 55</li>
                         <li>定位待定 — targetPrepPending - 11</li>
-                        <li>待定个性化 — messagePrepPending - 21</li>
-                        <li>暂停 — 暂停 — 75</li>
+                        <li>个性化挂起 — messagePrepPending - 21</li>
+                        <li>已暂停 — 已暂停 — 75</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
                         <li>正在计数 — targetSelection - 12</li>
-                        <li>消息已定稿 — messageReady - 25</li>
+                        <li>消息已完成 — messageReady - 25</li>
                         <li>个性化或计数失败 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
-                        <li>正在进行的个性化 — 消息准备 — 22</li>
-                        <li>目标就绪 — targetReady-15</li>
+                        <li>正在进行的个性化 — messagePreparation - 22</li>
+                        <li>Target就绪 — targetReady - 15</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                         <li>正在进行的仲裁 — 目标仲裁 — 13</li>
                      </ul>
@@ -510,26 +507,26 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>目标</td>
-                  <td>投放目标人口</td>
+                  <td>投放目标群体</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>template(deliveryTemplateSummary)</td>
+                  <td>模板(deliveryTemplateSummary)</td>
                   <td>投放模板</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>缩略图</td>
-                  <td>投放缩览图</td>
-                  <td>string(255)</td>
+                  <td>投放缩略图</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>投放</td>
-                  <td>string(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -541,24 +538,24 @@ ht-degree: 6%
                <tr>
                   <td>trackingLogs</td>
                   <td>跟踪日志</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingUrl</td>
                   <td>跟踪的URL</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>事务性消息参数</td>
+                  <td>事务型消息的参数</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>类型学（类型学基础）</td>
-                  <td>类型学</td>
+                  <td>类型（类型学Base）</td>
+                  <td>分类</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -571,14 +568,14 @@ ht-degree: 6%
                <tr>
                   <td>workflowStatus</td>
                   <td>工作流状态</td>
-                  <td>明细列表（字符串）(255)</td>
+                  <td>枚举（字符串）(255)</td>
                   <td>
                      <ul>
-                        <li>进行中 — 已启动 — 已启动</li>
-                        <li>编辑 — 版本 — 版本</li>
-                        <li>完成 — 完成 — 完成</li>
+                        <li>正在进行 — 已启动 — 已启动</li>
+                        <li>编辑 — 编辑 — 编辑 — 编辑</li>
+                        <li>已完成 — 已完成 — 已完成</li>
                         <li>警告 — 警告 — 警告</li>
-                        <li>错误 — 错误 — 错误</li>
+                        <li>错误 — 错误 — 错误 — 错误</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -595,7 +592,7 @@ ht-degree: 6%
     <th>类型</th>
     </tr>
     <tr>
-    <td>渠道</td>
+    <td>频道</td>
     <td>明细列表</td>
     </tr>
 </table>
@@ -621,12 +618,12 @@ ht-degree: 6%
     <th>类型</th>
     </tr>
     <tr>
-    <td>状态</td>
+    <td>state</td>
     <td>明细列表</td>
     </tr>
 </table>
 
-按名称或标签（按文本）
+按名称或标签(byText)
 
 <table>
     <tr>
@@ -638,7 +635,7 @@ ht-degree: 6%
     <td>字符串</td>
     </tr>
     <tr>
-    <td>麦</td>
+    <td>mc</td>
     <td>字符串</td>
     </tr>
 </table>
@@ -656,7 +653,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-按期间（按开始期间）
+按时段（按StartPeriod）
 
 <table>
     <tr>
@@ -694,12 +691,12 @@ ht-degree: 6%
     <th>类型</th>
     </tr>
     <tr>
-    <td>状态</td>
+    <td>state</td>
     <td>明细列表</td>
     </tr>
 </table>
 
-随访消息(showFullow)
+随访消息(showTrackup)
 
 <table>
     <tr>
@@ -712,7 +709,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-包括高级投放（与高级）
+包含高级投放(withAdvanced)
 
 <table>
     <tr>
@@ -725,7 +722,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-包含来自异构投放的连续列表(withContinuous)
+包括来自异构列表的连续投放(withContinuous)
 
 <table>
     <tr>
@@ -738,7 +735,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-包括验证（使用FCP）
+包含校样（使用FCP）
 
 <table>
     <tr>
@@ -768,7 +765,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-在给定期间（按日历）
+在给定期间（按日历）提供
 
 <table>
     <tr>

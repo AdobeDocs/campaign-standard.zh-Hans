@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于 Adobe Experience Cloud 触发器
 description: 现在您可通过使用 Adobe Analytics 跟踪客户的特定行为，从而在 Adobe Campaign 中向客户发送个性化电子邮件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
@@ -36,7 +34,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
-## 触发器用户流程{#triggers-user-process}
+## 触发器用户流程 {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -52,7 +50,7 @@ Adobe Campaign 用户流程的主要步骤如下：
 
 有关完整的使用案例，请参见[本章节](../../integrating/using/abandonment-triggers-use-cases.md)。
 
-## 重要说明{#important-notes}
+## 重要说明 {#important-notes}
 
 以下是在使用“Triggers - Campaign”集成之前需要考虑的一些重要注意事项：
 

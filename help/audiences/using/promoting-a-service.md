@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 推广服务
 description: 使用Adobe Campaign通过专用登陆页面、电子邮件或直接在您的网站上推广服务并吸引客户。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 受众
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 3%
 
 ---

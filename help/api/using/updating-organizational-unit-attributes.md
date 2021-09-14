@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新组织单位属性
 description: 了解如何更新组织单位属性
 audience: developing
@@ -9,25 +7,24 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
-
 # 更新组织单位属性 {#updating-organizational-unit-attributes}
 
-1. 对&#x200B;**orgUnitBase**&#x200B;资源执行GET请求以检索组织单元PKey。
-1. 在组织单元上执行PATCH请求，并在有效负荷中更新属性。
+1. 在&#x200B;**orgUnitBase**&#x200B;资源上执行GET请求以检索组织单位PKey。
+1. 对组织单位执行PATCH请求，并在有效负载中使用要更新的属性。
 
 <br/>
 
 ***示例请求***
 
-检索组织单位的列表。
+检索组织单位列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-在组织单元上执行PATCH请求，并在有效负荷中更新属性。
+对组织单位执行PATCH请求，并在有效负载中使用要更新的属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

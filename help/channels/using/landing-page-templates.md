@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 登陆页面模板
 description: 进一步了解登陆页面模板。
 audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: 登陆页面
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '232'
 ht-degree: 94%
 
 ---

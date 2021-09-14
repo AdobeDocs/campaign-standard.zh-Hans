@@ -1,28 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于执行活动
-description: 执行活动可从屏幕的左侧使用。
+description: 可从屏幕左侧执行活动。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 52%
+source-wordcount: '65'
+ht-degree: 53%
 
 ---
-
 
 # 关于执行活动{#about-execution-activities}
 
 从屏幕左侧的面板，展开 **[!UICONTROL Execution]** 部分。
 
-以下活动特定于组织和执行工作流。 他们的主要任务是协调其他活动。
+以下活动专门用于组织和执行工作流。 他们的主要任务是协调其他活动。
 
 ![](assets/wkf_execution_activities.png)
 
@@ -35,4 +32,3 @@ ht-degree: 52%
 * [等待](../../automating/using/wait.md)
 * [外部信号](../../automating/using/external-signal.md)
 * [测试](../../automating/using/test.md)
-

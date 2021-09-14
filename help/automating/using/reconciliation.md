@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 协调
 description: 利用协调活动，可将未识别的数据链接到现有资源。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 95%
 
 ---
 
-
 # 协调{#reconciliation}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/reconciliation.png)
 
 利用 **[!UICONTROL Reconciliation]** 活动，可将未识别的数据链接到现有资源。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Reconciliation]** 活动主要用于数据管理目的，并包含两种不同的使用情形：
 
@@ -51,9 +48,9 @@ ht-degree: 95%
 
 * [用例：使用关系进行数据协调](../../automating/using/reconciliation-using-relations.md)
 * [用例：使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
-* [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Reconciliation]** 活动拖放到您的工作流中的一个过渡（该过渡包含定向维度并非直接来自 Adobe Campaign 的群体）后方。有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。

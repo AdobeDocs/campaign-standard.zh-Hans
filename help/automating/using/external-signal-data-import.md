@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部信号和数据导入
 description: 以下示例说明了与数据导入一起使用的外部信号活动。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 
-
-# 外部信号和数据导入{#external-signal-data-import}
+# 外部信号和数据导入 {#external-signal-data-import}
 
 下方的示例展示了典型使用案例中的 **[!UICONTROL External signal]** 活动。在源工作流中执行数据导入。完成导入并更新数据库后，将触发第二个工作流。第二个工作流用于更新导入数据的聚合。
 
@@ -41,7 +38,7 @@ ht-degree: 78%
 
 * [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。
-* [End](../../automating/using/start-and-end.md)活动触发目标工作流，该工作流用于更新聚合。
+* [End](../../automating/using/start-and-end.md)活动会触发用于更新聚合的目标工作流。
 
 ![](assets/signal_example_source1.png)
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配置资源的数据结构
 description: 了解如何配置数据结构。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 99%
+source-wordcount: '1657'
+ht-degree: 100%
 
 ---
-
 
 # 配置资源的数据结构{#configuring-the-resource-s-data-structure}
 
@@ -31,7 +28,7 @@ ht-degree: 99%
 * [链接](#defining-links-with-other-resources)
 * [发送日志](#defining-sending-logs-extension)
 
-## 向资源添加字段{#adding-fields-to-a-resource}
+## 向资源添加字段 {#adding-fields-to-a-resource}
 
 您可以向资源添加新字段，以存储不属于现成数据模型的数据。
 
@@ -74,7 +71,7 @@ ht-degree: 99%
 
 资源的字段现已定义完成。
 
-## 定义标识键{#defining-identification-keys}
+## 定义标识键 {#defining-identification-keys}
 
 每个资源都必须至少拥有一个唯一键。例如，您可以指定一个键，使购买表中两个产品不能具有相同的 ID。
 
@@ -102,7 +99,7 @@ ht-degree: 99%
 >
 >要了解创建标识键时的最佳实践，请参阅此[章节](../../developing/using/data-model-best-practices.md#keys)。
 
-## 定义索引{#defining-indexes}
+## 定义索引 {#defining-indexes}
 
 索引可以引用一个或多个资源字段。利用索引，数据库可对记录进行排序，以便更轻松地取回记录。索引可优化 SQL 查询的性能。
 
@@ -130,7 +127,7 @@ ht-degree: 99%
 >
 >要了解创建索引时的最佳实践，请参阅此[章节](../../developing/using/data-model-best-practices.md#indexes)。
 
-## 定义与其他资源的链接{#defining-links-with-other-resources}
+## 定义与其他资源的链接 {#defining-links-with-other-resources}
 
 链接详细列出了一个表格与其他表格的关联。
 
@@ -218,7 +215,7 @@ ht-degree: 99%
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## 定义发送日志扩展{#defining-sending-logs-extension}
+## 定义发送日志扩展 {#defining-sending-logs-extension}
 
 利用发送日志扩展，您可以：
 
@@ -259,7 +256,7 @@ ht-degree: 99%
 >
 >发送到动态报告的字段数不得超过 20。
 
-## 编辑资源属性{#editing-resource-properties}
+## 编辑资源属性 {#editing-resource-properties}
 
 在自定义资源屏幕中，**[!UICONTROL Summary]** 窗格可指示新创建资源的状态。您可以管理其访问权限及其常规属性。
 
@@ -280,7 +277,7 @@ ht-degree: 99%
 
 您的修改已保存。您需要再次发布资源以应用它们。
 
-## 为用户档案和自定义资源生成唯一 ID{#generating-a-unique-id-for-profiles-and-custom-resources}
+## 为用户档案和自定义资源生成唯一 ID {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 默认情况下，用户档案和自定义资源在创建时没有业务 ID。您可以启用一个选项，以在创建元素时自动生成唯一 ID。该 ID 可用于：
 

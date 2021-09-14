@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型概念
 description: 了解 Adobe Campaign 数据模型及其修改方式。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 78%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
-
 
 # 数据模型概念{#data-model-concepts}
 
@@ -45,4 +42,4 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!CAUTION]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和对&#x200B;**所有**&#x200B;单元的功能[管理员](../../administration/using/users-management.md#functional-administrators)可访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以目标这些日志，但从链接的表(用户档案、投放)开始。
+>只有功能[管理员](../../administration/using/users-management.md#functional-administrators)，具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。

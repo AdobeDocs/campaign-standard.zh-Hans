@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 测试触发器
 description: 了解疑难解答提示，以帮助您解决在将触发器与Adobe Campaign结合使用时可能遇到的最常见问题。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 根据年龄组进行细分
-description: 本页根据数据库用户档案的年龄组显示数据库数据的分段。 该工作流旨在为每个年龄组发送特定的电子邮件。
+description: 此页根据年龄组显示数据库用户档案的分段。 该工作流旨在为每个年龄组发送特定的电子邮件。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 65%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
-
 
 # 根据年龄组进行细分 {#segmentation-age-groups}
 
@@ -29,9 +26,9 @@ ht-degree: 65%
 
 工作流由以下元素组成：
 
-* 用于指定工作流执行日期的[调度程序活动](../../automating/using/segmentation.md)。
-* [查询](../../automating/using/query.md)活动，以目标已输入其生日和电子邮件地址的人的用户档案。
-* A [分段](../../automating/using/segmentation.md)活动，用于创建3个分为不同出站过渡的区段：18-25岁，26-32岁，用户档案32岁以上。 区段根据以下参数进行定义：
+* [调度程序活动](../../automating/using/segmentation.md)以指定工作流的执行日期。
+* [查询](../../automating/using/query.md)活动，用于定向已输入生日和电子邮件地址之用户档案。
+* [分段](../../automating/using/segmentation.md)活动，用于创建3个分为不同叫客过渡的区段：18-25-year岁、26-32-year岁及32岁以上用户档案。 区段根据以下参数进行定义：
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -43,4 +40,4 @@ ht-degree: 65%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 每段[电子邮件投放](../../automating/using/email-delivery.md)活动。
+* 每个区段的[电子邮件投放](../../automating/using/email-delivery.md)活动。

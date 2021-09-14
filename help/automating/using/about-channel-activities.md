@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于渠道活动
 description: 屏幕的左侧提供了渠道活动。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 95%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
-
 
 # 关于渠道活动{#about-channel-activities}
 
@@ -33,4 +30,3 @@ ht-degree: 95%
 * [推送通知投放](../../automating/using/push-notification-delivery.md)
 * [直邮投放](../../automating/using/direct-mail-delivery.md)
 * [应用程序内投放](../../automating/using/in-app-delivery.md)
-

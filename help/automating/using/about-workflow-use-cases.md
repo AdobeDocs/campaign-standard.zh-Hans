@@ -1,25 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 关于工作流使用案例
-description: 进一步了解可以使用Campaign Standard工作流执行的使用案例。
+title: 关于工作流用例
+description: 进一步了解使用Campaign Standard工作流可执行的用例。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 71%
 
 ---
 
+# 关于工作流用例 {#about-workflow-use-cases}
 
-# 关于工作流使用案例 {#about-workflow-use-cases}
-
-在本节中，您将发现利用活动工作流功能的各种使用案例。
+在此部分中，您将发现利用Campaign工作流功能的各种用例。
 
 它们将帮助您发现可以使用工作流的不同上下文并响应您的需求。
 
@@ -33,7 +30,7 @@ ht-degree: 71%
 * [创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
 * [在投放之前标识重复项](../../automating/using/identifying-duplicated-before-delivery.md)
 * [生日投放](../../automating/using/birthday-delivery.md)
-* [耦合电子邮件和直邮邮件传递](../../automating/using/coupling-email-direct-mail.md)
+* [耦合电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 * [发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
 * [使用附加数据个性化电子邮件](../../automating/using/personalizing-email-with-additional-data.md)
 * [发送定期推送通知](../../automating/using/recurring-push-notifications.md)

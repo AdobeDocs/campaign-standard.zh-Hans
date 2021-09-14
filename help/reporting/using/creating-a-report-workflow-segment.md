@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 根据工作流区段创建报告
 description: 了解如何根据报表中的工作流区段检查交付是否成功。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 报告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---

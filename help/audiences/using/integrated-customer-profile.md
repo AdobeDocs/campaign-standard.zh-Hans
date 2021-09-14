@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 整合的客户用户档案
 description: “在单一视图跟踪每次客户互动：在整个客户生命周期中持续更新 Adobe Campaign 整合的客户用户档案。”
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: 用户档案
+feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 48%
 
 ---

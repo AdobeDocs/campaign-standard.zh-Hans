@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 优化消息投放
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 了解如何保护和优化上游发送流程。
-feature: 可投放性
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 8%
+source-wordcount: '746'
+ht-degree: 7%
 
 ---
 

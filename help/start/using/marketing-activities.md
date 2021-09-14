@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 营销活动
 description: “了解如何创建和管理营销活动：营销策划、电子邮件、短信和推送通知投放、登陆页面、工作流。您可以轻松地设计新活动、编辑现有活动，并查阅其状态和有效期。”
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: 活动
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 82%
 
 ---

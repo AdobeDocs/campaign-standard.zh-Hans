@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据保留
 description: Campaign中的标准日志表具有预设的保留期，通常将其数据存储限制为6个月或更短时间。 了解标准表的默认保留值。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 52%
+source-wordcount: '160'
+ht-degree: 53%
 
 ---
 

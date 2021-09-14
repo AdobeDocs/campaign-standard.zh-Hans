@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于 Campaign-Experience Manager 集成
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，稍后在Adobe Campaign中使用它。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -29,7 +27,7 @@ Adobe Campaign Standard与Adobe Experience Manager 6.1、6.2、6.3、6.4和6.5�
 >
 > Adobe Campaign Standard模板在Adobe Experience Manager 6.5中不再可用。
 
-## 有关如何使用Campaign-Experience Manager集成的提示{#tips-aem}
+## 有关如何使用Campaign-Experience Manager集成的提示 {#tips-aem}
 
 * **了解要与集成一起使用的模板**
 

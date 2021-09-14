@@ -1,37 +1,34 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 与营销历史互动
-description: 了解如何与用户档案的营销历史互动。
+description: 了解如何与用户档案的营销历史进行交互。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-
 # 与营销历史互动 {#interacting-with-marketing-history}
 
-通过&#x200B;**history**端点，您可以与用户档案的营销历史交互。
-例如，这样，您就可以轻松检索发送给用户档案的投放的镜像页面。 为此请执行以下操作步骤：
+通过&#x200B;**history**端点，您可以与用户档案的营销历史记录进行交互。
+这样，您就可以轻松检索已发送到用户档案的投放的镜像页面。 为此请执行以下操作步骤：
 
-1. 使用&#x200B;**history**&#x200B;端点和GET的主键执行用户档案。
-1. 对返回的&#x200B;**事件** href执行GET请求。
-1. 它返回用户档案的列表，该事件具有指向&#x200B;**mirrorPage**&#x200B;节点中镜像页面的链接。
+1. 使用&#x200B;**history**&#x200B;端点和配置文件的主键执行GET。
+1. 对返回的&#x200B;**events** href执行GET请求。
+1. 它会返回配置文件的事件列表，该配置文件具有指向&#x200B;**mirrorPage**&#x200B;节点中镜像页面的链接。
 
 <br/>
 
 ***示例请求***
 
-使用用户档案请求检索GET营销历史。
+使用GET请求检索用户档案的营销历史记录。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -41,7 +38,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-“事件”节点返回允许您访问用户档案上的事件的URL。
+“events”节点会返回一个URL，通过该URL，您可以访问用户档案中的事件。
 
 ```
 {
@@ -56,7 +53,7 @@ ht-degree: 10%
 }
 ```
 
-对返回的GEThref执行事件请求。
+对返回的事件href执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -66,7 +63,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回用户档案的列表，该事件具有指向“mirrorPage”节点中镜像页面的链接。
+它会返回配置文件的事件列表，其中包含指向“mirrorPage”节点中镜像页面的链接。
 
 ```
     {

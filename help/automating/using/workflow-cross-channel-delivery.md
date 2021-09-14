@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 跨渠道投放
-description: 此用例说明如何创建跨渠道投放
+description: 此用例展示了如何创建跨渠道投放
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 86%
 
 ---
-
 
 # 创建跨渠道投放{#cross-channel-delivery}
 
@@ -32,7 +29,7 @@ ht-degree: 86%
 * [了解工作流](../../automating/using/get-started-workflows.md)
 * [了解通信渠道](../../channels/using/get-started-communication-channels.md)
 
-## 创建工作流{#creating-workflow}
+## 创建工作流 {#creating-workflow}
 
 要将两个不同的投放发送至给定的组，您必须先定义目标。
 
@@ -46,7 +43,7 @@ ht-degree: 86%
 
 有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
 
-## 创建查询活动{#creating-query-activity}
+## 创建查询活动 {#creating-query-activity}
 
 创建工作流后，即可访问其界面。
 
@@ -64,11 +61,11 @@ ht-degree: 86%
 
 使用 **[!UICONTROL Count]** 该按钮可查看通过查询定向之用户档案数量的估算值。
 
-## 创建分段活动{#creating-segmentation-activity}
+## 创建分段活动 {#creating-segmentation-activity}
 
 一旦通过查询活动标识了目标，您就必须选择条件以将目标分为两个不同的群体：一个接收电子邮件，另一个接收短信。
 
-您必须使用[分段](../../automating/using/segmentation.md)活动，从查询上游计算的人口创建一个或多个区段。
+您必须使用[Segmentation](../../automating/using/segmentation.md)活动，从查询上游计算的群体创建一个或多个区段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -113,9 +110,9 @@ ht-degree: 86%
 
 ![](assets/wkf_segment_transitions.png)
 
-## 创建投放{#creating-deliveries}
+## 创建投放 {#creating-deliveries}
 
-由于已创建两个过渡，您现在必须向分段活动的出站过渡添加两种类型的投放:[电子邮件投放](../../automating/using/email-delivery.md)活动和[SMS投放](../../automating/using/sms-delivery.md)活动。
+创建了两个过渡后，您现在必须向分段活动的叫客过渡添加两种类型的投放：[电子邮件投放](../../automating/using/email-delivery.md)活动和[短信投放](../../automating/using/sms-delivery.md)活动。
 
 利用 Adobe Campaign 可向工作流中添加投放。要实现此目的，请从工作流活动面板的 **[!UICONTROL Channels]** 类别中选择一个投放。
 
@@ -136,11 +133,11 @@ ht-degree: 86%
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请选择 **[!UICONTROL Use the Email Designer]**。
 1. 编辑并保存您的内容。
-1. 在消息仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分，取消选择&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项。
+1. 在消息仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分中，取消选择&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项。
 
 创建短信投放：
 
-1. 将[SMS投放](../../automating/using/sms-delivery.md)活动拖放到另一段之后。
+1. 将[短信投放](../../automating/using/sms-delivery.md)活动拖放到另一个区段之后。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL SMS]** 并单击 **[!UICONTROL Next]**。
 1. 选择短信模板并单击 **[!UICONTROL Next]**。
@@ -151,9 +148,9 @@ ht-degree: 86%
 
 ![](assets/wkf_segment_deliveries.png)
 
-## 运行工作流{#running-the-workflow}
+## 运行工作流 {#running-the-workflow}
 
-启动工作流后，将分段&#x200B;**[!UICONTROL Query]**&#x200B;活动所针对的人口，以接收电子邮件或SMS投放。
+启动工作流后，**[!UICONTROL Query]**&#x200B;活动定向的群体将被分段，以接收电子邮件或短信投放。
 
 要执行工作流，请单击操作栏中的 **[!UICONTROL Start]** 按钮。
 

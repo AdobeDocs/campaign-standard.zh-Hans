@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 加载文件
 description: 利用加载文件活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。
 audience: automating
@@ -10,28 +8,27 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 373e4012-9daf-4da7-aad6-54726d991544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1364'
 ht-degree: 93%
 
 ---
 
+# 加载文件 {#load-file}
 
-# 加载文件{#load-file}
-
-## 说明{#description}
+## 说明 {#description}
 
 >[!CAUTION]
 >
->使用此功能时，请记住SFTP存储、数据库存储和有效用户档案限制。
+>使用此功能时，请牢记SFTP存储、数据库存储和根据您的Adobe Campaign合同规定的活动配置文件限制。
 
 ![](assets/data_loading.png)
 
 利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 可在配置活动时定义数据的提取方式。例如，要加载的文件可以是联系人的列表。
 
@@ -47,11 +44,11 @@ ht-degree: 93%
 **相关主题：**
 
 * [用例：使用外部数据更新数据库](../../automating/using/update-database-file.md)
-* [用例：基于自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
-* [用例：发送包含丰富字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
-* [用例：协调文件受众与数据库](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例：发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [用例：使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 活动的配置包含两个步骤。首先，您需要通过上传样例文件来定义预期的文件结构。完成此操作后，您可以指定要导入其数据之文件的来源。
 
@@ -108,7 +105,7 @@ ht-degree: 93%
 
 1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。使用此选项可在加载数据之前解压缩文件。仅当文件来自活动的集客过渡时，此选项才可用。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;字段还允许您在将文件导入数据库之前对其进行解密。 有关如何使用加密文件的详细信息，请参阅[本节](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a pre-processing stage]**&#x200B;字段还允许您在将文件导入数据库之前解密文件。 有关如何处理加密文件的更多信息，请参阅[此部分](../../automating/using/managing-encrypted-data.md)
 
 1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。激活该选项后，叫客过渡将重命名为“Rejects”。
 
@@ -122,7 +119,7 @@ ht-degree: 93%
 
 如果执行工作流后活动发生任何错误，请参阅日志以获取有关文件中错误值的更多详细信息。有关工作流日志的更多信息，请参阅[此章节](../../automating/using/monitoring-workflow-execution.md)。
 
-## 列格式{#column-format}
+## 列格式 {#column-format}
 
 加载样例文件时，将自动检测列格式以及每种数据类型的默认参数。您可以修改这些默认参数，以指定要应用于数据的特定进程，尤其是当存在错误或空值时。
 

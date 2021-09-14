@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 电子邮件投放
 description: 利用电子邮件投放活动，可在工作流中配置发送单次发送电子邮件，也可配置发送定期电子邮件。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 94%
 
 ---
 
-
 # 电子邮件投放{#email-delivery}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/email.png)
 
@@ -33,7 +30,7 @@ ht-degree: 94%
 
 而利用定期电子邮件，则在定义的时间段内多次向不同目标发送同一电子邮件。您可以按时段聚合投放，以获得对应于您需求的报告。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Email delivery]** 活动通常用于向在同一工作流中算出的目标自动发送电子邮件。
 
@@ -51,7 +48,7 @@ ht-degree: 94%
 * [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 * [用例：生日投放](../../automating/using/birthday-delivery.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Email delivery]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -68,7 +65,7 @@ ht-degree: 94%
       例如，对于每天发送的定期生日电子邮件，您可以选择聚合每月的发送。这样，尽管每天都会发送生日电子邮件，但您可以按月接收投放报告。
    >[!NOTE]
    >
-   >根据&#x200B;**聚合周期**&#x200B;准备循环投放。 例如，如果汇总期间为“按天”，则投放将每天仅重新准备一次。 如果您计划每天多次调用此工作流，请使用[!UICONTROL No aggregation]。
+   >定期投放是根据&#x200B;**聚合期**&#x200B;准备的。 例如，如果聚合期为“按天”，则每天只重新准备一次投放。 如果您计划每天多次调用此工作流，请使用[!UICONTROL No aggregation]。
 
 1. 选择电子邮件类型。电子邮件类型来自在 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单中定义的电子邮件模板。
 1. 输入电子邮件的常规属性。您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为电子邮件的标签。
@@ -84,7 +81,7 @@ ht-degree: 94%
 
 默认情况下，启动投放工作流只会触发消息准备。在工作流启动后，发送从工作流创建的消息，仍需要确认。但是在消息仪表板中，仅当通过工作流创建消息时，才能禁用 **[!UICONTROL Request confirmation before sending messages]** 选项。取消选中此选项后，消息在准备完成后即发送，不会进一步通知。
 
-## 备注{#remarks}
+## 备注 {#remarks}
 
 可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用电子邮件摘要窗格中的链接，可直接访问链接的元素（工作流、活动，如果是定期电子邮件，还包括父投放）。
 

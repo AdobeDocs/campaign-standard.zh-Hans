@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 创建服务
 description: 了解如何使用API创建服务。
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 9%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
-
 # 创建服务 {#creating-a-service}
 
-服务创建是使用对服务资源的&#x200B;**POST**&#x200B;请求执行的。
+服务创建是通过对服务资源的&#x200B;**POST**&#x200B;请求执行的。
 
-如果要创建具有特定属性的服务，请将其添加到有效负荷中。 否则，将使用默认服务创建新服务。
+如果要使用特定属性创建服务，请将其添加到有效负载中。 否则，将使用默认服务创建新服务。
 
 <br/>
 
@@ -45,7 +42,7 @@ ht-degree: 9%
 -d }
 ```
 
-它返回具有更新属性的新创建服务。
+它会返回具有更新属性的新创建服务。
 
 ```
 {

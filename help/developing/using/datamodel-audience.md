@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型
 description: 了解数据模型
 audience: developing
@@ -8,16 +6,15 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '207'
+ht-degree: 6%
 
 ---
 
-
-# 受众(nms:受众)
+# 受众(nms:audience)
 
 ## 对象描述
 
@@ -26,10 +23,10 @@ ht-degree: 5%
                   <th>名称</th>
                   <th>标签</th>
                   <th>类型（长度）</th>
-                  <th>明细列表值</th>
+                  <th>枚举值</th>
                </tr>
                <tr>
-                  <td>PK</td>
+                  <td>PKey</td>
                   <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
@@ -48,20 +45,20 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>预览所选人口</td>
-                  <td>collection </td>
+                  <td>预览选定群体</td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
                   <td>数据模式</td>
-                  <td>string(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>string(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -84,7 +81,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>countPreview</td>
-                  <td>计数预览</td>
+                  <td>CountPreview</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
@@ -103,7 +100,7 @@ ht-degree: 5%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>string(512)</td>
+                  <td>字符串(512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -138,7 +135,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud 受众</td>
+                  <td>Adobe Marketing Cloud受众</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
@@ -151,13 +148,13 @@ ht-degree: 5%
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>collection </td>
+                  <td>收藏集 </td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>label</td>
                   <td>标签</td>
-                  <td>标签</td>
-                  <td>string(128)</td>
+                  <td>字符串(128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -197,38 +194,38 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>源</td>
-                  <td>源</td>
+                  <td>来源</td>
+                  <td>来源</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>源ID</td>
+                  <td>源Id</td>
                   <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>受众</td>
-                  <td>string(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>type</td>
                   <td>类型</td>
-                  <td>类型</td>
-                  <td>明细列表（字符串）(100)</td>
+                  <td>枚举（字符串）(100)</td>
                   <td>
                      <ul>
-                        <li>查询-查询-查询</li>
-                        <li>列表-列表-列表</li>
+                        <li>查询 — 查询 — 查询</li>
+                        <li>列表 — 列表 — 列表</li>
                         <li>文件 — 文件 — 文件</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>在哪里</td>
+                  <td>where</td>
                   <td>查询定义</td>
                   <td>项目 </td>
                   <td> </td>
@@ -243,7 +240,7 @@ ht-degree: 5%
 
 ## 过滤器
 
-按过滤维度(byFilteringResource)
+通过筛选维度(byFilteringResource)
 
 <table>
     <tr>
@@ -256,7 +253,7 @@ ht-degree: 5%
     </tr>
 </table>
 
-按名称或标签（按文本）
+按名称或标签(byText)
 
 <table>
     <tr>
@@ -277,7 +274,7 @@ ht-degree: 5%
     <th>类型</th>
     </tr>
     <tr>
-    <td>类型</td>
+    <td>type</td>
     <td>明细列表</td>
     </tr>
     <tr>

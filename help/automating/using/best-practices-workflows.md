@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 工作流最佳实践
 description: 了解如何将最佳实践应用于您的工作流。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
-
 
 # 工作流最佳实践{#workflow-best-practices}
 
@@ -50,12 +47,12 @@ ht-degree: 84%
 
 ### 工作流的数量
 
-默认情况下，我们建议不要同时执行 20 个以上的活动工作流。超过该限制的工作流将排队等候执行，以免影响性能。同样，Adobe建议您逐步扩展工作流执行。
+默认情况下，我们建议不要同时执行 20 个以上的活动工作流。超过该限制的工作流将排队等候执行，以免影响性能。同样，Adobe建议您将工作流的执行时间分散。
 在特定环境中，您需要运行的工作流可能会超过 20 个。这不适用于等待排程执行的工作流。如果出现这种情况，您需要与 Campaign 专家核实使用案例，并联系 Adobe 客户关怀部门以提高上限。
 
 >[!NOTE]
 >
->在启动工作流之前，[!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流执行将被延迟，直到服务器上的负载降低并系统内存增加。
+>在启动工作流之前， [!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流的执行将被延迟，直到服务器的负载下降并系统内存增加为止。
 
 ### 频度
 
@@ -77,13 +74,13 @@ ht-degree: 84%
 
 ## 活动{#activity}
 
-### 每个工作流{#number-activities}的活动数
+### 每个工作流的活动数 {#number-activities}
 
-我们建议在单个工作流程中使用多达100个活动。 超过100个活动在设计和配置工作流时可能会遇到一些性能问题。
+我们建议在单个工作流中使用最多100个活动。 在100多个活动中，您在设计和配置工作流时可能会遇到一些性能问题。
 
 ### 工作流设计
 
-要确保工作流正常结束，请避免使用&#x200B;**[!UICONTROL End activity]**&#x200B;单独保留工作流的最后过渡。
+要确保工作流正常结束，请避免使用&#x200B;**[!UICONTROL End activity]**&#x200B;将工作流的最后一个过渡留给自己。
 
 要访问过渡的详细视图，请勾选工作流属性“执行”部分中的 **[!UICONTROL Keep interim results]** 选项。
 
@@ -112,11 +109,11 @@ ht-degree: 84%
 
 有关更多信息，请参见[调度程序活动](../../automating/using/scheduler.md)。
 
-在设计包含多个活动的计划工作流时，您需要确保在工作流完成之前不会重新计划该工作流。 为此，您需要配置工作流，以防止在先前执行的一个或多个任务仍处于挂起状态时执行工作流。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
+设计包含多个活动的计划工作流时，您需要确保在工作流完成之前不会重新计划该工作流。 为此，您需要配置工作流，以在先前执行中的一个或多个任务仍处于挂起状态时阻止其执行。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
 
 ## 使用参数调用工作流{#workflow-with-parameters}
 
-确保参数的名称和数量与调用工作流时定义的内容相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
+确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
 
 确保已在 **[!UICONTROL External signal activity]** 中声明了所有的参数。否则，运行活动时将出错。
 
@@ -131,7 +128,7 @@ ht-degree: 84%
 默认情况下，导出列表选项允许导出最多 100,000 行，具体行数由 **Nms_ExportListLimit 选项**&#x200B;定义。功能管理员可通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 管理此选项。
 有关更多信息，请参阅[导出列表](../../automating/using/exporting-lists.md)。
 
-## 疑难解答{#workflow-troubleshooting}
+## 故障排除{#workflow-troubleshooting}
 
 Adobe Campaign 提供了各种日志以更好地了解您的工作流问题。
 

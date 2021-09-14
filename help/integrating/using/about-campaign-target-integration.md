@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 关于 Campaign-Target 集成
 description: 通过Adobe Target集成，您可以将Adobe Target生成的动态图像插入到您的Adobe Campaign消息中。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 

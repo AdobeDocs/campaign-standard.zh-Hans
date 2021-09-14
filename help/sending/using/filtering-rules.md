@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 筛选规则
 description: 使用过滤规则优化消息的受众。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: 类型规则
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '653'
 ht-degree: 3%
 
 ---

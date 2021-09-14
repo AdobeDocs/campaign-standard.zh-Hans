@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 短信投放
 description: 利用短信投放活动，可在工作流中配置发送单次发送短信，也可配置发送定期短信。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '784'
+ht-degree: 100%
 
 ---
 
-
 # 短信投放{#sms-delivery}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/sms.png)
 
@@ -32,7 +29,7 @@ ht-degree: 99%
 * **单次发送短信是标准短信，只发送一次。**
 * **而利用定期短信，则会在定义的时间段内多次向不同目标发送同一短信。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL SMS delivery]** 活动通常用于向在同一工作流中算出的目标自动发送短信。
 
@@ -42,7 +39,7 @@ ht-degree: 99%
 
 根据工作流执行参数，触发消息准备。在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认要求）。您可以手动启动工作流，或在工作流中放置调度程序活动以自动执行。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL SMS delivery]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -72,7 +69,7 @@ ht-degree: 99%
 
 默认情况下，启动投放工作流只会触发消息准备。在工作流启动后，发送从工作流创建的消息，仍需要确认。但是在消息仪表板中，仅当通过工作流创建消息时，才能禁用 **[!UICONTROL Request confirmation before sending messages]** 选项。取消选中此选项后，消息在准备完成后即发送，不会进一步通知。
 
-## 备注{#remarks}
+## 备注 {#remarks}
 
 可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用短信摘要窗格中的链接，可直接访问链接的元素（工作流、活动，如果是定期短信，还包括父投放）。
 

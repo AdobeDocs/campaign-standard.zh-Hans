@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用 Audience Manager 或 People 核心服务共享受众
 description: 了解如何在不同的Adobe Experience Cloud解决方案中导入或导出受众。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People核心服务集成
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
 
 # 使用 Audience Manager 或 People 核心服务共享受众{#sharing-audiences-with-audience-manager-or-people-core-service}
 
-## 导入受众{#importing-an-audience}
+## 导入受众 {#importing-an-audience}
 
 People核心服务集成允许通过技术工作流将受众直接导入Adobe Campaign，以丰富您的数据库。 有关在People核心服务中共享受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
@@ -49,7 +47,7 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 >
 >如果您要将受众从Adobe Analytics导入Adobe Campaign，则需要先在“人员”核心服务或Audience Manager中共享这些受众。 此过程需要12-24小时，而且必须将其添加到与Campaign的24-36小时同步中。 在这种情况下，受众共享的时间范围最长为60小时。 有关在People Core Service和Audience Manager中共享Adobe Analytics受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
-## 导出受众{#exporting-an-audience}
+## 导出受众 {#exporting-an-audience}
 
 可以使用工作流和&#x200B;**[!UICONTROL Save audience]**&#x200B;活动，将受众从Adobe Campaign导出到Audience Manager或人员核心服务。
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 创建多语言推送通知
 description: 创建多语言推送通知以定向使用户首选语言和区域的用户。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-feature: 推送
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---

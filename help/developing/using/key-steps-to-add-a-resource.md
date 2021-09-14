@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 添加资源的关键步骤
-description: 在此了解在Adobe Campaign数据模型中添加资源的关键步骤。
+description: 在此处了解在Adobe Campaign数据模型中添加资源的关键步骤。
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 45%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
-
 
 # 添加资源的关键步骤{#key-steps-to-add-a-resource}
 
@@ -36,4 +33,4 @@ ht-degree: 45%
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-其他Campaign Standard操作视频[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)可用。
+其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。

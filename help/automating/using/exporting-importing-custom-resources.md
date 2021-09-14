@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 导出/导入自定义资源
 description: 本教程介绍如何导出和导入自定义资源包。
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 99%
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
-
-# 导出/导入自定义资源{#exporting-importing-custom-resources}
+# 导出/导入自定义资源 {#exporting-importing-custom-resources}
 
 本教程介绍如何将自定义资源包从开发环境导出并导入到制作环境。
 
@@ -37,7 +34,7 @@ ht-degree: 99%
 * [部署资源包：工作原理](../../developing/using/data-model-concepts.md)
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 导出结构{#exporting-the-structure}
+## 导出结构 {#exporting-the-structure}
 
 在本节中，我们将执行第一个资源包导出，该资源包中详细介绍了自定义资源数据的物理结构。
 
@@ -70,7 +67,7 @@ ht-degree: 99%
 
 生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
 
-## 导出数据{#exporting-the-data}
+## 导出数据 {#exporting-the-data}
 
 通过第二次导出，可导出 **Products** 和 **Orders** 自定义资源的数据。
 
@@ -102,9 +99,9 @@ ht-degree: 99%
 
 生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
 
-## 导入结构{#importing-the-structure}
+## 导入结构 {#importing-the-structure}
 
-### 导入资源包{#importing-the-structure-package}
+### 导入资源包 {#importing-the-structure-package}
 
 1. 连接到要导入新创建资源包的&#x200B;**目标实例**。
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入来自第一次导出的文件。
@@ -117,7 +114,7 @@ ht-degree: 99%
 
    ![](assets/cusresources_import3.png)
 
-### 发布{#publish-structure}
+### 发布 {#publish-structure}
 
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** 菜单。
 1. 单击 **[!UICONTROL Prepare publication]**，然后单击 **[!UICONTROL Publish]** 以使用来自新自定义资源的数据更新实例。
@@ -125,13 +122,13 @@ ht-degree: 99%
 
    ![](assets/cusresources_import1.png)
 
-## 导入数据{#importing-the-data}
+## 导入数据 {#importing-the-data}
 
 在本节中，我们将&#x200B;**导入数据**，这些数据会链接到上一步中安装到实例上的资源包。
 
 与上一步相同，此步骤分为两个部分：导入资源包和发布。
 
-### 导入资源包{#importing-the-data-package}
+### 导入资源包 {#importing-the-data-package}
 
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入包含数据的文件。
 1. 将数据文件拖放到为此目的而提供的区域中。可接受的格式为 ZIP 或 XML。
@@ -140,7 +137,7 @@ ht-degree: 99%
 
    ![](assets/cusresources_importdata.png)
 
-### 发布{#publish-data}
+### 发布 {#publish-data}
 
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** 菜单。
 1. 单击 **[!UICONTROL Prepare publication]**，然后单击 **[!UICONTROL Publish]** 以使用来自自定义资源的数据更新实例。

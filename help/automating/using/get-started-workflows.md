@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 流程和数据管理入门
 description: 利用工作流实现流程自动化、管理数据和受众、发送消息等。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 工作流
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---
@@ -36,7 +34,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * 将数据导入 Campaign 数据库。
 * 数据库清理、恢复跟踪信息等技术流程。
 
-## 工作流活动{#workflow-activities}
+## 工作流活动 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -54,7 +52,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * [执行工作流](../../automating/using/about-workflow-execution.md)
 * [工作流最佳实践](../../automating/using/best-practices-workflows.md)
 
-## 筛选数据{#filter-data}
+## 筛选数据 {#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -68,7 +66,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * [高级表达式编辑](../../automating/using/advanced-expression-editing.md)
 * [函数列表](../../automating/using/list-of-functions.md)
 
-## 导入/导出数据{#import-export-data}
+## 导入/导出数据 {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -87,7 +85,7 @@ Campaign Standard附带多个&#x200B;**数据管理功能**&#x200B;以导入和�
 阅读更多:
 
 * [导入和导出数据](../../automating/using/about-data-import-and-export.md)
-* [使用案例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)
+* [用例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 其他资源
 

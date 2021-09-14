@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 添加组件
 description: 将组件拖放到自由格式表中，以开始过滤数据并构建报表。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 报告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 4%
 
 ---

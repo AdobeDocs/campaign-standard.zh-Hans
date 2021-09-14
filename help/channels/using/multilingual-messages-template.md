@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 多语言消息模板
 description: 了解如何根据自动分段客户的首选语言，通过单次投放定义和执行多语言电子邮件/短信投放。关于每次投放之绩效的报告，可以细分到语言和各个级别。
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 多语言消息
+feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 

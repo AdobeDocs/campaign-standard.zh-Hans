@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在 Experience Cloud 中配置触发器
 description: '了解如何配置Adobe Experience Cloud Triggers集成，以便根据客户以前的行为开始向客户发送个性化投放。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
 
 # 在 Experience Cloud 中配置触发器{#configuring-triggers-in-experience-cloud}
 
-## 激活功能{#activating-the-functionality}
+## 激活功能 {#activating-the-functionality}
 
 必须在Adobe Campaign中通过Adobe激活该功能。 请联系您的Adobe客户经理或专业服务合作伙伴。
 
@@ -29,7 +27,7 @@ Adobe团队需要以下信息才能激活触发器：
 * IMS 组织 ID
 * Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
-## 配置解决方案和服务{#configuring-solutions-and-services}
+## 配置解决方案和服务 {#configuring-solutions-and-services}
 
 要使用此功能，您需要有权访问以下解决方案/核心服务：
 
@@ -57,7 +55,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 您需要配置[Experience CloudDTM核心服务](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人员核心服务](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)来运行这些用例。
 
-### 配置Experience CloudDTM核心服务{#configuring-experience-cloud-dtm-core-service}
+### 配置Experience CloudDTM核心服务 {#configuring-experience-cloud-dtm-core-service}
 
 1. 在Experience CloudDTM核心服务（动态标签管理）中，为您的网站页面激活Experience CloudID和Adobe Analytics。
 
@@ -67,7 +65,7 @@ Adobe团队需要以下信息才能激活触发器：
 
    ![](assets/trigger_uc_conf_2.png)
 
-### 配置Experience Cloud人员核心服务{#configuring-experience-cloud-people-core-service}
+### 配置Experience Cloud人员核心服务 {#configuring-experience-cloud-people-core-service}
 
 之前在DTM中引用的别名需要通过Experience Cloud属性在客户人员核心服务中创建。 确保在集成代码中创建新别名并引用相同的DTM别名（例如“visitorid”）。
 
@@ -77,7 +75,7 @@ Adobe团队需要以下信息才能激活触发器：
 >
 >我们将在Adobe Campaign的数据源中使用此客户属性（下一步）。
 
-### 在Campaign {#configuring-triggers-and-aliases-in-campaign}中配置触发器和别名
+### 在Campaign中配置触发器和别名 {#configuring-triggers-and-aliases-in-campaign}
 
 1. 确保&#x200B;**[!UICONTROL Experience Cloud triggers]**&#x200B;在Adobe Campaign Standard实例上可见。 如果没有，请联系Adobe Campaign管理员。
 
@@ -91,7 +89,7 @@ Adobe团队需要以下信息才能激活触发器：
    >
    >您可以为匿名用户和已登录用户协调触发器。 对于匿名用户，该用户档案应存在于Adobe Campaign中，且之前已向该用户发送过电子邮件。 因此，访客ID配置就足够了。 但是，如果要为已登录的用户协调触发器，则需要设置声明的ID数据源。 有关更多信息，请参阅[数据源配置](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
 
-## 在Experience Cloud接口{#creating-a-trigger-in-the-experience-cloud-interface}中创建触发器
+## 在Experience Cloud界面中创建触发器 {#creating-a-trigger-in-the-experience-cloud-interface}
 
 需要创建Adobe Experience Cloud触发器，以便在Campaign中使用。
 
@@ -99,7 +97,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)并观看此[视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)。
 
-## 触发器最佳实践和限制{#triggers-best-practices-and-limitations}
+## 触发器最佳实践和限制 {#triggers-best-practices-and-limitations}
 
 以下是使用Campaign - Triggers集成的最佳实践和限制列表：
 

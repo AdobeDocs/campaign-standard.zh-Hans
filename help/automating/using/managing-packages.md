@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 管理资源包
 description: 管理员可以定义资源包，以通过结构化 XML 文件在不同的 Adobe Campaign 实例之间交换资源。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 99%
+source-wordcount: '1053'
+ht-degree: 100%
 
 ---
-
 
 # 管理资源包{#managing-packages}
 
@@ -33,9 +30,9 @@ ht-degree: 99%
 
 要显示和修改元素的内容，请单击其标签。请参阅[导出资源包](#exporting-a-package)和[导入资源包](#importing-a-package)章节。
 
-## 资源包导出{#package-exports}
+## 资源包导出 {#package-exports}
 
-### 标准资源包{#standard-packages}
+### 标准资源包 {#standard-packages}
 
 **[!UICONTROL Platform]** 和 **[!UICONTROL Administration]** 是两个内置资源包，每个资源包都包含要导出的预定义资源列表。这两个资源包能够以只读模式打开，且仅适用于导出。
 
@@ -58,7 +55,7 @@ ht-degree: 99%
 >
 >这两个资源包的内容无法修改。相反，这些资源包始终包含最新的可用数据。您可以[创建自己的资源包](#creating-a-package)，以导出特定元素。
 
-### 创建资源包{#creating-a-package}
+### 创建资源包 {#creating-a-package}
 
 如果需要导出特定数据集，您需要创建资源包。
 
@@ -97,7 +94,7 @@ ht-degree: 99%
 
 您的资源包现已创建完成，可供导出。
 
-### 导出资源包{#exporting-a-package}
+### 导出资源包 {#exporting-a-package}
 
 利用导出资源包，可保存资源的特定状态，以便未来将其重新导入其他实例或同样的实例中。
 
@@ -125,9 +122,9 @@ ht-degree: 99%
 >
 >从已导出的资源包内容列表中选择元素时，仍可使用 **[!UICONTROL Log]** 和 **[!UICONTROL Last export]** 选项卡。
 
-## 资源包导入{#package-imports}
+## 资源包导入 {#package-imports}
 
-### 系统更新{#system-updates}
+### 系统更新 {#system-updates}
 
 任何内容上方的资源包导入列表，都包含链接到 Adobe 执行更新的自动导入。
 
@@ -141,7 +138,7 @@ ht-degree: 99%
 >
 >可在只读模式下访问这些元素。
 
-### 导入资源包{#importing-a-package}
+### 导入资源包 {#importing-a-package}
 
 管理员可以手动导入先前从 Adobe Campaign 实例导出的资源包。有关更多信息，请参阅[资源包导出](#package-exports)一节。
 

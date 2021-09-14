@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用协调进行数据更新
 description: 下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 66%
+source-wordcount: '128'
+ht-degree: 67%
 
 ---
-
 
 # 使用协调进行数据更新 {#data-update-reconciliation}
 
@@ -25,7 +22,7 @@ ht-degree: 66%
 
 ![](assets/identification_example2.png)
 
-* [加载文件](../../automating/using/load-file.md)活动，加载并检测要导入的文件的数据。 导入的文件包含以下数据：
+* [加载文件](../../automating/using/load-file.md)活动，用于加载并检测要导入的文件的数据。 导入的文件包含以下数据：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -40,10 +37,10 @@ ht-degree: 66%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [协调](../../automating/using/reconciliation.md)活动，将加载文件的每列链接到用户档案维列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
+* [Reconciliation](../../automating/using/reconciliation.md)活动，用于将加载文件的每个列链接到用户档案维度列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
    ![](assets/identification_example1.png)
 
-* [保存受众](../../automating/using/save-audience.md)活动，保存用户档案受众。
+* [保存受众](../../automating/using/save-audience.md)活动，用于保存用户档案的受众。
 
    ![](assets/identification_example3.png)

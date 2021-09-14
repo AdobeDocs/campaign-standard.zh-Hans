@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在 Campaign 中使用触发器
 description: 在Adobe Campaign中基于现有的Adobe Experience Cloud触发器创建触发器事件。
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 79%

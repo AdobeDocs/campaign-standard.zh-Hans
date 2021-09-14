@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配置 Campaign-Experience Manager 集成
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，稍后在Adobe Campaign中使用它。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: 触发器
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---
@@ -31,7 +29,7 @@ Adobe Campaign Standard与Adobe Experience Manager之间的此集成允许您在
 * Adobe Experience Manager **publishing**&#x200B;实例
 * Adobe Campaign实例
 
-## Adobe Campaign Standard中的配置{#config-acs}
+## Adobe Campaign Standard中的配置 {#config-acs}
 
 要将这两个解决方案结合使用，您必须将它们配置为彼此连接。
 要配置Adobe Campaign，请执行以下操作：
@@ -64,7 +62,7 @@ Adobe Campaign Standard与Adobe Experience Manager之间的此集成允许您在
 
 您现在需要在Adobe Experience Manager中配置集成。
 
-## Adobe Experience Manager中的配置{#config-aem}
+## Adobe Experience Manager中的配置 {#config-aem}
 
 要使用Adobe Campaign Standard配置Adobe Experience Manager，您必须执行以下步骤：
 

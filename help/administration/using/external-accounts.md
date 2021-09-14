@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部帐户
 description: 配置外部帐户以设置与外部系统（如 SFTP 服务器）的连接。
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1772'
 ht-degree: 84%
 
 ---

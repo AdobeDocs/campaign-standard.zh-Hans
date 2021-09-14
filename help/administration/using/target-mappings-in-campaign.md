@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign 中的目标映射
 description: 目标映射是Campaign用来传递消息的技术对象。 其中包含发送投放所需的所有技术设置。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

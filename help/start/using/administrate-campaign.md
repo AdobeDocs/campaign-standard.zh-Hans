@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义显示并对列表屏幕执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何在Adobe Campaign Standard中自定义显示屏并对列表屏幕执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 8%
@@ -44,42 +41,42 @@ ht-degree: 8%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
 **阅读更多**
 
-* xx
-* xx
+* xxxx
+* xxxx
 
 ## 使用REST API
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
 **阅读更多**
 
-* xx
-* xx
+* xxxx
+* xxxx
 
 ## 管理用户
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
 **阅读更多**
 
-* xx
-* xx
+* xxxx
+* xxxx
 
 ## 配置和监视实例
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue， a lacinia risus. 苏西比特的红毛双叶。 Mauris consectetur maximus euismod. Cras et vehiula nulla. Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui.
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
 **阅读更多**
 
-* xx
-* xx
+* xxxx
+* xxxx

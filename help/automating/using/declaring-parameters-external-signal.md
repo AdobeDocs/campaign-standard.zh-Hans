@@ -1,24 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部参数调用工作流
-description: 本节详细介绍了如何使用外部参数调用工作流。
+description: 本节详细介绍如何使用外部参数调用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e6148b40-f608-4aab-81f6-756608c6828e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 6%
+source-wordcount: '108'
+ht-degree: 5%
 
 ---
 
-
-# 在外部信号活动{#declaring-the-parameters-in-the-external-signal-activity}中声明参数
+# 声明外部信号活动中的参数 {#declaring-the-parameters-in-the-external-signal-activity}
 
 使用参数调用工作流的第一步是在&#x200B;**[!UICONTROL External signal]**&#x200B;活动中声明它们。
 
@@ -27,8 +24,8 @@ ht-degree: 6%
 
    >[!CAUTION]
    >
-   >确保参数的名称和数量与调用工作流时定义的内容相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，参数类型必须与预期值一致。
+   >确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页面](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，参数的类型必须与预期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. 声明参数后，请完成工作流配置，然后运行它。
+1. 声明参数后，完成工作流配置，然后运行该配置。

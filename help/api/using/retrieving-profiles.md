@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 检索用户档案
 description: 了解更多如何使用API检索用户档案。
 audience: developing
@@ -9,28 +7,27 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
 
-
 # 检索用户档案 {#retrieving-profiles}
 
-使用&#x200B;**用户档案**&#x200B;请求执行检索GET。
+使用&#x200B;**GET**&#x200B;请求来检索用户档案。
 
-然后，您可以使用过滤器、排序和分页来优化搜索。 有关详细信息，请参阅[其他操作](../../api/using/sorting.md)部分。
+然后，您可以使用过滤器、排序和分页来优化搜索。 有关更多信息，请参阅[其他操作](../../api/using/sorting.md)一节。
 
-此外，Campaign Standard API允许您根据以下字段之一搜索用户档案:电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
+此外，Campaign StandardAPI允许您根据以下任一字段搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
 
 <br/>
 
 ***示例请求***
 
-* 检索所有GET的示例用户档案请求。
+* 用于检索所有用户档案的GET请求示例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -56,7 +53,7 @@ ht-degree: 5%
    }
    ```
 
-* 检索前10个电子邮件值的示例GET请求。
+* 用于检索前10个电子邮件值的GET请求示例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -66,7 +63,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。 “下一个”节点返回URL，通过它可访问下一个10个电子邮件值。
+   响应请求。 “下一个”节点会返回一个URL，通过该URL，您可以访问10个下一个电子邮件值。
 
    ```
    {
@@ -89,17 +86,17 @@ ht-degree: 5%
    }
    ```
 
-## 基于字段{#searching-field}搜索用户档案
+## 基于字段搜索用户档案 {#searching-field}
 
-**[!UICONTROL filterType]**&#x200B;参数允许您基于以下字段之一检索用户档案:在扩展用户档案资源时，电子邮件、名字、姓氏或在高级过滤中添加的任何自定义字段。
+**[!UICONTROL filterType]**&#x200B;参数允许您根据以下任一字段检索用户档案：扩展用户档案资源时，在高级过滤中添加的电子邮件、名字、姓氏或任何自定义字段。
 
 >[!NOTE]
 >
->搜索区分大小写并仅对前缀执行。 例如，您将无法使用姓氏的最后字母查找用户档案。
+>搜索区分大小写，并且仅对前缀执行。 例如，您将无法使用其姓氏的最后字母查找用户档案。
 
 ***示例请求***
 
-* 基于名筛选用户档案的示例请求。
+* 按名字筛选用户档案的示例请求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -129,7 +126,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 基于“Hobby”自定义字段筛选用户档案的示例请求。
+* 根据“Hobby”自定义字段筛选用户档案的示例请求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

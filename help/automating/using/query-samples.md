@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 查询样例
 description: 本节介绍使用查询活动时的用例。
 audience: automating
@@ -10,26 +8,25 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 89%
+source-wordcount: '334'
+ht-degree: 90%
 
 ---
 
+# 查询样例 {#query-samples}
 
-# 查询样例{#query-samples}
+本节介绍使用&#x200B;**[!UICONTROL Query]**&#x200B;活动时的用例。 有关如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活动的更多信息，请参阅[此部分](../../automating/using/query.md)。
 
-本节介绍使用&#x200B;**[!UICONTROL Query]**&#x200B;活动时的用例。 有关如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活动的详细信息，请参阅[本节](../../automating/using/query.md)。
-
-## 基于简单用户档案属性定向{#targeting-on-simple-profile-attributes}
+## 基于简单用户档案属性定向 {#targeting-on-simple-profile-attributes}
 
 下方的示例展示了一个查询活动，该活动配置为定向居住在伦敦的 18 至 30 岁的男子。
 
 ![](assets/query_sample_1.png)
 
-## 基于电子邮件属性定向{#targeting-on-email-attributes}
+## 基于电子邮件属性定向 {#targeting-on-email-attributes}
 
 下方的示例显示了一个查询活动，该活动配置为定向电子邮件地址域为“orange.co.uk”的用户档案。
 
@@ -39,7 +36,7 @@ ht-degree: 89%
 
 ![](assets/query_sample_emailnotempty.png)
 
-## 定向生日为今天的用户档案{#targeting-profiles-whose-birthday-is-today}
+## 定向生日为今天的用户档案 {#targeting-profiles-whose-birthday-is-today}
 
 以下示例显示了一个查询活动，该活动配置为定向生日为今天的用户档案。
 
@@ -51,7 +48,7 @@ ht-degree: 89%
 
    ![](assets/query_sample_birthday2.png)
 
-## 定向打开了特定投放的用户档案{#targeting-profiles-who-opened-a-specific-delivery}
+## 定向打开了特定投放的用户档案 {#targeting-profiles-who-opened-a-specific-delivery}
 
 以下示例显示了一个查询活动，该活动配置为筛选打开了标签为“Summer Time”之投放的用户档案。
 
@@ -63,7 +60,7 @@ ht-degree: 89%
 
    ![](assets/query_sample_opened2.png)
 
-## 定向因特定原因投放失败的用户档案{#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## 定向因特定原因投放失败的用户档案 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的用户档案。此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
 
@@ -79,7 +76,7 @@ ht-degree: 89%
 
    ![](assets/query_sample_failure3.png)
 
-## 定向过去 7 天内未联系的用户档案{#targeting-profiles-not-contacted-during-the-last-7-days}
+## 定向过去 7 天内未联系的用户档案 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 以下示例显示了一个查询活动，该活动配置为筛选过去 7 天内未联系的用户档案。
 
@@ -95,7 +92,7 @@ ht-degree: 89%
 
    ![](assets/query_sample_7days2.png)
 
-## 定向单击了特定链接的用户档案{#targeting-profiles-who-clicked-a-specific-link-}
+## 定向单击了特定链接的用户档案 {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. 将 **[!UICONTROL Tracking logs (tracking)]** 过滤器拖动到查询中。
 

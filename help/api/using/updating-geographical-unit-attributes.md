@@ -1,33 +1,30 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新地理单位属性
-description: 了解如何使用API更新地理单元属性
+description: 了解如何使用API更新地理单位属性
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 12%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
-
 # 更新地理单位属性 {#managing-geographical-units}
 
-1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单元PKey。
-1. 对地理单位执行PATCH请求，并在有效负荷中更新属性。
+1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单位PKey。
+1. 对地理单位执行PATCH请求，并在有效负载中使用要更新的属性。
 
 <br/>
 
 ***示例请求***
 
-检索地理单位的列表。
+检索地理单位列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-对地理单位执行PATCH请求，并在有效负荷中更新属性。
+对地理单位执行PATCH请求，并在有效负载中使用要更新的属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用图像
 description: 了解如何使用Email Designer管理电子邮件中的图像。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 3%
 
 ---

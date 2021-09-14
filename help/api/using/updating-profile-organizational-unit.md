@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 更新用户档案的组织单位
+title: 更新用户档案的组织实体
 description: 了解如何使用API更新用户档案的组织单位。
 audience: developing
 content-type: reference
@@ -9,25 +7,24 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
+# 更新用户档案的组织实体 {#managing-organizational-units}
 
-# 更新用户档案的组织单位 {#managing-organizational-units}
-
-1. 对&#x200B;**orgUnitBase**&#x200B;资源执行GET请求以检索组织单元PKey
-1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的组织单位PKey。
+1. 在&#x200B;**orgUnitBase**&#x200B;资源上执行GET请求以检索组织单位PKey
+1. 对用户档案PKey执行PATCH请求，有效负载中包含所需的组织单位PKey。
 
 <br/>
 
 ***示例请求***
 
-检索组织单位的列表。
+检索组织单位列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -37,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有组织单位。 检索要向其分配用户档案的单元的PKey。
+它返回所有组织单位。 检索要将配置文件分配到的单位的PKey。
 
 ```
 {
@@ -53,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-对用户档案执行PATCH请求，有效负荷中所需组织单位的PKey。
+对用户档案执行PATCH请求，有效载荷中包含所需组织单位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

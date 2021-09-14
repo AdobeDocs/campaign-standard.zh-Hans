@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 订阅服务
 description: 利用订阅服务活动，可让多个用户档案批量订阅服务或退订服务。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
-
 # 订阅服务 {#subscription-services}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/wf_subscription.png)
 
@@ -31,7 +28,7 @@ ht-degree: 97%
 >
 >在工作流环境中管理订阅时，订阅或未订阅用户档案不会接收在服务属性中定义的各种确认电子邮件。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Subscription Services]** 活动是唯一可通过单次操作，为多个用户档案订阅或退订服务的 Adobe Campaign 功能。
 
@@ -44,7 +41,7 @@ ht-degree: 97%
 * [用例：从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
 * [用例：将用户档案从文件订阅到特定服务](../../automating/using/subscribing-profiles-from-file.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Subscription Services]** 活动拖放到工作流中。
 1. 将其连接到其他定向活动之后，例如导入后的查询或协调。
@@ -72,7 +69,7 @@ ht-degree: 97%
 
    工作流现已准备就绪，可供执行。一旦执行，您就可以在服务详情查看订阅或退订服务的用户档案。
 
-## 示例：在导入文件后为用户档案订阅特定服务{#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 示例：在导入文件后为用户档案订阅特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
@@ -111,7 +108,7 @@ ht-degree: 97%
 
    ![](assets/subscription_activity_example4.png)
 
-## 示例：从文件更新多个订阅状态{#example--updating-multiple-subscription-statuses-from-a-file}
+## 示例：从文件更新多个订阅状态 {#example--updating-multiple-subscription-statuses-from-a-file}
 
 此示例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
@@ -161,4 +158,3 @@ ht-degree: 97%
    将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 
    ![](assets/subscription_activity_example_from_file.png)
-

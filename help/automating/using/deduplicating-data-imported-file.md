@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 从导入的文件中删除数据重复项
 description: 此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
-
 
 # 从导入的文件中删除数据重复项 {#deduplicating-the-data-from-an-imported-file}
 
@@ -27,7 +24,7 @@ ht-degree: 88%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 使用[加载文件](../../automating/using/load-file.md)列表导入包含用户档案的文件。 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
+* 使用[Load file](../../automating/using/load-file.md)活动导入包含用户档案列表的文件。 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
 
    ```
    lastname;firstname;dateofbirth;email
@@ -47,13 +44,13 @@ ht-degree: 88%
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [外部重复数据删除](../../automating/using/deduplication.md)活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
+* [重复数据删除](../../automating/using/deduplication.md)活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
 
    在本例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。因此，应对临时资源的 **email** 列执行重复项识别。现在，两个相同的电子邮件地址会在文件中显示两次。此时，这两行将被视为重复项。
 
    ![](assets/deduplication_example2_dedup.png)
 
-* [更新数据](../../automating/using/update-data.md)活动允许您将外部重复数据删除过程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
+* [更新数据](../../automating/using/update-data.md)活动允许您将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
 
    在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键值，以执行此操作。
 

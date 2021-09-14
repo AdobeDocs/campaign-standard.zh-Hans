@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-连接
 description: 利用 AND-连接活动，可同步工作流的多个执行分支。
 audience: automating
@@ -10,28 +8,27 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
-
 # AND-连接{#and-join}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/and_join.png)
 
 利用 **[!UICONTROL AND-join]** 活动，可同步工作流的多个执行分支。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 一旦激活所有集客过渡，换言之，一旦完成所有先行工作，**[!UICONTROL AND-join]** 活动就会触发其所有叫客过渡。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将多个活动（例如查询）拖放到您的工作流中，以至少形成两个不同的执行分支。
 1. 将 **[!UICONTROL AND-join]** 活动拖放到工作流中。
@@ -40,9 +37,8 @@ ht-degree: 98%
 1. 选择要保留在叫客过渡中的主集。如果不选择任何集，则会从活动发送随机群体。
 1. 确认活动的配置并保存工作流。
 
-## 示例{#example}
+## 示例 {#example}
 
 下方的示例显示了在使用 **[!UICONTROL AND-join]** 活动连接之前的两个工作流分支。只有在启用了 **[!UICONTROL AND-join]** 活动的三个集客过渡后，才能进行文件提取活动。
 
 ![](assets/wkf_and-join_example.png)
-

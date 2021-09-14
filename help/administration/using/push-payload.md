@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 了解Campaign Standard推送通知有效载荷结构
 description: 本文档旨在描述在移动应用程序中接收的有效载荷的结构。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1148'
 ht-degree: 3%
 
 ---

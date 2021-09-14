@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 排除
 description: 利用排除活动，可根据特定条件从一个群体中排除某些元素。
 audience: automating
@@ -10,30 +8,29 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
 
-
 # 排除{#exclusion}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/exclusion.png)
 
 利用 **[!UICONTROL Exclusion]** 活动，可根据特定条件从一个群体中排除某些元素。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Exclusion]** 活动主要用于对集客过渡群体进行附加筛选。
 
 主集在集客过渡中定义。其他集客过渡的成员将从主集中排除。叫客过渡的排除活动只包含其他集客过渡中未出现的主集成员。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Exclusion]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -46,9 +43,8 @@ ht-degree: 98%
 1. 如果需要，可以管理活动的[过渡](../../automating/using/activity-properties.md)，以访问叫客群体的高级选项。
 1. 确认活动的配置并保存工作流。
 
-## 示例{#example}
+## 示例 {#example}
 
 下方示例显示了两个查询活动，配置为从 Adobe Campaign 数据库筛选年龄在 18 到 27 岁之间且电子邮件地址无效的用户档案。随后，具有无效电子邮件地址的用户档案将从第一个集合中排除。随后即可进行发送电子邮件之类的操作。
 
 ![](assets/wkf_exclusion_example.png)
-

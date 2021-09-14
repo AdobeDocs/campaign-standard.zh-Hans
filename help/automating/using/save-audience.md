@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 保存受众
 description: 利用保存受众活动，可使用工作流上游计算的群体更新现有受众或创建新受众。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: saveAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
-
 # 保存受众{#save-audience}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/save_audience.png)
 
@@ -33,11 +30,11 @@ ht-degree: 99%
 
 利用此活动，还可将用户档案导出为 Adobe Experience Cloud 受众/区段。这样，您就可以在其他 Adobe Experience Cloud 解决方案中利用这些受众。有关共享受众的详细信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Save audience]** 活动主要用于通过将同一工作流中计算得出的群体组转换为可重复利用的受众，将其保留下来。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Save audience]** 活动拖放到工作流中。
 1. 将其连接到其他定向活动之后，例如查询、交集、并集或排除等等。
@@ -77,7 +74,7 @@ ht-degree: 99%
 
 1. 确认活动的配置并保存工作流。
 
-## 示例{#example}
+## 示例 {#example}
 
 此示例中定义的工作流，展示了来自定向的常规受众更新：
 
@@ -90,4 +87,3 @@ ht-degree: 99%
 **[!UICONTROL Save audience]** 活动的配置如下：
 
 ![](assets/save_audience_example_2.png)
-

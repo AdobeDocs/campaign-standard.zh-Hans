@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部信号
 description: 成功满足另一个工作流中的某些条件时，外部信号活动会触发一个工作流。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
 
-
 # 外部信号{#external-signal}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/signal.png)
 
 成功满足另一个工作流中的某些条件时，或通过 REST API 调用时，**[!UICONTROL External signal]** 活动会触发工作流。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL External signal]** 活动用于组织和编排不同的流程，这些流程都是进入不同工作流的同一客户历程的一部分。利用该活动，可从另一个工作流启动一个工作流，从而支持更复杂的客户历程，同时能够更好地进行监控，从而出现问题时作出反应。
 
@@ -46,7 +43,7 @@ ht-degree: 95%
 * [用例：外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)。
 * [用例：调用工作流以使用外部参数从文件创建受众](../../automating/using/use-case-calling-workflow.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 配置外部信号时，必须首先在目标工作流中配置 **[!UICONTROL External signal]** 活动。完成此配置后，此工作流的 **[!UICONTROL External signal]** 活动将可用于配置源工作流的 **[!UICONTROL End]** 活动。
 

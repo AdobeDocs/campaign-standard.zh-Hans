@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 无法投放项和退回
-description: '通过非可交付项和现成报表，了解您的投放可能遇到的错误。 '
+description: '通过无法交付项和现成退回报表，了解投放可能发生的错误。 '
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,14 +8,13 @@ context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesB
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c527e890-2b49-4422-a866-e55a6468c54b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
-
 
 # 无法投放项和退回{#non-deliverables-and-bounces}
 
@@ -27,10 +24,10 @@ ht-degree: 5%
 
 **[!UICONTROL Overview]**&#x200B;表包含有关每个投放可能遇到的错误的可用数据，例如：
 
-* **已处理/已发送**:已发送的电子邮件数。
-* **已交付**:已发送的电子邮件数。
-* **软弹起**:临时错误的总数，如完整的收件箱。
-* **硬弹起**:永久错误的总数，如错误的电子邮件地址。
-* **跳出次数+错误**:无法传递的消息数。
+* **已处理/已发送**:已发送的电子邮件数量。
+* **已交付**:已送达的电子邮件数量。
+* **软退回**:临时错误（如完整收件箱）的总数。
+* **硬退回**:永久错误的总数，如错误的电子邮件地址。
+* **跳出次数+错误**:无法发送的消息数。
 
-**按域划分**&#x200B;表列表了每个收件人域的弹回。
+**按域划分**&#x200B;表列出了每个收件人域的跳出次数。

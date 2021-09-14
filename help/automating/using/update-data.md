@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新数据
 description: 利用更新数据活动，可对数据库中的字段执行批量更新。
 audience: automating
@@ -10,33 +8,32 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '472'
+ht-degree: 98%
 
 ---
 
-
 # 更新数据{#update-data}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/data_update.png)
 
 利用 **[!UICONTROL Update data]** 活动，可对数据库中的字段执行批量更新。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 在导入文件后，可以使用&#x200B;**更新数据**&#x200B;活动，以便将取回的数据插入 Adobe Campaign 数据库。您可以利用多个选项，以个性化方式更新数据。
 
 **相关主题：**
 
-* [用例：更新基于文件的数据](../../automating/using/update-database-file.md)
+* [用例：根据文件更新数据](../../automating/using/update-database-file.md)
 * [根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Update data]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。

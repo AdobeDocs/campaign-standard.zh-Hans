@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 调度程序
 description: 调度程序活动允许您安排何时启动工作流或活动。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
-
 # 调度程序{#scheduler}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/scheduler.png)
 
 **[!UICONTROL Scheduler]** 活动允许您安排何时启动工作流或活动。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Scheduler]** 活动应视为排程开始的时间。图表中的活动定向规则与 **[!UICONTROL Start]** 活动相同。此活动不得包含集客过渡。
 
@@ -37,14 +34,14 @@ ht-degree: 88%
 >
 >活动的 **[!UICONTROL Repetition frequency]** 不能少于 10 分钟。这意味着工作流不能每 10 分钟自动执行多次。
 
-在设计包含多个活动的计划工作流时，您需要确保在工作流完成之前不会重新计划该工作流。 为此，您需要配置工作流，以防止在先前执行的一个或多个任务仍处于挂起状态时执行工作流。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
+设计包含多个活动的计划工作流时，您需要确保在工作流完成之前不会重新计划该工作流。 为此，您需要配置工作流，以在先前执行中的一个或多个任务仍处于挂起状态时阻止其执行。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
 
 **相关主题：**
 
-* [用例：在用户档案创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
-* [用例：每星期二创建电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [用例：在用户档案的创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
+* [用例：创建每个星期二的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Scheduler]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -77,9 +74,8 @@ ht-degree: 88%
 
 1. 确认活动的配置并保存工作流。
 
-## 示例{#example}
+## 示例 {#example}
 
 下方的示例中已配置了活动，因此它将在每周的周一早上 7 点启动工作流，但持续时间不确定。
 
 ![](assets/wkf_scheduler_example.png)
-

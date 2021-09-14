@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 创建每周投放
-description: 此用例说明如何创建每周投放。
+description: 此用例展示了如何创建每周投放。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 81%
 
 ---
 
-
-# 每星期二创建一封电子邮件投放{#creating-email-every-tuesday}
+# 创建每个星期二的电子邮件投放{#creating-email-every-tuesday}
 
 您可以在每个星期二向所有客户发送电子邮件以提供特惠信息。
 
@@ -46,7 +43,7 @@ ht-degree: 80%
 
 ## 创建查询活动{#creating-a-query-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，要选择收件人，请拖放[查询](../../automating/using/query.md)活动，然后按住多次单击它。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[查询](../../automating/using/query.md)活动并双击该活动以选择收件人。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** 中，拖放 **[!UICONTROL Email]**。
 1. 选择 **[!UICONTROL is not empty]** 作为运算符。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，添加用户档案并选择 **[!UICONTROL no longer contact by email]**（其值为 **[!UICONTROL No]**）。

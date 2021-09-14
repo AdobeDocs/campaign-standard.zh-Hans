@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配置 Campaign-兴趣点数据集成
 description: 了解如何在Adobe Campaign中配置Points of Interest数据功能，以根据订阅者的位置发送个性化消息。
 audience: integrating
@@ -10,7 +8,7 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 2%

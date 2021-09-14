@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '使用现有内容设计电子邮件 '
 description: 了解如何使用Email Designer中的现有内容设计电子邮件内容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 6%
 
 ---

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 事务型消息传递限制
 description: 了解Adobe Campaign Standard中有关事务型消息的主要建议和限制。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 事务性消息传递
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 67%
 
 ---

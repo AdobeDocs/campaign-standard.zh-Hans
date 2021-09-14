@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 显示 Adobe Campaign Standard 推送通知中的图像
 description: 在此处了解如何在iOS设备上显示Adobe Campaign推送通知中的图像。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: 实例设置
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 20%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 分页
 description: 了解如何执行分页操作。
 audience: developing
@@ -9,32 +7,31 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
 
-
 # 分页
 
-默认情况下，在列表中加载25个资源。
+默认情况下，一个列表中会加载25个资源。
 
 **_lineCount**&#x200B;参数允许您限制响应中列出的资源数。  然后，可以使用&#x200B;**next**&#x200B;节点显示下一个结果。
 
 >[!NOTE]
 >
->始终使用在&#x200B;**next**&#x200B;节点中返回的URL值执行分页请求。
+>始终使用&#x200B;**next**&#x200B;节点中返回的URL值执行分页请求。
 >
->将计算&#x200B;**_lineStart**&#x200B;请求，并且必须始终在&#x200B;**下一个**&#x200B;节点中返回的URL中使用。
+>会计算&#x200B;**_lineStart**&#x200B;请求，并且必须始终在&#x200B;**next**&#x200B;节点中返回的URL中使用。
 
 <br/>
 
 ***示例请求***
 
-显示GET资源1个记录的示例用户档案请求。
+显示用户档案资源1条记录的GET请求示例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -65,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-默认情况下，与具有大量数据的表交互时，**next**&#x200B;节点不可用。 要执行分页，必须将&#x200B;**_forcePagenation=true**&#x200B;参数添加到调用URL中。
+默认情况下，与具有大量数据的表交互时，**next**&#x200B;节点不可用。 要执行分页，必须将&#x200B;**_forcePagination=true**&#x200B;参数添加到调用URL中。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -77,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义表大于其的记录数。 默认值为100,000条记录。
+>在Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义表被视为大的记录数。 默认值为100,000条记录。

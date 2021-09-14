@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 检索隐私数据文件
 description: 了解如何使用API检索隐私数据文件
 audience: developing
@@ -9,34 +7,33 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 21%
 
 ---
-
 
 # 检索隐私数据文件 {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->[隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html)集成是您应用于所有访问和删除请求的方法。 从19.4开始，已不建议使用活动 API和接口访问和删除请求。 有关已弃用和已删除Campaign Standard功能的详细信息，请参阅[此页](../../rn/using/deprecated-features.md)。
+>[隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html)集成是您应用于所有访问和删除请求的方法。 从 19.4 版开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。有关 Campaign Standard 的已弃用和已删除功能的详细信息，请参阅[此页面](../../rn/using/deprecated-features.md)。
 
-要检索包含与对帐值关联的所有信息的文件，请按照以下三个步骤操作：
+要检索包含与协调值关联的所有信息的文件，请执行以下步骤：
 
-1. 执行&#x200B;**POST**&#x200B;请求以创建属性为&#x200B;**type=&quot;access&quot;**&#x200B;的新请求，请参阅[创建新的隐私请求](../../api/using/creating-a-privacy-request.md)。
+1. 执行&#x200B;**POST**&#x200B;请求以创建具有属性&#x200B;**type=&quot;access&quot;**&#x200B;的新请求，请参阅[创建新隐私请求](../../api/using/creating-a-privacy-request.md)。
 
 1. 执行&#x200B;**GET**&#x200B;请求以检索有关该请求的信息。
 
-1. 通过对返回的&#x200B;**privacyRequestData** URL执行&#x200B;**POST**&#x200B;请求，检索数据文件，有效负荷中包含隐私请求内部名称。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
+1. 对返回的&#x200B;**privacyRequestData** URL执行&#x200B;**POST**&#x200B;请求以检索数据文件，有效负载中包含隐私请求内部名称。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
 ***示例请求***
 
-创建具有type=&quot;access&quot;属性的隐私请求。
+使用type=&quot;access&quot;属性创建隐私请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -67,7 +64,7 @@ ht-degree: 4%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-它返回具有关联URL的privacyRequestData属性。
+它会返回具有关联URL的privacyRequestData属性。
 
 ```
 {
@@ -88,7 +85,7 @@ ht-degree: 4%
 },
 ```
 
-对privacyRequestData URL执行POST请求，有效负荷中包含请求内部名称。
+对privacyRequestData URL执行POST请求，并在有效负载中包含请求内部名称。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

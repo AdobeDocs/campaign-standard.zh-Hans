@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 直邮投放
 description: 利用直邮投放，可在工作流中配置发送单次发送直邮，也可配置发送定期直邮。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
-
 # 直邮投放{#direct-mail-delivery}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/paper.png)
 
@@ -32,7 +29,7 @@ ht-degree: 98%
 * **标准直邮仅发送一次。**
 * **而利用定期邮件，则可在定义的时间段内多次向不同目标发送同一直邮。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Direct mail delivery]** 活动通常用于自动准备包含用户档案数据的文件。然后，可以将此文件发送给负责邮寄的合作伙伴/提供商。
 
@@ -44,10 +41,10 @@ ht-degree: 98%
 
 **相关主题：**
 
-* [用例：将电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
+* [用例：耦合电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 * [关于直邮](../../channels/using/about-direct-mail.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Direct mail delivery]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -81,7 +78,7 @@ ht-degree: 98%
 
 默认情况下，启动投放工作流只会触发消息准备。在工作流启动后，发送从工作流创建的消息，仍需要确认。但是在消息仪表板中，仅当通过工作流创建消息时，才能禁用 **[!UICONTROL Request confirmation before sending messages]** 选项。取消选中此选项后，消息在准备完成后即发送，不会进一步通知。
 
-## 备注{#remarks}
+## 备注 {#remarks}
 
 可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用直邮摘要窗格中的链接，可直接访问链接的元素（工作流、活动，如果是定期直邮，还包括父投放）。
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 高级表达式编辑
 description: 利用查询版向导，可定义高级表达式。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 98%
 
 ---
 
-
 # 高级表达式编辑{#advanced-expression-editing}
 
-## 关于高级表达式编辑{#about-advanced-expression-editing}
+## 关于高级表达式编辑 {#about-advanced-expression-editing}
 
 编辑表达式需要手动输入条件以形成规则。
 
@@ -38,7 +35,7 @@ ht-degree: 98%
 * 编辑工作流中的表达式。例如，向活动添加附加数据。
 * 编辑可见性条件以定义编辑某个块在 HTML 内容编辑器中的显示方式。在这种情况下，表达式以 JavaScript 格式进行编辑，且不会提供高级函数作为标配。
 
-## 编辑表达式{#edit-an-expression}
+## 编辑表达式 {#edit-an-expression}
 
 利用高级表达式版，可手动定义专门对应于您需求的表达式。
 
@@ -67,9 +64,9 @@ ht-degree: 98%
 * [表达式语法](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [函数列表](../../automating/using/list-of-functions.md)
 
-## 表达式语法{#expression-syntax}
+## 表达式语法 {#expression-syntax}
 
-### 标准语法{#standard-syntax}
+### 标准语法 {#standard-syntax}
 
 标准表达式由一个或多个符合以下语法元素的条件组成：
 
@@ -96,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 在本例中，需要定向创建日期为当前月份和年份的用户档案。
 
-### JavaScript 语法{#javascript-syntax}
+### JavaScript 语法 {#javascript-syntax}
 
 在定义 HTML 内容编辑器的文本类型块的可见性条件时，必须使用 JavaScript 类型语法的表达式。
 
@@ -124,7 +121,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 在本例中，就是 21 岁以上并且提供了名字的用户档案（以 **firstName** 字段至少包 含一个字符为标志）。
 
-## 比较运算符{#comparison-operators}
+## 比较运算符 {#comparison-operators}
 
 对于某些规则，利用查询编辑器，可选择一个值以定义条件。
 
@@ -213,4 +210,3 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   </tr> 
  </tbody> 
 </table>
-

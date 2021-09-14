@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 为带有Campaign Standard的多语言推送通知生成CSV文件
 description: 上传CSV文件以生成内容以供交付是一项用于支持多语言推送通知的功能。
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 推送
+feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---

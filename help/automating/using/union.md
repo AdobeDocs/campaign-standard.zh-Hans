@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 并集
 description: 利用并集活动，可将多个活动的结果重组为单个目标。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
-
 # 并集{#union}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/union.png)
 
@@ -31,15 +28,15 @@ ht-degree: 97%
 >
 >这些集不需要具有同样的性质。
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 例如，当执行分段、定义受众或准备消息目标时，可使用 **[!UICONTROL Union]** 活动以组合来自集客过渡的群体。
 
 **相关主题：**
 
-* [用例：合并两个精细受众](../../automating/using/union-on-two-refined-audiences.md)
+* [用例：两个优化受众的并集](../../automating/using/union-on-two-refined-audiences.md)
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Union]** 活动拖放到工作流中。
 1. 将其连接至其前方的其他活动，例如查询。
@@ -55,7 +52,7 @@ ht-degree: 97%
 1. 如果需要，可以管理活动的[过渡](../../automating/using/activity-properties.md)，以访问计算群体的高级选项。
 1. 确认活动的配置并保存工作流。
 
-## 示例{#example}
+## 示例 {#example}
 
 下方的示例显示了两个查询活动的结果，这些活动旨在重组 Adobe Campaign 数据库 18 至 27 岁和 34 至 40 岁的用户档案。结果包含两个查询的所有用户档案，或在配置期间中指定的最大记录数量用户档案（如果适用）。
 

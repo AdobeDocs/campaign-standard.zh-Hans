@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 根据自动文件下载更新数据
 description: '下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。 '
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 78%
+source-wordcount: '279'
+ht-degree: 79%
 
 ---
-
 
 # 根据自动文件下载更新数据 {#updating-data-automatic-file-download}
 
@@ -31,7 +28,7 @@ ht-degree: 78%
 
 1. 将[传输文件](../../automating/using/transfer-file.md)活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 以某种方式配置活动，以便恢复所需的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
+1. 通过某种方式配置活动，以取回您想要的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
 1. 选择 **Use connection parameters defined in an external account** 选项。
 1. 输入外部帐户的名称。
 1. 输入&#x200B;**远程服务器上的文件路径**。
@@ -46,6 +43,6 @@ ht-degree: 78%
    ![](assets/wkf_file_loading8.png)
 
 1. 按照之前指定的方式配置活动。
-1. 将[更新数据](../../automating/using/update-data.md)活动拖放到您的工作流中，并将其放在&#x200B;**[!UICONTROL Load file]**&#x200B;活动之后，进行配置。
+1. 将[更新数据](../../automating/using/update-data.md)活动拖放到工作流中，并将其放在&#x200B;**[!UICONTROL Load file]**&#x200B;活动之后，然后对其进行配置。
 
 启动工作流后，将提取来自上传文件的数据，然后将其用于扩充 Adobe Campaign 数据库。

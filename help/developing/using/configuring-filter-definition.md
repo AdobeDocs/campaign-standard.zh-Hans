@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配置过滤器定义
 description: 了解用于管理大数据集的过滤器功能。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '541'
+ht-degree: 95%
 
 ---
-
 
 # 配置过滤器定义{#configuring-filter-definition}
 
@@ -84,8 +81,8 @@ ht-degree: 94%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-配置过滤器后，您可以使用以下语法从Campaign Standard API中使用它：
+配置过滤器后，您可以使用以下语法从Campaign StandardAPI中使用它：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有关详细信息，请参阅[Campaign StandardAPI文档](../../api/using/filtering.md#custom-filters)。
+有关更多信息，请参阅[Campaign StandardAPI文档](../../api/using/filtering.md#custom-filters)。

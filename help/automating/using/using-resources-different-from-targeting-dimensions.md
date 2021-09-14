@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用与定向维度不同的资源
-description: 了解如何使用与定位维度不同的资源。
+description: 了解如何使用与定向维度不同的资源。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,20 +8,19 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
+# 使用与定向维度不同的资源 {#using-resources-different-from-targeting-dimensions}
 
-# 使用与定向维度不同的资源{#using-resources-different-from-targeting-dimensions}
+此用例介绍如何使用与定向维度不同的资源，例如，在远程表格中查找特定记录。
 
-此用例说明如何使用与定位维度不同的资源，例如，在远程表中查找特定记录。
-
-有关定位维度和资源的详细信息，请参阅[本节](../../automating/using/query.md#targeting-dimensions-and-resources)
+有关定向维度和资源的更多信息，请参阅[此部分](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **示例 1：确定被带“Welcome back !”标签的投放所定向的用户档案**。
 

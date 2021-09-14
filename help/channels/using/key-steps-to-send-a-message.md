@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 发送消息的关键步骤
 description: 请按照以下步骤进行操作，以使用 Adobe Campaign 创建和发送消息。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 概述
+feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '368'
 ht-degree: 14%
 
 ---

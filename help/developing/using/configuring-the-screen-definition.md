@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配置屏幕定义
 description: 了解如何根据资源数据结构定义新的 Adobe Campaign 屏幕。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 99%
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
-
 
 # 配置屏幕定义{#configuring-the-screen-definition}
 
@@ -31,7 +28,7 @@ ht-degree: 99%
 * 将构成资源之元素列表的显示方式个性化
 * 定义资源每个元素之详情视图的显示方式
 
-## 允许从导航菜单访问{#enabling-access-from-the-navigation-menu}
+## 允许从导航菜单访问 {#enabling-access-from-the-navigation-menu}
 
 如果您希望资源具有专用屏幕，则可以将其添加到导航菜单中。
 
@@ -42,7 +39,7 @@ ht-degree: 99%
 
 该资源将作为子条目显示在 **[!UICONTROL Client data]** 部分中。
 
-## 定义默认列表配置{#defining-the-default-list-configuration}
+## 定义默认列表配置 {#defining-the-default-list-configuration}
 
 利用屏幕定义的 **[!UICONTROL List configuration]** 部分，可定义默认情况下将在资源概览中显示的列和信息。
 
@@ -64,7 +61,7 @@ ht-degree: 99%
 
 现在可以定义资源的概览屏幕。
 
-## 定义详细信息屏幕配置{#defining-the-detail-screen-configuration}
+## 定义详细信息屏幕配置 {#defining-the-detail-screen-configuration}
 
 利用屏幕定义的 **[!UICONTROL Detail screen configuration]** 部分，可定义将在资源各元素详细信息屏幕中显示的列和信息。
 
@@ -91,7 +88,7 @@ ht-degree: 99%
 
 资源的详细信息屏幕现在已配置完成。
 
-## 数据部分的操作{#actions-on-data-section}
+## 数据部分的操作 {#actions-on-data-section}
 
 利用这些设置，可在自定义资源屏幕中显示控件栏。提供了三个选项：
 

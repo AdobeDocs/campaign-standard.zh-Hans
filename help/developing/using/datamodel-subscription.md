@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型
 description: 了解数据模型
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
-
 
 # 订阅事件(nms:rtEvent)
 
@@ -26,10 +23,10 @@ ht-degree: 6%
         <th>名称</th>
         <th>标签</th>
         <th>类型（长度）</th>
-        <th>明细列表值</th>
+        <th>枚举值</th>
     </tr>
     <tr>
-        <td>PK</td>
+        <td>PKey</td>
         <td>主资源ID</td>
         <td>字符串 </td>
         <td> </td>
@@ -43,13 +40,13 @@ ht-degree: 6%
     <tr>
         <td>电子邮件</td>
         <td>电子邮件</td>
-        <td>string(128)</td>
+        <td>字符串(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>emailFormat</td>
         <td>电子邮件格式</td>
-        <td>明细列表（字节） </td>
+        <td>枚举（字节） </td>
         <td>
             <ul>
             <li>文本 — 文本 — 1</li>
@@ -106,7 +103,7 @@ ht-degree: 6%
         <td>明细列表</td>
         </tr>
         <tr>
-        <td>类型</td>
+        <td>type</td>
         <td>字符串</td>
         </tr>
     </table>

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign和Microsoft Dynamics 365数据管理
 description: 了解Campaign Standard和Microsoft Dynamics 365如何管理常见数据
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM集成
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -55,7 +53,7 @@ ht-degree: 1%
 >
 >如果任何Campaign自定义资源记录包含适用于客户使用Campaign的个人信息，则此类记录应直接或通过其他自定义资源链接到相应的Campaign用户档案记录，以便与隐私相关的删除该用户档案记录也可以删除包含个人信息的链接的自定义资源记录；必须配置实体之间的链接和删除选项，以启用链接记录的这种类似级联的删除。 不应将个人信息输入到未链接到用户档案的自定义资源中。
 
-## 选择退出{#opt-out}
+## 选择退出 {#opt-out}
 
 由于Microsoft Dynamics 365和Campaign之间的选择退出属性存在差异，并且每个客户的业务要求存在差异，因此选择退出映射已留作客户完成的一项练习。  请务必确保在系统之间正确映射选择退出，以便维护最终用户的选择退出首选项，并且他们不会通过已选择退出的渠道接收通信。
 

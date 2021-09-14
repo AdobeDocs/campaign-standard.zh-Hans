@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 分段
 description: 利用分段活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个分段。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
 
-
 # 分段{#segmentation}
 
-## 说明{#description}
+## 说明 {#description}
 
 ![](assets/segmentation.png)
 
@@ -32,18 +29,18 @@ ht-degree: 92%
 >默认情况下，集客群体的一个成员只能属于一个单一区段。根据活动中区段的顺序应用过滤器。
 
 **相关主题：**
-* [用例：位置分段](../../automating/using/workflow-segmentation-location.md)
-* [用例：根据年龄组划分](../../automating/using/segmentation-age-groups.md)
+* [用例：按位置分段](../../automating/using/workflow-segmentation-location.md)
+* [用例：根据年龄组进行细分](../../automating/using/segmentation-age-groups.md)
 
-## 使用环境{#context-of-use}
+## 使用环境 {#context-of-use}
 
 **[!UICONTROL Segmentation]** 活动通常位于定向活动之后（查询、交集、并集、排除等）以定义基于其区段组成的标准群体。
 
 **相关主题**
 
-* [用例：根据用户档案的年龄组划分客户](../../automating/using/segmentation-age-groups.md)。
+* [用例：根据用户档案的年龄组对用户档案进行分段](../../automating/using/segmentation-age-groups.md)。
 
-## 配置{#configuration}
+## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Segmentation]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -64,7 +61,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**：用于限制区段的大小。
    * **[!UICONTROL Filter and limit segment population]**：用于筛选区段群体并限制其大小。
    * **[!UICONTROL Label]**：区段标签。
-   * **[!UICONTROL Segment code]**:分配给区段填充的代码。段代码可以使用标准表达式和事件变量进行个性化设置(请 [参阅此页](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**:分配给区段群体的代码。段码可以使用标准表达式和事件变量进行个性化(请参 [阅此页面](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：用于从活动的叫客群体中排除指定的区段。只有选择了 **[!UICONTROL Generate all segments in the same transition]** 选项时，才可使用此选项。
 
    ![](assets/wkf_segment_new_segment.png)

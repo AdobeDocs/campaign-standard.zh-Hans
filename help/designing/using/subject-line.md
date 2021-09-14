@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 定义电子邮件的主题行和发件人
 description: 了解如何在Email Designer中定义电子邮件的主题行和发件人。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 电子邮件设计
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---

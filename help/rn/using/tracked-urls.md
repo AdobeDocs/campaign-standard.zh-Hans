@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 跟踪的 URL 签名问题
 description: 跟踪的 URL 签名问题
 hidefromtoc: true
 hide: true
-source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: ht
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
 ---
 
-
-# 跟踪的 URL 签名问题{#tracked-urls}
+# 跟踪的 URL 签名问题 {#tracked-urls}
 
 在最近的更改后，由 Campaign 发送的跟踪的 URL 可能会失效。某些邮箱可能比其他邮箱受到的影响更大，因为某些公司具有特定的安全工具，这些工具可能会影响链接并更改 URL 签名机制。
 
@@ -38,4 +36,3 @@ Adobe 将会很快协助您更新配置。您将收到一封包含升级时间�
 >[!NOTE]
 >
 >有关这些更改的任何问题，请联系 [Adobe 客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
-

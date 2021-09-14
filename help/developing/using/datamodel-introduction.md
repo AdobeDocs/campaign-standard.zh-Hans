@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 数据模型说明
 description: 了解 Adobe Campaign 数据模型。
 audience: developing
@@ -9,16 +7,15 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 97%
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
 
-
-# 数据模型说明{#data-model-introduction}
+# 数据模型描述{#data-model-introduction}
 
 Adobe Campaign 提供了预定义的数据模型。
 

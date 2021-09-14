@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用数据库协调文件受众
-description: 此示例说明如何使用读取受众活动协调从文件导入直接创建的受众。
+description: 此示例展示了如何使用读取受众活动协调直接从文件导入创建的受众。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
-
 
 # 使用数据库协调文件受众 {#example--reconcile-a-file-audience-with-the-database}
 
@@ -53,6 +50,6 @@ ht-degree: 86%
 
 ![](assets/readaudience_activity_example2.png)
 
-* [读取受众](../../automating/using/read-audience.md)活动上载在导入工作流中创建的文件受众。 其受众数据尚未与 Adobe Campaign 数据库协调。
+* [读取受众](../../automating/using/read-audience.md)活动，上传在导入工作流中创建的文件受众。 其受众数据尚未与 Adobe Campaign 数据库协调。
 * [协调](../../automating/using/reconciliation.md)活动，通过其 **[!UICONTROL Identification]** 选项卡将传入数据标识为用户档案。例如，使用 **email** 字段作为协调条件。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的用户档案资源。由于数据已被标识为用户档案，因此您可以选择 **[!UICONTROL Directly using the targeting dimension]** 选项并在活动的 **[!UICONTROL Profiles]** 选项卡中选择 **[!UICONTROL Identification]**。然后，您只需在相应的选项卡中添加需要更新的字段列表即可。

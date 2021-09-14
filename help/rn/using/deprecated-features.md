@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard 已弃用和已移除的功能
 description: 本页列出 Adobe Campaign Standard 的已弃用和已移除的功能。
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除将不可用。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隐私核心服务</a>。</p></br>
-   <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隐私请求</a>。</p>
+   <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans">管理隐私请求</a>。</p>
   </td> 
   </tr> 
  </tbody> 
