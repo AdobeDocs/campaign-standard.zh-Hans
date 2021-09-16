@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 98%
 
 **此版本中包含的新增功能**
 
-改进了统一Experience Cloud接口 — [阅读更多](../../start/using/interface-description.md#top-bar)
+改进后的统一 Experience Cloud 界面 - [阅读更多](../../start/using/interface-description.md#top-bar)
 
-新的审核记录功能 — [阅读更多](../../administration/using/audit.md)
+全新审核记录功能 - [阅读更多](../../administration/using/audit.md)
 
-工作流诊断模式 — [阅读更多](../../automating/using/managing-execution-options.md)
+工作流诊断模式 - [阅读更多](../../automating/using/managing-execution-options.md)
 
 **随版本提供的其他文档更新**
 
-添加了关于如何从隔离列表中删除地址的新章节。 [阅读更多](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+新增了关于如何从隔离列表中删除地址的新章节。[阅读更多](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-阐明了&#x200B;**隔离与阻止列表**&#x200B;部分。 [阅读更多](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+**隔离与阻止列表**&#x200B;一节经过了修订。[阅读更多](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## 2021 年 7 月 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 ## 2021 年 4 月 {#doc-updates-april-2021}
 
-新增了关于如何与Adobe Experience Platform Sources和目标一起使用以在Campaign Standard和Adobe实时客户数据平台(RTCDP)之间共享数据的新章节。 [阅读更多](../../integrating/using/get-started-sources-destinations.md)
+添加了新的章节，介绍如何使用 Adobe Experience Platform Sources 与 Destinations 在 Campaign Standard 和 Adobe Real-time Customer Data Platform (RTCDP) 之间共享数据。[阅读更多](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
