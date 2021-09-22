@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 40%
@@ -30,7 +30,7 @@ ht-degree: 40%
 
 请按照以下步骤创建订阅机制：
 
-1. **创建服务**  — 按照本节中 [描述的](../../audiences/using/creating-a-service.md) 步骤创建订阅服务
+1. **创建服务**  — 按照本节中描述 [的步](../../audiences/using/creating-a-service.md) 骤创建订阅服务
 1. **共享链接**  — 在本页中了解如何推广和共享 [您的服务](../../audiences/using/promoting-a-service.md)
 1. **监控订阅**  — 在此部分中发现多种监视服务订 [阅的方法](../../audiences/using/monitoring-subscriptions.md)
 1. **确认订阅**  — 按照本教 [程](../../audiences/using/confirming-subscription-to-a-service.md) 发送订阅确认消息

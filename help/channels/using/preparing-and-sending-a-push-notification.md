@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 4%
 
    ![](assets/push_notif_content.png)
 
-   此处配置的推送通知内容和选项将以有效负载的形式传递到您的移动设备应用程序。 有效负载的详细结构，请参见[了解Campaign Standard推送通知有效负载结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技术说明。
+   此处配置的推送通知内容和选项将以有效负载的形式传递到您的移动设备应用程序。 有效负载的详细结构，请参见[了解Campaign Standard推送通知有效负载结构](../../administration/using/push-payload.md)技术说明。
 
 1. 单击 **[!UICONTROL Create]**。
 

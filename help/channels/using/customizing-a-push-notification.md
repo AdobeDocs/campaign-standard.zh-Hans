@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
-专家用户要在 Adobe Campaign 中配置移动应用程序，请参阅以下技术说明[了解 Campaign Standard 推送通知有效载荷结构](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)。
+专家用户要在 Adobe Campaign 中配置移动应用程序，请参阅以下技术说明[了解 Campaign Standard 推送通知有效载荷结构](../../administration/using/push-payload.md)。
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ ht-degree: 97%
 1. 打开推送通知并访问 **[!UICONTROL Advanced options]** 部分。
 1. 在每种格式（iOS 和 Android）的 **[!UICONTROL Rich media content URL]** 字段中输入文件的 URL。
 
-   对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。对于较早的 iOS 版本，将显示不带富文本内容的推送通知。有关如何在 iOS 设备上显示 Adobe Campaign 推送通知中图像的详细步骤，请参阅此[页面](https://helpx.adobe.com/cn/campaign/kb/display-image-push.html)。
+   对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。对于较早的 iOS 版本，将显示不带富文本内容的推送通知。有关如何在 iOS 设备上显示 Adobe Campaign 推送通知中图像的详细步骤，请参阅此[页面](../../administration/using/image-push-notification.md)。
 
    对于 Android，只能包含图像。
 

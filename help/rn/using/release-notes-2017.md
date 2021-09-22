@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 5%
@@ -133,19 +133,19 @@ _自定义资源_
 
 _平台_
 
-* 有些客户需要能够利用来自Adobe Campaign Standard的ID，因为他们无法管理唯一的密钥来标识自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作协调键值。 有关详细信息，请参阅[有详细说明的文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+* 有些客户需要能够利用来自Adobe Campaign Standard的ID，因为他们无法管理唯一的密钥来标识自己的记录。 此ID(**ACS ID**)可在更新数据时导出并用作协调键值。 有关更多信息，请参阅[详细文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP协议即将弃用。 现在，您应该改用SFTP。 为了不阻止现有实施，FTP上的现有配置仍将像以前一样工作，但新活动将不显示选项。
 
 _电子邮件、短信和直邮_
 
-* 现在，可以创建新的警报标准，以将其用于投放警报通知。 有关详细信息，请参阅[有详细说明的文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 现在，可以创建新的警报标准，以将其用于投放警报通知。 有关更多信息，请参阅[详细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 投放警报通知具有新设计，并且投放警报仪表板用户体验已得到改进。
 * 现在，禁用路由外部帐户后，受影响的投放（电子邮件、短信和推送）中会显示一条警告消息，并且&#x200B;**预览**&#x200B;按钮会隐藏在这些投放中。
 * 修复了在主题行中启用动态文本时，导致在电子邮件内容上预览A/B测试时出错的问题。
 
 _事务性消息_
 
-* 现在，可以定义何时发送跟进消息，例如，在发送事务型消息的3天后。 有关详细信息，请参阅[有详细说明的文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
+* 现在，可以定义何时发送跟进消息，例如，在发送事务型消息的3天后。 有关更多信息，请参阅[详细文档](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 现在，可以定义应发送链接到事件的事务型消息的日期。
 * 修复了在删除链接到已接收和已处理事件的用户档案后执行包含跟进消息的工作流时导致SQL错误的问题。
 * 修复了阻止删除链接到事件的用户档案的错误。
@@ -154,7 +154,7 @@ _事务性消息_
 
 _报告_
 
-* **热点点击**&#x200B;报告已得到改进。 此外，现在还可以根据投放中定义的每个条件内容显示热点点击，并针对定期投放或事务型消息的每次执行显示热点点击。 有关详细信息，请参阅[有详细说明的文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* **热点点击**&#x200B;报告已得到改进。 此外，现在还可以根据投放中定义的每个条件内容显示热点点击，并针对定期投放或事务型消息的每次执行显示热点点击。 有关更多信息，请参阅[详细文档](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修复了隔离量度无法检索正确数据的问题。
 * 日历小组件中添加了新的预设时间范围。
 * [动态报告量度](../../reporting/using/indicator-calculation.md)和[促销活动的KPI](../../sending/using/confirming-the-send.md)（显示在已发送消息的仪表板上）已保持一致，以提高一致性。
@@ -171,7 +171,7 @@ _集成_
 
 _用户档案和受众_
 
-* Adobe Campaign现在提供了显示活动用户档案数的报表。 此报表仅提供信息，对账单没有直接影响。 有关详细信息，请参阅[有详细说明的文档](../../audiences/using/active-profiles.md)。
+* Adobe Campaign现在提供了显示活动用户档案数的报表。 此报表仅提供信息，对账单没有直接影响。 有关更多信息，请参阅[详细文档](../../audiences/using/active-profiles.md)。
 * 修复了在使用Profiles and Services API时阻止用户档案订阅服务的问题。
 
 ## 17.7 版 - 2017 年 7 月 {#release-17-7---july-2017}
@@ -188,27 +188,27 @@ _用户档案和受众_
  <tbody> 
   <tr> 
    <td> 多语言电子邮件和短信投放<br /> </td> 
-   <td> 根据自动分段客户的首选语言，通过单次投放定义和执行多语言电子邮件和短信投放。 关于每次投放之绩效的报告，可以细分到语言和各个级别。<br /> 越来越多的公司面临着以多种语言提供内容的挑战，这些内容在国内外都在不断发展。因此，简化本地化报文传送是跨国公司有效客户沟通战略的关键部分；多语言国家/地区的公司；以及无论客户位于何处，都希望在语言级别进一步个性化其内容的公司。 有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 根据自动分段客户的首选语言，通过单次投放定义和执行多语言电子邮件和短信投放。 关于每次投放之绩效的报告，可以细分到语言和各个级别。<br /> 越来越多的公司面临着以多种语言提供内容的挑战，这些内容在国内外都在不断发展。因此，简化本地化报文传送是跨国公司有效客户沟通战略的关键部分；多语言国家/地区的公司；以及无论客户位于何处，都希望在语言级别进一步个性化其内容的公司。 有关更多信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行的投放进度或工作流出错时，系统会向您发送通知。<br /> 实时通知可让相关利益相关方随时了解情况，并让用户能够从应用程序内立即直接对活动通知采取行动。团队的成果是提高敏捷性、高效性并更顺畅地执行营销活动。 有关详细信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行的投放进度或工作流出错时，系统会向您发送通知。<br /> 实时通知可让相关利益相关方随时了解情况，并让用户能够从应用程序内立即直接对活动通知采取行动。团队的成果是提高敏捷性、高效性并更顺畅地执行营销活动。 有关更多信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供电子邮件警报系统，用于向重要系统活动的用户或外部利益相关方触发电子邮件警报。 创建、管理和接收可自定义的警报和功能板，以跟踪投放是成功还是失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板，使公司中所有涉及的Adobe Campaign用户自动获知投放执行状态，从而提高效率。有关详细信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供电子邮件警报系统，用于向重要系统活动的用户或外部利益相关方触发电子邮件警报。 创建、管理和接收可自定义的警报和功能板，以跟踪投放是成功还是失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板，使公司中所有涉及的Adobe Campaign用户自动获知投放执行状态，从而提高效率。有关更多信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中加密的声明ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，发送电子邮件和短信触发器，而无需在Campaign中使用现有的用户档案。 由于加密的声明ID可由Adobe Campaign Standard解码，因此当从包含以前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售用户档案。<br /> 通过电子邮件和短信实时定位客户和未知潜在客户，以分别提高现有客户群的忠诚度和获取新客户。潜在客户在Adobe Campaign中进行身份验证并利用这些分析后，充分利用您的第一方Cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，发送电子邮件和短信触发器，而无需在Campaign中使用现有的用户档案。 由于加密的声明ID可由Adobe Campaign Standard解码，因此当从包含以前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售用户档案。<br /> 通过电子邮件和短信实时定位客户和未知潜在客户，以分别提高现有客户群的忠诚度和获取新客户。潜在客户在Adobe Campaign中进行身份验证并利用这些分析后，充分利用您的第一方Cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。有关更多信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 从Campaign共享到Analytics的KPI<br /> </td> 
-   <td> 与Adobe Analytics共享促销活动数据，以衡量Campaign中的电子邮件营销量度以及通过转化的其他营销和广告工作，从而统一点击前和点击后行为。<br /> 直接跟踪整体性能，并发现与Analytics中外部计划的协同效应。将此整合视图中的学习内容应用到您的营销活动中；最终改善打开、点进和转化率，以提升收入和整体促销活动效果。 <br /> Adobe Analytics是必需的。有关详细信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 与Adobe Analytics共享促销活动数据，以衡量Campaign中的电子邮件营销量度以及通过转化的其他营销和广告工作，从而统一点击前和点击后行为。<br /> 直接跟踪整体性能，并发现与Analytics中外部计划的协同效应。将此整合视图中的学习内容应用到您的营销活动中；最终改善打开、点进和转化率，以提升收入和整体促销活动效果。 <br /> Adobe Analytics是必需的。有关更多信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道 — 返回发件人<br /> </td> 
-   <td> 现在支持与直邮提供商进行平面文件交换，其中包含“退回发件人”信息。 直邮渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这样，营销人员就可以收到地址不正确的通知，并通过其他渠道与客户联系，或者鼓励他更新其邮政地址。此外，由于营销人员避免将邮件发送到错误的地址，因此还可以减少浪费的营销资金。 <br /> 直邮可作为附加渠道提供。有关详细信息，请参阅<a href="../../channels/using/return-to-sender.md">有详细说明的文档</a>。<br /> </td> 
+   <td> 现在支持与直邮提供商进行平面文件交换，其中包含“退回发件人”信息。 直邮渠道的这一增强功能允许将相应的邮政地址排除在将来的通信之外。<br /> 这样，营销人员就可以收到地址不正确的通知，并通过其他渠道与客户联系，或者鼓励他更新其邮政地址。此外，由于营销人员避免将邮件发送到错误的地址，因此还可以减少浪费的营销资金。 <br /> 直邮可作为附加渠道提供。有关更多信息，请参阅<a href="../../channels/using/return-to-sender.md">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -408,7 +408,7 @@ _推送通知_
     <ul> 
      <li> 所有收件人都会收到考虑了所在时区时间的消息。 </li> 
      <li> 每个收件人在公式定义的计算日期和时间接收消息。 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../sending/using/optimizing-the-sending-time.md">有详细说明的文档</a>。<br /> </td> 
+    </ul> 有关更多信息，请参阅<a href="../../sending/using/optimizing-the-sending-time.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送通知新功能<br /> </td> 
@@ -419,7 +419,7 @@ _推送通知_
      <li> 交互式推送 </li> 
      <li> 丰富的内容支持 </li> 
      <li> 负载大小计算器 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../channels/using/about-push-notifications.md">有详细说明的文档</a>。<br /> </td> 
+    </ul> 有关更多信息，请参阅<a href="../../channels/using/about-push-notifications.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
@@ -427,7 +427,7 @@ _推送通知_
     <ul> 
      <li> <span class="uicontrol"></span> 结束活动：利用新选项卡，可指定要在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新</span> 数据活动：使用新的空出站过渡可添加可触发另 <strong></strong> 一个工作流的结束活动。空出站过渡不携带任何数据，也不会占用系统上不必要的空间 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../automating/using/external-signal.md">有详细说明的文档</a>。<br /> </td> 
+    </ul> 有关更多信息，请参阅<a href="../../automating/using/external-signal.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新读取受众活动<br /> </td> 
@@ -493,7 +493,7 @@ _工作流_
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
-    </ul> 有关详细信息，请参阅<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">有详细说明的文档</a>。<br /> </td> 
+    </ul> 有关更多信息，请参阅<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务型消息传递API<br /> </td> 

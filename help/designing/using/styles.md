@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -102,7 +102,7 @@ Email Designer界面允许您快速调整边距和边距设置。
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景设置"
->abstract="Email Designer允许您个性化内容的背景颜色或背景图像。请注意，并非所有电子邮件客户端都支持背景图像。"
+>abstract="Email Designer允许您个性化内容的背景颜色或背景图像。请注意，并非所有电子邮件客户都支持背景图像。"
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他信息"
 
 在使用Email Designer设置背景时，Adobe建议执行以下操作：

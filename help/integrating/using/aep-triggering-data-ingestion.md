@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并
 
 ## 先决条件 {#prerequisites}
 
-在使用API之前，必须先在Campaign Standard界面中配置并发布数据映射。 有关更多信息，请参阅以下章节：
+在使用API之前，必须先在Campaign Standard界面中配置并发布数据映射。 有关更多信息，请参阅一下章节。
 
 * [映射定义](../../integrating/using/aep-mapping-definition.md)
 * [映射激活](../../integrating/using/aep-mapping-activation.md)

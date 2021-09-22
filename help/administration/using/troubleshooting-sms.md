@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Adobe Campaign支持在同一外部帐户上处理多个短代码。
 
 如果您修复了所有问题，但提供程序的缓冲区中仍有一些无效SR，则可以使用&#x200B;**无效ID确认计数**&#x200B;选项跳过它们。 应当谨慎使用，并在缓冲区清理后尽快将其重置为0。
 
-## 处理MO（和阻止名单/自动回复）时出现问题{#issue-process-MO}
+## 处理MO(和/自阻止列表动回复)时出现问题{#issue-process-MO}
 
 * 在测试期间启用SMPP跟踪。 如果不启用TLS，则在对MO进行故障排除时，应执行网络捕获，以检查PDU是否包含正确的信息且格式正确。
 

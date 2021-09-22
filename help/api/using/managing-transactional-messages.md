@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -144,4 +144,4 @@ POST发送事件的请求。
 * **deliveryFailed**:处理事件时发生投放错误。
 * **routingFailed**:路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生这种情况。
 * **tooOld**:该事件在能够处理之前过期 — 这可能由于各种原因而发生，例如，发送失败多次（这会导致事件不再为最新状态）或服务器在过载后无法再处理事件。
-* **targetingFailed**:Campaign Standard未能扩充正在用于消息定位的链接。
+* **targetingFailed**:Campaign Standard未能扩充用于消息定位的链接。

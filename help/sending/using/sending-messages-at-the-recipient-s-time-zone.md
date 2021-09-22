@@ -8,16 +8,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 按收件人的时区发送消息{#sending-messages-at-the-recipient-s-time-zone}
 
-在管理日期和时间很重要的营销策划时，您可以让投放计划考虑每个收件人的当地时间：他们将在自身时区按您计划的时间收到电子邮件、短信或推送通知。
+在管理日期和时间很重要的营销活动时，您可以安排一个考虑到每个收件人当地时间的投放：他们将在您计划的时区收到电子邮件、短信或推送通知。
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [访问消息](channels/using/accessing-messages.md)
       + [消息仪表板](channels/using/message-dashboard.md)
       + [多语言消息模板](channels/using/multilingual-messages-template.md)
+      + [移动渠道快速入门](channels/using/mobile-guide.md)
    + 投放最佳实践 {#delivery-bestpractices}
       + [学习良好实践](sending/using/delivery-best-practices.md)
       + [优化投放](sending/using/optimize-delivery.md)

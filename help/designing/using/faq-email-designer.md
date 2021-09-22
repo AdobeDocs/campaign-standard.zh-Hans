@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 * 内容块是纯HTML，其中手动插入HTML代码（不是用户友好UI，而是直接源代码）。 尽管它真的面向具有HTML知识的用户，但它允许内容片段中不提供个性化级别。
 
-* 内容片段是通过Email Designer使用其用户友好UI创建的可视内容片段。 但是，无法个性化内容。 如果需要个性化，则只能通过内容块完成。
+* 内容片段是通过Email Designer使用用户友好UI创建的可视内容片段。 但是，无法个性化内容。 如果需要个性化，则只能通过内容块完成。
 
 ## 如何从HTML结构向元素添加内边距？
 

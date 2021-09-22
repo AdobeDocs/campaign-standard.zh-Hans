@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ Campaign Standard 概述页面进行了扩充，并重组到了专门的主题�
 
 进一步阐明了“电子邮件渠道参数”一节，添加了关于授权掩码字段和投放报告 ID 的更多信息。[了解更多](../../administration/using/configuring-email-channel.md)
 
-现在，核心文档中提供了使用 Adobe Experience Platform SDK 配置移动应用程序的内容，添加了关于通过 Launch 技术工作流程同步移动应用程序 AEPSDK 的更多信息。[了解更多](../../administration/using/configuring-a-mobile-application.md)
+现在，核心文档中提供了使用Adobe Experience Platform SDK配置移动应用程序，其中包含有关从Launch技术工作流同步移动应用程序AEPSDK的更多信息。 [阅读更多](../../administration/using/configuring-a-mobile-application.md)
 
 ## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 添加了关于如何链接自定义资源的信息。[了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-添加了关于如何从 Adobe Campaign Standard 推送通知显示图像的新技术说明。[了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/display-image-push.html)
+添加了关于如何从 Adobe Campaign Standard 推送通知显示图像的新技术说明。[了解更多](../../administration/using/image-push-notification.md)
 
-添加了关于推送跟踪实施的新技术说明。[了解更多](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/push-tracking.html)
+添加了关于推送跟踪实施的新技术说明。[了解更多](../../administration/using/push-tracking.md)
 
 更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新并阐明了如何将 Adobe Marketing Cloud Mobile SDK 与移动应用程序集成以接收 Adobe Campaign Standard 推送通知的[技术说明](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)。
 
-添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](https://helpx.adobe.com/cn/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](../../administration/using/push-payload.md)
 
 更新了推送渠道配置[章节](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
 

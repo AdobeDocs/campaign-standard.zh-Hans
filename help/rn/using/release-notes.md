@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 * 现在，在工作流中创建链接到 Adobe Experience Manager 内容的定期投放时，发送之前会检查内容批准状态。
 * 数据库连接限制现在与 Campaign 包一致，以避免连接错误。
-* 自定义资源发布中新增的一致性检查可阻止用户创建重复的索引，以避免导致发布失败。改进后的错误消息会要求用户根据需要重命名索引。
+* 自定义资源发布中新增的一致性检查可阻止用户创建重复的索引，以避免导致发布失败。改进后的错误消息会要求用户根据需要重命名索引。[了解详情](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **其他变更**
 

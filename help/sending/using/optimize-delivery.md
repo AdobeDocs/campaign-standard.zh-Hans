@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 7%
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 * [工作流执行](../../automating/using/about-workflow-execution.md):监控工作流对于避免平台性能问题至关重要。 遵循本页](../../automating/using/monitoring-workflow-execution.md)中列出的准则。 [在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解更多信息。
 
-* 您可以使用[促销活动控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能监控您的平台。
+* 您可以使用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能监控您的平台。
 
 ## 检查网络配置 {#network-config}
 

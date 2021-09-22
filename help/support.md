@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 100%
         <li><a href="start/using/privacy-management.md">隐私和同意管理</a></li>
         <li><a href="automating/using/query.md">设计查询</a></li>
         <li><a href="automating/using/query-samples.md">查询样例</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">配置移动渠道</a></li>
+        <li><a href="administration/using/push-tracking.md">配置移动渠道</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ### 询问专家！
 
-加入 Campaign Classic 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+加入 Campaign Classic 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 创建工单或开始聊天
 
@@ -127,4 +127,4 @@ ht-degree: 100%
 
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-请按照[本页](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
+请按照[本页面](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。

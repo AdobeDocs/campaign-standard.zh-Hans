@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 99%
    有关在 Profiles &amp; Services API 上执行操作的更多信息，请参阅[使用 API 扩展发布资源](#publishing-a-resource-with-api-extension)。
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >由于重复的索引导致发布失败，准备步骤会检查为资源定义的索引是否已经存在，并且其名称与另一个资源的名称相同。 如果发生此情况，将显示一条错误消息，要求您重命名索引。 请参阅[定义索引](configuring-the-resource-s-data-structure.md#defining-indexes)。
 
 1. 执行发布后，单击 **[!UICONTROL Publish]** 按钮以应用新配置。
 1. 发布后，每个资源的 **[!UICONTROL Summary]** 窗格此时都会显示 **[!UICONTROL Published]** 状态，并标注上次发布的日期。

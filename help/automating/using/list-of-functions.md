@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -386,7 +386,7 @@ ht-degree: 96%
 
 ## 其他 {#others}
 
-此表格还包含其余一些可用的函数。
+此表包含其余可用函数。
 
 <table> 
  <tbody> 
@@ -536,12 +536,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 将作为参数传递的两个字符串连接起来。返回值中的各个字符串之间会添加一个空格。<br /> </td> 
+   <td> 连接作为参数传递的两个字符串。 返回值中的各个字符串之间会添加一个空格。<br /> </td> 
    <td> JuxtWords(&lt;字符串&gt;, &lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 将作为参数传递的三个字符串连接起来。返回值中的各个字符串之间会添加一个空格。<br /> </td> 
+   <td> 连接作为参数传递的三个字符串。 返回值中的各个字符串之间会添加一个空格。<br /> </td> 
    <td> JuxtWords3(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 

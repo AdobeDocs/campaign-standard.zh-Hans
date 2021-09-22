@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 91%
 
 利用 HTTP 协议，可从外部帐户或 URL 开始下载文件。
 
-通过此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。在这种情况下，选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
+
+
 ![](assets/wkf_file_transfer_03.png)
 
 您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
@@ -82,7 +84,7 @@ ht-degree: 91%
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-通过此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项，然后选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项，然后选择所需的帐户并指定下载文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -177,5 +179,5 @@ ht-degree: 91%
 
 可用的输出变量包括：
 
-* **[!UICONTROL fileName]**:传输文件的名称。
-* **[!UICONTROL filesCount]**:传输的文件数。
+* **[!UICONTROL fileName]**:已传输文件的名称。
+* **[!UICONTROL filesCount]**:已传输文件的数量。

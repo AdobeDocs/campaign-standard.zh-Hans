@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 3%
@@ -336,7 +336,7 @@ Adobe Campaign允许您根据特定条件或使用跟踪，将消息中的一个
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="管理动态图像"
->abstract="根据您将定义的条件，使用动态图像个性化电子邮件。"
+>abstract="根据您定义的条件，使用动态图像个性化电子邮件。"
 
 在此示例中，应用于图像的动态内容的配置如下所示：
 
