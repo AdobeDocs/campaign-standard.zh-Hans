@@ -4,10 +4,10 @@ description: 进一步了解使用API进行隐私管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Campaign StandardAPI提供的功能允许自动处理与隐私法规（如GDPR�
 
 使用&#x200B;**ccpaOptOut**&#x200B;配置文件属性管理CCPA选择退出。
 
-有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅[专用文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)。
+有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅[专用文档](../../start/using/privacy-requests.md)。
