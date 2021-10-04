@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 7%
+source-wordcount: '1273'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->推送通知和应用程序内实施必须由专家用户执行。 如果需要协助，请与您的 Adobe 客户经理或专业服务合作伙伴联系。
+>推送通知和应用程序内实施必须由专家用户执行。 如需帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
 要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience PlatformExperience PlatformExperience Platform Launch中设置移动应用程序，并在Adobe Campaign中进行配置。
 
@@ -84,9 +84,9 @@ ht-degree: 7%
 
 ## 在Adobe Campaign中设置Adobe Experience Platform Launch应用程序 {#set-up-campaign}
 
-要在Campaign中使用Experience Platform Launch移动资产，您还需要在Adobe Campaign中配置此资产。 在Adobe Campaign中，确保IMS用户是标准用户和管理员产品配置文件的一部分。
+要在Campaign中使用Experience Platform Launch移动属性，您还必须在Adobe Campaign中配置此属性。 在Adobe Campaign中，确保IMS用户是标准用户和管理员产品配置文件的一部分。
 
-您需要等待技术工作流运行并将Launch移动资产同步到Adobe Campaign。 然后，您可以在Adobe Campaign中对其进行配置。
+您必须等待技术工作流运行并将Launch移动资产同步到Adobe Campaign。 然后，您可以在Adobe Campaign中对其进行配置。
 
 有关从Launch技术工作流同步移动设备应用程序AEPSDK的更多信息，请参阅此[部分](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 

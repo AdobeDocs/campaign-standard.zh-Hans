@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->请注意，在管理控制台中，安全组被视为用户档案。
+>请注意，在Admin Console中，安全组称为用户档案。
 
-如果现成的用户组不足以管理用户，您可以创建自己的安全组。有权访问 Adobe Campaign 管理菜单和管理控制台的管理员，可管理安全组。有关管理控制台的更多信息，请参阅此[文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
+如果现成的用户组不足以管理用户，您可以创建自己的安全组。他们可由有权访问Adobe Campaign管理菜单和Admin Console的管理员管理。 有关Admin Console的更多信息，请参阅此[文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
 在此，我们首先需要将两个现成的组“标准用户”和“管理员”分配给我们的用户。这些安全组将限制 Adobe Campaign 的某些功能：例如，标准用户具有访问 Adobe Campaign 的基础权限，而管理员可以访问管理菜单。
 
@@ -63,7 +63,7 @@ ht-degree: 87%
 
 您首先需要将一个现成的安全组分配给用户：
 
-1. 在管理控制台中，选择您的实例，然后选择 **Users** 选项卡。
+1. 在Admin Console中，选择您的实例，然后选择&#x200B;**Users**&#x200B;选项卡。
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ ht-degree: 87%
 
 将您的两个用户附加到为用户分配角色的 **[!UICONTROL Administrators]** 和 **[!UICONTROL Standard users]** 现成安全组后，管理员用户现在即可创建两个安全组 **Geometrixx** 和 **Geometrixx Clothes**，这两个安全组可以为我们的用户分配除现成安全组以外的组织单位。
 
-1. 在管理控制台中，选择您的实例，然后选择 **Products** 选项卡。
+1. 在Admin Console中，选择您的实例，然后选择&#x200B;**Products**&#x200B;选项卡。
 1. 单击 **New Profile** 按钮以创建 **Geometrixx** 安全组。
 
    ![](assets/create_security_1.png)
@@ -120,14 +120,14 @@ ht-degree: 87%
 
    ![](assets/manage_security_group_9.png)
 
-现在，已在管理控制台中生成了新创建的安全组。要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
+现在，新创建的安全组将在Admin Console中创建。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
 
 管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
 1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Users & Security > Security groups]**。
 1. 创建新的安全组并指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
 
-   ID 必须与在管理控制台中选择的 ID 相同。
+   ID必须与在Admin Console中选择的ID相同。
 
 1. 在 **[!UICONTROL User access]** 字段中，分配组织单位。在本例中，已经为 **[!UICONTROL All]** 组织单位分配了 Geometrixx 安全组。
 
@@ -146,4 +146,4 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->如果用户从Admin Console的安全组中删除，则他们将保持在Adobe Campaign安全组的一部分，并且将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。
+>如果从Admin Console的安全组中删除了用户，则他们将保留在Adobe Campaign安全组的一部分，并且将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。

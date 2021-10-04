@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 93%
+source-wordcount: '1204'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
-管理员可以通过管理控制台对用户进行管理。然后，用户将自动与 Adobe Campaign 同步。有关更多信息，请参阅[管理控制台](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
+管理员可以从Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关更多信息，请参阅[Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
@@ -43,12 +43,12 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 这种用户划分并不具有强制性，本节只是展示 Adobe Campaign 的常见用法。
 
-本节将帮助您了解主要类型的 Adobe Campaign 用户。在此，我们不会介绍用户可以担任的所有特定角色（开始投放、导出、准备投放等）。有关角色的更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)、[管理组和用户](../../administration/using/managing-groups-and-users.md)页面。
+本节将帮助您了解主要类型的Adobe Campaign用户。 有关用户可以担任的特定角色（开始投放、导出、准备投放等）的更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)和[管理组和用户](../../administration/using/managing-groups-and-users.md)页面。
 
 我们着重关注 Adobe Campaign 中承担不同任务的三种主要用户类型：
 
 * [功能管理员](#functional-administrators)：在组织内部的所有用户中，此类型的用户技术含量最高。
-* [高级用户](#advanced-users)：负责设置营销人员发送和监控投放所需的所有元素。
+* [高级用户](#advanced-users):他们负责设置营销人员发送和监控投放所需的所有元素。
 * [基本用户](#basic-users)：营销人员，负责个性化、投放和监控活动。
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ## 创建用户 {#creating-a-user}
 
-要向实例添加用户，必须先在管理控制台中创建该用户，然后才能在 Adobe Campaign Standard 中对其进行管理。
+要向实例添加用户，必须先在Admin Console中创建该用户，然后才能在Adobe Campaign Standard中管理该用户。
 
 1. 在高级菜单中，选择 **[!UICONTROL Administration > Users & Security > Users]** 并单击 **[!UICONTROL User administration]** 以访问管理控制台。
 
@@ -120,7 +120,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
    ![](assets/create_user_3.png)
 
-1. 在 **[!UICONTROL Assign products]** 选项卡中，为用户分配一个或多个安全组。有关安全组的详细信息，请参阅[此页面](../../administration/using/managing-groups-and-users.md)。
+1. 在&#x200B;**[!UICONTROL Assign products]**&#x200B;选项卡中，为用户分配一个或多个安全组。 有关安全组的详细信息，请参阅[此页面](../../administration/using/managing-groups-and-users.md)。
 
    配置完成后单击 **[!UICONTROL Save]**。
 
@@ -130,7 +130,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ![](assets/create_user_5.png)
 
-用户一旦登录您的实例，就会立即同步到 Adobe Campaign Standard。
+登录到您的实例时，此用户将同步到Adobe Campaign Standard。
 
 然后，您可以检查用户是否已正确同步到 Adobe Campaign：
 

@@ -9,16 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
 
 # 跟踪和监测 {#track-and-monitor}
 
-您单击了“发送”按钮？ 让我们看看会发生什么。 发送投放后，Adobe Campaign允许您跟踪已发送的消息，并了解收件人对您的投放有何反应。 这将帮助您改进将来的发送并优化后续促销活动。
+您单击了“发送”按钮？ 让我们看看会发生什么。 发送投放后，Adobe Campaign允许您跟踪已发送的消息，并了解收件人对您的投放有何反应。 这有助于您改进未来的发送并优化下一个促销活动。
 
 ## 监控投放 {#monitoring-deliveries}
 

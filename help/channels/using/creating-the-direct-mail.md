@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 1. 如果添加了测试用户档案（请参阅[添加测试和陷阱用户档案](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)），则可以在准备最终文件之前对投放进行测试。利用该功能，可创建仅包含选定测试用户档案的样例文件。
 
-   单击 **[!UICONTROL Test]** 以生成样例文件。单击左上角的 **[!UICONTROL Summary]**，然后选择 **[!UICONTROL Proofs]**。在屏幕的左侧，选择校样并单击 **[!UICONTROL Download file]**。
+   单击 **[!UICONTROL Test]** 以生成样例文件。单击左上角的&#x200B;**[!UICONTROL Summary]**，然后选择&#x200B;**[!UICONTROL Proofs]**。 在屏幕的左侧，选择校样并单击 **[!UICONTROL Download file]**。
 
    >[!NOTE]
    >

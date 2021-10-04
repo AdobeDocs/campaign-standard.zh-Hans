@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1147'
 ht-degree: 3%
 
 ---
@@ -220,7 +220,7 @@ Adobe Campaign允许您在iOS和Android移动设备上向移动应用程序（�
 
 ### 如何在移动设备应用程序代码中检索有效负载信息 {#payload-information}
 
-应用程序服务器发送的有效负荷信息由事件处理程序中的移动设备应用程序代码接收，该事件处理程序指示已收到推送通知。 此事件将因所处理的移动设备平台而异，也因应用程序是在前台还是后台运行而异。 以下文档将帮助您根据用例确定要处理的事件处理程序。
+应用程序服务器发送的有效负荷信息由事件处理程序中的移动设备应用程序代码接收，该事件处理程序指示已收到推送通知。 此事件将因所处理的移动设备平台而异，也因应用程序是在前台还是后台运行而异。 以下文档可帮助您根据用例确定要处理的事件处理程序。
 
 * iOS应用程序：**处理[远程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)中的远程通知**&#x200B;部分。
 * Android应用程序：[在Android客户端应用程序上接收消息](https://firebase.google.com/docs/cloud-messaging/android/receive)

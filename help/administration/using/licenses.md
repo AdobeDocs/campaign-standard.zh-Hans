@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ![](assets/license_1.png)
 
-如果具有新内部版本或新功能，许可条款可能会发生更改，需要实例的功能管理员接受这些条款。
+使用新内部版本或新功能时，许可条款可能会发生更改，且必须由实例的功能管理员接受。
 
 登录后，将为标准用户显示以下窗口，无需对其执行任何操作。 它们仍可以通过单击&#x200B;**[!UICONTROL OK]**&#x200B;按钮在Adobe Campaign上工作。
 

@@ -8,16 +8,16 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # 测试触发器{#testing-your-triggers}
 
-以下故障诊断提示将帮助您解决在将触发器与Adobe Campaign结合使用时可能遇到的最常见问题：
+以下故障诊断提示可帮助您解决在将触发器与Adobe Campaign结合使用时可能遇到的最常见问题：
 
 **功能是否已激活？**
 

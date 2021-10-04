@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 ## Adobe Experience Platform SDK集成是否适用于Adobe Campaign Standard和Adobe Campaign Classic? {#aep-validity}
 
-是，[!DNL Adobe Experience Platform SDK]集成适用于Adobe Campaign Standard和Adobe Campaign Classic。 您需要通过[!DNL Adobe Launch]安装相应的&#x200B;**[!UICONTROL Extension]**&#x200B;才能启用集成。
+是，[!DNL Adobe Experience Platform SDK]集成适用于Adobe Campaign Standard和Adobe Campaign Classic。 必须通过[!DNL Adobe Launch]安装相应的&#x200B;**[!UICONTROL Extension]**&#x200B;才能启用集成。
 
 有关详细信息，请参见此 [ 页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ## 要在Campaign中扩充移动用户档案，我必须执行哪些操作？ {#enrich-mobile-profile}
 
-您需要配置CollectPII回发（请参阅此[page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)）并从SDK实施CollectPII API（请参阅此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
+您必须配置CollectPII回发（请参阅此[page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)）并从SDK实施CollectPII API（请参阅此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
 
 ## CollectPII调用应该触发多久一次？ {#collect-pii}
 

@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >请注意，您必须将&#x200B;**[!UICONTROL Message type]**&#x200B;量度拖放到表中，才能根据投放类型（在本例中为推送通知投放）拆分数据。
 
-**推送通知**&#x200B;报表提供推送通知在Adobe Campaign中的营销效果的详细信息。 此开箱即用的报表将帮助您了解用户如何与推送通知、移动应用程序和投放进行交互。
+**推送通知**&#x200B;报表提供推送通知在Adobe Campaign中的营销效果的详细信息。 此开箱即用的报表可帮助您了解用户如何与推送通知、移动应用程序和投放进行交互。
 
 移动应用程序中需要一些配置才能实施推送跟踪，有关详细步骤，请参阅此[页面](../../administration/using/push-tracking.md)。
 

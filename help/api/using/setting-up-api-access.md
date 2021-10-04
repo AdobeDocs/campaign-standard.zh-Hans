@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Adobe Campaign Standard API访问权限通过以下步骤进行设置。 [AdobeI
 
 >[!IMPORTANT]
 >
->要在AdobeIO中管理证书，请确保您在组织中拥有<b>系统管理员</b>权限，或在管理控制台中拥有[开发人员帐户](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>权限。
+>要在AdobeIO中管理证书，请确保您在组织中拥有<b>系统管理员</b>权限，或在Admin Console中拥有[开发人员帐户](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>权限。
 
 1. **检查您是否拥有数字证书**，或根据需要创建一个证书。在以下步骤中需要随证书一起提供的公钥和私钥。
 1. **在Adobe Campaign IO中创建与Adobe** 服务的新集成并对其进行配置。随后将生成您的凭据（API密钥、客户端密钥……）。

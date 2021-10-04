@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Campaign Standard中定义的扩展资源被映射为所有本机字段。 它�
 
 有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 。
 
-要映射枚举字段，您需要使用表达式编辑器来定义与XDM值对应的每个枚举值。 例如，postalAdressfield需要定义为：
+要映射枚举字段，您需要使用表达式编辑器来定义与XDM值对应的每个枚举值。 例如，后发地址字段需要定义为：
 
 ![](assets/aep_enummapping.png)
 

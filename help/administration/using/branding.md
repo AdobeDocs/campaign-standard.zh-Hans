@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 80%
 
 ## 创建新品牌 {#creating-a-brand}
 
-您可以在Campaign中添加组织的新实体，或创建需要在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
+您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
 
 1. **配置新子域**  — 对于要由Adobe使用的任何新子域，第一步将是对其进行配置。您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)执行此操作，或联系Adobe技术联系人。 在本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)中了解有关子域配置[的更多信息。
 
@@ -95,7 +95,7 @@ ht-degree: 80%
    >
    >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
-1. **创建票证**  — 配置子域后，Adobe将需要在生产环境中对其进行设置。要请求此请求，[使用以下信息为客户关怀团队创建票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html):
+1. **创建票证**  — 配置子域后，Adobe将在您的生产环境中对其进行设置。要请求此请求，[使用以下信息为客户关怀团队创建票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html):
 
    * 主题：ACS新品牌设置
 
@@ -145,13 +145,13 @@ ht-degree: 80%
 
 在本例中，我们将创建一个与旅行相关的新品牌，并将其用在电子邮件中。
 
-#### 配置新品牌 {#configure-a-new-brand}
+#### 步骤1:配置新品牌 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >仅在需要特定权限和技术设置时，才由 Adobe 管理品牌配置。
 
-1. Adobe Campaign 管理员在 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中创建品牌。他从高级菜单中添加 **Vacations in the Tropics** 元素，并配置品牌的 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]**。
+1. Adobe Campaign管理员首先从&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;菜单创建品牌，并添加&#x200B;**Vacations in the Tropics**&#x200B;元素，然后配置品牌的&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Header parameters of sent emails]**。
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ ht-degree: 80%
 
 品牌已正确创建和配置。现在，可提供给营销团队使用。
 
-#### 实施新品牌 {#implement-a-new-brand}
+#### 步骤2:实施新品牌 {#implement-a-new-brand}
 
 投放经理负责创建投放模板以使用新品牌。要实现此目的，请执行以下步骤：
 
@@ -182,7 +182,7 @@ ht-degree: 80%
 
    现在，即可将该投放模板用于创建将要发送给受众的电子邮件。
 
-#### 在投放中使用新品牌 {#use-the-new-brand-in-a-delivery}
+#### 步骤3:在投放中使用新品牌 {#use-the-new-brand-in-a-delivery}
 
 要创建链接到品牌的电子邮件，请执行以下步骤：
 

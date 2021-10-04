@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1512'
 ht-degree: 4%
 
 ---
@@ -190,7 +190,7 @@ Campaign Standard允许您导入可用于测试的用户档案受众。 例如�
 1. 构建工作流以从文件创建受众。 为此，请添加并配置以下活动：
 
    * **[!UICONTROL Load file]** 活动：导入CSV文件(有关此活动的更多信息，请参阅 [此章节](../../automating/using/load-file.md))。
-   * **[!UICONTROL Reconciliation]** 活动：将文件中的信息链接到数据库中的信息。在此示例中，我们将使用用户档案的电子邮件地址作为协调字段（有关此活动的更多信息，请参阅[此部分](../../automating/using/reconciliation.md)）。
+   * **[!UICONTROL Reconciliation]** 活动：将文件中的信息链接到数据库中的信息。在此示例中，将用户档案的电子邮件地址用作协调字段（有关此活动的更多信息，请参阅[此部分](../../automating/using/reconciliation.md)）。
    * **[!UICONTROL Save audience]** 活动：根据导入的文件创建受众(有关此活动的更多信息，请参阅 [此章节](../../automating/using/save-audience.md))。
 
    ![](assets/substitution_uc2.png)

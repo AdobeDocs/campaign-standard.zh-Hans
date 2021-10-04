@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1798'
 ht-degree: 99%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 99%
          + [使用 Adobe Experience Platform 属性个性化营销活动](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector（测试版）{#data-connector}
          + [关于 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-         + [Experience Platform 数据模型概述](integrating/using/aep-data-model-overview.md)
+         + [Experience Platform数据模型概述](integrating/using/aep-data-model-overview.md)
          + [映射定义](integrating/using/aep-mapping-definition.md)
          + [映射激活](integrating/using/aep-mapping-activation.md)
          + [通过 API 触发数据摄取](integrating/using/aep-triggering-data-ingestion.md)

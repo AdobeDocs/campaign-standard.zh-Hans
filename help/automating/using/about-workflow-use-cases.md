@@ -7,10 +7,10 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 71%
+source-wordcount: '233'
+ht-degree: 72%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 71%
 
 在此部分中，您将发现利用Campaign工作流功能的各种用例。
 
-它们将帮助您发现可以使用工作流的不同上下文并响应您的需求。
+它们可帮助您发现可以使用工作流的不同上下文并响应您的需求。
 
 ## 投放 {#deliveries}
 

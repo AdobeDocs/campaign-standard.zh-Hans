@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 单击 **[!UICONTROL Add an element]**，然后根据需要添加任意数量的值，其方法为添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 并单击 **[!UICONTROL Add]**。
 
-   在本例中，我们要为用户档案创建“Books”、“Exhibitions”、“Movies”和“N/A”值选项，以供选择。
+   在此示例中，为用户档案创建“Books”、“Exhibitions”、“Movies”和“N/A”值，以在这些选项中进行选择。
 
    ![](assets/schema_extension_uc11.png)
 

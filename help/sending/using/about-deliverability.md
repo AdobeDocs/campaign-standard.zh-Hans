@@ -9,9 +9,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 7%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaign提供了许多用于跟踪和改进平台可交付性性能的工
 
 ### 仔细构建消息
 
-配置、设计和测试消息时，请确保遵循下面所列部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能，将帮助您提高投放能力。
+配置、设计和测试消息时，请确保遵循下面所列部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能，可帮助您提高投放能力。
 
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [控制电子邮件内容](../../sending/using/control-email-content.md)

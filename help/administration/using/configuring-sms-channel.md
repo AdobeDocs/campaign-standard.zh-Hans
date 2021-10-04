@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 95%
 
    您可以指定叫客消息的最大吞吐量（其单位为每秒 MT 数，其中的“MT”指的是“终端终止”）。如果在对应的字段中输入“0”，则吞吐量将没有限制。
 
-   对应于持续时间的所有字段值，都必须填写以秒为单位的值。
+   对应于持续时间的所有字段值都必须以秒为单位填写。
 
-1. 需要定义特定编码映射时，可定义 SMS-C 特定参数。有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
+1. 如果必须定义特定编码映射，则定义SMS-C特定参数。 有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
 
    如果您不想遵守 SMPP 协议，且想要将 **[!UICONTROL +]** 前缀转移给短信提供商的服务器 (SMS-C)，请启用 **[!UICONTROL Send full phone number (send characters other than digits)]** 选项。
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 79%
+source-wordcount: '1256'
+ht-degree: 77%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 79%
 
 ## 高级菜单 {#advanced-menu}
 
-单击每个屏幕左上角的 **Adobe Campaign** 徽标，可显示高级菜单。显示的高级菜单，可能会因合同和用户权限的不同而有所差异。
+单击每个屏幕左上角的&#x200B;**Adobe Campaign**&#x200B;图标，可显示高级菜单。 显示的高级菜单，可能会因合同和用户权限的不同而有所差异。
 
 利用此菜单，可导航到特定功能和设置。
 

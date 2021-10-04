@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # 管理事务型消息 {#managing-transactional-messages}
 
-## 关于事务性消息传递
-
 创建并发布事务型事件后，您需要将此事件的触发集成到您的网站中。
 
 >[!NOTE]
 >
->有关配置事件的信息，请参见[此部分](../../channels/using/configuring-transactional-event.md)。
+>[此部分](../../channels/using/configuring-transactional-event.md)中详细描述了事件配置。
 
-例如，您希望每当您的一位客户在购买购物车中的产品之前离开您的网站时，都触发“购物车放弃”事件。 要实现此目的，您的Web开发人员必须使用REST事务型消息API。
+例如，您希望每当您的一位客户在购买购物车中的产品之前离开您的网站时，都触发“购物车放弃”事件。 要实现此目的，作为Web开发人员，您必须使用REST事务型消息API。
 
-1. 开发人员根据POST方法发送请求，该方法将触发事务事件](#sending-a-transactional-event)的[发送。
-1. 对POST请求的响应包含主密钥，该密钥允许开发人员通过GET请求发送一个或多个请求。 这样，他便能够获得[事件状态](#transactional-event-status)。
+1. 根据POST方法发送请求，该方法将触发事务事件](#sending-a-transactional-event)的[发送。
+1. 对POST请求的响应包含一个主键，通过该键，您可以通过GET请求发送一个或多个请求。 然后，您便能够获取[事件状态](#transactional-event-status)。
 
 ## 发送事务型事件 {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   （请注意，在API预览期间，事务型消息API端点也可见）
+   请注意，事务型消息API端点在API预览期间也可见。
 
 * **&lt;eventid>**:要发送的事件类型。此ID在创建事件配置时生成（请参阅[此部分](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 

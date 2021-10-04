@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '916'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 5%
 
 ## 用例：导入使用由控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
 
-在此用例中，我们将构建一个工作流，以便使用控制面板中生成的密钥，导入已在外部系统中加密的数据。
+在此用例中，构建工作流，以便使用在控制面板中生成的密钥导入已在外部系统中加密的数据。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 1. 在外部系统中，使用从控制面板下载的公钥对要导入到Campaign Standard中的数据进行加密。
 
-1. 在Campaign Standard中，构建一个工作流以导入加密数据，然后使用通过控制面板安装的私钥解密该数据。 为此，我们将构建一个工作流，如下所示：
+1. 在Campaign Standard中，构建一个工作流以导入加密数据，然后使用通过控制面板安装的私钥解密该数据。 为此，请按如下方式构建工作流：
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
 ## 用例：使用安装在控制面板上的密钥加密和导出数据 {#use-case-gpg-encrypt}
 
-在此用例中，我们将构建一个工作流，以便使用安装在控制面板上的密钥加密和导出数据。
+在此用例中，请构建工作流，以便使用安装在控制面板上的密钥加密和导出数据。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
@@ -97,7 +97,7 @@ ht-degree: 5%
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，构建用于导出数据的工作流，并使用通过控制面板安装的私钥对其加密。 为此，我们将构建一个工作流，如下所示：
+1. 在Campaign Standard中，构建用于导出数据的工作流，并使用通过控制面板安装的私钥对其加密。 为此，请按如下方式构建工作流：
 
    ![](assets/gpg-workflow-export.png)
 

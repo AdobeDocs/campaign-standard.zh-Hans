@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 53%
+source-wordcount: '157'
+ht-degree: 38%
 
 ---
 
@@ -34,4 +34,4 @@ Campaign中的标准日志表具有预设的保留期，通常将其数据存储
 
 使用标准工作流功能，可以为任何自定义表设置保留期。
 
-请联系 Adobe 顾问或技术管理员，以详细了解客户保留时间或设置自定义表的保留时间（如果需要）。
+请联系Adobe顾问或技术管理员，了解有关保留或设置自定义表保留的更多信息。

@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 1. 第一步是&#x200B;**检索配置文件**。
 
-1. 在第二个请求中，我们将对用户档案执行&#x200B;**PATCH请求**，其中包含有效载荷中的已完成信息。
+1. 在第二个请求中，对配置文件执行&#x200B;**PATCH请求**，其中包含有效载荷中的已完成信息。
 
 1. 要检查PATCH请求是否更新了用户档案，我们可以执行最终GET请求。
 

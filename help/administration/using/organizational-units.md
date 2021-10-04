@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
 
-用户对父单元中的所有对象具有只读访问权限。 他有权读取和写入其单位和儿童单位的所有物品。 用户无权访问并行分支中的对象。
+用户对父单元中的所有对象具有只读访问权限。 此类用户对其单位和子单位的所有对象具有读写权限。 用户无权访问并行分支中的对象。
 
 默认情况下，只有&#x200B;**[!UICONTROL All]**&#x200B;单位可用。
 
@@ -79,7 +79,7 @@ ht-degree: 4%
 
 1. 按照相同的步骤创建分配给之前创建的Geometrixx服装组织单位的第二个模板。
 
-分配给标准用户和Geometrixx服装组的用户将能够看到这两个模板。 由于组织单位的分层结构，他将具有对链接到Geometrixx服装单位的模板的读写权限，以及对链接到Geometrixx单位的模板的只读访问权限。
+分配给&#x200B;**标准用户**&#x200B;和&#x200B;**Geometrixx服装**&#x200B;组的用户将能够看到这两个模板。 由于组织单位的层次结构，它们对链接到Geometrixx服装单元的模板具有读写权限，对链接到Geometrixx单元的模板仅具有只读访问权限。
 
 ![](assets/manage_units_7.png)
 
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 ![](assets/manage_units_8.png)
 
-组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的Geometrixx服装用户访问&#x200B;**[!UICONTROL Profiles]**&#x200B;选项卡，他将能够使用Geometrixx服装组织单位完全访问和修改用户档案。
+组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的Geometrixx服装用户访问&#x200B;**[!UICONTROL Profiles]**&#x200B;选项卡，则他们将能够使用Geometrixx服装组织单位完全访问和修改用户档案。
 
 虽然具有Geometrixx组织单位的用户档案将为只读，但如果用户尝试修改一个用户档案，则会显示以下错误：**[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
 

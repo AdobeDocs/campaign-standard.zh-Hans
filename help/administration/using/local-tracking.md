@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要为Adobe Campaign Standard实施跟踪，移动设备应用程序需要在应用程序中包含Mobile SDK。 这些SDK在[!DNL Adobe Mobile Services]中可用。
 
-要发送跟踪信息，需要发送三个变量：两个是从Adobe Campaign收到的数据的一部分，另一个是操作变量，用于指示是展示、单击还是打开。
+要发送跟踪信息，必须发送三个变量：两个是从Adobe Campaign收到的数据的一部分，另一个是操作变量，用于指示是展示、单击还是打开。
 
 | 变量 | 值 |
 | :-: | :-: |
@@ -46,11 +46,11 @@ Adobe Experience Platform Mobile SDK将在无需任何其他配置的情况下�
 
 ## 实施点击跟踪 {#implementing-click-tracking}
 
-对于点击跟踪，您需要在调用`collectMessageInfo()`或`trackAction()`函数时发送值“2”以执行操作。
+对于点击跟踪，您必须在调用`collectMessageInfo()`或`trackAction()`函数时发送值“2”以执行操作。
 
 ### 对于Android {#implement-click-tracking-android}
 
-要跟踪点击，需要处理两种情况：
+要跟踪点击量，必须实施两种方案：
 
 * 用户看到通知但将其清除。
 
@@ -68,7 +68,7 @@ Adobe Experience Platform Mobile SDK将在无需任何其他配置的情况下�
 
 ### 对于iOS {#implement-click-tracking-ios}
 
-要发送点击跟踪信息，您需要添加以下内容：
+要发送点击跟踪信息，您必须添加以下内容：
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -101,13 +101,13 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ## 实施开放式跟踪 {#implement-open-tracking}
 
-您需要发送“1”和“2”，因为用户必须单击通知才能打开应用程序。 如果应用程序未通过本地通知启动/打开，则不会发生跟踪事件。
+您必须发送“1”和“2”，因为用户必须单击通知才能打开应用程序。 如果应用程序未通过本地通知启动/打开，则不会发生跟踪事件。
 
 ### 对于Android {#implement-open-tracking-android}
 
-要跟踪打开，我们需要创建意图。 意图对象允许Android操作系统在完成某些操作后调用您的方法，在此例中，单击通知以打开应用程序。
+要跟踪打开，我们必须创建意图。 意图对象允许Android操作系统在完成某些操作后调用您的方法，在此例中，单击通知以打开应用程序。
 
-此代码基于点击展示次数跟踪的实施。 现在，您需要设置意图，将跟踪信息发送回Adobe Campaign。 在这种情况下，用户单击后，将打开或将触发通知的Android视图([!DNL Activity])置于前台。 [!DNL Activity]中的意图对象包含可用于跟踪打开情况的通知数据。
+此代码基于点击展示次数跟踪的实施。 现在，通过设置意图，您必须将跟踪信息发送回Adobe Campaign。 在这种情况下，用户单击后，将打开或将触发通知的Android视图([!DNL Activity])置于前台。 [!DNL Activity]中的意图对象包含可用于跟踪打开情况的通知数据。
 
 MainActivity.java（扩展[!DNL Activity]）
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

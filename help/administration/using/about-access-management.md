@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign 允许您定义和管理分配给不同用户的权限。权限�
 
 ![](assets/user_management_1.png)
 
-用户在管理控制台中进行管理（请参阅[管理组和用户](../../administration/using/managing-groups-and-users.md)章节或[管理控制台文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)）。
+在Admin Console中管理用户(请参阅[管理组和用户](../../administration/using/managing-groups-and-users.md)部分或[Admin Console文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html))。
 
 ![](assets/user_management_6.png)
 

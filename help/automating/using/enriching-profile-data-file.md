@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 78%
+source-wordcount: '526'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 78%
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   对于此示例文件，我们将使用电子邮件地址，将数据与数据库用户档案进行协调。您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
+   对于此示例文件，使用电子邮件地址将数据与数据库用户档案进行协调。 您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
 * [扩充](../../automating/using/enrichment.md)活动，用于在从文件加载的事务数据与在&#x200B;**[!UICONTROL Query]**&#x200B;中选择的用户档案之间创建链接。 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
 

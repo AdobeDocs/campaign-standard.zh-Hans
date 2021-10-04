@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 96%
 
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
 
-现在，每当某个用户档案订阅此服务时，他都会收到您定义的事务型消息，且消息中包含映射到选定服务的个性化字段。
+现在，当用户档案订阅此服务时，他们将收到您定义的事务型消息，消息中包含映射到选定服务的个性化字段。
 
 >[!NOTE]
 >
@@ -190,8 +190,8 @@ ht-degree: 96%
 
 1. [测试和发布](../../channels/using/testing-publishing-landing-page.md)登陆页面。
 
-现在，每当某个用户档案通过提交登录页订阅您的新闻通讯时，他都会收到您使用映射到服务的个性化字段所定义的确认消息。
+现在，当用户档案通过提交登陆页面订阅您的新闻稿时，他们将收到您使用映射到该服务的个性化字段定义的确认消息。
 
 >[!NOTE]
 >
->每次提交登陆页面时，即使该用户档案已订阅，也会发送消息。
+>每次提交登陆页面时，即使用户档案已订阅，也会发送消息。

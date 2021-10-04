@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7589'
+source-wordcount: '7588'
 ht-degree: 8%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 8%
 * 在Campaign StandardAPI中，如果键值与原始键不同，或者您使用自己的业务键作为URI而不是Adobe提供的业务键，则无法使用PATCH操作修改自定义键。
 * “阿尔巴尼亚语 — 马其顿语”语言已添加到首选语言下拉列表中。 (CAMP-35396)
 
-**修补程序**
+**补丁程序**
 
 * 修复了阻止对计划报表进行排序或搜索的问题。
 * 修复了触发器规则中导致AND和OR规则混合的问题。
@@ -222,7 +222,7 @@ ht-degree: 8%
 * 现在，使用“传输文件”活动时，如果文件大小超过可用磁盘空间，则会记录错误。
 * 不能再为应用程序内消息中的辅助按钮选择重定向到目标URL操作。
 
-**修补程序**
+**补丁程序**
 
 * 修复了可能导致GDPR访问请求失败的问题。
 * 修复了在收到唯一用户档案的多个触发器时，可能导致触发器丢弃的问题。
@@ -373,7 +373,7 @@ ht-degree: 8%
 * 自定义资源发布测试模式已得到改进。 现在，如果上次自定义资源发布失败且未修复，则会向用户显示警告消息。 自定义资源发布失败后，您可以回滚到上一个工作版本。 有关详细信息，请参阅[有详细说明的文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 * 在传输文件活动中添加了新选项。 利用此功能，可在SFTP模式下使用“文件下载”操作时对文件进行排序。 有关详细信息，请参阅[有详细说明的文档](../../automating/using/transfer-file.md)。(CAMP-33109)
 
-**修补程序**
+**补丁程序**
 
 * 修复了在重新加载短信设置时可能导致MTA内存泄漏的问题。
 * 修复了可能阻止在修复模式下发布数据库更新的问题。
@@ -454,7 +454,7 @@ ht-degree: 8%
 
    有关详细信息，请参阅[有详细说明的文档](../../designing/using/using-reusable-content.md#content-templates)。
 
-* 我们新的入门体验将帮助您更快地开始创建电子邮件，并让您更轻松地访问文档和教程。
+* 我们新的入门体验可帮助您更快地开始创建电子邮件，并让您更轻松地访问文档和教程。
 
    有关详细信息，请参阅[有详细说明的文档](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
@@ -491,7 +491,7 @@ ht-degree: 8%
 * Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
 * 配置文件资源中的&#x200B;**国家/地区代码**&#x200B;字段已重命名为&#x200B;**国家/地区代码**。
 
-**修补程序**
+**补丁程序**
 
 * 修复了在向电子邮件事务型消息添加测试用户档案时阻止发送消息的问题。 (CAMP-29854)
 * 修复了在同时触发从所有渠道发送消息时，如果一个渠道的发送量较低，则会减慢从其他渠道发送消息的问题。
@@ -584,7 +584,7 @@ ht-degree: 8%
 * 现在，可以使用Email Designer创建用户档案事务型消息。 (CAMP-28900)
 * 修复了Email Designer中的一个错误，该错误在准备时从URL自动检索内容时使内容可编辑，而该错误应被锁定。
 
-**修补程序**
+**补丁程序**
 
 * 修复了动态报告中显示错误投放日志的问题。 (CAMP-23446)
 * 修复了可能影响退回摘要报表数字的问题(CAMP-28703)

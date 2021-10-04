@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 4%
 
    ![](assets/update_profile_createelement.png)
 
-1. 在&#x200B;**[!UICONTROL Source]**&#x200B;字段中，从appSubscriptionRcp表中选择一个字段作为协调字段。 它可以是用户档案的电子邮件、crmId、marketingCloudId等。 在本例中，我们将使用“Email(cusEmail)”字段。
+1. 在&#x200B;**[!UICONTROL Source]**&#x200B;字段中，从appSubscriptionRcp表中选择一个字段作为协调字段。 它可以是用户档案的电子邮件、crmId、marketingCloudId等。 在此示例中，使用“Email(cusEmail)”字段。
 
 1. 在&#x200B;**[!UICONTROL Destination]**&#x200B;字段中，从用户档案表中选择一个字段以协调appSubscriptionRcp表中的数据。 它可以是用户档案的电子邮件，也可以是任何扩展字段，如crmId、marketingCloudId等。 在此示例中，我们需要选择“电子邮件（电子邮件）”字段，以将其映射到appSubscriptionRcp表中的“电子邮件(cusEmail)”字段。
 

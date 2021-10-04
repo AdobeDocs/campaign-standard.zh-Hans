@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 1. 如果您在Adobe Target的设置中使用企业权限，请在此字段中添加相应的资产。 在[此页面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)中了解有关Target企业权限的更多信息。 如果您未在Target中使用企业权限，则此字段是可选的，而不是必填字段。
 1. 在&#x200B;**[!UICONTROL Additional decision parameters]**&#x200B;中，指定在Adobe Target区段中定义的字段与Adobe Campaign字段之间的映射。
 
-   使用的Adobe Campaign字段必须已在rawbox中指定。 在本例中，我们将根据收件人的性别定义不同的体验。
+   使用的Adobe Campaign字段必须已在rawbox中指定。 在本例中，根据收件人的性别定义不同的体验。
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

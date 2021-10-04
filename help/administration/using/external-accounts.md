@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -141,7 +141,7 @@ Amazon S3 服务器字段应按以下方式填写：
 
 [此文档](../../integrating/using/get-started-campaign-integrations.md)提供了与此集成相关的流程和要求。
 
-在设置此新外部帐户时，您需要提供以下详细信息：
+在设置此新外部帐户时，必须提供以下详细信息：
 
 * 服务器：输入 Adobe Experience Manager 服务器的 URL。例如：
 
@@ -157,9 +157,9 @@ Amazon S3 服务器字段应按以下方式填写：
 >
 >Google reCAPTCHA 配置需要 Google 帐户。
 
-利用 Google reCAPTCHA 机制，可保护登陆页面免受由机器人程序造成的垃圾邮件和滥用。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。要注册您的站点，请参阅[本页面](https://www.google.com/recaptcha/admin/create)。您需要选择 V3 reCAPTCHA 类型。
+利用 Google reCAPTCHA 机制，可保护登陆页面免受由机器人程序造成的垃圾邮件和滥用。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。要注册您的站点，请参阅[本页面](https://www.google.com/recaptcha/admin/create)。您必须选择V3 reCAPTCHA类型。
 
-要将 Google reCAPTCHA V3 添加到登陆页面，您首先需要在外部帐户中对其进行配置。有关如何将其添加到登陆页面的更多信息，请参阅此[章节](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+要将Google reCAPTCHA V3添加到登陆页面，请在外部帐户中对其进行配置。 有关如何将其添加到登陆页面的更多信息，请参阅此[章节](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 对于 Google reCAPTCHA V3 外部帐户，请提供以下详细信息：
 
@@ -186,7 +186,7 @@ Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工�
 * **[!UICONTROL Type]**：Microsoft Azure Blob Storage
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。要了解在何处查找您的帐户名称和密钥，请参阅本[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
 * 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Container]** 名称。如果您计划使用多个容器，则需要创建与容器相同数量的外部帐户。
+* 您的 **[!UICONTROL Container]** 名称。如果您计划使用多个容器，请创建与容器相同数量的外部帐户。
 * 利用 **[!UICONTROL Concurrency]** 选项，可优化文件传输的速度。
 
 ![](assets/external_accounts_4.png)

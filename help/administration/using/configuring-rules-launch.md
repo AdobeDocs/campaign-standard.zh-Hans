@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
 
 # 配置 Launch 规则以支持 Adobe Campaign Standard 用例 {#configuring-rules-launch}
 
-在[!DNL Adobe Experience Platform Launch]中，您需要创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到[!DNL Adobe Campaign Standard]。
+在[!DNL Adobe Experience Platform Launch]中，创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到[!DNL Adobe Campaign Standard]。
 
 要确保[!DNL Adobe Experience Platform Launch]中的所有配置更改都生效，您必须发布这些更改。 有关更多信息，请参阅[Publishing](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)。
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 创建规则 {#creating-rules}
 
-您需要为以下项创建规则：
+您必须为以下项创建规则：
 
 * [PII回发](../../administration/using/configuring-rules-launch.md#pii-postback)
 * [应用程序内跟踪回发](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要将PII信息从移动设备应用程序发送到Adobe Campaign，您需要实施SDK API。 有关更多信息，请转到[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
+>要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
 
 要将PII数据发送到[!DNL Adobe Campaign Standard]，请在[!DNL Experience Platform Launch]中创建规则：
 
@@ -189,7 +189,7 @@ ht-degree: 1%
 >
 >如果您使用的是Android ACPCore v1.4.0或更高版本/ iOS ACPCore v2.3.0或更高版本，则无需配置跟踪回发。
 
-要向[!DNL Adobe Campaign Standard]发送跟踪数据（有助于跟踪推送通知投放以及用户与移动应用程序的交互），您需要在[!DNL Experience Platform Launch]中创建规则。
+要向[!DNL Adobe Campaign Standard]发送跟踪数据（有助于跟踪推送通知投放以及用户与移动应用程序的交互），必须在[!DNL Experience Platform Launch]中创建规则。
 
 有关推送跟踪的更多信息，请参阅[推送跟踪](../../administration/using/push-tracking.md)。
 
@@ -264,7 +264,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在以上示例中，需要利用[创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements)中的步骤，在[!DNL Experience Platform Launch]中配置右侧的数据元素。 [!DNL Adobe Campaign Standard]支持左侧的数据元素，不需要任何配置。 如果需要其他数据，则需要在[!DNL Adobe Campaign Standard]中执行自定义资源扩展。
+   >在以上示例中，必须利用[创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements)中的步骤，在[!DNL Experience Platform Launch]中配置右侧的数据元素。 [!DNL Adobe Campaign Standard]支持左侧的数据元素，不需要任何配置。 如果需要其他数据，则必须在[!DNL Adobe Campaign Standard]中执行自定义资源扩展。
 
 1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，键入&#x200B;**application/json**。
 
