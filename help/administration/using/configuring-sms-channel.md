@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1566'
 ht-degree: 93%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
-如果想要使用 SMPP 协议，您也可以创建新的外部帐户。有关短信协议和设置的更多信息，请参阅此[技术说明](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。
+如果想要使用 SMPP 协议，您也可以创建新的外部帐户。有关短信协议和设置的更多信息，请参阅此[技术说明](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)。
 
 1. 从 **[!UICONTROL Administration > Application settings > External accounts]** 创建新的外部帐户。
 1. 将帐户类型定义为 **[!UICONTROL Routing]**、渠道定义为 **[!UICONTROL Mobile (SMS)]**，投放模式定义为 **[!UICONTROL Bulk delivery]**。

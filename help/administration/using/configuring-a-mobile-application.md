@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 5%
 
 要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience PlatformExperience PlatformExperience Platform Launch中设置移动应用程序，并在Adobe Campaign中进行配置。
 
-有关已弃用的功能Mobile版本4 SDK的更多信息，请参阅此[页面](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html)。
-
 设置移动应用程序后，您可以检索其收集的PII数据，以从数据库中创建或更新用户档案。 有关更多信息，请参阅此章节：[基于移动应用程序数据创建和更新用户档案信息](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
-要了解有关使用Adobe Experience Platform SDK在Adobe Campaign Standard中支持的不同移动使用案例的更多信息，请参阅此[页面](https://helpx.adobe.com/cn/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+要了解有关使用Adobe Experience Platform SDK在Adobe Campaign Standard中支持的不同移动使用案例的更多信息，请参阅此[页面](../../administration/using/supported-mobile-use-cases.md)。
 
 要完成配置，请完成以下步骤：
 

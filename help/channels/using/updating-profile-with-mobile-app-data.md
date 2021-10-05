@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 4%
 要在Campaign Standard中启用推送通知，需遵循以下几个配置步骤，然后才能根据移动设备应用程序订阅数据创建或更新用户档案：
 
 1. [创建移动应用程序](../../administration/using/configuring-a-mobile-application.md)
-1. [将AdobeMobile SDK与您的移动应用程序相集成](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)。
-1. [配置Adobe Campaign以发送推送通知](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)。
+1. [将AdobeMobile SDK与您的移动应用程序相集成](../../administration/using/supported-mobile-use-cases.md)。
+1. [配置Adobe Campaign以发送推送通知](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 步骤1 — 扩展用于推送通知/订阅的用户档案资源
 

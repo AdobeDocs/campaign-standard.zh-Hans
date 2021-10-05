@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。请注意，如果您未使用 Adobe Campaign Standard 配置移动应用程序，则该应用程序不会显示在列表中。有关移动应用程序配置的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。请注意，如果您未使用 Adobe Campaign Standard 配置移动应用程序，则该应用程序不会显示在列表中。有关移动应用程序配置的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Mobile Application events]**：在您的移动应用程序中实现的自定义事件。
 
-      有关事件创建的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+      有关事件创建的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md)。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支持的现成生命周期事件。
 
@@ -86,7 +86,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Places]**：以下三个类别利用实时位置数据来提供与上下文相关的移动体验：Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-      有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://placesdocs.com/)。
+      有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
    ![](assets/inapp_creating_4.png)
 
 1. 如果您使用 **[!UICONTROL Analytics Events]**，则将根据在 Adobe Experience Platform Launch 的 Analytics 扩展中配置的报告包自动填充 Adobe Analytics 和视图状态事件，而上下文数据事件必须手动添加。
@@ -103,7 +103,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    ![](assets/inapp_creating_5.png)
 
-1. 编辑消息内容并定义高级选项请参阅[自定义应用程序内消息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)。
+1. 编辑消息内容并定义高级选项请参阅[自定义应用程序内消息](../../channels/using/customizing-an-in-app-message.md)。
 
    ![](assets/inapp_creating_6.png)
 

@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ ht-degree: 25%
 1. 安排使用&#x200B;**[!UICONTROL Send after confirmation option]**&#x200B;发送。
 1. 发送电子邮件后，您可以访问其日志和报告以衡量营销活动是否成功。 有关报告的更多信息，请参考[此章节](../../reporting/using/about-dynamic-reports.md)。
 
-**相关主题：**
-
-* [使用一个工作流联系多语言受众](https://helpx.adobe.com/cn/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

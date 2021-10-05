@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 77%
+source-wordcount: '1282'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 77%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
 
-1. **配置新子域**  — 对于要由Adobe使用的任何新子域，第一步将是对其进行配置。您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)执行此操作，或联系Adobe技术联系人。 在本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html)中了解有关子域配置[的更多信息。
+1. **配置新子域**  — 对于要由Adobe使用的任何新子域，第一步将是对其进行配置。您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)执行此操作，或联系Adobe技术联系人。 在本文](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)中了解有关子域配置[的更多信息。
 
    >[!NOTE]
    >

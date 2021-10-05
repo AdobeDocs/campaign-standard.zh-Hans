@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 50%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 利用 Adobe Campaign，可向 iOS 和 Android 移动设备发送个性化的分段推送通知。
 
-通过利用 Experience Platform SDK 在 Adobe Campaign 中设置的移动应用程序，可接收此类消息。有关此功能的详细信息，请参阅[使用 Adobe Experience Platform SDK 配置移动应用程序](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+通过利用 Experience Platform SDK 在 Adobe Campaign 中设置的移动应用程序，可接收此类消息。有关此功能的详细信息，请参阅[使用 Adobe Experience Platform SDK 配置移动应用程序](../../administration/using/configuring-a-mobile-application.md)。
 
 在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。
 
@@ -40,8 +40,6 @@ Adobe Campaign 提供两种类型的推送通知：
 
 可以设置某些特定配置来定义通知行为。有关更多信息，请参阅[此章节](../../channels/using/customizing-a-push-notification.md)。
 
-作为专家用户，要定义这些特定配置，请参阅移动应用[技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html)。
-
 >[!NOTE]
 >
 >有关隐私的法律因国家/地区而异。有些国家/地区要求您向用户告知移动应用所收集的数据类型。请查看您所在国家/地区与移动应用相关的法律。确保发送到移动应用的推送通知符合 Apple（Apple 推送通知服务）和 Google（Google Cloud Messaging 或 Firebase Cloud Messaging）指定的先决条件和条件。
@@ -51,7 +49,7 @@ Adobe Campaign 提供两种类型的推送通知：
 * [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [创建多语言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推送通知报告](../../reporting/using/push-notification-report.md)
-* [Campaign Standard Mobile 指南](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)
+* [Campaign Standard Mobile 指南](../../channels/using/get-started-communication-channels.md)
 
 ## 先决条件 {#prerequisites}
 
@@ -71,11 +69,11 @@ Adobe Campaign 提供两种类型的推送通知：
 
 1. 在 Experience Platform Launch 中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
 
-1. 在 Adobe Campaign Standard 中，配置您在 Experience Platform Launch 中创建的移动属性。有关更多信息，请参阅[在 Adobe Campaign 中设置 Experience Platform Launch 应用程序](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
+1. 在 Adobe Campaign Standard 中，配置您在 Experience Platform Launch 中创建的移动属性。有关更多信息，请参阅[在 Adobe Campaign 中设置 Experience Platform Launch 应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 将特定于渠道的配置添加到您的移动应用设置中。有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 要支持移动使用案例实施，请参阅[在 Adobe Campaign Standard 中使用 Adobe Experience Platform SDK 支持的移动使用案例](https://helpx.adobe.com/cn/campaign/kb/configure-launch-rules-acs-use-cases.html)中关于扩展、Experience Platform Launch 规则和 SDK 实施的详细说明。
+1. 要支持移动使用案例实施，请参阅[在 Adobe Campaign Standard 中使用 Adobe Experience Platform SDK 支持的移动使用案例](../../administration/using/configuring-rules-launch.md)中关于扩展、Experience Platform Launch 规则和 SDK 实施的详细说明。
 
 ## 推送通知常见问题解答 {#push-faq}
 

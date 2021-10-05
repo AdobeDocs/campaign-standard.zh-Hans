@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ## 要在Campaign中扩充移动用户档案，我必须执行哪些操作？ {#enrich-mobile-profile}
 
-您必须配置CollectPII回发（请参阅此[page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)）并从SDK实施CollectPII API（请参阅此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
+您必须配置CollectPII回发（请参阅此[page](../../administration/using/configuring-rules-launch.md#pii-postback)）并从SDK实施CollectPII API（请参阅此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
 
 ## CollectPII调用应该触发多久一次？ {#collect-pii}
 

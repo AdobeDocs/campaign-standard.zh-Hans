@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL Manage Content Variants]**&#x200B;窗口中，拖放文件或从计算机中选择文件。
 
-   文件必须采用UTF8编码，并且必须具有特定布局，可通过单击&#x200B;**[!UICONTROL Download the sample file]**&#x200B;选项找到该布局。 您还应使用正确的语法来表示区域设置值。 有关文件格式和支持的区域设置的更多信息，请参阅此[技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-generate-csv-multilingual-push.html)。
+   文件必须采用UTF8编码，并且必须具有特定布局，可通过单击&#x200B;**[!UICONTROL Download the sample file]**&#x200B;选项找到该布局。 您还应使用正确的语法来表示区域设置值。 有关文件格式和支持的区域设置的更多信息，请参阅此[page](../../channels/using/generating-csv-multilingual-push.md)。
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ ht-degree: 3%
 
 * [推送通知报告](../../reporting/using/push-notification-report.md)
 * [在工作流中发送推送通知](../../automating/using/push-notification-delivery.md)
-* [使用一个工作流联系多语言受众](https://helpx.adobe.com/cn/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

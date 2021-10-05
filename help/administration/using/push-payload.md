@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Adobe Campaign允许您在iOS和Android移动设备上向移动应用程序（�
 | 可变内容<br>（仅适用于iOS 10或更高版本） | 可变内容 | NA | 您的应用程序中的通知服务扩展将使用可变内容键“截获”所有远程通知，并允许您处理/处理请求有效负载的内容，该内容随后可用于自定义通知。 此功能的用例包括下载和显示多个媒体，解密推送有效载荷中存在的任何加密数据。 有关详细信息，请参见[修改远程通知的有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（仅适用于iOS 10或更高版本） |
 | 可用内容 | 内容可用 | NA | 选择此选项可启用iOS应用程序处于后台/暂停状态时的唤醒功能。 唤醒意味着应用程序在后台运行，而负责接收推送通知数据有效负载的相应事件处理程序将获得控制，并可以使用数据进行任何计算，包括但不限于构建自定义推送通知并显示相同内容。 有关更多信息，请参阅[通过通知投放唤醒应用程序](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
 | 富媒体内容URL（图像文件）<br>（仅适用于Android） | NA | media-attachment-url | 用于向通知添加富内容的图像文件的URL。 |
-| NA | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪何时单击/打开推送通知，则需要这些属性。此信息由应用程序服务器在内部计算并发送，无需用户干预。<br>有关回发的信息可在此页 [面中找到](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)。 |
+| NA | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪何时单击/打开推送通知，则需要这些属性。此信息由应用程序服务器在内部计算并发送，无需用户干预。<br>有关回发的信息可在此页 [面中找到](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。 |
 
 ### 如何在移动设备应用程序代码中检索有效负载信息 {#payload-information}
 
