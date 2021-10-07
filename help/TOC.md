@@ -77,7 +77,7 @@ ht-degree: 99%
       + [访问消息](channels/using/accessing-messages.md)
       + [消息仪表板](channels/using/message-dashboard.md)
       + [多语言消息模板](channels/using/multilingual-messages-template.md)
-      + [移动渠道快速入门](channels/using/mobile-guide.md)
+      + [移动渠道入门](channels/using/mobile-guide.md)
    + 投放最佳实践 {#delivery-bestpractices}
       + [学习良好实践](sending/using/delivery-best-practices.md)
       + [优化投放](sending/using/optimize-delivery.md)
