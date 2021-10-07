@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -90,33 +90,33 @@ Adobe Campaign Standard 提供不同语言版本：英语、法语和德语。
 | 操作 | 快捷键 |
 | --- | --- |
 | 浏览用户界面的各个元素 | 选项卡 |
-| 激活选定项 | 输入或空格键 |
+| 激活选定项 | Enter 或空格键 |
 
 ### Email Designer {#email-designer-shortcuts}
 
-| 操作 | Windows快捷键 | macOS快捷键 |
+| 操作 | Windows 快捷键 | macOS 快捷键 |
 | --- | --- | --- |
 | 撤消 | Ctrl + Z | Command + Z |
 | 重做 | Ctrl + Y | Shift + Command + Z |
 
 ### 动态报告 {#report-shortcuts}
 
-| 操作 | Windows快捷键 | macOS快捷键 |
+| 操作 | Windows 快捷键 | macOS 快捷键 |
 | --- | --- | --- |
 | 打开项目 | Ctrl + O | Command + O |
-| 保存 | Ctrl + S | 命令+ S |
-| 另存为 | Shift + Ctrl + S | Shift +命令+ S |
+| 保存 | Ctrl + S | Command + S |
+| 另存为 | Shift + Ctrl + S | Shift + Command + S |
 | 刷新项目 | Alt + R | Command + R |
-| 下载CSV文件 | Shift + Ctrl + V | Shift + Command + V |
+| 下载 CSV 文件 | Shift + Ctrl + V | Shift + Command + V |
 | 打印 | Alt + P | Command + P |
 | 撤消 | Ctrl + Z | Command + Z |
 | 重做 | Ctrl + Y | Shift + Command + Z |
-| 新建空白面板 | Alt + B | 选项+ B |
-| 新建自由格式 | Alt + A | 选项+ A |
-| 新建自由格式表 | Alt + 1 | 选项+ 1 |
-| 换行 | Alt + 2 | 选项+ 2 |
-| 新建栏 | Alt + 3 | 选项+ 3 |
-| 立即发送报告 | Alt + S | 选项+ S |
+| 新建空白面板 | Alt + B | Option + B |
+| 新建自由格式 | Alt + A | Option + A |
+| 新建自由格式表 | Alt + 1 | Option + 1 |
+| 换行 | Alt + 2 | Option + 2 |
+| 新建栏 | Alt + 3 | Option + 3 |
+| 立即发送报告 | Alt + S | Option + S |
 | 按计划发送报告 | Shift + Alt + S | Shift + Option + S |
 | 计划报告 | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
