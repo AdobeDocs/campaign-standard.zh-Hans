@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -67,7 +66,7 @@ Adobe Campaign中为应用程序内渠道提供了现成报表。 请参阅此[�
 
 ## 如果本地通知iOS自定义声音不播放；默认声音会改为播放吗？ {#local-notification-sound}
 
-对于iOS上的自定义声音，在创建本地通知（例如sound.caf）时，需要提供扩展名为的文件名。 如果未提供此扩展，则使用默认声音。
+对于iOS上的自定义声音，在创建本地通知（例如sound.caf）时，需要提供一个扩展名为的文件名。 如果未提供此扩展，则使用默认声音。
 
 ## 应用程序内消息是否支持深层链接？ {#inapp-deeplinks}
 
