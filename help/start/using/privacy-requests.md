@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 ### 命名空间 {#namesspaces}
 
-在创建隐私请求之前，请定义您将使用的命名空间。 命名空间是用于识别 Adobe Campaign 数据库中的数据主体的键。有两个命名空间现成可用：电子邮件和手机。如果您需要其他命名空间（例如，用户档案自定义字段），请按照以下步骤操作。
+在创建隐私请求之前，请定义您将要使用的命名空间。命名空间是用于识别 Adobe Campaign 数据库中的数据主体的键。有两个命名空间现成可用：电子邮件和手机。如果您需要其他命名空间（例如，用户档案自定义字段），请按照以下步骤操作。
 
 另请参阅本[教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=zh-Hans#privacy)，了解如何创建命名空间。
 
@@ -53,7 +53,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 >
 >如果您使用多个命名空间，请为每个命名空间创建一个隐私请求。
 
-1. 单击左上角的Adobe Campaign徽标，然后选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**。
+1. 单击左上角的 Adobe Campaign 徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**。
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,7 +75,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
    要详细了解身份命名空间，请参阅 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans) 文档。
 
-1. 一个身份服务命名空间映射到 Campaign 中的一个命名空间。您必须指定在Campaign中协调命名空间的方式。
+1. 一个身份服务命名空间映射到 Campaign 中的一个命名空间。您必须指定将如何在 Campaign 中协调命名空间。
 
    选择目标映射（**[!UICONTROL Recipients]**、**[!UICONTROL Real-time event]** 或 **[!UICONTROL Subscriptions to an application]**）。如果要使用多个目标映射，请为每个目标映射创建一个命名空间。
 
@@ -127,9 +127,9 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 另请参阅[本教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=zh-Hans#privacy)，了解如何修改自定义资源。
 
-要使此功能正常工作，必须选择自定义资源中的&#x200B;**[!UICONTROL Deleting the target record implies deleting records referenced by the link]**&#x200B;选项：
+要使此功能正常工作，您必须选择自定义资源中的 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** 选项：
 
-1. 单击左上角的Adobe Campaign徽标，然后选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**。
+1. 单击左上角的 Adobe Campaign 徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**。
 
 1. 选择具有指向用户档案资源（自有类型）的链接的自定义资源。
 
@@ -191,7 +191,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 从 19.4 开始，在 Campaign 接口和 API 中现成提供 **[!UICONTROL CCPA Opt-Out]** 字段。默认情况下，该字段可用于标准 **[!UICONTROL Profile]** 资源。
 
-如果使用自定义用户档案资源，则必须扩展该资源并添加字段。 我们建议您使用不同于现成字段的名称，例如：**[!UICONTROL Opt-Out for CCPA]** (optoutccpa)。创建新字段后，Campaign API 自动支持该字段。
+如果使用自定义用户档案资源，则必须扩展该资源并添加字段。我们建议您使用不同于现成字段的名称，例如：**[!UICONTROL Opt-Out for CCPA]** (optoutccpa)。创建新字段后，Campaign API 自动支持该字段。
 
 有关如何扩展用户档案资源的更多详细信息，请参阅[此部分](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 
