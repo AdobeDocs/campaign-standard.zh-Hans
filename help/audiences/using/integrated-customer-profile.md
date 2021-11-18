@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ ht-degree: 48%
 
 要访问整合的客户用户档案，请执行以下步骤：
 
-1. 在Adobe Campaign主页中，单击&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡或&#x200B;**Profiles**&#x200B;选项卡以显示用户档案列表。
+1. 在Adobe Campaign主页中，单击 **[!UICONTROL Customer profiles]** 卡片或 **用户档案** 选项卡来显示用户档案列表。
 
 1. 要根据特定字段搜索用户档案，请打开搜索窗格，然后选择要对其执行搜索的字段。
 
@@ -45,7 +45,7 @@ ht-degree: 48%
 
 本页会收集关于用户档案的重要信息以及事件列表。
 
-单击列表中的事件以将其打开：您可以访问已发送的消息或用户档案订阅的服务。
+单击列表中的某个事件以将其打开：您可以访问已发送的消息或用户档案订阅的服务。
 
 ![](assets/mkt_hist_view.png)
 

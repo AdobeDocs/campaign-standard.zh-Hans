@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -316,7 +316,7 @@ CR：回车
 
 ### 发送给 MO 的自动回复 {#automatic-reply-sent-to-the-mo}
 
-当某个用户档案回复通过 Campaign 发送的短信消息时，您可以配置自动发回给他的消息以及要自动执行的操作。
+当用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给用户档案的消息以及要执行的操作。
 
 有关更多信息，请参见[此章节](../../channels/using/managing-incoming-sms.md)。
 
@@ -328,15 +328,15 @@ CR：回车
 
 ![](assets/sms_options.png)
 
-从&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
+从 **[!UICONTROL Advanced parameters]** 部分：
 
-* **[!UICONTROL Short code]**&#x200B;允许您向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的更多信息，请参阅[此部分](../../channels/using/managing-incoming-sms.md)。
+* 的 **[!UICONTROL Short code]** 允许您向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的更多信息，请参阅 [此部分](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >如果&#x200B;**[!UICONTROL Short code]**&#x200B;字段留空，则将使用外部帐户中设置的&#x200B;**[!UICONTROL Short code]**&#x200B;字段值。
+   >如果 **[!UICONTROL Short code]** 字段留空，则 **[!UICONTROL Short code]** 将使用外部帐户中设置的字段。
 
-从短信模板的&#x200B;**[!UICONTROL Send]**&#x200B;部分：
+从 **[!UICONTROL Send]** 短信模板的部分：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 

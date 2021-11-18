@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -37,17 +37,17 @@ ht-degree: 30%
 
 隔离和阻止列表不适用于同一对象：
 
-* **** 隔离仅适用于地 **址** （或电话号码等），而不适用于用户档案本身。例如，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后可以再次被投放操作定向。 同样，如果两个用户档案的电话号码恰巧相同，那么隔离该号码后，这两个用户档案都将受到影响。
+* **隔离** 仅应用于 **地址** （或电话号码等），而不是用户档案本身。 例如，其电子邮件地址被隔离的用户档案可以更新其用户档案并输入新地址，然后可以再次被投放操作定向。 同样，如果两个用户档案的电话号码恰巧相同，那么隔离该号码后，这两个用户档案都将受到影响。
 
-   隔离地址或电话号码显示在[排除日志](#identifying-quarantined-addresses-for-a-delivery)（用于投放）或[隔离列表](#identifying-quarantined-addresses-for-the-entire-platform)（用于整个平台）中。
+   隔离的地址或电话号码显示在 [排除日志](#identifying-quarantined-addresses-for-a-delivery) （用于投放）或 [隔离列表](#identifying-quarantined-addresses-for-the-entire-platform) （适用于整个平台）。
 
-* 另一方面，位于&#x200B;**阻止列表**&#x200B;上将导致&#x200B;**用户档案**&#x200B;不再被投放定向，如在退订（选择退订）后，给定渠道不再定向。 例如，如果电子邮件渠道上的用阻止列表户档案有两个电子邮件地址，则这两个地址都将从投放中排除。 有关过阻止列表程的更多信息，请参阅[关于Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的选择启用和选择禁用。
+* 在 **阻止列表**，则会导致 **个人资料** 不再被投放定向，例如在退订（选择退出）后，对给定渠道进行定位。 例如，如果电子邮件渠道上的用阻止列表户档案有两个电子邮件地址，则这两个地址都将从投放中排除。 有关过程的阻止列表更多信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   您可以在配置文件&#x200B;**[!UICONTROL General]**&#x200B;阻止列表选项卡的&#x200B;**[!UICONTROL No longer contact (on denylist)]**&#x200B;部分中检查配置文件是否位于一个或多个渠道的中。 请参阅[此小节](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
+   您可以检查用户档案是否位阻止列表于上，查看 **[!UICONTROL No longer contact (on denylist)]** 部分 **[!UICONTROL General]** 选项卡。 请参阅[此小节](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
 
 >[!NOTE]
 >
->隔离包括&#x200B;**On 阻止列表**&#x200B;状态，当收件人将您的消息报告为垃圾邮件或使用关键字（如“STOP”）回复短信消息时，该状态适用。 在这种情况下，用户档案涉及的地址或电话号码将被添加到隔离，并且状态为&#x200B;**[!UICONTROL On denylist]**。 有关管理停止短信消息的更多信息，请参阅[此部分](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+>隔离包括 **开阻止列表启** 状态。 在这种情况下，用户档案涉及的地址或电话号码将与 **[!UICONTROL On denylist]** 状态。 有关管理停止短信消息的更多信息，请参阅 [此部分](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 <!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
@@ -67,7 +67,7 @@ If you need to remove an address from quarantine, contact your technical adminis
 
 ### 确定整个平台的隔离地址 {#identifying-quarantined-addresses-for-the-entire-platform}
 
-管理员可以从&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**&#x200B;菜单访问整个平台隔离中电子邮件地址的详细列表。
+管理员可以从 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 菜单。
 
 <!--
 This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
@@ -83,13 +83,13 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-filters.png)
 
-您可以编辑或[delete](#removing-a-quarantined-address)每个条目，也可以创建新条目。
+您可以编辑或 [删除](#removing-a-quarantined-address) 每个条目，并创建新条目。
 
 要编辑条目，请单击相应的行并根据需要修改字段。
 
 ![](assets/quarantines-edit.png)
 
-要手动添加新条目，请使用&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
+要手动添加新条目，请使用 **[!UICONTROL Create]** 按钮。
 
 ![](assets/quarantines-create-button.png)
 
@@ -99,35 +99,35 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 删除隔离地址 {#removing-a-quarantined-address}
 
-如果需要，您可以从隔离列表中手动删除地址。 此外，符合特定条件的地址会通过&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流自动从隔离列表中删除。 （有关技术工作流的更多信息，请参阅[此部分](../../administration/using/technical-workflows.md#list-of-technical-workflows)。）
+如果需要，您可以从隔离列表中手动删除地址。 此外，符合特定条件的地址会由 **[!UICONTROL Database cleanup]** 工作流。 (有关技术工作流的更多信息，请参阅 [此部分](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
 要手动从隔离列表中删除地址，请执行以下操作之一。
 
 >[!IMPORTANT]
 从隔离中手动删除电子邮件地址意味着您将再次开始投放到此地址。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 考虑从隔离中删除任何地址时，请格外小心。 如有疑问，请联系可投放性专家。
 
-* 从&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**&#x200B;列表中选择地址，然后选择&#x200B;**[!UICONTROL Delete element]**。
+* 从 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 列表和选择 **[!UICONTROL Delete element]**.
 
    ![](assets/quarantine-delete-address.png)
 
-* 选择地址并将其&#x200B;**[!UICONTROL Status]**&#x200B;更改为&#x200B;**[!UICONTROL Valid]**。
+* 选择地址并更改其 **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
 
    ![](assets/quarantine-valid-status.png)
 
-   您还可以将其状态更改为&#x200B;**[!UICONTROL On allowlist]**。 在这种情况下，地址仍保留在隔离列表中，但会系统地定位该地址，即使遇到错误也是如此。
+   您还可以将其状态更改为 **[!UICONTROL On allowlist]**. 在这种情况下，地址仍保留在隔离列表中，但会系统地定位该地址，即使遇到错误也是如此。
 
 在以下情况下，地址会自动从隔离列表中删除：
 
-* 成功投放后，状态为&#x200B;**[!UICONTROL Erroneous]**&#x200B;的地址将从隔离列表中删除。
-* 如果上次软退件发生在10天以前，则处于&#x200B;**[!UICONTROL Erroneous]**&#x200B;状态的地址将从隔离列表中删除。 有关软错误管理的更多信息，请参阅[此部分](#soft-error-management)。
-* 状态为&#x200B;**[!UICONTROL Erroneous]**&#x200B;且出现&#x200B;**[!UICONTROL Mailbox full]**&#x200B;错误时退回的地址将在30天后从隔离列表中删除。
+* 中的地址 **[!UICONTROL Erroneous]** 成功投放后，状态将从隔离列表中删除。
+* 中的地址 **[!UICONTROL Erroneous]** 如果上次软退件发生在10天以前，则会从隔离列表中删除状态。 有关软错误管理的更多信息，请参阅 [此部分](#soft-error-management).
+* 中的地址 **[!UICONTROL Erroneous]** 状态 **[!UICONTROL Mailbox full]** 30天后将从隔离列表中删除错误。
 
-然后，其状态将变为&#x200B;**[!UICONTROL Valid]**。
+其状态随后更改为 **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
-地址为&#x200B;**[!UICONTROL Quarantine]**&#x200B;或&#x200B;**[!UICONTROL On denylist]**&#x200B;的收件人即使收到电子邮件，也永远不会被自动删除。
+地址在 **[!UICONTROL Quarantine]** 或 **[!UICONTROL On denylist]** 即使收到电子邮件，状态也永远不会被自动删除。
 
-在&#x200B;**[!UICONTROL Erroneous]**&#x200B;状态下执行的最大重试次数和重试之间的最短延迟现在取决于IP在给定域名的历史和当前表现。
+在 **[!UICONTROL Erroneous]** 现在，状态和重试之间的最短延迟取决于IP在给定域名的历史和当前表现。
 
 ## 将地址加入隔离的条件 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -135,14 +135,14 @@ Adobe Campaign 可根据投放失败类型和在错误消息鉴别过程中分�
 
 * **已忽略的错误**：已忽略的错误不会将地址添加到隔离。
 * **硬错误**：相应的电子邮件地址会立即添加到隔离。
-* **软错误**：软错误不会立即将地址添加到隔离，但会增加错误计数。有关更多信息，请参阅[软错误管理](#soft-error-management)。
+* **软错误**：软错误不会立即将地址添加到隔离，但会增加错误计数。有关此内容的更多信息，请参阅 [软错误管理](#soft-error-management).
 
    <!--
   When the error counter reaches the limit threshold, the address goes into quarantine. In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error. The error counter threshold can be modified. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
 
-如果用户将电子邮件标记为垃圾邮件（[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)），则该邮件会自动重定向到由Adobe管理的技术邮箱。 随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL On denylist]** 状态。此状态仅指地址，用户档案不在阻止列表上，因此用户可继续接收短信消息和推送通知。
+如果用户将电子邮件标记为垃圾邮件([反馈回路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops))时，该邮件会自动重定向到由Adobe管理的技术邮箱。 随后，该用户的电子邮件地址会自动添加到隔离，并附加 **[!UICONTROL On denylist]** 状态。此状态仅指地址，用户档案不在阻止列表上，因此用户可继续接收短信消息和推送通知。
 
 >[!NOTE]
 Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式导入电子邮件地址，这样以后就不会重新定向这些地址。
@@ -155,9 +155,9 @@ Adobe Campaign 中的隔离会区分大小写字母。请确保以小写方式�
 
 与硬错误相反，软错误不会立即将地址添加到隔离，而是增加错误计数。
 
-将在[投放持续时间](../../administration/using/configuring-email-channel.md#validity-period-parameters)期间执行重试。 当错误计数达到限制阈值时，即会将地址添加到隔离。有关更多信息，请参阅[投放临时失败后重试](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+将在 [投放持续时间](../../administration/using/configuring-email-channel.md#validity-period-parameters). 当错误计数达到限制阈值时，即会将地址添加到隔离。有关更多信息，请参阅 [在投放临时失败后重试](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-如果上次出现重大错误的时间超过10天，则会重新初始化错误计数。 然后，地址状态将变为&#x200B;**Valid**，并且会通过&#x200B;**数据库清理**&#x200B;工作流将其从隔离列表中删除。 （有关技术工作流的更多信息，请参阅[此部分](../../administration/using/technical-workflows.md#list-of-technical-workflows)。）
+如果上次出现重大错误的时间超过10天，则会重新初始化错误计数。 地址状态随后更改为 **有效** 并且会从 **数据库清理** 工作流。 (有关技术工作流的更多信息，请参阅 [此部分](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

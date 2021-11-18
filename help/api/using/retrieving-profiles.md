@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # 检索用户档案 {#retrieving-profiles}
 
-使用&#x200B;**GET**&#x200B;请求来检索用户档案。
+检索用户档案时，使用 **GET** 请求。
 
-然后，您可以使用过滤器、排序和分页来优化搜索。 有关更多信息，请参阅[其他操作](../../api/using/sorting.md)一节。
+然后，您可以使用过滤器、排序和分页来优化搜索。 有关更多信息，请参阅 [其他操作](../../api/using/sorting.md) 中。
 
 此外，Campaign StandardAPI允许您根据以下任一字段搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 ## 根据字段搜索用户档案 {#searching-field}
 
-**[!UICONTROL filterType]**&#x200B;参数允许您根据以下任一字段检索用户档案：扩展用户档案资源时，在高级过滤中添加的电子邮件、名字、姓氏或任何自定义字段。
+的 **[!UICONTROL filterType]** 参数允许您根据以下任一字段检索用户档案：扩展用户档案资源时，在高级过滤中添加的电子邮件、名字、姓氏或任何自定义字段。
 
 >[!NOTE]
 >

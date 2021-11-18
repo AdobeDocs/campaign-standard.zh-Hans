@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: 隐私
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 96%
 
 ---
 
@@ -115,6 +115,6 @@ Adobe Campaign 中的报告基于根据投放和跟踪日志中的汇总数据�
 
 **其数据已从 Adobe Campaign 中擦除的数据主体是否可以稍后再次选择加入？**
 
-数据主体可能再次选择加入，或者在从 Adobe Campaign 中删除其数据后添加为新收件人。
+数据主体可能再次选择加入，或者在其数据从Adobe Campaign中删除后添加为新收件人。
 
 您可以使用审计跟踪，其中会详细描述何时执行了先前的删除操作以及何时已创建新收件人。

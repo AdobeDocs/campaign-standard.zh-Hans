@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 97%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。您可以将其设置为&#x200B;**default**&#x200B;以播放设备的默认声音。
+1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。您可以将其设置为 **默认** 来播放设备的默认声音。
 
-   如果&#x200B;**[!UICONTROL Play a sound]**&#x200B;字段留空，则不会播放任何声音。
+   如果 **[!UICONTROL Play a sound]** 字段，则不会播放任何声音。
 
-用户随后将收到推送通知，但只有手机未静音时才会播放提示音。
+随后，用户将收到推送通知，并且仅在手机未静音时才发出声音。
 
 ## 刷新标记值 {#refresh-the-badge-value}
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 要向推送通知添加到期日期，请执行以下操作：
 
-1. 检查&#x200B;**[!UICONTROL Expire message]**&#x200B;选项：选择&#x200B;**[!UICONTROL Expire message]**&#x200B;选项后，持续时间将自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
+1. 检查 **[!UICONTROL Expire message]** 选项：选择 **[!UICONTROL Expire message]** 选项时，持续时间会自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
 
 1. 在 **[!UICONTROL Duration]** 字段中，选择推送通知的有效期。
 

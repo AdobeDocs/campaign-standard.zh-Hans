@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 6%
+source-wordcount: '1282'
+ht-degree: 5%
 
 ---
 
@@ -25,19 +25,19 @@ Adobe Campaign提供了一组预定义内容，可帮助您快速入门。 您�
 
 >[!NOTE]
 >
->下图显示了如何使用[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)加载现有内容。
+>下图显示了如何使用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 创建电子邮件或登陆页面后，打开其内容。
-1. 单击主页图标以访问&#x200B;**[!UICONTROL Email Designer]**&#x200B;主页。
+1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
 
    ![](assets/des_loading_1.png)
 
 1. 选择要加载的内容源：
 
-   * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击选 **[!UICONTROL Templates]** 项卡。
-   * [内容从头开始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，从头开始：单击按 **[!UICONTROL Create]** 钮。
-   * [以ZIP或HTML文件形式从计算机中获取的内容](#importing-content-from-a-file):单击按 **[!UICONTROL Upload]** 钮。
-   * [现有URL中的内容](#importing-content-from-a-url) （仅适用于电子邮件）：单击按 **[!UICONTROL Import from URL]** 钮。
+   * [内容模板](../../designing/using/using-reusable-content.md#content-templates):单击 **[!UICONTROL Templates]** 选项卡。
+   * [从头开始创建内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，以重新开始：单击 **[!UICONTROL Create]** 按钮。
+   * [以ZIP或HTML文件形式从您的计算机中获取的内容](#importing-content-from-a-file):单击 **[!UICONTROL Upload]** 按钮。
+   * [现有URL中的内容](#importing-content-from-a-url) （仅适用于电子邮件）：单击 **[!UICONTROL Import from URL]** 按钮。
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ Adobe Campaign提供了一组预定义内容，可帮助您快速入门。 您�
 
    >[!NOTE]
    >
-   >[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)使用特定标记。 上传到Campaign的标准HTML内容必须与预期的标记相匹配，才能在Email Designer中完全兼容和可编辑。 如果不匹配，则内容将以[兼容模式](#compatibility-mode)上传。 要兼容现有内容，请参阅[此部分](#editing-existing-contents-with-the-email-designer)。
+   >的 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 使用特定标记。 上传到Campaign的标准HTML内容必须与预期的标记相匹配，才能在Email Designer中完全兼容和可编辑。 如果不匹配，则会在 [兼容模式](#compatibility-mode). 要使现有内容兼容，请参阅 [此部分](#editing-existing-contents-with-the-email-designer).
 
 **相关主题：**
 
@@ -56,23 +56,23 @@ Adobe Campaign提供了一组预定义内容，可帮助您快速入门。 您�
 
 ## 使用Email Designer编辑现有内容{#editing-existing-contents-with-the-email-designer}
 
-要充分利用[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)的版本可能性，您上传的HTML必须包含特定标记，以使其与WYSIWYG编辑器兼容。
+充分利用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)，则上传的HTML必须包含特定标记，才能与所见即所得(WYSIWYG)编辑器兼容。
 
-如果HTML的全部或部分内容没有此标记，则内容随后将以“ [兼容模式](#compatibility-mode)”加载。
+如果HTML的全部或部分不包含此标记，则内容随后将加载到“ [兼容模式](#compatibility-mode)&#39;。
 
-要使现有外部内容在Email Designer中完全可编辑，请参阅[使用现有内容设计电子邮件](../../designing/using/using-existing-content.md)部分。
+要使现有外部内容在Email Designer中完全可编辑，请参阅 [使用现有内容设计电子邮件](../../designing/using/using-existing-content.md) 中。
 
 ## 导入现有电子邮件内容 {#importing}
 
 ### 从文件导入内容 {#importing-content-from-a-file}
 
-在Email Designer主页中，单击&#x200B;**[!UICONTROL Upload]**&#x200B;按钮以从计算机上传文件，然后进行确认。
+在Email Designer主页中，单击 **[!UICONTROL Upload]** 按钮从计算机上传文件，然后进行确认。
 
 zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并遵循zip文件夹的树结构。
 
 支持以下格式进行导入：
 
-* 包含合并样式表的HTML文件
+* 带有合并样式表的HTML文件
 * 包含HTML文件、样式表(.CSS)和图像的.zip文件夹
 
 >[!NOTE]
@@ -84,7 +84,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 在从URL导入内容之前，请确保它遵循以下要求：
 
 * 内容需要通过此URL公开提供。
-* 出于安全考虑，只允许使用以&#x200B;**[!UICONTROL https]**&#x200B;开头的URL。
+* 出于安全考虑，仅URL以开头 **[!UICONTROL https]** 。
 * 确保在绝对链接和HTTPS中设置所有资源（图像、CSS）。 否则，在发送电子邮件后，将不显示镜像页面及其资源。 以下是绝对链接定义的示例：
 
    ```
@@ -97,7 +97,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 要从URL检索现有内容，请执行以下步骤：
 
-1. 从Email Designer主页中，选择&#x200B;**[!UICONTROL Import from URL]**&#x200B;按钮。
+1. 从Email Designer主页中，选择 **[!UICONTROL Import from URL]** 按钮。
 
    ![](assets/email_designer_importfromurl.png)
 
@@ -108,7 +108,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
 
 ### 在准备时自动从URL检索内容 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -116,7 +116,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 要在准备时检索内容，请执行以下步骤：
 
-1. 选择&#x200B;**[!UICONTROL Content imported during preparation]**&#x200B;选项。
+1. 选择 **[!UICONTROL Content imported during preparation]** 选项。
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -126,28 +126,38 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
    >
    >在此步骤中，不应考虑内容编辑器中显示的HTML。 将在准备阶段进行检索。
 
-1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击&#x200B;**[!UICONTROL Preview]**&#x200B;按钮。
+1. 要预览已检索的URL内容，请在创建消息后打开该消息，然后单击 **[!UICONTROL Preview]** 按钮。
 
 可以将检索内容的远程URL个性化。 为此请执行以下操作步骤：
 
-1. 单击屏幕顶部的电子邮件标签以访问Email Designer **[!UICONTROL Properties]**&#x200B;选项卡。
-1. 找到&#x200B;**[!UICONTROL Remote URL]**&#x200B;字段。
+1. 单击屏幕顶部的电子邮件标签以访问Email Designer **[!UICONTROL Properties]** 选项卡。
+1. 查找 **[!UICONTROL Remote URL]** 字段。
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 插入所需的个性化字段、内容块或动态文本。
 
-   例如，使用&#x200B;**[!UICONTROL Current date - YYYYMMDD]**&#x200B;内容块可插入当天的日期。
+   的 **[!UICONTROL Current date - YYYYMMDD]** 例如，内容块允许您插入日期。
 
    >[!NOTE]
    >
-   >可用的个性化字段仅链接到&#x200B;**投放**&#x200B;属性（电子邮件创建日期、状态、营销活动标签……）。
+   >可用的个性化字段已链接到 **投放** 仅属性（电子邮件创建日期、状态、营销活动标签……）。
+
+如果内容下载在首次尝试时失败，则可重试两次：
+
+1. 第二次尝试在第一次尝试后50毫秒开始。
+1. 第三次尝试在第二次尝试后100毫秒开始。
+
+在以下情况下，这些重试非常有用：
+
+* 远程服务器上的短时服务故障
+* 群集上的服务器故障，在这种情况下，由于对工作服务器的负载平衡，重试更有可能成功
 
 ### 兼容性模式 {#compatibility-mode}
 
 在上传内容时，内容必须包含特定标记，才能与Email Designer的WYSIWYG编辑器完全兼容和可编辑。
 
-如果上传的HTML的全部或部分与预期标记不兼容，则内容随后会以“兼容模式”加载，这会限制通过UI进行编辑的可能性。
+如果上传HTML的全部或部分内容与预期标记不兼容，则内容随后会以“兼容模式”加载，这会限制通过UI进行编辑的可能性。
 
 在兼容性模式下加载内容时，您仍可以通过界面执行以下修改（隐藏不可用的操作）：
 
@@ -158,9 +168,9 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 ![](assets/email_designer_compatibility.png)
 
-其他修改（如向电子邮件添加新部分或高级样式）必须通过HTML模式直接在电子邮件的源代码中完成。
+其他修改（如向电子邮件添加新部分或高级样式）必须直接在电子邮件的源代码中通过HTML模式进行。
 
-有关将现有电子邮件转换为与Email Designer兼容的电子邮件的更多信息，请参阅[此部分](../../designing/using/using-existing-content.md)。
+有关将现有电子邮件转换为与Email Designer兼容的电子邮件的更多信息，请参阅 [此部分](../../designing/using/using-existing-content.md).
 
 **相关主题**：
 
@@ -170,7 +180,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 ## 转换HTML内容 {#converting-an-html-content}
 
-如果要构建一个模块化模板和片段框架，以将其组合在多封电子邮件中重复使用，则应考虑将电子邮件HTML转换为Email Designer模板。
+如果要构建一个模块化模板和片段框架，以便将其组合以在多封电子邮件中重复使用，则应当考虑将电子邮件HTML转换为Email Designer模板。
 
 此用例提供了一种将HTML电子邮件转换为Email Designer组件的快速方法。
 
@@ -180,9 +190,9 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 
 >[!NOTE]
 >
->与兼容性模式一样，HTML组件也是可编辑的，但选项有限：您只能执行就地版本。
+>与兼容性模式一样，HTML组件也可编辑，但选项有限：您只能执行就地版本。
 
-在Email Designer之外，确保将原始HTML划分为可重用的部分。
+在Email Designer之外，确保将原始HTML分为可重复使用的部分。
 
 如果不是这种情况，请从HTML中切出不同的块。 例如：
 

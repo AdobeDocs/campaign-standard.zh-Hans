@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ P1在第一天打开电子邮件两次，第二天打开三次。
  </tbody> 
 </table>
 
-要了解唯一打开的总数，我们需要汇总&#x200B;**[!UICONTROL Unique Opens]**&#x200B;的行计数，该计数为值3。 但是，由于电子邮件仅定向到2个用户档案，因此打开率应显示150%。
+要了解唯一打开的总数，我们需要汇总 **[!UICONTROL Unique Opens]** 这就给了我们3的价值。 但是，由于电子邮件仅定向到2个用户档案，因此打开率应显示150%。
 
-为了获得不高于100的百分比，**[!UICONTROL Unique Opens]**&#x200B;的定义将保持为已打开的唯一广播的数量。 在这种情况下，即使P1在第1天和第2天打开了电子邮件，其唯一打开次数仍将为1。
+为了不获得高于100的百分比，定义 **[!UICONTROL Unique Opens]** 将维护为已打开的唯一broadlog数。 在这种情况下，即使P1在第1天和第2天打开了电子邮件，其唯一打开次数仍将为1。
 
 这将产生下表：
 
@@ -70,7 +70,7 @@ P1在第一天打开电子邮件两次，第二天打开三次。
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 
 ## 打开计数与数据库计数不匹配 {#open-counts-no-match-database}
 
-这可能是因为，在动态报告中使用启发式算法来跟踪打开次数，即使我们无法跟踪&#x200B;**[!UICONTROL Open]**&#x200B;操作也是如此。
+这可能是因为，在动态报告中使用启发式算法来跟踪打开次数，即使我们无法跟踪 **[!UICONTROL Open]** 操作。
 
-例如，如果用户在其客户端上禁用了图像，并单击电子邮件中的链接，则数据库可能不会跟踪&#x200B;**[!UICONTROL Open]**，但&#x200B;**[!UICONTROL Click]**&#x200B;将跟踪。
+例如，如果用户在其客户端上禁用了图像，然后单击电子邮件中的链接，则 **[!UICONTROL Open]** 数据库可能不会跟踪，但 **[!UICONTROL Click]** 中。
 
-因此，**[!UICONTROL Open]**&#x200B;跟踪日志计数在数据库中可能不具有相同的计数。
+因此， **[!UICONTROL Open]** 跟踪日志计数在数据库中可能不具有相同的计数。
 
-此类事件将添加为&#x200B;**&quot;电子邮件点击意味着电子邮件打开&quot;**。
+此类发生次数将添加为 **“电子邮件点击意味着电子邮件打开”**.
 
 >[!NOTE]
 >
@@ -107,9 +107,9 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 ## 如何计算定期/事务性投放的计数？ {#counts-recurring-deliveries}
 
 使用定期投放和事务投放时，计数将同时归属于父投放和子投放。
-我们可以举一个名为**R1**的定期投放的示例，该投放设置为每天在第1天(RC1)、第2天(RC2)和第3天(RC3)运行。
-假设只有一个人多次打开所有子投放。 在这种情况下，单个定期子投放的**[!UICONTROL Open]**计数将显示为每个的1。
-但是，由于同一人点击了所有投放，因此父定期投放的**[!UICONTROL Unique open]**&#x200B;也将作为1。
+我们可以以名为 **R1** 设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)运行。
+假设只有一个人多次打开所有子投放。 在这种情况下，单个定期子投放将显示 **[!UICONTROL Open]** 计为1。
+但是，由于同一人点击了所有投放，因此父定期投放也将 **[!UICONTROL Unique open]** 作为1。
 
 报表应如下所示：
 
@@ -129,7 +129,7 @@ P1在第一天打开电子邮件两次，第二天打开三次。
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -163,9 +163,9 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 
 ![](assets/troubleshooting_1.png)
 
-如果将&#x200B;**[!UICONTROL Conditional formatting]**&#x200B;更改为自定义，则当值达到上限时，单元格将变得更加绿色。 然而，如果达到下限，它会变得更红。
+如果您更改 **[!UICONTROL Conditional formatting]** 对于自定义，当值达到上限时，单元格将变得更绿。 然而，如果达到下限，它会变得更红。
 
-例如，在本例中，我们将&#x200B;**[!UICONTROL Upper limit]**&#x200B;设置为500，将&#x200B;**[!UICONTROL Lower limit]**&#x200B;设置为0。
+例如，在此，我们将 **[!UICONTROL Upper limit]** 到500和 **[!UICONTROL Lower limit]** 0。
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 
 ![](assets/troubleshooting_3.png)
 
-值&#x200B;**N/A**&#x200B;有时可能会显示在动态报告中。 显示此参数的原因有三：
+值 **不适用** 有时会显示在动态报表中。 显示此参数的原因有三：
 
-* 投放已删除，此处显示为&#x200B;**N/A**，以不导致结果不一致。
-* 将&#x200B;**[!UICONTROL Transactional Delivery]**&#x200B;维度拖放到报表时，值&#x200B;**N/A**&#x200B;可能会因此而显示。 之所以会出现这种情况，是因为动态报告会获取每个投放，即使它们不是事务型投放。 在将&#x200B;**[!UICONTROL Delivery]**&#x200B;维度拖放到报表时，也可能会发生这种情况，但在这种情况下，**N/A**&#x200B;值将表示事务性投放。
-* 当维度与与维度无关的量度一起使用时。 在以下示例中，添加了包含&#x200B;**[!UICONTROL Tracking URL]**&#x200B;维度的划分，即使在此投放中将&#x200B;**[!UICONTROL Click]**&#x200B;计数设置为0也是如此。
+* 投放已删除，如下所示 **不适用** 不会造成结果不一致。
+* 拖放 **[!UICONTROL Transactional Delivery]** 维度，值 **不适用** 可能会显示为结果。 之所以会出现这种情况，是因为动态报告会获取每个投放，即使它们不是事务型投放。 在拖放 **[!UICONTROL Delivery]** 维度，但在本例中， **不适用** 值将表示事务型投放。
+* 当维度与与维度无关的量度一起使用时。 在以下示例中，添加了一个划分，其中包含 **[!UICONTROL Tracking URL]** 维度，即使 **[!UICONTROL Click]** 在此投放中，count被设置为0。
 
    ![](assets/troubleshooting_4.png)
 

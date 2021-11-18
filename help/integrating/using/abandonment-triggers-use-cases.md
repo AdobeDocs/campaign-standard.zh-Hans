@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 在 Adobe Campaign 中，您需要创建一个触发器，使其链接到在 Experience Cloud 中创建的触发器。
 
-1. 要在Adobe Campaign中创建触发器，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
+1. 要在Adobe Campaign中创建触发器，请单击 **Adobe** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 95%
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 要显示消息模板，请单击右上方的&#x200B;**[!UICONTROL More]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL Trigger Transactional Template]**。
+1. 要显示消息模板，请单击 **[!UICONTROL More]** 按钮，然后单击 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 将其内容和发件人详细信息个性化。
 
@@ -101,11 +101,11 @@ ht-degree: 95%
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 收件人点击可将其引至您网站的链接。 在本例中，横幅会将收件人导向旅行预订网站的主页。
+1. 收件人单击可将其引至您网站的链接。 在本例中，横幅会将收件人导向旅行预订网站的主页。
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 收件人来到了“Deals”页面，但突然停止了访问。10 分钟后，Adobe Campaign 触发事务型消息的发送。
+1. 收件人转到“交易”页面，但突然停止访问。 10 分钟后，Adobe Campaign 触发事务型消息的发送。
 
    ![](assets/trigger_uc_browse_12.png)
 

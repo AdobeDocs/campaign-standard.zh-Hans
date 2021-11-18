@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->产品清单仅可用于&#x200B;**通过[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)界面的事务型电子邮件**。
+>产品清单仅可用于 **事务型电子邮件消息** 到 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 界面。
 
 编辑事务型电子邮件的内容时，您可以创建引用一个或多个数据集合的产品清单。 例如，在购物车放弃电子邮件中，您可以包含用户离开网站时购物车中所有产品的列表，以及图像、价格和每个产品的链接。
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
-您还可以观看[此视频集](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
+您还可以观看 [这组视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) 说明在事务型电子邮件中配置产品清单所需的步骤。
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 82%
 在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
 
 1. 在事务型消息中，单击 **[!UICONTROL Content]** 块以修改电子邮件的内容。
-1. 将结构组件拖放到工作区。有关更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将结构组件拖放到工作区。有关此内容的更多信息，请参阅 [定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关更多信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关此内容的更多信息，请参阅 [使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. 选择之前创建的结构组件，然后单击上下文工具栏中的 **[!UICONTROL Enable product listing]** 图标。
 
@@ -56,7 +56,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅 [定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. 选择配置与事务型消息相关的事件时创建的数据集合。您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
 
@@ -129,7 +129,7 @@ ht-degree: 82%
 
    如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
 
-1. 在“设置”窗格中，编辑产品清单的样式。有关更多信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
+1. 在“设置”窗格中，编辑产品清单的样式。有关此内容的更多信息，请参阅 [管理电子邮件样式](../../designing/using/styles.md).
 1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)

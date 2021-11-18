@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 在 Adobe Experience Cloud 中，您可定义不同的触发器，即想要监控的客户行为（例如所有放弃访问您网站的客户、在您的网站上进行搜索的客户、搜索但未进行购买的客户，甚至还有会话过期的客户）。创建触发器时，您可定义触发器的条件以及将在事件中发送（上传）到 Adobe Campaign 的数据。
 
-在 Adobe Campaign 中，您可选择之前创建的触发器、使用数据集市扩充事件数据，并可定义链接到该触发器的事务型消息模板。例如，当客户放弃对您网站的访问时，即会向 Adobe Campaign 发送一个事件，随后 Adobe Campaign 会利用此事件，在 15 分钟内向该客户发送一封再营销电子邮件。
+在 Adobe Campaign 中，您可选择之前创建的触发器、使用数据集市扩充事件数据，并可定义链接到该触发器的事务型消息模板。例如，当客户放弃对您网站的访问时，将向Adobe Campaign发送一个事件，随后，该事件将通过再营销电子邮件利用此事件，该电子邮件将在15分钟内发送给客户。
 
 下图详细说明此集成的工作方式。
 

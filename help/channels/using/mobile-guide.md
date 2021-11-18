@@ -7,22 +7,23 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
-# 移动渠道快速入门 {#mobile-guide}
+# 移动渠道入门 {#mobile-guide}
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>了解如何配置移动应用程序以发送推送通知</br><a href="#configuration-push">单击此处</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>了解如何为应用程序内消息配置移动应用程序</br><a href="#configuring-mobile-app">单击此处</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>了解如何为推送通知配置移动应用程序 </br><a href="#configuration-push">单击此处</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>了解如何为应用程序内消息配置移动应用程序 </br><a href="#configuring-mobile-app">单击此处</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>了解有关如何创建推送通知的更多信息</br><a href="#create-push">单击此处</a></p></td>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>详细了解如何创建推送通知 </br><a href="#create-push">单击此处</a></p></td>
 <td><img src="assets/do-not-localize/inapp.png" width="60px"><p>了解如何创建应用程序内消息</br><a href="#create-inapp">单击此处</a></p></td></tr>
 </table>
 
@@ -97,7 +98,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击</strong></a> 此处以在Adobe Experience Platform Launch中开始创建数据元素和规则，以将PII和其他数据从移动应用程序发送到Adobe Campaign Standard。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击此处</strong></a> 开始在Adobe Experience Platform Launch中创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到Adobe Campaign Standard。</p>
     <br>
   </td>
   <td>
@@ -118,7 +119,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>准备和发送推送通知</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>此处</strong></a> 了解如何准备推送通知，以及如何将其发送给目标受众。</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此处学习</strong></a> 如何准备推送通知，以及如何将其发送给目标受众。</p>
     <br>
   </td>
   <td>
@@ -141,7 +142,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>显示 Adobe Campaign Standard 推送通知中的图像</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>以</strong></a> 下了解如何在iOS设备上显示Adobe Campaign推送通知中的图像。</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>在此处学习</strong></a> 如何在iOS设备上显示Adobe Campaign推送通知中的图像。</p>
     <br>
   </td>
 </tr>
@@ -155,7 +156,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>准备和发送应用程序内消息</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>以</strong></a> 下内容了解如何准备应用程序内消息，以及如何将其发送给目标受众。</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此处学习</strong></a> 如何准备应用程序内消息，以及如何将其发送给目标受众。</p>
     <br>
   </td>
   <td>
@@ -192,7 +193,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>创建短信消息</strong></p>
     </div>
-    <p>创建短信投放与创建常规电子邮件非常相似。</br>以下详 <a href="../../channels/using/creating-an-sms-message.md"><strong>细</strong></a> 步骤介绍了特定于此渠道的配置。</br></p>
+    <p>创建短信投放与创建常规电子邮件非常相似。</br>步骤 <a href="../../channels/using/creating-an-sms-message.md"><strong>详见</strong></a> 描述特定于此渠道的配置。</br></p>
     <br>
   </td>
   <td>
@@ -209,7 +210,7 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
     <div>
     <p><strong>管理传入的短信</strong></p>
     </div>
-    <p>当用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给他的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处了解更多信息。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>当用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给用户的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处了解更多信息。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
@@ -248,5 +249,3 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
   </td>
 </tr>
 </table>
-
-

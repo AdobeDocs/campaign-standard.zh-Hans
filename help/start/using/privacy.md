@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: 隐私
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -126,11 +126,11 @@ Adobe Campaign 提供其他功能来促使您作为数据控制者为特定隐�
 
 * **访问权**&#x200B;是数据主体从数据控制者处就与其有关的个人数据是否正在进行处理、处理位置和处理原因获得确认的权限。
 
-* **被遗忘权**（删除请求）授权数据主体通过数据控制者擦除其个人数据。
+* 的 **被遗忘权** （删除请求）授权数据主体通过数据控制者擦除其个人数据。
 
 >[!NOTE]
 >
->这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
