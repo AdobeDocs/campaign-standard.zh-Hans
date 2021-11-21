@@ -7,7 +7,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%
@@ -16,17 +17,17 @@ ht-degree: 1%
 
 # 许可证{#licenses}
 
-**[!UICONTROL Licenses]**&#x200B;窗口允许您查看实例上已安装的许可证以及与其有关的不同信息，如内部版本号、发行版本，或协议条款已被接受且由谁接受。
+的 **[!UICONTROL Licenses]** 窗口允许您查看实例上已安装的许可证以及与其有关的不同信息，如内部版本号、发行版本，或协议条款已被接受且由谁接受。
 
 ![](assets/license_1.png)
 
-使用新内部版本或新功能时，许可条款可能会发生更改，且必须由实例的功能管理员接受。
+如果具有新内部版本或新功能，许可条款可能会发生更改，且必须由实例的功能管理员接受。
 
-登录后，将为标准用户显示以下窗口，无需对其执行任何操作。 它们仍可以通过单击&#x200B;**[!UICONTROL OK]**&#x200B;按钮在Adobe Campaign上工作。
+登录后，将为标准用户显示以下窗口，无需对其执行任何操作。 他们仍可以通过单击 **[!UICONTROL OK]** 按钮。
 
 ![](assets/license_2.png)
 
-管理员必须在内部版本安装后的30天内阅读并确认新协议条款，方法是选中&#x200B;**[!UICONTROL I accept the terms from the license agreement]**&#x200B;并单击&#x200B;**[!UICONTROL Confirm]**。
+管理员必须在版本安装后的30天内通过检查来阅读并确认新协议条款 **[!UICONTROL I accept the terms from the license agreement]** 单击 **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 

@@ -18,8 +18,8 @@ ht-degree: 55%
 # 第 1 步：将扩展字段添加到用户档案资源{#step-add-extension-fields-to-the-profile-resource}
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;图标以创建新的自定义资源。
+1. 单击 **[!UICONTROL Create]** 图标以创建新的自定义资源。
 1. 选择 **[!UICONTROL Extend an existing resource]** 选项。
 1. 选择 **[!UICONTROL Profile]** 资源。
 1. 单击 **[!UICONTROL Create]**。
-1. 在资源字段中添加具有&#x200B;**[!UICONTROL Brand]** ID的&#x200B;**[!UICONTROL Text]**&#x200B;类型&#x200B;**[!UICONTROL Promo code]**&#x200B;字段。
+1. 添加 **[!UICONTROL Text]** type **[!UICONTROL Promo code]** 字段 **[!UICONTROL Brand]** 资源字段中的ID。

@@ -21,7 +21,7 @@ ht-degree: 5%
 
 在某些情况下，您要导入Campaign服务器的数据可能需要加密，例如，当其包含PII数据时。
 
-为了能够加密传出数据或解密传入数据，您需要使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans)管理GPG密钥。
+要加密传出数据或解密传入数据，您需要使用 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans).
 
 >[!NOTE]
 >
@@ -29,10 +29,10 @@ ht-degree: 5%
 
 如果您没有资格使用控制面板，则需要联系Adobe客户关怀团队，以便他们为您的实例提供所需的加密/解密命令。 为此，请提交一个请求，指示：
 
-* 将在Campaign界面中显示的&#x200B;**标签**&#x200B;以使用命令。 例如“加密文件”。
-* 要在实例上安装的&#x200B;**命令**。
+* 的 **标签** 将在Campaign界面中显示以使用命令。 例如“加密文件”。
+* 的 **命令** 以在实例上安装。
 
-处理请求后，**[!UICONTROL Load file]**&#x200B;和&#x200B;**[!UICONTROL Extract file]**&#x200B;活动的&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;字段中将提供加密/解密命令。 您可以使用它们解密或加密要导入或导出的文件。
+处理请求后，在 **[!UICONTROL Pre-processing stage]** 字段 **[!UICONTROL Load file]** 和 **[!UICONTROL Extract file]** 活动。 您可以使用它们解密或加密要导入或导出的文件。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共/专用）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了详细步骤。
+1. 使用控制面板生成密钥对（公共/专用）。 有关详细步骤，请参阅 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * 公钥将与外部系统共享，外部系统将使用公钥加密要发送到Campaign的数据。
    * Campaign将使用私钥解密传入的加密数据。
@@ -62,18 +62,18 @@ ht-degree: 5%
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** 活动：将文件从外部源传输到Campaign。在本例中，我们要从SFTP服务器传输文件。
+   * **[!UICONTROL Transfer file]** 活动：将文件从外部源传输到Campaign。 在本例中，我们要从SFTP服务器传输文件。
    * **[!UICONTROL Load file]** 活动：将数据从文件加载到数据库中，然后使用在控制面板中生成的私钥对其解密。
 
-1. 打开&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动，然后根据需要对其进行配置。 有关如何配置活动的全局概念，请参阅[此部分](../../automating/using/load-file.md)。
+1. 打开 **[!UICONTROL Transfer file]** 活动，然后根据您的需求对其进行配置。 有关如何配置活动的全局概念可在 [此部分](../../automating/using/load-file.md).
 
-   在&#x200B;**[!UICONTROL Protocol]**&#x200B;选项卡中，指定有关sftp服务器和要传输的加密.gpg文件的详细信息。
+   在 **[!UICONTROL Protocol]** 选项卡，指定有关sftp服务器和要传输的加密.gpg文件的详细信息。
 
    ![](assets/gpg_transfer.png)
 
-1. 打开&#x200B;**[!UICONTROL Load file]**&#x200B;活动，然后根据需要对其进行配置。 有关如何配置活动的全局概念，请参阅[此部分](../../automating/using/load-file.md)。
+1. 打开 **[!UICONTROL Load file]** 活动，然后根据您的需求对其进行配置。 有关如何配置活动的全局概念可在 [此部分](../../automating/using/load-file.md).
 
-   向活动添加预处理阶段，以解密传入数据。 为此，请从列表中选择&#x200B;**[!UICONTROL Decryption GPG]**&#x200B;选项。
+   向活动添加预处理阶段，以解密传入数据。 为此，请选择 **[!UICONTROL Decryption GPG]** 选项。
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ ht-degree: 5%
 
    ![](assets/gpg_load.png)
 
-1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以确认活动配置。
+1. 单击 **[!UICONTROL OK]** 以确认活动配置。
 
 1. 您现在可以运行工作流。
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公钥/私钥），然后将公钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了详细步骤。
+1. 使用GPG实用程序生成GPG密钥对（公钥/私钥），然后将公钥安装到控制面板上。 有关详细步骤，请参阅 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
@@ -105,9 +105,9 @@ ht-degree: 5%
    * **[!UICONTROL Extract file]** 活动：将数据加密并提取到文件中。
    * **[!UICONTROL Transfer file]** 活动：将包含加密数据的文件传输到SFTP服务器。
 
-1. 配置&#x200B;**[!UICONTROL Query]**&#x200B;活动以定位数据库中的所需数据。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
+1. 配置 **[!UICONTROL Query]** 活动来定位数据库中的所需数据。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
 
-1. 打开&#x200B;**[!UICONTROL Extract file]**&#x200B;活动，然后根据需要（输出文件、列、格式等）对其进行配置。 有关如何配置活动的全局概念，请参阅[此部分](../../automating/using/extract-file.md)。
+1. 打开 **[!UICONTROL Extract file]** 活动，然后根据您的需求（输出文件、列、格式等）对其进行配置。 有关如何配置活动的全局概念可在 [此部分](../../automating/using/extract-file.md).
 
    向活动添加预处理阶段，以加密要提取的数据。 为此，请选择用于加密数据的加密GPG密钥。
 
@@ -115,9 +115,9 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >括号中的值是您在使用GPG加密工具生成密钥对时定义的&#x200B;**comment**。 确保选择正确的匹配密钥，否则收件人将无法解密文件。
+   >括号中的值是 **评论** 您在使用GPG加密工具生成密钥对时定义的密钥对。 确保选择正确的匹配密钥，否则收件人将无法解密文件。
 
-1. 打开&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动，然后指定要将文件发送到的SFTP服务器。 有关如何配置活动的全局概念，请参阅[此部分](../../automating/using/transfer-file.md)。
+1. 打开 **[!UICONTROL Transfer file]** 活动，然后指定要将文件发送到的SFTP服务器。 有关如何配置活动的全局概念可在 [此部分](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
@@ -133,4 +133,4 @@ ht-degree: 5%
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

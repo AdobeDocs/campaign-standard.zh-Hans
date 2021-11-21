@@ -18,11 +18,11 @@ ht-degree: 5%
 
 # 无法投放项和退回{#non-deliverables-and-bounces}
 
-**[!UICONTROL Non-deliverables and bounces]**&#x200B;报告提供有关投放期间遇到的所有错误的详细信息。
+的 **[!UICONTROL Non-deliverables and bounces]** 报表提供有关投放期间遇到的所有错误的详细信息。
 
 ![](assets/delivery_reports_7.png)
 
-**[!UICONTROL Overview]**&#x200B;表包含有关每个投放可能遇到的错误的可用数据，例如：
+的 **[!UICONTROL Overview]** 表包含有关每个投放可能遇到的错误的可用数据，例如：
 
 * **已处理/已发送**:已发送的电子邮件数量。
 * **已交付**:已送达的电子邮件数量。
@@ -30,4 +30,4 @@ ht-degree: 5%
 * **硬退回**:永久错误的总数，如错误的电子邮件地址。
 * **跳出次数+错误**:无法发送的消息数。
 
-**按域划分**&#x200B;表列出了每个收件人域的跳出次数。
+的 **按域划分** 表格列出了每个收件人域的跳出次数。

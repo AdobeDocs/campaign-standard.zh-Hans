@@ -22,9 +22,9 @@ ht-degree: 3%
 >
 >Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
 
-区段生成器允许您通过根据来自[实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的数据定义规则来构建受众。
+区段生成器允许您通过根据来自 [实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-本节介绍构建区段时的全局概念。 有关区段生成器本身的详细信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+本节介绍构建区段时的全局概念。 有关区段生成器本身的详细信息，请参阅 [区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 区段生成器界面由以下部分组成：
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 1. 确保在“设置”窗格中选择所需的合并策略。
 
-   有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专述部分。
+   有关合并策略的更多信息，请参阅 [区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,25 +64,25 @@ ht-degree: 3%
 
 左侧窗格列出了可用于构建规则的所有属性、事件和受众。
 
-所列字段是您的公司捕获的属性，已通过[体验数据模型(XDM)系统](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)提供。
+所列字段是您的公司捕获的属性，已通过 [Experience Data Model(XDM)系统](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 字段按选项卡进行组织：
 
-* **[!UICONTROL Attributes]**:可能源自Adobe Campaign数据库和/或Adobe Experience Platform的现有配置文件属性。它们是指附加到用户档案的静态信息（例如，电子邮件地址、居住国家/地区、忠诚度计划状态等）。
+* **[!UICONTROL Attributes]**:可能源自Adobe Campaign数据库和/或Adobe Experience Platform的现有配置文件属性。 它们是指附加到用户档案的静态信息（例如，电子邮件地址、居住国家/地区、忠诚度计划状态等）。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:标识与您公司的客户接触点进行过一些交互的消费者的活动，例如“在两周内订购过两次的任何人”。这可以从Adobe Analytics流式传输，或使用第三方ETL工具直接摄取到Adobe Experience Platform中。
+* **[!UICONTROL Events]**:标识与您公司的客户接触点进行过一些交互的消费者的活动，例如“在两周内订购过两次的任何人”。 这可以从Adobe Analytics流式传输，或使用第三方ETL工具直接摄取到Adobe Experience Platform中。
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**多实体分** 段允许您根据产品、商店或其他非配置文件类使用附加数据扩展配置文件数据。连接后，来自其他类的数据将变得可用，就像它们是配置文件架构的本机数据一样。
+>**多实体分段** 允许您根据产品、商店或其他非配置文件类使用其他数据扩展配置文件数据。 连接后，来自其他类的数据将变得可用，就像它们是配置文件架构的本机数据一样。
 >
 >有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
 
-默认情况下，区段生成器会显示其中已存在数据的字段。 要显示完整架构（包括不存在数据的字段），请启用设置中的&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;选项。
+默认情况下，区段生成器会显示其中已存在数据的字段。 要显示完整架构（包括不存在数据的字段），请启用 **[!UICONTROL Show full XDM schema]** 选项。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下部分提供了有关规则定义的全局信息。 有关更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+>以下部分提供了有关规则定义的全局信息。 有关更多信息，请参阅 [区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 要构建规则，请执行以下步骤：
 
@@ -106,9 +106,9 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_malegender.png)
 
-   对应该区段的预计群体将在&#x200B;**[!UICONTROL Segment Properties]**&#x200B;部分自动重新计算。
+   与区段对应的预计群体将在 **[!UICONTROL Segment Properties]** 中。
 
-1. 通过&#x200B;**[!UICONTROL View Profiles]**&#x200B;按钮可预览与规则对应的前20条记录，从而快速验证区段。
+1. 的 **[!UICONTROL View Profiles]** 按钮可预览与规则对应的前20条记录，从而快速验证区段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 1. 选择将与第一个字段进行比较的第二个字段（例如，工作地址邮政编码）。
 
-   将其拖动到&#x200B;**[!UICONTROL Drop here to compare operands]**&#x200B;框中与第一个字段位于同一容器中的中心工作区。
+   将其拖动到与第一个字段位于同一容器中的中心工作区上 **[!UICONTROL Drop here to compare operands]** 框中。
 
    ![](assets/aep_audiences_comparing_2.png)
 

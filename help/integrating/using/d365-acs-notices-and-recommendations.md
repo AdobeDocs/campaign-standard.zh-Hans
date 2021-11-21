@@ -19,9 +19,9 @@ ht-degree: 1%
 
 ## 管理数据 {#acs-msdyn-manage-data}
 
-对于联系和自定义实体同步，此集成将&#x200B;**Microsoft Dynamics 365视为真**&#x200B;的源。  对同步属性所做的任何更改都应在Dynamics 365中完成，而不应在Adobe Campaign Standard中完成)。  如果在Campaign中进行更改，则在同步期间，这些更改最终可能会在Campaign中被覆盖，因为同步是单向的。
+对于联系人和自定义实体同步，此集成将考虑 **Microsoft·动力365**.  对同步属性所做的任何更改都应在Dynamics 365中完成，而不应在Adobe Campaign Standard中完成)。  如果在Campaign中进行更改，则在同步期间，这些更改最终可能会在Campaign中被覆盖，因为同步是单向的。
 
-可以选择将该集成配置为在Dynamics 365中删除联系人时向Campaign发出用户档案删除调用，以帮助维护数据完整性。 但是，配置文件删除与隐私删除不同。 Campaign中的隐私删除将删除Campaign用户档案记录和关联的日志条目；然而，定期用户档案删除将只删除Campaign用户档案记录，并保留Campaign日志中的残余内容。 如果集成中启用了配置文件删除功能，则需要执行其他步骤才能正确处理数据主体隐私请求。 请参阅](#manage-privacy-requests)下方的[隐私部分中的步骤。
+可以选择将该集成配置为在Dynamics 365中删除联系人时向Campaign发出用户档案删除调用，以帮助维护数据完整性。 但是，配置文件删除与隐私删除不同。 Campaign中的隐私删除将删除Campaign用户档案记录和关联的日志条目；然而，定期用户档案删除将只删除Campaign用户档案记录，并保留Campaign日志中的残余内容。 如果集成中启用了配置文件删除功能，则需要执行其他步骤才能正确处理数据主体隐私请求。 请参阅 [下面的隐私部分](#manage-privacy-requests).
 
 ## 隐私{#acs-msdyn-manage-privacy}
 
@@ -29,11 +29,11 @@ ht-degree: 1%
 
 此集成旨在在Microsoft Dynamics 365和Adobe Campaign Standard之间传输最终用户数据(包括但不限于个人信息（如果它包含在最终用户数据中）。 作为数据控制者，贵公司有责任遵守适用于您收集和使用个人数据的任何隐私法律和法规。
 
-该集成不会发布任何数据主体隐私（例如GDPR）删除或处理任何其他隐私请求（选择退出除外）。 在处理隐私请求时，您应该在Microsoft Dynamics 365和Campaign(通过Adobe Experience Platform Privacy Service)中单独执行此操作。
+该集成不会发布任何数据主体隐私（例如GDPR）删除或处理任何其他隐私请求（选择退出除外）。 处理隐私请求时，您应该在Microsoft Dynamics 365和Campaign(通过Adobe Experience Platform Privacy Service)中单独执行此操作。
 
 如果您已将集成配置为在Dynamics 365中删除联系人时向Campaign发出定期用户档案删除调用，则应执行以下步骤。 确保在此过程中未对相关记录进行任何更新。
 
-1. 向[Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)发出隐私删除请求
+1. 向发出隐私删除请求 [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. 监视请求，直到成功完成
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ## 选择退出 {#opt-out}
 
-由于Microsoft Dynamics 365和Campaign之间的选择退出属性存在差异，并且每个客户的业务要求存在差异，因此选择退出映射已留作客户完成的一项练习。  请务必确保在系统之间正确映射选择退出，以便维护最终用户的选择退出首选项，并且他们不会通过已选择退出的渠道接收通信。
+由于Microsoft Dynamics 365与Campaign之间的选择退出属性存在差异，并且每个客户的业务要求存在差异，因此选择退出映射已留作一项练习，供客户完成。  请务必确保在系统之间正确映射选择退出，以便维护最终用户的选择退出首选项，并且他们不会通过已选择退出的渠道接收通信。
 
 请注意，只有以下内容才能在选择退出映射中使用：
 
@@ -63,31 +63,31 @@ ht-degree: 1%
 
 * CCPA的特定属性
 
-有关配置文件实体字段的更多信息，请在[此处](../../developing/using/datamodel-profile.md)找到。
+有关用户档案实体字段的更多信息，请参阅 [此处](../../developing/using/datamodel-profile.md).
 
 在Dynamics 365中，大多数选择退出字段都带有“donot”前缀，但是，如果数据类型兼容，您还可以将其他属性用于选择退出目的。
 
 在配置集成时，您将有机会指定业务所需的选择退出配置：
 
-* **单向（从Microsoft Dynamics 365到Campaign）**:Dynamics 365是选择退出的真相来源。选择退出属性将在从Dynamics 365到Campaign Standard的一个方向上同步
-* **单向（Campaign到Microsoft Dynamics 365）**:Campaign Standard是选择退出的真相来源。选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上进行同步
-* **双向**:Dynamics 365 ANDCampaign Standard都是真理的来源。选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
+* **单向(Microsoft Dynamics 365到Campaign)**:Dynamics 365是选择退出的真相来源。 选择退出属性将在从Dynamics 365到Campaign Standard的一个方向上同步
+* **单向(营销活动到Microsoft Dynamics 365)**:Campaign Standard是选择退出的真相来源。 选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上进行同步
+* **双向**:Dynamics 365 ANDCampaign Standard都是真理的来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
 
 或者，如果您有一个单独的流程来管理系统之间的选择退出同步，则可以禁用集成的选择退出数据流。
 
 双向选择退出配置使用逻辑确定要写入两个系统的值。 该逻辑可比较两个系统之间的时间戳（Dynamics 365中的记录级别更改，Campaign中的属性级别更改）以确定哪个系统占上风。 如果促销活动包含更新的时间戳，则促销活动值优先。 如果Dynamics 365包含更新的时间戳，或者如果时间戳相等，则选择退出=TRUE将获胜（假设其中一个值为TRUE）。
 
-了解如何在[此部分](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)中选择选择加入/退出选项。
+了解如何在 [此部分](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!NOTE]
 >
 >请在此处进行更改之前，查看并更新Adobe Campaign中的默认和特定分类规则（如果适用），以确保将此类更改正确应用于所有传出通信。 例如，请确保指向选择退出首选项的任何映射都准确反映了收件人的意图/通信选项，并且不会无意中中断关系或事务型消息（如客户订单确认）的交付。
 
-如果您选择了&#x200B;**Bidirectional**&#x200B;或&#x200B;**单向（营销活动到Microsoft Dynamics 365）**&#x200B;选择退出配置，则会通过工作流定期将Campaign选择退出数据导出到您的Campaign SFTP存储区域（请参阅下面的“Campaign SFTP使用情况”）。 如果您的Campaign选择退出工作流停止运行，您需要尽快手动重新启动，以减少错过选择退出同步的可能性。
+如果您选择了 **双向** 或 **单向(营销活动到Microsoft Dynamics 365)** 选择退出配置中，Campaign选择退出数据将通过工作流定期导出到您的Campaign SFTP存储区域（请参阅下面的“Campaign SFTP使用情况”）。 如果您的Campaign选择退出工作流停止运行，您需要尽快手动重新启动，以减少错过选择退出同步的可能性。
 
 >[!IMPORTANT]
 >
->如果您需要&#x200B;**Bidirectional**&#x200B;或&#x200B;**单向（Campaign到Microsoft Dynamics 365）**&#x200B;选择退出配置，则需要向Adobe技术联系人请求在Campaign实例上设置选择退出工作流
+>如果您需要 **双向** 或 **单向(营销活动到Microsoft Dynamics 365)** 选择退出配置中，您需要向Adobe技术联系人请求在Campaign实例中设置选择退出工作流
 
 ## 促销活动SFTP使用情况
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 | 用例 | 说明 |
 |---|---|
-| 双向和单向（Campaign到Microsoft Dynamics 365） | 双向和单向（Campaign到Microsoft Dynamics 365）选择退出数据流将利用Campaign SFTP存储。 营销活动工作流会将增量更改导出到SFTP文件夹。 从那里，集成将提取记录和流程。 |
+| 双向和单向(促销活动到Microsoft Dynamics 365) | 双向和单向(从Campaign到Microsoft Dynamics 365)选择退出数据流将利用Campaign SFTP存储。 营销活动工作流会将增量更改导出到SFTP文件夹。 从那里，集成将提取记录和流程。 |
 | 选择退出日志 | 对集成进行故障诊断时，连接器的输出日志将很有用。 可以打开/关闭输出日志。 |
 
 
@@ -107,11 +107,11 @@ ht-degree: 1%
 
 ### 现有Campaign数据
 
-此集成将将联系人和自定义实体从Microsoft Dynamics 365同步到Campaign。 集成不会修改在集成之外创建的Campaign记录（即不是由同步作业创建的），包括集成配置时存在的Campaign记录。
+此集成会将Microsoft Dynamics 365中的联系人和自定义实体同步到Campaign。 集成不会修改在集成之外创建的Campaign记录（即不是由同步作业创建的），包括集成配置时存在的Campaign记录。
 
-由于此集成使用Campaign中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将Campaign用户档案记录与Dynamics 365联系人记录同步，因此必须为您希望从Microsoft Dynamics 365同步的记录填充此Campaign字段(**[!UICONTROL externalId]**)。  **[!UICONTROL contactId]**&#x200B;自定义实体也使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体需要将此ID属性作为表列包含在内。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
+由于此集成使用 **[!UICONTROL externalId]** 字段，以将Campaign用户档案记录与Dynamics 365联系人记录同步，此Campaign字段(**[!UICONTROL externalId]** )必须使用Microsoft Dynamics 365填充 **[!UICONTROL contactId]** ，以获取您希望从Microsoft Dynamics 365同步的记录。  自定义实体也使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体需要将此ID属性作为表列包含在内。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
 
-请记住，Microsoft Dynamics 365仍然是真相的来源，并且当集成检测到Dynamics 365端的更新时，Campaign配置文件数据可能会被覆盖。  根据您的现有部署，可能需要执行其他步骤来启用集成；因此，建议您与Adobe技术联系人密切合作。
+请记住，Microsoft Dynamics 365仍然是真相的来源，并且由于集成检测到Dynamics 365端的更新，因此可以覆盖Campaign配置文件数据。  根据您的现有部署，可能需要执行其他步骤来启用集成；因此，建议您与Adobe技术联系人密切合作。
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ### 数据同步频率
 
-该集成利用一种架构，该架构允许在Microsoft Dynamics 365中发生更新（即流处理，而非批处理）后，立即检测更新并将其添加到处理“队列”中。 因此，无需指定数据流运行频率或计划。
+该集成利用一种架构，该架构允许在Microsoft Dynamics 365中发生更新后不久（即，流处理，而不是批处理），便检测更新并将其添加到处理“队列”中。 因此，无需指定数据流运行频率或计划。
 
 Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些选择退出配置，更新的Campaign记录将每天通过Campaign工作流导出到SFTP，然后集成工具读取文件并处理记录。
 
@@ -135,7 +135,7 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 
 ### 自定义实体
 
-[Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/d365-acs-get-started.md)支持自定义实体，使Dynamics 365中的自定义实体能够同步到Campaign中的相应自定义资源。
+的 [Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/d365-acs-get-started.md) 支持自定义实体，使Dynamics 365中的自定义实体能够同步到Campaign中的相应自定义资源。
 
 该集成支持链接的表和未链接的表。
 
@@ -145,13 +145,13 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 * 对于自定义实体数据流，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
 * 如果由于集成的并行处理，在Dynamics 365中几乎同时创建了父记录和链接的子记录，则在其父记录之前，可能会略有可能将新子记录写入Campaign。
 
-* 如果使用&#x200B;**1基数简单链接**&#x200B;选项在营销活动端链接父记录和子记录，则在父记录到达Campaign之前，子记录将保持隐藏状态，且不可访问（通过UI或API）。
+* 如果父项和子项在营销活动端使用 **1个基数简单链接** 选项，则在父记录到达Campaign之前，子记录将保持隐藏状态且不可访问（通过UI或API）。
 
-* （假设Campaign中&#x200B;**1基数简单链接**）如果子记录在Dynamics 365中更新或删除，并且该更改在父记录在Campaign中显示之前写入Campaign（不太可能，但是存在远程可能性），则该更新或删除不会在Campaign中处理，并且会引发错误。 在更新时，需要在Dynamics 365中再次更新相关记录，以同步更新的记录。 在删除的情况下，需要在Campaign端单独处理相关记录，因为Dynamics 365中不再有要删除或更新的记录。
+* (假定 **1个基数简单链接** （在Campaign中）如果子记录在Dynamics 365中更新或删除，并且该更改在父记录在Campaign中显示之前写入Campaign（不可能，但是是远程可能），则该更新或删除不会在Campaign中处理，并且会引发错误。 在更新时，需要在Dynamics 365中再次更新相关记录，以同步更新的记录。 在删除的情况下，需要在Campaign端单独处理相关记录，因为Dynamics 365中不再有要删除或更新的记录。
 
-* 如果您遇到这样一种情况，即您认为自己有隐藏的子记录并且无法访问这些记录，则可以暂时将基数链接类型更改为&#x200B;**0或1基数简单链接**&#x200B;以访问这些记录。
+* 如果您遇到这样一种情况，即您认为自己有隐藏的子记录并且无法访问这些记录，则可以临时将基数链接类型更改为 **0或1个基数简单链接** 来访问这些记录。
 
-[在此部分](../../developing/using/key-steps-to-add-a-resource.md)中可找到有关Campaign自定义资源的更全面概述。
+可以找到Campaign自定义资源的更全面概述 [在此部分中](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### 集成护栏
 
@@ -167,7 +167,7 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 
    在估算整个Campaign引擎调用量时，务必要考虑其他引擎调用源，包括登陆页面、WebApps、JSSP、API、移动设备应用程序注册等。
 
-   可在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+   可在此处查看Adobe Campaign Standard包信息： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持1,500万条记录，用于与Campaign中的资源进行初始同步。 增量同步受Adobe Campaign Standard包的限制。
 
@@ -177,15 +177,15 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 
 * 链接表时最大表深度为2（即table1->table2->table3）
 
-* 该集成支持每个自定义资源最多5个链接列。 在自定义资源之间链接多个列可能会对性能产生显着影响。 **与1个基数简单链接相比，** 首选0或1 **个基数简单链接**。
+* 该集成支持每个自定义资源最多5个链接列。 在自定义资源之间链接多个列可能会对性能产生显着影响。 **0或1个基数简单链接** 优先于 **1个基数简单链接**.
 
-* 该集成支持在基元Microsoft Dynamics 365数据类型（布尔、整数、小数、双精度、字符串、DateTime、日期）和Adobe Campaign Standard数据类型（整数、布尔、浮点、双精度、日期、日期时间、字符串）之间进行转换。 更高级的数据类型将解释为字符串并按原样同步。
+* 该集成支持基元Microsoft Dynamics 365数据类型（布尔、整数、小数、双精度、字符串、DateTime、日期）和Adobe Campaign Standard数据类型（整数、布尔、浮点、双精度、日期、日期时间、字符串）之间的转换。 更高级的数据类型将解释为字符串并按原样同步。
 
 * 可能需要在Adobe和客户之间建立入门维护窗口。
 
 * 请注意，集成的使用量显着增加或“激增”（例如，新记录或更新记录的急剧增加）可能会导致数据同步速度减慢。
 
-* 在集成中，您将需要完成Microsoft Azure和Dynamics 365中的集成前配置步骤。 请参阅此页面](../../integrating/using/d365-acs-configure-d365.md)上的配置步骤[
+* 在集成中，您将需要完成Microsoft Azure和Dynamics 365中的集成前配置步骤。 请参阅配置步骤 [本页](../../integrating/using/d365-acs-configure-d365.md)
 
 * 预计您会将Dynamics 365和Campaign数据模型引入集成并进行维护。
 
@@ -193,7 +193,7 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 
 该集成旨在解决Microsoft Dynamics 365与Campaign之间常见数据移动的一般用例，但它并非旨在解决每个客户特定的每个用例：
 
-* 该集成不会发出任何隐私（例如GDPR）删除。 履行最终用户隐私请求的责任由客户承担；此类请求应在Campaign(通过Adobe Experience Platform Privacy Service)和Dynamics 365中独立进行。 如果需要，集成可发出常规删除以帮助进行数据同步。   有关更多信息，请参阅[隐私部分](#manage-privacy-requests)。
+* 该集成不会发出任何隐私（例如GDPR）删除。 履行最终用户隐私请求的责任由客户承担；此类请求应在Campaign(通过Adobe Experience Platform Privacy Service)和Dynamics 365中独立进行。 如果需要，集成可发出常规删除以帮助进行数据同步。   审阅 [隐私部分](#manage-privacy-requests) 以了解更多信息。
 
 * 除选择退出信息（如果客户进行配置）外，任何用户档案或自定义实体数据都不会从Campaign同步到Dynamics 365。
 
@@ -201,4 +201,4 @@ Dynamics 365选择退出数据流的双向和Campaign是例外。 对于这些�
 
 * 不支持在Dynamics 365中编写和触发Campaign电子邮件促销活动。
 
-* 该集成支持在Dynamics 365和Campaign Standard数据模型之间重构数据。 ****&#x200B;预计该集成会将一个Dynamics 365表同步到一个Campaign表。
+* 该集成可执行 **not** 支持在Dynamics 365和Campaign Standard数据模型之间重构数据。 预计该集成会将一个Dynamics 365表同步到一个Campaign表。

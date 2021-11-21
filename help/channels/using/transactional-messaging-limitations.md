@@ -26,13 +26,13 @@ ht-degree: 67%
 
 ## 权限 {#permissions}
 
-只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的用户才能配置事务事件和访问事务型消息。
+仅具有 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以配置事务型事件和访问事务型消息。
 
 ## 事件配置和发布 {#design-and-publication}
 
 配置和发布事务型事件时，需要执行的某些步骤无法恢复。 您需要了解以下限制：
 
-* 事务性消息传递的可用渠道包括：**[!UICONTROL Email]**、**[!UICONTROL Mobile (SMS)]**&#x200B;和&#x200B;**[!UICONTROL Push notification]**。
+* 事务性消息传递的可用渠道包括： **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** 和 **[!UICONTROL Push notification]**.
 * 每个事件配置只能使用一个渠道。请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 * 创建事件后，便无法更改渠道。因此，您需要设计一种机制，在某个消息未成功发送时，允许通过某种工作流从其他渠道发送该消息。请参阅[工作流数据和流程](../../automating/using/get-started-workflows.md)。
 * 创建事件后，就无法再更改定向维度（**[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]**）。请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
@@ -41,9 +41,9 @@ ht-degree: 67%
 
 ## 事务型消息数 {#transactional-message-number}
 
-已发布的事务型消息数量可能会对您的平台产生重大影响。 为获得最佳性能，已发布的事务型消息数应保持在100以下。 要确保这一点，请取消发布或删除任何未使用的事务型消息。 请参阅[取消发布事务型消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)和[删除事务型消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)。
+已发布的事务型消息数量可能会对您的平台产生重大影响。 为获得最佳性能，已发布的事务型消息数应保持在100以下。 要确保这一点，请取消发布或删除任何未使用的事务型消息。 请参阅 [取消发布事务型消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [删除事务型消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-为确保获得最佳性能，您还可以取消发布或删除未使用的事件。 事实上，取消发布或删除事件也会取消发布或删除相应的事务型消息及其发送和跟踪日志（如果有）。 请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)和[删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
+为确保获得最佳性能，您还可以取消发布或删除未使用的事件。 事实上，取消发布或删除事件也会取消发布或删除相应的事务型消息及其发送和跟踪日志（如果有）。 请参阅 [取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 和 [删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## 个性化 {#personalization}
 
@@ -51,20 +51,20 @@ ht-degree: 67%
 
 ### 基于事件的事务型消息
 
-* 个性化信息来自事件本身包含的数据。请参阅[基于事件的事务型消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
-* **不能**&#x200B;在事件事务型消息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块。
-* 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。但是，您也可以使用 Adobe Campaign 数据库中的信息扩充事务型消息的内容。请参阅[扩充事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+* 个性化信息来自事件本身包含的数据。请参阅 [基于事件的事务型消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* 您 **无法** use **[!UICONTROL Unsubscription link]** 事件事务型消息中的内容块。
+* 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。但是，您也可以使用 Adobe Campaign 数据库中的信息扩充事务型消息的内容。请参阅 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * 由于事件事务型消息不包含用户档案信息，所以就算使用用户档案扩充了内容，也不兼容疲劳规则。
 
 ### 基于用户档案的事务型消息
 
-* 个性化信息可以来自事件中包含的数据，也可以来自协调的用户档案记录。请参阅[基于用户档案的事务型消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[基于用户档案的事务型消息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
-* **可以**&#x200B;在用户档案事务型消息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块。 请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
+* 个性化信息可以来自事件中包含的数据，也可以来自协调的用户档案记录。请参阅 [基于用户档案的事务型消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 和 [基于用户档案的事务型消息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* 您 **can** use **[!UICONTROL Unsubscription link]** 用户档案事务型消息中的内容块。 请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲劳规则与用户档案事务型消息兼容。请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
 
 ### 产品列表
 
-请注意，产品清单仅在事务型&#x200B;**电子邮件消息**&#x200B;中可用。 请参阅[在事务型消息中使用产品清单](../../designing/using/using-product-listings.md)。
+请注意，产品清单在事务型 **电子邮件** 仅。 请参阅[在事务型消息中使用产品清单](../../designing/using/using-product-listings.md)。
 
 ## 品牌化 {#permissions-and-branding}
 

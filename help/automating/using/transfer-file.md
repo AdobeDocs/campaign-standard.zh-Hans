@@ -72,7 +72,7 @@ ht-degree: 88%
 
 利用 HTTP 协议，可从外部帐户或 URL 开始下载文件。
 
-使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -84,7 +84,7 @@ ht-degree: 88%
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项，然后选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项，然后选择所需的帐户并指定下载文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -109,7 +109,7 @@ ht-degree: 88%
    >
    > Amazon S3不支持通配符。
    >
-   > 要定位多个文件（如`my_file_02`和`my _file_3433`），可以使用以下语法：`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
+   > 要定位多个文件，例如 `my_file_02` 和 `my _file_3433`，您可以使用以下语法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. 如果要在传输完成时删除源文件，请勾选 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -173,9 +173,9 @@ ht-degree: 88%
 
 ## 输出变量 {#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;活动会生成事件变量作为输出，您可以在其他活动中利用该变量，例如，使用[Test](../../automating/using/test.md)活动检查下载的文件数。
+的 **[!UICONTROL Transfer file]** 活动会生成事件变量作为输出，您可以在其他活动中利用该变量，例如，使用 [测试](../../automating/using/test.md) 活动。
 
-请注意，事件变量也可以使用外部信号传递到另一个工作流（请参阅[使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md)）。
+请注意，事件变量还可以使用外部信号传递到另一个工作流(请参阅 [使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md))。
 
 可用的输出变量包括：
 

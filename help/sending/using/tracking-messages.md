@@ -23,12 +23,12 @@ ht-degree: 25%
 
 您可以通过授权请求（例如，页面上出现）告知用户，您的网站已配备Web跟踪工具，并且会选中一个复选框来授权使用Cookie，或在用户登陆的第一个页面顶部添加横幅等。 应避免使用弹出窗口，因为浏览器通常会拦截此类窗口。
 
-可在&#x200B;**[!UICONTROL integrated customer profiles]**&#x200B;中找到数据库的每个联系人的跟踪信息。 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
+跟踪信息可供数据库中每个联系人使用 **[!UICONTROL integrated customer profiles]**. 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用两种类型的 Cookie：
 
 * 会话Cookie(nlid)。 其中包含发送给联系人的电子邮件的标识符(broadlogId)和消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
-* 在Adobe Experience Cloud解决方案之间共享的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。[此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)提供了此Cookie的描述。
+* 在Adobe Experience Cloud解决方案之间共享的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。此Cookie的说明可用 [此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 通过Adobe Campaign Standard跟踪，您可以访问以下功能：
 
@@ -61,11 +61,11 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 ## 跟踪日志 {#tracking-logs}
 
-**[!UICONTROL Tracking logs]**&#x200B;选项卡列出了此投放的跟踪历史记录。 此选项卡显示已发送消息的跟踪信息，如Adobe Campaign已跟踪的所有URL。 此选项卡中的跟踪信息每10分钟更新一次。
+的 **[!UICONTROL Tracking logs]** 选项卡列出了此投放的跟踪历史记录。 此选项卡显示已发送消息的跟踪信息，例如Adobe Campaign已跟踪的所有URL。 此选项卡中的跟踪信息每10分钟更新一次。
 
 >[!NOTE]
 >
->如果未为投放启用跟踪，则不会显示此选项卡。 跟踪日志仅适用于&#x200B;**email**&#x200B;和&#x200B;**推送通知**&#x200B;渠道。
+>如果未为投放启用跟踪，则不会显示此选项卡。 跟踪日志可用于 **电子邮件** 和 **推送通知** 仅渠道。
 
 ![](assets/tracking_logs.png)
 
@@ -75,7 +75,7 @@ Adobe Campaign 使用两种类型的 Cookie：
 * 单击镜像页面链接。
 * 单击“了解更多”自定义链接。
 
-在&#x200B;**[!UICONTROL Type]**&#x200B;列中，可能的值为：
+在 **[!UICONTROL Type]** 列中的可能值包括：
 
 * **[!UICONTROL Email click]**:收件人点击了自定义链接。
 * **[!UICONTROL Mirror page]**:收件人单击了指向镜像页面的链接。
@@ -84,16 +84,16 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 >[!NOTE]
 >
->对于&#x200B;**推送通知**&#x200B;渠道，仅跟踪移动通知的点击。 在这种情况下，值将为&#x200B;**[!UICONTROL Click on mobile notification]**。
+>对于 **推送通知** 渠道，则仅跟踪移动通知的点击。 在这种情况下，值将为 **[!UICONTROL Click on mobile notification]**.
 
-有关如何插入跟踪链接的更多信息，请参阅[此页面](../../designing/using/links.md#inserting-a-link)。
+有关如何插入跟踪链接的更多信息，请参阅 [本页](../../designing/using/links.md#inserting-a-link).
 
-**[!UICONTROL Tracking indicators]**&#x200B;报告包含在收到电子邮件后跟踪行为的关键指标。 有关详细信息，请参见此 [ 页面](../../reporting/using/tracking-indicators.md)。
+的 **[!UICONTROL Tracking indicators]** 报表包含在收到电子邮件后跟踪行为的关键指标。 有关详细信息，请参见此 [ 页面](../../reporting/using/tracking-indicators.md)。
 
 ## 跟踪的URL {#tracked-urls}
 
-**[!UICONTROL Tracked URLs]**&#x200B;选项卡会重组已发送消息中包含的URL，包括其URL类型和源URL。
+的 **[!UICONTROL Tracked URLs]** 选项卡会重组已发送消息中包含的URL，包括其URL类型和源URL。
 
 ![](assets/sending_delivery6.png)
 
-有关跟踪链接的更多信息，请参阅[此部分](../../designing/using/links.md#about-tracked-urls)。
+有关跟踪链接的更多信息，请参阅 [此部分](../../designing/using/links.md#about-tracked-urls).

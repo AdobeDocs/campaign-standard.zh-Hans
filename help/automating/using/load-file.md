@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。使用此选项可在加载数据之前解压缩文件。仅当文件来自活动的集客过渡时，此选项才可用。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;字段还允许您在将文件导入数据库之前解密文件。 有关如何处理加密文件的更多信息，请参阅[此部分](../../automating/using/managing-encrypted-data.md)
+   的 **[!UICONTROL Add a pre-processing stage]** 字段还允许您在将文件导入数据库之前解密文件。 有关如何处理加密文件的更多信息，请参阅 [此部分](../../automating/using/managing-encrypted-data.md)
 
 1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。激活该选项后，叫客过渡将重命名为“Rejects”。
 

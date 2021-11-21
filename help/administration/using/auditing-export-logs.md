@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # 审核导出日志{#auditing-export-logs}
 
-从&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;中，管理员可以查看以下所有导出的列表，包括其日期和执行导出的用户：
+从 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理员可以查看以下所有导出的列表，包括其日期和执行导出的用户：
 
-* 从工作流中的&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动上传文件。
+* 从 **[!UICONTROL Transfer file]** 活动。
 * 从列表或子列表导出列表。
 * 从直邮投放仪表板下载的文件。
 
@@ -29,4 +29,4 @@ ht-degree: 5%
 
 从左窗格中，您可以根据需要筛选要显示的导出。
 
-可以将列表导出为单独的文件，如[导出列表](../../automating/using/exporting-lists.md)部分中所述。
+您可以将列表导出为单独的文件，如 [导出列表](../../automating/using/exporting-lists.md) 中。

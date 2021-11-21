@@ -19,15 +19,15 @@ ht-degree: 2%
 
 ## 插入链接 {#inserting-a-link}
 
-利用编辑器，可通过将链接插入HTML内容元素，以个性化电子邮件或登陆页面。
+利用编辑器，可通过将链接插入到HTML内容元素中，来个性化电子邮件或登陆页面。
 
 您可以将链接插入到任何页面元素中：图像、单词、词组、文本块等。
 
 >[!NOTE]
 >
->下图显示了如何使用电子邮件中的[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)插入链接。
+>下图显示了如何使用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 电子邮件中。
 
-1. 选择一个元素，然后单击上下文工具栏中的&#x200B;**[!UICONTROL Insert link]**。
+1. 选择元素并单击 **[!UICONTROL Insert link]** 中。
 
    ![](assets/des_insert_link.png)
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
    * **外部链接**:插入指向外部URL的链接。
 
-      您可以为URL定义个性化。 请参阅[个性化URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+      您可以为URL定义个性化。 请参阅 [个性化URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
    * **登陆页面**:授予对Adobe Campaign登陆页面的访问权限。
    * **订阅链接**:插入链接以订阅Adobe Campaign服务。
@@ -59,13 +59,13 @@ ht-degree: 2%
 
 ![](assets/des_link_edit.png)
 
-使用[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)编辑电子邮件时，您可以轻松地访问和修改从表格创建的链接，该表格列出了电子邮件中包含的所有URL。 利用此列表，可以集中查看并查找电子邮件内容中的每个URL。 要访问该URL，请参阅[关于跟踪的URL](#about-tracked-urls)。
+使用 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)，则可以轻松地访问和修改从表格创建的链接，该表格列出了电子邮件中包含的所有URL。 利用此列表，可以集中查看并查找电子邮件内容中的每个URL。 要访问它，请参阅 [关于跟踪的URL](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->无法从此列表修改个性化URL，如&#x200B;**镜像页面URL**&#x200B;或&#x200B;**退订**&#x200B;链接。 所有其他链接均可编辑。
+>个性化URL，例如 **镜像页面URL** 或 **退订** 无法从此列表修改链接。 所有其他链接均可编辑。
 
 **相关主题**：
 
@@ -77,13 +77,13 @@ ht-degree: 2%
 
 Adobe Campaign允许您在收件人单击电子邮件中包含的URL时跟踪其行为。 有关跟踪的更多信息，请参阅[此部分](../../sending/using/tracking-messages.md#about-tracking)。
 
-操作栏中的&#x200B;**[!UICONTROL Links]**&#x200B;图标会自动显示要跟踪的内容的所有URL的列表。
+的 **[!UICONTROL Links]** 图标会自动显示要跟踪的内容的所有URL的列表。
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->默认情况下，会激活跟踪。 仅当已在Adobe Campaign中激活跟踪时，此功能仅适用于电子邮件。 有关跟踪参数的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#tracking-parameters)。
+>默认情况下，会激活跟踪。 仅当已在Adobe Campaign中激活跟踪时，此功能仅适用于电子邮件。 有关跟踪参数的更多信息，请参阅 [此部分](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 可以从此列表修改每个链接的URL、类别、标签和跟踪类型。 要编辑链接，请单击相应的铅笔图标。
 
@@ -93,7 +93,7 @@ Adobe Campaign允许您在收件人单击电子邮件中包含的URL时跟踪其
 
 * **跟踪**:在此URL上激活跟踪。
 * **镜像页面**:将此URL视为镜像页面URL。
-* **从不**:从不激活此URL的跟踪。此信息已保存：如果URL在将来的消息中再次显示，则其跟踪将自动停用。
+* **从不**:从不激活此URL的跟踪。 此信息已保存：如果URL在将来的消息中再次显示，则其跟踪将自动停用。
 * **选择退出**:将此URL视为选择退订或退订URL。
 
 ![](assets/des_link_tracking_type.png)
@@ -102,14 +102,14 @@ Adobe Campaign允许您在收件人单击电子邮件中包含的URL时跟踪其
 
 >[!NOTE]
 >
->默认情况下，在Adobe Campaign中，将跟踪除&#x200B;**镜像页面URL**&#x200B;和&#x200B;**退订**&#x200B;链接之外的所有内容URL。
+>在Adobe Campaign中，默认情况下会跟踪除 **镜像页面URL** 和 **退订** 链接。
 
-您可以通过编辑&#x200B;**[!UICONTROL Category]**&#x200B;字段来重组您的URL，具体取决于消息中使用的URL。 这些类别可以显示报表，例如在[URL中，然后单击流](../../reporting/using/urls-and-click-streams.md)。
+您可以通过编辑 **[!UICONTROL Category]** 字段，具体取决于消息中使用的URL。 这些类别可显示报表，例如 [URL和点击流](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-生成报告时，从&#x200B;**[!UICONTROL Components]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Dimension]**&#x200B;并向下滚动列表以访问跟踪组件。 例如，将&#x200B;**[!UICONTROL Tracking URL Category]**&#x200B;拖放到工作区中，以根据每个点击的URL的跟踪类别显示结果。
+在生成报表时，从 **[!UICONTROL Components]** 选项卡，选择 **[!UICONTROL Dimension]** 并向下滚动列表以访问跟踪组件。 例如，拖放 **[!UICONTROL Tracking URL Category]** 在工作区中，根据每个点击URL的跟踪类别显示结果。
 
 ![](assets/des_link_tracking_report.png)
 
-有关构建自定义报表的更多信息，请参阅[此部分](../../reporting/using/about-dynamic-reports.md)。
+有关构建自定义报表的更多信息，请参阅 [此部分](../../reporting/using/about-dynamic-reports.md).

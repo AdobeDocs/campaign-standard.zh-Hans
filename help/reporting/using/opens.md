@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 打开{#opens}
 
-**[!UICONTROL Opens]**&#x200B;报告可识别收件人查看次数最多的投放。
+的 **[!UICONTROL Opens]** 报表可识别收件人查看次数最多的投放。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 4%
 * 平台
 * 域
 
-**[!UICONTROL TOP 5]**&#x200B;表格和图表显示消息数量最多的投放。
+的 **[!UICONTROL TOP 5]** 表格和图形可显示消息数量最多的投放。

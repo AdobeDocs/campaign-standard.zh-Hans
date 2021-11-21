@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # 查询样例 {#query-samples}
 
-本节介绍使用&#x200B;**[!UICONTROL Query]**&#x200B;活动时的用例。 有关如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活动的更多信息，请参阅[此部分](../../automating/using/query.md)。
+本节介绍在使用 **[!UICONTROL Query]** 活动。 有关如何使用的更多信息 **[!UICONTROL Query]** 活动，请参阅 [此部分](../../automating/using/query.md).
 
 ## 基于简单用户档案属性定向 {#targeting-on-simple-profile-attributes}
 

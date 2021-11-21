@@ -28,7 +28,7 @@ ht-degree: 76%
 
 配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。此部分](#creating-a-brand)中详细介绍了在Campaign中获取新品牌的步骤。[
+1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。详细介绍了在Campaign中获取新品牌的步骤 [在此部分中](#creating-a-brand).
 1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
@@ -89,13 +89,13 @@ ht-degree: 76%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
 
-1. **配置新子域**  — 对于要由Adobe使用的任何新子域，第一步将是对其进行配置。您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)执行此操作，或联系Adobe技术联系人。 在本文](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)中了解有关子域配置[的更多信息。
+1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过 [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或联系您的Adobe技术联系人。 了解有关子域配置的更多信息 [在本文中](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
-1. **创建票证**  — 配置子域后，Adobe将在您的生产环境中对其进行设置。要请求此请求，[使用以下信息为客户关怀团队创建票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html):
+1. **创建票证**  — 配置子域后，Adobe将在生产环境中对其进行设置。 为了请求， [为客户关怀创建票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) ，并提供以下信息：
 
    * 主题：ACS新品牌设置
 
@@ -105,9 +105,9 @@ ht-degree: 76%
 
    * 生产URL:XXX.campaign.adobe.com
 
-1. **创建投放模板**  — 在新品牌可用后，最佳实践是至少创建一个引用此新品牌的新空白投放模板。[了解详情](#linking-a-brand-to-a-template)。
+1. **创建投放模板**  — 新品牌可用后，最佳做法是至少创建一个引用该新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查投放能力准则**  — 在开始使用新域之前，应与Adobe投放能力团队讨论该策略。例如，如果应创建新亲和度以在域之间拆分IP，和/或应定义提升计划，则这些变量将有助于定义最佳实践。 在此部分](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践的更多信息。[
+1. **检查投放能力准则**  — 在开始使用新域之前，应与Adobe投放能力团队讨论该策略。 例如，如果应创建新亲和度以在域之间拆分IP，和/或应定义提升计划，则这些变量将有助于定义最佳实践。 了解有关可投放性最佳实践的更多信息 [在此部分中](../../sending/using/about-deliverability.md).
 
 ## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 
@@ -151,7 +151,7 @@ ht-degree: 76%
 >
 >仅在需要特定权限和技术设置时，才由 Adobe 管理品牌配置。
 
-1. Adobe Campaign管理员首先从&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;菜单创建品牌，并添加&#x200B;**Vacations in the Tropics**&#x200B;元素，然后配置品牌的&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Header parameters of sent emails]**。
+1. Adobe Campaign管理员首先通过 **[!UICONTROL Administration > Instance settings > Brand configuration]** ，并添加 **热带度假** 元素，并配置 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的一部分。
 
    ![](assets/branding_07.png)
 

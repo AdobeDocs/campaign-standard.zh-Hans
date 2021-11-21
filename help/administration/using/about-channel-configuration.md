@@ -26,6 +26,6 @@ ht-degree: 4%
 * 消息属性。 创建新消息时，您可以根据需要查找属性。
 * 某些渠道提供了其他可选配置，例如电子邮件密送。
 
-**[!UICONTROL Channel]**&#x200B;菜单可重组链接到不同应用程序渠道（电子邮件、短信）的技术参数，以及分类和隔离管理。
+的 **[!UICONTROL Channel]** 菜单可重组链接到不同应用程序渠道（电子邮件、短信）的技术参数，以及分类和隔离管理。
 
-管理员可以通过&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]**&#x200B;菜单访问这些配置。
+管理员可以在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单。

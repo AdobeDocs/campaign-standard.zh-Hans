@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # 转换旧版编辑器电子邮件内容 {#converting-an-html-content}
 
-开始使用Email Designer，并从旧版编辑器中创建的电子邮件HTML中构建可重用的模板和片段。
+开始使用Email Designer，并从在旧版编辑器中创建的电子邮件HTML中构建可重用的模板和片段。
 
-此用例允许您通过使用HTML电子邮件并在Email Designer中将其划分为HTML组件来创建Email Designer模板。
+此用例允许您通过使用HTML电子邮件创建Email Designer模板，并将其划分为Email Designer中的HTML组件。
 
 >[!NOTE]
 >
@@ -32,23 +32,23 @@ ht-degree: 8%
 ## 准备电子邮件内容
 
 1. 选择HTML电子邮件。
-1. 识别要划分HTML电子邮件的部分。
-1. 从HTML中切出不同的块。
+1. 确定要划分HTML电子邮件的部分。
+1. 从您的HTML中切出不同的块。
 
 ## 创建电子邮件结构
 
-1. 打开&#x200B;**[!UICONTROL Email Designer]**&#x200B;以创建空的电子邮件内容。
+1. 打开 **[!UICONTROL Email Designer]**  创建空电子邮件内容。
 1. 设置主体级别属性：背景颜色、宽度等 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
 1. 添加尽可能多的结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ## 添加HTML内容
 
-1. 向每个结构组件添加一个HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 向每个结构组件添加HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到每个组件中。
 
 ## 管理电子邮件的样式 {#manage-the-style-of-your-email}
 
-1. 切换到&#x200B;**[!UICONTROL Mobile view]**。 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到 **[!UICONTROL Mobile view]**. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 1. 要修复此问题，请切换到源代码模式，然后将样式部分复制并粘贴到新样式部分中。 例如：
 
@@ -78,7 +78,7 @@ ht-degree: 8%
 
 ## 用例
 
-让我们尝试将在旧版编辑器中创建的此电子邮件转换为&#x200B;**[!UICONTROL Email Designer]**&#x200B;模板。
+让我们尝试将此在旧版编辑器中创建的电子邮件转换为 **[!UICONTROL Email Designer]** 模板。
 
 ### 识别电子邮件的部分
 
@@ -86,15 +86,15 @@ ht-degree: 8%
 
 ![](assets/html-dce-view-mail.png)
 
-要识别HTML的哪个部分是元素，您可以选择该元素。
+要确定HTML的哪个部分是元素，您可以选择该元素。
 
 ![](assets/breadcrumbs.png)
 
-要查看电子邮件的HTML版本，请单击&#x200B;**[!UICONTROL Show source]**。
+要查看电子邮件的HTML版本，请单击 **[!UICONTROL Show source]**.
 
 ### 创建电子邮件模板及其结构
 
-1. 拖放&#x200B;**[!UICONTROL Structure components]**&#x200B;以反映电子邮件的布局。
+1. 拖放 **[!UICONTROL Structure components]**  反映我们电子邮件的布局。
 
 1. 根据需要重复多次。 我们需要创建11个结构组件。
 
@@ -102,11 +102,11 @@ ht-degree: 8%
 
 ### 插入HTML内容组件
 
-1. 在每个&#x200B;**[!UICONTROL Structure component]**&#x200B;中插入&#x200B;**[!UICONTROL HTML component]** 。
+1. 插入 **[!UICONTROL HTML component]**  每个 **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. 对于每个部分，单击&#x200B;**[!UICONTROL Show source code]** 。
+1. 对于每个部分，单击 **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ ht-degree: 8%
 
 1. 切换到源代码，并将样式部分复制并粘贴到新样式部分中。
 
-有关更多信息，请参阅[管理电子邮件的样式](#manage-the-style-of-your-email)。
+有关更多信息，请参阅 [管理电子邮件的样式](#manage-the-style-of-your-email).
 
 现在，您的旧版电子邮件可在Email Designer中使用。

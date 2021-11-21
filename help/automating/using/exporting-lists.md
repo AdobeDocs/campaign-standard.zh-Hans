@@ -17,34 +17,34 @@ ht-degree: 6%
 
 # 导出列表{#exporting-lists}
 
-Adobe Campaign允许您直接在文件中导出列表供将来使用。 在文件中导出列表时，会在&#x200B;**[!UICONTROL Export audits]**&#x200B;菜单中生成日志条目。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
+Adobe Campaign允许您直接在文件中导出列表供将来使用。 在文件中导出列表时，会在 **[!UICONTROL Export audits]** 菜单。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
 
 ![](assets/do-not-localize/how-to-video.png) [了解如何在视频中配置列表](#video)
 
-默认情况下，导出列表选项允许导出最多100,000行，具体行数由&#x200B;**Nms_ExportListLimit**&#x200B;选项定义。 功能管理员可通过&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;菜单管理此选项。
+默认情况下，导出列表选项允许导出最多100,000行，具体行数由 **Nms_ExportListLimit** 选项。 功能管理员可在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜单。
 
-对于具有&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;角色的用户，所有具有&#x200B;**列表**&#x200B;模式视图的屏幕中都提供导出列表。
+在具有 **列表** 模式视图，对于具有 **[!UICONTROL EXPORT (export)]** 角色。
 
-1. 转到您选择的&#x200B;**List**&#x200B;屏幕。 例如，测试用户档案概述屏幕(**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**)。
-1. 检查屏幕是否处于&#x200B;**List**&#x200B;模式。
+1. 转到您选择的 **列表** 屏幕。 例如，测试用户档案概述屏幕( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
+1. 检查屏幕是否位于 **列表** 模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用右上角的&#x200B;**[!UICONTROL Configure list]**&#x200B;按钮，按要导出列表的顺序组织列。 除了配置的列之外，资源的主键也将导出。
+1. 按照要使用导出列表中的列的顺序，组织列表中的列 **[!UICONTROL Configure list]** 按钮。 除了配置的列之外，资源的主键也将导出。
 1. 如果需要，可以应用过滤器。 为此，请单击左上角的按钮以显示搜索窗格。
 
    如果从包含不同资源的列表进行导出，则必须应用过滤器，以便列表中仅显示一种类型的资源。
 
 1. 如果需要，请对所选列进行排序。
-1. 选择导出按钮![](assets/exportlistbutton.png)。
+1. 选择导出按钮 ![](assets/exportlistbutton.png).
 
    将显示一个弹出窗口以确认导出。 确认导出后，文件将自动下载到您的计算机。
 
-文件以CSV格式生成，扩展名为.TXT。 它将根据导出的资源和导出日期命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12:02:53执行的配置文件导出。 它采用UTF-8格式进行编码。
+文件以CSV格式生成，扩展名为.TXT。 它将根据导出的资源和导出日期命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12时执行的配置文件导出:02:53. 它采用UTF-8格式进行编码。
 
 数值和日期考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 
-要执行大于此范围的导出，您必须创建专用工作流。 请参阅[提取文件](../../automating/using/extract-file.md)一节。
+要执行大于此范围的导出，您必须创建专用工作流。 请参阅 [提取文件](../../automating/using/extract-file.md) 中。
 
 **示例**
 
@@ -82,4 +82,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

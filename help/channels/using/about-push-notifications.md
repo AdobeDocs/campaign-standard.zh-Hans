@@ -83,7 +83,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 * [视频教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [产品文档](../../channels/using/about-push-notifications.md)
-* 使用AEP SDK [文档](../../administration/using/configuring-a-mobile-application.md)进行配置
+* 使用AEP SDK配置 [文档](../../administration/using/configuring-a-mobile-application.md)
 * [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 在Campaign中获取推送令牌时必须执行哪些操作？ {#push-token-acquisition}
@@ -120,11 +120,11 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 我已成功上传推送证书，但未发送推送消息。 {#push-certificates-upload}
 
-请通过在[此处](https://pushtry.com/)测试您的推送证书，以确保这些证书有效。
+请通过测试您的推送证书以确保其有效 [此处](https://pushtry.com/).
 
 ### 我能够从pushtry.com成功发送推送通知，但不能通过Campaign发送。 {#push-not-sending}
 
-请确保遵循[此处](../../administration/using/push-payload.md)提供的推送负载说明。
+请确保遵循提供的推送负载说明 [此处](../../administration/using/push-payload.md).
 
 请注意，对于Android，Campaign仅支持数据有效负载，而不支持通知有效负载
 
@@ -138,26 +138,26 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 推送通知从Campaign传送，但媒体文件未显示。{#media-file-unavailable}
 
-移动设备应用程序开发人员需要处理应用程序中对媒体文件的支持。 有时，网络带宽也可能会阻止媒体文件渲染。 有关其他指针，请参阅此[页面](../../administration/using/image-push-notification.md)。
+移动设备应用程序开发人员需要处理应用程序中对媒体文件的支持。 有时，网络带宽也可能会阻止媒体文件渲染。 请参阅 [页面](../../administration/using/image-push-notification.md) 其他指针。
 
 ### 在Campaign中启用推送报告时，我必须执行哪些操作？ {#push-reporting-enable}
 
 按照下面的步骤进行操作：
 
-* 配置推送跟踪回发。 有关说明，请参见[此处](../../administration/using/configuring-a-mobile-application.md)。
-* 从移动核心实施trackAction API。 有关更多信息，请参阅此[页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)。
+* 配置推送跟踪回发。 有关说明，请参阅 [此处](../../administration/using/configuring-a-mobile-application.md).
+* 从移动核心实施trackAction API。 请参阅 [页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 以了解更多信息。
 
-此[page](../../administration/using/push-tracking.md)中提供了更多详细说明。
+有关更多详细说明，请参阅 [页面](../../administration/using/push-tracking.md).
 
 ### 哪些报表可用于推送渠道？ {#push-report-available}
 
-Adobe Campaign for Push渠道中提供了现成报表。 请参阅此[文档](../../reporting/using/push-notification-report.md)。
+Adobe Campaign for Push渠道中提供了现成报表。 请参阅 [文档](../../reporting/using/push-notification-report.md).
 
-请参阅此[页面](../../reporting/using/indicator-calculation.md#push-notification-delivery)以了解如何计算每个推送量度。
+请参阅 [页面](../../reporting/using/indicator-calculation.md#push-notification-delivery) 以了解如何计算每个推送量度。
 
 ### 推送消息和应用程序内消息是否支持深层链接？ {#deeplink-push}
 
 是，推送消息支持深层链接。 深层链接应包括：
 
 * 声明投放跟踪需要禁用才能使深层链接正常工作的语言。
-* Appsflyer与Branch合作，共同执行深层链接跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅此[页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer与Branch合作，共同执行深层链接跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅 [页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

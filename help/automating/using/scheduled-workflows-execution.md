@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在Campaign Standard中，工作流引擎保证只有一个进程执行工作流实例。 阻止活动（如导入、长时间运行的查询或写入数据库）会阻止在运行时执行任何其他任务。
 
-另一方面，无阻塞活动不会阻止执行其他任务（通常是等待事件的活动，如&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动）。
+另一方面，无阻塞活动不会阻止执行其他任务(通常是等待事件的活动，例如 **[!UICONTROL Scheduler]** 活动)。
 
 这可能会导致一种情况，即使上次运行同一工作流尚未完成，基于计划的工作流仍可以开始执行，这可能会导致意外的数据问题。
 
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 ## 配置工作流
 
-要检查上一个工作流执行中的一个或多个任务是否仍处于挂起状态，您需要使用&#x200B;**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Test]**&#x200B;活动。
+要检查上一个工作流执行中的一个或多个任务是否仍处于挂起状态，您需要使用 **[!UICONTROL Query]** 和 **[!UICONTROL Test]** 活动。
 
-1. 在&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动之后添加&#x200B;**[!UICONTROL Query]**&#x200B;活动，然后按如下方式对其进行配置。
+1. 添加 **[!UICONTROL Query]** 活动之后 **[!UICONTROL Scheduler]** 活动，然后按如下方式对其进行配置。
 
-1. 将活动的资源更改为&#x200B;**[!UICONTROL WorkflowTaskDetail]**，这意味着它将定向工作流的当前任务。
+1. 将活动的资源更改为 **[!UICONTROL WorkflowTaskDetail]**，这意味着它将定位工作流的当前任务。
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >当&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动启动时，它会立即添加另一个计划任务以在下一个计划时间运行并启动工作流。 因此，在从上一次执行中查找待定任务时，务必要筛选查询和计划任务。
+      >当 **[!UICONTROL Scheduler]** 活动启动后，它会立即添加另一个计划任务以在下一个计划时间运行并启动工作流。 因此，在从上一次执行中查找待定任务时，务必要筛选查询和计划任务。
 
    * 第二条规则确定上次运行工作流中的任何任务是否仍然处于活动状态（待处理），该状态与0个执行状态相对应。
 
-1. 添加&#x200B;**[!UICONTROL Test]**&#x200B;活动，以检查&#x200B;**[!UICONTROL Query]**&#x200B;活动返回的待处理任务数。 为此，请配置两个叫客过渡。
+1. 添加 **[!UICONTROL Test]** 活动，以检查 **[!UICONTROL Query]** 活动。 为此，请配置两个叫客过渡。
 
    ![](assets/scheduled-wkf-test.png)
 

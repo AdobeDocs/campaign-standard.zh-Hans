@@ -22,11 +22,11 @@ ht-degree: 68%
 
 此工作流旨在以外部文件的形式导出用户档案列表，以便在 Adobe Campaign 之外使用该数据。
 
-1. 将[提取文件](../../automating/using/extract-file.md)活动拖放到工作流中，并将其放在[Query](../../automating/using/query.md)活动之后。
+1. 拖放 [提取文件](../../automating/using/extract-file.md) 活动，并将其放在 [查询](../../automating/using/query.md) 活动。
 
    在本例中，就是对 18 至 30 岁的所有用户档案执行查询。
 
-1. 打开&#x200B;**[!UICONTROL Extract file]**&#x200B;活动以对其进行编辑。
+1. 打开 **[!UICONTROL Extract file]** 活动进行编辑。
 1. 为输出文件命名。
 1. 添加输出列。
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 确认您的活动。
-1. 将[传输文件](../../automating/using/transfer-file.md)活动拖放到&#x200B;**[!UICONTROL Extract file]**&#x200B;活动之后，以在外部帐户上恢复提取文件。
+1. 拖放 [传输文件](../../automating/using/transfer-file.md) 活动之后 **[!UICONTROL Extract file]** 活动以在外部帐户上取回提取文件。
 1. 打开活动并选择 **[!UICONTROL File upload]** 操作。
 
    ![](assets/wkf_data_export11.png)

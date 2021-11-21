@@ -18,13 +18,13 @@ ht-degree: 74%
 
 # 事务性消息生命周期 {#publishing-transactional-message}
 
-当[事务型消息](../../channels/using/editing-transactional-message.md)准备就绪后，即可发布该消息。
+当 [事务性消息](../../channels/using/editing-transactional-message.md) 已准备好发送，可以发布。
 
 下面详细介绍了发布、暂停、取消发布和删除事务型消息的步骤。
 
 >[!IMPORTANT]
 >
->只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的用户才能访问和发布事务型消息。
+>仅具有 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和发布事务型消息。
 
 ## 事务型消息传递发布流程 {#transactional-messaging-pub-process}
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 发布事务型消息 {#publishing-a-transactional-message}
 
-编辑并测试事务型消息后，即可发布该消息。 只需单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮即可。
+编辑并测试事务型消息后，即可发布该消息。 只需单击 **[!UICONTROL Publish]** 按钮。
 
 ![](assets/message-center_12.png)
 
 现在，一旦触发“购物车废弃”事件，就会自动提示发送消息，其中包含收件人的头衔和姓氏、购物车 URL、查看的最后一个产品或产品清单（如果您定义了产品清单）以及购物车总金额。
 
-要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。请参阅[动态报告](../../reporting/using/about-dynamic-reports.md)。
+要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。请参阅 [动态报告](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
-排队事件的保留期限，在REST API中定义（请参阅[REST API文档](../../api/using/managing-transactional-messages.md)）；如果您使用Triggers核心服务，则在触发器事件中定义(请参阅[关于Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+排队事件在REST API中定义的时间段内保留(请参阅 [REST API文档](../../api/using/managing-transactional-messages.md))或在触发器事件中（如果您使用触发器核心服务）(请参阅 [关于Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->要再次发布消息，您需要返回到相应的事件配置，[发布事件](../../channels/using/publishing-transactional-event.md)，然后[发布消息](#publishing-a-transactional-message)。
+>要再次发布消息，您需要返回到相应的事件配置， [发布事件](../../channels/using/publishing-transactional-event.md)，然后 [发布消息](#publishing-a-transactional-message).
 
 如果取消发布已暂停的事务型消息，则可能需要等待最多 24 小时，才能再次发布该消息。这是为了让 **[!UICONTROL Database cleanup]** 工作流清理发送到队列的所有事件。
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。操作步骤：
 
-1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
+1. 单击 **Adobe** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. 将鼠标指针悬停在您选择的消息上。
 1. 单击 **[!UICONTROL Delete element]** 按钮。
 

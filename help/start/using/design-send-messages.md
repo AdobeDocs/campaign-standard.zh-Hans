@@ -47,7 +47,7 @@ ht-degree: 6%
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx
@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 个性化消息是发送相关内容、提供个性化体验以及提高打开率和转化率的关键。 Adobe Campaign投放的跨渠道消息可以通过多种不同的方式进行个性化。 根据用户档案，这些方式可以与标准结合使用。 您可以：
 
-* 在消息中插入[动态个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
-* 插入[预定义个性化块](../../designing/using/personalization.md#adding-a-content-block)
-* [将电子邮件](../../designing/using/subject-line.md) 或短信的发送者个性化。
-* [将电子邮件](../../designing/using/subject-line.md) 的主题行个性化
-* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容
-* 在短信消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
+* 插入 [动态个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的邮件中
+* 插入 [预定义个性化块](../../designing/using/personalization.md#adding-a-content-block)
+* [个性化发件人](../../designing/using/subject-line.md) 电子邮件或短信的收件人。
+* [个性化主题行](../../designing/using/subject-line.md) 电子邮件的
+* 创建 [电子邮件中的条件内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [登陆页面中](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* 插入 [动态文本](../../channels/using/defining-dynamic-text.md) 在短信消息或推送通知中
 
 ![](assets/delivery_content_43.png)
 
-**阅读更多**
+**了解更多信息**
 
-* 通过[端到端示例](../../designing/using/personalization.md#example-email-personalization)发现电子邮件个性化
+* 通过 [端到端示例](../../designing/using/personalization.md#example-email-personalization)
 * [个性化URL](../../designing/using/personalization.md#personalizing-urls)
 * [设置图像的个性化](../../designing/using/personalization.md#personalizing-an-image-source)
 
@@ -101,7 +101,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 借助Adobe Campaign，您可以单独监控和跟踪每个投放。 消息仪表板显示专用日志，用于跟踪流程、规则并识别可能的错误和警告。
 
 
-**阅读更多**
+**了解更多信息**
 
 * [访问报告](../../reporting/using/about-dynamic-reports.md)
 * [监测投放](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx

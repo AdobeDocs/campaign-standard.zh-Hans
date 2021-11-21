@@ -21,12 +21,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->[此部分](../../channels/using/configuring-transactional-event.md)中详细描述了事件配置。
+>有关事件配置的详细信息，请参阅 [此部分](../../channels/using/configuring-transactional-event.md).
 
 例如，您希望每当您的一位客户在购买购物车中的产品之前离开您的网站时，都触发“购物车放弃”事件。 要实现此目的，作为Web开发人员，您必须使用REST事务型消息API。
 
-1. 根据POST方法发送请求，该方法将触发事务事件](#sending-a-transactional-event)的[发送。
-1. 对POST请求的响应包含一个主键，通过该键，您可以通过GET请求发送一个或多个请求。 然后，您便能够获取[事件状态](#transactional-event-status)。
+1. 根据POST方法发送请求，该方法将触发 [发送事务性事件](#sending-a-transactional-event).
+1. 对POST请求的响应包含一个主键，通过该键，您可以通过GET请求发送一个或多个请求。 然后，您便能够 [事件状态](#transactional-event-status).
 
 ## 发送事务型事件 {#sending-a-transactional-event}
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**:您的个人组织ID。请参阅[此小节](../../api/using/must-read.md)。
+* **&lt;organization>**:您的个人组织ID。 请参阅[此小节](../../api/using/must-read.md)。
 
 * **&lt;transactionalapi>**:事务型消息API endPoint。
 
@@ -46,13 +46,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    请注意，事务型消息API端点在API预览期间也可见。
 
-* **&lt;eventid>**:要发送的事件类型。此ID在创建事件配置时生成（请参阅[此部分](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
+* **&lt;eventid>**:要发送的事件类型。 此ID在创建事件配置时生成(请参阅 [此部分](../../channels/using/configuring-transactional-event.md#creating-an-event))。
 
 ### POST请求标头
 
 请求必须包含“Content-Type:application/json”标头。
 
-必须添加字符集，例如&#x200B;**utf-8**。 请注意，此值取决于您所使用的REST应用程序。
+例如，您必须添加一个字符集 **utf-8**. 请注意，此值取决于您所使用的REST应用程序。
 
 ```
 -X POST \
@@ -70,7 +70,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 可以将以下可选参数添加到事件内容中，以管理链接到事件的事务型消息的发送：
 
 * **过期** （可选）：在此日期之后，将取消事务性事件的发送。
-* **已计划** （可选）：从此日期开始，将处理事务型事件并发送事务型消息。
+* **计划** （可选）：从此日期开始，将处理事务型事件并发送事务型消息。
 
 >[!NOTE]
 >
@@ -134,9 +134,9 @@ POST发送事件的请求。
 
 在响应中，“状态”字段允许您知道事件是否已处理：
 
-* **待处理**:事件处于待处理状态 — 事件在刚触发时会启用此状态。
+* **待定**:事件处于待处理状态 — 事件在刚触发时会启用此状态。
 * **处理**:事件处于待投放状态 — 它将转换为消息并发送消息。
-* **暂停**:事件进程正在暂停。系统将不再处理该数据，而是将其保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **暂停**:事件进程正在暂停。 系统将不再处理该数据，而是将其保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已处理**:已处理事件并成功发送消息。
 * **忽略**:投放会忽略该事件，通常是在地址处于隔离状态时。
 * **deliveryFailed**:处理事件时发生投放错误。

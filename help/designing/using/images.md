@@ -24,17 +24,17 @@ ht-degree: 3%
 根据您的配置，可以使用以下类型的图像：
 
 * 本地图像
-* 从Adobe Experience Cloud共享的图像 — 请参阅[使用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
-* 来自Adobe Target的动态图像 — 请参阅[使用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
+* 从Adobe Experience Cloud共享的图像 — 请参阅 [使用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /资产（按需）
+* 来自Adobe Target的动态图像 — 请参阅 [使用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果选择通过编辑HTML版本的电子邮件直接添加图像，则不得在HTML页面的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。 这些文件将不会导入到Adobe Campaign服务器中。
+>If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a &lt;script> tag** of the HTML page. 这些文件将不会导入到Adobe Campaign服务器中。
 
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
 1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此结构组件中，添加&#x200B;**[!UICONTROL Image]**&#x200B;内容组件。
+1. 在此结构组件中，添加 **[!UICONTROL Image]** 内容组件。
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 选择包含图像的块时，面板中提供了以下属性：
 
-* **启用** 个性化允许您自定义图像源。请参阅[个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source)。
-* **图像** 标题允许您为图像定义标题。
-* **替换文本** （电子邮件）或 **标题** （登陆页面）允许您定义链接到图像的标题(与altHTML属 **** 性相对应)。
-* 编辑电子邮件时，**Style**&#x200B;允许您指定图像大小、背景和边框。
-* 编辑登陆页面时，**Dimension**&#x200B;允许您以像素为单位指定图像大小。
+* **启用个性化** 允许您自定义图像源。 请参阅 [个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source).
+* **图像标题** 用于定义图像的标题。
+* **替换文本** （电子邮件）或 **题注** （登陆页面）允许您定义链接到图像的标题(对应于 **alt** HTML属性)。
+* 编辑电子邮件时， **样式** 用于指定图像大小、背景和边框。
+* 编辑登陆页面时， **Dimension** 允许您以像素为单位指定图像大小。
 
-编辑器允许您使用&#x200B;**其格式与浏览器兼容的所有图像类型**。 要与编辑器兼容，**&quot;Flash&quot;类型的动画**&#x200B;必须按如下方式插入HTML页面：
+编辑器允许您使用 **所有图像类型** 其格式与浏览器兼容。 要与编辑器兼容，请 **“Flash”类型动画** 必须按如下方式插入HTML页面：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

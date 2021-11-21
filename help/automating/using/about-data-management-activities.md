@@ -32,4 +32,4 @@ ht-degree: 55%
 * [提取文件](../../automating/using/extract-file.md)
 * [订阅服务](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 利用活动，可为叫客过 **渡** 定义区段代码。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Data management (ETL)]** 活动允许您定义 **区段代码** ，用于叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。

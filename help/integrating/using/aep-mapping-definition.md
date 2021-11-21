@@ -28,28 +28,28 @@ ht-degree: 0%
 * 通过界面或使用与XDM关联的REST API来定义XDM模式
 * 基于XDM架构定义的数据集创建
 
-1. 转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]**&#x200B;并选择&#x200B;**[!UICONTROL Data mappings]**&#x200B;条目。
+1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 然后选择 **[!UICONTROL Data mappings]** 中。
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以开始新的XDM映射。
+1. 单击 **[!UICONTROL Create]** 以开始新的XDM映射。
 
    ![](assets/aep_createmapping.png)
 
 1. 填写必填字段并选择：
 
-   * **定向维度**:这是要映射的Campaign Standard架构
-   * a **dataset**:这是与Adobe Experience Platform中的XDM架构关联的数据包。
+   * a **定位维度**:这是要映射的Campaign Standard架构
+   * a **数据集**:这是与Adobe Experience Platform中的XDM架构关联的数据包。
 
 >[!NOTE]
 >
->对于要将批量数据摄取到实时客户资料或Identity服务中，必须为实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)启用数据集[。
+>要将批量数据集摄取到“实时客户资料”或“身份服务”中，必须 [为实时客户用户档案启用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >如果您选择的数据集已在现有数据映射中使用，则会显示一条警告，通知您的数据可能会在Adobe Experience Platform上被覆盖。 当使用同一数据集的数据映射中存在一些常见的收件人时，可能会发生这种情况。
 
-以下屏幕显示&#x200B;**[!UICONTROL Field mappings]**&#x200B;部分，您可以在其中为Campaign Standard架构中的每个字段创建新映射。
+以下屏幕显示 **[!UICONTROL Field mappings]** 部分，您可以在其中为Campaign Standard架构中的每个字段创建新映射。
 
 ![](assets/aep_fieldmappings.png)
 
-通过&#x200B;**[!UICONTROL Create new field mapping]**&#x200B;按钮，可选择XDM架构中的Campaign Standard字段和相应的字段路径表达式。
+的 **[!UICONTROL Create new field mapping]** 按钮可用于选择XDM架构中的Campaign Standard字段和相应的字段路径表达式。
 
 如果找不到Adobe Campaign Standard字段，则可以使用搜索字段搜索该字段。 目前，搜索仅适用于在层次结构中打开的字段。
 
@@ -61,13 +61,13 @@ Campaign Standard中定义的扩展资源被映射为所有本机字段。 它�
 
 您可以通过API自定义XDM扩展，并定义您自己的扩展，以便更好地控制映射。
 
-有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 。
+请参阅 [模式注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 有关XDM API的更多详细信息。
 
 要映射枚举字段，您需要使用表达式编辑器来定义与XDM值对应的每个枚举值。 例如，后发地址字段需要定义为：
 
 ![](assets/aep_enummapping.png)
 
-如果XDM值被定义为XDM架构中的枚举，则可以使用本机EXDM函数，该函数将自动替换&#x200B;**lif**&#x200B;语法。
+如果XDM值被定义为XDM架构中的枚举，则可以使用本机EXDM函数，该函数将自动替换 **lif** 语法。
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -77,4 +77,4 @@ Campaign Standard中定义的扩展资源被映射为所有本机字段。 它�
 
 >[!IMPORTANT]
 >
->目前，如果编辑&#x200B;**[!UICONTROL Field mappings]**&#x200B;部分中的值，然后单击字段外部，则在单击&#x200B;**[!UICONTROL Save]**&#x200B;按钮之前，不会在界面中显示所做的更改。 当&#x200B;**[!UICONTROL Field Mappings]**&#x200B;上的编辑是页面上的首次编辑时，此行为仅发生一次。
+>目前，如果您在 **[!UICONTROL Field mappings]** 部分，然后单击字段外部，则在单击 **[!UICONTROL Save]** 按钮。 此行为仅在 **[!UICONTROL Field Mappings]** 是页面上的首次编辑。

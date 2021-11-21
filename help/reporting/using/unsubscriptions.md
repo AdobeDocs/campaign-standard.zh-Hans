@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # 取消订阅{#unsubscriptions}
 
-**[!UICONTROL Unsubscriptions]**&#x200B;报告标识取消订阅次数最多的投放。
+的 **[!UICONTROL Unsubscriptions]** 报告可识别取消订阅次数最多的投放。
 
 ![](assets/delivery_reports_unsub.png)
 
-**[!UICONTROL TOP 5 deliveries]**&#x200B;表格和图表显示前5个投放，其中已投放消息数量最多，且已取消订阅的收件人数量最多。 此处列出的数据基于消息退订链接的点击次数。
+的 **[!UICONTROL TOP 5 deliveries]** 表格和图表显示已投放消息数量排名前五的投放以及已取消订阅的收件人数量。 此处列出的数据基于消息退订链接的点击次数。

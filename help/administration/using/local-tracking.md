@@ -1,6 +1,6 @@
 ---
 title: 实施推送跟踪
-description: 本文档允许您确保在iOS和Android上正确实施推送通知跟踪。
+description: 利用本文档，可确保已在iOS和Android上正确实施推送通知跟踪。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -24,20 +24,20 @@ ht-degree: 0%
 
 本地通知跟踪可分为三种类型：
 
-* **本地展示次数**  — 将本地通知发送到设备并位于通知中心，但完全没有联系时。在大多数情况下，如果展示次数与已投放数量不同，则展示次数应相似。 它可确保设备已收到消息并将该信息转发回服务器。
+* **本地展示次数**  — 当本地通知已送达设备且位于通知中心，但完全未被接触时。 在大多数情况下，如果展示次数与已投放数量不同，则展示次数应相似。 它可确保设备已收到消息并将该信息转发回服务器。
 
-* **本地单击**  — 将本地通知交付到设备且用户单击了通知时。用户要么想查看通知（通知将进而移至本地打开跟踪），要么想关闭通知。
+* **本地单击**  — 将本地通知交付到设备且用户单击了通知时。 用户要么想查看通知（通知将进而移至本地打开跟踪），要么想关闭通知。
 
-* **本地打开**  — 将本地通知交付到设备，并且用户单击了导致应用程序打开的通知时。这与本地单击类似，不同之处在于如果取消通知，将不会触发本地打开。
+* **本地打开**  — 将本地通知发送到设备，并且用户单击了导致应用程序打开的通知时。 这与本地单击类似，不同之处在于如果取消通知，将不会触发本地打开。
 
-要为Adobe Campaign Standard实施跟踪，移动设备应用程序需要在应用程序中包含Mobile SDK。 这些SDK在[!DNL Adobe Mobile Services]中可用。
+要为Adobe Campaign Standard实施跟踪，移动设备应用程序需要在应用程序中包含Mobile SDK。 这些SDK在 [!DNL Adobe Mobile Services].
 
 要发送跟踪信息，必须发送三个变量：两个是从Adobe Campaign收到的数据的一部分，另一个是操作变量，用于指示是展示、单击还是打开。
 
 | 变量 | 值 |
 | :-: | :-: |
-| deliveryId | `deliveryId` 从传入数据(与使用推送跟踪的 `_dld` 推送跟踪类似) |
-| broadlogId | `broadlogId` 从传入数据(与使用推送跟踪的 `_mld` 推送跟踪类似) |
+| deliveryId | `deliveryId` 从传入数据(类似于推送跟踪，其中 `_dld` 使用) |
+| broadlogId | `broadlogId` 从传入数据(类似于推送跟踪，其中 `_mld` 使用) |
 | 操作 | “1”表示打开，“2”表示点击，“7”表示展示 |
 
 ## 实施本地展示次数跟踪 {#implement-local-impression-tracking}
@@ -46,7 +46,7 @@ Adobe Experience Platform Mobile SDK将在无需任何其他配置的情况下�
 
 ## 实施点击跟踪 {#implementing-click-tracking}
 
-对于点击跟踪，您必须在调用`collectMessageInfo()`或`trackAction()`函数时发送值“2”以执行操作。
+对于点击跟踪，您必须在调用 `collectMessageInfo()` 或 `trackAction()` 函数。
 
 ### 对于Android {#implement-click-tracking-android}
 
@@ -54,7 +54,7 @@ Adobe Experience Platform Mobile SDK将在无需任何其他配置的情况下�
 
 * 用户看到通知但将其清除。
 
-   要在发生解除方案时跟踪点击，请将广播接收器`NotificationDismissalHandler`添加到应用程序模块的AndroidManifest文件中。
+   要在发生解除方案时跟踪点击，请添加广播接收器 `NotificationDismissalHandler` 在应用程序模块的AndroidManifest文件中。
 
    ```
    <receiver
@@ -64,7 +64,7 @@ Adobe Experience Platform Mobile SDK将在无需任何其他配置的情况下�
 
 * 用户看到通知并单击该通知，将转为打开跟踪。
 
-   此方案应会产生一个单击并打开。 跟踪此点击将是跟踪打开内容所需实施的一部分。 请参阅[实施打开跟踪](#implement-open-tracking)。
+   此方案应会产生一个单击并打开。 跟踪此点击将是跟踪打开内容所需实施的一部分。 请参阅 [实施开放式跟踪](#implement-open-tracking).
 
 ### 对于iOS {#implement-click-tracking-ios}
 
@@ -107,9 +107,9 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 要跟踪打开，我们必须创建意图。 意图对象允许Android操作系统在完成某些操作后调用您的方法，在此例中，单击通知以打开应用程序。
 
-此代码基于点击展示次数跟踪的实施。 现在，通过设置意图，您必须将跟踪信息发送回Adobe Campaign。 在这种情况下，用户单击后，将打开或将触发通知的Android视图([!DNL Activity])置于前台。 [!DNL Activity]中的意图对象包含可用于跟踪打开情况的通知数据。
+此代码基于点击展示次数跟踪的实施。 现在，通过设置意图，您必须将跟踪信息发送回Adobe Campaign。 在本例中，为Android View([!DNL Activity])，用户单击后，将打开或将该通知置于前台。 中的意图对象 [!DNL Activity] 包含可用于跟踪打开的通知数据。
 
-MainActivity.java（扩展[!DNL Activity]）
+MainActivity.java（扩展） [!DNL Activity])
 
 ```
 @Override

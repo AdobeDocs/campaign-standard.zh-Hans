@@ -23,7 +23,7 @@ ht-degree: 6%
 
 Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并检索摄取请求的状态。
 
-本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参阅[此部分](../../api/using/get-started-apis.md)。
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全局信息，请参阅 [此部分](../../api/using/get-started-apis.md).
 
 ## 先决条件 {#prerequisites}
 
@@ -34,9 +34,9 @@ Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并
 
 创建数据映射后，必须停止该映射运行，以便您可以随时从API触发该映射。 为此，请执行以下步骤：
 
-1. 在Campaign Standard中，转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;菜单。
+1. 在Campaign Standard中，转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 菜单。
 
-1. 双击数据映射以将其打开，然后单击&#x200B;**[!UICONTROL Stop]**&#x200B;按钮。
+1. 双击数据映射以将其打开，然后单击 **[!UICONTROL Stop]** 按钮。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并
 
 >[!NOTE]
 >
->要执行摄取POSTAPI调用，用户必须具有&#x200B;**SQL函数执行**&#x200B;角色，Campaign Standard管理员可通过执行以下JS脚本来提供该角色：
+>要执行摄取POSTAPI调用，用户必须具有 **SQL函数执行** 角色，Campaign Standard管理员可通过执行以下JS脚本来提供该角色：
 >
 >
 ```
@@ -106,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有关XDM映射请求状态及其相关作业的详细信息，请参阅&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;菜单的Campaign Standard界面（请参阅[映射激活](../../integrating/using/aep-mapping-activation.md)）。
+>有关XDM映射请求状态及其相关作业的详细信息，请参阅Campaign Standard界面中的 **[!UICONTROL Status of data export to platform]** 菜单(请参阅 [映射激活](../../integrating/using/aep-mapping-activation.md))。
 
 GET操作会返回以下信息：
 

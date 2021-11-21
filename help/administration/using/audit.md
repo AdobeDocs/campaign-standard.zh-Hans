@@ -7,7 +7,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -16,9 +17,9 @@ ht-degree: 1%
 
 # 审核跟踪 {#audit}
 
-通过&#x200B;**[!UICONTROL Audit trail]**，您可以访问实例中所做更改的完整历史记录。
+的 **[!UICONTROL Audit trail]** 允许您访问实例中所做更改的完整历史记录。
 
-**[!UICONTROL Audit trail]** 可实时捕获在Adobe Campaign Standard实例内发生的操作和事件的完整列表。它包括一种访问数据历史的自助方式，可帮助回答以下问题：工作流、自定义资源和选项发生的事件、上次更新这些事件的人员或用户在实例中的操作。
+**[!UICONTROL Audit trail]** 可实时捕获在Adobe Campaign Standard实例内发生的操作和事件的完整列表。 它包括一种访问数据历史的自助方式，可帮助回答以下问题：您的工作流、自定义资源和选项发生的事件、上次更新这些事件的人员或用户在实例中的操作。
 
 ![](assets/audit-trail.png)
 
@@ -26,7 +27,7 @@ ht-degree: 1%
 
 * **自定义资源审核跟踪**:检查活动和上次对自定义资源所做的修改。
 
-   有关&#x200B;**[!UICONTROL Custom resources]**&#x200B;的详细信息，请参阅此[页面](../../developing/using/key-steps-to-add-a-resource.md)。
+   有关 **[!UICONTROL Custom resources]**，请参见 [页面](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **工作流审核跟踪**:检查活动和对工作流的上次修改，以及工作流的状态，例如：
 
@@ -44,11 +45,11 @@ ht-degree: 1%
    * 工作流重新启动同一用户
    * 工作流重新启动未知命令
 
-   有关&#x200B;**[!UICONTROL Workflows]**&#x200B;的详细信息，请参阅此[页面](../../automating/using/get-started-workflows.md)。
+   有关 **[!UICONTROL Workflows]**，请参见 [页面](../../automating/using/get-started-workflows.md).
 
 * **选项审核跟踪**:检查活动和上次对选项进行的修改。
 
-   有关&#x200B;**[!UICONTROL Options]**&#x200B;的详细信息，请参阅此[页面](../../administration/using/about-campaign-standard-settings.md)。
+   有关 **[!UICONTROL Options]**，请参见 [页面](../../administration/using/about-campaign-standard-settings.md).
 
 请注意，默认情况下，保留期为30天。
 
@@ -56,13 +57,13 @@ ht-degree: 1%
 
 要访问实例的审核跟踪，请执行以下操作：
 
-1. 在Adobe Campaign Standard的高级菜单中，选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**。
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
 
    ![](assets/audit-trail.png)
 
-1. 将打开&#x200B;**[!UICONTROL Audit trail]**&#x200B;窗口，其中包含实体列表。 Adobe Campaign Standard将审核工作流、选项和自定义资源的创建、编辑和删除操作。
+1. 的 **[!UICONTROL Audit trail]** 窗口，其中包含实体列表。 Adobe Campaign Standard将审核工作流、选项和自定义资源的创建、编辑和删除操作。
 
-   从&#x200B;**[!UICONTROL Search]**&#x200B;菜单中，您可以按以下方式筛选实体：
+   从 **[!UICONTROL Search]** 菜单中，您可以按以下方式筛选实体：
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
@@ -73,7 +74,7 @@ ht-degree: 1%
 
 1. 选择一个实体，以了解有关上次修改的更多信息。
 
-1. “审核实体”(Audit entity)窗口提供有关所选实体的更详细信息，例如：
+1. “审核实体”(Audit entity)窗口提供有关所选实体的更详细信息，如：
 
    * **[!UICONTROL Entity]**:工作流、选项或自定义资源的ID。
    * **[!UICONTROL Action]**:对此实体执行的上次操作。
@@ -91,7 +92,7 @@ ht-degree: 1%
 
 为实现此操作，请执行以下步骤：
 
-1. 在Adobe Campaign Standard的高级菜单中，选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**。
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
    ![](assets/audit-trail_4.png)
 
@@ -104,10 +105,10 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >如果将&#x200B;**[!UICONTROL XtkAudit_Enable_All]**&#x200B;选项设置为0，则无论其他各个选项值如何，**[!UICONTROL Audit trail]**&#x200B;功能都将被完全禁用。
+      >如果 **[!UICONTROL XtkAudit_Enable_All]** 选项设置为0, **[!UICONTROL Audit trail]** 无论其他各个选项值如何，功能都将被完全禁用。
    ![](assets/audit-trail_5.png)
 
-1. 如果要禁用&#x200B;**[!UICONTROL Audit trail]**，请在&#x200B;**[!UICONTROL Options]**&#x200B;页面中将&#x200B;**[!UICONTROL Value (integer)]**&#x200B;设置为0，或将设置为1。
+1. 从 **[!UICONTROL Options]** 页面，设置 **[!UICONTROL Value (integer)]** 如果要禁用 **[!UICONTROL Audit trail]** 或设置为1以启用它。
 
    ![](assets/audit-trail_6.png)
 

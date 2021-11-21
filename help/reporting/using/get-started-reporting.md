@@ -32,11 +32,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用动态报告&#x200B;**拖放界面**，您可以探索数据，确定电子邮件促销活动针对最重要的客户区段的执行情况，并从一个位置衡量它们对收件人的影响。
+使用动态报告 **拖放界面**，您可以探索数据，确定电子邮件促销活动针对最重要的客户区段的执行情况，并从一个位置衡量它们对收件人的影响。
 
-**借助各种功** 能，管理动态报告：实时刷新数据、打印报表或将其导出为CSV文件。您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
+**管理动态报告** 借助各种功能：实时刷新数据、打印报表或将其导出为CSV文件。 您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
 
-阅读更多:
+了解更多信息:
 
 * [关于动态报告](../../reporting/using/about-dynamic-reports.md)
 * [报告界面](../../reporting/using/reporting-interface.md)
@@ -45,11 +45,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard附带一组&#x200B;**现成可用的动态报告**，允许您测量营销活动的多个方面：退回、被声明为垃圾邮件或垃圾邮件的投放、收件人查看次数最多的投放、与渠道相关的报表、投放吞吐量和跟踪报表……
+Campaign Standard附带一组 **现成动态报告** 允许您测量营销活动的多个方面：退回、被声明为垃圾邮件或垃圾邮件的投放、收件人查看次数最多的投放、与渠道相关的报表、投放吞吐量和跟踪报表……
 
-**合并不同的组件** （维度、量度和区段、时间段），以构建您自己的报表或个性化现成报表。
+**组合不同的组件** （维度、量度和区段、时间段）来构建您自己的报表或个性化现成报表。
 
-阅读更多:
+了解更多信息:
 
 * [组件列表](../../reporting/using/list-of-components-.md)
 * [指标计算](../../reporting/using/indicator-calculation.md)
@@ -59,13 +59,13 @@ Campaign Standard附带一组&#x200B;**现成可用的动态报告**，允许您
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**利用动态报** 告设计功能自定义您的报告：添加所需数量的组件（面板和自由格式表），以使用可用的量度和维度分析数据。
+**自定义报表** 通过利用动态报告设计功能：添加所需数量的组件（面板和自由格式表），以使用可用的量度和维度分析数据。
 
-拖放&#x200B;**可视化项目**&#x200B;以将数据的图形表示形式添加到报表中，并根据您的需求对其进行配置。
+拖放 **可视化图表项目** 可将数据的图形表示形式添加到报表中，并根据您的需求对其进行配置。
 
-根据在用户档案资源扩展期间创建的&#x200B;**自定义用户档案数据**&#x200B;创建报表，并根据定位工作流中定义的区段&#x200B;**创建报表。**
+根据 **自定义用户档案数据** 在用户档案资源扩展期间创建，以及 **基于区段的报表** 在定位工作流中定义。
 
-阅读更多:
+了解更多信息:
 
 * [添加面板](../../reporting/using/adding-panels.md)
 * [添加可视化](../../reporting/using/adding-visualizations.md)
@@ -84,4 +84,4 @@ Campaign Standard附带一组&#x200B;**现成可用的动态报告**，允许您
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

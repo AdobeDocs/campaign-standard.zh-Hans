@@ -34,7 +34,7 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!NOTE]
 >
->您可以在[此页面](../../developing/using/datamodel-introduction.md)中找到内置资源的数据模型表示形式。
+>您可以在 [本页](../../developing/using/datamodel-introduction.md).
 
 您还可在对应于所创建资源的屏幕中[配置导航](configuring-the-screen-definition.md)。
 
@@ -42,4 +42,4 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!CAUTION]
 >
->只有功能[管理员](../../administration/using/users-management.md#functional-administrators)，具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位才能访问发送日志、消息日志、跟踪日志、排除日志或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
+>仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。

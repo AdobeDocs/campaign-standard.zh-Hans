@@ -53,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >定位受众时，请注意，未引用受众的定义，而是将&#x200B;**复制到查询中的**。 如果在查询中定向受众后对受众进行了任何更改，请确保再次配置查询以考虑新定义。
+   >定位受众时，请注意，未引用受众的定义，但 **复制** 到查询中。 如果在查询中定向受众后对受众进行了任何更改，请确保再次配置查询以考虑新定义。
 
 1. 您可以通过专用选项卡定义针对定向群体的 **[!UICONTROL Additional data]**。此数据存储在附加的列中，并且只能用于正在进行的工作流。而且，您还可以从链接到查询定向维度的 Adobe Campaign 查询数据库表格添加数据。请参阅[扩充数据](#enriching-data)一节。
 
@@ -63,7 +63,7 @@ ht-degree: 93%
 
 1. 在 **[!UICONTROL Transition]** 选项卡中，使用 **[!UICONTROL Enable an outbound transition]** 选项可在查询活动后添加叫客过渡，即使查询未检索到任何数据。
 
-   叫客过渡的段码可以使用标准表达式和事件变量进行个性化（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
+   叫客过渡的段码可以使用标准表达式和事件变量进行个性化(请参阅 [本页](../../automating/using/customizing-workflow-external-parameters.md))。
 
 1. 确认活动的配置并保存工作流。
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 利用定向维度和资源，可定义查询基于哪些元素来确定投放的目标。
 
-它们在[目标映射](../../administration/using/target-mappings-in-campaign.md)中进行配置，并在创建工作流时，在查询活动的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡中进行定义。
+它们在 [目标映射](../../administration/using/target-mappings-in-campaign.md)，并在创建工作流时在 **[!UICONTROL Properties]** 选项卡。
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ ht-degree: 93%
 
 默认情况下，会设置定向维度和资源以定向用户档案。但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
 
-有关更多信息，请参阅此用例：[使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+有关更多信息，请参阅此用例： [使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 丰富数据 {#enriching-data}
 
@@ -123,7 +123,7 @@ ht-degree: 93%
 >
 >查询的 **[!UICONTROL Advanced options]** 选项卡中的 **[!UICONTROL Additional data]** 默认勾选 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 选项。出于性能上的考虑，如果 **[!UICONTROL Query]** 活动包含大量（100 以上）已定义的附加数据，则建议取消勾选此选项。请注意，取消勾选此选项可能会导致获取重复项，具体情况取决于查询的数据。
 
-有关如何使用附加数据个性化电子邮件的用例，请参见[此部分](../../automating/using/personalizing-email-with-additional-data.md)。
+有关如何使用附加数据个性化电子邮件的用例，请参阅 [此部分](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### 添加简单字段 {#adding-a-simple-field}
 

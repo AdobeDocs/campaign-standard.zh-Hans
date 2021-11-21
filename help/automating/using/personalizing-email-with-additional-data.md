@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 使用附加数据个性化电子邮件 {#example--personalizing-an-email-with-additional-data}
 
-以下示例说明了如何向查询添加不同类型的附加数据，以及如何在电子邮件中将其用于个性化字段。有关如何扩充&#x200B;**[!UICONTROL Query]**&#x200B;活动所定向数据的更多信息，请参阅[此部分](../../automating/using/query.md#enriching-data)。
+以下示例说明了如何向查询添加不同类型的附加数据，以及如何在电子邮件中将其用于个性化字段。有关如何扩充 **[!UICONTROL Query]** 活动，请参阅 [此部分](../../automating/using/query.md#enriching-data).
 
 在本例中，使用[自定义资源](../../developing/using/data-model-concepts.md)：
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. 添加[Query](../../automating/using/query.md)活动，以便定向至少执行了一次交易的用户档案。
+1. 添加 [查询](../../automating/using/query.md) 活动，用于定向至少执行了一次交易的用户档案。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 添加[电子邮件投放](../../automating/using/email-delivery.md)活动。 在电子邮件内容中，插入与查询中所计算数据相对应的个性化字段。您可以通过个性化字段资源管理器的 **[!UICONTROL Additional data (targetData)]** 链接找到它。
+1. 添加 [电子邮件投放](../../automating/using/email-delivery.md) 活动。 在电子邮件内容中，插入与查询中所计算数据相对应的个性化字段。您可以通过个性化字段资源管理器的 **[!UICONTROL Additional data (targetData)]** 链接找到它。
 
    ![](assets/enrichment_example3.png)
 

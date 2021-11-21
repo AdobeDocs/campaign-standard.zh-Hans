@@ -19,11 +19,11 @@ ht-degree: 9%
 
 将Assets核心服务或Assets（按需）与Adobe Campaign集成(具体取决于Adobe Experience Cloud环境的配置)后，您可以在Adobe Campaign电子邮件和登陆页面中使用Adobe Experience Cloud内共享的任何资产。
 
-与Assets核心服务的集成仅限于[功能管理员](../../administration/using/users-management.md#functional-administrators)。
+与Assets核心服务的集成仅限于 [功能管理员](../../administration/using/users-management.md#functional-administrators).
 
 从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页面，如下所示：
 
-1. 编辑电子邮件或登陆页面的内容时，转到图像块，然后通过上下文菜单选择&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
+1. 编辑电子邮件或登陆页面的内容时，转到图像块，然后选择 **[!UICONTROL Image shared from Adobe Experience Cloud]** 来访问Advertising Cloud帮助。
 
    ![](assets/dam_insert_image_dce.png)
 

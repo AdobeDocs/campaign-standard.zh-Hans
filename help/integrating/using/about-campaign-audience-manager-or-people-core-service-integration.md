@@ -21,21 +21,21 @@ ht-degree: 7%
 >
 >根据交换的数据，在Adobe Campaign中导入受众可能会受到法律限制。
 
-Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和共享受众/区段。 将&#x200B;**Adobe Campaign**&#x200B;与&#x200B;**People核心服务**（也称为&#x200B;**Profiles &amp; Audiences核心服务**）或Adobe Audience Manager集成后，您可以：
+Adobe Campaign允许您与不同的Adobe Experience Cloud应用程序交换和共享受众/区段。 集成 **Adobe Campaign** with **People核心服务** (也称为 **Profiles &amp; Audiences核心服务**)或Adobe Audience Manager允许您：
 
-* 将不同Adobe Experience Cloud解决方案中的受众/区段导入Adobe Campaign。 可以从Adobe Campaign的&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入受众。
-* 将受众导出为共享的受众/区段。 这些受众可在您使用的不同Adobe Experience Cloud解决方案中使用。 可在使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活动定位工作流中的活动后导出受众。
+* 将不同Adobe Experience Cloud解决方案中的受众/区段导入Adobe Campaign。 受众可从 **[!UICONTROL Audiences]** 菜单。
+* 将受众导出为共享的受众/区段。 这些受众可在您使用的不同Adobe Experience Cloud解决方案中使用。 在工作流中使用 **[!UICONTROL Save audience]** 活动。
 
 集成支持两种类型的Adobe Experience Cloud ID:
 
-* **访客ID**:利用此类ID，可将Adobe Experience Cloud访客与Adobe Campaign配置文件进行协调。通过Adobe IMS启用连接后，Marketing Cloud访客ID服务即会激活，该服务将取代Adobe Campaign使用的永久Cookie。 这允许您识别访客，然后将其链接到用户档案。
+* **访客ID**:利用此类ID，可将Adobe Experience Cloud访客与Adobe Campaign配置文件进行协调。 通过Adobe IMS启用连接后，Marketing Cloud访客ID服务即会激活，该服务将取代Adobe Campaign使用的永久Cookie。 这允许您识别访客，然后将其链接到用户档案。
    <br>当访客ID在通过Adobe Campaign发送的电子邮件中单击某个用户档案后，即会将该访客ID关联到该用户档案：
    * 如果配置文件已具有访客ID，则Adobe Campaign可以恢复配置文件，并自动将其关联到访客ID。
    * 如果未找到访客ID，则会创建新ID。 此访客ID存储在用户档案跟踪日志中。
 
    随后，具有相同CNAME的其他Adobe Marketing Cloud应用程序将识别该ID。
 
-* **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign数据库中的元素进行协调。它在Adobe Campaign中表示为预定义的对帐密钥。 在交换数据时，Adobe Campaign数据库标识符经过哈希处理。 然后，会将这些经过哈希处理的ID与导入或导出中涉及的Adobe Marketing Cloud受众的经过哈希处理的ID进行比较。
+* **声明的ID**:此类型的ID允许您将任何类型的数据与Adobe Campaign数据库中的元素进行协调。 它在Adobe Campaign中表示为预定义的对帐密钥。 在交换数据时，Adobe Campaign数据库标识符经过哈希处理。 然后，会将这些经过哈希处理的ID与导入或导出中涉及的Adobe Marketing Cloud受众的经过哈希处理的ID进行比较。
    <br>此集成支持常规声明的ID、经过哈希处理的声明ID和加密的声明ID。
 
    >[!NOTE]

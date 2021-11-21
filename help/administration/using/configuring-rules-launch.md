@@ -18,14 +18,14 @@ ht-degree: 1%
 
 # 配置 Launch 规则以支持 Adobe Campaign Standard 用例 {#configuring-rules-launch}
 
-在[!DNL Adobe Experience Platform Launch]中，创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到[!DNL Adobe Campaign Standard]。
+在 [!DNL Adobe Experience Platform Launch]，创建数据元素和规则以将PII和其他数据从移动应用程序发送到 [!DNL Adobe Campaign Standard].
 
-要确保[!DNL Adobe Experience Platform Launch]中的所有配置更改都生效，您必须发布这些更改。 有关更多信息，请参阅[Publishing](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)。
+确保 [!DNL Adobe Experience Platform Launch] 生效后，必须发布这些更改。 有关更多信息，请参阅 [发布](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-要在[!DNL Experience Platform Launch]中创建规则，请执行以下步骤：
+在中创建规则 [!DNL Experience Platform Launch]，请执行以下步骤：
 
 1. [创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [为要](../../administration/using/configuring-rules-launch.md#create-data-elements) 支持的用例创建规则：
+2. [创建规则](../../administration/using/configuring-rules-launch.md#create-data-elements) 对于要支持的用例：
    * [PII回发](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [应用程序内跟踪回发](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [推送通知跟踪回发](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 创建数据元素 {#create-data-elements}
 
-以下是建议您在[!DNL Experience Platform Launch]中创建的数据元素。
+以下是我们建议您在中创建的数据元素 [!DNL Experience Platform Launch].
 您可以根据需要创建其他数据元素。
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,27 +42,27 @@ ht-degree: 1%
 
 要创建这些数据元素，请执行以下操作：
 
-1. 在[!DNL Experience Platform Launch]中，从移动应用程序仪表板中，单击&#x200B;**[!UICONTROL Data Elements]**&#x200B;选项卡。
+1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Data Elements]** 选项卡。
 
-1. 要创建&#x200B;**[!UICONTROL Experience Cloud ID]**&#x200B;数据元素，请单击&#x200B;**[!UICONTROL Create New Data Element]**。
+1. 创建 **[!UICONTROL Experience Cloud ID]** 数据元素，单击 **[!UICONTROL Create New Data Element]**.
 
-1. 例如，在&#x200B;**[!UICONTROL Name]**&#x200B;字段中，键入&#x200B;**mcid**。
+1. 在 **[!UICONTROL Name]** 例如，键入 **mcid**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在“**[!UICONTROL Data element]**&#x200B;类型”下拉列表中，选择“**[!UICONTROL Experience Cloud ID]**”。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后 **[!UICONTROL Experience Cloud ID]** 在 **[!UICONTROL Data element]** 类型下拉列表。
 
    ![](assets/do-not-localize/rules_1.png)
 
-1. 要创建Pkey数据元素，请单击&#x200B;**[!UICONTROL Add data element]**。
+1. 要创建Pkey数据元素，请单击 **[!UICONTROL Add data element]**.
 
-1. 例如，在&#x200B;**[!UICONTROL Name]**&#x200B;字段中，键入&#x200B;**pkey**。
+1. 在 **[!UICONTROL Name]** 例如，键入 **pkey**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然后，在“**[!UICONTROL Data element]**&#x200B;类型”下拉列表中，选择“**[!UICONTROL pkey]**”。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Adobe Campaign Standard]**. 然后 **[!UICONTROL pkey]** 在 **[!UICONTROL Data element]** 类型下拉列表。
 
-1. 要创建Campaign服务器数据元素，请单击&#x200B;**[!UICONTROL Add data element]**。
+1. 要创建Campaign服务器数据元素，请单击 **[!UICONTROL Add data element]**.
 
-1. 在&#x200B;**[!UICONTROL Name]**&#x200B;字段中，键入名称，例如&#x200B;**camp-server**。
+1. 在 **[!UICONTROL Name]** 字段中键入名称，例如， **camp-server**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然后，在“**[!UICONTROL Data element]**&#x200B;类型”下拉列表中，选择“**[!UICONTROL Campaign Server]**”。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Adobe Campaign Standard]**. 然后， **[!UICONTROL Campaign Server]** 在 **[!UICONTROL Data element]** 类型下拉列表。
 
 ## 创建规则 {#creating-rules}
 
@@ -77,33 +77,33 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
+>要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到 [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-要将PII数据发送到[!DNL Adobe Campaign Standard]，请在[!DNL Experience Platform Launch]中创建规则：
+将PII数据发送到 [!DNL Adobe Campaign Standard]，在中创建规则 [!DNL Experience Platform Launch]:
 
-1. 在[!DNL Experience Platform Launch]中，从移动应用程序仪表板中，单击&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Create New Rule]**。
+1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡 **[!UICONTROL Create New Rule]**.
 
-1. 键入名称，例如&#x200B;**Mobile Core - Collect PII**。
+1. 键入一个名称，例如 **移动核心 — 收集PII**.
 
-1. 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Events]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL Collect PII]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Collect PII]** 在 **[!UICONTROL Event type]** 下拉菜单。
 
 1. 单击 **[!UICONTROL Keep changes]**。
 
-1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Actions]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在&#x200B;**[!UICONTROL Action type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL Send PII]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Send PII]** 在 **[!UICONTROL Action type]** 下拉菜单。
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;中，输入以下URL:
+1. 在 **[!UICONTROL URL]**，输入以下URL:
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%}
    ```
 
-1. 选中&#x200B;**[!UICONTROL Add Post Body]**&#x200B;复选框。
+1. 选择 **[!UICONTROL Add Post Body]** 复选框。
 
-1. 在&#x200B;**[!UICONTROL Post Body]**&#x200B;中，键入以下内容：
+1. 在 **[!UICONTROL Post Body]**，请键入以下内容：
 
    ```
    {
@@ -135,11 +135,11 @@ ht-degree: 1%
    }
    ```
 
-   在[!DNL Experience Platform Launch]中定义的数据元素应以双百分比括起来，例如%%mcid%%，应用程序的上下文变量应以单个百分比包括，例如%contextdata.email%。
+   中定义的数据元素 [!DNL Experience Platform Launch] 应以双个百分比包含在内，例如%%mcid%%，而来自应用程序的上下文变量应以单个百分比包含在内，例如%contextdata.email%。
 
-1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，键入&#x200B;**application/json**。
+1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 
-1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，选择0。
+1. 在 **[!UICONTROL Timeout]**，选择0。
 
    ![](assets/do-not-localize/rules_2.png)
 
@@ -151,35 +151,35 @@ ht-degree: 1%
 >
 >如果您使用的是Android ACPCore v1.4.0或更高版本/ iOS ACPCore v2.3.0或更高版本，则无需配置跟踪回发。
 
-要向[!DNL Adobe Campaign Standard]发送跟踪数据，以报告用户与移动应用程序中应用程序内消息的交互方式，请在[!DNL Experience Platform Launch]中创建以下规则：
+将跟踪数据发送到 [!DNL Adobe Campaign Standard] 要报告用户与移动应用程序中应用程序内消息的交互方式，请在 [!DNL Experience Platform Launch]:
 
-1. 在[!DNL Experience Platform Launch]中，从移动应用程序仪表板中，选择&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add Rule]**。
+1. 在 [!DNL Experience Platform Launch]，从移动应用程序仪表板中，选择 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
-1. 键入一个名称，例如&#x200B;**Adobe Campaign — 应用程序内点击跟踪**。
+1. 键入一个名称，例如 **Adobe Campaign — 应用程序内点击跟踪**.
 
-1. 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Events]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然后，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL In-App click tracking]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Adobe Campaign Standard]**. 然后， **[!UICONTROL In-App click tracking]** 在 **[!UICONTROL Event type]** 下拉菜单。
 
 1. 单击 **[!UICONTROL Keep changes]**。
 
-1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Actions]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL Send postback]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Send postback]** 在 **[!UICONTROL Event type]** 下拉菜单。
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;中，键入以下URL:
+1. 在 **[!UICONTROL URL]**，请键入以下URL:
 
    ```
    https://{%%camp-server%%}/r/?id={%id%}&mcid={%%mcid%%}
    ```
 
-1. 选中&#x200B;**[!UICONTROL Add post body]**&#x200B;复选框。
+1. 选择 **[!UICONTROL Add post body]** 复选框。
 
-1. 在&#x200B;**[!UICONTROL Post Body]**&#x200B;中，键入&#x200B;**{}**。
+1. 在 **[!UICONTROL Post Body]**，类型 **{}**.
 
-1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，键入&#x200B;**application/json**。
+1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 
-1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，选择0。
+1. 在 **[!UICONTROL Timeout]**，选择0。
 
    ![](assets/do-not-localize/rules_3.png)
 
@@ -189,65 +189,65 @@ ht-degree: 1%
 >
 >如果您使用的是Android ACPCore v1.4.0或更高版本/ iOS ACPCore v2.3.0或更高版本，则无需配置跟踪回发。
 
-要向[!DNL Adobe Campaign Standard]发送跟踪数据（有助于跟踪推送通知投放以及用户与移动应用程序的交互），必须在[!DNL Experience Platform Launch]中创建规则。
+将跟踪数据发送到 [!DNL Adobe Campaign Standard]，这有助于跟踪推送通知投放以及用户与移动应用程序的交互，您必须在 [!DNL Experience Platform Launch].
 
-有关推送跟踪的更多信息，请参阅[推送跟踪](../../administration/using/push-tracking.md)。
+有关推送跟踪的更多信息，请参阅 [推送跟踪](../../administration/using/push-tracking.md).
 
-要跟踪应用程序操作，请使用trackAction API。 有关更多信息，请参阅[跟踪应用程序操作](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)。
+要跟踪应用程序操作，请使用trackAction API。 有关更多信息，请参阅 [跟踪应用程序操作](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. 在[!DNL Experience Platform Launch]的移动应用程序功能板中，单击&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add Rule]**。
+1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
-1. 键入名称，例如&#x200B;**Adobe Campaign — 推送点击跟踪**。
+1. 键入一个名称，例如 **Adobe Campaign — 推送点击跟踪**.
 
-1. 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Events]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL Track Action]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Track Action]** 在 **[!UICONTROL Event type]** 下拉菜单。
 
-1. 从&#x200B;**[!UICONTROL Action]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Action]**，选择&#x200B;**[!UICONTROL equals]**，然后键入&#x200B;**tracking**。
+1. 从 **[!UICONTROL Action]** 下拉列表，选择 **[!UICONTROL Action]**，选择 **[!UICONTROL equals]**&#x200B;和类型 **跟踪**.
 
-1. 单击 **[!UICONTROL Keep changes]**。然后，在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 单击 **[!UICONTROL Keep changes]**。然后，在 **[!UICONTROL Actions]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，在&#x200B;**[!UICONTROL Action type]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL Send postback]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Send postback]** 在 **[!UICONTROL Action type]** 下拉菜单。
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;中，输入以下URL:
+1. 在 **[!UICONTROL URL]**，输入以下URL:
 
    ```
    https://{%%camp-server%%}/r/?id={%contextdata.broadlogId%},{%contextdata.deliveryId%},{%contextdata.action%}&mcId={%%mcid%%}
    ```
 
-1. 选中&#x200B;**[!UICONTROL Add post body]**&#x200B;复选框。
+1. 选择 **[!UICONTROL Add post body]** 复选框。
 
 1. 添加您的帖子正文，例如{ }。
 
-1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，键入&#x200B;**application/json**。
+1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 
-1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，选择0。
+1. 在 **[!UICONTROL Timeout]**，选择0。
 
 ### 位置回发 {#location-postback}
 
-1. 在[!DNL Experience Platform Launch]的移动应用程序功能板中，单击&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add Rule]**。
+1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
-1. 键入名称，例如&#x200B;**Location postback**。
+1. 键入一个名称，例如 **位置回发**.
 
-1. 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Events]** ，单击 **[!UICONTROL Add]**.
 
-1. 创建一个事件，例如，进入POI或退出POI。 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**Places - Beta**。 然后，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉菜单中， **进入POI**&#x200B;或&#x200B;**退出POI**。
+1. 创建一个事件，例如，进入POI或退出POI。 从 **[!UICONTROL Extension]** 下拉列表，选择 **Places — 测试版**. 然后， **进入POI** 或 **退出POI** 在 **[!UICONTROL Event type]** 下拉菜单。
 
-1. 输入名称，例如，**Places - Beta - Enter POI**&#x200B;或&#x200B;**Exit POI**。
+1. 输入名称，例如 **Places — 测试版 — 进入POI** 或 **退出POI**.
 
-1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Actions]** ，单击 **[!UICONTROL Add]**.
 
-1. 从&#x200B;**[!UICONTROL Extension]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Mobile Core]**。 然后，从&#x200B;**[!UICONTROL Action type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Send postback]**。
+1. 从 **[!UICONTROL Extension]** 下拉列表，选择 **[!UICONTROL Mobile Core]**. 然后， **[!UICONTROL Send postback]** 从 **[!UICONTROL Action type]** 下拉菜单。
 
-1. 输入名称，例如&#x200B;**Mobile Core - Send Location Postback**。
+1. 输入名称，例如 **移动核心 — 发送位置回发**.
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;中，输入以下URL:
+1. 在 **[!UICONTROL URL]**，输入以下URL:
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/
    ```
 
-1. 选中&#x200B;**[!UICONTROL Add post body]**&#x200B;复选框并添加帖子正文，例如：
+1. 选择 **[!UICONTROL Add post body]** 复选框并添加帖子正文，例如：
 
    ```
    {
@@ -264,10 +264,10 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在以上示例中，必须利用[创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements)中的步骤，在[!DNL Experience Platform Launch]中配置右侧的数据元素。 [!DNL Adobe Campaign Standard]支持左侧的数据元素，不需要任何配置。 如果需要其他数据，则必须在[!DNL Adobe Campaign Standard]中执行自定义资源扩展。
+   >在以上示例中，必须在 [!DNL Experience Platform Launch] 通过利用 [创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements). 左侧的数据元素在 [!DNL Adobe Campaign Standard] 和不需要任何配置。 如果需要其他数据，则必须在 [!DNL Adobe Campaign Standard].
 
-1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，键入&#x200B;**application/json**。
+1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 
-1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，选择5。
+1. 在 **[!UICONTROL Timeout]**，选择5。
 
    ![](assets/do-not-localize/rules_4.png)

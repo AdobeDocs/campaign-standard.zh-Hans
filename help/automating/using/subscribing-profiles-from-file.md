@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* [加载文件](../../automating/using/load-file.md)活动加载配置文件并定义导入列的结构。
+* A [加载文件](../../automating/using/load-file.md) 活动加载用户档案文件并定义导入列的结构。
 
    在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* 通过[Reconciliation](../../automating/using/reconciliation.md)活动，将文件中的数据标识为属于Adobe Campaign数据库的用户档案维度。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
+* A [协调](../../automating/using/reconciliation.md) 活动将文件中的数据标识为属于Adobe Campaign数据库的用户档案维度。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
 
    ![](assets/subscription_activity_example3.png)
 
-* 根据临时资源的&#x200B;**email**&#x200B;字段（由协调产生）的[重复数据删除](../../automating/using/deduplication.md)标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
+* A [重复数据删除](../../automating/using/deduplication.md) 基于 **电子邮件** 临时资源的字段（由协调产生）标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* 通过[订阅服务](../../automating/using/subscription-services.md)活动，您可以选择用户档案必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
+* A [订阅服务](../../automating/using/subscription-services.md) 活动，您可以选择用户档案必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
 
    ![](assets/subscription_activity_example4.png)

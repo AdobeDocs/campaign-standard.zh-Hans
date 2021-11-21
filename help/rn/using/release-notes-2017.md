@@ -481,7 +481,7 @@ _工作流_
    <td> 导出日志以进行外部报告<br /> </td> 
    <td> 导出投放和跟踪日志等日志，以便在您的首选报表或BI工具中处理它们。 您可以使用带有增量查询的简单工作流来自动定期导出新日志。<br /> 除了资源选取器中的日志资源可用性之外，还对 <a href="../../automating/using/incremental-query.md">增量查询</a> 和 <a href="../../automating/using/extract-file.md">提取文件</a> 活动：<br /> 
     <ul> 
-     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行的所有结果，也会自动排除这些结果。 </li> 
+     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行所获的所有结果，也会自动排除这些结果。 </li> 
      <li> <span class="uicontrol">提取文件</span> 现在可以导出枚举值的标签，而不是ID。 </li> 
     </ul> 管理员可以使用这些活动来访问所有地理和组织单位。<br /> 有关导出日志的更多信息，请参阅 <a href="../../automating/using/exporting-logs.md">详细文档</a>.<br /> </td> 
   </tr> 

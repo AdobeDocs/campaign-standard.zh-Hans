@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # 创建用户档案 {#creating-profiles}
 
-对用户档案资源使用&#x200B;**POST**&#x200B;请求创建用户档案。
+使用 **POST** 请求。
 
 >[!CAUTION]
 >
->如果要将<b>orgUnit</b>与创建的配置文件关联，您需要使用此字段扩展配置文件资源，并在发布扩展后，在<b>ProfileAndServicesExt</b>端点上执行POST请求。
+>如果要关联 <b>orgUnit</b> 在创建的用户档案中，您需要使用此字段扩展用户档案资源，并在发布扩展后，对 <b>ProfileAndServicesExt</b> 端点。
 >
->有关用户档案的资源扩展的更多信息，请参阅<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>。
+>有关用户档案的资源扩展的更多信息，请参阅 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>.
 
 <br/>
 

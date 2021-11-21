@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流中，可以存在一个或多个&#x200B;**外部信号**&#x200B;活动。 这些活动是等待触发的“侦听器”。
+在Adobe Campaign Standard工作流中，可以有一个或多个 **外部信号** 活动。 这些活动是等待触发的“侦听器”。
 
-Campaign StandardAPI允许您触发&#x200B;**External signal**&#x200B;活动以调用工作流。 API调用可以包含将被摄取到工作流事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
+Campaign StandardAPI允许您触发 **外部信号** 活动来调用工作流。 API调用可以包含将被摄取到工作流事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Campaign StandardAPI允许您触发&#x200B;**External signal**&#x200B;活动以�
 
 要触发工作流，请执行以下步骤：
 
-1. 在工作流中执行&#x200B;**GET**&#x200B;请求以检索外部信号活动触发器URL。
+1. 执行 **GET** 请求以检索外部信号活动触发器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 对返回的URL执行&#x200B;**POST**&#x200B;请求以触发信号活动，有效负载中具有&#x200B;**&quot;source&quot;**&#x200B;参数。 此属性是强制性的，它允许您指示触发请求源。
+1. 执行 **POST** 请求来触发信号活动，其中 **&quot;source&quot;** 参数。 此属性是强制性的，它允许您指示触发请求源。
 
-如果要使用参数调用工作流，请使用&#x200B;**&quot;parameters&quot;**&#x200B;属性将它们添加到有效负载中。 语法由参数的名称后跟其值组成(支持以下类型：**字符串**、**数字**、**布尔值**&#x200B;和&#x200B;**日期/时间**)。
+如果要使用参数调用工作流，请使用 **&quot;parameters&quot;** 属性。 语法由参数的名称后跟其值组成(支持以下类型： **字符串**, **数字**, **布尔** 和 **日期/时间**)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Campaign StandardAPI允许您触发&#x200B;**External signal**&#x200B;活动以�
 
 >[!NOTE]
 >
->在向有效负载中添加参数时，请确保其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值与外部信号活动中声明的信息一致。 此外，有效载荷尺寸不应超过64Ko。
+>向负载添加参数时，请确保 **name** 和 **type** 值与外部信号活动中声明的信息一致。 此外，有效载荷尺寸不应超过64Ko。
 
 <br/>
 

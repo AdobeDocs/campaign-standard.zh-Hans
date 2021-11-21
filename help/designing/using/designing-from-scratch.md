@@ -22,19 +22,19 @@ ht-degree: 2%
 以下是使用Email Designer从头开始创建和设计电子邮件内容的主要步骤：
 
 1. 创建电子邮件并打开其内容。
-1. 添加结构组件以形成电子邮件。 请参阅[编辑电子邮件结构](#defining-the-email-structure)。
-1. 在结构组件中插入内容组件和片段。 请参阅[添加片段和内容组件](#defining-the-email-structure)。
-1. 添加图像并编辑电子邮件的文本。 请参阅[插入图像](../../designing/using/images.md#inserting-images)。
-1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)、[插入链接](../../designing/using/links.md#inserting-a-link)和[在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 定义电子邮件的主题行。 请参阅[个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+1. 添加结构组件以形成电子邮件。 请参阅 [编辑电子邮件结构](#defining-the-email-structure).
+1. 在结构组件中插入内容组件和片段。 请参阅 [添加片段和内容组件](#defining-the-email-structure).
+1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images).
+1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参阅 [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field), [插入链接](../../designing/using/links.md#inserting-a-link) 和 [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. 定义电子邮件的主题行。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 预览电子邮件.
 1. 保存内容，并在确保已定义受众并正确计划了发送后继续处理消息。
 
-您也可以查看此[简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)。
+您也可以查看此 [简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
->为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。 有关更多信息，请参阅[内容模板](../../designing/using/using-reusable-content.md#content-templates)。
+>为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。 有关此内容的更多信息，请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates).
 
 ## 定义电子邮件结构 {#defining-the-email-structure}
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 要编辑电子邮件的结构，请执行以下操作：
 
 1. 打开现有内容或创建新的电子邮件内容。
-1. 通过选择左侧的&#x200B;**+**&#x200B;图标访问&#x200B;**[!UICONTROL Structure components]**。
+1. 访问 **[!UICONTROL Structure components]** 选择 **+** 图标。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 1. 可使用由一个或多个列组成的多个结构组件。
 
-   选择&#x200B;**[!UICONTROL n:n column]**&#x200B;组件以定义所选列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
+   选择 **[!UICONTROL n:n column]** 组件来定义所选的列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,11 +90,11 @@ ht-degree: 2%
 
 标题是在从收件箱中查看电子邮件时，主题行后面的简短摘要文本。 预标头提供了较高的打开率。
 
-选择&#x200B;**[!UICONTROL Preheader]**&#x200B;编辑框并完成内容。
+选择 **[!UICONTROL Preheader]** 编辑框并完成内容。
 
 ![](assets/email_designer_preheader.png)
 
-您可以在前标内容中添加&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
+您可以添加 **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]** 中。
 
 >[!NOTE]
 >
@@ -115,31 +115,31 @@ ht-degree: 2%
 
 ### **[!UICONTROL Button]**
 
-如果您需要使用多个按钮，而不是从头开始编辑每个按钮，则可以使用上下文工具栏复制&#x200B;**[!UICONTROL Button]**&#x200B;组件。
+如果您需要使用多个按钮，而不是从头开始编辑每个按钮，则可以复制 **[!UICONTROL Button]** 组件。
 
-您还可以将按钮保存到可重复使用的片段中。 有关更多信息，请参阅[创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)和[将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+您还可以将按钮保存到可重复使用的片段中。 有关此内容的更多信息，请参阅 [创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 和 [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-选择&#x200B;**[!UICONTROL Fallback view]**&#x200B;以在Email Designer中显示回退图像。
+选择 **[!UICONTROL Fallback view]** 以在Email Designer中显示备用图像。
 
 ### **[!UICONTROL Text]**
 
-使用此组件可在电子邮件中插入文本。 您可以在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中调整文本的颜色、样式和大小。
+使用此组件可在电子邮件中插入文本。 您可以在 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
-使用此组件可在电子邮件中插入分隔线。 您可以在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中选择断线的颜色、样式和大小。
+使用此组件可在电子邮件中插入分隔线。 您可以在 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
-使用此组件可复制粘贴现有HTML的不同部分。 这样，您就可以创建免费的模块化HTML组件。
+使用此组件可复制粘贴现有HTML的不同部分。 这使您能够创建免费的模块化HTML组件。
 
 >[!NOTE]
 >
->自由HTML组件可编辑，但选项有限。 如果未嵌入所有样式，请确保在HTML代码的&#x200B;**head**&#x200B;部分中添加正确的CSS，否则电子邮件将无法响应。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按钮测试内容的响应性（请参阅[预览消息](../../sending/using/previewing-messages.md)）。
+>免费HTML组件可编辑，但选项有限。 如果未插入所有样式，请确保在 **头** ，否则电子邮件将无法响应。 使用 **[!UICONTROL Preview]** 按钮以测试内容的响应性(请参阅 [预览消息](../../sending/using/previewing-messages.md))。
 
 为了使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件中的内容复制到片段和组件中。
 
-当您有无法重新创建的内容时，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;内容组件从原始电子邮件中复制并粘贴HTML代码。 在继续操作之前，请确保您熟悉HTML。
+当您的内容无法重新创建时，可以使用 **[!UICONTROL Html]** 内容组件。 在继续之前，请确保您熟悉HTML。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ ht-degree: 2%
 >abstract="使用此组件可在电子邮件中插入视频。 请注意，视频并非适用于所有电子邮件客户端。 我们建议设置备用图像。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
-将视频组件插入电子邮件的结构组件，然后在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中输入视频链接。
+将视频组件插入电子邮件的结构组件，然后在 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 2%
 
 ### **[!UICONTROL Social]**
 
-使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接及其图标在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中的大小。
+使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接，以及其图标在 **[!UICONTROL Component Settings]**.
 
 ### 轮播 {#carousel-settings}
 
@@ -182,12 +182,12 @@ ht-degree: 2%
 >title="轮播设置"
 >abstract="了解如何在内容中插入和配置轮播。请注意，轮播并非在所有电子邮件客户端上都可用，如果不支持，将显示回退图像。"
 
-1. 将&#x200B;**[!UICONTROL Carousel]**&#x200B;组件拖放到结构组件中。
+1. 拖放 **[!UICONTROL Carousel]** 组件内部。
 1. 浏览以从您的计算机中选择图像。
 
    ![](assets/des_carousel_browse.png)
 
-1. 从&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中，设置轮播中所需的缩略图数量。
+1. 从 **[!UICONTROL Settings]** 窗格中，设置您希望在轮播中显示的缩略图数量。
 1. 从您的计算机中选择一个备用图像。
 
    ![](assets/des_carousel_fallback.png)
@@ -196,7 +196,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->轮播组件与以下电子邮件平台兼容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL（Chrome、Firefox和Safari）。
+>轮播组件与以下电子邮件平台兼容：Apple Mail 7、Apple Mail 8、适用于Mac的Outlook 2011、适用于Mac的Outlook 2016、Mozilla Thunderbird、iPad和iPad mini iOS、iPhoneiOS、Android、AOL（Chrome、Firefox和Safari）。
 
 **相关主题**：
 

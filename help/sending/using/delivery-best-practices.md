@@ -26,7 +26,7 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用模板](use-templates.md)**  — 促进和加快新投放
+**[使用模板](use-templates.md)**  — 促进和加速新投放
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -42,7 +42,7 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[跟踪和监视](track-and-monitor.md)**  — 控制发送和疑难解答
+**[跟踪和监视](track-and-monitor.md)**  — 控制发送和故障排除
 
 ## 相关内容
 

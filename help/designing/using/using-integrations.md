@@ -33,9 +33,9 @@ Adobe Campaign提供了多个电子邮件创作选项。 您可以使用诸如Dr
 
 * **在Dreamweaver中添加Campaign个性化**
 
-   对于电子邮件开发人员，不再需要添加诸如`[[FIRSTNAME_PLACEHOLDER]]`之类的文本，也无需查找数据模型表的语法。 Dreamweaver中的Campaign工具栏可直接连接到Campaign实例的数据模型。 这意味着您可以从名字到地址之类的内容提取任何要进行个性化的数据。 如果您已在Campaign中创建内容块，则还可以直接将这些内容块提取到Dreamweaver。
+   对于电子邮件开发人员，不再需要添加文本，如 `[[FIRSTNAME_PLACEHOLDER]]` 也无法查找数据模型表的语法。 Dreamweaver中的Campaign工具栏可直接连接到Campaign实例的数据模型。 这意味着您可以从名字到地址之类的内容提取任何要进行个性化的数据。 如果您已在Campaign中创建内容块，则还可以直接将这些内容块提取到Dreamweaver。
 
-有关此功能的详情，请参阅位于[此处](https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html)的Dreamweaver文档。
+有关此功能的详情，请参阅可访问的Dreamweaver文档 [此处](https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
@@ -50,11 +50,11 @@ Adobe Campaign提供了多个电子邮件创作选项。 您可以使用诸如Dr
 >title="使用产品列表"
 >abstract="利用产品清单，可引用数据收集并在电子邮件内容中显示该数据收集。"
 
-产品清单允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于事务电子邮件。 [此处](../../designing/using/using-product-listings.md)提供了此功能的专述部分。
+产品清单允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于事务电子邮件。 此功能的专述部分现已提供 [此处](../../designing/using/using-product-listings.md).
 
 ## 电子邮件设计选项比较 {#email-design-options-comparison}
 
-Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种解决方案的主要可能性、优势和限制。
+Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种方法的主要可能性、优势和限制。
 
 <table> 
  <thead> 
@@ -68,43 +68,43 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
  <tbody> 
   <tr> 
    <td> <strong>开始空白电子邮件</strong><br /> </td> 
-   <td> 支持的<br /> </td> 
-   <td> 支持的<br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> 支持<br /> </td> 
+   <td> 支持<br /> </td> 
+   <td> 支持<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>编写HTML</strong><br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> <strong>写入HTML</strong><br /> </td> 
+   <td> 支持<br /> </td> 
    <td> 不支持<br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> 支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>更新HTML</strong><br /> </td> 
-   <td> 仅在HTML组件<br />内 </td> 
+   <td> 仅在HTML组件内<br /> </td> 
    <td> 不支持<br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> 支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>基本个性化</strong><br /> </td> 
-   <td> 支持的<br /> </td> 
-   <td> 支持的<br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> 支持<br /> </td> 
+   <td> 支持<br /> </td> 
+   <td> 支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>高级个性化</strong><br /> </td> 
-   <td> 支持的<br /> </td> 
+   <td> 支持<br /> </td> 
    <td> 不支持<br /> </td> 
    <td> 不支持<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>校样/预览</strong><br /> </td> 
-   <td> 支持的<br /> </td> 
-   <td> 在AEM<br /> Campaign<br />中预览校样 </td> 
+   <td> 支持<br /> </td> 
+   <td> 在AEM中预览<br /> Campaign中的校样<br /> </td> 
    <td> 在Campaign中预览和校样<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>产品列表</strong><br /> </td> 
-   <td> 在电子邮件事务型消息<br />中受支持 </td> 
+   <td> 在电子邮件事务型消息中受支持<br /> </td> 
    <td> 不支持<br /> </td> 
    <td> 不支持<br /> </td> 
   </tr> 
@@ -136,19 +136,19 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
      <p> — 难以实施的高级个性化</p>
      <p> — 需要在Adobe Campaign中发送测试</p>
   </td> 
-   <td> 不支持的动态内容<br /> </td> 
+   <td> 不支持动态内容<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>受众</strong><br /> </td> 
-   <td> 希望保持HTML组件与拖放功能结合使用的灵活性的营销人员<br /> </td> 
-   <td> 已在使用希望使用标准电子邮件模板并进行少量个性化的Experience Manager<br /> </td> 
-   <td> 希望编码电子邮件内容并直接与Adobe Campaign集成的开发人员<br /> </td> 
+   <td> 希望保持灵活性以结合使用HTML组件和拖放功能的营销人员<br /> </td> 
+   <td> 已在使用希望使用标准电子邮件模板且几乎不进行个性化的Experience Manager的营销人员<br /> </td> 
+   <td> 希望对电子邮件内容进行编码并直接与Adobe Campaign集成的开发人员<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>了解详情</strong><br /> </td> 
-   <td> 请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">关于Email Designer</a>。<br /> </td> 
-   <td> 请参阅<a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a>。<br /> </td> 
-   <td> 请参阅<a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a>并观看此<a href="#video">视频</a>。<br /> </td> 
+   <td> 请参阅 <a href="../../designing/using/designing-content-in-adobe-campaign.md">关于Email Designer</a>.<br /> </td> 
+   <td> 请参阅 <a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a>.<br /> </td> 
+   <td> 请参阅 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看这个 <a href="#video">视频</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,4 +159,4 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

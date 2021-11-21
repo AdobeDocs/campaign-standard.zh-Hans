@@ -18,7 +18,7 @@ ht-degree: 10%
 
 # 监测可投放性{#monitor-deliverability}
 
-下面将列出&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;报告以及Adobe Campaign提供的各种监控工具的详细信息。 以下是有关投放能力监控的其他一些准则：
+在下面，您将找到 **[!UICONTROL Delivery throughput]** 报告以及Adobe Campaign提供的不同监控工具。 以下是有关投放能力监控的其他一些准则：
 * 定期检查整个平台的投放吞吐量，以验证它是否与原始设置一致。
 * 检查投放模板中是否正确设置了重试（重试时间为30分钟，重试次数超过20次）。
 * 定期验证退回邮箱是否可访问，以及帐户是否不会过期。
@@ -30,27 +30,27 @@ ht-degree: 10%
 
 此报表包含有关整个平台在给定时段内的投放吞吐量的信息，用于测量消息的投放速度。
 
-有关更多信息，请参阅[投放吞吐量](../../reporting/using/delivery-throughput.md)。
+有关此内容的更多信息，请参阅 [投放吞吐量](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 您可以通过更改时间刻度来配置显示的值。
 
-其他报表可用，如&#x200B;**[!UICONTROL Delivery summary]**&#x200B;或&#x200B;**[!UICONTROL Non-deliverables and bounces]**。 有关更多信息，请参阅[动态报告](../../reporting/using/about-dynamic-reports.md)。
+其他报表可用，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**. 有关此内容的更多信息，请参阅 [动态报告](../../reporting/using/about-dynamic-reports.md).
 
 ## 监控投放 {#monitoring-deliveries}
 
-利用消息仪表板，可访问投放日志：**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**&#x200B;和&#x200B;**[!UICONTROL Tracked URLs]**。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+利用消息仪表板，可访问投放日志： **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**. 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
-有关更多信息，请参阅[监控投放](../../sending/using/monitoring-a-delivery.md)。
+有关此内容的更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
 ## 接收警报 {#receiving-alerts}
 
-**[!UICONTROL Delivery alerting]**&#x200B;功能是一个警报管理系统，它允许一组用户自动接收包含其投放执行信息的通知。
+的 **[!UICONTROL Delivery alerting]** 功能是一个警报管理系统，通过该系统，一组用户可自动接收包含其投放执行信息的通知。
 
-有关更多信息，请参阅[在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
+有关此内容的更多信息，请参阅 [在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

@@ -32,12 +32,12 @@ Campaign Standard提供了多种监视实例的方法，以确保您的系统运
 
 **系统通知**
 
-Campaign Standard界面提供了一个通知窗格，用于随时通知您系统中正在发生的情况：事件状态、系统更新、所需操作等。 [阅读更多](../../start/using/interface-description.md#top-bar)
+Campaign Standard界面提供通知窗格，用于随时通知您系统中正在发生的情况：事件状态、系统更新、所需操作等。 [了解更多信息](../../start/using/interface-description.md#top-bar)
 
 
 **技术工作流**
 
-技术工作流是计划在服务器上定期执行的操作或作业。要确保您的实例运行正常，并且正常运行，您需要确保它们始终处于运行状态。 [阅读更多](../../administration/using/technical-workflows.md)
+技术工作流是计划在服务器上定期执行的操作或作业。要确保您的实例运行正常，并且正常运行，您需要确保它们始终处于运行状态。 [了解更多信息](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
@@ -49,17 +49,17 @@ Campaign Standard界面提供了一个通知窗格，用于随时通知您系统
 
 **技术对象**
 
-**[!UICONTROL Diagnosis]**&#x200B;菜单是监视和分析应用程序生成的不同技术对象的关键工具：数据架构、网页、批处理作业等。 [阅读更多](../../developing/using/monitoring-data-model-changes.md)
+的 **[!UICONTROL Diagnosis]** 菜单是监视和分析应用程序生成的不同技术对象的关键工具：数据架构、网页、批处理作业等。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
 
 **导出审核**
 
 导出审核允许您监控对实例执行的导出：从工作流上传的文件、列表导出以及从直邮下载的文件。
-[阅读更多](../../administration/using/auditing-export-logs.md)
+[了解更多信息](../../administration/using/auditing-export-logs.md)
 
 **许可证**
 
-使用&#x200B;**[!UICONTROL Licenses]**菜单，监视有关实例的信息：安装的许可证、版本和条款协议接受。
-[阅读更多](../../administration/using/licenses.md)
+使用 **[!UICONTROL Licenses]** 菜单，监视有关实例的信息：安装的许可证、版本和条款协议接受。
+[了解更多信息](../../administration/using/licenses.md)
 
 ## 监控工作流 {#monitoring-workflows}
 
@@ -68,17 +68,17 @@ Campaign Standard界面提供了一个通知窗格，用于随时通知您系统
 **最佳实践和故障排除**
 
 使用工作流时，请遵循最佳实践和疑难解答准则，这有助于提高性能。
-[阅读更多](../../automating/using/best-practices-workflows.md)
+[了解更多信息](../../automating/using/best-practices-workflows.md)
 
 **日志和任务**
 
 工作流日志监控是分析工作流并确保工作流正常运行的关键步骤。
-[阅读更多](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
+[了解更多信息](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **通知**
 
 Campaign Standard允许您向主管发送通知，以监控工作流的执行情况，并查看是否存在需要您注意的错误。
-[阅读更多](../../automating/using/monitoring-workflow-execution.md#error-management)
+[了解更多信息](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 监控投放 {#monitoring-deliveries}
 
@@ -87,19 +87,19 @@ Campaign Standard允许您向主管发送通知，以监控工作流的执行情
 **可投放性**
 
 Campaign Standard提供了多种可投放性工具，可帮助您提高成功投放消息的数量：投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
-[阅读更多](../../sending/using/about-deliverability.md)
+[了解更多信息](../../sending/using/about-deliverability.md)
 
 **投放**
 
 发送消息后，利用详细的日志，可监控投放情况并衡量活动是否成功，以及跟踪消息收件人的行为。
-[阅读更多](../../sending/using/monitoring-a-delivery.md)
+[了解更多信息](../../sending/using/monitoring-a-delivery.md)
 
 **投放警报**
 
 借助投放警报功能，您可以设置将自动发送给一组用户的有关投放执行的警报：发送或准备失败、跳出率不佳、吞吐量低等。
-[阅读更多](../../sending/using/receiving-alerts-when-failures-happen.md)
+[了解更多信息](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **动态报告**
 
 动态报告提供各种报告，帮助您不断了解投放的执行情况：跳出次数、按收件人查看次数最多的投放、投放的吞吐量等。
-[阅读更多](../../reporting/using/about-dynamic-reports.md)
+[了解更多信息](../../reporting/using/about-dynamic-reports.md)

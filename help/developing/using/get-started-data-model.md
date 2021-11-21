@@ -29,11 +29,11 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign使用的数据是通过&#x200B;**预定义数据模型**&#x200B;中定义的不同资源来定义的。 数据模型为一组与营销相关的资源显示一个现成的SQL结构：投放、受众、登陆页面、用户档案等。 每个资源都提供关联的过滤器，允许您在各个资源中导航。
+Campaign使用的数据通过 **预定义数据模型**. 数据模型为一组与营销相关的资源显示一个现成的SQL结构：投放、受众、登陆页面、用户档案等。 每个资源都提供关联的过滤器，允许您在各个资源中导航。
 
-**诊断**&#x200B;菜单允许您列出由Campaign Standard生成的技术对象：数据架构、网页、过滤器等，允许您监视数据模型以及对其所做的任何更改。
+的 **诊断** 菜单，可列出由Campaign Standard生成的技术对象：数据架构、网页、过滤器等，允许您监视数据模型以及对其所做的任何更改。
 
-阅读更多:
+了解更多信息:
 
 * [数据模型概念](../../developing/using/data-model-concepts.md)
 * [数据模型最佳实践](../../developing/using/data-model-best-practices.md)
@@ -44,11 +44,11 @@ Campaign使用的数据是通过&#x200B;**预定义数据模型**&#x200B;中定�
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard允许您&#x200B;**扩充预定义的数据模型**&#x200B;以创建您自己的资源（例如添加Purchase或Product表），或使用新字段扩展现有资源。 您还可以配置Campaign屏幕，以优化在已创建的新资源和字段中的导航。
+Campaign Standard允许您 **扩充预定义的数据模型** 创建您自己的资源（例如添加Purchase或Product表），或使用新字段扩展现有资源。 您还可以配置Campaign屏幕，以优化在已创建的新资源和字段中的导航。
 
-此外，您还可以&#x200B;**扩展Campaign StandardREST API**，以便在自定义资源Profiles的API扩展字段中公开。 例如，这允许您使用从计费系统生成的促销代码来更新客户的用户档案。
+此外，您还可以 **扩展Campaign StandardREST API** 以在自定义资源用户档案的API扩展字段中公开。 例如，这允许您使用从计费系统生成的促销代码来更新客户的用户档案。
 
-阅读更多:
+了解更多信息:
 
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 * [扩展API](../../developing/using/about-extending-the-api.md)

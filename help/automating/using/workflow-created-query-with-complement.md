@@ -28,20 +28,20 @@ ht-degree: 41%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择&#x200B;**[!UICONTROL email]**&#x200B;和运算符&#x200B;**[!UICONTROL is not empty]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL email]** 和运算符 **[!UICONTROL is not empty]**.
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**.
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
 ## 创建分段活动 {#create-a-segmentation-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[Segmentation](../../automating/using/segmentation.md)活动并双击该活动。
-1. 将鼠标悬停在区段上，然后单击![](assets/edit_darkgrey-24px.png)以定位今年在数据库中添加的客户。
-1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择筛选类型为&#x200B;**[!UICONTROL Relative]**&#x200B;的&#x200B;**[!UICONTROL Created]**。
-1. 将&#x200B;**[!UICONTROL Level of precision]**&#x200B;更改为&#x200B;**[!UICONTROL Year]**&#x200B;并选择&#x200B;**[!UICONTROL This year]**。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [分段](../../automating/using/segmentation.md) 活动，然后双击该活动。
+1. 将鼠标悬停在区段上，然后单击 ![](assets/edit_darkgrey-24px.png) 目标客户今年在数据库中添加了。
+1. 拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL Created]** 的 **[!UICONTROL Relative]**.
+1. 更改 **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** 选择 **[!UICONTROL This year]**.
 1. 单击 **[!UICONTROL Confirm]** 两次。
-1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;以创建针对其余收件人的区段。
+1. 在 **[!UICONTROL Advanced Options]**，勾选 **[!UICONTROL Generate complement]** 创建定向其余收件人的区段。
 1. 单击 **[!UICONTROL Confirm]**。
 1. 单击 **[!UICONTROL Save]**。
 
@@ -49,11 +49,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->要观察规则的结构，请单击&#x200B;**[!UICONTROL Advanced Mode]**。
+>要观察规则的结构，请单击 **[!UICONTROL Advanced Mode]**.
 
 ## 创建电子邮件投放 {#create-an-email-delivery}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到每个区段的后面。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Single send email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。

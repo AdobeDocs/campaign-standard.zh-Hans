@@ -22,9 +22,9 @@ ht-degree: 3%
 
 * **编辑** （灰色）
 
-   这是工作流的初始设计阶段（请参阅[创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)）。 该工作流尚未由服务器处理，可以修改，且不会出现任何风险。
+   这是工作流的初始设计阶段(请参阅 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow))。 该工作流尚未由服务器处理，可以修改，且不会出现任何风险。
 
-* **进行中** （蓝色）
+* **正在进行** （蓝色）
 
    初始设计阶段完成后，工作流便可启动并由服务器处理。
 
@@ -36,12 +36,12 @@ ht-degree: 3%
 
 * **警告** （黄色）
 
-   使用![](assets/pause_darkgrey-24px.png)或![](assets/check_pause_darkgrey-24px.png)按钮无法完成或暂停工作流。
+   无法使用完成或暂停工作流 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按钮。
 
 * **错误** （红色）
 
-   执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用![](assets/printpreview_darkgrey-24px.png)按钮访问工作流日志（请参阅[Monitoring](../../automating/using/monitoring-workflow-execution.md)）。
+   执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用 ![](assets/printpreview_darkgrey-24px.png) 用于访问工作流日志的按钮(请参阅 [监控](../../automating/using/monitoring-workflow-execution.md))。
 
-营销活动列表允许您显示所有工作流及其状态。 有关更多信息，请参阅[管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities)。
+营销活动列表允许您显示所有工作流及其状态。 有关此内容的更多信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

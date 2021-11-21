@@ -1,6 +1,6 @@
 ---
 title: '组件列表 '
-description: 请在此处找到     动态报告及其定义。
+description: 在此处查找动态报告中可用的每个组件的列表及其定义。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 组件列表 {#list-of-components}
 
-要了解有关维度与量度之间兼容性的更多信息，请参阅此[表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，则单元格将显示值&#x200B;**None**。
+要了解有关维度和量度之间兼容性的更多信息，请参阅此 [表](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 如果两个组件不兼容，则单元格将显示值 **无**.
 
 [![图像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
@@ -35,7 +35,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> 浏览器<br /> </td> 
-   <td> 从中打开或单击消息的浏览器。<br /> </td> 
+   <td> 打开或单击消息的浏览器。<br /> </td> 
   </tr> 
   <tr> 
    <td> 营销活动<br /> </td> 
@@ -43,11 +43,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 城市<br /> </td> 
-   <td> 收件人资料中注册的城市。<br /> </td> 
+   <td> 在收件人用户档案中注册的城市。<br /> </td> 
   </tr> 
   <tr> 
    <td> 国家/地区<br /> </td> 
-   <td> 在收件人的资料中注册的国家/地区。<br /> </td> 
+   <td> 收件人用户档案中注册的国家/地区。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放<br /> </td> 
@@ -59,15 +59,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 失败原因<br /> </td> 
-   <td> 导致每次投放跳出（如用户未知、域无效或邮箱已满）的错误类型。<br /> </td> 
+   <td> 导致每次投放退回（例如用户未知、域无效或邮箱已满）的错误类型。<br /> </td> 
   </tr> 
   <tr> 
    <td> 性别<br /> </td> 
-   <td> 接受者的性别，如男性或女性。 如果收件人用户档案中的性别字段为空，则值为none。<br /> </td> 
+   <td> 接受者的性别，如男性或女性。 如果收件人用户档案中的性别字段为空，则值为“无”。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内消息操作<br /> </td> 
-   <td> 对已传送的应用程序内消息执行的操作，例如对按钮1或2的操作或被解除的操作。<br /> </td> 
+   <td> 对传递的应用程序内消息执行的操作，例如对按钮1或2的操作或被解除的操作。<br /> </td> 
   </tr> 
   <tr> 
    <td> 消息类型<br /> </td> 
@@ -79,11 +79,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 平台<br /> </td> 
-   <td> 从中打开/查看/单击消息的设备的平台。<br /> </td> 
+   <td> 打开/查看/单击消息的设备的平台。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用户档案<br /> </td> 
-   <td> 重组在配置文件资源扩展期间创建的现成配置文件字段和自定义配置文件字段，有关更多信息，请参阅此<a href="../../developing/using/key-steps-to-add-a-resource.md">page</a>或此<a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>。<br /> 请注意，一旦发布链接到用户档案字段的自定义资源，即会检索此维度的数据。<br /> </td> 
+   <td> 重组在用户档案资源扩展期间创建的现成和自定义用户档案字段，有关更多信息，请参阅此内容 <a href="../../developing/using/key-steps-to-add-a-resource.md">页面</a> 或 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>.<br /> 请注意，一旦发布链接到用户档案字段的自定义资源，即会检索此维度的数据。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送平台<br /> </td> 
@@ -98,7 +98,7 @@ ht-degree: 1%
    <td> 定期投放的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
+   <td> 发件人域<br /> </td> 
    <td> 用于发送电子邮件的域。<br /> </td> 
   </tr> 
   <tr> 
@@ -106,12 +106,12 @@ ht-degree: 1%
    <td> 用于发送电子邮件的IP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 状态<br /> </td> 
-   <td> 在收件人的配置文件中注册的状态。<br /> </td> 
+   <td> 州<br /> </td> 
+   <td> 收件人用户档案中注册的州。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跟踪URL<br /> </td> 
-   <td> 用户从消息中点击的URL。<br /> </td> 
+   <td> 用户从消息中单击的URL。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跟踪URL类别<br /> </td> 
@@ -119,7 +119,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 跟踪URL标签<br /> </td> 
-   <td> 为URL指定的标签（如镜像页面）与我们联系或打开。<br /> </td> 
+   <td> 为URL提供的标签（如镜像页面），请与我们联系或打开。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性投放<br /> </td> 
@@ -147,12 +147,12 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 在阻止列表<br />上 </td> 
-   <td> 声明电子邮件为垃圾邮件或垃圾邮件的收件人数。<br /> </td> 
+   <td> 开阻止列表启<br /> </td> 
+   <td> 声明电子邮件为垃圾邮件或垃圾邮件的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
    <td> 阻止列表率<br /> </td> 
-   <td> 在上标阻止列表记的投放百分比。<br /> </td> 
+   <td> 在“”上标记的投放阻止列表百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跳出次数+错误<br /> </td> 
@@ -160,7 +160,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 跳出+错误率<br /> </td> 
-   <td> 与已发送的电子邮件相比，已退回的电子邮件的百分比。<br /> </td> 
+   <td> 退回的电子邮件与已发送电子邮件的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
@@ -171,12 +171,12 @@ ht-degree: 1%
    <td> 投放中的点击次数百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已传送<br /> </td> 
+   <td> 已交付<br /> </td> 
    <td> 已成功发送的消息数，与已发送消息的总数有关。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 传递率<br /> </td> 
-   <td> 已成功发送的消息的百分比。<br /> </td> 
+   <td> 交付率<br /> </td> 
+   <td> 成功发送的消息的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 硬退回<br /> </td> 
@@ -188,11 +188,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 镜像页面<br /> </td> 
-   <td> 单击镜像页面链接的收件人数。<br /> </td> 
+   <td> 单击镜像页面链接的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
    <td> 镜像页面速率<br /> </td> 
-   <td> 对镜像页面链接的点击次数与总投放消息数的百分比。<br /> </td> 
+   <td> 在镜像页面链接上的点击次数与总投放消息数的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 选件点击量<br /> </td> 
@@ -204,7 +204,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 投放中打开消息的次数。<br /> </td> 
+   <td> 投放中消息打开的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开率<br /> </td> 
@@ -223,7 +223,7 @@ ht-degree: 1%
    <td> 与已发送消息相比的隔离百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已拒绝<br /> </td> 
+   <td> 被拒绝<br /> </td> 
    <td> 被SMTP服务器分类为垃圾邮件的邮件数。<br /> </td> 
   </tr> 
   <tr> 
@@ -239,20 +239,20 @@ ht-degree: 1%
    <td> 因临时原因而失败的投放的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击量<br /> </td> 
-   <td> 点击投放中内容的收件人数。<br /> </td> 
+   <td> 独特点击<br /> </td> 
+   <td> 点击投放内容的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
    <td> 唯一打开数<br /> </td> 
    <td> 打开投放的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一退订<br /> </td> 
-   <td> 单击退订链接的收件人数。<br /> </td> 
+   <td> 独特退订<br /> </td> 
+   <td> 单击退订链接的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 取消订阅率<br /> </td> 
-   <td> 与已投放消息相比，唯一退订的次数。<br /> </td> 
+   <td> 退订率<br /> </td> 
+   <td> 与已投放消息相比，独特退订的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已取消订阅<br /> </td> 
@@ -273,26 +273,26 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> 跳出次数+错误<br /> </td> 
-   <td> 在投放期间累积的与已发送消息总数有关的错误总数，例如来自MCPNS或提供程序的错误。<br /> </td> 
+   <td> 在投放期间累积的与已发送消息总数有关的错误总数，例如来自MCPNS或提供商的错误。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跳出+错误率<br /> </td> 
-   <td> 与已发送的推送通知相比，已退回的推送通知的百分比。<br /> </td> 
+   <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 将推送通知发送到设备并由用户单击的次数。 用户要么想查看通知，然后通知将被移动到“推送打开”跟踪，要么想关闭通知。<br /> </td> 
+   <td> 将推送通知发送到设备并由用户单击的次数。 用户要么想要查看通知（该通知随后将被移至推送打开跟踪），要么就将其关闭。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 
    <td> 与推送通知交互的用户百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已传送<br /> </td> 
+   <td> 已交付<br /> </td> 
    <td> 成功发送的推送通知数，与已发送的推送通知总数有关。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 传递率<br /> </td> 
+   <td> 交付率<br /> </td> 
    <td> 成功发送推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
@@ -305,14 +305,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知时不会触发推送打开。<br /> </td> 
+   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开率<br /> </td> 
    <td> 打开的推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击量<br /> </td> 
+   <td> 独特点击<br /> </td> 
    <td> 独特用户与推送通知交互的次数，例如单击通知或按钮。<br /> </td> 
   </tr> 
   <tr> 
@@ -337,15 +337,15 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已传送<br /> </td> 
-   <td> 服务提供商向设备传送的应用程序内消息总数。<br /> </td> 
+   <td> 已交付<br /> </td> 
+   <td> 服务提供商交付到设备的应用程序内消息总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
-   <td> 收件人查看的应用程序内消息总数，具体取决于是否满足触发器条件。<br /> </td> 
+   <td> 收件人查看的应用程序内消息总数，具体取决于是否满足触发器标准。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内单击<br /> </td> 
+   <td> 应用程序内点击 <br /> </td> 
    <td> 单击按钮1或按钮2的收件人总数。<br /> </td> 
   </tr> 
   <tr> 
@@ -354,7 +354,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 应用程序内解聘<br /> </td> 
-   <td> 通过单击关闭按钮或自动关闭收件人已忽略的邮件总数。<br /> </td> 
+   <td> 通过单击关闭按钮或自动关闭收件人已忽略的消息总数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内解雇率<br /> </td> 
@@ -370,10 +370,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 应用程序内独特点击次数<br /> </td> 
-   <td> 收件人在按钮1或按钮2上单击的次数。<br /> </td> 
+   <td> 收件人单击按钮1或按钮2的次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特应用程序内解除<br /> </td> 
+   <td> 独特的应用程序内解雇<br /> </td> 
    <td> 收件人取消应用程序内消息的次数。<br /> </td> 
   </tr> 
  </tbody> 
@@ -392,11 +392,11 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年龄：婴儿潮一代1<br /> </td> 
+   <td> 年龄：婴儿潮一代<br /> </td> 
    <td> 1946年至1954年出生的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：婴儿潮一代2<br /> </td> 
+   <td> 年龄：婴儿潮2岁<br /> </td> 
    <td> 1955年至1965年生的收件人。<br /> </td> 
   </tr> 
   <tr> 
@@ -421,34 +421,34 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 年龄：Y代（千禧一代）<br /> </td> 
-   <td> 1977年至1994年出生的收件人。<br /> </td> 
+   <td> 1977年至1994年生的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：第Z代<br /> </td> 
+   <td> 年龄：Z代<br /> </td> 
    <td> 1995年至今的收件人。<br /> </td> 
   </tr> 
   <tr> 
    <td> 年龄：大于50<br /> </td> 
-   <td> 年龄大于50的收件人。<br /> </td> 
+   <td> 年龄大于50岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：小于25<br /> </td> 
-   <td> 年龄小于25的收件人。<br /> </td> 
+   <td> 年龄：少于25<br /> </td> 
+   <td> 年龄小于25岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：小于30<br /> </td> 
-   <td> 年龄小于30的收件人。<br /> </td> 
+   <td> 年龄：少于30<br /> </td> 
+   <td> 年龄小于30岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：小于40<br /> </td> 
-   <td> 年龄小于40的收件人。<br /> </td> 
+   <td> 年龄：少于40<br /> </td> 
+   <td> 年龄小于40岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：小于50<br /> </td> 
-   <td> 年龄小于50的收件人。<br /> </td> 
+   <td> 年龄：少于50<br /> </td> 
+   <td> 年龄小于50岁的收件人。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：静默生成<br /> </td> 
+   <td> 年龄：沉默的一代<br /> </td> 
    <td> 1945年或之前出生的收件人。<br /> </td> 
   </tr> 
   <tr> 

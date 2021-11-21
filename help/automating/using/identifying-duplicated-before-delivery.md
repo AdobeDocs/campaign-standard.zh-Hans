@@ -24,11 +24,11 @@ ht-degree: 78%
 
 ![](assets/deduplication_example_workflow.png)
 
-* [查询](../../automating/using/query.md)，用于定义电子邮件的目标。 在本例中，该工作流用于定向客户端数据库中存在超过一年的 18 到 25 岁的所有用户档案。
+* A [查询](../../automating/using/query.md) 用于定义电子邮件的目标。 在本例中，该工作流用于定向客户端数据库中存在超过一年的 18 到 25 岁的所有用户档案。
 
    ![](assets/deduplication_example_query.png)
 
-* [重复数据删除](../../automating/using/deduplication.md)活动，用于识别来自上一个查询的重复项。 在本例中，只为每个重复项保存一个记录。使用电子邮件地址识别重复项。这意味着，只对定向中显示的每个电子邮件地址，发送一次电子邮件投放。
+* A [重复数据删除](../../automating/using/deduplication.md) 活动，用于识别来自上一个查询的重复项。 在本例中，只为每个重复项保存一个记录。使用电子邮件地址识别重复项。这意味着，只对定向中显示的每个电子邮件地址，发送一次电子邮件投放。
 
    选择的重复数据删除方法为 **[!UICONTROL Non-empty value]**。这样，就可确保在出现重复项时，优先保留提供了&#x200B;**名字**&#x200B;的记录。如果在电子邮件内容的个性化字段中使用了名字，这样可使其更加合乎逻辑。
 
@@ -36,5 +36,5 @@ ht-degree: 78%
 
    ![](assets/deduplication_example_dedup.png)
 
-* 将[电子邮件投放](../../automating/using/email-delivery.md)放置在重复数据删除的主叫客过渡之后。
-* 将[保存位于重复数据删除的附加过渡之后的受众](../../automating/using/save-audience.md)活动，以将重复项保存在&#x200B;**Duplicates**&#x200B;受众中。 此受众可重复利用，以直接从每个电子邮件投放中将其排除。
+* 安 [电子邮件投放](../../automating/using/email-delivery.md) 放在重复数据删除的主叫客过渡之后。
+* A [保存受众](../../automating/using/save-audience.md) 活动放在重复数据删除的附加过渡之后，以将重复项保存在 **重复项** 受众。 此受众可重复利用，以直接从每个电子邮件投放中将其排除。

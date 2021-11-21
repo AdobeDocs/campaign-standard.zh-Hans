@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 67%
+source-wordcount: '864'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a>创建和个性化电子邮件内容。 </p></br>
+   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> 创建和个性化电子邮件内容。 </p></br>
    <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
   <p> 
   <em>目标移除日期：2022 年</em></p>
@@ -117,9 +117,9 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">了解详情</a>。</p><br/>
-   <p><a href="Https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
+   <p>的 <a href="Https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
-   <p>在本页面</a>中了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
+   <p>了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本页</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -178,7 +178,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] 已停用。因此，从 Campaign 20.2 版本开始，Campaign Standard 电子邮件中由 [!DNL Creative SDK] 提供的图像编辑功能不再可用。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，图像编辑功能由 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard电子邮件不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 

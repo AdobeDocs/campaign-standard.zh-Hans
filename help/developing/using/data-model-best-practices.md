@@ -23,9 +23,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要创建和修改资源以扩展Adobe Campaign预定义数据模型，请参阅[此部分](../../developing/using/key-steps-to-add-a-resource.md)。
+>要创建和修改资源以扩展Adobe Campaign预定义数据模型，请参阅 [此部分](../../developing/using/key-steps-to-add-a-resource.md).
 >
->您可以在[此页](../../developing/using/datamodel-introduction.md)中找到内置资源的数据模型表示形式。
+>您可以在 [本页](../../developing/using/datamodel-introduction.md).
 
 ## 概述 {#overview}
 
@@ -41,11 +41,11 @@ Adobe Campaign Standard是一款功能强大的跨渠道活动管理系统，可
 
 虽然大多数电子邮件服务提供商都在通过以列表为中心的方法与客户通信，但Adobe Campaign依赖关系数据库来利用客户及其属性的更广泛视图。
 
-下图显示了这种以客户为中心的方法。 以灰色显示的&#x200B;**Profile**&#x200B;资源表示正在围绕其构建所有内容的主客户表：
+下图显示了这种以客户为中心的方法。 的 **用户档案** 灰色资源表示正在构建所有内容的主要客户表：
 
 ![](assets/customer-centric-data-model.png)
 
-此[部分](../../developing/using/datamodel-introduction.md)介绍了Adobe Campaign默认数据模型。
+Adobe Campaign默认数据模型如下所示 [部分](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -65,11 +65,11 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 >
 >Adobe Campaign不是data warehouse。 因此，请不要尝试将所有可能的客户及其关联信息导入Adobe Campaign。
 
-要决定是否需要某个属性在Adobe Campaign，请确定该属性是否属于以下类别之一：
-* 用于&#x200B;**segmentation**&#x200B;的属性
-* 用于&#x200B;**数据管理进程**&#x200B;的属性（例如聚合计算）
-* 用于&#x200B;**personalization**&#x200B;的属性
-* 用于&#x200B;**reporting**&#x200B;的属性（可以根据自定义配置文件数据创建报表）
+要决定是否需要在Adobe Campaign中使用属性，请确定属性是否属于以下类别之一：
+* 用于 **分段**
+* 用于 **数据管理流程** （例如聚合计算）
+* 用于 **个性化**
+* 用于 **报告** （可以根据自定义用户档案数据创建报表）
 
 如果不属于这些属性中的任何一个，您很可能在Adobe Campaign中不需要此属性。
 
@@ -81,7 +81,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 
 ## 配置数据结构 {#configuring-data-structure}
 
-本节概述了[配置资源数据结构](../../developing/using/configuring-the-resource-s-data-structure.md)时的最佳实践。
+本节概述了 [配置资源的数据结构](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### 标识符 {#identifiers}
 
@@ -95,14 +95,14 @@ Adobe Campaign资源具有三个标识符，并且可以添加其他标识符。
 
 | 显示名称 | 技术名称 | 说明 | 最佳实践 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常对特定Adobe Campaign实例是唯一的。</li><li>在Adobe Campaign Standard中，此值对最终用户不可见（URL中除外）。</li></ul> | <ul><li>通过[API系统](../../api/using/get-started-apis.md)，可以检索PKey值（该值是生成的/哈希值，而不是物理密钥）。</li><li>除了通过API检索、更新或删除记录之外，不建议将其用于其他任何内容。</li></ul> |
+|  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常对特定Adobe Campaign实例是唯一的。</li><li>在Adobe Campaign Standard中，此值对最终用户不可见（URL中除外）。</li></ul> | <ul><li>通过 [API系统](../../api/using/get-started-apis.md)，则可以检索PKey值（即生成/哈希值，而不是物理密钥）。</li><li>除了通过API检索、更新或删除记录之外，不建议将其用于其他任何内容。</li></ul> |
 | ID | name或internalName | <ul><li>此信息是表中记录的唯一标识符。 此值可手动更新。</li><li>此标识符在部署到其他Adobe Campaign实例时会保留其值。 其名称必须不同于生成的值，才能通过包导出。</li><li>这不是表的实际主键。</li></ul> | <ul><li>请勿使用特殊字符，如空格“”、半列“：”或连字符“ — ”。</li><li>所有这些字符都将替换为下划线“_”（允许的字符）。 例如，“abc-def”和“abc:def”将存储为“abc_def”并相互覆盖。</li></ul> |
 | 标签 | label | <ul><li>标签是Adobe Campaign中对象或记录的业务标识符。</li><li>此对象允许使用空格和特殊字符。</li><li>它不保证记录的唯一性。</li></ul> | <ul><li>建议确定对象标签的结构。</li><li>这是用于为Adobe Campaign用户标识记录或对象的最易用的解决方案。</li></ul> |
-| ACS ID | acsId | <ul><li>还可以生成其他标识符：[ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>由于PKey不能在Adobe Campaign用户界面中使用，因此，这是一种获取在插入用户档案记录期间生成的唯一值的解决方案。</li><li>仅当在资源中启用了选项后，才能在将记录插入Adobe Campaign中之前自动生成值。</li></ul> | <ul><li>此UUID可用作协调键值。</li><li>自动生成的ACS ID不能用作工作流或包定义中的引用。</li><li>此值特定于Adobe Campaign实例。</li></ul> |
+| ACS ID | acsId | <ul><li>还可以生成其他标识符：the [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>由于PKey不能在Adobe Campaign用户界面中使用，因此，这是一种获取在插入用户档案记录期间生成的唯一值的解决方案。</li><li>仅当在资源中启用了选项后，才能在将记录插入Adobe Campaign中之前自动生成值。</li></ul> | <ul><li>此UUID可用作协调键值。</li><li>自动生成的ACS ID不能用作工作流或包定义中的引用。</li><li>此值特定于Adobe Campaign实例。</li></ul> |
 
 ### 标识键 {#keys}
 
-在Adobe Campaign中创建的每个资源必须至少具有一个唯一的[标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
+在Adobe Campaign中创建的每个资源必须至少具有一个唯一 [标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -121,7 +121,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 ### 索引 {#indexes}
 
-Adobe Campaign会自动将[index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)添加到资源中定义的所有主键和内部键。
+Adobe Campaign会自动添加 [索引](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) 到资源中定义的所有主键和内部键。
 
 * Adobe建议定义其他索引，因为这可能会提高性能。
 * 但是，不要添加太多索引，因为它们在数据库上使用空间。 许多索引也可能会对性能产生负面影响。
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### 链接 {#links}
 
-[此部分](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)中介绍了定义与其他资源的链接。
+定义与其他资源的链接，请参见 [此部分](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * 虽然可以连接工作流中的任何表，但Adobe建议直接在数据结构定义中定义资源之间的通用链接。
 * 链接的定义应与表中的实际数据保持一致。 错误的定义可能会影响通过链接检索到的数据，例如意外复制记录。

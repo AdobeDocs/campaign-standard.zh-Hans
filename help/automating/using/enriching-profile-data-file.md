@@ -24,8 +24,8 @@ ht-degree: 75%
 
 ![](assets/enrichment_example_workflow.png)
 
-* [查询](../../automating/using/query.md)活动，用于定向接收消息的用户档案。
-* 加载加载购买数据的[文件](../../automating/using/load-file.md)活动。 例如：
+* A [查询](../../automating/using/query.md) 活动，定向接收消息的用户档案。
+* A [加载文件](../../automating/using/load-file.md) 活动来加载购买数据。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ ht-degree: 75%
 
    对于此示例文件，使用电子邮件地址将数据与数据库用户档案进行协调。 您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* [扩充](../../automating/using/enrichment.md)活动，用于在从文件加载的事务数据与在&#x200B;**[!UICONTROL Query]**&#x200B;中选择的用户档案之间创建链接。 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
+* 安 [扩充](../../automating/using/enrichment.md) 活动，用于在从文件加载的交易数据与在 **[!UICONTROL Query]**. 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 75%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* [分段](../../automating/using/segmentation.md)活动，仅包含一个区段，用于检索至少记录了两次交易的初始目标的用户档案。 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
+* A [分段](../../automating/using/segmentation.md) 活动，该活动仅检索至少记录了两次交易的初始目标的用户档案。 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* [电子邮件投放](../../automating/using/email-delivery.md)活动，该活动使用&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定义的附加数据动态检索用户档案进行的最后两次购买。 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
+* 安 [电子邮件投放](../../automating/using/email-delivery.md) 使用 **[!UICONTROL Enrichment]** ，以动态检索用户档案进行的最后两次购买。 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
 
    ![](assets/enrichment_example_workflow10.png)
 

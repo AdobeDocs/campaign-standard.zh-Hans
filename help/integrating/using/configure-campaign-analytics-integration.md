@@ -23,25 +23,25 @@ ht-degree: 9%
 
 外部帐户和技术工作流只能由平台的功能管理员管理。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择&#x200B;**[!UICONTROL Administration > Application settings > External accounts]**。
-1. 选择&#x200B;**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;外部帐户。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration > Application settings > External accounts]**.
+1. 选择 **[!UICONTROL Share KPIs with Adobe Analytics]** 外部帐户。
 
    ![](assets/analytics_2.png)
 
-1. 在&#x200B;**[!UICONTROL Connection]**&#x200B;字段中指定&#x200B;**[!UICONTROL Web services user name]**&#x200B;和&#x200B;**[!UICONTROL Web services share secret]**。
+1. 指定 **[!UICONTROL Web services user name]** 和 **[!UICONTROL Web services share secret]** 在 **[!UICONTROL Connection]** 字段。
 
-   通过选择&#x200B;**[!UICONTROL Admin > Company settings > Web services]**，可以在Analytics中找到这些参数。
+   通过选择 **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. 单击 **[!UICONTROL Refresh report suites]** 按钮。
-1. 在&#x200B;**[!UICONTROL Analytics default report suite]**&#x200B;下拉列表中选择要使用Adobe Analytics数据进行扩充的Adobe Campaign报表包。
+1. 在 **[!UICONTROL Analytics default report suite]** 下拉要使用Adobe Analytics数据扩充的Adobe Campaign报表包。
 
-   您的外部帐户现已准备就绪，并已与Adobe Analytics关联。 您可以随时通过选中&#x200B;**[!UICONTROL Enabled]**&#x200B;框来禁用此功能。
+   您的外部帐户现已准备就绪，并已与Adobe Analytics关联。 您可以随时通过检查 **[!UICONTROL Enabled]** 框中。
 
    ![](assets/analytics.png)
 
-现在，**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;技术工作流将自动启动，并可通过选择&#x200B;**[!UICONTROL Administration > Application settings > Workflow]**&#x200B;从高级菜单中查看。 此技术工作流将每15分钟自动执行一次，并将在Adobe Analytics中推送最多6个月的旧数据。
+的 **[!UICONTROL Share KPIs with Adobe Analytics]** 技术工作流现在将自动启动，并可通过选择 **[!UICONTROL Administration > Application settings > Workflow]**. 此技术工作流将每15分钟自动执行一次，并将在Adobe Analytics中推送最多6个月的旧数据。
 
 ![](assets/analytics_3.png)
 
@@ -51,4 +51,4 @@ ht-degree: 9%
 
 * [外部帐户](../../administration/using/external-accounts.md)
 * [技术工作流](../../administration/using/technical-workflows.md)
-* [共享KPI以实现集成的促销活动报](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 告视频
+* [共享KPI以实现集成的Campaign报告](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 视频

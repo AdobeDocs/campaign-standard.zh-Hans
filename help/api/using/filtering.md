@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 检索过滤器元数据
 
-每个资源都有过滤器。 要识别与资源关联的过滤器，您需要对资源元GET执行数据请求。 此请求会返回为给定资源定义所有过滤器的URL。 有关元数据的更多信息，请参阅[此部分](../../api/using/metadata-mechanism.md)。
+每个资源都有过滤器。 要识别与资源关联的过滤器，您需要对资源元GET执行数据请求。 此请求会返回为给定资源定义所有过滤器的URL。 有关元数据的更多信息，请参阅 [此部分](../../api/using/metadata-mechanism.md).
 
 要识别过滤器的元GET并确定如何使用该元数据，您必须对先前返回的URL执行元数据请求。
 
@@ -66,10 +66,10 @@ ht-degree: 1%
 
 每个过滤器具有相同的元数据结构：
 
-* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;字段是技术字段。
-* **data**&#x200B;字段提供了有关如何使用过滤器的示例。
-* **metadata**&#x200B;节点描述过滤器参数。
-* **条件**&#x200B;节点描述过滤器要执行的操作。 元数据节点中描述的过滤器参数用于创建过滤条件。 对于每个筛选条件，如果&#x200B;**enabledIf**&#x200B;为true，则将应用&#x200B;**expr**。
+* 的 **@formType** 和 **@webPage** 领域是技术领域。
+* 的 **数据** 字段中提供了有关如何使用过滤器的示例。
+* 的 **元数据** 节点描述过滤器参数。
+* 的 **条件** 节点描述过滤器要执行的操作。 元数据节点中描述的过滤器参数用于创建过滤条件。 对于每个过滤条件(如果 **enabledIf** 是真的， **expr** 中，将被应用。
 
 <br/>
 
@@ -133,8 +133,7 @@ ht-degree: 1%
    }
    ```
 
-* 用于检索包含“Doe”的“profile”资源的示例GET请求，位于
-电子邮件或姓氏字段（byText筛选器会搜索电子邮件和姓氏字段）。
+* 用于检索电子邮件或姓氏字段中包含“Doe”的“profile”资源的示例GET请求（byText筛选器会搜索电子邮件和姓氏字段）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -203,7 +202,7 @@ ht-degree: 1%
 有关更多信息，请参阅Campaign Standard文档：
 
 * [配置过滤器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [用例：使用复合标识键调用资源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+* [用例：使用复合标识键调用资源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

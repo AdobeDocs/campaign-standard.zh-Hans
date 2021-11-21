@@ -52,7 +52,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->在启动工作流之前， [!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流的执行将被延迟，直到服务器的负载下降并系统内存增加为止。
+>在启动工作流之前， [!DNL Campaign Standard] 将检查是否有足够的系统物理内存来运行工作流。 如果可用内存不足，将显示一条消息，通知您工作流的执行将被延迟，直到服务器的负载下降并系统内存增加为止。
 
 ### 频度
 
@@ -80,7 +80,7 @@ ht-degree: 84%
 
 ### 工作流设计
 
-要确保工作流正常结束，请避免使用&#x200B;**[!UICONTROL End activity]**&#x200B;将工作流的最后一个过渡留给自己。
+要确保工作流正常结束，请避免使用 **[!UICONTROL End activity]**.
 
 要访问过渡的详细视图，请勾选工作流属性“执行”部分中的 **[!UICONTROL Keep interim results]** 选项。
 
@@ -113,7 +113,7 @@ ht-degree: 84%
 
 ## 使用参数调用工作流{#workflow-with-parameters}
 
-确保参数的名称和数量与调用工作流时定义的参数相同（请参阅[此页](../../automating/using/defining-parameters-calling-workflow.md)）。 参数的类型还必须与预期值一致。
+确保参数的名称和数量与调用工作流时定义的参数相同(请参阅 [本页](../../automating/using/defining-parameters-calling-workflow.md). 参数的类型还必须与预期值一致。
 
 确保已在 **[!UICONTROL External signal activity]** 中声明了所有的参数。否则，运行活动时将出错。
 

@@ -72,7 +72,7 @@ ht-degree: 96%
 
    例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
-   有关工作流属性的更多信息，请参阅[此页面](../../automating/using/managing-execution-options.md)。
+   有关工作流属性的更多信息，请参阅 [本页](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

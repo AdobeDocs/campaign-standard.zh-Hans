@@ -52,19 +52,19 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 >
 >我们的示例使用Postman。 但是，请随时使用您最喜爱的REST客户端。
 
-1. 单击[此处](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)下载JSON集合。
+1. 通过单击 [此处](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. 打开Postman ，然后选择&#x200B;**File** / **Import**&#x200B;菜单。
+1. 打开Postman，然后选择 **文件** / **导入** 菜单。
 
 1. 将下载的文件拖放到窗口中。 显示预先设计好的API请求，随时可供使用。
 
    ![替换文本](assets/postman_collection.png)
 
-1. 选择&#x200B;**创建配置文件**&#x200B;请求，然后使用您自己的信息(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新POST请求和&#x200B;**标头**&#x200B;选项卡。 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
+1. 选择 **创建用户档案** 请求，然后更新POST请求和 **标题** 选项卡，其中包含您自己的信息(&lt;organization>, &lt;api_key>, &lt;access_token>)。 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
 
    ![替换文本](assets/postman_uc1.png)
 
-1. 在&#x200B;**Body**&#x200B;选项卡中填写要添加到新用户档案的信息，然后单击&#x200B;**Send**&#x200B;按钮以执行请求。
+1. 填写 **正文** 选项卡，然后单击 **发送** 按钮以执行请求。
 
    ![替换文本](assets/postman_uc2.png)
 

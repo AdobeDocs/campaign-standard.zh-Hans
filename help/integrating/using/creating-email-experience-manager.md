@@ -37,17 +37,17 @@ ht-degree: 2%
 
 默认情况下，利用两个预定义模板，可为Adobe Campaign创建电子邮件内容。
 
-* **[!UICONTROL Adobe Campaign Email]**:此模板包含可进行个性化的标准内容。您可以在“Adobe Campaign电子邮件(AC6.1)”和“Adobe Campaign电子邮件(ACS)”之间进行选择。
-* **[!UICONTROL Importer Page]**:利用此模板，可导入包含HTML文件的ZIP文件，其中包含您随后能够个性化的内容。
+* **[!UICONTROL Adobe Campaign Email]**:此模板包含可进行个性化的标准内容。 您可以在“Adobe Campaign电子邮件(AC6.1)”和“Adobe Campaign电子邮件(ACS)”之间进行选择。
+* **[!UICONTROL Importer Page]**:利用此模板，可导入包含HTML文件的ZIP文件，其中包含您随后可以个性化的内容。
 
-1. 在Adobe Experience Manager中，创建新的&#x200B;**[!UICONTROL Page]**。
+1. 在Adobe Experience Manager中，创建新 **[!UICONTROL Page]**.
 
-1. 选择&#x200B;**[!UICONTROL Adobe Campaign Email]**&#x200B;模板。 有关详细步骤，请参阅以下视频。
+1. 选择 **[!UICONTROL Adobe Campaign Email]** 模板。 有关详细步骤，请参阅以下视频。
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 打开新的电子邮件内容。
 
-1. 在&#x200B;**[!UICONTROL Page properties]**&#x200B;中，将&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;设置为&#x200B;**[!UICONTROL Cloud Service Configuration]**。 这样，您就可以在内容与Adobe Campaign实例之间进行通信。
+1. 在 **[!UICONTROL Page properties]**，设置 **[!UICONTROL Adobe Campaign]** 作为 **[!UICONTROL Cloud Service Configuration]**. 这样，您就可以在内容与Adobe Campaign实例之间进行通信。
 
    有关更多信息，请观看以下视频：
 
@@ -59,14 +59,14 @@ ht-degree: 2%
 
 要在Adobe Experience Manager中创建电子邮件内容，请执行以下操作：
 
-1. 通过访问Sidekick中的&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;选项卡，编辑主题和&#x200B;**[!UICONTROL Plain text]**&#x200B;版本的电子邮件。
+1. 编辑主题以及 **[!UICONTROL Plain text]** 通过访问 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 选项卡。
 
-1. 通过&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;组件添加&#x200B;**[!UICONTROL Personalization fields]**。 每个组件都对应于一个特定用法：插入图像、添加个性化等。
+1. 添加 **[!UICONTROL Personalization fields]** 到 **[!UICONTROL Text & Personalization]** 组件。 每个组件都对应于一个特定用法：插入图像、添加个性化等。
 
    有关更多信息，请观看以下视频：
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. 从&#x200B;**[!UICONTROL Workflow]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;验证工作流。 如果电子邮件使用的内容未获得批准，则将无法在Adobe Campaign中发送电子邮件。
+1. 从 **[!UICONTROL Workflow]** 选项卡，选择 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则将无法在Adobe Campaign中发送电子邮件。
 
 1. 定义内容和发送参数后，您可以继续在Adobe Campaign Standard中批准、准备和发送电子邮件。
 

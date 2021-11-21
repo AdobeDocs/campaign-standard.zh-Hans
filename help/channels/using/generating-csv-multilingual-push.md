@@ -1,6 +1,6 @@
 ---
 title: 为带有Campaign Standard的多语言推送通知生成CSV文件
-description: 上传CSV文件以生成内容以供交付是一项用于支持多语言推送通知的功能。
+description: 上传CSV文件以生成内容以供交付的功能，用于支持多语言推送通知。
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -38,26 +38,27 @@ ht-degree: 0%
 1. 语言
 1. silentPush
 
-单击&#x200B;**[!UICONTROL Manage Content Variants]**&#x200B;窗口中的&#x200B;**[!UICONTROL Download a sample file]**&#x200B;以检查CSV示例。 有关更多信息，请参阅此[部分](../../channels/using/creating-a-multilingual-push-notification.md)。
+通过单击 **[!UICONTROL Download a sample file]** 在 **[!UICONTROL Manage Content Variants]** 窗口。 有关更多信息，请参阅 [部分](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title， messageBody， sound， badge， deeplinkURI， category， iosMediaAttachmentURL， androidMediaAttachmentURL**:常规推送负载内容。您需要以与创建推送投放类似的方式提供此信息。
-* **自定义字段**:对自定义字段(例如， `{"key1":"value1","key2":"value2"}`.有关自定义字段的示例，请参阅上面的示例文件。
-* **isContentAvailable**:标记“可用内容”检查，值1表示true，值0表示false。默认值为0。 如果将此列留空，则该值将被视为0。
-* **isMutableContent**:标记可变内容，值1表示true，值0表示false。默认值为0。 如果将此列留空，则该值将被视为0。
-* **区域设置**:“区域设置”是语言变体的字段，例如“en_us”表示美式英语，“fr_fr”表示法式法语。
-* **语言**:与区域设置关联的语言的名称。例如，如果区域设置为“en_us”，则语言的名称应为“English-United States”。
-* **silentPush**:推送通知类型的标记。如果是常规推送通知，则值为0。 如果是静默推送，则值为1。 默认值为0。 如果将此列留空，则该值将被视为0。
+* **title， messageBody， sound， badge， deeplinkURI， category， iosMediaAttachmentURL， androidMediaAttachmentURL**:常规推送负载内容。 您需要以与创建推送投放类似的方式提供此信息。
+* **自定义字段**:对自定义字段(例如， `{"key1":"value1","key2":"value2"}`. 有关自定义字段的示例，请参阅上面的示例文件。
+* **isContentAvailable**:标记“可用内容”检查，值1表示true，值0表示false。 默认值为0。 如果将此列留空，则该值将被视为0。
+* **isMutableContent**:标记可变内容，值1表示true，值0表示false。 默认值为0。 如果将此列留空，则该值将被视为0。
+* **语言**:“区域设置”是语言变体的字段，例如“en_us”表示美式英语，“fr_fr”表示法式法语。
+* **语言**:与区域设置关联的语言的名称。 例如，如果区域设置为“en_us”，则语言的名称应为“English-United States”。
+* **silentPush**:推送通知类型的标记。 如果是常规推送通知，则值为0。 如果是静默推送，则值为1。 默认值为0。 如果将此列留空，则该值将被视为0。
 
 ## 创建CSV文件的限制和准则 {#constraints-guideline-csv}
 
-**每列的名称是固定的**。您应当在CSV文件中包含每列的名称，如果不对内容使用任何列，请将其留空。
+**每列的名称是固定的**.
+您应当在CSV文件中包含每列的名称，如果不对内容使用任何列，请将其留空。
 
 **“区域设置”和“语言”列是必填列，每行的值都是唯一的。**
 此列的空值将导致文件上传失败。
 
-**列的顺序很重要**。上载文件中列的顺序需要遵循与样例文件相同的格式。
+**列的顺序很重要**. 上载文件中列的顺序需要遵循与样例文件相同的格式。
 
-**引用列内容**。由于这是CSV（表示逗号分隔值）文件，因此必须为包含逗号(,)的任何列内容加引号。 例如，“你好，汤姆！”
+**引用列内容**. 由于这是CSV（表示逗号分隔值）文件，因此必须为包含逗号(,)的任何列内容加引号。 例如，“你好，汤姆！”
 
 **国际字符需要使用UTF-8编码。**
 
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 ## 在csv文件中插入个性化字段 {#personalization-field-csv}
 
-如果要使用个性化字段，应在文件中包含<span>标记。
+如果要使用个性化字段，您应包括 <span> 标记。
 
 要在messageBody中插入“firstName”个性化字段，消息需要：
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 * 一个是静态类。 无论您计划使用哪个个性化字段，它都将始终为class=&quot;nl-dce-field nl-dce-done&quot;。
 
-* 另一个是数据nl-expr ，它是个性化字段的路径。 例如，如果从UI插入“firstName”个性化字段，则导航路径将为&#x200B;**[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**（如下图所示）。 在这种情况下，路径将为
+* 另一个是数据nl-expr ，它是个性化字段的路径。 例如，如果从UI插入“firstName”个性化字段，则导航路径将为 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （如下图所示）。 在这种情况下，路径将为
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".

@@ -48,6 +48,6 @@ Adobe Campaign Standard仅支持在平板电脑上使用横向作为显示模式
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 跟踪 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | 资产集成 | `https://*.marketing-assets.adobe.com` |
-| 内部Adobe服务 | `https://*.adobe.io` |
+| Adobe内部服务 | `https://*.adobe.io` |
 | 调查 | `https://adobe.allegiancetech.com` |
 | 默认品牌URL（在客户端配置之前） | `https://*.adobe-campaign.com` |

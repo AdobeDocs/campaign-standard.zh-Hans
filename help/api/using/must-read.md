@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 资源表示
 
-所有API资源在URL扩展名为&#x200B;**JSON**&#x200B;或HTTP接受标头中均可用：
+所有API资源均在 **JSON** 具有URL扩展或位于HTTP Accept标头内：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->如果URL中没有扩展名，则&#x200B;**json格式是content-type的默认格式**。
+>如果URL中没有扩展，则 **json格式是默认格式** （对于content-type）。
 
 <br/>
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 如果键值与原始键不同，或者您使用自己的业务键作为URI而不是由PATCH提供的URI，则无法使用Adobe操作修改自定义键。
 
-仅对&#x200B;**顶级配置文件资源**&#x200B;使用自定义键。 URL由API返回，绝不应由您自己构建。
+为 **顶级用户档案资源** 仅。 URL由API返回，绝不应由您自己构建。
 
 <br/>
 

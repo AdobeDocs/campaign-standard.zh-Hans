@@ -19,19 +19,19 @@ ht-degree: 5%
 
 Adobe Campaign提供了预定义的数据模型，其中数据通过不同资源进行定义。 您可以通过扩展资源以添加您自己的自定义字段或自定义表（如购买表或产品表）来扩充提供的数据模型。
 
-可通过API使用&#x200B;**/profileAndServicesExt**&#x200B;端点和自定义资源名称访问自定义资源。
+可通过API访问自定义资源，具体方法是： **/profileAndServicesExt** 端点和自定义资源名称。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->对于非现成资源，请始终在资源名称前使用<b>&quot;cus&quot;</b>前缀。
+>对于非现成资源，请始终使用 <b>&quot;cus&quot;</b> 在资源名称之前添加前缀。
 
 您可以使用自定义资源执行任何操作，只要它们已链接到Profile表。 例如，让我们考虑下面的表结构：
 
 ![替换文本](assets/cusresources.png)
 
-在这种情况下，只要&#x200B;**Transaction**、**TransactionDetails**&#x200B;和&#x200B;**Product**&#x200B;表链接到&#x200B;**Profile**&#x200B;表，所有资源都可用。
+在这种情况下， **交易**, **交易详细信息** 和 **产品** 只要表链接到 **用户档案** 表。
 
 <br/>
 

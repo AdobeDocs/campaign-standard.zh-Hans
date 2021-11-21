@@ -17,17 +17,17 @@ ht-degree: 24%
 
 # 将订阅扩展到应用程序资源{#extending-the-subscriptions-to-an-application-resource}
 
-在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。有关自定义资源的更多信息，请参阅[此页面](../../developing/using/key-steps-to-add-a-resource.md)。
+在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。有关自定义资源的更多信息，请参阅 [本页](../../developing/using/key-steps-to-add-a-resource.md).
 
 可扩展此资源以收集您打算从移动设备发送到Adobe Campaign的数据。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;并选择&#x200B;**[!UICONTROL Extend an existing resource]**&#x200B;选项。
-1. 选择&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;资源并单击&#x200B;**[!UICONTROL Create]**。
+1. 单击 **[!UICONTROL Create]** 然后选择 **[!UICONTROL Extend an existing resource]** 选项。
+1. 选择 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源，单击 **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 在&#x200B;**[!UICONTROL Data structure]**&#x200B;选项卡的&#x200B;**[!UICONTROL Fields]**&#x200B;类别中，通过单击&#x200B;**[!UICONTROL Add field]**&#x200B;按钮定义要从移动应用程序中检索的客户数据。
+1. 在 **[!UICONTROL Fields]** 类别 **[!UICONTROL Data structure]** ，可通过单击 **[!UICONTROL Add field]** 按钮。
 
    >[!NOTE]
    >
@@ -35,14 +35,14 @@ ht-degree: 24%
 
    ![](assets/in_app_personal_data.png)
 
-1. 向新字段中添加&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**。 选择字段的&#x200B;**[!UICONTROL Type]**。
+1. 添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 到您的新字段。 选择字段的 **[!UICONTROL Type]**.
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;类别中，配置用于将用户档案从Adobe Campaign数据库链接到应用程序订阅者（如电子邮件）的协调键值。
+1. 在 **[!UICONTROL Link to profiles]** 类别中，配置用于将用户档案从Adobe Campaign数据库链接到应用程序订阅者（如电子邮件）的协调键值。
 
    请注意，对于应用程序内消息，您只能为所有移动应用程序定义一个协调键值。
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** 并发布自定义资源。有关自定义资源发布的详细信息，请参阅此[页面](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. **[!UICONTROL Save]** 并发布自定义资源。 有关自定义资源发布的更多信息，请参阅 [页面](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).

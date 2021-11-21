@@ -43,7 +43,7 @@ ht-degree: 8%
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx
@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
 
-**阅读更多**
+**了解更多信息**
 
 * xxxx
 * xxxx

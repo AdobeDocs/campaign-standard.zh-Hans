@@ -4,7 +4,7 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 topic: Premium
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 100%
 

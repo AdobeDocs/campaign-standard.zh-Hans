@@ -24,7 +24,7 @@ ht-degree: 89%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 使用[Load file](../../automating/using/load-file.md)活动导入包含用户档案列表的文件。 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
+* 使用 [加载文件](../../automating/using/load-file.md) 活动。 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ ht-degree: 89%
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [重复数据删除](../../automating/using/deduplication.md)活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
+* A [重复数据删除](../../automating/using/deduplication.md) 活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
 
    在本例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。因此，应对临时资源的 **email** 列执行重复项识别。现在，两个相同的电子邮件地址会在文件中显示两次。此时，这两行将被视为重复项。
 
    ![](assets/deduplication_example2_dedup.png)
 
-* [更新数据](../../automating/using/update-data.md)活动允许您将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
+* 安 [更新数据](../../automating/using/update-data.md) 利用活动，可将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
 
    在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键值，以执行此操作。
 

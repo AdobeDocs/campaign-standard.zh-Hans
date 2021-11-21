@@ -7,13 +7,13 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
 
 ---
-
 
 # 应用程序内常见问题解答 {#in-app-faq}
 
@@ -34,19 +34,19 @@ ht-degree: 2%
 * 仅当用户已登录应用程序时，才能提供使用用户档案模板构建的消息。
 * 为了便于进行这种安全握手，移动应用程序开发人员应使用setLinkageField API传递其他身份验证详细信息。 请注意，链接字段是在扩展appSubscriberRcp表时被标识为移动用户档案和CRM用户档案之间链接的字段。
 * 当用户使用resetLinkageField注销应用程序时，它们应刷新存储在设备上的应用程序内消息和resetLinkagefields。 这可确保当其他用户登录到应用程序时，他们看不到适用于前一用户的消息。
-* 请参阅[Mobile SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)以实施此安全机制客户端。
+* 请参阅 [Mobile SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) 实现此安全机制客户端。
 
 ## 要在Campaign中启用应用程序内报告，我必须做什么？ {#enable-inapp-reporting}
 
-您需要配置应用程序内跟踪回发。 有关说明，请参见[此处](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。
+您需要配置应用程序内跟踪回发。 有关说明，请参阅 [此处](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-要实施本地通知跟踪，请参阅此[页面](../../administration/using/local-tracking.md)。
+要实施本地通知跟踪，请参阅 [页面](../../administration/using/local-tracking.md).
 
 ## 哪些报表可用于应用程序内渠道？ {#report-inapp}
 
-Adobe Campaign中为应用程序内渠道提供了现成报表。 请参阅此[文档](../../reporting/using/in-app-report.md)。
+Adobe Campaign中为应用程序内渠道提供了现成报表。 请参阅 [文档](../../reporting/using/in-app-report.md).
 
-请参阅此[页面](../../reporting/using/indicator-calculation.md#in-app-delivery)以了解如何计算每个应用程序内量度。
+请参阅 [页面](../../reporting/using/indicator-calculation.md#in-app-delivery) 以了解如何计算每个应用程序内量度。
 
 ## 应用程序内内容的多语言内容变体是否支持与推送类似？ {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Adobe Campaign中为应用程序内渠道提供了现成报表。 请参阅此[�
 是，应用程序内消息支持深层链接。 深层链接应包括：
 
 * 声明投放跟踪需要禁用才能使深层链接正常工作的语言。
-* Appsflyer与Branch合作，共同执行深层链接跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅此[页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer与Branch合作，共同执行深层链接跟踪。 有关分支和Adobe Campaign Standard集成的更多信息，请参阅 [页面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## 当用户从推送通知中启动应用程序时，是否可以触发应用程序内消息？ {#inapp-push-trigger}
 

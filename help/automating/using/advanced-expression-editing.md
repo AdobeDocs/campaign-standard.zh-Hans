@@ -155,7 +155,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">小于</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> 第一个值必须绝对小于第二个值。<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> 可检索之前 100 天（不含第 100 天）内在数据库中创建的所有用户档案。<br /> </td> 
   </tr> 
@@ -169,7 +169,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">小于或等于</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> 第一个值必须小于或等于第二个值。<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> 可检索年龄为 60 岁或更小的用户档案。<br /> </td> 
   </tr> 
@@ -190,21 +190,21 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">相似</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不适用<br /> </td> 
    <td> <span class="uicontrol">相似</span>与<span class="uicontrol">包含</span>运算符非常相似。利用该运算符，可在搜索的值中插 入 <span class="uicontrol">%</span> 通配符。<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>。在此，替换字符 <strong>%</strong> 将用作“绝招”，在假设拼写不正确的情况下查找名称“Martin”。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">不相似</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不适用<br /> </td> 
    <td> 与 <span class="uicontrol">相似</span>相同。不能用于取回输入的值。在本例中，输入的值也必须包含 <span class="uicontrol">%</span> 个通配符字段。<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>。此处，不会返回与名称“Smi%h”（代表 Smith 等）对应的收件人作为结果。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">为空</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不适用<br /> </td> 
    <td> 第一个值必须对应于空值。<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> 可检索尚未提供手机号码的所有用户档案。<br /> </td> 
   </tr> 

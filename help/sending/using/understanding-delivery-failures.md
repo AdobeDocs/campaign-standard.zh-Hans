@@ -82,7 +82,7 @@ ht-degree: 64%
 
 如果消息因临时错误而失败，则会在投放持续期间执行重试。 有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
 
-重试次数（开始发送后一天内应执行多少次重试）和重试之间的最短延迟现在<!--managed by the Adobe Campaign Enhanced MTA,-->取决于IP在给定域名的历史和当前表现。 Campaign 中的 **Retries** 设置将被忽略。
+重试次数（发送开始后一天应执行多少次重试）和重试之间的最短延迟现在为<!--managed by the Adobe Campaign Enhanced MTA,--> 基于IP在给定域中的历史和当前表现。 Campaign 中的 **Retries** 设置将被忽略。
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 64%
 >
 >**现在，Campaign 投放中的&#x200B;**[!UICONTROL Delivery duration]**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
 
-例如，如果希望重试在一天后停止投放，可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息将在一天后删除。
+例如，如果希望重试在一天后停止投放，可以将投放持续时间设置为 **1d**，并且重试队列中的消息将在一天后删除。
 
 >[!NOTE]
 >
->消息在重试队列中停留最长3.5天且投放失败后，该消息将超时，其状态将在[投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新为&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
+>消息在重试队列中停留最长3.5天且投放失败后，将超时，其状态将会更新<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** 在 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >不再使用 Campaign **[!UICONTROL Message qualification]** 表格中的退回鉴别。
 
-异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击 **Adobe** 徽标，然后选择左上角的 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 选择 **[!UICONTROL Bounce mails]**. 有关此规则的更多信息，请参阅 [此部分](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-有关退回和不同类型退回的更多信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
+有关退回和不同类型退回的更多信息，请参阅 [此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

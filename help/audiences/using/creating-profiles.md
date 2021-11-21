@@ -52,7 +52,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系用户档案的渠道。
    * 一旦用户档案取消订阅了某个渠道，则会立即更新 **[!UICONTROL No longer contact]** 类别。
    * **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送[直邮](../../channels/using/about-direct-mail.md)的 **[!UICONTROL Address specified]** 选项。如果未勾选 **[!UICONTROL Address specified]** 选项，则此用户档案将从所有直邮投放中排除。
-   * **[!UICONTROL Access authorization]**&#x200B;类别指示用户档案的组织单位为[管理权限](../../administration/using/about-access-management.md)。 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
+   * 的 **[!UICONTROL Access authorization]** 类别指示用户档案的组织单位 [管理权限](../../administration/using/about-access-management.md). 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
    * **[!UICONTROL Traceability]** 类别会自动更新与创建或修改用户档案之用户相关的信息。
 
 1. 单击 **[!UICONTROL Create]** 以保存用户档案。
@@ -68,4 +68,4 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-其他Campaign Standard操作方法视频可在[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)获取。
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

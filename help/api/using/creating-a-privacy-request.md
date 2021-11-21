@@ -19,20 +19,20 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->[隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html)集成是您应用于所有访问和删除请求的方法。 从 19.4 版开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。有关 Campaign Standard 的已弃用和已删除功能的详细信息，请参阅[此页面](../../rn/using/deprecated-features.md)。
+>的 [隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html) 集成是您应用于所有访问和删除请求的方法。 从 19.4 版开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。有关 Campaign Standard 的已弃用和已删除功能的详细信息，请参阅[此页面](../../rn/using/deprecated-features.md)。
 
-使用&#x200B;**POST**&#x200B;请求创建隐私请求。
+隐私请求是使用 **POST** 请求。
 
-在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参阅[隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参阅 [隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 有效负载必须包含以下参数：
 
-* **名称**:唯一的内部名称
+* **name**:唯一的内部名称
 * **命名空间**:在Campaign Standard界面中配置的命名空间名称
 * **reconciliationValue**:基于命名空间中定义的协调键值的协调值
 * **标签**:请求标签
-* **类型**:请求类型。接受的值为“access”或“delete”。
-* **法规**:调节类型。示例：“GDPR”、“CCPA”。 此参数是强制性的，从Campaign Standard19.4版本开始提供。 如果您使用的是较旧的内部版本，则无需将其添加到有效负载中。
+* **type**:请求类型。 接受的值为“access”或“delete”。
+* **监管**:调节类型。 示例：“GDPR”、“CCPA”。 此参数是强制性的，从Campaign Standard19.4版本开始提供。 如果您使用的是较旧的内部版本，则无需将其添加到有效负载中。
 
 <br/>
 

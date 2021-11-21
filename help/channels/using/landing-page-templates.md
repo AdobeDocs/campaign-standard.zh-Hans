@@ -23,7 +23,7 @@ Campaign 附带一系列内置登陆页面模板：
 * **[!UICONTROL Acquisition]**：这是登陆页面的默认模板，用于在 Campaign 数据库中捕获和更新数据。
 * **[!UICONTROL Subscription]**：此模板用于提供服务订阅。
 * **[!UICONTROL Unsubscription]**：此模板可从发送给订阅者的电子邮件链接到服务，以便他们退订此服务。
-* **[!UICONTROL Denylist]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。有关阻止列表管理的更多信息，请参阅[关于Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的选择启用和选择禁用。
+* **[!UICONTROL Denylist]**：当某个用户档案不再希望 Campaign 与其联系时，应使用此模板。有关管阻止列表理的更多信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 默认情况下，创建新登陆页面时会提供这些模板。
 

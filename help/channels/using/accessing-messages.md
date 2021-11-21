@@ -30,17 +30,17 @@ ht-degree: 1%
 
 要访问营销活动的列表，请执行以下操作：
 
-1. 从顶部导航栏转到&#x200B;**[!UICONTROL Marketing activities]**。
+1. 转到 **[!UICONTROL Marketing activities]** 中。
 1. 选择 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。
 
-   您还可以直接单击主页上的&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;卡。 有关营销活动的更多信息，请参阅[项目和营销活动](../../start/using/programs-and-campaigns.md)一节。
+   您还可以直接单击 **[!UICONTROL Programs & Campaigns]** 主页上的卡片。 有关营销活动的更多信息，请参阅 [项目和营销策划](../../start/using/programs-and-campaigns.md) 中。
 
 1. 选择一个项目，然后选择一个营销策划。
 
    ![](assets/delivery_list_1.png)
 
-1. 单击&#x200B;**[!UICONTROL Summary]**&#x200B;下拉列表。
-1. 单击&#x200B;**[!UICONTROL Search]**&#x200B;以过滤消息的显示方式（按名称、日期或状态）。
+1. 单击 **[!UICONTROL Summary]** 下拉列表。
+1. 单击 **[!UICONTROL Search]** 以过滤消息的显示方式（按名称、日期或状态）。
 
    要过滤定期消息，可选中相应的复选框。
 
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 要从所有营销活动组合中访问营销活动的完整列表，请执行以下操作：
 
-1. 从上部导航栏中选择&#x200B;**[!UICONTROL Marketing activities]**。
+1. 选择 **[!UICONTROL Marketing activities]** 中。
 
-   您也可以从主页的&#x200B;**[!UICONTROL Marketing activities]**&#x200B;卡访问它。 有关营销活动列表的更多信息，请参阅[管理营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)一节。
+   您还可以从 **[!UICONTROL Marketing activities]** 主页上的卡片。 有关营销活动列表的更多信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity) 中。
 
-1. 要过滤营销活动（按名称、日期、状态或活动类型），请使用营销活动列表左侧的&#x200B;**[!UICONTROL Search]**&#x200B;字段。
+1. 要按名称、日期、状态或活动类型过滤营销活动，请使用 **[!UICONTROL Search]** 字段。
 
 ![](assets/delivery_list_2.png)
 

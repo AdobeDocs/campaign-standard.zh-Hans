@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->要发布API，请确保您具有&#x200B;**[!UICONTROL Datamodel]**&#x200B;角色。
+>要发布API，请确保您具有 **[!UICONTROL Datamodel]** 角色。
 
 在公共API中公开扩展字段的步骤如下：
 

@@ -22,7 +22,7 @@ ht-degree: 15%
 
 要实现此目的，必须将这些字段映射到数据库字段。
 
-您可以通过左侧面板的&#x200B;**[!UICONTROL Form data]**&#x200B;部分定义和管理其映射。
+您可以通过 **[!UICONTROL Form data]** 中找到的问题。
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ ht-degree: 15%
    >
    >内置登陆页面的默认字段已进行了预配置。您可以根据需要对其进行修改。
 
-1. 访问左侧面板上的&#x200B;**[!UICONTROL Form data]**&#x200B;部分。
+1. 访问 **[!UICONTROL Form data]** 中找到的问题。
 
-1. 要更改字段类型，请从&#x200B;**[!UICONTROL HTML type of the field]**&#x200B;下拉列表中选择一个值。
+1. 要更改字段类型，请从 **[!UICONTROL HTML type of the field]** 下拉列表。
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >有关在登陆页中使用复选框类型的更多信息，请参阅[更新多项服务订阅](#multiple-subscriptions)和[协议复选框](#agreement-checkbox)部分。
+   >有关在登陆页面中使用复选框类型的更多信息，请参阅 [更新多项服务订阅](#multiple-subscriptions) 和 [“协议”复选框](#agreement-checkbox) 中。
 
-1. 如果选择的字段类型与&#x200B;**[!UICONTROL Field]**&#x200B;区域中当前选择的数据库字段不兼容，则会显示一条警告消息。 要获得最佳映射，请选择一个适当的值。
+1. 如果选择的字段类型与 **[!UICONTROL Field]** 区域，将显示警告消息。 要获得最佳映射，请选择一个适当的值。
 
    ![](assets/lp_field-type-warning.png)
 
-1. 使用&#x200B;**[!UICONTROL Field]**&#x200B;区域选择要链接到表单字段的数据库字段。
+1. 使用 **[!UICONTROL Field]** 区域，以选择将链接到表单字段的数据库字段。
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >登陆页面只能映射&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。
+   >登陆页面只能映射 **[!UICONTROL Profiles]** 或 **[!UICONTROL Service]** 资源。
 
-   在此示例中，将登陆页面的&#x200B;**Name**&#x200B;字段映射到&#x200B;**[!UICONTROL Profiles]**&#x200B;资源的&#x200B;**[!UICONTROL Last name]**&#x200B;字段。
+   在本例中，映射 **名称** 的 **[!UICONTROL Last name]** 字段 **[!UICONTROL Profiles]** 资源。
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    如果未填写必填字段，则用户提交页面时将显示错误消息。
 
-1. 单击&#x200B;**[!UICONTROL Confirm]**&#x200B;以保存更改。
+1. 单击 **[!UICONTROL Confirm]** 以保存更改。
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,11 +84,11 @@ ht-degree: 15%
 
    ![](assets/lp_parameters_job.png)
 
-1. 选择&#x200B;**[!UICONTROL Reconciliation key]**:此数据库字段用于确定访客的配置文件是否在Adobe Campaign数据库中已知。 例如，电子邮件、名字、姓氏。 协调键值允许您根据下面定义的&#x200B;**[!UICONTROL Update strategy]**&#x200B;参数更新或创建用户档案。
+1. 选择 **[!UICONTROL Reconciliation key]**:此数据库字段用于确定访客的配置文件是否在Adobe Campaign数据库中已知。 例如，电子邮件、名字、姓氏。 利用协调键值，可根据 **[!UICONTROL Update strategy]** 参数。
 
 1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键值中使用的参数。
 
-1. 选择&#x200B;**[!UICONTROL Update strategy]**:如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
+1. 选择 **[!UICONTROL Update strategy]**:如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,11 +100,11 @@ ht-degree: 15%
 
 1. 设计登陆页面时：
 
-   * 选择块，然后从&#x200B;**[!UICONTROL Form data]**&#x200B;部分选择&#x200B;**[!UICONTROL Checkbox]**&#x200B;作为字段类型。
+   * 选择一个块，然后从 **[!UICONTROL Form data]** ，选择 **[!UICONTROL Checkbox]** 作为字段类型。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，也可以使用&#x200B;**[!UICONTROL Show source]**&#x200B;按钮手动插入复选框。
+   * 如果您熟悉HTML，则还可以使用 **[!UICONTROL Show source]** 按钮。
 
       ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 15%
 
       ![](assets/lp_manual-checkbox.png)
 
-1. 确保在您的内容中选中该复选框。 **[!UICONTROL Type]**&#x200B;下拉列表显示在左侧面板的&#x200B;**[!UICONTROL Form data]**&#x200B;部分。 从列表中选择&#x200B;**[!UICONTROL Service and subscription]**。
+1. 确保在您的内容中选中该复选框。 的 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 的下一页。 选择 **[!UICONTROL Service and subscription]** 列表。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 从&#x200B;**[!UICONTROL Behavior]**&#x200B;下拉列表中选择一个选项。
+1. 从 **[!UICONTROL Behavior]** 下拉列表。
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 从相应列表中选择[服务](../../audiences/using/creating-a-service.md)。
+1. 选择 [服务](../../audiences/using/creating-a-service.md) 从对应的列表中。
 
    ![](assets/lp_checkbox-service.png)
 
-1. 确保未选中&#x200B;**[!UICONTROL Mandatory]**&#x200B;选项。 否则，您的用户将别无选择。
+1. 确保 **[!UICONTROL Mandatory]** 选项。 否则，您的用户将别无选择。
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ ht-degree: 15%
 
 1. 设计登陆页面时：
 
-   * 选择块，然后从&#x200B;**[!UICONTROL Form data]**&#x200B;部分选择&#x200B;**[!UICONTROL Checkbox]**&#x200B;作为字段类型。
+   * 选择一个块，然后从 **[!UICONTROL Form data]** ，选择 **[!UICONTROL Checkbox]** 作为字段类型。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，也可以使用&#x200B;**[!UICONTROL Show source]**&#x200B;按钮手动插入复选框。
+   * 如果您熟悉HTML，则还可以使用 **[!UICONTROL Show source]** 按钮。
 
       ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ ht-degree: 15%
 
    ![](assets/lp_select_checkbox.png)
 
-1. **[!UICONTROL Type]**&#x200B;下拉列表显示在左侧面板的&#x200B;**[!UICONTROL Form data]**&#x200B;部分。 从列表中选择&#x200B;**[!UICONTROL Agreement]**。
+1. 的 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 的下一页。 选择 **[!UICONTROL Agreement]** 列表。
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Agreement]**&#x200B;元素未映射到Campaign数据库的字段。
+   >的 **[!UICONTROL Agreement]** 元素未映射到Campaign数据库的字段。
 
-1. 单击&#x200B;**[!UICONTROL Form data]**&#x200B;旁边的![](assets/lp-properties-icon.png)图标以访问复选框高级属性。
+1. 单击 ![](assets/lp-properties-icon.png) 图标 **[!UICONTROL Form data]** 以访问复选框“高级属性”。
 
 1. 您可以根据需要编辑消息。
 

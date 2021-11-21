@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Adobe Campaign和Adobe Analytics集成允许您直接在Adobe Analytics中跟踪电子邮件投放是否成功。
 
-在Analytics中找到的Campaign **[!UICONTROL dimensions]**&#x200B;如下所示：
+Campaign **[!UICONTROL dimensions]** 在Analytics中找到的页面如下所示：
 
 <table> 
  <thead> 
@@ -31,32 +31,32 @@ Adobe Campaign和Adobe Analytics集成允许您直接在Adobe Analytics中跟踪
  <tbody> 
   <tr> 
    <td> 促销活动ID<br /> </td> 
-   <td> Campaign<br />中显示的Campaign内部名称 </td> 
+   <td> Campaign中显示的Campaign内部名称<br /> </td> 
   </tr> 
   <tr> 
    <td> 营销活动标签<br /> </td> 
-   <td> Campaign<br />中显示的Campaign标签 </td> 
+   <td> Campaign中显示的Campaign标签<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放ID<br /> </td> 
-   <td> Campaign中显示的投放内部名称。<br /> 例如，DM1是计划每周发送子投放的定期投放。DM2、DM3和DM4会在前三周发送。 然后，“投放ID”维度将显示每个投放的结果，即DM1到DM4。 <br /> </td> 
+   <td> Campaign中显示的投放内部名称。<br /> 例如，DM1是计划每周发送子投放的定期投放。 DM2、DM3和DM4会在前三周发送。 然后，投放ID维度将显示每个投放（即DM1到DM4）的结果。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 投放标签<br /> </td> 
-   <td> Campaign<br />中显示的投放标签 </td> 
+   <td> Campaign中显示的投放标签<br /> </td> 
   </tr> 
   <tr> 
    <td> 执行的投放ID<br /> </td> 
-   <td> Campaign中显示的投放内部名称。 这仅涉及Campaign中执行时的投放。<br /> 例如，DM1是计划每周发送子投放的定期投放。DM2、DM3和DM4会在前三周发送。 然后，“已执行的投放ID”维度将显示已执行投放的结果，即子投放DM2、DM3和DM4。 <br /> </td> 
+   <td> Campaign中显示的投放内部名称。 这仅涉及Campaign中执行时的投放。<br /> 例如，DM1是计划每周发送子投放的定期投放。 DM2、DM3和DM4会在前三周发送。 然后，“已执行的投放ID”维度将显示已执行投放的结果，即子投放DM2、DM3和DM4。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 已执行的投放标签<br /> </td> 
-   <td> Campaign中显示的投放标签。 这仅涉及在Campaign中执行时的投放。<br /> </td> 
+   <td> Campaign中显示的投放标签。 这仅涉及Campaign中执行时的投放。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-在Analytics中找到的Campaign **[!UICONTROL metrics]**&#x200B;如下所示：
+Campaign **[!UICONTROL metrics]** 在Analytics中找到的页面如下所示：
 
 <table> 
  <thead> 
@@ -71,28 +71,28 @@ Adobe Campaign和Adobe Analytics集成允许您直接在Adobe Analytics中跟踪
    <td> 在投放中点击内容的次数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已传送<br /> </td> 
+   <td> 已交付<br /> </td> 
    <td> 已成功发送的消息数，与已发送消息的总数有关。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已打开<br /> </td> 
-   <td> 投放中打开消息的次数。<br /> </td> 
+   <td> 投放中消息打开的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已发送<br /> </td> 
    <td> 投放的发送总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 退回总数<br /> </td> 
+   <td> 退回总计<br /> </td> 
    <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一打开<br /> </td> 
+   <td> 独特打开<br /> </td> 
    <td> 打开投放的收件人数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一单击<br /> </td> 
-   <td> 点击投放中内容的收件人数。<br /> </td> 
+   <td> 独特点击<br /> </td> 
+   <td> 点击投放内容的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已取消订阅<br /> </td> 

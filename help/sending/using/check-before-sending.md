@@ -28,7 +28,7 @@ ht-degree: 15%
 
 通过此步骤，您可以在将错误传送到主目标之前，检测并修复可能的错误。
 
-此部分](../../sending/using/get-started-sending-messages.md#prepare-test-send)中介绍了验证投放的步骤。[
+将介绍验证投放的步骤 [在此部分中](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## 电子邮件渲染 {#email-rendering}
 
@@ -42,13 +42,13 @@ ht-degree: 15%
 
 * 电子邮件渲染功能对于确定您的电子邮件促销活动是否成功超过主要ISP（互联网服务提供商）和Web邮件服务的过滤器至关重要。 此类工具会向测试收件箱网络发送电子邮件的预检副本，以便您能够查看这些服务中消息的显示或呈现方式。 它们还可能包括报表和代码更正选项，可帮助您快速识别并进行可改进投放能力的修复。
 
-在此部分](../../sending/using/email-rendering.md)中了解更多[信息。
+了解更多 [在此部分中](../../sending/using/email-rendering.md).
 
 ## 校样消息 {#proof-messages}
 
 通过发送校样，您可以检查选择退订链接、镜像页面和任何其他链接、验证消息、验证图像是否显示、检测可能的错误等。 您可能还希望检查在不同设备上的设计和渲染。
 
-在此部分](../../sending/using/sending-proofs.md)中了解更多[信息。
+了解更多 [在此部分中](../../sending/using/sending-proofs.md).
 
 ## 设置A/B测试投放 {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ ht-degree: 15%
 
 * 选择成功率最高的，并将其发送到目标的其余部分
 
-在此部分](../../channels/using/designing-an-a-b-test-email.md)中了解更多[信息。
+了解更多 [在此部分中](../../channels/using/designing-an-a-b-test-email.md).
