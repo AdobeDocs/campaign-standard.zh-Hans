@@ -19,9 +19,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 Please reach out to Adobe Customer Care if you would like access.
 
-创建 [Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md) 使用区段生成器，您可以像工作流中的Campaign受众一样使用区段生成器，以个性化和发送消息。
+Once you have created an [Adobe Experience Platform audience](../../integrating/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
 要在工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   此列表包含在实例中配置的所有体验数据模型(XDM)映射。 有关Adobe Experience Platform Data Connector的更多信息，请参阅 [本专用文档](../../integrating/using/aep-about-data-connector.md).
+   This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. 有关Adobe Experience Platform Data Connector的更多信息，请参阅 [本专用文档](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -59,7 +59,7 @@ ht-degree: 5%
 >
 >Campaign Standard允许您在所有交付渠道中定位Adobe Experience Platform受众：电子邮件、短信消息、直邮消息、推送通知和应用程序内消息。
 >
->*注意：对于所有推送消息和应用程序内消息，Campaign Standard仅支持已知用户档案的投放。
+>*Note: For all push and In-App messages, Campaign Standard only supports deliveries for known profiles only.
 
 有关如何使用工作流和投放的更多信息，请参阅以下章节：
 

@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## 配置 Adobe I/O {#adobe-io}
 
-Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as other Adobe products.   This article will detail how to configure Adobe I/O in order to give the Adobe Campaign Standard integration with Microsoft Dynamics 365 access to synchronize the data.
+Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成同步数据的权限。
 
 ### 概述
 
@@ -83,13 +83,13 @@ Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as 
 
    ![](assets/adobeIO6.png)
 
-1. 在下一个屏幕中，您将看到新AdobeIO项目的详细信息。 Click **[!UICONTROL Add to Project]** at the top-left of the screen and select **API** from the drop down.
+1. 在下一个屏幕中，您将看到新AdobeIO项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
 
    ![](assets/adobeIO7.png)
 
-1. On the next screen you will need to select the I/O Events API, then click **[!UICONTROL Next]**.
+1. 在下一个屏幕上，您需要选择I/O事件API，然后单击 **[!UICONTROL Next]**.
 
-1. On the next screen click **[!UICONTROL Save the configured API]**.  You will be brought back to the project details screen.
+1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.  您将返回到项目详细信息屏幕。
 
 1. 现在，单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 中，与之前一样。
 
@@ -107,4 +107,4 @@ Campaign中的预集成设置现已完成。
 
 * [AdobeIO — 服务帐户集成](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
-* [Campaign Standard - Dynamics 365 integration](../../integrating/using/d365-acs-configure-d365.md)
+* [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)

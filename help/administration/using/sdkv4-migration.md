@@ -131,4 +131,4 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序，将其作为与使
 
 ### 问：从您的Adobe Experience Platform SDK移动应用程序（从v4移动应用程序迁移）页面的推送渠道设置下拉列表下，不会显示Android密钥或iOS证书的上传日期/名称等信息 {#no-information-v5}
 
-答：创建SDK V4移动应用程序后，系统不会存储此信息。 将SDK V4移动应用程序迁移到Adobe Experience Platform SDK移动应用程序时，迁移的移动应用程序也将没有此类信息。 用户一旦上传新的iOS证书或Android密钥，则该密钥或证书的不同详细信息将会存储在 **[!UICONTROL Push channel settings]** 下拉菜单。
+答：创建SDK V4移动应用程序后，系统不会存储此信息。 将SDK V4移动应用程序迁移到Adobe Experience Platform SDK移动应用程序时，迁移的移动应用程序也将没有此类信息。 用户一旦上传新的iOS证书或Android密钥，则该密钥或证书的不同详细信息将会存储并正确显示在 **[!UICONTROL Push channel settings]** 下拉菜单。

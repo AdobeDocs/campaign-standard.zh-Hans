@@ -81,8 +81,8 @@ ht-degree: 8%
 * 修复了在电子邮件中插入退订、订阅和登陆页面链接时无法跟踪的问题。 (CAMP-37809)
 * 修复了在创建新电子邮件和选择模板时可能导致错误的问题。 (CAMP-38000)
 * 现在，使用Email Designer编辑链接时，您可以使用 **下划线链接** 选项。 此外， **Target** 属性已添加，其默认值设置为 **无**. [了解更多信息](../../designing/using/styles.md#about-styling-links)
-* Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
-* Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
+* 修复了电子邮件正文文本组件中的链接的颜色问题。 (CAMP-37330)
+* 修复了删除图像时无法删除关联链接的问题。 (CAMP-37234)
 * 修复了阻止在 **订购** 条件中动态内容的设置。 (CAMP-36883)
 * 修复了搜索登陆页面时的问题。 搜索已从最初创建的50个扩展到所有数据库。 (CAMP-36839)
 * 修复了在 **从：名称** 字段。 (CAMP-36606)
@@ -131,7 +131,7 @@ ht-degree: 8%
 * 修复了所有都是使用第一个事件日期定义的定期直邮的问题。 (CAMP-35139)
 * 修复了新扩展的问题 **用户档案** 无法用于查询的自定义资源。 (CAMP-35119)
 * 修复了 **修复数据库结构** 模式。 (CAMP-35118)
-* Fixed an issue which led to an SQL log error when adding aggregate data on broadlogs. (CAMP-35034)
+* 修复了在broadlogs中添加聚合数据时导致SQL日志错误的问题。 (CAMP-35034)
 * 修复了在创建 **分段** 活动。 (CAMP-35033)
 * 修复了 **查询** 阻止 **encryption_aescbcDecrypt** 函数 **encryption_aescbcEncrypt** 函数。 (CAMP-34952)
 * 修复了可能阻止 **跟踪日志** 从显示在投放中。 (CAMP-34855)
@@ -192,16 +192,16 @@ ht-degree: 8%
 * 您现在可以设置社交内容组件的宽度和高度。
 * 修复了删除动态内容后无法删除动态内容旧源代码的问题。
 * 修复了在修改电子邮件主题后可能阻止更新该主题的问题。
-* Fixed an issue that prevented a n:n column structure from being selected once dropped into the workspace.
-* Fixed an issue that made the thumbnail of the message appear blurred in the email dashboard.
-* Fixed an issue that prevented the background from being correctly displayed for emails received in Outlook.
+* 修复了将n:n列结构放入工作区后无法选择的问题。
+* 修复了导致电子邮件仪表板中消息的缩略图模糊的问题。
+* 修复了Outlook中收到的电子邮件无法正确显示背景的问题。
 * 修复了Email Designer主页上的一些排序问题。
-* Fixed an issue that occurred on duplicating variants when using dynamic content.
-* Some unwanted fields were removed from the Email Designer Settings pane.
+* 修复了使用动态内容复制变体时发生的问题。
+* 从“Email Designer设置”窗格中删除了一些不需要的字段。
 
 **其他改进**
 
-* Through the integration with Adobe Experience Platform Location Services, Adobe Campaign is now compatible to send location-based marketing messages to your mobile application&#39;s subscribers via the Experience Platform SDK. 有关更多信息，请参阅[详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
+* 通过与Adobe Experience Platform位置服务的集成，Adobe Campaign现在可以兼容，通过Experience PlatformSDK向移动应用程序的订阅者发送基于位置的营销消息。 有关更多信息，请参阅[详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 报表功能已得到改进，可提供更好的体验。 要使用此功能，您需要接受动态报告使用协议。 有关更多信息，请参阅 [详细文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * 在工作流中，新增了一个选项，用于预览工作流接下来的十次执行。 有关更多信息，请参阅 [详细文档](../../automating/using/scheduler.md).
 * 在调度程序活动中，新选项允许您为每月投放选择特定一周中的特定日期。 有关更多信息，请参阅 [详细文档](../../automating/using/scheduler.md).
@@ -216,7 +216,7 @@ ht-degree: 8%
 * 在投放属性界面中添加了警告。 它指定根据投放的聚合期和解冻期准备投放，以便每天多次调用工作流，您应确保它们没有任何期限。 (CAMP-34393)
 * 在自定义资源配置屏幕中添加了警告。 我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。
 * 现在，在尝试删除登陆页面用作确认消息的事务型消息时，会显示一条消息。
-* A warning now appears in workflows logs when an activity has been running for more than 6 hours. This does not apply to Push notification, Delivery, Signal, Start, End, Fork , AND-joint, Schedule, and Wait activities.
+* 当活动运行时间超过6小时时，工作流日志中现在会显示警告。 这不适用于推送通知、投放、信号、开始、结束、分支、AND-joint、计划和等待活动。
 * 现在，当您达到同时运行的最大工作流数时，工作流日志中会显示警告。
 * 处于暂停或失败状态超过7天的工作流现在将停止，以节省磁盘空间。 清理任务会显示在工作流日志中。
 * 现在，使用“传输文件”活动时，如果文件大小超过可用磁盘空间，则会记录错误。
@@ -225,7 +225,7 @@ ht-degree: 8%
 **修补程序**
 
 * 修复了可能导致GDPR访问请求失败的问题。
-* Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
+* 修复了在收到唯一用户档案的多个触发器时，可能导致触发器丢弃的问题。
 * 修复了可能导致登录后出现错误的自定义资源发布错误消息的问题。
 * 修复了在创建或扩展自定义资源时显示空白页面的问题。
 * 修复了将appSubscriptionrcp作为定向维度的受众无法在移动投放中进行定向的问题。
@@ -243,7 +243,7 @@ ht-degree: 8%
 * 修复了配置列表并向其添加“图标”字段时发生的问题。 (CAMP-34585)
 * 修复了在加载文件工作流活动中无法使用“|”和“%”符号作为日期或时间分隔符的问题。 (CAMP-34706)
 * 修复了在登陆页面中将可见性条件与复选框结合使用时出现的问题。 (CAMP-34802)
-* Fixed an issue in the Enrichment activity that prevented fields from displaying in the &quot;Additional data&quot; tab, if the filtering dimension was set to tracking logs and the target dimension to profile.
+* 修复了当过滤维度设置为跟踪日志，而目标维度设置为用户档案时，扩充活动中阻止字段在“附加数据”选项卡中显示的问题。
 * 修复了导致导出“workflowTemplate”资源时显示错误消息的问题。
 * 修复了创建新用户档案时，如果从对话框中选择了“国家/地区代码”字段，则无法保存该字段的问题。
 * 修复了使用直邮导入模板(updateQuarinesDeliveryLogsDirectMail)时发生的几个问题。
@@ -275,16 +275,16 @@ ht-degree: 8%
 
 **电子邮件设计工具**
 
-在19.2版本中引入了一系列改进和修复，以优化片段。 新创建的片段将可以无缝工作。 Fragments that were previously built have been grayed-out and need to be migrated to the new format. 为此，请单击每个片段并验证其迁移到新格式。 我们建议您在迁移一些片段之前先测试这些片段。
+在19.2版本中引入了一系列改进和修复，以优化片段。 新创建的片段将可以无缝工作。 之前构建的片段呈灰显状态，需要迁移到新格式。 为此，请单击每个片段并验证其迁移到新格式。 我们建议您在迁移一些片段之前先测试这些片段。
 
-* Fixed an issue which prevented users from editing a fragment after unlocking it. This was affecting existing fragments when updating to 19.2. (CAMP-33778)
-* Fixed an issue when using dynamic content. 在HTML中添加了额外的空格。
+* 修复了在解锁片段后阻止用户编辑片段的问题。 这会在更新到19.2时影响现有片段。 (CAMP-33778)
+* 修复了使用动态内容时的问题。 在HTML中添加了额外的空格。
 
 **其他改进**
 
 * 修复了在短信连接器断开后，短信发送无法恢复的问题。
-* Fixed an issue which could close SMPP connections when TLS was enabled.
-* Fixed an issue which could close SMPP connections when TLS was enabled.
+* 修复了在启用TLS时可能关闭SMPP连接的问题。
+* 修复了在启用TLS时可能关闭SMPP连接的问题。
 * 在Campaign中添加了“Launch_URL_Campaign”选项，以管理使用Adobe Experience Platform Mobile SDK创建的移动应用程序的属性。
 * 修复了在上传新创建移动资产的证书并退出移动应用程序资产页面后，导致“沙盒”环境选项未选中的错误。
 * 修复了阻止使用服务资源中的信息扩充事务型消息内容的问题。 (CAMP-33707)
@@ -316,7 +316,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 登陆页面增强 — Google reCAPTCHA<br /> </td> 
-   <td> <p>Leverage Google reCAPTCHA to prevent spam on your landing pages without requiring any action from your customers.</p><p>有关更多信息，请参阅<a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">详细文档</a>。</p></td> 
+   <td> <p>利用Google reCAPTCHA防止登陆页面上的垃圾邮件，无需客户采取任何措施。</p><p>有关更多信息，请参阅<a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">详细文档</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +327,7 @@ ht-degree: 8%
 
 **Email Designer 增强功能**
 
-* Fixed an issue that occurred when duplicating fragments and trying to use them in the Email Designer. (CAMP-33193)
+* 修复了复制片段并尝试在Email Designer中使用它们时发生的问题。 (CAMP-33193)
 * 修复了在Email Designer界面中使用内联元素时创建多余空格的问题。 (CAMP-32163)
 * 修复了在Email Designer中保存电子邮件内容后删除用户添加的一些其他HTML标记属性的问题。 (CAMP-32162)
 * 修复了在Email DesignerHTML模式下即使删除Microsoft Office标记后仍显示该标记的问题。 (CAMP-32141)
@@ -350,7 +350,7 @@ ht-degree: 8%
 为优化操作和性能，已向事务性消息传递渠道添加了多项改进。
 
 * 事务型消息持续时间已延长，可确保所有消息在过期之前发送，尤其是在执行重试时。
-* Transactional messaging performance has been increased by distributing the load on different sending threads.
+* 通过在不同发送线程上分配负载，提高了事务性消息传递性能。
 * 事务性消息传递流程已进行优化，以便能够同时开始对同一消息进行多次分析。
 * 修复了可能导致事务推送通知的吞吐量和延迟不一致的问题。
 * 修复了事务性消息执行投放的目标受众显示错误的问题。
@@ -488,13 +488,13 @@ ht-degree: 8%
 
 **其他变更**
 
-* Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。See [Deprecated and removed features](../../rn/using/deprecated-features.md) page.
+* Adobe Campaign和Adobe Experience Cloud将从2019年春季开始停止对Microsoft Internet Explorer 11和Campaign Standard19.2版本的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。请参阅 [已弃用和已删除的功能](../../rn/using/deprecated-features.md) 页面。
 * 的 **国家/地区代码** 字段已重命名为 **国家/地区代码**.
 
 **修补程序**
 
 * 修复了在向电子邮件事务型消息添加测试用户档案时阻止发送消息的问题。 (CAMP-29854)
-* Fixed an issue that slowed down message sending from other channels if sending was low for one channel when message sending from all channels was triggered simultaneously.
+* 修复了在同时触发从所有渠道发送消息时，如果一个渠道的发送量较低，则会减慢从其他渠道发送消息的问题。
 * 修复了在尚未建立外部帐户连接时导致MTA开始发送短信消息的问题。
 * 修复了调度程序活动执行频率和开始时间出现的问题。 (CAMP-30745)
 * 修复了使用扩展配置文件资源生成PKEY时可能发生的问题。 (CAMP-30285)

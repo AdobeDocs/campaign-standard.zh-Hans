@@ -23,7 +23,7 @@ ht-degree: 4%
 
 ### Microsoft Dynamics 365凭据
 
-The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  您必须首先执行屏幕上的步骤 [为Campaign集成配置Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md) 以生成将粘贴到此屏幕中的值。 下面描述的输入将引用此屏幕。
+Microsoft Dynamics 365凭据为集成应用程序授予从Microsoft Dynamics 365提取数据的权限。  您必须首先执行屏幕上的步骤 [为Campaign集成配置Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md) 以生成将粘贴到此屏幕中的值。 下面描述的输入将引用此屏幕。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -51,11 +51,11 @@ Adobe Campaign凭据是使用 [Adobe I/O](https://www.adobe.io/). 您需要访�
 
 这些设置是可选的。 如果您计划使用Adobe Campaign SFTP实例从连接器输出日志，则需要定义这些事件。 如果您在集成运行时遇到问题，并且需要调试输出为何不符合您的预期，则此功能会很有帮助。
 
-The other reason to setup the SFTP server would be if you plan on running the opt-in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** or **[!UICONTROL Bidirectional]**.
+设置SFTP服务器的另一个原因是，如果您计划运行选择加入/退出工作流，并且存在从Adobe Campaign到Microsoft Dynamics 365的数据流 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 或 **[!UICONTROL Bidirectional]**.
 
 >[!IMPORTANT]
 >
->You are responsible for the information you access and download from the SFTP folders. 如果信息包含个人数据，您有责任遵守任何适用的隐私法律和法规。 [了解详情](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
+>您负责从SFTP文件夹访问和下载的信息。 如果信息包含个人数据，您有责任遵守任何适用的隐私法律和法规。 [了解详情](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
 
 要为Microsoft Dynamics 365集成定义Campaign SFTP设置，请访问以下部分：
 
@@ -83,7 +83,7 @@ The other reason to setup the SFTP server would be if you plan on running the op
 
 * [添加IP范围](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
 
-* [Manage keys](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [管理密钥](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
 
 * [登录到SFTP服务器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
 
