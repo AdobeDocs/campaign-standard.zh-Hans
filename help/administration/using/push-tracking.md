@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ private void handleTracking() {
 * **背景**:当is应用程序未在屏幕上，但进程未关闭时。 双击“主页”按钮时，通常会显示位于后台的所有应用程序。
 * **关闭/关闭**:一个进程已被终止的应用程序。
 
-如果某个应用程序关闭，Apple在该应用程序重新启动之前不会调用该应用程序。 这意味着您将无法知道何时在iOS上收到通知。
-
 为了仍然 **[!UICONTROL Impression]** 在应用程序处于后台时跟踪工作，我们需要发送 **[!UICONTROL Content-Available]** 以告知应用程序必须完成跟踪。
 
 >[!CAUTION]
 >
->iOS展示次数跟踪不准确，不应被视为可靠。
+> 如果某个应用程序关闭，Apple在该应用程序重新启动之前不会调用该应用程序。 这意味着您将无法知道何时在iOS上收到通知。 </br> 因此，iOS展示次数跟踪可能不准确，因此不应将其视为可靠。
 
 有关21.1版本之前创建的投放或包含自定义模板的投放，请参阅 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
