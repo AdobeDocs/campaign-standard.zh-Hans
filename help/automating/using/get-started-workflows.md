@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 40%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -33,6 +33,10 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * 进行数据管理 (ETL) 以处理数据。
 * 将数据导入 Campaign 数据库。
 * 数据库清理、恢复跟踪信息等技术流程。
+
+>[!IMPORTANT]
+>
+> Adobe建议客户同时不要运行20个以上的活动工作流执行，并排定工作流执行的优先级，并将其分散开来。 有关更多信息，请参阅 [本页](../../automating/using/best-practices-workflows.md).
 
 ## 工作流活动 {#workflow-activities}
 

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 81%
 **示例 1：确定被带“Welcome back !”标签的投放所定向的用户档案**。
 
 * 在本例中，我们想定向用户档案。我们将定向维度设置为 **[!UICONTROL Profiles (profile)]**。
-* 我们要根据投放标签筛选选定的用户档案。因此，我们将资源设置为 **[!UICONTROL Delivery logs]**。这样，我们可直接在投放日志表格中进行筛选，从而提高效率。
+* 我们要根据投放标签筛选选定的用户档案。因此，我们将资源设置为 **[!UICONTROL Delivery logs]**。这样，我们就可以直接在投放日志表中进行筛选，从而提供更好的性能。
 
 ![](assets/targeting_dimension6.png)
 

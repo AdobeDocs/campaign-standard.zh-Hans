@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 工作流始终手动启动。 但是，启动后，它可能会保持不活动状态，具体取决于 [调度程序](../../automating/using/scheduler.md) 活动。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe建议客户优先考虑执行工作流，并运行多达20个并发工作流，以始终如一地在整个实例中实现最佳性能。 可能计划并发执行超过二十次的工作流，默认情况下将按顺序执行。 您可以通过向客户关怀团队提交票证，为并发工作流执行的最大次数调整默认设置。
+> Adobe建议客户同时不要运行20个以上的活动工作流执行，并排定工作流执行的优先级，并将其分散开来。 有关更多信息，请参阅 [本页](../../automating/using/best-practices-workflows.md).
 
 与执行相关的操作（开始、停止、暂停等） are **异步** 流程：命令已保存，一旦服务器可用于应用该命令，该命令将生效。
 
