@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 10%
 * 发送应用程序内消息后，您现在可以选择停用投放。 这样，您就可以删除投放，而不会丢失任何报表数据。 (CAMP-48469)
 * 为防止出现任何问题，用户不能再将自定义表列的名称与数据库中自动主键所使用的名称相同， `"<dataType><resourceName>Id"`. (CAMP-49358)
 * 您现在可以监控投放情况，并使用 **工作历史记录** 下拉菜单。 (CAMP-49840)
+* 通过减少死元组，在一段时间内跨所有渠道发送大量消息时，可改善稳定性和数据库运行状况。 (CAMP-49755、CAMP-49792、CAMP-49849)
+* 为确保在数据库崩溃或重新启动时自动刷新数据库连接，已在Campaign邮件传输代理(MTA)中实施了改进。 (CAMP-48063)
+
 
 **修补程序**
 
