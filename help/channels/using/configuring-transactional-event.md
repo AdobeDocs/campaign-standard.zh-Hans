@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 6%
+source-wordcount: '1705'
+ht-degree: 5%
 
 ---
 
@@ -122,6 +122,10 @@ ht-degree: 6%
 1. 使用 **[!UICONTROL Create element]** 按钮，将选定资源中的字段链接到您之前添加到事件的某个字段(请参阅 [定义事件属性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >如果您定义了一个条件以允许选择多个收件人（例如一个字段的值可用于多个用户档案），则目标用户档案不会多个。
 
 1. 在本例中，我们将协调 **[!UICONTROL Last name]** 和 **[!UICONTROL First name]** 字段，其对应的字段位于 **[!UICONTROL Profile]** 资源。
 

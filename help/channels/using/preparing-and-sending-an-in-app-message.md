@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Adobe Campaign 提供两种类型的应用程序内消息：
    ![](assets/inapp_sending_7.png)
 
 1. 通过投放报告衡量应用程序内消息的影响。有关报告的更多信息，请参考[此章节](../../reporting/using/in-app-report.md)。
+
+1. 发送应用程序内消息后，您可以选择停用投放。 例如，如果您要停止特定投放，或要使用相同触发器运行新投放，则此操作会非常有用。
+
+   单击 **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** 以启动停用请求。
+
+   ![](assets/inapp_sending_8.png)
+
+1. 发送请求后，您的投放将被停用，并且不会发送任何其他消息。
+
+   请注意，您的此投放报告仍将可访问。
+
+   ![](assets/inapp_sending_9.png)
 
 **相关主题：**
 

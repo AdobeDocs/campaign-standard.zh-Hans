@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 88%
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Adobe Campaign 服务器上存在的文件](#files-server-configuration-wf)
 
-1. 根据所选协议提供的 **[!UICONTROL Additional options]** 部分，可用于向协议添加参数。您可以：
+1. 根据所选协议提供的 **[!UICONTROL Additional options]** 部分，可用于向协议添加参数。
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**：在 **[!UICONTROL General]** 选项卡中选择了 **[!UICONTROL File listing]** 操作时，此选项可用。利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
+   您可以：
+
+   * **[!UICONTROL Delete the source files after transfer]**:清除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中已存档内容的大小。
+   * **[!UICONTROL Disable passive mode]**:用于指定用于数据传输的连接端口。
+   * **[!UICONTROL List all files]**:选择 **[!UICONTROL File listing]** 中的操作 **[!UICONTROL General]** 选项卡。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
 

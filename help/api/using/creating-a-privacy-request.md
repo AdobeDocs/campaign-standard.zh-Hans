@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->的 [隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html) 集成是您应用于所有访问和删除请求的方法。 从 19.4 版开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。有关 Campaign Standard 的已弃用和已删除功能的详细信息，请参阅[此页面](../../rn/using/deprecated-features.md)。
+>的 [隐私核心服务](https://adobe.io/apis/cloudplatform/gdpr.html) 集成是您应用于所有访问和删除请求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 隐私请求是使用 **POST** 请求。
 
-在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参阅 [隐私管理文档](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参阅 [隐私管理文档](../../start/using/privacy-requests.md).
 
 有效负载必须包含以下参数：
 

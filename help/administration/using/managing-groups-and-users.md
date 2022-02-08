@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 77%
+source-wordcount: '933'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 77%
 
 ## 关于安全组 {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>的 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 和 **[!UICONTROL Message Center agents (mcExec)]** 安全组仅Adobe内部，不应将其分配给任何用户。
+
 安全组是指组织内共享相同角色和权限的一组用户。
 
-用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。
+用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。要限制用户的访问权限，请勿将用户添加到营销活动 **[!UICONTROL Standard Users]** 群组，因为该群组链接到 **[!UICONTROL All]** 组织单位。
 
 有关角色的更多信息，请参见下页中的表格，其中显示了根据用户角色可用的可能操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -33,17 +37,7 @@ ht-degree: 77%
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->的 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 和 **[!UICONTROL Message Center agents (mcExec)]** 安全组仅Adobe内部，不应将其分配给任何用户。
-
-要能够访问Adobe Campaign，必须将每个用户分配到安全组。
-
-要限制某个用户的访问，请勿将该用户添加到 Campaign Standard 用户组，因为该组已链接到 **[!UICONTROL All]** 组织单位。
-
->[!NOTE]
->
->默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
+请注意，这些内置安全组是只读的，无法修改。 要使用一组特定角色创建您自己的安全组，请参阅以下章节。
 
 ## 创建安全组并分配用户 {#creating-a-security-group-and-assigning-users}
 

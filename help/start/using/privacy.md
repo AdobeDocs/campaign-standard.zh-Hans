@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1424'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign 是一款用于收集和处理超大量数据（包括个人信�
 
 >[!NOTE]
 >
->有关 GDPR、CCPA 和 PDPA 如何应用于 Adobe Campaign 的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>有关 GDPR、CCPA 和 PDPA 如何应用于 Adobe Campaign 的更多信息，请参阅[此页面](../../start/using/privacy-management.md#privacy-management-regulations)。
 
 ### Adobe Experience Cloud 隐私 {#experience-cloud-privacy}
 
@@ -59,7 +59,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 * **如何使用 Adobe Experience Cloud 收集信息**
 
    * Adobe Experience Cloud 解决方案使用 cookie 及网络信标（也称为标记或像素）之类的类似技术使您能够收集信息。有关 Adobe Campaign 的 cookie 和跟踪功能的更多信息，请参阅[此部分](#tracking-capabilities)。
-   * 您还可以在移动应用程序中使用 Adobe Experience Cloud 技术。有关使用 Campaign 发送移动投放的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)。
+   * 您还可以在移动应用程序中使用 Adobe Experience Cloud 技术。有关使用 Campaign 发送移动投放的更多信息，请参阅[此页面](../../channels/using/mobile-guide.md)。
 
 * **用户对您使用 Adobe Experience Cloud 的隐私选择**
 
@@ -100,14 +100,14 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 
 ## 隐私管理 {#privacy-management}
 
-隐私管理是指可帮助您遵守隐私法规（GDPR 和 CCPA 等）的所有流程和工具。在[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)上获取隐私管理概念的概述。
+隐私管理是指可帮助您遵守隐私法规（GDPR 和 CCPA 等）的所有流程和工具。在[此页面](../../start/using/privacy-management.md#privacy-management-regulations)上获取隐私管理概念的概述。
 
 Adobe Campaign 为您提供专门用于隐私管理的各种功能集：
 * 同意管理、数据保留和用户角色。请参阅[此章节](#consent)。
 * 隐私请求（访问权和被遗忘权）。请参阅[此章节](#privacy-requests)。
-* 选择退出个人信息销售（特定于 CCPA）请参阅[此章节](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa)。
+* 选择退出个人信息销售（特定于 CCPA）请参阅[此章节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
-[此部分](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=zh-Hans#getting-started)中介绍 Campaign 中的主要隐私功能以及所涉及角色的示例。
+[此部分](#personal-data)中介绍 Campaign 中的主要隐私功能以及所涉及角色的示例。
 
 
 ### 同意、保留和角色 {#consent}
@@ -118,7 +118,7 @@ Adobe Campaign 最初提供对隐私至关重要的重要功能：
 * **数据保留**：所有内置标准日志表都具有预设的保留期，通常将其数据存储限制为 6 个月或更短时间。可以使用工作流设置其他保留期。有关此内容更多信息，请联系 Adobe 顾问或技术管理员。
 * **权限管理**：Adobe Campaign 使您能够通过不同的预建或自定义角色来管理分配给各种 Campaign 操作员的权限。这允许您管理公司内可以访问、修改或导出不同类型数据的人员。有关此内容的更多信息，请参阅[关于访问管理](../../administration/using/about-access-management.md)。
 
-有关这些功能以及如何在 Adobe Campaign 中管理这些功能的更多信息，请参阅[此页面](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#consent)。
+有关这些功能以及如何在 Adobe Campaign 中管理这些功能的更多信息，请参阅[此页面](../../start/using/privacy-management.md#consent-retention-roles)。
 
 ### 隐私请求 {#privacy-requests}
 
@@ -130,15 +130,9 @@ Adobe Campaign 提供其他功能来促使您作为数据控制者为特定隐�
 
 >[!NOTE]
 >
->这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>这套工具旨在帮助您遵守 GDPR、CCPA 和 PDPA 隐私规定。有关这些不同法规的更多信息，请参阅[此页面](../../start/using/privacy-management.md#privacy-management-regulations)。
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**访问**&#x200B;和&#x200B;**删除**&#x200B;请求将显示在[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)上。[此页面](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)上详细描述了创建这些请求的实施步骤。[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hans)还提供教程。
+**访问**&#x200B;和&#x200B;**删除**&#x200B;请求将显示在[此页面](../../start/using/privacy-management.md#right-access-forgotten)上。[此页面](../../start/using/privacy-requests.md#about-privacy-requests)上详细描述了创建这些请求的实施步骤。[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hans)还提供教程。
 
 ## 跟踪功能 {#tracking-capabilities}
 

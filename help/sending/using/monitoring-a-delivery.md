@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 86%
+source-wordcount: '499'
+ht-degree: 79%
 
 ---
 
@@ -37,6 +37,12 @@ ht-degree: 86%
    您可以通过单击 **[!UICONTROL Export list]** 按钮导出日志。
 
    ![](assets/sending_delivery2.png)
+
+* **作业日志**:通过选择 **[!UICONTROL Job history]** 从 **[!UICONTROL Summary]** 下拉列表。
+
+   从列表中选择任意作业，以查看所选作业的详细信息 **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **投放警报**：为长期跟踪投放是成功还是失败，Adobe Campaign 提供了电子邮件警报系统，用于发送通知以告知用户重要的系统活动。
 * **报告**：在消息仪表板中，您可以访问此特定消息的多个报告。系统还提供了 **[!UICONTROL Reports]** 菜单，用于访问内置或自定义报告的完整列表，您可将其用于概览与消息或营销策划有关的特定指标。

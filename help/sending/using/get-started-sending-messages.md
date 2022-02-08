@@ -7,10 +7,10 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 15%
+source-wordcount: '590'
+ht-degree: 14%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign Standard提供了 **投放能力工具** 为帮助您提高成功投放
 ## 其他资源
 
 * [设计A/B测试电子邮件](../../channels/using/designing-an-a-b-test-email.md)
-* [电子邮件入门](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-emails.html)
+* [消息入门](../../channels/using/key-steps-to-send-a-message.md)
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [添加对照组](../../sending/using/control-group.md)
 
