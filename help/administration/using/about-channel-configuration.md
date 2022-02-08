@@ -1,14 +1,12 @@
 ---
 title: 关于渠道配置
-description: “需要配置每个渠道：技术配置、消息属性和模板。”
+description: 了解如何配置渠道，包括技术配置、消息属性和模板
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%

@@ -1,16 +1,14 @@
 ---
 title: 配置移动应用程序
-description: 了解如何使用SDK V4或Experience PlatformSDK配置Adobe Campaign以发送推送通知或应用程序内消息。
+description: 了解如何使用Adobe Campaign SDK配置Experience Platform以发送推送通知或应用程序内消息
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1245'
 ht-degree: 5%
 
 ---

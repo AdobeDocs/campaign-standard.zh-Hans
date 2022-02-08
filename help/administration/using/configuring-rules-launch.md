@@ -1,6 +1,6 @@
 ---
 title: 配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例
-description: 配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例
+description: 了解如何配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---

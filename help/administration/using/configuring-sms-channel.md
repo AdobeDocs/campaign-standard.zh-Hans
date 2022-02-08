@@ -1,18 +1,15 @@
 ---
 title: 配置短信渠道
-description: “了解短信配置步骤：路由、编码、格式和高级属性。”
+description: 了解短信配置步骤，包括路由、编码、格式和高级属性
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 90%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 title: 实施推送跟踪
-description: 利用本文档，可确保已在iOS和Android上正确实施推送通知跟踪。
+description: 了解如何确保在iOS和Android上正确实施推送通知跟踪
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---

@@ -1,15 +1,12 @@
 ---
 title: 监测准则
-description: 本节介绍有关监控Campaign Standard的一般准则。
+description: 本页介绍监控Campaign Standard的一般准则
 audience: production
-content-type: reference
-topic-tags: introduction
-index: y
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 20%
