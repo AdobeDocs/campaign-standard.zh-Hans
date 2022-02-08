@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 100%
    * **[!UICONTROL Number of variants]**：您可以选择使用两个或三个变体。如果选择了三个变体，则在向导中确认此步骤后，将无法修改此选择。
    * **[!UICONTROL Winning strategy]**：选择用于确定入选变量的标准。
    * **[!UICONTROL Target breakdown]**：选择接收每种变体的目标百分比。确定后，剩余的百分比将接收入选的变体。随机选择定向用户档案。
+
+      >[!NOTE]
+      >
+      >如果总人口少于50k，则每种变体至少需要占总人口的10%。
+
    * **[!UICONTROL Winner sending method]**：选择是否在确定入选变体后自动发送该变体，并选择是否手动确认发送给剩余群体。
    * **[!UICONTROL Test duration]**：指定测试的持续时间。经过此持续时间后，将自动确定入选变量。您可以在测试结束前，从电子邮件仪表板手动选择入选变体。
 
@@ -88,4 +93,4 @@ ht-degree: 100%
 
 电子邮件仪表板中提供了一些有助于评估 A/B 测试的指标：单击次数、打开次数、退回次数等。
 
-请注意，**[!UICONTROL Estimated recipient reactivity]** 指标是进行了点击的收件人数目与打开了电子邮件的收件人数目之间的比值。例如，如果有 10 位收件人打开了电子邮件，并有 5 位收件人点击了该电子邮件。则反应性比率为50%。
+请注意，**[!UICONTROL Estimated recipient reactivity]** 指标是进行了点击的收件人数目与打开了电子邮件的收件人数目之间的比值。例如，如果有10位收件人打开了电子邮件，有5位收件人点击了该电子邮件，则反应率为50%。
