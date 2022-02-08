@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 8%
@@ -91,7 +91,7 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 ### 第1步 — 创建和发布事件配置 {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | 用户 | 操作 | 结果 |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 ### 第2步 — 编辑和发布事务型消息 {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | 用户 | 操作 | 结果 |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 ### 步骤3 — 集成事件触发 {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 ### 步骤4 — 消息投放 {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 执行所有这些步骤后，即可发送消息。
 

@@ -1,23 +1,34 @@
 ---
 title: 文档更新
-description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内容。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: 了解Adobe Campaign Standard文档的所有最新更新
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
+
+## 2022 年 2 月 {#doc-updates-feb-2022}
+
+改进了投放（包括从URL导入的内容）的重试机制。 [了解更多信息](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+添加了有关触发自动短信回复的关键词的警告说明：它们必须只包含字母数字字符。 [了解更多信息](../../channels/using/managing-incoming-sms.md)
+
+更新了控制审核的选项的访问级别：以前的启用/禁用选项 [审核跟踪](../../administration/using/audit.md) 无法访问 [功能管理员](../../administration/using/users-management.md#functional-administrators). 在进行此更改后，将修改审核的访问级别，以向功能管理员提供控制。 [了解更多信息](../../administration/using/audit.md#enable-disable-audit)
+
+在A/B测试电子邮件部分添加了注释：如果总人口少于50k，则每种变体至少需要占总人口的10%。 否则，日志将显示警告。 [了解更多信息](../../channels/using/designing-an-a-b-test-email.md)
+
+更新了 **[!UICONTROL Delete the source files after transfer]** 选项 **传输文件** 活动，包括一个提醒，在未选择选项的情况下，手动监控SFTP目录中已存档内容的大小。 [了解更多信息](../../automating/using/transfer-file.md)
+
+更新了 **隐私** 中。 [了解更多信息](../../start/using/privacy.md)
 
 ## 21.3 版 - 2021 年 9 月 {#release-21-3---september-2021}
 

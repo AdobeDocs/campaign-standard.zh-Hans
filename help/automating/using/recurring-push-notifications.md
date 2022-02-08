@@ -1,14 +1,11 @@
 ---
 title: 使用工作流发送定期推送通知
-description: 在此示例中，每月第一天晚上8点向移动应用程序的订阅者发送个性化的推送通知，具体取决于他们的时区。
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: 在此示例中，每月第一天晚上8点向移动应用程序的订阅者发送个性化的推送通知，具体时间取决于他们的时区
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

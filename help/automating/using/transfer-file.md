@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 84%
    您可以：
 
    * **[!UICONTROL Delete the source files after transfer]**:清除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中已存档内容的大小。
-   * **[!UICONTROL Disable passive mode]**:用于指定用于数据传输的连接端口。
+
+   * **[!UICONTROL Sorting files]**:允许您对文件进行字母数字排序。 默认情况下，此选项处于禁用状态。
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**:选择 **[!UICONTROL File listing]** 中的操作 **[!UICONTROL General]** 选项卡。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
@@ -81,6 +85,8 @@ ht-degree: 84%
 
 您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**&#x200B;和 **[!UICONTROL Add received HTTP headers to the file]** 是选择HTTP协议时可用的其他选项。
 
 ### 使用 SFTP 进行配置 {#SFTP-configuration-wf}
 
