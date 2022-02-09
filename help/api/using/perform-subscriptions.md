@@ -1,21 +1,18 @@
 ---
 title: 执行订阅
-description: 了解如何使用API执行订阅。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: 了解如何使用API执行订阅
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 执行订阅 {#performing-subscriptions}
+# 使用API执行订阅{#performing-subscriptions}
 
 ## 方法1:为用户档案订阅服务
 

@@ -1,21 +1,18 @@
 ---
 title: 与营销历史互动
-description: 了解如何与用户档案的营销历史进行交互。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: 了解如何与用户档案的营销历史进行交互
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-# 与营销历史互动 {#interacting-with-marketing-history}
+# 与营销历史互动{#interacting-with-marketing-history}
 
 的 **历史** 端点允许您与用户档案的营销历史记录进行交互。
 这样，您就可以轻松检索已发送到用户档案的投放的镜像页面。 为此请执行以下操作步骤：

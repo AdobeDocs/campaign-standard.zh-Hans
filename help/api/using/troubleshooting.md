@@ -1,21 +1,18 @@
 ---
 title: 故障排除
-description: 进一步了解与Campaign StandardAPI相关的常见问题。
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: 进一步了解与Campaign StandardAPI相关的常见问题
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# 故障排除 {#troubleshooting}
+# API 疑难解答 {#troubleshooting}
 
 * **转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅可用于选择企业帐户的成员。 如果您认为您应该拥有访问权限，请与您的系统管理员联系。”**
 
@@ -87,7 +84,7 @@ Adobe.io声明了您的无效URI:您请求的URI很可能无效。 在Adobe.io�
 
 * **创建后，我看不到个人资料**
 
-根据实例配置，创建的配置文件需要关联到 **orgUnit**. 要了解如何在创建中添加此字段，请查阅 [此部分](../../api/using/creating-profiles.md).
+根据实例配置，创建的配置文件需要关联到 **orgUnit**. 要了解如何在创建中添加此字段，请查阅 [此部分](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

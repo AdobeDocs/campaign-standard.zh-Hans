@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 >[!NOTE]
 >
->也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles.md)。
+>也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles-api.md)。
 
 ![](assets/do-not-localize/how-to-video.png) [了解如何使用视频中的工作流导入用户档案](#video)
 
@@ -31,7 +31,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 * 通过[登陆页面](../../channels/using/getting-started-with-landing-pages.md)在线收集数据
 * 通过 [REST API](../../api/using/get-started-apis.md) 批量创建
 * 同步来自 [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) 的用户档案
-* 使用图形界面屏幕输入数据，如下所述
+* 使用用户界面输入数据，如下所述
 
 例如，要直接在用户界面中创建新用户档案，请执行以下步骤：
 
