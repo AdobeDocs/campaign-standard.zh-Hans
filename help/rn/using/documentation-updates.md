@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
+source-wordcount: '7128'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ ht-degree: 97%
 
 ## 2022 年 2 月 {#doc-updates-feb-2022}
 
+## 22.1 版 - 2022 年 2 月 {#release-22-1}
+
+**版本中包含的改进功能**
+
 改进了投放（包括从URL导入的内容）的重试机制。 [了解更多信息](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-添加了有关触发自动短信回复的关键词的警告说明：它们必须只包含字母数字字符。 [了解更多信息](../../channels/using/managing-incoming-sms.md)
-
 更新了控制审核的选项的访问级别：以前的启用/禁用选项 [审核跟踪](../../administration/using/audit.md) 无法访问 [功能管理员](../../administration/using/users-management.md#functional-administrators). 在进行此更改后，将修改审核的访问级别，以向功能管理员提供控制。 [了解更多信息](../../administration/using/audit.md#enable-disable-audit)
+
+新 **工作历史记录** 下拉列表已添加到消息仪表板。 [了解更多信息](../../sending/using/monitoring-a-delivery.md)
+
+**其他变更**
+
+添加了有关触发自动短信回复的关键词的警告说明：它们必须只包含字母数字字符。 [了解更多信息](../../channels/using/managing-incoming-sms.md)
 
 在A/B测试电子邮件部分添加了注释：如果总人口少于50k，则每种变体至少需要占总人口的10%。 否则，日志将显示警告。 [了解更多信息](../../channels/using/designing-an-a-b-test-email.md)
 
 更新了 **[!UICONTROL Delete the source files after transfer]** 选项 **传输文件** 活动，包括一个提醒，在未选择选项的情况下，手动监控SFTP目录中已存档内容的大小。 [了解更多信息](../../automating/using/transfer-file.md)
 
 更新了 **隐私** 中。 [了解更多信息](../../start/using/privacy.md)
+
+在Campaign Standard文档内容表中添加了指向Campaign控制面板文档的直接链接。
 
 ## 21.3 版 - 2021 年 9 月 {#release-21-3---september-2021}
 
