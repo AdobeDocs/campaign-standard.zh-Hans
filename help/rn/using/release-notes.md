@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 * 已改进报告数据的处理，以避免系统过载。(CAMP-47578)
 * 发送应用程序内消息后，您现在可以选择停用投放。这样，您就可以删除投放，而不会丢失任何报告数据。(CAMP-48469)
 * 为防止出现任何问题，用户不能再为自定义表列使用与数据库中自动主键值相同的名称，`"<dataType><resourceName>Id"`。(CAMP-49358)
-* 您现在可以在消息仪表板上通过新的 **Job history** 下拉菜单监测投放和跟踪工作日志。[了解更多](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* 您现在可以在消息仪表板上通过新的 **Job history** 下拉菜单监测投放和跟踪工作日志。[了解详情](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * 通过减少死元组，提升了在一段时间内跨所有渠道发送大量消息时的稳定性和数据库运行状况。(CAMP-49755、CAMP-49792、CAMP-49849)
 * 为确保在数据库崩溃或重新启动时自动刷新数据库连接，已在 Campaign 邮件传输代理 (MTA) 中实施了改进措施。(CAMP-48063)
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 * 修复了推送通知报告中将被忽略的推送通知显示为 **Open** 而不是 **Impression** 的问题。(CAMP-45980)
 * 修复了可能会在打开报告时导致出现错误的问题。(CAMP-49222)
 * 修复了删除指向 AEM 内容的链接后可能导致电子邮件准备失败的问题。(CAMP-49877)
-* 为了解决各种问题，已对投放（包括从 URL 导入的内容）的重试机制进行了改进。[了解更多](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
+* 为了解决各种问题，已对投放（包括从 URL 导入的内容）的重试机制进行了改进。[了解详情](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * 修复了在自定义资源中创建新筛选条件，然后将其用作登陆页面中的合并关键项后发生的问题。如果自定义资源再次发布，则会从登陆页面的可用合并关键项列表中删除该筛选条件。(CAMP-49516)
 * 修复了将动态条件与复选框结合使用时登陆页面中存在的问题。(CAMP-48604)
 * 修复了使用“10 月或之前”筛选条件时，**查询**&#x200B;活动中出现的问题。当从设置为欧洲时区的实例工作时，由于时区转换的问题，筛选条件的选定月份显示为 9 月，而不是 10 月。(CAMP-48602)
