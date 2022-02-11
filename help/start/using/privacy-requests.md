@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 >[!IMPORTANT]
 >
->要使用自定义命名空间类型提交请求，请利用 [JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;}并将namespaceId添加到请求中，或使用 [API调用](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;}发出请求。
+>若要使用自定义命名空间类型提交请求，请利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#json){target=&quot;_blank&quot;}并将命名空间 Id 添加到请求中，或使用 [API 调用](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hans#access-delete){target=&quot;_blank&quot;}发出请求。
 >
->仅使用 [隐私用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;}使用标准命名空间类型提交请求。
+>仅使用[隐私用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#request-builder){target=&quot;_blank&quot;}来提交使用标准命名空间类型的请求。
 
 每个隐私核心服务作业根据使用的命名空间数在 Campaign 中分割为多个隐私请求（一个请求对应于一个命名空间）。此外，一个作业可以在多个实例上运行。因此，将为一个作业创建多个文件。例如，如果某个请求具有两个命名空间，并且在三个实例上运行，则总共发送六个文件。每个命名空间和实例一个文件。
 
@@ -189,7 +189,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 ### 自定义表的先决条件 {#ccpa-prerequisite}
 
-的 **[!UICONTROL CCPA Opt-Out]** 字段。 默认情况下，该字段可用于标准 **[!UICONTROL Profile]** 资源。
+在 Campaign 界面和 API 中现成提供 **[!UICONTROL CCPA Opt-Out]** 字段。默认情况下，该字段可用于标准 **[!UICONTROL Profile]** 资源。
 
 如果使用自定义用户档案资源，则必须扩展该资源并添加字段。我们建议您使用不同于现成字段的名称，例如：**[!UICONTROL Opt-Out for CCPA]** (optoutccpa)。创建新字段后，Campaign API 自动支持该字段。
 
