@@ -1,14 +1,14 @@
 ---
 title: 文档更新
-description: 了解Adobe Campaign Standard文档的所有最新更新
+description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内容
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 71f8348488596598f3d3b4f439dc25fb10ab8433
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 97%
 
 ## 22.1 版 - 2022 年 2 月 {#release-22-1}
 
-**版本中包含的改进功能**
+**版本中包含的改进**
 
-改进了投放（包括从URL导入的内容）的重试机制。 [了解更多信息](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+改进了包括从 URL 导入的内容的投放的重试机制。[了解更多信息](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-更新了控制审核的选项的访问级别：以前的启用/禁用选项 [审核跟踪](../../administration/using/audit.md) 无法访问 [功能管理员](../../administration/using/users-management.md#functional-administrators). 在进行此更改后，将修改审核的访问级别，以向功能管理员提供控制。 [了解更多信息](../../administration/using/audit.md#enable-disable-audit)
+更新了控制审核的选项的访问级别：以前的启用/禁用[审核记录](../../administration/using/audit.md)选项对于[功能管理员](../../administration/using/users-management.md#functional-administrators)来说是无法访问的。进行此次更改后，将修改审核的访问级别，从而向功能管理员提供控制权限。[了解更多信息](../../administration/using/audit.md#enable-disable-audit)
 
-新 **工作历史记录** 下拉列表已添加到消息仪表板。 [了解更多信息](../../sending/using/monitoring-a-delivery.md)
+新的 **Job history** 下拉列表已添加至消息仪表板。[了解更多信息](../../sending/using/monitoring-a-delivery.md)
 
 **其他变更**
 
-添加了有关触发自动短信回复的关键词的警告说明：它们必须只包含字母数字字符。 [了解更多信息](../../channels/using/managing-incoming-sms.md)
+添加了有关触发自动短信回复的关键词的警告说明：它们必须只包含字母数字字符。[了解更多信息](../../channels/using/managing-incoming-sms.md)
 
-在A/B测试电子邮件部分添加了注释：如果总人口少于50k，则每种变体至少需要占总人口的10%。 否则，日志将显示警告。 [了解更多信息](../../channels/using/designing-an-a-b-test-email.md)
+在 A/B 测试电子邮件部分添加了注释：如果总人群数少于 5 万，则每种变体需要至少代表总人群的 10%。否则，日志将显示警告。[了解更多信息](../../channels/using/designing-an-a-b-test-email.md)
 
-更新了 **[!UICONTROL Delete the source files after transfer]** 选项 **传输文件** 活动，包括一个提醒，在未选择选项的情况下，手动监控SFTP目录中已存档内容的大小。 [了解更多信息](../../automating/using/transfer-file.md)
+更新了&#x200B;**传输文件**&#x200B;活动中 **[!UICONTROL Delete the source files after transfer]** 选项的描述，包括对在未选择该选项的情况下手动监控 SFTP 目录中存档内容大小的提醒。[了解更多信息](../../automating/using/transfer-file.md)
 
-更新了 **隐私** 中。 [了解更多信息](../../start/using/privacy.md)
+更新了&#x200B;**隐私**&#x200B;部分中所有过期的链接。[了解更多信息](../../start/using/privacy.md)
 
-在Campaign Standard文档内容表中添加了指向Campaign控制面板文档的直接链接。
+在 Campaign Standard 文档目录中添加了指向 Campaign 控制面板文档的直接链接。
 
 ## 21.3 版 - 2021 年 9 月 {#release-21-3---september-2021}
 
@@ -323,7 +323,7 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 **随版本提供的其他文档更新**
 
-更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
 
 重组并改进了发行说明。[了解更多](../../rn/using/release-notes.md)
 
@@ -423,7 +423,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 新增了关于如何使用陷阱的章节。[了解更多](../../sending/using/using-traps.md)。
 
-在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)
 
 重组了 Email Designer 指南。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -495,7 +495,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 **此版本中包含的新功能**
 
-控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
 
 本地通知 - [了解更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -649,9 +649,9 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 将“使用 SDK V4 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)。
 
-将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
 
-将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)。
+将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=zh-Hans)。
 
 更新了“用户类型”章节。[了解更多](../../administration/using/users-management.md)
 
@@ -681,7 +681,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **随版本提供的其他文档更新**
 
-添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新了 Experience Manager 与 Adobe Campaign 集成的文档。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -753,7 +753,7 @@ GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/do
 
 **此版本中包含的新功能**
 
-欧盟通用数据保护条例 (GDPR) - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+欧盟通用数据保护条例 (GDPR) - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
 
 适用于电子邮件的 Creative Designer - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -883,7 +883,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](../../administration/using/push-payload.md)
 
-更新了推送渠道配置[章节](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
+更新了推送渠道配置[章节](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
 
 更新了“短信”文档，为[短信自动回复](../../channels/using/managing-incoming-sms.md#managing-stop-sms)章节添加了一些深入说明。
 
@@ -979,7 +979,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了多张屏幕截图，以反映界面的更改。
 
-提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -1009,9 +1009,9 @@ Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/doc
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
-新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
 
-更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
 
 更新了关于如何在 Campaign 中处理图像的章节。[了解更多](../../designing/using/images.md#setting-up-image-properties)
 
@@ -1023,7 +1023,7 @@ Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/doc
 
 动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans)
 
 手动发送时间优化 - [了解更多](../../sending/using/optimizing-the-sending-time.md)
 
