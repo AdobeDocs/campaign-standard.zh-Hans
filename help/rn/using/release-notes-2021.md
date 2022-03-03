@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -110,6 +110,7 @@ ht-degree: 100%
 * 新的警报消息会通知用户高跳出率情况。
 * 改进了日志错误消息和警告，以便在无法正确检索跟踪日志时更轻松地进行调试。（CAMP-48939 和 CAMP-47360）
 * 您现在可以对 URL 进行完全的个性化设置，包括域名。[了解详情](../../designing/using/personalization.md#personalizing-urls)
+* 现在，校样和陷阱用户档案已从动态报告中的投放性能计算中排除。 (CAMP-47338)
 
 **修补程序**
 

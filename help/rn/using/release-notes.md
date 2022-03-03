@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 * 您现在可以在消息仪表板上通过新的 **Job history** 下拉菜单监测投放和跟踪工作日志。[了解详情](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * 通过减少死元组，提升了在一段时间内跨所有渠道发送大量消息时的稳定性和数据库运行状况。(CAMP-49755、CAMP-49792、CAMP-49849)
 * 为确保在数据库崩溃或重新启动时自动刷新数据库连接，已在 Campaign 邮件传输代理 (MTA) 中实施了改进措施。(CAMP-48063)
-
+* 新的跟踪选项 **使用电子邮件顶部的跟踪像素** 已添加到电子邮件属性中，用于移动电子邮件顶部的跟踪像素，而不是底部的跟踪像素。 (CAMP-49672)
 
 **修补程序**
 

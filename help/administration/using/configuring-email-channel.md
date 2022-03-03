@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
-ht-degree: 76%
+source-wordcount: '2614'
+ht-degree: 75%
 
 ---
 
@@ -54,7 +54,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
    >[!IMPORTANT]
    >
-   >要执行的最大重试次数和重试之间的最短延迟现在取决于IP在给定域名的历史和当前表现。 的 **[!UICONTROL Retry period]** 和 **[!UICONTROL Number of retries]** Campaign中的设置将被忽略。
+   >要执行的最大重试次数和重试之间的最短延迟现在取决于IP在给定域名的历史和当前表现。 The **[!UICONTROL Retry period]** and **[!UICONTROL Number of retries]** settings in Campaign will be ignored.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -85,10 +85,10 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 >[!IMPORTANT]
 >
->现在，电子邮件域和MX规则将自动管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 和无法更改。
+>The email domains and the MX rules are now automatically managed<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> and cannot be changed.
 
 * **DKIM（域名识别邮件）** 对所有域的所有消息都完成电子邮件身份验证签名。 它不使用进行签名 **发件人ID**, **DomainKeys**&#x200B;或 **S/MIME**.
-* MX规则会根据您自己的历史电子邮件信誉以及来自您发送电子邮件之域名的实时反馈，自动按域自定义您的吞吐量。
+* MX rules automatically customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -158,7 +158,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!IMPORTANT]
 >
->重试之间的最短延迟和要执行的最大重试次数，现在取决于IP在给定域名的历史和当前表现。 的 **[!UICONTROL Retry period]** 和 **[!UICONTROL Max. number of retries]** Campaign中的设置将被忽略。
+>The minimum delay between retries and the maximum number of retries to be performed are now based on how well an IP is performing both historically and currently at a given domain. 的 **[!UICONTROL Retry period]** 和 **[!UICONTROL Max. number of retries]** Campaign中的设置将被忽略。
 
 仍会遵从在 Campaign 中设置的&#x200B;**投放持续时间设置**（在[有效期参数](#validity-period-parameters)部分中定义），**但最长只有 3.5 天**。达到该时间后，重试队列中的所有消息都将从队列中删除，并作为退件发回。有关投放失败的更多信息，请参阅此[章节](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
@@ -209,7 +209,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
    >[!IMPORTANT]
    >
-   >**您必须定义一个最大不超过 3.5 天的值。** 如果设置的值超过3.5天，则不会将其考虑在内。
+   >**您必须定义一个最大不超过 3.5 天的值。** If you set a value higher than 3.5 days, it will not be taken into account.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**：此字段用于已上传的资源，主要用于镜像页面和图像。本页上的资源仅在限制时间内有效（以节省磁盘空间）。
 * **[!UICONTROL Mirror page management]**：镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件内容相同。默认情况下，如果将链接插入到邮件内容中，则会生成镜像页面。利用此字段，可修改生成此页面的方式：
@@ -234,6 +234,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Activate tracking]**：用于激活/取消激活消息 URL 跟踪。要管理每个消息 URL 的跟踪，请使用 Email Designer 操作栏中的 **[!UICONTROL Links]** 图标。请参阅[关于跟踪的 URL](../../designing/using/links.md#about-tracked-urls)。
 * **[!UICONTROL Tracking validity limit]**：用于定义在 URL 上激活跟踪的持续时间。
 * **[!UICONTROL Substitution URL for expired URLs]**：您可以输入要在跟踪过期后显示之网页的 URL。
+* **[!UICONTROL Use tracking pixel at the top of email]**: allows you to move the tracking pixel at the top of the email instead of at the bottom.
 
 ### 高级参数 {#advanced-parameters}
 
@@ -303,23 +304,23 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Created by]**、**[!UICONTROL Created]**、**[!UICONTROL Modified by]** 和 **[!UICONTROL Last modified]** 字段会自动填写。
 
-## 旧版设置 {#legacy-settings}
+## Legacy settings {#legacy-settings}
 
 如果您 **NOT** 运行Campaign的最新版本时，下面描述的参数和UI部分仍适用于您。
 
 ### 重试 {#legacy-retries}
 
-的 **[!UICONTROL Retries]** 设置 [“配置”菜单](#email-channel-parameters) 和 [发送参数](#retries-parameters) 电子邮件属性的值指示在开始发送后一天应执行多少次重试(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)和重试之间的最短延迟(**[!UICONTROL Retry period]**)。
+The **[!UICONTROL Retries]** settings in the [Configuration menu](#email-channel-parameters) and in the [Sending parameters](#retries-parameters) of the email properties indicate how many retries should be performed the day after the send is started (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) and the minimum delay between retries (**[!UICONTROL Retry period]**).
 
 可以全局更改重试次数(与Adobe技术管理员联系)，或针对每个投放或投放模板进行更改。
 
-默认情况下，计划在第一天进行五次重试，最小间隔为1小时，分布在一天的24小时内。 在此之后，每天对一次重试进行编程，直到提交截止日期为止，该截止日期在 **[!UICONTROL Delivery parameters]** 部分 **[!UICONTROL Configuration]** 菜单，或 **[!UICONTROL Validity period]** 部分(请参阅 [投放持续时间](#legacy-delivery-duration) 部分)。
+默认情况下，计划在第一天进行五次重试，最小间隔为1小时，分布在一天的24小时内。 One retry per day is programmed after that and until the delivery deadline, which is defined globally in the **[!UICONTROL Delivery parameters]** section of the **[!UICONTROL Configuration]** menu, or in the **[!UICONTROL Validity period]** section at the delivery level (see the [Delivery duration](#legacy-delivery-duration) section below).
 
-### 投放持续时间 {#legacy-delivery-duration}
+### Delivery duration {#legacy-delivery-duration}
 
 的 **[!UICONTROL Message delivery duration]** 参数 [“配置”菜单](#email-channel-parameters) 允许您指定在投放中遇到临时错误或软退件的任何消息重试的时间范围。
 
-的 **[!UICONTROL Delivery duration]** 或 **[!UICONTROL Validity limit for sending messages]** 参数 [有效期参数](#validity-period-parameters) 部分，可指定发送消息的持续时间。
+The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the [Validity period parameters](#validity-period-parameters) section allows you to specify the duration during which the messages can be sent.
 
 ### 电子邮件处理规则 {#legacy-email-processing-rules}
 
@@ -327,13 +328,13 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 退回邮件鉴别 {#legacy-bounce-mail-qualification}
 
-要列出各种退回及其关联的错误类型和原因，请单击 **Adobe** 徽标，在左上角，然后选择 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 退件可以具有以下资格状态：
 
-* **[!UICONTROL To qualify]**:退回邮件需要进行鉴别。 必须由可投放性团队完成资格鉴定，以确保平台可投放性正常运行。 只要不符合条件，退回邮件就不会用于扩充电子邮件处理规则的列表。
+* **[!UICONTROL To qualify]**:退回邮件需要进行鉴别。 Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. 只要不符合条件，退回邮件就不会用于扩充电子邮件处理规则的列表。
 * **[!UICONTROL Keep]**:退回邮件已鉴定，将由 **可投放性更新** 工作流，与现有电子邮件处理规则进行比较并扩充列表。
-* **[!UICONTROL Ignore]**:退回邮件已鉴定为合格，但不会由 **可投放性更新** 工作流。 因此，不会将其发送到客户端实例。
+* **[!UICONTROL Ignore]**:退回邮件已鉴定为合格，但不会由 **可投放性更新** 工作流。 So it will not be sent to the client instances.
 
 >[!NOTE]
 >
@@ -341,8 +342,8 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 传递的指标报告 {#legacy-delivered-status-report}
+### Delivered indicator reporting {#legacy-delivered-status-report}
 
-在 **[!UICONTROL Summary]** 每个消息的视图， **[!UICONTROL Delivered]** 随着软退回和硬退回的报告，在投放的有效期内，百分比将逐步上升。
+In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will progressively go up throughout the validity period of the delivery, as the soft and hard bounces get reported back.
 
 软弹跳消息将显示为 **[!UICONTROL Failed]** 在投放的第一天之后，将在投放的有效期的每隔一天，重试投放。
