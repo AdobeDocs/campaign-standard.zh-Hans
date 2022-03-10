@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c9b2c376e3d3c769dc070c24a59219e8f22c8464
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期都可能会发生更改：请定期访问此页面以检查更新。
 
-## 22.1 版 - 2022 年 2 月发布 {#release-22-1-release}
+## 版本 22.2 - 2022 年 6 月版 {#release-22-2-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
-有关此版本的详细信息，可在阶段升级日期的[早期发行说明](../../rn/using/e-release-notes.md)中获取。
+有关此版本的详细信息，可在阶段升级日期的早期发行说明中获取。
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2022 年 2 月 8 日至 9 日<br /> </td>
+   <td>2022 年 6 月 7 日至 8 日<br /> </td>
   </tr>
   <tr>
    <td>生产<br /> </td>
-   <td>2022 年 2 月 15 日至 22 日<br /> </td>
+   <td>2022 年 6 月 14 日至 21 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **问：采用什么验证流程？**
 
-答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)报告任何问题。
+答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)报告任何问题。
 
 **问：在升级过程中是否可以访问实例？**
 
@@ -82,4 +82,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。
