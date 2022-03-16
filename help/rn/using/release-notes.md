@@ -6,16 +6,16 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '766'
+ht-degree: 100%
 
 ---
 
 
 # 最新版本{#latest-release}
 
-![控制面板](assets/do-not-localize/cp-icon.png) **新控制面板版本** 通过吞吐量、延迟和工作流监控。 [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+![控制面板](assets/do-not-localize/cp-icon.png) **发布新的控制面板**，具有吞吐量、延迟和工作流监测功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 ## 22.1 版 - 2022 年 2 月 {#feb-2022}
 
