@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 61%
+source-wordcount: '2681'
+ht-degree: 60%
 
 ---
 
@@ -177,9 +177,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 #### SMTP 测试模式 {#smtp-test-mode}
 
-使用 **[!UICONTROL Enable SMTP test mode]** 用于测试通过SMTP连接发送的电子邮件，而不实际发送消息的选项。
-
-会一直处理消息直到与 SMTP 服务器建立连接为止，但不会发送消息。
+使用 **[!UICONTROL Enable SMTP test mode]** 用于测试通过SMTP连接发送的电子邮件，而不实际发送消息的选项。 投放会一直处理到与SMTP服务器的连接，但不会发送：对于投放的每个收件人，Campaign会连接到SMTP提供程序服务器，执行SMTP RCPT TO命令，然后在SMTP DATA命令之前关闭连接。
 
 ![](assets/smtp-test-mode.png)
 
