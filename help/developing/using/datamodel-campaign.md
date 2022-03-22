@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型营销活动
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 8%
                <tr>
                   <td>活动</td>
                   <td>活动</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -45,7 +45,7 @@ ht-degree: 8%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -132,7 +132,7 @@ ht-degree: 8%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>组织单位</td>
+                  <td>组织实体</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>

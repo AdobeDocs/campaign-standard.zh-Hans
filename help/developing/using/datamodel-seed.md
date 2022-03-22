@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型种子成员
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '173'
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -135,13 +135,13 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>事件</td>
+                  <td>Event</td>
                   <td>项目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>组织单位</td>
+                  <td>组织实体</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -153,7 +153,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>验证</td>
-                  <td>校样</td>
+                  <td>证明</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
@@ -201,7 +201,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>title</td>
-                  <td>测试用户档案</td>
+                  <td>测试配置文件</td>
                   <td>字符串(255)</td>
                   <td> </td>
                </tr>

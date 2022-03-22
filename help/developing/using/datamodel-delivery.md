@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型交付
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 6%
+source-wordcount: '688'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>校样</td>
+                  <td>证明</td>
                   <td>布尔 </td>
                   <td> </td>
                </tr>
@@ -58,7 +58,7 @@ ht-degree: 6%
                <tr>
                   <td>aemContents</td>
                   <td>Adobe Experience Manager内容</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 6%
                <tr>
                   <td>附件</td>
                   <td>附加的文件</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 6%
                <tr>
                   <td>broadLogs</td>
                   <td>投放日志</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -141,7 +141,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -186,13 +186,13 @@ ht-degree: 6%
                <tr>
                   <td>excludeLogs</td>
                   <td>排除日志</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>排除项</td>
                   <td>排除原因</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -217,7 +217,7 @@ ht-degree: 6%
                <tr>
                   <td>forecastLogs</td>
                   <td>ForecastLog</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -240,13 +240,13 @@ ht-degree: 6%
                      <ul>
                         <li>事务型电子邮件 — emailLightning - 60</li>
                         <li>传真 — 传真 — 4</li>
-                        <li>移动（短信） — sms - 1</li>
+                        <li>Mobile（短信） — sms - 1</li>
                         <li>定期电子邮件 — emailRefresh - 30</li>
                         <li>直邮 — 纸张 — 3</li>
                         <li>电话 — 电话 — 2</li>
                         <li>其他 — 其他 — 120</li>
                         <li>定期短信 — 短信刷新 — 31</li>
-                        <li>移动应用程序 — pushNotification - 40</li>
+                        <li>Mobile应用程序 — pushNotification - 40</li>
                         <li>事务型短信 — smsLightning - 61</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
@@ -274,19 +274,19 @@ ht-degree: 6%
                <tr>
                   <td>迭代</td>
                   <td>投放</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>作业</td>
                   <td>作业</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>日志</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -359,11 +359,11 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>传真 — 传真 — 4</li>
-                        <li>移动（短信） — sms - 1</li>
+                        <li>Mobile（短信） — sms - 1</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>电话 — 电话 — 2</li>
                         <li>直邮 — 纸张 — 3</li>
-                        <li>移动应用程序 — pushNotification - 40</li>
+                        <li>Mobile应用程序 — pushNotification - 40</li>
                         <li>其他 — 其他 — 120</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -389,7 +389,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>组织单位</td>
+                  <td>组织实体</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -420,7 +420,7 @@ ht-degree: 6%
                <tr>
                   <td>校样</td>
                   <td>校样</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -490,15 +490,15 @@ ht-degree: 6%
                         <li>失败 — 失败 — 87</li>
                         <li>正在进行 — 已开始 — 55</li>
                         <li>定位待定 — targetPrepPending - 11</li>
-                        <li>个性化挂起 — messagePrepPending - 21</li>
+                        <li>Personalization pending - messagePrepPending - 21</li>
                         <li>已暂停 — 已暂停 — 75</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
                         <li>正在计数 — targetSelection - 12</li>
                         <li>消息已完成 — messageReady - 25</li>
-                        <li>个性化或计数失败 — preparationError - 37</li>
+                        <li>Personalization或计数失败 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
-                        <li>正在进行的个性化 — messagePreparation - 22</li>
+                        <li>Personalization正在进行 — messagePreparation - 22</li>
                         <li>Target就绪 — targetReady - 15</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                         <li>正在进行的仲裁 — 目标仲裁 — 13</li>
@@ -538,13 +538,13 @@ ht-degree: 6%
                <tr>
                   <td>trackingLogs</td>
                   <td>跟踪日志</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingUrl</td>
                   <td>跟踪的URL</td>
-                  <td>收藏集 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>

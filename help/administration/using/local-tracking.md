@@ -1,12 +1,12 @@
 ---
-title: 实施推送跟踪
+title: 实施本地跟踪
 description: 了解如何确保在iOS和Android上正确实施推送通知跟踪
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * **本地打开**  — 将本地通知发送到设备，并且用户单击了导致应用程序打开的通知时。 这与本地单击类似，不同之处在于如果取消通知，将不会触发本地打开。
 
-要为Adobe Campaign Standard实施跟踪，移动设备应用程序需要在应用程序中包含Mobile SDK。 这些SDK在 [!DNL Adobe Mobile Services].
+要为Adobe Campaign Standard实施跟踪，移动应用程序需要在应用程序中包含Mobile SDK。 这些SDK在 [!DNL Adobe Mobile Services].
 
 要发送跟踪信息，必须发送三个变量：两个是从Adobe Campaign收到的数据的一部分，另一个是操作变量，用于指示是展示、单击还是打开。
 

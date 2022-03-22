@@ -1,5 +1,5 @@
 ---
-title: 故障排除
+title: 动态报告疑难解答
 description: 请在此处找到与动态报告相关的常见问题。
 audience: reporting
 content-type: reference
@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '705'
 ht-degree: 5%
 
 ---

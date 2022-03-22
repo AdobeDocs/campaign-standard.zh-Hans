@@ -1,14 +1,14 @@
 ---
-title: 故障排除
+title: API疑难解答
 description: 进一步了解与Campaign StandardAPI相关的常见问题
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aoh。 出了点问题。 请检查您的URI，然后重试。&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aoh。 出现错误. 请检查您的URI，然后重试。&quot;}**
 
 Adobe.io声明了您的无效URI:您请求的URI很可能无效。 在Adobe.io上，选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的是URL中放置的URL。
 

@@ -1,5 +1,5 @@
 ---
-title: 使用外部参数调用工作流
+title: 使用外部参数自定义工作流
 description: 本节详细介绍如何使用外部参数调用工作流。
 audience: automating
 content-type: reference
@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%

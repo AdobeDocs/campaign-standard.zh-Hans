@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型订阅事件
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '79'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>手机号码</td>
+        <td>Mobile数字</td>
         <td>字符串(32)</td>
         <td> </td>
     </tr>

@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型退订事件
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '55'
+ht-degree: 18%
 
 ---
 

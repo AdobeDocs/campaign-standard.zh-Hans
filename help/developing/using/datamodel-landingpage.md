@@ -1,5 +1,5 @@
 ---
-title: 数据模型
+title: 数据模型登陆页
 description: 了解数据模型
 audience: designing
 content-type: reference
@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 1%
+source-wordcount: '1728'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
       <tr>
          <td>additionalData</td>
          <td>其他数据</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
@@ -89,7 +89,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>已创建</td>
-         <td>已创建</td>
+         <td>创建时间</td>
          <td>日期 </td>
          <td> </td>
       </tr>
@@ -258,7 +258,7 @@ ht-degree: 1%
       <tr>
          <td>htmlPage</td>
          <td>页面</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
@@ -288,13 +288,13 @@ ht-degree: 1%
       <tr>
          <td>作业</td>
          <td>作业</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
          <td>jobLogs</td>
          <td>日志</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
@@ -318,7 +318,7 @@ ht-degree: 1%
       <tr>
          <td>loadingFilterMapping</td>
          <td>加载键的参数</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
@@ -362,7 +362,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>orgUnit(orgUnitBase)</td>
-         <td>组织单位</td>
+         <td>组织实体</td>
          <td>链接 </td>
          <td> </td>
       </tr>
@@ -399,7 +399,7 @@ ht-degree: 1%
       <tr>
          <td>reconciliationFilterMapping</td>
          <td>协调关键参数</td>
-         <td>收藏集 </td>
+         <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
@@ -456,7 +456,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>定向维度</td>
+         <td>定位维度</td>
          <td>字符串(255)</td>
          <td> </td>
       </tr>
@@ -607,7 +607,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>title</td>
-         <td>登陆页面</td>
+         <td>登陆页</td>
          <td>字符串(255)</td>
          <td> </td>
       </tr>
