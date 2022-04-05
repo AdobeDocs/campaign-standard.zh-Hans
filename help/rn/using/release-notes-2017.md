@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 5%
 
 ---
@@ -315,7 +315,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 事务性推送通知<br /> </td> 
-   <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能中。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关更多信息，请参阅 <a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
+   <td> Mobile应用程序渠道已添加到Adobe Campaign的事务性消息传递功能中。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关更多信息，请参阅 <a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 定期推送通知<br /> </td> 
@@ -327,7 +327,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver集成上线<br /> </td> 
-   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 现在，它可与官方发布的上一版Dreamweaver(17.0.2)配合使用。<br /> 这需要从以下位置安装Adobe Campaign集成扩展： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
+   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 现在，它可与官方发布的上一版Dreamweaver(17.0.2)配合使用。<br /> 这需要安装Adobe Campaign集成扩展。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 目标点数据<br /> </td> 
-   <td> 目标点数据将Adobe Campaign与Adobe Analytics for Mobile集成在一起。 品牌可以从用户的移动位置(称为 <strong>目标点</strong>  — 用户打开品牌应用程序时。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化的消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile，这是一种付费解决方案。<br /> 有关更多信息，请参阅 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>.<br /> </td> 
+   <td> 目标点数据将Adobe Campaign与Adobe Analytics for Mobile集成在一起。 品牌可以从用户的移动位置(称为 <strong>目标点</strong>  — 用户打开品牌应用程序时。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化的消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile（一种付费解决方案）。<br /> 有关更多信息，请参阅 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

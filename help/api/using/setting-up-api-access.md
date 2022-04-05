@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign Standard API访问权限通过以下步骤进行设置。 有关�
    * &lt;organization> :您的生产实例，
    * &lt;organization-mkt-stage>:您的stage实例。
 
-   要获取您的组织ID值，请咨询您的管理员或Adobe技术联系人。 您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O中(请参阅 <a href="https://www.adobe.io/authentication.html">AdobeIO文档</a>)。
+   要获取您的组织ID值，请咨询您的管理员或Adobe技术联系人。 您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O中(请参阅 <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">AdobeIO文档</a>)。
 
 * **&lt;access_token>**:您的个人访问令牌，在通过POST请求交换JSON Web令牌时进行检索。
 
