@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 如果已创建触发器，请继续执行下一步。 否则，表示触发器端点连接失败。 检查Triggers是否在Experience Cloud（激活服务）中配置。 如果没有，请联系您的Adobe客户经理或专业服务合作伙伴。 需要提供以下信息：
 
 * Marketing Cloud公司名称
-* IMS 组织 ID
+* 组织ID
 * Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
 **尝试发布触发器**

@@ -121,7 +121,7 @@ ht-degree: 20%
                   <td>枚举（字节） </td>
                   <td>
                      <ul>
-                        <li>Mobile（短信） — sms - 1</li>
+                        <li>移动（短信） — sms - 1</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>

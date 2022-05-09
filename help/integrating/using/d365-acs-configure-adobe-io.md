@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访�
 
 要实现此目的，请按照以下步骤操作：
 
-1. 导航到 [AdobeIO控制台](https://console.adobe.io/home#) ，然后从屏幕右上方的下拉菜单中选择您的Adobe IMS组织ID。
+1. 导航到 [AdobeIO控制台](https://console.adobe.io/home#) 然后，从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
 
 1. 然后，单击 **[!UICONTROL Create new project]** 在 **[!UICONTROL Quick Start]**.
 

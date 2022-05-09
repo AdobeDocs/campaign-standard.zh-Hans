@@ -240,13 +240,13 @@ ht-degree: 13%
                      <ul>
                         <li>事务型电子邮件 — emailLightning - 60</li>
                         <li>传真 — 传真 — 4</li>
-                        <li>Mobile（短信） — sms - 1</li>
+                        <li>移动（短信） — sms - 1</li>
                         <li>定期电子邮件 — emailRefresh - 30</li>
                         <li>直邮 — 纸张 — 3</li>
                         <li>电话 — 电话 — 2</li>
                         <li>其他 — 其他 — 120</li>
                         <li>定期短信 — 短信刷新 — 31</li>
-                        <li>Mobile应用程序 — pushNotification - 40</li>
+                        <li>移动应用程序 — pushNotification - 40</li>
                         <li>事务型短信 — smsLightning - 61</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
@@ -359,11 +359,11 @@ ht-degree: 13%
                   <td>
                      <ul>
                         <li>传真 — 传真 — 4</li>
-                        <li>Mobile（短信） — sms - 1</li>
+                        <li>移动（短信） — sms - 1</li>
                         <li>电子邮件 — 电子邮件 — 0</li>
                         <li>电话 — 电话 — 2</li>
                         <li>直邮 — 纸张 — 3</li>
-                        <li>Mobile应用程序 — pushNotification - 40</li>
+                        <li>移动应用程序 — pushNotification - 40</li>
                         <li>其他 — 其他 — 120</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -490,13 +490,13 @@ ht-degree: 13%
                         <li>失败 — 失败 — 87</li>
                         <li>正在进行 — 已开始 — 55</li>
                         <li>定位待定 — targetPrepPending - 11</li>
-                        <li>Personalization pending - messagePrepPending - 21</li>
+                        <li>个性化挂起 — messagePrepPending - 21</li>
                         <li>已暂停 — 已暂停 — 75</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
                         <li>正在计数 — targetSelection - 12</li>
                         <li>消息已完成 — messageReady - 25</li>
-                        <li>Personalization或计数失败 — preparationError - 37</li>
+                        <li>个性化或计数失败 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
                         <li>Personalization正在进行 — messagePreparation - 22</li>
                         <li>Target就绪 — targetReady - 15</li>

@@ -315,7 +315,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 事务性推送通知<br /> </td> 
-   <td> Mobile应用程序渠道已添加到Adobe Campaign的事务性消息传递功能中。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关更多信息，请参阅 <a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
+   <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能中。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关更多信息，请参阅 <a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 定期推送通知<br /> </td> 

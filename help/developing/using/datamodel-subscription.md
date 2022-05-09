@@ -64,7 +64,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Mobile数字</td>
+        <td>手机号码</td>
         <td>字符串(32)</td>
         <td> </td>
     </tr>

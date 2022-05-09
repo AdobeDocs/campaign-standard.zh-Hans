@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 Adobe团队需要以下信息才能激活触发器：
 
 * Marketing Cloud公司名称
-* IMS 组织 ID
+* 组织ID
 * Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
 ## 配置解决方案和服务 {#configuring-solutions-and-services}
@@ -57,7 +57,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 ### 配置Experience CloudDTM核心服务 {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience CloudDTM核心服务（动态标签管理）中，为您的网站页面激活Experience CloudID和Adobe Analytics。
+1. 在Experience CloudDTM核心服务(动态Tag Management)中，为您的网站页面激活Experience CloudID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -101,7 +101,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 以下是使用Campaign - Triggers集成的最佳实践和限制列表：
 
-* 如果您有多个Campaign Standard实例，则只要触发器位于同一IMS组织ID中，所有实例都可以接收触发器。 Analytics还需要使用相同的IMS组织ID。
+* 如果您有多个Campaign Standard实例，则只要触发器位于同一组织中，所有实例都可以接收触发器。 Analytics还需要位于同一组织上。
 * 您无法使用两个不同报表包中的事件在触发器核心服务中创建触发器。
 * 触发器基于事务型消息。 只要您必须非常快地发送消息，就会使用事务型消息。 不能对事务型消息进行排队，然后批量循环。
 * 触发器本质上并非确定性的。 在生成触发器后，它会发送与Cookie关联的所有别名，因此如果存在共享的浏览器(例如在零售网亭、图书馆、网吧或家中的共享设备（从同一设备登录的夫妻）中)，则无法映射到正确的ID。 所有用于通过浏览器登录的ID都会发送到Campaign，Campaign会根据首次协调发送消息。 如果有多个“电子邮件ID”符合协调条件，则Campaign不会发送电子邮件。 除非由Analytics捕获并发送正确的电子邮件ID，否则Campaign将无法知道该ID是什么。

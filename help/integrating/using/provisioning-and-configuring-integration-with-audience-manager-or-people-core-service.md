@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '704'
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ Audience Manager(AAM)或人员核心服务集成允许您在Adobe Campaign中导
   </tr> 
   <tr> 
    <td> <strong>IMS 组织 ID</strong><br /> </td> 
-   <td> 您的IMS组织ID。 <br> 您可以在Experience Cloud的“管理”菜单中找到您的IMS组织ID。 首次连接到Adobe Experience Cloud时，也会提供该服务。 </td> 
+   <td> 您的组织ID。 <br> 要查找您的组织ID，请参阅 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans">本页</a></td> 
   </tr> 
   <tr> 
    <td> <strong>环境:</strong><br /> </td> 

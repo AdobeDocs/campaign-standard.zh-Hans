@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * **本地打开**  — 将本地通知发送到设备，并且用户单击了导致应用程序打开的通知时。 这与本地单击类似，不同之处在于如果取消通知，将不会触发本地打开。
 
-要为Adobe Campaign Standard实施跟踪，移动应用程序需要在应用程序中包含Mobile SDK。 这些SDK在 [!DNL Adobe Mobile Services].
+要为Adobe Campaign Standard实施跟踪，移动设备应用程序需要在应用程序中包含Mobile SDK。 这些SDK在 [!DNL Adobe Mobile Services].
 
 要发送跟踪信息，必须发送三个变量：两个是从Adobe Campaign收到的数据的一部分，另一个是操作变量，用于指示是展示、单击还是打开。
 

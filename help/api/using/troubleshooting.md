@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 * **转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅可用于选择企业帐户的成员。 如果您认为您应该拥有访问权限，请与您的系统管理员联系。”**
 
-您只能为您所管理的IMS组织创建API密钥。 如果显示此消息，且您想要创建API密钥，并且想要向IMS组织的一位管理员请求。
+您只能为您所管理的组织创建API密钥。 如果显示此消息，且您想要创建API密钥，并且想要请求组织的一位管理员。
 
 * **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
 
