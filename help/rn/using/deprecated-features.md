@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
   <tr> 
    <td> <p> 从Campaign Standard21.3版本开始，弃用与Audience Destinations服务的集成。 </p>
    <p>对于新实施，您无法再将受众目标服务与Adobe Campaign Standard集成。 但是，您可以通过源和目标集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">了解详情</a>。</p>
-     <em>目标移除日期：2022 年</em></p>
+     <em>目标移除日期：2022年9月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
   <tr> 
    <td> <p> 从Campaign Standard21.3版本开始，弃用与Adobe Experience Platform Data Connector的集成。 </p>
    <p>对于新实施，您无法再将Adobe Experience Platform Data Connector与Adobe Campaign Standard集成。 但是，您可以通过源和目标集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">了解详情</a>。</p>
-     <em>目标移除日期：2022 年</em></p>
+     <em>目标移除日期：2022年9月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
    <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> 创建和个性化电子邮件内容。 </p></br>
    <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
   <p> 
-  <em>目标移除日期：2022 年</em></p>
+  <em>目标移除日期：2022 年底</em></p>
    </td> 
   </tr> 
  </tbody> 
