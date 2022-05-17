@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 附加 [测试用户档案](../../audiences/using/managing-test-profiles.md)，则可以通过将您自己置于某个定向用户档案的位置来测试电子邮件。 这样，您就可以获得用户档案将收到的消息的精确表示形式（自定义字段、动态和个性化信息，包括来自工作流的其他数据……）。
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 此功能仅适用于电子邮件。
+>此功能允许您向外部电子邮件地址发送用户档案个人信息。请记住，在 Campaign Standard 中执行隐私请求（GDPR 和 CCPA）不会在外部执行该请求。
 
 主要步骤如下：
 
@@ -35,9 +35,9 @@ ht-degree: 4%
 1. **预览** 在Email Designer中，如何显示用户档案的消息。
 1. 发送校样。
 
->[!IMPORTANT]
->
->此功能允许您向外部电子邮件地址发送用户档案个人信息。请记住，在 Campaign Standard 中执行隐私请求（GDPR 和 CCPA）不会在外部执行该请求。
+   >[!IMPORTANT]
+   >
+   >校样由 [!DNL Campaign Standard] 作为标准投放。 因此，使用用户档案替换发送校样将向所选用户档案的投放和跟踪日志添加记录。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
