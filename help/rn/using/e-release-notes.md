@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 31%
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 31%
 
 **改进**
 
-* **Adobe通知服务** - Campaign附带Adobe通知服务，允许Experience Cloud解决方案在Experience Cloud中提醒用户注意对他们而言非常重要的活动。 从22.2版本开始，用户体验已得到改进：通知按优先顺序排列，产品生成的通知与Adobe状态公告分开。 此外，当通知引用特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。  有关Adobe Campaign通知的更多信息，请参阅 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md).
+* **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。从版本 22.2 开始，用户体验得到了改进：通知按优先顺序排列，产品生成的通知与 Adobe 状态公告分开。此外，当通知提及特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。有关 Adobe Campaign 通知的更多信息，请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 
 **安全升级**
 
-* 此版本附带安全升级活动，可缓解Apache漏洞并使实例环境更加安全。 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}。
+* 此版本附带安全升级活动，可缓解 Apache 漏洞问题并提高实例环境的安全性。[了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
