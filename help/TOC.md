@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Analytics 中的 Campaign 维度和指标](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign 和 Audience Manager 或 People 核心服务{#working-with-campaign-and-audience-manager-or-people-core-service}
       + [关于 Campaign-Audience Manager 或 People 核心服务集成](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [预配和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [预配和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)

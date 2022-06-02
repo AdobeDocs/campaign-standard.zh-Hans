@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 6%
@@ -87,7 +87,7 @@ Adobe团队需要以下信息才能激活触发器：
 
    >[!NOTE]
    >
-   >您可以为匿名用户和已登录用户协调触发器。 对于匿名用户，该用户档案应存在于Adobe Campaign中，且之前已向该用户发送过电子邮件。 因此，访客ID配置就足够了。 但是，如果要为已登录的用户协调触发器，则需要设置声明的ID数据源。 有关更多信息，请参阅 [数据源配置](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >您可以为匿名用户和已登录用户协调触发器。 对于匿名用户，该用户档案应存在于Adobe Campaign中，且之前已向该用户发送过电子邮件。 因此，访客ID配置就足够了。 但是，如果要为已登录的用户协调触发器，则需要设置声明的ID数据源。 有关更多信息，请参阅 [数据源配置](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## 在Experience Cloud界面中创建触发器 {#creating-a-trigger-in-the-experience-cloud-interface}
 

@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '7152'
 ht-degree: 100%
 
@@ -327,7 +327,7 @@ Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-
 
 **随版本提供的其他文档更新**
 
-更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
+更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 重组并改进了发行说明。[了解更多](../../rn/using/release-notes.md)
 
@@ -427,7 +427,7 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 新增了关于如何使用陷阱的章节。[了解更多](../../sending/using/using-traps.md)。
 
-在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)
+在关于如何使用 Adobe Experience Platform SDK 配置移动应用程序的页面中，添加了关于 **Launch_URL_Campaign** 选项的说明。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 重组了 Email Designer 指南。[了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -499,7 +499,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 **此版本中包含的新功能**
 
-控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
+控制面板 - [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 本地通知 - [了解更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -653,9 +653,9 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 将“使用 SDK V4 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)。
 
-将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html)。
+将“使用 Adobe Experience Platform SDK 配置移动应用程序”章节移动到了[此处](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=zh-Hans)。
+将视频更新并移动到了[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 更新了“用户类型”章节。[了解更多](../../administration/using/users-management.md)
 
@@ -685,7 +685,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **随版本提供的其他文档更新**
 
-添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)
+添加了关于短信连接器协议和设置的新技术说明。[了解更多](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新了 Experience Manager 与 Adobe Campaign 集成的文档。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -757,7 +757,7 @@ GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/do
 
 **此版本中包含的新功能**
 
-欧盟通用数据保护条例 (GDPR) - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
+欧盟通用数据保护条例 (GDPR) - [了解更多](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 适用于电子邮件的 Creative Designer - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -855,7 +855,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了关于传输文件活动历史化设置的信息。[了解更多](../../automating/using/transfer-file.md)
 
-更新了使用 Audience Manager 或 People 核心服务集成的说明。[了解更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+更新了使用 Audience Manager 或 People 核心服务集成的说明。[了解更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
 ## 17.10 版 - 2017 年 10 月 {#release-17-10---october-2017}
 
@@ -887,7 +887,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 添加了一个技术说明，介绍在移动应用程序中接收的有效载荷的结构。[了解更多。](../../administration/using/push-payload.md)
 
-更新了推送渠道配置[章节](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
+更新了推送渠道配置[章节](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)，以介绍在 Adobe Mobile Services 界面中定义回传时要添加的、关于操作系统版本的新有效载荷数据。
 
 更新了“短信”文档，为[短信自动回复](../../channels/using/managing-incoming-sms.md#managing-stop-sms)章节添加了一些深入说明。
 
@@ -983,9 +983,9 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了多张屏幕截图，以反映界面的更改。
 
-提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)
+提供了新的技术说明：“将 Adobe Mobile SDK 与您的移动应用程序集成”。[了解更多](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
 修改了授权表，使某些角色的职能更加清晰。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
@@ -1013,9 +1013,9 @@ Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/doc
 
 现在为动态报告提供了报告指标计算功能，其中包括完整说明和计算公式。[了解更多](../../reporting/using/indicator-calculation.md)
 
-新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
+新增了关于在 Adobe Campaign 中配置 Adobe Mobile Services 以使用推送通知和兴趣点数据的专述章节。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)
+更新了移动应用程序配置和实施章节，其中更加详细地说明了设置和发送推送通知的步骤。[了解更多](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 更新了关于如何在 Campaign 中处理图像的章节。[了解更多](../../designing/using/images.md#setting-up-image-properties)
 
@@ -1027,7 +1027,7 @@ Dreamweaver 集成上线 - [了解更多](https://experienceleague.adobe.com/doc
 
 动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans)
+Dreamweaver 集成（实验室）- [了解更多](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手动发送时间优化 - [了解更多](../../sending/using/optimizing-the-sending-time.md)
 
