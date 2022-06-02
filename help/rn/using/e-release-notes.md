@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
+source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 99%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -28,8 +28,19 @@ ht-degree: 99%
 
 * **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。从版本 22.2 开始，用户体验得到了改进：通知按优先顺序排列，产品生成的通知与 Adobe 状态公告分开。此外，当通知提及特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。有关 Adobe Campaign 通知的更多信息，请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
+* **工作流启动中的优化** -Adobe添加了一项新功能，可以调整大约在同一时间开始的工作流数量。 这将有助于防止可能导致服务中断或停机的CPU尖峰。 Adobe将在22.2版本之后启用它。 对于客户，没有关于该事项的其他操作项目。
 
 **安全升级**
 
-* 此版本附带安全升级活动，可缓解 Apache 漏洞问题并提高实例环境的安全性。[了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+* 已将Apache Tomcat从版本7升级到版本8.5。
 
+**修补程序**
+
+* 修复了由于密钥重复错误导致计费技术工作流上的问题。 (CAMP-51029)
+* 在跟踪报表中添加了缺失的Microsoft Edge浏览器类别。 之前，在Microsoft Chrome打开时，会对这些用户进行分类。 (CAMP-51165)
+* 修复了GDPR请求无法从子表中删除数据的问题。 (CAMP-48276)
+* 修复了Email Designer中导致无法在事务型消息模板中保存片段的可见性条件的问题。 (CAMP-50338)
+* 修复了营销活动报表中导致日期范围未被考虑的问题。 (CAMP-50991)
+* 修复了导致计划电子邮件失败的错误：投放分析无法启动，因为投放仍处于“重试挂起”状态。 (CAMP-50302)
+* 修复了在预览具有用户档案替换的电子邮件时，Email Designer中出现的问题。 (CAMP-49312)
+* 修复了自定义枚举中值为空的问题：在创建自定义资源时，如果某个字段是文本枚举并且只包含一个值，则现在默认情况下会设置此值，以便您可以将此字段上的查询创建为简单请求。 (CAMP-50606)
