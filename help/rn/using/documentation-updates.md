@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
 workflow-type: tm+mt
 source-wordcount: '7221'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 **版本中包含的改进**
 
-* **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。[阅读更多](../../administration/using/sending-internal-notifications.md)。
+**Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。[阅读更多](../../administration/using/sending-internal-notifications.md)。
 
 **其他变更**
 
