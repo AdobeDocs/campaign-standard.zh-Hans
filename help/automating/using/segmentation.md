@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ ht-degree: 92%
 1. 重复此过程的第 6 步到第 10 步，根据需要添加所需数量的区段。
 1. 根据需要，编辑 **[!UICONTROL Advanced options]** 选项卡中的参数：
 
-   * 如果想要集客群体的一个成员同时归属于多个区段，请勾选 **[!UICONTROL Enable overlapping of outbound populations]** 选项。活动的叫客群体可能超过集客群体。
-   * 如果已经为集客群体分配了要保留的段码，请选中 **[!UICONTROL Concatenate the code of each segment]**&#x200B;选项。在活动中指定的段码，将被添加到初始段码。
-   * 如果要利用剩余群体，请选中 **[!UICONTROL Generate complement]** 选项。请参阅 [用例：使用补码创建投放](../../automating/using/workflow-created-query-with-complement.md).
+   * 的 **[!UICONTROL Enable overlapping of outbound populations]** 选项定义如何管理属于多个区段的用户档案：
+      * 未启用选项时， **[!UICONTROL Segmentation]** 活动会检查某个用户档案在多个输出过渡中不存在，即使此用户档案符合多个子集的条件也是如此。
+      * 启用选项后，如果配置文件符合其筛选条件，则可以在多个子集中找到它们。
+   * 如果已为集客群体分配了要保留的段码，请检查 **[!UICONTROL Concatenate the code of each segment]** 选项。 在活动中指定的段码，将被添加到初始段码。
+   * 如果需要利用剩余群体，请检查 **[!UICONTROL Generate complement]** 选项。 请参阅 [用例：使用补码创建投放](../../automating/using/workflow-created-query-with-complement.md).
 
 1. 确认活动的配置并保存工作流。

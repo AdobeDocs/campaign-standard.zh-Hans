@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 
    ![](assets/troubleshooting_4.png)
 
+## 使用自定义Target映射时，投放的报表显示不完整的数据
+
+如果您在投放中使用导入的自定义目标映射，并且不同报表中未显示任何数据，则这可能意味着未为这些目标映射创建报表增量。
+
+要解决此问题，请执行以下操作：
+
+* 从XML导入Target映射后，您还需要导入报告扩充。
+
+* 您可以直接在Adobe Campaign Standard中创建Target映射，而不是导入Target映射，这将自动创建报表扩充。

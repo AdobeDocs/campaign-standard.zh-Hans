@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
       有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
    ![](assets/inapp_creating_4.png)
 
-1. 如果您使用 **[!UICONTROL Analytics Events]**，则将根据在 Adobe Experience Platform Launch 的 Analytics 扩展中配置的报告包自动填充 Adobe Analytics 和视图状态事件，而上下文数据事件必须手动添加。
+1. 如果您使用 **[!UICONTROL Analytics Events]**、Adobe Analytics和视图状态事件将根据在数据收集UI的Analytics扩展中配置的报表包自动填充，而上下文数据事件必须手动添加。
 
    请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
 
@@ -99,7 +99,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 如果您使用 **[!UICONTROL Places]** 触发器，将根据在 Adobe Places 中创建的所有库及其兴趣点自动填充 Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-   请注意，此触发器将针对 Experience Platform Launch 的 Places 扩展中来自选定库中的“兴趣点”应用于设备。有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   请注意，此触发器将仅应用于数据收集UI中Places扩展中选定库中的目标点设备。 有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 选项卡中，选择触发器的频率、开始和结束日期、在一周中的哪一天以及在一天中的哪个时间激活应用程序内消息。
 

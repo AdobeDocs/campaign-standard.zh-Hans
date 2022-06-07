@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 24%
 
 ---
@@ -96,9 +96,9 @@ Adobe Campaign允许您在各种渠道上创建和发送个性化消息，并通
 <tr>
   <td>
     <div>
-    <p><strong>配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例</strong></p>
+    <p><strong>配置标记规则以支持Adobe Campaign Standard用例</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击此处</strong></a> 开始在Adobe Experience Platform Launch中创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到Adobe Campaign Standard。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击此处</strong></a> 以开始在数据收集UI中创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到Adobe Campaign Standard。</p>
     <br>
   </td>
   <td>

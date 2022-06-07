@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1238'
+ht-degree: 41%
 
 ---
 
@@ -63,17 +63,17 @@ Adobe Campaign 提供两种类型的推送通知：
 
 1. 在 Adobe Campaign 中，确保可以访问 **[!UICONTROL Push notification]** 渠道。如果您无法访问这些渠道，请与帐户管理团队联系。
 
-1. 验证您的用户是否拥有 Adobe Campaign Standard 和 Experience Platform Launch 的必要权限。
+1. 验证您的用户是否拥有Adobe Campaign Standard中的必需权限以及Adobe Experience Platform中的标记。
 
-1. 在 Experience Platform Launch 中，创建移动属性。有关更多信息，请参阅[设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在数据收集UI中，创建移动资产。 有关更多信息，请参阅[设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-1. 在 Experience Platform Launch 中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
+1. 在数据收集UI中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
 
-1. 在 Adobe Campaign Standard 中，配置您在 Experience Platform Launch 中创建的移动属性。有关更多信息，请参阅[在 Adobe Campaign 中设置 Experience Platform Launch 应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
+1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 有关更多信息，请参阅 [在Adobe Campaign中设置标记应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. 将特定于渠道的配置添加到您的移动应用设置中。有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 要支持移动使用案例实施，请参阅[在 Adobe Campaign Standard 中使用 Adobe Experience Platform SDK 支持的移动使用案例](../../administration/using/configuring-rules-launch.md)中关于扩展、Experience Platform Launch 规则和 SDK 实施的详细说明。
+1. 要支持移动使用案例实施，请参阅 [Adobe Campaign Standard中使用Adobe Experience Platform SDK支持的移动使用案例](../../administration/using/configuring-rules-launch.md).
 
 ## 推送通知常见问题解答 {#push-faq}
 

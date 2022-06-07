@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 18%
@@ -29,7 +29,7 @@ Experience PlatformSDK支持推送通知。
 
 通过配置Adobe Campaign和AdobeMobile Services，您将能够将移动应用程序的数据用于营销活动。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
 
-要通过Experience CloudSDK应用程序发送推送通知，必须在Adobe Experience Platform Launch中设置移动应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+要通过Experience CloudSDK应用程序发送推送通知，必须在数据收集UI中设置移动设备应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 ## 步骤2:在Adobe Campaign中自定义推送通知 {#customize-push}
 

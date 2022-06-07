@@ -1,6 +1,6 @@
 ---
-title: 配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例
-description: 了解如何配置Adobe Experience Platform Launch规则以支持Adobe Campaign Standard用例
+title: 配置标记规则以支持Adobe Campaign Standard用例
+description: 了解如何配置标记规则以支持Adobe Campaign Standard用例
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,20 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 1%
+source-wordcount: '998'
+ht-degree: 0%
 
 ---
 
-# 配置 Launch 规则以支持 Adobe Campaign Standard 用例 {#configuring-rules-launch}
+# 配置标记规则以支持Adobe Campaign Standard用例 {#configuring-rules-launch}
 
-在 [!DNL Adobe Experience Platform Launch]，创建数据元素和规则以将PII和其他数据从移动应用程序发送到 [!DNL Adobe Campaign Standard].
+在数据收集UI中，创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到 [!DNL Adobe Campaign Standard].
 
-确保 [!DNL Adobe Experience Platform Launch] 生效后，必须发布这些更改。 有关更多信息，请参阅 [发布](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+要确保数据收集UI中的所有配置更改都生效，您必须发布这些更改。 有关更多信息，请参阅 [发布](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-在中创建规则 [!DNL Experience Platform Launch]，请执行以下步骤：
+要在数据收集UI中创建规则，请执行以下步骤：
 
 1. [创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [创建规则](../../administration/using/configuring-rules-launch.md#create-data-elements) 对于要支持的用例：
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 创建数据元素 {#create-data-elements}
 
-以下是我们建议您在中创建的数据元素 [!DNL Experience Platform Launch].
+以下是我们建议您在数据收集UI中创建的数据元素。
 您可以根据需要创建其他数据元素。
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 要创建这些数据元素，请执行以下操作：
 
-1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Data Elements]** 选项卡。
+1. 在数据收集UI中，从移动应用程序功能板中，单击 **[!UICONTROL Data Elements]** 选项卡。
 
 1. 创建 **[!UICONTROL Experience Cloud ID]** 数据元素，单击 **[!UICONTROL Create New Data Element]**.
 
@@ -79,9 +79,9 @@ ht-degree: 1%
 >
 >要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到 [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-将PII数据发送到 [!DNL Adobe Campaign Standard]，在中创建规则 [!DNL Experience Platform Launch]:
+将PII数据发送到 [!DNL Adobe Campaign Standard]，在数据收集UI中创建规则：
 
-1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡 **[!UICONTROL Create New Rule]**.
+1. 在数据收集UI中，从移动应用程序功能板中，单击 **[!UICONTROL Rules]** 选项卡 **[!UICONTROL Create New Rule]**.
 
 1. 键入一个名称，例如 **移动核心 — 收集PII**.
 
@@ -135,7 +135,7 @@ ht-degree: 1%
    }
    ```
 
-   中定义的数据元素 [!DNL Experience Platform Launch] 应以双个百分比包含在内，例如%%mcid%%，而来自应用程序的上下文变量应以单个百分比包含在内，例如%contextdata.email%。
+   数据收集UI中定义的数据元素应包含双倍百分比，例如 `%%mcid%%`、和应用程序上下文变量应以单个百分比包含，例如%contextdata.email%。
 
 1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 
@@ -151,9 +151,9 @@ ht-degree: 1%
 >
 >如果您使用的是Android ACPCore v1.4.0或更高版本/ iOS ACPCore v2.3.0或更高版本，则无需配置跟踪回发。
 
-将跟踪数据发送到 [!DNL Adobe Campaign Standard] 要报告用户与移动应用程序中应用程序内消息的交互方式，请在 [!DNL Experience Platform Launch]:
+将跟踪数据发送到 [!DNL Adobe Campaign Standard] 要报告用户在移动设备应用程序中与应用程序内消息的交互方式，请在数据收集UI中创建以下规则：
 
-1. 在 [!DNL Experience Platform Launch]，从移动应用程序仪表板中，选择 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
+1. 在数据收集UI中，从移动应用程序功能板中，选择 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
 1. 键入一个名称，例如 **Adobe Campaign — 应用程序内点击跟踪**.
 
@@ -189,13 +189,13 @@ ht-degree: 1%
 >
 >如果您使用的是Android ACPCore v1.4.0或更高版本/ iOS ACPCore v2.3.0或更高版本，则无需配置跟踪回发。
 
-将跟踪数据发送到 [!DNL Adobe Campaign Standard]，这有助于跟踪推送通知投放以及用户与移动应用程序的交互，您必须在 [!DNL Experience Platform Launch].
+将跟踪数据发送到 [!DNL Adobe Campaign Standard]，这有助于跟踪推送通知投放以及用户与移动应用程序的交互，您必须在数据收集UI中创建规则。
 
 有关推送跟踪的更多信息，请参阅 [推送跟踪](../../administration/using/push-tracking.md).
 
 要跟踪应用程序操作，请使用trackAction API。 有关更多信息，请参阅 [跟踪应用程序操作](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
+1. 在数据收集UI中，从移动应用程序功能板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
 1. 键入一个名称，例如 **Adobe Campaign — 推送点击跟踪**.
 
@@ -225,7 +225,7 @@ ht-degree: 1%
 
 ### 位置回发 {#location-postback}
 
-1. 在 [!DNL Experience Platform Launch]，在移动应用程序仪表板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
+1. 在数据收集UI中，从移动应用程序功能板中，单击 **[!UICONTROL Rules]** 选项卡，单击 **[!UICONTROL Add Rule]**.
 
 1. 键入一个名称，例如 **位置回发**.
 
@@ -264,7 +264,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在以上示例中，必须在 [!DNL Experience Platform Launch] 通过利用 [创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements). 左侧的数据元素在 [!DNL Adobe Campaign Standard] 和不需要任何配置。 如果需要其他数据，则必须在 [!DNL Adobe Campaign Standard].
+   >在以上示例中，必须利用 [创建数据元素](../../administration/using/configuring-rules-launch.md#create-data-elements). 左侧的数据元素在 [!DNL Adobe Campaign Standard] 和不需要任何配置。 如果需要其他数据，则必须在 [!DNL Adobe Campaign Standard].
 
 1. 在 **[!UICONTROL Content Type]**，类型 **application/json**.
 

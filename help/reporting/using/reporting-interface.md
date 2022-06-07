@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ ht-degree: 3%
 
       ![](assets/tab_share_4.png)
 
-   1. 单击字段并在下拉菜单中选择收件人或键入其电子邮件地址，以选择电子邮件的收件人。
+   1. 从下拉菜单中选择收件人。 请注意，您无法选择组织外的用户。
    1. 检查 **[!UICONTROL Show scheduling options]** 要发送定期电子邮件时，请执行以下操作： 也可以通过选择 **[!UICONTROL Send Report on schedule]** 在 **[!UICONTROL Share]** 选项卡。
    1. 单击 **[!UICONTROL Send now]**。然后，收件人将收到一封附有您报告的电子邮件。
 
 * **[!UICONTROL Send report on schedule]**:计划报表并向收件人发送定期电子邮件。
 
    1. 在 **[!UICONTROL Send report]** 窗口，根据需要添加说明。
-   1. 单击字段并在下拉菜单中选择收件人或键入其电子邮件地址，以选择电子邮件的收件人。
+   1. 从下拉菜单中选择收件人。 请注意，您无法选择组织外的用户。
 
       ![](assets/tab_share_5.png)
 

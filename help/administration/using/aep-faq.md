@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '909'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 * [推送通知常见问题解答](../../channels/using/about-push-notifications.md#push-faq)
 * [应用程序内常见问题解答](../../channels/using/in-app-faq.md)
-* [与Launch同步技术工作流常见问题解答](../../administration/using/syncwithlaunch-faq.md)
+* [Adobe Experience Platform同步中的标记常见问题解答](../../administration/using/syncwithlaunch-faq.md)
 
 ## 开始前的有用资源 {#resource-mobile-property}
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 ## Adobe Experience Platform SDK集成是否适用于Adobe Campaign Standard和Adobe Campaign Classic? {#aep-validity}
 
-是的， [!DNL Adobe Experience Platform SDK] 集成适用于Adobe Campaign Standard和Adobe Campaign Classic。 您必须安装相应的 **[!UICONTROL Extension]** 通过 [!DNL Adobe Launch] 以启用集成。
+是的， [!DNL Adobe Experience Platform SDK] 集成适用于Adobe Campaign Standard和Adobe Campaign Classic。 您必须安装相应的 **[!UICONTROL Extension]** 通过 [!DNL Data Collection UI] 以启用集成。
 
 有关详细信息，请参见此 [ 页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
@@ -82,7 +82,7 @@ CollectPII调用的目标是在Campaign中扩充移动用户档案。 当客户�
 
 ## 是否可以为响应多个触发事件而触发CollectPII调用？ {#collect-pii-calls}
 
-是的。 根据您的业务需要，您可以触发CollectPII调用以响应用户在应用程序中的登录，或者购买某些内容或生命周期事件或用户进入地理围栏等。 综上所述，用户与应用程序之间的交互，该交互会生成您希望用于扩充用户档案的信息。
+是. 根据您的业务需要，您可以触发CollectPII调用以响应用户在应用程序中的登录，或者购买某些内容或生命周期事件或用户进入地理围栏等。 综上所述，用户与应用程序之间的交互，该交互会生成您希望用于扩充用户档案的信息。
 
 ## 我是否只能为响应所有移动设备事件而触发CollectPII调用？ {#collect-pii-events}
 

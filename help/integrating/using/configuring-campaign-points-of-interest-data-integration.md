@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1327'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 要将Adobe Experience Platform Location Services与使用Adobe Experience Platform SDK配置的移动应用程序结合使用，您需要：
 
-1. 添加 **[!UICONTROL Places]** 和 **[!UICONTROL Places Monitor]** 扩展，以在Adobe Experience Platform Launch中配置移动应用程序。 在Adobe Campaign中设置移动应用程序。 请参阅 [在Adobe Experience Platform Launch中安装Places扩展](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) 和 [在Experience Platform Launch中安装Places Monitor扩展](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. 添加 **[!UICONTROL Places]** 和 **[!UICONTROL Places Monitor]** 扩展。 在Adobe Campaign中设置移动应用程序。 请参阅 [安装Places扩展](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) 和 [安装Places Monitor扩展](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. 设置扩展后，在 **[!UICONTROL Adobe Experience Platform Launch]** 以从这些扩展中检索数据。 请参阅 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 创建数据元素。
+1. 设置扩展后，在数据收集UI中创建数据元素，以从这些扩展中检索数据。 请参阅 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 创建数据元素。
 
-1. 然后，在 **[!UICONTROL Adobe Experience Platform Launch]**，您需要创建规则以支持兴趣点和Adobe Campaign之间的移动使用案例。\
+1. 然后，在数据收集UI中，您需要创建规则以支持兴趣点和Adobe Campaign之间的移动使用案例。\
    当用户进入受地理围栏时，将触发此规则 **[!UICONTROL Point of Interest]**. 请参阅 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 创建规则。
 
 1. 定义 **[!UICONTROL Points of Interest]** 在地方。 请参阅 [创建目标点](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
@@ -188,7 +188,6 @@ ht-degree: 2%
 使用特定的自定义资源可定义要从应用程序的订阅者那里收集的数据。
 
 此步骤在 [使用SDK V4配置移动应用程序](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 页面。
-
 
 ## 访问用于收集位置数据的移动设备应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 

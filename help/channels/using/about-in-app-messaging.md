@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 利用应用程序内消息传递渠道，可向移动应用程序中的活动用户发送消息。这种消息类型可免费将通知推送到用户手机的通知中心。有关推送通知渠道的更多信息，请参阅此[章节](../../channels/using/about-push-notifications.md)。
 
-此渠道要求将移动应用程序与 Adobe Experience Platform SDK 集成。这些应用程序必须先在 Adobe Experience Platform Launch 中激活，然后才能在 Adobe Campaign 中用于应用程序内投放。
+此渠道要求将移动应用程序与 Adobe Experience Platform SDK 集成。这些应用程序必须先在数据收集UI中激活，然后才能在Adobe Campaign中用于应用程序内投放。
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. 在 Adobe Campaign 中，确保可以访问 **[!UICONTROL In-App]** 渠道。如果您无法访问这些渠道，请与帐户管理团队联系。
 
-1. 要在 Adobe Campaign Standard 中使用与 Experience Cloud SDK 应用程序集成的移动使用案例，必须在 Adobe Experience Platform Launch 中创建移动应用，并在 Adobe Campaign Standard 中对其进行配置。有关分步指南，请参阅此[页面](../../administration/using/configuring-a-mobile-application.md)。
+1. 要在Adobe Campaign Standard中将移动使用案例与Experience CloudSDK应用程序结合使用，必须在数据收集UI中创建移动应用程序，并在Adobe Campaign Standard中进行配置。 有关分步指南，请参阅此[页面](../../administration/using/configuring-a-mobile-application.md)。
 
 1. 配置完毕后，您即可准备应用程序内消息。有关更多信息，请参见此[页面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 

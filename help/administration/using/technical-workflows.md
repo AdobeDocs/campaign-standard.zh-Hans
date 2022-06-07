@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
    <tr> 
    <td> <span class="uicontrol">与 Launch 同步</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流可同步在 Adobe Campaign Standard 中导入的 Adobe Launch 移动属性。每 15 分钟启动一次。<br /> </td> 
+   <td> 此工作流可同步在Adobe Campaign Standard中导入的标记移动属性。 每 15 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">跟踪日志恢复</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流可同步在 Adobe Campaign Standard 中导入的 Adobe Launch 移动属性。每 15 分钟启动一次。<br /> </td> 
+   <td> 此工作流可同步在Adobe Campaign Standard中导入的标记移动属性。 每 15 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 

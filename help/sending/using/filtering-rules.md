@@ -8,7 +8,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
@@ -66,7 +66,7 @@ ht-degree: 3%
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. 选择 **[!UICONTROL Age]** 字段，并定义筛选条件，以便订阅者的年龄在18岁或更高。
+1. 选择 **[!UICONTROL Age]** 字段，并定义筛选条件，以便订阅者的年龄小于18岁。
 
    ![](assets/typology_create-rule-age.png)
 

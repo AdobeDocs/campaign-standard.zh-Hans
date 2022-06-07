@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 可通过 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** 菜单访问分类规则。
 
-默认情况下，可以使用多个现成的&#x200B;**筛选**&#x200B;和&#x200B;**控制**&#x200B;分类规则。有关详情，请参阅[筛选规则](../../sending/using/fatigue-rules.md)和[控制规则](../../sending/using/control-rules.md)章节。
+默认情况下，可以使用多个现成的&#x200B;**筛选**&#x200B;和&#x200B;**控制**&#x200B;分类规则。有关详情，请参阅[筛选规则](../../sending/using/filtering-rules.md)和[控制规则](../../sending/using/control-rules.md)章节。
 
 根据需要，您可以修改现有分类规则或创建新分类规则，但 **[!UICONTROL Control]** 规则除外，此类规则为只读类型，不能修改。
 
