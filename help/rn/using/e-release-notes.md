@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -29,6 +29,13 @@ ht-degree: 37%
 * **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。从版本 22.2 开始，用户体验得到了改进：通知按优先顺序排列，产品生成的通知与 Adobe 状态公告分开。此外，当通知提及特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。有关 Adobe Campaign 通知的更多信息，请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 * **工作流启动中的优化** -Adobe添加了一项新功能，可以调整大约在同一时间开始的工作流数量。 这将有助于防止可能导致服务中断或停机的CPU尖峰。 Adobe将在22.2版本之后启用它。 对于客户，没有关于该事项的其他操作项目。
+
+* **辅助功能** -Adobe进行了许多无障碍修复，以提高应用程序的整体易用性。 这些功能目前仅为一组早期采用者启用，并将在ACS 22.3版本中向所有客户推出。 辅助功能改进的示例包括：
+
+   * 确保每个屏幕上有可聚焦元素的可见焦点指示器
+   * 创建页面地标以更便于导航
+   * 添加许多控件的名称、角色、值和状态
+   * 更正主屏幕上动态焦点顺序遇到的问题
 
 **安全升级**
 
