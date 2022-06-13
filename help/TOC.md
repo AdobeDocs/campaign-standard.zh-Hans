@@ -5,9 +5,9 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 99%
       + [添加图像和视频 iOS](administration/using/image-push-notification.md)
       + [了解推送通知有效载荷结构](administration/using/push-payload.md)
       + [实施本地通知跟踪](administration/using/local-tracking.md)
-      + [Adobe Experience Platform同步中的标记常见问题解答](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform 同步中的标记常见问题解答](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 集成常见问题解答](administration/using/aep-faq.md)
-      + [配置标记规则以支持Adobe Campaign Standard用例](administration/using/configuring-rules-launch.md)
+      + [配置标记规则以支持 Adobe Campaign Standard 用例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
       + [如何将移动应用程序从 SDK v4 迁移到 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 配置短信渠道 {#configuring-sms}
