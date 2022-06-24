@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 66aed3668dc0eb2041312dcbaebe7c36f54b13a5
 workflow-type: ht
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ ht-degree: 100%
    * 创建页面区域标志以更便于导航
    * 添加多个控件的名称、角色、值和状态
    * 更正主屏幕上动态焦点顺序出现的问题
-
-**安全升级**
-
-* Apache Tomcat 已从版本 7 升级到版本 8.5。
 
 
 **修补程序**
