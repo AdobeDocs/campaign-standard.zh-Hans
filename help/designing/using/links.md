@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
    * **外部链接**:插入指向外部URL的链接。
 
-      您可以为URL定义个性化。 请参阅 [个性化URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      您可以为URL定义个性化。 请参阅 [个性化URL](personalization.md#personalizing-urls).
 
    * **登陆页面**:授予对Adobe Campaign登陆页面的访问权限。
    * **订阅链接**:插入链接以订阅Adobe Campaign服务。
