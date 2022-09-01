@@ -5,8 +5,8 @@ user-guide-description: '帮助中心提供使用 Campaign Standard 所需的主
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
 source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: tm+mt
-source-wordcount: '1812'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
