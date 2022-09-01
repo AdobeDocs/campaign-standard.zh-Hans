@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e74ce4aea097e5078aabf83f424e855db72b04a1
+source-git-commit: 471c0e66f1742346798f61ed8e8912695e9c95b6
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 21%
+source-wordcount: '129'
+ht-degree: 28%
 
 ---
 
@@ -25,25 +25,26 @@ ht-degree: 21%
 
 ## 22.3 版 - 2022 年 9 月 {#e-rn-2022}
 
-**改进**
-
-**辅助功能**
-
-Campaign Standard22.3附带了辅助功能修复和改进功能，可帮助用户导航并充分利用Adobe Campaign。
-
-这些功能在有限可用性中发布，并且仅向一组客户推出。 要在促销活动环境中启用这些改进，请联系您的Adobe代表。
-
 <!--
+### Improvement{#e-rn-improvements}
+
+**Accessibility**
+
+Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
+
+These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
+
+
 * **Data retention**
 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**安全更新**
+### 安全更新{#e-rn-security}
 
 此版本附带以下安全升级：Apache Tomcat已从v7.0升级到v8.0。
 
-**修复**
+### 修复{#e-rn-fixes}
 
 * 修复了计划报表在计划时间之前一小时触发的问题。 (CAMP-51502)
 * 修复了投放仪表板中投放指示器与发送日志(nms:broadLogRcp)不匹配的问题。 (CAMP-51127)
