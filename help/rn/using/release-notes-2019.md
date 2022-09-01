@@ -1,21 +1,19 @@
 ---
-title: 发行说明 2019
+title: 2019 年版发行说明
 description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 8%
 
 ---
 
-# 发行说明 2019{#release-notes-2019}
+# 2019 年版发行说明{#release-notes-2019}
 
 [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) | [文档更新](../../rn/using/documentation-updates.md) | [最新发行说明](../../rn/using/release-notes.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 

@@ -1,14 +1,12 @@
 ---
 title: 发行说明 2017
 description: 本页列出了所有 2017 版的 Adobe Campaign Standard。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 5%
@@ -267,7 +265,7 @@ _工作流_
    <td> 通过Adobe Campaign Standard的首个离线渠道直邮，突破数字屏障并连接到物理世界。 此功能允许您将直邮提供商所需的文件个性化并生成为跨渠道营销活动的一部分。 利用直邮，通过引人入胜的触点吸引客户访问您的应用程序、网站或商店，重新吸引客户或增强客户体验。<br /> 有关更多信息，请参阅 <a href="../../channels/using/about-direct-mail.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 电子邮件密送<br /> </td> 
+   <td> 电子邮件密件抄送<br /> </td> 
    <td> 电子邮件密件抄送允许保存发送给各个收件人的唯一电子邮件，从而让品牌可以存档这些邮件。 通过向所有电子邮件添加密件抄送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的确切副本。 这是金融服务行业的常见法律要求，有助于客户服务中心实时解决冲突。<br /> 有关更多信息，请参阅 <a href="../../sending/using/archiving.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -435,7 +433,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 目标点数据<br /> </td> 
-   <td> 目标点数据将Adobe Campaign与Adobe Analytics for Mobile集成在一起。 品牌可以从用户的移动位置(称为 <strong>目标点</strong>  — 用户打开品牌应用程序时。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化的消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile（一种付费解决方案）。<br /> 有关更多信息，请参阅 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>.<br /> </td> 
+   <td> 目标点数据将Adobe Campaign与Adobe Analytics for Mobile集成在一起。 品牌可以从用户的移动位置(称为 <strong>目标点</strong>  — 用户打开品牌应用程序时。 这使品牌能够利用Adobe Campaign工作流，以便根据用户的位置发送个性化的消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile，这是一种付费解决方案。<br /> 有关更多信息，请参阅 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -481,7 +479,7 @@ _工作流_
    <td> 导出日志以进行外部报告<br /> </td> 
    <td> 导出投放和跟踪日志等日志，以便在您的首选报表或BI工具中处理它们。 您可以使用带有增量查询的简单工作流来自动定期导出新日志。<br /> 除了资源选取器中的日志资源可用性之外，还对 <a href="../../automating/using/incremental-query.md">增量查询</a> 和 <a href="../../automating/using/extract-file.md">提取文件</a> 活动：<br /> 
     <ul> 
-     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行所获的所有结果，也会自动排除这些结果。 </li> 
+     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行的所有结果，也会自动排除这些结果。 </li> 
      <li> <span class="uicontrol">提取文件</span> 现在可以导出枚举值的标签，而不是ID。 </li> 
     </ul> 管理员可以使用这些活动来访问所有地理和组织单位。<br /> 有关导出日志的更多信息，请参阅 <a href="../../automating/using/exporting-logs.md">详细文档</a>.<br /> </td> 
   </tr> 

@@ -1,14 +1,12 @@
 ---
 title: 发行说明 2018
 description: 本页列出了所有 2018 版的 Adobe Campaign Standard。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 4%
@@ -138,7 +136,7 @@ ht-degree: 4%
 **修补程序**
 
 * 修复了byEmail查询过滤器无法返回任何结果的问题。 (CAMP-23420)
-* 修复了允许标准用户访问限制为管理员的某些功能或屏幕（/rest/head/*端点、事务性消息屏幕、用户档案和受众导入屏幕）的问题。
+* 修复了允许标准用户访问限于管理员(/rest/head/&#42; 端点、事务性消息传送屏幕、用户档案和受众导入屏幕)。
 * 修复了当GDPR隐私删除请求的名称以数字开头时，阻止其处理自定义资源的问题。
 * 修复了在Adobe Experience Cloud中保存受众活动无法共享应用程序订阅者的错误。
 * 修复了文件传输活动在文件名包含空格时可能发生的问题。 (CAMP-25936)
