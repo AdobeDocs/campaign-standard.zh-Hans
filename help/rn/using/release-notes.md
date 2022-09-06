@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
+source-git-commit: 163cd5bf2091a4655bf1bc2c733fdaa4757b3f36
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 20%
 ![控制面板](assets/do-not-localize/cp-icon.png) **新的控制面板版本**。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 
-## 22.3版 — 2022年秋冬 {#sept-22}
+## 22.2 版 - 2022 年 6 月 {#june-2022}
 
-### 改进{#rn-improvements}
+**改进**
 
-**辅助功能**
+* **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。从版本 22.2 开始，用户体验得到了改进：通知按优先顺序排列，产品生成的通知与 Adobe 状态公告分开。此外，当通知提及特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。有关 Adobe Campaign 通知的更多信息，请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
-Campaign Standard22.3附带了辅助功能修复和改进功能，可帮助用户导航并充分利用Adobe Campaign。
+* **工作流启动方面的优化** - Adobe 添加了一项新功能，可用于调整大约在同一时间开始的工作流数量。这将有助于防止 CPU 使用率达到峰值，避免因此而导致服务中断或停机。Adobe 将在版本 22.2 之后启用该功能。客户无需就此执行其他操作。
 
-这些功能在有限可用性中发布，并且仅向一组客户推出。 要在促销活动环境中启用这些改进，请联系您的Adobe代表。
+* **辅助功能** - Adobe 修复了许多辅助功能，以提高应用程序的整体易用性。目前仅有一组早期采用者可以使用这些功能，将来会在版本 ACS 22.3 中面向所有客户推出它们。辅助功能改进的示例包括：
 
-<!--
-* **Data retention**
+   * 确保每个屏幕上有可聚焦元素的可见焦点指示器
+   * 创建页面区域标志以更便于导航
+   * 添加多个控件的名称、角色、值和状态
+   * 更正主屏幕上动态焦点顺序出现的问题
 
-    Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
--->
 
-### 安全更新{#rn-security}
+**修补程序**
 
-此版本附带以下安全升级：Apache Tomcat已从v7.0升级到v8.0。
-
-### 修复{#e-rn-fixes}
-
-* 修复了计划报表在计划时间之前一小时触发的问题。 (CAMP-51502)
-* 修复了投放仪表板中投放指示器与发送日志(nms:broadLogRcp)不匹配的问题。 (CAMP-51127)
-* 修复了阻止使用ACS Connector(Prime Offering)扩展自定义资源的问题。 (CAMP-51033)
-* 改进了隐私请求响应的发布流程，以避免延迟。 (CAMP-50613)
+* 修复了由于密钥重复错误导致计费技术工作流出现的问题。(CAMP-51029)
+* 在跟踪报表中添加了缺失的 Microsoft Edge 浏览器类别。之前，在 Microsoft Chrome 打开时，会对它们进行分类。(CAMP-51165)
+* 修复了 GDPR 请求无法从子表中删除数据的问题。(CAMP-48276)
+* 修复了电子邮件设计工具中的导致无法在事务性消息模板中保存片段的可见性条件的问题。(CAMP-50338)
+* 修复了营销活动报表中导致日期范围未被考虑的问题。(CAMP-50991)
+* 修复了导致计划电子邮件失败的错误：投放分析无法启动，因为投放仍处于“重试挂起”状态。(CAMP-50302)
+* 修复了在预览具有用户档案替换的电子邮件时，电子邮件设计工具中出现的问题。(CAMP-49312)
+* 修复了自定义明细列表中值为空的问题：在创建自定义资源时，如果某个字段是文本明细列表并且只包含一个值，则现在会默认设置此值，以便您可以将针对该字段的查询创建为简单请求。(CAMP-50606)
 
