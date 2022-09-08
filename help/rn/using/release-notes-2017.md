@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 5%
+source-wordcount: '4569'
+ht-degree: 6%
 
 ---
 
 # 发行说明 2017{#release-notes}
-
-是否正在寻找2017版的Adobe Campaign Standard?
-
-每个版本都提供新功能和修补程序。 单击某个版本以查看其内容。
-
-查看最新 [文档更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard。 如果您正在查找较新版本，请参阅 [页面](../../rn/using/release-notes.md).
 
 ## 17.10 版 - 2017 年 10 月 {#release-17-10---october-2017}
 

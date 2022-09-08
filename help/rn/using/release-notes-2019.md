@@ -6,16 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '7588'
+source-wordcount: '7558'
 ht-degree: 8%
 
 ---
 
 # 2019 年版发行说明{#release-notes-2019}
-
-[发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) | [文档更新](../../rn/using/documentation-updates.md) | [最新发行说明](../../rn/using/release-notes.md) | [已弃用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes)
 
 ## 19.4版 — 2019年12月 {#release-19-4---october-2019}
 
@@ -33,7 +31,7 @@ ht-degree: 8%
    <p>除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还利用这个机会纳入了其他功能，以帮助您为CCPA做好准备：</p>
    <ul>
     <li>访问权和删除权：我们将利用为GDPR添加的功能。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
-    <li><p>创建隐私请求时，隐私核心服务中已添加法规类型（GDPR或CCPA）。 您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已弃用和已删除的功能</a>一文。</p></li>
+    <li><p>创建隐私请求时，隐私核心服务中已添加法规类型（GDPR或CCPA）。 您应将此方法应用于所有访问和删除请求。将 Campaign API 和接口用于访问和删除请求的方法已被弃用。请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">已弃用和已删除的功能</a>一文。</p></li>
     <li>A <strong>CCPA选择退出</strong> 字段，以便Adobe Campaign用户跟踪消费者是否选择退出了出售个人信息。 <a href="https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa">了解详情</a>。</li>
   </ul>
     <p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>

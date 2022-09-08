@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 8%
+source-wordcount: '988'
+ht-degree: 9%
 
 ---
 
 # 事务性消息传递入门 {#getting-started-with-transactional-messaging}
-
-## 概述 {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 事务型消息是由提供商（如网站）实时发送的个人通信和唯一通信。 特别需要，因为它包含收件人要检查或确认的重要信息。
 
@@ -93,9 +89,9 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| 用户 | 操作 | 结果 |
-|--- |--- |--- |
-| 此步骤必须由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 配置将命名为“购物车放弃”的事件，并发布此事件配置。 | 部署网站开发人员将使用的API，并自动创建事务型消息。 |
+| 创建事件 | 用户 | 操作 | 结果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | 此步骤必须由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 配置将命名为“购物车放弃”的事件，并发布此事件配置。 | 部署网站开发人员将使用的API，并自动创建事务型消息。 |
 
 创建和发布事件，请参见 [配置事务型事件](../../channels/using/configuring-transactional-event.md) 和 [发布事务型事件](../../channels/using/publishing-transactional-event.md) 中。
 
@@ -103,9 +99,9 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| 用户 | 操作 | 结果 |
-|--- |--- |--- |
-| 此步骤可由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 编辑和个性化事务型消息，对其进行测试，然后发布。 | 事务型消息随后即可发送。 |
+| 编辑消息 | 用户 | 操作 | 结果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | 此步骤可由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 编辑和个性化事务型消息，对其进行测试，然后发布。 | 事务型消息随后即可发送。 |
 
 有关编辑和发布事务型消息的更多信息，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md) 和 [事务型消息生命周期](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| 用户 | 操作 | 结果 |
-|--- |--- |--- |
-| 此步骤由您网站的开发人员执行。 | 使用REST事务型消息API将事件集成到您的网站中。 | 客户放弃购物车时将触发该事件。 |
-
 创建事件后，您需要将此事件的触发集成到您的网站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 要实现此目的，您的网站Web开发人员必须使用 **Adobe Campaign Standard REST API**.
+
+| 实施触发器 | 用户 | 操作 | 结果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | 此步骤由您网站的开发人员执行。 | 使用REST事务型消息API将事件集成到您的网站中。 | 客户放弃购物车时将触发该事件。 |
 
 有关使用Campaign REST API管理事务型消息的更多信息，请参阅 [REST API文档](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Adobe Campaign中提供了两种类型的事务型消息。
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-执行所有这些步骤后，即可发送消息。
+执行上述所有步骤后，即可发送消息。
 
-用户离开网站且未在购物车中订购产品时，会立即触发相应的促销活动事件。 用户自动接收通知电子邮件。
+| 传递消息 | 用户 | 操作 | 结果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | 此步骤由访问您网站的客户执行。 | 用户离开网站且未在购物车中订购产品时，会立即触发相应的促销活动事件。 | 用户自动接收通知电子邮件。 |
 
 ## 相关主题
 

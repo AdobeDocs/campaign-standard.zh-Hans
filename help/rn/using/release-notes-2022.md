@@ -4,16 +4,43 @@ description: 本页列出了所有 2022 版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # 2022 年版发行说明{#release-notes-2022}
 
-[发行计划](../../rn/using/release-planning.md) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) | [文档更新](../../rn/using/documentation-updates.md) | [之前的发行说明](../../rn/using/release-notes-2020.md) | [已弃用的功能](../../rn/using/deprecated-features.md)
+## 22.2 版 - 2022 年 6 月 {#june-2022}
+
+**改进**
+
+* **Adobe 通知服务** - Campaign 附带“Adobe 通知服务”，此服务允许 Experience Cloud 解决方案提醒 Experience Cloud 的用户注意对他们而言非常重要的活动。从版本 22.2 开始，用户体验得到了改进：通知按优先顺序排列，产品生成的通知与 Adobe 状态公告分开。此外，当通知提及特定工作流时，您现在可以直接从电子邮件或产品内通知访问相应的工作流。有关 Adobe Campaign 通知的更多信息，请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **辅助功能** - Adobe 修复了许多辅助功能，以提高应用程序的整体易用性。这些功能目前仅面向一组早期采用者启用，将在未来版本中向所有客户推出。 辅助功能改进的示例包括：
+
+   * 确保每个屏幕上有可聚焦元素的可见焦点指示器
+   * 创建页面区域标志以更便于导航
+   * 添加多个控件的名称、角色、值和状态
+   * 更正主屏幕上动态焦点顺序出现的问题
+
+
+**修补程序**
+
+* 修复了由于密钥重复错误导致计费技术工作流出现的问题。(CAMP-51029)
+* 在跟踪报表中添加了缺失的 Microsoft Edge 浏览器类别。之前，在 Microsoft Chrome 打开时，会对它们进行分类。(CAMP-51165)
+* 修复了 GDPR 请求无法从子表中删除数据的问题。(CAMP-48276)
+* 修复了电子邮件设计工具中的导致无法在事务性消息模板中保存片段的可见性条件的问题。(CAMP-50338)
+* 修复了营销活动报表中导致日期范围未被考虑的问题。(CAMP-50991)
+* 修复了导致计划电子邮件失败的错误：投放分析无法启动，因为投放仍处于“重试挂起”状态。(CAMP-50302)
+* 修复了在预览具有用户档案替换的电子邮件时，电子邮件设计工具中出现的问题。(CAMP-49312)
+* 修复了自定义明细列表中值为空的问题：在创建自定义资源时，如果某个字段是文本明细列表并且只包含一个值，则现在会默认设置此值，以便您可以将针对该字段的查询创建为简单请求。(CAMP-50606)
 
 
 ## 22.1 版 - 2022 年 2 月 {#feb-2022}
