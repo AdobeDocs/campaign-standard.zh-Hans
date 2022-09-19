@@ -1,13 +1,13 @@
 ---
 title: 2022 年版发行说明
-description: 本页列出了所有 2022 版的 Adobe Campaign Standard。
+description: 本页列出了所有 2022 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **辅助功能** - Adobe 修复了许多辅助功能，以提高应用程序的整体易用性。这些功能目前仅面向一组早期采用者启用，将在未来版本中向所有客户推出。 辅助功能改进的示例包括：
+* **辅助功能** - Adobe 修复了许多辅助功能，以提高应用程序的整体易用性。目前仅有部分早期试用者可以使用这些功能，但在未来版本中会推出这些功能供所有客户使用。辅助功能改进的示例包括：
 
    * 确保每个屏幕上有可聚焦元素的可见焦点指示器
    * 创建页面区域标志以更便于导航
