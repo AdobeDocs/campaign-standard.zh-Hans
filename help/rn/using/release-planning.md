@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期都可能会发生更改：请定期访问此页面以检查更新。
 
-## 22.3版 — 2022年秋冬版 {#release-22-3-release}
+## 22.3 版 - 2022 年秋冬版 {#release-22-3-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
-有关此版本的详细信息，请参阅 [发行说明](release-notes.md).
+有关此版本的详细信息，请参阅[发行说明](release-notes.md)。
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2022年9月8日至2023年初<br /> </td>
+   <td>2022 年 9 月 8 日至 2023 年初<br /> </td>
   </tr>
   <tr>
    <td>生产<br /> </td>
-   <td>2022年9月15日至2023年初<br /> </td>
+   <td>2022 年 9 月 15 日至 2023 年初<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 **问：采用什么验证流程？**
 
-答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)报告任何问题。
+答：升级 Stage 阶段的实例时，Adobe 建议验证您的流程和使用案例是否能使用此新版本正常工作，并向 [Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)报告任何问题。
 
 **问：在升级过程中是否可以访问实例？**
 
@@ -82,4 +82,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
