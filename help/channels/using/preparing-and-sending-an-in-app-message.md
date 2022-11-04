@@ -8,7 +8,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 84%
@@ -61,6 +61,8 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。
 
    如果在下拉列表中未看到任何应用程序，请确保您的移动应用程序位于 **已配置** 状态。 应用程序 **准备配置** 状态不会显示在列表中。 有关移动应用程序配置的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/inapp_creating_3.png)
 

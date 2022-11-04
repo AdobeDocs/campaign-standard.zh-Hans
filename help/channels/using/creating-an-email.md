@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '531'
 ht-degree: 19%
 
 ---
@@ -31,7 +31,9 @@ ht-degree: 19%
    >
    >跟进和 A/B 测试模板默认隐藏。勾选左侧的复选框( **[!UICONTROL Filter]** 侧面板)。
 
-1. 输入电子邮件的常规属性。 您可以在 **标签** 字段和编辑ID。 界面中会显示活动名称及其ID，但消息收件人看不到它们。
+1. 输入电子邮件的常规属性。 您可以在 **标签** 字段和编辑ID。
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    您可以添加用户会在营销策划内容中看到的描述。
 
