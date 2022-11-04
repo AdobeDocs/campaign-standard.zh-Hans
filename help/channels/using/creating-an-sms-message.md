@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ ht-degree: 96%
 
 1. 输入短信的常规属性。
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   界面中会显示活动标签及其 ID，但消息收件人看不到它们。
 
 1. 指定要定向的受众。您可以选择现有受众，也可以通过定义和组合规则直接定向群体。
 

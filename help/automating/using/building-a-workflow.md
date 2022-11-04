@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 96%
 
    ![](assets/workflow_creation_2.png)
 
-   您可以在 **Label** 字段中输入名称并修改 ID。
+   您可以在 **Label** 字段中输入名称并修改 ID。界面中会显示活动名称及其 ID，但消息收件人看不到它们。
 
    >[!NOTE]
    >
