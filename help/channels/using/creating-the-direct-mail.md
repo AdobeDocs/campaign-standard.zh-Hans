@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 95%
 1. 输入投放的常规属性。
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >界面中会显示活动名称及其ID，但消息收件人看不到它们。
+   >
+   >确保ID字段不包含任何空格，以避免任何差异，例如与Adobe Analytics集成时。
 
 1. 定义要包含在提取文件中的受众，以及测试和陷阱用户档案。请参阅[定义直邮受众](../../channels/using/defining-the-direct-mail-audience.md)。
 

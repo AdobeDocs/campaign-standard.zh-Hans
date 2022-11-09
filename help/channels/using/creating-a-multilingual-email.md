@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ ht-degree: 24%
    ![](assets/multi_create1.png)
 
 1. 定义电子邮件的常规属性和目标受众，操作方式与标准电子邮件类似。请参阅[创建受众](../../audiences/using/creating-audiences.md)一节。
+
 1. 在创建向导的第四步中，定义变体选项。 如果 [多语言模板](../../channels/using/multilingual-messages-template.md) 已包含所有正确的参数，您可以直接单击 **[!UICONTROL Create]** 按钮。
 
    ![](assets/multi_create4.png)

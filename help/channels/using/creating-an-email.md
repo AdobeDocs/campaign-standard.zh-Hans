@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 19%
+source-wordcount: '574'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 19%
    >
    >跟进和 A/B 测试模板默认隐藏。勾选左侧的复选框( **[!UICONTROL Filter]** 侧面板)。
 
-1. 输入电子邮件的常规属性。 您可以在 **标签** 字段和编辑ID。 界面中会显示活动名称及其ID，但消息收件人看不到它们。
+1. 输入电子邮件的常规属性。 您可以在 **标签** 字段和编辑ID。
+
+   >[!NOTE]
+   >
+   >界面中会显示活动名称及其ID，但消息收件人看不到它们。
+   >
+   >确保ID字段不包含任何空格，以避免任何差异，例如与Adobe Analytics集成时。
 
    您可以添加用户会在营销策划内容中看到的描述。
 
