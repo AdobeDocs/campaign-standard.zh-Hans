@@ -4,8 +4,9 @@ description: 本页列出了所有 2022 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -96,4 +97,3 @@ ht-degree: 100%
 * 增强了复制受众时的性能，以避免在处理大量受众时出现任何问题。(CAMP-49639)
 * 修复了在&#x200B;**查询**&#x200B;活动中使用自定义筛选条件时可能导致其无法显示正确结果的问题。(CAMP-49417)
 * 修复了尝试在投放中使用名称中带有逗号的片段时显示错误消息的错误。此问题已得到解决，现在可以在片段名称中使用逗号。(CAMP-49216)
-
