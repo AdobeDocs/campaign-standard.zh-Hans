@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 86%
 1. 单击 **[!UICONTROL File structure]** 选项卡，为要导出的文件配置输出、日期和编号格式。
 
    如果导出枚举值，请勾选 **[!UICONTROL Export labels instead of internal values of enumerations]** 选项。利用此选项，可检索易于理解的较短标签（而非 ID）。
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >如果要将数据提取到具有特定编码的CSV文件，请首先选择“文本”输出格式。 从下拉列表中选择所需的编码，然后将输出格式更改为“CSV(Excel)”。
 
 1. 在 **[!UICONTROL Properties]** 选项卡中，选择 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 选项，以避免在集客过渡为空时在 SFTP 服务器上创建和上传空文件。
 1. 确认活动的配置并保存工作流。
