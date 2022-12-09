@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 90%
 
 ---
 
@@ -23,20 +23,15 @@ ht-degree: 100%
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
-## 22.3 版 - 2022 年秋冬 {#e-rn-2022}
+## 22.3.2 版 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### 安全更新{#rn-security2}
 
+此版本附带以下安全升级：Debian已升级到v11.0。
 
-**Accessibility**
+## 22.3 版 - 2022 年秋冬 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### 安全更新{#e-rn-security}
+### 安全更新{#rn-security}
 
 此版本附带以下安全升级：Apache Tomcat 已从 v7.0 升级到 v8.0。
 
@@ -46,3 +41,4 @@ These capabilities are released in Limited Availability and rolled out to a set 
 * 修复了投放仪表板中的投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
 * 修复了导致无法使用 ACS 连接器（高级服务）扩展自定义资源的问题。(CAMP-51033)
 * 改进了隐私请求响应的发布流程，以避免延迟。(CAMP-50613)
+
