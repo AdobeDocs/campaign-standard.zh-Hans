@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 利用活动，您可以优化客户历程的设计和交付，以预测每一个人的参与偏好。Adobe Campaign的发送时间优化和预测参与度评分由AI和机器学习提供支持，可以根据历史参与量度分析和预测开放率、最佳发送时间和可能的客户流失。
 
 >[!IMPORTANT]
+>
 >此功能并非作为产品的一部分现成可用。实施需要咨询 Adobe。请联系您的 Adobe 代表以了解更多信息。
 
 Adobe Campaign提供了两种新的机器学习模型： **预测发送时间优化** 和 **预测参与度评分**. 这两种模型是机器学习模型，专门用于设计和交付更好的客户旅程。
@@ -35,6 +36,7 @@ Adobe Campaign提供了两种新的机器学习模型： **预测发送时间优
 在预测发送时间优化模型中，有两个子模型：
 
 * **打开的预测发送时间是必须向客户发送通信以最大化打开数的最佳时间**
+
 * **单击的预测发送时间是必须向客户发送通信以最大化点击数的最佳时间**
 
 **模型输入**：投放日志、跟踪日志和用户档案属性（非 PII）
@@ -77,6 +79,8 @@ Adobe Campaign提供了两种新的机器学习模型： **预测发送时间优
 ### 在最佳时刻发送消息{#use-predictive-send-time}
 
 要使电子邮件在每个用户档案的最佳时间发出，必须使用选项 **[!UICONTROL Send at a custom date defined by a formula]** 计划投放。
+
+
 [在此部分中](../../sending/using/computing-the-sending-date.md)了解如何计算发送日期。
 
 在要向外投放时，需要使用特定日期中的特定最佳时间填充该公式。
@@ -86,7 +90,7 @@ Adobe Campaign提供了两种新的机器学习模型： **预测发送时间优
 公式示例：
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
