@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 ### 安全更新{#rn-security2}
 
-此版本附带以下安全升级：Debian已升级到v11.0。
+此版本附带以下安全升级：Debian 已升级到 v11.0。
 
 ## 22.3 版 - 2022 年秋冬 {#sept-22}
 
