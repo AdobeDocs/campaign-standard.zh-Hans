@@ -5,7 +5,7 @@ user-guide-description: 帮助中心提供使用 Campaign Standard 所需的主�
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
 source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1814'
 ht-degree: 100%
 
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [预览投放](sending/using/previewing-messages.md)
       + [发送校样](sending/using/sending-proofs.md)
       + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
-      + [预测用户参与度功能](sending/using/predictive.md)
+      + [预测性用户参与度功能](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [添加对照组](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
