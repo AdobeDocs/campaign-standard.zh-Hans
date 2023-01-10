@@ -1,5 +1,5 @@
 ---
-title: 用户档案和受众快速入门
+title: 用户档案和受众入门
 description: 定义目标人群、选择受众、筛选收件人、收集数据和更新档案。
 audience: audiences
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 ---
 
-# 用户档案和受众快速入门{#about-profiles-and-audiences}
+# 用户档案和受众入门{#about-profiles-and-audiences}
 
 <table>
 <tr>

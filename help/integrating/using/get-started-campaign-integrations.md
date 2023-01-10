@@ -63,7 +63,7 @@ ht-degree: 77%
    <td> Adobe Analytics<br /> </td> 
    <td> 允许直接在 Adobe Analytics 中跟踪电子邮件投放是否成功。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">与 Analytics 共享 Campaign 数据</a>，<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">共享 KPI 以实现集成 Campaign 报告</a>视频（步骤 1）
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">与 Analytics 共享 Campaign 数据</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">共享 KPI 以实现集成 Campaign 报告</a>视频（步骤 1）
     </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ ht-degree: 77%
    <td> Adobe Experience Cloud 触发器<br /> </td> 
    <td> 允许在 Adobe Campaign 中向客户发送个性化电子邮件，以对 Adobe Analytics 在网站上跟踪的特定行为作出反应。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud Triggers</a>，<a href="../../integrating/using/abandonment-triggers-use-cases.md">Abandonment Triggers-Campaign 用例</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">根据站点活动触发再营销消息</a>视频（步骤 2）
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud Triggers</a>，<a href="../../integrating/using/abandonment-triggers-use-cases.md">Abandonment Triggers-Campaign 用例</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">根据站点活动触发再营销消息</a>视频（步骤 2）
     </td> 
   </tr> 
     <tr> 

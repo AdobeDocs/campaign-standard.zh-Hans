@@ -33,7 +33,7 @@ Adobe Campaign Standard 是一款功能强大的跨渠道活动管理工具，�
 
 使用多种功能&#x200B;**丰富数据库**：工作流、登陆页或 API，或者 Microsoft Dynamics 365。
 
-[用户档案和受众快速入门](../../audiences/using/get-started-profiles-and-audiences.md)
+[用户档案和受众入门](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## 编排跨渠道营销活动 {#orchestrate-campaigns}
 
