@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 87%
+source-wordcount: '393'
+ht-degree: 83%
 
 ---
 
@@ -50,6 +50,10 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
    * 联系信息，如名字、姓氏、性别、出生日期、照片、首选语言（用于[多语言电子邮件](../../channels/using/creating-a-multilingual-email.md)）等，有助于更好地个性化投放。
    * 用户档案的 **[!UICONTROL Time zone]** 用于以用户档案的时区确定投放发送时间。有关更多信息，请参阅此](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)章节[。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系用户档案的渠道。
+
+      >[!NOTE]
+      > 手机号码必须始终采用国际格式(`+<country><number>`)格式。
+
    * 一旦用户档案取消订阅了某个渠道，则会立即更新 **[!UICONTROL No longer contact]** 类别。
    * **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送[直邮](../../channels/using/about-direct-mail.md)的 **[!UICONTROL Address specified]** 选项。如果未勾选 **[!UICONTROL Address specified]** 选项，则此用户档案将从所有直邮投放中排除。
    * 的 **[!UICONTROL Access authorization]** 类别指示用户档案的组织单位 [管理权限](../../administration/using/about-access-management.md). 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
