@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -43,20 +43,18 @@ OAuth访问令牌允许集成工具通过Web API与Microsoft Dynamics 365实例�
 
 ### 注册新应用程序 {#register-a-new-app}
 
-1. 在您的管理员登录下，登录portal.azure.com。
+1. 在管理员登录下，登录到 [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. 单击 **[!UICONTROL Azure Active Directory]** 菜单中的“隐藏主体”；然后单击 **[!UICONTROL App registrations]** 的子菜单中。
 
 1. 单击 **[!UICONTROL New registration]** 中。
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. 填写应用程序注册屏幕：
 
    * 名称：adobe campaign `<stage or prod>`
    * 支持的帐户类型： **[!UICONTROL Accounts in this organizational directory only]** （默认值）
 
-有关创建新应用程序的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+有关创建新应用程序的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ OAuth访问令牌允许集成工具通过Web API与Microsoft Dynamics 365实例�
 ### 生成客户端密钥 {#generate-a-client-secret}
 
 1. 在应用程序概述屏幕的左侧子菜单中，单击 **[!UICONTROL Certificates and Secrets > New client secret]**
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 输入描述，设置持续时间并单击 **[!UICONTROL OK]**.
 
@@ -81,13 +77,9 @@ OAuth访问令牌允许集成工具通过Web API与Microsoft Dynamics 365实例�
 
 1. 在此屏幕或应用程序概述屏幕中，单击 **[!UICONTROL API permissions]** 的子菜单中。  单击 **[!UICONTROL Add a permission]**，您需要选择 **[!UICONTROL Dynamics CRM]** 中。
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. 然后，选中 **[!UICONTROL user_impersonation]**，然后单击 **[!UICONTROL Add permissions]** 按钮。
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-有关权限设置的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+有关权限设置的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### 创建应用程序用户
 
@@ -109,7 +101,7 @@ OAuth访问令牌允许集成工具通过Web API与Microsoft Dynamics 365实例�
    * **[!UICONTROL Full Name]**:AdobeAPI `<stage or prod>`
    * **[!UICONTROL Email]**:与 **[!UICONTROL User Name]** (或管理员的电子邮件（如果您愿意）
 
-   有关创建应用程序用户的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   有关创建应用程序用户的更多信息，请参阅 [此部分](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. 单击用户图标并上传Adobe Campaign图标；当Dynamics 365中出现新的Adobe事件时，时间轴视图中将显示此图标。
 
@@ -128,7 +120,8 @@ OAuth访问令牌允许集成工具通过Web API与Microsoft Dynamics 365实例�
 要将Dynamics 365应用程序集成到您的Campaign Standard环境，请执行以下步骤：
 
 1. 导航到以下链接： [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) 和搜索 _Adobe Campaign for Dynamics 365_ 中。
-或者，您也可以导航到此 [链接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
+或者，您也可以导航到此 [链接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. 按照说明为Dynamics 365实例安装应用程序。
 1. 安装后，导航到Dynamics 365实例并以管理员身份登录。
 1. 单击右上角的齿轮图标，然后单击 **[!UICONTROL Advanced Settings]**. 在顶部横幅中，单击 **[!UICONTROL Settings]**，单击 **[!UICONTROL Processes]** 在 **[!UICONTROL Process Center]**.
