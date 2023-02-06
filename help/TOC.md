@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
-workflow-type: ht
-source-wordcount: '1814'
-ht-degree: 100%
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+workflow-type: tm+mt
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
@@ -182,6 +182,7 @@ ht-degree: 100%
       + [在失败时接收提醒](sending/using/receiving-alerts-when-failures-happen.md)
       + [了解投放失败](sending/using/understanding-delivery-failures.md)
       + [了解隔离管理](sending/using/understanding-quarantine-management.md)
+      + [在意大利在线服务中断后更新错误的硬退回](sending/using/update-bounce-it.md)
    + 管理可投放性 {#managing-deliverability}
       + [关于可投放性](sending/using/about-deliverability.md)
       + [控制电子邮件内容](sending/using/control-email-content.md)
