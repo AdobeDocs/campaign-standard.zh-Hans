@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ ht-degree: 4%
 
 1. 在数据收集UI中，单击 **[!UICONTROL Extensions]** 选项卡，转到 **[!UICONTROL Catalog]**，并搜索 **[!UICONTROL Adobe Campaign Standard]** 扩展。 有关更多信息，请参阅 [Adobe Campaign Standard](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. 要在Campaign Standard中支持位置用例，请安装 **[!UICONTROL Places]** 扩展和 **[!UICONTROL Places Monitor]** 扩展。
-   * 安装 **[!UICONTROL Places]** 扩展。 请参阅 [页面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * 安装 **[!UICONTROL Places Monitor]** 扩展。 请参阅 [页面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. 要在Campaign Standard中支持位置用例，请安装 **[!UICONTROL Places]** 扩展。 请参阅 [页面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 请参阅 [在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
