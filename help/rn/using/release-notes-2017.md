@@ -1,15 +1,15 @@
 ---
 title: 发行说明 2017
-description: 本页列出了所有 2017 版的 Adobe Campaign Standard。
+description: 本页列出了所有 2017 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
-ht-degree: 6%
+source-wordcount: '4562'
+ht-degree: 5%
 
 ---
 
@@ -392,7 +392,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver集成(Labs)<br /> </td> 
-   <td> 通过Adobe Campaign和Dreamweaver集成，您现在可以通过一个集成的流程，使用Adobe解决方案创建电子邮件促销活动。<br /> 您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并在两个解决方案之间无缝同步内容。<br /> 对于初始版本，该集成将作为“Labs”功能提供，并且仅适用于Dreamweaver预发行测试版。 如果要激活它，请联系AC-DW-integration@adobe.com。<br /> 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">视频</a>.<br /> </td> 
+   <td> 通过Adobe Campaign和Dreamweaver集成，您现在可以通过一个集成的流程，使用Adobe解决方案创建电子邮件促销活动。<br /> 您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并在两个解决方案之间无缝同步内容。<br /> 对于初始版本，该集成将作为“Labs”功能提供，并且仅适用于Dreamweaver预发行测试版。 如果要激活它，请联系AC-DW-integration@adobe.com。<br /> 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
@@ -473,7 +473,7 @@ _工作流_
    <td> 导出日志以进行外部报告<br /> </td> 
    <td> 导出投放和跟踪日志等日志，以便在您的首选报表或BI工具中处理它们。 您可以使用带有增量查询的简单工作流来自动定期导出新日志。<br /> 除了资源选取器中的日志资源可用性之外，还对 <a href="../../automating/using/incremental-query.md">增量查询</a> 和 <a href="../../automating/using/extract-file.md">提取文件</a> 活动：<br /> 
     <ul> 
-     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行的所有结果，也会自动排除这些结果。 </li> 
+     <li> <span class="uicontrol">增量查询</span> 现在，允许您使用日期字段检索新数据或更新的数据。 以前，即使自上次执行以来更新了之前执行所获的所有结果，也会自动排除这些结果。 </li> 
      <li> <span class="uicontrol">提取文件</span> 现在可以导出枚举值的标签，而不是ID。 </li> 
     </ul> 管理员可以使用这些活动来访问所有地理和组织单位。<br /> 有关导出日志的更多信息，请参阅 <a href="../../automating/using/exporting-logs.md">详细文档</a>.<br /> </td> 
   </tr> 
@@ -489,9 +489,9 @@ _工作流_
   </tr> 
   <tr> 
    <td> 事务型消息传递API<br /> </td> 
-   <td> 事务型消息传递API现在通过 <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>，从而更便于使用和监控：<br /> 
+   <td> 事务性消息传递API现已可用，更便于使用和监控：<br /> 
     <ul> 
-     <li> 您可以从adobe.io平台报告和监控功能中受益。 </li> 
+     <li> 您可以从Adobe Developer平台报告和监控功能中受益。 </li> 
      <li> 身份验证现在使用基于adobe.io令牌的身份验证而不是IP列入允许列表来执行，从而使安全过程更简单。 </li> 
      <li> 现在，所有API都集成在一个平台上，如果您已经支持用户档案和服务API，则向集成添加事务性消息传送功能比以往更简单。 </li> 
     </ul> </td> 

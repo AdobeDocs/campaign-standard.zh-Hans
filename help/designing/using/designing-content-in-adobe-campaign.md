@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 86%
+source-wordcount: '1239'
+ht-degree: 85%
 
 ---
 
@@ -119,7 +119,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
 * Email designer不支持反向链接元标记。
 
-下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hans)。
+下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](../../sending/using/delivery-best-practices.md)。
 
 ### 更新片段 {#email-designer-updates}
 

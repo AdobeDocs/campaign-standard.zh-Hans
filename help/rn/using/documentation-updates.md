@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/d365
 
 **随版本提供的其他文档更新**
 
-Adobe Campaign 的错误消息列表已更新。[阅读更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign 的错误消息列表已更新。[阅读更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 新增了关于工作流最佳实践的章节。[了解更多](../../automating/using/best-practices-workflows.md)
 
-更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 在自定义资源文档中添加了警告。我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 添加了一项关于使用参数调用工作流时使用无聚合期定期投放的建议。[了解更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 在自定义资源文档中添加了警告。我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 添加了关于推送跟踪实施的新技术说明。[了解更多](../../administration/using/push-tracking.md)
 
-更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+更新了 Campaign Standard 和 Classic 的错误消息列表。[了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 更新了“Triggers - Campaign 集成”文档。[了解更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **此版本中包含的新增功能**
 
-GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
+GDPR：核心服务集成 - [了解更多](../../start/using/privacy-management.md)
 
 推送改进 - 详细的投放反馈- [了解更多](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ GDPR：核心服务集成 - [了解更多](https://experienceleague.adobe.com/do
 
 **此版本中包含的新功能**
 
-欧盟通用数据保护条例 (GDPR) - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans)
+欧盟通用数据保护条例 (GDPR) - [了解更多](../../start/using/privacy.md)
 
 适用于电子邮件的 Creative Designer - [了解更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多]
 
 Campaign 和 Adobe 解决方案集成的大多数 URL 都已更改！请检查您的书签！[了解更多](../../integrating/using/get-started-campaign-integrations.md)
 
-datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=zh-Hans)
+datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../../developing/using/datamodel-introduction.md)
 
 添加了关于如何在投放中准备消息的信息[了解更多](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了[投放警报](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文档，添加了疑难解答章节，提供了关于在收到警报时可以采取哪些操作的一些提示。
 
-提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hans)
+提供了新的快速入门指南：其中介绍了一些 Adobe Campaign 应用的最佳实践，从创建和定向到发送和监控。[了解更多](../../sending/using/delivery-best-practices.md)
 
 更新了“跟进消息”文档，提供了经过改进的使用案例。[了解更多](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

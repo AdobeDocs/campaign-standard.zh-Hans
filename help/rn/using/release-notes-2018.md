@@ -1,15 +1,15 @@
 ---
 title: 发行说明 2018
-description: 本页列出了所有 2018 版的 Adobe Campaign Standard。
+description: 本页列出了所有 2018 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
-ht-degree: 4%
+source-wordcount: '5355'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> Adobe移动应用程序的Launch集成（测试版）<br /> </td> 
-   <td> Adobe与Adobe Campaign的Launch集成现在使用Mobile SDK V5简化了Campaign中移动应用程序属性激活的过程并实现了自动化。<br /> 有关更多信息，请参阅 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">详细文档</a>.<br /> </td> 
+   <td> Adobe与Adobe Campaign的Launch集成现在使用Mobile SDK V5简化了Campaign中移动应用程序属性激活的过程并实现了自动化。<br /> 有关更多信息，请参阅 <a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服务集成<br /> </td> 
-   <td> 隐私核心服务集成允许您通过单个JSON API调用，在多解决方案上下文中自动处理GDPR请求。 <br /> 现在，从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求将由Campaign自动处理。 <br /> 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
+   <td> 隐私核心服务集成允许您通过单个JSON API调用，在多解决方案上下文中自动处理GDPR请求。 <br /> 现在，从隐私核心服务推送到所有Experience Cloud解决方案的GDPR请求将由Campaign自动处理。 <br /> 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进 — 详细的投放反馈<br /> </td> 
@@ -297,7 +297,7 @@ _自定义资源_
     <ul> 
      <li> 访问权：允许数据主体接收其由数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除“数据控制者”捕获的个人数据，这可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关更多信息，请参阅<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">详细文档</a>。<br /> </td> 
+    </ul> 有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email（测试版）<br /> </td> 

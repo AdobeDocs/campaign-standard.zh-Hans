@@ -4,10 +4,10 @@ description: “了解如何在Adobe Campaign Standard中自定义显示屏并�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 11%
+source-wordcount: '776'
+ht-degree: 10%
 
 ---
 
@@ -125,7 +125,7 @@ Campaign StandardAPI允许您执行操作来更新数据库，如用户档案或
 
 GDPR 是欧盟最新制定的一项隐私法规，用于协调和顺应时代更新数据保护需求。GDPR 适用于所持有数据的数据主体位于欧盟的 Adobe Campaign 客户。除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还将利用此机会作为数据处理者加入其他功能，以帮助您作为数据控制者为某些GDPR请求做好准备。
 
-请参阅 [指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hans) 详细了解Adobe Campaign为帮助您符合GDPR而提供的工具和功能。
+请参阅 [此部分](../../start/using/privacy.md) 详细了解Adobe Campaign为帮助您符合GDPR而提供的工具和功能。
 
 **了解更多信息**
 

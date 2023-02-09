@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '768'
+ht-degree: 92%
 
 ---
 
@@ -105,4 +105,4 @@ ht-degree: 93%
 >
 >此发布会更新 **[!UICONTROL profilesAndServicesExt]** API。**[!UICONTROL profilesAndServices]** API 未更新。
 
-有关 Adobe Campaign API 的更多信息，请参阅 [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html) 上的 Adobe Campaign 专述文档。
+有关Adobe Campaign Standard API的更多信息，请参阅 [此部分](../../api/using/get-started-apis.md).

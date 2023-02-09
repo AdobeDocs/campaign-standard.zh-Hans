@@ -1,6 +1,6 @@
 ---
-title: 为 Microsoft Dynamics 365 集成配置 Adobe IO
-description: 了解如何为Microsoft Dynamics 365集成配置AdobeIO。
+title: 为Microsoft Dynamics 365集成配置Adobe Developer
+description: 了解如何为Microsoft Dynamics 365集成配置Adobe Developer
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -8,14 +8,14 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Adobe Campaign Standard和Microsoft Dynamics 365集成的Adobe I/O配置
+# Adobe Campaign Standard和Adobe Developer的Microsoft Dynamics 365集成配置
 
 本文将介绍如何配置Adobe Campaign Standard和Adobe I/O，以授予集成应用程序访问数据的权限。
 
@@ -43,13 +43,13 @@ Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访�
 
 ### 配置
 
-您需要创建新的AdobeIO项目并为该集成配置它。
+您将需要创建一个新的Adobe Developer项目，并为该集成配置该项目。
 
 #### 创建新项目
 
 要实现此目的，请按照以下步骤操作：
 
-1. 导航到 [AdobeIO控制台](https://console.adobe.io/home#) 然后，从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
+1. 导航到 [Adobe Developer控制台](https://console.adobe.io/home#) 然后，从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
 
 1. 然后，单击 **[!UICONTROL Create new project]** 在 **[!UICONTROL Quick Start]**.
 
@@ -63,13 +63,13 @@ Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访�
 
    ![](assets/adobeIO3.png)
 
-1. 在下一个屏幕上，您将可以选择上传您自己的公钥，或让AdobeIO为您生成密钥对。 这些说明将遵循后一选项。 如果决定让AdobeIO生成密钥对，请单击选项1;然后单击 **[!UICONTROL Generate keypair]** 按钮。
+1. 在下一个屏幕上，您将可以选择上传您自己的公钥，或让Adobe Developer为您生成密钥对。 这些说明将遵循后一选项。 如果决定让Adobe Developer生成密钥对，请单击选项1;然后单击 **[!UICONTROL Generate keypair]** 按钮。
 
    ![](assets/adobeIO4.png)
 
 1. 在下一个屏幕上，系统将提示您命名并选择密钥对zip文件的下载位置。
 
-下载后，您可以解压缩文件以显示公钥和私钥。 AdobeIO已将公共密钥应用于您的AdobeIO项目。 您以后需要保留私钥；私钥将在集成工具的预集成设置期间使用。
+下载后，您可以解压缩文件以显示公钥和私钥。 Adobe Developer已将公共密钥应用于您的Adobe Developer项目。 您以后需要保留私钥；私钥将在集成工具的预集成设置期间使用。
 
 1. 单击 **[!UICONTROL Next]** 继续
 
@@ -83,7 +83,7 @@ Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访�
 
    ![](assets/adobeIO6.png)
 
-1. 在下一个屏幕中，您将看到新AdobeIO项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
+1. 在下一个屏幕中，您将看到新Adobe Developer项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
 
    ![](assets/adobeIO7.png)
 
@@ -101,10 +101,10 @@ Campaign中的预集成设置现已完成。
 
 **相关主题**
 
-* [为Microsoft Dynamics 365集成配置AdobeIO](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
+* [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
 * [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含启动和运行集成的完整步骤列表。
 
 
-* [AdobeIO — 服务帐户集成](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer — 服务帐户集成](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
