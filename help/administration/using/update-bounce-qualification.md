@@ -4,16 +4,14 @@ description: 了解如何在ISP中断后更新退件资格。
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '425'
 ht-degree: 4%
 
 ---
 
 # 在 ISP 中断后更新退回限制条件 {#update-bounce-qualification.md}
-
-如果您没有运行最新版本的Campaign，则此部分可能适用于您。 请咨询您的Adobe Campaign代表。
 
 ## 上下文
 
