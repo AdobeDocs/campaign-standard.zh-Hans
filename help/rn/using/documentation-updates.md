@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7229'
 ht-degree: 100%
 
@@ -424,7 +424,7 @@ Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/d365
 
 Adobe Campaign 的错误消息列表已更新。[阅读更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
-GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html)
+GDPR 入门指南已得到改进和丰富。它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。[了解更多](https://helpx.adobe.com/content/help/cn/campaign/kb/campaign-privacy.html)
 
 添加了用于表示事务型消息传递发布过程的新图表。[了解更多](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
