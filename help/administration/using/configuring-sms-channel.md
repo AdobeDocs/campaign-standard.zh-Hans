@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 90%
 有关创建和修改外部帐户的详细步骤，请参见[外部帐户](../../administration/using/external-accounts.md)一节。下文中介绍了专用于外部帐户发送短信消息的参数。
 
 ## 定义短信路由 {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>对多个外部短信帐户使用相同的帐户和密码可能会导致帐户之间发生冲突和重叠。 请参阅 [短信疑难解答页面](troubleshooting-sms.md#external-account-conflict).
 
 默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
