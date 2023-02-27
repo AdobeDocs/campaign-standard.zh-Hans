@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序，将其作为与使
 * 在迁移之前，请确保为您分配了 **[!UICONTROL Organizational unit]** 要迁移的移动应用程序，以及要用于迁移的Adobe Experience Platform应用程序。
 * 迁移后，应用程序将成为Adobe Experience Platform SDK应用程序。 其更改将链接到其相应的标记 **[!UICONTROL Mobile Property]**.
 
-1. 新建 **[!UICONTROL Mobile property]** （在数据收集UI中）。 有关此内容的更多信息，请参阅 [文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. 新建 **[!UICONTROL Mobile property]** （在数据收集UI中）。 有关此内容的更多信息，请参阅 [文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 打开 **[!UICONTROL syncWithLaunch]** 工作流。 检查工作流是否已结束且没有错误。
 

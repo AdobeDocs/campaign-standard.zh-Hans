@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
-source-wordcount: '7229'
-ht-degree: 100%
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+workflow-type: tm+mt
+source-wordcount: '7230'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 移动并更新了“通过电子邮件密送进行归档”的专述章节。[了解更多](../../sending/using/archiving.md)
 
-更新了“配置移动应用程序”的文档和相关页面，以反映 SDK V4 已被弃用。[了解更多](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+更新了“配置移动应用程序”的文档和相关页面，以反映 SDK V4 已被弃用。[了解更多](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 更新并修正了 Adobe Campaign Standard/Adobe Experience Manager 集成文档。[了解更多](../../integrating/using/configure-experience-manager.md)
 

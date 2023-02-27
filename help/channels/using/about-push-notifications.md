@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 1. 验证您的用户是否拥有Adobe Campaign Standard中的必需权限以及Adobe Experience Platform中的标记。
 
-1. 在数据收集UI中，创建移动资产。 有关更多信息，请参阅[设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在数据收集UI中，创建移动资产。 有关更多信息，请参阅[设置移动属性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)。
 
 1. 在数据收集UI中，安装 **[!UICONTROL Adobe Campaign Standard]** 扩展。
 
@@ -88,7 +88,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 ### 在Campaign中获取推送令牌时必须执行哪些操作？ {#push-token-acquisition}
 
-确保配置团队已完成在Adobe Campaign Standard中配置推送渠道。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
+确保配置团队已完成在Adobe Campaign Standard中配置推送渠道。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)。
 
 ### 在Campaign中拥有推送令牌和ECID后，我还需要发送推送通知吗？ {#sending-push}
 
@@ -145,7 +145,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 按照下面的步骤进行操作：
 
 * 配置推送跟踪回发。 有关说明，请参阅 [此处](../../administration/using/configuring-a-mobile-application.md).
-* 从移动核心实施trackAction API。 请参阅 [页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 以了解更多信息。
+* 从移动核心实施trackAction API。 请参阅 [页面](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) 以了解更多信息。
 
 有关更多详细说明，请参阅 [页面](../../administration/using/push-tracking.md).
 

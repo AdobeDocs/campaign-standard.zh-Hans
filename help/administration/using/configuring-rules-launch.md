@@ -1,5 +1,5 @@
 ---
-title: 配置标记规则以支持Adobe Campaign Standard用例
+title: 配置标记规则以支持 Adobe Campaign Standard 用例
 description: 了解如何配置标记规则以支持Adobe Campaign Standard用例
 audience: channels
 content-type: reference
@@ -9,18 +9,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 0%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
-# 配置标记规则以支持Adobe Campaign Standard用例 {#configuring-rules-launch}
+# 配置标记规则以支持 Adobe Campaign Standard 用例 {#configuring-rules-launch}
 
 在数据收集UI中，创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到 [!DNL Adobe Campaign Standard].
 
-要确保数据收集UI中的所有配置更改都生效，您必须发布这些更改。 有关更多信息，请参阅 [发布](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+要确保数据收集UI中的所有配置更改都生效，您必须发布这些更改。 有关更多信息，请参阅 [发布](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 要在数据收集UI中创建规则，请执行以下步骤：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到 [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>要将PII信息从移动设备应用程序发送到Adobe Campaign，您必须实施SDK API。 有关更多信息，请转到 [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 将PII数据发送到 [!DNL Adobe Campaign Standard]，在数据收集UI中创建规则：
 

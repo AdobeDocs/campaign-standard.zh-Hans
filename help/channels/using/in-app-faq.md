@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 * 仅当用户已登录应用程序时，才能提供使用用户档案模板构建的消息。
 * 为了便于进行这种安全握手，移动应用程序开发人员应使用setLinkageField API传递其他身份验证详细信息。 请注意，链接字段是在扩展appSubscriberRcp表时被标识为移动用户档案和CRM用户档案之间链接的字段。
 * 当用户使用resetLinkageField注销应用程序时，它们应刷新存储在设备上的应用程序内消息和resetLinkagefields。 这可确保当其他用户登录到应用程序时，他们看不到适用于前一用户的消息。
-* 请参阅 [Mobile SDK API](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) 实现此安全机制客户端。
+* 请参阅 [Mobile SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 实现此安全机制客户端。
 
 ## 要在Campaign中启用应用程序内报告，我必须做什么？ {#enable-inapp-reporting}
 

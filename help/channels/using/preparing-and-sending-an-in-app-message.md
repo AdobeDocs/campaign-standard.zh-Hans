@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：利用此消息类型，可定向订阅了您移动应用程序的 Adobe Campaign 用户档案（CRM 用户档案）。此消息类型可在 Adobe Campaign 中使用可用的用户档案属性进行个性化，但需要在 Mobile SDK 与 Campaign 的应用程序内消息传递服务之间进行安全握手，以确保包含个人和敏感信息的消息仅供授权用户使用。
 
-   要在用户设备上下载此消息类型，Mobile SDK 必须发送关联字段，这些字段用于将移动用户档案连接到 Adobe Campaign 中的 CRM 用户档案。有关支持应用程序内消息所需 SDK API 的更多信息，请参阅本[页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
+   要在用户设备上下载此消息类型，Mobile SDK 必须发送关联字段，这些字段用于将移动用户档案连接到 Adobe Campaign 中的 CRM 用户档案。有关支持应用程序内消息所需 SDK API 的更多信息，请参阅本[页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：利用此消息类型，可向移动应用程序的所有用户（当前或将来）发送消息，即使他们当前在 Adobe Campaign 中没有用户档案。因此，在自定义消息时不可能进行个性化，因为用户档案甚至可能不存在于 Adobe Campaign 中。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：利用此消息类型，可定向在 Adobe Campaign 中具有移动用户档案的移动应用程序所有已知或匿名用户。此消息类型可仅使用非个人属性和非敏感属性进行个性化，并且不需要 Mobile SDK 与 Adobe Campaign 的应用程序内消息传递服务之间进行安全握手。

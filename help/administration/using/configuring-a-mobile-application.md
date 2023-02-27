@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 4%
 
    要完成其他任务（如安装扩展、发布应用程序、配置环境等），您需要在产品配置文件中设置权限。
 
-1. 在数据收集UI中，创建 **[!UICONTROL Mobile property]**. 有关更多信息，请参阅[设置移动属性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在数据收集UI中，创建 **[!UICONTROL Mobile property]**. 有关更多信息，请参阅[设置移动属性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)。
 
-1. 在数据收集UI中，单击 **[!UICONTROL Extensions]** 选项卡，转到 **[!UICONTROL Catalog]**，并搜索 **[!UICONTROL Adobe Campaign Standard]** 扩展。 有关更多信息，请参阅 [Adobe Campaign Standard](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. 在数据收集UI中，单击 **[!UICONTROL Extensions]** 选项卡，转到 **[!UICONTROL Catalog]**，并搜索 **[!UICONTROL Adobe Campaign Standard]** 扩展。 有关更多信息，请参阅 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. 要在Campaign Standard中支持位置用例，请安装 **[!UICONTROL Places]** 扩展。 请参阅 [页面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -121,7 +121,7 @@ ht-degree: 4%
 
 1. 要使此配置生效，所做的更改需要在数据收集UI中发布。
 
-   有关更多信息，请参阅 [发布配置](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   有关更多信息，请参阅 [发布配置](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaign中特定于渠道的应用程序配置 {#channel-specific-config}
 
@@ -163,7 +163,7 @@ ht-degree: 4%
 >
 >删除应用程序时，无法撤销。
 
-要删除您的应用程序，请完成 [删除移动资产](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+要删除您的应用程序，请完成 [删除移动资产](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 删除应用程序后，在Adobe Campaign中，验证应用程序的资产状态是否已在Launch中正确更新为“已删除”。
 

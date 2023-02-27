@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '910'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 * [推送通知常见问题解答](../../channels/using/about-push-notifications.md#push-faq)
 * [应用程序内常见问题解答](../../channels/using/in-app-faq.md)
-* [Adobe Experience Platform同步中的标记常见问题解答](../../administration/using/syncwithlaunch-faq.md)
+* [Adobe Experience Platform 同步中的标记常见问题解答](../../administration/using/syncwithlaunch-faq.md)
 
 ## 开始前的有用资源 {#resource-mobile-property}
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 是的， [!DNL Adobe Experience Platform SDK] 集成适用于Adobe Campaign Standard和Adobe Campaign Classic。 您必须安装相应的 **[!UICONTROL Extension]** 通过 [!DNL Data Collection UI] 以启用集成。
 
-有关详细信息，请参见此 [ 页面](Https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
+有关更多信息，请参阅此 [页面]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
 ## Adobe Experience Platform SDK集成在Adobe Campaign中可促进哪些功能？ {#aep-capabilities}
 
@@ -65,16 +65,16 @@ ht-degree: 4%
 1. 配置 **[!UICONTROL Mobile property]** in [!DNL Launch].
 1. 安装Adobe Campaign Standard扩展。 请注意，Adobe Campaign Standard扩展还需要 **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** 和 **[!UICONTROL Lifecycle]** 默认安装在 [!DNL Launch].
    * 用户应在 **[!UICONTROL Mobile Core]** 会影响生命周期事件频率的扩展。
-   * 配置扩展后，用户应使用Cocoapods for iOS和Gradle for Android在移动设备应用程序中添加相应的依赖项。 按照指示 [此处](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * 配置扩展后，用户应使用Cocoapods for iOS和Gradle for Android在移动设备应用程序中添加相应的依赖项。 按照指示 [此处](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * 始终获取库的最新版本。
-   * 在移动设备应用程序中，注册 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** 和 **[!UICONTROL Signal]** 扩展。 按照指示 [此处](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * 在移动设备应用程序中，注册 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** 和 **[!UICONTROL Signal]** 扩展。 按照指示 [此处](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * 注册扩展后，启动ACPCore。 对于Android，请确保setApplication onCreate()。 按照Launch中移动资产的移动设备安装说明中提供的确切说明进行操作。
-   * 还需要以下SDK API。 实施生命周期开始和暂停API，如所述 [此处](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) 在Android中，在iOS中。
+   * 还需要以下SDK API。 实施生命周期开始和暂停API，如所述 [此处](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) 在Android中，在iOS中。
 1. 配置 **[!UICONTROL Mobile Property]** 在Adobe Campaign Standard。 按照程序操作 [此处](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## 要在Campaign中扩充移动用户档案，我必须执行哪些操作？ {#enrich-mobile-profile}
 
-必须配置CollectPII回发(请参阅 [页面](../../administration/using/configuring-rules-launch.md#pii-postback))并从SDK实施COLLECTPII API(请参阅 [页面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii))。
+必须配置CollectPII回发(请参阅 [页面](../../administration/using/configuring-rules-launch.md#pii-postback))并从SDK实施COLLECTPII API(请参阅 [页面](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference))。
 
 ## CollectPII调用应该触发多久一次？ {#collect-pii}
 
@@ -96,9 +96,9 @@ CollectPII调用的频率和设计应根据业务需求而定，且不应因为�
 
 请查看以下资源：
 
-* Experience PlatformSDK [文档](Https://aep-sdks.gitbook.io/docs/)
-* Launch和Experience PlatformSDK快速入门 [文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* 升级到Experience PlatformSDK [文档](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience PlatformSDK [文档](https://developer.adobe.com/client-sdks/documentation/)
+* Launch和Experience PlatformSDK快速入门 [文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* 升级到Experience PlatformSDK [文档](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * GithubExperience PlatformSDK [文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## 创建推送通知投放时，我收到错误“您在投放时没有写入权限”。 {#write-access-error}
