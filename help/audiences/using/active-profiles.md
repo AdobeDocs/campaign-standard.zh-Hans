@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
 # 使用中的用户档案{#active-profiles}
 
-Campaign功能管理员可以访问 **[!UICONTROL Customer metrics]** 报告来源 **[!UICONTROL Administration > Customer metrics]**.
+您可以从 **[!UICONTROL Customer metrics]** 报表。 此报表仅供Campaign功能管理员使用。 要访问此报表，请单击 [用户界面](../../start/using/interface-description.md#advanced-menu)，然后浏览 **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-此报表由 **[!UICONTROL Billing]** 技术工作流，并显示 **活动用户档案**.
+此报表由 **[!UICONTROL Billing]** 技术工作流，并显示 **活动用户档案**. 了解有关技术工作流的更多信息，请参阅 [本页](../../administration/using/technical-workflows.md).
 
 “用户档案”是代表最终客户、潜在客户或潜在客户的信息记录。 考虑用户档案 **活动** 过去12个月内通过任何渠道被Campaign投放定向的。
 
