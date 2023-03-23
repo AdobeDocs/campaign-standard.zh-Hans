@@ -1,5 +1,5 @@
 ---
-title: '通过Adobe Campaign集成设计电子邮件 '
+title: 通过Adobe Campaign集成设计电子邮件
 description: 了解如何在Email Designer中通过Adobe Campaign集成来设计电子邮件。
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign提供了多个电子邮件创作选项。 您可以使用诸如Dr
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用产品列表"
->abstract="利用产品清单，可引用数据收集并在电子邮件内容中显示该数据收集。"
+>abstract="产品列表允许您参考数据集合并将其显示在电子邮件内容中。"
 
 产品清单允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于事务电子邮件。 此功能的专述部分现已提供 [此处](../../designing/using/using-product-listings.md).
 
@@ -148,7 +148,7 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
    <td> <strong>了解详情</strong><br /> </td> 
    <td> 请参阅 <a href="../../designing/using/designing-content-in-adobe-campaign.md">关于Email Designer</a>.<br /> </td> 
    <td> 请参阅 <a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a>.<br /> </td> 
-   <td> 请参阅 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看这个 <a href="#video">视频</a>.<br /> </td> 
+   <td> 请参阅 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看这个 <a href="#video">视频</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

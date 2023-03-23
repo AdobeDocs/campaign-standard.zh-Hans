@@ -1,5 +1,5 @@
 ---
-title: '从头开始设计电子邮件 '
+title: 从头开始设计电子邮件
 description: 了解如何在Email Designer中从头开始设计电子邮件内容。
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="关于结构组件"
->abstract="结构组件可定义电子邮件的布局。"
+>abstract="结构组件定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="定义电子邮件列"
->abstract="Email Designer允许您通过定义列结构轻松定义电子邮件的布局。"
+>abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
 通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >请注意，列堆叠与所有电子邮件程序不兼容。 不支持时，不会堆叠列。
+   >请注意，并非所有电子邮件程序都与列堆叠兼容。当不支持时，将不堆叠列。
    >
    >将组件放入电子邮件中后，除非内部已放置内容组件或片段，否则将无法移动或删除组件。
 
@@ -81,12 +81,12 @@ ht-degree: 2%
 
 定义结构后，您便可以向电子邮件中添加内容片段和组件。
 
-## 使用预标头 {#preheader}
+## 使用邮件引文 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="使用预标头"
->abstract="利用预标题，可配置简短的摘要文本，以提高电子邮件的打开率。"
+>title="使用邮件引文"
+>abstract="邮件引文可让您配置一个简短的摘要文本，该文本可帮助提高电子邮件的打开率。"
 
 标题是在从收件箱中查看电子邮件时，主题行后面的简短摘要文本。 预标头提供了较高的打开率。
 
@@ -98,14 +98,14 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->请注意，preheader与所有电子邮件程序不兼容。 不支持时，将不显示预标头。
+>请注意，并非所有电子邮件程序都与邮件引文兼容。当不支持时，将不显示邮件引文。
 
 ## 使用内容组件 {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以通过编辑来创建电子邮件。"
+>abstract="内容组件是空的内容占位符，可以编辑它以创建电子邮件。"
 
 内容组件是一旦放入电子邮件中即可编辑的原始空组件。
 
@@ -156,14 +156,14 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="视频设置"
->abstract="使用此组件可在电子邮件中插入视频。 请注意，视频并非适用于所有电子邮件客户端。 我们建议设置备用图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
+>abstract="使用此组件可在电子邮件中插入视频。请注意，视频不适用于所有电子邮件客户端。我们建议设置后备图像。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="附加信息"
 
 将视频组件插入电子邮件的结构组件，然后在 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
->请注意，视频与所有电子邮件程序不兼容。 不支持时，将显示回退。
+>请注意，并非所有电子邮件程序都与视频兼容。当不支持时，将显示回退。
 
 ### 图像
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="轮播设置"
->abstract="了解如何在内容中插入和配置轮播。请注意，轮播并非在所有电子邮件客户端上都可用，如果不支持，将显示回退图像。"
+>abstract="了解如何在内容中插入和配置轮播。请注意，轮播不适用于所有电子邮件客户端，如果不支持轮播，则会显示后备图像。"
 
 1. 拖放 **[!UICONTROL Carousel]** 组件内部。
 1. 浏览以从您的计算机中选择图像。
