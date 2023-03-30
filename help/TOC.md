@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + 事务性消息传递 {#transactional-messaging}
       + [事务性消息传递入门](channels/using/getting-started-with-transactional-msg.md)
       + [最佳实践和限制](channels/using/transactional-messaging-limitations.md)
+      + [事务性消息传递权限更新](channels/using/transactional-message-permission.md)
       + 事件配置 {#event-configuration}
          + [配置事务性事件](channels/using/configuring-transactional-event.md)
          + [发布事务性事件](channels/using/publishing-transactional-event.md)
