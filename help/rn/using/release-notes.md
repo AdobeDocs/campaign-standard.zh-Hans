@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---
@@ -15,8 +15,13 @@ ht-degree: 100%
 
 # 最新版本{#latest-release}
 
-![控制面板](assets/do-not-localize/cp-icon.png) **新的控制面板版本**。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+![控制面板](assets/do-not-localize/cp-icon.png) **新的控制面板版本**。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target="_blank"}.
 
+## 22.3.2 版 {#feb-23}
+
+### 安全更新{#rn-security2}
+
+此版本附带以下安全升级：Debian 已升级到 v11.0。
 
 ## 22.3 版 - 2022 年秋冬 {#sept-22}
 
