@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: 早期发行说明
+description: 早期发行说明
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 100%
 
 ---
+
+
+# 早期发行说明 {#e-new-release}
+
+本页介绍了下一个 Campaign Standard 版本中包含的改进和修复。
 >[!CAUTION]
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
+
 ## 22.3.2 版 {#dec-22}
 
 ### 安全更新{#rn-security2}
