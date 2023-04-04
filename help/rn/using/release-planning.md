@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期都可能会发生更改：请定期访问此页面以检查更新。
 
-## 23.1版 — 2023年春/夏季版 {#release-23-1-release}
+## 23.1 版 - 2023 年春/夏季版 {#release-23-1-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
@@ -41,11 +41,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2023年4月11日至2023年7月<br /> </td>
+   <td>2023 年 4 月 11 日 - 2023 年 7 月<br /> </td>
   </tr>
   <tr>
    <td>生产<br /> </td>
-   <td>2023年4月18日至2023年7月<br /> </td>
+   <td>2023 年 4 月 18 日 - 2023 年 7 月<br /> </td>
   </tr>
  </tbody>
 </table>
