@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ ht-degree: 100%
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
-## 22.3.2 版 {#dec-22}
+## 23.1 版 - 2023 年春/夏季版 {#apr-23}
 
-### 安全更新{#rn-security2}
+### 改进 {#e-rn-improvements}
 
-此版本附带以下安全升级：Debian 已升级到 v11.0。
+* 推送消息服务已现代化以优化维护。 (CAMP-47959)
+* 短信消息传送服务已经现代化，以提供改进的稳定性。 (CAMP-52217)
+* 开箱即用 **报告扩充创建工作流** 已添加。 在将目标映射从一个实例导入另一个实例后，只需运行工作流以导入相应的报表扩充条目。 (CAMP-52452)
 
-## 22.3 版 - 2022 年秋冬 {#sept-22}
+### 修补程序{#e-rn-patches}
 
-### 安全更新{#rn-security}
-
-此版本附带以下安全升级：Apache Tomcat 已从 v7.0 升级到 v8.0。
-
-### 修复{#e-rn-fixes}
-
-* 修复了计划报表在计划时间之前一小时被触发的问题。(CAMP-51502)
-* 修复了投放仪表板中的投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
-* 修复了导致无法使用 ACS 连接器（高级服务）扩展自定义资源的问题。(CAMP-51033)
-* 改进了隐私请求响应的发布流程，以避免延迟。(CAMP-50613)
+* 修复了在显示 **热点单击** 报表。 (CAMP-51582)
+* 修复了可能会阻止您使用与 **位置** 服务。 (CAMP-51923)
+* 修复了可能阻止工作流计划程序正常工作的问题。 (CAMP-52003)
+* 修复了在查看包含大量数据的自定义动态报表的PDF版本时，划分详细信息无法显示的问题。 (CAMP-52178)
+* 修复了访问报告时可能显示错误的问题。 (CAMP-52500)
+* 修复了错误应用 **限制此帐户的MTA实例** SMS连接器参数应用于所有渠道，而不是仅应用于SMS。 (CAMP-52640)
