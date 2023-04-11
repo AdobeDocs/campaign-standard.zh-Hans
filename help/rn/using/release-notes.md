@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 16%
 * 短信消息传送服务已得到改进，以提供更好的稳定性。 (CAMP-52217)
 * Adobe进行了许多辅助功能修复，以提高应用程序的整体易用性。 以下是一些辅助功能改进示例：
    * 界面的键盘辅助功能已在许多屏幕中得到优化。
-   * 已为触摸屏用户增强了应用程序。
+   * 对触摸屏用户的应用程序进行了增强。
    * 整个界面中多个项目的颜色已更改，以提高可见性。
 
 ### 其他变更 {#e-rn-changes}
