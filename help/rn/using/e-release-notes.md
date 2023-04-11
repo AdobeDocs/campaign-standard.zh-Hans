@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ ht-degree: 27%
 
 ### 改进 {#e-rn-improvements}
 
-* 推送消息服务已现代化以优化维护。 (CAMP-47959)
-* 短信消息传送服务已经现代化，以提供改进的稳定性。 (CAMP-52217)
+* 推送消息服务已现代化，以改进支持。 (CAMP-47959)
+* 短信消息传送服务已得到改进，以提供更好的稳定性。 (CAMP-52217)
+* Adobe进行了许多辅助功能修复，以提高应用程序的整体易用性。 以下是一些辅助功能改进示例：
+   * 界面的键盘辅助功能已在许多屏幕中得到优化。
+   * 已为触摸屏用户增强了应用程序。
+   * 整个界面中多个项目的颜色已更改，以提高可见性。
+
+### 其他变更 {#e-rn-changes}
+
 * 开箱即用 **报告扩充创建工作流** 已添加。 在将目标映射从一个实例导入另一个实例后，只需运行工作流以导入相应的报表扩充条目。 (CAMP-52452)
 
-### 修补程序{#e-rn-patches}
+### 已修复的问题{#e-rn-patches}
 
 * 修复了在显示 **热点单击** 报表。 (CAMP-51582)
 * 修复了可能会阻止您使用与 **位置** 服务。 (CAMP-51923)
