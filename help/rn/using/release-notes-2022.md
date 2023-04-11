@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+workflow-type: tm+mt
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # 2022 年版发行说明{#release-notes-2022}
+
+## 22.3.2 版 {#feb-23}
+
+### 安全更新{#rn-security2}
+
+此版本附带以下安全升级：Debian 已升级到 v11.0。
+
+## 22.3 版 - 2022 年秋冬 {#sept-22}
+
+### 安全更新{#rn-security}
+
+此版本附带以下安全升级：Apache Tomcat 已从 v7.0 升级到 v8.0。
+
+### 修复{#rn-fixes}
+
+* 修复了计划报表在计划时间之前一小时被触发的问题。(CAMP-51502)
+* 修复了投放仪表板中的投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
+* 修复了导致无法使用 ACS 连接器（高级服务）扩展自定义资源的问题。(CAMP-51033)
+* 改进了隐私请求响应的发布流程，以避免延迟。(CAMP-50613)
 
 ## 22.2 版 - 2022 年 6 月 {#june-2022}
 

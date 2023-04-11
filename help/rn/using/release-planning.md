@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
-有关此版本的详细信息，请参阅[发行说明](e-release-notes.md)。
+有关此版本的详细信息，请参阅[发行说明](release-notes.md)。
 
 <table>
  <thead>
