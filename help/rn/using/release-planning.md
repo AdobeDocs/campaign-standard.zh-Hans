@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  </thead>
  <tbody>
   <tr>
-   <td>Stage </td>
+   <td>暂存 </td>
    <td>2023 年 4 月 11 日 - 2023 年 7 月 </td>
   </tr>
   <tr>
