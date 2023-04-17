@@ -1,6 +1,6 @@
 ---
 title: 2019 年版发行说明
-description: 本页列出了所有 2019 版的 Adobe Campaign Standard。
+description: 本页列出了所有 2019 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 能够 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">在准备时自动从URL检索内容</a> </li> 
      <li> 完全兼容 <a href="../../designing/using/using-reusable-content.md#content-templates">现成内容模板</a>. </li> 
     </ul> 
-    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。下面列出了改进和修复。</p><p>因此，现已弃用旧版电子邮件内容编辑器。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">页面</a>.</p> </td> 
+    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。下面列出了改进和修复。</p><p>因此，现已弃用旧版电子邮件内容编辑器。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 事务型电子邮件中的产品清单<br /> </td> 

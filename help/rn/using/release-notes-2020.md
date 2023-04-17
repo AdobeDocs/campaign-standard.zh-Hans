@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
 ## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
 ## 20.2 版 - 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+>新功能将于 4 月在 Campaign 控制面板中发布，包括 Google TXT 记录管理、数据库空间监控和电子邮件警报。有关这些功能的更多信息，请参阅[控制面板发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
 **改进**
 
@@ -353,7 +353,7 @@ ht-degree: 98%
 **其他变更**
 
 * 现在，**与 Adobe Analytics 协调 KPI** 这个现成工作流运行到当前日期，而不是只运行一天。
-* MCPNS 不支持将 APNS 和 APNS-SANDBOX 作为平台添加到应用程序中。现在，在 Adobe Campaign Standard 中成功添加证书后，无法再重新更改设置，因为只能向 MCPNS 应用程序添加一个 APNS 平台（作品或沙箱）。
+* MCPNS 不支持将 APNS 和 APNS-SANDBOX 作为平台添加到应用程序中。现在，在 Adobe Campaign Standard 中成功添加证书后，无法再重新更改设置，因为只能向 MCPNS 应用程序添加一个 APNS 平台（作品或沙盒）。
 
 **Experience Platform 集成**
 
