@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard API 快速入门
-description: 将 Campaign 与一组技术进行结合，从而创建集成并构建您自己的生态系统。
+description: 通过将 Campaign 与一组技术建立联系，创建集成并构建您自己的生态系统。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
