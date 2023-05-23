@@ -1,15 +1,15 @@
 ---
 title: 角色列表
-description: 了解可分配给用户的角色列表
+description: 瞭解您可指派給使用者的角色清單
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 75%
+source-wordcount: '229'
+ht-degree: 72%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 75%
 
    >[!NOTE]
    >
-   >如果您使用Experience Cloud触发器，则需要 **[!UICONTROL Administration]** 有权访问Experience Cloud触发器菜单。 有关Experience Cloud触发器的更多信息，请参阅此 [页面](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >如果您使用Experience Cloud觸發程式，您需要 **[!UICONTROL Administration]** 有權存取Experience Cloud觸發器功能表。 如需Experience Cloud觸發器的詳細資訊，請參閱此 [頁面](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**：有权运行发布和创建自定义资源。
-* **[!UICONTROL Generic import]**：有权执行一般数据导入。要使此功能正常工作，您必须将 **[!UICONTROL Generic import]** 角色 **[!UICONTROL Workflow]** 角色。
+* **[!UICONTROL Generic import]**：有权执行一般数据导入。為了讓此功能發揮作用，您必須連結 **[!UICONTROL Generic import]** 角色至 **[!UICONTROL Workflow]** 角色。
 * **[!UICONTROL Prepare deliveries]**：有权创建、修改、准备和删除投放。拥有此角色的用户可以准备投放，但不能发送。
 * **[!UICONTROL Start deliveries]**：有权创建、修改、准备、发送和删除投放。
 * **[!UICONTROL Workflow]**：有权管理工作流执行（开始、停止、暂停等）。即使在工作流中，此角色的用户也无法发送投放。
 
 有关更多信息，请参阅[角色和权限表格](/help/administration/using/assets/acs_rights.pdf)，其中根据所选授权详细列出了界面中可用的功能。
 
-[![图像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+[![图像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **相关主题：**
 

@@ -1,14 +1,14 @@
 ---
 title: 外部帐户
-description: 了解如何配置外部帐户以设置与外部系统（如SFTP服务器）的连接
+description: 瞭解如何設定外部帳戶以設定與外部系統（例如SFTP伺服器）的連線
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1764'
 ht-degree: 80%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 80%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
-* OAuth 2.0。有关更多信息，请参阅 [此部分](#oauth-account).
+* OAuth 2.0。有關詳細資訊，請參閱 [本節](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例允许列表上的。 可以通过 [支持票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，以及提供用于身份验证的公共密钥。
+另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 您可透過「 」請求將IP位址新增至允許清單 [支援票證](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
 
 可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -87,22 +87,22 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 >
 >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
-## OAuth 2.0帐户 {#oauth-account}
+## OAuth 2.0帳戶 {#oauth-account}
 
-对于OAuth 2.0外部帐户，请提供以下详细信息：
+若為OAuth 2.0外部帳戶，請提供下列詳細資料：
 
-* A **授予类型**:仅 **客户端凭据** 支持。
-* A **安全API URL**:输入授权端点。
-* **OAuth 2.0敏感凭据**:此部分适用于性质敏感的凭据。 凭据值添加后，屏幕上会屏蔽这些值；此时，它们将不可读或编辑。 如果授权端点要求在HTTP授权标头中插入特定凭据而不是POST主体参数，则可以为该凭据选择标头中包含选项。
-* **OAuth 2.0非敏感凭据**:此部分适用于性质不敏感的凭据。 凭据值添加后，将在屏幕上显示；也可以编辑。  如果授权端点要求在HTTP授权标头中插入特定凭据而不是POST主体参数，则可以为该凭据选择标头中包含选项。
+* A **授權型別**：僅限 **使用者端認證** 支援。
+* A **安全API URL**：輸入授權端點。
+* **OAuth 2.0敏感認證**：本節適用於本質上敏感的認證。 新增認證值後，它們將會在畫面上被遮罩；此時，它們將無法讀取或編輯。 如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
+* **OAuth 2.0不敏感認證**：本節適用於本質上不敏感的認證。 新增認證值後，它們將顯示在熒幕上；也可以編輯。  如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
 
-输入帐户信息后，单击 **测试连接** 以验证外部帐户配置是否正确。
+輸入帳戶資訊後，按一下 **測試連線** 驗證外部帳戶是否已正確設定。
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->凭据“Content-Type:application/x-www-form-urlencoded”和“grant_type=client_credentials”将自动添加到API调用中；因此，您无需在凭据部分中添加它们。
+>認證「Content-Type： application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要在認證區段中新增它們。
 
 ## Amazon S3 外部帐户 {#amazon-s3-external-account}
 
@@ -138,7 +138,7 @@ Amazon S3 服务器字段应按以下方式填写：
 
 [此文档](../../integrating/using/get-started-campaign-integrations.md)提供了与此集成相关的流程和要求。
 
-在设置此新外部帐户时，必须提供以下详细信息：
+當您設定此新外部帳戶時，必須提供下列詳細資料：
 
 * 服务器：输入 Adobe Experience Manager 服务器的 URL。例如：
 
@@ -154,9 +154,9 @@ Amazon S3 服务器字段应按以下方式填写：
 >
 >Google reCAPTCHA 配置需要 Google 帐户。
 
-利用 Google reCAPTCHA 机制，可保护登陆页面免受由机器人程序造成的垃圾邮件和滥用。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。要注册您的站点，请参阅[本页面](https://www.google.com/recaptcha/admin/create)。您必须选择V3 reCAPTCHA类型。
+利用 Google reCAPTCHA 机制，可保护登陆页面免受由机器人程序造成的垃圾邮件和滥用。对于您的客户而言，这是非侵入式的，因为它不需要与客户进行任何交互，并且基于与您网站的交互。要注册您的站点，请参阅[本页面](https://www.google.com/recaptcha/admin/create)。您必須選擇V3 reCAPTCHA型別。
 
-要将Google reCAPTCHA V3添加到登陆页面，请在外部帐户中对其进行配置。 有关如何将其添加到登陆页面的更多信息，请参阅此[章节](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+若要將Google reCAPTCHA V3新增至您的登陸頁面，請在外部帳戶中設定。 有关如何将其添加到登陆页面的更多信息，请参阅此[章节](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 对于 Google reCAPTCHA V3 外部帐户，请提供以下详细信息：
 
@@ -182,8 +182,8 @@ Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工�
 * 外部帐户的 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**
 * **[!UICONTROL Type]**：Microsoft Azure Blob Storage
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。要了解在何处查找您的帐户名称和密钥，请参阅本[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Container]** 名称。如果您计划使用多个容器，请创建与容器相同数量的外部帐户。
+* 您的 **[!UICONTROL Endpoint suffix]**。通过 Azure Portal 的 **[!UICONTROL Access keys]** 菜单中的 **[!UICONTROL Connection string]**，可找到该项。有关更多信息，请参见此[页面](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-account-keys-manage)。
+* 您的 **[!UICONTROL Container]** 名称。如果您計畫使用多個容器，請建立與容器一樣多的外部帳戶。
 * 利用 **[!UICONTROL Concurrency]** 选项，可优化文件传输的速度。
 
 ![](assets/external_accounts_4.png)

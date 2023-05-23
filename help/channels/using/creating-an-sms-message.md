@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 88%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >界面中会显示活动名称及其ID，但消息收件人看不到它们。
+   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到它們。
    >
-   >确保ID字段不包含任何空格，以避免任何差异，例如与Adobe Analytics集成时。
+   >確認ID欄位未包含任何空白以避免出現任何差異，例如與Adobe Analytics整合時。
 
 1. 指定要定向的受众。您可以选择现有受众，也可以通过定义和组合规则直接定向群体。
 
@@ -85,10 +85,10 @@ ht-degree: 88%
 * [关于短信和推送内容编辑](../../channels/using/about-sms-and-push-content-design.md)
 * [管理模板](../../start/using/marketing-activity-templates.md)
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-以下视频演示了如何创建短信投放。
+本影片說明如何建立SMS傳送。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

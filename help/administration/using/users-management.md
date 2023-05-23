@@ -1,15 +1,15 @@
 ---
 title: 用户管理
-description: 'Adobe Campaign 用户担任着各种特定的角色。了解主要的用户类型。 '
+description: Adobe Campaign 用户担任着各种特定的角色。了解主要的用户类型。
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 82%
+source-wordcount: '1198'
+ht-degree: 81%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 82%
 
 Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以访问界面的哪些部分。
 
-以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
-管理员可以从Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关更多信息，请参阅 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html) 文档。
+管理員可以從Admin Console管理使用者。 然后，用户将自动与 Adobe Campaign 同步。如需詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html) 說明檔案。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
-要在Adobe Campaign中查看用户，请单击 **Adobe** 徽标，然后选择 **[!UICONTROL Administration > Users & Security > Users]**.
+若要在Adobe Campaign中檢視使用者，請按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Administration > Users & Security > Users]**.
 
 要从 Adobe Campaign 访问用户管理界面，请单击 **[!UICONTROL User administration]**。
 
@@ -35,18 +35,18 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 * [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)视频
 * [角色列表](../../administration/using/list-of-roles.md)
-* [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## 用户类型 {#type-of-users}
 
 这种用户划分并不具有强制性，本节只是展示 Adobe Campaign 的常见用法。
 
-本节将帮助您了解主要类型的Adobe Campaign用户。 有关用户可担任的特定角色（开始投放、导出、准备投放等）的更多信息，请参阅 [角色列表](../../administration/using/list-of-roles.md) 和 [管理组和用户](../../administration/using/managing-groups-and-users.md) 页面。
+本節可協助您瞭解Adobe Campaign使用者的主要型別。 有關使用者可以擔任的特定角色（開始傳送、匯出、準備傳送等）的詳細資訊，請參閱 [角色清單](../../administration/using/list-of-roles.md) 和 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 頁面。
 
 我们着重关注 Adobe Campaign 中承担不同任务的三种主要用户类型：
 
 * [功能管理员](#functional-administrators)：在组织内部的所有用户中，此类型的用户技术含量最高。
-* [高级用户](#advanced-users):他们负责设置营销人员发送和监控投放所需的所有元素。
+* [進階使用者](#advanced-users)：他們會設定行銷人員傳送及監控傳送所需的所有元素。
 * [基本用户](#basic-users)：营销人员，负责个性化、投放和监控活动。
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 >[!IMPORTANT]
 >
->仅功能管理员，具有 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
+>僅限功能管理員，具有 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除記錄檔、主張記錄檔和訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
@@ -102,7 +102,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ## 创建用户 {#creating-a-user}
 
-要向实例添加用户，必须先在Admin Console中创建该用户，然后才能在Adobe Campaign Standard中管理该用户。
+若要新增使用者至您的執行個體，您必須先在Admin Console中建立該使用者，然後才能在Adobe Campaign Standard中管理該使用者。
 
 1. 在高级菜单中，选择 **[!UICONTROL Administration > Users & Security > Users]** 并单击 **[!UICONTROL User administration]** 以访问管理控制台。
 
@@ -118,7 +118,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
    ![](assets/create_user_3.png)
 
-1. 从 **[!UICONTROL Assign products]** 选项卡，为用户分配一个或多个安全组。 有关安全组的详细信息，请参阅[此页面](../../administration/using/managing-groups-and-users.md)。
+1. 從 **[!UICONTROL Assign products]** 標籤，為您的使用者指派一或多個安全性群組。 有关安全组的详细信息，请参阅[此页面](../../administration/using/managing-groups-and-users.md)。
 
    配置完成后单击 **[!UICONTROL Save]**。
 
@@ -128,7 +128,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ![](assets/create_user_5.png)
 
-登录到您的实例时，此用户将同步到Adobe Campaign Standard。
+當簽署至您的執行個體時，此使用者將會同步至Adobe Campaign Standard。
 
 然后，您可以检查用户是否已正确同步到 Adobe Campaign：
 
@@ -152,10 +152,10 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 现在，您的用户即可以使用 Adobe Campaign Standard。
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示了如何管理用户访问权限。
+本影片說明如何管理使用者存取許可權。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 19%
 
 ---
@@ -19,35 +19,35 @@ ht-degree: 19%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">管理和共享动态报告</a></p></td>
-<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">构建报表</a></p></td>
-<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自定义报表</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">管理和共用動態報告</a></p></td>
+<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">建置報告</a></p></td>
+<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自訂您的報表</a></p></td></tr>
 </table>
 
-动态报告提供完全可自定义的实时报告来衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还允许按用户档案维度（如性别、城市和年龄）进行人口统计分析。
+動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還能夠依設定檔維度（如性別、城市和年齡）進行人口統計分析。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现动态报告](#video)
+![](assets/do-not-localize/how-to-video.png) [探索視訊中的動態報告](#video)
 
-## 管理和共享报表 {#manage-share-reports}
+## 管理和共用報告 {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用动态报告 **拖放界面**，您可以探索数据，确定电子邮件促销活动针对最重要的客户区段的执行情况，并从一个位置衡量它们对收件人的影响。
+使用動態報告 **拖放介面**，您可以探索資料、判斷電子郵件行銷活動針對最重要客戶區段的執行方式，以及透過單一位置衡量其對收件者的影響。
 
-**管理动态报告** 借助各种功能：实时刷新数据、打印报表或将其导出为CSV文件。 您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
+**管理您的動態報告** 多虧了多種功能：即時重新整理資料、列印報表，或將其匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
 
 了解更多信息:
 
 * [关于动态报告](../../reporting/using/about-dynamic-reports.md)
 * [报告界面](../../reporting/using/reporting-interface.md)
 
-## 构建报表 {#build-reports}
+## 建置報告 {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard附带一组 **现成动态报告** 允许您测量营销活动的多个方面：退回、被声明为垃圾邮件或垃圾邮件的投放、收件人查看次数最多的投放、与渠道相关的报表、投放吞吐量和跟踪报表……
+Campaign Standard隨附一組 **現成可用的動態報告** 可讓您測量行銷活動的多個方面：跳出數、被宣告為最多垃圾郵件或垃圾郵件的傳送、收件者檢視次數最多的傳送、管道相關報告、傳送量以及追蹤報告……
 
-**组合不同的组件** （维度、量度和区段、时间段）来构建您自己的报表或个性化现成报表。
+**結合不同的元件** （維度、量度和區段、時段），以建立您自己的報表或個人化現成可用的報表。
 
 了解更多信息:
 
@@ -55,15 +55,15 @@ Campaign Standard附带一组 **现成动态报告** 允许您测量营销活动
 * [指标计算](../../reporting/using/indicator-calculation.md)
 * [报告列表](../../reporting/using/defining-the-report-period.md)
 
-## 自定义报表 {#customize-reports}
+## 自訂您的報表 {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**自定义报表** 通过利用动态报告设计功能：添加所需数量的组件（面板和自由格式表），以使用可用的量度和维度分析数据。
+**自訂您的報表** 善用動態報告設計功能：視需要新增更多元件（面板和自由表格），使用可用的量度和維度分析資料。
 
-拖放 **可视化图表项目** 可将数据的图形表示形式添加到报表中，并根据您的需求对其进行配置。
+拖放 **視覺效果專案** 將資料的圖形化表示法新增至報表，並根據您的需求進行設定。
 
-根据 **自定义用户档案数据** 在用户档案资源扩展期间创建，以及 **基于区段的报表** 在定位工作流中定义。
+建立報表依據 **自訂設定檔資料** 在「設定檔」資源擴充功能期間建立，以及 **以區段為基礎的報表** 在目標工作流程中定義。
 
 了解更多信息:
 
@@ -78,10 +78,10 @@ Campaign Standard附带一组 **现成动态报告** 允许您测量营销活动
 * [导出日志](../../automating/using/exporting-logs.md)
 * [关于 Campaign-Analytics 集成](../../integrating/using/about-campaign-analytics-integration.md)
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频概述Adobe Campaign Standard的报告功能。
+這部影片會概略介紹Adobe Campaign Standard的報告功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

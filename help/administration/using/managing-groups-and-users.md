@@ -1,15 +1,15 @@
 ---
 title: 管理组和用户
-description: 了解如何创建安全组和管理用户
+description: 瞭解如何建立安全性群組及管理使用者
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 72%
+source-wordcount: '931'
+ht-degree: 71%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->的 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 和 **[!UICONTROL Message Center agents (mcExec)]** 安全组仅Adobe内部，不应将其分配给任何用户。
+>此 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 和 **[!UICONTROL Message Center agents (mcExec)]** 安全性群組僅限Adobe內部，不應指派給任何使用者。
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
-用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。要限制用户的访问权限，请勿将用户添加到营销活动 **[!UICONTROL Standard Users]** 群组，因为该群组链接到 **[!UICONTROL All]** 组织单位。
+用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。若要限制使用者的存取權，請勿將使用者新增至行銷活動 **[!UICONTROL Standard Users]** 連結至的群組 **[!UICONTROL All]** 組織單位。
 
-有关角色的更多信息，请参见下页中的表格，其中显示了根据用户角色可用的可能操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+如需角色的相關詳細資訊，下頁的表格會根據使用者的角色顯示可用的操作： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 默认安全组为：
 
@@ -34,15 +34,15 @@ ht-degree: 72%
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
-请注意，这些内置安全组是只读的，无法修改。 要使用一组特定角色创建您自己的安全组，请参阅以下章节。
+請注意，這些內建安全性群組是唯讀的，無法修改。 若要使用一組特定角色來建立您自己的安全性群組，請參閱以下章節。
 
 ## 创建安全组并分配用户 {#creating-a-security-group-and-assigning-users}
 
 >[!IMPORTANT]
 >
->请注意，在Admin Console中，安全组称为用户档案。
+>請注意，在Admin Console中，會將安全性群組稱為設定檔。
 
-如果现成的用户组不足以管理用户，您可以创建自己的安全组。他们可由有权访问Adobe Campaign管理菜单和Admin Console的管理员管理。 有关Admin Console的更多信息，请参阅此 [文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
+如果现成的用户组不足以管理用户，您可以创建自己的安全组。管理員可同時存取Adobe Campaign管理功能表和Admin Console，以管理這些功能。 如需Admin Console的詳細資訊，請參閱此 [檔案](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
 
 在此，我们首先需要将两个现成的组“标准用户”和“管理员”分配给我们的用户。这些安全组将限制 Adobe Campaign 的某些功能：例如，标准用户具有访问 Adobe Campaign 的基础权限，而管理员可以访问管理菜单。
 
@@ -54,7 +54,7 @@ ht-degree: 72%
 
 您首先需要将一个现成的安全组分配给用户：
 
-1. 在Admin Console中，选择您的实例，然后选择 **用户** 选项卡。
+1. 在Admin Console中，選取您的執行個體，然後選取 **使用者** 標籤。
 
    ![](assets/manage_security_group_2.png)
 
@@ -69,7 +69,7 @@ ht-degree: 72%
 
 将您的两个用户附加到为用户分配角色的 **[!UICONTROL Administrators]** 和 **[!UICONTROL Standard users]** 现成安全组后，管理员用户现在即可创建两个安全组 **Geometrixx** 和 **Geometrixx Clothes**，这两个安全组可以为我们的用户分配除现成安全组以外的组织单位。
 
-1. 在Admin Console中，选择您的实例，然后选择 **产品** 选项卡。
+1. 在Admin Console中，選取您的執行個體，然後選取 **產品** 標籤。
 1. 单击 **New Profile** 按钮以创建 **Geometrixx** 安全组。
 
    ![](assets/create_security_1.png)
@@ -111,20 +111,20 @@ ht-degree: 72%
 
    ![](assets/manage_security_group_9.png)
 
-现在，新创建的安全组将在Admin Console中创建。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
+新建立的安全性群組現在會在Admin Console中建立。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
 
 管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
-1. 单击 **Adobe** 徽标，然后选择 **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. 创建新的安全组并指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
 
-   ID必须与在Admin Console中选择的ID相同。
+   ID必須與Admin Console中選擇的ID相同。
 
 1. 在 **[!UICONTROL User access]** 字段中，分配组织单位。在本例中，已经为 **[!UICONTROL All]** 组织单位分配了 Geometrixx 安全组。
 
    >[!NOTE]
    >
-   >如果您为用户分配了现成的安全组，则需要重置组织单位。
+   >如果您指派現成安全性群組給使用者，則需要重設組織單位。
 
    ![](assets/manage_security_group_6.png)
 
@@ -137,4 +137,4 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->如果从Admin Console的安全组中删除了用户，则他们将保留在Adobe Campaign安全组的一部分，并且将无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。
+>如果從Admin Console的安全性群組中移除使用者，這些使用者仍會是Adobe Campaign安全性群組的一部分，且無法再登入Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。

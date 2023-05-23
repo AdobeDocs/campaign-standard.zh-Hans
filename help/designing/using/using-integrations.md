@@ -1,6 +1,6 @@
 ---
-title: 通过Adobe Campaign集成设计电子邮件
-description: 了解如何在Email Designer中通过Adobe Campaign集成来设计电子邮件。
+title: 透過Adobe Campaign整合設計電子郵件
+description: 瞭解如何透過電子郵件設計工具中的Adobe Campaign整合來設計電子郵件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -8,53 +8,53 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '719'
 ht-degree: 8%
 
 ---
 
 # 多解决方案电子邮件设计 {#multi-solution-email-design}
 
-Adobe Campaign提供了多个电子邮件创作选项。 您可以使用诸如Dreamweaver之类的解决方案在Email Designer中编辑电子邮件内容并创建响应式消息。 您还可以通过Adobe Experience Manager通过电子邮件发送内容，并在Adobe Campaign Standard的电子邮件中使用该内容。
+Adobe Campaign提供數種電子郵件製作選項。 您可以使用Dreamweaver等解決方案，在電子郵件設計工具中編輯電子郵件內容並建立回應式訊息。 您也可以使用Adobe Experience Manager以電子郵件傳送內容，並在Adobe Campaign Standard的電子郵件中使用。
 
-## 在Dreamweaver中编辑内容 {#editing-content-in-dreamweaver}
+## 在Dreamweaver中編輯內容 {#editing-content-in-dreamweaver}
 
-通过Adobe Campaign Standard与Dreamweaver的集成，您可以在Dreamweaver界面中编辑电子邮件的内容。 您可以访问Dreamweaver的强大界面来设计和开发响应式电子邮件内容。
+Adobe Campaign Standard與Dreamweaver的整合可讓您在Dreamweaver介面中編輯電子郵件內容。 您可以存取Dreamweaver的強大介面，以設計和開發回應式電子郵件內容。
 
-* **双向同步**
+* **雙向同步**
 
-   每当在一个产品中进行编辑时，就会在另一个产品中实时更新。 如果要在Dreamweaver中更改文本的颜色，一旦您进行该编辑，文本的颜色即会在Campaign中处于实时状态。 此外，当您在Dreamweaver或Campaign中选择代码时，由于行号相同，所以选择的内容将保留在两个产品之间，当查找代码中的特定内容时，这非常有用。
+   每當在一個產品中進行編輯時，就會在另一個產品中即時更新。 如果您想要在Dreamweaver中變更文字的顏色，只要您進行編輯，文字的顏色就會在Campaign中即時顯示。 此外，當您在Dreamweaver或Campaign中選取程式碼時，由於行號相同，選取範圍會保留在兩個產品之間，這在程式碼中尋找特定專案時非常有用。
 
 * **通过 Dreamweaver 将本地图像上传到 Adobe Campaign**
 
-   在Dreamweaver中创建或编辑电子邮件时，您只需从桌面或本地计算机中选择图像即可。 虽然Dreamweaver始终允许您执行此操作，但在连接Dreamweaver和Campaign时，本地文件会立即上传到Adobe Campaign服务器：无需随着内容的更改手动上传图像。 此外，它还可确保最新图像始终处于Campaign中。
+   在Dreamweaver中建立或編輯電子郵件時，您只需從桌上型電腦或本機電腦中選取影像即可。 雖然Dreamweaver一律可讓您這麼做，但當Dreamweaver與Campaign連線時，本機檔案會立即上傳至Adobe Campaign伺服器：內容變更時不需要手動上傳影像。 此外，這可確保在Campaign中一律即時顯示最新影像。
 
-* **在Dreamweaver中添加Campaign个性化**
+* **在Dreamweaver中新增Campaign個人化**
 
-   对于电子邮件开发人员，不再需要添加文本，如 `[[FIRSTNAME_PLACEHOLDER]]` 也无法查找数据模型表的语法。 Dreamweaver中的Campaign工具栏可直接连接到Campaign实例的数据模型。 这意味着您可以从名字到地址之类的内容提取任何要进行个性化的数据。 如果您已在Campaign中创建内容块，则还可以直接将这些内容块提取到Dreamweaver。
+   對於電子郵件開發人員而言，不再需要新增類似以下的文字 `[[FIRSTNAME_PLACEHOLDER]]` 也不要查閱資料模型表格的語法。 Dreamweaver中的Campaign工具列會直接連線至您Campaign執行個體的資料模型。 這表示您可以從「名字」到「地址」之類的地方，提取您要用於個人化的任何資料。 如果您已在Campaign中建立內容區塊，您也可以將這些區塊直接提取至Dreamweaver。
 
-有关此功能的详情，请参阅可访问的Dreamweaver文档 [此处](https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+此功能在可供存取的Dreamweaver檔案中詳細說明 [此處](https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
-## 在Experience Manager中编辑内容 {#editing-content-in-experience-manager}
+## 編輯Experience Manager內容 {#editing-content-in-experience-manager}
 
-可以在Experience Manager中编辑电子邮件内容，然后将其用于Adobe Campaign Standard中的一封或多封电子邮件。 请参阅[本文档](../../integrating/using/integrating-with-experience-manager.md)。
+您可以在Experience Manager中編輯電子郵件內容，然後在Adobe Campaign Standard中用於一或多封電子郵件訊息。 请参阅[本文档](../../integrating/using/integrating-with-experience-manager.md)。
 
-## 产品列表 {#product-listing}
+## 產品清單 {#product-listing}
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用产品列表"
 >abstract="产品列表允许您参考数据集合并将其显示在电子邮件内容中。"
 
-产品清单允许您在电子邮件内容中引用一个或多个数据集合。 这些列表可用于事务电子邮件。 此功能的专述部分现已提供 [此处](../../designing/using/using-product-listings.md).
+產品清單可讓您參照電子郵件內容中的一個或多個資料集合。 這些清單可用於交易式電子郵件。 此功能有專屬區段可供使用 [此處](../../designing/using/using-product-listings.md).
 
-## 电子邮件设计选项比较 {#email-design-options-comparison}
+## 電子郵件設計選項比較 {#email-design-options-comparison}
 
-Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种方法的主要可能性、优势和限制。
+Adobe Campaign提供數種電子郵件製作選項。 下表顯示每種變數的主要可能性、好處和限制。
 
 <table> 
  <thead> 
@@ -67,96 +67,96 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>开始空白电子邮件</strong><br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 支持<br /> </td> 
+   <td> <strong>開始空白電子郵件</strong><br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 支援<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>写入HTML</strong><br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 不支持<br /> </td> 
-   <td> 支持<br /> </td> 
+   <td> <strong>寫入HTML</strong><br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 不支援<br /> </td> 
+   <td> 支援<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>更新HTML</strong><br /> </td> 
-   <td> 仅在HTML组件内<br /> </td> 
-   <td> 不支持<br /> </td> 
-   <td> 支持<br /> </td> 
+   <td> 僅在HTML元件內<br /> </td> 
+   <td> 不支援<br /> </td> 
+   <td> 支援<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>基本个性化</strong><br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 支持<br /> </td> 
+   <td> <strong>基本個人化</strong><br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 支援<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>高级个性化</strong><br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 不支持<br /> </td> 
-   <td> 不支持<br /> </td> 
+   <td> <strong>進階個人化</strong><br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 不支援<br /> </td> 
+   <td> 不支援<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>校样/预览</strong><br /> </td> 
-   <td> 支持<br /> </td> 
-   <td> 在AEM中预览<br /> Campaign中的校样<br /> </td> 
-   <td> 在Campaign中预览和校样<br /> </td> 
+   <td> <strong>校訂/預覽</strong><br /> </td> 
+   <td> 支援<br /> </td> 
+   <td> 在AEM中預覽<br /> Campaign中的證明<br /> </td> 
+   <td> 在Campaign中預覽和校訂<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>产品列表</strong><br /> </td> 
-   <td> 在电子邮件事务型消息中受支持<br /> </td> 
-   <td> 不支持<br /> </td> 
-   <td> 不支持<br /> </td> 
+   <td> <strong>產品清單</strong><br /> </td> 
+   <td> 在電子郵件交易式訊息中支援<br /> </td> 
+   <td> 不支援<br /> </td> 
+   <td> 不支援<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>好处</strong><br /> </td> 
    <td> 
-     <p> — 通过拖放体验轻松构建电子邮件</p>
-     <p> — 与旧版内容编辑器类似的功能</p>
-     <p> — 包含片段的可重用内容</p>
+     <p> — 透過拖放體驗輕鬆建立電子郵件</p>
+     <p> — 與舊版內容編輯器類似的功能</p>
+     <p> — 片段可重複使用的內容</p>
   </td> 
    <td> 
-     <p> — 在电子邮件中重用网站中的资产</p>
-     <p> — 利用电子邮件内容中的Experience Manager功能</p>
+     <p> — 在電子郵件中重複使用來自網站的資產</p>
+     <p> — 運用電子郵件內容的Experience Manager功能</p>
     </td> 
    <td> 
-    <p> — 开发人员直接对电子邮件进行代码的功能</p>
-    <p> — 双向同步</p>
-    <p> — 在Dreamweaver中脱机编辑并稍后进行同步</p>
-    <p> — 通过Dreamweaver将图像上传到Adobe Campaign</p>
+    <p> — 開發人員可直接為電子郵件撰寫程式碼的功能</p>
+    <p> — 雙向同步</p>
+    <p> — 在Dreamweaver中離線編輯並在稍後同步</p>
+    <p> — 透過Dreamweaver將影像上傳至Adobe Campaign</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>限制</strong><br /> </td> 
    <td> 
-     <p> — 片段中没有条件内容</p>
-     <p> — 无法使用Experience Manager片段</p>
+     <p> — 片段內沒有條件式內容</p>
+     <p> — 無法使用Experience Manager片段</p>
   </td> 
    <td> 
-     <p> — 难以实施的高级个性化</p>
-     <p> — 需要在Adobe Campaign中发送测试</p>
+     <p> — 難以實作的進階個人化</p>
+     <p> — 需要在Adobe Campaign中傳送測試</p>
   </td> 
-   <td> 不支持动态内容<br /> </td> 
+   <td> 不支援動態內容<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>受众</strong><br /> </td> 
-   <td> 希望保持灵活性以结合使用HTML组件和拖放功能的营销人员<br /> </td> 
-   <td> 已在使用希望使用标准电子邮件模板且几乎不进行个性化的Experience Manager的营销人员<br /> </td> 
-   <td> 希望对电子邮件内容进行编码并直接与Adobe Campaign集成的开发人员<br /> </td> 
+   <td> 想要保持彈性以搭配拖放功能使用HTML元件的行銷人員<br /> </td> 
+   <td> 行銷人員已在使用Experience Manager，而他們想要使用標準電子郵件範本，幾乎沒有個人化<br /> </td> 
+   <td> 想要編寫電子郵件內容程式碼並直接與Adobe Campaign整合的開發人員<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>了解详情</strong><br /> </td> 
-   <td> 请参阅 <a href="../../designing/using/designing-content-in-adobe-campaign.md">关于Email Designer</a>.<br /> </td> 
-   <td> 请参阅 <a href="../../integrating/using/integrating-with-experience-manager.md">与Experience Manager集成</a>.<br /> </td> 
-   <td> 请参阅 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看这个 <a href="#video">视频</a>.<br /> </td> 
+   <td> <strong>瞭解更多</strong><br /> </td> 
+   <td> 另請參閱 <a href="../../designing/using/designing-content-in-adobe-campaign.md">關於電子郵件設計工具</a>.<br /> </td> 
+   <td> 另請參閱 <a href="../../integrating/using/integrating-with-experience-manager.md">與Experience Manager整合</a>.<br /> </td> 
+   <td> 另請參閱 <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver與Campaign</a> 並觀看此影片 <a href="#video">視訊</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示如何使用Dreamweaver为Adobe Campaign Standard创建和编辑内容。
+本影片說明如何使用Dreamweaver建立和編輯Adobe Campaign Standard的內容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

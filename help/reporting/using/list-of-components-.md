@@ -1,6 +1,6 @@
 ---
-title: '组件列表 '
-description: 在此处查找动态报告中可用的每个组件的列表及其定义。
+title: 组件列表
+description: 請在此處尋找動態報告中可用的每個元件清單及其定義。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -8,452 +8,452 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1269'
+ht-degree: 4%
 
 ---
 
 # 组件列表 {#list-of-components}
 
-要了解有关维度和量度之间兼容性的更多信息，请参阅此 [表](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 如果两个组件不兼容，则单元格将显示值 **无**.
+若要進一步瞭解維度和量度之間的相容性，請參閱此 [表格](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 如果兩個元件不相容，儲存格會顯示值 **無**.
 
-[![图像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![图像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
-## Dimension {#dimensions}
+## 维度 {#dimensions}
 
-下表提供了报表中使用的维度列表及其定义。
+下表提供報告中使用的維度清單及其定義。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> 定义<br /> </th> 
+   <th> 维度<br /> </th> 
+   <th> 条件<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> 浏览器<br /> </td> 
-   <td> 打开或单击消息的浏览器。<br /> </td> 
+   <td> 開啟或點按訊息的來源瀏覽器。<br /> </td> 
   </tr> 
   <tr> 
    <td> 营销活动<br /> </td> 
-   <td> 营销活动的标签和ID。<br /> </td> 
+   <td> 行銷活動的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
    <td> 城市<br /> </td> 
-   <td> 在收件人用户档案中注册的城市。<br /> </td> 
+   <td> 收件者設定檔中註冊的城市。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 国家/地区<br /> </td> 
-   <td> 收件人用户档案中注册的国家/地区。<br /> </td> 
+   <td> 國家/地區<br /> </td> 
+   <td> 在收件者設定檔中註冊的國家/地區。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放<br /> </td> 
-   <td> 投放的标签和ID。<br /> </td> 
+   <td> 傳遞的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 设备<br /> </td> 
-   <td> 打开/查看/单击电子邮件/短信/推送通知的设备。<br /> </td> 
+   <td> 裝置<br /> </td> 
+   <td> 電子郵件/簡訊/推播通知開啟/檢視/點按的裝置。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 失败原因<br /> </td> 
-   <td> 导致每次投放退回（例如用户未知、域无效或邮箱已满）的错误类型。<br /> </td> 
+   <td> 失敗原因<br /> </td> 
+   <td> 導致每次傳遞跳出的錯誤型別，例如使用者不明、無效的網域或信箱已滿。<br /> </td> 
   </tr> 
   <tr> 
    <td> 性别<br /> </td> 
-   <td> 接受者的性别，如男性或女性。 如果收件人用户档案中的性别字段为空，则值为“无”。<br /> </td> 
+   <td> 收件者的性別，例如男性或女性。 如果收件者設定檔中的性別欄位為空，則值將為none。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内消息操作<br /> </td> 
-   <td> 对传递的应用程序内消息执行的操作，例如对按钮1或2的操作或被解除的操作。<br /> </td> 
+   <td> 應用程式內訊息動作<br /> </td> 
+   <td> 已傳送應用程式內訊息的動作，例如按鈕1或2的動作或解除。<br /> </td> 
   </tr> 
   <tr> 
    <td> 消息类型<br /> </td> 
-   <td> 用于投放的渠道，如电子邮件、短信、推送通知或应用程序内消息。<br /> </td> 
+   <td> 用於傳遞的頻道，例如電子郵件、簡訊、推播通知或應用程式內。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 移动设备应用程序名称<br /> </td> 
-   <td> 移动应用程序的名称<br /> </td> 
+   <td> 行動應用程式名稱<br /> </td> 
+   <td> 行動應用程式的名稱<br /> </td> 
   </tr> 
   <tr> 
    <td> 平台<br /> </td> 
-   <td> 打开/查看/单击消息的设备的平台。<br /> </td> 
+   <td> 開啟/檢視/點按訊息的來源裝置平台。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用户档案<br /> </td> 
-   <td> 重组在用户档案资源扩展期间创建的现成和自定义用户档案字段，有关更多信息，请参阅此内容 <a href="../../developing/using/key-steps-to-add-a-resource.md">页面</a> 或 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>.<br /> 请注意，一旦发布链接到用户档案字段的自定义资源，即会检索此维度的数据。<br /> </td> 
+   <td> 重新分組在設定檔資源擴充期間建立的現成可用和自訂設定檔欄位，如需詳細資訊，請參閱此 <a href="../../developing/using/key-steps-to-add-a-resource.md">頁面</a> 或這個 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">範例</a>.<br /> 請注意，在連結至設定檔欄位的自訂資源發佈後，就會擷取此維度的資料。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送平台<br /> </td> 
-   <td> 从中打开推送通知的设备的平台，如iOS或Android。<br /> </td> 
+   <td> 開啟推播通知的裝置平台，例如iOS或Android。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 收件人域<br /> </td> 
-   <td> 用于打开电子邮件的域。<br /> </td> 
+   <td> 收件者網域<br /> </td> 
+   <td> 用來開啟電子郵件的網域。<br /> </td> 
   </tr> 
   <tr> 
    <td> 循环投放<br /> </td> 
-   <td> 定期投放的标签和ID。<br /> </td> 
+   <td> 重複傳遞的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 发件人域<br /> </td> 
-   <td> 用于发送电子邮件的域。<br /> </td> 
+   <td> 寄件者網域<br /> </td> 
+   <td> 用來傳送電子郵件的網域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 发件人IP<br /> </td> 
-   <td> 用于发送电子邮件的IP。<br /> </td> 
+   <td> 寄件者IP<br /> </td> 
+   <td> 用於傳送電子郵件的IP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 州<br /> </td> 
-   <td> 收件人用户档案中注册的州。<br /> </td> 
+   <td> 状态<br /> </td> 
+   <td> 在收件者設定檔中登入的國家/地區。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跟踪URL<br /> </td> 
-   <td> 用户从消息中单击的URL。<br /> </td> 
+   <td> 追蹤URL<br /> </td> 
+   <td> 使用者從訊息點按的URL。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跟踪URL类别<br /> </td> 
-   <td> 分配给跟踪URL的类别。<br /> </td> 
+   <td> 追蹤URL類別<br /> </td> 
+   <td> 指派給追蹤URL的類別。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跟踪URL标签<br /> </td> 
-   <td> 为URL提供的标签（如镜像页面），请与我们联系或打开。<br /> </td> 
+   <td> 追蹤網址標籤<br /> </td> 
+   <td> 為URL指定的標籤，例如映象頁面、聯絡我們或開啟。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 事务性投放<br /> </td> 
-   <td> 事务性投放的标签和ID。<br /> </td> 
+   <td> 交易式傳遞<br /> </td> 
+   <td> 交易式傳送的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
    <td> 变体<br /> </td> 
-   <td> A/B测试时电子邮件的变体。<br /> </td> 
+   <td> A/B測試時的電子郵件變體。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 量度 {#metrics}
 
-下表提供了报表中使用的量度列表及其定义，具体取决于投放类型。
+下表提供報表中使用的量度清單，以及量度定義（視傳送型別而定）。
 
-### 电子邮件和短信量度 {#email-and-sms-metrics}
+### 電子郵件和簡訊量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 定义<br /> </th> 
+   <th> 条件<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 开阻止列表启<br /> </td> 
-   <td> 声明电子邮件为垃圾邮件或垃圾邮件的收件人数量。<br /> </td> 
+   <td> 在封鎖清單上<br /> </td> 
+   <td> 已宣告電子郵件為垃圾郵件或垃圾郵件的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 阻止列表率<br /> </td> 
-   <td> 在“”上标记的投放阻止列表百分比。<br /> </td> 
+   <td> 封鎖清單率<br /> </td> 
+   <td> 封鎖清單上標籤的傳遞百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跳出次数+错误<br /> </td> 
-   <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br /> </td> 
+   <td> 退回+錯誤<br /> </td> 
+   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跳出+错误率<br /> </td> 
-   <td> 退回的电子邮件与已发送电子邮件的百分比。<br /> </td> 
+   <td> 跳出+錯誤率<br /> </td> 
+   <td> 與已傳送的電子郵件相比跳出的電子郵件百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 在投放中点击内容的次数。<br /> </td> 
+   <td> 內容在傳遞中的點按次數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 
-   <td> 投放中的点击次数百分比。<br /> </td> 
+   <td> 傳遞中的點按百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已交付<br /> </td> 
-   <td> 已成功发送的消息数，与已发送消息的总数有关。<br /> </td> 
+   <td> 已送达<br /> </td> 
+   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付率<br /> </td> 
-   <td> 成功发送的消息的百分比。<br /> </td> 
+   <td> 傳遞率<br /> </td> 
+   <td> 成功傳送的訊息百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬退回<br /> </td> 
-   <td> 永久错误的总数，如错误的电子邮件地址。<br /> </td> 
+   <td> 硬跳出<br /> </td> 
+   <td> 永久錯誤總數，例如錯誤的電子郵件地址。<br /> </td> 
   </tr> 
   <tr> 
    <td> 硬跳出率<br /> </td> 
-   <td> 因永久错误而失败的投放百分比。<br /> </td> 
+   <td> 因永久錯誤而失敗的傳遞百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 镜像页面<br /> </td> 
-   <td> 单击镜像页面链接的收件人数量。<br /> </td> 
+   <td> 點按映象頁面連結的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 镜像页面速率<br /> </td> 
-   <td> 在镜像页面链接上的点击次数与总投放消息数的百分比。<br /> </td> 
+   <td> 映象頁面速率<br /> </td> 
+   <td> 相較於傳遞訊息總數，映象頁面連結的點按百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 选件点击量<br /> </td> 
-   <td> 在投放中点击选件的次数。<br /> </td> 
+   <td> 優惠點按次數<br /> </td> 
+   <td> 在傳遞中點按優惠方案的次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 选件点击率<br /> </td> 
-   <td> 选件的点击百分比。<br /> </td> 
+   <td> 優惠點按率<br /> </td> 
+   <td> 優惠的點按百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 投放中消息打开的次数。<br /> </td> 
+   <td> 訊息在傳遞中開啟的次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 打开率<br /> </td> 
-   <td> 已打开消息的百分比。<br /> </td> 
+   <td> 開啟率<br /> </td> 
+   <td> 已開啟訊息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已处理/已发送<br /> </td> 
-   <td> 投放的发送总数。<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
+   <td> 傳遞的傳送總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 隔离<br /> </td> 
-   <td> 退回并导致地址隔离的消息数。<br /> </td> 
+   <td> 退回並導致地址隔離的郵件數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 隔离率<br /> </td> 
-   <td> 与已发送消息相比的隔离百分比。<br /> </td> 
+   <td> 隔離率<br /> </td> 
+   <td> 與已傳送訊息相比較的隔離百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 被拒绝<br /> </td> 
-   <td> 被SMTP服务器分类为垃圾邮件的邮件数。<br /> </td> 
+   <td> 已拒绝<br /> </td> 
+   <td> SMTP伺服器分類為垃圾訊息的訊息數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 拒绝率<br /> </td> 
-   <td> 标记为已拒绝的消息的百分比。<br /> </td> 
+   <td> 拒絕率<br /> </td> 
+   <td> 標籤為已拒絕的訊息百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 软退回<br /> </td> 
-   <td> 临时错误（如完整收件箱）的总数。<br /> </td> 
+   <td> 軟退信<br /> </td> 
+   <td> 臨時錯誤總數，例如完整收件匣。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 软跳出率<br /> </td> 
-   <td> 因临时原因而失败的投放的百分比。<br /> </td> 
+   <td> 軟跳出率<br /> </td> 
+   <td> 因暫時原因而失敗的傳遞百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击<br /> </td> 
-   <td> 点击投放内容的收件人数量。<br /> </td> 
+   <td> 不重複點按<br /> </td> 
+   <td> 點按傳遞中內容的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一打开数<br /> </td> 
-   <td> 打开投放的收件人数。<br /> </td> 
+   <td> 独特打开次数<br /> </td> 
+   <td> 開啟傳遞的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特退订<br /> </td> 
-   <td> 单击退订链接的收件人数量。<br /> </td> 
+   <td> 不重複取消訂閱<br /> </td> 
+   <td> 點按取消訂閱連結的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 退订率<br /> </td> 
-   <td> 与已投放消息相比，独特退订的次数。<br /> </td> 
+   <td> 取消訂閱率<br /> </td> 
+   <td> 與傳遞的訊息相較之下的不重複取消訂閱次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已取消订阅<br /> </td> 
-   <td> 退订链接的点击次数。<br /> </td> 
+   <td> 已取消訂閱<br /> </td> 
+   <td> 對取消訂閱連結的點按次數。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 推送通知量度 {#push-notification-metrics}
+### 推播通知量度 {#push-notification-metrics}
 
 <table> 
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 定义<br /> </th> 
+   <th> 条件<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 跳出次数+错误<br /> </td> 
-   <td> 在投放期间累积的与已发送消息总数有关的错误总数，例如来自MCPNS或提供商的错误。<br /> </td> 
+   <td> 退回+錯誤<br /> </td> 
+   <td> 傳遞期間累計的錯誤總數與已傳送訊息的總數相關，例如來自MCPNS或提供者的錯誤。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 跳出+错误率<br /> </td> 
-   <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br /> </td> 
+   <td> 跳出+錯誤率<br /> </td> 
+   <td> 與已傳送的推播通知相比，已跳出的推播通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
-   <td> 将推送通知发送到设备并由用户单击的次数。 用户要么想要查看通知（该通知随后将被移至推送打开跟踪），要么就将其关闭。<br /> </td> 
+   <td> 推播通知已傳送至裝置並由使用者點按的次數。 使用者想要檢視通知（該通知隨後將移至推播開啟追蹤）或將其關閉。<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 
-   <td> 与推送通知交互的用户百分比。<br /> </td> 
+   <td> 與推播通知互動的使用者百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已交付<br /> </td> 
-   <td> 成功发送的推送通知数，与已发送的推送通知总数有关。<br /> </td> 
+   <td> 已送达<br /> </td> 
+   <td> 成功傳送的推播通知數，與已傳送推播通知總數相關。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付率<br /> </td> 
-   <td> 成功发送推送通知的百分比。<br /> </td> 
+   <td> 傳遞率<br /> </td> 
+   <td> 成功傳送的推播通知百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 展示次数<br /> </td> 
-   <td> 将推送通知发送到设备且未在通知中心受到影响的次数。 在大多数情况下，展示次数数应与已交付的数量相似。 这可确保设备收到消息并将该信息转发回服务器。<br /> </td> 
+   <td> 曝光次數<br /> </td> 
+   <td> 推播通知已傳送至裝置並在通知中心保持未接觸的次數。 在大多數情況下，曝光次數應該與傳送的次數類似。 這可確保裝置收到訊息，並將該資訊轉送回伺服器。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已处理/已发送<br /> </td> 
-   <td> 发送的推送通知总数。<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
+   <td> 已傳送的推播通知總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br /> </td> 
+   <td> 傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 打开率<br /> </td> 
-   <td> 打开的推送通知的百分比。<br /> </td> 
+   <td> 開啟率<br /> </td> 
+   <td> 已開啟推播通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击<br /> </td> 
-   <td> 独特用户与推送通知交互的次数，例如单击通知或按钮。<br /> </td> 
+   <td> 不重複點按<br /> </td> 
+   <td> 不重複使用者與推播通知互動的次數，例如點選通知或按鈕。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特展示次数<br /> </td> 
-   <td> 收件人的展示次数。<br /> </td> 
+   <td> 不重複曝光次數<br /> </td> 
+   <td> 收件者的曝光次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一打开数<br /> </td> 
-   <td> 打开投放的收件人数。<br /> </td> 
+   <td> 独特打开次数<br /> </td> 
+   <td> 開啟傳遞的收件者人數。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 应用程序内量度 {#in-app-metrics}
+### 應用程式內量度 {#in-app-metrics}
 
 <table> 
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 定义<br /> </th> 
+   <th> 条件<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已交付<br /> </td> 
-   <td> 服务提供商交付到设备的应用程序内消息总数。<br /> </td> 
+   <td> 已送达<br /> </td> 
+   <td> 服務提供者傳送至裝置的應用程式內訊息總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 展示次数<br /> </td> 
-   <td> 收件人查看的应用程序内消息总数，具体取决于是否满足触发器标准。<br /> </td> 
+   <td> 曝光次數<br /> </td> 
+   <td> 根據是否符合觸發條件，收件者看到的應用程式內訊息總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内点击 <br /> </td> 
-   <td> 单击按钮1或按钮2的收件人总数。<br /> </td> 
+   <td> 應用程式內點選次數 <br /> </td> 
+   <td> 點選「按鈕1」或「按鈕2」的收件者總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内点进率<br /> </td> 
-   <td> 单击按钮1或按钮2的用户与查看消息的用户的百分比。<br /> </td> 
+   <td> 應用程式內點進率<br /> </td> 
+   <td> 相較於看到訊息的使用者，按一下「按鈕1」或「按鈕2」的使用者百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内解聘<br /> </td> 
-   <td> 通过单击关闭按钮或自动关闭收件人已忽略的消息总数。<br /> </td> 
+   <td> 應用程式內解除<br /> </td> 
+   <td> 收件者按一下關閉按鈕或自動解除所解除的訊息總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内解雇率<br /> </td> 
-   <td> 收件人取消的应用程序内消息的百分比。<br /> </td> 
+   <td> 應用程式內解僱率<br /> </td> 
+   <td> 收件者已解除的應用程式內訊息的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已处理/已发送<br /> </td> 
-   <td> 在投放发送过程中从Adobe Campaign发送的应用程序内消息总数。<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
+   <td> 在傳送傳遞程式中，從Adobe Campaign傳送的應用程式內訊息總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特展示次数<br /> </td> 
-   <td> 独特收件人的展示次数。<br /> </td> 
+   <td> 不重複曝光次數<br /> </td> 
+   <td> 不重複收件者的曝光次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序内独特点击次数<br /> </td> 
-   <td> 收件人单击按钮1或按钮2的次数。<br /> </td> 
+   <td> 不重複應用程式內點按<br /> </td> 
+   <td> 收件者點選按鈕1或按鈕2的次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特的应用程序内解雇<br /> </td> 
-   <td> 收件人取消应用程序内消息的次数。<br /> </td> 
+   <td> 不重複應用程式內解除服務<br /> </td> 
+   <td> 收件者解除應用程式內訊息的次數。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 区段 {#segments}
 
-下表提供了报表中使用的区段列表及其定义。
+下表提供報告中使用的區段清單及其定義。
 
 <table> 
  <thead> 
   <tr> 
    <th> 区段<br /> </th> 
-   <th> 定义<br /> </th> 
+   <th> 条件<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年龄：婴儿潮一代<br /> </td> 
-   <td> 1946年至1954年出生的收件人。<br /> </td> 
+   <td> 年齡：嬰兒潮1<br /> </td> 
+   <td> 1946年至1954年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：婴儿潮2岁<br /> </td> 
-   <td> 1955年至1965年生的收件人。<br /> </td> 
+   <td> 年齡：嬰兒潮一代2<br /> </td> 
+   <td> 1955年至1965年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从18到25<br /> </td> 
-   <td> 18至25岁的收件人。<br /> </td> 
+   <td> 年齡：從18歲到25歲<br /> </td> 
+   <td> 18到25歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从26到30<br /> </td> 
-   <td> 26至30岁的收件人。<br /> </td> 
+   <td> 年齡：從26到30<br /> </td> 
+   <td> 26到30歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从31到40<br /> </td> 
-   <td> 31至40岁的收件人。<br /> </td> 
+   <td> 年齡：從31到40<br /> </td> 
+   <td> 31至40歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：从41到50<br /> </td> 
-   <td> 41至50岁的收件人。<br /> </td> 
+   <td> 年齡：41至50歲<br /> </td> 
+   <td> 41至50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：第X代<br /> </td> 
-   <td> 1966年至1976年出生的收件人。<br /> </td> 
+   <td> 年齡：第X代<br /> </td> 
+   <td> 1966年至1976年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：Y代（千禧一代）<br /> </td> 
-   <td> 1977年至1994年生的收件人。<br /> </td> 
+   <td> 年齡：Y代（千禧一代）<br /> </td> 
+   <td> 1977年至1994年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：Z代<br /> </td> 
-   <td> 1995年至今的收件人。<br /> </td> 
+   <td> 年齡：Z代<br /> </td> 
+   <td> 1995年至今天出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：大于50<br /> </td> 
-   <td> 年龄大于50岁的收件人。<br /> </td> 
+   <td> 年齡：大於50<br /> </td> 
+   <td> 年齡大於50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于25<br /> </td> 
-   <td> 年龄小于25岁的收件人。<br /> </td> 
+   <td> 年齡：25歲以下<br /> </td> 
+   <td> 年齡小於25歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于30<br /> </td> 
-   <td> 年龄小于30岁的收件人。<br /> </td> 
+   <td> 年齡：30歲以下<br /> </td> 
+   <td> 年齡小於30歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于40<br /> </td> 
-   <td> 年龄小于40岁的收件人。<br /> </td> 
+   <td> 年齡：40歲以下<br /> </td> 
+   <td> 年齡小於40歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：少于50<br /> </td> 
-   <td> 年龄小于50岁的收件人。<br /> </td> 
+   <td> 年齡：少於50歲<br /> </td> 
+   <td> 年齡小於50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年龄：沉默的一代<br /> </td> 
-   <td> 1945年或之前出生的收件人。<br /> </td> 
+   <td> 年齡：無訊息產生<br /> </td> 
+   <td> 1945年或之前出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 所有访问<br /> </td> 
-   <td> 每个收件人<br /> </td> 
+   <td> 所有造訪<br /> </td> 
+   <td> 每個收件者<br /> </td> 
   </tr>
  </tbody> 
 </table>

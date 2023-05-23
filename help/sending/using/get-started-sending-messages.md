@@ -7,9 +7,9 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 14%
 
 ---
@@ -18,30 +18,30 @@ ht-degree: 14%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">准备和测试</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">发送、监视和跟踪</a></p></td>
-<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">投放能力准则</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">準備和測試</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">傳送、監視和追蹤</a></p></td>
+<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">傳遞能力准則</a></p></td></tr>
 </table>
 
-定义目标并创建消息内容后，您需要准备并测试投放的内容、个性化、渲染和配置。 这样，在将消息发送到主目标之前，您就可以确保一切正确。 要实现此目的，可提供多种功能，如预览、校样、电子邮件主题行测试或电子邮件渲染。
+定義目標並建立訊息內容後，您需要準備並測試傳送的內容、個人化、轉譯和設定。 這可讓您在將訊息傳送至主要目標之前，確定一切皆正確。 為此，提供了多種功能，例如預覽、校樣、電子郵件主題行測試或電子郵件呈現。
 
-执行营销活动并发送不同消息后，使用日志监控它们以检查营销活动是否成功，并检索有关收件人的跟踪信息。
+執行行銷活動並傳送不同訊息後，請使用記錄檔監控行銷活動，以檢查行銷活動是否成功，並擷取收件者的追蹤資訊。
 
-最后，利用Campaign Standard中提供的投放能力准则和工具，改进投放的消息数量并确保成功的营销活动。
+最後，運用Campaign Standard提供的傳遞能力准則和工具，改善傳遞的訊息數量，並確保行銷活動取得成功。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何发送测试电子邮件、准备和发送视频中的电子邮件投放](#video)
+![](assets/do-not-localize/how-to-video.png) [瞭解如何透過影片傳送測試電子郵件、準備及傳送電子郵件傳遞](#video)
 
-## 准备和测试 {#prepare-test-send}
+## 準備和測試 {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **消息准备** 分析消息的目标、个性化和有效性。 在此步骤中检测到的错误必须先更正，然后才能继续。
+Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性。 在此步驟中偵測到的錯誤必須先加以更正，才能繼續進行。
 
-**预览和测试** 使用各种功能发送消息：发送校样以测试用户档案或目标用户档案，测试电子邮件的主题行，并检查消息的呈现情况，以确保它以最佳方式在各种Web客户端、Web邮件和设备上显示。
+**預覽和測試** 使用各種功能傳送訊息：傳送校樣以測試設定檔或目標設定檔、測試電子郵件的主旨行，以及檢查訊息的轉譯，以確保訊息以最佳方式顯示在各種Web使用者端、網頁郵件和裝置上。
 
-利用Campaign计划功能定义消息的发送时间。 例如，您可以调整收件人的时区发送方式、优化发送时间或计算发送日期。
+運用Campaign排程功能來定義訊息的傳送時間。 例如，您可以調整在收件者的時區傳送、最佳化傳送時間或計算傳送日期。
 
-使用 **分类** 在准备期间，通过疲劳、控制和定位规则检查消息是否有效且符合质量标准。 例如，检查电子邮件是否始终包含主题行，或从消息收件人中排除未订阅者。
+使用 **型別** 在準備期間檢查您的訊息是否有效，並透過疲勞、控制和目標定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或從訊息收件者中排除未訂閱者。
 
 了解更多信息:
 
@@ -52,15 +52,15 @@ Campaign Standard **消息准备** 分析消息的目标、个性化和有效性
 * [计划消息发送](../../sending/using/about-scheduling-messages.md)
 * [关于类型和类型规则](../../sending/using/about-typology-rules.md)
 
-## 发送、监视和跟踪 {#send-track-messages}
+## 傳送、監視和追蹤 {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-消息准备就绪后，您可以确认发送和访问日志及报告的 **监控投放** 并衡量您的活动是否成功。 Adobe Campaign还提供电子邮件警报系统，用于跟踪投放是成功还是失败，以及隔离管理功能。
+訊息準備就緒後，您可以確認傳送和存取記錄檔及報告至 **監視傳遞** 和評估行銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗，以及隔離管理功能。
 
-**跟踪行为** 收件人的URL。
+**追蹤行為** 使用工作階段和永久Cookie來擷取追蹤資訊（已點按的URL、映象頁面、開啟的郵件……）。
 
-最后，您可以将Adobe Campaign配置为 **保留电子邮件副本** 通过电子邮件密送从您的平台发送。 特别是，如果贵组织需要存档所有出站电子邮件以符合要求，则可以启用此功能。
+最後，您可以將Adobe Campaign設定為 **保留電子郵件的副本** 透過電子郵件密件副本從您的平台傳送。 特別是，如果您的組織需要封存所有傳出電子郵件訊息以符合規定，您可以啟用此功能。
 
 了解更多信息:
 
@@ -71,32 +71,32 @@ Campaign Standard **消息准备** 分析消息的目标、个性化和有效性
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 
-## 投放能力准则 {#improve-deliverability}
+## 傳遞能力准則 {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
-投放能力允许测量营销活动到达收件人收件箱的成功情况，而不会出现弹回或标记为垃圾邮件。
+可遞送性可讓您測量行銷活動在到達收件者收件匣時不會退回或標示為垃圾訊息的成功程度。
 
-Campaign Standard提供了 **投放能力工具** 为帮助您提高成功投放消息的数量，请执行以下操作：投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
+Campaign Standard提供數種 **傳遞工具** 協助您改善成功傳遞的訊息數量：傳遞輸送量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
 
 了解更多信息:
 
 * [关于可投放性](../../sending/using/about-deliverability.md)
 * [监测可投放性](../../sending/using/monitor-deliverability.md)
-* [Adobe投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans)
-* [控制投放吞吐量](../../reporting/using/delivery-throughput.md)
+* [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans)
+* [控制傳遞輸送量](../../reporting/using/delivery-throughput.md)
 
 ## 其他资源
 
-* [设计A/B测试电子邮件](../../channels/using/designing-an-a-b-test-email.md)
-* [消息入门](../../channels/using/key-steps-to-send-a-message.md)
+* [設計A/B測試電子郵件](../../channels/using/designing-an-a-b-test-email.md)
+* [開始使用訊息](../../channels/using/key-steps-to-send-a-message.md)
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [添加对照组](../../sending/using/control-group.md)
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示如何发送测试电子邮件、准备电子邮件，然后以Campaign Standard发送电子邮件投放。
+本影片說明如何以Campaign Standard傳送測試電子郵件、準備然後傳送電子郵件傳遞。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

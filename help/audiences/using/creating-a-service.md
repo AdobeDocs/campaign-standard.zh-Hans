@@ -9,10 +9,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 94%
 
 ---
 
@@ -61,10 +61,10 @@ ht-degree: 95%
 * [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示如何创建服务并管理其订阅。
+本影片說明如何建立服務及管理其訂閱。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

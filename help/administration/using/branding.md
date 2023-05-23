@@ -1,15 +1,15 @@
 ---
 title: 品牌化
-description: 了解可用于管理品牌策略的所有工具
+description: 探索所有可用於管理品牌識別的工具
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 76%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 76%
 
 配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。详细介绍了在Campaign中获取新品牌的步骤 [在此部分中](#creating-a-brand).
+1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。詳細說明在Campaign中取得新品牌的步驟 [在本節中](#creating-a-brand).
 1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
@@ -83,29 +83,29 @@ ht-degree: 76%
 
    ![](assets/branding_05.png)
 
-## 创建新品牌 {#creating-a-brand}
+## 建立新品牌 {#creating-a-brand}
 
-您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
+您可以在Campaign中新增組織的新實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此動作，請遵循下列步驟：
 
-1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过 [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或联系您的Adobe技术联系人。 了解有关子域配置的更多信息 [在本文中](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **設定新的子網域**  — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過以下方式執行此操作： [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或聯絡您的Adobe技術連絡人。 進一步瞭解子網域設定 [本文章內容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
-1. **创建票证**  — 配置子域后，Adobe将在生产环境中对其进行设置。 为了请求， [为客户关怀创建票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) ，并提供以下信息：
+1. **建立票證**  — 設定子網域後，Adobe會在您的生產環境中進行設定。 若要請求此專案， [建立客戶服務票證](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) ，並提供下列資訊：
 
-   * 主题：ACS新品牌设置
+   * 主旨： ACS新品牌設定
 
-   * 内容：已配置新域，我们希望在Campaign平台中对其进行设置
+   * 內容：新網域已設定，我們想要在Campaign平台中設定它
 
-   * 域：XXX
+   * 網域： XXX
 
-   * 生产URL:XXX.campaign.adobe.com
+   * 生產URL： XXX.campaign.adobe.com
 
-1. **创建投放模板**  — 新品牌可用后，最佳做法是至少创建一个引用该新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
+1. **建立傳遞範本**  — 新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查投放能力准则**  — 在开始使用新域之前，应与Adobe投放能力团队讨论该策略。 例如，如果应创建新亲和度以在域之间拆分IP，和/或应定义提升计划，则这些变量将有助于定义最佳实践。 了解有关可投放性最佳实践的更多信息 [在此部分中](../../sending/using/about-deliverability.md).
+1. **檢查傳遞能力准則**  — 在開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割網域之間的IP，和/或若應定義提升計畫，則上述範本將有助於定義最佳實務。 進一步瞭解傳遞能力最佳實務 [在本節中](../../sending/using/about-deliverability.md).
 
 ## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 
@@ -143,13 +143,13 @@ ht-degree: 76%
 
 在本例中，我们将创建一个与旅行相关的新品牌，并将其用在电子邮件中。
 
-#### 步骤1:配置新品牌 {#configure-a-new-brand}
+#### 步驟1：設定新品牌 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >仅在需要特定权限和技术设置时，才由 Adobe 管理品牌配置。
 
-1. Adobe Campaign管理员首先通过 **[!UICONTROL Administration > Instance settings > Brand configuration]** ，并添加 **热带度假** 元素，并配置 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的一部分。
+1. Adobe Campaign管理員會先從以下專案建立品牌： **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表，並新增 **熱帶假期** 元素，並設定 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的。
 
    ![](assets/branding_07.png)
 
@@ -161,7 +161,7 @@ ht-degree: 76%
 
 品牌已正确创建和配置。现在，可提供给营销团队使用。
 
-#### 步骤2:实施新品牌 {#implement-a-new-brand}
+#### 步驟2：實作新品牌 {#implement-a-new-brand}
 
 投放经理负责创建投放模板以使用新品牌。要实现此目的，请执行以下步骤：
 
@@ -180,7 +180,7 @@ ht-degree: 76%
 
    现在，即可将该投放模板用于创建将要发送给受众的电子邮件。
 
-#### 步骤3:在投放中使用新品牌 {#use-the-new-brand-in-a-delivery}
+#### 步驟3：在傳遞中使用新品牌 {#use-the-new-brand-in-a-delivery}
 
 要创建链接到品牌的电子邮件，请执行以下步骤：
 

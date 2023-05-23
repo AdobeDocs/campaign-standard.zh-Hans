@@ -1,6 +1,6 @@
 ---
-title: '创建和使用可重用内容 '
-description: 开始使用Email Designer构建可重复使用的电子邮件内容。
+title: 建立和使用可重複使用的內容
+description: 開始使用電子郵件設計工具建置可重複使用的電子郵件內容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -8,278 +8,278 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 1%
+source-wordcount: '1817'
+ht-degree: 2%
 
 ---
 
-# 创建和使用可重用内容 {#using-reusable-content}
+# 建立和使用可重複使用的內容 {#using-reusable-content}
 
-了解如何主控编辑电子邮件内容。 借助Email Designer，您可以使用您自己的预定义内容创建模板和片段，并重复使用这些模板和片段，以便进行后续投放。
+瞭解如何掌握電子郵件內容版本。 透過電子郵件設計工具，您可以使用您自己的預先定義內容來建立範本和片段，並在後續傳送中重複使用。
 
-## 使用模板设计电子邮件 {#designing-templates}
+## 使用範本設計電子郵件 {#designing-templates}
 
 >[!NOTE]
 >
-> 在Adobe Campaign Standard中，您可以创建可从 **资源** > **模板** 菜单。 Email Designer中使用的模板是内容模板。 有关更多信息，请参阅 [关于模板](../../start/using/marketing-activity-templates.md).
+> 在Adobe Campaign Standard中，您可以建立不同型別的範本，並可從 **資源** > **範本** 功能表。 電子郵件設計工具中使用的範本為內容範本。 如需詳細資訊，請參閱 [關於範本](../../start/using/marketing-activity-templates.md).
 
-![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建模板](#video)
+![](assets/do-not-localize/how-to-video.png) [瞭解如何在影片中建立範本](#video)
 
-### 关于内容模板 {#content-templates}
+### 關於內容範本 {#content-templates}
 
-您可以管理中提供的HTML内容 **[!UICONTROL Templates]** 选项卡 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 主页。
+您可以管理中提供的HTML內容 **[!UICONTROL Templates]** 的標籤 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 首頁。
 
-现成电子邮件内容模板包括18个针对移动设备优化的布局和4个由Behance艺术家设计的一流响应模板。 它们对应于最新的用法，例如客户欢迎邮件、新闻稿和重新参与电子邮件等。 您可以根据品牌的内容轻松自定义这些电子邮件，以简化从头开始设计电子邮件的过程。
+現成可用的電子郵件內容範本包括18個行動最佳化版面配置和4個由Behance藝術家設計的同級最佳回應範本。 它們對應於客戶歡迎訊息、電子報和重新參與電子郵件等的最新使用情況。 它們可以輕鬆根據品牌內容進行自訂，以簡化從頭開始設計電子郵件的程式。
 
 ![](assets/template_content.png)
 
-HTML内容模板可从 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 屏幕 [高级菜单](../../start/using/interface-description.md#advanced-menu). 从此处，您可以管理登陆页面内容模板、电子邮件内容模板以及片段。
+HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 的畫面 [進階功能表](../../start/using/interface-description.md#advanced-menu). 從那裡，您可以管理登入頁面內容範本、電子郵件內容範本以及片段。
 
 ![](assets/content_templates_list.png)
 
-现成内容模板为只读模板。 要编辑其中一个模板，必须先复制所需的模板。
+現成可用的內容範本為唯讀。 若要編輯其中一個範本，您必須先複製所需的範本。
 
-您可以创建新模板或片段，并定义自己的内容。 有关此内容的更多信息，请参阅 [创建内容模板](#creating-a-content-template) 和 [创建内容片段](#creating-a-content-fragment).
+您可以建立新範本或片段，並定義您自己的內容。 如需詳細資訊，請參閱 [建立內容範本](#creating-a-content-template) 和 [建立內容片段](#creating-a-content-fragment).
 
-使用Email Designer编辑内容时，您还可以通过将内容另存为片段或模板来创建内容模板。 有关此内容的更多信息，请参阅 [将内容另存为模板](#saving-content-as-template) 和 [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+使用電子郵件設計工具編輯內容時，您也可以將內容儲存為片段或範本以建立內容範本。 如需詳細資訊，請參閱 [將內容儲存為範本](#saving-content-as-template) 和 [將內容另存為片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 **相关主题：**
 
-* 有关编辑内容的更多信息，请参阅 [关于电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md).
+* 如需編輯內容的詳細資訊，請參閱 [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md).
 
-### 创建内容模板 {#creating-a-content-template}
+### 建立內容範本 {#creating-a-content-template}
 
-您可以创建自己的内容模板，以根据需要多次使用它们。
+您可以建立自己的內容範本，以視需要多次使用。
 
-以下示例显示如何创建电子邮件内容模板。
+以下範例說明如何建立電子郵件內容範本。
 
-1. 转到 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**.
-1. 单击电子邮件标签以访问 **[!UICONTROL Properties]** 选项卡。
-1. 指定可识别的标签，并选择以下参数，以便能够在电子邮件中使用此模板：
+1. 前往 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 並按一下 **[!UICONTROL Create]**.
+1. 按一下電子郵件標籤以存取 **[!UICONTROL Properties]** 電子郵件設計工具的索引標籤。
+1. 指定可識別的標籤並選取下列引數，以便在電子郵件中使用此範本：
 
-   * 选择 **[!UICONTROL Shared]** 或 **[!UICONTROL Delivery]** 从 **[!UICONTROL Content type]** 下拉列表。
-   * 选择 **[!UICONTROL Template]** 从 **[!UICONTROL HTML type]** 下拉列表。
+   * 選取 **[!UICONTROL Shared]** 或 **[!UICONTROL Delivery]** 從 **[!UICONTROL Content type]** 下拉式清單。
+   * 選取 **[!UICONTROL Template]** 從 **[!UICONTROL HTML type]** 下拉式清單。
 
    ![](assets/email_designer_create-template.png)
 
-1. 如果需要，您可以设置将用作模板缩略图的图像。 从 **[!UICONTROL Thumbnail]** 选项卡。
+1. 如有需要，您可以設定要作為範本縮圖的影像。 從中選擇它 **[!UICONTROL Thumbnail]** 標籤內的任何專案。
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此缩略图将显示在 **[!UICONTROL Templates]** 选项卡 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 主页。
+   此縮圖將顯示在 **[!UICONTROL Templates]** 的標籤 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 首頁。
 
-1. 关闭 **[!UICONTROL Properties]** 选项卡来访问Advertising Cloud帮助。
-1. 添加可根据需要自定义的结构组件和内容组件。
+1. 關閉 **[!UICONTROL Properties]** 按tab鍵以返回主工作區。
+1. 新增您可以視需要自訂的結構元件和內容元件。
    >[!NOTE]
    >
-   > 无法在内容模板中插入个性化字段或条件内容。
-1. 编辑后，保存模板。
+   > 您無法在內容範本內插入個人化欄位或條件式內容。
+1. 編輯後，儲存您的範本。
 
-现在，此模板可用于使用Email Designer构建的任何电子邮件。 从 **[!UICONTROL Templates]** 选项卡 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 主页。
+此範本現在可用於使用電子郵件設計工具建立的任何電子郵件中。 從中選擇它 **[!UICONTROL Templates]** 的標籤 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 首頁。
 
 ![](assets/content_template_new.png)
 
-### 将内容另存为模板 {#saving-content-as-template}
+### 將內容儲存為範本 {#saving-content-as-template}
 
-使用Email Designer编辑电子邮件时，您可以直接将该电子邮件的内容另存为模板。
+使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的內容另存為範本。
 
 <!--[!CAUTION]
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. 选择 **[!UICONTROL Save as template]** 从Email Designer主工具栏中。
+1. 選取 **[!UICONTROL Save as template]** 從「電子郵件設計工具」主工具列。
 
    ![](assets/email_designer_save-as-template.png)
 
-1. 根据需要添加标签和描述，然后单击 **[!UICONTROL Save]**.
+1. 視需要新增標籤和說明，然後按一下 **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. 要查找之前创建的模板，请转到 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+1. 若要尋找您剛才建立的範本，請前往 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. 要使用新模板，请从 **[!UICONTROL Templates]** 选项卡 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) 主页。
+1. 若要使用您的新範本，請從 **[!UICONTROL Templates]** 的標籤 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 首頁。
 
    ![](assets/content_template_new.png)
 
-### 使用片段和组件创建模板 {#template-fragments-components}
+### 使用片段和元件建立範本 {#template-fragments-components}
 
-您现在可以使用Email Designer创建电子邮件模板。 使用内容组件可反映电子邮件的不同部分，并调整设置以使其尽可能接近原始新闻稿。 最后，插入您刚刚创建的片段。
+您現在可以使用電子郵件設計工具建立電子郵件範本。 使用內容元件來反映電子郵件的不同區段，並調整設定以使其儘可能接近您的原始電子報。 最後，插入您剛才建立的片段。
 
-1. 使用Email Designer创建模板。 有关此内容的更多信息，请参阅 [内容模板](#content-templates).
-1. 在模板中插入多个结构组件 — 对应于电子邮件的页眉、页脚和正文。 有关添加结构组件的更多信息，请参阅 [使用Email Designer编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. 根据需要插入任意数量的内容组件以创建新闻稿的正文。 这将是您每月要更新的电子邮件的可编辑内容。
+1. 使用電子郵件設計工具建立範本。 如需詳細資訊，請參閱 [內容範本](#content-templates).
+1. 將數個結構元件插入範本中 — 與電子郵件的頁首、頁尾和正文相對應。 如需新增結構元件的詳細資訊，請參閱 [使用電子郵件設計工具編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 視需要插入任意數量的內容元件，以建立Newsletter內文。 這將是您每月更新的電子郵件的可編輯內容。
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   如果您熟悉HTML代码，Adobe建议利用 **[!UICONTROL Html]** 组件，您可以在其中复制并粘贴原始电子邮件中更为复杂的元素。 使用其他组件，例如 **[!UICONTROL Button]**, **[!UICONTROL Image]** 或 **[!UICONTROL Text]** 内容的其余部分。 有关此内容的更多信息，请参阅 [关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
+   如果您熟悉HTML程式碼，Adobe建議善用 **[!UICONTROL Html]** 元件，您可在此處複製並貼上原始電子郵件中較複雜的元素。 使用其他元件，例如 **[!UICONTROL Button]**， **[!UICONTROL Image]** 或 **[!UICONTROL Text]** 其餘內容。 如需詳細資訊，請參閱 [關於內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >使用 **[!UICONTROL Html]** 组件会导致创建可编辑且选项有限的组件。 在选择此组件之前，请确保您知道如何处理HTML代码。
+   >使用 **[!UICONTROL Html]** 元件會導致建立可使用有限選項編輯的元件。 在選取此元件之前，請確定您知道如何處理HTML程式碼。
 
-1. 尽可能调整内容组件以匹配原始电子邮件。
+1. 儘可能調整內容元件，以符合原始電子郵件。
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   有关管理样式设置和内联属性的更多信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md).
+   如需管理樣式設定和內嵌屬性的詳細資訊，請參閱 [編輯電子郵件樣式](../../designing/using/styles.md).
 
-1. 将之前创建的两个片段（页眉和页脚）插入所需的结构组件中。
+1. 將您先前建立的兩個片段（頁首和頁尾）插入所需的結構元件中。
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
 1. 保存模板。
 
-现在，您可以在Email Designer中完全管理此模板，以创建和更新您每月发送给收件人的新闻稿。
+您現在可以在電子郵件設計工具中完全管理此範本，以建立和更新您每月傳送給收件者的電子報。
 
-要使用该模板，请创建一封电子邮件，然后选择之前创建的内容模板。
+若要使用，請建立電子郵件並選取您剛才建立的內容範本。
 
 **相关主题**：
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [Email Designer简介视频](../../designing/using/designing-content-in-adobe-campaign.md#video)
-* [从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+* [電子郵件設計工具的簡介影片](../../designing/using/designing-content-in-adobe-campaign.md#video)
+* [從頭開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### 教程视频 {#video}
+### 教學課程影片 {#video}
 
-以下视频演示了如何创建自己的模板。
+本影片說明如何建立您自己的範本。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
 
-## 关于片段 {#about-fragments}
+## 關於片段 {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="关于片段"
 >abstract="片段是可在一封或多封电子邮件中引用的可重用内容块。"
 
-片段是可在一封或多封电子邮件中引用的可重用组件。
-可在下面的界面中找到它们 **资源** > **内容片段和模板**.
+片段是可重複使用的元件，可在一封或多封電子郵件中參考。
+這些檔案可在下的介面中找到 **資源** > **內容片段和範本**.
 
-要在Email Designer中最好地使用片段，请执行以下操作：
+若要在電子郵件設計工具中最佳使用片段：
 
-* 创建您自己的片段。 请参阅 [创建内容片段](#creating-a-content-fragment) 和 [将内容另存为片段](#saving-content-as-a-fragment).
-* 在电子邮件中根据需要多次使用它们。 请参阅 [在电子邮件中插入元素](#inserting-elements-into-an-email).
-* 编辑片段时，会同步更改：它们会自动传播到包含该片段的所有电子邮件（前提是尚未准备或发送它们）。
+* 建立您自己的片段。 另請參閱 [建立內容片段](#creating-a-content-fragment) 和 [將內容另存為片段](#saving-content-as-a-fragment).
+* 視需要在電子郵件中多次使用。 另請參閱 [在電子郵件中插入元素](#inserting-elements-into-an-email).
+* 編輯片段時，會同步變更：變更會自動傳播至包含該片段的所有電子郵件（前提是變更尚未準備或傳送）。
 
-添加到电子邮件后，片段默认处于锁定状态。 如果要修改特定电子邮件的片段，可以通过在使用该片段的电子邮件中解锁该片段来中断与原始片段的同步。 将不再同步更改。
+新增至電子郵件時，預設會鎖定片段。 如果您想要修改特定電子郵件的片段，可以在使用原始片段的電子郵件中將其解鎖，以中斷與原始片段的同步。 變更將不再同步。
 
-要解锁电子邮件中的片段，请选择它并单击上下文工具栏中的锁定图标。
+若要解除鎖定電子郵件內的片段，請選取該片段，然後從內容工具列按一下鎖定圖示。
 
 ![](assets/des_unlocking_fragment.png)
 
-该片段将成为不再链接到原始片段的独立组件。 然后，可以将其编辑为任何其他内容组件。 请参阅 [关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
+該片段會成為不再連結至原始片段的獨立元件。 然後可以像任何其他內容元件一樣對其進行編輯。 另請參閱 [關於內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### 在电子邮件中插入片段 {#inserting-elements-into-an-email}
+### 在電子郵件中插入片段 {#inserting-elements-into-an-email}
 
-要定义电子邮件的内容，您可以在之前放置的结构组件中添加内容元素。 请参阅 [编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+若要定義電子郵件的內容，您可以在預先放置的結構元件中新增內容元素。 另請參閱 [編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. 通过选择 **+** 图标。 选择 [片段](#about-fragments) 或 [内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
-1. 如果您已经知道要添加的片段的标签或标签的一部分，则可以搜索它。
+1. 選取「 」以存取內容元素 **+** 圖示加以檢視。 選取 [片段](#about-fragments) 或 [內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
+1. 如果您已經知道要新增的片段標籤或部分標籤，您可以搜尋它。
 
    ![](assets/email_designer_fragmentsearch.png)
 
-1. 将片段或内容组件从面板拖放到电子邮件的结构组件。
+1. 將片段或內容元件從浮動視窗拖放至電子郵件的結構元件。
 
    ![](assets/email_designer_addfragment.png)
 
-   将元素添加到电子邮件后，可将其移动到结构组件中或电子邮件中的其他结构组件中。
+   將元素新增至電子郵件後，即可在結構元件中將其移至電子郵件中的另一個結構元件。
 
    ![](assets/email_designer_movefragment.png)
 
-1. 编辑元素以满足此电子邮件的确切需求。 您可以添加文本、链接、图像等。
+1. 編輯元素以符合此電子郵件的確切需求。 您可以新增文字、連結、影像等。
 
    >[!NOTE]
    >
-   >片段在添加到电子邮件时默认处于锁定状态。 如果要修改特定电子邮件的片段，或直接在片段中进行更改，则可以中断与原始片段的同步。 请参阅 [关于片段](#about-fragments).
+   >新增至電子郵件時，片段預設為鎖定。 如果您想要修改特定電子郵件的片段，或直接在片段中進行變更，可以中斷與原始片段的同步。 另請參閱 [關於片段](#about-fragments).
 
-1. 对您需要添加到电子邮件中的所有元素重复此步骤。
-1. 保存您的电子邮件。
+1. 針對您需要新增至電子郵件的所有元素重複此程式。
+1. 儲存您的電子郵件。
 
-填充了电子邮件结构后，您便可以编辑每个内容元素的样式。 请参阅 [编辑元素](../../designing/using/styles.md).
+現在您的電子郵件結構已填入，您可以編輯每個內容元素的樣式。 另請參閱 [編輯元素](../../designing/using/styles.md).
 
 >[!NOTE]
 >
->如果修改了片段，则所做的更改会自动传播到使用该片段的电子邮件中。 有关此内容的更多信息，请参阅 [关于片段](#about-fragments).
+>如果片段被修改，變更會自動傳播到使用該片段的電子郵件中。 如需詳細資訊，請參閱 [關於片段](#about-fragments).
 
-### 创建内容片段 {#creating-a-content-fragment}
+### 建立內容片段 {#creating-a-content-fragment}
 
-您可以创建自己的内容片段，以根据需要在一封或多封电子邮件中使用它们。
+您可以建立自己的內容片段，以視需要在一封或多封電子郵件中使用它們。
 
-1. 转到 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 单击 **[!UICONTROL Create]**.
-1. 单击电子邮件标签以访问 **[!UICONTROL Properties]** 选项卡。
-1. 指定可识别的标签，并选择以下参数以在编辑电子邮件内容时查找片段：
+1. 前往 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 並按一下 **[!UICONTROL Create]**.
+1. 按一下電子郵件標籤以存取 **[!UICONTROL Properties]** 電子郵件設計工具的索引標籤。
+1. 指定可識別的標籤，並選取下列引數，以在編輯電子郵件內容時尋找片段：
 
-   * 由于片段仅与电子邮件兼容，因此请选择 **[!UICONTROL Delivery]** 从 **[!UICONTROL Content type]** 下拉列表。
-   * 选择 **[!UICONTROL Fragment]** 从 **[!UICONTROL HTML type]** 下拉列表，以便能够将此内容用作片段。
+   * 由於片段僅與電子郵件相容，請選取「 」 **[!UICONTROL Delivery]** 從 **[!UICONTROL Content type]** 下拉式清單。
+   * 選取 **[!UICONTROL Fragment]** 從 **[!UICONTROL HTML type]** 下拉式清單，以便能夠使用此內容作為片段。
 
    ![](assets/email_designer_createfragment.png)
 
-1. 如果需要，您可以设置将用作片段缩略图的图像。 从 **[!UICONTROL Thumbnail]** 选项卡。
+1. 如有需要，您可以設定將用作片段縮圖的影像。 從中選擇它 **[!UICONTROL Thumbnail]** 標籤內的任何專案。
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
-   编辑电子邮件时，此缩略图将显示在片段标签旁边。
+   編輯電子郵件時，此縮圖將顯示在片段標籤旁邊。
 
-1. 关闭 **[!UICONTROL Properties]** 选项卡来访问Advertising Cloud帮助。
-1. 添加可根据需要自定义的结构组件和内容组件。
+1. 關閉 **[!UICONTROL Properties]** 按tab鍵以返回主工作區。
+1. 新增您可以視需要自訂的結構元件和內容元件。
 
    >[!CAUTION]
    >
-   >片段不能包含个性化字段、动态内容或其他片段。
+   >片段不得包括个性化字段、动态内容或另一片段.
    >
-   >避免另存为具有空结构组件的片段内容。 插入片段后，它们将不可编辑。
+   >避免儲存為具有空白結構元件的片段內容。 插入>片段後，即無法編輯。
    >
-   >的 [移动视图](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 在片段中不可用。
+   >此 [行動檢視](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 在片段中無法使用。
 
-1. 编辑后，保存片段。
+1. 編輯後，儲存您的片段。
 
-现在，此片段可用于使用Email Designer构建的任何电子邮件。 它显示在 **[!UICONTROL Fragments]** 的子菜单。
+此片段現在可用於任何使用電子郵件設計工具建置的電子郵件中。 它會顯示在 **[!UICONTROL Fragments]** 區段。
 
 >[!NOTE]
 >
->不能在片段中插入个性化字段，除非在电子邮件中使用且未解锁。 请参阅 [关于片段](#about-fragments).
+>除非在電子郵件中使用並解除鎖定，否則無法在片段中插入個人化欄位。 另請參閱 [關於片段](#about-fragments).
 
-### 将内容另存为片段 {#saving-content-as-a-fragment}
+### 將內容另存為片段 {#saving-content-as-a-fragment}
 
-使用Email Designer编辑电子邮件时，您可以直接将该电子邮件的一部分另存为片段。
+使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的部分另存為片段。
 
-* 不能将包含个性化字段、动态内容或其他片段的结构另存为片段。
-* 只能选择彼此相邻的结构。
-<!-- - You cannot select an empty structure.-->
+* 您無法儲存包含個人化欄位、動態內容或其他片段的結構作為片段。
+* 您只能選取彼此相鄰的結構。
+   <!-- - You cannot select an empty structure.-->
 
-1. 在Email Designer中编辑电子邮件时，选择 **[!UICONTROL Save as fragment]** 中。
+1. 在電子郵件設計工具中編輯電子郵件時，選取「 」 **[!UICONTROL Save as fragment]** 從主工具列。
 
    ![](assets/email_designer_save-as-fragment.png)
 
-1. 在工作区中，选择要构成片段的结构。
+1. 從工作區中，選取將構成片段的結構。
 
    ![](assets/email_designer_save-as-fragment_select.png)
 
    >[!NOTE]
    >
-   >确保选择彼此相邻且不包含个性化字段、动态内容或其他片段的结构。
+   >請務必選取彼此相鄰且不包含個人化欄位、動態內容或其他片段的結構。
    <!--You cannot select an empty structure.-->
 
 1. 单击 **[!UICONTROL Create]**。
 
-1. 根据需要添加标签和描述，然后单击 **[!UICONTROL Save]**.
+1. 視需要新增標籤和說明，然後按一下 **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. 要查找之前创建的片段，请转到 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+1. 若要尋找您剛才建立的片段，請前往 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 要使用新片段，请打开任何电子邮件内容，然后从片段列表中选择它。
+1. 若要使用新片段，請開啟任何電子郵件內容，然後從片段清單中選取它。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->的 [移动视图](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 在片段中不可用。 如果要编辑电子邮件移动视图，请先执行该操作，然后再将内容另存为片段。
+>此 [行動檢視](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 在片段中無法使用。 如果您想要編輯電子郵件行動檢視，請先編輯再將內容儲存為片段。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -297,28 +297,28 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Paste the HTML that you copied where appropriate.
 1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
-## 使用片段创建可重用页眉和页脚 {#header-footer-fragments}
+## 使用片段建立可重複使用的頁首和頁尾 {#header-footer-fragments}
 
-使用Email Designer，为每个可重用部分创建一个片段。 在此示例中，您将创建两个片段：一个用于页眉，一个用于页脚。 然后，您可以将现有内容中的相关部分复制到这些片段中。
+使用電子郵件設計工具，為每個可重複使用的區段建立片段。 在此範例中，您將建立兩個片段：一個用於頁首，一個用於頁尾。 然後，您可以將現有內容中的相關部分複製到這些片段中。
 
 为此请执行以下操作步骤：
 
-1. 在Adobe Campaign，转到 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 并为标头创建片段。 有关此内容的更多信息，请参阅 [创建内容片段](#creating-a-content-fragment).
-1. 向片段中添加所需数量的结构组件。
+1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 並為標題建立片段。 如需詳細資訊，請參閱 [建立內容片段](#creating-a-content-fragment).
+1. 視需要新增任意數量的結構元件至片段。
 
    ![](assets/des_loading_compatible_fragment_1.png)
 
-1. 在结构中插入图像和文本组件。
+1. 將影像和文字元件插入結構中。
 
    ![](assets/des_loading_compatible_fragment_2.png)
 
-1. 上传相应的图像，输入文本并调整设置。
+1. 上傳對應的影像、輸入文字並調整設定。
 
    ![](assets/des_loading_compatible_fragment_3.png)
 
-1. 保存片段。
-1. 以类似方式继续创建页脚并保存页脚。
+1. 儲存您的片段。
+1. 以類似方式繼續建立並儲存頁尾。
 
    ![](assets/des_loading_compatible_fragment_4.png)
 
-您的片段现已准备就绪，可在模板中使用。
+您的片段現在已準備好在範本中使用。

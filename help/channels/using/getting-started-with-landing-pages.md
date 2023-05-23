@@ -8,9 +8,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1025'
 ht-degree: 97%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 在此页中，您可以找到各个步骤的信息以及对专用文档的引用，以便获取更多详细信息。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建登陆页面](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索如何建立登入頁面](#video)
 
 **相关主题：**
 
@@ -132,10 +132,10 @@ ht-degree: 97%
 
 有关登录页发布的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示如何创建和编辑登陆页面。
+本影片說明如何建立和編輯登入頁面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

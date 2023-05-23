@@ -9,9 +9,9 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '447'
 ht-degree: 95%
 
 ---
@@ -78,10 +78,10 @@ ht-degree: 95%
 
 1. 单击 **[!UICONTROL Save]**（如果已输入更改），或选择测试用户档案的名称，然后在屏幕顶部选择 **[!UICONTROL Test profiles]** 以返回测试用户档案仪表板。
 
-## 教程视频 {#video}
+## 教學課程影片 {#video}
 
-此视频演示如何创建测试用户档案。
+本影片說明如何建立測試設定檔。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
