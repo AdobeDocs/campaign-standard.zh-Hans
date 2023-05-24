@@ -1,6 +1,6 @@
 ---
-title: 扩充数据库
-description: 了解扩充数据库的各种方法。
+title: 擴充資料庫
+description: 瞭解豐富資料庫的各種方法。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
@@ -15,57 +15,57 @@ ht-degree: 3%
 
 ---
 
-# 扩充数据库{#enriching-the-database}
+# 擴充資料庫{#enriching-the-database}
 
-Campaign Standard提供了多种工具来帮助您扩展营销数据库。 本节详细介绍可将数据注入Campaign的不同方法，以及对专用文档的引用。
+Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本節詳細說明您可用來將資料插入Campaign的不同方法，以及專用檔案的參考。
 
-## 通过工作流导入数据 {#importing-data-through-workflows}
+## 透過工作流程匯入資料 {#importing-data-through-workflows}
 
-工作流允许您收集数据，并通过使用 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) 活动。
+工作流程可讓您收集資料，並透過使用將其匯入Campaign資料庫 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) 活動。
 
-有关通过工作流导入数据时的一般信息和最佳实践，请参阅 [此部分](../../automating/using/about-data-import-and-export.md).
+透過工作流程匯入資料時的一般資訊和最佳實務會顯示在 [本節](../../automating/using/about-data-import-and-export.md).
 
-此外，您还可以设置模板以导入数据。 如果需要定期导入具有相同结构的文件，则使用导入模板是最佳做法。
+此外，您也可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，使用匯入範本是最佳實務。
 
-您可以设置两种类型的模板：
+您可以設定兩種範本：
 
-* **工作流模板**:这些是预配置的工作流，您可以根据需要设置一次，并在每次要导入数据和更新数据库时重复使用。
+* **工作流程範本**：這些是預先設定的工作流程，您可以視需要設定一次，並在每次想要匯入資料和更新資料庫時重複使用。
 
-   有关导入数据的工作流模板的示例，请参见 [此部分](../../automating/using/creating-import-workflow-templates.md).
+   有關匯入資料的工作流程範本範例，請參閱 [本節](../../automating/using/creating-import-workflow-templates.md).
 
-* **导入数据模板**:与工作流模板一样，这些模板基于工作流，用于上传文件以更新数据库。 配置完毕后，即可在 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 菜单。
+* **匯入資料範本**：和工作流程範本一樣，這些範本也是以工作流程為基礎的範本，這些範本設定為上傳檔案以更新資料庫。 設定完成後，使用者可在下方透過簡化的檢視加以使用 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 功能表。
 
-   有关导入数据模板的更多信息，请参阅 [专用文档](../../automating/using/importing-data-with-import-templates.md).
+   如需匯入資料範本的詳細資訊，請參閱 [專屬檔案](../../automating/using/importing-data-with-import-templates.md).
 
-## 从登陆页面收集数据 {#collecting-data-from-landing-pages}
+## 從登入頁面收集資料 {#collecting-data-from-landing-pages}
 
-登陆页是Web窗体，可用于收集数据并创建或更新数据库中的现有信息。
+登入頁面是網路表單，可用來收集資料，以及建立或更新資料庫中的現有資訊。
 
-原则如下：
+原理如下：
 
-* 通过添加用于收集数据的输入字段（名字、姓氏、电子邮件等），创建和设计登陆页面。
-* 将每个输入字段与数据库中的相应字段映射。
-* 通过网站或消息的直接链接，使登陆页面在线可用。
+* 新增輸入欄位以收集資料（名字、姓氏、電子郵件等），藉此建立並設計您的登入頁面。
+* 將每個輸入欄位與資料庫中的對應欄位對應。
+* 透過網站或直接連結至訊息，線上提供登入頁面。
 
-有关登陆页面的更多信息，请参阅 [专用文档](../../channels/using/getting-started-with-landing-pages.md).
+如需登入頁面的詳細資訊，請參閱 [專屬檔案](../../channels/using/getting-started-with-landing-pages.md).
 
-## 从Microsoft Dynamics 365同步用户档案
+## 從Microsoft Dynamics 365同步設定檔
 
-与Microsoft Dynamics 365的Campaign Standard集成允许您将联系人数据从Microsoft Dynamics 365传递到Campaign数据库。
-然后，这些联系人会显示在“用户档案”列表中，并可在营销活动中定位。
+與Microsoft Dynamics 365的Campaign Standard整合可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
+然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。
 
-有关此集成的更多信息，请参阅 [专用文档](../../integrating/using/d365-acs-get-started.md).
+如需此整合的詳細資訊，請參閱 [專屬檔案](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->请注意，Campaign Standard-Microsoft Dynamics 365连接器当前处于有限可用状态，且受多项限制的约束，详见文档中的说明。
+>請注意，Campaign Standard-Microsoft Dynamics 365聯結器目前處於「有限可用性」，並且受到數個限制的約束，詳情請參閱本檔案。
 
-## 通过API调用导入数据
+## 透過API呼叫匯入資料
 
-Campaign StandardAPI允许您执行操作来更新数据库，如用户档案或服务的创建、更新或删除。
+Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更新或刪除設定檔或服務。
 
-有关如何使用API的更多信息，请参阅 [专用文档](../../api/using/get-started-apis.md).
+如需如何使用API的詳細資訊，請參閱 [專屬檔案](../../api/using/get-started-apis.md).
 
 >[!IMPORTANT]
 >
->在通过API调用批量创建或更新用户档案之前，请检查与您的许可协议对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約對應的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。

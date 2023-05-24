@@ -1,6 +1,6 @@
 ---
-title: 关于隐私管理
-description: 进一步了解使用API进行隐私管理
+title: 關於隱私權管理
+description: 進一步瞭解API的隱私權管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# 关于隐私管理 {#about-privacy-management}
+# 關於隱私權管理 {#about-privacy-management}
 
-Campaign StandardAPI提供的功能允许自动处理与隐私法规（如GDPR和CCPA）相关的请求。
+Campaign Standard API提供的功能可讓您自動處理與隱私權法規（例如GDPR和CCPA）相關的請求。
 
-您可以执行的操作如下：
+您可以執行的動作如下：
 
-* 创建新的隐私请求，
-* 监控隐私请求，
-* 检索隐私数据文件，
-* 管理用户档案的CCPA选择退出状态。
+* 建立新的隱私權請求，
+* 監視隱私權請求，
+* 擷取隱私資料檔案，
+* 管理設定檔的CCPA選擇退出狀態。
 
-隐私API端点为 **/privacy/privacyTool**. 资源元数据中提供了PrivacyTool资源描述和关联的过滤器。 请参阅 [元数据机制](../../api/using/metadata-mechanism.md).
+隱私權API端點為 **/privacy/privacyTool**. PrivacyTool資源說明和關聯的篩選器可在資源中繼資料中取得。 另請參閱 [中繼資料機制](../../api/using/metadata-mechanism.md).
 
-CCPA选择退出使用 **ccpaOptOut** 配置文件属性。
+CCPA選擇退出會使用管理 **ccpapoptout** 設定檔屬性。
 
-有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅 [专用文档](../../start/using/privacy-requests.md).
+如需Adobe Campaign Standard和隱私權法規遵循的詳細資訊，請參閱 [專屬檔案](../../start/using/privacy-requests.md).

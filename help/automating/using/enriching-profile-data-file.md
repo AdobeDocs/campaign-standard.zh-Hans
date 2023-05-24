@@ -18,14 +18,14 @@ ht-degree: 75%
 
 # 使用文件中包含的数据扩充用户档案数据 {#enriching-profile-data-with-data-contained-in-a-file}
 
-此示例说明如何使用文件中包含的购买数据扩充用户档案数据。在此，我们考虑购买数据存储在第三方系统中。 每个用户档案都可以在文件中存储多次购买。该工作流的最终目标是向至少购买了两件物品的目标用户档案发送电子邮件，以感谢他们对于品牌的信任。
+此範例說明如何使用檔案中包含的購買資料擴充設定檔資料。我們認為購買資料儲存在協力廠商系統中。 每个用户档案都可以在文件中存储多次购买。该工作流的最终目标是向至少购买了两件物品的目标用户档案发送电子邮件，以感谢他们对于品牌的信任。
 
 工作流的配置如下所示：
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [查询](../../automating/using/query.md) 活动，定向接收消息的用户档案。
-* A [加载文件](../../automating/using/load-file.md) 活动来加载购买数据。 例如：
+* A [查詢](../../automating/using/query.md) 定位將接收訊息之設定檔的活動。
+* A [載入檔案](../../automating/using/load-file.md) 載入購買資料的活動。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -37,9 +37,9 @@ ht-degree: 75%
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   对于此示例文件，使用电子邮件地址将数据与数据库用户档案进行协调。 您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
+   在此範例檔案中，使用電子郵件地址來調解資料與資料庫設定檔。 您还可以启用唯一 ID，如[此文档](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* 安 [扩充](../../automating/using/enrichment.md) 活动，用于在从文件加载的交易数据与在 **[!UICONTROL Query]**. 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
+* 一個 [擴充](../../automating/using/enrichment.md) 在從檔案載入的交易資料與在中選取的設定檔之間建立連結的活動 **[!UICONTROL Query]**. 在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义链接。链接基于来自 **[!UICONTROL Load file]** 活动的过渡。工作流使用了用户档案资源的“email”字段和导入文件的“customer”列作为协调条件。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 75%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [分段](../../automating/using/segmentation.md) 活动，该活动仅检索至少记录了两次交易的初始目标的用户档案。 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
+* A [細分](../../automating/using/segmentation.md) 活動只有一個區段，可擷取至少已記錄兩個交易的初始目標設定檔。 仅进行了一次交易的用户档案将被排除。要实现此目的，应根据之前定义的聚合进行分段查询。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* 安 [电子邮件投放](../../automating/using/email-delivery.md) 使用 **[!UICONTROL Enrichment]** ，以动态检索用户档案进行的最后两次购买。 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
+* 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 使用中定義之其他資料的活動 **[!UICONTROL Enrichment]** 以動態擷取設定檔進行的最後兩次購買。 添加个性化字段时，**Additional data (TargetData)** 节点中会显示附加数据。
 
    ![](assets/enrichment_example_workflow10.png)
 

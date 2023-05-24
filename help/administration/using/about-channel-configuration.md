@@ -1,6 +1,6 @@
 ---
 title: 关于渠道配置
-description: 了解如何配置渠道，包括技术配置、消息属性和模板
+description: 瞭解如何設定頻道，包括技術設定、訊息屬性和範本
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 4%
 
 # 关于渠道配置{#about-channel-configuration}
 
-必须正确配置Adobe Campaign中的所有通信渠道，才能有效发送消息。
+必須正確設定Adobe Campaign中的所有通訊通道，才能有效傳送訊息。
 
-不同的配置如下所示：
+不同的設定如下：
 
-* 渠道的技术配置，包括路由、处理规则、投放能力参数等。
-* 消息模板和属性。 所有消息均基于模板。 Adobe Campaign提供了一组适用于所有激活渠道的预定义模板。 您可以复制和自定义这些模板。
-* 消息属性。 创建新消息时，您可以根据需要查找属性。
-* 某些渠道提供了其他可选配置，例如电子邮件密送。
+* 通道的技術設定，包括路由、處理規則、傳遞性引數等。
+* 訊息範本和屬性。 所有訊息都以範本為基礎。 Adobe Campaign隨附一組預先定義的範本，供所有已啟用的管道使用。 您可以複製和自訂這些範本。
+* 訊息屬性。 建立新訊息時，您可以視需要微調屬性。
+* 某些管道提供其他可選設定，例如電子郵件密件副本。
 
-的 **[!UICONTROL Channel]** 菜单可重组链接到不同应用程序渠道（电子邮件、短信）的技术参数，以及分类和隔离管理。
+此 **[!UICONTROL Channel]** 功能表會重新分組連結至不同應用程式通道（電子郵件、簡訊）的技術引數，以及型別和隔離管理。
 
-管理员可以在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单。
+管理員可以在以下位置存取這些設定： **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 功能表。

@@ -1,6 +1,6 @@
 ---
 title: 更新用户档案的组织实体
-description: 了解如何使用API更新用户档案的组织单位。
+description: 瞭解如何使用API更新設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 10%
 
 # 更新用户档案的组织实体 {#managing-organizational-units}
 
-1. 对执行GET请求 **orgUnitBase** 检索组织单位PKey的资源
-1. 对用户档案PKey执行PATCH请求，有效负载中包含所需的组织单位PKey。
+1. 對執行GET要求 **orgUnitBase** 用於擷取組織單位Key的資源
+1. 在設定檔PKey上執行PATCH請求，並在承載中使用所需的組織單位PKey。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-检索组织单位列表。
+擷取組織單位清單。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有组织单位。 检索要将配置文件分配到的单位的PKey。
+它會傳回所有組織單位。 擷取要指派設定檔的單位的PKey。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-对用户档案执行PATCH请求，有效载荷中包含所需组织单位的PKey。
+在設定檔上執行PATCH請求，並在裝載中使用所需組織單位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

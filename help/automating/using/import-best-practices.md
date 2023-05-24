@@ -1,6 +1,6 @@
 ---
 title: 导入最佳实践
-description: 进一步了解将数据导入数据库时要遵循的最佳实践。
+description: 進一步瞭解將資料匯入資料庫時遵循的最佳實務。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,46 +18,46 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->使用此功能时，请牢记SFTP存储、数据库存储和根据您的Adobe Campaign合同规定的活动配置文件限制。
+>使用此功能時，請記住Adobe Campaign合約中的SFTP儲存、DB儲存和作用中設定檔限制。
 
-谨慎并遵循下面详述的几个简单规则，将有助于确保数据库内的数据一致性，并避免在数据库更新或数据导出期间出现常见错误。
+請謹慎行事，並遵循以下所詳述的幾個簡單規則，有助於確保資料庫內的資料一致性，以及避免在資料庫更新或資料匯出期間發生常見錯誤。
 
-## 使用导入模板 {#using-import-templates}
+## 使用匯入範本 {#using-import-templates}
 
-大多数导入工作流应包含以下活动： **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+大部分匯入工作流程都應該包含下列活動： **[!UICONTROL Load file]**， **[!UICONTROL Reconciliation]**， **[!UICONTROL Segmentation]**， **[!UICONTROL Deduplication]**， **[!UICONTROL Update data]**.
 
-使用导入模板可以非常方便地准备类似的导入，并确保数据库中的数据一致性。
+使用匯入範本可以非常方便地準備類似的匯入，並確保資料庫內的資料一致性。
 
-在许多项目中，导入是在没有 **[!UICONTROL Deduplication]** 活动，因为项目中使用的文件没有重复项。 有时会从导入不同的文件中显示重复项。 因此，重复数据消除会很困难。 因此，在所有导入工作流中，重复数据删除步骤都是一种良好的预防措施。
+在許多專案中，匯入是在下列情況下建立的： **[!UICONTROL Deduplication]** 活動，因為專案中使用的檔案沒有重複專案。 匯入不同檔案時有時會出現重複專案。 因此，去重複化相當困難。 因此，重複資料刪除步驟是所有匯入工作流程中的良好預防措施。
 
-请不要假定传入数据是一致且正确的，或者IT部门或Adobe Campaign主管将负责处理。 在项目期间，请牢记数据清理。 在导入数据时，删除重复项、协调并维护一致性。
+請勿以為傳入的資料一致且正確，或IT部門或Adobe Campaign主管會處理。 在專案期間，請記得要清除資料。 匯入資料時，請進行重複資料刪除、調解及維持一致性。
 
-有关专为导入数据而设计的通用工作流模板的示例，请参阅 [示例：导入工作流模板](../../automating/using/creating-import-workflow-templates.md) 中。
+為匯入資料而設計的一般工作流程範本範本範例可在 [範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md) 區段。
 
 >[!NOTE]
 >
->您还可以使用 [导入模板](../../automating/using/importing-data-with-import-templates.md). 工作流模板是由管理员定义的工作流模板，一旦激活，管理员将只提供指定包含要导入数据的文件的可能性。
+>您也可以使用 [匯入範本](../../automating/using/importing-data-with-import-templates.md). 它們是管理員定義的工作流程範本，一旦啟用，只能提供指定要匯入之資料所在檔案的可能性。
 
 **相关主题：**
 
-* [加载文件活动](../../automating/using/load-file.md)
-* [协调活动](../../automating/using/reconciliation.md)
+* [載入檔案活動](../../automating/using/load-file.md)
+* [調解活動](../../automating/using/reconciliation.md)
 * [分段活动](../../automating/using/segmentation.md)
-* [重复数据删除活动](../../automating/using/deduplication.md)
-* [更新数据活动](../../automating/using/update-data.md)
+* [重複資料刪除活動](../../automating/using/deduplication.md)
+* [更新資料活動](../../automating/using/update-data.md)
 
-## 使用平面文件格式 {#using-flat-file-formats}
+## 使用一般檔案格式 {#using-flat-file-formats}
 
-导入的最有效格式是平面文件。 平面文件可以在数据库级别以批量模式导入。
+匯入時最有效的格式是平面檔案。 您可以在資料庫層級以大量模式匯入平面檔案。
 
 例如：
 
-* 分隔符：制表符或分号
-* 带标题的第一行
-* 无字符串分隔符
-* 日期格式：YYYY/MM/DD HH:mm:SS
+* 分隔符號：定位字元或分號
+* 具有標題的第一行
+* 無字串分隔符號
+* 日期格式： YYYY/MM/DD HH:mm:SS
 
-要导入的文件示例：
+要匯入的檔案範例：
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -67,27 +67,27 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## 使用压缩 {#using-compression}
+## 使用壓縮 {#using-compression}
 
-尽可能使用压缩文件进行导入和导出。 默认支持GZIP。 您可以在导入文件时添加预处理，或在提取数据时添加后处理(分别在 **[!UICONTROL Load file]** 和 **[!UICONTROL Extract file]** 工作流活动。
+儘可能將壓縮檔案用於匯入和匯出。 預設支援GZIP。 您可以在匯入檔案時新增前置處理，或在擷取資料時新增後置處理(分別在 **[!UICONTROL Load file]** 和 **[!UICONTROL Extract file]** 工作流程活動。
 
 **相关主题：**
 
-* [加载文件活动](../../automating/using/load-file.md)
-* [提取文件活动](../../automating/using/extract-file.md)
+* [載入檔案活動](../../automating/using/load-file.md)
+* [擷取檔案活動](../../automating/using/extract-file.md)
 
-## 在增量模式下导入 {#importing-in-delta-mode}
+## 在Delta模式下匯入 {#importing-in-delta-mode}
 
-必须在增量模式下进行常规导入。 这意味着每次只会向Adobe Campaign发送已修改或新数据，而不是整个表。
+一般匯入必須在差異模式下完成。 這表示只會傳送已修改或新的資料至Adobe Campaign，而非每次都傳送整個表格。
 
-完全导入仅应用于初始加载。
+完整匯入僅能用於初始載入。
 
-## 保持一致性 {#maintaining-consistency}
+## 維護一致性 {#maintaining-consistency}
 
-要保持Adobe Campaign数据库中的数据一致性，请遵循以下原则：
+若要維護Adobe Campaign資料庫中資料的一致性，請遵循下列原則：
 
-* 如果导入的数据与Adobe Campaign中的引用表匹配，则应将其与工作流中的该表协调。 不匹配的记录应被拒绝。
-* 确保导入的数据始终为 **&quot;标准化&quot;** （电子邮件、电话号码、直邮地址），且此标准化是可靠的，在几年内不会发生更改。 如果情况不同，数据库中可能会出现一些重复项，并且由于Adobe Campaign不提供用于执行“模糊”匹配的工具，因此很难管理和删除这些重复项。
-* 事务型数据应具有协调键值并与现有数据协调，以避免创建重复项。
-* **按顺序导入相关文件**. 如果导入由多个相互依赖的文件组成，则工作流应确保按正确顺序导入文件。 文件失败时，不会导入其他文件。
-* **删除重复项**&#x200B;在导入数据时协调并保持一致性。
+* 如果匯入的資料符合Adobe Campaign中的參考表格，則應該與工作流程中的該表格進行調解。 不應拒絕不符合的記錄。
+* 確保匯入的資料一律 **&quot;normalized&quot;** （電子郵件、電話號碼、直接郵件地址），以及這項標準化是可靠的且不會隨著時間而改變。 如果不是這種情況，資料庫中可能會出現一些重複專案，而且由於Adobe Campaign不提供執行「模糊」比對的工具，因此將很難管理和移除它們。
+* 交易式資料應具有調解金鑰，並與現有資料調解，以避免建立重複專案。
+* **依序匯入相關檔案**. 如果匯入是由多個彼此相依的檔案所組成，則工作流程應確保檔案以正確的順序匯入。 當檔案失敗時，不會匯入其他檔案。
+* **重複資料刪除**，在匯入資料時調解並維持一致性。

@@ -1,6 +1,6 @@
 ---
 title: 投诉
-description: 通过现成投诉报告，了解将投放声明为垃圾邮件的时间。
+description: 透過投訴現成可用的報告，瞭解多少次傳遞被宣告為垃圾訊息。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 # 投诉{#complaints}
 
-的 **[!UICONTROL Complaints]** 报告会将收到最多声明的投放识别为垃圾邮件。
+此 **[!UICONTROL Complaints]** 報告會識別收到最多宣告為垃圾訊息的交付專案。
 
 ![](assets/delivery_reports_complaints.png)
 
-的 **触发器** 表按收件人域排序，显示已声明电子邮件或垃圾邮件的收件人数量。 表格的结果也显示在图表和概要数字中。
+此 **失敗** 表格會依收件者網域排序，顯示已宣告電子郵件或垃圾郵件的收件者人數。 該表的結果也可顯示在圖表和摘要數字中。
 
-的 **交付与阻止列表** 表格列出了声明电子邮件为垃圾邮件或垃圾邮件的收件人数量。 表按投放排序。
+此 **已傳遞與封鎖清單** 表格列出已將電子郵件宣告為垃圾郵件或垃圾郵件的收件者人數。 表格會依傳遞排序。

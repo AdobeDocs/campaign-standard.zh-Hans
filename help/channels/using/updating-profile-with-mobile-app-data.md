@@ -1,6 +1,6 @@
 ---
 title: 基于移动应用程序数据创建和更新用户档案信息
-description: 了解如何根据移动应用程序数据创建和更新用户档案信息。
+description: 瞭解如何根據行動應用程式資料建立和更新設定檔資訊。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -20,114 +20,114 @@ ht-degree: 3%
 
 ## 概述
 
-本页介绍了开发工作流的步骤，该工作流在移动设备应用程序按计划发送Collect PII数据后创建/更新用户档案数据。
+本頁說明開發工作流程的步驟，該工作流程會在行動應用程式傳送收集PII資料後，依排程建立/更新設定檔資料。
 
-* **PII** 表示“个人身份信息”。 它可以是任何数据，包括Campaign数据库的“用户档案”表中未显示的信息，例如Analytics for Mobile [目标点](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII由移动设备应用程序开发人员定义，通常由营销人员定义。
-* **收集PII** 是从移动设备应用程序对Adobe Campaign Standard中的Rest API进行的HTTPPOST操作。
+* **PII** 代表「個人識別資訊」。 可以是任何資料，包括不會在Campaign資料庫的「設定檔」表格中顯示的資訊，例如Analytics for Mobile [地標](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII由行動應用程式開發人員定義，通常與行銷人員一起進行。
+* **收集PII** 是從行動應用程式對Adobe Campaign Standard中的Rest API執行HTTPPOST作業。
 
-此用例的目标是，如果移动设备应用程序返回的PII数据包含与用户档案相关的数据，则创建或更新Campaign Standard用户档案。
+如果行動應用程式傳回的PII資料包含設定檔相關資料，此使用案例的目標是建立或更新Campaign Standard設定檔。
 
 ## 先决条件
 
-要在Campaign Standard中启用推送通知，需遵循以下几个配置步骤，然后才能根据移动设备应用程序订阅数据创建或更新用户档案：
+若要在Campaign Standard中啟用推播通知，必須先執行數個設定步驟，才能根據行動應用程式訂閱資料建立或更新設定檔：
 
-1. [创建移动应用程序](../../administration/using/configuring-a-mobile-application.md)
-1. [将AdobeMobile SDK与您的移动应用程序集成](../../administration/using/supported-mobile-use-cases.md).
-1. [配置Adobe Campaign以发送推送通知](../../administration/using/configuring-a-mobile-application.md).
+1. [建立行動應用程式](../../administration/using/configuring-a-mobile-application.md)
+1. [將Adobe Mobile SDK與您的行動應用程式整合](../../administration/using/supported-mobile-use-cases.md).
+1. [設定Adobe Campaign以傳送推播通知](../../administration/using/configuring-a-mobile-application.md).
 
-## 步骤1 — 扩展用于推送通知/订阅的用户档案资源
+## 步驟1 — 擴充推播通知/訂閱的設定檔資源
 
-要使用PII数据创建或更新用户档案资源，必须首先使用所需字段扩展用户档案资源。 操作步骤：
+若要能夠使用PII資料建立或更新設定檔資源，您必須先使用所需欄位擴充設定檔資源。 操作步骤：
 
-* 识别移动设备应用程序发送的PII字段。
-* 确定用于协调的字段，以将PII数据与用户档案数据关联。
+* 識別行動應用程式傳送的PII欄位。
+* 識別要用於調解，以將PII資料與設定檔資料關聯的欄位。
 
 ![](assets/update_profile1.png)
 
-在本例中， **[!UICONTROL Fields]** 部分反映由移动设备应用程序发送的PII数据。 的 **[!UICONTROL Link to profiles]** 部分指示用于将PII与用户档案数据关联的字段，其中 **cusEmail** 映射到 **@email**.
+在此範例中， **[!UICONTROL Fields]** 區段會反映行動應用程式傳送的PII資料。 此 **[!UICONTROL Link to profiles]** 區段會指示用於關聯PII與設定檔資料的欄位，其中 **cusEmail** 將對應至 **@email**.
 
-扩展 **[!UICONTROL Subscriptions to an Application]** 资源为只读。 用于协调。 必须将用户档案输入到系统中，并包含使用PII数据协调用户档案的必要数据。 在我们的用例中，用户档案的电子邮件地址必须与Collect PII中的电子邮件匹配，才能进行协调：
+擴充時設定檔資料的對應 **[!UICONTROL Subscriptions to an Application]** 資源為唯讀。 它用於調解。 必須將設定檔與必要的資料輸入系統中，才能將設定檔與PII資料進行調解。 在我們的案例中，設定檔的電子郵件地址必須與收集PII的電子郵件相符，才能進行調解：
 
-* 如果用户的名字为“Jane”，姓氏为“Doe”，而电子邮件地址为janedoe@doe.com，则会从移动设备应用程序收到收集PII。
-* 另外，配置文件数据必须存在（例如，必须手动输入数据或数据已来自其他某些资源），其中配置文件的电子邮件地址为janedoe@doe.com。
+* 系統會從行動應用程式接收使用者的集合PII，使用者的名字為「Jane，姓氏為「Doe」，電子郵件地址為janedoe@doe.com。
+* 另外，設定檔的電子郵件地址為janedoe@doe.com時，設定檔資料必須存在（例如，資料必須手動輸入或來自其他資源）。
 
 **相关主题：**
 
 * [将订阅扩展到应用程序资源](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
-* [创建或扩展现有资源](../../developing/using/key-steps-to-add-a-resource.md).
+* [建立或擴充現有資源](../../developing/using/key-steps-to-add-a-resource.md).
 
-## 第2步 — 创建工作流
+## 步驟2 — 建立工作流程
 
-通过在Campaign Standard中使用工作流，管理员可以唯一标识AppSubscription（订阅者）数据与用户档案或收件人数据之间的数据并对其进行同步。 虽然基于工作流的更新不会实时同步配置文件数据，但它不应导致任何不适当的数据库锁定或开销。
+在Campaign Standard中使用工作流程可讓管理員唯一識別並同步AppSubscription （訂閱者）資料與設定檔或收件者資料之間的資料。 雖然工作流程式更新不會即時同步設定檔資料，但不應造成任何不必要的資料庫鎖定或額外負荷。
 
-构建工作流的主要步骤包括：
+建立工作流程的主要步驟如下：
 
-1. 使用 **[!UICONTROL Query]** 或 **[!UICONTROL Incremental query]** 活动以获取最新订阅列表。
-1. 使用 **[!UICONTROL Reconciliation]** 活动，以将PII数据与用户档案进行映射。
-1. 添加一些验证过程。
-1. 使用 **[!UICONTROL Update data]** 用于使用PII数据更新或创建用户档案。
+1. 使用 **[!UICONTROL Query]** 或 **[!UICONTROL Incremental query]** 活動，以取得最新訂閱的清單。
+1. 使用 **[!UICONTROL Reconciliation]** 活動，將PII資料與設定檔對應。
+1. 新增一些驗證程式。
+1. 使用 **[!UICONTROL Update data]** 以使用PII資料更新或建立設定檔。
 
-在此工作流中假定有以下要求：
+此工作流程會假設下列需求：
 
-* 已扩展的任何/所有字段都应可用于创建/更新用户档案表。
-* 配置文件表可以扩展为支持本机不支持的字段（例如，T恤衫大小）。
-* AppSubscription表中任何空白的字段均不应在“配置文件表”中更新。
-* AppSubscription表中已更新的任何记录都应包含在工作流的下次运行中。
+* 已擴展的任何/所有欄位應該可用於建立/更新設定檔表格。
+* 設定檔表格可延伸以支援原生不支援的欄位（例如T恤大小）。
+* AppSubscription表格中任何空白的欄位不應在設定檔表格中更新。
+* AppSubscription表格中更新的任何記錄都應包含在下一次執行的工作流程中。
 
-要构建工作流，请将以下活动拖放到工作区中，并将它们链接在一起： **[!UICONTROL Start]**, **[!UICONTROL Scheduler]**, **[!UICONTROL Incremental query]**, **[!UICONTROL Update data]**.
+若要建立工作流程，請將下列活動拖放至工作區，並將其連結在一起： **[!UICONTROL Start]**， **[!UICONTROL Scheduler]**， **[!UICONTROL Incremental query]**， **[!UICONTROL Update data]**.
 
 ![](assets/update_profile0.png)
 
-然后，按照以下步骤配置每个活动。
+然後依照下列步驟設定每個活動。
 
-### 配置 **[!UICONTROL Scheduler]** 活动
+### 設定 **[!UICONTROL Scheduler]** 活動
 
-在 **[!UICONTROL General]** 选项卡，设置 **[!UICONTROL Execution frequency]** （例如“每日”）， **[!UICONTROL Time]** (例如，“1:00:00 AM”), **[!UICONTROL Start]** （例如，“今天”日期）。
+在 **[!UICONTROL General]** 標籤，設定 **[!UICONTROL Execution frequency]** （例如「每日」）、 **[!UICONTROL Time]** (例如，「1」:00:00 AM」)，以及 **[!UICONTROL Start]** （例如，今天的日期）。
 
 ![](assets/update_profile2.png)
 
-### 配置 **[!UICONTROL Incremental query]** 活动。
+### 設定 **[!UICONTROL Incremental query]** 活動。
 
-1. 在 **[!UICONTROL Properties]** ，单击 **[!UICONTROL Select an element]** 图标 **[!UICONTROL Resource]** 字段，然后选择 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 元素。
+1. 在 **[!UICONTROL Properties]** 索引標籤，按一下 **[!UICONTROL Select an element]** 圖示 **[!UICONTROL Resource]** 欄位，然後選取 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 元素。
 
    ![](assets/update_profile3.png)
 
-1. 在 **[!UICONTROL Target]** 选项卡，拖动 **[!UICONTROL Mobile application]** 过滤器，然后选择移动设备应用程序名称。
+1. 在 **[!UICONTROL Target]** 標籤，拖曳 **[!UICONTROL Mobile application]** 篩選，然後選取行動應用程式名稱。
 
    ![](assets/update_profile4.png)
 
-1. 在 **[!UICONTROL Processed data]** 选项卡，选择 **[!UICONTROL Use a date field]**，然后添加 **[!UICONTROL Last modified (lastModified)]**  字段 **[!UICONTROL Path to the date field]**.
+1. 在 **[!UICONTROL Processed data]** 索引標籤，選取 **[!UICONTROL Use a date field]**，然後新增 **[!UICONTROL Last modified (lastModified)]**  欄位為 **[!UICONTROL Path to the date field]**.
 
    ![](assets/update_profile5.png)
 
-### 配置 **[!UICONTROL Update data]** 活动。
+### 設定 **[!UICONTROL Update data]** 活動。
 
-1. 在 **[!UICONTROL Identification]** 选项卡，确保 **[!UICONTROL Dimension to update]** 字段设置为“用户档案（用户档案）”，然后单击 **[!UICONTROL Create element]** 按钮以添加字段作为协调条件。
+1. 在 **[!UICONTROL Identification]** 索引標籤中，確認 **[!UICONTROL Dimension to update]** 欄位設為「設定檔（設定檔）」，然後按一下 **[!UICONTROL Create element]** 按鈕，將欄位新增為調解條件。
 
    ![](assets/update_profile_createelement.png)
 
-1. 在 **[!UICONTROL Source]** 字段中，从appSubscriptionRcp表中选择一个字段作为协调字段。 它可以是用户档案的电子邮件、crmId、marketingCloudId等。 在此示例中，使用“Email(cusEmail)”字段。
+1. 在 **[!UICONTROL Source]** 欄位，從appSubscriptionRcp表格中選取欄位作為調解欄位。 可以是設定檔的電子郵件、crmId、marketingCloudId等。 在此範例中，使用「電子郵件(cusEmail)」欄位。
 
-1. 在 **[!UICONTROL Destination]** 字段中，从用户档案表中选择一个字段以协调appSubscriptionRcp表中的数据。 它可以是用户档案的电子邮件，也可以是任何扩展字段，如crmId、marketingCloudId等。 在此示例中，我们需要选择“电子邮件（电子邮件）”字段，以将其映射到appSubscriptionRcp表中的“电子邮件(cusEmail)”字段。
+1. 在 **[!UICONTROL Destination]** 欄位，從設定檔表格中選取欄位，以調解appSubscriptionRcp表格中的資料。 可以是設定檔的電子郵件，或任何擴充欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以與appSubscriptionRcp表格中的「電子郵件(cusEmail)」欄位對應。
 
    ![](assets/update_profile7.png)
 
-1. 在 **[!UICONTROL Fields to update]** ，单击 **[!UICONTROL Create element]** 按钮，然后映射来自appSubscriptionRcp表(**[!UICONTROL Source]** 字段)，以及要在用户档案表格(**[!UICONTROL Destination]** 字段。
+1. 在 **[!UICONTROL Fields to update]** 索引標籤，按一下 **[!UICONTROL Create element]** 按鈕，然後對應來自appSubscriptionRcp表格的欄位(**[!UICONTROL Source]** 欄位)，其中包含您要更新至「設定檔」表格(**[!UICONTROL Destination]** 欄位)。
 
-1. 在 **[!UICONTROL Enabled if]** 字段中，添加表达式以确保仅在源字段包含值时才会更新“用户档案”表中的相应字段。 为此，请从列表中选择字段，然后添加“！=&quot;&quot;表达式(如果源字段为 `[target/@cusEmail]` 在表达式编辑器中，确保键入 `[target/@cusEmail] != ''"`)。
+1. 在 **[!UICONTROL Enabled if]** 欄位，新增運算式，以確保只有在來源欄位包含值時，才會更新設定檔表格中的對應欄位。 若要這麼做，請從清單中選取欄位，然後新增「！=&quot;&quot;運算式(如果「來源」欄位為 `[target/@cusEmail]` 在運算式編輯器中，請務必輸入 `[target/@cusEmail] != ''"`)。
 
    ![](assets/update_profile8.png)
 
 >[!NOTE]
 >
->在这种情况下，工作流会执行UPSERT，但由于它基于 **[!UICONTROL Incremental query]** 仅插入数据。 更改查询会影响要插入或更新的数据。
->此外，“要更新的字段”选项卡中的设置决定了在特定条件下插入或更新哪些字段。 每个应用程序或客户的这些设置可以是唯一的。
->配置这些设置时请务必小心，因为可能会产生意想不到的后果，因为根据appSubscriptionRcp数据更新配置文件中的记录可能会在未经验证的情况下更改用户个人信息。
+>在此情況下，工作流程會執行UPSERT，但由於它是根據 **[!UICONTROL Incremental query]** 僅插入資料。 變更查詢會影響要插入或更新哪些資料。
+>此外，要更新的欄位索引標籤中的設定會決定要在特定條件下插入或更新哪些欄位。 這些設定對於每個應用程式或客戶可能是唯一的。
+>在設定這些設定時請務必小心，因為可能會產生非預期的後果，因為根據appSubscriptionRcp資料更新設定檔中的記錄可能會變更使用者的個人資訊，而不經過驗證。
 
-在“配置文件”中添加要插入/更新的所有字段后，单击 **[!UICONTROL Confirm]**.
+在設定檔中新增要插入/更新的所有欄位後，按一下 **[!UICONTROL Confirm]**.
 
 ![](assets/update_profile9.png)
 
-保存工作流，然后单击 **[!UICONTROL Start]** 执行工作流。
+儲存工作流程，然後按一下 **[!UICONTROL Start]** 以執行工作流程。
 
 ![](assets/update_profile10.png)

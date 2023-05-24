@@ -1,6 +1,6 @@
 ---
 title: 为投放确定选择禁用的用户档案
-description: 了解如何为投放确定选择退出用户档案。
+description: 瞭解如何識別傳送的選擇退出設定檔。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 为投放确定选择禁用的用户档案{#identifying-opt-out-profiles-for-a-delivery}
 
-特定投放的选择退出用户档案将在准备阶段之后列出，位于 **[!UICONTROL Exclusion logs]** 选项卡。
+針對特定傳送的選擇退出設定檔會在準備階段後列出，位於 **[!UICONTROL Exclusion logs]** 傳遞控制面板的索引標籤。
 
 ![](assets/exclusion_blocklisting.png)
 

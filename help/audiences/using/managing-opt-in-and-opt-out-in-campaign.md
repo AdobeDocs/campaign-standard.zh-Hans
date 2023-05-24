@@ -1,6 +1,6 @@
 ---
 title: 管理 Campaign 中的选择启用和选择禁用
-description: 了解如何在Adobe Campaign中管理选择启用和选择禁用。
+description: 瞭解如何在Adobe Campaign中管理選擇加入和選擇退出。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,42 +17,42 @@ ht-degree: 8%
 
 # 管理 Campaign 中的选择启用和选择禁用{#managing-opt-in-and-opt-out-in-campaign}
 
-## 管理用户档案的选择启用和选择禁用 {#managing-opt-in-and-opt-out-from-a-profile}
+## 管理設定檔的選擇加入和選擇退出 {#managing-opt-in-and-opt-out-from-a-profile}
 
-操作员可以直接从用户档案中选择加入或退出用户 **[!UICONTROL General]** 选项卡。
+操作員可以直接從設定檔中選擇使用者加入或退出 **[!UICONTROL General]** 標籤。
 
-在 **[!UICONTROL No longer contact (on denylist)]** 部分，则选定的复选框对应于用户选择退出的渠道。 根据用户的需求选择渠道。
+在 **[!UICONTROL No longer contact (on denylist)]** 區段，選取的核取方塊會與使用者選擇退出的管道相對應。 根據使用者的需求選取頻道。
 
 ![](assets/optin_landingpage_3.png)
 
-## 设置选择启用和选择禁用登陆页面 {#setting-up-opt-in-and-opt-out-landing-pages}
+## 設定選擇加入和選擇退出登陸頁面 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-要允许用户选择启用或选择禁用，您必须创建并发布 **[!UICONTROL Profile acquisition]** 登陆页面。 然后，他们将能够根据自己的需求选择渠道。 为此，请执行以下步骤：
+若要讓使用者能夠選擇加入或選擇退出，您必須建立並發佈 **[!UICONTROL Profile acquisition]** 登陸頁面。 然後，他們便能依需求選取管道。 为此，请执行以下步骤：
 
-您还可以设置 **[!UICONTROL Denylist]** 登陆页面，让用户能够选择退出所有投放。 有关更多信息，请参阅 [设置登陆页面以选择退出所有投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+您也可以設定 **[!UICONTROL Denylist]** 可讓使用者選擇退出所有傳送的登陸頁面。 有關詳細資訊，請參閱 [設定登陸頁面以選擇退出所有傳遞](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->登陆页面还可用于启用服务订阅。 有关详细信息，请参见[此页面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
+>登入頁面也可用來啟用服務訂閱。 有关详细信息，请参见[此页面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
 
-1. 创建 **[!UICONTROL Profile acquisition]** 登陆页面(请参阅 [此部分](../../channels/using/getting-started-with-landing-pages.md))。
-1. 在登陆页面内容中为每个所需渠道添加一个复选框，然后将其链接到Campaign数据库中的相应字段。
+1. 建立 **[!UICONTROL Profile acquisition]** 登陸頁面(請參閱 [本節](../../channels/using/getting-started-with-landing-pages.md))。
+1. 在登入頁面內容中為每個所需管道新增核取方塊，然後將其連結到Campaign資料庫中對應的欄位。
 
    ![](assets/optin_landingpage_1.png)
 
-1. 保存登陆页面并发布该页面。
-1. 在登陆页面中，已根据用户档案选中相应的复选框 **[!UICONTROL General]** 选项卡。 用户可以根据需要选择或取消选择渠道并提交表单。
+1. 儲存登入頁面並發佈。
+1. 在登入頁面中，已根據設定檔選取核取方塊 **[!UICONTROL General]** 標籤。 使用者可以根據需要選擇或取消選擇管道並提交表單。
 
    ![](assets/optin_landingpage_2.png)
 
-1. 提交表单后，用户档案 **[!UICONTROL General]** 选项卡会根据用户的选择进行更新。
+1. 提交表單後，設定檔 **[!UICONTROL General]** 標籤會根據使用者的選擇更新。
 
    ![](assets/optin_landingpage_3.png)
 
-### 设置登陆页面以选择退出所有投放 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### 設定登陸頁面以選擇退出所有傳遞 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-要允许用户选择退出所有投放，您必须创建并发布 **[!UICONTROL Denylist]** 登陆页面。 有关创建登陆页面的更多信息，请参阅 [本页](../../channels/using/getting-started-with-landing-pages.md).
+若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈 **[!UICONTROL Denylist]** 登陸頁面。 如需建立登入頁面的詳細資訊，請參閱 [此頁面](../../channels/using/getting-started-with-landing-pages.md).
 
-用户单击登陆页面链接后， **[!UICONTROL No longer contact (by any channel)]** 选项。
+一旦使用者按一下登陸頁面連結， **[!UICONTROL No longer contact (by any channel)]** 設定檔中的選項會自動選取。
 
 ![](assets/blocklisting_allchannels.png)

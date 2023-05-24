@@ -38,8 +38,8 @@ ht-degree: 98%
 
 **相关主题：**
 
-* [用例：从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
-* [用例：将用户档案从文件订阅到特定服务](../../automating/using/subscribing-profiles-from-file.md)
+* [使用案例：從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
+* [使用案例：將設定檔從檔案訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 配置 {#configuration}
 

@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: “交付模板为大多数常见类型的活动提供现成的方案，从而提高了效率。”
+description: 「傳遞範本提供最常見活動型別的現成案例，有助於提高效率。」
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,82 +18,82 @@ ht-degree: 10%
 
 # 使用模板 {#use-templates}
 
-交付模板为大多数常见类型的活动提供现成方案，从而提高效率。 借助模板，营销人员可以在较短的时间内以最少的自定义时间部署新营销活动。
+傳遞範本為最常見的活動型別提供現成的案例，以提高效率。 透過範本，行銷人員可以在較短的時間內部署具有最小自訂度的新行銷活動。
 
-了解有关投放模板的更多信息，请参阅 [此部分](../../start/using/marketing-activity-templates.md).
+進一步瞭解中的傳遞範本 [本節](../../start/using/marketing-activity-templates.md).
 
-## 投放模板快速入门 {#gs-templates}
+## 開始使用傳遞範本 {#gs-templates}
 
-A [投放模板](../../start/using/marketing-activity-templates.md#creating-a-new-template) 允许您定义一组技术和功能属性，这些属性可满足您的需求，并可重复用于将来的投放。 然后，您可以节省时间并在需要时标准化投放。
+A [傳遞範本](../../start/using/marketing-activity-templates.md#creating-a-new-template) 可讓您定義一組符合您需求且可重複用於未來傳送的技術和功能屬性。 然後您可以節省時間，並在需要時標準化傳送。
 
-在Adobe Campaign中管理多个品牌时，Adobe建议每个品牌具有一个子域。 例如，银行可以具有与其每个区域机构对应的多个子域。 如果银行拥有bluebank.com域，则其子域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每个子域有一个投放模板可让您始终为每个品牌使用正确的预配置参数，从而避免出现错误并节省您的时间。
+當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌擁有一個子網域。 例如，銀行可以有數個子網域對應至其每個地區代理商。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域擁有一個傳遞範本，可讓您一律為每個品牌使用正確的預先設定引數，以避免錯誤並節省您的時間。
 
-**笔尖**:为避免Campaign中出现配置错误，我们建议您复制本机模板并更改其属性，而不是创建新模板。
+**秘訣**：為避免在Campaign中出現設定錯誤，建議您複製原生範本並變更其屬性，而非建立新範本。
 
-## 配置地址
+## 設定地址
 
-* 发件人的地址是允许发送电子邮件的必填地址。
+* 寄件者的地址為必填，才能傳送電子郵件。
 
-* 某些ISP（互联网服务提供商）在接受邮件前检查发件人地址的有效性。
+* 有些ISP （網際網路服務提供者）在接受訊息之前，會先檢查寄件者地址是否有效。
 
-* 地址格式不正确可能导致接收服务器拒绝该地址。 您必须确保提供正确的地址。
+* 格式錯誤的地址可能導致接收伺服器拒絕該地址。 您必須確定已提供正確的地址。
 
-* 地址必须明确标识发件人。 域必须由发件人拥有并注册。
+* 地址必須明確識別寄件者。 網域必須由寄件者擁有並註冊給寄件者。
 
-* Adobe建议创建与为投放和回复指定的地址对应的电子邮件帐户。 请咨询消息系统管理员。
+* Adobe建議建立對應至傳送和回覆所指定地址的電子郵件帳戶。 請洽詢您的傳訊系統管理員。
 
-在 **[!UICONTROL Advanced parameters]** 中的 **[!UICONTROL From (email address)]** 字段对应于发件人的地址。
+在 **[!UICONTROL Advanced parameters]** 電子郵件範本屬性的區段， **[!UICONTROL From (email address)]** 對應至寄件者地址的欄位。
 
 ![](assets/template-parameters.png)
 
-地址域必须与您配置的子域相同。
+位址網域必須與您設定的子網域相同。
 
-的 **[!UICONTROL Reply to]** 字段对应于用于回复的电子邮件地址和名称。
+此 **[!UICONTROL Reply to]** 欄位對應至用於回覆的電子郵件地址和名稱。
 
-**笔尖** -Adobe建议使用现有的实际地址，如您品牌的客户关怀。 在这种情况下，如果收件人发送了回复，客户关怀团队将能够处理该回复。
+**秘訣** -Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
 
-要更改将显示在发送邮件标题中的发件人名称，请转到 **[!UICONTROL Properties]**  （可通过主页图标访问），然后单击 **[!UICONTROL Default sender name]** 块。
+若要變更寄件者的名稱，使其顯示在傳送的訊息標題中，請前往 **[!UICONTROL Properties]**  電子郵件設計工具首頁的標籤（可透過首頁圖示存取），然後按一下 **[!UICONTROL Default sender name]** 區塊。
 
 ![](assets/template-content.png)
 
-为了提高投放的开始率，Adobe建议使用易于收件人识别的名称，如品牌名称。
+為了提高傳遞的開頭率，Adobe建議使用收件人可輕鬆識別的名稱，例如您的品牌名稱。
 
-**笔尖**  — 要进一步改善收件人的体验，您可以添加人员姓名，例如“Emma from Megastore”。
+**秘訣**  — 若要進一步改善收件者的體驗，您可以新增個人名稱，例如「Emma from Megastore」。
 
-有关个性化发件人名称的更多信息，请参阅 [电子邮件发件人](../../designing/using/subject-line.md#email-sender).
+如需個人化寄件者名稱的詳細資訊，請參閱 [電子郵件寄件者](../../designing/using/subject-line.md#email-sender).
 
-## 个性化短信发送者名称
+## 個人化SMS寄件者名稱
 
-在 **高级参数** 短信模板属性的部分， **从** 选项允许您使用字符串将短信消息发送者的名称个性化。 该名称在收件人的手机显示为短信消息的发送者。
+在 **進階引數** SMS範本屬性的區段， **從** 選項可讓您使用字串個人化SMS訊息寄件者的名稱。 该名称在收件人的手机显示为短信消息的发送者。
 
 如果此字段为空，则将显示所用外部帐户中提供的源号码。如果未提供源号码，则将使用短代码。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md)。
 
-**笔尖**  — 检查您所在国家/地区有关修改发件人地址的法律。 您还应与短信服务提供商进行核实，了解他们是否提供此功能。
+**秘訣**  — 檢查您所在國家/地區有關修改寄件者地址的法規。 您还应与短信服务提供商进行核实，了解他们是否提供此功能。
 
-## 设置控制组
+## 設定控制組
 
-发送投放后，您可以将被排除的收件人的行为与收到投放的收件人进行比较。 然后，您可以衡量营销活动的效率。 进一步了解控制组 [此部分](../../sending/using/control-group.md).
+傳送後，您可以將排除的收件者與收到傳送的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 進一步瞭解控制組 [本節](../../sending/using/control-group.md).
 
-## 使用分类来应用过滤器或控制规则
+## 使用型別來套用篩選器或控制規則
 
-分类包含在发送任何消息之前在分析阶段应用的检查规则。
+型別包含在傳送任何訊息之前，在分析階段套用的檢查規則。
 
-在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** ，请根据需要更改默认分类。
+在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 區段內，視需要變更預設型別。
 
-例如，为了更好地控制出站流量，您可以通过定义每个子域的一个亲和度并为每个亲和度创建一个分类来定义可以使用的IP地址。 相关性在实例的配置文件中定义。 联系您的Adobe Campaign管理员。
+例如，為了更能控制傳出流量，您可以定義可以使用哪些IP位址，方法是為每個子網域定義一個相似性，並為每個相似性建立一個型別。 相似性是在執行個體的組態檔案中定義。 請聯絡您的Adobe Campaign管理員。
 
-有关分类的更多信息，请参阅 [此部分](../../sending/using/managing-typologies.md).
+有關型別的詳細資訊，請參閱 [本節](../../sending/using/managing-typologies.md).
 
-## 将品牌链接到模板
+## 將品牌連結至範本
 
-与品牌标识相关的已发送电子邮件的参数（如品牌徽标或发件人地址）在Adobe Campaign中进行集中管理。 您可以创建一个或多个品牌并将其链接到投放模板。
+與品牌身分相關的已傳送電子郵件引數（例如品牌標誌或寄件者地址）可在Adobe Campaign中集中管理。 您可以建立一或多個品牌，並將其連結至傳遞範本。
 
-有关在Adobe Campaign中使用和配置品牌的更多信息，请参阅品牌策略。
+如需在Adobe Campaign中使用和設定品牌的詳細資訊，請參閱品牌。
 
-要显示或更改分配给投放模板的品牌，请选择该模板的编辑属性按钮，然后导航到该品牌的详细信息。
+若要顯示或變更指派給傳遞範本的品牌，請選取範本的「編輯屬性」按鈕，並導覽至品牌的詳細資料。
 
 ![](assets/template-brand.png)
 
-有关将品牌关联到模板的更多信息，请参阅 [为品牌分配电子邮件](../../administration/using/branding.md#assigning-a-brand-to-an-email).
+如需將品牌連結至範本的詳細資訊，請參閱 [將品牌指派給電子郵件](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-了解如何创建和配置品牌 [在此部分中](../../administration/using/branding.md#creating-a-brand).
+瞭解如何建立設定品牌 [在本節中](../../administration/using/branding.md#creating-a-brand).

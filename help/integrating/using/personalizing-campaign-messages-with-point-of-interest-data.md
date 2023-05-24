@@ -1,6 +1,6 @@
 ---
 title: 使用兴趣点数据个性化 Campaign 消息
-description: 了解如何通过Point of Interest数据集成，根据订阅者的位置创建个性化消息。
+description: 瞭解如何使用Point of Interest資料整合，根據訂閱者的位置建立個人化訊息。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -17,50 +17,50 @@ ht-degree: 10%
 
 # 使用兴趣点数据个性化 Campaign 消息{#personalizing-campaign-messages-with-point-of-interest-data}
 
-在Adobe Campaign中，您可以使用从移动应用程序的订阅者收集的兴趣点数据向他们发送个性化的营销消息，如电子邮件。
+在Adobe Campaign中，您可以使用從行動應用程式的訂閱者收集的Points of Interest資料，傳送個人化行銷訊息給他們，例如電子郵件。
 
-您只能通过标准投放对目标点数据做出反应。 [事务型消息](../../channels/using/getting-started-with-transactional-msg.md) 无法使用位置数据。
+您只能對Point of Interest資料使用標準傳遞做出反應。 [異動訊息](../../channels/using/getting-started-with-transactional-msg.md) 無法使用位置資料。
 
-你最早的反应是10分钟左右。
+最快反應時間約為10分鐘。
 
-在这种情况下，您决定在过去两周内向所有访问过您波士顿商店的订阅者发送电子邮件。
+在此情況下，您決定傳送電子郵件給過去兩週內造訪您波士頓商店的所有訂閱者。
 
-1. 创建电子邮件营销活动。
-1. 定义投放的受众时，拖放 **[!UICONTROL Subscriptions to an application]** 元素。
+1. 建立電子郵件行銷活動。
+1. 定義傳送的對象時，拖放 **[!UICONTROL Subscriptions to an application]** 元素加入至工作區。
 
    ![](assets/poi_subscriptions_app.png)
 
-   有关管理受众的详情，请参阅 [定义受众](../../audiences/using/creating-audiences.md) 中。
+   管理對象的詳細資訊請參閱 [定義對象](../../audiences/using/creating-audiences.md) 區段。
 
-1. 在 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 窗口，拖放 **[!UICONTROL POI Location Subscription]** 元素。
+1. 在 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 視窗，拖放 **[!UICONTROL POI Location Subscription]** 元素加入至工作區。
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. 在 **[!UICONTROL Add a rule - POI Location Subscription]** 窗口，输入要使用的目标点的标签。
+1. 在 **[!UICONTROL Add a rule - POI Location Subscription]** 視窗中，輸入您要使用之地標的標籤。
 
    ![](assets/poi_location_subscription.png)
 
 1. 在 **[!UICONTROL Filter type]** 字段中，选择 **[!UICONTROL Relative]**。
-1. 检查 **[!UICONTROL Preceding days]** 选项和输入 **[!UICONTROL 15]** 中。
-1. 定义用户必须访问目标点的次数。
-1. 单击 **[!UICONTROL Confirm]** 以保存受众。
+1. 檢查 **[!UICONTROL Preceding days]** 選項並輸入 **[!UICONTROL 15]** 在對應欄位中。
+1. 定義使用者必須已造訪興趣點的次數。
+1. 按一下 **[!UICONTROL Confirm]** 以儲存您的對象。
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. 向电子邮件中添加内容。
+1. 新增內容至您的電子郵件。
 
    ![](assets/poi_email_content.png)
 
-1. 确认创建活动以查看电子邮件的功能板。
-1. 发送您的邮件。
+1. 確認建立活動以檢視電子郵件的控制面板。
+1. 傳送您的訊息。
 
-具有10%折扣优惠的电子邮件将发送给以下订阅者：
+具有10%折扣優惠的電子郵件將傳送給以下訂閱者：
 
-* 在过去两周内，至少访问了您的波士顿商店一次。
-* 在访问期间，将您的移动设备应用程序至少放在前台一次。
+* 過去兩週內至少造訪過您位於波士頓的店舖一次。
+* 造訪期間至少將行動應用程式置於前景一次。
 
 **相关主题：**
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [定义内容](../../designing/using/personalization.md#example-email-personalization)
+* [定義內容](../../designing/using/personalization.md#example-email-personalization)
 * [发送消息](../../sending/using/confirming-the-send.md)

@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign Standard中监控投放能力
-description: 使用Adobe Campaign Standard提供的工具监控平台的投放能力。
+title: 在Adobe Campaign Standard中監控傳遞能力
+description: 使用Adobe Campaign Standard提供的工具來監控平台的傳遞能力。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,39 +18,39 @@ ht-degree: 10%
 
 # 监测可投放性{#monitor-deliverability}
 
-在下面，您将找到 **[!UICONTROL Delivery throughput]** 报告以及Adobe Campaign提供的不同监控工具。 以下是有关投放能力监控的其他一些准则：
-* 定期检查整个平台的投放吞吐量，以验证它是否与原始设置一致。
-* 检查投放模板中是否正确设置了重试（重试时间为30分钟，重试次数超过20次）。
-* 定期验证退回邮箱是否可访问，以及帐户是否不会过期。
-* 检查每个投放吞吐量，以确保其与投放内容的有效性(例如，“flash sales”应在数分钟（而非数天）内交付。
-* 检查错误和新隔离的数量是否与其他投放一致。
-* 请仔细查阅投放日志，以检查突出显示的错误类型(阻止列表、DNS问题、反垃圾邮件规则等)。
+您將會在下方找到 **[!UICONTROL Delivery throughput]** 以及Adobe Campaign提供的各種監控工具。 以下是有關傳遞能力監視的其他准則：
+* 定期檢查整個平台的傳遞輸送量，以確認其是否與原始設定一致。
+* 檢查傳遞範本中重試的設定是否正確（重試期間為30分鐘，重試次數超過20次）。
+* 定期確認可存取彈回信箱，且帳戶不會過期。
+* 檢查每個傳遞輸送量，確保其與傳遞內容的有效性一致（例如「閃光銷售」應在幾分鐘內傳遞，而不是幾天）。
+* 檢查錯誤和新隔離的次數是否與其他傳送一致。
+* 仔細查閱傳送記錄檔的詳細資料，以檢查醒目提示的錯誤型別（封鎖清單、DNS問題、反垃圾郵件規則等……）。
 
 ## 投放吞吐量 {#delivery-throughput}
 
-此报表包含有关整个平台在给定时段内的投放吞吐量的信息，用于测量消息的投放速度。
+此報表包含指定期間內整個平台的傳遞輸送量資訊，以測量傳遞訊息的速度。
 
-有关此内容的更多信息，请参阅 [投放吞吐量](../../reporting/using/delivery-throughput.md).
+如需詳細資訊，請參閱 [傳遞總處理能力](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
-您可以通过更改时间刻度来配置显示的值。
+您可以透過變更時標來設定顯示的值。
 
-其他报表可用，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**. 有关此内容的更多信息，请参阅 [动态报告](../../reporting/using/about-dynamic-reports.md).
+有其他報表可供使用，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**. 如需詳細資訊，請參閱 [動態報告](../../reporting/using/about-dynamic-reports.md).
 
 ## 监控投放 {#monitoring-deliveries}
 
-利用消息仪表板，可访问投放日志： **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**. 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+訊息控制面板可讓您存取傳遞記錄： **[!UICONTROL Sending logs]**， **[!UICONTROL Exclusion logs]**， **[!UICONTROL Exclusion causes]**， **[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**. 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
-有关此内容的更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
+如需詳細資訊，請參閱 [監控傳遞](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
-## 接收警报 {#receiving-alerts}
+## 接收警示 {#receiving-alerts}
 
-的 **[!UICONTROL Delivery alerting]** 功能是一个警报管理系统，通过该系统，一组用户可自动接收包含其投放执行信息的通知。
+此 **[!UICONTROL Delivery alerting]** 功能是一種警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。
 
-有关此内容的更多信息，请参阅 [在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md).
+如需詳細資訊，請參閱 [發生故障時接收警示](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

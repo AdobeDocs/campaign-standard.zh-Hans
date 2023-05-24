@@ -1,6 +1,6 @@
 ---
-title: 动态报告疑难解答
-description: 请在此处找到与动态报告相关的常见问题。
+title: 疑難排解動態報告
+description: 在此處尋找與動態報告相關的常見問題。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
@@ -11,32 +11,32 @@ exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # 故障排除{#troubleshooting}
 
-您可以在此部分中找到与动态报告相关的常见问题。
+您可以在本小節中找到與動態報告相關的常見問題。
 
-## 对于“唯一”打开数和“唯一”点击数，聚合行中的计数与各个行中的计数不匹配 {#unique-open-clicks-no-match}
+## 對於不重複開啟和不重複點按，彙總列中的計數與個別列中的計數不相符 {#unique-open-clicks-no-match}
 
-这是预期行为。
-我们可以以以下示例来解释此行为。
+這是預期行為。
+我們可藉由下列範例來說明此行為。
 
-向用户档案P1和P2发送电子邮件。
+電子郵件會傳送至設定檔P1和P2。
 
-P1在第一天打开电子邮件两次，第二天打开三次。
+P1會在第一天開啟電子郵件兩次，然後在第二天開啟樹狀結構次數。
 
-然而，P2会在第一天打开一次电子邮件，之后几天不会重新打开它。
-以下是用户档案与已发送电子邮件交互的直观表示形式：
+然而，P2會在第一天開啟電子郵件一次，且不會在後續幾天重新開啟。
+以下為設定檔與已傳送電子郵件互動的視覺化表示法：
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>打开</strong> <br /> </th> 
-   <th align="center"> <strong>唯一打开数</strong> <br /> </th> 
+   <th align="center"> <strong>独特打开次数</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -53,18 +53,18 @@ P1在第一天打开电子邮件两次，第二天打开三次。
  </tbody> 
 </table>
 
-要了解唯一打开的总数，我们需要汇总 **[!UICONTROL Unique Opens]** 这就给了我们3的价值。 但是，由于电子邮件仅定向到2个用户档案，因此打开率应显示150%。
+若要瞭解不重複開啟的總次數，我們需要計算 **[!UICONTROL Unique Opens]** 因此會提供值3。 但由於電子郵件目標僅為2個設定檔，因此開啟率應顯示150%。
 
-为了不获得高于100的百分比，定义 **[!UICONTROL Unique Opens]** 将维护为已打开的唯一broadlog数。 在这种情况下，即使P1在第1天和第2天打开了电子邮件，其唯一打开次数仍将为1。
+若要取得高於100的百分比，定義 **[!UICONTROL Unique Opens]** 會維持為已開啟的不重複broadlog數量。 在此情況下，即使P1在第1天和第2天開啟電子郵件，其唯一開啟次數仍將為1。
 
-这将产生下表：
+這會產生下表：
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>打开</strong> <br /> </th> 
-   <th align="center"> <strong>唯一打开数</strong> <br /> </th> 
+   <th align="center"> <strong>独特打开次数</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -88,39 +88,39 @@ P1在第一天打开电子邮件两次，第二天打开三次。
 
 >[!NOTE]
 >
->独特计数基于基于HLL的草图，这可能会在较大计数时造成轻微的不准确。
+>不重複計數是以HLL型草圖為基礎，這可能會導致大量計數稍有不準確。
 
-## 打开计数与数据库计数不匹配 {#open-counts-no-match-database}
+## 開啟計數與資料庫計數不符 {#open-counts-no-match-database}
 
-这可能是因为，在动态报告中使用启发式算法来跟踪打开次数，即使我们无法跟踪 **[!UICONTROL Open]** 操作。
+這可能是因為，動態報告中使用啟發式來追蹤開啟，即使我們無法追蹤 **[!UICONTROL Open]** 動作。
 
-例如，如果用户在其客户端上禁用了图像，然后单击电子邮件中的链接，则 **[!UICONTROL Open]** 数据库可能不会跟踪，但 **[!UICONTROL Click]** 中。
+例如，如果使用者在其使用者端上停用影像，然後按一下電子郵件中的連結， **[!UICONTROL Open]** 資料庫可能不會追蹤，但 **[!UICONTROL Click]** 會。
 
-因此， **[!UICONTROL Open]** 跟踪日志计数在数据库中可能不具有相同的计数。
+因此， **[!UICONTROL Open]** 追蹤記錄計數在資料庫中可能沒有相同的計數。
 
-此类发生次数将添加为 **“电子邮件点击意味着电子邮件打开”**.
+這類相符專案會新增為 **「電子郵件點按表示電子郵件已開啟」**.
 
 >[!NOTE]
 >
->由于独特计数基于基于HLL的草图，因此可能会遇到计数之间细微的不一致。
+>由於不重複計數是以HLL型草圖為基礎，因此可能會遇到計數之間的細微不一致。
 
-## 如何计算定期/事务性投放的计数？ {#counts-recurring-deliveries}
+## 如何計算週期性/交易式傳遞的計數？ {#counts-recurring-deliveries}
 
-使用定期投放和事务投放时，计数将同时归属于父投放和子投放。
-我们可以以名为 **R1** 设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)运行。
-假设只有一个人多次打开所有子投放。 在这种情况下，单个定期子投放将显示 **[!UICONTROL Open]** 计为1。
-但是，由于同一人点击了所有投放，因此父定期投放也将 **[!UICONTROL Unique open]** 作为1。
+處理循環和交易式傳送時，這些計數會同時歸因到父傳送和子傳送。
+我們以名為的循環傳遞為例 **R1** 設為在第1天(RC1)、第2天(RC2)和第3天(RC3)每天執行。
+假設只有一個人員多次開啟所有子傳送。 在此情況下，個別循環的子傳送將會顯示 **[!UICONTROL Open]** 各計為1。
+不過，由於同一人按一下所有傳送，因此父項循環傳送也將具有 **[!UICONTROL Unique open]** as 1.
 
-报表应如下所示：
+報表應如下所示：
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>投放</strong> <br /> </th> 
-   <th align="center"> <strong>已发送</strong> <br /> </th> 
-   <th align="center"> <strong>已交付</strong> <br /> </th>
+   <th align="center"> <strong>已傳送</strong> <br /> </th> 
+   <th align="center"> <strong>已傳遞</strong> <br /> </th>
    <th align="center"> <strong>打开</strong> <br /> </th> 
-   <th align="center"> <strong>唯一打开数</strong> <br /> </th>
+   <th align="center"> <strong>独特打开次数</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -155,38 +155,38 @@ P1在第一天打开电子邮件两次，第二天打开三次。
  </tbody> 
 </table>
 
-## 这些颜色在我的报表表格中的含义是什么？ {#reports-color-signification}
+## 顏色在報表表格中的意義為何？ {#reports-color-signification}
 
-报表中显示的颜色是随机排列的，无法进行个性化。 它们表示一个进度条，用于帮助您更好地突出显示报表中达到的最大值。
+報表上顯示的顏色是隨機的，無法個人化。 它們代表進度列，顯示以幫助您更好地強調報告中達到的最大值。
 
-在以下示例中，单元格的颜色相同，因为其值为100%。
+在以下範例中，儲存格的顏色相同，因為其值為100%。
 
 ![](assets/troubleshooting_1.png)
 
-如果您更改 **[!UICONTROL Conditional formatting]** 对于自定义，当值达到上限时，单元格将变得更绿。 然而，如果达到下限，它会变得更红。
+如果您變更 **[!UICONTROL Conditional formatting]** 若要自訂，當值達到上限時，儲存格會變得更綠色。 反之，如果達到下限，則會變紅。
 
-例如，在此，我们将 **[!UICONTROL Upper limit]** 到500和 **[!UICONTROL Lower limit]** 0。
+舉例來說，我們在此設定 **[!UICONTROL Upper limit]** 至500和 **[!UICONTROL Lower limit]** 至0。
 
 ![](assets/troubleshooting_2.png)
 
-## 为什么值N/A会显示在我的报表中？
+## 為什麼值N/A會出現在我的報表中？
 
 ![](assets/troubleshooting_3.png)
 
-值 **不适用** 有时会显示在动态报表中。 显示此参数的原因有三：
+值 **不適用** 有時也會出現在動態報告中。 顯示原因有三個：
 
-* 投放已删除，如下所示 **不适用** 不会造成结果不一致。
-* 拖放 **[!UICONTROL Transactional Delivery]** 维度，值 **不适用** 可能会显示为结果。 之所以会出现这种情况，是因为动态报告会获取每个投放，即使它们不是事务型投放。 在拖放 **[!UICONTROL Delivery]** 维度，但在本例中， **不适用** 值将表示事务型投放。
-* 当维度与与维度无关的量度一起使用时。 在以下示例中，添加了一个划分，其中包含 **[!UICONTROL Tracking URL]** 维度，即使 **[!UICONTROL Click]** 在此投放中，count被设置为0。
+* 傳遞已刪除，並在這裡顯示為 **不適用** 並不會造成結果不一致。
+* 拖放 **[!UICONTROL Transactional Delivery]** 維度至您的報表，值 **不適用** 可能會顯示結果。 這是因為動態報告會擷取每個傳遞，即使它們不是交易式傳遞。 拖放 **[!UICONTROL Delivery]** 維度，但在此案例中， **不適用** 值將代表交易式傳送。
+* 當維度搭配與維度無關的量度使用時。 在以下範例中，會新增劃分並包含 **[!UICONTROL Tracking URL]** 維度，即使 **[!UICONTROL Click]** 在此傳遞中，計數設為0。
 
    ![](assets/troubleshooting_4.png)
 
-## 使用自定义Target映射时，投放的报表显示不完整的数据
+## 使用自訂目標對應時，傳遞的報表顯示不完整的資料
 
-如果您在投放中使用导入的自定义目标映射，并且不同报表中未显示任何数据，则这可能意味着未为这些目标映射创建报表增量。
+如果您在傳遞中使用匯入的自訂Target對應，但不同報告中未顯示任何資料，這可能表示沒有為這些Target對應建立報告擴充功能。
 
-要解决此问题，请执行以下操作：
+若要解決此問題：
 
-* 从XML导入Target映射后，您还需要导入报告扩充。
+* 從XML匯入Target對應後，您也需要匯入Reporting擴充。
 
-* 您可以直接在Adobe Campaign Standard中创建Target映射，而不是导入Target映射，这将自动创建报表扩充。
+* 與其匯入Target對應，您可以直接在Adobe Campaign Standard中建立它，這會自動建立報表擴充。

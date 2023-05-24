@@ -38,7 +38,7 @@ ht-degree: 99%
 
 要创建和配置 **[!UICONTROL Fatigue]** 分类规则，请应用以下步骤：
 
-1. 单击界面左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. 按一下介面左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
@@ -113,7 +113,7 @@ ht-degree: 99%
 
 ## 定义阈值 {#defining-the-threshold}
 
-每个疲劳规则可定义一个阈值，即在指定时间段内可以向一个用户档案发送的消息数量上限。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除用户档案，从而避免过度通信。
+每个疲劳规则可定义一个阈值，即在指定时间段内可以向一个用户档案发送的消息数量上限。达到此阈值后，只有在所考虑的时段结束后，才会再进行投放。通过此流程，可在消息数量超过设置的阈值时，自动从投放中排除配置文件，从而避免过度通信。
 
 阈值可以是常量，也可以是变量。这意味着在指定的时间段内，阈值可能因用户档案而异，甚至对于同一用户档案也可能有所不同。
 

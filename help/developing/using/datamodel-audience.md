@@ -1,6 +1,6 @@
 ---
-title: 数据模型受众
-description: 了解数据模型
+title: DataModel對象
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -10,61 +10,61 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 16%
+ht-degree: 40%
 
 ---
 
-# 受众(nms:audience)
+# 對象(nms：audience)
 
-## 对象描述
+## 物件說明
 
 <table>
                <tr>
                   <th>名称</th>
                   <th>标签</th>
-                  <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>型別（長度）</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主资源ID</td>
+                  <td>主要資源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience Manager映射ID</td>
-                  <td>字符串(100)</td>
+                  <td>Audience Manager對應ID</td>
+                  <td>字串(100)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>amcDataSource(amcDataSourceBase)</td>
-                  <td>AMC数据源</td>
+                  <td>amcDataSource (amcDataSourceBase)</td>
+                  <td>AMC資料來源</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>预览选定群体</td>
+                  <td>預覽選取的母體</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>数据模式</td>
-                  <td>字符串(255)</td>
+                  <td>資料結構描述</td>
+                  <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>字符串(255)</td>
+                  <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>使用行号作为ID</td>
-                  <td>布尔 </td>
+                  <td>使用行號作為ID</td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -75,24 +75,24 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>计数日期</td>
-                  <td>日期 </td>
+                  <td>計數日期</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countPreview</td>
                   <td>CountPreview</td>
-                  <td>项目 </td>
+                  <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>已建立</td>
                   <td>已创建</td>
-                  <td>创建时间</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>创建者</td>
                   <td>链接 </td>
                   <td> </td>
@@ -100,49 +100,49 @@ ht-degree: 16%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>字符串(512)</td>
+                  <td>字串(512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>不要将此作业历史化</td>
-                  <td>布尔 </td>
+                  <td>不要将此作业归档</td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>中止前出错</td>
+                  <td>中止前的错误</td>
                   <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
-                  <td>过期时间</td>
-                  <td>日期 </td>
+                  <td>截止于</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit(geoUnitBase)</td>
+                  <td>geoUnit (geoUnitBase)</td>
                   <td>地理单位</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>hasSchema</td>
+                  <td>hasschema</td>
                   <td>HasSchema</td>
-                  <td>布尔 </td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud受众</td>
-                  <td>布尔 </td>
+                  <td>Adobe Marketing Cloud對象</td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>是外部资源</td>
-                  <td>布尔 </td>
+                  <td>為外部資源</td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,17 +154,17 @@ ht-degree: 16%
                <tr>
                   <td>label</td>
                   <td>标签</td>
-                  <td>字符串(128)</td>
+                  <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
+                  <td>modifiedBy (userBase)</td>
                   <td>修改者</td>
                   <td>链接 </td>
                   <td> </td>
@@ -172,11 +172,11 @@ ht-degree: 16%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>字符串(64)</td>
+                  <td>字串(64)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit(orgUnitBase)</td>
+                  <td>orgUnit (orgUnitBase)</td>
                   <td>组织实体</td>
                   <td>链接 </td>
                   <td> </td>
@@ -188,59 +188,59 @@ ht-degree: 16%
                   <td> </td>
                </tr>
                <tr>
-                  <td>sharedAudience</td>
-                  <td>共享受众的名称</td>
-                  <td>项目 </td>
+                  <td>sharedaudience</td>
+                  <td>共用對象的名稱</td>
+                  <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>来源</td>
-                  <td>来源</td>
-                  <td>项目 </td>
+                  <td>源</td>
+                  <td>源</td>
+                  <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>源Id</td>
+                  <td>源 Id</td>
                   <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>受众</td>
-                  <td>字符串(255)</td>
+                  <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
                   <td>类型</td>
-                  <td>枚举（字符串）(100)</td>
+                  <td>类型</td>
+                  <td>分項清單（字串） (100)</td>
                   <td>
                      <ul>
-                        <li>查询 — 查询 — 查询</li>
-                        <li>列表 — 列表 — 列表</li>
-                        <li>文件 — 文件 — 文件</li>
-                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>查詢 — 查詢 — 查詢</li>
+                        <li>清單 — 清單 — 清單</li>
+                        <li>檔案 — 檔案 — 檔案</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>where</td>
+                  <td>位置</td>
                   <td>查询定义</td>
-                  <td>项目 </td>
+                  <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>工作流（工作流）</td>
+                  <td>工作流程（工作流程）</td>
                   <td>工作流</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 过滤器
+## 筛选器
 
-通过筛选维度(byFilteringResource)
+依篩選維度(byFilteringResource)
 
 <table>
     <tr>
@@ -253,7 +253,7 @@ ht-degree: 16%
     </tr>
 </table>
 
-按名称或标签(byText)
+依名稱或標籤(byText)
 
 <table>
     <tr>
@@ -261,12 +261,12 @@ ht-degree: 16%
     <th>类型</th>
     </tr>
     <tr>
-    <td>文本</td>
+    <td>文字</td>
     <td>字符串</td>
     </tr>
 </table>
 
-按类型（按类型）
+依型別(byType)
 
 <table>
     <tr>
@@ -274,8 +274,8 @@ ht-degree: 16%
     <th>类型</th>
     </tr>
     <tr>
-    <td>type</td>
-    <td>明细列表</td>
+    <td>类型</td>
+    <td>分項清單</td>
     </tr>
     <tr>
     <td>isAMC</td>

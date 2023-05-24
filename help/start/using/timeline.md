@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 90%
 
 蓝色的垂直线条是用于突出显示当前日期的时间顺序标记。默认情况下，该线条位于屏幕中间。您可以在屏幕中向右或向左滚动以修改显示的时段。
 
-使用图标；
+使用這些圖示可進行；
 
-* ![](assets/timeline_zoom_in.png) 缩短周长，或在显示天数之前，在更有限的时间段内提高详细信息级别
-* ![](assets/timeline_zoom_out.png) 增加周长，或显示更长的时间范围
+* ![](assets/timeline_zoom_in.png) 在顯示天數之前，請縮短周長，或增加較有限期間的詳細程度
+* ![](assets/timeline_zoom_out.png) 增加周長，或顯示較大的時間範圍
 
 单击每个项目名称右侧的箭头，可显示相应的内容。项目可以包含子项目、营销策划和登陆页面。营销策划的部署方式与项目相同，可包含电子邮件、短信和登陆页面。
 
@@ -50,7 +50,7 @@ ht-degree: 90%
 * ![](assets/timeline_program_icon.png) 项目
 * ![](assets/timeline_campaign_icon.png) 营销活动
 * ![](assets/timeline_lp_icon.png) 登陆页面
-* ![](assets/timeline_email_icon.png)电子邮件
+* ![](assets/timeline_email_icon.png) 电子邮件
 * ![](assets/timeline_sms_icon.png) 短信
 * ![](assets/timeline_push_icon.png) 推送通知
 

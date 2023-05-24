@@ -1,6 +1,6 @@
 ---
 title: 将数据从 Campaign 导出到 Adobe Experience Platform
-description: 了解如何将数据从Campaign Standard导出到Adobe Experience Platform。
+description: 瞭解如何將資料從Campaign Standard匯出至Adobe Experience Platform。
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -15,33 +15,33 @@ ht-degree: 6%
 
 # 将数据从 Campaign 导出到 Adobe Experience Platform {#sources}
 
-要将Campaign Standard数据导出到Adobe Real-time Customer Data Platform(RTCDP)，您首先需要在Campaign Standard中构建一个工作流，以将要共享的数据导出到Amazon存储服务(S3)或Azure Blob存储位置。
+若要將Campaign Standard資料匯出至Adobe Real-time Customer Data Platform (RTCDP)，您首先需要在Campaign Standard中建立工作流程，以將您要共用的資料匯出至您的Amazon儲存服務(S3)或Azure Blob儲存位置。
 
-配置工作流并将数据发送到您的存储位置后，您需要将S3或Azure Blob存储位置作为 **来源** Adobe体验平台中。
+設定好工作流程並將資料傳送至您的儲存位置後，您需要將S3或Azure blob儲存位置連線為 **來源** 在Adobe Experience Platform中。
 
 >[!NOTE]
 >
->请注意，我们建议仅导出Campaign生成的数据（例如，发送、打开、点击等） Adobe Experience Platform。 从第三方源（如CRM）摄取的数据应直接导入Adobe Experience Platform。
+>請注意，我們建議僅匯出Campaign產生的資料（例如傳送、開啟、點按等） 至Adobe Experience Platform。 從第三方來源（例如您的CRM）擷取的資料應直接匯入至Adobe Experience Platform。
 
-## 在Campaign Standard中创建导出工作流
+## 在Campaign Standard中建立匯出工作流程
 
-要将Campaign Standard中的数据导出到S3或Azure Blob存储位置，您需要构建一个工作流以定向要导出的数据并将其发送到您的存储位置。
+若要將資料從Campaign Standard匯出至您的S3或Azure Blob儲存位置，您需要建立工作流程以定位您要匯出的資料，並將其傳送至您的儲存位置。
 
-为此，请添加和配置：
+要執行此操作，請新增並設定：
 
-* A **[!UICONTROL Extract file]** 活动，以将目标数据提取到CSV文件。 有关如何配置此活动的更多信息，请参阅 [此部分](../../automating/using/extract-file.md).
+* A **[!UICONTROL Extract file]** 活動以將目標資料擷取至CSV檔案。 有關如何設定此活動的詳細資訊，請參閱 [本節](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
-* A **[!UICONTROL Transfer file]** 活动，以将CSV文件传输到您的存储位置。 有关如何配置此活动的更多信息，请参阅 [此部分](../../automating/using/transfer-file.md).
+* A **[!UICONTROL Transfer file]** 將CSV檔案傳輸至儲存位置的活動。 有關如何設定此活動的詳細資訊，請參閱 [本節](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
-例如，以下工作流会定期将日志提取到CSV文件中，然后将文件传输到存储位置。
+例如，以下工作流程會定期將記錄擷取到CSV檔案，然後將檔案傳輸至儲存位置。
 
 ![](assets/aep-export.png)
 
-在 [工作流用例](../../automating/using/about-workflow-use-cases.md#management) 中。
+資料管理工作流程的範例可參見： [工作流程使用案例](../../automating/using/about-workflow-use-cases.md#management) 區段。
 
 相关主题：
 
@@ -49,27 +49,27 @@ ht-degree: 6%
 * [关于数据导入和导出](../../automating/using/about-data-import-and-export.md)
 
 
-## 作为源连接存储位置
+## 以來源連線您的儲存位置
 
-将Amazon存储服务(S3)或Azure Blob存储位置作为 **来源** 在Experience Platform中，如下所示。 有关每个步骤的详细信息，请参阅 [源连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans).
+將您的Amazon儲存服務(S3)或Azure Blob儲存位置連線為 **來源** Experience Platform的Adobe如下所列。 有關上述每個步驟的詳細資訊，請參閱 [來源聯結器檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans).
 
-1. 在Adobe Experience Platform中 **[!UICONTROL Sources]** 菜单，请创建与存储位置的连接：
+1. 在Adobe Experience Platform **[!UICONTROL Sources]** 功能表，建立與儲存位置的連線：
 
-   * [创建Amazon S3源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
-   * [Azure Blob连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
+   * [建立Amazon S3來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [Azure Blob聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
 
    >[!NOTE]
    >
-   >存储位置可以是Amazon S3、带密码的SFTP、带SSH密钥的SFTP或Azure Blob连接。 将数据发送到Adobe Campaign的首选方法是通过Amazon S3或Azure Blob:
+   >儲存位置可以是Amazon S3、使用密碼的SFTP、使用SSH金鑰的SFTP或Azure Blob連線。 將資料傳送至Adobe Campaign的偏好方法是透過Amazon S3或Azure Blob：
 
    ![](assets/rtcdp-connector.png)
 
-1. 为云存储批处理连接配置数据流。 数据流是一项计划任务，用于从存储位置检索数据并将其摄取到Adobe Experience Platform数据集。 此步骤允许您配置从存储位置摄取的数据，包括数据选择和CSV字段映射到XDM架构。
+1. 設定雲端儲存批次連線的資料流。 資料流是一種排程工作，會從儲存位置擷取資料並擷取資料至Adobe Experience Platform資料集。 此步驟可讓您從儲存位置設定資料擷取，包括資料選擇和CSV欄位與XDM結構描述的對應。
 
-   有关详细信息可在 [本页](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
+   如需詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
 
    ![](assets/rtcdp-map-xdm.png)
 
-1. 配置源后，Adobe Experience Platform将从您提供的存储位置导入文件。
+1. 設定來源後，Adobe Experience Platform會從您提供的儲存位置匯入檔案。
 
-   此操作可以根据您的需求进行计划。 我们建议每天最多执行6次导出，具体取决于实例上已存在的负载。
+   可以根據您的需求排程此操作。 我們建議每天執行匯出最多6次，視執行個體上已存在的負載而定。

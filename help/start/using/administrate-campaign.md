@@ -1,18 +1,18 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义显示屏并对列表屏幕执行操作：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個指定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
 
-# 管理您的实例
+# 管理您的執行個體
 
 <table>
 <tr>
@@ -32,8 +32,8 @@ ht-degree: 8%
 <tr>
 <td>Campaign 数据模型</td>
 <td>使用REST API</td>
-<td>管理用户</td>
-<td>配置和监视实例</td>
+<td>管理使用者</td>
+<td>設定和監視您的執行個體</td>
 </tr>
 </table>
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **了解更多信息**
 
@@ -52,29 +52,29 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat m
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **了解更多信息**
 
 * xxxx
 * xxxx
 
-## 管理用户
+## 管理使用者
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **了解更多信息**
 
 * xxxx
 * xxxx
 
-## 配置和监视实例
+## 設定和監視您的執行個體
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. Vestibulum placerat mauris libero， non congue sapien rhoncus id. Luctus blandit ligula整数。 Nulla quis veicula augue， a lacinia risus。 红斑斑鳍鲷。 毛里斯连字体。 Cras和veciula nulla。 Aenean tellus quam， tristique quis risus consectetur， pulvinar elementum dui。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **了解更多信息**
 

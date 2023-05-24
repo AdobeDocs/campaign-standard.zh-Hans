@@ -1,6 +1,6 @@
 ---
 title: 事务性消息传递入门
-description: 了解什么是事务型消息传递，并了解在Adobe Campaign Standard中设置事务型消息的主要步骤。
+description: 探索什麼是交易式訊息，並瞭解在Adobe Campaign Standard中設定交易式訊息的主要步驟。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -18,114 +18,114 @@ ht-degree: 9%
 
 # 事务性消息传递入门 {#getting-started-with-transactional-messaging}
 
-事务型消息是由提供商（如网站）实时发送的个人通信和唯一通信。 特别需要，因为它包含收件人要检查或确认的重要信息。
+交易式訊息是個別且唯一的通訊，由提供者（例如網站）即時傳送。 此為特別預期行為，因為它包含收件者要檢查或確認的重要資訊。
 
-* **什么时候到？** 由于此消息包含重要信息，因此用户希望该消息能够实时发送。 因此，触发事件与收到消息之间的延迟必须非常短。
+* **何時到期？** 由於此訊息包含重要資訊，使用者預期會即時傳送。 因此，觸發的事件與到達訊息之間的延遲必須非常短。
 
-* **为什么这很重要？** 通常，事务型消息的打开率很高。 因此，应当仔细设计它，因为它定义客户关系时会对客户行为产生重大影响。
+* **為什麼這很重要？** 一般而言，交易式訊息具有高開啟率。 因此，應謹慎設計，因為它在定義使用者端關係時對客戶行為會有強烈的影響。
 
-* **例如？** 它可以是创建帐户后的欢迎消息、确认订单已发运的消息、发票、确认密码更改的消息或客户浏览您的网站后的通知等。
+* **例如？** 可能是建立帳戶後的歡迎訊息、確認訂單已出貨、發票、確認密碼變更的訊息，或客戶瀏覽您的網站後的通知等。
 
-Adobe Campaign允许您将此功能与信息系统集成，该信息系统会发送要转换为自定义事务型消息的事件。
+Adobe Campaign可讓您將此功能與資訊系統整合，資訊系統可傳送要轉換為自訂交易式訊息的事件。
 
-事务型消息可通过电子邮件、短信或 [推送通知](../../channels/using/transactional-push-notifications.md)，具体取决于您的选项。 请核实您的许可协议。
+交易式訊息可透過電子郵件、簡訊或 [推播通知](../../channels/using/transactional-push-notifications.md)，視您的選項而定。 请核实您的许可协议。
 
 >[!NOTE]
 >
->Adobe Campaign优先处理事务型消息而不是任何其他投放。
+>Adobe Campaign會優先處理交易式訊息，而非任何其他傳送。
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
-在开始事务型消息传递之前，请确保读取 [最佳实践和限制](../../channels/using/transactional-messaging-limitations.md).
+開始進行交易式訊息傳送之前，請務必閱讀相應的 [最佳作法和限制](../../channels/using/transactional-messaging-limitations.md).
 
 ## 事务型消息传递工作原理 {#transactional-messaging-operating-principle}
 
-事务型消息传递的整个过程可描述如下：
+異動訊息傳送的整體程式可描述如下：
 
 ![](assets/message-center-process.png)
 
-例如，假设您是一家拥有网站的公司，客户可以在该网站购买产品。
+例如，假設您有一家公司，其網站可供客戶購買產品。
 
-Adobe Campaign允许您向将产品添加到购物车的客户发送通知电子邮件。 如果其中某人离开您的网站但未完成购买（触发促销活动事件的外部事件），则会自动向他们发送购物车放弃电子邮件（事务型消息投放）。
+Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的客戶。 當其中一人離開您的網站而未完成購買（觸發促銷活動事件的外部事件）時，就會自動傳送購物車放棄電子郵件給他們（交易式訊息傳送）。
 
-实施该功能的主要步骤详见 [此部分](#key-steps).
+要實施此程式碼的主要步驟詳述於以下的 [本節](#key-steps).
 
-## 事务型消息类型 {#transactional-message-types}
+## 異動訊息型別 {#transactional-message-types}
 
-Adobe Campaign中提供了两种类型的事务型消息。
+Adobe Campaign提供兩種型別的交易式訊息。
 
-**事件事务型消息** 目标事件本身中包含的数据。 这些消息：
-* 不包含用户档案信息，因此不能包含退订链接。
-* 与疲劳规则不兼容（即使对于具有用户档案的扩充也是如此）。
-* 由事件本身包含的数据定义其投放目标。
+**事件交易式訊息** 事件本身包含的目標資料。 這些訊息：
+* 不包含設定檔資訊，因此無法包含取消訂閱連結。
+* 與疲勞規則不相容（即使在包含設定檔的擴充情況下）。
+* 讓事件本身包含的資料定義其傳遞目標。
 
-您可能希望向需要检索忘记的密码或确认订单的客户发送事件事务型消息。 事实上，您不希望收件人取消订阅此类通信，并且不应将此通知作为疲劳规则的一部分添加到营销消息的计数器中。
+例如，您可能需要將事件交易式訊息傳送給需要擷取忘記密碼的客戶，或確認訂單。 事實上，您不希望收件者取消訂閱此類通訊，且此通知不應作為疲勞規則的一部分新增至行銷訊息的計數器。
 
-**用户档案事务型消息** 定位Campaign营销数据库中的用户档案。 通过此类型的消息，您可以：
-* 利用Adobe Campaign数据库中包含的数据。
-* 通过添加 [扩充](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 到事件配置。
-* 应用 [营销类型规则](../../sending/using/managing-typology-rules.md) 或 [疲劳规则](../../sending/using/fatigue-rules.md).
+**設定檔交易式訊息** 從Campaign行銷資料庫定位設定檔。 使用此型別的訊息，您可以：
+* 運用Adobe Campaign資料庫中包含的資料。
+* 新增個人化訊息，使用設定檔資訊 [擴充](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 至事件設定。
+* 套用 [行銷型別規則](../../sending/using/managing-typology-rules.md) 或 [疲勞規則](../../sending/using/fatigue-rules.md).
 * 在消息中包含退订链接。
 * 将事务型消息添加到全局投放报告。
 * 在客户历程中使用事务型消息。
 
-例如，在客户放弃购物车访问您的网站后联系客户时，您可以使用此类消息来鼓励他们继续购买。 这样，您就可以更轻松地将消息个性化，从用户档案数据库直接访问所有信息，应用营销规则，并将此消息包含到全球客户历程和报表中，以便更好地查看客户行为。
+例如，當客戶在您的網站上放棄購物車後，您可在聯絡客戶時使用此型別的訊息，以鼓勵他們繼續購買。 這麼做可讓您更輕鬆地個人化訊息，直接存取設定檔資料庫中的所有資訊、套用行銷規則，並將此訊息納入全球客戶歷程及報告，以便更妥善地檢視您的客戶行為。
 
-在配置要转换为事件的事务型消息时，就决定了消息的类型。请参阅 [基于事件的事务型消息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) 和 [基于用户档案的事务型消息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 配置部分。
+在配置要转换为事件的事务型消息时，就决定了消息的类型。請參閱 [事件型交易式訊息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) 和 [設定檔交易式訊息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 設定區段。
 
 ## 关键步骤 {#key-steps}
 
-在Adobe Campaign中创建和管理个性化事务型消息时，主要步骤概述如下架构中。
+在Adobe Campaign中建立和管理個人化交易式訊息的主要步驟概述於以下結構描述。
 
 ![](assets/message-center-overview.png)
 
-下面进一步详细介绍了这些步骤。
+以下會詳細說明每個步驟。
 
 >[!IMPORTANT]
 >
->仅具有 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以配置事务型事件和访问事务型消息。
+>僅限具有下列專案的使用者： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以設定交易式事件並存取交易式訊息。
 
-### 第1步 — 创建和发布事件配置 {#create-event-configuration}
+### 步驟1 — 建立並發佈事件設定 {#create-event-configuration}
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| 创建事件 | 用户 | 操作 | 结果 |
+| 建立事件 | 用户 | 操作 | 结果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | 此步骤必须由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 配置将命名为“购物车放弃”的事件，并发布此事件配置。 | 部署网站开发人员将使用的API，并自动创建事务型消息。 |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | 此步驟必須由系統管理員執行 [管理許可權](../../administration/using/users-management.md#functional-administrators). | 設定將命名為「購物車放棄」的事件，並發佈此事件設定。 | 將部署您的網站開發人員使用的API，並自動建立交易式訊息。 |
 
-创建和发布事件，请参见 [配置事务型事件](../../channels/using/configuring-transactional-event.md) 和 [发布事务型事件](../../channels/using/publishing-transactional-event.md) 中。
+建立和發佈事件的過程會顯示在 [設定交易式事件](../../channels/using/configuring-transactional-event.md) 和 [發佈交易式事件](../../channels/using/publishing-transactional-event.md) 區段。
 
-### 第2步 — 编辑和发布事务型消息 {#create-transactional-message}
+### 步驟2 — 編輯並發佈交易式訊息 {#create-transactional-message}
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| 编辑消息 | 用户 | 操作 | 结果 |
+| 編輯訊息 | 用户 | 操作 | 结果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | 此步骤可由持有 [管理权限](../../administration/using/users-management.md#functional-administrators). | 编辑和个性化事务型消息，对其进行测试，然后发布。 | 事务型消息随后即可发送。 |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | 此步驟可由行銷使用者執行，包括 [管理許可權](../../administration/using/users-management.md#functional-administrators). | 編輯及個人化交易式訊息，並加以測試，然後發佈。 | 然後，交易式訊息就準備好傳送。 |
 
-有关编辑和发布事务型消息的更多信息，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md) 和 [事务型消息生命周期](../../channels/using/publishing-transactional-message.md).
+如需編輯和發佈交易式訊息的詳細資訊，請參閱 [編輯異動訊息](../../channels/using/editing-transactional-message.md) 和 [異動訊息生命週期](../../channels/using/publishing-transactional-message.md).
 
-### 步骤3 — 集成事件触发 {#integrate-event-trigger}
+### 步驟3 — 整合事件觸發 {#integrate-event-trigger}
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-创建事件后，您需要将此事件的触发集成到您的网站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 要实现此目的，您的网站Web开发人员必须使用 **Adobe Campaign Standard REST API**.
+建立事件後，您需要將此事件的觸發因素整合至您的網站。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 若要這麼做，您的網站網站開發人員必須使用 **ADOBE CAMPAIGN STANDARD REST API**.
 
-| 实施触发器 | 用户 | 操作 | 结果 |
+| 實作觸發程式 | 用户 | 操作 | 结果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | 此步骤由您网站的开发人员执行。 | 使用REST事务型消息API将事件集成到您的网站中。 | 客户放弃购物车时将触发该事件。 |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | 此步驟由您網站的開發人員執行。 | 使用REST異動訊息API將事件整合至您的網站。 | 當使用者端放棄購物車時會觸發此事件。 |
 
-有关使用Campaign REST API管理事务型消息的更多信息，请参阅 [REST API文档](../../api/using/managing-transactional-messages.md).
+如需使用Campaign REST API管理交易式訊息的詳細資訊，請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md).
 
-### 步骤4 — 消息投放 {#message-delivery}
+### 步驟4 — 訊息傳送 {#message-delivery}
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-执行上述所有步骤后，即可发送消息。
+執行上述所有步驟後，即可傳送訊息。
 
-| 传递消息 | 用户 | 操作 | 结果 |
+| 傳遞訊息 | 用户 | 操作 | 结果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | 此步骤由访问您网站的客户执行。 | 用户离开网站且未在购物车中订购产品时，会立即触发相应的促销活动事件。 | 用户自动接收通知电子邮件。 |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | 此步驟由造訪您網站的客戶執行。 | 當使用者離開網站而未訂購購物車中的產品時，就會觸發對應的Campaign事件。 | 使用者會自動收到通知電子郵件。 |
 
 ## 相关主题
 

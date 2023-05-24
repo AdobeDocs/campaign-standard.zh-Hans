@@ -1,6 +1,6 @@
 ---
 title: 关于 Campaign 中的选择启用和选择禁用
-description: 选择退出会导致用户档案不再为任何投放或特定渠道的投放所定向。
+description: 選擇退出導致設定檔不再被任何傳送或特定頻道的傳送設為目標。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,16 +17,16 @@ ht-degree: 8%
 
 # 关于 Campaign 中的选择启用和选择禁用{#about-opt-in-and-opt-out-in-campaign}
 
-选择退出会导致用户档案不再为任何投放或特定渠道的投放所定向。
+選擇退出導致設定檔不再被任何傳送或特定頻道的傳送設為目標。
 
-为了让用户档案能够选择启用或选择禁用，您必须创建专用登陆页面。 有关更多信息，请参阅 [设置选择启用和选择禁用登陆页面](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
+若要讓設定檔能夠選擇加入或選擇退出，您必須建立專用的登陸頁面。 有關詳細資訊，請參閱 [設定選擇加入和選擇退出登陸頁面](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
-操作员也可以手动选择启用或禁用用户档案。 有关更多信息，请参阅 [管理用户档案的选择启用和选择禁用](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+操作員也可以手動選擇加入或退出設定檔。 有關詳細資訊，請參閱 [管理設定檔的選擇加入和選擇退出](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
-在投放分析期间，会自动排除选择退出用户档案，以加快投放速度（错误率对投放速度有显着影响）。
+在傳送分析期間會自動排除選擇退出設定檔，以加快傳送速度（錯誤率對傳送速度有顯著影響）。
 
 >[!NOTE]
 >
->选择退出适用于 **用户档案**，而不是链接到 **电子邮件地址** 或 **电话号码**. 因此，选择退出用户档案将从投放中排除链接到该用户档案的所有地址。 但是，如果用户在数据库中有两个用户档案，则投放仍会定位此用户，因为只选择其其中一个用户档案。 要确保将其所有地址都排除在外，请将其添加到隔离的地址中。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
+>選擇退出適用於 **設定檔**，而非連結至的隔離 **電子郵件地址** 或 **電話號碼**. 因此，選擇退出設定檔將從傳送中排除連結至設定檔的所有地址。 但是，如果使用者在資料庫中有兩個設定檔，由於僅會選擇退出其中一個設定檔，因此傳遞仍會鎖定此使用者。 若要確認將其所有地址排除，請將其新增至隔離地址。 有关详细信息，请参见[此页面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
 
-有关服务订阅的更多信息，请参阅 [本页](../../audiences/using/about-subscriptions.md).
+如需服務訂閱的詳細資訊，請參閱 [此頁面](../../audiences/using/about-subscriptions.md).

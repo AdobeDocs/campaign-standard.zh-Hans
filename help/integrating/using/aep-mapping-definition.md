@@ -1,6 +1,6 @@
 ---
 title: 映射定义
-description: 了解如何使用体验数据模型(XDM)字段映射Campaign Standard字段。
+description: 瞭解如何使用Experience Data Model (XDM)欄位對應Campaign Standard欄位。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,62 +19,62 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-在此部分中，您将了解如何将Campaign Standard字段映射到体验数据模型(XDM)字段。
+在本節中，您將瞭解如何使用Experience Data Model (XDM)欄位對應Campaign Standard欄位。
 
-要执行此任务，先决条件包括：
+若要執行此工作，先決條件為：
 
-* 通过界面或使用与XDM关联的REST API来定义XDM模式
-* 基于XDM架构定义的数据集创建
+* 透過介面或使用與XDM相關聯的REST API來定義XDM結構描述
+* 根據XDM結構描述定義建立資料集
 
-1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 然后选择 **[!UICONTROL Data mappings]** 中。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 並選擇 **[!UICONTROL Data mappings]** 登入點。
 
-1. 单击 **[!UICONTROL Create]** 以开始新的XDM映射。
+1. 按一下 **[!UICONTROL Create]** 以開始新的XDM對應。
 
    ![](assets/aep_createmapping.png)
 
-1. 填写必填字段并选择：
+1. 填寫必填欄位並選取：
 
-   * a **定位维度**:这是要映射的Campaign Standard架构
-   * a **数据集**:这是与Adobe Experience Platform中的XDM架构关联的数据包。
+   * a **目標維度**：這是要對應的Campaign Standard結構描述
+   * a **資料集**：這是與Adobe Experience Platform中XDM結構描述相關聯的資料套件。
 
 >[!NOTE]
 >
->要将批量数据集摄取到“实时客户资料”或“身份服务”中，必须 [为实时客户用户档案启用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>若要將批次擷取至Real-time Customer Profile或Identity Service，資料集必須為 [啟用即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
->如果您选择的数据集已在现有数据映射中使用，则会显示一条警告，通知您的数据可能会在Adobe Experience Platform上被覆盖。 当使用同一数据集的数据映射中存在一些常见的收件人时，可能会发生这种情况。
+>如果您選取的資料集已用於現有資料對應，會出現警告以通知您可能會在Adobe Experience Platform上覆寫資料。 使用相同資料集的資料匹配中有一些常見收件者時，可能會發生這種情況。
 
-以下屏幕显示 **[!UICONTROL Field mappings]** 部分，您可以在其中为Campaign Standard架构中的每个字段创建新映射。
+下列畫面會顯示 **[!UICONTROL Field mappings]** 區段，您可在其中為Campaign Standard結構描述中的每個欄位建立新的對應。
 
 ![](assets/aep_fieldmappings.png)
 
-的 **[!UICONTROL Create new field mapping]** 按钮可用于选择XDM架构中的Campaign Standard字段和相应的字段路径表达式。
+此 **[!UICONTROL Create new field mapping]** 按鈕可讓您選取XDM結構描述中的Campaign Standard欄位和對應的欄位路徑運算式。
 
-如果找不到Adobe Campaign Standard字段，则可以使用搜索字段搜索该字段。 目前，搜索仅适用于在层次结构中打开的字段。
+如果您找不到Adobe Campaign Standard欄位，則可以使用搜尋欄位來搜尋該欄位。 目前，搜尋僅適用於階層中開啟的欄位。
 
 ![](assets/aep_mapfield.png)
 
-Campaign Standard中定义的扩展资源被映射为所有本机字段。 它们在XDM中定义为_customer/default扩展。
+Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 它們被定義為XDM中的_customer/default擴充功能。
 
 ![](assets/aep_fieldscusmapping.png)
 
-您可以通过API自定义XDM扩展，并定义您自己的扩展，以便更好地控制映射。
+您可以透過API自訂XDM擴充功能，並定義自己的擴充功能，讓您更能掌控對應。
 
-请参阅 [模式注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 有关XDM API的更多详细信息。
+另請參閱 [結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 以取得有關XDM API的詳細資訊。
 
-要映射枚举字段，您需要使用表达式编辑器来定义与XDM值对应的每个枚举值。 例如，后发地址字段需要定义为：
+若要對應分項清單欄位，您需要使用運算式編輯器來定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
 
 ![](assets/aep_enummapping.png)
 
-如果XDM值被定义为XDM架构中的枚举，则可以使用本机EXDM函数，该函数将自动替换 **lif** 语法。
+如果XDM值定義為XDM結構描述中的分項清單，您可以使用會自動取代 **lif** 語法。
 
 ![](assets/aep_enummappingexdm.png)
 
-要编辑XDM映射，请将其打开，修改所需信息，然后保存该映射。
+若要編輯XDM對應，請開啟該對應、修改所需的資訊，然後儲存它。
 
 ![](assets/aep_editmapping.png)
 
 >[!IMPORTANT]
 >
->目前，如果您在 **[!UICONTROL Field mappings]** 部分，然后单击字段外部，则在单击 **[!UICONTROL Save]** 按钮。 此行为仅在 **[!UICONTROL Field Mappings]** 是页面上的首次编辑。
+>目前，如果您編輯 **[!UICONTROL Field mappings]** 區段，然後按一下欄位外部，則在您按一下 **[!UICONTROL Save]** 按鈕。 此行為只會發生一次，當編輯 **[!UICONTROL Field Mappings]** 是頁面上的第一次編輯。

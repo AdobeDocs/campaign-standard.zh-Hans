@@ -19,7 +19,7 @@ ht-degree: 87%
 
 利用应用程序内消息传递渠道，可向移动应用程序中的活动用户发送消息。这种消息类型可免费将通知推送到用户手机的通知中心。有关推送通知渠道的更多信息，请参阅此[章节](../../channels/using/about-push-notifications.md)。
 
-此渠道要求将移动应用程序与 Adobe Experience Platform SDK 集成。这些应用程序必须先在数据收集UI中激活，然后才能在Adobe Campaign中用于应用程序内投放。
+此渠道要求将移动应用程序与 Adobe Experience Platform SDK 集成。這些應用程式必須先在資料收集UI中啟動，才能在Adobe Campaign中用於應用程式內傳送。
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ ht-degree: 87%
 
 1. 在 Adobe Campaign 中，确保可以访问 **[!UICONTROL In-App]** 渠道。如果您无法访问这些渠道，请与帐户管理团队联系。
 
-1. 要在Adobe Campaign Standard中将移动使用案例与Experience CloudSDK应用程序结合使用，必须在数据收集UI中创建移动应用程序，并在Adobe Campaign Standard中进行配置。 有关分步指南，请参阅此[页面](../../administration/using/configuring-a-mobile-application.md)。
+1. 若要搭配Experience Cloud SDK應用程式運用Adobe Campaign Standard的行動使用案例，必須在資料收集UI中建立行動應用程式，並在Adobe Campaign Standard中設定。 有关分步指南，请参阅此[页面](../../administration/using/configuring-a-mobile-application.md)。
 
 1. 配置完毕后，您即可准备应用程序内消息。有关更多信息，请参见此[页面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 

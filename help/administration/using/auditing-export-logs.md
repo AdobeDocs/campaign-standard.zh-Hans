@@ -1,6 +1,6 @@
 ---
 title: 审核导出日志
-description: 了解管理员如何跟踪从Adobe Campaign导出的内容
+description: 瞭解管理員如何追蹤從Adobe Campaign進行的匯出
 audience: administration
 feature: Access Management
 role: Admin
@@ -15,16 +15,16 @@ ht-degree: 5%
 
 # 审核导出日志{#auditing-export-logs}
 
-从 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理员可以查看以下所有导出的列表，包括其日期和执行导出的用户：
+從 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理員可檢視下列所有匯出的清單，包括其日期和執行匯出的使用者：
 
-* 从 **[!UICONTROL Transfer file]** 活动。
-* 从列表或子列表导出列表。
-* 从直邮投放仪表板下载的文件。
+* 檔案上傳來源 **[!UICONTROL Transfer file]** 活動的工作流程。
+* 從清單或子清單匯出清單。
+* 從直接郵件訊息的傳遞儀表板下載的檔案。
 
 >[!NOTE]
 >
->不会跟踪其他导出。 默认情况下，每6个月清除一次导出列表。
+>不會追蹤其他匯出。 匯出清單預設會每6個月清除一次。
 
-从左窗格中，您可以根据需要筛选要显示的导出。
+從左窗格中，您可以根據您的需求篩選要顯示的匯出。
 
-您可以将列表导出为单独的文件，如 [导出列表](../../automating/using/exporting-lists.md) 中。
+您可以將清單匯出為單獨的檔案，如 [匯出清單](../../automating/using/exporting-lists.md) 區段。

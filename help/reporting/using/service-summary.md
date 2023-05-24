@@ -1,6 +1,6 @@
 ---
 title: 服务摘要
-description: 通过现成的服务摘要报告，了解订阅和退订的演变情况。
+description: 透過服務摘要現成可用的報告，瞭解訂閱和取消訂閱的演變。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # 服务摘要{#service-summary}
 
-的 **[!UICONTROL Service summary]** 详细介绍了订阅和退订服务的演变。
-此报表只能通过高级菜单从服务页面访问 **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+此 **[!UICONTROL Service summary]** 詳細說明您服務的訂閱和取消訂閱的演化。
+此報表只能透過進階功能表從「服務」頁面存取 **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 
-的 **[!UICONTROL Subscription evolution curves]** 可视化图表根据 **[!UICONTROL Period]** 在下拉栏中选择。
+此 **[!UICONTROL Subscription evolution curves]** 視覺效果會根據 **[!UICONTROL Period]** 已在下拉式清單中選取。
 
-的 **[!UICONTROL Overall subscription evolution]** 允许您查看订阅者在不同时间段的演变情况。
+此 **[!UICONTROL Overall subscription evolution]** 可讓您檢視訂閱者在不同時期的發展。

@@ -1,6 +1,6 @@
 ---
-title: '集成工具入门 '
-description: 集成工具入门
+title: 開始使用整合工具
+description: 開始使用整合工具
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -16,145 +16,145 @@ ht-degree: 2%
 
 ---
 
-# 自助集成应用程序入门 {#gs-self-service-app}
+# 開始使用自助服務整合應用程式 {#gs-self-service-app}
 
-通过Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序的集成，您能够配置数据流、控制数据流是否在运行以及在哪个环境中运行。 但是，在开始使用自助服务集成应用程序之前，您必须先完成一些先决条件。
+Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式的整合，可讓您設定資料流程、控制資料流程是否正在執行，以及資料在哪個環境中執行。 不過，您必須先完成一些必要條件，才能開始使用自助服務整合應用程式。
 
 ## 概念和限制 {#concepts-and-restrictions}
 
-在开始使用集成工具之前，您需要了解与集成相关的概念和防护，并采取一些初始步骤以获取访问权限。
+開始使用整合工具之前，您需要瞭解與整合相關的概念和護欄，並採取一些初始步驟以獲得存取權。
 
-请通过以下章节了解更多信息：
+請前往下列章節深入瞭解：
 
 * [Microsoft Dynamics 365 集成快速入门](../../integrating/using/d365-acs-get-started.md)
-* [集成最佳实践和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)
-* [了解实施此集成的关键步骤](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
+* [整合最佳實務和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [瞭解實作此整合的關鍵步驟](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [使用 Microsoft Dynamics 365 集成](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## 先决条件 {#self-service-app-prerequisites}
 
-您需要配置Microsoft Dynamics 365和Adobe Campaign Standard，以便集成应用程序能够访问您的数据。 在Dynamics 365、Adobe Campaign Standard和Adobe I/O中配置这将需要一些时间；但是，配置完它们后，您将能够通过自助服务集成应用程序的用户界面来控制集成。
+您需要設定Microsoft Dynamics 365和Adobe Campaign Standard，讓整合應用程式可存取您的資料。 在Dynamics 365、Adobe Campaign Standard和Adobe I/O中完成設定需要一些時間；不過，一旦完成設定，您就能夠透過自助服務整合應用程式的使用者介面控制整合。
 
-请通过以下章节了解更多信息：
+請前往下列章節深入瞭解：
 
 * [为 Campaign 集成配置 Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [配置 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [映射Campaign自定义资源和Microsoft Dynamics 365自定义实体](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [對應Campaign自訂資源和Microsoft Dynamics 365自訂實體](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
-## 配置自助服务集成应用程序的关键步骤 {#self-service-app-configuration-steps}
+## 設定自助服務整合應用程式的關鍵步驟 {#self-service-app-configuration-steps}
 
-然后，您可以从集成工具开始。 按照以下步骤操作：
+然後，您就可以開始使用整合工具。 請依照下列步驟操作：
 
-1. [获取集成应用程序的访问权限](../../integrating/using/d365-acs-self-service-app-control-access.md)
-1. [配置集成应用程序以供您使用](../../integrating/using/d365-acs-self-service-app-settings.md)
-1. [实施数据同步](../../integrating/using/d365-acs-self-service-app-data-sync.md)
-1. [配置同步工作流](../../integrating/using/d365-acs-self-service-app-workflows.md)
+1. [存取整合應用程式](../../integrating/using/d365-acs-self-service-app-control-access.md)
+1. [根據您的使用情況設定整合應用程式](../../integrating/using/d365-acs-self-service-app-settings.md)
+1. [實作資料同步](../../integrating/using/d365-acs-self-service-app-data-sync.md)
+1. [設定同步工作流程](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
-## 链接到集成应用程序 {#self-service-app-link}
+## 連結至整合應用程式 {#self-service-app-link}
 
-打开浏览器并浏览到与您的区域关联的连接器：
+開啟瀏覽器並瀏覽至與您的地區相關聯的聯結器：
 
-* [亚太](https://d365-acs-ap.ea.adobe.com/)
-* [欧洲、中东或非洲(EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [亞太地區](https://d365-acs-ap.ea.adobe.com/)
+* [歐洲、中東或非洲(EMEA)](https://d365-acs-em.ea.adobe.com/)
 * [美洲](https://d365-acs-am.ea.adobe.com/)
 
-## 隐私请求确认 {#self-service-app-acknowledgement}
+## 隱私權請求確認 {#self-service-app-acknowledgement}
 
-首次浏览到自助服务UI时，您将收到隐私确认。 您需要确认您了解自己在单独在Campaign和Microsoft Dynamics 365中执行隐私请求时的角色，然后才能继续。
-进一步了解您的隐私责任以及如何在 [此部分](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+第一次瀏覽至自助服務UI時，系統會顯示隱私權通知。 您必須確認自己瞭解在Campaign和Microsoft Dynamics 365中分別執行隱私權請求時的角色，才能繼續。
+進一步瞭解您的隱私權責任，以及如何在中管理隱私權請求 [本節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
-## 设置凭据 {#self-service-app-credentials}
+## 設定您的認證 {#self-service-app-credentials}
 
-首次浏览UI时，您应会看到一个页面，其标题如下所示：
+第一次瀏覽UI時，應該會看到標題如下的頁面：
 
 ![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
-> 如果尚未配置应用程序设置，则通常会收到提到“无法连接”Adobe Campaign Standard或Microsoft Dynamics 365的警报。
+> 如果尚未設定應用程式設定，通常會收到指出其「無法連線」至Adobe Campaign Standard或Microsoft Dynamics 365的警報。
 
-请确认您计划配置的“ORG”和“INSTANCE”选项。  如果没有，请单击下拉列表，然后选择正确的组织和实例。
+請確認「ORG」和「INSTANCE」選項為您計畫設定的選項。  如果沒有，則按一下下拉式清單，然後選取正確的組織和執行個體。
 
 >[!IMPORTANT]
 >
-> 如果您是首次配置连接器，并且/或您是此过程的新用户，则我们 **强烈** 敦促您选择“stage”或“dev”实例。 在尝试在生产环境中设置之前，您需要确保验证配置是否工作正常。
+> 如果您是第一次設定聯結器及/或您是此程式的新手，則我們 **強烈** 敦促您選取「stage」或「dev」例項。 在嘗試於生產環境中進行設定之前，請先確認設定是否運作正常。
 
-如果您拥有正确的组织和实例，请单击“汉堡包”菜单以显示下拉菜单。 然后，单击 **[!UICONTROL Settings...]** 在下拉菜单中，访问您在其中输入Microsoft Dynamics 365和Campaign凭据的页面（请参阅下文）。
+如果您有正確的組織和例項，請按一下「漢堡」功能表以公開下拉式功能表。 然後按一下 **[!UICONTROL Settings...]** 在下拉式功能表中，瀏覽您輸入Microsoft Dynamics 365和Campaign認證的頁面（請參閱下文）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-在 **[!UICONTROL Settings]** 页面，请填写以下部分：
+在 **[!UICONTROL Settings]** 頁面，請填入下列區段：
 
-* Microsoft Dynamics 365凭据
-* Adobe凭据
+* Microsoft Dynamics 365認證
+* Adobe認證
 
-开始 [此处](../../integrating/using/d365-acs-self-service-app-settings.md) 以查找有关在何处查找每个输入信息的更多详细信息。 完成后，单击 **[!UICONTROL Save]** 按钮。
+前往 [此處](../../integrating/using/d365-acs-self-service-app-settings.md) 以尋找關於何處可找到每項輸入資訊的詳細資訊。 完成後，按一下 **[!UICONTROL Save]** 底部的「 」按鈕。
 
-## 检查初始配置 {#self-service-app-initial-config}
+## 檢查初始設定 {#self-service-app-initial-config}
 
-假定您已完成上述先决条件并正确添加了所有凭据，接下来让我们导航到 **[!UICONTROL Workflows]** 页面。 在中了解有关集成应用程序工作流程的更多信息 [本页](../../integrating/using/d365-acs-self-service-app-workflows.md).
+假設您已完成上述必要條件，且已正確新增所有認證，我們現在導覽至 **[!UICONTROL Workflows]** 頁面。 進一步瞭解中的整合應用程式工作流程 [此頁面](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-在  **[!UICONTROL Workflows]** ，请单击与 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流以编辑其配置。
+在  **[!UICONTROL Workflows]** 頁面上，按一下與相關的鉛筆圖示 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程以編輯其設定。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 页面，则可以访问已配置的表映射列表。  默认情况下，您会使用现成的联系人/用户档案映射。 需要单独配置所有其他自定义实体。
+在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 頁面上，您可以存取已設定的表格對應清單。  它會將您預設為現成的連絡人/設定檔對應。 所有其他自訂實體需要個別設定。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-在 **[!UICONTROL Edit Table Mapping]** 页面，检查 **[!UICONTROL Mappings]** 部分，以确保将Microsoft Dynamics 365中的字段映射到Campaign中的正确字段。 如果需要添加任何其他映射，请立即添加，以及替换项或过滤器。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
+在 **[!UICONTROL Edit Table Mapping]** 頁面，核取 **[!UICONTROL Mappings]** 區段，以確保將Microsoft Dynamics 365中的欄位對應到Campaign中的正確欄位。 如果您需要新增任何其他對應，請立即新增，以及新增任何取代物或篩選器。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
-如果要添加新映射，请参阅 [此部分](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) 以了解更多信息。
+如果要新增對應，請參閱 [本節](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) 以取得詳細資訊。
 
-配置正确后，单击 **[!UICONTROL Play]** 按钮 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流，以启动集成和数据流。
+設定正確後，按一下 **[!UICONTROL Play]** 按鈕旁的 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程，以開始整合和資料流。
 
 >[!IMPORTANT]
 >
->我们 **强烈** 建议您先在暂存或开发环境中运行该环境，然后再在生产环境中运行。 请检查是否在标头中选择了stage/dev实例。
+>三 **強烈** 建議您在生產環境執行之前，先在預備或開發環境中執行此專案。 請檢查在標題中是否選取stage/dev例項。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-运行后，您应该能够通过在Microsoft Dynamics 365中添加或修改条目，并在几分钟内观察Adobe Campaign中的这些更改来进行测试。 如果您随时需要停止此过程，只需按相同的按钮即可停止。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+執行後，您應該能夠在Microsoft Dynamics 365中新增或修改專案，並在幾分鐘內在Adobe Campaign中觀察這些變更，以進行測試。 如果您在任何時候需要停止此程式，只需按一下相同的按鈕即可停止。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
-## 集成应用程序工作区 {#self-service-app-workspace}
+## 整合應用程式工作區 {#self-service-app-workspace}
 
-### 应用程序标题 {#app-header}
+### 應用程式標題 {#app-header}
 
-自助应用程序中的标题允许您定义当前正在查看和/或配置的组织和实例。
+自助式應用程式中的標題可讓您定義目前檢視和/或設定的組織和例項。
 
-选择 **组织** 和 **实例** 要查看/编辑。 这些字段显示为只读，但是，当您将鼠标光标放在其上时，它们便可编辑。
+選取 **組織** 和 **例項** 您想要檢視/編輯。 這些欄位顯示為唯讀，但是當您將滑鼠游標放在上面時，這些欄位會變成可編輯的。
 
-单击带有三条水平线的按钮时，将显示一个下拉菜单 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) 在标题的右侧。
+當您按一下具有三條水平線的按鈕時，會顯示下拉式功能表 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) 標題的右側。
 
-下拉菜单中的条目有：
+下拉式選單中的專案包括：
 
-* **设置**:选择此选项将会将您发送到一个屏幕，该屏幕允许您指定Microsoft Dynamics 365和Adobe Campaign的API凭据，以及应用程序的其他常规设置。
+* **設定**：選取此選項會將您傳送至一個畫面，讓您指定Microsoft Dynamics 365和Adobe Campaign的API認證，以及應用程式的其他一般設定。
 
-* **文档**:此选项是指向特定于此集成的Adobe Campaign文档的链接
+* **檔案**：此選項是此整合專用Adobe Campaign檔案的連結
 
-* **客户关怀**:这是与打开客户关怀票证相关的Experience Cloud文档的链接
+* **客戶服務**：這是與開啟客戶服務票證相關的Experience Cloud檔案的連結
 
-* **注销**:这将使您从应用程序中注销，并允许您以其他用户身份登录。
+* **登出**：這會將您登出應用程式，並允許您以其他使用者的身分重新登入。
 
-* **关于**:此时将显示一个对话框，其中包含有关应用程序的信息，包括版权信息。
+* **關於**：此畫面會顯示一個對話方塊，其中包含有關應用程式的資訊，包括版權資訊。
 
-### 痕迹导航 {#app-breadcrumbs}
+### 階層連結 {#app-breadcrumbs}
 
-在您导航应用程序时，痕迹导航会显示在某些屏幕的顶部。
+導覽應用程式時，階層連結會出現在部分畫面頂端。
 
 **示例:**
 
-以下是 **[!UICONTROL Edit Table Mapping]** 显示痕迹导航和页面标题的屏幕。 在这种情况下，您可以单击 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文本，以转到之前的某个屏幕。 **[!UICONTROL Edit Table Mapping]** 在此例中，痕迹导航不可点击，因为它是当前屏幕。
+以下範例來自 **[!UICONTROL Edit Table Mapping]** 顯示階層連結和頁面標題的畫面。 在此情況下，您可以按一下 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文字移至上一個畫面。 **[!UICONTROL Edit Table Mapping]** 在此情況下，無法點按階層連結，因為這是目前的畫面。
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
-### 常用按钮 {#app-buttons}
+### 常用按鈕 {#app-buttons}
 
-自助服务应用程序的多个页面中使用了以下图标。
+自助式應用程式的多個頁面會使用下列圖示。
 
-![](assets/do-not-localize/d365-to-acs-icon-add.png)  — 向列表中添加新项目。
+![](assets/do-not-localize/d365-to-acs-icon-add.png)  — 將新專案新增至清單。
 
-![](assets/do-not-localize/d365-to-acs-icon-edit.png)  — 编辑已存在的内容
+![](assets/do-not-localize/d365-to-acs-icon-edit.png)  — 編輯已存在的專案
 
-![](assets/do-not-localize/d365-to-acs-icon-delete.png)  — 从项目列表中删除项目
+![](assets/do-not-localize/d365-to-acs-icon-delete.png)  — 從專案清單中刪除專案

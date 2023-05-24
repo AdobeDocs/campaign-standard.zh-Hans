@@ -1,6 +1,6 @@
 ---
 title: 使用与定向维度不同的资源
-description: 了解如何使用与定向维度不同的资源。
+description: 瞭解如何使用與目標維度不同的資源。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # 使用与定向维度不同的资源 {#using-resources-different-from-targeting-dimensions}
 
-此用例介绍如何使用与定向维度不同的资源，例如，在远程表格中查找特定记录。
+此使用案例顯示如何使用與目標維度不同的資源，例如在遠距表格中尋找特定記錄。
 
-有关定向维度和资源的更多信息，请参阅 [此部分](../../automating/using/query.md#targeting-dimensions-and-resources)
+有關目標維度和資源的詳細資訊，請參閱 [本節](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **示例 1：确定被带“Welcome back !”标签的投放所定向的用户档案**。
 
 * 在本例中，我们想定向用户档案。我们将定向维度设置为 **[!UICONTROL Profiles (profile)]**。
-* 我们要根据投放标签筛选选定的用户档案。因此，我们将资源设置为 **[!UICONTROL Delivery logs]**。这样，我们就可以直接在投放日志表中进行筛选，从而提供更好的性能。
+* 我们要根据投放标签筛选选定的用户档案。因此，我们将资源设置为 **[!UICONTROL Delivery logs]**。如此一來，我們會直接在傳送記錄表格中篩選，以提供更理想的效能。
 
 ![](assets/targeting_dimension6.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 筛选
-description: 了解如何执行过滤操作。
+description: 瞭解如何執行篩選作業。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,17 +17,17 @@ ht-degree: 1%
 
 # 筛选 {#filtering}
 
-## 检索过滤器元数据
+## 正在擷取篩選器中繼資料
 
-每个资源都有过滤器。 要识别与资源关联的过滤器，您需要对资源元GET执行数据请求。 此请求会返回为给定资源定义所有过滤器的URL。 有关元数据的更多信息，请参阅 [此部分](../../api/using/metadata-mechanism.md).
+每個資源都可使用篩選器。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET要求。 此請求會傳回URL，其中針對指定資源定義了所有篩選器。 如需中繼資料的詳細資訊，請參閱 [本節](../../api/using/metadata-mechanism.md).
 
-要识别过滤器的元GET并确定如何使用该元数据，您必须对先前返回的URL执行元数据请求。
+若要識別篩選器的中繼資料並決定其使用方式，您必須對先前傳回的URL執行GET要求。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-以下示例负载显示如何检索“profile”资源的“byText”过滤器元数据。 首先，对“profile”资源元数据执行GET请求。
+以下範例裝載說明如何擷取「profile」資源的「byText」篩選中繼資料。 首先在「設定檔」資源中繼資料上執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -37,7 +37,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回描述过滤器的URL。
+它會傳回描述篩選器的URL。
 
 ```
 {
@@ -47,7 +47,7 @@ ht-degree: 1%
   }
 ```
 
-对URL执行GET请求。 它会返回用户档案资源的过滤器列表，以及与每个过滤器关联的元数据。
+在URL上執行GET要求。 它會傳回設定檔資源的篩選器清單，其中包含與每個篩選器相關聯的中繼資料。
 
 ```
 {
@@ -62,18 +62,18 @@ ht-degree: 1%
 }
 ```
 
-## 过滤器元数据结构
+## 篩選中繼資料結構
 
-每个过滤器具有相同的元数据结构：
+每個篩選器都可以使用相同的中繼資料結構：
 
-* 的 **@formType** 和 **@webPage** 领域是技术领域。
-* 的 **数据** 字段中提供了有关如何使用过滤器的示例。
-* 的 **元数据** 节点描述过滤器参数。
-* 的 **条件** 节点描述过滤器要执行的操作。 元数据节点中描述的过滤器参数用于创建过滤条件。 对于每个过滤条件(如果 **enabledIf** 是真的， **expr** 中，将被应用。
+* 此 **@formType** 和 **@webPage** 欄位是技術欄位。
+* 此 **資料** 欄位提供如何使用篩選器的範例。
+* 此 **中繼資料** node說明篩選引數。
+* 此 **條件** 節點會說明篩選器的用途。 中繼資料節點中所述的篩選引數用於建立篩選條件。 對於每個篩選條件，如果 **enabledIf** 為true，則 **運算式** 將套用。
 
 <br/>
 
-过滤器元数据结构示例：
+篩選中繼資料結構範例：
 
 ```
 "byText": {
@@ -87,21 +87,21 @@ ht-degree: 1%
     }
 ```
 
-## 使用过滤器
+## 使用篩選器
 
-可通过以下请求进行筛选：
+篩選會與下列請求一起執行：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-可以在一个请求中组合使用多个过滤器：
+可以在單一請求中組合多個篩選器：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-* 用于检索类型为“email”的“service”资源的GET请求示例。
+* 擷取型別為「email」的「service」資源的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -111,7 +111,7 @@ ht-degree: 1%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。
+   對請求的回應。
 
    ```
    {
@@ -133,7 +133,7 @@ ht-degree: 1%
    }
    ```
 
-* 用于检索电子邮件或姓氏字段中包含“Doe”的“profile”资源的示例GET请求（byText筛选器会搜索电子邮件和姓氏字段）。
+* 擷取電子郵件或姓氏欄位中包含「Doe」的「設定檔」資源的範例GET請求（byText篩選條件會搜尋電子郵件和姓氏欄位）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -143,7 +143,7 @@ ht-degree: 1%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。
+   對請求的回應。
 
    ```
    {
@@ -161,7 +161,7 @@ ht-degree: 1%
    }
    ```
 
-* 用于检索类型为“email”且标签为“sport”的服务资源的示例GET请求。
+* 擷取型別為「email」且標籤為「sport」的服務資源的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -171,7 +171,7 @@ ht-degree: 1%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   响应请求。
+   對請求的回應。
 
    ```
    {
@@ -193,22 +193,22 @@ ht-degree: 1%
    }
    ```
 
-## 自定义过滤器
+## 自訂篩選器
 
-如果要使用自定义过滤器，则必须在Adobe Campaign Standard界面中创建和自定义该过滤器。 然后，自定义过滤器将具有与现成过滤器相同的行为：
+如果您想要使用自訂篩選器，您必須在Adobe Campaign Standard介面中建立和自訂篩選器。 之後，自訂篩選器的行為將與現成篩選器相同：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有关更多信息，请参阅Campaign Standard文档：
+如需詳細資訊，請參閱Campaign Standard檔案：
 
 * [配置过滤器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [用例：使用复合标识键调用资源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [使用案例：使用複合識別鍵呼叫資源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-用于检索交易金额为100$或更多的“配置文件”资源的示例GET请求。 请注意，“byAmount”过滤器首先在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
+用於擷取交易金額為100$或以上的「設定檔」資源的範例GET請求。 請注意，「byAmount」篩選器是先在Adobe Campaign Standard介面中定義並連結至「交易」自訂表格。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

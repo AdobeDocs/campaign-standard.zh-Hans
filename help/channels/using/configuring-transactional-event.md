@@ -1,6 +1,6 @@
 ---
 title: 配置事务性事件
-description: 了解如何在Adobe Campaign中配置事务事件。
+description: 瞭解如何在Adobe Campaign中設定交易式事件。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -18,202 +18,202 @@ ht-degree: 5%
 
 # 配置事务性事件 {#configuring-transactional-event}
 
-要使用Adobe Campaign发送事务型消息，您首先需要通过创建和配置事件来描述事件数据的结构。
+若要使用Adobe Campaign傳送交易式訊息，您首先需要透過建立和設定事件來說明事件資料的結構。
 
 >[!IMPORTANT]
 >
->仅 [功能管理员](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->具有创建和编辑事件配置的适当权限。
+>僅限 [功能管理員](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->具有建立和編輯事件設定的適當許可權。
 
-配置因 [事务型消息类型](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 要发送，以及将使用的渠道上的。 有关此内容的更多信息，请参阅 [特定配置](#transactional-event-specific-configurations).
+此設定會因 [交易式訊息型別](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 您想要傳送，並在將使用的頻道上傳送。 如需詳細資訊，請參閱 [特定設定](#transactional-event-specific-configurations).
 
-配置完成后，必须发布该事件。 请参阅 [发布事务型事件](../../channels/using/publishing-transactional-event.md).
+完成設定後，必須發佈事件。 另請參閱 [發佈交易式事件](../../channels/using/publishing-transactional-event.md).
 
 ## 创建事件 {#creating-an-event}
 
-要开始配置，请创建与您的需求对应的事件。
+若要開始使用，請建立符合您需求的事件。
 
-1. 单击 **Adobe** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. 单击 **[!UICONTROL Create]** 按钮。
-1. 输入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 的值。 的 **[!UICONTROL ID]** 字段为必填字段，且应以前缀“EVT”开头。 如果不使用此前缀，则在单击 **[!UICONTROL Create]**.
+1. 輸入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 事件的。 此 **[!UICONTROL ID]** 欄位是必填欄位，且應以前置詞「EVT」開頭。 如果您未使用此首碼，當您按一下就會自動新增 **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
 
    >[!IMPORTANT]
    >
-   >ID不得超过64个字符，包括EVT前缀。
+   >ID不可超過64個字元，包括EVT首碼。
 
-1. 选择用于发送事务型消息的渠道 **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** 或 **[!UICONTROL Push notification]**. 每个事件只能使用一个渠道，此后无法更改。
+1. 選取將用於傳送交易式訊息的頻道 **[!UICONTROL Email]**， **[!UICONTROL Mobile (SMS)]** 或 **[!UICONTROL Push notification]**. 每個事件只能使用一個管道，之後無法變更。
 
-1. 选择与所需事件配置对应的定向维度，然后单击 **[!UICONTROL Create]**.
+1. 選取與所需事件設定對應的目標維度，然後按一下 **[!UICONTROL Create]**.
 
-   基于事件的事务型消息以事件本身包含的数据为目标，而基于用户档案的事务型消息以Adobe Campaign数据库中包含的数据为目标。 有关更多信息，请参阅 [特定配置](#transactional-event-specific-configurations).
+   事件交易式訊息的目標是事件本身包含的資料，而設定檔交易式訊息的目標則是Adobe Campaign資料庫包含的資料。 有關詳細資訊，請參閱 [特定設定](#transactional-event-specific-configurations).
 
 >[!NOTE]
 >
->事务事件的数量可能会对您的平台产生影响。 为确保获得最佳性能，请确保删除未使用的事件。 请参阅 [删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>交易事件的數量會影響您的平台。 為確保最佳效能，請務必刪除未使用的事件。 另請參閱 [刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## 定义事件属性 {#defining-the-event-attributes}
+## 定義事件屬性 {#defining-the-event-attributes}
 
-在 **[!UICONTROL Fields]** 部分，定义将集成到事件内容中并随后可用于个性化事务型消息的属性。
+在 **[!UICONTROL Fields]** 區段，定義將整合至事件內容的屬性，然後可以使用這些屬性來個人化交易式訊息。
 
-添加和修改字段的步骤与 [自定义资源](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
+新增和修改欄位的步驟與相同 [自訂資源](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
 ![](assets/message-center_2.png)
 
 >[!NOTE]
 >
->如果要创建多语言事务型消息，请使用 **[!UICONTROL AC_language]** ID。 这仅适用于事件事务型消息。 发布事件后，编辑多语言事务型消息内容的步骤与编辑多语言标准电子邮件的步骤相同。 请参阅 [创建多语言电子邮件](../../channels/using/creating-a-multilingual-email.md).
+>如果您想要建立多語言交易式訊息，請使用以下專案定義額外的事件屬性 **[!UICONTROL AC_language]** ID。 這僅適用於事件交易式訊息。 事件發佈後，編輯多語言交易式訊息內容的步驟與多語言標準電子郵件的步驟相同。 另請參閱 [建立多語言電子郵件](../../channels/using/creating-a-multilingual-email.md).
 
-## 定义数据集合 {#defining-data-collections}
+## 定義資料集合 {#defining-data-collections}
 
-您可以向事件内容添加元素集合，每个元素本身都包含多个属性。
+您可以將元素集合新增至事件內容，每個元素本身包含數個屬性。
 
-此集合可在事务型电子邮件中用于添加 [产品清单](../../designing/using/using-product-listings.md) 消息内容，例如产品列表 — 包含价格、参考编号、数量等。 列表的每个产品。
+此集合可用於交易式電子郵件中以新增 [產品清單](../../designing/using/using-product-listings.md) 訊息的內容，例如產品清單 — 具有價格、參考編號、數量等。 清單的每個產品。
 
-1. 在 **[!UICONTROL Collections]** ，单击 **[!UICONTROL Create element]** 按钮。
+1. 在 **[!UICONTROL Collections]** 區段，按一下 **[!UICONTROL Create element]** 按鈕。
 
    ![](assets/message-center_collection_create.png)
 
-1. 为您的收藏集添加标签和ID。
-1. 为列表的每个产品添加要在事务型消息中显示的所有字段。
+1. 為您的集合新增標籤和ID。
+1. 針對清單的每個產品，新增您要顯示在交易式訊息中的所有欄位。
 
-   在本例中，我们添加了以下字段：
+   在此範例中，我們新增了下列欄位：
 
    ![](assets/message-center_collection_fields.png)
 
-1. 的 **[!UICONTROL Enrichment]** 选项卡，以扩充集合的每个项目。 这样，您就可以使用来自Adobe Campaign数据库或您创建的其他资源的信息，将相应产品清单的元素个性化。
+1. 此 **[!UICONTROL Enrichment]** 索引標籤可讓您擴充集合的每個專案。 這可讓您使用Adobe Campaign資料庫或您建立的其他資源中的資訊，個人化對應產品清單的元素。
 
 >[!NOTE]
 >
->扩充集合元素的步骤与 [丰富活动内容](#enriching-the-transactional-message-content) 中。 请注意，扩充活动将不允许您扩充集合：您需要向 **[!UICONTROL Collections]** 中。
+>擴充集合元素的步驟與 [豐富化事件](#enriching-the-transactional-message-content) 區段。 請注意，擴充事件不會讓您擴充集合：您需要在 **[!UICONTROL Collections]** 區段。
 
-发布事件和消息后，您便能够在事务型消息中使用此集合。
+發佈事件和訊息後，您就可以在交易式訊息中使用此集合。
 
-以下是此示例的API预览：
+以下是此範例的API預覽：
 
 ![](assets/message-center_collection_api-preview.png)
 
 **相关主题：**
 
-* [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+* [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 * [在事务型消息中使用产品清单](../../designing/using/using-product-listings.md)
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## 丰富活动内容 {#enriching-the-transactional-message-content}
+## 豐富化事件 {#enriching-the-transactional-message-content}
 
-您可以使用Adobe Campaign数据库中的信息扩充事务型消息的内容，以便个性化您的消息。 例如，从每个收件人的姓氏或CRM ID中，您可以恢复诸如其地址、出生日期或在“用户档案”表中添加的任何其他自定义字段之类的数据，以便个性化发送给他们的信息。
+您可以使用Adobe Campaign資料庫中的資訊擴充交易式訊息內容，以便個人化您的訊息。 例如，您可以從每個收件者的姓氏或CRM ID復原「設定檔」表格中新增的資料（例如其地址或出生日期）或任何其他自訂欄位，以便個人化傳送給他們的資訊。
 
-可以使用来自扩展的信息扩充事务型消息的内容 **[!UICONTROL Profile and services Ext API]**. 有关更多信息，请参阅 [扩展API:发布扩展](../../developing/using/step-2--publish-the-extension.md)
+您可以使用擴充的資訊擴充交易式訊息內容 **[!UICONTROL Profile and services Ext API]**. 如需詳細資訊，請參閱 [擴充API：發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
 
-此信息也可以存储在新资源中。 在这种情况下，资源必须链接到 **[!UICONTROL Profile]** 或 **[!UICONTROL Service]** 直接或通过其他表获取资源。 例如，在以下配置中，可以使用 **[!UICONTROL Product]** 资源（如产品类别或ID），如果 **[!UICONTROL Product]** 资源已链接到 **[!UICONTROL Profile]** 资源。
+此資訊也可以儲存在新資源中。 在此情況下，資源必須連結至 **[!UICONTROL Profile]** 或 **[!UICONTROL Service]** 資源（直接或透過其他表格）。 例如，在下方的設定中，可以使用來自的資訊擴充交易式訊息內容 **[!UICONTROL Product]** 產品類別或ID之類的資源，如果 **[!UICONTROL Product]** 資源已連結至 **[!UICONTROL Profile]** 資源。
 
 ![](assets/message-center_usecaseschema.png)
 
-有关创建和发布资源的更多信息，请参阅 [此部分](../../developing/using/key-steps-to-add-a-resource.md).
+如需建立和發佈資源的詳細資訊，請參閱 [本節](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. 在 **[!UICONTROL Enrichment]** ，单击 **[!UICONTROL Create element]** 按钮。
+1. 在 **[!UICONTROL Enrichment]** 區段，按一下 **[!UICONTROL Create element]** 按鈕。
 
    ![](assets/message-center_addenrichment.png)
 
-1. 选择要将消息链接到的资源。 在这种情况下，请选择 **[!UICONTROL Profile]** 资源。
+1. 選取您要與訊息連結的資源。 在此情況下，請選擇 **[!UICONTROL Profile]** 資源。
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 使用 **[!UICONTROL Create element]** 按钮，将选定资源中的字段链接到您之前添加到事件的某个字段(请参阅 [定义事件属性](#defining-the-event-attributes))。
+1. 使用 **[!UICONTROL Create element]** 按鈕以將所選資源的欄位連結至您先前新增至事件的其中一個欄位(請參閱 [定義事件屬性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 
    >[!NOTE]
    >
-   >如果您定义了一个条件以允许选择多个收件人（例如一个字段的值可用于多个用户档案），则目标用户档案不会多个。
+   >如果您定義可啟用以選取數個收件者的條件（例如某個欄位可有多個設定檔的相同值），則不會鎖定超過一個設定檔。
 
-1. 在本例中，我们将协调 **[!UICONTROL Last name]** 和 **[!UICONTROL First name]** 字段，其对应的字段位于 **[!UICONTROL Profile]** 资源。
+1. 在此範例中，我們會協調 **[!UICONTROL Last name]** 和 **[!UICONTROL First name]** 欄位與中的對應欄位 **[!UICONTROL Profile]** 資源。
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   您还可以使用 **[!UICONTROL Service]** 资源。 有关服务的更多信息，请参阅 [此部分](../../audiences/using/creating-a-service.md).
+   您也可以使用擴充交易式訊息內容 **[!UICONTROL Service]** 資源。 如需服務的詳細資訊，請參閱 [本節](../../audiences/using/creating-a-service.md).
 
-1. 如果您创建或编辑 [基于用户档案的事件](#profile-based-transactional-messages)，在 **[!UICONTROL Targeting enrichment]** 部分，选择在投放执行期间用作消息目标的扩充。
+1. 如果您要建立或編輯 [設定檔事件](#profile-based-transactional-messages)，在 **[!UICONTROL Targeting enrichment]** 區段，選取將在傳遞執行期間用作訊息目標的擴充。
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >创建扩充并根据 **[!UICONTROL Profile]** 基于用户档案的事件必须提供资源。
+   >建立擴充功能並根據 **[!UICONTROL Profile]** 資源對基於設定檔的事件為必要。
 
-发布事件和消息后，此链接将允许您扩充事务型消息的内容。
+發佈事件和訊息後，此連結將允許您擴充交易式訊息的內容。
 
 **相关主题：**
 
-* [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+* [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 * [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## 搜索事务事件 {#searching-transactional-events}
+## 搜尋交易式事件 {#searching-transactional-events}
 
-要访问和搜索已创建的事务型事件，请执行以下步骤。
+若要存取和搜尋已建立的交易式事件，請遵循下列步驟。
 
-1. 单击 **Adobe** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. 单击 **[!UICONTROL Show search]** 按钮。
 
    ![](assets/message-center_search-events.png)
 
-1. 您可以在 **[!UICONTROL Publication status]**. 例如，这允许您仅显示已发布的事件。
-1. 您还可以使用 **[!UICONTROL Last event received]**. 例如，如果输入10，则只会显示10天前或更久之前收到的最后一个事件的事件配置。 这样，您就可以显示在给定时间段内哪些事件处于非活动状态。
+1. 您可以篩選 **[!UICONTROL Publication status]**. 舉例來說，這可讓您僅顯示已發佈的事件。
+1. 您也可以使用篩選事件 **[!UICONTROL Last event received]**. 例如，如果您輸入10，則只會顯示上次事件在10天前或更久之前收到的事件設定。 這可讓您顯示哪些事件在指定期間處於非使用中狀態。
 
    ![](assets/message-center_last-event-received.png)
 
    >[!NOTE]
    >
-   >默认值为0。 随后将显示所有事件。
+   >預設值為0。 然後會顯示所有事件。
 
-## 特定配置 {#transactional-event-specific-configurations}
+## 特定設定 {#transactional-event-specific-configurations}
 
-事务事件配置可能因 [事务型消息类型](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 要发送（事件或用户档案），以及将使用的渠道。
+異動事件設定可能因 [交易式訊息型別](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 您想要傳送（事件或設定檔），並在將使用的頻道上傳送。
 
-以下各节详细介绍了根据所需的事务型消息应设置哪些特定配置。 有关配置事件的常规步骤的更多信息，请参阅 [创建事件](#creating-an-event).
+以下小節詳細說明應根據所需的交易式訊息設定哪些特定設定。 有關設定事件之一般步驟的詳細資訊，請參閱 [建立事件](#creating-an-event).
 
-### 基于事件的事务型消息 {#event-based-transactional-messages}
+### 事件型交易式訊息 {#event-based-transactional-messages}
 
 您可以发送定向某个事件的事件事务型消息。此类事务型消息不包含用户档案信息：根据事件本身包含的数据定义投放目标。
 
-要发送基于事件的事务型消息，您首先需要创建并配置以 **事件本身包含的数据**.
+若要傳送事件型交易式訊息，您首先需要建立並設定目標為 **事件本身包含的資料**.
 
-1. 创建事件配置时，选择 **[!UICONTROL Real-time event]** 定位维度(请参阅 [创建事件](#creating-an-event))。
-1. 向事件添加字段，以便能够个性化事务型消息(请参阅 [定义事件属性](#defining-the-event-attributes))。
+1. 建立事件設定時，選取 **[!UICONTROL Real-time event]** 目標維度(請參閱 [建立事件](#creating-an-event))。
+1. 將欄位新增至事件，以便個人化交易式訊息(請參閱 [定義事件屬性](#defining-the-event-attributes))。
 1. 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。
 
-   但是，如果要使用Adobe Campaign数据库中的其他信息，则可以扩充事务型消息的内容(请参阅 [扩充事务型消息的内容](#enriching-the-transactional-message-content))。
+   不過，如果您想要使用Adobe Campaign資料庫中的其他資訊，可以擴充交易式訊息內容(請參閱 [豐富交易式訊息內容](#enriching-the-transactional-message-content))。
 
-1. 预览和发布事件(请参阅 [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event))。
+1. 預覽和發佈事件(請參閱 [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event))。
 
-   预览事件时，REST API包含一个属性，该属性根据所选渠道指定电子邮件地址、手机或推送通知特定属性。
+   預覽事件時，REST API會根據選取的頻道，包含指定電子郵件地址、行動電話或推播通知特定屬性的屬性。
 
-   发布事件后，将自动创建链接到新事件的事务型消息。 要使事件触发发送事务型消息，您必须 [修改](../../channels/using/editing-transactional-message.md) 和 [发布](../../channels/using/publishing-transactional-message.md) 刚刚创建的消息。
+   發佈事件後，會自動建立連結至新事件的交易式訊息。 為了讓事件觸發傳送交易式訊息，您必須 [修改](../../channels/using/editing-transactional-message.md) 和 [發佈](../../channels/using/publishing-transactional-message.md) 剛建立的訊息。
 
-1. 将事件集成到您的网站(请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
+1. 將事件整合至您的網站(請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
 
-### 基于用户档案的事务型消息 {#profile-based-transactional-messages}
+### 設定檔交易式訊息 {#profile-based-transactional-messages}
 
-您可以根据客户用户档案发送事务型消息，该消息允许您应用营销分类规则，包括取消订阅链接，将消息添加到全局投放报告并在客户历程中利用该消息。
+您可以根據客戶設定檔傳送交易式訊息，這可讓您套用行銷型別規則、包含取消訂閱連結、將訊息新增至全域傳遞報告，並在客戶歷程中運用。
 
-要发送基于用户档案的事务型消息，您首先需要创建并配置事件定位 **来自Adobe Campaign数据库的数据**.
+若要傳送設定檔交易式訊息，您首先需要建立和設定事件目標定位 **來自Adobe Campaign資料庫的資料**.
 
-1. 创建事件配置时，选择 **[!UICONTROL Profile event]** 定位维度(请参阅 [创建事件](#creating-an-event))。
-1. 向事件添加字段，以便能够个性化事务型消息(请参阅 [定义事件属性](#defining-the-event-attributes))。 必须至少添加一个字段才能创建扩充。 您无需创建其他字段，例如 **名字** 和 **姓氏** 因为您将能够使用Adobe Campaign数据库中的个性化字段。
-1. 创建扩充，以将事件链接到 **[!UICONTROL Profile]** 资源(请参阅 [丰富活动内容](#enriching-the-transactional-message-content))并选择此扩充作为 **[!UICONTROL Targeting enrichment]**.
+1. 建立事件設定時，選取 **[!UICONTROL Profile event]** 目標維度(請參閱 [建立事件](#creating-an-event))。
+1. 將欄位新增至事件，以便個人化交易式訊息(請參閱 [定義事件屬性](#defining-the-event-attributes))。 您必須至少新增一個欄位才能建立擴充。 您不需要建立其他欄位，例如 **名字** 和 **姓氏** 因為您將能夠使用Adobe Campaign資料庫中的個人化欄位。
+1. 建立擴充以將事件連結至 **[!UICONTROL Profile]** 資源(請參閱 [豐富化事件](#enriching-the-transactional-message-content))並選取此擴充作為 **[!UICONTROL Targeting enrichment]**.
 
    >[!IMPORTANT]
    >
-   >对于基于用户档案的事件，此步骤是必备的。
+   >此步驟對於設定檔事件為必要。
 
-1. 预览和发布事件(请参阅 [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event))。
+1. 預覽和發佈事件(請參閱 [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event))。
 
-   预览事件时，REST API不包含指定电子邮件地址、手机或推送通知特定属性的属性，因为该属性将从 **[!UICONTROL Profile]** 资源。
+   預覽事件時，REST API不包含指定電子郵件地址、行動電話或推播通知特定屬性的屬性，因為會從 **[!UICONTROL Profile]** 資源。
 
-   发布事件后，将自动创建链接到新事件的事务型消息。 要使事件触发发送事务型消息，您必须 [修改](../../channels/using/editing-transactional-message.md) 和 [发布](../../channels/using/publishing-transactional-message.md) 刚刚创建的消息……
+   發佈事件後，會自動建立連結至新事件的交易式訊息。 為了讓事件觸發傳送交易式訊息，您必須 [修改](../../channels/using/editing-transactional-message.md) 和 [發佈](../../channels/using/publishing-transactional-message.md) 剛建立的訊息……
 
-1. 将事件集成到您的网站(请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
+1. 將事件整合至您的網站(請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
 
 <!--### Transactional SMS messages {#transactional-sms}
 
@@ -227,16 +227,16 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 ### 事务性推送通知 {#transactional-push-notifications}
 
-您可以发送两种类型的事务推送通知：
-* 向选择从移动应用程序接收通知的所有用户发送的匿名事务型推送通知。 请参阅 [配置基于事件的事务型推送通知](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
-* 向订阅了您移动应用程序的Adobe Campaign用户档案的事务型推送通知。 请参阅 [配置基于用户档案的事务推送通知](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
+您可以傳送兩種型別的交易式推播通知：
+* 匿名交易式推播通知，傳送給選擇接收來自您的行動應用程式通知的所有使用者。 另請參閱 [設定事件型交易式推播通知](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
+* 交易式推播通知給已訂閱您的行動應用程式的Adobe Campaign設定檔。 另請參閱 [設定設定檔交易式推播通知](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
 
 >[!IMPORTANT]
 >
->要发送事务推送通知，您需要相应地配置Adobe Campaign。 请参阅 [配置移动应用程序](../../administration/using/configuring-a-mobile-application.md).
+>若要能夠傳送異動推播通知，您需要據此設定Adobe Campaign。 另請參閱 [設定行動應用程式](../../administration/using/configuring-a-mobile-application.md).
 
 ### 跟进消息 {#follow-up-messages}
 
-您可以向收到特定事务型消息的客户发送跟进消息。
+您可以傳送後續追蹤訊息給收到特定交易式訊息的客戶。
 
-有关配置事件以发送跟进消息的详细步骤，请参见 [此部分](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).
+有關設定事件以允許傳送後續訊息的詳細步驟，請參閱 [本節](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).

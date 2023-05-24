@@ -1,6 +1,6 @@
 ---
 title: 创建隐私请求
-description: 了解如何使用API创建隐私请求
+description: 瞭解如何使用API建立隱私權請求
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,26 +19,26 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->的 [隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 集成是您应用于所有访问和删除请求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>此 [隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 整合是您應用於所有存取和刪除請求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-隐私请求是使用 **POST** 请求。
+隱私權請求是使用 **POST** 要求。
 
-在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参阅 [隐私管理文档](../../start/using/privacy-requests.md).
+建立請求之前，您需要定義要使用的名稱空間。 如需詳細資訊，請參閱 [隱私權管理檔案](../../start/using/privacy-requests.md).
 
-有效负载必须包含以下参数：
+承載必須包含以下引數：
 
-* **name**:唯一的内部名称
-* **命名空间**:在Campaign Standard界面中配置的命名空间名称
-* **reconciliationValue**:基于命名空间中定义的协调键值的协调值
-* **标签**:请求标签
-* **type**:请求类型。 接受的值为“access”或“delete”。
-* **监管**:调节类型。 示例：“GDPR”、“CCPA”。 此参数是强制性的，从Campaign Standard19.4版本开始提供。 如果您使用的是较旧的内部版本，则无需将其添加到有效负载中。
+* **名稱**：唯一的內部名稱
+* **名稱空間**：在Campaign Standard介面中設定的名稱空間名稱
+* **reconciliationvalue**：調解值是根據名稱空間中定義的調解金鑰
+* **標籤**：請求標籤
+* **type**：要求型別。 接受的值為「存取」或「刪除」。
+* **法規**：規則型別。 範例： &quot;GDPR&quot;、&quot;CCPA&quot;。 此引數為必要引數，自Campaign Standard19.4發行版本起即可使用。 如果您使用舊版組建，則不需要將其新增至您的裝載。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-此POST请求基于命名空间AMCDS2中定义的电子邮件对帐密钥创建隐私请求：
+此POST請求會根據名稱空間AMCDS2中定義的電子郵件調解金鑰建立隱私權請求：
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -57,7 +57,7 @@ ht-degree: 4%
 }
 ```
 
-响应POST请求。
+對POST要求的回應。
 
 ```
 {

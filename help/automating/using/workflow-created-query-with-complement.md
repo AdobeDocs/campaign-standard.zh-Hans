@@ -1,6 +1,6 @@
 ---
 title: 使用补充创建投放
-description: 此用例展示了如何创建带补码的投放。
+description: 此使用案例顯示如何使用補充來建立傳送。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,30 +18,30 @@ ht-degree: 41%
 
 # 使用补充创建投放 {#deliveries-with-complement}
 
-您可以向客户发送电子邮件：一个是为不到一年前创建的客户，一个是为一年多前创建的客户。
+您可以傳送電子郵件給客戶：一個用於不到一年前建立的客戶，另一個用於超過一年前建立的客戶。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
 1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
 1. 输入工作流的属性并单击 **[!UICONTROL Create]**。
 
-## 创建查询活动 {#create-a-query-activity}
+## 建立查詢活動 {#create-a-query-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL email]** 和运算符 **[!UICONTROL is not empty]**.
-1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**.
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL email]** 使用運運算元 **[!UICONTROL is not empty]**.
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL no longer contact by email]** 包含值 **[!UICONTROL no]**.
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
-## 创建分段活动 {#create-a-segmentation-activity}
+## 建立細分活動 {#create-a-segmentation-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [分段](../../automating/using/segmentation.md) 活动，然后双击该活动。
-1. 将鼠标悬停在区段上，然后单击 ![](assets/edit_darkgrey-24px.png) 目标客户今年在数据库中添加了。
-1. 拖放 **[!UICONTROL Profiles]** 选择 **[!UICONTROL Created]** 的 **[!UICONTROL Relative]**.
-1. 更改 **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** 选择 **[!UICONTROL This year]**.
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [細分](../../automating/using/segmentation.md) 活動並連按兩下。
+1. 暫留在區段上，然後按一下 ![](assets/edit_darkgrey-24px.png) ，以定位今年新增到資料庫中的客戶。
+1. 拖放 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL Created]** 使用篩選器型別 **[!UICONTROL Relative]**.
+1. 變更 **[!UICONTROL Level of precision]** 至 **[!UICONTROL Year]** 並選取 **[!UICONTROL This year]**.
 1. 单击 **[!UICONTROL Confirm]** 两次。
-1. 在 **[!UICONTROL Advanced Options]**，勾选 **[!UICONTROL Generate complement]** 创建定向其余收件人的区段。
+1. 在 **[!UICONTROL Advanced Options]**，檢查 **[!UICONTROL Generate complement]** 建立以其他收件者為目標的區段。
 1. 单击 **[!UICONTROL Confirm]**。
 1. 单击 **[!UICONTROL Save]**。
 
@@ -49,18 +49,18 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->要观察规则的结构，请单击 **[!UICONTROL Advanced Mode]**.
+>若要觀察規則的結構，請按一下 **[!UICONTROL Advanced Mode]**.
 
 ## 创建电子邮件投放 {#create-an-email-delivery}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動於每個區段之後。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Single send email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 使用特定于每个投放的选件个性化您的电子邮件。
+1. 使用每個傳遞的特定優惠方案個人化您的電子郵件。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
 

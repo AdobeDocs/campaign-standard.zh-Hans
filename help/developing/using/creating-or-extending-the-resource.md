@@ -1,6 +1,6 @@
 ---
 title: 创建或扩展资源
-description: 了解如何从头开始定义资源。
+description: 探索如何從頭開始定義資源。
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 # 创建或扩展资源{#creating-or-extending-the-resource}
 
-如果您需要处理不属于内置数据模型的数据，则管理员可以从头开始创建新资源或创建现有资源的扩展。
+如果您需要處理不屬於內建資料模型的資料，管理員可以從頭開始建立新資源，或建立現有資源的擴充功能。
 
-只能扩展以下内置资源：
+只能擴充下列內建資源：
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -31,12 +31,12 @@ ht-degree: 11%
 * **[!UICONTROL Test profiles (seedMember)]**
 * **[!UICONTROL Workflow (workflow)]**
 
-要创建或扩展资源，请执行以下操作：
+若要建立或擴充資源，請執行下列動作：
 
-1. 从 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**，请单击 **[!UICONTROL Create]** 按钮。
-1. 选择要执行的操作：
+1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**，按一下 **[!UICONTROL Create]** 按鈕。
+1. 選擇要執行的動作：
 
-   * **[!UICONTROL Create a new resource]**:输入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 字段。 **[!UICONTROL ID]** 字段属于必填字段。如果将“标签”字段留空，则将从ID自动完成该字段。
+   * **[!UICONTROL Create a new resource]**：輸入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 欄位。 **[!UICONTROL ID]** 字段属于必填字段。如果您將Label欄位留空，則會自動從ID完成欄位。
 
       ![](assets/schema_extension_2.png)
 
@@ -44,10 +44,10 @@ ht-degree: 11%
       >
       >最多使用 30 个字符。
 
-   * **[!UICONTROL Extend an existing resource]**:选择要扩展的资源。
+   * **[!UICONTROL Extend an existing resource]**：選取您要擴充的資源。
 
       ![](assets/schema_extension_10.png)
 
-1. 单击 **[!UICONTROL Create]** 以创建资源，然后该资源将 **[!UICONTROL Draft]** 新资源或 **[!UICONTROL Editing]** 扩展时的状态。
+1. 按一下 **[!UICONTROL Create]** 以建立資源，然後搭配 **[!UICONTROL Draft]** 若是新資源或 **[!UICONTROL Editing]** 若是擴充功能，則為status 。
 
-将创建新资源，并且现在可以对其进行配置。 有关资源配置的更多信息，请参阅 [配置资源的数据结构](../../developing/using/configuring-the-resource-s-data-structure.md).
+新資源已建立且現在可以設定。 有關資源設定的詳細資訊，請參閱 [設定資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md).

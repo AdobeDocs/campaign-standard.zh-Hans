@@ -1,6 +1,6 @@
 ---
 title: 关于 Campaign Standard 设置
-description: 了解Campaign Standard基本设置
+description: 瞭解Campaign Standard基本設定
 audience: administration
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
@@ -16,16 +16,16 @@ ht-degree: 5%
 
 # 关于 Campaign Standard 设置{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard附带了可根据您的需求配置的不同应用程序元素。 例如，您可以：
+[!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求加以設定。 例如，您可以：
 
-* 设置外部帐户，
-* 配置目标映射以管理发送投放所需的技术设置，
-* 在应用程序内设置内部通知等。
+* 設定外部帳戶，
+* 設定目標對應以管理傳送傳遞所需的技術設定，
+* 在應用程式內設定內部通知等。
 
-这些设置可从 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 菜单。
+這些設定可從以下網址取得： **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 功能表。
 
-此外， **[!UICONTROL Options]** 菜单，以便您更明确地配置应用程序。 其中一些组件在安装Campaign时是内置的，而另一些组件则可在需要时手动添加（可用选项因随实例安装的包而异）。
+此外，您也可以在以下連結中找到技術選項： **[!UICONTROL Options]** 功能表，讓您更明確地設定應用程式。 其中有些是內建在安裝Campaign時，有些則可視需要手動新增（可用選項會因您執行個體所安裝的套件而異）。
 
 >[!IMPORTANT]
 >
->这些选项在安装Campaign时已配置，且只应由高级用户修改。 如果您有任何问题或请求，请联系您的Adobe联系人。
+>安裝Campaign時已設定這些選項，且僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe連絡人。

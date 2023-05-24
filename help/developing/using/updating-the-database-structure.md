@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅 [取消发布事务型事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。另請參閱 [取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Publishing]**。
 1. 默认勾选 **[!UICONTROL Determine modifications since the last publication]** 选项，这意味着仅应用自上次更新以来执行的更改。
@@ -49,7 +49,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >由于重复的索引导致发布失败，准备步骤会检查为资源定义的索引是否已经存在，并且其名称与另一个资源的名称相同。 如果发生此情况，将显示一条错误消息，要求您重命名索引。 请参阅 [定义索引](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >由於重複的索引會導致發佈失敗，準備步驟會檢查為資源定義的索引是否已存在，且另一個資源的索引名稱相同。 如果發生此情況，則會顯示錯誤訊息，要求您重新命名索引。 另請參閱 [定義索引](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. 执行发布后，单击 **[!UICONTROL Publish]** 按钮以应用新配置。
 1. 发布后，每个资源的 **[!UICONTROL Summary]** 窗格此时都会显示 **[!UICONTROL Published]** 状态，并标注上次发布的日期。
@@ -105,4 +105,4 @@ ht-degree: 92%
 >
 >此发布会更新 **[!UICONTROL profilesAndServicesExt]** API。**[!UICONTROL profilesAndServices]** API 未更新。
 
-有关Adobe Campaign Standard API的更多信息，请参阅 [此部分](../../api/using/get-started-apis.md).
+如需Adobe Campaign Standard API的詳細資訊，請參閱 [本節](../../api/using/get-started-apis.md).

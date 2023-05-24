@@ -1,6 +1,6 @@
 ---
 title: 工作流生命周期
-description: 了解有关工作流生命周期的更多信息
+description: 進一步瞭解工作流程生命週期
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,30 +18,30 @@ ht-degree: 3%
 
 # 工作流生命周期 {#life-cycle}
 
-工作流的生命周期包括三个主要步骤，每个步骤都链接到状态和颜色：
+工作流程的生命週期包含三個主要步驟，且每個步驟都與狀態和顏色連結：
 
-* **编辑** （灰色）
+* **編輯** （灰色）
 
-   这是工作流的初始设计阶段(请参阅 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow))。 该工作流尚未由服务器处理，可以修改，且不会出现任何风险。
+   這是工作流程的初始設計階段(請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow))。 此工作流程尚未由伺服器處理，且可以修改而不會造成任何風險。
 
-* **正在进行** （蓝色）
+* **進行中** （藍色）
 
-   初始设计阶段完成后，工作流便可启动并由服务器处理。
+   完成初始設計階段後，工作流程即可啟動並由伺服器處理。
 
-* **已完成** （绿色）
+* **已完成** （綠色）
 
-   当没有任何正在进行的任务或当运算符明确停止实例时，工作流即告完成。
+   一旦沒有任何正在進行的任務或運運算元已明確停止執行個體，工作流程就會完成。
 
-启动工作流后，该工作流可能还具有两种其他状态：
+工作流程啟動後，可能還會有其他兩種狀態：
 
-* **警告** （黄色）
+* **警告** （黃色）
 
-   无法使用完成或暂停工作流 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按钮。
+   工作流程無法完成，或已暫停使用 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按鈕。
 
-* **错误** （红色）
+* **錯誤** （紅色）
 
-   执行工作流时出错。 工作流已停止，用户必须执行操作。 要进一步了解此错误，请使用 ![](assets/printpreview_darkgrey-24px.png) 用于访问工作流日志的按钮(请参阅 [监控](../../automating/using/monitoring-workflow-execution.md))。
+   執行工作流程時發生錯誤。 工作流程已停止，使用者必須執行動作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕以存取工作流程記錄(請參閱 [監視](../../automating/using/monitoring-workflow-execution.md))。
 
-营销活动列表允许您显示所有工作流及其状态。 有关此内容的更多信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities).
+行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

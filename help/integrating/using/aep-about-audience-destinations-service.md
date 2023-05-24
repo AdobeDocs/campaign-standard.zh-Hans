@@ -1,6 +1,6 @@
 ---
 title: 关于 Audience Destinations 服务
-description: 了解有关受众目标服务的更多信息。
+description: 進一步瞭解Audience Destinations服務。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -22,31 +22,31 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 需要在Azure上托管客户（目前仅适用于北美地区的测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀团队。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-利用 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) 以根据复杂的大型数据集构建高度定位的受众。 Adobe Experience Platform整合了包括Adobe Analytics在内的在线和离线来源的配置文件、行为和多实体数据，以帮助您构建客户的360度视图，从而使您能够有效管理客户体验。
+善用您的消費者體驗 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) 根據大型複雜資料集建立具有高度針對性的對象。 Adobe Experience Platform整合線上和離線來源中的設定檔、行為和多實體資料，包括Adobe Analytics，以協助您建立客戶的360度檢視，讓您能夠有效地管理客戶體驗。
 
-Adobe Campaign Standard随后将使用 **受众目标** 用于检索用户档案集合的服务，称为 **受众**，用于多步和/或跨渠道营销活动项目的Adobe Experience Platform。
+Adobe Campaign Standard隨後將使用 **對象目的地** 用於擷取設定檔集合的服務，稱為 **受眾**，適用於Adobe Experience Platform的多步驟及/或跨頻道行銷活動方案。
 
-**受众** 由第一个构建创建 **区段**，这实际上是一组基于Adobe Experience Platform客户配置文件中几乎任何变量（例如，配置文件、事件、多实体数据）的规则，用于创建多维目标。 以下专用文档中引用了有关实时客户资料和分段服务的全局概念：
+**受眾** 由首次建置所建立 **區段**，基本上是一組規則，根據客戶設定檔中的幾乎任何變數（例如設定檔、事件、多實體資料）從Adobe Experience Platform建立多維度目標。 以下專屬檔案中會提及即時客戶個人資料和細分服務的全域概念：
 
-* [实时客户资料概述](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [即時客戶設定檔概述](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 * [Segmentation Service概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-创建区段后，您可以将其作为受众在中激活以进行投放 [Campaign Standard工作流](../../integrating/using/aep-targeting-audiences.md). 此外，您还可以将来自Adobe Experience Platform的上下文数据用于 [个性化](../../integrating/using/aep-personalizing-campaigns.md) 和向营销策划添加动态内容。
+建立區段後，您就可以將其啟用為中的傳送對象 [Campaign Standard工作流程](../../integrating/using/aep-targeting-audiences.md). 此外，您也可以將Adobe Experience Platform中的內容資料用於 [個人化](../../integrating/using/aep-personalizing-campaigns.md) 並將動態內容新增至行銷活動。
 
-![](assets/do-not-localize/how-to-video.png) 操作方法视频也可在 [此部分](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) 您也可以參閱操作說明影片 [本節](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
-以下部分使用的术语：
+這些區段中使用的辭彙：
 
-* **用户档案**:用户档案是用于定义用户属性的Experience Platform标准数据模型。 用户档案也可以是与人员或设备相关的事件数据和属性的汇总。
+* **設定檔**：設定檔是用於定義消費者屬性的Experience Platform標準資料模型。 設定檔也可以是與個人或裝置相關的事件資料和屬性的彙總。
 
-   示例：“无名氏是一名55岁的男性。”
+   範例：「John Doe是55歲的男性。」
 
-* **区段**:一组规则，通过属性和事件数据定义数据库中用户档案的子集。
+* **區段**：一組規則，使用屬性和事件資料從資料庫定義設定檔的子集。
 
-   示例：“男性> 50岁。”
+   範例：「男性> 50歲。」
 
-* **受众**:符合区段规则的用户档案集合。
+* **對象**：符合區段規則的設定檔集合。
 
-   示例：数据库中所有年龄在50岁以上的男性对应的用户档案列表。
+   範例：對應至資料庫中所有大於50歲男性的設定檔清單。

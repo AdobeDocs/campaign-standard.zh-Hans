@@ -1,6 +1,6 @@
 ---
 title: 从头开始设计电子邮件
-description: 了解如何在Email Designer中从头开始设计电子邮件内容。
+description: 瞭解如何在電子郵件設計工具中從頭開始設計電子郵件內容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -11,32 +11,32 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 19%
+ht-degree: 23%
 
 ---
 
 # 从头开始设计电子邮件 {#designing-an-email-content-from-scratch}
 
-了解如何主控编辑电子邮件内容。 通过Email Designer，您可以创建电子邮件和模板，无论这些电子邮件和模板是否以您自己的预定义内容开头。
+瞭解如何掌握電子郵件內容版本。 透過電子郵件設計工具，您可以建立以或不以您自己的預先定義內容開始的電子郵件和範本。
 
-以下是使用Email Designer从头开始创建和设计电子邮件内容的主要步骤：
+以下是使用Email Designer從頭開始建立和設計電子郵件內容的主要步驟：
 
-1. 创建电子邮件并打开其内容。
-1. 添加结构组件以形成电子邮件。 请参阅 [编辑电子邮件结构](#defining-the-email-structure).
-1. 在结构组件中插入内容组件和片段。 请参阅 [添加片段和内容组件](#defining-the-email-structure).
-1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images).
-1. 通过添加个性化字段、链接等，个性化您的电子邮件。 请参阅 [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field), [插入链接](../../designing/using/links.md#inserting-a-link) 和 [在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. 定义电子邮件的主题行。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. 建立電子郵件並開啟其內容。
+1. 新增結構元件以塑造電子郵件的形狀。 另請參閱 [編輯電子郵件結構](#defining-the-email-structure).
+1. 在結構元件中插入內容元件和片段。 另請參閱 [新增片段和內容元件](#defining-the-email-structure).
+1. 新增影像並編輯電子郵件的文字。 另請參閱 [插入影像](../../designing/using/images.md#inserting-images).
+1. 新增個人化欄位、連結等，個人化您的電子郵件。 另請參閱 [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)， [插入連結](../../designing/using/links.md#inserting-a-link) 和 [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. 定義電子郵件的主旨行。 另請參閱 [個人化電子郵件的主旨行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 预览电子邮件.
-1. 保存内容，并在确保已定义受众并正确计划了发送后继续处理消息。
+1. 儲存您的內容，然後在確定您已定義對象並正確排程傳送後，繼續傳送訊息。
 
-您也可以查看此 [简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+您也可以檢視此 [簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
->为避免从头开始设计电子邮件内容，您可以使用现成的内容模板。 有关此内容的更多信息，请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates).
+>為避免從頭開始設計電子郵件內容，您可以使用現成的內容範本。 如需詳細資訊，請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates).
 
-## 定义电子邮件结构 {#defining-the-email-structure}
+## 定義電子郵件結構 {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -48,38 +48,38 @@ ht-degree: 19%
 >title="定义电子邮件列"
 >abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
-通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
+使用电子邮件设计器，您可以轻松定义电子邮件的结构。透過簡單的拖放動作來新增和移動結構元素，您可以在數秒內設計電子郵件的形狀。
 
-要编辑电子邮件的结构，请执行以下操作：
+若要編輯電子郵件的結構：
 
-1. 打开现有内容或创建新的电子邮件内容。
-1. 访问 **[!UICONTROL Structure components]** 选择 **+** 图标。
+1. 開啟現有內容或建立新的電子郵件內容。
+1. 存取 **[!UICONTROL Structure components]** 藉由選取 **+** 圖示加以檢視。
 
    ![](assets/email_designer_structure.png)
 
-1. 拖放形成电子邮件形状所需的结构组件。
+1. 拖放您塑造電子郵件所需的結構元件。
 
    ![](assets/email_designer_structure_components.png)
 
-   在放置结构组件之前，使用蓝线可实现其确切位置。 您可以将其放置在任何其他组件的上方、中间或下方，但不能放在内部。
+   藍線會在您放置結構元件之前實化結構元件的確切位置。 您可以將它拖曳至任何其他元件上方、之間或下方，但不可拖曳至內部。
 
    >[!NOTE]
    >
    >请注意，并非所有电子邮件程序都与列堆叠兼容。当不支持时，将不堆叠列。
    >
-   >将组件放入电子邮件中后，除非内部已放置内容组件或片段，否则将无法移动或删除组件。
+   >放入電子郵件後，除非裡面已有內容元件或片段，否則無法移動或移除元件。
 
-1. 可使用由一个或多个列组成的多个结构组件。
+1. 可使用由一或多欄組成的多個結構元件。
 
-   选择 **[!UICONTROL n:n column]** 组件来定义所选的列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
+   選取 **[!UICONTROL n:n column]** 元件以定義所選欄數（3到10之間）。 还可以通过移动每个列底部的箭头来定义该列的宽度。
 
    ![](assets/email_designer_n-n-column.png)
 
    >[!NOTE]
    >
-   >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
+   >每个列的大小不能小于结构组件的总宽度的 10%。不能删除非空列。
 
-定义结构后，您便可以向电子邮件中添加内容片段和组件。
+定義結構後，您就可以將內容片段和元件新增到電子郵件中。
 
 ## 使用邮件引文 {#preheader}
 
@@ -88,68 +88,68 @@ ht-degree: 19%
 >title="使用邮件引文"
 >abstract="邮件引文可让您配置一个简短的摘要文本，该文本可帮助提高电子邮件的打开率。"
 
-标题是在从收件箱中查看电子邮件时，主题行后面的简短摘要文本。 预标头提供了较高的打开率。
+預覽文字是簡短摘要文字，在從收件匣檢視電子郵件時遵循主旨行。 預先標頭可提供較高的開啟率。
 
-选择 **[!UICONTROL Preheader]** 编辑框并完成内容。
+選取 **[!UICONTROL Preheader]** 編輯方塊並完成內容。
 
 ![](assets/email_designer_preheader.png)
 
-您可以添加 **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]** 中。
+您可以新增 **[!UICONTROL Content block]**， a **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]** 在預覽文字內容中。
 
 >[!NOTE]
 >
 >请注意，并非所有电子邮件程序都与邮件引文兼容。当不支持时，将不显示邮件引文。
 
-## 使用内容组件 {#about-content-components}
+## 使用內容元件 {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="关于内容组件"
 >abstract="内容组件是空的内容占位符，可以编辑它以创建电子邮件。"
 
-内容组件是一旦放入电子邮件中即可编辑的原始空组件。
+內容元件是原始的空白元件，放入電子郵件後即可加以編輯。
 
-您可以在结构组件中添加所需数量的内容组件。 也可以在结构组件内或将它们移动到其他结构组件。
+您可以在結構元件中新增任意數量的內容元件。 您也可以在結構元件內部或另一個結構元件中移動它們。
 
-以下是Email Designer中可用组件的列表：
+以下是電子郵件設計工具中可用元件的清單：
 
 ### **[!UICONTROL Button]**
 
-如果您需要使用多个按钮，而不是从头开始编辑每个按钮，则可以复制 **[!UICONTROL Button]** 组件。
+如果您需要使用多個按鈕，而不是從頭開始編輯每個按鈕，您可以複製 **[!UICONTROL Button]** 使用內容工具列的元件。
 
-您还可以将按钮保存到可重复使用的片段中。 有关此内容的更多信息，请参阅 [创建内容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 和 [将内容另存为片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+您也可以將按鈕儲存到可重複使用的片段中。 如需詳細資訊，請參閱 [建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 和 [將內容另存為片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-选择 **[!UICONTROL Fallback view]** 以在Email Designer中显示备用图像。
+選取 **[!UICONTROL Fallback view]** 以在電子郵件設計工具中顯示遞補影像。
 
 ### **[!UICONTROL Text]**
 
-使用此组件可在电子邮件中插入文本。 您可以在 **[!UICONTROL Component Settings]**.
+使用此元件在電子郵件中插入文字。 您可以調整文字的顏色、樣式和大小 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
-使用此组件可在电子邮件中插入分隔线。 您可以在 **[!UICONTROL Component Settings]**.
+使用此元件可在電子郵件中插入分割線。 您可以選取中破斷線的顏色、樣式和大小 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
-使用此组件可复制粘贴现有HTML的不同部分。 这使您能够创建免费的模块化HTML组件。
+使用此元件可複製並貼上現有HTML的不同部分。 這可讓您建立免費的模組化HTML元件。
 
 >[!NOTE]
 >
->免费HTML组件可编辑，但选项有限。 如果未插入所有样式，请确保在 **头** ，否则电子邮件将无法响应。 使用 **[!UICONTROL Preview]** 按钮以测试内容的响应性(请参阅 [预览消息](../../sending/using/previewing-messages.md))。
+>可用有限的選項編輯自由HTML元件。 如果所有樣式並非內嵌，請務必在 **head** 區段的HTML，否則電子郵件將不會回應。 使用 **[!UICONTROL Preview]** 按鈕來測試內容的回應能力(請參閱 [預覽訊息](../../sending/using/previewing-messages.md))。
 
-为了使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件中的内容复制到片段和组件中。
+為了讓外部內容符合電子郵件設計工具，Adobe建議從草稿建立訊息，並將現有電子郵件的內容複製到片段和元件中。
 
-当您的内容无法重新创建时，可以使用 **[!UICONTROL Html]** 内容组件。 在继续之前，请确保您熟悉HTML。
+當您有無法重新建立的內容時，可以使用從原始電子郵件複製並貼上HTML代碼 **[!UICONTROL Html]** 內容元件。 繼續之前，請務必先熟悉HTML。
 
 >[!NOTE]
 >
->新内容将不是原始电子邮件的确切副本，但以下步骤将指导您完成尽可能接近的消息创建过程。
+>新內容不會與原始電子郵件完全相同，但以下步驟將引導您建立儘可能接近的訊息。
 
-**复制内容之前**
+**複製內容之前**
 
-1. 在原始电子邮件中，确定部分中可重复使用的部分，这些部分对于您将要发送的每个电子邮件都是唯一的。
-1. 保存您要使用的所有图像和资产。
-1. 如果您熟悉HTML，请将原始HTML内容拆分为不同的部分。
+1. 在原始電子郵件中，識別區段中可重複使用的區段，這些區段對於您將傳送的每封電子郵件都是唯一的。
+1. 儲存您要使用的所有影像和資產。
+1. 如果您熟悉HTML，請將原始HTML內容分割成不同部分。
 
 ### 视频 {#video-settings}
 
@@ -159,7 +159,7 @@ ht-degree: 19%
 >abstract="使用此组件可在电子邮件中插入视频。请注意，视频不适用于所有电子邮件客户端。我们建议设置后备图像。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="附加信息"
 
-将视频组件插入电子邮件的结构组件，然后在 **[!UICONTROL Component Settings]**.
+將視訊元件插入電子郵件的結構元件中，然後在 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -167,13 +167,13 @@ ht-degree: 19%
 
 ### 图像
 
-使用此组件可在电子邮件中插入图像。
+使用此元件在電子郵件中插入影像。
 
-将图像组件插入结构组件，然后单击浏览以从您的计算机上传图像文件。
+將影像元件插入結構元件中，然後按一下「瀏覽」即可從電腦上傳影像檔案。
 
 ### **[!UICONTROL Social]**
 
-使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接，以及其图标在 **[!UICONTROL Component Settings]**.
+使用此元件可在電子郵件中插入社群媒體頁面的連結。 您可以選取要顯示的連結及其圖示大小 **[!UICONTROL Component Settings]**.
 
 ### 轮播 {#carousel-settings}
 
@@ -182,21 +182,21 @@ ht-degree: 19%
 >title="轮播设置"
 >abstract="了解如何在内容中插入和配置轮播。请注意，轮播不适用于所有电子邮件客户端，如果不支持轮播，则会显示后备图像。"
 
-1. 拖放 **[!UICONTROL Carousel]** 组件内部。
-1. 浏览以从您的计算机中选择图像。
+1. 拖放 **[!UICONTROL Carousel]** 結構元件內的元件。
+1. 瀏覽以從您的電腦中選取影像。
 
    ![](assets/des_carousel_browse.png)
 
-1. 从 **[!UICONTROL Settings]** 窗格中，设置您希望在轮播中显示的缩略图数量。
-1. 从您的计算机中选择一个备用图像。
+1. 從 **[!UICONTROL Settings]** 窗格，設定您想在轉盤中放入的縮圖數目。
+1. 從電腦中選取一個備援影像。
 
    ![](assets/des_carousel_fallback.png)
 
-轮播组件与所有电子邮件程序不兼容。 当电子邮件不支持轮播时，请上传回退以显示图像。
+轉盤元件並非與所有電子郵件程式相容。 當電子郵件不支援輪播時，請上傳遞補以顯示影像。
 
 >[!NOTE]
 >
->轮播组件与以下电子邮件平台兼容：Apple Mail 7、Apple Mail 8、适用于Mac的Outlook 2011、适用于Mac的Outlook 2016、Mozilla Thunderbird、iPad和iPad mini iOS、iPhoneiOS、Android、AOL（Chrome、Firefox和Safari）。
+>輪播元件與下列電子郵件平台相容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL （Chrome、Firefox和Safari）。
 
 **相关主题**：
 

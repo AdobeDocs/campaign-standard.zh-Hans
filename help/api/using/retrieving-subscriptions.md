@@ -1,6 +1,6 @@
 ---
 title: 检索订阅
-description: 了解如何使用API检索订阅
+description: 瞭解如何使用API擷取訂閱
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,24 +12,24 @@ ht-degree: 1%
 
 ---
 
-# 使用API检索订阅 {#retrieving-subscriptions-api}
+# 使用API擷取訂閱 {#retrieving-subscriptions-api}
 
-## 检索订阅服务的用户档案
+## 擷取訂閱服務的設定檔
 
-这是两步法。
+此程式分為兩個步驟。
 
-1. 检索所需服务的订阅URL。
-1. 对订阅URL执行GET请求。 它会返回服务订阅列表以及每个关联的用户档案。
+1. 擷取所需服務的訂閱URL。
+1. 對訂閱URL執行GET要求。 它會傳回服務的訂閱清單，以及每個關聯的設定檔。
 
 >[!CAUTION]
 >
->REST API会返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL来发出后续API请求</b>.
+>REST API會傳回「href」屬性，其中包含要使用的URL。 <b>一律使用回應中包含的URL提出後續的API請求</b>.
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-执行GET请求以检索服务。
+執行GET要求以擷取服務。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -39,7 +39,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回服务的订阅URL。
+它會傳回服務的訂閱URL。
 
 ```
   {
@@ -53,7 +53,7 @@ ht-degree: 1%
   },
 ```
 
-对订阅URL执行GET请求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-此时将显示服务订阅列表，其中包含每个关联的用户档案。
+將顯示服務的訂閱清單，以及各個關聯的設定檔。
 
 ```
   {
@@ -80,18 +80,18 @@ ht-degree: 1%
   }
 ```
 
-## 检索用户档案订阅的服务
+## 擷取設定檔訂閱的服務
 
-这是两步法。
+此程式分為兩個步驟。
 
-1. 检索给定用户档案的订阅URL。
-1. 对URL执行GET请求。 它会返回用户档案的订阅列表以及每个关联的服务。
+1. 擷取指定設定檔的訂閱URL。
+1. 在URL上執行GET要求。 它會傳回設定檔的訂閱清單，以及每個相關的服務。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-执行GET请求以检索配置文件。
+執行GET要求以擷取設定檔。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -101,7 +101,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回用户档案的订阅URL。
+它會傳回設定檔的訂閱URL。
 
 ```
   {
@@ -115,7 +115,7 @@ ht-degree: 1%
   }
 ```
 
-对订阅URL执行GET请求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -125,7 +125,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回用户档案订阅的服务列表。
+它會傳回設定檔訂閱的服務清單。
 
 ```
   {

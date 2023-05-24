@@ -1,6 +1,6 @@
 ---
 title: 事务性推送通知
-description: 了解如何使用Adobe Campaign Standard发送事务推送通知。
+description: 瞭解如何使用Adobe Campaign Standard傳送異動推播通知。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -18,84 +18,84 @@ ht-degree: 4%
 
 # 事务性推送通知{#transactional-push-notifications}
 
-您可以使用Adobe Campaign在iOS和Android移动设备上发送事务推送通知。 您在Adobe Campaign中设置的移动设备应用程序会利用Experience CloudMobile SDK来接收这些消息。
+您可以使用Adobe Campaign在iOS和Android行動裝置上傳送異動推播通知。 這些訊息會在您運用Experience CloudMobile SDK在Adobe Campaign中設定的行動應用程式上接收。
 
 >[!NOTE]
 >
->推送渠道是可选的。 请核实您的许可协议。有关标准推送通知的更多信息，请参阅 [关于推送通知](../../channels/using/about-push-notifications.md).
+>推播通道為選用。 请核实您的许可协议。如需標準推播通知的詳細資訊，請參閱 [關於推播通知](../../channels/using/about-push-notifications.md).
 
-要发送事务推送通知，您需要相应地配置Adobe Campaign。 请参阅 [配置移动应用程序](../../administration/using/configuring-a-mobile-application.md).
+若要能夠傳送異動推播通知，您需要據此設定Adobe Campaign。 另請參閱 [設定行動應用程式](../../administration/using/configuring-a-mobile-application.md).
 
-您可以发送两种类型的事务推送通知：
+您可以傳送兩種型別的交易式推播通知：
 
-* [定向事件的事务推送通知](#transactional-push-notifications-targeting-an-event)
-* [定向用户档案的事务推送通知](#transactional-push-notifications-targeting-a-profile) 从Adobe Campaign数据库
+* [以事件為目標的異動推播通知](#transactional-push-notifications-targeting-an-event)
+* [以設定檔為目標的交易式推播通知](#transactional-push-notifications-targeting-a-profile) 從Adobe Campaign資料庫
 
-## 定向事件的事务推送通知 {#transactional-push-notifications-targeting-an-event}
+## 以事件為目標的異動推播通知 {#transactional-push-notifications-targeting-an-event}
 
-您可以使用Adobe Campaign发送 **面向所有用户的匿名事务推送通知** 已选择从移动应用程序接收通知的用户。
+您可以使用Adobe Campaign來傳送 **匿名交易式推播通知給所有使用者** 選擇接收行動應用程式通知的使用者。
 
-在这种情况下，仅 **事件本身包含的数据用于定义投放目标**. 没有利用来自Adobe Campaign集成用户档案数据库的数据。
+在此情況下，僅 **事件本身包含的資料可用來定義傳遞目標**. 不會利用來自Adobe Campaign整合式設定檔資料庫的資料。
 
-### 配置基于事件的事务型推送通知 {#configuring-event-based-transactional-push-notification}
+### 設定事件型交易式推播通知 {#configuring-event-based-transactional-push-notification}
 
-要向选择从移动应用程序接收通知的所有用户发送事务型推送通知，您首先需要创建并配置一个事件，以定向事件本身中包含的数据。
+若要將交易式推播通知傳送給選擇接收來自行動應用程式通知的所有使用者，您首先需要建立和設定事件，並以事件本身包含的資料為目標。
 
 >[!NOTE]
 >
->您仍可以使用个性化基于事件的事务推送通知的内容 [事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （来自事件的数据）和 [事件扩充](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （来自Campaign数据库的数据）。 请参阅 [以下示例](#sending-event-based-transactional-push-notification).
+>您仍然可以使用個人化事件型交易式推播通知的內容 [事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （來自事件的資料）和 [事件擴充](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （來自Campaign資料庫的資料）。 另請參閱 [以下範例](#sending-event-based-transactional-push-notification).
 
-事件必须包含以下三个元素：
+事件必須包含下列三個元素：
 
-* A **注册令牌**，是一个移动设备应用程序和一个设备的用户ID。 它可能与Adobe Campaign数据库中的任何用户档案都不对应。
-* A **移动应用程序名称** (适用于所有设备的一个 — Android和iOS)。 这是在Adobe Campaign中配置的移动应用程序的ID，用于在用户设备上接收推送通知。 有关更多信息，请参阅 [配置移动应用程序](../../administration/using/configuring-a-mobile-application.md).
-* A **推送平台** (对于Android，为“gcm”；对于iOS，为“apns”)。
+* A **註冊權杖**，此為單一行動應用程式和單一裝置的使用者ID。 它可能未對應至Adobe Campaign資料庫中的任何設定檔。
+* A **行動應用程式名稱** (適用於所有裝置 — Android和iOS)。 這是在Adobe Campaign中設定的行動應用程式ID，用來接收使用者裝置上的推播通知。 有關詳細資訊，請參閱 [設定行動應用程式](../../administration/using/configuring-a-mobile-application.md).
+* A **推播平台** (「gcm」適用於Android，「apns」適用於iOS)。
 
-要配置事件，请执行以下步骤：
+若要設定事件，請遵循下列步驟：
 
-1. 创建事件配置时，选择 **[!UICONTROL Push notification]** 渠道和 **[!UICONTROL Real-time event]** 定位维度(请参阅 [创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event))。
-1. 向事件添加字段。 这将允许您个性化事务型消息(请参阅 [定义事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。 在此示例中，定义“gateNumber”、“lastname”和“firstname”字段。
-1. 您还可以扩充消息的内容。 为此，请添加表中链接到事件配置的字段(请参阅 [丰富活动内容](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。
+1. 建立事件設定時，選取 **[!UICONTROL Push notification]** 頻道和 **[!UICONTROL Real-time event]** 目標維度(請參閱 [建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event))。
+1. 新增欄位至事件。 這可讓您個人化交易式訊息(請參閱 [定義事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。 在此範例中，定義「gateNumber」、「lastname」和「firstname」欄位。
+1. 您也可以豐富訊息的內容。 若要這麼做，請從您連結至事件設定的表格新增欄位(請參閱 [豐富化事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。
 
    <!--Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.-->
 
-1. [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-   预览事件时，REST API包含用于定位投放的“registrationToken”、“application”和“pushPlatform”属性。
+   預覽事件時，REST API包含將用於鎖定傳送目標的「registrationToken」、「application」和「pushPlatform」屬性。
 
    ![](assets/message-center_push_api.png)
 
-   发布事件后，将自动创建链接到新事件的事务型推送通知。 您现在可以修改并发布刚刚创建的消息(请参阅 [此部分](#sending-event-based-transactional-push-notification))。
+   發佈事件後，系統會自動建立連結至新事件的交易式推播通知。 您現在可以修改並發佈剛建立的訊息(請參閱 [本節](#sending-event-based-transactional-push-notification))。
 
-1. 将事件集成到您的网站(请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
+1. 將事件整合至您的網站(請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
 
-### 发送基于事件的事务型推送通知 {#sending-event-based-transactional-push-notification}
+### 傳送事件型交易式推播通知 {#sending-event-based-transactional-push-notification}
 
-例如，某航空公司希望邀请其移动应用程序用户前往相关登机口登机。
+例如，一家航空公司想要邀請其行動應用程式使用者前往相關登機口。
 
-该公司将使用一个移动应用程序通过一个设备为每个用户发送一个事务推送通知（通过注册令牌标识）。
+公司將使用單一行動應用程式，透過單一裝置為每個使用者傳送一個交易式推播通知（以註冊權杖識別）。
 
-1. 请转至创建的事务型消息以对其进行编辑。请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 请转至创建的事务型消息以对其进行编辑。另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
    ![](assets/message-center_push_message.png)
 
-1. 单击 **[!UICONTROL Content]** 块以修改消息的标题和正文。
+1. 按一下 **[!UICONTROL Content]** 封鎖以修改訊息的標題和內文。
 
-1. 您可以插入个性化字段以添加您在创建事件时定义的元素(请参阅 [定义事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。
+1. 您可以插入個人化欄位，以新增您在建立事件時定義的元素(請參閱 [定義事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。
 
    ![](assets/message-center_push_content.png)
 
-   要查找这些字段，请单击项目旁边的铅笔，然后单击 **[!UICONTROL Insert personalization field]** 选择 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+   若要尋找這些欄位，請按一下專案旁的鉛筆，然後按一下 **[!UICONTROL Insert personalization field]** 並選取 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
-   有关编辑推送通知内容的更多信息，请参阅 [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md).
+   如需編輯推播通知內容的詳細資訊，請參閱 [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. 如果要使用来自Adobe Campaign数据库的其他信息，还可以扩充事务型消息的内容(请参阅 [丰富活动内容](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。
+1. 如果您想要使用Adobe Campaign資料庫的其他資訊，也可以擴充交易式訊息內容(請參閱 [豐富化事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。
 
 1. 保存更改并发布消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-1. 使用Adobe Campaign Standard REST API，在Android(gcm)上使用一个移动应用程序(WeFlight)（包含登入数据），将事件发送到注册令牌(ABCDEF123456789):
+1. 使用Adobe Campaign Standard REST API，在Android (gcm)上使用單一行動應用程式(WeFlight)，將事件傳送至註冊權杖(ABCDEF123456789)，其中包含登機資料：
 
    ```
    {
@@ -111,70 +111,70 @@ ht-degree: 4%
    }
    ```
 
-   有关将事件触发集成到外部系统的更多信息，请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   如需將事件觸發整合至外部系統的詳細資訊，請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-如果存在注册令牌，则相应的用户将收到包含以下内容的事务推送通知：
+如果註冊權杖存在，則對應的使用者會收到包含以下內容的交易式推播通知：
 
-*“你好，简·格林，刚刚开始登机！ 请前往B18号门。”*
+*「Jane Green，您好，登機已經開始！ 請前往B18門。」*
 
-## 定向用户档案的事务推送通知 {#transactional-push-notifications-targeting-a-profile}
+## 以設定檔為目標的交易式推播通知 {#transactional-push-notifications-targeting-a-profile}
 
-您可以发送事务推送通知 **订阅了您移动应用程序的Adobe Campaign用户档案**. 此投放可以包含 [个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)，例如收件人的名字，直接从Adobe Campaign数据库中检索。
+您可以傳送交易式推播通知 **訂閱您行動應用程式的Adobe Campaign設定檔**. 此傳遞可包含 [個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)（例如收件者的名字）會直接從Adobe Campaign資料庫中擷取。
 
-在这种情况下，事件必须包含一些字段 **允许与Adobe Campaign数据库中的用户档案进行协调**.
+在這種情況下，事件必須包含一些欄位 **允許與Adobe Campaign資料庫中的設定檔進行調解**.
 
-定位用户档案时，每个移动应用程序和每个设备会发送一条事务推送通知。 例如，如果Adobe Campaign用户订阅了两个应用程序，则该用户将收到两个通知。 如果用户已订阅了使用两个不同设备的同一应用程序，则该用户将在每台设备上收到通知。
+目標定位設定檔時，會針對每個行動應用程式和裝置傳送一個交易式推播通知。 例如，如果Adobe Campaign使用者訂閱了兩個應用程式，則此使用者將收到兩個通知。 如果使用者使用兩個不同的裝置訂閱了相同的應用程式，則此使用者將在每個裝置上收到通知。
 
-用户档案订阅的移动应用程序列在 **[!UICONTROL Mobile App Subscriptions]** 选项卡。 要访问此选项卡，请选择一个配置文件，然后单击 **[!UICONTROL Edit profile properties]** 按钮。
+設定檔訂閱的行動應用程式會列在 **[!UICONTROL Mobile App Subscriptions]** 此設定檔的索引標籤。 若要存取此索引標籤，請選取設定檔並按一下 **[!UICONTROL Edit profile properties]** 按鈕。
 
 ![](assets/push_notif_subscriptions.png)
 
-有关访问和编辑用户档案的更多信息，请参阅 [关于用户档案](../../audiences/using/about-profiles.md).
+如需存取和編輯設定檔的詳細資訊，請參閱 [關於設定檔](../../audiences/using/about-profiles.md).
 
-### 配置基于用户档案的事务推送通知 {#configuring-profile-based-transactional-push-notification}
+### 設定設定檔交易式推播通知 {#configuring-profile-based-transactional-push-notification}
 
-要向订阅了您移动应用程序的Adobe Campaign用户档案发送事务推送通知，您首先需要创建并配置以Adobe Campaign数据库为目标的事件。
+若要將交易式推播通知傳送給已訂閱您的行動應用程式的Adobe Campaign設定檔，您首先需要建立和設定以Adobe Campaign資料庫為目標的事件。
 
-1. 创建事件配置时，选择 **[!UICONTROL Push notification]** 渠道和 **[!UICONTROL Profile]** 定位维度(请参阅 [创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event))。
+1. 建立事件設定時，選取 **[!UICONTROL Push notification]** 頻道和 **[!UICONTROL Profile]** 目標維度(請參閱 [建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event))。
 
-   默认情况下，事务型推送通知将发送到收件人订阅的所有移动应用程序。 要将推送通知发送到特定的移动设备应用程序，请在列表中选择该通知。 其他移动应用程序将被消息定向，但将被排除在发送之外。
+   依預設，交易式推播通知會傳送給收件者訂閱的所有行動應用程式。 若要將推播通知傳送至特定的行動應用程式，請在清單中選取該應用程式。 訊息會鎖定其他行動應用程式，但會將其排除在傳送之外。
 
    ![](assets/message-center_push_appfilter.png)
 
-1. 如果要个性化事务型消息，请向事件添加字段(请参阅 [定义事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。
+1. 如果您想要個人化交易式訊息，請新增欄位至事件(請參閱 [定義事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes))。
 
    >[!NOTE]
    >
-   >必须至少添加一个字段才能创建扩充。 您无需创建其他字段，例如 **名字** 和 **姓氏** 因为您将能够使用Adobe Campaign数据库中的个性化字段。
+   >您必須至少新增一個欄位才能建立擴充。 您不需要建立其他欄位，例如 **名字** 和 **姓氏** 因為您將能夠使用Adobe Campaign資料庫中的個人化欄位。
 
-1. 创建扩充，以将事件链接到 **[!UICONTROL Profile]** 资源(请参阅 [丰富活动内容](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))并选择此扩充作为 **[!UICONTROL Targeting enrichment]**.
+1. 建立擴充以將事件連結至 **[!UICONTROL Profile]** 資源(請參閱 [豐富化事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))並選取此擴充作為 **[!UICONTROL Targeting enrichment]**.
 
    >[!IMPORTANT]
    >
-   >对于基于用户档案的事件，此步骤是必备的。
+   >此步驟對於設定檔事件為必要。
 
-1. [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-   预览事件时，REST API不包含指定注册令牌、应用程序名称和推送平台的属性，因为这些属性将从 **[!UICONTROL Profile]** 资源。
+   預覽事件時，REST API不包含指定註冊權杖、應用程式名稱和推送平台的屬性，因為它們將會從擷取 **[!UICONTROL Profile]** 資源。
 
-   发布事件后，将自动创建链接到新事件的事务型推送通知。 您现在可以修改并发布刚刚创建的消息(请参阅 [此部分](#sending-profile-based-transactional-push-notification))。
+   發佈事件後，系統會自動建立連結至新事件的交易式推播通知。 您現在可以修改並發佈剛建立的訊息(請參閱 [本節](#sending-profile-based-transactional-push-notification))。
 
-1. 将事件集成到您的网站(请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
+1. 將事件整合至您的網站(請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger))。
 
-### 发送基于用户档案的事务推送通知 {#sending-profile-based-transactional-push-notification}
+### 傳送設定檔交易式推播通知 {#sending-profile-based-transactional-push-notification}
 
-例如，某航空公司希望向订阅其移动应用程序的所有Adobe Campaign用户发送最后一次登机电话。
+例如，一家航空公司想要傳送登機通知給已訂閱其行動應用程式的所有Adobe Campaign使用者。
 
-1. 请转至创建的事务型消息以对其进行编辑。请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 请转至创建的事务型消息以对其进行编辑。另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
-1. 单击 **[!UICONTROL Content]** 块以修改消息的标题和正文。
+1. 按一下 **[!UICONTROL Content]** 封鎖以修改訊息的標題和內文。
 
-   与基于实时事件的配置不同，您可以直接访问所有用户档案信息以个性化您的消息。 请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
+   與根據即時事件的設定相反，您可以直接存取所有設定檔資訊，以個人化您的訊息。 请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
-   有关编辑推送通知内容的更多信息，请参阅 [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md).
+   如需編輯推播通知內容的詳細資訊，請參閱 [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. 保存更改并发布消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
-1. 使用Adobe Campaign Standard REST API，将事件发送到用户档案：
+1. 使用Adobe Campaign Standard REST API，傳送事件至設定檔：
 
    ```
    {
@@ -186,44 +186,44 @@ ht-degree: 4%
    }
    ```
 
-有关将事件触发集成到外部系统的更多信息，请参阅 [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+如需將事件觸發整合至外部系統的詳細資訊，請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-相应用户接收事务推送通知，其中包括从Adobe Campaign数据库检索到的所有个性化元素。
+對應的使用者會收到交易式推播通知，其中包含從Adobe Campaign資料庫擷取的所有個人化元素。
 
 >[!NOTE]
 >
->没有注册令牌、应用程序和推送平台字段。 在本例中，使用email字段执行协调。
+>沒有註冊權杖、應用程式和推播平台欄位。 在此範例中，調解是使用email欄位執行。
 
-## 更改事务推送通知中的目标映射 {#change-target-mapping}
+## 變更交易式推播通知中的目標對應 {#change-target-mapping}
 
-事务推送通知使用特定 [目标映射](../../administration/using/target-mappings-in-campaign.md) 其中包含发送此类投放所需的技术设置。
+異動推播通知使用特定 [目標對應](../../administration/using/target-mappings-in-campaign.md) 其中包含傳送此類傳送所需的技術設定。
 
-要更改此目标映射，请执行以下步骤：
+若要變更此目標對應，請遵循下列步驟：
 
-1. 从事务型消息列表中，选择推送通知。
+1. 從交易式訊息清單中，選取推播通知。
 
-1. 在消息仪表板中，单击 **[!UICONTROL Edit properties]** 按钮。
+1. 在訊息控制面板中，按一下 **[!UICONTROL Edit properties]** 按鈕。
 
    ![](assets/message-center_push_edit.png)
 
-1. 展开 **[!UICONTROL Advanced parameters]** 中。
+1. 展開 **[!UICONTROL Advanced parameters]** 區段。
 
 1. 单击 **[!UICONTROL Select a 'Target mapping' element]**。
 
    ![](assets/message-center_push_target-mapping.png)
 
-1. 从列表中选择目标映射。
+1. 從清單中選取目標對應。
 
    >[!NOTE]
    >
-   >在发送时，为获得最佳投放准备时间和性能 **基于用户档案** 事务型推送通知，请使用 **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** 目标映射。
+   >為了在傳送時最佳化傳遞準備時間和效能 **設定檔型** 異動推播通知，請使用 **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** 目標對應。
 
    ![](assets/message-center_push_target-mapping_change.png)
 
-1. 确认更改并发布消息。 请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 確認變更並發佈訊息。 请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
    >[!IMPORTANT]
    >
-   >您必须再次发布消息才能使更改生效，否则仍将使用之前的目标映射。
+   >您必須再次發佈訊息，變更才會生效，否則仍會使用先前的目標對應。
 
 

@@ -1,6 +1,6 @@
 ---
 title: External API
-description: 外部API活动通过HTTP API调用，将外部系统中的数据引入Campaign Standard工作流。
+description: 外部API活動會透過HTTP API呼叫，從外部系統將資料帶入Campaign Standard工作流程中。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 ---
 
-# 外部API {#external-api}
+# External API {#external-api}
 
 ## 说明 {#description}
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，HTTP响应数据大小限制和响应超时护栏已降低，以符合最佳实践 — 请参阅 [限制和防护](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
+在Campaign Standard 20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務 — 請參閱 [限制和護欄](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -114,13 +114,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。的 **[!UICONTROL URL]** 字段 **HTTPS端点** 该Campaign Standard将与之通信。
+通过此选项卡，可以定义连接端点。此 **[!UICONTROL URL]** 欄位可讓您定義 **HTTPS端點** 該Campaign Standard將與進行通訊。
 
-如果端点需要，可使用两种类型的身份验证方法：
+如果端點需要，可使用兩種型別的驗證方法：
 
-* 基本身份验证：在 **[!UICONTROL Request Header(s)]** 中。
+* 基本驗證：在「 」中輸入您的使用者名稱/密碼資訊 **[!UICONTROL Request Header(s)]** 區段。
 
-* OAuth身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帐户中，您可以选择定义了OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
+* OAuth驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帳戶中，您可以選取定義OAuth驗證的外部帳戶。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 
@@ -156,9 +156,9 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ![](assets/externalAPI-options.png)
 
-## 测试
+## 測試
 
-要使用简单的测试端点测试外部API功能，您可以使用Postman Echo:https://docs.postman-echo.com。
+若要使用簡單的測試端點來測試外部API功能，您可以使用Postman Echo： https://docs.postman-echo.com。
 
 ## 疑难解答
 
@@ -260,8 +260,8 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>不允许的 HTTP 标头键值（标头键值：'%s'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP标头值错误(标头值：“%s”)。</td> 
-   <td> <p>HTTP标头值错误(标头值：“%s”)。 </p>
+   <td> WKF-560247 - HTTP標頭值錯誤（標頭值：'%s'）。</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>注意：根据 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 验证自定义标头值失败时，将记录此错误。</p></td> 
   </tr> 
   <tr> 

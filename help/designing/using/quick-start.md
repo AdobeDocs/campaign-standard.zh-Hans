@@ -1,6 +1,6 @@
 ---
 title: Email Designer 入门
-description: 开始使用Email Designer构建电子邮件内容。
+description: 開始使用電子郵件設計工具建立電子郵件內容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,140 +17,140 @@ ht-degree: 5%
 
 # Email Designer 入门 {#quick-start}
 
-Email Designer提供了四种创建电子邮件的方法。
+電子郵件設計工具提供四種建立電子郵件的方式。
 
-您可以创建电子邮件 [在Email Designer中全新启动](#without-existing-content):
+您可以建立電子郵件 [在電子郵件設計工具中重新開始](#without-existing-content)：
 
-1. 您可以 **从空白画布创建电子邮件** 通过轻松添加结构和内容组件并个性化其内容来快速发送投放。 您还可以完全管理样式元素。 有关更多信息，请 [快速入门](#from-scratch-email) 或查看 [完整文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. 您可以 **從空白畫布建立電子郵件** 輕鬆新增結構和內容元件，並個人化其內容，以快速傳送傳遞。 您也可以完全管理樣式元素。 如需詳細資訊， [快速入門](#from-scratch-email) 或參閱 [完整檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. 您可以 **使用现成模板创建电子邮件** ，方法是从此处选择模板并构建新的电子邮件内容。 [了解详情](#building-content-from-an-out-of-the-box-template)
+1. 您可以 **從現成可用的範本建立電子郵件** 從這裡選取範本並建立您的新電子郵件內容。 [了解详情](#building-content-from-an-out-of-the-box-template)
 
-您还可以创建电子邮件 [包含现有内容](#with-existing-content):
+您也可以建立電子郵件 [使用現有內容](#with-existing-content)：
 
-1. 您可以 **转换现有HTML内容** （创建于外部或旧版编辑器中）。 [了解详情](#converting-an-html-content)
-1. 您可以 **导入现有HTML内容** 在兼容模式下直接离开。 [了解详情](#compatibility-mode)
+1. 您可以 **轉換現有HTML內容** （在外部或在舊版編輯器中建立）。 [了解详情](#converting-an-html-content)
+1. 您可以 **匯入現有的HTML內容** 在相容性模式中立即生效。 [了解详情](#compatibility-mode)
 
-| 无内容 | 包含内容 |
+| 無內容 | 包含內容 |
 |---|---|
-| [从头开始创建电子邮件](#from-scratch-email) | [转换现有HTML内容](#converting-an-html-content) |
-| [从现成模板构建内容](#building-content-from-an-out-of-the-box-template) | [导入现有HTML](#compatibility-mode) |
+| [從頭開始建立電子郵件](#from-scratch-email) | [轉換現有HTML內容](#converting-an-html-content) |
+| [從現成可用的範本建立內容](#building-content-from-an-out-of-the-box-template) | [匯入現有HTML](#compatibility-mode) |
 
-## 使用编辑器设计电子邮件 {#without-existing-content}
+## 使用編輯器設計電子郵件 {#without-existing-content}
 
 >[!NOTE]
 >
->在这两种创建策略中，在发送电子邮件之前填写主题行都至关重要。 了解如何 [添加主题行](#add-a-subject-line).
+>在這兩種建立策略中，在傳送電子郵件之前填寫主旨行都至關重要。 瞭解如何 [新增主旨列](#add-a-subject-line).
 
-### 从头开始创建电子邮件 {#from-scratch-email}
+### 從頭開始建立電子郵件 {#from-scratch-email}
 
-您可以轻松创建电子邮件、添加组件和个性化其内容，从而快速发送投放。 您可以根据需要根据内容调整样式选项。 有关管理样式设置和内联属性的更多信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md).
+您可以輕鬆建立電子郵件、新增元件並個人化其內容，以快速傳送傳遞。 您可以視需要調整樣式選項以符合您的內容。 如需管理樣式設定和內嵌屬性的詳細資訊，請參閱 [編輯電子郵件樣式](../../designing/using/styles.md).
 
 1. 创建电子邮件.
-1. 关闭主页。
+1. 關閉首頁。
 
-### 添加主题行 {#add-a-subject-line}
+### 新增主旨列 {#add-a-subject-line}
 
-发送电子邮件时，主题行是必填项。 有关更多信息，请参阅 [定义电子邮件的主题行](../../designing/using/subject-line.md).
+傳送電子郵件時，主旨列是必填欄位。 如需詳細資訊，請參閱 [定義電子郵件的主旨行](../../designing/using/subject-line.md).
 
-1. 转到 **[!UICONTROL Properties]** （可通过主页图标访问）并填写 **[!UICONTROL Subject]** 中。
+1. 前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取），並填寫 **[!UICONTROL Subject]** 區段。
 
 ![](assets/subject-line-quick-start.png)
 
-### 添加结构组件 {#add-structure-components}
+### 新增結構元件 {#add-structure-components}
 
-结构组件将定义电子邮件的布局。 有关更多信息，请参阅 [定义电子邮件的结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+結構元件將定義電子郵件的版面。 如需詳細資訊，請參閱 [定義電子郵件的結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-在结构组件中，拖放要用于布局的组件。
+在「結構」元件中，拖放您要使用之配置圖的元件。
 
 >[!NOTE]
 >
->您可以选择将在电子邮件中添加的不同内容布局。
+>您可以選取不同的內容版面配置，將其新增至您的電子郵件中。
 
 ![](assets/structure-components-quick-start.png)
 
-### 添加内容组件 {#add-content-components}
+### 新增內容元件 {#add-content-components}
 
-您可以向电子邮件中添加多个内容组件，如图像、文本和按钮。 有关更多信息，请参阅 [内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
+您可以將數個內容元件新增至電子郵件，例如影像、文字和按鈕。 如需詳細資訊，請參閱 [內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
 
 * **图像**
 
-   1. 在 **内容组件**，将图像拖放到其中一个结构组件中。
-   1. 单击 **浏览**.
-   1. 从计算机中选择图像文件。
+   1. 在 **內容元件**，將影像拖放至其中一個結構元件中。
+   1. 按一下 **瀏覽**.
+   1. 從電腦中選取您的影像檔案。
 
    ![](assets/browse-image-quick-start.png)
 
-* **具有个性化的文本**
+* **包含個人化的文字**
 
-   1. 在 **内容组件**，将文本拖放到其中一个结构组件中。
-   1. 单击组件并输入文本。
-   1. 要添加个性化字段，请单击 **插入个性化字段** 中。
-   1. 选择您需要的字段，如名字。
+   1. 在 **內容元件**，將文字拖放至其中一個結構元件中。
+   1. 按一下元件並輸入文字。
+   1. 若要新增個人化欄位，請按一下 **插入個人化欄位** （在工具列中）。
+   1. 選取您需要的欄位，例如「名字」。
 
    ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-   1. 在 **内容组件**，将HTML拖放到您的某个结构组件中。
-   1. 单击 **显示源代码**.
-   1. 输入HTML内容。
+   1. 在 **內容元件**，將HTML拖放至其中一個結構元件中。
+   1. 按一下 **顯示原始程式碼**.
+   1. 輸入您的HTML內容。
    1. 单击&#x200B;**保存**。
 
    ![](assets/html-component-source-code.png)
 
-   如果您熟悉HTML，可以使用 **[!UICONTROL Html]** 内容组件。 有关此内容的更多信息，请参阅 [关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components).
+   如果您熟悉HTML HTML，可以使用 **[!UICONTROL Html]** 內容元件。 如需詳細資訊，請參閱 [關於內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
-### 为电子邮件组件设置样式
+### 設定電子郵件元件的樣式
 
-您可以调整电子邮件的样式，例如，更改组件的内边距。 有关管理样式设置和内联属性的更多信息，请参阅 [编辑电子邮件样式](../../designing/using/styles.md).
+您可以調整電子郵件樣式，例如透過變更元件的邊框間距。 如需管理樣式設定和內嵌屬性的詳細資訊，請參閱 [編輯電子郵件樣式](../../designing/using/styles.md).
 
-1. 单击 **文本组件**.
-1. 在右侧的面板中，转到 **内边距**.
-1. 单击锁图标可中断上、下或左右参数之间的同步。
-1. 调整 **内边距** 随时。
+1. 按一下您的 **文字元件**.
+1. 在右側的浮動視窗中，前往 **內距**.
+1. 按一下鎖定圖示，中斷頂端與底端引數或右側與左側引數之間的同步化。
+1. 調整 **內距** 視您的需求而定。
 1. 单击&#x200B;**保存**。
 
 ![](assets/padding-quick-start.png)
 
-您现在可以保存并发送电子邮件。
+您現在可以儲存並傳送電子郵件。
 
-### 从现成模板构建内容 {#building-content-from-an-out-of-the-box-template}
+### 從現成可用的範本建立內容 {#building-content-from-an-out-of-the-box-template}
 
-您可以从现成的模板（如客户欢迎邮件、新闻稿和重新参与电子邮件）构建电子邮件，并对其进行个性化。
+您可以使用現成可用的範本（例如客戶歡迎訊息、電子報和重新參與電子郵件）建立電子郵件，並加以個人化。
 
-1. 创建电子邮件并打开其内容。 有关此内容的更多信息，请参阅 [创建电子邮件](../../channels/using/creating-an-email.md).
-1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
-1. 单击 **[!UICONTROL Templates]** 选项卡。
-1. 选择现成的HTML模板。
-不同的模板呈现多种类型元素的各种组合。 例如，“羽化”模板具有边距，而“天文”模板没有边距。 有关此内容的更多信息，请参阅 [内容模板](../../designing/using/using-reusable-content.md#content-templates).
-1. 转到 **[!UICONTROL Properties]** （可通过主页图标访问）并填写 **[!UICONTROL Subject]** 中。
-1. 您可以组合这些元素来构建许多电子邮件变体。 例如，您可以通过选择结构组件并单击 **[!UICONTROL Duplicate]** 中。
-1. 您可以使用左侧的蓝色箭头在周围移动元素，以将结构组件拖动到另一个组件下方或上方。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 您还可以移动组件以更改每个结构元素的组织。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 根据需要修改每个元素的内容：图像、文本、链接。
-1. 根据需要，根据您的内容调整样式选项。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 建立電子郵件並開啟其內容。 如需詳細資訊，請參閱 [建立電子郵件](../../channels/using/creating-an-email.md).
+1. 按一下首頁圖示以存取 **[!UICONTROL Email Designer]** 首頁。
+1. 按一下 **[!UICONTROL Templates]** 標籤。
+1. 選擇現成的HTML範本。
+不同的範本會顯示數種元素型別的各種組合。 例如，「羽化」範本有邊界，而「天文學」範本沒有邊界。 如需詳細資訊，請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates).
+1. 前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取），並填寫 **[!UICONTROL Subject]** 區段。
+1. 您可以結合這些元素來建置許多電子郵件變體。 例如，您可以選取結構元件並按一下「 」，複製電子郵件區段 **[!UICONTROL Duplicate]** 從內容工具列。
+1. 您可以使用左側的藍色箭頭來移動元素，將結構元件拖曳到另一個元件的下方或上方。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 您也可以移動元件，以變更每個結構元素的組織。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 視需要修改每個元素的內容：影像、文字、連結。
+1. 視需要調整樣式選項以符合您的內容。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
 
-## 使用现有电子邮件内容 {#with-existing-content}
+## 使用現有的電子郵件內容 {#with-existing-content}
 
-如果要构建一个模块化模板和片段框架，以便将其组合以在多封电子邮件中重复使用，则应当考虑将电子邮件HTML转换为Email Designer模板。
+如果您想要建立模組化範本和片段的架構，這些範本和片段可合併以在多個電子郵件中重複使用，您應考慮將您的電子郵件HTML轉換為電子郵件設計工具範本。
 
-### 转换HTML内容 {#converting-an-html-content}
+### 轉換HTML內容 {#converting-an-html-content}
 
-此用例提供了一种将HTML电子邮件转换为Email Designer组件的快速方法。 有关此主题的更多信息，请参阅 [转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content).
+此使用案例提供一種將HTML電子郵件快速轉換為電子郵件設計工具元件的方法。 如需有關本主題的詳細資訊，請參閱 [轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
->此部分适用于熟悉HTML代码的用户。
+>本節適用於熟悉HTML程式碼的使用者。
 
 >[!NOTE]
 >
->与兼容性模式一样，HTML组件也可编辑，但选项有限：您只能执行就地版本。
+>如同相容性模式，HTML元件可使用有限的選項進行編輯：您只能執行就地編輯。
 
 
-### 导入和编辑HTML电子邮件 {#compatibility-mode}
+### 匯入和編輯HTML電子郵件 {#compatibility-mode}
 
-在上传内容时，内容必须包含特定标记，才能与Email Designer的WYSIWYG编辑器完全兼容和可编辑。
+上傳內容時，內容必須包含特定標籤，才能與電子郵件設計工具的WYSIWYG編輯器完全相容且可編輯。
 
-有关将现有电子邮件转换为与Email Designer兼容的电子邮件的更多信息，请参阅 [此部分](../../designing/using/using-existing-content.md#compatibility-mode).
+如需將現有電子郵件轉換為電子郵件設計工具相容電子郵件的詳細資訊，請參閱 [本節](../../designing/using/using-existing-content.md#compatibility-mode).

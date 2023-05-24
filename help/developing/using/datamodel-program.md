@@ -1,6 +1,6 @@
 ---
-title: 数据模型程序
-description: 了解数据模型
+title: 資料模型程式
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -10,24 +10,24 @@ exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 21%
+ht-degree: 36%
 
 ---
 
-# 程序(nms:program)
+# 程式(nms：program)
 
-## 对象描述
+## 物件說明
 
 <table>
                <tr>
                   <th>名称</th>
                   <th>标签</th>
-                  <th>类型（长度）</th>
-                  <th>枚举值</th>
+                  <th>型別（長度）</th>
+                  <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主资源ID</td>
+                  <td>主要資源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
@@ -38,19 +38,19 @@ ht-degree: 21%
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
+                  <td>buildIn</td>
                   <td>内置应用程序对象</td>
-                  <td>布尔 </td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>已建立</td>
                   <td>已创建</td>
-                  <td>创建时间</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>创建者</td>
                   <td>链接 </td>
                   <td> </td>
@@ -58,62 +58,62 @@ ht-degree: 21%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>字符串(512)</td>
+                  <td>字串(512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>結束</td>
                   <td>结束日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit(geoUnitBase)</td>
+                  <td>geoUnit (geoUnitBase)</td>
                   <td>地理单位</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>是外部资源</td>
-                  <td>布尔 </td>
+                  <td>為外部資源</td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>模板</td>
-                  <td>布尔 </td>
+                  <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
                   <td>标签</td>
-                  <td>字符串(128)</td>
+                  <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>枚举（字符串）(255)</td>
+                  <td>分項清單（字串） (255)</td>
                   <td>
                      <ul>
-                        <li>正在进行 — 已启动 — 已启动</li>
-                        <li>编辑 — 编辑 — 编辑 — 编辑</li>
+                        <li>進行中 — 已開始 — 已開始</li>
+                        <li>編輯 — 版本 — 版本</li>
                         <li>已完成 — 已完成 — 已完成</li>
                         <li>警告 — 警告 — 警告</li>
-                        <li>错误 — 错误 — 错误 — 错误</li>
-                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>錯誤 — 錯誤 — 錯誤</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
+                  <td>modifiedBy (userBase)</td>
                   <td>修改者</td>
                   <td>链接 </td>
                   <td> </td>
@@ -121,69 +121,69 @@ ht-degree: 21%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>字符串(64)</td>
+                  <td>字串(64)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit(orgUnitBase)</td>
+                  <td>orgUnit (orgUnitBase)</td>
                   <td>组织实体</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>父项(programBase)</td>
-                  <td>父项目</td>
+                  <td>父級(programBase)</td>
+                  <td>父級計畫</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>实时报表</td>
-                  <td>项目 </td>
+                  <td>即時報表</td>
+                  <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>开始</td>
+                  <td>開始</td>
                   <td>开始日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>状态</td>
                   <td>状态</td>
-                  <td>枚举（字节） </td>
+                  <td>分項清單（位元） </td>
                   <td>
                      <ul>
-                        <li>已启动 — 已启动 — 1</li>
-                        <li>编辑 — 版本 — 0</li>
+                        <li>開始 — 開始 — 1</li>
+                        <li>編輯 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 2</li>
-                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>模板（程序）</td>
-                  <td>程序模板</td>
+                  <td>範本（方案）</td>
+                  <td>計畫範本</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
+                  <td>縮圖</td>
                   <td>缩略图</td>
-                  <td>缩略图</td>
-                  <td>字符串(255)</td>
+                  <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>项目</td>
-                  <td>字符串(255)</td>
+                  <td>字串(255)</td>
                   <td> </td>
                </tr>
             </table>
 
-## 过滤器
+## 筛选器
 
-按逻辑状态(byLogicalStatus)
+依邏輯狀態(byLogicalStatus)
 
 <table>
     <tr>
@@ -192,11 +192,11 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>state</td>
-    <td>明细列表</td>
+    <td>分項清單</td>
     </tr>
 </table>
 
-按名称或标签(byText)
+依名稱或標籤(byText)
 
 <table>
     <tr>
@@ -204,12 +204,12 @@ ht-degree: 21%
     <th>类型</th>
     </tr>
     <tr>
-    <td>文本</td>
+    <td>文字</td>
     <td>字符串</td>
     </tr>
 </table>
 
-按期间（按期间）
+按期間（按期間）
 
 <table>
     <tr>
@@ -218,15 +218,15 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
-    <td>timePeriod</td>
+    <td>時間週期</td>
     <td>字符串</td>
     </tr>
 </table>
 
-包括来自异构列表的连续投放(withContinuous)
+包含來自異質清單的連續傳遞（使用Continuous）
 
 <table>
     <tr>
@@ -235,11 +235,11 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>布尔</td>
+    <td>布尔值</td>
     </tr>
 </table>
 
-包括子程序(withParent)
+包含子程式(withParent)
 
 <table>
         <tr>
@@ -248,11 +248,11 @@ ht-degree: 21%
         </tr>
         <tr>
         <td>withParent</td>
-        <td>布尔</td>
+        <td>布尔值</td>
         </tr>
     </table>
 
-只有符合条件的父母（合格父母）
+僅限合格的父項（合格父項）
 
 <table>
     <tr>
@@ -260,12 +260,12 @@ ht-degree: 21%
     <th>类型</th>
     </tr>
     <tr>
-    <td>项目</td>
+    <td>方案</td>
     <td>链接</td>
     </tr>
 </table>
 
-在给定期间内计划（按计划）
+為指定期間計畫（由Planning）
 
 <table>
     <tr>
@@ -274,15 +274,15 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>
 
-在给定期间（按日历）提供
+在指定期間內存在（依行事曆）
 
 <table>
     <tr>
@@ -291,10 +291,10 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>

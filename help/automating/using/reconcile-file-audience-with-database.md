@@ -1,6 +1,6 @@
 ---
 title: 使用数据库协调文件受众
-description: 此示例展示了如何使用读取受众活动协调直接从文件导入创建的受众。
+description: 此範例說明如何使用讀取對象活動，調解直接從檔案匯入建立的對象。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -50,6 +50,6 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [读取受众](../../automating/using/read-audience.md) 活动，上传在导入工作流中创建的文件受众。 其受众数据尚未与 Adobe Campaign 数据库协调。
+* A [讀取對象](../../automating/using/read-audience.md) 活動會上傳在匯入工作流程中建立的檔案對象。 其受众数据尚未与 Adobe Campaign 数据库协调。
 * [协调](../../automating/using/reconciliation.md)活动，通过其 **[!UICONTROL Identification]** 选项卡将传入数据标识为用户档案。例如，使用 **email** 字段作为协调条件。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的用户档案资源。由于数据已被标识为用户档案，因此您可以选择 **[!UICONTROL Directly using the targeting dimension]** 选项并在活动的 **[!UICONTROL Profiles]** 选项卡中选择 **[!UICONTROL Identification]**。然后，您只需在相应的选项卡中添加需要更新的字段列表即可。

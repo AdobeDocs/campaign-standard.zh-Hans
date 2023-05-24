@@ -1,6 +1,6 @@
 ---
 title: 检索用户档案的组织实体
-description: 了解如何使用API来了解用户档案的组织单位。
+description: 瞭解如何使用API設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 12%
 
 # 检索用户档案的组织实体 {#retrieving-organizational-units}
 
-1. 对配置文件PKey执行GET请求以检索 **orgUnit** URL。
-1. 对URL执行GET请求，以检索有关组织单位的更多详细信息。
+1. 對設定檔PKey執行GET要求以擷取 **orgUnit** URL。
+1. 在URL上執行GET要求，以擷取有關組織單位的更多詳細資訊。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-检索用户档案记录。
+擷取設定檔記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -34,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回用户档案的orgUnit URL。
+它會傳回設定檔的orgUnit URL。
 
 ```
 {
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-对URL执行GET请求以检索更多信息。
+對URL執行GET要求以擷取更多資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回有关组织单位的详细信息。
+它會傳回有關組織單位的詳細資料。
 
 ```
 {

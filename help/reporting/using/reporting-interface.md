@@ -1,6 +1,6 @@
 ---
 title: 报告界面
-description: 进一步了解动态报告界面基础以及如何在不同的选项卡和菜单中导航。
+description: 進一步瞭解動態報告介面基礎，以及如何瀏覽不同的索引標籤和功能表。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,51 +17,51 @@ ht-degree: 3%
 
 # 报告界面{#reporting-interface}
 
-例如，顶部工具栏允许您修改、保存或打印报表。
+例如，頂端工具列可讓您修改、儲存或列印報表。
 
 ![](assets/dynamic_report_toolbar.png)
 
-使用 **项目** 选项卡：
+使用 **專案** 按Tab鍵以：
 
-* **打开……**:打开之前创建的报表或模板。
-* **另存为……**:复制模板以便能够对其进行修改。
-* **刷新项目**:根据新数据和对过滤器所做的更改更新您的报表。
-* **下载CSV**:将报表导出为CSV文件。
+* **開啟……**：開啟先前建立的報表或範本。
+* **另存新檔……**：複製範本以便修改。
+* **重新整理專案**：根據新資料和篩選器的變更更新您的報表。
+* **下載CSV**：將報表匯出至CSV檔案。
 
-的 **编辑** 选项卡，用于执行以下操作：
+此 **編輯** 索引標籤可讓您：
 
-* **撤消**:取消功能板上的上次操作。
-* **全部清除**:删除功能板上的每个面板。
+* **還原**：取消您在控制面板上的上一個動作。
+* **全部清除**：刪除控制面板上的每個面板。
 
-的 **插入** 表格允许您通过向功能板中添加图形和表格来自定义报表：
+此 **插入** 表格可讓您藉由將圖表和表格新增至控制面板來自訂報表：
 
-* **新建空白面板**:向功能板中添加新的空白面板。
-* **新建自由格式**:向功能板中添加新的自由格式表。
-* **新行**:向功能板中添加新折线图。
-* **新建栏**:向功能板中添加新的条形图。
+* **新增空白面板**：新增空白面板至您的儀表板。
+* **新增自由格式**：新增自由表格至您的儀表板。
+* **換行**：新增折線圖至您的儀表板。
+* **新列**：新增橫條圖至您的儀表板。
 
 **相关主题：**
 
 * [添加面板](../../reporting/using/adding-panels.md)
 * [添加可视化](../../reporting/using/adding-visualizations.md)
 * [添加组件](../../reporting/using/adding-components.md)
-* [通过电子邮件自动与利益相关方共享报告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [透過電子郵件自動與利害關係人共用報告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## 选项卡 {#tabs}
+## 索引標籤 {#tabs}
 
-利用左侧选项卡，可构建报表并根据需要过滤数据。
+左側標籤可讓您建立報告並視需要篩選資料。
 
 ![](assets/dynamic_report_interface.png)
 
-利用这些选项卡，可访问以下项目：
+這些標籤可讓您存取下列專案：
 
-* **[!UICONTROL Panels]**:在报表中添加一个空白面板或自由格式，以开始过滤数据。 有关更多信息，请参阅添加面板一节
-* **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。 有关更多信息，请参阅添加可视化图表一节。
-* **[!UICONTROL Components]**:使用不同的维度、量度、区段和时间段自定义您的报表。
+* **[!UICONTROL Panels]**：新增空白面板或自由格式至您的報表，以開始篩選資料。 如需詳細資訊，請參閱新增面板區段
+* **[!UICONTROL Visualizations]**：拖放選取的視覺效果專案，為您的報表提供圖形維度。 如需詳細資訊，請參閱新增視覺效果區段。
+* **[!UICONTROL Components]**：使用不同的維度、量度、區段和時段來自訂報表。
 
-## 工具栏 {#toolbar}
+## 工具列 {#toolbar}
 
-工具栏可在工作区上方找到。 它由不同的选项卡组成，例如，允许您修改、保存、共享或打印报表。
+工具列可在工作區上方找到。 它包含不同的標籤，可讓您修改、儲存、共用或列印報表。
 
 ![](assets/dynamic_report_toolbar.png)
 
@@ -71,80 +71,80 @@ ht-degree: 3%
 * [添加可视化](../../reporting/using/adding-visualizations.md)
 * [添加组件](../../reporting/using/adding-components.md)
 
-### “项目”选项卡 {#project-tab}
+### 專案索引標籤 {#project-tab}
 
 ![](assets/tab_project.png)
 
-使用 **项目** 选项卡：
+使用 **專案** 按Tab鍵以：
 
-* **打开……**:打开之前创建的报表或模板。
-* **另存为……**:复制模板以便能够对其进行修改。
-* **刷新项目**:根据新数据和对过滤器所做的更改更新您的报表。
-* **下载CSV**:将报表导出为CSV文件。
-* **[!UICONTROL Print]**:打印报表。
+* **開啟……**：開啟先前建立的報表或範本。
+* **另存新檔……**：複製範本以便修改。
+* **重新整理專案**：根據新資料和篩選器的變更更新您的報表。
+* **下載CSV**：將報表匯出至CSV檔案。
+* **[!UICONTROL Print]**：列印報表。
 
-### “编辑”选项卡 {#edit-tab}
+### 編輯索引標籤 {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-的 **编辑** 选项卡，用于执行以下操作：
+此 **編輯** 索引標籤可讓您：
 
-* **撤消**:取消功能板上的上次操作。
-* **全部清除**:删除功能板上的每个面板。
+* **還原**：取消您在控制面板上的上一個動作。
+* **全部清除**：刪除控制面板上的每個面板。
 
-### “插入”选项卡 {#insert-tab}
+### 插入索引標籤 {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-的 **插入** 选项卡允许您通过向功能板中添加图形和表格来自定义报表：
+此 **插入** 索引標籤可讓您透過將圖形和表格新增到儀表板來自訂報表：
 
-* **新建空白面板**:向功能板中添加新的空白面板。
-* **新建自由格式**:向功能板中添加新的自由格式表。
-* **新行**:向功能板中添加新折线图。
-* **新建栏**:向功能板中添加新的条形图。
+* **新增空白面板**：新增空白面板至您的儀表板。
+* **新增自由格式**：新增自由表格至您的儀表板。
+* **換行**：新增折線圖至您的儀表板。
+* **新列**：新增橫條圖至您的儀表板。
 
-### “共享”选项卡 {#share-tab}
+### 共用索引標籤 {#share-tab}
 
 ![](assets/tab_share_1.png)
 
-的 **[!UICONTROL Share]** 选项卡，通过一次性或定期电子邮件，向Adobe Campaign用户发送报表。 随后，目标用户将收到一封附有您的报表的电子邮件。
+此 **[!UICONTROL Share]** 索引標籤可讓您透過單次或循環電子郵件傳送報告給Adobe Campaign使用者。 之後，目標使用者會收到一封電子郵件，內含您附加的報告。
 
-* **[!UICONTROL Send report now]**:通过一次性电子邮件将报告发送给选定收件人的列表。
+* **[!UICONTROL Send report now]**：透過一次性電子郵件將您的報告傳送給所選收件者清單。
 
-   1. 在 **[!UICONTROL Send report]** 窗口，根据需要添加说明。
+   1. 在 **[!UICONTROL Send report]** 視窗，視需要新增說明。
 
       ![](assets/tab_share_4.png)
 
-   1. 从下拉菜单中选择收件人。 请注意，您无法选择组织外的用户。
-   1. 检查 **[!UICONTROL Show scheduling options]** 要发送定期电子邮件时，请执行以下操作： 也可以通过选择 **[!UICONTROL Send Report on schedule]** 在 **[!UICONTROL Share]** 选项卡。
-   1. 单击 **[!UICONTROL Send now]**。然后，收件人将收到一封附有您报告的电子邮件。
+   1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
+   1. Check **[!UICONTROL Show scheduling options]** 如果您想要傳送週期性電子郵件。 您也可以選取「 」 **[!UICONTROL Send Report on schedule]** 在 **[!UICONTROL Share]** 標籤。
+   1. 单击 **[!UICONTROL Send now]**。之後，收件者會收到一封電子郵件，內附您的報告。
 
-* **[!UICONTROL Send report on schedule]**:计划报表并向收件人发送定期电子邮件。
+* **[!UICONTROL Send report on schedule]**：排程您的報告並傳送週期性電子郵件給您的收件者。
 
-   1. 在 **[!UICONTROL Send report]** 窗口，根据需要添加说明。
-   1. 从下拉菜单中选择收件人。 请注意，您无法选择组织外的用户。
+   1. 在 **[!UICONTROL Send report]** 視窗，視需要新增說明。
+   1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
 
       ![](assets/tab_share_5.png)
 
-   1. 选择开始和结束日期，以在 **[!UICONTROL Starting on]** 和 **[!UICONTROL Ending on]** 字段。
-   1. 选择发送电子邮件的频率。
+   1. 選取您的開始和結束日期，在 **[!UICONTROL Starting on]** 和 **[!UICONTROL Ending on]** 欄位。
+   1. 選擇您的電子郵件傳送頻率。
 
       ![](assets/tab_share_2.png)
 
-   1. 单击 **[!UICONTROL Send on schedule]**，则收件人将根据所选频率收到您的定期电子邮件。
+   1. 按一下 **[!UICONTROL Send on schedule]**，您的收件者將會根據所選的頻率收到您的週期性電子郵件。
 
-* **[!UICONTROL Scheduled reports]**:查找并配置所有计划报表。
+* **[!UICONTROL Scheduled reports]**：尋找並設定所有排程報表。
 
-   1. 在 **[!UICONTROL Scheduled reports]** 窗口，查找所有定期发送的报表。
+   1. 在 **[!UICONTROL Scheduled reports]** 視窗，尋找所有週期性傳送的報告。
 
       ![](assets/tab_share_3.png)
 
-   1. 如果需要删除其中一个计划报表，请选择要删除的计划报表，然后单击 **[!UICONTROL Delete the section]**.
-   1. 要配置或检查计划报表，请直接单击要更改的报表。
-   1. 的 **[!UICONTROL Edit scheduled report]** ，您现在可以根据需要更改电子邮件的收件人或频率。
+   1. 如果您需要刪除其中一個排程報告，請選取您要刪除的排程報告，然後按一下 **[!UICONTROL Delete the section]**.
+   1. 若要設定或檢查排程報告，請直接按一下您需要變更的報告。
+   1. 此 **[!UICONTROL Edit scheduled report]** 視窗顯示，您現在可以根據需要變更電子郵件收件者或頻率。
 
-然后，目标用户将收到一封电子邮件，其中您的报表直接附加在其收件箱中。 用户始终可以决定停止使用每个定期电子邮件中提供的退订链接接收定期电子邮件。
+目標使用者會收到電子郵件，直接在收件匣中附加您的報告。 使用者可以隨時決定使用每封定期電子郵件中可用的取消訂閱連結來停止接收定期電子郵件。
 
 **相关主题：**
 
-* [通过电子邮件自动与利益相关方共享报告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [透過電子郵件自動與利害關係人共用報告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

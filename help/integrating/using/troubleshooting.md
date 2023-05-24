@@ -1,6 +1,6 @@
 ---
-title: 集成问题疑难解答
-description: 了解如何对共享资源时的问题进行故障诊断。
+title: 疑難排解整合問題
+description: 瞭解如何在共用資源時疑難排解問題。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -17,35 +17,35 @@ ht-degree: 0%
 
 # 故障排除{#troubleshooting}
 
-使用与Audience Manager或People核心服务的集成时可能会遇到错误。
+使用與Audience Manager或People核心服務整合時，可能會發生錯誤。
 
-在这种情况下，请确保正确配置了以下元素：
+在此情況下，請確定下列元素已正確設定：
 
 * **外部帐户**
 
-   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**，请确保正确配置以下外部S3帐户。 在预配期间应配置上述S3服务器。
+   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**，確定已正確設定下列外部S3帳戶。 布建期間應已設定上述S3伺服器。
 
-   * **[!UICONTROL importSharedAudience]**:专门用于导入受众的S3帐户。
-   * **[!UICONTROL exportSharedAudience]**:专门用于导出受众的S3帐户。
+   * **[!UICONTROL importSharedAudience]**：專用於匯入對象的S3帳戶。
+   * **[!UICONTROL exportSharedAudience]**：專用於匯出受眾的S3帳戶。
 
-* **共享数据源**
+* **共用的資料來源**
 
-   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，请检查共享数据源是否设置正确。
+   在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，檢查共用資料來源是否已正確設定。
 
-   **[!UICONTROL Priority]** 定义了多个数据源时使用。 优先级决定将使用哪个数据源与按定义的顺序接收的别名进行匹配。 **[!UICONTROL Priority]** 仅需用于触发器实施。
+   **[!UICONTROL Priority]** 定義多個資料來源時使用。 優先順序會決定要使用哪個資料來源來比對依定義順序收到的別名。 **[!UICONTROL Priority]** 僅適用於Triggers實作。
 
-   检查协调键值是否正确。 用于导出和导入受众的是此字段的哈希/加密值。
+   檢查調解金鑰是否正確。 它是此欄位的雜湊/加密值，用於匯出和匯入對象。
 
-   如果对声明的ID进行哈希处理或加密，请检查您的网站上是否使用了相同的参数/加密算法。
+   若是雜湊或加密宣告ID，請檢查您的網站上是否使用相同的引數/加密演演算法。
 
-   仅支持一种加密算法：AES在CBC模式下，密钥大小为128、192或256位，带PKCS内边距。
+   僅支援一個加密演演算法：AES在CBC模式中金鑰大小為128、192或256位元，並有PKCS邊距。
 
-   如果选择了AES加密算法，则必须正确设置以下附加字段：
+   如果選取了AES加密演演算法，則必須正確設定下列其他欄位：
 
-   * **加密密钥** （对于AES）
-   * **加密IV** （初始化矢量）
-   * **渠道** （电子邮件/短信/其他）：利用此字段，可直接解密电子邮件地址和短信号码。 确保协调键值与 **渠道** 字段。 如果选择“其他”，则不会发生此特定解密，并且将使用协调密钥协调数据。
+   * **加密金鑰** 用於AES
+   * **加密IV** AES的（初始化向量）
+   * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 請確定調解金鑰符合 **頻道** 欄位。 如果您選取「其他」，將不會發生此特定解密，且調解金鑰將用於調解資料。
 
-   Experience Cloud受众可能由于技术工作流已停止或暂停而无法共享。 访问 **[!UICONTROL Import shared audience]** 工作流，直接单击 **[!UICONTROL Show ImportShared Audience workflow]** 选项。
+   Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 存取 **[!UICONTROL Import shared audience]** 直接按一下 **[!UICONTROL Show ImportShared Audience workflow]** 資料來源中的選項。
 
-在通过“人员”核心服务共享受众或导入受众时，可能会发生缺少某些数据的情况。 只有能够与用户档案维度协调ID（“访客ID”或“声明的ID”）的记录才会被传输。 不会导入未被Adobe Campaign识别的“人员”核心服务区段中的ID。
+透過「人員」核心服務共用對象或匯入對象時，可能會遺失部分資料。 只有其ID （「訪客ID」或「宣告ID」）能夠與設定檔維度調解的記錄才會轉移。 Adobe Campaign無法辨識的People核心服務區段ID不會匯入。

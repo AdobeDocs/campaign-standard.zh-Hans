@@ -1,6 +1,6 @@
 ---
 title: 投放吞吐量
-description: 通过现成的投放吞吐量报表，了解投放成功与否。
+description: 使用傳遞輸送量現成可用的報告，瞭解您的傳遞是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,13 +18,13 @@ ht-degree: 4%
 
 # 投放吞吐量{#delivery-throughput}
 
-此报表包含与发送或多个发送的投放吞吐量相关的数据。 它提供：
+此報表包含與傳送或數個傳送的傳遞輸送量相關的資料。 它提供：
 
-* 每小时处理的消息数
-* 的 **[!UICONTROL Top 5 deliveries]** 表格和补充概要数字，这些数字显示5个投放在重试中获得最佳增益。
+* 每小時處理的訊息數
+* 此 **[!UICONTROL Top 5 deliveries]** 表格和補充摘要數字，顯示重試增益最高的五個傳送。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->的 **[!UICONTROL Delivery throughput]** 页面显示从Campaign向Adobe Campaign Enhanced MTA（消息传输代理）的消息中继的吞吐量速度。
+>此 **[!UICONTROL Delivery throughput]** 頁面會顯示從Campaign轉送訊息至Adobe Campaign Enhanced MTA （訊息傳輸代理程式）的輸送量速度。

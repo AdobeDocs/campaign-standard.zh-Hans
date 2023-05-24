@@ -1,6 +1,6 @@
 ---
 title: Campaign 中的目标映射
-description: 了解有关目标映射的更多信息(Campaign Standard)
+description: 進一步瞭解Campaign Standard中的目標對應
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -17,8 +17,8 @@ ht-degree: 19%
 
 # Campaign 中的目标映射{#target-mappings-in-campaign}
 
-目标映射是Campaign用来传递消息的技术对象。 它们包含发送投放所需的所有技术设置（地址、电话号码、选择加入指示符、其他标识符……）。
+目標對應是Campaign用來傳遞訊息的技術物件。 它們包含傳送傳遞內容所需的所有技術設定（地址、電話號碼、選擇加入指標、其他識別碼……）。
 
-管理员可以在 **[!UICONTROL Administration > Application settings > Target mappings]** 菜单。
+管理員可以存取以下位置中的目標對應： **[!UICONTROL Administration > Application settings > Target mappings]** 功能表。
 
-可以创建或修改目标映射以满足特定需求。 无论如何，其定向维度应始终与用户档案( **[!UICONTROL nms:recipient]** 表)。 有关定向维度的更多信息，请参阅[此页面](../../automating/using/query.md#targeting-dimensions-and-resources)。
+目標對應建立或修改可涵蓋特定需求。 無論如何，其目標維度應一律對應至設定檔( **[!UICONTROL nms:recipient]** 表格)。 有关定向维度的更多信息，请参阅[此页面](../../automating/using/query.md#targeting-dimensions-and-resources)。

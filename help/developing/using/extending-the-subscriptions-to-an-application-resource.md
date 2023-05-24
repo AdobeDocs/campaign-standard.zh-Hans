@@ -1,6 +1,6 @@
 ---
 title: 将订阅扩展到应用程序资源
-description: 了解如何扩展对应用程序资源的订阅
+description: 瞭解如何將訂閱擴充至應用程式資源
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
@@ -17,32 +17,32 @@ ht-degree: 24%
 
 # 将订阅扩展到应用程序资源{#extending-the-subscriptions-to-an-application-resource}
 
-在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。有关自定义资源的更多信息，请参阅 [本页](../../developing/using/key-steps-to-add-a-resource.md).
+在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。如需自訂資源的詳細資訊，請參閱 [此頁面](../../developing/using/key-steps-to-add-a-resource.md).
 
-可扩展此资源以收集您打算从移动设备发送到Adobe Campaign的数据。
+可擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
-1. 单击 **[!UICONTROL Create]** 然后选择 **[!UICONTROL Extend an existing resource]** 选项。
-1. 选择 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源，单击 **[!UICONTROL Create]**.
+1. 按一下 **[!UICONTROL Create]** 並選擇 **[!UICONTROL Extend an existing resource]** 選項。
+1. 選取 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源並按一下 **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 在 **[!UICONTROL Fields]** 类别 **[!UICONTROL Data structure]** ，可通过单击 **[!UICONTROL Add field]** 按钮。
+1. 在 **[!UICONTROL Fields]** 的類別 **[!UICONTROL Data structure]** 索引標籤中，按一下「 」以定義您要從行動應用程式中擷取的客戶資料 **[!UICONTROL Add field]** 按鈕。
 
    >[!NOTE]
    >
-   >如果您管理多个移动设备应用程序，则必须列出所有应用程序使用的所有字段。 iOS或Android收集PII调用定义每个应用程序捕获的字段。
+   >如果您正在管理數個行動應用程式，則必須列出所有應用程式使用的所有欄位。 iOS或Android收集PII呼叫會定義每個應用程式擷取的欄位。
 
    ![](assets/in_app_personal_data.png)
 
-1. 添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 到您的新字段。 选择字段的 **[!UICONTROL Type]**.
+1. 新增 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 至您的新欄位。 選取您的欄位 **[!UICONTROL Type]**.
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在 **[!UICONTROL Link to profiles]** 类别中，配置用于将用户档案从Adobe Campaign数据库链接到应用程序订阅者（如电子邮件）的协调键值。
+1. 在 **[!UICONTROL Link to profiles]** 類別，設定用來從Adobe Campaign資料庫將設定檔連結至應用程式訂閱者的調解金鑰，例如電子郵件。
 
-   请注意，对于应用程序内消息，您只能为所有移动应用程序定义一个协调键值。
+   請注意，對於應用程式內訊息，您只能為所有行動應用程式定義一個調解金鑰。
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** 并发布自定义资源。 有关自定义资源发布的更多信息，请参阅 [页面](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. **[!UICONTROL Save]** 並發佈您的自訂資源。 如需自訂資源發佈的詳細資訊，請參閱此 [頁面](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).

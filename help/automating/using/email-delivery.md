@@ -46,7 +46,7 @@ ht-degree: 94%
 * [使用案例：创建基于地域划分的投放](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
 * [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
-* [用例：生日投放](../../automating/using/birthday-delivery.md)
+* [使用案例：生日傳遞](../../automating/using/birthday-delivery.md)
 
 ## 配置 {#configuration}
 
@@ -65,7 +65,7 @@ ht-degree: 94%
       例如，对于每天发送的定期生日电子邮件，您可以选择聚合每月的发送。这样，尽管每天都会发送生日电子邮件，但您可以按月接收投放报告。
    >[!NOTE]
    >
-   >定期投放是根据 **聚合期**. 例如，如果聚合期为“按天”，则每天只重新准备一次投放。 如果您计划每天多次调用此工作流，请使用 [!UICONTROL No aggregation].
+   >週期性傳送的準備工作依據 **彙總期間**. 例如，如果彙總期間為「依日」，則每天僅會重新準備一次傳遞。 如果您計劃一天呼叫此工作流程多次，請使用 [!UICONTROL No aggregation].
 
 1. 选择电子邮件类型。电子邮件类型来自在 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单中定义的电子邮件模板。
 1. 输入电子邮件的常规属性。您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为电子邮件的标签。

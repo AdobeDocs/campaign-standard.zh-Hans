@@ -1,6 +1,6 @@
 ---
-title: 使用API创建用户档案
-description: 了解如何使用API创建用户档案。
+title: 使用API建立設定檔
+description: 進一步瞭解如何使用API建立設定檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# 使用API创建用户档案 {#creating-profiles-api}
+# 使用API建立設定檔 {#creating-profiles-api}
 
-使用 **POST** 请求。
+建立設定檔是使用 **POST** 對設定檔資源的要求。
 
 >[!CAUTION]
 >
->如果要关联 <b>orgUnit</b> 在创建的用户档案中，您需要使用此字段扩展用户档案资源，并在发布扩展后，对 <b>ProfileAndServicesExt</b> 端点。
+>如果您想要關聯 <b>orgUnit</b> POST對於已建立的設定檔，您需要使用此欄位擴充設定檔資源，並在擴充功能發佈後，對 <b>設定檔與服務分機</b> 端點。
 >
->有关用户档案的资源扩展的更多信息，请参阅 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>.
+>如需設定檔資源擴充功能的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>.
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-使用电子邮件“john.doe@mail.com”创建用户档案的示例POST请求。
+使用電子郵件「john.doe@mail.com」建立設定檔的範例POST請求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ ht-degree: 0%
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它会返回新创建的用户档案，其中包含“john.doe@mail.com”电子邮件地址。
+它會傳回新建立的設定檔，並包含「john.doe@mail.com」電子郵件地址。
 
 ```
 {

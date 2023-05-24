@@ -1,6 +1,6 @@
 ---
 title: 更新组织单位属性
-description: 了解如何更新组织单位属性
+description: 瞭解如何更新組織單位屬性
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 11%
 
 # 更新组织单位属性 {#updating-organizational-unit-attributes}
 
-1. 对执行GET请求 **orgUnitBase** 用于检索组织单位PKey的资源。
-1. 对组织单位执行PATCH请求，并在有效负载中使用要更新的属性。
+1. 對執行GET要求 **orgUnitBase** 用於擷取組織單位PKey的資源。
+1. 對組織單位執行PATCH請求，並在裝載中使用要更新的屬性。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-检索组织单位列表。
+擷取組織單位清單。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有组织单位。 检索所需单元的PKey。
+它會傳回所有組織單位。 擷取所需單位的PKey。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-对组织单位执行PATCH请求，并在有效负载中使用要更新的属性。
+對組織單位執行PATCH請求，並在裝載中使用要更新的屬性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

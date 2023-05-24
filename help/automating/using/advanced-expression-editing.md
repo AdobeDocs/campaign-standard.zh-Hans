@@ -24,7 +24,7 @@ ht-degree: 98%
 
 利用此模式，可使用高级功能。利用这些函数，可处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
-在编辑表达式时，还可以使用工作流的事件变量。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
+編輯運算式時，也可以使用工作流程的事件變數。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
 您可以编辑表达式，以：
 
@@ -190,21 +190,21 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">相似</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> 不适用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">相似</span>与<span class="uicontrol">包含</span>运算符非常相似。利用该运算符，可在搜索的值中插 入 <span class="uicontrol">%</span> 通配符。<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>。在此，替换字符 <strong>%</strong> 将用作“绝招”，在假设拼写不正确的情况下查找名称“Martin”。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">不相似</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> 不适用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> 与 <span class="uicontrol">相似</span>相同。不能用于取回输入的值。在本例中，输入的值也必须包含 <span class="uicontrol">%</span> 个通配符字段。<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>。此处，不会返回与名称“Smi%h”（代表 Smith 等）对应的收件人作为结果。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">为空</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> 不适用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> 第一个值必须对应于空值。<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> 可检索尚未提供手机号码的所有用户档案。<br /> </td> 
   </tr> 

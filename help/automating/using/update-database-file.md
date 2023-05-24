@@ -1,6 +1,6 @@
 ---
 title: 使用外部数据更新数据库
-description: 此用例介绍如何使用从文件取回的数据，向Adobe Campaign数据库添加或更新用户档案。
+description: 此使用案例說明如何使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # 使用外部数据更新数据库 {#update-database-file}
 
-以下示例显示了 **[!UICONTROL Update data]** 活动之后 **[!UICONTROL Load file]** 活动。 此工作流的目标，是使用从文件取回的数据，向 Adobe Campaign 数据库添加或用户档案。
+以下範例說明 **[!UICONTROL Update data]** 活動遵循 **[!UICONTROL Load file]** 活動。 此工作流的目标，是使用从文件取回的数据，向 Adobe Campaign 数据库添加或用户档案。
 
-在本例中，使用的协调键值是 **电子邮件地址**. 在 [加载文件](../../automating/using/load-file.md) 活动是 **.txt** 包含以下示例数据的格式文件：
+在此範例中，使用的調解金鑰是 **電子郵件地址**. 在中載入的檔案 [載入檔案](../../automating/using/load-file.md) 活動是 **.txt** 包含下列範例資料的格式檔案：
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-的 [更新数据](../../automating/using/update-data.md) 活动的配置如下所示：
+此 [更新資料](../../automating/using/update-data.md) 活動的設定如下：
 
 ![](assets/deduplication_example2_writer1.png)
 

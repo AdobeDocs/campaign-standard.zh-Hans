@@ -19,9 +19,9 @@ ht-degree: 22%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">分段和定位</a></p></td>
-<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">许可和同意</a></p></td>
-<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隐私合规性</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">分段和目標定位</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">許可權與同意</a></p></td>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權法規遵循</a></p></td></tr>
 </table>
 
 通过 Campaign 集成客户用户档案，可以在一个视图内跨所有渠道跟踪与客户的每次互动，从而为客户提供相关的个性化信息。
@@ -30,19 +30,19 @@ ht-degree: 22%
 
 使用服务和登陆页管理客户权限和许可，以设置简单的选择加入和选择退出机制。
 
-## 分段和定位 {#segmenting-targeting}
+## 分段和目標定位 {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
-创建营销活动或消息时，您可以通过从Campaign数据库的联系人中选择、使用简单或高级标准，或选择受众，来指定投放的目标。
+建立行銷活動或訊息時，您可以從Campaign資料庫中的聯絡人選取、使用簡單或進階條件，或選取對象，以指定傳送目標。
 
-使用 **集成客户档案**, **自定义区段** 和 **控制组**. 如果您知道客户、兴趣、人口统计和渠道偏好，就可以更轻松地创建引人注意的个性化体验。
+透過以下方式更有效率地識別您所有管道中的客戶： **整合式客戶設定檔**， **自訂區段** 和 **控制組**. 當您瞭解您的客戶、興趣、人口統計和管道偏好設定時，更容易建立受到注目的個人化體驗。
 
-Adobe Campaign可实时构建丰富的客户用户档案，以便您在客户偏好发生变化时提供更相关的个性化优惠。 此外，Adobe Campaign还集成了高级分析、数据管理和定位功能以构建受众。
+Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶偏好變更，提供更相關和個人化的優惠。 此外，Adobe Campaign還整合了進階分析、資料管理和目標定位功能，以便建立受眾。
 
-**用户档案** 是存储在数据库中的各个联系人。 每个用户档案都对应于数据库中的一个条目，其中包含要定向、鉴别和单独跟踪该用户档案的必要信息：Adobe Campaign可以跟踪来自在线和离线渠道的每次交互，并将其合并到单个用户档案中。
+**設定檔** 是儲存在資料庫中的個別聯絡人。 每個設定檔都對應資料庫中的一個專案，其中包含設定檔定位、限定及個別追蹤的必要資訊：Adobe Campaign可以追蹤線上和離線頻道的每個互動，並將其合併成單一設定檔。
 
-**受众** 是基于特定条件或一组条件构建的配置文件列表。 使用工作流和查询编辑器，您可以根据您对营销活动、其活动和营销历史记录中的信息，构建受众，以便被营销活动定位。 这样，您就可以过滤订阅的用户档案、示例或根据无限数量的标准创建目标受众。
+**受眾** 是根據特定條件或一組條件建立的設定檔清單。 使用工作流程和查詢編輯器，您可以根據您擁有的行銷活動資訊、其活動和行銷記錄，建構行銷活動將鎖定的對象。 這可讓您根據不限數量的條件篩選訂閱的設定檔、範例或建立目標對象。
 
 了解更多信息:
 
@@ -54,39 +54,39 @@ Adobe Campaign可实时构建丰富的客户用户档案，以便您在客户偏
 * [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [添加对照组](../../sending/using/control-group.md)
 
-## 许可和同意 {#permission}
+## 許可權與同意 {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-在开始向联系人发送邮件之前，您需要确保获得其许可。 如果没有，则您的电子邮件可能会被标记为垃圾邮件，这将影响您的平台交付能力。 要确保构建正常的配置文件数据库，请首先保护此权限。
+在開始傳送訊息給連絡人之前，您必須確定已取得其許可權。 否則，您的電子郵件可能會標示為垃圾郵件，而這將影響您的平台傳遞能力。 若要確保建置健全的設定檔資料庫，請先保護此許可權。
 
-对于Campaign，我们建议您使用 **简单的选择加入和选择退出机制** 至 [服务](../../audiences/using/creating-a-service.md)和 [登陆页面](../../channels/using/getting-started-with-landing-pages.md) 更新联系信息并扩大数据库。
+若使用Campaign，建議您使用 **簡單的選擇加入和選擇退出機制** 到 [服務](../../audiences/using/creating-a-service.md)、和 [登陸頁面](../../channels/using/getting-started-with-landing-pages.md) 更新您的連絡資訊，並擴充資料庫。
 
-提供 **退订链接** 在消息中，必要时可将用户档案添加阻止列表到，从而提高平台投放能力。 有关管阻止列表理的更多信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+提供 **取消訂閱連結** 您的訊息中，會視需要將設定檔新增至封鎖清單，藉此改善平台傳遞能力。 如需封鎖清單管理的詳細資訊，請參閱 [關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->您必须尊重 [Adobe Campaign可接受使用政策](https://www.adobe.com/legal/terms/aup.html).
+>您必須遵守 [Adobe Campaign可接受的使用原則](https://www.adobe.com/legal/terms/aup.html).
 
 了解更多信息:
 
 * [关于订阅](../../audiences/using/about-subscriptions.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## 隐私合规性 {#privacy}
+## 隱私權法規遵循 {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign提供一套工具，可帮助您 **隐私合规性** 适用于GDPR、CCPA和其他隐私法。
+Adobe Campaign提供一套工具，可協助您 **隱私權法規遵循** GDPR、CCPA和其他隱私權法規專用。
 
-在中了解详情 [本文](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html) 隐私管理以及我们提供的用于管理访问权、被遗忘权、同意、数据保留和用户角色的功能。
+在本節瞭解更多 [本文](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy.html) 隱私權管理，以及我們提供的存取權、被遺忘權、同意、資料保留及使用者角色管理功能。
 
-Campaign中的隐私和同意以及如何管理它们，请参阅 [此部分](../../start/using/privacy.md). 您还会找到最佳实践，以帮助您在使用我们的服务时遵守隐私规定。
+Campaign中的隱私權與同意，以及如何管理這些資訊，請參見 [本節](../../start/using/privacy.md). 您也會找到最佳實務，以協助您在使用我們的服務時符合隱私權規範。
 
 ## 其他资源
 
 * [将 Adobe Experience Platform 受众引入 Campaign](../../integrating/using/ingest-aep-data.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
-* [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
-* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Adobe共用對象](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [使用工作流程匯入設定檔](../../automating/using/creating-import-workflow-templates.md)
+* [設定檔與受眾影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

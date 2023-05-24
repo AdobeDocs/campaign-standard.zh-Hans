@@ -1,6 +1,6 @@
 ---
 title: 更新用户档案
-description: 了解更多如何使用API更新用户档案
+description: 進一步瞭解如何使用API更新設定檔
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,23 +12,23 @@ ht-degree: 2%
 
 ---
 
-# 使用API更新用户档案{#updating-profiles-api}
+# 使用API更新設定檔{#updating-profiles-api}
 
-使用 **PATCH** 请求。
+更新設定檔是透過執行的 **PATCH** 要求。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是 **检索用户档案**.
+1. 第一步是 **擷取設定檔**.
 
-1. 在第二个请求中，执行 **PATCH请求** 包含有效负载中已完成信息的用户档案。
+1. 在第二個要求中，執行 **PATCH請求** 在承載中具有已完成資訊的設定檔上。
 
-1. 要检查PATCH请求是否更新了用户档案，我们可以执行最终GET请求。
+1. 若要檢查PATCH請求是否已更新設定檔，我們可以執行最終GET請求。
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-用于检索用户档案的GET请求示例。
+擷取設定檔的範例GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -38,7 +38,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-响应请求。
+對請求的回應。
 
 ```
 {
@@ -54,7 +54,7 @@ ht-degree: 2%
 }
 ```
 
-PATCH请求更新“phone”属性。
+更新「phone」屬性的PATCH請求。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -65,7 +65,7 @@ PATCH请求更新“phone”属性。
 -d '{"phone":"3301020304"}'
 ```
 
-它会返回PKEY和URL以检索更新的用户档案。
+它會傳回PKEY和URL以擷取更新的設定檔。
 
 ```
 {

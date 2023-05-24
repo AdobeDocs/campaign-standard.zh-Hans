@@ -1,6 +1,6 @@
 ---
-title: 'Email Designer常见问题解答 '
-description: 有关Email Designer的常见问题解答。
+title: 電子郵件設計工具常見問題
+description: 關於電子郵件設計工具的常見問題。
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,53 +15,53 @@ ht-degree: 7%
 
 ---
 
-# Email Designer常见问题解答
+# 電子郵件設計工具常見問題
 
-## 内容块和内容片段之间有何区别？
+## 內容區塊與內容片段之間有何差異？
 
-内容块和内容片段是多个电子邮件中通用的可重复使用内容片段。 这些功能用于确保电子邮件的一致性，并优化/标准化电子邮件创建。 内容块和内容片段之间的差异是可进行自定义的级别。
+內容區塊和內容片段是可重複使用的內容片段，在多個電子郵件中很常見。 這些用於確保電子郵件的一致性，也用於最佳化/標準化電子郵件的建立。 內容區塊與內容片段之間的差異在於可能的自訂層級。
 
-* 内容块是手动插入HTML代码的纯HTML（不是用户友好UI，它是直接源代码）。 尽管它真的面向具有HTML知识的用户，但它允许内容片段中不提供个性化级别。
+* 內容區塊是手動插入HTML程式碼的純HTML（不方便使用的UI，它是直接原始程式碼）。 雖然它的目標客戶是具有HTML知識的人，但允許內容片段中不提供的個人化層級。
 
-* 内容片段是通过Email Designer使用用户友好UI创建的可视内容片段。 但是，无法个性化内容。 如果需要个性化，则只能通过内容块完成。
+* 內容片段是透過電子郵件設計工具建立的視覺化內容片段，使用其使用者易記的UI。 但是，無法個人化內容。 如果需要個人化，則只能透過內容區塊完成。
 
-## 如何从HTML结构向元素添加内边距？
+## 如何從HTML結構將邊框間距新增至元素？
 
-您可以使用HTML痕迹导航添加内边距。
+您可以使用HTML階層連結來新增邊框間距。
 
-1. 在屏幕左下方，单击HTML痕迹导航。
+1. 在畫面左下方，按一下HTML階層連結。
 
    ![](assets/do-not-localize/breadcrumb.png)
 
-1. 单击要添加内边距的元素。
-1. 在HTML痕迹导航中单击父标记。
-您现在可以向此元素添加内边距。
+1. 按一下您要新增邊框間距的元素。
+1. 按一下HTML階層連結中的父標籤。
+您現在可以新增邊框間距至此元素。
 
-## 能否在Email Designer中导入HTML内容？
+## 我可以在電子郵件設計工具中匯入HTML內容嗎？
 
-您可以将自己的HTML内容上传到Email Designer。 如果尚未通过Email Designer创建该HTML，则它将以兼容模式加载，该模式旨在保留原始版本，但会通过UI限制某些版本功能。
+您可以將自己的HTML內容上傳到電子郵件設計工具。 如果尚未透過電子郵件設計工具建立，則會以相容性模式載入，這種模式旨在保留您的原始HTML，但限制透過UI的某些版本功能。
 
-有关更多信息，请参阅 [兼容性模式](../../designing/using/using-existing-content.md#compatibility-mode)
+如需詳細資訊，請參閱 [相容性模式](../../designing/using/using-existing-content.md#compatibility-mode)
 
-## 如何创建我的第一个电子邮件内容？
+## 如何建立我的第一封電子郵件內容？
 
-首先，从主页创建电子邮件。
-然后，要向电子邮件添加内容，您需要添加结构组件，并在其中插入内容组件。
+首先，從首頁建立電子郵件。
+然後，若要新增內容至電子郵件，您需要新增結構元件，並在其中插入內容元件。
 
-有关更多信息，请参阅 [从头开始创建电子邮件](../../designing/using/quick-start.md#from-scratch-email)
+如需詳細資訊，請參閱 [從頭開始建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
 
-## 为何需要更新片段？
+## 為什麼我需要更新片段？
 
-Email Designer 正在不断改进。如果您从头开始、从现成模板创建电子邮件内容，或者如果您创建了片段，则可能需要将内容更新到最新版本，以避免CSS冲突问题等问题。
+Email Designer 正在不断改进。如果您從草稿開始、從現成可用的範本建立電子郵件內容，或是您建立了片段，您可能需要將內容更新至最新版本，以避免CSS衝突問題之類的問題。
 
-有关更多信息，请参阅 [更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+如需詳細資訊，請參閱 [更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
-## 能否在主题中保存样式？
+## 我可以在主題中儲存樣式嗎？
 
 无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。
 
-有关更多信息，请参阅 [样式](../../designing/using/styles.md)
+如需詳細資訊，請參閱 [樣式](../../designing/using/styles.md)
 
-## 哪些字体可用？
+## 有哪些字型可用？
 
-在编辑样式时，默认情况下，只有大多数电子邮件客户端正式支持的Web字体才能通过UI使用。 使用自定义字体需要更新HTML代码。
+在編輯樣式時，預設情況下，只有大多數電子郵件使用者端正式支援的Web字型才能透過UI使用。 使用自訂字型需要更新HTML代碼。

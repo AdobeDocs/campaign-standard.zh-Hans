@@ -1,6 +1,6 @@
 ---
 title: 关于定位活动
-description: 可以从屏幕的左侧访问定位活动。
+description: 您可以從熒幕左側存取目標定位活動。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -19,7 +19,7 @@ ht-degree: 48%
 
 从屏幕左侧的面板，展开 **[!UICONTROL Targeting]** 部分。
 
-这些活动专门用于定位、处理群体数据和筛选活动。 它们允许您通过定义集并使用交集、并集或排除运算拆分或组合这些集来构建一个或多个目标。
+這些活動特定於定位、操控人口資料和篩選活動。 它們可讓您藉由定義集合，並使用交集、聯集或排除作業來分割或組合這些集合，以建立一或多個目標。
 
 ![](assets/wkf_targeting_activities.png)
 
@@ -36,30 +36,30 @@ ht-degree: 48%
 * [重复数据删除](../../automating/using/deduplication.md)
 * [扩充](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 活动允许您定义 **区段代码** ，用于叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Targeting]** 活動可讓您定義 **區段代碼** 適用於其對外轉變。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
 
-## 选择数据 {#selecting-data}
+## 選取資料 {#selecting-data}
 
-您可以使用以下活动选择数据：
+您可以使用下列活動選取資料：
 
-* 利用 **[!UICONTROL Query]** 活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。请参阅 [查询](../../automating/using/query.md) 中。
-* 利用 **[!UICONTROL Incremental query]** 活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。每次执行此活动时，都会排除先前执行得出的结果。这允许您仅定位新元素。请参阅。 [增量查询](../../automating/using/incremental-query.md) 中。
-* 的 **[!UICONTROL Read audience]** 活动允许您检索现有受众，并通过应用附加筛选条件来优化现有受众。请参阅 [读取受众](../../automating/using/read-audience.md) 中。
+* 利用 **[!UICONTROL Query]** 活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。請參閱 [查詢](../../automating/using/query.md) 區段。
+* 利用 **[!UICONTROL Incremental query]** 活动，可筛选和提取 Adobe Campaign 数据库中的元素群体。每次执行此活动时，都会排除先前执行得出的结果。這可讓您僅鎖定新元素。請參閱。 [增量查詢](../../automating/using/incremental-query.md) 區段。
+* 此 **[!UICONTROL Read audience]** 活動可讓您擷取現有對象，並套用其他篩選條件來調整對象。請參閱 [讀取對象](../../automating/using/read-audience.md) 區段。
 
-## 对数据分段 {#segmenting-data}
+## 將資料分段 {#segmenting-data}
 
-Adobe Campaign允许您处理入站数据集。 因此，您可以合并多个群体、排除其中的一部分或仅保留多个目标的通用数据。
+Adobe Campaign可讓您處理傳入資料的集合。 因此，您可以合併多個母體、排除部分母體，或僅保留多個目標通用的資料。
 
-* 利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。请参阅 [并集](../../automating/using/union.md) 中。
-* 利用 **[!UICONTROL Intersection]** 活动，可仅在活动中保留不同集客群体的共有元素。请参阅 [交集](../../automating/using/intersection.md) 中。
-* 利用 **[!UICONTROL Exclusion]** 活动，可根据特定条件从一个群体中排除某些元素。请参阅 [排除](../../automating/using/exclusion.md) 中。
-* 利用 **[!UICONTROL Segmentation]** 活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个区段。在活动结束时，可以在单一过渡或多个不同过渡中处理这些区段。请参阅 [分段](../../automating/using/segmentation.md) 中。
+* 利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。請參閱 [聯集](../../automating/using/union.md) 區段。
+* 利用 **[!UICONTROL Intersection]** 活动，可仅在活动中保留不同集客群体的共有元素。請參閱 [交集](../../automating/using/intersection.md) 區段。
+* 利用 **[!UICONTROL Exclusion]** 活动，可根据特定条件从一个群体中排除某些元素。請參閱 [排除](../../automating/using/exclusion.md) 區段。
+* 利用 **[!UICONTROL Segmentation]** 活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个区段。在活动结束时，可以在单一过渡或多个不同过渡中处理这些区段。請參閱 [細分](../../automating/using/segmentation.md) 區段。
 
 ## 丰富数据 {#enriching-data}
 
-可以扩充、聚合和操作所识别和收集的数据以优化目标结构。 您可以通过包含未在数据集市中建模的数据，来简化和优化定位流程。
+已識別和收集的資料可以擴充、彙總和操作，以最佳化目標建構。 您可以透過包含未在資料超市中模型化的資料，來簡化和最佳化鎖定過程。
 
-的 **[!UICONTROL Additional data]** 选项卡 **[!UICONTROL Query]** 和 **[!UICONTROL Incremental query]** 活动允许您扩充查询所定向的数据，并将这些数据传输到以下工作流活动中以供利用。 其中，您可以添加：
+此 **[!UICONTROL Additional data]** 的標籤 **[!UICONTROL Query]** 和 **[!UICONTROL Incremental query]** 活動可讓您擴充查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。 其中，您可以添加：
 
 * 简单数据
 * 聚合
@@ -67,4 +67,4 @@ Adobe Campaign允许您处理入站数据集。 因此，您可以合并多个�
 
 **相关主题：**
 
-* [用例：使用附加数据个性化电子邮件](../../automating/using/personalizing-email-with-additional-data.md)
+* [使用案例：使用其他資料個人化電子郵件](../../automating/using/personalizing-email-with-additional-data.md)

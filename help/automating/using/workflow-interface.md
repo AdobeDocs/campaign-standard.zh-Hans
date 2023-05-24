@@ -1,6 +1,6 @@
 ---
 title: 工作流界面
-description: 了解用于创建、编辑和执行工作流的界面和选项。
+description: 瞭解建立、編輯和執行工作流程的介面和選項。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,139 +18,139 @@ ht-degree: 4%
 
 # 工作流界面{#workflow-interface}
 
-您可以创建工作流来管理营销策划和项目中的整个流程。
+您可以建立工作流程，以管理行銷活動和方案中的整個流程。
 
-工作流编辑屏幕由以下元素组成：
+工作流程編輯畫面由下列元素組成：
 
-* 的 [调色板](#palette)，引用可用活动。
-* 的 [工作区](#workspace)，在其中配置和组织活动。
-* 的 [操作栏](#action-bar)，它由用于与工作流和/或其组件交互的按钮组成。
-* 的 [快速操作](#quick-actions)，可与选定活动进行交互。
+* 此 [浮動面板](#palette)，會參照可用的活動。
+* 此 [Workspace](#workspace)，可設定和組織活動。
+* 此 [動作列](#action-bar)，由可讓您與工作流程及/或其元件互動的按鈕組成。
+* 此 [快速動作](#quick-actions)，會出現在所選活動週圍，可讓您與其互動。
 
 ![](assets/wkf_overview.png)
 
 ## 面板 {#palette}
 
-面板位于屏幕的左侧。 所有可用活动都按以下几类进行分类：
+浮動視窗位於熒幕的左側。 所有可用的活動皆分為幾個類別：
 
-* [定位](../../automating/using/about-targeting-activities.md):特定于定位、处理群体数据和筛选活动的活动
-* [执行](../../automating/using/about-execution-activities.md):特定于组织和执行工作流的活动
-* [渠道](../../automating/using/about-channel-activities.md):代表不同可用通信渠道的活动
-* [数据管理(ETL)](../../automating/using/about-data-management-activities.md):特定于处理数据的活动
+* [目標定位](../../automating/using/about-targeting-activities.md)：鎖定目標、操控人口資料和篩選活動的特定活動
+* [執行](../../automating/using/about-execution-activities.md)：組織和執行工作流程的特定活動
+* [頻道](../../automating/using/about-channel-activities.md)：代表不同可用通訊通道的活動
+* [資料管理(ETL)](../../automating/using/about-data-management-activities.md)：操控資料的特定活動
 
-要使用工作流中面板中的活动，请将其拖放到工作区中。
+若要在工作流程中使用浮動視窗中的活動，請將其拖放至您的工作區中。
 
-您必须先配置从面板添加的每个活动，然后才能启动工作流。
+在啟動工作流程之前，您必須先設定從浮動視窗新增的每個活動。
 
 ![](assets/workflow_palette.png)
 
 ## 工作区 {#workspace}
 
-工作区是工作流编辑器中的中心区域。 您可以在此区域中放置活动，使用过渡将活动链接在一起，然后对其进行配置。
+工作區是工作流程編輯器中的中央區域。 您可以在此區域中拖放活動、使用轉變將它們連結在一起，以及進行設定。
 
-要链接两个活动，请将箭头的末尾从第一个活动移到下一个活动，直到它们连接为止。 您还可以将活动移动到其后面的箭头点，以将其链接到上一个活动。 如果移动任何活动，它们将保持链接状态。
+若要連結兩個活動，請將箭頭的結尾從第一個活動上移至下一個活動，直到它們連線為止。 您也可以將活動往後方的箭頭點移動，以便連結至前一個活動。 如果您移動任何活動，這些活動將會維持連結。
 
-处理数据的活动后面的过渡包含中间群体。 如果在 **[!UICONTROL Keep interim results]** 选项 **[!UICONTROL Execution]** 部分。
+處理資料的活動後的轉變包含中介母體。 如果您核取 **[!UICONTROL Keep interim results]** 中的選項 **[!UICONTROL Execution]** 工作流程屬性的區段。
 
 >[!CAUTION]
 >
 >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
 
 
-选择活动后，活动周围会显示快速操作，以便您与其进行交互。 例如，要配置活动，请选择该活动，然后使用 ![](assets/edit_darkgrey-24px_table.png) 按钮。
+選取活動時，會在活動週圍顯示快速動作，讓您與活動互動。 例如，若要設定活動，請選取該活動，然後使用 ![](assets/edit_darkgrey-24px_table.png) 按鈕。
 
-某些功能仅在工作区中启用：
+某些功能僅在工作區中啟用：
 
-* 通过在活动和过渡周围绘制一个区域来选择它们。
-* 按 **Ctrl** +左键单击以选择多个活动和/或过渡。
-* 按 **输入** 查看当前选定活动或过渡的详细信息。
-* 按 **删除** 删除当前选定的活动。
-* 按 **Ctrl + C** 复制选定的活动，以及 **Ctrl + V** 以将其粘贴到工作区中。
+* 透過在其周圍繪製區域來選取多個活動和轉接。
+* 按下 **Ctrl** +按一下滑鼠左鍵以選取數個活動和/或轉變。
+* 按下 **輸入** 以檢視目前所選活動或轉變的詳細資訊。
+* 按下 **刪除** 以刪除目前選取的活動。
+* 按下 **Ctrl + C** 複製所選活動，以及 **Ctrl + V** 將它們貼到工作區中。
 
 ![](assets/workflow_workspace.png)
 
 ## 操作栏 {#action-bar}
 
-根据工作区中选择的元素或工作流的执行状态，操作栏中可用的按钮可能会有所不同。
+根據在工作區中選取的元素或工作流程的執行狀態，動作列中的可用按鈕可能會有所不同。
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>用于编辑工作流的属性。
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>可讓您編輯工作流程的屬性。
 
-<img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Start]**<br/>启动工作流。
+<img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Start]**<br/>啟動工作流程。
 
-<img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>暂停工作流。
+<img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>暫停工作流程。
 
-<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>中断工作流的执行。 无法从停止位置恢复。
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>中斷工作流程執行。 無法從停止的地方繼續。
 
-<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>重新启动工作流。
+<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>重新啟動工作流程。
 
-<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>打开工作流的执行日志。
+<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>開啟工作流程的執行記錄。
 
-<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>启用多选模式。 工作流必须至少由两个活动组成。
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>啟用多重選取模式。 工作流程必須至少由兩個活動組成。
 
-<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>禁用多选模式。<br />
+<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>停用多重選取模式。<br />
 
-<img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>打开所选过渡。<br />
+<img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>開啟選取的轉變。<br />
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>如果之前已禁用或标记为暂停，则重新启用选择。<br />
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>重新啟用選取範圍（如果先前已停用或標籤為已暫停）。<br />
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定的活动中暂停工作流。<br />
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在選取的活動處暫停工作流程。<br />
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。<br />
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>停用活動。<br />
 
-<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>删除选定的活动。<br />
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>刪除選取的活動。<br />
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>复制选定的活动。
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>複製選取的活動。
 
-<img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>粘贴已复制的活动。
+<img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>貼上已複製的活動。
 
 ## 快速操作 {#quick-actions}
 
-选择活动后，活动周围会显示快速操作按钮，以便您与其进行交互。
+選取活動時，快速動作按鈕會出現在活動週圍，可讓您與活動互動。
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>打开选定的活动。
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>開啟選取的活動。
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>复制所选活动。
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>複製所選活動。
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>打开选定电子邮件或短信投放活动的高级选项。
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>開啟所選電子郵件或簡訊傳送活動的進階選項。
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>如果之前已禁用或标记为暂停，则重新启用选择。
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>重新啟用選取範圍（如果先前已停用或標籤為已暫停）。
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定的活动中暂停工作流。
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在選取的活動處暫停工作流程。
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>停用活動。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理所选内容。 此按钮仅适用于 <span class="uicontrol">调度程序</span> 和 <span class="uicontrol">等待</span> 活动。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>強制立即處理選取專案。 此按鈕僅適用於 <span class="uicontrol">排程器</span> 和 <span class="uicontrol">等待</span> 活動。
 
-<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>删除选定的活动。
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>刪除選取的活動。
 
-## 复制工作流活动 {#duplicating-workflow-activities}
+## 複製工作流程活動 {#duplicating-workflow-activities}
 
-通过工作区，您可以复制工作流活动，方法是将它们复制粘贴到同一工作流中，或从同一Campaign实例复制到另一个工作流中。
+工作區可讓您複製工作流程活動，並將其貼到相同的工作流程中，或貼到來自相同Campaign執行個體的另一個工作流程中，以複製工作流程活動。
 
-复制活动后，将保留其整个配置。 对于投放活动（电子邮件、短信、推送通知……），与活动关联的投放对象会复制。
+活動複製後，會保留其整個設定。 對於傳送活動（電子郵件、簡訊、推播通知……），附加至活動的傳送物件會重複。
 
 >[!NOTE]
 >
->不能将工作流活动从一个实例复制到另一个实例。 无法复制技术工作流中的活动。
+>無法將工作流程活動從一個執行個體複製到另一個執行個體。 來自技術工作流程的活動不能重複。
 
-要复制活动，请执行以下步骤：
+若要複製活動，請遵循下列步驟：
 
-1. 选择活动，然后单击 **[!UICONTROL Copy selection]** 按钮。
+1. 選取活動，然後按一下 **[!UICONTROL Copy selection]** 快速動作中的按鈕。
 
-   您还可以使用 **Ctrl + C** 键盘快捷键。
+   您也可以使用 **Ctrl + C** 鍵盤快速鍵。
 
    ![](assets/wkf_copypaste1.png)
 
-1. 在目标工作流工作区中右键单击，然后单击 **[!UICONTROL Paste]** 按钮。
+1. 在目標工作流程工作區中按一下滑鼠右鍵，然後按一下 **[!UICONTROL Paste]** 按鈕。
 
-   您还可以使用 **CTRL + V** 键盘快捷键。
+   您也可以使用 **CTRL + V** 鍵盤快速鍵。
 
    ![](assets/wkf_copypaste2.png)
 
-1. 活动会复制，且其中包含最初配置的所有设置。
+1. 活動會重複，其中包含最初設定的所有設定。
 
-也可以复制并粘贴多个活动，从而复制整个工作流。
+您也可以複製並貼上多個活動，讓您複製整個工作流程。
 
-要实现此目的，请通过在活动周围绘制区域来选择活动。 然后单击 **[!UICONTROL Copy selection]** 按钮(或按 **Ctrl + C**)。 然后，可将它们粘贴到所需位置。
+要執行此操作，請透過在活動週圍繪製區域來選取活動。 然後按一下 **[!UICONTROL Copy selection]** 按鈕(或按下 **Ctrl + C**)。 然後，您就可以將它們貼到所需的位置。
 
 ![](assets/wkf_copypaste3.png)

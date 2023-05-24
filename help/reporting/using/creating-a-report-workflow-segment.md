@@ -1,6 +1,6 @@
 ---
 title: 根据工作流区段创建报告
-description: 了解如何根据报表中的工作流区段检查交付是否成功。
+description: 瞭解如何根據報告中的工作流程區段，檢查傳送是否成功。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -18,106 +18,106 @@ ht-degree: 2%
 # 根据工作流区段创建报告{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**只能定位电子邮件和短信投放。
+> **[!UICONTROL Segment code]**只能定位電子郵件和簡訊傳遞。
 
-在创建工作流并将群体过滤到不同的目标受众后，您可以根据此定位工作流中定义的区段来衡量营销活动的效率。
-要在报表中定位这些区段，请执行以下操作：
+建立工作流程並將母體篩選為不同目標對象後，您可以根據此目標工作流程中定義的區段來衡量行銷活動的效率。
+若要在報表中鎖定這些區段：
 
-* [步骤1:使用区段更新用户档案自定义资源](#step-1--update-profiles-custom-resource-segments)
-* [步骤2:使用区段创建工作流](#step-2--create-a-workflow-segments)
-* [步骤3:创建动态报告以过滤区段](#step-3--create-a-dynamic-report-filter-segments)
+* [步驟1：使用區段更新設定檔自訂資源](#step-1--update-profiles-custom-resource-segments)
+* [步驟2：建立包含區段的工作流程](#step-2--create-a-workflow-segments)
+* [步驟3：建立動態報表以篩選區段](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
->必须接受动态报告使用协议才能开始收集这些数据。
+>必須接受動態報告使用協定才能開始收集這些資料。
 >
->如需有关本协议的详细信息，请参阅此 [页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>如需此合約的詳細資訊，請參閱此 [頁面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 步骤1:使用区段更新用户档案自定义资源{#step-1--update-profiles-custom-resource-segments}
+## 步驟1：使用區段更新設定檔自訂資源{#step-1--update-profiles-custom-resource-segments}
 
-在报告区段代码之前，您需要更新 **[!UICONTROL Profiles]** 存储区段代码的自定义资源。
+報告區段代碼之前，您需要更新 **[!UICONTROL Profiles]** 要儲存之區段代碼的自訂資源。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然后选择 **[!UICONTROL Profile (profile)]** 资源。
-1. 在 **[!UICONTROL Sending logs extension]** 菜单 **[!UICONTROL Data structure]** 选项卡，勾选 **[!UICONTROL Add segment code]** 以允许从定位工作流中存储区段代码，并将其发送到动态报告。
+1. 從進階功能表中，透過Adobe Campaign標誌選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然後選取 **[!UICONTROL Profile (profile)]** 資源。
+1. 在 **[!UICONTROL Sending logs extension]** 功能表中的 **[!UICONTROL Data structure]** 索引標籤，核取 **[!UICONTROL Add segment code]** 允許從目標工作流程儲存區段代碼，並將其傳送至動態報告。
 
-   的 **[!UICONTROL Segment code]** 将在 **[!UICONTROL Profile]** 维度部分。
+   此 **[!UICONTROL Segment code]** 隨後將可在 **[!UICONTROL Profile]** 報表的維度區段。
 
    ![](assets/report_segment_4.png)
 
-1. 保存自定义资源。
+1. 儲存您的自訂資源。
 
-1. 您现在需要发布自定义资源。
-从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
+1. 您現在需要發佈自訂資源。
+從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
-1. 单击 **[!UICONTROL Prepare publication]** 然后，在准备完成后，单击 **[!UICONTROL Publish]** 按钮。 有关自定义资源的更多信息，请参阅此 [页面](../../developing/using/updating-the-database-structure.md).
+1. 按一下 **[!UICONTROL Prepare publication]** 準備完成後，按一下 **[!UICONTROL Publish]** 按鈕。 如需自訂資源的詳細資訊，請參閱此 [頁面](../../developing/using/updating-the-database-structure.md).
 
-您现在可以使用区段代码开始创建工作流。
+您現在可以使用區段代碼開始建立工作流程。
 
-请注意，一旦在 **[!UICONTROL Sending logs extension]**.
+請注意，一旦您在中啟用區段代碼，將會立即收集區段代碼 **[!UICONTROL Sending logs extension]**.
 
-## 步骤2:使用区段创建工作流 {#step-2--create-a-workflow-segments}
+## 步驟2：建立包含區段的工作流程 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->如果电子邮件投放的输入过渡为空，则默认情况下会添加上一个过渡的段码。
+>如果電子郵件傳送的輸入轉變空白，預設會新增上一個轉變的區段代碼。
 
-您首先需要创建具有不同目标群体的工作流。 在此，我们希望发送一封根据受众年龄进行个性化的电子邮件：一次交付20至30岁用户档案，另一次交付30至40岁用户档案。
+您首先需要建立具有不同目標母體的工作流程。 在此，我們希望傳送一封電子郵件，該電子郵件將根據對象的年齡進行個人化：一次適用於20至30歲的設定檔，另一次適用於30至40歲的設定檔。
 
-1. 创建工作流。 有关如何创建工作流的更多详细信息，请参阅此 [页面](../../automating/using/building-a-workflow.md).
+1. 建立您的工作流程。 有關如何建立工作流程的更多詳細資訊，請參閱此 [頁面](../../automating/using/building-a-workflow.md).
 
-1. 添加 **[!UICONTROL Query]** 活动，方法是将其从面板中拖放到工作区中。
+1. 新增 **[!UICONTROL Query]** 活動，方法是將其從浮動視窗拖放至工作區中。
 
-1. 将20到40岁的用户档案定位到以后，将其细分为更有针对性的人群。
+1. 將20至40歲及以上的設定檔設為目標，以便將其區隔成更具針對性的母體。
 
    ![](assets/report_segment_1.png)
 
-1. 添加 **[!UICONTROL Segmentation]** 活动，将查询结果拆分为两个目标群体。 有关分段的更多信息，请参阅此内容 [页面](../../automating/using/segmentation.md).
+1. 新增 **[!UICONTROL Segmentation]** 活動，將您的查詢結果分割成兩個目標母體。 如需區段的詳細資訊，請參閱本節 [頁面](../../automating/using/segmentation.md).
 
-1. 双击 **[!UICONTROL Segmentation]** 活动进行配置。 通过单击 **[!UICONTROL Edit properties]**.
+1. 按兩下 **[!UICONTROL Segmentation]** 活動以進行設定。 按一下以編輯第一個區段 **[!UICONTROL Edit properties]**.
 
    ![](assets/report_segment_7.png)
 
-1. 在20到30岁之间查询用户档案并单击 **[!UICONTROL Confirm]** 完成时。
+1. 查詢年齡在20到30歲之間的設定檔，然後按一下 **[!UICONTROL Confirm]** 完成時。
 
    ![](assets/report_segment_8.png)
 
-1. 单击 **[!UICONTROL Add an element]** 创建第二个区段，并按照上述步骤中所述对其进行配置，以定位30到40岁之间的用户档案。
+1. 按一下 **[!UICONTROL Add an element]** 建立第二個區段並依照上述步驟進行設定，以鎖定年齡介於30至40歲的設定檔。
 
-1. 编辑 **[!UICONTROL Segment code]** 用于通过动态报告传递的每个群体。
+1. 編輯 **[!UICONTROL Segment code]** 每個要透過動態報告傳遞的母體。
 
    >[!NOTE]
-   >此步骤是强制性的，否则您将无法了解要报告哪些区段。
+   >此步驟為必要步驟，否則您將無法瞭解要報告哪些區段。
 
    ![](assets/report_segment_9.png)
 
-1. 拖放 **[!UICONTROL Email delivery]** 活动。
+1. 拖放 **[!UICONTROL Email delivery]** 區段後的活動。
 
    ![](assets/report_segment_3.png)
 
-1. 根据不同的定向群体，将投放个性化。 有关创建电子邮件的更多信息，请参阅此 [页面](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 根據不同的目標母體，個人化您的傳遞。 有關建立電子郵件的詳細資訊，請參閱此 [頁面](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 保存工作流。
 
-1. 单击 **[!UICONTROL Start]** 工作流准备就绪后。
+1. 按一下 **[!UICONTROL Start]** 當工作流程準備就緒時。
 
-您现在可以访问报表以跟踪区段代码。
+您現在可以存取報表以追蹤區段代碼。
 
-## 步骤3:创建动态报告以过滤区段 {#step-3--create-a-dynamic-report-filter-segments}
+## 步驟3：建立動態報表以篩選區段 {#step-3--create-a-dynamic-report-filter-segments}
 
-使用工作流发送投放后，您可以使用工作流中的区段代码划分报表。
+使用工作流程傳送傳遞後，您可以使用工作流程中的區段代碼來劃分報表。
 
-1. 从 **[!UICONTROL Reports]** 选项卡上，选择现成报表或单击 **[!UICONTROL Create new project]** 按钮从头开始。
+1. 從 **[!UICONTROL Reports]** 索引標籤中，選取現成可用的報表，或按一下 **[!UICONTROL Create new project]** 按鈕以從頭開始。
 
    ![](assets/custom_profile_18.png)
-1. 拖放 **[!UICONTROL Delivery]** 维度添加到自由格式表。
+1. 拖放 **[!UICONTROL Delivery]** 維度至您的自由表格。
 
    ![](assets/report_segment_5.png)
 
-1. 将不同的量度拖放到您的表中，例如 **[!UICONTROL Open]** 和 **[!UICONTROL Click]** 量度来开始过滤数据。
-1. 在 **[!UICONTROL Dimensions]** 类别，单击 **[!UICONTROL Profile]** 维度，然后拖放 **[!UICONTROL Segment code]** 维度，以根据目标群体衡量电子邮件投放是否成功。
+1. 將不同的量度拖放至表格中，例如 **[!UICONTROL Open]** 和 **[!UICONTROL Click]** 開始篩選資料的量度。
+1. 在 **[!UICONTROL Dimensions]** 類別，按一下 **[!UICONTROL Profile]** 維度，然後拖放 **[!UICONTROL Segment code]** 工作流程傳送的維度，以根據目標人口評估電子郵件傳送的成功程度。
 
    ![](assets/report_segment_6.png)
 
-1. 根据需要，在工作区中拖放可视化图表。
+1. 視需要在工作區中拖放視覺效果。
 
    ![](assets/report_segment_10.png)

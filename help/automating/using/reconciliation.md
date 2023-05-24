@@ -42,9 +42,9 @@ ht-degree: 78%
 
    例如，您随后可以执行保存受众、数据库更新等操作。
 
-例如， **[!UICONTROL Reconciliation]** 活动可放在加载数据活动之后，以将非标准数据导入数据库。
+例如， **[!UICONTROL Reconciliation]** 活動可放置在載入資料活動之後，以將非標準資料匯入資料庫。
 
-而 **扩充** 活动允许您定义要在工作流中处理的附加数据(使用 **扩充** 活动来组合来自多个集的数据，或创建指向临时资源的链接) **协调** 活动，用于将未识别的数据链接到现有资源。 协调操作意味着链接维度的数据已在数据库中。 在 [此部分](#use-cases-reconciliation).
+而 **擴充** 活動可讓您定義要在工作流程中處理的其他資料(使用 **擴充** 活動以合併來自多組資料，或建立臨時資源的連結)， **調解** 活動可讓您將未識別的資料連結至現有資源。 調解作業表示連結維度的資料已在資料庫中。 使用案例位於 [本節](#use-cases-reconciliation).
 
 
 ## 配置 {#configuration}
@@ -71,8 +71,8 @@ ht-degree: 78%
 
 ## 用例{#use-cases-reconciliation}
 
-了解如何在以下用例中使用此活动：
+瞭解如何在下列使用案例中使用此活動：
 
-* [用例：使用关系进行数据协调](../../automating/using/reconciliation-using-relations.md)
-* [用例：使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
-* [用例：使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
+* [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)

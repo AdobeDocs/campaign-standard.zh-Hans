@@ -1,6 +1,6 @@
 ---
-title: 为Microsoft Dynamics 365集成配置Adobe Developer
-description: 了解如何为Microsoft Dynamics 365集成配置Adobe Developer
+title: 設定Adobe Developer以進行Microsoft Dynamics 365整合
+description: 瞭解如何設定Adobe Developer以進行Microsoft Dynamics 365整合
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -15,96 +15,96 @@ ht-degree: 1%
 
 ---
 
-# Adobe Campaign Standard和Adobe Developer的Microsoft Dynamics 365集成配置
+# 適用於Microsoft Dynamics 365整合的Adobe Campaign Standard和Adobe Developer設定
 
-本文将介绍如何配置Adobe Campaign Standard和Adobe I/O，以授予集成应用程序访问数据的权限。
+本文會說明如何設定Adobe Campaign Standard和Adobe I/O，讓整合應用程式可存取資料。
 
-## 配置Adobe Campaign Standard {#campaign-standard}
+## 設定Adobe Campaign Standard {#campaign-standard}
 
-### 配置文件扩展
+### 設定檔擴充功能
 
-请在Adobe Campaign Standard中启用“配置文件扩展”。   要从Microsoft Dynamics 365同步配置文件资源中的自定义字段，需要此字段。   启用这些功能的步骤包括：
+請在Adobe Campaign Standard中啟用「設定檔擴充功能」。   若要從Microsoft Dynamics 365同步設定檔資源中的自訂欄位，則需要此專案。   啟用這些功能的步驟如下：
 
-1. 转到“设置” — >“管理” — >“开发” — >“发布”。
-1. 单击“准备发布”以准备发布。
-1. 准备完成后，选中“创建Profiles &amp; Services Ext API”并单击“发布”。
+1. 請至[設定] -> [管理] -> [開發] -> [發佈]。
+1. 按一下「準備出版物」以準備出版物。
+1. 準備完成後，請勾選「建立設定檔和服務擴充功能API」，然後按一下「發佈」。
 
 ## 配置 Adobe I/O {#adobe-io}
 
-Adobe I/O允许您启用对Adobe Campaign Standard和其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成同步数据的权限。
+Adobe I/O可讓您啟用API存取Adobe Campaign Standard及其他Adobe產品。   本文會詳細說明如何設定Adobe I/O，以授予Adobe Campaign Standard整合與Microsoft Dynamics 365的存取權，進而同步資料。
 
 ### 概述
 
-在执行本文中的集成前设置之前，我们假定您已进行配置，并且拥有对贵组织Campaign Standard实例的管理员访问权限。  如果未发生这种情况，则需要联系Adobe客户关怀团队以完成Campaign配置。
+在執行本文中的預先整合設定之前，假設您已布建並擁有貴組織Campaign Standard執行個體的管理員存取權。  如果尚未發生此情況，則您需要聯絡Adobe客戶服務，以完成Campaign布建。
 
 >[!CAUTION]
 >
->管理员需要执行下述步骤。
+>下列步驟需要由管理員執行。
 
 ### 配置
 
-您将需要创建一个新的Adobe Developer项目，并为该集成配置该项目。
+您將需要建立新的Adobe Developer專案並設定以進行整合。
 
-#### 创建新项目
+#### 建立新專案
 
-要实现此目的，请按照以下步骤操作：
+若要達到此目的，請遵循下列步驟：
 
-1. 导航到 [Adobe Developer控制台](https://console.adobe.io/home#) 然后，从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
+1. 導覽至 [Adobe Developer主控台](https://console.adobe.io/home#) 並從畫面右上方的下拉式選單中選取您的Adobe組織ID。
 
-1. 然后，单击 **[!UICONTROL Create new project]** 在 **[!UICONTROL Quick Start]**.
+1. 然後按一下 **[!UICONTROL Create new project]** 在 **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
-1. 在 **[!UICONTROL Get started with your new project]**，单击 **[!UICONTROL Add API]**.
+1. 下 **[!UICONTROL Get started with your new project]**，按一下 **[!UICONTROL Add API]**.
 
    ![](assets/adobeIO2.png)
 
-1. 选择Adobe Campaign API（您可能需要向底部滚动）并单击 **[!UICONTROL Next]**.
+1. 選取Adobe Campaign API （您可能需要捲動到底部），然後按一下 **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. 在下一个屏幕上，您将可以选择上传您自己的公钥，或让Adobe Developer为您生成密钥对。 这些说明将遵循后一选项。 如果决定让Adobe Developer生成密钥对，请单击选项1;然后单击 **[!UICONTROL Generate keypair]** 按钮。
+1. 在下一個畫面中，您可以選擇上傳自己的公開金鑰或讓Adobe Developer為您產生金鑰組。 這些指示將遵循後一個選項。 如果您決定讓Adobe Developer產生金鑰組，請按一下選項1，然後按一下 **[!UICONTROL Generate keypair]** 按鈕。
 
    ![](assets/adobeIO4.png)
 
-1. 在下一个屏幕上，系统将提示您命名并选择密钥对zip文件的下载位置。
+1. 在下一個畫面中，系統會提示您命名並選取金鑰組zip檔案的下載位置。
 
-下载后，您可以解压缩文件以显示公钥和私钥。 Adobe Developer已将公共密钥应用于您的Adobe Developer项目。 您以后需要保留私钥；私钥将在集成工具的预集成设置期间使用。
+下載後，您可以解壓縮檔案以顯示公開和私密金鑰。 Adobe Developer已將公開金鑰套用至您的Adobe Developer專案。 您必須保留私密金鑰以供稍後使用；私密金鑰將在整合工具的預先整合設定期間使用。
 
-1. 单击 **[!UICONTROL Next]** 继续
+1. 按一下 **[!UICONTROL Next]** 以繼續
 
    ![](assets/adobeIO5.png)
 
-1. 在下一个屏幕中，您将选择要与此项目关联的产品配置文件。 选择标题中包含的产品配置文件：Campaign实例的租户ID - [!UICONTROL Administrators]
+1. 在下一個畫面中，您將選取要與此專案關聯的產品設定檔。 選取標題中包含的產品設定檔：您Campaign執行個體的租使用者ID - [!UICONTROL Administrators]
 
-   示例：Campaign Standard- your-campaign-tenantID — 管理员
+   範例：Campaign Standard- your-campaign-tenantID — 管理員
 
 1. 单击 **[!UICONTROL Save configured API]**。
 
    ![](assets/adobeIO6.png)
 
-1. 在下一个屏幕中，您将看到新Adobe Developer项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
+1. 在下一個畫面中，您將會看到新Adobe Developer專案的詳細資料。 按一下 **[!UICONTROL Add to Project]** ，然後選取「 」 **API** 從下拉式清單。
 
    ![](assets/adobeIO7.png)
 
-1. 在下一个屏幕上，您需要选择I/O事件API，然后单击 **[!UICONTROL Next]**.
+1. 在下一個畫面中，您必須選取I/O Events API，然後按一下 **[!UICONTROL Next]**.
 
-1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.  您将返回到项目详细信息屏幕。
+1. 在下一個畫面中按一下 **[!UICONTROL Save the configured API]**.  系統會將您帶回專案詳細資訊畫面。
 
-1. 现在，单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 中，与之前一样。
+1. 現在按一下 **[!UICONTROL Add to Project]** ，然後選取「 」 **API** 從下拉式清單中（就像您先前做的那樣）。
 
-1. 在下一个屏幕上，您需要选择I/O管理API并单击 **[!UICONTROL Next]**.
+1. 在下一個畫面中，您必須選取I/O管理API，然後按一下 **[!UICONTROL Next]**.
 
-1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.
+1. 在下一個畫面中按一下 **[!UICONTROL Save the configured API]**.
 
-Campaign中的预集成设置现已完成。
+Campaign中的預先整合設定現已完成。
 
-**相关主题**
+**相關主題**
 
-* [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
-* [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含启动和运行集成的完整步骤列表。
+* [設定Adobe Developer以進行Microsoft Dynamics 365整合](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一個步驟
+* [整合自助應用程式概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含啟動並執行整合的完整步驟清單。
 
 
-* [Adobe Developer — 服务帐户集成](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
-* [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
+* [Adobe Developer — 服務帳戶整合](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Campaign Standard- API存取設定](../../api/using/setting-up-api-access.md)
+* [Campaign Standard- Dynamics 365整合](../../integrating/using/d365-acs-configure-d365.md)

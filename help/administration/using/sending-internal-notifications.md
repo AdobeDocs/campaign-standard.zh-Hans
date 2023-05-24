@@ -1,6 +1,6 @@
 ---
 title: 发送内部通知
-description: 了解如何向Adobe Campaign用户发送实时系统通知
+description: 瞭解如何傳送即時系統通知給您的Adobe Campaign使用者
 audience: administration
 role: Admin
 level: Experienced
@@ -14,16 +14,16 @@ ht-degree: 2%
 
 # 发送内部通知{#sending-internal-notifications}
 
-Adobe Campaign允许您直接在应用程序中接收有关重要系统活动的通知。 实时通知可让相关利益相关方随时了解情况，并让用户能够从应用程序内立即直接对活动通知采取行动。 团队的成果是提高敏捷性、高效性并更顺畅地执行营销活动。
+Adobe Campaign可讓您直接在應用程式中接收有關重要系統活動的通知。 即時通知可隨時通知相關利害關係人，並讓使用者能夠立即直接從應用程式內對活動通知採取行動。 對團隊來說，如此可讓行銷活動獲得進階的靈活性、效率及更順暢的執行。
 
 ![](assets/pulse_3.png)
 
-您可以为以下对象配置通知：
+您可以為下列物件設定通知：
 
-* **[!UICONTROL A/B Test emails]**:电子邮件创建者和修改者会收到已选择变体（自动模式）或需要选择变体（手动模式）的通知。 单击通知会显示相应的电子邮件。 默认情况下，开箱即用的A/B测试模板中会激活通知。 如果要取消激活它们，请编辑电子邮件或电子邮件模板的属性，然后取消选中位于 **常规>通知**. 有关A/B测试电子邮件的更多信息，请参阅 [创建AB测试](../../channels/using/designing-an-a-b-test-email.md). 有关电子邮件属性的更多信息，请参阅 [电子邮件属性列表](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL A/B Test emails]**：通知電子郵件建立者和修改者，已選擇變體（自動模式）或需要選擇變體（手動模式）。 按一下通知會顯示對應的電子郵件。 預設會在現成可用的A/B測試範本中啟用通知。 如果您要停用它們，請編輯電子郵件或電子郵件範本的屬性，並取消勾選下方的方塊 **一般>通知**. 如需A/B測試電子郵件的詳細資訊，請參閱 [建立AB測試](../../channels/using/designing-an-a-b-test-email.md). 有關電子郵件屬性的詳細資訊，請參閱 [電子郵件屬性清單](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**:当工作流出错时，系统会通知选定安全组的每个成员（电子邮件和应用程序内通知）。 单击通知或电子邮件链接可显示相应的工作流。 默认情况下，现成工作流模板中会停用通知。 如果要激活这些组，请编辑工作流或工作流模板的属性，并在 **“常规”>“执行”>“错误管理”>“监事”**. 有关安全组的详细信息，请参阅 [管理组和用户](../../administration/using/managing-groups-and-users.md). 有关工作流属性的更多信息，请参阅 [工作流属性](../../automating/using/managing-execution-options.md).
+* **[!UICONTROL Workflows]**：工作流程發生錯誤時，所選安全性群組的每個成員都會收到通知（電子郵件和應用程式內通知）。 按一下通知或電子郵件連結會顯示對應的工作流程。 現成可用的工作流程範本中，預設會停用通知。 如果您要啟動它們，請編輯工作流程或工作流程範本的屬性，並在下新增安全性群組 **一般>執行>錯誤管理>主管**. 如需安全性群組的詳細資訊，請參閱 [管理群組和使用者](../../administration/using/managing-groups-and-users.md). 有關工作流程屬性的詳細資訊，請參閱 [工作流程屬性](../../automating/using/managing-execution-options.md).
 
    ![](assets/pulse_1.png)

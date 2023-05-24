@@ -1,6 +1,6 @@
 ---
 title: 动态报告快速入门
-description: 通过动态报告，将变量和维度拖放到自由格式环境中，并分析促销活动是否成功。
+description: 使用動態報表，將變數和維度拖放至您的自由格式環境中，並分析行銷活動的成功。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,63 +17,63 @@ ht-degree: 5%
 
 # 动态报告快速入门 {#about-dynamic-reports}
 
-动态报告提供完全可自定义的实时报告。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还允许按用户档案维度（如性别、城市和年龄）进行人口统计分析。 通过拖放界面，您可以浏览数据，确定电子邮件活动针对最重要的客户细分执行情况，并衡量其对收件人的影响。
+動態報告提供完全可自訂的即時報告。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還能夠依設定檔維度（如性別、城市和年齡）進行人口統計分析。 通过拖放界面，您可以浏览数据，确定电子邮件活动针对最重要的客户细分执行情况，并衡量其对收件人的影响。
 
 >[!NOTE]
 >
->仅具有管理权限或将组织单位设置为 **全部** 可以创建或保存新报表。 有关更多信息，请参阅此](../../administration/using/users-management.md)章节[。
+>僅限具有管理許可權或組織單位設定為的使用者 **全部** 可以建立或儲存新報表。 有关更多信息，请参阅此](../../administration/using/users-management.md)章节[。
 
-## 访问动态报告 {#accessing-dynamic-reports}
+## 存取動態報告 {#accessing-dynamic-reports}
 
-可以访问报表：
+報表可以存取：
 
-* 通过选择 **[!UICONTROL Reports]** 的 **[!UICONTROL Reports]** 卡以访问所有投放的报告。
+* 從首頁選取 **[!UICONTROL Reports]** 標籤或上方列的 **[!UICONTROL Reports]** 卡片以存取所有傳遞的報告。
 
    ![](assets/campaign_reports_access.png)
 
-* 在每个项目、营销策划和消息中， **报表** 按钮 **动态报告** 以仅查看特定于投放的报表。
+* 在每個方案、行銷活動和訊息中，來自 **報表** 按一下「 」按鈕 **動態報告** 以僅檢視特定於傳遞的報告。
 
    ![](assets/campaign_reports_description.png)
 
-某些报表在投放后无法立即可用，具体取决于收集和处理信息所花费的时间。
+視收集和處理資訊所花的時間而定，某些報表在傳送後無法立即使用。
 
-动态报告分为两类：
+動態報告分為兩個類別：
 
-* **模板**，可通过使用 **另存为** 选项(**项目>另存为……**)。
-* **自定义报表** （以蓝色标识），可通过单击 **创建新项目** 按钮 **报表** 主页。
+* **範本**，您可使用來複製以進行修改 **另存為** 選項(**專案>另存新檔……**)。
+* **自訂報表** （以藍色標示），您可以按一下 **建立新專案** 上的按鈕 **報表** 首頁。
 
 >[!NOTE]
 >
->数据会根据您的组织单位进行过滤。
+>資料會根據您的組織單位進行篩選。
 
 ![](assets/dynamic_report_overview.png)
 
-## 动态报告使用协议 {#dynamic-reporting-usage-agreement}
+## 動態報告使用協定 {#dynamic-reporting-usage-agreement}
 
-动态报告使用协议的目的是作为数据处理的弹出式同意。 默认情况下，协议仅可见，且只有分配了管理权限的用户才能接受或拒绝协议。
+動態報告使用協定的目的是作為資料處理的快顯同意。 依預設，協定僅可見，且只能由指派有管理許可權的使用者接受或拒絕。
 
-提供了以下三个选项：
+有三個可用選項：
 
-* **[!UICONTROL Ask me later]**:通过单击 **晚点问我**，则窗口将在24小时内停止显示。 在您接受或拒绝协议之前，配置文件维度将不会显示在您的报表中，并且也不会收集或发送您客户的个人身份信息。
-* **[!UICONTROL Accept]**:接受本协议后，您将授权Adobe Campaign收集客户的个人身份信息，并将其传输到报表或数据中心。
-* **[!UICONTROL Decline]**:拒绝协议后，用户档案维度将不会显示在您的报表中，并且也不会收集或发送客户的个人身份信息。 请注意，在这种情况下，仍将收集并使用externalID来标识最终用户。
+* **[!UICONTROL Ask me later]**：按一下 **稍後詢問我**，視窗將停止顯示24小時。 在您接受或拒絕合約之前，設定檔維度不會出現在您的報表中，且不會收集或傳送您客戶的個人識別資訊。
+* **[!UICONTROL Accept]**：接受本合約即表示您授權Adobe Campaign收集客戶的個人識別資訊，並將其傳輸至報表或資料中心。
+* **[!UICONTROL Decline]**：拒絕合約後，設定檔維度不會出現在您的報表中，也不會收集或傳送您客戶的個人識別資訊。 請注意，在此情況下，系統仍會收集externalID並用來識別一般使用者。
 
-下表显示了接受此协议后，根据您所在的地区所发生的情况。
+下表根據您的地區顯示接受此合約後會發生什麼事。
 
-|  | 动态报告 | Microsoft Dynamics 365连接器 |
+|  | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
-| 美洲和亚太地区（亚太地区） | **可用功能**. <br>开箱即用（例如，城市、国家/地区、州、性别和年龄段）以及推送到美国报告中心的自定义用户档案信息。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components-.md) | **可用功能**. <br>所有现成和自定义的用户档案字段和Adobe Campaign Standard事件字段均在美国数据中心进行处理。 |
-| EMEA（欧洲中东和非洲） | **可用功能**. <br>开箱即用（即按年龄划分的城市、国家/地区、州、性别和区段）以及推送到EMEA报告中心的自定义用户档案信息。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components-.md) | **功能可用。** <br>在EMEA数据中心处理的所有现成和自定义用户档案字段和Adobe Campaign Standard事件字段。 <br>**[!UICONTROL Control data]**其中包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户事件的ID。 |
+| 美洲和亞太地區（亞太） | **可用功能**. <br>所有現成可用的資訊（例如城市、國家/地區、州、性別和年齡區段），以及推送至美國報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components-.md) | **可用功能**. <br>所有現成可用的和自訂設定檔欄位和Adobe Campaign Standard事件欄位都會在美國資料中心處理。 |
+| EMEA （歐洲、中東和非洲） | **可用功能**. <br>所有現成可用的資訊（即根據年齡區分的城市、國家/地區、州、性別和區段），以及推送至EMEA報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components-.md) | **可用功能。** <br>在EMEA資料中心處理的所有現成可用和自訂設定檔欄位，以及Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶使用者事件ID。 |
 
-下表显示了拒绝此协议后将发生的情况，具体取决于您所在的地区。 请注意，即使您拒绝此协议，仍将提供有关投放和Microsoft Dynamics 365集成的报告。
+下表顯示根據您所在的地區，拒絕此合約後會發生什麼情況。 請注意，即使您拒絕此合約，仍可使用傳遞與Microsoft Dynamics 365整合的相關報告。
 
-| 地区 | 动态报告 | Microsoft Dynamics 365连接器 |
+| 区域 | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
-| 美洲和亚太地区（亚太地区） | **可用功能**. <br> 除ExternalID外，没有现成的和自定义的用户档案信息被推送到美国报表中心。 | **可用功能**. <br>除外部ID和收件人ID外，不会向美国数据中心发送现成的或自定义用户档案字段。 <br>除镜像页面ID外，美国数据中心中处理的所有Adobe Campaign Standard事件字段。 <br>有关Microsoft Dynamics 365集成的更多信息，请参阅此 [页面](../../integrating/using/d365-acs-get-started.md). |
-| EMEA（欧洲中东和非洲） | **可用功能**. <br>除ExternalID外，没有现成的和自定义的用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，不会向EMEA数据中心发送现成的或自定义用户档案字段。 <br>除镜像页面ID外，EMEA数据中心处理的所有Adobe Campaign Standard事件字段。  <br>**[!UICONTROL Control data]**其中包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的更多信息，请参阅此 [页面](../../integrating/using/d365-acs-get-started.md). |
+| 美洲和亞太地區（亞太） | **可用功能**. <br> 除了ExternalID以外，沒有現成可用的和自訂設定檔資訊推送至美國報表中心。 | **可用功能**. <br>除了外部ID和收件者ID以外，不會傳送任何現成可用的或自訂的設定檔欄位給美國的資料中心。 <br>所有Adobe Campaign Standard事件欄位都在美國資料中心處理，但映象頁面ID除外。 <br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此 [頁面](../../integrating/using/d365-acs-get-started.md). |
+| EMEA （歐洲、中東和非洲） | **可用功能**. <br>除了ExternalID以外，沒有現成可用的與自訂設定檔資訊推送至EMEA報告中心。 | **可用功能。** <br>除了外部ID和收件者ID以外，不會傳送任何現成可用的或自訂的設定檔欄位至EMEA資料中心。 <br>所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理，但映象頁面ID除外。  <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶使用者事件ID。<br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此 [頁面](../../integrating/using/d365-acs-get-started.md). |
 
-此选项不是最终选项，您始终可以通过选择 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+此選擇不是最終選擇，您一律可以選取 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** 在 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
-值可随时更改。 值1对应于 **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**.
+此值可隨時變更。 值1對應至 **[!UICONTROL Ask me later]**， 2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)

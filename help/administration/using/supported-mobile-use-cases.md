@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Standard中使用Adobe Experience Platform SDK支持的移动使用案例
-description: 了解如何支持移动使用案例
+title: 使用Adobe Experience Platform SDK在Adobe Campaign Standard中支援的行動使用案例
+description: 瞭解如何支援行動使用案例
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -15,36 +15,36 @@ ht-degree: 0%
 
 # Adobe Campaign Standard 中支持的移动使用案例 {#mobile-use-cases}
 
-在本页中，您将找到 [!DNL Adobe Campaign Standard] 使用 [!DNL Adobe Experience Platform SDKs]. 请注意，支持这些用例涉及安装和配置 [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]和 [!DNL Adobe Campaign Standard]. 有关此内容的更多信息，请参阅此内容 [页面](../../administration/using/configuring-a-mobile-application.md).
+在本頁中，您將找到中支援的所有行動使用案例清單 [!DNL Adobe Campaign Standard] 使用 [!DNL Adobe Experience Platform SDKs]. 請注意，支援這些使用案例涉及安裝和設定 [!DNL Adobe Experience Platform SDKs]， [!DNL tags in Adobe Experience Platform]、和 [!DNL Adobe Campaign Standard]. 如需詳細資訊，請參閱此 [頁面](../../administration/using/configuring-a-mobile-application.md).
 
-Adobe Campaign Standard支持以下用例：
+Adobe Campaign Standard支援下列使用案例：
 
-* [在Campaign Standard中注册移动用户档案](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [将推送令牌发送到Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
-* [使用应用程序中的自定义数据扩充移动用户档案](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
-* [使用应用程序中的生命周期数据扩充移动用户档案](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
-* [跟踪用户与推送通知的交互](../../administration/using/supported-mobile-use-cases.md#track-user-push)
-* [在移动设备应用程序中实施自定义事件以触发应用程序内消息](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
-* [为基于应用程序内消息的用户档案模板设置其他身份验证的链接字段](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
+* [在Campaign Standard中註冊行動設定檔](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
+* [傳送推播權杖給Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [使用您應用程式的自訂資料擴充行動設定檔](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
+* [使用您應用程式的生命週期資料豐富行動設定檔](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
+* [追蹤使用者與推播通知的互動](../../administration/using/supported-mobile-use-cases.md#track-user-push)
+* [在您的行動應用程式中實作自訂事件，以觸發應用程式內訊息](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
+* [針對以應用程式內訊息為基礎的設定檔範本，設定連結欄位以進行其他驗證](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-要配置这些用例，您需要以下扩展：
+若要設定這些使用案例，您需要下列擴充功能：
 
-* **[!DNL Adobe Campaign Standard]** <br>要安装和配置Campaign Standard扩展，请参阅 [在数据收集UI中配置Campaign Standard扩展](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
-* **[!DNL Mobile Core]**，将自动安装。 <br>有关Mobile Core扩展的更多信息，请参阅 [移动核心](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
-* **[!DNL Profile]**，将自动安装。 <br>有关Profile扩展的更多信息，请参阅 [用户档案](https://developer.adobe.com/client-sdks/documentation/profile/).
+* **[!DNL Adobe Campaign Standard]** <br>若要安裝並設定Campaign Standard擴充功能，請參閱 [在資料收集UI中設定Campaign Standard擴充功能](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Mobile Core]**，會自動安裝。 <br>如需行動核心擴充功能的詳細資訊，請參閱 [行動核心](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
+* **[!DNL Profile]**，會自動安裝。 <br>如需設定檔擴充功能的詳細資訊，請參閱 [設定檔](https://developer.adobe.com/client-sdks/documentation/profile/).
 
-## 在Campaign Standard中注册移动用户档案 {#register-mobile-profile}
+## 在Campaign Standard中註冊行動設定檔 {#register-mobile-profile}
 
 ### 使用iOS {#register-mobile-profile-ios}
 
-在iOS中， [!DNL Experience Platform APIs] 必需：
+在iOS中，有下列專案 [!DNL Experience Platform APIs] 必填：
 
-* **[!UICONTROL Lifecycle Start]**、应用程序启动时和应用程序处于前台时。
-* **[!UICONTROL Lifecycle Pause]**，当应用程序处于后台时。
+* **[!UICONTROL Lifecycle Start]**，即應用程式啟動時和應用程式處於前景時。
+* **[!UICONTROL Lifecycle Pause]**，當應用程式於背景時。
 
-有关更多信息，请参阅 [iOS中的生命周期扩展](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
+如需詳細資訊，請參閱 [iOS中的生命週期延伸](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
-以下是此用例在iOS中的实施示例：
+以下是此使用案例與iOS的範例實作：
 
 ```
  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -80,14 +80,14 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### 使用Android {#register-mobile-profile-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform APIs] 必需：
+在Android中，下列專案 [!DNL Experience Platform APIs] 必填：
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-有关更多信息，请参阅 [Android中的生命周期扩展](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
+如需詳細資訊，請參閱 [Android中的生命週期延伸](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
-以下是Android中此用例的实施示例：
+以下是Android此使用案例的範例實作：
 
 ```
 @Override
@@ -106,15 +106,15 @@ public void onResume() {
  }
 ```
 
-## 将推送令牌发送到Adobe Campaign Standard {#send-push-token}
+## 傳送推播權杖至Adobe Campaign Standard {#send-push-token}
 
 ### 使用iOS {#send-push-token-ios}
 
-在iOS中， [!DNL Experience Platform SDK] 是必需的：
+在iOS中，有下列專案 [!DNL Experience Platform SDK] 必填：
 
-* **[!UICONTROL setPushIdentifier]** <br>有关更多信息，请参阅 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
+* **[!UICONTROL setPushIdentifier]** <br>如需詳細資訊，請參閱 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
-以下是iOS的此用例实施示例：
+以下是此使用案例搭配iOS使用的範例實作：
 
 ```
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
@@ -125,11 +125,11 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### 使用Android {#send-push-token-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform SDK] 是必需的：
+在Android中，下列專案 [!DNL Experience Platform SDK] 必填：
 
-* **[!UICONTROL setPushIdentifier]** <br>有关更多信息，请参阅 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
+* **[!UICONTROL setPushIdentifier]** <br>如需詳細資訊，請參閱 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
-以下是Android中此用例的实施示例：
+以下是此使用案例與Android搭配使用的範例實作：
 
 ```
 @Override
@@ -139,17 +139,17 @@ public void onNewToken(String token) {
 }
 ```
 
-## 使用应用程序中的自定义数据扩充移动用户档案 {#enrich-mobile-profile-custom}
+## 使用您應用程式的自訂資料擴充行動設定檔 {#enrich-mobile-profile-custom}
 
-要使此用例正常工作，您需要为PII回发创建规则。 有关更多信息，请参阅 [PII回发](../../administration/using/configuring-rules-launch.md#pii-postback).
+為了讓此使用案例發揮作用，您需要為PII回傳建立規則。 如需詳細資訊，請參閱 [PII回傳](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 ### 使用iOS {#enrich-mobile-profile-custom-ios}
 
-在iOS中， [!DNL Experience Platform API] 是必需的：
+在iOS中，有下列專案 [!DNL Experience Platform API] 必填：
 
-* collectPII <br> 有关更多信息，请参阅collectPII 。
+* collectPII <br> 如需詳細資訊，請參閱collectPII。
 
-以下是此用例在iOS中的实施示例：
+以下是此使用案例與iOS的範例實作：
 
 ```
 ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName, "lastName":lastName])
@@ -157,11 +157,11 @@ ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName,
 
 ### 使用Android {#enrich-mobile-profile-custom-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform API] 是必需的：
+在Android中，下列專案 [!DNL Experience Platform API] 必填：
 
-* collectPII <br> 有关更多信息，请参阅collectPII 。
+* collectPII <br> 如需詳細資訊，請參閱collectPII。
 
-以下是Android中此用例的实施示例：
+以下是Android此使用案例的範例實作：
 
 ```
 HashMap<String, String> data = new HashMap<>();
@@ -172,24 +172,24 @@ data.put("email", emailText);
 MobileCore.collectPii(data);
 ```
 
-## 使用应用程序中的生命周期数据扩充移动用户档案 {#enrich-mobile-profile-lifecycle}
+## 使用您應用程式的生命週期資料豐富行動設定檔 {#enrich-mobile-profile-lifecycle}
 
-要使此用例正常工作，您需要为PII回发创建规则。 有关更多信息，请参阅 [PII回发](../../administration/using/configuring-rules-launch.md#pii-postback).
+為了讓此使用案例發揮作用，您需要為PII回傳建立規則。 如需詳細資訊，請參閱 [PII回傳](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 >[!NOTE]
 >
->Adobe Campaign不会将自定义数据或生命周期数据与移动设备应用程序区分开。 这两种类型的数据都可以使用collectPii回发规则发送到服务器，以响应移动设备应用程序中的事件。
+>Adobe Campaign不會將自訂資料或生命週期資料與行動應用程式區分開來。 這兩種型別的資料都可使用collectPii回傳規則傳送至伺服器，以回應行動應用程式中的事件。
 
 ### 使用iOS {#enrich-mobile-profile-lifecycle-ios}
 
-在iOS中， [!DNL Experience Platform APIs] 必需：
+在iOS中，有下列專案 [!DNL Experience Platform APIs] 必填：
 
-* **[!UICONTROL Lifecycle Start]**、应用程序启动时和应用程序处于前台时。
-* **[!UICONTROL Lifecycle Pause]**，当应用程序处于后台时。
+* **[!UICONTROL Lifecycle Start]**，即應用程式啟動時和應用程式處於前景時。
+* **[!UICONTROL Lifecycle Pause]**，當應用程式於背景時。
 
-有关更多信息，请参阅 [iOS中的生命周期扩展](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
+如需詳細資訊，請參閱 [iOS中的生命週期延伸](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
-以下是此用例在iOS中的实施示例：
+以下是此使用案例與iOS的範例實作：
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -225,14 +225,14 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### 使用Android {#enrich-mobile-profile-lifecycle-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform APIs] 必需：
+在Android中，下列專案 [!DNL Experience Platform APIs] 必填：
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-有关更多信息，请参阅 [Android中的生命周期扩展](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
+如需詳細資訊，請參閱 [Android中的生命週期延伸](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
-以下是Android中此用例的实施示例：
+以下是Android此使用案例的範例實作：
 
 ```
 @Override
@@ -251,17 +251,17 @@ public void onResume() {
  }
 ```
 
-## 跟踪用户与推送通知的交互 {#track-user-push}
+## 追蹤使用者與推播通知的互動 {#track-user-push}
 
-您需要为推送通知跟踪回发创建规则。 有关更多信息，请参阅 [推送通知跟踪回发](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
+您需要建立推送通知追蹤回傳的規則。 如需詳細資訊，請參閱 [推播通知追蹤回傳](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
 
 ### 使用iOS {#track-user-push-ios}
 
-在iOS中， [!DNL Experience Platform SDK] 是必需的：
+在iOS中，有下列專案 [!DNL Experience Platform SDK] 必填：
 
-* **[!UICONTROL trackAction]**. 有关更多信息，请参阅 [跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+* **[!UICONTROL trackAction]**. 如需詳細資訊，請參閱 [追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
-以下是此用例在iOS中的实施示例：
+以下是此使用案例與iOS的範例實作：
 
 ```
 let deliveryId = userInfo["_dId"] as? String
@@ -273,12 +273,12 @@ if (deliveryId != nil && broadlogId != nil) {
 
 ### 使用Android {#track-user-push-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform SDK] 是必需的：
+在Android中，下列專案 [!DNL Experience Platform SDK] 必填：
 
 * **[!UICONTROL trackAction]**
-有关更多信息，请参阅 [跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+如需詳細資訊，請參閱 [追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
-以下是Android中此用例的实施示例：
+以下是Android此使用案例的範例實作：
 
 ```
 contextData.put("deliveryId", deliveryId);
@@ -287,15 +287,15 @@ contextData.put("action", "2");
 MobileCore.trackAction("tracking", contextData);
 ```
 
-## 在应用程序中实施自定义事件以触发应用程序内消息 {#custom-event-inapp}
+## 在您的應用程式中實作自訂事件，以觸發應用程式內訊息 {#custom-event-inapp}
 
 ### 使用iOS {#custom-event-inapp-ios}
 
-在iOS中， [!DNL Experience Platform SDK] 是必需的：
+在iOS中，有下列專案 [!DNL Experience Platform SDK] 必填：
 
-* **[!UICONTROL trackAction]**. 有关更多信息，请参阅 [跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+* **[!UICONTROL trackAction]**. 如需詳細資訊，請參閱 [追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
-以下是此用例在iOS中的实施示例：
+以下是此使用案例與iOS的範例實作：
 
 ```
 ACPCore.trackAction(mobileEventName, data: [:] )
@@ -303,29 +303,29 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 
 ### 使用Android {#custom-event-inapp-android}
 
-在Android中，执行以下操作 [!DNL Experience Platform SDK] 是必需的：
+在Android中，下列專案 [!DNL Experience Platform SDK] 必填：
 
 * **[!UICONTROL trackAction]**
-有关更多信息，请参阅 [跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+如需詳細資訊，請參閱 [追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
-以下是Android中此用例的实施示例：
+以下是Android此使用案例的範例實作：
 
 ```
 MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 ```
 
-## 设置用于其他身份验证的链接字段 {#linkage-fields-inapp}
+## 設定連結欄位以進行其他驗證 {#linkage-fields-inapp}
 
 ### 使用iOS {#linkage-fields-inapp-ios}
 
-要为基于iOS中应用程序内消息的用户档案模板设置附加身份验证的链接字段，请执行以下操作 [!DNL Experience Platform SDK] 是必需的：
+若要針對以iOS中的應用程式內訊息為基礎的設定檔範本，設定連結欄位以進行其他驗證，請執行下列動作 [!DNL Experience Platform SDK] 必填：
 
-* 设置链接字段 <br>有关更多信息，请参阅 [设置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
-* 重置链接字段 <br>有关更多信息，请参阅 [重置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* 設定連結欄位 <br>如需詳細資訊，請參閱 [設定連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* 重設連結欄位 <br>如需詳細資訊，請參閱 [重設連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 
-以下是此用例在iOS中的实施示例。
+以下是此使用案例在iOS中的實施範例。
 
-要设置链接字段：
+若要設定連結欄位：
 
 ```
 var linkageFields = [String: String]()
@@ -333,7 +333,7 @@ linkageFields["cusEmail"] = "john.doe@email.com"
 ACPCampaign.setLinkageFields(linkageFields)
 ```
 
-要重置链接字段，请执行以下操作：
+若要重設連結欄位：
 
 ```
 ACPCampaign.resetLinkageFields(linkageFields)
@@ -341,14 +341,14 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### 使用Android {#linkage-fields-inapp-android}
 
-要为基于Android中应用程序内消息的用户档案模板设置其他身份验证的链接字段，需要以下Experience PlatformSDK:
+若要針對以Android應用程式內訊息為基礎之設定檔範本設定連結欄位以進行其他驗證，需要下列Experience PlatformSDK：
 
-* 设置链接字段 <br>有关更多信息，请参阅 [设置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
-* 重置链接字段 <br>有关更多信息，请参阅 [重置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
+* 設定連結欄位 <br>如需詳細資訊，請參閱 [設定連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* 重設連結欄位 <br>如需詳細資訊，請參閱 [重設連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
-以下是Android中此用例的实施示例。
+以下是此使用案例在Android中的實施範例。
 
-要设置链接字段：
+若要設定連結欄位：
 
 ```
 HashMap<String, String> linkageFields = new HashMap<String, String>();
@@ -356,7 +356,7 @@ linkageFields.put("cusEmail", "john.doe@email.com");
 Campaign.setLinkageFields(linkageFields);
 ```
 
-要重置链接字段，请执行以下操作：
+若要重設連結欄位：
 
 ```
 Campaign.resetLinkageFields()

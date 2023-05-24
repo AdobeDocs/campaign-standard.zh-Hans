@@ -1,6 +1,6 @@
 ---
 title: 管理传入的短信
-description: 了解如何在Adobe Campaign中管理停止短信和存储传入短信。
+description: 瞭解如何在Adobe Campaign中管理STOP SMS及儲存傳入的SMS。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
@@ -18,93 +18,93 @@ ht-degree: 2%
 
 # 管理传入的短信{#managing-incoming-sms}
 
-## 管理停止短信 {#managing-stop-sms}
+## 管理停止簡訊 {#managing-stop-sms}
 
-当用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给用户档案的消息以及要执行的操作。
+當設定檔回覆透過Campaign傳送的SMS訊息時，您可以設定自動傳回給他們的訊息，以及要執行的動作。
 
-此配置在 **[!UICONTROL Automatic reply sent to the MO]** 部分 [短信路由外部帐户](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO表示“移动设备源”，这意味着您可以配置对发送短信的移动设备的自动回复。
+此設定在 **[!UICONTROL Automatic reply sent to the MO]** 部分 [SMS路由外部帳戶](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO代表「行動原始」，這表示您可以設定自動回覆給傳送SMS的行動裝置。
 
 为实现此操作，请执行以下步骤：
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration > Application settings > External accounts]** 然后 **[!UICONTROL SMS routing via SMPP]** 外部帐户。
-1. 在 **[!UICONTROL Automatic reply sent to the MO]** 类别，单击 **[!UICONTROL Create element]** 开始配置自动回复。
+1. 從進階功能表中，透過Adobe Campaign標誌選取 **[!UICONTROL Administration > Application settings > External accounts]** 然後 **[!UICONTROL SMS routing via SMPP]** 外部帳戶。
+1. 在 **[!UICONTROL Automatic reply sent to the MO]** 類別，按一下 **[!UICONTROL Create element]** 以開始設定您的自動回覆。
 
    ![](assets/sms_mo_1.png)
 
-1. 选择将触发此自动回复的关键词。 关键词不区分大小写。 例如，在此处，如果收件人发送关键词“STOP”，他们将收到自动回复。
+1. 選擇將觸發此自動回覆的關鍵字。 關鍵字不區分大小寫。 例如，在這裡，如果收件者傳送關鍵字「STOP」，他們將收到自動回覆。
 
-   如果不管关键词是什么，要发送相同的回复，请将此列留空。
+   如果您想要傳送相同的回覆，無論關鍵字為何，請將此欄留空。
 
    >[!IMPORTANT]
    >
-   >仅授权字母数字字符。
+   >僅授權英數字元。
 
    ![](assets/sms_mo_2.png)
 
-1. 在 **[!UICONTROL Short code]** 字段中，指定通常用于发送投放的数字，并将用作发件人名称。 您还可以决定离开 **[!UICONTROL Short code]** 列为空，以发送相同的回复，而不管是什么短代码。
+1. 在 **[!UICONTROL Short code]** 欄位中，指定用來傳送傳遞及當作寄件者名稱的數字。 您也可以決定離開 **[!UICONTROL Short code]** 欄空白，無論簡短的程式碼為何，都可傳送相同的回覆。
 
    ![](assets/sms_mo_4.png)
 
-1. 在字段中键入要发送给收件人的答案 **[!UICONTROL Reply]**.
+1. 在欄位中輸入您要傳送給收件者的答案 **[!UICONTROL Reply]**.
 
-   要在不发送回复的情况下执行操作，请将 **[!UICONTROL Reply]** 列为空。 例如，这允许您从隔离中删除回复了“STOP”以外消息的用户的电话号码。
+   若要在不傳送回覆的情況下執行動作，請將 **[!UICONTROL Reply]** 欄空白。 例如，這可讓您從隔離區中移除回覆「STOP」以外的訊息之使用者的電話號碼。
 
    ![](assets/sms_mo_3.png)
 
-1. 在 **[!UICONTROL Additional action]** 字段中，将操作链接到自动回复：
+1. 在 **[!UICONTROL Additional action]** 欄位，將動作連結至您的自動回覆：
 
-   * 的 **[!UICONTROL Send to quarantine]** 操作会自动隔离用户档案的电话号码。
-   * 的 **[!UICONTROL Remove from quarantine]** 操作会将用户档案电话号码从隔离中删除。
-   * 的 **[!UICONTROL None]** 通过操作，您只能向收件人发送消息，而无需执行操作。
+   * 此 **[!UICONTROL Send to quarantine]** 動作會自動隔離設定檔電話號碼。
+   * 此 **[!UICONTROL Remove from quarantine]** 動作會將設定檔電話號碼從隔離區中移除。
+   * 此 **[!UICONTROL None]** 動作可讓您只傳送訊息給收件者，而不需執行動作。
 
-   例如，在以下配置中，如果收件人发送关键词“STOP”，他们将自动收到退订确认函，其电话号码将随 **[!UICONTROL On denylist]** 状态。 此状态仅指电话号码，其用户档案是为了允许用户继续接收电子邮件。
+   例如，在下列設定中，如果收件者傳送關鍵字「STOP」，他們會自動收到取消訂閱確認，而他們的電話號碼會傳送到隔離區，並附上 **[!UICONTROL On denylist]** 狀態。 此狀態僅適用於電話號碼，而設定檔則可讓使用者繼續接收電子郵件訊息。
 
    ![](assets/sms_mo.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 从 **[!UICONTROL Advanced parameters]** 短信投放 **[!UICONTROL Properties]**，则可以设置 **[!UICONTROL Short code]** 以自动排除选择退出的收件人。 有关此内容的详细信息，请参阅 [此部分](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+1. 從 **[!UICONTROL Advanced parameters]** 您的SMS傳送 **[!UICONTROL Properties]**，您可以設定 **[!UICONTROL Short code]** 以自動排除選擇退出的收件者。 如需詳細資訊，請參閱 [本節](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
-现在，您的收件人可自动退订您的邮件，并通过此自动回复发送到隔离。 隔离的收件人列在 **[!UICONTROL Addresses]** 表可通过 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** 菜单。 有关隔离的更多信息，请参阅此 [部分](../../sending/using/understanding-quarantine-management.md).
+收件者現在可以自動取消訂閱您的訊息，並透過此自動回覆傳送到隔離區。 隔離的收件者會列於 **[!UICONTROL Addresses]** 表格可透過 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** 功能表。 如需隔離的詳細資訊，請參閱此 [區段](../../sending/using/understanding-quarantine-management.md).
 
-如果需要，可以存储这些传入的短信。 有关此内容的更多信息，请参阅此内容 [部分](#storing-incoming-sms).
+如有需要，可儲存這些傳入的SMS。 如需詳細資訊，請參閱此 [區段](#storing-incoming-sms).
 
-## 存储传入短信 {#storing-incoming-sms}
+## 儲存傳入的簡訊 {#storing-incoming-sms}
 
-在 **[!UICONTROL SMS routing via SMPP]** 外部帐户中，您可以选择存储传入消息（例如，当订阅者回复“STOP”短信消息时），以便从收件人列表中删除。
+在 **[!UICONTROL SMS routing via SMPP]** 外部帳戶，您可以選擇儲存傳入訊息，例如，當訂閱者回覆「STOP」簡訊以便從您的收件者清單中移除時。
 
 ![](assets/sms_config_mo_1.png)
 
-通过检查 **[!UICONTROL Store incoming MO in the database]** 在 **[!UICONTROL SMPP channel settings]** 类别中，所有短信都将存储在inSMS表中，并可通过工作流中的查询活动进行检索。
+透過檢查 **[!UICONTROL Store incoming MO in the database]** 在 **[!UICONTROL SMPP channel settings]** 類別中，所有簡訊都會儲存在inSMS表格中，並可透過工作流程中的查詢活動加以擷取。
 
 为实现此操作，请执行以下步骤：
 
-1. 在 **[!UICONTROL SMPP channel settings]** 字段，勾选 **[!UICONTROL Store incoming MO in the database]**.
+1. 在 **[!UICONTROL SMPP channel settings]** 欄位，檢查 **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. 在 **[!UICONTROL Marketing activities]** ，单击 **[!UICONTROL Create]** 然后选择 **[!UICONTROL Workflow]**.
+1. 在 **[!UICONTROL Marketing activities]** 標籤，按一下 **[!UICONTROL Create]** 然後選取 **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
-1. 选择您的工作流类型。
-1. 编辑工作流的属性，然后单击 **[!UICONTROL Create]**. 有关创建工作流的更多信息，请参阅此 [部分](../../automating/using/building-a-workflow.md).
-1. 拖放 **[!UICONTROL Query]** 活动时，双击该活动。
-1. 在 **[!UICONTROL Properties]** ，选择 **[!UICONTROL Incoming SMS (inSMS)]** 在 **[!UICONTROL Resource]** 字段。
+1. 選取您的工作流程型別。
+1. 編輯工作流程的屬性，然後按一下 **[!UICONTROL Create]**. 如需工作流程建立的詳細資訊，請參閱此 [區段](../../automating/using/building-a-workflow.md).
+1. 拖放 **[!UICONTROL Query]** 活動並連按兩下該活動。
+1. 在 **[!UICONTROL Properties]** 索引標籤中，選擇 **[!UICONTROL Incoming SMS (inSMS)]** 在 **[!UICONTROL Resource]** 欄位。
 
    ![](assets/sms_config_mo_4.png)
 
-1. 然后，在 **[!UICONTROL Target]** ，拖放 **[!UICONTROL Incoming SMS attributes]** 规则。
+1. 然後，在 **[!UICONTROL Target]** 標籤，拖放 **[!UICONTROL Incoming SMS attributes]** 規則。
 
    ![](assets/sms_config_mo_5.png)
 
-1. 在此，我们希望定位前一天开始的每个传入消息。 在 **[!UICONTROL Field]** 类别，选择 **[!UICONTROL Creation date (created)]**.
-1. 在 **[!UICONTROL Filter type]**，选择 **[!UICONTROL Relative]** 然后 **[!UICONTROL Level of precision]**，选择 **[!UICONTROL Day]**.
+1. 在此，我們想要鎖定前一天傳入的每封郵件。 在 **[!UICONTROL Field]** 類別，選取 **[!UICONTROL Creation date (created)]**.
+1. 在 **[!UICONTROL Filter type]**，選取 **[!UICONTROL Relative]** 然後進入 **[!UICONTROL Level of precision]**，選擇 **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
 
-1. 然后，您可以选择从今天、前一天或最近几天检索数据。 单击 **[!UICONTROL Confirm]** 配置查询时。
+1. 然後，您可以選擇從今天、前一天或最後幾天擷取資料。 按一下 **[!UICONTROL Confirm]** 設定查詢時。
 
-此查询将根据所选的时间范围检索收到的每条STOP消息。
+此查詢將根據所選的時間範圍擷取收到的每個STOP訊息。
 
-例如，利用活动可构建群体，并更好地个性化投放。
+例如，活動可讓您建立人口族群，並更好地個人化您的傳送。

@@ -34,7 +34,7 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!NOTE]
 >
->您可以在 [本页](../../developing/using/datamodel-introduction.md).
+>您可以在中找到內建資源的資料模型表示 [此頁面](../../developing/using/datamodel-introduction.md).
 
 您还可在对应于所创建资源的屏幕中[配置导航](configuring-the-screen-definition.md)。
 
@@ -42,4 +42,4 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!CAUTION]
 >
->仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，搭配 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。

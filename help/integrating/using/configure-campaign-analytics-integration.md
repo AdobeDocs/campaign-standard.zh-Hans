@@ -1,6 +1,6 @@
 ---
 title: 配置 Campaign-Analytics 集成
-description: 了解如何配置Adobe Analytics集成，以开始衡量电子邮件投放是否成功。
+description: 瞭解如何設定Adobe Analytics整合，以開始衡量電子郵件傳送是否成功。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,38 +17,38 @@ ht-degree: 9%
 
 # 配置 Campaign-Analytics 集成{#configure-campaign-analytics-integration}
 
-此集成允许您将关键绩效指标数据直接从Adobe Campaign共享到Adobe Analytics Standard或Premium。
+此整合可讓您直接從Adobe Campaign將關鍵績效指標資料分享到Adobe Analytics Standard或Premium。
 
-要开始Adobe Campaign Standard与Adobe Analytics之间的集成，您首先需要配置链接到Adobe Analytics的外部帐户。
+若要開始Adobe Campaign Standard與Adobe Analytics之間的整合，您首先需要設定連結至Adobe Analytics的外部帳戶。
 
-外部帐户和技术工作流只能由平台的功能管理员管理。
+外部帳戶和技術工作流程只能由平台的功能管理員管理。
 
-1. 从高级菜单中，通过Adobe Campaign徽标，选择 **[!UICONTROL Administration > Application settings > External accounts]**.
-1. 选择 **[!UICONTROL Share KPIs with Adobe Analytics]** 外部帐户。
+1. 從進階功能表中，透過Adobe Campaign標誌選取 **[!UICONTROL Administration > Application settings > External accounts]**.
+1. 選取 **[!UICONTROL Share KPIs with Adobe Analytics]** 外部帳戶。
 
    ![](assets/analytics_2.png)
 
-1. 指定 **[!UICONTROL Web services user name]** 和 **[!UICONTROL Web services share secret]** 在 **[!UICONTROL Connection]** 字段。
+1. 指定您的 **[!UICONTROL Web services user name]** 和 **[!UICONTROL Web services share secret]** 在 **[!UICONTROL Connection]** 欄位。
 
-   通过选择 **[!UICONTROL Admin > Company settings > Web services]**.
+   您可以選取「 」，在Analytics中找到這些引數 **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. 单击 **[!UICONTROL Refresh report suites]** 按钮。
-1. 在 **[!UICONTROL Analytics default report suite]** 下拉要使用Adobe Analytics数据扩充的Adobe Campaign报表包。
+1. 在 **[!UICONTROL Analytics default report suite]** 下拉式清單，呈現您要以Adobe Campaign資料擴充的Adobe Analytics報表套裝。
 
-   您的外部帐户现已准备就绪，并已与Adobe Analytics关联。 您可以随时通过检查 **[!UICONTROL Enabled]** 框中。
+   您的外部帳戶現已準備就緒，並與Adobe Analytics連結。 您可以隨時將其停用，方法是檢查 **[!UICONTROL Enabled]** 方塊。
 
    ![](assets/analytics.png)
 
-的 **[!UICONTROL Share KPIs with Adobe Analytics]** 技术工作流现在将自动启动，并可通过选择 **[!UICONTROL Administration > Application settings > Workflow]**. 此技术工作流最多可保留6个月的旧广播。 请注意，此工作流是增量式的，将从前一天推送数据。
+此 **[!UICONTROL Share KPIs with Adobe Analytics]** 技術工作流程現在會自動啟動，並可透過選取「 」，從進階功能表進行檢視 **[!UICONTROL Administration > Application settings > Workflow]**. 此技術工作流程最多可保留6個月之前的broadlog。 請注意，此工作流程是漸進式的，將會推送前一天的資料。
 
 ![](assets/analytics_3.png)
 
-您的数据现已在Adobe Analytics中可用。
+您的資料現在可在Adobe Analytics中使用。
 
 **相关主题：**
 
 * [外部帐户](../../administration/using/external-accounts.md)
 * [技术工作流](../../administration/using/technical-workflows.md)
-* [共享KPI以实现集成的Campaign报告](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 视频
+* [共用KPI以整合行銷活動報告](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 視訊

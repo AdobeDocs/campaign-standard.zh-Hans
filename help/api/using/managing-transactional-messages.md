@@ -1,6 +1,6 @@
 ---
 title: 管理事务型消息
-description: 了解如何使用API管理事务型消息。
+description: 瞭解如何使用API管理異動訊息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,42 +17,42 @@ ht-degree: 3%
 
 # 管理事务型消息 {#managing-transactional-messages}
 
-创建并发布事务型事件后，您需要将此事件的触发集成到您的网站中。
+建立並發佈交易式事件後，您需要將此事件的觸發因素整合至您的網站。
 
 >[!NOTE]
 >
->有关事件配置的详细信息，请参阅 [此部分](../../channels/using/configuring-transactional-event.md).
+>事件設定的詳細資訊，請參閱 [本節](../../channels/using/configuring-transactional-event.md).
 
-例如，您希望每当您的一位客户在购买购物车中的产品之前离开您的网站时，都触发“购物车放弃”事件。 要实现此目的，作为Web开发人员，您必须使用REST事务型消息API。
+例如，您想要在客戶購買購物車中的產品之前，於其中一人離開您的網站時觸發「購物車放棄」事件。 若要這麼做，身為網頁開發人員，您必須使用REST異動訊息API。
 
-1. 根据POST方法发送请求，该方法将触发 [发送事务性事件](#sending-a-transactional-event).
-1. 对POST请求的响应包含一个主键，通过该键，您可以通过GET请求发送一个或多个请求。 然后，您便能够 [事件状态](#transactional-event-status).
+1. 根據POST方法傳送要求，這會觸發 [傳送交易式事件](#sending-a-transactional-event).
+1. 對POST要求的回應包含主索引鍵，可讓您透過GET要求傳送一或多個要求。 然後，您就可以取得 [事件狀態](#transactional-event-status).
 
-## 发送事务型事件 {#sending-a-transactional-event}
+## 傳送交易式事件 {#sending-a-transactional-event}
 
-事务性事件通过具有以下URL结构的POST请求发送：
+交易式事件會透過具有下列URL結構的POST請求傳送：
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**:您的个人组织ID。 请参阅[此小节](../../api/using/must-read.md)。
+* **&lt;organization>**：您的個人組織ID。 请参阅[此小节](../../api/using/must-read.md)。
 
-* **&lt;transactionalapi>**:事务型消息API endPoint。
+* **&lt;transactionalapi>**：交易式訊息API端點。
 
-   事务型消息API端点的名称取决于您的实例配置。 它对应于值“mc”后跟您的个人组织ID。 让我们以Geometrixx公司为例，将“geometrixx”作为其组织ID。 在这种情况下，POST请求如下：
+   交易式訊息API端點的名稱取決於您的執行個體設定。 它與值「mc」相對應，後接您的個人組織ID。 以「geometrixx」作為其組織ID的Geometrixx公司為例。 在此情況下，POST要求會如下所示：
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   请注意，事务型消息API端点在API预览期间也可见。
+   請注意，交易式訊息API端點也會在API預覽期間可見。
 
-* **&lt;eventid>**:要发送的事件类型。 此ID在创建事件配置时生成(请参阅 [此部分](../../channels/using/configuring-transactional-event.md#creating-an-event))。
+* **&lt;eventid>**：您要傳送的事件型別。 此ID是在建立事件設定時產生的(請參閱 [本節](../../channels/using/configuring-transactional-event.md#creating-an-event))。
 
-### POST请求标头
+### 請求標頭POST
 
-请求必须包含“Content-Type:application/json”标头。
+請求必須包含「Content-Type： application/json」標頭。
 
-例如，您必须添加一个字符集 **utf-8**. 请注意，此值取决于您所使用的REST应用程序。
+例如，您必須新增字元集 **utf-8**. 請注意，此值取決於您使用的REST應用程式。
 
 ```
 -X POST \
@@ -63,30 +63,30 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 -H 'Content-Length:79' \
 ```
 
-### POST请求正文
+### POST要求內文
 
-事件数据包含在JSONPOST正文中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供了一个请求示例。 请参阅[此小节](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+事件資料包含在JSONPOST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 请参阅[此小节](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
-可以将以下可选参数添加到事件内容中，以管理链接到事件的事务型消息的发送：
+可將下列選用引數新增至事件內容，以管理連結至事件的異動訊息的傳送：
 
-* **过期** （可选）：在此日期之后，将取消事务性事件的发送。
-* **计划** （可选）：从此日期开始，将处理事务型事件并发送事务型消息。
+* **有效期** （選用）：在此日期之後，交易式事件的傳送將會取消。
+* **已排程** （選用）：從此日期起，將處理交易式事件並傳送交易式訊息。
 
 >[!NOTE]
 >
->“到期”和“计划”参数的值遵循ISO 8601格式。 ISO 8601指定使用大写字母“T”来分隔日期和时间。 但是，可以从输入或输出中删除它，以便更好地阅读。
+>「expiration」和「scheduled」引數的值遵循ISO 8601格式。 ISO 8601指定使用大寫字母「T」來分隔日期和時間。 不過，您可以從輸入或輸出中移除該區段，以提升可讀性。
 
-### 响应POST请求
+### 回應POST要求
 
-POST响应会返回创建事务型事件时的事务型事件状态。 要检索其当前状态（事件数据、事件状态……），请在GET请求中使用POST响应返回的主键：
+POST回應會傳回建立交易式事件時的狀態。 若要擷取其目前狀態（事件資料、事件狀態……），請在GET要求中使用POST回應傳回的主索引鍵：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
 <br/>
 
-***示例请求***
+***範例請求***
 
-POST发送事件的请求。
+傳送事件的POST要求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -109,7 +109,7 @@ POST发送事件的请求。
 }
 ```
 
-响应POST请求。
+對POST要求的回應。
 
 ```
 {
@@ -130,16 +130,16 @@ POST发送事件的请求。
 }
 ```
 
-### 事务性事件状态 {#transactional-event-status}
+### 異動事件狀態 {#transactional-event-status}
 
-在响应中，“状态”字段允许您知道事件是否已处理：
+在回應中，「狀態」欄位可讓您知道事件是否已處理：
 
-* **待定**:事件处于待处理状态 — 事件在刚触发时会启用此状态。
-* **处理**:事件处于待投放状态 — 它将转换为消息并发送消息。
-* **暂停**:事件进程正在暂停。 系统将不再处理该数据，而是将其保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
-* **已处理**:已处理事件并成功发送消息。
-* **忽略**:投放会忽略该事件，通常是在地址处于隔离状态时。
-* **deliveryFailed**:处理事件时发生投放错误。
-* **routingFailed**:路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生这种情况。
-* **tooOld**:该事件在能够处理之前过期 — 这可能由于各种原因而发生，例如，发送失败多次（这会导致事件不再为最新状态）或服务器在过载后无法再处理事件。
-* **targetingFailed**:Campaign Standard未能扩充用于消息定位的链接。
+* **擱置中**：事件擱置中 — 事件會在剛剛觸發時採取此狀態。
+* **處理**：事件正在等候傳遞 — 正在轉換為訊息，且正在傳送訊息。
+* **已暫停**：事件程式已暫停。 它不再處理，而是保留在Adobe Campaign資料庫的佇列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **已處理**：事件已處理且訊息已成功傳送。
+* **已忽略**：傳送已忽略事件，通常是在地址處於隔離狀態時。
+* **deliveryFailed**：處理事件時發生傳送錯誤。
+* **routingFailed**：路由階段失敗 — 例如，當找不到指定的事件型別時，可能會發生此情況。
+* **tooOld**：事件在能夠處理之前過期 — 這可能由於各種原因而發生，例如，傳送多次失敗（這會導致事件不再最新）或伺服器在超載後無法再處理事件。
+* **目標定位失敗**：Campaign Standard無法擴充用於訊息目標定位的連結。

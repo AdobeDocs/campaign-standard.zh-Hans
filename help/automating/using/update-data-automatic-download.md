@@ -1,6 +1,6 @@
 ---
 title: 根据自动文件下载更新数据
-description: '下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。 '
+description: 下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -24,11 +24,11 @@ ht-degree: 79%
 
 ![](assets/load_file_workflow_ex1.png)
 
-要构建工作流，请执行以下步骤：
+若要建立工作流程，請遵循下列步驟：
 
 1. 将[传输文件](../../automating/using/transfer-file.md)活动拖放到工作流中。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 通过某种方式配置活动，以取回您想要的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
+1. 以某種方式設定活動，以便它可以復原您想要的檔案。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
 1. 选择 **Use connection parameters defined in an external account** 选项。
 1. 输入外部帐户的名称。
 1. 输入&#x200B;**远程服务器上的文件路径**。
@@ -36,13 +36,13 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. 确认您的活动。
-1. 拖放 [加载文件](../../automating/using/load-file.md) 活动，并将其放在 **[!UICONTROL Transfer file]** 活动。
+1. 拖放 [載入檔案](../../automating/using/load-file.md) 活動放入您的工作流程中，並將其放在 **[!UICONTROL Transfer file]** 活動。
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在 **[!UICONTROL File to load]** 选项卡的 **[!UICONTROL Execution]** 中，勾选 **[!UICONTROL Use the file specified in the inbound transition]** 选项。
 
    ![](assets/wkf_file_loading8.png)
 
 1. 按照之前指定的方式配置活动。
-1. 拖放 [更新数据](../../automating/using/update-data.md) 活动，并将其放在 **[!UICONTROL Load file]** 活动，然后对其进行配置。
+1. 拖放 [更新資料](../../automating/using/update-data.md) 活動放入您的工作流程中，並將其放在 **[!UICONTROL Load file]** 活動，然後進行設定。
 
 启动工作流后，将提取来自上传文件的数据，然后将其用于扩充 Adobe Campaign 数据库。

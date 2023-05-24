@@ -1,6 +1,6 @@
 ---
 title: 耦合电子邮件和直邮投放
-description: 此用例展示了从工作流发送电子邮件和直邮发送的示例。
+description: 此使用案例提供從工作流程傳送電子郵件和直接郵件的範例。
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -32,5 +32,5 @@ ht-degree: 84%
 
 **相关主题：**
 
-* [直邮投放活动](../../automating/using/direct-mail-delivery.md)
+* [直接郵件傳遞活動](../../automating/using/direct-mail-delivery.md)
 * [关于直邮](../../channels/using/about-direct-mail.md)

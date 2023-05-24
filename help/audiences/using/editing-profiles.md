@@ -1,6 +1,6 @@
 ---
 title: 编辑用户档案
-description: 了解如何编辑现有用户档案并访问联系信息、首选渠道、跟踪日志、订阅等。
+description: 瞭解如何編輯現有設定檔並存取聯絡資訊、偏好的管道、追蹤記錄、訂閱等。
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -17,50 +17,50 @@ ht-degree: 12%
 
 # 编辑用户档案{#editing-profiles}
 
-## 访问配置文件属性 {#accessing-profile-properties}
+## 存取設定檔屬性 {#accessing-profile-properties}
 
-要编辑现有配置文件并查阅与其关联的数据，或对其进行修改，请执行以下步骤：
+若要編輯現有設定檔並查閱與其相關的資料，或修改該設定檔，步驟如下：
 
 1. 在 Adobe Campaign 主页中，单击 **[!UICONTROL Customer profiles]** 卡或 **[!UICONTROL Profiles]** 选项卡。
 1. 选择联系人。
-1. 单击 **[!UICONTROL Edit profile properties]** 图标以访问用户档案的详细信息。
+1. 按一下 **[!UICONTROL Edit profile properties]** 圖示來存取設定檔的詳細資訊。
 
    ![](assets/profile_creation2.png)
 
-   配置文件的“属性”窗口提供了多个选项卡，用于访问所有配置文件信息。
+   設定檔的屬性視窗提供數個標籤，可讓您存取所有設定檔資訊。
 
-   根据在Adobe Campaign中创建或扩展的自定义资源，可能还会显示其他选项卡。 有关自定义资源的更多信息，请参阅 [关于自定义资源](../../developing/using/data-model-concepts.md).
+   其他標籤也會根據Adobe Campaign中建立或擴充的自訂資源而顯示。 如需自訂資源的詳細資訊，請參閱 [關於自訂資源](../../developing/using/data-model-concepts.md).
 
    >[!NOTE]
    >
-   >您只能修改 **[!UICONTROL General]** 选项卡 — 除 **[!UICONTROL Traceability]** 中。
+   >您只能修改 **[!UICONTROL General]** 標籤 — 除了 **[!UICONTROL Traceability]** 區段。
 
-也可以使用Adobe Campaign Standard API编辑用户档案。 有关更多信息，请参阅[专用文档](../../api/using/updating-profiles.md)。
+您也可以使用Adobe Campaign Standard API編輯設定檔。 有关更多信息，请参阅[专用文档](../../api/using/updating-profiles.md)。
 
 相关主题：
 
 * [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
-* [按收件人的时区发送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [在收件者的時區傳送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## 一般用户档案数据 {#general-profile-data}
+## 一般設定檔資料 {#general-profile-data}
 
-的 **[!UICONTROL General]** 选项卡对有关用户档案的以下信息进行分组：
+此 **[!UICONTROL General]** 索引標籤會將有關設定檔的下列資訊分組：
 
-* 联系信息，其中包含收件人的名字、姓氏、出生日期、照片、首选语言(对于 [多语言电子邮件](../../channels/using/creating-a-multilingual-email.md))等。
-* 可以联系用户档案的渠道，其中包含收件人的电子邮件地址、手机号码和选择退出信息。
-* 邮政地址( [直邮](../../channels/using/about-direct-mail.md))和联系人的时区( [在时区中计划消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md))。
-* 访问授权，指示收件人的组织单位( [管理权限](../../administration/using/about-access-management.md))。 另请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
+* 連絡資訊，包含收件者的名字、姓氏、出生日期、像片、慣用語言(適用於 [多語言電子郵件](../../channels/using/creating-a-multilingual-email.md))等。
+* 可連絡設定檔的頻道，包含收件者的電子郵件地址、行動電話號碼、選擇退出資訊。
+* 郵寄地址(適用於 [直接郵件](../../channels/using/about-direct-mail.md))，以及連絡人的時區(至 [以時區排程訊息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md))。
+* 存取授權，可指出收件者的組織單位(至 [管理許可權](../../administration/using/about-access-management.md))。 另请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
 
 ![](assets/profile_creation4.png)
 
-## 发送和跟踪日志 {#sending-and-tracking-logs}
+## 傳送和追蹤記錄 {#sending-and-tracking-logs}
 
-的 **[!UICONTROL Sending logs]** 和 **[!UICONTROL Tracking logs]** 选项卡可将发送到用户档案的投放列表以及所有相关跟踪数据分组。
+此 **[!UICONTROL Sending logs]** 和 **[!UICONTROL Tracking logs]** 索引標籤會將傳送到設定檔的傳遞清單以及所有相關追蹤資料分組。
 
-有关发送和跟踪日志的更多信息，请参阅 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs) 和 [跟踪消息](../../sending/using/tracking-messages.md) 中。
+如需傳送和追蹤記錄的詳細資訊，請參閱 [傳遞記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs) 和 [追蹤訊息](../../sending/using/tracking-messages.md) 區段。
 
 ## 订阅 {#subscriptions}
 
-联系人的订阅列在相应的选项卡中。 有关订阅服务的更多信息，请参阅 [此部分](../../audiences/using/about-subscriptions.md).
+聯絡人的訂閱會列在對應索引標籤中。 如需訂閱服務的詳細資訊，請參閱 [本節](../../audiences/using/about-subscriptions.md).
 
-的 **[!UICONTROL Mobile App Subscriptions]** 选项卡，请参阅推送通知。 有关更多信息，请参阅 [推送通知](../../channels/using/about-push-notifications.md) 渠道。
+此 **[!UICONTROL Mobile App Subscriptions]** 索引標籤參考推播通知。 如需詳細資訊，請參閱 [推播通知](../../channels/using/about-push-notifications.md) 頻道。

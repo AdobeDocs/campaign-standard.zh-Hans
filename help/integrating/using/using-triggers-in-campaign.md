@@ -1,6 +1,6 @@
 ---
 title: 在 Campaign 中使用触发器
-description: 在Adobe Campaign中基于现有的Adobe Experience Cloud触发器创建触发器事件。
+description: 根據現有的Adobe Experience Cloud觸發程式，在Adobe Campaign中建立觸發程式事件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->要创建触发器，您需要 **[!UICONTROL Administration]** 角色或要加入 **[!UICONTROL Administrators]** 安全组。 有关此内容的更多信息，请参阅此内容 [页面](../../administration/using/list-of-roles.md).
+>若要建立觸發程式，您需要 **[!UICONTROL Administration]** 角色或將位於 **[!UICONTROL Administrators]** 安全性群組。 如需詳細資訊，請參閱此 [頁面](../../administration/using/list-of-roles.md).
 
 您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
@@ -31,7 +31,7 @@ ht-degree: 79%
 
 要实现此功能，需要完成以下步骤：
 
-1. 单击 **Adobe** 徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -49,21 +49,21 @@ ht-degree: 79%
 
    ![](assets/remarketing_4.png)
 
-1. 您现在可以发布触发器。 有关更多信息，请参阅 [在Campaign中发布触发器](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. 您現在可以發佈觸發程式。 有關詳細資訊，請參閱 [在Campaign中發佈觸發程式](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## 在Campaign中发布触发器 {#publishing-trigger-in-campaign}
+## 在Campaign中發佈觸發程式 {#publishing-trigger-in-campaign}
 
-在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发器事件后，您现在需要发布该事件。
+根據現有Adobe Experience Cloud觸發程式在Adobe Campaign中建立觸發程式事件後，您現在需要發佈該事件。
 
-1. 从您之前创建的触发器中，单击 **[!UICONTROL Publish]** 按钮以开始发布触发器事件。
+1. 從您先前建立的觸發程式，按一下 **[!UICONTROL Publish]** 按鈕以開始發佈觸發程式事件。
 
    ![](assets/trigger_publish_1.png)
 
-1. 您可以在 **[!UICONTROL Publication]**.
+1. 您可以在下方檢查觸發程式發佈的進度 **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. 发布完成后， **[!UICONTROL Publication]**.
+1. 發佈完成後，下列訊息將會顯示在 **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -73,7 +73,7 @@ ht-degree: 79%
 
    ![](assets/trigger_publish_4.png)
 
-1. 单击 **[!UICONTROL Show Trigger in Experience Cloud]** 按钮，可在Adobe Experience Cloud中查看触发器定义。
+1. 按一下 **[!UICONTROL Show Trigger in Experience Cloud]** 按鈕可讓您在Adobe Experience Cloud中檢視觸發程式定義。
 
 发布事件后，将自动创建链接到新事件的事务型模板。然后，您必须修改并发布之前创建的模板。有关更多信息，请参阅[编辑模板](../../start/using/marketing-activity-templates.md)一节。
 
@@ -81,7 +81,7 @@ ht-degree: 79%
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
-为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关更多信息，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md) 中。
+为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。如需詳細資訊，請參閱 [編輯交易式訊息](../../channels/using/editing-transactional-message.md) 區段。
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: 执行命令
-description: 了解如何使用工作流执行命令。
+description: 瞭解如何使用工作流程執行命令。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -12,56 +12,56 @@ exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 执行命令 {#execution-commands}
 
-利用操作栏中的图标，可启动、跟踪和修改工作流的执行。 请参阅 [操作栏](../../automating/using/workflow-interface.md#action-bar).
+動作列中的圖示可讓您啟動、追蹤及修改工作流程的執行。 另請參閱 [動作列](../../automating/using/workflow-interface.md#action-bar).
 
 ![](assets/wkf_execution_2.png)
 
-可用的操作如下：
+可用的動作如下：
 
 **开始**
 
-的 ![](assets/play_darkgrey-24px.png) 按钮开始执行工作流，然后执行该工作流 **正在进行** （蓝色）状态。 如果暂停了工作流，则会恢复该工作流，否则会启动该工作流，然后激活初始活动。
+此 ![](assets/play_darkgrey-24px.png) 按鈕會開始執行工作流程，然後進行 **進行中** （藍色）狀態。 如果工作流程已暫停，則會繼續進行，否則會啟動工作流程並啟動初始活動。
 
 >[!NOTE]
 >
->启动是一个异步过程：请求已保存，工作流执行引擎会尽快处理该请求。
+>啟動為非同步流程：系統會儲存請求，並儘快由工作流程執行引擎處理。
 
 **暂停**
 
-的 ![](assets/pause_darkgrey-24px.png) 按钮会暂停执行。 该工作流会执行 **警告** （黄色）状态。 在恢复之前不会激活任何新活动，但正在进行的操作不会暂停。
+此 ![](assets/pause_darkgrey-24px.png) 按鈕會暫停執行。 工作流程會採用 **警告** （黃色）狀態。 在繼續之前，不會啟用任何新活動，但不會暫停進行中的作業。
 
 **停止**
 
-的 ![](assets/stop_darkgrey-24px.png) 按钮可停止正在执行的工作流，该工作流随后将执行 **已完成** （绿色）状态。 正在进行的操作会在可能时中断，并且正在进行的导入或SQL查询会立即取消。 您无法从停止工作流的同一位置恢复工作流。
+此 ![](assets/stop_darkgrey-24px.png) 按鈕會停止正在執行的工作流程，而接著工作流程會在 **已完成** （綠色）狀態。 如果可能的話，進行中的作業會中斷，而且會立即取消匯入或進行中的SQL查詢。 您無法從工作流程停止的相同位置繼續。
 
 **重新启动**
 
-的 ![](assets/pauseplay_darkgrey-24px.png) 按钮，然后重新启动工作流。 在大多数情况下，这允许您更快地重新启动。 在停止后自动重新启动也会非常有用，因为 ![](assets/play_darkgrey-24px.png) 按钮仅在停止有效时可用。
+此 ![](assets/pauseplay_darkgrey-24px.png) 按鈕涉及停止，然後重新啟動工作流程。 在大多數情況下，這可讓您更快速地重新啟動。 一旦停止需要一定的時間，自動重新啟動也會很有用，因為 ![](assets/play_darkgrey-24px.png) 僅當停止生效時，按鈕才可用。
 
-选择工作流中的一个或多个活动后，您可以执行其他一些操作，例如：
+在工作流程中選取一或多個活動時，您可以執行其他動作，例如：
 
-**立即执行**
+**立即執行**
 
-的 ![](assets/pending_darkgrey-24px.png) 按钮会尽快启动所有选定的待处理活动。
+此 ![](assets/pending_darkgrey-24px.png) 按鈕會儘快啟動任何選取的待定活動。
 
-**正常执行**
+**一般执行**
 
-的 ![](assets/check_darkgrey-24px.png) 按钮可重新激活任何已暂停或已停用的活动。
+此 ![](assets/check_darkgrey-24px.png) button會重新啟用任何暫停或已停用的活動。
 
-**已暂停执行**
+**執行已暫停**
 
-的 ![](assets/check_pause_darkgrey-24px.png) 按钮会在选定的活动中暂停工作流：不会执行此任务及其后所有任务（在同一分支中）。
+此 ![](assets/check_pause_darkgrey-24px.png) 按鈕會在選取的活動中暫停工作流程：此任務及其後面的所有任務（在相同分支中）都不會執行。
 
-**不执行**
+**無執行**
 
-的 ![](assets/checkdisable.png) 按钮可停用任何选定的活动。
+此 ![](assets/checkdisable.png) 按鈕會停用任何選取的活動。
 
 >[!NOTE]
 >
->快速操作允许您访问与某个特定活动有关的不同操作，并在选择活动时显示该操作。
+>快速動作可讓您存取與某個特定活動相關的不同動作，並在選取活動時顯示。

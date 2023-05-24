@@ -1,10 +1,10 @@
 ---
-title: 优化消息投放
+title: 最佳化訊息傳送
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 了解如何保护和优化上游发送流程。
+description: 瞭解如何確保上游傳送流程的安全及最佳化。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,64 +18,64 @@ ht-degree: 8%
 
 # 优化投放 {#optimize-delivery}
 
-在开始创建投放之前，您可以采取多项操作来保护和优化上游发送流程。
+在開始建立傳遞之前，您可以採取數個動作來保護上游的傳送流程並加以最佳化。
 
-以下部分概述了最佳配置Adobe Campaign的最佳实践和建议步骤。 遵循这些做法将最大限度地减少您在下游可能遇到的问题。
+以下章節概述Adobe Campaign最佳設定的最佳實務和建議程式。 遵循這些實務將最大程度減少您可能在下游遇到的問題。
 
-## 平台性能
+## 平台效能
 
-以下几个因素可能会直接影响服务器性能并降低平台速度：
+有幾個因素會直接影響伺服器效能並拖慢平台速度：
 
-* 个性化元素的数量和类型：电子邮件中的个性化会从数据库中提取每个收件人的数据。 如果存在多个个性化元素，则会增加准备投放所需的数据量。  在中了解有关电子邮件个性化的更多信息 [此部分](../../designing/using/personalization.md)
+* 個人化元素的數量和型別：電子郵件中的個人化會從資料庫中取出每個收件者的資料。 如果有許多個人化元素，這會增加準備傳送所需的資料量。  進一步瞭解中的電子郵件個人化 [本節](../../designing/using/personalization.md)
 
-* 服务器负载：当Campaign同时处理多个不同的任务时，可能会降低性能。 服务器需要协调所有投放的所有传入和传出数据，以确保数据准确无误。
+* 伺服器載入：當Campaign同時處理許多不同任務時，可能會減慢效能。 伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 
-   **笔尖**  — 为避免这种情况，请与团队的其他成员协调投放计划，以确保获得最佳性能。
+   **秘訣**  — 為避免此問題，請與團隊其他成員協調傳送排程，以確保最佳效能。
 
-* 的 [工作流执行](../../automating/using/about-workflow-execution.md):监控工作流对于避免平台性能问题至关重要。 遵循所列准则 [本页](../../automating/using/monitoring-workflow-execution.md). 在 [工作流最佳实践](../../automating/using/best-practices-workflows.md) 中。
+* 此 [工作流程執行](../../automating/using/about-workflow-execution.md)：監控您的工作流程對於避免平台效能問題至關重要。 遵循列出的准則 [在此頁面中](../../automating/using/monitoring-workflow-execution.md). 進一步瞭解 [工作流程最佳實務](../../automating/using/best-practices-workflows.md) 區段。
 
-* 您可以利用 [Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans) 监视您的平台，使用 [性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans) 功能。
+* 您可以善用 [Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans) 若要監視您的平台，請使用 [效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans) 功能。
 
-## 检查网络配置 {#network-config}
+## 正在檢查網路設定 {#network-config}
 
-要在处理大量电子邮件时优化投放，并避免被误认为是垃圾邮件发送者，请确保您具有不会尝试隐藏服务器身份的合法网络配置。
+若要在處理大量電子郵件時最佳化傳遞，並避免誤認為垃圾訊息傳送者，請確定您有合法的網路設定，不會嘗試隱藏伺服器的身分。
 
-**笔尖**:使用与您的品牌网站对应的透明发件人地址。 例如，旅行社公司管理着华伦天奴连锁酒店。 它拥有其网站的valentino.com域。 为推广巴黎的华伦天奴酒店，它使用paris.valentino.com子域。 因此，相关发件人地址可以是hotel@paris.valentino.com。
+**秘訣**：使用與您品牌網站對應的透明寄件者地址。 例如，TravelAgency公司管理Valentino連鎖飯店。 其擁有其網站的valentino.com網域。 為了推廣巴黎的Valentino飯店，它使用paris.valentino.com子網域。 因此，相關寄件者地址可以是hotel@paris.valentino.com。
 
 ## 可投放性管理 {#deliverability-management}
 
-要访问收件人的收件箱而不会弹出或标记为垃圾邮件，您需要提高邮件的投放率。
+若要在不退回或標籤為垃圾訊息的情況下到達收件者的收件匣，您需要改善訊息的可傳遞率。
 
 * 什么是可投放性?
 
-   * 它是指决定收件人服务器是否能够接受电子邮件的因素。 ISP（互联网服务提供商）会过滤掉其识别为SPAM的电子邮件，或阻止下载图像。 如果他们确定某个域发送的电子邮件过多，则会对从该发件人接收的电子邮件数量设置限制。
+   * 它是指決定電子郵件被收件者伺服器接受能力的因素。 ISP （網際網路服務提供者）會篩選掉他們識別為垃圾郵件的電子郵件，或封鎖影像的下載。 如果他們判斷某個網域傳送的電子郵件數量過多，就會設定他們可接受該寄件者的電子郵件數量限制。
 
-   * 检查电子邮件的投放能力时，您希望重点关注四个主要类别：数据质量、消息和内容、发送基础结构和信誉。 有关此主题的更深入分析，请参阅 [此部分](../../sending/using/about-deliverability.md).
+   * 檢查電子郵件的傳遞能力時，您想要專注於四個主要類別：資料品質、訊息和內容、傳送基礎結構和信譽。 如需有關本主題的更深入探討，請參閱 [本節](../../sending/using/about-deliverability.md).
 
-* 启动新平台时，请应用 [本页](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* 啟動新平台時，套用詳細建議於 [此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
-* 请联系您的Adobe代表以获取帮助。
+* 請聯絡您的Adobe代表以尋求協助。
 
-## 隔离管理 {#quarantine-management}
+## 隔離管理 {#quarantine-management}
 
-保持良好的隔离管理流程符合您的最佳利益。
+保持良好的隔離管理流程符合您的最佳利益。
 
-开始在新平台上发送电子邮件时，您可以使用未完全限定的地址列表。 如果您将发送到无效地址或蜜罐地址（邮箱仅用于欺骗垃圾邮件发送者），这将开始削弱您平台的声誉。 良好的隔离管理流程有助于：保持地址质量，避阻止列表免Internet访问提供商的，并降低错误率，从而加快投放和吞吐量。
+開始在新平台上傳送電子郵件時，您可能會使用未完全合格的地址清單。 如果您傳送至無效的位址或蜜罐位址（建立信箱只是為了欺騙垃圾郵件傳送者），這將開始降低您平台的聲譽。 良好的隔離管理流程有助於：維持地址品質、避免網際網路存取提供者列入封鎖清單、降低錯誤率、加快傳送速度及輸送量。
 
 **提示**
 
-* 在投放分析期间，默认情况下会将地址被隔离的收件人排除在外：它们不是目标。 这样可加快投放速度，因为错误率对投放速度有显著的影响。例如，当收件箱已满或地址不存在时，可以隔离某个电子邮件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳遞分析期間，預設會排除其地址被隔離的收件者：他們不會成為目標。 这样可加快投放速度，因为错误率对投放速度有显著的影响。例如，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
-* Adobe Campaign会根据返回的错误类型管理错误地址。 如需详细信息，请参阅[此部分](../../sending/using/understanding-quarantine-management.md)。
+* Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 如需详细信息，请参阅[此部分](../../sending/using/understanding-quarantine-management.md)。
 
-* 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提阻止列表供商添加到。
+* 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔離可讓您避免被這些提供者新增至封鎖清單。
 
-* 隔离管理还可通过将错误电话号码排除在投放之外，帮助降低短信发送成本。
+* 隔離管理也將透過將錯誤的電話號碼排除在傳送之外來幫助降低簡訊傳送成本。
 
-## 双重选择加入机制 {#double-opt-in}
+## 雙重加入機制 {#double-opt-in}
 
-为避免向无效地址发送消息、限制不当通信并提高发件人信誉，Adobe建议实施双重选择加入机制以进行订阅后确认。 这有助于确保收件人有意订阅。
+為避免將訊息傳送至無效地址、限制不當通訊並改善寄件者信譽，Adobe建議對訂閱後確認實作雙重選擇加入機制。 這有助於確保收件者有意訂閱。
 
-有关实施此机制的详细信息，请参阅 [此部分](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+實施此機制的詳細資訊概述於 [本節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-在 [用户档案和受众快速入门](../../audiences/using/get-started-profiles-and-audiences.md).
+進一步瞭解 [開始使用設定檔和對象](../../audiences/using/get-started-profiles-and-audiences.md).

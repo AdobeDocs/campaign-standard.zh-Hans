@@ -1,6 +1,6 @@
 ---
 title: 应用程序内报告
-description: 通过应用程序内即装即用报表，了解您的应用程序内消息是否成功。
+description: 透過應用程式內現成可用的報告，瞭解您的應用程式內訊息是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -19,28 +19,28 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->请注意，您必须将 **[!UICONTROL Message type]** 量度，以根据投放类型（本例中为应用程序内投放）拆分数据。
+>請注意，您必須拖放 **[!UICONTROL Message type]** 量度來分割資料，以依據您的傳送型別，在此例中是應用程式內傳送。
 
-的 **应用程序内** 报表提供与应用程序内投放相关的详细信息。
+此 **應用程式內** 報表會提供與應用程式內傳遞相關的詳細資訊。
 
-每个表都由概要数字和图表表示。 您可以更改详细信息在各自的可视化设置中的显示方式。
+每個表格都以摘要數字和圖表表示。 您可以變更詳細資訊在其各自視覺效果設定中的顯示方式。
 
 ![](assets/inapp_report.png)
 
-第一个表 **应用程序内参与度摘要** 分为三类：按日、按移动应用程序和按投放。 它包含接收人对投放的反应的可用数据：
+第一個表格 **應用程式內參與摘要** 分為三種類別：依日、依行動應用程式及依傳送。 它包含可用於收件者對傳遞的反應性的資料：
 
-* **[!UICONTROL Processed/sent]**:应用程序内投放的发送总数。
-* **[!UICONTROL Delivered]**:已成功发送的应用程序内消息数量，与已发送消息的总数有关。
-* **[!UICONTROL Impressions]**:收件人查看的应用程序内消息总数，具体取决于是否满足触发器标准。
-* **[!UICONTROL Unique impressions]**:收件人的展示次数。
-* **[!UICONTROL In-App click through rate]**:单击按钮1或按钮2的用户与查看消息的用户的百分比。
-* **[!UICONTROL In-App dismissal rate]**:收件人取消的应用程序内消息的百分比。
+* **[!UICONTROL Processed/sent]**：應用程式內傳送的傳送總數。
+* **[!UICONTROL Delivered]**：成功傳送的應用程式內訊息數（相對於已傳送訊息總數）。
+* **[!UICONTROL Impressions]**：收件者檢視的應用程式內訊息總數，端視是否符合觸發條件而定。
+* **[!UICONTROL Unique impressions]**：收件者的曝光次數。
+* **[!UICONTROL In-App click through rate]**：與看到訊息的使用者相比，按一下「按鈕1」或「按鈕2」的使用者百分比。
+* **[!UICONTROL In-App dismissal rate]**：收件者已解除的應用程式內訊息百分比。
 
 ![](assets/inapp_report_1.png)
 
-第二张表 **应用程序内点击和解除** 分为三类：按日、按移动应用程序和按投放。 其中包含每个投放的收件人行为的可用数据：
+第二個表格 **應用程式內點按與解除** 分為三種類別：依日、依行動應用程式及依傳送。 其中包含可用於每次傳遞的收件者行為資料：
 
-* **[!UICONTROL In-App clicks]**:单击按钮1或按钮2的收件人总数。
-* **[!UICONTROL Unique In-App clicks]**:收件人单击按钮1或按钮2的次数。
-* **[!UICONTROL In-App dismissal]**:通过单击关闭按钮或自动关闭收件人已忽略的消息总数。
-* **[!UICONTROL Unique In-App dismissal]**:收件人取消应用程序内消息的次数。
+* **[!UICONTROL In-App clicks]**：按一下「按鈕1」或「按鈕2」的收件者總數。
+* **[!UICONTROL Unique In-App clicks]**：收件者點選按鈕1或按鈕2的次數。
+* **[!UICONTROL In-App dismissal]**：收件者按一下關閉按鈕或自動解除所解除的訊息總數。
+* **[!UICONTROL Unique In-App dismissal]**：收件者解除應用程式內訊息的次數。

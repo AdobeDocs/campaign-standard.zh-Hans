@@ -1,6 +1,6 @@
 ---
 title: 监视事件变量
-description: 本节详细介绍如何使用外部参数调用工作流。
+description: 本節詳細說明如何使用外部引數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,13 +17,13 @@ ht-degree: 17%
 
 # 监视事件变量 {#monitoring-the-events-variables}
 
-可以监控工作流中可用的事件变量，包括声明的外部参数。 为此请执行以下操作步骤：
+您可以監視工作流程中可用的事件變數，包括宣告的外部引數。 为此请执行以下操作步骤：
 
-1. 选择跟随的活动 **[!UICONTROL External signal]** 活动，然后单击 **[!UICONTROL Log and tasks]** 按钮。
-1. 在 **[!UICONTROL Tasks]** ，单击 ![](assets/edit_darkgrey-24px.png) 按钮。
+1. 選取遵循的活動 **[!UICONTROL External signal]** 活動，然後按一下 **[!UICONTROL Log and tasks]** 按鈕。
+1. 在 **[!UICONTROL Tasks]** 標籤，按一下 ![](assets/edit_darkgrey-24px.png) 按鈕。
 
    ![](assets/extsignal_monitoring_2.png)
 
-1. 此时会显示任务的执行上下文（ID、状态、持续时间等），包括当前可用于工作流的所有事件变量。
+1. 任務的執行內容隨即顯示（ID、狀態、持續時間等），包括所有現在可用於工作流程的事件變數。
 
    ![](assets/extsignal_monitoring_3.png)

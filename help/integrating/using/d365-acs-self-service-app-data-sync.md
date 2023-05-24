@@ -1,6 +1,6 @@
 ---
-title: 在Campaign和Microsoft Dynamics之间同步数据
-description: 在Campaign和Dynamics之间同步数据
+title: 在Campaign和Microsoft Dynamics之間同步資料
+description: 在Campaign和Dynamics之間同步資料
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -18,210 +18,210 @@ ht-degree: 0%
 
 # 同步数据
 
-您可以将Microsoft Dynamics 365中的表与Campaign和Campaign营销量度同步到Microsoft Dynamics 365。 同步通过三个专用的技术工作流执行： **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. 请参阅此章节以 [了解更多](../../integrating/using/d365-acs-self-service-app-workflows.md).
+您可以將表格從Microsoft Dynamics 365同步至Campaign，並將行銷活動行銷量度同步至Microsoft Dynamics 365。 同步作業會透過三個專屬的技術工作流程執行： **[!UICONTROL Microsoft Dynamics 365 to Campaign]**， **[!UICONTROL Campaign to Microsoft Dynamics 365]**， **[!UICONTROL Opt-In/Out]**. 請參閱本節，以 [瞭解更多](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
->您需要停止/启动 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流，以便将您的更改考虑在内。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>您需要停止/啟動 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程，以便將您的變更列入考量。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
-## 将表从Microsoft Dynamics 365映射到Campaign
+## 將表格從Microsoft Dynamics 365對應至Campaign
 
-的 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 页面显示了Microsoft Dynamics 365中的实体列表以及将与之同步的Adobe Campaign中的自定义资源。 您可以添加新映射、编辑或删除现有映射。
+此 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 頁面顯示Microsoft Dynamics 365中的實體清單，以及這些實體將同步處理的Adobe Campaign中的自訂資源。 您可以新增對應、編輯或刪除現有對應。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
-下面是此表中每个列的说明：
+以下是此表格中每個資料欄的說明：
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**:此列标识Microsoft Dynamics 365中的哪个实体将是映射的数据源。
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**：此欄會識別Microsoft Dynamics 365中的哪個實體會成為對應的資料來源。
 
-* **[!UICONTROL CAMPAIGN TABLE]**:此列标识Adobe Campaign中的哪个资源将是映射的数据目标。
+* **[!UICONTROL CAMPAIGN TABLE]**：此欄會識別Adobe Campaign中的哪個資源將是對應的資料目的地。
 
-* **[!UICONTROL ACTIONS]**:下面列出了可能的操作：
+* **[!UICONTROL ACTIONS]**：可能的動作列於下方：
 
-   * 单击 **[!UICONTROL Edit]** 图标以编辑此映射。
+   * 按一下 **[!UICONTROL Edit]** 圖示來編輯此對應。
 
-   * 使用  **[!UICONTROL Delete]** 图标以删除表映射。
+   * 使用  **[!UICONTROL Delete]** 圖示來刪除表格對應。
 
-   * 单击 **[!UICONTROL Replay Data]** 图标，以重新同步Microsoft Dynamics 365表中的所有数据。 通常，集成应用程序将仅同步Microsoft Dynamics 365中最近更改的数据。  但是，在某些情况下（例如，您进行了更改或出错），您可能希望所有数据重新同步。  在这些情况下，您可以单击此按钮，并在下次停止/启动 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流中，您的数据将开始同步。
+   * 按一下 **[!UICONTROL Replay Data]** 圖示可重新同步Microsoft Dynamics 365表格中的所有資料。 通常整合應用程式只會同步處理最近變更的Microsoft Dynamics 365中的資料。  但在某些情況下（例如您進行了變更或犯了錯誤），您可能想要重新同步所有資料。  在這些情況下，您可以按一下此按鈕，然後在您下次停止/啟動 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程，您的資料將開始同步。
 
-      如果您单击 **[!UICONTROL Replay Data]** 按钮且检查成功，图标将被禁用：它表示此表映射对的数据将与下次执行 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流。
+      如果您按一下 **[!UICONTROL Replay Data]** 按鈕和檢查成功，圖示會變成停用：表示此表格對應配對的資料會在下次執行 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程。
 
-      当满足以下条件时，您无法选择重播数据：
+      當下列情況為真時，您無法選取重新執行資料：
 
-      * 如果“积压”量度中有2,000,000个（或更多）项目与 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流(显示在 **[!UICONTROL Workflows]** page)
-      * 如果Microsoft Dynamics 365表中有2,000,000个或更多记录
+      * 如果「待處理專案」量度中有2,000,000個（或更多）專案與 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程(顯示在 **[!UICONTROL Workflows]** page)
+      * 如果Microsoft Dynamics 365表格中有2,000,000筆或以上的記錄
 
-      需要重新同步的记录数各不相同。 如果您有大量记录，则可能需要一些时间才能完成同步过程。 请参阅 **[!UICONTROL Backlog]** 量度 **[!UICONTROL Workflows]** 页面，因为集成应用程序会完成同步过程。
+      需要重新同步處理的記錄數目不盡相同。 如果您有大量記錄，則可能需要一些時間來完成同步化程式。 請參閱 **[!UICONTROL Backlog]** 中的量度 **[!UICONTROL Workflows]** 頁面，做為整合應用程式完成同步程式時的運作方式。
 
       >[!IMPORTANT]
       >
-      > 强烈建议您在发布对Adobe Campaign Standard或Microsoft Dynamics 365的更改时停止集成工作流。 适用的更改包括：资源/实体（及其关联字段）、链接、标识符列等的更新。 集成当前正在使用的ID。
+      > 強烈建議您在發佈變更至Adobe Campaign Standard或Microsoft Dynamics 365時停止整合工作流程。 適用的變更包括：更新資源/實體（及其相關欄位）、連結、識別碼欄等。 整合目前正在使用的專案。
 
 
-## 创建新映射 {#add-a-new-mapping}
+## 建立新對應 {#add-a-new-mapping}
 
-要创建新映射，请执行以下步骤：
+若要建立新對應，請遵循下列步驟：
 
-1. 在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 页面，单击 **[!UICONTROL Add New Mapping]** 按钮。
+1. 在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 頁面，按一下 **[!UICONTROL Add New Mapping]** 按鈕。
 
-1. 使用下拉列表选择要映射的Microsoft Dynamics 365和Campaign表。
-页面上的大多数其他输入将取决于您选择的表。
+1. 使用下拉式清單來選取要對映的Microsoft Dynamics 365和Campaign表格。
+頁面上的大部分其他輸入將取決於您選擇的表格。
 
    ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
-   >不能多次映射每个表。 因此，您会注意到下拉列表选择将不包含已映射的表。
+   >您無法對每個資料表進行多次對應。 因此，您會注意到，下拉式清單選項不會包含已對應的表格。
 
-1. 单击 **[!UICONTROL OK]** 确认：该应用程序需要一个简短的时间来阅读与所选表关联的字段信息。
+1. 按一下 **[!UICONTROL OK]** 確認：應用程式需要一段時間來讀取與所選表格相關的欄位資訊。
 
-然后，您可以继续映射配置。 [了解详情](#new-mapping-settings)
+然後，您可以繼續對應設定。 [了解详情](#new-mapping-settings)
 
 >[!IMPORTANT]
 >
->只有在首次添加映射时，才能选择此页中的表。 在单击 **[!UICONTROL Save]** 按钮：保存后，将显示表格选择字段 **只读**.
+>第一次新增對應時，您只能在此頁面中選擇表格。 在按一下「 」之前，請確定您已選取正確的表格 **[!UICONTROL Save]** 按鈕：儲存後，表格選擇欄位將會 **唯讀**.
 
-### 编辑现有映射
+### 編輯現有對應
 
-如果编辑现有映射，您将看到表选项不可编辑。
+如果您編輯現有的對應，則會看到表格選取專案無法編輯。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
-这是特意设计的，因为页面中的进一步输入基于与这些表关联的字段。 更改表会使与这些表关联的所有字段都无效。  如果要将表更改为映射，则需要返回到上一页，删除要更改的映射，然后添加新映射。
+這是刻意設計，因為頁面中較下方的輸入專案是根據與這些表格相關聯的欄位而定。 變更表格會使與這些表格關聯的所有欄位無效。  如果您想要變更要對應的表格，您必須返回上一頁，刪除您要變更的對應，然後新增對應。
 
-### 配置单个表映射 {#new-mapping-settings}
+### 設定個別表格對應 {#new-mapping-settings}
 
-在此部分中，您将学习如何配置 **单个** 将一个Microsoft Dynamics 365表映射到一个Adobe Campaign表。
+在本節中，您將瞭解如何設定 **單一** 將一個Microsoft Dynamics 365表格對應至一個Adobe Campaign表格。
 
-您可以定义以下设置：
+您可以定義下列設定：
 
-* **[!UICONTROL Tables]**:此部分列出Microsoft Dynamics 365表的名称以及该表将映射到的Campaign表。
-* **[!UICONTROL Field Mappings]**:了解详情 [此部分](#field-mappings)
-* **[!UICONTROL Field Replacements]**:了解详情 [此部分](#field-replacements)
-* **[!UICONTROL Filters]**:了解详情 [此部分](#filters)
-* **[!UICONTROL Advanced Settings]**:了解详情 [此部分](#advanced-settings)
+* **[!UICONTROL Tables]**：本節列出Microsoft Dynamics 365表格及其將對應至的Campaign表格名稱。
+* **[!UICONTROL Field Mappings]**：進一步瞭解 [本節](#field-mappings)
+* **[!UICONTROL Field Replacements]**：進一步瞭解 [本節](#field-replacements)
+* **[!UICONTROL Filters]**：進一步瞭解 [本節](#filters)
+* **[!UICONTROL Advanced Settings]**：進一步瞭解 [本節](#advanced-settings)
 
-### 字段映射 {#field-mappings}
+### 欄位對應 {#field-mappings}
 
-#### 主键
+#### 主索引鍵
 
-在向Campaign表映射中添加新的Microsoft Dynamics 365时，您需要标识ID字段。
+將新的Microsoft Dynamics 365新增至Campaign表格對應時，您需要識別ID欄位。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
-Microsoft Dynamics 365主密钥为只读，因为应用程序将检测到该密钥。
+Microsoft Dynamics 365主索引鍵是唯讀的，因為應用程式會偵測到它。
 
-对于Campaign，您需要选择哪个字段将是唯一键。 必须将其配置为 [CRM ID自定义资源](../../developing/using/uc-calling-resource-id-key.md) 和不得有重复项。
+針對Campaign，您需要選取將作為唯一索引鍵的欄位。 它必須設定為 [CRM ID自訂資源](../../developing/using/uc-calling-resource-id-key.md) 和不得有重複專案。
 
 >[!NOTE]
 >
->只有在您选择了 **[!UICONTROL Add New Mapping]**. 如果单击编辑按钮以编辑现有表映射，则ID字段将为只读字段。
+>您選取後，才能在表格上選擇ID欄位 **[!UICONTROL Add New Mapping]**. 如果您按一下編輯按鈕來編輯現有的表格對應，則ID欄位將是唯讀的。
 
-主键将始终是 **[!UICONTROL Field Mappings]** 中。 请注意，右侧列出了以下图标，提醒您这些是主键。
+主索引鍵一律為「 」欄位中列出的第一個欄位名稱 **[!UICONTROL Field Mappings]** 區段。 提醒一下，右側會列出下列圖示，提醒您這些是主要金鑰。
 
 ![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
-#### 添加其他字段映射
+#### 新增其他欄位對應
 
-的 **[!UICONTROL Field Mappings]** 部分，用于添加除主键值之外的字段映射。 要将字段从Microsoft Dynamics 365添加到Adobe Campaign的新映射，请单击 **[!UICONTROL Add new field mapping]** 按钮。
+此 **[!UICONTROL Field Mappings]** 區段可讓您新增主要索引鍵以外的欄位對應。 若要新增從Microsoft Dynamics 365到Adobe Campaign的欄位對應，請按一下 **[!UICONTROL Add new field mapping]** 按鈕。
 
-在列表中选择Microsoft Dynamics 365和Campaign字段：
+選取清單中的Microsoft Dynamics 365和Campaign欄位：
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
-这些列表包含与您在页面顶部选择的Microsoft Dynamics 365和Campaign表关联的字段名称。
+這些清單包含與您在頁面頂端選取的Microsoft Dynamics 365和Campaign表格相關聯的欄位名稱。
 
-的 **[!UICONTROL Apply updates]** 切换器允许您控制是否将此字段的更新从Microsoft Dynamics 365传播到Campaign:
-* 如果已打开 ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)，对Microsoft Dynamics 365中值的更新将在发生更新时传播到Adobe Campaign。
+此 **[!UICONTROL Apply updates]** 切換器可讓您控制此欄位的更新是否將從Microsoft Dynamics 365傳播至Campaign：
+* 如果已開啟 ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)中，對值的Microsoft Dynamics 365更新會在更新發生時傳播至Adobe Campaign。
 
-* 如果你关掉了 ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，该值将在首次加载（或重播）数据时传播，但对Microsoft Dynamics 365中字段的增量更新将不会传播。
+* 如果您已關閉 ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，此值會在初次載入（或重新播放）資料時傳輸，但不會傳輸Microsoft Dynamics 365中欄位的增量更新。
 
 >[!NOTE]
 >
->单击 **[!UICONTROL Apply updates]** 列标题以更新 **全部** 开关或关闭。
+>按一下 **[!UICONTROL Apply updates]** 要更新的欄標題 **全部** 開啟或關閉。
 
-选择字段值后，您将看到下拉菜单下方显示的数据类型。   在将值从一个字段映射到另一个字段时，请记住这一点。
+當您選取欄位值時，您會看到資料型別顯示在下拉式功能表的下方。   將值從一個欄位對應到另一個欄位時，請謹記這一點。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
-> 您无法将多个Microsoft Dynamics 365字段映射到单个Campaign字段。
+> 您無法將多個Microsoft Dynamics 365欄位對應至單一行銷活動欄位。
 
-### 现场替换 {#field-replacements}
+### 欄位取代 {#field-replacements}
 
-使用 **[!UICONTROL Add New Field Replacement]** 按钮来定义新字段替换。
+使用 **[!UICONTROL Add New Field Replacement]** 按鈕來定義新的欄位取代。
 
-利用字段替换，可识别：
+欄位取代可讓您識別：
 
-* a Microsoft Dynamics 365字段名称（已在上面的字段映射部分中添加），
-* 现有值(存在于Microsoft Dynamics 365中)，以及
-* 写给Adobe Campaign的新价值
+* Microsoft Dynamics 365欄位名稱（已於上方欄位對應區段中新增），
+* 現有值(存在於Microsoft Dynamics 365中)，以及
+* 要寫入Adobe Campaign的新值
 
-将为picklist、枚举和布尔值提供下拉列表。 文本框将用于其他字符串类型和数字类型。
+系統會提供選取清單、分項清單和布林值的下拉式清單。 文字方塊將用於其他字串和數值型別。
 
-### 过滤器 {#filters}
+### 筛选器 {#filters}
 
-使用 **[!UICONTROL Add New Filter]** 按钮，选择将哪些Microsoft Dynamics 365记录传播到Campaign。 您可以选择任何与记录关联的字段以添加到过滤器（无需将字段名称添加到字段映射）。
+使用 **[!UICONTROL Add New Filter]** 按鈕以選取要傳播至Campaign的Microsoft Dynamics 365記錄。 您可以選擇與記錄關聯的任何欄位以新增到篩選器（欄位名稱不需要新增到欄位對應）。
 
-您可以通过填写以下信息来指定过滤器：
+您可以填寫下列資訊來指定篩選器：
 
-* Microsoft Dynamics 365字段名称
-* 比较值和
-* a值(来自Microsoft Dynamics 365)如果给定记录的字段名称、比较和值的计算结果为true，则该记录将会传播到Adobe Campaign。
+* Microsoft Dynamics 365欄位名稱
+* 比較值，以及
+* 值(來自Microsoft Dynamics 365)如果指定記錄的欄位名稱、比較和值的評估為true，則該記錄將傳播到Adobe Campaign。
 
-您可以通过设置标记为的输入来选择如何评估这些过滤器 **[!UICONTROL Choose the filter comparison operator]**.  如果您选择 **和**，则所有过滤器必须为true，记录才能被传播到Campaign。 如果您选择 **或**，则当其中任何记录的评估为true时，该记录将被传播。
+您可以設定標示為的輸入來選擇評估這些篩選器的方式 **[!UICONTROL Choose the filter comparison operator]**.  如果您選擇 **和**，所有篩選器都必須為true，記錄才會傳播至Campaign。 如果您選擇 **或**，如果其中有任何記錄的評估為true，則會傳播該記錄。
 
-选项 **[!UICONTROL Do you want to delete records in Adobe Campaign Standard that will be filtered out from Microsoft Dynamics 365?]** 控制您是否希望从Campaign中删除已过滤的记录。 如果您选择 **否** 那记录将保留在Adobe Campaign。 选择 **是** 以便被集成逻辑删除。
+選項 **[!UICONTROL Do you want to delete records in Adobe Campaign Standard that will be filtered out from Microsoft Dynamics 365?]** 控制是否要從Campaign刪除已篩選掉的記錄。 如果您選取 **否** 則記錄會保留在Adobe Campaign中。 選取 **是** 讓整合邏輯刪除這些變數。
 
 >[!NOTE]
 >
-> 如果未添加过滤器，则所有已修改的记录都将传播到Adobe Campaign。
+> 如果未新增篩選器，則所有已修改的記錄都會傳播至Adobe Campaign。
 
-### 高级设置 {#advanced-settings}
+### 進階設定 {#advanced-settings}
 
-在配置映射时，您可以设置以下其他选项：
+設定對應時，您可以設定下列其他選項：
 
-* 设置 **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** 选项 **是**，如果要将在Microsoft Dynamics 365中发生的删除活动传播到Adobe Campaign中的相应字段（基于字段名称映射）。 选择 **否** 忽略在Microsoft Dynamics 365中的删除。
+* 設定 **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** 選項至 **是**，如果您想要將Microsoft Dynamics 365中發生的刪除專案傳播至Adobe Campaign中對應的欄位（根據欄位名稱對應）。 選取 **否** 忽略Microsoft Dynamics 365中的刪除作業。
 
-* 设置 **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** 选项 **否** 如果要将与Microsoft Dynamics 365选取列表关联的显示值传播到Campaign。 选择 **是** 传播技术价值。
+* 設定 **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** 選項至 **否** 如果要將與Microsoft Dynamics 365挑選清單相關聯的顯示值傳播至Campaign。 選取 **是** 以傳播技術值。
 
-## 将促销活动营销事件同步到Microsoft Dynamics 365
+## 同步化行銷活動行銷事件至Microsoft Dynamics 365
 
-的 **[!UICONTROL Campaign to Microsoft Dynamics 365]** 页面可让您识别将哪些电子邮件营销事件从Adobe Campaign映射到Microsoft Dynamics 365。
+此 **[!UICONTROL Campaign to Microsoft Dynamics 365]** 頁面可讓您識別哪些電子郵件行銷事件將會從Adobe Campaign對應至Microsoft Dynamics 365。
 
-您可以控制的四个量度是： **发送**, **点击次数**, **打开**&#x200B;和 **跳出次数**.
+您可以控制的四個量度包括： **傳送**， **點按次數**， **開啟次數**、和 **彈回數**.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
-选择 **是** 以确认您确实希望此类型的事件流向Microsoft Dynamics 365。
+選取 **是** 以確認您確實想要該型別事件流入Microsoft Dynamics 365。
 
-单击 [此处](../../integrating/using/d365-acs-self-service-app-workflows.md) 以了解有关这些电子邮件事件流的更多信息。
+按一下 [此處](../../integrating/using/d365-acs-self-service-app-workflows.md) 以取得這些電子郵件事件流程的詳細資訊。
 
-## 选择加入/退出工作流程 {#opt-in-out-wf}
+## 選擇加入/退出工作流程 {#opt-in-out-wf}
 
-的 **选择启用/禁用** 工作流允许您识别Microsoft Dynamics 365与Adobe Campaign之间的选择启用/禁用信息的流程。 这假定数据与Microsoft Dynamics 365实体“联系人”和Adobe Campaign资源“用户档案”关联。
+此 **選擇加入/退出** 工作流程可讓您識別Microsoft Dynamics 365與Adobe Campaign之間選擇加入/退出資訊的流程。 這假設資料與Microsoft Dynamics 365實體「聯絡人」和Adobe Campaign資源「設定檔」相關聯。
 
-进一步了解 [此部分](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+進一步瞭解中的選擇退出管理 [本節](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-请记住，您需要单击“保存”以保存您的选择。 另请记住，您必须停止 **Campaign到Microsoft Dynamics 365** 工作流，然后单击“播放”进行集成以合并您所做的更改。
+請記住，您需要按一下「儲存」以儲存您的選擇。 另請記住，您必須停止 **促銷活動至Microsoft Dynamics 365** 工作流程，然後按一下「播放」進行整合，以合併您的變更。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
-### 选择加入/退出同步方向
+### 選擇加入/退出同步化方向
 
-以下是用于同步数据的可用选项列表：
+以下是同步資料的可用選項清單：
 
-* **[!UICONTROL Disabled]**:选择此选项后，在Adobe Campaign和Microsoft Dynamics 365之间将不会移动任何选择启用/禁用信息。
+* **[!UICONTROL Disabled]**：選取此選項時，不會在Adobe Campaign和Microsoft Dynamics 365之間移動選擇加入/退出資訊。
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**:此选项仅用于将选择加入/退出从Microsoft Dynamics 365流向Adobe Campaign。 集成应用程序不允许您在此屏幕中配置流程；而是单击 **[!UICONTROL Save button]**，然后导航到 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流。 在此工作流中，您可以编辑联系人/配置文件表映射，以确定您希望选择加入/退出字段映射的方式。
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**：此選項僅用於將「選擇加入/退出」從Microsoft Dynamics 365流入Adobe Campaign。 整合應用程式不會讓您在此畫面中設定流程，而是改為按一下 **[!UICONTROL Save button]**，並導覽至 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流程。 在此工作流程中，您可以編輯聯絡人/設定檔表格對應，以識別您希望選擇加入/退出欄位對應的方式。
 
-* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**:此选项将显示 **映射** 中。 这些输入将允许您定义哪些Adobe Campaign字段将数据映射到Microsoft Dynamics 365中的哪些字段。 这意味着如果您碰巧在Microsoft Dynamics 365中手动更新值，那么如果发生更改，则其值将被Adobe Campaign值覆盖。
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**：此選項會使 **對映** 區段。 這些輸入可讓您定義哪些Adobe Campaign欄位會將資料對應到Microsoft Dynamics 365中的哪些欄位。 這表示如果您碰巧在Microsoft Dynamics 365中手動更新值，則一旦發生變更，其值將被Adobe Campaign值覆寫。
 
-* **[!UICONTROL Bidirectional]**:此选项将显示 **映射** 中。 这些对将标识Microsoft Dynamics 365和Adobe Campaign中将相互映射的字段。 [了解详情](../../integrating/using/d365-acs-notices-and-recommendations.md)。
+* **[!UICONTROL Bidirectional]**：此選項會使 **對映** 區段。 這些配對可識別Microsoft Dynamics 365和Adobe Campaign中的哪些欄位會相互對應。 [了解详情](../../integrating/using/d365-acs-notices-and-recommendations.md)。
 
-### 映射
+### 對映
 
-此部分仅在选择加入/退出同步方向字段设置为 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 或 **[!UICONTROL Bidirectional]**. 您可以定义Microsoft Dynamics 365中的哪些字段映射到Adobe Campaign中的哪些输入。
+此區段僅適用於「選擇加入/選擇退出同步化方向」欄位設為 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 或 **[!UICONTROL Bidirectional]**. 您可以定義Microsoft Dynamics 365中的哪些欄位對應到Adobe Campaign中的哪些輸入。
 
-Microsoft Dynamics 365字段名称包含所有类型的字段名称 **布尔**.
+Microsoft Dynamics 365欄位名稱包含所有型別的欄位 **布林值**.
 
-Adobe Campaign字段名称是一组特定于选择启用/禁用的固定值。 Adobe Campaign字段名称是一组特定于选择启用/禁用的固定值。 **此列表中的值集无法更改**.
+Adobe Campaign欄位名稱是一組固定的值，專用於選擇加入/退出。 Adobe Campaign欄位名稱是一組固定的值，專用於選擇加入/退出。 **無法變更此清單中的值集**.

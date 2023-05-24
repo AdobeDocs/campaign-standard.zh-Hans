@@ -1,6 +1,6 @@
 ---
 title: 消息仪表板
-description: 了解消息仪表板的组成，包括操作栏和各种功能块。
+description: 探索訊息控制面板的組成，包括動作列和各種功能區塊。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -18,76 +18,76 @@ ht-degree: 4%
 
 # 消息仪表板{#message-dashboard}
 
-消息仪表板是由不同图标（重组为操作栏）和各种功能块组成的工作区，这些功能块允许您建立消息的参数并发送消息。 这些要素如下所述。
+訊息控制面板是由不同圖示（重新分組為動作列）和各種功能區塊組成的工作區，可讓您建立訊息引數並傳送。 這些元素將於下文介紹。
 
 ![](assets/delivery_dashboard_2.png)
 
-## 灰条 {#gray-bar}
+## 灰色列 {#gray-bar}
 
-灰色栏可重组链接到消息的各种图标。
+灰色列會重新分組連結至訊息的各種圖示。
 
-* **[!UICONTROL Summary]**:显示/隐藏有关消息的主要信息。
-* **[!UICONTROL Edit properties]**:允许您编辑消息的 [高级参数](../../administration/using/configuring-email-channel.md#list-of-email-properties).
-* **[!UICONTROL Reports]**:允许您访问与消息相关的报告。
+* **[!UICONTROL Summary]**：顯示/隱藏訊息的主要相關資訊。
+* **[!UICONTROL Edit properties]**：可讓您編輯訊息的 [進階引數](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL Reports]**：可讓您存取與訊息相關的報表。
 
 **相关主题：**
 
 * [配置渠道](../../administration/using/about-channel-configuration.md)
-* [访问报告](../../reporting/using/about-dynamic-reports.md)
+* [存取報告](../../reporting/using/about-dynamic-reports.md)
 
 ## 操作栏 {#action-bar}
 
-操作栏具有不同的图标，允许您与消息进行交互。
+動作列有不同的圖示，可讓您與訊息互動。
 
 ![](assets/delivery_dashboard_4.png)
 
-根据已设置的参数和进度，某些图标可能不可用。
+根據已設定的引數和進度，某些圖示可能不可用。
 
-* **[!UICONTROL Show proofs]**:显示/隐藏已发送的校样列表（如果存在）。 仅在发送校样后，才会启用此按钮。
+* **[!UICONTROL Show proofs]**：顯示/隱藏已傳送的校樣清單（如果存在）。 只有在您已傳送校樣後，才會啟用此按鈕。
 
-   有关校样的更多信息，请参阅 [发送校样](../../sending/using/sending-proofs.md).
+   如需校訂的詳細資訊，請參閱 [傳送校樣](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**:允许您选择要使用的批准模式： **[!UICONTROL Email rendering]** （仅限电子邮件）、 **[!UICONTROL Proof]** 或两者兼有。 有关测试用户档案的更多信息，请参阅 [发送校样](../../sending/using/sending-proofs.md). 仅在创建测试用户档案后，才会启用此按钮。
+* **[!UICONTROL Send a test]**：可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件）， **[!UICONTROL Proof]** 或兩者。 如需測試設定檔的詳細資訊，請參閱 [傳送校樣](../../sending/using/sending-proofs.md). 只有在您已建立測試設定檔後，才會啟用此按鈕。
 
-* **[!UICONTROL Prepare send]**:开始准备发送。 的 **[!UICONTROL Deployment]** 块出现并显示准备结果。 仅在输入目标后，才会显示此按钮。 您可以使用相应的按钮随时停止准备。 有关消息准备的更多信息，请参阅 [准备发送](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Prepare send]**：開始準備傳送。 此 **[!UICONTROL Deployment]** 區塊，並顯示準備的結果。 此按鈕只會在輸入目標後顯示。 您可以使用對應的按鈕隨時停止準備。 如需訊息準備的詳細資訊，請參閱 [準備傳送](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**:确认发送消息。 发送统计信息显示在 **[!UICONTROL Deployment]** 块。 此按钮仅在准备发送后显示。 您可以随时使用 **停止发送** 和 **[!UICONTROL Pause]** 按钮。 有关确认发送的更多信息，请参阅 [发送消息](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**：確認傳送訊息。 傳送的統計資料會顯示在 **[!UICONTROL Deployment]** 區塊。 此按鈕只會在傳送準備完成後顯示。 您可以使用來隨時停止或暫停傳送 **停止傳送** 和 **[!UICONTROL Pause]** 按鈕。 如需確認傳送的詳細資訊，請參閱 [傳送訊息](../../sending/using/confirming-the-send.md).
 
-## 块 {#blocks}
+## 區塊 {#blocks}
 
-主屏幕由不同块组成。 在块内单击以访问相应的参数屏幕：
+主畫面由不同區塊組成。 按一下區塊內部，即可存取對應的引數畫面：
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:用于跟踪消息准备或发送的进度。 单击此块右下方的按钮以访问发送和分析日志。 仅在准备发送后，才会显示此块。 有关更多信息。 请参阅 [确认发送](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]**:用于建立消息的主目标和测试用户档案。 请参阅[创建受众](../../audiences/using/creating-audiences.md)。
-* **[!UICONTROL Schedule]**:用于指定消息的发送日期。 请参阅 [计划](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**:用于定义消息的内容并进行预览。 请参阅 [发送消息的关键步骤](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Deployment]**：可讓您追蹤訊息準備或傳送的進度。 按一下此區塊右下方的按鈕，即可存取傳送和分析記錄檔。 此區塊只會在已準備傳送後顯示。 有關詳細資訊。 另請參閱 [確認傳送](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**：可讓您建立訊息的主要目標以及測試設定檔。 请参阅[创建受众](../../audiences/using/creating-audiences.md)。
+* **[!UICONTROL Schedule]**：可讓您指定傳送訊息的日期。 另請參閱 [排程](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**：可讓您定義訊息的內容並加以預覽。 另請參閱 [傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md).
 
 ## 警告 {#warnings}
 
-在某些情况下，消息仪表板顶部的黄色横幅中可能会显示警告。
+在某些情況下，警告可能會顯示在訊息控制面板上方的黃色橫幅中。
 
 ![](assets/delivery_dashboard_warnings.png)
 
-以下是可显示的消息列表：
+以下是可以顯示的訊息清單：
 
-* *“此电子邮件已启用SMTP测试模式选项：不会发送任何消息。”*
+* *「此電子郵件已啟用SMTP測試模式選項：不會傳送任何郵件。」*
 
    有关更多信息，请参阅[此章节](../../administration/using/configuring-email-channel.md#smtp-test-mode)。
 
-* *&quot;已禁用路由外部帐户。&quot;*
+* *「路由外部帳戶已停用。」*
 
-   有关此内容的更多信息，请参阅 [外部帐户](../../administration/using/external-accounts.md).
+   如需詳細資訊，請參閱 [外部帳戶](../../administration/using/external-accounts.md).
 
-* *“无法发送消息，因为当前IP关联未由任何发送进程处理。”*
+* *「無法傳送訊息，因為任何傳送程式都不會處理目前的IP相似性。」*
 
-   如果您看到此消息，则在IP关联定义级别或发送流程级别会出现问题。 请联系您的Adobe管理员。
+   如果您看到此訊息，則表示IP相似性定義層級或傳送程式層級有問題。 請聯絡您的Adobe管理員。
 
-* *“这是一个现成的事务型消息模板。 如果要修改它，必须复制它并处理副本。”*
+* *「這是立即可用的交易式訊息範本。 如果您想要修改它，您必須複製它並製作副本。」*
 
-   其中一些现成的事务型消息模板是内置登陆页面模板。 有关更多信息，请参阅[此章节](../../channels/using/landing-page-templates.md)。
+   這些現成可用的交易式訊息範本中，有些是內建登入頁面範本。 有关更多信息，请参阅[此章节](../../channels/using/landing-page-templates.md)。
 
-* *“此消息是技术事务型消息模板。 您无法修改或发布它。”*
+* *「此訊息為技術交易式訊息範本。 您無法修改或發佈。」*
 
-   此警告显示在不可编辑的空事务型消息模板中。 有关事务型消息的更多信息，请参阅 [此部分](../../channels/using/getting-started-with-transactional-msg.md).
+   此警告會顯示在無法編輯的空白交易式訊息範本中。 如需異動訊息的詳細資訊，請參閱 [本節](../../channels/using/getting-started-with-transactional-msg.md).

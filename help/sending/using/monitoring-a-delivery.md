@@ -18,11 +18,11 @@ ht-degree: 79%
 
 # 监测投放{#monitoring-a-delivery}
 
-有多种方法可监控投放并衡量其影响。 功能管理员可以访问消息日志和投放日志。
+監控傳送和衡量其影響的方法有幾種。 身為功能管理員，您可以存取訊息記錄檔和傳送記錄檔。
 
 >[!IMPORTANT]
 >
->仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但可以从链接的表（用户档案、投放）开始定位。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，搭配 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 * **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
    ![](assets/sending_delivery2.png)
 
-* **作业日志**:通过选择 **[!UICONTROL Job history]** 从 **[!UICONTROL Summary]** 下拉列表。
+* **工作記錄檔**：您可以透過選取「 」，從訊息控制面板存取傳遞觸發的批次工作清單 **[!UICONTROL Job history]** 從 **[!UICONTROL Summary]** 下拉式清單。
 
-   从列表中选择任意作业，以查看所选作业的详细信息 **[!UICONTROL Batch job]**.
+   從清單中選取任何工作，以檢視所選專案的詳細資訊 **[!UICONTROL Batch job]**.
 
    ![](assets/sending_delivery8.png)
 

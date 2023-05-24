@@ -30,7 +30,7 @@ ht-degree: 98%
 
 **相关主题：**
 
-* [用例：根据文件更新数据](../../automating/using/update-database-file.md)
+* [使用案例：根據檔案更新資料](../../automating/using/update-database-file.md)
 * [根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
 
 ## 配置 {#configuration}

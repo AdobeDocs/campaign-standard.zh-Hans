@@ -71,7 +71,7 @@ ht-degree: 98%
 
 1. 单击 **[!UICONTROL Add an element]**，然后根据需要添加任意数量的值，其方法为添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 并单击 **[!UICONTROL Add]**。
 
-   在此示例中，为用户档案创建“Books”、“Exhibitions”、“Movies”和“N/A”值，以在这些选项中进行选择。
+   在此範例中，請建立設定檔的Books、Exhibitions、Movies和N/A值，以在這些選項之間進行選擇。
 
    ![](assets/schema_extension_uc11.png)
 

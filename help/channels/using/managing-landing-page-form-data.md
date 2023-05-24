@@ -18,59 +18,59 @@ ht-degree: 15%
 
 # 管理登陆页面表单数据{#managing-landing-page-form-data}
 
-在登陆页内容中，使用输入字段存储或更新Campaign数据库中的数据。
+在登入頁面內容中，輸入欄位可用來儲存或更新來自Campaign資料庫的資料。
 
-要实现此目的，必须将这些字段映射到数据库字段。
+要執行此操作，這些欄位必須對應到資料庫欄位。
 
-您可以通过 **[!UICONTROL Form data]** 中找到的问题。
+您可以透過以下方式定義和管理其對應： **[!UICONTROL Form data]** 區段。
 
 ![](assets/lp_form-data.png)
 
 ## 映射表单字段 {#mapping-form-fields}
 
-要根据您的需求更新Campaign数据库，请将相关数据库字段链接到登陆页面的输入区、单选按钮或复选框类型块。
+若要視需要更新Campaign資料庫，請將相關資料庫欄位連結至登入頁面的輸入區域、選項按鈕或核取方塊型別區塊。
 
 为此请执行以下操作步骤：
 
-1. 在登陆页面内容中选择块。
+1. 在登入頁面內容中選取區塊。
 
    >[!NOTE]
    >
    >内置登陆页面的默认字段已进行了预配置。您可以根据需要对其进行修改。
 
-1. 访问 **[!UICONTROL Form data]** 中找到的问题。
+1. 存取 **[!UICONTROL Form data]** 區段。
 
-1. 要更改字段类型，请从 **[!UICONTROL HTML type of the field]** 下拉列表。
+1. 若要變更欄位型別，請從 **[!UICONTROL HTML type of the field]** 下拉式清單。
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >有关在登陆页面中使用复选框类型的更多信息，请参阅 [更新多项服务订阅](#multiple-subscriptions) 和 [“协议”复选框](#agreement-checkbox) 中。
+   >如需在登入頁面中使用核取方塊型別的詳細資訊，請參閱 [更新多個服務訂閱](#multiple-subscriptions) 和 [合約核取方塊](#agreement-checkbox) 區段。
 
-1. 如果选择的字段类型与 **[!UICONTROL Field]** 区域，将显示警告消息。 要获得最佳映射，请选择一个适当的值。
+1. 如果您選取的欄位型別與中目前選取的資料庫欄位不相容， **[!UICONTROL Field]** 區域，會顯示警告訊息。 若要取得最佳對應，請選取適當的值。
 
    ![](assets/lp_field-type-warning.png)
 
-1. 使用 **[!UICONTROL Field]** 区域，以选择将链接到表单字段的数据库字段。
+1. 使用 **[!UICONTROL Field]** 區域以選取將連結至表單欄位的資料庫欄位。
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >登陆页面只能映射 **[!UICONTROL Profiles]** 或 **[!UICONTROL Service]** 资源。
+   >登入頁面只能對應至 **[!UICONTROL Profiles]** 或 **[!UICONTROL Service]** 資源。
 
-   在本例中，映射 **名称** 的 **[!UICONTROL Last name]** 字段 **[!UICONTROL Profiles]** 资源。
+   在此範例中，對應 **名稱** 您的登入頁面欄位至 **[!UICONTROL Last name]** 的欄位 **[!UICONTROL Profiles]** 資源。
 
    ![](assets/lp_database-field-example.png)
 
-1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。在这种情况下，仅当用户填写了此字段时，才能提交登陆页面。
+1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。在此情況下，僅當使用者已填入此欄位時，才能提交登入頁面。
 
    ![](assets/lp_mandatory-option.png)
 
-   如果未填写必填字段，则用户提交页面时将显示错误消息。
+   如果未填寫必填欄位，則當使用者提交頁面時將顯示錯誤訊息。
 
-1. 单击 **[!UICONTROL Confirm]** 以保存更改。
+1. 按一下 **[!UICONTROL Confirm]** 以儲存變更。
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,75 +84,75 @@ ht-degree: 15%
 
    ![](assets/lp_parameters_job.png)
 
-1. 选择 **[!UICONTROL Reconciliation key]**:此数据库字段用于确定访客的配置文件是否在Adobe Campaign数据库中已知。 例如，电子邮件、名字、姓氏。 利用协调键值，可根据 **[!UICONTROL Update strategy]** 参数。
+1. 選取 **[!UICONTROL Reconciliation key]**：此資料庫欄位用於判斷訪客是否有已在Adobe Campaign資料庫中知道的設定檔。 例如電子郵件、名字、姓氏等。 調解金鑰可讓您根據 **[!UICONTROL Update strategy]** 引數定義如下。
 
 1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键值中使用的参数。
 
-1. 选择 **[!UICONTROL Update strategy]**:如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
+1. 選取 **[!UICONTROL Update strategy]**：如果調解金鑰復原了現有的資料庫設定檔，您可以選擇使用此設定檔以表單中輸入的資料進行更新，或者改為阻止此更新。
 
    ![](assets/lp_parameters_update-strategy.png)
 
-## 多项服务订阅 {#multiple-subscriptions}
+## 多項服務訂閱 {#multiple-subscriptions}
 
-您可以在单个登陆页面上使用多个复选框，以允许用户订阅或取消订阅多项服务。
+您可以在單一登陸頁面上使用數個核取方塊，讓使用者訂閱或取消訂閱多項服務。
 
 为此请执行以下操作步骤：
 
-1. 设计登陆页面时：
+1. 設計登入頁面時：
 
-   * 选择一个块，然后从 **[!UICONTROL Form data]** ，选择 **[!UICONTROL Checkbox]** 作为字段类型。
+   * 選取區塊，並從 **[!UICONTROL Form data]** 區段，選擇 **[!UICONTROL Checkbox]** 作為欄位型別。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，则还可以使用 **[!UICONTROL Show source]** 按钮。
+   * 如果您熟悉HTML，也可以使用 **[!UICONTROL Show source]** 按鈕。
 
       ![](assets/lp_show_source.png)
 
-      这允许您在页面上的任何方便位置插入复选框。
+      這可讓您在頁面上方便的位置插入核取方塊。
 
       ![](assets/lp_manual-checkbox.png)
 
-1. 确保在您的内容中选中该复选框。 的 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 的下一页。 选择 **[!UICONTROL Service and subscription]** 列表。
+1. 請確定您的內容中已選取核取方塊。 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選取 **[!UICONTROL Service and subscription]** 從清單中。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 从 **[!UICONTROL Behavior]** 下拉列表。
+1. 從中選擇一個選項 **[!UICONTROL Behavior]** 下拉式清單。
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 选择 [服务](../../audiences/using/creating-a-service.md) 从对应的列表中。
+1. 選取 [服務](../../audiences/using/creating-a-service.md) 從對應的清單中選取。
 
    ![](assets/lp_checkbox-service.png)
 
-1. 确保 **[!UICONTROL Mandatory]** 选项。 否则，您的用户将别无选择。
+1. 確定 **[!UICONTROL Mandatory]** 選項未核取。 否則，您的使用者將沒有選擇。
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. 要添加更多用于订阅其他服务的复选框，请根据需要多次重复上述步骤。
+1. 若要新增更多核取方塊以訂閱其他服務，請視需要重複上述步驟。
 
    ![](assets/lp_multiple-checkboxes.png)
 
-发布登陆页面后，用户可以选中多个复选框，以订阅同一页面中的多个新闻稿。
+發佈登入頁面後，使用者可以從同一頁面選取多個核取方塊以訂閱數份電子報。
 
-## “协议”复选框 {#agreement-checkbox}
+## 合約核取方塊 {#agreement-checkbox}
 
-您可以在提交登陆页面之前，添加用户档案需要检查的复选框。
+您可以新增核取方塊，要求設定檔在提交登入頁面前先進行檢查。
 
-例如，这允许您在用户提交表单之前，请求用户同意隐私政策，或让他们接受您的条款和条件。
+例如，這可讓您在使用者提交表單前，要求使用者同意隱私權原則，或讓使用者接受您的條款與條件。
 
 >[!IMPORTANT]
 >
->对于您的用户而言，必须选中此复选框。 如果未选择，则他们将无法提交登陆页面。
+>您的使用者必須選取此核取方塊。 如果未選取，他們將無法提交登入頁面。
 
-要插入并配置此复选框，请执行以下操作：
+若要插入並設定此核取方塊，請執行下列動作：
 
-1. 设计登陆页面时：
+1. 設計登入頁面時：
 
-   * 选择一个块，然后从 **[!UICONTROL Form data]** ，选择 **[!UICONTROL Checkbox]** 作为字段类型。
+   * 選取區塊，並從 **[!UICONTROL Form data]** 區段，選擇 **[!UICONTROL Checkbox]** 作為欄位型別。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，则还可以使用 **[!UICONTROL Show source]** 按钮。
+   * 如果您熟悉HTML，也可以使用 **[!UICONTROL Show source]** 按鈕。
 
       ![](assets/lp_show_source.png)
 
@@ -160,30 +160,30 @@ ht-degree: 15%
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
-1. 确保选中复选框。
+1. 確定已選取核取方塊。
 
    ![](assets/lp_select_checkbox.png)
 
-1. 的 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 的下一页。 选择 **[!UICONTROL Agreement]** 列表。
+1. 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選取 **[!UICONTROL Agreement]** 從清單中。
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Agreement]** 元素未映射到Campaign数据库的字段。
+   >此 **[!UICONTROL Agreement]** 元素未對應至Campaign資料庫的欄位。
 
-1. 单击 ![](assets/lp-properties-icon.png) 图标 **[!UICONTROL Form data]** 以访问复选框“高级属性”。
+1. 按一下 ![](assets/lp-properties-icon.png) 圖示旁邊 **[!UICONTROL Form data]** 以存取核取方塊進階屬性。
 
-1. 您可以根据需要编辑消息。
+1. 您可以視需要編輯訊息。
 
    ![](assets/lp_agreement_message.png)
 
-   如果用户在提交表单之前未选中复选框，则此文本将显示为警告。
+   如果使用者在提交表單前未選取核取方塊，此文字將顯示為警告。
 
    >[!NOTE]
    >
-   >默认情况下，此操作是强制操作，无法更改。
+   >依預設，此動作是強制性的，無法變更。
 
 1. 单击 **[!UICONTROL Confirm]**。
 
-现在，每次显示登陆页面时，用户都必须在提交表单之前选中此复选框。 如果没有，将显示警告，用户在激活复选框之前将无法提交表单。
+現在，每次顯示登入頁面時，使用者必須在提交表單前選取此核取方塊。 如果不包含，系統會顯示警告，使用者將無法提交表單，直到核取方塊啟動為止。

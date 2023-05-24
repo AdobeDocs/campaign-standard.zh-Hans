@@ -1,6 +1,6 @@
 ---
 title: 准备发送
-description: 了解如何在发送之前定义准备。
+description: 瞭解如何在傳送前定義準備作業。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -11,54 +11,54 @@ exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 # 准备发送{#preparing-the-send}
 
-准备对应于计算目标群体并为目标中包含的每个用户档案生成消息内容的步骤。 准备完成后，即可立即或在 [计划的日期和时间](../../sending/using/about-scheduling-messages.md).
+準備對應於計算目標人口並為目標中包含的每個設定檔產生訊息內容的步驟。 準備完成後，訊息即可立即或於傳送 [排程的日期和時間](../../sending/using/about-scheduling-messages.md).
 
-1. 要开始准备发送，请单击 **准备** 按钮。
+1. 若要開始準備傳送，請按一下 **準備** 按鈕的位置。
 
    ![](assets/preparing_delivery_2.png)
 
-1. 的 **[!UICONTROL Deployment]** 块会显示准备进度，然后显示准备统计信息：目标消息数、要发送的消息数等。
+1. 此 **[!UICONTROL Deployment]** 區塊顯示準備進度，然後顯示準備統計資料：目標訊息數、要傳送的訊息數等。
 
-   根据目标群体的大小，此操作可能需要一些时间。
+   根据目标人群的规模，此操作可能需要花费一些时间。
 
    ![](assets/preparing_delivery.png)
 
-1. 使用 **停止** 按钮。
+1. 使用「 」隨時停止準備 **停止** 按鈕，位於動作列。
 
-   在准备阶段期间，不会发送任何消息。 因此，您可以启动或停止此操作，而不会产生任何影响。
+   在准备阶段，不发送任何邮件。因此，您可以开始或停止准备而不影响任何内容。
 
    ![](assets/preparing_delivery_6.png)
 
-1. 在准备投放阶段时，会自动保存您的消息。 如果在准备步骤后需要对消息的计划进行任何更改，则需要确保单击 **[!UICONTROL Prepare]** 按钮来访问Advertising Cloud的帮助。 有关如何计划消息的更多信息，请参阅此 [页面](../../sending/using/about-scheduling-messages.md).
+1. 您的訊息會在準備傳遞階段期間自動儲存。 如果您需要在準備步驟後對訊息排程進行任何變更，請務必按一下 **[!UICONTROL Prepare]** 按鈕來重新計算這些變更。 如需如何排程訊息的詳細資訊，請參閱此 [頁面](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
-1. 要查看准备日志，请单击位于块右下方的按钮。
+1. 若要檢視準備記錄，請按一下位於區塊右下方的按鈕。
 
    ![](assets/preparing_delivery_4.png)
 
-1. 的 **[!UICONTROL Deployment]** 窗口打开，更正所有错误，然后重新开始准备。
+1. 此 **[!UICONTROL Deployment]** 視窗開啟，更正所有錯誤，然後重新啟動準備作業。
 
-   最后一个日志消息显示所有错误消息和错误数。 特定图标显示遇到的错误类型：黄色图标表示非关键处理错误，红色图标表示阻止投放启动的关键错误。
+   最后一条日志消息显示了所有错误消息和错误数。特定圖示會顯示遇到的錯誤型別：黃色圖示表示非嚴重處理錯誤，紅色圖示表示嚴重錯誤，導致傳送無法啟動。
 
    ![](assets/preparing_delivery_3.png)
 
-1. 在确认发送消息之前，请检查准备统计信息。 如果要发送的消息数与您的配置不对应，请编辑目标群体(请参阅 [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md))并重新开始准备。
+1. 在確認傳送訊息之前，請檢查準備統計資料。 如果要傳送的訊息數量不符合您的設定，請編輯目標母體(請參閱 [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md))並重新啟動準備作業。
 
-准备完成后，即可发送您的消息。 有关此内容的更多信息，请参阅 [确认发送](../../sending/using/confirming-the-send.md).
+完成準備工作後，您的訊息就可供傳送。 如需詳細資訊，請參閱 [確認傳送](../../sending/using/confirming-the-send.md).
 
 **分类规则**
 
-Adobe Campaign附带了一组在消息准备期间应用的内置分类规则。 它们用于检查消息是否有效且符合您的质量标准。 请参阅 [分类](../../sending/using/about-typology-rules.md). 例如，您可以定义自己的分类规则，以设置全局跨渠道疲劳规则，从而自动从营销活动中排除过度投放的用户档案。 请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
+Adobe Campaign隨附一組內建型別規則，這些規則會在訊息準備期間套用。 它們用於檢查訊息是否有效並符合您的品質條件。 另請參閱 [型別](../../sending/using/about-typology-rules.md). 例如，您可以定義自己的型別規則，並設定全域跨管道疲勞規則，以自動從行銷活動中排除過度請求的設定檔。 请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
 
-**短信消息检查**
+**簡訊檢查**
 
-如果在短信消息内容中插入了个性化字段或条件文本，则这些因素可能会引入GSM编码无法识别的字符。 运行准备时，会监控消息长度，并在消息超过限制时显示警告消息。
+如果您已將個人化欄位或條件文字插入SMS訊息的內容，則這些因素可能會引進GSM編碼未考慮的字元。 執行準備作業時，會監控訊息長度，如果超過限制，則會顯示警告訊息。
 
-有关更多信息，请参阅 [短信编码、长度和音译](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 和 [个性化短信消息](../../channels/using/personalizing-sms-messages.md) 中。
+如需詳細資訊，請參閱 [SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 和 [個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md) 區段。

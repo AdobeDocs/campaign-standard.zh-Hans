@@ -1,6 +1,6 @@
 ---
 title: 监视隐私请求
-description: 了解如何使用API监控隐私请求
+description: 瞭解如何使用API監控隱私權請求
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,13 +17,13 @@ ht-degree: 16%
 
 # 监视隐私请求 {#monitoring-a-privacy-request}
 
-您可以使用 **GET** 请求。
+您可以使用監控已建立隱私權請求的相關資訊 **GET** 要求。
 
-状态列表说明可在 [隐私管理文档](../../start/using/privacy-requests.md).
+狀態清單說明可在 [隱私權管理檔案](../../start/using/privacy-requests.md).
 
 <br/>
 
-***示例请求***
+***範例請求***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -33,7 +33,7 @@ ht-degree: 16%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-响应GET请求。
+對GET要求的回應。
 
 ```
 {
