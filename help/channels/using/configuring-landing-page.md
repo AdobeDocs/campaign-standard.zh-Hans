@@ -9,9 +9,9 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '653'
 ht-degree: 97%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-您也可以使用，授權任何訪客存取登入頁面 **[!UICONTROL Authorize unidentified visitors]** 選項。
+您还可以使用授权任何访客访问登陆页面 **[!UICONTROL Authorize unidentified visitors]** 选项。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
@@ -115,4 +115,4 @@ ht-degree: 97%
 
 ![](assets/lp_parameters_google2.png)
 
-然后，Google reCAPTCHA 将根据用户与页面的交互情况返回一个分数。要查看分数，请连接到 [Google 管理控制台](https://g.co/recaptcha/admin)。
+然后，Google reCAPTCHA 将根据用户与页面的交互情况返回一个分数。要查看分数，请连接到 Google 管理控制台。
