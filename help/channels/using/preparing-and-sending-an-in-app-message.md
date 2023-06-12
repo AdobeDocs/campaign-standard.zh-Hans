@@ -60,7 +60,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。
 
-   如果您在下拉式清單中未看到任何應用程式，請確認您的行動應用程式位於 **已設定** 州別。 中的應用程式 **準備好進行設定** 狀態不會出現在清單中。 有关移动应用程序配置的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+   如果在下拉列表中未看到任何应用程序，请确保您的移动设备应用程序位于 **已配置** 省/州。 中的应用程序 **准备配置** 状态将不会显示在列表中。 有关移动应用程序配置的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -91,7 +91,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
       有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
    ![](assets/inapp_creating_4.png)
 
-1. 如果您使用 **[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據在資料收集UI中的Analytics擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
+1. 如果您使用 **[!UICONTROL Analytics Events]**、Adobe Analytics和视图状态事件将根据在数据收集UI的Analytics扩展中配置的报表包自动填充，而上下文数据事件必须手动添加。
 
    请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
 
@@ -99,7 +99,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 如果您使用 **[!UICONTROL Places]** 触发器，将根据在 Adobe Places 中创建的所有库及其兴趣点自动填充 Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-   請注意，此觸發器僅會套用至資料收集UI中Places擴充功能中選取之資料庫的Points of Interest。 有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   请注意，此触发器将仅适用于数据收集UI中Places扩展内所选库中的“目标点”。 有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 选项卡中，选择触发器的频率、开始和结束日期、在一周中的哪一天以及在一天中的哪个时间激活应用程序内消息。
 
@@ -160,15 +160,15 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 通过投放报告衡量应用程序内消息的影响。有关报告的更多信息，请参考[此章节](../../reporting/using/in-app-report.md)。
 
-1. 傳送應用程式內訊息後，您可以選擇停用傳送。 例如，如果您想要停止特定傳送，或想要使用相同的觸發程式執行新傳送，這個功能會很有用。
+1. 发送应用程序内消息后，您可以选择停用投放。 例如，如果要停止特定投放或要使用相同触发器运行新投放，这会很有用。
 
-   按一下 **[!UICONTROL Deactivate]** 則 **[!UICONTROL Ok]** 以啟動停用請求。
+   单击 **[!UICONTROL Deactivate]** 则 **[!UICONTROL Ok]** 以启动停用请求。
 
    ![](assets/inapp_sending_8.png)
 
-1. 傳送請求後，您的傳送將會停用，且不會傳送其他訊息。
+1. 发送请求后，您的投放将被停用，并且不会发送其他消息。
 
-   請注意，您仍可存取此傳遞的報告。
+   请注意，您关于此投放的报告仍可访问。
 
    ![](assets/inapp_sending_9.png)
 

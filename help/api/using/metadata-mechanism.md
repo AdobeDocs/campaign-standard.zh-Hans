@@ -1,6 +1,6 @@
 ---
 title: 元数据机制
-description: 進一步瞭解中繼資料機制。
+description: 了解有关元数据机制的更多信息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,24 +17,24 @@ ht-degree: 1%
 
 # 元数据机制 {#metadata-mechanism}
 
-您可以使用以下專案擷取資源中繼資料： **resourceType** 在GET要求中：
+您可以使用检索资源元数据 **resourceType** 在GET请求中：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-回應會從資源傳回主要中繼資料（所有其他欄位均為描述性或內部）：
+响应会从资源返回主元数据（所有其他字段均为描述性或内部）：
 
-* 此 **內容** 節點會傳回資源的欄位。 對於 **內容** 節點，我們可找到下列欄位：
+* 此 **内容** 节点返回资源的字段。 对于 **内容** 节点，可以找到以下字段：
 
-   * &quot;apiName&quot;： API中使用的屬性名稱。
-   * &quot;type&quot;：這是高階型別定義（字串、數字、連結、集合、分項清單……）。
-   * &quot;dataPolicy&quot;：欄位的值必須符合指定的原則規則。 例如，如果dataPolicy規則設為「email」，該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改值以進行轉換（例如smartCase）。
-   * &quot;category&quot;：提供查詢編輯器中欄位的類別。
-   * &quot;resType&quot;：這是技術型別。
+   * “apiName”： API中使用的属性的名称。
+   * &quot;type&quot;：这是高级类型定义（字符串、数字、链接、收藏集、明细列表……）。
+   * “dataPolicy”：字段的值必须遵循给定的策略规则。 例如，如果dataPolicy规则设置为“email”，则该值必须是有效的电子邮件。 在PATCH或POST期间，dataPolicy可以检查值或修改值以进行转换（例如smartCase）。
+   * &quot;category&quot;：在查询编辑器中提供字段的类别。
+   * &quot;resType&quot;：这是技术类型。
 
-      如果「type」是以值「link」或「collection」完成，resTarget值就是連結所定位的資源名稱。
-如果「type」以「enumeration」值填滿，則會新增「values」欄位，而每個列舉值都會詳列於 **值** 節點。
+      如果“type”以“link”或“collection”值结束，则resTarget值是链接所定向资源的名称。
+如果“type”以“enumeration”值结尾，则会添加“values”字段，并且每个枚举值在中都有详细说明。 **值** 节点。
 
-* 此 **篩選器** node會傳回URL以擷取關聯的篩選器。 如需篩選器的詳細資訊，請參閱 [本節](../../api/using/filtering.md) 區段。
+* 此 **筛选器** 节点会返回用于检索关联过滤器的URL。 有关筛选器的更多信息，请参阅 [本节](../../api/using/filtering.md) 部分。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -43,9 +43,9 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-對資源執行GET要求。
+对资源执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔資源的完整說明。
+它会返回配置文件资源的完整说明。
 
 ```
 {

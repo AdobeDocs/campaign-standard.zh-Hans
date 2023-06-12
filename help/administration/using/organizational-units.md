@@ -1,6 +1,6 @@
 ---
 title: 组织实体
-description: 使用組織單位定義使用者的存取層級
+description: 使用组织单位定义用户的访问级别
 audience: administration
 feature: Access Management
 role: Admin
@@ -15,107 +15,107 @@ ht-degree: 4%
 
 # 组织实体{#organizational-units}
 
-## 關於單位 {#about-units}
+## 关于单位 {#about-units}
 
-平台的每個物件和使用者都會連結至組織單位。 此單位允許定義階層式結構，以便為使用者提供篩選檢視。 使用者的單位會定義不同平台物件的存取層級。
+平台的每个对象和用户都链接到组织单位。 此单元允许定义层次结构，以便为用户提供筛选视图。 用户单元为不同的平台对象定义其访问级别。
 
 >[!IMPORTANT]
 >
->如果使用者未連結至任何單位，該使用者將無法連線至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至 **[!UICONTROL All]** 單位。 我們建議新增選項 **存取授權管理欄位** 在匯入任何設定檔之前。 有关更多信息，请参阅此](../../administration/using/organizational-units.md#partitioning-profiles)章节[。
+>如果用户未链接到任何设备，则该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问权限，请勿将其链接到 **[!UICONTROL All]** 单位。 我们建议添加选项 **访问授权管理字段** 在导入任何用户档案之前。 有关更多信息，请参阅此](../../administration/using/organizational-units.md#partitioning-profiles)章节[。
 >
 >默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
 
-使用者對父單位中的所有物件具有唯讀存取權。 這類使用者對其單位和子單位的所有物件具有讀寫存取權。 使用者無權存取平行分支中的物件。
+用户对父单位中的所有对象具有只读访问权限。 此类用户对其单位和子单位的所有对象具有读写访问权限。 用户无权访问并行分支中的对象。
 
-依預設，僅 **[!UICONTROL All]** 單位可用。
+默认情况下，仅 **[!UICONTROL All]** 单位可用。
 
-當指派給使用者組織單位時，此單位將始終套用至使用者建立的物件。
+当用户被分配了组织单位时，该单位将始终应用于用户创建的对象。
 
 ![](assets/user_management_2.png)
 
 >[!NOTE]
 >
->當使用者在連結至不同單位的多個群組中時，將會套用某些規則。 如需詳細資訊，請參閱 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 區段。
+>当用户位于链接到不同单位的多个组中时，将应用某些规则。 欲了解更多信息，请参见 [管理组和用户](../../administration/using/managing-groups-and-users.md) 部分。
 
-## 建立和管理單位 {#creating-and-managing-units}
+## 创建和管理单位 {#creating-and-managing-units}
 
-組織單位可讓您根據使用者連結的組織來篩選例項。 此單位可代表您執行個體中的地區、國家/地區甚至品牌。
+组织单位允许您根据用户链接到的组织筛选实例。 此单位可以代表您实例中的地区、国家/地区甚至品牌。
 
-在此處，我們先前為兩個使用者建立了具有不同角色的安全性群組：一個使用者被指派為安全性群組「管理員」和「Geometrixx」，另一個使用者屬於安全性群組標準使用者和Geometrixx服裝請參閱 [建立安全性群組並指派使用者](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 以取得完整範例。
+在本例中，我们之前创建了一些安全组，这些安全组具有分配给两个用户的不同角色：一个用户被分配了安全组“管理员”和“Geometrixx”，另一个用户属于安全组“标准用户”和“Geometrixx服饰”。请参见 [创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 查看完整示例。
 
-我們現在需要為Geometrixx服裝和Geometrixx安全性群組建立組織單位：
+现在，我们需要为Geometrixx服装和Geometrixx安全组创建组织单位：
 
-1. 從Adobe促銷活動進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
-1. 按一下 **[!UICONTROL Create]** 以開始設定您的組織單位。
+1. 从Adobe促销活动高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. 单击 **[!UICONTROL Create]** 以开始配置组织单位。
 
    ![](assets/manage_units_1.png)
 
-1. 變更預設值 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 至Geometrixx。
-1. 然後，將此單位連結至父單位。 在此，我們選擇 **[!UICONTROL All]**.
+1. 更改默认值 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 到Geometrixx。
+1. 然后，将此设备链接到父设备。 这里，我们选择 **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
 
-1. 最後，按一下 **[!UICONTROL Create]** 以開始將新的組織單位指派給安全性群組。
-1. 對「Geometrixx服裝」單位遵循相同的程式，但它的父單位必須是先前建立的單位「Geometrixx」。
+1. 最后，单击 **[!UICONTROL Create]** 开始将新的组织单位分配给安全组。
+1. 对Geometrixx服装单元执行相同的过程，但父单元必须是先前创建的单元Geometrixx。
 
    ![](assets/manage_units_3.png)
 
-若要檢視將不同單位指派給不同安全性群組的影響，指派給「管理員」和「Geometrixx」群組的使用者將建立兩個電子郵件範本，以檢視其他指派給「標準使用者」和「Geometrixx服裝」的使用者可以存取或無法存取哪些內容。
+要查看将不同设备分配给不同安全组的影响，分配给“管理员”和“Geometrixx”组的用户将创建两个电子邮件模板，以查看分配给“标准用户”和“Geometrixx服装”的其他用户可以访问或不能访问的内容。
 
-1. 從進階功能表中，選取 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
-1. 複製現有範本並視需要加以個人化。 如需詳細資訊，請參閱 [關於範本](../../start/using/marketing-activity-templates.md) 區段。
-1. 建立範本時，選取 **[!UICONTROL Edit properties]** 圖示來指派單位給您的範本。
+1. 从高级菜单中，选择 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
+1. 复制现有模板并根据需要对其进行个性化。 有关详情，请参阅 [关于模板](../../start/using/marketing-activity-templates.md) 部分。
+1. 创建模板后，选择 **[!UICONTROL Edit properties]** 图标以将设备分配给模板。
 
    ![](assets/manage_units_6.png)
 
-1. 在 **[!UICONTROL Access authorization]** 下拉式功能表，選取組織單位。
+1. 在 **[!UICONTROL Access authorization]** 下拉菜单中，选择组织单位。
 
-   我們在這裡將使用先前建立的組織單位Geometrixx建立一個範本。
+   在此，我们将使用之前创建的组织单位Geometrixx创建一个模板。
 
    ![](assets/manage_units_5.png)
 
-1. 依照相同的程式，建立指派給先前建立之Geometrixx服裝組織單位的第二個範本。
+1. 按照相同的步骤创建分配给之前创建的Geometrixx服装组织单位的第二个模板。
 
-指派給的使用者 **標準使用者** 和 **Geometrixx服裝** 群組將能夠檢視這兩個範本。 由於組織單位的階層結構，他們將擁有連結至Geometrixx服裝單位的範本的讀寫存取權，以及連結至Geometrixx單位的範本的唯讀存取權。
+分配给的用户 **标准用户** 和 **Geometrixx服装** 组将能够看到这两个模板。 由于组织单位的层次结构，他们将具有链接到Geometrixx服装单位的模板的读写访问权限，以及仅具有链接到Geometrixx单位的模板的只读访问权限。
 
 ![](assets/manage_units_7.png)
 
-由於「Geometrixx服裝」單位是Geometrixx的子單位，所以當使用者嘗試修改Geometrixx範本時，會出現下列訊息：
+由于Geometrixx服装单位是子Geometrixx单位，因此当用户尝试修改Geometrixx模板时，将显示以下消息：
 
 ![](assets/manage_units_8.png)
 
-組織單位可以限制不同功能（例如設定檔）的存取權。 例如，如果我們的Geometrixx服裝使用者存取 **[!UICONTROL Profiles]** 索引標籤上，他們將能夠透過GeometrixxClothes組織單位完全存取及修改設定檔。
+组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的Geometrixx服装用户访问 **[!UICONTROL Profiles]** 选项卡，他们将能够通过GeometrixxClothes组织单位完全访问和修改用户档案。
 
-雖然具有Geometrixx組織單位的設定檔將是唯讀的，但如果使用者嘗試修改一個設定檔，則會出現以下錯誤： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+虽然具有Geometrixx组织单位的配置文件将处于只读状态，但如果用户尝试修改一个配置文件，则会出现以下错误： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
-## 分割設定檔 {#partitioning-profiles}
+## 划分用户档案 {#partitioning-profiles}
 
 >[!IMPORTANT]
 >
->我們建議在匯入任何設定檔之前新增此選項，因為使用者無法存取沒有組織單位的設定檔。
+>我们建议在导入任何用户档案之前添加此选项，因为用户无法访问没有组织单位的用户档案。
 >
->如果您已匯入客戶資料庫，則必須進行更新，才能在已匯入的設定檔上設定組織單位值。
+>如果您已经导入了客户数据库，则需要在已导入的用户档案中设置组织单位值。
 
-如果您的組織需要隔離由每個不同品牌聯絡的設定檔，您可以按其組織單位分割您的設定檔。
+如果您的组织需要隔离由每个不同品牌联系的用户档案，则可以按其组织单位对用户档案进行分区。
 
-依預設，您的設定檔上沒有組織單位欄位可用，需要新增。
+默认情况下，组织单位字段在用户档案中不可用，需要添加。
 
-1. 從進階功能表中，透過Adobe Campaign標誌選取 **「管理>開發>自訂資源」**.
-1. 選取 **設定檔** 或建立新的自訂資源以擴充設定檔。 有關如何擴充設定檔的詳細資訊，請參閱此 [頁面](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
-1. 檢查 **新增存取授權管理欄位** 方塊以新增組織單位 **設定檔** 副檔名。
+1. 从高级菜单中，通过Adobe Campaign徽标，选择 **管理>开发>自定义资源**.
+1. 选择 **个人资料** 或创建新的自定义资源以扩展用户档案。 有关如何扩展配置文件的更多信息，请参阅此 [页面](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
+1. 查看 **添加访问授权管理字段** 框以添加组织单位 **个人资料** 扩展。
 
    ![](assets/user_management_9.png)
 
 1. 单击 **[!UICONTROL Save]**。
-1. 重新發佈自訂資源以更新結構。 如需有關發佈程式的詳細資訊，請參閱 [更新結構](../../developing/using/updating-the-database-structure.md) 區段。
+1. 通过重新发布自定义资源来更新结构。 有关发布过程的详细信息，请参阅 [更新结构](../../developing/using/updating-the-database-structure.md) 部分。
 
-組織單位欄位會新增到您的設定檔中 **[!UICONTROL Access authorization]** 區段。
+组织单位字段会添加到您的用户档案中的 **[!UICONTROL Access authorization]** 部分。
 
 ![](assets/user_management_10.png)
 
 **相关主题**：
 
-* [關於單位](../../administration/using/organizational-units.md#about-units)
+* [关于单位](../../administration/using/organizational-units.md#about-units)
 * [关于访问管理](../../administration/using/about-access-management.md)

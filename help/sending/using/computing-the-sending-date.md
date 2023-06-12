@@ -1,6 +1,6 @@
 ---
 title: 计算发送日期
-description: 瞭解如何在特定的日期和時間傳送訊息。
+description: 了解如何在特定的日期和时间发送消息。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -17,73 +17,73 @@ ht-degree: 1%
 
 # 计算发送日期{#computing-the-sending-date}
 
-您可以定義公式，以在特定日期和時間將訊息傳送給每個收件者。
+您可以定义一个公式，以在特定的日期和时间将消息发送给每个收件人。
 
-## 自訂日期公式 {#customizing-date-formula}
+## 自定义日期公式 {#customizing-date-formula}
 
-例如，您可以在啟動過程中使用傳送時間最佳化。
+例如，您可以在启动过程中使用发送时间优化。
 
-使用新平台傳送電子郵件時，網際網路服務提供者(ISP)會懷疑無法辨識的IP位址。 如果突然傳送大量電子郵件，ISP通常會將其標籤為垃圾郵件。
+使用新平台发送电子邮件时，Internet服务提供商(ISP)怀疑无法识别的IP地址。 如果突然发送大量电子邮件，ISP通常会将其标记为垃圾邮件。
 
-為避免被標籤為垃圾郵件，您可以透過在不同時間分發大量電子郵件來逐步增加傳送量。 這應該能確保啟動階段的順利開發，並且讓您能夠降低無效位址的整體比率。
+为避免被标记为垃圾邮件，您可以通过在不同时间分发大量电子邮件来逐步增加发送量。 这应能确保启动阶段的顺利发展，并使您能够降低无效地址的总速率。
 
-例如，您可以隨機區隔目標對象，以五批次傳送您的傳遞。 您將會在6月1日上午10:00傳送第一批次（代表目標對象的10%）、在24小時後傳送第二批次（代表對象的15%）等。
+例如，您可以随机细分目标受众，以分五批发送投放。 您将在6月1日上午10:00发送第一批占目标受众10%的邮件，在24小时后发送第二批占目标受众15%的邮件，依此类推。
 
-您可以使用工作流程排程此作業。
+您可以使用工作流计划此操作。
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. 存取行銷活動清單並建立新的工作流程。 另請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. 拖放 **查詢** 活動至工作流程並開啟。 請參閱 [查詢](../../automating/using/query.md) 區段。
-1. 選取對象，例如您的所有Gold客戶，然後按一下 **[!UICONTROL Confirm]** 以儲存查詢。
-1. 拖放 **細分** 活動至工作流程並開啟。 請參閱 [細分](../../automating/using/segmentation.md) 區段。
-1. 定義五個區段。 對於每個區段：
+1. 访问营销活动列表并创建新工作流。 参见 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. 拖放 **查询** 活动并将其打开到工作流中。 请参阅 [查询](../../automating/using/query.md) 部分。
+1. 选择一个受众，例如您的所有Gold客户，然后单击 **[!UICONTROL Confirm]** 以保存查询。
+1. 拖放 **分段** 活动并将其打开到工作流中。 请参阅 [分段](../../automating/using/segmentation.md) 部分。
+1. 定义五个区段。 对于每个区段：
 
-   * 填入 **[!UICONTROL Segment code]** 欄位：手動輸入傳送訊息所需的日期和時間。
+   * 填写 **[!UICONTROL Segment code]** 字段：手动输入发送消息的所需日期和时间。
 
-      例如，您想要在6月1日上午10:00 GMT+1傳送第一批次。 使用以下格式： **YYYY-MM-DD hh:mm:ss+tz**.
+      例如，您希望在6月1日上午10:00 GMT+1发送第一批数据。 使用以下格式： **YYYY-MM-DD hh:mm:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      若要在次日傳送下一個批次，請輸入 **2017-06-02 10:00:00+01** 用於第二個區段。
+      要在下一批的发送后一天发送，请输入 **2017-06-02 10:00:00+01** 用于第二个区段。
 
-      對於其餘的區段，請依照下列方式定義下一個批次：
+      对于其余的段，按以下方式定义后续的批：
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * 請務必選取 **[!UICONTROL Limit the population of this segment]** 選項。
+   * 确保选择 **[!UICONTROL Limit the population of this segment]** 选项。
 
-      在 **[!UICONTROL Limitation]** 索引標籤，選取 **[!UICONTROL Random sampling]** 並輸入每個區段的所需百分比：第一個批次10，第二個批次15，依此類推。
+      在 **[!UICONTROL Limitation]** 选项卡，选择 **[!UICONTROL Random sampling]** 并为每个段输入所需的百分比：第一个批为10，第二个批为15，依此类推。
 
       ![](assets/send-time_opt_segment_limitation.png)
 
 
-1. 定義所有區段後，選取 **[!UICONTROL Generate all segments in the same transition]** 並按一下 **[!UICONTROL Confirm]**.
+1. 定义所有区段后，选择 **[!UICONTROL Generate all segments in the same transition]** 并单击 **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. 拖放 **電子郵件傳遞** 活動至工作流程並開啟。 請參閱 [電子郵件傳遞](../../automating/using/email-delivery.md) 區段。
-1. 按一下 **[!UICONTROL Schedule]** 區段並選取 **[!UICONTROL Messages to be sent automatically on the date specified below]**.
-1. 在 **[!UICONTROL Start sending from]** 欄位，定義聯絡日期。
-1. 從傳送時間最佳化下拉式功能表中，選擇 **[!UICONTROL Send at a custom date defined by a formula]**.
-1. 按一下 **[!UICONTROL Edit an expression]** 的按鈕 **[!UICONTROL Custom date formula]** 欄位。
+1. 拖放 **电子邮件投放** 活动并将其打开到工作流中。 请参阅 [电子邮件投放](../../automating/using/email-delivery.md) 部分。
+1. 单击 **[!UICONTROL Schedule]** 区域，然后选择 **[!UICONTROL Messages to be sent automatically on the date specified below]**.
+1. 在 **[!UICONTROL Start sending from]** 字段，定义联系日期。
+1. 从发送时间优化下拉菜单中，选择 **[!UICONTROL Send at a custom date defined by a formula]**.
+1. 单击 **[!UICONTROL Edit an expression]** 的按钮 **[!UICONTROL Custom date formula]** 字段。
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. 使用以下運算式建立 **[!UICONTROL ToDateTime]** 函式和 **[!UICONTROL Segment code]** 欄位。 您也可以直接在運算式中輸入，但請務必使用正確的語法和拼字。
+1. 使用以下表达式创建 **[!UICONTROL ToDateTime]** 函数和 **[!UICONTROL Segment code]** 字段。 您也可以直接在表达式中键入，但请确保使用正确的语法和拼写。
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   此 **[!UICONTROL ToDateTime]** 函式將區段代碼從文字字串轉換為日期和時間值。
+   此 **[!UICONTROL ToDateTime]** 函数将段代码从文本字符串转换为日期和时间值。
 
-   確認運算式以返回上一個畫面。
+   确认表达式以返回到上一个屏幕。
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   在 **[!UICONTROL Schedule]** 視窗中，自訂日期公式顯示如下：
+   在 **[!UICONTROL Schedule]** 窗口中，自定义日期公式显示如下：
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -91,87 +91,87 @@ ht-degree: 1%
 
    ![](assets/send-time_opt_custom_formula.png)
 
-1. 確認排程、儲存傳遞並執行工作流程。
+1. 确认计划，保存投放并执行工作流。
 
-該傳送將在5天內逐步傳送給所有目標收件者。
+该投放将在5天内逐步发送给所有定向收件人。
 
 >[!NOTE]
 >
->確認傳送時，請確定所有日期都是未來的日期。 否則，訊息會在確認傳送後立即傳送。
+>确认发送时，请确保所有日期都是未来的日期。 否则，消息将在确认发送后立即发送。
 
 ## 使用表达式 {#using-an-expression}
 
-傳送時間最佳化對於涉及客服中心的行銷活動也很實用。 您可以確保所有訊息不會同時收到。 這可讓您的組織根據其容量處理通話次數。
+发送时间优化对于涉及呼叫中心的营销活动也很有用。 您可以确保不会同时收到所有消息。 这使您的组织能够根据其容量处理呼叫数。
 
-例如，您想要傳送電子郵件邀請客戶連絡客服中心以取得促銷優惠。 為避免客服中心人滿為患，您決定隨機將目標受眾細分，分四批傳送您的電子郵件。
+例如，您想发送一封电子邮件，邀请客户联系呼叫中心以获取促销优惠。 为避免让呼叫中心不堪重负，您决定随机细分目标受众，以分四批发送电子邮件。
 
-您可以使用工作流程排程此作業。
+您可以使用工作流计划此操作。
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. 存取行銷活動清單並建立新的工作流程。 另請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. 拖放 **查詢** 活動至工作流程並開啟。 請參閱 [查詢](../../automating/using/query.md) 區段。
-1. 選取對象，例如超過35個設定檔，然後按一下 **[!UICONTROL Confirm]** 以儲存查詢。
-1. 拖放 **細分** 活動至工作流程並開啟。 請參閱 [細分](../../automating/using/segmentation.md) 區段。
-1. 定義四個區段。 對於每個區段：
+1. 访问营销活动列表并创建新工作流。 参见 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. 拖放 **查询** 活动并将其打开到工作流中。 请参阅 [查询](../../automating/using/query.md) 部分。
+1. 选择一个受众，例如超过35个配置文件，然后单击 **[!UICONTROL Confirm]** 以保存查询。
+1. 拖放 **分段** 活动并将其打开到工作流中。 请参阅 [分段](../../automating/using/segmentation.md) 部分。
+1. 定义四个区段。 对于每个区段：
 
-   * 定義區段代碼，如下所示：
+   * 按如下方式定义区段代码：
 
-      * 上午8:00 — 上午10:00： **0**. 此訊息將於上午8:00 （聯絡日期）傳送至目標人口的第一季。
-      * 上午10:00 — 中午12:00： **2**. 訊息將於上午10:00 （聯絡日期+ 2小時）傳送至目標人口的第二季。
-      * 下午2:00 — 下午4:00： **6**. 呼叫中心在下午12:00到下午2:00之間關閉，訊息將在下午2:00 （聯絡日期+ 6小時）傳送給目標人口的第三季。
-      * 下午4:00 — 下午6:00： **8**. 訊息將於下午4:00 （聯絡日期+ 8小時）傳送至目標人口的最後一個季度。
+      * 上午8:00 — 上午10:00： **0**. 该消息将于上午8:00（联系日期）发送到目标群体的第一季度。
+      * 上午10:00 — 中午12:00： **2**. 该消息将于上午10:00（联系日期+ 2小时）发送到目标群体的第二季度。
+      * 下午2:00 — 下午4:00： **6**. 呼叫中心在下午12:00到下午2:00之间关闭，则消息将在下午2:00（联系日期+ 6小时）发送到目标人口的第三季度。
+      * 下午4:00 — 下午6:00： **8**. 该消息将于下午4:00（联系日期+ 8小时）发送给目标群体的最后一个季度。
 
       >[!NOTE]
       >
-      >聯絡日期將於稍後在工作流程中的電子郵件傳送活動中定義。
+      >联系日期将在稍后工作流中的电子邮件投放活动中定义。
 
-   * 請務必選取 **[!UICONTROL Limit the population of this segment]** 選項。
-   * 在 **[!UICONTROL Limitation]** 索引標籤，選取 **[!UICONTROL Random sampling]** 並輸入每個區段的所需百分比： **25**.
+   * 确保选择 **[!UICONTROL Limit the population of this segment]** 选项。
+   * 在 **[!UICONTROL Limitation]** 选项卡，选择 **[!UICONTROL Random sampling]** 并为每个区段输入所需的百分比： **25**.
 
 
-1. 定義所有區段後，選取 **[!UICONTROL Generate all segments in the same transition]** 並按一下 **[!UICONTROL Confirm]**.
+1. 定义所有区段后，选择 **[!UICONTROL Generate all segments in the same transition]** 并单击 **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment.png)
 
-1. 拖放 **電子郵件傳遞** 活動至工作流程並開啟。 請參閱 [電子郵件傳遞](../../automating/using/email-delivery.md) 區段。
-1. 按一下 **[!UICONTROL Schedule]** 區段。
+1. 拖放 **电子邮件投放** 活动并将其打开到工作流中。 请参阅 [电子邮件投放](../../automating/using/email-delivery.md) 部分。
+1. 单击 **[!UICONTROL Schedule]** 区域。
 1. 选择 **[!UICONTROL Messages to be sent automatically on the date specified below]**。
-1. 在 **[!UICONTROL Start sending from]** 欄位，定義聯絡日期。
+1. 在 **[!UICONTROL Start sending from]** 字段，定义联系日期。
 
-   在此範例中，選取5月25日上午8:00。
+   在此示例中，选择5月25日上午8:00。
 
-1. 從傳送時間最佳化下拉式功能表中，選擇 **[!UICONTROL Send at a custom date defined by a formula]** 並按一下 **[!UICONTROL Edit an expression]** 按鈕。
+1. 从发送时间优化下拉菜单中，选择 **[!UICONTROL Send at a custom date defined by a formula]** 并单击 **[!UICONTROL Edit an expression]** 按钮。
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. 在 **[!UICONTROL Expression editor]**，設定日期和區段代碼以計算每個客戶的資料。
+1. 在 **[!UICONTROL Expression editor]**，设置日期和区段代码以计算每个客户的数据。
 
-   在函式清單中，選取 **[!UICONTROL AddHours]**.
+   在函数列表中，选择 **[!UICONTROL AddHours]**.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   在可用的欄位中，選取 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
+   在可用字段中，选择 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   這可讓您擷取 **[!UICONTROL Start sending from]** 欄位。
+   这使您能够检索 **[!UICONTROL Start sending from]** 字段。
 
-   在函式清單中，選取 **[!UICONTROL ToInteger]**. 在可用的欄位中，選取 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
+   在函数列表中，选择 **[!UICONTROL ToInteger]**. 在可用字段中，选择 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 
-   這可讓您擷取您在區段代碼中指定的數字。
+   这使您能够检索您在区段代码中指定的编号。
 
-   您應取得下列公式：
+   您应获得以下公式：
 
    ```
    AddHours([currentDelivery/scheduling/@contactDate], ToInteger([targetData/@segmentCode]))
    ```
 
-1. 確認以儲存運算式。 確認排程、儲存傳遞並執行工作流程。
+1. 确认保存您的表达式。 确认计划，保存投放并执行工作流。
 
-* 第一個區段將在聯絡日期（5月25日上午8:00）收到訊息。
-* 第二個區段將在兩小時後（5月25日上午10:00）收到訊息。
-* 第三個區段將在六小時後（5月25日下午2:00）收到訊息。
-* 第四個區段將在八小時後（5月25日下午4:00）收到訊息。
+* 第一部分将在联系日期（5月25日上午8:00）收到消息。
+* 第二个区段将在两小时后（5月25日上午10:00）收到消息。
+* 第三个区段将在6小时后（5月25日下午2:00）收到消息。
+* 第四个区段将在八小时后（5月25日下午4点）收到消息。

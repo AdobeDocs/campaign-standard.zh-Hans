@@ -1,6 +1,6 @@
 ---
 title: 在 ISP 中断后更新退回限制条件
-description: 瞭解如何在ISP中斷後更新跳出資格。
+description: 了解如何在ISP中断后更新退回限定条件。
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
@@ -15,39 +15,39 @@ ht-degree: 4%
 
 ## 上下文
 
-如果ISP發生中斷，透過Campaign傳送的電子郵件無法成功傳遞給其收件者：這些電子郵件將錯誤標籤為跳出。
+如果ISP发生中断，通过Campaign发送的电子邮件无法成功发送给收件人：这些电子邮件将被错误标记为跳出。
 
-2020年12月，Gmail發生全球性問題，導致傳送至有效Gmail電子郵件地址的電子郵件訊息被Gmail伺服器錯誤地硬退為無效的電子郵件地址，並出現以下回應： *「550-5.1.1您嘗試存取的電子郵件帳戶不存在。」*
+2020年12月，Gmail的一个全球问题导致发送到有效Gmail电子邮件地址的一些电子邮件被Gmail服务器错误地硬退回为无效的电子邮件地址，并返回以下响应： *“550-5.1.1您尝试访问的电子邮件帐户不存在。”*
 
-Google表示Gmail中斷和作業中斷造成此問題的時間開始於12月14日早上6:55，結束於12月15日晚上6:09 EST。 我們的資料分析也顯示，Gmail在12月16日凌晨2:06 （東部標準時間）的跳出率出現非常短暫的尖峰，其中大多數發生在12月15日下午2:00 （東部標準時間）至下午6:30 （東部標準時間）之間。
+Google已声明，导致此问题出现的Gmail中断和中断从12月14日早上6:55开始，到12月15日晚上6:09 EST结束。 我们的数据分析还显示，Gmail在12月16日美国东部时间凌晨2:06的跳出率也出现了非常短暂的峰值，大多数跳出发生在12月15日美国东部时间下午2:00到下午6:30之间。
 
 >[!NOTE]
 >
->您可以檢視Google Workspace狀態控制面板，於 [此頁面](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>您可以查看Google Workspace状态功能板，网址为 [此页面](https://www.google.com/appsstatus#hl=en&amp;v=status).
 
 
-根據標準退信處理邏輯，Adobe Campaign會使用自動將這些收件者新增至隔離清單 **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**. 若要修正此問題，您需要尋找並移除這些收件者，或變更其收件者，以更新Campaign中的隔離表格 **[!UICONTROL Status]** 至 **[!UICONTROL Valid]** 以便「夜間清理」工作流程會將其移除。
+根据标准退回处理逻辑，Adobe Campaign会使用自动将这些收件人添加到隔离列表 **[!UICONTROL Status]** 设置 **[!UICONTROL Quarantine]**. 要更正此问题，您需要通过查找并移除这些收件人或更改其在Campaign中的隔离表来更新隔离表 **[!UICONTROL Status]** 到 **[!UICONTROL Valid]** 以便“夜间清理”工作流会删除它们。
 
-若要尋找受此Gmail問題影響的收件者，或如果其他任何ISP再次發生此問題，請參閱下列指示。
+要查找受此Gmail问题影响的收件人，或者如果任何其他ISP再次发生此问题，请参阅下面的说明。
 
 ## 更新流程
 
-您必須在隔離表格上執行查詢，以篩選出所有可能受到中斷影響的Gmail （或其他ISP）收件者，以便將其從隔離清單中移除，並包含在將來的Campaign電子郵件傳送中。
+您需要对隔离表运行查询，以筛选出所有可能受停机影响的Gmail（或其他ISP）收件人，以便将其从隔离列表中删除，并包含在将来的Campaign电子邮件投放中。
 
-根據事件的時間範圍，以下是此查詢的建議准則。
+根据事件的时间范围，以下是此查询的建议准则。
 
 >[!IMPORTANT]
 >
->這些日期/時間以東部標準時區(EST)為基礎。 請根據您的執行個體時區進行調整。
+>这些日期/时间基于东部标准时区(EST)。 请根据实例的时区进行调整。
 
-對於具有SMTP退回回應資訊的Campaign執行個體， **[!UICONTROL Error text]** 隔離清單的欄位：
+对于包含SMTP退回响应信息的Campaign实例 **[!UICONTROL Error text]** 隔离列表的字段：
 
-* **錯誤文字（隔離文字）** 包含「550-5.1.1您嘗試存取的電子郵件帳戶不存在」及 **錯誤文字（隔離文字）** 包含「support.google.com」**
-* **更新狀態(@lastModified)** 2020年12月14日或之後6:55:上午00
-* **更新狀態(@lastModified)** 2020年12月16日或之前6:00:上午00
+* **错误文本（隔离文本）** 包含“550-5.1.1您尝试访问的电子邮件帐户不存在”和 **错误文本（隔离文本）** 包含“support.google.com”**
+* **更新状态(@lastModified)** 2020年12月14日或之后6:55:上午00
+* **更新状态(@lastModified)** 2020年12月16日或之前6:00:上午00
 
-取得受影響的收件者清單後，您就可以將收件者設定為 **[!UICONTROL Valid]** 因此，會將他們從隔離清單中移除， **[!UICONTROL Database cleanup]** 工作流程，或從表格中刪除工作流程。
+获得受影响的收件人列表后，可以将他们设置为状态 **[!UICONTROL Valid]** 因此它们将被从隔离列表中删除 **[!UICONTROL Database cleanup]** 工作流，或者只是从表中删除它们。
 
 **相关主题：**
-* [瞭解傳遞失敗](../../sending/using/understanding-delivery-failures.md)
+* [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [退回邮件鉴别](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

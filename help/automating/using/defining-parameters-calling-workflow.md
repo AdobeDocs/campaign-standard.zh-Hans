@@ -1,6 +1,6 @@
 ---
 title: 在调用工作流时定义参数
-description: 本節詳細說明如何使用外部引數呼叫工作流程。
+description: 本节详细介绍如何使用外部参数调用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,26 +17,26 @@ ht-degree: 13%
 
 # 在调用工作流时定义参数 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明呼叫工作流程時如何定義引數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](../../api/using/triggering-a-signal-activity.md).
+本节详细说明如何在调用工作流时定义参数。 有关如何通过API调用执行此操作的更多信息，请参阅 [REST API文档](../../api/using/triggering-a-signal-activity.md).
 
-在定義引數之前，請確定：
+在定义参数之前，请确保：
 
-* 引數已在以下連結中宣告： **[!UICONTROL External Signal]** 活動。 请参阅[此页](../../automating/using/declaring-parameters-external-signal.md)。
-* 包含訊號活動的工作流程正在執行。
+* 参数已在以下文件中声明： **[!UICONTROL External Signal]** 活动。 请参阅[此页](../../automating/using/declaring-parameters-external-signal.md)。
+* 包含信号活动的工作流正在运行。
 
-若要設定 **[!UICONTROL End]** 活動，請遵循下列步驟：
+要配置 **[!UICONTROL End]** 活动，请按照以下步骤操作：
 
-1. 開啟 **[!UICONTROL End]** 活動，然後選取 **[!UICONTROL External signal]** 標籤。
-1. 選取您要呼叫的工作流程和外部訊號活動。
-1. 按一下 **[!UICONTROL Create element]** 按鈕以新增引數，然後填寫其名稱和值。
+1. 打开 **[!UICONTROL End]** 活动，然后选择 **[!UICONTROL External signal]** 选项卡。
+1. 选择要调用的工作流和外部信号活动。
+1. 单击 **[!UICONTROL Create element]** 按钮以添加参数，然后填写其名称和值。
 
-   * **[!UICONTROL Name]**：在中宣告的名稱 **[!UICONTROL External signal]** 活動(請參閱 [此頁面](../../automating/using/declaring-parameters-external-signal.md))。
-   * **[!UICONTROL Value]**：您要指派給引數的值。 值應遵循 **標準語法**，詳見 [本節](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**：在中声明的名称 **[!UICONTROL External signal]** 活动(请参阅 [此页面](../../automating/using/declaring-parameters-external-signal.md))。
+   * **[!UICONTROL Value]**：要分配给参数的值。 该值应跟在 **标准语法**，如中所述 [本节](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >請確定所有引數都已在 **[!UICONTROL External signal]** 活動。 否则，运行活动时将出错。
+   >确保已在以下位置声明所有参数： **[!UICONTROL External signal]** 活动。 否则，运行活动时将出错。
 
-1. 定義引數後，請確認活動，然後儲存工作流程。
+1. 定义参数后，确认活动，然后保存工作流。

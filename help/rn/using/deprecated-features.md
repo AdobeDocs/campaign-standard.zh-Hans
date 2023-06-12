@@ -38,13 +38,13 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>與Audience Destinations服務整合</strong><br /> </th> 
+   <th> <strong>与Audience Destinations服务集成</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Audience Destinations服務整合。 </p>
-   <p>若為新的實作，您無法再將Audience Destinations服務與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
+   <td> <p> 从Campaign Standard21.3版本开始，弃用与Audience Destinations服务的集成。 </p>
+   <p>对于新的实施，您无法再将Audience Destinations服务与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
      <em>目标移除日期：2023 年</em></p>
      </td> 
   </tr> 
@@ -54,13 +54,13 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>與Adobe Experience Platform Data Connector整合</strong><br /> </th> 
+   <th> <strong>与Adobe Experience Platform Data Connector集成</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Adobe Experience Platform Data Connector整合。 </p>
-   <p>若為新的實作，您無法再將Adobe Experience Platform Data Connector與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
+   <td> <p> 从Campaign Standard21.3版本开始，弃用与Adobe Experience Platform Data Connector的集成。 </p>
+   <p>对于新的实施，您无法再将Adobe Experience Platform Data Connector与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
      <em>目标移除日期：2023 年</em></p>
      </td> 
   </tr> 
@@ -76,7 +76,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a> 以建立並個人化您的電子郵件內容。 </p></br>
+   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> 创建和个性化电子邮件内容。 </p></br>
    <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
   </td> 
   </tr> 
@@ -91,7 +91,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自Campaign第18.7發行版本開始，不再使用地理單位。 组织单位和地理单位在 Campaign 中是完全相同的构造。用户应仅使用组织单位来构建其用户权限/数据访问层次结构。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hans#administrating">了解详情</a>。请注意，从 18.7 版本开始，新 Campaign Standard 实例以及未创建地理单位的现有实例无法实现此功能。</p>
+   <td> <p>从Campaign 18.7版本开始，弃用地理单位。 组织单位和地理单位在 Campaign 中是完全相同的构造。用户应仅使用组织单位来构建其用户权限/数据访问层次结构。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hans#administrating">了解详情</a>。请注意，从 18.7 版本开始，新 Campaign Standard 实例以及未创建地理单位的现有实例无法实现此功能。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -111,10 +111,10 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解详情</a>。</p><br/>
-   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
-   <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法獲得客戶服務支援或存取論壇。</p>
-   <p>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在此頁面中</a>.</p></br>
+   <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解详情</a>。</p><br/>
+   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud特性和功能。</p>
+   <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
+   <p>了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本页内容</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -138,13 +138,13 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 <table> 
  <thead> 
  <tr> 
-   <th> <strong>預測性主旨列</strong><br /> </th> 
+   <th> <strong>预测主题行</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自2021年4月起，「預測性主旨行」功能將停止支援。</p><br/>
-   <p>我們建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解详情</a></p></br>
+   <td> <p> 从2021年4月开始，“预测主题行”功能停用。</p><br/>
+   <p>我们建议您利用AI支持的电子邮件功能，根据历史参与量度分析和预测开放率、最佳发送时间和可能的客户流失。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解详情</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -173,7 +173,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，影像版本由 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，已無法再使用Campaign Standard中的電子郵件。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，图像编辑功能由 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 

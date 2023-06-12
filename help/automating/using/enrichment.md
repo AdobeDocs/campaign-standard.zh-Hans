@@ -34,8 +34,8 @@ ht-degree: 96%
 
 **相关主题**
 
-* [使用案例：使用檔案中包含的資料擴充設定檔資料](../../automating/using/enriching-profile-data-file.md).
-* [使用案例：傳送包含擴充欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
+* [用例：使用文件中包含的数据扩充用户档案数据](../../automating/using/enriching-profile-data-file.md).
+* [用例：发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
 
 ## 配置 {#configuration}
 

@@ -1,10 +1,10 @@
 ---
-title: Campaign傳遞最佳實務
+title: Campaign投放最佳实践
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 瞭解透過Adobe Campaign進行的傳遞設計與傳送相關的最佳實務。
+description: 了解与Adobe Campaign的交付设计和发送相关的最佳实践。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,36 +18,36 @@ ht-degree: 7%
 
 # 投放最佳实践 {#delivery-best-practices}
 
-瞭解透過Adobe Campaign進行的傳遞設計與傳送相關的最佳實務。 使用以下連結導覽主題並尋找指引。
+了解与Adobe Campaign的交付设计和发送相关的最佳实践。 使用以下链接可导航主题并查找指南。
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[最佳化傳遞](optimize-delivery.md)**  — 確保傳送流程安全並最佳化
+**[优化投放](optimize-delivery.md)**  — 保护和优化发送过程
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用範本](use-templates.md)**  — 促進並加速新交付專案
+**[使用模板](use-templates.md)**  — 促进和加速新投放
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[個人化內容](design-and-personalize.md)**  — 套用正確的設定
+**[使内容个性化](design-and-personalize.md)**  — 应用正确的设置
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[定義正確的對象](define-the-right-audience.md)**  — 套用正確的設定
+**[定义正确的受众](define-the-right-audience.md)**  — 应用正确的设置
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[傳送前先檢查](check-before-sending.md)**  — 避免常見錯誤
+**[发送前检查](check-before-sending.md)**  — 避免常见错误
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[追蹤和監視](track-and-monitor.md)**  — 控制傳送及疑難排解
+**[跟踪和监视](track-and-monitor.md)**  — 控制发送和故障排除
 
-## 相關內容
+## 相关内容
 
-* [開始使用傳遞能力](../../sending/using/about-deliverability.md)
+* [可投放性入门](../../sending/using/about-deliverability.md)
 
 * [消息入门](../../channels/using/get-started-communication-channels.md)
 
-* [隱私權與同意建議](../../start/using/privacy.md)
+* [隐私和同意建议](../../start/using/privacy.md)

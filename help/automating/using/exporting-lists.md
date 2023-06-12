@@ -1,6 +1,6 @@
 ---
 title: 导出列表
-description: Adobe Campaign可讓您將總覽畫面中顯示為清單的資料直接匯出到檔案中，以供日後使用。
+description: Adobe Campaign允许您直接从概述屏幕中将显示为列表的数据导出到文件中，以供将来使用。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -17,45 +17,45 @@ ht-degree: 6%
 
 # 导出列表{#exporting-lists}
 
-Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 匯出檔案中的清單會在以下位置產生記錄專案： **[!UICONTROL Export audits]** 功能表。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
+Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 导出文件中的列表会在中生成一个日志条目 **[!UICONTROL Export audits]** 菜单。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
 
-![](assets/do-not-localize/how-to-video.png) [瞭解如何在視訊中設定清單](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中配置列表](#video)
 
-匯出清單選項預設會匯出最多100,000行，並且由 **Nms_ExportListLimit** 選項。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表。
+默认情况下，导出列表选项允许导出最多100,000行，具体行数由 **Nms_ExportListLimit** 选项。 该选项可由功能管理员管理，位于 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜单。
 
-匯出清單可在所有具有「 」的畫面中使用。 **清單** 模式檢視，適用於擁有下列專案的使用者： **[!UICONTROL EXPORT (export)]** 角色。
+导出列表适用于所有具有 **列表** 模式视图，适用于具有以下特征的用户： **[!UICONTROL EXPORT (export)]** 角色。
 
-1. 前往您選擇的 **清單** 畫面。 例如，測試設定檔概述畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
-1. 檢查熒幕是否在 **清單** 模式。
+1. 转到您选择的 **列表** 屏幕。 例如，测试用户档案概述屏幕( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
+1. 检查屏幕是否位于 **列表** 模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用以您要匯出的順序來組織清單中的欄 **[!UICONTROL Configure list]** 按鈕，位於右上角。 除了已設定的欄外，也會匯出資源的主索引鍵。
-1. 您也可以套用篩選器。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
+1. 使用将列表中的列按您想要导出的顺序组织 **[!UICONTROL Configure list]** 按钮，位于右上角。 除了已配置的列之外，还将导出资源的主键。
+1. 如果需要，可以应用过滤器。 为此，请单击左上角的按钮以显示搜索窗格。
 
-   如果您從包含不同資源的清單執行匯出，則必須套用篩選器，以便在清單中僅顯示一種型別的資源。
+   如果从包含不同资源的列表执行导出，则必须应用过滤器，以便列表中只显示一种类型的资源。
 
-1. 您也可以將所選的欄排序。
-1. 選取匯出按鈕 ![](assets/exportlistbutton.png).
+1. 如果需要，可对所选列进行排序。
+1. 选择导出按钮 ![](assets/exportlistbutton.png).
 
-   將會出現快顯視窗以確認匯出。 在您確認匯出後，檔案會自動下載到您的電腦。
+   此时将显示一个用于确认导出的弹出窗口。 确认导出后，文件将自动下载到您的计算机。
 
-檔案會以CSV格式產生，副檔名為.TXT。 會根據匯出的資源和匯出日期來命名。 例如：名稱profileBase_20150426_120253.txt將套用至2015年4月26日在12點執行的設定檔匯出:02:53. 會以UTF-8格式編碼。
+该文件以CSV格式生成，扩展名为.TXT。 根据导出的资源和导出日期进行命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12点执行的配置文件导出:02:53. 它以UTF-8格式编码。
 
-數值和日期會考量執行匯出之使用者的當地時間（地區設定）。 例如：DD-MM-YYYY或MM-DD-YYYY。
+数值和日期会考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 
-若要執行大於此值的匯出，您必須建立專用工作流程。 請參閱 [擷取檔案](../../automating/using/extract-file.md) 區段。
+要执行大于此值的导出，您必须创建一个专用工作流。 请参阅 [提取文件](../../automating/using/extract-file.md) 部分。
 
 **示例**
 
-以下範例是從以下定義的設定檔清單執行的匯出：
+以下示例是从下面定义的配置文件列表中执行的导出：
 
-* 顯示的欄（依序）：姓氏、名字、出生日期、電子郵件地址。
-* 名稱會依字母順序排序。
+* 显示的列（按顺序）：姓氏、名字、出生日期、电子邮件地址。
+* 名称按字母顺序排序。
 
 ![](assets/export_list_example1.png)
 
-產生的檔案顯示如下（前10筆記錄）：
+生成的文件（对于前10条记录）如下所示：
 
 ```
 Last name;First name;Birth date;Email;Zip code
@@ -76,10 +76,10 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [角色](../../administration/using/list-of-roles.md)
 * [自定义列表](../../start/using/customizing-lists.md)
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-本影片說明如何設定清單。
+本视频说明如何配置列表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

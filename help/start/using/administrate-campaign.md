@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個指定資源的元素。」
+description: “了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和行为：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -12,7 +12,7 @@ ht-degree: 18%
 ---
 
 
-# 管理您的執行個體
+# 管理实例
 
 <table>
 <tr>
@@ -32,8 +32,8 @@ ht-degree: 18%
 <tr>
 <td>Campaign 数据模型</td>
 <td>使用REST API</td>
-<td>管理使用者</td>
-<td>設定和監視您的執行個體</td>
+<td>管理用户</td>
+<td>配置和监控实例</td>
 </tr>
 </table>
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花纹犀牛。 整数luctus blandit ligula。 Nulla quis vehicula augue，一种松树林蛇。 弗林吉利亚牛排疑心。 莫里斯大发雷霆。 空车和空车。 埃尼安·特勒斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -52,29 +52,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利�
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花纹犀牛。 整数luctus blandit ligula。 Nulla quis vehicula augue，一种松树林蛇。 弗林吉利亚牛排疑心。 莫里斯大发雷霆。 空车和空车。 埃尼安·特勒斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
 * xxxx
 * xxxx
 
-## 管理使用者
+## 管理用户
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花纹犀牛。 整数luctus blandit ligula。 Nulla quis vehicula augue，一种松树林蛇。 弗林吉利亚牛排疑心。 莫里斯大发雷霆。 空车和空车。 埃尼安·特勒斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
 * xxxx
 * xxxx
 
-## 設定和監視您的執行個體
+## 配置和监控实例
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花纹犀牛。 整数luctus blandit ligula。 Nulla quis vehicula augue，一种松树林蛇。 弗林吉利亚牛排疑心。 莫里斯大发雷霆。 空车和空车。 埃尼安·特勒斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 

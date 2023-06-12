@@ -1,6 +1,6 @@
 ---
 title: 热门点击
-description: 透過現成可用的熱門點選報告，瞭解您的客戶在傳送時點選的位置。
+description: 使用热门点击现成报告，了解客户在投放时的点击位置。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,61 +18,61 @@ ht-degree: 0%
 
 # 热门点击{#hot-clicks}
 
-此報表可從以下網址存取： **[!UICONTROL Reports]** 個按鈕（在每個傳遞或交易式訊息中）。
+此报表可从以下位置访问： **[!UICONTROL Reports]** 按钮。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-它會顯示訊息內容(HTML和/或文字)以及每個連結的點按百分比。
+它会显示消息内容(HTML和/或文本)以及每个链接上的点击百分比。
 
 ![](assets/delivery_reports_10.png)
 
-如果您為傳送建立了動態內容，則可檢視您所定義之每個條件的百分比。 如需在傳遞中插入條件式內容的詳細資訊，請參閱 [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+如果为投放创建了动态内容，则可以查看所定义每个条件的百分比。 有关在投放中插入条件内容的更多信息，请参阅 [定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-例如，假設您建立的傳送符合以下條件：
+例如，假设您创建了一个包含以下条件的投放：
 
-* 如果收件者是男性或女性，則主要影像上的連結會不同。
-* 您也新增了特殊優惠方案的連結，但僅限25歲以上的收件者看到。
+* 如果收件人是男性或女性，则主图像上的链接会不同。
+* 您还添加了一个指向特殊优惠的链接，该优惠仅对25岁以上的收件人可见。
 
-傳送訊息後，選取 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從傳遞控制面板。
+发送消息后，选择 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 投放仪表板中的。
 
-依預設，未選取任何設定檔。 僅顯示性別不明的收件者以及25歲以下或年齡不明的收件者的點按。
+默认情况下，未选择配置文件。 仅显示性别不明的收件人以及25岁以下或年龄不明的收件人的点击量。
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-若要顯示女性點按次數，請按一下 **[!UICONTROL Change profile]** 按鈕並選取女性測試設定檔。 若要顯示男性的點按次數，請以類似方式進行，並選取男性測試設定檔。
+要显示女性点击次数，请单击 **[!UICONTROL Change profile]** 按钮并选择女性测试用户档案。 要显示男性的点击次数，请执行类似操作并选择男性测试用户档案。
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-若要顯示25歲以上收件者的點按次數，請按一下 **[!UICONTROL Change profile]** 按鈕並選取其出生日期符合此條件的測試設定檔。
+要显示25岁以上收件人的点击量，请单击 **[!UICONTROL Change profile]** 按钮并选择其出生日期与此条件匹配的测试用户档案。
 
-如需測試設定檔的詳細資訊，請參閱 [關於測試設定檔](../../audiences/using/managing-test-profiles.md).
-
->[!NOTE]
->
->特定連結的點按次數是傳遞中所有條件式內容的總點按次數的百分比。 因此，如果您已定義動態內容，則針對特定測試設定檔顯示的百分比總數可能不等於100。
-
-同樣地，對於循環傳送和交易式訊息，您可以選取與您要顯示的動態內容對應的測試設定檔，但您也可以根據所選的執行傳送檢視點按百分比。
-
-執行傳送是無法執行且無法運作的技術訊息，會在下列情況下建立：
-
-* 每次執行或更新循環傳送時。
-
-   例如，如果管理此傳送的工作流程每月執行一次，則每月將有一個執行傳送。 此外，每次更新傳送內容時，都會建立額外的執行傳送。
-
-   如需定期電子郵件傳送的詳細資訊，請參閱 [電子郵件傳遞](../../automating/using/email-delivery.md).
-
-* 根據預設，交易式訊息每月會發佈一次，而每次交易式訊息都需編輯並再次發佈。
-
-   如需異動訊息的詳細資訊，請參閱 [開始使用異動訊息](../../channels/using/getting-started-with-transactional-msg.md).
+有关测试用户档案的更多信息，请参阅 [关于测试用户档案](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
->由於每次執行的追蹤URL的ID不同，因此無法彙總指定訊息的所有執行傳遞的熱點按資料。 一次只能針對一個執行傳送顯示它。
+>特定链接的点击数是投放中所有条件内容的总点击数的百分比。 因此，如果您定义了动态内容，则为特定测试用户档案显示的百分比总数可能不等于100。
 
-傳送訊息後，選取 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從傳遞控制面板。
+同样，对于定期投放和事务性消息，您可以选择与要显示的动态内容对应的测试用户档案，也可以根据选定的执行投放查看点击百分比。
 
-依預設，會選取最後一個執行傳送。 按一下 **[!UICONTROL Change execution delivery]** 按鈕以選取其他按鈕。
+执行投放是在以下情况下创建的不可操作且不起作用的技术消息：
+
+* 每次执行或更新循环投放时。
+
+   例如，如果管理此投放的工作流每月执行一次，则每月将有一个执行投放。 此外，每次更新投放内容时，都会创建一个额外的执行投放。
+
+   有关定期电子邮件投放的更多信息，请参阅 [电子邮件投放](../../automating/using/email-delivery.md).
+
+* 默认情况下，事务型消息每月发布一次，并且每次都再次编辑和发布事务型消息。
+
+   有关事务型消息的更多信息，请参阅 [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md).
+
+>[!NOTE]
+>
+>由于每次执行的跟踪URL的ID不同，因此无法聚合给定消息的所有执行投放的热点点击数据。 一次只能为一个执行投放显示它。
+
+发送消息后，选择 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 投放仪表板中的。
+
+默认情况下，选择最后一次执行投放。 单击 **[!UICONTROL Change execution delivery]** 按钮以选择其他按钮。
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-只會顯示所選傳遞執行的點按百分比。
+仅显示选定投放执行的点击百分比。

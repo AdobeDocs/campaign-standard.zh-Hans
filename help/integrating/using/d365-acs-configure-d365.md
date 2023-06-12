@@ -1,6 +1,6 @@
 ---
 title: 为 Campaign 集成配置 Microsoft Dynamics 365
-description: 瞭解如何設定Microsoft Dynamics 365以進行Campaign整合。
+description: 了解如何为Campaign集成配置Microsoft Dynamics 365。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -15,126 +15,126 @@ ht-degree: 1%
 
 ---
 
-# 設定Microsoft Dynamics 365以與Adobe Campaign Standard整合
+# 配置Microsoft Dynamics 365以便与Adobe Campaign Standard集成
 
-瞭解如何設定Microsoft Dynamics 365整合，以及透過Adobe Campaign Standard進行跨管道通訊時啟用您的CRM資料。
+了解如何在与Adobe Campaign Standard的跨渠道通信上配置Microsoft Dynamics 365集成并激活您的CRM数据。
 
 ## 概述
 
-Adobe Campaign Standard與Microsoft Dynamics 365整合的一般說明請參閱 [此頁面](../../integrating/using/d365-acs-get-started.md).
+有关Adobe Campaign Standard与Microsoft Dynamics 365集成的一般描述，请参见 [此页面](../../integrating/using/d365-acs-get-started.md).
 
-您必須設定多個應用程式才能啟用整合，不過本文會重點介紹Dynamics 365中所需的步驟。
+需要配置多个应用程序才能启用集成，但是，本文将重点介绍Dynamics 365中所需的步骤。
 
 ## 先决条件
 
-在此檔案中執行預先整合設定之前，假設您已布建並擁有貴組織的Microsoft Dynamics 365執行個體的管理員存取權。  如果尚未發生此情況，則您需要聯絡Microsoft客戶支援以完成Dynamics 365布建。
+在执行本文档中的预集成设置之前，假定您已配置并拥有组织的Microsoft Dynamics 365实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Microsoft客户支持以完成Dynamics 365配置。
 
-如果您要設定中繼和生產環境的整合，則需要為中繼和生產的Dynamics 365執行個體執行以下步驟。 如果您要設定中繼或生產Dynamics 365例項，以下的一些指示會稍有不同(例如，對於生產例項，請選取「prod」 `<stage or prod>`)
+如果您要为暂存环境和生产环境配置集成，则需要为暂存环境和生产Dynamics 365实例执行以下步骤。 以下一些说明略有不同，具体取决于您配置的是暂存还是生产Dynamics 365实例(例如，对于生产实例，选择“prod”作为 `<stage or prod>`)
 
-## 設定應用程式和許可權
+## 设置应用程序和权限
 
-OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 365執行個體進行驗證，以便將Campaign Standard體驗事件發佈到Microsoft Dynamics 365介面的時間軸檢視。
+OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365实例进行身份验证，以便将Campaign Standard体验事件发布到Microsoft Dynamics 365界面的时间线视图。
 
-主要步驟概述於下列影片中：
+以下视频概述了主要步骤：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27637)
 
-若要產生OAuth存取權杖，請遵循下列步驟。
+要生成OAuth访问令牌，请执行以下步骤。
 
-### 註冊新的應用程式 {#register-a-new-app}
+### 注册新应用程序 {#register-a-new-app}
 
-1. 在您的管理員登入下，登入 [portal.azure.com](https://portal.azure.com){target="_blank"}.
+1. 在管理员登录下，登录到 [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
-1. 按一下 **[!UICONTROL Azure Active Directory]** ，然後按一下 **[!UICONTROL App registrations]** 在出現的子選單上。
+1. 单击 **[!UICONTROL Azure Active Directory]** ，然后单击 **[!UICONTROL App registrations]** 在出现的子菜单上。
 
-1. 按一下 **[!UICONTROL New registration]** 在熒幕上方。
+1. 单击 **[!UICONTROL New registration]** 在屏幕顶部。
 
-1. 填寫應用程式註冊畫面：
+1. 填写应用程序注册屏幕：
 
-   * 名稱： adobe campaign `<stage or prod>`
-   * 支援的帳戶型別： **[!UICONTROL Accounts in this organizational directory only]** （預設值）
+   * 名称： adobe campaign `<stage or prod>`
+   * 支持的帐户类型： **[!UICONTROL Accounts in this organizational directory only]** （默认值）
 
-如需建立新應用程式的詳細資訊，請參閱 [本節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+有关创建新应用程序的更多信息，请参阅 [本节](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
->Microsoft Azure Directory會指派唯一的應用程式（使用者端） ID給您的應用程式。 您稍後在設定Dynamics 365時，以及執行整合工具設定時，都需要此ID。
+>Microsoft Azure Directory为您的应用程序分配一个唯一的应用程序（客户端）ID。 稍后，在配置Dynamics 365以及执行集成工具设置时，您将需要此ID。
 
-### 產生使用者端密碼 {#generate-a-client-secret}
+### 生成客户端密码 {#generate-a-client-secret}
 
-1. 在應用程式總覽畫面上的左側子功能表中，按一下 **[!UICONTROL Certificates and Secrets > New client secret]**
+1. 在应用程序概述屏幕的左侧子菜单中，单击 **[!UICONTROL Certificates and Secrets > New client secret]**
 
-1. 輸入說明、設定持續時間，然後按一下 **[!UICONTROL OK]**.
+1. 输入说明，设置持续时间，然后单击 **[!UICONTROL OK]**.
 
-您的使用者端密碼現在已建立。 暫時保留值，以完成整合工具的預先整合設定。
+您的客户端密钥现已创建。 暂时保留该值，以完成集成工具的预集成设置。
 
 >[!CAUTION]
 >
->視需要保留此值，以完成整合工具預先整合設定。 之後無法擷取。
+>根据需要保留此值，以完成集成工具预集成设置。 之后无法检索它。
 
 
-### 設定許可權
+### 设置权限
 
-1. 從此畫面或應用程式總覽畫面，按一下 **[!UICONTROL API permissions]** 在左側的子功能表中。  按一下 **[!UICONTROL Add a permission]**，您需要選取 **[!UICONTROL Dynamics CRM]** （在功能表中）。
+1. 从此屏幕或应用程序概述屏幕中，单击 **[!UICONTROL API permissions]** 左侧子菜单中。  单击后 **[!UICONTROL Add a permission]**，您需要选择 **[!UICONTROL Dynamics CRM]** 在菜单中。
 
-1. 然後勾選方塊 **[!UICONTROL user_impersonation]**，然後按一下 **[!UICONTROL Add permissions]** 按鈕。
+1. 然后选中 **[!UICONTROL user_impersonation]**，然后单击 **[!UICONTROL Add permissions]** 按钮。
 
-如需許可權設定的詳細資訊，請參閱 [本節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
+有关权限设置的更多信息，请参阅 [本节](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
-### 建立應用程式使用者
+### 创建应用程序用户
 
-此新使用者是一般使用者。 應用程式將使用此應用程式：此使用者將完成使用API對Microsoft Dynamics 365所做的任何變更。 若要建立，請遵循下列步驟：
+此新用户是通用用户。 应用程序将使用该接口：该用户将对使用API的Microsoft Dynamics 365进行任何更改。 要创建它，请执行以下步骤：
 
-1. 導覽至您的Dynamics 365執行個體並以管理員身分登入。
+1. 导航到您的Dynamics 365实例，并以管理员身份登录。
 
-1. 按一下右上角的齒輪圖示，然後按一下 **[!UICONTROL Advanced Settings]**. 在頂端橫幅中，按一下旁邊的下拉式清單 **[!UICONTROL Settings]**，按一下 **[!UICONTROL Security > Users]**.
+1. 单击右上角的齿轮图标，然后单击 **[!UICONTROL Advanced Settings]**. 在顶部横幅中，单击旁边的下拉菜单 **[!UICONTROL Settings]**，单击 **[!UICONTROL Security > Users]**.
 
-1. 按一下下拉式功能表，前往 **[!UICONTROL Application Users]**. 单击 **[!UICONTROL New]**。
+1. 单击下拉菜单转到 **[!UICONTROL Application Users]**. 单击 **[!UICONTROL New]**。
 
-1. 確定使用者圖示旁的下拉式清單顯示 **[!UICONTROL USER:APPLICATION USER]**.
+1. 确保用户图标旁边的下拉菜单显示 **[!UICONTROL USER:APPLICATION USER]**.
 
-   填寫新使用者的畫面。  引數建議：
+   填写新用户的屏幕。  参数建议：
 
-   * **[!UICONTROL User Name]** （電子郵件）： adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (例如adobe_api_stage@some-company.crm.dynamics.com)
-   * **[!UICONTROL Application ID]**：您在Azure AD中註冊的應用程式ID （此為必要）
-   * 您可以保留空白 **[!UICONTROL Application ID URI]** 和 **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL User Name]** （电子邮件）：adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot;(例如，adobe_api_stage@some-company.crm.dynamics.com)
+   * **[!UICONTROL Application ID]**：您在Azure AD中注册的应用程序的ID（这是必需的）
+   * 您可以留空 **[!UICONTROL Application ID URI]** 和 **[!UICONTROL Azure AD Object ID]**
    * **[!UICONTROL Full Name]**：AdobeAPI `<stage or prod>`
-   * **[!UICONTROL Email]**：與 **[!UICONTROL User Name]** (或管理員的電子郵件（如果您願意）)
+   * **[!UICONTROL Email]**：与 **[!UICONTROL User Name]** （如果您愿意，也可以使用管理员的电子邮件）
 
-   如需應用程式使用者建立的詳細資訊，請參閱 [本節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
+   有关创建应用程序用户的更多信息，请参阅 [本节](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
-1. 按一下使用者圖示並上傳Adobe Campaign圖示；這是當Dynamics 365中出現新Adobe事件時，顯示在「時間軸」檢視中的圖示。
+1. 单击用户图标并上传Adobe Campaign图标；当新的Adobe事件出现在Dynamics 365中时，此图标将显示在“时间轴”视图中。
 
-1. 按一下以開啟使用者角色清單 **[!UICONTROL MANAGE ROLES]** 在頂端功能區中。
+1. 通过单击打开用户角色列表 **[!UICONTROL MANAGE ROLES]** 在顶部功能区中。
 
-1. 向下捲動並選取 **[!UICONTROL System administrator]** 此使用者的存取權。
+1. 向下滚动并选择 **[!UICONTROL System administrator]** 此用户的访问权限。
 
 1. 单击 **[!UICONTROL OK]**。
 
-### 取得租使用者ID {#get-the-tenant-id}
+### 获取租户ID {#get-the-tenant-id}
 
-依照指示操作 [在此頁面中](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) 以尋找您的租使用者ID。  在整合工具的預先整合設定期間，您將需要此ID。
+按照说明操作 [本页内容](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) 以查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
 
-## 安裝Microsoft Dynamics 365Campaign Standard {#install-appsource-app}
+## 安装Microsoft Dynamics 365Campaign Standard {#install-appsource-app}
 
-若要將Dynamics 365應用程式整合至您的Campaign Standard環境，請遵循下列步驟：
+要将Dynamics 365应用程序集成到Campaign Standard环境，请执行以下步骤：
 
-1. 導覽至下列連結： [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) 並搜尋 _適用於Dynamics 365的Adobe Campaign_ 在搜尋列中。
-或者，您可以導覽至此 [連結](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+1. 导航到以下链接： [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) 和搜索 _Adobe Campaign for Dynamics 365_ 在搜索栏中。
+或者，您可以导航到此 [链接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
 {target="_blank"}.
-1. 依照指示為您的Dynamics 365執行個體安裝應用程式。
-1. 安裝後，請導覽至您的Dynamics 365執行個體並以管理員身分登入。
-1. 按一下右上角的齒輪圖示，然後按一下 **[!UICONTROL Advanced Settings]**. 在頂端橫幅中，按一下旁邊的下拉式清單 **[!UICONTROL Settings]**，按一下 **[!UICONTROL Processes]** 在 **[!UICONTROL Process Center]**.
-1. 搜尋 **[!UICONTROL Adobe Campaign Email Bounce]** 任務並按一下它。
-1. 於 **[!UICONTROL Administration]** 索引標籤中，按一下「 」，將擁有者變更為先前建立的AdobeAPI應用程式使用者 **[!UICONTROL Actions]** 從頂端功能區中，然後選取 **[!UICONTROL Assign to another User]** 選項，選取 **[!UICONTROL Adobe API application user]** 從下拉式清單中進行指派。
-1. 重新啟用程式。
-1. 對執行相同操作 **[!UICONTROL Adobe Campaign Email Click]** 任務。
+1. 按照说明为Dynamics 365实例安装应用程序。
+1. 安装后，导航到您的Dynamics 365实例并以管理员身份登录。
+1. 单击右上角的齿轮图标，然后单击 **[!UICONTROL Advanced Settings]**. 在顶部横幅中，单击旁边的下拉菜单 **[!UICONTROL Settings]**，单击 **[!UICONTROL Processes]** 下 **[!UICONTROL Process Center]**.
+1. 搜索 **[!UICONTROL Adobe Campaign Email Bounce]** 任务并单击它。
+1. 在 **[!UICONTROL Administration]** 选项卡，通过单击，将所有者更改为之前创建的AdobeAPI应用程序用户 **[!UICONTROL Actions]** 从顶部功能区中，然后选择 **[!UICONTROL Assign to another User]** 选项，选择 **[!UICONTROL Adobe API application user]** 从下拉列表中进行分配。
+1. 重新激活进程。
+1. 对执行相同操作 **[!UICONTROL Adobe Campaign Email Click]** 任务。
 
 >[!NOTE]
 >
->如果您在任何時候想要停用這些程式，可以在此完成 **[!UICONTROL Processes]** 畫面。
+>如果您希望随时停用这些流程，可以在中执行此操作 **[!UICONTROL Processes]** 屏幕。
 
 **相关主题**
 
-* [設定Adobe Developer以進行Microsoft Dynamics 365整合](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一個步驟
-* [開始使用自助服務整合應用程式](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含啟動並執行整合的完整步驟清單。
+* [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
+* [自助服务集成应用程序入门](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含启动并运行集成的完整步骤列表。

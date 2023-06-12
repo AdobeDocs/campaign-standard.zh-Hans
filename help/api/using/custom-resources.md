@@ -1,6 +1,6 @@
 ---
 title: 自定义资源
-description: 進一步瞭解使用API進行自訂資源管理/
+description: 详细了解使用API进行自定义资源管理/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,27 +17,27 @@ ht-degree: 5%
 
 # 自定义资源 {#custom-resources}
 
-Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資源加以定義。 您可以擴充資源，以新增您自己的自訂欄位或自訂表格（例如購買或產品表格），藉此擴充資料模型。
+Adobe Campaign附带预定义的数据模型，其中数据通过不同资源进行定义。 您可以通过扩展资源以添加自己的自定义字段或自定义表（如采购表或产品表）来扩充提供的数据模型。
 
-自訂資源可透過API使用 **/profileAndServicesExt** 端點和自訂資源名稱。
+可通过API使用访问自定义资源 **/profileAndServicesExt** 端点和自定义资源名称。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->對於非現成可用的資源，請一律使用 <b>&quot;cus&quot;</b> 在資源名稱前加上前置詞。
+>对于非开箱即用的资源，请始终使用 <b>&quot;cus&quot;</b> 在资源名称前添加前缀。
 
-只要自訂資源連結至設定檔表格，您就可以使用自訂資源執行任何作業。 例如，我們來看看下方的表格結構：
+您可以使用自定义资源执行任何操作，只要这些资源链接到用户档案表即可。 例如，让我们考虑下面的表结构：
 
-![替代文字](assets/cusresources.png)
+![替换文字](assets/cusresources.png)
 
-在此情況下，來自 **交易**， **TransactionDetails** 和 **產品** 只要資料表連結至 **設定檔** 表格。
+在这种情况下，来自 **交易**， **交易详细信息** 和 **产品** 只要表链接到 **个人资料** 表格。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-存取延伸profileAndServicesExt資源的範例GET要求。
+访问扩展profileAndServicesExt资源的示例GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -47,7 +47,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-它會傳回所有連結的自訂資源清單。 然後，您可以使用資源URL來執行本檔案中描述的任何API任務。
+它会返回所有链接的自定义资源的列表。 然后，您可以使用资源URL来执行本文档中描述的任何API任务。
 
 ```
 {
@@ -72,8 +72,8 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 }
 ```
 
-如需資料模型擴充功能的詳細資訊，請參閱Campaign檔案：
+有关数据模型扩展的更多信息，请参阅Campaign文档：
 
 * [数据模型概念](../../developing/using/data-model-concepts.md)
-* [擴充API](../../developing/using/about-extending-the-api.md)
+* [扩展API](../../developing/using/about-extending-the-api.md)
 * [定义与其他资源的链接](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

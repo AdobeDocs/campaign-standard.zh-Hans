@@ -34,7 +34,7 @@ ht-degree: 79%
 
 **相关主题：**
 
-* [使用案例：在外部檔案中匯出設定檔](../../automating/using/exporting-profiles-in-file.md)
+* [用例：在外部文件中导出用户档案](../../automating/using/exporting-profiles-in-file.md)
 
 ## 配置 {#configuration}
 
@@ -43,7 +43,7 @@ ht-degree: 79%
    ![](assets/wkf_data_export1.png)
 
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08時產生的:15:32.
+1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：2015年8月15日08时生成的文件的recipients_20150815_081532.txt:15:32.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 79%
 
 1. 如果需要，可以通过在 **[!UICONTROL Add a post-processing stage]** 字段中选择 **[!UICONTROL Compression]** 以压缩输出文件。输出文件将压缩为 GZIP 文件 (.gz)。
 
-   此 **[!UICONTROL Add a post-processing stage]** 欄位也可讓您在解壓縮檔案之前先對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a post-processing stage]** 字段还允许您在解压缩文件之前对其进行加密。 有关如何使用加密文件的更多信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
 
-1. 按一下 **[!UICONTROL Create element]** 按鈕以新增輸出欄。
+1. 单击 **[!UICONTROL Create element]** 按钮以添加输出列。
 
    ![](assets/wkf_data_export2.png)
 
@@ -78,7 +78,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >如果您要將資料擷取至具有特定編碼的CSV檔案，請先選取「文字」輸出格式。 從下拉式清單中選擇所需的編碼，然後將輸出格式變更為「CSV (Excel)」。
+   >如果要将数据提取到具有特定编码的CSV文件，请首先选择“文本”输出格式。 从下拉列表中选择所需的编码，然后将输出格式更改为“CSV (Excel)”。
 
 1. 在 **[!UICONTROL Properties]** 选项卡中，选择 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 选项，以避免在集客过渡为空时在 SFTP 服务器上创建和上传空文件。
 1. 确认活动的配置并保存工作流。

@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能時，請記住Adobe Campaign合約中的SFTP儲存、DB儲存和作用中設定檔限制。
+>使用此功能时，请记住Adobe Campaign合同规定的SFTP存储、DB存储和活动配置文件限制。
 
 ![](assets/data_loading.png)
 
@@ -43,10 +43,10 @@ ht-degree: 93%
 
 **相关主题：**
 
-* [使用案例：使用外部資料更新資料庫](../../automating/using/update-database-file.md)
-* [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
-* [使用案例：傳送包含擴充欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
-* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：使用外部数据更新数据库](../../automating/using/update-database-file.md)
+* [用例：根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
+* [用例：发送包含扩充字段的电子邮件](../../automating/using/sending-email-enriched-fields.md)
+* [用例：使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置 {#configuration}
 
@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。使用此选项可在加载数据之前解压缩文件。仅当文件来自活动的集客过渡时，此选项才可用。
 
-   此 **[!UICONTROL Add a pre-processing stage]** 欄位也可讓您在將檔案匯入資料庫之前先將檔案解密。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a pre-processing stage]** 字段还允许您在将文件导入数据库之前对其进行解密。 有关如何使用加密文件的更多信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
 
 1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。激活该选项后，叫客过渡将重命名为“Rejects”。
 

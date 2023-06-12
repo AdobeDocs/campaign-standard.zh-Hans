@@ -1,6 +1,6 @@
 ---
 title: 关于访问管理
-description: 瞭解如何使用角色、群組和組織單位來管理Adobe Campaign運運算元
+description: 了解如何使用角色、组和组织单位管理Adobe Campaign操作员
 audience: administration
 feature: Access Management
 role: Admin
@@ -28,11 +28,11 @@ Adobe Campaign 允许您定义和管理分配给不同用户的权限。权限�
 
 平台的功能管理员可通过 **[!UICONTROL Administration > Users & Security]** 菜单管理角色、组和组织单位。
 
-![User Management功能表](assets/user_management_1.png)
+![用户管理菜单](assets/user_management_1.png)
 
-在Admin Console中管理使用者。 進一步瞭解 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 區段和 [Admin Console檔案](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
+用户在Admin Console中进行管理。 了解详情，请参阅 [管理组和用户](../../administration/using/managing-groups-and-users.md) 部分和中的 [Admin Console文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
 
-![存取產品設定檔](assets/user_management_6.png)
+![访问产品配置文件](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

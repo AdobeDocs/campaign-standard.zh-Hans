@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 ### 什么是控制面板？
 
 控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Campaign Standard 的产品管理员提高工作效率。
-[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
+[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel)以了解更多信息。
 
 >[!NOTE]
 >
@@ -93,23 +93,23 @@ ht-degree: 100%
 
 ### 如何访问控制面板？
 
-可直接从 Adobe Experience Cloud 访问控制面板。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
+可直接从 Adobe Experience Cloud 访问控制面板。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel)以了解更多信息。
 
 ### 控制面板常见问题解答
 
-[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=zh-Hans)以访问 Campaign 控制面板常见问题解答。
+[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)以访问 Campaign 控制面板常见问题解答。
 
 ### SFTP 管理
 
-在控制面板中，您可以与连接到您有权访问的 Campaign 实例的所有 SFTP 服务器进行交互。您可以监测它们的存储容量、管理允许列表上的 IP 地址和公共 SSH 密钥。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hans#sftp-management)以了解更多信息。
+在控制面板中，您可以与连接到您有权访问的 Campaign 实例的所有 SFTP 服务器进行交互。您可以监测它们的存储容量、管理允许列表上的 IP 地址和公共 SSH 密钥。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)以了解更多信息。
 
 ### 子域和证书
 
 您可以监测您的子域及其证书。了解详情：
 
-* [子域品牌化](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans#subdomains-and-certificates)
-* [设置新子域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans#subdomains-and-certificates)
-* [监测 SSL 证书](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=zh-Hans#subdomains-and-certificates)
+* [子域品牌化](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
+* [设置新子域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
+* [监测 SSL 证书](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
 
 ## 寻求帮助
 

@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform SDK與Adobe Campaign整合常見問題集
-description: Adobe Experience Platform SDK與Adobe Campaign整合常見問題集
+title: Adobe Experience Platform SDK与Adobe Campaign集成常见问题解答
+description: Adobe Experience Platform SDK与Adobe Campaign集成常见问题解答
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,96 +15,96 @@ ht-degree: 2%
 
 # Experience Platform SDK 集成常见问题解答 {#aep-faq}
 
-若要使用Experience Platform SDK應用程式傳送推播通知和應用程式內訊息，必須在Adobe Experience Platform SDK中設定行動應用程式，並在Adobe Campaign中設定。
+要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience Platform SDK中设置移动应用程序，并在Adobe Campaign中进行配置。
 
-下節列出此同步的常見問題。
+以下部分列出了有关此同步的常见问题。
 
-如需推送或應用程式內訊息的詳細資訊，請參閱下列常見問題：
+有关推送或应用程序内消息的详细信息，请参阅以下常见问题解答：
 
-* [推播通知常見問題集](../../channels/using/about-push-notifications.md#push-faq)
+* [推送通知常见问题解答](../../channels/using/about-push-notifications.md#push-faq)
 * [应用程序内常见问题解答](../../channels/using/in-app-faq.md)
 * [Adobe Experience Platform 同步中的标记常见问题解答](../../administration/using/syncwithlaunch-faq.md)
 
-## 開始前有用的資源 {#resource-mobile-property}
+## 开始前有用的资源 {#resource-mobile-property}
 
-請參閱下列資源，以取得有關Adobe Experience Platform SDK和Campaign Standard整合的詳細資訊：
+查看以下资源，了解有关Adobe Experience Platform SDK和Campaign Standard集成的更多信息：
 
-* Launch/行動 [概述影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/行動 [提示與秘訣指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* 启动/移动 [概述视频](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* 启动/移动 [提示和技巧指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## Adobe Experience Platform SDK整合是否適用於Adobe Campaign Standard和Adobe Campaign Classic？ {#aep-validity}
+## Adobe Experience Platform SDK集成是否适用于Adobe Campaign Standard和Adobe Campaign Classic？ {#aep-validity}
 
-是， [!DNL Adobe Experience Platform SDK] 整合適用於Adobe Campaign Standard和Adobe Campaign Classic。 您必須安裝對應的 **[!UICONTROL Extension]** 透過 [!DNL Data Collection UI] 以啟用整合。
+是， [!DNL Adobe Experience Platform SDK] 集成可用于Adobe Campaign Standard和Adobe Campaign Classic。 您必须安装相应的 **[!UICONTROL Extension]** 通过 [!DNL Data Collection UI] 以启用集成。
 
-如需詳細資訊，請參閱此 [頁面]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
+有关更多信息，请参阅此 [页面]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
-## Adobe Experience Platform SDK整合有助於Adobe Campaign提供哪些功能？ {#aep-capabilities}
+## Adobe Experience Platform SDK集成有助于在Adobe Campaign中实现哪些功能？ {#aep-capabilities}
 
-請參閱下表以進一步瞭解這些功能。
+请参阅下表了解有关这些功能的更多信息。
 
 ![](assets/faq.png)
 
 >[!NOTE]
 >
->[!DNL Places] 整合包括將places事件作為應用程式內訊息的觸發因子（推播通知不適用），豐富設定檔 [!DNL Places] 資料與本機通知支援。 請參閱此 [頁面](../../channels/using/preparing-and-sending-an-in-app-message.md) 以取得詳細資訊。 <br>[!DNL Places] 有限的整合包括擴充設定檔，透過 [!DNL Places] 資料。
+>[!DNL Places] 集成包括将places事件作为应用程序内消息的触发器（推送通知不适用），通过以下方式丰富用户档案： [!DNL Places] 数据和本地通知支持。 请参阅此 [页面](../../channels/using/preparing-and-sending-an-in-app-message.md) 了解更多信息。 <br>[!DNL Places] 有限的集成包括扩充用户档案 [!DNL Places] 数据。
 
-## Adobe Experience Platform SDK整合在Adobe Campaign Standard中有助於什麼使用案例？ {#aep-use-cases}
+## Adobe Experience Platform SDK集成有助于在Adobe Campaign Standard中使用什么用例？ {#aep-use-cases}
 
-支援下列使用案例：
+支持以下用例：
 
-* 取得 **[!UICONTROL Mobile Profile]** 在Campaign中（以ECID識別） **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tab)
-* 擴充 **[!UICONTROL Mobile Profile]** 在Adobe Campaign中(需要 **[!UICONTROL Custom resource Extension]** （屬於appSubscriberRcp資料表）
-* 取得用於傳送推播訊息的推播權杖（需要使用者選擇加入以接收推播訊息）
-* 傳送推播和應用程式內訊息
-* 追蹤使用者與推送和應用程式內訊息的互動，並提供相關報表
+* 获取 **[!UICONTROL Mobile Profile]** 在Campaign中（通过ECID标识） **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tab)
+* 扩充 **[!UICONTROL Mobile Profile]** 在Adobe Campaign中(需要 **[!UICONTROL Custom resource Extension]** （属于appSubscriberRcp表）
+* 获取用于发送推送消息的推送令牌（需要用户选择加入以接收推送消息）
+* 发送推送和应用程序内消息
+* 跟踪用户与推送消息和应用程序内消息的交互并提供相关报表
 
-## 在Campaign中取得行動設定檔需要做什麼？ {#mobile-profile-campaign}
+## 要在Campaign中获取移动用户档案，我需要做什么？ {#mobile-profile-campaign}
 
 要实现此目的，请执行以下步骤：
 
-1. 設定 **[!UICONTROL Mobile property]** 在 [!DNL Launch].
-1. 安裝Adobe Campaign Standard擴充功能。 請注意，Adobe Campaign Standard擴充功能還需要 **[!UICONTROL Mobile Core]**， **[!UICONTROL Profile]** 和 **[!UICONTROL Lifecycle]** 預設安裝在中的擴充功能 [!DNL Launch].
-   * 使用者應設定工作階段逾時，位於 **[!UICONTROL Mobile Core]** 影響生命週期事件頻率的擴充功能。
-   * 設定擴充功能後，使用者應透過Cocoapods for iOS和Gradle for Android，在行動應用程式中新增適當的相依性。 遵循指示 [此處](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
-   * 請一律使用最新版本的程式庫。
-   * 在行動應用程式中註冊 **[!UICONTROL Campaign]**， **[!UICONTROL UserProfile]**， **[!UICONTROL Identity]**， **[!UICONTROL Lifecycle]** 和 **[!UICONTROL Signal]** 擴充功能。 遵循指示 [此處](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
-   * 註冊擴充功能後，請啟動ACPCore。 若是Android，請務必設定onCreate()。 請依照Launch中行動屬性的行動安裝指示提供的確切指示操作。
-   * 此外，您也需要下列SDK API。 實作生命週期開始和暫停API，如下所述 [此處](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) 適用於Android，此處適用於iOS。
-1. 設定 **[!UICONTROL Mobile Property]** 在Adobe Campaign Standard中。 請依照此程式進行 [此處](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. 配置 **[!UICONTROL Mobile property]** 在 [!DNL Launch].
+1. 安装Adobe Campaign Standard扩展。 请注意，Adobe Campaign Standard扩展还需要 **[!UICONTROL Mobile Core]**， **[!UICONTROL Profile]** 和 **[!UICONTROL Lifecycle]** 默认安装在中的扩展 [!DNL Launch].
+   * 用户应在中配置会话超时 **[!UICONTROL Mobile Core]** 影响生命周期事件频率的扩展。
+   * 配置扩展后，用户应使用Cocoapods for iOS和Gradle for Android在移动设备应用程序中添加适当的依赖项。 按照说明操作 [此处](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+   * 始终获取最新版本的库。
+   * 在移动应用程序中，注册 **[!UICONTROL Campaign]**， **[!UICONTROL UserProfile]**， **[!UICONTROL Identity]**， **[!UICONTROL Lifecycle]** 和 **[!UICONTROL Signal]** 扩展。 按照说明操作 [此处](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
+   * 注册扩展后，请启动ACPCore。 对于Android，请务必设置Application onCreate()。 按照Launch中适用于您的移动资产的移动安装说明中提供的确切说明进行操作。
+   * 还需要以下SDK API。 实施生命周期开始和暂停API，如所述 [此处](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) 适用于Android的，以及此处适用于iOS的。
+1. 配置 **[!UICONTROL Mobile Property]** 在Adobe Campaign Standard中。 请按照以下步骤操作 [此处](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-## 為了擴充Campaign中的行動設定檔，我該做什麼？ {#enrich-mobile-profile}
+## 为了扩充Campaign中的移动用户档案，我需要做什么？ {#enrich-mobile-profile}
 
-您必須設定CollectPII回傳(請參閱此 [頁面](../../administration/using/configuring-rules-launch.md#pii-postback))並從SDK實作CollectPII API (請參閱此 [頁面](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference))。
+您必须配置CollectPII回发(请参阅此 [页面](../../administration/using/configuring-rules-launch.md#pii-postback))并从SDK实施CollectPII API(请参阅此 [页面](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference))。
 
-## CollectPII呼叫的引發頻率為何？ {#collect-pii}
+## 应多久触发CollectPII调用？ {#collect-pii}
 
-CollectPII呼叫的目標是擴充Campaign中的行動設定檔。 每當有客戶根據其使用案例和業務需求而想要新增至描述檔的有意義新資訊時，即應觸發此事件。
+CollectPII调用的目标是丰富Campaign中的移动配置文件。 每当有新的有意义的信息客户希望根据他们的用例和业务需求添加到用户档案时，就应触发此事件。
 
-## 是否可以觸發CollectPII呼叫來回應多個觸發事件？ {#collect-pii-calls}
+## 能否触发CollectPII调用以响应多个触发器事件？ {#collect-pii-calls}
 
-是. 根據您的業務需求，您可能會引發CollectPII呼叫以回應使用者登入應用程式、或購買某物件或生命週期事件或使用者進入地理圍欄等。 總而言之，使用者與應用程式的互動，會產生您要用於設定檔擴充的資訊。
+是. 根据您的业务需求，您可以触发CollectPII调用以响应用户登录应用程序，或购买某种产品或生命周期事件或用户进入地理围栏等。 总之，用户与应用程序之间的交互，该交互可生成要用于配置文件扩充的信息。
 
-## 我可以只引發CollectPII呼叫來回應所有行動事件嗎？ {#collect-pii-events}
+## 我可以只触发CollectPII调用以响应所有Mobile事件吗？ {#collect-pii-events}
 
-CollectPII呼叫的頻率和設計應該由業務需求決定，並且不應該盲目觸發，因為這會在DB上產生額外的負載。
+CollectPII调用的频率和设计应该由业务需求决定，并且不应盲目触发，因为它会给数据库带来额外的负载。
 
-### 當我嘗試在Campaign或Launch中存取Adobe Experience Platform應用程式時，有時會收到屬性無法使用錯誤。 {#aep-error}
+### 当我尝试在Campaign或Launch中访问Adobe Experience Platform应用程序时，有时会收到属性不可用错误。 {#aep-error}
 
-這是已知問題，會因為權杖過期而發生。 您應該嘗試登出和登入。
+这是一个已知问题，由于令牌过期而发生。 您应该尝试注销和登录。
 
-## 進一步瞭解Adobe Experience Platform SDK （先前稱為SDK V5）的部分實用資源建議為何？{#resource-aep}
+## 要了解有关Adobe Experience Platform SDK（以前称为SDK V5）的更多信息，有哪些有用的资源建议？{#resource-aep}
 
-檢視下列資源：
+查看以下资源：
 
-* EXPERIENCE PLATFORMSDK [檔案](https://developer.adobe.com/client-sdks/documentation/)
-* Launch &amp; Experience Platform SDK快速入門 [檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* 升級至Experience Platform SDK [檔案](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
-* GithubExperience PlatformSDK [檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* EXPERIENCE PLATFORMSDK [文档](https://developer.adobe.com/client-sdks/documentation/)
+* Launch和Experience PlatformSDK快速入门 [文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* 升级到Experience PlatformSDK [文档](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* GithubExperience PlatformSDK [文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
-## 建立推播通知傳送時，我收到「您沒有傳送的寫入許可權」錯誤。 {#write-access-error}
+## 创建推送通知投放时，我收到错误“您没有投放写入权限”。 {#write-access-error}
 
-您應檢查下列專案：
+您应检查以下各项：
 
-* 行動應用程式應對應至需要建立和傳送推播傳遞之使用者的組織單位。 子組織單位的使用者無法使用對應至父組織單位的應用程式建立推送傳遞。
+* 应将移动应用程序映射到需要创建和发送推送投放的用户的组织单位。 子组织单位的用户无法使用映射到父组织单位的应用程序创建推送投放。
 
-* 在其中建立推送傳遞的行銷活動或方案，應對應至需要建立和傳送推送傳遞之使用者的組織單位。 子組織單位的使用者無法在對應至父組織單位的行銷活動或方案中建立推播傳遞。
+* 在其中创建推送投放的活动或项目应映射到需要创建和发送推送投放的用户的组织单位。 子组织单位的用户无法在映射到父组织单位的营销活动或项目中创建推送投放。

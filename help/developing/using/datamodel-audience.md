@@ -1,6 +1,6 @@
 ---
-title: DataModel對象
-description: 瞭解資料模型
+title: DataModel受众
+description: 了解数据模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,56 +14,56 @@ ht-degree: 40%
 
 ---
 
-# 對象(nms：audience)
+# 受众(nms：audience)
 
-## 物件說明
+## 对象描述
 
 <table>
                <tr>
                   <th>名称</th>
                   <th>标签</th>
-                  <th>型別（長度）</th>
+                  <th>类型（长度）</th>
                   <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience Manager對應ID</td>
-                  <td>字串(100)</td>
+                  <td>映射IDAudience Manager</td>
+                  <td>字符串(100)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
-                  <td>AMC資料來源</td>
+                  <td>AMC数据源</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>預覽選取的母體</td>
+                  <td>预览所选群体</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>資料結構描述</td>
-                  <td>字串(255)</td>
+                  <td>数据架构</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>字串(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>使用行號作為ID</td>
+                  <td>使用行号作为ID</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -75,7 +75,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>計數日期</td>
+                  <td>计数日期</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -86,7 +86,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>已建立</td>
+                  <td>已创建</td>
                   <td>已创建</td>
                   <td>date </td>
                   <td> </td>
@@ -100,7 +100,7 @@ ht-degree: 40%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>字串(512)</td>
+                  <td>字符串(512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -128,20 +128,20 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>hasschema</td>
-                  <td>HasSchema</td>
+                  <td>hasSchema</td>
+                  <td>具有架构</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud對象</td>
+                  <td>Adobe Marketing Cloud受众</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部资源</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -154,7 +154,7 @@ ht-degree: 40%
                <tr>
                   <td>label</td>
                   <td>标签</td>
-                  <td>字串(128)</td>
+                  <td>字符串(128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 40%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>字串(64)</td>
+                  <td>字符串(64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -188,8 +188,8 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>sharedaudience</td>
-                  <td>共用對象的名稱</td>
+                  <td>sharedAudience</td>
+                  <td>共享受众的名称</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
@@ -208,19 +208,19 @@ ht-degree: 40%
                <tr>
                   <td>title</td>
                   <td>受众</td>
-                  <td>字串(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>类型</td>
                   <td>类型</td>
-                  <td>分項清單（字串） (100)</td>
+                  <td>枚举（字符串）(100)</td>
                   <td>
                      <ul>
-                        <li>查詢 — 查詢 — 查詢</li>
-                        <li>清單 — 清單 — 清單</li>
-                        <li>檔案 — 檔案 — 檔案</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>查询 — 查询 — 查询</li>
+                        <li>列表 — 列表 — 列表</li>
+                        <li>文件 — 文件 — 文件</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -231,7 +231,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>工作流程（工作流程）</td>
+                  <td>工作流（工作流）</td>
                   <td>工作流</td>
                   <td>链接 </td>
                   <td> </td>
@@ -240,7 +240,7 @@ ht-degree: 40%
 
 ## 筛选器
 
-依篩選維度(byFilteringResource)
+通过筛选维度(byFilteringResource)
 
 <table>
     <tr>
@@ -248,12 +248,12 @@ ht-degree: 40%
     <th>类型</th>
     </tr>
     <tr>
-    <td>filteringResource</td>
+    <td>筛选资源</td>
     <td>字符串</td>
     </tr>
 </table>
 
-依名稱或標籤(byText)
+按名称或标签(byText)
 
 <table>
     <tr>
@@ -261,12 +261,12 @@ ht-degree: 40%
     <th>类型</th>
     </tr>
     <tr>
-    <td>文字</td>
+    <td>text</td>
     <td>字符串</td>
     </tr>
 </table>
 
-依型別(byType)
+按类型(byType)
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ ht-degree: 40%
     </tr>
     <tr>
     <td>类型</td>
-    <td>分項清單</td>
+    <td>明细列表</td>
     </tr>
     <tr>
     <td>isAMC</td>

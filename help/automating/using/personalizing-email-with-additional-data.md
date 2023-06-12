@@ -1,6 +1,6 @@
 ---
 title: 使用附加数据个性化电子邮件
-description: 此使用案例說明如何將不同型別的其他資料新增到查詢中，並作為電子郵件中的個人化欄位使用。
+description: 此用例介绍了如何向查询添加不同类型的附加数据，并将其用作电子邮件中的个性化字段。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 使用附加数据个性化电子邮件 {#example--personalizing-an-email-with-additional-data}
 
-以下示例说明了如何向查询添加不同类型的附加数据，以及如何在电子邮件中将其用于个性化字段。如需如何豐富鎖定目標的資料的詳細資訊， **[!UICONTROL Query]** 活動，請參閱 [本節](../../automating/using/query.md#enriching-data).
+以下示例说明了如何向查询添加不同类型的附加数据，以及如何在电子邮件中将其用于个性化字段。有关如何扩充目标数据的更多信息， **[!UICONTROL Query]** 活动，请参阅 [本节](../../automating/using/query.md#enriching-data).
 
 在本例中，使用[自定义资源](../../developing/using/data-model-concepts.md)：
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. 新增 [查詢](../../automating/using/query.md) 活動，可讓您定位已執行至少一個交易的設定檔。
+1. 添加 [查询](../../automating/using/query.md) 活动，用于定向至少执行了一次交易的用户档案。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 新增 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。 在电子邮件内容中，插入与查询中所计算数据相对应的个性化字段。您可以通过个性化字段资源管理器的 **[!UICONTROL Additional data (targetData)]** 链接找到它。
+1. 添加 [电子邮件投放](../../automating/using/email-delivery.md) 活动。 在电子邮件内容中，插入与查询中所计算数据相对应的个性化字段。您可以通过个性化字段资源管理器的 **[!UICONTROL Additional data (targetData)]** 链接找到它。
 
    ![](assets/enrichment_example3.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 在外部文件中导出用户档案
-description: 此使用案例顯示如何以外部檔案的形式匯出設定檔清單，以便在Adobe Campaign外部使用資料。
+description: 此用例展示了如何以外部文件的形式导出用户档案列表，以便数据可在Adobe Campaign之外使用。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -22,11 +22,11 @@ ht-degree: 68%
 
 此工作流旨在以外部文件的形式导出用户档案列表，以便在 Adobe Campaign 之外使用该数据。
 
-1. 拖放 [擷取檔案](../../automating/using/extract-file.md) 活動放入您的工作流程中，並將其放在 [查詢](../../automating/using/query.md) 活動。
+1. 拖放 [提取文件](../../automating/using/extract-file.md) 将活动放入您的工作流中，并将其放在 [查询](../../automating/using/query.md) 活动。
 
    在本例中，就是对 18 至 30 岁的所有用户档案执行查询。
 
-1. 開啟 **[!UICONTROL Extract file]** 活動以進行編輯。
+1. 打开 **[!UICONTROL Extract file]** 活动以编辑它。
 1. 为输出文件命名。
 1. 添加输出列。
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 确认您的活动。
-1. 拖放 [傳輸檔案](../../automating/using/transfer-file.md) 活動晚於 **[!UICONTROL Extract file]** 活動，以在外部帳戶上復原擷取檔案。
+1. 拖放 [传输文件](../../automating/using/transfer-file.md) 活动之后 **[!UICONTROL Extract file]** 活动，用于在外部帐户上恢复提取文件。
 1. 打开活动并选择 **[!UICONTROL File upload]** 操作。
 
    ![](assets/wkf_data_export11.png)

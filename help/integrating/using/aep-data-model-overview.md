@@ -1,6 +1,6 @@
 ---
-title: 體驗資料模型概觀
-description: Experience Data Model (XDM)是一組標準資料結構描述，其中的資料可能會被擷取以用於Adobe Experience Platform解決方案和產品。
+title: 体验数据模型概述
+description: Experience Data Model (XDM)是一组标准的数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -15,35 +15,35 @@ ht-degree: 0%
 
 ---
 
-# 體驗資料模型概觀 {#experience-data-model-overview}
+# 体验数据模型概述 {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-Experience Data Model (XDM)是一組標準資料結構描述，其中的資料可能會被擷取以用於Adobe Experience Platform解決方案和產品。
+Experience Data Model (XDM)是一组标准的数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
 
-XDM結構描述的建立和管理可透過專用API或XDM使用者介面使用。
+XDM架构的创建和管理可通过专用API或XDM用户界面进行。
 
-## XDM工作區 {#xdm-workspace}
+## XDM工作区 {#xdm-workspace}
 
-XDM工作區可讓您檢視、建立和擴充資料結構。
+XDM工作区提供了查看、创建和扩展数据架构的功能。
 
-若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導覽至「資料模型」視窗，以建立或擴充XDM結構。
+要访问XDM用户界面，请打开Adobe Experience Platform。 导航到数据模型窗口以创建或扩展XDM架构。
 
-請參閱完整版 [XDM工作區檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+请参阅完整版 [XDM工作区文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
 ## XDM API {#xdm-api}
 
-您可以透過XDM結構描述API執行下列動作：
+您可以通过XDM架构API执行以下操作：
 
-* 檢視現有結構描述的清單
-* 檢視特定結構描述擴充現有結構描述
-* 新增欄位至擴充功能
-* 建立和更新新結構描述
-* 檢視結構描述項
-* 建立、更新和刪除結構描述項
+* 查看现有架构的列表
+* 查看特定架构扩展现有架构
+* 将字段添加到扩展
+* 创建和更新新架构
+* 查看架构描述符
+* 创建、更新和删除架构描述符
 
-操縱API呼叫的所有詳細資訊可在 [開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+有关处理API调用的所有详细信息，请参阅 [开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

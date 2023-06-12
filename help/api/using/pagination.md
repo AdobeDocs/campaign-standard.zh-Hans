@@ -1,6 +1,6 @@
 ---
 title: 分页
-description: 瞭解如何執行分頁作業。
+description: 了解如何执行分页操作。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,21 +17,21 @@ ht-degree: 1%
 
 # 分页
 
-依預設，清單中會載入25個資源。
+默认情况下，一个列表中会加载25个资源。
 
-此 **_lineCount** 引數可讓您限制回應中列出的資源數量。  然後，您可以使用 **下一個** 節點以顯示下一個結果。
+此 **_lineCount** 参数允许您限制响应中列出的资源数。  然后，您可以使用 **下一个** 节点以显示下一个结果。
 
 >[!NOTE]
 >
->一律使用中傳回的URL值 **下一個** 節點，以執行分頁要求。
+>始终使用返回的URL值 **下一个** 节点以执行分页请求。
 >
->此 **_lineStart** 會計算請求，且必須一律用於 **下一個** 節點。
+>此 **_lineStart** 请求已计算并且必须始终在返回的URL中使用 **下一个** 节点。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-顯示設定檔資源1個記錄的範例GET要求。
+用于显示配置文件资源1条记录的示例GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -41,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-使用對請求的回應 **下一個** 節點以執行分頁。
+对请求的响应，使用 **下一个** 节点以执行分页。
 
 ```
 {
@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-根據預設， **下一個** 節點在與具有大量資料的表格互動時無法使用。 若要執行分頁，您必須新增 **_forcePagination=true** 引數至呼叫URL。
+默认情况下， **下一个** 与具有大量数据的表交互时，节点不可用。 要执行分页，您必须添加 **_forcePagination=true** 参数到调用URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->表格被視為大型的記錄數會定義在Campaign Standard中 **XtkBigTableThreshold** 選項。 預設值為100,000筆記錄。
+>在Campaign Standard中定义了一个表，如果超过该表，则将该表视为大型记录 **XtkBigTableThreshold** 选项。 默认值为100,000条记录。

@@ -1,6 +1,6 @@
 ---
 title: 从文件更新多个订阅状态
-description: 此使用案例顯示如何匯入包含設定檔的檔案，並將其訂閱更新為檔案中指定的多項服務。
+description: 此用例显示如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -24,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [載入檔案](../../automating/using/load-file.md) 活動會載入設定檔檔案並定義匯入欄的結構。
+* A [加载文件](../../automating/using/load-file.md) 活动加载用户档案文件并定义导入列的结构。
 
    在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -49,7 +49,7 @@ ht-degree: 76%
 
    如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* A [調解](../../automating/using/reconciliation.md) 活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
+* A [协调](../../automating/using/reconciliation.md) 活动标识来自文件的数据归属于Adobe Campaign数据库的用户档案维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* A [重複資料刪除](../../automating/using/deduplication.md) 根據 **電子郵件** 臨時資源的欄位（調解後產生的結果）會識別重複專案。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* A [重复数据删除](../../automating/using/deduplication.md) 基于 **电子邮件** 临时资源的字段（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
    ![](assets/subscription_activity_example5.png)
 
-* A [訂閱服務](../../automating/using/subscription-services.md) 活動會將要更新的服務識別為來自此轉變，透過中建立的連結進行 **[!UICONTROL Reconciliation]** 活動。
+* A [订阅服务](../../automating/using/subscription-services.md) 活动标识要更新的服务来自过渡，通过在中创建的链接 **[!UICONTROL Reconciliation]** 活动。
 
    将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 

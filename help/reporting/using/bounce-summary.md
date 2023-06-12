@@ -1,6 +1,6 @@
 ---
 title: 退回摘要
-description: 使用彈回摘要現成報告，瞭解您傳送的行銷活動狀態以及他們可能遇到的錯誤。
+description: 使用弹回摘要现成报告，了解已发送营销活动的状态以及他们可能遇到的错误。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,27 +18,27 @@ ht-degree: 1%
 
 # 退回摘要{#bounce-summary}
 
-此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信(請參閱 [瞭解傳遞失敗](../../sending/using/understanding-delivery-failures.md))。
+此报表详细说明在投放期间遇到的整体硬错误和软错误，以及退回的自动处理(请参阅 [了解投放失败](../../sending/using/understanding-delivery-failures.md))。
 
 ![](assets/campaign_reports_bounces.png)
 
-每個表格都以摘要數字和圖表表示。 您可以變更詳細資訊在其各自視覺效果設定中的顯示方式。
+每个表都由概要数字和图表表示。 您可以更改详细信息在其各自的可视化设置中的显示方式。
 
-**失敗5重新分割** 列出隔離數量最多的五個傳送：
+**失败5重新分区** 列出了隔离数量最多的五个投放：
 
-此 **退回原因** 表格包含造成每個傳送跳出的錯誤型別的可用資料：
+此 **退回原因** 该表包含导致每次投放退回的错误类型的可用数据：
 
-* **[!UICONTROL User unknown]**：傳送至無效電子郵件地址時產生的錯誤型別。
-* **[!UICONTROL Invalid domain]**：將傳遞傳送至網域錯誤或不再存在的電子郵件地址時產生的錯誤型別。
-* **[!UICONTROL Unreachable]**：訊息傳送字串中遇到的錯誤型別，例如暫時無法存取的網域。
-* **[!UICONTROL Account disabled]**：傳送至已不存在的電子郵件地址時產生的錯誤型別。
-* **[!UICONTROL Mailbox full]**：收件者的收件匣已滿時產生的錯誤型別。 在產生此錯誤之前，會嘗試傳遞訊息五次。
-* **[!UICONTROL Not connected]**：收件者的行動電話關閉或在傳送訊息時未連線至網路時產生的錯誤型別。
+* **[!UICONTROL User unknown]**：将投放发送到无效电子邮件地址时生成的错误类型。
+* **[!UICONTROL Invalid domain]**：将投放发送到域错误或不再存在的电子邮件地址时生成的错误类型。
+* **[!UICONTROL Unreachable]**：消息投放字符串中遇到的错误类型，例如暂时无法访问域。
+* **[!UICONTROL Account disabled]**：将投放发送到不再存在的电子邮件地址时生成的错误类型。
+* **[!UICONTROL Mailbox full]**：收件人的收件箱已满时生成的错误类型。 在生成此错误之前，会尝试五次传递消息。
+* **[!UICONTROL Not connected]**：收件人的手机关闭或在发送消息时手机未连接到网络时生成的错误类型。
 
    >[!NOTE]
    >
-   >這類錯誤只與行動裝置頻道上的傳遞有關。
+   >此类错误仅与移动渠道上的投放有关。
 
-* **[!UICONTROL Refused]**：網際網路服務提供者(ISP)拒絕位址時產生的錯誤型別。 例如，反垃圾郵件軟體已套用安全性規則時。
+* **[!UICONTROL Refused]**：当Internet服务提供商(ISP)拒绝地址时生成的错误类型。 例如，当反垃圾邮件软件应用了安全规则时。
 
-此 **網域重新分割** 表格會根據收件者網域顯示傳送期間遇到的整體問題。
+此 **域重新分区** 该表根据收件人域显示投放期间遇到的整体问题。

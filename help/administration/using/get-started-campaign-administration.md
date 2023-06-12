@@ -16,44 +16,44 @@ ht-degree: 15%
 # Campaign Standard 管理快速入门 {#about-administrating-adobe-campaign}
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">管理功能表</a></p></td>
+<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">“管理”菜单</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">用户和安全性</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">頻道設定</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">渠道配置</a></p></td>
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">应用程序设置</a></p></td></tr>
 </table>
 
-作為雲端型解決方案，Adobe Campaign為管理員提供設定應用程式的不同方式。 雖然基礎架構設定是由Adobe執行，但功能管理員可以執行各種設定操作，如下所述。
+作为一个基于云的解决方案，Adobe Campaign为管理员提供了各种配置应用程序的方法。 尽管基础架构配置由Adobe执行，但功能管理员可以执行各种配置操作，如下所述。
 
 >[!NOTE]
 >
->如果您對實作和設定事宜有任何疑問或要求，請聯絡您的Adobe客戶主管。
+>如果您对实施和配置事宜有任何疑问或请求，请联系您的Adobe客户经理。
 
-請注意，管理員使用者也可以運用Campaign控制面板來管理設定，並追蹤每個執行個體的使用量。 有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
+请注意，管理员用户还可以利用Campaign控制面板管理每个实例的设置并跟踪使用情况。 有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
 
-## 管理功能表 {#administration-menu}
+## “管理”菜单 {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-不同的Adobe Campaign管理員操作是透過 **[!UICONTROL Administration]** 按一下左上角的Adobe Campaign標誌即可存取功能表。 介面的這個部分只能由平台的功能管理員存取。
+不同的Adobe Campaign管理操作是通过 **[!UICONTROL Administration]** 菜单在单击左上角的Adobe Campaign徽标时可访问。 界面的这一部分只能由平台的功能管理员访问。
 
-可用的不同功能表有：
+可用的不同菜单包括：
 
-* [使用者與安全性](../../administration/using/about-access-management.md)：此功能表可讓您管理對平台（使用者、角色、安全性群組、裝置）的存取權。
-* [頻道](../../administration/using/about-channel-configuration.md)：此功能表會重新分組連結至不同平台管道（電子郵件、行動裝置）的技術引數，以及型別和隔離管理。
-* [應用程式設定](../../administration/using/external-accounts.md)：此功能表可讓您設定不同的應用程式元素（外部帳戶、選項、技術工作流程）。
-* [開發](../../developing/using/data-model-concepts.md)：此選單可讓您管理自訂資源並存取診斷工具。
-* [執行個體設定](../../administration/using/branding.md)：您可以在此功能表定義不同品牌並進行其設定（標誌、管理追蹤、存取登入頁面的URL網域等）。
-* [部署](../../automating/using/managing-packages.md)：此功能表會對套件匯入和匯出選項進行重新分組。
-* [客戶量度](../../audiences/using/active-profiles.md)： Adobe Campaign提供顯示作用中設定檔數量的報表。 此報告僅提供資訊，對帳單沒有直接影響。
-* [隱私權工具](../../start/using/privacy-management.md)：此功能表可讓您建立GDPR存取和刪除請求，並追蹤其演化。
+* [用户和安全性](../../administration/using/about-access-management.md)：利用此菜单，可管理对平台（用户、角色、安全组、设备）的访问权限。
+* [渠道](../../administration/using/about-channel-configuration.md)：此菜单可重组链接到不同平台渠道（电子邮件、移动设备）的技术参数，以及分类和隔离管理。
+* [应用程序设置](../../administration/using/external-accounts.md)：利用此菜单，可配置不同的应用程序元素（外部帐户、选项、技术工作流）。
+* [开发](../../developing/using/data-model-concepts.md)：利用此菜单，可管理自定义资源并访问诊断工具。
+* [实例设置](../../administration/using/branding.md)：您可以在此菜单定义不同的品牌并配置其设置（徽标、管理跟踪、用于访问登陆页面的URL域等）。
+* [部署](../../automating/using/managing-packages.md)：此菜单重组资源包的导入和导出选项。
+* [客户量度](../../audiences/using/active-profiles.md)：Adobe Campaign提供显示活动用户档案数量的报表。 此报告只提供信息，对账单没有直接影响。
+* [隐私工具](../../start/using/privacy-management.md)：利用此菜单，可创建GDPR访问和删除请求并跟踪其演变。
 
 ## 用户和安全性 {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-邀請使用者存取應用程式並管理 **安全性群組**，即貴組織內共用相同角色和許可權的使用者集。 依預設，Adobe Campaign提供了一組 **角色** 可讓您定義指派給使用者和使用者群組的單一授權。 結合方式 **組織單位**，角色可為使用者提供介面的篩選檢視，並定義其不同功能的存取權。
+邀请用户访问应用程序并管理 **安全组**，这些用户集在您的组织内共享相同的角色和权限。 默认情况下，Adobe Campaign提供了一组 **角色** 它允许您定义分配给用户和用户组的统一授权。 与 **组织单位**，角色为用户提供了界面的过滤视图，并定义他们对不同功能的访问权限。
 
-Campaign standard也可讓您監視安全性相關資訊。 您可以透過以下方式擷取使用者執行的資料匯出相關資訊： **[!UICONTROL Export audits]** 畫面，並運用 **[!UICONTROL Licenses]** 熒幕可監控組織內所有已安裝的Campaign授權，以及組建編號、發行版本和合約條款等不同資訊。
+Campaign Standard还允许您监视与安全相关的信息。 您可以通过，检索有关用户执行的数据导出的信息 **[!UICONTROL Export audits]** 屏幕，并利用 **[!UICONTROL Licenses]** 屏幕，用于监控组织内所有已安装的Campaign许可证，以及内部版本号、发行版本和协议条款等不同信息。
 
 了解更多信息:
 
@@ -64,15 +64,15 @@ Campaign standard也可讓您監視安全性相關資訊。 您可以透過以�
 * [审核导出日志](../../administration/using/auditing-export-logs.md)
 * [许可证](../../administration/using/licenses.md)
 
-## 頻道設定 {#channels-configuration}
+## 渠道配置 {#channels-configuration}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-必須正確設定Adobe Campaign中的所有通訊通道，才能有效傳送訊息。因此， **[!UICONTROL Channel]**  功能表可讓您管理連結至不同色版的技術引數。
+必须正确配置Adobe Campaign中的所有通信渠道，才能有效地发送消息。 **[!UICONTROL Channel]**  菜单可让您管理链接到不同渠道的技术参数。
 
-設定各種 **電子郵件** 引數：退信、隔離、電子郵件屬性和路由引數的處理規則，型別規則。 定義路由組態和屬性 **簡訊** 管道以及SMS編碼和格式。
+配置各种 **电子邮件** 参数：退回、隔离、电子邮件属性和路由参数的处理规则，类型规则。 定义路由配置和属性 **短信** 渠道，以及短信编码和格式。
 
-設定 **行動應用計畫** 以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知。
+设置 **移动应用程序** 以便能够使用Adobe Experience Platform SDK发送应用程序内消息和推送通知。
 
 了解更多信息:
 
@@ -85,11 +85,11 @@ Campaign standard也可讓您監視安全性相關資訊。 您可以透過以�
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
-Campaign Standard隨附不同的應用程式元素，可依您的需求加以設定。
+Campaign Standard随附不同的应用程序元素，您可以根据自己的需求对它们进行配置。
 
-設定 **外部帳戶**，用於將Adobe Campaign連線至外部伺服器。 存取Campaign Standard目標對應，並使用監控您的平台 **技術工作流程**.
+设置 **外部帐户**，用于将Adobe Campaign连接到外部服务器。 访问Campaign Standard目标映射，并使用监控您的平台 **技术工作流**.
 
-定義一或多個 **品牌** 並為您的組織設定傳送 **即時通知** 若是重要的系統活動，則位於應用程式內。
+定义一个或多个 **品牌** ，并配置发送 **实时通知** 在应用程序内发生重要的系统活动。
 
 了解更多信息:
 

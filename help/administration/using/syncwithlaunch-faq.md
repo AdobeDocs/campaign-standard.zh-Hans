@@ -1,6 +1,6 @@
 ---
-title: 與Launch同步技術工作流程常見問題集
-description: 關於Adobe Launch技術工作流程的常見問題
+title: 与Launch同步技术工作流常见问题解答
+description: 有关Adobe启动技术工作流的常见问题
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,68 +15,68 @@ ht-degree: 1%
 
 # Adobe Experience Platform 同步中的标记常见问题解答 {#syncwithlaunch-faq}
 
-您可以透過，將標籤行動屬性匯入Adobe Campaign Standard **[!UICONTROL Sync with Launch]** 專屬的技術工作流程。 如需詳細資訊，請參閱此 [頁面](../../administration/using/technical-workflows.md)
+您可以通过以下方式将标记移动资产导入Adobe Campaign Standard **[!UICONTROL Sync with Launch]** 专门的技术工作流。 有关更多信息，请参阅此 [页面](../../administration/using/technical-workflows.md)
 
-下節列出此同步的常見問題。
+以下部分列出了有关此同步的常见问题。
 
-## 我已建立標籤屬性（組織單位ALL的非管理員）。 我的應用程式在Adobe Campaign中處於「準備設定」狀態，但無法開啟/設定。 {#configuring-property}
+## 我创建了一个标记属性（组织单元ALL的非管理员）。 我的应用程序在Adobe Campaign中处于“准备配置”状态，但无法打开/配置该应用程序。 {#configuring-property}
 
-只有組織單位ALL的管理員才能在Adobe Campaign Standard中設定行動應用程式。 設定後，只有指派的組織單位使用者可以編輯應用程式。 如需組織單位的詳細資訊，請參閱此 [頁面](../../administration/using/organizational-units.md).
+只有组织单位ALL的管理员才能在Adobe Campaign Standard中配置移动应用程序。 配置完毕后，只有已分配组织单位的用户可以编辑应用程序。 有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
 
-## 我無法在Adobe Campaign Standard中編輯已設定的行動應用程式，且行動應用程式僅處於讀取模式。 {#read-mode-mobile-app}
+## 我无法在Adobe Campaign Standard中编辑配置的移动应用程序，并且移动应用程序处于只读模式。 {#read-mode-mobile-app}
 
-在中檢查行動應用程式的組織單位 **[!UICONTROL Access Authorization]** 區段。 只有指派的組織單位的使用者才能編輯行動應用程式。
+在中检查移动应用程序的组织单位 **[!UICONTROL Access Authorization]** 部分。 只有已分配组织单位的用户才能编辑移动应用程序。
 
-如需組織單位的詳細資訊，請參閱此 [頁面](../../administration/using/organizational-units.md).
+有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
 
-## 我是Adobe Campaign Standard組織單位ALL的管理員，但無法設定行動應用程式。 {#org-unit-mobile}
+## 我是Adobe Campaign Standard中组织单位ALL的管理员，但无法配置移动应用程序。 {#org-unit-mobile}
 
-組織單位設定為「全部」的管理員應擁有所有標籤行動屬性的許可權，以便設定行動應用程式。
+组织单位设置为“全部”的管理员应有权使用所有标记移动属性来配置移动应用程序。
 
-如需組織單位的詳細資訊，請參閱此 [頁面](../../administration/using/organizational-units.md).
+有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
 
-## 我已建立標籤行動屬性，但我的屬性在Adobe Campaign Standard中不可見。 {#visibility-mobile-property}
+## 我创建了一个标记移动资产，但我的资产在Adobe Campaign Standard中不可见。 {#visibility-mobile-property}
 
-1. 檢查資料收集UI的行動屬性中是否已安裝Adobe Campaign Standard擴充功能。
+1. 检查数据收集UI中的移动资产中是否安装了Adobe Campaign Standard扩展。
 
-1. 確認擴充功能中執行個體的端點已正確設定。
+1. 验证扩展中是否正确配置了实例的端点。
 
-1. 檢查&#39;Launch_URL_Campaign&#39;或&#39;NmsServer_URL&#39;是否正確。
+1. 请检查“Launch_URL_Campaign”或“NmsServer_URL”是否正确。
 
-1. 然後，檢查同步是否完成，並透過 **[!UICONTROL syncWithLaunch]** 技術工作流程。
+1. 然后，检查同步是否已完成 **[!UICONTROL syncWithLaunch]** 技术工作流。
 
-## 如何檢查Adobe Campaign與Adobe Experience Platform中的標籤之間的同步是否已完成？ {#sync-campaign-launch}
+## 如何检查是否已完成Adobe Campaign与Adobe Experience Platform中的标记之间的同步？ {#sync-campaign-launch}
 
-1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. 開啟 **[!UICONTROL syncWithLaunch]** 工作流程。
+1. 打开 **[!UICONTROL syncWithLaunch]** 工作流。
 
-1. 檢查工作流程是否已結束且沒有錯誤。
+1. 检查工作流是否已结束且没有错误。
 
-1. 在記錄中檢查是否啟用並成功完成工作流程同步。
+1. 在日志中检查是否已启用并成功完成工作流同步。
 
-## 我為已設定的標籤行動應用程式重設金鑰。 如何在資料收集UI中重新設定金鑰？ {#configuring-pkey}
+## 我重置了已配置标记移动应用程序的密钥。 如何在数据收集UI中再次重新配置密钥？ {#configuring-pkey}
 
-1. 在資料收集UI中開啟行動屬性。
+1. 在数据收集UI中打开移动属性。
 
-1. 在Adobe Campaign Standard擴充功能中設定PKey已重設的新URL。
+1. 在Adobe Campaign Standard扩展中设置一个新URL，并为其重置PKey。
 
-1. 儲存它並讓工作流程同步。
+1. 保存它并允许工作流同步。
 
-1. 同步完成後，在資料收集UI中開啟行動屬性。
+1. 同步完成后，在数据收集UI中打开移动属性。
 
-1. 在已重設PKey的Adobe Campaign Standard擴充功能中設定正確的URL。
+1. 在已重置PKey的Adobe Campaign Standard扩展中设置正确的URL。
 
-1. 儲存它並讓工作流程同步處理再次執行。
+1. 保存它并再次运行工作流同步。
 
-1. 只有這樣，屬性才會出現在 **[!UICONTROL Ready to Configure]** 在Adobe Campaign中的狀態，且現在可以設定。
+1. 只有这样，该资产才会显示在 **[!UICONTROL Ready to Configure]** Adobe Campaign中的状态，现在可以对其进行配置。
 
-## 我想要在Adobe Campaign中設定行動屬性。 我是否必須等候技術工作流程在Adobe Experience Platform和Adobe Campaign中的標籤之間同步？
+## 我想在Adobe Campaign中配置移动资产。 我是否需要等待技术工作流在Adobe Experience Platform中的标记与Adobe Campaign之间同步？
 
-您可以立即執行工作流程：
+您可以立即执行工作流：
 
-1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. 開啟 **[!UICONTROL syncWithLaunch]** 工作流程。
+1. 打开 **[!UICONTROL syncWithLaunch]** 工作流。
 
-1. 按一下 **[!UICONTROL Scheduler]** 活動並選取 **[!UICONTROL Immediate execution]**.
+1. 单击 **[!UICONTROL Scheduler]** 活动和选择 **[!UICONTROL Immediate execution]**.

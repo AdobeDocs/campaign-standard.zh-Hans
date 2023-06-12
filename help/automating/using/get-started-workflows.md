@@ -20,7 +20,7 @@ ht-degree: 38%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">工作流活动</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">用例</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">筛选数据</a></p></td>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">匯入/匯出資料</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">导入/导出数据</a></p></td></tr>
 </table>
 
 Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分段、活动执行、文件处理等在内的复杂流程。例如，您可以使用某个工作流从服务器下载文件、解压缩，然后将其记录导入 Adobe Campaign 数据库。
@@ -36,19 +36,19 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 >[!IMPORTANT]
 >
-> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱中提供的最佳實務 [此頁面](../../automating/using/best-practices-workflows.md).
+> Adobe建议客户不要同时运行超过20个活动工作流执行，并优先考虑工作流执行并将其分散到不同的时间段。 有关更多信息，请参阅中提供的最佳实践 [此页面](../../automating/using/best-practices-workflows.md).
 
 ## 工作流活动 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-提供各種活動來協助您設計工作流程。
+提供了各种活动来帮助您设计工作流。
 
-[目標定位活動](../../automating/using/about-targeting-activities.md) 可讓您透過定義集合，並使用交集、聯集或排除作業分割或組合這些集合，來建立一或多個目標。
+[定位活动](../../automating/using/about-targeting-activities.md) 允许您通过定义集并使用交集、并集或排除操作拆分或组合这些集来构建一个或多个目标。
 
-替換為 [執行活動](../../automating/using/about-execution-activities.md)，協調您的工作流程及其活動，同時 [頻道活動](../../automating/using/about-channel-activities.md) 可讓您合併Campaign Standard通訊頻道，以建立跨頻道工作流程。
+替换为 [执行活动](../../automating/using/about-execution-activities.md)，协调工作流及其活动，同时 [渠道活动](../../automating/using/about-channel-activities.md) 您可以合并Campaign Standard通信渠道，以创建跨渠道工作流。
 
-最後， [資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您從資料庫操控資料。
+最后， [数据管理活动](../../automating/using/about-data-management-activities.md) 允许您处理数据库中的数据。
 
 了解更多信息:
 
@@ -60,9 +60,9 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-善用 **查詢編輯器** 以篩選資料庫中的資料，並建置人口族群，以更妥善地鎖定收件者。 查詢編輯器可在Campaign Standard中執行數個動作：建立查詢型別對象、定義傳遞目標或工作流程活動中的母體。
+利用 **查询编辑器** 从数据库中筛选数据并构建群体，以更好地定位收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众、定义投放目标或工作流活动中的群体。
 
-查詢編輯器隨附 **預先定義的篩選器和規則** 方便快速篩選。 不過，您也可以使用 **進階運算式編輯** 功能。 這可讓您手動輸入條件並使用函式，以便形成自己的規則。
+查询编辑器附带 **预定义过滤器和规则** 以便快速轻松地筛选。 但是，您也可以使用 **高级表达式编辑** 功能。 这允许您手动输入条件和使用函数，以便形成自己的规则。
 
 了解更多信息:
 
@@ -70,21 +70,21 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * [高级表达式编辑](../../automating/using/advanced-expression-editing.md)
 * [函数列表](../../automating/using/list-of-functions.md)
 
-## 匯入/匯出資料 {#import-export-data}
+## 导入/导出数据 {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard隨附數種內容 **資料管理功能** 以匯入及匯出資料。
+Campaign Standard包含多个 **数据管理功能** 导入和导出数据。
 
-[工作流程資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您匯入資料、對欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
+[工作流数据管理活动](../../automating/using/about-data-management-activities.md) 允许您导入数据、对字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
 
-替換為 [匯入範本](../../automating/using/importing-data-with-import-templates.md)，透過簡化的匯入功能管理管理員定義的特定匯入型別。
+替换为 [导入模板](../../automating/using/importing-data-with-import-templates.md)，通过简化的导入功能管理管理员定义的特定类型的导入。
 
-[匯出記錄檔](../../automating/using/exporting-logs.md) 可讓您透過簡單的工作流程匯出記錄資料，讓您在自己的報告或BI工具中分析行銷活動的結果。
+[导出日志](../../automating/using/exporting-logs.md) 允许您通过简单的工作流程导出日志数据，从而允许您在自己的报告或BI工具中分析营销活动的结果。
 
-善用 [套件](../../automating/using/managing-packages.md) 在不同的campaign執行個體之間交換資源，例如，複製執行個體的設定，或將資料從伺服器傳輸到另一個包含自訂資源的伺服器。
+利用 [包](../../automating/using/managing-packages.md) 在不同的campaign实例之间交换资源，例如，复制实例的配置，或者将数据从服务器传输到另一个服务器，包括自定义资源。
 
-最後， [匯出清單](../../automating/using/exporting-lists.md) 可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離區電子郵件地址清單等。
+最后， [导出列表](../../automating/using/exporting-lists.md) 允许您从Campaign Standard导出任何列表，例如测试用户档案的列表、隔离区电子邮件地址的列表等。
 
 了解更多信息:
 
@@ -93,6 +93,6 @@ Campaign Standard隨附數種內容 **資料管理功能** 以匯入及匯出資
 
 ## 其他资源
 
-* [流程和資料管理教學課程影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=zh-Hans)
+* [流程和数据管理教程视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=zh-Hans)
 * [技术工作流](../../administration/using/technical-workflows.md)
 * [Campaign Standard 数据模型快速入门](../../developing/using/get-started-data-model.md)

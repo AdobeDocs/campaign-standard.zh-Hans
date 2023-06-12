@@ -1,6 +1,6 @@
 ---
-title: 使用API建立服務
-description: 瞭解如何使用API建立服務
+title: 使用API创建服务
+description: 了解如何使用API创建服务
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# 使用API建立服務{#creating-a-service-api}
+# 使用API创建服务{#creating-a-service-api}
 
-使用執行服務建立 **POST** 服務資源上的要求。
+使用执行服务创建 **POST** 对服务资源的请求。
 
-如果您想要使用特定屬性建立服務，請將其新增至裝載。 否則，將使用預設服務建立新服務。
+如果要使用特定属性创建服务，请将它们添加到有效负载中。 否则，将使用默认服务创建新服务。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-使用特定屬性建立服務的範例POST請求。
+使用特定属性创建服务的示例POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -39,7 +39,7 @@ ht-degree: 0%
 -d }
 ```
 
-它會傳回具有更新屬性的新建立服務。
+它会返回新创建的具有更新属性的服务。
 
 ```
 {

@@ -1,6 +1,6 @@
 ---
 title: 创建自定义用户档案维度
-description: 瞭解如何根據自訂設定檔資料建立自訂設定檔維度。
+description: 了解如何根据自定义用户档案数据创建自定义用户档案维度。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -17,152 +17,152 @@ ht-degree: 5%
 
 # 创建自定义用户档案维度{#creating-a-custom-profile-dimension}
 
-您也可以根據在設定檔自訂資源擴充功能期間建立的自訂設定檔資料，來建立和管理報表。
+还可根据在配置文件自定义资源扩展期间创建的自定义配置文件数据创建和管理报表。
 
-在此範例中，我們要建立自訂設定檔欄位 **熟客方案** 分為三個等級：金級、銀級和銅級。 然後，此自訂設定檔將延伸以便能夠將其用作動態報告中的自訂設定檔維度。
+在本例中，我们要创建自定义用户档案字段 **忠诚度计划** 分为金、银、铜三个层次。 然后，将扩展此自定义用户档案，以便能够将其用作动态报告中的自定义用户档案维度。
 
-* [步驟1：建立新的設定檔欄位](#step-1--create-a-new-profile-field)
-* [步驟2：使用設定檔欄位擴充傳送記錄檔](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [步驟3：建立以已註冊忠誠度計畫的收件者為目標的傳遞](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [步驟4：建立動態報告，以使用自訂設定檔維度篩選收件者](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [步骤1：创建新用户档案字段](#step-1--create-a-new-profile-field)
+* [步骤2：使用用户档案字段扩展发送日志](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [步骤3：创建定向已注册忠诚度计划的收件人的投放](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [步骤4：创建动态报告，以使用自定义用户档案维度筛选收件人](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## 步驟1：建立新的設定檔欄位 {#step-1--create-a-new-profile-field}
+## 步骤1：创建新用户档案字段 {#step-1--create-a-new-profile-field}
 
-我們首先需要建立新的設定檔欄位 **熟客方案** 會將忠誠度等級指派給金級、銀級或銅級收件者。
+我们首先需要创建新的用户档案字段 **忠诚度计划** 将为我们的收件人指定忠诚度级别：金牌、银牌或铜牌。
 
 >[!NOTE]
 >
->自訂資源只能由管理員管理。
+>自定义资源只能由管理员管理。
 
 为实现此操作，请执行以下步骤：
 
-1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然後 **[!UICONTROL Profile (profile)]** 自訂資源。
+1. 从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然后 **[!UICONTROL Profile (profile)]** 自定义资源。
 
    ![](assets/custom_profile_1.png)
 
-1. 從 **[!UICONTROL Data structure]** 標籤，在 **[!UICONTROL Fields]** 類別，按一下 **[!UICONTROL Add field]** 按鈕。
+1. 从 **[!UICONTROL Data structure]** 选项卡，在 **[!UICONTROL Fields]** 类别下，单击 **[!UICONTROL Add field]** 按钮。
 
    ![](assets/custom_profile_2.png)
 
-1. 輸入 **[!UICONTROL Label]**， **[!UICONTROL ID]** 並選取自訂資源 **[!UICONTROL Type]**. 在此，我們選取 **[!UICONTROL Text]** 因為獲獎者可以選擇金牌、銀牌和銅牌。
+1. 输入 **[!UICONTROL Label]**， **[!UICONTROL ID]** 并选择自定义资源 **[!UICONTROL Type]**. 在此，我们选择了 **[!UICONTROL Text]** 因为金牌得主、银牌得主和铜牌得主。
 
    ![](assets/custom_profile_3.png)
 
-1. 按一下 ![](assets/custom_profile_22.png) 圖示來定義您的欄位。
+1. 单击 ![](assets/custom_profile_22.png) 图标来定义您的字段。
 
    ![](assets/custom_profile_12.png)
 
-1. 在此，我們需要透過檢查以下專案來指定授權值 **[!UICONTROL Specify a list of authorized valued]** 並按一下「 」以建立每個值 **[!UICONTROL Create element]**.
+1. 在此，我们需要通过检查来指定授权值 **[!UICONTROL Specify a list of authorized valued]** 并创建每个值，方法是单击 **[!UICONTROL Create element]**.
 
    ![](assets/custom_profile_13.png)
 
-1. 輸入 **[!UICONTROL Label]** 和 **[!UICONTROL Value]** 然後按一下 **[!UICONTROL Add]**. 在此範例中，我們需要建立金、銀和銅的值。 完成后单击 **[!UICONTROL Confirm]**。
+1. 输入 **[!UICONTROL Label]** 和 **[!UICONTROL Value]** 然后单击 **[!UICONTROL Add]**. 对于此示例，我们需要创造金、银和铜的价值。 完成后单击 **[!UICONTROL Confirm]**。
 
    ![](assets/custom_profile_14.png)
 
-1. 选择 **[!UICONTROL Screen definition]** 选项卡。在 **[!UICONTROL Detail screen configuration]** 下拉式清單，勾選 **[!UICONTROL Add personalized fields]** 區段，以在我們的設定檔中建立新區段。
+1. 选择 **[!UICONTROL Screen definition]** 选项卡。在 **[!UICONTROL Detail screen configuration]** 下拉列表，选中 **[!UICONTROL Add personalized fields]** 部分，以便在我们的用户档案中创建新部分。
 
    ![](assets/custom_profile_4.png)
 
-1. 按一下 **[!UICONTROL Add an element]** 按鈕來建立您的新區段。 選取 **[!UICONTROL Type]**： **[!UICONTROL Input field]**， **[!UICONTROL Value]** 或 **[!UICONTROL List]**，然後在此新區段中新增的欄位。
+1. 单击 **[!UICONTROL Add an element]** 按钮以创建新分区。 选择 **[!UICONTROL Type]**： **[!UICONTROL Input field]**， **[!UICONTROL Value]** 或 **[!UICONTROL List]**，然后输入要添加到此新分区中的字段。
 
    ![](assets/custom_profile_5.png)
 
-1. 您也可以在「 」欄位中新增標題至您的區段 **[!UICONTROL Customize the title of the section where the fields will be displayed]**.
+1. 您还可以在字段中向分区添加标题 **[!UICONTROL Customize the title of the section where the fields will be displayed]**.
 
-   按一下 **[!UICONTROL Save]** 完成設定時。
+   单击 **[!UICONTROL Save]** 完成配置后。
 
    ![](assets/custom_profile_6.png)
 
-1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以開始發佈自訂資源。
-1. 按一下 **[!UICONTROL Prepare publication]** 準備完成後，按一下 **[!UICONTROL Publish]** 按鈕。
+1. 从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以开始发布自定义资源。
+1. 单击 **[!UICONTROL Prepare publication]** 然后，准备完成后，单击 **[!UICONTROL Publish]** 按钮。
 
    ![](assets/custom_profile_7.png)
 
-您的新設定檔欄位現在已可供收件者使用和選取。
+您的新用户档案字段现在可供收件人使用和选择。
 
 ![](assets/custom_profile_8.png)
 
-## 步驟2：使用設定檔欄位擴充傳送記錄檔 {#step-2--extend-the-sending-logs-with-the-profile-field}
+## 步骤2：使用用户档案字段扩展发送日志 {#step-2--extend-the-sending-logs-with-the-profile-field}
 
-現在您的設定檔欄位已建立，我們需要使用設定檔欄位擴充傳送記錄檔，以在動態報告中建立相關聯的自訂設定檔維度。
+现在您的用户档案字段已创建，我们需要使用用户档案字段扩展发送日志，以在动态报告中创建关联的自定义用户档案维度。
 
-在使用我們的設定檔欄位擴充記錄前，請確定已接受PII視窗以存取 **[!UICONTROL Sending logs extension]** 標籤。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口以访问 **[!UICONTROL Sending logs extension]** 选项卡。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 >[!NOTE]
 >
->管理員只能使用設定檔欄位來擴充記錄檔。
+>日志只能由管理员使用配置文件字段扩展。
 
-1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然後 **[!UICONTROL Profile (profile)]** 自訂資源。
-1. 開啟 **[!UICONTROL Sending logs extension]** 下拉式清單。
+1. 从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然后 **[!UICONTROL Profile (profile)]** 自定义资源。
+1. 打开 **[!UICONTROL Sending logs extension]** 下拉菜单。
 1. 单击 **[!UICONTROL Create element]** 按钮。
 
    ![](assets/custom_profile_9.png)
 
-1. 選取您先前建立的欄位並按一下 **[!UICONTROL Confirm]**.
-1. Check **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 以建立您的自訂設定檔維度。
+1. 选择您之前创建的字段并单击 **[!UICONTROL Confirm]**.
+1. Check **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 以创建您的自定义用户档案维度。
 
    ![](assets/custom_profile_10.png)
 
-   只有接受PII視窗時，才能使用此選項。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+   此选项仅在PII窗口被接受时可用。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
-1. 按一下 **[!UICONTROL Add]** 然後儲存自訂資源。
-1. 由於自訂資源已修改，因此我們需要發佈它以實施新的變更。
+1. 单击 **[!UICONTROL Add]** 然后保存您的自定义资源。
+1. 由于自定义资源已被修改，因此我们需要发布它以实施新的更改。
 
-   從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以開始發佈自訂資源。
+   从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以开始发布自定义资源。
 
-1. 按一下 **[!UICONTROL Prepare publication]** 準備完成後，按一下 **[!UICONTROL Publish]** 按鈕。
+1. 单击 **[!UICONTROL Prepare publication]** 然后，准备完成后，单击 **[!UICONTROL Publish]** 按钮。
 
    ![](assets/custom_profile_7.png)
 
-您的自訂設定檔現在可作為自訂設定檔維度用於報表。
+您的自定义配置文件现在可作为自定义配置文件维度显示在报表中。
 
-現在您的欄位已建立，而且傳送記錄已使用此設定檔欄位擴充，您就可以開始在傳送中鎖定收件者。
+现在，您的字段已创建，并且发送日志已使用此用户档案字段扩展，您便可以开始在投放中定位收件人。
 
-## 步驟3：建立以已註冊忠誠度計畫的收件者為目標的傳遞 {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## 步骤3：创建定向已注册忠诚度计划的收件人的投放 {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
-您的設定檔欄位發佈後，您就可以開始傳送。 在此範例中，我們想要鎖定註冊熟客計畫的每位收件者。
+发布用户档案字段后，即可开始投放。 在本例中，我们希望定位已注册忠诚度计划的每个收件人。
 
 1. 在 **[!UICONTROL Marketing activities]** 选项卡中，单击 **[!UICONTROL Create]**，然后选择 **[!UICONTROL Email]**。
-1. 選擇 **[!UICONTROL Email type]** 然後輸入電子郵件的屬性。
-1. 若要鎖定已註冊忠誠度計畫的收件者，請拖放 **[!UICONTROL Profiles (attributes)]** 活動。
-1. 從中選擇您先前建立的欄位 **[!UICONTROL Field]** 下拉式清單。
+1. 选择一个 **[!UICONTROL Email type]** 然后输入电子邮件的属性。
+1. 要定位已注册忠诚度计划的收件人，请拖放 **[!UICONTROL Profiles (attributes)]** 活动。
+1. 从中选择您之前创建的字段 **[!UICONTROL Field]** 下拉菜单。
 
    ![](assets/custom_profile_16.png)
 
-1. 選取您的 **[!UICONTROL Filter conditions]**. 在此，我們想要鎖定屬於三個忠誠度計畫層級之一的收件者。
+1. 选择您的 **[!UICONTROL Filter conditions]**. 在本例中，我们要定位属于三个忠诚度计划级别之一的收件人。
 
    ![](assets/custom_profile_17.png)
 
-1. 按一下 **[!UICONTROL Confirm]** 然後完成篩選時，按一下 **[!UICONTROL Next]**.
-1. 定義並個人化訊息內容、寄件者名稱和主旨。 如需建立電子郵件的詳細資訊，請參閱此 [頁面](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 单击 **[!UICONTROL Confirm]** 然后，完成筛选后，单击 **[!UICONTROL Next]**.
+1. 定义并个性化邮件内容、发件人姓名和主题。 有关电子邮件创建的更多信息，请参阅此 [页面](../../designing/using/designing-content-in-adobe-campaign.md).
 
-   然後，按一下 **[!UICONTROL Create]**.
+   然后，单击 **[!UICONTROL Create]**.
 
-1. 準備就緒後，您可以預覽並傳送訊息。 有關如何準備和傳送訊息的詳細資訊，請參閱此 [頁面](../../sending/using/preparing-the-send.md).
+1. 准备就绪后，您可以预览并发送消息。 有关如何准备和发送消息的更多信息，请参阅此 [页面](../../sending/using/preparing-the-send.md).
 
-將電子郵件正確傳送至您選取的收件者後，您就可以開始篩選資料，並追蹤傳送報表的成功情況。
+将电子邮件正确发送到选定的收件人后，您可以开始筛选数据并通过报告跟踪投放的成功情况。
 
-## 步驟4：建立動態報告，以使用自訂設定檔維度篩選收件者 {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## 步骤4：创建动态报告，以使用自定义用户档案维度筛选收件人 {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
-傳送傳遞後，您可以使用自訂設定檔維度劃分報表，從 **[!UICONTROL Profile]** 表格。
+发送投放后，您可以使用中的自定义用户档案维度划分报表 **[!UICONTROL Profile]** 表格。
 
-1. 從 **[!UICONTROL Reports]** 索引標籤中，選取現成可用的報表，或按一下 **[!UICONTROL Create]** 按鈕以從頭開始。
+1. 从 **[!UICONTROL Reports]** 选项卡，选择现成的报告或单击 **[!UICONTROL Create]** 按钮以从头开始创建。
 
    ![](assets/custom_profile_18.png)
 
-1. 在 **[!UICONTROL Dimensions]** 類別，按一下 **[!UICONTROL Profile]** 然後拖放您的自訂 **熟客方案** 設定檔維度至您的自由表格。
+1. 在 **[!UICONTROL Dimensions]** 类别，单击 **[!UICONTROL Profile]** 然后拖放您的自定义 **忠诚度计划** 配置文件维度添加到自由格式表。
 
    ![](assets/custom_profile_19.png)
 
-1. 拖放 **[!UICONTROL Processed/Sent]** 和 **[!UICONTROL Open]** 開始篩選資料的量度。
+1. 拖放 **[!UICONTROL Processed/Sent]** 和 **[!UICONTROL Open]** 用于开始筛选数据的指标。
 
    ![](assets/custom_profile_20.png)
 
-1. 視需要在工作區中拖放視覺效果。
+1. 如果需要，可将可视化图表拖放到工作区中。
 
    ![](assets/custom_profile_21.png)
 
 **相关主题：**
 
-* [使用自訂設定檔資料建立具洞察力的報表](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [使用自定义用户档案数据创建有洞察力的报告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

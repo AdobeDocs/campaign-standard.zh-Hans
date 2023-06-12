@@ -1,6 +1,6 @@
 ---
 title: 关于 Campaign-Analytics 集成
-description: 透過從Adobe Campaign Standard收集KPI資料，您現在可以與Adobe Analytics共用行銷活動資料，以測量來自Adobe Campaign的電子郵件行銷量度。
+description: 通过从Adobe Campaign Standard收集KPI数据，您现在可以与Adobe Analytics共享促销活动数据，以测量来自Adobe Campaign的电子邮件营销量度。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,21 +17,21 @@ ht-degree: 6%
 
 # 关于 Campaign-Analytics 集成{#about-campaign-analytics-integration}
 
-有了Adobe Campaign中的Adobe Analytics整合，您現在可以直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
+借助Adobe Campaign中的Adobe Analytics集成，您现在可以直接在Adobe Analytics中跟踪电子邮件投放的成功情况。
 
-Adobe Campaign Standard與Adobe Analytics之間的這項整合可讓您：
+Adobe Campaign Standard与Adobe Analytics之间的这种集成将允许您：
 
-* 將您的KPI （關鍵績效指標）資料從Adobe Campaign Standard分享到Adobe Analytics。
-* 使用Adobe Analytics引數豐富追蹤公式。
+* 将您的KPI（关键绩效指标）数据从Adobe Campaign Standard共享到Adobe Analytics。
+* 使用Adobe Analytics参数扩充跟踪公式。
 
-首先，建立連結至Adobe Analytics的外部帳戶即可解決問題。 然後，技術工作流程將自動啟動，並預設每15分鐘自動執行一次。 接著會將您的KPI資料推送至Analytics。
+此操作可通过首先创建链接到Adobe Analytics的外部帐户来完成。 然后，技术工作流将自动启动，默认情况下每15分钟自动执行一次。 然后，会将您的KPI数据推送到Analytics。
 
-此整合僅適用於電子郵件傳遞。
+此集成仅适用于电子邮件投放。
 
-Adobe Analytics核心服務之間的整合 **觸發器** 和Adobe Campaign也可使用。 它可讓您傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為（在15分鐘內）。
+Adobe Analytics核心服务之间的集成 **触发器** 和Adobe Campaign也可用。 它允许您根据Adobe Analytics在您的网站上跟踪的特定行为的反应，向客户发送个性化电子邮件（在15分钟内）。
 
 **相关主题：**
 
-* [Analytics整合Campaign Standard概觀](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign Standard与Analytics集成概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [配置Campaign Standard集成](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics 中的 Campaign 维度和指标](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

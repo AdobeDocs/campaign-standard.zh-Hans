@@ -1,6 +1,6 @@
 ---
 title: 显示 Adobe Campaign Standard 推送通知中的图像
-description: 在此處瞭解如何在iOS裝置上顯示Adobe Campaign推播通知的影像
+description: 在此处了解如何在iOS设备上显示Adobe Campaign推送通知中的图像
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -17,57 +17,57 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->本檔案僅適用於iOS裝置。
+>本文档仅适用于iOS设备。
 
-在本檔案中，瞭解如何從Adobe Campaign Standard iOS推播通知顯示影像。
+在本文档中，了解如何显示Adobe Campaign Standard iOS推送通知中的图像。
 
-## 步驟1：設定推播通知 {#set-up-push}
+## 步骤1：设置推送通知 {#set-up-push}
 
-Experience Platform SDK支援推播通知。
+Experience PlatformSDK支持推送通知。
 
-接收推播通知的行動應用程式必須由管理員在Adobe Campaign介面中設定。
+接收推送通知的移动应用程序必须由管理员在Adobe Campaign界面中配置。
 
-透過設定Adobe Campaign和Adobe Mobile Services，您將能夠將行動應用程式的資料用於行銷活動。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
+通过配置Adobe Campaign和AdobeMobile Services，您可以将移动应用程序的数据用于营销活动。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
 
-若要使用Experience Cloud SDK應用程式傳送推播通知，必須在資料收集UI中設定行動應用程式，並在Adobe Campaign中設定。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+要使用Experience CloudSDK应用程序发送推送通知，必须在数据收集UI中设置移动应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-## 步驟2：在Adobe Campaign中自訂推播通知 {#customize-push}
+## 步骤2：在Adobe Campaign中自定义推送通知 {#customize-push}
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
 1. 创建推送通知. 有关详细信息，请参见此 [ 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 從推播通知內容頁面，存取 **[!UICONTROL Advanced options]** 區段。
+1. 从推送通知内容页面，访问 **[!UICONTROL Advanced options]** 部分。
 
-1. 在「 」中輸入檔案的URL **[!UICONTROL Rich media content URL]** 欄位。
+1. 在中输入文件的URL **[!UICONTROL Rich media content URL]** 字段。
 对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)
 
-1. 預覽並儲存推播通知。
+1. 预览并保存推送通知。
 
-## 步驟3：調整行動應用程式程式碼 {#mobile-app-code}
+## 步骤3：调整移动设备应用程序代码 {#mobile-app-code}
 
-在Adobe Campaign中自訂推播通知後，您必須設定行動應用程式以在裝置上顯示影像。
+在Adobe Campaign中自定义推送通知后，您必须配置移动应用程序以在设备上显示图像。
 
 >[!NOTE]
 >
->如果您的應用程式位於Objective-C，請參閱以下內容 [檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>如果您的应用程序位于Objective-C中，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-如果您的應用程式位於 [!DNL Swift]，請遵循下列步驟：
+如果您的应用程序位于 [!DNL Swift]，请按照以下步骤操作：
 
-1. 開啟您的 [!DNL Xcode] 專案。
+1. 打开您的 [!DNL Xcode] 项目。
 
-1. 在您的 [!DNL Xcode] 專案，選取 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. 在您的 [!DNL Xcode] 项目，选择 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. 选择 **[!UICONTROL Notification Service Extension]**。
 
    ![](assets/push_notif_advanced_12.png)
 
-1. 檢查 **NotificationService.swift** 檔案類別已建立。
+1. 检查 **NotificationService.swift** 创建文件类。
 
-1. 編輯此類別並將預設內容取代為下列內容。
-這可讓應用程式使用影像URL處理傳入引數、解析該引數、將其複製到本機，然後從推播通知顯示該引數。
+1. 编辑此类并将默认内容替换为以下内容。
+这允许应用程序使用图像URL处理传入参数，解析该参数，将其复制到本地，然后从推送通知中显示该参数。
 
    ```
    import UserNotifications
@@ -127,9 +127,9 @@ Experience Platform SDK支援推播通知。
    }
    ```
 
-行動裝置應在傳送通知時接收下列裝載。
+移动设备应在发送通知时接收以下有效负载。
 
-影像URL已對應到關鍵media-attachment-url。 這是您必須從應用程式程式碼角度處理的機碼/值組，才能下載和顯示影像。
+图像URL已映射到关键media-attachment-url。 这是要从应用程序代码角度处理才能下载和显示图像的键/值对。
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {
@@ -149,8 +149,8 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 步驟4：測試傳送推播 {#test-send-push}
+## 步骤4：测试发送推送 {#test-send-push}
 
-您現在可以測試建置應用程式和您在上述步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此 [頁面](../../channels/using/preparing-and-sending-a-push-notification.md).
+您现在可以测试构建应用程序以及在上述步骤2中创建的投放。 有关准备和发送推送通知的更多信息，请参阅此 [页面](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)

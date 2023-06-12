@@ -26,17 +26,17 @@ ht-degree: 75%
 
 ![](assets/load_file_workflow_ex2.png)
 
-若要建立工作流程，請遵循下列步驟：
+要构建工作流，请执行以下步骤：
 
-1. 拖放 [查詢](../../automating/using/query.md) 活動放入工作流程中，並開啟它以定義主要目標。
+1. 拖放 [查询](../../automating/using/query.md) 活动并将其打开以定义主目标。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. 拖放 [載入檔案](../../automating/using/load-file.md) 活動，將部分資料指派給設定檔。 在本例中，就是加载一个其中包含了对应于数据库某些用户档案之帐号的文件。
+1. 拖放 [加载文件](../../automating/using/load-file.md) 活动，将一些数据分配给用户档案。 在本例中，就是加载一个其中包含了对应于数据库某些用户档案之帐号的文件。
 
    ![](assets/load_file_activity.png)
 
-1. 拖放 [擴充](../../automating/using/enrichment.md) 將活動連結至工作流程，並將載入檔案和查詢活動連結至工作流程。
+1. 拖放 [扩充](../../automating/using/enrichment.md) 将活动链接到工作流，并将加载文件和查询活动链接到工作流。
 
 1. 在扩充活动的 **[!UICONTROL Advanced relations]** 选项卡中，选择 **[!UICONTROL 0 or 1 cardinality simple link]** 并定义要用于协调的字段。这里，我们使用“姓氏”将数据与数据库用户档案协调。
 
@@ -50,13 +50,13 @@ ht-degree: 75%
 
    有关更多信息，请参阅[扩充](../../automating/using/enrichment.md)一节。
 
-1. 拖放 [細分](../../automating/using/segmentation.md) 活動放入工作流程中，並開啟它以調整主要目標。
+1. 拖放 [分段](../../automating/using/segmentation.md) 活动并将其打开以优化主目标。
 
    ![](assets/load_file_segmentation.png)
 
    有关更多信息，请参阅[分段](../../automating/using/segmentation.md)一节。
 
-1. 拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動至工作流程並開啟。
+1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动并将其打开到工作流中。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

@@ -1,6 +1,6 @@
 ---
 title: 删除资源
-description: 瞭解如何刪除資源
+description: 了解如何删除资源
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -17,18 +17,18 @@ ht-degree: 16%
 
 # 删除资源{#deleting-a-resource}
 
-若要刪除資源，相關資源必須是 **[!UICONTROL Draft]**. 資源位於 **[!UICONTROL Draft]** 狀態，如果：
+要删除资源，相关资源必须是 **[!UICONTROL Draft]**. 资源位于 **[!UICONTROL Draft]** 状态，如果：
 
-* 它剛剛建立且尚未發佈。
-* 如果已發佈，則必須重新起草資源。
+* 它刚刚创建，尚未发布。
+* 如果它已经发表，就必须重新起草资源。
 
 >[!IMPORTANT]
 >
->重新起草和刪除自訂資源是敏感性作業，可能會影響其他資源。 這些動作只能由專家使用者執行。
+>重新起草和删除自定义资源是敏感操作，可能会影响其他资源。 这些操作只能由专家用户执行。
 
-若要重新草稿並刪除已發佈的資源：
+要重新草稿和删除已发布的资源，请执行以下操作：
 
-1. 選取您要重新草擬的資源。
+1. 选择要重新绘制的资源。
 1. 单击操作栏中的 **[!UICONTROL Re-draft]** 按钮。
 
    ![](assets/schema_extension_uc26.png)
@@ -37,24 +37,24 @@ ht-degree: 16%
 
    >[!IMPORTANT]
    >
-   >此動作是確定的：資源的資料庫表格或欄及其資料將在修改發佈時永久刪除，這可能會導致其他自訂資源的連結中斷。 只有資源定義仍可繼續使用。
+   >此操作是确定的：在发布修改时，资源的数据库表或列及其数据将被永久删除，这可能会导致其他自定义资源的链接断开。 只有资源定义将保持可用。
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >如果您重新草擬現成可用的擴充功能 **設定檔（設定檔）** 資源，您也必須重新草擬任何 **測試設定檔(seedMember)** 您可能已定義的擴充功能。 如需擴充設定檔資源的詳細資訊，請參閱 [本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >如果重新绘制开箱即用的扩展 **配置文件（配置文件）** 资源，您还必须重新草拟 **测试配置文件(seedMember)** 您可能已定义的扩展。 有关扩展用户档案资源的更多信息，请参阅 [本节](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. 发布资源。如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 发布资源。有关更多详细步骤，请参阅 [发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   然後，資源進入 **草稿** 模式及其啟用狀態為 **[!UICONTROL Inactive]**.
+   然后，资源将进入 **草稿** 模式及其激活状态为 **[!UICONTROL Inactive]**.
 
-1. 在 **[!UICONTROL List]** 模式，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 圖示。
+1. In **[!UICONTROL List]** 模式，选中要删除的资源，然后单击 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 图标。
 
    ![](assets/schema_extension_uc28.png)
 
-您的資源會從資料模型刪除。
+您的资源将从数据模型中删除。
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。另請參閱 [取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。参见 [取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

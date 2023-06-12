@@ -1,6 +1,6 @@
 ---
 title: 许可证
-description: 深入瞭解執行個體上安裝的授權
+description: 了解有关实例上安装的许可证的更多信息
 audience: administration
 feature: Access Management
 role: Admin
@@ -15,20 +15,20 @@ ht-degree: 1%
 
 # 许可证{#licenses}
 
-此 **[!UICONTROL Licenses]** 視窗可讓您檢視執行個體上安裝的授權，以及相關的不同資訊，例如，版本編號、版本版本版本或是否接受合約條款及接受者。
+此 **[!UICONTROL Licenses]** 窗口允许您查看实例上安装的许可证以及有关该许可证的不同信息，如内部版本号、版本号或协议条款是否已被接受以及接受者。
 
 ![](assets/license_1.png)
 
-若使用新的組建版本或新功能，授權條款可能會變更，且必須由執行個體的功能管理員接受。
+使用新版本或新功能时，许可条款可能会发生更改，并且必须由实例的功能管理员接受。
 
-標準使用者在登入後會顯示下列視窗，使用者無需採取任何動作。 Adobe Campaign他們仍可藉由按一下 **[!UICONTROL OK]** 按鈕。
+标准用户登录后将显示以下窗口，用户无需执行任何操作。 Adobe Campaign他们仍可以通过单击 **[!UICONTROL OK]** 按钮。
 
 ![](assets/license_2.png)
 
-管理員必須在安裝組建後的接下來的30天內，透過核取來閱讀並確認新的合約條款 **[!UICONTROL I accept the terms from the license agreement]** 並按一下 **[!UICONTROL Confirm]**.
+管理员必须在版本安装后的30天内通过选中来阅读并确认新的协议条款 **[!UICONTROL I accept the terms from the license agreement]** 并单击 **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 
-超過這30天後，如果協定不被接受，則沒有任何使用者能夠使用此執行個體。 標準使用者將無法存取Adobe Campaign功能，且只有在功能管理員接受合約條款後，才會看到下列訊息。
+如果在这30天内协议未被接受，则任何用户都将无法使用此实例。 标准用户将无法访问Adobe Campaign的功能，并且在功能管理员接受协议条款之前，只能看到以下消息。
 
 ![](assets/license_4.png)

@@ -1,6 +1,6 @@
 ---
 title: 管理 Adobe Experience Platform 受众
-description: 瞭解如何在Campaign Standard中管理Adobe Experience Platform。
+description: 了解如何在Campaign Standard中管理Adobe Experience Platform。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -20,52 +20,52 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>受众目标服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-## 存取Adobe Experience Platform對象
+## 访问Adobe Experience Platform受众
 
-若要存取Adobe Experience Platform區段產生器，請導覽至 **[!UICONTROL Audiences]** Campaign Standard首頁上的卡片(或 **[!UICONTROL Audiences]** 連結)，然後選取 **[!UICONTROL Adobe Experience Platform]** 環境。
+要访问Adobe Experience Platform区段生成器，请导航到 **[!UICONTROL Audiences]** Campaign Standard主页上的信息卡(或 **[!UICONTROL Audiences]** 链接)，然后选择 **[!UICONTROL Adobe Experience Platform]** 环境。
 
 ![](assets/aep_audiences_access.png)
 
-您會先進入Adobe Experience Platform區段清單頁面，您可在此存取現有的Adobe Experience Platform區段以供進一步編輯。
+您首先会被定向到Adobe Experience Platform区段列表页面，在该页面中，可以访问现有的Adobe Experience Platform区段进行进一步编辑。
 
-搜尋列和篩選器可協助您找到所需的Adobe Experience Platform區段。
+可使用搜索栏和过滤器来帮助您查找所需的Adobe Experience Platform区段。
 
 ![](assets/aep_audiences_list.png)
 
-## 建立Adobe Experience Platform對象
+## 创建Adobe Experience Platform受众
 
-若要直接在Campaign Standard中建立Adobe Experience Platform對象，請遵循下列步驟：
+要直接在Campaign Standard中创建Adobe Experience Platform受众，请执行以下步骤：
 
-1. 從Adobe Experience Platform區段清單頁面，按一下 **[!UICONTROL New audience]** 按鈕。
+1. 从Adobe Experience Platform区段列表页面，单击 **[!UICONTROL New audience]** 按钮。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. 區段產生器現在應該會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform的資料來建立區段，這些資料最終將用來建立您的對象。
+1. 区段生成器现在应显示在您的工作区中。 它允许您使用Adobe Experience Platform中的数据构建区段，这些数据最终将用于创建受众。
 
-1. 在右窗格中命名區段，並輸入說明（選擇性）。
+1. 在右窗格中命名区段并输入说明（可选）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. 為了成功建立區段，您必須選取 **合併原則** 符合您對於此區段的行銷目的的資訊。
+1. 要成功创建区段，您必须选择 **合并策略** 与您针对此区段的营销目的相匹配的信息。
 
-   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅 [Segment Builder用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 定義可識別要在對象中擷取的設定檔的規則。
+1. 定义用于确定要在受众中检索的用户档案的规则。
 
-   若要這麼做，請從左側窗格將所需的屬性和/或事件拖曳至工作區，定義對應的規則，然後按一下 **[!UICONTROL Create segment]** 按鈕以儲存區段(請參閱 [使用區段產生器](../../integrating/using/aep-using-segment-builder.md))。
+   为此，请将所需属性和/或事件从左侧窗格拖到工作区中，定义相应的规则，然后单击 **[!UICONTROL Create segment]** 按钮以保存区段(请参阅 [使用区段生成器](../../integrating/using/aep-using-segment-builder.md))。
 
    ![](assets/aep_audiences_creation_query.png)
 
-對象現在已準備好啟動，您可以將其用作行銷活動的目標(請參閱 [鎖定目標Adobe Experience Platform對象](../../integrating/using/aep-targeting-audiences.md))。
+受众现已准备好激活，您可以将其用作营销活动的目标(请参阅 [定位Adobe Experience Platform受众](../../integrating/using/aep-targeting-audiences.md))。
 
 ## 编辑受众
 
-若要編輯對象，請開啟對象，並視需要在「區段產生器」介面中修改規則(請參閱 [使用區段產生器](../../integrating/using/aep-using-segment-builder.md))。
+要编辑受众，请打开该受众，然后根据需要在“区段生成器”界面中修改规则(请参阅 [使用区段生成器](../../integrating/using/aep-using-segment-builder.md))。
 
-完成變更後，按一下 **[!UICONTROL Save segment]** 按鈕來更新您的對象。
+完成更改后，单击 **[!UICONTROL Save segment]** 按钮以更新受众。
 
 ![](assets/aep_audiences_editing.png)

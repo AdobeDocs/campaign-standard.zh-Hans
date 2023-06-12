@@ -1,6 +1,6 @@
 ---
-title: 編輯純文字、HTML和行動電子郵件格式
-description: 探索純文字和HTML模式
+title: 编辑纯文本、HTML和移动电子邮件格式
+description: 了解纯文本和HTML模式
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,21 +15,21 @@ ht-degree: 1%
 
 ---
 
-# 編輯純文字、HTML和行動電子郵件格式 {#plain-text-and-html-modes}
+# 编辑纯文本、HTML和移动电子邮件格式 {#plain-text-and-html-modes}
 
-電子郵件設計工具可讓您編輯電子郵件的數個轉譯。 您可以產生電子郵件的文字版本、編輯電子郵件的HTML來源，並設計電子郵件以利行動檢視。
+Email Designer允许您编辑电子邮件的多种渲染。 您可以生成电子邮件的文本版本、编辑电子邮件的HTML源并设计用于移动设备查看的电子邮件。
 
-## 產生電子郵件的文字版本 {#generating-a-text-version-of-the-email}
+## 生成电子邮件的文本版本 {#generating-a-text-version-of-the-email}
 
-根據預設， **[!UICONTROL Plain text]** 系統會自動產生您電子郵件的版本，並會與 **[!UICONTROL Edit]** 版本。
+默认情况下， **[!UICONTROL Plain text]** 您的电子邮件版本会自动生成，并与 **[!UICONTROL Edit]** 版本。
 
-新增至HTML版本的個人化欄位和內容區塊也會與純文字版本同步。
+添加到HTML版本的个性化字段和内容块也将与纯文本版本同步。
 
 >[!NOTE]
 >
->若要以純文字版本使用內容區塊，請確定它們不包含HTML程式碼。
+>要在纯文本版本中使用内容块，请确保它们不包含HTML代码。
 
-若要使用與HTML版本不同的純文字版本，您可以按一下 **[!UICONTROL Sync with HTML]** 切換自 **[!UICONTROL Plain text]** 電子郵件檢視。
+若要使用与HTML版本不同的纯文本版本，您可以通过单击 **[!UICONTROL Sync with HTML]** 切换自 **[!UICONTROL Plain text]** 查看您的电子邮件。
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,95 +37,95 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您編輯 **[!UICONTROL Plain text]** 版本進行更新，但下次您啟用 **[!UICONTROL Sync with HTML]** 選項，您在純文字版本中所做的所有變更都將以HTML版本取代。 在中進行的變更 **[!UICONTROL Plain text]** 檢視無法反映在 **[!UICONTROL HTML]** 檢視。
+>如果您编辑 **[!UICONTROL Plain text]** 版本，但禁用了同步，则下次启用 **[!UICONTROL Sync with HTML]** 选项，您在纯文本版本中所做的所有更改都将替换为HTML版本。 中所做的更改 **[!UICONTROL Plain text]** 视图不能反映在 **[!UICONTROL HTML]** 视图。
 
-## 編輯HTML中的電子郵件內容來源 {#editing-an-email-content-source-in-html}
+## 在HTML中编辑电子邮件内容源 {#editing-an-email-content-source-in-html}
 
-對於最進階的使用者和偵錯，您可以直接在HTML中檢視和編輯電子郵件內容。
+对于最高级的用户和调试用户，可以直接在HTML中查看和编辑电子邮件内容。
 
-編輯電子郵件HTML版本的方法有兩種：
+您可以通过两种方法编辑电子邮件的HTML版本：
 
-* 選取 **[!UICONTROL Edit]** > **[!UICONTROL HTML]** 以開啟整封電子郵件的HTML版本。
+* 选择 **[!UICONTROL Edit]** > **[!UICONTROL HTML]** 以打开整个电子邮件的HTML版本。
 
    ![](assets/email_designer_html1.png)
 
-* 從WYSIWYG介面中，選取元素並按一下 **[!UICONTROL Source code]** 圖示。
+* 从WYSIWYG界面中选择一个元素，然后单击 **[!UICONTROL Source code]** 图标。
 
-   只會顯示所選元素的來源。 如果選取的元素為，您可以編輯原始程式碼 **[!UICONTROL HTML]** 內容元件。 其他元件處於唯讀模式，但仍可在電子郵件的完整HTML版本中編輯。
+   仅显示选定元素的源。 如果选定的元素为，则可以编辑源代码 **[!UICONTROL HTML]** 内容组件。 其他组件处于只读模式，但仍可以在电子邮件的完整HTML版本中进行编辑。
 
    ![](assets/email_designer_html2.png)
 
-如果您修改程式碼的HTML，電子郵件的回應速度可能會中斷。 請務必使用 **[!UICONTROL Preview]** 按鈕。 请参阅[预览消息](../../sending/using/previewing-messages.md)。
+如果修改代码的HTML，电子邮件的响应速度可能会中断。 确保使用进行测试 **[!UICONTROL Preview]** 按钮。 请参阅[预览消息](../../sending/using/previewing-messages.md)。
 
-## 為行動呈現設計電子郵件 {#switching-to-mobile-view}
+## 为移动渲染设计电子邮件 {#switching-to-mobile-view}
 
-您可以個別編輯行動顯示的所有樣式選項，微調電子郵件的回應式設計。 例如，您可以調整邊界與內距、使用較小或較大的字型大小、變更按鈕，或套用您的電子郵件行動版本特定的不同背景顏色。
+您可以通过单独编辑移动设备显示的所有样式选项来微调电子邮件的响应式设计。 例如，您可以调整边距和填充、使用较小或较大的字体大小、更改按钮或应用特定于电子邮件的移动设备版本的不同背景颜色。
 
-行動檢視中提供所有樣式選項。 電子郵件設計工具樣式設定會先顯示在此頁面上。
+所有样式选项在移动设备视图中均可用。 此页面上以前显示过Email Designer样式设置。
 
-1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參閱 [從頭開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. 若要存取專用的行動檢視，請選取 **[!UICONTROL Switch to mobile view]** 按鈕。
+1. 创建电子邮件并开始编辑内容。 有关此内容的更多信息，请参阅 [从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. 要访问专用移动设备视图，请选择 **[!UICONTROL Switch to mobile view]** 按钮。
 
    ![](assets/email_designer_mobile_view_switch.png)
 
-   隨即顯示電子郵件的行動版本。 它包含案頭檢視中定義的所有元件和樣式。
+   此时会显示电子邮件的移动设备版本。 它包含桌面视图中定义的所有组件和样式。
 
-1. 獨立編輯所有樣式設定，例如背景顏色、對齊、邊框間距、邊界、字型系列、文字顏色等。
+1. 独立编辑所有样式设置，如背景颜色、对齐、填充、边距、字体系列、文本颜色等。
 
    ![](assets/email_designer_mobile_view.png)
 
-1. 在行動檢視中編輯任何樣式設定時，修改只會套用至行動顯示。
+1. 在移动设备视图中编辑任何样式设置时，修改仅应用于移动设备显示。
 
-   例如，縮小影像大小、新增綠色背景並變更行動檢視中的邊框間距。
+   例如，减小图像的大小，添加绿色背景并更改移动视图中的填充。
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. 在行動裝置上顯示元件時，您可以隱藏元件。 要執行此操作，請選取 **[!UICONTROL Show only on desktop devices]** 從 **[!UICONTROL Display options]**.
+1. 在移动设备上显示组件时，您可以隐藏组件。 要执行此操作，请选择 **[!UICONTROL Show only on desktop devices]** 从 **[!UICONTROL Display options]**.
 
-   您也可以選擇在案頭裝置上隱藏此元件，這表示它只會顯示在行動裝置上。 要執行此操作，請選取 **[!UICONTROL Show only on mobile devices]**.
+   您还可以选择在桌面设备上隐藏此组件，这意味着它仅在移动设备上显示。 要执行此操作，请选择 **[!UICONTROL Show only on mobile devices]**.
 
-   例如，此選項可讓您在行動裝置上顯示特定影像，而在桌上型裝置上顯示另一個影像。
+   例如，此选项允许您在移动设备上显示特定图像，在桌面设备上显示另一个图像。
 
-   您可以從行動或案頭檢視設定此選項。
+   您可以从移动设备视图或桌面视图设置此选项。
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. 再按一下 **[!UICONTROL Switch to mobile view]** 按鈕以返回標準案頭檢視。 您剛才所做的樣式變更不會反映出來。
+1. 再次单击 **[!UICONTROL Switch to mobile view]** 按钮以返回到标准桌面视图。 您刚才所做的样式更改不会反映出来。
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >唯一的例外是 **[!UICONTROL Style inline]** 設定。 任何樣式內嵌設定變更也會套用至標準案頭檢視。
+   >唯一的例外是 **[!UICONTROL Style inline]** 设置。 任何样式内联设置更改也将应用于标准桌面视图。
 
-1. 對電子郵件結構或內容的任何其他變更，例如文字編輯、上傳新影像、新增元件等。 也會套用至標準檢視。
+1. 对电子邮件的结构或内容的任何其他更改，如文本编辑、上传新图像、添加新组件等。 也会应用于标准视图。
 
-   例如，切換回行動檢視、編輯部分文字並取代影像。
+   例如，切换回移动设备视图，编辑一些文本并替换图像。
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. 再按一下 **[!UICONTROL Switch to mobile view]** 按鈕以返回標準案頭檢視。 變更會反映出來。
+1. 再次单击 **[!UICONTROL Switch to mobile view]** 按钮以返回到标准桌面视图。 更改会反映出来。
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
-1. 移除行動檢視中的樣式時，系統會帶您回到先前在案頭模式中套用的樣式。
+1. 在移动视图中移除样式会返回到在桌面模式下应用的样式。
 
-   例如，在行動檢視中，將綠色背景顏色套用至按鈕。
+   例如，在移动设备视图中，将绿色背景颜色应用于按钮。
 
    ![](assets/email_designer_mobile_view_background_mobile.png)
 
-1. 切換至案頭檢視，並將灰色背景套用至相同的按鈕。
+1. 切换到桌面视图，并将灰色背景应用于同一按钮。
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. 再次切換至行動檢視，現在停用 **[!UICONTROL Background color]** 設定。
+1. 再次切换到移动视图，现在禁用 **[!UICONTROL Background color]** 设置。
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
-   現在會套用案頭檢視中定義的背景顏色：它會變成灰色（非空白）。
+   现在应用桌面视图中定义的背景颜色：它将变为灰色（非空白）。
 
-   唯一的例外是 **[!UICONTROL Border color]** 設定。 在行動檢視中停用時，即使案頭檢視中定義了邊框顏色，也不會再套用邊框。
+   唯一的例外是 **[!UICONTROL Border color]** 设置。 在移动设备视图中禁用后，即使桌面视图中定义了边框颜色，也不会再应用边框。
 
 >[!NOTE]
 >
->行動檢視無法用於 [片段](../../designing/using/using-reusable-content.md#about-fragments).
+>移动视图在中不可用 [片段](../../designing/using/using-reusable-content.md#about-fragments).

@@ -1,6 +1,6 @@
 ---
-title: 關於組織單位
-description: 進一步瞭解組織單位和API。
+title: 关于组织单位
+description: 了解有关组织单位和API的更多信息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -12,8 +12,8 @@ ht-degree: 0%
 ---
 
 
-# 關於組織單位 {#about-organizational-units}
+# 关于组织单位 {#about-organizational-units}
 
-此 **orgUnitBase** 端點可讓您與組織單位互動，例如讓您更新其屬性或更新設定檔的組織單位。 如需Campaign組織單位的詳細資訊，請參閱 [Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#administrating).
+此 **orgUnitBase** 端点允许您与组织单位交互，例如，使您能够更新其属性或更新用户档案的组织单位。 有关Campaign中组织单位的更多信息，请参阅 [Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#administrating).
 
-此 **組織單位** 擴充設定檔資源時，欄位會新增至設定檔。 因此，請記得一律使用 **profileAndServicesExt** 與地理單位互動的端點。 如需設定檔資源擴充功能的詳細資訊，請參閱 [Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#partitioning-profiles).
+此 **组织单位** 字段会在扩展用户档案资源时添加到用户档案。 因此，请记住始终使用 **profileAndServiceExt** 端点与地理单位交互。 有关用户档案资源扩展的更多信息，请参阅 [Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#partitioning-profiles).

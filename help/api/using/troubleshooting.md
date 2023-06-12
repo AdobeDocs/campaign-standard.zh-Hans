@@ -1,6 +1,6 @@
 ---
-title: API疑難排解
-description: 進一步瞭解與Campaign StandardAPI相關的常見問題
+title: API疑难解答
+description: 进一步了解与Campaign StandardAPI相关的常见问题
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # API 疑难解答 {#troubleshooting}
 
-* **前往Adobe.io主控台時，您會收到下列錯誤：「Adobe I/O主控台僅適用於企業帳戶的選取成員。 如果您認為您應該擁有存取權，請聯絡您的系統管理員。」**
+* **转到Adobe.io控制台时，出现以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。”**
 
-您只能為您所管理的組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，並且想要詢問組織的管理員之一。
+您只能为您所管理的组织创建API密钥。 如果显示此消息并且您希望创建API密钥，并且您希望询问组织的管理员之一。
 
-* **向Adobe.io發出請求時，您會收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
 
-這表示您特定Campaign產品的IMS布建發生問題：IMS團隊需要加以修正。
+这意味着您的特定Campaign产品的IMS配置出现问题：IMS团队需要修复此问题。
 
-若要取得更多詳細資訊，您可以使用權杖呼叫IMS API，以檢視您的IMS設定檔看起來是什麼樣子：您需要有prodCtx，其中organization_id與您放入URL中的相同，以便Adobe.io能夠路由您的請求。
-如果缺少，則需要修正IMS布建。
+要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在URL中的相同，以便能够路由您的Adobe。
+如果缺少，则需要修复IMS配置。
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -33,13 +33,13 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回以下錯誤。
+它返回以下错误。
 
 ```
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-透過此請求檢查您的IMS設定檔。
+使用此请求检查您的IMS配置文件。
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -49,7 +49,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-在回應中，第一個GET請求中的ORGANIZATION_ID值必須相同。
+在响应中，第一个GET请求中的ORGANIZATION_ID值必须相同。
 
 ```
 {
@@ -74,17 +74,17 @@ ht-degree: 1%
 }
 ```
 
-* **向Adobe.io提出請求時，您會收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 出现错误. 請檢查您的URI，然後再試一次。」}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 出现错误. 请检查您的URI并重试。”}**
 
-Adobe.io會宣告您無效的URI：很可能是您請求的URI無效。 在Adobe.io上，當您選取Campaign服務時，畫面會顯示一個選擇器，其中包含可能的organization_id清單。 您需要檢查您選擇的檔案是否為放入URL的檔案。
+Adobe.io声明您的URI无效：很可能是您请求的URI无效。 在Adobe.io上，当您选择Campaign服务时，您将获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放在URL中的服务器。
 
-* **向Adobe.io發出請求時，您會收到{&quot;error_code&quot;：&quot;401013&quot;，&quot;message&quot;：&quot;Oauth權杖無效&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;401013&quot;，&quot;message&quot;：&quot;Oauth令牌无效&quot;}**
 
-您的權杖無效（用於產生權杖的IMS呼叫不正確）或您的權杖已過期。
+您的令牌无效（用于生成令牌的IMS调用不正确）或您的令牌已过期。
 
-* **建立後我看不到我的設定檔**
+* **创建后看不到我的个人资料**
 
-根據執行個體組態，建立的設定檔需要關聯到 **orgUnit**. 若要瞭解如何在建立時新增此欄位，請參閱 [本節](../../api/using/creating-profiles-api.md).
+根据实例配置，创建的配置文件需要关联到 **orgUnit**. 要了解如何在创建时添加此字段，请参阅 [本节](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

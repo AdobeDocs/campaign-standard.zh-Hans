@@ -1,6 +1,6 @@
 ---
 title: 添加 Target 动态内容
-description: 瞭解如何在其中一個Adobe Campaign傳遞中新增Adobe Target動態內容。
+description: 了解如何在一个Adobe Campaign投放中添加Adobe Target动态内容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -17,40 +17,40 @@ ht-degree: 5%
 
 # 添加 Target 动态内容{#adding-target-dynamic-content}
 
-透過Adobe Target整合，動態影像可新增至傳遞，以根據體驗個人化您的內容。
+通过Adobe Target集成，可以将动态图像添加到投放中，以根据体验对内容进行个性化。
 
-編輯電子郵件時，您可以從Adobe Target插入動態影像，此影像會根據收件者而變更。
+编辑电子邮件时，您可以从Adobe Target插入动态图像，该动态图像将因收件人而异。
 
-在Adobe Campaign中存取影像之前，必須先在Adobe Target中執行下列工作：
+在访问Adobe Campaign中的图像之前，必须首先在Adobe Target中执行以下任务：
 
-* 建立一或多個 [重新導向選件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必須在該處指定將使用之影像的URL。
-* 建立一或多個 [對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定義活動的目標。
-* 建立 [表單式體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活動，您必須在該活動中選取rawbox並指定數個體驗，端視建立的重新導向選件數量而定。 對於每個體驗，您必須選取其中一個已建立的重新導向選件。
-* 使用Adobe Campaign中的資訊建立區段以指定體驗。 若要在選件的選取規則中使用來自Adobe Campaign的資料，您必須在Adobe Target的rawbox中指定資料。
+* 创建一个或多个 [重定向选件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必须在该对话框中指定要使用的图像的URL。
+* 创建一个或多个 [受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定义活动的目标。
+* 创建 [基于表单的体验编辑器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活动，您必须在该活动中选择一个rawbox并指定多个体验，具体取决于创建的重定向选件数量。 对于每个体验，您必须选择已创建的重定向选件之一。
+* 使用Adobe Campaign中的信息创建区段以指定体验。 要在选件的选择规则中使用来自Adobe Campaign的数据，您必须在Adobe Target的rawbox中指定数据。
 
 1. 创建电子邮件投放.
-1. 編輯電子郵件或登入頁面的內容時，請前往影像區塊，然後選取「 」 **[!UICONTROL Dynamic image from Adobe Target]** 透過內容功能表。
+1. 编辑电子邮件或登陆页面的内容时，转到图像块，然后选择 **[!UICONTROL Dynamic image from Adobe Target]** 通过上下文菜单。
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. 選取預設顯示在電子郵件中的影像。 您可以直接指定影像URL，或選取透過共用的影像 [資產](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. 选择默认显示在电子邮件中的图像。 您可以直接指定图像URL，也可以选择通过以下方式共享的图像 [资产](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
-   整合僅支援靜態影像。 其餘內容無法自訂。
+   该集成仅支持静态图像。 其余内容不可自定义。
 
-1. 輸入Adobe Target中指定的rawbox名稱。
-1. 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 若要深入瞭解Target企業許可權，請參閱 [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 如果您未在Target中使用企業許可權，此欄位是選用欄位，且不是必要欄位。
-1. 在 **[!UICONTROL Additional decision parameters]**，指定Adobe Target區段及Adobe Campaign欄位中定義的欄位之間的對應。
+1. 输入Adobe Target中指定的rawbox的名称。
+1. 如果您在Adobe Target的设置中使用企业权限，请在此字段中添加相应的资产。 在中了解有关Target企业权限的更多信息 [此页面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 此字段是可选的，如果您未在Target中使用企业权限，则它是非必填字段。
+1. In **[!UICONTROL Additional decision parameters]**，指定Adobe Target区段中定义的字段与Adobe Campaign字段之间的映射。
 
-   使用的Adobe Campaign欄位必須在rawbox中指定。 在此範例中，會根據收件者的性別定義不同的體驗。
+   使用的Adobe Campaign字段必须在rawbox中指定。 在此示例中，根据收件人的性别定义不同的体验。
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. 預覽您的電子郵件，檢視在選取不同設定檔時，插入的影像是否根據Adobe Target活動和Adobe Campaign中指定的引數而變更。
+1. 预览您的电子邮件，以查看在选择其他用户档案时，插入的图像是否根据Adobe Target活动和Adobe Campaign中指定的参数而发生更改。
 
-現在可以傳送包含動態影像的傳遞。 其結果可在Adobe Target中找到。
+现在可以发送包含动态图像的投放。 其结果可以在Adobe Target中找到。
 
 **相关主题：**
 
-* [Adobe Target入口網站](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
+* [Adobe Target门户](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 * [关于电子邮件内容设计](../../designing/using/designing-content-in-adobe-campaign.md)
-* [即時個人化電子郵件影像](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 視訊
+* [实时个性化电子邮件图像](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html) 视频

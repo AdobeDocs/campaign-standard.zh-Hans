@@ -17,67 +17,67 @@ ht-degree: 14%
 
 # 发送消息的关键步骤{#key-steps-to-send-a-message}
 
-在本節中，您將瞭解如何使用Adobe Campaign Standard建立個人化訊息並傳送給目標對象。
+在本节中，您将了解如何使用Adobe Campaign Standard创建个性化消息并将其发送给目标受众。
 
-以下章節提供如何建立及設定每個通訊通道的特定資訊：
+有关如何创建和配置每个通信渠道的特定信息，请参阅以下部分：
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [建立簡訊](../../channels/using/creating-an-sms-message.md)
+* [创建短信](../../channels/using/creating-an-sms-message.md)
 * [创建直邮投放](../../channels/using/creating-the-direct-mail.md)
-* [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [准备和发送应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-若要瞭解傳送的最佳實務，請參閱 [傳遞最佳實務](../../sending/using/delivery-best-practices.md) 區段。
+要了解投放最佳实践，请查阅 [投放最佳实践](../../sending/using/delivery-best-practices.md) 部分。
 
-## 建立您的訊息
+## 创建消息
 
-善用Campaign Standard [行銷活動](../../start/using/marketing-activities.md) 建立電子郵件、簡訊、直接郵件、推播通知或應用程式內訊息。
+利用Campaign Standard [营销活动](../../start/using/marketing-activities.md) 创建电子邮件、短信、直邮、推送通知或应用程序内消息。
 
 ![](assets/marketing-activities.png)
 
-您可以使用從行銷活動清單或工作流程建立訊息 [專屬活動](../../automating/using/about-channel-activities.md).
+可以使用从营销活动列表或工作流创建消息 [专门的活动](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
 ## 定义受众
 
-定義訊息的收件者。 若要這麼做，請使用 [查詢編輯器](../../automating/using/editing-queries.md) 從左窗格篩選資料庫中包含的資料，並建立規則以鎖定您的對象。
+定义消息的收件人。 要执行此操作，请使用 [查询编辑器](../../automating/using/editing-queries.md) 从左窗格中筛选数据库中包含的数据，并构建规则以定向受众。
 
-有多種對象型別可供使用：
+有多种类型的受众可用：
 
-* **[!UICONTROL Target]** 是您電子郵件的主要目標，
-* **[!UICONTROL Test profiles]** 是用於測試和驗證電子郵件的設定檔(請參閱 [管理測試設定檔](../../audiences/using/managing-test-profiles.md))。
+* **[!UICONTROL Target]** 是您电子邮件的主要目标，
+* **[!UICONTROL Test profiles]** 是用于测试和验证电子邮件的配置文件(请参阅 [管理测试用户档案](../../audiences/using/managing-test-profiles.md))。
 
 ![](assets/steps-audience.png)
 
 ## 设计和个性化内容
 
-在 **[!UICONTROL Content]** 使用資料庫中的欄位，封鎖、設計和個人化訊息內容。 如需如何為特定管道設計內容的詳細資訊，請參閱本頁最上方列出的區段。
+在 **[!UICONTROL Content]** 使用数据库中的字段阻止、设计和个性化消息内容。 有关如何为特定渠道设计内容的更多信息，请参阅此页面顶部列出的部分。
 
 ![](assets/steps-content.png)
 
-## 準備和測試
+## 准备和测试
 
-[準備](../../sending/using/preparing-the-send.md) 訊息。 此程式會計算目標母體並準備個人化訊息。
+[准备](../../sending/using/preparing-the-send.md) 信息。 此流程计算目标群体并准备个性化消息。
 
 ![](assets/steps-prepare.png)
 
-**檢查並測試您的訊息** 使用Campaign Standard功能傳送之前：預覽、電子郵件呈現、校樣等。 如需详细信息，请参阅[此部分](../../sending/using/previewing-messages.md)。
+**检查并测试您的消息** 在使用Campaign Standard功能发送之前：预览、电子邮件渲染、验证等。 如需详细信息，请参阅[此部分](../../sending/using/previewing-messages.md)。
 
-使用 **[!UICONTROL Schedule]** 封鎖以定義訊息的傳送時間(請參閱 [排程訊息](../../sending/using/about-scheduling-messages.md))。
+使用 **[!UICONTROL Schedule]** 阻止以定义发送消息的时间(请参阅 [计划消息发送](../../sending/using/about-scheduling-messages.md))。
 
 ![](assets/steps-schedule.png)
 
-## 傳送和追蹤
+## 发送和跟踪
 
-訊息準備就緒後，您可以確認傳送。 此 **[!UICONTROL Deployment]** 區塊顯示傳送進度和結果。
+消息准备就绪后，您可以确认发送。 此 **[!UICONTROL Deployment]** 块显示发送进度和结果。
 
 ![](assets/steps-send.png)
 
-有數個記錄檔可協助您監控訊息的傳送(請參閱 [監控傳遞](../../sending/using/monitoring-a-delivery.md))。 您還可以藉由Campaign Standard的，追蹤傳遞收件者的行為 [追蹤功能](../../sending/using/tracking-messages.md).
+有多个日志可帮助您监控消息的投放(请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md))。 您还可以通过Campaign Standard的，跟踪投放收件人的行为 [跟踪功能](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-透過各種指標和圖表，衡量訊息的有效性以及傳送和行銷活動的演變(請參閱 [存取報告](../../reporting/using/about-dynamic-reports.md))。
+通过各种指标和图表衡量报文的有效性，以及发送和促销活动的演变(请参阅 [访问报告](../../reporting/using/about-dynamic-reports.md))。
 
 ![](assets/steps-reports.png)

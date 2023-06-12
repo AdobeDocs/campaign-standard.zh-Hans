@@ -25,16 +25,16 @@ ht-degree: 23%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登陆页面</a></p></td></tr>
 </table>
 
-Adobe Campaign可讓您跨每個管道啟動、衡量和自動化行銷活動。
-協調所有行銷管道並非不可能的任務。 藉助Adobe Campaign，您可以將來自不同系統、裝置和管道的客戶資料整合到單一設定檔中。 然後，提供及時且相關的行銷活動，在客戶歷程中的適當位置及適當方式與客戶見面。
+通过Adobe Campaign，您可以跨每个渠道启动、衡量和自动化营销活动。
+协调所有营销渠道并不是一项不可能的任务。 借助Adobe Campaign，您可以将来自不同系统、设备和渠道的客户数据整合到单个配置文件中。 然后，提供及时且相关的营销活动，在客户历程的适当位置和适当方式与客户见面。
 
 ## 全局概念 {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**利用Campaign訊息儀表板** 從單一位置設定和傳送訊息，並存取各種功能，例如排程、多語言訊息……
+**利用Campaign消息仪表板** 从单一位置配置和发送报文，并访问各种功能，如时间安排、多语言报文传送……
 
-**管理範本** 以設定訊息屬性，並讓您獲得時間及訊息策略的一致性。 例如，對於電子郵件，負責設定範本的功能管理員可以定義電子郵件的標準引數，例如對象、排程或內容，與傳送、有效性、追蹤等相關的進階引數，或與目標定位和個人化（目標定位內容）相關的預先設定引數。
+**管理模板** 以配置消息属性，并让您获得时间以及消息传递策略的一致性。 例如，对于电子邮件，负责配置模板的功能管理员可以定义电子邮件的标准参数，如受众、计划或内容，与发送相关的高级参数，有效性、跟踪等，或者与定位和个性化（定位上下文）相关的预配置参数。
 
 了解更多信息:
 
@@ -48,27 +48,27 @@ Adobe Campaign可讓您跨每個管道啟動、衡量和自動化行銷活動。
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**五個通訊通道** 可在Adobe Campaign中使用：電子郵件、簡訊、推播通知、應用程式內訊息和直接郵件傳送。
+**五个通信渠道** 在Adobe Campaign中提供：电子邮件、短信消息、推送通知、应用程序内消息和直邮投放。
 
-每個管道都提供特定功能。 例如，電子郵件通道可讓您執行A/B測試，以測試最多3個版本的電子郵件訊息。 透過SMS通道，管理STOP SMS訊息，並將收件者傳入的SMS儲存到您的資料庫中。
+对于每个渠道，都提供了特定功能。 例如，电子邮件渠道允许您执行A/B测试，以测试最多3个版本的电子邮件。 通过SMS渠道，管理STOP SMS消息并将来自收件人的传入SMS存储到数据库中。
 
-此外，請善用Campaign Standard **個人化和動態內容功能** 以吸引受眾的興趣。
+此外，还可以利用Campaign Standard **个性化和动态内容功能** 以吸引受众的兴趣。
 
 了解更多信息:
 
-* [建立電子郵件](../../channels/using/about-emails.md)
-* [建立簡訊訊息](../../channels/using/about-sms-messages.md)
-* [建立推播通知](../../channels/using/about-push-notifications.md)
-* [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)
-* [建立直接郵件傳送](../../channels/using/about-direct-mail.md)
+* [创建电子邮件](../../channels/using/about-emails.md)
+* [创建短信消息](../../channels/using/about-sms-messages.md)
+* [创建推送通知](../../channels/using/about-push-notifications.md)
+* [创建应用程序内消息](../../channels/using/about-in-app-messaging.md)
+* [创建直邮投放](../../channels/using/about-direct-mail.md)
 
 ## 事务性消息 {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**傳送個人和唯一訊息** 即時傳送給您的客戶：歡迎訊息、訂單送貨確認、密碼修改等。
+**发送单个和唯一消息** 对您的客户实时：欢迎邮件、订单送货确认、密码修改等。
 
-交易式訊息可用於電子郵件、簡訊和推播通知通道，具體取決於您的選項。 有兩種型別的訊息： **事件交易式訊息** 沒有設定檔資訊的目標事件，以及 **設定檔交易式訊息** 從資料庫定位設定檔。
+事务型消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种类型的消息： **事件事务型消息** 在没有用户档案信息的情况下定位事件，以及 **用户档案事务型消息** 从数据库定向用户档案。
 
 了解更多信息:
 
@@ -84,9 +84,9 @@ Adobe Campaign可讓您跨每個管道啟動、衡量和自動化行銷活動。
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign隨附登陸頁面，這些網頁是可用於以下用途的網路表單： **擷取對象的相關資訊**，提供服務的訂閱、顯示資料並擴充資料庫。
+Campaign附带登陆页面，这些登陆页面是可用于 **捕获受众信息**，提供服务的订阅、显示数据并扩展数据库。
 
-登入頁面也可用於 **取得或更新現有的設定檔**，並設定雙重選擇加入機制，讓您可以保護平台，避免錯誤或無效的電子郵件地址或垃圾郵件機器人。
+登陆页面还可用于 **获取或更新现有用户档案**，并设置双重选择加入机制，以便保护平台免受错误或无效的电子邮件地址或垃圾邮件机器人的侵扰。
 
 了解更多信息:
 
@@ -97,10 +97,10 @@ Campaign隨附登陸頁面，這些網頁是可用於以下用途的網路表單
 
 ## 其他资源
 
-* [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)
+* [优化可投放性](../../sending/using/about-deliverability.md)
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
-* [設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
-* [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
-* [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)
-* [通訊管道教學課程影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=zh-Hans)
-* [使用案例：建立跨管道傳送](../../automating/using/workflow-cross-channel-delivery.md)
+* [设计电子邮件内容](../../designing/using/designing-content-in-adobe-campaign.md)
+* [导入AEM内容](../../integrating/using/creating-email-experience-manager.md)
+* [使用工作流发送消息](../../automating/using/about-channel-activities.md)
+* [通信渠道教程视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=zh-Hans)
+* [用例：创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)

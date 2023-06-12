@@ -23,7 +23,7 @@ ht-degree: 83%
 
 可用于 Adobe Campaign 中&#x200B;**电子邮件渲染**&#x200B;的移动设备、即时消息传递和网络邮件客户端列表，请参见 Litmus [网站](https://litmus.com/email-testing)（单击 **View all email clients**）。
 
-## 正在產生電子郵件呈現 {#checking-the-email-rendering-report}
+## 正在生成电子邮件渲染 {#checking-the-email-rendering-report}
 
 创建电子邮件投放并定义其内容及定向群体后，请执行以下步骤。
 
@@ -66,21 +66,21 @@ ht-degree: 83%
 * [发送校样](../../sending/using/sending-proofs.md)
 * [查询编辑器](../../automating/using/editing-queries.md#about-query-editor)
 
-## 電子郵件呈現報告 {#email-rendering-report-description}
+## 电子邮件渲染报告 {#email-rendering-report-description}
 
 此报告展示了显示在收件人面前的电子邮件渲染。根据收件人打开电子邮件投放的方式，电子邮件渲染可能会有所不同：在浏览器中打开、在移动设备上打开或通过电子邮件应用程序打开。
 
-### 電子郵件呈現Token
+### 电子邮件渲染令牌
 
 许可协议中列出了可用渲染的数量。启用了 **Email rendering** 的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
 
-Token會說明每個個別轉譯，而非整個電子郵件轉譯報告，這表示：
+令牌负责每个单独的渲染，而不是整个电子邮件渲染报表，这意味着：
 
-* **每次** 會產生「電子郵件呈現」報告、每個傳訊使用者端扣除一個權杖：一個Token用於Outlook 2000呈現、一個Outlook呈現、一個Apple Mail呈現，依此類推。
+* **每次** 将生成电子邮件渲染报告，每个消息传送客户端扣除一个令牌：一个令牌用于Outlook 2000渲染，一个用于Outlook渲染，一个用于Apple Mail渲染，依此类推。
 
-* **針對相同傳遞**，如果您再次產生電子郵件呈現，可用權杖的數量會再次因產生的呈現數量而減少。
+* **对于同一投放**，如果再次生成电子邮件渲染，则可用令牌的数量将再次减少生成的渲染的数量。
 
-### 報告摘要
+### 报告摘要
 
 报告摘要可显示已接收的消息数量、无用的（垃圾邮件）消息数量、未接收的消息数量或待接收的消息数量。
 

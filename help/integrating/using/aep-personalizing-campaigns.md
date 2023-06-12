@@ -1,6 +1,6 @@
 ---
 title: 使用 Adobe Experience Platform 属性个性化营销活动
-description: 瞭解如何使用Adobe體驗平台屬性個人化您的行銷活動。
+description: 了解如何使用Adobe体验平台属性个性化您的营销活动。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,41 +19,41 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 >
->**推播** 和 **應用程式內** 管道尚不適用於使用Adobe Experience Platform中的內容資料進行個人化。
+>**推送** 和 **应用程序内** 渠道尚不可用于使用Adobe Experience Platform中的上下文数据进行个性化。
 
-使用設定您的工作流程後 [Adobe Experience Platform對象](../../integrating/using/aep-about-audience-destinations-service.md)，您就可以使用Experience Data Model (XDM)中獨有的設定檔屬性來個人化訊息。
+使用配置工作流后 [Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md)，您可以使用专门存在于Experience Data Model (XDM)中的用户档案属性对消息进行个性化。
 
-若要這麼做，您必須將這些屬性新增至 **[!UICONTROL Read audience]** 活動：
+要执行此操作，您必须将这些属性添加到 **[!UICONTROL Read audience]** 活动：
 
-1. 開啟 **[!UICONTROL Read audience]** 活動。 在 **[!UICONTROL Additional data]** 索引標籤，按一下 **[!UICONTROL Create element]** 按鈕。
+1. 打开 **[!UICONTROL Read audience]** 活动。 在 **[!UICONTROL Additional data]** 选项卡，单击 **[!UICONTROL Create element]** 按钮。
 
-   請注意 **[!UICONTROL Additional data]** 標籤僅在選取Adobe Experience Platform對象後才能使用。
+   请注意 **[!UICONTROL Additional data]** 选项卡仅在选择Adobe Experience Platform受众后可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >此功能不支援陣列和對應資料型別。 此外，選取器中只會顯示聯合結構描述的資料。
+   >此功能不支持数组和数据类型。 此外，选择器中只显示合并架构中的数据。
 
-1. 從清單中選取所需的XDM欄位，然後按一下 **[!UICONTROL Confirm]**.
+1. 从列表中选择所需的XDM字段，然后单击 **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. 按一下 **[!UICONTROL Add]** 按鈕以將其新增至其他資料清單。
+1. 单击 **[!UICONTROL Add]** 按钮以将其添加到附加数据列表。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
-1. 對您想要新增至工作流程的每個XDM欄位重複這些步驟。
+1. 对要添加到工作流的每个XDM字段重复这些步骤。
 
    >[!NOTE]
    >
-   >您最多可以在中新增20個XDM欄位 **[!UICONTROL Read audience]** 活動。
+   >您最多可以在中添加20个XDM字段 **[!UICONTROL Read audience]** 活动。
 
-1. 新增所有欄位後，按一下 **[!UICONTROL Confirm]** 按鈕以儲存您的變更。 現在可透過這些對話方塊來個人化您的傳遞。
+1. 添加完所有字段后，单击 **[!UICONTROL Confirm]** 按钮以保存更改。 现在即可使用它们来个性化您的投放。
 
-如需如何建立及個人化傳送的詳細資訊，請參閱Campaign Standard檔案：
+有关如何创建和个性化投放的更多信息，请参阅Campaign Standard文档：
 
 * [了解通信渠道](../../channels/using/get-started-communication-channels.md)
 * [关于渠道活动](../../automating/using/about-channel-activities.md)

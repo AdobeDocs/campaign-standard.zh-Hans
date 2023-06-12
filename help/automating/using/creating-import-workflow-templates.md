@@ -1,6 +1,6 @@
 ---
 title: 创建用于导入数据的工作流模板
-description: 瞭解如何建立工作流程範本以匯入資料。
+description: 了解如何创建工作流模板以导入数据。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,112 +17,112 @@ ht-degree: 1%
 
 # 创建用于导入数据的工作流模板 {#import-workflow-template}
 
-如果您需要定期匯入具有相同結構的檔案，使用匯入範本是最佳實務。
+如果需要定期导入具有相同结构的文件，最佳实践是使用导入模板。
 
-此範例說明如何預先設定工作流程，該工作流程可重複用於匯入來自Adobe Campaign資料庫中CRM的設定檔。
+此示例说明如何预置一个可重复使用的工作流，用于导入来自Adobe Campaign数据库中CRM的用户档案。
 
-1. 建立新的工作流程範本，從 **[!UICONTROL Resources > Templates > Workflow templates]**.
-1. 新增下列活動：
+1. 从创建新工作流模板 **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. 添加以下活动：
 
-   * **[!UICONTROL Load file]**：定義包含要匯入之資料的檔案的預期結構。
+   * **[!UICONTROL Load file]**：定义包含导入数据的文件的预期结构。
 
       >[!NOTE]
       >
-      >您只能從單一檔案匯入資料。 如果工作流程有多個 **[!UICONTROL Load file]** 活動，每次都會使用相同的檔案。
+      >您只能从单个文件导入数据。 如果工作流有多个 **[!UICONTROL Load file]** 活动，每次都将使用相同的文件。
 
-   * **[!UICONTROL Reconciliation]**：使用資料庫資料調解匯入的資料。
-   * **[!UICONTROL Segmentation]**：建立篩選條件以根據是否可以調解記錄而以不同方式處理記錄。
-   * **[!UICONTROL Deduplication]**：在傳入檔案插入資料庫之前，從傳入檔案中刪除重複資料。
-   * **[!UICONTROL Update data]**：使用匯入的設定檔更新資料庫。
+   * **[!UICONTROL Reconciliation]**：使用数据库数据协调导入的数据。
+   * **[!UICONTROL Segmentation]**：创建过滤器以根据是否可以协调记录而采用不同的方式处理记录。
+   * **[!UICONTROL Deduplication]**：在传入文件插入数据库之前，从传入文件中删除重复数据。
+   * **[!UICONTROL Update data]**：使用导入的用户档案更新数据库。
 
    ![](assets/import_template_example0.png)
 
-1. 設定 **[!UICONTROL Load file]** 活動：
+1. 配置 **[!UICONTROL Load file]** 活动：
 
-   * 透過上傳範例檔案來定義預期的結構。 範例檔案應僅包含幾行，但應包含匯入所需的所有欄。 檢查並編輯檔案格式，以確定每欄的型別已正確設定：文字、日期、整數等。 例如：
+   * 通过上传样例文件来定义预期的结构。 样例文件应仅包含几行，但应包含导入所需的所有列。 检查并编辑文件格式，确保正确设置了每列的类型：文本、日期、整数等。 例如：
 
       ```
       lastname;firstname;birthdate;email;crmID
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * 在 **[!UICONTROL File to load]** 區段，選取 **[!UICONTROL Upload a new file from the local machine]** 並將欄位留空。 每次從這個範本建立新工作流程時，只要檔案與定義的結構相對應，您就可以在此處指定想要的檔案。
+   * 在 **[!UICONTROL File to load]** 部分，选择 **[!UICONTROL Upload a new file from the local machine]** 并将字段留空。 每次从此模板创建新工作流时，只要该文件与定义的结构相对应，您就可以在此处指定所需的文件。
 
-      您可以使用任何選項，但必須相應地修改範本。 例如，如果您選取 **[!UICONTROL Use the file specified in the inbound transition]**，您可以新增 **[!UICONTROL Transfer file]** 活動，以擷取要從FTP/SFTP伺服器匯入的檔案。
+      您可以使用任何选项，但必须相应地修改模板。 例如，如果您选择 **[!UICONTROL Use the file specified in the inbound transition]**，您可以添加 **[!UICONTROL Transfer file]** 之前的活动，以检索要从FTP/SFTP服务器导入的文件。
 
-      如果您希望使用者能夠下載包含匯入期間發生錯誤的檔案，請檢查 **[!UICONTROL Keep the rejects in a file]** 選項並指定 **[!UICONTROL File name]**.
+      如果您希望用户能够下载包含导入期间发生错误的文件，请检查 **[!UICONTROL Keep the rejects in a file]** 选项并指定 **[!UICONTROL File name]**.
 
       ![](assets/import_template_example1.png)
 
-1. 設定 **[!UICONTROL Reconciliation]** 活動。 此活動在此情境中的目的是識別傳入的資料。
+1. 配置 **[!UICONTROL Reconciliation]** 活动。 在此上下文中，此活动的目的是标识传入数据。
 
-   * 在 **[!UICONTROL Relations]** 索引標籤，選取 **[!UICONTROL Create element]** 和定義匯入資料和收件者目標定位維度之間的連結(請參閱 [目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources))。 在此範例中， **CRM ID** 自訂欄位用於建立連線條件。 只要允許您識別唯一記錄，就使用您需要的欄位或欄位組合。
-   * 在 **[!UICONTROL Identification]** tab鍵，保留 **[!UICONTROL Identify the document from the working data]** 選項未勾選。
+   * 在 **[!UICONTROL Relations]** 选项卡，选择 **[!UICONTROL Create element]** 和定义导入数据与收件人定向维度之间的链接(请参阅 [定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources))。 在此示例中， **CRM ID** 自定义字段用于创建连接条件。 只要允许标识唯一记录，就可以使用所需的字段或字段组合。
+   * 在 **[!UICONTROL Identification]** 选项卡，保留 **[!UICONTROL Identify the document from the working data]** 选项未选中。
 
    ![](assets/import_template_example2.png)
 
-1. 設定 **[!UICONTROL Segmentation]** 在某個轉變中擷取已調解收件者的活動，以及無法調解但在第二個轉變中擁有足夠資料的收件者。
+1. 配置 **[!UICONTROL Segmentation]** 用于在某个过渡中检索已协调收件人和无法协调但在第二个过渡中拥有足够数据的收件人的活动。
 
-   然後可以使用包含已調解收件者的轉變來更新資料庫。 如果檔案中有最少的一組資訊，則可使用具有未知收件者的轉變，在資料庫中建立新的收件者專案。
+   然后，可以使用包含已协调收件人的过渡来更新数据库。 如果文件中具有最小信息集，则可以使用具有未知收件人的过渡在数据库中创建新收件人条目。
 
-   無法調解且資料不足的收件者，會在補充傳出轉變中選取，並可在個別檔案中匯出或直接忽略。
+   无法协调且数据不足的收件人将在补充叫客过渡中选择，并且可以在单独文件中导出或直接忽略。
 
-   * 在 **[!UICONTROL General]** 索引標籤中，設定 **[!UICONTROL Resource type]** 至 **[!UICONTROL Temporary resource]** 並選取 **[!UICONTROL Reconciliation]** 作為目標集。
-   * 在 **[!UICONTROL Advanced options]** 索引標籤，核取 **[!UICONTROL Generate complement]** 選項，以檢視是否有任何記錄無法插入資料庫中。 如有需要，您可以對補充資料套用進一步處理：檔案匯出、清單更新等。
-   * 在的第一個區段中 **[!UICONTROL Segments]** 索引標籤，對入站母體新增篩選條件，以僅選取設定檔的CRM ID不等於0的記錄。 如此一來，來自與來自資料庫的設定檔調解的檔案資料，便在該子集中選取。
+   * 在 **[!UICONTROL General]** 选项卡中，设置 **[!UICONTROL Resource type]** 到 **[!UICONTROL Temporary resource]** 并选择 **[!UICONTROL Reconciliation]** 作为目标集。
+   * 在 **[!UICONTROL Advanced options]** 选项卡，检查 **[!UICONTROL Generate complement]** 选项，用于查看数据库中是否不能插入任何记录。 如果需要，可以对补充数据应用进一步处理：文件导出、列表更新等。
+   * 在第一个区段 **[!UICONTROL Segments]** 选项卡，为集客群体添加筛选条件，以仅选择用户档案的CRM ID不等于0的记录。 这样，便在该子集中选择与数据库中的用户档案协调的文件中的数据。
 
       ![](assets/import_template_example3.png)
 
-   * 新增第二個區段，選取有足夠資料可插入資料庫中的未調解記錄。 例如：電子郵件地址、名字和姓氏。 未調解的記錄其設定檔的CRM ID值等於0。
+   * 添加第二个区段，以选择具有足够数据可插入数据库中的未协调记录。 例如：电子邮件地址、名字和姓氏。 未协调的记录其配置文件的CRM ID值等于0。
 
       ![](assets/import_template_example3_2.png)
 
-   * 在前兩個子集中未選取的所有記錄都會在 **[!UICONTROL Complement]**.
+   * 在前两个子集中未选择的所有记录都会在 **[!UICONTROL Complement]**.
 
-1. 設定 **[!UICONTROL Update data]** 位於第一個出站轉變之後的活動 **[!UICONTROL Segmentation]** 活動是先前設定的。
+1. 配置 **[!UICONTROL Update data]** 位于的第一个叫客过渡之后的活动 **[!UICONTROL Segmentation]** 之前配置的活动。
 
-   * 選取 **[!UICONTROL Update]** 作為 **[!UICONTROL Operation type]** 由於入站轉變僅包含資料庫中已存在的收件者。
-   * 在 **[!UICONTROL Identification]** 索引標籤，選取 **[!UICONTROL Using reconciliation criteria]** 並定義 **[!UICONTROL Dimension to update]**  — 在此案例中的設定檔 — 以及在中建立的連結 **[!UICONTROL Reconciliation]** 活動。 在此範例中， **CRM ID** 使用自訂欄位。
+   * 选择 **[!UICONTROL Update]** 作为 **[!UICONTROL Operation type]** 由于集客过渡仅包含数据库中已存在的收件人。
+   * 在 **[!UICONTROL Identification]** 选项卡，选择 **[!UICONTROL Using reconciliation criteria]** 并定义 **[!UICONTROL Dimension to update]**  — 在此例中是配置文件 — 以及在中创建的链接 **[!UICONTROL Reconciliation]** 活动。 在此示例中， **CRM ID** 自定义字段已使用。
 
       ![](assets/import_template_example6.png)
 
-   * 在 **[!UICONTROL Fields to update]** 標籤中，表示設定檔維度中的欄位，以使用檔案中對應欄的值更新。 如果檔案欄的名稱相同或幾乎與收件者維度欄位的名稱相同，您可以使用魔術棒按鈕來自動比對不同的欄位。
+   * 在 **[!UICONTROL Fields to update]** 选项卡，指示用户档案维度中的字段，以使用文件中对应列的值更新。 如果文件列的名称与收件人维字段的名称相同或几乎相同，则可以使用魔棒按钮自动匹配不同的字段。
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >如果您打算將直接郵件傳送給這些設定檔，請務必包含郵寄地址，因為此資訊對直接郵件提供者至關重要。 同時請確定 **[!UICONTROL Address specified]** 方塊中設定的預設值。 若要從工作流程更新此選項，只需將元素新增至要更新的欄位，並指定 **1** 作為 **[!UICONTROL Source]** 並選取 `postalAddress/@addrDefined` 欄位為 **[!UICONTROL Destination]**. 如需直接郵件和使用的詳細資訊， **[!UICONTROL Address specified]** 選項，請參閱 [本檔案](../../channels/using/about-direct-mail.md#recommendations).
+      >如果您计划向这些用户档案发送直邮，请确保包括邮政地址，因为此信息对直邮提供商至关重要。 同时确保 **[!UICONTROL Address specified]** 复选框。 要从工作流更新此选项，只需将元素添加到要更新的字段中，然后指定 **1** 作为 **[!UICONTROL Source]** 并选择 `postalAddress/@addrDefined` 字段为 **[!UICONTROL Destination]**. 有关直邮和使用的更多信息， **[!UICONTROL Address specified]** 选项，请参见 [本文档](../../channels/using/about-direct-mail.md#recommendations).
 
-1. 設定 **[!UICONTROL Deduplication]** 位於包含未調解設定檔的轉變之後的活動：
+1. 配置 **[!UICONTROL Deduplication]** 位于包含未协调用户档案的过渡之后的活动：
 
-   * 在 **[!UICONTROL Properties]** 標籤，設定 **[!UICONTROL Resource type]** 至臨時資源，該臨時資源是從 **[!UICONTROL Reconciliation]** 工作流程的活動。
+   * 在 **[!UICONTROL Properties]** 选项卡，设置 **[!UICONTROL Resource type]** 临时资源从 **[!UICONTROL Reconciliation]** 工作流活动。
 
       ![](assets/import_template_example4.png)
 
-   * 在此範例中，電子郵件欄位用於尋找唯一設定檔。 您可以使用任何您確定已填入的欄位，以及唯一組合的一部分。
-   * 選擇 **[!UICONTROL Deduplication method]**. 在這種情況下，應用程式會自動決定要保留哪些記錄以防重複。
+   * 在本例中，电子邮件字段用于查找唯一用户档案。 您可以使用确信已填充的任何字段以及唯一组合的一部分。
+   * 选择 **[!UICONTROL Deduplication method]**. 在这种情况下，应用程序会自动决定哪些记录会在出现重复项时保留。
 
    ![](assets/import_template_example7.png)
 
-1. 設定 **[!UICONTROL Update data]** 活動位於以下專案之後： **[!UICONTROL Deduplication]** 活動是先前設定的。
+1. 配置 **[!UICONTROL Update data]** 活动位于 **[!UICONTROL Deduplication]** 之前配置的活动。
 
-   * 選取 **[!UICONTROL Insert only]** 作為 **[!UICONTROL Operation type]** 因為入站轉變只包含資料庫中不存在的設定檔。
-   * 在 **[!UICONTROL Identification]** 索引標籤，選取 **[!UICONTROL Using reconciliation criteria]** 並定義 **[!UICONTROL Dimension to update]**  — 在此案例中的設定檔 — 以及在中建立的連結 **[!UICONTROL Reconciliation]** 活動。 在此範例中， **CRM ID** 使用自訂欄位。
+   * 选择 **[!UICONTROL Insert only]** 作为 **[!UICONTROL Operation type]** 因为集客过渡仅包含数据库中不存在的用户档案。
+   * 在 **[!UICONTROL Identification]** 选项卡，选择 **[!UICONTROL Using reconciliation criteria]** 并定义 **[!UICONTROL Dimension to update]**  — 在此例中是配置文件 — 以及在中创建的链接 **[!UICONTROL Reconciliation]** 活动。 在此示例中， **CRM ID** 自定义字段已使用。
 
       ![](assets/import_template_example6.png)
 
-   * 在 **[!UICONTROL Fields to update]** 標籤中，表示設定檔維度中的欄位，以使用檔案中對應欄的值更新。 如果檔案欄的名稱相同或幾乎與收件者維度欄位的名稱相同，您可以使用魔術棒按鈕來自動比對不同的欄位。
+   * 在 **[!UICONTROL Fields to update]** 选项卡，指示用户档案维度中的字段，以使用文件中对应列的值更新。 如果文件列的名称与收件人维字段的名称相同或几乎相同，则可以使用魔棒按钮自动匹配不同的字段。
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >如果您打算將直接郵件傳送給這些設定檔，請務必包含郵寄地址，因為此資訊對直接郵件提供者至關重要。 同時請確定 **[!UICONTROL Address specified]** 方塊中設定的預設值。 若要從工作流程更新此選項，只需將元素新增至要更新的欄位，並指定 **1** 作為 **[!UICONTROL Source]** 並選取 **[郵寄地址/@addrDefined]** 欄位為 **[!UICONTROL Destination]**. 如需直接郵件和使用的詳細資訊， **[!UICONTROL Address specified]** 選項，請參閱 [本檔案](../../channels/using/about-direct-mail.md#recommendations).
+      >如果您计划向这些用户档案发送直邮，请确保包括邮政地址，因为此信息对直邮提供商至关重要。 同时确保 **[!UICONTROL Address specified]** 复选框。 要从工作流更新此选项，只需将元素添加到要更新的字段中，然后指定 **1** 作为 **[!UICONTROL Source]** 并选择 **[邮政地址/@addrDefined]** 字段为 **[!UICONTROL Destination]**. 有关直邮和使用的更多信息， **[!UICONTROL Address specified]** 选项，请参见 [本文档](../../channels/using/about-direct-mail.md#recommendations).
 
-1. 在的第三個轉變之後 **[!UICONTROL Segmentation]** 活動，新增 **[!UICONTROL Extract file]** 活動和 **[!UICONTROL Transfer file]** 活動（如果要追蹤未插入資料庫中的資料）。 設定這些活動以匯出您需要的欄，並在可擷取檔案的FTP或SFTP伺服器上傳輸檔案。
-1. 新增 **[!UICONTROL End]** 活動並儲存工作流程範本。
+1. 在的第三个过渡之后 **[!UICONTROL Segmentation]** 活动，添加 **[!UICONTROL Extract file]** 活动和 **[!UICONTROL Transfer file]** 活动。 配置这些活动以导出所需的列，并在可检索文件的FTP或SFTP服务器上传输文件。
+1. 添加 **[!UICONTROL End]** 活动并保存工作流模板。
 
-範本現在可供使用，並可用於每個新工作流程。 然後只需指定包含要匯入之資料的檔案 **[!UICONTROL Load file]** 活動。
+现在，模板可供使用，并且可用于每个新工作流。 然后只需指定包含要在中导入的数据的文件 **[!UICONTROL Load file]** 活动。
 
 ![](assets/import_template_example9.png)

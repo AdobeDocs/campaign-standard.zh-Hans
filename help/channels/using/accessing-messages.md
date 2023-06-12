@@ -1,6 +1,6 @@
 ---
 title: 访问消息
-description: 「瞭解如何存取訊息及其進階功能：建立、目標定位、個人化、執行和報告。」
+description: “了解如何访问消息及其高级功能：创建、定位、个性化、执行和报告。”
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -18,53 +18,53 @@ ht-degree: 1%
 
 # 访问消息{#accessing-messages}
 
-您可以存取一組進階功能，從目標定位、建立及個人化訊息、執行通訊，到相關的作業報告。
+您可以访问一组高级功能，从定位、创建和个性化消息、执行通信到相关的操作报告。
 
-可以存取訊息：
+消息可以访问：
 
-* 在行銷活動中
-* 從Adobe Campaign首頁
-* 從行銷活動清單
+* 在营销策划中
+* 从Adobe Campaign主页
+* 从营销活动列表中
 
-## 存取行銷活動中的訊息 {#accessing-messages-in-campaigns}
+## 访问营销活动中的消息 {#accessing-messages-in-campaigns}
 
-若要存取行銷活動的行銷活動清單：
+要访问营销活动的列表，请执行以下操作：
 
-1. 前往 **[!UICONTROL Marketing activities]** 從頂端導覽列取得。
+1. 转到 **[!UICONTROL Marketing activities]** 从顶部导航栏中。
 1. 选择 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。
 
-   您也可以直接按一下 **[!UICONTROL Programs & Campaigns]** 首頁中的資訊卡。 如需行銷活動的詳細資訊，請參閱 [方案與行銷活動](../../start/using/programs-and-campaigns.md) 區段。
+   您也可以直接单击 **[!UICONTROL Programs & Campaigns]** 信息卡。 欲知促销活动的更多信息，请参阅 [项目和活动](../../start/using/programs-and-campaigns.md) 部分。
 
-1. 選取方案，然後選取行銷活動。
+1. 选择项目，然后选择营销策划。
 
    ![](assets/delivery_list_1.png)
 
-1. 按一下 **[!UICONTROL Summary]** 下拉式清單。
-1. 按一下 **[!UICONTROL Search]** 篩選訊息的顯示方式（依名稱、日期或狀態）。
+1. 单击 **[!UICONTROL Summary]** 下拉列表。
+1. 单击 **[!UICONTROL Search]** 过滤消息的显示方式（按名称、日期或状态）。
 
-   若要篩選週期性訊息，您可以核取對應的方塊。
+   要过滤定期消息，可以选中相应的框。
 
-## 存取訊息清單 {#accessing-the-message-list}
+## 访问消息列表 {#accessing-the-message-list}
 
-若要從所有行銷活動合併的專案中存取行銷活動的完整清單：
+要从所有合并的营销活动中访问营销活动的完整列表，请执行以下操作：
 
-1. 選取 **[!UICONTROL Marketing activities]** 從上方導覽列。
+1. 选择 **[!UICONTROL Marketing activities]** 导航栏中显示的内容。
 
-   您也可以從存取 **[!UICONTROL Marketing activities]** 卡片。 如需行銷活動清單的詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity) 區段。
+   您还可以从以下位置访问它 **[!UICONTROL Marketing activities]** 信息卡在主页上。 有关营销活动列表的详细信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity) 部分。
 
-1. 若要篩選行銷活動（依名稱、日期、狀態或活動型別），請使用 **[!UICONTROL Search]** 行銷活動清單左側的欄位。
+1. 要筛选营销活动（按名称、日期、状态或活动类型），请使用 **[!UICONTROL Search]** 营销活动列表左侧的字段。
 
 ![](assets/delivery_list_2.png)
 
-## 訊息生命週期 {#message-life-cycle}
+## 消息生命周期 {#message-life-cycle}
 
-訊息的狀態由清單中的特定顏色表示。 可能的狀態包括：
+消息的状态由列表中的特定颜色表示。 可能的状态为：
 
-* **[!UICONTROL Editing]** （灰色）：訊息正在編輯中。
-* **[!UICONTROL In progress]** （藍色）：訊息已傳送。
-* **[!UICONTROL Finished]** （綠色）：傳送已完成，未發生任何錯誤。
-* **[!UICONTROL Erroneous]** （紅色）：傳送已取消，或訊息準備或傳送時發生錯誤。
+* **[!UICONTROL Editing]** （灰色）：正在编辑消息。
+* **[!UICONTROL In progress]** （蓝色）：正在发送消息。
+* **[!UICONTROL Finished]** （绿色）：发送已完成，且未出现任何错误。
+* **[!UICONTROL Erroneous]** （红色）：发送被取消或在准备或发送消息时出错。
 
    >[!NOTE]
    >
-   >當需要動作時（例如您必須確認傳送訊息），卡片上方可能會出現黃色通知橫幅。
+   >当需要执行操作时（例如必须确认发送消息时），卡片上方可能会显示黄色通知横幅。

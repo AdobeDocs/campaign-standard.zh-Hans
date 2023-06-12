@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -43,6 +43,11 @@ ht-degree: 1%
 
 1. 验证是否已从两个系统中删除记录
 
+以下链接可帮助您在每个系统中实施访问和/或删除与隐私相关的请求：
+
+* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
+
+* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >

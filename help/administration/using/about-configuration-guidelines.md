@@ -1,6 +1,6 @@
 ---
 title: 配置准则
-description: 瞭解Campaign Standard設定指南
+description: 了解Campaign Standard配置准则
 audience: administration
 feature: Access Management
 role: Admin
@@ -17,35 +17,35 @@ ht-degree: 13%
 
 ## 兼容的浏览器{#compatible-browsers}
 
-Adobe Campaign Standard與大多數的電腦瀏覽器以及平板電腦的主要作業系統相容。
+Adobe Campaign Standard与大多数计算机浏览器以及平板电脑的主要操作系统兼容。
 
-Adobe Campaign Standard僅支援橫向作為平板電腦上的顯示模式。
+Adobe Campaign Standard仅支持将横向作为平板电脑上的显示模式。
 
-以下是與Adobe Campaign Standard相容的瀏覽器清單：
+以下是与Adobe Campaign Standard兼容的浏览器列表：
 
-**電腦：**
+**计算机：**
 
-* Chrome （最新版本）
-* Firefox （最新版本）
-* Safari （最新版本）
-* Microsoft Edge （最新版本）
+* Chrome（最新版本）
+* Firefox（最新版本）
+* Safari（最新版本）
+* Microsoft Edge（最新版本）
 
 **平板电脑:**
 
-* iOS （第7版及更新版本）
-* Android （4.4版及更新版本）
+* iOS（版本7及更高版本）
+* Android（版本4.4及更高版本）
 
 ## Campaign Standard 网络端点 {#campaign-standard-network-endpoints}
 
-以下是Campaign Standard中使用的不同端點。
+以下是Campaign Standard中使用的不同端点。
 
 | 上下文 | URL |
 |--- |--- |
-| 行銷活動執行個體 | `https://*.experiencecloud.adobe.com` （租使用者ID * +使用者端網域）<br>`https://*.campaign.adobe.com` （Campaign執行個體租使用者） |
+| Campaign实例 | `https://*.experiencecloud.adobe.com` （租户ID * +客户端域）<br>`https://*.campaign.adobe.com` （Campaign实例租户） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 跟踪 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Assets整合 | `https://*.marketing-assets.adobe.com` |
-| 內部Adobe服務 | `https://*.adobe.io` |
+| Assets集成 | `https://*.marketing-assets.adobe.com` |
+| Adobe内部服务 | `https://*.adobe.io` |
 | 调查 | `https://adobe.allegiancetech.com` |
-| 預設品牌URL （在使用者端設定前） | `https://*.adobe-campaign.com` |
+| 默认品牌URL（在客户端配置之前） | `https://*.adobe-campaign.com` |

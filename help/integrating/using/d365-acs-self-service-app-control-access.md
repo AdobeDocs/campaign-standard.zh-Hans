@@ -1,6 +1,6 @@
 ---
-title: 使用Dynamics 365自助服務應用程式存取Adobe Campaign Standard整合
-description: Adobe Campaign Standard與Dynamics 365自助式應用程式的整合
+title: 访问Adobe Campaign Standard与Dynamics 365自助服务应用程序的集成
+description: Adobe Campaign Standard与Dynamics 365自助应用程序集成
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -16,76 +16,76 @@ ht-degree: 0%
 
 ---
 
-# 存取Adobe Campaign Standard與Microsoft Dynamics 365自助式應用程式的整合
+# 访问Adobe Campaign Standard与Microsoft Dynamics 365自助服务应用程序的集成
 
-此設定需要您與組織的Experience Cloud(EC)管理員合作。 這些是存取自助服務整合應用程式介面所需的初始步驟。 存取工具後，您就可以設定資料的連線，並設定Adobe Campaign與Microsoft Dynamics 365之間的資料流程。
+此配置要求您与组织的Experience Cloud(EC)管理员合作。 这些是访问自助服务集成应用程序界面所需的初始步骤。 一旦您有权访问该工具，即可设置与数据的连接，并配置Adobe Campaign和Microsoft Dynamics 365之间的数据流。
 
 >[!NOTE]
 >
->您需要聯絡您的Adobe代表，並提供Adobe Campaign Standard組織和執行個體名稱。 系統會記錄一個票證，要求為您的組織啟用整合應用程式。
+>您需要联系Adobe代表并提供Adobe Campaign Standard组织和实例名称。 将记录一个票证，以请求为您的组织启用集成应用程序。
 
-## 新增產品設定檔
+## 添加产品配置文件
 
-在本節中，您將瞭解如何授予Adobe Campaign Standard與Microsoft Dynamics 365自助服務應用程式整合的存取權。 在Adobe Experience Cloud中擁有貴組織存取許可權的使用者將無法存取整合自助應用程式，除非您依照下列步驟授予他們存取許可權。
+在本节中，您将了解如何授予对Adobe Campaign Standard与Microsoft Dynamics 365自助服务应用程序集成的访问权限。 在Adobe Experience Cloud中有权访问贵组织的用户将无法访问集成自助应用程序，除非您执行以下步骤来授予他们访问权限。
 
 >[!IMPORTANT]
 >
-> 這些步驟需要 **管理員** 在您組織的Experience Cloud中的角色。
+> 这些步骤需要 **管理员** 在您组织的Experience Cloud中的角色。
 
-1. 瀏覽至https://experience.adobe.com/並登入Adobe Experience Cloud。
-1. 存取 **Admin Console**.
+1. 浏览https://experience.adobe.com/并登录Adobe Experience Cloud。
+1. 访问 **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. 按一下 **[!UICONTROL Products]** 以存取您的Experience Cloud解決方案。
+1. 单击 **[!UICONTROL Products]** 以访问您的Experience Cloud解决方案。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
    >
-   >本節中的其餘步驟將會針對您的每個Campaign執行個體（開發、文字、生產）執行。
+   >此部分中的其余步骤将为您的每个Campaign实例（开发、文本、生产）执行。
 
-1. 按一下要設定的第一個執行個體。
+1. 单击要配置的第一个实例。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
-   執行個體頁面看起來應該像這樣：
+   实例页面应如下所示：
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. 按一下 **[!UICONTROL New Profile]** 按鈕並新增名為的專案： **Campaign Standard- your-prod-instance-name - D365/ACS整合**
+1. 单击 **[!UICONTROL New Profile]** 按钮并添加名为的新条目： **Campaign Standard- your-prod-instance-name - D365/ACS集成**
 
-   * 如果您在清單中看到此專案，則不需要繼續。 按一下 **Adobe Campaign Standard** ，並檢查其他Campaign執行個體。
+   * 如果您在列表中看到此条目，则无需继续。 单击 **Adobe Campaign Standard** 并检查其他Campaign实例。
 
-   * 請務必將「your-prod-instance-name」取代為您的例項的實際名稱。
+   * 确保将“your-prod-instance-name”替换为实例的实际名称。
 
-1. 您可以將 **[!UICONTROL Permission Group]** 具有預設值的下拉式清單。
+1. 您可以离开 **[!UICONTROL Permission Group]** 下拉列表的默认值。
 
-1. 如果您的專案看起來類似下列，請按一下 **[!UICONTROL Done]** 按鈕。
+1. 如果您的输入内容与以下内容类似，请单击 **[!UICONTROL Done]** 按钮。
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
-   已新增新產品設定檔。
+   已添加新的产品配置文件。
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## 授予使用者存取許可權 {#add-users-to-profile}
+## 授予用户访问权限 {#add-users-to-profile}
 
-從 **[!UICONTROL Products]**  頁面，選取您的Campaign執行個體並遵循下列步驟：
+从 **[!UICONTROL Products]**  页面上，选择您的Campaign实例，然后执行以下步骤：
 
-1. 按一下您先前建立的新設定檔：  **Campaign Standard- your-prod-instance-name - D365/ACS整合**
+1. 单击您之前创建的新配置文件：  **Campaign Standard- your-prod-instance-name - D365/ACS集成**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. 按一下 **[!UICONTROL Developers]** 標籤。
+1. 单击 **[!UICONTROL Developers]** 选项卡。
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. 按一下 **[!UICONTROL Add Developer]** 按鈕
+1. 单击 **[!UICONTROL Add Developer]** 按钮
 
-1. 輸入您要新增的使用者名稱或電子郵件地址。  選取符合使用者的結果。
+1. 输入要添加的用户的名称或电子邮件地址。  选择与用户匹配的结果。
 
-   如果這是第一次將使用者新增至組織，請輸入詳細資料。
+   如果这是首次将用户添加到组织，请输入详细信息。
 
 1. 单击 **[!UICONTROL Save]** 确认。

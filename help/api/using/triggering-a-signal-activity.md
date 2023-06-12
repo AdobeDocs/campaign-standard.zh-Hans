@@ -1,6 +1,6 @@
 ---
 title: 触发信号活动
-description: 瞭解如何使用API觸發訊號活動。
+description: 了解如何使用API触发信号活动。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,23 +17,23 @@ ht-degree: 2%
 
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流程中，可以有一或多個 **外部訊號** 活動。 這些活動是等待觸發的「監聽器」。
+在Adobe Campaign Standard工作流中，可以有一个或多个 **外部信号** 活动。 这些活动是等待触发的“侦听器”。
 
-Campaign StandardAPI可讓您觸發 **外部訊號** 呼叫工作流程的活動。 API呼叫可包含將擷取至工作流程事件變數的引數（要鎖定的對象名稱、要匯入的檔案名稱、部分訊息內容等）。 如此一來，您就可以輕鬆將Campaign自動化與外部系統整合。
+Campaign StandardAPI允许您触发 **外部信号** 用于调用工作流的活动。 API调用可以包括将被摄取到工作流的事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
 >[!NOTE]
 >
->外部訊號活動的觸發頻率不能超過每10分鐘一次，且目標工作流程必須已在執行中。
+>外部信号活动的触发频率不能超过每10分钟一次，并且目标工作流必须已在运行。
 
-若要觸發工作流程，請遵循下列步驟：
+要触发工作流，请执行以下步骤：
 
-1. 執行 **GET** 請求工作流程以擷取外部訊號活動觸發URL。
+1. 执行 **GET** 请求检索外部信号活动触发器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 執行 **POST** 對傳回URL提出請求以觸發訊號活動，並使用 **&quot;source&quot;** 引數。 此屬性為必要屬性，可讓您指定觸發請求來源。
+1. 执行 **POST** 请求返回的URL以触发信号活动，并使用 **&quot;source&quot;** 参数。 此属性是必需的，它允许您指明触发请求来源。
 
-如果您想要使用引數呼叫工作流程，請將其新增至具有的裝載 **&quot;parameters&quot;** 屬性。 語法由引數名稱及其值組成(支援下列型別： **字串**， **數字**， **布林值** 和 **日期/時間**)。
+如果要使用参数调用工作流，请使用将它们添加到有效负荷中 **&quot;parameters&quot;** 属性。 语法由参数名称及其值组成(支持以下类型： **字符串**， **数字**， **布尔型** 和 **日期/时间**)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,13 +56,13 @@ Campaign StandardAPI可讓您觸發 **外部訊號** 呼叫工作流程的活動
 
 >[!NOTE]
 >
->將引數新增至裝載時，請確定其 **名稱** 和 **type** 值與外部訊號活動中宣告的資訊一致。 此外，裝載大小不應超過64Ko。
+>向有效负载添加参数时，请确保其 **name** 和 **type** 值与外部信号活动中声明的信息一致。 此外，有效载荷大小不应超过64Ko。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-在工作流程上執行GET要求。
+对工作流执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -72,7 +72,7 @@ Campaign StandardAPI可讓您觸發 **外部訊號** 呼叫工作流程的活動
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回工作流程訊號活動和相關的觸發程式URL。
+它会返回工作流信号活动和关联的触发器URL。
 
 ```
 {
@@ -91,7 +91,7 @@ Campaign StandardAPI可讓您觸發 **外部訊號** 呼叫工作流程的活動
 }
 ```
 
-若要觸發訊號活動，請使用「source」在觸發url上執行POST要求。 如果要使用引數呼叫工作流程，請新增「引數」屬性。
+要触发信号活动，请使用“source”对触发器url执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ Campaign StandardAPI可讓您觸發 **外部訊號** 呼叫工作流程的活動
 
 <!-- + réponse -->
 
-如果未在外部訊號活動中宣告其中一個引數，POST要求會傳回以下錯誤，指出遺漏了哪個引數。
+如果未在外部信号活动中声明其中一个参数，则POST请求会返回以下错误，指示缺少哪个参数。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

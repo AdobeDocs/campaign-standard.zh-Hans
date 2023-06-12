@@ -1,6 +1,6 @@
 ---
 title: 关于短信消息
-description: 探索Adobe Campaign中SMS頻道的主要特性。
+description: 了解Adobe Campaign中短信渠道的主要特性。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
@@ -18,19 +18,19 @@ ht-degree: 23%
 
 # 关于短信消息{#about-sms-messages}
 
-Adobe Campaign可讓您傳遞SMS （短訊息服務）訊息。
+Adobe Campaign允许您投放短信（短信服务）消息。
 
 >[!NOTE]
 >
->SMS頻道為附加元件。 请核实您的许可协议。
+>短信渠道是一个加载项。 请核实您的许可协议。
 
-對於SMS訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在SMS訊息傳送前先行預覽。
+对于短信消息，您可以仅以文本格式创建、修改和个性化消息。 您还可以在发送短信消息之前预览这些消息。
 
-SMS訊息的長度限製為160個字元（如果是GSM編碼），而只有70個字元（如果是Unicode）。 但是，某些特殊字元會影響訊息的長度。 如需詳細資訊，請參閱 [SMS編碼](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 區段。
+如果短信消息采用GSM编码，则长度限制为160个字符；如果短信消息采用Unicode，则长度限制为70个字符。 但是，某些特殊字符会影响消息的长度。 有关详情，请参阅 [短信编码](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 部分。
 
-SMS訊息可從以下網址建立： **[!UICONTROL Marketing activities]** 選單、促銷活動或工作流程中，請參閱 [建立簡訊訊息](../../channels/using/creating-an-sms-message.md).
+短信消息可从以下网址创建： **[!UICONTROL Marketing activities]** 菜单、营销策划或工作流中的，请参阅 [创建短信消息](../../channels/using/creating-an-sms-message.md).
 
-若要將SMS訊息傳送至行動電話，您需要：
+要将短信消息发送到手机，您需要：
 
 * 在 **[!UICONTROL Mobile (SMS)]** 渠道上使用 **[!UICONTROL Bulk delivery]** 模式配置的 **[!UICONTROL Routing]** 外部帐户。有关更多信息，请参阅[路由](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)一节。
 * 正确链接到此外部帐户的投放模板。
@@ -38,19 +38,19 @@ SMS訊息可從以下網址建立： **[!UICONTROL Marketing activities]** 選�
 **相关主题：**
 
 * [管理模板](../../start/using/marketing-activity-templates.md)
-* [簡訊設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [短信配置](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [短信报告](../../reporting/using/sms-report.md)
 * [Campaign Standard Mobile 指南](../../channels/using/get-started-communication-channels.md)
 
 ## 短信投放模板 {#sms-delivery-template}
 
-Adobe Campaign提供行動裝置的傳遞範本。 此範本必須正確連結至用於的外部帳戶 **[!UICONTROL Mobile (SMS)]** 頻道。 若要存取及修改它：
+Adobe Campaign为移动设备提供了一个投放模板。 此模板必须正确链接到用于的外部帐户 **[!UICONTROL Mobile (SMS)]** 渠道。 要访问和修改它，请执行以下操作：
 
-1. 選取 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 進階功能表中的。
-1. 將游標暫留在 **[!UICONTROL Send via SMS]** 使用滑鼠並選取 **重複元素** 選項。
-1. 選取新範本。
+1. 选择 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 从高级菜单中。
+1. 将鼠标悬停在 **[!UICONTROL Send via SMS]** 模板，然后选择 **重复元素** 选项。
+1. 选择新模板。
 1. 单击 **[!UICONTROL Edit properties]** 按钮。
-1. 在 **[!UICONTROL Advanced parameters]** 區段建立連結，確認範本已連結至要用於傳送SMS的外部帳戶。
+1. 在 **[!UICONTROL Advanced parameters]** 区域内，确保模板已链接到用于投放短信的外部帐户。
 
    ![](assets/sms_template.png)
 

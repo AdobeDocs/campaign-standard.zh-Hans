@@ -1,6 +1,6 @@
 ---
 title: 关于扩展 API
-description: 瞭解如何在公用設定檔API中公開自訂資源設定檔的擴充欄位。
+description: 了解如何在公共配置文件API中公开自定义资源配置文件的扩展字段。
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -17,19 +17,19 @@ ht-degree: 11%
 
 # 关于扩展 API{#about-extending-the-api}
 
-此使用案例詳細說明公開設定檔API中自訂資源設定檔的擴充欄位說明。 例如，使用計費系統產生的促銷代碼即時更新客戶設定檔。
+此用例详细说明了公共配置文件API中自定义资源配置文件的扩展字段。 例如，使用从计费系统生成的促销代码即时更新客户的用户档案。
 
 >[!NOTE]
 >
->為了發佈API，請確保您擁有 **[!UICONTROL Datamodel]** 角色。
+>要发布API，请确保您具有 **[!UICONTROL Datamodel]** 角色。
 
-在公用API中公開擴充欄位的步驟如下：
+在公共API中公开扩展字段的步骤如下：
 
-1. [將擴充欄位新增至設定檔資源](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-1. [發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
-1. [驗證API中是否有新的擴充欄位](../../developing/using/step-3--verify-the-extension.md)
+1. [将扩展字段添加到用户档案资源](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [发布扩展](../../developing/using/step-2--publish-the-extension.md)
+1. [验证API中是否有新的扩展字段](../../developing/using/step-3--verify-the-extension.md)
 
 **相关主题：**
 
 * [关于自定义资源](../../developing/using/data-model-concepts.md)
-* [API檔案](../../api/using/get-started-apis.md)
+* [API文档](../../api/using/get-started-apis.md)

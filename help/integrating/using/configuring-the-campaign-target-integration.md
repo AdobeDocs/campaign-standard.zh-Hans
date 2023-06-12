@@ -1,6 +1,6 @@
 ---
 title: 配置 Campaign-Target 集成
-description: 瞭解如何設定Adobe Target整合，以開始在Adobe Campaign中使用動態內容。
+description: 了解如何配置Adobe Target集成以开始在Adobe Campaign中使用动态内容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -17,22 +17,22 @@ ht-degree: 4%
 
 # 配置 Campaign-Target 集成{#configuring-the-campaign-target-integration}
 
-Adobe Campaign與Adobe Target之間的整合可讓您在傳送中插入動態內容。
+Adobe Campaign与Adobe Target之间的集成允许您在投放中插入动态内容。
 
-若要與Adobe Target使用整合功能，首先需要在Adobe Campaign中進行設定，且必須由功能管理員管理。
+在Adobe Campaign中首先需要配置才能使用与Adobe Target的集成功能，并且必须由功能管理员进行管理。
 
-此程式需要下列元素：
+此过程需要以下元素：
 
-* Adobe Experience Cloud租使用者
-* Adobe Target租使用者
-* 指定用來與Adobe Campaign建立連線的Adobe Target rawbox
+* Adobe Experience Cloud租户
+* Adobe Target租户
+* 为与Adobe Campaign建立连接而指定的Adobe Target rawbox
 
-1. 從進階功能表，透過左上角的Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
-1. 若要設定Adobe Target的伺服器和租使用者選項，請相應地填寫以下欄位：
+1. 从高级菜单中，通过左上角的Adobe Campaign徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. 要为Adobe Target配置服务器和租户选项，请相应地填写以下字段：
 
-   * **[!UICONTROL TNT_TenantName]**：Adobe Target租使用者的名稱。 此值對應至Adobe Target的名稱 **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**：用於整合的Adobe Target伺服器。 此選項預設已提供。 此值對應至Adobe Target **[!UICONTROL Server Domain]**，然後是 **/m2** 值。 例如： **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**：Adobe Target租户的名称。 此值对应于Adobe Target的名称 **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]**：用于集成的Adobe Target服务器。 默认情况下已提供此选项。 此值对应于Adobe Target **[!UICONTROL Server Domain]**，后跟 **/m2** 值。 例如： **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
-您的使用者現在可以使用Adobe Target在傳送中新增動態影像。
+您的用户现在可以使用Adobe Target在投放中添加动态图像。

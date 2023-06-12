@@ -1,6 +1,6 @@
 ---
-title: 使用工作流程傳送循環推播通知
-description: 在此範例中，個人化推播通知會根據您的行動應用程式訂閱者的時區，於每月第一天晚上8點傳送給訂閱者
+title: 使用工作流发送定期推送通知
+description: 在此示例中，将于每月第一天晚上8点向移动应用程序的订阅者发送个性化推送通知（取决于其时区）
 feature: Workflows
 role: Data Architect
 level: Intermediate
@@ -12,21 +12,21 @@ ht-degree: 4%
 
 ---
 
-# 使用工作流程傳送循環推播通知 {#sending-a-recurring-push-notification-with-a-workflow}
+# 使用工作流发送定期推送通知 {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
-在此範例中，個人化推播通知會根據您的行動應用程式訂閱者的時區，於每月第一天晚上8點傳送給訂閱者。
+在此示例中，将于每月第一天晚上8点向移动应用程序的订阅者发送个性化推送通知，具体取决于订阅者所在的时区。
 
-若要建立工作流程，請遵循下列步驟：
+要构建工作流，请执行以下步骤：
 
-1. 此 [排程器](../../automating/using/scheduler.md) 活動可讓您在傳送開始前幾天啟動工作流程，以便能夠在任何指定時區的晚上8點將通知傳送給每個訂閱者：
+1. 此 [调度程序](../../automating/using/scheduler.md) 活动允许您在投放开始前几天启动工作流，以便能够在任何给定时区的晚上8点向每个订阅者发送通知：
 
-   * 在 **[!UICONTROL Execution frequency]** 欄位中，選取每月。
-   * 在中選取8點 **[!UICONTROL Time]** 欄位。
-   * 選擇每月傳送傳遞的日期。
-   * 請為您的工作流程選取開始日期，至少是在開始傳送的前一天。 否則，如果所選時間已在其時區中過，則某些收件者可能會在日後一天收到訊息。
-   * 在 **[!UICONTROL Execution options]** 索引標籤中，選取工作流程將在哪個時區開始 **[!UICONTROL Time zone]** 欄位。 舉例來說，工作流程將從太平洋時間晚上8點（該月第一天的前一週）開始，以便為所有適用時區建立傳遞專案留出一些時間。
+   * 在 **[!UICONTROL Execution frequency]** 字段中，选择每月。
+   * 在中选择晚上8点 **[!UICONTROL Time]** 字段。
+   * 选择每月发送投放的日期。
+   * 选择工作流的开始日期，至少先于投放开始日期一天。 否则，如果所选时间已在其时区中过，则某些收件人可能在第二天收到该消息。
+   * 在 **[!UICONTROL Execution options]** 选项卡中，选择工作流在哪个时区启动 **[!UICONTROL Time zone]** 字段。 例如，在此处，工作流将在太平洋时间晚上8点（一个月的第一天的前一周）开始，以便有时间为所有适用的时区创建投放。
 
    >[!NOTE]
    >
@@ -34,27 +34,27 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. 此 [查詢](../../automating/using/query.md) 活動可讓您鎖定年齡在20到30歲之間、已訂閱您的行動應用程式且未開啟您傳送之電子郵件的VIP客戶：
+1. 此 [查询](../../automating/using/query.md) VIP利用活动，可定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的客户：
 
-   * 選取對象(您的VIP客戶)並根據其年齡篩選。
-   * 拖放 **應用程式的訂閱** 元素加入至工作區。 選取 **存在** 並選取您要使用的行動應用程式。
-   * 選取您傳送給客戶的電子郵件。
-   * 拖放 **傳遞記錄（記錄）** 元素並選取 **存在** 以定位所有收到電子郵件的客戶。
-   * 拖放 **追蹤記錄（追蹤）** 元素並選取 **不存在** 以鎖定未開啟電子郵件的所有客戶。
+   * 选择一个受众(您的VIP客户)并根据其年龄进行过滤。
+   * 拖放 **应用程序订阅** 元素。 选择 **存在** 并选择要使用的移动应用程序。
+   * 选择您发送给客户的电子邮件。
+   * 拖放 **投放日志（日志）** 元素，然后选择 **存在** 定位收到电子邮件的所有客户。
+   * 拖放 **跟踪日志（跟踪）** 元素，然后选择 **不存在** 以定位所有未打开电子邮件的客户。
 
       ![](assets/wkf_push_example_2.png)
 
-1. 此 [推播通知傳遞](../../automating/using/push-notification-delivery.md) 活動可讓您輸入訊息內容，並選取您要使用的個人化欄位：
+1. 此 [推送通知投放](../../automating/using/push-notification-delivery.md) 利用活动，可输入消息的内容并选择要使用的个性化字段：
 
-   * 選取 **[!UICONTROL Recurring notification]** 選項。
-   * 定義推播通知內容。 如需推播通知內容的詳細資訊，請參閱此 [區段](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * 在 **[!UICONTROL Schedule]** 區塊，選取 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 在此，我們選擇 **[!UICONTROL Time zone of the contact date]** 太平洋（如同工作流程） **[!UICONTROL Scheduler]**.
+   * 选择 **[!UICONTROL Recurring notification]** 选项。
+   * 定义推送通知内容。 有关推送通知内容的更多信息，请参阅此 [部分](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * 在 **[!UICONTROL Schedule]** 块，选择 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 这里，我们选择了 **[!UICONTROL Time zone of the contact date]** 与工作流中相同的太平洋 **[!UICONTROL Scheduler]**.
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 字段中，选择 **[!UICONTROL Send at the recipient's time zone]**。
 
       ![](assets/wkf_push_example_4.png)
 
-1. 按一下 **[!UICONTROL Start]** 按鈕以開始您的循環工作流程。
+1. 单击 **[!UICONTROL Start]** 按钮以启动循环工作流。
 
    ![](assets/wkf_push_example_3.png)
 
-您的工作流程目前正在執行中。 它將在的所選開始日期開始 **[!UICONTROL Scheduler]** 在太平洋時間晚上8點，週期性推送將會在每月的第一天晚上8點傳送（視客戶時區而定）。
+您的工作流正在运行。 它将在的选定开始日期开始 **[!UICONTROL Scheduler]** 太平洋时间晚上8点，将根据客户所在时区，每月第一天晚上8点发送定期推送。

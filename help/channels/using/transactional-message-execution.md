@@ -1,6 +1,6 @@
 ---
-title: 異動訊息執行與監控
-description: 瞭解異動訊息執行，並探索如何監控異動訊息。
+title: 事务性消息传递的执行和监控
+description: 了解事务性消息传递的执行并探索如何监测事务性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -16,21 +16,21 @@ ht-degree: 62%
 
 ---
 
-# 異動訊息執行與監控 {#transactional-messaging-execution}
+# 事务性消息传递的执行和监控 {#transactional-messaging-execution}
 
-## 異動訊息執行傳送 {#transactional-message-execution-delivery}
+## 事务性消息执行投放 {#transactional-message-execution-delivery}
 
-訊息發佈並完成網站整合後，觸發事件時，即會指派給執行傳送。
+发布消息并完成网站集成后，触发事件时，即会将其分配给执行投放。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-一個 **執行傳送** 是無法操作且無法使用的技術訊息，每個月會針對每個交易式訊息建立一次，且每次都會編輯並再次發佈交易式訊息。
+An **执行投放** 是每月为每个事务型消息创建一次不可操作、不起作用的技术消息，并且每次都编辑和再次发布事务型消息。
 
 **相关主题**：
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
-* [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## 異動訊息重試過程 {#transactional-message-retry-process}
+## 事务性消息传递重试过程 {#transactional-message-retry-process}
 
 临时未投放的事务型消息将会自动重试，一直执行到投放过期为止。有关投放持续时间的更多信息，请参阅[有效性参数](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
@@ -41,7 +41,7 @@ ht-degree: 62%
 
 ### 事件处理重试流程 {#event-processing-retry-process}
 
-觸發事件時，會將其指派給執行傳送。 如果无法将事件分配给执行投放，则延迟事件处理。随后执行重试，直到将其分配给新的执行投放为止。
+触发事件时，该事件将分配给执行投放。 如果无法将事件分配给执行投放，则延迟事件处理。随后执行重试，直到将其分配给新的执行投放为止。
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失敗的傳送會顯示在 **[!UICONTROL Execution list]** 異動訊息傳送記錄的索引標籤。
+>将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放将显示在 **[!UICONTROL Execution list]** “事务性消息发送日志”的选项卡。
 
-### 重試程式限制 {#limitations}
+### 重试进程限制 {#limitations}
 
 **发送日志更新**
 
@@ -67,39 +67,39 @@ ht-degree: 62%
 
 无法停止执行投放。但是，如果当前执行投放失败，则会在收到新事件后立即创建新执行投放，所有新事件都由此新执行投放进行处理。失败的执行投放不会处理任何新事件。
 
-如果某些已指派給執行傳送的事件在重試過程中被延遲，並且該執行傳送失敗，重試系統不會將延遲的事件指派給新的執行傳送，這意味著這些事件會遺失。 檢查 [傳遞記錄](#monitoring-transactional-message-delivery) 檢視可能受影響的收件者。
+如果某些已分配给执行投放的事件在重试过程中被延迟，并且该执行投放失败，则重试系统不会将延迟的事件分配给新的执行投放，这意味着这些事件丢失。 查看 [投放日志](#monitoring-transactional-message-delivery) 查看可能受影响的收件人。
 
-## 監控異動訊息 {#monitoring-transactional-message-delivery}
+## 监控事务性消息 {#monitoring-transactional-message-delivery}
 
-若要監控異動訊息，您必須存取對應訊息的 [執行傳遞](#transactional-message-execution-delivery).
+要监视事务型消息，您需要访问相应的 [执行投放](#transactional-message-execution-delivery).
 
 1. 要查看消息投放日志，请单击 **[!UICONTROL Deployment]** 块右下方的图标。
 
    ![](assets/message-center_access_logs.png)
 
-1. 按一下 **[!UICONTROL Execution list]** 標籤。
+1. 单击 **[!UICONTROL Execution list]** 选项卡。
 
    ![](assets/message-center_execution_tab.png)
 
-1. 選取您選擇的執行傳送。
+1. 选择所选的执行投放。
 
    ![](assets/message-center_execution_delivery.png)
 
-1. 再按一下右下方的圖示 **[!UICONTROL Deployment]** 區塊。
+1. 再次单击 **[!UICONTROL Deployment]** 块。
 
    ![](assets/message-center_execution_access_logs.png)
 
-   對於每個執行傳送，您可以像檢視標準傳送一樣檢視傳送記錄。 如需存取和使用記錄檔的詳細資訊，請參閱 [監控傳遞](../../sending/using/monitoring-a-delivery.md).
+   对于每个执行投放，您可以像查看标准投放一样查看投放日志。 有关访问和使用日志的更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
 
-### 設定檔交易式訊息特性 {#profile-transactional-message-monitoring}
+### 基于用户档案的事务型消息特性 {#profile-transactional-message-monitoring}
 
-對於設定檔交易式訊息，您可以監控以下設定檔資訊。
+对于基于用户档案的事务型消息，您可以监控以下用户档案信息。
 
 选择 **[!UICONTROL Sending logs]** 选项卡。在 **[!UICONTROL Status]** 列中，**[!UICONTROL Sent]** 表示用户档案已选择加入。
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-選取 **[!UICONTROL Exclusions logs]** 索引標籤來檢視已從訊息目標（例如封鎖清單上的地址）中排除的收件者。
+选择 **[!UICONTROL Exclusions logs]** 阻止列表制表符，以查看已从消息目标中排除的收件人，例如在上发送地址。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

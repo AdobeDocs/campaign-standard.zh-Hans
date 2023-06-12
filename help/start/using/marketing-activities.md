@@ -47,7 +47,7 @@ ht-degree: 83%
 * ![](assets/marketing_email_icon.png) 电子邮件
 * ![](assets/marketing_sms_icon.png) 短信
 * ![](assets/marketing_push_icon.png) 推送通知
-* ![](assets/marketing_lp_icon.png) 應用程式內訊息
+* ![](assets/marketing_lp_icon.png) 应用程序内消息
 * ![](assets/marketing_lp_icon.png) 登陆页面
 * ![](assets/marketing_workflow_icon.png) 工作流
 
@@ -81,15 +81,15 @@ ht-degree: 83%
 
 根据环境，您可以：
 
-* 建立電子郵件 —  [瞭解更多](../../channels/using/creating-an-email.md)
-* 建立簡訊 —  [瞭解更多](../../channels/using/creating-an-sms-message.md)
-* 建立推播通知 —  [瞭解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 建立應用程式內訊息 —  [瞭解更多](../../channels/using/about-in-app-messaging.md)
-* 建立工作流程 —  [瞭解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 建立登入頁面 —  [瞭解更多](../../channels/using/getting-started-with-landing-pages.md)
-* 建立行銷活動 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 建立方案 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 创建电子邮件 —  [了解详情](../../channels/using/creating-an-email.md)
+* 创建短信 —  [了解详情](../../channels/using/creating-an-sms-message.md)
+* 创建推送通知 —  [了解详情](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 创建应用程序内消息 —  [了解详情](../../channels/using/about-in-app-messaging.md)
+* 创建工作流 —  [了解详情](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 创建登陆页面 —  [了解详情](../../channels/using/getting-started-with-landing-pages.md)
+* 创建营销活动 —  [了解详情](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 创建项目 —  [了解详情](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您还可以从营销活动列表创建营销活动。在此情況下，您可以建立任何型別的活動，並選擇透過活動的屬性，將行銷活動連結至上層促銷活動（若您建立方案，則連結至上層方案）。
+>您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，然后选择通过活动的属性将营销活动链接到父营销策划（如果您创建项目，则链接到父项目）。

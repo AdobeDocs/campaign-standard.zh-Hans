@@ -1,6 +1,6 @@
 ---
-title: DataModel行銷活動
-description: 瞭解資料模型
+title: DataModel营销活动
+description: 了解数据模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,20 +14,20 @@ ht-degree: 38%
 
 ---
 
-# 促銷活動(nms：campaign)
+# 营销活动(nms：campaign)
 
-## 物件說明
+## 对象描述
 
 <table>
                <tr>
                   <th>名称</th>
                   <th>标签</th>
-                  <th>型別（長度）</th>
+                  <th>类型（长度）</th>
                   <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
@@ -38,13 +38,13 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
+                  <td>内置</td>
                   <td>内置应用程序对象</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>已建立</td>
+                  <td>已创建</td>
                   <td>已创建</td>
                   <td>date </td>
                   <td> </td>
@@ -58,17 +58,17 @@ ht-degree: 38%
                <tr>
                   <td>desc</td>
                   <td>说明</td>
-                  <td>字串(512)</td>
+                  <td>字符串(512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>持續時間</td>
+                  <td>持续时间</td>
                   <td>营销活动持续时间</td>
                   <td>数字 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>結束</td>
+                  <td>结束</td>
                   <td>结束日期</td>
                   <td>date </td>
                   <td> </td>
@@ -81,7 +81,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部资源</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -94,7 +94,7 @@ ht-degree: 38%
                <tr>
                   <td>label</td>
                   <td>标签</td>
-                  <td>字串(128)</td>
+                  <td>字符串(128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,15 +106,15 @@ ht-degree: 38%
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>分項清單（字串） (255)</td>
+                  <td>明细列表（字符串） (255)</td>
                   <td>
                      <ul>
-                        <li>進行中 — 已開始 — 已開始</li>
-                        <li>編輯 — 版本 — 版本</li>
+                        <li>进行中 — 已开始 — 已开始</li>
+                        <li>编辑 — 版本 — 版本</li>
                         <li>已完成 — 已完成 — 已完成</li>
                         <li>警告 — 警告 — 警告</li>
-                        <li>錯誤 — 錯誤 — 錯誤</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>错误 — 错误 — 错误</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -127,7 +127,7 @@ ht-degree: 38%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>字串(64)</td>
+                  <td>字符串(64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -137,19 +137,19 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>程式(programBase)</td>
+                  <td>程序(programBase)</td>
                   <td>项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>即時報表</td>
+                  <td>实时报表</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>開始</td>
+                  <td>开始</td>
                   <td>开始日期</td>
                   <td>date </td>
                   <td> </td>
@@ -157,39 +157,39 @@ ht-degree: 38%
                <tr>
                   <td>状态</td>
                   <td>状态</td>
-                  <td>分項清單（位元） </td>
+                  <td>明细列表（字节） </td>
                   <td>
                      <ul>
-                        <li>開始 — 開始 — 1</li>
-                        <li>編輯 — 版本 — 0</li>
+                        <li>开始 — 开始 — 1</li>
+                        <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 2</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>範本（行銷活動）</td>
+                  <td>模板（营销活动）</td>
                   <td>营销活动模板</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>縮圖</td>
                   <td>缩略图</td>
-                  <td>字串(255)</td>
+                  <td>缩略图</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>营销活动</td>
-                  <td>字串(255)</td>
+                  <td>字符串(255)</td>
                   <td> </td>
                </tr>
             </table>
 
 ## 筛选器
 
-依邏輯狀態(byLogicalStatus)
+按逻辑状态(byLogicalStatus)
 
 <table>
     <tr>
@@ -198,11 +198,11 @@ ht-degree: 38%
     </tr>
     <tr>
     <td>state</td>
-    <td>分項清單</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
-依名稱或標籤(byText)
+按名称或标签(byText)
 
 <table>
     <tr>
@@ -210,12 +210,12 @@ ht-degree: 38%
     <th>类型</th>
     </tr>
     <tr>
-    <td>文字</td>
+    <td>text</td>
     <td>字符串</td>
     </tr>
 </table>
 
-按期間（按期間）
+按期间（按期间）
 
 <table>
     <tr>
@@ -227,12 +227,12 @@ ht-degree: 38%
     <td>date</td>
     </tr>
     <tr>
-    <td>時間週期</td>
+    <td>时间段</td>
     <td>字符串</td>
     </tr>
 </table>
 
-依狀態（依州）
+按状态（按州）
 
 <table>
     <tr>
@@ -241,11 +241,11 @@ ht-degree: 38%
     </tr>
     <tr>
     <td>state</td>
-    <td>分項清單</td>
+    <td>明细列表</td>
     </tr>
 </table>
 
-包含來自異質清單的連續傳遞（使用Continuous）
+包括来自异类列表的连续投放（使用Continuous）
 
 <table>
     <tr>
@@ -258,7 +258,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-為指定期間計畫（由Planning）
+在给定期间计划（按计划）
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-在指定期間內存在（依行事曆）
+在给定期间内存在（按日历）
 
 <table>
     <tr>

@@ -1,6 +1,6 @@
 ---
 title: 删除订阅
-description: 瞭解如何使用API刪除訂閱
+description: 了解如何使用API删除订阅
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# 使用API刪除訂閱 {#mdeleting-subscriptions-api}
+# 删除具有API的订阅 {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 刪除特定設定檔的服務訂閱 {#deleting-service-subscription}
+## 删除特定配置文件的服务订阅 {#deleting-service-subscription}
 
-此程式分為三個步驟。
+此过程分为三个步骤。
 
-1. 擷取所需設定檔的訂閱URL。
-1. 對訂閱URL執行GET要求。
-1. 對所需的服務URL執行DELETE要求。
+1. 检索所需配置文件的订阅URL。
+1. 对订阅URL执行GET请求。
+1. 对所需的服务URL执行DELETE请求。
 
-如果刪除請求成功，則回應狀態為「204無內容」。
+如果删除请求成功，则响应状态为204 No Content。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-以下裝載範例說明如何從服務取消訂閱設定檔。 首先執行GET要求以擷取設定檔。
+以下负载示例显示了如何取消订阅服务的配置文件。 首先执行GET请求以检索配置文件。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔的訂閱URL。
+它会返回用户档案的订阅URL。
 
 ```
   {
@@ -53,7 +53,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行GET要求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所選設定檔的訂閱清單，以及每個訂閱服務的URL。
+它会返回所选配置文件的订阅列表，以及每个订阅服务的URL。
 
 ```
 ...
@@ -77,7 +77,7 @@ ht-degree: 0%
 ...
 ```
 
-對所需的服務URL執行DELETE要求。
+对所需的服务URL执行DELETE请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -89,21 +89,21 @@ ht-degree: 0%
 
 <!-- + réponse -->
 
-## 刪除特定設定檔的服務訂閱
+## 删除特定配置文件的服务订阅
 
-此程式分為三個步驟。
+此过程分为三个步骤。
 
-1. 擷取所需的服務及其訂閱URL。
-1. 對訂閱URL執行GET請求以擷取所有設定檔訂閱。
-1. 對所需的設定檔訂閱URL執行DELETE請求。
+1. 检索所需的服务及其订阅URL。
+1. 对订阅URL执行GET请求以检索所有配置文件订阅。
+1. 对所需的配置文件订阅URL执行DELETE请求。
 
-如果刪除請求成功，則回應狀態為「204無內容」。
+如果删除请求成功，则响应状态为204 No Content。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-擷取服務記錄。
+检索服务记录。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -113,7 +113,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回服務的訂閱URL。
+它会返回服务的订阅URL。
 
 ```
 {
@@ -130,7 +130,7 @@ ht-degree: 0%
 },
 ```
 
-對訂閱URL執行GET要求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -140,7 +140,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所選服務的訂閱清單，以及每個設定檔訂閱的URL (href)。
+它会返回所选服务的订阅列表，并带有每个用户档案订阅的URL (href)。
 
 ```
 {
@@ -157,7 +157,7 @@ ht-degree: 0%
 }
 ```
 
-對所需的設定檔訂閱URL執行DELETE請求。
+对所需的配置文件订阅URL执行DELETE请求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

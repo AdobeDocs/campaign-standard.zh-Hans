@@ -1,6 +1,6 @@
 ---
 title: 在 Experience Manager 中创建 Campaign 表单
-description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立表單，以建立和更新設定檔或管理訂閱。
+description: 借助Adobe Experience Manager集成，您可以直接在AEM中创建表单以创建和更新用户档案或管理订阅。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -17,25 +17,25 @@ ht-degree: 12%
 
 # 在 Experience Manager 中创建 Campaign 表单 {#creating-a-campaign-form-in-experience-manager}
 
-您可以在AEM網站上建立「表單」，並將表單中的欄位對應至Adobe Campaign資料庫中的欄位。 這可讓您建立和更新設定檔，或管理服務的訂閱。
+您可以在AEM网站上创建“表单”，并将表单中的字段映射到Adobe Campaign数据库中的字段。 这允许您创建和更新用户档案或管理服务的订阅。
 
-若要在您的AEM網站上建立Adobe Campaign表單：
+要在AEM网站上创建Adobe Campaign表单，请执行以下操作：
 
-1. 在您的AEM網站中，根據以下內容建立新頁面： **Adobe Campaign設定檔** 範本。
+1. 在您的AEM站点中，根据以下内容创建一个新页面： **Adobe Campaign配置文件** 模板。
 
    ![](assets/aem_content_forms.png)
 
-1. 在頁面屬性中，選取 **[!UICONTROL Cloud Service]** 與您的Adobe Campaign執行個體相對應。
+1. 在页面属性中，选择 **[!UICONTROL Cloud Service]** 与您的Adobe Campaign实例相对应。
 
    ![](assets/aem_content_forms_2.png)
 
-1. 從中選擇表單型別 **[!UICONTROL Form Start]** 元件：
+1. 从中选择表单类型 **[!UICONTROL Form Start]** 组件：
 
-   * **Adobe Campaign：儲存設定檔**
-   * **Adobe Campaign：訂閱服務**
-   * **Adobe Campaign：取消訂閱服務**
+   * **Adobe Campaign：保存配置文件**
+   * **Adobe Campaign：订阅服务**
+   * **Adobe Campaign：取消订阅服务**
 
-1. 新增可對應至Adobe Campaign資料庫欄位的不同欄位和元件，以編輯表單內容。
-1. 測試並發佈表單，使其可在您的AEM網站上存取。
+1. 通过添加可映射到Adobe Campaign数据库字段的不同字段和组件来编辑表单内容。
+1. 测试并发布表单，使其可在AEM网站上访问。
 
 有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。

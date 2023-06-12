@@ -1,6 +1,6 @@
 ---
-title: 处理图像
-description: 了解如何通过电子邮件设计器管理电子邮件中的图像。
+title: 使用图像
+description: 了解如何使用Email Designer管理电子邮件中的图像。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,21 +15,21 @@ ht-degree: 3%
 
 ---
 
-# 处理图像 {#images}
+# 使用图像 {#images}
 
 ## 插入图像{#inserting-images}
 
 您可以在电子邮件和登陆页面中插入图像。
 
-根据您的配置，以下类型的图像可用：
+根据您的配置，可以使用以下类型的图像：
 
 * 本地图像
-* 从Adobe Experience Cloud共享的图像 — 请参阅[使用Campaign和Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md)/Assets On Demand
+* 从Adobe Experience Cloud共享的图像 — 请参阅[使用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * 来自Adobe Target的动态图像 — 请参阅[使用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果您选择通过编辑电子邮件的HTML版本直接添加图像，则不得在HTML页面的&lt;script>标签&#x200B;**中调用**&#x200B;外部文件。这些文件不会导入到Adobe Campaign服务器上。
+>如果选择通过编辑电子邮件的HTML版本直接添加图像，则不得在HTML页的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。这些文件将不会导入到Adobe Campaign服务器上。
 
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
    ![](assets/des_insert_images_1.png)
 
-1. 单击 **[!UICONTROL Browse]**。拖放影像或按一下以從電腦中選取檔案。
+1. 单击 **[!UICONTROL Browse]**。拖放图像或单击以从计算机中选择文件。
 
    ![](assets/des_insert_images_2.png)
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 * 编辑电子邮件时，**样式**&#x200B;允许您指定图像大小、背景和边框。
 * 编辑登陆页面时，**Dimension**&#x200B;允许您指定图像大小（以像素为单位）。
 
-该编辑器允许您使用格式与浏览器兼容的&#x200B;**所有图像类型**。要與編輯器相容，請 **「Flash」型別的動畫** 必須插入HTML頁面中，如下所示：
+该编辑器允许您使用格式与浏览器兼容的&#x200B;**所有图像类型**。要与编辑器兼容，请 **“Flash”类型的动画** 必须插入到HTML页中，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

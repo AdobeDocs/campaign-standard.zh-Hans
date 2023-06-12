@@ -52,7 +52,7 @@ ht-degree: 90%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   有關設定步驟的詳情，請參閱 [設定交易式事件](../../channels/using/configuring-transactional-event.md) 區段。
+   有关配置步骤，请参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md) 部分。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL publicLabel]** 添加到数据结构，以启用协调。
 
@@ -85,14 +85,14 @@ ht-degree: 90%
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** 并单击 **[!UICONTROL Transactional messages]**。
 1. 选择与上文中所发布事件对应的事务型电子邮件。
 
-1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。如需編輯交易式訊息內容的詳細資訊，請參閱 [編輯異動訊息](../../channels/using/editing-transactional-message.md).
+1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。有关编辑事务型消息内容的更多信息，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md).
 1. 由于您可以直接访问 **[!UICONTROL Service]** 资源的所有字段，因此您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** > **[!UICONTROL Service]** 节点选择任何字段，以将内容个性化。
 
    ![](assets/confirmation_personalization-service.png)
 
    有关个性化事务型消息的更多信息，请参阅[此章节](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
-1. 使用测试用户档案预览消息。如需詳細資訊，請參閱 [定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. 使用测试用户档案预览消息。有关此内容的更多信息，请参阅 [定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. 单击 **[!UICONTROL Save & close]** 以保存您的内容。
 1. 发布事务型消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
@@ -116,11 +116,11 @@ ht-degree: 90%
 
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
 
-現在，當設定檔訂閱此服務時，他們會收到您定義的交易式訊息，其中包含對應至所選服務的個人化欄位。
+现在，当用户档案订阅此服务时，他们将收到您定义的事务型消息，其中个性化字段映射到所选服务。
 
 >[!NOTE]
 >
->訊息只會在使用者第一次訂閱時傳送。
+>仅在用户首次订阅时发送消息。
 
 ## 配置来自登录页的确认消息 {#configuring-confirmation-message-from-landing-page}
 
@@ -141,7 +141,7 @@ ht-degree: 90%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   有關設定步驟的詳情，請參閱 [設定交易式事件](../../channels/using/configuring-transactional-event.md) 區段。
+   有关配置步骤，请参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md) 部分。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL serviceName]** 添加到数据结构，以启用协调。
 
@@ -190,8 +190,8 @@ ht-degree: 90%
 
 1. [测试和发布](../../channels/using/testing-publishing-landing-page.md)登陆页面。
 
-現在，當設定檔透過提交登入頁面來訂閱您的Newsletter時，他們會收到您使用對應至服務的個人化欄位定義的確認訊息。
+现在，当用户档案通过提交登陆页面订阅您的新闻通讯时，将会收到您使用映射到服务的个性化字段定义的确认消息。
 
 >[!NOTE]
 >
->每次提交登入頁面時都會傳送訊息，即使已訂閱設定檔亦然。
+>每次提交登陆页面时都会发送消息，即使用户档案已订阅。

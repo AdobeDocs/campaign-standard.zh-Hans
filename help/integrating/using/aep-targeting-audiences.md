@@ -1,6 +1,6 @@
 ---
 title: 定位 Adobe Experience Platform 受众
-description: 瞭解如何在工作流程中鎖定Adobe Experience Platform對象。
+description: 了解如何在工作流中定位Adobe Experience Platform受众。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,49 +19,49 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-建立 [Adobe Experience Platform對象](../../integrating/using/aep-about-audience-destinations-service.md) 使用區段產生器，其使用方式與工作流程中行銷活動對象個人化和傳送訊息的方式相同。
+创建 [Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md) 通过使用区段生成器，您可以像在工作流中用于营销活动受众一样使用该区段来个性化和发送消息。
 
-若要在工作流程中啟用Adobe Experience Platform對象，請遵循下列步驟：
+要在工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
-1. 新增 **[!UICONTROL Read audience]** 活動放入工作流程，然後開啟它。
+1. 添加 **[!UICONTROL Read audience]** 活动添加到工作流中，然后打开它。
 
-1. 選取 **[!UICONTROL Adobe Experience Platform]** 下的選項 **[!UICONTROL Type of audience]**，然後新增所需的對象。
+1. 选择 **[!UICONTROL Adobe Experience Platform]** 下的选项 **[!UICONTROL Type of audience]**，然后添加所需的受众。
 
    ![](assets/aep_wkf_readaudience.png)
 
-1. （可選）選取對象後，您可以按一下眼睛按鈕以檢閱及/或編輯區段定義（請務必再次儲存變更）。
+1. （可选）选择受众后，您可以单击眼睛按钮以查看和/或编辑区段定义（确保再次保存更改）。
 
-   按一下眼睛按鈕只會將您導向與Campaign內所選對象相關聯的區段產生器（在另一個標籤中）。
+   单击眼睛按钮只会将您引导至与Campaign中的选定受众关联的区段生成器（在另一个选项卡中）。
 
-1. 選取 **[!UICONTROL Platform data mapping]** 元素，為選取的Adobe Experience Platform對象指定所需的目標維度。
+1. 选择 **[!UICONTROL Platform data mapping]** 元素，为选定的Adobe Experience Platform受众指定所需的定向维度。
 
-   預設情況下，將自動從下拉式清單中取得用於調解的主索引鍵（例如，設定檔表格的iRecipientID、AppSubscription表格的iAppSubscriptionID）。 若要在主索引鍵之外鎖定目標，您必須建立自訂 **名稱空間**.
+   默认情况下，用于协调的主键（例如，配置文件表的iRecipientID、应用程序订阅表的iAppSubscriptionID）将自动从下拉列表中可用。 要在主键之外定位，您必须创建一个自定义 **命名空间**.
 
    >[!NOTE]
    >
-   >對於主索引鍵以外的目標，您也必須建立與自訂名稱空間對應的自訂目標對應。 有關目標對應的詳細資訊，請參閱 [本節](../../administration/using/target-mappings-in-campaign.md).
+   >对于主键以外的目标，还必须创建与自定义命名空间对应的自定义目标映射。 有关目标映射的详细信息，请参阅 [本节](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   此清單包含已在您的執行個體上設定的所有Experience Data Model (XDM)對應。 如需Adobe Experience Platform資料聯結器的詳細資訊，請參閱 [這份專屬檔案](../../integrating/using/aep-about-data-connector.md).
+   此列表包含已在实例上配置的所有Experience Data Model (XDM)映射。 有关Adobe Experience Platform数据连接器的更多信息，请参阅 [此专用文档](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. 在正確設定對象和目標維度後，按一下 **[!UICONTROL Confirm]** 按鈕以儲存您的變更。
+1. 正确配置受众和定向维度后，单击 **[!UICONTROL Confirm]** 按钮以保存更改。
 
-您現在可以使用其他活動設定工作流程。 例如，您可以連結 **[!UICONTROL Email delivery]** 活動，傳送電子郵件給已選取的對象。
+您现在可以使用其他活动配置工作流。 例如，您可以链接 **[!UICONTROL Email delivery]** 活动，向选定的受众发送电子邮件。
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->Campaign Standard可讓您在所有傳遞管道內鎖定Adobe Experience Platform對象：電子郵件、簡訊、直接郵件訊息、推播通知和應用程式內訊息。
+>通过Campaign Standard，您可以定位所有投放渠道中的Adobe Experience Platform受众：电子邮件、SMS消息、直邮消息、推送通知和应用程序内消息。
 >
->*注意：對於所有推送和應用程式內訊息，Campaign Standard僅支援傳送已知設定檔。
+>*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持交付已知用户档案。
 
-如需如何使用工作流程和傳送的詳細資訊，請參閱下列章節：
+有关如何使用工作流和投放的更多信息，请参阅以下章节：
 
 * [了解工作流](../../automating/using/get-started-workflows.md)
 * [构建工作流](../../automating/using/building-a-workflow.md)

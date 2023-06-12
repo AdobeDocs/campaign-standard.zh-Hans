@@ -78,10 +78,10 @@ ht-degree: 95%
 
 1. 单击 **[!UICONTROL Save]**（如果已输入更改），或选择测试用户档案的名称，然后在屏幕顶部选择 **[!UICONTROL Test profiles]** 以返回测试用户档案仪表板。
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-本影片說明如何建立測試設定檔。
+本视频说明如何创建测试用户档案。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

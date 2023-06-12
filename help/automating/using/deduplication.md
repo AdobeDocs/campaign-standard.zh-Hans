@@ -36,8 +36,8 @@ ht-degree: 97%
 
 **相关主题**
 
-* [使用案例：在傳遞之前識別重複專案](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用案例：從匯入的檔案中重複刪除資料](../../automating/using/deduplicating-data-imported-file.md)
+* [用例：在投放之前标识重复项](../../automating/using/identifying-duplicated-before-delivery.md)
+* [用例：从导入的文件中删除数据重复项](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 配置 {#configuration}
 

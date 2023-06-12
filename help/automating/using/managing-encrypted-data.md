@@ -1,6 +1,6 @@
 ---
 title: 管理加密数据
-description: 瞭解如何管理加密的資料。
+description: 了解如何管理加密数据。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,22 +17,22 @@ ht-degree: 4%
 
 # 管理加密数据 {#managing-encrypted-data}
 
-## 關於預先處理階段 {#about-preprocessing-stages}
+## 关于预处理阶段 {#about-preprocessing-stages}
 
-在某些情況下，您想要匯入Campaign伺服器的資料可能需要加密，例如如果包含PII資料。
+在某些情况下，可能需要加密要导入Campaign服务器的数据，例如，如果它包含PII数据。
 
-若要能夠加密傳出資料或解密傳入資料，您需要使用 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans).
+要能够加密传出数据或解密传入数据，您需要使用 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans).
 
 >[!NOTE]
 >
->「控制面板」適用於在AWS上代管的所有客戶（內部部署代管行銷執行個體的客戶除外）。
+>控制面板适用于在AWS上托管的所有客户（本地托管其营销实例的客户除外）。
 
-如果您不符合使用「控制面板」的資格，您必須聯絡Adobe客戶服務，以便他們為您的執行個體提供所需的加密/解密命令。 要執行此操作，請提交請求，指出：
+如果您不符合使用控制面板的资格，则需要联系Adobe客户关怀团队，以便他们为您的实例提供所需的加密/解密命令。 要执行此操作，请提交请求，指出：
 
-* 此 **標籤** 會顯示在Campaign介面中以使用命令。 例如&quot;Encrypt file&quot;。
-* 此 **命令** 以安裝在您的執行個體上。
+* 此 **标签** ，以便使用该命令。 例如，“加密文件”。
+* 此 **命令** ，以便在您的实例上安装。
 
-處理請求後，加密/解密命令將可在 **[!UICONTROL Pre-processing stage]** 欄位來自 **[!UICONTROL Load file]** 和 **[!UICONTROL Extract file]** 活動。 您可以使用它們來解密或加密要匯入或匯出的檔案。
+处理请求后，加密/解密命令将可用于 **[!UICONTROL Pre-processing stage]** 中的字段 **[!UICONTROL Load file]** 和 **[!UICONTROL Extract file]** 活动。 您可以使用它们来解密或加密要导入或导出的文件。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -41,96 +41,96 @@ ht-degree: 4%
 * [加载文件](../../automating/using/load-file.md)
 * [提取文件](../../automating/using/extract-file.md)
 
-## 使用案例：匯入使用控制面板產生的金鑰加密的資料 {#use-case-gpg-decrypt}
+## 用例：导入使用控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
 
-在此使用案例中，請建立工作流程，以使用在「控制面板」中產生的金鑰，匯入已在外部系統中加密的資料。
+在此使用案例中，构建一个工作流，以便使用在控制面板中生成的密钥导入已在外部系统中加密的数据。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
-執行此使用案例的步驟如下：
+执行此用例的步骤如下：
 
-1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. 使用控制面板可生成密钥对（公钥/私钥）。 有关详细步骤，请参阅 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
-   * 公開金鑰將與外部系統共用，外部系統將使用公開金鑰加密要傳送至Campaign的資料。
-   * Campaign將使用私密金鑰來解密傳入的加密資料。
+   * 公共密钥将与外部系统共享，外部系统将使用它加密要发送到Campaign的数据。
+   * Campaign将使用该私钥对传入的加密数据进行解密。
 
    ![](assets/gpg_generate.png)
 
-1. 在外部系統中，使用從「控制面板」下載的公開金鑰，將資料加密並匯入Campaign Standard。
+1. 在外部系统中，使用从控制面板下载的公钥加密数据并导入Campaign Standard。
 
-1. 在Campaign Standard中，建立工作流程以匯入加密的資料，並使用已透過「控制面板」安裝的私密金鑰加以解密。 要執行此操作，請建置工作流程，如下所示：
+1. 在Campaign Standard中，构建一个工作流以导入加密数据，并使用通过控制面板安装的私钥对其进行解密。 要实现此目的，请构建一个工作流，如下所示：
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** 活動：將檔案從外部來源傳輸至Campaign。 在此範例中，我們要從SFTP伺服器傳輸檔案。
-   * **[!UICONTROL Load file]** 活動：將檔案中的資料載入資料庫，並使用「控制面板」中產生的私密金鑰加以解密。
+   * **[!UICONTROL Transfer file]** 活动：将文件从外部源传输到Campaign。 在本例中，我们要从SFTP服务器传输文件。
+   * **[!UICONTROL Load file]** 活动：将数据从文件加载到数据库中，并使用控制面板中生成的私钥对其进行解密。
 
-1. 開啟 **[!UICONTROL Transfer file]** 活動，然後根據您的需求進行設定。 有關如何設定活動的全域概念，請參閱 [本節](../../automating/using/load-file.md).
+1. 打开 **[!UICONTROL Transfer file]** 活动，然后根据需要进行配置。 有关如何配置活动的全局概念，请参见 [本节](../../automating/using/load-file.md).
 
-   在 **[!UICONTROL Protocol]** 索引標籤中，指定有關sftp伺服器和您要傳輸的加密.gpg檔案的詳細資料。
+   在 **[!UICONTROL Protocol]** 选项卡，指定有关sftp服务器和要传输的加密.gpg文件的详细信息。
 
    ![](assets/gpg_transfer.png)
 
-1. 開啟 **[!UICONTROL Load file]** 活動，然後根據您的需求進行設定。 有關如何設定活動的全域概念，請參閱 [本節](../../automating/using/load-file.md).
+1. 打开 **[!UICONTROL Load file]** 活动，然后根据需要进行配置。 有关如何配置活动的全局概念，请参见 [本节](../../automating/using/load-file.md).
 
-   為活動新增前置處理階段，以便解密傳入的資料。 若要這麼做，請選取 **[!UICONTROL Decryption GPG]** 選項。
+   为活动添加预处理阶段，以便解密传入数据。 要执行此操作，请选择 **[!UICONTROL Decryption GPG]** 选项。
 
    >[!NOTE]
    >
-   >請注意，您不需要指定用來解密資料的私密金鑰。 私密金鑰儲存在「控制面板」中，會自動偵測用來解密檔案的金鑰。
+   >请注意，您无需指定用于解密数据的私钥。 私钥存储在控制面板中，它将自动检测用于解密文件的密钥。
 
    ![](assets/gpg_load.png)
 
-1. 按一下 **[!UICONTROL OK]** 以確認活動設定。
+1. 单击 **[!UICONTROL OK]** 以确认活动配置。
 
-1. 您現在可以執行工作流程。
+1. 您现在可以运行工作流。
 
-## 使用案例：使用安裝於控制面板的金鑰加密及匯出資料 {#use-case-gpg-encrypt}
+## 用例：使用安装在控制面板上的密钥加密和导出数据 {#use-case-gpg-encrypt}
 
-在此使用案例中，請建立工作流程，以使用安裝於控制面板的金鑰加密及匯出資料。
+在此使用案例中，构建工作流以便使用安装在控制面板上的密钥加密和导出数据。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
-執行此使用案例的步驟如下：
+执行此用例的步骤如下：
 
-1. 使用GPG公用程式產生GPG金鑰組（公開/私人），然後將公開金鑰安裝至「控制面板」。 詳細步驟請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公钥安装到控制面板上。 有关详细步骤，请参阅 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，建立工作流程以匯出資料，並使用已透過「控制面板」安裝的私密金鑰加以加密。 要執行此操作，請建置工作流程，如下所示：
+1. 在Campaign Standard中，构建一个工作流以导出数据，并使用通过控制面板安装的私钥加密数据。 要实现此目的，请构建一个工作流，如下所示：
 
    ![](assets/gpg-workflow-export.png)
 
-   * **[!UICONTROL Query]** 活動：在此範例中，我們要執行查詢，以定位要匯出的資料庫資料。
-   * **[!UICONTROL Extract file]** 活動：將資料加密並擷取至檔案中。
-   * **[!UICONTROL Transfer file]** 活動：將包含加密資料的檔案傳輸至SFTP伺服器。
+   * **[!UICONTROL Query]** 活动：在本例中，我们要执行查询，以定向要导出的数据库中的数据。
+   * **[!UICONTROL Extract file]** 活动：加密数据并将其提取到文件中。
+   * **[!UICONTROL Transfer file]** 活动：将包含加密数据的文件传输到SFTP服务器。
 
-1. 設定 **[!UICONTROL Query]** 從資料庫中鎖定所需資料的活動。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
+1. 配置 **[!UICONTROL Query]** 活动，从数据库中定位所需数据。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
 
-1. 開啟 **[!UICONTROL Extract file]** 活動然後根據您的需求（輸出檔案、欄、格式等）進行設定。 有關如何設定活動的全域概念，請參閱 [本節](../../automating/using/extract-file.md).
+1. 打开 **[!UICONTROL Extract file]** 活动，然后根据您的需求（输出文件、列、格式等）对其进行配置。 有关如何配置活动的全局概念，请参见 [本节](../../automating/using/extract-file.md).
 
-   為活動新增前置處理階段，以便加密要擷取的資料。 若要這麼做，請選取用來加密資料的加密GPG金鑰。
+   向活动添加一个预处理阶段，以便加密要提取的数据。 要实现此目的，请选择用于加密数据的加密GPG密钥。
 
    ![](assets/gpg-extract-stage.png)
 
    >[!NOTE]
    >
-   >括弧內的值是 **評論** 使用GPG加密工具產生金鑰組時所定義的金鑰組。 請確定您選取正確的相符金鑰，否則收件者將無法解密檔案。
+   >括号中的值是 **注释** 使用GPG加密工具生成密钥对时定义的密钥对。 请确保选择正确的匹配密钥，否则收件人将无法解密文件。
 
-1. 開啟 **[!UICONTROL Transfer file]** 活動，然後指定您要傳送檔案的SFTP伺服器。 有關如何設定活動的全域概念，請參閱 [本節](../../automating/using/transfer-file.md).
+1. 打开 **[!UICONTROL Transfer file]** 活动，然后指定要将文件发送到的SFTP服务器。 有关如何配置活动的全局概念，请参见 [本节](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
-1. 您現在可以執行工作流程。 查詢執行的資料目標一旦執行，就會匯出至SFTP伺服器加密的.gpg檔案。
+1. 您现在可以运行工作流。 执行查询后，查询的数据目标将导出到SFTP服务器中，并成为加密的.gpg文件。
 
 ## 教程视频 {#video}
 
-本影片說明如何使用GPG金鑰來解密資料。
+本视频说明如何使用GPG密钥解密数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
-本影片說明如何使用GPG金鑰加密資料。
+本视频说明如何使用GPG密钥加密数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

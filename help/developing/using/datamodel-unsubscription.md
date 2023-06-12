@@ -1,6 +1,6 @@
 ---
-title: DataModel取消訂閱事件
-description: 瞭解資料模型
+title: DataModel退订事件
+description: 了解数据模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,14 +14,14 @@ ht-degree: 58%
 
 ---
 
-# 取消訂閱事件(nms：rtEvent)
+# 退订事件(nms：rtEvent)
 
-## 物件說明
+## 对象描述
 
 <table>
                <tr>
                   <th>名称</th>
-                  <th>唯讀</th>
+                  <th>只读</th>
                   <th>类型</th>
                   <th>必需</th>
                </tr>
@@ -44,13 +44,13 @@ ht-degree: 58%
                   <td>假</td>
                </tr>
                <tr>
-                  <td>電子郵件格式</td>
+                  <td>emailFormat</td>
                   <td>假</td>
-                  <td>分項清單</td>
+                  <td>明细列表</td>
                   <td>假</td>
                </tr>
                <tr>
-                  <td>行動電話</td>
+                  <td>移动电话</td>
                   <td>假</td>
                   <td>字符串</td>
                   <td>假</td>
@@ -87,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>状态</td>
-        <td>分項清單</td>
+        <td>明细列表</td>
         </tr>
         <tr>
         <td>类型</td>

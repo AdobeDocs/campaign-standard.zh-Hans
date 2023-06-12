@@ -1,6 +1,6 @@
 ---
 title: 管理执行选项
-description: 瞭解如何管理工作流程執行選項。
+description: 了解如何管理工作流执行选项。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,74 +18,74 @@ ht-degree: 12%
 
 # 管理执行选项 {#managing-execution-options}
 
-若要修改工作流程的執行選項，請使用 ![](assets/edit_darkgrey-24px.png) 按鈕以存取工作流程屬性並選取 **[!UICONTROL Execution]** 區段。
+要修改工作流的执行选项，请使用 ![](assets/edit_darkgrey-24px.png) 按钮以访问工作流属性并选择 **[!UICONTROL Execution]** 部分。
 
 ![](assets/wkf_execution_6.png)
 
 可能的选项为：
 
-* **[!UICONTROL Default affinity]**：此欄位可讓您強制在特定電腦上執行工作流程或工作流程活動。
+* **[!UICONTROL Default affinity]**：利用此字段，可强制在特定计算机上执行工作流或工作流活动。
 
-* **[!UICONTROL History in days]**：指定必須清除歷程記錄的天數。 歷史記錄包含與工作流程相關的元素：記錄、任務、事件（連結至工作流程操作的技術物件），以及下載的檔案 **[!UICONTROL Transfer file]** 活動。 现成的工作流模板的默认值为 30 天。
+* **[!UICONTROL History in days]**：指定必须清除历史记录的天数。 历史记录包含与工作流相关的元素：日志、任务、事件（链接到工作流操作的技术对象）以及下载的文件 **[!UICONTROL Transfer file]** 活动。 现成的工作流模板的默认值为 30 天。
 
-   历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次 (請參閱 [技術工作流程清單](../../administration/using/technical-workflows.md).)
+   历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次 (请参阅 [技术工作流列表](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >如果 **[!UICONTROL History in days]** 欄位留白，其值將視為「1」，這表示歷史記錄將在1天後清除。
+   >如果 **[!UICONTROL History in days]** 字段留空，其值将被视为“1”，这意味着历史记录将在1天后清除。
 
-* **[!UICONTROL Save SQL queries in the log]**：可讓您從工作流程將SQL查詢儲存至記錄中。
+* **[!UICONTROL Save SQL queries in the log]**：用于将SQL查询从工作流保存到日志中。
 
-* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**：如果您希望記錄整個執行計畫，請核取此選項。 預設為停用。
+* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**：如果您希望记录整个执行计划，请选中此选项。 默认情况下处于禁用状态。
 
-   如需此選項的詳細資訊，請參閱此 [區段](#diagnostic-mode).
+   有关此选项的更多信息，请参阅此 [部分](#diagnostic-mode).
 
-* **[!UICONTROL Keep interim results]**：如果您想要檢視轉變的詳細資訊，請核取此選項。
+* **[!UICONTROL Keep interim results]**：如果您希望能够查看过渡的详细信息，请选中此选项。
 
    >[!CAUTION]
    >
    >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**：可讓您在本機執行工作流程，以用於開發環境測試目的。
+* **[!UICONTROL Execute in the engine (do not use in production)]**：允许您在本地执行工作流，以用于开发环境测试目的。
 
-* **[!UICONTROL Severity]**：可讓您指定在Adobe Campaign執行個體中執行工作流程的優先順序等級。 此欄位僅供Adobe團隊用於監控目的。
+* **[!UICONTROL Severity]**：用于指定在Adobe Campaign实例中执行工作流的优先级级别。 此字段仅供Adobe团队用于监控目的。
 
-此 **[!UICONTROL Error management]** 區段提供其他選項，可讓您管理工作流程在出現錯誤時的行為方式。 這些選項在 [錯誤管理](../../automating/using/monitoring-workflow-execution.md#error-management) 區段。
+此 **[!UICONTROL Error management]** 部分提供了其他选项，用于管理工作流在出现错误时的行为方式。 有关这些选项的详情，请参见 [错误管理](../../automating/using/monitoring-workflow-execution.md#error-management) 部分。
 
-## 診斷模式 {#diagnostic-mode}
+## 诊断模式 {#diagnostic-mode}
 
 >[!CAUTION]
 >
->此選項可能會對工作流程效能造成重大影響，請謹慎使用。
+>此选项可能会显着影响工作流性能，应谨慎使用。
 
-啟用時， **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** 中的選項 **[!UICONTROL Execution]** 如果查詢超過一分鐘，工作流程屬性的區段會記錄整個執行計畫。
+启用后， **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** 中的选项 **[!UICONTROL Execution]** 如果查询需要超过一分钟的时间，工作流属性的部分将记录整个执行计划。
 
 ![](assets/wkf_diagnostic.png)
 
-啟用此選項並啟動工作流程後，如果您的查詢需要超過一分鐘，則會記錄執行計畫。 然後您可以使用EXPLAIN ANALYZE擷取執行計畫。
+在启用此选项并启动工作流后，如果您的查询需要超过一分钟，则将记录执行计划。 然后，您可以使用EXPLAIN ANALYZE检索执行计划。
 
-如需詳細資訊，請參閱 [PostgreSQL檔案](https://www.postgresql.org/docs/9.4/using-explain.html).
+欲知更多信息，请参见 [PostgreSQL文档](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-如果您在此查詢中有序列掃描，則 **[!UICONTROL Diagnostic mode]** 也會提供建議，讓您在篩選運算式的協助下建立索引。
+如果在此查询中有序列扫描，则 **[!UICONTROL Diagnostic mode]** 还将提供建议以帮助过滤器表达式创建索引。
 
 >[!NOTE]
 >
-> 這些建議僅供參考，應根據您的使用案例謹慎使用。
+> 这些建议仅供参考，应根据您的用例仔细使用。
 
 ![](assets/wkf_diagnostic_4.png)
 
-在工作流程執行期間，必須符合以下兩個條件才能觸發建議：
+在执行工作流时必须满足以下两个条件才能触发推荐：
 
-* 序列掃描需要超過40%的查詢時間。
+* 序列扫描占查询时间的40%以上。
 
-* 序列掃描後產生的列數少於表格中存在之總列數的1%。
+* 序列扫描后生成的行数少于表中总行数的1%。
 
-您可以選取「 」，管理進階功能表中的選項 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**：
+您可以通过选择管理高级菜单中的选项 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**：
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**：從 **[!UICONTROL Value]** 欄位中，您可以設定新的查詢執行時間。 如果您的查詢執行超過此值，則會記錄執行計畫。
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**：从 **[!UICONTROL Value]** 字段，则可以设置新的查询执行时间。 如果查询执行超过此值，将记录执行计划。
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**：從 **[!UICONTROL Value]** 欄位，您可以變更序列掃描必須花費的查詢時間百分比，才能產生建議。
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**：从 **[!UICONTROL Value]** 字段中，您可以更改序列扫描为生成推荐所花费的查询时间百分比。
 
    ![](assets/wkf_diagnostic_3.png)

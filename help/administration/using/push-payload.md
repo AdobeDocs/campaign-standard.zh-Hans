@@ -1,6 +1,6 @@
 ---
-title: 瞭解Campaign Standard推播通知裝載結構
-description: 瞭解行動應用程式中接收的裝載結構
+title: 了解Campaign Standard推送通知有效负荷结构
+description: 了解在移动应用程序中接收的有效负载的结构
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -15,27 +15,27 @@ ht-degree: 3%
 
 # 了解推送通知有效载荷结构 {#push-payload}
 
-Adobe Campaign可讓您在iOS和Android行動裝置上將個人化和分段的推播通知傳送至行動應用程式（行動應用程式）。
+Adobe Campaign允许您在iOS和Android移动设备上向移动应用程序（移动应用程序）发送个性化的分段推送通知。
 
-在行動應用程式上收到的每個推播通知都會攜帶一些資訊，在傳送警報推播通知時，應用程式會使用這些資訊來顯示推播通知，而且極有可能還會進行一些進一步計算，尤其是傳送無訊息推播通知時。
+在移动应用程序上收到的每个推送通知都包含一些信息，在发送警报推送通知时，应用程序会使用这些信息显示推送通知，并且很可能还会进行一些进一步计算，尤其是在发送静默推送通知时。
 
-行動應用程式程式碼會在事件處理常式中接收此資訊，指出已收到推播通知。 從Adobe Campaign Standard傳送推播通知時，行動應用程式中收到的資訊也可能包含Campaign Standard特定資訊，這些資訊可用於運用Campaign Standard提供的某些功能。 此外，裝載可包含行動應用程式可使用的自訂資料。
+移动设备应用程序代码会在一个事件处理程序中接收此信息，指示已收到推送通知。 从Adobe Campaign Standard发送推送通知时，移动设备应用程序中接收的信息可能还包含特定于Campaign Standard的信息，这些信息可用于利用Campaign Standard提供的某些功能。 此外，有效负载可包含可由移动设备应用程序使用的自定义数据。
 
-本檔案說明當推送通知成功從Adobe Campaign Standard傳送至應用程式時，行動應用程式中收到之裝載的結構。
+本文档介绍了当推送通知成功从Adobe Campaign Standard发送到应用程序时，在移动应用程序中接收的有效负载的结构。
 
 >[!NOTE]
 >
->裝載結構依行動應用程式的型別而異(即iOS應用程式、啟用FCM的Android應用程式)。
+>有效负载结构因移动设备应用程序(即iOS应用程序、支持FCM的Android应用程序)的类型而异。
 
-## 推播裝載結構 {#push-payload-structure}
+## 推送有效负荷结构 {#push-payload-structure}
 
-本節詳細說明各種行動平台的裝載範例結構，並說明其中所包含的主要屬性。 這是行動應用程式程式碼中接收的裝載結構，位於事件處理常式中，指出已收到推播通知。
+此部分详细介绍适用于各种移动平台的示例有效负载的结构，并描述其中包含的主要属性。 这是事件处理程序中移动应用程序代码中接收的有效负荷的结构，指示已收到推送通知。
 
-裝載屬性及其值會因推播通知進階選項中提供的設定而異。 本節也提供Campaign Standard UI中這些設定與裝載中屬性之間的對應，以釐清在Campaign Standard中設定選項時裝載會如何變更。
+有效负载属性及其值将因推送通知高级选项中提供的配置而异。 此部分还提供了Campaign StandardUI中的这些配置与有效负载中的属性之间的映射，以阐明在配置Campaign Standard中的选项时，有效负载会发生什么变化。
 
-### 適用於iOS行動應用程式 {#payload-structure-ios}
+### 适用于iOS移动设备应用程序的 {#payload-structure-ios}
 
-**從Adobe Campaign傳送至iOS應用程式的裝載範例：**
+**从Adobe Campaign发送到iOS应用程序的示例有效负载：**
 
 ```
 {
@@ -75,7 +75,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上將個人化和分段的�
     "_mId":"h138a"} 
 ```
 
-**要搭配使用的JSON裝載範例 [iOS APNS Tester](https://pushtry.com/)**
+**要结合使用的JSON示例有效负载 [iOS APNS测试器](https://pushtry.com/)**
 
 ```
 {
@@ -103,13 +103,13 @@ Adobe Campaign可讓您在iOS和Android行動裝置上將個人化和分段的�
 }
 ```
 
-有效負載最重要的部分是aps字典，它包含Apple定義的索引鍵，並用於決定接收通知的系統應如何提醒使用者（如果有的話）。 本節包含行動應用程式用來制定推播通知行為的預先定義金鑰。
+有效负载的最重要部分是aps词典，它包含Apple定义的键，用于确定接收通知的系统应如何提醒用户（如果有的话）。 此部分包含移动应用程序用来制定推送通知行为的预定义键。
 
-您可以在Apple開發人員檔案中找到aps內屬性的深入詳細資訊： [建立遠端通知裝載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
+可以在Apple开发人员文档中找到aps中属性的深入详细信息： [创建远程通知有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### 適用於Android應用程式 {#payload-structure-android}
+### 适用于Android应用程序 {#payload-structure-android}
 
-**從Adobe Campaign傳送至Android應用程式的裝載範例**
+**从Adobe Campaign向Android应用程序发送有效负载示例**
 
 ```
 {
@@ -149,7 +149,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上將個人化和分段的�
 }
 ```
 
-**要使用的JSON裝載範例 [Google FCM測試器](https://pushtry.com/)**
+**要使用的JSON示例有效负载 [Google FCM测试器](https://pushtry.com/)**
 
 ```
 {
@@ -191,38 +191,38 @@ Adobe Campaign可讓您在iOS和Android行動裝置上將個人化和分段的�
 }
 ```
 
-裝載包含資料訊息，其中包含所有推播通知傳送內容（包括自訂索引鍵/值組），而使用者端應用程式必須處理該訊息才能建置和顯示推播通知（如果需要）或新增任何其他商業邏輯。
+有效负载包含数据消息，其中包含所有推送通知投放内容，包括自定义键/值对，如果需要，客户端应用程序必须处理该消息才能构建和显示推送通知，否则必须添加任何其他业务逻辑。
 
-若要瞭解Android裝載的各個層面，請參閱 [傳訊概念和選項(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+要了解Android有效负载的各个方面，请参阅 [消息传送概念和选项(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->自2018年1月起，Android裝載中已移除對通知訊息的支援，以啟用喚醒應用程式並將控制項傳遞至行動應用程式，而不需要使用者與應用程式互動。
+>自2018年1月起，Android有效负载中不再支持通知消息，以便能够唤醒应用程序并将控制权传递给移动应用程序，而无需用户与应用程序交互。
 
-### Campaign Standard設定和裝載屬性之間的對應 {#mapping-payload}
+### Campaign Standard配置和有效负载属性之间的映射 {#mapping-payload}
 
-| Campaign設定 | iOS中受影響的屬性 | Android中受影響的屬性 | 说明 |
+| Campaign配置 | iOS中受影响的属性 | Android中受影响的属性 | 说明 |
 |:-:|:-:|:-:|:-:|
-| 訊息標題 <br>訊息內文 | 警報→標題 <br> 警示→本文 | 標題 <br>內文 | 此資料包含警示訊息的細節。<br>標題和正文索引鍵會提供警報的內容。 |
-| 播放提示音 | 聲音 | 聲音 | 要播放警示的自訂音效。 |
-| 徽章的值 | 徽章 | 徽章 | 用於標籤應用程式圖示的整數值。 |
-| 添加深层链接 | uri | 不適用 | 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。 |
-| 类别 | 類別 | 類別 | 顯示具有遠端通知的自訂動作。 <br>類別索引鍵可協助系統將該類別的動作顯示為警示介面中的按鈕。 |
-| 自訂欄位 | custom_field1， custom_field2 ... | custom_field1， custom_field2 ... | 您要傳送至應用程式的任何自訂資料。 |
-| 多媒體內容URL （影像、gif、音訊和視訊檔案）<br>(僅適用於iOS 10或更新版本) | media-attachment-url | 不適用 | 要將豐富內容新增到通知的媒體檔案URL。 <br>在提供此URL的值時，可變內容標幟會自動傳送至裝載。 <br> (僅適用於iOS 10或更新版本) |
-| 可變內容 <br> (僅適用於iOS 10或更新版本) | mutable-content | 不適用 | 應用程式中的Notification Service擴充功能會使用可變內容金鑰「攔截」所有遠端通知，並允許您處理/操控請求裝載的內容，然後可以使用這些內容來自訂通知。 此功能的使用案例包括下載和顯示多個媒體、解密推播裝載中存在的任何加密資料。 如需詳細資訊，請參閱 [修改遠端通知的裝載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(僅適用於iOS 10或更新版本) |
-| 可用內容 | content-available | 不適用 | 選取此選項可讓iOS應用程式在處於背景/暫停狀態時喚醒。 喚醒表示應用程式會在背景執行，而負責接收推播通知資料裝載的適當事件處理常式會取得控制，且可以使用資料執行任何計算，包括但不限於建立自訂推播通知及顯示相同內容。 如需詳細資訊，請參閱 [使用通知傳遞喚醒應用程式](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| 多媒體內容URL （影像檔案）<br>（僅適用於Android） | 不適用 | media-attachment-url | 影像檔案的URL，用於將豐富內容新增至通知。 |
-| 不適用 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的應用程式想要呼叫追蹤回傳，以追蹤何時點選/開啟推播通知，則需要這些屬性。 此資訊由應用程式伺服器內部計算並傳送，使用者無需另行干預。<br>有關回傳的資訊可在以下網址找到： [頁面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| 消息标题 <br>消息正文 | 警报→标题 <br> 警报→正文 | 标题 <br>正文 | 此数据包含警报消息的详细信息。<br>标题和正文键提供警报的内容。 |
+| 播放提示音 | 声音 | 声音 | 用于播放警报的自定义声音。 |
+| 徽章的值 | 徽章 | 徽章 | 用于标记应用程序图标的整数值。 |
+| 添加深层链接 | uri | 无 | 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。 |
+| 类别 | 类别 | 类别 | 显示带有远程通知的自定义操作。 <br>类别键可帮助系统将此类别的操作显示为警报界面中的按钮。 |
+| 自定义字段 | custom_field1， custom_field2 ... | custom_field1， custom_field2 ... | 您希望发送到应用程序的任何自定义数据。 |
+| 富媒体内容URL（图像、GIF、音频和视频文件）<br>(仅适用于iOS 10或更高版本) | media-attachment-url | 无 | 用于将丰富内容添加到通知的媒体文件的URL。 <br>在为此URL提供值后，可变内容标志将自动发送到有效负载中。 <br> (仅适用于iOS 10或更高版本) |
+| 可变内容 <br> (仅适用于iOS 10或更高版本) | 可变内容 | 无 | 应用程序中的Notification Service扩展将使用可变内容键“截取”所有远程通知，并将允许您处理/处理请求有效负载的内容，然后可以使用这些内容来自定义通知。 此功能的用例包括下载和显示多个媒体，解密推送有效负载中存在的任何加密数据。 欲知更多信息，请访问 [修改远程通知的有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(仅适用于iOS 10或更高版本) |
+| 可用内容 | content-available | 无 | 选择此选项可允许在iOS应用程序处于后台/暂停状态时将其唤醒。 唤醒意味着应用程序在后台运行，负责接收推送通知数据有效负载的相应事件处理程序将获得一个控件，并且可以使用数据执行任何计算，包括但不限于构建自定义推送通知并显示该通知。 欲知更多信息，请访问 [使用通知投放唤醒应用程序](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| 富媒体内容URL（图像文件）<br>（仅适用于Android） | 无 | media-attachment-url | 用于向通知添加丰富内容的图像文件的URL。 |
+| 无 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪何时单击/打开推送通知，则需要这些属性。 此信息由应用服务器在内部计算和发送，无需用户干预。<br>有关回发的信息，请参阅此处 [页面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
-### 如何在行動應用程式程式碼中擷取裝載資訊 {#payload-information}
+### 如何在移动应用程序代码中检索有效负载信息 {#payload-information}
 
-行動應用程式程式碼會在事件處理常式中接收應用程式伺服器傳送的裝載資訊，表示已收到推播通知。 此事件會因使用的行動平台而異，也會因應用程式是在前景或背景執行而異。 以下檔案可協助您根據使用案例來識別您要處理的事件處理常式。
+应用程序服务器发送的有效负载信息由移动设备应用程序代码在事件处理程序中接收，该事件处理程序指示已收到推送通知。 此事件会因正在处理的移动平台以及应用程序是在前台还是后台运行而有所不同。 以下文档可帮助您根据用例识别要处理的事件处理程序。
 
-* iOS應用程式： **處理遠端通知** 中的區段 [遠端通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
-* Android應用程式： [在Android使用者端應用程式上接收訊息](https://firebase.google.com/docs/cloud-messaging/android/receive)
+* iOS应用程序： **处理远程通知** 中的部分 [远程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Android应用程序： [在Android客户端应用程序上接收消息](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**iOS行動應用程式範例**
+**iOS移动设备应用程序示例**
 
 ```
  - (void)application:(UIApplication *)application
@@ -254,7 +254,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo {
 }
 ```
 
-**Android行動FCM應用程式範例**
+**Android移动设备FCM应用程序示例**
 
 ```
 public void onMessageReceived(RemoteMessage message) {

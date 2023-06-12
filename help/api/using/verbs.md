@@ -1,6 +1,6 @@
 ---
-title: GET/POST/PATCH/DELETE動詞
-description: 深入瞭解Campaign Standard API中使用的動詞。
+title: GET/POST/PATCH/DELETE动词
+description: 进一步了解Campaign StandardAPI中使用的动词。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ---
 
-# GET/POST/PATCH/DELETE動詞 {#verbs}
+# GET/POST/PATCH/DELETE动词 {#verbs}
 
-對資源執行作業的可用動詞如下：
+对资源执行操作的可用动词包括：
 
-* `GET`：擷取一個元素或一組元素
-* `POST`：使用引數建立資源。
-* `PATCH`：使用引數更新資源。
-* `DELETE`：刪除資源。
+* `GET`：检索一个元素或元素集合
+* `POST`：使用参数创建资源。
+* `PATCH`：使用参数更新资源。
+* `DELETE`：删除资源。
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-* 設定檔集合上的範例GET請求。
+* 配置文件集合中的示例GET请求。
 
 
    ```
@@ -42,7 +42,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它會傳回設定檔陣列。
+   它会返回一个配置文件数组。
 
 
    ```
@@ -66,7 +66,7 @@ ht-degree: 0%
    }
    ```
 
-* 特定設定檔上的範例GET請求。
+* 有关特定配置文件的示例GET请求。
 
 
    ```
@@ -78,7 +78,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它會傳回要求的設定檔。
+   它会返回请求的配置文件。
 
 
    ```
@@ -92,7 +92,7 @@ ht-degree: 0%
    }
    ```
 
-* 建立設定檔的範例POST請求。
+* 创建配置文件的示例POST请求。
 
 
    ```
@@ -104,7 +104,7 @@ ht-degree: 0%
    -d '{"lastName":"Doe"}'
    ```
 
-   它會傳回包含預設欄位的設定檔。
+   它会返回包含默认字段的配置文件。
 
    ```
    {
@@ -116,7 +116,7 @@ ht-degree: 0%
    }
    ```
 
-* 更新設定檔的範例PATCH請求。
+* 更新用户档案的示例PATCH请求。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -127,7 +127,7 @@ ht-degree: 0%
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   它會傳回PKEY和URL以擷取更新的設定檔。
+   它会返回PKEY和URL以检索更新的配置文件。
 
    ```
    {
@@ -136,7 +136,7 @@ ht-degree: 0%
    }
    ```
 
-* 刪除設定檔的範例DELETE請求。
+* 删除配置文件的示例DELETE请求。
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -146,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   要求傳回200回應，確認設定檔已刪除。
+   该请求会返回200响应，确认该用户档案已被删除。

@@ -1,6 +1,6 @@
 ---
 title: 两个已优化受众的联合
-description: 此使用案例顯示兩個讀取對象活動的聯合。
+description: 此用例展示了两个读取受众活动的并集。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 第一個 [讀取對象](../../automating/using/read-audience.md) 活動，只要選取介於18至30歲的設定檔，即可擷取和改良金級會員對象。
+* 第一个 [读取受众](../../automating/using/read-audience.md) 此活动可检索金牌会员受众，并通过仅选择18到30岁之间的用户档案对其进行优化。
 * 其次是 **[!UICONTROL Read audience]** 活动，用于检索银牌会员受众，并通过仅选择 18 到 30 岁之间的用户档案对其进行优化。
-* A [聯集](../../automating/using/union.md) 活動可從兩者聯合母體 **[!UICONTROL Read audiences]** 活動會整合為單一最終母體。
-* 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動會將電子郵件傳送至來自的母體 **[!UICONTROL Union]** 活動。
+* A [并集](../../automating/using/union.md) 将来自两者的群体联合在一起的活动 **[!UICONTROL Read audiences]** 将活动归入一个最终群体。
+* An [电子邮件投放](../../automating/using/email-delivery.md) 活动向来自的群体发送电子邮件 **[!UICONTROL Union]** 活动。

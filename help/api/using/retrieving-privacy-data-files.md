@@ -1,6 +1,6 @@
 ---
 title: 检索隐私数据文件
-description: 瞭解如何使用API擷取隱私資料檔案
+description: 了解如何使用API检索隐私数据文件
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,21 +19,21 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->此 [隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 整合是您應用於所有存取和刪除請求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>此 [隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service) “集成”是您应当用于所有访问和删除请求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-若要擷取包含與調解值相關之所有資訊的檔案，請遵循以下三個步驟程式：
+要检索包含与协调值相关的所有信息的文件，请按照以下三个步骤进行操作：
 
-1. 執行 **POST** 使用屬性建立新請求的要求 **type=&quot;access&quot;**，請參閱 [建立新的隱私權請求](../../api/using/creating-a-privacy-request.md).
+1. 执行 **POST** 使用属性创建新请求的请求 **type=&quot;access&quot;**，请参见 [创建新的隐私请求](../../api/using/creating-a-privacy-request.md).
 
-1. 執行 **GET** 請求以擷取有關請求的資訊。
+1. 执行 **GET** 请求以检索有关该请求的信息。
 
-1. 透過執行 **POST** 對傳回的要求 **privacyRequestData** URL，在承載內具有隱私權請求內部名稱。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
+1. 通过执行 **POST** 对返回的请求 **privacyRequestData** URL，有效负载中带有隐私请求内部名称。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-使用type=&quot;access&quot;屬性建立隱私權請求。
+创建具有type=&quot;access&quot;属性的隐私请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -54,7 +54,7 @@ ht-degree: 4%
 
 <!-- + réponse -->
 
-執行GET要求以擷取有關要求的資訊。
+执行GET请求以检索有关该请求的信息。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -64,7 +64,7 @@ ht-degree: 4%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-它會傳回具有關聯URL的privacyRequestData屬性。
+它会返回具有关联URL的privacyRequestData属性。
 
 ```
 {
@@ -85,7 +85,7 @@ ht-degree: 4%
 },
 ```
 
-在privacyRequestData URL上執行POST請求，並在裝載內使用請求內部名稱。
+对privacyRequestData URL执行POST请求，请求内部名称位于有效负载中。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \
@@ -96,7 +96,7 @@ ht-degree: 4%
 -d '{"name": "PR1"}'
 ```
 
-它會傳回檔案內容。
+它会返回文件内容。
 
 ```
 "{data:<gdprRequestData _cs=\" ()\" id=\"8565163\" reconciliationValue=\"'customer@adobe.com'\">\n  <table name=\"nms:recipient\">\n    <rowId='8569152'\n\t\tlastName='customer'\n\t\tfirstName='customer'\n\t\tgender='1'\n\t\temail='customer@adobe.com'\n\t\tcreatedBy-id='8565162'\n\t\tmodifiedBy-id='8565162'\n\t\tlastModified='2018-03-15 13:54:28.708Z'\n\t\tcreated='2018-03-15 13:54:28.708Z'\n\t\tthumbnail='/nl/img/thumbnails/defaultProfil.png'\n\t\temailFormat='2'</row>\n  </table>\n  <table name=\"nms:broadLogRcp\">\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\tid='8003'\n\t\taddress='customer@adobe.com'\n\t\tstatus='1'\n\t\tmsg-id='1194'\n\t\teventDate='2018-03-15 13:58:34.726Z'\n\t\tlastModified='2018-03-15 13:59:02.008Z'\n\t\tvariant='default'\n\t\tdelivery-id='8569153'\n\t\tpublicId='1'\n\t\tprofile-id='8569152'</row>\n  </table>\n  <table name=\"nms:trackingLogRcp\">\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\turlLabel='Open'\n\t\turlSource=''\n\t\tuserAgent='-1178080215'\n\t\ttrackedDevice='pc'\n\t\tid='5000'\n\t\tlogDate='2018-03-15 14:00:51.650Z'\n\t\tsourceType='html'\n\t\tuserAgent='-1178080215'\n\t\turl-id='1'\n\t\tdelivery-id='8569153'\n\t\tbroadLog-id='8003'\n\t\trecipient-id='8569152'</row>\n    <row>deliveryLabel='Send via email'\n\t\tdeliveryType='0'\n\t\tcontactDate='2018-03-15 13:58:31.667Z'\n\t\turlLabel='Open'\n\t\turlSource=''\n\t\tuserAgent='0'\n\t\ttrackedDevice=''\n\t\tid='6000'\n\t\tlogDate='2018-03-15 16:00:41.110Z'\n\t\tsourceType='html'\n\t\turl-id='1'\n\t\tdelivery-id='8569153'\n\t\tbroadLog-id='8003'\n\t\trecipient-id='8569152'</row>\n  </table>\n</gdprRequestData>}"

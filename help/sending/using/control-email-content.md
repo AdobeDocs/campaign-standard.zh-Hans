@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign Standard中控制電子郵件內容
-description: 瞭解如何在編輯電子郵件內容時改善Adobe Campaign Standard中的傳遞能力。
+title: 控制Adobe Campaign Standard中的电子邮件内容
+description: 了解如何在编辑电子邮件内容时改进Adobe Campaign Standard中的可投放性。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -20,64 +20,64 @@ ht-degree: 8%
 
 <!--TO KEEP because specific to Campaign-->
 
-為了確保您的電子郵件可送達收件者並提高您的電子郵件傳遞率，他們必須遵守許多規則。 否則，某些訊息的內容可能會被偵測為垃圾訊息。 Adobe Campaign提供數種工具，可讓您的內容符合這些規則。
+为了确保您的电子邮件能够送达收件人并提高电子邮件投放率，他们必须遵守许多规则。 否则，某些邮件的内容可能会被检测为垃圾邮件。 Adobe Campaign提供了多种工具，以使您的内容符合这些规则。
 
-設計訊息內容時，請遵循下列原則：
+设计消息内容时，请遵循下列原则：
 
-* [寄件者名稱和地址](#sender-name)：地址必須明確識別寄件者。 網域必須由寄件者擁有並註冊。 網域登入不得為私用。
+* [发件人姓名和地址](#sender-name)：地址必须明确标识发件人。 域必须由发件人拥有并向其注册。 域注册表不能私有化。
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [個人化和傳送時間最佳化](#perso-send-time-optimization)：個人化內容及定義每位收件者的傳送時間會增加您開啟訊息的機會。
-* 影像和文字：遵循像面文字/影像比例（例如60%文字和40%影像）。
-* [取消訂閱連結](#opt-out) 和登陸頁面：取消訂閱連結至為必要。 它必須是可見且有效的，而且表單必須是功能性的。
-* 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容([反垃圾郵件分析](#anti-spam-analysis)， [電子郵件呈現](#message-responsiveness))。
+* [个性化和发送时间优化](#perso-send-time-optimization)：个性化内容并定义每个收件人的发送时间会增加打开邮件的可能性。
+* 图像和文本：遵循像面文本/图像比率（例如60%文本和40%图像）。
+* [退订链接](#opt-out) 和登陆页面：退订链接至关重要。 它必须可见且有效，并且表单必须有效。
+* 预览：使用Adobe Campaign提供的工具检查和优化电子邮件的内容([反垃圾邮件分析](#anti-spam-analysis)， [电子邮件渲染](#message-responsiveness))。
 
-如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+有关设计内容时优化可投放性的其他提示，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->如需編輯電子郵件內容的詳細資訊，請參閱 [電子郵件設計工具概觀](../../designing/using/designing-content-in-adobe-campaign.md) 和 [訊息設計最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>有关编辑电子邮件内容的更多信息，请参阅 [Email Designer概述](../../designing/using/designing-content-in-adobe-campaign.md) 和 [报文设计最佳实践](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
-## 寄件者名稱和地址 {#sender-name}
+## 发件人姓名和地址 {#sender-name}
 
-某些ISP會檢查寄件者地址的有效性(**[!UICONTROL From]**)，然後再接受訊息。 格式錯誤的地址可能導致接收伺服器拒絕該地址。
+某些ISP会检查发件人地址的有效性(**[!UICONTROL From]**)。 格式错误的地址可能导致接收服务器拒绝该地址。
 
 ![](assets/delivery_content_edition16.png)
 
-您必須確定在執行個體層級或在最常用的案例中指定了正確的地址。 若要這麼做，請聯絡您的管理員。
+您必须确保在实例级别或在最常用的场景下提供了正确的地址。 为此，请联系您的管理员。
 
-如需詳細資訊，請參閱 [定義電子郵件的電子郵件寄件者](../../designing/using/subject-line.md#email-sender).
+有关此内容的更多信息，请参阅 [定义电子邮件的电子邮件发件人](../../designing/using/subject-line.md#email-sender).
 
-## 個人化和傳送時間最佳化 {#perso-send-time-optimization}
+## 个性化和发送时间优化 {#perso-send-time-optimization}
 
-為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。 有关更多信息，请参阅[此章节](../../designing/using/personalization.md)。
+为了改善收件人的体验并使他们打开您的电子邮件，您可以使用Adobe Campaign对消息进行个性化设置。 有关更多信息，请参阅[此章节](../../designing/using/personalization.md)。
 
-若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 只要有可能，每个用户档案都将在指定的日期和时间收到消息。如需詳細資訊，請參閱 [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md).
+为了提高消息的打开率，您还可以手动定义每个收件人的发送时间。 只要有可能，每个用户档案都将在指定的日期和时间收到消息。有关此内容的更多信息，请参阅 [优化发送时间](../../sending/using/optimizing-the-sending-time.md).
 
-## 選擇退出連結和表單 {#opt-out}
+## 选择退出链接和表单 {#opt-out}
 
-依預設，分析訊息時，型別規則會檢查是否包含選擇退出連結，如果缺少則產生警告。 如需管理連結的詳細資訊，請參閱 [本節](../../designing/using/links.md).
+默认情况下，分析消息时，分类规则会检查是否包含选择退出链接，如果缺少该链接，则会生成警告。 有关管理链接的更多信息，请参阅 [本节](../../designing/using/links.md).
 
-每次傳送前，您必須先檢查選擇退出連結是否正常運作。 例如，當 [傳送證明](../../sending/using/sending-proofs.md)，確認連結有效、表單線上上，且驗證這會檢查 **[!UICONTROL No longer contact]** 方塊。 您應該系統地進行這項檢查，因為輸入連結或變更表單時總是可能發生人為錯誤。 如需管理選擇加入和選擇退出的詳細資訊，請參閱 [本節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+在每次发送之前，您必须检查选择退出链接是否正常工作。 例如，当 [发送校样](../../sending/using/sending-proofs.md)，确保链接有效，表单处于联机状态，且验证此项时检查 **[!UICONTROL No longer contact]** 盒子。 您应该系统地进行此检查，因为输入链接或更改表单时总是可能有人为错误。 有关管理选择加入和选择退出的更多信息，请参阅 [本节](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
-如果在開始傳遞後偵測到有關取消訂閱的問題，仍可以手動執行取消訂閱（例如使用大量更新功能），適用於按一下選擇退出連結的收件者，即使他們無法確認自己的選擇。
+如果在开始投放后检测到有关退订的问题，则仍然可以为单击选择退出链接的收件人手动执行退订（例如，使用批量更新功能），即使他们无法确认自己的选择。
 
-一般而言，您不應透過要求收件者填寫電子郵件地址或名稱等欄位，來妨礙想要選擇退出的收件者。 取消訂閱登入頁面應該只有一個驗證按鈕。
+通常，您不应通过要求希望选择退出的收件人（例如，填写其电子邮件地址或姓名等字段）来试图妨碍他们。 退订登陆页面应仅具有一个验证按钮。
 
-要求額外確認並不可靠：使用者可能有兩個電子郵件地址被重新導向至相同的方塊(例如：firstname.lastname@club.com和firstname.lastname@internet-club.com)。 如果設定檔只能記住第一個地址，並希望透過傳送給另一個的訊息取消訂閱，則表單將拒絕此操作，因為加密的識別碼和輸入的電子郵件地址不匹配。
+请求附加确认不可靠：用户可能有两个电子邮件地址被重定向到同一个框(例如：firstname.lastname@club.com和firstname.lastname@internet-club.com)。 如果配置文件只能记住第一个地址，并希望通过发送给另一个配置文件的消息取消订阅，则表单将拒绝此操作，因为加密的标识符和输入的电子邮件地址不匹配。
 
 ## 反垃圾邮件分析 {#anti-spam-analysis}
 
-Adobe Campaign的訊息編輯器整合了 **反垃圾郵件分析** 可讓您對電子郵件進行評分，以判斷郵件在接收時是否會被反垃圾郵件工具視為垃圾郵件。 如需詳細資訊，請參閱 [預覽訊息](../../sending/using/previewing-messages.md).
+Adobe Campaign的消息编辑器集成了 **反垃圾邮件分析** 它允许您对电子邮件进行评分，以确定邮件在接收时是否会被反垃圾邮件工具视为垃圾邮件。 有关此内容的更多信息，请参阅 [预览消息](../../sending/using/previewing-messages.md).
 
-在訊息內容編輯器中，按一下 **[!UICONTROL Preview]**. 如果反垃圾郵件檢查偵測到此郵件有高風險，則會出現郵件警告您。 按一下 **[!UICONTROL Anti-spam analysis]** 以檢視詳細資訊。
+在消息内容编辑器中，单击 **[!UICONTROL Preview]**. 如果反垃圾邮件检查检测到此邮件有高风险，则会显示一条邮件警告您。 单击 **[!UICONTROL Anti-spam analysis]** 以查看详细信息。
 
 ![](assets/sending_anti-spam_analysis.png)
 
 ## 电子邮件渲染 {#message-responsiveness}
 
-在傳送訊息之前，您可以檢查訊息在不同裝置上的外觀，以測試訊息回應能力。 這是為了確保以最佳方式顯示在各種Web使用者端、網頁郵件和裝置上。
+在发送消息之前，您可以通过检查消息在不同设备上的外观来测试消息的响应能力。 这是为了确保以最佳方式在各种Web客户端、Web邮件和设备上显示该内容。
 
 ![](assets/inbox_rendering_report_3.png)
 

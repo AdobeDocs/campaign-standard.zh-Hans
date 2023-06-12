@@ -34,7 +34,7 @@ ht-degree: 98%
 
 **相关主题：**
 
-* [使用案例：聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
+* [用例：两个优化受众的并集](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 配置 {#configuration}
 

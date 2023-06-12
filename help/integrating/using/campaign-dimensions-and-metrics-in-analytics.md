@@ -1,6 +1,6 @@
 ---
 title: Analytics 中的 Campaign 维度和指标
-description: 瞭解您可以在Adobe Analytics中找到的不同維度，以開始從Adobe Campaign追蹤您的電子郵件傳送。
+description: 了解您可以在Adobe Analytics中找到的各种维度，以便开始从Adobe Campaign跟踪电子邮件投放。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Analytics 中的 Campaign 维度和指标{#campaign-dimensions-and-metrics-in-analytics}
 
-Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
+通过Adobe Campaign和Adobe Analytics集成，您可以直接在Adobe Analytics中跟踪电子邮件投放的成功情况。
 
-Campaign **[!UICONTROL dimensions]** 可在Analytics中找到以下專案：
+Campaign **[!UICONTROL dimensions]** 可在Analytics中找到的，如下所示：
 
 <table> 
  <thead> 
@@ -31,32 +31,32 @@ Campaign **[!UICONTROL dimensions]** 可在Analytics中找到以下專案：
  <tbody> 
   <tr> 
    <td> 营销活动 ID<br /> </td> 
-   <td> 在Campaign中看到的行銷活動的內部名稱<br /> </td> 
+   <td> Campaign中看到的营销活动的内部名称<br /> </td> 
   </tr> 
   <tr> 
-   <td> 行銷活動標籤<br /> </td> 
-   <td> 在Campaign中看到的行銷活動標籤<br /> </td> 
+   <td> 营销活动标签<br /> </td> 
+   <td> 在Campaign中看到的营销活动标签<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放 ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「傳遞ID」維度接著會顯示每個傳遞的結果，即DM1到DM4。 <br /> </td> 
+   <td> 投放的内部名称，如Campaign中所示。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4会在最初三周发送。 “投放ID”维度随后将显示每次投放的结果，即DM1到DM4。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 投放标签<br /> </td> 
-   <td> 在Campaign中看到的傳遞標籤<br /> </td> 
+   <td> 在Campaign中看到的投放标签<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已執行的傳遞ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。 這僅涉及Campaign中的傳送執行。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「已執行的傳送ID」維度接著會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。 <br /> </td> 
+   <td> 已执行的投放ID<br /> </td> 
+   <td> 投放的内部名称，如Campaign中所示。 这仅涉及在Campaign中执行的投放。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4会在最初三周发送。 “已执行的投放ID”维度随后将显示已执行投放的结果，即子投放DM2、DM3和DM4。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 已執行的傳遞標籤<br /> </td> 
-   <td> 在Campaign中看到的傳遞標籤。 這僅涉及Campaign中的傳送執行。<br /> </td> 
+   <td> 已执行的投放标签<br /> </td> 
+   <td> 在Campaign中看到的投放标签。 这仅涉及在Campaign中执行的投放。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
+Campaign **[!UICONTROL metrics]** 可在Analytics中找到的，如下所示：
 
 <table> 
  <thead> 
@@ -68,35 +68,35 @@ Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
  <tbody> 
   <tr> 
    <td> 已点击<br /> </td> 
-   <td> 內容在傳遞中的點按次數。<br /> </td> 
+   <td> 在投放中点击内容的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已送达<br /> </td> 
-   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br /> </td> 
+   <td> 成功发送的消息数，与已发送消息的总数相关。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已打开<br /> </td> 
-   <td> 訊息在傳遞中開啟的次數。<br /> </td> 
+   <td> 在投放中打开消息的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已发送<br /> </td> 
-   <td> 傳遞的傳送總數。<br /> </td> 
+   <td> 投放的发送总数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 總跳出數<br /> </td> 
-   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br /> </td> 
+   <td> 退回总计<br /> </td> 
+   <td> 投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複開啟<br /> </td> 
-   <td> 開啟傳遞的收件者人數。<br /> </td> 
+   <td> 独特打开<br /> </td> 
+   <td> 打开投放的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按<br /> </td> 
-   <td> 點按傳遞中內容的收件者人數。<br /> </td> 
+   <td> 独特点击<br /> </td> 
+   <td> 点击投放中内容的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已取消訂閱<br /> </td> 
-   <td> 對取消訂閱連結的點按次數。<br /> </td> 
+   <td> 已取消订阅<br /> </td> 
+   <td> 退订链接的点击次数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

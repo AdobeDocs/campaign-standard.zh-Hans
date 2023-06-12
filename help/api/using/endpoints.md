@@ -1,6 +1,6 @@
 ---
 title: 端点
-description: 深入瞭解API端點。
+description: 了解有关API端点的更多信息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,20 +17,20 @@ ht-degree: 10%
 
 # 端点 {#endpoints}
 
-Adobe Campaign REST API的可用端點：
+Adobe Campaign REST API的可用端点：
 
-* **/profileAndServices**：與現成可用的欄位互動。 無法透過此端點存取延伸欄位。
-* **/profileAndServicesExt**：與設定檔或服務自訂資源擴充功能期間新增的自訂欄位互動。 如需自訂資源的詳細資訊，請參閱 [本節](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**：與交易式訊息API互動（交易式訊息API端點的名稱取決於您的執行個體設定）。 如需详细信息，请参阅[此部分](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**：與工作流程互動。 如需详细信息，请参阅[此部分](../../api/using/controlling-a-workflow.md)。
-* **/privacy/privacyTool**：與隱私權API互動，以允許自動處理隱私權請求。 如需详细信息，请参阅[此部分](../../api/using/creating-a-privacy-request.md)。
-* **/history**：擷取設定檔的行銷記錄。 如需Campaign中整合式客戶設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/profileAndServices**：与开箱即用的字段交互。 扩展字段无法使用此端点访问。
+* **/profileAndServicesExt**：与Profile或Services自定义资源扩展期间添加的自定义字段交互。 有关自定义资源的更多信息，请参阅 [本节](../../api/using/custom-resources.md).
+* **/&lt;transactionalapi>**：与事务型消息API交互（事务型消息API端点的名称取决于您的实例配置）。 如需详细信息，请参阅[此部分](../../api/using/managing-transactional-messages.md)。
+* **/workflow/execution**：与工作流交互。 如需详细信息，请参阅[此部分](../../api/using/controlling-a-workflow.md)。
+* **/privacy/privacyTool**：与隐私API交互，以允许自动处理隐私请求。 如需详细信息，请参阅[此部分](../../api/using/creating-a-privacy-request.md)。
+* **/history**：检索用户档案的营销历史记录。 有关Campaign中集成客户用户档案的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
-依預設，主要資源可用於 **profileAndService** 和 **profileAndServicesExt** API包括：
+默认情况下，主要资源可用于 **配置文件与服务** 和 **profileAndServiceExt** API包括：
 
-* **/profile**：與來自Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用 **/service** 端點。 如需Campaign中設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**：与Campaign数据库中的用户档案进行交互。 要将配置文件添加到服务，请使用 **/service** 端点。 有关Campaign中用户档案的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
+* **/service**：管理订阅服务。 有关Campaign中服务的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
->所有其他已擴充或建立的資源可透過 **設定檔與服務分機** 僅限API。 它們必須連結至 **設定檔** 資源，以便存取。
+>所有其他已扩展或创建的资源均可通过以下网站获得： **配置文件和服务分机** 仅限API。 它们必须链接到 **个人资料** 资源，以便访问。

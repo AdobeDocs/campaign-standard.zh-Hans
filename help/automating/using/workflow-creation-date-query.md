@@ -1,6 +1,6 @@
 ---
-title: 在設定檔建立日期建立傳送
-description: 此使用案例顯示如何在設定檔建立日期建立傳送。
+title: 在用户档案的创建日期创建投放
+description: 此用例显示如何在用户档案的创建日期创建投放。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,7 +18,7 @@ ht-degree: 38%
 
 # 在用户档案的创建日期创建投放 {#creation-date-query}
 
-您可以在客戶建立設定檔的週年紀念日透過電子郵件傳送優惠方案。
+您可以在客户创建用户档案的周年纪念日通过电子邮件发送选件。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
 1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
@@ -26,38 +26,38 @@ ht-degree: 38%
 
 ## 创建调度程序活动 {#creating-a-scheduler-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [排程器](../../automating/using/scheduler.md) 活動。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [调度程序](../../automating/using/scheduler.md) 活动。
 1. 双击该活动。
 1. 配置投放的执行方式。
 1. 在 **[!UICONTROL Execution frequency]** 中，选择 **[!UICONTROL Daily]**。
-1. 選取 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流程的執行階段。
-1. 選取 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 用於工作流程。
+1. 选择 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流的执行阶段。
+1. 选择 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** （对于您的工作流）。
 1. 确认您的活动并保存工作流。
 
 >[!NOTE]
 >
->若要在特定時區啟動工作流程，請在 **[!UICONTROL Execution options]** 索引標籤中，為排程器設定時區 **[!UICONTROL Time zone]** 欄位。 默认情况下，所选时区就是在工作流属性中定义的时区（请参阅[构建工作流](../../automating/using/building-a-workflow.md)）。
+>要在特定时区启动工作流，请在 **[!UICONTROL Execution options]** 选项卡，在中为调度程序设置时区 **[!UICONTROL Time zone]** 字段。 默认情况下，所选时区就是在工作流属性中定义的时区（请参阅[构建工作流](../../automating/using/building-a-workflow.md)）。
 
 ![](assets/time_zone.png)
 
 ## 创建查询活动 {#creating-a-query-activity}
 
-1. 若要選取收件者，請拖放 [查詢](../../automating/using/query.md) 活動並連按兩下。
-1. 新增 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL no longer contact by email]** 包含值 **[!UICONTROL no]**.
+1. 要选择收件人，请拖放 [查询](../../automating/using/query.md) 活动并双击该活动。
+1. 添加 **[!UICONTROL Profiles]** 并选择 **[!UICONTROL no longer contact by email]** 具有值 **[!UICONTROL no]**.
 
-### 擷取在執行當天的同一天建立的設定檔 {#retrieving-profiles-created-on-the-same-day}
+### 检索在执行日期同一天创建的用户档案 {#retrieving-profiles-created-on-the-same-day}
 
-1. 在 **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 欄位。 並按一下 **[!UICONTROL Advanced Mode]**.
+1. In **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 字段。 并单击 **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
-1. 在 **[!UICONTROL list of functions]**，按兩下 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 節點。
-1. 然後，插入欄位 **[!UICONTROL Created]** 作為引數。
-1. 選取 **[!UICONTROL equals to (=)]** 作為運運算元。
-1. 對於值，選取 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 中的節點 **[!UICONTROL List of functions]**.
-1. 插入 **[!UICONTROL GetDate()]** 函式為引數。
+1. 在 **[!UICONTROL list of functions]**，双击 **[!UICONTROL Day]** 从 **[!UICONTROL Date]** 节点。
+1. 然后，插入字段 **[!UICONTROL Created]** 作为论据。
+1. 选择 **[!UICONTROL equals to (=)]** 作为运算符。
+1. 对于值，选择 **[!UICONTROL Day]** 从 **[!UICONTROL Date]** 中的节点 **[!UICONTROL List of functions]**.
+1. 插入 **[!UICONTROL GetDate()]** 函数作为参数。
 
-您已擷取建立日期等於當天的設定檔。
+您检索了创建日期等于当天的用户档案。
 
-您最後應該會得到：
+您最终应会得到：
 
 ```Day(@created) = Day(GetDate())```
 
@@ -65,20 +65,20 @@ ht-degree: 38%
 
 单击 **[!UICONTROL Confirm]**。
 
-### 擷取在執行月份的同一個月建立的設定檔{#retrieving-profiles-created-on-the-same-month}
+### 检索在执行月份同一月创建的用户档案{#retrieving-profiles-created-on-the-same-month}
 
-1. 於 **[!UICONTROL Query]** 編輯器中，選取第一個查詢並複製它。
-1. 開啟副本。
-1. Replace **[!UICONTROL Day]** 作者： **[!UICONTROL Month]** 在查詢中。
+1. 在 **[!UICONTROL Query]** 编辑器中，选择第一个查询并复制它。
+1. 打开副本。
+1. Replace **[!UICONTROL Day]** 作者： **[!UICONTROL Month]** 在查询中。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)
 
-您最後應該會遇到以下問題：
+您最终应会得到以下结果：
 
 ``` Month(@created) = Month(GetDate()) ```
 
-最終查詢隨即顯示：
+将显示最终查询：
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -86,7 +86,7 @@ ht-degree: 38%
 
 ## 创建电子邮件投放{#creating-an-email-delivery}
 
-1. 拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。
+1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Recurring email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。

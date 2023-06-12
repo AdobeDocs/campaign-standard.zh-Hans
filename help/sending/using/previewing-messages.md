@@ -1,6 +1,6 @@
 ---
 title: 预览消息
-description: 瞭解如何在內容編輯器或電子郵件設計工具中預覽訊息。
+description: 了解如何在内容编辑器或Email Designer中预览消息。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -17,31 +17,31 @@ ht-degree: 15%
 
 # 预览投放 {#previewing-messages}
 
-## 預覽電子郵件 {#previewing-emails}
+## 预览电子邮件 {#previewing-emails}
 
-Campaign Standard可讓您在傳送訊息之前預覽訊息，以檢查其個人化及收件者將如何看到訊息。
+Campaign Standard允许您在发送之前预览消息，以检查消息的个性化以及收件人将如何查看消息。
 
-使用執行訊息預覽 **測試設定檔** 新增至訊息目標的專案。
+使用以下方式执行消息预览 **测试用户档案** 添加到消息的目标中。
 
-對象 **電子郵件** 訊息，Campaign Standard可讓您使用目標設定檔預覽訊息，而非測試設定檔。 這可讓您取得特定設定檔將收到的訊息的精確表示。 有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
+对象 **电子邮件** 消息，Campaign Standard允许您使用定向的用户档案预览消息，而不是测试用户档案。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
-若要使用測試設定檔預覽訊息，請遵循下列步驟：
+要使用测试用户档案预览消息，请执行以下步骤：
 
-1. 在 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，按一下 **[!UICONTROL Preview]** 按鈕。
+1. 在 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)，单击 **[!UICONTROL Preview]** 按钮。
 
    ![](assets/sending_preview.png)
 
-   同時顯示您電子郵件的案頭檢視和回應式行動檢視。
+   并排显示电子邮件的桌面视图和响应式移动设备视图。
 
-1. 每次預覽期間都會執行自動反垃圾郵件檢查。 按一下 **[!UICONTROL Anti-spam analysis]** 按鈕以進一步瞭解警告。
+1. 在每次预览期间执行自动反垃圾邮件检查。 单击 **[!UICONTROL Anti-spam analysis]** 按钮以了解有关警告的更多信息。
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. 選取 **[!UICONTROL Change profile]** 按鈕，以選擇要在其上測試個人化元素的測試設定檔。
+1. 选择 **[!UICONTROL Change profile]** 按钮来选择要在其中测试个性化元素的测试用户档案。
 
    ![](assets/sending_test-profile.png)
 
-1. 若要結束 **[!UICONTROL Preview]** 模式，按一下 **[!UICONTROL Edit]** 按鈕。
+1. 退出 **[!UICONTROL Preview]** 模式，单击 **[!UICONTROL Edit]** 按钮进行修改。
 
    ![](assets/sending_preview_edit.png)
 
@@ -51,31 +51,31 @@ Campaign Standard可讓您在傳送訊息之前預覽訊息，以檢查其個人
 * [使用目标用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)
 * [发送校样](../../sending/using/sending-proofs.md)
 
-## 預覽SMS訊息 {#previewing-sms}
+## 预览短信消息 {#previewing-sms}
 
-對象 **簡訊** 訊息，Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您取得特定設定檔將收到的訊息的精確表示。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对象 **短信** 消息，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
-若要使用測試設定檔預覽SMS訊息，請遵循下列步驟：
+要使用测试用户档案预览短信消息，请执行以下步骤：
 
-1. 填入 **[!UICONTROL Properties]** 和選取對象的SMS訊息，您可以個人化傳送。 如需詳細資訊，請參閱 [區段](../../channels/using/personalizing-sms-messages.md).
+1. 一旦您填写了 **[!UICONTROL Properties]** 短信消息和选定受众的完整版本，您可以个性化投放。 有关更多信息，请参阅 [部分](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. 個人化您的內容後，按一下 **[!UICONTROL Create]** 存取 **[!UICONTROL Summary]** 視窗。
+1. 对内容进行个性化后，单击 **[!UICONTROL Create]** 以访问 **[!UICONTROL Summary]** 窗口。
 
-1. 從 **[!UICONTROL Summary]** 視窗，按一下 **[!UICONTROL Content]** 以開始預覽您的傳遞。
+1. 从 **[!UICONTROL Summary]** 窗口，单击 **[!UICONTROL Content]** 以开始预览您的投放。
 
    ![](assets/sms_preview_2.png)
 
-1. 按一下 **[!UICONTROL Preview]** （在工具列中）。
+1. 单击 **[!UICONTROL Preview]** 工具栏中。
 
    ![](assets/sms_preview_3.png)
 
-1. 按一下 **[!UICONTROL Change profile]** 以選取您的測試設定檔，然後 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Change profile]** 选择测试用户档案，然后 **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
-您現在可以看到訊息的確切呈現方式，視選取的測試設定檔而定。
+您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
 
 **相关主题**
 
@@ -83,25 +83,25 @@ Campaign Standard可讓您在傳送訊息之前預覽訊息，以檢查其個人
 * [创建短信消息](../../channels/using/creating-an-sms-message.md)
 * [个性化短信消息](../../channels/using/personalizing-sms-messages.md)
 
-## 預覽推播通知 {#previewing-push}
+## 预览推送通知 {#previewing-push}
 
-對象 **推播通知**，Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您取得特定設定檔將收到的訊息的精確表示。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对象 **推送通知**，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
-若要使用測試設定檔預覽推播通知，請執行以下步驟：
+要使用测试用户档案预览推送通知，请执行以下步骤：
 
-1. 填入 **[!UICONTROL Properties]** 並選取您的對象時，您可以個人化您的傳送。 如需詳細資訊，請參閱 [自訂推播通知](../../channels/using/customizing-a-push-notification.md).
+1. 一旦您填写了 **[!UICONTROL Properties]** 和选定受众的推送通知，您可以个性化投放。 有关更多信息，请参阅 [自定义推送通知](../../channels/using/customizing-a-push-notification.md).
 
-1. 個人化您的內容後，您可以根據預覽視窗中的裝置和作業系統，直接檢查推播通知的呈現。
+1. 对内容进行个性化后，您可以根据预览窗口中的设备和操作系统，直接检查推送通知的呈现。
 
    ![](assets/push_preview.png)
 
-1. 若要使用測試設定檔預覽推播通知，請按一下 **[!UICONTROL Preview with test profile]**.
+1. 要使用测试用户档案预览推送通知，请单击 **[!UICONTROL Preview with test profile]**.
 
    ![](assets/push_preview_2.png)
 
-1. 選取您的測試設定檔，然後 **[!UICONTROL Confirm]**.
+1. 选择您的测试配置文件，然后 **[!UICONTROL Confirm]**.
 
-您現在可以看到訊息的確切呈現方式，視選取的測試設定檔而定。
+您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
 
 ![](assets/push_preview_3.png)
 
@@ -111,25 +111,25 @@ Campaign Standard可讓您在傳送訊息之前預覽訊息，以檢查其個人
 * [准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [自定义推送通知](../../channels/using/customizing-a-push-notification.md)
 
-## 預覽應用程式內訊息 {#previewing-in-app}
+## 预览应用程序内消息 {#previewing-in-app}
 
-對象 **應用程式內**，Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您取得特定設定檔將收到的訊息的精確表示。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对象 **应用程序内**，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
 
-若要使用測試設定檔預覽應用程式內訊息，請遵循下列步驟：
+要使用测试用户档案预览应用程序内消息，请执行以下步骤：
 
-1. 填入 **[!UICONTROL Properties]** 應用程式內訊息的預設值，選取您的對象並設定 **[!UICONTROL Triggers]**，您可個人化您的傳遞。 如需詳細資訊，請參閱 [自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md).
+1. 一旦您填写了 **[!UICONTROL Properties]** 已选择您的受众，并设置了您的 **[!UICONTROL Triggers]**，您可以对投放进行个性化。 有关更多信息，请参阅 [自定义应用程序内消息](../../channels/using/customizing-an-in-app-message.md).
 
-1. 個人化您的內容後，您可以根據預覽視窗中的裝置和作業系統，直接檢查應用程式內訊息的呈現。
+1. 对内容进行个性化后，您可以根据预览窗口中的设备和操作系统，直接检查应用程序内消息的呈现。
 
    ![](assets/in_app_preview.png)
 
-1. 若要使用測試設定檔預覽您的應用程式內訊息，請按一下 **[!UICONTROL Preview]**.
+1. 要使用测试用户档案预览应用程序内消息，请单击 **[!UICONTROL Preview]**.
 
    ![](assets/in_app_preview_2.png)
 
-1. 選取您的測試設定檔，然後 **[!UICONTROL Confirm]**.
+1. 选择您的测试配置文件，然后 **[!UICONTROL Confirm]**.
 
-您現在可以看到訊息的確切呈現方式，視選取的測試設定檔而定。
+您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
 
 ![](assets/in_app_preview_3.png)
 

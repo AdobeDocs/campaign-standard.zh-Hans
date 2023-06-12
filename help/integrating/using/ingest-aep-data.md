@@ -1,6 +1,6 @@
 ---
 title: 将 Adobe Experience Platform 受众引入 Campaign
-description: 瞭解如何將Adobe Experience Platform受眾擷取至Campaign Standard。
+description: 了解如何将Adobe Experience Platform受众纳入Campaign Standard。
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -15,35 +15,35 @@ ht-degree: 7%
 
 # 将 Adobe Experience Platform 受众引入 Campaign {#destinations}
 
-若要將Adobe Experience Platform受眾擷取至Campaign並在您的工作流程中使用，您首先需要連線Adobe Campaign as a Adobe Experience Platform **目的地** 並設定為要匯出的區段。
+要将Adobe Experience Platform受众纳入Campaign并在您的工作流中使用它们，您首先需要连接Adobe Campaign as a Adobe Experience Platform **目标** 并使用要导出的区段对其进行配置。
 
-設定目的地後，會將資料匯出至您的儲存位置，而且您將需要以Campaign Standard建置專用的工作流程來擷取資料。
+配置目标后，数据将导出到您的存储位置，您需要在Campaign Standard中构建一个专用工作流来摄取数据。
 
-## 將Adobe Campaign連線為目的地
+## 连接Adobe Campaign作为目标
 
-在Adobe Experience Platform中，選取匯出區段的儲存位置，以設定與Adobe Campaign的連線。 此步驟也可讓您選取要匯出的區段，並指定要包含的其他XDM欄位。
+在Adobe Experience Platform中，通过为导出的区段选择存储位置来配置与Adobe Campaign的连接。 此步骤还允许您选择要导出的区段并指定要包含的其他XDM字段。
 
-如需詳細資訊，請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+有关详情，请参阅 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
-設定目的地後，Adobe Experience Platform會在您提供的儲存位置中建立以Tab分隔的.txt或.csv檔案。 此作業會排程並每24小時執行一次。
+配置目标后，Adobe Experience Platform会在您提供的存储位置创建一个以制表符分隔的.txt或.csv文件。 每24小时安排并执行一次此操作。
 
-您現在可以設定Campaign Standard工作流程，將區段擷取至Campaign。
+您现在可以配置Campaign Standard工作流以将区段摄取到Campaign。
 
-## 在Campaign Standard中建立匯入工作流程
+## 在Campaign Standard中创建导入工作流
 
-將Campaign Standard設定為目的地後，您需要建立專屬的工作流程，以匯入Adobe Experience Platform已匯出的檔案。
+将Campaign Standard配置为目标后，您需要构建一个专用工作流来导入Adobe Experience Platform已导出的文件。
 
-為此，您需要新增並設定 **[!UICONTROL Transfer file]** 活動。 有關如何設定此活動的詳細資訊，請參閱 [本節](../../automating/using/transfer-file.md).
+为此，您需要添加并配置 **[!UICONTROL Transfer file]** 活动。 有关如何配置此活动的更多信息，请参阅 [本节](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 
-接著，您就可以視需要建置工作流程（使用區段資料更新資料庫、傳送跨管道傳遞至區段等）
+然后，您可以根据需要构建工作流（使用区段数据更新数据库，向区段发送跨渠道投放等）
 
-例如，以下工作流程會每天從您的儲存位置下載檔案，然後使用區段資料更新Campaign資料庫。
+例如，以下工作流每天从存储位置下载文件，然后使用区段数据更新Campaign数据库。
 
 ![](assets/rtcdp-workflow.png)
 
-資料管理工作流程的範例可參見： [工作流程使用案例](../../automating/using/about-workflow-use-cases.md#management) 區段。
+数据管理工作流的示例位于 [工作流用例](../../automating/using/about-workflow-use-cases.md#management) 部分。
 
 相关主题：
 

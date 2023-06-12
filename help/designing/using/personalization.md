@@ -1,6 +1,6 @@
 ---
 title: 个性化电子邮件内容
-description: 瞭解如何在電子郵件設計工具中個人化電子郵件。
+description: 了解如何在Email Designer中个性化电子邮件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,34 +17,34 @@ ht-degree: 5%
 
 # 个性化电子邮件内容 {#personalization}
 
-Adobe Campaign傳送的訊息內容和顯示可透過數種不同的方式個人化。 根據設定檔的條件，可結合這些方式。 一般而言，Adobe Campaign 允许您：
+Adobe Campaign投放的消息的内容和显示可以通过多种不同的方式进行个性化。 根据用户档案，可以根据标准组合这些方法。 一般而言，Adobe Campaign 允许您：
 
 * 插入动态的个性化字段。请参阅[插入个性化字段](#inserting-a-personalization-field)。
 * 插入预定义的个性化块。
 请参阅[添加内容块](#adding-a-content-block)。
-* 個人化電子郵件的寄件者。 另請參閱 [個人化寄件者](#personalizing-the-sender).
-* 個人化電子郵件的主旨。 另請參閱 [個人化電子郵件的主旨行](../../designing/using/subject-line.md#subject-line).
-* 创建条件性内容。另請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email).
+* 使电子邮件的发件人个性化。 参见 [个性化发件人](#personalizing-the-sender).
+* 使电子邮件的主题个性化。 参见 [个性化电子邮件的主题行](../../designing/using/subject-line.md#subject-line).
+* 创建条件性内容。参见 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email).
 
-## 個人化寄件者 {#personalizing-the-sender}
+## 个性化发件人 {#personalizing-the-sender}
 
-若要定義將顯示在已傳送訊息標題中的寄件者名稱，請前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的標籤（可透過首頁圖示存取）。 如需詳細資訊，請參閱 [定義電子郵件的寄件者](../../designing/using/subject-line.md#email-sender).
+要定义将出现在已发送邮件标题中的发件人名称，请转到 **[!UICONTROL Properties]** Email Designer主页选项卡（可通过主页图标访问）。 有关此内容的更多信息，请参阅 [定义电子邮件的发件人](../../designing/using/subject-line.md#email-sender).
 
-您可以按一下 **寄件者名稱** 區塊。 欄位隨後變為可編輯，您可以輸入要使用的名稱。
+您可以通过单击 **发件人姓名** 块。 该字段随后将变为可编辑，您可以输入要使用的名称。
 
-此欄位可個人化。 若要這麼做，您可以按一下寄件者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。
+此字段可个性化。 要执行此操作，您可以通过单击发件人名称下方的图标来添加个性化字段、内容块和动态内容。
 
 >[!NOTE]
 >
->標頭引數不得為空白。 寄件者的地址是強制允許傳送電子郵件的地址（RFC標準）。 Adobe Campaign會檢查所輸入電子郵件地址的語法。
+>标头参数不能为空。 发件人地址是允许发送电子邮件的必填项（RFC标准）。 Adobe Campaign检查输入的电子邮件地址的语法。
 
-## 個人化URL{#personalizing-urls}
+## 个性化URL{#personalizing-urls}
 
-Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 操作步骤：
+Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动态内容，来对消息中的一个或多个URL进行个性化。 操作步骤：
 
-1. 插入外部URL並指定其引數。 另請參閱 [插入連結](../../designing/using/links.md#inserting-a-link).
-1. 如果未顯示，請按一下「設定」窗格中所選URL旁的鉛筆，以存取個人化選項。
-1. 新增您要使用的個人化欄位、內容區塊和動態內容。
+1. 插入外部URL并指定其参数。 参见 [插入链接](../../designing/using/links.md#inserting-a-link).
+1. 如果未显示，请单击“设置”窗格中选定URL旁边的铅笔以访问个性化选项。
+1. 添加要使用的个性化字段、内容块和动态内容。
 
    ![](assets/des_personalize_links.png)
 
@@ -52,379 +52,379 @@ Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以
 
 >[!NOTE]
 >
->當追蹤連結的URL簽章機制停用時，個人化URL無法套用至網域名稱或URL副檔名。 如果個人化不正確，訊息分析期間會顯示錯誤訊息。
+>如果禁用了跟踪链接的URL签名机制，则个性化URL无法应用于域名，也无法应用于URL扩展。 如果个性化不正确，则在消息分析期间将显示错误消息。
 >
->選取內容區塊時，不允許您選取元素，例如 **映象頁面的連結**. 連結內禁止此類封鎖。
+>选择内容块时，不允许选择元素，例如 **链接到镜像页面**. 链接内禁止此类块。
 
 ## 插入个性化字段{#inserting-a-personalization-field}
 
-Adobe Campaign可讓您將欄位從資料庫插入頁面，例如設定檔的名字。
+Adobe Campaign允许您将数据库中的一个字段插入到页面中，例如用户档案的名字。
 
 >[!NOTE]
 >
->以下影像顯示如何使用插入個人化欄位 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 以取得電子郵件。
+>下图显示了如何使用插入个性化字段。 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) ，以发送电子邮件。
 
-若要將個人化欄位新增至內容：
+要向内容添加个性化字段，请执行以下操作：
 
-1. 在文字區塊內按一下，然後按一下 **[!UICONTROL Personalize]** 圖示並選取 **[!UICONTROL Insert personalization field]**. 如需電子郵件設計工具介面的詳細資訊，請參閱 [本節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. 在文本块内单击，然后单击 **[!UICONTROL Personalize]** 图标，然后选择 **[!UICONTROL Insert personalization field]**. 有关Email Designer界面的详细信息，请参阅 [本节](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
-1. 選取您要插入頁面內容的欄位。
+1. 选择要插入到页面内容的字段。
 
    ![](assets/email_perso_field_2.png)
 
 1. 单击 **[!UICONTROL Confirm]**。
 
-欄位名稱會出現在編輯器中，並反白顯示。
+字段名称将显示在编辑器中，并高亮显示。
 
 ![](assets/email_perso_field_3.png)
 
-產生個人化後（例如，預覽和準備電子郵件時），此欄位將由與目標設定檔相對應的值取代。
+生成个性化后（例如，预览和准备电子邮件时），此字段将由与目标用户档案对应的值替换。
 
 >[!NOTE]
 >
->如果電子郵件是從工作流程建立的，則在工作流程中計算的其他資料也可在個人化欄位中使用。 如需從工作流程新增其他資料的詳細資訊，請參閱 [豐富資料](../../automating/using/about-targeting-activities.md#enriching-data) 區段。
+>如果电子邮件是从工作流创建的，则工作流中计算的其他数据也可在个性化字段中找到。 有关从工作流添加其他数据的更多信息，请参阅 [丰富数据](../../automating/using/about-targeting-activities.md#enriching-data) 部分。
 
-## 新增內容區塊{#adding-a-content-block}
+## 添加内容块{#adding-a-content-block}
 
-Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為動態、個人化的且具有特定轉譯。 例如，您可以新增問候語或映象頁面的連結。
+Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是动态的、个性化的，并具有特定的呈现方式。 例如，您可以向镜像页面添加问候语或链接。
 
 >[!NOTE]
 >
->以下影像顯示如何使用插入內容區塊 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 以取得電子郵件。
+>下图显示了如何使用插入内容块 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) ，以发送电子邮件。
 
-若要新增內容區塊：
+要添加内容块，请执行以下操作：
 
-1. 在文字區塊內按一下，然後按一下 **[!UICONTROL Personalize]** 圖示並選取 **[!UICONTROL Insert content block]**. 如需電子郵件設計工具介面的詳細資訊，請參閱 [本節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+1. 在文本块内单击，然后单击 **[!UICONTROL Personalize]** 图标，然后选择 **[!UICONTROL Insert content block]**. 有关Email Designer界面的详细信息，请参阅 [本节](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
-1. 選取您要插入的內容區塊。 可用的區塊會因內容（電子郵件或登陸頁面）而異。
+1. 选择要插入的内容块。 可用的块因上下文（电子邮件或登陆页面）而异。
 
    ![](assets/email_content_block_2.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-內容區塊的名稱會顯示在編輯器中，並以黃色醒目提示。 產生個人化時，會自動適應設定檔。
+内容块的名称将显示在编辑器中，并以黄色突出显示。 它将在生成个性化时自动适应用户档案。
 
 ![](assets/email_content_block_3.png)
 
-現成可用的內容區塊包括：
+现成的内容块包括：
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**：此內容區塊只能用於 **傳遞**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**：此内容块只能用于 **投放**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**：此內容區塊只能用於 **登陸頁面**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**：此內容區塊只能用於 **傳遞**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**：此內容區塊只能用於 **傳遞**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**：此内容块只能用于 **登陆页面**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**：此内容块只能用于 **投放**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
 * **[!UICONTROL Notification style (notificationStyle)]**
 
-### 建立自訂內容區塊 {#creating-custom-content-blocks}
+### 创建自定义内容块 {#creating-custom-content-blocks}
 
-您可以定義將插入訊息或登入頁面的新內容區塊。
+您可以定义将插入到消息或登陆页面中的新内容块。
 
-若要建立內容區塊，請遵循下列步驟：
+要创建内容块，请执行以下步骤：
 
-1. 按一下 **[!UICONTROL Resources > Content blocks]** 從進階功能表存取內容區塊清單。
-1. 按一下 **[!UICONTROL Create]** 按鈕或複製預先存在的內容區塊。
+1. 单击 **[!UICONTROL Resources > Content blocks]** 从高级菜单中访问内容块列表。
+1. 单击 **[!UICONTROL Create]** 按钮或复制预先存在的内容块。
 
    ![](assets/content_bloc_01.png)
 
 1. 输入标签。
-1. 選取區塊的 **[!UICONTROL Content type]**. 提供了三个选项：
+1. 选择块的 **[!UICONTROL Content type]**. 提供了三个选项：
 
-   * **[!UICONTROL Shared]**：內容區塊可用於傳送或登入頁面。
-   * **[!UICONTROL Delivery]**：內容區塊只能用於傳送中。
-   * **[!UICONTROL Landing page]**：內容區塊只能用於登入頁面。
+   * **[!UICONTROL Shared]**：内容块可用于投放或登陆页面。
+   * **[!UICONTROL Delivery]**：内容块只能在投放中使用。
+   * **[!UICONTROL Landing page]**：内容块只能在登陆页面中使用。
 
    ![](assets/content_bloc_02.png)
 
-1. 您可以選取 **[!UICONTROL Targeting dimension]**. 如需詳細資訊，請參閱 [關於目標維度](#about-targeting-dimension).
+1. 您可以选择 **[!UICONTROL Targeting dimension]**. 有关此内容的更多信息，请参阅 [关于定位维度](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. 您可以選取 **[!UICONTROL Depends on format]** 用於定義兩個不同區塊的選項：一個用於HTML電子郵件，另一個用於文字格式的電子郵件。 然後，編輯器中會顯示兩個索引標籤(HTML和文字)，以定義對應的內容。
+1. 您可以选择 **[!UICONTROL Depends on format]** 用于定义两个不同块的选项：一个用于HTML电子邮件，另一个用于文本格式的电子邮件。 然后，编辑器中将显示两个选项卡(HTML和文本)以定义相应的内容。
 
    ![](assets/content_bloc_03.png)
 
-1. 輸入內容區塊的內容，然後按一下 **[!UICONTROL Create]** 按鈕。
+1. 输入内容块的内容，然后单击 **[!UICONTROL Create]** 按钮。
 
-您的內容區塊現在可用於訊息或登入頁面的內容編輯器。
+现在，您可以在消息或登陆页面的内容编辑器中使用内容块。
 
 >[!CAUTION]
 >
->編輯區塊內容時，請確定您的開頭與結尾之間沒有額外的空格 *如果* 陳述式。 在HTML中，熒幕上會顯示空格，因此會影響您的內容版面。
+>编辑块的内容时，请确保您的开始和结束之间没有额外的空格 *如果* 语句。 在HTML中，屏幕上将显示空格，因此它们将会影响您的内容布局。
 
-### 關於目標維度 {#about-targeting-dimension}
+### 关于定位维度 {#about-targeting-dimension}
 
-目標維度可讓您定義您可以使用內容區塊的訊息型別。 這是為了避免在訊息中使用不當區塊，而導致錯誤。
+利用定向维度，可定义可在其中使用内容块的消息类型。 这是为了防止在消息中使用不当的块，这种块可能会导致错误。
 
-事實上，在編輯訊息時，您只能選取目標維度與該訊息的目標維度相容的內容區塊。
+事实上，在编辑消息时，您只能选择具有与该消息的定向维度兼容的定向维度的内容块。
 
-例如， **[!UICONTROL Unsubscription link]** 區塊的目標維度為 **[!UICONTROL Profiles]** 因為它包含特定於的個人化欄位 **[!UICONTROL Profiles]** 資源。 因此，您無法使用 **[!UICONTROL Unsubscription link]** 在中封鎖 [事件交易式訊息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因為該型別訊息的目標維度為 **[!UICONTROL Real-time events]**. 不過，您可以使用 **取消訂閱連結** 區塊 [設定檔交易式訊息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因為該型別訊息的目標維度為 **設定檔**. 最後， **[!UICONTROL Link to mirror page]** 區塊沒有目標維度，因此您可以在任何訊息中使用它。
+例如， **[!UICONTROL Unsubscription link]** 块的目标维度为 **[!UICONTROL Profiles]** 因为它包含特定于的个性化字段 **[!UICONTROL Profiles]** 资源。 因此，您不能使用 **[!UICONTROL Unsubscription link]** 中的块 [事件事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **[!UICONTROL Real-time events]**. 但是，您可以使用 **退订链接** 在中阻止 [用户档案事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **配置文件**. 最后， **[!UICONTROL Link to mirror page]** 块没有定向维度，因此您可以在任何消息中使用它。
 
-如果您將此欄位留空，無論目標維度為何，內容區塊都將與所有訊息相容。 如果您設定目標維度，則該區塊只會與具有相同目標維度的訊息相容。
+如果将此字段留空，则无论定向维度是什么，内容块都将与所有消息兼容。 如果设置定向维度，则该块将仅与具有相同定向维度的消息兼容。
 
 有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 
 **相关主题：**
 
 * [插入个性化字段](#inserting-a-personalization-field)
-* [新增內容區塊](#adding-a-content-block)
-* [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
+* [添加内容块](#adding-a-content-block)
+* [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email)
 
-## 個人化影像來源{#personalizing-an-image-source}
+## 个性化图像源{#personalizing-an-image-source}
 
-Adobe Campaign可讓您根據特定條件或使用追蹤，個人化訊息中的一個或多個影像。 若要這麼做，請在影像來源中插入個人化欄位、內容區塊或動態內容。 操作步骤：
+Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或多个图像进行个性化。 通过将个性化字段、内容块或动态内容插入图像源来实现这一点。 操作步骤：
 
-1. 將影像插入訊息內容，或選取已存在的影像。
-1. 在影像屬性調色盤中，勾選 **[!UICONTROL Enable personalization]** 選項。
+1. 将图像插入到消息的内容中，或选择已存在的图像。
+1. 在图像属性调色板中，选中 **[!UICONTROL Enable personalization]** 选项。
 
    ![](assets/des_personalize_images_1.png)
 
-   此 **[!UICONTROL Source]** 欄位顯示，而選取的影像顯示為 **個人化** 在編輯器中。
+   此 **[!UICONTROL Source]** 字段显示，选择的图像显示为 **个性化** 在编辑器中。
 
-1. 按一下旁邊的鉛筆 **[!UICONTROL Source]** 欄位按鈕以存取個人化選項。
-1. 新增影像來源後，新增您喜歡的個人化欄位、內容區塊和動態內容。
+1. 单击旁边的铅笔 **[!UICONTROL Source]** 用于访问个性化选项的字段按钮。
+1. 添加图像源后，添加您喜欢的个性化字段、内容块和动态内容。
 
    ![](assets/des_personalize_images_2.png)
 
    >[!NOTE]
    >
-   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可個人化。 例如： http://mydomain.com/ `[Gender]` .jpg
+   >域名(http://mydomain.com)无法个性化，必须手动输入。 URL的其余部分可以进行个性化。 例如： http://mydomain.com/ `[Gender]` .jpg
 
 1. 确认更改。
 
 ## 条件内容 {#conditional-content}
 
-### 定義可見度條件{#defining-a-visibility-condition}
+### 定义可见性条件{#defining-a-visibility-condition}
 
-您可以指定任何元素的可見度條件。 只有在符合條件時才會顯示它。
+可以为任何元素指定可见性条件。 仅当满足条件时，它才可见。
 
-若要新增可見度條件，請選取區塊並輸入要在中遵循的條件 **[!UICONTROL Visibility condition]** 欄位中設定的欄位。
+要添加可见性条件，请选择一个块，然后在 **[!UICONTROL Visibility condition]** 字段。
 
 ![](assets/delivery_content_5.png)
 
-此選項僅適用於下列元素：ADDRESS、BLOCKQUOTE、CENTER、DIR、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
+此选项仅适用于以下元素：ADDRESS、BLOCKQUOTE、CENTER、DIR、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
-運算式編輯器會顯示在 [進階運算式編輯](../../automating/using/editing-queries.md#about-query-editor) 區段。
+表达式编辑器的示例如下 [高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor) 部分。
 
-這些條件採用XTK運算式語法(例如 **context.profile.email ！=&quot;** 或 **context.profile.status=&#39;0&#39;**)。 依預設，所有欄位都是可見的。
+这些条件采用XTK表达式语法(例如 **context.profile.email ！=”** 或 **context.profile.status=&#39;0&#39;**)。 默认情况下，所有字段均可见。
 
 >[!NOTE]
 >
->無法針對已包含具有動態內容的子元素或已構成動態內容的區塊定義條件。 無法編輯下拉式清單等不可見的動態區塊。
+>无法为已包含具有动态内容的子元素的块或已构成动态内容的块定义条件。 无法编辑下拉列表等不可见的动态块。
 
-### 定義電子郵件中的動態內容{#defining-dynamic-content-in-an-email}
+### 定义电子邮件中的动态内容{#defining-dynamic-content-in-an-email}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="定义动态内容"
 >abstract="根据您将定义的条件，定义将仅为某些配置文件显示的不同内容。"
 
-在電子郵件中，您可以定義不同的內容，這些內容將根據運算式編輯器定義的條件，以動態方式顯示給收件者。 例如，從相同的電子郵件，您可以確保每個設定檔都會根據其年齡範圍收到不同的訊息。
+在电子邮件中，您可以根据表达式编辑器定义的条件，定义将动态显示给收件人的不同内容。 例如，从同一封电子邮件中，您可以确保每个用户档案都会根据其年龄范围收到不同的消息。
 
-定義動態內容與不同 [定義可見性條件](#defining-a-visibility-condition).
+定义动态内容与不同 [定义可见性条件](#defining-a-visibility-condition).
 
-1. 選取片段、元件或元素。 在此範例中，選取影像。
-1. 按一下 **[!UICONTROL Dynamic content]** 圖示加以檢視。
+1. 选择片段、组件或元素。 在此示例中，选择一个图像。
+1. 单击 **[!UICONTROL Dynamic content]** 图标。
 
    ![](assets/dynamic_content_2.png)
 
-   此 **[!UICONTROL Dynamic content]** 區段會出現在左側的浮動視窗中。
+   此 **[!UICONTROL Dynamic content]** 部分将显示在左侧的面板中。
 
    ![](assets/dynamic_content_3.png)
 
-   依預設，本節包含兩個元素：預設變體和新變體。
+   默认情况下，此部分包含两个元素：默认变体和一个新变体。
 
    >[!NOTE]
    >
-   >內容必須一律有預設變體。 您無法刪除它。
+   >内容必须始终具有默认变体。 您无法删除它。
 
-1. 按一下 **[!UICONTROL Edit]** 按鈕來定義第一個替代變體的顯示條件。
+1. 单击 **[!UICONTROL Edit]** 按钮来定义第一个替代变体的显示条件。
 
    ![](assets/dynamic_content_4.png)
 
-1. 指定標籤並選取要設定為條件的欄位。 例如，從 **[!UICONTROL General]** 節點，選取 **[!UICONTROL Age]** 欄位
+1. 指定标签并选择要设置为条件的字段。 例如，从 **[!UICONTROL General]** 节点，选择 **[!UICONTROL Age]** 字段
 
    ![](assets/dynamic_content_5.png)
 
-1. 設定篩選條件。 例如，您希望向18至25歲的人顯示不同的內容。
+1. 设置筛选条件。 例如，您希望向18至25岁的人显示不同的内容。
 
    ![](assets/dynamic_content_6.png)
 
-1. 設定所有條件後，定義將套用條件的優先順序並儲存變更。
+1. 设置所有条件后，定义应用条件的优先级顺序并保存更改。
 
    ![](assets/dynamic_content_7.png)
 
-   內容會依優先順序（從上到下）顯示在浮動視窗中。 有關優先順序的詳細資訊，請參閱 [本節](#defining-dynamic-content-in-an-email).
+   内容将以优先级从上到下的顺序显示在面板中。 有关优先级的更多信息，请参阅 [本节](#defining-dynamic-content-in-an-email).
 
-1. 為您剛定義的變體上傳新影像。
+1. 为刚刚定义的变体上传新图像。
 
    ![](assets/dynamic_content_8.png)
 
-   年齡介於18至25歲的收件者將看到新影像。
+   年龄在18到25岁之间的收件人将看到新图像。
 
    ![](assets/dynamic_content_10.png)
 
-1. 按一下 **[!UICONTROL Add a condition]** 以新增內容及其連結的規則。
+1. 单击 **[!UICONTROL Add a condition]** 以添加新内容及其链接的规则。
 
    ![](assets/dynamic_content_9.png)
 
-   例如，您可以新增要顯示給26至35歲之間之人的不同影像。
+   例如，您可以添加要显示给26到35岁之间人员的不同图像。
 
-1. 對於您想要動態顯示之電子郵件的任何其他元素，請以類似方式執行。 可以是文字、按鈕、片段等。 保存您的更改。
+1. 对于您想要动态显示的电子邮件的任何其他元素，请以类似方式继续操作。 可以是文本、按钮、片段等。 保存您的更改。
 
 >[!CAUTION]
 >
->準備好訊息後，在傳送訊息之前，請使用校樣來測試訊息。 如果不這樣做，則可能無法偵測到某些錯誤，且可能不會傳送電子郵件。
+>准备好消息后，在发送消息之前，请使用校样进行测试。 如果不这样做，则可能无法检测到某些错误，并且可能无法发送电子邮件。
 
 **相关主题：**
 
 * [发送校样](../../sending/using/sending-proofs.md)
 * [高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor)
 
-### 優先順序 {#order-of-priority}
+### 优先级顺序 {#order-of-priority}
 
-在運算式編輯器中，當您定義動態內容時，優先順序如下。
+在表达式编辑器中，定义动态内容时，优先级顺序如下。
 
-1. 您可使用定義兩個不同的動態內容 **兩個不同的條件**&#x200B;例如：
+1. 使用以下方式定义两个不同的动态内容 **两种不同的情况**&#x200B;例如：
 
-   **條件1：** 個人檔案的性別是男性化的，
+   **条件1：** 男人的性别是男性化的，
 
-   **條件2：** 設定檔的年齡介於20到30歲之間。
+   **条件2：** 配置文件介于20到30岁之间。
 
    ![](assets/delivery_content_61.png)
 
-   資料庫中的部分設定檔對應至兩個條件，但只能傳送一封包含一項動態內容的電子郵件。
+   数据库中的某些用户档案对应于这两个条件，但只能发送一封包含一项动态内容的电子邮件。
 
-1. 因此，您必須定義動態內容的優先順序。 優先順序為的條件 **1** （因此也是對應的動態內容）將傳送至設定檔，即使其優先順序為的另一個條件亦然 **2** 或 **3** 此設定檔也符合。
+1. 因此，您必须定义动态内容的优先级。 优先级顺序为 **1** （因此相应的动态内容）将被发送到用户档案，即使优先级顺序为 **2** 或 **3** 此配置文件也符合此要求。
 
    ![](assets/delivery_content_62.png)
 
-您只能為每個動態內容定義一個優先順序順序。
+您只能为每个动态内容定义一个优先级顺序。
 
-## 範例：電子郵件個人化{#example-email-personalization}
+## 示例：电子邮件个性化{#example-email-personalization}
 
-在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知部分客戶有專門為其提供的特別優惠。 團隊成員決定根據客戶各自的年齡來個人化電子郵件。 年齡介於18至27歲的客戶將收到一封電子郵件，內含不同影像和口號，以通知27歲以上的客戶。
+在本例中，营销服务团队的一名成员创建了一封电子邮件，用于告知一些客户，有一份专门为他们提供的特别优惠。 团队成员决定根据客户各自的年龄对电子邮件进行个性化设置。 18至27岁的客户将收到一封电子邮件，其中包含27岁以上的客户将收到的其他图片和口号。
 
-電子郵件的建立方式如下：
+电子邮件的创建方式如下：
 
-* 動態內容會套用至影像，且這些動態內容會根據年齡範圍進行設定。
+* 动态内容应用到图像，并且这些动态内容根据年龄范围进行配置。
 
    ![](assets/delivery_content_43.png)
 
-   有關新增和設定動態內容的詳情，請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email) 區段。
+   有关添加和配置动态内容的详情，请参见 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email) 部分。
 
-* 個人化欄位和動態內容會套用至文字。 根據設定檔的年齡範圍，電子郵件會從設定檔的名字或設定檔的標題和姓氏開始。
+* 个性化字段和动态内容将应用于文本。 根据用户档案的年龄范围，电子邮件会以用户档案的名字或用户档案的标题和姓氏开头。
 
    ![](assets/delivery_content_44.png)
 
-   有關新增和設定個人化欄位的詳情，請參閱 [插入個人化欄位](#inserting-a-personalization-field) 區段。
+   有关添加和配置个性化字段的详情，请参见 [插入个性化字段](#inserting-a-personalization-field) 部分。
 
-### 設定影像 {#configuring-images}
+### 配置图像 {#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="管理动态图像"
 >abstract="根据您将定义的条件，使用动态图像个性化设置电子邮件。"
 
-在此範例中，套用至影像的動態內容設定如下：
+在此示例中，应用于图像的动态内容配置如下：
 
-**若要鎖定目標18-27歲：**
+**目标18-27岁：**
 
-1. 選取中的動態內容 **[!UICONTROL Properties]** 浮動視窗，然後按一下 **[!UICONTROL Edit]** 按鈕。
+1. 选择中的动态内容 **[!UICONTROL Properties]** 调色板并单击 **[!UICONTROL Edit]** 按钮。
 
    ![](assets/delivery_content_48.png)
 
-1. 編輯標籤，然後選取 **[!UICONTROL Age]** 欄位來自 **[!UICONTROL Profile]** 節點。
+1. 编辑标签，然后选择 **[!UICONTROL Age]** 中的字段 **[!UICONTROL Profile]** 节点。
 
    ![](assets/delivery_content_49.png)
 
-1. 選取 **大於或等於** 運運算元，然後輸入 **18** 建立 **18歲以上** 運算式。
+1. 选择 **大于或等于** 运算符，然后输入 **18** 创建 **18岁以上** 表达式。
 
    ![](assets/delivery_content_50.png)
 
-1. 新增 **[!UICONTROL Age]** 條件。
+1. 添加新 **[!UICONTROL Age]** 条件。
 
-   選取 **小於或等於** 運運算元，接著在值欄位中輸入27以建立 **27歲以下** 運算式。
+   选择 **小于或等于** 运算符后跟值字段中的27以创建 **27岁以下** 表达式。
 
    ![](assets/delivery_content_51.png)
 
 1. 确认更改。
 
-**若要鎖定27歲或以上的設定檔：**
+**要定向27岁及以上用户档案，请执行以下操作：**
 
-1. 從浮動視窗中選取動態內容並加以編輯。
-1. 編輯標籤，然後選取 **[!UICONTROL Age]** 欄位來自 **[!UICONTROL Profile]** 節點。
-1. 新增 **大於** 運運算元，接著在值欄位中輸入27以建立 **27歲以上** 運算式。
+1. 从面板中选择动态内容并对其进行编辑。
+1. 编辑标签，然后选择 **[!UICONTROL Age]** 中的字段 **[!UICONTROL Profile]** 节点。
+1. 添加 **大于** 运算符后跟值字段中的27以创建 **27岁以上** 表达式。
 
    ![](assets/delivery_content_52.png)
 
 1. 确认更改。
 
-您的動態內容已正確設定。
+您的动态内容已正确配置。
 
-### 設定文字 {#configuring-text}
+### 配置文本 {#configuring-text}
 
-在此範例中，套用至文字的動態內容設定如下：
+在此示例中，应用于文本的动态内容配置如下：
 
-**若要鎖定年齡介於18至27歲的設定檔：**
+**要定向18-27岁的用户档案，请执行以下操作：**
 
-1. 選取您想要的結構元件並新增動態內容。
-1. 編輯動態內容並設定目標定位運算式。 請參閱 [設定影像](#configuring-images).
-1. 在結構元件中，在所需位置按一下 **[!UICONTROL Personalize]** 圖示並選取 **[!UICONTROL Insert personalization field]**.
+1. 选择所需的结构组件并添加动态内容。
+1. 编辑动态内容并配置定位表达式。 请参阅 [配置图像](#configuring-images).
+1. 在结构组件中，在所需位置单击 **[!UICONTROL Personalize]** 图标，然后选择 **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
 
-1. 在出現的清單中，選取 **[!UICONTROL First name]** 欄位並確認。
+1. 在显示的列表中，选择 **[!UICONTROL First name]** 字段并进行确认。
 
    ![](assets/delivery_content_54.png)
 
-1. 然後，您的個人化欄位會完美地插入所選的動態內容中。
+1. 然后，您的个性化字段将完美插入到所选动态内容中。
 
-**若要鎖定27歲或以上的設定檔：**
+**要定向27岁及以上用户档案，请执行以下操作：**
 
-1. 選取您想要的結構元件並新增動態內容。
-1. 編輯動態內容並設定目標定位運算式。 請參閱 [設定影像](#configuring-images).
-1. 在結構元件中，在所需位置按一下 **[!UICONTROL Personalize]** 圖示並選取 **[!UICONTROL Insert personalization field]**.
-1. 選取 **[!UICONTROL Title]** 下拉式清單中的。
-1. 以類似方式繼續以新增 **[!UICONTROL Last name]** 欄位。
+1. 选择所需的结构组件并添加动态内容。
+1. 编辑动态内容并配置定位表达式。 请参阅 [配置图像](#configuring-images).
+1. 在结构组件中，在所需位置单击 **[!UICONTROL Personalize]** 图标，然后选择 **[!UICONTROL Insert personalization field]**.
+1. 选择 **[!UICONTROL Title]** 下拉列表中。
+1. 以类似方式继续添加 **[!UICONTROL Last name]** 字段。
 
    ![](assets/delivery_content_56.png)
 
-您的個人化欄位現在應完全插入所選的動態內容。
+现在，应将您的个性化字段完美插入到所选动态内容中。
 
-### 預覽電子郵件 {#previewing-emails}
+### 预览电子邮件 {#previewing-emails}
 
-預覽可讓您在傳送「 」之前檢查個人化欄位和動態內容是否已正確設定 **[!UICONTROL Proofs]**. 在預覽期間，您可以選取與電子郵件目標對應的不同測試設定檔。
+预览允许您在发送之前检查个性化字段和动态内容是否已正确配置 **[!UICONTROL Proofs]**. 在预览期间，您可以选择与电子邮件目标对应的不同测试用户档案。
 
-若沒有測試設定檔，預設情況下顯示的電子郵件為：
+如果没有测试用户档案，则默认显示的电子邮件是：
 
 ![](assets/delivery_content_45.png)
 
-電子郵件中的標語中沒有個人化欄位，而是使用預設影像。
+电子邮件中的标语中没有个性化字段，而是使用默认图像。
 
-第一個測試設定檔對應於年齡在18到27歲之間的使用者端。 選取此設定檔後，會顯示下列電子郵件：
+第一个测试配置文件对应于年龄在18到27岁之间的客户端。 选择此用户档案后，将显示以下电子邮件：
 
 ![](assets/delivery_content_46.png)
 
-對應至18-27歲運算式（特別是設定檔的名字）的個人化欄位已正確設定，且影像也已根據設定檔變更。
+正确配置了与18-27岁的表达式（特别是用户档案的名字）对应的个性化字段，并且图像也根据用户档案进行了更改。
 
-第二個設定檔對應至27歲以上的使用者端，並產生下列電子郵件：
+第二个用户档案对应于年龄超过27岁的客户，并生成以下电子邮件：
 
 ![](assets/delivery_content_47.png)
 
-此影像已因動態內容而改變，而出現的標語是為此目標大眾定義的較正式的口號。
+由于动态内容，图像已发生更改，而出现的口号是为此目标公众定义的更正式的口号。
 
 **相关主题：**
 

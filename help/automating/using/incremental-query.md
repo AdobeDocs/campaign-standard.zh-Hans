@@ -44,7 +44,7 @@ ht-degree: 98%
 
 **相关主题**
 
-* [使用案例：對服務訂閱者的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
+* [用例：关于服务订阅者的增量查询](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 配置 {#configuration}
 

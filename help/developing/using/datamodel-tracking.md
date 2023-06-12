@@ -1,6 +1,6 @@
 ---
-title: DataModel追蹤記錄
-description: 瞭解資料模型
+title: DataModel跟踪日志
+description: 了解数据模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,20 +14,20 @@ ht-degree: 33%
 
 ---
 
-# 追蹤記錄(nms：remoteTracking)
+# 跟踪日志(nms：remoteTracking)
 
-## 物件說明
+## 对象描述
 
 <table>
                <tr>
                   <th>名称</th>
                   <th>标签</th>
-                  <th>型別（長度）</th>
+                  <th>类型（长度）</th>
                   <th>明细列表值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主资源ID</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>
@@ -44,8 +44,8 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>指標到</td>
-                  <td>指標</td>
+                  <td>指向</td>
+                  <td>指向</td>
                   <td>字符串 </td>
                   <td> </td>
                </tr>

@@ -1,6 +1,6 @@
 ---
 title: 使用 Microsoft Dynamics 365 集成
-description: 瞭解如何使用Microsoft Dynamics 365進行Campaign Standard整合
+description: 了解如何将Microsoft Dynamics 365与Campaign Standard集成一起使用
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -15,174 +15,174 @@ ht-degree: 0%
 
 ---
 
-# 使用Microsoft Dynamics 365整合
+# 使用Microsoft Dynamics 365集成
 
-Adobe Campaign Standard與Microsoft Dynamics 365的整合可執行數個資料流程。 如需這些流程的詳情，請參閱 [此頁面](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Adobe Campaign Standard与Microsoft Dynamics 365的集成可执行多个数据流。 有关这些流程的详情，请参阅 [此页面](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-有關資料流程的更多詳細資訊，請參閱本檔案以下的 [資料流程](#data-flows)  區段。
+有关数据流的更多详细信息，请参阅本文档中以下位置的 [数据流](#data-flows)  部分。
 
-## Adobe Campaign Standard使用者體驗
+## Adobe Campaign Standard用户体验
 
-在Microsoft Dynamics 365中建立、修改或刪除連絡人（如果已啟用刪除功能）時，系統會將連絡人傳送至Campaign Standard。 這些連絡人將顯示在Campaign的「設定檔」畫面中，並可在行銷活動中定位。 請參閱下方的「設定檔」畫面。
+在Microsoft Dynamics 365中创建、修改或删除（如果已启用）联系人时，该联系人将被发送到Campaign Standard。 这些联系人将显示在Campaign的“用户档案”屏幕中，并可在营销活动中定位。 请参阅下面的“配置文件”屏幕。
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-在Campaign中修改選擇退出屬性時，如果您已選取 **單向(Campaign至Microsoft Dynamics 365)** 或 **雙向** 選擇退出設定，以及您是否已正確對應該特定屬性。
+在Campaign中修改选择退出属性时，如果您选择了 **单向(Campaign到Microsoft Dynamics 365)** 或 **双向** 选择退出配置，并且您正确映射了该特定属性。
 
-## Microsoft Dynamics 365使用者體驗
+## Microsoft Dynamics 365用户体验
 
-對於輸出，下列電子郵件行銷事件會從Campaign傳送至Dynamics 365，並在Microsoft Dynamics 365時間軸檢視中顯示為自訂活動：
+对于出口，以下电子邮件营销事件将从Campaign发送到Dynamics 365，并在Microsoft Dynamics 365 Timeline视图中显示为自定义活动：
 
-* Adobe Campaign電子郵件傳送
+* Adobe Campaign电子邮件发送
 
-* Adobe Campaign電子郵件開啟
+* Adobe Campaign电子邮件打开
 
-* Adobe Campaign電子郵件URL點按
+* Adobe Campaign电子邮件URL单击
 
-* Adobe Campaign電子郵件跳出
+* Adobe Campaign电子邮件退回
 
-若要檢視連絡人的時間表，請從Dynamics 365下拉式功能表中按一下「銷售中心」，以瀏覽至您的連絡人清單。 然後按一下左側功能表列上的[連絡人]並選取連絡人。
+要查看联系人的时间线，请在Dynamics 365下拉菜单中单击Sales Hub以导航到联系人列表。 然后，单击左侧菜单栏中的“联系人”并选择联系人。
 
 >[!NOTE]
 >
->此 **適用於Microsoft Dynamics 365的Adobe Campaign** AppSource中的應用程式必須安裝在Microsoft Dynamics 365執行個體中，才能檢視這些事件。 [了解详情](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>此 **Adobe Campaign for Microsoft Dynamics 365** 需要在Microsoft Dynamics 365实例中安装AppSource中的应用程序才能查看这些事件。 [了解详情](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
 
-在下方，您可以看到「動態使用者」的「連絡人」畫面快照。 在「時間軸」檢視中，您會注意到Dynamics使用者已收到一封電子郵件，其連結促銷活動名稱「2019LoyaltyCamp」和傳遞名稱「DM190」。 Dynamics使用者已開啟電子郵件，也按一下電子郵件中的URL；這兩個動作都會建立事件，也會顯示如下。 如果您檢視右角，會看到「關係助理」(RA)卡片；目前包含要追蹤點選之URL的工作。
+在下方，您可以看到“动态用户”的“联系人”屏幕快照。 在“时间线”视图中，您会注意到已向Dynamics用户发送了一封与活动名称“2019LoyaltyCamp”和投放名称“DM190”关联的电子邮件。 Dynamics用户打开了电子邮件，也单击了电子邮件中的URL；这两个操作都会创建事件，这些事件也会显示如下。 如果您查看右角，将会看到“关系助手(RA)”卡；当前，该卡包含要跟踪已单击URL的任务。
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
-如需Dynamics使用者的「時間軸」檢視的特寫，請參閱下文。
+有关Dynamics用户的时间线视图的特写，请参阅下文。
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-以下是關係助理(RA)卡的特寫。 AppSource應用程式包含的工作流程會監視Adobe的電子郵件URL點選事件。 發生此事件時，會建立任務並設定到期日。 這可讓任務顯示在RA卡中，讓任務更具可見性。 Adobe電子郵件退回事件也有類似的工作流程，新增一項任務以協調無效的電子郵件地址。 這些工作流程可在解決方案中關閉。
+以下是关系助理(RA)卡的特写。 AppSource应用程序包含一个工作流，用于监视Adobe电子邮件URL点击事件。 发生此事件时，它将创建一个任务并设置一个截止日期。 这样，任务便会显示在RA卡中，从而增加其可见性。 Adobe电子邮件退回事件也存在类似的工作流程，可添加一项任务来协调无效的电子邮件地址。 可在解决方案中关闭这些工作流。
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
-如果您按一下傳送事件的主旨，您會看到類似下列的表單。 開啟和跳出事件的表單類似。
+如果单击发送事件的主题，您将看到一个类似于下面的表单。 打开和退回事件的形式相似。
 
 ![](assets/do-not-localize/mirror_page_url_send.png)
 
-電子郵件URL點選事件的表單會為已點選的URL新增一個額外屬性：
+电子邮件URL点击事件的表单为被点击的URL添加了一个附加属性：
 
 ![](assets/do-not-localize/mirror_page_url_click.png)
 
-以下是屬性清單和說明：
+以下是属性的列表和说明：
 
-* **主旨**：事件的主旨；由電子郵件傳送的行銷活動ID和傳送ID組成
+* **主题**：事件主题；由电子邮件投放的营销活动ID和投放ID组成
 
-* **所有者**：在布建後步驟中建立的應用程式使用者
+* **所有者**：在预配后步骤中创建的应用程序用户
 
-* **相關**：連絡人的名稱
+* **相关**：联系人的姓名
 
-* **行銷活動名稱**：Campaign Standard中的促銷活動ID
+* **营销活动名称**：Campaign Standard中的促销活动ID
 
-* **傳遞名稱**：傳遞ID為Campaign Standard
+* **投放名称**：投放IDCampaign Standard
 
-* **傳送/開啟/點按/退回日期**：事件建立的日期/時間
+* **发送/打开/单击/退回日期**：事件的创建日期/时间
 
-* **追蹤URL**：已點按的URL
+* **跟踪URL**：已单击的URL
 
-* **映象頁面URL**：已傳送/開啟/點按/退回之電子郵件的映象頁面的URL。 您可以在對應的Campaign電子郵件通道活動的設定畫面中修改電子郵件映象頁面的到期日。 [了解详情](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
-
->[!NOTE]
->
->對於選擇退出，當您在Microsoft Dynamics 365中修改選擇退出屬性時，如果您選取 **單向(Campaign至Microsoft Dynamics 365)** 或 **雙向** 選擇退出設定，以及您是否已正確對應該特定屬性。
-
-## 資料流程 {#data-flows}
-
-### 連絡人和自訂實體入口
-
-新的、更新的和刪除記錄（注意：刪除必須啟用）會從Microsoft Dynamics 365聯絡人表格傳送至Campaign設定檔表格。
-
-您可以在整合應用程式UI中設定表格對應，將Microsoft Dynamics 365表格屬性對應至Campaign表格屬性。 您可以視需要修改表格對應，以新增/移除屬性。
-
-資料流的初始執行旨在傳輸所有對應記錄，包括標籤為「非作用中」的記錄；隨後，整合只會處理增量更新。 若重播資料或設定了篩選器，則屬例外；您可以設定以屬性為基礎的基本篩選規則，以決定要將哪些記錄同步至Campaign。
-
-基本取代規則可在整合應用程式UI中設定，以不同的值取代屬性值(例如「#00FF00」為「綠色」，「1為「F」等)。
-
-根據記錄數量，您可能需要使用Campaign SFTP儲存空間進行初始資料傳輸。 [了解详情](#initial-data-transfer)。
-
-Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性contactId，連絡人入口才能運作。 行銷活動自訂實體也必須填入Dynamics 365唯一ID屬性；不過，此屬性可以儲存在任何Campaign自訂實體屬性中（亦即，不必是externalId）。
+* **镜像页面URL**：已发送/打开/单击/退回的电子邮件镜像页面的URL。 可以在相应Campaign电子邮件渠道活动的配置屏幕中修改电子邮件镜像页面的过期期限。 [了解详情](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
 >[!NOTE]
 >
->對於自訂實體輸入，必須在Dynamics 365中為同步的自訂實體啟用變更追蹤。
+>对于选择退出，在Microsoft Dynamics 365中修改选择退出属性时，如果您选择了 **单向(Campaign到Microsoft Dynamics 365)** 或 **双向** 选择退出配置，并且您正确映射了该特定属性。
 
-#### 自訂實體
+## 数据流 {#data-flows}
 
-此 [Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md) 支援自訂實體，可讓Dynamics 365中的自訂實體與Campaign中對應的自訂資源同步。
+### 联系人和自定义实体入口
 
-自訂資源中的新資料可用於多種用途，包括細分和個人化。
+新的、更新的和删除的记录（注意：必须启用删除功能）会从Microsoft Dynamics 365联系人表发送到Campaign用户档案表。
 
-整合約時支援連結和非連結表格。 支援連結最多三個層級（即level1->level2->level3）。
+可以在集成应用程序UI中配置表映射，以将Microsoft Dynamics 365表属性映射到Campaign表属性。 可以根据需要修改表映射以添加/删除属性。
+
+数据流的初始运行旨在传输所有映射的记录，包括标记为“不活动”的记录；随后，集成将仅处理增量更新。 如果重播数据或配置过滤器，则属于例外；可以配置基于属性的基本过滤规则，以确定要将哪些记录同步到Campaign。
+
+可以在集成应用程序UI中配置基本替换规则，以使用不同的值替换属性值(例如，“#00FF00”为“绿色”，“1为“F”，等等)。
+
+根据记录数量，可能需要使用Campaign SFTP存储进行初始数据传输。 [了解详情](#initial-data-transfer)。
+
+必须使用Dynamics 365联系人属性contactId填充Campaign配置文件表属性externalId，以便联系人入口正常工作。 Campaign自定义实体还必须填充Dynamics 365唯一ID属性；但是，此属性可以存储在任何Campaign自定义实体属性中（即，不必是externalId）。
+
+>[!NOTE]
+>
+>对于自定义实体入口，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
+
+#### 自定义实体
+
+此 [Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/d365-acs-get-started.md) 支持自定义实体，从而能够将Dynamics 365中的自定义实体同步到Campaign中相应的自定义资源。
+
+自定义资源中的新数据可用于多种目的，包括分段和个性化。
+
+该集成支持链接表和非链接表。 最多支持三个级别（即level1->level2->level3）的链接。
 
 >[!IMPORTANT]
 >
->如果任何Campaign自訂資源記錄包含個人資訊，則套用特定建議。 瞭解更多 [在本節中](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>如果任何Campaign自定义资源记录包含个人信息，则应用特定推荐。 了解详情 [在此部分中](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 
-設定自訂實體資料流程時，請務必注意下列事項：
+配置自定义实体数据流时，请务必注意以下事项：
 
-* 建立和修改Campaign自訂資源是敏感性作業，只能由專家使用者執行。
-* 對於自訂實體資料流程，必須在Dynamics 365中為同步的自訂實體啟用變更追蹤。
-* 如果在Dynamics 365中幾乎相同時間建立父記錄和連結的子記錄，則由於平行處理整合，將新子記錄寫入父記錄之前的Campaign的機會很低。
+* 创建和修改Campaign自定义资源是敏感操作，只能由专家用户执行。
+* 对于自定义实体数据流，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
+* 由于集成的并行处理，如果在Dynamics 365中几乎同时创建父记录和链接的子记录，则可能会有新的子记录写入其父记录之前的Campaign的几率很小。
 
-* 如果使用連結至促銷活動側面的父項和子項 **1個基數簡單連結** 選項，在父記錄到達Campaign之前，子記錄將保持隱藏和無法存取（透過UI或API）。
+* 如果使用Campaign侧链接了父项和子项 **1基数简单链接** 选项，在父记录到达Campaign之前，子记录将保持隐藏状态并且不可访问（通过UI或API）。
 
-* (假設 **1個基數簡單連結** （在Campaign中）如果子記錄在Dynamics 365中更新或刪除，且該變更會先寫入Campaign，然後父記錄才會出現在Campaign中（不太可能，但極有可能出現），則不會在Campaign中處理該更新或刪除，且會擲回錯誤。 更新時，需要在Dynamics 365中再次更新有問題的記錄，才能同步更新的記錄。 刪除時，相關記錄需要在Campaign端個別處理，因為Dynamics 365中不再有要刪除或更新之記錄。
+* (假设 **1基数简单链接** （在Campaign中）如果在Dynamics 365中更新或删除了子记录，且更改在父记录出现在Campaign中之前写入Campaign（不太可能，但极有可能出现），则不会在Campaign中处理该更新或删除，并且会引发错误。 在进行更新时，需要在Dynamics 365中再次更新相关记录，才能同步更新的记录。 在删除的情况下，相关记录将需要在Campaign端单独进行处理，因为Dynamics 365中不再有要删除或更新的记录。
 
-* 如果您遇到您認為有隱藏的子記錄且無法存取這些記錄的情況，您可以暫時將基數連結型別變更為 **0或1個基數簡單連結** 以存取這些記錄。
+* 如果您遇到您认为已隐藏子记录且无法访问这些记录的情况，则可以临时将基数链接类型更改为 **0或1基数简单链接** 来存取这些记录。
 
-如需更全面的Campaign自訂資源概觀，請參閱 [在本節中](../../developing/using/key-steps-to-add-a-resource.md).
+可以找到对Campaign自定义资源的更全面概述 [在此部分中](../../developing/using/key-steps-to-add-a-resource.md).
 
-### 電子郵件行銷事件流程{#email-marketing-event-flow}
+### 电子邮件营销事件流{#email-marketing-event-flow}
 
-電子郵件行銷事件會從Campaign傳送至Microsoft Dynamics 365，以顯示在時間軸檢視中。
+电子邮件营销事件从Campaign发送到Microsoft Dynamics 365，以显示在时间轴视图中。
 
-支援的行銷事件型別：
-* 傳送 — 電子郵件已傳送給收件者
-* 開啟 — 收件者開啟的電子郵件
-* 點按 — 收件者點按的電子郵件內的URL
-* 彈回 — 寄給收件者的電子郵件遇到硬彈回
+支持的营销事件类型：
+* 发送 — 发送给收件人的电子邮件
+* 打开 — 收件人打开的电子邮件
+* Click — 收件人点击的电子邮件中的URL
+* 跳出 — 发送给收件人的电子邮件出现硬跳出
 
-下列事件屬性會顯示在Dynamics 365中：
-* 行銷活動名稱
-* 電子郵件傳遞名稱
+以下事件属性显示在Dynamics 365中：
+* 营销活动名称
+* 电子邮件投放名称
 * 时间戳
-* 電子郵件映象頁面URL
-* URL點按（僅限點按事件）
+* 电子邮件镜像页面URL
+* 已单击URL（仅单击事件）
 
-您可依型別（傳送、開啟、按一下、彈回）來啟用/停用電子郵件行銷事件，只有您選取的事件型別才會傳遞至Dynamics 365。
+电子邮件营销事件可以按类型（发送、打开、单击、弹回）启用/禁用，以便只有您选择的事件类型才会传递到Dynamics 365。
 
-### 選擇退出流程 {#opt-out-flow}
+### 选择退出流程 {#opt-out-flow}
 
-選擇退出（例如denyList）值會在系統之間同步；您有以下選項可在上線時選擇：
+选择退出(例如，阻止列表)值会在系统之间同步；您可以在载入时从以下选项中进行选择：
 
-* **單向(Microsoft Dynamics 365至Campaign)**：Dynamics 365是選擇退出的信任來源。 選擇退出屬性會從Dynamics 365同步至Campaign Standard」
-* **單向(Campaign至Microsoft Dynamics 365)**：Campaign Standard是選擇退出的真實來源。 選擇退出屬性將會在從Campaign Standard到Dynamics 365的一個方向上同步
-* **雙向**：Dynamics 365和Campaign Standard都是信任來源。 選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
+* **单向(Microsoft Dynamics 365到Campaign)**：Dynamics 365是选择退出的真实来源。 “选择退出属性将从Dynamics 365同步到Campaign Standard”
+* **单向(Campaign到Microsoft Dynamics 365)**：Campaign Standard是选择退出的真实来源。 选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上同步
+* **双向**：Dynamics 365和Campaign Standard都是事实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
 
-或者，如果您有個別程式來管理系統之間的選擇退出同步，則可以停用整合的選擇退出資料流程。
+或者，如果您有单独的流程来管理系统之间的选择退出同步，则可以禁用该集成的选择退出数据流。
 
 >[!NOTE]
 >
->在整合應用程式UI中， **單向(Microsoft Dynamics 365至Campaign)** 和 **雙向** 選擇退出使用案例是在單獨的選擇退出工作流程中設定的。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+>在集成应用程序UI中， **单向(Microsoft Dynamics 365到Campaign)** 和 **双向** 选择退出用例是在单独的选择退出工作流中配置的。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 >
->此 **單向(Campaign至Microsoft Dynamics 365)** 選擇退出使用案例為例外情況；它是在入口（聯絡至設定檔）工作流程中設定。
+>此 **单向(Campaign到Microsoft Dynamics 365)** 选择退出用例是一个例外；它在入口（联系人到用户档案）工作流中进行配置。
 
-選擇退出流程對應將由客戶指定，因為公司之間的業務需求可能不同。 在Campaign端，只有OOTB選擇退出屬性可用於選擇退出對應：
+选择退出流程映射将由客户指定，因为业务要求可能因公司而异。 在Campaign端，只有OOTB选择退出属性可用于选择退出映射：
 
-* denyList
+* 阻止列表
 * denyListEmail
 * denyListFax
 * denyListMobile
-* denyListphone
+* denyListPhone
 * denyListPostMail
 * denyListPushnotification
 * ccpapoptout
 
-在Dynamics 365中，大部分的選擇退出欄位都有「不要」首碼；不過，如果資料型別相容，您也可以利用其他屬性來達到選擇退出的目的。
+在Dynamics 365中，大多数选择退出字段都有“donot”前缀；但是，如果数据类型兼容，则还可以使用其他属性进行选择退出。
 
-### 初始資料傳輸 {#initial-data-transfer}
+### 初始数据传输 {#initial-data-transfer}
 
-視您從Microsoft Dynamics 365擷取的記錄數量而定，初始資料傳輸可能需要一段時間。 初始資料傳輸後，整合功能會取得增量更新。
+初始数据传输可能需要一点时间，具体取决于您从Microsoft Dynamics 365中摄取的记录数。 初始数据传输后，集成将获取增量更新。

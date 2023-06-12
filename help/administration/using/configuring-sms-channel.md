@@ -1,6 +1,6 @@
 ---
 title: 配置短信渠道
-description: 瞭解簡訊設定步驟，包括路由、編碼、格式和進階屬性
+description: 了解短信配置步骤，包括路由、编码、格式和高级属性
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->對多個外部SMS帳戶使用相同的帳戶和密碼可能會導致帳戶之間的衝突和重疊。 請參閱 [簡訊疑難排解頁面](troubleshooting-sms.md#external-account-conflict).
+>对多个外部SMS帐户使用相同的帐户和密码可能会导致帐户之间的冲突和重叠。 请参阅 [短信疑难解答页面](troubleshooting-sms.md#external-account-conflict).
 
 默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
@@ -57,9 +57,9 @@ ht-degree: 89%
 
    您可以指定叫客消息的最大吞吐量（其单位为每秒 MT 数，其中的“MT”指的是“终端终止”）。如果在对应的字段中输入“0”，则吞吐量将没有限制。
 
-   與持續時間對應的所有欄位的值必須以秒為單位完成。
+   与持续时间对应的所有字段的值必须以秒为单位填写。
 
-1. 定義SMS-C特定引數，以備您必須定義特定編碼對應時使用。 有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
+1. 在必须定义特定编码映射时定义SMS-C特定参数。 有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
 
    如果您不想遵守 SMPP 协议，且想要将 **[!UICONTROL +]** 前缀转移给短信提供商的服务器 (SMS-C)，请启用 **[!UICONTROL Send full phone number (send characters other than digits)]** 选项。
 
@@ -317,7 +317,7 @@ CR：回车
 
 ### 发送给 MO 的自动回复 {#automatic-reply-sent-to-the-mo}
 
-當設定檔回覆透過Campaign傳送的SMS訊息時，您可以設定自動傳回給他們的訊息，以及要執行的動作。
+当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给该用户档案的消息以及要执行的操作。
 
 有关更多信息，请参见[此章节](../../channels/using/managing-incoming-sms.md)。
 
@@ -329,15 +329,15 @@ CR：回车
 
 ![](assets/sms_options.png)
 
-從 **[!UICONTROL Advanced parameters]** 區段：
+从 **[!UICONTROL Advanced parameters]** 部分：
 
-* 此 **[!UICONTROL Short code]** 可讓您新增特定短程式碼至傳遞。 訊息準備期間會自動排除選擇退出此特定短程式碼的收件者。 如需如何設定短程式碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
+* 此 **[!UICONTROL Short code]** 用于向投放添加特定的短代码。 选择退出此特定短代码的收件人将在邮件准备期间自动被排除。 有关如何配置短代码的详细信息，请参阅 [本节](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >如果 **[!UICONTROL Short code]** 欄位留空，則欄位的 **[!UICONTROL Short code]** 將使用在外部帳戶中設定的欄位。
+   >如果 **[!UICONTROL Short code]** 字段为空，则其值 **[!UICONTROL Short code]** 将使用在外部帐户中设置的字段。
 
-從 **[!UICONTROL Send]** SMS範本的區段：
+从 **[!UICONTROL Send]** 短信模板的区域：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 

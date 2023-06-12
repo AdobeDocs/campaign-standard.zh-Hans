@@ -1,6 +1,6 @@
 ---
 title: 关于数据导入和导出
-description: 瞭解透過Adobe Campaign匯入和匯出資料的各種方式。
+description: 了解使用Adobe Campaign导入和导出数据的各种方法。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -17,18 +17,18 @@ ht-degree: 24%
 
 # 关于数据导入和导出{#about-data-import-and-export}
 
-根據您的業務需求，您有數種方式可以使用Adobe Campaign匯入和匯出資料：
+根据您的业务需求，您可以通过多种方法来通过Adobe Campaign导入和导出数据：
 
-* **套件**：套件是XML檔案，可讓您將設定和資料集從Adobe Campaign執行個體匯出和匯入至另一個執行個體。 系統更新也會透過套件匯入來執行。
-* **清單**：您可以設定所有清單畫面，並將顯示的資料匯出至個別檔案。
-* **工作流程**：從檔案匯入資料，並用來更新資料庫或傳送電子郵件。 您也可以選取要匯出到檔案中的資料。 工作流程是自動化定期更新（如設定檔匯入）的最佳方式。
+* **包**：资源包是一种XML文件，可用于将配置和数据集从Adobe Campaign实例导出和导入另一个实例。 系统更新也通过导入包来执行。
+* **列表**：可以配置所有列表屏幕，并将显示的数据导出为单独的文件。
+* **工作流**：从文件导入数据，并使用它更新数据库或发送电子邮件。 您还可以选择要导出到文件中的数据。 工作流是自动执行定期更新（如用户档案导入）的最佳方法。
 
-   * 利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。有關如何使用此活動的詳細資訊，請參閱 [本節](../../automating/using/load-file.md).
-   * 利用 **[!UICONTROL Transfer file]** 活动，可接收或发送文件、测试文件是否存在或列出 Adobe Campaign 中的文件。您可在「 」之前使用此活動 **[!UICONTROL Load file]** 以備您需要從外部來源擷取檔案時使用。 有關如何使用此活動的詳細資訊，請參閱 [本節](../../automating/using/transfer-file.md).
+   * 利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。有关如何使用此活动的更多信息，请参阅 [本节](../../automating/using/load-file.md).
+   * 利用 **[!UICONTROL Transfer file]** 活动，可接收或发送文件、测试文件是否存在或列出 Adobe Campaign 中的文件。您可以在之前使用此活动 **[!UICONTROL Load file]** 如果您需要从外部源检索文件。 有关如何使用此活动的更多信息，请参阅 [本节](../../automating/using/transfer-file.md).
 
-在設計匯入程式時，最佳實務是使用您可以根據需求調整的工作流程範本。 有關如何設定工作流程範本以匯入資料的詳細資訊，請參閱 [此使用案例](../../automating/using/creating-import-workflow-templates.md).
+在设计导入流程时，最佳实践是使用可以根据您的需求调整的工作流模板。 有关如何设置工作流模板以导入数据的更多信息，请参阅 [此用例](../../automating/using/creating-import-workflow-templates.md).
 
-Adobe Campaign也提供執行定期匯入的簡化方式，包括設計 **匯入範本**. 匯入範本是專用工作流程範本，可透過專用畫面使用。 設計完成後，執行匯入的使用者只需上傳檔案，即可在簡化的檢視中匯入。
+Adobe Campaign还提供了执行常规导入的简化方法，包括设计 **导入模板**. 导入模板是专用工作流模板，可通过专用屏幕使用。 设计完成后，执行导入的用户只需上传文件即可以简化视图导入。
 
 **相关主题**：
 

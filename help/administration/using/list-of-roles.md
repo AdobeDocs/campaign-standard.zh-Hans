@@ -1,6 +1,6 @@
 ---
 title: 角色列表
-description: 瞭解您可指派給使用者的角色清單
+description: 了解可分配给用户的角色列表
 audience: administration
 feature: Access Management
 role: Admin
@@ -27,10 +27,10 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >如果您使用Experience Cloud觸發程式，您需要 **[!UICONTROL Administration]** 有權存取Experience Cloud觸發器功能表。 如需Experience Cloud觸發器的詳細資訊，請參閱此 [頁面](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >如果您使用Experience Cloud触发器，则需要 **[!UICONTROL Administration]** 有权访问Experience Cloud触发器菜单。 有关Experience Cloud触发器的详细信息，请参阅此 [页面](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**：有权运行发布和创建自定义资源。
-* **[!UICONTROL Generic import]**：有权执行一般数据导入。為了讓此功能發揮作用，您必須連結 **[!UICONTROL Generic import]** 角色至 **[!UICONTROL Workflow]** 角色。
+* **[!UICONTROL Generic import]**：有权执行一般数据导入。要使此功能正常工作，您必须链接 **[!UICONTROL Generic import]** 角色到 **[!UICONTROL Workflow]** 角色。
 * **[!UICONTROL Prepare deliveries]**：有权创建、修改、准备和删除投放。拥有此角色的用户可以准备投放，但不能发送。
 * **[!UICONTROL Start deliveries]**：有权创建、修改、准备、发送和删除投放。
 * **[!UICONTROL Workflow]**：有权管理工作流执行（开始、停止、暂停等）。即使在工作流中，此角色的用户也无法发送投放。

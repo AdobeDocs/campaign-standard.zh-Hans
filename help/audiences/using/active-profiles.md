@@ -1,6 +1,6 @@
 ---
-title: 行銷活動作用中設定檔
-description: 瞭解如何存取客戶量度和作用中設定檔
+title: 营销活动活动活跃用户档案
+description: 了解如何访问客户量度和活动用户档案
 feature: Profiles
 role: User
 level: Intermediate
@@ -14,30 +14,30 @@ ht-degree: 6%
 
 # 使用中的用户档案{#active-profiles}
 
-您可以從以下位置存取作用中設定檔詳細資訊： **[!UICONTROL Customer metrics]** 報告。 此報表僅供Campaign功能管理員使用。 若要存取此報表，請按一下左側的Adobe Campaign圖示， [使用者介面](../../start/using/interface-description.md#advanced-menu)，並瀏覽至 **[!UICONTROL Administration > Customer metrics]**.
+您可以从以下位置访问活动用户档案的详细信息： **[!UICONTROL Customer metrics]** 报告。 此报表仅供Campaign功能管理员使用。 Adobe Campaign要访问此报表，请单击 [用户界面](../../start/using/interface-description.md#advanced-menu)，并浏览到 **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-此報表每月由產生 **[!UICONTROL Billing]** 技術工作流程與顯示數量 **作用中設定檔**. 進一步瞭解中的技術工作流程 [此頁面](../../administration/using/technical-workflows.md).
+此报表每月由生成 **[!UICONTROL Billing]** 技术工作流，并显示 **活动用户档案**. 在中了解有关技术工作流的更多信息 [此页面](../../administration/using/technical-workflows.md).
 
-「設定檔」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 會考量設定檔 **作用中** 過去12個月內，是否曾透過任何管道將Campaign傳遞作為目標。
+“配置文件”是代表最终客户、潜在客户或潜在客户的信息记录。 考虑用户档案 **活动** 如果在过去12个月内通过任何渠道投放了Campaign，则表明其已定位。
 
-根據您的合約，您的每個Campaign執行個體都會布建特定數量的作用中設定檔。 如需瞭解已購買的使用中設定檔數目，請參閱您的授權合約。
+根据您的合同，您的每个Campaign实例都会配置特定数量的活动用户档案。 请参阅您的许可协议，了解已购买的活动用户档案数量。
 
 ![](assets/audience_active_profiles_list.png)
 
 
 
-* 在傳送準備期間（例如依型別規則或隔離機制）排除的設定檔不會納入考量。
+* 在投放准备期间（例如通过分类规则或隔离机制）排除的用户档案不会考虑在内。
 
-* 交易式訊息收件者會計入作用中設定檔。
+* 事务性消息收件人计入活动用户档案。
 
 * 被多个投放项目定位的用户档案只被计算一次。
 
-* 此報告僅提供資訊，對帳單沒有直接影響。
+* 此报告只提供信息，对账单没有直接影响。
 
-在頁面底部，會列出目標維度以及每個維度的設定檔數量。 交易式訊息的收件者會與 **匿名** 維度。
+在页面底部，列出定向维度以及每个维度的用户档案数。 事务性消息的收件人关联到 **匿名** 维度。
 
 >[!NOTE]
 >
->身為管理員使用者，您也可以直接從「控制面板」監控執行個體上使用的作用中設定檔數目。 如需詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>作为管理员用户，您还可以直接从控制面板监控实例中使用的活动用户档案数。 有关详情，请参阅 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).

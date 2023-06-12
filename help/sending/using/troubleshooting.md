@@ -1,6 +1,6 @@
 ---
-title: 疑難排解Adobe Campaign Standard中的傳遞問題
-description: 瞭解在使用Adobe Campaign Standard時遇到傳遞能力問題時該怎麼做。
+title: 对Adobe Campaign Standard中的可投放性问题进行故障诊断
+description: 了解在使用Adobe Campaign Standard时遇到可投放性问题时该怎么做。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,54 +18,54 @@ ht-degree: 1%
 
 # 故障排除{#troubleshooting}
 
-您是否遇到傳遞問題？ 您可以在這裡找到解決方案。
+您是否遇到过可投放性问题？ 您可以在此处找到解决方案。
 
-## ISP的相同錯誤訊息 {#same-error-for-an-isp}
+## ISP出现相同的错误消息 {#same-error-for-an-isp}
 
-**為什麼我總是收到針對特定ISP的相同錯誤訊息？**
+**为什么我会始终收到针对特定ISP的相同错误消息？**
 
-如果您一律收到ISP的相同錯誤訊息，則您的電子郵件或IP可能被ISP偵測到有錯誤。 執行下列建議：
-* 檢查您是否收到大量連結至不存在電子郵件地址的失敗(**使用者不明** 失敗)。
-* 更新您的訂閱表單，以偵測所輸入網域名稱中的任何錯誤(例如：gmaul.com或yaho.com)。
-* 如果您發現指出您的訊息被宣告為垃圾訊息的錯誤，或您的訊息持續遭到封鎖，請嘗試排除過去12個月內未開啟或點按您訊息之一的收件者，使其離開目標。
+如果您总是收到与ISP相同的错误消息，则您的电子邮件或IP可能被ISP检测到有故障。 执行以下建议：
+* 检查您是否收到大量与不存在电子邮件地址关联的故障(**用户未知** 失败)。
+* 更新您的订阅表单以检测输入的域名中是否有任何错误(例如：gmaul.com或yaho.com)。
+* 如果您注意到声明您的邮件被声明为垃圾邮件的错误，或您的邮件被持续阻止，请尝试排除过去12个月内未从目标位置打开或单击某封邮件的收件人。
 
-如果問題仍然存在，請聯絡商業或傳遞能力服務，或Adobe Campaign支援。
+如果问题仍然存在，请联系商业或可投放性服务或Adobe Campaign支持。
 
-## 封鎖清單與隔離 {#denylist-versus-quarantine}
+## 阻止列表与隔离 {#denylist-versus-quarantine}
 
-* **封鎖清單上的電子郵件地址與隔離的電子郵件地址有何不同？**
+* **阻止列表上的电子邮件地址与隔离的电子邮件地址之间有何区别？**
 
-   * 狀態 **[!UICONTROL On denylist]** 是的結果 [回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) （當個人將訊息回報為垃圾訊息時）。
+   * 状态 **[!UICONTROL On denylist]** 是 [反馈环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) （当人员将消息报告为垃圾邮件时）。
 
-   * 狀態 **[!UICONTROL Quarantined]** 是軟退信或硬退信的結果。
+   * 状态 **[!UICONTROL Quarantined]** 是软退回或硬退回的结果。
    有关更多信息，请参阅[此章节](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。
 
-* **不同的隔離錯誤原因代表什麼意思？**
+* **不同的隔离错误原因意味着什么？**
 
-   有10個可能的原因：未定義、使用者不明、網域無效、封鎖清單上的位址、已拒絕、已忽略錯誤、無法連線、帳戶已停用、信箱已滿、未連線。
+   以下是10个可能的原因：未定义、用户未知、域无效、阻止列表地址、被拒绝、错误被忽略、无法访问、帐户已禁用、邮箱已满、未连接。
 
-   如需詳細資訊，請參閱 [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md).
+   有关此内容的更多信息，请参阅 [了解隔离管理](../../sending/using/understanding-quarantine-management.md).
 
-## 從封鎖清單移除 {#removing-from-denylist}
+## 从阻止列表中删除 {#removing-from-denylist}
 
-* **我的一名收件者被誤新增至封鎖清單。 如何將他們從封鎖清單中移除，以便我可以開始再次向他們傳送訊息？**
+* **我的一名收件人被错误地添加到阻止列表中。 如何将其从阻止列表中删除，以便可以再次向他们发送消息？**
 
-   * 前往 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * 在對應記錄的詳細資訊中，設定 **[!UICONTROL Status]** 欄位至 **[!UICONTROL Valid]**.
-   * 儲存記錄。
+   * 转到 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+   * 在对应的记录的详细信息中，设置 **[!UICONTROL Status]** 字段至 **[!UICONTROL Valid]**.
+   * 保存记录。
 
-* **如何找出我的IP是否位於封鎖清單上？ 如何從封鎖清單移除我的IP？**
+* **如何确定我的IP之一是否处于阻止列表状态？ 阻止列表如何从中删除我的IP？**
 
-   若要檢查您的IP位址是否在封鎖清單上，您可以使用各種網站來驗證它，例如：
+   要检查您的IP地址是否处于阻止列表状态，您可以使用各种网站对其进行验证，例如：
    * [MX Toolbox](https://mxtoolbox.com/)
-   * [我的IP位址是什麼](https://whatismyipaddress.com)
+   * [我的IP地址是什么](https://whatismyipaddress.com)
 
-   通常，IP位址檢查的結果會傳回一個清單，其中包含封鎖清單的詳細資訊以及封鎖IP位址的網站名稱。
+   阻止列表通常，IP地址检查的结果将返回一个列表，其中包含的详细信息以及阻止IP地址的网站的名称。
 
-   按一下對應的連結，即可存取網站詳細資訊。
+   通过单击相应的链接，您可以访问网站详细信息。
 
-   然後，您可以要求從新增IP位址至封鎖清單的網站將您的網站從封鎖清單中除名。
+   阻止列表然后，您可以请求从将IP地址添加到其的网站中取消列出您的网站。
 
    >[!NOTE]
    >
-   >除名程式可能會因網站而異。 有些網站會要求您建立帳戶，有些則只需要您提供IP位址。
+   >除名过程可能因网站而异。 有些站点要求您创建帐户，而有些站点则要求您提供IP地址。

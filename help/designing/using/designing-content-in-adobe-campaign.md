@@ -19,15 +19,15 @@ ht-degree: 85%
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 
-電子郵件設計工具可讓您透過拖放介面建立吸引人、個人訂做的電子郵件。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
+Email Designer允许您通过拖放界面创建引人入胜的单独定制电子邮件。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
 
-Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能够直接通过用户界面轻松定义可视性条件和动态内容并将其应用于电子邮件、模板或片段。按一下按鈕時，您可在拖放介面與HTML程式碼之間無縫切換。
+Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能够直接通过用户界面轻松定义可视性条件和动态内容并将其应用于电子邮件、模板或片段。单击按钮后，您可以在拖放界面和HTML代码之间无缝切换。
 
 通过 Email Designer，可以创建电子邮件内容和电子邮件内容模板。它与简单电子邮件、事务电子邮件、A/B 测试电子邮件、多语言电子邮件和定期电子邮件兼容。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索電子郵件設計工具](#video)
+![](assets/do-not-localize/how-to-video.png) [在视频中了解电子邮件设计器](#video)
 
 * 要了解如何创建电子邮件内容，请参阅 [Email Designer 入门](../../designing/using/quick-start.md)。
 * 有关 Email Designer 的概述，请参阅[使用 Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
@@ -117,7 +117,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
    在发送消息之前对其进行预览。Adobe Campaign 提供使用 Litmus 测试电子邮件呈现的方法。有关此方面的更多信息，请参阅[电子邮件呈现](../../sending/using/email-rendering.md)。
 
-* 電子郵件設計工具不支援反向連結中繼標籤。
+* Email Designer不支持反向链接meta标记。
 
 下面的 Adobe Campaign 分步指南中介绍了有关消息的更多设计和一般最佳实践：[使用 Adobe Campaign 实施交付最佳实践](../../sending/using/delivery-best-practices.md)。
 
@@ -151,8 +151,8 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 * 在编辑样式时，只有大多数电子邮件客户端正式支持的 Web 字体才可用。
 * 无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。有关样式的更多信息，请参阅[此部分](../../designing/using/styles.md)。
-* 電子郵件設計工具不支援反向連結中繼標籤。
-* 替代字元組（未包含在Unicode字元集的基本多語言平面中的字元）無法以2位元組（16位元）儲存，且需要編碼成2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。<br>這些字元可能會在動態文字中造成一些不相容問題。 傳送訊息前，您需要執行強大的測試。
+* Email Designer不支持反向链接meta标记。
+* 替代字符对（未包含在Unicode字符集的基本多语言平面中的字符）不能以2字节（16位）存储，并且需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字、大多数表情符号和一些语言。<br>这些字符可能会导致动态文本中存在某些不兼容问题。 在发送消息之前，您需要执行强大的测试。
 
 **相关主题**
 
@@ -161,10 +161,10 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 * [创建短信消息](../../channels/using/creating-an-sms-message.md)
 * [创建和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-這部影片會提供電子郵件設計工具的概觀。
+此视频概要介绍了Email Designer。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-若要開始使用電子郵件設計工具，請觀看此影片 [視訊集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 說明電子郵件設計工具的一般功能，以及如何從草稿開始或使用範本來設計電子郵件
+要开始使用电子邮件设计器，请观看此视频 [视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 说明Email Designer的一般功能以及如何从头开始或使用模板设计电子邮件

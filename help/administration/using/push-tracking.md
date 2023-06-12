@@ -1,6 +1,6 @@
 ---
 title: 实施推送跟踪
-description: 瞭解如何確保在iOS和Android上正確實作推播通知追蹤
+description: 了解如何确保已在iOS和Android上正确实施推送通知跟踪
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -15,39 +15,39 @@ ht-degree: 0%
 
 # 实施推送跟踪 {#push-tracking}
 
-## 關於推播追蹤 {#about-push-tracking}
+## 关于推送跟踪 {#about-push-tracking}
 
-若要確保推播通知已完全開發，您必須確保追蹤部分已正確實作，因為並非每個推播通知都啟用追蹤。 若要啟用此功能，開發人員需要識別哪些傳遞已啟用追蹤，Adobe Campaign Standard會傳送稱為的標幟 `_acsDeliveryTracking` 具有兩個值 **於** 或 **關閉**. 應用程式開發人員應僅針對將變數設為的傳遞傳送傳送追蹤請求 **於**.
+要确保推送通知已完全开发，您需要确保跟踪部分已正确实施，因为并非每个推送通知都启用了跟踪。 要启用此功能，开发人员需要识别哪些投放启用了跟踪，Adobe Campaign Standard将发送一个名为的标记 `_acsDeliveryTracking` 具有两个值 **日期** 或 **关闭**. 应用程序开发人员应仅对将变量设置为的投放发送跟踪请求 **日期**.
 
 >[!IMPORTANT]
 >
->在21.1版本之前設定的傳送或使用自訂範本的傳送無法使用此變數。
+>此变量不可用于21.1版本之前的投放集或使用自定义模板的投放。
 
-推播追蹤分為三種型別：
+推送跟踪分为三种类型：
 
-* **推播曝光次數**  — 推播通知已傳送至裝置，且位於通知中心但完全未觸及時。  這被視為一次曝光。  在大多數情況下，如果不與傳送的數字相同，則曝光數應該類似。 這可確保裝置確實收到訊息，並將該資訊轉送回伺服器。
+* **推送展示**  — 当推送通知已发送到设备并位于通知中心但完全未触碰时。  这被视为一种印象。  在大多数情况下，展示次数应与交付的数量相似（如果不是相同）。 它可确保设备确实收到消息并将该信息转发回服务器。
 
-* **推送點按**  — 當推播通知已傳送至裝置，且使用者已按一下裝置時。  使用者想要檢視通知（進而將移至推播開啟追蹤）或關閉通知。
+* **推送点击**  — 当推送通知已发送到设备并且用户已单击该设备时。  用户希望查看通知（这随之将移至推送打开跟踪）或关闭通知。
 
-* **推送開啟**  — 當推播通知已傳送至裝置，且使用者已按一下通知，導致應用程式開啟時。  這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
+* **推送打开**  — 当推送通知已发送到设备并且用户已单击该通知导致应用程序打开时。  这与推送点击类似，不同之处在于，如果取消通知，则不会触发推送打开。
 
-若要實作Campaign Standard追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在 [Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+要实施Campaign Standard跟踪，移动设备应用程序需要包含Adobe Experience Platform SDK。 这些SDK在以下位置提供： [Adobe Experience Platform SDK文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-若要傳送追蹤資訊，有三個變數需要傳送。 其中兩個是從Campaign Standard收到的資料的一部分，另一個是指示它是否為的動作變數 **印象**， **按一下** 或 **開啟**.
+要发送跟踪信息，需要发送三个变量。 其中两个是从Campaign Standard收到的数据的一部分，另一个是指示它是否为 **展示**， **单击** 或 **打开**.
 
 | 变量 | 值 |
 |:-:|:-:|
-| broadlogId | 來自資料的_mId |
-| deliveryId | 來自資料的_dId |
-| 動作 | 「1」代表開啟，「2」代表點選，「7」代表印象 |
+| broadlogId | 来自数据的_mId |
+| deliveryId | 来自数据的_dId |
+| 操作 | “1”表示打开，“2”表示单击，“7”表示展示 |
 
-## Android實作 {#implementation-android}
+## Android实施 {#implementation-android}
 
-### 如何實作推播曝光追蹤 {#push-impression-tracking-android}
+### 如何实施推送展示跟踪 {#push-impression-tracking-android}
 
-針對曝光追蹤，您必須傳送值「7」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+对于展示跟踪，在调用时必须发送值“7”才能执行操作 `collectMessageInfo()` 或 `trackAction()` 函数。
 
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -84,17 +84,17 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### 如何實作點選追蹤 {#push-click-tracking-android}
+### 如何实施点击跟踪 {#push-click-tracking-android}
 
-針對點選追蹤，您必須傳送值「2」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
-若要追蹤點選，需要處理兩種情況：
+对于点击跟踪，调用时必须发送值“2”才能执行操作 `collectMessageInfo()` 或 `trackAction()` 函数。
+要跟踪点击，需要处理以下两种情况：
 
-* 使用者看到通知但將其清除。
-* 使用者看到通知並按一下即可將其轉換為開啟追蹤。
+* 用户看到通知但将其清除。
+* 用户看到通知并单击它，会将其转换为打开跟踪。
 
-若要處理此問題，您需要使用兩個意圖：一個用於按一下通知，另一個用於解除通知。
+要解决此问题，您需要使用两个意图：一个用于单击通知，另一个用于取消通知。
 
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-為了 **[!UICONTROL BroadcastReceiver]** 若要使用，您需要將它註冊到 **[!UICONTROL AndroidManifest.xml]**
+为了 **[!UICONTROL BroadcastReceiver]** 要工作，您需要将它注册到 **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -176,15 +176,15 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### 如何實作開啟追蹤 {#push-open-tracking-android}
+### 如何实施打开跟踪 {#push-open-tracking-android}
 
-您必須傳送「1」和「2」，因為使用者必須按一下通知才能開啟應用程式。 如果未透過推播通知啟動/開啟應用程式，則不會發生追蹤事件。
+您需要发送“1”和“2”，因为用户必须单击“通知”才能打开应用程序。 如果未通过推送通知启动/打开应用程序，则不会发生跟踪事件。
 
-若要追蹤開啟狀態，您必須建立目的。 意圖物件可讓Android作業系統在完成某些動作時呼叫方法。 在此情況下，請按一下通知以開啟應用程式。
+要跟踪打开情况，您需要创建意图。 目的对象允许Android操作系统在完成某些操作后调用方法。 在这种情况下，单击通知可打开应用程序。
 
-此程式碼以點選曝光追蹤的實施為基礎。 替換為 **[!UICONTROL Intent]** 設定，您現在需要將追蹤資訊傳送回Adobe Campaign Standard。 在此情況下，您需要將 **[!UICONTROL Open Intent]** 若要開啟應用程式中的特定檢視，這會呼叫onResume方法，並在其中加入通知資料 **[!UICONTROL Intent Object]**.
+此代码基于点击展示跟踪的实施。 替换为 **[!UICONTROL Intent]** 设置，您现在需要将跟踪信息发送回Adobe Campaign Standard。 在这种情况下，您需要将 **[!UICONTROL Open Intent]** 要向应用程序中的特定视图打开，这将调用onResume方法，并将通知数据包含在 **[!UICONTROL Intent Object]**.
 
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -244,27 +244,27 @@ private void handleTracking() {
 }
 ```
 
-## iOS實作 {#implementation-iOS}
+## iOS实施 {#implementation-iOS}
 
-### 如何實作推播曝光追蹤 {#push-impression-tracking-iOS}
+### 如何实施推送展示跟踪 {#push-impression-tracking-iOS}
 
-針對曝光追蹤，您必須傳送值「7」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+对于展示跟踪，在调用时必须发送值“7”才能执行操作 `collectMessageInfo()` 或 `trackAction()` 函数。
 
-若要瞭解iOS通知的運作方式，需要詳細說明應用程式的三種狀態：
+要了解iOS通知的工作方式，需要详细了解应用程序的三种状态：
 
-* **前景**：當應用程式目前作用中且目前在熒幕上（在前景中）時。
-* **背景**：當is應用程式不在熒幕上，但程式未關閉時。 按兩下「首頁」按鈕時，通常會顯示背景中的所有應用程式。
-* **關閉/關閉**：其程式已終止的應用程式。
+* **前台**：当应用程序当前处于活动状态且当前显示在屏幕上（在前台）时。
+* **背景**：当is应用程序不在屏幕上，但进程未关闭时。 当您双击“主页”按钮时，它通常会显示后台的所有应用程序。
+* **关闭/关闭**：进程已被终止的应用程序。
 
-為了仍然擁有 **[!UICONTROL Impression]** 應用程式於背景執行時，追蹤仍正常運作，我們需要傳送 **[!UICONTROL Content-Available]** 讓應用程式知道必須完成追蹤。
+为了还能 **[!UICONTROL Impression]** 当应用程序处于后台时，我们需要发送跟踪功能 **[!UICONTROL Content-Available]** 才能让应用程序知道必须完成跟踪。
 
 >[!CAUTION]
 >
-> 如果應用程式關閉，Apple將不會呼叫應用程式，直到重新啟動應用程式為止。 這表示您將無法知道何時已在iOS上收到通知。 </br> 基於此原因，iOS曝光追蹤可能不準確，且不應被視為可靠。
+> 如果某个应用程序关闭，则在重新启动该应用程序之前，Apple不会调用该应用程序。 这意味着您无法知道何时在iOS上收到通知。 </br> 因此，iOS展示跟踪可能不准确，不应被视为可靠。
 
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
-下列程式碼會鎖定背景應用程式：
+以下代码定位后台应用程序：
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
@@ -298,7 +298,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-下列程式碼會鎖定前景應用程式：
+以下代码以前台应用程序为目标：
 
 ```
 // This will get called when the app is in the foreground
@@ -330,10 +330,10 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### 如何實作點選追蹤 {#push-click-tracking-iOS}
+### 如何实施点击跟踪 {#push-click-tracking-iOS}
 
-針對點選追蹤，您必須傳送值「2」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于点击跟踪，调用时必须发送值“2”才能执行操作 `collectMessageInfo()` 或 `trackAction()` 函数。
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -370,11 +370,11 @@ func registerForPushNotifications() {
     }
 ```
 
-現在，當您傳送推播通知時，您需要新增類別。 在此案例中，我們將其命名為「DEFAULT」。
+现在，当您发送推送通知时，您需要添加类别。 在本例中，我们将其称为“默认”。
 
 ![](assets/tracking_push.png)
 
-然後處理 **[!UICONTROL Dismiss]** 並傳送您需要新增下列專案的追蹤資訊：
+然后处理 **[!UICONTROL Dismiss]** 并发送跟踪信息，您需要添加以下内容：
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -408,11 +408,11 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### 如何實作開啟追蹤 {#push-open-tracking-iOS}
+### 如何实施打开跟踪 {#push-open-tracking-iOS}
 
-您必須傳送「1」和「2」，因為使用者必須按一下通知才能開啟應用程式。 如果未透過推播通知啟動/開啟應用程式，則不會發生追蹤事件。
+您需要发送“1”和“2”，因为用户必须单击“通知”才能打开应用程序。 如果未通过推送通知启动/打开应用程序，则不会发生跟踪事件。
 
-對於21.1版之前建立的傳遞或使用自訂範本的傳遞，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+对于在21.1版本之前创建的投放或使用自定义模板进行的投放，请参阅此 [部分](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation

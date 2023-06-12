@@ -1,6 +1,6 @@
 ---
-title: DataModel訂閱事件
-description: 瞭解資料模型
+title: DataModel订阅事件
+description: 了解数据模型
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,58 +14,58 @@ ht-degree: 31%
 
 ---
 
-# 訂閱事件(nms：rtEvent)
+# 订阅事件(nms：rtEvent)
 
-## 物件說明
+## 对象描述
 
 <table>
     <tr>
         <th>名称</th>
         <th>标签</th>
-        <th>型別（長度）</th>
+        <th>类型（长度）</th>
         <th>明细列表值</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>主要資源ID</td>
+        <td>主资源ID</td>
         <td>字符串 </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>事件內容</td>
+        <td>事件上下文</td>
         <td>项 </td>
         <td> </td>
     </tr>
     <tr>
         <td>电子邮件</td>
         <td>电子邮件</td>
-        <td>字串(128)</td>
+        <td>字符串(128)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>電子郵件格式</td>
+        <td>emailFormat</td>
         <td>电子邮件格式</td>
-        <td>分項清單（位元） </td>
+        <td>明细列表（字节） </td>
         <td>
             <ul>
-            <li>文字 — 文字 — 1</li>
+            <li>文本 — 文本 — 1</li>
             <li>HTML- html - 2</li>
-            <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+            <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
             <li>未知 — 未知 — 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>已封存的事件ID</td>
+        <td>已存档事件ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>行動電話</td>
+        <td>移动电话</td>
         <td>手机号码</td>
-        <td>字串(32)</td>
+        <td>字符串(32)</td>
         <td> </td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ ht-degree: 31%
 
 ## 筛选器
 
-透過電子郵件（透過電子郵件）
+按电子邮件（按电子邮件）
 
 <table>
     <tr>
@@ -91,7 +91,7 @@ ht-degree: 31%
     </tr>
 </table>
 
-依狀態或型別(byStatusOrType)
+按状态或类型(byStatusOrType)
 
 <table>
         <tr>
@@ -100,7 +100,7 @@ ht-degree: 31%
         </tr>
         <tr>
         <td>状态</td>
-        <td>分項清單</td>
+        <td>明细列表</td>
         </tr>
         <tr>
         <td>类型</td>

@@ -1,6 +1,6 @@
 ---
-title: 新增連結
-description: 探索如何使用電子郵件設計工具管理連結。
+title: 添加链接
+description: 了解如何使用Email Designer管理链接。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,101 +15,101 @@ ht-degree: 7%
 
 ---
 
-# 新增連結 {#links}
+# 添加链接 {#links}
 
-## 插入連結 {#inserting-a-link}
+## 插入链接 {#inserting-a-link}
 
-編輯器可讓您將連結插入HTML內容元素中，以個人化電子郵件或登入頁面。
+该编辑器允许您通过在HTML内容元素中插入链接，对电子邮件或登陆页面进行个性化设置。
 
-您可以將連結插入任何頁面元素中：影像、單字、單字群組、文字區塊等。
+您可以将链接插入到任意页面元素中：图像、单词、单词组、文本块等。
 
 >[!NOTE]
 >
->下圖顯示如何使用插入連結 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 在電子郵件中。
+>下图显示了如何使用插入链接 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) 一封电子邮件中。
 
-1. 選取元素並按一下 **[!UICONTROL Insert link]** 從內容工具列。
+1. 选择元素并单击 **[!UICONTROL Insert link]** 从上下文工具栏中。
 
    ![](assets/des_insert_link.png)
 
-1. 選擇您要建立的連結型別：
+1. 选择要创建的链接类型：
 
-   * **外部連結**：插入外部URL的連結。
+   * **外部链接**：插入指向外部URL的链接。
 
-      您可以定義URL的個人化。 另請參閱 [個人化URL](personalization.md#personalizing-urls).
+      您可以为URL定义个性化。 参见 [个性化URL](personalization.md#personalizing-urls).
 
-   * **登陸頁面**：授予Adobe Campaign登陸頁面的存取權。
-   * **訂閱連結**：插入訂閱Adobe Campaign服務的連結。
-   * **取消訂閱連結**：插入取消訂閱Adobe Campaign服務的連結。
-   * **定義動作的連結**：定義點選登入頁面中的元素時的動作。
+   * **登陆页面**：授予对Adobe Campaign登陆页面的访问权限。
+   * **订阅链接**：插入链接以订阅Adobe Campaign服务。
+   * **退订链接**：插入链接以取消订阅Adobe Campaign服务。
+   * **定义操作的链接**：定义点击登陆页面中的元素时的操作。
 
       >[!NOTE]
       >
-      >此型別的連結僅適用於登陸頁面。
+      >此类链接仅适用于登陆页面。
 
-1. 您可以修改顯示給收件者的文字。
-1. 您可以設定使用者按一下連結時的瀏覽器行為（例如，開啟新視窗）。
+1. 您可以修改向收件人显示的文本。
+1. 您可以设置用户单击链接时的浏览器行为（例如，打开一个新窗口）。
 
    >[!NOTE]
    >
-   >定義瀏覽器行為僅適用於登陸頁面。
+   >定义浏览器行为仅适用于登陆页面。
 
 1. 保存您的更改。
 
-建立連結後，您仍可從「設定」窗格修改連結。 按一下鉛筆圖示可編輯其引數。
+创建链接后，您仍然可以从设置窗格对其进行修改。 单击铅笔图标以编辑其参数。
 
 ![](assets/des_link_edit.png)
 
-使用編輯電子郵件時 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，即可從列出電子郵件中所有URL的表格輕鬆存取及修改您建立的連結。 此列表提供一个集中式视图，让您能够找到电子邮件内容中的每个 URL。若要存取，請參閱 [關於追蹤的URL](#about-tracked-urls).
+使用编辑电子邮件时 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)中，您可以轻松地访问和修改从列出电子邮件中所有URL的表中创建的链接。 此列表提供一个集中式视图，让您能够找到电子邮件内容中的每个 URL。要访问它，请参阅 [关于跟踪的URL](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->個人化URL，例如 **映象頁面URL** 或 **取消訂閱** 無法從此清單修改連結。 所有其他連結皆可編輯。
+>个性化URL，例如 **镜像页面URL** 或 **退订** 无法从此列表中修改链接。 所有其他链接均可编辑。
 
 **相关主题**：
 
 * [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [添加内容块](../../designing/using/personalization.md#adding-a-content-block)
 * [定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## 關於追蹤的URL {#about-tracked-urls}
+## 关于跟踪的URL {#about-tracked-urls}
 
-Adobe Campaign可讓您追蹤收件者在點按電子郵件中所包含的URL時的行為。 有关跟踪的更多信息，请参阅[此部分](../../sending/using/tracking-messages.md#about-tracking)。
+通过Adobe Campaign，您可以跟踪收件人单击电子邮件中包含的URL时的行为。 有关跟踪的更多信息，请参阅[此部分](../../sending/using/tracking-messages.md#about-tracking)。
 
-此 **[!UICONTROL Links]** 動作列中的圖示會自動顯示要追蹤之內容的所有URL清單。
+此 **[!UICONTROL Links]** 操作栏中的图标会自动显示将跟踪的内容的所有URL的列表。
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->預設會啟用追蹤。 只有在Adobe Campaign中啟用追蹤時，此功能才可用於電子郵件。 如需追蹤引數的詳細資訊，請參閱 [本節](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>默认情况下会激活跟踪。 只有在Adobe Campaign中激活跟踪后，此功能才可用于电子邮件。 有关跟踪参数的更多信息，请参阅 [本节](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
-每個連結的URL、類別、標籤和追蹤型別都可在此清單中修改。 要编辑链接，请单击相应的铅笔图标。
+可以从此列表中修改每个链接的URL、类别、标签和跟踪类型。 要编辑链接，请单击相应的铅笔图标。
 
 ![](assets/des_links_tracking.png)
 
-對於每個追蹤的URL，您可以將追蹤模式設定為下列其中一個值：
+对于每个跟踪的URL，您可以将跟踪模式设置为以下值之一：
 
-* **已追蹤**：啟用此URL上的追蹤。
-* **映象頁面**：將此URL視為映象頁面URL。
-* **從不**：絕對不要啟用此URL的追蹤。 此資訊已儲存：如果URL再次出現在未來的訊息中，其追蹤會自動停用。
-* **選擇退出**：將此URL視為選擇退出或取消訂閱URL。
+* **已跟踪**：在此URL上激活跟踪。
+* **镜像页面**：将此URL视为镜像页面URL。
+* **从不**：从不激活此URL的跟踪。 此信息已保存：如果URL再次出现在将来的消息中，则其跟踪会自动停用。
+* **选择退出**：将此URL视为选择退出或退订URL。
 
 ![](assets/des_link_tracking_type.png)
 
-您也可以停用或啟用每個URL的追蹤。
+您还可以停用或激活每个URL的跟踪。
 
 >[!NOTE]
 >
->依預設，在Adobe Campaign中，會追蹤所有內容URL，但 **映象頁面URL** 和 **取消訂閱** 連結。
+>默认情况下，在Adobe Campaign中，将跟踪所有内容URL，但 **镜像页面URL** 和 **退订** 链接。
 
-您可以透過編輯 **[!UICONTROL Category]** 欄位，視訊息中使用的URL而定。 這些類別可顯示報表，例如 [URL和點按資料流](../../reporting/using/urls-and-click-streams.md).
+您可以通过编辑 **[!UICONTROL Category]** 字段，具体取决于消息中使用的URL。 这些类别可以显示报表，例如 [URL和点击流](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-建立報表時，從 **[!UICONTROL Components]** 索引標籤，選取 **[!UICONTROL Dimension]** 並向下捲動清單以存取追蹤元件。 例如，拖放 **[!UICONTROL Tracking URL Category]** 放入工作區中，以根據每個已點按URL的追蹤類別來顯示結果。
+构建报告时，从 **[!UICONTROL Components]** 选项卡，选择 **[!UICONTROL Dimension]** 并向下滚动列表以访问跟踪组件。 例如，拖放 **[!UICONTROL Tracking URL Category]** ，以根据每个点击的URL的跟踪类别来显示结果。
 
 ![](assets/des_link_tracking_report.png)
 
-如需建立自訂報表的詳細資訊，請參閱 [本節](../../reporting/using/about-dynamic-reports.md).
+有关构建自定义报表的更多信息，请参阅 [本节](../../reporting/using/about-dynamic-reports.md).

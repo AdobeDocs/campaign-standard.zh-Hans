@@ -1,6 +1,6 @@
 ---
 title: 使用现有内容设计电子邮件
-description: 瞭解如何使用電子郵件設計工具中的現有內容電子郵件內容來設計電子郵件。
+description: 了解如何使用Email Designer中的现有内容电子邮件内容设计电子邮件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,77 +15,77 @@ ht-degree: 5%
 
 ---
 
-# 使用現有內容進行設計 {#designing-using-existing-content}
+# 使用现有内容进行设计 {#designing-using-existing-content}
 
-## 選取現有內容{#selecting-an-existing-content}
+## 选择现有内容{#selecting-an-existing-content}
 
-Adobe Campaign隨附一組預先定義的內容，協助您開始使用。 您可以使用其中一個，或者，如果您需要傳送的訊息內容是在Adobe Campaign外部準備的，您可以從您的電腦或URL匯入。
+Adobe Campaign提供了一组预定义内容，可帮助您入门。 您可以使用其中一种方法，或者，如果您需要发送的消息内容是在Adobe Campaign之外准备的，则可以从您的计算机或URL导入该内容。
 
-建立電子郵件或登入頁面時，您可以選擇從其他來源載入現有內容。
+创建电子邮件或登陆页面时，您可以选择从其他源加载现有内容。
 
 >[!NOTE]
 >
->以下影像顯示如何使用載入現有內容 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md).
+>下图显示了如何使用加载现有内容 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md).
 
-1. 建立電子郵件或登入頁面後，開啟其內容。
-1. 按一下首頁圖示以存取 **[!UICONTROL Email Designer]** 首頁。
+1. 创建电子邮件或登陆页面后，打开其内容。
+1. 单击主页图标以访问 **[!UICONTROL Email Designer]** 主页。
 
    ![](assets/des_loading_1.png)
 
-1. 選取您要載入的內容來源：
+1. 选择要加载的内容的源：
 
-   * [內容範本](../../designing/using/using-reusable-content.md#content-templates)：按一下 **[!UICONTROL Templates]** 標籤。
-   * [從頭開始的內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，以重新開始：按一下 **[!UICONTROL Create]** 按鈕。
-   * [以ZIP或HTML檔案形式從您的電腦取得內容](#importing-content-from-a-file)：按一下 **[!UICONTROL Upload]** 按鈕。
-   * [來自現有URL的內容](#importing-content-from-a-url) （僅適用於電子郵件）：按一下 **[!UICONTROL Import from URL]** 按鈕。
+   * [内容模板](../../designing/using/using-reusable-content.md#content-templates)：单击 **[!UICONTROL Templates]** 选项卡。
+   * [从头开始的内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，以重新开始：单击 **[!UICONTROL Create]** 按钮。
+   * [计算机中的内容作为ZIP或HTML文件](#importing-content-from-a-file)：单击 **[!UICONTROL Upload]** 按钮。
+   * [现有URL中的内容](#importing-content-from-a-url) （仅适用于电子邮件）：单击 **[!UICONTROL Import from URL]** 按钮。
 
    ![](assets/des_loading_2.png)
 
-1. 載入內容。 選取的內容會取代目前的內容。
+1. 加载内容。 选定的内容将替换当前内容。
 
-   匯入內容後，即可編輯內容並加以個人化。
+   导入内容后，即可编辑内容并使其个性化。
 
    >[!NOTE]
    >
-   >此 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 使用特定標籤。 上傳至Campaign的標準HTML內容必須符合預期的標籤，才能從電子郵件設計工具完全相容及可編輯。 如果不相符，您的內容會上傳到 [相容性模式](#compatibility-mode). 若要讓現有內容相容，請參閱 [本節](#editing-existing-contents-with-the-email-designer).
+   >此 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) 使用特定标记。 上传到Campaign的标准HTML内容必须与预期的标记匹配，才能在Email Designer中完全兼容和可编辑。 如果不匹配，您的内容将上传到 [兼容模式](#compatibility-mode). 要使现有内容兼容，请参阅 [本节](#editing-existing-contents-with-the-email-designer).
 
 **相关主题：**
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [管理登入頁面](../../channels/using/getting-started-with-landing-pages.md)
+* [管理登陆页面](../../channels/using/getting-started-with-landing-pages.md)
 
-## 使用電子郵件設計工具編輯現有內容{#editing-existing-contents-with-the-email-designer}
+## 使用Email Designer编辑现有内容{#editing-existing-contents-with-the-email-designer}
 
-若要充分利用版本的可能性， [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，您上傳的HTML必須包含特定標籤，以符合WYSIWYG編輯器。
+充分利用 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)，您上传的HTML必须包含特定标记，以便与WYSIWYG编辑器兼容。
 
-如果全部或部分HTML沒有此標籤，內容就會載入&#39; [相容性模式](#compatibility-mode)&#39;.
+如果全部或部分HTML没有此标记，则该内容随后加载到“ [兼容模式](#compatibility-mode)&#39;.
 
-若要讓現有的外部內容在電子郵件設計工具中完全可編輯，請參閱 [使用現有內容設計電子郵件](../../designing/using/using-existing-content.md) 區段。
+要使现有外部内容在Email Designer中完全可编辑，请参阅 [使用现有内容设计电子邮件](../../designing/using/using-existing-content.md) 部分。
 
-## 匯入現有的電子郵件內容 {#importing}
+## 导入现有电子邮件内容 {#importing}
 
-### 從檔案匯入內容 {#importing-content-from-a-file}
+### 从文件导入内容 {#importing-content-from-a-file}
 
-在「電子郵件設計工具」首頁上，按一下 **[!UICONTROL Upload]** 按鈕從電腦上傳檔案，然後確認。
+在Email Designer主页中，单击 **[!UICONTROL Upload]** 按钮从计算机上传文件，然后进行确认。
 
-zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並遵循zip資料夾的樹狀結構。
+zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并遵循zip文件夹的树结构。
 
-匯入支援下列格式：
+导入支持以下格式：
 
-* 包含內建樣式表的HTML檔案
-* 包含HTML檔案、樣式表(.CSS)和影像的.zip資料夾
+* 具有合并样式表的HTML文件
+* 包含HTML文件、样式表(.CSS)和图像的.zip文件夹
 
 >[!NOTE]
 >
->針對電子郵件內容，建議您匯入內含樣式表的單一HTML檔案。
+>对于电子邮件内容，我们建议您导入带有合并样式表的单HTML文件。
 
-#### 從URL匯入內容 {#importing-content-from-a-url}
+#### 从URL导入内容 {#importing-content-from-a-url}
 
-從URL匯入內容之前，請確定它符合以下要求：
+在从URL导入内容之前，请确保它符合以下要求：
 
-* 內容必須透過此URL公開可用。
-* 基於安全性理由，僅限開頭為的URL **[!UICONTROL https]** 允許。
-* 請確定所有資源（影像、CSS）皆設定在絕對連結和HTTPS中。 否則，在傳送電子郵件後，映象頁面會顯示且不含其資源。 以下是絕對連結定義的範例：
+* 内容需要通过此URL公开发布。
+* 出于安全原因，仅限开头为的URL **[!UICONTROL https]** 允许。
+* 确保在绝对链接和HTTPS中设置所有资源（图像、CSS）。 否则，在发送电子邮件后，将显示不带其资源的镜像页面。 以下是绝对链接定义的示例：
 
    ```
    <a href="https://www.mywebsite.com/images/myimage.png">
@@ -93,108 +93,108 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 >[!NOTE]
 >
->從URL載入內容僅適用於電子郵件頻道。
+>从URL加载内容仅适用于电子邮件渠道。
 
-若要從URL擷取現有內容，請遵循下列步驟：
+要从URL检索现有内容，请执行以下步骤：
 
-1. 從電子郵件設計工具首頁，選取 **[!UICONTROL Import from URL]** 按鈕。
+1. 从Email Designer主页中，选择 **[!UICONTROL Import from URL]** 按钮。
 
    ![](assets/email_designer_importfromurl.png)
 
-1. 定義從中擷取內容的URL。
+1. 定义从中检索内容的URL。
 1. 单击 **[!UICONTROL Confirm]**。
 
 在视频中发现此功能.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
 
-### 在準備時自動從URL擷取內容 {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### 在准备时自动从URL检索内容 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-在訊息準備期間從URL匯入內容，可讓您在每次準備電子郵件時擷取最新的HTML內容。 如此一來，循環電子郵件的內容在傳送時始終為最新。 此功能也可讓您建立排程於特定日期的訊息，即使內容尚未準備就緒亦然。
+在邮件准备期间从URL导入内容，使您能够每次准备电子邮件时检索最新的HTML内容。 这样，定期电子邮件的内容在发送时始终保持最新。 此功能还允许您创建安排在特定日期发送的消息，即使内容尚未准备就绪。
 
-若要在準備時擷取內容，請遵循下列步驟：
+要在准备时检索内容，请执行以下步骤：
 
-1. 選取 **[!UICONTROL Content imported during preparation]** 選項。
+1. 选择 **[!UICONTROL Content imported during preparation]** 选项。
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. URL內容在編輯器中顯示為唯讀。
+1. URL内容在编辑器中显示为只读。
 
    >[!CAUTION]
    >
-   >在此步驟中，不應將內容編輯器中顯示的HTML列入考量。 它將在準備階段擷取。
+   >在此步骤中，不应考虑内容编辑器中显示的HTML。 它将在准备阶段进行检索。
 
-1. 若要預覽已擷取的URL內容，請在建立訊息後將其開啟，然後按一下 **[!UICONTROL Preview]** 按鈕。
+1. 要预览已检索的URL内容，请在创建消息后将其打开，然后单击 **[!UICONTROL Preview]** 按钮。
 
-您可以個人化遠端URL，以從中擷取內容。 为此请执行以下操作步骤：
+可以个性化从中检索内容的远程URL。 为此请执行以下操作步骤：
 
-1. 按一下畫面頂端的電子郵件標籤以存取電子郵件設計工具 **[!UICONTROL Properties]** 標籤。
-1. 尋找 **[!UICONTROL Remote URL]** 欄位。
+1. 单击屏幕顶部的电子邮件标签以访问电子邮件设计器 **[!UICONTROL Properties]** 选项卡。
+1. 查找 **[!UICONTROL Remote URL]** 字段。
 
    ![](assets/email_designer_importfromurl4.png)
 
-1. 插入所需的個人化欄位、內容區塊或動態文字。
+1. 插入所需的个性化字段、内容块或动态文本。
 
-   此 **[!UICONTROL Current date - YYYYMMDD]** 例如，內容區塊可讓您插入當天的日期。
+   此 **[!UICONTROL Current date - YYYYMMDD]** 例如，内容块允许您插入一天的日期。
 
    >[!NOTE]
    >
-   >可用的個人化欄位已連結至 **傳遞** 僅限屬性（電子郵件建立日期、狀態、行銷活動標籤……）。
+   >可用的个性化字段已链接到 **投放** 仅限属性（电子邮件创建日期、状态、营销活动标签……）。
 
-如果內容下載在第一次嘗試時失敗，可重試兩次：
+如果内容下载在第一次尝试时失败，可以重试两次：
 
-1. 第二次嘗試在第一次嘗試後50毫秒開始。
-1. 第三次嘗試在第二次嘗試後100毫秒開始。
+1. 第二次尝试在第一次尝试后50毫秒开始。
+1. 第三次尝试在第二次尝试后100毫秒开始。
 
-這些重試方式對於下列情況很有幫助：
+这些重试在以下情况下很有帮助：
 
-* 遠端伺服器上的短期服務失敗
-* 叢集上的伺服器發生失敗，在這種情況下，由於工作伺服器的負載平衡，重試更有可能成功
+* 远程服务器上的短期服务故障
+* 群集上的服务器故障，在这种情况下，由于对工作服务器的负载平衡，重试更有可能成功
 
-### 相容性模式 {#compatibility-mode}
+### 兼容模式 {#compatibility-mode}
 
-上傳內容時，內容必須包含特定標籤，才能與電子郵件設計工具的WYSIWYG編輯器完全相容且可編輯。
+上传内容时，内容必须包含特定标记，以便与Email Designer的WYSIWYG编辑器完全兼容并可编辑。
 
-如果全部或部分上傳的HTML不符合預期的標籤，則內容會以「相容性模式」載入，這會限制透過UI編輯的可能性。
+如果全部或部分上传的HTML不符合预期的标记，则内容将在“兼容模式”下加载，这会限制通过UI进行编辑的可能性。
 
-以相容性模式載入內容時，您仍然可以透過介面執行下列修改（隱藏無法使用的動作）：
+在兼容模式下加载内容时，您仍然可以通过界面执行以下操作（隐藏不可用的操作）：
 
-* 變更文字或影像
-* 插入連結和個人化欄位
-* 編輯所選HTML區塊上的某些樣式選項
-* 定義條件式內容
+* 更改文本或更改图像
+* 插入链接和个性化字段
+* 编辑所选HTML块上的某些样式选项
+* 定义条件内容
 
 ![](assets/email_designer_compatibility.png)
 
-其他修改（例如將新區段新增至您的電子郵件或進階樣式）必須直接在電子郵件的原始程式碼中透過HTML模式完成。
+必须在电子邮件的源代码中通过HTML模式直接进行其他修改，如向电子邮件添加新部分或高级样式。
 
-如需將現有電子郵件轉換為電子郵件設計工具相容電子郵件的詳細資訊，請參閱 [本節](../../designing/using/using-existing-content.md).
+有关将现有电子邮件转换为与Email Designer兼容的电子邮件的更多信息，请参阅 [本节](../../designing/using/using-existing-content.md).
 
 **相关主题**：
 
 * [创建电子邮件](../../channels/using/creating-an-email.md)
-* [電子郵件設計工具的簡介影片](../../designing/using/designing-content-in-adobe-campaign.md#video)
-* [從頭開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+* [Email Designer简介视频](../../designing/using/designing-content-in-adobe-campaign.md#video)
+* [从头开始设计电子邮件内容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## 轉換HTML內容 {#converting-an-html-content}
+## 转换HTML内容 {#converting-an-html-content}
 
-如果您想要建立模組化範本和片段的架構，這些範本和片段可合併以在多個電子郵件中重複使用，您應考慮將您的電子郵件HTML轉換為電子郵件設計工具範本。
+如果要构建可组合起来在多个电子邮件中重复使用的模块化模板和片段的框架，应考虑将电子邮件HTML转换为Email Designer模板。
 
-此使用案例提供一種將HTML電子郵件快速轉換為電子郵件設計工具元件的方法。
+此用例提供了一种将HTML电子邮件转换为Email Designer组件的快速方法。
 
 >[!CAUTION]
 >
->本節適用於熟悉HTML程式碼的進階使用者。
+>本节适用于熟悉HTML代码的高级用户。
 
 >[!NOTE]
 >
->如同相容性模式，HTML元件可使用有限的選項進行編輯：您只能執行就地編輯。
+>与兼容模式一样，HTML组件也可以使用有限的选项进行编辑：您只能执行就地编辑。
 
-在電子郵件設計工具之外，請確定原始HTML分成可重複使用的區段。
+在Email Designer之外，确保将原始HTML划分为可重复使用的部分。
 
-如果不是這種情況，請從您的HTML中剪下不同的區塊。 例如：
+如果不是这种情况，请从HTML中划出各个块。 例如：
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -216,18 +216,18 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-識別完所有區塊後，在電子郵件設計工具中，針對現有電子郵件的每個區段重複下列程式：
+标识了所有块后，在Email Designer中，对现有电子邮件的每个部分重复以下过程：
 
-1. 開啟電子郵件設計工具以建立空白的電子郵件內容。
-1. 設定主體層級屬性：背景顏色、寬度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
-1. 新增結構元件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 新增HTML元件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 將您的HTML複製並貼到該元件中。
+1. 打开Email Designer以创建空电子邮件内容。
+1. 设置正文级别属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 添加HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将HTML复制并粘贴到该组件中。
 1. 切换到移动视图. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
-   回應式檢視已中斷，因為您的CSS遺失。
+   响应视图已损坏，因为您的CSS缺失。
 
-1. 若要修正此問題，請切換到原始程式碼模式，並將您的樣式區段複製貼到新的樣式區段中。 例如：
+1. 要解决此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分中。 例如：
 
    ```
    <style type="text/css">
@@ -240,9 +240,9 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
    >[!NOTE]
    >
-   >請務必將您的樣式新增至其他自訂樣式標籤中。
+   >确保将样式添加到其他自定义样式标记中。
    >
-   >請勿修改電子郵件設計工具產生的CSS：
+   >请勿修改电子邮件设计器生成的CSS：
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -251,4 +251,4 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 
-1. 返回行動檢視以檢查您的內容是否正確顯示並儲存變更。
+1. 返回移动设备视图以检查内容是否正确显示并保存更改。

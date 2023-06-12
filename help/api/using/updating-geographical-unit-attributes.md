@@ -1,6 +1,6 @@
 ---
 title: 更新地理单位属性
-description: 瞭解如何使用API更新地理單位屬性
+description: 了解如何使用API更新地理单位属性
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 11%
 
 # 更新地理单位属性 {#managing-geographical-units}
 
-1. 對執行GET要求 **geoUnitBase** 用於擷取地理單位PKey的資源。
-1. 在地理單位上執行PATCH請求，並在裝載中更新屬性。
+1. 对执行GET **geoUnitBase** 用于检索地理单位面板的资源。
+1. 对地理单位执行PATCH请求，并在有效负荷中使用要更新的属性。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-擷取地理單位清單。
+检索地理单位列表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -34,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所有地理單位。 擷取所需單位的PKey。
+它会返回所有地理单位。 检索所需设备的PKey。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-在地理單位上執行PATCH請求，並在裝載中更新屬性。
+对地理单位执行PATCH请求，并在有效负荷中使用要更新的属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

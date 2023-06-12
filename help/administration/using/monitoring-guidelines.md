@@ -1,6 +1,6 @@
 ---
 title: 监测准则
-description: 此頁面提供監督Campaign Standard的一般准則
+description: 本页介绍了监视Campaign Standard的一般准则
 audience: production
 feature: Access Management
 role: Admin
@@ -16,29 +16,29 @@ ht-degree: 21%
 # 监测准则 {#monitoring-guidelines}
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">監視系統</a></p></td>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">监视系统</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">监控工作流</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">监控投放</a></p></td></tr>
 </table>
 
-Campaign Standard提供數種監控執行個體的方式，以確保您的系統運作正常，並最終疑難排解設定工作流程、傳送傳遞等時可能發生的問題。
+Campaign Standard提供了多种方法来监控实例，以确保您的系统运行正常，并最终解决在设置工作流、发送投放等操作时可能出现的问题。
 
-## 監視系統 {#monitoring-system}
+## 监视系统 {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
-**系統通知**
+**系统通知**
 
-Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生的情況：事件狀態、系統更新、所需的動作等。 [了解更多信息](../../start/using/interface-description.md#top-bar)
+Campaign Standard界面提供了一个通知窗格，用于随时通知您系统中发生的情况：事件状态、系统更新、所需操作等。 [了解更多信息](../../start/using/interface-description.md#top-bar)
 
 
 **技术工作流**
 
-技术工作流是计划在服务器上定期执行的操作或作业。為確保您的執行個體正常運作，您需要確保執行個體隨時正常運作。 [了解更多信息](../../administration/using/technical-workflows.md)
+技术工作流是计划在服务器上定期执行的操作或作业。要确保实例健康和正常运行，您需要确保它们始终启动并运行。 [了解更多信息](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
-「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監控作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [阅读更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
+控制面板允许您管理实例的多个设置： URL权限、检查实例详细信息（如服务器的内部版本号）、监控活动配置文件使用情况等。 它还允许您监视连接到实例的SFTP服务器上的可用空间。 [阅读更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -46,16 +46,16 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技术对象**
 
-此 **[!UICONTROL Diagnosis]** 功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
+此 **[!UICONTROL Diagnosis]** 菜单是监控和分析应用程序生成的不同技术对象（数据模式、网页、批处理作业等）的关键工具。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
 
-**匯出稽核**
+**导出审核**
 
-匯出稽核可讓您監視執行個體上執行的匯出：從工作流程上傳的檔案、清單匯出以及從直接郵件訊息下載的檔案。
+导出审核允许您监视对实例执行的导出：从工作流上传的文件、列表导出以及从直邮消息下载的文件。
 [了解更多信息](../../administration/using/auditing-export-logs.md)
 
 **许可证**
 
-使用 **[!UICONTROL Licenses]** 功能表、監控執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
+使用 **[!UICONTROL Licenses]** 菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受。
 [了解更多信息](../../administration/using/licenses.md)
 
 ## 监控工作流 {#monitoring-workflows}
@@ -64,17 +64,17 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **最佳实践和故障排除**
 
-使用工作流程時，遵循最佳實務和疑難排解指南有助於改善效能。
+在使用工作流时，遵循最佳实践和疑难解答指南可以帮助提高性能。
 [了解更多信息](../../automating/using/best-practices-workflows.md)
 
 **日志和任务**
 
-工作流程記錄監控是分析工作流程並確保其正常執行的關鍵步驟。
+工作流日志监控是分析工作流并确保其正常运行的关键步骤。
 [了解更多信息](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **通知**
 
-Campaign Standard可讓您傳送通知給主管，以監視工作流程的執行並檢視是否有任何需要您注意的錯誤。
+Campaign Standard允许您向主管发送通知，以监控工作流的执行情况，并查看是否存在需要您注意的任何错误。
 [了解更多信息](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 监控投放 {#monitoring-deliveries}
@@ -83,20 +83,20 @@ Campaign Standard可讓您傳送通知給主管，以監視工作流程的執行
 
 **可投放性**
 
-Campaign Standard提供數種傳遞能力工具，協助您改善成功傳遞的訊息數量：傳遞輸送量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
+Campaign Standard提供了多种可投放性工具来帮助您提高成功投放的邮件的数量：投放吞吐量报告、发送时间优化、邮件预览、电子邮件渲染、隔离管理等。
 [了解更多信息](../../sending/using/about-deliverability.md)
 
 **投放**
 
-傳送訊息後，詳細的記錄檔可讓您監控傳送並測量行銷活動是否成功，以及追蹤訊息收件者的行為。
+发送消息后，利用详细的日志，可监控投放并衡量活动是否成功，以及跟踪消息收件人的行为。
 [了解更多信息](../../sending/using/monitoring-a-delivery.md)
 
-**傳遞警報**
+**投放警报**
 
-透過傳送警報功能，您可以設定自動傳送給一組使用者關於傳送執行的警報：傳送或準備失敗、不良跳出率、低輸送量等。
+借助投放警报功能，您可以设置自动发送给一组用户的警报，这些警报涉及投放的执行情况：发送或准备失败、跳出率差、吞吐量低等。
 [了解更多信息](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-**動態報告**
+**动态报告**
 
-動態報告提供各種報告，協助您隨時瞭解傳遞的執行方式：跳出數、收件者檢視次數最多的傳遞、傳遞的輸送量等。
+动态报告提供各种报告，帮助您及时了解投放的执行情况：跳出次数、收件人查看的投放次数最多、投放吞吐量等。
 [了解更多信息](../../reporting/using/about-dynamic-reports.md)

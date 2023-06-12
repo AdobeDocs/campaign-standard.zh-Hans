@@ -1,6 +1,6 @@
 ---
-title: SDK v4行動應用程式移轉至Adobe Experience Platform SDK
-description: 瞭解如何將您的行動應用程式從SDK v4移轉至Adobe Experience Platform SDK
+title: SDK v4移动应用程序迁移到Adobe Experience Platform SDK
+description: 了解如何将移动应用程序从SDK v4迁移到Adobe Experience Platform SDK
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -17,115 +17,115 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 移轉程式無法復原。
+> 迁移过程不可逆。
 >
-> 開始將SDK V4行動應用程式移轉至Adobe Experience Platform SDK之前，請仔細閱讀本檔案。
+> 在开始将SDK V4移动应用程序迁移到Adobe Experience Platform SDK之前，请仔细阅读文档。
 
-## 關於SDK V4移轉
+## 关于SDK V4迁移
 
-Adobe Campaign Standard使用SDK V4處理行動應用程式，作為與Adobe Experience Platform SDK分開的應用程式。
-將Adobe SDK版本從v4升級至Adobe Experience Platform後，行動應用程式需要繼續使用現有應用程式訂閱者資料和行銷活動：因此需要移轉。
+Adobe Campaign Standard使用SDK V4处理移动应用程序，作为与Adobe Experience Platform SDK分开的应用程序。
+将AdobeSDK版本从v4升级到Adobe Experience Platform后，移动应用程序需要继续使用现有的应用程序订阅者数据和营销活动：因此需要迁移。
 
 >[!NOTE]
 >
-> 本頁會記錄SDK v4行動應用程式移轉至新建立的Adobe Experience Platform SDK應用程式的作業。 您的SDK v4行動應用程式不會與具有的Adobe Experience Platform SDK行動應用程式合併 **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
+> 本页记录了SDK v4移动应用程序迁移到新创建的Adobe Experience Platform SDK应用程序的过程。 您的SDK v4移动应用程序不会与具有的Adobe Experience Platform SDK移动应用程序合并 **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
 
-| 移轉後不會變更的專案 |
+| 迁移后不会更改的内容 |
 |:-:|
-| 使用移轉的SDK V4應用程式時，不會對現有的傳遞與行銷活動造成任何影響。 |
-| 行動應用程式的名稱將維持不變。 |
-| 將保留iOS和Android的平台認證。 |
-| 將會保留應用程式的所有訂閱者及其資料。 |
-| 現有的SDK v4行動應用程式將繼續傳送資料（PII資料、訂閱者與權杖資訊）至Adobe Campaign Standard。 |
-| 此 **[!UICONTROL Organizational unit]** 的將維持不變。 |
+| 使用迁移的SDK V4应用程序对现有投放和营销活动没有影响。 |
+| 移动应用程序的名称将保持不变。 |
+| 将保留iOS和Android的平台凭据。 |
+| 将保留应用程序的所有订阅者及其数据。 |
+| 现有的SDK v4移动应用程序将继续向Adobe Campaign Standard发送数据（PII数据、订阅者和令牌信息）。 |
+| 此 **[!UICONTROL Organizational unit]** 移动应用程序的ID将保持不变。 |
 
-| 移轉後會有什麼變化 |
+| 迁移后有何变化 |
 |:-:|
-| 行動應用程式將可在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. 移轉前，可在以下位置使用： **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
-| 此 **[!UICONTROL Collect PII Endpoint]** 將會變更。 較舊 **[!UICONTROL Collect PII Endpoint]** 將繼續運作，不會遺失已傳送的資料。 |
-| 應用程式將繫結至標籤 **[!UICONTROL Mobile Property]**. 它將作為新建立的行動應用程式處理。 |
-| 移轉中使用的原始Adobe Experience Platform SDK應用程式將不會以獨立應用程式存在。 只有移轉的SDK v4應用程式可用。 |
+| 移动设备应用程序将在以下位置提供： **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. 在迁移之前，它在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
+| 此 **[!UICONTROL Collect PII Endpoint]** 应用程序的URL将更改。 较旧 **[!UICONTROL Collect PII Endpoint]** 将继续工作，发送的数据不会丢失。 |
+| 应用程序将绑定到标记 **[!UICONTROL Mobile Property]**. 它将作为新创建的移动应用程序处理。 |
+| 迁移中使用的原始Adobe Experience Platform SDK应用程序将不会作为单独的应用程序存在。 只有迁移的SDK v4应用程序可用。 |
 
-## 將您的行動應用程式從SDK v4移轉至Adobe Experience Platform SDK {#how-to-migrate}
+## 将您的移动应用程序从SDK v4迁移到Adobe Experience Platform SDK {#how-to-migrate}
 
-移轉之前，您應考量下列建議：
+在迁移之前，您应该考虑以下建议：
 
-* 移轉程式無法復原。
-* 您不應同時執行多個應用程式的移轉。 您也應確定多個視窗不會同時觸發相同應用程式的移轉。
-* 移轉前，請確定您被指派了 **[!UICONTROL Organizational unit]** 您要移轉的行動應用程式以及用來移轉的Adobe Experience Platform應用程式。
-* 移轉後，應用程式會變成Adobe Experience Platform SDK應用程式。 其變更將連結至其對應的標籤 **[!UICONTROL Mobile Property]**.
+* 迁移过程不可逆。
+* 您不应同时运行多个应用程序的迁移。 您还应确保同一应用程序的迁移不会同时由多个窗口触发。
+* 在迁移之前，请确保为您分配了 **[!UICONTROL Organizational unit]** 要迁移的移动应用程序，以及要用于迁移的Adobe Experience Platform应用程序。
+* 迁移后，该应用程序将成为Adobe Experience Platform SDK应用程序。 其更改将链接到其相应的标记 **[!UICONTROL Mobile Property]**.
 
-1. 建立新的 **[!UICONTROL Mobile property]** 在資料收集UI中。 如需詳細資訊，請參閱 [檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
+1. 新建 **[!UICONTROL Mobile property]** 在数据收集UI中。 有关详情，请参阅 [文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
-1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 並開啟 **[!UICONTROL syncWithLaunch]** 工作流程。 檢查工作流程是否已結束且沒有錯誤。
+1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 然后打开 **[!UICONTROL syncWithLaunch]** 工作流。 检查工作流是否已结束且没有错误。
 
-1. 工作流程完成後，從 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** 功能表，檢查行動應用程式在Adobe Campaign Standard中是否可用，以及是否位於 **[!UICONTROL Ready to Configure]** 州別。
+1. 工作流完成后，从 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** 菜单，检查移动设备应用程序在Adobe Campaign Standard中是否可用以及是否位于 **[!UICONTROL Ready to Configure]** 省/州。
 
    ![](assets/aep_v4_2.png)
 
-1. 在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**，選取您要移轉的SDK V4應用程式。
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**&#x200B;中，选择要迁移的SDK V4应用程序。
 
 1. 选择 **[!UICONTROL Mobile application migration to AEP SDK]** 选项卡。
 
    ![](assets/aep_v4_3.png)
 
-1. 從 **[!UICONTROL Select AEP SDK mobile application to merge current application with]** 從下拉式清單中，選取先前建立的Adobe Experience Platform SDK行動應用程式。
+1. 从 **[!UICONTROL Select AEP SDK mobile application to merge current application with]** 从下拉列表中，选择之前创建的Adobe Experience Platform SDK移动应用程序。
 
 1. 单击 **[!UICONTROL Migrate]**。
 
    ![](assets/aep_v4_4.png)
 
-1. 從 **[!UICONTROL Migration application]** 視窗，按一下 **[!UICONTROL Ok]**.
+1. 从 **[!UICONTROL Migration application]** 窗口，单击 **[!UICONTROL Ok]**.
 
    ![](assets/aep_v4_5.png)
 
-1. 成功完成視窗隨即出現，請按一下 **[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**.
+1. 成功完成窗口出现，单击 **[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**.
 
-1. 從Adobe Experience Platform SDK頻道清單頁面，檢查您先前的V4行動應用程式是否設為 **[!UICONTROL Ready To Configure]**.
+1. 在Adobe Experience Platform SDK渠道列表页面中，检查是否将以前的V4移动应用程序设置为 **[!UICONTROL Ready To Configure]**.
 
-1. 選取您的行動應用程式並按一下 **[!UICONTROL Save]** 以完成移轉。
+1. 选择您的移动应用程序，然后单击 **[!UICONTROL Save]** 以完成迁移。
 
-移轉後，移轉的應用程式將可提供V4版行動應用程式收集的訂閱者和AEP版行動應用程式收集的新訂閱者。
+在此迁移后，由移动应用程序的V4版本收集的订阅者和由移动应用程序的AEP版本收集的新订阅者将在迁移的应用程序中可用。
 
-若要區分兩種不同型別的訂閱者，您可以新增以下的自訂欄位： **[!UICONTROL Text]** 擴充自訂資源時輸入 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 作為 `sdkversion` 或 `appVersion` 例如。 如需如何擴充自訂資源的詳細資訊，請參閱此 [頁面](../../developing/using/creating-or-extending-the-resource.md).
-然後，您需要設定關聯的標籤 **[!UICONTROL Mobile property]** 以在「收集PII」呼叫中傳送此自訂欄位值，並據此變更您的行動應用程式設定。
+要区分这两种不同类型的订阅者，您可以添加新的自定义字段 **[!UICONTROL Text]** 扩展自定义资源时键入 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 作为 `sdkversion` 或 `appVersion` 例如。 有关如何扩展自定义资源的更多信息，请参阅此 [页面](../../developing/using/creating-or-extending-the-resource.md).
+然后，您需要配置关联的标记 **[!UICONTROL Mobile property]** 在收集PII调用中发送此自定义字段值，并相应地更改您的移动应用程序配置。
 
 ## 常见问题解答 {#faq}
 
-### 問：在SDK v4行動應用程式中，移轉至Adobe Experience Platform SDK的行動應用程式標籤不可見。 {#tab-not-visible}
+### 问：在SDK v4移动应用程序中，“将移动应用程序迁移到Adobe Experience Platform SDK”选项卡不可见。 {#tab-not-visible}
 
-答：從進階功能表 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**，檢查 **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** 選項。 預設應將它設為1並啟用。 管理員可能已經手動停用。
+答：从高级菜单中 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**，检查 **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** 选项。 默认情况下应将其设置为1并启用。 管理员可能已手动禁用它。
 
 ![](assets/aep_v4_1.png)
 
-### 問：從行動應用程式移轉至Adobe Experience Platform SDK索引標籤時，訊息無資料出現。 {#no-data}
+### 问：在将移动应用程序迁移到Adobe Experience Platform SDK选项卡中，会显示消息“无数据”。 {#no-data}
 
-答：只有符合資格的 **[!UICONTROL Organizational unit]** 會顯示在清單中。 請確定您有正確的移轉Adobe Experience Platform應用程式。 此 **[!UICONTROL Property Status]** Adobe Experience Platform的)設定為 **[!UICONTROL Ready to Configure]**  和 **[!UICONTROL Mobile app migration status]** 設定為 **[!UICONTROL Not Migrated]**.
+答：只有符合条件的申请，才能申请 **[!UICONTROL Organizational unit]** 将显示在列表中。 请确保您拥有适用于迁移的正确Adobe Experience Platform应用程序。 此 **[!UICONTROL Property Status]** Adobe Experience Platform的URL应设置为 **[!UICONTROL Ready to Configure]**  和 **[!UICONTROL Mobile app migration status]** 设置为 **[!UICONTROL Not Migrated]**.
 
 ![](assets/aep_v4_6.png)
 
-### 問：為何具有已設定屬性狀態的Adobe Experience Platform SDK應用程式無法用於移轉？ {#property-status}
+### 问：为何无法使用“已配置的属性状态”的Adobe Experience Platform SDK应用程序进行迁移？ {#property-status}
 
-答：移轉程式會保留SDK v4訂閱者和屬性。 它只會保留Adobe Experience Platform SDK應用程式中的標籤相關資訊。 Adobe Experience Platform SDK應用程式的訂閱者和其他資料將會遺失。 為避免任何資料遺失，請僅將Adobe Experience Platform SDK應用程式與 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 符合移轉資格。
+答：迁移过程会保留SDK v4订阅者和属性。 它仅保留Adobe Experience Platform SDK应用程序中与标记相关的信息。 Adobe Experience Platform SDK应用程序中的订阅者和其他数据将丢失。 为避免任何数据丢失，请仅将Adobe Experience Platform SDK应用程序与 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 符合迁移条件。
 
-### 問：移轉後，我可以在哪裡找到先前的SDK v4行動應用程式？ {#v4-app-not-visible}
+### 问：迁移后，可在何处找到以前的SDK v4移动应用程序？ {#v4-app-not-visible}
 
-答：移轉後的行動應用程式將顯示在進階功能表中 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
+答：迁移后的移动应用程序将从高级菜单中可见 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
 
-### 問：移轉後，我可以在哪裡找到新建立的Adobe Experience Platform SDK應用程式？ {#aep-not-visible}
+### 问：迁移后，我可以在何处找到新创建的Adobe Experience Platform SDK应用程序？ {#aep-not-visible}
 
-答：用於移轉的新建立Adobe Experience Platform SDK應用程式將不會以個別應用程式存在。 只有移轉的SDK v4應用程式可用。
+答：用于迁移的新创建的Adobe Experience Platform SDK应用程序将不会作为单独的应用程序存在。 只有迁移的SDK v4应用程序可用。
 
-### 問：如果SDK v4行動應用程式組織單位設為A （組織單位ALL的子項），且Adobe Experience Platform SDK設為ALL。 如何移轉行動應用程式？ {#v4-org-unit}
+### 问：如果SDK v4移动应用程序组织单位设置为A（组织单位ALL的子项），并且Adobe Experience Platform SDK设置为ALL。 如何迁移移动应用程序？ {#v4-org-unit}
 
-答：的管理員 **[!UICONTROL Organizational unit]** 所有成員都有權管理這兩個行動應用程式，並負責移轉。
+答：的管理员 **[!UICONTROL Organizational unit]** 所有人都将有权管理这两个移动应用程序，并将负责迁移。
 
-### 問：如果SDK v4行動應用程式組織單位設為A，而Adobe Experience Platform SDK應用程式設為B （組織單位A的同胞）。 如何移轉行動應用程式？ {#aep-org-unit}
+### 问：如果将SDK v4移动应用程序组织单位设置为A，并将Adobe Experience Platform SDK应用程序设置为B（组织单位A的同级）。 如何迁移移动应用程序？ {#aep-org-unit}
 
-答：Adobe Experience Platform SDK應用程式為同層級資產 **[!UICONTROL Organizational unit]**，的使用者看不到行動應用程式 **[!UICONTROL Organizational unit]** A.行動應用程式將可供 **[!UICONTROL Organizational unit]** 全部，但我們不建議這些管理員移轉行動應用程式。
-在此情況下，您應在相同位置移動行動應用程式 **[!UICONTROL Organizational unit]** 或在 **[!UICONTROL Organizational unit]** 具有父系連結。
-如需詳細資訊，請參閱 **[!UICONTROL Organizational unit]**，請參考此 [區段](../../administration/using/organizational-units.md).
+答：Adobe Experience Platform SDK应用程序是同级资源的资源 **[!UICONTROL Organizational unit]**，则移动应用程序对的用户不可见 **[!UICONTROL Organizational unit]** A.移动设备应用程序将可供以下管理员使用： **[!UICONTROL Organizational unit]** 所有这些管理员，但我们不建议这些管理员迁移移动应用程序。
+在这种情况下，您应该将移动设备应用程序移动到同一个 **[!UICONTROL Organizational unit]** 或在 **[!UICONTROL Organizational unit]** 具有父链接。
+有关的详细信息 **[!UICONTROL Organizational unit]**，请参考此 [部分](../../administration/using/organizational-units.md).
 
-### 問：在您的Adobe Experience Platform SDK行動應用程式（從您的v4行動應用程式移轉）頁面中，推播頻道設定下拉式清單底下不會顯示Android金鑰或iOS憑證的上傳日期/名稱等資訊 {#no-information-v5}
+### 问：在Adobe Experience Platform SDK移动应用程序（从v4移动应用程序迁移）页面的“推送渠道设置”下拉列表下，不会显示Android密钥或iOS证书的任何信息，例如上传日期/名称 {#no-information-v5}
 
-答：建立SDK V4行動應用程式時，系統不會儲存此資訊。 將您的SDK V4行動應用程式移轉至Adobe Experience Platform SDK行動應用程式時，移轉後的行動應用程式也不會有這類資訊。 一旦使用者將上傳新的iOS憑證或Android金鑰，金鑰或憑證的不同詳細資訊就會儲存並正確顯示在下 **[!UICONTROL Push channel settings]** 下拉式清單。
+答：在创建SDK V4移动应用程序时，系统不会存储此信息。 在将SDK V4移动应用程序迁移到Adobe Experience Platform SDK移动应用程序时，迁移后的移动应用程序也将不包含此类信息。 一旦用户将上传新的iOS证书或Android密钥，该密钥或证书的不同详细信息将正确存储和显示在下 **[!UICONTROL Push channel settings]** 下拉菜单。

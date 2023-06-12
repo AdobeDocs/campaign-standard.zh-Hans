@@ -1,6 +1,6 @@
 ---
-title: 關於Adobe Campaign Standard中的傳遞能力
-description: 瞭解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign Standard提供的用於最佳化傳送傳送內容的工具。
+title: 关于Adobe Campaign Standard中的可投放性
+description: 了解与投放能力相关的概念和最佳实践，以及Adobe Campaign Standard提供的用于优化投放发送的工具。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,81 +18,81 @@ ht-degree: 7%
 
 # 什么是可投放性{#about-deliverability}
 
-可遞送性可讓您測量行銷活動在到達收件者收件匣時不會退回或標示為垃圾訊息的成功程度。 [瞭解傳遞能力重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+通过可投放性，可衡量营销活动在到达收件人的收件箱时不会出现退回或标记为垃圾邮件的情况。 [了解可投放性很重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-更準確地說，電子郵件傳遞能力指一組特性，這些特性決定訊息在短時間內透過個人電子郵件地址到達其目的地的能力，以及內容和格式的預期品質。 <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
+更准确地说，电子邮件可投放性是指一组特征，这些特征可决定消息通过个人电子邮件地址在短时间内到达其目标的能力，以及在内容和格式方面达到预期质量的能力。 <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-如需深入瞭解什麼是傳遞能力，並深入瞭解傳遞能力的重要術語、概念和方法，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans).
+要更深入地了解什么是可投放性，并详细了解可投放性的关键术语、概念和方法，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans).
 
-## 如何改善傳遞能力 {#deliverability-key-points}
+## 如何提高可投放性 {#deliverability-key-points}
 
-傳遞能力問題通常與網際網路服務提供者和郵件伺服器管理員所實施的防止垃圾郵件的措施有關。
+可投放性问题通常与Internet服务提供商和邮件服务器管理员实施的防范垃圾邮件措施有关。
 
-* 如需如何設計成功電子郵件行銷活動的一般建議，請參閱 [傳遞能力策略和定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* 有关如何设计成功的电子邮件营销活动的一般建议，请参阅 [可投放性策略和定义](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-* 如需如何最佳化Adobe Campaign電子郵件傳遞能力的更具體建議，建議您使用本節所列的最佳實務。
+* 有关如何优化Adobe Campaign电子邮件投放能力的更具体建议，我们建议使用本节中列出的最佳实践。
 
 >[!NOTE]
 >
->由於ISP必須持續開發新的複雜篩選技術，以保護客戶免受垃圾郵件傳送者的傷害，因此電子郵件傳遞能力的特點是標準和規則不斷變化。 請務必參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans) 並定期更新。
+>由于ISP必须不断开发新的复杂过滤技术来保护其客户免受垃圾邮件发送者的攻击，因此电子邮件可投放性的特点是标准和规则不断变化。 请务必参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans) ，此版本定期更新。
 
-### 傳遞率
+### 可投放性
 
-傳遞率是相較於已傳遞的訊息數，點選收件者收件匣的訊息數。 若要改善傳遞能力，您可以致力於提高此比率。
+可投放性比率是点击收件人收件箱的消息数量与已投放的消息数量之比。 为了提高可投放性，您可以努力提高此比率。
 
-使用Adobe Campaign時，傳遞率取決於許多因素，特別是：
+使用Adobe Campaign时，可投放性比率取决于多种因素，特别是：
 
-* 正確設定您的執行個體：請聯絡您的Adobe代表以尋求協助。
-* 合法的網路設定：請參閱 [本節](../../sending/using/optimize-delivery.md#network-config) 和 [網域設定和策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
-* 您的IP位址信譽：請參閱 [IP策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
-* 目標地址的品質：請參閱 [隔離管理](../../sending/using/optimize-delivery.md#quarantine-management).
-* 低 [申訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 和 [硬跳出](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 費率。
-* 您的訊息內容：請參閱 [控制電子郵件內容](../../sending/using/control-email-content.md).
-* 訊息驗證(SPF、DKIM、DMARC)：請參閱 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-* 寄件者信譽：若要瞭解主要ISP如何評估寄件者信譽，請參閱 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+* 实例的正确配置：请联系您的Adobe代表寻求帮助。
+* 合法的网络配置：请参阅 [本节](../../sending/using/optimize-delivery.md#network-config) 和 [域设置和策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* 您的IP地址信誉：请参阅 [IP策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* 目标地址的质量：请参阅 [隔离管理](../../sending/using/optimize-delivery.md#quarantine-management).
+* 低 [投诉](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 和 [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 费率。
+* 您的消息内容：请参阅 [控制电子邮件内容](../../sending/using/control-email-content.md).
+* 消息身份验证(SPF、DKIM、DMARC)：请参阅 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* 发件人信誉：要了解主要ISP如何评估发件人信誉，请参阅 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
-## Campaign傳遞工具 {#deliverability-tools}
+## Campaign投放工具 {#deliverability-tools}
 
-Adobe Campaign提供許多工具，用於追蹤及改善平台的可遞送性效能。 本頁也強調使用Campaign時，最佳化傳遞能力時應牢記的主要原則。
+Adobe Campaign提供了大量用于跟踪和改进平台可投放性性能的工具。 本页还重点说明了在使用Campaign时优化投放能力应遵循的主要原则。
 
-### 謹慎建立您的訊息
+### 谨慎构建您的消息
 
-設定、設計和測試訊息時，請務必遵循下列區段中提到的最佳實務。 運用Adobe Campaign提供的所有功能，協助您改善傳遞能力。
+配置、设计和测试消息时，请确保遵循以下部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能可帮助您提高可投放性。
 
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [控制电子邮件内容](../../sending/using/control-email-content.md)
 * [预览消息](../../sending/using/previewing-messages.md)
 * [发送校样](../../sending/using/sending-proofs.md)
 
-### 透過雙重選擇加入驗證同意 {#double-opt-in}
+### 通过双重选择加入验证同意 {#double-opt-in}
 
-為避免將訊息傳送至無效地址、限制不當通訊並改善寄件者信譽，Adobe建議實作雙重選擇加入機制。 這可讓您確保收件者有意訂閱。
+为避免将消息发送到无效地址、限制不当通信并提高发件人信誉，Adobe建议实施双重选择加入机制。 这使您能够确保收件人有意订阅。
 
-如需詳細資訊，請參閱 [關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+有关此内容的更多信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-如需從客戶收集資料時最佳實務的詳細資訊，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+有关从客户处收集数据时的最佳实践的更多信息，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
-### 運用隔離管理
+### 利用隔离管理
 
-Adobe Campaign管理會收集垃圾郵件投訴、硬跳出和一致發生的軟跳出的清單。
+Adobe Campaign管理一个列表，该列表收集不断发生的垃圾邮件投诉、硬退回和软退回。
 
-為了保護您的傳遞能力，該清單中地址在未來的所有傳遞中預設都會排除收件者，因為傳送給這些連絡人可能會損害您的傳送信譽。
+为了保护您的可投放性，默认情况下将从所有未来投放中排除该列表上地址的收件人，因为发送给这些联系人可能会损害您的发送信誉。
 
-如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔離可讓您避免被這些提供者新增至封鎖清單。
+如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提供商添加到阻止列表。
 
-如需詳細資訊，請參閱下列章節：
+有关更多信息，请参阅以下章节：
 
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
-* [隔離與封鎖清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [隔离与阻止列表](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
-### 使用監控與報告工具
+### 使用监控和报告工具
 
-使用Adobe Campaign提供的功能來監控您的傳送能力。
+使用Adobe Campaign提供的功能监控您的可投放性。
 
-Adobe Campaign可讓您透過一組內建即時指標檢查傳遞的執行方式。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->您也可以建立完全可自訂的即時報表，以提升對傳送內容的深入分析。
+Adobe Campaign允许您通过一组内置实时指标检查投放的执行情况。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->您还可以构建完全可自定义的实时报表，以改进对投放的分析。
 
-如需詳細資訊，請參閱下列章節：
+有关更多信息，请参阅以下章节：
 
 * [监测可投放性](../../sending/using/monitor-deliverability.md)
 

@@ -61,10 +61,10 @@ ht-degree: 94%
 * [创建由订阅者构成的受众](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-本影片說明如何建立服務及管理其訂閱。
+本视频说明如何创建服务和管理其订阅。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

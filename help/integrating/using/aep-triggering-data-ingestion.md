@@ -1,6 +1,6 @@
 ---
 title: 通过 API 触发数据摄取
-description: 瞭解如何透過API觸發資料擷取。
+description: 了解如何通过API触发数据摄取。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,40 +19,40 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷取擷取要求的狀態。
+Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并检索摄取请求的状态。
 
-此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign StandardAPI的全球資訊，請參閱 [本節](../../api/using/get-started-apis.md).
+本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全球信息，请参阅 [本节](../../api/using/get-started-apis.md).
 
 ## 先决条件 {#prerequisites}
 
-在使用API之前，必須先在Campaign Standard介面中設定並發佈資料對應。 有关更多信息，请参阅一下章节。
+在使用API之前，必须先在Campaign Standard界面中配置并发布数据映射。 有关更多信息，请参阅一下章节。
 
 * [映射定义](../../integrating/using/aep-mapping-definition.md)
 * [映射激活](../../integrating/using/aep-mapping-activation.md)
 
-建立資料對應後，您必須停止執行，以便隨時從API觸發。 为此，请执行以下步骤：
+创建数据映射后，必须停止运行数据映射，以便您可以随时从API触发数据映射。 为此，请执行以下步骤：
 
-1. 在Campaign Standard中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 功能表。
+1. 在Campaign Standard中，转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 菜单。
 
-1. 連按兩下資料對應以將其開啟，然後按一下 **[!UICONTROL Stop]** 按鈕。
+1. 双击数据映射以将其打开，然后单击 **[!UICONTROL Stop]** 按钮。
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 儲存您的變更
+1. 保存更改
 
-資料對應執行現在已停止。 您可以使用Campaign StandardAPI來手動觸發。
+数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发。
 
-## 開始立即擷取資料對應 {#starting-immediate-ingestion}
+## 开始立即摄取数据映射 {#starting-immediate-ingestion}
 
-透過POST操作觸發立即將XDM對應擷取到Adobe Experience Platform：
+通过POST操作触发将XDM映射立即摄取到Adobe Experience Platform：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->為了執行內嵌POSTAPI呼叫，使用者必須具有 **SQL函式執行** 角色，可由Campaign Standard管理員透過執行以下JS指令碼來提供：
+>要执行引入POSTAPI调用，用户必须具有 **SQL函数执行** role，可由Campaign Standard管理员通过执行以下JS脚本来提供：
 >
 >
 ```
@@ -60,9 +60,9 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
 
-POST作業會傳回關於已建立請求狀態的資訊：
+POST操作返回有关已创建请求状态的信息：
 
-* 已成功提交XDM對應的請求：
+* 已成功提交XDM映射的请求：
 
 ```
 {
@@ -72,7 +72,7 @@ POST作業會傳回關於已建立請求狀態的資訊：
 }
 ```
 
-* XDM對應的請求已在進行中：
+* XDM映射的请求已在进行中：
 
 ```
 {
@@ -82,7 +82,7 @@ POST作業會傳回關於已建立請求狀態的資訊：
 }
 ```
 
-* 請求失敗，因為XDM對應未發佈或已停止：
+* 请求失败，因为XDM映射未发布或已停止：
 
 ```
 {
@@ -95,9 +95,9 @@ POST作業會傳回關於已建立請求狀態的資訊：
 }
 ```
 
-## 正在擷取擷取要求的狀態 {#retrieving-status}
+## 检索引入请求的状态 {#retrieving-status}
 
-內嵌請求的狀態可以使用GET操作以及引數中所需的請求ID來擷取：
+可以使用GET操作以及参数中所需的请求ID来检索摄取请求的状态：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -106,18 +106,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM對應請求狀態及其相關作業的詳細資訊，請參閱Campaign Standard介面中的 **[!UICONTROL Status of data export to platform]** 功能表(請參閱 [對應啟動](../../integrating/using/aep-mapping-activation.md))。
+>有关XDM映射请求状态及其相关作业的详细信息，可在Campaign Standard界面的 **[!UICONTROL Status of data export to platform]** 菜单(请参阅 [映射激活](../../integrating/using/aep-mapping-activation.md))。
 
-GET作業會傳回下列資訊：
+GET操作返回以下信息：
 
-* **batchId**：只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**：XDM對應ID、
-* **numRecords**：已擷取的記錄數（僅限成功狀態），
-* **狀態**：擷取要求狀態（成功/失敗/進行中）
+* **batchId**：仅当批量准备和上传后失败时，才填充此字段，
+* **信息**：XDM映射ID、
+* **numRecords**：已摄取的记录数（仅限成功状态），
+* **状态**：引入请求状态（成功/失败/进行中）
 
-對GET作業的可能回應如下：
+对GET操作的可能响应包括：
 
-* 擷取請求成功：
+* 已成功引入请求：
 
    ```
    {
@@ -129,7 +129,7 @@ GET作業會傳回下列資訊：
    }
    ```
 
-* 擷取要求失敗，已擷取0筆記錄：
+* 引入请求失败，已引入0条记录：
 
    ```
    {
@@ -141,7 +141,7 @@ GET作業會傳回下列資訊：
    }
    ```
 
-* 擷取請求失敗，部分記錄已上傳到批次下：
+* 摄取请求失败，一些记录已上传到批次下：
 
    ```
    {
@@ -153,7 +153,7 @@ GET作業會傳回下列資訊：
    }
    ```
 
-* 擷取部分記錄後擷取要求中止（當機情況可能發生這種情況）：
+* 摄取某些记录后，摄取请求中止（崩溃情况下可能会发生这种情况）：
 
    ```
    {
@@ -165,7 +165,7 @@ GET作業會傳回下列資訊：
    }
    ```
 
-* 正在內嵌請求（當請求以批次上傳資料時，或當批次已準備好進行請求時）：
+* 正在进行摄取请求（当请求以批方式上传数据或批已准备好进行请求时）：
 
    ```
    {

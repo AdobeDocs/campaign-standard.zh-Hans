@@ -1,6 +1,6 @@
 ---
 title: 跟进消息
-description: 瞭解如何建立、管理和傳送後續追蹤訊息。
+description: 了解如何创建、管理和发送跟进消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -17,62 +17,62 @@ ht-degree: 2%
 
 # 跟进消息 {#follow-up-messages}
 
-後續訊息是預先定義的行銷傳遞範本，可用於工作流程，以傳送其他通訊給特定交易式訊息的收件者。
+跟进消息是预定义的营销投放模板，可在工作流中使用它向特定事务型消息的收件人发送另一条通信。
 
-讓我們重複使用中說明的範例： [異動訊息傳遞操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 區段：系統會傳送購物車放棄電子郵件給您的網站使用者，他們已將產品新增至購物車，但離開網站而未完成購買。
+让我们重复使用中描述的示例 [事务型消息传递工作原理](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 部分：会向您的网站用户发送购物车放弃电子邮件，这些用户将产品添加到购物车，但没有完成购买就离开了网站。
 
-您想要向所有收到購物車放棄通知但在三天後未開啟購物車的客戶傳送好記提醒。 他們將會根據所傳送第一封電子郵件中所使用的相同資料，收到後續追蹤訊息。
+您希望向所有收到购物车放弃通知但在三天后未打开该通知的客户发送友好提醒。 他们将会收到一封跟进邮件，其中所包含的数据与所发送的第一封电子邮件中所用的数据相同。
 
-## 設定事件以傳送後續追蹤訊息 {#configuring-an-event-to-send-a-follow-up-message}
+## 配置事件以发送跟进消息 {#configuring-an-event-to-send-a-follow-up-message}
 
-若要傳送後續訊息，您首先需要相應地設定與已收到之交易式訊息對應的事件。
+要发送跟进消息，您首先需要相应地配置与已接收的事务型消息对应的事件。
 
-1. 使用您建立用來傳送事件交易式訊息的相同事件設定。 另請參閱 [設定交易式事件](../../channels/using/configuring-transactional-event.md).
-1. 設定事件時，請核取 **[!UICONTROL Create follow-up delivery template for this event]** 方塊中。
+1. 使用您创建的相同事件配置发送事件事务型消息。 参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md).
+1. 配置事件时，请检查 **[!UICONTROL Create follow-up delivery template for this event]** 框（在发布事件之前）。
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-發佈事件後，系統會自動建立交易式訊息及連結至新事件的後續傳送範本。 有關傳送後續追蹤訊息的詳細步驟，請參閱 [本節](#sending-a-follow-up-message).
+发布事件后，将自动创建事务型消息和链接到新事件的跟进投放模板。 有关发送跟进消息的详细步骤，请参见 [本节](#sending-a-follow-up-message).
 
-## 存取後續追蹤訊息 {#accessing-the-follow-up-messages}
+## 访问跟进消息 {#accessing-the-follow-up-messages}
 
-若要在工作流程中處理事件，需要傳遞範本。 不過，發佈事件時， [異動訊息](../../channels/using/editing-transactional-message.md) 建立的範本無法使用。 因此，您需要建立特定的後續傳送範本，以支援此事件型別，並作為工作流程中的範本使用。
+要在工作流中处理事件，需要投放模板。 但是，在发布事件时， [事务性消息](../../channels/using/editing-transactional-message.md) 创建的模板无法用作模板。 因此，您需要创建特定的跟进投放模板，设计用于支持此事件类型，并用作工作流中的模板。
 
-若要存取此範本：
+要访问此模板，请执行以下操作：
 
-1. 按一下 **Adobe** 標誌，位於左上角。
-1. 選取 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. 檢查 **[!UICONTROL Follow-up messages]** 方塊中。
+1. 单击 **Adobe** 徽标，在左上角。
+1. 选择 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. 查看 **[!UICONTROL Follow-up messages]** 框。
 
    ![](assets/message-center_follow-up-search.png)
 
-只顯示後續追蹤訊息。
+只显示跟进消息。
 
 >[!IMPORTANT]
 >
->僅限具有下列專案的使用者： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及編輯交易式訊息。
+>仅限具有以下特征的用户： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和编辑事务型消息。
 
-## 傳送後續追蹤訊息 {#sending-a-follow-up-message}
+## 发送跟进消息 {#sending-a-follow-up-message}
 
-建立後續傳送範本後，您便可在工作流程中使用它來傳送後續訊息。
+创建跟进投放模板后，您可以在工作流中使用它来发送跟进消息。
 
 <!--You need to set up a workflow targeting the event corresponding to the transactional message that was already received.-->
 
-1. 存取行銷活動清單並建立新的工作流程。
+1. 访问营销活动列表并创建新工作流。
 
-   另請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   参见 [构建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. 拖放 **[!UICONTROL Scheduler]** 活動至工作流程並開啟。 將執行頻率設定為每天一次。
+1. 拖放 **[!UICONTROL Scheduler]** 活动并将其打开到工作流中。 将执行频率设置为每天一次。
 
-   排程器活動會顯示在中 [排程器](../../automating/using/scheduler.md) 區段。
+   调度程序活动显示在中 [调度程序](../../automating/using/scheduler.md) 部分。
 
-1. 拖放 **[!UICONTROL Query]** 活動至工作流程並開啟。
+1. 拖放 **[!UICONTROL Query]** 活动并将其打开到工作流中。
 
-   「查詢」活動會顯示在中 [查詢](../../automating/using/query.md) 區段。
+   “查询”活动显示在中 [查询](../../automating/using/query.md) 部分。
 
-1. 若要對設定檔資源以外的資源執行查詢，請移至活動的 **[!UICONTROL Properties]** 標籤並按一下 **[!UICONTROL Resource]** 下拉式清單。
+1. 要对用户档案资源以外的资源运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后单击 **[!UICONTROL Resource]** 下拉列表。
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -80,56 +80,56 @@ ht-degree: 2%
    >
    >默认情况下，该活动预配置为搜索用户档案。
 
-1. 選取您要鎖定的事件，以便只存取此事件的資料。
+1. 选择要定位的事件，以便仅访问此事件的数据。
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. 前往活動的 **[!UICONTROL Target]** 標籤，然後拖放 **[!UICONTROL Delivery logs (logs)]** 元素移入工作區。
+1. 转到活动的 **[!UICONTROL Target]** 选项卡，然后拖放 **[!UICONTROL Delivery logs (logs)]** 元素移入工作区。
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   選取 **[!UICONTROL Exists]** 以定位收到電子郵件的所有客戶。
+   选择 **[!UICONTROL Exists]** 定位收到电子邮件的所有客户。
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. 移動 **[!UICONTROL Tracking logs (tracking)]** 元素並選取「 」 **[!UICONTROL Does not exist]** 以鎖定所有未開啟電子郵件的客戶。
+1. 移动 **[!UICONTROL Tracking logs (tracking)]** 元素，然后选择 **[!UICONTROL Does not exist]** 以定位未打开电子邮件的所有客户。
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. 拖放您要鎖定的事件(**放棄購買** 在此範例中)從浮動視窗移入工作區。 然後定義規則以定位三天前傳送的所有訊息。
+1. 拖放要定位的事件(**放弃购买** 在此示例中，从面板移入工作区。 然后定义一个规则以定向三天前发送的所有消息。
 
    ![](assets/message-center_follow-up-created.png)
 
-   這表示會在執行工作流程三天前收到交易式訊息，且仍未開啟該訊息的所有收件者都會成為目標。
+   这意味着所有在工作流执行前三天收到事务型消息且仍未打开该消息的收件人都将被定向。
 
-   按一下 **[!UICONTROL Confirm]** 以儲存查詢。
+   单击 **[!UICONTROL Confirm]** 以保存查询。
 
-1. 拖放 **電子郵件傳遞** 活動放入您的工作流程。
+1. 拖放 **电子邮件投放** 活动添加到工作流中。
 
-   電子郵件傳送活動會顯示在中 [電子郵件傳遞](../../automating/using/email-delivery.md) 區段。
+   电子邮件投放活动显示在中 [电子邮件投放](../../automating/using/email-delivery.md) 部分。
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   您也可以使用 [簡訊傳送](../../automating/using/sms-delivery.md) 或 [推播通知傳遞](../../automating/using/push-notification-delivery.md) 活動。 在此情況下，請務必選取 **[!UICONTROL Mobile (SMS)]** 或 **[!UICONTROL Mobile application]** 頻道。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+   您也可以使用 [短信投放](../../automating/using/sms-delivery.md) 或 [推送通知投放](../../automating/using/push-notification-delivery.md) 活动。 在此情况下，请确保选择 **[!UICONTROL Mobile (SMS)]** 或 **[!UICONTROL Mobile application]** 创建事件配置时的渠道。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 
-1. 開啟 **電子郵件傳遞** 活動。 在建立精靈中，核取 **[!UICONTROL Follow-up messages]** 方塊並選取在發佈事件後建立的後續傳遞範本。
+1. 打开 **电子邮件投放** 活动。 在创建向导中，选中 **[!UICONTROL Follow-up messages]** 框并选择发布事件后创建的跟进投放模板。
 
    ![](assets/message-center_follow-up-template.png)
 
-1. 在後續訊息內容中，您可以新增個人化欄位，以善用您的事件內容。
+1. 在跟进消息内容中，您可以通过添加个性化字段来利用事件的内容。
 
    ![](assets/message-center_follow-up-content.png)
 
-1. 透過選取「 」，尋找您在建立事件時定義的欄位 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. 另請參閱 [個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+1. 通过选择以查找在创建事件时定义的字段 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. 参见 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
-   這表示您可以運用第一次傳送事件時所使用的相同內容（包括擴充資料）來建立個人化的友善提醒。
+   这意味着您可以利用首次发送事件时使用的相同内容（包括扩充数据）来创建个性化的友好提醒。
 
-1. 儲存活動並啟動工作流程。
+1. 保存活动并启动工作流。
 
-工作流程啟動後，三天前收到購物車放棄通知但未開啟通知的每個客戶都會收到基於相同資料的後續追蹤訊息。
+工作流启动后，三天前收到购物车放弃通知但未打开该通知的每个客户都会收到基于相同数据的跟进消息。
 
 >[!NOTE]
 >
->如果您已選取 **[!UICONTROL Profile]** 建立事件設定時，後續訊息也會利用Adobe Campaign行銷資料庫。 请参阅[用户档案事务型消息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+>如果您选择了 **[!UICONTROL Profile]** 创建事件配置时，定位维度中的跟进消息也将利用Adobe Campaign营销数据库。 请参阅[用户档案事务型消息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。

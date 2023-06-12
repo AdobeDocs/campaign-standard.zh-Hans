@@ -1,6 +1,6 @@
 ---
 title: 跟踪消息
-description: 瞭解如何追蹤傳遞收件者的行為。
+description: 了解如何跟踪投放收件人的行为。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
@@ -17,20 +17,20 @@ ht-degree: 29%
 
 # 跟踪消息{#tracking-messages}
 
-## 關於追蹤 {#about-tracking}
+## 关于跟踪 {#about-tracking}
 
-藉由Adobe Campaign的追蹤功能，您可以追蹤傳送收件者的行為。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
+借助其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
-您可以透過授權請求（有時出現在網站頁面中）告知使用者，網站已配備網路追蹤工具並要求使用者選中核取方塊授權使用Cookie，或在使用者登陸的首頁頂端新增橫幅等。 应避免使用弹出窗口，因为浏览器通常会拦截此类窗口。
+您可以通过授权请求（有时出现在页面上方）告知用户，您的网站配备了Web跟踪工具并要求用户选中复选框来授权使用Cookie，或者在用户登陆的首页顶部添加横幅等。 应避免使用弹出窗口，因为浏览器通常会拦截此类窗口。
 
-資料庫中每個連絡人的追蹤資訊都可供使用 **[!UICONTROL integrated customer profiles]**. 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
+跟踪信息适用于数据库中的每个联系人 **[!UICONTROL integrated customer profiles]**. 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用两种类型的 Cookie：
 
-* 工作階段Cookie (nlid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本識別碼(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
-* Adobe Experience Cloud解決方案之間共用的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。此Cookie的說明可供使用 [此處](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* 会话Cookie (nlid)。 其中包含发送给联系人的电子邮件的标识符(broadlogId)，以及消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
+* Adobe Experience Cloud解决方案之间共享的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。此Cookie的描述可用 [此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
-透過Adobe Campaign Standard進行追蹤可讓您存取下列功能：
+通过Adobe Campaign Standard进行跟踪，可访问以下功能：
 
 <table>
 <tr>
@@ -51,49 +51,49 @@ Adobe Campaign 使用两种类型的 Cookie：
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="条件" src="assets/icon_report.png"/></a>
 </tr>
 <tr>
-<td>電子郵件追蹤</td>
-<td>推播追蹤</td>
+<td>电子邮件跟踪</td>
+<td>推送跟踪</td>
 <td>跟踪的 URL</td>
 <td>跟踪日志</td>
-<td>追蹤報告</td>
+<td>跟踪报告</td>
 </tr>
 </table>
 
 ## 跟踪日志 {#tracking-logs}
 
-此 **[!UICONTROL Tracking logs]** 索引標籤會列出此傳送的追蹤記錄。 此標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊每10分鐘更新一次。
+此 **[!UICONTROL Tracking logs]** 选项卡列出了此投放的跟踪历史记录。 此选项卡显示已发送消息的跟踪信息，例如Adobe Campaign已跟踪的所有URL。 此选项卡中的跟踪信息每10分钟更新一次。
 
 >[!NOTE]
 >
->如果未为投放启用跟踪，则不会显示此选项卡。追蹤記錄可用於 **電子郵件** 和 **推播通知** 僅限管道。
+>如果未为投放启用跟踪，则不会显示此选项卡。跟踪日志可用于 **电子邮件** 和 **推送通知** 仅限渠道。
 
 ![](assets/tracking_logs.png)
 
-在上述範例中，收件者：
+在上面的示例中，收件人：
 
-* 已開啟訊息。
-* 已按一下映象頁面連結。
-* 已按一下「瞭解更多」自訂連結。
+* 已打开消息。
+* 已单击镜像页面链接。
+* 已单击“了解详情”自定义链接。
 
-在 **[!UICONTROL Type]** 欄，可能的值包括：
+在 **[!UICONTROL Type]** 列中，可能的值包括：
 
-* **[!UICONTROL Email click]**：收件者按一下自訂連結。
-* **[!UICONTROL Mirror page]**：收件者按一下映象頁面的連結。
-* **[!UICONTROL Open]**：收件者已開啟電子郵件。
-* **[!UICONTROL Opt-out]**：收件者已按一下取消訂閱連結。
+* **[!UICONTROL Email click]**：收件人单击了自定义链接。
+* **[!UICONTROL Mirror page]**：收件人单击了指向镜像页面的链接。
+* **[!UICONTROL Open]**：收件人已打开电子邮件。
+* **[!UICONTROL Opt-out]**：收件人单击了退订链接。
 
 >[!NOTE]
 >
->對於 **推播通知** 通道，則只會追蹤行動通知的點按。 在此情況下，值將會是 **[!UICONTROL Click on mobile notification]**.
+>对于 **推送通知** 渠道，则仅跟踪对移动通知的点击。 在这种情况下，值将为 **[!UICONTROL Click on mobile notification]**.
 
-如需如何插入追蹤連結的詳細資訊，請參閱 [此頁面](../../designing/using/links.md#inserting-a-link).
+有关如何插入跟踪链接的更多信息，请参阅 [此页面](../../designing/using/links.md#inserting-a-link).
 
-此 **[!UICONTROL Tracking indicators]** 報告包含接收電子郵件訊息後追蹤行為的關鍵指標。 有关详细信息，请参见此 [ 页面](../../reporting/using/tracking-indicators.md)。
+此 **[!UICONTROL Tracking indicators]** 报告包含用于在收到电子邮件后跟踪行为的关键指标。 有关详细信息，请参见此 [ 页面](../../reporting/using/tracking-indicators.md)。
 
 ## 跟踪的 URL {#tracked-urls}
 
-此 **[!UICONTROL Tracked URLs]** 索引標籤會重新分組已傳送訊息中包含的URL，包括其URL型別和來源URL。
+此 **[!UICONTROL Tracked URLs]** Tab对已发送消息中包含的URL进行重组，包括它们的URL类型和源URL。
 
 ![](assets/sending_delivery6.png)
 
-如需追蹤連結的詳細資訊，請參閱 [本節](../../designing/using/links.md#about-tracked-urls).
+有关跟踪链接的更多信息，请参阅 [本节](../../designing/using/links.md#about-tracked-urls).

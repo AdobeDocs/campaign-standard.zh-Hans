@@ -1,6 +1,6 @@
 ---
 title: 测试触发器
-description: 了解疑難排解秘訣，以協助您解決在搭配Adobe Campaign使用觸發器時可能遇到的最常見問題。
+description: 了解故障排除提示，以帮助您解决在将Triggers与Adobe Campaign结合使用时可能遇到的最常见问题。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -17,68 +17,68 @@ ht-degree: 1%
 
 # 测试触发器{#testing-your-triggers}
 
-下列疑難排解提示可協助您解決在搭配Adobe Campaign使用觸發器時可能遇到的最常見問題：
+以下故障诊断提示可帮助您解决在将Triggers与Adobe Campaign结合使用时可能遇到的最常见问题：
 
-**功能是否啟用？**
+**功能是否已激活？**
 
-若要檢查是否已啟動Triggers - Campaign整合，請按一下左上方的Adobe Campaign標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. 您應該會看到 **[!UICONTROL Experience Cloud Triggers]** 個專案。
+要检查是否已激活Triggers - Campaign集成，请单击左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. 您应会看到 **[!UICONTROL Experience Cloud Triggers]** 个项目。
 
-如果您已看見，請繼續進行下一個步驟。
+如果您看到它，请转到下一步。
 
-如果沒有，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 另請參閱 [啟動功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+如果没有，请联系您的Adobe客户经理或专业服务合作伙伴。 参见 [激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
-**嘗試建立觸發程式**
+**尝试创建触发器**
 
-請依照中所述的步驟操作 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 以建立觸發器。
+请按照中所述的步骤操作 [在Campaign中创建映射触发器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 创建触发器。
 
-如果觸發器已建立，請繼續進行下一個步驟。 如果沒有，則表示觸發端點連線失敗。 檢查是否在Experience Cloud (Activation services)中布建了觸發程式。 若非如此，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 需要下列資訊：
+如果触发器已创建，请转到下一步。 如果不存在，则表示触发器终结点连接失败。 检查是否在Experience Cloud(Activation Services)中配置了触发器。 如果不是，请联系您的Adobe客户经理或专业服务合作伙伴。 需要以下信息：
 
-* Marketing Cloud公司名稱
+* Marketing Cloud公司名称
 * 组织 ID
-* Analytics登入公司(可以與Marketing Cloud公司名稱相同)
+* Analytics登录公司(可以与Marketing Cloud公司名称相同)
 
-**嘗試發佈觸發程式**
+**尝试发布触发器**
 
-請依照中所述的步驟操作 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 以發佈觸發器。
+请按照中所述的步骤操作 [在Campaign中创建映射触发器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 以发布触发器。
 
-如果發佈成功，請繼續進行下一個步驟。 如果沒有，請聯絡Adobe以重新啟動您的執行個體，然後再試一次。
+如果发布成功，请继续下一步骤。 如果没有，请联系Adobe以重新启动您的实例，然后重试。
 
-**從網站產生觸發程式**
+**从网站生成触发器**
 
-請依照中所述的步驟操作 [編輯異動訊息範本](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) 以編輯及發佈交易式範本。 然後，測試從網站產生觸發程式。
+请按照中所述的步骤操作 [编辑事务型消息模板](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) 编辑和发布事务型模板。 然后，测试从网站生成触发器的过程。
 
-如果Analytics收到觸發程式，請繼續進行下一個步驟。 如果沒有，請核取下列專案：
+如果Analytics收到了触发器，请继续执行下一步。 如果不能，请检查以下各项：
 
-* 已為Analytics啟用觸發程式
-* DTM中已啟用使用MCID和Analytics的網站
-* 建立觸發器時使用正確的Analytics報表套裝
+* 已为Analytics启用触发器
+* DTM中已启用使用MCID和Analytics的网站
+* 创建触发器时使用正确的Analytics报表包
 
-**Campaign是否收到觸發程式？**
+**Campaign是否收到触发器？**
 
-如果沒有，請檢查是否從管道收到觸發程式。
+如果没有，请检查是否从管道收到触发器。
 
-如果沒有，請聯絡Adobe以檢查配管端點的配置。
+如果没有，请联系Adobe以检查管道端点的配置。
 
-如果是，請遵循下列准則：
+如果是这样，请遵循以下准则：
 
-* 檢查Campaign資料來源中的調解ID型別。
-* CustomerId資料來源是透過客戶屬性建立。
-* 檢查資料來源ID。
-* 要求Adobe在資料來源設定後重新啟動Campaign執行個體。
-* 檢查觸發程式報告中的觸發程式剖析問題。
+* 检查Campaign数据源中的协调ID类型。
+* CustomerId数据源通过客户属性创建。
+* 检查数据源ID。
+* 请求Adobe在数据源配置后重新启动Campaign实例。
+* 检查触发器报告中的触发器解析问题。
 
-**觸發程式是否處於擱置狀態？**
+**触发器是否处于待处理状态？**
 
-如果沒有，請繼續進行下一個步驟。 如果是，請遵循下列准則：
+如果不能，请继续下一步骤。 如果是这样，请遵循以下准则：
 
-* 檢查交易式範本是否已發佈。
-* 檢查設定檔是否不在封鎖清單上。
-* 檢查型別規則的套用。
-* 檢查交易式訊息的記錄。
+* 检查事务型模板是否已发布。
+* 检查配置文件是否未处于阻止列表状态。
+* 检查分类规则的应用。
+* 检查事务型消息的日志。
 
-**訊息是否有效？**
+**消息有效吗？**
 
-如果訊息無效，請檢查下列專案：
+如果消息无效，请检查以下各项：
 
-* 若要觸發標籤為無效的擴充個人化欄位，請從關聯的eventCusResource集合驗證交易式範本。
-* 驗證訊息格式
+* 对于标记为无效的触发器扩充个性化字段，请从关联的eventCusResource集合中验证事务型模板。
+* 验证消息格式

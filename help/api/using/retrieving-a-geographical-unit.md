@@ -1,6 +1,6 @@
 ---
 title: 检索用户档案的地理单位
-description: 瞭解如何使用API擷取設定檔的地理單位。
+description: 了解如何使用API检索用户档案的地理单位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 12%
 
 # 检索用户档案的地理单位 {#retrieving-geographical-unit}
 
-1. 對設定檔PKey執行GET要求以擷取 **geoUnit** URL。
-1. 在URL上執行GET要求，以擷取有關地理單位的更多詳細資料。
+1. 对配置文件密钥执行GET请求以检索 **geoUnit** URL。
+1. 对URL执行GET请求以检索有关地理单位的更多详细信息。
 
 <br/>
 
-***範例請求***
+***示例请求***
 
-擷取設定檔記錄。
+检索用户档案记录。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -34,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔的geoUnit URL。
+它会返回用户档案的geoUnit URL。
 
 ```
 {
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-對URL執行GET要求以擷取更多資訊。
+对URL执行GET请求以检索更多信息。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回地理單位的詳細資訊。
+它会返回有关地理单位的详细信息。
 
 ```
 {

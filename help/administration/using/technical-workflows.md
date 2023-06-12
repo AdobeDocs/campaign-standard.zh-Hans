@@ -1,6 +1,6 @@
 ---
 title: 技术工作流
-description: 進一步瞭解技術工作流程
+description: 了解有关技术工作流的更多信息
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -92,22 +92,22 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
    <tr> 
    <td> <span class="uicontrol">与 Launch 同步</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流程會同步在Adobe Campaign Standard中匯入的標籤行動裝置屬性。 每 15 分钟启动一次。<br /> </td> 
+   <td> 此工作流可同步在Adobe Campaign Standard中导入的标记移动属性。 每 15 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">追蹤記錄復原</span> <br /> </td> 
+   <td> <span class="uicontrol">跟踪日志恢复</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流程會同步在Adobe Campaign Standard中匯入的標籤行動裝置屬性。 每 15 分钟启动一次。<br /> </td> 
+   <td> 此工作流可同步在Adobe Campaign Standard中导入的标记移动属性。 每 15 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">復原追蹤記錄</span> <br /> </td> 
+   <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
+   <td> 此工作流用于恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并仅限于Adobe内部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放执行</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> 此工作流程會複製本機資料庫中的broadlog和追蹤記錄。 默认情况下，每 10 分钟启动一次。<br/> </td> 
+   <td> 此工作流用于复制本地数据库中的broadlog和跟踪日志。 默认情况下，每 10 分钟启动一次。<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放指标</span> <br /> </td> 

@@ -1,6 +1,6 @@
 ---
 title: 创建每周投放
-description: 此使用案例顯示如何建立每週傳送。
+description: 此用例展示了如何创建每周投放。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 ---
 
-# 建立每星期二傳送的電子郵件{#creating-email-every-tuesday}
+# 创建每星期二发送的电子邮件投放{#creating-email-every-tuesday}
 
 您可以在每个星期二向所有客户发送电子邮件以提供特惠信息。
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 ## 创建调度程序活动{#creating-a-scheduler-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [排程器](../../automating/using/scheduler.md) 活動。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [调度程序](../../automating/using/scheduler.md) 活动。
 1. 双击该活动。
 1. 配置投放的执行方式。
 1. 在 **[!UICONTROL Execution frequency]** 中，选择 **[!UICONTROL Weekly]**。
@@ -43,7 +43,7 @@ ht-degree: 81%
 
 ## 创建查询活动{#creating-a-query-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，若要選取收件者，請拖放 [查詢](../../automating/using/query.md) 活動並連按兩下。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，要选择收件人，请拖放 [查询](../../automating/using/query.md) 活动并双击该活动。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** 中，拖放 **[!UICONTROL Email]**。
 1. 选择 **[!UICONTROL is not empty]** 作为运算符。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，添加用户档案并选择 **[!UICONTROL no longer contact by email]**（其值为 **[!UICONTROL No]**）。
@@ -53,7 +53,7 @@ ht-degree: 81%
 
 ## 创建电子邮件投放{#creating-an-email-delivery}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动。
 1. 单击活动，然后选择 ![](assets/edit_darkgrey-24px.png) 以进行编辑。
 1. 选择 **[!UICONTROL Recurring email]** 并单击 **[!UICONTROL Next]**。
 1. 选择电子邮件模板，然后单击 **[!UICONTROL Next]**。

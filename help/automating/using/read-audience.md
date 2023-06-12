@@ -30,8 +30,8 @@ ht-degree: 87%
 
 **相关主题**
 
-* [使用案例：聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
-* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
+* [用例：两个优化受众的并集](../../automating/using/union-on-two-refined-audiences.md)
+* [用例：使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置 {#configuration}
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
    您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。
 
-   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。有關詳細資訊，請參閱 [此頁面](../../automating/using/customizing-workflow-external-parameters.md) 區段。
+   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。有关更多信息，请参阅 [此页面](../../automating/using/customizing-workflow-external-parameters.md) 部分。
 
    ![](assets/readaudience_activity1.png)
 

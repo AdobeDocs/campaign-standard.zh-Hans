@@ -40,7 +40,7 @@ ht-degree: 96%
 
 您可以从项目、营销策划或营销活动列表创建工作流。
 
-![](assets/do-not-localize/how-to-video.png) [瞭解如何在影片中建立工作流程](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中构建工作流](#video)
 
 有关创建营销活动的详情，请参阅[创建营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)一节。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 
    例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
-   有關工作流程屬性的詳細資訊，請參閱 [此頁面](../../automating/using/managing-execution-options.md).
+   有关工作流属性的更多信息，请参阅 [此页面](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -131,10 +131,10 @@ ht-degree: 96%
 1. 保存活动，并为工作流的每个活动重复这些操作。
 1. 保存工作流。
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-本影片說明如何建立工作流程。
+本视频说明如何创建工作流。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

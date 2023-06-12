@@ -1,6 +1,6 @@
 ---
 title: 添加面板
-description: 動態報告可讓您新增面板，以根據所選時段更好地篩選資料。
+description: 动态报告允许您添加面板，以根据所选时段更好地筛选数据。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -17,60 +17,60 @@ ht-degree: 1%
 
 # 添加面板{#adding-panels}
 
-## 新增空白面板 {#adding-a-blank-panel}
+## 添加空白面板 {#adding-a-blank-panel}
 
-若要啟動報表，您可以將一組面板新增至立即可用或自訂的報表中。 每個面板都包含不同的資料集，由自由表格和視覺效果組成。
+要启动报表，可向开箱即用报表或自定义报表中添加一组面板。 每个面板包含不同的数据集，由自由格式表和可视化图表组成。
 
-此面板可讓您視需要建置報表。 您可以在報表中新增任意數量的面板，以使用不同的時段篩選資料。
+利用此面板，可根据需要构建报告。 您可以在报表中添加任意数量的面板，以按不同的时间段筛选数据。
 
-1. 按一下 **面板** 圖示。 您也可以按一下 **插入索引標籤** 並選取 **新增空白面板**.
+1. 单击 **面板** 图标。 您还可以通过单击 **插入选项卡** 和选择 **新建空白面板**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. 拖放 **空白面板** 放入您的儀表板。
+1. 拖放 **空白面板** 进入您的信息板。
 
    ![](assets/dynamic_report_panel.png)
 
-您現在可以將自由表格新增至面板，以開始鎖定目標資料。
+您现在可以将自由格式表添加到面板中以开始定位数据。
 
-## 新增自由表格 {#adding-a-freeform-table}
+## 添加自由格式表 {#adding-a-freeform-table}
 
-自由表格可讓您建立表格，以使用中提供的不同量度和維度來分析您的資料。 **元件** 表格。
+自由格式表允许您创建一个表，以使用 **组件** 表格。
 
-每個表格和視覺效果皆可調整大小，並可移動以自訂報表。
+每个表和可视化图表均可调整大小，并且可以移动以更好地自定义您的报表。
 
-1. 按一下 **[!UICONTROL Panels]** 圖示。
+1. 单击 **[!UICONTROL Panels]** 图标。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. 拖放 **[!UICONTROL Freeform]** 個專案放入您的儀表板。
+1. 拖放 **[!UICONTROL Freeform]** 项放入您的仪表板。
 
-   您也可以按一下 **[!UICONTROL Insert]** 標籤並選取 **[!UICONTROL New Freeform]** 或按一下 **[!UICONTROL Add a freeform table]** 在空白面板中。
+   您也可以通过单击 **[!UICONTROL Insert]** 选项卡并选择 **[!UICONTROL New Freeform]** 或通过单击 **[!UICONTROL Add a freeform table]** 在空面板中。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 在 **[!UICONTROL Drop a segment here]** 欄位，新增 **[!UICONTROL Segment]** 從 **[!UICONTROL Components]** 定位至頂端列。
+1. 在 **[!UICONTROL Drop a segment here]** 字段，添加 **[!UICONTROL Segment]** 从 **[!UICONTROL Components]** 进入顶栏。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. 從拖放專案 **[!UICONTROL Components]** 定位至欄和列，以建置您的表格。
+1. 将项目从 **[!UICONTROL Components]** 按Tab键进入列和行以构建表。
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. 按一下 **[!UICONTROL Settings]** 圖示來變更資料在欄中的顯示方式。
+1. 单击 **[!UICONTROL Settings]** 图标来更改数据在列中的显示方式。
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   此 **[!UICONTROL Column settings]** 由下列專案組成：
+   此 **[!UICONTROL Column settings]** 由以下部分组成：
 
-   * **[!UICONTROL Number]**：可讓您顯示或隱藏欄中的摘要數字。
-   * **[!UICONTROL Percent]**：可讓您顯示或隱藏欄中的百分比。
-   * **[!UICONTROL Interpret zero as no value]**：可讓您在值等於零時顯示或隱藏。
-   * **[!UICONTROL Background]**：可讓您顯示或隱藏儲存格中的水準進度列。
-   * **[!UICONTROL Include retries]**：可讓您在結果中包含重試。 此專案僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**：用于显示或隐藏列中的概要数字。
+   * **[!UICONTROL Percent]**：用于显示或隐藏列中的百分比。
+   * **[!UICONTROL Interpret zero as no value]**：用于在值等于零时显示或隐藏。
+   * **[!UICONTROL Background]**：用于显示或隐藏单元格中的水平进度条。
+   * **[!UICONTROL Include retries]**：用于在结果中包含重试。 此项仅适用于 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**.
 
-1. 選取一或多個列，然後按一下 **[!UICONTROL Visualize]** 圖示。 新增視覺效果以反映您選取的列。
+1. 选择一行或多行，然后单击 **[!UICONTROL Visualize]** 图标。 添加了一个可视化图表以反映您选择的行。
 
    ![](assets/dynamic_report_freeform_5.png)
 
-您現在可以視需要新增任意數量的元件，也可以新增視覺效果以提供資料的圖形表示。
+您现在可以根据需要添加任意数量的组件，还可以添加可视化图表以直观地表示您的数据。

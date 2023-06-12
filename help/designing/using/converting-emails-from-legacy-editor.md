@@ -1,6 +1,6 @@
 ---
-title: 將舊版編輯器電子郵件轉換為電子郵件設計工具
-description: 探索如何使用在舊版編輯器電子郵件中建立的電子郵件傳送給電子郵件設計工具。
+title: 将旧版编辑器电子邮件转换为Email Designer
+description: 了解如何使用在旧版编辑器电子邮件中创建的电子邮件将其发送到Email Designer。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,42 +15,42 @@ ht-degree: 8%
 
 ---
 
-# 轉換舊版編輯器電子郵件內容 {#converting-an-html-content}
+# 转换旧版编辑器电子邮件内容 {#converting-an-html-content}
 
-開始使用電子郵件設計工具，並從在舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
+开始使用Email Designer，并根据在旧版编辑器中创建的电子邮件HTML构建可重用模板和片段。
 
-此使用案例可讓您使用HTML電子郵件，並將其分割成電子郵件設計工具中的HTML元件，以建立電子郵件設計工具範本。
+通过此用例，您可以使用Email Designer模板创建HTML电子邮件，并将其划分为Email Designer中的HTML组件。
 
 >[!NOTE]
 >
->如同相容性模式，HTML元件可使用有限的選項進行編輯：您只能執行就地編輯。
+>与兼容模式一样，HTML组件也可以使用有限的选项进行编辑：您只能执行就地编辑。
 
 >[!IMPORTANT]
 >
->本節適用於熟悉HTML程式碼的進階使用者。
+>本节适用于熟悉HTML代码的高级用户。
 
-## 準備您的電子郵件內容
+## 准备电子邮件内容
 
-1. 選取HTML電子郵件。
-1. 識別HTML電子郵件的區段。
-1. 從HTML中剪下不同區塊。
+1. 选择HTML电子邮件。
+1. 确定要划分HTML电子邮件的部分。
+1. 从HTML上剪下几个街区。
 
-## 建立您的電子郵件結構
+## 创建电子邮件结构
 
-1. 開啟 **[!UICONTROL Email Designer]**  以建立空白的電子郵件內容。
-1. 設定主體層級屬性：背景顏色、寬度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
-1. 新增任意數量的結構元件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 打开 **[!UICONTROL Email Designer]**  创建空的电子邮件内容。
+1. 设置正文级别属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 添加具有部分的所有结构元件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-## 新增HTML內容
+## 添加HTML内容
 
-1. 將HTML元件新增至每個結構元件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 將HTML複製並貼到每個元件中。
+1. 将HTML组件添加到每个结构组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将HTML复制并粘贴到每个组件中。
 
-## 管理電子郵件的樣式 {#manage-the-style-of-your-email}
+## 管理电子邮件的样式 {#manage-the-style-of-your-email}
 
-1. 切換至 **[!UICONTROL Mobile view]**. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到 **[!UICONTROL Mobile view]**. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
-1. 若要修正此問題，請切換到原始程式碼模式，並將您的樣式區段複製貼到新的樣式區段中。 例如：
+1. 要解决此问题，请切换到源代码模式，并将样式部分复制粘贴到新样式部分中。 例如：
 
    ```
    <style type="text/css">
@@ -63,9 +63,9 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >請務必將您的樣式新增至其他自訂樣式標籤中。
+   >确保将样式添加到其他自定义样式标记中。
    >
-   >請勿修改電子郵件設計工具產生的CSS：
+   >请勿修改电子邮件设计器生成的CSS：
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -74,56 +74,56 @@ ht-degree: 8%
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 
-1. 返回行動檢視以檢查您的內容是否正確顯示並儲存變更。
+1. 返回移动设备视图以检查内容是否正确显示并保存更改。
 
 ## 用例
 
-讓我們嘗試將此在舊版編輯器中建立的電子郵件轉換為 **[!UICONTROL Email Designer]** 範本。
+让我们尝试将此在旧版编辑器中创建的电子邮件转换为 **[!UICONTROL Email Designer]** 模板。
 
-### 識別電子郵件的區段
+### 识别电子邮件的部分
 
-我們可以識別此電子郵件中的11個區段。
+我们可以确定这封电子邮件中的11个部分。
 
 ![](assets/html-dce-view-mail.png)
 
-若要識別哪個元素是HTML的哪個區段，您可以選取它。
+要确定哪个元素是HTML的哪个部分，您可以选择它。
 
 ![](assets/breadcrumbs.png)
 
-若要檢視電子郵件的HTML版本，請按一下 **[!UICONTROL Show source]**.
+要查看电子邮件的HTML版本，请单击 **[!UICONTROL Show source]**.
 
-### 建立電子郵件範本及其結構
+### 创建电子邮件模板及其结构
 
-1. 拖放 **[!UICONTROL Structure components]**  反映我們電子郵件的版面配置。
+1. 拖放 **[!UICONTROL Structure components]**  反映我们电子邮件的布局。
 
-1. 視需要重複多次。 我們需要建立11個結構元件。
+1. 根据需要重复多次。 我们需要创建11个结构组件。
 
    ![](assets/structure-components-migration.png)
 
-### 插入HTML內容元件
+### 插入HTML内容组件
 
-1. 插入 **[!UICONTROL HTML component]**  在每個 **[!UICONTROL Structure component]** .
+1. 插入 **[!UICONTROL HTML component]**  在每个 **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. 對於每個區段，按一下 **[!UICONTROL Show source code]** .
+1. 对于每个部分，单击 **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
-1. 插入HTML區段。
+1. 插入HTML部分。
 
 1. 单击 **[!UICONTROL Save]**。
 
-您現在可以檢查電子郵件的呈現。
+您现在可以检查电子邮件的渲染。
 
 ![](assets/migrated-email-result.png)
 
-### 管理樣式以符合行動檢視
+### 管理样式以适合移动设备视图
 
-1. 插入CSS元素，以確保您的電子郵件適合行動檢視。
+1. 插入CSS元素以确保您的电子邮件适用于移动设备视图。
 
-1. 切換至原始程式碼，並將您的樣式區段複製貼到新的樣式區段中。
+1. 切换到源代码，并将您的样式部分复制粘贴到新样式部分中。
 
-有關詳細資訊，請參閱 [管理電子郵件的樣式](#manage-the-style-of-your-email).
+有关更多信息，请参阅 [管理电子邮件的样式](#manage-the-style-of-your-email).
 
-您的舊版電子郵件現在可在電子郵件設計工具中使用。
+您的旧电子邮件现在可在Email Designer中使用。

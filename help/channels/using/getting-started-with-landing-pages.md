@@ -23,7 +23,7 @@ ht-degree: 97%
 
 在此页中，您可以找到各个步骤的信息以及对专用文档的引用，以便获取更多详细信息。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索如何建立登入頁面](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中创建登陆页面](#video)
 
 **相关主题：**
 
@@ -132,10 +132,10 @@ ht-degree: 97%
 
 有关登录页发布的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 
-## 教學課程影片 {#video}
+## 教程视频 {#video}
 
-本影片說明如何建立和編輯登入頁面。
+本视频说明如何创建和编辑登陆页面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).

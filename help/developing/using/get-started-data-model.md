@@ -29,9 +29,9 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign使用的資料是透過 **預先定義的資料模型**. 資料模型會顯示一組行銷相關資源的現成SQL結構：傳送、對象、登陸頁面、設定檔等。 每個資源都附帶關聯的篩選器，可讓您導覽資源。
+Campaign使用的数据是通过中定义的不同资源定义的 **预定义的数据模型**. 数据模型为一组与营销相关的资源（投放、受众、登陆页面、用户档案等）显示现成的SQL结构。 每个资源都带有关联的过滤器，允许您浏览这些资源。
 
-此 **診斷** 功能表可讓您列出Campaign Standard產生的技術物件：資料結構描述、網頁、篩選器等，讓您監視資料模型及其所做的任何變更。
+此 **诊断** 菜单可让您列出Campaign Standard生成的技术对象：数据架构、网页、过滤器等，从而允许您监视数据模型及其所做的任何更改。
 
 了解更多信息:
 
@@ -44,22 +44,22 @@ Campaign使用的資料是透過 **預先定義的資料模型**. 資料模型�
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard可讓您 **豐富預先定義的資料模型** 建立您自己的資源（例如，新增「購買」或「產品」表格），或使用新欄位擴充現有資源。 您也可以設定Campaign畫面，以最佳化瀏覽新資源和已建立的欄位。
+Campaign Standard允许您 **丰富预定义的数据模型** 创建自己的资源（例如，添加Purchase或Product表），或使用新字段扩展现有资源。 您还可以配置Campaign屏幕，以优化浏览已创建的新资源和字段。
 
-此外，您可以 **擴充Campaign StandardREST API** 以便在API中公開自訂資源設定檔的擴充欄位。 舉例來說，這可讓您使用計費系統產生的促銷代碼來更新客戶的設定檔。
+此外，您还可以 **扩展Campaign StandardREST API** 以便在API中公开自定义资源配置文件的extended字段。 例如，这可让您使用从计费系统生成的促销代码更新客户的用户档案。
 
 了解更多信息:
 
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
-* [擴充API](../../developing/using/about-extending-the-api.md)
-* [使用案例：使用新欄位擴充設定檔資源](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [使用案例：將訂閱擴充至應用程式資源](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [扩展API](../../developing/using/about-extending-the-api.md)
+* [用例：使用新字段扩展用户档案资源](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [用例：将订阅扩展到应用程序资源](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## 使用API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-透過Campaign Standard API，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，建置您自己的生態系統。 [Campaign Standard REST API 入门](../../api/using/get-started-apis.md)
+借助Campaign StandardAPI，可为Adobe Campaign Standard创建集成，并通过将Campaign与您使用的技术面板连接来构建您自己的生态系统。 [Campaign Standard REST API 入门](../../api/using/get-started-apis.md)
 
 ## 其他资源
 

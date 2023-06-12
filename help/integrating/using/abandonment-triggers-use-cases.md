@@ -64,7 +64,7 @@ ht-degree: 94%
 
 在 Adobe Campaign 中，您需要创建一个触发器，使其链接到在 Experience Cloud 中创建的触发器。
 
-1. 若要在Adobe Campaign中建立觸發程式，請按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. 要在Adobe Campaign中创建触发器，请单击 **Adobe** 徽标，位于左上角，然后选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 若要顯示訊息範本，請按一下 **[!UICONTROL More]** 按鈕，然後按一下 **[!UICONTROL Trigger Transactional Template]**.
+1. 要显示消息模板，请单击 **[!UICONTROL More]** 按钮，然后单击 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 将其内容和发件人详细信息个性化。
 
@@ -101,11 +101,11 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 收件者按一下連結，系統就會將收件者導向至您的網站。 在本例中，横幅会将收件人导向旅行预订网站的主页。
+1. 收件人单击可将访客引导至您网站的链接。 在本例中，横幅会将收件人导向旅行预订网站的主页。
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 收件者前往「交易」頁面，但突然停止造訪。 10 分钟后，Adobe Campaign 触发事务型消息的发送。
+1. 收件人前往“Deals”页面，但突然停止了访问。 10 分钟后，Adobe Campaign 触发事务型消息的发送。
 
    ![](assets/trigger_uc_browse_12.png)
 

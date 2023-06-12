@@ -1,6 +1,6 @@
 ---
-title: 新增資源的重要步驟
-description: 在此處瞭解在Adobe Campaign資料模型中新增資源的主要步驟。
+title: 添加资源的关键步骤
+description: 在此处了解在Adobe Campaign数据模型中添加资源的关键步骤。
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -17,7 +17,7 @@ ht-degree: 46%
 
 # 添加资源的关键步骤{#key-steps-to-add-a-resource}
 
-若要建立新資源或使用新欄位擴充現有資源，需要執行幾個步驟：
+要创建新资源或使用新字段扩展现有资源，需要执行几个步骤：
 
 1. [创建或扩展资源](../../developing/using/creating-or-extending-the-resource.md)
 1. [配置资源的数据结构](../../developing/using/configuring-the-resource-s-data-structure.md)
@@ -29,8 +29,8 @@ ht-degree: 46%
 >
 >创建和修改资源是敏感操作，只能由专家用户执行。
 
-本影片說明如何建立自訂資源。
+本视频说明如何创建自定义资源。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
