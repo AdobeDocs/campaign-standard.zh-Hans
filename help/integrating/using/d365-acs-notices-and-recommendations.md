@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2471'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,6 @@ ht-degree: 1%
 
 1. 验证是否已从两个系统中删除记录
 
-以下链接可帮助您在每个系统中实施访问和/或删除与隐私相关的请求：
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
@@ -159,15 +154,15 @@ ht-degree: 1%
 
 * 您需要授权正确的Campaign包，以支持集成生成的引擎调用量。 超出授权的引擎调用量可能会导致Campaign性能下降。
 
-   使用以下内容帮助估算集成中的引擎调用量：
+  使用以下内容帮助估算集成中的引擎调用量：
 
    * 记录插入（即新记录）：1个引擎调用
    * 记录删除：1个引擎调用
    * 记录更新：2个引擎调用(如果目标记录与源记录相同（即，如果促销活动记录没有更改），则仅1个调用)
 
-   在估计整个Campaign引擎调用量时，务必要考虑引擎调用的其他来源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
+  在估计整个Campaign引擎调用量时，务必要考虑引擎调用的其他来源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
 
-   在此处查看Adobe Campaign Standard包信息： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  在此处查看Adobe Campaign Standard包信息： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持1500万条记录用于初始同步到Campaign中的资源。 增量同步受Adobe Campaign Standard包的限制。
 
