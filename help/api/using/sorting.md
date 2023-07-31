@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -17,18 +17,18 @@ ht-degree: 11%
 
 # 排序
 
-排序可以按升序或降序进行。 要执行此操作，请使用 **%20desc** 或 **%20asc** 参数到您的请求。
+默认情况下，排序以升序方式提供。 要按降序排序，请附加 **%20desc** 到 **顺序(_O)** 参数的值。
 
-要了解某个字段是否可以排序，请将“sortable”参数检查到资源元数据中。 如需详细信息，请参阅[此部分](../../api/using/metadata-mechanism.md)。
+要了解某个字段是否可以排序，请将“可排序”参数检查到资源元数据中。 如需详细信息，请参阅[此部分](../../api/using/metadata-mechanism.md)。
 
 <br/>
 
 ***示例请求***
 
-* 在数据库中按字母顺序检索电子邮件的示例GET请求。
+* 用于检索数据库中按字母顺序排列的电子邮件的示例GET请求。
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
