@@ -40,7 +40,7 @@ ht-degree: 0%
   }
 ```
 
-对订阅URL执行POST请求，并在有效负载内使用所需的服务主键。
+对订阅URL执行POST请求，在有效负载内使用所需的服务主键。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

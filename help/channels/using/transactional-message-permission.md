@@ -22,23 +22,23 @@ ht-degree: 0%
 >
 >这些功能目前仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
 
-目前，在Adobe Campaign Standard中，没有Administrator安全组的用户无法访问、创建或发布事务性事件，从而导致需要配置和发布事件但缺少Administrator权限的业务用户出现问题。 此外，也不能复制事务性事件。
+目前，在Adobe Campaign Standard中，没有Administrator安全组的用户无法访问、创建或发布事务型事件，从而导致需要配置和发布事件但缺少Administrator权限的业务用户出现问题。 此外，也不可能重复事务性事件。
 
-我们已对事务性消息传递访问控制进行了以下改进：
+我们已对事务性消息传递访问控制实施了以下改进：
 
 * 新 **[!UICONTROL Role]**，调用 **MC用户**&#x200B;已添加，以允许非管理员用户管理事务性事件配置。 此 **MC用户** 角色授予这些用户访问、创建、发布和取消发布事务性事件和消息的能力。
 
-* 执行投放（即每次再次编辑和发布事务型消息时创建的技术消息，或默认为每月创建一次）现在设置为 **[!UICONTROL Organizational unit]** 创建事件的用户所属的安全组的所有成员，而不是限制在 **[!UICONTROL Organizational unit]** 的 **消息中心代理(mcExec)** 安全组。
+* 现在将执行投放（即每次再次编辑和发布事务型消息时创建的技术消息，或默认为每月创建一次）设置为 **[!UICONTROL Organizational unit]** 创建事件的用户所属的安全组的所有成员，而不是限制在 **[!UICONTROL Organizational unit]** 的 **消息中心代理(mcExec)** 安全组。
 
-* **管理员** 现在可以复制已发布的事务性事件，以及具有的用户 **MC用户** 角色，前提是它们位于同一个 **组织单位** 层次结构作为创建事件的用户。
+* **管理员** 现在可以复制已发布的事务性事件，以及具有的用户 **MC用户** 角色，前提是它们位于同一个 **组织单位** 层级作为创建事件的用户。
 
 ## 分配MC用户角色 {#assign-role}
 
-要分配 **MC用户** 角色到安全组：
+要分配 **MC用户** 您的安全组的角色：
 
 1. 新建 **[!UICONTROL Security group]** 或者更新现有的一个。 [了解详情](../../administration/using/managing-groups-and-users.md)。
 
-1. 单击 **[!UICONTROL Create element]** 以将角色分配给您的安全组。
+1. 单击 **[!UICONTROL Create element]** 将角色分配给您的安全组。
 
    ![](assets/event_access_1.png)
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 在将MC用户角色分配给操作员时，请务必谨慎，因为这样操作员将能够取消发布事件。
+   > 在将MC用户角色分配给操作员时请务必谨慎，因为这样操作员就可以取消发布事件。
 
    ![](assets/event_access_2.png)
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 选择 **Adobe Campaign Standard** 然后选择您的实例。
 
-1. 从 **产品配置文件** 列表中，选择 **MC用户** 组。
+1. 从 **产品配置文件** 列表，选择 **MC用户** 组。
 
 1. 单击 **添加用户** 并输入要添加到此产品配置文件的配置文件的名称、用户组或电子邮件地址。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 组织单位为“Paris Sales”的其他用户将能够复制此事件，因为“Paris Sales”是“France Sales”组织单位的一部分。
 
-* 但是，组织单位为“旧金山销售部”的用户将无法这样做，因为“旧金山销售部”位于“美国销售部”组织单位下，该组织单位与“法国销售部”组织单位不同。
+* 但是，组织单位为“旧金山销售额”的用户将无法这样做，因为“旧金山销售额”位于“美国销售额”组织单位下，该组织单位与“法国销售额”组织单位不同。
 
 要复制事件配置，请执行以下步骤。
 
@@ -104,18 +104,18 @@ ht-degree: 0%
 
    ![](assets/message-center_duplicated-draft-message.png)
 
-1. 您现在可以编辑此消息并使其个性化。 参见 [编辑事务型消息](../../channels/using/editing-transactional-message.md).
+1. 您现在可以编辑此消息并使其个性化。 请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md).
 
 ## 影响 {#impacts}
 
 下表概述了这些改进的影响：
 
-| 对象 | 在此更改之前 | 在此更改之后 |
+| 对象 | 在此更改之前 | 进行此更改后 |
 |:-: | :--: | :-:|
 | 事务性事件 | 仅限中的用户 **管理员** 安全组可以创建并发布事件。 | 此 **MC用户** 角色允许用户创建和发布事件。 |
-| 事务型消息 | 事务型消息将设置为 **组织单位** 的 **消息中心代理(mcExec)** 安全组。 | 事务型消息将设置为 **组织单位** 创建事务性事件/消息的用户所属的安全组的成员。 |
-| 执行投放 | 执行投放设置为 **组织单位** 的 **消息中心代理(mcExec)** 安全组。 | 执行投放设置为 **组织单位** 创建事务性事件/消息的用户所属的安全组的成员。 |
-| 已发布的事务性事件 | 任何用户都不能重复。 | <ul><li>具有的用户 **管理员** 安全组可以复制已发布的事件。</li> <li>具有的用户 **MC用户** 角色可以复制已发布的事件，前提是它们位于同一事件中 **组织单位** 层次结构作为创建事件的用户。</li></ul> |
+| 事务性消息 | 将事务型消息设置为 **组织单位** 的 **消息中心代理(mcExec)** 安全组。 | 将事务型消息设置为 **组织单位** 创建事务性事件/消息的用户所属的安全组的。 |
+| 执行投放 | 执行投放设置为 **组织单位** 的 **消息中心代理(mcExec)** 安全组。 | 执行投放设置为 **组织单位** 创建事务性事件/消息的用户所属的安全组的。 |
+| 已发布的事务性事件 | 任何用户都不能重复。 | <ul><li>具有的用户 **管理员** 安全组可以复制已发布的事件。</li> <li>具有的用户 **MC用户** 角色可以复制已发布的事件，前提是它们位于同一个 **组织单位** 层级作为创建事件的用户。</li></ul> |
 
 
 <!--Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.-->

@@ -120,7 +120,7 @@ ht-degree: 86%
 
 要创建电子邮件投放，请执行以下步骤：
 
-1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动。
+1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 第一个区段后的活动。
 1. 双击该活动以对其进行编辑。
 1. 选择 **[!UICONTROL Simple email]**。
 1. 选择 **[!UICONTROL Add an outbound transition with the population]** 并单击 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ ht-degree: 86%
 
 ## 运行工作流 {#running-the-workflow}
 
-启动工作流后，将定向群体 **[!UICONTROL Query]** 活动将被分段以接收电子邮件或短信投放。
+启动工作流后，将定向的群体 **[!UICONTROL Query]** 活动将被分段以接收电子邮件或短信投放。
 
 要执行工作流，请单击操作栏中的 **[!UICONTROL Start]** 按钮。
 

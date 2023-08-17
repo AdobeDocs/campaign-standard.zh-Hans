@@ -11,7 +11,7 @@ exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对�
 
 * 大文本和标题已得到增强，达到 3:1 的对比度。
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * 应用程序中的帮助内容和正文文本已更新，达到 4.5:1 的对比度。
 
 * 工作流的暂停和取消图标已更新，以提高背景色和前景色之间的对比度。
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * 颜色、形状和位置不是应用程序中用于传递信息或层次结构的唯一方法。
 
@@ -47,11 +47,11 @@ Adobe Campaign Standard 用户界面通过向可视元素添加替代文本以�
 
 * 当用户将必需的 ID 字段留空时，图形会直观地指示哪个字段的消息文本出错，并且同一信息通过屏幕阅读器等辅助技术以程序化方式传递给用户。
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * 鼠标悬停或聚焦时显示的内容可被用户忽略，并且不会模糊其他内容。
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * 添加了图像的替代文本和按钮的辅助名称，并且可以使用辅助技术大声读取，而不是只依赖视觉提示来识别元素。
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard 致力于提供不断增强的辅助功能，从而使�
 
 我们建议您使用 [Adobe 辅助功能反馈表](https://www.adobe.com/accessibility/feedback.html)向我们发送改进建议和您遇到的辅助功能问题。
 
-您还可以参阅 [Adobe Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes)，以了解最新的改进和功能。
+您还可以参阅 [Adobe Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hans#release-notes)，以了解最新的改进和功能。

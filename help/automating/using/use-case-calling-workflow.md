@@ -19,13 +19,13 @@ ht-degree: 1%
 
 以下用例展示了如何使用工作流中的参数调用工作流。
 
-目标是使用外部参数从API调用触发工作流。 此工作流会将数据从文件加载到数据库中，并创建关联的受众。 创建受众后，将触发第二个工作流，以使用API调用中定义的外部参数个性化发送消息。
+目标是使用外部参数从API调用触发工作流。 此工作流会将数据从文件加载到数据库中，并创建关联受众。 创建受众后，将触发第二个工作流，以使用API调用中定义的外部参数发送个性化消息。
 
 要执行此用例，您需要执行以下操作：
 
-1. **进行API调用** 以使用外部参数触发工作流1。 参见 [步骤1：配置API调用](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **构建工作流1**：工作流将传输文件并将其加载到数据库中。 然后，它将测试数据是否为空，并最终将用户档案保存到受众中。 最后，它将触发工作流2。 参见 [步骤2：配置工作流1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
-1. **构建工作流2**：工作流将读取在工作流1中创建的受众，然后向用户档案发送个性化消息，并使用参数自定义区段代码。 参见 [步骤3：配置工作流2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
+1. **进行API调用** 以使用外部参数触发工作流1。 请参阅 [步骤1：配置API调用](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **构建工作流1**：工作流将传输文件并将其加载到数据库中。 然后，它将测试数据是否为空，并最终将用户档案保存到受众。 最后，它会触发工作流2。 请参阅 [步骤2：配置工作流1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **构建工作流2**：工作流将读取在工作流1中创建的受众，然后向用户档案发送个性化消息，并使用参数自定义段代码。 请参阅 [步骤3：配置工作流2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -39,8 +39,8 @@ ht-degree: 1%
 
 在本例中，我们希望使用以下参数调用工作流：
 
-* **fileToTarget**：要导入数据库的文件的名称。
-* **折扣说明**：我们要在投放中显示折扣的描述。
+* **fileToTarget**：要导入到数据库中的文件的名称。
+* **折扣说明**：我们要在投放中显示的有关折扣的描述。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/<TRIGGER_URL>
@@ -72,13 +72,13 @@ ht-degree: 1%
 
 ![](assets/extsignal_uc_wkf1.png)
 
-按照以下步骤配置工作流：
+请按照以下步骤配置工作流：
 
 1. 声明已在API调用中定义的参数。 为此，请打开 **[!UICONTROL External signal]** 活动，然后添加参数的名称和类型。
 
    ![](assets/extsignal_uc1.png)
 
-1. 添加 **[!UICONTROL Transfer file]** 将数据导入数据库的活动。为此，请拖放活动，将其打开，然后选择 **[!UICONTROL Protocol]** 选项卡。
+1. 添加 **[!UICONTROL Transfer file]** 活动将数据导入数据库。为此，请拖放活动，将其打开，然后选择 **[!UICONTROL Protocol]** 选项卡。
 1. 选择 **[!UICONTROL Use a dynamic file path]** 选项，然后使用 **fileToTarget** 要传输的文件形式的参数：
 
    ```
@@ -89,20 +89,20 @@ ht-degree: 1%
 
 1. 将数据从文件加载到数据库中。
 
-   为此，请拖放 **[!UICONTROL Load file]** 活动添加到工作流中，然后根据需要进行配置。
+   为此，请拖放 **[!UICONTROL Load file]** 活动，然后根据需要进行配置。
 
 1. 使用导入文件中的数据插入并更新数据库。
 
-   为此，请拖放 **[!UICONTROL Update data]** 活动，然后选择 **[!UICONTROL Identification]** 制表符以添加协调条件(在我们的示例中， **电子邮件** 字段)。
+   为此，请拖放 **[!UICONTROL Update data]** 活动，然后选择 **[!UICONTROL Identification]** 选项卡以添加协调条件(在我们的示例中， **电子邮件** 字段)。
 
    ![](assets/extsignal_uc3.png)
 
-1. 选择 **[!UICONTROL Fields to update]** 选项卡，然后指定要在数据库中更新的字段(在本例中， **名字** 和 **电子邮件** 字段)。
+1. 选择 **[!UICONTROL Fields to update]** 选项卡，然后指定要在数据库中更新的字段(在我们的示例中， **名字** 和 **电子邮件** 字段)。
 
    ![](assets/extsignal_uc4.png)
 
-1. 检查是否从文件中检索数据。 为此，请拖放 **[!UICONTROL Test]** 活动添加到工作流中，然后单击 **[!UICONTROL Add an element]** 按钮以添加条件。
-1. 命名并定义条件。 在本例中，我们希望使用下列语法测试叫客过渡是否包含数据：
+1. 检查是否从文件检索数据。 为此，请拖放 **[!UICONTROL Test]** 活动添加到工作流中，然后单击 **[!UICONTROL Add an element]** 按钮以添加条件。
+1. 命名并定义条件。 在本例中，我们希望测试叫客过渡是否包含使用以下语法的数据：
 
    ```
    $long(vars/@recCount)>0
@@ -121,9 +121,9 @@ ht-degree: 1%
 
 1. 拖放 **[!UICONTROL End]** 使用参数调用工作流2的活动，然后打开它。
 1. 选择 **[!UICONTROL External signal]** 选项卡，然后指定要触发的工作流及其关联的信号活动。
-1. 定义要在工作流2中使用的参数及其相关值。
+1. 定义要在工作流2中使用的参数及其关联值。
 
-   在本例中，我们要传递最初在API调用中定义的参数(**fileToTarget** 和 **折扣说明**)，以及另一个 **segmentcode** 整数值（“20%折让”）的加权平均数。
+   在本例中，我们要传递最初在API调用中定义的参数(**fileToTarget** 和 **折扣说明**)，以及另一个 **segmentcode** 整比率（“20%折让”）。
 
    ![](assets/extsignal_uc7.png)
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 ![](assets/extsignal_uc_wkf2.png)
 
-按照以下步骤配置工作流：
+请按照以下步骤配置工作流：
 
 1. 声明已在工作流1中定义的参数。
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc8.png)
 
-1. 使用工作流1中保存的受众。 为此，请拖放 **[!UICONTROL Read audience]** 活动添加到工作流中，然后打开它。
+1. 使用工作流1中保存的受众。 为此，请拖放 **[!UICONTROL Read audience]** 活动添加到工作流中，然后将其打开。
 1. 选择 **[!UICONTROL Use a dynamic audience]** 选项，然后使用 **fileToTarget** 参数作为要读取的受众的名称：
 
    ```
@@ -169,7 +169,7 @@ ht-degree: 1%
    ![](assets/extsignal_uc10.png)
 
 1. 拖放 **[!UICONTROL Email delivery]** 活动，向受众发送消息。
-1. 确定要在消息中使用的参数，以使用对其进行个性化 **折扣说明** 参数。 为此，请打开活动的高级选项，然后添加参数名称和值。
+1. 识别消息中要使用的参数，以使用 **折扣说明** 参数。 为此，请打开活动的高级选项，然后添加参数名称和值。
 
    ![](assets/extsignal_uc10b.png)
 
@@ -188,4 +188,4 @@ ht-degree: 1%
 
 ## 执行工作流 {#executing-the-workflows}
 
-构建工作流后，即可执行它们。 确保在执行API调用之前启动这两个工作流。
+构建工作流后，即可执行这些工作流。 确保在执行API调用之前启动这两个工作流。

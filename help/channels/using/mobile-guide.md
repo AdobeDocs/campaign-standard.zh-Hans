@@ -29,13 +29,13 @@ ht-degree: 25%
 
 ## 关于移动投放 {#about-mobile}
 
-Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通过专用报告衡量其有效性。
+Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通过专用报告衡量其有效性。
 
 借助Adobe Campaign Standard，您可以通过三个不同的渠道发送移动投放：
 
-* 短信，在关于短信消息部分中介绍。
+* 短信，显示在关于短信消息部分。
 * 推送通知，如关于推送通知一节中所述。
-* 应用程序内消息，显示在关于应用程序内消息部分。
+* 应用程序内消息，请参阅关于应用程序内消息一节。
 
 ## 为推送通知配置移动应用程序 {#configuration-push}
 
@@ -52,7 +52,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>了解Campaign Standard推送通知有效负荷结构</strong></p>
     </div>
-    <p>详细了解当推送通知成功从Adobe Campaign Standard发送到应用程序时，在移动应用程序中接收的有效负荷的结构。</br><a href="../../administration/using/push-payload.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>详细了解当推送通知从Adobe Campaign Standard成功发送到应用程序时，在移动应用程序中接收的有效负荷的结构。</br><a href="../../administration/using/push-payload.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
 </tr>
@@ -98,7 +98,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>配置标记规则以支持 Adobe Campaign Standard 用例</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击此处</strong></a> 开始在数据收集UI中创建数据元素和规则，以将PII和其他数据从移动应用程序发送到Adobe Campaign Standard。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>单击此处</strong></a> 开始在数据收集UI中创建数据元素和规则，以将PII和其他数据从移动设备应用程序发送到Adobe Campaign Standard。</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>准备和发送推送通知</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此处了解</strong></a> 如何准备推送通知，以及如何将其发送给目标受众。</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此处了解</strong></a> 如何准备推送通知，然后如何将其发送给您的目标受众。</p>
     <br>
   </td>
   <td>
@@ -135,7 +135,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>创建多语言推送通知</strong></p>
     </div>
-    <p>根据用户首选的语言和区域发送消息，个性化您的推送通知内容。</br><a href="../../channels/using/creating-a-multilingual-push-notification.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>根据用户首选的语言和区域，通过发送消息，个性化您的推送通知内容。</br><a href="../../channels/using/creating-a-multilingual-push-notification.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
   <td>
@@ -156,7 +156,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>准备和发送应用程序内消息</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此处了解</strong></a> 如何准备应用程序内消息，以及如何将其发送给目标受众。</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此处了解</strong></a> 如何准备应用程序内消息，以及如何将其发送给定向受众。</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>创建短信消息</strong></p>
     </div>
-    <p>创建短信投放与创建常规电子邮件非常相似。</br>步骤 <a href="../../channels/using/creating-an-sms-message.md"><strong>此处提供详细信息</strong></a> 描述特定于此渠道的配置。</br></p>
+    <p>创建短信投放与创建常规电子邮件非常相似。</br>步骤 <a href="../../channels/using/creating-an-sms-message.md"><strong>此处提供详细信息</strong></a> 描述特定于此渠道的配置。</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <p><strong>自定义短信消息
 </strong></p>
     </div>
-    <p>为了优化投放，Adobe Campaign允许您在设计短信消息时访问一组高级选项。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>单击此处以了解更多信息。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>为了优化投放，Adobe Campaign允许您在设计短信消息时访问一组高级选项。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>单击此处以了解更多信息。</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Adobe Campaign允许您在各种渠道中创建和发送个性化消息，并通
     <div>
     <p><strong>管理传入的短信</strong></p>
     </div>
-    <p>当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给该用户档案的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处以了解更多信息。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给他们的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处以了解更多信息。</p>
     <br>
   </td>
   <td>

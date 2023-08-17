@@ -19,12 +19,12 @@ ht-degree: 2%
 
 通过Campaign Standard，可使用参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）调用工作流。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
-让我们举以下示例，我们希望直接从CMS发送电子邮件。 在这种情况下，您可以配置系统以选择受众，并将电子邮件内容发送至CMS。 单击发送后，将使用这些参数调用Campaign工作流，从而使您能够在工作流中使用这些参数，定义要在投放中使用的受众和URL内容。
+让我们举以下示例，我们希望直接从CMS发送电子邮件。 在这种情况下，您可以配置系统以选择受众并将电子邮件内容发送至CMS。 单击发送后，将使用这些参数调用Campaign工作流，从而允许您在工作流中使用它们来定义要在投放中使用的受众和URL内容。
 
-使用参数调用工作流的过程如下：
+使用参数调用工作流的流程如下所示：
 
-1. 在中声明参数 **[!UICONTROL External signal]** 活动。 参见 [声明外部信号活动中的参数](../../automating/using/declaring-parameters-external-signal.md).
-1. 配置 **[!UICONTROL End]** 活动或API调用以定义参数并触发工作流 **[!UICONTROL External signal]** 活动。 参见 [此页面](../../automating/using/defining-parameters-calling-workflow.md)
+1. 在中声明参数 **[!UICONTROL External signal]** 活动。 请参阅 [声明外部信号活动中的参数](../../automating/using/declaring-parameters-external-signal.md).
+1. 配置 **[!UICONTROL End]** 活动或API调用以定义参数和触发工作流 **[!UICONTROL External signal]** 活动。 请参阅 [此页面](../../automating/using/defining-parameters-calling-workflow.md)
 1. 触发工作流后，参数将摄取到工作流的事件变量中，并可在工作流中使用。 请参阅[此页](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ![](assets/extsignal_process.png)

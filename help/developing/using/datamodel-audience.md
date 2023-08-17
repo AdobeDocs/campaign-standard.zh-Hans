@@ -16,7 +16,7 @@ ht-degree: 40%
 
 # 受众(nms：audience)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -116,7 +116,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>expirationDate</td>
+                  <td>过期日期</td>
                   <td>截止于</td>
                   <td>date </td>
                   <td> </td>
@@ -240,7 +240,7 @@ ht-degree: 40%
 
 ## 筛选器
 
-通过筛选维度(byFilteringResource)
+按筛选维度(byFilteringResource)
 
 <table>
     <tr>
@@ -248,7 +248,7 @@ ht-degree: 40%
     <th>类型</th>
     </tr>
     <tr>
-    <td>筛选资源</td>
+    <td>filteringResource</td>
     <td>字符串</td>
     </tr>
 </table>
@@ -261,7 +261,7 @@ ht-degree: 40%
     <th>类型</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>文本</td>
     <td>字符串</td>
     </tr>
 </table>

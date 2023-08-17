@@ -18,7 +18,7 @@ ht-degree: 11%
 
 # 定义正确的受众 {#define-the-right-audience}
 
-目标群体是关键：仔细构建列表，在常用的电子邮件客户端和移动设备上测试电子邮件，并确保电子邮件列表是最新的（没有未知或过时的地址）。 您还可以发送校样，以帮助设置完整的验证周期。
+目标群体是关键：仔细构建列表，在常用的电子邮件客户端和移动设备上测试电子邮件，并确保电子邮件列表是最新的（不含未知或过时的地址）。 您还可以发送校样来帮助设置完整的验证周期。
 
 了解有关目标群体的更多信息 [在此部分中](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 准备好内容后，您需要仔细定义接收消息的人员。
 
-为了成功交付，您需要将最相关的个性化内容发送给正确的收件人。 Adobe Campaign使您能够构建最准确的目标：您可以根据收件人的年龄、本地化、购买内容、是否在上一次投放中单击链接等选择收件人。 借助Adobe Campaign，您还可以定义测试用户档案、控制组和种子地址，以确保您的目标正确无误。
+为了成功交付，您需要将最相关的个性化内容发送给正确的收件人。 Adobe Campaign使您能够构建最准确的目标：您可以根据收件人的年龄、本地化、购买内容、是否在上一次投放中单击链接等选择收件人。 通过Adobe Campaign，您还可以定义测试用户档案、控制组和种子地址，以确保您的目标正确。
 
 ## 目标映射 {#target-mappings}
 
@@ -38,13 +38,13 @@ ht-degree: 11%
 
 ## 外部数据 {#external-data}
 
-您可以向存储在外部文件中而不是存储在数据库中的收件人投放。 要实现此目的，设计工作流会将数据从文件加载到数据库中，并创建关联的受众。  了解详情 [在此用例中](../../automating/using/use-case-calling-workflow.md). 另请参阅 [使用参数调用工作流](../../automating/using/calling-a-workflow-with-external-parameters.md).
+您可以向存储在外部文件中而不是数据库中保存的收件人投放。 要实现此目的，设计工作流会将数据从文件加载到数据库中，并创建关联受众。  了解详情 [在此用例中](../../automating/using/use-case-calling-workflow.md). 另请参阅 [使用参数调用工作流](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## 发送给订阅者 {#send-to-subscribers}
 
 要向新闻稿的订阅者发送消息，可以直接将订阅者定位到相应的信息服务。 了解详情 [在此部分中](../../audiences/using/about-subscriptions.md).
 
-**笔尖**  — 您可以使用工作流创建定向新闻稿订阅者的列表受众。 然后，您可以在投放中选择此受众。 有关此内容的更多信息，请参阅 [创建列表受众](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**提示**  — 您可以创建列表受众，该受众使用工作流定向新闻稿的订阅者。 然后，您可以在投放中选择此受众。 有关此内容的更多信息，请参阅 [创建列表受众](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## 验证、测试用户档案和控制组 {#proofs-test-control-groups}
 
@@ -53,13 +53,13 @@ ht-degree: 11%
 
 了解有关测试用户档案的更多信息 [在此部分中](../../audiences/using/managing-test-profiles.md).
 
-您可以使用 [对照组](../../sending/using/control-group.md) 用于通过排除部分受众来衡量促销活动的影响。 然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
+您可以使用 [对照组](../../sending/using/control-group.md) 用于通过排除部分营销活动受众来衡量其影响。 然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
 
 ## 删除重复地址 {#deduplicate-addresses}
 
-请务必避免出现重复的电子邮件地址，因为这可能会对目标产生影响：
+请务必避免电子邮件地址重复，因为这可能会对目标产生影响：
 
-* 拆分目标时，同一消息可能会发送多次。
+* 分割目标时，同一消息可能会发送多次。
 
 * 如果收件人在收到消息后取消订阅，则其重复的用户档案仍会收到未来的消息。
 

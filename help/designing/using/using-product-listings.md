@@ -22,7 +22,7 @@ ht-degree: 79%
 >
 >产品列表仅可用于 **事务性电子邮件** 通过 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 界面。
 
-编辑事务型电子邮件的内容时，您可以创建引用一个或多个数据集合的产品清单。 例如，在购物车放弃电子邮件中，您可以包含用户离开网站时购物车中所有产品的列表，以及各个产品的图像、价格和链接。
+编辑事务型电子邮件的内容时，您可以创建引用一个或多个数据集合的产品清单。 例如，在购物车放弃电子邮件中，您可以加入用户离开网站时购物车中所有产品的列表，以及各个产品的图像、价格和链接。
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅 [定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构元件的更多信息，请参阅 [定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. 选择配置与事务型消息相关的事件时创建的数据集合。您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
 
@@ -127,7 +127,7 @@ ht-degree: 79%
 
    ![](assets/message-center_loop_fallback.png)
 
-   如果触发事件时收藏集为空（例如，如果客户的购物车中没有任何内容），将显示回退内容。
+   如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
 
 1. 在“设置”窗格中，编辑产品清单的样式。有关此内容的更多信息，请参阅 [管理电子邮件样式](../../designing/using/styles.md).
 1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：

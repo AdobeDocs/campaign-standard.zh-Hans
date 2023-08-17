@@ -21,7 +21,7 @@ ht-degree: 9%
 
 与Assets核心服务的集成仅限于 [功能管理员](../../administration/using/users-management.md#functional-administrators).
 
-从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页面，如下所示：
+从Adobe Experience Cloud共享的资源可用于您的电子邮件和登陆页，如下所示：
 
 1. 编辑电子邮件或登陆页面的内容时，转到图像块，然后选择 **[!UICONTROL Image shared from Adobe Experience Cloud]** 通过上下文菜单。
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
    ![](assets/dam_shared_image_selection.png)
 
-然后插入图像。 现在，可以根据需要个性化投放并发送该投放。
+然后插入图像。 现在可以根据需要个性化投放并发送。
 
 **相关主题：**
 

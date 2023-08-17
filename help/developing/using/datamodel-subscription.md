@@ -16,7 +16,7 @@ ht-degree: 31%
 
 # 订阅事件(nms：rtEvent)
 
-## 对象描述
+## 对象说明
 
 <table>
     <tr>
@@ -46,7 +46,7 @@ ht-degree: 31%
     <tr>
         <td>emailFormat</td>
         <td>电子邮件格式</td>
-        <td>明细列表（字节） </td>
+        <td>枚举（字节） </td>
         <td>
             <ul>
             <li>文本 — 文本 — 1</li>

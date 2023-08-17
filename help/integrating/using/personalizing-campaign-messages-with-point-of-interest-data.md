@@ -19,11 +19,11 @@ ht-degree: 10%
 
 在Adobe Campaign中，您可以使用从移动应用程序的订阅者那里收集的Points of Interest数据，向他们发送个性化的营销消息，如电子邮件。
 
-您只能通过标准投放对Point of Interest数据进行反应。 [事务型消息](../../channels/using/getting-started-with-transactional-msg.md) 无法使用位置数据。
+您只能对Point of Interest数据进行标准投放。 [事务性消息](../../channels/using/getting-started-with-transactional-msg.md) 无法使用位置数据。
 
-最快反应时间大约是10分钟。
+你最早能做出反应大约需要10分钟。
 
-在这种情况下，您决定向过去两周内访问过您波士顿商店的所有订阅者发送电子邮件。
+在这种情况下，您决定向过去两周内访问您波士顿商店的所有订阅者发送电子邮件。
 
 1. 创建电子邮件营销活动。
 1. 定义投放的受众时，拖放 **[!UICONTROL Subscriptions to an application]** 元素。
@@ -36,13 +36,13 @@ ht-degree: 10%
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. 在 **[!UICONTROL Add a rule - POI Location Subscription]** 窗口中，输入要使用的目标点标签。
+1. 在 **[!UICONTROL Add a rule - POI Location Subscription]** 窗口中，输入要使用的目标点的标签。
 
    ![](assets/poi_location_subscription.png)
 
 1. 在 **[!UICONTROL Filter type]** 字段中，选择 **[!UICONTROL Relative]**。
 1. 查看 **[!UICONTROL Preceding days]** 选项并输入 **[!UICONTROL 15]** 在相应的字段中。
-1. 定义用户必须访问目标点的次数。
+1. 定义用户必须已访问目标点的次数。
 1. 单击 **[!UICONTROL Confirm]** 以保存受众。
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
@@ -54,9 +54,9 @@ ht-degree: 10%
 1. 确认创建活动以查看电子邮件的仪表板。
 1. 发送您的消息。
 
-系统会将包含10%折扣优惠的电子邮件发送给以下订阅者：
+包含10%折扣选件的电子邮件将发送给满足以下条件的订阅者：
 
-* 过去两周内至少去过你波士顿的店铺一次。
+* 在过去的两周内至少去过你位于波士顿的店铺一次。
 * 在访问期间至少将移动设备应用程序置于前台一次。
 
 **相关主题：**

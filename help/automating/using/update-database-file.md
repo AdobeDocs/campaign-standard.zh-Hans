@@ -1,6 +1,6 @@
 ---
 title: 使用外部数据更新数据库
-description: 此用例介绍了如何使用从文件取回的数据，向Adobe Campaign数据库添加或更新用户档案。
+description: 此用例展示了如何使用从文件取回的数据，向Adobe Campaign数据库添加或更新用户档案。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

@@ -20,15 +20,15 @@ ht-degree: 16%
 要删除资源，相关资源必须是 **[!UICONTROL Draft]**. 资源位于 **[!UICONTROL Draft]** 状态，如果：
 
 * 它刚刚创建，尚未发布。
-* 如果它已经发表，就必须重新起草资源。
+* 如果资源已经发布，则必须重新起草。
 
 >[!IMPORTANT]
 >
 >重新起草和删除自定义资源是敏感操作，可能会影响其他资源。 这些操作只能由专家用户执行。
 
-要重新草稿和删除已发布的资源，请执行以下操作：
+要重新草稿并删除已发布的资源，请执行以下操作：
 
-1. 选择要重新绘制的资源。
+1. 选择要重新起草的资源。
 1. 单击操作栏中的 **[!UICONTROL Re-draft]** 按钮。
 
    ![](assets/schema_extension_uc26.png)
@@ -37,19 +37,19 @@ ht-degree: 16%
 
    >[!IMPORTANT]
    >
-   >此操作是确定的：在发布修改时，资源的数据库表或列及其数据将被永久删除，这可能会导致其他自定义资源的链接断开。 只有资源定义将保持可用。
+   >此操作是确定的：发布修改时，资源的数据库表或列及其数据将被永久删除，这可能会导致其他自定义资源的链接断开。 只有资源定义将保持可用。
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >如果重新绘制开箱即用的扩展 **配置文件（配置文件）** 资源，您还必须重新草拟 **测试配置文件(seedMember)** 您可能已定义的扩展。 有关扩展用户档案资源的更多信息，请参阅 [本节](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >如果重新绘制开箱即用的扩展 **配置文件（配置文件）** 资源，您还必须重新草拟任何 **测试配置文件(seedMember)** 您可能已定义的扩展。 有关扩展用户档案资源的更多信息，请参阅 [本节](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
 1. 发布资源。有关更多详细步骤，请参阅 [发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   然后，资源将进入 **草稿** 模式及其激活状态为 **[!UICONTROL Inactive]**.
+   然后，资源进入 **草稿** 模式及其激活状态为 **[!UICONTROL Inactive]**.
 
-1. In **[!UICONTROL List]** 模式，选中要删除的资源，然后单击 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 图标。
+1. 在 **[!UICONTROL List]** 模式，检查要删除的资源，然后单击 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 图标。
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,4 +57,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。参见 [取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅 [取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

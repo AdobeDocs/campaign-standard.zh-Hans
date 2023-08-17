@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # 更新用户档案的地理单位 {#updating-a-geographical-unit}
 
-1. 对执行GET **geoUnitBase** 用于检索地理单位面板的资源。
-1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的地理单位PKey。
+1. 对执行GET **geoUnitBase** 用于检索地理单位PKey的资源。
+1. 对配置文件PKey执行PATCH请求，并在有效负荷中使用所需的地理单位PKey。
 
 <br/>
 

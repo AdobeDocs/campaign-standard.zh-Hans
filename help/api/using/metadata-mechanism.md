@@ -21,20 +21,20 @@ ht-degree: 1%
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-响应会从资源返回主元数据（所有其他字段均为描述性或内部）：
+响应会从资源返回主元数据（所有其他字段均为描述性或内部字段）：
 
 * 此 **内容** 节点返回资源的字段。 对于 **内容** 节点，可以找到以下字段：
 
    * “apiName”： API中使用的属性的名称。
-   * &quot;type&quot;：这是高级类型定义（字符串、数字、链接、收藏集、明细列表……）。
+   * &quot;type&quot;：这是高级类型定义（字符串、数字、链接、收藏集、枚举……）。
    * “dataPolicy”：字段的值必须遵循给定的策略规则。 例如，如果dataPolicy规则设置为“email”，则该值必须是有效的电子邮件。 在PATCH或POST期间，dataPolicy可以检查值或修改值以进行转换（例如smartCase）。
    * &quot;category&quot;：在查询编辑器中提供字段的类别。
    * &quot;resType&quot;：这是技术类型。
 
-      如果“type”以“link”或“collection”值结束，则resTarget值是链接所定向资源的名称。
-如果“type”以“enumeration”值结尾，则会添加“values”字段，并且每个枚举值在中都有详细说明。 **值** 节点。
+     如果“type”以值“link”或“collection”结束，则resTarget值是链接所定向资源的名称。
+如果“type”以“enumeration”值完成，则会添加“values”字段，并且每个枚举值在中都会详细说明 **值** 节点。
 
-* 此 **筛选器** 节点会返回用于检索关联过滤器的URL。 有关筛选器的更多信息，请参阅 [本节](../../api/using/filtering.md) 部分。
+* 此 **过滤器** 节点会返回用于检索关联过滤器的URL。 有关筛选器的更多信息，请参阅 [本节](../../api/using/filtering.md) 部分。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回配置文件资源的完整说明。
+它会返回用户档案资源的完整描述。
 
 ```
 {

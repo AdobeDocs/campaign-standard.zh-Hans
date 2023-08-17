@@ -67,15 +67,15 @@ ht-degree: 97%
    * **[!UICONTROL Choose for me]**：随机选择要保留的重复项记录。
    * **[!UICONTROL Following a list of values]**：用于为一个或多个字段定义值优先级。要定义该值，请选择一个字段或创建表达式，然后将值添加到相应的表格中。要定义新字段，请单击位于值列表上方的 **[!UICONTROL Add]** 按钮。
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**：利用此选项可优先保留选定表达式的值不为空的记录。
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**：利用此选项可保留输入表达式的值最小或最大的记录。
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. 如果需要，可以管理活动的[过渡](../../automating/using/activity-properties.md)，以访问叫客群体的高级选项。
 1. 确认活动的配置并保存工作流。

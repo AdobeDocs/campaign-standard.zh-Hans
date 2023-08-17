@@ -358,9 +358,9 @@ ht-degree: 100%
 
 * 修复了在发送针对用户档案的事务性推送通知时导致投放分析失败的问题，方法是引入新的[目标映射](../../administration/using/target-mappings-in-campaign.md)：**用户档案 - 推送的实时事件** (*mapRtEventAppSubRcp*)。[基于用户档案的事务性推送通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的投放、排除和跟踪日志现在将存储在 *broadLogAppSubRcp*、*excludeLogAppSubRcp* 和 *trackingLogAppSubRcp* 表中。
 
-   >[!IMPORTANT]
-   >
-   >由于此更改，如果您使用的是现有的基于用户档案的事务性推送通知（在升级到 Adobe Campaign 21.1 之前创建），建议您将目标映射更新为新目标映射，然后再次发布消息。请参见[此处](../../channels/using/transactional-push-notifications.md#change-target-mapping)的详细步骤。使用上一个目标映射“用户档案 - 实时事件”**** (*mapRtEventRcp*) 可能会导致更长的投放准备时间和性能下降。
+  >[!IMPORTANT]
+  >
+  >由于此更改，如果您使用的是现有的基于用户档案的事务性推送通知（在升级到 Adobe Campaign 21.1 之前创建），建议您将目标映射更新为新目标映射，然后再次发布消息。请参见[此处](../../channels/using/transactional-push-notifications.md#change-target-mapping)的详细步骤。使用上一个目标映射“用户档案 - 实时事件”**** (*mapRtEventRcp*) 可能会导致更长的投放准备时间和性能下降。
 
 * 修复了在显示 5000 行时阻止运行投放报告的问题。
 * 修复了在修改投放模板后阻止更新变体 B 的内容的 A/B 测试问题。(CAMP-45235)

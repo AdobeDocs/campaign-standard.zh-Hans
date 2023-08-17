@@ -44,7 +44,7 @@ ht-degree: 76%
 
 * 用于定义和个性化品牌的&#x200B;**标识**。此部分包含以下字段：
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * 显示在界面中的 **Label**
    * **Brand name**
@@ -53,7 +53,7 @@ ht-degree: 76%
 
 * **[!UICONTROL Header parameters of sent emails]** 可将展示给营销策划收件人的标题个性化。此部分包含以下字段：
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * 使用品牌电子邮件地址的 **Sender (email address)**。
    * 使用品牌名称的 **Sender (name)**。
@@ -61,33 +61,33 @@ ht-degree: 76%
    * 带有品牌名称的 **Reply to (name)**。
    * 带有出错回复用电子邮件地址的 **Error (email address)**。
 
-   >[!IMPORTANT]
-   >
-   >更新了电子邮件的标题参数后，如果从模板创建的电子邮件中发件人的名称和电子邮件地址没有变化，请检查模板的高级设置。
+  >[!IMPORTANT]
+  >
+  >更新了电子邮件的标题参数后，如果从模板创建的电子邮件中发件人的名称和电子邮件地址没有变化，请检查模板的高级设置。
 
 * **Server(s) exposed on the internet** 用于定义用于跟踪和登陆页面访问的服务器。此部分包含以下字段：
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **External URL of the application server** 用于托管和访问您创建的各种登陆页面。
    * **External URL of the tracking server** 用作投放期间的跟踪 URL。
    * **External URL of the mirror page server** 用作投放中的默认镜像页面。
 
-   >[!NOTE]
-   >
-   >要在 Campaign 用户界面中显示登陆页面预览和镜像页面渲染，应用服务器和镜像页面服务器的 URL 必须是安全的。在这种情况下，在设置这些 URL 时，请使用 https://，而不是 http://。
+  >[!NOTE]
+  >
+  >要在 Campaign 用户界面中显示登陆页面预览和镜像页面渲染，应用服务器和镜像页面服务器的 URL 必须是安全的。在这种情况下，在设置这些 URL 时，请使用 https://，而不是 http://。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]** 用于定义品牌的 URL 跟踪配置。
 
-   此处定义了用于在外部系统（如 Adobe Analytics 或 Google Analytics 之类的 Web 分析工具）上跟踪链接的其他参数。
+  此处定义了用于在外部系统（如 Adobe Analytics 或 Google Analytics 之类的 Web 分析工具）上跟踪链接的其他参数。
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## 创建新品牌 {#creating-a-brand}
 
-您可以在Campaign中添加组织的新实体，或创建新类型的电子邮件，您必须在不同子域下发送该电子邮件。 要执行此操作，请执行以下步骤：
+您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
 
-1. **配置新子域**  — 对于Adobe使用的任何新子域，第一步是对其进行配置。 您可以通过以下方式执行此操作： [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或联系您的Adobe技术联系人。 了解有关子域配置的更多信息 [本文章节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过以下方式执行此操作 [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或联系您的Adobe技术联系人。 了解有关子域配置的更多信息 [本文内容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
@@ -97,15 +97,15 @@ ht-degree: 76%
 
    * 主题：ACS新品牌设置
 
-   * 内容：已配置新域，我们想要在Campaign平台中设置它
+   * 内容：已配置新域，我们希望在Campaign平台中设置此域
 
    * 域： XXX
 
    * 生产URL： XXX.campaign.adobe.com
 
-1. **创建投放模板**  — 新品牌可用后，最佳实践为至少创建一个引用此新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
+1. **创建投放模板**  — 新品牌可用后，最佳做法是创建至少一个引用此新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查可投放性准则**  — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果需要创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 详细了解可投放性最佳实践 [在此部分中](../../sending/using/about-deliverability.md).
+1. **查看可投放性准则**  — 在开始使用新域之前，应与Adobe可交付性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 了解有关可投放性最佳实践的更多信息 [在此部分中](../../sending/using/about-deliverability.md).
 
 ## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 

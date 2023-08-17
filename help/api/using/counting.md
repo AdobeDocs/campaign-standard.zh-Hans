@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 计数
 
-Adobe Campaign REST API可以计算请求中的记录数。 为此，请使用中返回的URL **count** 节点。
+Adobe Campaign REST API可以计算请求中的记录数。 要实现此目的，请使用返回的URL **count** 节点。
 
 <br/>
 
 ***示例请求***
 
-计算所有具有 **messageType** 等于“sms”的值，请使用执行GET请求 **byChannel** 筛选条件。
+计算所有具有 **messageType** 等于“sms”的值，使用执行GET请求 **byChannel** 筛选。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \

@@ -1,6 +1,6 @@
 ---
 title: 关于 Campaign-Analytics 集成
-description: 通过从Adobe Campaign Standard收集KPI数据，您现在可以与Adobe Analytics共享促销活动数据，以测量来自Adobe Campaign的电子邮件营销量度。
+description: 通过从Adobe Campaign Standard收集KPI数据，您现在可以与Adobe Analytics共享促销活动数据，以从Adobe Campaign衡量电子邮件营销量度。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -24,11 +24,11 @@ Adobe Campaign Standard与Adobe Analytics之间的这种集成将允许您：
 * 将您的KPI（关键绩效指标）数据从Adobe Campaign Standard共享到Adobe Analytics。
 * 使用Adobe Analytics参数扩充跟踪公式。
 
-此操作可通过首先创建链接到Adobe Analytics的外部帐户来完成。 然后，技术工作流将自动启动，默认情况下每15分钟自动执行一次。 然后，会将您的KPI数据推送到Analytics。
+此操作将首先创建链接到Adobe Analytics的外部帐户。 然后，技术工作流将自动启动，默认情况下每15分钟自动执行一次。 您的KPI数据随后会被推送到Analytics。
 
 此集成仅适用于电子邮件投放。
 
-Adobe Analytics核心服务之间的集成 **触发器** 和Adobe Campaign也可用。 它允许您根据Adobe Analytics在您的网站上跟踪的特定行为的反应，向客户发送个性化电子邮件（在15分钟内）。
+Adobe Analytics核心服务之间的集成 **触发器** 此外，还提供Adobe Campaign。 它允许您向客户发送个性化电子邮件，以对Adobe Analytics在您的网站上跟踪的特定行为作出反应（在15分钟内）。
 
 **相关主题：**
 

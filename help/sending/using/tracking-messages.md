@@ -19,16 +19,16 @@ ht-degree: 29%
 
 ## 关于跟踪 {#about-tracking}
 
-借助其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
+凭借其跟踪功能，Adobe Campaign使您能够跟踪投放收件人的行为。 Adobe Campaign 使用会话 Cookie 和永久性 Cookie 实现上述功能。
 
-您可以通过授权请求（有时出现在页面上方）告知用户，您的网站配备了Web跟踪工具并要求用户选中复选框来授权使用Cookie，或者在用户登陆的首页顶部添加横幅等。 应避免使用弹出窗口，因为浏览器通常会拦截此类窗口。
+您可以通过授权请求（有时出现在页面上方）告知用户，您的网站配备了Web跟踪工具并要求用户选中复选框来授权使用Cookie，或者在用户登陆的第一个页面顶端添加横幅等。 应避免使用弹出窗口，因为浏览器通常会拦截此类窗口。
 
 跟踪信息适用于数据库中的每个联系人 **[!UICONTROL integrated customer profiles]**. 如需详细信息，请参阅[此部分](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用两种类型的 Cookie：
 
 * 会话Cookie (nlid)。 其中包含发送给联系人的电子邮件的标识符(broadlogId)，以及消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
-* Adobe Experience Cloud解决方案之间共享的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。此Cookie的描述可用 [此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* 在Adobe Experience Cloud解决方案之间共享的Cookie。 通过使用这种 ，您可以识别访问网站时与 Experience Cloud 解决方案发生交互的用户。此Cookie的描述可用 [此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 通过Adobe Campaign Standard进行跟踪，可访问以下功能：
 
@@ -73,7 +73,7 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 * 已打开消息。
 * 已单击镜像页面链接。
-* 已单击“了解详情”自定义链接。
+* 已单击“了解更多”自定义链接。
 
 在 **[!UICONTROL Type]** 列中，可能的值包括：
 
@@ -92,7 +92,7 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 ## 跟踪的 URL {#tracked-urls}
 
-此 **[!UICONTROL Tracked URLs]** Tab对已发送消息中包含的URL进行重组，包括它们的URL类型和源URL。
+此 **[!UICONTROL Tracked URLs]** Tab对已发送消息中包含的URL进行重组，包括其URL类型和源URL。
 
 ![](assets/sending_delivery6.png)
 

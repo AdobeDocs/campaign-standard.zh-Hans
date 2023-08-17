@@ -45,25 +45,27 @@ ht-degree: 100%
 
       * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。旧数据会丢失。只保留来自保存受众活动之集客过渡的数据。
       * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
+
    * **[!UICONTROL Create then update an audience]**：输入受众的名称并选择更新类型。如果受众不存在，则创建受众。如果受众已存在，则会根据选定的模式更新受众：
 
       * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。旧数据会丢失。只保留来自保存受众活动之集客过渡的数据。
 
-         警告，此选项会清除更新受众的受众类型和定向维度。
+        警告，此选项会清除更新受众的受众类型和定向维度。
 
       * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
-         警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。例如，您无法使用来自查询的用户档案填充文件类型受众。
+        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。例如，您无法使用来自查询的用户档案填充文件类型受众。
+
    * **[!UICONTROL Create a new audience]**：输入所创建受众的名称。创建受众的时间和日期将自动添加到受众名称中。这样可让每次执行工作流时，创建的受众具有唯一性。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您已经定向了用户档案，并且要将受众导出到 Adobe Experience Cloud，请选择此选项，然后选择现有共享受众或创建新受众。
 
-      另外，请选择与受众所包含数据资源相对应的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正确协调数据。
+     另外，请选择与受众所包含数据资源相对应的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正确协调数据。
 
-      使用此选项，不会将共享受众添加到可通过 **[!UICONTROL Audiences]** 菜单访问的 Adobe Campaign 受众列表。
+     使用此选项，不会将共享受众添加到可通过 **[!UICONTROL Audiences]** 菜单访问的 Adobe Campaign 受众列表。
 
-      >[!NOTE]
-      >
-      >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+     >[!NOTE]
+     >
+     >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
    在更新期间保存或可用的受众类型，取决于置于工作流上游的活动。
 

@@ -34,32 +34,32 @@ ht-degree: 86%
    * 客户电子邮件地址
    * 所购买产品的代码
 
-   ```
-   date;client;product
-   2015-05-19 09:00:00;mail1@email.com;ZZ1
-   2015-05-19 09:01:00;mail2@email.com;ZZ2
-   2015-05-19 09:01:01;mail3@email.com;ZZ2
-   2015-05-19 09:01:02;mail4@email.com;ZZ2
-   2015-05-19 09:02:00;mail5@email.com;ZZ3
-   2015-05-19 09:03:00;mail6@email.com;ZZ4
-   2015-05-19 09:04:00;mail7@email.com;ZZ5
-   2015-05-19 09:05:00;mail8@email.com;ZZ7
-   2015-05-19 09:06:00;mail9@email.com;ZZ6
-   ```
+  ```
+  date;client;product
+  2015-05-19 09:00:00;mail1@email.com;ZZ1
+  2015-05-19 09:01:00;mail2@email.com;ZZ2
+  2015-05-19 09:01:01;mail3@email.com;ZZ2
+  2015-05-19 09:01:02;mail4@email.com;ZZ2
+  2015-05-19 09:02:00;mail5@email.com;ZZ3
+  2015-05-19 09:03:00;mail6@email.com;ZZ4
+  2015-05-19 09:04:00;mail7@email.com;ZZ5
+  2015-05-19 09:05:00;mail8@email.com;ZZ7
+  2015-05-19 09:06:00;mail9@email.com;ZZ6
+  ```
 
-* A [协调](../../automating/using/reconciliation.md) 活动，将购买数据与数据库用户档案和产品绑定。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
+* A [调解](../../automating/using/reconciliation.md) 活动，将购买数据与数据库的用户档案和产品绑定。 因此，有必要定义文件数据与用户档案表以及产品表之间的关系。此配置在活动的 **[!UICONTROL Relations]** 选项卡中执行：
 
    * 与&#x200B;**用户档案**&#x200B;的关系：文件的 **client** 列链接到&#x200B;**用户档案**&#x200B;维度的 **email** 字段。
    * 与&#x200B;**产品**&#x200B;的关系：文件的 **product** 列链接到&#x200B;**用户档案**&#x200B;维度的 **productCode** 字段。
 
-   将向集客数据添加列，以引用链接维度的外键。
+  将向集客数据添加列，以引用链接维度的外键。
 
-   ![](assets/reconciliation_example3.png)
+  ![](assets/reconciliation_example3.png)
 
-* An [更新数据](../../automating/using/update-data.md) activity允许您定义要使用导入的数据进行更新的数据库字段。 由于数据已在上一活动中被识别为归属&#x200B;**交易**&#x200B;维度，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
+* An [更新数据](../../automating/using/update-data.md) 活动允许您定义要使用导入的数据进行更新的数据库字段。 由于数据已在上一活动中被识别为归属&#x200B;**交易**&#x200B;维度，因此您可以在此使用 **[!UICONTROL Directly using the targeting dimension]** 标识选项。
 
-   通过使用“自动检测要更新字段”的选项，将之前活动中配置的链接（到用户档案和产品）添加到 **[!UICONTROL Fields to update]** 的列表。您还必须确保将与交易日期对应的字段正确添加到此列表。
+  通过使用“自动检测要更新字段”的选项，将之前活动中配置的链接（到用户档案和产品）添加到 **[!UICONTROL Fields to update]** 的列表。您还必须确保将与交易日期对应的字段正确添加到此列表。
 
-   ![](assets/reconciliation_example5.png)
+  ![](assets/reconciliation_example5.png)
 
-   ![](assets/reconciliation_example4.png)
+  ![](assets/reconciliation_example4.png)

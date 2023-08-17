@@ -9,7 +9,7 @@ exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 71%
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
-用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。要限制用户的访问，请勿将用户添加到Campaign **[!UICONTROL Standard Users]** 链接到的组 **[!UICONTROL All]** 组织单位。
+用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。要限制用户的访问，请勿将用户添加到营销策划 **[!UICONTROL Standard Users]** 链接到的组 **[!UICONTROL All]** 组织单位。
 
-有关角色的详细信息，下表显示了根据用户角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+有关角色的更多信息，下表显示了根据用户角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 默认安全组为：
 
@@ -34,7 +34,7 @@ ht-degree: 71%
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
-请注意，这些内置安全组是只读的，无法修改。 要使用一组特定角色创建您自己的安全组，请参阅以下部分。
+请注意，这些内置安全组是只读的，无法修改。 要创建具有一组特定角色的安全组，请参阅以下部分。
 
 ## 创建安全组并分配用户 {#creating-a-security-group-and-assigning-users}
 
@@ -42,7 +42,7 @@ ht-degree: 71%
 >
 >请注意，在Admin Console中，安全组称为用户档案。
 
-如果现成的用户组不足以管理用户，您可以创建自己的安全组。这些权限可以由有权访问Adobe Campaign管理菜单和Admin Console的管理员进行管理。 有关Admin Console的更多信息，请参阅此 [文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
+如果现成的用户组不足以管理用户，您可以创建自己的安全组。有权访问Adobe Campaign管理菜单和Admin Console的管理员可以管理这些区段。 有关Admin Console的详细信息，请参阅此 [文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html).
 
 在此，我们首先需要将两个现成的组“标准用户”和“管理员”分配给我们的用户。这些安全组将限制 Adobe Campaign 的某些功能：例如，标准用户具有访问 Adobe Campaign 的基础权限，而管理员可以访问管理菜单。
 
@@ -118,7 +118,7 @@ ht-degree: 71%
 1. 单击 **Adobe** 徽标，位于左上角，然后选择 **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. 创建新的安全组并指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
 
-   ID必须与Admin Console中选择的ID相同。
+   ID必须与在Admin Console中选择的ID相同。
 
 1. 在 **[!UICONTROL User access]** 字段中，分配组织单位。在本例中，已经为 **[!UICONTROL All]** 组织单位分配了 Geometrixx 安全组。
 
@@ -137,4 +137,4 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->如果从Admin Console中的安全组中删除用户，这些用户将仍是Adobe Campaign安全组的一部分，并且无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。
+>如果从Admin Console中的安全组中删除用户，这些用户仍将是Adobe Campaign安全组的一部分，并且无法再登录Adobe Campaign。 在这种情况下，请删除管理控制台中用户的电子邮件地址，以防止他们接收敏感信息。

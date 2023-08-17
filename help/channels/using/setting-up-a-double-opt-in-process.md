@@ -27,7 +27,7 @@ ht-degree: 89%
 
 要设置此功能，您需要：
 
-1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登录页的访客将存储在数据库中，但会添加到阻止列表中，以免在最终验证之前收到任何通信(请参阅 [Campaign中的阻止列表管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
+1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登陆页面的访客将存储在数据库中，但会添加到阻止列表中，以免在最终验证之前收到任何通信(请参阅 [Campaign中的阻止列表管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
 1. 自动创建并发送带确认链接的选择加入电子邮件。此电子邮件将定向提交登陆页面的群体。该电子邮件将基于允许定向“选择退出”用户档案的电子邮件模板。
 1. 重定向至确认登陆页面。此最终登陆页面将提供一个确认按钮：访客必须单击该按钮。您可以设计一封欢迎电子邮件，在确认完成后发送，例如，在电子邮件中为新收件人提供特殊优惠。
 
@@ -55,7 +55,7 @@ ht-degree: 89%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   此上下文会删除“在阻止列表时”字段，以便能够发送电子邮件。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
+   为了能够发送电子邮件，此上下文会删除“在阻止列表时”字段。 我们稍后会看到第一个登陆页面之前已将确认前的此字段设置为 **true**，以防止向未确认的用户档案发送电子邮件。有关更多信息，请参阅[第 3 步：创建客户获取登陆页面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自定义登陆页面的内容：您可以显示个性化数据，例如将确认按钮的标签更改为“Click here to confirm my subscription”。
 
@@ -96,7 +96,7 @@ ht-degree: 89%
 
 ### 创建分类 {#create-the-typology-rule}
 
-您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。利用分类，可向尚未确认同意且仍处于阻止列表状态的用户档案发送消息。 默认情况下，分类会排除选择退出(即阻止列表时)的用户档案。 要创建此分类，请执行以下步骤：
+您需要通过复制现成的分类创建特定的[分类](../../sending/using/about-typology-rules.md)。通过该分类，可向尚未确认同意且仍处于阻止列表状态的用户档案发送消息。 默认情况下，分类会排除选择退出(即在阻止列表时)的用户档案。 要创建此分类，请执行以下步骤：
 
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 并单击 **[!UICONTROL Typologies]**。
 1. 复制现成的分类&#x200B;**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
@@ -132,7 +132,7 @@ ht-degree: 89%
 
    并将值设置为 **true**。
 
-   阻止列表这是强制强制添加到的，并避免向未确认同意的访客发送消息。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
+   这是强制添加到阻止列表并避免向未确认同意的访客发送消息的命令。 确认后，“CONFIRMATION”登陆页面的验证会将此字段设置为 **false**。有关更多信息，请参阅[第 1 步：创建客户获取登陆页面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 部分，选择选项 **[!UICONTROL Start sending messages]**。
 1. 在关联的下拉列表中，选择之前创建的 **CONFIRM** 事务型消息模板。
@@ -143,7 +143,7 @@ ht-degree: 89%
 
    ![](assets/optin_acquisition_page1.png)
 
-1. 自定义确认页面，以通知新订阅者他们需要验证其订阅。
+1. 自定义确认页面，以通知新订阅者他们需要验证订阅。
 
    ![](assets/optin_acquisition_page2.png)
 

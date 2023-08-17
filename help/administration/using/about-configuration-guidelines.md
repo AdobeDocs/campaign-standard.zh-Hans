@@ -37,7 +37,7 @@ Adobe Campaign Standard仅支持将横向作为平板电脑上的显示模式。
 
 ## Campaign Standard 网络端点 {#campaign-standard-network-endpoints}
 
-以下是Campaign Standard中使用的不同端点。
+以下是Campaign Standard中使用的各种端点。
 
 | 上下文 | URL |
 |--- |--- |

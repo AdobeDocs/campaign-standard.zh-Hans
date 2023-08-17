@@ -16,7 +16,7 @@ ht-degree: 47%
 
 # 种子成员(nms：seedMember)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -62,7 +62,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>电子邮件渲染</td>
+                  <td>emailRendering</td>
                   <td>电子邮件渲染</td>
                   <td>布尔值 </td>
                   <td> </td>
@@ -152,7 +152,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>证明</td>
+                  <td>验证</td>
                   <td>验证</td>
                   <td>布尔值 </td>
                   <td> </td>
@@ -236,7 +236,7 @@ ht-degree: 47%
         <th>类型</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>文本</td>
         <td>字符串</td>
         </tr>
     </table>
@@ -253,11 +253,11 @@ ht-degree: 47%
         <td>布尔值</td>
         </tr>
         <tr>
-        <td>电子邮件渲染</td>
+        <td>emailRendering</td>
         <td>布尔值</td>
         </tr>
         <tr>
-        <td>证明</td>
+        <td>验证</td>
         <td>布尔值</td>
         </tr>
     </table>

@@ -1,6 +1,6 @@
 ---
 title: API疑难解答
-description: 进一步了解与Campaign StandardAPI相关的常见问题
+description: 详细了解与Campaign StandardAPI相关的常见问题
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # API 疑难解答 {#troubleshooting}
 
-* **转到Adobe.io控制台时，出现以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。”**
+* **在转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。”**
 
 您只能为您所管理的组织创建API密钥。 如果显示此消息并且您希望创建API密钥，并且您希望询问组织的管理员之一。
 
 * **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
 
-这意味着您的特定Campaign产品的IMS配置出现问题：IMS团队需要修复此问题。
+这意味着您的特定Campaign产品的IMS配置存在问题：IMS团队需要修复该问题。
 
 要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在URL中的相同，以便能够路由您的Adobe。
-如果缺少，则需要修复IMS配置。
+如果缺少IMS配置，则需要修复。
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -33,7 +33,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回以下错误。
+它会返回以下错误。
 
 ```
 {"error_code":"403023","message":"Profile is not valid"}
@@ -49,7 +49,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-在响应中，第一个GET请求中的ORGANIZATION_ID值必须相同。
+在响应中，ORGANIZATION_ID值必须在您的第一个GET请求中相同。
 
 ```
 {
@@ -76,13 +76,13 @@ ht-degree: 1%
 
 * **向Adobe.io发出请求时，您会收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 出现错误. 请检查您的URI并重试。”}**
 
-Adobe.io声明您的URI无效：很可能是您请求的URI无效。 在Adobe.io上，当您选择Campaign服务时，您将获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放在URL中的服务器。
+Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 
 * **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;401013&quot;，&quot;message&quot;：&quot;Oauth令牌无效&quot;}**
 
 您的令牌无效（用于生成令牌的IMS调用不正确）或您的令牌已过期。
 
-* **创建后看不到我的个人资料**
+* **创建后看不到我的配置文件**
 
 根据实例配置，创建的配置文件需要关联到 **orgUnit**. 要了解如何在创建时添加此字段，请参阅 [本节](../../api/using/creating-profiles-api.md).
 

@@ -20,7 +20,7 @@ ht-degree: 15%
 
 在登陆页面内容中，输入字段用于存储或更新来自Campaign数据库的数据。
 
-要执行此操作，这些字段必须映射到数据库字段。
+要实现此目的，必须将这些字段映射到数据库字段。
 
 您可以通过以下方式定义和管理其映射 **[!UICONTROL Form data]** 部分。
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 ## 映射表单字段 {#mapping-form-fields}
 
-要根据需要更新Campaign数据库，请将相关数据库字段链接到登陆页面的输入区域、单选按钮或复选框类型块。
+要根据需要更新Campaign数据库，请将相关数据库字段链接到登陆页面的输入区、单选按钮或复选框类型块。
 
 为此请执行以下操作步骤：
 
@@ -64,11 +64,11 @@ ht-degree: 15%
 
    ![](assets/lp_database-field-example.png)
 
-1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。在这种情况下，仅当用户填写此字段时，才能提交登陆页面。
+1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。在这种情况下，仅当用户填写此字段后才能提交登陆页面。
 
    ![](assets/lp_mandatory-option.png)
 
-   如果未填写必填字段，则用户提交页面时将显示错误消息。
+   如果未填写必填字段，则用户提交页面时会显示错误消息。
 
 1. 单击 **[!UICONTROL Confirm]** 以保存更改。
 
@@ -84,11 +84,11 @@ ht-degree: 15%
 
    ![](assets/lp_parameters_job.png)
 
-1. 选择 **[!UICONTROL Reconciliation key]**：此数据库字段用于确定访客的用户档案是否已存在于Adobe Campaign数据库中。 例如电子邮件、名字、姓氏。 利用协调键值，可更新或创建用户档案，具体操作如下 **[!UICONTROL Update strategy]** 参数定义如下。
+1. 选择 **[!UICONTROL Reconciliation key]**：此数据库字段用于确定访客的用户档案是否已存在于Adobe Campaign数据库中。 例如电子邮件、名字、姓氏等。 利用协调键值，可根据用户档案更新或创建用户档案 **[!UICONTROL Update strategy]** 参数定义如下。
 
 1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键值中使用的参数。
 
-1. 选择 **[!UICONTROL Update strategy]**：如果协调键值取回了现有的数据库配置文件，您可以选择使用在表单中输入的数据更新此配置文件，或者改为阻止此更新。
+1. 选择 **[!UICONTROL Update strategy]**：如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -102,21 +102,21 @@ ht-degree: 15%
 
    * 选择一个块，然后从 **[!UICONTROL Form data]** 部分，选择 **[!UICONTROL Checkbox]** 作为字段类型。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * 如果您熟悉HTML，还可以使用 **[!UICONTROL Show source]** 按钮。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      这允许您在页面上方便的位置插入复选框。
+     这允许您在页面上方便的位置插入复选框。
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
-1. 确保选中内容中的复选框。 此 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 左侧面板的部分。 选择 **[!UICONTROL Service and subscription]** 从名单上。
+1. 确保在内容中选中复选框。 此 **[!UICONTROL Type]** 下拉列表显示在 **[!UICONTROL Form data]** 左侧面板的部分。 选择 **[!UICONTROL Service and subscription]** 从名单上。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 从中选择选项 **[!UICONTROL Behavior]** 下拉列表。
+1. 从中选择一个选项 **[!UICONTROL Behavior]** 下拉列表。
 
    ![](assets/lp_checkbox-behavior.png)
 
@@ -128,7 +128,7 @@ ht-degree: 15%
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. 要添加更多复选框以订购其他服务，请根据需要多次重复上述步骤。
+1. 要添加更多复选框以订购其他服务，请根据需要重复上述步骤。
 
    ![](assets/lp_multiple-checkboxes.png)
 
@@ -142,7 +142,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->对于您的用户，必须选中此复选框。 如果未选择，他们将无法提交登陆页面。
+>用户必须选中此复选框。 如果未选择，他们将无法提交登陆页面。
 
 要插入并配置此复选框，请执行以下操作：
 
@@ -150,17 +150,17 @@ ht-degree: 15%
 
    * 选择一个块，然后从 **[!UICONTROL Form data]** 部分，选择 **[!UICONTROL Checkbox]** 作为字段类型。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * 如果您熟悉HTML，还可以使用 **[!UICONTROL Show source]** 按钮。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
-1. 确保选中该复选框。
+1. 确保选中复选框。
 
    ![](assets/lp_select_checkbox.png)
 
@@ -182,8 +182,8 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >默认情况下，此操作是必需的，无法更改。
+   >默认情况下，此操作是强制性的，无法更改。
 
 1. 单击 **[!UICONTROL Confirm]**。
 
-现在，每次显示登陆页面时，用户必须在提交表单之前选中此复选框。 如果不能，将显示警告，并且用户将无法提交表单，直到激活该复选框。
+现在，每次显示登陆页面时，用户都必须在提交表单之前选中此复选框。 如果不能，将显示警告，在激活复选框之前，用户将无法提交表单。

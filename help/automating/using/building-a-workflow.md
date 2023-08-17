@@ -40,7 +40,7 @@ ht-degree: 96%
 
 您可以从项目、营销策划或营销活动列表创建工作流。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何在视频中构建工作流](#video)
+![](assets/do-not-localize/how-to-video.png) [在视频中了解如何构建工作流](#video)
 
 有关创建营销活动的详情，请参阅[创建营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)一节。
 

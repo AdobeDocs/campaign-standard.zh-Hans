@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。参见 [取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅 [取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Publishing]**。
 1. 默认勾选 **[!UICONTROL Determine modifications since the last publication]** 选项，这意味着仅应用自上次更新以来执行的更改。
@@ -49,7 +49,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >由于重复的索引会导致发布失败，准备步骤会检查为资源定义的索引是否已经存在，且另一个资源的索引名称相同。 如果发生这种情况，将显示一条错误消息，要求您重命名索引。 参见 [定义索引](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >由于重复的索引会导致发布失败，因此，准备步骤会检查为资源定义的索引是否已经存在，且另一个资源的索引名称相同。 如果发生这种情况，将显示一条错误消息，要求您重命名索引。 请参阅 [定义索引](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. 执行发布后，单击 **[!UICONTROL Publish]** 按钮以应用新配置。
 1. 发布后，每个资源的 **[!UICONTROL Summary]** 窗格此时都会显示 **[!UICONTROL Published]** 状态，并标注上次发布的日期。
@@ -83,11 +83,11 @@ ht-degree: 92%
 
 * 如果 API 尚未发布（即是说，如果您从未扩展过该资源，或者您尚未为此资源或其他资源选中此选项），则可以选择是否创建。
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * 如果 API 已发布（即是说，如果您已扩展资源并选中了此选项），则将强制进行 API 更新。
 
-   事实上，一旦创建，API 就会在您每次再发布时自动更新。这是为了避免破坏此 API 的用户档案或服务资源并避免损害您的实例。
+  事实上，一旦创建，API 就会在您每次再发布时自动更新。这是为了避免破坏此 API 的用户档案或服务资源并避免损害您的实例。
 
 请注意，自定义资源是默认集成的，但是，对于特定行为，如果您不想发布此资源，则可以选择 **[!UICONTROL Resource Properties]** 中提供的 **[!UICONTROL Hide this resource from APIs]** 选项。
 

@@ -20,17 +20,17 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->受众目标服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Audience Destinations Service当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
 ## 访问Adobe Experience Platform受众
 
-要访问Adobe Experience Platform区段生成器，请导航到 **[!UICONTROL Audiences]** Campaign Standard主页上的信息卡(或 **[!UICONTROL Audiences]** 链接)，然后选择 **[!UICONTROL Adobe Experience Platform]** 环境。
+要访问Adobe Experience Platform区段生成器，请导航至 **[!UICONTROL Audiences]** Campaign Standard主页上的信息卡(或 **[!UICONTROL Audiences]** 链接)，然后选择 **[!UICONTROL Adobe Experience Platform]** 环境。
 
 ![](assets/aep_audiences_access.png)
 
-您首先会被定向到Adobe Experience Platform区段列表页面，在该页面中，可以访问现有的Adobe Experience Platform区段进行进一步编辑。
+您将首先转到Adobe Experience Platform区段列表页面，在该页面中，可以访问现有的Adobe Experience Platform区段进行进一步编辑。
 
-可使用搜索栏和过滤器来帮助您查找所需的Adobe Experience Platform区段。
+可以使用搜索栏和过滤器来帮助您找到所需的Adobe Experience Platform区段。
 
 ![](assets/aep_audiences_list.png)
 
@@ -38,19 +38,19 @@ ht-degree: 3%
 
 要直接在Campaign Standard中创建Adobe Experience Platform受众，请执行以下步骤：
 
-1. 从Adobe Experience Platform区段列表页面，单击 **[!UICONTROL New audience]** 按钮。
+1. 从Adobe Experience Platform区段列表页面，单击 **[!UICONTROL New audience]** 按钮的右上角。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. 区段生成器现在应显示在您的工作区中。 它允许您使用Adobe Experience Platform中的数据构建区段，这些数据最终将用于创建受众。
+1. 区段生成器现在应会显示在您的工作区中。 它允许您使用Adobe Experience Platform中的数据构建区段，这些数据最终将用于创建受众。
 
-1. 在右窗格中命名区段并输入说明（可选）。
+1. 在右侧窗格中命名区段并输入说明（可选）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. 要成功创建区段，您必须选择 **合并策略** 与您针对此区段的营销目的相匹配的信息。
+1. 要成功创建区段，您必须选择 **合并策略** 匹配您在此区段中的营销目的的数据。
 
-   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅 [Segment Builder用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅 [区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

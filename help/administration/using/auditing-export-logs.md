@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 审核导出日志{#auditing-export-logs}
 
-起始日期 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理员可以查看以下所有导出的列表，包括其日期和执行导出的用户：
+从 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理员可以查看以下所有导出的列表，包括其日期和执行导出的用户：
 
 * 文件上传来源 **[!UICONTROL Transfer file]** 活动。
 * 从列表或子列表中导出列表。

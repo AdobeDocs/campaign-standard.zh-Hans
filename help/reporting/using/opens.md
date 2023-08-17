@@ -1,6 +1,6 @@
 ---
-title: 打开
-description: 通过打开次数报表，了解根据各种条件查看的投放次数最多。
+title: 打开次数
+description: 通过打开次数报表，可了解根据各种条件查看的投放次数最多。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 ---
 
-# 打开{#opens}
+# 打开次数{#opens}
 
 此 **[!UICONTROL Opens]** 报告可识别收件人查看次数最多的交付内容。
 

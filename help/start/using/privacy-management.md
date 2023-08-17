@@ -11,7 +11,7 @@ exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign 功能帮助您遵守以下法规：
 
 要了解如何创建&#x200B;**访问**&#x200B;和&#x200B;**删除**&#x200B;请求以及 Adobe Campaign 如何处理这些请求，请参阅[实施步骤](../../start/using/privacy-requests.md#about-privacy-requests)。
 
-[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy)还提供了有关 Campaign Standard 隐私管理的教程。
+[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hans#privacy)还提供了有关 Campaign Standard 隐私管理的教程。
 
 >[!NOTE]
 >

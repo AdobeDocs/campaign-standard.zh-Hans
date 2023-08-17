@@ -1,5 +1,5 @@
 ---
-title: DataModel跟踪日志
+title: 数据模型跟踪日志
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 # 跟踪日志(nms：remoteTracking)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -33,7 +33,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>logCountRead</td>
-                  <td>LogCountRead</td>
+                  <td>logcountread</td>
                   <td>整数 </td>
                   <td> </td>
                </tr>

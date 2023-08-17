@@ -22,26 +22,26 @@ ht-degree: 3%
 
 * **编辑** （灰色）
 
-   这是工作流的初始设计阶段(请参阅 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow))。 该工作流尚未由服务器处理，可以修改而不存在任何风险。
+  这是工作流的初始设计阶段(请参阅 [创建工作流](../../automating/using/building-a-workflow.md#creating-a-workflow))。 该工作流尚未由服务器处理，可以修改而不存在任何风险。
 
 * **进行中** （蓝色）
 
-   完成初始设计阶段后，工作流即可启动并由服务器处理。
+  完成初始设计阶段后，即可启动工作流并由服务器处理。
 
 * **已完成** （绿色）
 
-   一旦没有任何正在进行的任务或操作员已明确停止实例，工作流即完成。
+  一旦没有任何正在进行的任务或操作员已明确停止实例，工作流即完成。
 
-启动工作流后，工作流可能还会具有其他两种状态：
+启动后，工作流可能还会具有其他两种状态：
 
 * **警告** （黄色）
 
-   该工作流无法完成或已被暂停 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按钮。
+  该工作流无法完成或已被暂停，使用 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按钮。
 
 * **错误** （红色）
 
-   执行工作流时出错。 工作流已停止，用户必须执行操作。 要了解有关此错误的更多信息，请使用 ![](assets/printpreview_darkgrey-24px.png) 按钮以访问工作流日志(请参阅 [监测](../../automating/using/monitoring-workflow-execution.md))。
+  执行工作流时出错。 工作流已停止，用户必须执行操作。 要了解有关此错误的更多信息，请使用 ![](assets/printpreview_darkgrey-24px.png) 按钮以访问工作流日志(请参阅 [监控](../../automating/using/monitoring-workflow-execution.md))。
 
-利用营销活动列表，可显示所有工作流及其状态。 有关此内容的更多信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities).
+营销活动列表允许您显示所有工作流及其状态。 有关此内容的更多信息，请参阅 [管理营销活动](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

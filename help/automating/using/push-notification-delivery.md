@@ -34,7 +34,7 @@ ht-degree: 47%
 
 链接到调度程序时，您可以定义定期推送通知。
 
-收件人是在同一工作流中的上游活动，通过查询、交叉点等定向活动定义的。
+同一工作流中的上游活动，通过查询、交集之类的定向活动，定义了收件人。
 
 根据工作流执行参数，触发消息准备。在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认要求）。您可以手动启动工作流，或在工作流中放置调度程序活动以自动执行。
 
@@ -49,18 +49,18 @@ ht-degree: 47%
 
    >[!NOTE]
    >
-   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Push notification]** 活动。可以通过推送仪表板中的操作栏访问推送通知的属性。
+   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Push notification]** 活动。可以通过推送仪表板中的操作栏，访问推送通知的属性。
 
 1. 选择推送通知发送模式：
 
    * **[!UICONTROL Single notification]**：推送通知只发送一次。 您可以在此处指定是否向活动添加叫客过渡。此程序的第 7 步详细介绍了各种过渡类型。
-   * **[!UICONTROL Recurring notification]**：根据中定义的频率，多次发送推送通知 **[!UICONTROL Scheduler]** 活动。 选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的推送通知中，该通知也称为 **循环执行** 可以从应用程序的营销活动列表访问和。
+   * **[!UICONTROL Recurring notification]**：根据中定义的频率，多次发送推送通知 **[!UICONTROL Scheduler]** 活动。 选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的推送通知中(也称为 **定期执行** 可以从应用程序的营销活动列表访问和。
 
-      例如，对于每天发送的定期生日通知，您可以选择聚合每月的发送。 这样，尽管每天都会发送通知，但您可以按月接收投放报告。
+     例如，对于每天发送的定期生日通知，您可以选择聚合每月的发送。 这样，尽管每天都会发送通知，但您可以按月接收投放报告。
 
 1. 选择通知类型。 这些类型来自在中定义的推送通知模板 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单。
 1. 输入推送通知的常规属性。 您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为推送通知标签。
-1. 定义推送通知内容。 参见 [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. 定义推送通知内容。 请参阅 [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. 默认情况下，**[!UICONTROL Push notification]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Push Notification]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
@@ -74,6 +74,6 @@ ht-degree: 47%
 
 ## 备注 {#remarks}
 
-可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用推送通知摘要窗格中的链接，可直接访问链接的元素（工作流、营销活动等）。
+可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用推送通知摘要窗格中的链接，可直接访问链接的元素（工作流、活动等）。
 
-在可从营销活动列表访问的父投放中，您可以查看已处理的发送总数（基于以下日期时指定的聚合期）： **[!UICONTROL Push notification]** 活动已配置)。 要执行此操作，请通过选择 **[!UICONTROL Deployment]** 以打开父投放 ![](assets/wkf_dlv_detail_button.png) 块的详细视图。
+在可从营销活动列表访问的父投放中，您可以查看已处理的发送总数（基于以下时间时指定的聚合期） **[!UICONTROL Push notification]** 活动已配置)。 要执行此操作，请通过选择 **[!UICONTROL Deployment]** 以打开父投放 ![](assets/wkf_dlv_detail_button.png) 块的详细视图。

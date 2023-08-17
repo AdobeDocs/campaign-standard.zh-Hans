@@ -1,6 +1,6 @@
 ---
 title: 检索用户档案的组织实体
-description: 了解如何使用API来管理用户档案的组织单位。
+description: 了解如何使用API构建用户档案的组织单位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis

@@ -66,34 +66,34 @@ ht-degree: 100%
 
    * 对于字符串或“数字”**字段**，指定比较运算符和值。
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * 对于“日期”或“日期与时间”**字段**，您可以选择定义特定日期、日期范围或相对于查询执行日期的时段。
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * 对于“布尔”**字段**，请勾选链接该字段可能值的复选框。
    * 对于&#x200B;**分组**&#x200B;字段，请选择要为其创建规则的分组字段，然后以与其他字段相同的方式定义条件。
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * 对于链接其他数据库资源的 **1-1**，请直接从目标表中选择一个值。
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * 对于链接其他数据库资源的 **1-N**，可在其第二个资源的字段上定义子查询。
 
-      您无需指定子条件。
+     您无需指定子条件。
 
-      例如，对于用户档案跟踪日志，您只能选择 **[!UICONTROL Exists]** 运算符并批准该规则。该规则将返回所有存在跟踪日志的用户档案。
+     例如，对于用户档案跟踪日志，您只能选择 **[!UICONTROL Exists]** 运算符并批准该规则。该规则将返回所有存在跟踪日志的用户档案。
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * 对于&#x200B;**预定义过滤器**，请根据提供的条件，输入或选择您喜欢的元素。
 
-      管理员可以创建过滤器以辅助完成复杂和重复的查询。这些规则将以预配置规则的形式显示在查询编辑器中，它们可限制用户需要执行的步骤数。
+     管理员可以创建过滤器以辅助完成复杂和重复的查询。这些规则将以预配置规则的形式显示在查询编辑器中，它们可限制用户需要执行的步骤数。
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. 您可以为规则指定一个名称。然后，该名称将作为规则名称显示在工作区中。如果未给规则指定名称，则会自动显示条件的描述。
 1. 要组合工作区元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：

@@ -28,45 +28,45 @@ ht-degree: 12%
 
 * **[!UICONTROL History in days]**：指定必须清除历史记录的天数。 历史记录包含与工作流相关的元素：日志、任务、事件（链接到工作流操作的技术对象）以及下载的文件 **[!UICONTROL Transfer file]** 活动。 现成的工作流模板的默认值为 30 天。
 
-   历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次 (请参阅 [技术工作流列表](../../administration/using/technical-workflows.md).)
+  历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次 (请参阅 [技术工作流列表](../../administration/using/technical-workflows.md).)
 
-   >[!IMPORTANT]
-   >
-   >如果 **[!UICONTROL History in days]** 字段留空，其值将被视为“1”，这意味着历史记录将在1天后清除。
+  >[!IMPORTANT]
+  >
+  >如果 **[!UICONTROL History in days]** 字段留空，其值将被视为“1”，这意味着历史记录将在1天后清除。
 
 * **[!UICONTROL Save SQL queries in the log]**：用于将SQL查询从工作流保存到日志中。
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**：如果您希望记录整个执行计划，请选中此选项。 默认情况下处于禁用状态。
 
-   有关此选项的更多信息，请参阅此 [部分](#diagnostic-mode).
+  有关此选项的详细信息，请参阅此 [部分](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**：如果您希望能够查看过渡的详细信息，请选中此选项。
 
-   >[!CAUTION]
-   >
-   >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
+  >[!CAUTION]
+  >
+  >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：允许您在本地执行工作流，以用于开发环境测试目的。
 
 * **[!UICONTROL Severity]**：用于指定在Adobe Campaign实例中执行工作流的优先级级别。 此字段仅供Adobe团队用于监控目的。
 
-此 **[!UICONTROL Error management]** 部分提供了其他选项，用于管理工作流在出现错误时的行为方式。 有关这些选项的详情，请参见 [错误管理](../../automating/using/monitoring-workflow-execution.md#error-management) 部分。
+此 **[!UICONTROL Error management]** 部分提供了其他选项，用于管理工作流在出现错误时的行为。 有关这些选项的详情，请参见 [错误管理](../../automating/using/monitoring-workflow-execution.md#error-management) 部分。
 
 ## 诊断模式 {#diagnostic-mode}
 
 >[!CAUTION]
 >
->此选项可能会显着影响工作流性能，应谨慎使用。
+>此选项会显着影响工作流性能，应谨慎使用。
 
 启用后， **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** 中的选项 **[!UICONTROL Execution]** 如果查询需要超过一分钟的时间，工作流属性的部分将记录整个执行计划。
 
 ![](assets/wkf_diagnostic.png)
 
-在启用此选项并启动工作流后，如果您的查询需要超过一分钟，则将记录执行计划。 然后，您可以使用EXPLAIN ANALYZE检索执行计划。
+在启用此选项并启动工作流后，如果您的查询需要超过一分钟，则将记录执行计划。 然后，可以使用EXPLAIN ANALYZE检索执行计划。
 
-欲知更多信息，请参见 [PostgreSQL文档](https://www.postgresql.org/docs/9.4/using-explain.html).
+有关详情，请参阅 [PostgreSQL文档](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-如果在此查询中有序列扫描，则 **[!UICONTROL Diagnostic mode]** 还将提供建议以帮助过滤器表达式创建索引。
+如果在此查询中有序列扫描，则 **[!UICONTROL Diagnostic mode]** 还将提供建议以帮助筛选器表达式创建索引。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ ht-degree: 12%
 
 在执行工作流时必须满足以下两个条件才能触发推荐：
 
-* 序列扫描占查询时间的40%以上。
+* 序列扫描占用的查询时间超过40%。
 
 * 序列扫描后生成的行数少于表中总行数的1%。
 
@@ -84,8 +84,8 @@ ht-degree: 12%
 
 * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**：从 **[!UICONTROL Value]** 字段，则可以设置新的查询执行时间。 如果查询执行超过此值，将记录执行计划。
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**：从 **[!UICONTROL Value]** 字段中，您可以更改序列扫描为生成推荐所花费的查询时间百分比。
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**：从 **[!UICONTROL Value]** 字段中，可以更改序列扫描为生成推荐而必须花费的查询时间百分比。
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

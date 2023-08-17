@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 自助服务集成应用程序入门 {#gs-self-service-app}
 
-Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序集成，使您能够配置数据流，控制数据流是否运行以及在哪个环境中运行。 但是，在开始使用自助服务集成应用程序之前，您必须先完成一些先决条件。
+Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集成，允许您配置数据流，控制它们是否运行以及在哪个环境中运行。 但是，在开始使用自助集成应用程序之前，您必须先完成一些先决条件。
 
 ## 概念和限制 {#concepts-and-restrictions}
 
@@ -46,7 +46,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序�
 然后，您可以开始使用集成工具。 请按照以下步骤操作：
 
 1. [获取对集成应用程序的访问权限](../../integrating/using/d365-acs-self-service-app-control-access.md)
-1. [根据您的使用情况配置集成应用程序](../../integrating/using/d365-acs-self-service-app-settings.md)
+1. [配置集成应用程序以供您使用](../../integrating/using/d365-acs-self-service-app-settings.md)
 1. [实施数据同步](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [配置同步工作流](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
@@ -60,26 +60,26 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序�
 
 ## 隐私请求确认 {#self-service-app-acknowledgement}
 
-首次浏览到自助服务UI时，您将看到隐私确认。 您需要确认自己了解自己在分别在Campaign和Microsoft Dynamics 365中执行隐私请求时的角色，然后才能继续。
+首次浏览自助服务UI时，您将看到隐私确认。 您需要确认自己了解自己在分别在Campaign和Microsoft Dynamics 365中执行隐私请求时所扮演的角色，然后才能继续。
 在中详细了解您的隐私责任以及如何管理隐私请求 [本节](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## 设置您的凭据 {#self-service-app-credentials}
 
-当您首次浏览到UI时，您应该会看到一个页面，其标题如下所示：
+首次浏览UI时，您应该会看到一个页面，其标题如下所示：
 
 ![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
-> 如果尚未配置应用程序设置，则通常会收到提及它“无法连接”到Adobe Campaign Standard或Microsoft Dynamics 365的警报。
+> 如果尚未配置应用程序设置，则通常会收到警报，指出其“无法连接”到Adobe Campaign Standard或Microsoft Dynamics 365。
 
-请验证“ORG”和“INSTANCE”选项是否为您计划配置的选项。  如果没有，请单击下拉列表并选择正确的组织和实例。
+请确认“ORG”和“INSTANCE”选项是您计划配置的选项。  如果没有，请单击下拉列表并选择正确的组织和实例。
 
 >[!IMPORTANT]
 >
-> 如果您是首次配置连接器和/或您是此流程的新手，那么我们 **强烈** 敦促您选择“stage”或“dev”实例。 在尝试在生产环境中进行设置之前，您需要确保配置运行正常。
+> 如果您是首次配置连接器和/或您是此流程的新手，则我们 **强烈** 敦促您选择“stage”或“dev”实例。 在尝试在生产环境中进行设置之前，您需要确保配置运行正常。
 
-如果您具有正确的组织和实例，请单击“汉堡包”菜单以显示下拉菜单。 然后单击 **[!UICONTROL Settings...]** 在下拉菜单中，访问输入Microsoft Dynamics 365和Campaign凭据的页面（请参阅下文）。
+如果您有正确的组织和实例，请单击“汉堡包”菜单以显示下拉菜单。 然后单击 **[!UICONTROL Settings...]** 在下拉菜单中，访问输入Microsoft Dynamics 365和Campaign凭据的页面（请参阅下文）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -98,42 +98,43 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 页上，您可以访问已配置的表映射列表。  它将为您提供现成的联系人/配置文件映射。 所有其他自定义实体将需要单独配置。
+在 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 页上，您可以访问已配置的表映射列表。  这会将您默认使用现成的联系人/配置文件映射。 所有其他自定义实体将需要单独配置。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 在 **[!UICONTROL Edit Table Mapping]** 页面，检查 **[!UICONTROL Mappings]** 部分，以确保将Microsoft Dynamics 365中的字段映射到Campaign中的正确字段。 如果需要添加任何其他映射，请立即添加，以及任何替换或过滤器。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
-如果要添加新映射，请参阅 [本节](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) 了解更多信息。
+如果要添加新映射，请参阅 [本节](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) 以了解更多信息。
 
-配置正确后，单击 **[!UICONTROL Play]** 按钮旁边的 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流中才能启动集成和数据流。
+配置正确后，单击 **[!UICONTROL Play]** 按钮进行更改 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 工作流中开始集成和流转数据。
 
 >[!IMPORTANT]
 >
->三 **强烈** 建议先在暂存或开发环境中运行此命令，然后再在生产环境中运行。 请检查在标头中是否选择了暂存/开发实例。
+>三 **强烈** 建议先在暂存或开发环境中运行此命令，然后再在生产环境中运行。 请检查在标题中是否选择了暂存/开发实例。
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-运行后，您应该能够通过在Microsoft Dynamics 365中添加或修改条目并在几分钟内在Adobe Campaign中观察这些更改来进行测试。 如果在任何时候您需要停止此进程，则只需按同一按钮即可停止它。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+运行后，您应该能够通过在Microsoft Dynamics 365中添加或修改条目并在几分钟内在Adobe Campaign中观察这些更改来进行测试。 如果在任何时候您需要停止此进程，则只需按同一按钮即可将其停止。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 集成应用程序工作区 {#self-service-app-workspace}
 
 ### 应用程序标头 {#app-header}
 
-自助式应用程序中的标头允许您定义当前正在查看和/或配置的组织和实例。
+自助应用程序中的标头允许您定义当前正在查看和/或配置的组织和实例。
 
-选择 **组织** 和 **实例** 要查看/编辑。 这些字段显示为只读，但是，当您将鼠标光标置于其上时，它们变为可编辑。
+选择 **ORG** 和 **实例** 要查看/编辑。 这些字段显示为只读，但是，当您将鼠标光标置于其上时，它们变为可编辑的。
 
-单击带有三条水平线的按钮时，将显示一个下拉菜单 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) 标题的右侧。
+单击带有三条水平线的按钮时，将显示一个下拉菜单 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) 在标题的右侧。
 
 下拉菜单中的条目包括：
 
 * **设置**：选择此选项会将您发送到一个屏幕，通过该屏幕可指定Microsoft Dynamics 365和Adobe Campaign的API凭据以及应用程序的其他常规设置。
 
-* **文档**：此选项是一个指向特定于此集成的Adobe Campaign文档的链接
+* **文档**：此选项是特定于该集成的Adobe Campaign文档的链接
 
-* **客户关怀**：这是指向与打开客户关怀票证相关的Experience Cloud文档的链接
+* **客户关怀**：这是一个链接，指向与打开客户关怀票证相关的Experience Cloud文档
 
 * **注销**：这会将您从应用程序注销，并允许您以其他用户身份重新登录。
 
@@ -141,19 +142,19 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助服务集成应用程序�
 
 ### 痕迹导航 {#app-breadcrumbs}
 
-在导航应用程序时，痕迹导航会显示在某些屏幕的顶部。
+在导航应用程序时，某些屏幕顶部会显示痕迹导航。
 
 **示例:**
 
-以下是 **[!UICONTROL Edit Table Mapping]** 显示痕迹导航和页面标题的屏幕。 在这种情况下，您可以单击 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文本以转到上一个屏幕。 **[!UICONTROL Edit Table Mapping]** 在这种情况下，痕迹导航不可点击，因为它是当前屏幕。
+以下是以下示例来自 **[!UICONTROL Edit Table Mapping]** 显示痕迹导航和页面标题的屏幕。 在这种情况下，您可以单击 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文本，转到上一个屏幕。 **[!UICONTROL Edit Table Mapping]** 在这种情况下，在痕迹导航中不可点击，因为它是当前屏幕。
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### 常用按钮 {#app-buttons}
 
-以下图标在自助应用程序的多个页面中使用。
+在自助应用程序的多个页面中使用以下图标。
 
-![](assets/do-not-localize/d365-to-acs-icon-add.png)  — 向列表添加新项目。
+![](assets/do-not-localize/d365-to-acs-icon-add.png)  — 向列表添加新项。
 
 ![](assets/do-not-localize/d365-to-acs-icon-edit.png)  — 编辑已存在的内容
 

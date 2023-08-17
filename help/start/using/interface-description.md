@@ -51,9 +51,9 @@ ht-degree: 77%
 
 导航规则为：
 
-* 此 **Adobe** 通过页面左上角的徽标，您可以访问高级功能和配置。 具体的菜单取决于您的用户档案和权限。
+* 此 **Adobe** 通过页面左上角的徽标，可访问高级功能和配置。 具体的菜单取决于您的用户档案和权限。
 
-   有关高级菜单的详情，请参阅[高级菜单](#advanced-menu)一节。
+  有关高级菜单的详情，请参阅[高级菜单](#advanced-menu)一节。
 
 * 利用 **[!UICONTROL Home]** 链接，可显示 Adobe Campaign 主页。
 * 利用 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 链接，可访问与这些功能关联的视图。
@@ -68,17 +68,17 @@ ht-degree: 77%
 
 ![](assets/ux_help.png)
 
-使用 **[!UICONTROL Search]** 字段以查找指导。 搜索结果包括文档和帮助文章、社区论坛结果和视频内容，使您能够更轻松地访问更多内容以帮助充分利用应用程序。
+使用 **[!UICONTROL Search]** 字段以查找指导。 搜索结果包括文档和帮助文章、社区论坛结果和视频内容，使您能够更轻松地访问更多内容，从而充分利用应用程序。
 
 三个选项卡可帮助您查找帮助和帮助：
 
 1. 此 **[!UICONTROL Help]** 选项卡包含：
-   * 通过上下文链接快速访问Adobe Campaign Standard文档。
+   * 快速访问带上下文链接的Adobe Campaign Standard文档。
    * a **[!UICONTROL Learning]** 用于访问Adobe Campaign课程库的链接。
-   * a **[!UICONTROL Community]** 链接以访问专门讨论您有关Campaign的问题的论坛。
+   * a **[!UICONTROL Community]** 链接以访问针对您有关Campaign的问题而设的论坛。
    * 直接访问：帮助中心、客户关怀、Experience Cloud产品状态、开发人员连接、发行说明、发行计划和 **[!UICONTROL About]** 屏幕。
 1. 此 **[!UICONTROL Support]** 选项卡允许您打开支持案例并通过电话或Twitter联系我们。
-1. 此 **[!UICONTROL Feedback]**  选项卡使报告问题或分享您的想法变得更轻松。
+1. 此 **[!UICONTROL Feedback]**  通过Tab，可更轻松地报告问题或分享您的想法。
 
 ## 高级菜单 {#advanced-menu}
 
@@ -126,23 +126,23 @@ ht-degree: 77%
 
 * **列表**&#x200B;可显示各种元素，如项目、营销策划、用户档案等。可以在 **[!UICONTROL Card]** 或 **[!UICONTROL List]** 模式中查看这些元素。使用“更改模式”按钮，可从一个模式切换到另一个模式。每个元素都会显示指标。
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   利用“计数器”，可了解元素的数量。如果此数字超过 30，则需要单击此计数器以获取总数。
+  利用“计数器”，可了解元素的数量。如果此数字超过 30，则需要单击此计数器以获取总数。
 
 * **仪表板**&#x200B;显示链接到活动之所有参数的概况。此屏幕包括交互区域，可用于单独分离和配置各种概念。
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * 如果在创建元素时可选用多种类型，则可利用&#x200B;**选择屏幕**&#x200B;中可以选择要添加的元素类型（营销策划、投放）。此选择屏幕还可用于访问报告。
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * 对于工作流和查询编辑器，提供了带面板的&#x200B;**工作区**&#x200B;以供您设计对象。
 
-   您可以将面板中的元素拖放到工作区中，以配置相关元素。
+  您可以将面板中的元素拖放到工作区中，以配置相关元素。
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## 操作栏 {#action-bar}
 

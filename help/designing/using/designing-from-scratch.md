@@ -17,16 +17,16 @@ ht-degree: 23%
 
 # 从头开始设计电子邮件 {#designing-an-email-content-from-scratch}
 
-了解如何主控编辑电子邮件内容。 使用Email Designer，您可以创建以或不以您自己的预定义内容开始的电子邮件和模板。
+了解如何掌握电子邮件内容版本。 使用Email Designer，您可以创建包含或不包含您自己的预定义内容的电子邮件和模板。
 
 以下是使用Email Designer从头开始创建和设计电子邮件内容的主要步骤：
 
 1. 创建电子邮件并打开其内容。
-1. 添加结构组件以塑造电子邮件的形状。 参见 [编辑电子邮件结构](#defining-the-email-structure).
-1. 在结构组件中插入内容组件和片段。 参见 [添加片段和内容组件](#defining-the-email-structure).
-1. 添加图像并编辑电子邮件的文本。 参见 [插入图像](../../designing/using/images.md#inserting-images).
-1. 通过添加个性化字段、链接等将电子邮件个性化。 参见 [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)， [插入链接](../../designing/using/links.md#inserting-a-link) 和 [定义电子邮件中的动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. 定义电子邮件的主题行。 参见 [个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. 添加结构组件以塑造电子邮件的形状。 请参阅 [编辑电子邮件结构](#defining-the-email-structure).
+1. 在结构组件中插入内容组件和片段。 请参阅 [添加片段和内容组件](#defining-the-email-structure).
+1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images).
+1. 通过添加个性化字段、链接等个性化内容，使电子邮件个性化。 请参阅 [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)， [插入链接](../../designing/using/links.md#inserting-a-link) 和 [定义电子邮件中的动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. 定义电子邮件的主题行。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 预览电子邮件.
 1. 保存您的内容，然后在确保已定义受众并正确计划发送后继续发送消息。
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 >title="定义电子邮件列"
 >abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
-使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过执行简单的拖放操作来添加和移动结构元素，您可以在几秒钟内设计电子邮件的形状。
+使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计电子邮件的形状。
 
 要编辑电子邮件的结构，请执行以下操作：
 
@@ -61,7 +61,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_structure_components.png)
 
-   在放置结构组件之前，蓝线表示结构组件的确切位置。 您可以将其放在任何其他组件上方、之间或下方，但不能在内部放置。
+   在放置结构组件之前，蓝线表示该组件的确切位置。 您可以将其放在任何其他组件之上或之下，但不得放在内部。
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ ht-degree: 23%
    >
    >放入电子邮件后，除非内部已放置内容组件或片段，否则无法移动或删除组件。
 
-1. 由一列或多列组成的多个结构组件是可用的。
+1. 由一个或多个列组成的多个结构组件是可用的。
 
    选择 **[!UICONTROL n:n column]** 用于定义所选列数（介于3和10之间）的组件。 还可以通过移动每个列底部的箭头来定义该列的宽度。
 
@@ -79,7 +79,7 @@ ht-degree: 23%
    >
    >每个列的大小不能小于结构组件的总宽度的 10%。不能删除非空列。
 
-定义结构后，您便能够将内容片段和组件添加到电子邮件中。
+定义结构后，您便能够将内容片段和组件添加到电子邮件。
 
 ## 使用邮件引文 {#preheader}
 
@@ -88,13 +88,13 @@ ht-degree: 23%
 >title="使用邮件引文"
 >abstract="邮件引文可让您配置一个简短的摘要文本，该文本可帮助提高电子邮件的打开率。"
 
-预览版是简短摘要文本，在从收件箱查看电子邮件时显示在主题行之后。 预标头提供更高的打开率。
+预告文本是简短摘要文本，从收件箱中查看电子邮件时位于主题行之后。 预标头可提供更高的打开率。
 
 选择 **[!UICONTROL Preheader]** 编辑框并完成内容。
 
 ![](assets/email_designer_preheader.png)
 
-您可以添加 **[!UICONTROL Content block]**， a **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]** 在预标头内容中。
+您可以添加 **[!UICONTROL Content block]**， a **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]** 在预编译标头内容中。
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ ht-degree: 23%
 
 内容组件是一旦放入电子邮件中即可编辑的原始空组件。
 
-可以在结构组件中添加所需数量的内容组件。 还可将它们移动到结构组件内部或移动到另一个结构组件中。
+可以在结构组件中添加所需数量的内容组件。 还可将它们移动到结构组件内部或移动到另一个结构组件。
 
 以下是Email Designer中可用的组件列表：
 
@@ -123,11 +123,11 @@ ht-degree: 23%
 
 ### **[!UICONTROL Text]**
 
-使用此组件可在电子邮件中插入文本。 您可以调整文字的颜色、样式和大小 **[!UICONTROL Component Settings]**.
+使用此组件可在电子邮件中插入文本。 您可以调整文本颜色、样式和大小，方法是 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
-使用此组件可在电子邮件中插入分隔线。 您可以选取以下项目中的换行颜色、样式和大小： **[!UICONTROL Component Settings]**.
+使用此组件可在电子邮件中插入分隔线。 可以在以下位置选择换行线的颜色、样式和大小： **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
@@ -135,19 +135,19 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->可用有限选项编辑自由HTML组件。 如果所有样式都未内联，请确保将适当的CSS添加到 **head** 部分，否则电子邮件将不会响应。HTML 使用 **[!UICONTROL Preview]** 按钮以测试内容的响应性(请参阅 [预览消息](../../sending/using/previewing-messages.md))。
+>可用的HTML组件可进行编辑，但可用的选项有限。 如果所有样式都未内联，请确保在 **head** HTML部分，否则，电子邮件将不会响应。 使用 **[!UICONTROL Preview]** 按钮来测试内容的响应性(请参阅 [预览消息](../../sending/using/previewing-messages.md))。
 
-为了仅使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件的内容复制到片段和组件中。
+为了仅使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将内容从现有电子邮件复制到片段和组件中。
 
 当您有无法重新创建的内容时，可以使用从原始电子邮件复制并粘贴HTML代码 **[!UICONTROL Html]** 内容组件。 在继续之前，请确保您熟悉HTML。
 
 >[!NOTE]
 >
->新内容不会是原始电子邮件的精确副本，但以下步骤将指导您创建尽可能接近的邮件。
+>新内容不会与原始电子邮件完全相同，但以下步骤将指导您创建尽可能接近的邮件。
 
-**复制内容之前**
+**在复制内容之前**
 
-1. 在原始电子邮件中，从对于要发送的每封电子邮件都唯一的部分中标识可重复使用的部分。
+1. 在原始电子邮件中，确定各个部分的可重用部分，这些部分对于您将发送的每封电子邮件都是唯一的。
 1. 保存您要使用的所有图像和资产。
 1. 如果您熟悉HTML，请将原始HTML内容拆分为多个部分。
 
@@ -159,7 +159,7 @@ ht-degree: 23%
 >abstract="使用此组件可在电子邮件中插入视频。请注意，视频不适用于所有电子邮件客户端。我们建议设置后备图像。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="附加信息"
 
-将视频组件插入电子邮件的结构组件中，然后在 **[!UICONTROL Component Settings]**.
+将视频组件插入电子邮件的结构组件中，然后在中输入视频链接 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 23%
 
 ### **[!UICONTROL Social]**
 
-使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要显示的链接及其图标的大小 **[!UICONTROL Component Settings]**.
+使用此组件可在电子邮件中插入指向社交媒体页面的链接。 您可以选择要在其中显示的链接及其图标的大小 **[!UICONTROL Component Settings]**.
 
 ### 轮播 {#carousel-settings}
 
@@ -188,11 +188,11 @@ ht-degree: 23%
    ![](assets/des_carousel_browse.png)
 
 1. 从 **[!UICONTROL Settings]** 窗格，设置要在轮播中显示的缩略图数量。
-1. 从计算机中选择一个备用映像。
+1. 从您的计算机中选择一个备用映像。
 
    ![](assets/des_carousel_fallback.png)
 
-轮盘组件并非与所有电子邮件程序兼容。 当电子邮件不支持轮播时，上传回退以改为显示图像。
+轮盘组件并非与所有电子邮件程序兼容。 当电子邮件不支持轮播时，请上传回退以显示图像。
 
 >[!NOTE]
 >

@@ -57,9 +57,9 @@ ht-degree: 89%
 
    您可以指定叫客消息的最大吞吐量（其单位为每秒 MT 数，其中的“MT”指的是“终端终止”）。如果在对应的字段中输入“0”，则吞吐量将没有限制。
 
-   与持续时间对应的所有字段的值必须以秒为单位填写。
+   与持续时间对应的所有字段的值必须以秒为单位完成。
 
-1. 在必须定义特定编码映射时定义SMS-C特定参数。 有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
+1. 在必须定义特定编码映射的情况下定义SMS-C特定参数。 有关更多信息，请参阅 [SMSC 详情](#smsc-specifics)一节。
 
    如果您不想遵守 SMPP 协议，且想要将 **[!UICONTROL +]** 前缀转移给短信提供商的服务器 (SMS-C)，请启用 **[!UICONTROL Send full phone number (send characters other than digits)]** 选项。
 
@@ -280,7 +280,7 @@ CR：回车
 
 **高级字符（计为两个字符）**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC 详情 {#smsc-specifics}
 
@@ -305,19 +305,19 @@ CR：回车
    * 它会尝试将 GSM 编码用于分配值 **data_coding = 0**。
    * 如果 GSM 编码失败，则会将 **UCS2** 编码用于分配值 **data_coding = 8**。
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * 勾选 **[!UICONTROL Define a specific mapping of encodings]** 功能后，您可以定义要使用的编码以及链接的 **[!UICONTROL data_coding]** 字段值。Adobe Campaign 将尝试使用列表中的第一种编码，如果第一种编码被证实不可用，则使用后续的编码。
 
-   声明的顺序很重要：建议您按照&#x200B;**成本**&#x200B;的升序方式排列编码列表，以选出可尽量减少短信消息发送条数的编码。
+  声明的顺序很重要：建议您按照&#x200B;**成本**&#x200B;的升序方式排列编码列表，以选出可尽量减少短信消息发送条数的编码。
 
-   仅声明您要使用的编码。如果 SMS-C 提供的某些编码与您的使用目的并不对应，请不要在列表中声明这些编码。
+  仅声明您要使用的编码。如果 SMS-C 提供的某些编码与您的使用目的并不对应，请不要在列表中声明这些编码。
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### 发送给 MO 的自动回复 {#automatic-reply-sent-to-the-mo}
 
-当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给该用户档案的消息以及要执行的操作。
+当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给他们的消息以及要执行的操作。
 
 有关更多信息，请参见[此章节](../../channels/using/managing-incoming-sms.md)。
 
@@ -331,21 +331,21 @@ CR：回车
 
 从 **[!UICONTROL Advanced parameters]** 部分：
 
-* 此 **[!UICONTROL Short code]** 用于向投放添加特定的短代码。 选择退出此特定短代码的收件人将在邮件准备期间自动被排除。 有关如何配置短代码的详细信息，请参阅 [本节](../../channels/using/managing-incoming-sms.md).
+* 此 **[!UICONTROL Short code]** 用于向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的详细信息，请参阅 [本节](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >如果 **[!UICONTROL Short code]** 字段为空，则其值 **[!UICONTROL Short code]** 将使用在外部帐户中设置的字段。
+  >[!NOTE]
+  >
+  >如果 **[!UICONTROL Short code]** 字段留空，则值 **[!UICONTROL Short code]** 将使用外部帐户中设置的字段。
 
 从 **[!UICONTROL Send]** 短信模板的区域：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 
-   >[!IMPORTANT]
-   >
-   >如果在短信消息内容中插入了个性化字段或条件文本，则消息的长度以及发送短信消息的数量，可能会因收件人而异。有关更多信息，请参阅[个性化短信消息](../../channels/using/personalizing-sms-messages.md)一节。
+  >[!IMPORTANT]
+  >
+  >如果在短信消息内容中插入了个性化字段或条件文本，则消息的长度以及发送短信消息的数量，可能会因收件人而异。有关更多信息，请参阅[个性化短信消息](../../channels/using/personalizing-sms-messages.md)一节。
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * 利用 **[!UICONTROL Transmission mode]** 字段，可确定短信消息的投放方法：
 

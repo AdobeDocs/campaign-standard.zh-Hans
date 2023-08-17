@@ -50,13 +50,13 @@ ht-degree: 75%
 
    有关更多信息，请参阅[扩充](../../automating/using/enrichment.md)一节。
 
-1. 拖放 [分段](../../automating/using/segmentation.md) 活动并将其打开以优化主目标。
+1. 拖放 [分段](../../automating/using/segmentation.md) 活动以定义工作流，并将其打开以优化主目标。
 
    ![](assets/load_file_segmentation.png)
 
    有关更多信息，请参阅[分段](../../automating/using/segmentation.md)一节。
 
-1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动并将其打开到工作流中。
+1. 拖放 [电子邮件投放](../../automating/using/email-delivery.md) 活动并将其打开。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

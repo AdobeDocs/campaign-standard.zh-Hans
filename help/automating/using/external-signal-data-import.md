@@ -24,17 +24,17 @@ ht-degree: 79%
 
 * [加载文件](../../automating/using/load-file.md)活动，上传包含新购买数据的文件。请注意，[数据库已扩展](../../developing/using/data-model-concepts.md)，因为默认情况下，数据库中不存在购买数据。
 
-   例如：
+  例如：
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2015;dannymars@example.com;A2;799
+  aze124;28/05/2015;dannymars@example.com;A7;8
+  aze125;31/07/2015;john.smith@example.com;A7;8
+  aze126;14/12/2015;john.smith@example.com;A10;4
+  aze127;02/01/2016;dannymars@example.com;A3;79
+  aze128;04/03/2016;clara.smith@example.com;A8;149
+  ```
 
 * [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。

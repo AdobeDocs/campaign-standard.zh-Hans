@@ -1,6 +1,6 @@
 ---
 title: 使用复合标识关键码调用资源
-description: 了解如何使用复合标识键调用资源
+description: 了解如何使用复合标识关键码调用资源
 feature: Data Model
 role: Developer
 level: Experienced
@@ -14,14 +14,14 @@ ht-degree: 7%
 
 # 使用复合标识关键码调用资源{#calling-a-resource-using-a-composite-identification-key}
 
-在某些情况下，您可能需要为资源定义由两个字段组成的标识键。 配置标识键后，您需要配置过滤器定义，以便能够从Campaign Standard界面或API使用此标识键调用资源。
+在某些情况下，您可能需要为资源定义一个由两个字段组成的标识键。 配置标识键后，您需要配置过滤器定义，以便能够从Campaign Standard界面或API使用此标识键调用资源。
 
-在此用例中， **个人资料** 已使用自定义扩展资源 **&quot;CRM ID&quot;** 和 **&quot;category&quot;** 字段。 我们将为用户档案资源创建一个标识键，该键将由这两个字段组成。 然后，我们将配置过滤器定义，以便可以使用标识键访问用户档案资源。
+在此使用案例中， **个人资料** 已使用自定义扩展资源 **&quot;CRM ID&quot;** 和 **&quot;category&quot;** 字段。 我们将为用户档案资源创建一个标识键，该键将由这两个字段组成。 然后，我们将配置过滤器定义，以便可以使用标识键访问用户档案资源。
 
 此用例的主要步骤包括：
 
-1. 根据这两个字段配置用户档案资源的标识键。
-1. 配置过滤器定义，以便能够使用其标识键调用用户档案资源。
+1. 根据这两个字段，配置用户档案资源的标识键。
+1. 配置过滤器定义，以便能够使用用户档案资源的标识键调用该资源。
 1. 从接口或API调用配置文件资源。
 
 相关主题：
@@ -78,19 +78,19 @@ ht-degree: 7%
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > 单击 **+** 按钮时，将自动生成参数名称。 请注意此信息，因为您将需要此信息才能使用API中的过滤器。
+   > 单击 **+** 按钮时，将自动生成参数名称。 请注意此信息，因为您将需要此信息以使用API中的过滤器。
 
 1. 对组成标识键(“category”)的所有字段重复上述步骤，然后保存更改。
 
    ![](assets/uc_idkey8.png)
 
-1. 筛选器定义现已配置完成。 您可以发布资源，以便筛选器可用。
+1. 筛选器定义现已配置完成。 您可以发布资源，以便过滤器可用。
 
 ## 步骤3：根据其标识键调用资源{#step-3-call-the-resource-based-on-its-identification-key}
 
 配置标识键及其过滤器定义后，您可以使用它们从Campaign标准界面或REST API调用资源。
 
-要使用界面中的过滤器定义，请使用 **[!UICONTROL Query]** 工作流中的活动(请参阅 [本节](../../automating/using/query.md))。 然后，该过滤器即可在左窗格中使用。
+若要使用界面中的过滤器定义，请使用 **[!UICONTROL Query]** 工作流中的活动(请参阅 [本节](../../automating/using/query.md))。 然后，该过滤器将显示在左窗格中。
 
 ![](assets/uc_idkey9.png)
 
@@ -101,9 +101,9 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->要调用自定义筛选条件，请使用“by”前缀，后跟配置中筛选器定义时定义的筛选器名称 [步骤2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>要调用自定义筛选条件，请使用“by”前缀，后跟在中配置筛选条件定义时定义的筛选条件名称 [步骤2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
-在我们的示例中，从“spring”类别中使用“123456”CRM ID检索用户档案的语法是：
+在本例中，用于从“spring”类别中使用“123456”CRM ID检索用户档案的语法为：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456

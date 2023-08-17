@@ -9,7 +9,7 @@ exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
-管理员可以通过Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关详情，请参阅 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html) 文档。
+管理员可以通过Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关详细信息，请参见 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html) 文档。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
@@ -41,7 +41,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 这种用户划分并不具有强制性，本节只是展示 Adobe Campaign 的常见用法。
 
-本节将帮助您了解主要类型的Adobe Campaign用户。 有关用户可以承担的特定角色（开始投放、导出、准备投放等）的更多信息，请参阅 [角色列表](../../administration/using/list-of-roles.md) 和 [管理组和用户](../../administration/using/managing-groups-and-users.md) 页数。
+本节将帮助您了解主要类型的Adobe Campaign用户。 有关用户可以担任的特定角色（开始投放、导出、准备投放等）的更多信息，请参阅 [角色列表](../../administration/using/list-of-roles.md) 和 [管理组和用户](../../administration/using/managing-groups-and-users.md) 页数。
 
 我们着重关注 Adobe Campaign 中承担不同任务的三种主要用户类型：
 
@@ -59,7 +59,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 >[!IMPORTANT]
 >
->仅限功能管理员，具有 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
+>仅限功能管理员，具有 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
 功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 

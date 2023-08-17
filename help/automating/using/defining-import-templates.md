@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. 转到 **[!UICONTROL Workflow]** 选项卡。在此处，您可以根据需要添加新活动，以扩充默认提供的工作流。
 
-   有关如何配置工作流活动的更多信息，请参阅本节中描述的使用案例：[示例：导入工作流模板](../../automating/using/creating-import-workflow-templates.md)。此用例可帮助您设置一个可重复使用的工作流，用于导入来自Adobe Campaign数据库中CRM的用户档案。
+   有关如何配置工作流活动的更多信息，请参阅本节中描述的使用案例：[示例：导入工作流模板](../../automating/using/creating-import-workflow-templates.md)。此使用案例可帮助您设置一个可重复使用的工作流，用于导入来自Adobe Campaign数据库中CRM的用户档案。
 
 1. 保存模板，以便正确考虑工作流的配置。
 1. 从 **[!UICONTROL Properties]** 选项卡上传样例文件。上传的文件只能包含将来导入或采样数据所必需的列。利用样例文件中的数据，可在定义工作流后测试简化的导入。

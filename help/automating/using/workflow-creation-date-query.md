@@ -1,6 +1,6 @@
 ---
 title: 在用户档案的创建日期创建投放
-description: 此用例显示如何在用户档案的创建日期创建投放。
+description: 此用例展示了如何在用户档案的创建日期创建投放。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,7 +18,7 @@ ht-degree: 38%
 
 # 在用户档案的创建日期创建投放 {#creation-date-query}
 
-您可以在客户创建用户档案的周年纪念日通过电子邮件发送选件。
+您可以在客户用户档案创建周年纪念日通过电子邮件发送选件。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
 1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
@@ -26,12 +26,12 @@ ht-degree: 38%
 
 ## 创建调度程序活动 {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [调度程序](../../automating/using/scheduler.md) 活动。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [计划程序](../../automating/using/scheduler.md) 活动。
 1. 双击该活动。
 1. 配置投放的执行方式。
 1. 在 **[!UICONTROL Execution frequency]** 中，选择 **[!UICONTROL Daily]**。
-1. 选择 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流的执行阶段。
-1. 选择 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** （对于您的工作流）。
+1. 选择 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流执行中的ID。
+1. 选择 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 用于您的工作流。
 1. 确认您的活动并保存工作流。
 
 >[!NOTE]
@@ -42,15 +42,15 @@ ht-degree: 38%
 
 ## 创建查询活动 {#creating-a-query-activity}
 
-1. 要选择收件人，请拖放 [查询](../../automating/using/query.md) 活动并双击该活动。
-1. 添加 **[!UICONTROL Profiles]** 并选择 **[!UICONTROL no longer contact by email]** 具有值 **[!UICONTROL no]**.
+1. 要选择收件人，请拖放 [查询](../../automating/using/query.md) 并双击该活动。
+1. 添加 **[!UICONTROL Profiles]** 并选择 **[!UICONTROL no longer contact by email]** 值为 **[!UICONTROL no]**.
 
-### 检索在执行日期同一天创建的用户档案 {#retrieving-profiles-created-on-the-same-day}
+### 检索在执行日期的同一天创建的用户档案 {#retrieving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 字段。 并单击 **[!UICONTROL Advanced Mode]**.
+1. 在 **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 字段。 并单击 **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
 1. 在 **[!UICONTROL list of functions]**，双击 **[!UICONTROL Day]** 从 **[!UICONTROL Date]** 节点。
-1. 然后，插入字段 **[!UICONTROL Created]** 作为论据。
+1. 然后，插入字段 **[!UICONTROL Created]** 作为参数。
 1. 选择 **[!UICONTROL equals to (=)]** 作为运算符。
 1. 对于值，选择 **[!UICONTROL Day]** 从 **[!UICONTROL Date]** 中的节点 **[!UICONTROL List of functions]**.
 1. 插入 **[!UICONTROL GetDate()]** 函数作为参数。
@@ -65,11 +65,11 @@ ht-degree: 38%
 
 单击 **[!UICONTROL Confirm]**。
 
-### 检索在执行月份同一月创建的用户档案{#retrieving-profiles-created-on-the-same-month}
+### 检索在执行当月同一月创建的用户档案{#retrieving-profiles-created-on-the-same-month}
 
 1. 在 **[!UICONTROL Query]** 编辑器中，选择第一个查询并复制它。
 1. 打开副本。
-1. Replace **[!UICONTROL Day]** 作者： **[!UICONTROL Month]** 在查询中。
+1. 替换 **[!UICONTROL Day]** 按 **[!UICONTROL Month]** 在查询中。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)

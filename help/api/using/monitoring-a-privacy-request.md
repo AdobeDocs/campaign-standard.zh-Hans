@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # 监视隐私请求 {#monitoring-a-privacy-request}
 
-您可以使用监控有关创建的隐私请求的信息。 **GET** 请求。
+您可以使用监控有关创建的隐私请求的信息 **GET** 请求。
 
-状态列表描述可在 [隐私管理文档](../../start/using/privacy-requests.md).
+状态列表说明可在 [隐私管理文档](../../start/using/privacy-requests.md).
 
 <br/>
 

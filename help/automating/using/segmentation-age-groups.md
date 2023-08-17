@@ -27,17 +27,17 @@ ht-degree: 66%
 工作流由以下元素组成：
 
 * A [调度程序活动](../../automating/using/segmentation.md) 以指定工作流的执行日期。
-* A [查询](../../automating/using/query.md) 定向已输入生日和电子邮件地址的用户档案的活动。
+* A [查询](../../automating/using/query.md) 定向已输入生日和电子邮件地址之用户档案的活动。
 * A [分段](../../automating/using/segmentation.md) 用于创建3个区段的活动，这些区段将划分不同的叫客过渡：18-25岁、26-32岁以及32岁以上的用户档案。 区段根据以下参数进行定义：
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * 用于定义区段年龄组的年龄过滤器
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * 链接到 **[!UICONTROL Maximum size]** 限制为 100 的 **[!UICONTROL Random sampling]** 类型限制
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * An [电子邮件投放](../../automating/using/email-delivery.md) 每个区段的活动。

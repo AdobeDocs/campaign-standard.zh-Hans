@@ -1,6 +1,6 @@
 ---
 title: 与自定义资源交互
-description: 详细了解使用API进行自定义资源管理/
+description: 了解有关使用API进行自定义资源管理的更多信息/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 4%
 
 # 与自定义资源交互 {#interacting-with-custom-resources}
 
-此 **/customResources** 端点允许您在REST中公开Campaign自定义资源。 基于此API，自定义实体和外部端点之间的集成可用。
+此 **/customResources** 端点允许您在REST中公开Campaign自定义资源。 基于此API，可在自定义实体和外部端点之间实现集成。
 
 /customResources端点的行为与/profileAndServices端点完全相同。
 
 此API中公开的自定义资源包括：
 
 * 所有未在/profileAndServicesExt下公开的实体
-* 所有未与个人资料关联的实体，以及对于这些实体，为其子代和孙代。
+* 所有与个人资料无关的实体，对于这些实体，还包括其子代和孙代。
 * 默认情况下，所有未链接到任何内容的实体及其子项和孙项。
 
 >[!NOTE]
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->隐私API端点和工作流(/privacy/privacyTool)未管理未链接到用户档案实体的自定义资源。
+>隐私API端点和工作流(/privacy/privacyTool)不管理未链接到用户档案实体的自定义资源。
 >您将负责管理和清理这些自定义资源的任何PII。 有关隐私工具的更多信息， [单击此处](../../api/using/creating-a-privacy-request.md).

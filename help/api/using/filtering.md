@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 检索过滤器元数据
 
-每个资源都可以使用过滤器。 要标识与资源关联的筛选器，需要对资源元数据执行GET请求。 此请求会返回一个URL，其中为给定资源定义了所有过滤器。 有关元数据的更多信息，请参阅 [本节](../../api/using/metadata-mechanism.md).
+每个资源都可以使用过滤器。 要确定与资源关联的筛选器，需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的更多信息，请参阅 [本节](../../api/using/metadata-mechanism.md).
 
 要识别过滤器的元数据并确定其使用方式，必须对之前返回的URL执行GET请求。
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ***示例请求***
 
-以下负载示例显示了如何为“profile”资源检索“byText”过滤器元数据。 首先对“profile”资源元数据执行GET请求。
+以下负载示例说明如何为“profile”资源检索“byText”过滤器元数据。 首先对“profile”资源元数据执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -62,14 +62,14 @@ ht-degree: 1%
 }
 ```
 
-## 过滤器元数据结构
+## 筛选器元数据结构
 
 每个过滤器都可以使用相同的元数据结构：
 
 * 此 **@formType** 和 **@webPage** 字段是技术字段。
 * 此 **数据** 字段提供了如何使用过滤器的示例。
 * 此 **元数据** 节点描述过滤器参数。
-* 此 **条件** 节点描述过滤器的用途。 元数据节点中描述的过滤器参数用于创建过滤器条件。 对于每个筛选条件，如果 **enabledIf** 为真， **表达式** 将被应用。
+* 此 **条件** 节点描述过滤器的用途。 元数据节点中描述的过滤器参数用于创建过滤器条件。 对于每个筛选条件，如果 **enabledIf** 是真的， **表达式** 将被应用。
 
 <br/>
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 ## 使用过滤器
 
-筛选通过以下请求执行：
+筛选对以下请求执行：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
@@ -103,99 +103,99 @@ ht-degree: 1%
 
 * 用于检索类型为“email”的“service”资源的示例GET请求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   对请求的响应。
+  对请求的响应。
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-25 23:20:35.000Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
-               "label": "Marketing Newsletter",
-               "lastModified": "2019-09-25 23:20:35.000Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               ...
-           },
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-25 23:20:35.000Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
+              "label": "Marketing Newsletter",
+              "lastModified": "2019-09-25 23:20:35.000Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              ...
+          },
+          ...
+      ],
+      ...
+  }
+  ```
 
 * 用于检索电子邮件或姓氏字段中包含“Doe”的“profile”资源的示例GET请求（byText过滤器会搜索电子邮件和姓氏字段）。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   对请求的响应。
+  对请求的响应。
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           }
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          }
+          ...
+      ],
+      ...
+  }
+  ```
 
-* 用于检索类型为“email”且标签为“sport”的服务资源的示例GET请求。
+* 用于检索具有“email”类型和标签“sport”的服务资源的示例GET请求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   对请求的响应。
+  对请求的响应。
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-26 09:36:01.014Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
-               "label": "sport",
-               "lastModified": "2019-09-26 09:36:01.014Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               "name": "SVC13",
-               ...
-           }
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-26 09:36:01.014Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+              "label": "sport",
+              "lastModified": "2019-09-26 09:36:01.014Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              "name": "SVC13",
+              ...
+          }
+      ],
+      ...
+  }
+  ```
 
-## 自定义筛选条件
+## 自定义过滤器
 
-如果要使用自定义筛选条件，则必须在Adobe Campaign Standard界面中创建和自定义该筛选条件。 之后，自定义筛选器的行为将与现成筛选器相同：
+如果要使用自定义筛选器，则必须在Adobe Campaign Standard界面中创建和自定义该筛选器。 之后，自定义筛选器的行为将与现成筛选器相同：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
@@ -208,7 +208,7 @@ ht-degree: 1%
 
 ***示例请求***
 
-用于检索交易金额为100$或更大的“用户档案”资源的示例GET请求。 请注意，“byAmount”过滤器首先是在Adobe Campaign Standard界面中定义并链接到“Transaction”自定义表。
+用于检索交易额为100$或更大的“用户档案”资源的示例GET请求。 请注意，“byAmount”过滤器首先是在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

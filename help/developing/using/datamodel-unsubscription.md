@@ -16,7 +16,7 @@ ht-degree: 58%
 
 # 退订事件(nms：rtEvent)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -57,7 +57,7 @@ ht-degree: 58%
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>True</td>
+                  <td>真</td>
                   <td>字符串</td>
                   <td>假</td>
                </tr>

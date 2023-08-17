@@ -1,6 +1,6 @@
 ---
 title: 配置 Campaign-Target 集成
-description: 了解如何配置Adobe Target集成以开始在Adobe Campaign中使用动态内容。
+description: 了解如何配置Adobe Target集成，以便开始在Adobe Campaign中使用动态内容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Adobe Campaign与Adobe Target之间的集成允许您在投放中插入动态内容。
 
-在Adobe Campaign中首先需要配置才能使用与Adobe Target的集成功能，并且必须由功能管理员进行管理。
+要在Adobe Campaign中使用与Adobe Target的集成功能，首先需要在中进行配置，并且必须由功能管理员进行管理。
 
 此过程需要以下元素：
 

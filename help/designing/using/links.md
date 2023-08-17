@@ -19,13 +19,13 @@ ht-degree: 7%
 
 ## 插入链接 {#inserting-a-link}
 
-该编辑器允许您通过在HTML内容元素中插入链接，对电子邮件或登陆页面进行个性化设置。
+该编辑器允许您通过在HTML内容元素中插入链接来个性化电子邮件或登陆页面。
 
 您可以将链接插入到任意页面元素中：图像、单词、单词组、文本块等。
 
 >[!NOTE]
 >
->下图显示了如何使用插入链接 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) 一封电子邮件中。
+>下图显示如何使用插入链接 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) 在电子邮件中。
 
 1. 选择元素并单击 **[!UICONTROL Insert link]** 从上下文工具栏中。
 
@@ -35,19 +35,19 @@ ht-degree: 7%
 
    * **外部链接**：插入指向外部URL的链接。
 
-      您可以为URL定义个性化。 参见 [个性化URL](personalization.md#personalizing-urls).
+     您可以为URL定义个性化。 请参阅 [个性化URL](personalization.md#personalizing-urls).
 
    * **登陆页面**：授予对Adobe Campaign登陆页面的访问权限。
    * **订阅链接**：插入链接以订阅Adobe Campaign服务。
    * **退订链接**：插入链接以取消订阅Adobe Campaign服务。
-   * **定义操作的链接**：定义点击登陆页面中的元素时的操作。
+   * **定义操作的链接**：定义在单击登陆页面中的元素时执行的操作。
 
-      >[!NOTE]
-      >
-      >此类链接仅适用于登陆页面。
+     >[!NOTE]
+     >
+     >此类链接仅适用于登陆页面。
 
 1. 您可以修改向收件人显示的文本。
-1. 您可以设置用户单击链接时的浏览器行为（例如，打开一个新窗口）。
+1. 您可以设置用户单击链接（例如，打开新窗口）时的浏览器行为。
 
    >[!NOTE]
    >
@@ -77,13 +77,13 @@ ht-degree: 7%
 
 通过Adobe Campaign，您可以跟踪收件人单击电子邮件中包含的URL时的行为。 有关跟踪的更多信息，请参阅[此部分](../../sending/using/tracking-messages.md#about-tracking)。
 
-此 **[!UICONTROL Links]** 操作栏中的图标会自动显示将跟踪的内容的所有URL的列表。
+此 **[!UICONTROL Links]** 操作栏中的图标会自动显示将跟踪的内容的所有URL列表。
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->默认情况下会激活跟踪。 只有在Adobe Campaign中激活跟踪后，此功能才可用于电子邮件。 有关跟踪参数的更多信息，请参阅 [本节](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>默认情况下会激活跟踪。 此功能仅适用于在Adobe Campaign中激活跟踪的电子邮件。 有关跟踪参数的更多信息，请参阅 [本节](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 可以从此列表中修改每个链接的URL、类别、标签和跟踪类型。 要编辑链接，请单击相应的铅笔图标。
 
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 * **已跟踪**：在此URL上激活跟踪。
 * **镜像页面**：将此URL视为镜像页面URL。
-* **从不**：从不激活此URL的跟踪。 此信息已保存：如果URL再次出现在将来的消息中，则其跟踪会自动停用。
+* **从不**：从不激活此URL的跟踪。 此信息已保存：如果URL再次出现在将来的消息中，则会自动停用其跟踪。
 * **选择退出**：将此URL视为选择退出或退订URL。
 
 ![](assets/des_link_tracking_type.png)

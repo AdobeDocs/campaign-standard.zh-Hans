@@ -60,11 +60,11 @@ ht-degree: 82%
 
    * **[!UICONTROL Delete the source files after transfer]**：擦除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中存档内容的大小。
 
-   * **[!UICONTROL Sorting files]**：用于按字母数字对文件进行排序。 此选项默认处于禁用状态。
+   * **[!UICONTROL Sorting files]**：用于按字母数字对文件排序。 此选项默认处于禁用状态。
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：当选择 **[!UICONTROL File listing]** 中的操作 **[!UICONTROL General]** 选项卡。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
+   * **[!UICONTROL List all files]**：在选择 **[!UICONTROL File listing]** 中的操作 **[!UICONTROL General]** 选项卡。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
 
@@ -78,7 +78,7 @@ ht-degree: 82%
 
 利用 HTTP 协议，可从外部帐户或 URL 开始下载文件。
 
-通过此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -92,7 +92,7 @@ ht-degree: 82%
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-通过此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项，然后选择所需的帐户并指定要下载的文件的路径。
+使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项，然后选择所需的帐户并指定要下载的文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -117,7 +117,7 @@ ht-degree: 82%
    >
    > Amazon S3不支持通配符。
    >
-   > 定位多个文件，例如 `my_file_02` 和 `my _file_3433`中，您可以使用以下语法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > 定位多个文件，如 `my_file_02` 和 `my _file_3433`中，您可以使用以下语法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. 如果要在传输完成时删除源文件，请勾选 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -181,7 +181,7 @@ ht-degree: 82%
 
 ## 输出变量 {#output-variables}
 
-此 **[!UICONTROL Transfer file]** 活动会生成事件变量作为输出，您可在其他活动中利用这些变量，例如，使用 [测试](../../automating/using/test.md) 活动。
+此 **[!UICONTROL Transfer file]** 活动会生成事件变量作为输出，您可以将其用于其他活动，例如使用 [测试](../../automating/using/test.md) 活动。
 
 请注意，事件变量也可以使用外部信号传递给另一个工作流(请参阅 [使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md))。
 

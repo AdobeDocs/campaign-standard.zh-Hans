@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 定义电子邮件的主题行 {#subject-line}
 
-准备和发送消息时，必须填写消息主题。
+必须填写消息主题才能准备和发送消息。
 
 >[!NOTE]
 >
@@ -41,15 +41,15 @@ ht-degree: 2%
 
 * 此 **[!UICONTROL From: name]** 字段允许您输入发件人名称。 默认情况下， **发件人姓名** 块会自动在字段中输入。 默认发件人电子邮件地址和发件人名称定义于 **[!UICONTROL Brands]** 可通过高级菜单下的Adobe Campaign徽标访问 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   您可以通过单击 **发件人姓名** 块。 该字段随后将变为可编辑，您可以输入要使用的名称。
+  您可以通过单击 **发件人姓名** 封锁。 该字段随后将变为可编辑，您可以输入要使用的名称。
 
-   此字段可个性化。 要执行此操作，您可以通过单击发件人名称下方的图标来添加个性化字段、内容块和动态内容。 有关此内容的更多信息，请参阅 [个性化](../../designing/using/personalization.md).
+  此字段可个性化。 为此，您可以通过单击发件人名称下方的图标，添加个性化字段、内容块和动态内容。 有关此内容的更多信息，请参阅 [个性化](../../designing/using/personalization.md).
 
-* 此 **[!UICONTROL From: email address]** 无法从此分区编辑字段。 您可以通过编辑电子邮件仪表板的属性来更改它。 有关更多信息，请参阅 [电子邮件高级参数列表](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* 此 **[!UICONTROL From: email address]** 无法从此分区编辑字段。 您可以通过编辑电子邮件仪表板中电子邮件的属性来更改它。 有关更多信息，请参阅 [电子邮件高级参数列表](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
->标头参数不能为空。 发件人地址是允许发送电子邮件的必填项（RFC标准）。 Adobe Campaign检查输入的电子邮件地址的语法。
+>标头参数不能为空。 发件人的地址是允许发送电子邮件的必备项（RFC标准）。 Adobe Campaign检查所输入电子邮件地址的语法。
 
 **相关主题：**
 

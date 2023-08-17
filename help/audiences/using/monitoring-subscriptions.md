@@ -21,10 +21,10 @@ ht-degree: 1%
 
 您有几个选项可用于监控订阅和退订：
 
-* 从服务仪表板查看当前订阅您服务的人员列表。 参见 [服务仪表板](#service-dashboard).
-* 欲了解订阅和退订的历史记录，请参见 **订阅历史记录** 选项卡。 参见 [订阅历史记录](#subscription-history).
-* 显示详细说明服务订阅和退订演变的报告 **报告**. 参见 [服务报告](#service-reports).
-* 查找人员已订阅的服务列表 **个人资料**. 参见 [链接到用户档案的事件的历史记录](#history-of-events-linked-to-a-profile).
+* 从服务仪表板查看当前订阅了您的服务的人员列表。 请参阅 [服务仪表板](#service-dashboard).
+* 欲知订阅和退订的历史记录，请参见 **订阅历史记录** 选项卡。 请参阅 [订阅历史记录](#subscription-history).
+* 显示详细说明服务订阅和退订演变的报告 **报表**. 请参阅 [服务报表](#service-reports).
+* 查找用户从其订阅的服务的列表 **个人资料**. 请参阅 [链接到用户档案的事件的历史记录](#history-of-events-linked-to-a-profile).
 
 ## 服务仪表板 {#service-dashboard}
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 订阅了此服务的用户列表可在以下网址找到： **订阅** 选项卡。
+1. 订阅了此服务的人员列表可在以下网址找到： **订阅** 选项卡。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -42,17 +42,17 @@ ht-degree: 1%
 
 1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 选择 **订阅历史记录** 选项卡，显示每位人员订阅和取消订阅的日期。
+1. 选择 **订阅历史记录** 选项卡，显示每个用户订阅和取消订阅的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## 服务报告 {#service-reports}
+## 服务报表 {#service-reports}
 
 要显示详细说明订阅和退订演变的报告，请执行以下操作：
 
 1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 单击 **报告** 按钮，然后 **订阅监测** （在选项屏幕中）。
+1. 单击 **报表** 按钮，然后 **订阅监测** 在选定屏幕中。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
@@ -62,6 +62,6 @@ ht-degree: 1%
 
 ## 链接到用户档案的事件的历史记录 {#history-of-events-linked-to-a-profile}
 
-要查阅联系人已订阅的服务列表，您可以查阅其营销历史。 有关详情，请参阅 [整合的客户用户档案](../../audiences/using/integrated-customer-profile.md) 部分。
+要查阅联系人已订阅的服务列表，您可以查阅其营销历史。 有关详细信息，请参见 [整合的客户用户档案](../../audiences/using/integrated-customer-profile.md) 部分。
 
 ![](assets/lp_monitoring_subscriptions_5.png)

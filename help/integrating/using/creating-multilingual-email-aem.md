@@ -1,6 +1,6 @@
 ---
 title: 通过 Adobe Experience Manager 集成创建多语言电子邮件.
-description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，并稍后在Adobe Campaign中使用它。
+description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，并在以后的Adobe Campaign中使用它。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 * 访问为集成配置的AEM实例。
 * 访问为集成配置的Adobe Campaign实例。
-* 配置为接收AEM内容的Adobe Campaign多语言电子邮件模板。
+* Adobe Campaign配置为接收AEM内容的多语言电子邮件模板。
 
 ## 在Adobe Experience Manager中创建新电子邮件内容 {#creating-email-content-aem}
 
@@ -31,21 +31,21 @@ ht-degree: 5%
 
    ![](assets/aem_acs_1.png)
 
-1. 选择要创建页面的文件夹，然后单击 **[!UICONTROL Create]** 则 **[!UICONTROL Page]**. 在此，我们在en_us文件夹中创建我们的页面，该文件夹将是我们的默认语言。
+1. 选择要创建页面的文件夹，然后单击 **[!UICONTROL Create]** 则 **[!UICONTROL Page]**. 在此，我们在en_us文件夹中创建页面，该文件夹将是我们的默认语言。
 
    ![](assets/aem_acs_2.png)
 
 1. 选择 **[!UICONTROL Adobe Campaign Email (ACS)]** 模板。
 
-1. 填写电子邮件的属性，然后单击 **[!UICONTROL Create]**.
+1. 填写电子邮件的属性并单击 **[!UICONTROL Create]**.
 
    ![](assets/aem_acs_3.png)
 
-1. 打开您的新电子邮件内容，并根据需要对其进行个性化。 有关详细信息，请参见此 [ 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
+1. 打开您的新电子邮件内容，并根据需要进行个性化设置。 有关详细信息，请参见此 [ 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
 
    ![](assets/aem_acs_4.png)
 
-1. 从 **[!UICONTROL Workflow]** 选项卡，选择 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则您将无法在Adobe Campaign中发送电子邮件。
+1. 从 **[!UICONTROL Workflow]** 选项卡，选择 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则无法在Adobe Campaign中发送该电子邮件。
 
    ![](assets/aem_acs_7.png)
 
@@ -67,23 +67,23 @@ ht-degree: 5%
 
    ![](assets/aem_acs_6.png)
 
-1. 在 **[!UICONTROL Target language(s)]** 下拉列表中，选择要翻译内容的语言，然后单击 **[!UICONTROL Next]**.
+1. 在 **[!UICONTROL Target language(s)]** 下拉列表，选择要翻译内容的语言，然后单击 **[!UICONTROL Next]**.
 
    ![](assets/aem_acs_9.png)
 
 1. 单击 **[!UICONTROL Create]**。
 
-您的语言副本现已创建，您现在可以根据所选的语言编辑内容。
+您的语言副本现已创建，您现在可以根据所选语言编辑内容。
 
 >[!CAUTION]
 >
->每个语言副本都需要通过 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则您将无法在Adobe Campaign中发送电子邮件。
+>每个语言副本都需要通过 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则无法在Adobe Campaign中发送该电子邮件。
 
 ![](assets/aem_acs_11.png)
 
 ## 在Adobe Campaign Standard中创建多语言内容 {#multilingual-acs}
 
-1. 在Adobe Campaign Standard主页中，单击 **[!UICONTROL Create an email]**.
+1. 在Adobe Campaign Standard主页上，单击 **[!UICONTROL Create an email]**.
 
    ![](assets/aem_acs_12.png)
 
@@ -91,13 +91,13 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >在这种情况下，您需要复制内置模板 **[!UICONTROL Multilingual email (mailMultiLang)]** 才能发送您的多语言电子邮件。
+   >在这种情况下，您将需要复制内置模板 **[!UICONTROL Multilingual email (mailMultiLang)]** 才能发送您的多语言电子邮件。
 
    ![](assets/aem_acs_13.png)
 
 1. 填写 **[!UICONTROL Properties]** 和 **[!UICONTROL Audience]** ，然后单击 **[!UICONTROL Create]**.
 
-1. 在 **[!UICONTROL Edit properties]**，请确保您的Adobe Experience Manager帐户已正确设置 **[!UICONTROL Content]** 下拉菜单。
+1. 在 **[!UICONTROL Edit properties]**，请确保您的Adobe Experience Manager帐户已正确设置在 **[!UICONTROL Content]** 下拉菜单。
 
    ![](assets/aem_acs_20.png)
 
@@ -105,28 +105,28 @@ ht-degree: 5%
 
    ![](assets/aem_acs_16.png)
 
-1. 选择您之前创建的Adobe Experience Manager内容并单击 **[!UICONTROL Confirm]**. 此处显示的Adobe Experience Manager内容只是经过验证的内容，可以按其进行过滤 **[!UICONTROL Label]** 和 **[!UICONTROL Path]**.
+1. 选择您之前创建的Adobe Experience Manager内容，然后单击 **[!UICONTROL Confirm]**. 此处显示的Adobe Experience Manager内容只是经过验证的内容，可以按其进行过滤 **[!UICONTROL Label]** 和 **[!UICONTROL Path]**.
 
    >[!NOTE]
    >
-   >所选语言副本将设置为默认值，您稍后可以在 **[!UICONTROL Content variant]** 块。
+   >所选语言副本将被设置为默认值，您稍后可以在 **[!UICONTROL Content variant]** 封锁。
 
    ![](assets/aem_acs_17.png)
 
-1. 单击 **[!UICONTROL Create variants]** 以链接您的多语言内容。 然后，Adobe Campaign Standard将自动将其他语言副本链接到此内容。 创建的变体将与Adobe Experience Manager中选择的变体具有相同的标签和代码语言。
+1. 单击 **[!UICONTROL Create variants]** 以链接您的多语言内容。 然后，Adobe Campaign Standard将自动将其他语言副本链接到此内容。 创建的变体将具有与Adobe Experience Manager中选择的变体相同的标签和代码语言。
 
    ![](assets/aem_acs_18.png)
 
-1. 单击 **[!UICONTROL Content variant]** 阻止以根据需要更改默认变体，然后单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Content variant]** 阻止以更改您的默认变体（如果需要），然后单击 **[!UICONTROL Confirm]**.
 
    ![](assets/aem_acs_19.png)
 
-1. 如果您在Adobe Experience Manager中更新了内容或变体，则可以直接在Adobe Campaign Standard中将其与 **[!UICONTROL Refresh AEM contents]** 按钮。
+1. 如果在Adobe Experience Manager中更新了您的内容或变体，则可以直接在Adobe Campaign Standard中将其与同步 **[!UICONTROL Refresh AEM contents]** 按钮。
 
-1. 您的电子邮件现已准备就绪，可供发送。 有关此内容的更多信息，请参阅此 [页面](../../sending/using/get-started-sending-messages.md).
+1. 您的电子邮件现已准备就绪，可供发送。 有关详细信息，请参阅此 [页面](../../sending/using/get-started-sending-messages.md).
 
    >[!NOTE]
    >
-   >如果Adobe Campaign使用的是AEM内容且未获得批准，则您将无法在中发送电子邮件。
+   >如果电子邮件使用Adobe Campaign中尚未批准的AEM内容，您将无法在中发送该电子邮件。
 
-您的受众将根据 **[!UICONTROL Preferred languages]** 设置于 **[!UICONTROL Profiles]**. 要了解有关如何编辑用户档案和首选语言的更多信息，请参阅此 [页面](../../audiences/using/editing-profiles.md).
+您的受众将收到您的电子邮件，具体取决于 **[!UICONTROL Preferred languages]** 设置在其中 **[!UICONTROL Profiles]**. 要详细了解如何编辑用户档案和首选语言，请参阅此 [页面](../../audiences/using/editing-profiles.md).

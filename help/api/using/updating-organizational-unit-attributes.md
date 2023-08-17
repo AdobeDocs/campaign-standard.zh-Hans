@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 更新组织单位属性 {#updating-organizational-unit-attributes}
 
-1. 对执行GET **orgUnitBase** 用于检索组织单位密钥的资源。
+1. 对执行GET **orgUnitBase** 用于检索组织单位PKey的资源。
 1. 对组织单位执行PATCH请求，并在有效负荷中使用要更新的属性。
 
 <br/>

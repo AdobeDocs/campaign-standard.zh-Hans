@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 了解与Adobe Campaign的交付设计和发送相关的最佳实践。
+description: 了解与使用Adobe Campaign进行交付设计和发送相关的最佳实践。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,15 +18,15 @@ ht-degree: 7%
 
 # 投放最佳实践 {#delivery-best-practices}
 
-了解与Adobe Campaign的交付设计和发送相关的最佳实践。 使用以下链接可导航主题并查找指南。
+了解与使用Adobe Campaign进行交付设计和发送相关的最佳实践。 使用以下链接可导航浏览主题并查找指南。
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[优化投放](optimize-delivery.md)**  — 保护和优化发送过程
+**[优化投放](optimize-delivery.md)**  — 安全并优化发送流程
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用模板](use-templates.md)**  — 促进和加速新投放
+**[使用模板](use-templates.md)**  — 加速交付新产品
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -48,6 +48,6 @@ ht-degree: 7%
 
 * [可投放性入门](../../sending/using/about-deliverability.md)
 
-* [消息入门](../../channels/using/get-started-communication-channels.md)
+* [开始使用消息](../../channels/using/get-started-communication-channels.md)
 
 * [隐私和同意建议](../../start/using/privacy.md)

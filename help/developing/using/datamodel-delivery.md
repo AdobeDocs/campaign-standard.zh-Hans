@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # 投放(nms：delivery)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -45,7 +45,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>高级</td>
-                  <td>高级投放</td>
+                  <td>高级交付</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -124,7 +124,7 @@ ht-degree: 30%
                <tr>
                   <td>contentSource</td>
                   <td>内容源</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
@@ -152,9 +152,9 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>deliverMode</td>
+                  <td>deliverymode</td>
                   <td>投放模式</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>批量交付 — 批量 — 1</li>
@@ -204,7 +204,7 @@ ht-degree: 30%
                <tr>
                   <td>executionType</td>
                   <td>执行类型</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>唯一 — 一次 — 0</li>
@@ -235,7 +235,7 @@ ht-degree: 30%
                <tr>
                   <td>图标</td>
                   <td>图标</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>事务性电子邮件 — emailLightning - 60</li>
@@ -261,7 +261,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>主控</td>
+                  <td>母版</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -310,7 +310,7 @@ ht-degree: 30%
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>明细列表（字符串） (255)</td>
+                  <td>枚举（字符串） (255)</td>
                   <td>
                      <ul>
                         <li>进行中 — 已开始 — 已开始</li>
@@ -341,21 +341,21 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>主控(deliveryBase)</td>
-                  <td>主控实例</td>
+                  <td>master (deliveryBase)</td>
+                  <td>主实例</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpi</td>
-                  <td>主控指标</td>
+                  <td>主指示器</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>messageType</td>
                   <td>渠道</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>传真 — 传真 — 4</li>
@@ -402,7 +402,7 @@ ht-degree: 30%
                <tr>
                   <td>优先级</td>
                   <td>投放优先级</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>高 — 高 — 20</li>
@@ -412,7 +412,7 @@ ht-degree: 30%
                   </td>
                </tr>
                <tr>
-                  <td>程序(programBase)</td>
+                  <td>program (programBase)</td>
                   <td>项目</td>
                   <td>链接 </td>
                   <td> </td>
@@ -431,12 +431,12 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>Pushnotification参数</td>
+                  <td>PushNotification参数</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>实时报告</td>
                   <td>实时报表</td>
                   <td>项 </td>
                   <td> </td>
@@ -480,17 +480,17 @@ ht-degree: 30%
                <tr>
                   <td>state</td>
                   <td>状态</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>开始挂起 — startPending - 51</li>
-                        <li>准备交付 — 准备就绪 — 45</li>
+                        <li>准备投放 — 准备就绪 — 45</li>
                         <li>重试挂起 — 重试挂起 — 61</li>
                         <li>正在进行重试 — retryInProgress - 62</li>
                         <li>失败 — 失败 — 87</li>
                         <li>进行中 — 已开始 — 55</li>
                         <li>定位待定 — targetPrepPending - 11</li>
-                        <li>个性化挂起 — messagePrepPending - 21</li>
+                        <li>个性化待定 — messagePrepPending - 21</li>
                         <li>已暂停 — 已暂停 — 75</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
@@ -507,7 +507,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>目标</td>
-                  <td>投放目标人群</td>
+                  <td>投放目标群体</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
@@ -542,19 +542,19 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trackingUrl</td>
+                  <td>trackingUrls</td>
                   <td>跟踪的 URL</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>事务性消息的参数</td>
+                  <td>交易型消息的参数</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>类型（类型库）</td>
+                  <td>类型(typologyBase)</td>
                   <td>类型</td>
                   <td>链接 </td>
                   <td> </td>
@@ -568,7 +568,7 @@ ht-degree: 30%
                <tr>
                   <td>workflowstatus</td>
                   <td>工作流状态</td>
-                  <td>明细列表（字符串） (255)</td>
+                  <td>枚举（字符串） (255)</td>
                   <td>
                      <ul>
                         <li>进行中 — 已开始 — 已开始</li>
@@ -584,7 +584,7 @@ ht-degree: 30%
 
 ## 筛选器
 
-按渠道类型（按渠道）
+按渠道类型(byChannel)
 
 <table>
     <tr>
@@ -631,7 +631,7 @@ ht-degree: 30%
     <th>类型</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>文本</td>
     <td>字符串</td>
     </tr>
     <tr>
@@ -735,7 +735,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-包含验证(withFCP)
+包括验证(withFCP)
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-在给定期间内存在（按日历）
+在给定时间段内存在（按日历）
 
 <table>
     <tr>

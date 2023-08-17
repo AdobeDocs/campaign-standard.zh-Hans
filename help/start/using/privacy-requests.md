@@ -11,7 +11,7 @@ exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 在创建隐私请求之前，请定义您将要使用的命名空间。命名空间是用于识别 Adobe Campaign 数据库中的数据主体的键。有两个命名空间现成可用：电子邮件和手机。如果您需要其他命名空间（例如，用户档案自定义字段），请按照以下步骤操作。
 
-另请参阅本[教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy)，了解如何创建命名空间。
+另请参阅本[教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=zh-Hans#privacy)，了解如何创建命名空间。
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 隐私核心服务集成允许您通过单个 JSON API 调用在多解决方案上下文中自动处理隐私请求。从隐私核心服务推送到所有 Experience Cloud 解决方案的隐私请求由 Campaign 通过专用工作流自动处理。
 
-请参阅 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) 文档，以了解如何从隐私核心服务创建隐私请求。
+请参阅 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) 文档，以了解如何从隐私核心服务创建隐私请求。
 
 >[!IMPORTANT]
 >
->要使用自定义命名空间类型提交请求，请利用 [JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} 提出请求。
+>要使用自定义命名空间类型提交请求，请利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hans#access-delete){target="_blank"}提出请求。
 >
->仅使用 [隐私用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} 以使用标准命名空间类型提交请求。
+>仅使用[隐私用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#request-builder){target="_blank"}来提交使用标准命名空间类型的请求。
 
 每个隐私核心服务作业根据使用的命名空间数在 Campaign 中分割为多个隐私请求（一个请求对应于一个命名空间）。此外，一个作业可以在多个实例上运行。因此，将为一个作业创建多个文件。例如，如果某个请求具有两个命名空间，并且在三个实例上运行，则总共发送六个文件。每个命名空间和实例一个文件。
 
@@ -125,7 +125,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 如果您创建的自定义资源具有指向用户档案资源（自有类型）的链接，则也会考虑这些资源。例如，如果您具有链接到用户档案资源的事务资源和链接到该事务资源的事务详细信息资源，则这两个资源都将被考虑在内。
 
-另请参阅[本教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy)，了解如何修改自定义资源。
+另请参阅[本教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=zh-Hans#privacy)，了解如何修改自定义资源。
 
 要使此功能正常工作，您必须选择自定义资源中的 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** 选项：
 
@@ -149,7 +149,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**：工作流正在处理请求。
 * **[!UICONTROL Delete pending]**：工作流已识别要删除的所有收件人数据。
 * **[!UICONTROL Delete in progress]**：工作流正在处理删除。
-   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
+  <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**：请求的处理已完成，并且没有错误。
 * **[!UICONTROL Error]**：工作流遇到错误。原因显示在 **[!UICONTROL Request status]** 列的隐私请求列表中。例如，**[!UICONTROL Error data not found]** 表示在数据库中找不到与数据主体的 **[!UICONTROL Reconciliation value]** 匹配的收件人数据。
 

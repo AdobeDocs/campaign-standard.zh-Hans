@@ -23,17 +23,17 @@ ht-degree: 4%
 
 要检索包含与协调值相关的所有信息的文件，请按照以下三个步骤进行操作：
 
-1. 执行 **POST** 使用属性创建新请求的请求 **type=&quot;access&quot;**，请参见 [创建新的隐私请求](../../api/using/creating-a-privacy-request.md).
+1. 执行 **POST** 请求，以使用属性创建新请求 **type=&quot;access&quot;**，请参见 [创建新的隐私请求](../../api/using/creating-a-privacy-request.md).
 
-1. 执行 **GET** 请求以检索有关该请求的信息。
+1. 执行 **GET** 请求以检索有关请求的信息。
 
-1. 通过执行 **POST** 对返回的请求 **privacyRequestData** URL，有效负载中带有隐私请求内部名称。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
+1. 通过执行 **POST** 请求已返回 **privacyRequestData** URL，有效负载中带有隐私请求内部名称。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
 
 <br/>
 
 ***示例请求***
 
-创建具有type=&quot;access&quot;属性的隐私请求。
+使用type=&quot;access&quot;属性创建隐私请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

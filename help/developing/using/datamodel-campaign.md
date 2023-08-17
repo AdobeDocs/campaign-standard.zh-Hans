@@ -16,7 +16,7 @@ ht-degree: 38%
 
 # 营销活动(nms：campaign)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -106,7 +106,7 @@ ht-degree: 38%
                <tr>
                   <td>logicalStatus</td>
                   <td>执行状态</td>
-                  <td>明细列表（字符串） (255)</td>
+                  <td>枚举（字符串） (255)</td>
                   <td>
                      <ul>
                         <li>进行中 — 已开始 — 已开始</li>
@@ -137,13 +137,13 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>程序(programBase)</td>
+                  <td>program (programBase)</td>
                   <td>项目</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>实时报告</td>
                   <td>实时报表</td>
                   <td>项 </td>
                   <td> </td>
@@ -157,10 +157,10 @@ ht-degree: 38%
                <tr>
                   <td>状态</td>
                   <td>状态</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
-                        <li>开始 — 开始 — 1</li>
+                        <li>已开始 — 已开始 — 1</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 2</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
@@ -210,7 +210,7 @@ ht-degree: 38%
     <th>类型</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>文本</td>
     <td>字符串</td>
     </tr>
 </table>
@@ -275,7 +275,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-在给定期间内存在（按日历）
+在给定时间段内存在（按日历）
 
 <table>
     <tr>

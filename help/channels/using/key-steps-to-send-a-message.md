@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # 发送消息的关键步骤{#key-steps-to-send-a-message}
 
-在本节中，您将了解如何使用Adobe Campaign Standard创建个性化消息并将其发送给目标受众。
+在此部分中，您将了解如何使用Adobe Campaign Standard创建个性化消息并将其发送给目标受众。
 
 有关如何创建和配置每个通信渠道的特定信息，请参阅以下部分：
 
@@ -27,9 +27,9 @@ ht-degree: 14%
 * [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [准备和发送应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-要了解投放最佳实践，请查阅 [投放最佳实践](../../sending/using/delivery-best-practices.md) 部分。
+要了解投放的最佳实践，请查阅 [投放最佳实践](../../sending/using/delivery-best-practices.md) 部分。
 
-## 创建消息
+## 创建您的消息
 
 利用Campaign Standard [营销活动](../../start/using/marketing-activities.md) 创建电子邮件、短信、直邮、推送通知或应用程序内消息。
 
@@ -41,7 +41,7 @@ ht-degree: 14%
 
 ## 定义受众
 
-定义消息的收件人。 要执行此操作，请使用 [查询编辑器](../../automating/using/editing-queries.md) 从左窗格中筛选数据库中包含的数据，并构建规则以定向受众。
+定义消息的收件人。 要执行此操作，请使用 [查询编辑器](../../automating/using/editing-queries.md) 从左窗格中过滤数据库中包含的数据，并构建规则以定向受众。
 
 有多种类型的受众可用：
 
@@ -58,7 +58,7 @@ ht-degree: 14%
 
 ## 准备和测试
 
-[准备](../../sending/using/preparing-the-send.md) 信息。 此流程计算目标群体并准备个性化消息。
+[准备](../../sending/using/preparing-the-send.md) 消息。 此流程计算目标群体并准备个性化消息。
 
 ![](assets/steps-prepare.png)
 
@@ -74,10 +74,10 @@ ht-degree: 14%
 
 ![](assets/steps-send.png)
 
-有多个日志可帮助您监控消息的投放(请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md))。 您还可以通过Campaign Standard的，跟踪投放收件人的行为 [跟踪功能](../../sending/using/tracking-messages.md).
+有多个日志可帮助您监控消息的投放(请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md))。 您还可以通过Campaign Standard的 [跟踪功能](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-通过各种指标和图表衡量报文的有效性，以及发送和促销活动的演变(请参阅 [访问报告](../../reporting/using/about-dynamic-reports.md))。
+通过各种指标和图表，衡量报文的有效性，以及发送和促销活动的演变(请参阅 [访问报告](../../reporting/using/about-dynamic-reports.md))。
 
 ![](assets/steps-reports.png)

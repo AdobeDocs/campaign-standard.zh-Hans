@@ -20,11 +20,11 @@ ht-degree: 74%
 
 当 [事务性消息](../../channels/using/editing-transactional-message.md) 已准备好发送，可以发布。
 
-下面详细说明了发布、暂停、取消发布和删除事务型消息的步骤。
+发布、暂停、取消发布和删除事务型消息的步骤详见下文。
 
 >[!IMPORTANT]
 >
->仅限具有以下特征的用户： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和发布事务型消息。
+>仅限具有下列属性的用户： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和发布事务性消息。
 
 ## 事务型消息传递发布流程 {#transactional-messaging-pub-process}
 
@@ -94,7 +94,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 现在，一旦触发“购物车废弃”事件，就会自动提示发送消息，其中包含收件人的头衔和姓氏、购物车 URL、查看的最后一个产品或产品清单（如果您定义了产品清单）以及购物车总金额。
 
-要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。参见 [动态报告](../../reporting/using/about-dynamic-reports.md).
+要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。请参阅 [动态报告](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
-在REST API中定义的时间段内会保留已排队的事件(请参阅 [REST API文档](../../api/using/managing-transactional-messages.md))或在triggers事件中（如果您使用的是Triggers核心服务）(请参阅 [关于Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+排队事件的保留期限，在REST API中定义(请参阅 [REST API文档](../../api/using/managing-transactional-messages.md))或在trigger事件中（如果您使用的是Triggers核心服务）(请参阅 [关于Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
@@ -147,9 +147,9 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 * **事务型消息**：除非将其他事务型消息链接到相应的事件，否则如果事务型消息已取消发布，则还需要取消发布事件配置才能成功删除事务型消息。有关更多信息，请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
-   >[!IMPORTANT]
-   >
-   >删除已发送通知的事务型消息，也会删除其发送和跟踪日志。
+  >[!IMPORTANT]
+  >
+  >删除已发送通知的事务型消息，也会删除其发送和跟踪日志。
 
 * **来自现成事件模板的事务型消息（内部事务型消息）**：如果内部事务型消息是唯一与相应内部事件关联的消息，则无法删除该消息。首先必须复制事务型消息或通过 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 菜单创建另一个事务型消息。
 

@@ -51,16 +51,16 @@ ht-degree: 98%
    * **[!UICONTROL Select a specific service]**：手动选择服务。
    * **[!UICONTROL Select services from the inbound transition]**：在集客过渡中指定服务。例如，可以导入一个文件，在该文件中指定用于管理各行的服务。如果选择此选项，请确保事先在数据和&#x200B;**服务**&#x200B;资源之间创建了链接，如[本例](#example--updating-multiple-subscription-statuses-from-a-file)所示。
 
-      然后，会为每个记录动态选择要执行操作的服务。
+     然后，会为每个记录动态选择要执行操作的服务。
 
 1. 使用以下选项之一选择要执行的 **[!UICONTROL Operation type]**：
 
    * **[!UICONTROL Select a specific operation type]**：手动选择是要 **[!UICONTROL Subscribe]** 还是 **[!UICONTROL Unsubscribe]** 用户档案。
    * **[!UICONTROL Select an operation type from a path of inbound transition]**：选择集客数据的列，在该列中指定要对每个记录执行的操作。
 
-      在此列中，操作必须指定为 Boolean 或 Integer。使用 **0** 表示退订记录，使用 **1** 表示订阅记录。
+     在此列中，操作必须指定为 Boolean 或 Integer。使用 **0** 表示退订记录，使用 **1** 表示订阅记录。
 
-      如果导入文件中包含的值与上述要求不匹配，您仍可使用 **[!UICONTROL Load file]** 活动中提供的 [Remapping of values](../../automating/using/load-file.md#column-format) 选项。
+     如果导入文件中包含的值与上述要求不匹配，您仍可使用 **[!UICONTROL Load file]** 活动中提供的 [Remapping of values](../../automating/using/load-file.md#column-format) 选项。
 
 1. 如果集客数据包含对应于用户档案订阅服务日期对应的列，请选择该列。您可以将其留空，但运行工作流时就不会设置订阅日期。
 1. 定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中 **[!UICONTROL Set a constant as origin]** 选项将其设定为所选的常数值。您可以将其留空，但运行工作流时就不会设置订阅来源。
@@ -79,34 +79,34 @@ ht-degree: 98%
 
 * 通过 **[!UICONTROL Load file]** 活动加载用户档案文件并定义导入列的结构。
 
-   在本例中，加载的文件采用 .csv 格式并包含以下数据：
+  在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
-   ```
-   lastname;firstname;email;birthdate;subdate
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
-   phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
-   weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
-   reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
-   ```
+  ```
+  lastname;firstname;email;birthdate;subdate
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
+  phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
+  weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
+  reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
+  ```
 
-   ![](assets/subscription_activity_example2.png)
+  ![](assets/subscription_activity_example2.png)
 
 * 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的用户档案维度。仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
 * **[!UICONTROL Deduplication]** 根据临时资源的 **email** 字段（由协调产生）标识所有重复项。如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * 通过 **[!UICONTROL Subscription Services]** 活动，选择用户档案必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
 
-   ![](assets/subscription_activity_example4.png)
+  ![](assets/subscription_activity_example4.png)
 
 ## 示例：从文件更新多个订阅状态 {#example--updating-multiple-subscription-statuses-from-a-file}
 
@@ -118,43 +118,43 @@ ht-degree: 98%
 
 * 通过 **[!UICONTROL Load file]** 活动加载用户档案文件并定义导入列的结构。
 
-   在本例中，加载的文件采用 .csv 格式并包含以下数据：
+  在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。为满足此要求，将在“operation”列的详情中执行重映射值的操作。
+  如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。为满足此要求，将在“operation”列的详情中执行重映射值的操作。
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
+  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
 * 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的用户档案维度。通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。在本例中，这些值与服务资源的 **name** 字段匹配。
+  在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。在本例中，这些值与服务资源的 **name** 字段匹配。
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
 * 利用基于临时资源 **email** 字段（由协调产生）的 **[!UICONTROL Deduplication]**，可标识重复项。消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * 利用 **[!UICONTROL Subscription Services]** 将服务标识为通过 **[!UICONTROL Reconciliation]** 活动中所创建的链接，从过渡进行更新。
 
-   将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
+  将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

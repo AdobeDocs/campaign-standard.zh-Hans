@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 关于组织单位 {#about-organizational-units}
 
-此 **orgUnitBase** 端点允许您与组织单位交互，例如，使您能够更新其属性或更新用户档案的组织单位。 有关Campaign中组织单位的更多信息，请参阅 [Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#administrating).
+此 **orgUnitBase** 端点可让您与组织单位进行交互，例如，使您能够更新其属性或更新用户档案的组织单位。 有关Campaign中组织单位的更多信息，请参阅 [Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#administrating).
 
 此 **组织单位** 字段会在扩展用户档案资源时添加到用户档案。 因此，请记住始终使用 **profileAndServiceExt** 端点与地理单位交互。 有关用户档案资源扩展的更多信息，请参阅 [Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html#partitioning-profiles).

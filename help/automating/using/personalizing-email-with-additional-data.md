@@ -1,6 +1,6 @@
 ---
 title: 使用附加数据个性化电子邮件
-description: 此用例介绍了如何向查询添加不同类型的附加数据，并将其用作电子邮件中的个性化字段。
+description: 此用例展示了如何将不同类型的附加数据添加到查询，并将其用作电子邮件中的个性化字段。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -42,11 +42,12 @@ ht-degree: 86%
    * 基于交易集合的两个聚合：购买的产品数和总花费金额。您可以使用 **Count** 和 **Sum** 聚合，从聚合配置窗口的 **[!UICONTROL Data]** 选项卡中添加它们。请参阅[添加聚合](../../automating/using/query.md#adding-an-aggregate)一节。
    * 集合返回的项包括已花费的金额、日期和上次交易生效的产品。
 
-      要实现此目的，您必须从集合配置窗口的 **[!UICONTROL Data]** 选项卡添加要显示的各个字段。
+     要实现此目的，您必须从集合配置窗口的 **[!UICONTROL Data]** 选项卡添加要显示的各个字段。
 
-      要仅返回最近的一次交易，您必须在 **[!UICONTROL Number of lines to return]** 中输入“1”，并在 **[!UICONTROL Sort]** 选项卡中对集合的 **Date** 字段应用降序排序。
+     要仅返回最近的一次交易，您必须在 **[!UICONTROL Number of lines to return]** 中输入“1”，并在 **[!UICONTROL Sort]** 选项卡中对集合的 **Date** 字段应用降序排序。
 
-      请参阅[添加集合](../../automating/using/query.md#adding-a-collection)和[为附加数据排序](../../automating/using/query.md#sorting-additional-data)。
+     请参阅[添加集合](../../automating/using/query.md#adding-a-collection)和[为附加数据排序](../../automating/using/query.md#sorting-additional-data)。
+
    ![](assets/enrichment_example4.png)
 
 1. 如果要检查活动的叫客过渡是否正确传输了数据，请第一时间启动工作流（不包括 **[!UICONTROL Email delivery]** 活动）并打开查询的叫客过渡。

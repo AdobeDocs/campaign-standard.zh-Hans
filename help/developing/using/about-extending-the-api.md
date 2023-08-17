@@ -1,6 +1,6 @@
 ---
 title: 关于扩展 API
-description: 了解如何在公共配置文件API中公开自定义资源配置文件的扩展字段。
+description: 了解如何在公共用户档案API中公开自定义资源用户档案的扩展字段。
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 1. [将扩展字段添加到用户档案资源](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
 1. [发布扩展](../../developing/using/step-2--publish-the-extension.md)
-1. [验证API中是否有新的扩展字段](../../developing/using/step-3--verify-the-extension.md)
+1. [验证API中是否有新的扩展字段可用](../../developing/using/step-3--verify-the-extension.md)
 
 **相关主题：**
 

@@ -30,7 +30,7 @@ ht-degree: 98%
 
 * 通过添加规则时可用的 **[!UICONTROL Advanced mode]** 选项定义查询。
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * 编辑工作流中的表达式。例如，向活动添加附加数据。
 * 编辑可见性条件以定义编辑某个块在 HTML 内容编辑器中的显示方式。在这种情况下，表达式以 JavaScript 格式进行编辑，且不会提供高级函数作为标配。
@@ -76,9 +76,9 @@ ht-degree: 98%
    * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
-   >[!NOTE]
-   >
-   >**&lt;value1>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;value1>** 是日期，则 **&lt;value2>** 也必须是日期。
+  >[!NOTE]
+  >
+  >**&lt;value1>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;value1>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
@@ -105,8 +105,9 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
    * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
-   >[!NOTE]
-   **&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
+  >[!NOTE]
+  >
+  **&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 

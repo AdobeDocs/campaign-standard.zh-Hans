@@ -11,7 +11,7 @@ exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->为了更好地处理和管理高流量和实时分析，动态报告使用近似聚合进行不同的计数估计。 近似聚合提供有限内存使用，通常比精确计算更快。
+>为了更好地处理和管理高容量分析和实时分析，动态报告使用近似聚合进行不同计数估计。 近似聚合可提供有限内存使用，并且通常比精确计算更快。
 
-下表根据投放类型为您提供了不同报告中使用的指标及其计算公式。
+下表列出了不同报表中使用的指标及其计算公式，具体取决于投放类型。
 
 ## 电子邮件投放 {#email-delivery}
 
@@ -78,7 +78,7 @@ ht-degree: 7%
    <td> 费率计算的分母仅基于“已投放”。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已送达<br /> </td> 
+   <td> 已投放<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -90,7 +90,7 @@ ht-degree: 7%
    <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬退回<br /> </td> 
+   <td> 硬退回次数<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2和@failureReason=8)<br /> </td> 
    <td> </td> 
@@ -134,7 +134,7 @@ ht-degree: 7%
   <tr> 
    <td> 打开<br /> </td> 
    <td> @uniqueOpens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2，3,6，10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> count(@trackingUrlType=2 +唯一(@trackingUrlType=1,2，3,6，10,11) — 唯一(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -180,15 +180,15 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 软跳出率<br /> </td> 
+   <td> 软退回率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
    <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击<br /> </td> 
+   <td> 独特点击次数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 独特点击量使用ThetaSketch概念进行计算。 有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ ht-degree: 7%
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已送达<br /> </td> 
+   <td> 已投放<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
@@ -257,8 +257,8 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 打开<br /> </td> 
-   <td> @打开次数<br /> </td> 
-   <td> @count（status=打开）<br /> </td> 
+   <td> @opens<br /> </td> 
+   <td> @count（状态=打开）<br /> </td> 
   </tr> 
   <tr> 
    <td> 打开率<br /> </td> 
@@ -268,7 +268,7 @@ ht-degree: 7%
   <tr> 
    <td> 独特打开次数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一打开次数使用唯一RecipientId的ThetaSketch概念进行计算。 有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一打开次数使用唯一RecipientId的ThetaSketch概念进行计算。 有关详细信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
@@ -278,7 +278,7 @@ ht-degree: 7%
   <tr> 
    <td> 独特展示次数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
+   <td> @unique(@count（状态=视图）)<br /> </td> 
   </tr> 
   <tr> 
    <td> 单击<br /> </td> 
@@ -286,9 +286,9 @@ ht-degree: 7%
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击<br /> </td> 
+   <td> 独特点击次数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 独特点击量使用ThetaSketch概念进行计算。 有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 
@@ -317,7 +317,7 @@ ht-degree: 7%
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已送达<br /> </td> 
+   <td> 已投放<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
    <td> delivered=sent<br /> </td> 
@@ -331,8 +331,8 @@ ht-degree: 7%
   <tr> 
    <td> 独特展示次数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
-   <td> 对象 <span class="uicontrol">基于其Campaign用户档案(inAppProfile)的目标用户</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动设备应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动资料确定目标用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
+   <td> @unique(@count（状态=视图）)<br /> </td> 
+   <td> 对象 <span class="uicontrol">基于Campaign用户档案的目标用户(inAppProfile)</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动配置文件定位用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点击次数 <br /> </td> 
@@ -343,8 +343,8 @@ ht-degree: 7%
   <tr> 
    <td> 应用程序内独特点击次数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count （状态=点击次数）)<br /> </td> 
-   <td> 对象 <span class="uicontrol">基于其Campaign用户档案(inAppProfile)的目标用户</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动设备应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动资料确定目标用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
+   <td> @unique(@count （状态=点击数）)<br /> </td> 
+   <td> 对象 <span class="uicontrol">基于Campaign用户档案的目标用户(inAppProfile)</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动配置文件定位用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点进率<br /> </td> 
@@ -355,14 +355,14 @@ ht-degree: 7%
   <tr> 
    <td> 应用程序内解除<br /> </td> 
    <td> @dismissal<br /> </td> 
-   <td> @count (status=close)<br /> </td> 
+   <td> @count （状态=关闭）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 独特应用程序内解除<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> 对象 <span class="uicontrol">基于其Campaign用户档案(inAppProfile)的目标用户</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动设备应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动资料确定目标用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
+   <td> 对象 <span class="uicontrol">基于Campaign用户档案的目标用户(inAppProfile)</span> 模板，用户=收件人ID。<br /> 对象 <span class="uicontrol">定位移动应用程序的所有用户(inAppBroadcast)</span> 和 <span class="uicontrol">根据用户的移动配置文件定位用户(inApp)</span> 模板，用户= MC ID或等效项，表示用户、移动应用程序和设备的独特组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内解雇率<br /> </td> 

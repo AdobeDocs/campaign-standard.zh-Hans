@@ -1,6 +1,6 @@
 ---
 title: 映射定义
-description: 了解如何将Campaign Standard字段与Experience Data Model (XDM)字段映射。
+description: 了解如何使用Campaign Standard数据模型(XDM)字段映射体验字段。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-在此部分中，您将了解如何将Campaign Standard字段与Experience Data Model (XDM)字段进行映射。
+在此部分中，您将了解如何使用Experience Data Model (XDM)字段映射Campaign Standard字段。
 
 要执行此任务，必须满足以下条件：
 
 * 通过接口或使用与XDM关联的REST API来定义XDM架构
 * 基于XDM模式定义的数据集创建
 
-1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 并选择 **[!UICONTROL Data mappings]** 登入。
+1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 并选择 **[!UICONTROL Data mappings]** 进入。
 
 1. 单击 **[!UICONTROL Create]** 以启动新的XDM映射。
 
@@ -41,27 +41,27 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要将批次摄取到Real-time Customer Profile或Identity Service，数据集必须为 [已为实时客户配置文件启用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>对于要摄取到Real-time Customer Profile或Identity Service的批次，数据集必须是 [启用实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
->如果您选择的数据集已在现有数据映射中使用，则会显示一条警告，通知您数据可能会在Adobe Experience Platform上被覆盖。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生此情况。
+>如果您选择的数据集已在现有数据映射中使用，则会出现一条警告，通知您可能会在Adobe Experience Platform上覆盖您的数据。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生此情况。
 
-以下屏幕显示 **[!UICONTROL Field mappings]** 部分，从中可以为Campaign Standard架构中的每个字段创建新映射。
+以下屏幕显示 **[!UICONTROL Field mappings]** 部分，从中可为Campaign Standard架构中的每个字段创建新映射。
 
 ![](assets/aep_fieldmappings.png)
 
 此 **[!UICONTROL Create new field mapping]** 按钮允许您选择XDM架构中的Campaign Standard字段和相应的字段路径表达式。
 
-如果您找不到Adobe Campaign Standard字段，则可以使用搜索字段搜索该字段。 目前，搜索仅适用于层次结构中打开的字段。
+如果您无法找到Adobe Campaign Standard字段，则可以使用该搜索字段搜索该字段。 目前，搜索仅适用于层次结构中打开的字段。
 
 ![](assets/aep_mapfield.png)
 
-在Campaign Standard中定义的扩展资源被映射为对所有本机字段的点赞。 它们被定义在XDM中的_customer/default扩展中。
+在Campaign Standard中定义的扩展资源被映射为喜欢所有本地字段。 它们被定义到XDM中的_customer/default扩展中。
 
 ![](assets/aep_fieldscusmapping.png)
 
 您可以通过API自定义XDM扩展，并定义您自己的扩展，以便更好地控制映射。
 
-参见 [架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 了解有关XDM API的更多详细信息。
+请参阅 [架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 了解有关XDM API的更多详细信息。
 
 要映射枚举字段，需要使用表达式编辑器定义与XDM值对应的每个枚举值。 例如，postaladdressfield需要定义为：
 
@@ -77,4 +77,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，如果您在 **[!UICONTROL Field mappings]** 部分，然后单击字段外部，则在单击 **[!UICONTROL Save]** 按钮。 此行为仅发生一次，当编辑 **[!UICONTROL Field Mappings]** 是页面上的第一次编辑。
+>现在，如果您在 **[!UICONTROL Field mappings]** 部分，然后单击字段外部，则在单击 **[!UICONTROL Save]** 按钮。 此行为仅发生一次，当编辑 **[!UICONTROL Field Mappings]** 是页面上的第一次编辑。

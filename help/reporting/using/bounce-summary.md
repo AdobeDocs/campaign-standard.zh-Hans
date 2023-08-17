@@ -18,26 +18,26 @@ ht-degree: 1%
 
 # 退回摘要{#bounce-summary}
 
-此报表详细说明在投放期间遇到的整体硬错误和软错误，以及退回的自动处理(请参阅 [了解投放失败](../../sending/using/understanding-delivery-failures.md))。
+该报告会详细描述在投放期间遇到的整体硬错误和软错误，以及退回的自动处理(请参阅 [了解投放失败](../../sending/using/understanding-delivery-failures.md))。
 
 ![](assets/campaign_reports_bounces.png)
 
-每个表都由概要数字和图表表示。 您可以更改详细信息在其各自的可视化设置中的显示方式。
+每个表格都由摘要数字和图表表示。 您可以更改详细信息在其各自可视化图表设置中的显示方式。
 
-**失败5重新分区** 列出了隔离数量最多的五个投放：
+**失败5重新分区** 列出隔离数量最多的五个投放：
 
 此 **退回原因** 该表包含导致每次投放退回的错误类型的可用数据：
 
 * **[!UICONTROL User unknown]**：将投放发送到无效电子邮件地址时生成的错误类型。
 * **[!UICONTROL Invalid domain]**：将投放发送到域错误或不再存在的电子邮件地址时生成的错误类型。
-* **[!UICONTROL Unreachable]**：消息投放字符串中遇到的错误类型，例如暂时无法访问域。
+* **[!UICONTROL Unreachable]**：在消息投放字符串中遇到的错误类型，如暂时无法访问域。
 * **[!UICONTROL Account disabled]**：将投放发送到不再存在的电子邮件地址时生成的错误类型。
 * **[!UICONTROL Mailbox full]**：收件人的收件箱已满时生成的错误类型。 在生成此错误之前，会尝试五次传递消息。
 * **[!UICONTROL Not connected]**：收件人的手机关闭或在发送消息时手机未连接到网络时生成的错误类型。
 
-   >[!NOTE]
-   >
-   >此类错误仅与移动渠道上的投放有关。
+  >[!NOTE]
+  >
+  >此类错误仅与移动渠道中的投放有关。
 
 * **[!UICONTROL Refused]**：当Internet服务提供商(ISP)拒绝地址时生成的错误类型。 例如，当反垃圾邮件软件应用了安全规则时。
 

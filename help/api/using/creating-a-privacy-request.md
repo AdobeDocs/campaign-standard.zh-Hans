@@ -21,9 +21,9 @@ ht-degree: 4%
 >
 >此 [隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service) “集成”是您应当用于所有访问和删除请求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-隐私请求是使用 **POST** 请求。
+使用创建隐私请求 **POST** 请求。
 
-在创建请求之前，您需要定义将使用的命名空间。 有关更多信息，请参见 [隐私管理文档](../../start/using/privacy-requests.md).
+在创建请求之前，您需要定义要使用的命名空间。 有关详情，请参阅 [隐私管理文档](../../start/using/privacy-requests.md).
 
 有效负载必须包含以下参数：
 
@@ -32,13 +32,13 @@ ht-degree: 4%
 * **reconciliationValue**：基于命名空间中定义的协调键值的协调值
 * **标签**：请求标签
 * **type**：请求类型。 接受的值为“access”或“delete”。
-* **法规**：法规类型。 示例：“GDPR”、“CCPA”。 此参数是必需的，从Campaign Standard19.4版本开始可用。 如果您使用的是旧版本，则无需将其添加到有效负载中。
+* **法规**：法规类型。 示例：“GDPR”、“CCPA”。 此参数是必需的，并且从Campaign Standard19.4版本开始提供。 如果您使用的是旧版本，则无需将其添加到有效负载中。
 
 <br/>
 
 ***示例请求***
 
-此POST请求根据命名空间AMCDS2中定义的电子邮件对帐密钥创建一个隐私请求：
+此POST请求根据命名空间AMCDS2中定义的电子邮件对帐密钥创建隐私请求：
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

@@ -243,7 +243,7 @@ ht-degree: 98%
 * 可在实例上发布的实时事件最大数目从 350 增加到了 2000。(CAMP-41608)
 * Adobe Launch 与 Campaign Standard 之间的同步，已通过使用 syncWithLaunch 技术工作流进行了改进。此工作流支持将所有 Adobe Launch 移动属性自动导入到 Adobe Campaign Standard 中。有关详细信息，请参见[此页面](../../administration/using/technical-workflows.md)。
 
-   您需要向 Adobe 客户关怀（直接或通过您的 Adobe 联系人）提交票证，以便在 Campaign 实例中启用 syncWithLaunch 技术工作流。(CAMP-40082)
+  您需要向 Adobe 客户关怀（直接或通过您的 Adobe 联系人）提交票证，以便在 Campaign 实例中启用 syncWithLaunch 技术工作流。(CAMP-40082)
 
 **Email Designer 增强功能**
 

@@ -52,7 +52,7 @@ Experience PlatformSDK支持推送通知。
 
 >[!NOTE]
 >
->如果您的应用程序位于Objective-C中，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>如果您的应用程序在Objective-C中，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
 如果您的应用程序位于 [!DNL Swift]，请按照以下步骤操作：
 
@@ -66,7 +66,7 @@ Experience PlatformSDK支持推送通知。
 
 1. 检查 **NotificationService.swift** 创建文件类。
 
-1. 编辑此类并将默认内容替换为以下内容。
+1. 编辑此类并使用以下内容替换默认内容。
 这允许应用程序使用图像URL处理传入参数，解析该参数，将其复制到本地，然后从推送通知中显示该参数。
 
    ```
@@ -129,7 +129,7 @@ Experience PlatformSDK支持推送通知。
 
 移动设备应在发送通知时接收以下有效负载。
 
-图像URL已映射到关键media-attachment-url。 这是要从应用程序代码角度处理才能下载和显示图像的键/值对。
+图像URL使用键media-attachment-url进行映射。 这是要从应用程序代码的角度处理才能下载和显示图像的键/值对。
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {

@@ -45,9 +45,9 @@ ht-degree: 94%
    * **[!UICONTROL No message]**：利用此模式可创建无确认消息的服务。
    * **[!UICONTROL Default message]**：利用此模式可使用默认订阅或退订确认事务型消息。使用默认模式的所有服务，都使用相同的通用默认确认消息。
 
-      >[!NOTE]
-      >
-      >要修改默认消息，可单击 **[!UICONTROL Service properties]** 部分中的默认消息标签，或从 Adobe Campaign 事务型消息列表中选择默认消息（勾选 **[!UICONTROL Show internal transactional messages]** 方框后）。
+     >[!NOTE]
+     >
+     >要修改默认消息，可单击 **[!UICONTROL Service properties]** 部分中的默认消息标签，或从 Adobe Campaign 事务型消息列表中选择默认消息（勾选 **[!UICONTROL Show internal transactional messages]** 方框后）。
 
    * **[!UICONTROL Custom message]**：利用此模式可处理特定于各项服务的自定义确认消息。然后，选择与特定[事务型消息模板](../../channels/using/getting-started-with-transactional-msg.md)关联的 **[!UICONTROL Custom subscription event configuration]**。有关更多信息，请参阅[确认订阅服务](../../audiences/using/confirming-subscription-to-a-service.md)。
 

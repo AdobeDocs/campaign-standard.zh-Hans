@@ -96,9 +96,9 @@ ht-degree: 100%
 
 * **[!UICONTROL Authorize creating]**：利用此选项可激活创建资源元素。这样，用户就可以添加其他记录。
 
-   >[!NOTE]
-   >
-   >必须首先激活链接到资源的详细信息屏幕，才能使此选项可用。
+  >[!NOTE]
+  >
+  >必须首先激活链接到资源的详细信息屏幕，才能使此选项可用。
 
 * **[!UICONTROL Authorize duplicating]**：利用此选项可激活复制链接到自定义资源的记录。
 * **[!UICONTROL Authorize deleting]**：利用此选项可激活删除链接到自定义资源的记录。

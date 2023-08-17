@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 关于单位 {#about-units}
 
-平台的每个对象和用户都链接到组织单位。 此单元允许定义层次结构，以便为用户提供筛选视图。 用户单元为不同的平台对象定义其访问级别。
+平台的每个对象和用户都链接到组织单位。 此单元允许定义分层结构，以便为用户提供过滤视图。 用户单元为不同的平台对象定义其访问级别。
 
 >[!IMPORTANT]
 >
@@ -29,21 +29,21 @@ ht-degree: 4%
 
 默认情况下，仅 **[!UICONTROL All]** 单位可用。
 
-当用户被分配了组织单位时，该单位将始终应用于用户创建的对象。
+为用户分配组织单位后，此单位将始终应用于用户创建的对象。
 
 ![](assets/user_management_2.png)
 
 >[!NOTE]
 >
->当用户位于链接到不同单位的多个组中时，将应用某些规则。 欲了解更多信息，请参见 [管理组和用户](../../administration/using/managing-groups-and-users.md) 部分。
+>当用户位于链接到不同单位的多个组中时，将会应用某些规则。 欲了解更多信息，请参见 [管理组和用户](../../administration/using/managing-groups-and-users.md) 部分。
 
 ## 创建和管理单位 {#creating-and-managing-units}
 
 组织单位允许您根据用户链接到的组织筛选实例。 此单位可以代表您实例中的地区、国家/地区甚至品牌。
 
-在本例中，我们之前创建了一些安全组，这些安全组具有分配给两个用户的不同角色：一个用户被分配了安全组“管理员”和“Geometrixx”，另一个用户属于安全组“标准用户”和“Geometrixx服饰”。请参见 [创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 查看完整示例。
+在本例中，我们以前创建了一些安全组，这些安全组对两个用户具有不同的角色：一个用户被分配了安全组“管理员”和“Geometrixx”，另一个用户属于安全组“标准用户”和“Geometrixx服装”。请参阅 [创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 查看完整示例。
 
-现在，我们需要为Geometrixx服装和Geometrixx安全组创建组织单位：
+我们现在需要为Geometrixx服装和Geometrixx安全小组创建组织单位：
 
 1. 从Adobe促销活动高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. 单击 **[!UICONTROL Create]** 以开始配置组织单位。
@@ -63,8 +63,8 @@ ht-degree: 4%
 要查看将不同设备分配给不同安全组的影响，分配给“管理员”和“Geometrixx”组的用户将创建两个电子邮件模板，以查看分配给“标准用户”和“Geometrixx服装”的其他用户可以访问或不能访问的内容。
 
 1. 从高级菜单中，选择 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
-1. 复制现有模板并根据需要对其进行个性化。 有关详情，请参阅 [关于模板](../../start/using/marketing-activity-templates.md) 部分。
-1. 创建模板后，选择 **[!UICONTROL Edit properties]** 图标以将设备分配给模板。
+1. 复制现有模板并根据需要对其进行个性化。 有关详细信息，请参见 [关于模板](../../start/using/marketing-activity-templates.md) 部分。
+1. 创建模板后，选择 **[!UICONTROL Edit properties]** 图标，以将设备分配给模板。
 
    ![](assets/manage_units_6.png)
 
@@ -76,17 +76,17 @@ ht-degree: 4%
 
 1. 按照相同的步骤创建分配给之前创建的Geometrixx服装组织单位的第二个模板。
 
-分配给的用户 **标准用户** 和 **Geometrixx服装** 组将能够看到这两个模板。 由于组织单位的层次结构，他们将具有链接到Geometrixx服装单位的模板的读写访问权限，以及仅具有链接到Geometrixx单位的模板的只读访问权限。
+分配给的用户 **标准用户** 和 **Geometrixx服装** 组将能够看到这两个模板。 由于组织单位的层级结构，他们对链接到Geometrixx服装单位的模板具有读写访问权限，对链接到Geometrixx单位的模板具有只读访问权限。
 
 ![](assets/manage_units_7.png)
 
-由于Geometrixx服装单位是子Geometrixx单位，因此当用户尝试修改Geometrixx模板时，将显示以下消息：
+由于“Geometrixx服装”单位是子Geometrixx单位，因此当用户尝试修改Geometrixx模板时，将显示以下消息：
 
 ![](assets/manage_units_8.png)
 
 组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的Geometrixx服装用户访问 **[!UICONTROL Profiles]** 选项卡，他们将能够通过GeometrixxClothes组织单位完全访问和修改用户档案。
 
-虽然具有Geometrixx组织单位的配置文件将处于只读状态，但如果用户尝试修改一个配置文件，则会出现以下错误： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+虽然具有Geometrixx组织单位的用户档案将为只读，但如果用户尝试修改一个用户档案，将会显示以下错误： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
@@ -104,14 +104,14 @@ ht-degree: 4%
 
 1. 从高级菜单中，通过Adobe Campaign徽标，选择 **管理>开发>自定义资源**.
 1. 选择 **个人资料** 或创建新的自定义资源以扩展用户档案。 有关如何扩展配置文件的更多信息，请参阅此 [页面](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
-1. 查看 **添加访问授权管理字段** 框以添加组织单位 **个人资料** 扩展。
+1. 查看 **添加访问授权管理字段** 框以添加中的组织单位 **个人资料** 扩展。
 
    ![](assets/user_management_9.png)
 
 1. 单击 **[!UICONTROL Save]**。
 1. 通过重新发布自定义资源来更新结构。 有关发布过程的详细信息，请参阅 [更新结构](../../developing/using/updating-the-database-structure.md) 部分。
 
-组织单位字段会添加到您的用户档案中的 **[!UICONTROL Access authorization]** 部分。
+组织单位字段会添加到您在中的用户档案 **[!UICONTROL Access authorization]** 部分。
 
 ![](assets/user_management_10.png)
 

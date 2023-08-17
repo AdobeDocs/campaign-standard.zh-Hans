@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 预配和配置与 Audience Manager 或 People 核心服务的集成{#integration-with-audience-manager-or-people-core-service}
 
-在Adobe Campaign中配置和配置“Audience Manager”和“人员”核心需要两个步骤： [向Adobe提交请求](#submitting-request-to-adobe) 则 [在Adobe Campaign中配置集成](#configuring-the-integration-in-adobe-campaign).
+在Adobe Campaign中配置和配置Audience Manager与人员核心需要两个步骤： [向Adobe提交请求](#submitting-request-to-adobe) 则 [在Adobe Campaign中配置集成](#configuring-the-integration-in-adobe-campaign).
 
 ## 向 Adobe 提交请求 {#submitting-request-to-adobe}
 
@@ -45,7 +45,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> <strong>AAM或人员服务</strong><br /> </td> 
-   <td> 示例： Adobe Audience Manager。 无论您是否拥有Audience Manager许可证，请务必向配置团队提及。</td> 
+   <td> 示例：Adobe Audience Manager。 无论您是否拥有Audience Manager许可证，请务必向配置团队提及。</td> 
   </tr> 
   <tr> 
    <td> <strong>声明的ID或访客ID</strong><br /> </td> 
@@ -69,7 +69,7 @@ ht-degree: 10%
 
 ### 步骤1：在Adobe Campaign中配置或检查外部帐户 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-我们首先需要在Adobe Campaign中配置或检查外部帐户。 这些帐户应由Adobe配置，且必要的信息应已传达给您。
+我们首先需要在Adobe Campaign中配置或检查外部帐户。 这些帐户应该已经过Adobe配置，并且应该已经向您传达了必要的信息。
 
 为实现此操作，请执行以下步骤：
 
@@ -82,20 +82,20 @@ ht-degree: 10%
 1. 输入 **[!UICONTROL Receiver server]** 以下列格式
 1. 输入 **[!UICONTROL AWS Access Key ID]**， **[!UICONTROL Secret Access Key]** 和 **[!UICONTROL AWS Region]**.
 
-您的外部帐户现在已针对此集成进行了配置。
+您的外部帐户现在已为此集成进行了配置。
 
 ### 步骤2：配置数据源 {#step-2--configure-the-data-sources}
 
 在Audience Manager中创建了以下两个数据源：Adobe Campaign (MID)和Adobe Campaign (DeclaredId)。 同时，这两个数据源在Adobe Campaign中可用：
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**：这是为访客ID默认配置的现成数据源。 从Campaign创建的区段将包含在此数据源中。
-* **声明的ID** 数据源：此数据源需要使用 **[!UICONTROL DeclaredId]** Audience Manager中的数据源定义。
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**：这是为访客ID默认配置的现成数据源。 从Campaign创建的区段将成为此数据源的一部分。
+* **声明的ID** 数据源：此数据源需要创建并使用 **[!UICONTROL DeclaredId]** 数据源定义来自Audience Manager。
 
-请注意，如果有多个网站使用不同的域，则Adobe Campaign不支持基于ECID的协调。
+请注意，如果多个网站具有不同的域，则Adobe Campaign不支持基于ECID的协调。
 
-要配置 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** 数据源：
+配置 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** 数据源：
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，选择 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+1. 在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，选择 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
@@ -104,30 +104,30 @@ ht-degree: 10%
 
    ![](assets/integration_aam_3.png)
 
-1. 在 **[!UICONTROL Reconciliation process]** 类别时，我们建议您不要更改协调条件，并始终使用 **[!UICONTROL Visitor ID]**.
+1. 在 **[!UICONTROL Reconciliation process]** 类别，我们建议您不要更改协调条件，并始终使用 **[!UICONTROL Visitor ID]**.
 1. 单击 **[!UICONTROL Save]**。
 
 要创建 **[!UICONTROL Declared ID]** 数据源：
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，单击 **[!UICONTROL Create]** 按钮。
+1. 在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，单击 **[!UICONTROL Create]** 按钮。
 1. 编辑 **[!UICONTROL Label]** 数据源的。
-1. 在 **[!UICONTROL Data Source/ Alias]** 从下拉列表中，选择与 **[!UICONTROL DeclaredID]** 来自Audience Manager的数据源。
+1. 在 **[!UICONTROL Data Source/ Alias]** 从下拉列表中，选择与 **[!UICONTROL DeclaredID]** Audience Manager中的数据源。
 1. 通过输入 **[!UICONTROL Data Source / Alias]** 和 **[!UICONTROL AAM Destination ID]** 由Adobe提供。
 1. 设置 **[!UICONTROL Reconciliation process]** 根据需要。
 1. 单击 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->此 **[!UICONTROL AAM Destination ID]** 如果要为配置共享数据源，则字段不是必填的 [Campaign-Triggers集成](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** 仅在配置Triggers - Campaign集成时需要。 优先级决定先配置哪个数据源。 优先级可以是任意数字，如1或100。 优先级越高，协调期间的优先级越高。
+>此 **[!UICONTROL AAM Destination ID]** 如果要为配置共享数据源，则不需要字段。 [Campaign-Triggers集成](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** 仅在配置Triggers - Campaign集成时需要。 优先级决定先配置哪个数据源。 优先级可以是任意数字，如1或100。 优先级越高，协调期间的优先级越高。
 
 ### 步骤3：配置Campaign跟踪服务器 {#step-3--configure-campaign-tracking-server}
 
-要配置与People Core Service或Audience Manager的集成，我们还需要配置Campaign跟踪服务器。
+要配置与People核心服务或Audience Manager的集成，我们还需要配置Campaign跟踪服务器。
 
-在此，您需要确保已在域(CNAME)上注册Campaign Tracking Server。 有关域名配置的更多信息，请访问 [本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
+在此，您需要确保在域(CNAME)上注册Campaign跟踪服务器。 有关域名配置的更多信息，请访问 [本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
 
 ### 步骤4：配置访客ID服务 {#step-4--configure-the-visitor-id-service}
 
-如果从未在您的Web资产或网站上配置访客ID服务，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 了解如何配置服务或以下内容 [视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two).
+如果从未在您的Web资产或网站上配置过访客ID服务，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 了解如何配置服务或以下内容 [视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two).
 
 您的配置和配置已完成，集成现在可用于导入和导出受众或区段。

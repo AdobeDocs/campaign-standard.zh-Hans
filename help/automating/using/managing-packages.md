@@ -49,7 +49,7 @@ ht-degree: 100%
 * **[!UICONTROL Platform]** 资源包可重组在技术配置期间添加的所有资源：自定义资源、自定义资源集、触发器和具有 **[!UICONTROL System]** 类型的应用程序选项。
 * **[!UICONTROL Administration]** 资源包可重组在业务配置期间添加的所有对象，例如：营销策划模板、内容模板、投放模板、登陆页面模板、项目模板和工作流模板。
 
-   其中还包括以下对象：内容块、目标映射、外部帐户、组织单位、具有 **[!UICONTROL User]** 类型的应用程序选项、角色、分类、分类规则和用户。
+  其中还包括以下对象：内容块、目标映射、外部帐户、组织单位、具有 **[!UICONTROL User]** 类型的应用程序选项、角色、分类、分类规则和用户。
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ ht-degree: 100%
 
 * **[!UICONTROL Export status]**：此部分显示操作是否正确执行。
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * 您可以通过 **[!UICONTROL Log]** 选项卡查看导出的各个步骤。其中包含所有以前导出的状态。
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ ht-degree: 100%
 * **[!UICONTROL Import status]**：此部分显示操作是否正确执行。
 * 您可以通过 **[!UICONTROL Execution logs]** 选项卡查看导入的各个步骤。这非常适合用于找出错误。
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 导入某个资源包后，无法从同一元素重新导入该资源包。您只能修改其标签和 ID。
 

@@ -17,37 +17,37 @@ ht-degree: 1%
 
 # 用于Microsoft Dynamics 365集成的Adobe Campaign Standard和Adobe Developer配置
 
-本文说明如何配置Adobe Campaign Standard和Adobe I/O，以便让集成应用程序能够访问数据。
+本文介绍如何配置Adobe Campaign Standard和Adobe I/O，以便让集成应用程序能够访问数据。
 
 ## 配置Adobe Campaign Standard {#campaign-standard}
 
 ### 配置文件扩展
 
-请在Adobe Campaign Standard中启用“配置文件扩展”。   要使配置文件资源中的自定义字段从Microsoft Dynamics 365同步，需要此项。   启用这些功能的步骤包括：
+请在Adobe Campaign Standard中启用“配置文件扩展”。   要将配置文件资源中的自定义字段从Microsoft Dynamics 365同步，需要此字段。   启用这些功能的步骤包括：
 
 1. 转到“设置” — >“管理” — >“开发” — >“发布”。
 1. 单击“准备发布”以准备发布。
-1. 准备完成后，选中“创建配置文件和服务扩展API”，然后单击“发布”。
+1. 准备完成后，选中“创建Profiles &amp; Services Ext API”，然后单击“发布”。
 
 ## 配置 Adobe I/O {#adobe-io}
 
-Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成以同步数据的权限。
+Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成以同步数据的访问权限。
 
 ### 概述
 
-在执行本文中的预集成设置之前，假定您已完成配置，并且拥有对贵组织Campaign Standard实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Adobe客户关怀团队以完成Campaign配置。
+在执行本文中的预集成设置之前，假定您已配置，并且拥有组织的Campaign Standard实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Adobe客户关怀团队以完成Campaign配置。
 
 >[!CAUTION]
 >
->下面描述的步骤需要由管理员执行。
+>以下描述的步骤需要由管理员执行。
 
 ### 配置
 
-您将需要创建一个新的Adobe Developer项目并为其配置集成。
+您将需要创建一个新的Adobe Developer项目并为集成配置该项目。
 
 #### 创建新项目
 
-要实现此目的，请遵循以下步骤：
+要实现此目的，请执行以下步骤：
 
 1. 导航到 [Adobe Developer控制台](https://console.adobe.io/home#) 并从屏幕右上方的下拉菜单中选择您的Adobe组织ID 。
 
@@ -63,13 +63,13 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
    ![](assets/adobeIO3.png)
 
-1. 在下一个屏幕上，您可以选择上传自己的公钥或让Adobe Developer为您生成密钥对。 这些说明将遵循后一个选项。 如果您决定让Adobe Developer生成密钥对，请单击选项1；然后单击 **[!UICONTROL Generate keypair]** 按钮。
+1. 在下一个屏幕中，您将可以选择上传自己的公钥或让Adobe Developer为您生成密钥对。 这些说明将遵循后一个选项。 如果您决定让Adobe Developer生成密钥对，请单击选项1；然后单击 **[!UICONTROL Generate keypair]** 按钮。
 
    ![](assets/adobeIO4.png)
 
 1. 在下一个屏幕上，系统将提示您命名并选择密钥对zip文件的下载位置。
 
-下载后，您可以解压缩文件以显示公钥和私钥。 Adobe Developer已将公钥应用于您的Adobe Developer项目。 您将需要保留私钥以便稍后使用；私钥将在集成工具的预集成设置期间使用。
+下载后，您可以解压缩文件以显示公钥和私钥。 Adobe Developer已将该公钥应用于您的Adobe Developer项目。 您需要保留私钥以便稍后使用；私钥将在集成工具的预集成设置期间使用。
 
 1. 单击 **[!UICONTROL Next]** 以继续
 
@@ -89,11 +89,11 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
 1. 在下一个屏幕中，您需要选择I/O事件API ，然后单击 **[!UICONTROL Next]**.
 
-1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.  此时您将返回到项目详细信息屏幕。
+1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.  您将会返回到项目详细信息屏幕。
 
 1. 现在，单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉列表中删除，就像您之前所做的那样。
 
-1. 在下一个屏幕上，您需要选择I/O管理API并单击 **[!UICONTROL Next]**.
+1. 在下一个屏幕中，您需要选择I/O管理API并单击 **[!UICONTROL Next]**.
 
 1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.
 

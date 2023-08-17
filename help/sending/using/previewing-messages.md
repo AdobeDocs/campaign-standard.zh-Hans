@@ -19,9 +19,9 @@ ht-degree: 15%
 
 ## 预览电子邮件 {#previewing-emails}
 
-Campaign Standard允许您在发送之前预览消息，以检查消息的个性化以及收件人将如何查看消息。
+Campaign Standard允许您在发送之前预览消息，以检查消息的个性化以及收件人将如何看到消息。
 
-使用以下方式执行消息预览 **测试用户档案** 添加到消息的目标中。
+使用以下方式执行消息预览 **测试用户档案** 添加到消息目标的。
 
 对象 **电子邮件** 消息，Campaign Standard允许您使用定向的用户档案预览消息，而不是测试用户档案。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
@@ -31,17 +31,17 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
    ![](assets/sending_preview.png)
 
-   并排显示电子邮件的桌面视图和响应式移动设备视图。
+   您的电子邮件的桌面视图和响应式移动设备视图并排显示。
 
 1. 在每次预览期间执行自动反垃圾邮件检查。 单击 **[!UICONTROL Anti-spam analysis]** 按钮以了解有关警告的更多信息。
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. 选择 **[!UICONTROL Change profile]** 按钮来选择要在其中测试个性化元素的测试用户档案。
+1. 选择 **[!UICONTROL Change profile]** 按钮以选择要在其上测试个性化元素的测试配置文件。
 
    ![](assets/sending_test-profile.png)
 
-1. 退出 **[!UICONTROL Preview]** 模式，单击 **[!UICONTROL Edit]** 按钮进行修改。
+1. 退出 **[!UICONTROL Preview]** 模式，单击 **[!UICONTROL Edit]** 按钮进行标记。
 
    ![](assets/sending_preview_edit.png)
 
@@ -57,7 +57,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 要使用测试用户档案预览短信消息，请执行以下步骤：
 
-1. 一旦您填写了 **[!UICONTROL Properties]** 短信消息和选定受众的完整版本，您可以个性化投放。 有关更多信息，请参阅 [部分](../../channels/using/personalizing-sms-messages.md).
+1. 一旦您填写了 **[!UICONTROL Properties]** 和选定受众的短信发送，您可以对投放进行个性化。 有关更多信息，请参阅 [部分](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
@@ -71,11 +71,11 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
    ![](assets/sms_preview_3.png)
 
-1. 单击 **[!UICONTROL Change profile]** 选择测试用户档案，然后 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Change profile]** 以选择您的测试配置文件，然后 **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
-您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
+您现在可以看到消息的精确表示形式，具体取决于所选的测试用户档案。
 
 **相关主题**
 
@@ -101,7 +101,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 1. 选择您的测试配置文件，然后 **[!UICONTROL Confirm]**.
 
-您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
+您现在可以看到消息的精确表示形式，具体取决于所选的测试用户档案。
 
 ![](assets/push_preview_3.png)
 
@@ -117,7 +117,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 要使用测试用户档案预览应用程序内消息，请执行以下步骤：
 
-1. 一旦您填写了 **[!UICONTROL Properties]** 已选择您的受众，并设置了您的 **[!UICONTROL Triggers]**，您可以对投放进行个性化。 有关更多信息，请参阅 [自定义应用程序内消息](../../channels/using/customizing-an-in-app-message.md).
+1. 一旦您填写了 **[!UICONTROL Properties]** 已选择您的受众，并设置您的 **[!UICONTROL Triggers]**，您可以个性化投放。 有关更多信息，请参阅 [自定义应用程序内消息](../../channels/using/customizing-an-in-app-message.md).
 
 1. 对内容进行个性化后，您可以根据预览窗口中的设备和操作系统，直接检查应用程序内消息的呈现。
 
@@ -129,7 +129,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 1. 选择您的测试配置文件，然后 **[!UICONTROL Confirm]**.
 
-您现在可以看到消息的确切呈现形式，具体取决于所选测试用户档案。
+您现在可以看到消息的精确表示形式，具体取决于所选的测试用户档案。
 
 ![](assets/in_app_preview_3.png)
 

@@ -112,7 +112,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解详情</a>。</p><br/>
-   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud特性和功能。</p>
+   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform移动SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
    <p>了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本页内容</a>.</p></br>
      </td> 
@@ -143,7 +143,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 从2021年4月开始，“预测主题行”功能停用。</p><br/>
+   <td> <p> 从2021年4月开始，弃用预测主题行功能。</p><br/>
    <p>我们建议您利用AI支持的电子邮件功能，根据历史参与量度分析和预测开放率、最佳发送时间和可能的客户流失。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解详情</a></p></br>
      </td> 
   </tr> 
@@ -173,7 +173,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，图像编辑功能由 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，图像编辑由以下提供支持 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,6 @@
 ---
 title: 关于工作流用例
-description: 了解关于您可以使用Campaign Standard工作流执行的用例的更多信息。
+description: 了解关于可使用Campaign Standard工作流执行的用例的更多信息。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 在此部分中，您将找到各种利用Campaign工作流功能的用例。
 
-它们可帮助您发现可以使用工作流的不同上下文并响应您的需求。
+它们可帮助您发现可在其中使用工作流的不同上下文并响应您的需求。
 
 ## 投放 {#deliveries}
 
@@ -63,4 +63,4 @@ ht-degree: 72%
 * [从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
 * [将用户档案从文件订阅到特定服务](../../automating/using/subscribing-profiles-from-file.md)
 * [导入使用控制面板生成的密钥加密的数据](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [使用安装在控制面板上的密钥加密和导出数据](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [使用控制面板上安装的密钥加密和导出数据](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

@@ -24,9 +24,9 @@ Adobe Campaign允许您投放短信（短信服务）消息。
 >
 >短信渠道是一个加载项。 请核实您的许可协议。
 
-对于短信消息，您可以仅以文本格式创建、修改和个性化消息。 您还可以在发送短信消息之前预览这些消息。
+对于短信消息，您可以仅以文本格式创建、修改和个性化消息。 您还可以在发送短信之前预览短信。
 
-如果短信消息采用GSM编码，则长度限制为160个字符；如果短信消息采用Unicode，则长度限制为70个字符。 但是，某些特殊字符会影响消息的长度。 有关详情，请参阅 [短信编码](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 部分。
+如果短信消息采用GSM编码，则长度限制为160个字符；如果短信消息采用Unicode，则长度限制为70个字符。 但是，某些特殊字符会影响消息的长度。 有关详细信息，请参见 [短信编码](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 部分。
 
 短信消息可从以下网址创建： **[!UICONTROL Marketing activities]** 菜单、营销策划或工作流中的，请参阅 [创建短信消息](../../channels/using/creating-an-sms-message.md).
 
@@ -44,13 +44,13 @@ Adobe Campaign允许您投放短信（短信服务）消息。
 
 ## 短信投放模板 {#sms-delivery-template}
 
-Adobe Campaign为移动设备提供了一个投放模板。 此模板必须正确链接到用于的外部帐户 **[!UICONTROL Mobile (SMS)]** 渠道。 要访问和修改它，请执行以下操作：
+Adobe Campaign提供了用于移动设备的投放模板。 此模板必须正确链接到用于的外部帐户 **[!UICONTROL Mobile (SMS)]** 渠道。 要访问和修改它，请执行以下操作：
 
 1. 选择 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 从高级菜单中。
 1. 将鼠标悬停在 **[!UICONTROL Send via SMS]** 模板，然后选择 **重复元素** 选项。
 1. 选择新模板。
 1. 单击 **[!UICONTROL Edit properties]** 按钮。
-1. 在 **[!UICONTROL Advanced parameters]** 区域内，确保模板已链接到用于投放短信的外部帐户。
+1. 在 **[!UICONTROL Advanced parameters]** 确保模板已链接到用于投放短信的外部帐户。
 
    ![](assets/sms_template.png)
 

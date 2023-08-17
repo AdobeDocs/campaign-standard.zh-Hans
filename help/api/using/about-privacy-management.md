@@ -1,6 +1,6 @@
 ---
 title: 关于隐私管理
-description: 进一步了解使用API进行隐私管理
+description: 了解关于使用API进行隐私管理的更多信息
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 关于隐私管理 {#about-privacy-management}
 
-Campaign StandardAPI提供了一些功能，允许自动处理与隐私法规（例如GDPR和CCPA）相关的请求。
+Campaign StandardAPI提供了一些功能，允许自动处理与GDPR和CCPA等隐私法规相关的请求。
 
 您可以执行的操作如下：
 
@@ -23,7 +23,7 @@ Campaign StandardAPI提供了一些功能，允许自动处理与隐私法规（
 * 检索隐私数据文件，
 * 管理配置文件的CCPA选择退出状态。
 
-隐私API端点为 **/privacy/privacyTool**. PrivacyTool资源描述和关联的过滤器在资源元数据中可用。 参见 [元数据机制](../../api/using/metadata-mechanism.md).
+隐私API端点为 **/privacy/privacyTool**. PrivacyTool资源描述和关联的过滤器在资源元数据中可用。 请参阅 [元数据机制](../../api/using/metadata-mechanism.md).
 
 CCPA选择退出可通过以下方式管理 **ccpapoptout** 配置文件属性。
 

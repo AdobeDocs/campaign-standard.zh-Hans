@@ -19,9 +19,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并检索摄取请求的状态。
+Adobe Campaign Standard允许您通过API触发数据映射的直接摄取，并检索摄取请求的状态。
 
 本页介绍如何触发和检索数据映射的摄取状态。 有关Campaign StandardAPI的全球信息，请参阅 [本节](../../api/using/get-started-apis.md).
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并
 * [映射定义](../../integrating/using/aep-mapping-definition.md)
 * [映射激活](../../integrating/using/aep-mapping-activation.md)
 
-创建数据映射后，必须停止运行数据映射，以便您可以随时从API触发数据映射。 为此，请执行以下步骤：
+创建数据映射后，必须将其停止运行，以便您可以随时从API触发它。 为此，请执行以下步骤：
 
 1. 在Campaign Standard中，转到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 菜单。
 
@@ -42,27 +42,27 @@ Adobe Campaign Standard允许您通过API触发数据映射的立即摄取，并
 
 1. 保存更改
 
-数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发。
+数据映射执行现已停止。 您可以使用Campaign StandardAPI手动触发它。
 
 ## 开始立即摄取数据映射 {#starting-immediate-ingestion}
 
-通过POST操作触发将XDM映射立即摄取到Adobe Experience Platform：
+立即将XDM映射摄取到Adobe Experience Platform是通过POST操作触发的：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->要执行引入POSTAPI调用，用户必须具有 **SQL函数执行** role，可由Campaign Standard管理员通过执行以下JS脚本来提供：
+>要执行摄取POSTAPI调用，用户必须具有 **SQL函数执行** role，角色可以由Campaign Standard管理员通过执行以下JS脚本来提供：
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
-POST操作返回有关已创建请求状态的信息：
+POST操作将返回有关已创建请求状态的信息：
 
-* 已成功提交XDM映射的请求：
+* 已成功提交用于XDM映射的请求：
 
 ```
 {
@@ -95,9 +95,9 @@ POST操作返回有关已创建请求状态的信息：
 }
 ```
 
-## 检索引入请求的状态 {#retrieving-status}
+## 检索摄取请求的状态 {#retrieving-status}
 
-可以使用GET操作以及参数中所需的请求ID来检索摄取请求的状态：
+可以使用GET操作以及参数中的所需请求ID来检索摄取请求的状态：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -108,71 +108,71 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >有关XDM映射请求状态及其相关作业的详细信息，可在Campaign Standard界面的 **[!UICONTROL Status of data export to platform]** 菜单(请参阅 [映射激活](../../integrating/using/aep-mapping-activation.md))。
 
-GET操作返回以下信息：
+GET操作将返回以下信息：
 
-* **batchId**：仅当批量准备和上传后失败时，才填充此字段，
+* **batchId**：只有在批量准备和上传后失败时，才会填充此字段，
 * **信息**：XDM映射ID、
 * **numRecords**：已摄取的记录数（仅限成功状态），
-* **状态**：引入请求状态（成功/失败/进行中）
+* **状态**：摄取请求状态（成功/失败/进行中）
 
-对GET操作的可能响应包括：
+对GET操作的可能响应为：
 
-* 已成功引入请求：
+* 摄取请求成功：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
-* 引入请求失败，已引入0条记录：
+* 摄取请求失败，已摄取0条记录：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * 摄取请求失败，一些记录已上传到批次下：
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
-* 摄取某些记录后，摄取请求中止（崩溃情况下可能会发生这种情况）：
+* 摄取某些记录后摄取请求中止（崩溃情况下可能会发生这种情况）：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
-* 正在进行摄取请求（当请求以批方式上传数据或批已准备好进行请求时）：
+* 正在进行摄取请求（当请求以批次上传数据或批次正在为请求准备时）：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

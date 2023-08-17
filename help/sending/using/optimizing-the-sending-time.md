@@ -32,14 +32,14 @@ ht-degree: 100%
 
 * **[!UICONTROL No optimization]**：以用户的时间发送消息。
 
-   例如，如果您的时区是 GMT+1，并且如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 11:00 收到该消息。
+  例如，如果您的时区是 GMT+1，并且如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 11:00 收到该消息。
 
 * **[!UICONTROL Send at the recipient's time zone]**：所有收件人都将收到考虑了当地时区时间的消息。
 
-   例如，如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 9:00 收到该消息。
+  例如，如果您在 **[!UICONTROL Start sending from]** 字段中输入了“9:00 AM”，则位于 GMT+3 时区的收件人将在本地时间上午 9:00 收到该消息。
 
-   请参阅[按收件人的时区发送消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)。
+  请参阅[按收件人的时区发送消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)。
 
 * **[!UICONTROL Send at a custom date defined by a formula]**：每个收件人都将在使用指定公式配置的日期和时间收到消息。
 
-   请参阅[计算发送日期](../../sending/using/computing-the-sending-date.md)。
+  请参阅[计算发送日期](../../sending/using/computing-the-sending-date.md)。

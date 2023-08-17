@@ -101,13 +101,13 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
   </tr>
   <tr> 
    <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 
-   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> 此工作流用于恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并仅限于Adobe内部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecover</span> <br /> </td> 
+   <td> 此工作流可恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并且仅限于Adobe内部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放执行</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> 此工作流用于复制本地数据库中的broadlog和跟踪日志。 默认情况下，每 10 分钟启动一次。<br/> </td> 
+   <td> 此工作流可复制本地数据库中的broadlog和跟踪日志。 默认情况下，每 10 分钟启动一次。<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放指标</span> <br /> </td> 

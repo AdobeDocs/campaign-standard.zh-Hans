@@ -17,33 +17,33 @@ ht-degree: 5%
 
 # 个性化电子邮件内容 {#personalization}
 
-Adobe Campaign投放的消息的内容和显示可以通过多种不同的方式进行个性化。 根据用户档案，可以根据标准组合这些方法。 一般而言，Adobe Campaign 允许您：
+Adobe Campaign投放的消息的内容和显示可以通过几种不同的方式进行个性化。 根据用户档案，可以根据标准组合这些方式。 一般而言，Adobe Campaign 允许您：
 
 * 插入动态的个性化字段。请参阅[插入个性化字段](#inserting-a-personalization-field)。
 * 插入预定义的个性化块。
 请参阅[添加内容块](#adding-a-content-block)。
-* 使电子邮件的发件人个性化。 参见 [个性化发件人](#personalizing-the-sender).
-* 使电子邮件的主题个性化。 参见 [个性化电子邮件的主题行](../../designing/using/subject-line.md#subject-line).
-* 创建条件性内容。参见 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email).
+* 使电子邮件的发件人个性化。 请参阅 [个性化发件人](#personalizing-the-sender).
+* 将电子邮件主题个性化。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#subject-line).
+* 创建条件性内容。请参阅 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email).
 
 ## 个性化发件人 {#personalizing-the-sender}
 
 要定义将出现在已发送邮件标题中的发件人名称，请转到 **[!UICONTROL Properties]** Email Designer主页选项卡（可通过主页图标访问）。 有关此内容的更多信息，请参阅 [定义电子邮件的发件人](../../designing/using/subject-line.md#email-sender).
 
-您可以通过单击 **发件人姓名** 块。 该字段随后将变为可编辑，您可以输入要使用的名称。
+您可以通过单击 **发件人姓名** 封锁。 该字段随后将变为可编辑，您可以输入要使用的名称。
 
-此字段可个性化。 要执行此操作，您可以通过单击发件人名称下方的图标来添加个性化字段、内容块和动态内容。
+此字段可个性化。 为此，您可以通过单击发件人名称下方的图标，添加个性化字段、内容块和动态内容。
 
 >[!NOTE]
 >
->标头参数不能为空。 发件人地址是允许发送电子邮件的必填项（RFC标准）。 Adobe Campaign检查输入的电子邮件地址的语法。
+>标头参数不能为空。 发件人的地址是允许发送电子邮件的必备项（RFC标准）。 Adobe Campaign检查所输入电子邮件地址的语法。
 
 ## 个性化URL{#personalizing-urls}
 
 Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动态内容，来对消息中的一个或多个URL进行个性化。 操作步骤：
 
-1. 插入外部URL并指定其参数。 参见 [插入链接](../../designing/using/links.md#inserting-a-link).
-1. 如果未显示，请单击“设置”窗格中选定URL旁边的铅笔以访问个性化选项。
+1. 插入外部URL并指定其参数。 请参阅 [插入链接](../../designing/using/links.md#inserting-a-link).
+1. 如果未显示，请单击“设置”窗格中所选URL旁边的铅笔以访问个性化选项。
 1. 添加要使用的个性化字段、内容块和动态内容。
 
    ![](assets/des_personalize_links.png)
@@ -52,17 +52,17 @@ Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动
 
 >[!NOTE]
 >
->如果禁用了跟踪链接的URL签名机制，则个性化URL无法应用于域名，也无法应用于URL扩展。 如果个性化不正确，则在消息分析期间将显示错误消息。
+>如果禁用了用于跟踪链接的URL签名机制，则个性化URL不能应用于域名，也不能应用于URL扩展。 如果个性化不正确，则在消息分析期间将显示错误消息。
 >
->选择内容块时，不允许选择元素，例如 **链接到镜像页面**. 链接内禁止此类块。
+>选择内容块时，不允许选择元素，例如 **链接到镜像页面**. 此类块禁止在链接内使用。
 
 ## 插入个性化字段{#inserting-a-personalization-field}
 
-Adobe Campaign允许您将数据库中的一个字段插入到页面中，例如用户档案的名字。
+利用Adobe Campaign，可将来自数据库的字段插入页面，如用户档案的名字。
 
 >[!NOTE]
 >
->下图显示了如何使用插入个性化字段。 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) ，以发送电子邮件。
+>下图显示如何使用插入个性化字段 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md) ，以发送电子邮件。
 
 要向内容添加个性化字段，请执行以下操作：
 
@@ -70,13 +70,13 @@ Adobe Campaign允许您将数据库中的一个字段插入到页面中，例如
 
    ![](assets/email_perso_field_1.png)
 
-1. 选择要插入到页面内容的字段。
+1. 选择要插入到页面内容中的字段。
 
    ![](assets/email_perso_field_2.png)
 
 1. 单击 **[!UICONTROL Confirm]**。
 
-字段名称将显示在编辑器中，并高亮显示。
+该字段名称将显示在编辑器中，并且会高亮显示。
 
 ![](assets/email_perso_field_3.png)
 
@@ -84,11 +84,11 @@ Adobe Campaign允许您将数据库中的一个字段插入到页面中，例如
 
 >[!NOTE]
 >
->如果电子邮件是从工作流创建的，则工作流中计算的其他数据也可在个性化字段中找到。 有关从工作流添加其他数据的更多信息，请参阅 [丰富数据](../../automating/using/about-targeting-activities.md#enriching-data) 部分。
+>如果电子邮件是从工作流创建的，则在工作流中计算的附加数据也可在个性化字段中找到。 有关从工作流添加其他数据的更多信息，请参阅 [丰富数据](../../automating/using/about-targeting-activities.md#enriching-data) 部分。
 
 ## 添加内容块{#adding-a-content-block}
 
-Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是动态的、个性化的，并具有特定的呈现方式。 例如，您可以向镜像页面添加问候语或链接。
+Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动态的、个性化的，并具有特定的呈现方式。 例如，您可以向镜像页面添加问候语或链接。
 
 >[!NOTE]
 >
@@ -112,17 +112,17 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 现成的内容块包括：
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**：此内容块只能在 **投放**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**：此内容块只能用于 **登陆页面**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**：此内容块只能用于 **投放**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**：此内容块只能用于 **投放**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**：此内容块只能在 **登陆页面**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**：此内容块只能在 **投放**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**：此内容块只能在 **投放**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -162,15 +162,15 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 >[!CAUTION]
 >
->编辑块的内容时，请确保您的开始和结束之间没有额外的空格 *如果* 语句。 在HTML中，屏幕上将显示空格，因此它们将会影响您的内容布局。
+>编辑块的内容时，请确保在开始和结束之间没有额外的空格 *如果* 语句。 在HTML中，屏幕上将显示空格，因此它们将会影响您的内容布局。
 
 ### 关于定位维度 {#about-targeting-dimension}
 
-利用定向维度，可定义可在其中使用内容块的消息类型。 这是为了防止在消息中使用不当的块，这种块可能会导致错误。
+利用定向维度，可定义可在其中使用内容块的消息类型。 这是为了防止在消息中使用不当的块，因为此类块可能会导致错误。
 
 事实上，在编辑消息时，您只能选择具有与该消息的定向维度兼容的定向维度的内容块。
 
-例如， **[!UICONTROL Unsubscription link]** 块的目标维度为 **[!UICONTROL Profiles]** 因为它包含特定于的个性化字段 **[!UICONTROL Profiles]** 资源。 因此，您不能使用 **[!UICONTROL Unsubscription link]** 中的块 [事件事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **[!UICONTROL Real-time events]**. 但是，您可以使用 **退订链接** 在中阻止 [用户档案事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **配置文件**. 最后， **[!UICONTROL Link to mirror page]** 块没有定向维度，因此您可以在任何消息中使用它。
+例如， **[!UICONTROL Unsubscription link]** 块的目标维度为 **[!UICONTROL Profiles]** 因为它包含特定于的个性化字段 **[!UICONTROL Profiles]** 资源。 因此，您不能使用 **[!UICONTROL Unsubscription link]** 中的块 [事件事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **[!UICONTROL Real-time events]**. 但是，您可以使用 **退订链接** 中的块 [用户档案事务型消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)，因为该类型消息的定向维度为 **配置文件**. 最后， **[!UICONTROL Link to mirror page]** 块没有定向维度，因此您可以在任何消息中使用它。
 
 如果将此字段留空，则无论定向维度是什么，内容块都将与所有消息兼容。 如果设置定向维度，则该块将仅与具有相同定向维度的消息兼容。
 
@@ -184,14 +184,14 @@ Adobe Campaign提供了一个预配置内容块的列表。 这些内容块是�
 
 ## 个性化图像源{#personalizing-an-image-source}
 
-Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或多个图像进行个性化。 通过将个性化字段、内容块或动态内容插入图像源来实现这一点。 操作步骤：
+Adobe Campaign允许您根据特定标准或使用跟踪将消息中的一个或多个图像个性化。 通过将个性化字段、内容块或动态内容插入图像源来实现这一点。 操作步骤：
 
-1. 将图像插入到消息的内容中，或选择已存在的图像。
+1. 将图像插入消息的内容，或选择已存在的图像。
 1. 在图像属性调色板中，选中 **[!UICONTROL Enable personalization]** 选项。
 
    ![](assets/des_personalize_images_1.png)
 
-   此 **[!UICONTROL Source]** 字段显示，选择的图像显示为 **个性化** 在编辑器中。
+   此 **[!UICONTROL Source]** 字段显示，并且所选图像显示为 **个性化** 在编辑器中。
 
 1. 单击旁边的铅笔 **[!UICONTROL Source]** 用于访问个性化选项的字段按钮。
 1. 添加图像源后，添加您喜欢的个性化字段、内容块和动态内容。
@@ -216,13 +216,13 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 此选项仅适用于以下元素：ADDRESS、BLOCKQUOTE、CENTER、DIR、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
-表达式编辑器的示例如下 [高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor) 部分。
+表达式编辑器的示例如所示 [高级表达式编辑](../../automating/using/editing-queries.md#about-query-editor) 部分。
 
-这些条件采用XTK表达式语法(例如 **context.profile.email ！=”** 或 **context.profile.status=&#39;0&#39;**)。 默认情况下，所有字段均可见。
+这些条件采用XTK表达式语法(例如 **context.profile.email ！=&quot;** 或 **context.profile.status=&#39;0&#39;**)。 默认情况下，所有字段均可见。
 
 >[!NOTE]
 >
->无法为已包含具有动态内容的子元素的块或已构成动态内容的块定义条件。 无法编辑下拉列表等不可见的动态块。
+>无法为已包含具有动态内容的子元素的块或已构成动态内容的块定义条件。 无法编辑不可见的动态块（如下拉列表）。
 
 ### 定义电子邮件中的动态内容{#defining-dynamic-content-in-an-email}
 
@@ -231,26 +231,26 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 >title="定义动态内容"
 >abstract="根据您将定义的条件，定义将仅为某些配置文件显示的不同内容。"
 
-在电子邮件中，您可以根据表达式编辑器定义的条件，定义将动态显示给收件人的不同内容。 例如，从同一封电子邮件中，您可以确保每个用户档案都会根据其年龄范围收到不同的消息。
+在电子邮件中，您可以定义不同的内容，这些内容将根据表达式编辑器定义的条件动态显示给收件人。 例如，从同一封电子邮件，您可以确保每个用户档案都会根据其年龄范围收到不同的消息。
 
 定义动态内容与不同 [定义可见性条件](#defining-a-visibility-condition).
 
 1. 选择片段、组件或元素。 在此示例中，选择一个图像。
-1. 单击 **[!UICONTROL Dynamic content]** 图标。
+1. 单击 **[!UICONTROL Dynamic content]** 图标（位于上下文工具栏中）。
 
    ![](assets/dynamic_content_2.png)
 
-   此 **[!UICONTROL Dynamic content]** 部分将显示在左侧的面板中。
+   此 **[!UICONTROL Dynamic content]** 部分显示在左侧的面板中。
 
    ![](assets/dynamic_content_3.png)
 
-   默认情况下，此部分包含两个元素：默认变体和一个新变体。
+   默认情况下，此部分包含两个元素：默认变体和新变体。
 
    >[!NOTE]
    >
    >内容必须始终具有默认变体。 您无法删除它。
 
-1. 单击 **[!UICONTROL Edit]** 按钮来定义第一个替代变体的显示条件。
+1. 单击 **[!UICONTROL Edit]** 按钮定义第一个替代变体的显示条件。
 
    ![](assets/dynamic_content_4.png)
 
@@ -280,9 +280,9 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
    ![](assets/dynamic_content_9.png)
 
-   例如，您可以添加要显示给26到35岁之间人员的不同图像。
+   例如，您可以添加不同的图像以向26到35岁之间的人显示。
 
-1. 对于您想要动态显示的电子邮件的任何其他元素，请以类似方式继续操作。 可以是文本、按钮、片段等。 保存您的更改。
+1. 对于要动态显示的电子邮件中的任何其他元素，执行相同操作。 它可以是文本、按钮、片段等。 保存您的更改。
 
 >[!CAUTION]
 >
@@ -295,19 +295,19 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 ### 优先级顺序 {#order-of-priority}
 
-在表达式编辑器中，定义动态内容时，优先级顺序如下。
+在表达式编辑器中，当您定义动态内容时，优先级顺序如下所示。
 
 1. 使用以下方式定义两个不同的动态内容 **两种不同的情况**&#x200B;例如：
 
-   **条件1：** 男人的性别是男性化的，
+   **条件1：** 男人的性别很男性化，
 
-   **条件2：** 配置文件介于20到30岁之间。
+   **条件2：** 该配置文件在20到30岁之间。
 
    ![](assets/delivery_content_61.png)
 
-   数据库中的某些用户档案对应于这两个条件，但只能发送一封包含一项动态内容的电子邮件。
+   数据库中的某些用户档案对应于这两个条件，但只能发送一封包含一个动态内容的电子邮件。
 
-1. 因此，您必须定义动态内容的优先级。 优先级顺序为 **1** （因此相应的动态内容）将被发送到用户档案，即使优先级顺序为 **2** 或 **3** 此配置文件也符合此要求。
+1. 因此，您必须定义动态内容的优先级。 优先级顺序为 **1** （因此对应的动态内容）将被发送到用户档案，即使优先级顺序为 **2** 或 **3** 该配置文件也会满足。
 
    ![](assets/delivery_content_62.png)
 
@@ -315,21 +315,21 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 ## 示例：电子邮件个性化{#example-email-personalization}
 
-在本例中，营销服务团队的一名成员创建了一封电子邮件，用于告知一些客户，有一份专门为他们提供的特别优惠。 团队成员决定根据客户各自的年龄对电子邮件进行个性化设置。 18至27岁的客户将收到一封电子邮件，其中包含27岁以上的客户将收到的其他图片和口号。
+在此示例中，营销服务团队的一名成员创建了一封电子邮件，用于通知某些客户，存在专门为其提供的特别优惠。 团队成员决定根据客户各自的年龄对电子邮件进行个性化设置。 18至27岁的客户将收到一封电子邮件，其中包含27岁以上的客户将收到的其他图片和标语。
 
 电子邮件的创建方式如下：
 
-* 动态内容应用到图像，并且这些动态内容根据年龄范围进行配置。
+* 动态内容将应用于图像，并根据年龄范围配置这些动态内容。
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   有关添加和配置动态内容的详情，请参见 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email) 部分。
+  有关添加和配置动态内容的详细信息，请参见 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email) 部分。
 
-* 个性化字段和动态内容将应用于文本。 根据用户档案的年龄范围，电子邮件会以用户档案的名字或用户档案的标题和姓氏开头。
+* 个性化字段和动态内容将应用于文本。 根据用户档案的年龄范围，电子邮件会以用户档案的名字开头，或者以用户档案的标题和姓氏开头。
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   有关添加和配置个性化字段的详情，请参见 [插入个性化字段](#inserting-a-personalization-field) 部分。
+  有关添加和配置个性化字段的详情，请参见 [插入个性化字段](#inserting-a-personalization-field) 部分。
 
 ### 配置图像 {#configuring-images}
 
@@ -340,9 +340,9 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 在此示例中，应用于图像的动态内容配置如下：
 
-**目标18-27岁：**
+**对18-27岁的年轻人：**
 
-1. 选择中的动态内容 **[!UICONTROL Properties]** 调色板并单击 **[!UICONTROL Edit]** 按钮。
+1. 选择中的动态内容 **[!UICONTROL Properties]** 面板，然后单击 **[!UICONTROL Edit]** 按钮。
 
    ![](assets/delivery_content_48.png)
 
@@ -356,17 +356,17 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 1. 添加新 **[!UICONTROL Age]** 条件。
 
-   选择 **小于或等于** 运算符后跟值字段中的27以创建 **27岁以下** 表达式。
+   选择 **小于或等于** 运算符，然后在值字段中输入27以创建 **27岁以下** 表达式。
 
    ![](assets/delivery_content_51.png)
 
 1. 确认更改。
 
-**要定向27岁及以上用户档案，请执行以下操作：**
+**要定向27岁及以上的用户档案，请执行以下操作：**
 
-1. 从面板中选择动态内容并对其进行编辑。
+1. 从面板中选择并编辑动态内容。
 1. 编辑标签，然后选择 **[!UICONTROL Age]** 中的字段 **[!UICONTROL Profile]** 节点。
-1. 添加 **大于** 运算符后跟值字段中的27以创建 **27岁以上** 表达式。
+1. 添加 **大于** 运算符，然后在值字段中输入27以创建 **27岁以上** 表达式。
 
    ![](assets/delivery_content_52.png)
 
@@ -378,7 +378,7 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
 在此示例中，应用于文本的动态内容配置如下：
 
-**要定向18-27岁的用户档案，请执行以下操作：**
+**要定向年龄在18-27岁之间的用户档案，请执行以下操作：**
 
 1. 选择所需的结构组件并添加动态内容。
 1. 编辑动态内容并配置定位表达式。 请参阅 [配置图像](#configuring-images).
@@ -390,9 +390,9 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
    ![](assets/delivery_content_54.png)
 
-1. 然后，您的个性化字段将完美插入到所选动态内容中。
+1. 随后，您的个性化字段将完美插入到所选的动态内容中。
 
-**要定向27岁及以上用户档案，请执行以下操作：**
+**要定向27岁及以上的用户档案，请执行以下操作：**
 
 1. 选择所需的结构组件并添加动态内容。
 1. 编辑动态内容并配置定位表达式。 请参阅 [配置图像](#configuring-images).
@@ -402,29 +402,29 @@ Adobe Campaign允许您根据特定条件或使用跟踪对消息中的一个或
 
    ![](assets/delivery_content_56.png)
 
-现在，应将您的个性化字段完美插入到所选动态内容中。
+现在，应将您的个性化字段完美插入所选的动态内容中。
 
 ### 预览电子邮件 {#previewing-emails}
 
-预览允许您在发送之前检查个性化字段和动态内容是否已正确配置 **[!UICONTROL Proofs]**. 在预览期间，您可以选择与电子邮件目标对应的不同测试用户档案。
+通过预览，您可以在发送 **[!UICONTROL Proofs]**. 在预览过程中，您可以选择与电子邮件目标对应的不同测试用户档案。
 
-如果没有测试用户档案，则默认显示的电子邮件是：
+如果没有测试用户档案，则默认显示的电子邮件为：
 
 ![](assets/delivery_content_45.png)
 
-电子邮件中的标语中没有个性化字段，而是使用默认图像。
+电子邮件中的标语没有个性化字段，而是使用默认图像。
 
-第一个测试配置文件对应于年龄在18到27岁之间的客户端。 选择此用户档案后，将显示以下电子邮件：
+第一个测试配置文件对应于年龄在18到27岁之间的客户端。 选择此配置文件后，将显示以下电子邮件：
 
 ![](assets/delivery_content_46.png)
 
-正确配置了与18-27岁的表达式（特别是用户档案的名字）对应的个性化字段，并且图像也根据用户档案进行了更改。
+正确配置了与18-27年前的表达式（特别是用户档案的名字）对应的个性化字段，并且图像也已根据用户档案发生更改。
 
-第二个用户档案对应于年龄超过27岁的客户，并生成以下电子邮件：
+第二个用户档案对应于27岁以上的客户，并生成以下电子邮件：
 
 ![](assets/delivery_content_47.png)
 
-由于动态内容，图像已发生更改，而出现的口号是为此目标公众定义的更正式的口号。
+由于动态内容，图像已发生更改，显示的口号是为此目标公众定义的更正式的口号。
 
 **相关主题：**
 

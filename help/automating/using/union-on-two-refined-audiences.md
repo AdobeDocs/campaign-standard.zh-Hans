@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 第一个 [读取受众](../../automating/using/read-audience.md) 此活动可检索金牌会员受众，并通过仅选择18到30岁之间的用户档案对其进行优化。
+* 第一个 [读取受众](../../automating/using/read-audience.md) 此活动用于检索金牌会员受众，并通过仅选择18到30岁之间的用户档案对其进行优化。
 * 其次是 **[!UICONTROL Read audience]** 活动，用于检索银牌会员受众，并通过仅选择 18 到 30 岁之间的用户档案对其进行优化。
 * A [并集](../../automating/using/union.md) 将来自两者的群体联合在一起的活动 **[!UICONTROL Read audiences]** 将活动归入一个最终群体。
 * An [电子邮件投放](../../automating/using/email-delivery.md) 活动向来自的群体发送电子邮件 **[!UICONTROL Union]** 活动。

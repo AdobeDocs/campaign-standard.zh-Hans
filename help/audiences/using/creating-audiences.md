@@ -113,11 +113,11 @@ Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**
 
 * 要编辑&#x200B;**查询**，请通过 **[!UICONTROL Audiences]** 菜单转到受众列表，或从 Adobe Campaign 主页转到 **[!UICONTROL Audiences]** 卡。
 
-   打开相关受众。可对以前创建受众的所有元素进行编辑。
+  打开相关受众。可对以前创建受众的所有元素进行编辑。
 
-   >[!CAUTION]
-   >
-   >如果更改查询中的 **[!UICONTROL Filtering dimension]** 规则，则之前已定义的规则将丢失。
+  >[!CAUTION]
+  >
+  >如果更改查询中的 **[!UICONTROL Filtering dimension]** 规则，则之前已定义的规则将丢失。
 
 * 要编辑&#x200B;**列表**&#x200B;或&#x200B;**文件**&#x200B;受众，请编辑创建该受众的工作流，并修改 **[!UICONTROL Save audience]** 活动。启动工作流，以便修改受众。
 * 要编辑 **Experience Cloud** 受众，请参阅[通过 People 核心服务导入/导出受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)一节。

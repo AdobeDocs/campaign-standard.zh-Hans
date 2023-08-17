@@ -26,7 +26,7 @@ Adobe Campaign 允许您使用查询手动创建受众，或使用专用工作�
 
 您可以在 Adobe Campaign 中处理不同的受众类型。受众的类型对应于其创建方式：
 
-* **[!UICONTROL Query]**：表示受众是使用 [查询](../../automating/using/editing-queries.md#about-query-editor) 通过受众列表访问来自Adobe Campaign数据库的数据。 每次复用时都会重新计算由查询定义的受众。。
+* **[!UICONTROL Query]**：表示受众是使用 [查询](../../automating/using/editing-queries.md#about-query-editor) 访问受众列表，查看Adobe Campaign数据库中的数据。 每次复用时都会重新计算由查询定义的受众。。
 * **[!UICONTROL List]**：表示受众是固定的用户档案列表。这些列表在[工作流](../../automating/using/get-started-workflows.md)中创建，在工作流中保存受众时，数据维度是已知的。例如，定向活动（尤其是 **[!UICONTROL Query]**）后或对从文件导入的数据进行协调后。
 * **[!UICONTROL File]**：表示受众是直接从[文件导入](../../automating/using/load-file.md)工作流创建的，且保存受众时数据维度未知。
 * **[!UICONTROL Experience Cloud]**：表示受众是从 Adobe Experience Cloud 导入的。仅当配置了受众共享功能时，此选项才可用。有关更多信息，请参阅[从 Adobe Experience Cloud 导入受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。

@@ -16,7 +16,7 @@ ht-degree: 42%
 
 # 访客(nms：visitor)
 
-## 对象描述
+## 对象说明
 
 <table>
     <tr>
@@ -50,7 +50,7 @@ ht-degree: 42%
         <td> </td>
     </tr>
     <tr>
-        <td>投放（交付）</td>
+        <td>投放（投放）</td>
         <td>投放</td>
         <td>链接 </td>
         <td> </td>
@@ -124,7 +124,7 @@ ht-degree: 42%
     <tr>
         <td>来源</td>
         <td>来源</td>
-        <td>明细列表（字节） </td>
+        <td>枚举（字节） </td>
         <td>
             <ul>
             <li>未定义 — 未定义 — 0</li>
@@ -169,7 +169,7 @@ ht-degree: 42%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp (recipient)</td>
+        <td>referrerRcp(recipient)</td>
         <td>反向链接</td>
         <td>链接 </td>
         <td> </td>
@@ -192,7 +192,7 @@ ht-degree: 42%
         <th>类型</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>文本</td>
         <td>字符串</td>
         </tr>
     </table>

@@ -1,13 +1,13 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和行为：排序、筛选、删除或复制元素。 列表屏幕显示一个或多个给定资源的元素。”
+description: “了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和操作：排序、筛选、删除或复制元素。 列表屏幕会显示一个或多个给定资源的元素。”
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 10%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Adobe Campaign用户档案表示数据库中存储的所有联系人。 每个概要文件都对应于数据库中的一个条目，其中包含要定位并单独跟踪该概要文件的必要信息。 这意味着用户档案可以是：客户、潜在客户、订阅新闻通讯的个人、收件人、用户或任何其他面额，具体取决于组织。
+Adobe Campaign用户档案表示存储在数据库中的所有联系人。 每个概要文件都对应于数据库中的一个条目，其中包含要定位并单独跟踪该概要文件的必要信息。 这意味着用户档案可以是：客户、潜在客户、订阅新闻通讯的个人、收件人、用户或任何其他对象，具体取决于组织。
 
 **了解更多信息**
 
@@ -52,27 +52,27 @@ Adobe Campaign用户档案表示数据库中存储的所有联系人。 每个�
 
 <img width="60px" alt="条件" src="assets/icon_populate.svg"/>
 
-Campaign Standard提供了多种工具来帮助您扩展营销数据库。 此部分详细介绍可用于将数据注入Campaign的不同方法，并引用专用文档。
+Campaign Standard提供了多种工具来帮助您扩大营销数据库。 本节详细介绍可用于将数据注入Campaign的不同方法，并参考专用文档。
 
 ### 通过工作流导入数据 {#importing-data-through-workflows}
 
-工作流允许您收集数据，并通过使用将其导入Campaign数据库 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 活动。 有关通过工作流导入数据时的一般信息和最佳实践，请参阅 [本节](../../automating/using/about-data-import-and-export.md).
+利用工作流，可收集数据并通过使用将其导入Campaign数据库 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 活动。 有关通过工作流导入数据时的一般信息和最佳实践，请参阅 [本节](../../automating/using/about-data-import-and-export.md).
 
-此外，您还可以设置模板以导入数据。 使用导入模板是定期导入具有相同结构的文件的最佳实践。 您可以设置两种类型的模板：
+此外，您可以设置模板以导入数据。 使用导入模板是定期导入具有相同结构的文件的最佳实践。 您可以设置两种类型的模板：
 
 * **工作流模板**：它们是预配置的工作流，您可以根据需要设置一次，并在每次要导入数据和更新数据库时重复使用。 有关用于导入数据的工作流模板的示例，请参见 [本节](../../automating/using/creating-import-workflow-templates.md).
 
-* **导入数据模板**：与工作流模板一样，这些模板是基于工作流的模板，设置为上传文件以更新数据库。 配置完毕后，用户便可在下以简化的视图访问它们 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 菜单。 有关导入数据模板的更多信息，请参阅 [专用文档](../../automating/using/importing-data-with-import-templates.md).
+* **导入数据模板**：与工作流模板类似，这些模板是基于工作流的模板，工作流设置为上传文件以更新数据库。 配置完毕后，即可通过下的简化视图向用户提供 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 菜单。 有关导入数据模板的更多信息，请参阅 [专用文档](../../automating/using/importing-data-with-import-templates.md).
 
 ### 从登陆页面收集数据 {#collecting-data-from-landing-pages}
 
-登陆页面是一种Web窗体，可用于收集数据以及创建或更新数据库中的现有信息。 其原理是：
+登陆页面是一种Web窗体，可用于收集数据以及创建或更新数据库中的现有信息。 其原则是：
 
 * 通过添加输入字段以收集数据（名字、姓氏、电子邮件等）来创建和设计登陆页面。
 * 将每个输入字段映射到数据库中的相应字段。
 * 通过网站或消息中的直接链接在线提供登陆页面。
 
-有关登陆页面的更多信息，请参阅 [专用文档](../../channels/using/getting-started-with-landing-pages.md).
+有关登录页面的更多信息，请参阅 [专用文档](../../channels/using/getting-started-with-landing-pages.md).
 
 **了解更多信息**
 
@@ -86,7 +86,7 @@ Campaign Standard提供了多种工具来帮助您扩展营销数据库。 此�
 
 >[!NOTE]
 >
->请注意，Campaign Standard-Microsoft Dynamics 365连接器当前处于有限可用状态，并且受若干限制，具体详情请参阅此文档。
+>请注意，Campaign Standard-Microsoft Dynamics 365连接器当前处于“有限可用”状态，并且受若干限制，具体详情请参阅此文档。
 
 **了解更多信息**
 
@@ -110,9 +110,9 @@ Campaign StandardAPI允许您执行更新数据库的操作，如用户档案或
 
 <img width="60px" alt="条件" src="assets/icon_audience.svg"/>
 
-为了使您能够提供相关且有效的消息并有效地吸引客户，Adobe Campaign集成了高级分析和定位功能。
+为了让您能够提供相关且有效的消息并有效地吸引客户，Adobe Campaign集成了高级分析和定位功能。
 
-借助工作流和查询编辑器，您可以构建受众，这些受众将根据您掌握的有关受众的信息、其活动、语言、偏好或营销历史记录而被不同的营销活动定向。 例如，这允许您过滤订阅的用户档案，或根据无数量限制标准创建目标受众。
+借助工作流和查询编辑器，您可以构建不同营销活动定位的受众，具体取决于您掌握的受众信息、其活动、语言、偏好或营销历史。 例如，这允许您过滤订阅的用户档案，或根据无限数量的标准创建目标受众。
 
 **了解更多信息**
 

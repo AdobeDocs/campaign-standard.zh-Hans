@@ -18,7 +18,7 @@ ht-degree: 76%
 
 # 使用与定向维度不同的资源 {#using-resources-different-from-targeting-dimensions}
 
-此用例展示如何使用与定向维度不同的资源，例如，查找远程表格中的特定记录。
+此用例展示如何使用与定向维度不同的资源，例如在远程表格中查找特定记录。
 
 有关定向维度和资源的更多信息，请参阅 [本节](../../automating/using/query.md#targeting-dimensions-and-resources)
 

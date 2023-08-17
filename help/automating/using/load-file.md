@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能时，请记住Adobe Campaign合同规定的SFTP存储、DB存储和活动配置文件限制。
+>使用此功能时，请牢记根据Adobe Campaign合同规定的SFTP存储、数据库存储和活动配置文件限制。
 
 ![](assets/data_loading.png)
 
@@ -71,19 +71,19 @@ ht-degree: 93%
    * 通过选择 **[!UICONTROL Detect structure from a new file]** 选项，选择使用另一个文件的结构。
    * 修改默认检测参数，使其适应您的文件。利用 **[!UICONTROL File type]** 字段，可指定要导入的文件是否由具有固定长度的列组成。在这种情况下，您还必须在 **[!UICONTROL Column definition]** 选项卡中为每个列指定最大字符数。
 
-      从文件正确取回数据所需的所有检测选项，都重组到了 **[!UICONTROL File format]** 中。您可以修改它们，然后重新检测活动中加载的最后一个文件的结构，以考虑这些新设置。要实现此目的，请使用 **[!UICONTROL Apply configuration]** 按钮。例如，可指定不同的列分隔符。
+     从文件正确取回数据所需的所有检测选项，都重组到了 **[!UICONTROL File format]** 中。您可以修改它们，然后重新检测活动中加载的最后一个文件的结构，以考虑这些新设置。要实现此目的，请使用 **[!UICONTROL Apply configuration]** 按钮。例如，可指定不同的列分隔符。
 
-      >[!NOTE]
-      >
-      >此操作将考虑活动中加载的最后一个文件。如果检测到的文件较大，则数据预览将仅显示前 30 行。
+     >[!NOTE]
+     >
+     >此操作将考虑活动中加载的最后一个文件。如果检测到的文件较大，则数据预览将仅显示前 30 行。
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      利用 **[!UICONTROL File format]** 部分的 **[!UICONTROL Check columns from file against column definitions]** 选项，可验证上传文件的列是否与列定义相对应。
+     利用 **[!UICONTROL File format]** 部分的 **[!UICONTROL Check columns from file against column definitions]** 选项，可验证上传文件的列是否与列定义相对应。
 
-      如果列数和/或列名与列定义不匹配，则在执行工作流时将显示错误消息。如果未激活该选项，则日志文件中将显示警告。
+     如果列数和/或列名与列定义不匹配，则在执行工作流时将显示错误消息。如果未激活该选项，则日志文件中将显示警告。
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. 转到 **[!UICONTROL Column definition]** 选项卡，检查每列的数据格式，并根据需要调整参数。
 
@@ -101,11 +101,11 @@ ht-degree: 93%
    * 上一步中上传的数据。
    * 从本地计算机上传的新文件。如果上传的第一个文件已经在工作流中定义，则会显示 **[!UICONTROL Upload a new file from local machine]** 选项。如果当前文件不适合您的需要，使用此选项可让您上传另一个文件以供处理。
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。使用此选项可在加载数据之前解压缩文件。仅当文件来自活动的集客过渡时，此选项才可用。
 
-   此 **[!UICONTROL Add a pre-processing stage]** 字段还允许您在将文件导入数据库之前对其进行解密。 有关如何使用加密文件的更多信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a pre-processing stage]** 字段还允许您在将文件导入数据库之前对其进行解密。 有关如何使用加密文件的详细信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
 
 1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。激活该选项后，叫客过渡将重命名为“Rejects”。
 
@@ -137,7 +137,7 @@ ht-degree: 93%
 
    * **[!UICONTROL Maximum number of characters]**：指定字符串类型列的最大字符数。
 
-      加载由具有固定长度的列组成的文件时，必须填写此字段。
+     加载由具有固定长度的列组成的文件时，必须填写此字段。
 
    * **[!UICONTROL Letter case management]**：定义是否需要对 **Text** 数据应用字符大小写处理规则。
    * **[!UICONTROL White space management]**：指定 **Text** 数据的字符串中是否需要忽略某些空格。
@@ -154,9 +154,9 @@ ht-degree: 93%
    * **[!UICONTROL Use a default value in case the value is not remapped]**：除非为错误值定义了映射，否则将导致错误的值替换为在 **[!UICONTROL Default value]** 字段中定义的默认值（请参阅上方的 **[!UICONTROL Remapping of values]** 选项）。
    * **[!UICONTROL Reject the line when there is no remapping value]**：除非为错误值定义了映射，否则不会处理整行（请参阅上方的 **[!UICONTROL Remapping of values]** 选项）。
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** 涉及与导入文件之值有关的错误。例如，遇到错误的数据类型（“整数”列中填写全部是字母的“four”）、包含字符数超过授权字符数上限的字符串、具有错误分隔符的日期等。但是，此选项不涉及由空值管理生成的错误。
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** 涉及与导入文件之值有关的错误。例如，遇到错误的数据类型（“整数”列中填写全部是字母的“four”）、包含字符数超过授权字符数上限的字符串、具有错误分隔符的日期等。但是，此选项不涉及由空值管理生成的错误。
 
 * **[!UICONTROL Default value]**：根据所选的错误处理指定默认值。
 * **[!UICONTROL Empty value management]**：指定在数据加载期间管理空值的方式。

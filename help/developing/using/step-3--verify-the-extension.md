@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # 第 3 步：验证扩展{#step-verify-the-extension}
 
-1. 对Profiles &amp; Services扩展API的元数据执行GET操作，以检查添加到Profiles自定义资源中的字段现在是否可用。
+1. 对Profiles &amp; Services扩展API的元数据执行GET操作，以检查现在是否可以使用Profiles自定义资源中添加的字段。
 
    ```
    GET profileAndServicesExt/resourceType/profile

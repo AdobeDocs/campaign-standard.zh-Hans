@@ -1,6 +1,6 @@
 ---
 title: 推广服务
-description: 使用Adobe Campaign推广服务，并通过专用的登陆页面、电子邮件或直接在您的网站上吸引您的客户。
+description: 使用Adobe Campaign推广服务，并通过专用登陆页面、电子邮件或直接在您的网站上吸引您的客户。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
@@ -25,8 +25,8 @@ ht-degree: 3%
 
 * [在电子邮件中插入指向订阅或退订登陆页面的链接](../../designing/using/links.md). 在这种情况下，必须在相关登陆页面的属性中直接引用服务(请参阅 [将登陆页面链接到服务](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service))。
 
-   >[!NOTE]
-   >
-   >让订阅者能够取消订阅也很重要。 要执行此操作，请插入服务 <b>退订链接</b> （在服务属性中定义）自动发送给新订阅者的确认电子邮件中，以及在以后的新闻稿电子邮件中。
+  >[!NOTE]
+  >
+  >此外，让订阅者能够取消订阅也很重要。 为此，请插入服务 <b>退订链接</b> （在服务属性中定义）自动发送给新订阅者的确认电子邮件中，以及在将来的新闻稿电子邮件中。
 
 * 在网站上提供订阅或退订登陆页面。 授予您登陆页面访问权限的URL必须指定参数（例如关联的服务）以及访问它的配置文件ID。 此ID可以在登陆页面参数中定义(请参阅 [配置登陆页面](../../channels/using/configuring-landing-page.md))。

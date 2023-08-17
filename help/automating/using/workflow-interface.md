@@ -24,8 +24,8 @@ ht-degree: 4%
 
 * 此 [调色板](#palette)，引用可用的活动。
 * 此 [工作区](#workspace)：配置和组织活动。
-* 此 [操作栏](#action-bar)，由允许您与工作流和/或其组件交互的按钮组成。
-* 此 [快速操作](#quick-actions)，显示在选定活动周围，允许您与活动进行交互。
+* 此 [操作栏](#action-bar)，由按钮组成，允许您与工作流和/或其组件交互。
+* 此 [快速操作](#quick-actions)，显示在选定活动周围，可让您与之交互。
 
 ![](assets/wkf_overview.png)
 
@@ -46,9 +46,9 @@ ht-degree: 4%
 
 ## 工作区 {#workspace}
 
-工作区是工作流编辑器中的中心区域。 在此区域中，您可以删除活动，使用过渡将它们链接在一起，然后对其进行配置。
+工作区是工作流编辑器中的中心区域。 在此区域中，您可以删除活动，使用过渡将它们链接在一起，然后配置它们。
 
-要链接两个活动，请将箭头末端从第一个活动向上移动到下一个活动，直到它们连接为止。 您还可以将活动移动到其后的箭头点，以便将其链接到前一个活动。 如果移动任何活动，这些活动将保持链接。
+要链接两个活动，请将箭头的结尾从第一个活动上移动到后续活动，直到它们连接为止。 您还可以将活动向着它后面的箭头点移动，以便将其链接到前一个活动。 如果移动任何活动，则它们将保持链接。
 
 在处理数据的活动之后的过渡包含中间群体。 如果选中 **[!UICONTROL Keep interim results]** 中的选项 **[!UICONTROL Execution]** 部分的工作流属性。
 
@@ -64,7 +64,7 @@ ht-degree: 4%
 * 通过在其周围绘制区域来选择多个活动和过渡。
 * 按 **Ctrl** +左键单击以选择多个活动和/或过渡。
 * 按 **输入** 查看当前选定活动或过渡的详细信息。
-* 按 **删除** 删除当前选定的活动。
+* 按 **删除** 以删除当前选定的活动。
 * 按 **Ctrl + C** 复制选定的活动，以及 **Ctrl + V** 以将其粘贴到工作区中。
 
 ![](assets/workflow_workspace.png)
@@ -93,7 +93,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>如果之前已禁用或标记为已暂停，则重新启用选择。<br />
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定的活动处暂停工作流。<br />
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定活动处暂停工作流。<br />
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。<br />
 
@@ -105,52 +105,52 @@ ht-degree: 4%
 
 ## 快速操作 {#quick-actions}
 
-选择活动后，该活动周围会显示快速操作按钮，可让您与之交互。
+选择活动后，该活动周围会显示快速操作按钮，以便您与之交互。
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>打开选定的活动。
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>复制选定的活动。
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>复制所选活动。
 
 <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>打开所选电子邮件或短信投放活动的高级选项。
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>如果之前已禁用或标记为已暂停，则重新启用选择。
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定的活动处暂停工作流。
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在选定活动处暂停工作流。
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>禁用活动。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理所选内容。 此按钮仅适用于 <span class="uicontrol">调度程序</span> 和 <span class="uicontrol">等待</span> 活动。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>强制立即处理所选内容。 此按钮仅适用于 <span class="uicontrol">计划程序</span> 和 <span class="uicontrol">等待</span> 活动。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>删除选定的活动。
 
 ## 复制工作流活动 {#duplicating-workflow-activities}
 
-通过工作区，您可以将工作流活动复制粘贴到同一工作流中，或复制到同一营销活动实例的其他工作流中，从而复制这些活动。
+利用工作区，您可以复制粘贴到同一工作流中的工作流活动，或复制到同一Campaign实例的其他工作流中，以复制工作流活动。
 
-活动复制后，会保留其整个配置。 对于投放活动（电子邮件、短信、推送通知……），附加到活动的投放对象是重复的。
+活动复制后，将保留其整个配置。 对于投放活动（电子邮件、短信、推送通知……），会复制附加到活动的投放对象。
 
 >[!NOTE]
 >
->无法将工作流活动从一个实例复制到另一个实例。 来自技术工作流的活动不能重复。
+>无法将工作流活动从一个实例复制到另一个实例。 技术工作流中的活动无法复制。
 
 要复制活动，请执行以下步骤：
 
 1. 选择活动，然后单击 **[!UICONTROL Copy selection]** 按钮。
 
-   您还可以使用 **Ctrl + C** 键盘快捷键。
+   您也可以使用 **Ctrl + C** 键盘快捷键。
 
    ![](assets/wkf_copypaste1.png)
 
 1. 在目标工作流工作区中右键单击，然后单击 **[!UICONTROL Paste]** 按钮。
 
-   您还可以使用 **CTRL + V** 键盘快捷键。
+   您也可以使用 **CTRL + V** 键盘快捷键。
 
    ![](assets/wkf_copypaste2.png)
 
 1. 活动重复，其中包含最初配置的所有设置。
 
-也可以复制并粘贴多个活动，从而复制整个工作流。
+也可以复制粘贴多个活动，从而复制整个工作流。
 
-要实现此目的，请通过在其周围绘制区域来选取活动。 然后单击 **[!UICONTROL Copy selection]** 按钮(或按 **Ctrl + C**)。 然后，您可以将它们粘贴到所需的位置。
+要实现此目的，请通过在其周围绘制区域来选择活动。 然后单击 **[!UICONTROL Copy selection]** 操作栏中的按钮(或按 **Ctrl + C**)。 然后，可以将它们粘贴到所需的位置。
 
 ![](assets/wkf_copypaste3.png)

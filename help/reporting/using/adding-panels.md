@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## 添加空白面板 {#adding-a-blank-panel}
 
-要启动报表，可向开箱即用报表或自定义报表中添加一组面板。 每个面板包含不同的数据集，由自由格式表和可视化图表组成。
+要启动报表，可将一组面板添加到开箱即用或自定义报表中。 每个面板包含不同的数据集，由自由格式表和可视化图表组成。
 
-利用此面板，可根据需要构建报告。 您可以在报表中添加任意数量的面板，以按不同的时间段筛选数据。
+利用此面板，可根据需要构建报告。 您可以在报表中添加所需数量的面板，以按不同的时间段过滤数据。
 
-1. 单击 **面板** 图标。 您还可以通过单击 **插入选项卡** 和选择 **新建空白面板**.
+1. 单击 **面板** 图标。 您还可以通过单击 **插入选项卡** 并选择 **新建空白面板**.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_panel.png)
 
-您现在可以将自由格式表添加到面板中以开始定位数据。
+您现在可以向面板中添加自由格式表以开始定位数据。
 
 ## 添加自由格式表 {#adding-a-freeform-table}
 
@@ -49,11 +49,11 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 在 **[!UICONTROL Drop a segment here]** 字段，添加 **[!UICONTROL Segment]** 从 **[!UICONTROL Components]** 进入顶栏。
+1. 在 **[!UICONTROL Drop a segment here]** 字段，添加 **[!UICONTROL Segment]** 从 **[!UICONTROL Components]** 跳到顶栏中。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. 将项目从 **[!UICONTROL Components]** 按Tab键进入列和行以构建表。
+1. 从拖放项目 **[!UICONTROL Components]** 制表符以生成表。
 
    ![](assets/dynamic_report_freeform_3.png)
 

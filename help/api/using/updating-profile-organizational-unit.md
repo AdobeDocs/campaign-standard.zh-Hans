@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-使用有效负荷中所需组织单位的PKey对用户档案执行PATCH请求。
+对用户档案执行PATCH请求，并在有效负荷中使用所需组织单位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

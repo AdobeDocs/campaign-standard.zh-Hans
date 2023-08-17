@@ -1,6 +1,6 @@
 ---
 title: 在 Campaign 中使用触发器
-description: 在Adobe Campaign中基于现有的Adobe Experience Cloud触发器创建触发器事件。
+description: 在Adobe Campaign中基于现有的Adobe Experience Cloud trigger创建触发器事件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->要创建触发器，您需要 **[!UICONTROL Administration]** 角色或将位于 **[!UICONTROL Administrators]** 安全组。 有关此内容的更多信息，请参阅此 [页面](../../administration/using/list-of-roles.md).
+>要创建触发器，您需要 **[!UICONTROL Administration]** 角色或将成为 **[!UICONTROL Administrators]** 安全组。 有关详细信息，请参阅此 [页面](../../administration/using/list-of-roles.md).
 
 您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
@@ -49,11 +49,11 @@ ht-degree: 79%
 
    ![](assets/remarketing_4.png)
 
-1. 您现在可以发布触发器。 有关更多信息，请参阅 [在Campaign中发布触发器](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. 您现在可以发布触发器。 有关详细信息，请参见 [在Campaign中发布触发器](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
 ## 在Campaign中发布触发器 {#publishing-trigger-in-campaign}
 
-在基于现有Adobe Experience Cloud触发器的Adobe Campaign中创建触发器事件后，您现在需要发布它。
+现在，在基于现有Adobe Experience Cloud trigger的Adobe Campaign中创建触发器事件后，您需要发布该事件。
 
 1. 在之前创建的触发器中，单击 **[!UICONTROL Publish]** 按钮以开始发布触发器事件。
 
@@ -63,7 +63,7 @@ ht-degree: 79%
 
    ![](assets/trigger_publish_2.png)
 
-1. 发布完成后，将会显示以下消息 **[!UICONTROL Publication]**.
+1. 发布完成后，将在下显示以下消息 **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -81,7 +81,7 @@ ht-degree: 79%
 
 创建并发布触发器事件后，将自动创建对应的事务型模板。有关更多信息，请参阅[在 Campaign 中创建映射触发器](#creating-a-mapped-trigger-in-campaign)一节。
 
-为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关详情，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md) 部分。
+为了让事件触发“发送事务型消息”，您必须对模板进行个性化设置，然后对其进行测试和发布。这些步骤与标准事务型消息相同。有关详细信息，请参见 [编辑事务型消息](../../channels/using/editing-transactional-message.md) 部分。
 
 >[!NOTE]
 >

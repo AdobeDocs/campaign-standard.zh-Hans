@@ -95,14 +95,14 @@ ht-degree: 77%
   </tr> 
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 允许在AdobeJourney Orchestration的上下文中使用Adobe Campaign Standard的事务性消息传送功能，通过开箱即用的操作发送电子邮件、推送通知和短信。<br /> </td> 
+   <td> 允许在AdobeJourney Orchestration的上下文中使用Adobe Campaign Standard的事务性消息传递功能，通过开箱即用的操作发送电子邮件、推送通知和短信。<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 允许从 Dreamweaver 编辑电子邮件内容并将其与 Adobe Campaign 同步。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">使用Dreamweaver创建个性化电子邮件</a> 视频， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">将Campaign扩展用于Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">使用Dreamweaver创建个性化电子邮件</a> 视频， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">为Dreamweaver使用Campaign扩展</a> 
   </td> 
   </tr> 
   <tr> 

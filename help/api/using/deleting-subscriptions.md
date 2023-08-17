@@ -21,7 +21,7 @@ ht-degree: 0%
 此过程分为三个步骤。
 
 1. 检索所需配置文件的订阅URL。
-1. 对订阅URL执行GET请求。
+1. 对预订URL执行GET请求。
 1. 对所需的服务URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为204 No Content。
@@ -53,7 +53,7 @@ ht-degree: 0%
   }
 ```
 
-对订阅URL执行GET请求。
+对预订URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -130,7 +130,7 @@ ht-degree: 0%
 },
 ```
 
-对订阅URL执行GET请求。
+对预订URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -140,7 +140,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它会返回所选服务的订阅列表，并带有每个用户档案订阅的URL (href)。
+它会返回所选服务的订阅列表，并为每个用户档案订阅返回一个URL (href)。
 
 ```
 {

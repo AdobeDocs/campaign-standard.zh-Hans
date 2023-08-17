@@ -17,15 +17,15 @@ ht-degree: 17%
 
 ## 关于源和目标
 
-借助Adobe Experience Platform，您可以在Campaign Standard和Adobe Real-time Customer Data Platform (RTCDP)之间共享数据。 这允许您在营销活动工作流中定位Adobe Experience Platform受众，然后发送回Adobe Real-time Customer Data Platform与这些受众相关的数据，如发送、打开和点击。
+借助Adobe Experience Platform，您可以在Campaign Standard和Adobe Real-time Customer Data Platform (RTCDP)之间共享数据。 这允许您在营销活动工作流中定位Adobe Experience Platform受众，然后发送回Adobe Real-time Customer Data Platform与这些受众相关的数据，如发送、打开和单击。
 
-* 替换为 **目标**，将受众从Adobe Experience Platform摄取到Campaign Standard中。 这允许您为营销活动激活已知和未知数据。
-* 替换为 **源**，将Campaign Standard数据（例如发送、打开、单击）导出到Adobe Experience Platform。 这样，您就可以将从不同来源收集的数据集中到一个位置，并利用从中获得的见解做更多事情。
+* 替换为 **目标**，将受众从Adobe Experience Platform摄取到Campaign Standard中。 这样，您就可以为营销活动激活已知和未知数据。
+* 替换为 **源**，将Campaign Standard数据（例如发送、打开、单击）导出到Adobe Experience Platform。 这样，您就可以将从不同来源收集的数据集中到一个地方，并利用从中获得的见解做更多事情。
 
 
 >[!IMPORTANT]
 >
->在执行此集成时，请记住Adobe Campaign合同中规定的SFTP存储限制、数据库存储限制和活动配置文件限制。
+>在执行此集成时，请记住Adobe Campaign合同规定的SFTP存储限制、数据库存储限制和活动配置文件限制。
 
 有关Adobe Real-time Customer Data Platform、目标和源的更多详细概述，请参阅以下页面：
 

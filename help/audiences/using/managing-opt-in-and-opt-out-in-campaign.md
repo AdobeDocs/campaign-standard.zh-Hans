@@ -29,19 +29,19 @@ ht-degree: 8%
 
 要使用户能够选择加入或选择退出，您必须创建并发布 **[!UICONTROL Profile acquisition]** 登陆页面。 然后，他们便能够根据自己的需求选择渠道。 为此，请执行以下步骤：
 
-您还可以设置 **[!UICONTROL Denylist]** 使用户能够选择退出所有投放的登陆页面。 有关更多信息，请参阅 [设置登陆页面以选择退出所有投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+您还可以设置 **[!UICONTROL Denylist]** 使用户能够选择退出所有投放的登陆页面。 有关详细信息，请参见 [设置登陆页面以选择退出所有投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
 >登陆页面还可用于启用服务订阅。 有关详细信息，请参见[此页面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
 
 1. 创建 **[!UICONTROL Profile acquisition]** 登陆页面(请参阅 [本节](../../channels/using/getting-started-with-landing-pages.md))。
-1. 在登陆页面内容中为每个所需的渠道添加一个复选框，然后将其链接到Campaign数据库中的相应字段。
+1. 在登陆页面内容中为每个所需渠道添加一个复选框，然后将其链接到Campaign数据库中的相应字段。
 
    ![](assets/optin_landingpage_1.png)
 
 1. 保存并发布登陆页面。
-1. 在登陆页面中，已根据用户档案选中复选框 **[!UICONTROL General]** 选项卡。 用户可以根据需要选择或取消选择频道，并提交表格。
+1. 在登陆页面中，已根据用户档案选中复选框 **[!UICONTROL General]** 选项卡。 用户可以根据需要选择或取消选择渠道并提交表单。
 
    ![](assets/optin_landingpage_2.png)
 

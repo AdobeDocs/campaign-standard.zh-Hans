@@ -1,6 +1,6 @@
 ---
 title: 关于定位活动
-description: 可以从屏幕左侧访问定向活动。
+description: 可以从屏幕的左侧访问定向活动。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 48%
 * [重复数据删除](../../automating/using/deduplication.md)
 * [扩充](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 活动允许您定义 **段代码** 他们的叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Targeting]** 活动允许您定义 **段代码** 适合他们的叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 ## 选择数据 {#selecting-data}
 
@@ -48,18 +48,18 @@ ht-degree: 48%
 
 ## 分段数据 {#segmenting-data}
 
-通过Adobe Campaign，您可以处理入站数据上的集。 因此，您可以合并多个群体、排除部分群体或仅保留多个目标的共有数据。
+通过Adobe Campaign，可处理入站数据上的集。 因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。
 
-* 利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。请参阅 [并集](../../automating/using/union.md) 部分。
-* 利用 **[!UICONTROL Intersection]** 活动，可仅在活动中保留不同集客群体的共有元素。请参阅 [交叉](../../automating/using/intersection.md) 部分。
+* 利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。请参阅[并集](../../automating/using/union.md)部分。
+* 利用 **[!UICONTROL Intersection]** 活动，可仅在活动中保留不同集客群体的共有元素。请参阅[交集](../../automating/using/intersection.md)部分。
 * 利用 **[!UICONTROL Exclusion]** 活动，可根据特定条件从一个群体中排除某些元素。请参阅 [排除项](../../automating/using/exclusion.md) 部分。
 * 利用 **[!UICONTROL Segmentation]** 活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个区段。在活动结束时，可以在单一过渡或多个不同过渡中处理这些区段。请参阅 [分段](../../automating/using/segmentation.md) 部分。
 
 ## 丰富数据 {#enriching-data}
 
-识别的数据和收集的数据可以被扩充、聚合和操作以优化目标构建。 您可以通过包括未在数据集市中建模的数据，来简化和优化定位流程。
+识别出的和收集的数据可以被扩充、聚合和操作以优化目标构建。 您可以通过包括未在数据集市中建模的数据来简化和优化定位流程。
 
-此 **[!UICONTROL Additional data]** 的选项卡 **[!UICONTROL Query]** 和 **[!UICONTROL Incremental query]** 利用活动，可扩充查询所定向的数据，并将此数据传输到以下工作流活动，以便在其中使用。 其中，您可以添加：
+此 **[!UICONTROL Additional data]** 选项卡 **[!UICONTROL Query]** 和 **[!UICONTROL Incremental query]** 利用活动，可扩充查询所定向的数据，并将这些数据传输到后续的工作流活动中，以便我们使用。 其中，您可以添加：
 
 * 简单数据
 * 聚合

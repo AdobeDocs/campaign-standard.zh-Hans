@@ -1,6 +1,6 @@
 ---
 title: 使用数据库协调文件受众
-description: 此示例说明如何使用读取受众活动协调直接从文件导入创建的受众。
+description: 此示例展示了如何使用读取受众活动协调直接从文件导入创建的受众。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -28,21 +28,21 @@ ht-degree: 87%
 
 * [加载文件](../../automating/using/load-file.md)活动，上传包含从外部工具提取之用户档案数据的文件。
 
-   例如：
+  例如：
 
-   ```
-   lastname;firstname;birthdate;email;crmID
-   Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
-   Mars;Daniel;17/11/1987;dannymars@example.com;123545
-   Smith;Clara;08/02/1989;hayden.smith@example.com;124567
-   Durance;Allison;15/12/1978;allison.durance@example.com;120987
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
-   Binder;Tom;19/01/1982;tombinder@example.com;128653
-   Binder;Tommy;19/01/1915;tombinder@example.com;134576
-   Connor;Jade;10/10/1979;connor.jade@example.com;132452
-   Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
-   Ross;Timothy;04/07/1986;timross@example.com;157643
-   ```
+  ```
+  lastname;firstname;birthdate;email;crmID
+  Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
+  Mars;Daniel;17/11/1987;dannymars@example.com;123545
+  Smith;Clara;08/02/1989;hayden.smith@example.com;124567
+  Durance;Allison;15/12/1978;allison.durance@example.com;120987
+  Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
+  Binder;Tom;19/01/1982;tombinder@example.com;128653
+  Binder;Tommy;19/01/1915;tombinder@example.com;134576
+  Connor;Jade;10/10/1979;connor.jade@example.com;132452
+  Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
+  Ross;Timothy;04/07/1986;timross@example.com;157643
+  ```
 
 * [保存受众](../../automating/using/save-audience.md)活动，将传入数据另存为受众。由于尚未协调数据，因此该受众属于文件受众，且其数据尚未被标识为用户档案数据。
 

@@ -19,13 +19,13 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
 创建 [Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md) 通过使用区段生成器，您可以像在工作流中用于营销活动受众一样使用该区段来个性化和发送消息。
 
 要在工作流中激活Adobe Experience Platform受众，请执行以下步骤：
 
-1. 添加 **[!UICONTROL Read audience]** 活动添加到工作流中，然后打开它。
+1. 添加 **[!UICONTROL Read audience]** 活动添加到工作流中，然后将其打开。
 
 1. 选择 **[!UICONTROL Adobe Experience Platform]** 下的选项 **[!UICONTROL Type of audience]**，然后添加所需的受众。
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 1. （可选）选择受众后，您可以单击眼睛按钮以查看和/或编辑区段定义（确保再次保存更改）。
 
-   单击眼睛按钮只会将您引导至与Campaign中的选定受众关联的区段生成器（在另一个选项卡中）。
+   单击眼睛按钮只会将您定向到与Campaign中的选定受众关联的区段生成器（在另一个选项卡中）。
 
 1. 选择 **[!UICONTROL Platform data mapping]** 元素，为选定的Adobe Experience Platform受众指定所需的定向维度。
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >对于主键以外的目标，还必须创建与自定义命名空间对应的自定义目标映射。 有关目标映射的详细信息，请参阅 [本节](../../administration/using/target-mappings-in-campaign.md).
+   >对于主键之外的目标，还必须创建与自定义命名空间对应的自定义目标映射。 有关目标映射的详细信息，请参阅 [本节](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
@@ -51,15 +51,15 @@ ht-degree: 5%
 
 1. 正确配置受众和定向维度后，单击 **[!UICONTROL Confirm]** 按钮以保存更改。
 
-您现在可以使用其他活动配置工作流。 例如，您可以链接 **[!UICONTROL Email delivery]** 活动，向选定的受众发送电子邮件。
+您现在可以使用其他活动配置工作流。 例如，您可以关联 **[!UICONTROL Email delivery]** 活动，向选定的受众发送电子邮件。
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->通过Campaign Standard，您可以定位所有投放渠道中的Adobe Experience Platform受众：电子邮件、SMS消息、直邮消息、推送通知和应用程序内消息。
+>通过Campaign Standard，您可以定位所有投放渠道中的Adobe Experience Platform受众：电子邮件、短信、直邮消息、推送通知和应用程序内消息。
 >
->*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持交付已知用户档案。
+>*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持投放已知用户档案。
 
 有关如何使用工作流和投放的更多信息，请参阅以下章节：
 

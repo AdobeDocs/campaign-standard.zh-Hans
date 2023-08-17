@@ -1,6 +1,6 @@
 ---
 title: 添加组件
-description: 将组件拖放到自由格式表中，以开始筛选数据和构建报表。
+description: 将组件拖放到自由格式表以开始筛选数据和构建报表。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 组件可帮助您使用不同的维度、量度和时间段自定义报表。
 
-1. 单击 **[!UICONTROL Components]** 选项卡以访问组件列表。
+1. 单击 **[!UICONTROL Components]** 选项卡访问组件列表。
 
    ![](assets/dynamic_report_components.png)
 
@@ -27,11 +27,11 @@ ht-degree: 4%
 
    组件表分为四类：
 
-   * **Dimension**：从投放日志获取详细信息，例如收件人的浏览器或域，或者投放是否成功。
-   * **量度**：获取有关消息状态的详细信息。 例如，如果消息已投放，并且用户已将其打开。
-   * **[!UICONTROL Segments]**：根据收件人的年龄范围筛选数据。 **[!UICONTROL Segments]** 可以直接在自由格式表或面板的顶部栏中拖放。
+   * **Dimension**：从投放日志获取详细信息，如收件人的浏览器或域，或投放是否成功。
+   * **量度**：获取有关消息状态的详细信息。 例如，如果传送了消息并且用户将其打开。
+   * **[!UICONTROL Segments]**：根据收件人的年龄范围过滤数据。 **[!UICONTROL Segments]** 可以直接在自由格式表或面板的顶部栏中拖放。
 
-      此类别仅在管理员批准将显示在屏幕上的动态报告使用协议的条款和条件后可用。 如果管理员拒绝协议，则区段在中将不可见 **[!UICONTROL Components]** 选项卡和数据将不被收集。
+     只有在管理员批准将在屏幕上显示的动态报告使用协议的条款和条件后，此类别才可用。 如果管理员拒绝协议，则区段在中将不可见 **[!UICONTROL Components]** 选项卡和数据将不被收集。
 
    * **时间**：为表设置时间段。
 
@@ -39,11 +39,11 @@ ht-degree: 4%
 
    ![](assets/dynamic_report_components_2.png)
 
-1. 拖放组件后，您可以使用 **[!UICONTROL Row settings]** 选项。
+1. 拖放组件后，您可以使用进一步配置表 **[!UICONTROL Row settings]** 选项。
 
    ![](assets/dynamic_report_components_3.png)
 
-1. 您还可以通过单击 **搜索** 图标。 通过此搜索，您可以查找特定结果，例如特定投放或浏览器。
+1. 您还可以通过单击 **Search** 图标。 通过此搜索，您可以查找特定结果，例如特定投放或浏览器。
 
    ![](assets/dynamic_report_components_4.png)
 

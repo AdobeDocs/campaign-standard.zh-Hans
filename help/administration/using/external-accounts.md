@@ -27,7 +27,7 @@ ht-degree: 80%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
-* OAuth 2.0。有关更多信息，请参阅 [本节](#oauth-account).
+* OAuth 2.0。有关详细信息，请参见 [本节](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-允许列表另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例的。 可以通过请求将IP地址添加到允许列表 [支持服务单](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，并提供用于身份验证的公共密钥。
+列入允许列表另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例的。 可以通过向允许列表添加IP地址 [支持服务单](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，并提供用于身份验证的公共密钥。
 
 可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -93,8 +93,8 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 
 * A **授权类型**：仅限 **客户端凭据** 受支持。
 * A **安全API URL**：输入授权端点。
-* **OAuth 2.0敏感凭据**：本节适用于本质上敏感的凭据。 添加凭据值后，会在屏幕上对其进行屏蔽；此时，凭据值将不可读或编辑。 如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中包含选项。
-* **OAuth 2.0非敏感凭据**：本节适用于本质上不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；这些凭据值也将可编辑。  如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中包含选项。
+* **OAuth 2.0敏感凭据**：此部分适用于本质上敏感的凭据。 添加凭据值后，会在屏幕上将其蒙版；在这种情况下，凭据值将不可读或编辑。 如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中的包含选项。
+* **OAuth 2.0非敏感凭据**：本节适用于本质上不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；凭据值也可以编辑。  如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中的包含选项。
 
 输入帐户信息后，单击 **测试连接** 验证外部帐户是否已正确配置。
 
@@ -142,9 +142,9 @@ Amazon S3 服务器字段应按以下方式填写：
 
 * 服务器：输入 Adobe Experience Manager 服务器的 URL。例如：
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * AEM 帐户凭据：使用访问 Adobe Experience Manager 实例的帐户。它应是 Experience Manager 中属于 campaign-remote 组的帐户。
 
@@ -165,7 +165,7 @@ Amazon S3 服务器字段应按以下方式填写：
 * 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
 * 介于 0 到 1 之间的 **[!UICONTROL Threshold]**
 
-   0.0 **[!UICONTROL Threshold]** 值表示它可能是一个机器人，而 1.0 值可能属于良好的交互。默认情况下，可以使用 0.5 的阈值。
+  0.0 **[!UICONTROL Threshold]** 值表示它可能是一个机器人，而 1.0 值可能属于良好的交互。默认情况下，可以使用 0.5 的阈值。
 
 ![](assets/external_accounts_3.png)
 

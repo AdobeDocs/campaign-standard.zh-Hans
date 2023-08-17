@@ -1,6 +1,6 @@
 ---
 title: 必读
-description: 使用API之前必须先读取。
+description: 在使用API之前必须先读取。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -20,18 +20,18 @@ ht-degree: 0%
 ## 技术要求
 
 * Adobe Campaign API必须仅用于“服务器到服务器”。
-* 如果您要实施的用例与Adobe Campaign API允许的大小一致，请始终与您的Adobe技术联系人联系。
-* 设置AdobeIO访问需要特定权限，如遇到任何问题，请联系Adobe支持。
+* 如果您要实施的用例与Adobe Campaign API允许的规模一致，请始终与您的Adobe技术联系人核实。
+* 设置AdobeIO访问需要特定权限，如果遇到任何问题，请与Adobe支持部门联系。
 
-## 权限和访问权限
+## 权限和访问
 
 * 默认情况下，Adobe Campaign API使用管理员上下文，因此组织单位和角色不适用。
 * Adobe Campaign API将从角色上下文中排除。
-* 如果要使用一个或多个组织单位配置API，请首先与联系以Adobe技术联系人。
+* 如果要使用一个或多个组织单位配置API，请与联系以Adobe技术联系人。
 
-## 资源呈现
+## 资源表示
 
-所有API资源均在以下位置提供： **JSON** URL扩展名或HTTP接受标头内部：
+所有API资源均可在 **JSON** URL扩展名或HTTP接受标头内部：
 
 `GET /profileAndServices/<resourceName>.json`
 
@@ -53,21 +53,21 @@ ht-degree: 0%
 
 ## 主键和URL
 
-* 不要尝试自己构建URL。 所有URL均由API返回。 但是，可以基于顶级资源名称构建URL。
+* 不要尝试自己构建URL。 所有URL均由API返回。 但是，可以根据顶级资源名称构建URL。
 
 * 说明示例的自动主键(PKey)值不适用于其他特定部署。 它们由Adobe Campaign API生成。
 
-* 绝不能将Adobe Campaign生成的自动主键值存储到外部数据库或网站中。 您必须在数据库定义中生成特定的关键字段，并在开发过程中使用该字段。
+* 绝不能将Adobe Campaign生成的自动主键值存储到外部数据库或网站中。 您必须在数据库定义中生成特定的键字段，并在开发过程中使用它。
 
 ## 自定义键 {#custom-keys}
 
-如果已使用自定义键字段扩展了用户档案资源，则您可以将此字段用作键，而不是Adobe Campaign生成的自动主键：
+如果用户档案资源已通过自定义键字段扩展，则可以使用此字段作为键，而不是Adobe Campaign生成的自动主键：
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-如果键值不同于原始键，或者您将自己的业务键用作URI而不是Adobe提供的业务键，则无法使用PATCH操作修改自定义键。
+如果密钥值与原始密钥不同，或者您将自己的业务密钥用作URI而不是Adobe提供的业务密钥，则无法使用PATCH操作修改自定义密钥。
 
-将自定义键用于 **顶层配置文件资源** 仅此而已。 URL由API返回，绝不应该自行构建。
+使用自定义键 **顶级配置文件资源** 仅限。 URL由API返回，绝不应该自行构建。
 
 <br/>
 

@@ -31,11 +31,11 @@ ht-degree: 100%
 
 * 单击短信仪表板中的 **[!UICONTROL Content]** 块。
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * 单击推送通知仪表板中 **[!UICONTROL Message body]** 字段旁边的铅笔。
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **相关主题：**
 

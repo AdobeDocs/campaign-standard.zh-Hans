@@ -61,7 +61,7 @@ ht-degree: 82%
    * **[!UICONTROL Limit segment population]**：用于限制区段的大小。
    * **[!UICONTROL Filter and limit segment population]**：用于筛选区段群体并限制其大小。
    * **[!UICONTROL Label]**：区段标签。
-   * **[!UICONTROL Segment code]**：分配给区段群体的代码。可以使用标准表达式和事件变量对区段代码进行个性化(请参阅 [此页面](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**：分配给区段群体的代码。段码可以使用标准表达式和事件变量进行个性化(请参阅 [此页面](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：用于从活动的叫客群体中排除指定的区段。只有选择了 **[!UICONTROL Generate all segments in the same transition]** 选项时，才可使用此选项。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -85,9 +85,10 @@ ht-degree: 82%
    * **[!UICONTROL By data grouping]**：根据集客群体的指定字段的值，限制区段群体。选择要分组的字段，然后指定要使用的值。
    * **[!UICONTROL By data grouping (as a %)]**：根据指定集客群体字段的值，使用百分比限制区段群体。选择要应用分组的字段，然后指定要使用的值。
 
-      >[!NOTE]
-      >
-      >可以对每个值使用不同的限制。例如，您可以为 **[!UICONTROL Gender]** 字段指定分组，并将 **[!UICONTROL Male]** 成员的群体限制为 10 人，将 **[!UICONTROL Female]** 成员的群体限制为 30 人。如果您使用多个数据分组字段，则所有分组必须具有相同的大小。
+     >[!NOTE]
+     >
+     >可以对每个值使用不同的限制。例如，您可以为 **[!UICONTROL Gender]** 字段指定分组，并将 **[!UICONTROL Male]** 成员的群体限制为 10 人，将 **[!UICONTROL Female]** 成员的群体限制为 30 人。如果您使用多个数据分组字段，则所有分组必须具有相同的大小。
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 确认区段的配置。
@@ -96,8 +97,8 @@ ht-degree: 82%
 
    * 此 **[!UICONTROL Enable overlapping of outbound populations]** 选项定义如何管理属于多个区段的用户档案：
       * 未启用该选项时， **[!UICONTROL Segmentation]** 活动会检查在多个输出过渡中不存在某个用户档案，即使此用户档案满足多个子集的条件也是如此。
-      * 启用该选项后，如果用户档案满足筛选条件，则可以在多个子集中找到这些用户档案。
+      * 启用该选项后，如果用户档案符合筛选条件，则可以在多个子集中找到这些用户档案。
    * 如果已经为集客群体分配了要保留的段码，请检查 **[!UICONTROL Concatenate the code of each segment]** 选项。 在活动中指定的段码，将被添加到初始段码。
-   * 如果需要利用剩余群体，请检查 **[!UICONTROL Generate complement]** 选项。 参见 [用例：使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md).
+   * 如果需要利用剩余群体，请检查 **[!UICONTROL Generate complement]** 选项。 请参阅 [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md).
 
 1. 确认活动的配置并保存工作流。

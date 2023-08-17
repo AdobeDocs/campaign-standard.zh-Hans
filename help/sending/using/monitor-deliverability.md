@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Campaign Standard中监控投放能力
-description: 使用Adobe Campaign Standard提供的工具来监控您平台的可投放性。
+description: 使用Adobe Campaign Standard提供的工具监控平台的可投放性。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,13 +18,13 @@ ht-degree: 10%
 
 # 监测可投放性{#monitor-deliverability}
 
-在下面，您将找到有关 **[!UICONTROL Delivery throughput]** 以及Adobe Campaign提供的各种监控工具。 以下是有关可投放性监测的其他准则：
-* 定期检查整个平台的投放吞吐量，以验证其是否与原始设置一致。
+在下方，您将找到有关 **[!UICONTROL Delivery throughput]** 以及Adobe Campaign提供的各种监控工具。 以下是有关可投放性监测的其他准则：
+* 定期检查整个平台的投放吞吐量，验证其是否与原始设置一致。
 * 检查投放模板中是否正确设置了重试（重试期间为30分钟，重试次数超过20次）。
-* 定期验证弹回邮箱是否可访问，以及帐户是否即将过期。
-* 检查每个投放吞吐量，确保其与投放内容的有效期一致（例如，“闪电销售”应在几分钟内投放，而不是几天）。
+* 定期验证退回邮箱是否可访问，以及帐户是否即将过期。
+* 检查每个投放吞吐量，确保其与投放内容的有效性一致（例如，“闪购”应在几分钟内投放，而不是几天）。
 * 检查错误和新隔离的数量是否与其他投放一致。
-* 仔细查阅投放日志，详细检查突出显示的错误类型(阻止列表、DNS问题、反垃圾邮件规则等)。
+* 请仔细查阅投放日志，详细检查突出显示的错误类型(阻止列表、DNS问题、反垃圾邮件规则等)。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 ## 接收警报 {#receiving-alerts}
 
-此 **[!UICONTROL Delivery alerting]** 功能是一个警报管理系统，它允许一组用户自动接收包含其投放执行信息的通知。
+此 **[!UICONTROL Delivery alerting]** 功能是一个警报管理系统，通过它，一组用户可自动接收包含其投放执行信息的通知。
 
 有关此内容的更多信息，请参阅 [发生故障时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md).
 

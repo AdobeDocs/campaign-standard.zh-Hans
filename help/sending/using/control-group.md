@@ -48,23 +48,23 @@ ht-degree: 98%
 
 * **[!UICONTROL Random sampling]**：在准备投放时，Adobe Campaign 将随机提取与百分比或与将设置为[大小限制](#size-limit)的最大数量对应的用户档案数。
 
-   例如，如果您随后在 **[!UICONTROL Limits]** 部分中将阈值设置为 10，则控制组将由从目标群体中随机选择的 10% 组成。<!--Change screenshot to match example)-->
+  例如，如果您随后在 **[!UICONTROL Limits]** 部分中将阈值设置为 10，则控制组将由从目标群体中随机选择的 10% 组成。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**：通过此选项可根据一个或多个排序顺序定义限制。
 
-   例如：
+  例如：
 
    * 选择 **[!UICONTROL Age]** 字段作为排序条件。
    * 在 **[!UICONTROL Limits]** 部分中将 100 定义为阈值（请参阅[大小限制](#size-limit)）。
    * 保持选中 **[!UICONTROL Descending sort]** 选项。
 
-   因此，控制组将由 100 个最早的收件人组成。<!--Change screenshot to match example)-->
+  因此，控制组将由 100 个最早的收件人组成。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   定义包含很少或频繁购买的用户档案的控制组，并将其行为与联系的收件人的行为进行比较可能很有趣。
+  定义包含很少或频繁购买的用户档案的控制组，并将其行为与联系的收件人的行为进行比较可能很有趣。
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ ht-degree: 98%
 
 * 选择 **[!UICONTROL Size (as a % of the initial population)]** 并填充对应的框架。
 
-   例如，如果设置 10，则根据以上选择的选项，Adobe Campaign 将执行以下任一操作：
+  例如，如果设置 10，则根据以上选择的选项，Adobe Campaign 将执行以下任一操作：
    * 随机提取目标群体的 10%。
    * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 10% 的最旧用户档案。
 
-   >[!NOTE]
-   >
-   >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 10% 的最新用户档案。
+  >[!NOTE]
+  >
+  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 10% 的最新用户档案。
 
 * 选择 **[!UICONTROL Maximum size]** 并填充对应的框架。
 
-   例如，如果设置 100，则 Adobe Campaign 将执行以下任一操作：
+  例如，如果设置 100，则 Adobe Campaign 将执行以下任一操作：
    * 从目标群体中随机提取 100 个用户档案。
    * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 100 个最旧用户档案。
 
-   >[!NOTE]
-   >
-   >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 100 个最新用户档案。
+  >[!NOTE]
+  >
+  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 100 个最新用户档案。
 
 ## 排除特定群体 {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ ht-degree: 98%
 
 * 在 **[!UICONTROL Sending logs]** 选项卡中，您可以查看已提取和已排除的用户档案。它们具有 **[!UICONTROL Ignored]** 状态，并且失败的原因为 **[!UICONTROL Control group]**。
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * 您还可以检查 **[!UICONTROL Exclusion causes]** 选项卡，以查看未包含在投放中的用户档案数。
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### 使用控制组日志 {#using-logs}
 

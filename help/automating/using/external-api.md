@@ -1,6 +1,6 @@
 ---
 title: External API
-description: 外部API活动通过HTTP API调用，将来自外部Campaign Standard的数据引入工作流中。
+description: 外部API活动通过HTTP API调用，将来自外部Campaign Standard的数据引入系统工作流。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，http响应数据大小限制和响应超时护栏已降低，以符合最佳实践 — 请参阅 [限制和防护](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
+在Campaign Standard20.4版本中，HTTP响应数据大小限制和响应超时护栏已降低，从而符合最佳实践 — 请参阅 [限制和防护](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -96,7 +96,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 示例 JSON 定义必须具有&#x200B;**以下特征**：
 
 * **数组元素**必须包含第一级属性（不支持更深层级别）。
-   **属性名称**&#x200B;最终将成为输出临时表之输出架构的列名称。
+  **属性名称**&#x200B;最终将成为输出临时表之输出架构的列名称。
 * 要捕获的 **JSON 元素** 在 JSON 响应中的嵌套级别不得大于 10。
 * **列名称**定义基于“data”数组的第一个元素。
 列定义（添加/删除）和属性的类型值，可以在 **Column definition** 选项卡中进行编辑。
@@ -114,13 +114,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。此 **[!UICONTROL URL]** 字段允许您定义 **HTTPS端点** 该Campaign Standard将与进行通信。
+通过此选项卡，可以定义连接端点。此 **[!UICONTROL URL]** 字段，用于定义 **HTTPS端点** 该Campaign Standard将与进行通信。
 
-如果端点需要，可以使用两种类型的身份验证方法：
+如果端点需要，则可以使用两种类型的身份验证方法：
 
 * 基本身份验证：在 **[!UICONTROL Request Header(s)]** 部分。
 
-* Oauth身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帐户中，您可以选择定义了OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
+* Oauth身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帐户中，您可以选择定义OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ## 测试
 
-要使用简单的测试端点测试外部API功能，您可以使用Postman Echo： https://docs.postman-echo.com。
+要使用简单的测试端点测试外部API功能，您可以使用Postman Echo： https://docs.postman-echo.com.
 
 ## 疑难解答
 

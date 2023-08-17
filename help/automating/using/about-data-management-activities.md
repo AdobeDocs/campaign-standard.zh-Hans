@@ -1,6 +1,6 @@
 ---
 title: 关于数据管理活动
-description: 可以从屏幕左侧访问数据管理活动。
+description: 数据管理活动可从屏幕左侧获得。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 从屏幕左侧的面板，展开 **[!UICONTROL Data management (ETL)]** 部分。
 
-这些活动允许您处理数据。 例如，它们允许您导入数据、对数据库字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
+这些活动允许您处理数据。 例如，您可以使用它们导入数据、对数据库字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
 
 ![](assets/wkf_etl_activities.png)
 
@@ -32,4 +32,4 @@ ht-degree: 55%
 * [提取文件](../../automating/using/extract-file.md)
 * [订阅服务](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 活动允许您定义 **段代码** 他们的叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Data management (ETL)]** 活动允许您定义 **段代码** 适合他们的叫客过渡。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。

@@ -28,4 +28,4 @@ ht-degree: 0%
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. 声明参数后，完成工作流配置，然后运行它。
+1. 声明参数后，请完成工作流配置，然后运行它。

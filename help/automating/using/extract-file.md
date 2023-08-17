@@ -43,7 +43,7 @@ ht-degree: 79%
    ![](assets/wkf_data_export1.png)
 
 1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：2015年8月15日08时生成的文件的recipients_20150815_081532.txt:15:32.
+1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：2015年8月15日08时生成的文件，其名称为recipients_20150815_081532.txt:15:32.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ ht-degree: 79%
 
 1. 如果需要，可以通过在 **[!UICONTROL Add a post-processing stage]** 字段中选择 **[!UICONTROL Compression]** 以压缩输出文件。输出文件将压缩为 GZIP 文件 (.gz)。
 
-   此 **[!UICONTROL Add a post-processing stage]** 字段还允许您在解压缩文件之前对其进行加密。 有关如何使用加密文件的更多信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a post-processing stage]** 字段还允许您在解压缩文件之前对其进行加密。 有关如何使用加密文件的详细信息，请参阅 [本节](../../automating/using/managing-encrypted-data.md)
 
 1. 单击 **[!UICONTROL Create element]** 按钮以添加输出列。
 

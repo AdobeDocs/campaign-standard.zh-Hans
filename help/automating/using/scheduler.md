@@ -34,12 +34,12 @@ ht-degree: 89%
 >
 >活动的 **[!UICONTROL Repetition frequency]** 不能少于 10 分钟。这意味着工作流不能每 10 分钟自动执行多次。
 
-在设计包含多个活动的计划工作流时，您需要确保在该工作流完成之前不会重新计划该工作流。 要实现此目的，您需要配置工作流，以防止在先前执行的一个或多个任务仍然挂起时执行该工作流。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
+在设计包含多个活动的已计划工作流时，您需要确保在该工作流完成之前不会重新计划该工作流。 要实现此目的，您需要配置工作流，以防止在先前执行的一个或多个任务仍然等待执行时执行该工作流。 有关详细信息，请参见[此页面](../../automating/using/scheduled-workflows-execution.md)。
 
 **相关主题：**
 
 * [用例：在用户档案的创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
-* [用例：创建每星期二发送的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [用例：创建每个星期二发送的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
 
 ## 配置 {#configuration}
 

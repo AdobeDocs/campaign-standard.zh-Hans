@@ -220,7 +220,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 将字符串转换为日期+时区。<br /> 示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00”，“亚洲/德黑兰”)<br /> </td> 
+   <td> 将字符串转换为日期+时区。<br /> 示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00”、“亚洲/德黑兰”)<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 

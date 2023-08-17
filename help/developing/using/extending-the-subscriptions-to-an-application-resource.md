@@ -27,7 +27,7 @@ ht-degree: 24%
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 在 **[!UICONTROL Fields]** 类别 **[!UICONTROL Data structure]** 选项卡，通过单击 **[!UICONTROL Add field]** 按钮。
+1. 在 **[!UICONTROL Fields]** 的类别 **[!UICONTROL Data structure]** 选项卡，通过单击 **[!UICONTROL Add field]** 按钮。
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 24%
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在 **[!UICONTROL Link to profiles]** 类别，配置用于将用户档案从Adobe Campaign数据库链接到应用程序的订阅者（如电子邮件）的协调键。
+1. 在 **[!UICONTROL Link to profiles]** 类别，配置用于将Adobe Campaign数据库中的用户档案链接到应用程序的订阅者的协调键，如电子邮件。
 
-   请注意，对于应用程序内消息，您只能为所有移动应用程序定义一个对帐密钥。
+   请注意，对于应用程序内消息，您只能为所有移动应用程序定义一个合并关键项。
 
    ![](assets/in_app_personal_data_3.png)
 

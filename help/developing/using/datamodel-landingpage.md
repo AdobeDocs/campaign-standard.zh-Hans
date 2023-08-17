@@ -1,5 +1,5 @@
 ---
-title: DataModel登录页面
+title: 数据模型登录页面
 description: 了解数据模型
 audience: designing
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 # landingPage (nms：landingPage)
 
-## 对象描述
+## 对象说明
 
 <table>
       <tr>
@@ -83,7 +83,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>contextResourceType</td>
-         <td>ContextResourceType</td>
+         <td>Contextresourcetype</td>
          <td>字符串 </td>
          <td> </td>
       </tr>
@@ -100,15 +100,15 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>cryptkey</td>
+         <td>cryptKey</td>
          <td>AES加密密钥</td>
          <td>字符串(64)</td>
          <td> </td>
       </tr>
       <tr>
+         <td>defaultlanguage</td>
          <td>默认语言</td>
-         <td>默认语言</td>
-         <td>明细列表（字符串） (255)</td>
+         <td>枚举（字符串） (255)</td>
          <td>
             <ul>
                <li>希腊语 — el - el</li>
@@ -116,44 +116,44 @@ ht-degree: 8%
                <li>中文 — zh - zh</li>
                <li>法语（法国） - fr_FR - fr_FR</li>
                <li>越南语 — vi - vi</li>
-               <li>葡萄牙语（葡萄牙） — pt_PT - pt_PT</li>
-               <li>意大利语（意大利） — it_IT - it_IT</li>
+               <li>葡萄牙语（葡萄牙） - pt_PT - pt_PT</li>
+               <li>意大利语（意大利） - it_IT - it_IT</li>
                <li>意大利语 — it - it</li>
-               <li>荷兰语（比利时） — nl_BE - nl_BE</li>
-               <li>挪威语（挪威） — no_NO - no_NO</li>
+               <li>荷兰语（比利时） - nl_BE - nl_BE</li>
+               <li>挪威语（挪威） - no_NO - no_NO</li>
                <li>荷兰语（荷兰） — nl_NL - nl_NL</li>
                <li>阿拉伯语 — ar - ar</li>
-               <li>英语（美国） — en_US - en_US</li>
+               <li>英语（美国） - en_US - en_US</li>
                <li>爱尔兰语 — ga - ga</li>
                <li>捷克语 — cs - cs</li>
-               <li>爱沙尼亚语 — 东部时间 — 东部时间</li>
-               <li>印尼语 — id - id</li>
+               <li>爱沙尼亚语 — et - et</li>
+               <li>印度尼西亚语 — id - id</li>
                <li>西班牙语 — es - es</li>
                <li>俄语 — ru - ru</li>
                <li>荷兰语 — nl - nl</li>
                <li>瓦隆 — 瓦 — 瓦</li>
                <li>葡萄牙语 — pt - pt</li>
-               <li>法语（比利时） — fr_BE - fr_BE</li>
+               <li>法语（比利时） - fr_BE - fr_BE</li>
                <li>拉脱维亚语 — lv - lv</li>
                <li>立陶宛语 — lt - lt</li>
-               <li>泰语 — th - th</li>
+               <li>泰语 — th -th</li>
                <li>英语（英国） — en_GB - en_GB</li>
                <li>法语 — fr - fr</li>
-               <li>葡萄牙语（巴西） — pt_BR - pt_BR</li>
+               <li>葡萄牙语（巴西） - pt_BR - pt_BR</li>
                <li>德语 — de - de</li>
                <li>丹麦语 — da - da</li>
                <li>芬兰语 — fi - fi</li>
                <li>匈牙利语 — hu - hu</li>
                <li>瑞典语（芬兰） — sv_FI - sv_FI</li>
                <li>日语 — ja - ja</li>
-               <li>希伯来语 — he- he</li>
+               <li>希伯来语 — he - he</li>
                <li>韩语 — ko - ko</li>
                <li>瑞典语 — sv - sv</li>
                <li>瑞典（瑞典语） - sv_SE - sv_SE</li>
                <li>斯洛伐克语 — sk - sk</li>
                <li>马耳他语 — mt - mt</li>
                <li>意大利语（瑞士） - it_CH - it_CH</li>
-               <li>波兰语 — 波兰 — 波兰 — 波兰</li>
+               <li>波兰语 — pl - pl</li>
                <li>斯洛文尼亚语 — sl - sl</li>
                <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
@@ -174,7 +174,7 @@ ht-degree: 8%
       <tr>
          <td>设计语言</td>
          <td>设计语言</td>
-         <td>明细列表（字符串） (255)</td>
+         <td>枚举（字符串） (255)</td>
          <td>
             <ul>
                <li>希腊语 — el - el</li>
@@ -182,44 +182,44 @@ ht-degree: 8%
                <li>中文 — zh - zh</li>
                <li>法语（法国） - fr_FR - fr_FR</li>
                <li>越南语 — vi - vi</li>
-               <li>葡萄牙语（葡萄牙） — pt_PT - pt_PT</li>
-               <li>意大利语（意大利） — it_IT - it_IT</li>
+               <li>葡萄牙语（葡萄牙） - pt_PT - pt_PT</li>
+               <li>意大利语（意大利） - it_IT - it_IT</li>
                <li>意大利语 — it - it</li>
-               <li>荷兰语（比利时） — nl_BE - nl_BE</li>
-               <li>挪威语（挪威） — no_NO - no_NO</li>
+               <li>荷兰语（比利时） - nl_BE - nl_BE</li>
+               <li>挪威语（挪威） - no_NO - no_NO</li>
                <li>荷兰语（荷兰） — nl_NL - nl_NL</li>
                <li>阿拉伯语 — ar - ar</li>
-               <li>英语（美国） — en_US - en_US</li>
+               <li>英语（美国） - en_US - en_US</li>
                <li>爱尔兰语 — ga - ga</li>
                <li>捷克语 — cs - cs</li>
-               <li>爱沙尼亚语 — 东部时间 — 东部时间</li>
-               <li>印尼语 — id - id</li>
+               <li>爱沙尼亚语 — et - et</li>
+               <li>印度尼西亚语 — id - id</li>
                <li>西班牙语 — es - es</li>
                <li>俄语 — ru - ru</li>
                <li>荷兰语 — nl - nl</li>
                <li>瓦隆 — 瓦 — 瓦</li>
                <li>葡萄牙语 — pt - pt</li>
-               <li>法语（比利时） — fr_BE - fr_BE</li>
+               <li>法语（比利时） - fr_BE - fr_BE</li>
                <li>拉脱维亚语 — lv - lv</li>
                <li>立陶宛语 — lt - lt</li>
-               <li>泰语 — th - th</li>
+               <li>泰语 — th -th</li>
                <li>英语（英国） — en_GB - en_GB</li>
                <li>法语 — fr - fr</li>
-               <li>葡萄牙语（巴西） — pt_BR - pt_BR</li>
+               <li>葡萄牙语（巴西） - pt_BR - pt_BR</li>
                <li>德语 — de - de</li>
                <li>丹麦语 — da - da</li>
                <li>芬兰语 — fi - fi</li>
                <li>匈牙利语 — hu - hu</li>
                <li>瑞典语（芬兰） — sv_FI - sv_FI</li>
                <li>日语 — ja - ja</li>
-               <li>希伯来语 — he- he</li>
+               <li>希伯来语 — he - he</li>
                <li>韩语 — ko - ko</li>
                <li>瑞典语 — sv - sv</li>
                <li>瑞典（瑞典语） - sv_SE - sv_SE</li>
                <li>斯洛伐克语 — sk - sk</li>
                <li>马耳他语 — mt - mt</li>
                <li>意大利语（瑞士） - it_CH - it_CH</li>
-               <li>波兰语 — 波兰 — 波兰 — 波兰</li>
+               <li>波兰语 — pl - pl</li>
                <li>斯洛文尼亚语 — sl - sl</li>
                <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
@@ -263,7 +263,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>identificationByUrlParam</td>
-         <td>按URL参数标识</td>
+         <td>通过URL参数标识</td>
          <td>布尔值 </td>
          <td> </td>
       </tr>
@@ -324,7 +324,7 @@ ht-degree: 8%
       <tr>
          <td>logicalStatus</td>
          <td>执行状态</td>
-         <td>明细列表（字符串） (255)</td>
+         <td>枚举（字符串） (255)</td>
          <td>
             <ul>
                <li>进行中 — 已开始 — 已开始</li>
@@ -344,7 +344,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
-         <td>事务型消息</td>
+         <td>事务性消息</td>
          <td>链接 </td>
          <td> </td>
       </tr>
@@ -373,7 +373,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>程序(programBase)</td>
+         <td>program (programBase)</td>
          <td>项目</td>
          <td>链接 </td>
          <td> </td>
@@ -405,7 +405,7 @@ ht-degree: 8%
       <tr>
          <td>reconciliationUpdateStrategy</td>
          <td>更新策略</td>
-         <td>明细列表（字节） </td>
+         <td>枚举（字节） </td>
          <td>
             <ul>
                <li>更新 — updateTarget - 1</li>
@@ -421,9 +421,9 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>specificaction</td>
+         <td>specificAction</td>
          <td>特定操作</td>
-         <td>明细列表（字节） </td>
+         <td>枚举（字节） </td>
          <td>
             <ul>
                <li>黑名单 — 黑名单 — 3</li>
@@ -443,7 +443,7 @@ ht-degree: 8%
       <tr>
          <td>state</td>
          <td>状态</td>
-         <td>明细列表（字节） </td>
+         <td>枚举（字节） </td>
          <td>
             <ul>
                <li>编辑 — 编辑 — 0</li>
@@ -455,7 +455,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>目标资源</td>
+         <td>targetresource</td>
          <td>定位维度</td>
          <td>字符串(255)</td>
          <td> </td>
@@ -498,13 +498,13 @@ ht-degree: 8%
                <li>(GMT+03:00)莫斯科，圣彼得堡，伏尔加格勒 — 欧洲_莫斯科 — 欧洲/莫斯科</li>
                <li>(GMT+09:30)阿德莱德 — 澳大利亚_阿德莱德 — 澳大利亚/阿德莱德</li>
                <li>(GMT+10:00)堪培拉，墨尔本，悉尼 — 澳大利亚_堪培拉 — 澳大利亚/堪培拉</li>
-               <li>(GMT+08:00)珀斯 — 澳大利亚_珀斯 — 澳大利亚/珀斯</li>
+               <li>(GMT+08:00)珀斯 — 澳大利亚珀斯 — 澳大利亚/珀斯</li>
                <li>(GMT+09:00)雅库茨克 — 亚洲_雅库茨克 — 亚洲/雅库茨克</li>
                <li>(GMT-10:00)夏威夷 — 太平洋_檀香山 — 太平洋/檀香山</li>
                <li>(GMT+04:00)巴库 — 亚洲_巴库 — 亚洲/巴库</li>
                <li>(GMT+10:00)符拉迪沃斯托克 — 亚洲_符拉迪沃斯托克 — 亚洲/符拉迪沃斯托克</li>
                <li>(GMT+09:00)首尔 — 亚洲_首尔 — 亚洲/首尔</li>
-               <li>(GMT+01:00)萨拉热窝、斯科普列、索菲亚、华沙、萨格勒布 — 欧洲_萨拉热窝 — 欧洲/萨拉热窝</li>
+               <li>(GMT+01:00)萨拉热窝，斯科普列，索菲亚，华沙，萨格勒布 — 欧洲_萨拉热窝 — 欧洲/萨拉热窝</li>
                <li>服务器时区 — _server_ - _server_</li>
                <li>(GMT+04:00)阿布扎比，马斯喀特 — 亚洲_马斯喀特 — 亚洲/马斯喀特</li>
                <li>(GMT+08:00)吉隆坡、新加坡 — 亚洲_吉隆坡 — 亚洲/吉隆坡</li>
@@ -527,19 +527,19 @@ ht-degree: 8%
                <li>默认 — _inherit_ - _inherit_</li>
                <li>(GMT+03:00)格林威治标准时间加3小时 — Gmt_p3 - Etc/GMT-3</li>
                <li>(GMT-04:30)加拉加斯 — 美洲_加拉加斯 — 美洲/加拉加斯</li>
-               <li>(GMT+01:00)阿姆斯特丹、柏林、伯尔尼、罗马、斯德哥尔摩、维也纳 — 欧洲_柏林 — 欧洲/柏林</li>
+               <li>(GMT+01:00)阿姆斯特丹，柏林，伯尔尼，罗马，斯德哥尔摩，维也纳 — 欧洲_柏林 — 欧洲/柏林</li>
                <li>(GMT-07:00)奇瓦瓦，拉巴斯，马萨特兰 — 美洲_奇瓦瓦 — 美洲/奇瓦瓦</li>
                <li>(GMT+03:00)内罗毕 — 非洲_内罗毕 — 非洲/内罗毕</li>
                <li>(GMT-04:00)亚松森 — 美洲_亚松森 — 美洲/亚松森</li>
                <li>(GMT+03:00)巴格达 — 亚洲_巴格达 — 亚洲/巴格达</li>
                <li>(GMT-10:00)格林威治标准时间减10小时 — Gmt_m10 - Etc/GMT+10</li>
-               <li>(GMT-03:00)格陵兰 — 美洲_哥特哈布 — 美洲/哥特哈布</li>
+               <li>(GMT-03:00)格陵兰 — 美洲_戈特哈布 — 美洲/戈特哈布</li>
                <li>(GMT+02:00)达马斯 — 亚洲_大马士革 — 亚洲/大马士革</li>
                <li>(GMT-11:00)萨摩亚 — 太平洋_萨摩亚 — 太平洋/萨摩亚</li>
                <li>(GMT-05:00)波哥大，利马，基多 — 美洲_波哥大 — 美洲/波哥大</li>
                <li>(GMT+01:00)布鲁塞尔，哥本哈根，马德里，巴黎 — 欧洲_巴黎 — 欧洲/巴黎</li>
                <li>(GMT+08:00)北京，重庆，香港，乌鲁木齐 — 亚洲_上海 — 亚洲/上海</li>
-               <li>(GMT+12:00)菲德吉 — 太平洋_斐济 — 太平洋/斐济</li>
+               <li>(GMT+12:00)斐济 — 太平洋_斐济 — 太平洋/斐济</li>
                <li>(GMT+02:00)雅典，伊斯坦布尔，明斯克 — 欧洲_雅典 — 欧洲/雅典</li>
                <li>(GMT+04:00)第比利斯 — 亚洲_第比利斯 — 亚洲/第比利斯</li>
                <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
@@ -563,14 +563,14 @@ ht-degree: 8%
                <li>(GMT+09:30)达尔文 — 澳大利亚_达尔文 — 澳大利亚/达尔文</li>
                <li>(GMT-05:00)东部标准时间（美国和加拿大） — 美洲_纽约 — 美洲/纽约</li>
                <li>(GMT-05:00)格林威治标准时间减5小时 — Gmt_m5 - Etc/GMT+5</li>
-               <li>(GMT+05:00)伊斯兰玛巴德，卡拉奇，塔肯特 — 亚洲_卡拉奇 — 亚洲/卡拉奇</li>
-               <li>(GMT+03:00)科韦，利雅德 — 亚洲_利雅得 — 亚洲/利雅得</li>
+               <li>(GMT+05:00)伊斯兰堡，卡拉奇，塔肯特 — 亚洲_卡拉奇 — 亚洲/卡拉奇</li>
+               <li>(GMT+03:00)科韦特，利雅德 — 亚洲_利雅得 — 亚洲/利雅得</li>
                <li>(GMT-08:00)格林威治标准时间减8小时 — Gmt_m8 - Etc/GMT+8</li>
                <li>(GMT-01:00)亚速尔群岛 — 大西洋_亚速尔群岛 — 大西洋/亚速尔群岛</li>
                <li>(GMT+07:00)曼谷，河内，雅加达 — 亚洲_曼谷 — 亚洲/曼谷</li>
                <li>(GMT)蒙罗维亚 — 非洲_蒙罗维亚 — 非洲/蒙罗维亚</li>
                <li>(GMT-09:00)阿拉斯加 — 美洲_安克雷奇 — 美洲/安克雷奇</li>
-               <li>(GMT+01:00)贝尔格莱德、布拉迪斯拉发、布达佩斯、卢布尔雅那、布拉格 — 欧洲_贝尔格莱德 — 欧洲/贝尔格莱德</li>
+               <li>(GMT+01:00)贝尔格莱德，布拉迪斯拉发，布达佩斯，卢布尔雅那，布拉格 — 欧洲_贝尔格莱德 — 欧洲/贝尔格莱德</li>
                <li>(GMT)雷克雅未克 — 大西洋_雷克雅未克 — 大西洋/雷克雅未克</li>
                <li>(GMT+02:00)布加勒斯特 — 欧洲_布加勒斯特 — 欧洲/布加勒斯特</li>
                <li>(GMT+05:00)格林威治标准时间加5小时 — Gmt_p5 - Etc/GMT-5</li>
@@ -589,8 +589,8 @@ ht-degree: 8%
                <li>(GMT-03:00)布宜诺斯艾利斯，卡宴，福塔莱萨 — 美洲_布宜诺斯艾利斯 — 美洲/布宜诺斯艾利斯</li>
                <li>(GMT-07:00)落基山脉（美国和加拿大） — 美洲_丹佛 — 美洲/丹佛</li>
                <li>(GMT+01:00)中非 — 西部 — 非洲_罗安达 — 非洲/罗安达</li>
-               <li>(GMT+02:00)赫尔辛基、基辅、里加、索非亚、塔林、维尔纽斯 — 欧洲_赫尔辛基 — 欧洲/赫尔辛基</li>
-               <li>(GMT)格林尼治标准时间：都柏林、爱丁堡、里斯本、伦敦 — 欧洲_伦敦 — 欧洲/伦敦</li>
+               <li>(GMT+02:00)赫尔辛基，基辅，里加，索菲亚，塔林，维尔纽斯 — 欧洲_赫尔辛基 — 欧洲/赫尔辛基</li>
+               <li>(GMT)格林尼治标准时间：都柏林，爱丁堡，里斯本，伦敦 — 欧洲_伦敦 — 欧洲/伦敦</li>
                <li>(GMT-07:00)亚利桑那 — 美洲_凤凰城 — 美洲/凤凰城</li>
                <li>(GMT+02:00)贝鲁特 — 亚洲_贝鲁特 — 亚洲/贝鲁特</li>
                <li>(GMT+04:30)喀布尔 — 亚洲_喀布尔 — 亚洲/喀布尔</li>
@@ -626,7 +626,7 @@ ht-degree: 8%
       <tr>
          <td>类型</td>
          <td>类型</td>
-         <td>明细列表（字节） </td>
+         <td>枚举（字节） </td>
          <td>
             <ul>
                <li>通用 — 通用 — 0</li>
@@ -675,7 +675,7 @@ ht-degree: 8%
     <th>类型</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>文本</td>
     <td>字符串</td>
     </tr>
 </table>
@@ -693,7 +693,7 @@ ht-degree: 8%
     </tr>
 </table>
 
-通过定位资源(byTargetResource)
+按定向资源(byTargetResource)
 
 <table>
 <tr>
@@ -701,7 +701,7 @@ ht-degree: 8%
 <th>类型</th>
 </tr>
 <tr>
-<td>目标资源</td>
+<td>targetresource</td>
 <td>字符串</td>
 </tr>
 </table>
@@ -732,7 +732,7 @@ ht-degree: 8%
         </tr>
     </table>
 
-在给定期间内存在（按日历）
+在给定时间段内存在（按日历）
 
 <table>
         <tr>

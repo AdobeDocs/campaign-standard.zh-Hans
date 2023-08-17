@@ -17,30 +17,30 @@ ht-degree: 6%
 
 # 导出列表{#exporting-lists}
 
-Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 导出文件中的列表会在中生成一个日志条目 **[!UICONTROL Export audits]** 菜单。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
+Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 导出文件中的列表会在中生成日志条目 **[!UICONTROL Export audits]** 菜单。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
 
 ![](assets/do-not-localize/how-to-video.png) [了解如何在视频中配置列表](#video)
 
-默认情况下，导出列表选项允许导出最多100,000行，具体行数由 **Nms_ExportListLimit** 选项。 该选项可由功能管理员管理，位于 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜单。
+默认情况下，导出列表选项允许导出最多100,000行，具体行数由 **Nms_ExportListLimit** 选项。 功能管理员可通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜单。
 
-导出列表适用于所有具有 **列表** 模式视图，适用于具有以下特征的用户： **[!UICONTROL EXPORT (export)]** 角色。
+导出列表适用于所有具有 **列表** 模式视图，适用于具有下列参数的用户： **[!UICONTROL EXPORT (export)]** 角色。
 
 1. 转到您选择的 **列表** 屏幕。 例如，测试用户档案概述屏幕( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
 1. 检查屏幕是否位于 **列表** 模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用将列表中的列按您想要导出的顺序组织 **[!UICONTROL Configure list]** 按钮，位于右上角。 除了已配置的列之外，还将导出资源的主键。
+1. 使用按您想要导出的顺序组织列表中的列 **[!UICONTROL Configure list]** 按钮，在右上角。 除了已配置的列之外，还将导出资源的主键。
 1. 如果需要，可以应用过滤器。 为此，请单击左上角的按钮以显示搜索窗格。
 
    如果从包含不同资源的列表执行导出，则必须应用过滤器，以便列表中只显示一种类型的资源。
 
-1. 如果需要，可对所选列进行排序。
+1. 如果您愿意，可以对您选择的列进行排序。
 1. 选择导出按钮 ![](assets/exportlistbutton.png).
 
-   此时将显示一个用于确认导出的弹出窗口。 确认导出后，文件将自动下载到您的计算机。
+   此时将显示一个弹出窗口，用于确认导出。 确认导出后，文件将自动下载到您的计算机。
 
-该文件以CSV格式生成，扩展名为.TXT。 根据导出的资源和导出日期进行命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12点执行的配置文件导出:02:53. 它以UTF-8格式编码。
+该文件以CSV格式生成，扩展名为.TXT。 根据导出的资源和导出日期进行命名。 例如：名称profileBase_20150426_120253.txt将应用于2015年4月26日12点执行的配置文件导出:02:53. 它采用UTF-8格式编码。
 
 数值和日期会考虑执行导出的用户的本地时间（区域设置）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 

@@ -24,6 +24,6 @@ ht-degree: 17%
 
    ![](assets/extsignal_monitoring_2.png)
 
-1. 此时将显示任务的执行上下文（ID、状态、持续时间等），包括现在可在工作流中使用的所有事件变量。
+1. 此时会显示任务的执行上下文（ID、状态、持续时间等），其中包括工作流中现在可以使用的所有事件变量。
 
    ![](assets/extsignal_monitoring_3.png)

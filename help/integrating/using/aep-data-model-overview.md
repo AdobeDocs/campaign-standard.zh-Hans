@@ -1,6 +1,6 @@
 ---
-title: 体验数据模型概述
-description: Experience Data Model (XDM)是一组标准的数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
+title: Experience数据模型概述
+description: Experience Data Model (XDM)是一组标准数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# 体验数据模型概述 {#experience-data-model-overview}
+# Experience数据模型概述 {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-Experience Data Model (XDM)是一组标准的数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
+Experience Data Model (XDM)是一组标准数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
 
-XDM架构的创建和管理可通过专用API或XDM用户界面进行。
+XDM模式的创建和管理可通过专用的API或XDM用户界面进行。
 
 ## XDM工作区 {#xdm-workspace}
 
 XDM工作区提供了查看、创建和扩展数据架构的功能。
 
-要访问XDM用户界面，请打开Adobe Experience Platform。 导航到数据模型窗口以创建或扩展XDM架构。
+要访问XDM用户界面，请打开Adobe Experience Platform。 导航到“数据模型”窗口以创建或扩展XDM架构。
 
 请参阅完整版 [XDM工作区文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 

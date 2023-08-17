@@ -29,9 +29,9 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign使用的数据是通过中定义的不同资源定义的 **预定义的数据模型**. 数据模型为一组与营销相关的资源（投放、受众、登陆页面、用户档案等）显示现成的SQL结构。 每个资源都带有关联的过滤器，允许您浏览这些资源。
+Campaign使用的数据是通过中定义的不同资源定义的 **预定义数据模型**. 数据模型为一组与营销相关的资源（投放、受众、登陆页面、用户档案等）显示现成的SQL结构。 每个资源都附带关联的过滤器，允许您浏览这些资源。
 
-此 **诊断** 菜单可让您列出Campaign Standard生成的技术对象：数据架构、网页、过滤器等，从而允许您监视数据模型及其所做的任何更改。
+此 **诊断** 菜单可让您列出由Campaign Standard生成的技术对象：数据架构、网页、过滤器等，并允许您监视数据模型及其所做的任何更改。
 
 了解更多信息:
 
@@ -44,9 +44,9 @@ Campaign使用的数据是通过中定义的不同资源定义的 **预定义的
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard允许您 **丰富预定义的数据模型** 创建自己的资源（例如，添加Purchase或Product表），或使用新字段扩展现有资源。 您还可以配置Campaign屏幕，以优化浏览已创建的新资源和字段。
+Campaign Standard允许您 **丰富预定义的数据模型** 创建自己的资源（例如，添加Purchase或Product表），或使用新字段扩展现有资源。 您还可以配置Campaign屏幕，以优化已创建的新资源和字段中的导航。
 
-此外，您还可以 **扩展Campaign StandardREST API** 以便在API中公开自定义资源配置文件的extended字段。 例如，这可让您使用从计费系统生成的促销代码更新客户的用户档案。
+此外，您可以 **扩展Campaign StandardREST API** 以便在API中公开自定义资源配置文件的扩展字段。 例如，这可让您使用从计费系统生成的促销代码更新客户的用户档案。
 
 了解更多信息:
 
@@ -59,7 +59,7 @@ Campaign Standard允许您 **丰富预定义的数据模型** 创建自己的资
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-借助Campaign StandardAPI，可为Adobe Campaign Standard创建集成，并通过将Campaign与您使用的技术面板连接来构建您自己的生态系统。 [Campaign Standard REST API 入门](../../api/using/get-started-apis.md)
+使用Campaign Standard API，通过将Campaign与您使用的技术面板连接，为Adobe Campaign Standard创建集成并构建您自己的生态系统。 [Campaign Standard REST API 入门](../../api/using/get-started-apis.md)
 
 ## 其他资源
 

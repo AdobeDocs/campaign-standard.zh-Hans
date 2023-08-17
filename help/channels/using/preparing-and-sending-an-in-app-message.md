@@ -21,12 +21,12 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：利用此消息类型，可定向订阅了您移动应用程序的 Adobe Campaign 用户档案（CRM 用户档案）。此消息类型可在 Adobe Campaign 中使用可用的用户档案属性进行个性化，但需要在 Mobile SDK 与 Campaign 的应用程序内消息传递服务之间进行安全握手，以确保包含个人和敏感信息的消息仅供授权用户使用。
 
-   要在用户设备上下载此消息类型，Mobile SDK 必须发送关联字段，这些字段用于将移动用户档案连接到 Adobe Campaign 中的 CRM 用户档案。有关支持应用程序内消息所需 SDK API 的更多信息，请参阅本[页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
+  要在用户设备上下载此消息类型，Mobile SDK 必须发送关联字段，这些字段用于将移动用户档案连接到 Adobe Campaign 中的 CRM 用户档案。有关支持应用程序内消息所需 SDK API 的更多信息，请参阅本[页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：利用此消息类型，可向移动应用程序的所有用户（当前或将来）发送消息，即使他们当前在 Adobe Campaign 中没有用户档案。因此，在自定义消息时不可能进行个性化，因为用户档案甚至可能不存在于 Adobe Campaign 中。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：利用此消息类型，可定向在 Adobe Campaign 中具有移动用户档案的移动应用程序所有已知或匿名用户。此消息类型可仅使用非个人属性和非敏感属性进行个性化，并且不需要 Mobile SDK 与 Adobe Campaign 的应用程序内消息传递服务之间进行安全握手。
 
-   有关如何处理个人和敏感数据的更多信息，请参阅[处理具有个人和敏感数据的移动用户档案字段](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+  有关如何处理个人和敏感数据的更多信息，请参阅[处理具有个人和敏感数据的移动用户档案字段](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
@@ -76,19 +76,20 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Mobile Application events]**：在您的移动应用程序中实现的自定义事件。
 
-      有关事件创建的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md)。
+     有关事件创建的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md)。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支持的现成生命周期事件。
 
-      有关生命周期事件的更多信息，请参阅[本页面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
+     有关生命周期事件的更多信息，请参阅[本页面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根据移动应用程序中的感知方式，支持以下三种类别：Adobe Analytics、上下文数据或视图状态。
 
-      请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
+     请注意，这些事件仅在您拥有 Adobe Analytics 许可证时才可用。
 
    * **[!UICONTROL Places]**：以下三个类别利用实时位置数据来提供与上下文相关的移动体验：Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-      有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
+     有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
+
    ![](assets/inapp_creating_4.png)
 
 1. 如果您使用 **[!UICONTROL Analytics Events]**、Adobe Analytics和视图状态事件将根据在数据收集UI的Analytics扩展中配置的报表包自动填充，而上下文数据事件必须手动添加。
@@ -160,7 +161,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 通过投放报告衡量应用程序内消息的影响。有关报告的更多信息，请参考[此章节](../../reporting/using/in-app-report.md)。
 
-1. 发送应用程序内消息后，您可以选择停用投放。 例如，如果要停止特定投放或要使用相同触发器运行新投放，这会很有用。
+1. 发送应用程序内消息后，您可以选择停用投放。 例如，如果要停止特定投放，或者希望使用相同的触发器运行新投放，则此选项非常有用。
 
    单击 **[!UICONTROL Deactivate]** 则 **[!UICONTROL Ok]** 以启动停用请求。
 

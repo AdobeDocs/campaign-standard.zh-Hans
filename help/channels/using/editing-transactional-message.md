@@ -22,13 +22,13 @@ ht-degree: 30%
 
 有关配置和发布事件的步骤，请参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md) 和 [发布事务性事件](../../channels/using/publishing-transactional-event.md) 部分。
 
-访问、编辑和个性化此消息的步骤如下所述。
+访问、编辑和个性化此消息的步骤如下所示。
 
 >[!IMPORTANT]
 >
->仅限具有以下特征的用户： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和编辑事务型消息。
+>仅限具有下列属性的用户： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以访问和编辑事务型消息。
 
-准备好消息后，即可测试和发布消息。 参见 [测试事务型消息](../../channels/using/testing-transactional-message.md) 和 [事务性消息生命周期](../../channels/using/publishing-transactional-message.md).
+消息准备就绪后，即可进行测试和发布。 请参阅 [测试事务型消息](../../channels/using/testing-transactional-message.md) 和 [事务性消息生命周期](../../channels/using/publishing-transactional-message.md).
 
 ## 访问事务型消息 {#accessing-transactional-messages}
 
@@ -43,11 +43,11 @@ ht-degree: 30%
 
    ![](assets/message-center_message-board.png)
 
-您还可以通过位于相应事件配置屏幕左侧区域中的链接，直接访问事务型消息。 参见 [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+您还可以通过位于相应事件配置屏幕左侧区域中的链接，直接访问事务型消息。 请参阅 [预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 个性化事务型消息 {#personalizing-a-transactional-message}
 
-要编辑事务型消息并对其进行个性化，请执行以下步骤。
+要编辑事务型消息并使其个性化，请执行以下步骤。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 30%
 >
 >有关创建基于事件的事务型消息的配置步骤，请参见 [本节](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-例如，您要将通知发送给已将产品添加到购物车并离开网站而不完成购买的网站用户。 此示例请参见 [事务型消息传递工作原理](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 部分。
+例如，您希望向购物车中添加了产品的网站用户发送通知，这些用户无需完成购买即离开网站。 此示例请参见 [事务型消息传递工作原理](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 部分。
 
 1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的更多信息，请参阅 [使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 您还可以扩充消息的内容。 要实现此目的，请从链接到事件配置的表格中添加字段(请参阅 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，选择 **[!UICONTROL Title (salutation)]** 中的字段 **[!UICONTROL Profile]** 表格直至 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. 您还可以扩充消息的内容。 要实现此目的，请从链接到事件配置的表中添加字段(请参阅 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，选择 **[!UICONTROL Title (salutation)]** 中的字段 **[!UICONTROL Profile]** 表格直至 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -211,13 +211,13 @@ For more on creating a collection and related fields when configuring the event,
 
 ## 基于用户档案的事务型消息特性 {#profile-transactional-message-specificities}
 
-您可以基于客户营销用户档案发送事务型消息，这允许您利用所有用户档案信息对消息内容进行个性化、使用退订链接并应用营销类型规则，例如 [疲劳规则](../../sending/using/fatigue-rules.md).
+您可以根据客户营销用户档案发送事务型消息，这样您就可以利用所有用户档案信息个性化消息内容，使用退订链接，并应用营销类型规则，例如 [疲劳规则](../../sending/using/fatigue-rules.md).
 
-* 有关基于事件和基于用户档案的事务型消息之间差异的更多信息，请参阅 [本节](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* 有关基于事件和基于用户档案的事务型消息之间区别的更多信息，请参阅 [本节](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * 有关创建基于用户档案的事务型消息的配置步骤，请参见 [本节](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-创建、编辑和个性化用户档案事务型消息的步骤，通常与创建事件事务型消息的步骤相同。
+创建、编辑和个性化用户档案事务型消息的步骤，与创建事件事务型消息的步骤大致相同。
 
 下方列出了两者之间的差异。
 
@@ -226,13 +226,13 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 选择默认电子邮件模板。与所有营销电子邮件类似，它包含 **退订链接**.
+1. 选择默认电子邮件模板。与所有营销电子邮件类似，它包括 **退订链接**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
    有关模板的更多信息，请参阅 [本节](../../designing/using/using-reusable-content.md#content-templates).
 
-1. 此外，与基于实时事件的配置不同，您拥有 **直接访问所有用户档案信息** 个性化您的消息。 您可以添加 [个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 与处理任何其他标准营销电子邮件一样。
+1. 此外，与基于实时事件的配置不同，您拥有 **直接访问所有用户档案信息** 使您的消息个性化。 您可以添加 [个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 与处理任何其他标准营销电子邮件一样。
 
 1. 在发布消息之前保存更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 

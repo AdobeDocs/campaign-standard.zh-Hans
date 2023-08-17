@@ -21,13 +21,13 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（当前为测试版，仅适用于北美地区）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-Adobe Experience Platform Data Connector通过将XTK数据（Campaign摄取的数据）映射到Adobe Experience Platform上的Experience Data Model (XDM)数据，帮助现有客户使其数据在Adobe Experience Platform上可用。
+Adobe Experience Platform Data Connector通过将XTK数据（在Campaign中引入的数据）映射到Adobe Experience Platform上的Experience Data Model (XDM)数据，帮助现有客户使其数据在Adobe Experience Platform上可用。
 
 请注意，连接器为 **单向** 并将数据从Adobe Campaign Standard发送到Adobe Experience Platform。 数据永远不会从Adobe Experience Platform发送到Adobe Campaign Standard。
 
-Adobe Experience Platform Data Connector **数据工程师** 了解Adobe Campaign Standard自定义资源并了解客户的整体数据架构应如何位于Adobe Experience Platform中。
+Adobe Experience Platform Data Connector **数据工程师** 熟悉Adobe Campaign Standard自定义资源并了解客户的整体数据架构应如何在Adobe Experience Platform中。
 
 以下部分介绍了在Campaign Standard和Adobe Experience Platform之间执行数据映射的关键步骤。 首先创建XDM架构和数据集。
 
@@ -36,35 +36,34 @@ Adobe Experience Platform Data Connector **数据工程师** 了解Adobe Campaig
 >[!NOTE]
 >配置Adobe Experience Platform Data Connector并将数据成功摄取到Adobe Experience Platform中后，您需要启用数据集，以便将数据包含在实时客户资料中。
 >
->可通过API或Adobe Experience Platform界面执行此操作。 有关更多信息，请参阅专用文档：
+>可以通过API或Adobe Experience Platform界面执行此操作。 有关更多信息，请参阅专用文档：
 >
->* [为实时客户配置文件启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [为实时客户个人资料启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [使用API为Real-time Customer Profile和Identity Service配置数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
-
 
 ## 重要概念 {#key-concepts}
 
-* 开箱即用映射仅适用于默认以Campaign Standard提供的字段。 要摄取所有自定义字段和资源，每个客户需要定义自己的映射。
+* 开箱即用映射仅适用于默认以Campaign Standard提供的字段。 为了摄取所有自定义字段和资源，每个客户需要定义自己的映射。
 
-* Adobe Experience Platform Data Connector将定期通过平台推送用户档案数据&#x200B;。 间隔持续时间为15分钟。 可以使用以下方式修改此值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector将定期通过平台推送用户档案数据&#x200B;。 间隔持续时间为15分钟。 可以使用修改此值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * 数据工程师可以发布、修改和暂停从Campaign到Adobe Experience Platform的映射。
 
-* 可以映射任何定向维度。 建议为单个定向维度中的所有字段使用一个映射。
+* 可以映射任何定向维度。 建议为单个定向维度中的所有字段具有一个映射。
 
-* 所有配置文件更新（包括渠道选择加入/选择退出）都包含在批量更新中。
+* 所有配置文件更新（包括渠道选择加入/选择退出）均包含在批量更新中。
 
 * 任何Adobe Campaign Standard或XDM架构更改都需要手动重新映射&#x200B;。
 
-* 跟踪日志和Broadlog数据会自动作为体验事件摄取到Adobe Experience Platform。 此摄取将实时流式传输到Adobe Experience Platform。
+* 跟踪日志和Broadlog数据会自动作为Experience事件摄取到Adobe Experience Platform。 此摄取过程实时流式传输到Adobe Experience Platform。
 
 * Experience CloudID服务(ECID)是默认情况下随Experience Events一起发送的设备标识符。
 
-   它是分配给访客的唯一永久ID，可供Platform Identity服务用于标识不同Experience Cloud解决方案中的同一访客及其数据。 有关详情，请参阅 [Experience CloudIdentity服务帮助](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  它是分配给访客的唯一永久性ID，可供Platform Identity Service用来在不同的Experience Cloud解决方案中识别同一访客及其数据。 有关详细信息，请参见 [Experience CloudIdentity服务帮助](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-   >[!NOTE]
-   >
-   >请注意，如果两个或更多配置文件共享同一设备，则Unified Identity服务中这两个配置文件的ECID将相同。
+  >[!NOTE]
+  >
+  >请注意，如果两个或更多配置文件共享同一设备，则Unified Identity服务中这两个配置文件的ECID将相同。
 
 ## 限制 {#limitations}
 
@@ -76,7 +75,7 @@ Adobe Experience Platform Data Connector **数据工程师** 了解Adobe Campaig
 
 * 只有在Adobe Experience Platform中应用DULE标签后，对营销活动的限制才适用。 在此之前，所有数据都可用于所有类型的营销操作。
 
-* 每15分钟运行一次批处理作业，它标识自最新批处理以来发生更改的记录。 如果所有记录都在同一时间戳中更改，则可能会出现性能瓶颈以管理所有配置文件的摄取
+* 每15分钟运行一次批处理作业，它标识自最新批处理以来发生更改的记录。 如果所有记录在同一时间戳中更改，则可能会出现性能瓶颈，以管理所有配置文件的摄取
 
 ## 教程视频 {#video}
 

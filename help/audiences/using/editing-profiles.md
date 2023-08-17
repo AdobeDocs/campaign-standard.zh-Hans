@@ -29,7 +29,7 @@ ht-degree: 12%
 
    配置文件的属性窗口提供了多个选项卡，用于访问所有配置文件信息。
 
-   其他选项卡可能也会根据在Adobe Campaign中创建或扩展的自定义资源而显示。 有关自定义资源的更多信息，请参阅 [关于自定义资源](../../developing/using/data-model-concepts.md).
+   根据在Adobe Campaign中创建或扩展的自定义资源，还可能会显示其他选项卡。 有关自定义资源的更多信息，请参阅 [关于自定义资源](../../developing/using/data-model-concepts.md).
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 * 联系人信息，其中包含收件人的名字、姓氏、出生日期、照片、首选语言(适用于 [多语言电子邮件](../../channels/using/creating-a-multilingual-email.md))等。
 * 用于联系用户档案的频道，包含收件人的电子邮件地址、手机号码和选择退出信息。
-* 邮政地址(适用于 [直邮](../../channels/using/about-direct-mail.md))，以及联系人的时区(到 [按时区计划消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md))。
+* 邮政地址(用于 [直邮](../../channels/using/about-direct-mail.md))，以及联系人的时区(到 [按时区计划消息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md))。
 * 访问授权，指示收件人的组织单位(至 [管理权限](../../administration/using/about-access-management.md))。 另请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
 
 ![](assets/profile_creation4.png)
@@ -57,7 +57,7 @@ ht-degree: 12%
 
 此 **[!UICONTROL Sending logs]** 和 **[!UICONTROL Tracking logs]** 选项卡对发送到用户档案的投放列表以及所有相关跟踪数据进行分组。
 
-有关发送和跟踪日志的更多信息，请参阅 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs) 和 [跟踪消息](../../sending/using/tracking-messages.md) 部分。
+有关发送和跟踪日志的详细信息，请参阅 [投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs) 和 [跟踪消息](../../sending/using/tracking-messages.md) 部分。
 
 ## 订阅 {#subscriptions}
 

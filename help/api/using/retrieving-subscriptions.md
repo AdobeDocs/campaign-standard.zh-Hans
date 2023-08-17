@@ -19,7 +19,7 @@ ht-degree: 1%
 此过程分为两步。
 
 1. 检索所需服务的订阅URL。
-1. 对订阅URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
+1. 对预订URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
   },
 ```
 
-对订阅URL执行GET请求。
+对预订URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-将显示服务的订阅列表，以及各个关联的配置文件。
+此时将显示服务订阅列表，其中包含每个关联的配置文件。
 
 ```
   {
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 此过程分为两步。
 
-1. 检索给定用户档案的订阅URL。
+1. 检索给定配置文件的订阅URL。
 1. 对URL执行GET请求。 它会返回用户档案的订阅列表，以及每个关联的服务。
 
 <br/>
@@ -115,7 +115,7 @@ ht-degree: 1%
   }
 ```
 
-对订阅URL执行GET请求。
+对预订URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

@@ -1,6 +1,6 @@
 ---
 title: 关于Adobe Campaign Standard中的可投放性
-description: 了解与投放能力相关的概念和最佳实践，以及Adobe Campaign Standard提供的用于优化投放发送的工具。
+description: 了解与投放能力相关的概念和最佳实践，以及Adobe Campaign Standard为优化投放发送提供的工具。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,15 +18,15 @@ ht-degree: 7%
 
 # 什么是可投放性{#about-deliverability}
 
-通过可投放性，可衡量营销活动在到达收件人的收件箱时不会出现退回或标记为垃圾邮件的情况。 [了解可投放性很重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+利用可投放性，可衡量营销活动成功抵达收件人收件箱的情况，而不会出现退回或标记为垃圾邮件的情况。 [了解可投放性很重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-更准确地说，电子邮件可投放性是指一组特征，这些特征可决定消息通过个人电子邮件地址在短时间内到达其目标的能力，以及在内容和格式方面达到预期质量的能力。 <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
+更准确地说，电子邮件可投放性指一组特征，这些特征决定消息在短时间内通过个人电子邮件地址到达其目的地的能力，以及在内容和格式方面达到预期质量。 <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 要更深入地了解什么是可投放性，并详细了解可投放性的关键术语、概念和方法，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans).
 
 ## 如何提高可投放性 {#deliverability-key-points}
 
-可投放性问题通常与Internet服务提供商和邮件服务器管理员实施的防范垃圾邮件措施有关。
+可投放性问题通常与Internet服务提供商和邮件服务器管理员实施的垃圾邮件防护措施有关。
 
 * 有关如何设计成功的电子邮件营销活动的一般建议，请参阅 [可投放性策略和定义](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
@@ -34,9 +34,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->由于ISP必须不断开发新的复杂过滤技术来保护其客户免受垃圾邮件发送者的攻击，因此电子邮件可投放性的特点是标准和规则不断变化。 请务必参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans) ，此版本定期更新。
+>由于ISP有义务不断开发新的复杂过滤技术来保护其客户免受垃圾邮件发送者的攻击，因此电子邮件可投放性具有不断变化的标准和规则的特点。 请确保您参考 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans) 并定期更新。
 
-### 可投放性
+### 可投放性比率
 
 可投放性比率是点击收件人收件箱的消息数量与已投放的消息数量之比。 为了提高可投放性，您可以努力提高此比率。
 
@@ -55,9 +55,9 @@ ht-degree: 7%
 
 Adobe Campaign提供了大量用于跟踪和改进平台可投放性性能的工具。 本页还重点说明了在使用Campaign时优化投放能力应遵循的主要原则。
 
-### 谨慎构建您的消息
+### 仔细构建您的消息
 
-配置、设计和测试消息时，请确保遵循以下部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能可帮助您提高可投放性。
+在配置、设计和测试消息时，请确保遵循以下部分中提到的最佳实践。 利用Adobe Campaign提供的所有功能可帮助您提高可投放性。
 
 * [投放最佳实践](../../sending/using/delivery-best-practices.md)
 * [控制电子邮件内容](../../sending/using/control-email-content.md)
@@ -70,13 +70,13 @@ Adobe Campaign提供了大量用于跟踪和改进平台可投放性性能的工
 
 有关此内容的更多信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-有关从客户处收集数据时的最佳实践的更多信息，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+有关从客户那里收集数据时的最佳实践的更多信息，请参阅 [Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
 ### 利用隔离管理
 
-Adobe Campaign管理一个列表，该列表收集不断发生的垃圾邮件投诉、硬退回和软退回。
+Adobe Campaign管理着收集垃圾邮件投诉、硬退回和一致发生的软退回的列表。
 
-为了保护您的可投放性，默认情况下将从所有未来投放中排除该列表上地址的收件人，因为发送给这些联系人可能会损害您的发送信誉。
+为了保护您的可投放性，默认情况下，该列表中地址包含的收件人将从所有未来投放中排除，因为发送给这些联系人可能会损害您的发送信誉。
 
 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提供商添加到阻止列表。
 
@@ -90,13 +90,12 @@ Adobe Campaign管理一个列表，该列表收集不断发生的垃圾邮件投
 
 使用Adobe Campaign提供的功能监控您的可投放性。
 
-Adobe Campaign允许您通过一组内置实时指标检查投放的执行情况。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->您还可以构建完全可自定义的实时报表，以改进对投放的分析。
+Adobe Campaign允许您通过一组内置实时指标检查投放的执行情况。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->您还可以构建完全可自定义的实时报表，以更好地了解投放情况。
 
 有关更多信息，请参阅以下章节：
 
 * [监测可投放性](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [动态报告](../../reporting/using/about-dynamic-reports.md)
 

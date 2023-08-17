@@ -1,5 +1,5 @@
 ---
-title: DataModel服务
+title: 数据模型服务
 description: 了解数据模型
 audience: developing
 content-type: reference
@@ -10,13 +10,13 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
 # 服务(nms：service)
 
-## 对象描述
+## 对象说明
 
 <table>
                <tr>
@@ -74,7 +74,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>历史记录</td>
+                  <td>history</td>
                   <td>订阅历史记录</td>
                   <td>集合 </td>
                   <td> </td>
@@ -118,7 +118,7 @@ ht-degree: 40%
                <tr>
                   <td>messageType</td>
                   <td>渠道</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>移动设备（短信） — 短信 — 1</li>
@@ -130,7 +130,7 @@ ht-degree: 40%
                <tr>
                   <td>模式</td>
                   <td>模式</td>
-                  <td>明细列表（字节） </td>
+                  <td>枚举（字节） </td>
                   <td>
                      <ul>
                         <li>病毒性 — 病毒性 — 1</li>
@@ -194,7 +194,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>目标资源</td>
+                  <td>targetresource</td>
                   <td>定位维度</td>
                   <td>字符串(255)</td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 40%
 
 ## 筛选器
 
-在给定期间内可用（按Planning）
+在指定期间可用（按Planning）
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-按渠道类型（按渠道）
+按渠道类型(byChannel)
 
 <table>
 <tr>
@@ -283,12 +283,12 @@ ht-degree: 40%
 <th>类型</th>
 </tr>
 <tr>
-<td>text</td>
+<td>文本</td>
 <td>字符串</td>
 </tr>
 </table>
 
-通过定位资源(byTargetResource)
+按定向资源(byTargetResource)
 
 <table>
 <tr>
@@ -296,7 +296,7 @@ ht-degree: 40%
 <th>类型</th>
 </tr>
 <tr>
-<td>目标资源</td>
+<td>targetresource</td>
 <td>字符串</td>
 </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: 添加 Target 动态内容
-description: 了解如何在一个Adobe Campaign投放中添加Adobe Target动态内容。
+description: 了解如何在一个Adobe Target投放中添加Adobe Campaign动态内容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -19,9 +19,9 @@ ht-degree: 5%
 
 通过Adobe Target集成，可以将动态图像添加到投放中，以根据体验对内容进行个性化。
 
-编辑电子邮件时，您可以从Adobe Target插入动态图像，该动态图像将因收件人而异。
+在编辑电子邮件时，您可以从Adobe Target插入动态图像，该动态图像将根据收件人进行更改。
 
-在访问Adobe Campaign中的图像之前，必须首先在Adobe Target中执行以下任务：
+在Adobe Campaign中访问图像之前，必须首先在Adobe Target中执行以下任务：
 
 * 创建一个或多个 [重定向选件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必须在该对话框中指定要使用的图像的URL。
 * 创建一个或多个 [受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定义活动的目标。
@@ -35,17 +35,17 @@ ht-degree: 5%
 
 1. 选择默认显示在电子邮件中的图像。 您可以直接指定图像URL，也可以选择通过以下方式共享的图像 [资产](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
-   该集成仅支持静态图像。 其余内容不可自定义。
+   该集成仅支持静态图像。 内容的其余部分不可自定义。
 
 1. 输入Adobe Target中指定的rawbox的名称。
-1. 如果您在Adobe Target的设置中使用企业权限，请在此字段中添加相应的资产。 在中了解有关Target企业权限的更多信息 [此页面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 此字段是可选的，如果您未在Target中使用企业权限，则它是非必填字段。
-1. In **[!UICONTROL Additional decision parameters]**，指定Adobe Target区段中定义的字段与Adobe Campaign字段之间的映射。
+1. 如果您在Adobe Target的设置中使用企业权限，请在此字段中添加相应的资产。 在中了解有关Target企业权限的更多信息 [此页面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 此字段是可选字段，如果您未在Target中使用企业权限，则它是非必填字段。
+1. 在 **[!UICONTROL Additional decision parameters]**，指定Adobe Target区段中定义的字段与Adobe Campaign字段之间的映射。
 
    使用的Adobe Campaign字段必须在rawbox中指定。 在此示例中，根据收件人的性别定义不同的体验。
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. 预览您的电子邮件，以查看在选择其他用户档案时，插入的图像是否根据Adobe Target活动和Adobe Campaign中指定的参数而发生更改。
+1. 预览您的电子邮件，以查看在选择不同的用户档案时，插入的图像是否根据Adobe Target活动和Adobe Campaign中指定的参数而发生更改。
 
 现在可以发送包含动态图像的投放。 其结果可以在Adobe Target中找到。
 

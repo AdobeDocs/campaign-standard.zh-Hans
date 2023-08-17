@@ -42,4 +42,4 @@ Adobe Campaign 使用的数据，通过不同的资源进行定义。您可通�
 
 >[!CAUTION]
 >
->仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，替换为 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可以访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
+>仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，替换为 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。

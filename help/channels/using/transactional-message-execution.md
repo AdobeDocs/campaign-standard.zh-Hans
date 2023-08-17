@@ -1,6 +1,6 @@
 ---
 title: 事务性消息传递的执行和监控
-description: 了解事务性消息传递的执行并探索如何监测事务性消息。
+description: 了解事务性消息的执行并了解如何监测事务性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -24,13 +24,13 @@ ht-degree: 62%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-An **执行投放** 是每月为每个事务型消息创建一次不可操作、不起作用的技术消息，并且每次都编辑和再次发布事务型消息。
+An **执行投放** 是每月为每个事务型消息创建一次无法操作、无法正常工作的技术消息，并且每次编辑并再次发布事务型消息时都会如此。
 
 **相关主题**：
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [集成事件触发](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## 事务性消息传递重试过程 {#transactional-message-retry-process}
+## 事务性消息传递重试流程 {#transactional-message-retry-process}
 
 临时未投放的事务型消息将会自动重试，一直执行到投放过期为止。有关投放持续时间的更多信息，请参阅[有效性参数](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
@@ -55,7 +55,7 @@ An **执行投放** 是每月为每个事务型消息创建一次不可操作、
 
 >[!NOTE]
 >
->将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放将显示在 **[!UICONTROL Execution list]** “事务性消息发送日志”的选项卡。
+>将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放显示在 **[!UICONTROL Execution list]** 事务性消息发送日志的选项卡。
 
 ### 重试进程限制 {#limitations}
 
@@ -85,7 +85,7 @@ An **执行投放** 是每月为每个事务型消息创建一次不可操作、
 
    ![](assets/message-center_execution_delivery.png)
 
-1. 再次单击 **[!UICONTROL Deployment]** 块。
+1. 再次单击 **[!UICONTROL Deployment]** 封锁。
 
    ![](assets/message-center_execution_access_logs.png)
 
@@ -93,13 +93,13 @@ An **执行投放** 是每月为每个事务型消息创建一次不可操作、
 
 ### 基于用户档案的事务型消息特性 {#profile-transactional-message-monitoring}
 
-对于基于用户档案的事务型消息，您可以监控以下用户档案信息。
+对于基于用户档案的事务型消息，可监控以下用户档案信息。
 
 选择 **[!UICONTROL Sending logs]** 选项卡。在 **[!UICONTROL Status]** 列中，**[!UICONTROL Sent]** 表示用户档案已选择加入。
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-选择 **[!UICONTROL Exclusions logs]** 阻止列表制表符，以查看已从消息目标中排除的收件人，例如在上发送地址。
+选择 **[!UICONTROL Exclusions logs]** 制表符，以查看已从消息目标中排除的收件人，例如在阻止列表时的地址。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

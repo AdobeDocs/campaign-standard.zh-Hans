@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# 排除{#exclusion}
+# 差集{#exclusion}
 
 ## 说明 {#description}
 

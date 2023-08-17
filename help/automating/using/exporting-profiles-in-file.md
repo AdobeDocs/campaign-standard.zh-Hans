@@ -1,6 +1,6 @@
 ---
 title: 在外部文件中导出用户档案
-description: 此用例展示了如何以外部文件的形式导出用户档案列表，以便数据可在Adobe Campaign之外使用。
+description: 此用例展示了如何以外部文件的形式导出用户档案列表，以便在Adobe Campaign之外使用数据。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -38,14 +38,14 @@ ht-degree: 68%
 
    * CSV 输出格式
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * 日期格式
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. 确认您的活动。
-1. 拖放 [传输文件](../../automating/using/transfer-file.md) 活动之后 **[!UICONTROL Extract file]** 活动，用于在外部帐户上恢复提取文件。
+1. 拖放 [传输文件](../../automating/using/transfer-file.md) 活动之后 **[!UICONTROL Extract file]** 活动，以在外部帐户上恢复提取文件。
 1. 打开活动并选择 **[!UICONTROL File upload]** 操作。
 
    ![](assets/wkf_data_export11.png)

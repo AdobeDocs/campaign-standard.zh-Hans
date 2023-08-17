@@ -33,117 +33,117 @@ ht-degree: 0%
 * 配置文件集合中的示例GET请求。
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   它会返回一个配置文件数组。
+  它会返回一个配置文件数组。
 
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "Olivia",
-               "lastName": "Varney",
-               "birthDate": "1977-09-°4",
-               "email": "o.varney@mail.com",
-           },
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName": "Doe",
-               "birthDate": "1985-08-17",
-               "email": "johndoe@mail.com",
-           }
-       ],
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "Olivia",
+              "lastName": "Varney",
+              "birthDate": "1977-09-°4",
+              "email": "o.varney@mail.com",
+          },
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName": "Doe",
+              "birthDate": "1985-08-17",
+              "email": "johndoe@mail.com",
+          }
+      ],
+  }
+  ```
 
 * 有关特定配置文件的示例GET请求。
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   它会返回请求的配置文件。
+  它会返回请求的配置文件。
 
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-       ...
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+      ...
+  }
+  ```
 
 * 创建配置文件的示例POST请求。
 
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"lastName":"Doe"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"lastName":"Doe"}'
+  ```
 
-   它会返回包含默认字段的配置文件。
+  它会返回包含默认字段的配置文件。
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+  }
+  ```
 
 * 更新用户档案的示例PATCH请求。
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"firstName":"Mark"',"lastName":"Smith"}'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"firstName":"Mark"',"lastName":"Smith"}'
+  ```
 
-   它会返回PKEY和URL以检索更新的配置文件。
+  它会返回PKEY和URL以检索更新的配置文件。
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
+  }
+  ```
 
 * 删除配置文件的示例DELETE请求。
 
-   ```
-   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   该请求会返回200响应，确认该用户档案已被删除。
+  该请求会返回200响应，确认用户档案已被删除。

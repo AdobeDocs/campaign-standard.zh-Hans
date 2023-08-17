@@ -34,7 +34,7 @@ ht-degree: 36%
 
    >[!NOTE]
    >
-   >如果丰富了消息，您还可以输入与另一表格相关的信息，例如 **[!UICONTROL Profile]**. 参见 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >如果丰富了消息，您还可以输入与另一表格相关的信息，例如 **[!UICONTROL Profile]**. 请参阅 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. 创建后，将在事务型消息中预先指定测试用户档案。 单击消息的 **[!UICONTROL Test profiles]** 块，可查看校样的目标。
 

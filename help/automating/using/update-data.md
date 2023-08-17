@@ -42,7 +42,7 @@ ht-degree: 98%
    * **[!UICONTROL Insert or update]**：插入数据或更新数据（如果数据库中已存在记录）。
    * **[!UICONTROL Insert only]**：仅插入数据。已存在的记录不会更新。如果定义了协调条件，则只会添加未协调的记录。
 
-      如果导入的数据包含数据库中已存在的某些记录，请勾选 **[!UICONTROL Generate an outbound transition for rejects]** 方框以避免发生任何可能的错误。
+     如果导入的数据包含数据库中已存在的某些记录，请勾选 **[!UICONTROL Generate an outbound transition for rejects]** 方框以避免发生任何可能的错误。
 
    * **[!UICONTROL Update]**：只更新数据库中已存在之记录的数据。
    * **[!UICONTROL Delete]**：删除数据。
