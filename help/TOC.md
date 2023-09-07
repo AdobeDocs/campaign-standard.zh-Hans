@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 帮助中心提供使用 Campaign Standard 所需的主要功能、任务、设置和其他资源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: tm+mt
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Sources 与 Destinations 入门](integrating/using/get-started-sources-destinations.md)
       + [将 Adobe Experience Platform 受众引入 Campaign](integrating/using/ingest-aep-data.md)
       + [将数据从 Campaign 导出到 Adobe Experience Platform](integrating/using/export-campaign-data.md)
-         + Audience Destinations Service（受众目标服务）测试版{#audience-destinations}
-            + [关于 Audience Destinations 服务](integrating/using/aep-about-audience-destinations-service.md)
-            + [管理 Adobe Experience Platform 受众](integrating/using/aep-managing-audiences.md)
-            + [使用 Segment Builder](integrating/using/aep-using-segment-builder.md)
-            + [定位 Adobe Experience Platform 受众](integrating/using/aep-targeting-audiences.md)
-            + [使用 Adobe Experience Platform 属性个性化营销活动](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform Data Connector（测试版）{#data-connector}
-            + [关于 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-            + [Experience Platform 数据模型概述](integrating/using/aep-data-model-overview.md)
-            + [映射定义](integrating/using/aep-mapping-definition.md)
-            + [映射激活](integrating/using/aep-mapping-activation.md)
-            + [通过 API 触发数据摄取](integrating/using/aep-triggering-data-ingestion.md)
 + 管理流程和数据 {#managing-processes-and-data}
    + [数据和流程管理快速入门](automating/using/get-started-workflows.md)
    + 工作流常规操作 {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
    + [故障排除](api/using/troubleshooting.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
+
