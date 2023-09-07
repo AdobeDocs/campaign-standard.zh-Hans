@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ Campaign Standard 22.3 秋/冬版的发行说明已发布。[了解更多信息]
 
 已新增信息来说明在查询中选择 au 受众时，其定义将被复制而不被引用。[阅读更多](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-与 Audience Destinations Service（受众目标服务）和 Adobe Experience Platform Data Connector 相关的信息已重新归纳为一个新的小节。[阅读更多](../../integrating/using/aep-about-audience-destinations-service.md)
+与 Audience Destinations Service（受众目标服务）和 Adobe Experience Platform Data Connector 相关的信息已重新归纳为一个新的小节。
 
 **Declared ID** 数据源现在还可以与 People 核心服务集成一起使用。Campaign-Audience Manager 或 People 核心服务集成文档中添加了信息。[阅读更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **事务性消息**&#x200B;部分已重新组织并汇集到一处，以改进导航。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。[阅读更多](../../integrating/using/aep-mapping-activation.md)
+在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。
 
 ## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 文档主页添加了其他资源。[了解更多](../../campaign-standard-home.md)
 
-Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。[了解更多](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud ID Service (ECID) 相关的信息。
 
 改进了“事务性消息传递”部分，包含有关如何访问最新事务性事件和已更新的屏幕截图的信息。[了解更多](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -346,9 +346,9 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 **此版本中包含的新增功能**
 
-Adobe Experience Platform Data Connector (beta) - [了解更多](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector（测试版）
 
-Audience Destinations (beta) - [了解更多](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta)
 
 **随版本提供的其他文档更新**
 

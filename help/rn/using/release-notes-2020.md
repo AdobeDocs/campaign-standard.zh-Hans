@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '5267'
-ht-degree: 98%
+source-wordcount: '5211'
+ht-degree: 99%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 98%
 
 **Experience Platform 集成**
 
-* 从&#x200B;**读取受众**&#x200B;活动激活 Adobe [Experience Platform 受众](../../integrating/using/aep-targeting-audiences.md)的过程进行了改进，以提供更好的性能和稳定性。此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
+* 从&#x200B;**读取受众**&#x200B;活动激活 Adobe Experience Platform 受众的过程进行了改进，以提供更好的性能和稳定性。此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
 
 **修补程序**
 
@@ -359,7 +359,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档：[Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)、[Audience Destination](../../integrating/using/aep-about-audience-destinations-service.md)
+>Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档：Experience Platform Data Connector、Audience Destination
 
 * 现在，Campaign 在工作流日志中，每 10 分钟显示一次当前正在运行的作业已处理的记录数。
 * 修复了导入已从数据库删除的 Adobe Experience Platform 时可能发生的问题。
@@ -406,7 +406,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 现在集成到了 Adobe Standard 中。您可以将 XTK 数据（Campaign 摄取的数据）映射到 Adobe Experience Platform 数据模型 (XDM)，从而使 Campaign 数据在 Adobe Experience Platform 上可用。 </p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-data-connector.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">操作方法视频</a>。</p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>利用 Audience Destinations，可将来自 Adobe Experience Platform 的区段共享到 Adobe Campaign。</p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。有关激活此功能的能力和条件的更多信息，请参阅<a href="../../integrating/using/aep-about-audience-destinations-service.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">操作方法视频</a>。 </p>
+    <p>请注意，此功能仅适用于在 Azure 上托管的客户。</p>
    </td> 
   </tr> 
  </tbody> 
