@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **事务性消息**&#x200B;部分已重新组织并汇集到一处，以改进导航。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-在“Adobe Experience Platform 数据连接器”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。
+在“Adobe Experience Platform Data Connector”部分中添加了有关与隐私管理相关的数据映射验证错误以及如何对其进行疑难解答的信息。
 
 ## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -346,9 +346,9 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 **此版本中包含的新增功能**
 
-Adobe Experience Platform Data Connector（测试版）
+Adobe Experience Platform Data Connector（Beta 版）
 
-Audience Destinations (beta)
+Audience Destinations（Beta 版）
 
 **随版本提供的其他文档更新**
 
