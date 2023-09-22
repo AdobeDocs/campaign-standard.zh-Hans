@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 24%
+source-wordcount: '254'
+ht-degree: 19%
 
 ---
 
@@ -41,3 +41,10 @@ ht-degree: 24%
 
   详细了解Adobe Campaign和Experience Cloud触发器 [此页面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* **本地化**  — 术语“受众”的翻译指一组旨在接收报文的用户档案，在以下语言的所有数字体验产品中得到了统一：
+
+   * 德语： Zielgruppe
+   * 巴西葡萄牙语：público-alvo
+   * 西班牙语：público destinatario
+
+  这些更改将在下一个UI和文档版本中逐步推出。
