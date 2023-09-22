@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,15 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 所有发行日期都可能会发生更改：请定期访问此页面以检查更新。
 
-## 23.1 版 - 2023 年春/夏季版 {#release-23-1-release}
+## 23.2 版 - 2023 年秋冬版 {#release-23-2-release}
 
 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
-有关此版本的详细信息，请参阅[发行说明](release-notes.md)。
+>[!AVAILABILITY]
+>
+>此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>暂存 </td>
-   <td>2023 年 4 月 11 日 - 2023 年 7 月 </td>
+   <td>2023年10月3日至9日 </td>
   </tr>
   <tr>
    <td>生产 </td>
-   <td>2023 年 4 月 18 日 - 2023 年 7 月 </td>
+   <td>2023年10月12-18日 </td>
   </tr>
  </tbody>
 </table>
