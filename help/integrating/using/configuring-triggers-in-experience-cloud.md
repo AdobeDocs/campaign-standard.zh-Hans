@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe团队需要以下信息来激活触发器：
 
 在Experience Cloud中创建新触发器，并确保选择您网站上使用的报表包。 确保选择正确的维度，以便触发程序。
 
-请参阅 [Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) 看这个 [视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two).
+请参阅 [Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## 触发器最佳实践和限制 {#triggers-best-practices-and-limitations}
 
