@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 19%
 
 ### 改进 {#e-rn-improvements}
 
-* **与Adobe Experience Manager集成**. 在Adobe Experience Manager中为事务型消息创建投放模板时，您现在可以通过选择并使用Campaign Standard中定义的个性化字段来对消息进行个性化设置。 Adobe Experience Manager中提供了新的下拉列表。
+* **与Adobe Experience Manager集成**. 在Adobe Experience Manager中为事务型消息创建个性化投放模板时，您现在可以选择并使用下拉菜单中Campaign Standard定义的个性化字段。
 
-* **Cookie过期**  — 默认Cookie过期时间现在设置为6个月，以符合法国法规。
+* **Cookie过期**  — 默认Cookie过期时间现在设置为6个月，以符合法国数据保护局(CNIL)的建议。
 
 * **配置文件搜索改进**  — 配置文件搜索已优化，因此可以减少搜索超时情况
 
