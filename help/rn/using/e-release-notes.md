@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 19%
 
 ---
@@ -37,10 +37,6 @@ ht-degree: 19%
 
 * **配置文件搜索改进**  — 配置文件搜索已优化，因此可以减少搜索超时情况
 
-* **与Adobe Experience Cloud Triggers集成**  — 适用于Experience Cloud触发器的新用户界面提供了直观的体验，可用于管理消费者行为和个性化用户体验。 Adobe Experience Cloud Triggers新用户界面已逐步向所有客户推出。
-
-  详细了解Adobe Campaign和Experience Cloud触发器 [此页面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
-
 * **本地化**  — 术语“受众”的翻译指一组旨在接收报文的用户档案，在以下语言的所有数字体验产品中得到了统一：
 
    * 德语： Zielgruppe
@@ -48,3 +44,7 @@ ht-degree: 19%
    * 西班牙语：público destinatario
 
   这些更改将在下一个UI和文档版本中逐步推出。
+
+* **与Adobe Experience Cloud Triggers集成** -Experience Cloud触发器的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 Adobe Experience Cloud Triggers的新用户界面将在2023年10月11日至16日期间逐步向所有客户推出。
+
+  详细了解Adobe Campaign和Experience Cloud触发器 [此页面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
