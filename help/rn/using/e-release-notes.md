@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 19%
+source-wordcount: '192'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,3 @@ ht-degree: 19%
 
   这些更改将在下一个UI和文档版本中逐步推出。
 
-* **与Adobe Experience Cloud Triggers集成** -Experience Cloud触发器的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 Adobe Experience Cloud Triggers的新用户界面将在2023年10月11日至16日期间逐步向所有客户推出。
-
-  详细了解Adobe Campaign和Experience Cloud触发器 [此页面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
