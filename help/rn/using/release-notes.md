@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # 最新版本{#latest-release}
 
 ![控制面板](assets/do-not-localize/cp-icon.png) **新的控制面板版本**。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans){target="_blank"}。
+
+
+
+## 23.2 版 - 2023 年秋冬版 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
+
+### 改进 {#fall-23-rn-improvements}
+
+* **与Adobe Experience Manager集成**. 在Adobe Experience Manager中为事务型消息创建个性化投放模板时，您现在可以选择并使用下拉菜单中Campaign Standard定义的个性化字段。 [了解详情](../../integrating/using/creating-email-experience-manager.md)
+
+* **Cookie过期**  — 默认Cookie过期时间现在设置为6个月，以符合法国数据保护局(CNIL)的建议。
+
+* **配置文件搜索改进**  — 配置文件搜索已优化，因此可以减少搜索超时情况
+
+* **本地化**  — 术语“受众”的翻译指一组旨在接收报文的用户档案，在以下语言的所有数字体验产品中得到了统一：
+
+   * 德语： Zielgruppe
+   * 巴西葡萄牙语：público-alvo
+   * 西班牙语：público destinatario
+
+  这些更改将在下一个UI和文档版本中逐步推出。
+
+
+### 其他变更 {#fall-23-rn-other-changes}
+
+* 事务型消息传递现在支持使用多个逗号分隔的亲和度。
+
+### 修复 {#fall-23-rn-fixes}
+
+* 修复了在使用大型工作流时可能导致性能问题的回归。 (CAMP-53369)
+* 修复了工作流警报或通知中的电子邮件链接无法正常使用的问题。 (CAMP-51874)
 
 ## 23.1 版 - 2023 年春/夏季版 {#apr-23}
 

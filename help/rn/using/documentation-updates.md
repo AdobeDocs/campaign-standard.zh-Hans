@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
+source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7299'
 ht-degree: 97%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
-<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+## 23.2 版 - 2023 年秋冬 {#release-23-2}
 
-Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+Campaign Standard23.2 2023年秋冬版的发行说明已发布。 [了解更多信息](release-notes.md)
 
-## 2023 年 9 月 {#doc-updates-sept-2023}
+## 2023 年 10 月 {#doc-updates-oct-2023}
 
 * Experience Cloud触发器的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 

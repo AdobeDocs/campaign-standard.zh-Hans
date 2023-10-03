@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[Campaign 22.3 发行说明已发布](rn/using/release-notes.md)**<br/>了解 Campaign Standard 22.3 版中的新增功能、改进和修复
+* **[Campaign 23.2 发行说明已发布](rn/using/release-notes.md)**<br/>了解 Campaign Standard 23.2 版中的新增功能、改进和修复
 
 * **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
 

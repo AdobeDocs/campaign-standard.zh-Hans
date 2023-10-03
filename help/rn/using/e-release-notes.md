@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -45,3 +45,11 @@ ht-degree: 25%
 
   这些更改将在下一个UI和文档版本中逐步推出。
 
+### 其他变更 {#e-rn-other-changes}
+
+* 事务型消息传递现在支持使用多个逗号分隔的亲和度。
+
+### 修复 {#e-rn-fixes}
+
+* 修复了在使用大型工作流时可能导致性能问题的回归。 (CAMP-53369)
+* 修复了工作流警报或通知中的电子邮件链接无法正常使用的问题。 (CAMP-51874)
