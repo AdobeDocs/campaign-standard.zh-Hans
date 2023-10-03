@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '7263'
-ht-degree: 98%
+source-wordcount: '7283'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 ## 2023 年 9 月 {#doc-updates-sept-2023}
 
 * Experience Cloud触发器的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+* 已添加有关将陷阱测试用户档案与筛选或疲劳规则结合使用的注释。 [了解更多信息](../../sending/using/using-traps.md)
 
 ## 23.1版 — 2023春夏 {#release-23-1}
 
@@ -323,7 +325,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 **随版本提供的其他文档更新**
 
-对应用内消息渲染添加了限制。[了解更多](../../channels/using/customizing-an-in-app-message.md)
+对应用程序内消息渲染添加了限制。[了解更多](../../channels/using/customizing-an-in-app-message.md)
 
 添加了有关如何在 **[!UICONTROL Query]** 活动中使用聚合的信息。[了解更多](../../automating/using/query.md#adding-an-aggregate)
 
@@ -505,7 +507,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 为“动态报告”添加了疑难解答内容。[了解更多](../../reporting/using/troubleshooting.md)
 
-添加了插图，用于说明各种应用内模板如何处理个人信息。[了解更多](../../channels/using/preparing-and-sending-an-in-app-message.md)
+添加了插图，用于说明各种应用程序内模板如何处理个人信息。[了解更多](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 更新了介绍如何在 Email Designer 中将电子邮件内容另存为片段的章节。[了解更多](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 

@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当使用测试用户档案作为陷阱时，对于消息中的任何扩充字段，相应的附加数据将被从真实的目标用户档案中随机选取并分配给陷阱测试用户档案。 有关扩充的更多信息，请参阅 [此示例](../../automating/using/enriching-profile-data-file.md).
+>将测试用户档案用作陷阱时，消息中的任何扩充字段都将具有从真实目标用户档案中随机选择并分配给陷阱测试用户档案的相应附加数据。 但是，请注意，如果由于在首次消息准备期间应用分类规则而排除真正的目标用户档案，则投放准备将失败。 出现此故障的原因是，无法用扩充字段值替换陷阱用户档案。 因此，排除类型规则可能无法正确应用于实际的收件人。
+>
+>要防止出现这种情况，请避免在事务类型中将陷阱测试用户档案与筛选或疲劳规则同时使用。 了解有关扩充的更多信息。 有关扩充的更多信息，请参阅 [此示例](../../automating/using/enriching-profile-data-file.md).
