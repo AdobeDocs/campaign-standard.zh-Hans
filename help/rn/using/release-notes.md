@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### 其他变更 {#fall-23-rn-other-changes}
 
-* 事务型消息传递现在支持使用多个逗号分隔的亲和度。
+* 事务型消息传递现在支持使用多个逗号分隔的亲和度。 [了解详情](../../sending/using/managing-typologies.md)
 
 ### 修复 {#fall-23-rn-fixes}
 
 * 修复了在使用大型工作流时可能导致性能问题的回归。 (CAMP-53369)
-* 修复了工作流警报或通知中的电子邮件链接无法正常使用的问题。 (CAMP-51874)
+* 修复了工作流电子邮件警报或通知中的链接无法工作的问题。 (CAMP-51874)
 
 ## 23.1 版 - 2023 年春/夏季版 {#apr-23}
 
