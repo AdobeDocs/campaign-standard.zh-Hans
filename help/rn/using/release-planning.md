@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 >[!AVAILABILITY]
 >
->此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
+>此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
 
 有关此版本的详细信息，请参阅[发行说明](release-notes.md)。
 
@@ -45,11 +45,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>暂存 </td>
-   <td>2023年10月3日至9日 </td>
+   <td>2023 年 10 月 3 日至 9 日 </td>
   </tr>
   <tr>
    <td>生产 </td>
-   <td>2023年10月12-18日 </td>
+   <td>2023 年 10 月 12 日至 18 日 </td>
   </tr>
  </tbody>
 </table>

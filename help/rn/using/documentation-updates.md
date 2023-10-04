@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
 source-wordcount: '7299'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 97%
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
-## 23.2 版 - 2023 年秋冬 {#release-23-2}
+## 23.2 版 - 2023 年秋冬版 {#release-23-2}
 
-Campaign Standard23.2 2023年秋冬版的发行说明已发布。 [了解更多信息](release-notes.md)
+Campaign Standard 23.2 2023 年秋/冬版的发行说明已发布。[了解更多信息](release-notes.md)
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
-* Experience Cloud触发器的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* Experience Cloud Triggers 的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
 
 * 已添加有关将陷阱测试用户档案与筛选或疲劳规则结合使用的注释。 [了解更多信息](../../sending/using/using-traps.md)
 
-## 23.1版 — 2023春夏 {#release-23-1}
+## 23.1 版 - 2023 年春/夏版 {#release-23-1}
 
-Campaign Standard23.1 2023春夏版的发行说明已发布。 [了解更多信息](release-notes.md)
+Campaign Standard 23.1 2023 年春/夏版的发行说明已发布。[了解更多信息](release-notes.md)
 
 
 ## 2022 年 11 月 {#doc-updates-november-2022}
@@ -37,9 +37,9 @@ Campaign Standard23.1 2023春夏版的发行说明已发布。 [了解更多信�
 
 在 **[!UICONTROL Extract file]** 工作流活动页面上添加了有关将数据提取至具有特定编码的 CSV 文件中的信息。[了解更多信息](../../automating/using/extract-file.md)
 
-## 22.3 版 - 2022 年秋冬 {#release-22-3}
+## 22.3 版 - 2022 年秋冬版 {#release-22-3}
 
-Campaign Standard22.3 2022年秋冬版的发行说明已发布。 [了解更多信息](release-notes.md)
+Campaign Standard 22.3 2022 年秋/冬版的发行说明已发布。[了解更多信息](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -241,7 +241,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 外部 API 护栏和限制部分已更新。[阅读更多](../../automating/using/external-api.md#guardrails)
 
-“隐私管理概述”页面已更新，包含有关泰国的个人数据保护法(PDPA)和巴西的Lei Geral de Proteção de Dados(LGPD)的信息。 [阅读更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+“隐私管理概述”页面已更新，包含有关泰国的个人数据保护法 (PDPA) 和巴西的 Lei Geral de Proteção de Dados (LGPD) 的信息。[阅读更多](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 已重组和改进移动渠道指南。添加了新的移动渠道配置指南，其中包含有关移动配置的技术文档。[阅读更多](../../administration/using/push-tracking.md)
 
@@ -411,7 +411,7 @@ Audience Destinations（Beta 版）
 
 新增了一个使用案例，描述如何使用 Campaign Standard 中的工作流构建对照组。
 
-与登陆页面属性相关的信息已移入专述章节。 [阅读更多](../../channels/using/configuring-landing-page.md)
+与登陆页面属性有关的信息已移入专述章节。[阅读更多](../../channels/using/configuring-landing-page.md)
 
 控制面板文档已集成到新的协作文档集中。[了解更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
 
@@ -499,7 +499,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 在[使用参数调用工作流](../../automating/using/calling-a-workflow-with-external-parameters.md)章节中添加了有关投放准备及其聚合期的说明。
 
-添加了有关如何使用在工作流外部信号活动中声明的事件变量对投放标签进行个性化的信息。 [了解更多](../../automating/using/external-signal.md)
+添加了有关如何使用在工作流外部信号活动中声明的事件变量对投放标签进行个性化的信息。[了解更多](../../automating/using/external-signal.md)
 
 添加了新章节，详细介绍如何在 Adobe Campaign Standard 中创建用户。[了解更多](../../administration/using/users-management.md)
 
@@ -785,7 +785,7 @@ GDPR：核心服务集成 - [了解更多](../../start/using/privacy-management.
 
 更新了“查询活动”章节。添加了查询示例。[了解更多](../../automating/using/query.md#query-samples)
 
-专门介绍阻止列表的部分已更名为“了解选择加入和选择退出流程”。 其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+专门介绍阻止列表的部分已重命名为“了解选择加入和选择退出流程”。其中更新了关于如何管理特定渠道的选择加入、以及如何设置登陆页面以管理选择加入和选择退出的信息。[了解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 了解使用 Adobe 托管 SFTP 服务器的最佳实践。[了解更多](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1027,7 +1027,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+修改了授权表，使某些角色的职能更加清晰。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
