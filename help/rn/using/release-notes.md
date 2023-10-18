@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,33 +23,33 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
+>此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
 
 ### 改进 {#fall-23-rn-improvements}
 
-* **与Adobe Experience Manager集成**. 在Adobe Experience Manager中为事务型消息创建个性化投放模板时，您现在可以选择并使用下拉菜单中Campaign Standard定义的个性化字段。 [了解详情](../../integrating/using/creating-email-experience-manager.md)
+* **与 Adobe Experience Manager 集成**。在 Adobe Experience Manager 中为事务型消息创建个性化投放模板时，您现在可以选择并使用下拉菜单中 Campaign Standard 定义的个性化字段。[了解详情](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie过期**  — 默认Cookie过期时间现在设置为6个月，以符合法国数据保护局(CNIL)的建议。
+* **Cookie 过期** - 为遵守法国数据保护局 (CNIL) 的要求，默认 Cookie 过期时间现在设置为 6 个月。
 
-* **配置文件搜索改进**  — 配置文件搜索已优化，因此可以减少搜索超时情况
+* **配置文件搜索改进**  - 配置文件搜索已优化，因此可以减少搜索超时情况
 
-* **本地化**  — 术语“受众”的翻译指一组旨在接收报文的用户档案，在以下语言的所有数字体验产品中得到了统一：
+* **本地化** - 在提及一组旨在接收消息的配置文件时，“受众”一词的翻译在以下语言的所有数字体验产品中都得到了统一：
 
-   * 德语： Zielgruppe
+   * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo
    * 西班牙语：público destinatario
 
-  这些更改将在下一个UI和文档版本中逐步推出。
+  这些更改将在下一个 UI 和文档版本中逐步推出。
 
 
 ### 其他变更 {#fall-23-rn-other-changes}
 
-* 事务型消息传递现在支持使用多个逗号分隔的亲和度。 [了解详情](../../sending/using/managing-typologies.md)
+* 交易型消息传递现在支持使用多个逗号分隔的关联。[了解详情](../../sending/using/managing-typologies.md)
 
 ### 修复 {#fall-23-rn-fixes}
 
-* 修复了在使用大型工作流时可能导致性能问题的回归。 (CAMP-53369)
-* 修复了工作流电子邮件警报或通知中的链接无法工作的问题。 (CAMP-51874)
+* 修复了在使用大型工作流时可能导致性能问题的回退。 (CAMP-53369)
+* 修复了导致工作流电子邮件警报或通知中的链接无法正常工作的问题。(CAMP-51874)
 
 ## 23.1 版 - 2023 年春/夏季版 {#apr-23}
 
