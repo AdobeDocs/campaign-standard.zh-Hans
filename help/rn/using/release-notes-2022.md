@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **辅助功能** -Adobe修复了许多辅助功能，以提高应用程序的整体易用性。 目前仅有部分早期试用者可以使用这些功能，但在未来版本中会推出这些功能供所有客户使用。辅助功能改进的示例包括：
+* **辅助功能** - Adobe 修复了许多辅助功能，以提高应用程序的整体易用性。目前仅有部分早期试用者可以使用这些功能，但在未来版本中会推出这些功能供所有客户使用。辅助功能改进的示例包括：
 
    * 确保每个屏幕上有可聚焦元素的可见焦点指示器
    * 创建页面区域标志以更便于导航
@@ -111,8 +111,8 @@ ht-degree: 96%
 * 为了解决各种问题，已对投放（包括从 URL 导入的内容）的重试机制进行了改进。[了解详情](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * 修复了在自定义资源中创建新筛选条件，然后将其用作登陆页面中的合并关键项后发生的问题。如果自定义资源再次发布，则会从登陆页面的可用合并关键项列表中删除该筛选条件。(CAMP-49516)
 * 修复了将动态条件与复选框结合使用时登陆页面中存在的问题。(CAMP-48604)
-* 修复了中出现的问题 **查询** 活动时间。 当从设置为欧洲时区的实例工作时，由于时区转换的问题，筛选条件的选定月份显示为 9 月，而不是 10 月。(CAMP-48602)
+* 修复了使用“10 月或之前”筛选条件时，**查询**&#x200B;活动中出现的问题。当从设置为欧洲时区的实例工作时，由于时区转换的问题，筛选条件的选定月份显示为 9 月，而不是 10 月。(CAMP-48602)
 * 为优化投放能力，Adobe Campaign 现在使用 7 位编码而不是 8 位编码来发送电子邮件。这样可以防止中间中继使 DKIM 签名失效，从而影响邮件的真实性。(CAMP-49016)
 * 增强了复制受众时的性能，以避免在处理大量受众时出现任何问题。(CAMP-49639)
 * 修复了在&#x200B;**查询**&#x200B;活动中使用自定义筛选条件时可能导致其无法显示正确结果的问题。(CAMP-49417)
-* 修复了尝试在投放中使用名称中带有逗号的片段时显示错误消息的错误。问题已得到解决，现在可以在片段名称中使用逗号。 (CAMP-49216)
+* 修复了尝试在投放中使用名称中带有逗号的片段时显示错误消息的错误。此问题已得到解决，现在可以在片段名称中使用逗号。(CAMP-49216)
