@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 83%
 
 ### 其他变更 {#e-rn-other-changes}
 
-* 事务型消息传递现在支持使用多个逗号分隔的亲和度。
+* 事务型消息传递现在支持使用多个逗号分隔的关联。
 
 ### 修复 {#e-rn-fixes}
 
-* 修复了在使用大型工作流时可能导致性能问题的回归。 (CAMP-53369)
-* 修复了工作流警报或通知中的电子邮件链接无法正常使用的问题。 (CAMP-51874)
+* 修复了在使用大型工作流时可能导致性能问题的回退。 (CAMP-53369)
+* 修复了导致工作流警报或通知中的电子邮件链接无法正常工作的问题。(CAMP-51874)
