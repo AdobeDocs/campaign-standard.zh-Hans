@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Campaign Standard 23.2 2023 年秋/冬版的发行说明已发布。[了解更�
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
-* Experience Cloud Triggers 的新用户界面现已可用。 它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
+* Experience Cloud Triggers 的新用户界面现已可用。它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
 
-* 已添加有关将陷阱测试用户档案与筛选或疲劳规则结合使用的注释。 [了解更多信息](../../sending/using/using-traps.md)
+* 已添加有关将陷阱测试用户档案与筛选或疲劳规则结合使用的注释。[了解更多信息](../../sending/using/using-traps.md)
 
 ## 23.1 版 - 2023 年春/夏版 {#release-23-1}
 
