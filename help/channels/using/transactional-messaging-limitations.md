@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 67%
+source-wordcount: '755'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 67%
 
 ## 事务性消息数 {#transactional-message-number}
 
-已发布的事务性消息的数目可能会对您的平台产生重大影响。 为获得最佳性能，已发布的事务性消息数应保持在100以下。 要确保这一点，请取消发布或删除任何未使用的事务型消息。 请参阅 [取消发布事务型消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [删除事务型消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+已发布的事务性消息的数目可能会对您的平台产生重大影响。 为获得最佳性能，已发布的事务性消息数应保持在100以下，否则可能会发生性能下降。 要确保这一点，请取消发布或删除任何未使用的事务型消息，以满足上述护栏要求。 请参阅 [取消发布事务型消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [删除事务型消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 为确保获得最佳性能，您还可以取消发布或删除未使用的事件。 事实上，取消发布或删除事件也将取消发布或删除相应的事务型消息及其发送和跟踪日志（如果有）。 请参阅 [取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 和 [删除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
