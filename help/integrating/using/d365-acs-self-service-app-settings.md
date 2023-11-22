@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Microsoft Dynamics 365凭据为集成应用程序提供从Microsoft Dynamics 365
 
 使用以下方式生成Adobe Campaign凭据 [Adobe I/O](https://www.adobe.io/). 您需要访问屏幕 [配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) 并遵循该说明，然后才能填写此部分中的输入内容。
 
-下图将详细解释Adobe I/O与设置屏幕输入之间的映射。
+* 选择身份验证类型作为Oauth，因为基于JWT的身份验证已被弃用。
+* 下图将详细解释Adobe I/O与设置屏幕输入之间的映射。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *私钥*：定义此值的过程从单击“生成公钥/私钥对”按钮开始。 这将创建一个您必须下载的zip文件。 下载文件后，解压缩该文件，这将产生两个名为certificate_pub.crt和private.key的文件。 请确保将private.key放在安全位置，并且不要共享它。 在文本编辑器中打开private.key文件。 在文本编辑器中复制整个值(在PC上依次按ctrl-A和ctrl-C，在Mac上依次按cmd-A和cmd-C)。 这应该包括包含“BEGIN PRIVATE KEY”和“END PRIVATE KEY”的完整行。 将此完整的多行文本粘贴到“设置”屏幕中的“私钥”输入中。
 
 * *URL*：此值将采用以下模式：https\：//mc.adobe.io/&lt;campaign-instance-name>. 集成应用程序的标头包括“Org”和“Instance”。 URL的“campaign-instance-name”部分只是此实例值中的名称。
 

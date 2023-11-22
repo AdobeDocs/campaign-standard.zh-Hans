@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
    ![](assets/adobeIO2.png)
 
-1. 选择Adobe Campaign API（您可能需要滚动到底部），然后单击 **[!UICONTROL Next]**.
+1. 选择Adobe Campaign并单击 **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. 在下一个屏幕中，您将可以选择上传自己的公钥或让Adobe Developer为您生成密钥对。 这些说明将遵循后一个选项。 如果您决定让Adobe Developer生成密钥对，请单击选项1；然后单击 **[!UICONTROL Generate keypair]** 按钮。
+1. 在下一个屏幕上，您可以选择身份验证类型。 您可以选择OAuth服务器到服务器或服务帐户(JWT)。 请注意，不再建议将服务帐户(JWT)凭据用于新项目，并且已弃用，支持更新的OAuth服务器到服务器凭据。 本指南中提供的说明仅适用于OAuth服务器到服务器身份验证。
 
    ![](assets/adobeIO4.png)
-
-1. 在下一个屏幕上，系统将提示您命名并选择密钥对zip文件的下载位置。
-
-下载后，您可以解压缩文件以显示公钥和私钥。 Adobe Developer已将该公钥应用于您的Adobe Developer项目。 您需要保留私钥以便稍后使用；私钥将在集成工具的预集成设置期间使用。
-
-1. 单击 **[!UICONTROL Next]** 以继续
-
-   ![](assets/adobeIO5.png)
 
 1. 在下一个屏幕上，您将选择要与此项目关联的产品配置文件。 选择标题中包含的产品配置文件：Campaign实例的租户ID - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
 1. 单击 **[!UICONTROL Save configured API]**。
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. 在下一个屏幕上，您将看到新的Adobe Developer项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. 在下一个屏幕中，您需要选择I/O事件API ，然后单击 **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ Campaign中的预集成设置现已完成。
 
 * [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
 * [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含启动并运行集成的完整步骤列表。
-
-
 * [Adobe Developer — 服务帐户集成](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
+* [将凭据从JWT迁移到OAuth服务器到服务器](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) 包含将凭据从JWT迁移到OAuth服务器到服务器的步骤。
