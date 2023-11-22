@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '406'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,11 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 有关每�
 1. **检查您是否拥有数字证书**，或根据需要创建一个。 以下步骤需要随证书一起提供的公钥和私钥。
 1. **创建与Adobe Campaign服务的新集成** 在 [Adobe Developer](https://developer.adobe.com/) 并进行配置。 随后将生成您的凭据（API密钥、客户端密钥……）。
 1. **创建JSON Web令牌(JWT)** 使用之前生成的凭据，并使用您的私钥签名。 JWT对Adobe验证您的身份并授予您访问API的权限所需的所有身份和安全信息进行编码。
+
+   >[!AVAILABILITY]
+   >
+   >JWT（JSON Web令牌）当前正在进行折旧，并将由OAuth替换。 此过渡将在Campaign的即将发布的版本中逐步执行，文档将进行更新以反映这些更新。
+
 1. **将JWT交换为访问令牌** 通过POST请求。 必须在API请求的每个标头中使用此访问令牌。
 
 要建立安全的服务到服务Adobe I/OAPI会话，对Adobe服务的每个请求都必须在Authorization标头中包含以下信息。
