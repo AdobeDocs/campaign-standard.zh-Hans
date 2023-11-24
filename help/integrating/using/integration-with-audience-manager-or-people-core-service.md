@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -124,10 +124,16 @@ ht-degree: 10%
 
 要配置与People核心服务或Audience Manager的集成，我们还需要配置Campaign跟踪服务器。
 
-在此，您需要确保在域(CNAME)上注册Campaign跟踪服务器。 有关域名配置的更多信息，请访问 [本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
+要使共享受众能够与访客ID配合使用，跟踪服务器域应该是已单击URL的子域或主网站。
+
+>[!IMPORTANT]
+>
+> 您需要确保已在域(CNAME)上注册Campaign跟踪服务器。 有关域名配置的更多信息，请访问 [本文](https://helpx.adobe.com/cn/campaign/kb/domain-name-delegation.html).
 
 ### 步骤4：配置访客ID服务 {#step-4--configure-the-visitor-id-service}
 
 如果从未在您的Web资产或网站上配置过访客ID服务，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 了解如何配置服务或以下内容 [视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two).
+
+使用同步客户标识符与声明的ID `setCustomerID` 函数(位于包含集成代码的Experience CloudID服务中)： `AdobeCampaignID`. 此 `AdobeCampaignID` 应该与在中配置的收件人数据源中设置的协调键值匹配 [步骤2：配置数据源](#step-2--configure-the-data-sources).
 
 您的配置和配置已完成，集成现在可用于导入和导出受众或区段。
