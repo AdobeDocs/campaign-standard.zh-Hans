@@ -5,9 +5,9 @@ user-guide-description: 帮助中心提供使用 Campaign Standard 所需的主�
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文档
 source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 99%
          + [连接系统与集成应用程序](integrating/using/d365-acs-self-service-app-settings.md)
          + [管理同步工作流](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 与 Campaign 之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [将凭据从JWT迁移到OAuth服务器到服务器](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [将凭据从 JWT 机制迁移到 OAuth 服务器到服务器机制](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 和 Adobe Experience Platform {#adobe-experience-platform}
       + [Sources 与 Destinations 入门](integrating/using/get-started-sources-destinations.md)
@@ -447,7 +447,7 @@ ht-degree: 99%
       + [配置标记规则以支持 Adobe Campaign Standard 用例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 中支持的移动使用案例](administration/using/supported-mobile-use-cases.md)
       + [如何将移动应用程序从 SDK v4 迁移到 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [推送通知渠道即将更改](administration/using/push-technote.md)
+      + [推送通知渠道即将发生的变化](administration/using/push-technote.md)
    + 配置短信渠道 {#configuring-sms}
       + [实施短信渠道](administration/using/configuring-sms-channel.md)
       + [SMS 连接器协议和设置](administration/using/sms-protocol.md)
