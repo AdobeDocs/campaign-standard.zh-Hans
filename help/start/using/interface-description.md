@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 77%
    * a **[!UICONTROL Learning]** 用于访问Adobe Campaign课程库的链接。
    * a **[!UICONTROL Community]** 链接以访问针对您有关Campaign的问题而设的论坛。
    * 直接访问：帮助中心、客户关怀、Experience Cloud产品状态、开发人员连接、发行说明、发行计划和 **[!UICONTROL About]** 屏幕。
-1. 此 **[!UICONTROL Support]** 选项卡允许您打开支持案例并通过电话或Twitter联系我们。
+1. 此 **[!UICONTROL Support]** 选项卡允许您打开支持案例并通过电话或X(以前称为Twitter)联系我们。
 1. 此 **[!UICONTROL Feedback]**  通过Tab，可更轻松地报告问题或分享您的想法。
 
 ## 高级菜单 {#advanced-menu}
