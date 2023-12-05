@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 58%
 
 ---
 
@@ -34,6 +34,26 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 通常，首先将计划在未来版本中移除的功能设置为已弃用，并提供替代功能。这些特性和功能不再适用于新的 Campaign Standard 客户，也不应当用于任何新实施。它们也会从产品文档中移除。
 
 建议客户复查他们是否在其当前部署中利用相应的特性/功能，并制定计划来更改其实施，从而使用提供的替代功能。请参阅目标移除版本，以相应地规划环境和项目更新。
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>适用于移动应用程序的SDK V4</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在Adobe Campaign Standard中使用这个旧版SDK，则必须使用Adobe Experience Platform SDK更新您的实施 <strong>2024年6月底之前</strong>. </p></br>
+   <p>读取 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a> 了解如何调整实施并迁移到最新的Experience PlatformSDK。</p></br>
+   <p><strong>注意</strong>：从2024年6月底开始，Campaign Standard将不再支持SDK V4。</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 隐私核心服务</a>。</p></br>
+   <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隐私核心服务</a>.</p></br>
    <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隐私请求</a>。</p>
   </td> 
   </tr> 
@@ -169,7 +189,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK]  已停用。因此，图像编辑由以下提供支持 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] 已停用。 因此，图像编辑由以下提供支持 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 
