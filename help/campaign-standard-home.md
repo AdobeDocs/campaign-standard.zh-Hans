@@ -2,83 +2,111 @@
 keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
-feature: Overview
-role: User
-level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5577f764beb3c5c6635d14073edcd2387f47ce5c
+source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 10%
 
 ---
 
 # Adobe Campaign Standard 文档 {#campaign-standard-documentation}
 
-<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
-
 ## 新增功能
 
-* **[Campaign 23.2 发行说明已发布](rn/using/release-notes.md)**<br/>了解 Campaign Standard 23.2 版中的新增功能、改进和修复
+大致了解Adobe Campaign Standard产品和文档中的最新增强功能！ 有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](rn/using/release-notes.md). 请访问我们的网站，及时了解我们文档的最新更改 [文档更新页面](rn/using/documentation-updates.md).
 
-* **[Campaign - RTCDP 集成](integrating/using/get-started-sources-destinations.md)**<br/>了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据
+>[!BEGINTABS]
 
-* **[控制组](sending/using/control-group.md)**<br/>
-通过排除部分控制组受众来衡量活动的影响
+>[!TAB Campaign 23.2版本已上线！]
 
-* **[AI 支持的电子邮件](sending/using/predictive.md)**<br/>
-使用 AI 支持的电子邮件优化设计和交付
+发现Campaign Standard23.2版本中的新增功能、改进和修复。
 
-* **[外部 API](automating/using/external-api.md)**<br/>
-使用外部 API 活动将数据从外部系统引入工作流
+[![图像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
-* **[移动投放入门](https://helpx.adobe.com/cn/campaign/kb/acs-mobile.html)**<br/>
-了解有关移动投放（短信、推送、应用程序内）的一般指导原则的更多信息
+>[!TAB AI 支持的电子邮件]
 
-[更多更新](rn/using/documentation-updates.md)
+利用AI支持的电子邮件优化设计和交付。
 
-## 热门页面
+[![图像](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
-<table>
-<tr>
-  <td valign="top">
-    <a href="administration/using/about-access-management.md">
-      <img alt="角色" src="start/using/assets/roles.png"/>
-    </a>
-    <div>
-    <a href="administration/using/about-access-management.md"><strong>角色和安全组</strong></a>
-    </div>
-    <em>了解如何定义权限以及向 Campaign 用户分配角色</em>
-    <br>
-  </td>
-  <td valign="top">
-    <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="设计工具" src="start/using/assets/design.png" />
-    </a>
-    <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>设计电子邮件</strong></a>
-    </div>
-    <em>了解如何使用电子邮件设计工具创建个性化的响应式电子邮件</em>
-    <br>
-  </td>
-  <td valign="top">
-       <img alt="支持" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="support.md">
-    <strong>获取支持</strong></a>
-    </div>
-    <p><em>访问常见问题解答、最佳实践、帮助资源并与专家联系</em></p>
-    <br>
-  </td>
-</tr>
+>[!TAB Campaign - RTCDP集成]
+
+了解如何在Campaign和Real-time Customer Data Platform (RTCDP)之间共享数据。
+
+[![图像](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+
+>[!ENDTABS]
+
+## 从基础知识开始
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>用户界面</strong><br/>了解如何在Journey Optimizer中导航和优化您的体验。</div>
+    </td>
+    <td>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
+    <div><strong>电子邮件设计工具</strong><br/>了解如何使用电子邮件设计工具创建个性化的响应式电子邮件。</div>
+    </td>
+    <td>
+    <a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <div><strong>通信渠道</strong><br/>了解如何跨各种渠道（如电子邮件、短信、推送通知等）发送消息。
+    </td>
+    <td>
+    <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <div><strong>构建您的第一个工作流</strong><br/>了解构建工作流的主要原则和最佳实践。</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
+</table>
+
+## 浏览文档
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <strong>客户体验</strong><br/><a href="sending/using/track-and-monitor.md">监控消息</a> - <a href="channels/using/getting-started-with-transactional-msg.md">事务性消息传递</a> - <a href="channels/using/getting-started-with-landing-pages.md">登陆页面</a> - <a href="reporting/using/about-dynamic-reports.md">报表</a> - <a href="start/using/privacy-management.md">隐私</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>配置<br/>管理</strong><br/><a href="administration/using/about-channel-configuration.md">配置渠道</a> - <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard设置</a>  - <a href="administration/using/about-access-management.md">访问管理</a> - <a href="administration/using/monitoring-guidelines.md">监控准则</a> - <a href="integrating/using/get-started-campaign-integrations.md">将Campaign与其他解决方案集成</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>通信渠道</strong><br/><a href="channels/using/about-emails.md">电子邮件</a> - <a href="channels/using/about-sms-messages.md">短信</a> - <a href="channels/using/about-in-app-messaging.md">应用程序内</a> - <a href="channels/using/about-push-notifications.md">推送通知</a> - <a href="channels/using/about-direct-mail.md">直邮</a> - <a href="channels/using/about-direct-mail.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>内容管理</strong><br/><a href="sending/using/design-and-personalize.md">构建个性化内容</a> - <a href="sending/using/sending-proofs.md">发送校样</a> - <a href="sending/using/previewing-messages.md">预览投放</a> - <a href="sending/using/use-templates.md">使用模板</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
+      <strong>用户档案和受众</strong><br/><a href="audiences/using/about-audiences.md">受众</a> - <a href="audiences/using/about-profiles.md">配置文件</a> - <a href="audiences/using/about-subscriptions.md">订阅</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">选择启用和选择禁用</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
+      <strong>数据管理</strong><br/><a href="developing/using/data-model-concepts.md">Campaign Standard数据模型</a> - <a href="developing/using/key-steps-to-add-a-resource.md">添加或扩展资源</a> - <a href="automating/using/about-data-import-and-export.md">数据导入和导出</a> - <a href="automating/using/managing-encrypted-data.md">管理加密数据</a>
+    </td>
+  </tr>
 </table>
 
 ## 其他资源
 
-| 有用页面 | 面向开发人员的资源 |
-|---|---|
-| [发行说明](rn/using/release-notes.md) | [Experience Cloud 触发器](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) | [Campaign API](api/using/get-started-apis.md) |
-| [实施指南](https://helpx.adobe.com/cn/campaign/kb/campaign-standard-implementation-guide.html) | [错误消息列表](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
-| [发行计划](rn/using/release-planning.md) | [Campaign 数据模型](developing/using/datamodel-introduction.md) |
-| [已弃用和已删除的功能](rn/using/deprecated-features.md) | [多解决方案指南](integrating/using/get-started-campaign-integrations.md) |
-| [Campaign Standard 快速入门](start/using/about-campaign-standard.md) | [技术说明](https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html) |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>有用的页面</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a>
+</td>
+<td><strong>技术资源</strong><br/>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
+</td>
+</tr></table>
