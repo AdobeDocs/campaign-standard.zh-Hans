@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 输入应用程序内消息属性，然后在 **[!UICONTROL Associate a Mobile App to a delivery]** 字段中选择您的移动应用程序。
+1. 输入应用程序内消息属性，然后在中选择您的移动应用程序 **[!UICONTROL Associate a Mobile App to a delivery]** 字段。
 
    如果在下拉列表中未看到任何应用程序，请确保您的移动设备应用程序位于 **已配置** 省/州。 中的应用程序 **准备配置** 状态将不会显示在列表中。 有关移动应用程序配置的更多信息，请参阅[此页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
@@ -100,7 +100,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
 1. 如果您使用 **[!UICONTROL Places]** 触发器，将根据在 Adobe Places 中创建的所有库及其兴趣点自动填充 Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-   请注意，此触发器将仅适用于数据收集UI中Places扩展内所选库中的“目标点”。 有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   请注意，此触发器将仅适用于数据收集UI中Places扩展内所选库中的“目标点”。 有关 Places 扩展及其安装方法的详细信息，请参阅此[文档](https://developer.adobe.com/client-sdks/solution/places)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 选项卡中，选择触发器的频率、开始和结束日期、在一周中的哪一天以及在一天中的哪个时间激活应用程序内消息。
 
@@ -133,7 +133,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    ![](assets/inapp_sending_3.png)
 
-1. 现在，您可以发送消息并通过投放报告衡量其影响。
+1. 您现在可以发送消息并通过投放报告衡量其影响。
 
 ## 发送应用程序内消息 {#sending-your-in-app-message}
 

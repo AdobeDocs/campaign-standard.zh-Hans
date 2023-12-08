@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Experience Platform SDK 集成常见问题解答 {#aep-faq}
+# Experience PlatformSDK集成常见问题解答 {#aep-faq}
 
 要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在Adobe Experience Platform SDK中设置移动应用程序，并在Adobe Campaign中进行配置。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 是， [!DNL Adobe Experience Platform SDK] 集成可用于Adobe Campaign Standard和Adobe Campaign Classic。 您必须安装相应的 **[!UICONTROL Extension]** 通过 [!DNL Data Collection UI] 以启用集成。
 
-有关详细信息，请参阅此 [页面]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
+有关详细信息，请参见此 [ 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
 ## Adobe Experience Platform SDK集成有助于在Adobe Campaign中实现哪些功能？ {#aep-capabilities}
 
@@ -82,7 +82,7 @@ CollectPII调用的目标是丰富Campaign中的移动用户档案。 每当有�
 
 ## 能否触发CollectPII调用以响应多个触发器事件？ {#collect-pii-calls}
 
-是. 根据您的业务需求，您可以触发CollectPII调用以响应用户登录应用程序、购买某些内容或生命周期事件或用户进入地理围栏等。 总之，用户与应用程序之间的交互，该交互会生成要用于配置文件扩充的信息。
+是的。 根据您的业务需求，您可以触发CollectPII调用以响应用户登录应用程序、购买某些内容或生命周期事件或用户进入地理围栏等。 总之，用户与应用程序之间的交互，该交互会生成要用于配置文件扩充的信息。
 
 ## 我是否可以只触发CollectPII调用以响应所有Mobile事件？ {#collect-pii-events}
 
@@ -98,7 +98,7 @@ CollectPII调用的频率和设计应该由业务需求决定，并且不应盲�
 
 * EXPERIENCE PLATFORMSDK [文档](https://developer.adobe.com/client-sdks/documentation/)
 * Launch和Experience PlatformSDK快速入门 [文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* 升级到Experience PlatformSDK [文档](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* 升级到Experience PlatformSDK [文档](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * GithubExperience PlatformSDK [文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## 我在创建推送通知投放时收到错误“您没有投放写入权限”。 {#write-access-error}

@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 要在配置了Adobe Experience Platform SDK的移动应用程序中使用Adobe Experience Platform位置服务，您需要：
 
-1. 添加 **[!UICONTROL Places]** 数据收集UI中移动应用程序配置的扩展。 在Adobe Campaign中设置您的移动应用程序。 请参阅 [安装Places扩展](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. 添加 **[!UICONTROL Places]** 数据收集UI中移动应用程序配置的扩展。 在Adobe Campaign中设置您的移动应用程序。 请参阅 [安装Places扩展](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 设置扩展后，在数据收集UI中创建数据元素，以从这些扩展检索数据。 请参阅此 [页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 以创建数据元素。
 

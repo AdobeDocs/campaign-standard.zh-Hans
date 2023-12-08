@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,11 +50,12 @@ ht-degree: 3%
 
 1. 在数据收集UI中，单击 **[!UICONTROL Extensions]** 选项卡，转到 **[!UICONTROL Catalog]**，并搜索 **[!UICONTROL Adobe Campaign Standard]** 扩展。 有关更多信息，请参阅 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. 要支持Campaign Standard中的位置用例，请安装 **[!UICONTROL Places]** 数据收集UI中的扩展。 请参阅此 [页面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. 要支持Campaign Standard中的位置用例，请安装 **[!UICONTROL Places]** 数据收集UI中的扩展。 请参阅此 [页面](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 请参阅 [在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. 将特定于渠道的配置添加到您的移动应用设置中。有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 将特定于渠道的配置添加到您的移动应用程序设置中。
+有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如果需要，您可以删除标记属性。
 有关更多信息，请参阅 [正在删除您的应用程序](../../administration/using/configuring-a-mobile-application.md#delete-app).
@@ -105,7 +106,7 @@ ht-degree: 3%
 
    ![](assets/launch_4.png)
 
-1. 您可以在以下位置更改移动应用程序的组织单位 **[!UICONTROL Access Authorization]** 部分，以限制特定组织单位对此移动设备应用程序的访问。 有关详细信息，请参见此页面。
+1. 您可以在以下位置更改移动应用程序的组织单位 **[!UICONTROL Access Authorization]** 部分，以限制特定组织单位对此移动设备应用程序的访问。 有关更多信息，请参见此页面。
 
    在此，管理员可以通过从下拉列表中选择子组织单位来分配子组织单位。
 
