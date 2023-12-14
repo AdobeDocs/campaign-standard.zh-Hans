@@ -7,15 +7,16 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
-# 发行说明 2020{#release-notes-2020}
+# 2020 年版发行说明{#release-notes-2020}
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>我们很兴奋地宣布为所有 Adobe Campaign Standard 客户推出 Journey AI。</p>
-  <p>Journey AI 使用高级机器学习 (ML)，通过预测每个人的参与偏好，使公司能够优化客户旅程的设计和交付。</p>
+  <p>历程人工智能使用高级机器学习(ML)，通过预测每个人的参与偏好，使企业能够优化客户旅程的设计和交付。</p>
   <P>Journey AI 包含两个 ML 功能：</p>
 <ul> 
      <li> <strong>预测参与度评分</strong> - 智能确定客户首选的参与度级别，以更好地针对和个性化信息，从而提高转化率和保留率。观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">教程视频</a>。</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **其他功能** （从 7 月 13 日开始）
 
 * **AI 支持的发送时间优化和用户档案评分** - 您现在可以优化客户旅程的设计和交付，以预测每个人的参与偏好。Adobe Campaign 凭借 Journey AI 提供技术支持，可以根据历史参与度分析和预测开放率、最佳发送时间以及可能的客户流失。[了解详情](../../sending/using/predictive.md)
-* **巴西新的隐私法规** - 除了 Campaign 中已提供的隐私功能外，Adobe 还帮助促进您为巴西的 Lei Geral de Proteçao de Datos (LGPD) 做好准备。在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
+* **巴西新的隐私法规**  — 除了Campaign中已有的隐私功能外，Adobe还可帮助您为巴西的Lei Geral de Proteção de Datos (LGPD)做好准备。 在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Experience Platform 集成**
 
-* 从&#x200B;**读取受众**&#x200B;活动激活 Adobe Experience Platform 受众的过程进行了改进，以提供更好的性能和稳定性。此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
+* 从激活Adobe Experience Platform Audiences **读取受众** 活性已得到改进，以提供更好的性能和稳定性。 此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
 
 **修补程序**
 
@@ -274,7 +275,7 @@ ht-degree: 99%
 * 修复了使用自定义资源扩展用户档案资源时可能会阻止显示用户档案营销历史的问题。(CAMP-41009)
 * 修复了打开编辑器时即装即用登陆页面模板以法语显示其内容的问题。(CAMP-41639)
 * 修复了推送通知中的动态内容可能阻止显示表情符号的问题。(CAMP-40715)
-* 修复了&#x200B;**重复数据删除**&#x200B;活动中可能导致分配给其中一个叫客补码过渡的段码不正确的问题。(CAMP-41400)
+* 修复了&#x200B;**重复数据删除**&#x200B;活动中可能导致分配给其中一个叫客补充过渡的段码不正确的问题。(CAMP-41400)
 * 修复了阻止删除调度报告的错误。(CAMP-41302)
 * 修复了导致投放仪表板与&#x200B;**投放摘要**&#x200B;报表不一致的问题。(CAMP-41145)
 * 修复了导致下载的报告中显示字符重叠的问题。
@@ -283,7 +284,7 @@ ht-degree: 99%
 * 修复了 charIndex 函数无法用于工作流中&#x200B;**“结束”**&#x200B;或&#x200B;**“文件传输”**&#x200B;活动的问题。
 * 修复了使用&#x200B;**扩充**&#x200B;活动添加两个包含定向资源的输入活动（两者之间具有链接）时，可能发生的工作流问题。(CAMP-42133)
 * 修复了在使用未知函数时可能阻止工作流运行的问题。(CAMP-41873)
-* 修复了在使用具有补码叫客过渡的多个&#x200B;**“保存受众”**&#x200B;活动创建受众时，可能发生的工作流问题。(CAMP-39992)
+* 修复了在使用具有补充叫客过渡的多个&#x200B;**“保存受众”**&#x200B;活动创建受众时，可能发生的工作流问题。(CAMP-39992)
 * 修复了在事务型电子邮件中使用个性化功能导致数据不一致的问题。(CAMP-41842)
 * 修复了删除推送通知投放中自定义字段时发生的问题。(CAMP-37586)
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档：Experience Platform Data Connector、Audience Destination
+>Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档：Experience Platform数据连接器、受众目标
 
 * 现在，Campaign 在工作流日志中，每 10 分钟显示一次当前正在运行的作业已处理的记录数。
 * 修复了导入已从数据库删除的 Adobe Experience Platform 时可能发生的问题。
@@ -376,15 +377,15 @@ ht-degree: 99%
 * 修复了在执行具有多个集客过渡的活动时，工作流中可能发生的问题。
 * 修复了阻止标准用户在工作流查询或投放中将“订阅应用程序”用作定向维度的问题。(CAMP-37618)
 
-## 20.1.4 版 - 2020 年 2 月 {#release-20-1-4---february-2020}
+## 20.1.4版 — 2020年2月 {#release-20-1-4---february-2020}
 
 * 修复了在现有工作流上打开&#x200B;**读取受众**&#x200B;活动时发生的问题。(CAMP-41002)
 
-## 20.1.3 版 - 2020 年 2 月 {#release-20-1-3---february-2020}
+## 20.1.3版 — 2020年2月 {#release-20-1-3---february-2020}
 
 * 修复了 20.1 版引入的可能导致客户使用漏洞的退化问题 (CAMP-39273)。CAMP-39273 之前已被修复。
 
-## 20.1.2 版 - 2020 年 2 月 {#release-20-1-2---february-2020}
+## 20.1.2版 — 2020年2月 {#release-20-1-2---february-2020}
 
 **Email Designer 增强功能**
 
@@ -406,7 +407,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 现在集成到了 Adobe Standard 中。您可以将 XTK 数据（Campaign 摄取的数据）映射到 Adobe Experience Platform 数据模型 (XDM)，从而使 Campaign 数据在 Adobe Experience Platform 上可用。 </p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。</p>
+    <p>请注意，此功能仅适用于Azure上托管的客户。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +422,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>利用 Audience Destinations，可将来自 Adobe Experience Platform 的区段共享到 Adobe Campaign。</p>
-    <p>请注意，此功能仅适用于在 Azure 上托管的客户。</p>
+    <p>请注意，此功能仅适用于Azure上托管的客户。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -478,7 +479,7 @@ ht-degree: 99%
 * 修复了发布后登陆页面无法使用的问题。(CAMP-38695)
 * 修复了显示来自两个不同资源的交集过渡的数据时发生的错误。(CAMP-38974)
 * 修复了导致投放模板中枚举值设置不正确的问题。(CAMP-38388)
-* 修复了电子邮件批量投放错误，该错误会将投放状态显示为“待定”，将“已发送”状态显示为“已完成”。(CAMP-35355)
+* 修复了电子邮件批量投放错误，该错误会将投放状态显示为“待处理”，将“已发送”状态显示为“已完成”。(CAMP-35355)
 * 修复了在动态报告中错误地显示发件人域名的错误。(CAMP-33123)
 * 修复了导致动态报告中退订计数不一致的问题。(CAMP-39949)
 * 修复了发送应用程序内消息时，发送日志屏幕中不显示地址的问题。
