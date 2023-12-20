@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 升级分两个阶段进行。首先，升级“暂存”实例，这样，您就能够测试新功能并在需要时调整配置。随后将升级“生产”实例。
 
-所有发行日期可能会发生更改：请定期访问此页面以检查更新。 在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
+所有发行日期都可能会发生更改：请定期访问此页面以检查更新。在下面指定的时间段内，将分批进行环境更新。具体日期会通过电子邮件发送给每位客户。
 
-## 24.1版 — 2024年冬季版 {#release-24-1-release}
+## 24.1 版 - 2024 冬季版 {#release-24-1-release}
 
-有关此版本的详细信息，请参见 [发行说明](release-notes.md) 此时距暂存环境升级开始尚有一周。
+在暂存环境升级开始的前一周，有关此版本的详细信息可在[发行说明](release-notes.md)中获取。
 
 <table>
  <thead>
@@ -39,17 +39,17 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
  <tbody>
   <tr>
    <td>暂存 </td>
-   <td>2024年1月16日至2月13日 </td>
+   <td>2024 年 1 月 16 日至 2 月 13 日 </td>
   </tr>
   <tr>
    <td>生产 </td>
-   <td>2024年1月23日至2月20日 </td>
+   <td>2024 年 1 月 23 日至 2 月 20 日 </td>
   </tr>
  </tbody>
 </table>
 
 
-## 23.2版 — 2023年秋季有限版本 {#release-23-2-release}
+## 23.2 版 - 2023 年秋季限量发布 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
