@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 
 ## 2023 年 12 月 {#doc-updates-dec-2023}
 
-Android Firebase Cloud Messaging (FCM)服务的一些重要更改将于2024年发布，并将影响您的Adobe Campaign实施。 了解详情，请参阅 [此技术说明](../../administration/using/push-technote.md).
+Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 年发布，并将影响您的 Adobe Campaign 实施。请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
-## 23.2版 — 2023年秋季 {#release-23-2}
+## 23.2 版 - 2023 年秋季 {#release-23-2}
 
 * Campaign Standard 23.2 2023 年秋/冬版的发行说明已发布。[了解更多信息](release-notes.md)
 
@@ -236,7 +236,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 提供有关事务性消息传递入门的新更新部分。[阅读更多](../../channels/using/getting-started-with-transactional-msg.md)
 
-此 **事务型消息传递限制** 部分已移动 [此处](../../channels/using/transactional-messaging-limitations.md).
+**事务性消息传递限制**&#x200B;部分已移至[此处](../../channels/using/transactional-messaging-limitations.md)。
 
 **准备发送**&#x200B;部分已移至[此处](../../sending/using/preparing-the-send.md)。
 
@@ -350,7 +350,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 移动并更新了“通过电子邮件密送进行归档”的专述章节。[了解更多](../../sending/using/archiving.md)
 
-更新了“配置移动应用程序”的文档和相关页面，以反映 SDK V4 已被弃用。[了解更多](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+更新了“配置移动应用程序”的文档和相关页面，以反映 SDK V4 已被弃用。[了解更多](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hans)
 
 更新并修正了 Adobe Campaign Standard/Adobe Experience Manager 集成文档。[了解更多](../../integrating/using/configure-experience-manager.md)
 
