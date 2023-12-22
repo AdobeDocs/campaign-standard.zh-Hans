@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
-## 23.2 版 - 2023 年秋冬版 {#fall-23}
+## 24.1 版 - 2024 冬季版 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,25 +31,9 @@ ht-degree: 100%
 
 ### 改进 {#e-rn-improvements}
 
-* **与 Adobe Experience Manager 集成**。在 Adobe Experience Manager 中为事务型消息创建个性化投放模板时，您现在可以选择并使用下拉菜单中 Campaign Standard 定义的个性化字段。
+Adobe Campaign Standard 24.1使用HTTP v1 API发送Android推送通知消息，以确保与即将发布的FCM更改兼容。 请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
-* **Cookie 过期**  - 默认 Cookie 过期时间现在设置为 6 个月，以符合法国数据保护局 (CNIL) 的建议。
-
-* **配置文件搜索改进**  - 配置文件搜索已优化，因此可以减少搜索超时情况
-
-* **本地化** - 在提及一组旨在接收消息的配置文件时，“受众”一词的翻译在以下语言的所有数字体验产品中都得到了统一：
-
-   * 德语：Zielgruppe
-   * 巴西葡萄牙语：público-alvo
-   * 西班牙语：público destinatario
-
-  这些更改将在下一个 UI 和文档版本中逐步推出。
-
-### 其他变更 {#e-rn-other-changes}
-
-* 事务型消息传递现在支持使用多个逗号分隔的关联。
 
 ### 修复 {#e-rn-fixes}
 
-* 修复了在使用大型工作流时可能导致性能问题的回退。 (CAMP-53369)
-* 修复了导致工作流警报或通知中的电子邮件链接无法正常工作的问题。(CAMP-51874)
+* 修复了导致投放警报工作流停止并出现以下错误的问题： `division by zero`. (CAMP-49786)
