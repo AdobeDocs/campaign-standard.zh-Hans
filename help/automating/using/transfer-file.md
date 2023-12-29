@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 82%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Transfer file]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 使用 **[!UICONTROL Action]** 字段中的下拉列表，选择以下活动操作之一：
 
    ![](assets/wkf_file_transfer_01.png)
@@ -51,16 +51,16 @@ ht-degree: 82%
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
-   * [Adobe Campaign 服务器上存在的文件](#files-server-configuration-wf)
+   * [Microsoft Azure Blob存储](#azure-blob-configuration-wf)
+   * [Adobe Campaign服务器上存在的文件](#files-server-configuration-wf)
 
-1. 根据所选协议提供的 **[!UICONTROL Additional options]** 部分，可用于向协议添加参数。
+1. 此 **[!UICONTROL Additional options]** 部分（根据所选协议提供）允许您向协议添加参数。
 
    您可以：
 
    * **[!UICONTROL Delete the source files after transfer]**：擦除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中存档内容的大小。
 
-   * **[!UICONTROL Sorting files]**：用于按字母数字对文件排序。 此选项默认处于禁用状态。
+   * **[!UICONTROL Sorting files]**：用于按字母数字对文件排序。 默认禁用此选项。
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
@@ -74,12 +74,11 @@ ht-degree: 82%
 
 1. 确认活动的配置并保存工作流。
 
-### 使用 HTTP 进行配置 {#HTTP-configuration-wf}
+### 使用HTTP进行配置 {#HTTP-configuration-wf}
 
 利用 HTTP 协议，可从外部帐户或 URL 开始下载文件。
 
-使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，选择所需的帐户并指定下载文件的路径。
-
+使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，请选择所需的帐户，并指定要下载的文件的路径。
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -88,7 +87,7 @@ ht-degree: 82%
 
 **[!UICONTROL Follow redirections]**， **[!UICONTROL Ignore the HTTP return code]**、和 **[!UICONTROL Add received HTTP headers to the file]** 是选择HTTP协议时可用的其他选项。
 
-### 使用 SFTP 进行配置 {#SFTP-configuration-wf}
+### 使用SFTP进行配置 {#SFTP-configuration-wf}
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
@@ -101,7 +100,7 @@ ht-degree: 82%
 
 您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
 
-### 使用 Amazon S3 进行配置 {#S3-configuration-wf}
+### Amazon S3的配置 {#S3-configuration-wf}
 
 利用 Amazon S3 协议，可通过 Amazon Simple Storage Service (S3) 从 URL 或外部帐户下载文件。
 
@@ -121,7 +120,7 @@ ht-degree: 82%
 
 4. 如果要在传输完成时删除源文件，请勾选 **[!UICONTROL Delete the source files after transfer]**。
 
-### 使用 Microsoft Azure Blob Storage 进行配置 {#azure-blob-configuration-wf}
+### Microsoft Azure Blob Storage的配置 {#azure-blob-configuration-wf}
 
 利用 Microsoft Azure Blob 协议，您可以访问位于 Microsoft Azure Blob Storage 帐户上的 Blob。
 
@@ -143,7 +142,7 @@ ht-degree: 82%
    * **“Campaign/new-”**：匹配 Campaign 文件夹下所有文件名以“new-”开头的 Blob。
    * **“”**：添加空路径可匹配容器中所有可用的 Blob。
 
-### 使用 Adobe Campaign 服务器上存在的文件进行配置 {#files-server-configuration-wf}
+### 使用Adobe Campaign服务器上存在的文件进行配置 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 协议对应于包含待取回文件的存储库。
 元字符或通配符(例如 &#42; 或？) 用于筛选文件。
@@ -151,7 +150,7 @@ ht-degree: 82%
 选择是要 **[!UICONTROL Define a file path]** 还是要 **[!UICONTROL Use a dynamic file path]**
 利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
 
-请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您无法浏览存储空间的上级目录。
+请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您也无法浏览存储空间上方的目录。
 
 例如：
 

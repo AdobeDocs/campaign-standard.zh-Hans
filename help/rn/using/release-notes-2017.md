@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4562'
-ht-degree: 5%
+source-wordcount: '4572'
+ht-degree: 3%
 
 ---
 
@@ -180,27 +180,27 @@ _用户档案和受众_
  <tbody> 
   <tr> 
    <td> 多语言电子邮件和短信投放<br /> </td> 
-   <td> 根据自动分段客户的首选语言，通过单一投放定义和执行多语言电子邮件和短信投放。 关于每次投放之绩效的报告，可以细分到语言和各个级别。<br /> 随着国内外企业的成长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，对于跨国公司、使用多种语言的国家/地区的公司以及希望无论客户位于何处，都能在语言层面进一步个性化内容的公司而言，简化本地化的报文交付是有效客户沟通战略的关键部分。 有关更多信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>。<br /> </td> 
+   <td> 根据自动分段客户的首选语言，通过单一投放定义和执行多语言电子邮件和短信投放。 关于每次投放之绩效的报告，可以细分到语言和各个级别。<br /> 随着国内外企业的成长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，对于跨国公司、使用多种语言的国家/地区的公司以及希望无论客户位于何处，都能在语言层面进一步个性化内容的公司而言，简化本地化的报文交付是有效客户沟通战略的关键部分。 欲了解更多信息，请参见 <a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行中的投放进度或工作流出错时，您会收到通知。<br /> 实时通知可随时告知相关利益相关者，并让用户能够立即直接从应用程序内对活动通知采取行动。 对于团队而言，其结果是提高了营销活动的灵活性、效率和平顺执行。 有关更多信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">详细文档</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行中的投放进度或工作流出错时，您会收到通知。<br /> 实时通知可随时告知相关利益相关者，并让用户能够立即直接从应用程序内对活动通知采取行动。 对于团队而言，其结果是提高了营销活动的灵活性、效率和平顺执行。 欲了解更多信息，请参见 <a href="../../administration/using/sending-internal-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供了一个电子邮件警报系统，以触发向用户或外部利益相关者发送有关重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和功能板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板让公司中所有涉及的Adobe Campaign用户自动了解投放执行状态，从而提高效率。 有关更多信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供了一个电子邮件警报系统，以触发向用户或外部利益相关者发送有关重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和功能板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板让公司中所有涉及的Adobe Campaign用户自动了解投放执行状态，从而提高效率。 欲了解更多信息，请参见 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中加密的已声明ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售用户档案。<br /> 通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群中的忠诚度并吸引新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。 有关更多信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>。<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售用户档案。<br /> 通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群中的忠诚度并吸引新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。 欲了解更多信息，请参见 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 从Campaign到Analytics的KPI共享<br /> </td> 
-   <td> 与Adobe Analytics共享促销活动数据，以通过转化、统一点击前和点击后行为来测量促销活动的电子邮件营销量度以及其他营销和广告效果。<br /> 直接跟踪整体绩效并发现Analytics中与外部程序的协同效应。 将来自此整合视图的学习应用回您的营销活动；最终提高开放式、点进和转化率，从而提高收入和整体营销活动效果。 <br /> Adobe Analytics为必填项。 有关更多信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>。<br /> </td> 
+   <td> 与Adobe Analytics共享促销活动数据，以通过转化、统一点击前和点击后行为来测量促销活动的电子邮件营销量度以及其他营销和广告效果。<br /> 直接跟踪整体绩效并发现Analytics中与外部程序的协同效应。 将来自此整合视图的学习应用回您的营销活动；最终提高开放式、点进和转化率，从而提高收入和整体营销活动效果。 <br /> Adobe Analytics为必填项。 欲了解更多信息，请参见 <a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道 — 退回发件人<br /> </td> 
-   <td> 现在支持与直邮提供商进行平面文件交换，其中纳入了“返回发件人”信息。 对直邮渠道的这种增强允许从未来的通信中排除相应的邮政地址。<br /> 这样，营销人员就可以收到地址错误的通知，并通过其他渠道与客户互动，或者鼓励他们更新邮政地址。 这还可以减少营销资金浪费的数量，因为营销人员会避免将邮件发送到错误的地址。 <br /> 直邮可用作附加渠道。 有关更多信息，请参阅<a href="../../channels/using/return-to-sender.md">详细文档</a>。<br /> </td> 
+   <td> 现在支持与直邮提供商进行平面文件交换，其中纳入了“返回发件人”信息。 对直邮渠道的这种增强允许从未来的通信中排除相应的邮政地址。<br /> 这样，营销人员就可以收到地址错误的通知，并通过其他渠道与客户互动，或者鼓励他们更新邮政地址。 这还可以减少营销资金浪费的数量，因为营销人员会避免将邮件发送到错误的地址。 <br /> 直邮可用作附加渠道。 欲了解更多信息，请参见 <a href="../../channels/using/return-to-sender.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,7 +259,7 @@ _工作流_
    <td> 通过Adobe Campaign Standard的第一个离线渠道Direct Mail，突破数字屏障，连接到物理世界。 通过此功能，您可以个性化和生成直邮提供商所需的文件，作为跨渠道营销活动的一部分。 利用Direct Mail，通过一种吸引人的触觉接触点将客户引导至您的应用程序、网站或商店，从而重新吸引客户或增强客户体验。<br /> 欲了解更多信息，请参见 <a href="../../channels/using/about-direct-mail.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 电子邮件密件抄送<br /> </td> 
+   <td> 电子邮件密送<br /> </td> 
    <td> 电子邮件密件抄送功能可以保存发送给每位收件人的独特电子邮件，从而允许品牌存档这些邮件。 通过向所有电子邮件添加密件抄送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的精确副本。 这是金融服务业的常见法律要求，有助于帮助客户服务中心实时解决冲突。<br /> 欲了解更多信息，请参见 <a href="../../sending/using/archiving.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -306,7 +306,7 @@ _推送通知_
    <td> 您现在可以访问由Creative SDK提供支持的完整功能集，以便在编辑电子邮件或登陆页面时直接在内容编辑器中增强图像。<br /> 此功能不需要购买其他Creative Cloud解决方案。<br /> 欲了解更多信息，请参见 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 事务性推送通知<br /> </td> 
+   <td> 事务型推送通知<br /> </td> 
    <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 欲了解更多信息，请参见 <a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -400,7 +400,7 @@ _推送通知_
     <ul> 
      <li> 所有收件人都会收到考虑了当地时区时间的消息。 </li> 
      <li> 每个收件人都会在公式定义的计算日期和时间收到消息。 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../sending/using/optimizing-the-sending-time.md">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../sending/using/optimizing-the-sending-time.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送通知新功能<br /> </td> 
@@ -411,7 +411,7 @@ _推送通知_
      <li> 交互式推送 </li> 
      <li> 丰富的内容支持 </li> 
      <li> 有效负载大小计算器 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../channels/using/about-push-notifications.md">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../channels/using/about-push-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
@@ -419,7 +419,7 @@ _推送通知_
     <ul> 
      <li> <span class="uicontrol">结束</span> 活动：您现在可以通过新的选项卡指定要在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span> 活动：使用新的空叫客过渡添加 <strong>结束</strong> 触发另一个工作流的活动。 空出站转化不携带任何数据，也不会占用系统中不必要的空间 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../automating/using/external-signal.md">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../automating/using/external-signal.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流：新的读取受众活动<br /> </td> 
@@ -485,7 +485,7 @@ _工作流_
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性消息传递API<br /> </td> 

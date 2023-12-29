@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 100%
 
 1. 在 **[!UICONTROL Apple options]** 类别中，填写 **[!UICONTROL Category]** 字段以为自定义操作添加类别 Id（如果 Apple 移动应用程序中可用）。
 
-## 使用自定义 HTML 消息进行自定义 {#customizing-with-a-custom-html-message}
+## 使用自定义HTML消息进行自定义 {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

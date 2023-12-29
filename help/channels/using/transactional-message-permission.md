@@ -12,7 +12,7 @@ exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->这些功能目前仅适用于一组组织（限量发布）。 有关更多信息，请与您的Adobe代表联系。
+>这些功能目前仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
 
 目前，在Adobe Campaign Standard中，没有Administrator安全组的用户无法访问、创建或发布事务型事件，从而导致需要配置和发布事件但缺少Administrator权限的业务用户出现问题。 此外，也不可能重复事务性事件。
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 8%
 
 要在不退回或标记为垃圾邮件的情况下到达收件人的收件箱，您需要提高邮件的可投放性。
 
-* 什么是可投放性?
+* 什么是可投放性？
 
    * 它是指电子邮件中的因素，这些因素决定了其被收件人服务器接受的能力。 ISP（Internet服务提供商）会过滤掉标识为垃圾邮件的电子邮件，或阻止下载图像。 如果他们确定某个域发送的电子邮件过多，则会限制将接受来自该发件人的电子邮件数量。
 
@@ -64,9 +64,9 @@ ht-degree: 8%
 
 **提示**
 
-* 在投放分析过程中，默认情况下会排除其地址被隔离的收件人：这些收件人未定位。 这样可加快投放速度，因为错误率对投放速度有显著的影响。例如，当收件箱已满或地址不存在时，可以隔离电子邮件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在投放分析过程中，默认情况下会排除其地址被隔离的收件人：这些收件人未定位。 这样可加快投放速度，因为错误率对投放速度有显着的影响。 例如，当收件箱已满或地址不存在时，可以隔离电子邮件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
-* Adobe Campaign会根据返回的错误类型管理错误地址。 如需详细信息，请参阅[此部分](../../sending/using/understanding-quarantine-management.md)。
+* Adobe Campaign会根据返回的错误类型管理错误地址。 如需详细信息，请参阅[此小节](../../sending/using/understanding-quarantine-management.md)。
 
 * 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提供商添加到阻止列表。
 

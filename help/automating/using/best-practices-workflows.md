@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 80%
 
 ### 工作流的数量
 
-默认情况下，我们建议 **不可以同时运行20个以上的活动工作流** （这不适用于等待计划执行的工作流）。 超过该限制的工作流将排队等候执行，以免影响性能。
+默认情况下，我们建议 **不可以同时运行20个以上的活动工作流** （这不适用于等待计划执行的工作流）。 在达到该限制后，工作流将排队等候执行，以免影响性能。
 
 在特定环境中，您需要运行的工作流可能会超过 20 个。如果出现这种情况，您需要与 Campaign 专家核实使用案例，并联系 Adobe 客户关怀部门以提高上限。
 
@@ -94,7 +94,7 @@ ht-degree: 80%
 ![](assets/keep_interim_best_practices.png)
 
 
-### 标记活动{#activity-labeling}
+### 标签活动{#activity-labeling}
 
 在开发工作流时，会为每个活动生成一个名称（类似于所有 Adobe Campaign 对象）。虽然活动的名称由工具生成且无法编辑，但我们建议在配置时为其添加明确的标签名称。
 
@@ -102,7 +102,7 @@ ht-degree: 80%
 
 要复制现有活动，您可以使用复制粘贴操作。这样，您就可以保留最初定义的设置。有关更多信息，请参见[复制工作流](../../automating/using/workflow-interface.md)。
 
-### 调度程序活动{#acheduler-activity}
+### “调度程序”活动{#acheduler-activity}
 
 在构建工作流时，只能为每个分支使用一个 **[!UICONTROL Scheduler activity]**。如果工作流的同一分支具有多个调度程序（相互链接），则要执行的任务数量将呈指数级增长，这将使数据库严重过载。
 

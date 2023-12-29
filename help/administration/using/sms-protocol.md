@@ -1,5 +1,5 @@
 ---
-title: SMS 连接器协议和设置
+title: 短信连接器协议和设置
 description: 了解关于短信连接器和配置方法的更多信息
 audience: administration
 feature: Instance Settings
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 1%
 
 ---
 
-# SMS 连接器协议和设置 {#sms-connector-protocol}
+# 短信连接器协议和设置 {#sms-connector-protocol}
 
 >[!NOTE]
 >
@@ -353,7 +353,7 @@ SMS消息使用特殊的7位编码，通常称为GSM7编码。
 
 | 编码 | 常用数据编码 | 消息大小（字符） | 多部分短信的部分大小 | 可用字符 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM 7 | 0 | 160 | 152 | GSM7基本字符集+扩展（扩展字符占2个字符） |
+| GSM7 | 0 | 160 | 152 | GSM7基本字符集+扩展（扩展字符占2个字符） |
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode（因手机而异） |
 
@@ -537,7 +537,7 @@ TCP连接尝试与 `BIND_*_RESP` 回复。 如果超时，连接将被Adobe Camp
 
 `enquire_link` 是一种特殊类型的PDU，发送后可保持连接处于活动状态。 此时间段以秒为单位。 Campaign连接器仅发送 `enquire_link` 连接空闲以节省带宽时。 如果在此时间段后两次未收到RESP，则连接将被视为无效，并触发重新连接过程。
 
-### SMSC 详情 {#SMSC-specifics}
+### SMSC详情 {#SMSC-specifics}
 
 这些设置是高级设置，可使Adobe Campaign连接器适应大多数SMPP实施特点。
 
@@ -660,7 +660,7 @@ SMPP协议规范未严格强制实施SR格式。 它只是中描述的建议 [�
 
 这表示捕获的ID的格式 `Extraction` sr中ID的正则表达式。 值与上述MT中的格式具有相同的含义和行为。
 
-**可选字段中的 SR ID 或错误代码**
+**可选字段中的SR ID或错误代码**
 
 如果选中，可选字段的内容将附加到上述正则表达式处理的文本中。 文本将具有以下格式 `0xTAG:VALUE`， `0xTAG` 大写表示标记的4位十六进制值，例如 `0x002E`.
 
@@ -682,7 +682,7 @@ SMPP协议规范未严格强制实施SR格式。 它只是中描述的建议 [�
 >
 >您只能捕获具有文本(ASCII/UTF-8)值的可选字段。 具体而言，使用当前的正则表达式系统无法可靠地捕获二进制字段。
 
-**文本字段中的 SR ID 或错误代码**
+**文本字段中的SR ID或错误代码**
 
 如果选中， **文本** 字段将在处理SR的状态文本期间保留。
 
@@ -700,7 +700,7 @@ SMPP协议规范未严格强制实施SR格式。 它只是中描述的建议 [�
 >
 >从21.1版本开始，现在可以添加多个可选参数。 有关更多信息，请参阅此](../../administration/using/sms-protocol.md#automatic-reply-tlv)章节[。
 
-### 发送给 MO 的自动回复 {#automatic-reply}
+### 自动回复发送至 MO {#automatic-reply}
 
 列入阻止列表此功能允许快速回复文本到MO，并处理每个短代码发送到。
 

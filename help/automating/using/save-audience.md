@@ -12,7 +12,7 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 1. 将 **[!UICONTROL Save audience]** 活动拖放到工作流中。
 1. 将其连接到其他定向活动之后，例如查询、交集、并集或排除等等。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 选择要执行的操作：
 
    * **[!UICONTROL Update an existing audience]**：选择现有受众，然后选择更新类型：

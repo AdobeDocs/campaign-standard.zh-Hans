@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 74%
 
 1. 定义电子邮件的主 **[!UICONTROL Target]**。这是电子邮件的常规目标受众。
 
-   目标在 **[!UICONTROL Target]** 选项卡中定义，由数据库中已标识的用户档案组成。您可以使用[查询编辑器](../../automating/using/editing-queries.md#creating-queries)功能构建主目标。
+   在中定义目标 **[!UICONTROL Target]** 选项卡中，由数据库中已标识的用户档案组成。 您可以使用[查询编辑器](../../automating/using/editing-queries.md#creating-queries)功能构建主目标。
 
    在此选项卡中，**[!UICONTROL Shortcuts]** 面板仅包含预定义过滤器和已标识档案中已定义的受众。利用 **[!UICONTROL Explorer]** 选项卡，可访问其他配置。
 

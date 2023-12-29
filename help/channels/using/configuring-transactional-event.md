@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 5%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 5%
 
 1. 创建事件配置时，选择 **[!UICONTROL Real-time event]** 定位维度(请参阅 [创建事件](#creating-an-event))。
 1. 向事件添加字段，以便能够对事务型消息进行个性化(请参阅 [定义事件属性](#defining-the-event-attributes))。
-1. 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。
+1. 基于事件的事务型消息应仅使用已发送事件中的数据来定义收件人和个性化消息内容。
 
    但是，如果要使用Adobe Campaign数据库中的其他信息，则可以扩充事务型消息的内容(请参阅 [丰富事务型消息的内容](#enriching-the-transactional-message-content))。
 

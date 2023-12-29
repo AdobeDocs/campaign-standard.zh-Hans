@@ -34,7 +34,7 @@ ht-degree: 11%
 
 这些映射将呈现 [在此部分中](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-您还可以创建和使用自定义的目标映射。 如需详细信息，请参阅[此部分](../../administration/using/target-mappings-in-campaign.md)。
+您还可以创建和使用自定义的目标映射。 如需详细信息，请参阅[此小节](../../administration/using/target-mappings-in-campaign.md)。
 
 ## 外部数据 {#external-data}
 

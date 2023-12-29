@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 4%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Platform Data Connector **数据工程师** 熟悉Adobe Campaig
 
 以下部分介绍了在Campaign Standard和Adobe Experience Platform之间执行数据映射的关键步骤。 首先创建XDM架构和数据集。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 >[!NOTE]
 >配置Adobe Experience Platform Data Connector并将数据成功摄取到Adobe Experience Platform中后，您需要启用数据集，以便将数据包含在实时客户资料中。

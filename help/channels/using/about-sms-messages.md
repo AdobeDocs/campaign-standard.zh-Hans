@@ -11,8 +11,8 @@ level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 23%
+source-wordcount: '266'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign允许您投放短信（短信服务）消息。
 * [管理模板](../../start/using/marketing-activity-templates.md)
 * [短信配置](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [短信报告](../../reporting/using/sms-report.md)
-* [Campaign Standard Mobile 指南](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile指南](../../channels/using/get-started-communication-channels.md)
 
 ## 短信投放模板 {#sms-delivery-template}
 

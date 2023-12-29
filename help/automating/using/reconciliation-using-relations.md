@@ -1,6 +1,6 @@
 ---
 title: 使用关系进行数据协调
-description: 下方的示例演示了使用文件中的购买数据更新数据库的工作流。
+description: 以下示例演示了使用文件中的购买数据更新数据库的工作流。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 4%
 
 ---
 
@@ -104,7 +104,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 1. 定义从中检索内容的URL。
 1. 单击 **[!UICONTROL Confirm]**。
 
-在视频中发现此功能.
+在视频中发现此功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
@@ -223,7 +223,7 @@ zip文件结构没有限制。 但是，引用HTML文件必须是相对的，并
 1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 添加HTML组件。 有关更多信息，请参阅[添加片段和组件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 将HTML复制并粘贴到该组件中。
-1. 切换到移动视图. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到移动视图。 有关更多信息，请参阅[此小节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    响应视图已损坏，因为您的CSS缺失。
 

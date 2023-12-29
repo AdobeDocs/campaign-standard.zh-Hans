@@ -12,7 +12,7 @@ exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 1. 将多个活动（例如查询）拖放到您的工作流中，以至少形成两个不同的执行分支。
 1. 将 **[!UICONTROL AND-join]** 活动拖放到工作流中。
 1. 将其连接到要同步的两个不同分支之后。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 选择要保留在叫客过渡中的主集。如果不选择任何集，则会从活动发送随机群体。
 1. 确认活动的配置并保存工作流。
 

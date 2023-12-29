@@ -12,7 +12,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 15%
 
 1. 选择 **[!UICONTROL Reconciliation key]**：此数据库字段用于确定访客的用户档案是否已存在于Adobe Campaign数据库中。 例如电子邮件、名字、姓氏等。 利用协调键值，可根据用户档案更新或创建用户档案 **[!UICONTROL Update strategy]** 参数定义如下。
 
-1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键值中使用的参数。
+1. 定义 **[!UICONTROL Form parameter mapping]**：利用此部分可映射登陆页面字段参数和协调键中使用的参数。
 
 1. 选择 **[!UICONTROL Update strategy]**：如果协调键值取回了现有的数据库用户档案，您可以选择使用在表单中输入的数据来更新此用户档案，或者改为阻止此更新。
 

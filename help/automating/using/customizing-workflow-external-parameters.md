@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ $(vars/@parameterName)
   | FileExt | 返回文件路径的扩展名。 | FileExt(&lt;string>) |
   | GetOption | 返回指定函数的值。 | GetOption(&lt;optionname>) |
   | IsNull | 指示字符串或日期是否为null。 | IsNull(&lt;string date=&quot;&quot;>) |
-  | UrlUtf8Encode | 使用UTF8对URL进行编码。 | UrlUtf8Encode(&lt;string>) |
+  | UrlUtf8编码 | 使用UTF8对URL进行编码。 | UrlUtf8Encode(&lt;string>) |
 
 ## 使用事件变量自定义活动 {#customizing-activities-with-events-variables}
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 12%
+source-wordcount: '1392'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 12%
                <tr>
                   <td>birthDate</td>
                   <td>出生日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,8 +99,8 @@ ht-degree: 12%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
-                  <td>date </td>
+                  <td>创建时间</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +124,7 @@ ht-degree: 12%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>上次交易日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -210,7 +210,7 @@ ht-degree: 12%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -239,7 +239,7 @@ ht-degree: 12%
                </tr>
                <tr>
                   <td>移动电话</td>
-                  <td>手机</td>
+                  <td>移动</td>
                   <td>字符串(32)</td>
                   <td> </td>
                </tr>
@@ -422,7 +422,7 @@ ht-degree: 12%
                   </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>标题</td>
                   <td>用户档案</td>
                   <td>字符串(255)</td>
                   <td> </td>
@@ -460,7 +460,7 @@ ht-degree: 12%
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>精度</td>
@@ -471,8 +471,8 @@ ht-degree: 12%
 <td>字符串</td>
 </tr>
 <tr>
-<td>个月</td>
-<td>date</td>
+<td>月</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>运算符</td>
@@ -484,7 +484,7 @@ ht-degree: 12%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>类型</td>
@@ -492,7 +492,7 @@ ht-degree: 12%
 </tr>
 <tr>
 <td>天</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 </table>
 

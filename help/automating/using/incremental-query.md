@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 导出数据。
 
-  您可以使用 **[!UICONTROL Incremental query]** 活动以文件格式定期导出新日志。例如，如果要在外部报告或 BI 工具中使用日志数据，则此功能非常有用。[导出日志](../../automating/using/exporting-logs.md)章节中提供了完整的示例。
+  您可以使用 **[!UICONTROL Incremental query]** 活动以文件格式定期导出新日志。例如，如果要在外部报表或BI工具中使用日志数据，则此功能非常有用。 [导出日志](../../automating/using/exporting-logs.md)章节中提供了完整的示例。
 
 **相关主题**
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Incremental query]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 如果要在非用户档案资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
    利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的用户档案、投放、链接到所选资源的数据等）。

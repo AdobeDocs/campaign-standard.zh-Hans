@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -221,12 +221,12 @@ For more on creating a collection and related fields when configuring the event,
 
 下方列出了两者之间的差异。
 
-1. [请转至创建的事务型消息以对其进行编辑。](#accessing-transactional-messages)
+1. [转至事务型消息](#accessing-transactional-messages) 创建该对话框以对其进行编辑。
 1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务型电子邮件模板之外，您还可以选择定向 **[!UICONTROL Profile]** 资源。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 选择默认电子邮件模板。与所有营销电子邮件类似，它包括 **退订链接**.
+1. 选择默认电子邮件模板。 与所有营销电子邮件类似，它包括 **退订链接**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 

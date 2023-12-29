@@ -7,8 +7,8 @@ level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 7%
+source-wordcount: '593'
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 >[!NOTE]
 > 有关配置标识键时的全局概念的详情，请参见 [本节](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. 在配置标识键之前，请确保已使用所需的字段扩展了资源并且已发布该资源。 如需详细信息，请参阅[此部分](../../developing/using/creating-or-extending-the-resource.md)。
+1. 在配置标识键之前，请确保已使用所需的字段扩展了资源并且已发布该资源。 如需详细信息，请参阅[此小节](../../developing/using/creating-or-extending-the-resource.md)。
 
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** 菜单，然后打开 **[!UICONTROL Profile]** 资源。
 
@@ -50,7 +50,7 @@ ht-degree: 7%
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 如果要在用户档案的界面中显示两个自定义字段，请配置 **[!UICONTROL Screen definition]** 选项卡。 如需详细信息，请参阅[此部分](../../developing/using/configuring-the-screen-definition.md)。
+   > 如果要在用户档案的界面中显示两个自定义字段，请配置 **[!UICONTROL Screen definition]** 选项卡。 如需详细信息，请参阅[此小节](../../developing/using/configuring-the-screen-definition.md)。
 
 1. 您现在可以将过滤器定义配置为能够使用其标识键调用资源。
 

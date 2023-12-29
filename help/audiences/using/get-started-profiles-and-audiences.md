@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '591'
+ht-degree: 10%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 22%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隐私合规</a></p></td></tr>
 </table>
 
-通过 Campaign 集成客户用户档案，可以在一个视图内跨所有渠道跟踪与客户的每次互动，从而为客户提供相关的个性化信息。
+通过Campaign集成客户用户档案，可以在一个视图内跨所有渠道跟踪与客户的每次互动，从而为客户提供相关的个性化信息。
 
 按受众细分数据库，以优化营销活动的目标。
 
-使用服务和登陆页管理客户权限和许可，以设置简单的选择加入和选择退出机制。
+使用服务和登陆页管理客户权限和同意，以设置简单的选择加入和选择退出机制。
 
 ## 分段和定位 {#segmenting-targeting}
 
@@ -44,7 +44,7 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 
 **受众** 是根据特定标准或一组标准构建的用户档案列表。 使用工作流和查询编辑器，您可以构建营销活动定位的受众，具体取决于您掌握的有关受众的信息、其活动和营销历史。 这允许您过滤订阅的用户档案、采样或根据无数量限制标准创建目标受众。
 
-了解更多信息:
+了解更多：
 
 * [关于用户档案](../../audiences/using/about-profiles.md)
 * [使用中的用户档案](../../audiences/using/active-profiles.md)
@@ -68,7 +68,7 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 >
 >您需要遵守 [Adobe Campaign可接受使用策略](https://www.adobe.com/legal/terms/aup.html).
 
-了解更多信息:
+了解更多：
 
 * [关于订阅](../../audiences/using/about-subscriptions.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

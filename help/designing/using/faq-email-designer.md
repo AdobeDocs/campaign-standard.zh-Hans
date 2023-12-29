@@ -11,7 +11,7 @@ exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ Email Designer 正在不断改进。如果您从头开始创建、从现成模�
 
 ## 能否保存主题中的样式？
 
-无法将样式另存为主题以供将来重用。但是，CSS 样式可保存在内容模板或电子邮件中。
+无法将样式另存为主题以供将来重用。但是，CSS样式可以保存在内容模板或电子邮件中。
 
 有关更多信息，请参阅 [样式](../../designing/using/styles.md)
 

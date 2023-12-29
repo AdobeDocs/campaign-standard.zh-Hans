@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
@@ -25,20 +25,20 @@ ht-degree: 3%
 
 | 标签 | 渠道 | 说明 |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | 所有 | 不包括未指定地址（电子邮件、邮政地址等）的目标人群。 （根据所选渠道）。 |
-| **[!UICONTROL Address on denylist]** | 所有 | 排除阻止列表上的地址。 |
-| **[!UICONTROL Duplicate]** | 所有 | 根据目标群体排除重复项 **[!UICONTROL Address]** 字段。 |
+| **[!UICONTROL Address not specified]** | 全部 | 不包括未指定地址（电子邮件、邮政地址等）的目标人群。 （根据所选渠道）。 |
+| **[!UICONTROL Address on denylist]** | 全部 | 排除阻止列表上的地址。 |
+| **[!UICONTROL Duplicate]** | 全部 | 根据目标群体排除重复项 **[!UICONTROL Address]** 字段。 |
 | **[!UICONTROL Exclude mobile applications]** | 移动应用程序 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 应用程序内 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅（应用程序内模板）。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | 应用程序内 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅（应用程序内广播模板） |
 | **[!UICONTROL Exclude mobile applications for Push]** | 移动应用程序 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅（用于推送） |
-| **[!UICONTROL Quarantined address]** | 所有 | 不包括隔离的地址。 |
-| **[!UICONTROL Target limited in size]** | 所有 | 检查是否已达到目标的最大投放大小。 适用于激活了“投放限制”选项的直邮投放。 |
+| **[!UICONTROL Quarantined address]** | 全部 | 不包括隔离的地址。 |
+| **[!UICONTROL Target limited in size]** | 全部 | 检查是否已达到目标的最大投放大小。 适用于激活了“投放限制”选项的直邮投放。 |
 
 除了这些默认筛选规则之外，还提供两个排除规则：
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** )。
 
 在电子邮件分析期间，这些规则将收件人电子邮件地址与包含在可投放性实例中管理的加密全局禁止列表中的禁止地址或域名进行比较。 如果存在匹配项，则不会将该消息发送给该收件人。
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
    ![](assets/typology_create-rule-typology.png)
 
-1. 确保在要使用的投放或投放模板中选择分类。 如需详细信息，请参阅[此部分](../../sending/using/managing-typologies.md#applying-typologies-to-messages)。
+1. 确保在要使用的投放或投放模板中选择分类。 如需详细信息，请参阅[此小节](../../sending/using/managing-typologies.md#applying-typologies-to-messages)。
 
    ![](assets/typology_template.png)
 

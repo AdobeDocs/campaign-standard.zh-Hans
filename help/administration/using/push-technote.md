@@ -9,13 +9,13 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
 # 推送通知渠道即将发生的变化 {#push-upgrade}
 
-您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 Android Firebase Cloud Messaging (FCM)服务的一些重要更改将于2024年发布，并将影响您的Adobe Campaign实施。 此外，对于iOS应用程序，Adobe正在更改允许管理员配置证书的方式。
+您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 年发布，并将影响您的 Adobe Campaign 实施。此外，对于iOS应用程序，Adobe正在更改允许管理员配置证书的方式。
 
 ## 更改了哪些内容？ {#push-changes}
 

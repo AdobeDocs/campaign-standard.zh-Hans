@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 * [推送通知报告](../../reporting/using/push-notification-report.md)
 * [在工作流中发送推送通知](../../automating/using/push-notification-delivery.md)
 
-## 播放提示音 {#play-a-sound}
+## 播放声音 {#play-a-sound}
 
 利用 **[!UICONTROL Play a sound]** 功能，就算应用未运行，也可让设备在收到推送通知投放时，播放提示音。
 
@@ -73,7 +73,7 @@ ht-degree: 96%
 
 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。
 
-深层链接可以包含用于自定义应用内体验的个性化数据。例如，收件人的名字会自动填写在应用程序所导向的页面上。
+深层链接可以包含用于自定义应用程序内体验的个性化数据。例如，收件人的名字会自动填写在应用程序所导向的页面上。
 
 要在推送通知中添加深层链接：
 
@@ -160,7 +160,7 @@ ht-degree: 96%
 
    ![](assets/push_notif_advanced_2.png)
 
-## 更改 iOS 的通知行为 {#change-the-notification-behavior-for-ios}
+## 更改iOS的通知行为 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
@@ -177,7 +177,7 @@ ht-degree: 96%
 
 选中 **[!UICONTROL Content available]** 后，将在推送有效载荷中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效载荷数据。即使应用程序在后台运行并且没有进行任何用户交互（例如点击推送通知），此功能也会起效；但是，如果应用程序未运行，则此功能不适用。有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。
 
-## 更改 Android 的通知行为 {#change-the-notification-behavior-for-android}
+## 更改Android的通知行为 {#change-the-notification-behavior-for-android}
 
 对于 Android，您可以在 **Rich media content URL** 字段中输入文件的 URL。与 iOS 版本不同，Android 版本的推送通知只能包含图像，而不能包含 GIF 动图、音频或视频文件。
 

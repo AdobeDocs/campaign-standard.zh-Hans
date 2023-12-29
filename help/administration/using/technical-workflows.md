@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ![](assets/technical_workflows.png)
 
-## 技术工作流的列表 {#list-of-technical-workflows}
+## 技术工作流列表 {#list-of-technical-workflows}
 
 Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程。
 
@@ -102,7 +102,7 @@ Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程�
   <tr> 
    <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecover</span> <br /> </td> 
-   <td> 此工作流可恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并且仅限于Adobe内部使用。 <br>默认情况下，每 10 分钟启动一次。<br /> </td> 
+   <td> 此工作流可恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并且仅限于Adobe内部使用。 <br> 默认情况下，每10分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放执行</span> <br/> </td> 

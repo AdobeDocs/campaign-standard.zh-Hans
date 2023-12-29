@@ -74,7 +74,7 @@ ht-degree: 4%
 
 * *“此电子邮件已启用SMTP测试模式选项：不会发送任何邮件。”*
 
-  有关更多信息，请参阅[此章节](../../administration/using/configuring-email-channel.md#smtp-test-mode)。
+  有关更多信息，请参阅[此小节](../../administration/using/configuring-email-channel.md#smtp-test-mode)。
 
 * *“已禁用路由外部帐户。”*
 
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 * *“这是一个现成的事务型消息模板。 如果要对其进行修改，必须复制该模板并制作副本。”*
 
-  这些现成的事务性消息模板中有一些是内置的登陆页面模板。 有关更多信息，请参阅[此章节](../../channels/using/landing-page-templates.md)。
+  这些现成的事务性消息模板中有一些是内置的登陆页面模板。 有关更多信息，请参阅[此小节](../../channels/using/landing-page-templates.md)。
 
 * *“此消息是技术事务型消息模板。 您无法对其进行修改或发布。”*
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 在此使用案例中，我们将创建一个简单的触发器，每次客户放弃访问网站时都会触发该触发器。此示例假定您拥有 DTM 用于收集数据并将数据推送到 Adobe Analytics，且已创建了所有事件。
 
-### 创建 Experience Cloud Trigger {#creating-an-experience-cloud-trigger}
+### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger}
 
 1. 从 Experience Cloud Activation Core Service 菜单选择 **[!UICONTROL Manage Triggers]**。
 
@@ -58,7 +58,7 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_3.png)
 
-### 在 Adobe Campaign 中使用触发器 {#using-the-trigger-in-adobe-campaign}
+### 在Adobe Campaign中使用触发器 {#using-the-trigger-in-adobe-campaign}
 
 现在，我们已经创建了 Experience Cloud Trigger，接下来让我们将其用于 Adobe Campaign。
 
@@ -121,7 +121,7 @@ ht-degree: 94%
 
 在此使用案例中，我们将创建触发器以重新吸引那些访问我们的旅行预订网站、搜索了目的地、未成功找到结果、且没有预订任何内容的访客。一般过程与上一个使用案例中的过程相同（请参阅[浏览放弃触发器](#browse-abandonment-trigger)）。我们将重点介绍如何将再营销电子邮件个性化。
 
-### 创建 Experience Cloud Trigger {#creating-an-experience-cloud-trigger-1}
+### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger-1}
 
 按照上一个使用案例中所述的步骤，创建 Experience Cloud Trigger。请参阅[创建 Experience Cloud Trigger](#creating-an-experience-cloud-trigger)。其主要区别在于触发器定义。
 
@@ -129,7 +129,7 @@ ht-degree: 94%
 
 利用 **[!UICONTROL Include Meta Data]** 部分，可将从 Analytics 收集的任何数据传递到触发器有效载荷。在本例中，我们创建了一个自定义 eVar（例如，eVar 3）来收集访客输入的搜索词。此搜索词随后将用在发送至同一访客的事务型电子邮件中。
 
-### 在 Adobe Campaign 中使用触发器 {#using-the-trigger-in-adobe-campaign-1}
+### 在Adobe Campaign中使用触发器 {#using-the-trigger-in-adobe-campaign-1}
 
 1. 按照上一个使用案例中所述的步骤，在 Adobe Campaign 中创建触发器。请参阅[在 Adobe Campaign 中使用触发器](#using-the-trigger-in-adobe-campaign)。主要区别在于我们如何在 Adobe Campaign 中访问和使用在触发器有效载荷中推送的元数据。
 1. 在 Adobe Campaign 中，进入您创建的搜索放弃触发器，单击 **[!UICONTROL Event content and enrichment]** 图标以查看推送到 Adobe Campaign 的有效载荷。

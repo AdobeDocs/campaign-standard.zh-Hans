@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1201'
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 修复{#rn-fixes}
 
 * 修复了计划报表在计划时间之前一小时被触发的问题。(CAMP-51502)
-* 修复了投放仪表板中的投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
+* 修复了投放仪表板中的传递指示器与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
 * 修复了导致无法使用 ACS 连接器（高级服务）扩展自定义资源的问题。(CAMP-51033)
 * 改进了隐私请求响应的发布流程，以避免延迟。(CAMP-50613)
 

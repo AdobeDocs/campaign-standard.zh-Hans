@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 54%
+ht-degree: 35%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 54%
 
 ## 分段数据 {#segmenting-data}
 
-通过Adobe Campaign，可处理入站数据上的集。 因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。
+通过Adobe Campaign，可处理入站数据上的集。 因此，您可以合并多个群体，排除部分群体或仅保留多个目标的共有数据。
 
-* 利用 **[!UICONTROL Union]** 活动，可将多个活动的结果重组为单个目标。请参阅[并集](../../automating/using/union.md)部分。
-* 利用 **[!UICONTROL Intersection]** 活动，可仅在活动中保留不同集客群体的共有元素。请参阅[交集](../../automating/using/intersection.md)部分。
-* 利用 **[!UICONTROL Exclusion]** 活动，可根据特定条件从一个群体中排除某些元素。请参阅 [排除项](../../automating/using/exclusion.md) 部分。
-* 利用 **[!UICONTROL Segmentation]** 活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个区段。在活动结束时，可以在单一过渡或多个不同过渡中处理这些区段。请参阅 [分段](../../automating/using/segmentation.md) 部分。
+* 此 **[!UICONTROL Union]** 利用活动，可将多个活动的结果重组为单个目标。 请参阅[并集](../../automating/using/union.md)部分。
+* 此 **[!UICONTROL Intersection]** 利用活动，可仅在活动中保留不同集客群体的共有元素。 请参阅[交集](../../automating/using/intersection.md)部分。
+* 此 **[!UICONTROL Exclusion]** 利用活动，可根据特定条件从一个群体中排除某些元素。 请参阅 [排除项](../../automating/using/exclusion.md) 部分。
+* 利用 **[!UICONTROL Segmentation]** 活动，可根据由之前放在工作流中的活动计算出的客户群体，创建一个或多个区段。在活动结束时，可以在单个过渡或不同过渡中处理这些区段。 请参阅 [分段](../../automating/using/segmentation.md) 部分。
 
 ## 丰富数据 {#enriching-data}
 

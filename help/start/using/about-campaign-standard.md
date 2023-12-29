@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
-# Campaign Standard 入门 {#about-campaign-standard}
+# Campaign Standard入门 {#about-campaign-standard}
 
 Adobe Campaign Standard 是一款功能强大的跨渠道活动管理工具，可帮助您调整线上和线下战略以创建个性化的客户体验。
 

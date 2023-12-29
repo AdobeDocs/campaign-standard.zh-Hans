@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 36%
 
    ![](assets/message-center_5.png)
 
-您还可以创建新的测试用户档案，或使用 **[!UICONTROL Test profiles]** 菜单中已存在的测试用户档案。操作步骤：
+您还可以创建新的测试用户档案，或使用中已存在的测试用户档案 **[!UICONTROL Test profiles]** 菜单。 操作步骤：
 
 1. 单击 **Adobe** 徽标，位于左上角，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. 在 **[!UICONTROL Event]** 部分，选择之前创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。

@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ POST响应将返回创建时的事务性事件状态。 要检索其当前状态
 
 * **待处理**：事件处于待处理状态 — 在刚刚触发时，事件会采用此状态。
 * **正在处理**：事件正在等待投放 — 正在将其转换为消息并发送消息。
-* **已暂停**：正在暂停事件进程。 它不再被处理，而是保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此部分](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **已暂停**：正在暂停事件进程。 它不再被处理，而是保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此小节](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已处理**：事件已处理，消息已成功发送。
 * **已忽略**：投放忽略了事件，通常在地址处于隔离状态时这样做。
 * **deliveryFailed**：处理事件时出现投放错误。

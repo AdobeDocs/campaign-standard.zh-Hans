@@ -1,5 +1,5 @@
 ---
-title: 通过 Adobe Experience Manager 集成创建多语言电子邮件.
+title: 通过Adobe Experience Manager集成创建多语言电子邮件。
 description: 通过Adobe Experience Manager集成，您可以直接在AEM中创建内容，并在以后的Adobe Campaign中使用它。
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 1. 单击 **[!UICONTROL Complete]** 则 **[!UICONTROL Newsletter review]** 从 **[!UICONTROL Complete work item]** 窗口。
 
-1. 单击 **[!UICONTROL Complete]**，然后单击 **[!UICONTROL Newsletter approval]**。定义内容和发送参数后，您可以在Adobe Campaign Standard中继续批准、准备和发送电子邮件。
+1. 单击 **[!UICONTROL Complete]** 则 **[!UICONTROL Newsletter approval]**. 定义内容和发送参数后，您可以在Adobe Campaign Standard中继续批准、准备和发送电子邮件。
 
    ![](assets/aem_acs_8.png)
 

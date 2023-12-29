@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 6%
+source-wordcount: '578'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 工作流历史记录会在工作流执行选项中指定的持续时间内保存(请参阅 [工作流属性](../../automating/using/managing-execution-options.md))。 因此，在此持续时间内，所有消息都会被保存，即使在重新启动后也是如此。 如果不想保存先前执行的消息，则必须通过单击 ![](assets/delete_darkgrey-24px.png) 按钮。
 
-此 **[!UICONTROL Log]** 选项卡包含所有活动或任何选定活动的执行历史记录。 工作流日志按时间顺序对执行的操作和执行错误进行索引。
+此 **[!UICONTROL Log]** 选项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
 
 ![](assets/wkf_execution_4.png)
 

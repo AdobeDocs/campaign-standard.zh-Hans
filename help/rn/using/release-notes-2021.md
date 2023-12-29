@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 100%
 * 现已在 Campaign Standard 中弃用 Adobe Experience Platform Data Connector 和 Audience Destinations 服务。如果您正在使用这些功能，则需要转到 Adobe Sources 与 Destinations 并调整实施。[了解详情](../../integrating/using/get-started-sources-destinations.md)
 * [此页面](deprecated-features.md)中列出了已弃用和已删除的功能。
 * 引入了新的“StringAgg”聚合函数，以连接字符串类型列的值。(CAMP-47077) [了解详情](../../automating/using/list-of-functions.md#aggregates)
-* **更新投放指标** (updateDeliveryIndicators) 技术工作流已得到改进，可实现更好的性能。
+* **更新传递指示器** (updateDeliveryIndicators) 技术工作流已得到改进，可实现更好的性能。
 * 应用程序内消息模板现在适用于 Campaign Standard 支持的所有语言。
 * 通过减少投放分析期间对跟踪服务器的调用次数，已针对事务型消息优化了投放准备时间。
 * 新的警报消息会通知用户高跳出率情况。
@@ -324,7 +324,7 @@ ht-degree: 100%
 
 * 现在，**传输文件**&#x200B;活动会生成一个附加变量 (filesCount)，其中包含已上载或已下载的文件数。(CAMP-45842) [了解详情](../../automating/using/transfer-file.md#output-variables)
 
-* SMS 连接器现在可以随每条消息发送多个可选参数。[了解详情](../../administration/using/sms-protocol.md)
+* 短信连接器现在可以随每条消息发送多个可选参数。[了解详情](../../administration/using/sms-protocol.md)
 
 * 具有 DATAMODEL 角色的用户现在可以发布投放日志扩展。(CAMP-46604)
 
@@ -344,7 +344,7 @@ ht-degree: 100%
 
 * 您现在可以使用动态报告中的搜索栏进一步筛选&#x200B;**投放**&#x200B;和&#x200B;**活动**&#x200B;维度。
 
-* 事务性 SMS 消息有效日期现在可以由事务性消息 API 中为到期参数设置的值定义。(CAMP-36600)
+* 事务性短信消息有效日期现在可以由事务性消息 API 中为到期参数设置的值定义。(CAMP-36600)
 
 * 在动态报告中，**投放摘要**&#x200B;内置报告显示取消订阅率指标的错误数据。为修复此问题，添加了名为&#x200B;**唯一取消订阅**&#x200B;的新指标。(CAMP-46445)
 

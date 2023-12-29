@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 
 您可以从中创建电子邮件 [营销活动](../../start/using/marketing-activities.md#creating-a-marketing-activity)，来自Adobe Campaign [主页](../../start/using/interface-description.md#home-page)，或在 [营销活动列表](../../start/using/marketing-activities.md#about-marketing-activities). 您还可以根据工作流创建单一发送和重复发送的电子邮件。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 1. 开始创建电子邮件营销活动后，请选择要使用的模板。
 

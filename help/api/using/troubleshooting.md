@@ -7,12 +7,12 @@ level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
-# API 疑难解答 {#troubleshooting}
+# API疑难解答 {#troubleshooting}
 
 * **在转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。”**
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 出现错误. 请检查您的URI并重试。”}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。”}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 

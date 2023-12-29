@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 83%
 
 ### 电子邮件渲染令牌
 
-许可协议中列出了可用渲染的数量。启用了 **Email rendering** 的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
+许可协议中列出了可用渲染的数量。每次投放都使用 **电子邮件渲染** 启用后，您的可用渲染（也称为令牌）数量会减一。
 
 令牌考虑的是每个单独的渲染，而不是整个电子邮件渲染报表，这意味着：
 

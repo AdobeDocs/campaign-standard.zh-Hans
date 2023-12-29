@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 在本例中，需要定向创建日期为当前月份和年份的用户档案。
 
-### JavaScript 语法 {#javascript-syntax}
+### JavaScript语法 {#javascript-syntax}
 
 在定义 HTML 内容编辑器的文本类型块的可见性条件时，必须使用 JavaScript 类型语法的表达式。
 

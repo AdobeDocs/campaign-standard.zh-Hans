@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 10%
+source-wordcount: '225'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign REST API的可用端点：
 
 * **/profileAndServices**：与开箱即用的字段交互。 不能使用此端点访问扩展字段。
 * **/profileAndServicesExt**：与Profile或Services自定义资源扩展期间添加的自定义字段交互。 有关自定义资源的更多信息，请参阅 [本节](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**：与事务型消息API交互（事务型消息API端点的名称取决于您的实例配置）。 如需详细信息，请参阅[此部分](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**：与工作流交互。 如需详细信息，请参阅[此部分](../../api/using/controlling-a-workflow.md)。
-* **/privacy/privacyTool**：与隐私API交互，以允许自动处理隐私请求。 如需详细信息，请参阅[此部分](../../api/using/creating-a-privacy-request.md)。
+* **/&lt;transactionalapi>**：与事务型消息API交互（事务型消息API端点的名称取决于您的实例配置）。 如需详细信息，请参阅[此小节](../../api/using/managing-transactional-messages.md)。
+* **/workflow/execution**：与工作流交互。 如需详细信息，请参阅[此小节](../../api/using/controlling-a-workflow.md)。
+* **/privacy/privacyTool**：与隐私API交互，以允许自动处理隐私请求。 如需详细信息，请参阅[此小节](../../api/using/creating-a-privacy-request.md)。
 * **/history**：检索用户档案的营销历史。 有关Campaign中集成客户用户档案的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 默认情况下，主要资源可用于 **配置文件与服务** 和 **profileAndServiceExt** API包括：

@@ -12,7 +12,7 @@ exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 82%
+ht-degree: 77%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 82%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Test]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 定义每个条件的属性：
 
    在编辑 **[!UICONTROL Condition]** 字段时，以下两个按钮有助于调用事件变量以及编辑组合变量和函数的表达式：

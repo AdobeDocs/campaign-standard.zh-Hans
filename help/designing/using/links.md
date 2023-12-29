@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 ![](assets/des_link_edit.png)
 
-使用编辑电子邮件时 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)中，您可以轻松地访问和修改从列出电子邮件中所有URL的表中创建的链接。 此列表提供一个集中式视图，让您能够找到电子邮件内容中的每个 URL。要访问它，请参阅 [关于跟踪的URL](#about-tracked-urls).
+使用编辑电子邮件时 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)中，您可以轻松地访问和修改从列出电子邮件中所有URL的表中创建的链接。 通过此列表，您可以集中查看并找到电子邮件内容中的每个URL。 要访问它，请参阅 [关于跟踪的URL](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

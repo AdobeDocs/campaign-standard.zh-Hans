@@ -1,6 +1,6 @@
 ---
 title: 从导入的文件中删除数据重复项
-description: 此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。
+description: 此示例说明如何在将数据加载到数据库之前，从导入的文件中删除重复数据。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 89%
 
 * An [更新数据](../../automating/using/update-data.md) 利用活动，可将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
 
-  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键值，以执行此操作。
+  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键，以执行此操作。
 
   ![](assets/deduplication_example2_writer1.png)
 

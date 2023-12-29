@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 14%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 14%
 | 标签 | 渠道 | 执行阶段 | 说明 |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | 电子邮件 | 在个性化开始时 | 通过A/B测试提取投放的测试群体。 |
-| **[!UICONTROL Check delivery size]** | 所有 | 定位后 | 检查消息的大小。 |
+| **[!UICONTROL Check delivery size]** | 全部 | 定位后 | 检查消息的大小。 |
 | **[!UICONTROL Check email content is not empty]** | 电子邮件 | 定位后 | 如果消息的内容为空，则生成错误。 |
 | **[!UICONTROL Check In-App content for broadcast template]** | 应用程序内 | 在开始进行个性化时 | 检查广播模板的应用程序内内容/触发器是否不为空。 |
 | **[!UICONTROL Check In-App content for profile template]** | 应用程序内 | 在个性化开始时 | 检查配置文件模板的应用程序内内容/触发器是否不为空。 |
 | **[!UICONTROL Check In-App content for subscriber template]** | 应用程序内 | 在个性化开始时 | 检查订阅者模板的应用程序内内容/触发器是否不为空。 |
-| **[!UICONTROL Check proof size]** | 所有 | 定位后 | 如果验证目标群体超过100个收件人，则生成错误消息。 |
+| **[!UICONTROL Check proof size]** | 全部 | 定位后 | 如果验证目标群体超过100个收件人，则生成错误消息。 |
 | **[!UICONTROL Check social network sharing link]** | 电子邮件 | 在个性化开始时 | 在内容中包含社交网络共享链接（病毒链接）时，检查是否存在指向镜像页面的链接。 |
 | **[!UICONTROL Check subject]** | 电子邮件 | 在个性化开始时 | 检查主题和发件人地址是否不包含可能导致某些邮件传输代理出现问题的特殊字符，并检查邮件主题是否已完成。 |
 | **[!UICONTROL Check unsubscription link]** | 电子邮件 | 在个性化开始时 | 检查每个内容(HTML和文本)中是否存在至少一个退订（选择退出）URL。 |

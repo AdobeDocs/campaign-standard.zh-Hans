@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5355'
+source-wordcount: '5386'
 ht-degree: 3%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 3%
     <ul> 
      <li> 导出包含“冻结”数据的扩展broadlog：作为营销人员，我想导出区段代码等于“A”（来自工作流引擎）的所有用户档案。 </li> 
      <li> 对“冻结”数据进行分段：作为营销人员，我希望 <strong>重新定位</strong> 自上次发送后获得1000个忠诚度点数或区段代码等于“A”的所有用户档案。 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自定义用户档案数据进行动态报告<br /> </td> 
@@ -297,7 +297,7 @@ _自定义资源_
     <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer（测试版）<br /> </td> 
@@ -315,11 +315,11 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 在事务型消息传递中使用自定义资源<br /> </td> 
-   <td> 除了开箱即用字段外，事务型消息传递现在还允许您使用自定义资源丰富消息的内容。<br />例如：<br /> 
+   <td> 除了开箱即用字段外，事务型消息传递现在还允许您使用自定义资源丰富消息的内容。<br /> 例如：<br /> 
     <ul> 
      <li> 利用自定义字段作为协调条件，将事务型消息与用户档案进行匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据进一步个性化事务型消息 </li> 
-    </ul> 有关更多信息，请参阅<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>。<br /> </td> 
+    </ul> 欲了解更多信息，请参见 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -455,7 +455,7 @@ _已知问题_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br />有关更多信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>。<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以利用可变内容执行以下操作： <br /> 
+   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br /> 欲了解更多信息，请参见 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>.<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以利用可变内容执行以下操作： <br /> 
     <ul> 
      <li> 解密以加密格式传送的数据 </li> 
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 

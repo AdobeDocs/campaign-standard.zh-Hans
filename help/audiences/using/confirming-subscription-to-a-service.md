@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 90%
+source-wordcount: '1320'
+ht-degree: 85%
 
 ---
 
 # 确认订阅服务{#confirming-subscription-to-a-service}
 
-## 关于发送订阅确认函 {#sending-subscription-confirmation}
+## 关于发送订阅确认 {#sending-subscription-confirmation}
 
 本节介绍如何向订阅特定服务的用户档案自动发送自定义确认电子邮件。
 
@@ -39,7 +39,7 @@ ht-degree: 90%
 
 配置来自服务的确认消息，使其仅在每个访客首次订阅该服务时发送确认事务型消息。如果某个用户档案已订阅，则不会再向该用户档案发送确认消息。
 
-### 第 1 步：创建确认电子邮件 {#step-1--create-the-confirmation-email-1}
+### 第1步：创建确认电子邮件 {#step-1--create-the-confirmation-email-1}
 
 确认电子邮件将自动发送给（通过登陆页面或其他方式）订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
@@ -97,7 +97,7 @@ ht-degree: 90%
 1. 单击 **[!UICONTROL Save & close]** 以保存您的内容。
 1. 发布事务型消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-### 第 2 步：创建和配置服务 {#step-2--create-and-configure-the-service-1}
+### 第2步：创建和配置服务 {#step-2--create-and-configure-the-service-1}
 
 1. 从 Adobe Campaign 徽标访问高级菜单 **Profiles &amp; audiences** > **Services**，以创建服务。
 1. 通过服务仪表板的 ![](assets/edit_darkgrey-24px.png) 按钮，访问 **[!UICONTROL Service properties]** 部分。
@@ -122,13 +122,13 @@ ht-degree: 90%
 >
 >仅在用户首次订阅时发送消息。
 
-## 配置来自登录页的确认消息 {#configuring-confirmation-message-from-landing-page}
+## 配置来自登陆页面的确认消息 {#configuring-confirmation-message-from-landing-page}
 
 您还可以使用登录页 **[!UICONTROL Job]** 部分的 **[!UICONTROL Start sending messages]** 选项，引用来自订阅登陆页面的确认消息。
 
 引用登陆页面的确认消息时，每次提交登陆页面时都会发送消息（即使用户档案已订阅）。
 
-### 第 1 步：创建确认电子邮件 {#step-1--create-the-confirmation-email-2}
+### 第1步：创建确认电子邮件 {#step-1--create-the-confirmation-email-2}
 
 确认电子邮件将自动发送给通过登陆页面订阅新闻通讯的每个用户档案。订阅被视为事件，而电子邮件作为[事务型消息](../../channels/using/getting-started-with-transactional-msg.md)，其目标是订阅了服务的每个用户档案。
 
@@ -164,14 +164,14 @@ ht-degree: 90%
 
 有关设计事务型消息的步骤，请参阅本[章节](#design-the-confirmation-message-1)。
 
-### 第 2 步：创建和配置服务 {#step-2--create-and-configure-the-service-2}
+### 第2步：创建和配置服务 {#step-2--create-and-configure-the-service-2}
 
 1. 从 Adobe Campaign 徽标访问高级菜单 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**，以创建服务。
 1. 通过服务仪表板的 ![](assets/edit_darkgrey-24px.png) 按钮，访问 **[!UICONTROL Service properties]** 部分。
 1. 填写 **[!UICONTROL Service label]** 字段。此标签将显示在确认消息和订阅登陆页面中。
 1. 单击 **[!UICONTROL Confirm]** 并保存服务。
 
-### 第 3 步：创建和配置登陆页面 {#step-3--create-and-configure-the-landing-page}
+### 第3步：创建和配置登陆页面 {#step-3--create-and-configure-the-landing-page}
 
 创建将发布在您网站上的订阅登陆页面。
 

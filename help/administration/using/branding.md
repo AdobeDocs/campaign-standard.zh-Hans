@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 76%
 
 配置和使用品牌的主要原理如下：
 
-1. 创建和配置品牌 - 此操作需要特定权限，并由 Adobe Campaign 技术管理员执行。详细介绍了在Campaign中获取新品牌的步骤 [在此部分中](#creating-a-brand).
+1. 创建和配置品牌 — 此操作需要特定权限，并由Adobe Campaign技术管理员执行。 详细介绍了在Campaign中获取新品牌的步骤 [在此部分中](#creating-a-brand).
 1. 为此品牌创建一个或多个投放和登陆页面模板。请参阅[创建模板](../../start/using/marketing-activity-templates.md)一节。
 1. 根据此模板创建消息和登陆页面。请参阅[创建电子邮件](../../channels/using/creating-an-email.md)和[创建登陆页面](../../channels/using/designing-a-landing-page.md)。
 
@@ -85,7 +85,7 @@ ht-degree: 76%
 
 ## 创建新品牌 {#creating-a-brand}
 
-您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请执行以下步骤：
+您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请按照以下步骤进行：
 
 1. **配置新子域**  — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过以下方式执行此操作 [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans) 或联系您的Adobe技术联系人。 了解有关子域配置的更多信息 [本文内容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 

@@ -12,7 +12,7 @@ exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 92%
 
    ![](assets/schema_extension_31.png)
 
-## 使用 API 扩展发布资源 {#publishing-a-resource-with-api-extension}
+## 使用API扩展发布资源 {#publishing-a-resource-with-api-extension}
 
 在以下案例中，您可以创建用户档案和服务 API：
 

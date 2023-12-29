@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 12%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 12%
 
 * **[!UICONTROL History in days]**：指定必须清除历史记录的天数。 历史记录包含与工作流相关的元素：日志、任务、事件（链接到工作流操作的技术对象）以及下载的文件 **[!UICONTROL Transfer file]** 活动。 现成的工作流模板的默认值为 30 天。
 
-  历史记录的清除工作由数据库清理技术工作流执行，默认情况下每天执行一次 (请参阅 [技术工作流列表](../../administration/using/technical-workflows.md).)
+  清除历史记录由数据库清理技术工作流执行，默认每天执行(请参阅 [技术工作流列表](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

@@ -1,6 +1,6 @@
 ---
 title: 使用协调进行数据更新
-description: 下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。
+description: 下方的示例演示了一个工作流，该工作流直接从包含新客户的导入文件创建用户档案受众。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 
 利用 **[!UICONTROL SMS delivery]** 活动，可在工作流中配置发送短信。这可以是只发送一次的单次发送短信，也可以是定期短信。
 
-* **单次发送短信是标准短信，只发送一次。**
-* **而利用定期短信，则会在定义的时间段内多次向不同目标发送同一短信。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
+* **单次发送** SMS消息是只发送一次的标准短信。
+* **周期性** 利用短信消息，可在定义的时间段内多次向不同目标发送同一短信。 您可以按时段聚合投放，以获得对应于您需求的报告。
 
 ## 使用环境 {#context-of-use}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL SMS delivery]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ ht-degree: 100%
 1. 选择短信类型。短信类型来自在 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单中定义的短信模板。
 1. 输入短信的常规属性。您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为短信的标签。
 1. 定义短信的内容。请参阅关于[创建短信](../../channels/using/creating-an-sms-message.md)的章节。
-1. 默认情况下，**[!UICONTROL SMS delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL SMS delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL SMS delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL SMS delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收短信的群体。在投放准备期间被排除的目标成员（隔离、电话号码无效等）将从此过渡中排除。

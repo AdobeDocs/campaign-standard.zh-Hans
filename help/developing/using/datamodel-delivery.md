@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 30%
+source-wordcount: '725'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>验证</td>
+                  <td>证明</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -141,8 +141,8 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
-                  <td>date </td>
+                  <td>创建时间</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -296,7 +296,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>标签</td>
                   <td>标签</td>
                   <td>字符串(128)</td>
                   <td> </td>
@@ -304,7 +304,7 @@ ht-degree: 30%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,7 +331,7 @@ ht-degree: 30%
                <tr>
                   <td>mainDate</td>
                   <td>日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -524,7 +524,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>标题</td>
                   <td>投放</td>
                   <td>字符串(255)</td>
                   <td> </td>
@@ -662,7 +662,7 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>时间段</td>
@@ -757,11 +757,11 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 

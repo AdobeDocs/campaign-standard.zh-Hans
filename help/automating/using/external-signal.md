@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '601'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 配置外部信号时，必须首先在目标工作流中配置 **[!UICONTROL External signal]** 活动。完成此配置后，此工作流的 **[!UICONTROL External signal]** 活动将可用于配置源工作流的 **[!UICONTROL End]** 活动。
 
 1. 将 **[!UICONTROL External signal]** 活动拖放到目标工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 编辑活动的标签。配置触发 **[!UICONTROL External signal]** 的源工作流时需要此标签。
 
    如果要使用参数调用工作流，请使用 **[!UICONTROL Parameters]** 区域声明它们。有关详细信息，请参见[此页面](../../automating/using/declaring-parameters-external-signal.md)。

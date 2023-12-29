@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 89%
 
 但是，如果短信消息包含大量会生成 Unicode 消息的字符，则可以选择加入此选项以限制发送消息的成本。
 
-### 字符表 - GSM 标准 {#table-of-characters---gsm-standard}
+### 字符表 — GSM标准 {#table-of-characters---gsm-standard}
 
 本节介绍 GSM 标准可识别的字符。除下方所列的字符外，插入消息正文的所有其他字符都会导致整个消息被转换为二进制格式 (Unicode)，从而使其长度限制变成 70 个字符。有关更多信息，请参阅[短信编码、长度和音译](#sms-encoding--length-and-transliteration)一节。
 
@@ -282,7 +282,7 @@ CR：回车
 
 ^ { } [~] | €
 
-### SMSC 详情 {#smsc-specifics}
+### SMSC详情 {#smsc-specifics}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ CR：回车
 
   ![](assets/sms_data_coding1.png)
 
-### 发送给 MO 的自动回复 {#automatic-reply-sent-to-the-mo}
+### 自动回复发送至 MO {#automatic-reply-sent-to-the-mo}
 
 当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给他们的消息以及要执行的操作。
 

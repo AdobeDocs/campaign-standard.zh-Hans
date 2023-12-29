@@ -12,7 +12,7 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
    ![](assets/audience_files_3.png)
 
-## 创建 Experience Cloud 受众 {#creating-experience-cloud-audiences}
+## 创建Experience Cloud受众 {#creating-experience-cloud-audiences}
 
 Adobe Campaign 允许您使用 Adobe Experience Cloud 共享和交换受众。**Experience Cloud** 类型的受众，可通过 **[!UICONTROL Import shared audience]** 工作流，直接从 People 核心服务导入到 Adobe Campaign。
 

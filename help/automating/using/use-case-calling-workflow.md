@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc7.png)
 
-工作流1已配置，您现在可以构建工作流2。 如需详细信息，请参阅[此部分](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)。
+工作流1已配置，您现在可以构建工作流2。 如需详细信息，请参阅[此小节](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)。
 
 ## 步骤3：配置工作流2 {#step-3--configuring-workflow-2}
 

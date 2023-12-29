@@ -11,7 +11,7 @@ exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
    >
    >如果重新绘制开箱即用的扩展 **配置文件（配置文件）** 资源，您还必须重新草拟任何 **测试配置文件(seedMember)** 您可能已定义的扩展。 有关扩展用户档案资源的更多信息，请参阅 [本节](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. 发布资源。有关更多详细步骤，请参阅 [发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 发布资源。 有关更多详细步骤，请参阅 [发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    然后，资源进入 **草稿** 模式及其激活状态为 **[!UICONTROL Inactive]**.
 

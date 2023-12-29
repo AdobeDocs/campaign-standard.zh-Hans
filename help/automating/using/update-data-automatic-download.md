@@ -12,7 +12,7 @@ exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 79%
 要构建工作流，请执行以下步骤：
 
 1. 将[传输文件](../../automating/using/transfer-file.md)活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 以某种方式配置活动，以便它可以取回您想要的文件。 在 **[!UICONTROL Protocol]** 选项卡中，选择 **SFTP**。
 1. 选择 **Use connection parameters defined in an external account** 选项。
 1. 输入外部帐户的名称。
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 1. 确认您的活动。
 1. 拖放 [加载文件](../../automating/using/load-file.md) 将活动放入您的工作流中，并将其放在 **[!UICONTROL Transfer file]** 活动。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在 **[!UICONTROL File to load]** 选项卡的 **[!UICONTROL Execution]** 中，勾选 **[!UICONTROL Use the file specified in the inbound transition]** 选项。
 
    ![](assets/wkf_file_loading8.png)

@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 要编辑现有配置文件并查阅与其关联的数据，或修改它，请执行以下步骤：
 
-1. 在 Adobe Campaign 主页中，单击 **[!UICONTROL Customer profiles]** 卡或 **[!UICONTROL Profiles]** 选项卡。
+1. 从Adobe Campaign主页中，单击 **[!UICONTROL Customer profiles]** 卡或 **[!UICONTROL Profiles]** 选项卡。
 1. 选择联系人。
 1. 单击 **[!UICONTROL Edit profile properties]** 图标来访问用户档案的详细信息。
 

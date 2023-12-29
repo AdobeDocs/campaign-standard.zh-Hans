@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Wait]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 指定激活活动的集客过渡和叫客过渡之间需要等待的时间，即 **[!UICONTROL Duration]**。
 
    您可以手动输入持续时间，也可使用字段中提供的选择器。

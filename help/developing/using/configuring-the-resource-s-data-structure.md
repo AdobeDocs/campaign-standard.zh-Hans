@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * [标识键](#defining-identification-keys)
 * [索引](#defining-indexes)
 * [链接](#defining-links-with-other-resources)
-* [发送日志](#defining-sending-logs-extension)
+* [正在发送日志](#defining-sending-logs-extension)
 
 ## 向资源添加字段 {#adding-fields-to-a-resource}
 
@@ -277,7 +277,7 @@ ht-degree: 100%
 
 您的修改已保存。您需要再次发布资源以应用它们。
 
-## 为用户档案和自定义资源生成唯一 ID {#generating-a-unique-id-for-profiles-and-custom-resources}
+## 为用户档案和自定义资源生成唯一ID {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 默认情况下，用户档案和自定义资源在创建时没有业务 ID。您可以启用一个选项，以在创建元素时自动生成唯一 ID。该 ID 可用于：
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 38%
+source-wordcount: '548'
+ht-degree: 33%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 最后， [数据管理活动](../../automating/using/about-data-management-activities.md) 允许您处理数据库中的数据。
 
-了解更多信息:
+了解更多：
 
 * [构建工作流](../../automating/using/building-a-workflow.md)
 * [执行工作流](../../automating/using/about-workflow-execution.md)
@@ -64,7 +64,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 查询编辑器附带 **预定义过滤器和规则** 以进行快速轻松的筛选。 但是，您也可以使用 **高级表达式编辑** 功能。 这允许您手动输入条件并使用函数，以形成自己的规则。
 
-了解更多信息:
+了解更多：
 
 * [编辑查询](../../automating/using/editing-queries.md)
 * [高级表达式编辑](../../automating/using/advanced-expression-editing.md)
@@ -86,7 +86,7 @@ Campaign Standard附带几个 **数据管理功能** 导入和导出数据。
 
 最后， [导出列表](../../automating/using/exporting-lists.md) 允许您从Campaign Standard导出任何列表，例如测试用户档案的列表、隔离电子邮件地址的列表等。
 
-了解更多信息:
+了解更多：
 
 * [导入和导出数据](../../automating/using/about-data-import-and-export.md)
 * [用例：导出/导入自定义资源](../../automating/using/exporting-importing-custom-resources.md)

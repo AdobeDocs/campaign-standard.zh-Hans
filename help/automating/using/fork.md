@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 1. 将 **[!UICONTROL Fork]** 活动拖放到工作流中。
 1. 将其连接至其前方的其他活动，例如查询。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 通过创建、删除或复制叫客过渡来指定其数量。您还可以为其添加名称和标签属性。
 1. 确认活动的配置并保存工作流。
 

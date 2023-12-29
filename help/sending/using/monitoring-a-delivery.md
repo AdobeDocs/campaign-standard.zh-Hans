@@ -55,7 +55,7 @@ ht-degree: 79%
 
 ## 投放日志 {#delivery-logs}
 
-### 发送日志 {#sending-logs}
+### 正在发送日志 {#sending-logs}
 
 **[!UICONTROL Sending logs]** 选项卡提供了每次进行此投放的历史记录。此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
 

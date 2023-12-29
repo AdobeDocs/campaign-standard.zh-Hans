@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 90%
 
    ![](assets/query_sample_failure3.png)
 
-## 定向过去 7 天内未联系的用户档案 {#targeting-profiles-not-contacted-during-the-last-7-days}
+## 定向过去7天内未联系的用户档案 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 以下示例显示了一个查询活动，该活动配置为筛选过去 7 天内未联系的用户档案。
 

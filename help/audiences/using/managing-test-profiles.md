@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 利用测试用户档案可定向不符合所规定定向标准的其他收件人。可以将测试用户档案添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 您可以通过高级菜单 **[!UICONTROL Profiles & audiences > Test profiles]** 管理测试用户档案。
 

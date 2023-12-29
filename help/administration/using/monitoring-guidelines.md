@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **技术工作流**
 
-技术工作流是计划在服务器上定期执行的操作或作业。要确保实例健康和正常运行，您需要确保它们始终启动并运行。 [了解更多信息](../../administration/using/technical-workflows.md)
+技术工作流是计划在服务器上定期执行的操作或作业。 要确保实例健康和正常运行，您需要确保它们始终启动并运行。 [了解更多信息](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
@@ -62,7 +62,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**最佳实践和故障排除**
+**最佳实践和疑难解答**
 
 在使用工作流时，遵循最佳实践和疑难解答指南有助于提高性能。
 [了解更多信息](../../automating/using/best-practices-workflows.md)

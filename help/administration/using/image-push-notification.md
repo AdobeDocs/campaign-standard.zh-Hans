@@ -1,5 +1,5 @@
 ---
-title: 显示 Adobe Campaign Standard 推送通知中的图像
+title: 显示Adobe Campaign Standard推送通知中的图像
 description: 在此处了解如何在iOS设备上显示Adobe Campaign推送通知中的图像
 audience: channels
 feature: Instance Settings
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,12 +35,12 @@ Experience PlatformSDK支持推送通知。
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
-1. 创建推送通知. 有关详细信息，请参见此 [ 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 创建推送通知。 有关详细信息，请参见此 [ 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 从推送通知内容页面，访问 **[!UICONTROL Advanced options]** 部分。
 
 1. 在中输入文件的URL **[!UICONTROL Rich media content URL]** 字段。
-对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。
+对于iOS 10或更高版本，您可以插入图像、gif、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)
 

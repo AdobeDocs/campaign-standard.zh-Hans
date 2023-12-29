@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 72%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
-用户必须始终链接到安全组。这样您即可为他们分配特定的角色和组织单位。要限制用户的访问，请勿将用户添加到营销策划 **[!UICONTROL Standard Users]** 链接到的组 **[!UICONTROL All]** 组织单位。
+用户必须始终链接到安全组。这将允许您为他们分配特定的角色和组织单位。 要限制用户的访问，请勿将用户添加到营销策划 **[!UICONTROL Standard Users]** 链接到的组 **[!UICONTROL All]** 组织单位。
 
 有关角色的更多信息，下表显示了根据用户角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 

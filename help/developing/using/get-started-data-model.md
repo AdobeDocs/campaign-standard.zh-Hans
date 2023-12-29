@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">自定义资源</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">使用API</a></p></td></tr>
 </table>
 
-使用您自己的字段和资源扩展 Campaign Standard 数据模型，并在单一视图中监控所有数据模型更改。
+使用您自己的字段和资源扩展Campaign Standard数据模型，并在单一视图中监控所有数据模型更改。
 
 ## 数据模型 {#data-model}
 
@@ -33,7 +33,7 @@ Campaign使用的数据是通过中定义的不同资源定义的 **预定义数
 
 此 **诊断** 菜单可让您列出由Campaign Standard生成的技术对象：数据架构、网页、过滤器等，并允许您监视数据模型及其所做的任何更改。
 
-了解更多信息:
+了解更多：
 
 * [数据模型概念](../../developing/using/data-model-concepts.md)
 * [数据模型最佳实践](../../developing/using/data-model-best-practices.md)
@@ -48,7 +48,7 @@ Campaign Standard允许您 **丰富预定义的数据模型** 创建自己的资
 
 此外，您可以 **扩展Campaign StandardREST API** 以便在API中公开自定义资源配置文件的扩展字段。 例如，这可让您使用从计费系统生成的促销代码更新客户的用户档案。
 
-了解更多信息:
+了解更多：
 
 * [添加或扩展资源](../../developing/using/key-steps-to-add-a-resource.md)
 * [扩展API](../../developing/using/about-extending-the-api.md)

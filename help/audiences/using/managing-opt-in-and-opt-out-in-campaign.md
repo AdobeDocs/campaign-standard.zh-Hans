@@ -27,7 +27,7 @@ ht-degree: 8%
 
 ## 设置选择启用和选择禁用登陆页面 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-要使用户能够选择加入或选择退出，您必须创建并发布 **[!UICONTROL Profile acquisition]** 登陆页面。 然后，他们便能够根据自己的需求选择渠道。 为此，请执行以下步骤：
+要使用户能够选择加入或选择退出，您必须创建并发布 **[!UICONTROL Profile acquisition]** 登陆页面。 然后，他们便能够根据自己的需求选择渠道。 为此，请执行以下步骤。
 
 您还可以设置 **[!UICONTROL Denylist]** 使用户能够选择退出所有投放的登陆页面。 有关详细信息，请参见 [设置登陆页面以选择退出所有投放](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 

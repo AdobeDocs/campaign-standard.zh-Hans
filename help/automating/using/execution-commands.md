@@ -12,7 +12,7 @@ exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 此 ![](assets/pending_darkgrey-24px.png) 按钮会尽快启动所选的任何待处理活动。
 
-**一般执行**
+**正常执行**
 
 此 ![](assets/check_darkgrey-24px.png) 按钮可重新激活任何已暂停或已停用的活动。
 

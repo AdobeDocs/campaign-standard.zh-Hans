@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign允许您与其他Adobe Experience Cloud应用程序交换和共�
 
   随后，该ID将由具有相同CNAME的其他Adobe Marketing Cloud应用程序识别。
 
-* **声明的ID**：利用此类ID，可将任何类型的数据与Adobe Campaign数据库中的元素进行协调。 它在 Adobe Campaign 中表示为预定义的合并关键项。交换数据时，Adobe Campaign数据库标识符将进行哈希处理。 随后，这些经过哈希处理的ID将与导入或导出中涉及的Adobe Marketing Cloud受众的经过哈希处理的ID进行比较。
+* **声明的ID**：利用此类ID，可将任何类型的数据与Adobe Campaign数据库中的元素进行协调。 它在Adobe Campaign中表示为预定义的合并关键项。 交换数据时，Adobe Campaign数据库标识符将进行哈希处理。 随后，这些经过哈希处理的ID将与导入或导出中涉及的Adobe Marketing Cloud受众的经过哈希处理的ID进行比较。
   <br>此集成支持常规声明的ID、经过哈希处理的声明的ID和加密的声明的ID。
 
   >[!NOTE]
@@ -49,6 +49,6 @@ Adobe Campaign允许您与其他Adobe Experience Cloud应用程序交换和共�
 
   例如，利用解密加密电子邮件地址或短信号码的功能，您还可以向用户发送触发消息，即使Adobe Campaign数据库中不存在用户的档案。
 
-下图详细说明此集成的工作方式。在此，AAM表示Adobe Audience Manager，ACS表示Adobe Campaign Standard。
+下图详细说明此集成的工作方式。 在此，AAM表示Adobe Audience Manager，ACS表示Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)

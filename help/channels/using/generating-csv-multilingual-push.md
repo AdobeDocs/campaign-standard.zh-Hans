@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 多语言推送在CSV文件中需要14列：
 
-1. title
+1. 标题
 1. messagebody
 1. 声音
 1. adge

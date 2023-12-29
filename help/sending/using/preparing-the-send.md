@@ -53,7 +53,7 @@ ht-degree: 12%
 
 完成准备工作后，即可发送消息。 有关此内容的更多信息，请参阅 [确认发送](../../sending/using/confirming-the-send.md).
 
-**分类规则**
+**类型规则**
 
 Adobe Campaign提供了一组内置分类规则，这些规则在消息准备期间应用。 它们用于检查消息是否有效且符合您的质量标准。 请参阅 [类型](../../sending/using/about-typology-rules.md). 例如，您可以定义自己的分类规则，并设置全局跨渠道疲劳规则，以自动从营销策划中排除过度投放的用户档案。 请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
 

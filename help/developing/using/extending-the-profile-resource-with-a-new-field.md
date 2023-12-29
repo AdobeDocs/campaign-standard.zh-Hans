@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 98%
 
 要实现此目的，请执行以下步骤：
 
-* [第 1 步：扩展用户档案资源](#step-1--extend-the-profile-resource)
-* [第 2 步：扩展测试用户档案](#step-2--extend-the-test-profile)
-* [第 3 步：发布自定义资源](#step-3--publish-your-custom-resource)
-* [第 4 步：使用工作流更新和定向用户档案](#step-4--update-and-target-profiles-with-a-workflow)
+* [第1步：扩展用户档案资源](#step-1--extend-the-profile-resource)
+* [第2步：扩展测试用户档案](#step-2--extend-the-test-profile)
+* [步骤3：发布自定义资源](#step-3--publish-your-custom-resource)
+* [步骤4：使用工作流更新和定向用户档案](#step-4--update-and-target-profiles-with-a-workflow)
 
 随后，以下字段将添加到我们的用户档案，并可在投放中定向：
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 * [管理用户档案](../../audiences/using/about-profiles.md)
 * [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
 
-## 第 1 步：扩展用户档案资源 {#step-1--extend-the-profile-resource}
+## 第1步：扩展用户档案资源 {#step-1--extend-the-profile-resource}
 
 要为我们的用户档案创建新的 **Interest** 字段，您首先需要扩展现成的 **[!UICONTROL Profiles (profile)]** 资源。
 
@@ -94,7 +94,7 @@ ht-degree: 98%
 >
 >如果不需要扩展测试用户档案资源，可跳转到发布步骤。
 
-## 第 2 步：扩展测试用户档案 {#step-2--extend-the-test-profile}
+## 第2步：扩展测试用户档案 {#step-2--extend-the-test-profile}
 
 要测试新创建的字段是否正确配置，可通过向测试用户档案发送投放以进行测试。首先，也需要对测试用户档案应用新字段。
 
@@ -119,7 +119,7 @@ ht-degree: 98%
 
 用户档案和测试用户档案现在都已拥有可用的新字段。要使其正确配置，您需要发布自定义资源。
 
-## 第 3 步：发布自定义资源 {#step-3--publish-your-custom-resource}
+## 步骤3：发布自定义资源 {#step-3--publish-your-custom-resource}
 
 要应用对资源所作的更改并使用更改后的资源，必须执行数据库更新。
 
@@ -143,7 +143,7 @@ ht-degree: 98%
 
 例如，您的新资源字段现已准备就绪，可在投放中使用和定向。
 
-## 第 4 步：使用工作流更新和定向用户档案 {#step-4--update-and-target-profiles-with-a-workflow}
+## 步骤4：使用工作流更新和定向用户档案 {#step-4--update-and-target-profiles-with-a-workflow}
 
 要使用新自定义字段更新用户档案的数据，您可以使用 **[!UICONTROL Profile acquisition]** 模板创建登陆页面。有关登陆页面的更多信息，请参阅[此页面](../../channels/using/getting-started-with-landing-pages.md)。
 

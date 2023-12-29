@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 5%
+source-wordcount: '2611'
+ht-degree: 4%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 5%
 Adobe Campaign投放的消息的内容和显示可以通过几种不同的方式进行个性化。 根据用户档案，可以根据标准组合这些方式。 一般而言，Adobe Campaign 允许您：
 
 * 插入动态的个性化字段。请参阅[插入个性化字段](#inserting-a-personalization-field)。
-* 插入预定义的个性化块。
-请参阅[添加内容块](#adding-a-content-block)。
+* 插入预定义的个性化块。 请参阅[添加内容块](#adding-a-content-block)。
 * 使电子邮件的发件人个性化。 请参阅 [个性化发件人](#personalizing-the-sender).
 * 将电子邮件主题个性化。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#subject-line).
 * 创建条件性内容。请参阅 [定义电子邮件中的动态内容](#defining-dynamic-content-in-an-email).

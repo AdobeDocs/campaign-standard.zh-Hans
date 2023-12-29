@@ -7,7 +7,7 @@ topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 21%
+ht-degree: 8%
 
 ---
 
@@ -30,18 +30,18 @@ ht-degree: 21%
     </td>
 </tr>
 <tr>
-<td>Campaign 数据模型</td>
+<td>Campaign数据模型</td>
 <td>使用REST API</td>
 <td>管理用户</td>
 <td>配置和监视实例</td>
 </tr>
 </table>
 
-## Campaign 数据模型
+## Campaign数据模型
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，�
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，�
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，�
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 

@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '156'
+ht-degree: 43%
 
 ---
 
 # 两个已优化受众的联合 {#example--union-on-two-refined-audiences}
 
-此示例中定义的工作流展示了两个 **[!UICONTROL Read audience]** 活动的并集。此工作流程的目标，是向 18 至 30 岁的金牌或银牌会员发送电子邮件。系统中已创建特定受众以跟踪金牌和银牌会员。
+此示例中定义的工作流展示了两个 **[!UICONTROL Read audience]** 活动的并集。此工作流程的目标是向18至30岁的金牌或银牌会员发送电子邮件。 系统中已创建特定受众以跟踪金牌和银牌会员。
 
 工作流的设计如下所示：
 

@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 * [加载文件活动](../../automating/using/load-file.md)
 * [协调活动](../../automating/using/reconciliation.md)
 * [分段活动](../../automating/using/segmentation.md)
-* [重复数据删除活动](../../automating/using/deduplication.md)
+* [“内部重复数据删除”活动](../../automating/using/deduplication.md)
 * [更新数据活动](../../automating/using/update-data.md)
 
 ## 使用平面文件格式 {#using-flat-file-formats}

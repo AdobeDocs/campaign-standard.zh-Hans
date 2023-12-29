@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1171'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 管理员可以通过Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关详细信息，请参见 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html) 文档。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 要在Adobe Campaign中查看用户，请单击 **Adobe** 徽标，位于左上角，然后选择 **[!UICONTROL Administration > Users & Security > Users]**.
 

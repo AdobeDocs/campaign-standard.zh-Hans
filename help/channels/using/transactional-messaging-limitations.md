@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 66%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 66%
 * 个性化信息来自事件本身包含的数据。请参阅 [基于事件的事务型消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * 您 **无法** 使用 **[!UICONTROL Unsubscription link]** 事件事务型消息中的内容块。
 * 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。但是，您也可以使用 Adobe Campaign 数据库中的信息扩充事务型消息的内容。请参阅 [丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* 由于事件事务型消息不包含用户档案信息，所以就算使用用户档案扩充了内容，也不兼容疲劳规则。
+* 由于事件事务型消息不包含用户档案信息，因此就算使用用户档案扩充了内容，也不兼容疲劳规则。
 
 ### 基于用户档案的事务型消息
 

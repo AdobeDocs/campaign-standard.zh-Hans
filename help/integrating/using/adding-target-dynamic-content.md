@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 5%
+source-wordcount: '406'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 * 创建 [基于表单的体验编辑器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活动，您必须在该活动中选择一个rawbox并指定多个体验，具体取决于创建的重定向选件数量。 对于每个体验，您必须选择已创建的重定向选件之一。
 * 使用Adobe Campaign中的信息创建区段以指定体验。 要在选件的选择规则中使用来自Adobe Campaign的数据，您必须在Adobe Target的rawbox中指定数据。
 
-1. 创建电子邮件投放.
+1. 创建电子邮件投放。
 1. 编辑电子邮件或登陆页面的内容时，转到图像块，然后选择 **[!UICONTROL Dynamic image from Adobe Target]** 通过上下文菜单。
 
    ![](assets/tar_insert_dynamic_image.png)

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 4%
    >
    >验证处理方式 [!DNL Campaign Standard] 作为标准投放。 因此，使用用户档案替换发送校样将向所选用户档案的投放和跟踪日志添加记录。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 ## 选择用户档案和替换地址 {#selecting-profiles}
 

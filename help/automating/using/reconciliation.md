@@ -50,7 +50,7 @@ ht-degree: 78%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Reconciliation]** 活动拖放到您的工作流中的一个过渡（该过渡包含定向维度并非直接来自 Adobe Campaign 的群体）后方。有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 如果要定义集客数据与其他数据库维度之间的链接，请转到 **[!UICONTROL Links]** 选项卡。
 
    根据需要，添加相应数量的关系。对于每个关系，首先选择链接的维度，然后在链接详细信息中指定相应的字段。

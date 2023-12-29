@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 集成快速入门
+title: Microsoft Dynamics 365集成快速入门
 description: 了解如何开始使用Microsoft Dynamics 365集成
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 5%
+source-wordcount: '874'
+ht-degree: 4%
 
 ---
 
-# Microsoft Dynamics 365 集成快速入门
+# Microsoft Dynamics 365集成快速入门
 
 在跨渠道通信上激活您的CRM数据：了解如何将联系人从Microsoft Dynamics 365传递到Adobe Campaign，并将营销活动效果数据（发送、打开、点击和退回）从Adobe Campaign共享回Microsoft Dynamics 365。
 

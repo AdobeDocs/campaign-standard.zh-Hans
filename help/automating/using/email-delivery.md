@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -42,20 +42,20 @@ ht-degree: 94%
 
 **相关主题：**
 
-* [使用案例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：创建基于地域划分的投放](../../automating/using/workflow-segmentation-location.md)
+* [用例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：创建基于位置划分的投放](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例：重定向工作流 — 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 * [用例：生日投放](../../automating/using/birthday-delivery.md)
 
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Email delivery]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    >[!NOTE]
    >
-   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Email delivery]** 活动。可以通过电子邮件仪表板中的操作栏，访问电子邮件的属性。
+   >您可以通过活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Email delivery]** 活动。可以通过电子邮件仪表板中的操作栏，访问电子邮件的属性。
 
 1. 选择电子邮件发送模式：
 
@@ -71,7 +71,7 @@ ht-degree: 94%
 1. 选择电子邮件类型。电子邮件类型来自在 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单中定义的电子邮件模板。
 1. 输入电子邮件的常规属性。您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为电子邮件的标签。
 1. 定义电子邮件的内容。请参阅关于[内容编辑](../../designing/using/designing-content-in-adobe-campaign.md)的章节。
-1. 默认情况下，**[!UICONTROL Email delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Email delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL Email delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Email delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收电子邮件的群体。在投放准备期间被排除的目标成员（隔离、电子邮件无效等）将从此过渡中排除。

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 有关高级短信参数的详情，请参见[短信配置](../../administration/using/configuring-sms-channel.md)一节。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 要创建短信消息并将其发送到手机，您需要：
 

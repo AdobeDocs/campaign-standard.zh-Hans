@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 
 1. 将 **[!UICONTROL Subscription Services]** 活动拖放到工作流中。
 1. 将其连接到其他定向活动之后，例如导入后的查询或协调。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 选择要使用以下选项之一管理订阅的 **[!UICONTROL Service]**：
 
    * **[!UICONTROL Select a specific service]**：手动选择服务。
@@ -69,7 +69,7 @@ ht-degree: 98%
 
    工作流现已准备就绪，可供执行。一旦执行，您就可以在服务详情查看订阅或退订服务的用户档案。
 
-## 示例：在导入文件后为用户档案订阅特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 示例：导入文件后为用户档案订阅特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 

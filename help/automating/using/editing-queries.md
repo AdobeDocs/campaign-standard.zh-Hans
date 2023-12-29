@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 100%
 
 ![](assets/query_editor_overview.png)
 
-### 面板 {#palette}
+### 调色板 {#palette}
 
 位于编辑器左侧的面板包含两个选项卡，其中包含了分为各种主题块的元素。这些选项卡包括：
 
 * 默认提供或由实例管理员创建的&#x200B;**快捷方式**。此处包含字段、节点、分组、1-1 链接、1-N 链接和其他预定义过滤器。
-* **资源管理器**，用于访问目标资源中所有可用的字段：节点、分组元素、链接（1-1 和 1-N）。
+* **探索工具**，用于访问目标资源中所有可用的字段：节点、分组元素、链接（1-1 和 1-N）。
 
 必须将选项卡中包含的元素移到工作区中，才能进行配置并用于查询。根据所选定向维度（请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)），您可以：
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 * [高级功能](../../automating/using/advanced-expression-editing.md)
 * [定义过滤器](../../developing/using/configuring-filter-definition.md)
-* [使用案例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：创建基于地域划分的投放](../../automating/using/workflow-segmentation-location.md)
+* [用例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：创建基于位置划分的投放](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例：重定向工作流 — 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)

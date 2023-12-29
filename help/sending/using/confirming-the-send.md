@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 18%
+source-wordcount: '947'
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 ## 了解消息指示器 {#message-indicators}
 
-将消息发送到联系人后，**[!UICONTROL Deployment]** 区域会显示您的 KPI（关键绩效指标）数据，包括：
+消息发送到联系人后， **[!UICONTROL Deployment]** 区域显示您的KPI（关键绩效指标）数据，包括：
 
 * 要投放的消息数
 * 已发送的消息数

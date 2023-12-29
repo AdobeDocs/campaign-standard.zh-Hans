@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
-## 触发器用户流程 {#triggers-user-process}
+## 触发用户进程 {#triggers-user-process}
 
 >[!CAUTION]
 >

@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 14%
 
 ![](assets/steps-prepare.png)
 
-**检查并测试您的消息** 在使用Campaign Standard功能发送之前：预览、电子邮件渲染、验证等。 如需详细信息，请参阅[此部分](../../sending/using/previewing-messages.md)。
+**检查并测试您的消息** 在使用Campaign Standard功能发送之前：预览、电子邮件渲染、验证等。 如需详细信息，请参阅[此小节](../../sending/using/previewing-messages.md)。
 
 使用 **[!UICONTROL Schedule]** 阻止以定义发送消息的时间(请参阅 [计划消息发送](../../sending/using/about-scheduling-messages.md))。
 

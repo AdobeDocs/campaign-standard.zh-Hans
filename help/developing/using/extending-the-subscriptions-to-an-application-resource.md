@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # 将订阅扩展到应用程序资源{#extending-the-subscriptions-to-an-application-resource}
 
-在 Adobe Campaign 中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。有关自定义资源的更多信息，请参阅 [此页面](../../developing/using/key-steps-to-add-a-resource.md).
+在Adobe Campaign中，由移动设备发出的移动配置文件属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源，用于定义要从应用程序的订阅者那里收集的数据。 有关自定义资源的更多信息，请参阅 [此页面](../../developing/using/key-steps-to-add-a-resource.md).
 
 可以扩展此资源来收集您打算从移动设备发送到Adobe Campaign的数据。
 

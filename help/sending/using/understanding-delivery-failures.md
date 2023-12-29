@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 64%
+source-wordcount: '1281'
+ht-degree: 63%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 64%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [跳出次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
@@ -61,7 +61,7 @@ ht-degree: 64%
 | **[!UICONTROL Quarantined address]** | 硬 | 地址被隔离。 |
 | **[!UICONTROL Unreachable]** | 软/硬 | 消息投放链中发生错误（例如域名暂时不可访问）。 根据提供商返回的错误，地址将直接被隔离或重试投放，直到 Campaign 收到错误证明处于隔离状态或错误数达到 5 次为止。 |
 | **[!UICONTROL Address empty]** | 硬 | 地址未定义。 |
-| **[!UICONTROL Mailbox full]** | 柔光 | 此用户的邮箱已满，无法接收更多邮件。 可以从隔离列表中删除此地址，以再次尝试。30 天后自动将其从隔离列表中删除。要将地址自动从隔离地址列表中移除，必须启动 **[!UICONTROL Database cleanup]** 技术工作流。 |
+| **[!UICONTROL Mailbox full]** | 柔光 | 此用户的邮箱已满，无法接收更多邮件。 可以从隔离列表中删除此地址，以再次尝试。30天后自动将其删除。 要将地址自动从隔离地址列表中移除，必须启动 **[!UICONTROL Database cleanup]** 技术工作流。 |
 | **[!UICONTROL Refused]** | 软/硬 | 由于安全反馈为垃圾邮件报告，该地址已被隔离。 根据提供商返回的错误，地址将直接被隔离或重试投放，直到 Campaign 收到错误证明处于隔离状态或错误数达到 5 次为止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 分段中已检测到地址。 |
 | **[!UICONTROL Not defined]** | 柔光 | 该地址正在进行鉴别，因为错误数并未递增。 | 还没有。 当服务器发送新的错误消息时，会发生此类错误： 这可能是一个孤立的错误，但如果再次发生，则错误计数会增加，从而提醒技术团队。 |
@@ -75,10 +75,10 @@ ht-degree: 64%
 
 
 **相关主题：**
-* [硬退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [软退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
-## 在投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
+## 投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
 如果消息因临时错误而失败，则在投放持续期间将执行重试。 有关错误类型的更多信息，请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)。
 
@@ -138,4 +138,4 @@ To list the various bounces and their associated error types et reasons, click t
 
 其原理是，在将访客作为“用户档案”存储到 Campaign 数据库中之前，先向访客发送一封电子邮件以确认其协议：访客填写在线登陆页面，然后会收到一封电子邮件，并必须单击其中的确认链接才能最终确定订阅。
 
-有关更多信息，请参阅[此章节](../../channels/using/setting-up-a-double-opt-in-process.md)。
+有关更多信息，请参阅[此小节](../../channels/using/setting-up-a-double-opt-in-process.md)。

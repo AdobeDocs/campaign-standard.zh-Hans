@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 4%
+source-wordcount: '889'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 在此使用案例中，构建一个工作流，以使用在控制面板中生成的密钥导入已在外部系统中加密的数据。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 执行此用例的步骤如下：
 
@@ -89,7 +89,7 @@ ht-degree: 4%
 
 在此使用案例中，构建一个工作流，以便使用安装在控制面板上的密钥加密和导出数据。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 执行此用例的步骤如下：
 
@@ -105,7 +105,7 @@ ht-degree: 4%
    * **[!UICONTROL Extract file]** 活动：加密数据并将其提取到文件中。
    * **[!UICONTROL Transfer file]** 活动：将包含加密数据的文件传输到SFTP服务器。
 
-1. 配置 **[!UICONTROL Query]** 活动，从数据库中定位所需的数据。 如需详细信息，请参阅[此部分](../../automating/using/query.md)。
+1. 配置 **[!UICONTROL Query]** 活动，从数据库中定位所需的数据。 如需详细信息，请参阅[此小节](../../automating/using/query.md)。
 
 1. 打开 **[!UICONTROL Extract file]** 活动，然后根据您的需要（输出文件、列、格式等）对其进行配置。 有关如何配置活动的全局概念，请参见 [本节](../../automating/using/extract-file.md).
 

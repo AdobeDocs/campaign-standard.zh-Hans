@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](assets/wkf_overview.png)
 
-## 面板 {#palette}
+## 调色板 {#palette}
 
 面板位于屏幕的左侧。 所有可用的活动都分为几个类别：
 

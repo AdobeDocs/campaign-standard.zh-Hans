@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 1. 将 **[!UICONTROL Union]** 活动拖放到工作流中。
 1. 将其连接至其前方的其他活动，例如查询。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 选择 **[!UICONTROL Reconciliation type]** 以定义如何处理集客群体之间重复项的冲突：
 
    * **[!UICONTROL Keys only]**：这是默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。仅当集客群体具有同样的性质时，才能使用此选项。

@@ -11,7 +11,7 @@ exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 将 **[!UICONTROL Start]** 或 **[!UICONTROL End]** 活动拖放到您的工作流中。
 1. 将 **[!UICONTROL Start]** 活动放在其他活动（如查询）之前，将 **[!UICONTROL End]** 活动放在一系列活动之后。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 您可以配置 **End** 对象，以中断工作流的所有正在进行的任务，包括尚未完成的任务。要实现此目的，请选择相应的选项。
 1. 确认活动的配置并保存工作流。
 

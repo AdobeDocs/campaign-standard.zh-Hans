@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 8%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 帐户被禁用<br /> </td> 
+   <td> 帐户已禁用<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
@@ -90,7 +90,7 @@ ht-degree: 8%
    <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬退回次数<br /> </td> 
+   <td> 硬退回<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2和@failureReason=8)<br /> </td> 
    <td> </td> 
@@ -156,7 +156,7 @@ ht-degree: 8%
    <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br /> </td> 
   </tr>
   <tr> 
-   <td> 已拒绝<br /> </td> 
+   <td> 被拒绝<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20， @failureType=2)<br /> </td> 
    <td> </td> 
@@ -186,7 +186,7 @@ ht-degree: 8%
    <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击次数<br /> </td> 
+   <td> 独特点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
    <td> </td> 
@@ -286,7 +286,7 @@ ht-degree: 8%
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击次数<br /> </td> 
+   <td> 独特点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
   </tr> 

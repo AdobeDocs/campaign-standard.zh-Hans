@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 24%
+source-wordcount: '1442'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 
 * 位于 **阻止列表**&#x200B;另一方面，将导致 **个人资料** 不再被投放定向，如针对给定渠道的退订（选择退出）后。 例如，如果电子邮件渠道阻止列表上的用户档案有两个电子邮件地址，则这两个地址都将排除在投放之外。 有关阻止列表过程的详细信息，请参阅 [关于Campaign中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  您可以检查配置文件是否在阻止列表中 **[!UICONTROL No longer contact (on denylist)]** 用户档案的部分 **[!UICONTROL General]** 选项卡。 请参阅[此章节](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
+  您可以检查配置文件是否在阻止列表中 **[!UICONTROL No longer contact (on denylist)]** 用户档案的部分 **[!UICONTROL General]** 选项卡。 请参阅[此小节](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 获得受影响的收件人列表后，添加 **[!UICONTROL Update data]** 活动，将其电子邮件地址状态设置为 **[!UICONTROL Valid]** 因此它们将被从隔离列表中删除 **[!UICONTROL Database cleanup]** 工作流。 也可以直接从隔离表中删除它们。
 
-## 将地址加入隔离的条件 {#conditions-for-sending-an-address-to-quarantine}
+## 将地址添加到隔离的条件 {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign 可根据投放失败类型和在错误消息鉴别过程中分配的原因管理隔离（请参阅[投放失败类型和原因](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)以及[退回邮件鉴别](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)）。
 

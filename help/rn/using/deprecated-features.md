@@ -127,7 +127,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 现已删除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">了解详情</a>。</p><br/>
+   <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 现已删除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hans">了解详情</a>。</p><br/>
    <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform移动SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
    <p>了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本页内容</a>.</p></br>

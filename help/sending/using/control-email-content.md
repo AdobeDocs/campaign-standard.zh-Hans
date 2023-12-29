@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 6%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 8%
 
 ## 个性化和发送时间优化 {#perso-send-time-optimization}
 
-为了改善收件人的体验并让他们打开您的电子邮件，Adobe Campaign允许您个性化您的消息。 有关更多信息，请参阅[此章节](../../designing/using/personalization.md)。
+为了改善收件人的体验并让他们打开您的电子邮件，Adobe Campaign允许您个性化您的消息。 有关更多信息，请参阅[此小节](../../designing/using/personalization.md)。
 
-为了提高消息的打开率，您还可以手动定义每个收件人的发送时间。 只要有可能，每个用户档案都将在指定的日期和时间收到消息。有关此内容的更多信息，请参阅 [优化发送时间](../../sending/using/optimizing-the-sending-time.md).
+为了提高消息的打开率，您还可以手动定义每个收件人的发送时间。 如有可能，每个用户档案都将在指定的日期和时间收到消息。 有关此内容的更多信息，请参阅 [优化发送时间](../../sending/using/optimizing-the-sending-time.md).
 
 ## 选择退出链接和表单 {#opt-out}
 

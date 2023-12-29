@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 99%
+source-wordcount: '915'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 
 利用 **[!UICONTROL Direct mail delivery]** 活动，可配置和准备包含要用于直邮营销策划之用户档案数据的文件。这可以是只发送一次的直邮，也可以是定期直邮。
 
-* **标准直邮仅发送一次。**
-* **而利用定期邮件，则可在定义的时间段内多次向不同目标发送同一直邮。**&#x200B;您可以按时段聚合投放，以获得对应于您需求的报告。
+* **标准** 直邮只发送一次。
+* **周期性** 利用邮件，可在定义的时间段内多次向不同目标发送相同的直邮。 您可以按时段聚合投放，以获得对应于您需求的报告。
 
 ## 使用环境 {#context-of-use}
 
@@ -47,11 +47,11 @@ ht-degree: 99%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Direct mail delivery]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    >[!NOTE]
    >
-   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专定于渠道活动。可以通过直邮仪表板中的操作栏，访问直邮的属性。
+   >您可以通过活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专定于渠道活动。可以通过直邮仪表板中的操作栏，访问直邮的属性。
 
 1. 选择直邮发送模式：
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 1. 选择直邮的类型。直邮类型来自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单中定义的模板。
 1. 输入直邮的常规属性。您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为直邮的标签。
 1. 定义直邮内容。请参阅关于[内容编辑](../../designing/using/personalization.md)的章节。
-1. 默认情况下，**[!UICONTROL Direct mail delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Direct mail delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL Direct mail delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Direct mail delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。此过渡包含直邮活动生成的文件，以及直邮活动中接收直邮的原始群体。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收直邮的群体。在直邮准备期间被排除的目标成员（隔离、地址无效等）将从此过渡中排除。该过渡还包含由直邮生成的文件。

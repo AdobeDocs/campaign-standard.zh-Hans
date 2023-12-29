@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 62%
+source-wordcount: '2683'
+ht-degree: 59%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 * **投放参数**
 
-  Adobe Campaign 从开始日期起发送消息。
+  Adobe Campaign从开始日期起发送消息。
 
   当投放中的消息因临时错误或软退回而被拒绝时，Campaign会每天重试发送此消息。 使用 **[!UICONTROL Message delivery duration]** 字段指定重试期间的时间范围。
 
@@ -120,7 +120,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## 电子邮件属性的列表 {#list-of-email-properties}
+## 电子邮件属性列表 {#list-of-email-properties}
 
 本节详细介绍了电子邮件或电子邮件模板之属性屏幕中提供的参数列表。
 
@@ -175,7 +175,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **以文本格式发送所有消息**：消息以文本格式发送。不会发送 HTML 格式，仅当收件人单击消息中的链接时，才会将其用于镜像页面。
 
-#### SMTP 测试模式 {#smtp-test-mode}
+#### SMTP测试模式 {#smtp-test-mode}
 
 使用 **[!UICONTROL Enable SMTP test mode]** 用于测试通过SMTP连接发送的电子邮件而不实际发送邮件的选项。 处理投放直至连接到 SMTP 服务器，但不发送：对于投放的每个收件人，Campaign 连接到 SMTP 提供商服务器，执行 SMTP RCPT TO 命令，并在执行 SMTP DATA 命令之前关闭连接。
 
@@ -275,11 +275,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Save SQL queries in the log]**：在准备阶段期间，使用此选项在日志中添加SQL查询日志。
 
-#### 校样设置 {#proof-settings}
+#### 验证设置 {#proof-settings}
 
 在此部分中，您可以配置要在验证消息的主题行中使用的默认前缀。 了解有关验证的更多信息，请参阅 [本节](../../sending/using/sending-proofs.md).
 
-### 电子邮件 SMTP 参数的列表 {#list-of-email-smtp-parameters}
+### 电子邮件SMTP参数列表 {#list-of-email-smtp-parameters}
 
 **[!UICONTROL SMTP]** 部分包含以下参数：
 

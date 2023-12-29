@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 1. 确认创建活动，随后将显示该活动的仪表板。有关更多信息，请参阅[工作流界面](../../automating/using/workflow-interface.md)一节。
 
-1. 准备好配置工作流后，您可以单击 **[!UICONTROL Edit properties]** 按钮以访问其他选项。
+1. 准备好配置工作流后，您可以通过单击 **[!UICONTROL Edit properties]** 按钮。
 
    例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
@@ -115,10 +115,10 @@ ht-degree: 96%
 
 **工作流使用案例：**
 
-* [使用案例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：创建基于地域划分的投放](../../automating/using/workflow-segmentation-location.md)
+* [用例：创建每周一次的电子邮件投放](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：创建基于位置划分的投放](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例：重定向工作流 — 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 配置活动 {#configuring-activities}
 

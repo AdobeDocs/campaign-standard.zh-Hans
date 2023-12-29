@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '574'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 要配置重复数据删除活动，必须输入标签、方法和重复数据删除条件，以及与结果相关的选项。
 
 1. 将 **[!UICONTROL Deduplication]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    ![](assets/deduplication_1.png)
 

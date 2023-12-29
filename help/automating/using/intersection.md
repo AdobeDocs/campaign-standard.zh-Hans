@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. 将 **[!UICONTROL Intersection]** 活动拖放到工作流中。
 1. 将其连接至其前方的其他活动，例如查询。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 选择 **[!UICONTROL Reconciliation type]**：
 
    * **[!UICONTROL Keys only]**：默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 请参阅以下部分以了解详情：
 
-* [Microsoft Dynamics 365 集成快速入门](../../integrating/using/d365-acs-get-started.md)
+* [Microsoft Dynamics 365集成快速入门](../../integrating/using/d365-acs-get-started.md)
 * [集成最佳实践和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [了解实施此集成的关键步骤](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [使用 Microsoft Dynamics 365 集成](../../integrating/using/d365-acs-using-the-integration.md)
@@ -37,8 +37,8 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 请参阅以下部分以了解详情：
 
-* [为 Campaign 集成配置 Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [配置 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [为Campaign集成配置Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [映射Campaign自定义资源和Microsoft Dynamics 365自定义实体](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## 配置自助服务集成应用程序的关键步骤 {#self-service-app-configuration-steps}
@@ -144,7 +144,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 在导航应用程序时，某些屏幕顶部会显示痕迹导航。
 
-**示例:**
+**示例：**
 
 以下是以下示例来自 **[!UICONTROL Edit Table Mapping]** 显示痕迹导航和页面标题的屏幕。 在这种情况下，您可以单击 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文本，转到上一个屏幕。 **[!UICONTROL Edit Table Mapping]** 在这种情况下，在痕迹导航中不可点击，因为它是当前屏幕。
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 6%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 6%
 <table> 
  <thead> 
   <tr> 
-   <th> 维度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> Dimension<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -82,7 +82,7 @@ ht-degree: 6%
    <td> 从中打开/查看/单击消息的设备的平台。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 用户档案<br /> </td> 
+   <td> 个人资料<br /> </td> 
    <td> 重组在用户档案资源扩展期间创建的现成和自定义用户档案字段，有关更多信息，请参阅此 <a href="../../developing/using/key-steps-to-add-a-resource.md">页面</a> 或此 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>.<br /> 请注意，一旦发布链接到用户档案字段的自定义资源，将立即检索此维度的数据。<br /> </td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ ht-degree: 6%
    <td> 事务型投放的标签和ID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 变体<br /> </td> 
+   <td> 变量<br /> </td> 
    <td> A/B测试时电子邮件的变体。<br /> </td> 
   </tr> 
  </tbody> 
@@ -142,7 +142,7 @@ ht-degree: 6%
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -156,7 +156,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 退回+错误<br /> </td> 
-   <td> 投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。<br /> </td> 
+   <td> 投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。<br /> </td> 
   </tr> 
   <tr> 
    <td> 跳出+错误率<br /> </td> 
@@ -223,7 +223,7 @@ ht-degree: 6%
    <td> 与已发送消息相比的隔离百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已拒绝<br /> </td> 
+   <td> 被拒绝<br /> </td> 
    <td> SMTP服务器分类为垃圾邮件的邮件数。<br /> </td> 
   </tr> 
   <tr> 
@@ -239,7 +239,7 @@ ht-degree: 6%
    <td> 因临时原因而失败的投放百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击次数<br /> </td> 
+   <td> 独特点击<br /> </td> 
    <td> 点击投放中内容的收件人数量。<br /> </td> 
   </tr> 
   <tr> 
@@ -267,7 +267,7 @@ ht-degree: 6%
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -312,7 +312,7 @@ ht-degree: 6%
    <td> 已打开推送通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特点击次数<br /> </td> 
+   <td> 独特点击<br /> </td> 
    <td> 独特用户与推送通知进行交互（例如单击通知或按钮）的次数。<br /> </td> 
   </tr> 
   <tr> 
@@ -332,7 +332,7 @@ ht-degree: 6%
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -387,7 +387,7 @@ ht-degree: 6%
  <thead> 
   <tr> 
    <th> 区段<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 94%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 为了能够管理订阅，您首先需要创建并配置服务。通过配置新服务，可指定用户档案在订阅或取消订阅服务时将会收到的电子邮件确认函。您还可定义链接到服务的订阅和退订登陆页面。例如，插入到电子邮件中的服务订阅链接，可自动将用户档案定向到服务中指定的订阅登陆页面。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 要配置服务，请执行以下操作：
 

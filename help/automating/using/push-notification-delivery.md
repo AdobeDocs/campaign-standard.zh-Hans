@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 47%
+source-wordcount: '773'
+ht-degree: 46%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 47%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Push notification]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    >[!NOTE]
    >
-   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Push notification]** 活动。可以通过推送仪表板中的操作栏，访问推送通知的属性。
+   >您可以通过活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Push notification]** 活动。可以通过推送仪表板中的操作栏，访问推送通知的属性。
 
 1. 选择推送通知发送模式：
 
@@ -61,7 +61,7 @@ ht-degree: 47%
 1. 选择通知类型。 这些类型来自在中定义的推送通知模板 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 菜单。
 1. 输入推送通知的常规属性。 您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为推送通知标签。
 1. 定义推送通知内容。 请参阅 [创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-1. 默认情况下，**[!UICONTROL Push notification]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Push Notification]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL Push notification]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Push Notification]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收通知的群体。 在投放准备期间被排除的目标成员将从此过渡中排除。

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 67%
+source-wordcount: '212'
+ht-degree: 61%
 
 ---
 
@@ -36,6 +36,6 @@ ht-degree: 67%
 
   要实现此目的，请选择在此处创建一个 **[!UICONTROL Recurring email]**，以 **[!UICONTROL By month]** 重组电子邮件和结果。
 
-  定义电子邮件的内容并插入欢迎促销代码。有关详细信息，请参见 [定义电子邮件内容](../../designing/using/personalization.md) 部分。
+  定义电子邮件的内容并插入欢迎促销代码。 有关详细信息，请参见 [定义电子邮件内容](../../designing/using/personalization.md) 部分。
 
 然后，启动工作流执行。新订阅者每周都将收到包含促销代码的欢迎电子邮件。

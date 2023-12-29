@@ -12,7 +12,7 @@ exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 公司将通过单个设备，使用一个移动应用程序，为每个用户发送一个事务性推送通知（通过注册令牌进行标识）。
 
-1. 请转至创建的事务型消息以对其进行编辑。请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 转至创建的事务型消息以对其进行编辑。 请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
    ![](assets/message-center_push_message.png)
 
@@ -165,7 +165,7 @@ ht-degree: 4%
 
 例如，一家航空公司希望向所有已订阅其移动应用程序的Adobe Campaign用户发送登机通知。
 
-1. 请转至创建的事务型消息以对其进行编辑。请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 转至创建的事务型消息以对其进行编辑。 请参阅 [访问事务型消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
 1. 单击 **[!UICONTROL Content]** 块以修改消息的标题和正文。
 

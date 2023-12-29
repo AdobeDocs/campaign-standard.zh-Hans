@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >
 >您还可从营销活动的列表创建项目。
 
-## 创建营销策划 {#creating-a-campaign}
+## 创建活动 {#creating-a-campaign}
 
 在项目和子项目中，可以添加营销策划。营销策划可以包含营销活动，如电子邮件、短信、推送通知、工作流和登陆页面等。
 

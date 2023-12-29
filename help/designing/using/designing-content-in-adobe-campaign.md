@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能
 
 通过链接和图像增强消息和登陆页。请参阅[插入链接](../../designing/using/links.md#inserting-a-link)和[插入图像](../../designing/using/images.md#inserting-images)。
 
-## Email Designer 界面 {#email-designer-interface}
+## Email Designer界面 {#email-designer-interface}
 
 Email Designer 提供许多选项，使您能够创建、编辑和自定义内容的各个方面。
 
@@ -65,7 +65,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
 编辑器界面的&#x200B;**上下文工具栏**&#x200B;根据所选区域提供各种功能。工具栏中包含操作按钮和用于更改文本样式的按钮。执行的修改始终应用于所选区域。
 
-### Email Designer 主页 {#email-designer-home-page}
+### Email Designer主页 {#email-designer-home-page}
 
 [创建电子邮件](../../channels/using/creating-an-email.md)时，**[!UICONTROL Email Designer]** 主页会在选择电子邮件内容时自动显示。
 
@@ -143,7 +143,7 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 * 更新已准备好的电子邮件中使用的片段对这些电子邮件没有影响。
 
-## Email Designer 限制 {#email-designer-limitations}
+## Email Designer限制 {#email-designer-limitations}
 
 * 不能在片段中使用个性化字段。有关片段的更多信息，请参阅[此部分](../../designing/using/using-reusable-content.md#about-fragments)。
 

@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 然后，您可以使用过滤器、排序和分页来优化搜索。 有关详细信息，请参见 [其他操作](../../api/using/sorting.md) 部分。
 
-此外，Campaign StandardAPI允许您根据以下字段之一搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此部分](#searching-field)。
+此外，Campaign StandardAPI允许您根据以下字段之一搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 如需详细信息，请参阅[此小节](#searching-field)。
 
 <br/>
 

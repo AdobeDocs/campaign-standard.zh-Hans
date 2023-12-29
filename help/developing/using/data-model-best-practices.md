@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Adobe Campaign资源具有三个标识符，可以添加额外的标识符。
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常特定于特定的Adobe Campaign实例。</li><li>在Adobe Campaign Standard中，该值对最终用户不可见（在URL中除外）。</li></ul> | <ul><li>通过 [API系统](../../api/using/get-started-apis.md)，则可以检索PKey值（这是生成/哈希值，而不是物理键）。</li><li>除通过API检索、更新或删除记录外，建议不要将其用于其他目的。</li></ul> |
 | ID | name或internalName | <ul><li>此信息是表中记录的唯一标识符。 此值可手动更新。</li><li>当部署在Adobe Campaign的其他实例中时，此标识符保持其值。 其名称必须与生成的值不同，才能通过包导出。</li><li>这不是表的实际主键。</li></ul> | <ul><li>请勿使用空格“ ”、半列“：”或连字符“ — ”等特殊字符。</li><li>所有这些字符都将替换为下划线“_”（允许的字符）。 例如，“abc-def”和“abc：def”将存储为“abc_def”并相互覆盖。</li></ul> |
-| 标签 | label | <ul><li>标签是Adobe Campaign中对象或记录的业务标识符。</li><li>此对象允许使用空格和特殊字符。</li><li>它不能保证记录的唯一性。</li></ul> | <ul><li>建议确定对象标签的结构。</li><li>这是用于为Adobe Campaign用户标识记录或对象的最用户友好的解决方案。</li></ul> |
+| 标签 | 标签 | <ul><li>标签是Adobe Campaign中对象或记录的业务标识符。</li><li>此对象允许使用空格和特殊字符。</li><li>它不能保证记录的唯一性。</li></ul> | <ul><li>建议确定对象标签的结构。</li><li>这是用于为Adobe Campaign用户标识记录或对象的最用户友好的解决方案。</li></ul> |
 | ACS ID | acsId | <ul><li>可以生成附加标识符： [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>由于PKey无法在Adobe Campaign用户界面中使用，因此这是一种解决方案，可用于获取在插入个人资料记录期间生成的唯一值。</li><li>只有在将记录插入Adobe Campaign之前在资源中启用了该选项，才能自动生成该值。</li></ul> | <ul><li>此UUID可用作协调密钥。</li><li>自动生成的ACS ID不能用作工作流或包定义中的引用。</li><li>此值特定于Adobe Campaign实例。</li></ul> |
 
 ### 标识键 {#keys}

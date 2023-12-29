@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 43%
    * 目标维度应设置为 **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 对于 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 模板。
 
 1. 将 **[!UICONTROL In-App delivery]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 
    >[!NOTE]
    >
-   >您可以通过活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。
+   >您可以访问活动的常规属性和高级选项（而非投放本身），方法是 ![](assets/dlv_activity_params-24px.png) 活动快捷操作中的按钮。
 
    ![](assets/wkf_in_app_3.png)
 
@@ -59,7 +59,7 @@ ht-degree: 43%
 1. 输入应用程序内消息属性，然后在中选择您的移动应用程序 **[!UICONTROL Associate a Mobile App to a delivery]** 字段。
 1. 在 **[!UICONTROL Triggers]** 选项卡中，拖放触发消息的事件。提供了三类事件：
 1. 定义应用程序内内容。 请参阅以下章节： [应用程序内自定义](../../channels/using/customizing-an-in-app-message.md).
-1. 默认情况下，**[!UICONTROL In-App delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL In-App delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快捷操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL In-App delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL In-App delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收消息的群体。 在投放准备期间被排除的目标成员将从此过渡中排除。

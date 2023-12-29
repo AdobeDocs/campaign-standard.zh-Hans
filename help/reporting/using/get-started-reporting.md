@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 **管理您的动态报告** 借助各种功能：实时刷新数据、打印报告或将其导出为CSV文件。 您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
 
-了解更多信息:
+了解更多：
 
 * [关于动态报告](../../reporting/using/about-dynamic-reports.md)
 * [报告界面](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard随附了一组 **现成可用的动态报告** 允许您从多
 
 **组合不同的组件** （维度、量度和区段、时间段）以构建您自己的报表或个性化现成报表。
 
-了解更多信息:
+了解更多：
 
 * [组件列表](../../reporting/using/list-of-components-.md)
 * [指标计算](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Campaign Standard随附了一组 **现成可用的动态报告** 允许您从多
 
 创建报告依据 **自定义配置文件数据** 在Profile资源扩展期间创建，并且 **基于区段的报表** 在定位工作流中定义。
 
-了解更多信息:
+了解更多：
 
 * [添加面板](../../reporting/using/adding-panels.md)
 * [添加可视化](../../reporting/using/adding-visualizations.md)

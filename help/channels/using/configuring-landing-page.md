@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 ![](assets/lp_org_unit_3.png)
 
-## 设置 Google reCAPTCHA {#setting-google-recaptcha}
+## 设置Google reCAPTCHA {#setting-google-recaptcha}
 
 您可以为登陆页面设置 Google reCAPTCHA V3，以防护来自机器人程序的垃圾邮件和滥用。要将其用于登陆页面，您首先需要创建外部帐户。有关其配置方式的更多信息，请参阅此[章节](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
 
@@ -115,4 +115,4 @@ ht-degree: 97%
 
 ![](assets/lp_parameters_google2.png)
 
-然后，Google reCAPTCHA 将根据用户与页面的交互情况返回一个分数。要查看分数，请连接到 Google 管理控制台。
+然后，Google reCAPTCHA 将根据用户与页面的交互情况返回一个分数。要查看分数，请连接到Google管理控制台。

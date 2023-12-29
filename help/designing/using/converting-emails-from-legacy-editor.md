@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 ## 管理电子邮件的样式 {#manage-the-style-of-your-email}
 
-1. 切换到 **[!UICONTROL Mobile view]**. 有关更多信息，请参阅[此章节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切换到 **[!UICONTROL Mobile view]**. 有关更多信息，请参阅[此小节](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 1. 要解决此问题，请切换到源代码模式，并将样式部分复制粘贴到新的样式部分中。 例如：
 

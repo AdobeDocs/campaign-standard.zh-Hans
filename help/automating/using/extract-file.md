@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 79%
+source-wordcount: '440'
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 79%
 
    ![](assets/wkf_data_export1.png)
 
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：2015年8月15日08时生成的文件，其名称为recipients_20150815_081532.txt:15:32.
 
    >[!NOTE]

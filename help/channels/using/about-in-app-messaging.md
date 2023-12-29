@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 87%
 
 * [应用程序内报告](../../reporting/using/in-app-report.md)
 * [Adobe Campaign Standard 中支持的移动使用案例](../../administration/using/configuring-rules-launch.md)
-* [Campaign Standard Mobile 指南](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile指南](../../channels/using/get-started-communication-channels.md)
 
 ## 处理具有个人和敏感数据的移动用户档案字段 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

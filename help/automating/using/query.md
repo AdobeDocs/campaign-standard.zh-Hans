@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 **相关主题：**
 
 * [查询样例](../../automating/using/query-samples.md)
-* [使用案例：重定向工作流 - 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例：重定向工作流 — 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 使用环境 {#context-of-use}
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Query]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。默认情况下，该活动预配置为搜索用户档案。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。默认情况下，该活动预配置为搜索用户档案。
 1. 如果要在非用户档案资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
    利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的用户档案、投放、链接到所选资源的数据等）。
@@ -99,7 +99,7 @@ ht-degree: 93%
 
 ![](assets/targeting_dimension5.png)
 
-默认情况下，会设置定向维度和资源以定向用户档案。但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
+默认情况下，会设置定向维度和资源以定向用户档案。 但是，如果要在远程表格查找特定记录，则使用与定向维度不同的资源可能比较有效。
 
 有关更多信息，请参阅此用例： [使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 

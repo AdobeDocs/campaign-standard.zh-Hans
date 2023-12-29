@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -93,7 +93,8 @@ ht-degree: 38%
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 使用字段和链接将电子邮件个性化。有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 使用字段和链接个性化电子邮件。
+有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
 

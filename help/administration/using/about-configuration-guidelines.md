@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 13%
+source-wordcount: '119'
+ht-degree: 7%
 
 ---
 
@@ -30,12 +30,12 @@ Adobe Campaign Standard仅支持将横向作为平板电脑上的显示模式。
 * Safari（最新版本）
 * Microsoft Edge（最新版本）
 
-**平板电脑:**
+**平板电脑：**
 
 * iOS（版本7及更高版本）
 * Android（版本4.4及更高版本）
 
-## Campaign Standard 网络端点 {#campaign-standard-network-endpoints}
+## Campaign Standard网络端点 {#campaign-standard-network-endpoints}
 
 以下是Campaign Standard中使用的各种端点。
 

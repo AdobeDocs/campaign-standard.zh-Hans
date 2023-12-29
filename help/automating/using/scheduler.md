@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 89%
+source-wordcount: '619'
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 89%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Scheduler]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 指定 **[!UICONTROL Execution frequency]**：
 
    * **[!UICONTROL Once]**：该工作流只执行一次。

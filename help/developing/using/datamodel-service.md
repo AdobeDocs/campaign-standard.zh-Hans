@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 41%
+source-wordcount: '222'
+ht-degree: 35%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
-                  <td>date </td>
+                  <td>创建时间</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 41%
                <tr>
                   <td>结束</td>
                   <td>结束日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -92,7 +92,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>标签</td>
                   <td>标签</td>
                   <td>字符串(128)</td>
                   <td> </td>
@@ -100,7 +100,7 @@ ht-degree: 41%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改时间</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,7 +166,7 @@ ht-degree: 41%
                <tr>
                   <td>开始</td>
                   <td>开始日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -212,7 +212,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>标题</td>
                   <td>服务</td>
                   <td>字符串(255)</td>
                   <td> </td>
@@ -254,11 +254,11 @@ ht-degree: 41%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 

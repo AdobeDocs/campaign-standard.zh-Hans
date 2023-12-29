@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 89%
+source-wordcount: '1152'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 必须按特定顺序在 Adobe Campaign 中设置这些步骤，才能正确启用所有参数。
 
-## 第 1 步：创建确认登陆页面 {#step-1--create-the-confirmation-landing-page}
+## 第1步：创建确认登陆页面 {#step-1--create-the-confirmation-landing-page}
 
 要设置双重选择加入机制，首先要创建确认登录页：当访客单击确认电子邮件以进行注册时，将显示此页。
 
@@ -67,7 +67,7 @@ ht-degree: 89%
 
 1. [测试和发布](../../channels/using/testing-publishing-landing-page.md)登陆页面。
 
-## 第 2 步：创建确认电子邮件 {#step-2--create-the-confirmation-email}
+## 第2步：创建确认电子邮件 {#step-2--create-the-confirmation-email}
 
 创建确认登陆页面后，即可设计确认电子邮件：此电子邮件将自动发送给验证客户获取登陆页面的每位访客。此验证被视为事件，而电子邮件是事务型消息，链接到允许定向选择退出群体的特定分类规则。
 
@@ -83,7 +83,7 @@ ht-degree: 89%
    ![](assets/optin_eventcreate.png)
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并在数据结构中添加 **[!UICONTROL email]** 以启用协调。
-1. 在 **[!UICONTROL Enrichment]** 部分中，单击 **[!UICONTROL Create element]** 并选择 **[!UICONTROL Profile]** 目标资源。然后，您可以在 **[!UICONTROL Join definition]** 部分映射 **[!UICONTROL email]** 字段，或任何其他复合协调键值，具体取决于您的需要。
+1. 在 **[!UICONTROL Enrichment]** 部分中，单击 **[!UICONTROL Create element]** 并选择 **[!UICONTROL Profile]** 目标资源。然后，您可以在 **[!UICONTROL Join definition]** 部分映射 **[!UICONTROL email]** 字段，或任何其他复合协调键，具体取决于您的需要。
 
    ![](assets/optin_eventcreate_join.png)
 
@@ -119,7 +119,7 @@ ht-degree: 89%
 1. 编辑电子邮件模板的属性。在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 部分中，选择之前创建的 **TYPOLOGY_PROFILE** 分类。
 1. 保存并发布事务型消息。
 
-## 第 3 步：创建客户获取登陆页面 {#step-3--create-the-acquisition-landing-page}
+## 第3步：创建客户获取登陆页面 {#step-3--create-the-acquisition-landing-page}
 
 您必须创建初始客户获取登陆页面：此选择加入表单将发布在您的网站上。
 

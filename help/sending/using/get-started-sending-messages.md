@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 11%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign Standard **消息准备** 分析消息的目标、个性化和有效性
 
 使用 **类型** 在准备期间检查您的消息是否有效并通过疲劳、控制和定位规则符合您的质量标准。 例如，检查电子邮件是否始终包含主题行，或从消息收件人中排除取消订阅者。
 
-了解更多信息:
+了解更多：
 
 * [准备发送](../../sending/using/preparing-the-send.md)
 * [预览消息](../../sending/using/previewing-messages.md)
@@ -62,7 +62,7 @@ Campaign Standard **消息准备** 分析消息的目标、个性化和有效性
 
 最后，您可以将Adobe Campaign配置为 **保留电子邮件副本** 通过电子邮件密件抄送从您的平台发送。 特别是，如果您的组织需要存档所有出站电子邮件以实现合规性，则可以启用此功能。
 
-了解更多信息:
+了解更多：
 
 * [确认发送](../../sending/using/confirming-the-send.md)
 * [跟踪消息](../../sending/using/tracking-messages.md)
@@ -79,7 +79,7 @@ Campaign Standard **消息准备** 分析消息的目标、个性化和有效性
 
 Campaign Standard提供了多个 **投放工具** 为了帮助您提高成功投放的消息数量：投放吞吐量报告、发送时间优化、消息预览、电子邮件渲染、隔离管理等。
 
-了解更多信息:
+了解更多：
 
 * [关于可投放性](../../sending/using/about-deliverability.md)
 * [监测可投放性](../../sending/using/monitor-deliverability.md)

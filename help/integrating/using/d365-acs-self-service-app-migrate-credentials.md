@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# 将凭据从JWT迁移到OAuth服务器到服务器
+# 将凭据从 JWT 机制迁移到 OAuth 服务器到服务器机制
 
 服务帐户(JWT)凭据已弃用，支持新的OAuth服务器到服务器凭据。 新的凭据使您能够更轻松地维护Adobe应用程序。 它还消除定期轮换证书的需要，并使用标准OAuth2库开箱即用。
 

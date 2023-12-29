@@ -12,7 +12,7 @@ exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Update data]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 指定执行的 **[!UICONTROL Operation type]**：
 
    * **[!UICONTROL Insert or update]**：插入数据或更新数据（如果数据库中已存在记录）。
@@ -56,7 +56,7 @@ ht-degree: 98%
    * **[!UICONTROL Using the targeting dimension]**：选择 **[!UICONTROL Dimension to update]**，然后指定 **[!UICONTROL Keys for finding records]**。有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
    * 如果输入的数据与现有定向维度匹配，请选择 **[!UICONTROL Using one or more links]** 选项。然后选择 **[!UICONTROL Dimension to update]**。
 
-   如果所选操作类型需要更新，则必须使用协调键值。
+   如果所选操作类型需要更新，则必须使用协调键。
 
 1. 在 **[!UICONTROL Fields to update]** 选项卡中，指定要应用更新的字段，并根据需要添加条件以执行此更新。要实现此目的，请使用 **[!UICONTROL Taken into account if]** 列。按列表顺序依次应用条件。使用右侧的箭头可更改更新的顺序。您可以多次使用同一目标字段。
 

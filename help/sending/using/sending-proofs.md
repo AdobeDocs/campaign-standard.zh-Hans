@@ -12,7 +12,7 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   >
   >此功能仅适用于电子邮件渠道。
 
-## 发送验证 {#sending-a-proof}
+## 发送校样 {#sending-a-proof}
 
 要发送校样，请执行以下步骤：
 

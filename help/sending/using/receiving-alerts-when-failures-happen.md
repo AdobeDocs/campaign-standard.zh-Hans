@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -75,17 +75,17 @@ ht-degree: 2%
 
 如果要根据特定标准向不同的用户组发送通知，您需要使用多个功能板。 要创建新仪表板，请执行以下操作：
 
-1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
+1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. 选择 **[!UICONTROL Delivery alerting dashboards]** 并单击 **[!UICONTROL Create]**。
 1. 查看 **[!UICONTROL Enabled]** 框以激活当前仪表板。
 
-   如果禁用此选项，则不再发送链接到该功能板的通知。 此选项默认处于禁用状态。
+   如果禁用此选项，则不再发送链接到该功能板的通知。 默认禁用此选项。
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
 1. 从中选择要通知的收件人组 **[!UICONTROL Alert group]** 下拉列表。 要修改或创建组，请参阅 [创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. 从 **[!UICONTROL Delivery alerting criteria]** 部分，单击 **[!UICONTROL Create element]** 以添加标准。 请参阅 [关于警报标准](#about-alerting-criteria).
-1. 选择 **[!UICONTROL Edit properties]** 按钮。在 **[!UICONTROL Criteria parameters]** 选项卡，定义标准的应用方式。 请参阅 [标准参数](#criteria-parameters).
+1. 选择 **[!UICONTROL Edit properties]** 按钮。 在 **[!UICONTROL Criteria parameters]** 选项卡，定义标准的应用方式。 请参阅 [标准参数](#criteria-parameters).
 1. 单击 **[!UICONTROL Create]** 以保存仪表板。
 
 现在，每次投放满足您在此功能板中定义的标准时，都会向指定的用户组发送警报通知。
@@ -132,7 +132,7 @@ ht-degree: 2%
 
 **相关主题：**
 
-* [发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [正在发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [警报频率](#alerting-frequency)
 * [营销活动的图标和状态](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

@@ -12,7 +12,7 @@ exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 将构成资源之元素列表的显示方式个性化
 * 定义资源每个元素之详情视图的显示方式
 
-## 允许从导航菜单访问 {#enabling-access-from-the-navigation-menu}
+## 启用从导航菜单的访问 {#enabling-access-from-the-navigation-menu}
 
 如果您希望资源具有专用屏幕，则可以将其添加到导航菜单中。
 

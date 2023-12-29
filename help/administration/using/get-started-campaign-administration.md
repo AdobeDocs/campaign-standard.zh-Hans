@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 Campaign Standard还允许您监视与安全相关的信息。 您可以通过，检索有关用户执行的数据导出的信息 **[!UICONTROL Export audits]** 屏幕，并利用 **[!UICONTROL Licenses]** 屏幕，用于监控贵组织内安装的所有营销活动许可证，以及内部版本号、发行版本和协议条款等不同信息。
 
-了解更多信息:
+了解更多：
 
 * [用户管理](../../administration/using/users-management.md)
 * [组织实体](../../administration/using/organizational-units.md)
@@ -74,7 +74,7 @@ Campaign Standard还允许您监视与安全相关的信息。 您可以通过�
 
 设置 **移动应用程序** 以便能够使用Adobe Experience Platform SDK发送应用程序内消息和推送通知。
 
-了解更多信息:
+了解更多：
 
 * [关于渠道配置](../../administration/using/about-channel-configuration.md)
 * [配置电子邮件渠道](../../administration/using/configuring-email-channel.md)
@@ -91,7 +91,7 @@ Campaign Standard随附不同的应用程序元素，您可以根据自己的需
 
 定义一个或多个 **品牌** ，并配置发送 **实时通知** 在应用程序内进行重要的系统活动。
 
-了解更多信息:
+了解更多：
 
 * [关于 Campaign Standard 设置](../../administration/using/about-campaign-standard-settings.md)
 * [外部帐户](../../administration/using/external-accounts.md)

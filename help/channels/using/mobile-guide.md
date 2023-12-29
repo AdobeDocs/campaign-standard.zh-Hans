@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard Mobile 指南
+title: Campaign Standard Mobile指南
 description: 详细了解Adobe Campaign Standard中移动投放的一般准则，例如如何配置移动应用程序或创建推送通知和应用程序内消息。
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -140,7 +140,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
   </td>
   <td>
     <div>
-    <p><strong>显示 Adobe Campaign Standard 推送通知中的图像</strong></p>
+    <p><strong>显示Adobe Campaign Standard推送通知中的图像</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>在此处了解</strong></a> 如何在iOS设备上显示Adobe Campaign推送通知中的图像。</p>
     <br>
@@ -233,19 +233,19 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>推送通知常见问题解答</strong></p>
     </div>
-    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>单击此处以了解更多信息。</p>
+    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>单击此处获取更多信息。</p>
   </td>
   <td>
     <div>
     <p><strong>Adobe Launch Synchronization 常见问题解答</strong></p>
     </div>
-    <p><a href="../../channels/using/in-app-faq.md"><strong>单击此处以了解更多信息。</p>
+    <p><a href="../../channels/using/in-app-faq.md"><strong>单击此处获取更多信息。</p>
   </td>
   <td>
     <div>
     <p><strong>应用程序内常见问题解答</strong></p>
     </div>
-    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>单击此处以了解更多信息。</p>
+    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>单击此处获取更多信息。</p>
   </td>
 </tr>
 </table>

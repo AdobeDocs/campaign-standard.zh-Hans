@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 8%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard与Dreamweaver集成允许您在Dreamweaver界面中编�
 
   每当在一个产品中进行编辑时，就会在另一个产品中进行实时更新。 如果您要在Dreamweaver中更改文本的颜色，则一旦您进行了编辑，Campaign中文本的颜色即会变为实时颜色。 此外，当您在Dreamweaver或Campaign中选择代码时，由于行号相同，因此选择将保留在两个产品之间，这在查找代码中的特定内容时非常有用。
 
-* **通过 Dreamweaver 将本地图像上传到 Adobe Campaign**
+* **通过Dreamweaver将本地图像上传到Adobe Campaign**
 
   在Dreamweaver中创建或编辑电子邮件时，您只需从桌面或本地计算机中选择一个图像即可。 虽然Dreamweaver始终允许您执行此操作，但当Dreamweaver和Campaign连接时，本地文件会立即上传到Adobe Campaign服务器：无需在内容更改时手动上传图像。 此外，它还可确保在Campaign中始终实时显示最新图像。
 
@@ -37,7 +37,7 @@ Adobe Campaign Standard与Dreamweaver集成允许您在Dreamweaver界面中编�
 
 Dreamweaver文档中详细介绍了此功能，可访问 [此处](https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](assets/do-not-localize/how-to-video.png) [通过观看视频了解此功能](#video)
 
 ## 编辑Experience Manager中的内容 {#editing-content-in-experience-manager}
 
@@ -109,7 +109,7 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
    <td> 不支持<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>好处</strong><br /> </td> 
+   <td> <strong>优点</strong><br /> </td> 
    <td> 
      <p> — 通过拖放体验轻松构建电子邮件</p>
      <p> — 与旧版内容编辑器类似的功能</p>

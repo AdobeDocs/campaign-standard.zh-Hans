@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 14%
 <table> 
  <thead> 
   <tr> 
-   <th> 维度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> Dimension<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 营销活动 ID<br /> </td> 
+   <td> 营销活动ID<br /> </td> 
    <td> 在Campaign中看到的营销活动的内部名称<br /> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ ht-degree: 14%
    <td> 在Campaign中看到的营销活动标签<br /> </td> 
   </tr> 
   <tr> 
-   <td> 投放 ID<br /> </td> 
+   <td> 投放ID<br /> </td> 
    <td> 在Campaign中看到的投放的内部名称。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 “投放ID”维度随后将显示每次投放的结果，即DM1到DM4。 <br /> </td> 
   </tr> 
   <tr> 
@@ -62,12 +62,12 @@ ht-degree: 14%
  <thead> 
   <tr> 
    <th> 量度<br /> </th> 
-   <th> 条件<br /> </th> 
+   <th> 定义<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已点击<br /> </td> 
+   <td> 已单击<br /> </td> 
    <td> 在投放中点击内容的次数。<br /> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ ht-degree: 14%
   </tr> 
   <tr> 
    <td> 退回总计<br /> </td> 
-   <td> 投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。<br /> </td> 
+   <td> 投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。<br /> </td> 
   </tr> 
   <tr> 
    <td> 独特打开<br /> </td> 

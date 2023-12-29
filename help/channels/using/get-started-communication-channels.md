@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 23%
+source-wordcount: '516'
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 **管理模板** 以配置消息属性并使您获得时间以及消息传递策略的一致性。 例如，对于电子邮件，负责配置模板的功能管理员可以定义电子邮件的标准参数，如受众、计划或内容，与发送相关的高级参数，有效性、跟踪等，或有关定位和个性化的预配置参数（定位上下文）。
 
-了解更多信息:
+了解更多：
 
 * [发送消息的关键步骤](../../channels/using/key-steps-to-send-a-message.md)
 * [访问消息](../../channels/using/accessing-messages.md)
@@ -54,7 +54,7 @@ ht-degree: 23%
 
 此外，利用Campaign Standard **个性化和动态内容功能** 以吸引受众的兴趣。
 
-了解更多信息:
+了解更多：
 
 * [创建电子邮件](../../channels/using/about-emails.md)
 * [创建短信消息](../../channels/using/about-sms-messages.md)
@@ -70,7 +70,7 @@ ht-degree: 23%
 
 事务型消息可用于电子邮件、短信和推送通知渠道，具体取决于您的选项。 有两种类型的消息： **事件事务型消息** 定向没有用户档案信息的事件，以及 **用户档案事务型消息** 从数据库定向用户档案。
 
-了解更多信息:
+了解更多：
 
 * [事务性消息传递入门](../../channels/using/getting-started-with-transactional-msg.md)
 * [配置事务性事件](../../channels/using/configuring-transactional-event.md)
@@ -88,7 +88,7 @@ Campaign附带登陆页面，这些登陆页面是可用于 **捕获受众信息
 
 登陆页面还可用于 **获取或更新现有配置文件**，并设置双重选择加入机制，让您能够保护平台，使其免受错误或无效的电子邮件地址或垃圾邮件机器人的侵害。
 
-了解更多信息:
+了解更多：
 
 * [登陆页面快速入门](../../channels/using/getting-started-with-landing-pages.md)
 * [登陆页面模板](../../channels/using/landing-page-templates.md)

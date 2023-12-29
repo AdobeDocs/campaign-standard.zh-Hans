@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 8%
 **其他变更**
 
 * 在投放属性界面中添加了警告。 它指定投放根据其聚合期进行准备和解冻以每天多次调用工作流，您应确保它们没有任何期限。 (CAMP-34393)
-* 在自定义资源配置屏幕中添加了警告。 我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键值、索引和链接。
+* 在自定义资源配置屏幕中添加了警告。 我们建议为自定义资源 ID 最多使用 30 个字符。这也适用于自定义资源字段、键、索引和链接。
 * 现在，在尝试删除登录页用作确认消息的事务型消息时，将显示一条消息。
 * 当活动运行超过6小时时，工作流日志中现在会显示警告。 这不适用于推送通知、交付、信号、开始、结束、分支、 AND联合、计划和等待活动。
 * 现在，当您达到同时运行的工作流的最大数量时，工作流日志中会显示警告。
@@ -252,7 +252,7 @@ ht-degree: 8%
 * 修复了在主题包含多行时破坏电子邮件内容的安全问题。
 
 
-## 19.2.7 版 - 2019 年 7 月 {#release-19-2-7---july-2019}
+## 19.2.7版 — 2019年7月 {#release-19-2-7---july-2019}
 
 **改进**
 
@@ -261,13 +261,13 @@ ht-degree: 8%
 * 修复了可能导致非管理员用户无法保存或计划报表的问题。 (CAMP-31133)
 * 修复了在加载文件工作流活动中使用“|”作为日期分隔符时的问题。 (CAMP-34706)
 
-## 19.2.4 版 - 2019 年 6 月 {#release-19-2-4---june-2019}
+## 19.2.4版 — 2019年6月 {#release-19-2-4---june-2019}
 
 **电子邮件设计工具**
 
 * 修复了在HTML中使用空样式标记时阻止用户编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
-## 19.2.3 版 - 2019 年 6 月 {#release-19-2-3---june-2019}
+## 19.2.3版 — 2019年6月 {#release-19-2-3---june-2019}
 
 **电子邮件设计工具**
 
@@ -360,14 +360,14 @@ ht-degree: 8%
 * 已从动态报表中删除邮政编码维度。 我们建议改用城市、国家/地区、州维度。
 * 已删除应用程序内消息的“首次启动”生命周期事件触发器。
 * 现在，导出具有安全组的资源包时，它包含分配给每个组的角色。 (CAMP-32960)
-* 在加载文件活动中，通过新选项可检查上传文件的列是否与列定义匹配。 有关更多信息，请参阅[详细文档](../../automating/using/load-file.md)。(CAMP-32229)
-* 现在可以使用有效负荷启动工作流，从而允许您在工作流中的活动中使用和共享外部参数。 有关更多信息，请参阅[详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。(CAMP-29412和CAMP-29413)
+* 在加载文件活动中，通过新选项可检查上传文件的列是否与列定义匹配。 欲了解更多信息，请参见 [详细文档](../../automating/using/load-file.md). (CAMP-32229)
+* 现在可以使用有效负荷启动工作流，从而允许您在工作流中的活动中使用和共享外部参数。 欲了解更多信息，请参见 [详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412和CAMP-29413)
 * Campaign StandardAPI现在允许您使用有效负载更新用户档案的地理和组织单位。 有关更多信息，请参阅[详细文档](../../api/using/get-started-apis.md)。
 * 无法访问数据库中的对象时的错误消息已变得更清晰、更易于理解。
 * 在提取文件活动中，在定义要导出的文件名称时，更新了Javascript功能。 现在，只有formatDate函数可用于输出字段。 有关更多信息，请参阅[详细文档](../../automating/using/extract-file.md)。
 * 自定义资源的自动序列ID生成已得到改进。 默认情况下，新自定义资源的主键现在为64位。
 * 自定义资源发布测试模式已得到改进。 如果上次自定义资源发布失败且未修复，则现在向用户显示警告消息。 在自定义资源发布失败后，您可以回退到上一个工作版本。 有关更多信息，请参阅[详细文档](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
-* 在传输文件活动中添加了一个新选项。 它允许您在SFTP模式下使用文件下载操作对文件进行排序。 有关更多信息，请参阅[详细文档](../../automating/using/transfer-file.md)。(CAMP-33109)
+* 在传输文件活动中添加了一个新选项。 它允许您在SFTP模式下使用文件下载操作对文件进行排序。 欲了解更多信息，请参见 [详细文档](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **修补程序**
 
@@ -390,7 +390,7 @@ ht-degree: 8%
 * 修复了导致可投放性工作流在未成功完成时关闭的问题。
 * 修复了可能会阻止用户保存或计划报表的问题。 (CAMP-31133)
 
-## 19.1.3 版 - 2019 年 3 月 {#release-19-1-3---march-2019}
+## 19.1.3版 — 2019年3月 {#release-19-1-3---march-2019}
 
 **Email Designer 增强功能**
 
@@ -432,7 +432,7 @@ ht-degree: 8%
    <td> 工作流增强功能<br /> </td> 
    <td> <p>添加了以下工作流功能：</p> 
     <ul> 
-     <li> 您现在可以从同一Campaign实例复制粘贴工作流或其他工作流中的活动。 这样，您就可以轻松复制整个工作流或特定活动，并保留最初定义的设置。 有关更多信息，请参阅<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">详细文档</a>。(CAMP-20014) </li> 
+     <li> 您现在可以从同一Campaign实例复制粘贴工作流或其他工作流中的活动。 这样，您就可以轻松复制整个工作流或特定活动，并保留最初定义的设置。 欲了解更多信息，请参见 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">详细文档</a>. (CAMP-20014) </li> 
      <li> 使用时 <strong>加载文件</strong> 之后，您现在可以向包含被拒绝记录的文件名添加时间戳。 有关更多信息，请参阅<a href="../../automating/using/load-file.md#configuration">详细文档</a>。 </li> 
      <li> <strong>查询</strong> 和 <strong>分段</strong> 现在，如果活动不检索任何数据，则通过活动可启用叫客过渡。 </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 能够 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">在准备期间自动从URL检索内容</a> </li> 
      <li> 完全合规 <a href="../../designing/using/using-reusable-content.md#content-templates">现成的内容模板</a>. </li> 
     </ul> 
-    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。下面列出了改进和修复。</p><p>因此，现已弃用旧版的电子邮件内容编辑器。 有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>.</p> </td> 
+    <p>欲了解更多信息，请参见 <a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a> 和 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>. 下面列出了改进和修复。</p><p>因此，现已弃用旧版的电子邮件内容编辑器。 有关更多信息，请参阅此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 事务性电子邮件中的产品列表<br /> </td> 

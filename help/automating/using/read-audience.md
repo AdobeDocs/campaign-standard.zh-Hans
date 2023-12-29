@@ -12,7 +12,7 @@ exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Read audience]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 从 **[!UICONTROL Properties]** 选项卡中选择要检索的受众。
 
    您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 要配置 **[!UICONTROL Enrichment]** 活动，请执行以下步骤：
 
 1. 将 **[!UICONTROL Enrichment]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 如果活动包含多个集客过渡，请选择 **[!UICONTROL Primary set]**。此活动中配置的附加数据，将添加到叫客过渡中的此主集。
 
    如果主集已包含附加数据，则可以选择保留或删除这些数据。如果取消勾选 **[!UICONTROL Keep all additional data from the main set]** 选项，则只有在 **[!UICONTROL Enrichment]** 中配置的附加数据会保留在叫客过渡中。
@@ -69,4 +69,4 @@ ht-degree: 96%
 
 1. 确认活动的配置并保存工作流。
 
-进行 **[!UICONTROL Enrichment]** 后，现在即可将数据用在连接的活动中。例如，您可以在电子邮件内容中的个性化字段资源管理器的 **[!UICONTROL Additional data (targetData)]** 链接下找到它。
+进行 **[!UICONTROL Enrichment]** 后，现在即可将数据用在连接的活动中。例如，您可以在电子邮件内容中的个性化字段探索工具的 **[!UICONTROL Additional data (targetData)]** 链接下找到它。

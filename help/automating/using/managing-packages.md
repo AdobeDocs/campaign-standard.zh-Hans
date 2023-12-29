@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 >
 >从已导出的资源包内容列表中选择元素时，仍可使用 **[!UICONTROL Log]** 和 **[!UICONTROL Last export]** 选项卡。
 
-## 资源包导入 {#package-imports}
+## 包导入 {#package-imports}
 
 ### 系统更新 {#system-updates}
 

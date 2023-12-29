@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1812'
 ht-degree: 2%
 
 ---
@@ -229,7 +229,7 @@ HTML内容模板可从 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 
    >[!CAUTION]
    >
-   >片段不得包括个性化字段、动态内容或另一片段.
+   >片段不得包括个性化字段、动态内容或其他片段。
    >
    >避免保存为结构组件为空的片段内容。 插入片段后，将无法对其进行编辑。
    >

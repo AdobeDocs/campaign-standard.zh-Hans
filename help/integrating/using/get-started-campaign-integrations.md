@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 77%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 77%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">使用 Campaign 和 Points of Interest 数据</a> (Analytics for Mobile) 发送基于位置的营销消息<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud 触发器<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> 允许在 Adobe Campaign 中向客户发送个性化电子邮件，以对 Adobe Analytics 在网站上跟踪的特定行为作出反应。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud Triggers</a>，<a href="../../integrating/using/abandonment-triggers-use-cases.md">Abandonment Triggers-Campaign 用例</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">根据站点活动触发再营销消息</a>视频（步骤 2）

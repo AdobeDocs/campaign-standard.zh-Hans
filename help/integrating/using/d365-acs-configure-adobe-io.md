@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 1. 单击“准备发布”以准备发布。
 1. 准备完成后，选中“创建Profiles &amp; Services Ext API”，然后单击“发布”。
 
-## 配置 Adobe I/O {#adobe-io}
+## 配置Adobe I/O {#adobe-io}
 
 Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成以同步数据的访问权限。
 

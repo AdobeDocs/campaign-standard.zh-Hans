@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Exclusion]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 从集客过渡中选择 **[!UICONTROL Primary set]**。这是排除了元素的集合。其他集合用于匹配从主集中排除之前的元素。
 
    >[!NOTE]

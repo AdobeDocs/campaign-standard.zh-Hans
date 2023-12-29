@@ -12,13 +12,13 @@ exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 33%
+ht-degree: 11%
 
 ---
 
 # 使用外部数据更新数据库 {#update-database-file}
 
-以下示例显示了 **[!UICONTROL Update data]** 活动跟随 **[!UICONTROL Load file]** 活动。 此工作流的目标，是使用从文件取回的数据，向 Adobe Campaign 数据库添加或用户档案。
+以下示例显示了 **[!UICONTROL Update data]** 活动跟随 **[!UICONTROL Load file]** 活动。 此工作流的目的是使用从文件取回的数据，向Adobe Campaign数据库添加用户档案或更新用户档案。
 
 在此示例中，使用的协调键值为 **电子邮件地址**. 文件加载到 [加载文件](../../automating/using/load-file.md) 活动是 **.txt** 格式文件，包含以下示例数据：
 

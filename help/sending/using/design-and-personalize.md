@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 7%
+source-wordcount: '1039'
+ht-degree: 4%
 
 ---
 
@@ -98,9 +98,9 @@ Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UIC
 
 ### 短信长度
 
-默认情况下，短信的字符数应符合 GSM（全球移动通信系统）标准。使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
+默认情况下，短信的字符数应符合GSM（全球移动通信系统）标准。 使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
 
-音译指的是，如果 GSM 标准无法识别某个短信字符，则会用另一个字符替换该字符。请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应的 **[!UICONTROL External account]**.
+音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应的 **[!UICONTROL External account]**.
 了解详情 [在此部分中](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **提示**：

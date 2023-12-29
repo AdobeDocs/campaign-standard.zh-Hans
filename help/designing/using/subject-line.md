@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >
 >如果主题行为空，则会在消息仪表板和Email Designer中显示警告。
 
-1. 创建电子邮件.
+1. 创建电子邮件。
 1. 转到 **[!UICONTROL Properties]** Email Designer主页选项卡（可通过主页图标访问）。
 1. 填写 **[!UICONTROL Subject]** 部分。
 

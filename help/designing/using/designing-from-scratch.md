@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 1. 添加图像并编辑电子邮件的文本。 请参阅 [插入图像](../../designing/using/images.md#inserting-images).
 1. 通过添加个性化字段、链接等个性化内容，使电子邮件个性化。 请参阅 [插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)， [插入链接](../../designing/using/links.md#inserting-a-link) 和 [定义电子邮件中的动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 定义电子邮件的主题行。 请参阅 [个性化电子邮件的主题行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 预览电子邮件.
+1. 预览电子邮件。
 1. 保存您的内容，然后在确保已定义受众并正确计划发送后继续发送消息。
 
 您也可以查看此 [简介视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).

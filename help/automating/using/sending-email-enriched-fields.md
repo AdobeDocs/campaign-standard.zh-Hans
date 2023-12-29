@@ -1,6 +1,6 @@
 ---
 title: 发送包含扩充字段的电子邮件
-description: 下方的示例展示了如何使用通过加载文件活动，发送使用了（检索自外部文件的）附加数据的电子邮件。
+description: 以下示例显示如何使用通过加载文件活动，发送使用从外部文件检索到的附加数据的电子邮件。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 75%
+ht-degree: 68%
 
 ---
 

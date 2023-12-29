@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 93%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 93%
 >并不会导入样例文件的数据，仅将其用于配置活动。我们建议使用包含少量数据的样例文件。
 
 1. 将 **[!UICONTROL Load file]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 上传样例文件，在导入最终文件时使用该样例文件定义预期的结构。
 
    ![](assets/wkf_file_loading.png)
@@ -123,7 +123,7 @@ ht-degree: 93%
 
 加载样例文件时，将自动检测列格式以及每种数据类型的默认参数。您可以修改这些默认参数，以指定要应用于数据的特定进程，尤其是当存在错误或空值时。
 
-要实现此目的，请从要定义其格式之列的快捷操作中选择 **[!UICONTROL Edit properties]**。随即会打开列格式详细信息窗口。
+要实现此目的，请从要定义其格式之列的快速操作中选择 **[!UICONTROL Edit properties]**。随即会打开列格式详细信息窗口。
 
 ![](assets/wkf_file_loading4.png)
 

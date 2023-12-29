@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 * 登陆页面只能用于用户档案，而不能用于测试用户档案，这意味着登陆页面不能通过电子邮件验证进行测试。
 
-## 第 1 步 - 配置登陆页面模板 {#configure-the-landing-page-template}
+## 第1步 — 配置登陆页面模板 {#configure-the-landing-page-template}
 
 在设置登陆页面之前，第一步是配置对应于您需求的登陆页面模板。模板准备就绪后，将使用所需的参数预配置基于该模板的所有登陆页面。
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps1.png)
 
-## 第 2 步 - 创建和配置登陆页面 {#create-and-configure-the-landing-page}
+## 第2步 — 创建和配置登陆页面 {#create-and-configure-the-landing-page}
 
 使用上一步中定义的模板，在项目或营销策划中创建新的登陆页面。
 
@@ -94,7 +94,7 @@ ht-degree: 97%
 >
 >您的修改仅对正在编辑的登陆页面有效。如果要将这些修改应用于其他登陆页面，您可以在专用模板中执行这些修改，然后使用该模板创建其他登陆页面。
 
-## 第 3 步 - 设计登陆页面 {#design-the-landing-page}
+## 第3步 — 设计登陆页面 {#design-the-landing-page}
 
 您现在可以定义登陆页面的内容。默认情况下，登陆页面包含三个可通过滚动箭头访问的页面：主内容页、确认页和错误页。
 
@@ -106,7 +106,7 @@ ht-degree: 97%
 
 如需有关登录页设计的更多信息，请参阅[此章节](../../channels/using/designing-a-landing-page.md)。
 
-## 第 4 步 - 测试登陆页面 {#test-the-landing-page}
+## 第4步 — 测试登陆页面 {#test-the-landing-page}
 
 定义登陆页面后，您可以模拟其上线之后的执行和行为方式。
 
@@ -120,7 +120,7 @@ ht-degree: 97%
 
 有关如何测试登陆页面的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 第 5 步 - 发布登陆页 {#publish-the-landing-page}
+## 第5步 — 发布登陆页面 {#publish-the-landing-page}
 
 测试成功后，您可以使用仪表板操作栏中的 **[!UICONTROL Publish]** 按钮发布登陆页面。监视块可显示发布的进度和状态。
 

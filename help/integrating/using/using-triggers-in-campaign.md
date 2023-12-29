@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
 # 在 Campaign 中使用触发器{#using-triggers-in-campaign}
 
-## 在 Campaign 中创建映射触发器 {#creating-a-mapped-trigger-in-campaign}
+## 在Campaign中创建映射触发器 {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
 >要创建触发器，您需要 **[!UICONTROL Administration]** 角色或将成为 **[!UICONTROL Administrators]** 安全组。 有关详细信息，请参阅此 [页面](../../administration/using/list-of-roles.md).
 
-您应确保预先在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服务）中定义要监控的行为。有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
+您应确保预先在Adobe Experience Cloud中定义要监控的行为(**[!UICONTROL Triggers]** 核心服务)。 有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
 您现在必须基于现有 Adobe Experience Cloud 触发器在 Adobe Campaign 中创建触发器事件。
 

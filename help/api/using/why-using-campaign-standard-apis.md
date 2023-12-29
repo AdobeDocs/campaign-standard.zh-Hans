@@ -1,5 +1,5 @@
 ---
-title: 为何使用 Campaign Standard API?
+title: 为何使用Campaign StandardAPI？
 description: 了解有关Campaign StandardAPI以及为何使用它们的更多信息。
 audience: developing
 content-type: reference
@@ -10,12 +10,12 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
-# 为何使用 Campaign Standard API {#why-using-campaign-standard-apis}
+# 为何使用Campaign StandardAPI {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成，实时解决现实世界中的问题。
 
@@ -60,7 +60,7 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 
    ![替换文本](assets/postman_collection.png)
 
-1. 选择 **创建用户档案** ，然后更新POST请求和 **标题** 制表符(&lt;organization>， &lt;api_key>， &lt;access_token>)。 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
+1. 选择 **创建用户档案** ，然后更新POST请求和 **标题** 制表符(&lt;organization>， &lt;api_key>， &lt;access_token>)。 如需详细信息，请参阅[此小节](../../api/using/setting-up-api-access.md)。
 
    ![替换文本](assets/postman_uc1.png)
 

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '885'
 ht-degree: 82%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 82%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Segmentation]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快捷操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在 **[!UICONTROL General]** 选项卡，选择 **[!UICONTROL Resource type]** 必须对其执行分段：
 
    * 如果对数据库中已存在的数据执行分段，则是 **[!UICONTROL Database resource]**。根据要分段的数据选择 **[!UICONTROL Filtering dimension]**。默认情况下，会对&#x200B;**用户档案**&#x200B;执行分段。
