@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 68%
+source-wordcount: '159'
+ht-degree: 52%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 68%
 
 Adobe Campaign Standard 24.1使用HTTP v1 API发送Android推送通知消息，以确保与即将发布的FCM更改兼容。 请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
+Adobe Campaign Standard 24.1现在支持iOS推送通知的p8身份验证证书。 必须调整您的实施以激活这些更改。 请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
+
 
 ### 修复 {#e-rn-fixes}
 
+* 修复了在30天后无法从隔离中删除退回电子邮件地址的问题。 (CAMP-52977)
 * 修复了导致投放警报工作流停止并出现以下错误的问题： `division by zero`. (CAMP-49786)
