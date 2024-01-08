@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 ## 24.1 版 - 2024 冬季版 {#release-24-1-release}
 
-在暂存环境升级开始的前一周，有关此版本的详细信息可在[发行说明](release-notes.md)中获取。
+有关此版本的详细信息，请参阅[早期发行说明](e-release-notes.md)。
 
 <table>
  <thead>
