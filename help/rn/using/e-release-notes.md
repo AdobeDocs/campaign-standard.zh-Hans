@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 52%
 >
 > 在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
 
-## 24.1 版 - 2024 冬季版 {#winter-24}
+## 24.1 版 - 2024 年冬季版 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,12 +31,12 @@ ht-degree: 52%
 
 ### 改进 {#e-rn-improvements}
 
-Adobe Campaign Standard 24.1使用HTTP v1 API发送Android推送通知消息，以确保与即将发布的FCM更改兼容。 请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
+Adobe Campaign Standard 24.1 使用 HTTP v1 API 发送 Android 推送通知消息，确保与即将发布的 FCM 更改相兼容。请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
-Adobe Campaign Standard 24.1现在支持iOS推送通知的p8身份验证证书。 必须调整您的实施以激活这些更改。 请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
+Adobe Campaign Standard 24.1 现在支持使用 p8 身份验证证书发送 iOS 推送通知。必须调整您的实施以激活这些更改。请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
 
 ### 修复 {#e-rn-fixes}
 
-* 修复了在30天后无法从隔离中删除退回电子邮件地址的问题。 (CAMP-52977)
-* 修复了导致投放警报工作流停止并出现以下错误的问题： `division by zero`. (CAMP-49786)
+* 修复了导致在 30 天后无法从隔离中删除退回电子邮件地址的问题。(CAMP-52977)
+* 修复了导致投放警报工作流停止并出现以下错误的问题：`division by zero`。(CAMP-49786)
