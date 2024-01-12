@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 推送跟踪分为三种类型：
 
-* **推送展示**  — 当推送通知已发送到设备并位于通知中心而根本没有被触碰时。  这被视为一次展示。  在大多数情况下，展示次数应与交付的展示次数大致相同。 它确保设备确实收到消息并将该信息中继回服务器。
+* **推送展示**  — 当推送通知成功发送到设备时，位于通知中心且没有任何用户交互。
 
 * **推送点击**  — 当推送通知已发送到设备并且用户已单击该设备时。  用户希望查看通知（该通知随后将变为推送打开跟踪）或关闭通知。
 
-* **推送打开**  — 当推送通知已发送到设备并且用户已单击该通知导致应用程序打开时。  这与推送点击类似，不同之处在于，如果取消通知，则不会触发推送打开。
+* **推送打开**  — 当推送通知已发送到设备并且用户已单击该通知导致应用程序打开时。 这与推送点击类似，不同之处在于，如果取消通知，则不会触发推送打开。
 
 要实施Campaign Standard跟踪，移动设备应用程序需要包含Adobe Experience Platform SDK。 这些SDK在以下位置提供： [Adobe Experience Platform SDK文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
