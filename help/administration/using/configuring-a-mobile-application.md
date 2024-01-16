@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 2%
      输入以下应用程序详细信息：
 
       * **应用程序ID(iOS捆绑包ID)**：请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以了解有关捆绑包ID的更多信息。
-      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。
+      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的 [Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create).
       * **密钥ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以了解有关键ID的更多信息。
       * **iOS团队ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以了解有关iOS团队ID的更多信息。
 
@@ -165,7 +165,7 @@ ht-degree: 2%
      输入以下应用程序详细信息：
 
       * **应用程序ID（Android包名称）**：请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以了解有关包名称的详细信息。
-      * **Android密钥(Json)文件**：拖放您的.json私钥文件。
+      * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅 [Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
