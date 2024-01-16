@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Adobe Campaign Standard的产品文档。
+user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
-breadcrumb-title: Campaign Standard文档
-source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
+breadcrumb-title: Campaign Standard 文档
+source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 99%
+source-wordcount: '1769'
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [最新版本](rn/using/release-notes.md)
    + [早期发行说明](rn/using/e-release-notes.md)
    + 之前版本 {#previous-releases}
+      + [2023 年版发行说明](rn/using/release-notes-2023.md)
       + [2022 年版发行说明](rn/using/release-notes-2022.md)
       + [2021 年版发行说明](rn/using/release-notes-2021.md)
       + [2020 年版发行说明](rn/using/release-notes-2020.md)

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 ## 24.1 版 - 2024 冬季版 {#release-24-1-release}
 
-有关此版本的详细信息，请参阅[早期发行说明](e-release-notes.md)。
+有关此版本的详细信息，请参阅 [发行说明](release-notes.md) 开始暂存环境升级时。
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
   </tr>
  </tbody>
 </table>
-
-
-## 23.2 版 - 2023 年秋季限量发布 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->此版本仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
-
-有关此版本的详细信息，请参阅[发行说明](release-notes.md)。
-
-<table>
- <thead>
-  <tr>
-   <th> 环境 </th>
-   <th> 日期 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>暂存 </td>
-   <td>2023 年 10 月 3 日至 9 日 </td>
-  </tr>
-  <tr>
-   <td>生产 </td>
-   <td>2023 年 10 月 12 日至 18 日 </td>
-  </tr>
- </tbody>
-</table>
-
-如果您有其他问题，请联系 [Adobe 客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
 
 ## 问题与回答(&amp;A) {#questions-and-answers}
 
