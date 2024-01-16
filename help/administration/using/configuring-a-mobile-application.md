@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ ht-degree: 2%
 
    现在，在创建应用程序内消息时，您的事件会显示在“触发器”选项卡中。 有关更多信息，请参阅 [准备和发送应用程序内消息](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. 在 **[!UICONTROL Device-specific settings]** 移动应用程序仪表板的部分，为每个设备提供应用程序详细信息，包括iOS的证书和Android的服务器密钥。
+1. 在 **[!UICONTROL Device-specific settings]** 移动应用程序仪表板的部分，为每个设备提供应用程序详细信息。
 
-   上传证书后，将显示一条消息，通知您上传成功并显示证书的到期日期。
+   * +++ 适用于iOS的
 
-   >[!NOTE]
-   >
-   >在Adobe Campaign Standard中成功添加证书后，您将无法再重新更改设置，因为只能向MCPNS应用程序添加一个APNS平台（生产或沙盒）。
+     输入以下应用程序详细信息：
 
-   ![](assets/launch_8.png)
+      * **应用程序ID(iOS捆绑包ID)**：请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以了解有关捆绑包ID的更多信息。
+      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。
+      * **密钥ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以了解有关键ID的更多信息。
+      * **iOS团队ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以了解有关iOS团队ID的更多信息。
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ 适用于Android
+
+     输入以下应用程序详细信息：
+
+      * **应用程序ID（Android包名称）**：请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以了解有关包名称的详细信息。
+      * **Android密钥(Json)文件**：拖放您的.json私钥文件。
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. 上传证书后，将显示一条消息，通知您上传成功并显示证书的到期日期。
 
 1. 单击 **[!UICONTROL Mobile application subscribers]** 选项卡中查看订阅者的列表以及有关这些订阅者的其他信息，例如，他们是否选择退出您的通知。
 
