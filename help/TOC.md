@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Adobe Campaign Standard 的产品文档。
+user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
 source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
