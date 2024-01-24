@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 33%
+source-wordcount: '506'
+ht-degree: 27%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 33%
 </table>
 
 Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分段、活动执行、文件处理等在内的复杂流程。例如，您可以使用某个工作流从服务器下载文件、解压缩，然后将其记录导入 Adobe Campaign 数据库。
-
-工作流还可能会涉及用户，为他们分配任务或让他们批准已执行的任务。这意味着，您可以向一个或多个用户分配任务，以处理内容或指定目标，并在发送消息之前批准验证。
 
 工作流可以在不同的上下文中使用，例如：
 
