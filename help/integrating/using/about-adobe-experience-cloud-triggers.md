@@ -9,7 +9,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +30,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 **相关主题：**
 
-* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。
+* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)。
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
