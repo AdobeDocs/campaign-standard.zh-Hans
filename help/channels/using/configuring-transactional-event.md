@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ ht-degree: 3%
 
 您可以使用Adobe Campaign数据库中的信息扩充事务型消息内容，以便个性化消息。 例如，您可以从每个收件人的姓氏或CRM ID中恢复数据（如其地址或出生日期或任何其他在用户档案表中添加的自定义字段），以便个性化发送给他们的信息。
 
-可以使用扩展中的信息扩充事务型消息内容 **[!UICONTROL Profile and services Ext API]**. 有关更多信息，请参阅 [扩展API：发布扩展](../../developing/using/step-2--publish-the-extension.md)
+可以使用扩展中的信息扩充事务型消息内容 **[!UICONTROL Profile and services Ext API]**. 有关更多信息，请参阅 [扩展API：发布扩展](../../developing/using/step-2-publish-the-extension.md)
 
 此信息也可以存储在新资源中。 在这种情况下，资源必须链接到 **[!UICONTROL Profile]** 或 **[!UICONTROL Service]** 资源（直接或通过其他表）。 例如，在下面的配置中，可以使用来自的信息扩充事务型消息的内容。 **[!UICONTROL Product]** 产品类别或ID等资源，如果 **[!UICONTROL Product]** 资源链接到 **[!UICONTROL Profile]** 资源。
 

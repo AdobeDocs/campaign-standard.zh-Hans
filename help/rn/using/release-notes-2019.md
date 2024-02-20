@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * 更新了动态报告的同意弹出窗口，以包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受这些条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报表时，将包含配置文件数据。 [了解更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修复了在接收投放警报时显示错误联系日期的问题。
 * 现在，当使用未知上下文参数提交事务型消息事件时，Campaign会返回“400”错误消息，而不是“500”。 (CAMP-28632)
-* 新 **排除证据** 区段已添加到动态报告中。 默认情况下，现在选择该区段以筛选报表。 [了解更多信息](../../reporting/using/list-of-components-.md#segments)
+* 新 **排除证据** 区段已添加到动态报告中。 默认情况下，现在选择该区段以筛选报表。 [了解更多信息](../../reporting/using/list-of-components.md#segments)
 * 此 **消息过期** 选项已添加到推送通知。 它允许您指定到Apple (APNS)或Android (FCM)不再发送消息的截止日期。 [了解更多信息](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 改进了 **加载文件** 活动：工作流日志更清晰，更详细地说明了文件加载失败时发生的错误。 激活时生成的叫客过渡 **将拒绝项保存在文件中** 选项已重命名 **拒绝**. [了解更多信息](../../automating/using/load-file.md)
 * 已向发送日志添加多语言相关日志，以更好地了解由于上传的CSV文件中缺少语言导致的发送失败。
@@ -263,13 +263,13 @@ ht-degree: 8%
 
 ## 19.2.4版 — 2019年6月 {#release-19-2-4---june-2019}
 
-**电子邮件设计工具**
+**电子邮件设计器**
 
 * 修复了在HTML中使用空样式标记时阻止用户编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
 ## 19.2.3版 — 2019年6月 {#release-19-2-3---june-2019}
 
-**电子邮件设计工具**
+**电子邮件设计器**
 
 在19.2版本中引入了一系列改进和修复以优化片段。 新创建的片段将无缝工作。 之前构建的片段已灰显，需要迁移到新格式。 为此，请单击每个片段并验证其是否迁移到新格式。 我们建议您在迁移所有片段之前测试一些片段。
 
@@ -564,7 +564,7 @@ ht-degree: 8%
 * 增加了定义用户档案地址时可用的国家/地区列表。 (CAMP-26707)
 * 现在，尝试导入内置工作流时会显示错误消息。
 
-**电子邮件设计工具**
+**电子邮件设计器**
 
 * 修复了在电子邮件模板或使用Email Designer创建的内容片段上启用地理单位功能的问题，即使此功能在Adobe Campaign中被禁用，导致模板或片段在尝试再次访问时不可用。 (CAMP-28174)
 * 修复了在使用Email Designer编辑内容时阻止保存动态内容条件的问题。 (CAMP-27905)

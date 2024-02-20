@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ ht-degree: 2%
 
 |  | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
-| 美洲和APAC （亚太） | **可用功能**. <br>所有现成的（即城市、国家/地区、州、性别和年龄段）和自定义用户档案信息都推送到美国报告中心。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components-.md) | **可用功能**. <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign Standard事件字段都在美国数据中心进行处理。 |
-| EMEA（欧洲、中东和非洲） | **可用功能**. <br>所有现成（即城市、国家/地区、州、性别和年龄段）的信息以及推送到欧洲、中东和非洲地区报告中心的自定义用户档案信息。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components-.md) | **功能可用。** <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign Standard事件字段均在EMEA数据中心进行处理。 <br>**[!UICONTROL Control data]**，其中包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。 |
+| 美洲和APAC （亚太） | **可用功能**. <br>所有现成的（即城市、国家/地区、州、性别和年龄段）和自定义用户档案信息都推送到美国报告中心。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components.md) | **可用功能**. <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign Standard事件字段都在美国数据中心进行处理。 |
+| EMEA（欧洲、中东和非洲） | **可用功能**. <br>所有现成（即城市、国家/地区、州、性别和年龄段）的信息以及推送到欧洲、中东和非洲地区报告中心的自定义用户档案信息。 有关用户档案维度的更多信息，请参阅此 [页面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign Standard事件字段均在EMEA数据中心进行处理。 <br>**[!UICONTROL Control data]**，其中包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。 |
 
 下表根据您所在的地区显示拒绝此协议后发生的情况。 请注意，即使您拒绝此协议，也仍然可以提供有关投放和Microsoft Dynamics 365集成的报告。
 

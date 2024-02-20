@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
       + [报告界面](reporting/using/reporting-interface.md)
-      + [组件列表](reporting/using/list-of-components-.md)
+      + [组件列表](reporting/using/list-of-components.md)
       + [指标计算](reporting/using/indicator-calculation.md)
       + [故障排除](reporting/using/troubleshooting.md)
    + 报告列表 {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
       + [配置 Campaign-Experience Manager 集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
-      + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [通过 Adobe Experience Manager 集成创建多语言电子邮件](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 和 Target {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [更新数据库结构](developing/using/updating-the-database-structure.md)
       + [删除资源](developing/using/deleting-a-resource.md)
       + [使用复合标识关键码调用资源](developing/using/uc-calling-resource-id-key.md)
-   + 用例：扩展 API {#use-case--extending-the-api}
+   + 用例：扩展 API {#use-case-extending-the-api}
       + [关于扩展 API](developing/using/about-extending-the-api.md)
-      + [第 1 步：将扩展字段添加到用户档案资源](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [第 2 步：发布扩展](developing/using/step-2--publish-the-extension.md)
-      + [第 3 步：验证扩展](developing/using/step-3--verify-the-extension.md)
+      + [第 1 步：将扩展字段添加到用户档案资源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [第 2 步：发布扩展](developing/using/step-2-publish-the-extension.md)
+      + [第 3 步：验证扩展](developing/using/step-3-verify-the-extension.md)
    + 用例：扩展资源 {#use-cases--extending-resources}
       + [使用新字段扩展用户档案资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)

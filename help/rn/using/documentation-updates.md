@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 增加了使用案例，以更好地了解安全组和单位。[了解更多](../../administration/using/organizational-units.md)
 
-改进了动态报告中维度、指标和区段的定义和计算式。[了解更多](../../reporting/using/list-of-components-.md)
+改进了动态报告中维度、指标和区段的定义和计算式。[了解更多](../../reporting/using/list-of-components.md)
 
 添加了关于使用工作流检索传入短信消息的信息。[了解更多](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 **随版本提供的其他文档更新**
 
-详细列出了动态报告中可用的每个组件以及公式中的某些变化。[了解更多](../../reporting/using/list-of-components-.md)
+详细列出了动态报告中可用的每个组件以及公式中的某些变化。[了解更多](../../reporting/using/list-of-components.md)
 
 详细列出了与 Adobe Analytics 共享的 KPI 列表。[了解更多](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了报告指标计算表格。[了解更多](../../reporting/using/indicator-calculation.md)
 
-更新了报告文档，提供了四个新指标。[了解更多](../../reporting/using/list-of-components-.md)
+更新了报告文档，提供了四个新指标。[了解更多](../../reporting/using/list-of-components.md)
 
 添加了关于为用户档案生成唯一 ID 的文档。[了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
