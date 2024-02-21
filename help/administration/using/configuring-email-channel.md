@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 59%
+source-wordcount: '2714'
+ht-degree: 58%
 
 ---
 
@@ -25,11 +25,15 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
 * **授权的掩码字段**
 
-  **[!UICONTROL Header parameters of sent emails]** 部分列出了授权电子邮件地址，您可以使用这些地址向收件人发送电子邮件（发件人地址），并允许他们发回自动回复，如异步退件、“不在办公室”回复等（错误地址）。Adobe Campaign 会检查在消息准备阶段期间输入的地址是否有效。此操作模式可确保不使用可能触发可投放性问题的地址。
+  **[!UICONTROL Header parameters of sent emails]** 部分列出了授权电子邮件地址，您可以使用这些地址向收件人发送电子邮件（发件人地址），并允许他们发回自动回复，如异步退件、“不在办公室”回复等（错误地址）。
+
+  Adobe Campaign 会检查在消息准备阶段期间输入的地址是否有效。此操作模式可确保不使用可能触发可投放性问题的地址。
+
    * 发件人地址和错误地址均由 Adobe 设置。这些字段不能为空。
    * 您无法编辑这些字段。要更新地址，请与 Adobe 客户关怀团队联系。
    * 要添加其他地址，您可以使用 [营销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans) 以设置新子域，或联系Adobe客户关怀团队。 请注意，如果使用多个掩码，则它们之间用逗号分隔。
-   * 最好使用星形符号设置地址（如*@yourdomain.com）：这样即可使用任何以该子域名结尾的地址。
+   * 好的做法是使用星号设置地址，例如 **@yourdomain.com**：您可以使用任何以子域名结尾的地址。
+   * Campaign开箱即用，支持Google和Yahoo **一键式列表取消订阅** 功能。 请注意，如果修改自定义模板中的标头值，可能会破坏与Google/Yahoo的合规性 **一键式列表取消订阅**.
 
 * **可投放性**
 
@@ -275,7 +279,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Save SQL queries in the log]**：在准备阶段期间，使用此选项在日志中添加SQL查询日志。
 
-#### 验证设置 {#proof-settings}
+#### 校样设置 {#proof-settings}
 
 在此部分中，您可以配置要在验证消息的主题行中使用的默认前缀。 了解有关验证的更多信息，请参阅 [本节](../../sending/using/sending-proofs.md).
 
