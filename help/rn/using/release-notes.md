@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 6cf259751c39e3f9391641d192d018239f8399d4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 86%
+source-wordcount: '128'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 24.1 使用 HTTP v1 API 发送 Android 推送通知消�
 
 Adobe Campaign Standard 24.1 现在支持使用 p8 身份验证证书发送 iOS 推送通知。必须调整您的实施以激活这些更改。请参阅[此技术说明](../../administration/using/push-technote.md)以了解详情。
 
-从2024年2月19日开始，Campaign支持、开箱即用、Google和Yahoo **一键式列表取消订阅** 功能。 了解详情，请参阅 [页面](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+从2024年2月19日开始，Campaign支持、开箱即用、Google和Yahoo **一键式列表取消订阅** 功能。 请参阅[此页面](../../administration/using/configuring-email-channel.md#email-channel-parameters)以了解详情。
 
 
 ### 修复 {#e-rn-fixes}
