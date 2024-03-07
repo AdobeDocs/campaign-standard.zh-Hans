@@ -7,9 +7,9 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '563'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 3%
 * 分隔符：制表符或分号
 * 带有标题的第一行
 * 无字符串分隔符
-* 日期格式：YYYY/MM/DD HH:mm:SS
+* 日期格式： `YYYY/MM/DD HH:mm:SS`
 
 要导入的文件示例：
 

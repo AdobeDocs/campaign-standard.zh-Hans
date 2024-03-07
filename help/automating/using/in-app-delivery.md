@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ ht-degree: 39%
 
    * 目标维度应设置为 **[!UICONTROL mobileApp (mobileAppV5)]** 对于 **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 模板。
    * 目标维度应设置为 **[!UICONTROL profile (profile)]** 对于 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 模板。
-   * 目标维度应设置为 **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 对于 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 模板。
+   * 目标维度应设置为 **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** 对于 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 模板。
 
 1. 将 **[!UICONTROL In-App delivery]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
