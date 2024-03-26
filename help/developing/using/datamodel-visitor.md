@@ -39,7 +39,7 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>已创建</td>
-        <td>创建时间</td>
+        <td>已创建</td>
         <td>日期 </td>
         <td> </td>
     </tr>
@@ -182,7 +182,7 @@ ht-degree: 34%
     </tr>
 </table>
 
-## 筛选器
+## 过滤器
 
 按姓氏、名字或电子邮件(byText)</p>
 

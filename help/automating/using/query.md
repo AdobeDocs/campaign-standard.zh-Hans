@@ -28,7 +28,7 @@ ht-degree: 90%
 
 **相关主题：**
 
-* [查询样例](../../automating/using/query-samples.md)
+* [查询示例](../../automating/using/query-samples.md)
 * [使用案例：重定向工作流 — 向未打开者发送新投放](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 使用环境 {#context-of-use}

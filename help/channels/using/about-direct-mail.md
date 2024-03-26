@@ -40,7 +40,7 @@ Adobe Campaign 中的用户进程如下所示：
 
 * [用例：耦合电子邮件和直邮投放](../../automating/using/coupling-email-direct-mail.md)
 
-## 推荐 {#recommendations}
+## 推荐做法 {#recommendations}
 
 ### 直邮提供商 {#direct-mail-providers}
 

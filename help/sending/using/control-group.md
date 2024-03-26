@@ -1,6 +1,6 @@
 ---
-title: 在发送消息时添加控制组
-description: 了解在使用 Adobe Campaign Standard 定义消息的目标时如何添加控制组。
+title: 在发送消息时添加对照组
+description: 了解在使用 Adobe Campaign Standard 定义消息的目标时如何添加对照组。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,23 +18,23 @@ ht-degree: 95%
 
 # 添加对照组 {#adding-control-group}
 
-您可以使用控制组避免向部分受众发送消息，以便衡量活动的影响。
+您可以使用对照组避免向部分受众发送消息，以便衡量活动的影响。
 
-要在 Adobe Campaign 中执行此操作，请在定义投放目标时创建<b>控制组</b>。用户档案会随机、已筛选或未筛选或者根据条件添加到控制组中。
+要在 Adobe Campaign 中执行此操作，请在定义投放目标时创建<b>对照组</b>。用户档案会随机、已筛选或未筛选或者根据条件添加到对照组中。
 
-然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
+然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以对照组为目标。
 
 <!--The control group is built when the delivery is prepared.-->
 
 ## 概述 {#overview}
 
-可以从主目标随机提取和/或从特定群体中选择该控制组。因此，有两种主要方法可定义控制组：
+可以从主目标随机提取和/或从特定群体中选择该对照组。因此，有两种主要方法可定义对照组：
 * 从主目标&#x200B;**提取**&#x200B;大量用户档案。
 * 根据查询中定义的条件&#x200B;**排除**&#x200B;某些用户档案。
 
-在定义控制组时，可以同时使用这两种方法。
+在定义对照组时，可以同时使用这两种方法。
 
-在投放准备步骤中属于控制组的所有用户档案都将从主目标中删除。一旦发送消息，这些用户档案就将不会收到该消息。
+在投放准备步骤中属于对照组的所有用户档案都将从主目标中删除。一旦发送消息，这些用户档案就将不会收到该消息。
 
 ## 从目标群体提取 {#extraction-target-population}
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 
 * **[!UICONTROL Random sampling]**：在准备投放时，Adobe Campaign 将随机提取与百分比或与将设置为[大小限制](#size-limit)的最大数量对应的用户档案数。
 
-  例如，如果您随后在 **[!UICONTROL Limits]** 部分中将阈值设置为 10，则控制组将由从目标群体中随机选择的 10% 组成。<!--Change screenshot to match example)-->
+  例如，如果您随后在 **[!UICONTROL Limits]** 部分中将阈值设置为 10，则对照组将由从目标群体中随机选择的 10% 组成。<!--Change screenshot to match example)-->
 
   ![](assets/control-group-random-sampling.png)
 
@@ -60,11 +60,11 @@ ht-degree: 95%
    * 在 **[!UICONTROL Limits]** 部分中将 100 定义为阈值（请参阅[大小限制](#size-limit)）。
    * 保持选中 **[!UICONTROL Descending sort]** 选项。
 
-  因此，控制组将由 100 个最早的收件人组成。<!--Change screenshot to match example)-->
+  因此，对照组将由 100 个最早的收件人组成。<!--Change screenshot to match example)-->
 
   ![](assets/control-group-keep-first-records.png)
 
-  定义包含很少或频繁购买的用户档案的控制组，并将其行为与联系的收件人的行为进行比较可能很有趣。
+  定义包含很少或频繁购买的用户档案的对照组，并将其行为与联系的收件人的行为进行比较可能很有趣。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 95%
 
 ## 排除特定群体 {#excluding-specific-population}
 
-定义控制组的另一种方法是使用查询从目标中排除特定群体。
+定义对照组的另一种方法是使用查询从目标中排除特定群体。
 
 操作步骤：
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 
 ## 用例：设置控制组 {#control-group-example}
 
-下面是一个示例，其中显示如何使用下列两种方法定义控制组：从主目标提取用户档案和使用查询排除特定群体。
+下面是一个示例，其中显示如何使用下列两种方法定义对照组：从主目标提取用户档案和使用查询排除特定群体。
 
 1. 创建工作流.有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。双击活动并定义目标。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
@@ -149,9 +149,9 @@ ht-degree: 95%
 
 ## 比较结果 {#delivery-logs}
 
-现在您已发送投放，可以如何处理控制组？
+现在您已发送投放，可以如何处理对照组？
 
-您可以提取&#x200B;**发送日志**，以将未收到通信的控制组的行为方式与有效目标进行比较。您还可以使用投放日志&#x200B;**构建其他目标**。
+您可以提取&#x200B;**发送日志**，以将未收到通信的对照组的行为方式与有效目标进行比较。您还可以使用投放日志&#x200B;**构建其他目标**。
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ ht-degree: 95%
 
    ![](assets/control-group-delivery-target.png)
 
-然后，可以使用&#x200B;**提取文件**&#x200B;活动，跟以例如&#x200B;**传输文件**&#x200B;活动来导出日志数据。这样，您即可在自己的报告工具中与控制组相比较来分析有效目标上的活动的结果。有关导出日志的更多信息，请参阅[此部分](../../automating/using/exporting-logs.md)。
+然后，可以使用&#x200B;**提取文件**&#x200B;活动，跟以例如&#x200B;**传输文件**&#x200B;活动来导出日志数据。这样，您即可在自己的报告工具中与对照组相比较来分析有效目标上的活动的结果。有关导出日志的更多信息，请参阅[此部分](../../automating/using/exporting-logs.md)。
 
 ### 确定控制组目标 {#targeting-control-group}
 
@@ -232,7 +232,7 @@ ht-degree: 95%
 
 1. 单击 **[!UICONTROL Confirm]**.
 
-现在，可以将未收到第一条消息的用户档案设为目标，因为它们属于控制组，并向其发送另一封电子邮件。
+现在，可以将未收到第一条消息的用户档案设为目标，因为它们属于对照组，并向其发送另一封电子邮件。
 
 在同一工作流中，您还可以创建其他查询来将收到电子邮件的用户档案设为目标，并向其发送其他消息。
 

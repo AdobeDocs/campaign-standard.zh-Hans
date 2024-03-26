@@ -39,7 +39,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>创建时间</td>
+                  <td>已创建</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -153,7 +153,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>验证</td>
-                  <td>证明</td>
+                  <td>校样</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -213,7 +213,7 @@ ht-degree: 40%
                </tr>
             </table>
 
-## 筛选器
+## 过滤器
 
 按事件类型(byEventType)
 

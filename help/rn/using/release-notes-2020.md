@@ -29,12 +29,12 @@ ht-degree: 97%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>控制组</strong><br /> </th> 
+<th> <strong>对照组</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您现在可以使用<strong>控制组</strong>通过排除活动的一部分受众来衡量其影响。然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以控制组为目标。
+  <td> <p>您现在可以使用<strong>对照组</strong>通过排除活动的一部分受众来衡量其影响。然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以对照组为目标。
 </p>
 <p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">教程视频</a>。
 </p>

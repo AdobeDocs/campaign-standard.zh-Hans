@@ -27,7 +27,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>证明</td>
+                  <td>校样</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>
@@ -141,7 +141,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>创建时间</td>
+                  <td>已创建</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -582,7 +582,7 @@ ht-degree: 26%
                </tr>
             </table>
 
-## 筛选器
+## 过滤器
 
 按渠道类型(byChannel)
 

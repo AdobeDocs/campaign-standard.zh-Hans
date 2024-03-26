@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
 source-wordcount: '2729'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -294,7 +294,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >
   >高级用户可随时添加脚本以插入其他 SMTP 标头。此脚本的语法必须符合此内容类型的要求：没有未使用的空格，没有空行等。
 
-  从2024年6月1日开始，Google和Yahoo！ 要求发件人遵守 **一键式列表取消订阅**. Campaign现成支持此功能。
+  从 2024 年 6 月 1 日开始，Google 和 Yahoo! 要求发件人遵守 **一键式列表取消订阅**. Campaign现成支持此功能。
 
   >[!CAUTION]
   >

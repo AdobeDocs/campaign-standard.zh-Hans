@@ -48,6 +48,6 @@ ht-degree: 7%
 
 * [可投放性入门](../../sending/using/about-deliverability.md)
 
-* [开始使用消息](../../channels/using/get-started-communication-channels.md)
+* [消息入门](../../channels/using/get-started-communication-channels.md)
 
 * [隐私和同意建议](../../start/using/privacy.md)

@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>创建时间</td>
+                  <td>已创建</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -243,7 +243,7 @@ ht-degree: 35%
                </tr>
             </table>
 
-## 筛选器
+## 过滤器
 
 在指定期间可用（按Planning）
 

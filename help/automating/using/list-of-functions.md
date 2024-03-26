@@ -384,7 +384,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 其他 {#others}
+## 其他  {#others}
 
 此表包含剩余的可用函数。
 

@@ -160,7 +160,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 将为选取列表、枚举和布尔值提供一个下拉列表。 文本框将用于其他字符串和数字类型。
 
-### 筛选器 {#filters}
+### 过滤器 {#filters}
 
 使用 **[!UICONTROL Add New Filter]** 按钮选择将传播到Campaign的Microsoft Dynamics 365记录。 您可以选择与记录关联的任何字段以添加到过滤器（字段名称不需要添加到字段映射）。
 

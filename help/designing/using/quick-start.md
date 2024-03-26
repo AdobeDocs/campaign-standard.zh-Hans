@@ -1,5 +1,5 @@
 ---
-title: 开始使用电子邮件设计器
+title: 电子邮件设计器入门
 description: 开始使用Email Designer构建电子邮件内容。
 audience: designing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# 开始使用电子邮件设计器 {#quick-start}
+# 电子邮件设计器入门 {#quick-start}
 
 Email Designer提供了四种创建电子邮件的方式。
 

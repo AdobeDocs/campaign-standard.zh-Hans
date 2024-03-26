@@ -1,5 +1,5 @@
 ---
-title: 查询样例
+title: 查询示例
 description: 本节介绍使用查询活动时的用例。
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 ---
 
-# 查询样例 {#query-samples}
+# 查询示例 {#query-samples}
 
 本节介绍使用时的用例 **[!UICONTROL Query]** 活动。 有关如何使用 **[!UICONTROL Query]** 活动，请参阅 [本节](../../automating/using/query.md).
 

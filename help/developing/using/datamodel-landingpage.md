@@ -89,7 +89,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>已创建</td>
-         <td>创建时间</td>
+         <td>已创建</td>
          <td>日期 </td>
          <td> </td>
       </tr>
@@ -652,7 +652,7 @@ ht-degree: 7%
       </tr>
    </table>
 
-## 筛选器
+## 过滤器
 
 按逻辑状态(byLogicalStatus)
 

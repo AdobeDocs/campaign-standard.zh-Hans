@@ -29,7 +29,7 @@ ht-degree: 88%
 
 ## 技术工作流列表 {#list-of-technical-workflows}
 
-Adobe Campaign 中的技术工作流用于处理自触发的后台技术流程。
+Adobe Campaign 中的技术工作流用于处理自触发的背景技术流程。
 
 <table> 
  <tbody> 
