@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 作为Google持续努力改进其服务的一部分，旧版FCM API将在以下日期停用 **2024年6月20日**. 在中了解有关Firebase云消息HTTP协议的更多信息 [Google Firebase文档](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-从24.2版本开始，Adobe Campaign Standard支持使用HTTP v1 API发送Android推送通知消息。
+正在启动 [24.1版本](../../rn/using/release-notes.md)，Adobe Campaign Standard支持使用HTTP v1 API发送Android推送通知消息。
 
 ### 您是否受影响？ {#fcm-impact}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 #### 先决条件 {#fcm-transition-prerequisites}
 
-* 支持 **HTTP v1 AP** 模式已在24.1版本中添加。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 支持 **HTTP v1 API** 模式已在24.1版本中添加。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
 
 * 需要Android Firebase Admin SDK服务的帐户JSON文件才能将移动应用程序移动到HTTP v1。 了解如何在中获取此文件 [Google Firebase文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Adobe Campaign Standard支持基于令牌和基于证书的连接。 如果您�
 
 #### 先决条件 {#ios-transition-prerequisites}
 
-* 支持 **基于令牌的身份验证** 模式已在24.1版本中添加。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 支持 **基于令牌的身份验证** 已添加模式 [24.1版本](../../rn/using/release-notes.md). 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
 
 * 您需要APN身份验证令牌签名密钥来生成您的服务器使用的令牌。 您从Apple开发人员帐户请求此密钥，如中所述 [Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
