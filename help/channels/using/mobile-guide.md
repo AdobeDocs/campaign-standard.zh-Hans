@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 22%
@@ -225,7 +225,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
 
 ## 移动设备故障排除 {#mobile-troubleshooting}
 
-以下页面将帮助您解决在Adobe Campaign Classic中使用移动交付时出现的最常见问题。
+以下页面将帮助您解决在Adobe Campaign Standard中使用移动交付时出现的最常见问题。
 
 <table style="table-layout:fixed">
 <tr>

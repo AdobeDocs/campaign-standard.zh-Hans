@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 请参阅 [以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 以获取术语更改的综合参考。
+> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 请参阅 [以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} 以获取术语更改的综合参考。
 
 请注意，推送通知和应用程序内实施必须由专家用户执行。 要获取帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
@@ -39,6 +39,7 @@ ht-degree: 2%
    如果没有，请联系您的客户团队。
 
 1. 检查您的用户是否拥有Adobe Campaign Standard和Adobe Experience Platform中的标记的必要权限。
+
    * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航至Experience PlatformSDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
@@ -152,10 +153,10 @@ ht-degree: 2%
 
      输入以下应用程序详细信息：
 
-      * **应用程序ID(iOS捆绑包ID)**：请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以了解有关捆绑包ID的更多信息。
-      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的 [Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create).
-      * **密钥ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以了解有关键ID的更多信息。
-      * **iOS团队ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以了解有关iOS团队ID的更多信息。
+      * **应用程序ID(iOS捆绑包ID)**：请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} 以了解有关捆绑包ID的更多信息。
+      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的 [Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **密钥ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} 以了解有关键ID的更多信息。
+      * **iOS团队ID**：请参阅 [Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} 以了解有关iOS团队ID的更多信息。
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ ht-degree: 2%
 
      输入以下应用程序详细信息：
 
-      * **应用程序ID（Android包名称）**：请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以了解有关包名称的详细信息。
-      * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅 [Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **应用程序ID（Android包名称）**：请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} 以了解有关包名称的详细信息。
+      * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅 [Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
