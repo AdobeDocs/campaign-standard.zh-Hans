@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -336,7 +336,7 @@ ht-degree: 99%
 
 * SMPP 日志格式已得到改进。
 
-* 为Adobe Campaign Standard API匹配添加了cryptString和decryptString JS函数的可选参数。
+* 添加了 cryptString 和 decryptString JS 函数的可选参数，以匹配 Adobe Campaign Standard API。
 
 * 改进了投放准备日志中的警告或错误消息。
 
