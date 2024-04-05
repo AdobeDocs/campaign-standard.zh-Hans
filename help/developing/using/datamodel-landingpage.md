@@ -441,7 +441,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>state</td>
+         <td>状态</td>
          <td>状态</td>
          <td>枚举（字节） </td>
          <td>
@@ -662,7 +662,7 @@ ht-degree: 7%
     <th>类型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>状态</td>
     <td>明细列表</td>
     </tr>
 </table>
@@ -688,7 +688,7 @@ ht-degree: 7%
     <th>类型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>状态</td>
     <td>明细列表</td>
     </tr>
 </table>
