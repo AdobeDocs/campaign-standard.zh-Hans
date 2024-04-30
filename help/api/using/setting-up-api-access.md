@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 10%
+source-wordcount: '442'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,12 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 有关每�
 1. **创建与Adobe Campaign服务的新集成** 在 [Adobe Developer](https://developer.adobe.com/) 并进行配置。 随后将生成您的凭据（API密钥、客户端密钥……）。
 1. **创建JSON Web令牌(JWT)** 使用之前生成的凭据，并使用您的私钥签名。 JWT对Adobe验证您的身份并授予您访问API的权限所需的所有身份和安全信息进行编码。
 
-   >[!AVAILABILITY]
+   >[!IMPORTANT]
    >
-   >JWT（JSON Web 令牌）目前正在被逐步停用，它将被 OAuth 取代。此项转换工作将在 Campaign 的后续版本中逐步执行，会对文档进行更新以反映这些变化。
+   >JWT（JSON Web 令牌）目前正在被逐步停用，它将被 OAuth 取代。此过渡将在Campaign即将发布的版本中逐步执行。 服务帐户(JWT)凭据已标记为已弃用，在2025年1月27日之前将继续工作。 因此，您必须在2025年1月27日之前迁移应用程序或集成，才能使用新的OAuth服务器到服务器凭据。 首选OAuth身份验证。 您将在以下页面上找到要从JWT身份验证迁移到OAuth身份验证的所有元素：
+   >* [迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [实现](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [弃用JWT常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 1. **将JWT交换为访问令牌** 通过POST请求。 必须在API请求的每个标头中使用此访问令牌。
 
