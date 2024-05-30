@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Adobe Campaign投放的消息的内容和显示可以通过几种不同的方式
 >
 >标头参数不能为空。 发件人的地址是允许发送电子邮件的必备项（RFC标准）。 Adobe Campaign检查所输入电子邮件地址的语法。
 
-## 个性化URL{#personalizing-urls}
+## 个性化URL {#personalizing-urls}
 
 Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动态内容，来对消息中的一个或多个URL进行个性化。 操作步骤：
 
@@ -85,7 +85,7 @@ Adobe Campaign允许您通过向消息中添加个性化字段、内容块或动
 >
 >如果电子邮件是从工作流创建的，则在工作流中计算的附加数据也可在个性化字段中找到。 有关从工作流添加其他数据的更多信息，请参阅 [丰富数据](../../automating/using/about-targeting-activities.md#enriching-data) 部分。
 
-## 添加内容块{#adding-a-content-block}
+## 添加内容块 {#adding-a-content-block}
 
 Adobe Campaign提供了一个预配置内容块列表。 这些内容块是动态的、个性化的，并具有特定的呈现方式。 例如，您可以向镜像页面添加问候语或链接。
 
