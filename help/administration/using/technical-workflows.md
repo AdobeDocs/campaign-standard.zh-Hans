@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ Adobe Campaign 中的技术工作流用于处理自触发的背景技术流程�
   <tr> 
    <td> <span class="uicontrol">预测</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> 此工作流用于对存储在临时预测中的投放执行分析（创建临时日志）。默认情况下，此工作流于每日凌晨 1 点启动。<br /> </td> 
+   <td> 此工作流用于对存储在临时预测中的投放执行分析（创建临时日志）。默认情况下，此工作流于每日凌晨1点启动。 <br />
+   预测工作流是一种旧版工作流，现已在Campaign Standard中停止运行且不再运行。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">导入共享受众</span> <br /> </td> 
