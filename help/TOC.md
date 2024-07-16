@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Adobe Campaign Standard 文档 {#using}
 
 + [Campaign Standard 文档](campaign-standard-home.md)
-+ [最近更新](rn/using/documentation-updates.md)
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
-   + [早期发行说明](rn/using/e-release-notes.md)
    + 之前版本 {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
    + [跟踪的 URL 签名问题](rn/using/tracked-urls.md)
+   + [最新文档更新](rn/using/documentation-updates.md)
 + 快速入门 {#getting-started}
    + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + 了解界面 {#discovering-the-interface}

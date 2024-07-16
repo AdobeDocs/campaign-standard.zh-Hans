@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -51,20 +51,14 @@ Adobe Campaign 中的技术工作流用于处理自触发的背景技术流程�
   <tr> 
    <td> <span class="uicontrol">从投放模板复制标头</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> 此工作流会将为电子邮件投放模板设置的SMTP标头复制到相应的子非模板投放。 此工作流只会选取电子邮件营销投放。 SMTP标头将不会复制到事务性投放和验证投放。 <br> 此工作流不会定期运行。 必须由用户按使用情况启动。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 如果实例上存在大量投放，您可以更新 <strong>应用程序设置</strong>. 如果您更改了任何模板的SMTP标头，则需要在更改后再次执行工作流，以便将更正后的标头复制到非模板投放。<a href="data-retention.md#deliveries">了解详情</a>
+   <td> 此工作流会将为电子邮件投放模板设置的SMTP标头复制到相应的子非模板投放。 此工作流只会选取电子邮件营销投放。 SMTP标头将不会复制到事务性投放和验证投放。 <br>此工作流未定期运行。 必须由用户按使用情况启动。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br>如果您的实例上存在大量投放，则可以更新<strong>应用程序设置</strong>中的NmsCleanup_DeliveryPurgeDelay选项。 如果您更改了任何模板的SMTP标头，则需要在更改后再次执行工作流，以便将更正后的标头复制到非模板投放。<a href="data-retention.md#deliveries">了解详情</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">数据库清理</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> 此工作流是数据库维护工作流：它可根据已定义的配置运行各种统计和进程，并从数据库中删除过时的数据。默认情况下，此工作流于每日凌晨 4 点自动启动。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">预测</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> 此工作流用于对存储在临时预测中的投放执行分析（创建临时日志）。默认情况下，此工作流于每日凌晨1点启动。 <br />
-   预测工作流是一种旧版工作流，现已在Campaign Standard中停止运行且不再运行。</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">导入共享受众</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -108,8 +102,8 @@ Adobe Campaign 中的技术工作流用于处理自触发的背景技术流程�
   </tr>
   <tr> 
    <td> <span class="uicontrol">恢复跟踪日志</span> <br /> </td> 
-   <td> <span class="uicontrol">trackingLogRecover</span> <br /> </td> 
-   <td> 此工作流可恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并且仅限于Adobe内部使用。 <br> 默认情况下，每10分钟启动一次。<br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 此工作流可恢复丢失的跟踪日志。 请注意，此技术工作流用于特定上下文，并且仅限于Adobe内部使用。 <br>默认情况下，每10分钟启动一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新投放执行</span> <br/> </td> 

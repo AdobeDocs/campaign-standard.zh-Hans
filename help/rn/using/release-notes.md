@@ -1,22 +1,42 @@
 ---
-title: 最新版本
+title: 最新发行说明
 description: 此页面详细描述最新 Campaign Standard 版本的内容
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 79%
 
 ---
 
 
-# 最新版本{#latest-release}
+# 最新发行说明 {#latest-release}
 
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+
+
+## 早期发行说明 {#e-new-release}
+
+此部分列出了下一个Campaign Standard版本中包含的改进和更改。
+
+>[!CAUTION]
+>
+>在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。在[发行计划页面](../../rn/using/release-planning.md)中了解详情。
+
+**版本24.2 - 2024年夏季版本**
+
+* **发行日期**：2024年8月（限时发布） — [了解详情](../../rn/using/release-planning.md)。
+
+* **迁移到OAuth服务器到服务器凭据**
+
+  从此版本开始，随着 Adobe 弃用服务帐户 (JWT) 凭据，Campaign 与 Adobe 解决方案和应用程序的出站集成现在依赖于 OAuth 服务器到服务器凭据。出站集成时，Adobe 将从 JWT 迁移到 OAuth，例如 Campaign-Analytics 集成或 Experience Cloud Triggers 集成。
+
+  如果您已实施与Campaign的入站集成，并且正在使用[Campaign API](../../api/using/get-started-apis.md)，则必须迁移技术帐户，如[本文档](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}中所述。 现有服务帐户(JWT)凭据将于&#x200B;**2025年1月27日**&#x200B;停止工作。
+
 
 ## 24.1 版 - 2024 年冬季版 {#winter-24}
 

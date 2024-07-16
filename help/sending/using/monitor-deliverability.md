@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 9%
@@ -18,7 +18,8 @@ ht-degree: 9%
 
 # 监测可投放性{#monitor-deliverability}
 
-在下方，您将找到有关 **[!UICONTROL Delivery throughput]** 以及Adobe Campaign提供的各种监控工具。 以下是有关可投放性监测的其他准则：
+在下方，您将找到有关&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;报告以及Adobe Campaign提供的各种监视工具的详细信息。 以下是有关可投放性监测的其他准则：
+
 * 定期检查整个平台的投放吞吐量，验证其是否与原始设置一致。
 * 检查投放模板中是否正确设置了重试（重试期间为30分钟，重试次数超过20次）。
 * 定期验证退回邮箱是否可访问，以及帐户是否即将过期。
@@ -30,27 +31,27 @@ ht-degree: 9%
 
 此报表包含有关给定时段内整个平台的投放吞吐量以测量消息投放速度的信息。
 
-有关此内容的更多信息，请参阅 [投放吞吐量](../../reporting/using/delivery-throughput.md).
+有关此内容的详细信息，请参阅[投放吞吐量](../../reporting/using/delivery-throughput.md)。
 
 ![](assets/delivery_reports_1.png)
 
 您可以通过更改时间刻度来配置显示的值。
 
-还提供其他报表，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**. 有关此内容的更多信息，请参阅 [动态报告](../../reporting/using/about-dynamic-reports.md).
+其他报告可用，如&#x200B;**[!UICONTROL Delivery summary]**&#x200B;或&#x200B;**[!UICONTROL Non-deliverables and bounces]**。 有关此内容的详细信息，请参阅[动态报告](../../reporting/using/about-dynamic-reports.md)。
 
 ## 监控投放 {#monitoring-deliveries}
 
-通过消息仪表板，可访问投放日志： **[!UICONTROL Sending logs]**， **[!UICONTROL Exclusion logs]**， **[!UICONTROL Exclusion causes]**， **[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**. 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+消息仪表板允许您访问投放日志： **[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**&#x200B;和&#x200B;**[!UICONTROL Tracked URLs]**。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
-有关此内容的更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
+有关此内容的详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
 
 ![](assets/sending_delivery1.png)
 
 ## 接收警报 {#receiving-alerts}
 
-此 **[!UICONTROL Delivery alerting]** 功能是一个警报管理系统，通过它，一组用户可自动接收包含其投放执行信息的通知。
+**[!UICONTROL Delivery alerting]**&#x200B;功能是一个警报管理系统，它允许一组用户自动接收包含其投放执行信息的通知。
 
-有关此内容的更多信息，请参阅 [发生故障时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md).
+有关详细信息，请参阅[在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
 <!--## External tools (#external-tools)
 
