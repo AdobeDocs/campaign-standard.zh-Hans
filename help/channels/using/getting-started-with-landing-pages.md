@@ -120,7 +120,7 @@ ht-degree: 93%
 
 有关如何测试登陆页面的更多信息，请参阅[此章节](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 第5步 — 发布登陆页面 {#publish-the-landing-page}
+## 第5步 — Publish登陆页面 {#publish-the-landing-page}
 
 测试成功后，您可以使用仪表板操作栏中的 **[!UICONTROL Publish]** 按钮发布登陆页面。监视块可显示发布的进度和状态。
 
@@ -138,4 +138,4 @@ ht-degree: 93%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

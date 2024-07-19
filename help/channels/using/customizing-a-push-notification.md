@@ -42,9 +42,9 @@ ht-degree: 93%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。您可以将其设置为 **默认** 播放设备的默认声音。
+1. 如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。您可以将其设置为&#x200B;**默认**&#x200B;以播放设备的默认声音。
 
-   如果 **[!UICONTROL Play a sound]** 字段留空，将不播放任何声音。
+   如果&#x200B;**[!UICONTROL Play a sound]**&#x200B;字段留空，则不会播放任何声音。
 
 然后，用户只有在手机未静音时，才会收到推送通知和提示音。
 
@@ -113,7 +113,7 @@ ht-degree: 93%
 
 要向推送通知添加到期日期，请执行以下操作：
 
-1. 查看 **[!UICONTROL Expire message]** 选项：通过选择 **[!UICONTROL Expire message]** 选项，持续时间会自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
+1. 选中&#x200B;**[!UICONTROL Expire message]**&#x200B;选项：通过选择&#x200B;**[!UICONTROL Expire message]**&#x200B;选项，持续时间将自动设置为0。 如果不更改该值，APNS 和 FCM 将尝试立即发送消息。如果失败，将不会重新发送消息。
 
 1. 在 **[!UICONTROL Duration]** 字段中，选择推送通知的有效期。
 

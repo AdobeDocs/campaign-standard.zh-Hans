@@ -18,21 +18,21 @@ ht-degree: 4%
 
 # 生成个性化内容 {#build-personalized-content}
 
-在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数情况下，可能的错误与 [个性化](../../designing/using/personalization.md)，格式设置条件 [使用现有内容](../../designing/using/using-existing-content.md)  — 和 [转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)  — 和 [图像](../../designing/using/images.md).
+在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数时候，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容](../../designing/using/using-existing-content.md)时的格式设置[以及[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)和[图像](../../designing/using/images.md)有关。
 
 ## 优化个性化 {#optimize-personalization}
 
 为避免可能阻止您执行投放的常见问题并改善收件人体验，Adobe Campaign允许您个性化消息。
 
 您可以使用存储在Adobe Campaign数据库中的收件人数据，或通过跟踪、登陆页面、订阅等收集的数据。
-中介绍了个性化基础知识 [本节](../../designing/using/personalization.md).
+[本节](../../designing/using/personalization.md)中介绍了Personalization的基础知识。
 
 确保消息内容设计正确，以避免出现任何错误，这些错误通常与个性化相关。
 
 可以手动添加动态内容，以根据表达式编辑器中定义的条件向收件人显示不同的内容。 添加动态内容时，必须始终为不符合选定条件的收件人保留默认变体。
-有关动态内容的更多信息，请参阅 [本节](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+有关动态内容的更多信息，请参阅[此章节](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
-**提示**  — 使用不同的测试配置文件预览电子邮件，以确保已正确配置动态内容。
+**提示** — 使用不同的测试配置文件预览您的电子邮件，以确保您的动态内容已正确配置。
 
 ## 构建优化内容 {#optimize-content}
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 ### 主题行
 
-处理 [主题行](../../designing/using/subject-line.md) 要提高开放率，请执行以下操作：
+处理[主题行](../../designing/using/subject-line.md)以提高打开率：
 
 * 避免使用过长的主题。 最多使用50个字符
 
@@ -64,33 +64,33 @@ ht-degree: 4%
 
 ### 退订链接
 
-退订链接是必需的。 它必须可见且有效，并且表单必须有效。 了解退订链接准则 [在此部分中](../../designing/using/personalization.md#about-targeting-dimension).
+退订链接是必需的。 它必须可见且有效，并且表单必须有效。 在本节](../../designing/using/personalization.md#about-targeting-dimension)中了解退订链接准则[。
 
-默认情况下，在分析消息时，控件 [类型规则](../../sending/using/control-rules.md) 检查是否包含选择退出链接，如果缺少该链接，则生成警告。
+默认情况下，在分析消息时，控件[类型规则](../../sending/using/control-rules.md)会检查是否包含选择退出链接，如果缺少该链接，则会生成警告。
 
-**提示**：由于始终可能存在人为错误，因此请在每次发送前检查选择退出链接是否正常工作。 例如，在发送校样时，确保链接有效，表单处于联机状态且“不再联系此收件人”字段已更改为“是”。
+**提示**：由于人为错误始终存在，因此请在每次发送前检查选择退出链接是否正常工作。 例如，在发送校样时，确保链接有效，表单处于联机状态且“不再联系此收件人”字段已更改为“是”。
 
-了解如何插入选择退出链接 [在此部分中](../../designing/using/personalization.md#adding-a-content-block).
+了解如何在此部分](../../designing/using/personalization.md#adding-a-content-block)中插入选择退出链接[。
 
 ### 电子邮件大小 {#email-size}
 
-为了避免出现性能或可投放性问题，建议的最大电子邮件大小约为 **35KB**.
+为避免性能或可投放性问题，建议的最大电子邮件大小约为&#x200B;**35KB**。
 
 要将电子邮件保持在限制以内，请考虑以下事项：
 
 * 删除多余或未使用的样式
 
-* 将部分电子邮件内容移至 [登陆页面](../../channels/using/getting-started-with-landing-pages.md)
+* 将部分电子邮件内容移至[登陆页面](../../channels/using/getting-started-with-landing-pages.md)
 
 * 缩小代码
 
 确保在最终发送之前测试任何更改。
 
-在Adobe Campaign中，电子邮件的默认最大大小设置为 **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+在Adobe Campaign中，电子邮件的默认最大大小设置为&#x200B;**100MB**。<!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
-如果达到限制，则超出限制的消息将失败，并在投放日志中显示错误消息。 同一投放的其他消息将不受影响。 在这种情况下，您必须调整电子邮件模板的动态部分或投放使用的内容片段。 <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+如果达到限制，则超出限制的消息将失败，并在投放日志中显示错误消息。 同一投放的其他消息将不受影响。 在这种情况下，您必须调整电子邮件模板的动态部分或投放使用的内容片段。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UICONTROL Maximum message size]** 选项，通过 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜单，按 [功能管理员](../../administration/using/users-management.md#functional-administrators) 仅限。
+Adobe建议保留最大邮件大小默认值。 但是，此值只能由[功能管理员](../../administration/using/users-management.md#functional-administrators)通过&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;菜单在&#x200B;**[!UICONTROL Maximum message size]**&#x200B;选项中更改。
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UIC
 
 默认情况下，短信的字符数应符合GSM（全球移动通信系统）标准。 使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
 
-音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应的 **[!UICONTROL External account]**.
-了解详情 [在此部分中](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应&#x200B;**[!UICONTROL External account]**的SMPP渠道设置选项卡中的对应框来授权字符音译。
+在本节](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多[。
 
 **提示**：
 
@@ -109,7 +109,7 @@ Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UIC
 
 * 但是，如果短信消息包含许多GSM标准无法识别的字符，请启用音译以限制发送消息的成本。
 
-了解详情 [在此部分中](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+在本节](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多[。
 
 ### 响应式电子邮件设计
 
@@ -117,9 +117,9 @@ Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UIC
 
 * 使用响应式电子邮件HTML而不是WebHTML
 
-* 使用预览模式和发送校样以尽可能多的在设备上测试渲染。 了解如何 [预览消息](../../sending/using/previewing-messages.md) 发送之前。
+* 使用预览模式和发送校样以尽可能多的在设备上测试渲染。 了解如何在发送之前[预览消息](../../sending/using/previewing-messages.md)。
 
-* Campaign Email Designer提供了用于移动设备的响应式设计格式模板。 请参阅[此页面](../../designing/using/using-reusable-content.md#content-templates)以了解详情。
+* Campaign电子邮件Designer提供了用于移动设备的响应式设计格式模板。 请参阅[此页面](../../designing/using/using-reusable-content.md#content-templates)以了解详情。
 
 ## 管理图像 {#manage-images}
 
@@ -147,4 +147,4 @@ Adobe建议保留最大邮件大小默认值。 但是，此值可以在 **[!UIC
 
 Adobe建议预览您的消息以检查其个性化设置以及收件人如何看到您的投放。
 
-在Email designer中， **[!UICONTROL Preview]** 按钮允许您查看收件人的每个内容的呈现。 将内容的个性化字段和条件元素替换为所选用户档案的相应信息。 [了解详情](../../sending/using/previewing-messages.md)
+在Email Designer中，**[!UICONTROL Preview]**&#x200B;按钮允许您查看收件人的每个内容的呈现。 将内容的个性化字段和条件元素替换为所选用户档案的相应信息。 [了解详情](../../sending/using/previewing-messages.md)

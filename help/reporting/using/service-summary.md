@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # 服务摘要{#service-summary}
 
-此 **[!UICONTROL Service summary]** 详细介绍贵机构的服务订购和退订的发展。
-此报表只能通过高级菜单从“服务”页面访问 **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+**[!UICONTROL Service summary]**详细介绍了您服务的订阅和退订的演变。
+只能通过高级菜单**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;从“服务”页面访问此报告。 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 
-此 **[!UICONTROL Subscription evolution curves]** 可视化图表根据 **[!UICONTROL Period]** 在下拉栏中选择。
+**[!UICONTROL Subscription evolution curves]**&#x200B;可视化图表根据在下拉栏中选择的&#x200B;**[!UICONTROL Period]**&#x200B;详细列出了订阅和取消订阅的数量。
 
-此 **[!UICONTROL Overall subscription evolution]** 允许您查看订阅者在不同时间段的演变。
+**[!UICONTROL Overall subscription evolution]**&#x200B;允许您查看订阅者在不同时间段的演变。

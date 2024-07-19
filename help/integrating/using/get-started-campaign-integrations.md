@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 允许您在 Adobe Experience Manager 中直接创建映射到 Adobe Campaign 数据库的电子邮件内容或表单。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>， <a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>， <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">创建包含Experience Manager和促销活动的电子邮件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促销活动和Experience Manager</a>，<a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">创建包含Experience Manager和促销活动的电子邮件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 允许在打开由 Adobe Campaign 创建和发送的电子邮件时插入由 Adobe Target 动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>， <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">集成Campaign和Target</a>， <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a> 视频（步骤3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">集成Campaign和Target</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a>视频（步骤3）
     </td> 
   </tr> 
   <tr> 
@@ -102,11 +102,11 @@ ht-degree: 78%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 允许从 Dreamweaver 编辑电子邮件内容并将其与 Adobe Campaign 同步。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">使用Dreamweaver创建个性化电子邮件</a> 视频， <a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">为Dreamweaver使用Campaign扩展</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">使用Dreamweaver创建个性化电子邮件</a>视频，<a href="https://helpx.adobe.com/cn/dreamweaver/using/working-with-dreamweaver-and-campaign.html">为Dreamweaver使用Campaign扩展</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> ADOBE EXPERIENCE PLATFORM SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> 允许使用 Experience Platform SDK 在 Adobe Campaign 中自动执行移动应用程序属性激活过程。<br /> </td> 
    <td> <a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">使用 Experience Platform SDK 配置移动应用程序</a><br /> </td> 
   </tr> 

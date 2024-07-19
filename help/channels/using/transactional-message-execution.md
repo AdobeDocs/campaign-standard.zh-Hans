@@ -24,7 +24,7 @@ ht-degree: 61%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-An **执行投放** 是每月为每个事务型消息创建一次无法操作、无法正常工作的技术消息，并且每次编辑并再次发布事务型消息时都会如此。
+**执行投放**&#x200B;是每月为每个事务型消息创建一次且无法操作且无法正常使用的技术消息，每次编辑并再次发布事务型消息时都会创建。
 
 **相关主题**：
 * [发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ An **执行投放** 是每月为每个事务型消息创建一次无法操作、
 
 >[!NOTE]
 >
->将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放显示在 **[!UICONTROL Execution list]** 事务性消息发送日志的选项卡。
+>将事件分配给执行投放后，该执行投放的发送日志中会显示该事件，并且仅在此时显示。失败的投放显示在事务性消息发送日志的&#x200B;**[!UICONTROL Execution list]**&#x200B;选项卡中。
 
 ### 重试进程限制 {#limitations}
 
@@ -67,17 +67,17 @@ An **执行投放** 是每月为每个事务型消息创建一次无法操作、
 
 无法停止执行投放。但是，如果当前执行投放失败，则会在收到新事件后立即创建新执行投放，所有新事件都由此新执行投放进行处理。失败的执行投放不会处理任何新事件。
 
-如果某些已分配给执行投放的事件在重试过程中被延迟，并且该执行投放失败，则重试系统不会将延迟的事件分配给新的执行投放，这意味着这些事件丢失。 查看 [投放日志](#monitoring-transactional-message-delivery) 查看可能受影响的收件人。
+如果某些已分配给执行投放的事件在重试过程中被延迟，并且该执行投放失败，则重试系统不会将延迟的事件分配给新的执行投放，这意味着这些事件丢失。 检查[投放日志](#monitoring-transactional-message-delivery)以查看可能受影响的收件人。
 
 ## 监控事务性消息 {#monitoring-transactional-message-delivery}
 
-要监视事务型消息，您需要访问相应的 [执行投放](#transactional-message-execution-delivery).
+要监视事务性消息，您需要访问相应的[执行投放](#transactional-message-execution-delivery)。
 
 1. 要查看消息投放日志，请单击 **[!UICONTROL Deployment]** 块右下方的图标。
 
    ![](assets/message-center_access_logs.png)
 
-1. 单击 **[!UICONTROL Execution list]** 选项卡。
+1. 单击&#x200B;**[!UICONTROL Execution list]**&#x200B;选项卡。
 
    ![](assets/message-center_execution_tab.png)
 
@@ -85,11 +85,11 @@ An **执行投放** 是每月为每个事务型消息创建一次无法操作、
 
    ![](assets/message-center_execution_delivery.png)
 
-1. 再次单击 **[!UICONTROL Deployment]** 封锁。
+1. 再次单击&#x200B;**[!UICONTROL Deployment]**&#x200B;块右下方的图标。
 
    ![](assets/message-center_execution_access_logs.png)
 
-   对于每个执行投放，您可以像查看标准投放一样查看投放日志。 有关访问和使用日志的更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
+   对于每个执行投放，您可以像查看标准投放一样查看投放日志。 有关访问和使用日志的详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
 
 ### 基于用户档案的事务型消息特性 {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ An **执行投放** 是每月为每个事务型消息创建一次无法操作、
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-选择 **[!UICONTROL Exclusions logs]** 制表符，以查看已从消息目标中排除的收件人，例如在阻止列表时的地址。
+选择&#x200B;**[!UICONTROL Exclusions logs]**&#x200B;选项卡可查看已从消息目标中排除的收件人，例如在阻止列表时的地址。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

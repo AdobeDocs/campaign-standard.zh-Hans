@@ -23,7 +23,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->对多个外部SMS帐户使用相同的帐户和密码可能会导致帐户之间的冲突和重叠。 请参阅 [短信疑难解答页面](troubleshooting-sms.md#external-account-conflict).
+>对多个外部SMS帐户使用相同的帐户和密码可能会导致帐户之间的冲突和重叠。 请参阅[短信疑难解答页面](troubleshooting-sms.md#external-account-conflict)。
 
 默认提供外部帐户 **[!UICONTROL SMS routing via SMPP]**，但也可添加其他帐户。
 
@@ -329,15 +329,15 @@ CR：回车
 
 ![](assets/sms_options.png)
 
-从 **[!UICONTROL Advanced parameters]** 部分：
+从&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
 
-* 此 **[!UICONTROL Short code]** 用于向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的详细信息，请参阅 [本节](../../channels/using/managing-incoming-sms.md).
+* **[!UICONTROL Short code]**&#x200B;允许您向投放添加特定的短代码。 在准备消息时，将自动排除选择退出此特定短代码的收件人。 有关如何配置短代码的详细信息，请参阅[此部分](../../channels/using/managing-incoming-sms.md)。
 
   >[!NOTE]
   >
-  >如果 **[!UICONTROL Short code]** 字段留空，则值 **[!UICONTROL Short code]** 将使用外部帐户中设置的字段。
+  >如果&#x200B;**[!UICONTROL Short code]**&#x200B;字段留空，将使用在外部帐户中设置的&#x200B;**[!UICONTROL Short code]**&#x200B;字段的值。
 
-从 **[!UICONTROL Send]** 短信模板的区域：
+从短信模板的&#x200B;**[!UICONTROL Send]**&#x200B;部分：
 
 * 利用 **[!UICONTROL Maximum number of SMS per message]** 选项，可定义用于发送消息的短信消息数量。如果超出此数量，则不会发送消息。
 

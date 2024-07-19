@@ -47,9 +47,9 @@ ht-degree: 77%
 
    在编辑 **[!UICONTROL Condition]** 字段时，以下两个按钮有助于调用事件变量以及编辑组合变量和函数的表达式：
 
-   * ![](assets/extsignal_picker.png)：从工作流可用的所有变量中选择事件变量(请参阅 [此页面](../../automating/using/customizing-workflow-external-parameters.md))。
+   * ![](assets/extsignal_picker.png)：从工作流中可用的所有变量中选择事件变量（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
-     例如，您可以检查 [文件传输](../../automating/using/transfer-file.md) 使用 **[!UICONTROL filesCount]** 变量。
+     例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;变量检查[文件传输](../../automating/using/transfer-file.md)活动后的已下载文件数。
 
      ![](assets/wkf_test_activity_variables.png)
 

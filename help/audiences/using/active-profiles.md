@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # 使用中的用户档案{#active-profiles}
 
-您可以从以下位置访问活动用户档案的详细信息： **[!UICONTROL Customer metrics]** 报告。 此报表仅供Campaign功能管理员使用。 Adobe Campaign要访问此报表，请单击 [用户界面](../../start/using/interface-description.md#advanced-menu)，并浏览至 **[!UICONTROL Administration > Customer metrics]**.
+您可以从&#x200B;**[!UICONTROL Customer metrics]**&#x200B;报表访问活动用户档案详细信息。 此报表仅供Campaign功能管理员使用。 要访问此报告，请单击[用户界面](../../start/using/interface-description.md#advanced-menu)左上角的Adobe Campaign图标，然后浏览至&#x200B;**[!UICONTROL Administration > Customer metrics]**。
 
 ![](assets/audience_customer_metrics.png)
 
-此报告由以下人员每月生成 **[!UICONTROL Billing]** 技术工作流，并显示 **活动用户档案**. 在中了解有关技术工作流的更多信息 [此页面](../../administration/using/technical-workflows.md).
+该报告由&#x200B;**[!UICONTROL Billing]**&#x200B;技术工作流每月生成，并显示&#x200B;**活动用户档案**&#x200B;的数量。 在[此页面](../../administration/using/technical-workflows.md)中了解有关技术工作流的更多信息。
 
-“用户档案”是代表最终客户、潜在客户或潜在客户的信息记录。 考虑用户档案 **活动** 如果在过去12个月内通过任何渠道投放了Campaign，则表明其已定位。
+“用户档案”是代表最终客户、潜在客户或潜在客户的信息记录。 如果用户档案在过去12个月内通过任何渠道被Campaign投放定向，则将其视为&#x200B;**活动**。
 
 根据您的合同，您的每个Campaign实例都会配置特定数量的活动用户档案。 请参阅您的许可协议，了解已购买的活动用户档案数量。
 
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 * 此报告只提供信息，对账单没有直接影响。
 
-在页面底部，列出定向维度以及每个维度的用户档案数。 事务性消息的接收者关联到 **匿名** 维度。
+在页面底部，列出定向维度以及每个维度的用户档案数。 事务性消息的收件人与&#x200B;**匿名**&#x200B;维度相关联。
 
 >[!NOTE]
 >
->作为管理员用户，您还可以直接从控制面板监控实例中使用的活动用户档案数。 有关详细信息，请参见 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>作为管理员用户，您还可以直接从控制面板监控实例中使用的活动用户档案数。 有关详细信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 >

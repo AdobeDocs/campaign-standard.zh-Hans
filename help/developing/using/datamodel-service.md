@@ -39,7 +39,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -141,7 +141,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>修改者</td>
+                  <td>修改人</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -195,7 +195,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>targetresource</td>
-                  <td>定位维度</td>
+                  <td>目标选择维度</td>
                   <td>字符串(255)</td>
                   <td> </td>
                </tr>

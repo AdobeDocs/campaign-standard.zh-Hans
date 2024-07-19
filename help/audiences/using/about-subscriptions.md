@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 关于订阅{#about-subscriptions}
 
-使用Adobe Campaign通过一组产品创建和管理新闻通讯和跨渠道通信 **服务**：消息仅发送给订阅了服务（选择加入）的用户档案。 创建消息时，会使用专用过滤器标识这些用户档案。
+使用Adobe Campaign通过一组&#x200B;**服务**&#x200B;创建和管理新闻稿和跨渠道通信：消息仅发送给订阅该服务（选择加入）的用户档案。 创建消息时，会使用专用过滤器标识这些用户档案。
 
 可以设置订阅机制为客户提供订阅这些服务的机会，尤其是通过&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**。
 
@@ -30,10 +30,10 @@ ht-degree: 40%
 
 请按照以下步骤创建订阅机制：
 
-1. **创建服务**  — 按照所述的步骤操作 [在此部分中](../../audiences/using/creating-a-service.md) 创建订阅服务
-1. **共享链接**  — 了解如何推广和共享您的服务 [本页内容](../../audiences/using/promoting-a-service.md)
-1. **监测订阅**  — 发现几种监测服务订阅的方法 [在此部分中](../../audiences/using/monitoring-subscriptions.md)
-1. **确认订阅**  — 关注 [本教程](../../audiences/using/confirming-subscription-to-a-service.md) 发送订阅确认消息
+1. **创建服务** — 按照此部分](../../audiences/using/creating-a-service.md)中描述的步骤[创建订阅服务
+1. **共享链接** — 在此页面中了解如何推广和共享您的服务[](../../audiences/using/promoting-a-service.md)
+1. **监测订阅** — 在此部分](../../audiences/using/monitoring-subscriptions.md)中探索几种监测您的服务订阅[的方法
+1. **确认订阅** — 按照[本教程](../../audiences/using/confirming-subscription-to-a-service.md)发送订阅确认消息
 
 ## 其他资源
 

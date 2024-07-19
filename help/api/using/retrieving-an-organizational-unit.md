@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 检索用户档案的组织实体 {#retrieving-organizational-units}
 
-1. 对配置文件密钥执行GET请求以检索 **orgUnit** URL。
+1. 对配置文件PKey执行GET请求以检索&#x200B;**orgUnit** URL。
 1. 对URL执行GET请求以检索有关组织单位的更多详细信息。
 
 <br/>

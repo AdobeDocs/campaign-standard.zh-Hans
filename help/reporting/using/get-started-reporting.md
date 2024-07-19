@@ -32,9 +32,9 @@ ht-degree: 14%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用动态报告 **拖放界面**，您可以浏览数据，确定电子邮件营销活动如何针对最重要的客户细分执行，并从单一位置衡量其对收件人的影响。
+通过动态报告&#x200B;**拖放界面**，您可以浏览数据，确定电子邮件促销活动针对最重要的客户细分执行情况，并从单一位置衡量其对收件人的影响。
 
-**管理您的动态报告** 借助各种功能：实时刷新数据、打印报告或将其导出为CSV文件。 您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
+**借助多种功能管理您的动态报告**：实时刷新数据、打印报告或将其导出为CSV文件。 您还可以通过一次性或定期电子邮件与Campaign Standard用户共享您的报表。
 
 了解更多：
 
@@ -45,9 +45,9 @@ ht-degree: 14%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard随附了一组 **现成可用的动态报告** 允许您从多个方面衡量营销活动：跳出次数、被宣布为垃圾邮件或垃圾邮件最多的投放、收件人查看的投放次数最多、与渠道相关的报表、投放吞吐量和跟踪报表……
+Campaign Standard提供了一组&#x200B;**随时可用的动态报表**，可让您从多个方面衡量营销活动：退件、被宣布为垃圾邮件或垃圾邮件最多的投放、收件人查看次数最多的投放、与渠道相关的报表、投放吞吐量和跟踪报表……
 
-**组合不同的组件** （维度、量度和区段、时间段）以构建您自己的报表或个性化现成报表。
+**组合不同的组件**（维度、量度和区段、时间段）以构建您自己的报表或个性化现成报表。
 
 了解更多：
 
@@ -59,11 +59,11 @@ Campaign Standard随附了一组 **现成可用的动态报告** 允许您从多
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**自定义您的报表** 利用动态报告设计功能：根据需要添加任意数量的组件（面板和自由格式表），使用可用的量度和维度分析数据。
+**利用动态报表设计功能自定义您的报表**：根据需要添加任意数量的组件（面板和自由格式表），以便使用可用的量度和维度分析您的数据。
 
-拖放 **可视化项** 以向报表中添加数据的图形表示形式，并根据需要进行配置。
+拖放&#x200B;**可视化项**&#x200B;以向报表中添加数据的图形表示形式，并根据需要配置它们。
 
-创建报告依据 **自定义配置文件数据** 在Profile资源扩展期间创建，并且 **基于区段的报表** 在定位工作流中定义。
+基于在配置文件资源扩展期间创建的&#x200B;**自定义配置文件数据**&#x200B;创建报告，以及基于定位工作流中定义的区段&#x200B;**创建报告。**
 
 了解更多：
 
@@ -84,4 +84,4 @@ Campaign Standard随附了一组 **现成可用的动态报告** 允许您从多
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

@@ -45,7 +45,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -120,7 +120,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>修改者</td>
+                  <td>修改人</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>

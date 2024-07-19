@@ -22,7 +22,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->仅功能 [管理员](../../administration/using/users-management.md#functional-administrators)，替换为 **[!UICONTROL Administration]** 角色和访问权限 **全部** 单位可访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位的功能[管理员](../../administration/using/users-management.md#functional-administrators)才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
 * **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
   ![](assets/sending_delivery2.png)
 
-* **作业日志**：可以通过选择，从消息仪表板访问由投放触发的批量作业列表 **[!UICONTROL Job history]** 从 **[!UICONTROL Summary]** 下拉列表。
+* **作业日志**：通过从&#x200B;**[!UICONTROL Summary]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Job history]**，可从消息仪表板访问投放触发的批处理作业列表。
 
-  从列表中选择任意作业以查看所选作业的详细信息 **[!UICONTROL Batch job]**.
+  从列表中选择任何作业以查看选定&#x200B;**[!UICONTROL Batch job]**&#x200B;的详细信息。
 
   ![](assets/sending_delivery8.png)
 

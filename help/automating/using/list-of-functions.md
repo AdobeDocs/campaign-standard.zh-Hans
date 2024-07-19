@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->所有活动中都提供了其他函数，通过该函数，可在使用外部参数调用工作流后使用事件变量。 有关详情，请参阅 [本节](../../automating/using/customizing-workflow-external-parameters.md).
+>所有活动中都提供了其他函数，通过该函数，可在使用外部参数调用工作流后使用事件变量。 在[此部分](../../automating/using/customizing-workflow-external-parameters.md)中详细介绍了这些术语。
 
 ## 日期 {#dates}
 
@@ -220,7 +220,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 将字符串转换为日期+时区。<br /> 示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00”、“亚洲/德黑兰”)<br /> </td> 
+   <td> 将字符串转换为日期+时区。<br />示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 数值 {#numerical}
+##  数值 {#numerical}
 
 数值函数用于将文本转换为数字。
 
@@ -657,7 +657,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用 AES 算法（CBC 块模式），用密钥（第 2 个参数）和初始化矢量（第 3 个参数）对字符串（第 1 个参数）进行加密。密钥和初始化矢量必须以十六进制表示形式提供（以 <strong>\x</strong> 开头）。结果将以十六进制表示，但不带 <strong>\x</strong>。<br />请注意，密钥大小可以是 128 位、192 位、256 位（16、24、32 个十六进制字符），但建议您使用 256 位和与密钥长度相同的随机 IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /> 例如：encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>“， ”<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br />例如：encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>"， "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -706,9 +706,9 @@ ht-degree: 95%
    <td> Min(&lt;值&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>字符串聚合</strong>，字符串聚合<br /> </td>
-   <td> 返回字符串类型列的值的连接，由第二个参数中的字符分隔（默认分隔符为逗号）。<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;，&lt;separator&gt;)
+   <td> <strong>StringAgg</strong>，字符串聚合<br /> </td>
+   <td> 返回字符串类型列的值的串联，由第二个参数中的字符分隔（默认分隔符为逗号）。<br /> </td>
+   <td> StringAgg（&lt;字符串值&gt;，&lt;分隔符&gt;）
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

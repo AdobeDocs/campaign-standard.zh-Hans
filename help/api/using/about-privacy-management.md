@@ -23,8 +23,8 @@ Campaign StandardAPI提供了一些功能，允许自动处理与GDPR和CCPA等�
 * 检索隐私数据文件，
 * 管理配置文件的CCPA选择退出状态。
 
-隐私API端点为 **/privacy/privacyTool**. PrivacyTool资源描述和关联的过滤器在资源元数据中可用。 请参阅 [元数据机制](../../api/using/metadata-mechanism.md).
+隐私API终结点为&#x200B;**/privacy/privacyTool**。 PrivacyTool资源描述和关联的过滤器在资源元数据中可用。 请参阅[元数据机制](../../api/using/metadata-mechanism.md)。
 
-CCPA选择退出可通过以下方式管理 **ccpapoptout** 配置文件属性。
+使用&#x200B;**ccpaOptOut**&#x200B;配置文件属性管理CCPA选择退出。
 
-有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅 [专用文档](../../start/using/privacy-requests.md).
+有关Adobe Campaign Standard和隐私合规性的更多信息，请参阅[专用文档](../../start/using/privacy-requests.md)。

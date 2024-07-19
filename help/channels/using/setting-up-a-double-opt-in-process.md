@@ -27,7 +27,7 @@ ht-degree: 86%
 
 要设置此功能，您需要：
 
-1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登陆页面的访客将存储在数据库中，但会添加到阻止列表中，以免在最终验证之前收到任何通信(请参阅 [Campaign中的阻止列表管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
+1. 创建并发布登陆页面，以便访客注册和订阅。此登陆页面可从网站获取。填写并提交此登陆页面的访客将存储在数据库中，但会添加到阻止列表 列入阻止列表，以便在最终验证之前不会收到任何通信（请参阅Campaign中的[验证管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)）。
 1. 自动创建并发送带确认链接的选择加入电子邮件。此电子邮件将定向提交登陆页面的群体。该电子邮件将基于允许定向“选择退出”用户档案的电子邮件模板。
 1. 重定向至确认登陆页面。此最终登陆页面将提供一个确认按钮：访客必须单击该按钮。您可以设计一封欢迎电子邮件，在确认完成后发送，例如，在电子邮件中为新收件人提供特殊优惠。
 
@@ -101,7 +101,7 @@ ht-degree: 86%
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 并单击 **[!UICONTROL Typologies]**。
 1. 复制现成的分类&#x200B;**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 确认复制后，编辑新的分类并输入标签 **TYPOLOGY_PROFILE**。
-1. 删除 **在阻止列表时的地址** 规则。
+1. 删除阻止列表&#x200B;**上的**&#x200B;地址。
 1. 单击 **[!UICONTROL Save]**。
 
 现在，可将此分类与确认电子邮件关联。

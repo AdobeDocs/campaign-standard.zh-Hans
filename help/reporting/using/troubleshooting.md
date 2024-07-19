@@ -35,27 +35,27 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
  <thead> 
   <tr> 
    <th align="center"> <strong>天</strong> <br /> </th> 
-   <th align="center"> <strong>打开次数</strong> <br /> </th> 
-   <th align="center"> <strong>独特打开次数</strong> <br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
+   <th align="center"> <strong>唯一打开次数</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> 第1天<br /> </td> 
+   <td align="center"> 第1<br />天 </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> 第2天<br /> </td> 
+   <td align="center"> 第2<br />天 </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-要了解唯一打开的总数，我们需要将 **[!UICONTROL Unique Opens]** 这就会得到值3。 但由于电子邮件仅针对2个用户档案，因此打开率应显示150%。
+为了了解唯一打开的总数，我们需要汇总&#x200B;**[!UICONTROL Unique Opens]**&#x200B;的行计数，这为我们提供了值3。 但由于电子邮件仅针对2个用户档案，因此打开率应显示150%。
 
-要获得不高于100的百分比，应将 **[!UICONTROL Unique Opens]** 维护为打开的唯一broadlog数。 在这种情况下，即使P1在第1天和第2天打开了电子邮件，其唯一打开次数仍将为1。
+为了获得高于100的百分比，将&#x200B;**[!UICONTROL Unique Opens]**&#x200B;的定义保留为已打开的唯一broadlog数。 在这种情况下，即使P1在第1天和第2天打开了电子邮件，其唯一打开次数仍将为1。
 
 这将生成下表：
 
@@ -63,23 +63,23 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
-   <th align="center"> <strong>打开次数</strong> <br /> </th> 
-   <th align="center"> <strong>独特打开次数</strong> <br /> </th> 
+   <th align="center"> <strong>打开</strong> <br /> </th> 
+   <th align="center"> <strong>唯一打开次数</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong> 天 </strong><br /> </td> 
+   <td align="center"> <strong>天</strong><br /> </td> 
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> 第1天<br /> </td> 
+   <td align="center"> 第1<br />天 </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> 第2天<br /> </td> 
+   <td align="center"> 第2<br />天 </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
@@ -92,13 +92,13 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
 ## 打开计数与数据库计数不匹配 {#open-counts-no-match-database}
 
-这可能是因为，动态报告中使用启发式来跟踪打开次数，即使我们无法跟踪 **[!UICONTROL Open]** 操作。
+这可能是因为，即使我们无法跟踪&#x200B;**[!UICONTROL Open]**&#x200B;操作，动态报告中也会使用启发式来跟踪打开数。
 
-例如，如果用户在其客户端上禁用了图像并单击了电子邮件中的链接，则 **[!UICONTROL Open]** 不能由数据库跟踪，但 **[!UICONTROL Click]** 威尔。
+例如，如果用户在其客户端上禁用了图像并单击了电子邮件中的链接，则数据库可能不会跟踪&#x200B;**[!UICONTROL Open]**，但&#x200B;**[!UICONTROL Click]**&#x200B;将会跟踪。
 
-因此， **[!UICONTROL Open]** 跟踪日志计数在数据库中可能没有相同的计数。
+因此，**[!UICONTROL Open]**&#x200B;跟踪日志计数在数据库中可能具有不同的计数。
 
-此类发生次数将添加为 **“电子邮件点击表示电子邮件已打开”**.
+将此类事件添加为&#x200B;**“电子邮件点击意味着电子邮件打开”**。
 
 >[!NOTE]
 >
@@ -107,9 +107,9 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 ## 如何计算定期/事务投放的计数？ {#counts-recurring-deliveries}
 
 处理循环和事务型投放时，这些计数将同时归属于父投放和子投放。
-我们以名为的定期投放为例 **R1** 设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
-假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放将显示 **[!UICONTROL Open]** 每次都计为1。
-但是，由于同一人单击了所有投放，因此父定期投放也将具有 **[!UICONTROL Unique open]** as 1.
+我们以名为**R1**的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
+假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放会分别将**[!UICONTROL Open]**计数显示为1。
+但是，由于同一人单击了所有投放，因此父定期投放也将**[!UICONTROL Unique open]**&#x200B;作为1。
 
 报表应如下所示：
 
@@ -117,10 +117,10 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
  <thead> 
   <tr> 
    <th align="center"> <strong>投放</strong> <br /> </th> 
-   <th align="center"> <strong>已发送</strong> <br /> </th> 
+   <th align="center"> <strong>已发送</strong><br /> </th> 
    <th align="center"> <strong>已投放</strong> <br /> </th>
-   <th align="center"> <strong>打开次数</strong> <br /> </th> 
-   <th align="center"> <strong>独特打开次数</strong> <br /> </th>
+   <th align="center"> <strong>打开</strong> <br /> </th> 
+   <th align="center"> <strong>唯一打开次数</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -163,9 +163,9 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
 ![](assets/troubleshooting_1.png)
 
-如果您更改 **[!UICONTROL Conditional formatting]** 对于自定义，当值达到上限时，单元格将变得更加绿色。 反之，如果达到下限，就会变红。
+如果将&#x200B;**[!UICONTROL Conditional formatting]**&#x200B;更改为自定义，当该值达到上限时，单元格将变得更加绿色。 反之，如果达到下限，就会变红。
 
-例如，在此，我们设置 **[!UICONTROL Upper limit]** 到500和 **[!UICONTROL Lower limit]** 到0。
+例如，在此，我们将&#x200B;**[!UICONTROL Upper limit]**&#x200B;设置为500，将&#x200B;**[!UICONTROL Lower limit]**&#x200B;设置为0。
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
 ![](assets/troubleshooting_3.png)
 
-值 **不适用** 有时可能出现在动态报告中。 原因有三：
+值&#x200B;**N/A**&#x200B;有时可能出现在您的动态报告中。 原因有三：
 
-* 投放已被删除，此处显示为 **不适用** 不会导致结果不一致。
-* 拖放 **[!UICONTROL Transactional Delivery]** 维度，值 **不适用** 可能会显示为一个结果。 发生这种情况的原因是，动态报告会获取每个投放，即使它们不是事务型投放。 拖放 **[!UICONTROL Delivery]** 维度，但在本例中， **不适用** 值将表示事务性投放。
-* 将维度与不与该维度相关的量度一起使用时。 在以下示例中，添加划分时包含 **[!UICONTROL Tracking URL]** 维度，即使 **[!UICONTROL Click]** 在此投放中，计数设置为0。
+* 该投放已被删除，此处显示为&#x200B;**N/A**，以免导致结果不一致。
+* 将&#x200B;**[!UICONTROL Transactional Delivery]**&#x200B;维度拖放到报表中时，可能会显示值&#x200B;**N/A**。 发生这种情况的原因是，动态报告会获取每个投放，即使它们不是事务型投放。 将&#x200B;**[!UICONTROL Delivery]**&#x200B;维度拖放到报表中时也会发生这种情况，但在这种情况下，**N/A**&#x200B;值将表示事务性投放。
+* 将维度与不与该维度相关的量度一起使用时。 在以下示例中，即使在此投放中将&#x200B;**[!UICONTROL Click]**&#x200B;计数设置为0，也会使用&#x200B;**[!UICONTROL Tracking URL]**&#x200B;维度添加细分。
 
   ![](assets/troubleshooting_4.png)
 
@@ -195,7 +195,7 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
 在以下情况下，列标题编号和所有行的总和之间应存在差异：
 
-* **独特量度**：使用唯一量度可能会更改标头中显示的总计数，因为它基于收件人ID，而不是简单的行计数总和。 因此，单个配置文件可能会触发跨不同维度的多个事件，从而导致数据集中出现多行。 但是，在标题中，每个用户档案仅计数一次。
+* **唯一量度**：使用唯一量度可能会更改标头中显示的总计数，因为它基于收件人ID，而不是简单的行计数总和。 因此，单个配置文件可能会触发跨不同维度的多个事件，从而导致数据集中出现多行。 但是，在标题中，每个用户档案仅计数一次。
 
   例如：
 
@@ -203,7 +203,7 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
    * 如果个人资料A在同一天点击电子邮件中的三个不同链接，则按跟踪URL划分的将在三行中显示A，但在标题中，A将被计为1。 这同样适用于按设备和浏览器进行的划分。
 
-* **打开量度**：打开次数计数通过汇总实际打开事件和独特点击事件总数（按收件人ID）确定，不包括由于没有打开事件无法点击电子邮件链接而未发生打开事件的情况。
+* **打开量度**：打开次数计数是通过汇总实际打开事件和独特点击事件（按收件人ID）的总计来确定的，不包括由于没有打开事件无法点击电子邮件链接而未发生打开事件的情况。
 
   例如：
 
@@ -211,4 +211,4 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
    * 用户档案R在第1天打开电子邮件，注册打开事件，然后单击链接。 在接下来的两天中， R会重新打开电子邮件并再次单击链接，从而每天生成一次点击事件。 虽然R的参与每天在Open编号中进行跟踪，但R在列标题中仅计数一次，侧重于唯一参与。
 
-* **否定事件**：在报表中，失效事件是指最初标记为成功，但在重试后最终失败的投放尝试。 这些值由计数–1表示。 为避免混淆，这些负数会从显示的投放量度数字中排除。 因此，投放量度的所有行总数可能与列标题数字不匹配。
+* **否定事件**：在报表中，否定事件表示最初标记为成功但在重试后最终失败的投放尝试。 这些值由计数–1表示。 为避免混淆，这些负数会从显示的投放量度数字中排除。 因此，投放量度的所有行总数可能与列标题数字不匹配。

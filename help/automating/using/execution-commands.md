@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 执行命令 {#execution-commands}
 
-利用操作栏中的图标，可启动、跟踪和修改工作流的执行。 请参阅 [操作栏](../../automating/using/workflow-interface.md#action-bar).
+利用操作栏中的图标，可启动、跟踪和修改工作流的执行。 查看[操作栏](../../automating/using/workflow-interface.md#action-bar)。
 
 ![](assets/wkf_execution_2.png)
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 **开始**
 
-此 ![](assets/play_darkgrey-24px.png) 按钮开始执行工作流，然后该工作流将 **进行中** （蓝色）状态。 如果工作流已暂停，则会恢复它，否则会启动它并激活初始活动。
+![](assets/play_darkgrey-24px.png)按钮开始执行工作流，然后工作流会显示&#x200B;**正在进行** （蓝色）状态。 如果工作流已暂停，则会恢复它，否则会启动它并激活初始活动。
 
 >[!NOTE]
 >
@@ -34,33 +34,33 @@ ht-degree: 1%
 
 **暂停**
 
-此 ![](assets/pause_darkgrey-24px.png) 按钮可暂停执行。 工作流将承受 **警告** （黄色）状态。 在恢复之前，不会激活任何新活动，但不会暂停正在进行的操作。
+![](assets/pause_darkgrey-24px.png)按钮会暂停执行。 工作流具有&#x200B;**警告** （黄色）状态。 在恢复之前，不会激活任何新活动，但不会暂停正在进行的操作。
 
 **停止**
 
-此 ![](assets/stop_darkgrey-24px.png) 按钮停止正在执行的工作流，随后该工作流将 **已完成** （绿色）状态。 如果可能，正在进行的操作会被中断，并且会立即取消导入或正在进行的SQL查询。 您不能从工作流停止的位置恢复工作流。
+“![](assets/stop_darkgrey-24px.png)”按钮停止正在执行的工作流，该工作流随后将呈现&#x200B;**已完成** （绿色）状态。 如果可能，正在进行的操作会被中断，并且会立即取消导入或正在进行的SQL查询。 您不能从工作流停止的位置恢复工作流。
 
 **重新启动**
 
-此 ![](assets/pauseplay_darkgrey-24px.png) 按钮涉及停止，然后重新启动工作流。 在大多数情况下，这允许您更快地重新启动。 如果停止操作需要花费一定的时间，则自动重新启动也会很有用，因为 ![](assets/play_darkgrey-24px.png) 仅当停止生效时，按钮才可用。
+![](assets/pauseplay_darkgrey-24px.png)按钮涉及停止，然后重新启动工作流。 在大多数情况下，这允许您更快地重新启动。 如果停止操作需要花费一定的时间，则自动重新启动也会很有用，因为![](assets/play_darkgrey-24px.png)按钮仅在停止操作有效时可用。
 
 选择工作流中的一个或多个活动后，您还可以执行其他操作，例如：
 
 **立即执行**
 
-此 ![](assets/pending_darkgrey-24px.png) 按钮会尽快启动所选的任何待处理活动。
+“![](assets/pending_darkgrey-24px.png)”按钮可尽快启动任何选定的待处理活动。
 
 **正常执行**
 
-此 ![](assets/check_darkgrey-24px.png) 按钮可重新激活任何已暂停或已停用的活动。
+![](assets/check_darkgrey-24px.png)按钮可重新激活任何暂停或已停用的活动。
 
 **执行已暂停**
 
-此 ![](assets/check_pause_darkgrey-24px.png) 按钮在选定活动处暂停工作流：此任务及其之后的所有任务（在同一分支中）都不会执行。
+![](assets/check_pause_darkgrey-24px.png)按钮在选定活动处暂停工作流：此任务及其之后的所有任务（在同一分支中）都不会执行。
 
-**无执行**
+**没有执行**
 
-此 ![](assets/checkdisable.png) 按钮可停用任何选定的活动。
+“![](assets/checkdisable.png)”按钮可停用任何选定的活动。
 
 >[!NOTE]
 >

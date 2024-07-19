@@ -1,6 +1,6 @@
 ---
 title: 管理电子邮件样式
-description: 了解如何在电子邮件设计工具中管理电子邮件样式。
+description: 了解如何在Email Designer中管理电子邮件样式。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -18,14 +18,14 @@ ht-degree: 26%
 # 管理电子邮件样式 {#managing-styles}
 
 
-在Email Designer中，选择元素时，多个特定于所选内容类型的选项将显示在 **[!UICONTROL Settings]** 窗格。 您可以使用这些选项轻松更改电子邮件的样式。
+在电子邮件Designer中，选择元素时，**[!UICONTROL Settings]**&#x200B;窗格中会显示多个特定于所选内容类型的选项。 您可以使用这些选项轻松更改电子邮件的样式。
 
 ## 选择元素 {#selecting-an-element}
 
-要在Email Designer界面中选择元素，您可以：
+要在电子邮件Designer界面中选择元素，您可以：
 
 * 直接在电子邮件中单击，
-* 或浏览左侧选项中可用的结构树 **调色板**.
+* 或浏览位于左侧&#x200B;**调色板**&#x200B;中的选项中提供的结构树。
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ ht-degree: 26%
 
 要选择列，还可以执行以下操作：
 
-1. 选择结构组件（直接在电子邮件中，或使用左侧提供的结构树） **调色板**)。
-1. 从 **上下文工具栏**，单击 **[!UICONTROL Select a column]** 以选择所需的列。
+1. 选择结构组件（直接在电子邮件中或使用左侧&#x200B;**调色板**&#x200B;中提供的结构树）。
+1. 从&#x200B;**上下文工具栏**&#x200B;中，单击&#x200B;**[!UICONTROL Select a column]**&#x200B;以选择所需的列。
 
-请参阅中的示例 [本节](#example--adjusting-vertical-alignment-and-padding).
+在[此部分](#example--adjusting-vertical-alignment-and-padding)中查看示例。
 
 ## 调整样式设置 {#adjusting-style-settings}
 
-1. 在电子邮件中选择元素。 有关此内容的更多信息，请参阅 [选择元素](#selecting-an-element).
+1. 在电子邮件中选择元素。 有关详细信息，请参阅[选择元素](#selecting-an-element)。
 1. 根据需要调整设置。 每个选定的元素均提供一组不同的设置。
 
-   您可以插入背景、更改大小、修改水平或垂直对齐方式、管理颜色、添加 [填充或边距](#selecting-an-element)，等等。
+   您可以插入背景、更改大小、修改水平或垂直对齐方式、管理颜色、添加[填充或边距](#selecting-an-element)等等。
 
-   要实现此目的，请使用 **[!UICONTROL Settings]** 窗格或 [添加内联样式属性](#adding-inline-styling-attributes).
+   为此，请使用&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中显示的选项或[添加内联样式属性](#adding-inline-styling-attributes)。
 
    ![](assets/des_settings_pane.png)
 
@@ -59,41 +59,41 @@ ht-degree: 26%
 
 ## 调整边距和边距 {#about-padding-and-margin}
 
-Email Designer界面允许您快速调整填充和边距设置。
+通过Email Designer界面，您可以快速调整填充和边距设置。
 
-**[!UICONTROL Padding]**：通过此设置，可管理位于元素边框内的空间。
+**[!UICONTROL Padding]**：此设置允许您管理位于元素边框内的空间。
 
 ![](assets/des_padding.png)
 
 例如：
 
 * 使用填充在图像的左右两侧设置边距。
-* 使用顶边距和底边距向添加更多间距 **[!UICONTROL Text]** 或 **[!UICONTROL Divider]** 组件。
+* 使用顶部和底部内边距为&#x200B;**[!UICONTROL Text]**&#x200B;或&#x200B;**[!UICONTROL Divider]**&#x200B;组件添加更多间距。
 * 要设置结构元素内各列之间的边框，请为每个列定义边距。
 
-**[!UICONTROL Margin]**：通过此设置，可管理元素的边框与下一个元素之间的间距。
+**[!UICONTROL Margin]**：此设置允许您管理元素的边框与下一个元素之间的间距。
 
 ![](assets/des_margin.png)
 
 >[!NOTE]
 >
->根据您的选择（结构组件、列或内容组件），结果将不同。 Adobe建议设置 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]** 列级别的参数。
+>根据您的选择（结构组件、列或内容组件），结果将不同。 Adobe建议在列级别设置&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;参数。
 
-对于两者 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]**，单击锁定图标以中断上下或左右参数之间的同步。 这使您能够单独调整每个参数。
+对于&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**，单击锁定图标可中断上下或左右参数之间的同步。 这使您能够单独调整每个参数。
 
 ![](assets/des_padding_lock_icon.png)
 
 ## 样式对齐方式 {#about-alignment}
 
-* **文本对齐方式**：将鼠标光标放在某些文本上并使用上下文工具栏对其进行对齐。
+* **文本对齐方式**：将鼠标光标放在某些文本上，并使用上下文工具栏对其进行对齐。
 
   ![](assets/des_text_alignment.png)
 
-* **水平对齐方式** 可应用于文本、图像和按钮 — 当前不应用于 **[!UICONTROL Divider]** 和 **[!UICONTROL Social]** 组件。
+* **水平对齐方式**&#x200B;可应用于文本、图像和按钮 — 当前不适用于&#x200B;**[!UICONTROL Divider]**&#x200B;和&#x200B;**[!UICONTROL Social]**&#x200B;组件。
 
   ![](assets/des_horizontal_alignment.png)
 
-* 要设置 **垂直对齐**，选择结构组件中的列，然后从设置窗格中选择选项。
+* 要设置&#x200B;**垂直对齐方式**，请在结构组件内选择一个列，然后从“设置”窗格中选择一个选项。
 
   ![](assets/des_set_vertical_alignment.png)
 
@@ -112,11 +112,11 @@ Email Designer界面允许您快速调整填充和边距设置。
 
 以下是可使用的可用背景设置。
 
-* 设置 **[!UICONTROL Background color]** 整个电子邮件。 确保在可从左侧面板访问的导航树中选择正文设置。
+* 为整个电子邮件设置&#x200B;**[!UICONTROL Background color]**。 确保在可从左侧面板访问的导航树中选择正文设置。
 
   ![](assets/des_background_body.png)
 
-* 通过选择为所有结构组件设置相同的背景颜色 **[!UICONTROL Viewport background color]**. 此选项可让您从背景颜色中选择其他设置。
+* 通过选择&#x200B;**[!UICONTROL Viewport background color]**，为所有结构组件设置相同的背景颜色。 此选项可让您从背景颜色中选择其他设置。
 
   ![](assets/des_background_viewport.png)
 
@@ -126,7 +126,7 @@ Email Designer界面允许您快速调整填充和边距设置。
 
   切勿设置视口背景颜色，因为它可能会隐藏结构背景颜色。
 
-* 设置 **[!UICONTROL Background image]** 结构组件的内容。
+* 为结构组件的内容设置&#x200B;**[!UICONTROL Background image]**。
 
   ![](assets/des_background_image.png)
 
@@ -148,20 +148,20 @@ Email Designer界面允许您快速调整填充和边距设置。
 
 要在由三列组成的结构组件内调整填充和垂直对齐。 为此请执行以下操作步骤：
 
-1. 直接在电子邮件中或使用左侧提供的结构树选择结构组件 **调色板**.
-1. 从 **上下文工具栏**，单击 **[!UICONTROL Select a column]** 并选择要编辑的项目。 也可以从结构树中选择它。
+1. 直接在电子邮件中或使用左侧&#x200B;**调色板**&#x200B;中提供的结构树选择结构组件。
+1. 从&#x200B;**上下文工具栏**&#x200B;中，单击&#x200B;**[!UICONTROL Select a column]**&#x200B;并选择要编辑的内容。 也可以从结构树中选择它。
 
    ![](assets/des_selecting_column.png)
 
-   该列的可编辑参数显示在 **[!UICONTROL Settings]** 窗格在右边。
+   该列的可编辑参数显示在右侧的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
 
-1. 下 **[!UICONTROL Vertical alignment]**，选择 **[!UICONTROL Up]**.
+1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，选择&#x200B;**[!UICONTROL Up]**。
 
    ![](assets/des_vertical_alignment.png)
 
    内容组件显示在列顶部。
 
-1. 下 **[!UICONTROL Padding]**，定义列中的顶部边距。 单击锁定图标可中断与底部填充的同步。
+1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;下，定义列中的顶部边距。 单击锁定图标可中断与底部填充的同步。
 
    为该列定义左右边距。
 
@@ -179,15 +179,15 @@ Email Designer界面允许您快速调整填充和边距设置。
 
 1. 在插入了链接的组件中，选择链接的标签文本。
 
-1. 在组件设置中，选中 **[!UICONTROL Underline link]** 为链接的标签文本加下划线。
+1. 在组件设置中，选中&#x200B;**[!UICONTROL Underline link]**&#x200B;以将链接的标签文本加下划线。
 
    ![](assets/stylelinks-selecttext.png)
 
-1. 要选择将在其中打开链接的浏览上下文，请选择 **[!UICONTROL Target]**.
+1. 要选择将在其中打开链接的浏览上下文，请选择&#x200B;**[!UICONTROL Target]**。
 
    ![](assets/stylelinks-target.png)
 
-1. 要更改链接的颜色，请单击 **[!UICONTROL Link color]**.
+1. 要更改链接的颜色，请单击&#x200B;**[!UICONTROL Link color]**。
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -202,10 +202,10 @@ Email Designer界面允许您快速调整填充和边距设置。
 在Email Designer界面中，当您选择元素并在侧面板上显示其设置时，您可以自定义该特定元素的内联属性及其值。
 
 1. 在内容中选择元素。
-1. 在侧面板上，查找 **[!UICONTROL Styles Inline]** 设置。
+1. 在侧面板上，查找&#x200B;**[!UICONTROL Styles Inline]**&#x200B;设置。
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. 修改现有属性的值，或使用 **+** 按钮。 可以添加任何符合 CSS 的属性和值。
+1. 修改现有属性的值，或使用&#x200B;**+**&#x200B;按钮添加新属性。 可以添加任何符合 CSS 的属性和值。
 
 然后，样式将应用于所选的元素。 如果子元素不具有定义的特定样式属性，则继承父元素的样式。

@@ -21,18 +21,18 @@ ht-degree: 1%
 
 您有几个选项可用于监控订阅和退订：
 
-* 从服务仪表板查看当前订阅了您的服务的人员列表。 请参阅 [服务仪表板](#service-dashboard).
-* 欲知订阅和退订的历史记录，请参见 **订阅历史记录** 选项卡。 请参阅 [订阅历史记录](#subscription-history).
-* 显示详细说明服务订阅和退订演变的报告 **报表**. 请参阅 [服务报表](#service-reports).
-* 查找用户从其订阅的服务的列表 **个人资料**. 请参阅 [链接到用户档案的事件的历史记录](#history-of-events-linked-to-a-profile).
+* 从服务仪表板查看当前订阅了您的服务的人员列表。 查看[服务仪表板](#service-dashboard)。
+* 请参阅服务仪表板中&#x200B;**订阅历史记录**&#x200B;选项卡上的订阅和退订历史记录。 请参阅[订阅历史记录](#subscription-history)。
+* 显示详细说明服务&#x200B;**报告**&#x200B;中订阅和退订演变的报告。 查看[服务报告](#service-reports)。
+* 从其&#x200B;**配置文件**&#x200B;查找用户已订阅的服务列表。 查看链接到用户档案](#history-of-events-linked-to-a-profile)的事件的[历史记录。
 
 ## 服务仪表板 {#service-dashboard}
 
 要查看订阅服务的人员列表，请执行以下操作：
 
-1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
+1. 通过高级菜单&#x200B;**Profiles &amp; audiences** > **Services**&#x200B;转到服务列表，可从Adobe Campaign徽标访问该菜单。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 订阅了此服务的人员列表可在以下网址找到： **订阅** 选项卡。
+1. 订阅了服务的人员列表可在&#x200B;**订阅**&#x200B;选项卡中找到。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -40,9 +40,9 @@ ht-degree: 1%
 
 要查阅订阅和退订历史记录，请执行以下操作：
 
-1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
+1. 通过高级菜单&#x200B;**Profiles &amp; audiences** > **Services**&#x200B;转到服务列表，可从Adobe Campaign徽标访问该菜单。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 选择 **订阅历史记录** 选项卡，显示每个用户订阅和取消订阅的日期。
+1. 选择&#x200B;**订阅历史记录**&#x200B;选项卡以显示每个人订阅和取消订阅的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
@@ -50,18 +50,18 @@ ht-degree: 1%
 
 要显示详细说明订阅和退订演变的报告，请执行以下操作：
 
-1. 通过高级菜单转到服务列表 **用户档案和受众** > **服务**，可通过Adobe Campaign徽标访问。
+1. 通过高级菜单&#x200B;**Profiles &amp; audiences** > **Services**&#x200B;转到服务列表，可从Adobe Campaign徽标访问该菜单。
 1. 选择您选择的服务以显示相应的仪表板。
-1. 单击 **报表** 按钮，然后 **订阅监测** 在选定屏幕中。
+1. 单击操作栏中的&#x200B;**报告**&#x200B;按钮，然后单击选择屏幕中的&#x200B;**订阅监视**。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. 此 **服务摘要** 报告介绍了订阅数量、订阅的总体演变，以及随时间变化的曲线。
+1. **服务摘要**&#x200B;报告显示了订阅的数量、订阅的整体演变情况，以及显示随时间变化的进度曲线。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## 链接到用户档案的事件的历史记录 {#history-of-events-linked-to-a-profile}
 
-要查阅联系人已订阅的服务列表，您可以查阅其营销历史。 有关详细信息，请参见 [整合的客户用户档案](../../audiences/using/integrated-customer-profile.md) 部分。
+要查阅联系人已订阅的服务列表，您可以查阅其营销历史。 有关更多信息，请参阅[整合的客户用户档案](../../audiences/using/integrated-customer-profile.md)部分。
 
 ![](assets/lp_monitoring_subscriptions_5.png)

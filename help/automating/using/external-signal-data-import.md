@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。
-* An [结束](../../automating/using/start-and-end.md) 活动会触发用于更新聚合的目标工作流。
+* [End](../../automating/using/start-and-end.md)活动会触发用于更新聚合的目标工作流。
 
 ![](assets/signal_example_source1.png)
 
 目标工作流如下所示：
 
-* An [外部信号](../../automating/using/external-signal.md) 活动会等待源工作流成功完成。
+* [外部信号](../../automating/using/external-signal.md)活动等待源工作流成功完成。
 * [查询](../../automating/using/query.md#enriching-data)活动会定向用户档案，并通过集合集对进行扩充，以检索上次购买日期。
 * [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，用户档案资源已扩展，添加了 **Last purchase date** 字段。
 

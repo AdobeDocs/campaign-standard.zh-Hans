@@ -38,7 +38,7 @@ ht-degree: 98%
 
 要创建和配置 **[!UICONTROL Fatigue]** 分类规则，请应用以下步骤：
 
-1. 单击界面左上角的Adobe Campaign徽标，然后选择 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. 单击界面左上角的Adobe Campaign徽标，然后选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**。
 
    ![](assets/fatigue4.png)
 

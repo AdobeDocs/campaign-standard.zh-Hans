@@ -20,17 +20,17 @@ ht-degree: 11%
 Adobe Campaign REST API的可用端点：
 
 * **/profileAndServices**：与开箱即用的字段交互。 不能使用此端点访问扩展字段。
-* **/profileAndServicesExt**：与Profile或Services自定义资源扩展期间添加的自定义字段交互。 有关自定义资源的更多信息，请参阅 [本节](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**：与事务型消息API交互（事务型消息API端点的名称取决于您的实例配置）。 如需详细信息，请参阅[此小节](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**：与工作流交互。 如需详细信息，请参阅[此小节](../../api/using/controlling-a-workflow.md)。
+* **/profileAndServicesExt**：与在Profile或Services自定义资源扩展期间添加的自定义字段交互。 有关自定义资源的详细信息，请参阅[此部分](../../api/using/custom-resources.md)。
+* **/&lt;transactionalAPI>**：与事务性消息API交互（事务性消息API端点的名称取决于您的实例配置）。 如需详细信息，请参阅[此小节](../../api/using/managing-transactional-messages.md)。
+* **/工作流/执行**：与工作流交互。 如需详细信息，请参阅[此小节](../../api/using/controlling-a-workflow.md)。
 * **/privacy/privacyTool**：与隐私API交互，以允许自动处理隐私请求。 如需详细信息，请参阅[此小节](../../api/using/creating-a-privacy-request.md)。
-* **/history**：检索用户档案的营销历史。 有关Campaign中集成客户用户档案的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/history**：检索用户档案的营销历史记录。 有关Campaign中整合的客户用户档案的详细信息，请参阅[Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)。
 
-默认情况下，主要资源可用于 **配置文件与服务** 和 **profileAndServiceExt** API包括：
+默认情况下，**profileAndServices**&#x200B;和&#x200B;**profileAndServicesExt** API可用的主要资源包括：
 
-* **/profile**：与Campaign数据库中的用户档案交互。 要将配置文件添加到服务，请使用 **/service** 端点。 有关Campaign用户档案的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**：管理订阅服务。 有关Campaign中服务的更多信息，请参阅 [Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/配置文件**：与Campaign数据库中的配置文件进行交互。 若要向服务添加配置文件，请使用&#x200B;**/服务**&#x200B;终结点。 有关Campaign中用户档案的详细信息，请参阅[Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)。
+* **/服务**：管理订阅服务。 有关Campaign中服务的详细信息，请参阅[Campaign文档](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)。
 
 >[!NOTE]
 >
->已扩展或创建的所有其他资源均可通过以下网站获取： **配置文件和服务扩展** 仅限API。 它们必须链接到 **个人资料** 资源。
+>已扩展或创建的所有其他资源只能通过&#x200B;**ProfileAndServicesExt** API使用。 它们必须链接到&#x200B;**配置文件**&#x200B;资源才能访问。

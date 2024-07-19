@@ -27,7 +27,7 @@ ht-degree: 92%
 
 * [第1步：扩展用户档案资源](#step-1--extend-the-profile-resource)
 * [第2步：扩展测试用户档案](#step-2--extend-the-test-profile)
-* [步骤3：发布自定义资源](#step-3--publish-your-custom-resource)
+* [步骤3：Publish您的自定义资源](#step-3--publish-your-custom-resource)
 * [步骤4：使用工作流更新和定向用户档案](#step-4--update-and-target-profiles-with-a-workflow)
 
 随后，以下字段将添加到我们的用户档案，并可在投放中定向：
@@ -119,7 +119,7 @@ ht-degree: 92%
 
 用户档案和测试用户档案现在都已拥有可用的新字段。要使其正确配置，您需要发布自定义资源。
 
-## 步骤3：发布自定义资源 {#step-3--publish-your-custom-resource}
+## 步骤3：Publish您的自定义资源 {#step-3--publish-your-custom-resource}
 
 要应用对资源所作的更改并使用更改后的资源，必须执行数据库更新。
 

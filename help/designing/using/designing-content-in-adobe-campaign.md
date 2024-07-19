@@ -19,7 +19,8 @@ ht-degree: 84%
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
 
-Email Designer允许您通过拖放界面创建引人入胜的单独定制电子邮件。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
+Email Designer允许您通过拖放功能创建引人入胜的单独定制电子邮件
+界面。 无论您是从头开始，还是利用现有内容片段或模板，请设计并优化每封电子邮件的所有内容（无论促销还是事务电子邮件均如此）。
 
 Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能够直接通过用户界面轻松定义可视性条件和动态内容并将其应用于电子邮件、模板或片段。只需单击按钮，即可在拖放界面和HTML代码之间无缝切换。
 
@@ -27,7 +28,7 @@ Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [在视频中了解电子邮件设计器](#video)
+![](assets/do-not-localize/how-to-video.png) [在视频中发现电子邮件Designer](#video)
 
 * 要了解如何创建电子邮件内容，请参阅 [Email Designer 入门](../../designing/using/quick-start.md)。
 * 有关 Email Designer 的概述，请参阅[使用 Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
@@ -45,7 +46,7 @@ Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能
 
 通过链接和图像增强消息和登陆页。请参阅[插入链接](../../designing/using/links.md#inserting-a-link)和[插入图像](../../designing/using/images.md#inserting-images)。
 
-## Email Designer界面 {#email-designer-interface}
+## 发送电子邮件至Designer界面 {#email-designer-interface}
 
 Email Designer 提供许多选项，使您能够创建、编辑和自定义内容的各个方面。
 
@@ -65,7 +66,7 @@ Email Designer 提供许多选项，使您能够创建、编辑和自定义内�
 
 编辑器界面的&#x200B;**上下文工具栏**&#x200B;根据所选区域提供各种功能。工具栏中包含操作按钮和用于更改文本样式的按钮。执行的修改始终应用于所选区域。
 
-### Email Designer主页 {#email-designer-home-page}
+### 通过电子邮件发送Designer主页 {#email-designer-home-page}
 
 [创建电子邮件](../../channels/using/creating-an-email.md)时，**[!UICONTROL Email Designer]** 主页会在选择电子邮件内容时自动显示。
 
@@ -143,7 +144,7 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 * 更新已准备好的电子邮件中使用的片段对这些电子邮件没有影响。
 
-## Email Designer限制 {#email-designer-limitations}
+## 电子邮件Designer限制 {#email-designer-limitations}
 
 * 不能在片段中使用个性化字段。有关片段的更多信息，请参阅[此部分](../../designing/using/using-reusable-content.md#about-fragments)。
 
@@ -167,4 +168,4 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-要开始使用Email Designer，请观看此视频 [视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 说明Email Designer的一般功能以及如何从头开始或使用模板来设计电子邮件
+要开始使用Email Designer，请观看此[视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中说明了Email Designer的一般功能以及如何从头开始或使用模板来设计电子邮件

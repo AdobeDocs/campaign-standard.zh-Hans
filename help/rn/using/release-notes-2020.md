@@ -236,7 +236,7 @@ ht-degree: 97%
 **其他功能** （从 7 月 13 日开始）
 
 * **AI 支持的发送时间优化和用户档案评分** - 您现在可以优化客户旅程的设计和交付，以预测每个人的参与偏好。Adobe Campaign 凭借 Journey AI 提供技术支持，可以根据历史参与度分析和预测开放率、最佳发送时间以及可能的客户流失。[了解详情](../../sending/using/predictive.md)
-* **巴西新的隐私法规**  — 除了Campaign中已有的隐私功能外，Adobe还可帮助您为巴西的Lei Geral de Proteção de Datos (LGPD)做好准备。 在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
+* **巴西的新隐私法规** — 除了Campaign中已提供的隐私功能外，Adobe还可帮助您为巴西的Lei Geral de Proteçao de Datos (LGPD)做好准备。 在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Experience Platform 集成**
 
-* 从激活Adobe Experience Platform Audiences **读取受众** 活性已得到改进，以提供更好的性能和稳定性。 此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
+* 从&#x200B;**读取受众**&#x200B;活动激活Adobe Experience Platform受众的过程进行了改进，以提供更好的性能和稳定性。 此外，还可为激活作业提供更清晰、更详细的工作流日志，以便在读取 Adobe Experience Platform 受众时更轻松地进行监控和疑难解答。
 
 **修补程序**
 

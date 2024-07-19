@@ -39,7 +39,7 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>已创建</td>
-        <td>已创建</td>
+        <td>创建时间</td>
         <td>日期 </td>
         <td> </td>
     </tr>
@@ -111,7 +111,7 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>modifiedBy (userBase)</td>
-        <td>修改者</td>
+        <td>修改人</td>
         <td>链接 </td>
         <td> </td>
     </tr>
@@ -140,7 +140,7 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>recipientId</td>
-        <td>配置文件 ID</td>
+        <td>轮廓 ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>

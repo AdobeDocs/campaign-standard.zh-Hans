@@ -26,21 +26,21 @@ ht-degree: 4%
 
 有几个因素会直接影响服务器性能并拖慢平台运行速度：
 
-* 个性化元素的数量和类型：电子邮件中的个性化会从数据库中提取每个收件人的数据。 如果存在许多个性化元素，这会增加准备投放所需的数据量。  在中了解有关电子邮件个性化的更多信息 [本节](../../designing/using/personalization.md)
+* 个性化元素的数量和类型：电子邮件中的个性化会从数据库中提取每个收件人的数据。 如果存在许多个性化元素，这会增加准备投放所需的数据量。  在[本节](../../designing/using/personalization.md)中了解有关电子邮件个性化的更多信息
 
 * 服务器加载：当Campaign同时处理多个不同任务时，可能会降低性能。 服务器需要协调所有投放的所有传入和传出数据，以确保数据正确且及时。
 
-  **提示**  — 要避免这种情况，请与团队的其他成员协调投放计划，以确保最佳性能。
+  **提示** — 要避免这种情况，请与团队的其他成员协调投放计划，以确保最佳性能。
 
-* 此 [工作流执行](../../automating/using/about-workflow-execution.md)：监测工作流对于避免平台性能问题至关重要。 遵循列出的准则 [本页内容](../../automating/using/monitoring-workflow-execution.md). 在中了解详情 [工作流最佳实践](../../automating/using/best-practices-workflows.md) 部分。
+* [工作流执行](../../automating/using/about-workflow-execution.md)：监视您的工作流对于避免平台性能问题至关重要。 遵循此页面](../../automating/using/monitoring-workflow-execution.md)中列出的准则[。 在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解详情。
 
-* 您可以利用 [Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans) 要监控您的平台，请使用 [性能监测](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans) 功能。
+* 您可以使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)来监控您的平台。
 
 ## 正在检查网络配置 {#network-config}
 
 要在处理大量电子邮件时优化投放并避免误认为垃圾邮件发送者，请确保您具有合法的网络配置，不会试图隐藏服务器的身份。
 
-**提示**：使用与您品牌网站对应的透明发件人地址。 例如，旅行社公司经营瓦伦蒂诺连锁酒店。 其网站拥有valentino.com域。 为了推广巴黎的Valentino酒店，它使用paris.valentino.com子域。 因此，相关发件人地址可以是hotel@paris.valentino.com。
+**提示**：使用与品牌网站对应的透明发件人地址。 例如，旅行社公司经营瓦伦蒂诺连锁酒店。 其网站拥有valentino.com域。 为了推广巴黎的Valentino酒店，它使用paris.valentino.com子域。 因此，相关发件人地址可以是hotel@paris.valentino.com。
 
 ## 可投放性管理 {#deliverability-management}
 
@@ -50,9 +50,9 @@ ht-degree: 4%
 
    * 它是指电子邮件中的因素，这些因素决定了其被收件人服务器接受的能力。 ISP（Internet服务提供商）会过滤掉标识为垃圾邮件的电子邮件，或阻止下载图像。 如果他们确定某个域发送的电子邮件过多，则会限制将接受来自该发件人的电子邮件数量。
 
-   * 在检查电子邮件的可投放性时，您需要重点关注四个主要类别：数据质量、邮件和内容、发送基础架构和信誉。 有关此主题的更深入探讨，请参阅 [本节](../../sending/using/about-deliverability.md).
+   * 在检查电子邮件的可投放性时，您需要重点关注四个主要类别：数据质量、邮件和内容、发送基础架构和信誉。 有关此主题的更深入探讨，请参阅[此部分](../../sending/using/about-deliverability.md)。
 
-* 在启动新平台时，应用详述于 [此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* 启动新平台时，请应用[此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上详述的建议。
 
 * 请联系您的Adobe代表寻求帮助。
 
@@ -76,6 +76,6 @@ ht-degree: 4%
 
 为避免将消息发送到无效地址、限制不当通信并提高发件人信誉，Adobe建议对订阅后确认实施双重选择加入机制。 这有助于确保收件人有意订阅。
 
-有关实施此机制的详细信息，请参见 [本节](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+[此部分](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中概述了实现此机制的详细信息。
 
-了解详情，请参阅 [用户档案和受众入门](../../audiences/using/get-started-profiles-and-audiences.md).
+在[开始使用个人资料和受众](../../audiences/using/get-started-profiles-and-audiences.md)中了解详情。

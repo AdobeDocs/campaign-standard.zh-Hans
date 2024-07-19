@@ -22,7 +22,7 @@ ht-degree: 48%
 
 要访问整合的客户用户档案，请执行以下步骤：
 
-1. 从Adobe Campaign主页中，单击 **[!UICONTROL Customer profiles]** 卡或 **配置文件** 选项卡，显示配置文件列表。
+1. 从Adobe Campaign主页中，单击&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡或&#x200B;**配置文件**&#x200B;选项卡以显示配置文件列表。
 
 1. 要根据特定字段搜索配置文件，请打开搜索窗格，然后选择要执行搜索的字段。
 

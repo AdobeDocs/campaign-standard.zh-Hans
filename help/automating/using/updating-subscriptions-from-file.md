@@ -24,7 +24,7 @@ ht-degree: 77%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [加载文件](../../automating/using/load-file.md) 活动加载用户档案文件并定义导入列的结构。
+* [加载文件](../../automating/using/load-file.md)活动加载配置文件并定义导入列的结构。
 
   在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -49,7 +49,7 @@ ht-degree: 77%
 
   如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* A [调解](../../automating/using/reconciliation.md) 活动标识来自文件的数据，使其归属至Adobe Campaign数据库的用户档案维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
+* [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* A [删除重复项](../../automating/using/deduplication.md) 基于 **电子邮件** 临时资源的字段（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* 基于临时资源的&#x200B;**电子邮件**&#x200B;字段的[重复数据删除](../../automating/using/deduplication.md)（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 
-* A [订阅服务](../../automating/using/subscription-services.md) 活动标识要更新的服务来自过渡，通过在中创建的链接 **[!UICONTROL Reconciliation]** 活动。
+* [订阅服务](../../automating/using/subscription-services.md)活动标识要更新的服务来自过渡，它通过&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接进行。
 
   将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 

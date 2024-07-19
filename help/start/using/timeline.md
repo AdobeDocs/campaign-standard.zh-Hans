@@ -32,8 +32,8 @@ ht-degree: 89%
 
 使用这些图标可以：
 
-* ![](assets/timeline_zoom_in.png) 在显示天数之前，请缩短外围环境，或在更有限的时段内提高详细信息级别
-* ![](assets/timeline_zoom_out.png) 增加周长，或显示更大的时间范围
+* ![](assets/timeline_zoom_in.png)在显示天数之前减少周长，或在更有限的时段内增加细节级别
+* ![](assets/timeline_zoom_out.png)增加周长，或显示更大的时间范围
 
 单击每个项目名称右侧的箭头，可显示相应的内容。项目可以包含子项目、营销策划和登陆页面。营销策划的部署方式与项目相同，可包含电子邮件、短信和登陆页面。
 
@@ -47,12 +47,12 @@ ht-degree: 89%
 
 每个元素都有一个与其类型对应的图标：
 
-* ![](assets/timeline_program_icon.png) 项目
-* ![](assets/timeline_campaign_icon.png) 营销活动
-* ![](assets/timeline_lp_icon.png) 登陆页面
-* ![](assets/timeline_email_icon.png) 电子邮件
-* ![](assets/timeline_sms_icon.png) 短信
-* ![](assets/timeline_push_icon.png) 推送通知
+* ![](assets/timeline_program_icon.png)计划
+* ![](assets/timeline_campaign_icon.png)营销活动
+* ![](assets/timeline_lp_icon.png)登陆页面
+* ![](assets/timeline_email_icon.png)电子邮件
+* ![](assets/timeline_sms_icon.png)短信
+* ![](assets/timeline_push_icon.png)推送通知
 
 每个框左边框的彩色线条表示相关元素的状态。
 

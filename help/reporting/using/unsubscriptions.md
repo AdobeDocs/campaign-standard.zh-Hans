@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # 退订次数{#unsubscriptions}
 
-此 **[!UICONTROL Unsubscriptions]** 报告可识别取消订阅次数最多的交付内容。
+**[!UICONTROL Unsubscriptions]**&#x200B;报表可识别取消订阅次数最多的交付内容。
 
 ![](assets/delivery_reports_unsub.png)
 
-此 **[!UICONTROL TOP 5 deliveries]** 表格和图形可显示消息数量及已取消订阅收件人数量排名前五的交付内容。 此处列出的数据基于对消息退订链接的点击次数。
+**[!UICONTROL TOP 5 deliveries]**&#x200B;表格和图形可显示消息数量以及取消订阅的收件人数量排名前五的投放。 此处列出的数据基于对消息退订链接的点击次数。

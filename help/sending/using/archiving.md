@@ -21,7 +21,7 @@ ht-degree: 5%
 
 特别是，如果您的组织需要存档所有出站电子邮件以实现合规性，则可以启用此功能。 它允许您向您必须指定的密件抄送电子邮件地址（投放收件人不可见）发送相应已发送消息的完全隐藏副本。
 
-启用后，您需要从激活电子邮件密送 **[!UICONTROL Archive emails]** 选项的位置。
+启用后，您需要从电子邮件投放模板的&#x200B;**[!UICONTROL Archive emails]**&#x200B;选项激活电子邮件密件抄送。
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ ht-degree: 5%
 
 ## 正在激活电子邮件存档 {#activating-email-archiving}
 
-启用后，将在中激活电子邮件密送 [电子邮件模板](../../start/using/marketing-activity-templates.md)，通过专用选项：
+启用后，将在[电子邮件模板](../../start/using/marketing-activity-templates.md)中通过专用选项激活电子邮件密件抄送：
 
-1. 转到 **资源** > **模板** > **投放模板**.
-1. 复制现成可用的 **[!UICONTROL Send via email]** 模板。
+1. 转到&#x200B;**资源** > **模板** > **投放模板**。
+1. 复制现成的&#x200B;**[!UICONTROL Send via email]**&#x200B;模板。
 1. 选择复制的模板。
-1. 单击 **[!UICONTROL Edit properties]** 按钮以编辑模板的属性。
-1. 展开 **[!UICONTROL Send]** 部分。
-1. 查看 **[!UICONTROL Archive emails]** 框以根据此模板保留每次投放的所有已发送消息的副本。
+1. 单击&#x200B;**[!UICONTROL Edit properties]**&#x200B;按钮编辑模板的属性。
+1. 展开&#x200B;**[!UICONTROL Send]**&#x200B;部分。
+1. 选中&#x200B;**[!UICONTROL Archive emails]**&#x200B;框以根据此模板保留每个投放的所有已发送消息的副本。
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->如果发送到密件抄送地址的电子邮件被打开并单击通过，则中会考虑这一点 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** ，这可能会导致某些计算错误。
+>如果发送到密件抄送地址的电子邮件被打开并被点进，则发送分析中的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;会考虑这一点，这可能会导致某些计算错误。

@@ -38,17 +38,17 @@ ht-degree: 0%
 默认情况下，您可以使用两个预定义模板为Adobe Campaign创建电子邮件内容。
 
 * **[!UICONTROL Adobe Campaign Email]**：此模板包含您可以个性化的标准内容。 您可以在Adobe Campaign电子邮件(AC6.1)和Adobe Campaign电子邮件(ACS)之间进行选择。
-* **[!UICONTROL Importer Page]**：利用此模板，可导入包含内容的HTML文件的ZIP文件，之后可对其进行个性化。
+* **[!UICONTROL Importer Page]**：利用此模板，可导入包含内容的HTML文件的ZIP文件，然后可对其进行个性化设置。
 
-1. 在Adobe Experience Manager中，新建 **[!UICONTROL Page]**.
+1. 在Adobe Experience Manager中，创建新的&#x200B;**[!UICONTROL Page]**。
 
-1. 选择 **[!UICONTROL Adobe Campaign Email]** 模板。 有关详细步骤，请参阅以下视频。
+1. 选择&#x200B;**[!UICONTROL Adobe Campaign Email]**&#x200B;模板。 有关详细步骤，请参阅以下视频。
 
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 打开您的新电子邮件内容。
 
-1. 在 **[!UICONTROL Page properties]**，设置 **[!UICONTROL Adobe Campaign]** 作为 **[!UICONTROL Cloud Service Configuration]**. 这可以在您的内容与Adobe Campaign实例之间实现通信。
+1. 在&#x200B;**[!UICONTROL Page properties]**&#x200B;中，将&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;设置为&#x200B;**[!UICONTROL Cloud Service Configuration]**。 这可以在您的内容与Adobe Campaign实例之间实现通信。
 
    有关详细信息，请观看以下视频：
 
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 要在Adobe Experience Manager中创建电子邮件内容，请执行以下操作：
 
-1. 编辑主题以及 **[!UICONTROL Plain text]** 访问您的电子邮件版本 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 从副手手手里跳下去。
+1. 通过访问Sidekick中的&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;选项卡，编辑电子邮件的主题和&#x200B;**[!UICONTROL Plain text]**&#x200B;版本。
 
-1. 添加 **[!UICONTROL Personalization fields]** 通过 **[!UICONTROL Text & Personalization]** 组件。 每个组件对应于特定的用法：插入图像、添加个性化设置等。
+1. 通过&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;组件添加&#x200B;**[!UICONTROL Personalization fields]**。 每个组件对应于特定的用法：插入图像、添加个性化设置等。
 
    有关详细信息，请观看以下视频：
 
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. 从 **[!UICONTROL Workflow]** 选项卡，选择 **[!UICONTROL Approve for Adobe Campaign]** 验证工作流。 如果电子邮件使用的内容未获得批准，则无法在Adobe Campaign中发送该电子邮件。
+1. 从&#x200B;**[!UICONTROL Workflow]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;验证工作流。 如果电子邮件使用的内容未获得批准，则无法在Adobe Campaign中发送该电子邮件。
 
 要在Adobe Campaign Standard中发送电子邮件，请执行以下操作：
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 +++ 了解有关特定于AEM的模板的更多信息。
 
-   1. 从高级菜单中，访问 **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
+   1. 从高级菜单中，访问&#x200B;**[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**。
 
       ![](assets/aem_templates_1.png)
 
    1. 复制或选择其中一个投放模板。
 
-   1. 从 **[!UICONTROL Properties]** 模板的，在 **[!UICONTROL Content]** 下拉列表，选择 **[!UICONTROL Adobe Experience Manager as Content mode]** 然后是您的Adobe Experience Manager帐户。
+   1. 从模板的&#x200B;**[!UICONTROL Properties]**&#x200B;中，在&#x200B;**[!UICONTROL Content]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL Adobe Experience Manager as Content mode]**，然后选择您的Adobe Experience Manager帐户。
 
       ![](assets/aem_templates_2.png)
 
@@ -90,13 +90,13 @@ ht-degree: 0%
 
    ![](assets/aem_send_1.png)
 
-1. 填写电子邮件的属性并单击 **[!UICONTROL Create]** 才能选择您的AEM内容。
+1. 填写电子邮件的属性并单击&#x200B;**[!UICONTROL Create]**&#x200B;以能够选择您的AEM内容。
 
-1. 访问 **[!UICONTROL Content]** 封锁。
+1. 访问&#x200B;**[!UICONTROL Content]**&#x200B;块。
 
    ![](assets/aem_send_2.png)
 
-1. 从 **[!UICONTROL Use Adobe Experience Manager content]** 菜单，单击 **[!UICONTROL Link AEM content]**.
+1. 从&#x200B;**[!UICONTROL Use Adobe Experience Manager content]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL Link AEM content]**。
 
    然后，选择要用在电子邮件中的内容。
 

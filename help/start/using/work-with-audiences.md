@@ -56,13 +56,13 @@ Campaign Standard提供了多种工具来帮助您扩大营销数据库。 本�
 
 ### 通过工作流导入数据 {#importing-data-through-workflows}
 
-利用工作流，可收集数据并通过使用将其导入Campaign数据库 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 活动。 有关通过工作流导入数据时的一般信息和最佳实践，请参阅 [本节](../../automating/using/about-data-import-and-export.md).
+工作流允许您收集数据，并通过使用[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)活动将其导入Campaign数据库。 [此部分](../../automating/using/about-data-import-and-export.md)介绍了通过工作流导入数据时的一般信息和最佳实践。
 
 此外，您可以设置模板以导入数据。 使用导入模板是定期导入具有相同结构的文件的最佳实践。 您可以设置两种类型的模板：
 
-* **工作流模板**：它们是预配置的工作流，您可以根据需要设置一次，并在每次要导入数据和更新数据库时重复使用。 有关用于导入数据的工作流模板的示例，请参见 [本节](../../automating/using/creating-import-workflow-templates.md).
+* **工作流模板**：它们是预配置的工作流，可以根据您的需要设置一次，每次要导入数据和更新数据库时都可以重复使用。 [此部分](../../automating/using/creating-import-workflow-templates.md)中详细介绍了用于导入数据的工作流模板示例。
 
-* **导入数据模板**：与工作流模板类似，这些模板是基于工作流的模板，工作流设置为上传文件以更新数据库。 配置完毕后，即可通过下的简化视图向用户提供 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 菜单。 有关导入数据模板的更多信息，请参阅 [专用文档](../../automating/using/importing-data-with-import-templates.md).
+* **导入数据模板**：与工作流模板类似，这些模板是基于工作流设置的上传文件以更新数据库的模板。 配置完毕后，用户即可通过&#x200B;**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;菜单中的简化视图访问它们。 有关导入数据模板的更多信息，请参阅[专用文档](../../automating/using/importing-data-with-import-templates.md)。
 
 ### 从登陆页面收集数据 {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Campaign Standard提供了多种工具来帮助您扩大营销数据库。 本�
 * 将每个输入字段映射到数据库中的相应字段。
 * 通过网站或消息中的直接链接在线提供登陆页面。
 
-有关登录页面的更多信息，请参阅 [专用文档](../../channels/using/getting-started-with-landing-pages.md).
+有关登录页的详细信息，请参阅[专用文档](../../channels/using/getting-started-with-landing-pages.md)。
 
 **了解更多信息**
 
@@ -82,7 +82,7 @@ Campaign Standard提供了多种工具来帮助您扩大营销数据库。 本�
 ### 从Microsoft Dynamics 365同步配置文件
 
 与Microsoft Dynamics 365的Campaign Standard集成允许您将联系数据从Microsoft Dynamics 365传递到Campaign数据库。
-然后，这些联系人会显示在用户档案列表中，并可在营销活动中定位。 有关此集成的更多信息，请参阅 [专用文档](../../integrating/using/d365-acs-get-started.md).
+然后，这些联系人会显示在用户档案列表中，并可在营销活动中定位。 有关此集成的详细信息，请参阅[专用文档](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Campaign Standard提供了多种工具来帮助您扩大营销数据库。 本�
 
 ### 通过API调用导入数据
 
-Campaign StandardAPI允许您执行更新数据库的操作，如用户档案或服务的创建、更新或删除。 有关如何使用API的更多信息，请参阅 [专用文档](../../api/using/get-started-apis.md).
+Campaign StandardAPI允许您执行更新数据库的操作，如用户档案或服务的创建、更新或删除。 有关如何使用API的更多信息，请参阅[专用文档](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Campaign StandardAPI允许您执行更新数据库的操作，如用户档案或
 
 GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还将以数据处理方的角色利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备。
 
-请参阅 [本节](../../start/using/privacy.md) 详细了解Adobe Campaign为帮助您遵守GDPR而提供的工具和功能。
+请参阅[此部分](../../start/using/privacy.md)，了解有关Adobe Campaign为帮助您符合GDPR要求而提供的工具和功能的更多信息。
 
 **了解更多信息**
 

@@ -27,7 +27,7 @@ ht-degree: 3%
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | 全部 | 不包括未指定地址（电子邮件、邮政地址等）的目标人群。 （根据所选渠道）。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除阻止列表上的地址。 |
-| **[!UICONTROL Duplicate]** | 全部 | 根据目标群体排除重复项 **[!UICONTROL Address]** 字段。 |
+| **[!UICONTROL Duplicate]** | 全部 | 根据目标群体&#x200B;**[!UICONTROL Address]**&#x200B;字段排除重复项。 |
 | **[!UICONTROL Exclude mobile applications]** | 移动应用程序 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 应用程序内 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅（应用程序内模板）。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | 应用程序内 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅（应用程序内广播模板） |
@@ -54,23 +54,23 @@ ht-degree: 3%
 
 要创建筛选分类规则，请执行以下步骤：
 
-1. 创建新的分类规则。 有关创建分类规则的主要步骤，请参见 [本节](../../sending/using/managing-typology-rules.md).
+1. 创建新的分类规则。 创建分类规则的主要步骤在[此部分](../../sending/using/managing-typology-rules.md)中有详细说明。
 
-1. 选择 **[!UICONTROL Filtering]** 规则类型，然后指定所需的渠道。
+1. 选择&#x200B;**[!UICONTROL Filtering]**&#x200B;规则类型，然后指定所需的渠道。
 
-1. 在 **[!UICONTROL Filtering criteria]** 选项卡中，选择订阅 **[!UICONTROL Subscription]** 类别。
+1. 在&#x200B;**[!UICONTROL Filtering criteria]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Subscription]**&#x200B;类别中的订阅。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. 在 **[!UICONTROL Explorer]** 查询编辑器的选项卡，拖放 **[!UICONTROL Subscriber]** 节点放入屏幕的主部分。
+1. 在查询编辑器的&#x200B;**[!UICONTROL Explorer]**&#x200B;选项卡中，将&#x200B;**[!UICONTROL Subscriber]**&#x200B;节点拖放到屏幕的主部分。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. 选择 **[!UICONTROL Age]** 字段并定义筛选条件，使订阅者的年龄小于18岁。
+1. 选择&#x200B;**[!UICONTROL Age]**&#x200B;字段并定义筛选条件，以使订阅者的年龄小于18岁。
 
    ![](assets/typology_create-rule-age.png)
 
-1. 在 **[!UICONTROL Typologies]** 选项卡，将此规则链接到分类。
+1. 在&#x200B;**[!UICONTROL Typologies]**&#x200B;选项卡中，将此规则链接到分类。
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ ht-degree: 3%
 
 ## 配置过滤规则的定位上下文 {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard允许您配置  **定位** 和 **正在筛选** 根据要定位的数据使用的维度。
+Campaign Standard允许您根据要定位的数据，将&#x200B;**定位**&#x200B;和&#x200B;**筛选**&#x200B;维度配置为使用。
 
-为此，请打开分类规则的属性，然后访问 **[!UICONTROL Advanced information]** 部分。
+为此，请打开分类规则的属性，然后访问&#x200B;**[!UICONTROL Advanced information]**&#x200B;部分。
 
-默认情况下，会对 **[!UICONTROL Profiles]**. 例如，如果规则针对移动应用程序，则 **[!UICONTROL Filtering dimension]** 可更改为 **[!UICONTROL Subscriptions to an application]**.
+默认情况下，将对&#x200B;**[!UICONTROL Profiles]**&#x200B;进行筛选。 例如，如果规则针对移动应用程序，则&#x200B;**[!UICONTROL Filtering dimension]**&#x200B;可以更改为&#x200B;**[!UICONTROL Subscriptions to an application]**。
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Campaign Standard允许您配置  **定位** 和 **正在筛选** 根据要定�
 
 您可以根据要发送的消息限制筛选规则的适用性。
 
-1. 在分类规则的 **[!UICONTROL Application criteria]** 选项卡，取消选中 **[!UICONTROL Apply the rule on all deliveries]** 选项，默认情况下会启用此选项。
+1. 在分类规则的&#x200B;**[!UICONTROL Application criteria]**&#x200B;选项卡中，取消选中默认启用的&#x200B;**[!UICONTROL Apply the rule on all deliveries]**&#x200B;选项。
 
    ![](assets/typology_limit.png)
 

@@ -22,7 +22,7 @@ ht-degree: 52%
 
 ![](assets/identification_example2.png)
 
-* A [加载文件](../../automating/using/load-file.md) 活动，用于加载并检测导入文件的数据。 导入的文件包含以下数据：
+* [加载文件](../../automating/using/load-file.md)活动，用于加载并检测导入文件的数据。 导入的文件包含以下数据：
 
   ```
   lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [调解](../../automating/using/reconciliation.md) 活动，用于将加载文件的每个列链接到用户档案维度列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
+* [协调](../../automating/using/reconciliation.md)活动，用于将加载文件的每个列链接到用户档案维度列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
 
   ![](assets/identification_example1.png)
 
-* A [保存受众](../../automating/using/save-audience.md) 活动，用于保存用户档案的受众。
+* [保存受众](../../automating/using/save-audience.md)活动，用于保存用户档案的受众。
 
   ![](assets/identification_example3.png)

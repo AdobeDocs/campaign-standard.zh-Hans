@@ -21,15 +21,15 @@ ht-degree: 12%
 
 要在AEM网站上创建Adobe Campaign表单，请执行以下操作：
 
-1. 在您的AEM站点中，根据以下内容创建新页面： **Adobe Campaign配置文件** 模板。
+1. 在您的AEM站点中，根据&#x200B;**Adobe Campaign配置文件**&#x200B;模板创建一个新页面。
 
    ![](assets/aem_content_forms.png)
 
-1. 在页面属性中，选择 **[!UICONTROL Cloud Service]** 与您的Adobe Campaign实例相对应。
+1. 在页面属性中，选择与您的Adobe Campaign实例对应的&#x200B;**[!UICONTROL Cloud Service]**。
 
    ![](assets/aem_content_forms_2.png)
 
-1. 从中选择表单类型 **[!UICONTROL Form Start]** 组件：
+1. 从&#x200B;**[!UICONTROL Form Start]**&#x200B;组件中选择表单类型：
 
    * **Adobe Campaign：保存配置文件**
    * **Adobe Campaign：订阅服务**

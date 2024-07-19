@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 将 Adobe Experience Platform 受众引入 Campaign {#destinations}
 
-要将Adobe Experience Platform受众纳入Campaign并在您的工作流中使用它们，您首先需要将Adobe Campaign as a Adobe Experience Platform连接 **目标** 并使用要导出的区段对其进行配置。
+要将Adobe Experience Platform受众摄取到Campaign并在您的工作流中使用它们，您首先需要将Adobe Campaign as a Adobe Experience Platform **目标**&#x200B;连接起来，并使用要导出的区段对其进行配置。
 
 目标配置完成后，数据将导出到您的存储位置，您将需要在Campaign Standard中构建专用工作流来摄取数据。
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 在AdobeExperience Platform中，通过为导出的区段选择存储位置来配置与Adobe Campaign的连接。 此步骤还允许您选择要导出的区段并指定要包含的其他XDM字段。
 
-有关详细信息，请参见 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+有关详细信息，请参阅[目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)。
 
 配置目标后，Adobe Experience Platform会在您提供的存储位置创建一个以制表符分隔的.txt或.csv文件。 每24小时安排并执行一次此操作。
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 将Campaign Standard配置为目标后，您需要构建一个专用工作流来导入Adobe Experience Platform已导出的文件。
 
-为此，您需要添加并配置 **[!UICONTROL Transfer file]** 活动。 有关如何配置此活动的更多信息，请参阅 [本节](../../automating/using/transfer-file.md).
+为此，您需要添加和配置&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动。 有关如何配置此活动的详细信息，请参阅[此部分](../../automating/using/transfer-file.md)。
 
 ![](assets/rtcdp-transfer-file.png)
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 
 ![](assets/rtcdp-workflow.png)
 
-有关数据管理工作流的示例，请参阅 [工作流用例](../../automating/using/about-workflow-use-cases.md#management) 部分。
+数据管理工作流的示例可在[工作流用例](../../automating/using/about-workflow-use-cases.md#management)部分中使用。
 
 相关主题：
 

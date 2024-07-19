@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，HTTP响应数据大小限制和响应超时护栏已降低，从而符合最佳实践 — 请参阅 [限制和防护](#guardrails). 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
+在Campaign Standard20.4版本中，http响应数据大小限制和响应超时护栏已降低，以符合最佳实践 — 请参阅[限制和护栏](#guardrails)。 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -114,13 +114,13 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。此 **[!UICONTROL URL]** 字段，用于定义 **HTTPS端点** 该Campaign Standard将与进行通信。
+通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS终结点**。
 
 如果端点需要，则可以使用两种类型的身份验证方法：
 
-* 基本身份验证：在 **[!UICONTROL Request Header(s)]** 部分。
+* 基本身份验证：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分输入用户名/密码信息。
 
-* Oauth身份验证：通过单击 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帐户中，您可以选择定义OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
+* OAuth身份验证：通过单击外部帐户中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，可以选择定义了OAuth身份验证的外部帐户。 有关更多信息，请参阅[外部帐户](../../administration/using/external-accounts.md)部分。
 
 ![](assets/externalAPI-execution.png)
 

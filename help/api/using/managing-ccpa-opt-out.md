@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # 管理 CCPA 选择退出 {#managing-ccpa-optout}
 
-可以使用监控和管理配置文件的CCPA选择退出状态。 **ccpapoptout** 配置文件属性和“true”或“false”值：
+可以使用&#x200B;**ccpaOptOut**&#x200B;配置文件属性和“true”或“false”值监视和管理配置文件的CCPA选择退出状态：
 
 `"ccpaOptOut": <value>`
 
-* **true**：禁止出售个人信息。
-* **false**：授权销售个人信息。
+* **true**：禁止销售个人信息。
+* **false**：授权个人信息销售。
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >

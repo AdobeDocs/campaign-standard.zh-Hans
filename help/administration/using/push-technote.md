@@ -9,13 +9,13 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 推送通知渠道更改 {#push-upgrade}
 
-您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 2024年发布了Android Firebase Cloud Messaging (FCM)服务的一些重要更改，这些更改可能会影响Adobe Campaign实施。 您可能需要更新Android推送消息的订阅服务配置才能支持此更改。
+您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 Android Firebase Cloud Messaging (FCM)服务的一些重要更改将于2024年发布，可能会影响您的Adobe Campaign实施。 您可能需要更新Android推送消息的订阅服务配置才能支持此更改。
 
 此外，Adobe强烈建议迁移到基于令牌的连接而不是APN的基于证书的连接，这种连接更加安全和可扩展。
 
@@ -29,9 +29,9 @@ ht-degree: 1%
 
 ### 更改了哪些内容？ {#fcm-changes}
 
-作为Google持续努力改进其服务的一部分，旧版FCM API将在以下日期停用 **2024年6月20日**. 在中了解有关Firebase云消息HTTP协议的更多信息 [Google Firebase文档](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+作为Google不断努力改进其服务的一部分，旧版FCM API将于2024年6月20日&#x200B;**终止**。 请参阅[Google Firebase文档](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}以了解有关Firebase Cloud Messaging HTTP协议的更多信息。
 
-正在启动 [24.1版本](../../rn/using/release-notes.md)，Adobe Campaign Standard支持使用HTTP v1 API发送Android推送通知消息。
+从[24.1版本](../../rn/using/release-notes.md)开始，Adobe Campaign Standard支持使用HTTP v1 API发送Android推送通知消息。
 
 ### 您是否受影响？ {#fcm-impact}
 
@@ -49,40 +49,40 @@ ht-degree: 1%
 
 #### 先决条件 {#fcm-transition-prerequisites}
 
-* 支持 **HTTP v1 API** 模式已在24.1版本中添加。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 24.1版本中添加了对&#x200B;**HTTP v1 API**&#x200B;模式的支持。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
-* 需要Android Firebase Admin SDK服务的帐户JSON文件才能将移动应用程序移动到HTTP v1。 了解如何在中获取此文件 [Google Firebase文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 需要Android Firebase Admin SDK服务的帐户JSON文件才能将移动应用程序移动到HTTP v1。 请参阅[Google Firebase文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}以了解如何获取此文件。
 
-* 如果您仍在使用此旧版SDK，则必须使用Adobe Experience Platform SDK更新您的实施。 了解如何在中迁移到AdobeExperience Platform SDK [本文](sdkv4-migration.md).
+* 如果您仍在使用此旧版SDK，则必须使用Adobe Experience Platform SDK更新您的实施。 请参阅[本文](sdkv4-migration.md)以了解如何迁移到AdobeExperience Plaform SDK。
 
-* 确保您拥有 **移动应用程序配置** Adobe Experience Platform权限。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 执行以下步骤之前，请确保您在Adobe Experience Platform数据收集移动设备中具有&#x200B;**移动设备应用程序配置**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 过渡过程 {#fcm-transition-steps}
 
 要将环境移动到HTTP v1，请执行以下步骤：
 
-1. 浏览至 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 浏览到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
    ![](assets/push_technote_1.png)
 
 1. 选择需要更新证书的特定移动应用程序。
 
-1. 查看 **[!UICONTROL Update app credentials]** 复选框。
+1. 选中&#x200B;**[!UICONTROL Update app credentials]**&#x200B;复选框。
 
    ![](assets/push_technote_5.png)
 
-1. 从您的Android项目的 `build.gradle` 文件。 例如， `com.android.test.testApp`. 请确保为暂存环境和生产环境使用不同的ID。
+1. 从您的Android项目的`build.gradle`文件中提供应用程序ID (Android包名称)。 例如，`com.android.test.testApp`。 请确保为暂存环境和生产环境使用不同的ID。
 
 1. 上传Android私钥JSON密钥文件。
 
    ![](assets/push_technote_3.png)
 
-1. 单击 **保存** 按钮。
+1. 单击&#x200B;**保存**&#x200B;按钮。
 
 >[!NOTE]
 >
->应用这些更改后，所有交付到Android设备的新推送通知都将使用HTTP v1 API。 正在重试、进行中和正在使用的现有推送投放仍使用HTTP（旧版）API。
+>应用这些更改后，交付给Android设备的所有新推送通知都将使用HTTP v1 API。 正在重试、进行中和正在使用的现有推送投放仍使用HTTP（旧版）API。
 
 
 ## Apple iOS推送通知服务(APN) {#apns-push-upgrade}
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 * 您可以使用一个令牌为您的公司的所有应用程序分发通知。
 
-要了解有关到APN的基于令牌的连接，请参阅 [Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+在[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}中了解有关基于令牌的APN连接的更多信息。
 
 Adobe Campaign Standard支持基于令牌和基于证书的连接。 如果您的实施依赖于基于证书的连接，Adobe强烈建议您将其更新为基于令牌的连接。
 
@@ -118,30 +118,30 @@ Adobe Campaign Standard支持基于令牌和基于证书的连接。 如果您�
 
 #### 先决条件 {#ios-transition-prerequisites}
 
-* 支持 **基于令牌的身份验证** 已添加模式 [24.1版本](../../rn/using/release-notes.md). 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* [24.1版本](../../rn/using/release-notes.md)中添加了对&#x200B;**基于令牌的身份验证**&#x200B;模式的支持。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
-* 您需要APN身份验证令牌签名密钥来生成您的服务器使用的令牌。 您从Apple开发人员帐户请求此密钥，如中所述 [Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* 您需要APN身份验证令牌签名密钥来生成您的服务器使用的令牌。 您从Apple开发人员帐户请求此密钥，如[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}中所述。
 
 
 #### 过渡过程 {#ios-transition-steps}
 
 要将iOS移动应用程序移动到基于令牌的身份验证模式，请执行以下步骤：
 
-1. 浏览至 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 浏览到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
    ![](assets/push_technote_1.png)
 
 1. 选择需要更新证书的特定移动应用程序。
 
-1. 查看 **[!UICONTROL Update app credentials]** 复选框。
+1. 选中&#x200B;**[!UICONTROL Update app credentials]**&#x200B;复选框。
 
    ![](assets/push_technote_2.png)
 
-1. 提供 **应用程序ID** (iOS捆绑包ID)。 您可以在Xcode中的应用程序主目标中找到iOS捆绑包ID（应用程序ID）。
+1. 提供&#x200B;**应用程序ID** (iOS捆绑包ID)。 您可以在Xcode中的应用程序主目标中找到iOS捆绑包ID（应用程序ID）。
 
-1. 上传您的 **iOS p8证书文件**.
+1. 上传&#x200B;**iOS p8证书文件**。
 
-1. 填写APN连接设置 **[!UICONTROL Key Id]** 和 **[!UICONTROL iOS Team Id]**.
+1. 填写APN连接设置&#x200B;**[!UICONTROL Key Id]**&#x200B;和&#x200B;**[!UICONTROL iOS Team Id]**。
 
    ![](assets/push_technote_4.png)
 

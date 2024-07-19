@@ -34,7 +34,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 >[!IMPORTANT]
 >
-> Adobe建议客户不要同时运行20个以上的活动工作流执行，并优先考虑工作流执行并将其分散到不同的时间段。 有关更多信息，请参阅中提供的最佳实践 [此页面](../../automating/using/best-practices-workflows.md).
+> Adobe建议客户不要同时运行20个以上的活动工作流执行，并优先考虑工作流执行并将其分散到不同的时间段。 有关详细信息，请参阅[此页面](../../automating/using/best-practices-workflows.md)中提供的最佳实践。
 
 ## 工作流活动 {#workflow-activities}
 
@@ -42,11 +42,11 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 提供了各种活动来帮助您设计工作流。
 
-[定位活动](../../automating/using/about-targeting-activities.md) 允许您通过定义集并使用交集、并集或排除操作拆分或组合这些集来构建一个或多个目标。
+[定位活动](../../automating/using/about-targeting-activities.md)允许您通过定义集并使用交集、并集或排除操作拆分或组合这些集来构建一个或多个目标。
 
-替换为 [执行活动](../../automating/using/about-execution-activities.md)，协调您的工作流及其活动，同时 [渠道活动](../../automating/using/about-channel-activities.md) 您可以合并Campaign Standard通信渠道，以创建跨渠道工作流程。
+通过[执行活动](../../automating/using/about-execution-activities.md)，协调工作流及其活动，而[渠道活动](../../automating/using/about-channel-activities.md)允许您合并Campaign Standard通信渠道以创建跨渠道工作流。
 
-最后， [数据管理活动](../../automating/using/about-data-management-activities.md) 允许您处理数据库中的数据。
+最后，[数据管理活动](../../automating/using/about-data-management-activities.md)允许您处理数据库中的数据。
 
 了解更多：
 
@@ -58,9 +58,9 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-利用 **查询编辑器** 过滤数据库中的数据，并构建群体以更好地定位收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众、定义投放目标或工作流活动中的群体。
+利用&#x200B;**查询编辑器**&#x200B;筛选数据库中的数据，并构建群体以更好地定位收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众、定义投放目标或工作流活动中的群体。
 
-查询编辑器附带 **预定义过滤器和规则** 以进行快速轻松的筛选。 但是，您也可以使用 **高级表达式编辑** 功能。 这允许您手动输入条件并使用函数，以形成自己的规则。
+查询编辑器附带&#x200B;**预定义过滤器和规则**，以便快速轻松地过滤。 但是，您还可以使用&#x200B;**高级表达式编辑**&#x200B;功能。 这允许您手动输入条件并使用函数，以形成自己的规则。
 
 了解更多：
 
@@ -72,17 +72,17 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard附带几个 **数据管理功能** 导入和导出数据。
+Campaign Standard具有多个&#x200B;**数据管理功能**&#x200B;以导入和导出数据。
 
-[工作流数据管理活动](../../automating/using/about-data-management-activities.md) 允许您导入数据、对字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
+[工作流数据管理活动](../../automating/using/about-data-management-activities.md)允许您导入数据、对字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
 
-替换为 [导入模板](../../automating/using/importing-data-with-import-templates.md)，通过简化的导入功能管理管理员定义的特定类型导入。
+使用[导入模板](../../automating/using/importing-data-with-import-templates.md)，通过简化的导入功能管理管理员定义的特定类型的导入。
 
-[导出日志](../../automating/using/exporting-logs.md) 允许您通过简单的工作流程导出日志数据，从而允许您在自己的报告或BI工具中分析营销活动的结果。
+[导出日志](../../automating/using/exporting-logs.md)允许您通过简单的工作流程导出日志数据，从而允许您在自己的报告或BI工具中分析营销活动的结果。
 
-利用 [包](../../automating/using/managing-packages.md) 在不同的campaign实例之间交换资源，例如，复制实例的配置，或者将数据从服务器传输到另一个服务器，包括自定义资源。
+利用[包](../../automating/using/managing-packages.md)在不同营销活动实例之间交换资源，例如，复制实例的配置，或者将数据从服务器传输到另一个服务器，包括自定义资源。
 
-最后， [导出列表](../../automating/using/exporting-lists.md) 允许您从Campaign Standard导出任何列表，例如测试用户档案的列表、隔离电子邮件地址的列表等。
+最后，[导出列表](../../automating/using/exporting-lists.md)允许您从Campaign Standard导出任何列表，例如测试用户档案列表、隔离电子邮件地址列表等。
 
 了解更多：
 

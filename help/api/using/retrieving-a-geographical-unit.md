@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 检索用户档案的地理单位 {#retrieving-geographical-unit}
 
-1. 对配置文件密钥执行GET请求以检索 **geoUnit** URL。
+1. 对配置文件PKey执行GET请求以检索&#x200B;**geoUnit** URL。
 1. 对URL执行GET请求以检索有关地理单位的更多详细信息。
 
 <br/>

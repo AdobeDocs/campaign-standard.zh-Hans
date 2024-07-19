@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 与自定义资源交互 {#interacting-with-custom-resources}
 
-此 **/customResources** 端点允许您在REST中公开Campaign自定义资源。 基于此API，可在自定义实体和外部端点之间实现集成。
+**/customResources**&#x200B;端点允许您在REST中公开Campaign自定义资源。 基于此API，可在自定义实体和外部端点之间实现集成。
 
 /customResources端点的行为与/profileAndServices端点完全相同。
 
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >隐私API端点和工作流(/privacy/privacyTool)不管理未链接到用户档案实体的自定义资源。
->您将负责管理和清理这些自定义资源的任何PII。 有关隐私工具的更多信息， [单击此处](../../api/using/creating-a-privacy-request.md).
+>您将负责管理和清理这些自定义资源的任何PII。 有关隐私工具的更多信息，[单击此处](../../api/using/creating-a-privacy-request.md)。

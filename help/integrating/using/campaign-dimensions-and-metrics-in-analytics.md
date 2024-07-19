@@ -19,7 +19,7 @@ ht-degree: 3%
 
 通过Adobe Campaign和Adobe Analytics集成，您可以直接在Adobe Analytics中跟踪电子邮件投放的成功情况。
 
-营销活动 **[!UICONTROL dimensions]** 可以在Analytics中找到以下项目：
+下面列出了在Analytics中找到的营销活动&#x200B;**[!UICONTROL dimensions]**：
 
 <table> 
  <thead> 
@@ -31,23 +31,23 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 营销活动ID<br /> </td> 
-   <td> 在Campaign中看到的营销活动的内部名称<br /> </td> 
+   <td> 营销活动的内部名称，如营销活动<br />中所示 </td> 
   </tr> 
   <tr> 
    <td> 营销活动标签<br /> </td> 
-   <td> 在Campaign中看到的营销活动标签<br /> </td> 
+   <td> 营销活动中的营销活动标签，如营销活动<br />中所示 </td> 
   </tr> 
   <tr> 
    <td> 投放ID<br /> </td> 
-   <td> 在Campaign中看到的投放的内部名称。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 “投放ID”维度随后将显示每次投放的结果，即DM1到DM4。 <br /> </td> 
+   <td> 在Campaign中看到的投放的内部名称。<br />例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，投放ID维度将显示每次投放的结果，即DM1到DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放标签<br /> </td> 
-   <td> 在Campaign中看到的投放标签<br /> </td> 
+   <td> 在Campaign<br />中看到的投放标签 </td> 
   </tr> 
   <tr> 
    <td> 执行的投放ID<br /> </td> 
-   <td> 在Campaign中看到的投放的内部名称。 这仅涉及在Campaign中执行的投放。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，“执行的投放ID”维度将显示执行的投放的结果，即子投放DM2、DM3和DM4。 <br /> </td> 
+   <td> 在Campaign中看到的投放的内部名称。 这仅涉及在Campaign中执行的投放。<br />例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，执行的投放ID维度将显示执行的投放的结果，即子投放DM2、DM3和DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 执行的投放标签<br /> </td> 
@@ -56,7 +56,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-营销活动 **[!UICONTROL metrics]** 可以在Analytics中找到以下项目：
+下面列出了在Analytics中找到的营销活动&#x200B;**[!UICONTROL metrics]**：
 
 <table> 
  <thead> 
@@ -72,11 +72,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 已投放<br /> </td> 
-   <td> 成功发送的消息数，与已发送消息的总数相关。<br /> </td> 
+   <td> 成功发送的邮件数，与已发送的邮件总数相关。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已打开<br /> </td> 
-   <td> 在投放中打开消息的次数。<br /> </td> 
+   <td> 在投放中打开邮件的次数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已发送<br /> </td> 
@@ -84,10 +84,10 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 退回总计<br /> </td> 
-   <td> 投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。<br /> </td> 
+   <td> 传递和自动返回处理期间累计的错误总数与已发送消息的总数之比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 独特打开<br /> </td> 
+   <td> 唯一打开<br /> </td> 
    <td> 打开投放的收件人数量。<br /> </td> 
   </tr> 
   <tr> 

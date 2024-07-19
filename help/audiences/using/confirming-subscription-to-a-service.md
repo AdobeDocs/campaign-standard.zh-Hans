@@ -52,7 +52,7 @@ ht-degree: 85%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   有关配置步骤，请参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md) 部分。
+   有关配置步骤，请参见[配置事务性事件](../../channels/using/configuring-transactional-event.md)一节。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL publicLabel]** 添加到数据结构，以启用协调。
 
@@ -85,14 +85,14 @@ ht-degree: 85%
 1. 通过 Adobe Campaign 徽标，选择 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** 并单击 **[!UICONTROL Transactional messages]**。
 1. 选择与上文中所发布事件对应的事务型电子邮件。
 
-1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。有关编辑事务型消息内容的更多信息，请参阅 [编辑事务型消息](../../channels/using/editing-transactional-message.md).
+1. 单击 **[!UICONTROL Content]** 部分，然后选择电子邮件模板。有关编辑事务型消息内容的更多信息，请参阅[编辑事务型消息](../../channels/using/editing-transactional-message.md)。
 1. 由于您可以直接访问 **[!UICONTROL Service]** 资源的所有字段，因此您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** > **[!UICONTROL Service]** 节点选择任何字段，以将内容个性化。
 
    ![](assets/confirmation_personalization-service.png)
 
    有关个性化事务型消息的更多信息，请参阅[此章节](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
-1. 使用测试用户档案预览消息。有关此内容的更多信息，请参阅 [定义特定测试用户档案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. 使用测试用户档案预览消息。有关详细信息，请参阅[定义特定测试配置文件](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 1. 单击 **[!UICONTROL Save & close]** 以保存您的内容。
 1. 发布事务型消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
@@ -141,7 +141,7 @@ ht-degree: 85%
 1. 从 Adobe Campaign 徽标访问 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 菜单，以创建事件。
 1. 输入标签，选择定向维度并单击 **[!UICONTROL Create]**。
 
-   有关配置步骤，请参见 [配置事务性事件](../../channels/using/configuring-transactional-event.md) 部分。
+   有关配置步骤，请参见[配置事务性事件](../../channels/using/configuring-transactional-event.md)一节。
 
 1. 在 **[!UICONTROL Fields]** 部分中，单击 **[!UICONTROL Create element]** 并将 **[!UICONTROL serviceName]** 添加到数据结构，以启用协调。
 

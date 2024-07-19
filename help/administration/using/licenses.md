@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # 许可证{#licenses}
 
-此 **[!UICONTROL Licenses]** 窗口允许您查看实例上安装的许可证以及有关该许可证的不同信息，如内部版本号、版本版本号或协议条款是否已被接受以及接受者。
+**[!UICONTROL Licenses]**&#x200B;窗口允许您查看实例上安装的许可证以及有关该许可证的不同信息，如内部版本号、版本版本或协议条款是否已被接受以及接受者。
 
 ![](assets/license_1.png)
 
 使用新的内部版本或新功能时，许可条款可能会发生更改，并且必须由实例的功能管理员接受。
 
-标准用户登录后将显示以下窗口，用户无需执行任何操作。 他们仍然可以在Adobe Campaign上工作，只需单击 **[!UICONTROL OK]** 按钮。
+标准用户登录后将显示以下窗口，用户无需执行任何操作。 通过单击&#x200B;**[!UICONTROL OK]**&#x200B;按钮，他们仍可在Adobe Campaign上工作。
 
 ![](assets/license_2.png)
 
-管理员必须在版本安装后的30天内通过选中来阅读并确认新的协议条款 **[!UICONTROL I accept the terms from the license agreement]** 并单击 **[!UICONTROL Confirm]**.
+管理员必须在版本安装后的30天内通过选中&#x200B;**[!UICONTROL I accept the terms from the license agreement]**&#x200B;并单击&#x200B;**[!UICONTROL Confirm]**&#x200B;阅读并确认新的协议条款。
 
 ![](assets/license_3.png)
 

@@ -38,13 +38,13 @@ ht-degree: 82%
 
 **相关主题**
 
-* [用例：根据用户档案的年龄组对其进行分段](../../automating/using/segmentation-age-groups.md).
+* [用例：根据年龄组对配置文件进行分段](../../automating/using/segmentation-age-groups.md)。
 
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Segmentation]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 在 **[!UICONTROL General]** 选项卡，选择 **[!UICONTROL Resource type]** 必须对其执行分段：
+1. 在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中，选择要对其执行分段的&#x200B;**[!UICONTROL Resource type]**：
 
    * 如果对数据库中已存在的数据执行分段，则是 **[!UICONTROL Database resource]**。根据要分段的数据选择 **[!UICONTROL Filtering dimension]**。默认情况下，会对&#x200B;**用户档案**&#x200B;执行分段。
    * 如果对工作流的临时数据执行分段，则是 **[!UICONTROL Temporary resource]**：选择包含待分段数据的 **[!UICONTROL Targeted set]**。在导入文件后或扩充数据库中的数据后，可以会遇到此使用案例。
@@ -61,7 +61,7 @@ ht-degree: 82%
    * **[!UICONTROL Limit segment population]**：用于限制区段的大小。
    * **[!UICONTROL Filter and limit segment population]**：用于筛选区段群体并限制其大小。
    * **[!UICONTROL Label]**：区段标签。
-   * **[!UICONTROL Segment code]**：分配给区段群体的代码。段码可以使用标准表达式和事件变量进行个性化(请参阅 [此页面](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**：分配给区段群体的代码。段码可以使用标准表达式和事件变量进行个性化（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
    * **[!UICONTROL Exclude segment from population]**：用于从活动的叫客群体中排除指定的区段。只有选择了 **[!UICONTROL Generate all segments in the same transition]** 选项时，才可使用此选项。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -95,10 +95,10 @@ ht-degree: 82%
 1. 重复此过程的第 6 步到第 10 步，根据需要添加所需数量的区段。
 1. 根据需要，编辑 **[!UICONTROL Advanced options]** 选项卡中的参数：
 
-   * 此 **[!UICONTROL Enable overlapping of outbound populations]** 选项定义如何管理属于多个区段的用户档案：
-      * 未启用该选项时， **[!UICONTROL Segmentation]** 活动会检查在多个输出过渡中不存在某个用户档案，即使此用户档案满足多个子集的条件也是如此。
+   * **[!UICONTROL Enable overlapping of outbound populations]**&#x200B;选项定义如何管理属于多个区段的用户档案：
+      * 未启用该选项时，**[!UICONTROL Segmentation]**&#x200B;活动会检查在多个输出转换中不存在配置文件，即使此配置文件满足多个子集的条件也是如此。
       * 启用该选项后，如果用户档案符合筛选条件，则可以在多个子集中找到这些用户档案。
-   * 如果已经为集客群体分配了要保留的段码，请检查 **[!UICONTROL Concatenate the code of each segment]** 选项。 在活动中指定的段码，将被添加到初始段码。
-   * 如果需要利用剩余群体，请检查 **[!UICONTROL Generate complement]** 选项。 请参阅 [使用案例：创建带补码的投放](../../automating/using/workflow-created-query-with-complement.md).
+   * 如果已经为集客群体分配了要保留的段码，请选中&#x200B;**[!UICONTROL Concatenate the code of each segment]**&#x200B;选项。 在活动中指定的段码，将被添加到初始段码。
+   * 如果需要利用剩余群体，请选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;选项。 请参阅[用例：创建具有补码](../../automating/using/workflow-created-query-with-complement.md)的投放。
 
 1. 确认活动的配置并保存工作流。

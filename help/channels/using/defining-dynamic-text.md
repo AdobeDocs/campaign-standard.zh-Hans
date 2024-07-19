@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # 定义动态文本{#defining-dynamic-text}
 
-动态文本的定义方式与动态内容相同。 请参阅 [定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 部分。
+动态文本的定义方式与动态内容相同。 请参阅[定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)一节。
 
 >[!NOTE]
 >
->对于短信和推送，您只能定义动态文本。 您可以在登陆页面中定义动态内容和文本。 如果要使用定义动态文本 [电子邮件设计工具](../../designing/using/designing-content-in-adobe-campaign.md)，请参见 [定义电子邮件中的动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>对于短信和推送，您只能定义动态文本。 您可以在登陆页面中定义动态内容和文本。 如果要使用[电子邮件Designer](../../designing/using/designing-content-in-adobe-campaign.md)定义动态文本，请参阅[在电子邮件中定义动态内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 请注意，替代对（未包含在Unicode字符集的基本多语言平面中的字符）不能以2字节（16位）存储，并且需要编码为2个UTF-16字符。 这些字符包括一些CJK表意文字，大多数表情符号和一些语言。
 <br>这些字符可能会导致动态文本中存在某些不兼容问题。 在发送消息之前，您需要执行强有力的测试。
@@ -34,7 +34,7 @@ ht-degree: 3%
 
    ![](assets/dynamic_text_sms_1.png)
 
-   此 **[!UICONTROL Dynamic text]** 选项将显示在面板中。 它的配置方式与动态内容相同。
+   **[!UICONTROL Dynamic text]**&#x200B;选项将显示在面板中。 它的配置方式与动态内容相同。
 
 1. 选择变体。
 

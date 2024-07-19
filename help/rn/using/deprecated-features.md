@@ -40,13 +40,13 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>适用于移动应用程序的SDK V4</strong><br /> </th> 
+   <th> 移动应用程序的<strong>SDK V4</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在Adobe Campaign Standard中使用这个旧版SDK，则必须使用Adobe Experience Platform SDK更新您的实施 <strong>2024年6月底之前</strong>. </p></br>
-   <p>读取 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a> 了解如何调整实施并迁移到最新的Experience PlatformSDK。</p></br>
+   <td> <p>截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在Adobe Campaign Standard中使用这个旧版SDK，则必须在2024年6月底之前使用Adobe Experience Platform SDK <strong>更新您的实施</strong>。 </p></br>
+   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a>以了解如何调整您的实施并迁移到最新的Experience PlatformSDK。</p></br>
    <p><strong>注意</strong>：从2024年6月底开始，Campaign Standard将不再支持SDK V4。</p>
   </td> 
   </tr> 
@@ -64,7 +64,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> 创建和个性化电子邮件内容。 </p></br>
+   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign电子邮件Designer</a>创建和个性化您的电子邮件内容。 </p></br>
    <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
   </td> 
   </tr> 
@@ -128,9 +128,9 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 现已删除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hans">了解详情</a>。</p><br/>
-   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform移动SDK</a> （以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
+   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a>（以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
-   <p>了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本页内容</a>.</p></br>
+   <p>在此页面</a>中了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隐私核心服务</a>.</p></br>
+   <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除不再可用。 使用<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隐私核心服务</a>。</p></br>
    <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隐私请求</a>。</p>
   </td> 
   </tr> 
@@ -189,7 +189,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] 已停用。 因此，图像编辑由以下提供支持 [!DNL Creative SDK] 从Campaign 20.2版本开始，Campaign Standard中的电子邮件不再可用。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] 已停用。 因此，从Campaign 20.2版本开始，Campaign Standard电子邮件中由[!DNL Creative SDK]提供支持的图像编辑功能不再可用。</p></br>
    </td> 
   </tr> 
  </tbody> 

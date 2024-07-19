@@ -41,7 +41,7 @@ ht-degree: 86%
 
    您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。
 
-   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。有关详细信息，请参见 [此页面](../../automating/using/customizing-workflow-external-parameters.md) 部分。
+   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。有关详细信息，请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)部分。
 
    ![](assets/readaudience_activity1.png)
 

@@ -155,7 +155,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->要访问投放日志，您需要拥有 [管理员角色](../../administration/using/users-management.md#functional-administrators) 并成为 **[!UICONTROL All]** [组织单位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>要访问投放日志，您需要具有[管理员角色](../../administration/using/users-management.md#functional-administrators)，并且是&#x200B;**[!UICONTROL All]** [组织单位](../../administration/using/organizational-units.md)的一部分。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 检查投放日志 {#checking-logs}
 

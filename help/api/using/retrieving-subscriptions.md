@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->REST API返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL发出后续API请求</b>.
+>REST API返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL发出后续API请求</b>。
 
 <br/>
 

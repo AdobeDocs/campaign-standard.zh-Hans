@@ -53,7 +53,7 @@ Adobe团队需要以下信息来激活触发器：
 >
 >子域配置是可投放性关键元素。 确保Adobe Campaign电子邮件是从与网站使用的相同的域发送的。
 
-您需要配置 [Experience CloudDTM核心服务](#configuring-experience-cloud-dtm-core-service)， [Experience Cloud人员核心服务](#configuring-experience-cloud-people-core-service) 和 [营销活动](#configuring-triggers-and-aliases-in-campaign) 以运行这些用例。
+您需要配置[Experience CloudDTM核心服务](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人员核心服务](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)以运行这些用例。
 
 ### 配置Experience Cloud DTM核心服务 {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ Adobe团队需要以下信息来激活触发器：
 
 ### 在Campaign中配置触发器和别名 {#configuring-triggers-and-aliases-in-campaign}
 
-1. 确保您拥有 **[!UICONTROL Experience Cloud triggers]** 在您的Adobe Campaign Standard实例上可见。 否则，请联系Adobe Campaign管理员。
+1. 确保在您的Adobe Campaign Standard实例上可见&#x200B;**[!UICONTROL Experience Cloud triggers]**。 否则，请联系Adobe Campaign管理员。
 
    ![](assets/remarketing_1.png)
 
-1. 别名使Analytics中的联系人能够与Campaign中的用户档案进行协调。 您需要将Experience CloudID服务中定义的别名与Campaign中的共享数据源匹配。 Adobe Campaign您需要通过数据源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )。 请确保在 **[!UICONTROL Data Source/Alias]** 下拉菜单，该菜单与在上一步中创建的同一客户属性数据源映射。
+1. 别名使Analytics中的联系人能够与Campaign中的用户档案进行协调。 您需要将Experience CloudID服务中定义的别名与Campaign中的共享数据Source匹配。 您需要通过数据源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中配置别名解析。 确保在&#x200B;**[!UICONTROL Data Source/Alias]**&#x200B;下拉菜单中选择正确的数据源，该数据源与上一步中创建的同一客户属性数据源映射。
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >您可以为匿名用户和登录用户协调触发器。 对于匿名用户，该用户档案应存在于Adobe Campaign中，并且以前曾向用户发送过电子邮件。 为此，只需配置访客ID即可。 但是，如果要协调登录用户的触发器，则需要设置声明的ID数据源。 有关详细信息，请参见 [数据源配置](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >您可以为匿名用户和登录用户协调触发器。 对于匿名用户，该用户档案应存在于Adobe Campaign中，并且以前曾向用户发送过电子邮件。 为此，只需配置访客ID即可。 但是，如果要协调登录用户的触发器，则需要设置声明的ID数据Source。 有关详细信息，请参阅[数据Source配置](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
 
 ## 在Experience Cloud界面中创建触发器 {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Adobe团队需要以下信息来激活触发器：
 
 在Experience Cloud中创建新触发器，并确保选择您网站上使用的报表包。 确保选择正确的维度，以便触发程序。
 
-请参阅 [Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
 
 ## 触发器最佳实践和限制 {#triggers-best-practices-and-limitations}
 

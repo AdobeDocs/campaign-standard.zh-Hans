@@ -48,7 +48,7 @@ ht-degree: 52%
 1. 指定 **[!UICONTROL Execution frequency]**：
 
    * **[!UICONTROL Once]**：该工作流只执行一次。
-   * **[!UICONTROL Several times a day]**：该工作流每天定期执行多次。
+   * **[!UICONTROL Several times a day]**：工作流每天定期执行多次。
    * **[!UICONTROL Daily]**：工作流在特定时间执行，每天执行一次。
    * **[!UICONTROL Weekly]**：工作流在指定的时间执行，每周执行一次或多次。
    * **[!UICONTROL Monthly]**：工作流在指定的时间执行，每月执行一次或多次。您可以选择需要执行工作流的月份。您还可以设置在月份的指定工作日（如每月的第二个星期二）执行。
@@ -58,29 +58,29 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Repetition frequency]** 字段适用于每日和每月执行频率，允许您在触发工作流时间隔时间。 例如，如果您选择每天执行一次，而重复频率设置为 **2**（天），则会每两天触发一次工作流。间隔时间不能少于 10 分钟。如果重复频率设置为 **0** （也是默认值），不会考虑此选项，工作流将根据指定的执行频率运行。
+   >对每日和每月执行频率可用的&#x200B;**[!UICONTROL Repetition frequency]**&#x200B;字段允许您在触发工作流时指定间隔时间。 例如，如果您选择每天执行一次，而重复频率设置为 **2**（天），则会每两天触发一次工作流。间隔时间不能少于 10 分钟。如果重复频率设置为&#x200B;**0**（这也是默认值），则不会考虑此选项，工作流将根据指定的执行频率运行。
 
-   将执行频率设置为 **[!UICONTROL Several times a day]**，您可以灵活地选择在一天中的特定时间执行工作流，或者在一天中定期执行工作流。
+   将执行频率设置为&#x200B;**[!UICONTROL Several times a day]**&#x200B;时，您可以灵活选择在一天中的特定时间执行工作流还是在一天中定期执行工作流。
 
-+++ 了解如何配置 **[!UICONTROL "Several times a day"]** 执行频率
++++ 了解如何配置&#x200B;**[!UICONTROL "Several times a day"]**&#x200B;执行频率
 
-   * 要在一天中的特定时间多次执行工作流，请打开 **[!UICONTROL Specific times]** option ，然后单击 **[!UICONTROL Add an element]** 以指定所需的执行时间。 根据需要添加任意次数以满足您的要求。
+   * 要在一天中的特定时间多次执行工作流，请打开&#x200B;**[!UICONTROL Specific times]**&#x200B;选项，然后单击&#x200B;**[!UICONTROL Add an element]**&#x200B;以指定所需的执行时间。 根据需要添加任意次数以满足您的要求。
 
-   * 要在一天中定期执行工作流，请打开 **[!UICONTROL Periodic]** 选项，然后配置执行周期：
+   * 要在一天中定期执行工作流，请打开&#x200B;**[!UICONTROL Periodic]**&#x200B;选项，然后配置执行周期：
 
-      1. 在 **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** 字段，指定执行工作流的间隔（例如，每30分钟、每2小时）。
+      1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;字段中，指定工作流应执行的间隔（例如，每30分钟、每2小时）。
 
          >[!NOTE]
          >
          >此选项还允许每日、每月或每年重复频率。 请注意，在这种情况下，工作流不会每天执行多次，而是根据您在此字段中指定的频率执行。
          >
-         > 如果您的工作流不需要在一天内多次执行，而是需要每天、每月或每年运行，则建议使用 **[!UICONTROL Daily]**， **[!UICONTROL Monthly]** 或 **[!UICONTROL Yearly]** 中可用的选项 **[!UICONTROL Execution frequency]** 下拉列表。
+         > 如果您的工作流不需要在一天内多次执行，而是需要每天、每月或每年运行，则最好使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉列表中提供的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;选项。
 
-      1. 在 **[!UICONTROL Start]**/**[!UICONTROL End]** 时间字段，定义工作流执行的开始和结束时间。
+      1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;时间字段中，定义工作流执行的开始和结束时间。
 
-         如果未指定结束时间，则执行将在午夜00终止:00:00小时，第二天在指定的开始时间开始下一个执行。
+         如果未指定结束时间，则执行将在午夜00:00:00时终止，并在第二天指定的开始时间开始下一次执行。
 
-      1. 在 **[!UICONTROL Start]** 日期字段，选择第一次执行的开始日期。
+      1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期字段中，选择第一次执行的开始日期。
 
    在下面的示例中，活动配置为从3月1日开始每隔2小时执行一次工作流，时间介于上午8点至下午5点。
 

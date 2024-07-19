@@ -21,12 +21,12 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->要发布API，请确保您具有 **[!UICONTROL Datamodel]** 角色。
+>要发布API，请确保您具有&#x200B;**[!UICONTROL Datamodel]**&#x200B;角色。
 
 在公共API中公开扩展字段的步骤如下：
 
 1. [将扩展字段添加到用户档案资源](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [发布扩展](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish扩展](../../developing/using/step-2-publish-the-extension.md)
 1. [验证API中是否有新的扩展字段可用](../../developing/using/step-3-verify-the-extension.md)
 
 **相关主题：**

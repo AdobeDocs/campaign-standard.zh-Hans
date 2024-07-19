@@ -23,7 +23,7 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 >
 >也可以使用 Adobe Campaign Standard API 创建用户档案。有关更多信息，请参阅[专用文档](../../api/using/creating-profiles-api.md)。
 
-![](assets/do-not-localize/how-to-video.png) [在视频中了解如何使用工作流导入用户档案](#video)
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中使用工作流导入用户档案](#video)
 
 要在 Campaign 中创建或更新用户档案，您可以：
 
@@ -52,11 +52,11 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系用户档案的渠道。
 
      >[!NOTE]
-     > 手机号码必须始终采用国际格式(`+<country><number>`)格式。
+     > 在配置文件表中，手机号码必须始终采用国际格式(`+<country><number>`)格式。
 
    * 一旦用户档案取消订阅了某个渠道，则会立即更新 **[!UICONTROL No longer contact]** 类别。
    * **[!UICONTROL Address]** 类别包含需要填写的邮政地址以及向此用户档案发送[直邮](../../channels/using/about-direct-mail.md)的 **[!UICONTROL Address specified]** 选项。如果未勾选 **[!UICONTROL Address specified]** 选项，则此用户档案将从所有直邮投放中排除。
-   * 此 **[!UICONTROL Access authorization]** 类别指示要访问的用户档案的组织单位 [管理权限](../../administration/using/about-access-management.md). 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
+   * **[!UICONTROL Access authorization]**&#x200B;类别指示要[管理权限](../../administration/using/about-access-management.md)的用户档案的组织单位。 要向用户档案添加组织字段，请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)一节。
    * **[!UICONTROL Traceability]** 类别会自动更新与创建或修改用户档案之用户相关的信息。
 
 1. 单击 **[!UICONTROL Create]** 以保存用户档案。
@@ -72,4 +72,4 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-提供了其他Campaign Standard操作方法视频 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans).
+[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

@@ -19,8 +19,8 @@ ht-degree: 17%
 
 可以监视工作流中可用的事件变量，包括声明的外部参数。 为此请执行以下操作步骤：
 
-1. 选择遵循的活动 **[!UICONTROL External signal]** 活动，然后单击 **[!UICONTROL Log and tasks]** 按钮。
-1. 在 **[!UICONTROL Tasks]** 选项卡，单击 ![](assets/edit_darkgrey-24px.png) 按钮。
+1. 选择&#x200B;**[!UICONTROL External signal]**&#x200B;活动后的活动，然后单击&#x200B;**[!UICONTROL Log and tasks]**&#x200B;按钮。
+1. 在&#x200B;**[!UICONTROL Tasks]**&#x200B;选项卡中，单击![](assets/edit_darkgrey-24px.png)按钮。
 
    ![](assets/extsignal_monitoring_2.png)
 

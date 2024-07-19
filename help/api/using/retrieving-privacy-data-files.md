@@ -19,15 +19,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->此 [隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service) “集成”是您应当用于所有访问和删除请求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>[隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service)集成是您应当用于所有访问和删除请求的方法。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 要检索包含与协调值相关的所有信息的文件，请按照以下三个步骤进行操作：
 
-1. 执行 **POST** 请求，以使用属性创建新请求 **type=&quot;access&quot;**，请参见 [创建新的隐私请求](../../api/using/creating-a-privacy-request.md).
+1. 执行&#x200B;**POST**&#x200B;请求以使用属性&#x200B;**type=&quot;access&quot;**&#x200B;创建新请求，请参阅[创建新的隐私请求](../../api/using/creating-a-privacy-request.md)。
 
-1. 执行 **GET** 请求以检索有关请求的信息。
+1. 执行&#x200B;**GET**&#x200B;请求以检索有关该请求的信息。
 
-1. 通过执行 **POST** 请求已返回 **privacyRequestData** URL，有效负载中带有隐私请求内部名称。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
+1. 通过对返回的&#x200B;**privacyRequestData** URL执行&#x200B;**POST**&#x200B;请求，检索数据文件，隐私请求内部名称在有效负载中。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
 
 <br/>
 

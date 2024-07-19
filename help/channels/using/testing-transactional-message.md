@@ -24,7 +24,7 @@ ht-degree: 30%
 
 定义将链接到事件的测试用户档案，用于预览消息并发送相关校样。
 
-1. 从 [事务性消息仪表板](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)，单击 **[!UICONTROL Create test profile]** 按钮。
+1. 在[事务性消息仪表板](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)中，单击&#x200B;**[!UICONTROL Create test profile]**&#x200B;按钮。
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,22 +34,22 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >如果丰富了消息，您还可以输入与另一表格相关的信息，例如 **[!UICONTROL Profile]**. 请参阅 [丰富活动](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >如果您扩充了邮件，还可以输入与另一张表相关的信息，如&#x200B;**[!UICONTROL Profile]**。 请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
 1. 创建后，将在事务型消息中预先指定测试用户档案。 单击消息的 **[!UICONTROL Test profiles]** 块，可查看校样的目标。
 
    ![](assets/message-center_5.png)
 
-您还可以创建新的测试用户档案，或使用中已存在的测试用户档案 **[!UICONTROL Test profiles]** 菜单。 操作步骤：
+您还可以创建新的测试配置文件，或使用&#x200B;**[!UICONTROL Test profiles]**&#x200B;菜单中已存在的测试配置文件。 操作步骤：
 
-1. 单击 **Adobe** 徽标，位于左上角，然后选择 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. 在 **[!UICONTROL Event]** 部分，选择之前创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
+1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
+1. 在&#x200B;**[!UICONTROL Event]**&#x200B;部分中，选择您刚刚创建的事件。 在本例中，选择“购物车放弃 (EVTcartAbandonment)”。
 1. 在 **[!UICONTROL Event data]** 文本框中指定要以 JSON 格式发送的信息。
 
    ![](assets/message-center_3.png)
 
 1. 保存更改。
-1. [访问消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) ，并选择更新的测试用户档案。
+1. [访问您创建的消息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)，并选择更新的测试配置文件。
 
 **相关主题：**
 
@@ -62,4 +62,4 @@ ht-degree: 30%
 
 ![](assets/message-center_10.png)
 
-有关发送校样的详细步骤，请参见 [发送校样](../../sending/using/sending-proofs.md) 部分。
+有关发送校样的详细步骤，请参见[发送校样](../../sending/using/sending-proofs.md)一节。

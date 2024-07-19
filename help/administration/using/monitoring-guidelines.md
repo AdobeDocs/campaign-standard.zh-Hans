@@ -38,7 +38,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **控制面板**
 
-控制面板允许您管理实例的多个设置： URL权限，检查实例详细信息（如服务器的内部版本号），监控活动配置文件使用情况等。 它还允许您监视连接到实例的SFTP服务器上的可用空间。 [阅读更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
+控制面板允许您管理实例的多个设置： URL权限，检查实例详细信息（如服务器的内部版本号），监控活动配置文件使用情况等。 它还允许您监视连接到实例的SFTP服务器上的可用空间。 [了解更多信息](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **技术对象**
 
-此 **[!UICONTROL Diagnosis]** 菜单是监测和分析应用程序产生的各种技术对象的重要工具：数据模式、网页、批处理作业等。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
+**[!UICONTROL Diagnosis]**&#x200B;菜单是监视和分析应用程序生成的不同技术对象的关键工具：数据架构、网页、批处理作业等。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
 
 **导出审核**
 
@@ -55,7 +55,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **许可证**
 
-使用 **[!UICONTROL Licenses]** 菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
+使用&#x200B;**[!UICONTROL Licenses]**菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
 [了解更多信息](../../administration/using/licenses.md)
 
 ## 监控工作流 {#monitoring-workflows}

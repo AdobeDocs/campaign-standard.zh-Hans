@@ -32,29 +32,29 @@ ht-degree: 3%
 
 * 在消息仪表板中，您可以访问此特定消息的多个报表。
 
-有关更多信息，请参阅 [监控投放](../../sending/using/monitoring-a-delivery.md).
+有关详细信息，请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)。
 
 ## 跟踪 {#tracking-deliveries}
 
-为了更好地了解定向用户档案的行为，您可以跟踪他们对投放的反应：接收、打开、单击链接、取消订阅等。 请参阅 **跟踪日志** 的选项卡。
+为了更好地了解定向用户档案的行为，您可以跟踪他们对投放的反应：接收、打开、单击链接、取消订阅等。 请参阅投放的&#x200B;**跟踪日志**&#x200B;选项卡。
 
-**提示**：默认启用消息跟踪。 要配置URL，请选择投放向导下方的显示URL选项。 对于消息的每个URL，您可以选择是否激活跟踪。
+**提示**：默认情况下启用邮件跟踪。 要配置URL，请选择投放向导下方的显示URL选项。 对于消息的每个URL，您可以选择是否激活跟踪。
 
-有关详细信息，请参见 [跟踪消息](../../sending/using/tracking-messages.md) 部分和 [跟踪指标](../../reporting/using/tracking-indicators.md) 描述。
+有关详细信息，请参阅[跟踪邮件](../../sending/using/tracking-messages.md)部分和[跟踪指示器](../../reporting/using/tracking-indicators.md)说明。
 
 ## 动态报告 {#dyn-reports}
 
 动态报告允许您创建完全可自定义的实时报告来监控活动。 通过Dimension、量度和可视化图表，您可以衡量营销活动对收件人的影响和成功。
 
-**提示**  — 您可以使用内置的报告来监测营销活动，但也可以通过将任何量度或维度拖放到报告中来自定义这些报告。
+**提示** — 您可以使用内置报告来监视营销活动，但也可以通过将任何量度或维度拖放到报告中来自定义这些报告。
 
-有关详细信息，请参见 [报告指南](../../reporting/using/about-dynamic-reports.md).
+有关详细信息，请参阅[报告指南](../../reporting/using/about-dynamic-reports.md)。
 
 ## 热门点击
 
 “热门点击”报表显示消息内容(HTML和/或文本)以及每个链接上的点击百分比。 通过显示每个动态内容的点击百分比，您可以测量哪些内容对收件人最具吸引力。
 
-有关详细信息，请参见 [点击式报告](../../reporting/using/hot-clicks.md).
+有关详细信息，请参阅[点击式报告](../../reporting/using/hot-clicks.md)。
 
 ## 投放性能提示 {#performance-tips}
 

@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 
 个性化消息是发送相关内容、提供个性化体验并提高打开率和转化率的关键。 Adobe Campaign投放的跨渠道消息可以通过几种不同的方式进行个性化。 根据用户档案，可以将这些方法与标准结合使用。 您可以：
 
-* 插入 [动态个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的邮件中
-* 插入 [预定义的个性化块](../../designing/using/personalization.md#adding-a-content-block)
-* [个性化发件人](../../designing/using/subject-line.md) 电子邮件或短信的
-* [个性化设置主题行](../../designing/using/subject-line.md) 电子邮件的
-* 创建 [电子邮件中的条件内容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [在登陆页面中](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 插入 [动态文本](../../channels/using/defining-dynamic-text.md) 在短信消息或推送通知中
+* 在邮件中插入[动态个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)
+* 插入[预定义的个性化块](../../designing/using/personalization.md#adding-a-content-block)
+* [个性化电子邮件或短信的发件人](../../designing/using/subject-line.md)
+* [个性化电子邮件的主题行](../../designing/using/subject-line.md)
+* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容
+* 在短信消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
 
 **了解更多信息**
 
-* 通过发现电子邮件个性化 [端到端示例](../../designing/using/personalization.md#example-email-personalization)
+* 通过[端到端示例](../../designing/using/personalization.md#example-email-personalization)发现电子邮件个性化
 * [个性化URL](../../designing/using/personalization.md#personalizing-urls)
 * [设置图像的个性化](../../designing/using/personalization.md#personalizing-an-image-source)
 

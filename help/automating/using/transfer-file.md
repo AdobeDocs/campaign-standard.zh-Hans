@@ -54,17 +54,17 @@ ht-degree: 75%
    * [Microsoft Azure Blob存储](#azure-blob-configuration-wf)
    * [Adobe Campaign服务器上存在的文件](#files-server-configuration-wf)
 
-1. 此 **[!UICONTROL Additional options]** 部分（根据所选协议提供）允许您向协议添加参数。
+1. 根据所选协议提供的&#x200B;**[!UICONTROL Additional options]**&#x200B;部分允许您向协议添加参数。
 
    您可以：
 
-   * **[!UICONTROL Delete the source files after transfer]**：擦除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中存档内容的大小。
+   * **[!UICONTROL Delete the source files after transfer]**：清除远程服务器上的文件。 如果未选中此选项，请确保手动监控SFTP目录中存档内容的大小。
 
-   * **[!UICONTROL Sorting files]**：用于按字母数字对文件排序。 默认禁用此选项。
+   * **[!UICONTROL Sorting files]**：允许您按字母数字对文件进行排序。 默认禁用此选项。
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：在选择 **[!UICONTROL File listing]** 中的操作 **[!UICONTROL General]** 选项卡。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
+   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL File listing]**&#x200B;操作时，此选项可用。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
 
@@ -78,20 +78,20 @@ ht-degree: 75%
 
 利用 HTTP 协议，可从外部帐户或 URL 开始下载文件。
 
-使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项。 在这种情况下，请选择所需的帐户，并指定要下载的文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;选项。 在这种情况下，请选择所需的帐户，并指定要下载的文件的路径。
 
 ![](assets/wkf_file_transfer_03.png)
 
 您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**， **[!UICONTROL Ignore the HTTP return code]**、和 **[!UICONTROL Add received HTTP headers to the file]** 是选择HTTP协议时可用的其他选项。
+选择HTTP协议时，**[!UICONTROL Follow redirections]**、**[!UICONTROL Ignore the HTTP return code]**&#x200B;和&#x200B;**[!UICONTROL Add received HTTP headers to the file]**&#x200B;是可用的其他选项。
 
 ### 使用SFTP进行配置 {#SFTP-configuration-wf}
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-使用此协议，您可以选择 **[!UICONTROL Use connection parameters defined in an external account]** 选项，然后选择所需的帐户并指定要下载的文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项，然后选择所需的帐户并指定下载文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -116,7 +116,7 @@ ht-degree: 75%
    >
    > Amazon S3不支持通配符。
    >
-   > 定位多个文件，如 `my_file_02` 和 `my _file_3433`中，您可以使用以下语法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > 若要定位多个文件（如`my_file_02`和`my _file_3433`），可以使用以下语法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
 
 4. 如果要在传输完成时删除源文件，请勾选 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -145,7 +145,7 @@ ht-degree: 75%
 ### 使用Adobe Campaign服务器上存在的文件进行配置 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 协议对应于包含待取回文件的存储库。
-元字符或通配符(例如 &#42; 或？) 用于筛选文件。
+元字符或通配符（例如&#42;或？） 用于筛选文件。
 
 选择是要 **[!UICONTROL Define a file path]** 还是要 **[!UICONTROL Use a dynamic file path]**
 利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
@@ -154,11 +154,11 @@ ht-degree: 75%
 
 例如：
 
-`user&lt;yourinstancename>/my_recipients.csv` 是正确的。
+`user&lt;yourinstancename>/my_recipients.csv`是正确的。
 
-`../hello/my_recipients.csv` 不正确。
+`../hello/my_recipients.csv`不正确。
 
-`//myserver/hello/myrecipients.csv` 不正确。
+`//myserver/hello/myrecipients.csv`不正确。
 
 ## 历史化设置 {#historization-settings}
 
@@ -180,9 +180,9 @@ ht-degree: 75%
 
 ## 输出变量 {#output-variables}
 
-此 **[!UICONTROL Transfer file]** 活动会生成事件变量作为输出，您可以将其用于其他活动，例如使用 [测试](../../automating/using/test.md) 活动。
+**[!UICONTROL Transfer file]**&#x200B;活动生成事件变量作为输出，您可以在其他活动中利用这些变量，例如使用[Test](../../automating/using/test.md)活动检查已下载文件的数量。
 
-请注意，事件变量也可以使用外部信号传递给另一个工作流(请参阅 [使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md))。
+请注意，事件变量也可以使用外部信号传递给另一个工作流（请参阅[使用外部参数自定义工作流](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 可用的输出变量包括：
 

@@ -30,15 +30,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 这些步骤需要 **管理员** 在您组织的Experience Cloud中的角色。
+> 这些步骤需要在贵组织的Experience Cloud中扮演&#x200B;**管理员**&#x200B;角色。
 >
 
 1. 浏览https://experience.adobe.com/并登录Adobe Experience Cloud。
-1. 访问 **Admin Console**.
+1. 访问&#x200B;**Admin Console**。
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. 单击 **[!UICONTROL Products]** 以访问您的Experience Cloud解决方案。
+1. 单击&#x200B;**[!UICONTROL Products]**&#x200B;以访问您的Experience Cloud解决方案。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,15 +56,15 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. 单击 **[!UICONTROL New Profile]** 按钮并添加名为的新条目： **Campaign Standard- your-prod-instance-name - D365/ACS集成**
+1. 单击&#x200B;**[!UICONTROL New Profile]**&#x200B;按钮并添加名为&#x200B;**Campaign Standard- your-prod-instance-name - D365/ACS集成**&#x200B;的新条目
 
-   * 如果您在列表中看到此条目，则无需继续。 单击 **Adobe Campaign Standard** 并检查其他Campaign实例。
+   * 如果您在列表中看到此条目，则无需继续。 单击左侧菜单中的&#x200B;**Adobe Campaign Standard**，然后检查其他Campaign实例。
 
    * 请确保将“your-prod-instance-name”替换为您的实例的实际名称。
 
-1. 您可以离开 **[!UICONTROL Permission Group]** 下拉列表的默认值。
+1. 您可以将&#x200B;**[!UICONTROL Permission Group]**&#x200B;下拉列表保留为默认值。
 
-1. 如果您的输入内容与以下内容类似，请单击 **[!UICONTROL Done]** 按钮。
+1. 如果条目与以下内容类似，请单击&#x200B;**[!UICONTROL Done]**&#x200B;按钮。
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -74,17 +74,17 @@ ht-degree: 0%
 
 ## 授予用户访问权限 {#add-users-to-profile}
 
-从 **[!UICONTROL Products]**  页面上，选择您的Campaign实例，然后执行以下步骤：
+从&#x200B;**[!UICONTROL Products]**&#x200B;页面中，选择您的Campaign实例，然后执行以下步骤：
 
-1. 单击您之前创建的新配置文件：  **Campaign Standard- your-prod-instance-name - D365/ACS集成**
+1. 单击您之前创建的新配置文件：**Campaign Standard- your-prod-instance-name - D365/ACS集成**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. 单击 **[!UICONTROL Developers]** 选项卡。
+1. 单击&#x200B;**[!UICONTROL Developers]**&#x200B;选项卡。
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. 单击 **[!UICONTROL Add Developer]** 按钮
+1. 单击&#x200B;**[!UICONTROL Add Developer]**&#x200B;按钮
 
 1. 输入要添加的用户的名称或电子邮件地址。  选择与用户匹配的结果。
 

@@ -27,7 +27,7 @@ ht-degree: 77%
 * Adobe Analytics。有关更多信息，请参阅[此章节](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。有关更多信息，请参阅[此章节](#google-recaptcha-external-account)。
 * Microsoft Azure Blob Storage。有关更多信息，请参阅[此章节](#microsoft-azure-external-account)。
-* OAuth 2.0。有关详细信息，请参见 [本节](#oauth-account).
+* OAuth 2.0。有关详细信息，请参阅[此部分](#oauth-account)。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 * 时常登入 SFTP 以直接检查其内容。
 * 请记住，SFTP 硬盘的管理主要由您负责。
 
-列入允许列表另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例的。 可以通过向允许列表添加IP地址 [支持服务单](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，并提供用于身份验证的公共密钥。
+列入允许列表另请注意，您尝试启动SFTP连接的公共IP必须添加到Campaign实例的。 可以通过[支持票证](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)请求将IP地址添加到允许列表，并提供用于身份验证的公共密钥。
 
 可从控制面板管理 SFTP 服务器。有关更多信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -91,12 +91,12 @@ Adobe Campaign 提供了一组预定义的外部帐户。要与外部系统（�
 
 对于OAuth 2.0外部帐户，请提供以下详细信息：
 
-* A **授权类型**：仅限 **客户端凭据** 受支持。
-* A **安全API URL**：输入授权端点。
+* **授权类型**：仅支持&#x200B;**客户端凭据**。
+* **安全API URL**：输入授权终结点。
 * **OAuth 2.0敏感凭据**：此部分适用于本质上敏感的凭据。 添加凭据值后，会在屏幕上将其蒙版；在这种情况下，凭据值将不可读或编辑。 如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中的包含选项。
-* **OAuth 2.0非敏感凭据**：本节适用于本质上不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；凭据值也可以编辑。  如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中的包含选项。
+* **OAuth 2.0非敏感凭据**：此部分适用于本质上不敏感的凭据。 添加凭据值后，凭据值将显示在屏幕上；凭据值也可以编辑。  如果授权端点要求将特定凭据插入HTTP授权标头而不是POST正文参数，则可以选择该凭据的标头中的包含选项。
 
-输入帐户信息后，单击 **测试连接** 验证外部帐户是否已正确配置。
+输入帐户信息后，单击&#x200B;**测试连接**&#x200B;以验证外部帐户是否已正确配置。
 
 ![](assets/external_accounts_OAuth.png)
 

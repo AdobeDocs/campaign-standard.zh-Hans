@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # 打开次数{#opens}
 
-此 **[!UICONTROL Opens]** 报告可识别收件人查看次数最多的交付内容。
+**[!UICONTROL Opens]**&#x200B;报告可识别收件人查看次数最多的交付内容。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 9%
 * 平台
 * 域
 
-此 **[!UICONTROL TOP 5]** 表格和图形可显示消息数量最多的交付内容。
+**[!UICONTROL TOP 5]**&#x200B;表和图形显示消息数量最多的投放。

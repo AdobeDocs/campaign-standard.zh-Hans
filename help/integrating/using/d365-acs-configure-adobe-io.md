@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 转到“设置” — >“管理” — >“开发” — >“发布”。
 1. 单击“准备发布”以准备发布。
-1. 准备完成后，选中“创建Profiles &amp; Services Ext API”，然后单击“发布”。
+1. 准备完成后，选中“创建配置文件和服务扩展API”，然后单击“Publish”。
 
 ## 配置Adobe I/O {#adobe-io}
 
@@ -49,17 +49,17 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
 要实现此目的，请执行以下步骤：
 
-1. 导航到 [Adobe Developer控制台](https://console.adobe.io/home#) 并从屏幕右上方的下拉菜单中选择您的Adobe组织ID 。
+1. 导航到[Adobe Developer Console](https://console.adobe.io/home#)，然后从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
 
-1. 然后单击 **[!UICONTROL Create new project]** 下 **[!UICONTROL Quick Start]**.
+1. 然后单击&#x200B;**[!UICONTROL Quick Start]**&#x200B;下的&#x200B;**[!UICONTROL Create new project]**。
 
    ![](assets/adobeIO1.png)
 
-1. 下 **[!UICONTROL Get started with your new project]**，单击 **[!UICONTROL Add API]**.
+1. 在&#x200B;**[!UICONTROL Get started with your new project]**&#x200B;下，单击&#x200B;**[!UICONTROL Add API]**。
 
    ![](assets/adobeIO2.png)
 
-1. 选择Adobe Campaign并单击 **[!UICONTROL Next]**.
+1. 选择Adobe Campaign并单击&#x200B;**[!UICONTROL Next]**。
 
    ![](assets/adobeIO3.png)
 
@@ -67,7 +67,7 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
    ![](assets/adobeIO4.png)
 
-1. 在下一个屏幕上，您将选择要与此项目关联的产品配置文件。 选择标题中包含的产品配置文件：Campaign实例的租户ID - [!UICONTROL Administrators]
+1. 在下一个屏幕上，您将选择要与此项目关联的产品配置文件。 选择标题中包含的产品配置文件： Campaign实例的租户ID - [!UICONTROL Administrators]
 
    示例：Campaign Standard- your-campaign-tenantID — 管理员
 
@@ -75,27 +75,27 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
    ![](assets/adobeIO5.png)
 
-1. 在下一个屏幕上，您将看到新的Adobe Developer项目的详细信息。 单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉菜单中。
+1. 在下一个屏幕上，您将看到新的Adobe Developer项目的详细信息。 单击屏幕左上角的&#x200B;**[!UICONTROL Add to Project]**，然后从下拉列表中选择&#x200B;**API**。
 
    ![](assets/adobeIO6.png)
 
-1. 在下一个屏幕中，您需要选择I/O事件API ，然后单击 **[!UICONTROL Next]**.
+1. 在下一个屏幕中，您需要选择I/O事件API ，然后单击&#x200B;**[!UICONTROL Next]**。
 
-1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.  您将会返回到项目详细信息屏幕。
+1. 在下一个屏幕上单击&#x200B;**[!UICONTROL Save the configured API]**。  您将会返回到项目详细信息屏幕。
 
-1. 现在，单击 **[!UICONTROL Add to Project]** ，然后选择 **API** 从下拉列表中删除，就像您之前所做的那样。
+1. 现在，单击屏幕左上角的&#x200B;**[!UICONTROL Add to Project]**，然后从下拉菜单中选择&#x200B;**API**，就像您以前所做的那样。
 
-1. 在下一个屏幕中，您需要选择I/O管理API并单击 **[!UICONTROL Next]**.
+1. 在下一个屏幕中，您需要选择I/O管理API并单击&#x200B;**[!UICONTROL Next]**。
 
-1. 在下一个屏幕上，单击 **[!UICONTROL Save the configured API]**.
+1. 在下一个屏幕上单击&#x200B;**[!UICONTROL Save the configured API]**。
 
 Campaign中的预集成设置现已完成。
 
 **相关主题**
 
-* [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md) 是设置集成的下一步
-* [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含启动并运行集成的完整步骤列表。
+* [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md)是设置集成的下一步
+* [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)包含启动并运行集成的完整步骤列表。
 * [Adobe Developer — 服务帐户集成](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
-* [将凭据从JWT迁移到OAuth服务器到服务器](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) 包含将凭据从JWT迁移到OAuth服务器到服务器的步骤。
+* [将凭据从JWT迁移到OAuth服务器到服务器](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md)包含将凭据从JWT迁移到OAuth服务器到服务器的步骤。

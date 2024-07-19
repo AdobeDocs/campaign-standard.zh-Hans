@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Campaign 为数据控制者提供用于创建和处理 Adobe Campaign 中�
 
 >[!IMPORTANT]
 >
->要使用自定义命名空间类型提交请求，请利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hans#access-delete){target="_blank"}提出请求。
+>若要使用自定义命名空间类型提交请求，请利用[JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#json){target="_blank"}并将命名空间ID添加到请求中，或使用[API调用](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hans#access-delete){target="_blank"}发出请求。
 >
 >仅使用[隐私用户界面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#request-builder){target="_blank"}来提交使用标准命名空间类型的请求。
 

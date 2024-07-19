@@ -141,7 +141,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -371,7 +371,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>修改者</td>
+                  <td>修改人</td>
                   <td>链接 </td>
                   <td> </td>
                </tr>
@@ -490,15 +490,15 @@ ht-degree: 27%
                         <li>失败 — 失败 — 87</li>
                         <li>进行中 — 已开始 — 55</li>
                         <li>定位待定 — targetPrepPending - 11</li>
-                        <li>个性化待定 — messagePrepPending - 21</li>
+                        <li>Personalization待处理 — messagePrepPending - 21</li>
                         <li>已暂停 — 已暂停 — 75</li>
                         <li>编辑 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
                         <li>正在进行计数 — targetSelection - 12</li>
                         <li>已完成消息 — messageReady - 25</li>
-                        <li>个性化或计数失败 — preparationError - 37</li>
+                        <li>Personalization或计数失败 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
-                        <li>正在进行个性化 — messagePreparation - 22</li>
+                        <li>正在进行Personalization — 消息准备 — 22</li>
                         <li>Target ready - targetReady - 15</li>
                         <li>无效值 — __Invalid_value__ - __Invalid_value__</li>
                         <li>正在进行仲裁 — targetArbitration - 13</li>

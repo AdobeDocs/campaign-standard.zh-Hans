@@ -20,13 +20,13 @@ ht-degree: 4%
 
 要构建工作流，请执行以下步骤：
 
-1. 此 [计划程序](../../automating/using/scheduler.md) 利用活动，您可以在投放开始前几天启动工作流，以便能够在任意给定时区的晚上8点向每个订阅者发送通知：
+1. [调度程序](../../automating/using/scheduler.md)活动允许您在投放开始前启动工作流天，以便能够在任意给定时区的晚上8点将通知发送给每个订阅者：
 
-   * 在 **[!UICONTROL Execution frequency]** 字段中，选择“每月”。
-   * 在中选择8点 **[!UICONTROL Time]** 字段。
+   * 在&#x200B;**[!UICONTROL Execution frequency]**&#x200B;字段中，选择“每月”。
+   * 在&#x200B;**[!UICONTROL Time]**&#x200B;字段中选择8pm。
    * 选择每月发送投放的日期。
    * 选择工作流的开始日期，至少先于投放开始一天。 否则，如果所选时间已在其时区中流过，则某些收件人可能在第二天后收到消息。
-   * 在 **[!UICONTROL Execution options]** 选项卡中，选择工作流在哪个时区启动 **[!UICONTROL Time zone]** 字段。 例如，在此，工作流将在太平洋时间晚上8点（即每月第一天的前一周）开始，以便留出一些时间为所有适用的时区创建投放。
+   * 在&#x200B;**[!UICONTROL Execution options]**&#x200B;选项卡的&#x200B;**[!UICONTROL Time zone]**&#x200B;字段中选择工作流将启动的时区。 例如，在此，工作流将在太平洋时间晚上8点（即每月第一天的前一周）开始，以便留出一些时间为所有适用的时区创建投放。
 
    >[!NOTE]
    >
@@ -34,27 +34,27 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. 此 [查询](../../automating/using/query.md) VIP利用活动，可定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的客户：
+1. [查询](../../automating/using/query.md)活动允许您定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的VIP客户：
 
    * 选择受众(您的VIP客户)并根据其年龄进行过滤。
-   * 拖放 **应用程序订阅** 元素。 选择 **存在** 并选择要使用的移动设备应用程序。
+   * 将&#x200B;**应用程序**&#x200B;订阅元素拖放到工作区中。 选择&#x200B;**存在**&#x200B;并选择要使用的移动应用程序。
    * 选择您发送给客户的电子邮件。
-   * 拖放 **投放日志（日志）** 元素并选择 **存在** 以定位收到电子邮件的所有客户。
-   * 拖放 **跟踪日志（跟踪）** 元素并选择 **不存在** 以定位所有未打开电子邮件的客户。
+   * 将&#x200B;**投放日志（日志）**&#x200B;元素拖放到工作区中，并选择&#x200B;**存在**&#x200B;以定向收到电子邮件的所有客户。
+   * 将&#x200B;**跟踪日志（跟踪）**&#x200B;元素拖放到工作区中，并选择&#x200B;**不存在**&#x200B;以定向所有未打开电子邮件的客户。
 
      ![](assets/wkf_push_example_2.png)
 
-1. 此 [推送通知投放](../../automating/using/push-notification-delivery.md) 利用活动，可输入消息的内容并选择要使用的个性化字段：
+1. [推送通知投放](../../automating/using/push-notification-delivery.md)活动允许您输入消息的内容并选择要使用的个性化字段：
 
-   * 选择 **[!UICONTROL Recurring notification]** 选项。
-   * 定义推送通知内容。 有关推送通知内容的更多信息，请参阅此 [部分](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * 在 **[!UICONTROL Schedule]** 块，选择 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 这里，我们选择了 **[!UICONTROL Time zone of the contact date]** 与工作流中的太平洋相同 **[!UICONTROL Scheduler]**.
+   * 选择&#x200B;**[!UICONTROL Recurring notification]**&#x200B;选项。
+   * 定义推送通知内容。 有关推送通知内容的更多信息，请参阅此[部分](../../channels/using/preparing-and-sending-a-push-notification.md)。
+   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;块中，选择&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此，我们在工作流&#x200B;**[!UICONTROL Scheduler]**&#x200B;中选择了&#x200B;**[!UICONTROL Time zone of the contact date]** Pacific。
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 字段中，选择 **[!UICONTROL Send at the recipient's time zone]**。
 
      ![](assets/wkf_push_example_4.png)
 
-1. 单击 **[!UICONTROL Start]** 按钮以启动您的定期工作流。
+1. 单击&#x200B;**[!UICONTROL Start]**&#x200B;按钮以启动定期工作流。
 
    ![](assets/wkf_push_example_3.png)
 
-您的工作流正在运行。 它将在的选定开始日期开始 **[!UICONTROL Scheduler]** 太平洋时间晚上8点，将根据客户所在时区，每月第一天晚上8点发送定期推送。
+您的工作流正在运行。 它将于&#x200B;**[!UICONTROL Scheduler]**&#x200B;的选定开始日期太平洋时间晚上8点开始，然后每月第一天晚上8点发送定期推送，具体取决于客户时区。

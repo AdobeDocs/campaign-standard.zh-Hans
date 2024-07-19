@@ -22,27 +22,27 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[优化投放](optimize-delivery.md)**  — 安全并优化发送流程
+**[优化投放](optimize-delivery.md)** — 安全和优化发送过程
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用模板](use-templates.md)**  — 加速交付新产品
+**[使用模板](use-templates.md)** — 加速新投放
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[使内容个性化](design-and-personalize.md)**  — 应用正确的设置
+**[个性化内容](design-and-personalize.md)** — 应用正确的设置
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[定义正确的受众](define-the-right-audience.md)**  — 应用正确的设置
+**[定义正确的受众](define-the-right-audience.md)** — 应用正确的设置
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[发送前检查](check-before-sending.md)**  — 避免常见错误
+**[发送前检查](check-before-sending.md)** — 避免常见错误
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[跟踪和监视](track-and-monitor.md)**  — 控制发送和故障排除
+**[跟踪和监视](track-and-monitor.md)** — 控制发送并进行故障排除
 
 ## 相关内容
 

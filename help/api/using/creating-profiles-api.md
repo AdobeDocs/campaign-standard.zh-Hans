@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 使用API创建用户档案 {#creating-profiles-api}
 
-创建用户档案是通过执行 **POST** 请求。
+创建配置文件是通过对配置文件资源的&#x200B;**POST**&#x200B;请求执行的。
 
 >[!CAUTION]
 >
->如果要关联 <b>orgUnit</b> POST对于已创建的配置文件，您需要使用此字段扩展配置文件资源，并在发布扩展后，对 <b>配置文件和服务扩展</b> 端点。
+>如果要将<b>orgUnit</b>关联到已创建的配置文件，则需要使用此字段扩展配置文件资源，并且在发布扩展后，对<b>ProfileAndServicesExt</b>端点执行POST请求。
 >
->有关用户档案资源扩展的更多信息，请参阅 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>.
+>有关用户档案资源扩展的更多信息，请参阅<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>。
 
 <br/>
 

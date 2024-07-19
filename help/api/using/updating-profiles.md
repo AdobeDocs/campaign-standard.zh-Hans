@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # 使用API更新用户档案{#updating-profiles-api}
 
-使用更新用户档案 **PATCH** 请求。
+更新配置文件是通过&#x200B;**PATCH**&#x200B;请求执行的。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是 **检索配置文件**.
+1. 第一步是&#x200B;**检索配置文件**。
 
-1. 在第二个请求中，执行 **PATCH请求** ，在有效负荷中具有已完成信息。
+1. 在第二个请求中，对有效负荷中具有已完成信息的配置文件执行&#x200B;**PATCH请求**。
 
 1. 要检查PATCH请求是否已更新配置文件，我们可以执行最终的GET请求。
 

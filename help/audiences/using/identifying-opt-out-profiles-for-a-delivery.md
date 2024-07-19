@@ -17,11 +17,11 @@ ht-degree: 29%
 
 # 为投放确定选择禁用的用户档案{#identifying-opt-out-profiles-for-a-delivery}
 
-准备阶段后，会在中列出特定投放的选择退出用户档案 **[!UICONTROL Exclusion logs]** 投放仪表板的选项卡。
+准备阶段后，投放仪表板的&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;选项卡中会列出特定投放的选择退出配置文件。
 
 ![](assets/exclusion_blocklisting.png)
 
 **相关主题：**
 
-* [监控投放](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [准备发送](../../sending/using/preparing-the-send.md).
+* [正在监视投放](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
+* [正在准备发送](../../sending/using/preparing-the-send.md)。

@@ -24,17 +24,17 @@ ht-degree: 3%
 根据您的配置，可以使用以下类型的映像：
 
 * 本地图像
-* 从Adobe Experience Cloud共享的图像 — 请参阅 [使用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) /按需资产
-* Adobe Target中的动态图像 — 请参阅 [使用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
+* 从Adobe Experience Cloud共享的图像 — 请参阅[使用Campaign和Assets核心服务](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* 来自Adobe Target的动态图像 — 请参阅[使用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果选择通过编辑电子邮件的HTML版本直接添加图像，则不得调用 **中的外部文件 &lt;script> 标记** 的HTML页面。 这些文件将不会导入到Adobe Campaign服务器上。
+>如果选择通过编辑电子邮件的HTML版本直接添加图像，则不得在HTML页的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。 这些文件将不会导入到Adobe Campaign服务器上。
 
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
 1. 添加结构组件。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此结构组件内，添加 **[!UICONTROL Image]** 内容组件。
+1. 在此结构组件内，添加&#x200B;**[!UICONTROL Image]**&#x200B;内容组件。
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 当您选择包含图像的块时，调色板中提供以下属性：
 
-* **启用个性化** 允许您自定义图像源。 请参阅 [个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source).
-* **图像标题** 用于定义图像的标题。
-* **替换文本** （电子邮件）或 **题注** （登陆页面）允许您定义链接到图像的标题(对应于 **alt** HTML属性)。
-* 编辑电子邮件时， **样式** 用于指定图像大小、背景和边框。
-* 编辑登陆页面时， **Dimension** 用于指定图像大小（以像素为单位）。
+* **启用个性化**&#x200B;允许您自定义图像源。 请参阅[个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source)。
+* **图像标题**&#x200B;允许您定义图像的标题。
+* **替换文本**（电子邮件）或&#x200B;**字幕**（登陆页）允许您定义链接到图像的字幕(对应于&#x200B;**alt** HTML属性)。
+* 编辑电子邮件时，**样式**&#x200B;允许您指定图像大小、背景和边框。
+* 编辑登陆页面时，**Dimension**&#x200B;允许您指定图像大小（以像素为单位）。
 
-编辑器允许您使用 **所有图像类型** 其格式与浏览器兼容。 要与编辑器兼容，请 **“Flash”类型的动画** 必须按如下方式插入到HTML页中：
+该编辑器允许您使用格式与浏览器兼容的&#x200B;**所有图像类型**。 要与编辑器兼容，必须在HTML页中插入&#x200B;**“Flash”类型动画**，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

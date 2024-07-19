@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 使用Microsoft Dynamics 365集成
 
-Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流。 有关这些流程的详情，请参见 [此页面](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流。 [此页面](../../integrating/using/d365-acs-self-service-app-workflows.md)中详细介绍了这些流程。
 
-有关数据流的更多详细信息，请参阅本文档中下面的 [数据流](#data-flows)  部分。
+有关数据流的更多详细信息，请参阅本文档中的[数据流](#data-flows)部分。
 
 ## Adobe Campaign Standard用户体验
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-在Campaign中修改选择退出属性后，如果您已选择 **单向(Campaign到Microsoft Dynamics 365)** 或 **双向** 选择退出配置，并且已正确映射该特定属性的情况下。
+在Campaign中修改选择退出属性时，如果您选择了&#x200B;**单向(Campaign到Microsoft Dynamics 365)**&#x200B;或&#x200B;**双向**&#x200B;选择退出配置，并且您正确映射了该特定属性，则会在Dynamics 365中反映该属性。
 
 ## Microsoft Dynamics 365用户体验
 
@@ -45,7 +45,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 >[!NOTE]
 >
->此 **Adobe Campaign for Microsoft Dynamics 365** 需要在Microsoft Dynamics 365实例中安装AppSource中的应用程序才能查看这些事件。 [了解详情](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>AppSource中的&#x200B;**Adobe Campaign for Microsoft Dynamics 365**&#x200B;应用程序需要安装在Microsoft Dynamics 365实例中才能查看这些事件。 [了解详情](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
 
 在下方，您可以看到“动态用户”的“联系人”屏幕快照。 在“时间线”视图中，您会注意到已向Dynamics用户发送一封电子邮件，该电子邮件与营销活动名称“2019LoyaltyCamp”和投放名称“DM190”相关联。 Dynamics用户打开了电子邮件，也单击了电子邮件中的URL；这两个操作都会创建事件，这些事件也会显示如下。 如果查看右角，您会看到“关系助手(RA)”卡；当前，该卡包含要跟进所单击URL的任务。
 
@@ -69,25 +69,25 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 以下是属性的列表和说明：
 
-* **主题**：事件主题；由电子邮件投放的营销活动ID和投放ID组成
+* **主题**：事件的主题；由电子邮件投放的营销活动ID和投放ID组成
 
 * **所有者**：在预配后步骤中创建的应用程序用户
 
-* **相关**：联系人的姓名
+* **关于**：联系人的姓名
 
-* **营销活动名称**：Campaign Standard中的促销活动ID
+* **促销活动名称**：Campaign Standard中的促销活动ID
 
-* **投放名称**：Campaign Standard中的投放ID
+* **投放名称**：投放IDCampaign Standard
 
-* **发送/打开/单击/退回日期**：事件的创建日期/时间
+* **发送/打开/单击/退回日期**：创建事件的日期/时间
 
-* **跟踪URL**：已单击的URL
+* **跟踪URL**：已点击的URL
 
-* **镜像页面URL**：已发送/打开/单击/退回的电子邮件的镜像页面的URL。 可以在相应Campaign电子邮件渠道活动的配置屏幕中修改电子邮件镜像页面的过期期限。 [了解详情](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
+* **镜像页面URL**：已发送/打开/单击/退出的电子邮件的镜像页面的URL。 可以在相应Campaign电子邮件渠道活动的配置屏幕中修改电子邮件镜像页面的过期期限。 [了解详情](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
 >[!NOTE]
 >
->对于选择退出，在Microsoft Dynamics 365中修改选择退出属性时，如果您选择 **单向(Campaign到Microsoft Dynamics 365)** 或 **双向** 选择退出配置，并且已正确映射该特定属性的情况下。
+>对于选择退出，当您在Microsoft Dynamics 365中修改了选择退出属性时，如果您选择了&#x200B;**单向(Campaign到Microsoft Dynamics 365)**&#x200B;或&#x200B;**双向**&#x200B;选择退出配置，并且您正确映射了该特定属性，则会在Campaign中反映该属性。
 
 ## 数据流 {#data-flows}
 
@@ -111,7 +111,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 #### 自定义实体
 
-此 [Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/d365-acs-get-started.md) 支持自定义实体，从而能够将Dynamics 365中的自定义实体同步到Campaign中相应的自定义资源。
+[Microsoft Dynamics 365-Adobe Campaign Standard集成](../../integrating/using/d365-acs-get-started.md)支持自定义实体，从而能够将Dynamics 365中的自定义实体同步到Campaign中的相应自定义资源。
 
 自定义资源中的新数据可用于多种目的，包括分段和个性化。
 
@@ -119,7 +119,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 >[!IMPORTANT]
 >
->如果任何Campaign自定义资源记录包含个人信息，则应用特定推荐。 了解详情 [在此部分中](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>如果任何Campaign自定义资源记录包含个人信息，则应用特定推荐。 在本节](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)中了解更多[。
 >
 
 配置自定义实体数据流时，请务必注意以下事项：
@@ -128,13 +128,13 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 * 对于自定义实体数据流，必须在Dynamics 365中为同步的自定义实体启用更改跟踪。
 * 如果在Dynamics 365中几乎同时创建父记录和链接的子记录，则由于并行处理集成，将新子记录写入其父记录之前的Campaign的几率很小。
 
-* 如果使用链接了Campaign端的父项和子项，则 **1基数简单链接** 选项，在父记录到达Campaign之前，子记录将保持隐藏状态并且无法访问（通过UI或API）。
+* 如果使用&#x200B;**1基数简单链接**&#x200B;选项在Campaign端链接了父记录和子记录，则在父记录到达Campaign之前，子记录将保持隐藏状态并且无法访问（通过UI或API）。
 
-* (假设 **1基数简单链接** 在Campaign中)如果在Dynamics 365中更新或删除了子记录，并且更改在父记录出现在Campaign中之前写入Campaign（不太可能，但极有可能出现），则不会在Campaign中处理该更新或删除，并且会引发错误。 如果更新，则需要在Dynamics 365中再次更新相关记录才能同步更新的记录。 在删除的情况下，相关记录将需要在Campaign端单独进行处理，因为Dynamics 365中不再有要删除或更新的记录。
+* （假定Campaign中有&#x200B;**1个基数简单链接**）如果在Dynamics 365中更新或删除了子记录，并且更改在父记录出现在Campaign中之前写入Campaign（不太可能，但极有可能出现），则不会在Campaign中处理该更新或删除，并会引发错误。 如果更新，则需要在Dynamics 365中再次更新相关记录才能同步更新的记录。 在删除的情况下，相关记录将需要在Campaign端单独进行处理，因为Dynamics 365中不再有要删除或更新的记录。
 
-* 如果您遇到您认为已隐藏子记录且无法访问这些记录的情况，则可以临时将基数链接类型更改为 **0或1基数简单链接** 来访问这些记录。
+* 如果您遇到您认为已隐藏子记录且无法访问这些记录的情况，则可以临时将基数链接类型更改为&#x200B;**0或1个基数简单链接**&#x200B;以访问这些记录。
 
-可以找到对Campaign自定义资源的更全面概述 [在此部分中](../../developing/using/key-steps-to-add-a-resource.md).
+有关Campaign自定义资源的更全面概述可在此部分[中找到](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 电子邮件营销事件流{#email-marketing-event-flow}
 
@@ -159,17 +159,17 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 选择退出(例如，阻止列表)值在系统之间同步；您可以在载入时从以下选项中进行选择：
 
-* **单向(Microsoft Dynamics 365到Campaign)**：Dynamics 365是选择退出的真实来源。 “选择退出属性将从Dynamics 365同步到Campaign Standard”的一个方向
-* **单向(Campaign到Microsoft Dynamics 365)**：Campaign Standard是选择退出的真实来源。 选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上同步
-* **双向**：Dynamics 365和Campaign Standard都是事实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
+* **单向(Microsoft Dynamics 365到Campaign)**： Dynamics 365是选择退出的真实来源。 “选择退出属性将从Dynamics 365同步到Campaign Standard”的一个方向
+* **单向(从Campaign到Microsoft Dynamics 365)**：Campaign Standard是选择退出的真实来源。 选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上同步
+* **双向**： Dynamics 365和Campaign Standard都是真实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
 
 或者，如果您有单独的流程来管理系统之间的选择退出同步，则可以禁用该集成的选择退出数据流。
 
 >[!NOTE]
 >
->在集成应用程序UI中， **单向(Microsoft Dynamics 365到Campaign)** 和 **双向** 选择退出用例是在单独的选择退出工作流中配置的。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+>在集成应用程序UI中，**单向(Microsoft Dynamics 365到Campaign)**&#x200B;和&#x200B;**双向**&#x200B;选择退出用例是在单独的选择退出工作流中配置的。 [了解详情](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 >
->此 **单向(Campaign到Microsoft Dynamics 365)** 选择退出用例是一个例外；它在入口（联系人到用户档案）工作流中配置。
+>**单向(Campaign to Microsoft Dynamics 365)**&#x200B;选择退出用例是一个异常；它在入口（联系人到个人资料）工作流中配置。
 >
 
 选择退出流程映射将由客户指定，因为业务要求可能因公司而异。 在Campaign端，只有OOTB选择退出属性可用于选择退出映射：

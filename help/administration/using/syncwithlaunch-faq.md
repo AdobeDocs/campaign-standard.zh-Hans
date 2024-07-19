@@ -15,25 +15,26 @@ ht-degree: 1%
 
 # Adobe Experience Platform 同步中的标记常见问题解答 {#syncwithlaunch-faq}
 
-您可以通过以下方式将标记移动资产导入Adobe Campaign Standard **[!UICONTROL Sync with Launch]** 专门的技术工作流。 有关更多信息，请参阅此 [页面](../../administration/using/technical-workflows.md)
+您可以通过&#x200B;**[!UICONTROL Sync with Launch]**&#x200B;专门的技术工作流，将标记移动属性导入Adobe Campaign Standard。 有关详细信息，请参阅此[页面](../../administration/using/technical-workflows.md)
 
 以下部分列出了有关此同步的常见问题。
 
 ## 我创建了一个标记属性（组织单元ALL的非管理员）。 在Adobe Campaign中，我的应用程序处于“准备配置”状态，但无法打开/配置该应用程序。 {#configuring-property}
 
-只有组织单位ALL的管理员才能在Adobe Campaign Standard中配置移动应用程序。 配置完毕后，只有已分配组织单位的用户可以编辑应用程序。 有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
+只有组织单位ALL的管理员才能在Adobe Campaign Standard中配置移动应用程序。 配置后，只有已分配组织单位的用户可以编辑
+应用程序。 有关组织单位的更多信息，请参阅此[页面](../../administration/using/organizational-units.md)。
 
 ## 我无法在Adobe Campaign Standard中编辑配置的移动应用程序，并且移动应用程序处于只读模式。 {#read-mode-mobile-app}
 
-在中检查移动应用程序的组织单位 **[!UICONTROL Access Authorization]** 部分。 只有已分配组织单位的用户才能编辑移动应用程序。
+在&#x200B;**[!UICONTROL Access Authorization]**&#x200B;部分中检查移动应用程序的组织单位。 只有已分配组织单位的用户才能编辑移动应用程序。
 
-有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
+有关组织单位的更多信息，请参阅此[页面](../../administration/using/organizational-units.md)。
 
 ## 我是Adobe Campaign Standard中组织单位ALL的管理员，但无法配置移动应用程序。 {#org-unit-mobile}
 
 组织单位设置为“全部”的管理员应有权使用所有标记移动属性来配置移动应用程序。
 
-有关组织单位的更多信息，请参阅此 [页面](../../administration/using/organizational-units.md).
+有关组织单位的更多信息，请参阅此[页面](../../administration/using/organizational-units.md)。
 
 ## 我创建了一个标记移动资产，但我的资产在Adobe Campaign Standard中不可见。 {#visibility-mobile-property}
 
@@ -43,13 +44,13 @@ ht-degree: 1%
 
 1. 请检查“Launch_URL_Campaign”或“NmsServer_URL”是否正确。
 
-1. 然后，检查同步是否已完成 **[!UICONTROL syncWithLaunch]** 技术工作流。
+1. 然后，检查同步是否已通过&#x200B;**[!UICONTROL syncWithLaunch]**&#x200B;技术工作流完成。
 
 ## 如何检查是否已完成Adobe Campaign与Adobe Experience Platform中的标记之间的同步？ {#sync-campaign-launch}
 
-1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. 在Adobe Campaign Standard中，从高级菜单中选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 
-1. 打开 **[!UICONTROL syncWithLaunch]** 工作流。
+1. 打开&#x200B;**[!UICONTROL syncWithLaunch]**&#x200B;工作流。
 
 1. 检查工作流是否已结束且未出现错误。
 
@@ -69,14 +70,14 @@ ht-degree: 1%
 
 1. 保存它并再次运行工作流同步。
 
-1. 只有这样，该资产才会显示在 **[!UICONTROL Ready to Configure]** Adobe Campaign中的状态，现在可以进行配置。
+1. 只有这样，该属性才会在Adobe Campaign中以&#x200B;**[!UICONTROL Ready to Configure]**&#x200B;状态出现，并且现在可以进行配置。
 
 ## 我想在Adobe Campaign中配置移动资产。 我是否需要等待技术工作流在Adobe Experience Platform和Adobe Campaign中的标记之间同步？
 
 您可以立即执行工作流：
 
-1. 在Adobe Campaign Standard中，从高级菜单中，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. 在Adobe Campaign Standard中，从高级菜单中选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 
-1. 打开 **[!UICONTROL syncWithLaunch]** 工作流。
+1. 打开&#x200B;**[!UICONTROL syncWithLaunch]**&#x200B;工作流。
 
-1. 单击 **[!UICONTROL Scheduler]** 活动和选择 **[!UICONTROL Immediate execution]**.
+1. 单击&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动并选择&#x200B;**[!UICONTROL Immediate execution]**。

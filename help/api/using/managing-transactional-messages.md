@@ -21,12 +21,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关事件配置的详情，请参阅 [本节](../../channels/using/configuring-transactional-event.md).
+>[此部分](../../channels/using/configuring-transactional-event.md)中详细介绍了事件配置。
 
 例如，您希望每当客户在购物车中购买产品之前离开您的网站时，都会触发“购物车放弃”事件。 要执行此操作，作为Web开发人员，您必须使用REST事务型消息API。
 
-1. 根据POST方法发送请求，这会触发 [发送事务性事件](#sending-a-transactional-event).
-1. 对POST请求的响应包含主键，该主键允许您通过GET请求发送一个或多个请求。 然后，您便可以获取 [事件状态](#transactional-event-status).
+1. 根据POST方法发送请求，这将触发事务性事件的[发送](#sending-a-transactional-event)。
+1. 对POST请求的响应包含主键，该主键允许您通过GET请求发送一个或多个请求。 然后，即可获取[事件状态](#transactional-event-status)。
 
 ## 发送事务性事件 {#sending-a-transactional-event}
 
@@ -36,9 +36,9 @@ ht-degree: 3%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**：您的个人组织ID。 请参阅[此小节](../../api/using/must-read.md)。
+* **&lt;组织>**：您的个人组织ID。 请参阅[此小节](../../api/using/must-read.md)。
 
-* **&lt;transactionalapi>**：事务型消息API端点。
+* **&lt;transactionalAPI>**：事务性消息API端点。
 
   事务性消息API端点的名称取决于您的实例配置。 它与值“mc”相对应，后跟您的个人组织ID。 让我们以“geometrixx”作为其组织ID的Geometrixx公司为例。 在这种情况下，POST要求如下：
 
@@ -46,13 +46,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   请注意，事务性消息API端点在API预览期间也可见。
 
-* **&lt;eventid>**：要发送的事件类型。 此ID是在创建事件配置时生成的(请参阅 [本节](../../channels/using/configuring-transactional-event.md#creating-an-event))。
+* **&lt;eventID>**：要发送的事件类型。 创建事件配置时生成此ID（请参阅[此章节](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 
 ### 请求标头POST
 
 请求必须包含“Content-Type： application/json”标头。
 
-例如，必须添加字符集 **utf-8**. 请注意，此值取决于您使用的REST应用程序。
+您必须添加字符集，例如&#x200B;**utf-8**。 请注意，此值取决于您使用的REST应用程序。
 
 ```
 -X POST \
@@ -69,8 +69,8 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 可以将以下可选参数添加到事件内容，以管理链接到事件的事务型消息的发送：
 
-* **过期** （可选）：在此日期之后，事务性事件的发送将被取消。
-* **已计划** （可选）：从此日期起，将处理事务型事件并发送事务型消息。
+* **过期**（可选）：在此日期之后，将取消发送事务性事件。
+* **已计划**（可选）：从此日期起，将处理事务型事件并发送事务型消息。
 
 >[!NOTE]
 >
@@ -134,12 +134,12 @@ POST响应将返回创建时的事务性事件状态。 要检索其当前状态
 
 在响应中，“status”字段让您知道事件是否已处理：
 
-* **待处理**：事件处于待处理状态 — 在刚刚触发时，事件会采用此状态。
-* **正在处理**：事件正在等待投放 — 正在将其转换为消息并发送消息。
-* **已暂停**：正在暂停事件进程。 它不再被处理，而是保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此小节](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **pending**：事件正在挂起 — 该事件在刚刚触发时具有此状态。
+* **正在处理**：该事件正在等待投放 — 正在将其转换为消息，并且正在发送该消息。
+* **已暂停**：事件进程正在暂停。 它不再被处理，而是保留在Adobe Campaign数据库的队列中。 如需详细信息，请参阅[此小节](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已处理**：事件已处理，消息已成功发送。
-* **已忽略**：投放忽略了事件，通常在地址处于隔离状态时这样做。
-* **deliveryFailed**：处理事件时出现投放错误。
-* **routingFailed**：路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生此情况。
-* **tooOld**：事件在处理之前过期 — 例如，由于多次发送失败（这会导致事件不再最新）或服务器在重载后无法再处理事件等原因，可能会发生这种情况。
-* **定位失败**：Campaign Standard未能扩充用于消息定向的链接。
+* **ignored**：该事件已被投放忽略，通常是在地址处于隔离状态时。
+* **deliveryFailed**：处理事件时出现传递错误。
+* **routingFailed**：路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生这种情况。
+* **tooOld**：事件在处理之前已过期 — 这可能是由于各种原因造成的，例如，发送多次失败（这会导致事件不再最新），或者服务器在过载后无法再处理事件。
+* **targetingFailed**：Campaign Standard未能扩充用于消息定位的链接。

@@ -27,11 +27,11 @@ Adobe Campaign与Adobe Target之间的集成允许您在投放中插入动态内
 * Adobe Target租户
 * 为与Adobe Campaign建立连接而指定的Adobe Target rawbox
 
-1. 从高级菜单中，通过左上角的Adobe Campaign徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. 从高级菜单中，通过左上角的Adobe Campaign徽标，选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**。
 1. 要为Adobe Target配置服务器和租户选项，请相应地填写以下字段：
 
-   * **[!UICONTROL TNT_TenantName]**：Adobe Target租户的名称。 此值对应于Adobe Target的名称 **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**：用于集成的Adobe Target服务器。 默认情况下已提供此选项。 此值对应于Adobe Target **[!UICONTROL Server Domain]**，后跟 **/m2** 值。 例如： **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**： Adobe Target租户的名称。 此值对应于Adobe Target **[!UICONTROL Client]**&#x200B;的名称。
+   * **[!UICONTROL TNT_EdgeServer]**：用于集成的Adobe Target服务器。 默认情况下已提供此选项。 此值对应于Adobe Target **[!UICONTROL Server Domain]**，后跟&#x200B;**/m2**&#x200B;值。 例如： **tt.omtrdc.net/m2**。
 
    ![](assets/tar_options.png)
 
