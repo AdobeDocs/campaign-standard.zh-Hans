@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 6%
+source-wordcount: '757'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 通过Audience Manager (AAM)或People核心服务集成，您可以在Adobe Campaign中导入和导出受众或区段。
 
-必须首先配置此集成。要请求配置此集成，请向 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 发送一封电子邮件，其中包含以下信息：
+必须首先配置此集成。要请求配置此集成，请联系Adobe支持并提供以下信息：
 
 <table> 
  <tbody> 
