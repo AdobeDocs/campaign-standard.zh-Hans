@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## 早期发行说明 {#e-new-release}
-
-本部分列出了后续 Campaign Standard 版本中包含的改进和更改。
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->在暂存环境升级日期之前，此内容可能会有所变动，恕不另行通知。有关详细信息，请参阅[发行计划页面](../../rn/using/release-planning.md)。
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**版本 24.2 - 2024 夏季版**
+## 版本 24.2 - 2024 夏季版 {#summer-24}
 
-* **发行日期**：2024 年 8 月（限时发布）- [了解详情](../../rn/using/release-planning.md)。
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **迁移到 OAuth 服务器到服务器凭据**
+### 改进 {#summer-24-rn-improvements}
 
-  从此版本开始，随着 Adobe 弃用服务帐户 (JWT) 凭据，Campaign 与 Adobe 解决方案和应用程序的出站集成现在依赖于 OAuth 服务器到服务器凭据。出站集成时，Adobe 将从 JWT 迁移到 OAuth，例如 Campaign-Analytics 集成或 Experience Cloud Triggers 集成。
+**迁移到 OAuth 服务器到服务器凭据**
 
-  如果已实现与 Campaign 的入站集成，并且使用的是 [Campaign API](../../api/using/get-started-apis.md)，则必须按照[本文档](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所述迁移技术帐户。现有服务帐户 (JWT) 凭据将于 **2025 年 1 月 27 日**&#x200B;失效。
+从此版本开始，随着 Adobe 弃用服务帐户 (JWT) 凭据，Campaign 与 Adobe 解决方案和应用程序的出站集成现在依赖于 OAuth 服务器到服务器凭据。出站集成时，Adobe 将从 JWT 迁移到 OAuth，例如 Campaign-Analytics 集成或 Experience Cloud Triggers 集成。
 
+如果已实现与 Campaign 的入站集成，并且使用的是 [Campaign API](../../api/using/get-started-apis.md)，则必须按照[本文档](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所述迁移技术帐户。现有服务帐户 (JWT) 凭据将于 **2025 年 1 月 27 日**&#x200B;失效。
+
+### 修复 {#summer-24-rn-fixes}
+
+* 修复了导致工作流计划程序在计划时间之前启动的问题。 (CAMP-55412)
+* 修复了在事务推送通知中复制自定义字段时导致错误的问题。 (CAMP-54459)
+* 修复了影响应用程序内消息传递的时间和日期调度程序可用性的问题。 (CAMP-54495)
+* 修复了在使用自定义跟踪别名功能时导致跟踪不起作用且整个链接是动态链接的问题。 (CAMP-56044)
+* 修复了在使用搜索查找特定模板时导致显示有限数量的模板的问题。 (CAMP-55273)
+* 将以下语言添加到首选语言下拉列表： en_kz （英语 — 哈萨克斯坦）和en_ua （英语 — 乌克兰）。 (CAMP-55336)
+* 修复了导致时间调整按钮在调度程序设置中无效的问题。 (CAMP-53602)
+* 修复了与调度程序设置中的时间调整栏相关的若干用户界面问题。 (CAMP-55291)
 
 ## 24.1 版 - 2024 年冬季版 {#winter-24}
 
