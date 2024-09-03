@@ -8,14 +8,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '230'
 ht-degree: 3%
 
 ---
 
 # 定义报告周期{#defining-the-report-period}
+
+>[!NOTE]
+>
+>数据报表仅可用于最近三年。 有关数据保留期的更多信息，请联系Adobe顾问或您的技术管理员。
 
 在启动或访问报表之前，必须应用时间段。 可以在报告的右上角访问给定的时间段。
 
