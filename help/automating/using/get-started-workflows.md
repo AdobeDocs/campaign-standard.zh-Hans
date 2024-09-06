@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 27%
@@ -38,8 +38,6 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 工作流活动 {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 提供了各种活动来帮助您设计工作流。
 
 [定位活动](../../automating/using/about-targeting-activities.md)允许您通过定义集并使用交集、并集或排除操作拆分或组合这些集来构建一个或多个目标。
@@ -56,8 +54,6 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 筛选数据 {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 利用&#x200B;**查询编辑器**&#x200B;筛选数据库中的数据，并构建群体以更好地定位收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众、定义投放目标或工作流活动中的群体。
 
 查询编辑器附带&#x200B;**预定义过滤器和规则**，以便快速轻松地过滤。 但是，您还可以使用&#x200B;**高级表达式编辑**&#x200B;功能。 这允许您手动输入条件并使用函数，以形成自己的规则。
@@ -69,8 +65,6 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 * [函数列表](../../automating/using/list-of-functions.md)
 
 ## 导入/导出数据 {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard具有多个&#x200B;**数据管理功能**&#x200B;以导入和导出数据。
 
