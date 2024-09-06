@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
+source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 27%
@@ -38,7 +38,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 工作流活动 {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 提供了各种活动来帮助您设计工作流。
 
@@ -56,7 +56,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 筛选数据 {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 利用&#x200B;**查询编辑器**&#x200B;筛选数据库中的数据，并构建群体以更好地定位收件人。 查询编辑器可用于在Campaign Standard中执行多个操作：创建查询类型受众、定义投放目标或工作流活动中的群体。
 
@@ -70,7 +70,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 导入/导出数据 {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard具有多个&#x200B;**数据管理功能**&#x200B;以导入和导出数据。
 
