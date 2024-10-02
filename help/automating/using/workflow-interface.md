@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 4%
 * 所选活动周围显示的[快速操作](#quick-actions)允许您与其交互。
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [了解如何在视频中构建工作流](#video)
 
 ## 调色板 {#palette}
 
@@ -154,3 +156,11 @@ ht-degree: 4%
 要实现此目的，请通过在其周围绘制区域来选择活动。 然后单击操作栏中的&#x200B;**[!UICONTROL Copy selection]**&#x200B;按钮（或按&#x200B;**Ctrl + C**）。 然后，可以将它们粘贴到所需的位置。
 
 ![](assets/wkf_copypaste3.png)
+
+## 教程视频 {#video}
+
+本视频说明如何创建工作流。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+[此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。
