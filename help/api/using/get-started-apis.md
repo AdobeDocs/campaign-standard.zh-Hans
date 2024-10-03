@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 1f4a3e06bc4882f16d87330d18f25f5ee351e11a
+source-git-commit: 3e6afc55581a24f1fc2b26ac35b801ce38cce905
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,13 +21,13 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 通过 Adobe Campaign Standard API，您可以访问以下功能：
 
-<table><tr>
+<table style="table-layout:auto"><tr style="border: 0;">
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">用户档案</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服务和订阅</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自定义资源</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">营销历史记录</a></p></td>
 </tr>
-<tr>
+<tr style="border: 0;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="条件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">隐私管理</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="条件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">事务型消息传递</a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="条件" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">工作流</a></p></td>
