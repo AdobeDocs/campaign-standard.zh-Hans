@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 72%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
 # 使用文件中包含的数据扩充用户档案数据 {#enriching-profile-data-with-data-contained-in-a-file}
 
-此示例说明如何使用文件中包含的购买数据扩充用户档案数据。我们认为购买数据存储在第三方系统中。 每个用户档案都可以在文件中存储多次购买。该工作流的最终目标是向至少购买了两件物品的目标用户档案发送电子邮件，以感谢他们对于品牌的信任。
+此示例展示了如何使用文件中包含的购买数据扩充用户档案的数据。在本案例中，我们假设购买数据存储在第三方系统中。每个用户档案都可以在文件中存储多次购买。该工作流的最终目标是向至少购买了两件物品的目标用户档案发送电子邮件，以感谢他们对于品牌的信任。
 
 工作流的配置如下所示：
 
