@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 16%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 16%
 
 ## 了解消息指示器 {#message-indicators}
 
+>[!NOTE]
+>
+> **部署仪表板**&#x200B;提供了快速参考数据，这些数据可能与动态报告中的数字不匹配。 要获得准确可靠的信息，我们建议使用动态报告作为事实来源。 [了解详情](../../reporting/using/get-started-reporting.md)
+
 将消息发送到联系人后，**[!UICONTROL Deployment]**&#x200B;区域会显示您的KPI（关键绩效指标）数据，包括：
 
 * 要投放的消息数
@@ -69,7 +73,7 @@ ht-degree: 16%
 
 ![](assets/sending_delivery7.png)
 
-可以在其中一个定向用户档案的历史记录中查看消息。 请参阅[整合后的客户用户档案](../../audiences/using/integrated-customer-profile.md)。
+可以在其中一个定向用户档案的历史记录中查看消息。 请参阅[整合后的客户轮廓](../../audiences/using/integrated-customer-profile.md)。
 
 发送消息后，您可以跟踪其收件人的行为并对其进行监视以衡量其影响。 有关更多信息，请参阅一下章节。
 
