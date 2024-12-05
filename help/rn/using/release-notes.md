@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ## 版本 24.2 - 2024 夏季版 {#summer-24}
 
-**发行日期**：2024 年 8 月（限时发布）- [了解详情](../../rn/using/release-planning.md)。
+**发行日期**：2024 年 8 月（有限发布版）- [了解详情](../../rn/using/release-planning.md)。
 
 ### 改进 {#summer-24-rn-improvements}
 

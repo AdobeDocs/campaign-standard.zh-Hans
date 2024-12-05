@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 
 >[!BEGINTABS]
 
->[!TAB 过渡到Campaign v8]
+>[!TAB 过渡到 Campaign v8]
 
-我们很高兴地宣布，Adobe Campaign Standard用户现在有资格过渡到Adobe Campaign Managed Cloud Services v8。
+我们很高兴地宣布，Adobe Campaign Standard 用户现在有资格过渡到 Adobe Campaign Managed Cloud Services v8。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![图像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB Campaign 24.2 版已上线！]
 
@@ -87,11 +87,11 @@ ht-degree: 91%
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>内容管理</strong><br/><a href="sending/using/design-and-personalize.md">构建个性化内容</a> - <a href="sending/using/sending-proofs.md">发送验证</a> - <a href="sending/using/previewing-messages.md">预览投放</a> - <a href="sending/using/use-templates.md">使用模板</a>
+      <strong>内容管理</strong><br/><a href="sending/using/design-and-personalize.md">构建个性化内容</a> - <a href="sending/using/sending-proofs.md">发送校样</a> - <a href="sending/using/previewing-messages.md">预览投放</a> - <a href="sending/using/use-templates.md">使用模板</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>用户档案和受众</strong><br/><a href="audiences/using/about-audiences.md">受众</a> - <a href="audiences/using/about-profiles.md">用户档案</a> - <a href="audiences/using/about-subscriptions.md">订阅</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">选择启用和选择禁用</a>
+      <strong>轮廓和受众</strong><br/><a href="audiences/using/about-audiences.md">受众</a> - <a href="audiences/using/about-profiles.md">轮廓</a> - <a href="audiences/using/about-subscriptions.md">订阅</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">选择启用和选择禁用</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
