@@ -1,6 +1,6 @@
 ---
-title: 用户档案和受众入门
-description: 定义目标人群、选择受众、筛选收件人、收集数据和更新档案。
+title: 轮廓和受众入门
+description: 定义目标人群、选择受众、筛选收件人、收集数据和更新轮廓。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 用户档案和受众入门{#about-profiles-and-audiences}
+# 轮廓和受众入门{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -46,9 +46,9 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 
 了解更多：
 
-* [关于用户档案](../../audiences/using/about-profiles.md)
-* [使用中的用户档案](../../audiences/using/active-profiles.md)
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
+* [关于轮廓](../../audiences/using/about-profiles.md)
+* [使用中的轮廓](../../audiences/using/active-profiles.md)
+* [管理测试轮廓](../../audiences/using/managing-test-profiles.md)
 * [扩充 Campaign 数据库](../../audiences/using/enriching-campaign-database.md)
 * [关于受众](../../audiences/using/about-audiences.md)
 * [选择消息的受众](../../audiences/using/selecting-an-audience-in-a-message.md)
