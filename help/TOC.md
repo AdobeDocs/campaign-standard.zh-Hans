@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + 发行说明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + 之前版本 {#previous-releases}
+      + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
       + [2021](rn/using/release-notes-2021.md)
@@ -47,15 +48,15 @@ ht-degree: 100%
       + [隐私请求](start/using/privacy-requests.md)
       + [隐私常见问题解答](start/using/privacy-faq.md)
    + [帮助和支持选项](support.md)
-+ 用户档案和受众 {#profiles-and-audiences}
-   + [用户档案和受众快速入门](audiences/using/get-started-profiles-and-audiences.md)
-   + 管理用户档案 {#managing-profiles}
-      + [关于用户档案](audiences/using/about-profiles.md)
-      + [创建用户档案](audiences/using/creating-profiles.md)
-      + [编辑用户档案](audiences/using/editing-profiles.md)
++ 轮廓和受众 {#profiles-and-audiences}
+   + [轮廓和受众快速入门](audiences/using/get-started-profiles-and-audiences.md)
+   + 管理轮廓 {#managing-profiles}
+      + [关于轮廓](audiences/using/about-profiles.md)
+      + [创建轮廓](audiences/using/creating-profiles.md)
+      + [编辑轮廓](audiences/using/editing-profiles.md)
       + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
-      + [使用中的用户档案](audiences/using/active-profiles.md)
-      + [管理测试用户档案](audiences/using/managing-test-profiles.md)
+      + [使用中的轮廓](audiences/using/active-profiles.md)
+      + [管理测试轮廓](audiences/using/managing-test-profiles.md)
       + [扩充 Campaign 数据库](audiences/using/enriching-campaign-database.md)
    + 管理受众 {#managing-audiences}
       + [关于受众](audiences/using/about-audiences.md)
@@ -70,7 +71,7 @@ ht-degree: 100%
    + 了解选择启用和选择禁用流程 {#understanding-opt-in-and-opt-out-processes}
       + [关于 Campaign 中的选择启用和选择禁用](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的选择启用和选择禁用](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [为投放确定选择禁用的用户档案](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [为投放确定选择禁用的轮廓](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + 通信渠道 {#communication-channels}
    + [通信渠道入门](channels/using/get-started-communication-channels.md)
    + 关于通信渠道 {#about-communication-channels}
@@ -106,7 +107,7 @@ ht-degree: 100%
       + [自定义推送通知](channels/using/customizing-a-push-notification.md)
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [为多语言推送通知生成 CSV 文件](channels/using/generating-csv-multilingual-push.md)
-      + [基于移动应用程序数据创建和更新用户档案信息](channels/using/updating-profile-with-mobile-app-data.md)
+      + [基于移动应用程序数据创建和更新轮廓信息](channels/using/updating-profile-with-mobile-app-data.md)
    + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -163,7 +164,7 @@ ht-degree: 100%
    + 准备和测试消息 {#preparing-and-testing-messages}
       + [预览投放](sending/using/previewing-messages.md)
       + [发送校样](sending/using/sending-proofs.md)
-      + [使用目标用户档案测试电子邮件](sending/using/testing-messages-using-target.md)
+      + [使用目标轮廓测试电子邮件](sending/using/testing-messages-using-target.md)
       + [预测性用户参与度功能](sending/using/predictive.md)
       + [电子邮件渲染](sending/using/email-rendering.md)
       + [添加对照组](sending/using/control-group.md)
@@ -224,7 +225,7 @@ ht-degree: 100%
       + [添加面板](reporting/using/adding-panels.md)
       + [添加可视化](reporting/using/adding-visualizations.md)
       + [添加组件](reporting/using/adding-components.md)
-      + [创建自定义用户档案维度](reporting/using/creating-a-custom-profile-dimension.md)
+      + [创建自定义轮廓维度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + 与其他解决方案集成{#integrating-with-adobe-cloud}
    + [Campaign 集成入门](integrating/using/get-started-campaign-integrations.md)
@@ -351,7 +352,7 @@ ht-degree: 100%
       + [关于工作流用例](automating/using/about-workflow-use-cases.md)
       + 投放 {#deliveries}
          + [使用补充创建投放](automating/using/workflow-created-query-with-complement.md)
-         + [在用户档案的创建日期创建投放](automating/using/workflow-creation-date-query.md)
+         + [在轮廓的创建日期创建投放](automating/using/workflow-creation-date-query.md)
          + [创建每周投放](automating/using/workflow-weekly-offer.md)
          + [创建跨渠道投放](automating/using/workflow-cross-channel-delivery.md)
          + [在投放之前标识重复项](automating/using/identifying-duplicated-before-delivery.md)
@@ -371,15 +372,15 @@ ht-degree: 100%
       + 数据管理 {#data-management}
          + [使用数据库协调文件受众](automating/using/reconcile-file-audience-with-database.md)
          + [从导入的文件中删除数据重复项](automating/using/deduplicating-data-imported-file.md)
-         + [使用文件中包含的数据扩充用户档案数据](automating/using/enriching-profile-data-file.md)
+         + [使用文件中包含的数据扩充轮廓数据](automating/using/enriching-profile-data-file.md)
          + [外部信号活动和数据导入](automating/using/external-signal-data-import.md)
          + [使用外部数据更新数据库](automating/using/update-database-file.md)
          + [根据自动文件下载更新数据](automating/using/update-data-automatic-download.md)
          + [使用关系进行数据协调](automating/using/reconciliation-using-relations.md)
          + [使用协调进行数据更新](automating/using/data-update-reconciliation.md)
-         + [在外部文件中导出用户档案](automating/using/exporting-profiles-in-file.md)
+         + [在外部文件中导出轮廓](automating/using/exporting-profiles-in-file.md)
          + [从文件更新多个订阅状态](automating/using/updating-subscriptions-from-file.md)
-         + [将用户档案从文件订阅到特定服务](automating/using/subscribing-profiles-from-file.md)
+         + [将轮廓从文件订阅到特定服务](automating/using/subscribing-profiles-from-file.md)
 + 开发 {#developing}
    + [Campaign Standard 数据模型快速入门](developing/using/get-started-data-model.md)
    + 关于自定义资源 {#about-custom-resources}
@@ -398,11 +399,11 @@ ht-degree: 100%
       + [使用复合标识关键码调用资源](developing/using/uc-calling-resource-id-key.md)
    + 用例：扩展 API {#use-case-extending-the-api}
       + [关于扩展 API](developing/using/about-extending-the-api.md)
-      + [第 1 步：将扩展字段添加到用户档案资源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [第 1 步：将扩展字段添加到轮廓资源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [第 2 步：发布扩展](developing/using/step-2-publish-the-extension.md)
       + [第 3 步：验证扩展](developing/using/step-3-verify-the-extension.md)
    + 用例：扩展资源 {#use-cases-extending-resources}
-      + [使用新字段扩展用户档案资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
+      + [使用新字段扩展轮廓资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 数据模型 {#datamodel}
       + [简介](developing/using/datamodel-introduction.md)
@@ -411,7 +412,7 @@ ht-degree: 100%
       + [投放](developing/using/datamodel-delivery.md)
       + [登陆页面](developing/using/datamodel-landingpage.md)
       + [营销历史](developing/using/datamodel-history.md)
-      + [用户档案](developing/using/datamodel-profile.md)
+      + [轮廓](developing/using/datamodel-profile.md)
       + [项目](developing/using/datamodel-program.md)
       + [种子成员](developing/using/datamodel-seed.md)
       + [服务](developing/using/datamodel-service.md)
@@ -478,10 +479,10 @@ ht-degree: 100%
          + [分页](api/using/pagination.md)
       + [自定义资源](api/using/custom-resources.md)
    + [与自定义资源交互](api/using/interacting-with-custom-resources.md)
-   + 管理用户档案 {#managing-profiles}
-      + [检索用户档案](api/using/retrieving-profiles.md)
-      + [更新用户档案](api/using/updating-profiles.md)
-      + [创建用户档案](api/using/creating-profiles-api.md)
+   + 管理轮廓 {#managing-profiles}
+      + [检索轮廓](api/using/retrieving-profiles.md)
+      + [更新轮廓](api/using/updating-profiles.md)
+      + [创建轮廓](api/using/creating-profiles-api.md)
    + 管理服务和订阅 {#managing-services-and-subscriptiopns}
       + [创建服务](api/using/creating-a-service.md)
       + [检索订阅](api/using/retrieving-subscriptions.md)
@@ -498,12 +499,12 @@ ht-degree: 100%
       + [控制工作流](api/using/controlling-a-workflow.md)
       + [触发信号活动](api/using/triggering-a-signal-activity.md)
    + 管理组织实体 {#managing-organizational-units}
-      + [检索用户档案的组织实体](api/using/retrieving-an-organizational-unit.md)
-      + [更新用户档案的组织实体](api/using/updating-profile-organizational-unit.md)
+      + [检索轮廓的组织实体](api/using/retrieving-an-organizational-unit.md)
+      + [更新轮廓的组织实体](api/using/updating-profile-organizational-unit.md)
       + [更新组织单位属性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理单位 {#managing-geographical-units}
-      + [检索用户档案的地理单位](api/using/retrieving-a-geographical-unit.md)
-      + [更新用户档案的地理单位](api/using/updating-a-geographical-unit.md)
+      + [检索轮廓的地理单位](api/using/retrieving-a-geographical-unit.md)
+      + [更新轮廓的地理单位](api/using/updating-a-geographical-unit.md)
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
    + [故障排除](api/using/troubleshooting.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
