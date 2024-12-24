@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 76%
 
 #### 安全修复 {#winter-25-security}
 
-* 此版本提供了安全修复。
-* 此版本附带以下安全升级：Apache Tomcat已升级到v10.1.33。
+* 此版本提供安全修复。
+* 此版本随附以下安全升级：Apache Tomcat 已升级到 v10.1.33。
 
 #### 其他修复 {#winter-25-fixes}
 
-* 修复了模板中的重复问题(CAMP-56340)
-* 修复了在Adobe Experience Manager模板中使用动态URL时的跟踪回归(CAMP-51932)
-* 修复了计费流程的性能问题(CAMP-56796)
-* 修复了JSSP网页上`>`字符的HTML编码问题(CAMP-56497)
-* 修复了使用&#x200B;**在选定行上显示**&#x200B;选项时动态报告中的问题(CAMP-55895)
+* 修复了模板中的重复问题 (CAMP-56340)
+* 修复了在 Adobe Experience Manager 模板中使用动态 URL 时的跟踪回归问题 (CAMP-51932)
+* 修复了计费流程的性能问题 (CAMP-56796)
+* 修复了 JSSP 网页上 `>` 字符的 HTML 编码问题 (CAMP-56497)
+* 修复了使用&#x200B;**在选定行上显示**&#x200B;选项时动态报告中出现的问题 (CAMP-55895)
 
 
-## 24.2版 — 2024年夏季版（洛杉矶） {#summer-24}
+## 版本 24.2 - 2024 夏季版 (LA) {#summer-24}
 
 ### 改进 {#summer-24-rn-improvements}
 
