@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-概要了解 Adobe Campaign Standard 产品和文档中的最新改进！有关功能、改进和修复的完整列表，请查看详细的[发行说明](rn/using/release-notes.md)。请访问[文档更新页面](rn/using/documentation-updates.md)，及时了解我们文档的最新变化。
+概要了解 Adobe Campaign Standard 产品和文档中的最新改进！有关功能、改进和修复的完整列表，请查看详细的[发行说明](rn/using/release-notes.md)。
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 版已上线！]
+>[!TAB Campaign 25.1 版已上线！]
 
-了解 Campaign Standard 24.2 版本中的新增功能、改进和修复。
+发现Campaign Standard25.1版本中的改进和修复。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

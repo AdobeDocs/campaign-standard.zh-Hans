@@ -4,10 +4,12 @@ description: 了解有关 Adobe Campaign Standard 文档的所有最新更新内
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7276'
 ht-degree: 100%
 
 ---
@@ -15,6 +17,11 @@ ht-degree: 100%
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
+
+
+## 25.1 版 - 2025 年冬季版 {#release-24-1}
+
+2024 年冬季版 Campaign Standard 24.1 的发行说明已发布。[了解更多信息](release-notes.md)
 
 ## 24.1 版 - 2024 年冬季版 {#release-24-1}
 
@@ -34,7 +41,7 @@ Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 �
 
 * Experience Cloud Triggers 的新用户界面现已可用。它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
 
-* 已添加有关将陷阱测试用户档案与筛选或疲劳规则结合使用的注释。[了解更多信息](../../sending/using/using-traps.md)
+* 已添加有关将陷阱测试轮廓与筛选或疲劳规则结合使用的注释。[了解更多信息](../../sending/using/using-traps.md)
 
 ## 23.1 版 - 2023 年春/夏版 {#release-23-1}
 
@@ -67,7 +74,7 @@ Campaign Standard 22.3 2022 年秋/冬版的发行说明已发布。[了解更�
 
 ## 2022 年 3 月 {#doc-updates-march-2022}
 
-请注意，使用用户档案替换发送校样将向所选用户档案的日志中添加记录。[了解更多信息](../../sending/using/testing-messages-using-target.md)
+请注意，使用轮廓替换发送校样将向所选轮廓的日志中添加记录。[了解更多信息](../../sending/using/testing-messages-using-target.md)
 
 ## 22.1 版 - 2022 年 2 月 {#release-22-1}
 
@@ -127,7 +134,7 @@ Campaign Standard 22.3 2022 年秋/冬版的发行说明已发布。[了解更�
 
 ## 2021 年 5 月 {#doc-updates-may-2021}
 
-**活动用户档案**&#x200B;报告部分已更新。[阅读更多](../../audiences/using/active-profiles.md)
+**活动轮廓**&#x200B;报告部分已更新。[阅读更多](../../audiences/using/active-profiles.md)
 
 **发行计划**&#x200B;页面已更新了新日期。 [阅读更多](../../rn/using/release-planning.md)
 
@@ -164,7 +171,7 @@ Adobe Experience Manager 集成改进 - [阅读更多](../../integrating/using/c
 
 **随版本提供的其他文档更新**
 
-已添加有关如何根据电子邮件、名字、姓氏或任何自定义字段搜索用户档案的信息。[阅读更多](../../audiences/using/integrated-customer-profile.md)
+已添加有关如何根据电子邮件、名字、姓氏或任何自定义字段搜索轮廓的信息。[阅读更多](../../audiences/using/integrated-customer-profile.md)
 
 已添加有关新 GetOption 函数的信息，通过该函数可在使用外部参数调用工作流时返回指定函数的值。[阅读更多](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
@@ -234,7 +241,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 现在提供新的 Campaign Standard - Microsoft Dynamics 365 集成。[阅读更多](../../integrating/using/d365-acs-get-started.md)
 
-已在活动用户档案报告中添加了有关匿名源的信息。[阅读更多](../../audiences/using/active-profiles.md)
+已在活动轮廓报告中添加了有关匿名源的信息。[阅读更多](../../audiences/using/active-profiles.md)
 
 ## 2020 年 8 月 {#doc-updates-august-2020}
 
@@ -256,7 +263,7 @@ Journey AI 集成 - [阅读更多](../../sending/using/predictive.md)
 
 Campaign Standard 页面中的“隐私管理”已更新，包括阐明如何通过隐私核心服务集成来管理隐私请求。[阅读更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-AI 支持的新电子邮件功能：发送时间优化和用户档案评分。[阅读更多](../../sending/using/predictive.md)
+AI 支持的新电子邮件功能：发送时间优化和轮廓评分。[阅读更多](../../sending/using/predictive.md)
 
 ## 2020 年 6 月 {#doc-updates-june-2020}
 
@@ -290,7 +297,7 @@ External API 活动 (GA) - [了解更多](../../automating/using/external-api.md
 
 在工作流属性的 **[!UICONTROL History in days]** 字段中添加了信息，现在其中包含了通过 **[!UICONTROL Transfer file]** 活动下载的文件。[了解更多](../../automating/using/managing-execution-options.md)
 
-在用户档案替换一节中，添加了有关主题行前缀 500 个字符限制的信息。[了解更多](../../sending/using/testing-messages-using-target.md)
+在轮廓替换一节中，添加了有关主题行前缀 500 个字符限制的信息。[了解更多](../../sending/using/testing-messages-using-target.md)
 
 核心文档中添加了有关隐私和同意的专述章节。[了解更多](../../start/using/privacy.md)
 
@@ -330,7 +337,7 @@ Adobe Experience Platform Data Connector 文档中增加了与 Experience Cloud 
 
 Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-使用定向的用户档案测试电子邮件 - [了解更多](../../sending/using/testing-messages-using-target.md)
+使用定向的轮廓测试电子邮件 - [了解更多](../../sending/using/testing-messages-using-target.md)
 
 **随版本提供的其他文档更新**
 
@@ -376,7 +383,7 @@ Audience Destinations（Beta 版）
 
 **随版本提供的其他文档更新**
 
-更新了隐私管理文档中关于如何为自定义用户档案资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
+更新了隐私管理文档中关于如何为自定义轮廓资源创建 CCPA 选择退出字段的信息。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html)
 
 重组并改进了发行说明。[了解更多](../../rn/using/release-notes.md)
 
@@ -464,13 +471,13 @@ API 文档中添加了与隐私相关的信息，[单击此处](../../api/using/
 
 添加了与 Campaign Standard 设置相关的新章节。[了解更多](../../administration/using/about-campaign-standard-settings.md)
 
-添加了新章节，介绍如何向订阅特定服务的用户档案自动发送自定义确认电子邮件。[了解更多](../../audiences/using/confirming-subscription-to-a-service.md)
+添加了新章节，介绍如何向订阅特定服务的轮廓自动发送自定义确认电子邮件。[了解更多](../../audiences/using/confirming-subscription-to-a-service.md)
 
 修改了“事务型消息传递”章节，更新了最新的 UI，包括使用 Email Designer 编辑内容。[了解更多](../../channels/using/editing-transactional-message.md)
 
 重组了登陆页面章节。此外，还增加了一个新章节，详细说明了建立登陆页面的步骤。[了解更多](../../channels/using/getting-started-with-landing-pages.md)
 
-在“推送通知”章节中新增了一节，介绍如何根据移动应用程序的订阅数据创建和更新用户档案信息。[了解更多](../../channels/using/updating-profile-with-mobile-app-data.md)
+在“推送通知”章节中新增了一节，介绍如何根据移动应用程序的订阅数据创建和更新轮廓信息。[了解更多](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 新增了一个示例，展示如何发送包含（检索自加载文件活动）附加数据的电子邮件。[了解更多](../../automating/using/sending-email-enriched-fields.md)
 
@@ -536,7 +543,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 添加了有关登陆页面限制的新页面。[了解更多](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
-添加了关于如何使用组合检索表调用用户档案的用例。[了解更多](../../developing/using/uc-calling-resource-id-key.md)
+添加了关于如何使用组合检索表调用轮廓的用例。[了解更多](../../developing/using/uc-calling-resource-id-key.md)
 
 添加了一项关于使用参数调用工作流时使用无聚合期定期投放的建议。[了解更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
@@ -640,7 +647,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于如何添加或扩展资源的章节。[了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
-添加了关于如何扩展用户档案自定义资源的使用案例。[了解更多](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+添加了关于如何扩展轮廓自定义资源的使用案例。[了解更多](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 
 添加了关于如何链接自定义资源的信息。[了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
@@ -752,19 +759,19 @@ Email Designer 中的移动视图 - [了解更多](../../designing/using/plain-t
 
 **此版本中包含的新增功能**
 
-更新了 API 文档，提供了关于 **History** API 的信息。添加了使用案例，介绍如何检索用于发送给用户档案之投放的镜像页面。[了解更多](../../api/using/interacting-with-marketing-history.md)
+更新了 API 文档，提供了关于 **History** API 的信息。添加了使用案例，介绍如何检索用于发送给轮廓之投放的镜像页面。[了解更多](../../api/using/interacting-with-marketing-history.md)
 
 **随版本提供的其他文档更新**
 
 更新并重组了“Triggers - Campaign 集成”文档。[了解更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-添加了关于如何创建自定义用户档案维度的分步使用案例。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
+添加了关于如何创建自定义轮廓维度的分步使用案例。[了解更多](../../reporting/using/creating-a-custom-profile-dimension.md)
 
 重组了“使用 Campaign 和 Audience Manager 或 People 核心服务”文档。[了解更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 更新了准备投放角色定义。[了解更多](../../administration/using/list-of-roles.md)
 
-为“查询活动”章节添加了一个示例，介绍如何定向单击了投放中特定链接的用户档案。[了解更多](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
+为“查询活动”章节添加了一个示例，介绍如何定向单击了投放中特定链接的轮廓。[了解更多](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 在 API 文档中添加了关于&#x200B;**自定义过滤器**&#x200B;的章节。[了解更多](../../api/using/filtering.md)
 
@@ -778,7 +785,7 @@ GDPR：核心服务集成 - [了解更多](../../start/using/privacy-management.
 
 投放日志扩展 - [了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-使用自定义用户档案数据进行动态报告 - [了解更多](../../channels/using/creating-a-multilingual-push-notification.md)
+使用自定义轮廓数据进行动态报告 - [了解更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
 **随版本提供的其他文档更新**
 
@@ -838,7 +845,7 @@ GDPR API 重组了各种功能，以便自动处理 GDPR 请求。[了解更多]
 
 **此版本中包含的新增功能**
 
-订阅 - 让一系列用户档案订阅或退订多项服务 - [了解更多](../../automating/using/subscription-services.md)
+订阅 - 让一系列轮廓订阅或退订多项服务 - [了解更多](../../automating/using/subscription-services.md)
 
 扩充活动 - 根据过往的过渡扩充数据 - [了解更多](../../automating/using/enrichment.md)
 
@@ -856,7 +863,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../..
 
 现在提供了一个新选项，利用该选项可更方便地定义 **[!UICONTROL Query]** 中的诸多附加数据。[了解更多](../../automating/using/query-samples.md)
 
-更新了用户档案导入示例，提供了一些关于如何让用户档案准备接收直邮的提示。[了解更多](../../automating/using/about-data-import-and-export.md)
+更新了轮廓导入示例，提供了一些关于如何让轮廓准备接收直邮的提示。[了解更多](../../automating/using/about-data-import-and-export.md)
 
 工作流中提供了新的活动：**[!UICONTROL Enrichment]** 活动。[了解更多](../../automating/using/enrichment.md)
 
@@ -918,7 +925,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了 A/B 测试示例。[了解更多](../../channels/using/designing-an-a-b-test-email.md)
 
-提供了关于当移动应用程序发送“Collect PII”数据时如何创建或更新用户档案数据的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-updating-profile-based-on-subscription.html)
+提供了关于当移动应用程序发送“Collect PII”数据时如何创建或更新轮廓数据的新技术说明。[了解更多](https://helpx.adobe.com/cn/campaign/kb/acs-updating-profile-based-on-subscription.html)
 
 新增了有关新导出跟踪功能的章节。[了解更多](../../administration/using/auditing-export-logs.md)
 
@@ -952,7 +959,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 电子邮件模板库 - [了解更多](../../designing/using/using-reusable-content.md#content-templates)
 
-使用用户档案数据进行动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
+使用轮廓数据进行动态报告 - [了解更多](../../reporting/using/about-dynamic-reports.md)
 
 批量订阅增强功能 - [了解更多](../../automating/using/subscription-services.md)
 
@@ -970,7 +977,7 @@ API 信号活动触发 - [了解更多](../../api/using/triggering-a-signal-acti
 
 更新了关于图像源个性化的章节。[了解更多](../../designing/using/personalization.md#personalizing-an-image-source)
 
-添加了关于活动用户档案报告的文档。[了解更多](../../audiences/using/active-profiles.md)
+添加了关于活动轮廓报告的文档。[了解更多](../../audiences/using/active-profiles.md)
 
 更新了[投放警报](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文档，添加了疑难解答章节，提供了关于在收到警报时可以采取哪些操作的一些提示。
 
@@ -1012,7 +1019,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 更新了报告文档，提供了四个新指标。[了解更多](../../reporting/using/list-of-components.md)
 
-添加了关于为用户档案生成唯一 ID 的文档。[了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
+添加了关于为轮廓生成唯一 ID 的文档。[了解更多](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
 新增了关于两次选择加入机制的分步过程文档。[了解更多](../../channels/using/setting-up-a-double-opt-in-process.md)
 
@@ -1118,4 +1125,4 @@ URL 更改：资源核心服务 - [了解更多](../../integrating/using/working
 
 URL 更改：People 核心服务 - [了解更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-重组了用户档案和受众指南。[了解更多](../../audiences/using/get-started-profiles-and-audiences.md)
+重组了轮廓和受众指南。[了解更多](../../audiences/using/get-started-profiles-and-audiences.md)
