@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!TAB Campaign 25.1 版已上线！]
 
-发现Campaign Standard25.1版本中的改进和修复。
+了解 Campaign Standard 25.1 版本中的改进和修复。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
