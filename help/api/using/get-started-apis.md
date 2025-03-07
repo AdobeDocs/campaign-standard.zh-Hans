@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard API 快速入门
-description: 通过将 Campaign 与一组技术建立联系，创建集成并构建您自己的生态系统。
+description: 通过将 Campaign 与一组技术建立联系，创建集成并生成您自己的生态系统。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -22,7 +22,7 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 通过 Adobe Campaign Standard API，您可以访问以下功能：
 
 <table style="table-layout:auto"><tr style="border: 0;">
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">用户档案</a></p></td>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">轮廓</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服务和订阅</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自定义资源</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">营销历史记录</a></p></td>
