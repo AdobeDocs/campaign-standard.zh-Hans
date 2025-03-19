@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 22%
 
 ---
@@ -135,9 +135,9 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->可用的HTML组件可进行编辑，但可用的选项有限。 如果所有样式都未内联，请确保在HTML代码的&#x200B;**head**&#x200B;部分中添加适当的CSS，否则电子邮件将不会响应。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按钮测试内容的响应速度（请参阅[预览消息](../../sending/using/previewing-messages.md)）。
+>可用有限选项编辑免费的HTML组件。 如果所有样式都未内联，请确保在HTML代码的&#x200B;**head**&#x200B;部分中添加适当的CSS，否则电子邮件将不会响应。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按钮测试内容的响应速度（请参阅[预览消息](../../sending/using/previewing-messages.md)）。
 
-为了仅使外部内容符合电子邮件Designer，Adobe建议从头开始创建消息，并将现有电子邮件的内容复制到片段和组件中。
+为了仅使外部内容与电子邮件Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件的内容复制到片段和组件中。
 
 当您有无法重新创建的内容时，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;内容组件从原始电子邮件中复制粘贴该HTML代码。 在继续之前，请确保您熟悉HTML。
 
@@ -157,7 +157,6 @@ ht-degree: 22%
 >id="ac_edition_video"
 >title="视频设置"
 >abstract="使用此组件可在电子邮件中插入视频。请注意，视频不适用于所有电子邮件客户端。我们建议设置后备图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="附加信息"
 
 将视频组件插入电子邮件的结构组件中，然后在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中输入视频链接。
 
