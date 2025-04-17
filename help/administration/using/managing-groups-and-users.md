@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 70%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全组仅Adobe内部，不应分配给任何用户。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全组仅是Adobe内部组，不应分配给任何用户。
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
@@ -105,13 +105,13 @@ ht-degree: 70%
 
    * 则该用户将叠加不同组的角色。在本例中，用户位于两个不同的组中：一个代表角色，另一个代表单位。
    * 单位是所用层次结构中最高的级别（请参阅[组织单位](../../administration/using/organizational-units.md)一节中的示例）。
-   * 如果多个单位具有相同的对等级别并且位于层次结构中的并行分支中，则用户将无法再进行连接。
+   * 如果分配给用户的组织单位位于层次结构中的并行分支中（即，它们没有公共分配的父单位），则系统会为用户选择组织单位，并且用户将有权访问系统选择的组织单位及其子级。
 
 1. 按照相同的步骤将 Geometrixx Clothes 安全组分配给您的标准用户。
 
    ![](assets/manage_security_group_9.png)
 
-现在，将在Admin Console中创建新创建的安全组。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
+现在，新创建的安全组是在Admin Console中创建的。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
 
 管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
