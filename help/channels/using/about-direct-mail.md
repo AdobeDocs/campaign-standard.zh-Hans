@@ -12,7 +12,7 @@ exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 97%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 >
 >此功能属于可选功能。请核实您的许可协议。使用直邮必须具备 **[!UICONTROL Export]** 角色。请联系您的管理员。
 
-利用线上渠道，可创建消息（电子邮件、短信、移动应用投放等）并直接从 Adobe Campaign 发送至受众。线下渠道则不同。在准备直邮投放时，Adobe Campaign 会生成一个文件，其中包含了所有定向的用户档案和选定的联系信息（例如邮政地址）。然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。
+利用在线渠道，可创建消息（电子邮件、短信、移动应用程序投放等），并直接从Adobe Campaign将其发送给受众。 线下渠道则不同。在准备直邮投放时，Adobe Campaign 会生成一个文件，其中包含了所有定向的轮廓和选定的联系信息（例如邮政地址）。然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。
 
 以下章节将介绍如何创建和生成一次性直邮投放。您也可以在工作流中加入直邮活动，以策划结合线上和线下渠道的营销策划。有关更多信息，请参阅[工作流](../../automating/using/get-started-workflows.md)指南。
 
@@ -44,9 +44,9 @@ Adobe Campaign 中的用户进程如下所示：
 
 ### 直邮提供商 {#direct-mail-providers}
 
-首先，您需要联系直邮提供商并收集其建议。确定提取文件中需要包含哪些用户档案信息，以便提供商将通信内容个性化并发送给受众。例如，名字和姓氏、邮政地址、促销代码等。您需要在直邮内容的 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 选项卡中添加这些字段。
+首先，您需要联系直邮提供商并收集其建议。确定提取文件中需要包含哪些轮廓信息，以便提供商将通信内容个性化并发送给受众。例如，名字和姓氏、邮政地址、促销代码等。您需要在直邮内容的 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 选项卡中添加这些字段。
 
-确保在用户档案信息中勾选 **[!UICONTROL Address specified]** 复选框。如果激活了此选项，则会将用户档案添加到目标。如果不勾选，则会在准备阶段期间被分类规则排除（请参阅[创建直邮](../../channels/using/creating-the-direct-mail.md)）。在用户档案导入期间，请谨记更新此字段。
+确保在轮廓信息中勾选 **[!UICONTROL Address specified]** 复选框。如果激活了此选项，则会将轮廓添加到目标。如果不勾选，则会在准备阶段期间被分类规则排除（请参阅[创建直邮](../../channels/using/creating-the-direct-mail.md)）。在轮廓导入期间，请谨记更新此字段。
 
 ![](assets/direct_mail_22.png)
 
