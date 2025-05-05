@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)启用数据集[。
+>对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)启用数据集。
 >
 >如果您选择的数据集已在现有数据映射中使用，则会出现一条警告，通知您可能会在Adobe Experience Platform上覆盖您的数据。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生此情况。
 

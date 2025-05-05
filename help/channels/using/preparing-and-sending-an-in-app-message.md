@@ -153,7 +153,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    ![](assets/inapp_sending_6.png)
 
-1. 通过消息仪表板和日志，检查投放的状态。有关更多信息，请参阅此](../../sending/using/monitoring-a-delivery.md)章节[。
+1. 通过消息仪表板和日志，检查投放的状态。有关更多信息，请参阅此[&#128279;](../../sending/using/monitoring-a-delivery.md)章节。
 
    **[!UICONTROL Delivered]** 和 **[!UICONTROL Sent]** KPI 计数基于成功从 Campaign 发送到消息投放服务的内容。请注意，这些 KPI 并不表示从消息投放服务成功接收或下载消息的移动设备计数。
 

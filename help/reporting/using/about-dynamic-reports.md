@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->只有具有管理权限或组织单位设置为&#x200B;**全部**&#x200B;的用户才能创建或保存新报告。 有关更多信息，请参阅此](../../administration/using/users-management.md)章节[。
+>只有具有管理权限或组织单位设置为&#x200B;**全部**&#x200B;的用户才能创建或保存新报告。 有关更多信息，请参阅此[&#128279;](../../administration/using/users-management.md)章节。
 
 ## 访问动态报告 {#accessing-dynamic-reports}
 
@@ -63,14 +63,14 @@ ht-degree: 6%
 |  | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和APAC （亚太） | **功能可用**。 <br>所有现成（即城市、国家/地区、州/省、性别和年龄段）和自定义用户档案信息均推送到美国报告中心。 有关配置文件维度的详细信息，请参阅此[页面](../../reporting/using/list-of-components.md) | **功能可用**。 <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign Standard事件字段都在美国数据中心进行处理。 |
-| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>所有现成（即城市、国家/地区、州、性别和年龄段）和推送到EMEA报告中心的自定义配置文件信息。 有关配置文件维度的详细信息，请参阅此[页面](../../reporting/using/list-of-components.md) | **功能可用。** <br>在EMEA数据中心中处理的所有现成配置文件字段和自定义配置文件字段以及Adobe Campaign Standard事件字段。 <br>**[!UICONTROL Control data]**包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。 |
+| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>所有现成（即城市、国家/地区、州、性别和年龄段）和推送到EMEA报告中心的自定义配置文件信息。 有关配置文件维度的详细信息，请参阅此[页面](../../reporting/using/list-of-components.md) | **功能可用。** <br>在EMEA数据中心中处理的所有现成配置文件字段和自定义配置文件字段以及Adobe Campaign Standard事件字段。 <br>**[!UICONTROL Control data]**&#x200B;包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。 |
 
 下表根据您所在的地区显示拒绝此协议后发生的情况。 请注意，即使您拒绝此协议，也仍然可以提供有关投放和Microsoft Dynamics 365集成的报告。
 
 | 区域 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和APAC （亚太） | **功能可用**。 <br>没有现成的和自定义的配置文件信息推送到US报告中心，ExternalID除外。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到美国数据中心。 <br>所有在美国数据中心处理的Adobe Campaign Standard事件字段，但镜像页面ID除外。 <br>有关Microsoft Dynamics 365集成的详细信息，请参阅此[页](../../integrating/using/d365-acs-get-started.md)。 |
-| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的用户档案和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到EMEA数据中心。 <br>在EMEA数据中心中处理的所有Adobe Campaign Standard事件字段，但镜像页面ID除外。  <br>**[!UICONTROL Control data]**包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅此[页](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的用户档案和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到EMEA数据中心。 <br>在EMEA数据中心中处理的所有Adobe Campaign Standard事件字段，但镜像页面ID除外。  <br>**[!UICONTROL Control data]**&#x200B;包含发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的详细信息，请参阅此[页](../../integrating/using/d365-acs-get-started.md)。 |
 
 此选择不是最终选择，您始终可以通过在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中选择&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;来更改它。
 

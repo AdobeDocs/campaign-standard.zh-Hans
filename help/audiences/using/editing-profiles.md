@@ -48,7 +48,7 @@ ht-degree: 7%
 
 * 联系人信息，其中包含收件人的名字、姓氏、出生日期、照片、首选语言（[多语言电子邮件](../../channels/using/creating-a-multilingual-email.md)）等。
 * 用于联系用户档案的频道，包含收件人的电子邮件地址、手机号码和选择退出信息。
-* 邮政地址（用于[直邮](../../channels/using/about-direct-mail.md)）和联系人的时区（以时区](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)排程[邮件）。
+* 邮政地址（用于[直邮](../../channels/using/about-direct-mail.md)）和联系人的时区（以时区[&#128279;](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)排程邮件）。
 * 访问授权，它指示收件人的组织单位（[管理权限](../../administration/using/about-access-management.md)）。 另请参阅[划分用户档案](../../administration/using/organizational-units.md#partitioning-profiles)。
 
 ![](assets/profile_creation4.png)

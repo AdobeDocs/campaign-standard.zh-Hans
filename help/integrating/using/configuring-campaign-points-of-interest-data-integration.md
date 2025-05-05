@@ -187,7 +187,7 @@ ht-degree: 1%
 
 使用特定的自定义资源，您可以定义要从应用程序的订阅者那里收集的数据。
 
-使用SDK V4](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中的[介绍了此步骤。
+使用SDK V4[&#128279;](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中的介绍了此步骤。
 
 ## 访问用于收集位置数据的移动应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 

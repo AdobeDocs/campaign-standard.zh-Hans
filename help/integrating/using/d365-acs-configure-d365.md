@@ -113,7 +113,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 ### 获取租户ID {#get-the-tenant-id}
 
-按照此页面](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的说明[查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
+按照此页面[&#128279;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的说明查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
 
 ## 安装Microsoft Dynamics 365Campaign Standard {#install-appsource-app}
 

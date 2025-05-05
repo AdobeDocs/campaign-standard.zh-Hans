@@ -61,7 +61,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 >
 >只有角色为&#x200B;**[!UICONTROL Administration]**&#x200B;且有权访问&#x200B;**所有**&#x200B;单位的功能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
-功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
+功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
 
 下方提供了他们可以执行的主要任务：
 
@@ -77,7 +77,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 高级用户是在 Adobe Campaign 中执行技术性使用案例的营销用户。他们负责预配置营销人员发送和监控投放所需的所有元素。
 
-与功能管理员相比，此类用户需要进行较多的常规操作，但仍应能够执行一些技术操作。为此，应该为他们分配诸如 **[!UICONTROL Export]**、**[!UICONTROL Generic import]** 或 **[!UICONTROL Workflow]** 即装即用角色。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
+与功能管理员相比，此类用户需要进行较多的常规操作，但仍应能够执行一些技术操作。为此，应该为他们分配诸如 **[!UICONTROL Export]**、**[!UICONTROL Generic import]** 或 **[!UICONTROL Workflow]** 即装即用角色。有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
 
 下方提供了他们可以执行的主要任务：
 
@@ -89,7 +89,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ### 基本用户 {#basic-users}
 
-借助功能管理员和高级用户的帮助，营销人员可以集中精力进行个性化、投放和监控活动，而无需考虑技术配置。为此，应该为他们分配诸如 **[!UICONTROL Prepare deliveries]**、**[!UICONTROL Workflow]** 和 **[!UICONTROL Start deliveries]** 即装即用角色。这些角色将在 **[!UICONTROL Standard Users]** 即装即用安全组中进行组合。有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
+借助功能管理员和高级用户的帮助，营销人员可以集中精力进行个性化、投放和监控活动，而无需考虑技术配置。为此，应该为他们分配诸如 **[!UICONTROL Prepare deliveries]**、**[!UICONTROL Workflow]** 和 **[!UICONTROL Start deliveries]** 即装即用角色。这些角色将在 **[!UICONTROL Standard Users]** 即装即用安全组中进行组合。有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
 
 下方提供了他们可以执行的主要任务：
 

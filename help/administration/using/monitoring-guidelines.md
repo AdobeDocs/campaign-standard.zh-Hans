@@ -55,7 +55,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **许可证**
 
-使用&#x200B;**[!UICONTROL Licenses]**菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
+使用&#x200B;**[!UICONTROL Licenses]**&#x200B;菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
 [了解更多信息](../../administration/using/licenses.md)
 
 ## 监控工作流 {#monitoring-workflows}

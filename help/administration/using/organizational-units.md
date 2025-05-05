@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->如果用户未链接到任何设备，则该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问权限，请勿将其链接到&#x200B;**[!UICONTROL All]**&#x200B;设备。 建议在导入任何配置文件之前添加选项&#x200B;**访问授权管理字段**。 有关更多信息，请参阅此](../../administration/using/organizational-units.md#partitioning-profiles)章节[。
+>如果用户未链接到任何设备，则该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问权限，请勿将其链接到&#x200B;**[!UICONTROL All]**&#x200B;设备。 建议在导入任何配置文件之前添加选项&#x200B;**访问授权管理字段**。 有关更多信息，请参阅此[&#128279;](../../administration/using/organizational-units.md#partitioning-profiles)章节。
 >
 >默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
 

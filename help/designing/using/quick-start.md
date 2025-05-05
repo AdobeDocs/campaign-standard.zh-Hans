@@ -19,13 +19,13 @@ ht-degree: 5%
 
 电子邮件Designer提供了四种创建电子邮件的方式。
 
-您可以在电子邮件Designer](#without-existing-content)中新建电子邮件[：
+您可以在电子邮件Designer[&#128279;](#without-existing-content)中新建电子邮件：
 
 1. 通过轻松添加结构和内容组件并个性化其内容以快速发送投放，您可以&#x200B;**从空白画布**&#x200B;创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，[快速入门](#from-scratch-email)或参阅[完整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 1. 您可以&#x200B;**从现成模板**&#x200B;创建电子邮件，方法是：选择一个模板，然后从此处构建新的电子邮件内容。 [了解详情](#building-content-from-an-out-of-the-box-template)
 
-您还可以创建包含现有内容](#with-existing-content)的电子邮件[：
+您还可以创建包含现有内容[&#128279;](#with-existing-content)的电子邮件：
 
 1. 您可以&#x200B;**转换现有HTML内容**（在外部或在旧版编辑器中创建）。 [了解详情](#converting-an-html-content)
 1. 您可以在兼容模式下立即&#x200B;**导入现有HTML内容**。 [了解详情](#compatibility-mode)

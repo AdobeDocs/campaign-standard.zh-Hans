@@ -18,8 +18,8 @@ ht-degree: 14%
 
 # 服务摘要{#service-summary}
 
-**[!UICONTROL Service summary]**详细介绍了您服务的订阅和退订的演变。
-只能通过高级菜单**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;从“服务”页面访问此报告。 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+**[!UICONTROL Service summary]**&#x200B;详细介绍了您服务的订阅和退订的演变。
+只能通过高级菜单&#x200B;**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;从“服务”页面访问此报告。 有关详细信息，请参见此 [ 页面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 

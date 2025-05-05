@@ -248,7 +248,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ![](assets/advancedparameters.png)
 
-有关插入和使用个性化内容的详细信息，请参阅](../../designing/using/personalization.md)个性化电子邮件内容[文档。
+有关插入和使用个性化内容的详细信息，请参阅[&#128279;](../../designing/using/personalization.md)个性化电子邮件内容文档。
 
 #### 目标上下文 {#target-context}
 

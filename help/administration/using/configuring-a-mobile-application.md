@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -149,7 +149,7 @@ ht-degree: 2%
 
 1. 在移动应用程序仪表板的&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;部分中，为每个设备提供应用程序详细信息。
 
-   * +++ 适用于iOS的
+   +++*  适用于iOS的
 
      输入以下应用程序详细信息：
 
@@ -159,9 +159,9 @@ ht-degree: 2%
       * **iOS团队ID**：有关iOS团队ID的更多信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ 适用于Android的
+   +++*  适用于Android的
 
      输入以下应用程序详细信息：
 
@@ -169,7 +169,7 @@ ht-degree: 2%
       * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅[Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. 上传证书后，将显示一条消息，通知您上传成功并显示证书的到期日期。
 

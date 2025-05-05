@@ -58,7 +58,7 @@ ht-degree: 76%
 * 利用 **[!UICONTROL Home]** 链接，可显示 Adobe Campaign 主页。
 * 利用 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 链接，可访问与这些功能关联的视图。
 * 通过&#x200B;**解决方案切换器**&#x200B;图标，可在组织之间切换或切换到其他应用程序。
-* **[!UICONTROL Help]**&#x200B;图标在](#help)下描述[。
+* **[!UICONTROL Help]**&#x200B;图标在[&#128279;](#help)下描述。
 * **Notifications** 图标可显示最新的警报或信息。
 * **User** 图标可显示链接到用户档案的信息。如果需要&#x200B;**[!UICONTROL Sign out]**，请使用此图标。
 

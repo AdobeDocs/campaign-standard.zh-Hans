@@ -175,7 +175,7 @@ Amazon S3 服务器字段应按以下方式填写：
 >
 >有关在 Adobe Campaign Standard 中配置外部帐户所需的信息，可通过选择 **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** 查看 Azure Portal。
 
-Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工作流活动将数据导入或导出 Adobe Campaign。有关更多信息，请参阅此](../../automating/using/transfer-file.md#azure-blob-configuration-wf)章节[。
+Azure Blob Storage 连接器可用于通过 **[!UICONTROL Transfer file]** 工作流活动将数据导入或导出 Adobe Campaign。有关更多信息，请参阅此[&#128279;](../../automating/using/transfer-file.md#azure-blob-configuration-wf)章节。
 
 对于 Microsoft Azure Blob Storage 外部帐户，请提供以下详细信息：
 

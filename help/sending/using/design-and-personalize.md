@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 生成个性化内容 {#build-personalized-content}
 
-在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数时候，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容](../../designing/using/using-existing-content.md)时的格式设置[以及[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)和[图像](../../designing/using/images.md)有关。
+在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数时候，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容[&#128279;](../../designing/using/using-existing-content.md)时的格式设置以及[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)和[图像](../../designing/using/images.md)有关。
 
 ## 优化个性化 {#optimize-personalization}
 
@@ -64,13 +64,13 @@ ht-degree: 4%
 
 ### 退订链接
 
-退订链接是必需的。 它必须可见且有效，并且表单必须有效。 在本节](../../designing/using/personalization.md#about-targeting-dimension)中了解退订链接准则[。
+退订链接是必需的。 它必须可见且有效，并且表单必须有效。 在本节[&#128279;](../../designing/using/personalization.md#about-targeting-dimension)中了解退订链接准则。
 
 默认情况下，在分析消息时，控件[类型规则](../../sending/using/control-rules.md)会检查是否包含选择退出链接，如果缺少该链接，则会生成警告。
 
 **提示**：由于人为错误始终存在，因此请在每次发送前检查选择退出链接是否正常工作。 例如，在发送校样时，确保链接有效，表单处于联机状态且“不再联系此收件人”字段已更改为“是”。
 
-了解如何在此部分](../../designing/using/personalization.md#adding-a-content-block)中插入选择退出链接[。
+了解如何在此部分[&#128279;](../../designing/using/personalization.md#adding-a-content-block)中插入选择退出链接。
 
 ### 电子邮件大小 {#email-size}
 
@@ -100,8 +100,8 @@ Adobe建议保留最大邮件大小默认值。 但是，此值只能由[功能�
 
 默认情况下，短信的字符数应符合GSM（全球移动通信系统）标准。 使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
 
-音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应&#x200B;**[!UICONTROL External account]**的SMPP渠道设置选项卡中的对应框来授权字符音译。
-在本节](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多[。
+音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP渠道设置选项卡中的对应框来授权字符音译。
+在本节[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多。
 
 **提示**：
 
@@ -109,7 +109,7 @@ Adobe建议保留最大邮件大小默认值。 但是，此值只能由[功能�
 
 * 但是，如果短信消息包含许多GSM标准无法识别的字符，请启用音译以限制发送消息的成本。
 
-在本节](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多[。
+在本节[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多。
 
 ### 响应式电子邮件设计
 

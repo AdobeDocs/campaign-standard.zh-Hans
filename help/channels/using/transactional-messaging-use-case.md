@@ -38,7 +38,7 @@ ht-degree: 4%
 
 1. 使用&#x200B;**[!UICONTROL Email]**&#x200B;渠道创建新事件。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 
-1. 选择&#x200B;**[!UICONTROL Profile]**&#x200B;定向维度以创建基于用户档案的事务型消息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。[
+1. 选择&#x200B;**[!UICONTROL Profile]**&#x200B;定向维度以创建基于用户档案的事务型消息[&#128279;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
 1. 定义可用于个性化事务型消息的属性。 在此示例中，添加“CRM ID”和“产品标识符”字段。 请参阅[定义事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)。
 

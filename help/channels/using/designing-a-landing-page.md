@@ -241,7 +241,7 @@ ht-degree: 93%
 
 ### 在内容编辑器中管理块 {#managing-blocks-in-the-content-editor}
 
-不同的 HTML 内容元素在登陆页面中以块的形式显示，对应于 **&lt;div>****&lt;/div>** 标签。选择要与其交互的块。随后该块周围会显示一个蓝色的方框。
+不同的 HTML 内容元素在登陆页面中以块的形式显示，对应于 **&lt;div>**&#x200B;**&lt;/div>** 标签。选择要与其交互的块。随后该块周围会显示一个蓝色的方框。
 
 ![](assets/des_lp_content_1.png)
 

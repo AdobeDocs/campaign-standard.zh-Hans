@@ -119,7 +119,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365集成可执行多个数据流�
 
 >[!IMPORTANT]
 >
->如果任何Campaign自定义资源记录包含个人信息，则应用特定推荐。 在本节](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)中了解更多[。
+>如果任何Campaign自定义资源记录包含个人信息，则应用特定推荐。 在本节[&#128279;](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)中了解更多。
 >
 
 配置自定义实体数据流时，请务必注意以下事项：

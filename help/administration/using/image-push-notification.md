@@ -39,7 +39,7 @@ Experience PlatformSDK支持推送通知。
 
 1. 从推送通知内容页面，访问&#x200B;**[!UICONTROL Advanced options]**&#x200B;部分。
 
-1. 在&#x200B;**[!UICONTROL Rich media content URL]**字段中输入文件的URL。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**&#x200B;字段中输入文件的URL。
 对于iOS 10或更高版本，您可以插入图像、gif、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)

@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# 在ISP中断{#update-bounce-qualification.md}后更新退回限制条件
+# 在ISP中断后更新退回限制条件{#update-bounce-qualification.md}
 
 ## 上下文
 

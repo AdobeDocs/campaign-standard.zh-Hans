@@ -21,7 +21,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面](../../rn/using/deprecated-features.md)中了解更多[
+>Adobe Experience Platform Data Connector现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[&#128279;](../../rn/using/deprecated-features.md)中了解更多
 
 Adobe Experience Platform Data Connector通过将XTK数据（在Campaign中引入的数据）映射到Adobe Experience Platform上的Experience Data Model (XDM)数据，帮助现有客户使其数据在Adobe Experience Platform上可用。
 

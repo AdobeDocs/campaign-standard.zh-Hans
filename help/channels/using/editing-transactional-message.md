@@ -51,7 +51,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在](#profile-transactional-message-specificities)下详细介绍[。
+>本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在[&#128279;](#profile-transactional-message-specificities)下详细介绍。
 >
 >[此部分](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中介绍了创建基于事件的事务型消息的配置步骤。
 

@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面](../../rn/using/deprecated-features.md)中了解更多[
+>Audience Destinations服务现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[&#128279;](../../rn/using/deprecated-features.md)中了解更多
 
 利用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)基于大型复杂数据集构建具有高度针对性的受众，从而增强您的消费者体验。 Adobe Experience Platform可整合在线和离线来源(包括Adobe Analytics)中的用户档案、行为和多实体数据，以帮助您构建客户的360度视图，使您能够有效地管理客户体验。
 

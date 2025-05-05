@@ -96,4 +96,4 @@ ht-degree: 10%
 
 有关将品牌链接到模板的更多信息，请参阅[将品牌分配给电子邮件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本节](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌[。
+在本节[&#128279;](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌。

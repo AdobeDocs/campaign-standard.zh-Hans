@@ -46,7 +46,7 @@ ht-degree: 2%
 1. 保存您的自定义资源。
 
 1. 您现在需要发布自定义资源。
-从高级菜单中选择**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**。
+从高级菜单中选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**。
 
    ![](assets/custom_profile_7.png)
 

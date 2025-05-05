@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 * 插入[预定义的个性化块](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件或短信的发件人](../../designing/using/subject-line.md)
 * [个性化电子邮件的主题行](../../designing/using/subject-line.md)
-* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容
+* 在电子邮件[&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建条件内容
 * 在短信消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
