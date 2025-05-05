@@ -30,7 +30,7 @@ ht-degree: 22%
 1. 预览电子邮件。
 1. 保存您的内容，然后在确保已定义受众并正确计划发送后继续发送消息。
 
-您还可以观看此[介绍视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)。
+您还可以观看此[介绍视频](https://video.tv.adobe.com/v/330104/?autoplay=true&hidetitle=true&captions=chi_hans)。
 
 >[!NOTE]
 >

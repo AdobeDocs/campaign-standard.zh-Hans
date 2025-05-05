@@ -37,7 +37,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 以下视频概述了主要步骤：
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/34833?captions=chi_hans)
 
 要生成OAuth访问令牌，请执行以下步骤。
 

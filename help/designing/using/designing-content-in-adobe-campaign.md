@@ -166,6 +166,6 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 此视频概要介绍了Email Designer。
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330104?quality=12&captions=chi_hans)
 
 要开始使用Email Designer，请观看此[视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hans#GettingStarted)，其中说明了Email Designer的一般功能以及如何从头开始或使用模板来设计电子邮件

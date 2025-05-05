@@ -271,6 +271,6 @@ Campaign Standard允许您导入可用于测试的用户档案受众。 例如�
 
 本视频说明如何使用用户档案替换测试电子邮件。
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36440?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

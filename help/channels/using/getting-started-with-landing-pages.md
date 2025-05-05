@@ -136,6 +136,6 @@ ht-degree: 93%
 
 本视频说明如何创建和编辑登陆页面。
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35533?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

@@ -82,6 +82,6 @@ Campaign Standard提供了一组&#x200B;**随时可用的动态报表**，可让
 
 此视频概述Adobe Campaign Standard的报告功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38318?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

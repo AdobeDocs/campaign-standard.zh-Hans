@@ -70,6 +70,6 @@ Adobe Campaign 默认使用用户档案来定义消息的主目标。
 
 本视频说明如何使用工作流导入用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328387?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

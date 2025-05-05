@@ -97,6 +97,6 @@ Campaign Standard提供了若干&#x200B;**可投放性工具**&#x200B;来帮助�
 
 本视频说明如何以Campaign Standard发送测试电子邮件、准备然后发送电子邮件投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/328370?captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。
