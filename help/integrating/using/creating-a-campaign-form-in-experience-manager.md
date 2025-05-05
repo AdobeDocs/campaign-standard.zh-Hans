@@ -38,4 +38,4 @@ ht-degree: 12%
 1. 通过添加可映射到Adobe Campaign数据库字段的各种字段和组件来编辑表单的内容。
 1. 测试并发布表单，使其可在AEM网站上访问。
 
-有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。
+有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hans)。

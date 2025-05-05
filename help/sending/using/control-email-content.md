@@ -31,7 +31,7 @@ ht-degree: 6%
 * [退订链接](#opt-out)和登陆页面：退订链接是必需的。 它必须可见且有效，并且表单必须有效。
 * 预览：使用Adobe Campaign提供的工具检查和优化电子邮件的内容（[反垃圾邮件分析](#anti-spam-analysis)，[电子邮件渲染](#message-responsiveness)）。
 
-有关在设计内容时优化可投放性的其他提示，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)。
+有关在设计内容时优化可投放性的其他提示，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

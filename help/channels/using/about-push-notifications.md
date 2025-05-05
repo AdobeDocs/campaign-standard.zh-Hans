@@ -80,7 +80,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 查看以下资源：
 
-* [视频Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [视频Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=zh-Hans)
 * [产品文档](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK [文档进行配置](../../administration/using/configuring-a-mobile-application.md)
 * [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

@@ -52,7 +52,7 @@ ht-degree: 4%
 
    * 在检查电子邮件的可投放性时，您需要重点关注四个主要类别：数据质量、邮件和内容、发送基础架构和信誉。 有关此主题的更深入探讨，请参阅[此部分](../../sending/using/about-deliverability.md)。
 
-* 启动新平台时，请应用[此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上详述的建议。
+* 启动新平台时，请应用[此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=zh-Hans#transition-process)上详述的建议。
 
 * 请联系您的Adobe代表寻求帮助。
 

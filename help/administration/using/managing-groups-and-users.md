@@ -25,7 +25,7 @@ ht-degree: 65%
 
 用户必须始终链接到安全组。这将允许您为他们分配特定的角色和组织单位。 要限制某个用户的访问，请勿将该用户添加到Campaign **[!UICONTROL Standard Users]**&#x200B;组，因为该组已链接到&#x200B;**[!UICONTROL All]**&#x200B;组织单位。
 
-有关角色的更多信息，下页中的表显示了根据用户的角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
+有关角色的更多信息，下页中的表显示了根据用户的角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)。
 
 默认安全组为：
 

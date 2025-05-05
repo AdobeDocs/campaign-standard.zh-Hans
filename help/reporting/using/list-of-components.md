@@ -19,7 +19,7 @@ ht-degree: 0%
 
 要了解有关维度和量度之间兼容性的更多信息，请参阅此[表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果两个组件不兼容，单元格将显示值&#x200B;**None**。
 
-[![图像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![图像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hans)
 
 ## 维度 {#dimensions}
 

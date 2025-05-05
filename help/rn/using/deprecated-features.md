@@ -46,7 +46,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p>截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在Adobe Campaign Standard中使用这个旧版SDK，则必须在2024年6月底之前使用Adobe Experience Platform SDK <strong>更新您的实施</strong>。 </p></br>
-   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a>以了解如何调整您的实施并迁移到最新的Experience PlatformSDK。</p></br>
+   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=zh-Hans">本文</a>以了解如何调整您的实施并迁移到最新的Experience PlatformSDK。</p></br>
    <p><strong>注意</strong>：从2024年6月底开始，Campaign Standard将不再支持SDK V4。</p>
   </td> 
   </tr> 
@@ -64,8 +64,8 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign电子邮件Designer</a>创建和个性化您的电子邮件内容。 </p></br>
-   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
+   <td> <p>从 Campaign 19.0 版本开始，弃用旧版电子邮件编辑器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=zh-Hans">Campaign电子邮件Designer</a>创建和个性化您的电子邮件内容。 </p></br>
+   <p>阅读<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=zh-Hans">此部分</a>以了解如何针对新编辑器调整电子邮件模板。</p></br>
   </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从Campaign Standard21.3版本开始，弃用与Audience Destinations服务的集成。  现已删除。</p>
-   <p>对于新的实施，您无法再将Audience Destinations服务与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
+   <p>对于新的实施，您无法再将Audience Destinations服务与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans">了解详情</a>。</p>
      </td> 
   </tr> 
  </tbody> 
@@ -113,7 +113,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从Campaign Standard21.3版本开始，弃用与Adobe Experience Platform Data Connector的集成。  现已删除。</p>
-   <p>对于新的实施，您无法再将Adobe Experience Platform Data Connector与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解详情</a>。</p>
+   <p>对于新的实施，您无法再将Adobe Experience Platform Data Connector与Adobe Campaign Standard集成。 但是，您可以通过“源”和“目标”集成Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans">了解详情</a>。</p>
      </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
    <td> <p> 从Campaign 20.1版本开始，弃用SDK v4。 现已删除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hans">了解详情</a>。</p><br/>
    <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a>（以前称为v5）现在专门支持即将推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日之后，客户可以继续下载和使用版本4 SDK，但将无法获得客户关怀支持或访问论坛。</p>
-   <p>在此页面</a>中了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</p></br>
+   <p>在此页面</a>中了解如何从SDK v4迁移到Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=zh-Hans">。</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p>从 Campaign 21.2 版本开始，将 Campaign API 和接口用于访问和删除请求的方法已被弃用。两步用户档案删除不再可用。 使用<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隐私核心服务</a>。</p></br>
-   <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隐私请求</a>。</p>
+   <p>另请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans">管理隐私请求</a>。</p>
   </td> 
   </tr> 
  </tbody> 
@@ -160,7 +160,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  <tbody> 
   <tr> 
    <td> <p> 从2021年4月开始，弃用预测主题行功能。</p><br/>
-   <p>我们建议您利用AI支持的电子邮件功能，根据历史参与量度分析和预测开放率、最佳发送时间和可能的客户流失。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解详情</a></p></br>
+   <p>我们建议您利用AI支持的电子邮件功能，根据历史参与量度分析和预测开放率、最佳发送时间和可能的客户流失。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=zh-Hans">了解详情</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -174,7 +174,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Cloud 触发器中已取消<b>倾向分数</b>。因此，已从 Adobe Campaign Standard 中移除此选项。为避免扩充模式中的任何倾向分数值过时，我们建议更新模式以检索最新更改并重新发布现有触发器。有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">在 Campaign 中发布触发器</a>。
+   <td> <p>Adobe Experience Cloud 触发器中已取消<b>倾向分数</b>。因此，已从 Adobe Campaign Standard 中移除此选项。为避免扩充模式中的任何倾向分数值过时，我们建议更新模式以检索最新更改并重新发布现有触发器。有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans">在 Campaign 中发布触发器</a>。
 </p></br>
    </td> 
   </tr> 
@@ -205,7 +205,7 @@ Adobe 不断评估产品功能，以确定应用更现代的功能替换的旧�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>从 2019 年春季和 Campaign 19.2 版本开始，Adobe Campaign 和 Adobe Experience Cloud 已终止支持 Microsoft Internet Explorer 11。请切换到 Microsoft Edge 或其他受支持的浏览器。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">了解详情</a>。</p>
+   <td> <p>从 2019 年春季和 Campaign 19.2 版本开始，Adobe Campaign 和 Adobe Experience Cloud 已终止支持 Microsoft Internet Explorer 11。请切换到 Microsoft Edge 或其他受支持的浏览器。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=zh-Hans">了解详情</a>。</p>
    </td> 
   </tr> 
  </tbody> 

@@ -26,7 +26,7 @@ ht-degree: 77%
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
-您还可以观看[这组视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
+您还可以观看[这组视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hans#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
 
 >[!NOTE]
 >

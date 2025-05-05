@@ -28,7 +28,7 @@ ht-degree: 23%
 Adobe Campaign 使用两种类型的 Cookie：
 
 * 会话Cookie (nlid)。 其中包含发送给联系人的电子邮件的标识符(broadlogId)，以及消息模板的标识符(deliveryId)。 联系人单击由 Adobe Campaign 发送的电子邮件中包含的 URL 后即可添加标识符，让您能够跟踪他们在网络上的行为。关闭浏览器时，将自动擦除会话 Cookie。联系人可以将浏览器配置为拒绝 Cookie。
-* 在Adobe Experience Cloud解决方案之间共享的Cookie。 这使您能够在用户访问网站时识别与Experience Cloud解决方案进行交互的用户。 此Cookie的说明可在[此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)获得。
+* 在Adobe Experience Cloud解决方案之间共享的Cookie。 这使您能够在用户访问网站时识别与Experience Cloud解决方案进行交互的用户。 此Cookie的说明可在[此处](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hans)获得。
 
 通过Adobe Campaign Standard进行跟踪，可访问以下功能：
 

@@ -89,4 +89,4 @@ Adobe Campaign提供一套工具来帮助您遵守&#x200B;**隐私合规性**（
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
-* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=zh-Hans)

@@ -95,7 +95,7 @@ Adobe团队需要以下信息来激活触发器：
 
 在Experience Cloud中创建新触发器，并确保选择您网站上使用的报表包。 确保选择正确的维度，以便触发程序。
 
-请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
+请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hans)。
 
 ## 触发器最佳实践和限制 {#triggers-best-practices-and-limitations}
 

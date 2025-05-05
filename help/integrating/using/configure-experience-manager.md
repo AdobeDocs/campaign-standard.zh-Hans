@@ -66,8 +66,8 @@ Adobe Campaign Standard与Adobe Experience Manager之间的这种集成允许您
 
 要使用Adobe Campaign Standard配置Adobe Experience Manager，您必须执行以下步骤：
 
-1. 您首先需要配置Adobe Experience Manager创作实例和发布实例之间的复制。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)。
+1. 您首先需要配置Adobe Experience Manager创作实例和发布实例之间的复制。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans#configuring-adobe-experience-manager)。
 
-1. 然后，通过配置专用的&#x200B;**[!UICONTROL Cloud Service]**&#x200B;将Adobe Experience Manager连接到Adobe Campaign。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)。
+1. 然后，通过配置专用的&#x200B;**[!UICONTROL Cloud Service]**&#x200B;将Adobe Experience Manager连接到Adobe Campaign。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans#connecting-aem-to-adobe-campaign)。
 
-1. 您现在需要在创作实例上配置Adobe Experience Manager中的外部化器。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)。
+1. 您现在需要在创作实例上配置Adobe Experience Manager中的外部化器。 请参阅此[章节](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans#configuring-the-externalizer)。

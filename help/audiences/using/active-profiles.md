@@ -40,5 +40,5 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->作为管理员用户，您还可以直接从控制面板监控实例中使用的活动用户档案数。 有关详细信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+>作为管理员用户，您还可以直接从控制面板监控实例中使用的活动用户档案数。 有关详细信息，请参阅[控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hans)。
 >

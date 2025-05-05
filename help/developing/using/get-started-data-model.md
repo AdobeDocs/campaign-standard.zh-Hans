@@ -63,5 +63,5 @@ Campaign Standard允许您&#x200B;**扩充预定义的数据模型**&#x200B;以�
 
 ## 其他资源
 
-* [导出/导入自定义资源](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [导出/导入自定义资源](https://helpx.adobe.com/cn/campaign/kb/acs-get-started-with-cusres.html)
 * [将数据从 Campaign 导出到 Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

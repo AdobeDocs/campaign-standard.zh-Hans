@@ -27,7 +27,7 @@ ht-degree: 78%
 
 根据您的环境，还可以将其他解决方案链接到 Adobe Experience Cloud。它们以组织（也称为租户）的形式链接。
 
-组织是允许管理员配置组和用户以及控制 Experience Cloud 中的单点登录的实体。组织的功能类似于跨所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以有许多组织。[Adobe Experience Cloud 帮助门户](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)中详细介绍了用户和组织管理。
+组织是允许管理员配置组和用户以及控制 Experience Cloud 中的单点登录的实体。组织的功能类似于跨所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以有许多组织。[Adobe Experience Cloud 帮助门户](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hans)中详细介绍了用户和组织管理。
 
 如果您希望将来自其他系统的数据流与 Adobe Campaign 集成，请查看我们的 [API 文档](../../api/using/get-started-apis.md)。
 
@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 允许您在 Adobe Experience Manager 中直接创建映射到 Adobe Campaign 数据库的电子邮件内容或表单。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促销活动和Experience Manager</a>，<a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">创建包含Experience Manager和促销活动的电子邮件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促销活动和Experience Manager</a>，<a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans">创建包含Experience Manager和促销活动的电子邮件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 允许在打开由 Adobe Campaign 创建和发送的电子邮件时插入由 Adobe Target 动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">集成Campaign和Target</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a>视频（步骤3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans">集成Campaign和Target</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a>视频（步骤3）
     </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ ht-degree: 78%
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
    <td> 允许在AdobeJourney Orchestration的上下文中使用Adobe Campaign Standard的事务性消息传递功能，通过开箱即用的操作发送电子邮件、推送通知和短信。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=zh-Hans">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

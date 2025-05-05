@@ -24,4 +24,4 @@ ht-degree: 0%
 
 **geoUnitBase**&#x200B;端点允许您与地理单位交互，例如，允许您更新其属性或更新用户档案的单位。
 
-扩展配置文件资源时，**地理单位**&#x200B;字段已添加到配置文件。 因此，请记住始终使用&#x200B;**profileAndServicesExt**&#x200B;端点与地理单位交互。 有关用户档案资源扩展的更多信息，请参阅[Campaign文档](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+扩展配置文件资源时，**地理单位**&#x200B;字段已添加到配置文件。 因此，请记住始终使用&#x200B;**profileAndServicesExt**&#x200B;端点与地理单位交互。 有关用户档案资源扩展的更多信息，请参阅[Campaign文档](https://helpx.adobe.com/cn/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。

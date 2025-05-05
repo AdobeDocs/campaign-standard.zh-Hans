@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * **阻止列表的电子邮件地址与隔离的电子邮件地址有何区别？**
 
-   * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)的结果（当某人报告邮件为垃圾邮件时）。
+   * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hans#feedback-loops)的结果（当某人报告邮件为垃圾邮件时）。
 
    * 状态&#x200B;**[!UICONTROL Quarantined]**&#x200B;是软退回或硬退回的结果。
 

@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
 
-区段生成器允许您通过基于来自[实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的数据定义规则来构建受众。
+区段生成器允许您通过基于来自[实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)的数据定义规则来构建受众。
 
-本节介绍构建区段时的全局概念。 有关区段生成器本身的详细信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+本节介绍构建区段时的全局概念。 有关区段生成器本身的详细信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)。
 
 区段生成器界面由以下部分组成：
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 1. 确保在设置窗格中选择所需的合并策略。
 
-   有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专用部分。
+   有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 左侧窗格列出了可用于构建规则的所有属性、事件和受众。
 
-列出的字段是您的公司捕获的属性，已通过[体验数据模型(XDM)系统](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)提供。
+列出的字段是您的公司捕获的属性，已通过[体验数据模型(XDM)系统](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)提供。
 
 字段被组织为选项卡：
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 >
 >**多实体分段**&#x200B;允许您使用基于产品、商店或其他非配置文件类的附加数据来扩展配置文件数据。 连接后，其他类中的数据将变得可用，就好像它们是配置文件架构的原生数据一样。
 >
->有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
+>有关更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=zh-Hans)。
 
 默认情况下，区段生成器会显示数据已存在的字段。 要显示完整的架构，包括数据不存在的字段，请从设置中启用&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;选项。
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下部分提供了有关规则定义的全局信息。 有关详细信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+>以下部分提供了有关规则定义的全局信息。 有关详细信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)。
 
 要构建规则，请执行以下步骤：
 

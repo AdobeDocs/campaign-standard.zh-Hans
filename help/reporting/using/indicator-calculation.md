@@ -188,7 +188,7 @@ ht-degree: 1%
   <tr> 
    <td> 独特点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hans#unique-open-clicks-no-match">示例</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ ht-degree: 1%
   <tr> 
    <td> 唯一打开次数<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一打开次数使用唯一RecipientId的ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一打开次数使用唯一RecipientId的ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hans#unique-open-clicks-no-match">示例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 展示次数<br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 1%
   <tr> 
    <td> 独特点击<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">示例</a>.<br /> </td> 
+   <td> 唯一点击量使用ThetaSketch概念进行计算。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hans#unique-open-clicks-no-match">示例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 点进率<br /> </td> 

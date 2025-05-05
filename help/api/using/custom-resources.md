@@ -76,4 +76,4 @@ Adobe Campaign附带预定义数据模型，其中数据通过不同资源进行
 
 * [数据模型概念](../../developing/using/data-model-concepts.md)
 * [扩展API](../../developing/using/about-extending-the-api.md)
-* [定义与其他资源的链接](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [定义与其他资源的链接](https://helpx.adobe.com/cn/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

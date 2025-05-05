@@ -23,7 +23,7 @@ ht-degree: 74%
 >
 >要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此内容的详细信息，请参阅此[页面](../../administration/using/list-of-roles.md)。
 
-您应确保预先在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服务）中定义要监视的行为。 有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
+您应确保预先在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服务）中定义要监视的行为。 有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hans)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
 您现在必须基于现有 Adobe Experience Cloud 触发器在 Adobe Campaign 中创建触发器事件。
 

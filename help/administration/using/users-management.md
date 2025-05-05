@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以访问界面的哪些部分。
 
-以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
+以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)。
 
 管理员可以通过Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。有关详细信息，请参阅[Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
 
@@ -33,9 +33,9 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 **相关主题：**
 
-* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)视频
+* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=zh-Hans)视频
 * [角色列表](../../administration/using/list-of-roles.md)
-* [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [权限列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
 
 ## 用户类型 {#type-of-users}
 

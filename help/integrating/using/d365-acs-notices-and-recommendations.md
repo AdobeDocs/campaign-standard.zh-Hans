@@ -162,7 +162,7 @@ ht-degree: 1%
 
   在估计整个Campaign引擎调用量时，务必要考虑其他引擎调用源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
 
-  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
+  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持在Campaign中首次同步到资源的总共1500万条记录。 增量同步受Adobe Campaign Standard包限制。
 

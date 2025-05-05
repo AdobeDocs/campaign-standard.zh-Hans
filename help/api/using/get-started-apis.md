@@ -36,7 +36,7 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 >[!NOTE]
 >
->在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 要使用 Campaign Standard API，您需要 AdobeI/O 帐户。这是前进和发现 API 功能的必备第一步。
 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。

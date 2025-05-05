@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->可在此[页面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)中找到Adobe Campaign Classic的&#x200B;**SMS连接器协议和设置**。
+>可在此[页面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=zh-Hans)中找到Adobe Campaign Classic的&#x200B;**SMS连接器协议和设置**。
 >
 >通过此文档，所有对协议、字段名称和值详细信息的引用都引用[SMPP 3.4规范](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
 
