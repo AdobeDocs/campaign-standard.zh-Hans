@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: bd4b6d0d7d8fae6b14a41dc9001027d8154c9222
+source-git-commit: 2bc6ce04d2580b561bfdaafe29985353fd116a42
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->数据报表仅可用于最近三年。 有关数据保留期的更多信息，请联系Adobe顾问或您的技术管理员。
+>数据报表仅可用于最近两年。 有关数据保留期的更多信息，请联系Adobe顾问或您的技术管理员。
 
 Campaign中的标准日志表具有预设的保留期，可限制其数据存储持续时间，以避免系统过载。
 
