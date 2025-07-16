@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 安全修复 {#25.1.2-security}
 
 * 此版本提供安全修复。
-* 此版本附带以下安全升级：Apache Tomcat已升级到v10.1.36。
+* 此版本随附以下安全升级：Apache Tomcat 已升级到 v10.1.36。
 
 ### 其他修复 {#25.1.2-fixes}
 
-* 修复了可能会阻止用户通过IMS登录的令牌解析问题。 (CAMP-57337)
-* 改进了自动序列ID生成机制，提高了系统的可靠性。 (CAMP-57281)
+* 修复了可能会阻止用户通过 IMS 登录的令牌解析问题。(CAMP-57337)
+* 改进了自动序列 ID 生成机制，提高了系统的可靠性。(CAMP-57281)
 
 ## 25.1 版 - 2025 年冬季版 {#winter-25}
 
