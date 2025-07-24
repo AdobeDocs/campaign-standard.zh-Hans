@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +26,21 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## 版本 25.2 - 2025 夏季版 {#summer-25}
+
+### 安全修复 {#summer-25-security}
+
+* 此版本提供安全修复。
+* 此版本附带以下安全升级：PostgreSQL 14.18，从CentOS迁移到Rocky for Azure实例。
+
+### 其他修复 {#summer-25-fixes}
+
+* 改进序列耗尽的处理以提高系统可靠性。 (CAMP-57281)
+* 常规产品稳定更新。 (CAMP-57339)
+* 改进了动态报告，从而提高稳健性并减少数据不匹配。 (CAMP-58157)
+* 修复了下拉菜单无法正确换行文本的问题。 (CAMP-57360)
+* 更新了报告功能，以防止用户查询2年以上的数据。 (CAMP-59262)
 
 ## 版本 25.1.2 {#25.1.2}
 
