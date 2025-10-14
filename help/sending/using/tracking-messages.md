@@ -88,7 +88,7 @@ Adobe Campaign 使用两种类型的 Cookie：
 
 有关如何插入跟踪链接的更多信息，请参阅[此页面](../../designing/using/links.md#inserting-a-link)。
 
-**[!UICONTROL Tracking indicators]**&#x200B;报告包含用于在收到电子邮件后跟踪行为的关键指标。 有关详细信息，请参见此 [ 页面](../../reporting/using/tracking-indicators.md)。
+**[!UICONTROL Tracking indicators]**&#x200B;报告包含用于在收到电子邮件后跟踪行为的关键指标。 有关详细信息，请参见此 [&#x200B; 页面](../../reporting/using/tracking-indicators.md)。
 
 ## 跟踪的 URL {#tracked-urls}
 

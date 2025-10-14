@@ -307,7 +307,7 @@ _自定义资源_
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> Creative Designer for Email只有英文版。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> Creative Designer for Email只有英文版。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 

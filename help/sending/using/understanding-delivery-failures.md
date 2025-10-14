@@ -39,7 +39,7 @@ ht-degree: 59%
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
-发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[ 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个用户档案的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
+发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[&#x200B; 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个用户档案的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
 
 ![](assets/sending_logs.png)
 

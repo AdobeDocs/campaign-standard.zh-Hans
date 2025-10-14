@@ -87,7 +87,7 @@ Adobe Campaign 提供两种类型的推送通知：
 
 ### 在Campaign中必须执行哪些操作才能获取推送令牌？ {#push-token-acquisition}
 
-确保配置团队已在Adobe Campaign Standard中完成推送渠道的配置。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [ 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)。
+确保配置团队已在Adobe Campaign Standard中完成推送渠道的配置。 从SDK实施setPushIdentifier API。 有关详细信息，请参见此 [&#x200B; 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)。
 
 ### 在Campaign中拥有推送令牌和ECID后，我还需要发送什么推送通知？ {#sending-push}
 

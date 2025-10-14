@@ -87,7 +87,7 @@ ht-degree: 5%
 
 现在您的用户档案字段已创建，我们需要使用用户档案字段扩展发送日志，以在动态报告中创建关联的自定义用户档案维度。
 
-在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口以访问&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;选项卡。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口以访问&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;选项卡。 有关详细信息，请参见此 [&#x200B; 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ ht-degree: 5%
 
    ![](assets/custom_profile_10.png)
 
-   仅当接受PII窗口时，此选项才可用。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+   仅当接受PII窗口时，此选项才可用。 有关详细信息，请参见此 [&#x200B; 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 1. 单击&#x200B;**[!UICONTROL Add]**，然后保存您的自定义资源。
 1. 由于自定义资源已被修改，因此我们需要发布它以实施新的更改。

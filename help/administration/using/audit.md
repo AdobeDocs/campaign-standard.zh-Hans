@@ -88,7 +88,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 只有功能管理员可以启用或禁用审核跟踪。 有关详细信息，请参见此 [ 页面](../../administration/using/users-management.md#functional-administrators)。
+> 只有功能管理员可以启用或禁用审核跟踪。 有关详细信息，请参见此 [&#x200B; 页面](../../administration/using/users-management.md#functional-administrators)。
 
 可以轻松地为特定活动激活或停用审核跟踪。
 
