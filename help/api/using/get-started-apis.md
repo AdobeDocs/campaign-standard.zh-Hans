@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 3e6afc55581a24f1fc2b26ac35b801ce38cce905
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,22 +21,23 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 通过 Adobe Campaign Standard API，您可以访问以下功能：
 
-<table style="table-layout:auto"><tr style="border: 0;">
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">轮廓</a></p></td>
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+<tbody><tr style="border: 0;background-color: #FFFFFF;">
+<td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">轮廓</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服务和订阅</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自定义资源</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">营销历史记录</a></p></td>
 </tr>
-<tr style="border: 0;">
+<tr style="border: 0;background-color: #FFFFFF;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="条件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">隐私管理</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="条件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">事务型消息传递</a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="条件" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">工作流</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="条件" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">组织单位</a></p></td>
-</tr></table>
+</tr></tbody></table>
 
 >[!NOTE]
 >
->在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 要使用 Campaign Standard API，您需要 AdobeI/O 帐户。这是前进和发现 API 功能的必备第一步。
 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
