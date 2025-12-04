@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -43,7 +44,7 @@ ht-degree: 4%
 * [加载文件活动](../../automating/using/load-file.md)
 * [协调活动](../../automating/using/reconciliation.md)
 * [分段活动](../../automating/using/segmentation.md)
-* [“内部重复数据删除”活动](../../automating/using/deduplication.md)
+* [重复数据删除活动](../../automating/using/deduplication.md)
 * [更新数据活动](../../automating/using/update-data.md)
 
 ## 使用平面文件格式 {#using-flat-file-formats}

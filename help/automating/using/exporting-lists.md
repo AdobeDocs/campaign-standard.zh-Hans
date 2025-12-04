@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -23,7 +24,7 @@ Adobe Campaign允许您直接将列表导出到文件中以供将来使用。 �
 
 默认情况下，导出列表选项允许导出最多100,000行，具体行数由&#x200B;**Nms_ExportListLimit**&#x200B;选项定义。 功能管理员可在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;菜单下管理此选项。
 
-对于具有&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;角色的用户，导出列表在具有&#x200B;**列表**&#x200B;模式视图的所有屏幕中均可用。
+对于具有&#x200B;**角色的用户，导出列表在具有**&#x200B;列表&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;模式视图的所有屏幕中均可用。
 
 1. 转到您选择的&#x200B;**列表**&#x200B;屏幕。 例如，测试配置文件概述屏幕( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
 1. 检查屏幕是否处于&#x200B;**列表**&#x200B;模式。
@@ -80,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 本视频说明如何配置列表。
 
->[!VIDEO](https://video.tv.adobe.com/v/328385/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

@@ -1,36 +1,37 @@
 ---
-title: 在外部文件中导出用户档案
+title: 在外部文件中导出轮廓
 description: 此用例展示了如何以外部文件的形式导出用户档案列表，以便在Adobe Campaign之外使用数据。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 68%
 
 ---
 
-# 在外部文件中导出用户档案 {#exporting-profiles-external-file}
+# 在外部文件中导出轮廓 {#exporting-profiles-external-file}
 
 下方的示例说明了如何在 **[!UICONTROL Query]** 活动后配置 **[!UICONTROL Extract file]** 活动。
 
-此工作流旨在以外部文件的形式导出用户档案列表，以便在 Adobe Campaign 之外使用该数据。
+此工作流旨在以外部文件的形式导出轮廓列表，以便在 Adobe Campaign 之外使用该数据。
 
 1. 将[提取文件](../../automating/using/extract-file.md)活动拖放到您的工作流中，并将其放在[查询](../../automating/using/query.md)活动之后。
 
-   在本例中，就是对 18 至 30 岁的所有用户档案执行查询。
+   在本例中，就是对 18 至 30 岁的所有轮廓执行查询。
 
 1. 打开&#x200B;**[!UICONTROL Extract file]**&#x200B;活动以进行编辑。
 1. 为输出文件命名。
 1. 添加输出列。
 
-   在本例中，用户档案的电子邮件、年龄、出生日期、名字和姓氏都将添加为输出列。
+   在本例中，轮廓的电子邮件、年龄、出生日期、名字和姓氏都将添加为输出列。
 
    ![](assets/wkf_data_export6.png)
 

@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 98%
@@ -44,6 +45,6 @@ ht-degree: 98%
 
 ## 示例 {#example}
 
-下方的示例展示了两个查询活动之间的交集。本例中，将其用于查看 Adobe Campaign 数据库并检索年龄在 18 到 27 岁之间且已提供了电子邮件地址的用户档案。
+下方的示例展示了两个查询活动之间的交集。本例中，将其用于查看 Adobe Campaign 数据库并检索年龄在 18 到 27 岁之间且已提供了电子邮件地址的轮廓。
 
 ![](assets/wkf_intersection_example.png)

@@ -1,15 +1,16 @@
 ---
 title: 订阅服务
-description: 利用订阅服务活动，可让多个用户档案批量订阅服务或退订服务。
+description: 利用订阅服务活动，可让多个轮廓批量订阅服务或退订服务。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 96%
@@ -22,15 +23,15 @@ ht-degree: 96%
 
 ![](assets/wf_subscription.png)
 
-利用 **[!UICONTROL Subscription Services]** 活动，可让多个用户档案批量订阅服务或退订服务。
+利用 **[!UICONTROL Subscription Services]** 活动，可让多个轮廓批量订阅服务或退订服务。
 
 >[!CAUTION]
 >
->在工作流环境中管理订阅时，订阅或未订阅用户档案不会接收在服务属性中定义的各种确认电子邮件。
+>在工作流环境中管理订阅时，订阅或未订阅轮廓不会接收在服务属性中定义的各种确认电子邮件。
 
 ## 使用环境 {#context-of-use}
 
-**[!UICONTROL Subscription Services]** 活动是唯一可通过单次操作，为多个用户档案订阅或退订服务的 Adobe Campaign 功能。
+**[!UICONTROL Subscription Services]** 活动是唯一可通过单次操作，为多个轮廓订阅或退订服务的 Adobe Campaign 功能。
 
 执行定向或从导入带有已识别数据的文件后，即可使用此活动。
 
@@ -55,29 +56,29 @@ ht-degree: 96%
 
 1. 使用以下选项之一选择要执行的 **[!UICONTROL Operation type]**：
 
-   * **[!UICONTROL Select a specific operation type]**：手动选择是要 **[!UICONTROL Subscribe]** 还是 **[!UICONTROL Unsubscribe]** 用户档案。
+   * **[!UICONTROL Select a specific operation type]**：手动选择是要 **[!UICONTROL Subscribe]** 还是 **[!UICONTROL Unsubscribe]** 轮廓。
    * **[!UICONTROL Select an operation type from a path of inbound transition]**：选择集客数据的列，在该列中指定要对每个记录执行的操作。
 
      在此列中，操作必须指定为 Boolean 或 Integer。使用 **0** 表示退订记录，使用 **1** 表示订阅记录。
 
      如果导入文件中包含的值与上述要求不匹配，您仍可使用 **[!UICONTROL Load file]** 活动中提供的 [Remapping of values](../../automating/using/load-file.md#column-format) 选项。
 
-1. 如果集客数据包含对应于用户档案订阅服务日期对应的列，请选择该列。您可以将其留空，但运行工作流时就不会设置订阅日期。
+1. 如果集客数据包含对应于轮廓订阅服务日期对应的列，请选择该列。您可以将其留空，但运行工作流时就不会设置订阅日期。
 1. 定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中 **[!UICONTROL Set a constant as origin]** 选项将其设定为所选的常数值。您可以将其留空，但运行工作流时就不会设置订阅来源。
 1. 您也可以根据需要生成叫客过渡。该过渡包含与集客活动完全相同的数据。
 1. 确认活动的配置并保存工作流。
 
-   工作流现已准备就绪，可供执行。一旦执行，您就可以在服务详情查看订阅或退订服务的用户档案。
+   工作流现已准备就绪，可供执行。一旦执行，您就可以在服务详情查看订阅或退订服务的轮廓。
 
 ## 示例：导入文件后为用户档案订阅特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例说明如何导入包含用户档案的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* 通过 **[!UICONTROL Load file]** 活动加载用户档案文件并定义导入列的结构。
+* 通过 **[!UICONTROL Load file]** 活动加载轮廓文件并定义导入列的结构。
 
   在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -96,7 +97,7 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example2.png)
 
-* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的用户档案维度。仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据用户档案的电子邮件地址来标识文件数据。
+* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据轮廓的电子邮件地址来标识文件数据。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -104,19 +105,19 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example5.png)
 
-* 通过 **[!UICONTROL Subscription Services]** 活动，选择用户档案必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
+* 通过 **[!UICONTROL Subscription Services]** 活动，选择轮廓必须订阅的服务、对应于订阅日期的字段以及订阅的来源。
 
   ![](assets/subscription_activity_example4.png)
 
 ## 示例：从文件更新多个订阅状态 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
 ![](assets/subscription_activity_example1.png)
 
-* 通过 **[!UICONTROL Load file]** 活动加载用户档案文件并定义导入列的结构。
+* 通过 **[!UICONTROL Load file]** 活动加载轮廓文件并定义导入列的结构。
 
   在本例中，加载的文件采用 .csv 格式并包含以下数据：
 
@@ -141,7 +142,7 @@ ht-degree: 96%
 
   如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的用户档案维度。通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
+* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与轮廓资源的 **email** 字段匹配。
 
   ![](assets/subscription_activity_example3.png)
 

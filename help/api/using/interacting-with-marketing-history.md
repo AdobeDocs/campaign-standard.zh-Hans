@@ -2,10 +2,11 @@
 title: 与营销历史互动
 description: 了解如何与用户档案的营销历史进行交互
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -14,10 +15,10 @@ ht-degree: 4%
 
 # 与营销历史互动{#interacting-with-marketing-history}
 
-通过&#x200B;**history**&#x200B;终结点，可与用户档案的营销历史记录进行交互。
+通过&#x200B;**history**终结点，可与用户档案的营销历史记录进行交互。
 这样，您就可以（例如）轻松检索用于发送给用户档案的投放的镜像页面。 为此请执行以下操作步骤：
 
-1. 使用&#x200B;**history**&#x200B;终结点和配置文件的主键执行GET。
+1. 使用&#x200B;**history**&#x200B;端点和配置文件的主键执行GET。
 1. 对返回的&#x200B;**events** href执行GET请求。
 1. 它会返回包含指向&#x200B;**mirrorPage**&#x200B;节点中镜像页面的链接的配置文件的事件列表。
 
@@ -25,7 +26,7 @@ ht-degree: 4%
 
 ***示例请求***
 
-使用GET请求检索用户档案的营销历史记录。
+用GET请求检索用户档案的营销历史。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \

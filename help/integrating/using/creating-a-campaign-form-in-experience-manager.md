@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 12%
@@ -36,6 +37,6 @@ ht-degree: 12%
    * **Adobe Campaign：取消订阅服务**
 
 1. 通过添加可映射到Adobe Campaign数据库字段的各种字段和组件来编辑表单的内容。
-1. 测试并发布表单，使其可在AEM网站上访问。
+1. 测试并发布表单，以使其可在AEM网站上访问。
 
-有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hans)。
+有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。

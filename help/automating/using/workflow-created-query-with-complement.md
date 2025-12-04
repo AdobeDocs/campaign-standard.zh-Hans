@@ -1,22 +1,23 @@
 ---
-title: 使用补充创建投放
+title: 使用补集创建投放
 description: 此用例展示了如何使用补充创建投放。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
 
 ---
 
-# 使用补充创建投放 {#deliveries-with-complement}
+# 使用补集创建投放 {#deliveries-with-complement}
 
 您可以向客户发送电子邮件：一个用于创建时间不到一年的客户，另一个用于创建时间超过一年的客户。
 
@@ -28,8 +29,8 @@ ht-degree: 39%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL is not empty]**&#x200B;选择&#x200B;**[!UICONTROL email]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL email]**&#x200B;选择&#x200B;**[!UICONTROL is not empty]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
@@ -38,7 +39,7 @@ ht-degree: 39%
 
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[分段](../../automating/using/segmentation.md)活动并双击该活动。
 1. 将鼠标悬停在该区段上，然后单击![](assets/edit_darkgrey-24px.png)以定位今年添加到数据库中的客户。
-1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择筛选器类型为&#x200B;**[!UICONTROL Relative]**&#x200B;的&#x200B;**[!UICONTROL Created]**。
+1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择筛选器类型为&#x200B;**[!UICONTROL Created]**&#x200B;的&#x200B;**[!UICONTROL Relative]**。
 1. 将&#x200B;**[!UICONTROL Level of precision]**&#x200B;更改为&#x200B;**[!UICONTROL Year]**&#x200B;并选择&#x200B;**[!UICONTROL This year]**。
 1. 单击 **[!UICONTROL Confirm]** 两次。
 1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;以创建针对其余收件人的区段。

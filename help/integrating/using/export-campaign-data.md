@@ -3,10 +3,11 @@ title: 将数据从 Campaign 导出到 Adobe Experience Platform
 description: 了解如何将数据从Campaign Standard导出到Adobe Experience Platform。
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 5%
@@ -15,13 +16,13 @@ ht-degree: 5%
 
 # 将数据从 Campaign 导出到 Adobe Experience Platform {#sources}
 
-要将Campaign Standard数据导出到Adobe Real-time Customer Data Platform (RTCDP)，您首先需要在Campaign Standard中构建工作流，以导出到要共享的数据的Amazon Storage Service (S3)或Azure Blob存储位置。
+要将Campaign Standard数据导出到Adobe Real-time Customer Data Platform (RTCDP)，您首先需要在Campaign Standard中构建一个工作流，以将要共享的数据导出到Amazon Storage Service (S3)或Azure Blob存储位置。
 
-配置工作流并将数据发送到存储位置后，您需要将S3或Azure Blob存储位置作为Adobe Experience Platform中的&#x200B;**Source**&#x200B;进行连接。
+配置工作流并将数据发送到存储位置后，您需要在Adobe Experience Platform中将S3或Azure Blob存储位置连接为&#x200B;**Source**。
 
 >[!NOTE]
 >
->请注意，我们建议仅导出Campaign生成的数据（例如，发送、打开、点击等） Adobe Experience Platform。 从第三方源（如您的CRM）摄取的数据应直接导入Adobe Experience Platform。
+>请注意，我们建议仅将Campaign生成的数据（例如发送、打开、点击等）导出到Adobe Experience Platform。 从第三方源（如您的CRM）摄取的数据应直接导入Adobe Experience Platform。
 
 ## 在Campaign Standard中创建导出工作流
 
@@ -53,10 +54,10 @@ ht-degree: 5%
 
 下面列出了在Adobe Experience Platform中将Amazon Storage Service (S3)或Azure Blob存储位置作为&#x200B;**Source**&#x200B;连接的主要步骤。 有关每个步骤的详细信息，请参阅[Source连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)。
 
-1. 在AdobeExperience Platform **[!UICONTROL Sources]**&#x200B;菜单中，创建与存储位置的连接：
+1. 在Adobe Experience Platform **[!UICONTROL Sources]**&#x200B;菜单中，创建与存储位置的连接：
 
-   * [创建Amazon S3源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=zh-Hans)
-   * [Azure Blob连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=zh-Hans)
+   * [创建Amazon S3源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [Azure Blob连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ ht-degree: 5%
 
 1. 为云存储批处理连接配置数据流。 数据流是一种计划任务，用于在存储位置检索数据并将其摄取到Adobe Experience Platform数据集。 此步骤允许您从存储位置配置数据摄取，包括数据选择和CSV字段到XDM架构的映射。
 
-   [此页面](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=zh-Hans)中提供了详细信息。
+   [此页面](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html)中提供了详细信息。
 
    ![](assets/rtcdp-map-xdm.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: wait,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 98%
@@ -48,8 +49,8 @@ ht-degree: 98%
 
 ![](assets/wait_example_workflow.png)
 
-* 第一个 **[!UICONTROL Query]** 确定要接收电子邮件邀请的用户档案。
-* **[!UICONTROL Email delivery]** 首次向选定的用户档案发送邀请。
+* 第一个 **[!UICONTROL Query]** 确定要接收电子邮件邀请的轮廓。
+* **[!UICONTROL Email delivery]** 首次向选定的轮廓发送邀请。
 * 发送邀请后，进行 24 小时的 **[!UICONTROL Wait]** 活动，然后再继续进行工作流。
-* 第二个 **[!UICONTROL Query]** 确定收到第一封电子邮件但未单击其内部订阅链接的用户档案。
+* 第二个 **[!UICONTROL Query]** 确定收到第一封电子邮件但未单击其内部订阅链接的轮廓。
 * **[!UICONTROL Email delivery]** 第二次向选定的用户档案发送邀请提醒。

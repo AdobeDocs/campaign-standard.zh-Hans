@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 35%
@@ -59,7 +60,7 @@ ht-degree: 35%
 
 识别出的和收集的数据可以被扩充、聚合和操作以优化目标构建。 您可以通过包括未在数据集市中建模的数据来简化和优化定位流程。
 
-利用&#x200B;**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Incremental query]**&#x200B;活动的&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡，可扩充查询所定向的数据，并将此数据传输到以下工作流活动，以便在其中使用。 其中，您可以添加：
+利用&#x200B;**[!UICONTROL Additional data]**&#x200B;和&#x200B;**[!UICONTROL Query]**&#x200B;活动的&#x200B;**[!UICONTROL Incremental query]**&#x200B;选项卡，可扩充查询所定向的数据，并将此数据传输到以下工作流活动，以便在其中使用。 其中，您可以添加：
 
 * 简单数据
 * 聚合

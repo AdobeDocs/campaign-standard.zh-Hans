@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -51,7 +52,7 @@ ht-degree: 93%
 1. 选择短信发送模式：
 
    * **[!UICONTROL SMS]**：短信只发送一次。您可以在此处指定是否向活动添加叫客过渡。此程序的第 7 步详细介绍了各种过渡类型。
-   * **[!UICONTROL Recurring SMS]**: 根据 **[!UICONTROL Scheduler]** 活动中定义的频度，多次发送短信。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的视图中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该视图。
+   * **[!UICONTROL Recurring SMS]**: 根据 **[!UICONTROL Scheduler]** 活动中定义的频率，多次发送短信。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的视图中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该视图。
 
      例如，对于每天发送的定期生日短信，您可以选择聚合每月的发送。这样，尽管每天都会发送生日短信，但您可以按月接收投放报告。
 
@@ -61,7 +62,7 @@ ht-degree: 93%
 1. 默认情况下，**[!UICONTROL SMS delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL SMS delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
-   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收短信的群体。在投放准备期间被排除的目标成员（隔离、电话号码无效等）将从此过渡中排除。
+   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收短信的群体。在投放准备期间被排除的目标成员（隔离、编号无效等）将排除在此过渡之外。
 
 1. 确认活动的配置并保存工作流。
 

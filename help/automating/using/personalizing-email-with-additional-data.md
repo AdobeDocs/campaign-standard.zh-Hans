@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 81%
@@ -22,11 +23,11 @@ ht-degree: 81%
 
 在本例中，使用[自定义资源](../../developing/using/data-model-concepts.md)：
 
-* 扩展了&#x200B;**用户档案**&#x200B;资源以添加字段，以便保存每个用户档案的会员积分。
-* 创建了&#x200B;**交易**&#x200B;资源，并确定了数据库中的用户档案执行的所有购买。保存了每笔交易的购买日期、价格和产品。
+* 扩展了&#x200B;**轮廓**&#x200B;资源以添加字段，以便保存每个轮廓的会员积分。
+* 创建了&#x200B;**交易**&#x200B;资源，并确定了数据库中的轮廓执行的所有购买。保存了每笔交易的购买日期、价格和产品。
 * 创建了&#x200B;**产品**&#x200B;资源，并引用了可供购买的产品。
 
-其目标是向至少保存了一次交易的用户档案发送电子邮件。通过此电子邮件，客户将收到上次执行交易的提醒及其所有交易的概况：已购买的产品数量、总花费，累计会员积分提醒。
+其目标是向至少保存了一次交易的轮廓发送电子邮件。通过此电子邮件，客户将收到上次执行交易的提醒及其所有交易的概况：已购买的产品数量、总花费，累计会员积分提醒。
 
 其工作流如下所示：
 
@@ -38,7 +39,7 @@ ht-degree: 81%
 
 1. 在查询的 **[!UICONTROL Additional data]** 选项卡中，定义要在最终电子邮件中显示的各种数据：
 
-   * 与会员积分相对应的&#x200B;**用户档案**&#x200B;维度的简单字段。请参阅[添加简单字段](../../automating/using/query.md#adding-a-simple-field)。
+   * 与会员积分相对应的&#x200B;**轮廓**&#x200B;维度的简单字段。请参阅[添加简单字段](../../automating/using/query.md#adding-a-simple-field)。
    * 基于交易集合的两个聚合：购买的产品数和总花费金额。您可以使用 **Count** 和 **Sum** 聚合，从聚合配置窗口的 **[!UICONTROL Data]** 选项卡中添加它们。请参阅[添加聚合](../../automating/using/query.md#adding-an-aggregate)一节。
    * 集合返回的项包括已花费的金额、日期和上次交易生效的产品。
 
@@ -58,4 +59,4 @@ ht-degree: 81%
 
    ![](assets/enrichment_example3.png)
 
-您的工作流现已准备就绪。查询中的所定向用户档案将收到一封个性化电子邮件，其中包含根据其交易计算出的数据。
+您的工作流现已准备就绪。查询中的所定向轮廓将收到一封个性化电子邮件，其中包含根据其交易计算出的数据。

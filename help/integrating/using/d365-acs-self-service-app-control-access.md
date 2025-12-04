@@ -6,19 +6,20 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 访问Adobe Campaign Standard与Microsoft Dynamics 365自助式应用程序的集成
 
-此配置要求您与组织的Experience Cloud(EC)管理员合作。 这些是授予您访问自助服务集成应用程序界面所需的初始步骤。 在您可以访问该工具后，您将设置与数据的连接并配置Adobe Campaign和Microsoft Dynamics 365之间的数据流。
+此配置要求您与组织的Experience Cloud (EC)管理员合作。 这些是授予您访问自助服务集成应用程序界面所需的初始步骤。 在有权访问该工具后，您将设置与数据的连接并配置Adobe Campaign和Microsoft Dynamics 365之间的数据流。
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 这些步骤需要在贵组织的Experience Cloud中扮演&#x200B;**管理员**&#x200B;角色。
+> 这些步骤要求贵组织在Experience Cloud中扮演&#x200B;**管理员**&#x200B;角色。
 >
 
 1. 浏览https://experience.adobe.com/并登录Adobe Experience Cloud。
@@ -56,7 +57,7 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. 单击&#x200B;**[!UICONTROL New Profile]**&#x200B;按钮并添加名为&#x200B;**Campaign Standard- your-prod-instance-name - D365/ACS集成**&#x200B;的新条目
+1. 单击&#x200B;**[!UICONTROL New Profile]**&#x200B;按钮并添加名为&#x200B;**Campaign Standard - your-prod-instance-name - D365/ACS集成**&#x200B;的新条目
 
    * 如果您在列表中看到此条目，则无需继续。 单击左侧菜单中的&#x200B;**Adobe Campaign Standard**，然后检查其他Campaign实例。
 
@@ -72,11 +73,11 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## 授予用户访问权限 {#add-users-to-profile}
+## 向用户授予访问权限 {#add-users-to-profile}
 
 从&#x200B;**[!UICONTROL Products]**&#x200B;页面中，选择您的Campaign实例，然后执行以下步骤：
 
-1. 单击您之前创建的新配置文件：**Campaign Standard- your-prod-instance-name - D365/ACS集成**
+1. 单击您之前创建的新配置文件：**Campaign Standard - your-prod-instance-name - D365/ACS集成**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 

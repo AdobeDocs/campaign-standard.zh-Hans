@@ -2,13 +2,14 @@
 title: 使用工作流发送定期推送通知
 description: 在此示例中，将于每月第一天晚上8点向移动应用程序的订阅者发送个性化推送通知（取决于其时区）
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -34,9 +35,9 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. [查询](../../automating/using/query.md)活动允许您定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的VIP客户：
+1. VIP通过[查询](../../automating/using/query.md)活动，可定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的客户：
 
-   * 选择受众(您的VIP客户)并根据其年龄进行过滤。
+   * 选择一个受众(您的VIP客户)，并根据其年龄进行过滤。
    * 将&#x200B;**应用程序**&#x200B;订阅元素拖放到工作区中。 选择&#x200B;**存在**&#x200B;并选择要使用的移动应用程序。
    * 选择您发送给客户的电子邮件。
    * 将&#x200B;**投放日志（日志）**&#x200B;元素拖放到工作区中，并选择&#x200B;**存在**&#x200B;以定向收到电子邮件的所有客户。
@@ -46,9 +47,9 @@ ht-degree: 4%
 
 1. [推送通知投放](../../automating/using/push-notification-delivery.md)活动允许您输入消息的内容并选择要使用的个性化字段：
 
-   * 选择&#x200B;**[!UICONTROL Recurring notification]**&#x200B;选项。
+   * 选择 **[!UICONTROL Recurring notification]** 选项。
    * 定义推送通知内容。 有关推送通知内容的更多信息，请参阅此[部分](../../channels/using/preparing-and-sending-a-push-notification.md)。
-   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;块中，选择&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此，我们在工作流&#x200B;**[!UICONTROL Scheduler]**&#x200B;中选择了&#x200B;**[!UICONTROL Time zone of the contact date]** Pacific。
+   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;块中，选择&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此，我们在工作流&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;中选择了&#x200B;**[!UICONTROL Scheduler]** Pacific。
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 字段中，选择 **[!UICONTROL Send at the recipient's time zone]**。
 
      ![](assets/wkf_push_example_4.png)

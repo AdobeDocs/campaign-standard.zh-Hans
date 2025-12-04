@@ -1,15 +1,16 @@
 ---
 title: External API
-description: 外部API活动通过HTTP API调用，将来自外部Campaign Standard的数据引入系统工作流。
+description: 外部API活动通过HTTP API调用，将外部系统中的数据导入Campaign Standard工作流。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -38,7 +39,7 @@ ht-degree: 93%
 
 ### 向后兼容性声明 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，http响应数据大小限制和响应超时护栏已降低，以符合最佳实践 — 请参阅[限制和护栏](#guardrails)。 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
+在Campaign Standard 20.4版本中，http响应数据大小限制和响应超时护栏已降低，从而符合最佳实践 — 请参阅[限制和护栏](#guardrails)。 这些护栏修改将不会对现有外部 API 活动生效；因此，建议在所有工作流中将现有外部 API 活动替换为新版本。
 
 替换 External API 活动时，将新的 External API 活动添加到工作流、手动复制配置详细信息，然后删除旧活动。
 
@@ -64,7 +65,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->外部 API 活动旨在用于获取营销活动范围的数据（最新优惠集、最新分数等），而非用于检索每个用户档案的特定信息，因为这可能会导致传输大量数据。如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
+>外部 API 活动旨在用于获取营销活动范围的数据（最新产品建议集、最新分数等），而非用于检索每个轮廓的特定信息，因为这可能会导致传输大量数据。如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
 
 ## 配置 {#configuration}
 
@@ -95,10 +96,10 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 示例 JSON 定义必须具有&#x200B;**以下特征**：
 
-* **数组元素**&#x200B;必须包含第一级属性（不支持更深层级别）。
+* **数组元素**必须包含第一级属性（不支持更深层级别）。
   **属性名称**&#x200B;最终将成为输出临时表之输出架构的列名称。
 * 要捕获的 **JSON 元素** 在 JSON 响应中的嵌套级别不得大于 10。
-* **列名称**&#x200B;定义基于“data”数组的第一个元素。
+* **列名称**定义基于“data”数组的第一个元素。
 列定义（添加/删除）和属性的类型值，可以在 **Column definition** 选项卡中进行编辑。
 
 **扁平化复选框**&#x200B;行为：
@@ -114,7 +115,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS终结点**。
+通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS端点**。
 
 如果端点需要，则可以使用两种类型的身份验证方法：
 

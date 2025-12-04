@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 14%
@@ -21,7 +22,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位的功能[管理员](../../administration/using/users-management.md#functional-administrators)才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
+>只有具有[角色并有权访问](../../administration/using/users-management.md#functional-administrators)所有&#x200B;**[!UICONTROL Administration]**&#x200B;单位的功能&#x200B;**管理员**&#x200B;才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
 通过使用每次执行工作流时仅检索新日志的&#x200B;**[!UICONTROL Incremental query]**&#x200B;和定义输出列的简单&#x200B;**[!UICONTROL Extract file]**&#x200B;活动，可以获得格式和所需所有数据的文件。 然后使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动检索最终文件。 每个工作流执行都由&#x200B;**[!UICONTROL Scheduler]**&#x200B;计划。
 

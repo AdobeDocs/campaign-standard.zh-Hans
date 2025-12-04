@@ -1,13 +1,14 @@
 ---
 title: 关于工作流用例
-description: 了解关于可使用Campaign Standard工作流执行的用例的更多信息。
+description: 了解关于您可以使用Campaign Standard工作流执行的用例的更多信息。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 70%
@@ -24,8 +25,8 @@ ht-degree: 70%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [使用补充创建投放](../../automating/using/workflow-created-query-with-complement.md)
-* [在用户档案的创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
+* [使用补集创建投放](../../automating/using/workflow-created-query-with-complement.md)
+* [在轮廓的创建日期创建投放](../../automating/using/workflow-creation-date-query.md)
 * [创建每周投放](../../automating/using/workflow-weekly-offer.md)
 * [创建跨渠道投放](../../automating/using/workflow-cross-channel-delivery.md)
 * [在投放之前标识重复项](../../automating/using/identifying-duplicated-before-delivery.md)
@@ -53,14 +54,14 @@ ht-degree: 70%
 
 * [使用数据库协调文件受众](../../automating/using/reconcile-file-audience-with-database.md)
 * [从导入的文件中删除数据重复项](../../automating/using/deduplicating-data-imported-file.md)
-* [使用文件中包含的数据扩充用户档案数据](../../automating/using/enriching-profile-data-file.md)
+* [使用文件中包含的数据扩充轮廓数据](../../automating/using/enriching-profile-data-file.md)
 * [外部信号活动和数据导入](../../automating/using/external-signal-data-import.md)
 * [使用外部数据更新数据库](../../automating/using/update-database-file.md)
 * [根据自动文件下载更新数据](../../automating/using/update-data-automatic-download.md)
 * [使用关系进行数据协调](../../automating/using/reconciliation-using-relations.md)
 * [使用协调进行数据更新](../../automating/using/data-update-reconciliation.md)
-* [在外部文件中导出用户档案](../../automating/using/exporting-profiles-in-file.md)
+* [在外部文件中导出轮廓](../../automating/using/exporting-profiles-in-file.md)
 * [从文件更新多个订阅状态](../../automating/using/updating-subscriptions-from-file.md)
-* [将用户档案从文件订阅到特定服务](../../automating/using/subscribing-profiles-from-file.md)
+* [将轮廓从文件订阅到特定服务](../../automating/using/subscribing-profiles-from-file.md)
 * [导入使用控制面板生成的密钥加密的数据](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [使用控制面板上安装的密钥加密和导出数据](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

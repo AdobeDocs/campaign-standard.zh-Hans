@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 78%
@@ -27,7 +28,7 @@ ht-degree: 78%
 
 根据您的环境，还可以将其他解决方案链接到 Adobe Experience Cloud。它们以组织（也称为租户）的形式链接。
 
-组织是允许管理员配置组和用户以及控制 Experience Cloud 中的单点登录的实体。组织的功能类似于跨所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以有许多组织。[Adobe Experience Cloud 帮助门户](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hans)中详细介绍了用户和组织管理。
+组织是允许管理员配置组和用户以及控制 Experience Cloud 中的单点登录的实体。组织的功能类似于跨所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以有许多组织。[Adobe Experience Cloud 帮助门户](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)中详细介绍了用户和组织管理。
 
 如果您希望将来自其他系统的数据流与 Adobe Campaign 集成，请查看我们的 [API 文档](../../api/using/get-started-apis.md)。
 
@@ -49,14 +50,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 允许您在 Adobe Experience Manager 中直接创建映射到 Adobe Campaign 数据库的电子邮件内容或表单。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促销活动和Experience Manager</a>，<a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans">创建包含Experience Manager和促销活动的电子邮件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>，<a href="https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/campaignstandard.html">集成Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">使用Experience Manager和Campaign创建电子邮件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 允许在打开由 Adobe Campaign 创建和发送的电子邮件时插入由 Adobe Target 动态计算的图像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans">集成Campaign和Target</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a>视频（步骤3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">集成Campaign和Target</a>，<a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">实时个性化电子邮件图像</a>视频（步骤3）
     </td> 
   </tr> 
   <tr> 
@@ -67,17 +68,17 @@ ht-degree: 78%
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Manager 和 People 核心服务（用户档案和受众）<br /> </td> 
+   <td> Adobe Audience Manager 和 People 核心服务（轮廓和受众）<br /> </td> 
    <td> 允许您与您使用的不同 Adobe Experience Cloud 应用程序交换受众。<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 核心服务（用户档案和受众）</a><br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 核心服务（轮廓和受众）</a><br /> </td> 
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> Adobe Campaign与Adobe Real-time Customer Data Platform (RTCDP)之间的集成允许您共享区段数据并将受众导入到Adobe Campaign。</td>
+   <td> Adobe Campaign与Adobe Real-time Customer Data Platform (RTCDP)之间的集成允许您共享区段数据并将受众导入Adobe Campaign。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Sources 与 Destinations 入门</a></td>
   </tr> 
   <tr> 
-   <td> AdobeAsset核心服务和Assets On Demand<br /> </td> 
+   <td> Adobe Asset核心服务和Assets On Demand<br /> </td> 
    <td> 允许将来自 Adobe Experience Cloud 库的资源插入到在 Adobe Campaign 中创建的电子邮件和登陆页。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets 核心服务</a> 或 Assets On Demand<br /> </td> 
   </tr> 
@@ -87,16 +88,16 @@ ht-degree: 78%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">使用 Campaign 和 Points of Interest 数据</a> (Analytics for Mobile) 发送基于位置的营销消息<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Experience Cloud触发器<br /> </td> 
    <td> 允许在 Adobe Campaign 中向客户发送个性化电子邮件，以对 Adobe Analytics 在网站上跟踪的特定行为作出反应。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud Triggers</a>，<a href="../../integrating/using/abandonment-triggers-use-cases.md">Abandonment Triggers-Campaign 用例</a>, <a href="https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html">根据站点活动触发再营销消息</a>视频（步骤 2）
     </td> 
   </tr> 
     <tr> 
-   <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 允许在AdobeJourney Orchestration的上下文中使用Adobe Campaign Standard的事务性消息传递功能，通过开箱即用的操作发送电子邮件、推送通知和短信。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=zh-Hans">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> 允许在Adobe Journey Orchestration的上下文中使用Adobe Campaign Standard的事务性消息传递功能，通过开箱即用的操作发送电子邮件、推送通知和短信。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">使用Adobe Journey Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

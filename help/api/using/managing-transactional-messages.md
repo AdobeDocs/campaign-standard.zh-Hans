@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -25,8 +26,8 @@ ht-degree: 3%
 
 例如，您希望每当客户在购物车中购买产品之前离开您的网站时，都会触发“购物车放弃”事件。 要执行此操作，作为Web开发人员，您必须使用REST事务型消息API。
 
-1. 根据POST方法发送请求，这将触发事务性事件的[发送](#sending-a-transactional-event)。
-1. 对POST请求的响应包含主键，该主键允许您通过GET请求发送一个或多个请求。 然后，即可获取[事件状态](#transactional-event-status)。
+1. 根据POST方法发送请求，这会触发事务性事件的[发送](#sending-a-transactional-event)。
+1. 对POST请求的响应包含一个主键，用于通过GET请求发送一个或多个请求。 然后，即可获取[事件状态](#transactional-event-status)。
 
 ## 发送事务性事件 {#sending-a-transactional-event}
 
@@ -40,7 +41,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**：事务性消息API端点。
 
-  事务性消息API端点的名称取决于您的实例配置。 它与值“mc”相对应，后跟您的个人组织ID。 让我们以“geometrixx”作为其组织ID的Geometrixx公司为例。 在这种情况下，POST要求如下：
+  事务性消息API端点的名称取决于您的实例配置。 它与值“mc”相对应，后跟您的个人组织ID。 让我们以Geometrixx公司为例，其组织ID为“geometrixx”。 在这种情况下，POST请求如下：
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -48,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID>**：要发送的事件类型。 创建事件配置时生成此ID（请参阅[此章节](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 
-### 请求标头POST
+### POST请求标头
 
 请求必须包含“Content-Type： application/json”标头。
 
@@ -63,9 +64,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 -H 'Content-Length:79' \
 ```
 
-### POST请求正文
+### post请求正文
 
-事件数据包含在JSONPOST正文中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供了一个请求示例。 请参阅[此小节](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+事件数据包含在JSON POST正文中。 事件结构取决于其定义。 资源定义屏幕中的API预览按钮提供了一个请求示例。 请参阅[此小节](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 可以将以下可选参数添加到事件内容，以管理链接到事件的事务型消息的发送：
 
@@ -78,7 +79,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### 对POST请求的响应
 
-POST响应将返回创建时的事务性事件状态。 要检索其当前状态（事件数据、事件状态……），请在GET请求中使用POST响应返回的主键：
+POST响应会返回创建时的事务性事件状态。 要检索其当前状态（事件数据、事件状态……），请在GET请求中使用POST响应返回的主键：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +87,7 @@ POST响应将返回创建时的事务性事件状态。 要检索其当前状态
 
 ***示例请求***
 
-发送事件的POST请求。
+用于发送事件的POST请求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -142,4 +143,4 @@ POST响应将返回创建时的事务性事件状态。 要检索其当前状态
 * **deliveryFailed**：处理事件时出现传递错误。
 * **routingFailed**：路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生这种情况。
 * **tooOld**：事件在处理之前已过期 — 这可能是由于各种原因造成的，例如，发送多次失败（这会导致事件不再最新），或者服务器在过载后无法再处理事件。
-* **targetingFailed**：Campaign Standard未能扩充用于消息定位的链接。
+* **targetingFailed**： Campaign Standard未能扩充用于消息定位的链接。

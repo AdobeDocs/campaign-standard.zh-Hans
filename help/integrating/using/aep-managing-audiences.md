@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Audience Destinations Service当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 ## 访问Adobe Experience Platform受众
 
@@ -52,7 +53,7 @@ ht-degree: 2%
 
 1. 为了成功创建区段，您必须选择与此区段的营销目的相匹配的&#x200B;**合并策略**。
 
-   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)中的专用部分。
+   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 

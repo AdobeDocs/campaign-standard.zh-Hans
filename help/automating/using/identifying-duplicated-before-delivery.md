@@ -1,15 +1,16 @@
 ---
 title: 在投放之前标识重复项
-description: 下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一用户档案发送多次通信。
+description: 下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一轮廓发送多次通信。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 79%
@@ -18,13 +19,13 @@ ht-degree: 79%
 
 # 在投放之前标识重复项 {#identifying-duplicates-before-a-delivery}
 
-下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一用户档案发送多次通信。
+下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一轮廓发送多次通信。
 
 该工作流由以下步骤组成：
 
 ![](assets/deduplication_example_workflow.png)
 
-* 允许您定义电子邮件目标的[查询](../../automating/using/query.md)。 在本例中，该工作流用于定向客户端数据库中存在超过一年的 18 到 25 岁的所有用户档案。
+* 允许您定义电子邮件目标的[查询](../../automating/using/query.md)。 在本例中，该工作流用于定向客户端数据库中存在超过一年的 18 到 25 岁的所有轮廓。
 
   ![](assets/deduplication_example_query.png)
 

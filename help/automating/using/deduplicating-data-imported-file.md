@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 83%
@@ -24,7 +25,7 @@ ht-degree: 83%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 使用[加载文件](../../automating/using/load-file.md)活动导入了包含用户档案列表的文件。 在本例中，导入的文件为 .csv 格式，且包含 10 个用户档案：
+* 使用[加载文件](../../automating/using/load-file.md)活动导入了包含用户档案列表的文件。 在本例中，导入的文件为 .csv 格式，且包含 10 个轮廓：
 
   ```
   lastname;firstname;dateofbirth;email
@@ -50,9 +51,9 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_dedup.png)
 
-* 通过[更新数据](../../automating/using/update-data.md)活动，可将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于用户档案维度。
+* 通过[更新数据](../../automating/using/update-data.md)活动，可将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于轮廓维度。
 
-  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**用户档案**&#x200B;维度中的 email 字段作为协调键，以执行此操作。
+  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**轮廓**&#x200B;维度中的 email 字段作为协调键，以执行此操作。
 
   ![](assets/deduplication_example2_writer1.png)
 
@@ -60,4 +61,4 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_writer2.png)
 
-然后，启动工作流。接下来，在重复数据删除流程保存的记录，将被添加到数据库中的用户档案。
+然后，启动工作流。接下来，在重复数据删除流程保存的记录，将被添加到数据库中的轮廓。

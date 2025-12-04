@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +73,7 @@ ht-degree: 97%
 
 * 每个条件都采用 **&lt;value1> &lt;comparison operator> &lt;value2>** 的形式，其中：
 
-   * **&lt;value1>** 是字段或函数例如 **@created** 对应于创建用户档案的日期，而 **Year(@created)** 对应于创建用户档案的年份。
+   * **&lt;value1>** 是字段或函数例如 **@created** 对应于创建轮廓的日期，而 **Year(@created)** 对应于创建轮廓的年份。
    * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
@@ -91,7 +92,7 @@ ht-degree: 97%
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-在本例中，需要定向创建日期为当前月份和年份的用户档案。
+在本例中，需要定向创建日期为当前月份和年份的轮廓。
 
 ### JavaScript语法 {#javascript-syntax}
 
@@ -120,7 +121,7 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
 context.profile.age > 21 && context.profile.firstName.length() > 0
 ```
 
-在本例中，就是 21 岁以上并且提供了名字的用户档案（以 **firstName** 字段至少包 含一个字符为标志）。
+在本例中，就是 21 岁以上并且提供了名字的轮廓（以 **firstName** 字段至少包 含一个字符为标志）。
 
 ## 比较运算符 {#comparison-operators}
 
@@ -144,42 +145,42 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
    <td> 第一个值必须与第二个值完全相同。<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> 可检索姓氏为“Martin”的用户档案，且只检索与其相同的字符。<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> 可检索姓氏为“Martin”的轮廓，且只检索与其相同的字符。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">大于</span> <br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> 第一个值必须绝对大于第二个值。<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> 可检索年龄超过“50”（比如“51”、“52”等）的用户档案。<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> 可检索年龄超过“50”（比如“51”、“52”等）的轮廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">小于</span> <br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> 第一个值必须绝对小于第二个值。<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> 可检索之前 100 天（不含第 100 天）内在数据库中创建的所有用户档案。<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> 可检索之前 100 天（不含第 100 天）内在数据库中创建的所有轮廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">大于或等于</span> <br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> 第一个值必须大于或等于第二个值。<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> 可检索年龄为 30 岁或更大的用户档案。<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> 可检索年龄为 30 岁或更大的轮廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">小于或等于</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> 第一个值必须小于或等于第二个值。<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> 可检索年龄为 60 岁或更小的用户档案。<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> 可检索年龄为 60 岁或更小的轮廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">不同 </span> <br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> 第一个值必须不同于第二个值。<br /> </td> 
-   <td> <strong>@language ! = English</strong> 可检索尚未定义为可使用英语的用户档案。<br /> </td> 
+   <td> <strong>@language ! = English</strong> 可检索尚未定义为可使用英语的轮廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">包含</span> <br /> </td> 
@@ -200,14 +201,14 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> 与 <span class="uicontrol">相似</span>相同。不能用于取回输入的值。在本例中，输入的值也必须包含 <span class="uicontrol">%</span> 个通配符字段。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。此处，不会返回与名称“Smi%h”（代表 Smith 等）对应的收件人作为结果。<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>。此处，与名称“Smi%h”（如Smith等）对应的收件人不会作为结果返回。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">为空</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
    <td> N/A<br /> </td> 
    <td> 第一个值必须对应于空值。<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> 可检索尚未提供手机号码的所有用户档案。<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> 可检索尚未提供手机号码的所有轮廓。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

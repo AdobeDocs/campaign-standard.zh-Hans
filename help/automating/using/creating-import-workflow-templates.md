@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -79,7 +80,7 @@ ht-degree: 1%
 
    * 在前两个子集中未选择的所有记录都在&#x200B;**[!UICONTROL Complement]**&#x200B;中选择。
 
-1. 配置位于先前配置的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动的第一个叫客过渡之后的&#x200B;**[!UICONTROL Update data]**&#x200B;活动。
+1. 配置位于先前配置的&#x200B;**[!UICONTROL Update data]**&#x200B;活动的第一个叫客过渡之后的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动。
 
    * 选择&#x200B;**[!UICONTROL Update]**&#x200B;作为&#x200B;**[!UICONTROL Operation type]**，因为集客过渡仅包含数据库中已存在的收件人。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;并定义&#x200B;**[!UICONTROL Dimension to update]** — 在此例中是配置文件 — 与&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接之间的键。 在此示例中，使用了&#x200B;**CRM ID**&#x200B;自定义字段。
@@ -105,7 +106,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 配置位于之前配置的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活动之后的&#x200B;**[!UICONTROL Update data]**&#x200B;活动。
+1. 配置位于之前配置的&#x200B;**[!UICONTROL Update data]**&#x200B;活动之后的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活动。
 
    * 选择&#x200B;**[!UICONTROL Insert only]**&#x200B;作为&#x200B;**[!UICONTROL Operation type]**，因为集客过渡仅包含数据库中不存在的配置文件。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;并定义&#x200B;**[!UICONTROL Dimension to update]** — 在此例中是配置文件 — 与&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接之间的键。 在此示例中，使用了&#x200B;**CRM ID**&#x200B;自定义字段。

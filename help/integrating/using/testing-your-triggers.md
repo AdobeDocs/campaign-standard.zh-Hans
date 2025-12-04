@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 如果您看到它，请转到下一步。
 
-如果没有，请与您的Adobe客户经理或专业服务合作伙伴联系。 请参阅[激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+如果没有，请联系您的Adobe客户经理或专业服务合作伙伴。 请参阅[激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
 
 **尝试创建触发器**
 
@@ -57,7 +58,7 @@ ht-degree: 1%
 
 如果没有，检查是否从管道收到了触发器。
 
-如果没有，请联系Adobe以检查管道端点的配置。
+如果不能，请联系Adobe以检查管道端点的配置。
 
 如果是这样，请遵循以下准则：
 

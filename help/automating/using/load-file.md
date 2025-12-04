@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -89,7 +90,7 @@ ht-degree: 93%
 
    利用 **[!UICONTROL Column definition]** 选项卡，可精确指定每列的数据结构，以便导入不包含任何错误的数据（例如，使用空值管理），并使其与 Adobe Campaign 数据库中已存在的类型匹配，以便将来进行操作。
 
-   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等）甚至指定错误处理。
+   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等），甚至可指定错误处理。
 
    有关更多信息，请参阅[列格式](#column-format)一节。
 

@@ -1,15 +1,16 @@
 ---
 title: 重复数据删除
-description: 利用重复数据删除活动，可删除集客活动结果中的重复项。
+description: 重复数据删除活动可让您删除入站活动结果中的重复项。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 96%
@@ -28,7 +29,7 @@ ht-degree: 96%
 
 **[!UICONTROL Deduplication]** 活动通常用在定向活动或导入文件之后、以及允许使用定向数据的活动之前。
 
-在重复数据删除期间，将分开处理集客过渡。例如，如果用户档案“A”出现在查询 1 的结果中，也出现在查询 2 的结果中，则不会删除重复项。
+在重复数据删除期间，将分开处理集客过渡。例如，如果轮廓“A”出现在查询 1 的结果中，也出现在查询 2 的结果中，则不会删除重复项。
 
 因此，建议重复数据删除仅包含一个集客过渡。为此，您可以使用对应于定向需求的活动（如并集活动、交集活动等）来组合不同的查询。例如：
 
@@ -50,8 +51,8 @@ ht-degree: 96%
 
 1. 选择要执行重复数据删除的 **[!UICONTROL Resource type]**：
 
-   * 如果对数据库中已存在的数据执行重复数据删除，则是 **[!UICONTROL Database resource]**。根据要删除重复项的数据选择 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**。默认情况下，会对&#x200B;**用户档案**&#x200B;执行重复数据删除。
-   * 如果对工作流的临时数据执行分段，则是 **[!UICONTROL Temporary resource]**：选择包含要删除重复项数据的 **[!UICONTROL Targeted set]**。在导入文件后或（例如，使用区段代码）扩充数据库中的数据后，可能会遇到使用此使用案例的情况。
+   * 如果对数据库中已存在的数据执行重复数据删除，则是 **[!UICONTROL Database resource]**。根据要删除重复项的数据选择 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**。默认情况下，会对&#x200B;**轮廓**&#x200B;执行重复数据删除。
+   * **[!UICONTROL Temporary resource]**&#x200B;如果对工作流的临时数据执行重复数据删除：请选择包含要删除重复数据的 **[!UICONTROL Targeted set]**。在导入文件后或（例如，使用区段代码）扩充数据库中的数据后，可能会遇到使用此使用案例的情况。
 
 1. 选择 **[!UICONTROL Number of unique records to keep]**。此字段的默认值为 1。使用 0 值，可保留所有重复项。
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 77%
@@ -49,7 +50,7 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png)：从工作流中可用的所有变量中选择事件变量（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
-     例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;变量检查[文件传输](../../automating/using/transfer-file.md)活动后的已下载文件数。
+     例如，您可以使用[变量检查](../../automating/using/transfer-file.md)文件传输&#x200B;**[!UICONTROL filesCount]**&#x200B;活动后的已下载文件数。
 
      ![](assets/wkf_test_activity_variables.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -42,10 +43,10 @@ ht-degree: 90%
 ## 配置 {#configuration}
 
 1. 将 **[!UICONTROL Query]** 活动拖放到工作流中。
-1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。默认情况下，该活动预配置为搜索用户档案。
-1. 如果要在非用户档案资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
+1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。默认情况下，该活动预配置为搜索轮廓。
+1. 如果要在非轮廓资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
-   利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的用户档案、投放、链接到所选资源的数据等）。
+   利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的轮廓、投放、链接到所选资源的数据等）。
 
    有关更多信息，请参阅[定向维度和资源](#targeting-dimensions-and-resources)。
 
@@ -140,7 +141,7 @@ ht-degree: 90%
 
 ### 添加聚合 {#adding-an-aggregate}
 
-利用聚合，可根据定向维度的字段或与链接到定向维度之维度的字段计算值。例如：用户档案购买的平均金额。
+利用聚合，可根据定向维度的字段或与链接到定向维度之维度的字段计算值。例如：轮廓购买的平均金额。
 将聚合与查询结合使用时，其函数可返回零，而零值会被视作“NULL”。使用查询的 **[!UICONTROL Output filtering]** 选项卡可筛选聚合的值：
 
 * 如果您希望获得零值，则应筛选 **[!UICONTROL is null]**。
@@ -180,7 +181,7 @@ ht-degree: 90%
 1. 在 **[!UICONTROL Additional data]** 选项卡中，添加新元素。
 1. 在打开的窗口中，选择要在 **[!UICONTROL Expression]** 字段中添加的集合。随即会自动创建 **[!UICONTROL Alias]**。需要时也可返回查询的 **[!UICONTROL Additional data]** 选项卡以对其进行修改。
 1. 选择 **[!UICONTROL Add]**。随即会打开一个新窗口，用于调整您要显示的集合数据。
-1. 在 **[!UICONTROL Parameters]** 选项卡中，选择 **[!UICONTROL Collection]** 并定义要添加集合的行数。例如，如果要获取每个用户档案执行最近三次购买，请在 **[!UICONTROL Number of lines to return]** 字段中输入“3”。
+1. 在 **[!UICONTROL Parameters]** 选项卡中，选择 **[!UICONTROL Collection]** 并定义要添加集合的行数。例如，如果要获取每个轮廓执行最近三次购买，请在 **[!UICONTROL Number of lines to return]** 字段中输入“3”。
 
    >[!NOTE]
    >
@@ -213,7 +214,7 @@ ht-degree: 90%
 
 向查询的数据添加聚合或集合时，您可以根据定义的字段值或表达式，指定是否要应用排序（无论升序还是降序）。
 
-例如，如要仅保存最近由用户档案执行的交易，请在 **[!UICONTROL Parameters]** 选项卡的 **[!UICONTROL Number of lines to return]** 字段中输入“1”，并通过 **[!UICONTROL Sort]** 选项卡为对应于交易日期的字段应用降序排序。
+例如，如要仅保存最近由轮廓执行的交易，请在 **[!UICONTROL Parameters]** 选项卡的 **[!UICONTROL Number of lines to return]** 字段中输入“1”，并通过 **[!UICONTROL Sort]** 选项卡为对应于交易日期的字段应用降序排序。
 
 ![](assets/enrichment_sort_data.png)
 
@@ -221,7 +222,7 @@ ht-degree: 90%
 
 添加附加数据后，会在 **[!UICONTROL Query]** 中显示一个新的 **[!UICONTROL Output filtering]** 选项卡。利用此选项卡，可通过考虑添加的数据，对 **[!UICONTROL Target]** 选项卡中的初始定向数据应用附加过滤器。
 
-例如，如果您已经定向执行了至少一次交易的所有用户档案，并且已经为 **[!UICONTROL Additional data]** 添加了计算每个用户档案平均交易金额的聚合，则可以使用此平均值调整最初计算的群体。
+例如，如果您已经定向执行了至少一次交易的所有轮廓，并且已经为 **[!UICONTROL Additional data]** 添加了计算每个轮廓平均交易金额的聚合，则可以使用此平均值调整最初计算的群体。
 
 要实现此目的，只需在 **[!UICONTROL Output filtering]** 选项卡中为此附加数据添加一个条件即可。
 

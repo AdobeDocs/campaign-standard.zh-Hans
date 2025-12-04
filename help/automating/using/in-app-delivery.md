@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -33,11 +34,11 @@ ht-degree: 39%
 
 ## 配置 {#configuration}
 
-1. 将&#x200B;**[!UICONTROL Query]**&#x200B;活动拖放到您的工作流。 请注意，需要根据在步骤4中选择的模板更新&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡中的&#x200B;**[!UICONTROL Query]**&#x200B;活动定向维度：
+1. 将&#x200B;**[!UICONTROL Query]**&#x200B;活动拖放到您的工作流。 请注意，需要根据在步骤4中选择的模板更新&#x200B;**[!UICONTROL Query]**&#x200B;选项卡中的&#x200B;**[!UICONTROL Properties]**&#x200B;活动定向维度：
 
-   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**&#x200B;模板的定向维度应设置为&#x200B;**[!UICONTROL mobileApp (mobileAppV5)]**。
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**&#x200B;模板的定向维度应设置为&#x200B;**[!UICONTROL profile (profile)]**。
-   * 对于&#x200B;**[!UICONTROL Target users based on their Mobile profile (inApp)]**&#x200B;模板，目标维度应设置为&#x200B;**[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]**。
+   * **[!UICONTROL mobileApp (mobileAppV5)]**&#x200B;模板的定向维度应设置为&#x200B;**[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**。
+   * **[!UICONTROL profile (profile)]**&#x200B;模板的定向维度应设置为&#x200B;**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**。
+   * 对于&#x200B;**[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`模板，目标维度应设置为]**)**[!UICONTROL Target users based on their Mobile profile (inApp)]**。
 
 1. 将 **[!UICONTROL In-App delivery]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。

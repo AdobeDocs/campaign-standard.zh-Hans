@@ -1,14 +1,15 @@
 ---
 title: 关于 Campaign-Audience Manager 或 People 核心服务集成
-description: 通过Audience Manager/人员核心服务集成，您可以在不同的Adobe Experience Cloud解决方案中共享受众或区段。
+description: 通过Audience Manager/People核心服务集成，您可以在不同的Adobe Experience Cloud解决方案中共享受众或区段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 18%

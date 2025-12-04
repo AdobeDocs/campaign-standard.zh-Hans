@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 77%
@@ -18,7 +19,7 @@ ht-degree: 77%
 
 # 从文件更新多个订阅状态 {#updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含用户档案的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的用户档案。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
@@ -49,7 +50,7 @@ ht-degree: 77%
 
   如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与用户档案资源的 **email** 字段匹配。
+* [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与轮廓资源的 **email** 字段匹配。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,7 +58,7 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* 基于临时资源的&#x200B;**电子邮件**&#x200B;字段的[重复数据删除](../../automating/using/deduplication.md)（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* 基于临时资源的[电子邮件](../../automating/using/deduplication.md)字段的&#x200B;**重复数据删除**（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 

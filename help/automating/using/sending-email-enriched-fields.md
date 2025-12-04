@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 68%
@@ -22,7 +23,7 @@ ht-degree: 68%
 
 利用加载文件活动，还可发送（在同一工作流使用外部文件）扩充了附加数据的电子邮件。
 
-下方的示例展示了如何使用通过加载文件活动，发送使用了（检索自外部文件的）附加数据的电子邮件。在本例中，外部文件包含一系列用户档案及其关联的帐号。您想要导入此数据，以向每个用户档案发送一封包含其帐号的电子邮件。
+下方的示例展示了如何使用通过加载文件活动，发送使用了（检索自外部文件的）附加数据的电子邮件。在本例中，外部文件包含一系列轮廓及其关联的帐号。您想要导入此数据，以向每个轮廓发送一封包含其帐号的电子邮件。
 
 ![](assets/load_file_workflow_ex2.png)
 
@@ -32,13 +33,13 @@ ht-degree: 68%
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. 拖放[加载文件](../../automating/using/load-file.md)活动以将一些数据分配给配置文件。 在本例中，就是加载一个其中包含了对应于数据库某些用户档案之帐号的文件。
+1. 拖放[加载文件](../../automating/using/load-file.md)活动以将一些数据分配给配置文件。 在本例中，就是加载一个其中包含了对应于数据库某些轮廓之帐号的文件。
 
    ![](assets/load_file_activity.png)
 
 1. 将[扩充](../../automating/using/enrichment.md)活动拖放到工作流中，并将加载文件和查询活动链接到该工作流。
 
-1. 在扩充活动的 **[!UICONTROL Advanced relations]** 选项卡中，选择 **[!UICONTROL 0 or 1 cardinality simple link]** 并定义要用于协调的字段。这里，我们使用“姓氏”将数据与数据库用户档案协调。
+1. 在扩充活动的 **[!UICONTROL Advanced relations]** 选项卡中，选择 **[!UICONTROL 0 or 1 cardinality simple link]** 并定义要用于协调的字段。这里，我们使用“姓氏”将数据与数据库轮廓协调。
 
    ![](assets/load_file_enrichment_relation.png)
 
@@ -60,12 +61,12 @@ ht-degree: 68%
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. 添加个性化字段，并从 **[!UICONTROL Additional data (targetData)]** 节点选择扩充活动中定义的附加数据（此处为“帐号”）。这样即可动态检索电子邮件内容中每个用户档案的帐号。
+1. 添加个性化字段，并从 **[!UICONTROL Additional data (targetData)]** 节点选择扩充活动中定义的附加数据（此处为“帐号”）。这样即可动态检索电子邮件内容中每个轮廓的帐号。
 
    ![](assets/load_file_perso_field.png)
 
 1. 保存电子邮件并启动工作流。
 
-将发送电子邮件给目标。每个用户档案都会收到与其帐号相对应的电子邮件。
+将发送电子邮件给目标。每个轮廓都会收到与其帐号相对应的电子邮件。
 
 ![](assets/load_file_email.png)

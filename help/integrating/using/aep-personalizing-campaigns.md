@@ -1,16 +1,17 @@
 ---
 title: 使用 Adobe Experience Platform 属性个性化营销活动
-description: 了解如何使用AdobeExperience Platform属性个性化您的营销活动。
+description: 了解如何使用Adobe Experience Platform属性个性化您的营销活动。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,7 +22,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 >
 >使用Adobe Experience Platform中的上下文数据的&#x200B;**推送**&#x200B;和&#x200B;**应用程序内**&#x200B;渠道尚不可用于个性化。
 

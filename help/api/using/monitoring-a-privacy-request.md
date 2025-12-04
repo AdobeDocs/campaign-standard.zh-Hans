@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -17,7 +18,7 @@ ht-degree: 16%
 
 # 监视隐私请求 {#monitoring-a-privacy-request}
 
-您可以使用&#x200B;**GET**&#x200B;请求监视有关已创建的隐私请求的信息。
+您可以使用&#x200B;**GET**&#x200B;请求监视有关已创建隐私请求的信息。
 
 [隐私管理文档](../../start/using/privacy-requests.md)中提供了状态列表说明。
 

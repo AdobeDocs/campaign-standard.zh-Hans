@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: fork,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 98%
@@ -38,6 +39,6 @@ ht-degree: 98%
 
 ## 示例 {#example}
 
-下方的示例展示了用于 Adobe Campaign 数据库中目标用户档案的两个查询的交集，在本例中，目标是居住在巴黎的女士。因此，利用交叉活动可同时使用多个活动：一个用于保存受众以记住计算出的群体，另一个用于细分群体以发送两封不同的电子邮件，从而为各个区段提供不同的内容。第一封邮件发给 18 至 40 岁的巴黎女士，另一封邮件发给 40 岁以上的巴黎女士。
+下方的示例展示了用于 Adobe Campaign 数据库中目标轮廓的两个查询的交集，在本例中，目标是居住在巴黎的女士。因此，利用交叉活动可同时使用多个活动：一个用于保存受众以记住计算出的群体，另一个用于细分群体以发送两封不同的电子邮件，从而为各个区段提供不同的内容。第一封邮件发给 18 至 40 岁的巴黎女士，另一封邮件发给 40 岁以上的巴黎女士。
 
 ![](assets/wkf_fork_example.png)

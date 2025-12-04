@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 74%
@@ -23,7 +24,7 @@ ht-degree: 74%
 >
 >要创建触发器，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位于&#x200B;**[!UICONTROL Administrators]**&#x200B;安全组中。 有关此内容的详细信息，请参阅此[页面](../../administration/using/list-of-roles.md)。
 
-您应确保预先在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服务）中定义要监视的行为。 有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hans)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
+您应确保预先在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服务）中定义要监视的行为。 有关更多信息，请参阅 [Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。请注意，定义触发器时，需要启用别名。对于每种行为（浏览/表单放弃、添加/删除产品、会话过期等），都必须在 Adobe Experience Cloud 中添加新触发器。
 
 您现在必须基于现有 Adobe Experience Cloud 触发器在 Adobe Campaign 中创建触发器事件。
 
@@ -39,7 +40,7 @@ ht-degree: 74%
 
 1. 选择要使用的 Adobe Experience Cloud 触发器，然后单击 **[!UICONTROL Next]**。
 1. 配置触发器的常规属性。在向导的此步骤中，还应指定用于触发器的渠道和定向维度（请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)）。然后确认创建触发器。
-1. 单击 **[!UICONTROL Event content and enrichment]** 字段右侧的按钮以查看有效载荷的内容。利用此屏幕，还可使用存储在 Adobe Campaign 数据库中的用户档案数据扩充事件数据。扩充的执行方式与标准事务型消息相同。
+1. 单击 **[!UICONTROL Event content and enrichment]** 字段右侧的按钮以查看有效载荷的内容。利用此屏幕，还可使用存储在 Adobe Campaign 数据库中的轮廓数据扩充事件数据。扩充的执行方式与标准事务型消息相同。
 
    ![](assets/remarketing_3.png)
 
@@ -85,7 +86,7 @@ ht-degree: 74%
 >
 >如果取消发布模板，则将自动取消发布触发器事件。
 
-在编辑内容时，您可以根据 Analytics 触发器发送的信息添加个性化字段。如果您使用 Adobe Campaign 用户档案数据扩充了事件数据，则可以根据此信息将消息个性化。要个性化您的消息，请选择 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 并选择字段。
+在编辑内容时，您可以根据 Analytics 触发器发送的信息添加个性化字段。如果您使用 Adobe Campaign 轮廓数据扩充了事件数据，则可以根据此信息将消息个性化。要个性化您的消息，请选择 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 并选择字段。
 
 ![](assets/remarketing_8.png)
 

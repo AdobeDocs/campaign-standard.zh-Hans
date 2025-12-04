@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 78%
@@ -68,7 +69,7 @@ ht-degree: 78%
 
 1. 根据需要创建所需数量的列。您可以通过单击列的表达式和标签对列进行编辑。
 
-   如果要导出用户档案并希望在外部工具中使用它们，请确保导出唯一标识符。默认情况下，并非所有用户档案都具有唯一标识符，这取决于它们添加到数据库的方式。有关更多信息，请参阅[为用户档案生成唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+   如果要导出轮廓并希望在外部工具中使用它们，请确保导出唯一标识符。默认情况下，并非所有轮廓都具有唯一标识符，这取决于它们添加到数据库的方式。有关更多信息，请参阅[为轮廓生成唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 
 1. 单击 **[!UICONTROL File structure]** 选项卡，为要导出的文件配置输出、日期和编号格式。
 

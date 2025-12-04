@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 ## 关于投放失败 {#about-delivery-failures}
 
-当投放无法发送到用户档案时，远程服务器会自动发送错误消息，该消息会被 Adobe Campaign 平台拾取并进行鉴别，从而确定是否应隔离电子邮件地址或电话号码。请参阅[退回邮件鉴别](#bounce-mail-qualification)。
+当投放无法发送到轮廓时，远程服务器会自动发送错误消息，该消息会被 Adobe Campaign 平台拾取并进行鉴别，从而确定是否应隔离电子邮件地址或电话号码。请参阅[退回电子邮件鉴定](#bounce-mail-qualification)。
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ ht-degree: 59%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)
+* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
-发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[&#x200B; 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个用户档案的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
+发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[ 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
 
 ![](assets/sending_logs.png)
 
@@ -57,26 +57,26 @@ ht-degree: 59%
 
 | 错误标签 | 错误类型 | 说明 |
 | ---------|----------|---------|
-| **[!UICONTROL User unknown]** | 硬 | 地址不存在。 不再尝试对该用户档案进行投放。 |
+| **[!UICONTROL User unknown]** | 硬 | 地址不存在。 不再尝试对该轮廓进行投放。 |
 | **[!UICONTROL Quarantined address]** | 硬 | 地址被隔离。 |
 | **[!UICONTROL Unreachable]** | 软/硬 | 消息投放链中发生错误（例如域名暂时不可访问）。 根据提供商返回的错误，地址将直接被隔离或重试投放，直到 Campaign 收到错误证明处于隔离状态或错误数达到 5 次为止。 |
 | **[!UICONTROL Address empty]** | 硬 | 地址未定义。 |
 | **[!UICONTROL Mailbox full]** | 柔光 | 此用户的邮箱已满，无法接收更多邮件。 可以从隔离列表中删除此地址，以再次尝试。30天后自动将其删除。 要将地址自动从隔离地址列表中移除，必须启动 **[!UICONTROL Database cleanup]** 技术工作流。 |
 | **[!UICONTROL Refused]** | 软/硬 | 由于安全反馈为垃圾邮件报告，该地址已被隔离。 根据提供商返回的错误，地址将直接被隔离或重试投放，直到 Campaign 收到错误证明处于隔离状态或错误数达到 5 次为止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 分段中已检测到地址。 |
-| **[!UICONTROL Not defined]** | 柔光 | 该地址正在进行鉴别，因为错误数并未递增。 | 还没有。 当服务器发送新的错误消息时，会发生此类错误： 这可能是一个孤立的错误，但如果再次发生，则错误计数会增加，从而提醒技术团队。 |
+| **[!UICONTROL Not defined]** | 柔光 | 地址正在进行鉴别，因为错误数尚未递增。 当服务器发送新的错误消息时，会发生此类错误： 这可能是一个孤立的错误，但如果再次发生，则错误计数会增加，从而提醒技术团队。 |
 | **[!UICONTROL Error ignored]** | 已忽略 | 该地址允许列表，无论如何，都会向其发送电子邮件。 |
 | **[!UICONTROL Address on denylist]** | 硬 | 发送时地址已添加到阻止列表。 |
 | **[!UICONTROL Account disabled]** | 软/硬 | 当互联网访问提供商(IAP)检测到长时间不活动时，它可以关闭用户的帐户：之后将无法投放到用户的地址。 “Soft”或“Hard”类型取决于收到的错误类型：如果帐户因 6 个月不活动而被暂时禁用，且仍可激活，则将分配 **[!UICONTROL Erroneous]** 状态并重试投放。如果收到错误信号表明该帐户已永久停用，则会将该帐户直接隔离。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 用户档案的手机在发送消息时关闭或未连接到网络。 |
-| **[!UICONTROL Invalid domain]** | 柔光 | 电子邮件地址的域不正确或不再存在。 此用户档案将被重新定向，直到错误计数达到 5 为止。此后，该记录将设置为隔离状态，并且以后不会再进行重试。 |
+| **[!UICONTROL Invalid domain]** | 柔光 | 电子邮件地址的域不正确或不再存在。 此轮廓将被重新定向，直到错误计数达到 5 为止。此后，该记录将设置为隔离状态，并且以后不会再进行重试。 |
 | **[!UICONTROL Text too long]** | 已忽略 | 短信消息中的字符数超过限制。 有关更多信息，请参阅[短信编码、长度和音译](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | 短信消息包含一个或多个编码不支持的字符。 有关更多信息，请参阅[字符表 - GSM 标准](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 
 **相关主题：**
-* [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#hard-bounces)
-* [软退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#soft-bounces)
+* [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +90,13 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**现在，Campaign 投放中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
+>**现在，Campaign 投放中的&#x200B;**[!UICONTROL Delivery duration]**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
 
 例如，如果希望重试在一天后停止投放，您可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息在一天后将被删除。
 
 >[!NOTE]
 >
->消息在重试队列中最多停留3.5天且投放失败后，该消息将超时，其状态将在[投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新<!--from **[!UICONTROL Sent]**-->至&#x200B;**[!UICONTROL Failed]**。
+>消息在重试队列中最多停留3.5天且投放失败后，该消息将超时，其状态将在<!--from **[!UICONTROL Sent]**-->投放日志&#x200B;**[!UICONTROL Failed]**&#x200B;中更新[至](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -105,8 +105,8 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 投放在发送后可能立即失败（同步错误），或稍后失败（异步错误）。
 
-* **同步错误**：Adobe Campaign 投放服务器联系的远程服务器立即返回错误消息，不允许将投放发送到用户档案服务器。
-* **异步错误**：接收服务器会在迟些时间发送退回邮件或重新发送 SR。最晚的异步错误，可能发生在发送投放的一周之后。
+* **同步错误**：Adobe Campaign 投放服务器联系的远程服务器立即返回错误消息，不允许将投放发送到轮廓服务器。
+* **异步错误**：接收服务器会在迟些时间发送退回电子邮件或重新发送 SR。最晚的异步错误，可能发生在发送投放的一周之后。
 
 ## 退回邮件鉴别 {#bounce-mail-qualification}
 
@@ -114,11 +114,11 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 >[!NOTE]
 >
->不再使用 Campaign **[!UICONTROL Message qualification]** 表格中的退回鉴别。
+>不再使用 Campaign **[!UICONTROL Message qualification]** 表格中的退回鉴定。
 
 异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)。
+有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

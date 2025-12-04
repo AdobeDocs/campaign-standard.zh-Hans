@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 94%
@@ -45,7 +46,7 @@ ht-degree: 94%
 
 必须将选项卡中包含的元素移到工作区中，才能进行配置并用于查询。根据所选定向维度（请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)），您可以：
 
-* 逐一选择受众或用户档案
+* 逐一选择受众或轮廓
 * 使用预定义过滤器
 * 为所选字段定义简单规则
 * 定义高级规则，以便为特定字段应用函数
@@ -58,7 +59,7 @@ ht-degree: 94%
 
 ## 创建查询 {#creating-queries}
 
-查询编辑器可用于定义消息中的受众或测试用户档案、工作流中的群体，还可用于创建查询类型受众。
+查询编辑器可用于定义消息中的受众或测试轮廓、工作流中的群体，还可用于创建查询类型受众。
 
 可于创建投放时在 **[!UICONTROL Audience]** 窗口中定义查询，也可于创建工作流时在&#x200B;**“查询”**&#x200B;活动中定义查询。
 
@@ -85,7 +86,7 @@ ht-degree: 94%
 
      您无需指定子条件。
 
-     例如，对于用户档案跟踪日志，您只能选择 **[!UICONTROL Exists]** 运算符并批准该规则。该规则将返回所有存在跟踪日志的用户档案。
+     例如，对于轮廓跟踪日志，您只能选择 **[!UICONTROL Exists]** 运算符并批准该规则。该规则将返回所有存在跟踪日志的轮廓。
 
      ![](assets/query_editor_audience_definition6.png)
 

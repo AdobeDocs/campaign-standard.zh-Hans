@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 在此部分中，您将了解如何使用Experience Data Model (XDM)字段映射Campaign Standard字段。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=zh-Hans)启用数据集。
+>对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile [启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)。
 >
 >如果您选择的数据集已在现有数据映射中使用，则会出现一条警告，通知您可能会在Adobe Experience Platform上覆盖您的数据。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生此情况。
 
@@ -57,13 +58,13 @@ ht-degree: 0%
 
 ![](assets/aep_mapfield.png)
 
-在Campaign Standard中定义的扩展资源被映射为喜欢所有本地字段。 它们被定义到XDM中的_customer/default扩展中。
+Campaign Standard中定义的扩展资源被映射为喜欢所有本地字段。 它们被定义到XDM中的_customer/default扩展中。
 
 ![](assets/aep_fieldscusmapping.png)
 
 您可以通过API自定义XDM扩展，并定义您自己的扩展，以便更好地控制映射。
 
-有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 要映射枚举字段，需要使用表达式编辑器定义与XDM值对应的每个枚举值。 例如，postaladdressfield需要定义为：
 

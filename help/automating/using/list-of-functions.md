@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 95%
@@ -300,7 +301,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 数值 {#numerical}
+##  数值 {#numerical}
 
 数值函数用于将文本转换为数字。
 
@@ -432,7 +433,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果表达式为 true，则返回值 1，否则返回值 2<br /> </td> 
+   <td> 如果表达式为“真”，则返回值 1，否则返回值 2<br /> </td> 
    <td> Iif(&lt;条件&gt;, &lt;值 1&gt;, &lt;值 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -718,7 +719,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 呈现 {#representation}
+## 展现方案 {#representation}
 
 表示函数用于对值进行排序。
 

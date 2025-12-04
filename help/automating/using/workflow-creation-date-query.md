@@ -6,17 +6,18 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
 
 ---
 
-# 在用户档案的创建日期创建投放 {#creation-date-query}
+# 在轮廓的创建日期创建投放 {#creation-date-query}
 
 您可以在客户用户档案创建周年纪念日通过电子邮件发送选件。
 
@@ -43,16 +44,16 @@ ht-degree: 33%
 ## 创建查询活动 {#creating-a-query-activity}
 
 1. 要选择收件人，请拖放[查询](../../automating/using/query.md)活动并双击该活动。
-1. 添加&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
+1. 添加&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
 
 ### 检索在执行日期的同一天创建的用户档案 {#retrieving-profiles-created-on-the-same-day}
 
 1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;字段。 并单击&#x200B;**[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
-1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，双击&#x200B;**[!UICONTROL Date]**&#x200B;节点中的&#x200B;**[!UICONTROL Day]**。
+1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，双击&#x200B;**[!UICONTROL Day]**&#x200B;节点中的&#x200B;**[!UICONTROL Date]**。
 1. 然后，插入字段&#x200B;**[!UICONTROL Created]**&#x200B;作为参数。
 1. 选择&#x200B;**[!UICONTROL equals to (=)]**&#x200B;作为运算符。
-1. 对于值，从&#x200B;**[!UICONTROL List of functions]**&#x200B;中的&#x200B;**[!UICONTROL Date]**&#x200B;节点中选择&#x200B;**[!UICONTROL Day]**。
+1. 对于值，从&#x200B;**[!UICONTROL Day]**&#x200B;中的&#x200B;**[!UICONTROL Date]**&#x200B;节点中选择&#x200B;**[!UICONTROL List of functions]**。
 1. 将&#x200B;**[!UICONTROL GetDate()]**&#x200B;函数作为参数插入。
 
 您检索了创建日期等于当天的用户档案。
@@ -69,7 +70,7 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL Query]**&#x200B;编辑器上，选择第一个查询并复制它。
 1. 打开副本。
-1. 在查询中用&#x200B;**[!UICONTROL Month]**&#x200B;替换&#x200B;**[!UICONTROL Day]**。
+1. 在查询中用&#x200B;**[!UICONTROL Day]**&#x200B;替换&#x200B;**[!UICONTROL Month]**。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)

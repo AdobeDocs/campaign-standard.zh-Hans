@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## 将表从Microsoft Dynamics 365映射到Campaign
 
-**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;页显示Microsoft Dynamics 365中的实体列表以及这些实体将与之同步的Adobe Campaign中的自定义资源。 您可以添加新映射，编辑或删除现有映射。
+**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;页显示了Microsoft Dynamics 365中的实体列表以及Adobe Campaign中将与它们同步的自定义资源。 您可以添加新映射，编辑或删除现有映射。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
@@ -42,7 +43,7 @@ ht-degree: 0%
 
    * 使用&#x200B;**[!UICONTROL Delete]**&#x200B;图标删除表映射。
 
-   * 单击&#x200B;**[!UICONTROL Replay Data]**&#x200B;图标可重新同步Microsoft Dynamics 365表中的所有数据。 通常，集成应用程序将仅同步Microsoft Dynamics 365中最近更改的数据。  但是，在某些情况下（例如，您进行了更改或犯了错误），您可能希望重新同步所有数据。  在这些情况下，您可以单击此按钮，在下次停止/启动&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流时，您的数据将开始同步。
+   * 单击&#x200B;**[!UICONTROL Replay Data]**&#x200B;图标可重新同步Microsoft Dynamics 365表中的所有数据。 通常，集成应用程序将只同步最近更改的Microsoft Dynamics 365中的数据。  但是，在某些情况下（例如，您进行了更改或犯了错误），您可能希望重新同步所有数据。  在这些情况下，您可以单击此按钮，在下次停止/启动&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流时，您的数据将开始同步。
 
      如果单击“**[!UICONTROL Replay Data]**”按钮且检查成功，则该图标将变为禁用：它表示在下次执行&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流时，此表映射对的数据将重新同步。
 
@@ -51,11 +52,11 @@ ht-degree: 0%
       * 如果积压工作量度中有与&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流关联的2,000,000个（或更多）项目（显示在&#x200B;**[!UICONTROL Workflows]**&#x200B;页面中）
       * 如果Microsoft Dynamics 365表中有2,000,000条或更多记录
 
-     需要重新同步的记录数各不相同。 如果您有大量记录，则可能需要一些时间来完成同步过程。 在集成应用程序工作完成同步过程时，请参阅&#x200B;**[!UICONTROL Workflows]**&#x200B;页面中的&#x200B;**[!UICONTROL Backlog]**&#x200B;量度。
+     需要重新同步的记录数各不相同。 如果您有大量记录，则可能需要一些时间来完成同步过程。 在集成应用程序工作完成同步过程时，请参阅&#x200B;**[!UICONTROL Backlog]**&#x200B;页面中的&#x200B;**[!UICONTROL Workflows]**&#x200B;量度。
 
      >[!IMPORTANT]
      >
-     > 强烈建议在向Adobe Campaign Standard或Microsoft Dynamics 365发布更改时停止集成工作流程。 适用的更改包括：更新了资源/实体（及其关联字段）、链接、标识符列等。 集成当前正在使用的区段。
+     > 强烈建议您在将更改发布到Adobe Campaign Standard或Microsoft Dynamics 365时停止集成工作流程。 适用的更改包括：更新了资源/实体（及其关联字段）、链接、标识符列等。 集成当前正在使用的区段。
      >
 
 ## 创建新映射 {#add-a-new-mapping}
@@ -104,7 +105,7 @@ ht-degree: 0%
 
 #### 主键
 
-将新的Microsoft Dynamics 365添加到Campaign表映射时，您需要标识ID字段。
+将新的Microsoft Dynamics 365添加到Campaign表映射时，您需要识别ID字段。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
@@ -122,7 +123,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 #### 添加其他字段映射
 
-**[!UICONTROL Field Mappings]**&#x200B;部分允许您添加主键以外的字段映射。 要添加从Microsoft Dynamics 365到Adobe Campaign的字段的新映射，请单击“**[!UICONTROL Add new field mapping]**”按钮。
+**[!UICONTROL Field Mappings]**&#x200B;部分允许您添加主键以外的字段映射。 要添加字段从Microsoft Dynamics 365到Adobe Campaign的新映射，请单击&#x200B;**[!UICONTROL Add new field mapping]**&#x200B;按钮。
 
 在列表中选择Microsoft Dynamics 365和Campaign字段：
 
@@ -133,7 +134,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 **[!UICONTROL Apply updates]**&#x200B;切换器允许您控制是否将此字段的更新从Microsoft Dynamics 365传播到Campaign：
 * 如果开启![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)，则对Microsoft Dynamics 365中值的更新将在更新发生时传播到Adobe Campaign。
 
-* 如果关闭![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，则该值将在初始加载（或重播）数据时传播，但不会传播Microsoft Dynamics 365中字段的增量更新。
+* 如果关闭![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，该值将在最初加载（或重播）数据时传播，但不会传播Microsoft Dynamics 365中字段的增量更新。
 
 >[!NOTE]
 >
@@ -196,7 +197,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
-选择&#x200B;**是**&#x200B;以确认确实希望该类型的事件流入Microsoft Dynamics 365。
+选择&#x200B;**是**&#x200B;以确认您希望该类型事件流入Microsoft Dynamics 365。
 
 单击[此处](../../integrating/using/d365-acs-self-service-app-workflows.md)了解有关这些电子邮件事件流的详细信息。
 
@@ -206,7 +207,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 在[本节](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)中了解有关选择退出管理的更多信息。
 
-请记住，您需要单击“保存”以保存您的选择。 另请注意，您必须停止&#x200B;**Campaign到Microsoft Dynamics 365**&#x200B;工作流，然后单击“播放”以便该集成合并您所做的更改。
+请记住，您需要单击“保存”以保存您的选择。 另请注意，您必须停止&#x200B;**Campaign to Microsoft Dynamics 365**&#x200B;工作流，然后单击“播放”以便该集成合并您所做的更改。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
@@ -214,7 +215,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 以下是同步数据的可用选项列表：
 
-* **[!UICONTROL Disabled]**：选择此选项时，在Adobe Campaign和Microsoft Dynamics 365之间不会移动任何选择启用/禁用信息。
+* **[!UICONTROL Disabled]**：选择此选项时，不会在Adobe Campaign和Microsoft Dynamics 365之间移动选择启用/禁用信息。
 
 * **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**：此选项用于仅将选择加入/退出从Microsoft Dynamics 365流入Adobe Campaign。 集成应用程序不允许您在此屏幕中配置流；请改为单击&#x200B;**[!UICONTROL Save button]**&#x200B;并导航到&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流。 在此工作流中，您可以编辑联系人/配置文件表映射，以确定您希望如何映射选择启用/禁用字段。
 

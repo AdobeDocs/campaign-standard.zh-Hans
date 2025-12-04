@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 82%
 
 ## 使用环境 {#context-of-use}
 
-**[!UICONTROL Segmentation]** 活动通常位于定向活动之后（查询、交集、并集、排除等）以定义基于其区段组成的标准群体。
+**[!UICONTROL Segmentation]**&#x200B;活动通常位于定向活动（查询、交集、并集、排除等）之后，以便定义基于其构成区段的标准群体。
 
 **相关主题**
 
@@ -46,7 +47,7 @@ ht-degree: 82%
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中，选择要对其执行分段的&#x200B;**[!UICONTROL Resource type]**：
 
-   * 如果对数据库中已存在的数据执行分段，则是 **[!UICONTROL Database resource]**。根据要分段的数据选择 **[!UICONTROL Filtering dimension]**。默认情况下，会对&#x200B;**用户档案**&#x200B;执行分段。
+   * 如果对数据库中已存在的数据执行分段，则是 **[!UICONTROL Database resource]**。根据要分段的数据选择 **[!UICONTROL Filtering dimension]**。默认情况下，会对&#x200B;**轮廓**&#x200B;执行分段。
    * 如果对工作流的临时数据执行分段，则是 **[!UICONTROL Temporary resource]**：选择包含待分段数据的 **[!UICONTROL Targeted set]**。在导入文件后或扩充数据库中的数据后，可以会遇到此使用案例。
 
 1. 选择要使用的叫客过渡类型：
@@ -76,7 +77,7 @@ ht-degree: 82%
    首先，选择要使用的 **[!UICONTROL Type of limit]**：
 
    * **[!UICONTROL Random sampling]**：必要时，会考虑 **[!UICONTROL Filter]** 选项卡的配置，随机选择区段群体。
-   * **[!UICONTROL Ordered sampling]**：按顺序选择区段群体。因此，您必须指定要考虑的列和要应用的排序类型。例如，如果在选择了 **Age** 字段作为排序列的同时应用了 **[!UICONTROL Descending sort]** 并将限制设置为 100，则仅保留前 100 名年龄最大之人的用户档案。
+   * **[!UICONTROL Ordered sampling]**：按顺序选择区段群体。因此，您必须指定要考虑的列和要应用的排序类型。例如，如果在选择了 **Age** 字段作为排序列的同时应用了 **[!UICONTROL Descending sort]** 并将限制设置为 100，则仅保留前 100 名年龄最大之人的轮廓。
 
    现在，指定区段的大小 **[!UICONTROL Limit]**：
 

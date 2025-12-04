@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%
@@ -35,7 +36,7 @@ ht-degree: 1%
 
 ## 步骤1：配置API调用 {#step-1--configuring-the-api-call}
 
-进行API调用以通过参数触发工作流1。 有关API调用语法的详细信息，请参阅[Campaign StandardREST API文档](../../api/using/triggering-a-signal-activity.md)。
+进行API调用以通过参数触发工作流1。 有关API调用语法的更多信息，请参阅[Campaign Standard REST API文档](../../api/using/triggering-a-signal-activity.md)。
 
 在本例中，我们希望使用以下参数调用工作流：
 

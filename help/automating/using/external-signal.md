@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 95%
@@ -34,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->活动的触发频度不能超过每 10 分钟一次。
+>活动的触发频率不能超过每 10 分钟一次。
 
 请注意，**[!UICONTROL External signal]** 活动可通过多种不同事件触发。在这种情况下，一旦执行源工作流之一或 API 调用，就会触发 **[!UICONTROL External signal]** 活动。它不要求所有源工作流都已完成。
 

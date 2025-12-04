@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
@@ -23,7 +24,7 @@ ht-degree: 3%
 
 * 访问为集成配置的AEM实例。
 * 访问为集成配置的Adobe Campaign实例。
-* Adobe Campaign配置为接收AEM内容的多语言电子邮件模板。
+* 配置为接收AEM内容的Adobe Campaign多语言电子邮件模板。
 
 ## 在Adobe Experience Manager中创建新电子邮件内容 {#creating-email-content-aem}
 
@@ -41,7 +42,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_3.png)
 
-1. 打开您的新电子邮件内容，并根据需要进行个性化设置。 有关详细信息，请参见此 [&#x200B; 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
+1. 打开您的新电子邮件内容，并根据需要进行个性化设置。 有关详细信息，请参见此 [ 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
 
    ![](assets/aem_acs_4.png)
 
@@ -49,7 +50,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_7.png)
 
-1. 从&#x200B;**[!UICONTROL Complete work item]**&#x200B;窗口中单击&#x200B;**[!UICONTROL Complete]**，然后单击&#x200B;**[!UICONTROL Newsletter review]**。
+1. 从&#x200B;**[!UICONTROL Complete]**&#x200B;窗口中单击&#x200B;**[!UICONTROL Newsletter review]**，然后单击&#x200B;**[!UICONTROL Complete work item]**。
 
 1. 单击&#x200B;**[!UICONTROL Complete]**，然后单击&#x200B;**[!UICONTROL Newsletter approval]**。 定义内容和发送参数后，您可以在Adobe Campaign Standard中继续批准、准备和发送电子邮件。
 
@@ -127,6 +128,6 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >如果电子邮件使用Adobe Campaign中尚未批准的AEM内容，您将无法在中发送该电子邮件。
+   >如果您使用Adobe Campaign中尚未批准的内容，则无法在AEM中发送电子邮件。
 
-您的受众将收到您的电子邮件，具体取决于其&#x200B;**[!UICONTROL Profiles]**&#x200B;中设置的&#x200B;**[!UICONTROL Preferred languages]**。 有关如何编辑用户档案和首选语言的更多信息，请参阅此[页面](../../audiences/using/editing-profiles.md)。
+您的受众将收到您的电子邮件，具体取决于其&#x200B;**[!UICONTROL Preferred languages]**&#x200B;中设置的&#x200B;**[!UICONTROL Profiles]**。 有关如何编辑用户档案和首选语言的更多信息，请参阅此[页面](../../audiences/using/editing-profiles.md)。

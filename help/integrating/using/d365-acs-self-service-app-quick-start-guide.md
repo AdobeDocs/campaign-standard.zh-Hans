@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # 自助服务集成应用程序入门 {#gs-self-service-app}
 
-Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集成，允许您配置数据流，控制它们是否运行以及在哪个环境中运行。 但是，在开始使用自助集成应用程序之前，您必须先完成一些先决条件。
+Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集成，使您能够配置数据流，控制数据流是否运行以及在哪个环境中运行。 但是，在开始使用自助集成应用程序之前，您必须先完成一些先决条件。
 
 ## 概念和限制 {#concepts-and-restrictions}
 
@@ -79,7 +80,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 >
 > 如果您是第一次配置连接器和/或您是此进程的新手，我们&#x200B;**强烈**&#x200B;建议您选择“stage”或“dev”实例。 在尝试在生产环境中进行设置之前，您需要确保配置运行正常。
 
-如果您有正确的组织和实例，请单击“汉堡包”菜单以显示下拉菜单。 然后，在下拉菜单中单击&#x200B;**[!UICONTROL Settings...]**&#x200B;以访问输入您的Microsoft Dynamics 365和Campaign凭据的页面（请参阅下文）。
+如果您有正确的组织和实例，请单击“汉堡包”菜单以显示下拉菜单。 然后，在下拉菜单中单击&#x200B;**[!UICONTROL Settings...]**&#x200B;以访问您输入Microsoft Dynamics 365和Campaign凭据的页面（请参阅下文）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -106,7 +107,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 如果要添加新映射，请参阅[此部分](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping)以了解更多信息。
 
-配置正确后，单击&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流旁边的&#x200B;**[!UICONTROL Play]**&#x200B;按钮以启动集成和数据流。
+配置正确后，单击&#x200B;**[!UICONTROL Play]**&#x200B;工作流旁边的&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;按钮以启动集成和数据流。
 
 >[!IMPORTANT]
 >
@@ -115,7 +116,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-运行后，您应该能够通过在Microsoft Dynamics 365中添加或修改条目并在几分钟内在Adobe Campaign中观察这些更改来进行测试。 如果在任何时候您需要停止此进程，则只需按同一按钮即可将其停止。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+运行后，您应该能够通过在Microsoft Dynamics 365中添加或修改条目并在几分钟内观察Adobe Campaign中的这些更改来进行测试。 如果在任何时候您需要停止此进程，则只需按同一按钮即可将其停止。 [了解详情](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 集成应用程序工作区 {#self-service-app-workspace}

@@ -1,23 +1,24 @@
 ---
-title: 检索用户档案的地理单位
+title: 检索轮廓的地理单位
 description: 了解如何使用API检索用户档案的地理单位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 313dbb7f-9cf7-43d4-ab6d-f496b04d92b8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 12%
 
 ---
 
-# 检索用户档案的地理单位 {#retrieving-geographical-unit}
+# 检索轮廓的地理单位 {#retrieving-geographical-unit}
 
-1. 对配置文件PKey执行GET请求以检索&#x200B;**geoUnit** URL。
+1. 对配置文件密钥执行GET请求以检索&#x200B;**geoUnit** URL。
 1. 对URL执行GET请求以检索有关地理单位的更多详细信息。
 
 <br/>

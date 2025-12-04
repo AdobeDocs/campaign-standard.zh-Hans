@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -30,7 +31,7 @@ ht-degree: 78%
 
 * 添加关系：使用 **[!UICONTROL Links]** 选项卡可在集客数据和多个其他 Adobe Campaign 数据库维度之间添加链接。
 
-  例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。因此，文件数据会涉及额外的两个维度（除&#x200B;**购买**&#x200B;维度外）：**产品**&#x200B;和&#x200B;**用户档案**。然后，需要创建这些维度与&#x200B;**“购买”**&#x200B;维度之间的关系（请参阅以下示例）。
+  例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。因此，文件数据会涉及额外的两个维度（除&#x200B;**购买**&#x200B;维度外）：**产品**&#x200B;和&#x200B;**轮廓**。然后，需要创建这些维度与&#x200B;**“购买”**&#x200B;维度之间的关系（请参阅以下示例）。
 
   定义关系时，将向集客数据添加列，以引用链接维度的外键。
 

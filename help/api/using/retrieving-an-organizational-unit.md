@@ -1,24 +1,25 @@
 ---
-title: 检索用户档案的组织实体
+title: 检索轮廓的组织实体
 description: 了解如何使用API构建用户档案的组织单位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
 
 ---
 
-# 检索用户档案的组织实体 {#retrieving-organizational-units}
+# 检索轮廓的组织实体 {#retrieving-organizational-units}
 
 1. 对配置文件PKey执行GET请求以检索&#x200B;**orgUnit** URL。
-1. 对URL执行GET请求以检索有关组织单位的更多详细信息。
+1. 对URL执行GET请求，以检索有关组织单位的更多详细信息。
 
 <br/>
 

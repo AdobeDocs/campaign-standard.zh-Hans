@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2523'
 ht-degree: 1%
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 此集成旨在在Microsoft Dynamics 365和Adobe Campaign Standard之间传输最终用户数据（包括但不限于个人信息，如果最终用户数据中包含此信息）。 作为数据控制者，贵公司有责任遵守适用于您收集和使用个人数据的任何隐私法律法规。
 
-该集成不发布任何数据主体隐私（例如GDPR），也不处理任何其他隐私请求（选择退出除外）。 处理隐私请求时，您应在Microsoft Dynamics 365和Campaign(通过Adobe Experience Platform Privacy Service)中独立执行此操作。
+该集成不发布任何数据主体隐私（例如GDPR），也不处理任何其他隐私请求（选择退出除外）。 处理隐私请求时，您应同时在Microsoft Dynamics 365和Campaign(通过Adobe Experience Platform Privacy Service)中独立执行此操作。
 
 如果您已配置集成，以便在Dynamics 365中删除联系人时向Campaign发出常规配置文件删除调用，则应执行以下步骤。 请确保在此过程中未对相关记录进行更新。
 
@@ -50,7 +51,7 @@ ht-degree: 1%
 
 ## 选择禁用 {#opt-out}
 
-由于Microsoft Dynamics 365和Campaign之间在选择退出属性方面的差异，以及每个客户在业务要求方面的差异，我们留出了选择退出映射作为供客户完成的练习。  务必确保选择退出在系统之间正确映射，以便最终用户保持选择退出偏好设置，并且他们不会通过已选择退出的渠道接收通信。
+由于Microsoft Dynamics 365和Campaign在选择退出属性方面的差异，以及每个客户的业务要求不同，因此将选择退出映射作为客户完成的一项练习。  务必确保选择退出在系统之间正确映射，以便最终用户保持选择退出偏好设置，并且他们不会通过已选择退出的渠道接收通信。
 
 请注意，在选择退出映射中只能使用以下项：
 
@@ -64,9 +65,9 @@ ht-degree: 1%
 
 在配置集成时，您将有机会指定企业所需的选择退出配置：
 
-* **单向(Microsoft Dynamics 365到Campaign)**： Dynamics 365是选择退出的真实来源。 选择退出属性将从Dynamics 365同步到Campaign Standard的一个方向
-* **单向(从Campaign到Microsoft Dynamics 365)**：Campaign Standard是选择退出的真实来源。 选择退出属性将在从Campaign Standard到Dynamics 365的一个方向上同步
-* **双向**： Dynamics 365和Campaign Standard都是真实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
+* **单向(Microsoft Dynamics 365到Campaign)**： Dynamics 365是选择退出的真实来源。 选择退出属性将从Dynamics 365单向同步到Campaign Standard
+* **单向(Campaign to Microsoft Dynamics 365)**： Campaign Standard是选择退出的真实来源。 选择退出属性将从Campaign Standard单向同步到Dynamics 365
+* **双向**： Dynamics 365和Campaign Standard都是事实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
 
 或者，如果您有单独的流程来管理系统之间的选择退出同步，则可以禁用该集成的选择退出数据流。
 
@@ -90,7 +91,7 @@ ht-degree: 1%
 
 | 用例 | 说明 |
 |---|---|
-| 双向和单向(Campaign到Microsoft Dynamics 365) | 双向和单向(Campaign到Microsoft Dynamics 365)选择退出数据流将利用Campaign SFTP存储。 Campaign工作流会将增量更改导出到SFTP文件夹。 集成将从此处获取记录并进行处理。 |
+| 双向和单向(Campaign to Microsoft Dynamics 365) | 双向和单向(Campaign到Microsoft Dynamics 365)选择退出数据流将利用Campaign SFTP存储。 Campaign工作流会将增量更改导出到SFTP文件夹。 集成将从此处获取记录并进行处理。 |
 | 选择退出日志 | 在对集成进行故障诊断时，连接器的输出日志将会很有用。 可以打开/关闭输出日志。 |
 
 
@@ -102,11 +103,11 @@ ht-degree: 1%
 
 ### 现有Campaign数据
 
-此集成会将联系人和自定义实体从Microsoft Dynamics 365同步到Campaign。 在集成之外创建的Campaign记录（即不是由同步作业创建的）不会被集成修改，包括集成配置时存在的Campaign记录。
+此集成会将联系人及自定义实体从Microsoft Dynamics 365同步到Campaign。 在集成之外创建的Campaign记录（即不是由同步作业创建的）不会被集成修改，包括集成配置时存在的Campaign记录。
 
-由于此集成使用Campaign中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将Campaign配置文件记录与Dynamics 365联系人记录同步，因此对于要从Microsoft Dynamics 365同步的记录，必须使用Microsoft Dynamics 365 **[!UICONTROL contactId]**&#x200B;填充此Campaign字段(**[!UICONTROL externalId]**)。  自定义实体也将使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体将需要包含此ID属性作为表列。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
+由于此集成使用Campaign中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将Campaign配置文件记录与Dynamics 365联系人记录同步，因此对于要从Microsoft Dynamics 365同步的记录，必须使用Microsoft Dynamics 365 **[!UICONTROL externalId]**&#x200B;填充此Campaign字段(**[!UICONTROL contactId]**)。  自定义实体还使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体将需要包含此ID属性作为表列。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
 
-请记住，Microsoft Dynamics 365仍然是真实来源，并且当集成在Dynamics 365端上检测更新时，可以覆盖Campaign配置文件数据。  启用集成可能还需要执行其他步骤，具体取决于您现有的部署；因此，建议您与Adobe技术联系人密切合作。
+请记住，Microsoft Dynamics 365仍然是事实来源，并且当集成在Dynamics 365端上检测更新时，可以覆盖Campaign配置文件数据。  启用集成可能还需要执行其他步骤，具体取决于您现有的部署；因此，建议您与Adobe技术联系人密切合作。
 
 >[!NOTE]
 >
@@ -114,7 +115,7 @@ ht-degree: 1%
 
 ### 数据同步频率
 
-该集成利用的架构可检测更新，并将其添加到Microsoft Dynamics 365中发生更新后不久（即，流式处理，而不是批量处理）的处理“队列”中。 因此，无需指定数据流运行频率或计划。
+该集成利用的架构可检测更新，并在Microsoft Dynamics 365中发生更新后不久将其添加到处理“队列”中（即，流式处理，而不是批量处理）。 因此，无需指定数据流运行频率或计划。
 
 唯一的例外是双向和Campaign到Dynamics 365的选择退出数据流。 对于这些选择退出配置，更新的Campaign记录每天通过Campaign工作流导出到SFTP一次，之后集成工具读取文件并处理记录。
 
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您的某些操作（例如，初始摄取记录、重放记录数据等） 可能会导致大量记录从Microsoft Dynamics 365引入到Adobe Campaign实例中。 为了降低出现性能问题的风险，建议您停止所有营销活动流程（例如，无营销活动、未运行工作流等） 直到将大量记录引入Campaign之后。
+>您执行的某些操作（例如，初始记录摄取、记录数据重放等）可能会导致将大量记录从Microsoft Dynamics 365摄取到您的Adobe Campaign实例。 为了降低出现性能问题的风险，建议您停止所有Campaign流程（例如，没有营销活动、未运行工作流等），直到将大量记录引入Campaign为止。
 
 ### 自定义实体
 
@@ -150,7 +151,7 @@ ht-degree: 1%
 
 ### 集成护栏
 
-在计划使用此集成时，应考虑以下防护。 如果您认为超过这些护栏，请咨询您的Adobe技术代表。
+在计划使用此集成时，应考虑以下防护。 如果您认为自己超出了这些护栏，请咨询您的Adobe技术代表。
 
 * 您需要许可正确的Campaign包，以支持集成生成的引擎调用量。 超出许可引擎调用量可能会导致Campaign性能下降。
 
@@ -162,7 +163,7 @@ ht-degree: 1%
 
   在估计整个Campaign引擎调用量时，务必要考虑其他引擎调用源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
 
-  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
+  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持在Campaign中首次同步到资源的总共1500万条记录。 增量同步受Adobe Campaign Standard包限制。
 
@@ -176,17 +177,17 @@ ht-degree: 1%
 
 * 该集成支持在原始Microsoft Dynamics 365数据类型(Boolean、Integer、Decimal、Double、String、DateTime、Date)和Adobe Campaign Standard数据类型(integer、boolean、float、double、date、datetime、string)之间进行转换。 更高级的数据类型将解释为字符串，并照原样同步。
 
-* 可能需要在Adobe和客户之间建立载入维护窗口。
+* 可能需要在Adobe与客户之间建立载入维护窗口。
 
 * 请注意，集成使用率显着增加或“激增”（例如，新记录或更新记录急剧增加）可能会导致数据同步速度减慢。
 
-* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[&#128279;](../../integrating/using/d365-acs-configure-d365.md)
+* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[](../../integrating/using/d365-acs-configure-d365.md)
 
 * 预计您会将Dynamics 365和Campaign数据模型引入集成并对其进行维护。
 
 ### 集成边界
 
-该集成旨在解决Microsoft Dynamics 365和Campaign之间常见数据移动的一般用例，但并非旨在解决每个客户特有的每个用例：
+该集成旨在解决Microsoft Dynamics 365和Campaign之间常见数据移动的一般用例，但并非旨在解决每个客户特定的每个用例：
 
 * 该集成不会发布任何隐私删除（例如GDPR）。 客户有责任履行最终用户隐私请求；此类请求应在Campaign(通过Adobe Experience Platform Privacy Service)和Dynamics 365中单独提出。 如果需要，集成可以发布定期删除以帮助实现数据同步。   有关详细信息，请参阅[隐私部分](#manage-privacy-requests)。
 

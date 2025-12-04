@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -57,9 +58,9 @@ ht-degree: 77%
 
 在启动工作流之前，[!DNL Campaign Standard]将检查是否有足够的系统物理内存来运行工作流。 如果没有足够的可用内存，则会出现一条消息，通知您工作流执行将延迟，直到服务器上的负载下降并且系统内存增加。
 
-### 频度
+### 频率
 
-工作流自动执行的频度不能超过每 10 分钟一次。活动的重复频度不能少于 10 分钟。如果重复频度设置为 0（这也是默认值），则不会考虑间隔时间选项，工作流将根据指定的执行频度运行。
+工作流自动执行的频率不能超过每 10 分钟一次。活动的重复频率不能少于 10 分钟。如果重复频率设置为 0（这也是默认值），则不会考虑间隔时间选项，工作流将根据指定的执行频率运行。
 
 ### 暂停的工作流
 
@@ -89,7 +90,7 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
 
 ![](assets/keep_interim_best_practices.png)
 
@@ -102,7 +103,7 @@ ht-degree: 77%
 
 要复制现有活动，您可以使用复制粘贴操作。这样，您就可以保留最初定义的设置。有关更多信息，请参见[复制工作流](../../automating/using/workflow-interface.md)。
 
-### “调度程序”活动{#acheduler-activity}
+### 调度程序活动{#acheduler-activity}
 
 在构建工作流时，只能为每个分支使用一个 **[!UICONTROL Scheduler activity]**。如果工作流的同一分支具有多个调度程序（相互链接），则要执行的任务数量将呈指数级增长，这将使数据库严重过载。
 
@@ -157,7 +158,7 @@ Adobe Campaign 提供了各种日志以更好地了解您的工作流问题。
 
 ### 使用投放日志{#using-delivery-logs}
 
-利用投放日志，可监控投放成功与否。在发送准备期间，排除日志会返回被排除的消息。发送日志可提供每个用户档案的投放状态。
+利用投放日志，可监控投放成功与否。在发送准备期间，排除日志会返回被排除的消息。发送日志可提供每个轮廓的投放状态。
 有关更多信息，请参见[了解投放的失败情况](../../sending/using/understanding-delivery-failures.md)。
 
 ### 使用投放警报{#delivery-alerting}

@@ -6,19 +6,20 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
 # 使用协调进行数据更新 {#data-update-reconciliation}
 
-下方的示例演示了直接从包含新客户的导入文件创建受众用户档案的工作流。该工作流由以下活动组成：
+下方的示例演示了直接从包含新客户的导入文件创建受众轮廓的工作流。该工作流由以下活动组成：
 
 ![](assets/identification_example2.png)
 

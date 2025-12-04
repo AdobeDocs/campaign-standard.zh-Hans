@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 4%
@@ -22,7 +23,7 @@ ht-degree: 4%
 
 此集成需要以下软件版本：
 
-* 仅限Microsoft Dynamics 365 for Sales Online，最新版本
+* Microsoft Dynamics 365（仅限在线销售），最新版本
 
 * Adobe Campaign Standard，最新版本
 
@@ -48,7 +49,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365的集成允许同步CRM系统�
 
 主要优势包括：
 
-* 销售与营销之间的消息传送保持一致：Adobe Campaign Standard与Dynamics 365集成使得两个系统都能访问客户洞察和电子邮件营销历史记录，从而允许发送给客户的所有消息都共享相同的一致消息传送。
+* 销售和营销之间的消息传送保持一致：Adobe Campaign Standard与Dynamics 365集成使得系统都能访问客户insight和电子邮件营销历史记录，从而允许发送给客户的所有消息共享相同的一致消息传送。
 
 * 所有潜在客户和客户数据的整体视图：通过将Adobe Campaign Standard与Dynamics 365集成，可以从CRM系统中共享和访问每个联系人的电子邮件营销历史记录。
 
@@ -69,10 +70,10 @@ Adobe Campaign Standard与Microsoft Dynamics 365的集成允许同步CRM系统�
 
 流程图详细信息（映射到上述步骤）：
 
-* **步骤1** — 假定您已拥有或正在获取Microsoft Dynamics 365 for Sales和Adobe Campaign Standard的许可证。
+* **步骤1** — 假定您已经拥有或正在获取Microsoft Dynamics 365 for Sales和Adobe Campaign Standard的许可证。
 * **步骤2** — 标准集成产品免费提供给所有客户；但是，根据您的要求，可能会产生额外费用。 详细了解[最佳实践和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)。 如果原始SO中没有包含新销售订单(SO)，则需要签署新销售订单，以便使用该集成。
 * **步骤3** — 完成Dynamics 365和Campaign的集成前步骤。 请参阅[配置此集成](#configure-this-integration)。
-* **步骤4** -Adobe入门团队将为您提供对集成应用程序用户界面(UI)的访问权限。
+* **步骤4** - Adobe入门团队将为您提供对集成应用程序用户界面(UI)的访问权限。
 * **步骤5** — 您将能够配置数据映射、替换、筛选器等。 并从集成应用程序UI中测试您的集成。
 
   >[!IMPORTANT]
@@ -85,7 +86,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365的集成允许同步CRM系统�
 
 * **Adobe Campaign Standard**：您需要设置API访问并为集成工具配置新的集成。 若要实现此目的，请参阅[本文](../../integrating/using/d365-acs-configure-adobe-io.md)。
 * **Microsoft Dynamics 365**：您需要创建新的应用程序注册并启用应用程序用户使用该集成。  若要为此集成配置Microsoft Dynamics 365，请参阅[本文](../../integrating/using/d365-acs-configure-d365.md)。
-* **Adobe Campaign Standard与Microsoft Dynamics 365自助应用程序集成**：您需要按照[本文中的步骤操作](../../integrating/using/d365-acs-self-service-app-control-access.md)。
+* **Adobe Campaign Standard与Microsoft Dynamics 365自助应用程序集成**：您需要按照[本文章](../../integrating/using/d365-acs-self-service-app-control-access.md)中的步骤操作。
 
 >[!IMPORTANT]
 >
@@ -105,4 +106,4 @@ Adobe Campaign Standard与Microsoft Dynamics 365的集成允许同步CRM系统�
 * **进程标题**： Microsoft Dynamics 365 / Adobe Campaign Standard集成
 * **问题描述**：问题描述
 
-集成支持范围当前为24x5(周一至周五提供，不包括Adobe节假日和休息期)。
+集成支持范围当前为24x5(星期一到星期五提供，不包括Adobe假日和休息期)。

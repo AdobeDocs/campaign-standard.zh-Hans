@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 99%
@@ -31,7 +32,7 @@ ht-degree: 99%
 
 可以根据模板的执行来源、执行日期和执行状态对导入进行筛选。
 
-1. 在导入概览中，单击 **[!UICONTROL Create]** 按钮。随即会打开向导。
+1. 在导入概述中，单击 **[!UICONTROL Create]** 按钮。随即会打开向导。
 1. 选择要执行的导入类型。导入类型对应于可用的导入模板。
 1. 如有必要，请将链接到模板的样例文件下载到您的计算机，以查看导入文件所需的数据类型。
 1. 在向导中下载包含导入数据的文件。
@@ -78,7 +79,7 @@ ht-degree: 99%
 
 1. 转到 **[!UICONTROL Workflow]** 选项卡。在此处，您可以根据需要添加新活动，以扩充默认提供的工作流。
 
-   有关如何配置工作流活动的更多信息，请参阅本节中描述的使用案例：[示例：导入工作流模板](../../automating/using/creating-import-workflow-templates.md)。此使用案例可帮助您设置一个可重复使用的工作流，用于导入来自 Adobe Campaign 数据库中 CRM 的用户档案。
+   有关如何配置工作流活动的更多信息，请参阅本节中描述的使用案例：[示例：导入工作流模板](../../automating/using/creating-import-workflow-templates.md)。此使用案例可帮助您设置一个可重复使用的工作流，用于导入来自 Adobe Campaign 数据库中 CRM 的轮廓。
 
 1. 保存模板，以便正确考虑工作流的配置。
 1. 从 **[!UICONTROL Properties]** 选项卡上传样例文件。上传的文件只能包含将来导入或采样数据所必需的列。利用样例文件中的数据，可在定义工作流后测试简化的导入。

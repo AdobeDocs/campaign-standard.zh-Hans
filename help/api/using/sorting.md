@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 ***示例请求***
 
-* 用于检索数据库中按字母顺序排列的电子邮件的示例GET请求。
+* 用于检索数据库中按字母顺序排序的电子邮件的示例GET请求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -50,7 +51,7 @@ ht-degree: 11%
   }
   ```
 
-* 在数据库中以降序Alpha顺序检索电子邮件的示例GET请求。
+* 用于以降序Alpha顺序检索数据库中的电子邮件的示例GET请求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

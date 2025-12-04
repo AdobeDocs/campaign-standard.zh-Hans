@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 70%
@@ -20,7 +21,7 @@ ht-degree: 70%
 
 加载文件活动主要用于从传输文件活动构造数据，以便将其集成到现有数据中。
 
-下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。此工作流旨在使用新用户档案扩充 Adobe Campaign 数据库，或使用从导入文件取回的数据来更新现有用户档案。
+下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。此工作流旨在使用新轮廓扩充 Adobe Campaign 数据库，或使用从导入文件取回的数据来更新现有轮廓。
 
 ![](assets/load_file_workflow_ex1.png)
 

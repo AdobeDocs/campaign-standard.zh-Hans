@@ -1,13 +1,14 @@
 ---
 title: API疑难解答
-description: 详细了解与Campaign StandardAPI相关的常见问题
+description: 进一步了解与Campaign Standard API相关的常见问题
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 这意味着您的特定Campaign产品的IMS配置存在问题：IMS团队需要修复该问题。
 
-要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在URL中的相同，以便能够路由您的Adobe。
+要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在Adobe.io URL中的相同，以便能够路由您的请求。
 如果缺少IMS配置，则需要修复。
 
 ```
@@ -74,7 +75,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 

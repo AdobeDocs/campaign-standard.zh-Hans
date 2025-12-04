@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -30,12 +31,11 @@ ht-degree: 1%
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**&#x200B;以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
+3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
    ![](assets/JwtToOAuthMigration2.png)
 4. 新凭据&#x200B;**OAuth服务器到服务器**&#x200B;将添加到左侧导航中。
    * 如果要取消迁移，请单击取消迁移。
    * 在验证新凭据OAuth服务器到服务器是否正常工作之前，请勿单击“查看并删除”按钮。
-
      ![](assets/JwtToOAuthMigration3.png)
 
 5. 将Microsoft Dynamics 365中的凭据更新到Adobe Campaign Standard应用程序
@@ -44,7 +44,6 @@ ht-degree: 1%
    * 由于新的OAuth服务器到服务器凭据使用与旧服务帐户(JWT)凭据相同的凭据，因此大多数字段都将已填充。
    * 输入客户端ID和客户端密码。 可以在Adobe Developer Console的项目中找到这些内容。
    * 单击保存以保存设置。
-
      ![](assets/JwtToOAuthMigration4.png)
 
 6. 验证新凭据是否正常工作
@@ -58,11 +57,8 @@ ht-degree: 1%
    * 单击这些项目并选择您迁移的项目。
    * 单击左侧导航栏中的“服务帐户(JWT)”凭据选项卡。
    * 单击“查看并删除”按钮。
-
      ![](assets/JwtToOAuthMigration5.png)
    * 查看上次访问或上次使用菜单的时间戳，以验证集成应用程序是使用新的OAuth凭据生成访问令牌，还是仍使用旧的JWT凭据。
-
      ![](assets/JwtToOAuthMigration6.png)
-   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**&#x200B;按钮继续删除旧凭据，从而完成迁移。
-
+   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**按钮继续删除旧凭据，从而完成迁移。
      ![](assets/JwtToOAuthMigration7.png)

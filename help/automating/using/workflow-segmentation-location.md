@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -18,7 +19,7 @@ ht-degree: 79%
 
 # 按位置分段 {#segmentation-on-location}
 
-您可以向客户发送定向电子邮件，并提供当地商店的优惠。
+您可以向客户发送定向电子邮件，并提供当地商店的产品建议。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，单击 **[!UICONTROL Create]** 并选择 **[!UICONTROL Workflow]**。
 1. 选择 **[!UICONTROL New Workflow]** 作为工作流类型并单击 **[!UICONTROL Next]**。
@@ -55,7 +56,7 @@ ht-degree: 79%
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 使用特定于各个地理位置的优惠，将电子邮件个性化。
+1. 使用特定于各个地理位置的产品建议，将电子邮件个性化。
 
    有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 

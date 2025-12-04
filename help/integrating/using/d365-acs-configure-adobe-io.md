@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -23,19 +24,19 @@ ht-degree: 0%
 
 ### 配置文件扩展
 
-请在Adobe Campaign Standard中启用“配置文件扩展”。   要将配置文件资源中的自定义字段从Microsoft Dynamics 365同步，需要此字段。   启用这些功能的步骤包括：
+请在Adobe Campaign Standard中启用“配置文件扩展”。   配置文件资源中的自定义字段要从Microsoft Dynamics 365同步时需要此信息。   启用这些功能的步骤包括：
 
 1. 转到“设置” — >“管理” — >“开发” — >“发布”。
 1. 单击“准备发布”以准备发布。
-1. 准备完成后，选中“创建配置文件和服务扩展API”，然后单击“Publish”。
+1. 准备完成后，选中“创建Profiles &amp; Services Ext API”，然后单击“发布”。
 
 ## 配置Adobe I/O {#adobe-io}
 
-Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访问。   本文将详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成以同步数据的访问权限。
+Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访问。   本文详细介绍如何配置Adobe I/O，以便授予Adobe Campaign Standard与Microsoft Dynamics 365集成以同步数据的权限。
 
 ### 概述
 
-在执行本文中的预集成设置之前，假定您已配置，并且拥有组织的Campaign Standard实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Adobe客户关怀团队以完成Campaign配置。
+在执行本文中的预集成设置之前，我们会假定您已经完成配置，并且拥有组织的Campaign Standard实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Adobe客户关怀团队以完成Campaign配置。
 
 >[!CAUTION]
 >
@@ -51,7 +52,7 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
 1. 导航到[Adobe Developer Console](https://console.adobe.io/home#)，然后从屏幕右上方的下拉菜单中选择您的Adobe组织ID。
 
-1. 然后单击&#x200B;**[!UICONTROL Quick Start]**&#x200B;下的&#x200B;**[!UICONTROL Create new project]**。
+1. 然后单击&#x200B;**[!UICONTROL Create new project]**&#x200B;下的&#x200B;**[!UICONTROL Quick Start]**。
 
    ![](assets/adobeIO1.png)
 
@@ -69,7 +70,7 @@ Adobe I/O允许您启用对Adobe Campaign Standard及其他Adobe产品的API访�
 
 1. 在下一个屏幕上，您将选择要与此项目关联的产品配置文件。 选择标题中包含的产品配置文件： Campaign实例的租户ID - [!UICONTROL Administrators]
 
-   示例：Campaign Standard- your-campaign-tenantID — 管理员
+   示例： Campaign Standard - your-campaign-tenantID - Administrators
 
 1. 单击 **[!UICONTROL Save configured API]**。
 
@@ -96,6 +97,6 @@ Campaign中的预集成设置现已完成。
 * [为Microsoft Dynamics 365集成配置Adobe Developer](../../integrating/using/d365-acs-configure-adobe-io.md)是设置集成的下一步
 * [集成自助服务应用程序概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)包含启动并运行集成的完整步骤列表。
 * [Adobe Developer — 服务帐户集成](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard- API访问设置](../../api/using/setting-up-api-access.md)
-* [Campaign Standard- Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
+* [Campaign Standard - API访问设置](../../api/using/setting-up-api-access.md)
+* [Campaign Standard - Dynamics 365集成](../../integrating/using/d365-acs-configure-d365.md)
 * [将凭据从JWT迁移到OAuth服务器到服务器](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md)包含将凭据从JWT迁移到OAuth服务器到服务器的步骤。

@@ -1,14 +1,15 @@
 ---
 title: 设置API访问
-description: 了解如何设置对Campaign StandardAPI的访问权限。
+description: 了解如何设置对Campaign Standard API的访问权限。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 5%
@@ -21,11 +22,11 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 
 >[!IMPORTANT]
 >
->若要在[Adobe Developer](https://developer.adobe.com/)中管理证书，请确保您对该组织具有&#x200B;**系统管理员**&#x200B;权限，或者在Admin Console中具有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。
+>要在[Adobe Developer](https://developer.adobe.com/)中管理证书，请确保您对该组织具有&#x200B;**系统管理员**&#x200B;权限，或者在Admin Console中具有[开发人员帐户](https://helpx.adobe.com/enterprise/using/manage-developers.html)。
 
 1. **检查您是否拥有数字证书**，或者在必要时创建一个数字证书。 以下步骤需要随证书一起提供的公钥和私钥。
-1. **在[Adobe Developer](https://developer.adobe.com/)中创建与Adobe Campaign服务**&#x200B;的新集成并进行配置。 随后将生成您的凭据（API密钥、客户端密钥……）。
-1. **使用之前生成的凭据创建JSON Web令牌(JWT)**，并使用您的私钥签名。 JWT对Adobe验证您的身份并授予您访问API的权限所需的所有身份和安全信息进行编码。
+1. **在** Adobe Developer[中创建与Adobe Campaign服务](https://developer.adobe.com/)的新集成并进行配置。 随后将生成您的凭据（API密钥、客户端密钥……）。
+1. **使用之前生成的凭据创建JSON Web令牌(JWT)**，并使用您的私钥签名。 JWT对Adobe验证您的身份和授予您访问API权限所需的所有身份和安全信息进行编码。
 
    >[!IMPORTANT]
    >
@@ -36,7 +37,7 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 
 1. **通过POST请求将JWT交换为访问令牌**。 必须在API请求的每个标头中使用此访问令牌。
 
-要建立安全的服务到服务Adobe I/OAPI会话，对Adobe服务的每个请求都必须在Authorization标头中包含以下信息。
+要建立安全的服务到服务Adobe I/O API会话，对Adobe服务的每个请求都必须在Authorization标头中包含以下信息。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -51,11 +52,11 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
    * &lt;ORGANIZATION> ：您的生产实例，
    * &lt;ORGANIZATION-mkt-stage>：您的阶段实例。
 
-  要获取您的组织ID值，请咨询您的管理员或您的Adobe技术联系人。 您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O(请参阅<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer文档</a>)。
+  要获取您的组织ID值，请联系管理员或Adobe技术联系人。 您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O(请参阅<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer文档</a>)。
 
 * **&lt;ACCESS_TOKEN>**：通过POST请求交换您的JSON Web令牌时检索到了您的个人访问令牌。
 
-* **&lt;API_KEY>**：您的个人API密钥。 在创建了与Adobe Campaign服务的新集成后，可在Adobe I/O中提供。
+* **&lt;API_KEY>**：您的个人API密钥。 在创建了与Adobe I/O服务的新集成后，Adobe Campaign中会提供此服务。
 
   ![替换文本](assets/tenant.png)
 
@@ -71,4 +72,4 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 ```
 
 
-请咨询您的管理员或Adobe的技术联系人，以检查CNAME参数是否正确创建。
+请咨询您的管理员或Adobe技术联系人，以检查CNAME参数是否正确创建。

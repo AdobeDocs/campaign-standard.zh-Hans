@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 51%
@@ -20,7 +21,7 @@ ht-degree: 51%
 
 以下示例显示了根据年龄组对数据库用户档案进行分段的情况。
 
-该工作流旨在为每个年龄组发送特定的电子邮件。考虑到此工作流是测试营销策划的一部分，每个区段最多只能包含 100 个随机选择的用户档案，以便使用受限且具有代表性的受众。
+该工作流旨在为每个年龄组发送特定的电子邮件。考虑到此工作流是测试营销策划的一部分，每个区段最多只能包含 100 个随机选择的轮廓，以便使用受限且具有代表性的受众。
 
 ![](assets/wkf_segment_example_4.png)
 

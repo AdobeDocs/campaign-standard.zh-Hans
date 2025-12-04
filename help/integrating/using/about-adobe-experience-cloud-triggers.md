@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +31,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 **相关主题：**
 
-* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=zh-Hans)。
+* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)。
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
@@ -45,7 +46,7 @@ Adobe Campaign 用户流程的主要步骤如下：
 1. 创建与现有 Adobe Experience Cloud 触发器关联的触发事件。
 1. 发布触发事件。
 1. 定义事务型消息模板的内容。
-1. 测试模板（创建测试用户档案并发送校样）。
+1. 测试模板（创建测试轮廓并发送校样）。
 1. 发布事务型消息模板。
 
 有关完整的使用案例，请参见[本章节](../../integrating/using/abandonment-triggers-use-cases.md)。
@@ -56,7 +57,7 @@ Adobe Campaign 用户流程的主要步骤如下：
 
 * 触发器不支持推送通知。仅支持电子邮件和短信。
 * 您可以使用通过 Analytics 捕获的元数据（如电子邮件 ID、页面名称等）来扩充触发器。
-* 您可以将触发器与存储在 Campaign Standard 中的用户档案相协调，并使用该用户档案的字段配置个性化消息。
+* 您可以将触发器与存储在 Campaign Standard 中的轮廓相协调，并使用该轮廓的字段配置个性化消息。
 * 触发之后，即会进行处理和协调，然后再发出。这大约需要 5 到 15 分钟，具体时间取决于被触发的触发器数量以及模板中使用的个性化字段数量。
 
 >[!NOTE]

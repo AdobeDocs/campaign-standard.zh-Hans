@@ -1,14 +1,15 @@
 ---
 title: Campaign Standard API 快速入门
-description: 通过将 Campaign 与一组技术建立联系，创建集成并生成您自己的生态系统。
+description: 通过将 Campaign 与一组技术建立联系，创建集成并构建您自己的生态系统。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -37,7 +38,7 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 >[!NOTE]
 >
->在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 要使用 Campaign Standard API，您需要 AdobeI/O 帐户。这是前进和发现 API 功能的必备第一步。
 如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。

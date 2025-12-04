@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 79%
@@ -36,7 +37,7 @@ ht-degree: 79%
   aze128;04/03/2016;clara.smith@example.com;A8;149
   ```
 
-* [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到用户档案和产品。
+* [协调活动](../../automating/using/reconciliation.md)会创建导入数据与数据库之间的链接，以便交易数据能够正确连接到轮廓和产品。
 * [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的交易资源。
 * [End](../../automating/using/start-and-end.md)活动会触发用于更新聚合的目标工作流。
 
@@ -45,7 +46,7 @@ ht-degree: 79%
 目标工作流如下所示：
 
 * [外部信号](../../automating/using/external-signal.md)活动等待源工作流成功完成。
-* [查询](../../automating/using/query.md#enriching-data)活动会定向用户档案，并通过集合集对进行扩充，以检索上次购买日期。
-* [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，用户档案资源已扩展，添加了 **Last purchase date** 字段。
+* [查询](../../automating/using/query.md#enriching-data)活动会定向轮廓，并通过集合集对进行扩充，以检索上次购买日期。
+* [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，轮廓资源已扩展，添加了 **Last purchase date** 字段。
 
 ![](assets/signal_example_source2.png)

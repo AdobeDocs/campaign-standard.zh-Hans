@@ -5,13 +5,14 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -42,7 +43,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 [定位活动](../../automating/using/about-targeting-activities.md)允许您通过定义集并使用交集、并集或排除操作拆分或组合这些集来构建一个或多个目标。
 
-通过[执行活动](../../automating/using/about-execution-activities.md)，协调工作流及其活动，而[渠道活动](../../automating/using/about-channel-activities.md)允许您合并Campaign Standard通信渠道以创建跨渠道工作流。
+通过[执行活动](../../automating/using/about-execution-activities.md)，协调您的工作流及其活动，而[渠道活动](../../automating/using/about-channel-activities.md)允许您合并Campaign Standard通信渠道以创建跨渠道工作流。
 
 最后，[数据管理活动](../../automating/using/about-data-management-activities.md)允许您处理数据库中的数据。
 
@@ -66,7 +67,7 @@ Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分�
 
 ## 导入/导出数据 {#import-export-data}
 
-Campaign Standard具有多个&#x200B;**数据管理功能**&#x200B;以导入和导出数据。
+Campaign Standard提供了多项&#x200B;**数据管理功能**&#x200B;来导入和导出数据。
 
 [工作流数据管理活动](../../automating/using/about-data-management-activities.md)允许您导入数据、对字段执行批量更新、接收或发送文件，或将未识别的数据链接到现有资源。
 
@@ -76,7 +77,7 @@ Campaign Standard具有多个&#x200B;**数据管理功能**&#x200B;以导入和�
 
 利用[包](../../automating/using/managing-packages.md)在不同营销活动实例之间交换资源，例如，复制实例的配置，或者将数据从服务器传输到另一个服务器，包括自定义资源。
 
-最后，[导出列表](../../automating/using/exporting-lists.md)允许您从Campaign Standard导出任何列表，例如测试用户档案列表、隔离电子邮件地址列表等。
+最后，[导出列表](../../automating/using/exporting-lists.md)允许您从Campaign Standard导出任何列表，例如测试用户档案的列表、隔离电子邮件地址的列表等。
 
 了解更多：
 

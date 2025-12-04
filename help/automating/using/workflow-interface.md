@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 4%
@@ -52,11 +53,11 @@ ht-degree: 4%
 
 要链接两个活动，请将箭头的结尾从第一个活动上移动到后续活动，直到它们连接为止。 您还可以将活动向着它后面的箭头点移动，以便将其链接到前一个活动。 如果移动任何活动，则它们将保持链接。
 
-在处理数据的活动之后的过渡包含中间群体。 如果选中工作流属性&#x200B;**[!UICONTROL Execution]**&#x200B;部分中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;选项，则可以访问它们。
+在处理数据的活动之后的过渡包含中间群体。 如果选中工作流属性&#x200B;**[!UICONTROL Keep interim results]**&#x200B;部分中的&#x200B;**[!UICONTROL Execution]**&#x200B;选项，则可以访问它们。
 
 >[!CAUTION]
 >
->使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
 
 
 选择活动后，会在活动周围显示快速操作，以便您与之交互。 例如，要配置活动，请选择该活动，然后使用快速操作中的![](assets/edit_darkgrey-24px_table.png)按钮将其打开。
@@ -161,6 +162,6 @@ ht-degree: 4%
 
 本视频说明如何创建工作流。
 
->[!VIDEO](https://video.tv.adobe.com/v/27577?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

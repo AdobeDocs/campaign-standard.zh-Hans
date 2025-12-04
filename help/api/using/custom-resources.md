@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 3%
@@ -37,7 +38,7 @@ Adobe Campaign附带预定义数据模型，其中数据通过不同资源进行
 
 ***示例请求***
 
-访问扩展的profileAndServicesExt资源的示例GET请求。
+访问扩展的profileAndServicesExt资源的GET请求示例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,4 +77,4 @@ Adobe Campaign附带预定义数据模型，其中数据通过不同资源进行
 
 * [数据模型概念](../../developing/using/data-model-concepts.md)
 * [扩展API](../../developing/using/about-extending-the-api.md)
-* [定义与其他资源的链接](https://helpx.adobe.com/cn/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [定义与其他资源的链接](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

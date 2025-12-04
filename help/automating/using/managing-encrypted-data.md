@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows, Encryption
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 3%
@@ -27,12 +28,12 @@ ht-degree: 3%
 >
 >控制面板适用于在AWS上托管的所有客户（本地托管营销实例的客户除外）。
 
-如果您没有资格使用控制面板，则需要联系Adobe客户关怀团队，以便他们为您的实例提供所需的加密/解密命令。 为此，请提交请求，说明：
+如果您不符合使用控制面板的资格，则需要联系Adobe客户关怀团队，以便他们为您的实例提供所需的加密/解密命令。 为此，请提交请求，说明：
 
 * 将在Campaign界面中显示的&#x200B;**标签**，用于使用该命令。 例如“加密文件”。
 * 要在实例上安装的&#x200B;**命令**。
 
-处理请求后，加密/解密命令将在&#x200B;**[!UICONTROL Load file]**&#x200B;和&#x200B;**[!UICONTROL Extract file]**&#x200B;活动的&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;字段中可用。 您可以使用它们来解密或加密要导入或导出的文件。
+处理请求后，加密/解密命令将在&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;和&#x200B;**[!UICONTROL Load file]**&#x200B;活动的&#x200B;**[!UICONTROL Extract file]**&#x200B;字段中可用。 您可以使用它们来解密或加密要导入或导出的文件。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -49,14 +50,14 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#decrypting-data)中提供了详细步骤。
+1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了详细步骤。
 
    * 公共密钥将与外部系统共享，外部系统将使用它来加密要发送到Campaign的数据。
    * Campaign将使用私钥对传入的加密数据进行解密。
 
    ![](assets/gpg_generate.png)
 
-1. 在外部系统中，使用从控制面板下载的公钥对数据进行加密后导入Campaign Standard中。
+1. 在外部系统中，使用从控制面板下载的公共密钥加密要导入到Campaign Standard中的数据。
 
 1. 在Campaign Standard中，构建一个工作流以导入加密数据，并使用已通过控制面板安装的私钥对其进行解密。 要实现此目的，请构建一个工作流，如下所示：
 
@@ -93,7 +94,7 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#encrypting-data)中提供了详细步骤。
+1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了详细步骤。
 
    ![](assets/gpg_install.png)
 
@@ -127,10 +128,10 @@ ht-degree: 3%
 
 本视频说明如何使用GPG密钥解密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41352?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 本视频说明如何使用GPG密钥加密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41338?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

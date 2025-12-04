@@ -2,10 +2,11 @@
 title: 使用API创建服务
 description: 了解如何使用API创建服务
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 使用API创建服务{#creating-a-service-api}
 
-对服务资源使用&#x200B;**POST**&#x200B;请求执行服务创建。
+使用服务资源上的&#x200B;**POST**&#x200B;请求执行服务创建。
 
 如果要创建具有特定属性的服务，请将其添加到有效负载中。 否则，将使用默认服务创建新服务。
 

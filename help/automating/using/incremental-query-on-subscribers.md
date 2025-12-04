@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 61%
@@ -18,7 +19,7 @@ ht-degree: 61%
 
 # 关于服务订阅者的增量查询 {#example--incremental-query-on-subscribers-to-a-service}
 
-以下示例显示了 **[!UICONTROL Incremental query]** 活动的配置，该活动用于筛选 Adobe Campaign 数据库中订阅了 **Running Newsletter** 服务的用户档案，以向他们发送包含促销代码的欢迎电子邮件。
+以下示例显示了 **[!UICONTROL Incremental query]** 活动的配置，该活动用于筛选 Adobe Campaign 数据库中订阅了 **Running Newsletter** 服务的轮廓，以向他们发送包含促销代码的欢迎电子邮件。
 
 工作流由以下元素组成：
 

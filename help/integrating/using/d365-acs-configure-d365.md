@@ -5,12 +5,13 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-在执行本文档中的预集成设置之前，假定您已配置并拥有组织的Microsoft Dynamics 365实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Microsoft客户支持以完成Dynamics 365配置。
+在本文档中执行集成前设置之前，假定您已配置并拥有组织的Microsoft Dynamics 365实例的管理员访问权限。  如果尚未发生这种情况，则需要联系Microsoft客户支持以完成Dynamics 365配置。
 
 如果您要为暂存环境和生产环境配置集成，则需要为暂存环境和生产Dynamics 365实例执行以下步骤。 如果您正在配置暂存或生产Dynamics 365实例，以下一些说明略有不同（例如，对于生产实例，为`<stage or prod>`选择“prod”）
 
@@ -37,7 +38,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 以下视频概述了主要步骤：
 
->[!VIDEO](https://video.tv.adobe.com/v/34833?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 要生成OAuth访问令牌，请执行以下步骤。
 
@@ -83,7 +84,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 ### 创建应用程序用户
 
-此新用户是通用用户。 应用程序将使用此功能：此用户将会完成使用API对Microsoft Dynamics 365进行的任何更改。 要创建它，请执行以下步骤：
+此新用户是通用用户。 应用程序将使用该功能：该用户将会完成使用API对Microsoft Dynamics 365进行的任何更改。 要创建它，请执行以下步骤：
 
 1. 导航到您的Dynamics 365实例，并以管理员身份登录。
 
@@ -91,14 +92,14 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 1. 单击下拉菜单转到&#x200B;**[!UICONTROL Application Users]**。 单击 **[!UICONTROL New]**。
 
-1. 确保用户图标旁边的下拉菜单显示&#x200B;**[!UICONTROL USER:APPLICATION USER]**。
+1. 确保用户图标旁边的下拉菜单显示&#x200B;**[!UICONTROL USER:APPLICATIONUSER]**。
 
    填写新用户的屏幕。  参数建议：
 
    * **[!UICONTROL User Name]** （电子邮件）： adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (例如，adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Application ID]**：您在Azure AD中注册的应用程序的ID（这是必需的）
    * 您可以留空&#x200B;**[!UICONTROL Application ID URI]**&#x200B;和&#x200B;**[!UICONTROL Azure AD Object ID]**
-   * **[!UICONTROL Full Name]**：AdobeAPI `<stage or prod>`
+   * **[!UICONTROL Full Name]**： Adobe API `<stage or prod>`
    * **[!UICONTROL Email]**：与&#x200B;**[!UICONTROL User Name]**&#x200B;相同（如果您愿意，也可以使用管理员的电子邮件）
 
    有关创建应用程序用户的详细信息，请参阅[此部分](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}。
@@ -113,9 +114,9 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 ### 获取租户ID {#get-the-tenant-id}
 
-按照此页面[&#128279;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的说明查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
+按照此页面[中的说明](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
 
-## 安装Microsoft Dynamics 365Campaign Standard {#install-appsource-app}
+## 安装适用于Microsoft Dynamics 365的Campaign Standard {#install-appsource-app}
 
 要将Dynamics 365应用程序集成到Campaign Standard环境，请执行以下步骤：
 
@@ -123,9 +124,9 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 或者，您可以导航到此[链接](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}。
 1. 按照说明为Dynamics 365实例安装应用程序。
 1. 安装后，导航到您的Dynamics 365实例并以管理员身份登录。
-1. 单击右上角的齿轮图标，然后单击&#x200B;**[!UICONTROL Advanced Settings]**。 在顶部横幅中，单击&#x200B;**[!UICONTROL Settings]**&#x200B;旁边的下拉菜单，然后单击&#x200B;**[!UICONTROL Process Center]**&#x200B;下的&#x200B;**[!UICONTROL Processes]**。
+1. 单击右上角的齿轮图标，然后单击&#x200B;**[!UICONTROL Advanced Settings]**。 在顶部横幅中，单击&#x200B;**[!UICONTROL Settings]**&#x200B;旁边的下拉菜单，然后单击&#x200B;**[!UICONTROL Processes]**&#x200B;下的&#x200B;**[!UICONTROL Process Center]**。
 1. 搜索&#x200B;**[!UICONTROL Adobe Campaign Email Bounce]**&#x200B;任务并单击它。
-1. 在&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡上，通过单击顶部功能区中的&#x200B;**[!UICONTROL Actions]**，将所有者更改为之前创建的AdobeAPI应用程序用户，然后选择&#x200B;**[!UICONTROL Assign to another User]**&#x200B;选项，从下拉列表中选择&#x200B;**[!UICONTROL Adobe API application user]**&#x200B;进行分配。
+1. 在&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡上，通过单击顶部功能区中的&#x200B;**[!UICONTROL Actions]**，将所有者更改为之前创建的Adobe API应用程序用户，然后选择&#x200B;**[!UICONTROL Assign to another User]**&#x200B;选项，从下拉列表中选择&#x200B;**[!UICONTROL Adobe API application user]**&#x200B;进行分配。
 1. 重新激活进程。
 1. 对&#x200B;**[!UICONTROL Adobe Campaign Email Click]**&#x200B;任务执行相同操作。
 

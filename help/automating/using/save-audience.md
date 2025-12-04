@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 99%
@@ -28,7 +29,7 @@ ht-degree: 99%
 >
 >如果通过 **[!UICONTROL Save audience]** 活动创建的受众，已经通过附加数据进行了扩充，您将无法使用这些数据来个性化独立投放。它们只能用于工作流中执行的投放。
 
-利用此活动，还可将用户档案导出为 Adobe Experience Cloud 受众/区段。这样，您就可以在其他 Adobe Experience Cloud 解决方案中利用这些受众。有关共享受众的详细信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+利用此活动，还可将轮廓导出为 Adobe Experience Cloud 受众/区段。这样，您就可以在其他 Adobe Experience Cloud 解决方案中利用这些受众。有关共享受众的详细信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
 ## 使用环境 {#context-of-use}
 
@@ -54,10 +55,10 @@ ht-degree: 99%
 
       * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
-        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。例如，您无法使用来自查询的用户档案填充文件类型受众。
+        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。例如，您无法使用来自查询的轮廓填充文件类型受众。
 
    * **[!UICONTROL Create a new audience]**：输入所创建受众的名称。创建受众的时间和日期将自动添加到受众名称中。这样可让每次执行工作流时，创建的受众具有唯一性。
-   * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您已经定向了用户档案，并且要将受众导出到 Adobe Experience Cloud，请选择此选项，然后选择现有共享受众或创建新受众。
+   * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您已经定向了轮廓，并且要将受众导出到 Adobe Experience Cloud，请选择此选项，然后选择现有共享受众或创建新受众。
 
      另外，请选择与受众所包含数据资源相对应的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正确协调数据。
 
@@ -82,8 +83,8 @@ ht-degree: 99%
 此示例中定义的工作流，展示了来自定向的常规受众更新：
 
 * 使用 **[!UICONTROL Scheduler]**，每月自动执行一次。
-* 您可以使用 **[!UICONTROL Query]** 取回订阅了各种可用应用程序服务的所有用户档案。
-* **[!UICONTROL Save audience]** 活动可更新受众，其方法为删除自上次工作流执行以来取消订阅服务的用户档案并添加新订阅的用户档案。
+* 您可以使用 **[!UICONTROL Query]** 取回订阅了各种可用应用程序服务的所有轮廓。
+* **[!UICONTROL Save audience]** 活动可更新受众，其方法为删除自上次工作流执行以来取消订阅服务的轮廓并添加新订阅的轮廓。
 
 ![](assets/save_audience_example_1.png)
 

@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望获得访问权限，请联系Adobe客户关怀团队。
+>Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 使用区段生成器创建[Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md)后，您可以像在工作流程中为Campaign受众创建个性化并发送消息一样使用该受众。
 
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 1. 将&#x200B;**[!UICONTROL Read audience]**&#x200B;活动添加到工作流中，然后打开它。
 
-1. 选择&#x200B;**[!UICONTROL Type of audience]**&#x200B;下的&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;选项，然后添加所需的受众。
+1. 选择&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;下的&#x200B;**[!UICONTROL Type of audience]**&#x200B;选项，然后添加所需的受众。
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -61,7 +62,7 @@ ht-degree: 3%
 >
 >通过Campaign Standard，您可以定位所有投放渠道中的Adobe Experience Platform受众：电子邮件、短信、直邮消息、推送通知和应用程序内消息。
 >
->*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持投放已知用户档案。
+>*注意：对于所有推送和应用程序内消息，Campaign Standard仅支持交付已知用户档案。
 
 有关如何使用工作流和投放的更多信息，请参阅以下章节：
 

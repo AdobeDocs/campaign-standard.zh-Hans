@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 13%
@@ -31,7 +32,7 @@ ht-degree: 13%
 1. 单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮以添加参数，然后填写其名称和值。
 
    * **[!UICONTROL Name]**：已在&#x200B;**[!UICONTROL External signal]**&#x200B;活动中声明的名称（请参阅[此页面](../../automating/using/declaring-parameters-external-signal.md)）。
-   * **[!UICONTROL Value]**：要分配给参数的值。 该值应遵循[此部分](../../automating/using/advanced-expression-editing.md#standard-syntax)中描述的&#x200B;**标准语法**。
+   * **[!UICONTROL Value]**：要分配给参数的值。 该值应遵循&#x200B;**此部分**&#x200B;中描述的[标准语法](../../automating/using/advanced-expression-editing.md#standard-syntax)。
 
    ![](assets/extsignal_definingparameters_2.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 94%
@@ -30,7 +31,7 @@ ht-degree: 94%
 
 ## 使用环境 {#context-of-use}
 
-**[!UICONTROL Incremental query]** 必须链接到 **[!UICONTROL Scheduler]** 以定义工作流的执行频次，从而定义查询。
+**[!UICONTROL Incremental query]** 必须链接到 **[!UICONTROL Scheduler]** 以定义工作流的执行频率，从而定义查询。
 
 通过专用于此活动的 **[!UICONTROL Processed data]** 选项卡，可根据需要查看之前执行该活动所获的任何结果。
 
@@ -50,9 +51,9 @@ ht-degree: 94%
 
 1. 将 **[!UICONTROL Incremental query]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 如果要在非用户档案资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
+1. 如果要在非轮廓资源上运行查询，请转至该活动的 **[!UICONTROL Properties]** 选项卡，然后选择 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
-   利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的用户档案、投放、链接到所选资源的数据等）。
+   利用 **[!UICONTROL Resource]** 可微调面板中显示的过滤器，包括 **[!UICONTROL Targeting dimension]**、对应于所选资源的上下文、对应于您要获取的群体类型（已识别的轮廓、投放、链接到所选资源的数据等）。
 
 1. 在 **[!UICONTROL Target]** 选项卡中，可通过定义和组合规则来运行查询。
 1. 在 **[!UICONTROL Processed data]** 选项卡中，选择要用于工作流下一次执行的增量模式：

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 97%
@@ -54,6 +55,6 @@ ht-degree: 97%
 
 ## 示例 {#example}
 
-下方的示例显示了两个查询活动的结果，这些活动旨在重组 Adobe Campaign 数据库 18 至 27 岁和 34 至 40 岁的用户档案。结果包含两个查询的所有用户档案，或在配置期间中指定的最大记录数量用户档案（如果适用）。
+下方的示例显示了两个查询活动的结果，这些活动旨在重组 Adobe Campaign 数据库 18 至 27 岁和 34 至 40 岁的轮廓。结果包含两个查询的所有轮廓，或在配置期间中指定的最大记录数量轮廓（如果适用）。
 
 ![](assets/wkf_union_example.png)

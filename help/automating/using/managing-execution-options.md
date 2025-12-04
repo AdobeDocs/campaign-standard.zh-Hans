@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 8%
@@ -44,7 +45,7 @@ ht-degree: 8%
 
   >[!CAUTION]
   >
-  >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
+  >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：允许您在本地执行工作流，以用于开发环境测试。
 
@@ -58,7 +59,7 @@ ht-degree: 8%
 >
 >此选项会显着影响工作流性能，应谨慎使用。
 
-启用后，如果查询花费超过一分钟时间，则工作流属性&#x200B;**[!UICONTROL Execution]**&#x200B;部分中的&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;选项将记录整个执行计划。
+启用后，如果查询花费超过一分钟时间，则工作流属性&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;部分中的&#x200B;**[!UICONTROL Execution]**&#x200B;选项将记录整个执行计划。
 
 ![](assets/wkf_diagnostic.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 90%
@@ -32,7 +33,7 @@ ht-degree: 90%
 
 >[!CAUTION]
 >
->使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在制作实例中，请不要勾选该选项。
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
 
 ![](assets/workflow_overview.png)
 
@@ -135,6 +136,6 @@ ht-degree: 90%
 
 本视频说明如何创建工作流。
 
->[!VIDEO](https://video.tv.adobe.com/v/27577?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

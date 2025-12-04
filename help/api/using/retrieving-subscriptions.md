@@ -2,10 +2,11 @@
 title: 检索订阅
 description: 了解如何使用API检索订阅
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 此过程分为两步。
 
 1. 检索所需服务的订阅URL。
-1. 对预订URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
+1. 对订阅URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
 
 >[!CAUTION]
 >
@@ -53,7 +54,7 @@ ht-degree: 1%
   },
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -115,7 +116,7 @@ ht-degree: 1%
   }
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

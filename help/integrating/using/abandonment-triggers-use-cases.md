@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -24,7 +25,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->本节介绍的使用案例取决于 Experience Cloud Visitor ID。还可以使用 Experience Cloud Declared ID 实施这些使用案例。另外还支持哈希化和加密的声明 ID。您可以通过直接解密已加密的电子邮件地址/移动号码，将电子邮件/短信发送给 Campaign 中不存在的用户档案。但在这种情况下，无法使用用户档案数据进行个性化。
+>本节介绍的使用案例取决于 Experience Cloud Visitor ID。还可以使用 Experience Cloud Declared ID 实施这些使用案例。另外还支持哈希化和加密的声明 ID。您可以通过直接解密已加密的电子邮件地址/移动号码，将电子邮件/短信发送给 Campaign 中不存在的轮廓。但在这种情况下，无法使用轮廓数据进行个性化。
 
 ## 先决条件 {#pre-requisites}
 
@@ -44,7 +45,7 @@ ht-degree: 90%
 
 在此使用案例中，我们将创建一个简单的触发器，每次客户放弃访问网站时都会触发该触发器。此示例假定您拥有 DTM 用于收集数据并将数据推送到 Adobe Analytics，且已创建了所有事件。
 
-### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger}
+### 创建Experience Cloud Trigger {#creating-an-experience-cloud-trigger}
 
 1. 从 Experience Cloud Activation Core Service 菜单选择 **[!UICONTROL Manage Triggers]**。
 
@@ -121,7 +122,7 @@ ht-degree: 90%
 
 在此使用案例中，我们将创建触发器以重新吸引那些访问我们的旅行预订网站、搜索了目的地、未成功找到结果、且没有预订任何内容的访客。一般过程与上一个使用案例中的过程相同（请参阅[浏览放弃触发器](#browse-abandonment-trigger)）。我们将重点介绍如何将再营销电子邮件个性化。
 
-### 创建Experience Cloud触发器 {#creating-an-experience-cloud-trigger-1}
+### 创建Experience Cloud Trigger {#creating-an-experience-cloud-trigger-1}
 
 按照上一个使用案例中所述的步骤，创建 Experience Cloud Trigger。请参阅[创建 Experience Cloud Trigger](#creating-an-experience-cloud-trigger)。其主要区别在于触发器定义。
 

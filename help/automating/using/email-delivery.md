@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -60,7 +61,7 @@ ht-degree: 90%
 1. 选择电子邮件发送模式：
 
    * **[!UICONTROL Email]**：电子邮件只发送一次。您可以在此处指定是否向活动添加叫客过渡。此程序的第 7 步详细介绍了各种过渡类型。
-   * **[!UICONTROL Recurring email]**: 根据 **[!UICONTROL Scheduler]** 活动中定义的频度，多次发送电子邮件。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的电子邮件中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问这封电子邮件。
+   * **[!UICONTROL Recurring email]**: 根据 **[!UICONTROL Scheduler]** 活动中定义的频率，多次发送电子邮件。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的电子邮件中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问这封电子邮件。
 
      例如，对于每天发送的定期生日电子邮件，您可以选择聚合每月的发送。这样，尽管每天都会发送生日电子邮件，但您可以按月接收投放报告。
 
@@ -74,7 +75,7 @@ ht-degree: 90%
 1. 默认情况下，**[!UICONTROL Email delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Email delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
-   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收电子邮件的群体。在投放准备期间被排除的目标成员（隔离、电子邮件无效等）将从此过渡中排除。
+   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收电子邮件的群体。在投放准备期间被排除的目标成员（隔离、电子邮件无效等）将排除在此过渡之外。
 
 1. 确认活动的配置并保存工作流。
 

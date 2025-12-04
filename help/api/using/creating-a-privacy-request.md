@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -21,18 +22,18 @@ ht-degree: 4%
 >
 >[隐私核心服务](https://developer.adobe.com/experience-platform-apis/references/privacy-service)集成是您应当用于所有访问和删除请求的方法。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-隐私请求是使用&#x200B;**POST**&#x200B;请求创建的。
+使用&#x200B;**POST**&#x200B;请求创建隐私请求。
 
 在创建请求之前，您需要定义要使用的命名空间。 有关详细信息，请参阅[隐私管理文档](../../start/using/privacy-requests.md)。
 
 有效负载必须包含以下参数：
 
 * **名称**：唯一的内部名称
-* **namespace**：在Campaign Standard界面中配置的命名空间名称
+* **命名空间**：在Campaign Standard界面中配置的命名空间名称
 * **reconciliationValue**：基于命名空间中定义的协调键值的协调值
 * **标签**：请求标签
 * **类型**：请求类型。 接受的值为“access”或“delete”。
-* **法规**：法规类型。 示例：“GDPR”、“CCPA”。 此参数是必需的，并且从Campaign Standard19.4版本开始提供。 如果您使用的是旧版本，则无需将其添加到有效负载中。
+* **法规**：法规类型。 示例：“GDPR”、“CCPA”。 此参数是必需的，并且从Campaign Standard 19.4版本开始提供。 如果您使用的是旧版本，则无需将其添加到有效负载中。
 
 <br/>
 

@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -38,14 +39,14 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->强烈建议您在将更改发布到Microsoft或Microsoft Dynamics 365之前停止&#x200B;**Adobe Campaign Standard Dynamics 365到Campaign**&#x200B;工作流。 这些更改包括对集成当前使用的资源/实体（及其关联字段）、链接、标识符列等的更新。 否则，可能会导致数据丢失和/或工作流意外停止。
+>强烈建议您在将更改发布到Microsoft Dynamics或Microsoft Dynamics 365之前停止&#x200B;**Adobe Campaign Standard 365到Campaign**&#x200B;工作流程。 这些更改包括对集成当前使用的资源/实体（及其关联字段）、链接、标识符列等的更新。 否则，可能会导致数据丢失和/或工作流意外停止。
 
 ## 工作流积压
 
 此集成应用程序首先读取数据，然后将数据写入目标。 **[!UICONTROL Backlog]**&#x200B;列指示已排队并等待写入的记录数。 当您需要处理大量数据（例如，您是首次运行集成、正在重放数据等）时，此值预计会增加。
 
 >[!NOTE]
->如果Microsoft Dynamics 365和/或Campaign记录未更新，则应首先检查是否有大量记录等待写入目标。
+>如果您的Microsoft Dynamics 365和/或Campaign记录未更新，则应首先检查是否有大量记录等待写入目标。
 >
 
 ## 工作流状态 {#workflow-status}

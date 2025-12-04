@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 ## 向集成应用程序添加凭据
 
-**[!UICONTROL Settings]**&#x200B;屏幕允许您指定Microsoft Dynamics 365和AdobeAPI凭据。 您还可以配置与Adobe Campaign SFTP实例相关的设置。
+**[!UICONTROL Settings]**&#x200B;屏幕允许您指定Microsoft Dynamics 365和Adobe API凭据。 您还可以配置与Adobe Campaign SFTP实例相关的设置。
 
 ### Microsoft Dynamics 365凭据
 
-Microsoft Dynamics 365凭据为集成应用程序提供从Microsoft Dynamics 365中提取数据的权限。  您必须首先按照[为Campaign集成配置Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)屏幕上的步骤进行操作，以便生成将粘贴到此屏幕的值。 下面介绍的输入将引用此屏幕。
+Microsoft Dynamics 365凭据为集成应用程序提供从Microsoft Dynamics 365中提取数据的权限。  您必须首先按照[为Campaign集成配置Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)屏幕上的步骤进行操作，以生成将粘贴到此屏幕的值。 下面介绍的输入将引用此屏幕。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -35,7 +36,7 @@ Microsoft Dynamics 365凭据为集成应用程序提供从Microsoft Dynamics 365
 
 * **[!UICONTROL URL]**： URL的格式为`https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### AdobeAPI凭据
+### Adobe API凭据
 
 Adobe Campaign凭据是使用[Adobe I/O](https://www.adobe.io/)生成的。 您需要访问屏幕[配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)并按照该屏幕上的说明进行操作，然后才能填写此部分中的输入内容。
 
@@ -79,13 +80,13 @@ Adobe Campaign凭据是使用[Adobe I/O](https://www.adobe.io/)生成的。 您�
 
 * [关于 SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hans#sftp-management)
 
-* [SFTP 存储管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hans#installing-ssh-key)
+* [SFTP 存储管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [添加IP范围](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=zh-Hans#sftp-management)
+* [添加IP范围](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [管理密钥](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hans#sftp-management)
+* [管理密钥](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [登录到您的SFTP服务器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=zh-Hans#sftp-management)
+* [登录到您的SFTP服务器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 配置完成后，使用私钥登录SFTP服务器并创建目录“d365_loads/exports”。
 

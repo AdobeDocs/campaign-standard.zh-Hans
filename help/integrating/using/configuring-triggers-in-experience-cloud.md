@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 6%
@@ -19,9 +20,9 @@ ht-degree: 6%
 
 ## 激活功能 {#activating-the-functionality}
 
-必须在Adobe Campaign中通过Adobe激活该功能。 请联系您的Adobe客户经理或专业服务合作伙伴。
+必须在Adobe Campaign中由Adobe激活该功能。 请联系您的Adobe客户经理或专业服务合作伙伴。
 
-Adobe团队需要以下信息来激活触发器：
+Adobe团队需要以下信息才能激活触发器：
 
 * Marketing Cloud公司名称
 * 组织 ID
@@ -53,11 +54,11 @@ Adobe团队需要以下信息来激活触发器：
 >
 >子域配置是可投放性关键元素。 确保Adobe Campaign电子邮件是从与网站使用的相同的域发送的。
 
-您需要配置[Experience CloudDTM核心服务](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人员核心服务](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)以运行这些用例。
+您需要配置[Experience Cloud DTM核心服务](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人员核心服务](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)以运行这些用例。
 
 ### 配置Experience Cloud DTM核心服务 {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience CloudDTM核心服务(Dynamic Tag Management)中，激活网站页面的Experience CloudID和Adobe Analytics。
+1. 在Experience Cloud DTM核心服务(Dynamic Tag Management)中，激活网站页面的Experience Cloud ID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -65,9 +66,9 @@ Adobe团队需要以下信息来激活触发器：
 
    ![](assets/trigger_uc_conf_2.png)
 
-### 配置Experience Cloud人员核心服务 {#configuring-experience-cloud-people-core-service}
+### 配置Experience Cloud People核心服务 {#configuring-experience-cloud-people-core-service}
 
-以前在DTM中引用的别名需要通过客户属性在Experience Cloud人员核心服务中创建。 确保创建新别名，并在集成代码（例如“visitorid”）中引用相同的DTM别名。
+以前在DTM中引用的别名需要通过客户属性在Experience Cloud People Core Service中创建。 确保创建新别名，并在集成代码（例如“visitorid”）中引用相同的DTM别名。
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -81,7 +82,7 @@ Adobe团队需要以下信息来激活触发器：
 
    ![](assets/remarketing_1.png)
 
-1. 别名使Analytics中的联系人能够与Campaign中的用户档案进行协调。 您需要将Experience CloudID服务中定义的别名与Campaign中的共享数据Source匹配。 您需要通过数据源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中配置别名解析。 确保在&#x200B;**[!UICONTROL Data Source/Alias]**&#x200B;下拉菜单中选择正确的数据源，该数据源与上一步中创建的同一客户属性数据源映射。
+1. 别名使Analytics中的联系人能够与Campaign中的用户档案进行协调。 您需要将Experience Cloud ID服务中定义的别名与Campaign中的共享数据Source匹配。 您需要通过数据源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中配置别名解析。 确保在&#x200B;**[!UICONTROL Data Source/Alias]**&#x200B;下拉菜单中选择正确的数据源，该数据源与上一步中创建的同一客户属性数据源映射。
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -95,7 +96,7 @@ Adobe团队需要以下信息来激活触发器：
 
 在Experience Cloud中创建新触发器，并确保选择您网站上使用的报表包。 确保选择正确的维度，以便触发程序。
 
-请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hans)。
+请参阅[Adobe Experience Cloud文档](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
 
 ## 触发器最佳实践和限制 {#triggers-best-practices-and-limitations}
 

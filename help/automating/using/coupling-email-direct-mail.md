@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 84%
@@ -20,7 +21,7 @@ ht-degree: 84%
 
 作为营销人员，您可能希望通过直邮发送产品目录。在纸质产品目录中，某些页面提供了用于在网站购买产品时享受 10% 折扣的促销代码和链接。
 
-线下和线上的结合非常有用，因为有些客户虽然喜欢在线订购，但更倾向于通过纸质产品目录查看产品优惠。
+线下和线上的结合非常有用，因为有些客户虽然喜欢在线订购，但更倾向于通过纸质产品目录查看产品建议。
 
 下方提供了一个直邮模板示例供您参考。
 

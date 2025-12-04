@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 75%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL File listing]**&#x200B;操作时，此选项可用。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
+   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL File listing]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL General]**&#x200B;操作时，此选项可用。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
 
@@ -91,7 +92,7 @@ ht-degree: 75%
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;选项，然后选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项，然后选择所需的帐户并指定下载文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

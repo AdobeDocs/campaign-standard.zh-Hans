@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -24,18 +25,18 @@ ht-degree: 93%
 
 ![](assets/recurrentpaper.png)
 
-利用 **[!UICONTROL Direct mail delivery]** 活动，可配置和准备包含要用于直邮营销策划之用户档案数据的文件。这可以是只发送一次的直邮，也可以是定期直邮。
+利用 **[!UICONTROL Direct mail delivery]** 活动，可配置和准备包含要用于直邮营销策划之轮廓数据的文件。这可以是只发送一次的直邮，也可以是定期直邮。
 
 * **标准**&#x200B;直邮发送一次。
 * **定期**&#x200B;邮件允许您在定义的时间段内多次向不同目标发送相同的直邮。 您可以按时段聚合投放，以获得对应于您需求的报告。
 
 ## 使用环境 {#context-of-use}
 
-**[!UICONTROL Direct mail delivery]** 活动通常用于自动准备包含用户档案数据的文件。然后，可以将此文件发送给负责邮寄的合作伙伴/提供商。
+**[!UICONTROL Direct mail delivery]** 活动通常用于自动准备包含轮廓数据的文件。然后，可以将此文件发送给负责邮寄的合作伙伴/提供商。
 
 链接到调度程序时，您可以定义定期直邮。
 
-同一工作流中的上游活动，通过查询、交集之类的定向活动，定义了直邮的收件人。准备直邮时，未指定邮寄地址的用户档案将被自动排除。
+同一工作流中的上游活动，通过查询、交集之类的定向活动，定义了直邮的收件人。准备直邮时，未指定邮寄地址的轮廓将被自动排除。
 
 根据工作流执行参数，触发消息准备。在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认要求）。您可以手动启动工作流，或在工作流中放置调度程序活动以自动执行。
 
@@ -56,7 +57,7 @@ ht-degree: 93%
 1. 选择直邮发送模式：
 
    * **[!UICONTROL Direct mail]**：只发送一次直邮。您可以在此处指定是否向活动添加叫客过渡。此程序的第 7 步详细介绍了各种过渡类型。
-   * **[!UICONTROL Recurring direct mail]**：根据 **[!UICONTROL Scheduler]** 活动中定义的频度，多次发送直邮。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的直邮中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该直邮。
+   * **[!UICONTROL Recurring direct mail]**：根据 **[!UICONTROL Scheduler]** 活动中定义的频率，多次发送直邮。选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的直邮中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该直邮。
 
      例如，对于每天发送的定期生日邮件，您可以选择聚合每月的发送。这样，尽管每天都会发送生日邮件，但您可以按月接收投放报告。
 
@@ -70,7 +71,7 @@ ht-degree: 93%
 1. 默认情况下，**[!UICONTROL Direct mail delivery]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Direct mail delivery]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。此过渡包含直邮活动生成的文件，以及直邮活动中接收直邮的原始群体。
-   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收直邮的群体。在直邮准备期间被排除的目标成员（隔离、地址无效等）将从此过渡中排除。该过渡还包含由直邮生成的文件。
+   * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收直邮的群体。在直邮准备期间被排除的目标成员（隔离、地址无效等）将排除在此过渡之外。 该过渡还包含由直邮生成的文件。
 
 1. 确认活动的配置并保存工作流。
 

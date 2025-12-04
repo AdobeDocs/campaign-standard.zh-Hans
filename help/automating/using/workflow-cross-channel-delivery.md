@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -47,7 +48,7 @@ ht-degree: 84%
 
 创建工作流后，即可访问其界面。
 
-将查询活动插入您的工作流，以定向接收投放的用户档案。
+将查询活动插入您的工作流，以定向接收投放的轮廓。
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
@@ -59,7 +60,7 @@ ht-degree: 84%
 
 您可以基于一个或多个元素创建查询。
 
-使用 **[!UICONTROL Count]** 该按钮可查看通过查询定向之用户档案数量的估算值。
+使用 **[!UICONTROL Count]** 该按钮可查看通过查询定向之轮廓数量的估算值。
 
 ## 创建分段活动 {#creating-segmentation-activity}
 
@@ -69,7 +70,7 @@ ht-degree: 84%
 
 ![](assets/wkf_segment_activity.png)
 
-**电子邮件**&#x200B;组的目标是定义了电子邮件地址但没有手机号码的收件人。**短信**&#x200B;组则包含其用户档案中保存了手机号码的收件人。
+**电子邮件**&#x200B;组的目标是定义了电子邮件地址但没有手机号码的收件人。**短信**&#x200B;组则包含其轮廓中保存了手机号码的收件人。
 
 要配置第一个过渡（电子邮件），请执行以下步骤：
 
@@ -77,7 +78,7 @@ ht-degree: 84%
 
    ![](assets/wkf_segment_properties.png)
 
-1. 选择用户档案的 **[!UICONTROL Email]** 作为筛选条件。
+1. 选择轮廓的 **[!UICONTROL Email]** 作为筛选条件。
 
    ![](assets/wkf_segment_email.png)
 
@@ -89,7 +90,7 @@ ht-degree: 84%
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   所有来自查询的、拥有电子邮件地址但未定义手机号码的用户档案，都将被纳入到此过渡中。
+   所有来自查询的、拥有电子邮件地址但未定义手机号码的轮廓，都将被纳入到此过渡中。
 
 1. 要使工作流程更清晰，您可以编辑过渡标签。确认更改。
 
@@ -98,11 +99,11 @@ ht-degree: 84%
 第一个过渡配置完成。配置第二个过渡（短信）：
 
 1. 单击 **[!UICONTROL Add an element]** 按钮以添加一个新过渡。
-1. 定义一个条件，用于检索提供了手机号码的所有用户档案。要实现此目的，请使用 **[!UICONTROL Is not empty]** 逻辑运算符在 **[!UICONTROL Mobile]** 字段上创建规则。
+1. 定义一个条件，用于检索提供了手机号码的所有轮廓。要实现此目的，请使用 **[!UICONTROL Is not empty]** 逻辑运算符在 **[!UICONTROL Mobile]** 字段上创建规则。
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
-   来自查询的、所有拥有手机号码的用户档案，都将被纳入到此过渡中。
+   来自查询的、所有拥有手机号码的轮廓，都将被纳入到此过渡中。
 
 1. 您可以编辑过渡的标签。确认更改。
 

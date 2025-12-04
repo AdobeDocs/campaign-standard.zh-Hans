@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 76%
@@ -28,17 +29,17 @@ ht-degree: 76%
 
 ## 基于电子邮件属性定向 {#targeting-on-email-attributes}
 
-下方的示例显示了一个查询活动，该活动配置为定向电子邮件地址域为“orange.co.uk”的用户档案。
+下方的示例显示了一个查询活动，该活动配置为定向电子邮件地址域为“orange.co.uk”的轮廓。
 
 ![](assets/query_sample_emaildomain.png)
 
-下方的示例显示了一个查询活动，该活动配置为定向已提供电子邮件地址的用户档案。
+下方的示例显示了一个查询活动，该活动配置为定向已提供电子邮件地址的轮廓。
 
 ![](assets/query_sample_emailnotempty.png)
 
 ## 定向生日为今天的用户档案 {#targeting-profiles-whose-birthday-is-today}
 
-以下示例显示了一个查询活动，该活动配置为定向生日为今天的用户档案。
+以下示例显示了一个查询活动，该活动配置为定向生日为今天的轮廓。
 
 1. 将 **[!UICONTROL Birthday]** 过滤器拖动到查询中。
 
@@ -50,7 +51,7 @@ ht-degree: 76%
 
 ## 定向打开了特定投放的用户档案 {#targeting-profiles-who-opened-a-specific-delivery}
 
-以下示例显示了一个查询活动，该活动配置为筛选打开了标签为“Summer Time”之投放的用户档案。
+以下示例显示了一个查询活动，该活动配置为筛选打开了标签为“Summer Time”之投放的轮廓。
 
 1. 将 **[!UICONTROL Opened]** 过滤器拖动到查询中。
 
@@ -62,7 +63,7 @@ ht-degree: 76%
 
 ## 定向因特定原因投放失败的用户档案 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的用户档案。此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
+以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的轮廓。此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
 
 1. 选择 **[!UICONTROL Delivery logs]** 资源，以便直接在投放日志表中进行筛选（请参阅[使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)）。
 
@@ -78,7 +79,7 @@ ht-degree: 76%
 
 ## 定向过去7天内未联系的用户档案 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-以下示例显示了一个查询活动，该活动配置为筛选过去 7 天内未联系的用户档案。
+以下示例显示了一个查询活动，该活动配置为筛选过去 7 天内未联系的轮廓。
 
 1. 将 **[!UICONTROL Delivery logs (logs)]** 过滤器拖动到查询中。
 
