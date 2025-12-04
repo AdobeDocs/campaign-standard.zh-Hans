@@ -80,13 +80,13 @@ Adobe Campaign凭据是使用[Adobe I/O](https://www.adobe.io/)生成的。 您�
 
 * [关于 SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hans#sftp-management)
 
-* [SFTP 存储管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
+* [SFTP 存储管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hans#installing-ssh-key)
 
-* [添加IP范围](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
+* [添加IP范围](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=zh-Hans#sftp-management)
 
-* [管理密钥](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
+* [管理密钥](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hans#sftp-management)
 
-* [登录到您的SFTP服务器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
+* [登录到您的SFTP服务器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=zh-Hans#sftp-management)
 
 配置完成后，使用私钥登录SFTP服务器并创建目录“d365_loads/exports”。
 

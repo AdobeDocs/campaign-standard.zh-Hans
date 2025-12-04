@@ -31,7 +31,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 **相关主题：**
 
-* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)。
+* 了解不同类型的触发器：[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=zh-Hans)。
 * 观看[“根据网站活动触发再营销消息”](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)视频。
 * 了解两个[放弃触发器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 

@@ -50,7 +50,7 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了详细步骤。
+1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#decrypting-data)中提供了详细步骤。
 
    * 公共密钥将与外部系统共享，外部系统将使用它来加密要发送到Campaign的数据。
    * Campaign将使用私钥对传入的加密数据进行解密。
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了详细步骤。
+1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#encrypting-data)中提供了详细步骤。
 
    ![](assets/gpg_install.png)
 

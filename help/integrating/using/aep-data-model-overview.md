@@ -34,7 +34,7 @@ XDM Workspace提供了查看、创建和扩展数据架构的功能。
 
 要访问XDM用户界面，请打开Adobe Experience Platform。 导航到“数据模型”窗口以创建或扩展XDM架构。
 
-请参阅完整的[XDM Workspace文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+请参阅完整的[XDM Workspace文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +49,4 @@ XDM Workspace提供了查看、创建和扩展数据架构的功能。
 * 查看架构描述符
 * 创建、更新和删除架构描述符
 
-处理API调用的所有详细信息在[开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)中提供。
+处理API调用的所有详细信息在[开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)中提供。
