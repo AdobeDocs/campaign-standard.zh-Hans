@@ -92,7 +92,7 @@ ht-degree: 76%
 
 利用 SFTP 协议，可从 URL 或外部帐户开始下载文件。
 
-使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**选项，然后选择所需的帐户并指定下载文件的路径。
+使用此协议，您可以选择&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;选项，然后选择所需的帐户并指定下载文件的路径。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

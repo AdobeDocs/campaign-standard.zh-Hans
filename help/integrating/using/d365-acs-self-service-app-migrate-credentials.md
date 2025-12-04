@@ -31,7 +31,7 @@ ht-degree: 1%
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
+3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**&#x200B;以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
    ![](assets/JwtToOAuthMigration2.png)
 4. 新凭据&#x200B;**OAuth服务器到服务器**&#x200B;将添加到左侧导航中。
    * 如果要取消迁移，请单击取消迁移。
@@ -60,5 +60,5 @@ ht-degree: 1%
      ![](assets/JwtToOAuthMigration5.png)
    * 查看上次访问或上次使用菜单的时间戳，以验证集成应用程序是使用新的OAuth凭据生成访问令牌，还是仍使用旧的JWT凭据。
      ![](assets/JwtToOAuthMigration6.png)
-   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**按钮继续删除旧凭据，从而完成迁移。
+   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**&#x200B;按钮继续删除旧凭据，从而完成迁移。
      ![](assets/JwtToOAuthMigration7.png)

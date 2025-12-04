@@ -301,7 +301,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-##  数值 {#numerical}
+## 数值 {#numerical}
 
 数值函数用于将文本转换为数字。
 

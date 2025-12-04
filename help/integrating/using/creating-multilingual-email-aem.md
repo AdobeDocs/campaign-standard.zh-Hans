@@ -42,7 +42,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_3.png)
 
-1. 打开您的新电子邮件内容，并根据需要进行个性化设置。 有关详细信息，请参见此 [ 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
+1. 打开您的新电子邮件内容，并根据需要进行个性化设置。 有关详细信息，请参见此 [&#x200B; 页面](../../integrating/using/creating-email-experience-manager.md#editing-email-aem)。
 
    ![](assets/aem_acs_4.png)
 

@@ -68,7 +68,7 @@ Experience Manager中有七个现成的组件可供您开始使用：
 * **从模板中取消内容链接并重复使用这些内容。**
 
   在Campaign Standard中设置电子邮件并选择Experience Manager模板时，您只能选择尚未链接到其他营销策划的模板。 否则，如果您在Adobe Experience Manager中更改了一个营销活动的内容并刷新，则可能会无意中影响另一个营销活动中的内容。
-为了避免这种情况，一旦您完成了模板的使用，就可以取消其链接以再次使用。 您只需选择模板并单击**[!UICONTROL Delete the link with Adobe Experience Manager content]**&#x200B;即可。
+为了避免这种情况，一旦您完成了模板的使用，就可以取消其链接以再次使用。 您只需选择模板并单击&#x200B;**[!UICONTROL Delete the link with Adobe Experience Manager content]**&#x200B;即可。
 
 * **使用Adobe Experience Manager创建Adobe Campaign Standard的电子邮件变体。**
 
