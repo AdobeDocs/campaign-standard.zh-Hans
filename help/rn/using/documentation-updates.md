@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 �
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
-* Experience Cloud Triggers 的新用户界面现已可用。它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。 [了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
+* Experience Cloud Triggers 的新用户界面现已可用。它提供了一种直观的体验，用于管理消费者行为并个性化用户体验。[了解更多信息](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh_Hans){target="_blank"}。
 
 * 已添加有关将陷阱测试轮廓与筛选或疲劳规则结合使用的注释。[了解更多信息](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ Campaign Standard 22.3 2022 年秋/冬版的发行说明已发布。[了解更�
 
 ## 2022 年 3 月 {#doc-updates-march-2022}
 
-已添加注释，以指定使用用户档案替换发送校样会将记录添加到所选用户档案的日志。 [了解更多信息](../../sending/using/testing-messages-using-target.md)
+添加了注释，说明使用轮廓替换功能发送校样时，会向所选轮廓的日志中添加记录。[了解更多信息](../../sending/using/testing-messages-using-target.md)
 
 ## 22.1 版 - 2022 年 2 月 {#release-22-1}
 
@@ -353,7 +353,7 @@ Azure Blob 集成 - [了解更多](../../administration/using/external-accounts.
 
 ## 2020 年 3 月 {#doc-updates-march-2020}
 
-核心文档中添加了关于 Enhanced MTA 的更多详细信息，特别是关于电子邮件处理规则和退回邮件鉴定的信息。[了解更多](../../administration/using/configuring-email-channel.md#email-processing-rules)
+核心文档中添加了关于增强型 MTA 的更多详细信息，特别是关于电子邮件处理规则和退回电子邮件鉴定的信息。[了解更多](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 移动并更新了“通过电子邮件密送进行归档”的专述章节。[了解更多](../../sending/using/archiving.md)
 
@@ -589,7 +589,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于动态报告的指标计算章节。[了解更多](../../reporting/using/indicator-calculation.md)
 
-添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hans)
+添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 更新了工作流的功能列表。[了解更多](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../..
 
 添加了关于如何准备投放的分步使用案例。[了解更多](../../sending/using/preparing-the-send.md)
 
-删除了包含授权列表的章节。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans) (PDF)。
+删除了包含授权列表的章节。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 添加了关于如何使用短信自动回复的分步使用案例。[了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。[阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+修改了授权表，使某些角色的职能更加清晰。[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
