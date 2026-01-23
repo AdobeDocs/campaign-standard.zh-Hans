@@ -81,4 +81,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [&#x200B; Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
