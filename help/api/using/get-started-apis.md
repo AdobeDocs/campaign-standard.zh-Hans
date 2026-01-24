@@ -51,4 +51,4 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 本文档中对所有端点进行了详尽的描述，其中包含您应当了解的关于操作 API、完整 API 引用、代码示例和快速入门指南的一般概念。
 
-如果有任何内容缺失或错误，请咨询[社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
+如果有任何内容缺失或错误，请咨询[社区](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)。

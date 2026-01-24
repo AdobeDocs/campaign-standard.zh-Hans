@@ -83,7 +83,7 @@ Adobe Campaign 提供两种类型的推送通知：
 * [视频Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=zh-Hans)
 * [产品文档](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK [文档进行配置](../../administration/using/configuring-a-mobile-application.md)
-* [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
 
 ### 在Campaign中必须执行哪些操作才能获取推送令牌？ {#push-token-acquisition}
 
