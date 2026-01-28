@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign 是一款用于收集和处理超大量数据（包括个人信�
 * [DPA](https://www.gov.uk/data-protection)（英国的 GDPR 实施）
 * [欧洲隐私和电子通信指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)（规定商业电子邮件规则和要求的美国法律）
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（加州消费者隐私法案）
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)（加州消费者隐私法案）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（泰国个人数据保护法案）
 
 >[!NOTE]
@@ -103,11 +103,11 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。Campaign �
 隐私管理是指可帮助您遵守隐私法规（GDPR 和 CCPA 等）的所有流程和工具。在[此页面](../../start/using/privacy-management.md#privacy-management-regulations)上获取隐私管理概念的概述。
 
 Adobe Campaign 为您提供专门用于隐私管理的各种功能集：
-* 同意管理、数据保留和用户角色。请参阅[此章节](#consent)。
-* 隐私请求（访问权和被遗忘权）。请参阅[此章节](#privacy-requests)。
-* 选择退出个人信息销售（特定于 CCPA）请参阅[此章节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+* 同意管理、数据保留和用户角色。请参阅[此小节](#consent)。
+* 隐私请求（访问权和被遗忘权）。请参阅[此小节](#privacy-requests)。
+* 选择退出个人信息销售（特定于 CCPA）请参阅[此小节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
-[此部分](#personal-data)中介绍 Campaign 中的主要隐私功能以及所涉及角色的示例。
+[此部分](#personal-data)介绍了 Campaign 的主要隐私功能以及所涉及用户画像的示例。
 
 
 ### 同意、保留和角色 {#consent}

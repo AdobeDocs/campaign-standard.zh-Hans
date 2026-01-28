@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 * **Cookie 过期** - 为遵守法国数据保护局 (CNIL) 的要求，默认 Cookie 过期时间现在设置为 6 个月。
 
-* **配置文件搜索改进**  - 配置文件搜索已优化，因此可以减少搜索超时情况
+* **轮廓搜索改进**  - 轮廓搜索已优化，因此可以减少搜索超时情况
 
-* **本地化** - 在提及一组旨在接收消息的配置文件时，“受众”一词的翻译在以下语言的所有数字体验产品中都得到了统一：
+* **本地化** - 在提及一组旨在接收消息的轮廓时，“受众”一词的翻译在以下语言的所有数字体验产品中都得到了统一：
 
    * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo

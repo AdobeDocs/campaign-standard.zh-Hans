@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Adobe Campaign 功能帮助您遵守以下法规：
    * https://www.adobe.com/cn/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **CCPA**（[加州消费者隐私法案](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）为加利福尼亚州居民提供与其个人信息有关的新权利，并要求在加利福尼亚开展业务的特定实体承担数据保护责任。
+* **CCPA**（[加州消费者隐私法案](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)）为加利福尼亚州居民提供与其个人信息有关的新权利，并要求在加利福尼亚开展业务的特定实体承担数据保护责任。
 * **PDPA**（[个人数据保护法案](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）是一项新的隐私法律，旨在协调泰国的数据保护要求并使之现代化。
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) 将从 2021 年初生效，适用于巴西境内所有收集或处理个人数据的公司。
 
@@ -94,7 +94,7 @@ Adobe Campaign 的核心自始至终便是用于帮助管理同意的某些方�
 
 有关同意管理的更多信息，请参阅[关于订阅](../../audiences/using/about-subscriptions.md)和[登陆页入门](../../channels/using/getting-started-with-landing-pages.md)。
 
-除了 Adobe Campaign 提供的同意管理工具外，您还可能会跟踪消费者是否已选择退出个人信息销售。请参阅[此章节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+除了 Adobe Campaign 提供的同意管理工具外，您还可能会跟踪消费者是否已选择退出个人信息销售。请参阅[此小节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 ### 权限管理 {#rights-management}
 

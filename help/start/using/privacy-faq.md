@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Adobe Campaign 已经提供通过自定义数据字段或通过一个或多个�
 
 技术上，链接到 `integrity="own"` 的数据主体的所有数据都将删除。
 
-作为数据控制者，您可以选择通过更改数据模式中定义的链接的完整性来自定义此数据（例如，如果您有业务理由不删除某些数据）。
+作为数据控制者，您可以选择通过更改数据架构中定义的链接的完整性来自定义此数据（例如，如果您有业务理由不删除某些数据）。
 
 **删除投放和跟踪日志后报告会受到什么影响？**
 

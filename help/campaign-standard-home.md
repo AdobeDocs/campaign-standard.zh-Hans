@@ -22,7 +22,7 @@ ht-degree: 100%
 
 我们很高兴地宣布，Adobe Campaign Standard 用户现在有资格过渡到 Adobe Campaign Managed Cloud Services v8。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB Campaign 25.1 版已上线！]
 
