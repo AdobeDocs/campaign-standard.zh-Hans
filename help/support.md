@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ### 询问专家！
 
-加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
 
 ### 创建工单或开始聊天
 
