@@ -1,14 +1,14 @@
 ---
 title: 配置移动应用程序
-description: 了解如何使用Experience PlatformSDK配置Adobe Campaign以发送推送通知或应用程序内消息
+description: 了解如何使用Experience Platform SDK配置Adobe Campaign以发送推送通知或应用程序内消息
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
+source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans){target="_blank"}。
+> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
 
 请注意，推送通知和应用程序内实施必须由专家用户执行。 要获取帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
-要使用Experience PlatformSDK应用程序发送推送通知和应用程序内消息，必须在数据收集UI中设置移动应用程序，并在Adobe Campaign中进行配置。
+要使用Experience Platform SDK应用程序发送推送通知和应用程序内消息，必须在数据收集UI中设置移动应用程序，并在Adobe Campaign中进行配置。
 
 设置移动应用程序后，您可以检索它收集的PII数据，以从数据库创建或更新用户档案。 有关详细信息，请参阅此部分：[基于移动应用程序数据创建和更新用户档案信息](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
@@ -40,10 +40,10 @@ ht-degree: 2%
 
 1. 检查您的用户是否拥有Adobe Campaign Standard和Adobe Experience Platform中的标记的必要权限。
 
-   * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航至Experience PlatformSDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
+   * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience Platform SDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
-此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
+此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
 
    要完成其他任务，例如安装扩展、发布应用程序、配置环境等，您需要在产品配置文件中设置权限。
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 1. 在数据收集UI中，单击&#x200B;**[!UICONTROL Extensions]**&#x200B;选项卡，转到&#x200B;**[!UICONTROL Catalog]**，然后搜索&#x200B;**[!UICONTROL Adobe Campaign Standard]**&#x200B;扩展。 有关详细信息，请参阅[Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
-1. 要在Campaign Standard中支持位置用例，请在数据收集UI中安装&#x200B;**[!UICONTROL Places]**&#x200B;扩展。 请参阅此[页面](https://developer.adobe.com/client-sdks/solution/places)。
+1. 要在Campaign Standard中支持位置用例，请在数据收集UI中安装&#x200B;**[!UICONTROL Places]**&#x200B;扩展。 请参见[此页面](https://developer.adobe.com/client-sdks/solution/places)。
 
 1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 请参阅[在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 1. 要使此配置生效，更改需要在数据收集UI中发布。
 
-   有关详细信息，请参阅[Publish配置](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   有关详细信息，请参阅[发布配置](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaign中特定于渠道的应用程序配置 {#channel-specific-config}
 
@@ -149,26 +149,26 @@ ht-degree: 2%
 
 1. 在移动应用程序仪表板的&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;部分中，为每个设备提供应用程序详细信息。
 
-   +++*  适用于iOS的
+   +++ 适用于iOS的
 
-     输入以下应用程序详细信息：
+   输入以下应用程序详细信息：
 
-      * **应用程序ID (iOS捆绑包ID)**：有关捆绑包ID的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
-      * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的[Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create){target="_blank"}。
-      * **密钥ID**：有关密钥ID的详细信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
-      * **iOS团队ID**：有关iOS团队ID的更多信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
+   * **应用程序ID (iOS捆绑包ID)**：有关捆绑包ID的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
+   * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的[Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create){target="_blank"}。
+   * **密钥ID**：有关密钥ID的详细信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
+   * **iOS团队ID**：有关Apple团队ID的更多信息，请参阅[iOS文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
-        ![](assets/mobile_app_ios_config.png)
-   +++
+         ！[](assets/mobile_app_ios_config.png)
+     +++
 
-   +++*  适用于Android的
+   +++ 适用于Android的
 
-     输入以下应用程序详细信息：
+   输入以下应用程序详细信息：
 
-      * **应用程序ID (Android包名称)**：有关包名称的详细信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
-      * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅[Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
+   * **应用程序ID (Android包名称)**：有关包名称的详细信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
+   * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅[Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
 
-        ![](assets/mobile_app_android_config.png)
+     ![](assets/mobile_app_android_config.png)
    +++
 
 1. 上传证书后，将显示一条消息，通知您上传成功并显示证书的到期日期。
