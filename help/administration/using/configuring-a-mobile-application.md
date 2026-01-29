@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -158,7 +158,7 @@ ht-degree: 2%
    * **密钥ID**：有关密钥ID的详细信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
    * **iOS团队ID**：有关Apple团队ID的更多信息，请参阅[iOS文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
-         ！[](assets/mobile_app_ios_config.png)
+         ！[&#128279;](assets/mobile_app_ios_config.png)
      +++
 
    +++ 适用于Android的
