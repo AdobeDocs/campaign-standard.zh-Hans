@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 * 定期验证退回邮箱是否可访问，以及帐户是否即将过期。
 * 检查每个投放吞吐量，确保其与投放内容的有效性一致（例如，“闪购”应在几分钟内投放，而不是几天）。
 * 检查错误和新隔离的数量是否与其他投放一致。
-* 请仔细查阅投放日志，详细检查突出显示的错误类型(阻止列表、DNS问题、反垃圾邮件规则等)。
+* 请仔细查阅投放日志，详细检查突出显示的错误类型（阻止列表、DNS问题、反垃圾邮件规则等）。
 
 ## 投放吞吐量 {#delivery-throughput}
 
@@ -53,7 +53,8 @@ ht-degree: 9%
 
 有关详细信息，请参阅[在失败时接收警报](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-<!--## External tools (#external-tools)
+<!--
+## External tools (#external-tools)
 
 ### Signal Spam {#signal-spam}
 
@@ -67,4 +68,5 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+-->

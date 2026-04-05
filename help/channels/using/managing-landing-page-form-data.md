@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 14%
@@ -60,7 +60,7 @@ ht-degree: 14%
    >
    >登陆页面只能映射到&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。
 
-   在此示例中，将登陆页面的&#x200B;**Name**&#x200B;字段映射到&#x200B;**[!UICONTROL Profiles]**&#x200B;资源的&#x200B;**[!UICONTROL Last name]**&#x200B;字段。
+   在此示例中，将登陆页面的&#x200B;**Name**&#x200B;字段映射到&#x200B;**[!UICONTROL Last name]**&#x200B;资源的&#x200B;**[!UICONTROL Profiles]**&#x200B;字段。
 
    ![](assets/lp_database-field-example.png)
 
@@ -156,9 +156,11 @@ ht-degree: 14%
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. 确保选中复选框。
 
@@ -172,7 +174,7 @@ ht-degree: 14%
    >
    >**[!UICONTROL Agreement]**&#x200B;元素未映射到Campaign数据库的字段。
 
-1. 单击&#x200B;**[!UICONTROL Form data]**&#x200B;旁边的![](assets/lp-properties-icon.png)图标以访问复选框高级属性。
+1. 单击![](assets/lp-properties-icon.png)旁边的&#x200B;**[!UICONTROL Form data]**&#x200B;图标以访问复选框高级属性。
 
 1. 您可以根据需要编辑消息。
 

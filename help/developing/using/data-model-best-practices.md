@@ -9,9 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,15 @@ Adobe Campaign Standard是一款功能强大的跨渠道活动管理系统，可
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### Adobe Campaign的数据 {#data-for-campaign}
 
@@ -76,7 +78,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 ### 数据类型 {#data-types}
 
 要确保良好的体系结构和系统性能，请遵循以下最佳实践在Adobe Campaign中设置数据：
-* 字符串字段的长度应始终使用列进行定义。 默认情况下，Adobe Campaign中的最大长度为255个字符，但是Adobe建议，如果您已经知道大小不会超过更短的长度，则保持字段更短。
+* 字符串字段的长度应始终使用列进行定义。 默认情况下，Adobe Campaign中的最大长度为255个字符，但是Adobe建议，如果您已经知道字段的大小不会超过更短的长度，请缩短该字段。
 * 如果您确定源系统中的字段大小被高估而无法达到，则可以接受Adobe Campaign中的字段比源系统中的字段更短。 这可能意味着Adobe Campaign中的字符串长度更短，整数更小。
 
 ## 配置数据结构 {#configuring-data-structure}
@@ -96,7 +98,7 @@ Adobe Campaign资源具有三个标识符，可以添加额外的标识符。
 | 显示名称 | 技术名称 | 说明 | 最佳实践 |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>PKey是Adobe Campaign表的物理主键。</li><li>此标识符通常特定于特定的Adobe Campaign实例。</li><li>在Adobe Campaign Standard中，该值对最终用户不可见（在URL中除外）。</li></ul> | <ul><li>通过[API系统](../../api/using/get-started-apis.md)，可以检索PKey值（这是生成/散列值，而不是物理密钥）。</li><li>除通过API检索、更新或删除记录外，建议不要将其用于其他目的。</li></ul> |
-| ID | name或internalName | <ul><li>此信息是表中记录的唯一标识符。 此值可手动更新。</li><li>当部署在Adobe Campaign的其他实例中时，此标识符保持其值。 其名称必须与生成的值不同，才能通过包导出。</li><li>这不是表的实际主键。</li></ul> | <ul><li>请勿使用空格“ ”、半列“：”或连字符“ — ”等特殊字符。</li><li>所有这些字符都将替换为下划线“_”（允许的字符）。 例如，“abc-def”和“abc：def”将存储为“abc_def”并相互覆盖。</li></ul> |
+| ID | name或internalName | <ul><li>此信息是表中记录的唯一标识符。 此值可手动更新。</li><li>当部署在Adobe Campaign的其他实例中时，此标识符保持其值。 其名称必须与生成的值不同，才能通过包导出。</li><li>这不是表的实际主键。</li></ul> | <ul><li>请勿使用空格“ ”、半列“：”或连字符“ — ”等特殊字符。</li><li>所有这些字符都将替换为下划线“_”（允许的字符）。 例如，“abc-def”和“abc:def”将存储为“abc_def”并相互覆盖。</li></ul> |
 | 标签 | 标签 | <ul><li>标签是Adobe Campaign中对象或记录的业务标识符。</li><li>此对象允许使用空格和特殊字符。</li><li>它不能保证记录的唯一性。</li></ul> | <ul><li>建议确定对象标签的结构。</li><li>这是用于为Adobe Campaign用户标识记录或对象的最用户友好的解决方案。</li></ul> |
 | ACS ID | acsId | <ul><li>可以生成附加标识符： [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>由于PKey无法在Adobe Campaign用户界面中使用，因此这是一种解决方案，可用于获取在插入个人资料记录期间生成的唯一值。</li><li>只有在将记录插入Adobe Campaign之前在资源中启用了该选项，才能自动生成该值。</li></ul> | <ul><li>此UUID可用作协调密钥。</li><li>自动生成的ACS ID不能用作工作流或包定义中的引用。</li><li>此值特定于Adobe Campaign实例。</li></ul> |
 
@@ -104,11 +106,13 @@ Adobe Campaign资源具有三个标识符，可以添加额外的标识符。
 
 在Adobe Campaign中创建的每个资源都必须至少具有一个唯一的[标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 创建自定义资源时，您有两个选项：
 
@@ -127,9 +131,11 @@ Adobe Campaign自动将[索引](../../developing/using/configuring-the-resource-
 * 但是，不要添加太多索引，因为它们会占用数据库的空间。 大量索引也可能对性能产生负面影响。
 * 仔细选择需要定义的索引。
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### 链接 {#links}
 

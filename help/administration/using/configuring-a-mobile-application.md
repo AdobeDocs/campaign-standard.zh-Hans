@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans){target="_blank"}。
+> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
 
 请注意，推送通知和应用程序内实施必须由专家用户执行。 要获取帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
@@ -43,7 +43,7 @@ ht-degree: 2%
    * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience Platform SDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
-此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
+此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
 
    要完成其他任务，例如安装扩展、发布应用程序、配置环境等，您需要在产品配置文件中设置权限。
 
@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -153,19 +153,19 @@ ht-degree: 2%
 
    输入以下应用程序详细信息：
 
-   * **应用程序ID (iOS捆绑包ID)**：有关捆绑包ID的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
+   * **应用程序ID （iOS捆绑包ID）**：有关捆绑包ID的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
    * **iOS证书(P8)文件**：拖放您的.p8身份验证密钥。 有关如何生成.p8身份验证文件的说明，请参阅您的[Apple开发人员帐户](https://developer.apple.com/account/ios/authkey/create){target="_blank"}。
    * **密钥ID**：有关密钥ID的详细信息，请参阅[Apple文档](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
    * **iOS团队ID**：有关Apple团队ID的更多信息，请参阅[iOS文档](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
-         ！[&#128279;](assets/mobile_app_ios_config.png)
-     +++
+     ![](assets/mobile_app_ios_config.png)
+   +++
 
    +++ 适用于Android的
 
    输入以下应用程序详细信息：
 
-   * **应用程序ID (Android包名称)**：有关包名称的详细信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
+   * **应用程序ID （Android包名称）**：有关包名称的详细信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
    * **Android密钥(Json)文件**：拖放您的.json私钥文件。 有关如何生成.json私钥文件的说明，请参阅[Firebase开发人员文档](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
 
      ![](assets/mobile_app_android_config.png)

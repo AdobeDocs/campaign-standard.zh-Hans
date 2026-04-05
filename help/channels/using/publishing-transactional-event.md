@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -68,7 +68,7 @@ ht-degree: 6%
    >
    >为了让事件触发发送事务型消息，您必须修改并发布刚刚创建的消息。 请参阅[编辑](../../channels/using/editing-transactional-message.md)和[发布事务型消息](../../channels/using/publishing-transactional-message.md)部分。 您还必须[将此触发器事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)集成到您的网站。
 
-1. 在Adobe Campaign开始接收与此事件配置相关的事件后，您可以单击&#x200B;**[!UICONTROL History]**&#x200B;部分下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;链接以访问由您的第三方服务发送并由Adobe Campaign处理的最新事件。
+1. 在Adobe Campaign开始接收与此事件配置相关的事件后，您可以单击&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;部分下的&#x200B;**[!UICONTROL History]**&#x200B;链接以访问由您的第三方服务发送并由Adobe Campaign处理的最新事件。
 
 ![](assets/message-center_latest-events.png)
 
@@ -88,13 +88,15 @@ ht-degree: 6%
 
 单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以生成新的REST API。
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## 删除事件 {#deleting-an-event}
 

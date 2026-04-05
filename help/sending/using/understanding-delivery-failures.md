@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -27,7 +27,7 @@ ht-degree: 59%
 >
 >**短信**&#x200B;错误消息（或“状态报告”的“SR”）由 MTA 进行鉴别。
 
-列入阻止列表如果地址被隔离或用户档案处于状态，也可以在投放准备期间排除消息。 排除的消息列在投放仪表板的 **[!UICONTROL Exclusion logs]** 选项卡中（请参 阅[此章节](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
+如果地址被隔离或用户档案处于状态，也可以在投放准备期间排除消息。 排除的消息列在投放仪表板的 **[!UICONTROL Exclusion logs]** 选项卡中（请参 阅[此章节](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
 
 ![](assets/exclusion_logs.png)
 
@@ -35,15 +35,15 @@ ht-degree: 59%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)
+* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
-发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[&#x200B; 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
+发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[ 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
 
 ![](assets/sending_logs.png)
 
-此外，还提供了专门的现成报告。该报告会详细描述在投放期间遇到的整体硬错误和软错误，以及退回的自动处理。有关更多信息，请参阅[此章节](../../reporting/using/bounce-summary.md)。
+此外，还提供了专门的现成报告。该报告会详细描述在投放期间遇到的整体硬错误和软错误，以及退回的自动处理。如需详细信息，请参阅[此小节](../../reporting/using/bounce-summary.md)。
 
 ## 投放失败类型和原因 {#delivery-failure-types-and-reasons}
 
@@ -75,8 +75,8 @@ ht-degree: 59%
 
 
 **相关主题：**
-* [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#hard-bounces)
-* [软退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#soft-bounces)
+* [硬退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,7 +90,7 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**现在，Campaign 投放中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
+>**现在，Campaign 投放中的&#x200B;**[!UICONTROL Delivery duration]**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
 
 例如，如果希望重试在一天后停止投放，您可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息在一天后将被删除。
 
@@ -98,8 +98,10 @@ ht-degree: 59%
 >
 >消息在重试队列中最多停留3.5天且投放失败后，该消息将超时，其状态将在<!--from **[!UICONTROL Sent]**-->投放日志&#x200B;**[!UICONTROL Failed]**&#x200B;中更新[至](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+-->
 
 ## 同步和异步错误 {#synchronous-and-asynchronous-errors}
 
@@ -118,9 +120,10 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)。
+有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
 Bounces can have the following qualification statuses:
 
@@ -130,7 +133,8 @@ Bounces can have the following qualification statuses:
 
 To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-![](assets/qualification.png)-->
+![](assets/qualification.png)
+-->
 
 ## 使用双重选择加入机制优化电子邮件投放能力 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 

@@ -3,13 +3,13 @@ title: 优化消息投放
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 了解如何保护和优化上游发送流程。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 4%
@@ -32,9 +32,9 @@ ht-degree: 4%
 
   **提示** — 要避免这种情况，请与团队的其他成员协调投放计划，以确保最佳性能。
 
-* [工作流执行](../../automating/using/about-workflow-execution.md)：监视您的工作流对于避免平台性能问题至关重要。 遵循此页面[&#128279;](../../automating/using/monitoring-workflow-execution.md)中列出的准则。 在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解详情。
+* [工作流执行](../../automating/using/about-workflow-execution.md)：监视您的工作流对于避免平台性能问题至关重要。 遵循此页面[中列出的准则](../../automating/using/monitoring-workflow-execution.md)。 在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解详情。
 
-* 您可以使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)来监控您的平台。
+* 您可以使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans)来监控您的平台。
 
 ## 正在检查网络配置 {#network-config}
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
    * 在检查电子邮件的可投放性时，您需要重点关注四个主要类别：数据质量、邮件和内容、发送基础架构和信誉。 有关此主题的更深入探讨，请参阅[此部分](../../sending/using/about-deliverability.md)。
 
-* 启动新平台时，请应用[此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=zh-Hans#transition-process)上详述的建议。
+* 启动新平台时，请应用[此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上详述的建议。
 
 * 请联系您的Adobe代表寻求帮助。
 
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ## 双重选择加入机制 {#double-opt-in}
 
-为避免将消息发送到无效地址、限制不当通信并提高发件人信誉，Adobe建议对订阅后确认实施双重选择加入机制。 这有助于确保收件人有意订阅。
+为避免向无效地址发送消息、限制不当通信并提高发件人信誉，Adobe建议对订阅后确认实施双重选择加入机制。 这有助于确保收件人有意订阅。
 
 [此部分](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中概述了实现此机制的详细信息。
 

@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 035fa1ab4703d5511bdd1bbdbf2585f893b9d787
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -34,19 +34,25 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
   <tr>
    <th> 环境 </th>
    <th> 日期</th>
-   <!--th> General Availability </th-->
+   <!--
+   <th> General Availability </th>
+   -->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>暂存 </td>
    <td>8 月 </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
   <tr>
    <td>生产 </td>
    <td>9 月 </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
  </tbody>
 </table>
@@ -81,4 +87,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [&#x200B; Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -105,7 +105,7 @@ ht-degree: 3%
 
 可以使用扩展&#x200B;**[!UICONTROL Profile and services Ext API]**&#x200B;中的信息来扩充事务性消息内容。 有关详细信息，请参阅[扩展API：发布扩展](../../developing/using/step-2-publish-the-extension.md)
 
-此信息也可以存储在新资源中。 在这种情况下，必须直接或通过其他表将该资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。 例如，在下面的配置中，如果&#x200B;**[!UICONTROL Product]**&#x200B;资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;资源，则可以使用来自&#x200B;**[!UICONTROL Product]**&#x200B;资源（如产品类别或ID）的信息扩充事务型消息内容。
+此信息也可以存储在新资源中。 在这种情况下，必须直接或通过其他表将该资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。 例如，在下面的配置中，如果&#x200B;**[!UICONTROL Product]**&#x200B;资源链接到&#x200B;**[!UICONTROL Product]**&#x200B;资源，则可以使用来自&#x200B;**[!UICONTROL Profile]**&#x200B;资源（如产品类别或ID）的信息扩充事务型消息内容。
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -175,7 +175,7 @@ ht-degree: 3%
 
 ### 基于事件的事务型消息 {#event-based-transactional-messages}
 
-您可以发送定向某个事件的事件事务型消息。此类事务型消息不包含用户档案信息：根据事件本身包含的数据定义投放目标。
+您可以发送定向某个事件的事件事务型消息。此类事务型消息不包含轮廓信息：根据事件本身包含的数据定义投放目标。
 
 要发送基于事件的事务型消息，您首先需要创建并配置针对事件本身所包含&#x200B;**数据的事件**。
 
@@ -215,7 +215,8 @@ ht-degree: 3%
 
 1. 将事件集成到您的网站（请参阅[集成触发的事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)）。
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -223,7 +224,8 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### 事务性推送通知 {#transactional-push-notifications}
 

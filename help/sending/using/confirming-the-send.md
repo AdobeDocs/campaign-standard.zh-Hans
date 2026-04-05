@@ -9,7 +9,7 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 16%
@@ -22,9 +22,11 @@ ht-degree: 16%
 
 只有具有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的用户才能确认发送。 有关更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## 正在发送消息 {#sending-message}
 
@@ -69,7 +71,7 @@ ht-degree: 16%
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新时间过长或未反映来自发送日志的结果，请单击&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮。
+如果KPI更新时间过长或未反映来自发送日志的结果，请单击&#x200B;**[!UICONTROL Compute stats]**&#x200B;窗口中的&#x200B;**[!UICONTROL Deployment]**&#x200B;按钮。
 
 ![](assets/sending_delivery7.png)
 
@@ -88,11 +90,11 @@ ht-degree: 16%
 
 在每封电子邮件的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，**[!UICONTROL Delivered]**&#x200B;百分比从100%开始，然后在投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)内逐步下降，因为软退信和硬退信会被报告回<!--from the Enhanced MTA to Campaign-->。
 
-事实上，一旦消息从Campaign成功中继到增强型MTA（消息传输代理），则所有消息在[发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)中都会显示为&#x200B;**[!UICONTROL Sent]**。 除非或直到该消息的[退回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从Enhanced MTA传回Campaign，否则它们将保持该状态。
+事实上，一旦消息从Campaign成功中继到增强型MTA（消息传输代理），则所有消息在&#x200B;**[!UICONTROL Sent]**&#x200B;发送日志[中都会显示为](../../sending/using/monitoring-a-delivery.md#sending-logs)。 除非或直到该消息的[退回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从Enhanced MTA传回Campaign，否则它们将保持该状态。
 
 当从增强型MTA报告硬退回邮件时，其状态从&#x200B;**[!UICONTROL Sent]**&#x200B;更改为&#x200B;**[!UICONTROL Failed]**，**[!UICONTROL Delivered]**&#x200B;百分比相应减少。
 
-从Enhanced MTA报告软退回邮件时，它们仍显示为&#x200B;**[!UICONTROL Sent]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，软退回邮件在投放有效期内将重试[&#128279;](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
+从Enhanced MTA报告软退回邮件时，它们仍显示为&#x200B;**[!UICONTROL Sent]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，软退回邮件在投放有效期内将重试[](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
 
 * 如果在有效期结束前重试成功，则消息状态将保留为&#x200B;**[!UICONTROL Sent]**，**[!UICONTROL Delivered]**&#x200B;百分比将保持不变。
 
@@ -143,17 +145,17 @@ ht-degree: 16%
 | 发送过程中的步骤 | KPI摘要 | 发送日志状态 |
 |--- |--- |--- |
 | 消息已成功从Campaign中继到增强型MTA | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比从0%开始</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比从0%开始</li></ul> | 待处理 |
-| 从Enhanced MTA返回硬退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 已失败 |
-| 从Enhanced MTA返回软退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 已失败 |
+| 从Enhanced MTA返回硬退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 失败 |
+| 从Enhanced MTA返回软退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 失败 |
 | 软退回消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比将相应增加</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应减少</li></ul> | 已发送 |
-| 软退回消息重试失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比无变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比无变化 </li></ul> | 已失败 |
+| 软退回消息重试失败 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比无变化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比无变化 </li></ul> | 失败 |
 
 **没有电子邮件反馈服务**
 
 | 发送过程中的步骤 | KPI摘要 | 发送日志状态 |
 |--- |--- |--- |
 | 消息已成功从Campaign中继到增强型MTA | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比从100%开始</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比从0%开始</li></ul> | 已发送 |
-| 从Enhanced MTA返回硬退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比将相应减少</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 已失败 |
+| 从Enhanced MTA返回硬退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比将相应减少</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 失败 |
 | 从Enhanced MTA返回软退回消息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比无变化</li></ul> | 已发送 |
 | 软退回消息重试成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比无变化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比无变化</li></ul> | 已发送 |
-| 软退回消息重试失败 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比将相应减少</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 已失败 |
+| 软退回消息重试失败 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比将相应减少</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比将相应增加</li></ul> | 失败 |

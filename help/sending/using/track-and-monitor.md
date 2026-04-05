@@ -3,13 +3,13 @@ title: 跟踪和监控消息
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 了解Adobe Campaign如何让您跟踪已发送的消息，并了解收件人如何对您的投放做出反应
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## 动态报告 {#dyn-reports}
 
-动态报告允许您创建完全可自定义的实时报告来监控活动。 通过Dimension、量度和可视化图表，您可以衡量营销活动对收件人的影响和成功。
+动态报告允许您创建完全可自定义的实时报告来监控活动。 通过维度、量度和可视化图表，您可以衡量营销活动对收件人的影响和成功。
 
 **提示** — 您可以使用内置报告来监视营销活动，但也可以通过将任何量度或维度拖放到报告中来自定义这些报告。
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ## 热门点击
 
-“热门点击”报表显示消息内容(HTML和/或文本)以及每个链接上的点击百分比。 通过显示每个动态内容的点击百分比，您可以测量哪些内容对收件人最具吸引力。
+“热门点击”报表显示消息内容（HTML和/或文本）以及每个链接上的点击百分比。 通过显示每个动态内容的点击百分比，您可以测量哪些内容对收件人最具吸引力。
 
 有关详细信息，请参阅[点击式报告](../../reporting/using/hot-clicks.md)。
 

@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2748'
 ht-degree: 57%
 
 ---
@@ -32,7 +32,7 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
    * 发件人地址和错误地址均由 Adobe 设置。这些字段不能为空。
    * 您无法编辑这些字段。要更新地址，请与 Adobe 客户关怀团队联系。
    * 要添加其他地址，您可以使用[促销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans)来设置新的子域，或与Adobe客户关怀团队联系。 请注意，如果使用多个掩码，则它们之间用逗号分隔。
-   * 使用星号(如&#x200B;**@yourdomain.com**)设置地址是很好的做法：它允许您使用以子域名结尾的任何地址。
+   * 使用星号（如&#x200B;**@yourdomain.com**）设置地址是很好的做法：它允许您使用以子域名结尾的任何地址。
 
 * **可投放性**
 
@@ -93,9 +93,11 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 * **DKIM (DomainKeys Indified Mail)**&#x200B;电子邮件身份验证签名已针对所有域的所有邮件完成。 它未使用&#x200B;**发件人ID**、**DomainKeys**&#x200B;或&#x200B;**S/MIME**&#x200B;进行签名。
 * MX规则根据您自己的历史电子邮件信誉以及来自您发送电子邮件的域名的实时反馈，按域自动自定义您的吞吐量。
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ### 退回电子邮件 {#bounce-mails}
 
@@ -107,9 +109,10 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 >
 >同步投放失败错误消息现在由Adobe Campaign Enhanced MTA进行鉴别，该MTA确定退回类型和鉴别，并将该信息发回至Campaign。
 
-有关退回邮件鉴别的更多信息，请参阅[此章节](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
+有关退回电子邮件鉴定的更多信息，请参阅[此章节](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,7 +124,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## 电子邮件属性列表 {#list-of-email-properties}
 
@@ -169,7 +173,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 您可以配置待发送电子邮件的格式。提供了三个选项：
 
-* **使用收件人首选项** （默认模式）：根据收件人用户档案中存储的数据（默认存储在 **Email format** 字段 (@emailFormat) 中）定义消息格式。如果收件人希望以特定格式接收消息，则会将该格式用于发送的邮件。如果未填写该字段，则会发送 multipart-alternative 消息（请参阅下文）。
+* **使用收件人首选项** （默认模式）：根据收件人轮廓中存储的数据（默认存储在 **Email format** 字段 (@emailFormat) 中）定义消息格式。如果收件人希望以特定格式接收消息，则会将该格式用于发送的邮件。如果未填写该字段，则会发送 multipart-alternative 消息（请参阅下文）。
 * **让收件人邮件客户端选择最合适的格式 (multipart-alternative)**：该消息包含两种格式：文本和 HTML。接收时显示的格式取决于收件人邮件软件的配置 (multipart-alternative)。
 
   >[!IMPORTANT]
@@ -248,11 +252,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ![](assets/advancedparameters.png)
 
-有关插入和使用个性化内容的详细信息，请参阅[&#128279;](../../designing/using/personalization.md)个性化电子邮件内容文档。
+有关插入和使用个性化内容的详细信息，请参阅](../../designing/using/personalization.md)个性化电子邮件内容[文档。
 
 #### 目标上下文 {#target-context}
 
-使用定位上下文定义一组表格，这些表格将用于进行电子邮件定位（在受众定义屏幕中）和个性化(在HTML内容编辑器中定义个性化字段)。
+使用定位上下文定义一组表格，这些表格将用于进行电子邮件定位（在受众定义屏幕中）和个性化（在HTML内容编辑器中定义个性化字段）。
 
 #### 路由 {#routing}
 
@@ -274,7 +278,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Compute the label during delivery preparation]**：在邮件准备阶段期间，使用此选项可使用个性化字段、内容块和动态文本计算电子邮件的标签值。
 
-  还可以使用已声明到工作流外部信号活动中的事件变量，将投放标签个性化。有关更多信息，请参阅[此章节](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+  还可以使用已声明到工作流外部信号活动中的事件变量，将投放标签个性化。如需详细信息，请参阅[此小节](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**：在准备阶段期间，使用此选项在日志中添加SQL查询日志。
 
@@ -287,8 +291,8 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 **[!UICONTROL SMTP]** 部分包含以下参数：
 
 * **[!UICONTROL Character encoding]**：如果要强制进行消息编码，请选中 **[!UICONTROL Force encoding]** 方框，然后选择要使用的编码。
-* **[!UICONTROL Bounce mails]**：默认情况下，平台的错误收件箱中会收到退回的邮件（**[!UICONTROL Administration]** >中 **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** 屏幕中定义）。要定义电子邮件的特定错误地址，请在 **[!UICONTROL Error address]** 字段中输入该地址。
-* **[!UICONTROL Additional SMTP headers]**：此选项用于向邮件中添加其他 SMTP 标头。在 **[!UICONTROL Headers]** 字段中输入的脚本必须每行引用一个标头，其形式为 **name:value**。如有必要，将自动对值进行编码。
+* **[!UICONTROL Bounce mails]**：默认情况下，平台的错误收件箱中会收到退回电子邮件（**[!UICONTROL Administration]** >中 **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** 屏幕中定义）。要定义电子邮件的特定错误地址，请在 **[!UICONTROL Error address]** 字段中输入该地址。
+* **[!UICONTROL Additional SMTP headers]**：此选项用于向邮件中添加其他 SMTP 标头。在&#x200B;**[!UICONTROL Headers]**&#x200B;字段中输入的脚本必须每行引用一个标头，其形式为&#x200B;**name:value**。 如有必要，将自动对值进行编码。
 
   >[!IMPORTANT]
   >
@@ -320,25 +324,25 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 重试 {#legacy-retries}
 
-[配置菜单](#email-channel-parameters)和电子邮件属性[发送参数](#retries-parameters)中的&#x200B;**[!UICONTROL Retries]**&#x200B;设置指示在发送开始后一天应执行多少次重试(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)以及两次重试之间的最小延迟(**[!UICONTROL Retry period]**)。
+**[!UICONTROL Retries]**&#x200B;配置菜单[和电子邮件属性](#email-channel-parameters)发送参数[中的](#retries-parameters)设置指示在发送开始后一天应执行多少次重试(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)以及两次重试之间的最小延迟(**[!UICONTROL Retry period]**)。
 
-重试次数可以全局更改(请联系您的Adobe技术管理员)，也可以针对每个投放或投放模板进行更改。
+重试次数可在全局范围内更改（请联系您的Adobe技术管理员），也可以针对每个投放或投放模板进行更改。
 
-默认情况下，第一天将安排五次重试，最小间隔为一小时，分布在一天中的24小时。 每天进行一次重试的程序设置在此之后，并一直到投放截止日期为止，该截止日期在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜单的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分中或在投放级别的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定义（请参阅下面的[投放持续时间](#legacy-delivery-duration)部分）。
+默认情况下，第一天将安排五次重试，最小间隔为一小时，分布在一天中的24小时。 每天进行一次重试的程序设置在此之后，并一直到投放截止日期为止，该截止日期在&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;菜单的&#x200B;**[!UICONTROL Configuration]**&#x200B;部分中或在投放级别的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定义（请参阅下面的[投放持续时间](#legacy-delivery-duration)部分）。
 
 ### 投放持续时间 {#legacy-delivery-duration}
 
-使用[配置菜单](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;参数指定在投放中遇到临时错误或软退回的任何消息将重试的时间范围。
+使用&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;配置菜单[中的](#email-channel-parameters)参数指定在投放中遇到临时错误或软退回的任何消息将重试的时间范围。
 
-使用[有效期参数](#validity-period-parameters)部分中的&#x200B;**[!UICONTROL Delivery duration]**&#x200B;或&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;参数指定可以发送消息的持续时间。
+使用&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期参数&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;部分中的[或](#validity-period-parameters)参数指定可以发送消息的持续时间。
 
 ### 电子邮件处理规则 {#legacy-email-processing-rules}
 
-管理员可以通过&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;菜单访问和修改&#x200B;**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;和&#x200B;**[!UICONTROL Domain management]**&#x200B;规则。 [了解详情](#email-processing-rules)
+管理员可以通过&#x200B;**[!UICONTROL MX management]**&#x200B;菜单访问和修改&#x200B;**[!UICONTROL Bounce mails]**、**[!UICONTROL Domain management]**&#x200B;和&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;规则。 [了解详情](#email-processing-rules)
 
 ### 退回邮件鉴别 {#legacy-bounce-mail-qualification}
 
-要列出各种退回及其关联的错误类型和原因，请单击左上方的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
+要列出各种退回及其关联的错误类型和原因，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
 
 退回可以具有以下资格状态：
 

@@ -3,13 +3,13 @@ title: Campaign投放最佳实践
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 了解与使用Adobe Campaign进行交付设计和发送相关的最佳实践。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
@@ -48,6 +48,6 @@ ht-degree: 7%
 
 * [可投放性入门](../../sending/using/about-deliverability.md)
 
-* [消息入门](../../channels/using/get-started-communication-channels.md)
+* [开始使用消息功能](../../channels/using/get-started-communication-channels.md)
 
 * [隐私和同意建议](../../start/using/privacy.md)

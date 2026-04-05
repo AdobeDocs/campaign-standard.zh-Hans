@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 27%
@@ -51,7 +51,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在[&#128279;](#profile-transactional-message-specificities)下详细介绍。
+>本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在[下详细介绍](#profile-transactional-message-specificities)。
 >
 >[此部分](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中介绍了创建基于事件的事务型消息的配置步骤。
 
@@ -73,7 +73,7 @@ ht-degree: 27%
 
    ![](assets/message-center_7.png)
 
-1. 您还可以扩充消息的内容。 为此，请从链接到事件配置的表中添加字段（请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，通过&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段。
+1. 您还可以扩充消息的内容。 为此，请从链接到事件配置的表中添加字段（请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，通过&#x200B;**[!UICONTROL Title (salutation)]** > **[!UICONTROL Profile]** > **[!UICONTROL Context]**&#x200B;从&#x200B;**[!UICONTROL Real-time event]**&#x200B;表中选择&#x200B;**[!UICONTROL Event context]**&#x200B;字段。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -81,15 +81,16 @@ ht-degree: 27%
 
    ![](assets/message-center_8.png)
 
-1. 选择为此事件定义的用户档案，预览消息。
+1. 选择为此事件定义的轮廓，预览消息。
 
    有关预览消息的详细步骤，请参阅[预览消息](../../sending/using/previewing-messages.md)一节。
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与在测试用户档案中输入的信息匹配。有关详细信息，请参阅[定义特定测试配置文件](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   您可以检查个性化字段是否与在测试轮廓中输入的信息匹配。有关详细信息，请参阅[定义特定测试配置文件](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
-<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+<!--
+## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
 When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
@@ -99,7 +100,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hans#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
@@ -207,7 +208,8 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+-->
 
 ## 基于用户档案的事务型消息特性 {#profile-transactional-message-specificities}
 
@@ -236,7 +238,8 @@ For more on creating a collection and related fields when configuring the event,
 
 1. 在发布消息之前保存更改。 有关更多信息，请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+<!--
+### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -271,4 +274,5 @@ This rule is part of a specific typology that applies to all transactional messa
 **Related topics**:
 
 * [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+-->

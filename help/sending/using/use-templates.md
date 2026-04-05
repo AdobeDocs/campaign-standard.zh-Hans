@@ -3,13 +3,13 @@ title: 使用投放模板
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: “通过为最常见的活动类型提供现成的方案，交付模板可以提高效率。”
+index: true
+description: 通过为最常见的活动类型提供现成的方案，交付模板可以提高效率。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 10%
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 [投放模板](../../start/using/marketing-activity-templates.md#creating-a-new-template)允许您定义一组技术和功能属性，这些属性既适合您的需求，又可用于将来投放。 然后，您可以节省时间并在需要时标准化交付。
 
-在Adobe Campaign中管理多个品牌时，Adobe建议每个品牌具有一个子域。 例如，银行可以具有与其每个区域机构对应的多个子域。 如果银行拥有bluebank.com域，则其子域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每个子域拥有一个投放模板，让您能够始终为每个品牌使用正确的预配置参数，从而避免错误并节省您的时间。
+在Adobe Campaign中管理多个品牌时，Adobe建议为每个品牌拥有一个子域。 例如，银行可以具有与其每个区域机构对应的多个子域。 如果银行拥有bluebank.com域，则其子域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每个子域拥有一个投放模板，让您能够始终为每个品牌使用正确的预配置参数，从而避免错误并节省您的时间。
 
 **提示**：为了避免在Campaign中出现配置错误，我们建议您复制本机模板并更改其属性，而不是创建新模板。
 
@@ -50,13 +50,13 @@ ht-degree: 10%
 
 **[!UICONTROL Reply to]**&#x200B;字段对应于用于回复的电子邮件地址和名称。
 
-**提示** -Adobe建议使用现有的真实地址，如您品牌的客户关怀部门。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
+**提示** - Adobe建议使用现有的真实地址，如您品牌的客户关怀地址。 在这种情况下，如果收件人发送回复，客户关怀团队将能够处理。
 
 若要更改出现在已发送邮件标题中的发件人名称，请转到Email Designer主页的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡（可通过主页图标访问），然后单击&#x200B;**[!UICONTROL Default sender name]**&#x200B;块。
 
 ![](assets/template-content.png)
 
-为了提高投放的打开率，Adobe建议使用收件人可轻松识别的名称，如您的品牌名称。
+为了提高投放的打开率，Adobe建议使用易于收件人识别的名称，如您的品牌名称。
 
 **提示** — 为进一步改善收件人的体验，您可以添加人员的姓名，例如“Emma from Megastore”。
 
@@ -96,4 +96,4 @@ ht-degree: 10%
 
 有关将品牌链接到模板的更多信息，请参阅[将品牌分配给电子邮件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本节[&#128279;](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌。
+在本节[中了解如何创建配置品牌](../../administration/using/branding.md#creating-a-brand)。
