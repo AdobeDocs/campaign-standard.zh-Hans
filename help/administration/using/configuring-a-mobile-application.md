@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
+> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans){target="_blank"}。
 
 请注意，推送通知和应用程序内实施必须由专家用户执行。 要获取帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
@@ -43,7 +43,7 @@ ht-degree: 2%
    * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience Platform SDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
-此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
+此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
 
    要完成其他任务，例如安装扩展、发布应用程序、配置环境等，您需要在产品配置文件中设置权限。
 
