@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >

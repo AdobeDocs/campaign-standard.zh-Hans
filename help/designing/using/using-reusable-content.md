@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ![](assets/template_content.png)
 
-可从&#x200B;**[!UICONTROL Resources]**&#x200B;高级菜单&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[ > ](../../start/using/interface-description.md#advanced-menu)屏幕访问HTML内容模板。 从该位置，您可以管理登陆页面内容模板、电子邮件内容模板以及片段。
+可从&#x200B;**[!UICONTROL Resources]**&#x200B;高级菜单&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[&#x200B; > &#x200B;](../../start/using/interface-description.md#advanced-menu)屏幕访问HTML内容模板。 从该位置，您可以管理登陆页面内容模板、电子邮件内容模板以及片段。
 
 ![](assets/content_templates_list.png)
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 >abstract="片段是可在一封或多封电子邮件中引用的可重用内容块。"
 
 片段是可在一封或多封电子邮件中引用的可重用组件。
-它们可以在**资源** > **内容片段和模板**&#x200B;下的界面中找到。
+它们可以在&#x200B;**资源** > **内容片段和模板**&#x200B;下的界面中找到。
 
 要在电子邮件Designer中充分利用片段，请执行以下操作：
 

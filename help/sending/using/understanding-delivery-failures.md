@@ -39,7 +39,7 @@ ht-degree: 59%
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
-发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[ 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
+发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[&#x200B; 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
 
 ![](assets/sending_logs.png)
 
@@ -90,7 +90,7 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**现在，Campaign 投放中的&#x200B;**[!UICONTROL Delivery duration]**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
+>**现在，Campaign 投放中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**参数，只能使用不超过 3.5 天的设置。**&#x200B;如果定义的值超过 3.5 天，则不会将其考虑在内。
 
 例如，如果希望重试在一天后停止投放，您可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息在一天后将被删除。
 
