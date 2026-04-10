@@ -11,8 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
@@ -25,7 +24,7 @@ ht-degree: 2%
 >
 >Audience Destinations服务现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[中了解更多](../../rn/using/deprecated-features.md)
 
-利用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)基于大型复杂数据集构建具有高度针对性的受众，从而增强您的消费者体验。 Adobe Experience Platform可整合在线和离线来源(包括Adobe Analytics)中的用户档案、行为和多实体数据，以帮助您构建客户的360度视图，使您能够有效地管理客户体验。
+利用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)基于大型复杂数据集构建具有高度针对性的受众，从而增强您的消费者体验。 Adobe Experience Platform可整合在线和离线来源（包括Adobe Analytics）中的用户档案、行为和多实体数据，以帮助您构建客户的360度视图，使您能够有效地管理客户体验。
 
 然后，Adobe Campaign Standard将使用&#x200B;**Audience Destinations**&#x200B;服务从Adobe Experience Platform中检索名为&#x200B;**Audiences**&#x200B;的用户档案集合，以用于多步骤和/或跨渠道营销活动项目。
 

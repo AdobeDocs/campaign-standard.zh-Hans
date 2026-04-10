@@ -11,8 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 3%
@@ -23,7 +22,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为测试版，仅限北美地区使用）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 区段生成器允许您通过基于来自[实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)的数据定义规则来构建受众。
 

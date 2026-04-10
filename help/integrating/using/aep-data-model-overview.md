@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为测试版，仅限北美地区使用）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 Experience Data Model (XDM)是一组标准数据架构，可能会将数据摄取到其中以用于Adobe Experience Platform解决方案和产品。
 

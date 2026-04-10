@@ -1,19 +1,18 @@
 ---
-title: 发行说明 2018
+title: 2018 年版发行说明
 description: 本页列出了所有 2018 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '5386'
+source-wordcount: '5384'
 ht-degree: 3%
 
 ---
 
-# 发行说明 2018{#release-notes}
+# 2018 年版发行说明{#release-notes}
 
 ## 18.9 版 - 2018 年 9 月 {#release-18-9---september-2018}
 
@@ -32,7 +31,7 @@ ht-degree: 3%
    <td> 应用程序内消息可提供上下文互动，并且让您能够联系可能选择退出推送通知的用户，从而您可以更加高效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高转化率，更好地保留应用程序用户。<br />有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 移动应用程序的AdobeLaunch集成（测试版）<br /> </td> 
+   <td> 适用于移动设备应用程序的Adobe Launch集成（测试版）<br /> </td> 
    <td> Adobe Launch与Adobe Campaign的集成现在使用Mobile SDK V5简化了Campaign中移动应用程序属性的激活过程并实现了自动化。<br />有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +70,7 @@ ht-degree: 3%
 * 修复了Adobe Analytics报表和Adobe Campaign报表之间数据不一致的问题。 (CAMP-25393)
 * 修复了可能导致受限访问用户无法登录的问题。 (CAMP-27381)
 * 修复了在使用Creative Designer编辑电子邮件时可能阻止显示Adobe Experience Manager内容列表的问题。 (CAMP-27181)
-* 修复了可能阻止打开Creative Designer并导致错误的问题。 (CAMP-27304)
+* 修复了可能阻止Creative Designer打开并引发错误的问题。 (CAMP-27304)
 * 修复了在使用Internet Explorer 11时，拖放操作在Creative Designer中无法正常工作的问题。
 * 修复了导致从相机上传并以纵向模式拍摄的图片在不需要的旋转位置显示的问题。
 * 修复了在Creative Designer中使用查询编辑器界面时显示不清楚选择信息的问题。
@@ -156,7 +155,7 @@ ht-degree: 3%
 * 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此[&#128279;](../../sending/using/confirming-the-send.md)章节。
 * 在&#x200B;**可投放性更新**&#x200B;现成技术工作流中，功能管理员现在可以在&#x200B;**更新规则** javascript活动中定义要忽略的连续错误数。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 已优化管理单元访问限制条件时生成的SQL。
-* **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅（nms：appSubscriptionRcp表）相关的数据。
+* **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅（nms:appSubscriptionRcp表）相关的数据。
 * 为了优化性能，**[!UICONTROL Update delivery execution]**&#x200B;技术工作流已分为两个工作流： - **[!UICONTROL Update delivery execution]**：更新投放的跟踪。 默认情况下，每10分钟启动一次。 **[!UICONTROL Update delivery indicators]**：更新投放的KPI，默认情况下每小时启动一次。 有关技术工作流的详细信息，请参阅此[部分](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
 * 当投放正在发送邮件时，**[!UICONTROL Deployment]**&#x200B;部分中的状态现在可以有两个值： **[!UICONTROL Sending]**：正在发送邮件。 **[!UICONTROL Sending (retry)]**：正在重试传递。
 * 具有&#x200B;**[!UICONTROL Delivery preparation]**&#x200B;角色的用户现在能够发送校样。 (CAMP-24313)
@@ -169,8 +168,8 @@ ht-degree: 3%
 * 修复了阻止隐私核心服务从Campaign接收请求状态更新的问题。
 * 修复了可能导致&#x200B;**[!UICONTROL Import shared audience]**&#x200B;技术工作流无法正常工作的问题(CAMP-25465)。
 * 修复了导致无法在核心Privacy Service中将Campaign隐私请求标记为已完成的问题。
-* 修复了可能会阻止某些用户在Adobe ID过长时通过IMS身份验证登录Campaign Standard的问题。 (CAMP-24095)
-* 修复了Creative Designer在删除内容模块时可能发生的问题。 (CAMP-25242)
+* 修复了可能会阻止某些用户在Campaign Standard过长时通过IMS身份验证登录Adobe ID的问题。 (CAMP-24095)
+* 修复了在删除内容模块时可能发生的Creative Designer问题。 (CAMP-25242)
 * 修复了对数据库中没有用户档案的订阅者使用推送通知疲劳规则时的问题。 (CAMP-25344)
 * 修复了在访问投放排除日志时可能显示错误消息的问题。 (CAMP-24724)
 * 修复了在具有扩展的发送日志的实例中无法准备校样的问题。
@@ -218,19 +217,19 @@ ht-degree: 3%
 
 **改进**
 
-* 应用程序的总体内存和CPU使用率已得到提高
+* 应用程序的总体内存和CPU使用率已得到增强
 
 **其他变更**
 
 * 读取受众工作流活动现在可以读取Experience Cloud受众。 以前，此活动只能读取“查询”和“列表”受众。 请参阅[详细文档](../../automating/using/read-audience.md)。 (CAMP-23623)
-* 默认共享数据源的标识符现在处于只读模式，无法再更改。 更改此标识符可能会导致与Experience Cloud共享受众时出现一些问题。
+* 默认共享数据源的标识符现在处于只读模式，无法再更改。 在与Experience Cloud共享受众时，更改此标识符可能会导致一些问题。
 * 现在，从Audience Manager导入受众可与拆分文件配合使用。 以前，importSharedAudience技术工作流只导入区段的最后一个文件。
 * AWS S3外部帐户现在支持地区和版本4身份验证机制。 请参阅[详细文档](../../administration/using/external-accounts.md)。
 * 现在，资源选择窗口的加载速度应该会更快，允许选择某个资源，然后可以毫无问题地退出窗口。
 * 现在，具有管理权限并属于“所有”组织和地理单位的用户可以修改技术工作流的属性和结构。
 * 在创建新区段时，在分段活动界面中做出了增强：添加限制后，现在将直接显示“限制”选项卡。 新区段的名称现在递增（“区段1”、“区段2”等）。
 * “nextProcessingDate”字段已添加到工作流资源。 此字段仅通过REST API调用可见，允许您可视化工作流下一个处理日期。
-* “sourceId”字段现在显示在跟踪日志资源(nms：trackingLog)中。
+* “sourceId”字段现在在跟踪日志资源(nms:trackingLog)中公开。
 * 现在，可以通过工作流在平面文件中导出“打开次数总计”和“点击次数总计”值。 (CAMP-24186)
 * “英语 — Danmark”现在在用户档案的首选语言列表中提供。 (CAMP-23728)
 * 现在，使用带有附加数据(targetData)链接的分段活动时，会出现一条消息，告知您数据在工作流之外不可用。 单击分段活动中的计数或预览按钮时，将显示此消息。 (CAMP-23651)
@@ -300,14 +299,14 @@ _自定义资源_
     </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可快速轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。 <br />关键功能包括：<br /> 
+   <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
+   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。 <br />关键功能包括：<br /> 
     <ul> 
-     <li> 通过拖放界面设计和创建完全个性化、响应式电子邮件，并通过本机Creative Cloud集成加以增强 </li> 
+     <li> 通过拖放界面，通过本机Creative Cloud集成增强，直观地设计和创建完全个性化、响应式电子邮件 </li> 
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
-     <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
+     <li> 创建和保存内容片段（如页眉、页脚、文章等）以简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> Creative Designer for Email只有英文版。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> 适用于电子邮件的Creative Designer只有英语版本。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
@@ -359,7 +358,7 @@ _工作流_
 _集成_
 
 * 修复了阻止将国际字符正确发送到Adobe Analytics的问题。
-* 现在，尝试在消息中插入Experience Cloud资源库中的图像时，Assets的加载速度应该会更快。
+* 现在，尝试在消息中插入Assets资源库中的图像时，Experience Cloud的加载速度会更快。
 * 修复了在某些情况下可能阻止关闭资产选择窗口的问题。
 * 从数据源详细信息中，您现在可以直接访问其相关工作流以检查工作流的状态。
 * 现在，您可以在定义或编辑触发器事件时直接更新触发器模式。 借助这项更改，您不再需要取消发布触发器并创建另一个触发器。
@@ -396,7 +395,7 @@ _事务性消息_
 
 _平台_
 
-* Adobe Campaign界面的顶部栏已更新为新的Experience Cloud菜单。
+* Adobe Campaign界面的顶栏已更新为新的Experience Cloud菜单。
 * 修复了导致指向&#x200B;**[!UICONTROL Offers]**&#x200B;的链接无法在解决方案下拉列表中显示的问题。
 
 _电子邮件、短信和直邮_
@@ -421,7 +420,7 @@ _工作流_
 * 修复了在某些情况下可能导致&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动的输出转换顺序发生更改的问题。
 * 修复了读取包含枚举类型字段且之前已从工作流中保存的受众时发生的错误
 * 修复了在定义在工作流中创建的投放的计划属性时，**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项即使取消选中后仍保持选中状态的问题。
-* 现在可以通过位于&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡中的新选项在&#x200B;**[!UICONTROL Query]**&#x200B;活动中禁用自动删除重复行（DISTINCT子句）。 出于性能原因，建议在定义许多（超过100个）其他元素时禁用此选项。
+* 现在可以通过位于&#x200B;**[!UICONTROL Query]**&#x200B;选项卡中的新选项在&#x200B;**[!UICONTROL Additional data]**&#x200B;活动中禁用自动删除重复行（DISTINCT子句）。 出于性能原因，建议在定义许多（超过100个）其他元素时禁用此选项。
 
 _集成_
 
@@ -447,7 +446,7 @@ _已知问题_
  <tbody> 
   <tr> 
    <td> 疲劳管理报告<br /> </td> 
-   <td> 疲劳管理报告是一个专用的可配置报告，可显示疲劳规则在发送前的指定日期范围内对电子邮件、推送、短信和直邮渠道中的投放产生的影响。 借助能够在一个视图中快速查看所有冲突营销活动的额外见解，营销人员能够根据更有效地设置疲劳规则来计划营销活动，并优先考虑通信。<br />有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">详细文档</a>。<br /> </td> 
+   <td> 疲劳管理报告是一个专用的可配置报告，可显示疲劳规则在发送前的指定日期范围内对电子邮件、推送、短信和直邮渠道中的投放产生的影响。 借助新增的insight，营销人员能够在一个视图中快速查看所有冲突的营销活动，根据更有效地设置疲劳规则来规划营销活动，并优先考虑通信。<br />有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 报告共享<br /> </td> 

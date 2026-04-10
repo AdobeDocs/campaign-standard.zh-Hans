@@ -4,11 +4,10 @@ description: 本页列出了所有 2019 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '7674'
+source-wordcount: '7673'
 ht-degree: 8%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 8%
 
 **改进**
 
-* 更新了动态报告的同意弹出窗口，以包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受这些条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报表时，将包含配置文件数据。 [了解更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* 更新了动态报告的同意弹出窗口，以包含Adobe Campaign Standard和Microsoft Dynamics 365集成。 接受这些条款后，在使用Adobe Campaign Standard/Microsoft Dynamics 365集成和动态报表时，将包含用户档案数据。 [了解更多](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修复了在接收投放警报时显示错误联系日期的问题。
 * 现在，当使用未知上下文参数提交事务型消息事件时，Campaign会返回“400”错误消息，而不是“500”。 (CAMP-28632)
 * 已在动态报告中添加新的&#x200B;**排除验证**&#x200B;区段。 默认情况下，现在选择该区段以筛选报表。 [了解更多信息](../../reporting/using/list-of-components.md#segments)
@@ -70,7 +69,7 @@ ht-degree: 8%
 
 * 修复了在通过隐私请求删除隔离用户档案的信息时，会删除隔离列表中除电子邮件地址以外的所有数据的问题。
 * 增强了安全性，以防止电子邮件标头中的注入。
-* 增强了安全性，以防止可能使用xtk表达式(电子邮件HTML、文本内容和主题、短信和推送通知内容)的SSRF攻击。
+* 增强了安全性，以防止可能使用xtk表达式（电子邮件HTML、文本内容和主题、短信和推送通知内容）的SSRF攻击。
 
 **Email Designer 增强功能**
 
@@ -84,7 +83,7 @@ ht-degree: 8%
 * 修复了在&#x200B;**发件人：姓名**&#x200B;字段中保存对电子邮件发件人的修改时出现的问题。 (CAMP-36606)
 * 已修改轮盘组件兼容性警告，以反映支持的电子邮件客户端。
 * 修复了移动设备上的显示问题。 在电子邮件中添加或上传新图像时，高度属性现在始终设置为“height： auto”。 (CAMP-35497)
-* 修复了从结构组件中删除片段时HTML中留下样式和元标记的问题。 (CAMP-35390)
+* 修复了从结构组件删除片段时，HTML中留下的样式和元标记的问题。 (CAMP-35390)
 * 修复了更新可重用内容时片段的问题。 (CAMP-35186)
 * 修复了在电子邮件中仅显示移动设备条件内容时的问题。 (CAMP-35155)
 * 修复了随机显示零宽度不间断空格的问题。 (CAMP-35116)
@@ -111,7 +110,7 @@ ht-degree: 8%
 * 现在，执行与自身直接连接或通过多个活动连接的工作流的&#x200B;**计划程序**&#x200B;活动时，会显示错误消息，因为可能会导致实例的工作流服务器卡住。
 * 为帮助排查事务型消息传递问题，我们进行了一些改进：“数据”链接已在事件配置屏幕中被重命名为“上次事务型事件”，它现在按降序列出接收的事件。 此外，已创建新的事务性事件状态：“targetingFailed”。 当事务型消息传递模块无法扩充用于消息定向的链接时，事务型事件现在将处于此新状态（而不是“routingFailed”状态）。
 * 在限制登陆页面访问特定地理或组织单位时，已对界面进行了改进。 其目的是警告登陆页面可能受可见性条件的约束：现在，在创建登陆页面时必须选择地理和组织单位。 现在，在选择设备后，将显示包含相关信息的横幅。 测试登陆页面时显示的错误消息已变得更加清晰。
-* 在Campaign StandardAPI中，如果密钥值与原始密钥不同，或者您将自己的业务密钥用作URI而不是Adobe提供的业务密钥，则无法使用PATCH操作修改自定义密钥。
+* 在Campaign Standard API中，如果密钥值与原始密钥不同，或者您将自己的业务密钥用作URI而不是PATCH提供的业务密钥，则无法使用Adobe操作修改自定义密钥。
 * “阿尔巴尼亚语 — 马其顿”语言已添加到首选语言下拉列表。 (CAMP-35396)
 
 **修补程序**
@@ -119,7 +118,7 @@ ht-degree: 8%
 * 修复了阻止对计划报表进行排序或搜索的问题。
 * 修复了触发器规则的一个问题，该问题导致AND和OR规则混合在一起。
 * 修复了在Launch中将移动属性显示为“已删除”的问题。 (CAMP-35382)
-* 修复了导致Adobe启动移动资产无法在Adobe Campaign中同步的问题。 (CAMP-35411、CAMP-35089、CAMP-35014和CAMP-35487)
+* 修复了导致Adobe Launch移动资产无法在Adobe Campaign中同步的问题。 （CAMP-35411、CAMP-35089、CAMP-35014和CAMP-35487）
 * 修复了使用用户档案数据扩充事件时事务推送消息失败的问题。 (CAMP-34385)
 * 修复了移动资产未在多个环境中同步的问题。 (CAMP-37060)
 * 修复了在推送通知中使用联系日期公式选择模板时的问题。 (CAMP-35300)
@@ -154,7 +153,7 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 外部API活动(公共Beta)<br /> </td> 
+   <td> 外部API活动（公共Beta）<br /> </td> 
    <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点（例如，Data Platform、Target、Analytics、Campaign）。</p><p>此功能当前处于公开测试阶段。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hans">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
@@ -188,7 +187,7 @@ ht-degree: 8%
 * 您现在可以设置社交内容组件的宽度和高度。
 * 修复了在删除动态内容后无法删除该动态内容旧源代码的问题。
 * 修复了在修改电子邮件后可能阻止更新其主题的问题。
-* 修复了将n：n列结构拖放到工作区中后无法选择该结构的问题。
+* 修复了将n:n列结构拖放到工作区后无法选择该结构的问题。
 * 修复了导致电子邮件仪表板中消息的缩略图显示模糊的问题。
 * 修复了阻止在Outlook中接收的电子邮件正确显示后台的问题。
 * 修复了Email Designer主页上的某些排序问题。
@@ -197,7 +196,7 @@ ht-degree: 8%
 
 **其他改进**
 
-* 通过与Adobe Experience Platform位置服务集成，Adobe Campaign现在可与兼容，以通过Experience PlatformSDK向您的移动应用程序订阅者发送基于位置的营销消息。 有关更多信息，请参阅[详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
+* 通过与Adobe Experience Platform位置服务集成，Adobe Campaign现在与通过Experience Platform SDK向移动应用程序的订阅者发送基于位置的营销消息兼容。 有关更多信息，请参阅[详细文档](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 报告功能已得到改进，可提供更好的体验。 要使用此功能，您需要接受动态报告使用协议。 有关详细信息，请参阅[详细文档](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 * 在工作流中，添加了一个新选项来预览工作流接下来的十次执行。 有关详细信息，请参阅[详细文档](../../automating/using/scheduler.md)。
 * 在调度程序活动中，通过新选项可为每月投放选择一周中的特定日期。 有关详细信息，请参阅[详细文档](../../automating/using/scheduler.md)。
@@ -274,14 +273,14 @@ ht-degree: 8%
 在19.2版本中引入了一系列改进和修复以优化片段。 新创建的片段将无缝工作。 之前构建的片段已灰显，需要迁移到新格式。 为此，请单击每个片段并验证其是否迁移到新格式。 我们建议您在迁移所有片段之前测试一些片段。
 
 * 修复了在解锁片段后阻止用户编辑片段的问题。 在更新到19.2时，这会影响现有片段。 (CAMP-33778)
-* 修复了使用动态内容时的问题。 HTML中添加了额外的空格。
+* 修复了使用动态内容时的问题。 HTML中增加了额外的空格。
 
 **其他改进**
 
 * 修复了在短信连接器断开连接后可能阻止短信发送恢复的问题。
 * 修复了在启用TLS时可能关闭SMPP连接的问题。
 * 修复了在启用TLS时可能关闭SMPP连接的问题。
-* Campaign中添加了“Launch_URL_Campaign”选项，以管理使用Adobe Experience Platform Mobile SDK创建的移动应用程序的属性。
+* Campaign中添加了“Launch_URL_Campaign”选项，用于管理使用Adobe Experience Platform Mobile SDK创建的移动应用程序的属性。
 * 修复了在上传新创建的移动属性的证书并退出移动应用程序属性页面后，导致取消选中沙盒环境选项的错误。
 * 修复了阻止使用服务资源中的信息扩充事务型消息内容的问题。 (CAMP-33707)
 * 修复了在尝试取消订阅服务中的用户档案时在阻止列表登陆页面中发生的问题。
@@ -325,8 +324,8 @@ ht-degree: 8%
 
 * 修复了在复制片段并尝试在电子邮件Designer中使用它们时发生的问题。 (CAMP-33193)
 * 修复了在电子邮件Designer界面中使用内联元素时产生多余空格的问题。 (CAMP-32163)
-* 修复了在Email Designer中保存电子邮件内容后，删除用户添加的一些其他HTML标记属性的问题。 (CAMP-32162)
-* 修复了在电子邮件Microsoft OfficeHTML模式下即使删除了Designer标签后也显示该Office标签的问题。 (CAMP-32141)
+* 修复了在电子邮件Designer中保存电子邮件内容后，删除用户添加的一些其他HTML标记属性的问题。 (CAMP-32162)
+* 修复了在电子邮件Microsoft HTML模式下显示Designer Office标记（即使删除后也如此）的问题。 (CAMP-32141)
 * 如果您使用以前版本的Email Designer创建电子邮件，则打开此电子邮件内容时，现在会有一个弹出窗口提示用户更新到最新版本。 (CAMP-31529)
 * 修复了向某些消息传送客户端交付时，可能会扭曲使用Email Designer创建的电子邮件中的图像的问题。 (CAMP-31407)
 * 修复了在HTML模式下创建时，阻止某些元素（如列表或按钮）以纯文本模式正确显示的问题。 （CAMP-32582 和 CAMP-32542）
@@ -338,7 +337,7 @@ ht-degree: 8%
 * 修复了阻止将片段加载到电子邮件Designer左侧面板中的问题。
 * 修复了在电子邮件内容编辑期间创建的片段在刷新片段列表时无法在电子邮件Designer左侧面板中显示的问题。
 * 修复了在电子邮件中使用动态内容时发生的几个问题。
-* 修复了在尝试使用RGB值定义颜色时拾色器发生的问题。
+* 修复了在尝试使用RGB值定义颜色时，拾色器出现的问题。
 * 修复了在移动设备上接收电子邮件时阻止镜像页面做出响应的问题。
 
 **事务性消息传递增强功能**
@@ -361,8 +360,8 @@ ht-degree: 8%
 * 已删除应用程序内消息的“首次启动”生命周期事件触发器。
 * 现在，导出具有安全组的资源包时，它包含分配给每个组的角色。 (CAMP-32960)
 * 在加载文件活动中，通过新选项可检查上传文件的列是否与列定义匹配。 有关详细信息，请参阅[详细文档](../../automating/using/load-file.md)。 (CAMP-32229)
-* 现在可以使用有效负荷启动工作流，从而允许您在工作流中的活动中使用和共享外部参数。 有关详细信息，请参阅[详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。 (CAMP-29412和CAMP-29413)
-* Campaign StandardAPI现在允许您使用有效负载更新用户档案的地理和组织单位。 有关更多信息，请参阅[详细文档](../../api/using/get-started-apis.md)。
+* 现在可以使用有效负荷启动工作流，从而允许您在工作流中的活动中使用和共享外部参数。 有关详细信息，请参阅[详细文档](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
+* Campaign Standard API现在允许您使用有效负载更新用户档案的地理和组织单位。 有关更多信息，请参阅[详细文档](../../api/using/get-started-apis.md)。
 * 无法访问数据库中的对象时的错误消息已变得更清晰、更易于理解。
 * 在提取文件活动中，在定义要导出的文件名称时，更新了Javascript功能。 现在，只有formatDate函数可用于输出字段。 有关更多信息，请参阅[详细文档](../../automating/using/extract-file.md)。
 * 自定义资源的自动序列ID生成已得到改进。 默认情况下，新自定义资源的主键现在为64位。
@@ -378,7 +377,7 @@ ht-degree: 8%
 * 修复了阻止用户仅发送包含媒体URL的应用程序内消息的错误。
 * 修复了即使未将移动应用程序的证书上传到实例，也会显示移动应用程序的问题。
 * 修复了在使用&#x200B;**定位移动应用程序的所有用户**&#x200B;模板时阻止个性化字段工作的错误。
-* 已配置新的Campaign Standard实例。 (CAMP-32635和CAMP-32344)
+* 已配置新的Campaign Standard实例。 （CAMP-32635和CAMP-32344）
 * 修复了导致无法在工作流中自定义日期公式的错误。 (CAMP-30336)
 * 修复了在定义自定义日期公式时可能导致“Additional data”和“Segment code”字段在下拉列表中不可用的问题。 (CAMP-32383)
 * 修复了可能会阻止“传输文件”和“提取文件”活动在文件加密后发现文件拒绝的问题。 (CAMP-32377)
@@ -400,7 +399,7 @@ ht-degree: 8%
 
 **其他改进**
 
-* 修复了查看分类规则时的错误。 (CAMP-32059和CAMP-31849)
+* 修复了查看分类规则时的错误。 （CAMP-32059和CAMP-31849）
 * 修复了阻止编辑分类规则的问题。 (CAMP-31750)
 * 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
 
@@ -426,7 +425,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 移动应用程序内消息传递<br /> </td> 
-   <td> <p>此发行版本包含Campaign中的应用程序内渠道的GA版本。 从功能的角度来看，Beta版本中最值得一提的附加内容是：应用程序内渠道动态报告，以及Mobile SDK与MCIAS(向SDK提供应用程序内规则的Marketing Cloud应用程序内消息传送服务)之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意用户手中，并允许您在用户每次注销时清除消息缓存来维护用户在共享设备上的隐私。</p><p>有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>和专用的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hans">应用程序内教程</a>。</p> </td> 
+   <td> <p>此发行版本包含Campaign中的应用程序内渠道的GA版本。 从功能的角度来看，Beta版本中新增的最显着功能包括：应用程序内渠道的动态报表，以及Mobile SDK与MCIAS（向SDK提供应用程序内规则的Marketing Cloud应用程序内消息传送服务）之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意用户手中，并允许您在用户每次注销时清除消息缓存来维护用户在共享设备上的隐私。</p><p>有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>和专用的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hans">应用程序内教程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流增强功能<br /> </td> 
@@ -484,7 +483,7 @@ ht-degree: 8%
 
 **其他变更**
 
-* 从2019年春季和Campaign Standard19.2版本开始，Adobe Campaign和Adobe Experience Cloud将停止对Microsoft Internet Explorer 11的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
+* 从2019年春季和Campaign Standard 19.2版本开始，Adobe Campaign和Adobe Experience Cloud将停止对Microsoft Internet Explorer 11的支持。 请切换到 Microsoft Edge 或其他受支持的浏览器。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
 * 配置文件资源中的&#x200B;**国家/地区代码**&#x200B;字段已重命名为&#x200B;**国家/地区代码**。
 
 **修补程序**
@@ -496,8 +495,8 @@ ht-degree: 8%
 * 修复了在使用扩展用户档案资源时生成PKEY时可能发生的问题。 (CAMP-30285)
 * 修复了基于日历天的疲劳规则可能发生的问题。 (CAMP-30136)
 * 修复了在尝试访问名称以“Base”结尾的自定义资源时可能发生的问题。 (CAMP-30109)
-* 修复了阻止使用PATCH调用将用户档案订阅服务的问题。 (CAMP-29728)
-* 修复了在通过加载文件活动导入XML文件时可能损坏工作流的问题。 (CAMP-29208和CAMP-28205)
+* 修复了阻止使用PATCH调用为用户档案订阅服务的问题。 (CAMP-29728)
+* 修复了在通过加载文件活动导入XML文件时可能损坏工作流的问题。 （CAMP-29208和CAMP-28205）
 * 修复了在链接自定义资源时可能导致无法生成反向基数链接的问题。 (CAMP-30476)
 * 修复了在仅使用段代码时阻止扩展投放日志的问题。
 * 修复了在工作流中使用文件传输活动时可能重复行的问题。
@@ -525,9 +524,9 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 发送电子邮件给Designer一般可用性<br /> </td> 
-   <td> <p>新的直观电子邮件Designer(以前称为Creative Designer)已迁移至GA。 它现在支持旧版内容编辑器中的所有功能，包括：</p> 
+   <td> <p>新的直观电子邮件Designer（以前称为Creative Designer）已迁移至GA。 它现在支持旧版内容编辑器中的所有功能，包括：</p> 
     <ul> 
-     <li> 使用来自Adobe Target</a>的<a href="../../integrating/using/adding-target-dynamic-content.md">动态图像 </li> 
+     <li> 使用来自Adobe Target<a href="../../integrating/using/adding-target-dynamic-content.md">的</a>动态图像 </li> 
      <li> 能够在准备时自动<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">从URL检索内容</a> </li> 
      <li> 完全兼容的<a href="../../designing/using/using-reusable-content.md#content-templates">现成的内容模板</a>。 </li> 
     </ul> 
@@ -568,12 +567,12 @@ ht-degree: 8%
 
 * 修复了在电子邮件模板或使用Email Designer创建的内容片段上启用地理单位功能的问题，即使此功能在Adobe Campaign中被禁用，导致模板或片段在尝试再次访问时不可用。 (CAMP-28174)
 * 修复了在使用Email Designer编辑内容时阻止保存动态内容条件的问题。 (CAMP-27905)
-* 修复了在编辑消息的纯文本版本并破坏Email Designer中的HTML同步后，从电子邮件HTML中删除内容版本的问题。 (CAMP-28507)
+* 修复了在编辑消息的纯文本版本并破坏Email Designer中的HTML同步后，从电子邮件内容中删除HTML版本的问题。 (CAMP-28507)
 * 修复了在使用Internet Explorer 11时阻止打开电子邮件Designer界面的问题。 (CAMP-28273)
 * 修复了扭曲Microsoft Outlook呈现应用于电子邮件Designer按钮的样式设置的问题。
 * 修复了Email Designer中的一个问题，该问题导致可编辑电子邮件中使用的内容片段的URL，在默认情况下锁定该片段时不预期会出现该问题。
 * 修复了阻止电子邮件Designer分隔符组件在Microsoft Office中显示的问题。
-* 修复了在使用旧版电子邮件内容编辑器查看从AEM同步的内容时，导致某些Internet浏览器页面冻结的问题。 (CAMP-29068)
+* 修复了在使用旧版电子邮件内容编辑器查看与AEM同步的内容时，导致某些Internet浏览器页面冻结的问题。 (CAMP-29068)
 * 修复了在使用旧版电子邮件内容编辑器时，单击电子邮件中的任意图像时发生的错误。 (CAMP-30424)
 * 修复了在使用Email Designer编辑电子邮件时阻止显示新创建片段的问题。 (CAMP-29928)
 * 修复了在使用Email Designer创建并使用Outlook Web邮件客户端接收的电子邮件中阻止正确显示按钮文本的问题。

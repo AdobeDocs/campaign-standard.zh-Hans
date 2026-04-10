@@ -11,8 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -23,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Audience Destinations Service当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为测试版，仅限北美地区使用）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 ## 访问Adobe Experience Platform受众
 
@@ -63,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/aep_audiences_creation_query.png)
 
-受众现已准备好激活，您可以将其用作营销活动的目标(请参阅[定向Adobe Experience Platform受众](../../integrating/using/aep-targeting-audiences.md))。
+受众现已准备好激活，您可以将其用作营销活动的目标（请参阅[定向Adobe Experience Platform受众](../../integrating/using/aep-targeting-audiences.md)）。
 
 ## 编辑受众
 

@@ -1,5 +1,5 @@
 ---
-title: 发行说明 2020
+title: 2020 年版发行说明
 description: 本页列出了所有 2020 版的 Adobe Campaign Standard。
 audience: rn
 content-type: reference
@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5267'
 ht-degree: 97%
@@ -18,7 +17,7 @@ ht-degree: 97%
 
 # 2020 年版发行说明{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动用户档案监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活动轮廓监测、子域投放能力审核和 GPG 密钥管理。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。[了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
@@ -87,7 +86,7 @@ ht-degree: 97%
 * **工作流执行改进** （Beta 版）：在围绕工作流的全局倡议的背景下，已经制定了一些重大改进来稳定内存管理，减少延迟和优化工作流在执行期间消耗的内存。这些改进目前在 Beta 版中实施，并且仅对部分客户可用。计划于 2021 年初全面可用。
 * 为了提高安全性，Campaign 现在使用&#x200B;**签名机制**&#x200B;来跟踪电子邮件中的链接。
 * 上传 iOS 证书或 Android 密钥时，移动应用程序配置已通过&#x200B;**提高错误消息清晰度**&#x200B;进行了改进。
-* **短信错误管理**&#x200B;已得到改进，以防止将过多用户档案添加到隔离列表。默认情况下，短信错误现在配置为软错误而不是硬错误。请参见[此页面](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。
+* **短信错误管理**&#x200B;已得到改进，以防止将过多轮廓添加到隔离列表。默认情况下，短信错误现在配置为软错误而不是硬错误。请参见[此页面](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。
 
 **Email Designer 增强功能**
 
@@ -109,7 +108,7 @@ ht-degree: 97%
 **其他变更**
 
 * 在尝试使用&#x200B;**读取受众**&#x200B;活动导入 Experience Platform 受众时出错的情况下，添加了重试机制。（CAMP-43947 和 CAMP-43366）
-* 现在，组织单位自动设置为与创建用户档案或实体的用户的组织单位匹配。不能再删除组织单位并将其留空。
+* 现在，组织单位自动设置为与创建轮廓或实体的用户的组织单位匹配。不能再删除组织单位并将其留空。
 * 现在，发布自定义资源时，准备后将显示确认弹出窗口。
 * 自定义资源失败时显示的弹出消息已得到改进，从而提高清晰度。
 * 工作流中的表达式编辑器已得到改进，以防止执行错误。提供[新函数](../../automating/using/customizing-workflow-external-parameters.md)：可在所有活动中使用这些函数，从而能够在使用外部参数调用工作流后使用事件变量。此外，现在带有函数说明的表达式编辑器中会显示工具提示。
@@ -140,16 +139,16 @@ ht-degree: 97%
 * 修复了在 SMPP 连接不稳定时可能中断发送短信消息的问题。(CAMP-42789)
 * 修复了在刷新页面后阻止显示&#x200B;**停止准备**&#x200B;按钮的问题。(CAMP-42721)
 * 修复了在从 URL 导入内容时阻止显示热门点击报告百分比的问题。(CAMP-44468)
-* 修复了在选择要在用户档案替换上下文中使用的用户档案时可能显示超时错误的问题。(CAMP-44746)
+* 修复了在选择要在轮廓替换上下文中使用的轮廓时可能显示超时错误的问题。(CAMP-44746)
 * 修复了在部署包含错误链接定义的自定义资源后可能阻止实例工作的问题。(CAMP-44406)
-* 修复了在将投放复制并粘贴到活动模板后创建空链接实体（类型和品牌等）的问题。(CAMP-44765)
+* 修复了在将投放复制并粘贴到活动模板后创建空链接实体（类型、品牌等）的问题。 (CAMP-44765)
 * 修复了在 Azure 上发生数据库崩溃或简单数据库重新启动的情况下，由于投放准备表处理不正确而阻止发送校样的问题。
 * 修复了可能会阻止在配置有多语言内容的投放中删除包含 Experience Manager 内容的链接的问题。(CAMP-44029)
 * 修复了动态报告中在尝试筛选维度时可能显示错误消息的问题。  (CAMP-43097)
-* 修复了在尝试访问使用包含特定链接定义的自定义资源配置的实例上的用户档案时可能显示空白屏幕的问题。(CAMP-41009)
+* 修复了在尝试访问使用包含特定链接定义的自定义资源配置的实例上的轮廓时可能显示空白屏幕的问题。(CAMP-41009)
 * 修复了在使用具有两个将目标资源链接在一起的输入活动的&#x200B;**扩充**&#x200B;活动时工作流中可能发生的问题。(CAMP-42133)
 * 修复了在使用&#x200B;**文件传输**&#x200B;活动时导致导入工作流循环的问题。(CAMP-43754)
-* 修复了在使用导出的日志创建用户档案时导致未考虑重复项的问题。(CAMP-45031)
+* 修复了在使用导出的日志创建轮廓时导致未考虑重复项的问题。(CAMP-45031)
 * 修复了导致 Adobe Campaign 中的报告与 PDF 文件中导出的报告之间数据不一致的问题。(CAMP-43010)
 * 修复了在函数中使用现有数据字段时导致直接邮件投放工作流失败的错误。(CAMP-42737)
 * 修复了导入包含事务事件和消息模板的包时的问题。导入过程在 5% 处停止。(CAMP-42544)
@@ -158,10 +157,10 @@ ht-degree: 97%
 * 修复了使用 HTML 代码创建登陆页时的错误。强制复选框在 Campaign 中未被识别，且在已发布的登陆页中不可用。(CAMP-44181)
 * 修复了在使用&#x200B;**等待**&#x200B;活动时导致工作流循环的问题。(CAMP-43981)
 * 修复了在发送事务性消息时导致在同一投放中多次将多个电子邮件地址作为目标的问题。(CAMP-44202)
-* 修复了将用户档案替换用于 targetData 个性化时的错误。(CAMP-44996)
+* 修复了将轮廓替换用于 targetData 个性化时的错误。(CAMP-44996)
 * 修复了在导出包中的投放模板时导致投放预览失败的问题。(CAMP-44084)
-* 修复了在使用自定义目标映射时阻止将校样发送到测试用户档案的问题。(CAMP-43701)
-* 修复了在使用&#x200B;**读取受众**&#x200B;活动并以配置有除&#x200B;**用户档案**&#x200B;以外的目标维度的受众为目标时工作流中发生的错误。  (CAMP-41885)
+* 修复了在使用自定义目标映射时阻止将校样发送到测试轮廓的问题。(CAMP-43701)
+* 修复了在使用&#x200B;**读取受众**&#x200B;活动并以配置有除&#x200B;**轮廓**&#x200B;以外的目标维度的受众为目标时工作流中发生的错误。  (CAMP-41885)
 * 修复了在 **updateEventsStatus** 技术工作流花费过多时间检索事件历史记录（当工作流已停止时）时导致错误的问题。已从工作流中删除未使用的“sumQueueTime”聚合字段来解决此问题。(CAMP-43920)
 * 修复了部署自定义资源时的内存问题。(CAMP-42909)
 * 修复了当集合中缺少属性时事务性消息传递中的问题。现在，所有缺失属性都使用默认值进行定义并包含在有效负载中。(CAMP-42882)
@@ -169,14 +168,14 @@ ht-degree: 97%
 * 修复了在对共享资产使用大写文件扩展名时发生的错误。(CAMP-44159)
 * 修复了在创建外部帐户之前测试与该帐户的连接时显示错误消息的问题。现在，仅在创建外部帐户后才会显示&#x200B;**测试连接**&#x200B;按钮。
 * 修复了在使用分片配置的实例上重新启动增强型 MTA 后消息保持处于挂起状态的问题。
-* 修复了可能导致活动用户档案计数与已发送投放的有效数量不匹配的问题。
+* 修复了可能导致活动轮廓计数与已发送投放的有效数量不匹配的问题。
 * 修复了在工作流中的查询编辑器中搜索资源时可能导致延迟的问题。
 * 修复了在自定义资源中选择&#x200B;**指定在文本搜索中要考虑的字段**&#x200B;选项时的问题。如果字段列表留空，则自定义资源发布失败。
 * 修复了在显示包含大量数据的自定义资源概述时的性能问题。
-* 修复了阻止使用用户档案替换来导入投放的问题。
-* 修复了在使用用户档案替换时阻止在已计划投放的情况下立即发送校样的问题。
+* 修复了阻止使用轮廓替换来导入投放的问题。
+* 修复了在使用轮廓替换时阻止在已计划投放的情况下立即发送校样的问题。
 * 修复了在上传移动应用程序的 Android 密钥时发生的问题。成功上传密钥后显示的消息显示了前一个密钥的值。
-* 修复了在使用不含任何属性的集合创建事件配置后阻止从事务性消息创建测试用户档案的问题。
+* 修复了在使用不含任何属性的集合创建事件配置后阻止从事务性消息创建测试轮廓的问题。
 * 修复了在使用聚合创建新筛选器后阻止发布自定义资源的问题。
 * 修复了 Gmail 图像代理所导致的 Gmail 收件人的跟踪打开率不正确的问题。
 * 修复了在导入包时导致内存不足错误的问题。
@@ -184,7 +183,7 @@ ht-degree: 97%
 * 修复了在复制工作流活动时标签上的错误。
 * 修复了在选择&#x200B;**开始发送消息**&#x200B;选项时登陆页中的事务性消息选取器的问题。
 * 修复了阻止使用正确的默认值对投放状态进行初始化的事务性消息或定期投放问题。错误日志也已得到改进。
-* 修复了在使用自定义字段通过用户档案链接来扩展&#x200B;**应用程序订阅** (appSubscriptionRcp) 模式时的问题。未自动创建索引，这可能会影响推送发送时间。(CAMP-41120)
+* 修复了在使用自定义字段通过轮廓链接来扩展&#x200B;**应用程序订阅** (appSubscriptionRcp) 架构时的问题。未自动创建索引，这可能会影响推送发送时间。(CAMP-41120)
 
 
 
@@ -235,12 +234,12 @@ ht-degree: 97%
 
 **其他功能** （从 7 月 13 日开始）
 
-* **AI 支持的发送时间优化和用户档案评分** - 您现在可以优化客户旅程的设计和交付，以预测每个人的参与偏好。Adobe Campaign 凭借 Journey AI 提供技术支持，可以根据历史参与度分析和预测开放率、最佳发送时间以及可能的客户流失。[了解详情](../../sending/using/predictive.md)
-* **巴西的新隐私法规** — 除了Campaign中已提供的隐私功能外，Adobe还可帮助您为巴西的Lei Geral de Proteçao de Datos (LGPD)做好准备。 在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
+* **AI 支持的发送时间优化和轮廓评分** - 您现在可以优化客户旅程的设计和交付，以预测每个人的参与偏好。Adobe Campaign 凭借 Journey AI 提供技术支持，可以根据历史参与度分析和预测开放率、最佳发送时间以及可能的客户流失。[了解详情](../../sending/using/predictive.md)
+* **巴西的新隐私法规** — 除了Campaign中已提供的隐私功能外，Adobe还帮助促进您为巴西的Lei Geral de Proteçao de Datos (LGPD)做好准备。 在创建隐私请求时，已向 Adobe Privacy Core Service 添加 LGPD 法规。[了解详情](https://helpx.adobe.com/cn/campaign/kb/campaign-privacy-overview.html)
 
 **改进**
 
-* [使用已定向用户档案的测试消息](../../sending/using/testing-messages-using-target.md)，其&#x200B;**前缀**&#x200B;字段中可使用的字符数从 32 个增加到了 500 个。
+* [使用已定向轮廓的测试消息](../../sending/using/testing-messages-using-target.md)，其&#x200B;**前缀**&#x200B;字段中可使用的字符数从 32 个增加到了 500 个。
 * 可在实例上发布的实时事件最大数目从 350 增加到了 2000。(CAMP-41608)
 * Adobe Launch 与 Campaign Standard 之间的同步，已通过使用 syncWithLaunch 技术工作流进行了改进。此工作流支持将所有 Adobe Launch 移动属性自动导入到 Adobe Campaign Standard 中。有关详细信息，请参见[此页面](../../administration/using/technical-workflows.md)。
 
@@ -272,10 +271,10 @@ ht-degree: 97%
 **修补程序**
 
 * 修复了导致在自定义资源的发布作业期间创建资源备份的错误。
-* 修复了使用自定义资源扩展用户档案资源时可能会阻止显示用户档案营销历史的问题。(CAMP-41009)
+* 修复了使用自定义资源扩展轮廓资源时可能会阻止显示轮廓营销历史的问题。(CAMP-41009)
 * 修复了打开编辑器时即装即用登陆页面模板以法语显示其内容的问题。(CAMP-41639)
 * 修复了推送通知中的动态内容可能阻止显示表情符号的问题。(CAMP-40715)
-* 修复了&#x200B;**重复数据删除**&#x200B;活动中可能导致分配给其中一个叫客补充过渡的段码不正确的问题。(CAMP-41400)
+* 修复了&#x200B;**重复数据删除**&#x200B;活动中可能导致分配给其中一个叫客补集过渡的段码不正确的问题。(CAMP-41400)
 * 修复了阻止删除调度报告的错误。(CAMP-41302)
 * 修复了导致投放仪表板与&#x200B;**投放摘要**&#x200B;报表不一致的问题。(CAMP-41145)
 * 修复了导致下载的报告中显示字符重叠的问题。
@@ -284,7 +283,7 @@ ht-degree: 97%
 * 修复了 charIndex 函数无法用于工作流中&#x200B;**“结束”**&#x200B;或&#x200B;**“文件传输”**&#x200B;活动的问题。
 * 修复了使用&#x200B;**扩充**&#x200B;活动添加两个包含定向资源的输入活动（两者之间具有链接）时，可能发生的工作流问题。(CAMP-42133)
 * 修复了在使用未知函数时可能阻止工作流运行的问题。(CAMP-41873)
-* 修复了在使用具有补充叫客过渡的多个&#x200B;**“保存受众”**&#x200B;活动创建受众时，可能发生的工作流问题。(CAMP-39992)
+* 修复了在使用具有补集叫客过渡的多个&#x200B;**“保存受众”**&#x200B;活动创建受众时，可能发生的工作流问题。(CAMP-39992)
 * 修复了在事务型电子邮件中使用个性化功能导致数据不一致的问题。(CAMP-41842)
 * 修复了删除推送通知投放中自定义字段时发生的问题。(CAMP-37586)
 * 修复了会阻止用户更改报告的错误。(CAMP-42505)
@@ -305,7 +304,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Azure Blob Storage 连接器可用于通过<strong>传输文件</strong>工作流活动将数据导入或导出 Adobe Campaign。 </p>
-    <p>有关详细信息，请参阅<a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">详细文档</a>。</p>
+    <p>有关更多信息，请参阅<a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">详细文档</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -314,12 +313,12 @@ ht-degree: 97%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>使用定向的用户档案测试电子邮件</strong><br /> </th> 
+   <th> <strong>使用定向的轮廓测试电子邮件</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>除了测试用户档案之外，您现在还可以在真正的定向用户档案上测试电子邮件。利用此功能，可了解用户档案将收到之以下消息的精确表示形式：自定义字段、动态和个性化信息，包含来自工作流的附加数据等。 </p>
+   <td> <p>除了测试轮廓之外，您现在还可以在真正的定向轮廓上测试电子邮件。利用此功能，可了解轮廓将收到之以下消息的精确表示形式：自定义字段、动态和个性化信息，包含来自工作流的附加数据等。 </p>
     <p>有关更多信息，请参阅<a href="../../sending/using/testing-messages-using-target.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=zh-Hans">教程视频</a>。 </p>
    </td> 
   </tr> 
@@ -333,7 +332,7 @@ ht-degree: 97%
 **改进**
 
 * 增强了事务型消息传递的用户体验，提升了界面的一致性。[了解更多](../../channels/using/getting-started-with-transactional-msg.md)
-* 现在，可通过 Campaign Standard 使用来自工作流的附加数据向测试用户档案发送校样。
+* 现在，可通过 Campaign Standard 使用来自工作流的附加数据向测试轮廓发送校样。
 * 更新了 External API 活动的防护。[了解更多](../../automating/using/external-api.md)
 
 **Email Designer 增强功能**
@@ -354,13 +353,13 @@ ht-degree: 97%
 **其他变更**
 
 * 现在，**与 Adobe Analytics 协调 KPI** 这个现成工作流运行到当前日期，而不是只运行一天。
-* MCPNS 不支持将 APNS 和 APNS-SANDBOX 作为平台添加到应用程序中。现在，在 Adobe Campaign Standard 中成功添加证书后，无法再重新更改设置，因为只能向 MCPNS 应用程序添加一个 APNS 平台（作品或沙盒）。
+* MCPNS 不支持将 APNS 和 APNS-SANDBOX 作为平台添加到应用程序中。现在，在 Adobe Campaign Standard 中成功添加证书后，无法再重新更改设置，因为只能向 MCPNS 应用程序添加一个 APNS 平台（生产或沙盒）。
 
 **Experience Platform 集成**
 
 >[!NOTE]
 >
->Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档：Experience Platform数据连接器、受众目标
+>Campaign Standard 中的 Adobe Experience Platform 功能目前处于测试阶段，可能会频繁更新，恕不另行通知。请参阅详细文档： Experience Platform Data Connector， Audience Destinations
 
 * 现在，Campaign 在工作流日志中，每 10 分钟显示一次当前正在运行的作业已处理的记录数。
 * 修复了导入已从数据库删除的 Adobe Experience Platform 时可能发生的问题。
@@ -369,7 +368,7 @@ ht-degree: 97%
 **修补程序**
 
 * 修复了在 **Alias** 字段中添加空格（这会创建新的行项）时，可能出现的&#x200B;**扩充**&#x200B;工作流活动问题。(CAMP-39229)
-* 修复了在发送校样消息时，可能会定向所有测试用户档案的问题。
+* 修复了在发送校样消息时，可能会定向所有测试轮廓的问题。
 * 修复了取消发布和删除事件配置后发生的问题。[了解更多](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 修复了在对工作流进行更改后，**保存**&#x200B;按钮消失的问题。
 * 修复了在 Campaign 中进行隐私请求处理后手动删除改请求时的问题，该问题会阻止删除与请求关联的数据，即使在清除后也无法删除。
@@ -456,7 +455,7 @@ ht-degree: 97%
 
 * “准备失败的投放”过滤器现在会考虑投放的创建日期，而不是上次修改日期。
 * 管理员安全组的组织单元不能再更改。
-* 现在创建用户档案时，必须填写 Organizational unit 字段。
+* 现在创建轮廓时，必须填写 Organizational unit 字段。
 * 现在，仅当删除了事件和与其链接的事务型模板时，才能删除 Experience Cloud 触发器。
 * [!DNL Adobe Creative SDK] 已停用。现在，Campaign Standard 已将其弃用。请参阅[已弃用和已删除的功能](../../rn/using/deprecated-features.md)页面。
 
@@ -469,10 +468,10 @@ ht-degree: 97%
 * 修复了在 **[!UICONTROL External API]** 活动中即使未修改任何数据也会显示 **[!UICONTROL Confirm]** 按钮的问题。
 * 修复了对带有不同定向维度的查询使用 **[!UICONTROL Union]** 活动的问题。过渡数据只显示来自主集定向维度的记录。(CAMP-36831)
 * 修复了在特定环境中使用 **[!UICONTROL Reconciliation]** 活动（例如，两个集客活动，其中一个是排除活动）时可能导致错误的问题。(CAMP-37490)
-* 修复了在选择和更新测试用户档案时可能发生的性能问题。(CAMP-37976)
+* 修复了在选择和更新测试轮廓时可能发生的性能问题。(CAMP-37976)
 * 修复了通过登陆页面订阅或退订时可能显示错误页面的问题。(CAMP-37771)
 * 修复了以 zip 格式上传内容时发生的问题，在 HTML 中引用的 PNG 文件的扩展名会变成大写字母。(CAMP-37913)
-* 修复了在向投放添加测试用户档案时阻止发送应用程序内消息的问题。
+* 修复了在向投放添加测试轮廓时阻止发送应用程序内消息的问题。
 * 修复了 External API 工作流活动链接到扩充活动时失败的错误。
 * 修复了可能导致短信消息状态显示不正确的问题。
 * 修复了自定义资源导致重复条目在 API 端点下显示不同的问题。

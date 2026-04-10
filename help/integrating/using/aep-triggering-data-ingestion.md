@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -22,7 +21,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Adobe Experience Platform Data Connector目前处于测试阶段，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为测试版，仅限北美地区使用）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 Adobe Campaign Standard允许您通过API触发数据映射的直接摄取，并检索摄取请求的状态。
 
