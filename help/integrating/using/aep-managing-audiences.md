@@ -52,7 +52,7 @@ ht-degree: 2%
 
 1. 为了成功创建区段，您必须选择与此区段的营销目的相匹配的&#x200B;**合并策略**。
 
-   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专用部分。
+   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
