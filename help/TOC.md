@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
-   + [跟踪的 URL 签名问题](rn/using/tracked-urls.md)
-   + [最新文档更新](rn/using/documentation-updates.md)
+   + {hide-from-toc}[跟踪的URL签名问题](rn/using/tracked-urls.md)
+   + {hide-from-toc}[最新文档更新](rn/using/documentation-updates.md)
 + 快速入门 {#getting-started}
    + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + 了解界面 {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 90%
       + [隐私管理](start/using/privacy-management.md)
       + [隐私请求](start/using/privacy-requests.md)
       + [隐私常见问题解答](start/using/privacy-faq.md)
-   + [帮助和支持选项](support.md)
+   + {hide-from-toc}[帮助和支持选项](support.md)
 + 用户档案和受众  {#profiles-and-audiences}
    + [轮廓和受众入门](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 90%
    + 配置渠道 {#configuring-channels}
       + [关于渠道配置](administration/using/about-channel-configuration.md)
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
-      + [在 ISP 中断后更新退回鉴定](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[在ISP中断后更新退回限定条件](administration/using/update-bounce-qualification.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)

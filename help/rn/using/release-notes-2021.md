@@ -8,10 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '4695'
 ht-degree: 100%
 
@@ -60,7 +59,7 @@ ht-degree: 100%
 <ul>
 <li>此工作流发生了什么变化，谁最后进行了更新？</li>
 <li>谁进行了最后的改动？</li>
-<li>之前的状态是什么样？</li>
+<li>该对象之前的状态是什么？</li>
 </ul>
 <p>Adobe Campaign 现在会审核以下项目的创建、编辑和删除操作：工作流、选项、自定义资源。此外，还会跟踪这些项目的修改。</p>
 <p>有关更多信息，请参阅<a href="../../administration/using/audit.md">详细文档</a>。</p>

@@ -4,12 +4,11 @@ description: 需要 Campaign Standard 支持？您找到了正确的地方！
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -119,7 +118,7 @@ ht-degree: 100%
 
 ### 询问专家！
 
-加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
+加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 创建工单或开始聊天
 

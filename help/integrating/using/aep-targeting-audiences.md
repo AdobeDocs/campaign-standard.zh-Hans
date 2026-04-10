@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -22,7 +21,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为仅北美测试版）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
+>Audience Destinations服务当前为测试版，可能会频繁更新，恕不另行通知。 客户需要在Azure上托管（目前为测试版，仅限北美地区使用）才能访问这些功能。 如果您希望访问，请联系Adobe客户关怀。
 
 使用区段生成器创建[Adobe Experience Platform受众](../../integrating/using/aep-about-audience-destinations-service.md)后，您可以像在工作流程中为Campaign受众创建个性化并发送消息一样使用该受众。
 

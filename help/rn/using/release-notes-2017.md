@@ -1,19 +1,18 @@
 ---
-title: 发行说明 2017
+title: 2017 年版发行说明
 description: 本页列出了所有 2017 年版的 Adobe Campaign Standard。
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 3%
 
 ---
 
-# 发行说明 2017{#release-notes}
+# 2017 年版发行说明{#release-notes}
 
 ## 17.10 版 - 2017 年 10 月 {#release-17-10---october-2017}
 
@@ -44,9 +43,9 @@ _平台_
 
 * 修复了可能导致无法正确解压缩大型压缩文件的问题。
 * 品牌管理的安全性已得到改进。 现在，Adobe技术管理员可以修改品牌名称和发件人地址。
-* 为了提高安全性，需要用户生成内容（图像、镜像页面、登陆页面等） adobe.com域无法再提供服务。 现在，必须使用自己的域通过品牌策略处理这些资源。
+* 为了提高安全性，adobe.com域不再提供用户生成的内容（图像、镜像页面、登陆页面等）。 现在，必须使用自己的域通过品牌策略处理这些资源。
 * 修复了显示和筛选营销活动时的界面问题。
-* 修复了订阅日期字段无法通过POSTRest API调用进行更新的问题。
+* 修复了订阅日期字段无法通过POST Rest API调用进行更新的问题。
 
 _电子邮件、短信和直邮_
 
@@ -192,7 +191,7 @@ _用户档案和受众_
   </tr> 
   <tr> 
    <td> 数据源中加密的已声明ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售用户档案。<br />通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群的忠诚度并相应地赢取新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据(来自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>.<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售配置文件。<br />通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群的忠诚度并相应地赢取新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 从Campaign到Analytics的KPI共享<br /> </td> 
@@ -302,8 +301,8 @@ _推送通知_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Creative SDK<br />的增强图像编辑功能 </td> 
-   <td> 您现在可以访问由Creative SDK提供支持的完整功能集，以便在编辑电子邮件或登陆页面时直接在内容编辑器中增强图像。<br />此功能不需要获取额外的Creative Cloud解决方案。<br />有关详细信息，请参阅<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">详细文档</a>。<br /> </td> 
+   <td> Creative SDK<br />的图像编辑功能得到增强 </td> 
+   <td> 您现在可以访问由Creative SDK提供支持的完整功能集，以便在编辑电子邮件或登陆页面时直接在内容编辑器中增强图像。<br />此功能不需要购买其他Creative Cloud解决方案。<br />有关详细信息，请参阅<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性推送通知<br /> </td> 
@@ -392,7 +391,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> Dreamweaver集成（实验室）<br /> </td> 
-   <td> 通过Adobe Campaign与Dreamweaver集成，您现在拥有使用Adobe解决方案创建电子邮件促销活动的集成流程。<br />您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并让内容在两个解决方案之间无缝同步。<br />对于初始版本，该集成作为“Labs”功能提供，并且仅适用于Dreamweaver预发行版Beta。 如果想要激活它，请联系AC-DW-integration@adobe.com。<br />有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>。<br /> </td> 
+   <td> 通过Adobe Campaign与Dreamweaver集成，您现在拥有了一个使用Adobe解决方案创建电子邮件营销活动的集成流程。<br />您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并让内容在两个解决方案之间无缝同步。<br />对于初始版本，该集成作为“Labs”功能提供，并且仅适用于Dreamweaver预发行版Beta。 如果想要激活它，请联系AC-DW-integration@adobe.com。<br />有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
@@ -481,7 +480,7 @@ _工作流_
    <td> 事务性消息的营销功能<br /> </td> 
    <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。 这允许他们：<br /> 
     <ul> 
-     <li> 应用营销分类规则，如阻止列表</span>上的<span class="uicontrol">地址。 </li> 
+     <li> 应用营销分类规则，如阻止列表<span class="uicontrol">上的</span>地址。 </li> 
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
@@ -492,7 +491,7 @@ _工作流_
    <td> 事务性消息传递API现已可用，使其更易于使用和监视：<br /> 
     <ul> 
      <li> 您可以从Adobe Developer平台报告和监控功能中获益。 </li> 
-     <li> 列入允许列表现在，使用基于adobe.io令牌的身份验证而不是IP身份验证来执行身份验证，使安全过程更加简单。 </li> 
+     <li> 现在，使用基于adobe.io令牌的身份验证而不是IP身份验证来执行身份验证，使安全过程更加简单。 </li> 
      <li> 现在，所有API都集成在单个平台上，如果您已经支持用户档案和服务API，则向集成添加事务性消息传送功能会比以往更简单。 </li> 
     </ul> </td> 
   </tr> 
@@ -510,7 +509,7 @@ _常规_
 
 _电子邮件和短信消息_
 
-* 修复了与投放模板相关的问题，该投放模板的HTML包含
+* 修复了与投放模板相关的问题，该投放模板中的HTML内容包含
 
 _推送通知_
 
@@ -523,12 +522,12 @@ _工作流_
 
 * 修复了可能导致无法预览有关事件资源（如rtEvent）的查询的问题。
 * 现在可以在叫客过渡中检索由&#x200B;**[!UICONTROL Load file]**&#x200B;活动生成的拒绝文件，并在下一个活动中处理。 例如，使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;通过SFTP服务器上传拒绝文件。
-* 修复了可能导致用户无法限制区段群体的问题（如果在&#x200B;**[!UICONTROL Segmentation]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Temporary resource]**）。
+* 修复了可能导致用户无法限制区段群体的问题（如果在&#x200B;**[!UICONTROL Temporary resource]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Segmentation]**）。
 * 无法再将&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动设置为每10分钟触发一次以上的工作流。
 * 修复了可能导致&#x200B;**[!UICONTROL Use common columns]**&#x200B;无法在&#x200B;**[!UICONTROL Union]**&#x200B;活动中正常工作的问题。
 
 _集成_
 
 * 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 将“30天内回访的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
-* 修复了在从“人员”核心服务导入Dimension时，可能导致技术工作流清除“目标受众”字段的问题。 后续查询无法检索导入的受众。
-* 修复了在选中选项&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Save audience]**&#x200B;活动失败的问题。
+* 修复了在从人员核心服务导入受众时，可能导致技术工作流清除Target Dimension字段的问题。 后续查询无法检索导入的受众。
+* 修复了在选中选项&#x200B;**[!UICONTROL Save audience]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;活动失败的问题。
