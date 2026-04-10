@@ -152,7 +152,7 @@ ht-degree: 3%
 
 **其他变更**
 
-* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
+* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此[&#128279;](../../sending/using/confirming-the-send.md)章节。
 * 在&#x200B;**可投放性更新**&#x200B;现成技术工作流中，功能管理员现在可以在&#x200B;**更新规则** javascript活动中定义要忽略的连续错误数。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 已优化管理单元访问限制条件时生成的SQL。
 * **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅（nms:appSubscriptionRcp表）相关的数据。
@@ -306,7 +306,7 @@ _自定义资源_
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（如页眉、页脚、文章等）以简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> 适用于电子邮件的Creative Designer只有英语版本。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> 适用于电子邮件的Creative Designer只有英语版本。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
