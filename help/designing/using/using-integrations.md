@@ -157,6 +157,6 @@ Adobe Campaign提供了多个电子邮件创作选项。 下表显示了每种�
 
 本视频说明如何使用Dreamweaver创建和编辑Adobe Campaign Standard的内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/37481?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。
