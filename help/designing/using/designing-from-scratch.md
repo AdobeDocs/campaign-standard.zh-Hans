@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 22%
 1. 预览电子邮件。
 1. 保存您的内容，然后在确保已定义受众并正确计划发送后继续发送消息。
 
-您还可以观看此[介绍视频](https://video.tv.adobe.com/v/330104/?autoplay=true&hidetitle=true&captions=chi_hans)。
+您还可以观看此[介绍视频](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)。
 
 >[!NOTE]
 >
@@ -46,14 +46,14 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="定义电子邮件列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
+>abstract="使用电子邮件 Designer，您可以通过定义列结构来轻松定义电子邮件的版面。"
 
 使用电子邮件设计器，您可以轻松定义电子邮件的结构。通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计电子邮件的形状。
 
 要编辑电子邮件的结构，请执行以下操作：
 
 1. 打开现有内容或创建新电子邮件内容。
-1. 通过选择左侧的&#x200B;**+**&#x200B;图标访问&#x200B;**[!UICONTROL Structure components]**。
+1. 通过选择左侧的&#x200B;**[!UICONTROL Structure components]**+**图标访问**。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 1. 由一个或多个列组成的多个结构组件是可用的。
 
-   选择&#x200B;**[!UICONTROL n:n column]**&#x200B;组件以定义您选择的列数（介于3和10之间）。 还可以通过移动每个列底部的箭头来定义该列的宽度。
+   选择&#x200B;**[!UICONTROL n:n列]**&#x200B;组件以定义您选择的列数（介于3和10之间）。 还可以通过移动每个列底部的箭头来定义该列的宽度。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -195,7 +195,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->轮播组件与以下电子邮件平台兼容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL (Chrome、Firefox和Safari)。
+>轮播组件与以下电子邮件平台兼容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL （Chrome、Firefox和Safari）。
 
 **相关主题**：
 
