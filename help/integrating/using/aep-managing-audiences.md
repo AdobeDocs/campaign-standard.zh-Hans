@@ -11,7 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 1. 为了成功创建区段，您必须选择与此区段的营销目的相匹配的&#x200B;**合并策略**。
 
-   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)中的专用部分。
+   在设置窗格中，选择Platform默认合并策略。 有关合并策略的更多信息，请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的专用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
