@@ -81,6 +81,6 @@ Adobe Experience Platform Data Connector面向&#x200B;**数据工程师**，他�
 
 此视频概述Adobe Experience Platform Data Connector。
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34316?quality=12&captions=chi_hans)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=zh-Hans)提供了与Adobe Experience Platform Data Connector相关的其他视频。
