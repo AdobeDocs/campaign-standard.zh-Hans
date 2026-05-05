@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '788'
+workflow-type: ht
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ It also contains information on important features to manage Privacy ([consent, 
 
 Adobe Campaign 功能帮助您遵守以下法规：
 
-* **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。请访问下面的链接以查找有关 GDPR 的常规信息：
+* **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。 请访问下面的链接以查找有关 GDPR 的常规信息：
 
    * https://www.adobe.com/cn/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
@@ -66,7 +66,7 @@ Adobe Campaign 功能帮助您遵守以下法规：
 
 为了帮助您促进隐私就绪，Adobe Campaign 允许您处理&#x200B;**访问**&#x200B;和&#x200B;**删除**&#x200B;请求。
 
-* **访问权**&#x200B;是数据主体从数据控制者处就与其有关的个人数据是否正在进行处理、处理位置和处理目的获得确认的权限。数据控制者应当以电子格式免费提供个人数据副本。
+* **访问权**&#x200B;是数据主体从数据控制者处就与其有关的个人数据是否正在进行处理、处理位置和处理目的获得确认的权限。 数据控制者应当以电子格式免费提供个人数据副本。
 
 * **被遗忘权**（删除请求）也称为数据擦除，允许数据主体通过数据控制者擦除其个人数据，停止进一步传播数据，并可能使第三方停止处理数据。
 
@@ -88,21 +88,21 @@ Adobe Campaign 功能帮助您遵守以下法规：
 
 ### 同意管理 {#consent-management}
 
-同意表示数据主体同意处理与数据主体相关的个人数据。数据控制者负责为该处理获取必要的同意。虽然 Adobe Campaign 可能提供一些功能来帮助客户管理与服务相关的同意，但 Adobe 不负责同意。客户应与自己的法律部门合作，以确定其自己的流程和做法来获取必要的同意。
+同意表示数据主体同意处理与数据主体相关的个人数据。 数据控制者负责为该处理获取必要的同意。 虽然 Adobe Campaign 可能提供一些功能来帮助客户管理与服务相关的同意，但 Adobe 不负责同意。 客户应与自己的法律部门合作，以确定其自己的流程和做法来获取必要的同意。
 
-Adobe Campaign 的核心自始至终便是用于帮助管理同意的某些方面的功能。通过订阅管理流程，客户可以跟踪哪些收件人已选择加入哪种类型的订阅（新闻稿、每日或每周促销，还是任何其他类型的营销计划）。
+Adobe Campaign 的核心自始至终便是用于帮助管理同意的某些方面的功能。 通过订阅管理流程，客户可以跟踪哪些收件人已选择加入哪种类型的订阅（新闻稿、每日或每周促销，还是任何其他类型的营销计划）。
 
 ![](assets/privacy-consent-management.png)
 
 有关同意管理的更多信息，请参阅[关于订阅](../../audiences/using/about-subscriptions.md)和[登陆页入门](../../channels/using/getting-started-with-landing-pages.md)。
 
-除了 Adobe Campaign 提供的同意管理工具外，您还可能会跟踪消费者是否已选择退出个人信息销售。请参阅[此小节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+除了 Adobe Campaign 提供的同意管理工具外，您还可能会跟踪消费者是否已选择退出个人信息销售。 请参阅[此小节](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 ### 权限管理 {#rights-management}
 
 Adobe Campaign 使您能够通过不同的预建或自定义角色来管理分配给各种 Campaign 操作员的权限。
 
-一个好处是，这允许您管理公司内谁可以访问不同类型的数据。例如，您可能有不同的营销人员覆盖不同的地域，并且每个营销人员只能访问其地域的数据。
+一个好处是，这允许您管理公司内谁可以访问不同类型的数据。 例如，您可能有不同的营销人员覆盖不同的地域，并且每个营销人员只能访问其地域的数据。
 
 同样，此功能还允许您为每个用户配置不同的功能，例如限制谁可以发送投放，或者为了提高隐私管理的关联性，限制谁可以修改或导出数据。
 

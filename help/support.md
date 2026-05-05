@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 的帮助和支持选项
-description: 需要 Campaign Standard 支持？您找到了正确的地方！
+description: 需要 Campaign Standard 支持？ 您找到了正确的地方！
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -8,17 +8,17 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '492'
+workflow-type: ht
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
 
 # Campaign Standard 的帮助和支持选项 {#help-support-options}
 
-需要 Campaign Standard 支持？您找到了正确的地方！
+需要 Campaign Standard 支持？ 您找到了正确的地方！
 
-使用我们的常见问题解答、最佳实践、在线资源和支持门户获取支持。您还可以加入 Campaign 社区、询问专家或登记问题。
+使用我们的常见问题解答、最佳实践、在线资源和支持门户获取支持。 您还可以加入 Campaign 社区、询问专家或登记问题。
 
 <table>
     <tr>
@@ -88,11 +88,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
+>所有管理员用户都可访问控制面板。 [此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
 ### 如何访问控制面板？
 
-可直接从 Adobe Experience Cloud 访问控制面板。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
+可直接从 Adobe Experience Cloud 访问控制面板。 [单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
 
 ### 控制面板常见问题解答
 
@@ -100,11 +100,11 @@ ht-degree: 100%
 
 ### SFTP 管理
 
-在控制面板中，您可以与连接到您有权访问的 Campaign 实例的所有 SFTP 服务器进行交互。您可以监测它们的存储容量、管理允许列表上的 IP 地址和公共 SSH 密钥。[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hans#sftp-management)以了解更多信息。
+在控制面板中，您可以与连接到您有权访问的 Campaign 实例的所有 SFTP 服务器进行交互。 您可以监测它们的存储容量、管理允许列表上的 IP 地址和公共 SSH 密钥。 [单击此处](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hans#sftp-management)以了解更多信息。
 
 ### 子域和证书
 
-您可以监测您的子域及其证书。了解详情：
+您可以监测您的子域及其证书。 了解详情：
 
 * [子域品牌化](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans#subdomains-and-certificates)
 * [设置新子域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans#subdomains-and-certificates)
@@ -114,15 +114,15 @@ ht-degree: 100%
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新的票证系统已设计为通过 [Adobe Admin Console](https://adminconsole.adobe.com/overview) 运行。新系统要求每个用户都有新的个人帐户，并具有正确的权限。如果您发现无法使用 Adobe ID 登录，请通过 Experience League 提出访问请求，客户关怀团队将尽快为您进行设置。[了解详情](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新的票证系统已设计为通过 [Adobe Admin Console](https://adminconsole.adobe.com/overview) 运行。 新系统要求每个用户都有新的个人帐户，并具有正确的权限。 如果您发现无法使用 Adobe ID 登录，请通过 Experience League 提出访问请求，客户关怀团队将尽快为您进行设置。 [了解详情](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### 询问专家！
 
-加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。[加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
+加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。 [加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
 
 ### 创建工单或开始聊天
 
-通过创建案例，您可以就您在使用 Adobe 产品的过程中遇到的任何问题联系 Adobe 客户支持团队。为帮助您解决问题或排除疑难，Adobe Admin Console 将支持您与 Adobe 客户支持团队聊天。
+通过创建案例，您可以就您在使用 Adobe 产品的过程中遇到的任何问题联系 Adobe 客户支持团队。 为帮助您解决问题或排除疑难，Adobe Admin Console 将支持您与 Adobe 客户支持团队聊天。
 
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
