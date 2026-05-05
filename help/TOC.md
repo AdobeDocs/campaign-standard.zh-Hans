@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
       + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [发行计划](rn/using/release-planning.md)
    + [已弃用的功能](rn/using/deprecated-features.md)
-   + {hide-from-toc}[跟踪的URL签名问题](rn/using/tracked-urls.md)
+   + {hide-from-toc}[跟踪的 URL 签名问题](rn/using/tracked-urls.md)
    + {hide-from-toc}[最新文档更新](rn/using/documentation-updates.md)
 + 快速入门 {#getting-started}
    + [关于 Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -49,7 +49,7 @@ ht-degree: 89%
       + [隐私请求](start/using/privacy-requests.md)
       + [隐私常见问题解答](start/using/privacy-faq.md)
    + {hide-from-toc}[帮助和支持选项](support.md)
-+ 用户档案和受众  {#profiles-and-audiences}
++ 用户档案和受众 {#profiles-and-audiences}
    + [轮廓和受众入门](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用户档案 {#managing-profiles}
       + [关于轮廓](audiences/using/about-profiles.md)
@@ -109,7 +109,7 @@ ht-degree: 89%
       + [创建多语言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [为多语言推送通知生成 CSV 文件](channels/using/generating-csv-multilingual-push.md)
       + [基于移动应用程序数据创建和更新轮廓信息](channels/using/updating-profile-with-mobile-app-data.md)
-   + 应用程序内消息传送 {#in-app-messaging}
+   + 应用程序内消息传递 {#in-app-messaging}
       + [关于应用程序内消息传递](channels/using/about-in-app-messaging.md)
       + [准备和发送应用程序内消息](channels/using/preparing-and-sending-an-in-app-message.md)
       + [自定义应用程序内消息](channels/using/customizing-an-in-app-message.md)
@@ -127,7 +127,7 @@ ht-degree: 89%
       + 事件配置 {#event-configuration}
          + [配置事务性事件](channels/using/configuring-transactional-event.md)
          + [发布事务性事件](channels/using/publishing-transactional-event.md)
-      + 事务性消息编辑 {#transactional-message-edition}
+      + 事务性消息版本 {#transactional-message-edition}
          + [编辑事务性消息](channels/using/editing-transactional-message.md)
          + [测试事务性消息](channels/using/testing-transactional-message.md)
          + [事务性消息生命周期](channels/using/publishing-transactional-message.md)
@@ -199,7 +199,7 @@ ht-degree: 89%
       + [控制规则](sending/using/control-rules.md)
 + 报告 {#reporting}
    + [动态报告快速入门](reporting/using/get-started-reporting.md)
-   + 关于报告  {#about-reporting}
+   + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/using/about-dynamic-reports.md)
       + [报告界面](reporting/using/reporting-interface.md)
       + [组件列表](reporting/using/list-of-components.md)
@@ -222,7 +222,7 @@ ht-degree: 89%
       + [URL 和点击流](reporting/using/urls-and-click-streams.md)
       + [热门点击](reporting/using/hot-clicks.md)
       + [服务摘要](reporting/using/service-summary.md)
-   + 自定义报告  {#customizing-reports}
+   + 自定义报告 {#customizing-reports}
       + [添加面板](reporting/using/adding-panels.md)
       + [添加可视化](reporting/using/adding-visualizations.md)
       + [添加组件](reporting/using/adding-components.md)
@@ -230,37 +230,37 @@ ht-degree: 89%
       + [根据工作流区段创建报告](reporting/using/creating-a-report-workflow-segment.md)
 + 与其他解决方案集成 {#integrating-with-adobe-cloud}
    + [Campaign 集成入门](integrating/using/get-started-campaign-integrations.md)
-   + Campaign和Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign 和 Experience Manager {#working-with-campaign-and-experience-manager}
       + [关于 Campaign-Experience Manager 集成](integrating/using/integrating-with-experience-manager.md)
       + [配置 Campaign-Experience Manager 集成](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中创建电子邮件内容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中创建 Campaign 表单](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [通过 Adobe Experience Manager 集成创建多语言电子邮件](integrating/using/creating-multilingual-email-aem.md)
-   + Campaign和Target {#working-with-campaign-and-target}
+   + Campaign 和 Target {#working-with-campaign-and-target}
       + [关于 Campaign-Target 集成](integrating/using/about-campaign-target-integration.md)
       + [配置 Campaign-Target 集成](integrating/using/configuring-the-campaign-target-integration.md)
       + [添加 Target 动态内容](integrating/using/adding-target-dynamic-content.md)
-   + Campaign和Analytics {#working-with-campaign-and-analytics}
+   + Campaign 和 Analytics {#working-with-campaign-and-analytics}
       + [关于 Campaign-Analytics 集成](integrating/using/about-campaign-analytics-integration.md)
       + [配置 Campaign-Analytics 集成](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics 中的 Campaign 维度和指标](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign和Audience Manager或People核心服务 {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign 和 Audience Manager 或 People 核心服务 {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [关于 Campaign-Audience Manager 或 People 核心服务集成](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [预配和配置与 Audience Manager 或 People 核心服务的集成](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [故障排除](integrating/using/troubleshooting.md)
       + [使用 Audience Manager 或 People 核心服务共享受众](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [使用 Campaign 和 Assets 核心服务](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campaign和Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
+   + 适用于移动端的 Campaign 和 Analytics {#working-with-campaign-and-analytics-for-mobile}
       + [关于 Campaign-兴趣点数据集成](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [配置 Campaign-兴趣点数据集成](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [使用兴趣点数据个性化 Campaign 消息](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign和触发器 {#working-with-campaign-and-triggers}
+   + Campaign 和触发器 {#working-with-campaign-and-triggers}
       + [关于 Adobe Experience Cloud 触发器](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [在 Experience Cloud 中配置触发器](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [在 Campaign 中使用触发器](integrating/using/using-triggers-in-campaign.md)
       + [测试触发器](integrating/using/testing-your-triggers.md)
       + [放弃触发器用例](integrating/using/abandonment-triggers-use-cases.md)
-   + Campaign和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+   + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Microsoft Dynamics 365 集成入门](integrating/using/d365-acs-get-started.md)
       + [最佳实践和限制](integrating/using/d365-acs-notices-and-recommendations.md)
       + [配置 Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
@@ -273,7 +273,7 @@ ht-degree: 89%
          + [在 Microsoft Dynamics 365 与 Campaign 之间映射数据](integrating/using/d365-acs-self-service-app-data-sync.md)
          + [将凭据从 JWT 机制迁移到 OAuth 服务器到服务器机制](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [使用 Microsoft Dynamics 365 集成](integrating/using/d365-acs-using-the-integration.md)
-   + Campaign和Adobe Experience Platform {#adobe-experience-platform}
+   + Campaign 和 Adobe Experience Platform {#adobe-experience-platform}
       + [Sources 与 Destinations 入门](integrating/using/get-started-sources-destinations.md)
       + [将 Adobe Experience Platform 受众引入 Campaign](integrating/using/ingest-aep-data.md)
       + [将数据从 Campaign 导出到 Adobe Experience Platform](integrating/using/export-campaign-data.md)
@@ -398,12 +398,12 @@ ht-degree: 89%
       + [更新数据库结构](developing/using/updating-the-database-structure.md)
       + [删除资源](developing/using/deleting-a-resource.md)
       + [使用复合标识关键码调用资源](developing/using/uc-calling-resource-id-key.md)
-   + 用例：扩展API {#use-case-extending-the-api}
+   + 用例：扩展 API {#use-case-extending-the-api}
       + [关于扩展 API](developing/using/about-extending-the-api.md)
       + [第 1 步：将扩展字段添加到轮廓资源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [第 2 步：发布扩展](developing/using/step-2-publish-the-extension.md)
       + [第 3 步：验证扩展](developing/using/step-3-verify-the-extension.md)
-   + 使用案例：扩展资源 {#use-cases-extending-resources}
+   + 用例：扩展资源 {#use-cases-extending-resources}
       + [使用新字段扩展轮廓资源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [将订阅扩展到应用程序资源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 数据模型 {#datamodel}
@@ -437,7 +437,7 @@ ht-degree: 89%
    + 配置渠道 {#configuring-channels}
       + [关于渠道配置](administration/using/about-channel-configuration.md)
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[在ISP中断后更新退回限定条件](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[在 ISP 中断后更新退回鉴定](administration/using/update-bounce-qualification.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
    + 配置移动渠道 {#configuring-mobile}
       + [实施推送跟踪](administration/using/push-tracking.md)
@@ -463,9 +463,9 @@ ht-degree: 89%
       + [发送内部通知](administration/using/sending-internal-notifications.md)
       + [数据保留](administration/using/data-retention.md)
       + [更新和维护操作](administration/using/updates-and-maintenance-operations.md)
-+ 使用API {#working-with-apis}
++ 使用 API {#working-with-apis}
    + [Campaign Standard API 快速入门](api/using/get-started-apis.md)
-   + 关于Campaign Standard API {#about-campaign-standard-apis}
+   + 关于 Campaign Standard API {#about-campaign-standard-apis}
       + [为何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [设置 API 访问](api/using/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
