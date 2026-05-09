@@ -12,7 +12,7 @@ feature-set: Campaign
 git-repo: https://github.com/AdobeDocs/campaign-standard.zh-Hans
 index: true
 source-git-commit: edb1d7f9ea7c201624dd5f46687d38d185e4d981
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 10
 ht-degree: 100%
 
