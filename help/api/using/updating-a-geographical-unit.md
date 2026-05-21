@@ -16,7 +16,7 @@ feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 94
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 # 更新轮廓的地理单位 {#updating-a-geographical-unit}
 
-1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单位PKey。
+1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单位密钥。
 1. 对用户档案PKey执行PATCH请求，并在有效负荷中使用所需的地理单位PKey。
 
 <br/>
