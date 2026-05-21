@@ -6,10 +6,14 @@ role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 TQID: https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 226
@@ -35,9 +39,9 @@ ht-degree: 39%
 
 请按照以下步骤创建订阅机制：
 
-1. **创建服务** — 按照此部分](../../audiences/using/creating-a-service.md)中描述的步骤[创建订阅服务
-1. **共享链接** — 在此页面中了解如何推广和共享您的服务[](../../audiences/using/promoting-a-service.md)
-1. **监测订阅** — 在此部分](../../audiences/using/monitoring-subscriptions.md)中探索几种监测您的服务订阅[的方法
+1. **创建服务** — 按照此部分[&#128279;](../../audiences/using/creating-a-service.md)中描述的步骤创建订阅服务
+1. **共享链接** — 在此页面中了解如何推广和共享您的服务[&#128279;](../../audiences/using/promoting-a-service.md)
+1. **监测订阅** — 在此部分[&#128279;](../../audiences/using/monitoring-subscriptions.md)中探索几种监测您的服务订阅的方法
 1. **确认订阅** — 按照[本教程](../../audiences/using/confirming-subscription-to-a-service.md)发送订阅确认消息
 
 ## 其他资源

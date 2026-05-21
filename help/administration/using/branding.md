@@ -8,11 +8,18 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 1310
@@ -93,7 +100,7 @@ ht-degree: 73%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请按照以下步骤进行：
 
-1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 请参阅本文](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)以了解有关子域配置[的更多信息。
+1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 请参阅本文[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)以了解有关子域配置的更多信息。
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ ht-degree: 73%
 
 1. **创建投放模板** — 新品牌可用后，最佳做法是至少创建一个引用此新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查可投放性准则** — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 在本节](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践[的更多信息。
+1. **检查可投放性准则** — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 在本节[&#128279;](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践的更多信息。
 
 ## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 

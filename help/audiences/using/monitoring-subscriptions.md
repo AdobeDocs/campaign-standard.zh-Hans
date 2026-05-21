@@ -9,9 +9,12 @@ role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 TQID: https://experienceleague.adobe.com/jHYwTvEq0C1VKagn885L8zk5RFXJFO-ySYqMjN31nyo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 357
@@ -28,7 +31,7 @@ ht-degree: 1%
 * 从服务仪表板查看当前订阅了您的服务的人员列表。 查看[服务仪表板](#service-dashboard)。
 * 请参阅服务仪表板中&#x200B;**订阅历史记录**&#x200B;选项卡上的订阅和退订历史记录。 请参阅[订阅历史记录](#subscription-history)。
 * 显示详细说明服务&#x200B;**报告**&#x200B;中订阅和退订演变的报告。 查看[服务报告](#service-reports)。
-* 从其&#x200B;**配置文件**&#x200B;查找用户已订阅的服务列表。 查看链接到用户档案](#history-of-events-linked-to-a-profile)的事件的[历史记录。
+* 从其&#x200B;**配置文件**&#x200B;查找用户已订阅的服务列表。 查看链接到用户档案[&#128279;](#history-of-events-linked-to-a-profile)的事件的历史记录。
 
 ## 服务仪表板 {#service-dashboard}
 

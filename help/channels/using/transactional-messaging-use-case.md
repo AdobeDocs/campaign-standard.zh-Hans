@@ -10,10 +10,14 @@ role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 TQID: https://experienceleague.adobe.com/beuMQ7GupAVxjEH26EcBTunk6geaBCTQr9yP4NNSHqs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 512
@@ -43,7 +47,7 @@ ht-degree: 4%
 
 1. 使用&#x200B;**[!UICONTROL Email]**&#x200B;渠道创建新事件。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 
-1. 选择&#x200B;**[!UICONTROL Profile]**&#x200B;定向维度以创建基于用户档案的事务型消息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。[
+1. 选择&#x200B;**[!UICONTROL Profile]**&#x200B;定向维度以创建基于用户档案的事务型消息[&#128279;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
 1. 定义可用于个性化事务型消息的属性。 在此示例中，添加“CRM ID”和“产品标识符”字段。 请参阅[定义事件属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)。
 

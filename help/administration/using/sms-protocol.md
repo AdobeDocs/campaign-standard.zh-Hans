@@ -7,9 +7,16 @@ role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 8714
@@ -702,7 +709,7 @@ SMPP协议规范未严格强制实施SR格式。 它只是规范的[附录B](../
 
 >[!NOTE]
 >
->从21.1版本开始，现在可以添加多个可选参数。 有关更多信息，请参阅此](../../administration/using/sms-protocol.md#automatic-reply-tlv)章节[。
+>从21.1版本开始，现在可以添加多个可选参数。 有关更多信息，请参阅此[&#128279;](../../administration/using/sms-protocol.md#automatic-reply-tlv)章节。
 
 ### 自动回复发送至 MO {#automatic-reply}
 
@@ -840,7 +847,7 @@ SMS协议将SMS限制为255部分，但某些手机无法拼合长度超过10部
 * **检查SR是否已正确处理**
 在投放日志中，短信应标记为已接收。 投放日志应该成功，并且应该如下所示：
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-检查您是否更改了投放提供商名称。 在生产环境中，投放日志绝不应该包含**SR Generic**。
+检查您是否更改了投放提供商名称。 在生产环境中，投放日志绝不应该包含&#x200B;**SR Generic**。
 
 * **检查是否已处理MO**
 如果需要处理MO（自动回复、将MO存储在数据库中等）， 试着做些测试。 为所有自动回复关键字发送几条短信，并检查回复是否足够快，不超过几秒。

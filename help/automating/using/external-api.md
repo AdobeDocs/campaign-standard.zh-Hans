@@ -11,11 +11,17 @@ role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 2262
@@ -102,10 +108,10 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 示例 JSON 定义必须具有&#x200B;**以下特征**：
 
-* **数组元素**必须包含第一级属性（不支持更深层级别）。
+* **数组元素**&#x200B;必须包含第一级属性（不支持更深层级别）。
   **属性名称**&#x200B;最终将成为输出临时表之输出架构的列名称。
 * 要捕获的 **JSON 元素** 在 JSON 响应中的嵌套级别不得大于 10。
-* **列名称**定义基于“data”数组的第一个元素。
+* **列名称**&#x200B;定义基于“data”数组的第一个元素。
 列定义（添加/删除）和属性的类型值，可以在 **Column definition** 选项卡中进行编辑。
 
 **扁平化复选框**&#x200B;行为：

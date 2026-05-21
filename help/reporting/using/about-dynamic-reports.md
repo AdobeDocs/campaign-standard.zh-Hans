@@ -9,12 +9,22 @@ role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 TQID: https://experienceleague.adobe.com/L392oFEzYUkSajzO3Gi7gjWLmDrpbOhW24k1OXFmoRc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 831
@@ -28,7 +38,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->只有具有管理权限或组织单位设置为&#x200B;**全部**&#x200B;的用户才能创建或保存新报告。 有关更多信息，请参阅此](../../administration/using/users-management.md)章节[。
+>只有具有管理权限或组织单位设置为&#x200B;**全部**&#x200B;的用户才能创建或保存新报告。 有关更多信息，请参阅此[&#128279;](../../administration/using/users-management.md)章节。
 
 ## 访问动态报告 {#accessing-dynamic-reports}
 
@@ -77,7 +87,7 @@ ht-degree: 10%
 | 区域 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和APAC （亚太） | **功能可用**。<br> 除ExternalID外，没有现成的用户档案和自定义用户档案信息推送至美国报表中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到美国数据中心。 <br>所有在美国数据中心处理的Adobe Campaign Standard事件字段，但镜像页面ID除外。 <br>有关Microsoft Dynamics 365集成的更多信息，请参阅此[页面](../../integrating/using/d365-acs-get-started.md)。 |
-| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的用户档案和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到EMEA数据中心。 <br>在EMEA数据中心中处理的所有Adobe Campaign Standard事件字段，但镜像页面ID除外。<br>**[!UICONTROL Control data]**包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的更多信息，请参阅此[页面](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的用户档案和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到EMEA数据中心。 <br>在EMEA数据中心中处理的所有Adobe Campaign Standard事件字段，但镜像页面ID除外。<br>**[!UICONTROL Control data]**&#x200B;包含Adobe I/O注册数据和在美国数据中心发送和存储的客户最终用户事件的ID。<br>有关Microsoft Dynamics 365集成的更多信息，请参阅此[页面](../../integrating/using/d365-acs-get-started.md)。 |
 
 此选择不是最终选择，您始终可以通过在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中选择&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;来更改它。
 

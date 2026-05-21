@@ -9,11 +9,18 @@ role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
 TQID: https://experienceleague.adobe.com/hlBJ-vJIu4LU3OlZN06Gni-zvwCLFRKiIWx3fStufpc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 829
@@ -93,7 +100,7 @@ ht-degree: 5%
 
 现在您的用户档案字段已创建，我们需要使用用户档案字段扩展发送日志，以在动态报告中创建关联的自定义用户档案维度。
 
-在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口以访问&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;选项卡。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+在使用我们的用户档案字段扩展日志之前，请确保已接受PII窗口以访问&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;选项卡。 有关详细信息，请参见此 [&#x200B; 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 >[!NOTE]
 >
@@ -110,7 +117,7 @@ ht-degree: 5%
 
    ![](assets/custom_profile_10.png)
 
-   仅当接受PII窗口时，此选项才可用。 有关详细信息，请参见此 [ 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+   仅当接受PII窗口时，此选项才可用。 有关详细信息，请参见此 [&#x200B; 页面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 1. 单击&#x200B;**[!UICONTROL Add]**，然后保存您的自定义资源。
 1. 由于自定义资源已被修改，因此我们需要发布它以实施新的更改。

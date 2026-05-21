@@ -10,10 +10,18 @@ role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 2582
@@ -186,7 +194,7 @@ ht-degree: 1%
 
 * 请注意，集成使用率显着增加或“激增”（例如，新记录或更新记录急剧增加）可能会导致数据同步速度减慢。
 
-* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[](../../integrating/using/d365-acs-configure-d365.md)
+* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[&#128279;](../../integrating/using/d365-acs-configure-d365.md)
 
 * 预计您会将Dynamics 365和Campaign数据模型引入集成并对其进行维护。
 

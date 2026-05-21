@@ -9,11 +9,17 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1208
@@ -113,9 +119,9 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 ## 如何计算定期/事务投放的计数？ {#counts-recurring-deliveries}
 
 处理循环和事务型投放时，这些计数将同时归属于父投放和子投放。
-我们以名为**R1**的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
-假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放会分别将**[!UICONTROL Open]**计数显示为1。
-但是，由于同一人单击了所有投放，因此父定期投放也将**[!UICONTROL Unique open]**&#x200B;作为1。
+我们以名为&#x200B;**R1**&#x200B;的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
+假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放会分别将&#x200B;**[!UICONTROL Open]**&#x200B;计数显示为1。
+但是，由于同一人单击了所有投放，因此父定期投放也将&#x200B;**[!UICONTROL Unique open]**&#x200B;作为1。
 
 报表应如下所示：
 

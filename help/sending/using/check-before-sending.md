@@ -10,11 +10,16 @@ role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 TQID: https://experienceleague.adobe.com/3qM5opRzD4u8HV5PALkfERzsLnWx1AsLuaDs8frG-Ic
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 412
@@ -34,7 +39,7 @@ ht-degree: 15%
 
 此步骤允许您检测可能的错误，并在将其交付到主目标之前修复它们。
 
-本节](../../sending/using/get-started-sending-messages.md#prepare-test-send)中介绍了验证投放的步骤[。
+本节[&#128279;](../../sending/using/get-started-sending-messages.md#prepare-test-send)中介绍了验证投放的步骤。
 
 ## 电子邮件渲染 {#email-rendering}
 
@@ -48,13 +53,13 @@ ht-degree: 15%
 
 * 电子邮件渲染功能对于确定电子邮件促销活动是否成功超越主要ISP（Internet服务提供商）和Web邮件服务的过滤器至关重要。 此类工具会将电子邮件的预检副本发送到测试收件箱网络，以便您了解消息在这些服务中的显示或呈现方式。 它们可能还包括报表和代码更正选项，帮助您快速识别并进行修复以改善可投放性。
 
-在本节](../../sending/using/email-rendering.md)中了解更多[。
+在本节[&#128279;](../../sending/using/email-rendering.md)中了解更多。
 
 ## 验证消息 {#proof-messages}
 
 通过发送校样，可检查选择退出链接、镜像页面和任何其他链接、验证消息、验证是否显示图像、检测可能存在的错误等。您可能还希望检查您的设计和在不同设备上的渲染。
 
-在本节](../../sending/using/sending-proofs.md)中了解更多[。
+在本节[&#128279;](../../sending/using/sending-proofs.md)中了解更多。
 
 ## 设置A/B测试投放 {#a-b-testing-deliveries}
 
@@ -66,4 +71,4 @@ ht-degree: 15%
 
 * 选择成功率最高的项目并将其发送到目标的其余部分
 
-在本节](../../channels/using/designing-an-a-b-test-email.md)中了解更多[。
+在本节[&#128279;](../../channels/using/designing-an-a-b-test-email.md)中了解更多。
