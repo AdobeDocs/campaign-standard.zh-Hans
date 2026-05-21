@@ -7,10 +7,15 @@ role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 434
@@ -32,19 +37,19 @@ Experience Platform SDK支持推送通知。
 
 接收推送通知的移动应用程序必须由管理员在Adobe Campaign界面中配置。
 
-通过配置Adobe Campaign和Adobe Mobile Services，您可以将移动应用程序的数据用于营销活动。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md)。
+通过配置Adobe Campaign和Adobe Mobile Services，您可以将移动应用程序的数据用于营销活动。 有关详细信息，请参见此 [&#x200B; 页面](../../administration/using/configuring-a-mobile-application.md)。
 
-要使用Experience Cloud SDK应用程序发送推送通知，必须在数据收集UI中设置移动应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [ 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+要使用Experience Cloud SDK应用程序发送推送通知，必须在数据收集UI中设置移动应用程序，并在Adobe Campaign中进行配置。 有关详细信息，请参见此 [&#x200B; 页面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 ## 步骤2：在Adobe Campaign中自定义推送通知 {#customize-push}
 
 要优化推送通知消息，可在设计推送通知消息时通过 Adobe Campaign 访问一组高级选项。
 
-1. 创建推送通知。 有关详细信息，请参见此 [ 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 创建推送通知。 有关详细信息，请参见此 [&#x200B; 页面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 从推送通知内容页面，访问&#x200B;**[!UICONTROL Advanced options]**&#x200B;部分。
 
-1. 在&#x200B;**[!UICONTROL Rich media content URL]**字段中输入文件的URL。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**&#x200B;字段中输入文件的URL。
 对于 iOS 10 或更高版本，可插入图像、GIF 动图、音频和视频文件。
 
    ![](assets/push_notif_advanced_6.png)

@@ -7,9 +7,14 @@ role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 2724
@@ -49,7 +54,7 @@ Adobe Campaign将外部帐户视为不相关的实体。
    * 某些外部帐户共享相同的登录/密码组合。
 提供程序无法辨别`BIND PDU`来自哪个外部帐户，因此他们将来自多个帐户的所有连接视为单个连接。 他们可能已将MO和SR随机路由到两个帐户，从而导致出现问题。
 如果提供程序支持同一登录/密码组合使用多个短代码，则必须询问他们将短代码放在`BIND PDU`中的什么位置。 请注意，此信息必须放在`BIND PDU`中，而不是放在`SUBMIT_SM`中，因为`BIND PDU`是唯一允许正确路由MO的位置。
-请参阅上面各种PDU](../../administration/using/sms-protocol.md#information-pdu)部分中的[信息以了解`BIND PDU`中可用的字段，通常是在`address_range`中添加短代码，但这需要提供程序的特别支持。 联系他们，了解他们希望如何独立路由多个短代码。
+请参阅上面各种PDU[&#128279;](../../administration/using/sms-protocol.md#information-pdu)部分中的信息以了解`BIND PDU`中可用的字段，通常是在`address_range`中添加短代码，但这需要提供程序的特别支持。 联系他们，了解他们希望如何独立路由多个短代码。
 Adobe Campaign支持在同一外部帐户上处理多个短代码。
 
 ## 外部帐户一般问题 {#external-account-issues}
