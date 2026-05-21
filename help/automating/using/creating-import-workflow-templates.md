@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/u3VuLGtTmsM-4wztLfsNhGIX2F-aVI1HTtaCqXinBPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: 1177
 ht-degree: 1%
 
 ---
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 1. 配置&#x200B;**[!UICONTROL Load file]**&#x200B;活动：
 
-   * 通过上传样例文件来定义预期的结构。 样例文件应仅包含几行，但应包含导入所需的所有列。 检查并编辑文件格式，确保正确设置了每列的类型：文本、日期、整数等。 例如：
+   * 通过上传样例文件来定义预期的结构。 样例文件应仅包含几行，但应包含导入所需的所有列。 检查并编辑文件格式，确保正确设置了每列的类型：文本、日期、整数等。例如：
 
      ```
      lastname;firstname;birthdate;email;crmID
@@ -80,7 +85,7 @@ ht-degree: 1%
 
    * 在前两个子集中未选择的所有记录都在&#x200B;**[!UICONTROL Complement]**&#x200B;中选择。
 
-1. 配置位于先前配置的&#x200B;**[!UICONTROL Update data]**&#x200B;活动的第一个叫客过渡之后的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动。
+1. 配置位于先前配置的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动的第一个叫客过渡之后的&#x200B;**[!UICONTROL Update data]**&#x200B;活动。
 
    * 选择&#x200B;**[!UICONTROL Update]**&#x200B;作为&#x200B;**[!UICONTROL Operation type]**，因为集客过渡仅包含数据库中已存在的收件人。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;并定义&#x200B;**[!UICONTROL Dimension to update]** — 在此例中是配置文件 — 与&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接之间的键。 在此示例中，使用了&#x200B;**CRM ID**&#x200B;自定义字段。
@@ -106,7 +111,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 配置位于之前配置的&#x200B;**[!UICONTROL Update data]**&#x200B;活动之后的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活动。
+1. 配置位于之前配置的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活动之后的&#x200B;**[!UICONTROL Update data]**&#x200B;活动。
 
    * 选择&#x200B;**[!UICONTROL Insert only]**&#x200B;作为&#x200B;**[!UICONTROL Operation type]**，因为集客过渡仅包含数据库中不存在的配置文件。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;并定义&#x200B;**[!UICONTROL Dimension to update]** — 在此例中是配置文件 — 与&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接之间的键。 在此示例中，使用了&#x200B;**CRM ID**&#x200B;自定义字段。

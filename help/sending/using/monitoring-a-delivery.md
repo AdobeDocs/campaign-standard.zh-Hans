@@ -9,9 +9,20 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
+TQID: https://experienceleague.adobe.com/QybG0D0D6-Fa6bfpjD-sI7WrQbxDelc0IBVC4BcWLlg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 503
 ht-degree: 79%
 
 ---
@@ -24,15 +35,15 @@ ht-degree: 79%
 >
 >只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位的功能[管理员](../../administration/using/users-management.md#functional-administrators)才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
-* **消息日志**：可直接从消息仪表板访问这些日志。日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
+* **消息日志**：可直接从消息仪表板访问这些日志。 日志中包含发送、已排除的目标及排除原因，以及打开和单击等跟踪信息的详情。
 
   要查看消息日志，请单击 **[!UICONTROL Deployment]** 块右下方的图标。
 
-  多个选项卡包含与 **[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]** 有关的信息（如存在）。请参阅[投放日志](#delivery-logs)。
+  多个选项卡包含与 **[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]** 有关的信息（如存在）。 请参阅[投放日志](#delivery-logs)。
 
   ![](assets/sending_delivery1.png)
 
-  日志包含与投放和校样有关的所有消息。利用特定的图标，可识别错误或警告。有关更多信息，请参阅[批准消息](../../sending/using/previewing-messages.md)。
+  日志包含与投放和校样有关的所有消息。 利用特定的图标，可识别错误或警告。 有关更多信息，请参阅[批准消息](../../sending/using/previewing-messages.md)。
 
   您可以通过单击 **[!UICONTROL Export list]** 按钮导出日志。
 
@@ -45,8 +56,8 @@ ht-degree: 79%
   ![](assets/sending_delivery8.png)
 
 * **投放警报**：为长期跟踪投放是成功还是失败，Adobe Campaign 提供了电子邮件警报系统，用于发送通知以告知用户重要的系统活动。
-* **报告**：在消息仪表板中，您可以访问此特定消息的多个报告。系统还提供了 **[!UICONTROL Reports]** 菜单，用于访问内置或自定义报告的完整列表，您可将其用于概览与消息或营销策划有关的特定指标。
-* 管理员还可以将日志导出为单独的文件，以便在您自己的报告或 BI 工具中处理该文件。有关更多信息，请参阅[导出日志](../../automating/using/exporting-logs.md)。
+* **报告**：在消息仪表板中，您可以访问此特定消息的多个报告。 系统还提供了 **[!UICONTROL Reports]** 菜单，用于访问内置或自定义报告的完整列表，您可将其用于概览与消息或营销策划有关的特定指标。
+* 管理员还可以将日志导出为单独的文件，以便在您自己的报告或 BI 工具中处理该文件。 有关更多信息，请参阅[导出日志](../../automating/using/exporting-logs.md)。
 
 **相关主题：**
 
@@ -57,9 +68,9 @@ ht-degree: 79%
 
 ### 正在发送日志 {#sending-logs}
 
-**[!UICONTROL Sending logs]** 选项卡提供了每次进行此投放的历史记录。此处保存了已发送消息的列表及其状态。您可通过该处查看每个收件人的投放状态。
+**[!UICONTROL Sending logs]** 选项卡提供了每次进行此投放的历史记录。 此处保存了已发送消息的列表及其状态。 您可通过该处查看每个收件人的投放状态。
 
-对于具有 **[!UICONTROL Sent]** 状态的每个用户档案，**[!UICONTROL Date]** 列都显示了消息的发送时间。
+对于具有 **[!UICONTROL Sent]** 状态的每个轮廓，**[!UICONTROL Date]** 列都显示了消息的发送时间。
 
 ![](assets/sending_delivery3.png)
 
@@ -67,13 +78,13 @@ ht-degree: 79%
 
 ![](assets/sending_access-sending-log.png)
 
-所有发送日志详细信息均为只读状态。您还可以查看镜像页面的预览。
+所有发送日志详细信息均为只读状态。 您还可以查看镜像页面的预览。
 
 ![](assets/sending_sending-log.png)
 
 >[!NOTE]
 >
->要在 Campaign 用户界面中显示镜像页面的表达，镜像页面服务器 URL 必须是安全的。在本例中，[配置品牌](../../administration/using/branding.md#configuring-and-using-brands)时，请使用 https:// 而不是 http:// 设置此 URL。
+>要在 Campaign 用户界面中显示镜像页面的表达，镜像页面服务器 URL 必须是安全的。 在本例中，[配置品牌](../../administration/using/branding.md#configuring-and-using-brands)时，请使用 https:// 而不是 http:// 设置此 URL。
 
 ### 排除日志 {#exclusion-logs}
 

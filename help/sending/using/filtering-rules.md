@@ -8,10 +8,19 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 3%
+source-wordcount: 662
+ht-degree: 4%
 
 ---
 
@@ -25,7 +34,7 @@ ht-degree: 3%
 
 | 标签 | 渠道 | 说明 |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | 全部 | 不包括未指定地址（电子邮件、邮政地址等）的目标人群。 （根据所选渠道）。 |
+| **[!UICONTROL Address not specified]** | 全部 | 排除未指定地址（电子邮件、邮政地址等，具体取决于所选渠道）的目标群体。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除阻止列表上的地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根据目标群体&#x200B;**[!UICONTROL Address]**&#x200B;字段排除重复项。 |
 | **[!UICONTROL Exclude mobile applications]** | 移动应用程序 | 排除与消息中定义的移动应用程序不匹配的应用程序订阅。 |
@@ -38,11 +47,11 @@ ht-degree: 3%
 除了这些默认筛选规则之外，还提供两个排除规则：
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** )。
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
 在电子邮件分析期间，这些规则将收件人电子邮件地址与包含在可投放性实例中管理的加密全局禁止列表中的禁止地址或域名进行比较。 如果存在匹配项，则不会将该消息发送给该收件人。
 
-列入阻止列表这是为了避免由于恶意活动（特别是使用Spamtrap）而添加到。 列入阻止列表例如，如果使用Spamtrap通过某个Web窗体进行订阅，则会自动向该Spamtrap发送确认电子邮件，这会导致您的地址自动添加到中。
+这是为了避免由于恶意活动（特别是使用Spamtrap）而添加到。 例如，如果使用Spamtrap通过某个Web窗体进行订阅，则会自动向该Spamtrap发送确认电子邮件，这会导致您的地址自动添加到中。
 
 >[!NOTE]
 >

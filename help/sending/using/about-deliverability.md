@@ -9,10 +9,23 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/UpAgRgq2WebJpzRW43aWhDYPb-r9nP24OYfcD78Ktds
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 6%
+source-wordcount: 849
+ht-degree: 7%
 
 ---
 
@@ -82,7 +95,7 @@ Adobe Campaign管理着收集垃圾邮件投诉、硬退回和一致发生的软
 
 为了保护您的可投放性，默认情况下，该列表中地址包含的收件人将从所有未来投放中排除，因为发送给这些联系人可能会损害您的发送信誉。
 
-如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提供商添加到阻止列表。
+如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。 因此，隔离可让您避免被这些提供商添加到阻止列表。
 
 有关更多信息，请参阅以下章节：
 
@@ -98,7 +111,7 @@ Adobe Campaign允许您通过一组内置实时指标检查投放的执行情况
 
 有关更多信息，请参阅以下章节：
 
-* [监测可投放性](../../sending/using/monitor-deliverability.md)
+* [正在监视可投放性](../../sending/using/monitor-deliverability.md)
   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [在失败时接收提醒](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [动态报告](../../reporting/using/about-dynamic-reports.md)

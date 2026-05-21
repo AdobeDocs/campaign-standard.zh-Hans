@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 91%
+source-wordcount: 1368
+ht-degree: 90%
 
 ---
 
@@ -27,11 +34,11 @@ ht-degree: 91%
 
 ![](assets/data_loading.png)
 
-利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。
+利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。 此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。
 
 ## 使用环境 {#context-of-use}
 
-可在配置活动时定义数据的提取方式。例如，要加载的文件可以是联系人的列表。
+可在配置活动时定义数据的提取方式。 例如，要加载的文件可以是联系人的列表。
 
 您可以：
 
@@ -51,11 +58,11 @@ ht-degree: 91%
 
 ## 配置 {#configuration}
 
-活动的配置包含两个步骤。首先，您需要通过上传样例文件来定义预期的文件结构。完成此操作后，您可以指定要导入其数据之文件的来源。
+活动的配置包含两个步骤。 首先，您需要通过上传样例文件来定义预期的文件结构。 完成此操作后，您可以指定要导入其数据之文件的来源。
 
 >[!NOTE]
 >
->并不会导入样例文件的数据，仅将其用于配置活动。我们建议使用包含少量数据的样例文件。
+>并不会导入样例文件的数据，仅将其用于配置活动。 我们建议使用包含少量数据的样例文件。
 
 1. 将 **[!UICONTROL Load file]** 活动拖放到工作流中。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
@@ -70,19 +77,19 @@ ht-degree: 91%
    如果检测到文件结构错误，可通过以下几种方法纠正可能存在的错误：
 
    * 通过选择 **[!UICONTROL Detect structure from a new file]** 选项，选择使用另一个文件的结构。
-   * 修改默认检测参数，使其适应您的文件。利用 **[!UICONTROL File type]** 字段，可指定要导入的文件是否由具有固定长度的列组成。在这种情况下，您还必须在 **[!UICONTROL Column definition]** 选项卡中为每个列指定最大字符数。
+   * 修改默认检测参数，使其适应您的文件。 利用 **[!UICONTROL File type]** 字段，可指定要导入的文件是否由具有固定长度的列组成。 在这种情况下，您还必须在 **[!UICONTROL Column definition]** 选项卡中为每个列指定最大字符数。
 
-     从文件正确取回数据所需的所有检测选项，都重组到了 **[!UICONTROL File format]** 中。您可以修改它们，然后重新检测活动中加载的最后一个文件的结构，以考虑这些新设置。要实现此目的，请使用 **[!UICONTROL Apply configuration]** 按钮。例如，可指定不同的列分隔符。
+     从文件正确取回数据所需的所有检测选项，都重组到了 **[!UICONTROL File format]** 中。 您可以修改它们，然后重新检测活动中加载的最后一个文件的结构，以考虑这些新设置。 要实现此目的，请使用 **[!UICONTROL Apply configuration]** 按钮。 例如，可指定不同的列分隔符。
 
      >[!NOTE]
      >
-     >此操作将考虑活动中加载的最后一个文件。如果检测到的文件较大，则数据预览将仅显示前 30 行。
+     >此操作将考虑活动中加载的最后一个文件。 如果检测到的文件较大，则数据预览将仅显示前 30 行。
 
      ![](assets/wkf_file_loading3.png)
 
      利用 **[!UICONTROL File format]** 部分的 **[!UICONTROL Check columns from file against column definitions]** 选项，可验证上传文件的列是否与列定义相对应。
 
-     如果列数和/或列名与列定义不匹配，则在执行工作流时将显示错误消息。如果未激活该选项，则日志文件中将显示警告。
+     如果列数和/或列名与列定义不匹配，则在执行工作流时将显示错误消息。 如果未激活该选项，则日志文件中将显示警告。
 
      ![](assets/wkf_file_loading_check.png)
 
@@ -90,7 +97,7 @@ ht-degree: 91%
 
    利用 **[!UICONTROL Column definition]** 选项卡，可精确指定每列的数据结构，以便导入不包含任何错误的数据（例如，使用空值管理），并使其与 Adobe Campaign 数据库中已存在的类型匹配，以便将来进行操作。
 
-   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等），甚至可指定错误处理。
+   例如，您可以更改列的标签，选择其类型（字符串、整数、日期等） 甚至指定错误处理。
 
    有关更多信息，请参阅[列格式](#column-format)一节。
 
@@ -100,15 +107,15 @@ ht-degree: 91%
 
    * 来自工作流集客过渡的数据。
    * 上一步中上传的数据。
-   * 从本地计算机上传的新文件。如果上传的第一个文件已经在工作流中定义，则会显示 **[!UICONTROL Upload a new file from local machine]** 选项。如果当前文件不适合您的需要，使用此选项可让您上传另一个文件以供处理。
+   * 从本地计算机上传的新文件。 如果上传的第一个文件已经在工作流中定义，则会显示 **[!UICONTROL Upload a new file from local machine]** 选项。 如果当前文件不适合您的需要，使用此选项可让您上传另一个文件以供处理。
 
      ![](assets/wkf_file_loading1.png)
 
-1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。使用此选项可在加载数据之前解压缩文件。仅当文件来自活动的集客过渡时，此选项才可用。
+1. 如果要加载其数据的文件已压缩为 GZIP 文件 (.gz)，请为 **[!UICONTROL Add a pre-processing stage]** 字段选择 **[!UICONTROL Decompression]** 选项。 使用此选项可在加载数据之前解压缩文件。 仅当文件来自活动的集客过渡时，此选项才可用。
 
    **[!UICONTROL Add a pre-processing stage]**&#x200B;字段还允许您在将文件导入数据库之前对其进行解密。 有关如何使用加密文件的详细信息，请参阅[此部分](../../automating/using/managing-encrypted-data.md)
 
-1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。激活该选项后，叫客过渡将重命名为“Rejects”。
+1. 利用 **[!UICONTROL Keep the rejects in a file]** 选项，可下载导入期间发生错误的文件，并将其应用到后处理阶段。 激活该选项后，叫客过渡将重命名为“Rejects”。
 
    >[!NOTE]
    >
@@ -118,13 +125,13 @@ ht-degree: 91%
 
 1. 确认活动的配置并保存工作流。
 
-如果执行工作流后活动发生任何错误，请参阅日志以获取有关文件中错误值的更多详细信息。有关工作流日志的更多信息，请参阅[此章节](../../automating/using/monitoring-workflow-execution.md)。
+如果执行工作流后活动发生任何错误，请参阅日志以获取有关文件中错误值的更多详细信息。 有关工作流日志的更多信息，请参阅[此章节](../../automating/using/monitoring-workflow-execution.md)。
 
 ## 列格式 {#column-format}
 
-加载样例文件时，将自动检测列格式以及每种数据类型的默认参数。您可以修改这些默认参数，以指定要应用于数据的特定进程，尤其是当存在错误或空值时。
+加载样例文件时，将自动检测列格式以及每种数据类型的默认参数。 您可以修改这些默认参数，以指定要应用于数据的特定进程，尤其是当存在错误或空值时。
 
-要实现此目的，请从要定义其格式之列的快速操作中选择 **[!UICONTROL Edit properties]**。随即会打开列格式详细信息窗口。
+要实现此目的，请从要定义其格式之列的快速操作中选择 **[!UICONTROL Edit properties]**。 随即会打开列格式详细信息窗口。
 
 ![](assets/wkf_file_loading4.png)
 
@@ -146,10 +153,10 @@ ht-degree: 91%
    * **[!UICONTROL Format]**：用于定义&#x200B;**Integer** 和 **Floating number** 数据的数值格式。
    * **[!UICONTROL Separator]**：定义用于 **Date**、**Time**、**Date and time**、**Integer** 和 **Floating number** 数据的、由列上下文指定的分隔符（用于数值的千位分隔符或小数分隔符、用于日期和时间的分隔符）。
 
-* **[!UICONTROL Remapping of values]**：只有列详细信息配置中可提供了此字段。利用该字段，可在导入某些值时对其进行转换。例如，您可以将“three”转换为“3”。
+* **[!UICONTROL Remapping of values]**：只有列详细信息配置中可提供了此字段。 利用该字段，可在导入某些值时对其进行转换。 例如，您可以将“three”转换为“3”。
 * **[!UICONTROL Error processing]**：定义遇到错误时的行为。
 
-   * **[!UICONTROL Ignore the value]**：忽略值。工作流执行日志中会生成警告。
+   * **[!UICONTROL Ignore the value]**：忽略值。 工作流执行日志中会生成警告。
    * **[!UICONTROL Reject the line]**：不处理整个行。
    * **[!UICONTROL Use a default value]**：将导致错误的值替换为在 **[!UICONTROL Default value]** 字段中定义的默认值。
    * **[!UICONTROL Use a default value in case the value is not remapped]**：除非为错误值定义了映射，否则将导致错误的值替换为在 **[!UICONTROL Default value]** 字段中定义的默认值（请参阅上方的 **[!UICONTROL Remapping of values]** 选项）。
@@ -157,11 +164,11 @@ ht-degree: 91%
 
   >[!NOTE]
   >
-  >**[!UICONTROL Error processing]** 涉及与导入文件之值有关的错误。例如，遇到错误的数据类型（“整数”列中填写全部是字母的“four”）、包含字符数超过授权字符数上限的字符串、具有错误分隔符的日期等。但是，此选项不涉及由空值管理生成的错误。
+  >**[!UICONTROL Error processing]** 涉及与导入文件之值有关的错误。 例如，遇到错误的数据类型（“整数”列中填写全部是字母的“four”）、包含字符数超过授权字符数上限的字符串、具有错误分隔符的日期等。但是，此选项不涉及由空值管理生成的错误。
 
 * **[!UICONTROL Default value]**：根据所选的错误处理指定默认值。
 * **[!UICONTROL Empty value management]**：指定在数据加载期间管理空值的方式。
 
    * **[!UICONTROL Generate an error for numerical fields]**：仅为数字字段生成错误，否则插入 NULL 值。
-   * **[!UICONTROL Insert NULL in the corresponding field]**：授权空值。因此，会插入 NULL 值。
+   * **[!UICONTROL Insert NULL in the corresponding field]**：授权空值。 因此，会插入 NULL 值。
    * **[!UICONTROL Generate an error]**：如果值为空，则生成错误。

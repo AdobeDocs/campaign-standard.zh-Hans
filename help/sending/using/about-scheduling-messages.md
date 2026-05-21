@@ -8,10 +8,17 @@ context-tags: delivery,schedule,back
 feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: 276
+ht-degree: 80%
 
 ---
 
@@ -27,23 +34,23 @@ ht-degree: 100%
 
 利用 **[!UICONTROL Schedule]** 属性，可以设置电子邮件、短信或推送通知的发送选项：
 
-* **[!UICONTROL Messages to be sent once confirmed]**：确认发送后立即发送消息。请参阅[确认发送](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Messages to be sent once confirmed]**：确认发送后立即发送消息。 请参阅[确认发送](../../sending/using/confirming-the-send.md)。
 
   ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Messages to be sent automatically on the date specified below]**：在将来的日期和时间发送消息。请在 **Start sending from** 字段中指定&#x200B;**联系日期**。
+* **[!UICONTROL Messages to be sent automatically on the date specified below]**：在将来的日期和时间发送消息。 请在 **Start sending from** 字段中指定&#x200B;**联系日期**。
 
-  您可以准备并确认发送，但只有达到所选日期和时间才会开始发送消息。有关准备和确认发送的详情，请参见[准备发送](../../sending/using/preparing-the-send.md)和[确认发送](../../sending/using/confirming-the-send.md)章节。
+  您可以准备并确认发送，但只有达到所选日期和时间才会开始发送消息。 有关准备和确认发送的详情，请参见[准备发送](../../sending/using/preparing-the-send.md)和[确认发送](../../sending/using/confirming-the-send.md)章节。
 
-  利用 **[!UICONTROL Time zone of the contact date]** 下拉列表，可修改与发送时间有关的时区。例如，如果您在 **[!UICONTROL Start sending from]** 字段中输入“9:00 AM”，并在 **[!UICONTROL Time zone of the contact date]** 下拉列表中选择“Brussels, Copenhagen, Madrid, Paris (GMT+1)”，则所有收件人将在巴黎时间上午 9:00 收到该消息。而位于“莫斯科 (GMT+3)”的收件人将在莫斯科时间上午 11:00 收到该消息。
+  利用 **[!UICONTROL Time zone of the contact date]** 下拉列表，可修改与发送时间有关的时区。 例如，如果您在&#x200B;**[!UICONTROL Start sending from]**&#x200B;字段中输入“9:00 AM”，并在&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;下拉列表中选择“Brussels， Copenhagen， Madrid， Paris (GMT+1)”，则所有收件人将在巴黎时间上午9:00收到该消息。 因此，位于莫斯科(GMT+3)的收件人将在莫斯科时间上午11:00收到该消息。
 
-  如果要手动确认发送，请勾选 **[!UICONTROL Request confirmation before sending messages]** 选项。默认启用此选项。
+  如果要手动确认发送，请勾选 **[!UICONTROL Request confirmation before sending messages]** 选项。 默认启用此选项。
 
   ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >
->复制投放时，会删除所有计划设置。除非您计划了新的联系日期，否则一旦发送确认，将立即发送复制的投放。
+>复制投放时，会删除所有计划设置。 除非您计划了新的联系日期，否则一旦发送确认，将立即发送复制的投放。
 
 **相关主题**：
 

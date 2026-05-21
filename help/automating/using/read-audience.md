@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/mPVqmIC2ovLQdipvGbwI7GCZXejCTyCgwBYWFbCeTRg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: 206
 ht-degree: 86%
 
 ---
@@ -40,9 +47,9 @@ ht-degree: 86%
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 从 **[!UICONTROL Properties]** 选项卡中选择要检索的受众。
 
-   您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。
+   您可以检索以下受众类型：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 和 **[!UICONTROL Experience Cloud]**。 有关受众类型的更多信息，请参阅[受众](../../audiences/using/about-audiences.md)文档。
 
-   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。有关详细信息，请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)部分。
+   利用 **[!UICONTROL Use a dynamic audience]** 选项，您可以根据工作流的事件变量定义待定向受众的名称。 有关详细信息，请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)部分。
 
    ![](assets/readaudience_activity1.png)
 

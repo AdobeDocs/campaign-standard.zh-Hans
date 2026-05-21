@@ -9,9 +9,19 @@ feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 1004
 ht-degree: 97%
 
 ---
@@ -61,7 +71,7 @@ ht-degree: 97%
 
 * **[!UICONTROL Local notification]**：此类型的布局将显示为横幅消息。
 
-  此选项仅支持声音、文本和目标。有关本地通知的更多信息，请参阅[自定义本地通知消息类型](#customizing-a-local-notification-message-type)。
+  此选项仅支持声音、文本和目标。 有关本地通知的更多信息，请参阅[自定义本地通知消息类型](#customizing-a-local-notification-message-type)。
 
 每种类型的布局都可以在不同设备（如手机、平板电脑、平台 (如 Android 或 iOS)）上以不同的方向（如内容编辑器的右侧窗口中的横向或纵向）预览。
 
@@ -86,7 +96,7 @@ ht-degree: 97%
 
 ### 文本 {#text}
 
-如果需要，您还可以向应用程序内消息添加消息标题和内容。为了更好地个性化您的应用程序内消息，您可以向内容添加各种个性化字段、内容块和动态文本。
+如果需要，您还可以向应用程序内消息添加消息标题和内容。 为了更好地个性化您的应用程序内消息，您可以向内容添加各种个性化字段、内容块和动态文本。
 
 1. 在 **[!UICONTROL Text]** 下拉列表中，为 **[!UICONTROL Message title]** 字段添加标题。
 
@@ -140,7 +150,7 @@ ht-degree: 97%
 
 ## 自定义本地通知消息类型 {#customizing-a-local-notification-message-type}
 
-本地通知只能由应用程序在特定时间根据事件触发。即使没有互联网访问权限，本地通知也可以提醒用户，其应用程序中发生了一些情况。
+本地通知只能由应用程序在特定时间根据事件触发。 即使没有互联网访问权限，本地通知也可以提醒用户，其应用程序中发生了一些情况。
 要了解如何跟踪本地通知，请参阅此[页面](../../administration/using/local-tracking.md)。
 
 要自定义本地通知，请执行以下步骤：
@@ -156,12 +166,12 @@ ht-degree: 97%
 1. 在 **[!UICONTROL Advanced option]** 类别下、**[!UICONTROL Wait to display]** 字段中，选择触发事件后在屏幕上显示本地通知的时长（以秒为单位）。
 1. 在 **[!UICONTROL Sound]** 字段中，输入移动设备接收到本地通知时所播放之声音文件的文件名（带扩展名）。
 
-   如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。否则，将播放设备的默认声音。
+   如果在手机应用程序资源包中定义了声音文件，则在投放通知时会播放该文件。 否则，将播放设备的默认声音。
 
    ![](assets/inapp_customize_19.png)
 
 1. 指定一个目的地，在用户与 **[!UICONTROL Deeplink URL]** 字段中的本地通知交互时，将用户重定向。
-1. 要以键值对的形式在有效载荷中传递自定义数据，可向本地通知添加自定义字段。在 **[!UICONTROL Custom fields]** 类别中，单击 **[!UICONTROL Create an element]** 按钮。
+1. 要以键值对的形式在有效载荷中传递自定义数据，可向本地通知添加自定义字段。 在 **[!UICONTROL Custom fields]** 类别中，单击 **[!UICONTROL Create an element]** 按钮。
 1. 输入 **[!UICONTROL Keys]**，接着输入与各个键值关联的 **[!UICONTROL Values]**。
 
    请注意，自定义字段的处理和用途完全取决于移动应用程序。

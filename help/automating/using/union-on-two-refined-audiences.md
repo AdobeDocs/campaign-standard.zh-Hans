@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NZA7DqSxrgPvNPfo4dgWvyJaOp-2Ma07MZJuHff3sAA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 43%
 
 ---
 
 # 两个已优化受众的联合 {#example--union-on-two-refined-audiences}
 
-此示例中定义的工作流展示了两个 **[!UICONTROL Read audience]** 活动的并集。此工作流程的目标是向18至30岁的金牌或银牌会员发送电子邮件。 系统中已创建特定受众以跟踪金牌和银牌会员。
+此示例中定义的工作流展示了两个 **[!UICONTROL Read audience]** 活动的并集。 此工作流程的目标是向18至30岁的金牌或银牌会员发送电子邮件。 系统中已创建特定受众以跟踪金牌和银牌会员。
 
 工作流的设计如下所示：
 

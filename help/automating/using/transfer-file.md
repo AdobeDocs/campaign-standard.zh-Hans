@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 76%
+source-wordcount: 1172
+ht-degree: 73%
 
 ---
 
@@ -27,7 +36,7 @@ ht-degree: 76%
 
 ## 使用环境 {#context-of-use}
 
-可在配置活动时定义数据的提取方式。例如，要加载的文件可以是联系人的列表。
+可在配置活动时定义数据的提取方式。 例如，要加载的文件可以是联系人的列表。
 
 您可以使用此活动取回随后将要使用 **[!UICONTROL Load file]** 活动构建的数据。
 
@@ -44,9 +53,9 @@ ht-degree: 76%
    ![](assets/wkf_file_transfer_01.png)
 
    * **文件下载**：用于下载文件。
-   * **文件上传**：用于上传文件。从 Adobe Campaign 文件上传文件，会在 **[!UICONTROL Export audits]** 菜单中生成日志条目。有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
+   * **文件上传**：用于上传文件。 从 Adobe Campaign 文件上传文件，会在 **[!UICONTROL Export audits]** 菜单中生成日志条目。 有关导出审核的更多信息，请参阅[审核导出](../../administration/using/auditing-export-logs.md)一节。
    * **测试以查看文件是否存在**：用于检查文件是否存在。
-   * **文件列表**：用于列出 **[!UICONTROL Protocol]** 选项卡中规定服务器上存在的文件。此操作主要用于调试，主要是为了在从远程服务器下载文件之前，检查活动配置是否符合您的需要。
+   * **文件列表**：用于列出 **[!UICONTROL Protocol]** 选项卡中规定服务器上存在的文件。 此操作主要用于调试，主要是为了在从远程服务器下载文件之前，检查活动配置是否符合您的需要。
 
 1. 选择要使用的协议：
    * [HTTP](#HTTP-configuration-wf)
@@ -65,11 +74,11 @@ ht-degree: 76%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL File listing]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL General]**&#x200B;操作时，此选项可用。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
+   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL File listing]**&#x200B;操作时，此选项可用。 利用此选项可在 **vars.filenames** 事件变量中索引服务器上存在的所有文件，其中各个文件名之间以 **&#39;n’** 字符进行分隔。
 
 1. 通过 **[!UICONTROL Advanced options]** 选项卡的 **[!UICONTROL If no files are found]** 部分，可配置如果在启动活动时检测到任何错误或不存在文件，应执行的特定操作。
 
-   您还可以定义重试。工作流执行日志中会显示各项不同的重试。
+   您还可以定义重试。 工作流执行日志中会显示各项不同的重试。
 
    ![](assets/wkf_file_transfer_09.png)
 
@@ -83,7 +92,7 @@ ht-degree: 76%
 
 ![](assets/wkf_file_transfer_03.png)
 
-您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
+您还可以选择 **[!UICONTROL Quick configuration]** 选项。 只需在 URL 字段中输入 URL 即可。
 ![](assets/wkf_file_transfer_04.png)
 
 选择HTTP协议时，**[!UICONTROL Follow redirections]**、**[!UICONTROL Ignore the HTTP return code]**&#x200B;和&#x200B;**[!UICONTROL Add received HTTP headers to the file]**&#x200B;是可用的其他选项。
@@ -99,13 +108,13 @@ ht-degree: 76%
 >
 >支持使用通配符。
 
-您还可以选择 **[!UICONTROL Quick configuration]** 选项。只需在 URL 字段中输入 URL 即可。
+您还可以选择 **[!UICONTROL Quick configuration]** 选项。 只需在 URL 字段中输入 URL 即可。
 
 ### Amazon S3的配置 {#S3-configuration-wf}
 
 利用 Amazon S3 协议，可通过 Amazon Simple Storage Service (S3) 从 URL 或外部帐户下载文件。
 
-1. 选择 Amazon S3 外部帐户。有关更多信息，请参见此[页面](../../administration/using/external-accounts.md#amazon-s3-external-account)。
+1. 选择 Amazon S3 外部帐户。 有关更多信息，请参见此[页面](../../administration/using/external-accounts.md#amazon-s3-external-account)。
 
 2. 选择是要 **[!UICONTROL Define a file path]** 还是 **[!UICONTROL Use a dynamic file path]**。
 
@@ -121,21 +130,21 @@ ht-degree: 76%
 
 4. 如果要在传输完成时删除源文件，请勾选 **[!UICONTROL Delete the source files after transfer]**。
 
-### Microsoft Azure Blob Storage的配置 {#azure-blob-configuration-wf}
+### 使用Microsoft Azure Blob存储进行配置 {#azure-blob-configuration-wf}
 
 利用 Microsoft Azure Blob 协议，您可以访问位于 Microsoft Azure Blob Storage 帐户上的 Blob。
 
-1. 选择 **[!UICONTROL Microsoft Azure Blob]** 外部帐户。有关更多信息，请参见此[页面](../../administration/using/external-accounts.md#microsoft-azure-external-account)。
+1. 选择 **[!UICONTROL Microsoft Azure Blob]** 外部帐户。 有关更多信息，请参见此[页面](../../administration/using/external-accounts.md#microsoft-azure-external-account)。
 
 1. 选择是要 **[!UICONTROL Define a file path]** 还是 **[!UICONTROL Use a dynamic file path]**。
 
    ![](assets/wkf_file_transfer_10.png)
 
-1. 指定下载文件的路径，它可以匹配多个 Blob。在此类情况下，**[!UICONTROL File transfer]** 活动将为找到的每个 Blob 激活一次传出过渡。随后将根据字母顺序对它们进行处理。
+1. 指定下载文件的路径，它可以匹配多个 Blob。 在此类情况下，**[!UICONTROL File transfer]** 活动将为找到的每个 Blob 激活一次传出过渡。 随后将根据字母顺序对它们进行处理。
 
    >[!CAUTION]
    >
-   >不支持匹配多个文件名的通配符。相反，您还需要输入前缀。所有与该前缀匹配的 Blob 名称都符合条件。
+   >不支持匹配多个文件名的通配符。 相反，您还需要输入前缀。 所有与该前缀匹配的 Blob 名称都符合条件。
 
    下方提供了一系列文件路径的示例：
 
@@ -148,10 +157,10 @@ ht-degree: 76%
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 协议对应于包含待取回文件的存储库。
 元字符或通配符（例如&#42;或？） 用于筛选文件。
 
-选择是要 **[!UICONTROL Define a file path]** 还是要 **[!UICONTROL Use a dynamic file path]**
-利用 **[!UICONTROL Use a dynamic file path]** 选项，可使用标准表达式和事件变量将待传输文件的名称个性化。有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
+选择是要&#x200B;**[!UICONTROL Define a file path]**&#x200B;还是 **[!UICONTROL Use a dynamic file path]**
+**[!UICONTROL Use a dynamic file path]**&#x200B;选项允许您使用标准表达式和事件变量将待传输文件的名称个性化。 有关详细信息，请参见[此页面](../../automating/using/customizing-workflow-external-parameters.md)。
 
-请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。文件位于 **sftp&lt;您的实例名称>/** 目录中。您也无法浏览存储空间上方的目录。
+请注意，该路径必须对应于 Adobe Campaign 服务器的存储空间目录。 文件位于 **sftp&lt;您的实例名称>/** 目录中。 您也无法浏览存储空间上方的目录。
 
 例如：
 
@@ -163,11 +172,11 @@ ht-degree: 76%
 
 ## 历史化设置 {#historization-settings}
 
-每次执行 **[!UICONTROL Transfer file]** 活动时，都会将上传或下载的文件存储在专用文件夹中。它会为工作流的每个 **[!UICONTROL Transfer file]** 活动创建一个文件夹。因此，必须限制此文件夹的大小以保留服务器上的物理空间。
+每次执行 **[!UICONTROL Transfer file]** 活动时，都会将上传或下载的文件存储在专用文件夹中。 它会为工作流的每个 **[!UICONTROL Transfer file]** 活动创建一个文件夹。 因此，必须限制此文件夹的大小以保留服务器上的物理空间。
 
 为此，您可以在 **[!UICONTROL Transfer File]** 活动的 **[!UICONTROL Advanced options]** 中定义 **[!UICONTROL Historization settings]**。
 
-利用 **[!UICONTROL Historization settings]**，可定义活动文件夹的文件数目上限或文件总计大小上限。默认为 100 个文件和 50 MB。
+利用 **[!UICONTROL Historization settings]**，可定义活动文件夹的文件数目上限或文件总计大小上限。 默认为 100 个文件和 50 MB。
 
 每次执行活动时，都会按如下方式检查文件夹：
 
@@ -177,7 +186,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->如果不再执行活动，则不会检查或清除其文件夹。考虑到这一点，在传输大文件时要多加小心。
+>如果不再执行活动，则不会检查或清除其文件夹。 考虑到这一点，在传输大文件时要多加小心。
 
 ## 输出变量 {#output-variables}
 

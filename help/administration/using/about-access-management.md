@@ -6,25 +6,37 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+TQID: https://experienceleague.adobe.com/wiZFxbzNGnpOtt-8UZE4n8Vzw2bNEVzy1p-XRi-lkFE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 81%
+source-wordcount: 238
+ht-degree: 82%
 
 ---
 
 # 关于访问管理{#about-access-management}
 
-Adobe Campaign 允许您定义和管理分配给不同用户的权限。权限是授权或拒绝访问界面中的特定功能或对象的一系列权限和限制。这些权限基于两个概念：
+Adobe Campaign 允许您定义和管理分配给不同用户的权限。 权限是授权或拒绝访问界面中的特定功能或对象的一系列权限和限制。 这些权限基于两个概念：
 
-* **组织单位**：利用组织单位可定义平台各种对象（电子邮件、工作流、模板、用户、用户档案等）的权限层次结构。请参阅[组织单位](../../administration/using/organizational-units.md)一节。
-* **角色**：通过一系列统一的权限，可定义分配给用户和用户组的授权。请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
+* **组织单位**：利用组织单位可定义平台各种对象（电子邮件、工作流、模板、用户、轮廓等）的权限层次结构。 请参阅[组织单位](../../administration/using/organizational-units.md)一节。
+* **角色**：通过一系列统一的权限，可定义分配给用户和用户组的授权。 请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
-  将角色与组织单位相结合，可为用户提供一个经过筛选的界面视图，并定义用户对于各种功能的访问权限。有关更多信息，请参阅[授权表](../../administration/using/list-of-roles.md)。
+  将角色与组织单位相结合，可为用户提供一个经过筛选的界面视图，并定义用户对于各种功能的访问权限。 有关更多信息，请参阅[授权表](../../administration/using/list-of-roles.md)。
 
 >[!IMPORTANT]
 >
->请注意，地理单位功能已被弃用。有关更多信息，请参见此[页面](../../rn/using/deprecated-features.md)。
+>请注意，地理单位功能已被弃用。 有关更多信息，请参见此[页面](../../rn/using/deprecated-features.md)。
 
 平台的功能管理员可通过 **[!UICONTROL Administration > Users & Security]** 菜单管理角色、组和组织单位。
 

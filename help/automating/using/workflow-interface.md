@@ -10,10 +10,25 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/yE5oFC7pHpJPh1NC0jMvVu-VfY-sFhgbSB4tqw55R-M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 4%
+source-wordcount: 845
+ht-degree: 5%
 
 ---
 
@@ -53,11 +68,11 @@ ht-degree: 4%
 
 要链接两个活动，请将箭头的结尾从第一个活动上移动到后续活动，直到它们连接为止。 您还可以将活动向着它后面的箭头点移动，以便将其链接到前一个活动。 如果移动任何活动，则它们将保持链接。
 
-在处理数据的活动之后的过渡包含中间群体。 如果选中工作流属性&#x200B;**[!UICONTROL Keep interim results]**&#x200B;部分中的&#x200B;**[!UICONTROL Execution]**&#x200B;选项，则可以访问它们。
+在处理数据的活动之后的过渡包含中间群体。 如果选中工作流属性&#x200B;**[!UICONTROL Execution]**&#x200B;部分中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;选项，则可以访问它们。
 
 >[!CAUTION]
 >
->使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。 在生产实例中，请不要勾选该选项。
 
 
 选择活动后，会在活动周围显示快速操作，以便您与之交互。 例如，要配置活动，请选择该活动，然后使用快速操作中的![](assets/edit_darkgrey-24px_table.png)按钮将其打开。

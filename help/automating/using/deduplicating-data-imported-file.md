@@ -1,6 +1,6 @@
 ---
 title: 从导入的文件中删除数据重复项
-description: 此示例说明如何在将数据加载到数据库之前，从导入的文件中删除重复数据。
+description: 此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/7zC8CU4kl3WkPT6l2QM-dN3fFsKTrS2lEpGQUaV2GI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 83%
+source-wordcount: 329
+ht-degree: 89%
 
 ---
 
 # 从导入的文件中删除数据重复项 {#deduplicating-the-data-from-an-imported-file}
 
-此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。此过程可提高数据库加载数据的质量。
+此示例展示了如何在将数据加载到数据库之前，删除导入文件中的数据重复项。 此过程可提高数据库加载数据的质量。
 
 该工作流由以下步骤组成：
 
@@ -41,19 +48,19 @@ ht-degree: 83%
   Ross;Timothy;04/07/1986;timross@example.com
   ```
 
-  此文件还可用作检测和定义列格式的样例文件。在 **[!UICONTROL Column definition]** 选项卡中，确保已正确配置导入文件的每个列。
+  此文件还可用作检测和定义列格式的样例文件。 在 **[!UICONTROL Column definition]** 选项卡中，确保已正确配置导入文件的每个列。
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* [重复数据删除](../../automating/using/deduplication.md)活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
+* [重复数据删除](../../automating/using/deduplication.md)活动。 在导入文件后及将数据插入数据库之前，直接执行重复数据删除。 这样，即可使用来自 **[!UICONTROL Load file]** 的 **[!UICONTROL Temporary resource]** 数据，以其为基础执行重复数据删除。
 
-  在本例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。因此，应对临时资源的 **email** 列执行重复项识别。现在，两个相同的电子邮件地址会在文件中显示两次。此时，这两行将被视为重复项。
+  在本例中，我们希望对文件中包含的每个唯一电子邮件地址保留一个条目。 因此，应对临时资源的 **email** 列执行重复项识别。 现在，两个相同的电子邮件地址会在文件中显示两次。 此时，这两行将被视为重复项。
 
   ![](assets/deduplication_example2_dedup.png)
 
 * 通过[更新数据](../../automating/using/update-data.md)活动，可将重复数据删除流程中保留的数据插入数据库。 只有在更新数据时，导入的数据才会被标识为属于轮廓维度。
 
-  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。我们将使用文件的电子邮件列和&#x200B;**轮廓**&#x200B;维度中的 email 字段作为协调键，以执行此操作。
+  在此，我们希望 **[!UICONTROL Insert only]** 数据库中不存在的数据。 我们将使用文件的电子邮件列和&#x200B;**轮廓**&#x200B;维度中的 email 字段作为协调键，以执行此操作。
 
   ![](assets/deduplication_example2_writer1.png)
 
@@ -61,4 +68,4 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_writer2.png)
 
-然后，启动工作流。接下来，在重复数据删除流程保存的记录，将被添加到数据库中的轮廓。
+然后，启动工作流。 接下来，在重复数据删除流程保存的记录，将被添加到数据库中的轮廓。

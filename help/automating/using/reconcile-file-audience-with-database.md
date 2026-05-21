@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 254
 ht-degree: 87%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 87%
 
 此示例展示了如何使用 **[!UICONTROL Read audience]** 活动协调直接从文件导入创建的受众。
 
-执行文件导入时，可以直接将其内容保存在受众中。此受众属于文件受众，其数据未链接到任何数据库资源。
+执行文件导入时，可以直接将其内容保存在受众中。 此受众属于文件受众，其数据未链接到任何数据库资源。
 
 导入工作流的设计如下所示：
 
@@ -45,12 +52,12 @@ ht-degree: 87%
   Ross;Timothy;04/07/1986;timross@example.com;157643
   ```
 
-* [保存受众](../../automating/using/save-audience.md)活动，将传入数据另存为受众。由于尚未协调数据，因此该受众属于文件受众，且其数据尚未被标识为轮廓数据。
+* [保存受众](../../automating/using/save-audience.md)活动，将传入数据另存为受众。 由于尚未协调数据，因此该受众属于文件受众，且其数据尚未被标识为轮廓数据。
 
 协调工作流的设计如下所示：
 
 ![](assets/readaudience_activity_example2.png)
 
 * [读取受众](../../automating/using/read-audience.md)活动会上传在导入工作流中创建的文件受众。 其受众数据尚未与 Adobe Campaign 数据库协调。
-* [协调](../../automating/using/reconciliation.md)活动，通过其 **[!UICONTROL Identification]** 选项卡将传入数据标识为轮廓。例如，使用 **email** 字段作为协调条件。
-* [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的轮廓资源。由于数据已被标识为轮廓，因此您可以选择 **[!UICONTROL Directly using the targeting dimension]** 选项并在活动的 **[!UICONTROL Profiles]** 选项卡中选择 **[!UICONTROL Identification]**。然后，您只需在相应的选项卡中添加需要更新的字段列表即可。
+* [协调](../../automating/using/reconciliation.md)活动，通过其 **[!UICONTROL Identification]** 选项卡将传入数据标识为轮廓。 例如，使用 **email** 字段作为协调条件。
+* [更新数据](../../automating/using/update-data.md)活动，使用传入数据插入并更新数据库的轮廓资源。 由于数据已被标识为轮廓，因此您可以选择 **[!UICONTROL Directly using the targeting dimension]** 选项并在活动的 **[!UICONTROL Profiles]** 选项卡中选择 **[!UICONTROL Identification]**。 然后，您只需在相应的选项卡中添加需要更新的字段列表即可。

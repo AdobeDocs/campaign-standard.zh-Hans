@@ -10,9 +10,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: 1854
 ht-degree: 0%
 
 ---
@@ -52,11 +61,11 @@ ht-degree: 0%
       * 如果积压工作量度中有与&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流关联的2,000,000个（或更多）项目（显示在&#x200B;**[!UICONTROL Workflows]**&#x200B;页面中）
       * 如果Microsoft Dynamics 365表中有2,000,000条或更多记录
 
-     需要重新同步的记录数各不相同。 如果您有大量记录，则可能需要一些时间来完成同步过程。 在集成应用程序工作完成同步过程时，请参阅&#x200B;**[!UICONTROL Backlog]**&#x200B;页面中的&#x200B;**[!UICONTROL Workflows]**&#x200B;量度。
+     需要重新同步的记录数各不相同。 如果您有大量记录，则可能需要一些时间来完成同步过程。 在集成应用程序工作完成同步过程时，请参阅&#x200B;**[!UICONTROL Workflows]**&#x200B;页面中的&#x200B;**[!UICONTROL Backlog]**&#x200B;量度。
 
      >[!IMPORTANT]
      >
-     > 强烈建议您在将更改发布到Adobe Campaign Standard或Microsoft Dynamics 365时停止集成工作流程。 适用的更改包括：更新了资源/实体（及其关联字段）、链接、标识符列等。 集成当前正在使用的区段。
+     > 强烈建议您在将更改发布到Adobe Campaign Standard或Microsoft Dynamics 365时停止集成工作流程。 适用的更改包括：集成当前使用的资源/实体（及其关联字段）、链接、标识符列等的更新。
      >
 
 ## 创建新映射 {#add-a-new-mapping}
@@ -156,7 +165,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 字段替换允许您识别：
 
 * Microsoft Dynamics 365字段名称（已在以上字段映射部分添加），
-* 现有值(存在于Microsoft Dynamics 365中)，以及
+* 现有值（存在于Microsoft Dynamics 365中），以及
 * 要写入Adobe Campaign的新值
 
 将为选取列表、枚举和布尔值提供一个下拉列表。 文本框将用于其他字符串和数字类型。
@@ -169,7 +178,7 @@ Microsoft Dynamics 365主键是只读的，因为应用程序将检测到它。
 
 * Microsoft Dynamics 365字段名称
 * 比较值，以及
-* 值(来自Microsoft Dynamics 365)
+* 值（来自Microsoft Dynamics 365）
 如果字段名称、比较和值的计算结果为给定记录为true，则该记录将传播到Adobe Campaign。
 
 您可以通过设置标记为&#x200B;**[!UICONTROL Choose the filter comparison operator]**&#x200B;的输入来选择评估这些过滤器的方式。  如果选择&#x200B;**And**，则所有筛选器都必须为true，记录才能传播到Campaign。 如果选择&#x200B;**或**，如果其中任何记录的计算结果为true，则将传播该记录。

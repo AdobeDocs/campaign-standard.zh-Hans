@@ -9,10 +9,21 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/jad-jiasYpiF89F-rL0d0v30ZpdE4uiPJYICbtkBDWY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 27%
+source-wordcount: 663
+ht-degree: 26%
 
 ---
 
@@ -51,13 +62,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在[下详细介绍](#profile-transactional-message-specificities)。
+>本节介绍如何编辑基于&#x200B;**事件的**&#x200B;事务型消息。 **基于配置文件的**&#x200B;事务型消息的特定性在[&#128279;](#profile-transactional-message-specificities)下详细介绍。
 >
 >[此部分](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中介绍了创建基于事件的事务型消息的配置步骤。
 
 例如，您希望向购物车中添加了产品的网站用户发送通知，这些用户无需完成购买即离开网站。 此示例在[事务性消息传递工作原理](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)部分中介绍。
 
-1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。对于本示例，可选择包含图像和文本的任意模板。有关电子邮件内容模板的更多信息，请参阅[使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates)。
+1. 单击 **[!UICONTROL Content]** 块以修改消息的主题和内容。 对于本示例，可选择包含图像和文本的任意模板。 有关电子邮件内容模板的更多信息，请参阅[使用模板设计电子邮件](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
@@ -65,15 +76,15 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >指向放弃购物车的链接是指向外部 URL 的链接，会将用户重定向到其购物车。此参数不在 Adobe Campaign 中管理。
+   >指向放弃购物车的链接是指向外部 URL 的链接，会将用户重定向到其购物车。 此参数不在 Adobe Campaign 中管理。
 
-1. 在本例中，您要添加在[创建事件](../../channels/using/configuring-transactional-event.md)时定义的三个字段：名字、查看的最后一个产品、购物车总金额。要实现此目的，请在消息内容中[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
+1. 在本例中，您要添加在[创建事件](../../channels/using/configuring-transactional-event.md)时定义的三个字段：名字、查看的最后一个产品、购物车总金额。 要实现此目的，请在消息内容中[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
 1. 通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 浏览这些字段。
 
    ![](assets/message-center_7.png)
 
-1. 您还可以扩充消息的内容。 为此，请从链接到事件配置的表中添加字段（请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，通过&#x200B;**[!UICONTROL Title (salutation)]** > **[!UICONTROL Profile]** > **[!UICONTROL Context]**&#x200B;从&#x200B;**[!UICONTROL Real-time event]**&#x200B;表中选择&#x200B;**[!UICONTROL Event context]**&#x200B;字段。
+1. 您还可以扩充消息的内容。 为此，请从链接到事件配置的表中添加字段（请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，通过&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;从&#x200B;**[!UICONTROL Profile]**&#x200B;表中选择&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;字段。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +98,7 @@ ht-degree: 27%
 
    ![](assets/message-center_9.png)
 
-   您可以检查个性化字段是否与在测试轮廓中输入的信息匹配。有关详细信息，请参阅[定义特定测试配置文件](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   您可以检查个性化字段是否与在测试轮廓中输入的信息匹配。 有关详细信息，请参阅[定义特定测试配置文件](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 <!--
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
@@ -224,7 +235,7 @@ For more on creating a collection and related fields when configuring the event,
 下方列出了两者之间的差异。
 
 1. [转到创建的事务型消息](#accessing-transactional-messages)以对其进行编辑。
-1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。除了事务型电子邮件模板之外，您还可以选择针对&#x200B;**[!UICONTROL Profile]**&#x200B;资源的任何电子邮件模板。
+1. 在事务型消息中，单击 **[!UICONTROL Content]** 部分。 除了事务型电子邮件模板之外，您还可以选择针对&#x200B;**[!UICONTROL Profile]**&#x200B;资源的任何电子邮件模板。
 
    ![](assets/message-center_marketing_templates.png)
 

@@ -10,10 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/glqcq7zaJ3-cRhOyU8whLUMKBGL-6TVkuGs53Lpce9o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 78%
+source-wordcount: 559
+ht-degree: 77%
 
 ---
 
@@ -31,15 +42,15 @@ ht-degree: 78%
 
 * 添加关系：使用 **[!UICONTROL Links]** 选项卡可在集客数据和多个其他 Adobe Campaign 数据库维度之间添加链接。
 
-  例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。因此，文件数据会涉及额外的两个维度（除&#x200B;**购买**&#x200B;维度外）：**产品**&#x200B;和&#x200B;**轮廓**。然后，需要创建这些维度与&#x200B;**“购买”**&#x200B;维度之间的关系（请参阅以下示例）。
+  例如，包含购买数据的文件也可能包含用于识别所购买产品以及买方的信息。 因此，文件数据会涉及额外的两个维度（除&#x200B;**购买**&#x200B;维度外）：**产品**&#x200B;和&#x200B;**轮廓**。 然后，需要创建这些维度与&#x200B;**“购买”**&#x200B;维度之间的关系（请参阅以下示例）。
 
   定义关系时，将向集客数据添加列，以引用链接维度的外键。
 
   >[!NOTE]
   >
-  >此操作意味着链接维度的数据已在数据库中。例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
+  >此操作意味着链接维度的数据已在数据库中。 例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
 
-* 数据标识：使用 **[!UICONTROL Identification]** 选项卡，您只需将集客数据链接到 Adobe Campaign 数据库中现有维度的列即可。活动完成后，该数据会被标识为属于已定义的维度。
+* 数据标识：使用 **[!UICONTROL Identification]** 选项卡，您只需将集客数据链接到 Adobe Campaign 数据库中现有维度的列即可。 活动完成后，该数据会被标识为属于已定义的维度。
 
   例如，您随后可以执行保存受众、数据库更新等操作。
 
@@ -50,17 +61,17 @@ ht-degree: 78%
 
 ## 配置 {#configuration}
 
-1. 将 **[!UICONTROL Reconciliation]** 活动拖放到您的工作流中的一个过渡（该过渡包含定向维度并非直接来自 Adobe Campaign 的群体）后方。有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+1. 将 **[!UICONTROL Reconciliation]** 活动拖放到您的工作流中的一个过渡（该过渡包含定向维度并非直接来自 Adobe Campaign 的群体）后方。 有关更多信息，请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
 1. 如果要定义集客数据与其他数据库维度之间的链接，请转到 **[!UICONTROL Links]** 选项卡。
 
-   根据需要，添加相应数量的关系。对于每个关系，首先选择链接的维度，然后在链接详细信息中指定相应的字段。
+   根据需要，添加相应数量的关系。 对于每个关系，首先选择链接的维度，然后在链接详细信息中指定相应的字段。
 
 1. 如果您只想识别集客数据，请转到 **[!UICONTROL Identification]** 选项卡并勾选 **[!UICONTROL Identify the document from the working data]** 方框。
 
    选择要协调集客数据的定向维度。
 
-   添加协调条件，以将集客过渡记录链接到选定的定向维度记录。如果指定了多个标准，则必须对所有标准进行验证，以确保所有数据之间的链接正常工作。
+   添加协调条件，以将集客过渡记录链接到选定的定向维度记录。 如果指定了多个标准，则必须对所有标准进行验证，以确保所有数据之间的链接正常工作。
 
    选择 **[!UICONTROL Processing unidentified source lines]** 模式：
 

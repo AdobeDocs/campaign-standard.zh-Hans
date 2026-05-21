@@ -7,10 +7,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wevJB72xRacTndQ1-VOyKHOtRak0UKJT2V-pzUd6d-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b70f632b-2cfd-43d0-9266-284281100d70
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 5%
+source-wordcount: 537
+ht-degree: 6%
 
 ---
 
@@ -22,11 +36,11 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->请注意，我们建议仅将Campaign生成的数据（例如发送、打开、点击等）导出到Adobe Experience Platform。 从第三方源（如您的CRM）摄取的数据应直接导入Adobe Experience Platform。
+>请注意，我们建议仅导出Campaign生成的数据（例如，发送、打开、点击等） Adobe Experience Platform。 从第三方源（如您的CRM）摄取的数据应直接导入Adobe Experience Platform。
 
 ## 在Campaign Standard中创建导出工作流
 
-要将数据从Campaign Standard导出到S3或Azure Blob存储位置，您需要构建一个工作流以定向要导出的数据，并将其发送到您的存储位置。
+要将数据从Campaign Standard导出到S3或Azure Blob存储位置，您需要构建一个工作流来定向要导出的数据，并将其发送到您的存储位置。
 
 为此，请添加并配置：
 
@@ -52,7 +66,7 @@ ht-degree: 5%
 
 ## 将存储位置连接为Source
 
-下面列出了在Adobe Experience Platform中将Amazon Storage Service (S3)或Azure Blob存储位置作为&#x200B;**Source**&#x200B;连接的主要步骤。 有关每个步骤的详细信息，请参阅[Source连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)。
+下面列出了在Adobe Experience Platform中将Amazon存储服务(S3)或Azure Blob存储位置作为&#x200B;**Source**&#x200B;进行连接的主要步骤。 有关每个步骤的详细信息，请参阅[Source连接器文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)。
 
 1. 在Adobe Experience Platform **[!UICONTROL Sources]**&#x200B;菜单中，创建与存储位置的连接：
 

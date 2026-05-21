@@ -9,10 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 4%
+source-wordcount: 767
+ht-degree: 9%
 
 ---
 
@@ -32,9 +42,9 @@ ht-degree: 4%
 
   **提示** — 要避免这种情况，请与团队的其他成员协调投放计划，以确保最佳性能。
 
-* [工作流执行](../../automating/using/about-workflow-execution.md)：监视您的工作流对于避免平台性能问题至关重要。 遵循此页面[中列出的准则](../../automating/using/monitoring-workflow-execution.md)。 在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解详情。
+* [工作流执行](../../automating/using/about-workflow-execution.md)：监视您的工作流对于避免平台性能问题至关重要。 遵循此页面[&#128279;](../../automating/using/monitoring-workflow-execution.md)中列出的准则。 在[工作流最佳实践](../../automating/using/best-practices-workflows.md)部分了解详情。
 
-* 您可以使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans)来监控您的平台。
+* 您可以使用[性能监控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hans)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans)来监控您的平台。
 
 ## 正在检查网络配置 {#network-config}
 
@@ -64,11 +74,11 @@ ht-degree: 4%
 
 **提示**
 
-* 在投放分析过程中，默认情况下会排除其地址被隔离的收件人：这些收件人未定位。 这样可加快投放速度，因为错误率对投放速度有显着的影响。 例如，当收件箱已满或地址不存在时，可以隔离电子邮件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在投放分析过程中，默认情况下会排除其地址被隔离的收件人：这些收件人未定位。 这样可加快投放速度，因为错误率对投放速度有显著的影响。 例如，当收件箱已满或地址不存在时，可以隔离电子邮件地址。 [了解详情](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign会根据返回的错误类型管理错误地址。 如需详细信息，请参阅[此小节](../../sending/using/understanding-quarantine-management.md)。
 
-* 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。因此，隔离可让您避免被这些提供商添加到阻止列表。
+* 如果无效地址率过高，某些互联网访问提供商会自动将电子邮件判断为垃圾邮件。 因此，隔离可让您避免被这些提供商添加到阻止列表。
 
 * 隔离管理还将通过从投放中排除错误的电话号码来帮助降低短信发送成本。
 

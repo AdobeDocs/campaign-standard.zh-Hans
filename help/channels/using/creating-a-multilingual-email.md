@@ -8,9 +8,18 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+TQID: https://experienceleague.adobe.com/dz14KptzZtyP8Oo-RaYvZKP5D3L4akcJJmY2f-p1nuE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: 279
 ht-degree: 24%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 24%
 
    ![](assets/multi_create1.png)
 
-1. 定义电子邮件的常规属性和目标受众，操作方式与标准电子邮件类似。请参阅[创建受众](../../audiences/using/creating-audiences.md)一节。
+1. 定义电子邮件的常规属性和目标受众，操作方式与标准电子邮件类似。 请参阅[创建受众](../../audiences/using/creating-audiences.md)一节。
 
 1. 在创建向导的第四步，定义变体选项。 如果[多语言模板](../../channels/using/multilingual-messages-template.md)已包含所有正确的参数，则可以直接单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
 
@@ -36,7 +45,7 @@ ht-degree: 24%
    如果需要，请使用&#x200B;**[!UICONTROL Add an element]**&#x200B;按钮添加变体。 不得删除&#x200B;**[!UICONTROL Default]**&#x200B;变体。 当设置为&#x200B;**[!UICONTROL default]**&#x200B;时，[用户档案的首选语言](../../audiences/using/creating-profiles.md)用于选择变体。 您还可以将&#x200B;**[!UICONTROL Default]**&#x200B;变体设置为任何其他语言。
 
 1. 确认电子邮件创建：随后将显示电子邮件仪表板。
-1. 为每个变体定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人名称或多个不同的内容。使用下拉菜单在元素的不同变体之间导航。 有关更多信息，请参阅[内容编辑器](../../designing/using/designing-content-in-adobe-campaign.md)一节。
+1. 为每个变体定义电子邮件内容。 根据您选择的模板，您可以定义多个主题、多个发件人名称或多个不同的内容。 使用下拉菜单在元素的不同变体之间导航。 有关更多信息，请参阅[内容编辑器](../../designing/using/designing-content-in-adobe-campaign.md)一节。
 
    ![](assets/multi_selectcontent.png)
 

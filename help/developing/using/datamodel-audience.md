@@ -7,14 +7,21 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/Fd12meY1UY9hZudGc18wtTTi2cVWWvN9wth8JSLzBQA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 36%
+source-wordcount: 213
+ht-degree: 40%
 
 ---
 
-# 受众(nms：audience)
+# 受众(nms:audience)
 
 ## 对象说明
 
@@ -33,7 +40,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>映射IDAudience Manager</td>
+                  <td>Audience Manager映射Id</td>
                   <td>字符串(100)</td>
                   <td> </td>
                </tr>
@@ -87,7 +94,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>

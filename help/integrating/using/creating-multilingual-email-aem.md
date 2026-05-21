@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/eYHAXWPC6z7AhWv1qGoiBRZlN5nSp1-PiYOjCbVdU0g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 3%
+source-wordcount: 619
+ht-degree: 4%
 
 ---
 
@@ -50,9 +57,9 @@ ht-degree: 3%
 
    ![](assets/aem_acs_7.png)
 
-1. 从&#x200B;**[!UICONTROL Complete]**&#x200B;窗口中单击&#x200B;**[!UICONTROL Newsletter review]**，然后单击&#x200B;**[!UICONTROL Complete work item]**。
+1. 从&#x200B;**[!UICONTROL Complete work item]**&#x200B;窗口中单击&#x200B;**[!UICONTROL Complete]**，然后单击&#x200B;**[!UICONTROL Newsletter review]**。
 
-1. 单击&#x200B;**[!UICONTROL Complete]**，然后单击&#x200B;**[!UICONTROL Newsletter approval]**。 定义内容和发送参数后，您可以在Adobe Campaign Standard中继续批准、准备和发送电子邮件。
+1. 单击 **[!UICONTROL Complete]**，然后单击 **[!UICONTROL Newsletter approval]**。 定义内容和发送参数后，您可以在Adobe Campaign Standard中继续批准、准备和发送电子邮件。
 
    ![](assets/aem_acs_8.png)
 
@@ -130,4 +137,4 @@ ht-degree: 3%
    >
    >如果您使用Adobe Campaign中尚未批准的内容，则无法在AEM中发送电子邮件。
 
-您的受众将收到您的电子邮件，具体取决于其&#x200B;**[!UICONTROL Preferred languages]**&#x200B;中设置的&#x200B;**[!UICONTROL Profiles]**。 有关如何编辑用户档案和首选语言的更多信息，请参阅此[页面](../../audiences/using/editing-profiles.md)。
+您的受众将收到您的电子邮件，具体取决于其&#x200B;**[!UICONTROL Profiles]**&#x200B;中设置的&#x200B;**[!UICONTROL Preferred languages]**。 有关如何编辑用户档案和首选语言的更多信息，请参阅此[页面](../../audiences/using/editing-profiles.md)。

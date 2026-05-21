@@ -10,9 +10,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/8i3WYf4v5Xh6Ih7YWT71OxHJfAd-6aUqUDcP2RjY1NI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 990
 ht-degree: 90%
 
 ---
@@ -23,17 +38,17 @@ ht-degree: 90%
 
 ## 工作流的工作原理{#workflow-operating-principles}
 
-工作流是&#x200B;**一系列可配置的活动**。在该过程中，每个活动都具有特定的角色。每个活动的结果通过&#x200B;**过渡**&#x200B;活动转发到下一个活动，由箭头表示。
+工作流是&#x200B;**一系列可配置的活动**。 在该过程中，每个活动都具有特定的角色。 每个活动的结果通过&#x200B;**过渡**&#x200B;活动转发到下一个活动，由箭头表示。
 
-在一个活动与另一个活动之间交换的数据类型，可能会影响后续活动的配置方式。例如，如果在电子邮件投放活动之前建立了群体，则该群体可以用作相关电子邮件的目标。
+在一个活动与另一个活动之间交换的数据类型，可能会影响后续活动的配置方式。 例如，如果在电子邮件投放活动之前建立了群体，则该群体可以用作相关电子邮件的目标。
 
 在执行工作流之前或之后，您可以打开活动，检查或编辑参数。
 
-您可以打开过渡，检查在执行工作流期间或执行工作流之后发送的数据是否正确。要访问过渡的详细视图，您必须勾选工作流属性 **[!UICONTROL Keep interim results]** 部分中的 **[!UICONTROL Execution]** 选项。
+您可以打开过渡，检查在执行工作流期间或执行工作流之后发送的数据是否正确。 要访问过渡的详细视图，您必须勾选工作流属性 **[!UICONTROL Keep interim results]** 部分中的 **[!UICONTROL Execution]** 选项。
 
 >[!CAUTION]
 >
->使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
+>使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。 在生产实例中，请不要勾选该选项。
 
 ![](assets/workflow_overview.png)
 
@@ -51,27 +66,27 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >默认情况下，每个营销活动会提供多种类型。利用这些类型，可根据需要预配置某些参数。有关更多信息，请参阅[管理模板](../../start/using/marketing-activity-templates.md)一节。
+   >默认情况下，每个营销活动会提供多种类型。 利用这些类型，可根据需要预配置某些参数。 有关更多信息，请参阅[管理模板](../../start/using/marketing-activity-templates.md)一节。
 
 1. 输入工作流的常规属性。
 
    ![](assets/workflow_creation_2.png)
 
-   您可以在 **Label** 字段中输入名称并修改 ID。界面中会显示活动名称及其 ID，但消息收件人看不到它们。
+   您可以在 **Label** 字段中输入名称并修改 ID。 界面中会显示活动名称及其 ID，但消息收件人看不到它们。
 
    >[!NOTE]
    >
-   >您可以使用营销活动列表，在父营销策划中创建工作流。您可以通过选择已创建的工作流，将此工作流链接到营销策划。
+   >您可以使用营销活动列表，在父营销策划中创建工作流。 您可以通过选择已创建的工作流，将此工作流链接到营销策划。
 
    您可以添加用户会在营销策划内容中看到的描述。
 
    Adobe 建议为工作流赋予正确的名称和标签，这样工作流没有按照预期的方式执行，可轻松地找到并排除故障：填写工作流的描述字段，在其中加入执行流程的摘要，以便操作员能够轻松理解。
 
-1. 确认创建活动，随后将显示该活动的仪表板。有关更多信息，请参阅[工作流界面](../../automating/using/workflow-interface.md)一节。
+1. 确认创建活动，随后将显示该活动的仪表板。 有关更多信息，请参阅[工作流界面](../../automating/using/workflow-interface.md)一节。
 
 1. 准备好配置工作流后，您可以通过单击&#x200B;**[!UICONTROL Edit properties]**&#x200B;按钮访问其他选项。
 
-   例如，您可以定义一个默认用于工作流所有活动的特定时区。默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
+   例如，您可以定义一个默认用于工作流所有活动的特定时区。 默认情况下，工作流的时区就是为当前 Campaign 操作人员定义的时区。
 
    有关工作流属性的详细信息，请参阅[此页面](../../automating/using/managing-execution-options.md)。
 
@@ -89,7 +104,7 @@ ht-degree: 90%
 
 * 第一部分包含[定向活动](../../automating/using/about-targeting-activities.md)
 * 第二部分包含[执行活动](../../automating/using/about-execution-activities.md)，主要用于协调其他活动。
-* 第三部分包含可用于在不同[渠道](../../automating/using/about-channel-activities.md)上发送消息的活动。此部分中的活动可能因实例中启用的渠道而异。
+* 第三部分包含可用于在不同[渠道](../../automating/using/about-channel-activities.md)上发送消息的活动。 此部分中的活动可能因实例中启用的渠道而异。
 * 第四部分包含[文件操作和数据管理活动](../../automating/using/about-data-management-activities.md)。
 
 要创建图表，请执行以下操作：
@@ -108,11 +123,11 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >您还可以通过复制粘贴操作以复制现有活动。这样，您就可以保留最初定义的设置。有关更多信息，请参见[复制工作流活动](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
+   >您还可以通过复制粘贴操作以复制现有活动。 这样，您就可以保留最初定义的设置。 有关更多信息，请参见[复制工作流活动](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
 
-将工作流活动链接到一起后，您即可使用所选的&#x200B;**标签**&#x200B;对它们之间的过渡进行个性化。要实现此操作，请双击过渡以访问其属性。
+将工作流活动链接到一起后，您即可使用所选的&#x200B;**标签**&#x200B;对它们之间的过渡进行个性化。 要实现此操作，请双击过渡以访问其属性。
 
-此外，利用 **[!UICONTROL Targeting]** 和 **[!UICONTROL Data management (ETL)]** 活动，可为叫客过渡定义&#x200B;**区段代码**。然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。有关更多信息，请参阅[此章节](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外，利用 **[!UICONTROL Targeting]** 和 **[!UICONTROL Data management (ETL)]** 活动，可为叫客过渡定义&#x200B;**区段代码**。 然后，您可以根据这些区段代码创建报告，以衡量营销活动的效果。 如需详细信息，请参阅[此小节](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流使用案例：**
 
@@ -123,12 +138,12 @@ ht-degree: 90%
 
 ## 配置活动 {#configuring-activities}
 
-默认情况下，如果不配置活动，就代表未正确设置活动，也无法正确处理数据。每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如叫客过渡、标签等。
+默认情况下，如果不配置活动，就代表未正确设置活动，也无法正确处理数据。 每个活动都包含多个选项卡，用于管理特定配置和活动通用选项，如叫客过渡、标签等。
 
-1. 确保所有活动正确连接。部分活动需要检测传入数据的结构或性质，以提供正确的配置选项。
+1. 确保所有活动正确连接。 部分活动需要检测传入数据的结构或性质，以提供正确的配置选项。
 1. 双击某个活动，或将其选中然后单击 **[!UICONTROL Edit]** 上下文操作以打开其配置窗口。
 1. 编辑活动的标签。
-1. 定义处理数据所需的所有不同选项。请参阅本文档中关于活动的特定章节，了解每个活动可使用的选项。
+1. 定义处理数据所需的所有不同选项。 请参阅本文档中关于活动的特定章节，了解每个活动可使用的选项。
 1. 保存活动，并为工作流的每个活动重复这些操作。
 1. 保存工作流。
 

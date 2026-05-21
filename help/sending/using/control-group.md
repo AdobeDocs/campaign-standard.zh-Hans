@@ -9,9 +9,21 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
+TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1319
 ht-degree: 95%
 
 ---
@@ -20,33 +32,33 @@ ht-degree: 95%
 
 您可以使用对照组避免向部分受众发送消息，以便衡量活动的影响。
 
-要在 Adobe Campaign 中执行此操作，请在定义投放目标时创建<b>对照组</b>。用户档案会随机、已筛选或未筛选或者根据条件添加到对照组中。
+要在 Adobe Campaign 中执行此操作，请在定义投放目标时创建<b>对照组</b>。 轮廓会随机、已筛选或未筛选或者根据条件添加到对照组中。
 
-然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。根据发送日志，还可以在将来活动中以对照组为目标。
+然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。 根据发送日志，还可以在将来活动中以对照组为目标。
 
 <!--The control group is built when the delivery is prepared.-->
 
 ## 概述 {#overview}
 
-可以从主目标随机提取和/或从特定群体中选择该对照组。因此，有两种主要方法可定义对照组：
-* 从主目标&#x200B;**提取**&#x200B;大量用户档案。
-* 根据查询中定义的条件&#x200B;**排除**&#x200B;某些用户档案。
+可以从主目标随机提取和/或从特定群体中选择该对照组。 因此，有两种主要方法可定义对照组：
+* 从主目标&#x200B;**提取**&#x200B;大量轮廓。
+* 根据查询中定义的条件&#x200B;**排除**&#x200B;某些轮廓。
 
 在定义对照组时，可以同时使用这两种方法。
 
-在投放准备步骤中属于对照组的所有用户档案都将从主目标中删除。一旦发送消息，这些用户档案就将不会收到该消息。
+在投放准备步骤中属于对照组的所有轮廓都将从主目标中删除。 一旦发送消息，这些用户档案就将不会收到该消息。
 
 ## 从目标群体提取 {#extraction-target-population}
 
-要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的配置文件。
+要定义对照组，您可以选择随机或基于排序从目标人群提取某个百分比或固定数量的轮廓。
 
 ### 目标提取 {#target-extraction}
 
-首先，定义将从目标提取用户档案的方式：**随机**&#x200B;或基于&#x200B;**排序**。
+首先，定义将从目标提取轮廓的方式：**随机**&#x200B;或基于&#x200B;**排序**。
 
 在 **[!UICONTROL Target extraction]** 部分下，选择下列选项之一：
 
-* **[!UICONTROL Random sampling]**：在准备投放时，Adobe Campaign 将随机提取与百分比或与将设置为[大小限制](#size-limit)的最大数量对应的用户档案数。
+* **[!UICONTROL Random sampling]**：在准备投放时，Adobe Campaign 将随机提取与百分比或与将设置为[大小限制](#size-limit)的最大数量对应的轮廓数。
 
   例如，如果您随后在 **[!UICONTROL Limits]** 部分中将阈值设置为 10，则对照组将由从目标群体中随机选择的 10% 组成。<!--Change screenshot to match example)-->
 
@@ -64,7 +76,7 @@ ht-degree: 95%
 
   ![](assets/control-group-keep-first-records.png)
 
-  定义包含很少或频繁购买的用户档案的对照组，并将其行为与联系的收件人的行为进行比较可能很有趣。
+  定义包含很少或频繁购买的轮廓的对照组，并将其行为与联系的收件人的行为进行比较可能很有趣。
 
 >[!NOTE]
 >
@@ -74,27 +86,27 @@ ht-degree: 95%
 
 ### 大小限制 {#size-limit}
 
-无论您是选择 **[!UICONTROL Random sampling]** 还是 **[!UICONTROL Keep only the first records after sorting]**，都必须设置将如何限制从主目标提取的用户档案数。执行以下操作之一：
+无论您是选择 **[!UICONTROL Random sampling]** 还是 **[!UICONTROL Keep only the first records after sorting]**，都必须设置将如何限制从主目标提取的轮廓数。 执行以下操作之一：
 
 * 选择 **[!UICONTROL Size (as a % of the initial population)]** 并填充对应的框架。
 
   例如，如果设置 10，则根据以上选择的选项，Adobe Campaign 将执行以下任一操作：
    * 随机提取目标群体的 10%。
-   * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 10% 的最旧用户档案。
+   * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 10% 的最旧轮廓。
 
   >[!NOTE]
   >
-  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 10% 的最新用户档案。
+  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 10% 的最新轮廓。
 
 * 选择 **[!UICONTROL Maximum size]** 并填充对应的框架。
 
   例如，如果设置 100，则 Adobe Campaign 将执行以下任一操作：
-   * 从目标群体中随机提取 100 个用户档案。
-   * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 100 个最旧用户档案。
+   * 从目标群体中随机提取 100 个轮廓。
+   * 如果选择 **[!UICONTROL Age]** 字段作为排序条件，则从目标群体中提取 100 个最旧轮廓。
 
   >[!NOTE]
   >
-  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 100 个最新用户档案。
+  >如果取消选中 **[!UICONTROL Descending sort]** 选项，则将提取 100 个最新轮廓。
 
 ## 排除特定群体 {#excluding-specific-population}
 
@@ -106,22 +118,22 @@ ht-degree: 95%
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. 使用[查询编辑器](../../automating/using/editing-queries.md)定义排除条件。您还可以选择先前创建的[受众](../../audiences/using/about-audiences.md)。
+1. 使用[查询编辑器](../../automating/using/editing-queries.md)定义排除条件。 您还可以选择先前创建的[受众](../../audiences/using/about-audiences.md)。
 
    ![](assets/control-group-target-exclusion.png)
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**。
 
-将从目标中排除与查询结果匹配的用户档案。
+将从目标中排除与查询结果匹配的轮廓。
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
 ## 用例：设置控制组 {#control-group-example}
 
-下面是一个示例，其中显示如何使用下列两种方法定义对照组：从主目标提取用户档案和使用查询排除特定群体。
+下面是一个示例，其中显示如何使用下列两种方法定义对照组：从主目标提取轮廓和使用查询排除特定群体。
 
-1. 创建工作流.有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。双击活动并定义目标。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
+1. 创建工作流. 有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。 双击活动并定义目标。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]** 中，将[电子邮件投放](../../automating/using/email-delivery.md)活动拖放到主目标段之后，然后进行编辑。
 1. 单击投放仪表板中的 **[!UICONTROL Audience]** 块。
@@ -135,23 +147,23 @@ ht-degree: 95%
 
    ![](assets/control-group-sorting-column.png)
 
-1. 将 100 设置为最大大小。将提取目标中 100 个最旧用户档案。
+1. 将 100 设置为最大大小。 将提取目标中 100 个最旧轮廓。
 
-1. 在 **[!UICONTROL Target exclusion]** 部分中，使用[查询编辑器](../../automating/using/editing-queries.md)根据选择的条件定义将从目标中排除的用户档案。例如，“年龄小于 20 岁”。
+1. 在 **[!UICONTROL Target exclusion]** 部分中，使用[查询编辑器](../../automating/using/editing-queries.md)根据选择的条件定义将从目标中排除的轮廓。 例如，“年龄小于 20 岁”。
 
    ![](assets/control-group-target-exclusion-example.png)
 
-   将排除年龄在 20 岁以下的用户档案。
+   将排除年龄在 20 岁以下的轮廓。
 
 1. 启动[投放准备](../../sending/using/preparing-the-send.md)并[确认发送](../../sending/using/confirming-the-send.md)。
 
-将从主目标中提取已提取的用户档案（100 个最旧用户档案）和已根据查询定义的用户档案（年龄在 20 岁以下的用户档案）。这些用户档案将不会收到消息。
+将从主目标中提取已提取的轮廓（100 个最旧轮廓）和已根据查询定义的轮廓（年龄在 20 岁以下的轮廓）。 这些用户档案将不会收到消息。
 
 ## 比较结果 {#delivery-logs}
 
 现在您已发送投放，可以如何处理对照组？
 
-您可以提取&#x200B;**发送日志**，以将未收到通信的对照组的行为方式与有效目标进行比较。您还可以使用投放日志&#x200B;**构建其他目标**。
+您可以提取&#x200B;**发送日志**，以将未收到通信的对照组的行为方式与有效目标进行比较。 您还可以使用投放日志&#x200B;**构建其他目标**。
 
 >[!IMPORTANT]
 >
@@ -159,21 +171,21 @@ ht-degree: 95%
 
 ### 检查投放日志 {#checking-logs}
 
-要查看在发送消息后从目标中删除了哪些用户档案，请检查 **[!UICONTROL Delivery logs]**。有关投放日志以及如何对其进行访问的更多信息，请参阅[此部分](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+要查看在发送消息后从目标中删除了哪些轮廓，请检查 **[!UICONTROL Delivery logs]**。 有关投放日志以及如何对其进行访问的更多信息，请参阅[此部分](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-* 在 **[!UICONTROL Sending logs]** 选项卡中，您可以查看已提取和已排除的用户档案。它们具有 **[!UICONTROL Ignored]** 状态，并且失败的原因为 **[!UICONTROL Control group]**。
+* 在 **[!UICONTROL Sending logs]** 选项卡中，您可以查看已提取和已排除的轮廓。 它们具有 **[!UICONTROL Ignored]** 状态，并且失败的原因为 **[!UICONTROL Control group]**。
 
   ![](assets/control-group-sending-logs.png)
 
-* 您还可以检查 **[!UICONTROL Exclusion causes]** 选项卡，以查看未包含在投放中的用户档案数。
+* 您还可以检查 **[!UICONTROL Exclusion causes]** 选项卡，以查看未包含在投放中的轮廓数。
 
   ![](assets/control-group-exclusion-causes.png)
 
 ### 使用控制组日志 {#using-logs}
 
-发送投放后，可以使用投放日志对未收到消息的用户档案进行筛选。按照下面的步骤进行操作：
+发送投放后，可以使用投放日志对未收到消息的轮廓进行筛选。 按照下面的步骤进行操作：
 
-1. 创建工作流.有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
+1. 创建工作流. 有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 在 **[!UICONTROL Properties]** 选项卡中， 将 **[!UICONTROL Delivery logs]** 设置为 **[!UICONTROL Resource]**，并将 **[!UICONTROL Profile]** 设置为 **[!UICONTROL Targeting dimension]**。
 
@@ -184,23 +196,23 @@ ht-degree: 95%
 
    ![](assets/control-group-status-ignored.png)
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**。
 
 1. 仍然在 **[!UICONTROL Target]** 选项卡中，拖放 **[!UICONTROL Nature of failure]** 并选择 **[!UICONTROL Control group]** 作为筛选条件。
 
    ![](assets/control-group-nature-of-failure.png)
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-delivery-target.png)
 
-然后，可以使用&#x200B;**提取文件**&#x200B;活动，跟以例如&#x200B;**传输文件**&#x200B;活动来导出日志数据。这样，您即可在自己的报告工具中与对照组相比较来分析有效目标上的活动的结果。有关导出日志的更多信息，请参阅[此部分](../../automating/using/exporting-logs.md)。
+然后，可以使用&#x200B;**提取文件**&#x200B;活动，跟以例如&#x200B;**传输文件**&#x200B;活动来导出日志数据。 这样，您即可在自己的报告工具中与对照组相比较来分析有效目标上的活动的结果。 有关导出日志的更多信息，请参阅[此部分](../../automating/using/exporting-logs.md)。
 
 ### 确定控制组目标 {#targeting-control-group}
 
-要根据未收到消息的用户档案确定目标，您还可以使用投放日志。按照下面的步骤进行操作：
+要根据未收到消息的轮廓确定目标，您还可以使用投放日志。 按照下面的步骤进行操作：
 
-1. 创建工作流.有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
+1. 创建工作流. 有关创建工作流的详细步骤，请参阅[构建工作流](../../automating/using/building-a-workflow.md)一节。
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放第一个[查询](../../automating/using/query.md)活动。
 1. 在 **[!UICONTROL Properties]** 选项卡中，确保选择 **[!UICONTROL Profile]** 资源作为 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
@@ -214,15 +226,15 @@ ht-degree: 95%
 
    ![](assets/control-group-rule-delivery.png)
 
-1. 选择已发送的电子邮件作为筛选条件。单击 **[!UICONTROL Confirm]**.
+1. 选择已发送的电子邮件作为筛选条件。 单击 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-email-sent.png)
 
-1. 返回 **[!UICONTROL Add a rule]** 窗口中，拖放 **[!UICONTROL Status]** 并选择 **[!UICONTROL Ignored]** 作为筛选条件。单击 **[!UICONTROL Confirm]**.
+1. 返回 **[!UICONTROL Add a rule]** 窗口中，拖放 **[!UICONTROL Status]** 并选择 **[!UICONTROL Ignored]** 作为筛选条件。 单击 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-status-ignored.png)
 
-1. 拖放 **[!UICONTROL Nature of failure]** 并选择 **[!UICONTROL Control group]** 作为筛选条件。单击 **[!UICONTROL Confirm]**.
+1. 拖放 **[!UICONTROL Nature of failure]** 并选择 **[!UICONTROL Control group]** 作为筛选条件。 单击 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-nature-of-failure.png)
 
@@ -230,10 +242,10 @@ ht-degree: 95%
 
    ![](assets/control-group-delivery-logs-conditions.png)
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击 **[!UICONTROL Confirm]**。
 
-现在，可以将未收到第一条消息的用户档案设为目标，因为它们属于对照组，并向其发送另一封电子邮件。
+现在，可以将未收到第一条消息的轮廓设为目标，因为它们属于对照组，并向其发送另一封电子邮件。
 
-在同一工作流中，您还可以创建其他查询来将收到电子邮件的用户档案设为目标，并向其发送其他消息。
+在同一工作流中，您还可以创建其他查询来将收到电子邮件的轮廓设为目标，并向其发送其他消息。
 
 ![](assets/control-group-targeted-by-delivery.png)

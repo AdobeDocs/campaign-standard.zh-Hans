@@ -8,16 +8,23 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LtTykn3J6LjivrUr-xkhsZMgaVg-uQ2PHqA6wcJipo8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 10%
+source-wordcount: 233
+ht-degree: 24%
 
 ---
 
 # 将订阅扩展到应用程序资源{#extending-the-subscriptions-to-an-application-resource}
 
-在Adobe Campaign中，由移动设备发出的移动配置文件属性数据存储在&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;资源中，该资源允许您定义要从应用程序的订阅者那里收集的数据。 有关自定义资源的详细信息，请参阅[此页面](../../developing/using/key-steps-to-add-a-resource.md)。
+在 Adobe Campaign 中，由移动设备发出的移动轮廓属性数据存储在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 资源中，利用该资源，您可定义要从应用程序的订阅者那里收集的数据。 有关自定义资源的详细信息，请参阅[此页面](../../developing/using/key-steps-to-add-a-resource.md)。
 
 可以扩展此资源来收集您打算从移动设备发送到Adobe Campaign的数据。
 

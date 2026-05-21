@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 92%
 
 ---
 
@@ -23,7 +28,7 @@ ht-degree: 95%
 
 编辑表达式需要手动输入条件以形成规则。
 
-利用此模式，可使用高级功能。利用这些函数，可处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
+利用此模式，可使用高级功能。 利用这些函数，可处理用于执行特定查询（如处理日期、字符串、数字字段、排序等）的值。
 
 在编辑表达式时，也可以使用工作流的事件变量。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
@@ -33,8 +38,8 @@ ht-degree: 95%
 
   ![](assets/expression_editor_2.png)
 
-* 编辑工作流中的表达式。例如，向活动添加附加数据。
-* 编辑可见性条件以定义编辑某个块在 HTML 内容编辑器中的显示方式。在这种情况下，表达式以 JavaScript 格式进行编辑，且不会提供高级函数作为标配。
+* 编辑工作流中的表达式。 例如，向活动添加附加数据。
+* 编辑可见性条件以定义编辑某个块在 HTML 内容编辑器中的显示方式。 在这种情况下，表达式以 JavaScript 格式进行编辑，且不会提供高级函数作为标配。
 
 ## 编辑表达式 {#edit-an-expression}
 
@@ -42,7 +47,7 @@ ht-degree: 95%
 
 编辑表达式可于创建电子邮件时在受众窗口中使用，也可于创建工作流时在查询活动中使用。
 
-1. 有关访问表达式编辑窗口的方法详情，请参阅[关于高级表达式编辑](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing)一节。其中涉及以下元素：
+1. 有关访问表达式编辑窗口的方法详情，请参阅[关于高级表达式编辑](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing)一节。 其中涉及以下元素：
 
    * 定义表达式的输入字段。
    * 可在表达式中使用并对应于查询中定向维度的可用字段清单（请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)）。
@@ -54,9 +59,9 @@ ht-degree: 95%
 
    双击某个字段或表达式，可将其添加到光标所在的表达式中。
 
-   可以使用工作流的事件变量来构建表达式。有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
+   可以使用工作流的事件变量来构建表达式。 有关更多信息，请参阅[使用事件变量自定义活动](../../automating/using/customizing-workflow-external-parameters.md)一节。
 
-1. 根据需要为规则指定一个特定名称。输入的名称将作为规则名称，显示在查询编辑器工作区中。
+1. 根据需要为规则指定一个特定名称。 输入的名称将作为规则名称，显示在查询编辑器工作区中。
 
 通过编辑表达式，您可以个性化受众表达式，以根据需要定向群体。
 
@@ -73,13 +78,13 @@ ht-degree: 95%
 
 * 每个条件都采用 **&lt;value1> &lt;comparison operator> &lt;value2>** 的形式，其中：
 
-   * **&lt;value1>** 是字段或函数例如 **@created** 对应于创建轮廓的日期，而 **Year(@created)** 对应于创建轮廓的年份。
-   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
+   * **&lt;value1>** 是字段或函数 例如 **@created** 对应于创建轮廓的日期，而 **Year(@created)** 对应于创建轮廓的年份。
+   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
   >[!NOTE]
   >
-  >**&lt;value1>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;value1>** 是日期，则 **&lt;value2>** 也必须是日期。
+  >**&lt;value1>** 和 **&lt;value2>** 类型数据必须相同。 例如，如果 **&lt;value1>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
@@ -102,13 +107,13 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
 
 * 每个条件都采用 **&lt;context> &lt;comparison operator> &lt;value2>** 的形式，其中：
 
-   * **&lt;context>** 是用于指定上下文的字段或函数。例如 **context.profile.@email** 对应于用户档案的电子邮件地址，而 **context.profile.firstName.length()** 对应于用户档案名字的字符数。
-   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
+   * **&lt;context>** 是用于指定上下文的字段或函数。 例如，**context.profile.@email**&#x200B;用于用户档案的电子邮件地址，或者&#x200B;**context.profile.firstName.length()**&#x200B;用于用户档案名字的字符数。
+   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
    * **&lt;value2>** 是手动输入的字段、函数或值。
 
   >[!NOTE]
   >
-  >**&lt;context>** 和 **&lt;value2>** 类型数据必须相同。例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
+  >**&lt;context>** 和 **&lt;value2>** 类型数据必须相同。 例如，如果 **&lt;context>** 是日期，则 **&lt;value2>** 也必须是日期。
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
@@ -180,28 +185,28 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> 第一个值必须不同于第二个值。<br /> </td> 
-   <td> <strong>@language ! = English</strong> 可检索尚未定义为可使用英语的轮廓。<br /> </td> 
+   <td> <strong>@language != English</strong>可检索尚未定义为说英语的用户档案。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">包含</span> <br /> </td> 
    <td> IN<br /> </td> 
    <td> N/A<br /> </td> 
    <td> 第一个值必须包含第二个值。<br /> </td> 
-   <td> <strong>@domain IN mail</strong>。此处，结果中会返回所有具有“mail”值的域名。因此，“gmail.com”域名也将构成返回结果的一部分。<br /> </td> 
+   <td> <strong>@domain IN mail</strong>。 此处，结果中会返回所有具有“mail”值的域名。 因此，“gmail.com”域名也将构成返回结果的一部分。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">相似</span> <br /> </td> 
    <td> LIKE<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">相似</span>与<span class="uicontrol">包含</span>运算符非常相似。利用该运算符，可在搜索的值中插 入 <span class="uicontrol">%</span> 通配符。<br /> </td> 
-   <td> <strong>@lastName LIKE Mart%n</strong>。在此，替换字符 <strong>%</strong> 将用作“绝招”，在假设拼写不正确的情况下查找名称“Martin”。<br /> </td> 
+   <td> <span class="uicontrol">相似</span>与<span class="uicontrol">包含</span>运算符非常相似。 利用该运算符，可在搜索的值中插 入 <span class="uicontrol">%</span> 通配符。<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>。 在此，替换字符 <strong>%</strong> 将用作“绝招”，在假设拼写不正确的情况下查找名称“Martin”。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">不相似</span> <br /> </td> 
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> 与 <span class="uicontrol">相似</span>相同。不能用于取回输入的值。在本例中，输入的值也必须包含 <span class="uicontrol">%</span> 个通配符字段。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。此处，与名称“Smi%h”（如Smith等）对应的收件人不会作为结果返回。<br /> </td> 
+   <td> 与 <span class="uicontrol">相似</span>相同。 不能用于取回输入的值。 在本例中，输入的值也必须包含 <span class="uicontrol">%</span> 个通配符字段。<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>。 此处，收件人与名称“Smi%h”（代表Smith等）相对应 不是作为结果返回的。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">为空</span> <br /> </td> 

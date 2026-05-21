@@ -8,9 +8,18 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 365
 ht-degree: 5%
 
 ---
@@ -27,10 +36,10 @@ ht-degree: 5%
 >
 >Adobe Campaign本身不会管理存档文件。 它使您能够将选择的消息发送到一个专用地址，可以从该地址使用外部系统处理和存档这些消息。
 
-## Recommendations和限制 {#recommendations-and-limitations}
+## 建议和限制 {#recommendations-and-limitations}
 
-* 此功能属于可选功能。请核实您的许可协议并联系您的帐户管理员以将其激活。
-* 您选择的密件抄送地址必须提供给将为您配置该地址的Adobe团队。
+* 此功能属于可选功能。 请核实您的许可协议并联系您的帐户管理员以将其激活。
+* 您选择的密件抄送地址必须提供给将为您配置的Adobe团队。
 * 您只能使用一个密件抄送电子邮件地址。
 * 只考虑已成功发送的电子邮件。 跳出不是。
 * 出于隐私原因，密件抄送电子邮件必须由能够安全存储个人身份信息(PII)的归档系统处理。

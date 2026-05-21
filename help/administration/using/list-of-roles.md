@@ -6,10 +6,22 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/HvLFiLS2GV0iJODsGL3AMMWd-lXbvDXYyLSJ8Mj20-w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 73%
+source-wordcount: 229
+ht-degree: 75%
 
 ---
 
@@ -27,17 +39,17 @@ ht-degree: 73%
 
   >[!NOTE]
   >
-  >如果您使用Experience Cloud触发器，则需要&#x200B;**[!UICONTROL Administration]**&#x200B;权限才能访问Experience Cloud触发器菜单。 有关Experience Cloud触发器的详细信息，请参阅此[页](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
+  >如果您使用Experience Cloud Triggers，则需要&#x200B;**[!UICONTROL Administration]**&#x200B;权限才能访问Experience Cloud Triggers菜单。 有关Experience Cloud触发器的详细信息，请参阅此[页](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
 
 * **[!UICONTROL Datamodel]**：有权运行发布和创建自定义资源。
-* **[!UICONTROL Generic import]**：有权执行一般数据导入。要使此功能正常工作，必须将&#x200B;**[!UICONTROL Generic import]**&#x200B;角色链接到&#x200B;**[!UICONTROL Workflow]**&#x200B;角色。
-* **[!UICONTROL Prepare deliveries]**：有权创建、修改、准备和删除投放。拥有此角色的用户可以准备投放，但不能发送。
+* **[!UICONTROL Generic import]**：有权执行一般数据导入。 要使此功能正常工作，必须将&#x200B;**[!UICONTROL Generic import]**&#x200B;角色链接到&#x200B;**[!UICONTROL Workflow]**&#x200B;角色。
+* **[!UICONTROL Prepare deliveries]**：有权创建、修改、准备和删除投放。 拥有此角色的用户可以准备投放，但不能发送。
 * **[!UICONTROL Start deliveries]**：有权创建、修改、准备、发送和删除投放。
-* **[!UICONTROL Workflow]**：有权管理工作流执行（开始、停止、暂停等）。即使在工作流中，此角色的用户也无法发送投放。
+* **[!UICONTROL Workflow]**：有权管理工作流执行（开始、停止、暂停等）。 即使在工作流中，此角色的用户也无法发送投放。
 
 有关更多信息，请参阅[角色和权限表格](/help/administration/using/assets/acs_rights.pdf)，其中根据所选授权详细列出了界面中可用的功能。
 
-[![图像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
 
 **相关主题：**
 

@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: 629
+ht-degree: 96%
 
 ---
 
@@ -26,7 +33,7 @@ ht-degree: 95%
 
 * **一个或多个可用且已发布的自定义资源**。
 
-  此外，您必须为这些资源定义具有唯一性的密钥，因为不会导出资源包中的自动主密钥。因此，该资源可以具有主密钥和附加唯一密钥，以保证记录的唯一性。
+  此外，您必须为这些资源定义具有唯一性的密钥，因为不会导出资源包中的自动主密钥。 因此，该资源可以具有主密钥和附加唯一密钥，以保证记录的唯一性。
 * **创建和导出资源包**&#x200B;所需的权限。
 
 其他资源：
@@ -56,7 +63,7 @@ ht-degree: 95%
 
 1. 在筛选条件中选择 **Products** 和 **Orders** 这两个资源，以配置 **[!UICONTROL Custom resource]** 的详细信息。
 
-   确保更改逻辑运算符。必须将该值设置为 **OR**，以便将产品资源和订单资源的结构集成到资源包中。
+   确保更改逻辑运算符。 必须将该值设置为 **OR**，以便将产品资源和订单资源的结构集成到资源包中。
 
    ![](assets/cusresources_export3.png)
 
@@ -66,7 +73,7 @@ ht-degree: 95%
 
 ![](assets/cusresources_export4.png)
 
-生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
+生成的资源包位于“Downloads”文件夹中。 Zip 文件的名称是随机生成的。 您可以为其重新命名。
 
 ## 导出数据 {#exporting-the-data}
 
@@ -98,7 +105,7 @@ ht-degree: 95%
 
 ![](assets/cusresources_exportdata5.png)
 
-生成的资源包位于“Downloads”文件夹中。Zip 文件的名称是随机生成的。您可以为其重新命名。
+生成的资源包位于“Downloads”文件夹中。 Zip 文件的名称是随机生成的。 您可以为其重新命名。
 
 ## 导入结构 {#importing-the-structure}
 
@@ -106,7 +113,7 @@ ht-degree: 95%
 
 1. 连接到要导入新创建资源包的&#x200B;**目标实例**。
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入来自第一次导出的文件。
-1. 将&#x200B;**结构文件**&#x200B;拖放到为此目的而提供的区域中。可接受的格式为 ZIP 或 XML。
+1. 将&#x200B;**结构文件**&#x200B;拖放到为此目的而提供的区域中。 可接受的格式为 ZIP 或 XML。
 
    ![](assets/cusresources_import2.png)
 
@@ -132,7 +139,7 @@ ht-degree: 95%
 ### 导入资源包 {#importing-the-data-package}
 
 1. 转到 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 菜单，创建新资源包以导入包含数据的文件。
-1. 将数据文件拖放到为此目的而提供的区域中。可接受的格式为 ZIP 或 XML。
+1. 将数据文件拖放到为此目的而提供的区域中。 可接受的格式为 ZIP 或 XML。
 1. 修改标签，例如“Import data”，然后单击 **[!UICONTROL Save]**。
 1. 单击 **[!UICONTROL Start import]**。
 

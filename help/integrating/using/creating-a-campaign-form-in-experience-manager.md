@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/5wklRtwZ6Wubvyo-yu2ogEHufoqYBh6cvaJEoBC-Lkk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 12%
+source-wordcount: 187
+ht-degree: 11%
 
 ---
 
@@ -39,4 +46,4 @@ ht-degree: 12%
 1. 通过添加可映射到Adobe Campaign数据库字段的各种字段和组件来编辑表单的内容。
 1. 测试并发布表单，以使其可在AEM网站上访问。
 
-有关更多信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hans)。
+有关详细信息，请参阅[详细文档](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hans)。

@@ -5,9 +5,37 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: 5477
 ht-degree: 3%
 
 ---
@@ -28,11 +56,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 应用程序内消息传递（测试版）<br /> </td> 
-   <td> 应用程序内消息可提供上下文互动，并且让您能够联系可能选择退出推送通知的用户，从而您可以更加高效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这可以提高转化率，更好地保留应用程序用户。<br />有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>。<br /> </td> 
+   <td> 应用程序内消息可提供上下文互动，并且让您能够联系可能选择退出推送通知的用户，从而您可以更加高效地吸引移动应用程序用户。 将应用程序内消息传递与推送通知结合使用，以创建高度个性化的相关体验。 这有助于更好地转换和保留您的应用程序用户。<br /> 有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于移动设备应用程序的Adobe Launch集成（测试版）<br /> </td> 
-   <td> Adobe Launch与Adobe Campaign的集成现在使用Mobile SDK V5简化了Campaign中移动应用程序属性的激活过程并实现了自动化。<br />有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">详细文档</a>。<br /> </td> 
+   <td> Adobe Launch与Adobe Campaign的集成现在使用Mobile SDK V5.<br />简化了Campaign中移动应用程序属性的激活过程并实现了自动化 有关详细信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdk.html">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,15 +121,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> Android推送通知的高优先级标记<br /> </td> 
-   <td> Android的高优先级标记 — 启用对Android应用程序以高优先级发送推送通知，这会导致休眠设备唤醒并运行一些有限处理。 请注意，默认优先级为“Normal（正常）” ，可能会延迟消息发送以节省电池。 <br />有关详细信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">详细文档</a>。<br /> </td> 
+   <td> Android的高优先级标记 — 启用对Android应用程序以高优先级发送推送通知，这会导致休眠设备唤醒并运行一些有限处理。 请注意，默认优先级为“Normal（正常）” ，可能会延迟消息发送以节省电池。<br /> 有关详细信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 移动应用订阅者的类型筛选器<br /> </td> 
-   <td> 在类型筛选器支持订阅 — 为类型规则指定筛选条件时，可以选择应用程序订阅作为筛选和定位维度，从而提供对具有或不具有用户档案的用户属性进行筛选的功能。 <br />有关详细信息，请参阅<a href="../../sending/using/about-typology-rules.md">详细文档</a>。<br /> </td> 
+   <td> 在类型筛选器支持订阅 — 为类型规则指定筛选条件时，可以选择应用程序订阅作为筛选和定位维度，从而提供对具有或不具有用户档案的用户属性进行筛选的功能。<br /> 有关详细信息，请参阅<a href="../../sending/using/about-typology-rules.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 在邮件准备期间从URL自动导入内容<br /> </td> 
-   <td> 现在，可以在准备阶段从URL导入电子邮件内容。 对于定期电子邮件投放，每次准备消息时都会检索最新的HTML内容，以确保在发送电子邮件时内容始终保持最新。 此功能还允许您从URL创建包含内容的计划投放，即使内容尚未准备就绪。<br />有关详细信息，请参阅<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">详细文档</a>。<br /> </td> 
+   <td> 现在，可以在准备阶段从URL导入电子邮件内容。 对于定期电子邮件投放，每次准备消息时都会检索最新的HTML内容，以确保在发送电子邮件时内容始终保持最新。 此功能还允许您从URL创建包含内容的计划投放，即使内容尚未准备就绪。<br /> 有关详细信息，请参阅<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 营销活动发布通知消息<br /> </td> 
@@ -109,7 +137,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 用户管理<br /> </td> 
-   <td> 从18.7版本开始，地理单位功能现在不适用于新的Campaign Standard实例，以及未创建地理单位的现有实例。<br />有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>。<br /> </td> 
+   <td> 从18.7版本开始，地理单位功能现在不适用于新的Campaign Standard实例，以及未创建地理单位的现有实例。<br /> 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,7 +174,7 @@ ht-degree: 3%
 
 **改进**
 
-* **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案的营销历史相关的信息：接触点数量、已发送投放、镜像页面URL等。 有关详细信息，请参阅[专用用例](../../api/using/interacting-with-marketing-history.md) 。
+* **[!UICONTROL History]** API已添加到Adobe.IO。 它允许您访问与用户档案的营销历史相关的信息：接触点数量、已发送投放、镜像页面URL等。有关详细信息，请参阅[专用用例](../../api/using/interacting-with-marketing-history.md) 。
 * 已优化&#x200B;**[!UICONTROL Database cleanup]**&#x200B;技术工作流，以确保数据库备份有更好的性能。
 * Creative Designer for Email现在还提供法文和德文版。
 
@@ -194,15 +222,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR：核心服务集成<br /> </td> 
-   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。 从Privacy Core Service推送到所有Experience Cloud解决方案的<br /> GDPR请求现在由Campaign自动处理。 <br />有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>。<br /> </td> 
+   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进 — 详细的投放反馈<br /> </td> 
-   <td> Adobe Campaign现在提供通过MCPNS接收来自提供商的推送消息(APNS/GCM)的详细反馈（发送日志和排除日志）的功能。<br />有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">详细文档</a>。<br /> </td> 
+   <td> Adobe Campaign现在提供通过MCPNS接收来自提供商(APNS/GCM)的推送消息的详细反馈（发送日志和排除日志）的功能。<br /> 有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放日志扩展<br /> </td> 
-   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。 然后，可以在动态报告中使用此信息，并允许您在发送投放时保留某些信息的快照。<br />还有2个用例：<br /> 
+   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。 然后，此信息便可用于动态报告中，并允许您在发送投放时保留某些信息的快照。<br /> 还有2个用例：<br /> 
     <ul> 
      <li> 导出包含“冻结”数据的扩展broadlog：作为营销人员，我想导出区段代码等于“A”（来自工作流引擎）的所有用户档案。 </li> 
      <li> 对“冻结”数据进行分段：作为营销人员，我希望<strong>重新定位</strong>自上次发送以来获得1000个忠诚度点数或区段代码等于“A”的所有用户档案。 </li> 
@@ -210,7 +238,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 使用自定义配置文件数据进行动态报告<br /> </td> 
-   <td> 此功能允许您根据在配置文件资源扩展期间创建的自定义配置文件数据创建和管理报表。 您可以按用户档案属性（如忠诚度计划、首选渠道等）划分报表。<br />有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>。<br /> </td> 
+   <td> 此功能允许您根据在配置文件资源扩展期间创建的自定义配置文件数据创建和管理报表。 您可以按配置文件属性（如忠诚度计划、首选渠道等）划分报表。<br />有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,7 +320,7 @@ _自定义资源_
  <tbody> 
   <tr> 
    <td> 欧盟通用数据保护条例(GDPR)<br /> </td> 
-   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR 适用于所持有数据的数据主体位于欧盟的 Adobe Campaign 客户。<br />除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> 
+   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> 
     <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
@@ -300,21 +328,21 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
-   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。 <br />关键功能包括：<br /> 
+   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。<br /> 关键功能包括：<br /> 
     <ul> 
      <li> 通过拖放界面，通过本机Creative Cloud集成增强，直观地设计和创建完全个性化、响应式电子邮件 </li> 
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
-     <li> 创建和保存内容片段（如页眉、页脚、文章等）以简化内容创建并确保品牌一致性 </li> 
+     <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> 适用于电子邮件的Creative Designer只有英语版本。<br />有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> 适用于电子邮件的Creative Designer只有英文版。<br /> 有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
-   <td> 电子邮件和短信渠道中已存在的相同简单多语言界面已添加到推送渠道中，可帮助您吸引客户，而不管他们使用何种首选语言。<br />此功能为那些管理跨多个区域的推送营销活动并希望以用户的首选语言定位用户的客户提供可扩展的自动解决方案。 它允许您只需单击一下，即可将所有语言变体通过模板化电子表格上传到单次推送投放中。 然后，Adobe Campaign会根据用户的语言偏好执行自动分段，通过简化工作流和报表来帮助减少冗余。<br />有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-push-notification.md">详细文档</a>。<br /> </td> 
+   <td> 电子邮件和短信渠道中已存在的同一简单多语言界面已添加到推送渠道中，可帮助您吸引客户，而不管他们使用何种首选语言。<br /> 此功能为那些管理跨多个区域的推送营销活动并希望以用户的首选语言定位用户的客户提供可扩展的自动化解决方案。 它允许您只需单击一下，即可将所有语言变体通过模板化电子表格上传到单次推送投放中。 然后，Adobe Campaign根据用户的语言偏好执行自动分段，通过简化工作流和报表来帮助减少冗余。<br /> 有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-push-notification.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 在事务性消息传递中使用自定义资源<br /> </td> 
-   <td> 除了开箱即用字段外，事务型消息传递现在还允许您使用自定义资源丰富消息的内容。<br />例如：<br /> 
+   <td> 除了现成字段外，事务型消息传递现在还允许您使用自定义资源扩充消息的内容。<br /> 例如：<br /> 
     <ul> 
      <li> 利用自定义字段作为协调条件，将事务型消息与用户档案进行匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据进一步个性化事务型消息 </li> 
@@ -382,11 +410,11 @@ _事务性消息_
  <tbody> 
   <tr> 
    <td> 订阅 — 订阅或取消订阅多个服务的配置文件列表<br /> </td> 
-   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或取消订阅多个服务的用户档案列表。 在工作流中，导入一个包含用户档案的文件，并针对每个用户档案，导入操作类型和服务。 <strong>订阅服务</strong>活动将能够使用此信息并一次动态处理您的所有配置文件订阅和退订。<br />有关详细信息，请参阅<a href="../../automating/using/subscription-services.md">详细文档</a>。<br /> </td> 
+   <td> <strong>订阅服务</strong>工作流活动现在允许您订阅或取消订阅多个服务的用户档案列表。 在工作流中，导入一个包含用户档案的文件，并针对每个用户档案，导入操作类型和服务。 <strong>订阅服务</strong>活动将能够使用此信息并一次动态处理您的所有配置文件订阅和退订。<br /> 有关详细信息，请参阅<a href="../../automating/using/subscription-services.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 扩充活动 — 根据先前的过渡扩充数据<br /> </td> 
-   <td> 新的<span class="uicontrol">扩充</span>工作流活动允许您利用集客过渡并使用附加数据完成输出过渡。 如果您定向用户档案，则扩充活动允许您使用数据库中未存储的其他数据（例如，来自导入的文件）扩充用户档案信息。<br />有关详细信息，请参阅<a href="../../automating/using/enrichment.md">详细文档</a>。<br /> </td> 
+   <td> 新的<span class="uicontrol">扩充</span>工作流活动允许您利用集客过渡并使用附加数据完成输出过渡。 如果您定向了用户档案，则扩充活动允许您使用数据库中未存储的附加数据（例如，来自导入的文件）扩充用户档案信息。<br /> 有关详细信息，请参阅<a href="../../automating/using/enrichment.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +448,7 @@ _工作流_
 * 修复了在某些情况下可能导致&#x200B;**[!UICONTROL Segmentation]**&#x200B;活动的输出转换顺序发生更改的问题。
 * 修复了读取包含枚举类型字段且之前已从工作流中保存的受众时发生的错误
 * 修复了在定义在工作流中创建的投放的计划属性时，**[!UICONTROL Request confirmation before sending messages]**&#x200B;选项即使取消选中后仍保持选中状态的问题。
-* 现在可以通过位于&#x200B;**[!UICONTROL Query]**&#x200B;选项卡中的新选项在&#x200B;**[!UICONTROL Additional data]**&#x200B;活动中禁用自动删除重复行（DISTINCT子句）。 出于性能原因，建议在定义许多（超过100个）其他元素时禁用此选项。
+* 现在可以通过位于&#x200B;**[!UICONTROL Additional data]**&#x200B;选项卡中的新选项在&#x200B;**[!UICONTROL Query]**&#x200B;活动中禁用自动删除重复行（DISTINCT子句）。 出于性能原因，建议在定义许多（超过100个）其他元素时禁用此选项。
 
 _集成_
 
@@ -446,29 +474,29 @@ _已知问题_
  <tbody> 
   <tr> 
    <td> 疲劳管理报告<br /> </td> 
-   <td> 疲劳管理报告是一个专用的可配置报告，可显示疲劳规则在发送前的指定日期范围内对电子邮件、推送、短信和直邮渠道中的投放产生的影响。 借助新增的insight，营销人员能够在一个视图中快速查看所有冲突的营销活动，根据更有效地设置疲劳规则来规划营销活动，并优先考虑通信。<br />有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">详细文档</a>。<br /> </td> 
+   <td> 疲劳管理报告是一个专用的可配置报告，可显示疲劳规则在发送前的指定日期范围内对电子邮件、推送、短信和直邮渠道中的投放产生的影响。 由于添加的insight能够在单个视图中快速查看所有冲突的营销活动，因此营销人员能够根据更有效地设置疲劳规则来计划营销活动，并优先考虑通信。<br /> 有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 报告共享<br /> </td> 
-   <td> 通过报表共享，您可以将报表作为电子邮件附件与Adobe Campaign用户共享，包括自动循环共享。 接收定期报表的用户能够通过每封电子邮件中的专用链接取消订阅这些通信。<br />有关详细信息，请参阅<a href="../../reporting/using/reporting-interface.md#share-tab">详细文档</a>。<br /> </td> 
+   <td> 通过报表共享，您可以将报表作为电子邮件附件与Adobe Campaign用户共享，包括自动循环共享。 接收定期报告的用户能够通过每封电子邮件中的专用链接取消订阅这些通信。<br /> 有关详细信息，请参阅<a href="../../reporting/using/reporting-interface.md#share-tab">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br />有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>。<br />可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br />可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以将“可变内容”用于： <br /> 
+   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br /> 有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>.<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，以便在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以将“可变内容”用于： <br /> 
     <ul> 
      <li> 解密以加密格式传送的数据 </li> 
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>。<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hans">此技术说明</a>。<br /> </td> 
+    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hans">此技术说明</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化投放<br /> </td> 
-   <td> 安排在每个收件人的时区中的特定日期/时间发送定期电子邮件、短信和推送通知，确保在不设置多个投放的情况下在正确的时间发送消息。 <br />有关详细信息，请参阅<a href="../../automating/using/scheduler.md">详细文档</a>。<br /> </td> 
+   <td> 安排在每个收件人的时区中的特定日期/时间发送定期电子邮件、短信和推送通知，确保在不设置多个投放的情况下在正确的时间发送消息。<br /> 有关详细信息，请参阅<a href="../../automating/using/scheduler.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API信号活动触发<br /> </td> 
-   <td> 现在，可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br />有关详细信息，请参阅<a href="/help/api/using/triggering-a-signal-activity.md">详细文档</a>。<br /> </td> 
+   <td> 现在可以直接从Adobe Campaign Standard API触发工作流的信号活动。<br /> 有关详细信息，请参阅<a href="/help/api/using/triggering-a-signal-activity.md">详细文档</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>

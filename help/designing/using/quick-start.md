@@ -8,9 +8,20 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
@@ -33,7 +44,7 @@ ht-degree: 5%
 | 无内容 | 包含内容 |
 |---|---|
 | [从头开始创建电子邮件](#from-scratch-email) | [转换现有HTML内容](#converting-an-html-content) |
-| [从现成模板生成内容](#building-content-from-an-out-of-the-box-template) | [正在导入现有HTML](#compatibility-mode) |
+| [从现成模板生成内容](#building-content-from-an-out-of-the-box-template) | [正在导入现有的HTML](#compatibility-mode) |
 
 ## 使用编辑器设计电子邮件 {#without-existing-content}
 
@@ -98,7 +109,7 @@ ht-degree: 5%
 
   ![](assets/html-component-source-code.png)
 
-  如果您熟悉HTML，可以使用&#x200B;**[!UICONTROL Html]** HTML组件从原始页脚复制粘贴内容代码。 有关此内容的详细信息，请参阅[关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+  如果您熟悉HTML，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;内容组件从原始页脚中复制粘贴该HTML代码。 有关此内容的详细信息，请参阅[关于内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
   ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -138,11 +149,11 @@ ht-degree: 5%
 
 ### 转换HTML内容 {#converting-an-html-content}
 
-此用例提供了一种将HTML电子邮件快速转换为电子邮件Designer组件的方法。 有关此主题的更多信息，请参阅[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)。
+此用例提供了一种将HTML电子邮件转换为电子邮件Designer组件的快速方法。 有关此主题的更多信息，请参阅[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)。
 
 >[!CAUTION]
 >
->本节适用于熟悉HTML代码的用户。
+>本部分适用于熟悉HTML代码的用户。
 
 >[!NOTE]
 >

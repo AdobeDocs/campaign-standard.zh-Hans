@@ -9,10 +9,28 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/iTJyQV-76oRhjJ4vDLKfSMpYTA27UcYt9UmVW-9YVq4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 28%
+source-wordcount: 520
+ht-degree: 21%
 
 ---
 
@@ -24,7 +42,7 @@ ht-degree: 28%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">导入/导出数据</a></p></td></tr>
 </table>
 
-Adobe Campaign 提供了一个全面的图形环境，允许您设计包括分段、活动执行、文件处理等在内的复杂流程。例如，您可以使用某个工作流从服务器下载文件、解压缩，然后将其记录导入 Adobe Campaign 数据库。
+Adobe Campaign提供了一个全面的图形环境，允许您设计包括分段、活动执行、文件处理等在内的复杂流程。例如，您可以使用工作流从服务器下载文件、解压缩，然后将其记录导入Adobe Campaign数据库。
 
 工作流可以在不同的上下文中使用，例如：
 

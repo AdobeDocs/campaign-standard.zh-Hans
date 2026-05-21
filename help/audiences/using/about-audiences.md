@@ -9,26 +9,33 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: 8412c728edabf72680ddfdb1fd7547442890150f
+TQID: https://experienceleague.adobe.com/NPcDi1kh8Ye1Y14CAwVxBLW-0qwHnpFRUQ2WYj7BJbI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 91%
 
 ---
 
 # 关于受众{#about-audiences}
 
-受众是一种基于规则和属性的用户档案列表。
+受众是一种基于规则和属性的轮廓列表。
 
-Adobe Campaign 允许您使用查询手动创建受众，或使用专用工作流自动创建受众。您也可以使用 Adobe Experience Cloud 中的共享受众。所有受众会重组为一个列表，该列表可通过 Adobe Campaign 主页上的 **[!UICONTROL Audiences]** 卡或 **[!UICONTROL Audiences]** 链接访问。
+Adobe Campaign 允许您使用查询手动创建受众，或使用专用工作流自动创建受众。 您也可以使用 Adobe Experience Cloud 中的共享受众。 所有受众会重组为一个列表，该列表可通过 Adobe Campaign 主页上的 **[!UICONTROL Audiences]** 卡或 **[!UICONTROL Audiences]** 链接访问。
 
 ![](assets/audience_1.png)
 
-您可以在 Adobe Campaign 中处理不同的受众类型。受众的类型对应于其创建方式：
+您可以在 Adobe Campaign 中处理不同的受众类型。 受众的类型对应于其创建方式：
 
 * **[!UICONTROL Query]**：表示受众是通过受众列表对Adobe Campaign数据库的数据使用[查询](../../automating/using/editing-queries.md#about-query-editor)创建的。 每次复用时都会重新计算由查询定义的受众。。
-* **[!UICONTROL List]**：表示受众是固定的用户档案列表。这些列表在[工作流](../../automating/using/get-started-workflows.md)中创建，在工作流中保存受众时，数据维度是已知的。例如，定向活动（尤其是 **[!UICONTROL Query]**）后或对从文件导入的数据进行协调后。
+* **[!UICONTROL List]**：表示受众是固定的轮廓列表。 这些列表在[工作流](../../automating/using/get-started-workflows.md)中创建，在工作流中保存受众时，数据维度是已知的。 例如，定向活动（尤其是 **[!UICONTROL Query]**）后或对从文件导入的数据进行协调后。
 * **[!UICONTROL File]**：表示受众是直接从[文件导入](../../automating/using/load-file.md)工作流创建的，且保存受众时数据维度未知。
-* **[!UICONTROL Experience Cloud]**：表示受众是从 Adobe Experience Cloud 导入的。仅当配置了受众共享功能时，此选项才可用。有关更多信息，请参阅[从 Adobe Experience Cloud 导入受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
+* **[!UICONTROL Experience Cloud]**：表示受众是从 Adobe Experience Cloud 导入的。 仅当配置了受众共享功能时，此选项才可用。 有关更多信息，请参阅[从 Adobe Experience Cloud 导入受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
 
 ![](assets/audience_type_selection.png)

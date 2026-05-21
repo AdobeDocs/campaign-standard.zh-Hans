@@ -9,9 +9,21 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+TQID: https://experienceleague.adobe.com/gTGkg0NPjtcDsY5RcaVwHklBVZ-dpLAe5qM9fcS9Bj4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 858
 ht-degree: 3%
 
 ---
@@ -44,7 +56,7 @@ ht-degree: 3%
 
 1. 输入推送通知属性，然后在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;字段中选择您的移动应用。
 
-   请注意，下拉菜单将同时显示SDK V4和Experience PlatformSDK应用程序。
+   请注意，下拉列表将同时显示SDK V4和Experience Platform SDK应用程序。
 
    ![](assets/push_notif_properties.png)
 
@@ -62,7 +74,7 @@ ht-degree: 3%
 
    ![](assets/push_notif_content.png)
 
-   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 有效负载的详细结构在[了解Campaign Standard推送通知有效负载结构](../../administration/using/push-payload.md)技术说明中进行了描述。
+   此处配置的推送通知内容和选项将以有效负荷的形式传递到您的移动应用程序。 有关有效负载的详细结构，请参阅[了解Campaign Standard推送通知有效负载结构](../../administration/using/push-payload.md)技术说明。
 
 1. 单击 **[!UICONTROL Create]**。
 
@@ -99,7 +111,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;选项卡中，您可以找到从已发送目标中排除的所有消息的列表以及此排除背后的原因。
 
-   列入阻止列表在此，我们可以看到我们的一个移动应用程序订阅者已被排除，因为该地址在上，而其他订阅者因用户档案重复而被排除。
+   在此，我们可以看到我们的一个移动应用程序订阅者已被排除，因为该地址在上，而其他订阅者因用户档案重复而被排除。
 
    ![](assets/push_send_5.png)
 
@@ -108,7 +120,7 @@ ht-degree: 3%
    ![](assets/push_send_7.png)
 
 1. 您现在可以单击&#x200B;**[!UICONTROL Confirm]**&#x200B;开始发送推送通知。
-1. 通过消息仪表板和日志，检查投放的状态。有关此内容的详细信息，请参阅[发送邮件](../../sending/using/confirming-the-send.md)和[投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+1. 通过消息仪表板和日志，检查投放的状态。 有关此内容的详细信息，请参阅[发送邮件](../../sending/using/confirming-the-send.md)和[投放日志](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
    在此示例中，消息仪表板显示Adobe Campaign尝试发送两个推送通知：一个已成功交付到设备，另一个失败。 要了解投放出现错误的原因，请单击&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口底部的![](assets/lp_link_properties.png)按钮。
 

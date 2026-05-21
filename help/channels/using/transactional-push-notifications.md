@@ -9,20 +9,29 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: 1459
 ht-degree: 3%
 
 ---
 
 # 事务性推送通知{#transactional-push-notifications}
 
-您可以使用Adobe Campaign在iOS和Android移动设备上发送事务推送通知。 通过利用Experience CloudMobile SDK在Adobe Campaign中设置的移动应用程序，可接收此类消息。
+您可以使用Adobe Campaign在iOS和Android移动设备上发送事务推送通知。 通过利用Experience Cloud Mobile SDK在Adobe Campaign中设置的移动应用程序，可接收此类消息。
 
 >[!NOTE]
 >
->推送渠道是可选的。 请核实您的许可协议。有关标准推送通知的详细信息，请参阅[关于推送通知](../../channels/using/about-push-notifications.md)。
+>推送渠道是可选的。 请核实您的许可协议。 有关标准推送通知的详细信息，请参阅[关于推送通知](../../channels/using/about-push-notifications.md)。
 
 要发送事务性推送通知，您需要相应地配置Adobe Campaign。 请参阅[配置移动应用程序](../../administration/using/configuring-a-mobile-application.md)。
 
@@ -48,8 +57,8 @@ ht-degree: 3%
 事件必须包含以下三个元素：
 
 * **注册令牌**，它是一个移动设备应用程序和设备的用户ID。 它可能与Adobe Campaign数据库中的任何配置文件不对应。
-* **移动应用程序名称**(适用于所有设备 — Android和iOS)。 这是在Adobe Campaign中配置的移动应用程序的ID，该ID将用于接收用户设备上的推送通知。 有关详细信息，请参阅[配置移动应用程序](../../administration/using/configuring-a-mobile-application.md)。
-* **推送平台**(Android的“gcm”或iOS的“apns”)。
+* **移动应用程序名称**（适用于所有设备 — Android和iOS）。 这是在Adobe Campaign中配置的移动应用程序的ID，该ID将用于接收用户设备上的推送通知。 有关详细信息，请参阅[配置移动应用程序](../../administration/using/configuring-a-mobile-application.md)。
+* **推送平台**（Android的“gcm”或iOS的“apns”）。
 
 要配置事件，请执行以下步骤：
 
@@ -93,7 +102,7 @@ ht-degree: 3%
 
 1. 如果要使用Adobe Campaign数据库中的其他信息，还可以扩充事务型消息内容（请参阅[扩充事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。
 
-1. 保存更改并发布消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 保存更改并发布消息。 请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
 1. 使用Adobe Campaign Standard REST API，使用一个移动应用程序(WeFlight)将事件发送到包含登机数据的Android (gcm)上的注册令牌(ABCDEF123456789)：
 
@@ -173,7 +182,7 @@ ht-degree: 3%
 
    有关编辑推送通知内容的更多信息，请参阅[准备和发送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 保存更改并发布消息。请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 保存更改并发布消息。 请参阅[发布事务型消息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 1. 使用Adobe Campaign Standard REST API向配置文件发送事件：
 
    ```

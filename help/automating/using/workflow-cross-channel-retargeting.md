@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 37%
+source-wordcount: 315
+ht-degree: 42%
 
 ---
 
@@ -29,8 +36,8 @@ ht-degree: 37%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL email]**&#x200B;选择&#x200B;**[!UICONTROL is not empty]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL is not empty]**&#x200B;选择&#x200B;**[!UICONTROL email]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
@@ -45,7 +52,7 @@ ht-degree: 37%
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Using the Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 使用特定于每个位置的优惠来个性化电子邮件。有关详细信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 使用特定于各个地理位置的产品建议，将电子邮件个性化。有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
 
@@ -56,7 +63,7 @@ ht-degree: 37%
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放 **[!UICONTROL Query activity]**。
 1. 双击该活动。
 1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Tracking Logs]**&#x200B;和运算符&#x200B;**[!UICONTROL exists]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，使用运算符&#x200B;**[!UICONTROL delivery]**&#x200B;拖放&#x200B;**[!UICONTROL is equal to]**&#x200B;并选择投放作为值。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，使用运算符&#x200B;**[!UICONTROL is equal to]**&#x200B;拖放&#x200B;**[!UICONTROL delivery]**&#x200B;并选择投放作为值。
 1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，拖放&#x200B;**[!UICONTROL type]**&#x200B;并将&#x200B;**[!UICONTROL Open]**&#x200B;检查为值。
 1. 选择规则之间的运算符为&#x200B;**[!UICONTROL except]**。
 1. 单击 **[!UICONTROL Confirm]**。

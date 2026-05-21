@@ -6,9 +6,21 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
+TQID: https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: 1252
 ht-degree: 1%
 
 ---
@@ -16,7 +28,7 @@ ht-degree: 1%
 # 如何将移动应用程序从 SDK v4 迁移到 Adobe Experience Platform SDK {#sdkv4-migration}
 
 
-截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在使用此旧版SDK，则必须在2024年6月底之前使用Adobe Experience Platform SDK **更新您的实施**。 请参阅本文以了解如何迁移到AdobeExperience Platform SDK。
+截至2021年8月31日，已终止对Adobe Experience Platform Mobile版本4 SDK的支持。 如果您仍在使用此旧版SDK，则必须在2024年6月底之前使用Adobe Experience Platform SDK **更新您的实施**。 请参阅本文以了解如何迁移到Adobe Experience Platform SDK。
 
 >[!IMPORTANT]
 >
@@ -24,9 +36,9 @@ ht-degree: 1%
 
 ## 关于SDK V4迁移
 
-Adobe Campaign Standard使用SDK V4处理移动应用程序作为单独的应用程序，而不是使用Adobe Experience Platform SDK的应用程序。
+Adobe Campaign Standard使用SDK V4作为单独的应用程序来处理移动应用程序，而不是使用Adobe Experience Platform SDK的应用程序。
 
-将AdobeSDK版本从v4升级到Adobe Experience Platform后，移动应用程序需要继续使用现有的应用程序订阅者数据和营销活动：因此需要迁移。
+将Adobe SDK版本从v4升级到Adobe Experience Platform后，移动应用程序需要继续使用现有的应用程序订阅者数据和营销活动：因此需要迁移。
 
 >[!NOTE]
 >
@@ -38,7 +50,7 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序作为单独的应用
 | 移动应用程序的名称将保持不变。 |
 | 将保留iOS和Android的平台凭据。 |
 | 将保留应用程序的所有订阅者及其数据。 |
-| 现有SDK v4移动应用程序将继续向Adobe Campaign Standard发送数据（PII数据、订阅者和令牌信息）。 |
+| 现有的SDK v4移动应用程序将继续向Adobe Campaign Standard发送数据（PII数据、订阅者和令牌信息）。 |
 | 移动应用程序的&#x200B;**[!UICONTROL Organizational unit]**&#x200B;将保持不变。 |
 
 | 迁移后有何变化 |
@@ -83,11 +95,11 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序作为单独的应用
 
 1. 出现成功完成窗口，单击&#x200B;**[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**。
 
-1. 在Adobe Experience Platform SDK渠道列表页面中，检查以前的V4移动应用程序是否设置为&#x200B;**[!UICONTROL Ready To Configure]**。
+1. 从Adobe Experience Platform SDK渠道列表页面，检查您之前的V4移动应用程序是否设置为&#x200B;**[!UICONTROL Ready To Configure]**。
 
 1. 选择您的移动应用程序，然后单击&#x200B;**[!UICONTROL Save]**&#x200B;以完成迁移。
 
-在此迁移后，由移动应用程序的V4版本收集的订阅者和由移动应用程序的AEP版本收集的新订阅者将在迁移的应用程序中可用。
+在此迁移后，迁移的应用程序将提供V4版本移动应用程序收集的订阅者以及AEP版本移动应用程序收集的新订阅者。
 
 为了区分这两种不同类型的订阅者，例如，在扩展自定义资源&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;时可以添加&#x200B;**[!UICONTROL Text]**&#x200B;类型的新自定义字段，例如`sdkversion`或`appVersion`。 有关如何扩展自定义资源的更多信息，请参阅此[页面](../../developing/using/creating-or-extending-the-resource.md)。
 然后，您需要配置关联的标记&#x200B;**[!UICONTROL Mobile property]**&#x200B;以在“收集PII”调用中发送此自定义字段值，并相应地更改您的移动应用程序配置。
@@ -106,11 +118,11 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序作为单独的应用
 
 ![](assets/aep_v4_6.png)
 
-### 问：为何无法使用状态为“已配置”属性的Adobe Experience Platform SDK应用程序进行迁移？ {#property-status}
+### 问：为何无法使用“已配置”属性状态的Adobe Experience Platform SDK应用程序进行迁移？ {#property-status}
 
 答：迁移过程会保留SDK v4订阅者和属性。 它仅保留Adobe Experience Platform SDK应用程序中与标记相关的信息。 Adobe Experience Platform SDK应用程序中的订阅者和其他数据将丢失。 为避免任何数据丢失，只有具有&#x200B;**[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]**&#x200B;的Adobe Experience Platform SDK应用程序才有资格迁移。
 
-### 问：迁移后，我可以在何处找到以前的SDK v4移动应用程序？ {#v4-app-not-visible}
+### 问：迁移后，我可以在哪里找到以前的SDK v4移动应用程序？ {#v4-app-not-visible}
 
 答：迁移后的移动设备应用程序将从高级菜单&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**&#x200B;中可见。
 
@@ -122,12 +134,12 @@ Adobe Campaign Standard使用SDK V4处理移动应用程序作为单独的应用
 
 答： **[!UICONTROL Organizational unit]** ALL的管理员将有权管理这两个移动设备应用程序，并将负责迁移。
 
-### 问：如果SDK v4移动应用程序组织单位设置为A，Adobe Experience Platform SDK应用程序设置为B（组织单位A的同级）。 如何迁移移动应用程序？ {#aep-org-unit}
+### 问：如果将SDK v4移动应用程序组织单位设置为A，并将Adobe Experience Platform SDK应用程序设置为B（组织单位A的同级）。 如何迁移移动应用程序？ {#aep-org-unit}
 
-答：Adobe Experience Platform SDK应用程序是同级&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的资源，因此移动应用程序对&#x200B;**[!UICONTROL Organizational unit]** A的用户不可见。**[!UICONTROL Organizational unit]** ALL的管理员可以使用移动应用程序，但我们不建议这些管理员迁移移动应用程序。
+答：Adobe Experience Platform SDK应用程序是同级&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的资源，因此移动设备应用程序对&#x200B;**[!UICONTROL Organizational unit]** A的用户不可见。**[!UICONTROL Organizational unit]** ALL的管理员可以使用移动应用程序，但我们不建议这些管理员迁移移动应用程序。
 在这种情况下，您应将移动应用程序移到同一&#x200B;**[!UICONTROL Organizational unit]**&#x200B;中或带有父链接的&#x200B;**[!UICONTROL Organizational unit]**&#x200B;中。
 有关&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的详细信息，请参阅此[部分](../../administration/using/organizational-units.md)。
 
 ### 问：在Adobe Experience Platform SDK移动应用程序（从v4移动应用程序迁移）页面的“推送渠道设置”下拉列表下，不会显示Android密钥或iOS证书的上传日期/名称等信息 {#no-information-v5}
 
-答：创建SDK V4移动应用程序时，系统不会存储此信息。 在将SDK V4移动应用程序迁移到Adobe Experience Platform SDK移动应用程序时，迁移后的移动应用程序也将不包含此类信息。 用户一旦上传新的iOS证书或Android密钥，该密钥或证书的不同详细信息将立即在&#x200B;**[!UICONTROL Push channel settings]**&#x200B;下拉菜单下正确存储和显示。
+答：创建SDK V4移动应用程序时，系统不会存储此信息。 在将SDK V4移动应用程序迁移到Adobe Experience Platform SDK移动应用程序时，您迁移的移动应用程序也将不包含此类信息。 用户一旦上传新的iOS证书或Android密钥，该密钥或证书的不同详细信息将立即在&#x200B;**[!UICONTROL Push channel settings]**&#x200B;下拉菜单下正确存储和显示。

@@ -7,14 +7,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/ialeaJzsFmhu1if-CTJfg9xLwq6jjA4aA0eXnOT-oyo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 35%
+source-wordcount: 222
+ht-degree: 40%
 
 ---
 
-# 营销活动(nms：campaign)
+# 营销活动(nms:campaign)
 
 ## 对象说明
 
@@ -45,7 +50,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -68,7 +73,7 @@ ht-degree: 35%
                   <td> </td>
                </tr>
                <tr>
-                  <td>结束</td>
+                  <td>结尾</td>
                   <td>结束日期</td>
                   <td>日期 </td>
                   <td> </td>

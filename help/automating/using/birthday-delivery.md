@@ -1,6 +1,6 @@
 ---
 title: 生日投放
-description: 本示例是生日工作流。每天向当天生日的用户档案发送一封电子邮件。
+description: 本示例是生日工作流。 每天向当天生日的用户档案发送一封电子邮件。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/LXiYfz5VXaY7j0pOHWUCGJzp5F4bCsSCmFzEqsQG18E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 52%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 52%
 
 ![](assets/wkf_delivery_example_1.png)
 
-本示例是生日工作流。每天向当天生日的用户档案发送一封电子邮件。
+本示例是生日工作流。 每天向当天生日的用户档案发送一封电子邮件。
 
 要构建工作流，请执行以下步骤：
 
@@ -33,6 +40,6 @@ ht-degree: 52%
 
   ![](assets/wkf_delivery_example_3.png)
 
-* [电子邮件投放](../../automating/using/email-delivery.md)是定期进行的。 按月聚合发送情况。因此，一个月内发送的所有电子邮件，都会被聚合到单独的一个视图中。因此，一年内要执行 365 次投放，但在 Adobe Campaign 界面中，已将它们重组为 12 个视图（也称&#x200B;**定期执行**）。历史记录和报告将按月提供而不是按每次发送提供。
+* [电子邮件投放](../../automating/using/email-delivery.md)是定期进行的。 按月聚合发送情况。 因此，一个月内发送的所有电子邮件，都会被聚合到单独的一个视图中。 因此，一年内要执行 365 次投放，但在 Adobe Campaign 界面中，已将它们重组为 12 个视图（也称&#x200B;**定期执行**）。 历史记录和报告将按月提供而不是按每次发送提供。
 
   ![](assets/wkf_delivery_example_4.png)

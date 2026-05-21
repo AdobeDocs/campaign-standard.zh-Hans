@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 350
 ht-degree: 0%
 
 ---
@@ -47,6 +58,6 @@ ht-degree: 0%
    * AES的&#x200B;**加密IV** （初始化矢量）
    * **渠道** （电子邮件/短信/其他）：此字段允许直接解密电子邮件地址和短信号码。 确保协调密钥与&#x200B;**Channel**&#x200B;字段的设置匹配。 如果选择“其他”，将不会发生此特定解密，并且协调密钥将用于协调数据。
 
-  可能无法共享Experience Cloud受众，因为技术工作流已停止或暂停。 通过直接单击数据源中的&#x200B;**[!UICONTROL Import shared audience]**&#x200B;选项访问&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;工作流。
+  可能无法共享Experience Cloud受众，因为技术工作流已停止或暂停。 通过直接单击数据源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;选项访问&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流。
 
 在通过People核心服务共享受众或导入受众时，可能会丢失某些数据。 只传输ID（“访客ID”或“声明的ID”）能够与用户档案维度协调的记录。 Adobe Campaign无法识别的People核心服务区段中的ID不会导入。

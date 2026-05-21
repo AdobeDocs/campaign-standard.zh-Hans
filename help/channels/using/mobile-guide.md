@@ -8,10 +8,21 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
+TQID: https://experienceleague.adobe.com/sBjTFd0Su7In8xai4J8cp5QAsAh6pOVOf4OVAijQmXo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 22%
+source-wordcount: 799
+ht-degree: 18%
 
 ---
 
@@ -45,14 +56,14 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>使用Adobe Experience Platform SDK配置移动应用程序</strong></p>
     </div>
-    <p>要发送应用程序内消息和推送通知，需要利用Adobe Experience Platform SDK在Adobe Campaign中设置您的移动应用程序。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>若要发送应用程序内消息和推送通知，需要利用Adobe Experience Platform SDK在Adobe Campaign中设置您的移动应用程序。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>了解Campaign Standard推送通知有效负荷结构</strong></p>
+    <p><strong>了解Campaign Standard推送通知有效载荷结构</strong></p>
     </div>
-    <p>详细了解当推送通知从Adobe Campaign Standard成功发送到应用程序时，在移动应用程序中接收的有效负荷的结构。</br><a href="../../administration/using/push-payload.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>了解当推送通知从Adobe Campaign Standard成功发送到应用程序时，在移动应用程序中接收的有效负载结构的更多信息。</br><a href="../../administration/using/push-payload.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
 </tr>
@@ -82,14 +93,14 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>使用Adobe Experience Platform SDK配置移动应用程序</strong></p>
     </div>
-    <p>要发送应用程序内消息和推送通知，需要利用Adobe Experience Platform SDK在Adobe Campaign中设置您的移动应用程序。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>若要发送应用程序内消息和推送通知，需要利用Adobe Experience Platform SDK在Adobe Campaign中设置您的移动应用程序。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>使用Adobe Experience Platform SDK支持的移动使用案例</strong></p>
     </div>
-    <p>详细了解Adobe Campaign Standard通过使用Adobe Experience Platform SDK支持的移动用例。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>详细了解Adobe Campaign Standard通过使用Adobe Experience Platform SDK支持的移动使用案例。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
 </tr>
@@ -163,7 +174,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>自定义应用程序内消息</strong></p>
     </div>
-    <p>要优化投放，可在设计应用程序内时通过Adobe Campaign访问一组高级选项。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>要优化您的投放，Adobe Campaign允许您在设计应用程序内应用程序时访问一组高级选项。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
 </tr>
@@ -172,7 +183,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>自定义本地通知消息类型</strong></p>
     </div>
-    <p>本地通知只能由应用程序在特定时间根据事件触发。</br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>单击此处</strong></a>以了解更多信息。</p>
+    <p>本地通知只能由应用程序在特定时间根据事件触发。 </br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>单击此处</strong></a>以了解更多信息。</p>
     <br>
   </td>
   <td>
@@ -193,7 +204,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>创建短信消息</strong></p>
     </div>
-    <p>创建短信投放与创建常规电子邮件非常相似。</br>此处详述的步骤<a href="../../channels/using/creating-an-sms-message.md"><strong>描述了特定于此渠道的配置</strong></a>。</p>
+    <p>创建短信投放与创建常规电子邮件非常相似。 </br>此处详述的步骤<a href="../../channels/using/creating-an-sms-message.md"><strong>描述了特定于此渠道的配置</strong></a>。</p>
     <br>
   </td>
   <td>
@@ -210,7 +221,7 @@ Adobe Campaign允许您在各种渠道上创建并发送个性化消息，并通
     <div>
     <p><strong>管理传入的短信</strong></p>
     </div>
-    <p>当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给该用户档案的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处以了解详细信息。</p>
+    <p>当某个用户档案回复通过Campaign发送的短信消息时，您可以配置自动发回给他们的消息以及要执行的操作。自定义本地通知消息类型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>单击此处以了解详细信息。</p>
     <br>
   </td>
   <td>

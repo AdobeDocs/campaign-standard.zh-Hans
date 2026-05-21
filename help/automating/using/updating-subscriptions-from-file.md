@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/gXDQV8YTYmi5-UD-2GGy-JlxkzfaHcWgKvVLt2ihqNs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 77%
 
 ---
 
 # 从文件更新多个订阅状态 {#updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。 导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。 为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
@@ -44,26 +51,26 @@ ht-degree: 77%
 
   ![](assets/subscription_example_load_file.png)
 
-  如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。为满足此要求，将在“operation”列的详情中执行重映射值的操作。
+  如您所见，文件中的操作为“订阅”或“退订”。 系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。 为满足此要求，将在“operation”列的详情中执行重映射值的操作。
 
   ![](assets/subscription_example_remapping.png)
 
-  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
+  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。 在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
 * [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与轮廓资源的 **email** 字段匹配。
 
   ![](assets/subscription_activity_example3.png)
 
-  在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。在本例中，这些值与服务资源的 **name** 字段匹配。
+  在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。 在本例中，这些值与服务资源的 **name** 字段匹配。
 
   ![](assets/subscription_example_service_relation.png)
 
-* 基于临时资源的[电子邮件](../../automating/using/deduplication.md)字段的&#x200B;**重复数据删除**（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* 基于临时资源的&#x200B;**电子邮件**&#x200B;字段的[重复数据删除](../../automating/using/deduplication.md)（由协调产生）标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 
 * [订阅服务](../../automating/using/subscription-services.md)活动标识要更新的服务来自过渡，它通过&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活动中创建的链接进行。
 
-  将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
+  将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。 此处只能选择 Boolean 或 Integer 字段。 如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 
   ![](assets/subscription_activity_example_from_file.png)

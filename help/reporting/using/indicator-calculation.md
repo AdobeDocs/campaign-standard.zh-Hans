@@ -8,9 +8,21 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QgkQth22239fJIEoh5DWlTkx9ptFo7DpziHH0hLRt-U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: 786
 ht-degree: 1%
 
 ---
@@ -68,7 +80,7 @@ ht-degree: 1%
   <tr> 
    <td> 单击<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1或10或11)<br /> </td> 
+   <td> count（@trackingUrlType=1或10或11）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -92,7 +104,7 @@ ht-degree: 1%
   <tr> 
    <td> 硬退回<br /> </td> 
    <td> @hardBounces<br /> </td> 
-   <td> count(@failureType=2和@failureReason=8)<br /> </td> 
+   <td> count（@failureType=2和@failureReason=8）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -332,7 +344,7 @@ ht-degree: 1%
    <td> 独特展示次数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br />对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br /> 对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点击<br /> </td> 
@@ -344,7 +356,7 @@ ht-degree: 1%
    <td> 应用程序内唯一点击次数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br />对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br /> 对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用程序内点击率<br /> </td> 
@@ -362,7 +374,7 @@ ht-degree: 1%
    <td> 唯一应用程序内解除<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br />对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
+   <td> 对于<span class="uicontrol">根据用户的促销活动配置文件(inAppProfile)</span>模板确定目标用户，用户=收件人ID。<br /> 对于<span class="uicontrol">Target移动应用程序(inAppBroadcast)的所有用户</span>和<span class="uicontrol">根据用户的移动配置文件(inApp)</span>模板定位用户，用户= MC ID或等效项，表示用户、移动应用程序和设备的唯一组合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 应用内解雇率<br /> </td> 

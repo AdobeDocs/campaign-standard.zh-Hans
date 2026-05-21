@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/oyXhQ4Fgx2-cooFelMxsoFiP1qx48-ZQ1eoAudNivF8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 77%
+source-wordcount: 190
+ht-degree: 80%
 
 ---
 
@@ -50,10 +57,10 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png)：从工作流中可用的所有变量中选择事件变量（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
-     例如，您可以使用[变量检查](../../automating/using/transfer-file.md)文件传输&#x200B;**[!UICONTROL filesCount]**&#x200B;活动后的已下载文件数。
+     例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;变量检查[文件传输](../../automating/using/transfer-file.md)活动后的已下载文件数。
 
      ![](assets/wkf_test_activity_variables.png)
 
-   * ![](assets/extsignal_expression_editor.png)：编辑组合变量和函数的表达式。有关表达式编辑器的更多信息，请参阅[此章节](../../automating/using/advanced-expression-editing.md)。
+   * ![](assets/extsignal_expression_editor.png)：编辑组合变量和函数的表达式。 有关表达式编辑器的更多信息，请参阅[此章节](../../automating/using/advanced-expression-editing.md)。
 
      ![](assets/wkf_test_activity_variables_expression.png)

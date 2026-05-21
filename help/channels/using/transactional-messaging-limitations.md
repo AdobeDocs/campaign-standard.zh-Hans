@@ -9,9 +9,20 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
+TQID: https://experienceleague.adobe.com/rFFpX6Up3eir0KrwY0lsfhAHlfennHiJkq2BsHuiAps
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 763
 ht-degree: 61%
 
 ---
@@ -33,11 +44,11 @@ ht-degree: 61%
 配置和发布事务事件时，需要执行的某些步骤无法还原。 您需要了解以下限制：
 
 * 事务性消息的可用渠道为： **[!UICONTROL Email]**、**[!UICONTROL Mobile (SMS)]**&#x200B;和&#x200B;**[!UICONTROL Push notification]**。
-* 每个事件配置只能使用一个渠道。请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
-* 创建事件后，便无法更改渠道。因此，您需要设计一种机制，在某个消息未成功发送时，允许通过某种工作流从其他渠道发送该消息。请参阅[工作流数据和流程](../../automating/using/get-started-workflows.md)。
-* 创建事件后，就无法再更改定向维度（**[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]**）。请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
-* 无法回滚发布，但您可以取消发布事件：此操作会使事件和相关的事务型消息变为无法访问状态。请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
-* 唯一可以与事务型消息关联的事件，就是发布该事件时自动创建的消息。请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+* 每个事件配置只能使用一个渠道。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+* 创建事件后，便无法更改渠道。 因此，您需要设计一种机制，在某个消息未成功发送时，允许通过某种工作流从其他渠道发送该消息。 请参阅[工作流数据和流程](../../automating/using/get-started-workflows.md)。
+* 创建事件后，就无法再更改定向维度（**[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]**）。 请参阅[创建事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+* 无法回滚发布，但您可以取消发布事件：此操作会使事件和相关的事务型消息变为无法访问状态。 请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+* 唯一可以与事务型消息关联的事件，就是发布该事件时自动创建的消息。 请参阅[预览和发布事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 ## 事务性消息数 {#transactional-message-number}
 
@@ -47,20 +58,20 @@ ht-degree: 61%
 
 ## 个性化 {#personalization}
 
-个性化消息内容的方式，取决于事务型消息的类型。具体情况如下所列。
+个性化消息内容的方式，取决于事务型消息的类型。 具体情况如下所列。
 
 ### 基于事件的事务型消息
 
-* 个性化信息来自事件本身包含的数据。请参阅[基于事件的事务型消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
+* 个性化信息来自事件本身包含的数据。 请参阅[基于事件的事务型消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
 * 您&#x200B;**不能**&#x200B;在事件事务型消息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块。
-* 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。但是，您也可以使用 Adobe Campaign 数据库中的信息扩充事务型消息的内容。请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+* 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。 但是，您也可以使用 Adobe Campaign 数据库中的信息扩充事务型消息的内容。 请参阅[丰富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[个性化事务型消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 * 由于事件事务型消息不包含用户档案信息，因此就算使用用户档案扩充了内容，也不兼容疲劳规则。
 
 ### 基于用户档案的事务型消息
 
-* 个性化信息可以来自事件中包含的数据，也可以来自协调的用户档案记录。请参阅[基于用户档案的事务型消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[基于用户档案的事务型消息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+* 个性化信息可以来自事件中包含的数据，也可以来自协调的轮廓记录。 请参阅[基于用户档案的事务型消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[基于用户档案的事务型消息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
 * 您&#x200B;**可以**&#x200B;在配置文件事务型消息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;个内容块。 请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
-* 疲劳规则与用户档案事务型消息兼容。请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
+* 疲劳规则与轮廓事务型消息兼容。 请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
 
 ### 产品列表
 
@@ -68,9 +79,9 @@ ht-degree: 61%
 
 ## 品牌化 {#permissions-and-branding}
 
-对于[品牌策略](../../administration/using/branding.md)的管理而言，事务型消息的灵活性低于标准消息。Adobe 建议将事务型消息中使用的所有品牌关联到 **[!UICONTROL All]** [组织单位](../../administration/using/organizational-units.md)。有关此方面的更多信息，请阅读下方的详细说明。
+对于[品牌策略](../../administration/using/branding.md)的管理而言，事务型消息的灵活性低于标准消息。 Adobe 建议将事务型消息中使用的所有品牌关联到 **[!UICONTROL All]** [组织单位](../../administration/using/organizational-units.md)。 有关此方面的更多信息，请阅读下方的详细说明。
 
-编辑事务型消息时，您可以将其链接到品牌以自动应用一些参数，例如品牌名称或品牌徽标。默认情况下，事务型消息属性中会选中 **[!UICONTROL Default brand]**。
+编辑事务型消息时，您可以将其链接到品牌以自动应用一些参数，例如品牌名称或品牌徽标。 默认情况下，事务型消息属性中会选中 **[!UICONTROL Default brand]**。
 
 ![](assets/message-center_branding.png)
 
@@ -83,4 +94,4 @@ ht-degree: 61%
 ## 导出和导入事务型消息 {#exporting-and-importing-transactional-messages}
 
 * 要导出事务型消息，您需要在[创建导出资源包](../../automating/using/managing-packages.md#creating-a-package)时包含相应的事件配置。
-* [通过资源包导入](../../automating/using/managing-packages.md#importing-a-package)事务型消息后，该消息不会显示在事务型消息的列表中。您需要[发布](../../channels/using/publishing-transactional-event.md)事件配置，以使关联的事务型消息可用。
+* [通过资源包导入](../../automating/using/managing-packages.md#importing-a-package)事务型消息后，该消息不会显示在事务型消息的列表中。 您需要[发布](../../channels/using/publishing-transactional-event.md)事件配置，以使关联的事务型消息可用。

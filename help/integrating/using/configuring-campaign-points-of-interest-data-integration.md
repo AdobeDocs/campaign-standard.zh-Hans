@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 1%
+source-wordcount: 1346
+ht-degree: 3%
 
 ---
 
@@ -131,7 +142,7 @@ ht-degree: 1%
      ```
 
    * 将&#x200B;**内容类型**&#x200B;设置为&#x200B;**[!UICONTROL application/json]**。
-   * 在&#x200B;**中，哪些数据标记会触发回发？**，选择任何事件，通常为&#x200B;**[!UICONTROL Launched]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
+   * 在&#x200B;**哪些数据标记会触发回发？**&#x200B;中，选择任意事件，通常为&#x200B;**[!UICONTROL Launched]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
    * 单击 **[!UICONTROL Save & Activate]**。
 
 1. 创建第二个回发。
@@ -158,7 +169,7 @@ ht-degree: 1%
      ```
 
    * 将&#x200B;**内容类型**&#x200B;设置为&#x200B;**[!UICONTROL application/json]**。
-   * 在&#x200B;**中，哪些数据标记会触发回发？**，选择&#x200B;**[!UICONTROL campaign.test]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
+   * 在&#x200B;**哪些数据标记会触发回发？**&#x200B;中，选择&#x200B;**[!UICONTROL campaign.test]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
    * 单击 **[!UICONTROL Save & Activate]**。
 
 >[!NOTE]
@@ -188,7 +199,7 @@ ht-degree: 1%
 
 使用特定的自定义资源，您可以定义要从应用程序的订阅者那里收集的数据。
 
-使用SDK V4[配置移动应用程序页面中的](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)介绍了此步骤。
+使用SDK V4[&#128279;](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中的介绍了此步骤。
 
 ## 访问用于收集位置数据的移动应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 

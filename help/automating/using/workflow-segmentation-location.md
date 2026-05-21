@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JWuP-ztPWX--nU-tPpPYUrwL-FsEKTJqdWX1KByF-80
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 79%
+source-wordcount: 270
+ht-degree: 78%
 
 ---
 
@@ -38,11 +45,11 @@ ht-degree: 79%
 ## 创建分段活动{#creating-a-segmentation-activity}
 
 1. 拖放[分段](../../automating/using/segmentation.md)活动并双击该活动。
-1. 单击区段，然后打开过渡以定向第一个城市的人群。在本例中，为“Boston”。
+1. 单击区段，然后打开过渡以定向第一个城市的人群。 在本例中，为“Boston”。
 1. 拖放 **[!UICONTROL Location]** 并选择 **[!UICONTROL City]** 和运算符 **[!UICONTROL equals to]**，同时选择值 **[!UICONTROL Boston]**。
 注意：要联系所有进入波士顿的人员，请取消选中“区分大小写”选项。
 1. 单击 **[!UICONTROL Confirm]**。
-1. 在 **[!UICONTROL List of outbound segments]** 中，单击 **[!UICONTROL Add an element]** 并单击 ![](assets/edit_darkgrey-24px.png) 创建用于定向第二个城市人群的区段。在本例中，为“Chicago”。
+1. 在 **[!UICONTROL List of outbound segments]** 中，单击 **[!UICONTROL Add an element]** 并单击 ![](assets/edit_darkgrey-24px.png) 创建用于定向第二个城市人群的区段。 在本例中，为“Chicago”。
 1. 拖放 **[!UICONTROL Location]** 并选择 **[!UICONTROL City]** 和运算符 **[!UICONTROL equals to]**，然后输入 **[!UICONTROL Chicago]** 值。
 1. 要联系所有进入芝加哥的人员，请取消选中“区分大小写”选项。
 1. 单击 **[!UICONTROL Confirm]**。

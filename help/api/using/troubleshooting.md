@@ -6,9 +6,18 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -75,7 +84,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 出了点问题。 请检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 

@@ -6,10 +6,20 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
+TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: 990
+ht-degree: 66%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 65%
 
 安全组是指组织内共享相同角色和权限的一组用户。
 
-用户必须始终链接到安全组。这将允许您为他们分配特定的角色和组织单位。 要限制某个用户的访问，请勿将该用户添加到Campaign **[!UICONTROL Standard Users]**&#x200B;组，因为该组已链接到&#x200B;**[!UICONTROL All]**&#x200B;组织单位。
+用户必须始终链接到安全组。 这将允许您为他们分配特定的角色和组织单位。 要限制某个用户的访问，请勿将该用户添加到Campaign **[!UICONTROL Standard Users]**&#x200B;组，因为该组已链接到&#x200B;**[!UICONTROL All]**&#x200B;组织单位。
 
 有关角色的更多信息，下页中的表显示了根据用户的角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)。
 
@@ -42,9 +52,9 @@ ht-degree: 65%
 >
 >请注意，在Admin Console中，安全组称为用户档案。
 
-如果现成的用户组不足以管理用户，您可以创建自己的安全组。有权访问Adobe Campaign管理菜单和Admin Console的管理员可以管理这些区段。 有关Admin Console的详细信息，请参阅此[文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
+如果现成的用户组不足以管理用户，您可以创建自己的安全组。 有权访问Adobe Campaign管理菜单和Admin Console的管理员可以管理这些区段。 有关Admin Console的详细信息，请参阅此[文档](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
-在此，我们首先需要将两个现成的组“标准用户”和“管理员”分配给我们的用户。这些安全组将限制 Adobe Campaign 的某些功能：例如，标准用户具有访问 Adobe Campaign 的基础权限，而管理员可以访问管理菜单。
+在此，我们首先需要将两个现成的组“标准用户”和“管理员”分配给我们的用户。 这些安全组将限制 Adobe Campaign 的某些功能：例如，标准用户具有访问 Adobe Campaign 的基础权限，而管理员可以访问管理菜单。
 
 请注意，一旦用户登录 Adobe Campaign，对管理控制台上的安全组所做的任何更改都将同步。
 
@@ -59,7 +69,7 @@ ht-degree: 65%
    ![](assets/manage_security_group_2.png)
 
 1. 单击 **[!UICONTROL Add user]** 按钮并输入用户的电子邮件地址。
-1. 在 **[!UICONTROL Assign Products]** 选项卡的 **[!UICONTROL Administrators]** 下拉列表中选择您的实例，然后选择现成的安全组。这样可让用户有权访问管理菜单并创建下一个安全组。
+1. 在 **[!UICONTROL Assign Products]** 选项卡的 **[!UICONTROL Administrators]** 下拉列表中选择您的实例，然后选择现成的安全组。 这样可让用户有权访问管理菜单并创建下一个安全组。
 
    ![](assets/ootb_security_group_2.png)
 
@@ -103,7 +113,7 @@ ht-degree: 65%
 
    如果某个用户位于多个组中：
 
-   * 则该用户将叠加不同组的角色。在本例中，用户位于两个不同的组中：一个代表角色，另一个代表单位。
+   * 则该用户将叠加不同组的角色。 在本例中，用户位于两个不同的组中：一个代表角色，另一个代表单位。
    * 单位是所用层次结构中最高的级别（请参阅[组织单位](../../administration/using/organizational-units.md)一节中的示例）。
    * 如果分配给用户的组织单位位于层次结构中的并行分支中（即，它们没有公共分配的父单位），则系统会为用户选择组织单位，并且用户将有权访问系统选择的组织单位及其子级。
 
@@ -113,14 +123,14 @@ ht-degree: 65%
 
 现在，新创建的安全组是在Admin Console中创建的。 要使它们完全同步，您还需要在 Adobe Campaign 创建它们。
 
-管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
+管理员用户必须创建用于分配组织单位的一系列安全组：Geometrixx 和 Geometrixx Clothes。 要了解如何创建组织单位，请参阅[创建和管理单位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
 1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Users & Security > Security groups]**。
 1. 创建新的安全组并指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
 
    ID必须与在Admin Console中选择的ID相同。
 
-1. 在 **[!UICONTROL User access]** 字段中，分配组织单位。在本例中，已经为 **[!UICONTROL All]** 组织单位分配了 Geometrixx 安全组。
+1. 在 **[!UICONTROL User access]** 字段中，分配组织单位。 在本例中，已经为 **[!UICONTROL All]** 组织单位分配了 Geometrixx 安全组。
 
    >[!NOTE]
    >
@@ -128,7 +138,7 @@ ht-degree: 65%
 
    ![](assets/manage_security_group_6.png)
 
-1. 您还可以为安全组分配角色。在本例中，由于使用了现成的安全组 **[!UICONTROL Administrators]** 和 **[!UICONTROL Standard users]** 来分配角色，因此无需进行此步骤。
+1. 您还可以为安全组分配角色。 在本例中，由于使用了现成的安全组 **[!UICONTROL Administrators]** 和 **[!UICONTROL Standard users]** 来分配角色，因此无需进行此步骤。
 1. 按照相同的步骤创建最后一个安全组 Geometrixx Clothes，并分配 Geometrixx Clothes 组织单位。
 
    ![](assets/manage_security_group_7.png)

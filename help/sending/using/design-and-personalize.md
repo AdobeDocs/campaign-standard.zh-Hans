@@ -9,16 +9,30 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 4%
+source-wordcount: 1043
+ht-degree: 7%
 
 ---
 
 # 生成个性化内容 {#build-personalized-content}
 
-在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数时候，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容[时的格式设置](../../designing/using/using-existing-content.md)以及[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)和[图像](../../designing/using/images.md)有关。
+在设计消息内容时，请尽量避免可能会阻止您执行投放的常见问题。 大多数时候，可能的错误与[个性化](../../designing/using/personalization.md)、使用现有内容[&#128279;](../../designing/using/using-existing-content.md)时的格式设置以及[转换HTML内容](../../designing/using/using-existing-content.md#converting-an-html-content)和[图像](../../designing/using/images.md)有关。
 
 ## 优化个性化 {#optimize-personalization}
 
@@ -64,13 +78,13 @@ ht-degree: 4%
 
 ### 退订链接
 
-退订链接是必需的。 它必须可见且有效，并且表单必须有效。 在本节[中了解退订链接准则](../../designing/using/personalization.md#about-targeting-dimension)。
+退订链接是必需的。 它必须可见且有效，并且表单必须有效。 在本节[&#128279;](../../designing/using/personalization.md#about-targeting-dimension)中了解退订链接准则。
 
 默认情况下，在分析消息时，控件[类型规则](../../sending/using/control-rules.md)会检查是否包含选择退出链接，如果缺少该链接，则会生成警告。
 
 **提示**：由于人为错误始终存在，因此请在每次发送前检查选择退出链接是否正常工作。 例如，在发送校样时，确保链接有效，表单处于联机状态且“不再联系此收件人”字段已更改为“是”。
 
-了解如何在此部分[中插入选择退出链接](../../designing/using/personalization.md#adding-a-content-block)。
+了解如何在此部分[&#128279;](../../designing/using/personalization.md#adding-a-content-block)中插入选择退出链接。
 
 ### 电子邮件大小 {#email-size}
 
@@ -90,7 +104,7 @@ ht-degree: 4%
 
 如果达到限制，则超出限制的消息将失败，并在投放日志中显示错误消息。 同一投放的其他消息将不受影响。 在这种情况下，您必须调整电子邮件模板的动态部分或投放使用的内容片段。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe建议保留最大邮件大小默认值。 但是，此值只能由&#x200B;**[!UICONTROL Maximum message size]**&#x200B;功能管理员&#x200B;**[!UICONTROL Administration]**&#x200B;通过&#x200B;**[!UICONTROL Application settings]** > **[!UICONTROL Options]** > [菜单在](../../administration/using/users-management.md#functional-administrators)选项中更改。
+Adobe建议保留最大邮件大小默认值。 但是，此值只能由[功能管理员](../../administration/using/users-management.md#functional-administrators)通过&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;菜单在&#x200B;**[!UICONTROL Maximum message size]**&#x200B;选项中更改。
 
 >[!IMPORTANT]
 >
@@ -98,10 +112,10 @@ Adobe建议保留最大邮件大小默认值。 但是，此值只能由&#x200B;
 
 ### 短信长度
 
-默认情况下，短信的字符数应符合GSM（全球移动通信系统）标准。 使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
+默认情况下，短信的字符数应符合 GSM（全球移动通信系统）标准。 使用 GSM 编码的短信消息长度上限为 160 个字符，而对于分段发送的消息，每段短信的长度上限为 153 个字符。
 
-音译指的是，如果GSM标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP渠道设置选项卡中的对应框来授权字符音译。
-在本节[中了解更多](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
+音译指的是，如果 GSM 标准无法识别某个短信字符，则会用另一个字符替换该字符。 请注意，将个性化字段插入短信消息内容，可能会引入GSM编码无法识别的字符。 您可以通过选中对应&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP渠道设置选项卡中的对应框来授权字符音译。
+在本节[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多。
 
 **提示**：
 
@@ -109,7 +123,7 @@ Adobe建议保留最大邮件大小默认值。 但是，此值只能由&#x200B;
 
 * 但是，如果短信消息包含许多GSM标准无法识别的字符，请启用音译以限制发送消息的成本。
 
-在本节[中了解更多](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
+在本节[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)中了解更多。
 
 ### 响应式电子邮件设计
 

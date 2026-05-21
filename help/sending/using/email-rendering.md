@@ -8,9 +8,18 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LTrGN21kDYUVuUOAY55S1cITYYhCVE9O-wJm0ubrtzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 516
 ht-degree: 79%
 
 ---
@@ -19,7 +28,7 @@ ht-degree: 79%
 
 在点击 **[!UICONTROL Send]** 按钮之前，确保以最佳方式在各种 Web 客户端、Web 邮件和设备上显示您的消息。
 
-为了实现此功能，Adobe Campaign 会捕捉渲染状态并提供在专用报告中。这样，您就可以预览不同消息接收环境下所收到之消息的显示情况。
+为了实现此功能，Adobe Campaign 会捕捉渲染状态并提供在专用报告中。 这样，您就可以预览不同消息接收环境下所收到之消息的显示情况。
 
 可用于 Adobe Campaign 中&#x200B;**电子邮件渲染**&#x200B;的移动设备、即时消息传递和网络邮件客户端列表，请参见 Litmus [网站](https://litmus.com/email-testing)（单击 **View all email clients**）。
 
@@ -31,7 +40,7 @@ ht-degree: 79%
 
    ![](assets/email_rendering_05.png)
 
-1. 使用查询编辑器以定义要使用的测试用户档案，包括用于&#x200B;**电子邮件渲染**&#x200B;的测试用户档案。请参阅[关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
+1. 使用查询编辑器以定义要使用的测试轮廓，包括用于&#x200B;**电子邮件渲染**&#x200B;的测试轮廓。 请参阅[关于测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_rendering_06.png)
 
@@ -46,11 +55,11 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >利用 **[!UICONTROL Proof + Email rendering]** 选项，可发送校样并同时使用电子邮件渲染功能。根据定向的收件箱，您可以让校样收件人对消息进行审阅，并测试接收消息的方式。在这种情况下，您还需要选择校样测试用户档案。请参阅[关于测试用户档案](../../audiences/using/managing-test-profiles.md)。
+   >利用 **[!UICONTROL Proof + Email rendering]** 选项，可发送校样并同时使用电子邮件渲染功能。 根据定向的收件箱，您可以让校样收件人对消息进行审阅，并测试接收消息的方式。 在这种情况下，您还需要选择校样测试轮廓。 请参阅[关于测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
    测试投放已发送。
 
-1. 在发送消息后几分钟内，即可获得渲染缩览图。要访问这些缩览图，请在 **[!UICONTROL Summary]** 下拉菜单中选择 **[!UICONTROL Proofs]**。
+1. 在发送消息后几分钟内，即可获得渲染缩览图。 要访问这些缩览图，请在 **[!UICONTROL Summary]** 下拉菜单中选择 **[!UICONTROL Proofs]**。
 
    ![](assets/email_rendering_03.png)
 
@@ -58,7 +67,7 @@ ht-degree: 79%
 
    ![](assets/email_rendering_04.png)
 
-随即会显示专用的电子邮件渲染报告。请参阅[电子邮件渲染报告说明](#email-rendering-report-description)。
+随即会显示专用的电子邮件渲染报告。 请参阅[电子邮件渲染报告说明](#email-rendering-report-description)。
 
 **相关主题**：
 
@@ -68,11 +77,11 @@ ht-degree: 79%
 
 ## 电子邮件渲染报告 {#email-rendering-report-description}
 
-此报告展示了显示在收件人面前的电子邮件渲染。根据收件人打开电子邮件投放的方式，电子邮件渲染可能会有所不同：在浏览器中打开、在移动设备上打开或通过电子邮件应用程序打开。
+此报告展示了显示在收件人面前的电子邮件渲染。 根据收件人打开电子邮件投放的方式，电子邮件渲染可能会有所不同：在浏览器中打开、在移动设备上打开或通过电子邮件应用程序打开。
 
 ### 电子邮件渲染令牌
 
-许可协议中列出了可用渲染的数量。启用了&#x200B;**电子邮件渲染**&#x200B;的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
+许可协议中列出了可用渲染的数量。 启用了&#x200B;**电子邮件渲染**&#x200B;的每个投放，都会让您的可用渲染（又叫令牌）数量减一。
 
 令牌考虑的是每个单独的渲染，而不是整个电子邮件渲染报表，这意味着：
 
@@ -86,11 +95,11 @@ ht-degree: 79%
 
 ![](assets/inbox_rendering_report.png)
 
-报告分为三部分：**[!UICONTROL Mobile]**、**[!UICONTROL Messaging clients]** 和 **[!UICONTROL Webmails]**。向下滚动报告，可显示分组到这三个类别中的所有渲染。
+报告分为三部分：**[!UICONTROL Mobile]**、**[!UICONTROL Messaging clients]** 和 **[!UICONTROL Webmails]**。 向下滚动报告，可显示分组到这三个类别中的所有渲染。
 
 ![](assets/inbox_rendering_report_3.png)
 
-要获取各个报告的详细信息，请单击相应的卡。将针对所选的接收方式显示对应的渲染。
+要获取各个报告的详细信息，请单击相应的卡。 将针对所选的接收方式显示对应的渲染。
 
 ![](assets/inbox_rendering_report_2.png)
 

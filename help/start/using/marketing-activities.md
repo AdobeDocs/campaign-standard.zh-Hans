@@ -1,6 +1,6 @@
 ---
 title: 营销活动
-description: “了解如何创建和管理营销活动：营销策划、电子邮件、短信和推送通知投放、登陆页面、工作流。您可以轻松地设计新活动、编辑现有活动，并查阅其状态和有效期。”
+description: 了解如何创建和管理营销活动：营销策划、电子邮件、短信和推送通知投放、登陆页面、工作流。 您可以轻松设计新活动、编辑现有活动，并查阅其状态和有效期。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -9,10 +9,19 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/qtUofiuJOT-dL9VwrRGjx7-y7-JD4y-TJ7PDt-qfVNo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 79%
+source-wordcount: 489
+ht-degree: 71%
 
 ---
 
@@ -22,7 +31,7 @@ ht-degree: 79%
 
 您可以从所属的项目和营销策划创建和管理营销活动，也可以通过营销活动的列表进行创建和管理。
 
-营销活动列表中集中了所有的活动，无论其基于什么项目和营销策划创建。因此按特定的层次结构顺序，逐项列出了项目、营销策划、投放（电子邮件、短信消息和推送通知）、登陆页面和工作流。
+营销活动列表中集中了所有的活动，无论其基于什么项目和营销策划创建。 因此按特定的层次结构顺序，逐项列出了项目、营销策划、投放（电子邮件、短信消息和推送通知）、登陆页面和工作流。
 
 要访问营销活动列表，请从顶部栏中选择 **[!UICONTROL Marketing activities]** 链接。
 
@@ -32,11 +41,11 @@ ht-degree: 79%
 
 ![](assets/marketing_activities.png)
 
-利用 **[!UICONTROL Search]** 窗格，可根据不同的条件筛选元素：名称（标签和 ID）、日期、状态或活动类型。默认情况下，会选择除项目以外的所有活动类型。
+利用 **[!UICONTROL Search]** 窗格，可根据不同的条件筛选元素：名称（标签和 ID）、日期、状态或活动类型。 默认情况下，会选择除项目以外的所有活动类型。
 
 要直接访问每个活动的内容，请从列表中选择一个元素。
 
-可使用 **[!UICONTROL Create]** 按钮创建新活动。有关更多信息，请参阅[创建营销活动](#creating-a-marketing-activity)一节。
+可使用 **[!UICONTROL Create]** 按钮创建新活动。 有关更多信息，请参阅[创建营销活动](#creating-a-marketing-activity)一节。
 
 ## 营销活动的图标和状态 {#marketing-activity-icons-and-statuses}
 
@@ -67,7 +76,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->可以考虑直接在营销策划中创建工作流。如果您在项目中创建工作流，则以后将无法将其移至营销策划。
+>可以考虑直接在营销策划中创建工作流。 如果您在项目中创建工作流，则以后将无法将其移至营销策划。
 
 有关项目和营销策划的信息，请参阅[项目和营销策划](../../start/using/programs-and-campaigns.md)一节 。
 
@@ -92,4 +101,4 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->您还可以从营销活动列表创建营销活动。在这种情况下，您可以创建任何类型的活动，然后选择通过活动的属性将营销活动关联到父营销策划（如果创建项目，则关联到父项目）。
+>您还可以从营销活动列表创建营销活动。 在这种情况下，您可以创建任何类型的活动，然后选择通过活动的属性将营销活动关联到父营销策划（如果创建项目，则关联到父项目）。

@@ -9,9 +9,18 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: 824
 ht-degree: 10%
 
 ---
@@ -26,7 +35,7 @@ ht-degree: 10%
 
 [投放模板](../../start/using/marketing-activity-templates.md#creating-a-new-template)允许您定义一组技术和功能属性，这些属性既适合您的需求，又可用于将来投放。 然后，您可以节省时间并在需要时标准化交付。
 
-在Adobe Campaign中管理多个品牌时，Adobe建议为每个品牌拥有一个子域。 例如，银行可以具有与其每个区域机构对应的多个子域。 如果银行拥有bluebank.com域，则其子域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每个子域拥有一个投放模板，让您能够始终为每个品牌使用正确的预配置参数，从而避免错误并节省您的时间。
+在Adobe Campaign中管理多个品牌时，Adobe建议为每个品牌拥有一个子域。 例如，银行可以具有与其每个区域机构对应的多个子域。 如果银行拥有bluebank.com域，则其子域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每个子域拥有一个投放模板，让您能够始终为每个品牌使用正确的预配置参数，从而避免错误并节省您的时间。
 
 **提示**：为了避免在Campaign中出现配置错误，我们建议您复制本机模板并更改其属性，而不是创建新模板。
 
@@ -66,7 +75,7 @@ ht-degree: 10%
 
 在短信模板属性的&#x200B;**高级参数**&#x200B;部分中，**从**&#x200B;选项允许您使用字符串将短信消息发送者的名称个性化。 该名称在收件人的手机显示为短信消息的发送者。
 
-如果此字段为空，则将显示所用外部帐户中提供的源号码。如果未提供源号码，则将使用短代码。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md)。
+如果此字段为空，则将显示所用外部帐户中提供的源号码。 如果未提供源号码，则将使用短代码。 有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md)。
 
 **提示** — 检查您所在国家/地区有关修改发件人地址的法规。 您还应与短信服务提供商进行核实，了解他们是否提供此功能。
 
@@ -96,4 +105,4 @@ ht-degree: 10%
 
 有关将品牌链接到模板的更多信息，请参阅[将品牌分配给电子邮件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本节[中了解如何创建配置品牌](../../administration/using/branding.md#creating-a-brand)。
+在本节[&#128279;](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌。

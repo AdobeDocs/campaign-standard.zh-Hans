@@ -9,9 +9,18 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LQ6lGxtncdD2LoXmURVBcv0DZasNI2iMrntOSaWHv-k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 330
 ht-degree: 96%
 
 ---
@@ -20,8 +29,8 @@ ht-degree: 96%
 
 短信和推送内容编辑器分为两个不同的部分，以便您查看和编辑消息。
 
-1. **操作栏**&#x200B;包含页面的常规选项。您可以从此处插入个性化字段或内容块、添加条件文本并预览短信内容。请参阅[短信和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
-1. 利用该屏幕的&#x200B;**编辑区**，您可以直接输入文本消息并选择要插入个性化内容的位置。请参见[短信和推送内容编辑模式](#sms-and-push-content-edition-modes)。
+1. **操作栏**&#x200B;包含页面的常规选项。 您可以从此处插入个性化字段或内容块、添加条件文本并预览短信内容。 请参阅[短信和推送内容编辑器操作栏](#sms-and-push-content-editor-action-bar)。
+1. 利用该屏幕的&#x200B;**编辑区**，您可以直接输入文本消息并选择要插入个性化内容的位置。 请参见[短信和推送内容编辑模式](#sms-and-push-content-edition-modes)。
 
 ## 短信和推送内容编辑器操作栏 {#sms-and-push-content-editor-action-bar}
 
@@ -41,7 +50,7 @@ ht-degree: 96%
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">预览</span> <br /> </td> 
    <td> 仅短信<br /> </td> 
-   <td> 允许您查看电子邮件向收件人呈现的方式。请参阅<a href="../../sending/using/previewing-messages.md">预览消息</a>。<br /> </td> 
+   <td> 允许您查看电子邮件向收件人呈现的方式。 请参阅<a href="../../sending/using/previewing-messages.md">预览消息</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
@@ -59,19 +68,19 @@ ht-degree: 96%
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">插入个性化字段</span> <br /> </td> 
    <td> 短信和推送<br /> </td> 
-   <td> 用于向内容添加来自数据库的字段。请参阅<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">插入个性化字段</a>。<br /> </td> 
+   <td> 用于向内容添加来自数据库的字段。 请参阅<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">插入个性化字段</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">插入内容块</span> <br /> </td> 
    <td> 短信和推送<br /> </td> 
-   <td> 用于向内容添加个性化块。请参阅<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">添加内容块</a>。<br /> </td> 
+   <td> 用于向内容添加个性化块。 请参阅<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">添加内容块</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">启用动态文本</span> <br /> </td> 
    <td> 短信和推送<br /> </td> 
-   <td> 允许您在内容中插入动态文本。请参阅<a href="../../channels/using/defining-dynamic-text.md" target="_blank">定义动态文本</a>。<br /> </td> 
+   <td> 允许您在内容中插入动态文本。 请参阅<a href="../../channels/using/defining-dynamic-text.md" target="_blank">定义动态文本</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
@@ -87,7 +96,7 @@ ht-degree: 96%
 短信和推送内容编辑器提供了以下功能：
 
 * 输入文本。
-* 添加个性化字段。有关更多信息，请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
-* 添加内容块。有关更多信息，请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
-* 添加动态文本有关更多信息，请参阅[定义动态文本](../../channels/using/defining-dynamic-text.md)。
-* 个性化短信发送者的姓名（仅限短信）。有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
+* 添加个性化字段。 有关更多信息，请参阅[插入个性化字段](../../designing/using/personalization.md#inserting-a-personalization-field)。
+* 添加内容块。 有关更多信息，请参阅[添加内容块](../../designing/using/personalization.md#adding-a-content-block)。
+* 添加动态文本 有关更多信息，请参阅[定义动态文本](../../channels/using/defining-dynamic-text.md)。
+* 个性化短信发送者的姓名（仅限短信）。 有关更多信息，请参阅[短信配置](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。

@@ -1,6 +1,6 @@
 ---
 title: 关于模板
-description: “利用 Adobe Campaign 模板，可根据需要预配置参数：模板可以包含营销活动的完整或部分配置，以简化非技术最终用户使用 Adobe Campaign 的操作。”
+description: Adobe Campaign模板允许您根据需要预配置参数：模板可以包含营销活动的完整或部分配置，以简化非技术最终用户使用Adobe Campaign的操作。
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -8,10 +8,19 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 417
+ht-degree: 78%
 
 ---
 
@@ -19,20 +28,20 @@ ht-degree: 98%
 
 ## 关于模板 {#about-templates}
 
-创建新的营销活动时，向导中的第一个屏幕会要求您选择类型或模板。利用模板可以根据需要预配置某些参数。模板可以包含营销活动的完整或部分配置。模板管理由功能管理员执行。
+创建新的营销活动时，向导中的第一个屏幕会要求您选择类型或模板。 利用模板可以根据需要预配置某些参数。 模板可以包含营销活动的完整或部分配置。 模板管理由功能管理员执行。
 
-用于最终用户的界面经过简化。创建新营销活动时，只需选择要使用的模板即可。无需担心任何技术配置。这些配置已由功能管理员在模板中进行了预配置。
+用于最终用户的界面经过简化。 创建新营销活动时，只需选择要使用的模板即可。 无需担心任何技术配置。 这些配置已由功能管理员在模板中进行了预配置。
 
-例如，对于电子邮件模板，您可以预填充 HTML 内容、受众和投放的任何其他参数：日程安排、测试用户档案、投放的常规属性、高级参数等。这样可让您在创建新活动时节省时间。
+例如，对于电子邮件模板，您可以预填充HTML内容、受众以及投放的任何其他参数：计划、测试用户档案、投放的常规属性、高级参数等。这样可让您在创建新活动时节省时间。
 
 ![](assets/template_1.png)
 
-对于每种类型的营销活动，都提供了带有最低程度配置的一个或多个现成模板。无法修改或删除这些现成模板。
+对于每种类型的营销活动，都提供了带有最低程度配置的一个或多个现成模板。 无法修改或删除这些现成模板。
 
 模板可用于以下营销活动：
 
 * 项目
-* 营销策划
+* 营销活动
 * 电子邮件投放
 * 短信投放
 * 推送通知
@@ -44,9 +53,9 @@ ht-degree: 98%
 
 ## 创建新模板 {#creating-a-new-template}
 
-平台的功能管理员可通过 **[!UICONTROL Resources > Templates]** 菜单管理消息模板。无法修改或删除现成模板。要创建新模板，必须复制现有模板之一。
+平台的功能管理员可通过 **[!UICONTROL Resources > Templates]** 菜单管理消息模板。 无法修改或删除现成模板。 要创建新模板，必须复制现有模板之一。
 
-1. 选择现有模板。在本例中，我们选择了 **[!UICONTROL Delivery template]**。
+1. 选择现有模板。 在本例中，我们选择了 **[!UICONTROL Delivery template]**。
 
    ![](assets/template_2.png)
 
@@ -66,7 +75,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->基于模板创建的营销活动，通常由标准用户类型用户档案执行。
+>基于模板创建的营销活动，通常由标准用户类型轮廓执行。
 
 1. 创建新的营销活动。
 

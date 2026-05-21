@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/a5CeNJPuLV7KLkYo44ME3Pd2XVGOwM6ncLGjlupiRgc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: 1116
 ht-degree: 96%
 
 ---
@@ -50,7 +57,7 @@ ht-degree: 96%
 1. 选择要使用以下选项之一管理订阅的 **[!UICONTROL Service]**：
 
    * **[!UICONTROL Select a specific service]**：手动选择服务。
-   * **[!UICONTROL Select services from the inbound transition]**：在集客过渡中指定服务。例如，可以导入一个文件，在该文件中指定用于管理各行的服务。如果选择此选项，请确保事先在数据和&#x200B;**服务**&#x200B;资源之间创建了链接，如[本例](#example--updating-multiple-subscription-statuses-from-a-file)所示。
+   * **[!UICONTROL Select services from the inbound transition]**：在集客过渡中指定服务。 例如，可以导入一个文件，在该文件中指定用于管理各行的服务。 如果选择此选项，请确保事先在数据和&#x200B;**服务**&#x200B;资源之间创建了链接，如[本例](#example--updating-multiple-subscription-statuses-from-a-file)所示。
 
      然后，会为每个记录动态选择要执行操作的服务。
 
@@ -59,20 +66,20 @@ ht-degree: 96%
    * **[!UICONTROL Select a specific operation type]**：手动选择是要 **[!UICONTROL Subscribe]** 还是 **[!UICONTROL Unsubscribe]** 轮廓。
    * **[!UICONTROL Select an operation type from a path of inbound transition]**：选择集客数据的列，在该列中指定要对每个记录执行的操作。
 
-     在此列中，操作必须指定为 Boolean 或 Integer。使用 **0** 表示退订记录，使用 **1** 表示订阅记录。
+     在此列中，操作必须指定为 Boolean 或 Integer。 使用 **0** 表示退订记录，使用 **1** 表示订阅记录。
 
      如果导入文件中包含的值与上述要求不匹配，您仍可使用 **[!UICONTROL Load file]** 活动中提供的 [Remapping of values](../../automating/using/load-file.md#column-format) 选项。
 
-1. 如果集客数据包含对应于轮廓订阅服务日期对应的列，请选择该列。您可以将其留空，但运行工作流时就不会设置订阅日期。
-1. 定义订阅的来源。您可以将其设置为集客数据的一个字段，也可以通过选中 **[!UICONTROL Set a constant as origin]** 选项将其设定为所选的常数值。您可以将其留空，但运行工作流时就不会设置订阅来源。
-1. 您也可以根据需要生成叫客过渡。该过渡包含与集客活动完全相同的数据。
+1. 如果集客数据包含对应于轮廓订阅服务日期对应的列，请选择该列。 您可以将其留空，但运行工作流时就不会设置订阅日期。
+1. 定义订阅的来源。 您可以将其设置为集客数据的一个字段，也可以通过选中 **[!UICONTROL Set a constant as origin]** 选项将其设定为所选的常数值。 您可以将其留空，但运行工作流时就不会设置订阅来源。
+1. 您也可以根据需要生成叫客过渡。 该过渡包含与集客活动完全相同的数据。
 1. 确认活动的配置并保存工作流。
 
-   工作流现已准备就绪，可供执行。一旦执行，您就可以在服务详情查看订阅或退订服务的轮廓。
+   工作流现已准备就绪，可供执行。 一旦执行，您就可以在服务详情查看订阅或退订服务的轮廓。
 
 ## 示例：导入文件后为用户档案订阅特定服务 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例说明如何导入包含轮廓的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件并为其订阅现有服务。 导入文件后，需要执行协调，以便将导入的数据标识为轮廓。 为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
@@ -97,11 +104,11 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example2.png)
 
-* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据轮廓的电子邮件地址来标识文件数据。
+* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。 仅配置 **[!UICONTROL Identification]** 选项卡。 该功能将根据轮廓的电子邮件地址来标识文件数据。
 
   ![](assets/subscription_activity_example3.png)
 
-* **[!UICONTROL Deduplication]** 根据临时资源的 **email** 字段（由协调产生）标识所有重复项。如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
+* **[!UICONTROL Deduplication]** 根据临时资源的 **email** 字段（由协调产生）标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 
@@ -111,7 +118,7 @@ ht-degree: 96%
 
 ## 示例：从文件更新多个订阅状态 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件，并将其订阅更新为文件中指定的多项服务。 导入文件后，需要执行协调，以便将导入的数据标识为带服务链接的轮廓。 为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
@@ -136,26 +143,26 @@ ht-degree: 96%
 
   ![](assets/subscription_example_load_file.png)
 
-  如您所见，文件中的操作为“订阅”或“退订”。系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。为满足此要求，将在“operation”列的详情中执行重映射值的操作。
+  如您所见，文件中的操作为“订阅”或“退订”。 系统需要 **Boolean** 或 **Integer** 值以识别要执行的操作：“0”代表退订，“1”代表订阅。 为满足此要求，将在“operation”列的详情中执行重映射值的操作。
 
   ![](assets/subscription_example_remapping.png)
 
-  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
+  如果文件已使用“0”和“1”来标识操作，则无需重映射这些值。 在 **[!UICONTROL Column definition]** 选项卡中确保仅将该列作为 **Boolean** 或 **Integer** 进行处理。
 
-* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与轮廓资源的 **email** 字段匹配。
+* 通过 **[!UICONTROL Reconciliation]** 活动标识来自文件的数据，使其归属至 Adobe Campaign 数据库的轮廓维度。 通过 **[!UICONTROL Identification]** 选项卡，将文件的 **email** 字段与轮廓资源的 **email** 字段匹配。
 
   ![](assets/subscription_activity_example3.png)
 
-  在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。在本例中，这些值与服务资源的 **name** 字段匹配。
+  在 **[!UICONTROL Relations]** 选项卡中，使用服务资源创建一个链接，以识别文件的 **service** 字段。 在本例中，这些值与服务资源的 **name** 字段匹配。
 
   ![](assets/subscription_example_service_relation.png)
 
-* 利用基于临时资源 **email** 字段（由协调产生）的 **[!UICONTROL Deduplication]**，可标识重复项。消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
+* 利用基于临时资源 **email** 字段（由协调产生）的 **[!UICONTROL Deduplication]**，可标识重复项。 消除重复项很重要，因为如果存在重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 
 * 利用 **[!UICONTROL Subscription Services]** 将服务标识为通过 **[!UICONTROL Reconciliation]** 活动中所创建的链接，从过渡进行更新。
 
-  将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。此处只能选择 Boolean 或 Integer 字段。如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
+  将 **[!UICONTROL Operation type]** 标识为来自文件的 **operation** 字段。 此处只能选择 Boolean 或 Integer 字段。 如果列表中未显示包含要执行操作的文件列，请确保已根据本例前文所述，在 **[!UICONTROL Load file]** 活动中正确设置了列格式。
 
   ![](assets/subscription_activity_example_from_file.png)

@@ -1,5 +1,5 @@
 ---
-title: 基于移动应用程序数据创建和更新用户档案信息
+title: 基于移动应用程序数据创建和更新轮廓信息
 description: 了解如何根据移动应用程序数据创建和更新用户档案信息。
 audience: channels
 content-type: reference
@@ -9,30 +9,37 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: 1006
 ht-degree: 2%
 
 ---
 
-# 基于移动应用程序数据创建和更新用户档案信息
+# 基于移动应用程序数据创建和更新轮廓信息
 
 ## 概述
 
 本页介绍了开发工作流的步骤，该工作流会在移动设备应用程序按计划发送收集PII数据之后创建/更新用户档案数据。
 
 * **PII**&#x200B;表示“个人身份信息”。 它可以是任何数据，包括未出现在Campaign数据库“用户档案”表中的信息，例如Analytics for Mobile [目标点](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。 PII由移动设备应用程序开发人员定义，通常由营销人员定义。
-* **收集PII**&#x200B;是从移动应用程序对Adobe Campaign Standard中的Rest API进行HTTPPOST的操作。
+* **收集PII**&#x200B;是从移动设备应用程序对Adobe Campaign Standard中的Rest API执行HTTP-POST操作。
 
 此用例的目标是创建或更新Campaign Standard配置文件（如果移动应用程序返回的PII数据包含与配置文件相关的数据）。
 
 ## 先决条件
 
-在Campaign Standard中启用推送通知需要执行多个配置步骤，然后才能根据移动应用程序订阅数据创建或更新用户档案：
+要启用Campaign Standard中的推送通知，需要执行多个配置步骤，然后才能根据移动应用程序订阅数据创建或更新用户档案：
 
 1. [创建移动应用程序](../../administration/using/configuring-a-mobile-application.md)
-1. [将Adobe移动SDK与您的移动应用程序集成](../../administration/using/supported-mobile-use-cases.md)。
+1. [将Adobe Mobile SDK与您的移动应用程序集成](../../administration/using/supported-mobile-use-cases.md)。
 1. [配置Adobe Campaign以发送推送通知](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 步骤1 — 扩展推送通知/订阅的用户档案资源
@@ -58,7 +65,7 @@ ht-degree: 2%
 
 ## 第2步 — 创建工作流
 
-在Campaign Standard中使用工作流可让管理员唯一地标识并同步AppSubscription（订阅者）数据和配置文件或收件人数据之间的数据。 虽然基于工作流的更新不会实时同步配置文件数据，但它不应导致任何不必要的数据库锁定或开销。
+通过使用Campaign Standard中的工作流，管理员可以唯一识别AppSubscription（订阅者）数据与配置文件或收件人数据之间的数据并同步这些数据。 虽然基于工作流的更新不会实时同步配置文件数据，但它不应导致任何不必要的数据库锁定或开销。
 
 构建工作流的主要步骤包括：
 
@@ -106,15 +113,15 @@ ht-degree: 2%
 
    ![](assets/update_profile_createelement.png)
 
-1. 在&#x200B;**[!UICONTROL Source]**&#x200B;字段中，从appSubscriptionRcp表中选择一个字段作为协调字段。 它可以是用户档案的电子邮件、crmId、marketingCloudId等。 在此示例中，使用“电子邮件(cusEmail)”字段。
+1. 在&#x200B;**[!UICONTROL Source]**&#x200B;字段中，从appSubscriptionRcp表中选择一个字段作为协调字段。 它可以是用户档案的电子邮件、crmId、marketingCloudId等。在此示例中，使用“电子邮件(cusEmail)”字段。
 
-1. 在&#x200B;**[!UICONTROL Destination]**&#x200B;字段中，从配置文件表中选择一个字段以协调appSubscriptionRcp表中的数据。 它可以是用户档案的电子邮件，也可以是任何扩展字段，如crmId、marketingCloudId等。 在此示例中，我们需要选择“电子邮件(email)”字段，以将其映射到appSubscriptionRcp表中的“电子邮件(cusEmail)”字段。
+1. 在&#x200B;**[!UICONTROL Destination]**&#x200B;字段中，从配置文件表中选择一个字段以协调appSubscriptionRcp表中的数据。 它可以是用户档案的电子邮件，也可以是任何扩展字段，如crmId、marketingCloudId等。在此示例中，我们需要选择“电子邮件(email)”字段，以将其映射到appSubscriptionRcp表中的“电子邮件(cusEmail)”字段。
 
    ![](assets/update_profile7.png)
 
 1. 在&#x200B;**[!UICONTROL Fields to update]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮，然后将来自appSubscriptionRcp表的字段（**[!UICONTROL Source]**&#x200B;字段）映射到要在配置文件表中更新的字段（**[!UICONTROL Destination]**&#x200B;字段）。
 
-1. 在&#x200B;**[!UICONTROL Enabled if]**&#x200B;字段中，添加表达式，以确保仅当源字段包含值时，才能更新用户档案表中的相应字段。 要执行此操作，请从列表中选择字段，然后添加“！=&quot;&quot;表达式(如果Source字段在表达式编辑器中为`[target/@cusEmail]`，请确保键入`[target/@cusEmail] != ''"`)。
+1. 在&#x200B;**[!UICONTROL Enabled if]**&#x200B;字段中，添加表达式，以确保仅当源字段包含值时，才能更新用户档案表中的相应字段。 为此，请从列表中选择字段，然后添加“!=”表达式（如果Source字段在表达式编辑器中为`[target/@cusEmail]`，请确保键入`[target/@cusEmail] != ''"`）。
 
    ![](assets/update_profile8.png)
 

@@ -9,10 +9,24 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -68,7 +82,7 @@ ht-degree: 3%
 
 您可以将元素集合添加到事件内容中，每个元素本身包括几个属性。
 
-此集合可用于事务型电子邮件中，以向消息的内容添加[产品清单](../../designing/using/using-product-listings.md)，例如产品清单 — 包含价格、参考编号、数量等。 每个产品的名称。
+此集合可用于事务性电子邮件中，以向消息的内容添加[产品清单](../../designing/using/using-product-listings.md)，例如产品清单，其中包含清单中每个产品的价格、参考编号、数量等。
 
 1. 在&#x200B;**[!UICONTROL Collections]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Create element]**&#x200B;按钮。
 
@@ -105,7 +119,7 @@ ht-degree: 3%
 
 可以使用扩展&#x200B;**[!UICONTROL Profile and services Ext API]**&#x200B;中的信息来扩充事务性消息内容。 有关详细信息，请参阅[扩展API：发布扩展](../../developing/using/step-2-publish-the-extension.md)
 
-此信息也可以存储在新资源中。 在这种情况下，必须直接或通过其他表将该资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。 例如，在下面的配置中，如果&#x200B;**[!UICONTROL Product]**&#x200B;资源链接到&#x200B;**[!UICONTROL Product]**&#x200B;资源，则可以使用来自&#x200B;**[!UICONTROL Profile]**&#x200B;资源（如产品类别或ID）的信息扩充事务型消息内容。
+此信息也可以存储在新资源中。 在这种情况下，必须直接或通过其他表将该资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。 例如，在下面的配置中，如果&#x200B;**[!UICONTROL Product]**&#x200B;资源链接到&#x200B;**[!UICONTROL Profile]**&#x200B;资源，则可以使用来自&#x200B;**[!UICONTROL Product]**&#x200B;资源（如产品类别或ID）的信息扩充事务型消息内容。
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -175,13 +189,13 @@ ht-degree: 3%
 
 ### 基于事件的事务型消息 {#event-based-transactional-messages}
 
-您可以发送定向某个事件的事件事务型消息。此类事务型消息不包含轮廓信息：根据事件本身包含的数据定义投放目标。
+您可以发送定向某个事件的事件事务型消息。 此类事务型消息不包含轮廓信息：根据事件本身包含的数据定义投放目标。
 
 要发送基于事件的事务型消息，您首先需要创建并配置针对事件本身所包含&#x200B;**数据的事件**。
 
 1. 创建事件配置时，选择&#x200B;**[!UICONTROL Real-time event]**&#x200B;定向维度（请参阅[创建事件](#creating-an-event)）。
 1. 向事件添加字段，以便能够个性化事务型消息（请参阅[定义事件属性](#defining-the-event-attributes)）。
-1. 基于事件的事务型消息应仅使用已发送事件中的数据来定义收件人和个性化消息内容。
+1. 基于事件的事务型消息，应仅使用已发送事件中的数据来定义收件人和个性化消息内容。
 
    但是，如果要使用Adobe Campaign数据库中的其他信息，则可以扩充事务型消息的内容（请参阅[扩充事务型消息的内容](#enriching-the-transactional-message-content)）。
 

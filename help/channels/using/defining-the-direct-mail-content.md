@@ -9,9 +9,18 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Kt-KqyEadpziu8z5snOeg717epieMst36-gkdSt0Th8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 337
 ht-degree: 96%
 
 ---
@@ -22,25 +31,25 @@ ht-degree: 96%
 
 ![](assets/direct_mail_6.png)
 
-**[!UICONTROL Content]** 定义屏幕专用于直邮渠道。该屏幕包含四个选项卡：**[!UICONTROL Extraction]**、**[!UICONTROL File structure]**、**[!UICONTROL Header]** 和 **[!UICONTROL Footer]**。
+**[!UICONTROL Content]** 定义屏幕专用于直邮渠道。 该屏幕包含四个选项卡：**[!UICONTROL Extraction]**、**[!UICONTROL File structure]**、**[!UICONTROL Header]** 和 **[!UICONTROL Footer]**。
 
 ![](assets/direct_mail_11.png)
 
 ## 定义提取 {#defining-the-extraction}
 
-1. 首先从定义提取文件的名称开始。单击 **[!UICONTROL Output file]** 字段右侧的按钮，输入所需的标签。您可以使用个性化字段、内容块和动态文本（请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)）。例如，您可以在标签中填写投放 ID 或提取日期。
+1. 首先从定义提取文件的名称开始。 单击 **[!UICONTROL Output file]** 字段右侧的按钮，输入所需的标签。 您可以使用个性化字段、内容块和动态文本（请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)）。 例如，您可以在标签中填写投放 ID 或提取日期。
 
    ![](assets/direct_mail_12.png)
 
-1. 单击 **[!UICONTROL +]** 或 **[!UICONTROL Add an element]** 按钮以添加输出列。利用 **[!UICONTROL Output columns]** 可定义要导出到输出文件中的用户档案信息（列）。
+1. 单击 **[!UICONTROL +]** 或 **[!UICONTROL Add an element]** 按钮以添加输出列。 利用 **[!UICONTROL Output columns]** 可定义要导出到输出文件中的轮廓信息（列）。
 
    >[!IMPORTANT]
    >
-   >确保您的用户档案包含邮政地址，因为此信息对于直邮服务提供商至关重要。另外，请确保已勾选用户档案信息中的 **[!UICONTROL Address specified]** 方框。请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
+   >确保您的轮廓包含邮政地址，因为此信息对于直邮服务提供商至关重要。 另外，请确保已勾选轮廓信息中的 **[!UICONTROL Address specified]** 方框。 请参阅[建议](../../channels/using/about-direct-mail.md#recommendations)。
 
    ![](assets/direct_mail_13.png)
 
-1. 根据需要创建所需数量的列。您可以通过单击列的表达式和标签对列进行编辑。
+1. 根据需要创建所需数量的列。 您可以通过单击列的表达式和标签对列进行编辑。
 
 >[!NOTE]
 >
@@ -58,11 +67,11 @@ ht-degree: 96%
 
 ## 定义页眉和页脚 {#defining-the-header-and-footer}
 
-有时您可能需要在提取文件的开头或结尾添加信息。为此，请使用 **[!UICONTROL Content]** 配置屏幕的 **[!UICONTROL Header]** 和 **[!UICONTROL Footer]** 选项卡。
+有时您可能需要在提取文件的开头或结尾添加信息。 为此，请使用 **[!UICONTROL Content]** 配置屏幕的 **[!UICONTROL Header]** 和 **[!UICONTROL Footer]** 选项卡。
 
 ![](assets/direct_mail_7.png)
 
-例如，您可能希望在文件的页眉中包含发件人的信息（提供给直邮服务提供商）。可以使用投放上下文中提供的信息，将页脚和页眉个性化。请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)。
+例如，您可能希望在文件的页眉中包含发件人的信息（提供给直邮服务提供商）。 可以使用投放上下文中提供的信息，将页脚和页眉个性化。 请参阅[定义内容](../../designing/using/personalization.md#example-email-personalization)。
 
 直邮属性或模板级别中的 **[!UICONTROL Send]** 部分定义了发件人的地址。
 

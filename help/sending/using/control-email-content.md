@@ -9,10 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Uqi4pPlzFEn-MLvjRPOU5Tu3tC1BDvOM49U1LKbA2lE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 6%
+source-wordcount: 819
+ht-degree: 8%
 
 ---
 
@@ -51,7 +61,7 @@ ht-degree: 6%
 
 为了改善收件人的体验并让他们打开您的电子邮件，Adobe Campaign允许您个性化您的消息。 有关更多信息，请参阅[此小节](../../designing/using/personalization.md)。
 
-为了提高消息的打开率，您还可以手动定义每个收件人的发送时间。 如有可能，每个用户档案都将在指定的日期和时间收到消息。 有关详细信息，请参阅[优化发送时间](../../sending/using/optimizing-the-sending-time.md)。
+为了提高消息的打开率，您还可以手动定义每个收件人的发送时间。 只要有可能，每个轮廓都将在指定的日期和时间收到消息。 有关详细信息，请参阅[优化发送时间](../../sending/using/optimizing-the-sending-time.md)。
 
 ## 选择退出链接和表单 {#opt-out}
 
@@ -65,7 +75,7 @@ ht-degree: 6%
 
 通常，您不应通过要求希望选择退出的收件人填写电子邮件地址或姓名等字段来妨碍他们。 退订登陆页面应仅具有一个验证按钮。
 
-请求额外确认不可靠：用户可能有两个电子邮件地址被重定向到同一个框(例如：firstname.lastname@club.com和firstname.lastname@internet-club.com)。 如果配置文件只能记住第一个地址，并且希望通过发送给另一个配置文件的消息取消订阅，则表单将拒绝此操作，因为加密标识符和输入的电子邮件地址不匹配。
+请求额外确认不可靠：用户可能有两个电子邮件地址被重定向到同一个框（例如：firstname.lastname@club.com和firstname.lastname@internet-club.com）。 如果配置文件只能记住第一个地址，并且希望通过发送给另一个配置文件的消息取消订阅，则表单将拒绝此操作，因为加密标识符和输入的电子邮件地址不匹配。
 
 ## 反垃圾邮件分析 {#anti-spam-analysis}
 
@@ -81,6 +91,6 @@ Adobe Campaign的邮件编辑器集成了&#x200B;**反垃圾邮件分析**，该
 
 ![](assets/inbox_rendering_report_3.png)
 
-为了实现此功能，Adobe Campaign 会捕捉渲染状态并提供在专用报告中。这样，您就可以预览不同消息接收环境下所收到之消息的显示情况。
+为了实现此功能，Adobe Campaign 会捕捉渲染状态并提供在专用报告中。 这样，您就可以预览不同消息接收环境下所收到之消息的显示情况。
 
 有关此方面的更多信息，请参阅[电子邮件呈现](../../sending/using/email-rendering.md)。

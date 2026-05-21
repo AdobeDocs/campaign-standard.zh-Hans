@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 812
 ht-degree: 0%
 
 ---
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 触发工作流后，参数将摄取到事件变量中，并可用于自定义工作流的活动。
 
-例如，它们可用于定义在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中要读取的受众、在&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动中要传输的文件名称等。 （请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
+例如，它们可用于定义要在&#x200B;**[!UICONTROL Read audience]**&#x200B;活动中读取的受众、要在&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动中传输的文件名称等（请参阅[此页面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 ## 使用事件变量 {#using-events-variables}
 

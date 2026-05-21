@@ -1,5 +1,5 @@
 ---
-title: 为带有Campaign Standard的多语言推送通知生成CSV文件
+title: 使用Campaign Standard为多语言推送通知生成CSV文件
 description: 上传CSV文件以生成内容以进行投放是一项用于支持多语言推送通知的功能。
 audience: channels
 content-type: reference
@@ -8,9 +8,18 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -64,7 +73,7 @@ ht-degree: 1%
 
 **如果以纯文本生成文件，请用“，”分隔每一列。**
 
-**变量不匹配。**&#x200B;如果您使用内容块并以特定语言定位受众，则需要在CSV文件中列出每种目标语言，否则在发送投放时将出错。
+**变体不匹配。** 如果您使用内容块并以特定语言定位受众，则需要在CSV文件中列出每种目标语言，否则在发送投放时将收到错误。
 
 ## 在csv文件中插入个性化字段 {#personalization-field-csv}
 

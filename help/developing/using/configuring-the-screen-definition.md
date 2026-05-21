@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 616
 ht-degree: 96%
 
 ---
@@ -41,11 +46,11 @@ ht-degree: 96%
 
 ## 定义默认列表配置 {#defining-the-default-list-configuration}
 
-利用屏幕定义的 **[!UICONTROL List configuration]** 部分，可定义默认情况下将在资源概览中显示的列和信息。
+利用屏幕定义的 **[!UICONTROL List configuration]** 部分，可定义默认情况下将在资源概述中显示的列和信息。
 
 1. 选中 **[!UICONTROL Customize the list configuration]** 方框，可定义资源列的显示方式。
 1. 使用 **[!UICONTROL Create element]** 按钮选择一个之前创建的字段。
-1. 之前创建的字段将显示在列表中。您可以编辑其标签和宽度。
+1. 之前创建的字段将显示在列表中。 您可以编辑其标签和宽度。
 
    ![](assets/schema_extension_20.png)
 
@@ -55,18 +60,18 @@ ht-degree: 96%
    >
    >此配置将替换默认搜索中使用的字段。
 
-1. 在 **[!UICONTROL Advanced filtering]** 部分中，选中 **[!UICONTROL Add search fields]** 方框可添加简单搜索字段以外的其他字段。例如，如果您从之前创建的字段中选择“date”字段，则用户将能够执行仅引用该日期的搜索。
+1. 在 **[!UICONTROL Advanced filtering]** 部分中，选中 **[!UICONTROL Add search fields]** 方框可添加简单搜索字段以外的其他字段。 例如，如果您从之前创建的字段中选择“date”字段，则用户将能够执行仅引用该日期的搜索。
 1. 您可以修改这两个搜索类型的字段顺序。
-1. 对于高级搜索，您可以添加链接到链接资源的字段。这些筛选条件会显示在生成的屏幕的 **[!UICONTROL Search]** 菜单中。
+1. 对于高级搜索，您可以添加链接到链接资源的字段。 这些筛选条件会显示在生成的屏幕的 **[!UICONTROL Search]** 菜单中。
 
-现在可以定义资源的概览屏幕。
+现在可以定义资源的概述屏幕。
 
 ## 定义详细信息屏幕配置 {#defining-the-detail-screen-configuration}
 
 利用屏幕定义的 **[!UICONTROL Detail screen configuration]** 部分，可定义将在资源各元素详细信息屏幕中显示的列和信息。
 
-1. 展开 **[!UICONTROL Detail screen configuration]** 部分并勾选 **[!UICONTROL Define a detail screen]** 以配置对应于资源各个元素的屏幕。如果不勾选此框，将无法访问此资源元素的详细视图。
-1. 只需单击一次，即可添加来自自定义资源的所有字段。为此，请单击 ![](assets/addallfieldsicon.png) 图标或使用 **[!UICONTROL Add an element]** 按钮。
+1. 展开 **[!UICONTROL Detail screen configuration]** 部分并勾选 **[!UICONTROL Define a detail screen]** 以配置对应于资源各个元素的屏幕。 如果不勾选此框，将无法访问此资源元素的详细视图。
+1. 只需单击一次，即可添加来自自定义资源的所有字段。 为此，请单击 ![](assets/addallfieldsicon.png) 图标或使用 **[!UICONTROL Add an element]** 按钮。
 1. 选择一个为此资源创建的元素，然后指定字段类型：
 
    * **[!UICONTROL Input field]**：可编辑的字段。
@@ -76,7 +81,7 @@ ht-degree: 96%
 
    ![](assets/schema_extension_23.png)
 
-1. 添加的元素将显示在列表中。您可以编辑其标签。
+1. 添加的元素将显示在列表中。 您可以编辑其标签。
 
    ![](assets/schema_extension_22.png)
 
@@ -90,11 +95,11 @@ ht-degree: 96%
 
 ## 数据部分的操作 {#actions-on-data-section}
 
-利用这些设置，可在自定义资源屏幕中显示控件栏。提供了三个选项：
+利用这些设置，可在自定义资源屏幕中显示控件栏。 提供了三个选项：
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**：利用此选项可激活创建资源元素。这样，用户就可以添加其他记录。
+* **[!UICONTROL Authorize creating]**：利用此选项可激活创建资源元素。 这样，用户就可以添加其他记录。
 
   >[!NOTE]
   >

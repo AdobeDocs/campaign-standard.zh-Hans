@@ -1,14 +1,21 @@
 ---
-title: 了解Campaign Standard推送通知有效负荷结构
+title: 了解Campaign Standard推送通知有效载荷结构
 description: 了解在移动应用程序中接收的有效载荷的结构
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/KSJ-umygCpPr5pjkpiAcbHh-zb1HjK-vZJJLCXz3c5A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: 1150
 ht-degree: 3%
 
 ---
@@ -19,19 +26,19 @@ ht-degree: 3%
 
 在移动应用程序上收到的每个推送通知都会携带一些信息，在发送警报推送通知时，应用程序会使用这些信息显示推送通知，并且很可能还会进行一些进一步计算，尤其是在发送静默推送通知时。
 
-移动设备应用程序代码会在事件处理程序中接收此信息，以指示已收到推送通知。 从Adobe Campaign Standard发送推送通知时，在移动应用程序中接收的信息也可能包含特定Campaign Standard的信息，这些信息可用于利用Campaign Standard提供的某些功能。 此外，有效负载可以包含可由移动设备应用程序使用的自定义数据。
+移动设备应用程序代码会在事件处理程序中接收此信息，以指示已收到推送通知。 从Adobe Campaign Standard发送推送通知时，移动设备应用程序中接收的信息可能还包含Campaign Standard特定的信息，这些信息可用于利用Campaign Standard提供的某些功能。 此外，有效负载可以包含可由移动设备应用程序使用的自定义数据。
 
 本文档介绍了当推送通知成功从Adobe Campaign Standard发送到应用程序时，在移动应用程序中接收的有效负载的结构。
 
 >[!NOTE]
 >
->有效负载结构因移动设备应用程序(即iOS应用程序、支持FCM的Android应用程序)的类型而异。
+>有效负载结构因移动设备应用程序（即iOS应用程序、支持FCM的Android应用程序）的类型而异。
 
 ## 推送有效负荷结构 {#push-payload-structure}
 
 此部分详细介绍适用于各种移动平台的示例有效载荷的结构，并描述其中包含的主要属性。 这是事件处理程序中的移动设备应用程序代码中接收的有效负荷的结构，指示已收到推送通知。
 
-有效负载属性及其值将因推送通知高级选项中提供的配置而异。 此部分还提供了Campaign StandardUI中的这些配置与有效负载中的属性之间的映射，以阐明在Campaign Standard中配置选项时有效负载会发生什么变化。
+有效负载属性及其值将因推送通知高级选项中提供的配置而异。 此部分还提供Campaign Standard UI中的这些配置与有效负载中的属性之间的映射，以阐明在Campaign Standard中配置选项时有效负载会发生什么变化。
 
 ### 适用于iOS移动设备应用程序的 {#payload-structure-ios}
 
@@ -209,8 +216,8 @@ ht-degree: 3%
 | 添加深层链接 | uri | 无 | 利用深层链接，您可以直接将用户导向应用程序内的内容（而不是打开 Web 浏览器页面）。 |
 | 类别 | 类别 | 类别 | 显示带有远程通知的自定义操作。 <br>类别键可帮助系统将此类别的操作显示为警报界面中的按钮。 |
 | 自定义字段 | custom_field1， custom_field2 ... | custom_field1， custom_field2 ... | 您希望发送到应用程序的任何自定义数据。 |
-| 富媒体内容URL（图像、gif、音频和视频文件）<br>(仅适用于iOS 10或更高版本) | media-attachment-url | 无 | 用于将丰富内容添加到通知的媒体文件的URL。 <br>在为此URL提供值时，可变内容标志将自动发送到有效负载中。 <br> (仅适用于iOS 10或更高版本) |
-| 可变内容<br> (仅适用于iOS 10或更高版本) | 可变内容 | 无 | 应用程序中的Notification Service扩展将使用可变内容键“截取”所有远程通知，并将允许您处理/处理请求有效负载的内容，然后可以使用这些内容自定义通知。 此功能的用例包括下载和显示多个媒体，解密推送有效负载中存在的任何加密数据。 有关详细信息，请参阅[修改远程通知的有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>(仅适用于iOS 10或更高版本) |
+| 富媒体内容URL（图像、gif、音频和视频文件）<br>（仅适用于iOS 10或更高版本） | media-attachment-url | 无 | 用于将丰富内容添加到通知的媒体文件的URL。 <br>在为此URL提供值时，可变内容标志将自动发送到有效负载中。<br> （仅适用于iOS 10或更高版本） |
+| 可变内容<br> （仅适用于iOS 10或更高版本） | 可变内容 | 无 | 应用程序中的Notification Service扩展将使用可变内容键“截取”所有远程通知，并将允许您处理/处理请求有效负载的内容，然后可以使用这些内容自定义通知。 此功能的用例包括下载和显示多个媒体，解密推送有效负载中存在的任何加密数据。 有关详细信息，请参阅[修改远程通知的有效负载](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（仅适用于iOS 10或更高版本） |
 | 可用内容 | content-available | 无 | 选择此选项可在iOS应用程序处于后台/暂停状态时唤醒该应用程序。 唤醒意味着应用程序在后台运行，负责接收推送通知数据有效负载的相应事件处理程序将获得控制并且可以使用数据执行任何计算，包括但不限于构建自定义推送通知并显示该通知。 更多信息可在[通知传送唤醒应用](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)中找到。 |
 | 富媒体内容URL（图像文件）<br>（仅适用于Android） | 无 | media-attachment-url | 用于向通知添加丰富内容的图像文件的URL。 |
 | 无 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的应用程序希望调用跟踪回发以跟踪何时单击/打开推送通知，则需要这些属性。 此信息由应用服务器在内部计算和发送，无需用户干预。<br>回发信息可在此[页面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)中找到。 |

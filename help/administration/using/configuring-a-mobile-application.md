@@ -6,10 +6,19 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 2%
+source-wordcount: 1443
+ht-degree: 3%
 
 ---
 
@@ -55,7 +64,7 @@ ht-degree: 2%
 
 1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 请参阅[在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
-1. 将特定于渠道的配置添加到您的移动应用程序设置中。
+1. 将特定于渠道的配置添加到您的移动应用设置中。
 有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如果需要，您可以删除标记属性。

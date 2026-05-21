@@ -3,10 +3,27 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 产品文档
 description: 浏览 Campaign Standard 产品文档
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 318
+ht-degree: 91%
 
 ---
 
@@ -14,7 +31,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-概要了解 Adobe Campaign Standard 产品和文档中的最新改进！有关功能、改进和修复的完整列表，请查看详细的[发行说明](rn/using/release-notes.md)。
+概要了解 Adobe Campaign Standard 产品和文档中的最新改进！ 有关功能、改进和修复的完整列表，请查看详细的[发行说明](rn/using/release-notes.md)。
 
 >[!BEGINTABS]
 
@@ -34,7 +51,7 @@ ht-degree: 100%
 
 了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据。
 
-[![图像](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
 
 >[!ENDTABS]
 
@@ -104,9 +121,9 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的页面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发布计划</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品说明</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a>
 </td>
 <td><strong>技术资源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
 </td>
 </tr></table>

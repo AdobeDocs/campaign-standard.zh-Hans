@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 4%
+source-wordcount: 580
+ht-degree: 6%
 
 ---
 
@@ -25,7 +32,7 @@ ht-degree: 4%
 
 工作流历史记录会保存在工作流执行选项中指定的持续时间（请参阅[工作流属性](../../automating/using/managing-execution-options.md)）。 因此，在此持续时间内，所有消息都会被保存，即使在重新启动后也是如此。 如果不想保存上一次执行的消息，则必须通过单击![](assets/delete_darkgrey-24px.png)按钮清除历史记录。
 
-**[!UICONTROL Log]**&#x200B;选项卡包含所有活动或任何选定活动的执行历史记录。 它按时间顺序对执行的操作和执行错误进行索引。
+**[!UICONTROL Log]**&#x200B;选项卡包含所有活动或任何选定活动的执行历史记录。 工作流日志按时间顺序对执行的操作和执行错误进行索引。
 
 ![](assets/wkf_execution_4.png)
 

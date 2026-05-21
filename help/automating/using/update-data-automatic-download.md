@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/q-u5dH48a4wea1yStaF-QekcD9VaS2NjDhWnSQc6QGU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 70%
+source-wordcount: 279
+ht-degree: 79%
 
 ---
 
@@ -21,7 +28,7 @@ ht-degree: 70%
 
 加载文件活动主要用于从传输文件活动构造数据，以便将其集成到现有数据中。
 
-下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。此工作流旨在使用新轮廓扩充 Adobe Campaign 数据库，或使用从导入文件取回的数据来更新现有轮廓。
+下方的示例展示了通过依次进行传输文件活动和更新数据活动，自动下载的加载文件活动的结果。 此工作流旨在使用新轮廓扩充 Adobe Campaign 数据库，或使用从导入文件取回的数据来更新现有轮廓。
 
 ![](assets/load_file_workflow_ex1.png)
 

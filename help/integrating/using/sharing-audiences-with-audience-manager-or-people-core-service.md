@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: 819
 ht-degree: 3%
 
 ---
@@ -22,7 +31,7 @@ ht-degree: 3%
 
 People核心服务集成允许通过技术工作流将受众直接导入Adobe Campaign，以丰富您的数据库。 有关在People核心服务中共享受众的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)。
 
-只有通过IMS(通过Adobe ID进行身份验证)连接的用户，才能从&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入Adobe Campaign中的人员核心服务中的受众/区段。
+只有通过IMS（通过Adobe ID进行身份验证）连接的用户，才能从&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入Adobe Campaign中的人员核心服务中的受众/区段。
 
 1. 转到&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单。
 1. 在操作栏中，选择要转到屏幕以创建受众的&#x200B;**[!UICONTROL Create]**。
@@ -52,7 +61,7 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 
 可以使用工作流和&#x200B;**[!UICONTROL Save audience]**&#x200B;活动将受众从Adobe Campaign导出到Audience Manager或People核心服务。
 
-它可以在新的工作流中执行，并且只能由通过IMS(通过Adobe ID进行身份验证)连接的用户执行。
+它可以在新的工作流中执行，并且只能由通过IMS（通过Adobe ID进行身份验证）连接的用户执行。
 
 1. 从项目、营销策划或营销活动列表创建新工作流。
 1. 使用不同的可用活动，定位一组用户档案。

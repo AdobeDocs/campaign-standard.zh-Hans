@@ -1,6 +1,6 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和操作：排序、筛选、删除或复制元素。 列表屏幕会显示一个或多个给定资源的元素。”
+description: 了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和操作：对元素进行排序、筛选、删除或复制元素。 列表屏幕可显示一个或多个给定资源的元素。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -8,9 +8,20 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/xqpv4a057Nz49lOh2ZrTZuPcZBe-z45nt2UfDtCgrRQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 393
 ht-degree: 2%
 
 ---
@@ -24,7 +35,7 @@ Adobe Campaign有两种类型的列表：
 * **同类**&#x200B;列表，当它包含单一类型的资源时。 例如，配置文件列表仅包含配置文件。
 * **异类**&#x200B;列表，它包含多种类型的资源。 例如，营销活动列表包含登陆页面、工作流、电子邮件、短信等。
 
-列表将以列的形式显示。每列可以一次按升序或降序排序。
+列表将以列的形式显示。 每列可以一次按升序或降序排序。
 
 列表中的元素具有一个复选框，允许您选择它们。 通过选择一个或多个元素，您可以执行多种操作，例如编辑、复制和删除这些元素。
 

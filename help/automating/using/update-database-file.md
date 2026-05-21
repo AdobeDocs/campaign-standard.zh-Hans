@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/XLH6Hrqg2q-ZNlT-ZcNNlLlvP9xBSchfZs-mgWscROs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: 106
 ht-degree: 11%
 
 ---
 
 # 使用外部数据更新数据库 {#update-database-file}
 
-以下示例显示了&#x200B;**[!UICONTROL Update data]**&#x200B;活动之后&#x200B;**[!UICONTROL Load file]**&#x200B;活动的配置。 此工作流的目的是使用从文件取回的数据，向Adobe Campaign数据库添加用户档案或更新用户档案。
+以下示例显示了&#x200B;**[!UICONTROL Load file]**&#x200B;活动之后&#x200B;**[!UICONTROL Update data]**&#x200B;活动的配置。 此工作流的目的是使用从文件取回的数据，向Adobe Campaign数据库添加用户档案或更新用户档案。
 
 在此示例中，使用的协调密钥是&#x200B;**电子邮件地址**。 加载到[加载文件](../../automating/using/load-file.md)活动中的文件是包含以下示例数据的&#x200B;**.txt**&#x200B;格式文件：
 

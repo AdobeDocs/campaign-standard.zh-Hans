@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 3%
 
 ---
@@ -29,7 +38,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->如果选择通过编辑电子邮件的HTML版本直接添加图像，则不得在HTML页的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。 这些文件将不会导入到Adobe Campaign服务器上。
+>如果选择通过编辑电子邮件的HTML版本直接添加图像，则不得在HTML页面的&lt;script>标记&#x200B;**中调用**&#x200B;外部文件。 这些文件将不会导入到Adobe Campaign服务器上。
 
 ### 在电子邮件中插入图像 {#inserting-images-in-an-email}
 
@@ -38,7 +47,7 @@ ht-degree: 3%
 
    ![](assets/des_insert_images_1.png)
 
-1. 单击 **[!UICONTROL Browse]**。拖放图像或单击以从计算机中选择文件。
+1. 单击 **[!UICONTROL Browse]**。 拖放图像或单击以从计算机中选择文件。
 
    ![](assets/des_insert_images_2.png)
 
@@ -53,11 +62,11 @@ ht-degree: 3%
 
 * **启用个性化**&#x200B;允许您自定义图像源。 请参阅[个性化图像源](../../designing/using/personalization.md#personalizing-an-image-source)。
 * **图像标题**&#x200B;允许您定义图像的标题。
-* **替换文本**（电子邮件）或&#x200B;**字幕**（登陆页）允许您定义链接到图像的字幕(对应于&#x200B;**alt** HTML属性)。
+* **替换文本**（电子邮件）或&#x200B;**字幕**（登陆页）允许您定义链接到图像的字幕（对应于&#x200B;**alt** HTML属性）。
 * 编辑电子邮件时，**样式**&#x200B;允许您指定图像大小、背景和边框。
-* 编辑登陆页面时，**Dimension**&#x200B;允许您指定图像大小（以像素为单位）。
+* 编辑登陆页面时，**维度**&#x200B;允许您指定图像大小（以像素为单位）。
 
-该编辑器允许您使用格式与浏览器兼容的&#x200B;**所有图像类型**。 要与编辑器兼容，必须在HTML页中插入&#x200B;**“Flash”类型动画**，如下所示：
+该编辑器允许您使用格式与浏览器兼容的&#x200B;**所有图像类型**。 要与编辑器兼容，必须在HTML页面中插入&#x200B;**“Flash”类型动画**，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

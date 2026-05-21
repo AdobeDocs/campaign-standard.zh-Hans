@@ -8,10 +8,22 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 14%
+source-wordcount: 386
+ht-degree: 23%
 
 ---
 
@@ -24,7 +36,7 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自定义您的报表</a></p></td></tr>
 </table>
 
-动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还可按用户档案维度（如性别、城市和年龄）进行人口统计分析。
+动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。
 
 ![](assets/do-not-localize/how-to-video.png) [在视频中发现动态报告](#video)
 
@@ -70,7 +82,7 @@ Campaign Standard提供了一组&#x200B;**随时可用的动态报表**，可让
 * [添加面板](../../reporting/using/adding-panels.md)
 * [添加可视化](../../reporting/using/adding-visualizations.md)
 * [添加组件](../../reporting/using/adding-components.md)
-* [创建自定义用户档案维度](../../reporting/using/creating-a-custom-profile-dimension.md)
+* [创建自定义轮廓维度](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [根据工作流区段创建报告](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## 其他资源

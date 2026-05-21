@@ -9,9 +9,19 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/zWvKFZRoejIDaRFEF8cxypI-4MLgNYSG2RYBiZLmOJs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 610
 ht-degree: 6%
 
 ---
@@ -68,7 +78,7 @@ ht-degree: 6%
    >
    >为了让事件触发发送事务型消息，您必须修改并发布刚刚创建的消息。 请参阅[编辑](../../channels/using/editing-transactional-message.md)和[发布事务型消息](../../channels/using/publishing-transactional-message.md)部分。 您还必须[将此触发器事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)集成到您的网站。
 
-1. 在Adobe Campaign开始接收与此事件配置相关的事件后，您可以单击&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;部分下的&#x200B;**[!UICONTROL History]**&#x200B;链接以访问由您的第三方服务发送并由Adobe Campaign处理的最新事件。
+1. 在Adobe Campaign开始接收与此事件配置相关的事件后，您可以单击&#x200B;**[!UICONTROL History]**&#x200B;部分下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;链接以访问由您的第三方服务发送并由Adobe Campaign处理的最新事件。
 
 ![](assets/message-center_latest-events.png)
 

@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Xu174CF9RsD4nhFs6KBm0TzsHFnuiBJgnHgK6-r5cI0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: 599
 ht-degree: 14%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->只有具有[角色并有权访问](../../administration/using/users-management.md#functional-administrators)所有&#x200B;**[!UICONTROL Administration]**&#x200B;单位的功能&#x200B;**管理员**&#x200B;才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色并有权访问&#x200B;**所有**&#x200B;单位的功能[管理员](../../administration/using/users-management.md#functional-administrators)才能访问发送日志、消息日志、跟踪日志、排除或订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
 通过使用每次执行工作流时仅检索新日志的&#x200B;**[!UICONTROL Incremental query]**&#x200B;和定义输出列的简单&#x200B;**[!UICONTROL Extract file]**&#x200B;活动，可以获得格式和所需所有数据的文件。 然后使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动检索最终文件。 每个工作流执行都由&#x200B;**[!UICONTROL Scheduler]**&#x200B;计划。
 
@@ -47,7 +58,7 @@ ht-degree: 14%
 
      ![](assets/export_logs_query_processeddata.png)
 
-     在第一次执行工作流后，您即可在此选项卡中看到将用于下一次执行的最后一次执行日期。每次执行工作流后，系统都会自动更新该日期。您仍然可以手动输入新值来覆盖此值，以使其符合您的需求。
+     在第一次执行工作流后，您即可在此选项卡中看到将用于下一次执行的最后一次执行日期。 每次执行工作流后，系统都会自动更新该日期。 您仍然可以手动输入新值来覆盖此值，以使其符合您的需求。
 
 1. 添加将导出文件中查询数据的&#x200B;**[!UICONTROL Extract file]**&#x200B;活动：
 
@@ -65,7 +76,7 @@ ht-degree: 14%
 
    * 在&#x200B;**[!UICONTROL File structure]**&#x200B;选项卡中，定义输出文件的格式以符合您的需要。
 
-     如果导出枚举值，请勾选 **[!UICONTROL Export labels instead of internal values of enumerations]** 选项。利用此选项，可检索易于理解的较短标签（而非 ID）。
+     如果导出枚举值，请勾选 **[!UICONTROL Export labels instead of internal values of enumerations]** 选项。 利用此选项，可检索易于理解的较短标签（而非 ID）。
 
 1. 添加&#x200B;**[!UICONTROL Transfer file]**&#x200B;活动并将其配置为将新创建的文件从Adobe Campaign服务器传输到另一个可访问它的位置，如SFTP服务器。
 

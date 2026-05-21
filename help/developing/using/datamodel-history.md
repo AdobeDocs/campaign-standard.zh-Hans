@@ -7,14 +7,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/HW5N4zs81-HaJcpbxLVFOnvoGHGnq3h10lmkQQcplw4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 9%
+source-wordcount: 1348
+ht-degree: 10%
 
 ---
 
-# 营销历史记录(nms：history)
+# 营销历史记录(nms:history)
 
 ## 对象说明
 
@@ -111,7 +116,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -226,7 +231,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>移动电话</td>
-                  <td>移动</td>
+                  <td>移动设备</td>
                   <td>字符串(32)</td>
                   <td> </td>
                </tr>
@@ -386,7 +391,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>标题</td>
-                  <td>用户档案</td>
+                  <td>轮廓</td>
                   <td>字符串(255)</td>
                   <td> </td>
                </tr>

@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/5W-TDffLY-3PfPrNq6AsoiCripfouAusuV8-sO9EYcM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 238
 ht-degree: 53%
 
 ---
 
 # 在导入文件后为用户档案订阅特定服务 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例说明如何导入包含轮廓的文件并为其订阅现有服务。导入文件后，需要执行协调，以便将导入的数据标识为轮廓。为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
+此示例说明如何导入包含轮廓的文件并为其订阅现有服务。 导入文件后，需要执行协调，以便将导入的数据标识为轮廓。 为确保文件不包含任何重复项，将对数据执行重复数据删除活动。
 
 其工作流如下所示：
 
@@ -44,11 +51,11 @@ ht-degree: 53%
 
   ![](assets/subscription_activity_example2.png)
 
-* [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 仅配置 **[!UICONTROL Identification]** 选项卡。该功能将根据轮廓的电子邮件地址来标识文件数据。
+* [协调](../../automating/using/reconciliation.md)活动将来自文件的数据标识为属于Adobe Campaign数据库的配置文件维度。 仅配置 **[!UICONTROL Identification]** 选项卡。 该功能将根据轮廓的电子邮件地址来标识文件数据。
 
   ![](assets/subscription_activity_example3.png)
 
-* 基于临时资源的[email](../../automating/using/deduplication.md)字段的&#x200B;**重复数据删除**（由协调产生）标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
+* 基于临时资源的&#x200B;**email**&#x200B;字段的[重复数据删除](../../automating/using/deduplication.md)（由协调产生）标识所有重复项。 如果从文件导入的重复包含任何重复项，则所有数据的服务订阅都将失败。
 
   ![](assets/subscription_activity_example5.png)
 

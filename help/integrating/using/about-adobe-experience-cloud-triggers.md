@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NfIVRjLZxnXW8fCz7PWplxkn6AUyfb1llEIncmIchSM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 91%
+source-wordcount: 481
+ht-degree: 90%
 
 ---
 
@@ -21,9 +30,9 @@ ht-degree: 91%
 
 Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Campaign 之间的整合，允许您根据 Adobe Analytics 对网站上特定行为的跟踪，向客户发送个性化电子邮件作为回应（在 15 分钟内）。
 
-在 Adobe Experience Cloud 中，您可定义不同的触发器，即想要监控的客户行为（例如所有放弃访问您网站的客户、在您的网站上进行搜索的客户、搜索但未进行购买的客户，甚至还有会话过期的客户）。创建触发器时，您可定义触发器的条件以及将在事件中发送（上传）到 Adobe Campaign 的数据。
+在 Adobe Experience Cloud 中，您可定义不同的触发器，即想要监控的客户行为（例如所有放弃访问您网站的客户、在您的网站上进行搜索的客户、搜索但未进行购买的客户，甚至还有会话过期的客户）。 创建触发器时，您可定义触发器的条件以及将在事件中发送（上传）到 Adobe Campaign 的数据。
 
-在 Adobe Campaign 中，您可选择之前创建的触发器、使用数据集市扩充事件数据，并可定义链接到该触发器的事务型消息模板。例如，当客户放弃访问您的网站时，系统会将一个事件发送到Adobe Campaign，随后该事件可通过在15分钟内发送给客户的再营销电子邮件利用此事件。
+在 Adobe Campaign 中，您可选择之前创建的触发器、使用数据集市扩充事件数据，并可定义链接到该触发器的事务型消息模板。 例如，当客户放弃访问您的网站时，系统会将一个事件发送到Adobe Campaign，随后该事件可通过在15分钟内发送给客户的再营销电子邮件利用此事件。
 
 下图详细说明此集成的工作方式。
 
@@ -39,7 +48,7 @@ Experience Cloud Activation 核心服务 **[!UICONTROL Triggers]** 与 Adobe Cam
 
 >[!CAUTION]
 >
->在执行主用户步骤之前，需要配置该功能。有关更多信息，请参阅[激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)、[配置解决方案和服务](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)以及[在 Campaign 中创建映射触发器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)。
+>在执行主用户步骤之前，需要配置该功能。 有关更多信息，请参阅[激活功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)、[配置解决方案和服务](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)以及[在 Campaign 中创建映射触发器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)。
 
 Adobe Campaign 用户流程的主要步骤如下：
 
@@ -55,10 +64,10 @@ Adobe Campaign 用户流程的主要步骤如下：
 
 以下是在使用“Triggers - Campaign”集成之前需要考虑的一些重要注意事项：
 
-* 触发器不支持推送通知。仅支持电子邮件和短信。
+* 触发器不支持推送通知。 仅支持电子邮件和短信。
 * 您可以使用通过 Analytics 捕获的元数据（如电子邮件 ID、页面名称等）来扩充触发器。
 * 您可以将触发器与存储在 Campaign Standard 中的轮廓相协调，并使用该轮廓的字段配置个性化消息。
-* 触发之后，即会进行处理和协调，然后再发出。这大约需要 5 到 15 分钟，具体时间取决于被触发的触发器数量以及模板中使用的个性化字段数量。
+* 触发之后，即会进行处理和协调，然后再发出。 这大约需要 5 到 15 分钟，具体时间取决于被触发的触发器数量以及模板中使用的个性化字段数量。
 
 >[!NOTE]
 >
