@@ -10,15 +10,11 @@ role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: null
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1684
 ht-degree: 90%
@@ -250,7 +246,7 @@ ht-degree: 90%
 
 ### 在内容编辑器中管理块 {#managing-blocks-in-the-content-editor}
 
-不同的 HTML 内容元素在登陆页面中以块的形式显示，对应于 **&lt;div>**&#x200B;**&lt;/div>** 标签。 选择要与其交互的块。 随后该块周围会显示一个蓝色的方框。
+不同的 HTML 内容元素在登陆页面中以块的形式显示，对应于 **&lt;div>****&lt;/div>** 标签。 选择要与其交互的块。 随后该块周围会显示一个蓝色的方框。
 
 ![](assets/des_lp_content_1.png)
 

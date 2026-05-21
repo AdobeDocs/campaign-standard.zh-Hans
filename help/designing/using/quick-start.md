@@ -9,17 +9,12 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: null
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 942
 ht-degree: 5%
@@ -30,13 +25,13 @@ ht-degree: 5%
 
 电子邮件Designer提供了四种创建电子邮件的方式。
 
-您可以在电子邮件Designer[&#128279;](#without-existing-content)中新建电子邮件：
+您可以在电子邮件Designer](#without-existing-content)中新建电子邮件[：
 
 1. 通过轻松添加结构和内容组件并个性化其内容以快速发送投放，您可以&#x200B;**从空白画布**&#x200B;创建电子邮件。 您还可以完全管理样式元素。 有关详细信息，[快速入门](#from-scratch-email)或参阅[完整的文档](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 1. 您可以&#x200B;**从现成模板**&#x200B;创建电子邮件，方法是：选择一个模板，然后从此处构建新的电子邮件内容。 [了解详情](#building-content-from-an-out-of-the-box-template)
 
-您还可以创建包含现有内容[&#128279;](#with-existing-content)的电子邮件：
+您还可以创建包含现有内容](#with-existing-content)的电子邮件[：
 
 1. 您可以&#x200B;**转换现有HTML内容**（在外部或在旧版编辑器中创建）。 [了解详情](#converting-an-html-content)
 1. 您可以在兼容模式下立即&#x200B;**导入现有HTML内容**。 [了解详情](#compatibility-mode)

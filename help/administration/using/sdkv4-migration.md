@@ -7,18 +7,11 @@ role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 TQID: https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: null
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1252
 ht-degree: 1%
@@ -102,7 +95,7 @@ Adobe Campaign Standard使用SDK V4作为单独的应用程序来处理移动应
 在此迁移后，迁移的应用程序将提供V4版本移动应用程序收集的订阅者以及AEP版本移动应用程序收集的新订阅者。
 
 为了区分这两种不同类型的订阅者，例如，在扩展自定义资源&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;时可以添加&#x200B;**[!UICONTROL Text]**&#x200B;类型的新自定义字段，例如`sdkversion`或`appVersion`。 有关如何扩展自定义资源的更多信息，请参阅此[页面](../../developing/using/creating-or-extending-the-resource.md)。
-然后，您需要配置关联的标记&#x200B;**[!UICONTROL Mobile property]**&#x200B;以在“收集PII”调用中发送此自定义字段值，并相应地更改您的移动应用程序配置。
+然后，您需要配置关联的标记**[!UICONTROL Mobile property]**&#x200B;以在“收集PII”调用中发送此自定义字段值，并相应地更改您的移动应用程序配置。
 
 ## 常见问题解答 {#faq}
 
@@ -137,8 +130,8 @@ Adobe Campaign Standard使用SDK V4作为单独的应用程序来处理移动应
 ### 问：如果将SDK v4移动应用程序组织单位设置为A，并将Adobe Experience Platform SDK应用程序设置为B（组织单位A的同级）。 如何迁移移动应用程序？ {#aep-org-unit}
 
 答：Adobe Experience Platform SDK应用程序是同级&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的资源，因此移动设备应用程序对&#x200B;**[!UICONTROL Organizational unit]** A的用户不可见。**[!UICONTROL Organizational unit]** ALL的管理员可以使用移动应用程序，但我们不建议这些管理员迁移移动应用程序。
-在这种情况下，您应将移动应用程序移到同一&#x200B;**[!UICONTROL Organizational unit]**&#x200B;中或带有父链接的&#x200B;**[!UICONTROL Organizational unit]**&#x200B;中。
-有关&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的详细信息，请参阅此[部分](../../administration/using/organizational-units.md)。
+在这种情况下，您应将移动应用程序移到同一**[!UICONTROL Organizational unit]**&#x200B;中或带有父链接的&#x200B;**[!UICONTROL Organizational unit]**中。
+有关**[!UICONTROL Organizational unit]**&#x200B;的详细信息，请参阅此[部分](../../administration/using/organizational-units.md)。
 
 ### 问：在Adobe Experience Platform SDK移动应用程序（从v4移动应用程序迁移）页面的“推送渠道设置”下拉列表下，不会显示Android密钥或iOS证书的上传日期/名称等信息 {#no-information-v5}
 

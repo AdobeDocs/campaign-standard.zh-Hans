@@ -10,15 +10,11 @@ role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: null
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 824
 ht-degree: 10%
@@ -105,4 +101,4 @@ ht-degree: 10%
 
 有关将品牌链接到模板的更多信息，请参阅[将品牌分配给电子邮件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本节[&#128279;](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌。
+在本节](../../administration/using/branding.md#creating-a-brand)中了解如何创建配置品牌[。

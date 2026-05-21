@@ -10,17 +10,11 @@ role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: null
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1346
 ht-degree: 3%
@@ -46,7 +40,7 @@ ht-degree: 3%
 1. 然后，在数据收集UI中，您需要创建规则以支持兴趣点和Adobe Campaign之间的移动用例。\
    此规则将在用户输入受地理围栏的&#x200B;**[!UICONTROL Point of Interest]**&#x200B;时触发。 请参阅此[页面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以创建您的规则。
 
-1. 在地标中定义您的&#x200B;**[!UICONTROL Points of Interest]**。 请参阅[创建目标点](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=zh-Hans)。
+1. 在地标中定义您的&#x200B;**[!UICONTROL Points of Interest]**。 请参阅[创建目标点](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. 确保在Adobe Campaign中访问移动设备应用程序和收集的位置数据。 请参阅[访问用于收集位置数据的移动应用](#accessing-mobile-apps-used-to-collect-location-data)和[访问收集的位置数据](#accessing-collected-location-data)。
 
@@ -174,7 +168,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关配置回发的详细信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=zh-Hans)。
+>有关配置回发的详细信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)。
 
 ### 将SDK集成到移动应用程序中 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -189,17 +183,17 @@ ht-degree: 3%
 1. 转到Adobe Mobile Services界面。
 1. 添加您的应用程序。
 
-   有关在Mobile Services中管理应用程序的更多信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=zh-Hans)。
+   有关在Mobile Services中管理应用程序的更多信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)。
 
 1. 定义目标点。
 
-   有关管理目标点的详细信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=zh-Hans)。
+   有关管理目标点的详细信息，请参阅[Adobe Mobile Services文档](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)。
 
 ### 收集订阅者的兴趣点数据 {#collecting-subscribers--points-of-interest-data}
 
 使用特定的自定义资源，您可以定义要从应用程序的订阅者那里收集的数据。
 
-使用SDK V4[&#128279;](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中的介绍了此步骤。
+使用SDK V4](https://helpx.adobe.com/cn/campaign/kb/configuring-app-sdkv4.html)配置移动应用程序页面中的[介绍了此步骤。
 
 ## 访问用于收集位置数据的移动应用程序 {#accessing-mobile-apps-used-to-collect-location-data}
 
