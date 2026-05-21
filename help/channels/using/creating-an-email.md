@@ -8,10 +8,17 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/iqQ7Cbo3tVTu348U1mHHoi7skHMjZF3D4Qw3zvHbLVk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 15%
+source-wordcount: 584
+ht-degree: 16%
 
 ---
 
@@ -29,7 +36,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >跟进和 A/B 测试模板默认隐藏。如果要显示左侧框（**[!UICONTROL Filter]**&#x200B;侧面板），请选中这些框。
+   >跟进和 A/B 测试模板默认隐藏。 如果要显示左侧框（**[!UICONTROL Filter]**&#x200B;侧面板），请选中这些框。
 
 1. 输入电子邮件的常规属性。 您可以在&#x200B;**标签**&#x200B;字段中输入名称并编辑ID。
 
@@ -49,7 +56,7 @@ ht-degree: 15%
 
 1. 根据业务标准定义消息的目标。 查看[关于用户档案](../../audiences/using/about-profiles.md)。
 
-   您还可以定义将验证消息的测试用户档案。 请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+   您还可以定义将验证消息的测试用户档案。 请参阅[管理测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_creation_3.png)
 
@@ -72,7 +79,7 @@ ht-degree: 15%
 
    ![](assets/delivery_dashboard_2.png)
 
-1. 安排发送。请参阅[计划消息发送](../../sending/using/about-scheduling-messages.md)。
+1. 安排发送。 请参阅[计划消息发送](../../sending/using/about-scheduling-messages.md)。
 
    ![](assets/delivery_planning.png)
 
@@ -82,9 +89,9 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >您可以设置全局跨渠道疲劳规则，以便自动从营销方案中排除过度投放的用户档案。有关详细信息，请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
+   >您可以设置全局跨渠道疲劳规则，以便自动从营销方案中排除过度投放的轮廓。 有关详细信息，请参阅[疲劳规则](../../sending/using/fatigue-rules.md)。
 
-1. 发送校样以检查和验证您的消息并监视其收件箱呈现。请参阅[发送校样](../../sending/using/sending-proofs.md)。
+1. 发送校样以检查和验证您的消息并监视其收件箱呈现。 请参阅[发送校样](../../sending/using/sending-proofs.md)。
 
    ![](assets/bat_select.png)
 
@@ -104,6 +111,6 @@ ht-degree: 15%
 
 本视频说明如何创建电子邮件。
 
->[!VIDEO](https://video.tv.adobe.com/v/29752?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

@@ -6,9 +6,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: 939
 ht-degree: 0%
 
 ---
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 要实施Campaign Standard跟踪，移动设备应用程序需要包含Adobe Experience Platform SDK。 这些SDK在[Adobe Experience Platform SDK文档](https://github.com/Adobe-Marketing-Cloud/acp-sdks)中提供。
 
-要发送跟踪信息，需要发送三个变量。 两个是从Campaign Standard接收的数据的一部分，另一个是操作变量，该变量指示它是&#x200B;**展示**、**点击**&#x200B;还是&#x200B;**打开**。
+要发送跟踪信息，需要发送三个变量。 两个是从Campaign Standard收到的数据的一部分，另一个是操作变量，该变量指示它是&#x200B;**展示**、**点击**&#x200B;还是&#x200B;**打开**。
 
 | 变量 | 值 |
 |:-:|:-:|
@@ -260,7 +264,7 @@ private void handleTracking() {
 
 >[!CAUTION]
 >
-> 如果某个应用程序关闭，则在重新启动该应用程序之前，Apple不会调用该应用程序。 这意味着您将无法知道何时在iOS上收到通知。 </br>因此，iOS展示跟踪可能不准确，不应被视为可靠。
+> 如果某个应用程序关闭，则在重新启动该应用程序之前，Apple不会调用该应用程序。 这意味着您将无法知道iOS何时收到通知。</br> 因此，iOS展示跟踪可能不准确，不应被视为可靠。
 
 对于21.1版本之前创建的投放或使用自定义模板的投放，请参阅此[部分](../../administration/using/push-tracking.md#about-push-tracking)。
 

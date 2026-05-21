@@ -8,9 +8,14 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 635
 ht-degree: 14%
 
 ---
@@ -19,11 +24,11 @@ ht-degree: 14%
 
 ## 预览电子邮件 {#previewing-emails}
 
-Campaign Standard允许您在发送之前预览消息，以检查消息的个性化以及收件人将如何看到消息。
+通过Campaign Standard，可在发送消息之前预览消息，以检查消息的个性化以及收件人将如何看到消息。
 
 使用您添加到消息目标的&#x200B;**测试用户档案**&#x200B;执行消息预览。
 
-对于&#x200B;**电子邮件**&#x200B;邮件，Campaign Standard允许您使用目标用户档案预览邮件，而不是使用测试用户档案。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
+对于&#x200B;**电子邮件**&#x200B;邮件，Campaign Standard允许您使用定向的用户档案预览邮件，而不是测试用户档案。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[使用定向轮廓测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
 要使用测试用户档案预览消息，请执行以下步骤：
 
@@ -47,13 +52,13 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 **相关主题**
 
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
-* [使用目标用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)
+* [管理测试轮廓](../../audiences/using/managing-test-profiles.md)
+* [使用目标轮廓测试电子邮件](../../sending/using/testing-messages-using-target.md)
 * [发送校样](../../sending/using/sending-proofs.md)
 
 ## 预览短信消息 {#previewing-sms}
 
-对于&#x200B;**SMS**&#x200B;消息，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对于&#x200B;**SMS**&#x200B;消息，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
 要使用测试用户档案预览短信消息，请执行以下步骤：
 
@@ -85,7 +90,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 ## 预览推送通知 {#previewing-push}
 
-对于&#x200B;**推送通知**，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对于&#x200B;**推送通知**，Campaign Standard允许您使用测试用户档案预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
 要使用测试用户档案预览推送通知，请执行以下步骤：
 
@@ -113,7 +118,7 @@ Campaign Standard允许您在发送之前预览消息，以检查消息的个性
 
 ## 预览应用程序内消息 {#previewing-in-app}
 
-对于&#x200B;**应用程序内**，Campaign Standard允许您使用测试配置文件预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+对于&#x200B;**应用程序内**，Campaign Standard允许您使用测试配置文件预览消息。 这允许您获取特定用户档案将收到的消息的精确表示形式。 有关更多信息，请参阅[管理测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
 要使用测试用户档案预览应用程序内消息，请执行以下步骤：
 

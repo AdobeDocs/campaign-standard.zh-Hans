@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/izYw31zECkoshId42u-txOEJKhc2Y2ZgxHj5ei-3C44
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 241
 ht-degree: 39%
 
 ---
@@ -29,8 +33,8 @@ ht-degree: 39%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查询](../../automating/using/query.md)活动。
 1. 双击该活动。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL email]**&#x200B;选择&#x200B;**[!UICONTROL is not empty]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并使用运算符&#x200B;**[!UICONTROL is not empty]**&#x200B;选择&#x200B;**[!UICONTROL email]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择值为&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
 1. 单击 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
@@ -39,7 +43,7 @@ ht-degree: 39%
 
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[分段](../../automating/using/segmentation.md)活动并双击该活动。
 1. 将鼠标悬停在该区段上，然后单击![](assets/edit_darkgrey-24px.png)以定位今年添加到数据库中的客户。
-1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择筛选器类型为&#x200B;**[!UICONTROL Created]**&#x200B;的&#x200B;**[!UICONTROL Relative]**。
+1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;并选择筛选器类型为&#x200B;**[!UICONTROL Relative]**&#x200B;的&#x200B;**[!UICONTROL Created]**。
 1. 将&#x200B;**[!UICONTROL Level of precision]**&#x200B;更改为&#x200B;**[!UICONTROL Year]**&#x200B;并选择&#x200B;**[!UICONTROL This year]**。
 1. 单击 **[!UICONTROL Confirm]** 两次。
 1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;以创建针对其余收件人的区段。

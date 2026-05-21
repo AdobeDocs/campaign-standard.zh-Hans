@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: 1835
 ht-degree: 2%
 
 ---
@@ -29,13 +35,13 @@ ht-degree: 2%
 
 ### 关于内容模板 {#content-templates}
 
-您可以管理&#x200B;**[!UICONTROL Templates]**&#x200B;电子邮件Designer[主页的](../../designing/using/designing-content-in-adobe-campaign.md)选项卡中提供的HTML内容。
+您可以管理[电子邮件Designer](../../designing/using/designing-content-in-adobe-campaign.md)主页的&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡中提供的HTML内容。
 
 现成的电子邮件内容模板包括由Behance艺人设计的18个移动设备优化布局和四个同类最佳的响应模板。 它们对应于客户欢迎消息、快讯和重新参与电子邮件等最新使用情况。 它们可以轻松地根据品牌内容进行自定义，以简化从头开始设计电子邮件的过程。
 
 ![](assets/template_content.png)
 
-可从&#x200B;**[!UICONTROL Resources]**&#x200B;高级菜单&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[&#x200B; > &#x200B;](../../start/using/interface-description.md#advanced-menu)屏幕访问HTML内容模板。 从该位置，您可以管理登陆页面内容模板、电子邮件内容模板以及片段。
+可从[高级菜单](../../start/using/interface-description.md#advanced-menu)的&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;屏幕访问HTML内容模板。 从该位置，您可以管理登陆页面内容模板、电子邮件内容模板以及片段。
 
 ![](assets/content_templates_list.png)
 
@@ -59,8 +65,8 @@ ht-degree: 2%
 1. 单击电子邮件标签以访问Email Designer的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡。
 1. 指定可识别的标签并选择以下参数以便能够在电子邮件中使用此模板：
 
-   * 从&#x200B;**[!UICONTROL Shared]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Delivery]**&#x200B;或&#x200B;**[!UICONTROL Content type]**。
-   * 从&#x200B;**[!UICONTROL Template]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL HTML type]**。
+   * 从&#x200B;**[!UICONTROL Content type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Shared]**&#x200B;或&#x200B;**[!UICONTROL Delivery]**。
+   * 从&#x200B;**[!UICONTROL HTML type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Template]**。
 
    ![](assets/email_designer_create-template.png)
 
@@ -68,7 +74,7 @@ ht-degree: 2%
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此缩略图将显示在&#x200B;**[!UICONTROL Templates]**&#x200B;电子邮件Designer[主页的](../../designing/using/designing-content-in-adobe-campaign.md)选项卡中。
+   此缩略图将显示在[电子邮件Designer](../../designing/using/designing-content-in-adobe-campaign.md)主页的&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡中。
 
 1. 关闭&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡以返回主工作区。
 1. 添加可以根据需要自定义的结构组件和内容组件。
@@ -77,7 +83,7 @@ ht-degree: 2%
    > 无法在内容模板中插入个性化字段或条件内容。
 1. 编辑后，保存您的模板。
 
-此模板现在可用于通过Email Designer构建的任何电子邮件。 从&#x200B;**[!UICONTROL Templates]**&#x200B;电子邮件Designer[主页的](../../designing/using/designing-content-in-adobe-campaign.md)选项卡中选择它。
+此模板现在可用于通过Email Designer构建的任何电子邮件。 从[电子邮件Designer](../../designing/using/designing-content-in-adobe-campaign.md)主页的&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡中选择它。
 
 ![](assets/content_template_new.png)
 
@@ -101,7 +107,7 @@ ht-degree: 2%
 
 1. 要查找您刚刚创建的模板，请转到&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**。
 
-1. 要使用新模板，请从&#x200B;**[!UICONTROL Templates]**&#x200B;电子邮件Designer[主页的](../../designing/using/designing-content-in-adobe-campaign.md)选项卡中选择它。
+1. 要使用新模板，请从[电子邮件Designer](../../designing/using/designing-content-in-adobe-campaign.md)主页的&#x200B;**[!UICONTROL Templates]**&#x200B;选项卡中选择它。
 
    ![](assets/content_template_new.png)
 
@@ -147,7 +153,7 @@ ht-degree: 2%
 
 本视频说明如何创建自己的模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/37483?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。
 
@@ -159,7 +165,7 @@ ht-degree: 2%
 >abstract="片段是可在一封或多封电子邮件中引用的可重用内容块。"
 
 片段是可在一封或多封电子邮件中引用的可重用组件。
-它们可以在&#x200B;**资源** > **内容片段和模板**&#x200B;下的界面中找到。
+它们可以在**资源** > **内容片段和模板**&#x200B;下的界面中找到。
 
 要在电子邮件Designer中充分利用片段，请执行以下操作：
 
@@ -215,8 +221,8 @@ ht-degree: 2%
 1. 单击电子邮件标签以访问Email Designer的&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡。
 1. 指定可识别的标签，然后选择以下参数以在编辑电子邮件内容时查找片段：
 
-   * 由于片段仅与电子邮件兼容，请从&#x200B;**[!UICONTROL Delivery]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Content type]**。
-   * 从&#x200B;**[!UICONTROL Fragment]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL HTML type]**，以便能够将此内容用作片段。
+   * 由于片段仅与电子邮件兼容，请从&#x200B;**[!UICONTROL Content type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Delivery]**。
+   * 从&#x200B;**[!UICONTROL HTML type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Fragment]**，以便能够将此内容用作片段。
 
    ![](assets/email_designer_createfragment.png)
 

@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 803
 ht-degree: 99%
 
 ---
@@ -23,13 +27,13 @@ ht-degree: 99%
 
 ![](assets/save_audience.png)
 
-利用 **[!UICONTROL Save audience]** 活动，可使用工作流上游计算的群体更新现有受众或创建新受众。从此活动创建或更新的受众属于 **List** 或 **File** 受众。这些受众将添加到应用程序受众的列表，并可通过菜单 **[!UICONTROL Audiences]** 使用。
+利用 **[!UICONTROL Save audience]** 活动，可使用工作流上游计算的群体更新现有受众或创建新受众。 从此活动创建或更新的受众属于 **List** 或 **File** 受众。 这些受众将添加到应用程序受众的列表，并可通过菜单 **[!UICONTROL Audiences]** 使用。
 
 >[!NOTE]
 >
->如果通过 **[!UICONTROL Save audience]** 活动创建的受众，已经通过附加数据进行了扩充，您将无法使用这些数据来个性化独立投放。它们只能用于工作流中执行的投放。
+>如果通过 **[!UICONTROL Save audience]** 活动创建的受众，已经通过附加数据进行了扩充，您将无法使用这些数据来个性化独立投放。 它们只能用于工作流中执行的投放。
 
-利用此活动，还可将轮廓导出为 Adobe Experience Cloud 受众/区段。这样，您就可以在其他 Adobe Experience Cloud 解决方案中利用这些受众。有关共享受众的详细信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+利用此活动，还可将轮廓导出为 Adobe Experience Cloud 受众/区段。 这样，您就可以在其他 Adobe Experience Cloud 解决方案中利用这些受众。 有关共享受众的详细信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
 ## 使用环境 {#context-of-use}
 
@@ -44,20 +48,20 @@ ht-degree: 99%
 
    * **[!UICONTROL Update an existing audience]**：选择现有受众，然后选择更新类型：
 
-      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。旧数据会丢失。只保留来自保存受众活动之集客过渡的数据。
+      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
       * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
-   * **[!UICONTROL Create then update an audience]**：输入受众的名称并选择更新类型。如果受众不存在，则创建受众。如果受众已存在，则会根据选定的模式更新受众：
+   * **[!UICONTROL Create then update an audience]**：输入受众的名称并选择更新类型。 如果受众不存在，则创建受众。 如果受众已存在，则会根据选定的模式更新受众：
 
-      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。旧数据会丢失。只保留来自保存受众活动之集客过渡的数据。
+      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
 
         警告，此选项会清除更新受众的受众类型和定向维度。
 
       * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
-        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。例如，您无法使用来自查询的轮廓填充文件类型受众。
+        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。 例如，您无法使用来自查询的轮廓填充文件类型受众。
 
-   * **[!UICONTROL Create a new audience]**：输入所创建受众的名称。创建受众的时间和日期将自动添加到受众名称中。这样可让每次执行工作流时，创建的受众具有唯一性。
+   * **[!UICONTROL Create a new audience]**：输入所创建受众的名称。 创建受众的时间和日期将自动添加到受众名称中。 这样可让每次执行工作流时，创建的受众具有唯一性。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您已经定向了轮廓，并且要将受众导出到 Adobe Experience Cloud，请选择此选项，然后选择现有共享受众或创建新受众。
 
      另外，请选择与受众所包含数据资源相对应的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正确协调数据。
@@ -66,7 +70,7 @@ ht-degree: 99%
 
      >[!NOTE]
      >
-     >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+     >仅当管理员配置了 Adobe Experience Cloud 的共享受众功能时，此选项才可用。 有关更多信息，请参阅[使用 Campaign 和 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
    在更新期间保存或可用的受众类型，取决于置于工作流上游的活动。
 
@@ -74,7 +78,7 @@ ht-degree: 99%
 
    如果保存时已经定义了所保存受众的定向维度（例如，如果受众来自定向、查询之后等等），则保存或更新的受众将采用 **[!UICONTROL List]** 类型。
 
-   随后，受众的详细视图中会提供所保存受众的内容，可通过 **[!UICONTROL Audiences]** 菜单访问该视图。该视图中可用的列，对应于工作流中保存受众活动之集客过渡的列。例如：所导入文件的列、从查询添加的其他数据。
+   随后，受众的详细视图中会提供所保存受众的内容，可通过 **[!UICONTROL Audiences]** 菜单访问该视图。 该视图中可用的列，对应于工作流中保存受众活动之集客过渡的列。 例如：所导入文件的列、从查询添加的其他数据。
 
 1. 确认活动的配置并保存工作流。
 

@@ -9,16 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/vcn2vG2ps8EfWKcWkTBwQ6efN2hbR-ossnNDaCeJ3HM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 170
 ht-degree: 9%
 
 ---
 
 # 使用 Campaign 和 Assets 核心服务{#working-with-campaign-and-assets-core-service}
 
-通过将Assets核心服务或Assets on Demand(取决于Adobe Experience Cloud环境的配置)与Adobe Campaign集成，您可以在Adobe Campaign电子邮件和登陆页面中使用在Adobe Experience Cloud中共享的任何资源。
+通过将Assets核心服务或Assets on Demand（取决于Adobe Experience Cloud环境的配置）与Adobe Campaign集成，您可以在Adobe Campaign电子邮件和登陆页面中使用在Adobe Experience Cloud中共享的任何资源。
 
 与Assets核心服务的集成仅限于[功能管理员](../../administration/using/users-management.md#functional-administrators)。
 
@@ -36,5 +41,5 @@ ht-degree: 9%
 
 **相关主题：**
 
-* [Assets和共享](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=zh-Hans)
+* [Assets和共享](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [内容编辑器](../../designing/using/personalization.md#example-email-personalization)

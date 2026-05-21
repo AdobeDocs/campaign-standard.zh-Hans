@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: 2582
 ht-degree: 1%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 1%
 
 ## 管理数据 {#acs-msdyn-manage-data}
 
-对于联系人和自定义实体同步，此集成将&#x200B;**Microsoft Dynamics 365视为真实来源**。  对同步属性的任何更改应在Dynamics 365中完成，而不是在Adobe Campaign Standard中完成)。  如果在Campaign中进行了更改，则同步期间最终可能会在Campaign中覆盖这些更改，因为同步是单向的。
+对于联系人和自定义实体同步，此集成将&#x200B;**Microsoft Dynamics 365视为真实来源**。对同步属性的任何更改应在Dynamics 365中完成，而不是在Adobe Campaign Standard中完成)。如果在Campaign中进行更改，则同步期间最终可能会在Campaign中覆盖这些更改，因为同步是单向的。
 
 可以选择将该集成配置为在Dynamics 365中删除联系人时向Campaign发出配置文件删除调用，以帮助维护数据完整性。 但是，配置文件删除与隐私删除不同。 Campaign中的隐私删除将删除Campaign配置文件记录及关联的日志条目；而常规配置文件删除将仅删除Campaign配置文件记录，从而在Campaign日志中留下剩余项。 如果集成中启用了配置文件删除功能，则需要执行其他步骤才能正确处理数据主体隐私请求。 请参阅以下[隐私部分中的步骤](#manage-privacy-requests)。
 
@@ -30,7 +35,7 @@ ht-degree: 1%
 
 此集成旨在在Microsoft Dynamics 365和Adobe Campaign Standard之间传输最终用户数据（包括但不限于个人信息，如果最终用户数据中包含此信息）。 作为数据控制者，贵公司有责任遵守适用于您收集和使用个人数据的任何隐私法律法规。
 
-该集成不发布任何数据主体隐私（例如GDPR），也不处理任何其他隐私请求（选择退出除外）。 处理隐私请求时，您应同时在Microsoft Dynamics 365和Campaign(通过Adobe Experience Platform Privacy Service)中独立执行此操作。
+该集成不发布任何数据主体隐私（例如GDPR），也不处理任何其他隐私请求（选择退出除外）。 处理隐私请求时，您应同时在Microsoft Dynamics 365和Campaign（通过Adobe Experience Platform Privacy Service）中独立执行此操作。
 
 如果您已配置集成，以便在Dynamics 365中删除联系人时向Campaign发出常规配置文件删除调用，则应执行以下步骤。 请确保在此过程中未对相关记录进行更新。
 
@@ -51,7 +56,7 @@ ht-degree: 1%
 
 ## 选择禁用 {#opt-out}
 
-由于Microsoft Dynamics 365和Campaign在选择退出属性方面的差异，以及每个客户的业务要求不同，因此将选择退出映射作为客户完成的一项练习。  务必确保选择退出在系统之间正确映射，以便最终用户保持选择退出偏好设置，并且他们不会通过已选择退出的渠道接收通信。
+由于Microsoft Dynamics 365和Campaign之间的选择退出属性差异，以及每个客户的业务要求差异，选择退出映射被保留为一项需要客户完成的练习。请务必确保选择退出在系统之间正确映射，以便维护最终用户的选择退出偏好设置，并且他们不会通过已选择退出的渠道接收通信。
 
 请注意，在选择退出映射中只能使用以下项：
 
@@ -65,7 +70,7 @@ ht-degree: 1%
 
 在配置集成时，您将有机会指定企业所需的选择退出配置：
 
-* **单向(Microsoft Dynamics 365到Campaign)**： Dynamics 365是选择退出的真实来源。 选择退出属性将从Dynamics 365单向同步到Campaign Standard
+* **单向（Microsoft Dynamics 365到Campaign）**： Dynamics 365是选择退出的真实来源。 选择退出属性将从Dynamics 365单向同步到Campaign Standard
 * **单向(Campaign to Microsoft Dynamics 365)**： Campaign Standard是选择退出的真实来源。 选择退出属性将从Campaign Standard单向同步到Dynamics 365
 * **双向**： Dynamics 365和Campaign Standard都是事实来源。 选择退出属性将在Campaign Standard和Dynamics 365之间双向同步
 
@@ -91,7 +96,7 @@ ht-degree: 1%
 
 | 用例 | 说明 |
 |---|---|
-| 双向和单向(Campaign to Microsoft Dynamics 365) | 双向和单向(Campaign到Microsoft Dynamics 365)选择退出数据流将利用Campaign SFTP存储。 Campaign工作流会将增量更改导出到SFTP文件夹。 集成将从此处获取记录并进行处理。 |
+| 双向和单向(Campaign to Microsoft Dynamics 365) | 双向和单向（Campaign到Microsoft Dynamics 365）选择退出数据流将利用Campaign SFTP存储。 Campaign工作流会将增量更改导出到SFTP文件夹。 集成将从此处获取记录并进行处理。 |
 | 选择退出日志 | 在对集成进行故障诊断时，连接器的输出日志将会很有用。 可以打开/关闭输出日志。 |
 
 
@@ -105,7 +110,7 @@ ht-degree: 1%
 
 此集成会将联系人及自定义实体从Microsoft Dynamics 365同步到Campaign。 在集成之外创建的Campaign记录（即不是由同步作业创建的）不会被集成修改，包括集成配置时存在的Campaign记录。
 
-由于此集成使用Campaign中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将Campaign配置文件记录与Dynamics 365联系人记录同步，因此对于要从Microsoft Dynamics 365同步的记录，必须使用Microsoft Dynamics 365 **[!UICONTROL externalId]**&#x200B;填充此Campaign字段(**[!UICONTROL contactId]**)。  自定义实体还使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体将需要包含此ID属性作为表列。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
+由于此集成使用Campaign中的&#x200B;**[!UICONTROL externalId]**&#x200B;字段将Campaign配置文件记录与Dynamics 365联系人记录同步，因此对于要从Microsoft Dynamics 365同步的记录，必须使用Microsoft Dynamics 365 **[!UICONTROL contactId]**&#x200B;填充此Campaign字段(**[!UICONTROL externalId]**)。  自定义实体还使用Microsoft Dynamics 365唯一ID进行同步。 Campaign自定义实体将需要包含此ID属性作为表列。 externalId列可用于存储此属性值，但Campaign自定义实体不需要它。
 
 请记住，Microsoft Dynamics 365仍然是事实来源，并且当集成在Dynamics 365端上检测更新时，可以覆盖Campaign配置文件数据。  启用集成可能还需要执行其他步骤，具体取决于您现有的部署；因此，建议您与Adobe技术联系人密切合作。
 
@@ -127,7 +132,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您执行的某些操作（例如，初始记录摄取、记录数据重放等）可能会导致将大量记录从Microsoft Dynamics 365摄取到您的Adobe Campaign实例。 为了降低出现性能问题的风险，建议您停止所有Campaign流程（例如，没有营销活动、未运行工作流等），直到将大量记录引入Campaign为止。
+>您的某些操作（例如，初始摄取记录、重放记录数据等） 可能会导致将大量记录从Microsoft Dynamics 365引入到Adobe Campaign实例中。 为了降低出现性能问题的风险，建议您停止所有营销活动流程（例如，无营销活动、未运行工作流等） 直到将大量记录引入Campaign之后。
 
 ### 自定义实体
 
@@ -163,7 +168,7 @@ ht-degree: 1%
 
   在估计整个Campaign引擎调用量时，务必要考虑其他引擎调用源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
 
-  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
+  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持在Campaign中首次同步到资源的总共1500万条记录。 增量同步受Adobe Campaign Standard包限制。
 
@@ -181,7 +186,7 @@ ht-degree: 1%
 
 * 请注意，集成使用率显着增加或“激增”（例如，新记录或更新记录急剧增加）可能会导致数据同步速度减慢。
 
-* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[&#128279;](../../integrating/using/d365-acs-configure-d365.md)
+* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[](../../integrating/using/d365-acs-configure-d365.md)
 
 * 预计您会将Dynamics 365和Campaign数据模型引入集成并对其进行维护。
 
@@ -189,7 +194,7 @@ ht-degree: 1%
 
 该集成旨在解决Microsoft Dynamics 365和Campaign之间常见数据移动的一般用例，但并非旨在解决每个客户特定的每个用例：
 
-* 该集成不会发布任何隐私删除（例如GDPR）。 客户有责任履行最终用户隐私请求；此类请求应在Campaign(通过Adobe Experience Platform Privacy Service)和Dynamics 365中单独提出。 如果需要，集成可以发布定期删除以帮助实现数据同步。   有关详细信息，请参阅[隐私部分](#manage-privacy-requests)。
+* 该集成不会发布任何隐私删除（例如GDPR）。 客户有责任履行最终用户隐私请求；此类请求应在Campaign（通过Adobe Experience Platform Privacy Service）和Dynamics 365中单独提出。 如果需要，集成可以发布定期删除以帮助实现数据同步。   有关详细信息，请参阅[隐私部分](#manage-privacy-requests)。
 
 * 任何配置文件或自定义实体数据都不会从Campaign同步到Dynamics 365，但选择退出信息（如果由客户配置）除外。
 

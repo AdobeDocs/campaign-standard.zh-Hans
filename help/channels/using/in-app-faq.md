@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
@@ -21,13 +26,13 @@ ht-degree: 0%
 
 查看以下资源：
 
-* [视频Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hans)
+* [视频教程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [博客帖子](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
+* [社区页面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Campaign扩展API setLinkageField和resetLinkageField有何用途？ {#extensions-apis}
 
-由于SDK会从Campaign中提取应用程序内消息，因此我们希望提供一种安全机制，以确保包含PII数据的应用程序内消息不会落入恶意用户手中。 因此，我们制定了以下机制来确保将消息安全传送到设备：
+由于SDK会从Campaign中提取应用程序内消息，因此我们希望提供安全的机制，以确保包含PII数据的应用程序内消息不会落入恶意用户手中。 因此，我们制定了以下机制来确保将消息安全传送到设备：
 
 * 如果客户希望确保安全地传输此特定信息，请将移动用户档案字段（appSubscriberRcp表）字段标记为“个人”和“敏感”。
 * 如此标记的字段只能在具有内置附加安全机制的配置文件模板（不在appSubscriber模板或广播模板中）中使用。

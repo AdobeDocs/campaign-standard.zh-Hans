@@ -8,10 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 14%
+source-wordcount: 251
+ht-degree: 15%
 
 ---
 
@@ -45,7 +48,7 @@ ht-degree: 14%
    >
    >如果重新起草现成的&#x200B;**配置文件（配置文件）**&#x200B;资源的扩展，则还必须重新起草您可能已定义的任何&#x200B;**测试配置文件(seedMember)**&#x200B;扩展。 有关扩展用户档案资源的详细信息，请参阅[此部分](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 
-1. Publish资源。 有关更多详细步骤，请参阅[发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 发布资源。 有关更多详细步骤，请参阅[发布自定义资源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
    然后，资源进入&#x200B;**草稿**&#x200B;模式，其激活状态为&#x200B;**[!UICONTROL Inactive]**。
 
@@ -57,4 +60,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。请参阅[取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或删除了用于事件的自定义资源字段，将自动取消发布对应的事件。 请参阅[取消发布事务性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。

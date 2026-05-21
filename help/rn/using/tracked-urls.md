@@ -3,18 +3,21 @@ title: 跟踪的 URL 签名问题
 description: 跟踪的 URL 签名问题
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+TQID: https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 207
 ht-degree: 100%
 
 ---
 
 # 跟踪的 URL 签名问题 {#tracked-urls}
 
-在最近的更改后，由 Campaign 发送的跟踪的 URL 可能会失效。某些邮箱可能比其他邮箱受到的影响更大，因为某些公司具有特定的安全工具，这些工具可能会影响链接并更改 URL 签名机制。
+在最近的更改后，由 Campaign 发送的跟踪的 URL 可能会失效。 某些邮箱可能比其他邮箱受到的影响更大，因为某些公司具有特定的安全工具，这些工具可能会影响链接并更改 URL 签名机制。
 
-因此，Adobe 决定禁用跟踪链接的签名机制。此过程修复了所有跟踪链接。
+因此，Adobe 决定禁用跟踪链接的签名机制。 此过程修复了所有跟踪链接。
 
 请注意，退订链接可能会像任何其他链接一样失效，其频率在不同主机上是可变的，但小于 1%。
 
@@ -24,7 +27,7 @@ ht-degree: 100%
 
 **如何更新？**
 
-Adobe 将会很快协助您更新配置。您将收到一封包含升级时间线的电子邮件通知。
+Adobe 将会很快协助您更新配置。 您将收到一封包含升级时间线的电子邮件通知。
 
 **会有什么影响？**
 

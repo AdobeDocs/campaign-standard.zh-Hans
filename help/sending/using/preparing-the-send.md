@@ -8,9 +8,15 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/ARRxgarwKQmsl21vcz-rJ6MzcLP6RDmMnsBJDVsH25c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 462
 ht-degree: 12%
 
 ---
@@ -31,7 +37,7 @@ ht-degree: 12%
 
 1. 使用位于操作栏中的&#x200B;**停止**&#x200B;按钮随时停止准备。
 
-   在准备阶段，不发送任何邮件。因此，您可以开始或停止准备而不影响任何内容。
+   在准备阶段，不发送任何邮件。 因此，您可以开始或停止准备而不影响任何内容。
 
    ![](assets/preparing_delivery_6.png)
 
@@ -45,7 +51,7 @@ ht-degree: 12%
 
 1. 将打开&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口，更正所有错误，然后重新启动准备工作。
 
-   最后一条日志消息显示了所有错误消息和错误数。特定图标显示遇到的错误类型：黄色图标表示非关键处理错误，红色图标表示阻止启动投放的严重错误。
+   最后一条日志消息显示了所有错误消息和错误数。 特定图标显示遇到的错误类型：黄色图标表示非关键处理错误，红色图标表示阻止启动投放的严重错误。
 
    ![](assets/preparing_delivery_3.png)
 

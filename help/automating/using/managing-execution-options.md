@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/oVIZ7m9J6e8ThKMpO6deSsyKoaNntndP20PVUOhyjxo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 8%
+source-wordcount: 533
+ht-degree: 9%
 
 ---
 
@@ -45,7 +50,7 @@ ht-degree: 8%
 
   >[!CAUTION]
   >
-  >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。在生产实例中，请不要勾选该选项。
+  >使用此选项会占用大量磁盘空间，其目的在于帮助您构建工作流并确保配置和行为正确。 在生产实例中，请不要勾选该选项。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：允许您在本地执行工作流，以用于开发环境测试。
 
@@ -59,7 +64,7 @@ ht-degree: 8%
 >
 >此选项会显着影响工作流性能，应谨慎使用。
 
-启用后，如果查询花费超过一分钟时间，则工作流属性&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;部分中的&#x200B;**[!UICONTROL Execution]**&#x200B;选项将记录整个执行计划。
+启用后，如果查询花费超过一分钟时间，则工作流属性&#x200B;**[!UICONTROL Execution]**&#x200B;部分中的&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;选项将记录整个执行计划。
 
 ![](assets/wkf_diagnostic.png)
 

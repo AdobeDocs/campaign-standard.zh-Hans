@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NHN4AQinVIJsssfzhHhC6uKbcRBRPXq1h-ZZg8UIWkQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 441
 ht-degree: 78%
 
 ---
@@ -44,13 +48,13 @@ ht-degree: 78%
    ![](assets/wkf_data_export1.png)
 
 1. 选择活动，然后使用所显示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按钮将其打开。
-1. 输入&#x200B;**输出文件**&#x200B;的标签。文件的标签将自动添加创建日期和时间，因此具有唯一性。例如：2015年8月15日08:15:32生成的文件，其名称为recipients_20150815_081532.txt。
+1. 输入&#x200B;**输出文件**&#x200B;的标签。 文件的标签将自动添加创建日期和时间，因此具有唯一性。 例如：2015年8月15日08:15:32生成的文件，其名称为recipients_20150815_081532.txt。
 
    >[!NOTE]
    >
    >可以使用此字段中的 **[!UICONTROL formatDate]** 函数以指定文件名。
 
-1. 如果需要，可以通过在 **[!UICONTROL Add a post-processing stage]** 字段中选择 **[!UICONTROL Compression]** 以压缩输出文件。输出文件将压缩为 GZIP 文件 (.gz)。
+1. 如果需要，可以通过在 **[!UICONTROL Add a post-processing stage]** 字段中选择 **[!UICONTROL Compression]** 以压缩输出文件。 输出文件将压缩为 GZIP 文件 (.gz)。
 
    **[!UICONTROL Add a post-processing stage]**&#x200B;字段还允许您在解压缩文件之前对其进行加密。 有关如何使用加密文件的详细信息，请参阅[此部分](../../automating/using/managing-encrypted-data.md)
 
@@ -62,18 +66,18 @@ ht-degree: 78%
 
    ![](assets/wkf_data_export3.png)
 
-1. 输入表达式。要实现此目的，您可以选择现有表达式，也可以使用&#x200B;**表达式编辑器**&#x200B;创建新表达式。
+1. 输入表达式。 要实现此目的，您可以选择现有表达式，也可以使用&#x200B;**表达式编辑器**&#x200B;创建新表达式。
 1. 确认您的表达式。
 
    表达式将添加到输出列。
 
-1. 根据需要创建所需数量的列。您可以通过单击列的表达式和标签对列进行编辑。
+1. 根据需要创建所需数量的列。 您可以通过单击列的表达式和标签对列进行编辑。
 
-   如果要导出轮廓并希望在外部工具中使用它们，请确保导出唯一标识符。默认情况下，并非所有轮廓都具有唯一标识符，这取决于它们添加到数据库的方式。有关更多信息，请参阅[为轮廓生成唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+   如果要导出轮廓并希望在外部工具中使用它们，请确保导出唯一标识符。 默认情况下，并非所有轮廓都具有唯一标识符，这取决于它们添加到数据库的方式。 有关更多信息，请参阅[为轮廓生成唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 
 1. 单击 **[!UICONTROL File structure]** 选项卡，为要导出的文件配置输出、日期和编号格式。
 
-   如果导出枚举值，请勾选 **[!UICONTROL Export labels instead of internal values of enumerations]** 选项。利用此选项，可检索易于理解的较短标签（而非 ID）。
+   如果导出枚举值，请勾选 **[!UICONTROL Export labels instead of internal values of enumerations]** 选项。 利用此选项，可检索易于理解的较短标签（而非 ID）。
 
    ![](assets/extract-file-file-structure.png)
 

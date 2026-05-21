@@ -9,9 +9,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: 840
 ht-degree: 14%
 
 ---
@@ -36,7 +41,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >内置登陆页面的默认字段已进行了预配置。您可以根据需要对其进行修改。
+   >内置登陆页面的默认字段已进行了预配置。 您可以根据需要对其进行修改。
 
 1. 访问左侧面板上的&#x200B;**[!UICONTROL Form data]**&#x200B;部分。
 
@@ -60,11 +65,11 @@ ht-degree: 14%
    >
    >登陆页面只能映射到&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;资源。
 
-   在此示例中，将登陆页面的&#x200B;**Name**&#x200B;字段映射到&#x200B;**[!UICONTROL Last name]**&#x200B;资源的&#x200B;**[!UICONTROL Profiles]**&#x200B;字段。
+   在此示例中，将登陆页面的&#x200B;**Name**&#x200B;字段映射到&#x200B;**[!UICONTROL Profiles]**&#x200B;资源的&#x200B;**[!UICONTROL Last name]**&#x200B;字段。
 
    ![](assets/lp_database-field-example.png)
 
-1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。在这种情况下，仅当用户填写此字段后才能提交登陆页面。
+1. 需要时，可勾选 **[!UICONTROL Mandatory]** 选项。 在这种情况下，仅当用户填写此字段后才能提交登陆页面。
 
    ![](assets/lp_mandatory-option.png)
 
@@ -174,7 +179,7 @@ ht-degree: 14%
    >
    >**[!UICONTROL Agreement]**&#x200B;元素未映射到Campaign数据库的字段。
 
-1. 单击![](assets/lp-properties-icon.png)旁边的&#x200B;**[!UICONTROL Form data]**&#x200B;图标以访问复选框高级属性。
+1. 单击&#x200B;**[!UICONTROL Form data]**&#x200B;旁边的![](assets/lp-properties-icon.png)图标以访问复选框高级属性。
 
 1. 您可以根据需要编辑消息。
 

@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/LyXfuuNnGxZc6gW0m8tmgc5H8bKxaMaZi3kRHsGzjG4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 444
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## 检索过滤器元数据
 
-每个资源都可以使用过滤器。 要确定与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的详细信息，请参阅[此章节](../../api/using/metadata-mechanism.md)。
+每个资源都可以使用过滤器。 要标识与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的详细信息，请参阅[此章节](../../api/using/metadata-mechanism.md)。
 
 要识别过滤器的元数据并确定其使用方式，您必须对之前返回的URL执行GET请求。
 
@@ -203,8 +208,8 @@ ht-degree: 0%
 
 有关更多信息，请参阅Campaign Standard文档：
 
-* [正在配置筛选器定义](https://helpx.adobe.com/cn/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [用例：使用复合标识键](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=zh-Hans)调用资源。
+* [正在配置筛选器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [用例：使用复合标识键](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)调用资源。
 
 <br/>
 

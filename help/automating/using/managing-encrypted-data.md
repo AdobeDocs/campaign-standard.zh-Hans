@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 3%
+source-wordcount: 934
+ht-degree: 5%
 
 ---
 
@@ -33,7 +36,7 @@ ht-degree: 3%
 * 将在Campaign界面中显示的&#x200B;**标签**，用于使用该命令。 例如“加密文件”。
 * 要在实例上安装的&#x200B;**命令**。
 
-处理请求后，加密/解密命令将在&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;和&#x200B;**[!UICONTROL Load file]**&#x200B;活动的&#x200B;**[!UICONTROL Extract file]**&#x200B;字段中可用。 您可以使用它们来解密或加密要导入或导出的文件。
+处理请求后，加密/解密命令将在&#x200B;**[!UICONTROL Load file]**&#x200B;和&#x200B;**[!UICONTROL Extract file]**&#x200B;活动的&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;字段中可用。 您可以使用它们来解密或加密要导入或导出的文件。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -50,7 +53,7 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#decrypting-data)中提供了详细步骤。
+1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了详细步骤。
 
    * 公共密钥将与外部系统共享，外部系统将使用它来加密要发送到Campaign的数据。
    * Campaign将使用私钥对传入的加密数据进行解密。
@@ -94,7 +97,7 @@ ht-degree: 3%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#encrypting-data)中提供了详细步骤。
+1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了详细步骤。
 
    ![](assets/gpg_install.png)
 
@@ -128,10 +131,10 @@ ht-degree: 3%
 
 本视频说明如何使用GPG密钥解密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 本视频说明如何使用GPG密钥加密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41338?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

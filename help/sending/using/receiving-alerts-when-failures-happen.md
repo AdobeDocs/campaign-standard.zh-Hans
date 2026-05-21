@@ -8,10 +8,17 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 2%
+source-wordcount: 2045
+ht-degree: 3%
 
 ---
 
@@ -29,7 +36,7 @@ ht-degree: 2%
 * 硬退回错误率不高的投放
 * 具有待定状态的投放比平常更长
 * 吞吐量较低的投放
-* 投放进行中
+* 正在进行的投放
 
 警报的接收者可以监控Adobe Campaign正在处理的投放，并在执行过程中出现问题时采取适当措施。
 
@@ -75,7 +82,7 @@ ht-degree: 2%
 
 如果要根据特定标准向不同的用户组发送通知，您需要使用多个功能板。 要创建新仪表板，请执行以下操作：
 
-1. 转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
+1. 转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
 1. 选择 **[!UICONTROL Delivery alerting dashboards]** 并单击 **[!UICONTROL Create]**。
 1. 选中&#x200B;**[!UICONTROL Enabled]**&#x200B;框以激活当前仪表板。
 
@@ -85,7 +92,7 @@ ht-degree: 2%
 
 1. 从&#x200B;**[!UICONTROL Alert group]**&#x200B;下拉列表中选择要通知的收件人组。 要修改或创建组，请参阅[创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 1. 在&#x200B;**[!UICONTROL Delivery alerting criteria]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Create element]**&#x200B;以添加条件。 请参阅[关于警报条件](#about-alerting-criteria)。
-1. 选择&#x200B;**[!UICONTROL Edit properties]**&#x200B;按钮。 在&#x200B;**[!UICONTROL Criteria parameters]**&#x200B;选项卡中，定义标准的应用方式。 请参阅[标准参数](#criteria-parameters)。
+1. 选择 **[!UICONTROL Edit properties]** 按钮。 在&#x200B;**[!UICONTROL Criteria parameters]**&#x200B;选项卡中，定义标准的应用方式。 请参阅[标准参数](#criteria-parameters)。
 1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以保存仪表板。
 
 现在，每次投放满足您在此功能板中定义的标准时，都会向指定的用户组发送警报通知。

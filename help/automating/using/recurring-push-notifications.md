@@ -6,9 +6,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/aoMhXQxtQb9tDFW4eon-N7tw6ViTSMmwhpDl17zVwMQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 5%
 
 ---
@@ -35,9 +40,9 @@ ht-degree: 5%
 
    ![](assets/wkf_push_example_5.png)
 
-1. VIP通过[查询](../../automating/using/query.md)活动，可定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的客户：
+1. 通过[查询](../../automating/using/query.md)活动，可定向年龄在20到30岁之间、已订阅您的移动应用程序且未打开您发送的电子邮件的客户：
 
-   * 选择一个受众(您的VIP客户)，并根据其年龄进行过滤。
+   * 选择一个受众（您的VIP客户），并根据其年龄进行过滤。
    * 将&#x200B;**应用程序**&#x200B;订阅元素拖放到工作区中。 选择&#x200B;**存在**&#x200B;并选择要使用的移动应用程序。
    * 选择您发送给客户的电子邮件。
    * 将&#x200B;**投放日志（日志）**&#x200B;元素拖放到工作区中，并选择&#x200B;**存在**&#x200B;以定向收到电子邮件的所有客户。
@@ -49,7 +54,7 @@ ht-degree: 5%
 
    * 选择 **[!UICONTROL Recurring notification]** 选项。
    * 定义推送通知内容。 有关推送通知内容的更多信息，请参阅此[部分](../../channels/using/preparing-and-sending-a-push-notification.md)。
-   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;块中，选择&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此，我们在工作流&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;中选择了&#x200B;**[!UICONTROL Scheduler]** Pacific。
+   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;块中，选择&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此，我们在工作流&#x200B;**[!UICONTROL Scheduler]**&#x200B;中选择了&#x200B;**[!UICONTROL Time zone of the contact date]** Pacific。
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 字段中，选择 **[!UICONTROL Send at the recipient's time zone]**。
 
      ![](assets/wkf_push_example_4.png)

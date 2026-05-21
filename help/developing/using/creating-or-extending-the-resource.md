@@ -8,9 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/hdn9Hj-zHdqoD2fKbv5Rl-GcV5EpH-L8p95e7W0ouzA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 156
 ht-degree: 11%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 11%
 1. 从&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**，单击&#x200B;**[!UICONTROL Create]**&#x200B;按钮。
 1. 选择要执行的操作：
 
-   * **[!UICONTROL Create a new resource]**：输入&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**&#x200B;字段。 **[!UICONTROL ID]** 字段属于必填字段。如果您将Label字段留空，则将自动从ID中完成该字段。
+   * **[!UICONTROL Create a new resource]**：输入&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**&#x200B;字段。 **[!UICONTROL ID]** 字段属于必填字段。 如果您将Label字段留空，则将自动从ID中完成该字段。
 
      ![](assets/schema_extension_2.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 在投放之前标识重复项
-description: 下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一轮廓发送多次通信。
+description: 下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。 这意味着您可以避免向同一轮廓发送多次通信。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,16 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/4t0TujgM3kHTT36-Gy2lmiVQIRMy3OeChAw-Xx5MnWY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: 287
 ht-degree: 79%
 
 ---
 
 # 在投放之前标识重复项 {#identifying-duplicates-before-a-delivery}
 
-下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。这意味着您可以避免向同一轮廓发送多次通信。
+下方展示了一个重复数据删除示例，利用该用例可在发送电子邮件之前排除重复的目标。 这意味着您可以避免向同一轮廓发送多次通信。
 
 该工作流由以下步骤组成：
 
@@ -29,9 +34,9 @@ ht-degree: 79%
 
   ![](assets/deduplication_example_query.png)
 
-* [重复数据删除](../../automating/using/deduplication.md)活动，用于识别来自上一个查询的重复项。 在本例中，只为每个重复项保存一个记录。使用电子邮件地址识别重复项。这意味着，只对定向中显示的每个电子邮件地址，发送一次电子邮件投放。
+* [重复数据删除](../../automating/using/deduplication.md)活动，用于识别来自上一个查询的重复项。 在本例中，只为每个重复项保存一个记录。 使用电子邮件地址识别重复项。 这意味着，只对定向中显示的每个电子邮件地址，发送一次电子邮件投放。
 
-  选择的重复数据删除方法为 **[!UICONTROL Non-empty value]**。这样，就可确保在出现重复项时，优先保留提供了&#x200B;**名字**&#x200B;的记录。如果在电子邮件内容的个性化字段中使用了名字，这样可使其更加合乎逻辑。
+  选择的重复数据删除方法为 **[!UICONTROL Non-empty value]**。 这样，就可确保在出现重复项时，优先保留提供了&#x200B;**名字**&#x200B;的记录。 如果在电子邮件内容的个性化字段中使用了名字，这样可使其更加合乎逻辑。
 
   此外，还增加了额外的过渡，以保留重复项并将列它们列在表中。
 

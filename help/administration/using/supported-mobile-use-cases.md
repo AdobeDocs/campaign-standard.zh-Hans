@@ -6,9 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -259,7 +264,7 @@ public void onResume() {
 
 在iOS中，需要以下[!DNL Experience Platform SDK]：
 
-* **[!UICONTROL trackAction]**。 有关详细信息，请参阅[跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
+* **[!UICONTROL trackAction]**. 有关详细信息，请参阅[跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
 
 以下是iOS中此用例的实施示例：
 
@@ -293,7 +298,7 @@ MobileCore.trackAction("tracking", contextData);
 
 在iOS中，需要以下[!DNL Experience Platform SDK]：
 
-* **[!UICONTROL trackAction]**。 有关详细信息，请参阅[跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
+* **[!UICONTROL trackAction]**. 有关详细信息，请参阅[跟踪应用程序操作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
 
 以下是iOS中此用例的实施示例：
 
@@ -341,7 +346,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### 使用Android {#linkage-fields-inapp-android}
 
-要为基于Android中应用程序内消息的用户档案模板设置关联字段以进行其他身份验证，需要以下Experience PlatformSDK：
+要为基于Android中应用程序内消息的用户档案模板设置关联字段以进行其他身份验证，需要以下Experience Platform SDK：
 
 * 设置链接字段<br>有关详细信息，请参阅[设置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)。
 * 重置链接字段<br>有关详细信息，请参阅[重置链接字段](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields)。

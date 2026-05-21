@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 3%
 
 ---
@@ -40,7 +44,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 投放ID<br /> </td> 
-   <td> 在Campaign中看到的投放的内部名称。<br />例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，投放ID维度将显示每次投放的结果，即DM1到DM4。<br /> </td> 
+   <td> 在Campaign中看到的投放的内部名称。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，投放ID维度将显示每次投放的结果，即DM1到DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 投放标签<br /> </td> 
@@ -48,7 +52,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 执行的投放ID<br /> </td> 
-   <td> 在Campaign中看到的投放的内部名称。 这仅涉及在Campaign中执行的投放。<br />例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，执行的投放ID维度将显示执行的投放的结果，即子投放DM2、DM3和DM4。<br /> </td> 
+   <td> 在Campaign中看到的投放的内部名称。 这仅涉及在Campaign中执行的投放。<br /> 例如，DM1是计划每周发送子投放的循环投放。 DM2、DM3和DM4在前三周发送。 然后，执行的投放ID维度将显示执行的投放的结果，即子投放DM2、DM3和DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 执行的投放标签<br /> </td> 

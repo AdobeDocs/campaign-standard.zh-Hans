@@ -9,9 +9,16 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RMGPVUR4mXc9ZU38JCpsVT-ytEwrYRfhTB-eaVsAt-Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: 656
 ht-degree: 70%
 
 ---
@@ -96,7 +103,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 现在，一旦触发“购物车废弃”事件，就会自动提示发送消息，其中包含收件人的头衔和姓氏、购物车 URL、查看的最后一个产品或产品清单（如果您定义了产品清单）以及购物车总金额。
 
-要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。查看[动态报告](../../reporting/using/about-dynamic-reports.md)。
+要访问有关事务型消息的报告，请使用 **[!UICONTROL Reports]** 按钮。 查看[动态报告](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
@@ -107,13 +114,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 暂停事务型消息发布 {#suspending-a-transactional-message-publication}
 
-例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
+例如，可以使用 **[!UICONTROL Pause]** 按钮暂停发布事务型消息，以修改消息中包含的数据。 这样，就不会再处理事件，而是将其保留在 Adobe Campaign 数据库的队列中。
 
 排队事件的保留期限，在REST API中定义（请参阅[REST API文档](../../api/using/managing-transactional-messages.md)），如果您使用Triggers核心服务，则在触发器事件中定义（请参阅[关于Adobe Experience Cloud触发器](../../integrating/using/about-adobe-experience-cloud-triggers.md)）。
 
 ![](assets/message-center_pause.png)
 
-单击 **[!UICONTROL Resume]** 后，将继续处理所有排队的事件（前提是它们未过期）。现在，它们包含暂停模板发布时执行的所有修改。
+单击 **[!UICONTROL Resume]** 后，将继续处理所有排队的事件（前提是它们未过期）。 现在，它们包含暂停模板发布时执行的所有修改。
 
 ## 取消发布事务型消息 {#unpublishing-a-transactional-message}
 
@@ -127,7 +134,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 >
 >若要再次发布消息，您需要返回相应的事件配置，[发布事件](../../channels/using/publishing-transactional-event.md)，然后[发布消息](#publishing-a-transactional-message)。
 
-如果取消发布已暂停的事务型消息，则可能需要等待最多 24 小时，才能再次发布该消息。这是为了让 **[!UICONTROL Database cleanup]** 工作流清理发送到队列的所有事件。
+如果取消发布已暂停的事务型消息，则可能需要等待最多 24 小时，才能再次发布该消息。 这是为了让 **[!UICONTROL Database cleanup]** 工作流清理发送到队列的所有事件。
 
 有关暂停消息的详细步骤，请参阅[暂停事务型消息发布](#suspending-a-transactional-message-publication)一节。
 
@@ -135,7 +142,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 删除事务型消息 {#deleting-a-transactional-message}
 
-取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。操作步骤：
+取消发布某条事务型消息后，或尚未发布该事务型消息时，可以从事务型消息列表中删除该消息。 操作步骤：
 
 1. 单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 1. 将鼠标指针悬停在您选择的消息上。
@@ -145,15 +152,15 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 但是，删除事务型消息只能在特定条件下完成：
 
-* 确保事务型消息具有 **[!UICONTROL Draft]** 状态，否则您将无法删除它。**[!UICONTROL Draft]** 状态适用于尚未发布或[已取消发布](#unpublishing-a-transactional-message)（且[未暂停](#suspending-a-transactional-message-publication)）的消息。
+* 确保事务型消息具有 **[!UICONTROL Draft]** 状态，否则您将无法删除它。 **[!UICONTROL Draft]** 状态适用于尚未发布或[已取消发布](#unpublishing-a-transactional-message)（且[未暂停](#suspending-a-transactional-message-publication)）的消息。
 
-* **事务型消息**：除非将其他事务型消息链接到相应的事件，否则如果事务型消息已取消发布，则还需要取消发布事件配置才能成功删除事务型消息。有关更多信息，请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+* **事务型消息**：除非将其他事务型消息链接到相应的事件，否则如果事务型消息已取消发布，则还需要取消发布事件配置才能成功删除事务型消息。 有关更多信息，请参阅[取消发布事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
   >[!IMPORTANT]
   >
   >删除已发送通知的事务型消息，也会删除其发送和跟踪日志。
 
-* **来自现成事件模板的事务型消息（内部事务型消息）**：如果内部事务型消息是唯一与相应内部事件关联的消息，则无法删除该消息。首先必须复制事务型消息或通过 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 菜单创建另一个事务型消息。
+* **来自现成事件模板的事务型消息（内部事务型消息）**：如果内部事务型消息是唯一与相应内部事件关联的消息，则无法删除该消息。 首先必须复制事务型消息或通过 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 菜单创建另一个事务型消息。
 
 <!--
 ## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}

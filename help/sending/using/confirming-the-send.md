@@ -9,16 +9,22 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: 996
 ht-degree: 16%
 
 ---
 
 # 确认发送{#confirming-the-send}
 
-您完成准备消息并执行批准步骤后，即可发送消息。有关消息准备的更多信息，请参阅[准备发送](../../sending/using/preparing-the-send.md)。
+您完成准备消息并执行批准步骤后，即可发送消息。 有关消息准备的更多信息，请参阅[准备发送](../../sending/using/preparing-the-send.md)。
 
 只有具有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的用户才能确认发送。 有关更多信息，请参阅[角色列表](../../administration/using/list-of-roles.md)一节。
 
@@ -46,7 +52,7 @@ Users without this role will see the following message:
 >
 >如果设置了消息发送计划，则在达到发送时间时会发送该消息。 有关计划发送消息的更多信息，请参阅[此章节](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用的是没有聚合期的定期投放，则可以在发送投放之前请求确认。配置消息时，打开投放仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;块并激活专用选项。
+如果您使用的是没有聚合期的定期投放，则可以在发送投放之前请求确认。 配置消息时，打开投放仪表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;块并激活专用选项。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -71,7 +77,7 @@ Users without this role will see the following message:
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新时间过长或未反映来自发送日志的结果，请单击&#x200B;**[!UICONTROL Compute stats]**&#x200B;窗口中的&#x200B;**[!UICONTROL Deployment]**&#x200B;按钮。
+如果KPI更新时间过长或未反映来自发送日志的结果，请单击&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮。
 
 ![](assets/sending_delivery7.png)
 
@@ -90,11 +96,11 @@ Users without this role will see the following message:
 
 在每封电子邮件的&#x200B;**[!UICONTROL Summary]**&#x200B;视图中，**[!UICONTROL Delivered]**&#x200B;百分比从100%开始，然后在投放[有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)内逐步下降，因为软退信和硬退信会被报告回<!--from the Enhanced MTA to Campaign-->。
 
-事实上，一旦消息从Campaign成功中继到增强型MTA（消息传输代理），则所有消息在&#x200B;**[!UICONTROL Sent]**&#x200B;发送日志[中都会显示为](../../sending/using/monitoring-a-delivery.md#sending-logs)。 除非或直到该消息的[退回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从Enhanced MTA传回Campaign，否则它们将保持该状态。
+事实上，一旦消息从Campaign成功中继到增强型MTA（消息传输代理），则所有消息在[发送日志](../../sending/using/monitoring-a-delivery.md#sending-logs)中都会显示为&#x200B;**[!UICONTROL Sent]**。 除非或直到该消息的[退回](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)从Enhanced MTA传回Campaign，否则它们将保持该状态。
 
 当从增强型MTA报告硬退回邮件时，其状态从&#x200B;**[!UICONTROL Sent]**&#x200B;更改为&#x200B;**[!UICONTROL Failed]**，**[!UICONTROL Delivered]**&#x200B;百分比相应减少。
 
-从Enhanced MTA报告软退回邮件时，它们仍显示为&#x200B;**[!UICONTROL Sent]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，软退回邮件在投放有效期内将重试[&#128279;](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
+从Enhanced MTA报告软退回邮件时，它们仍显示为&#x200B;**[!UICONTROL Sent]**，并且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然后，软退回邮件在投放有效期内将重试[](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
 
 * 如果在有效期结束前重试成功，则消息状态将保留为&#x200B;**[!UICONTROL Sent]**，**[!UICONTROL Delivered]**&#x200B;百分比将保持不变。
 

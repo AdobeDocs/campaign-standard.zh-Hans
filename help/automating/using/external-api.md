@@ -10,10 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 93%
+source-wordcount: 2262
+ht-degree: 92%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->出于安全原因，Campaign Standard 中不支持使用 JSSP。如果需要执行代码，可以通过 External API 活动调用 Adobe I/O Runtime 实例。
+>出于安全原因，Campaign Standard 中不支持使用 JSSP。 如果需要执行代码，可以通过 External API 活动调用 Adobe I/O Runtime 实例。
 
 本活动的主要特点是：
 
@@ -60,12 +66,12 @@ ht-degree: 93%
 已设定特定护栏：
 
 * **JSON Max Depth**：将可处理自定义嵌套 JSON 的最大深度限制为 10 级。
-* **JSON Max Key Length**：将生成内部键值的最大长度限制为 255。此键值与列 ID 关联。
+* **JSON Max Key Length**：将生成内部键值的最大长度限制为 255。 此键值与列 ID 关联。
 * **JSON Max Duplicate Keys Allowed**：将用作列 ID 的 JSON 属性名称重复项总数上限设置为 150。
 
 >[!CAUTION]
 >
->外部 API 活动旨在用于获取营销活动范围的数据（最新产品建议集、最新分数等），而非用于检索每个轮廓的特定信息，因为这可能会导致传输大量数据。如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
+>外部 API 活动旨在用于获取营销活动范围的数据（最新产品建议集、最新分数等），而非用于检索每个轮廓的特定信息，因为这可能会导致传输大量数据。 如果使用案例要求进行检索，建议使用[传输文件](../../automating/using/transfer-file.md)活动。
 
 ## 配置 {#configuration}
 
@@ -80,11 +86,11 @@ ht-degree: 93%
 
 利用 **Inbound resource** 下拉列表，可选择将要创建临时表格的查询活动。
 
-勾选 **Add count parameter** 复选框，可为来自临时表格的每个行添加一个计数值。请注意，只有集客活动生成临时表格时，此复选框才可用。
+勾选 **Add count parameter** 复选框，可为来自临时表格的每个行添加一个计数值。 请注意，只有集客活动生成临时表格时，此复选框才可用。
 
-利用 **Inbound Columns** 部分，用户可添加来自集客过渡表格的任何字段。所选列将成为数据对象中的键值。JSON 格式的列表对象将是一个数组列表，其中包含来自集客过渡表格各行的选定列数据。
+利用 **Inbound Columns** 部分，用户可添加来自集客过渡表格的任何字段。 所选列将成为数据对象中的键值。 JSON 格式的列表对象将是一个数组列表，其中包含来自集客过渡表格各行的选定列数据。
 
-使用&#x200B;**自定义参数**&#x200B;文本框，您可以添加 External API 所需的有效 JSON 和附加数据。该附加数据将添加到所生成 JSON 中的参数对象。
+使用&#x200B;**自定义参数**&#x200B;文本框，您可以添加 External API 所需的有效 JSON 和附加数据。 该附加数据将添加到所生成 JSON 中的参数对象。
 
 ### 叫客映射
 
@@ -92,30 +98,30 @@ ht-degree: 93%
 
 ![](assets/externalAPI-outbound.png)
 
-JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些例外。标准模式的示例有：`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些例外。 标准模式的示例有：`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 示例 JSON 定义必须具有&#x200B;**以下特征**：
 
-* **数组元素**&#x200B;必须包含第一级属性（不支持更深层级别）。
+* **数组元素**必须包含第一级属性（不支持更深层级别）。
   **属性名称**&#x200B;最终将成为输出临时表之输出架构的列名称。
 * 要捕获的 **JSON 元素** 在 JSON 响应中的嵌套级别不得大于 10。
-* **列名称**&#x200B;定义基于“data”数组的第一个元素。
+* **列名称**定义基于“data”数组的第一个元素。
 列定义（添加/删除）和属性的类型值，可以在 **Column definition** 选项卡中进行编辑。
 
 **扁平化复选框**&#x200B;行为：
 
 提供了扁平化复选框（默认：未选中）用于指示是否将 JSON 扁平化为键值/值映射。
 
-* **禁用此复选框**（取消选中）后，将解析示例 JSON 以查找数组对象。用户需要提供 API 响应示例 JSON 格式的精简版本，以便 Adobe Campaign 精确定位用户希望使用的数组。创作工作流时，会确定并记录嵌套数组对象的路径，以便在执行时使用该路径访问接收自 API 调用的 JSON 响应体数组对象。
+* **禁用此复选框**（取消选中）后，将解析示例 JSON 以查找数组对象。 用户需要提供 API 响应示例 JSON 格式的精简版本，以便 Adobe Campaign 精确定位用户希望使用的数组。 创作工作流时，会确定并记录嵌套数组对象的路径，以便在执行时使用该路径访问接收自 API 调用的 JSON 响应体数组对象。
 
-* **启用此复选框**（选中）后，会将示例 JSON 扁平化，将所提供示例 JSON 中指定的所有属性用于创建输出临时表格的列，并显示在 Column Definitions 选项卡中。请注意，如果示例 JSON 中存在任何数组对象，则这些数组对象的所有元素也将被扁平化。
+* **启用此复选框**（选中）后，会将示例 JSON 扁平化，将所提供示例 JSON 中指定的所有属性用于创建输出临时表格的列，并显示在 Column Definitions 选项卡中。 请注意，如果示例 JSON 中存在任何数组对象，则这些数组对象的所有元素也将被扁平化。
 
 
-如果&#x200B;**已验证解析**，则会显示一条消息，邀请您在“Column definition”选项卡中自定义数据映射。在其他情况下，会显示错误消息。
+如果&#x200B;**已验证解析**，则会显示一条消息，邀请您在“Column definition”选项卡中自定义数据映射。 在其他情况下，会显示错误消息。
 
 ### 执行
 
-通过此选项卡，可以定义连接端点。**[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS端点**。
+通过此选项卡，可以定义连接端点。 **[!UICONTROL URL]**&#x200B;字段允许您定义Campaign Standard将与之通信的&#x200B;**HTTPS端点**。
 
 如果端点需要，则可以使用两种类型的身份验证方法：
 
@@ -127,7 +133,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ### 属性
 
-利用此选项卡，您可以控制 External API 活动上的&#x200B;**常规属性**，如 UI 中显示的标签。不可自定义内部 ID。
+利用此选项卡，您可以控制 External API 活动上的&#x200B;**常规属性**，如 UI 中显示的标签。 不可自定义内部 ID。
 
 ![](assets/externalAPI-properties.png)
 
@@ -141,19 +147,19 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 ![](assets/externalAPI-column.png)
 
-例如，您可以更改列的标签，选择其类型（字符串、整数、日期等）甚至指定错误处理。
+例如，您可以更改列的标签，选择其类型（字符串、整数、日期等），甚至可指定错误处理。
 
 有关更多信息，请参阅[加载文件](../../automating/using/load-file.md)。
 
 ### 过渡
 
-利用此选项卡可激活&#x200B;**叫客过渡**&#x200B;及其标签。此特定过渡适合用于&#x200B;**超时**&#x200B;或有效载荷超过&#x200B;**数据大小限制**&#x200B;时。
+利用此选项卡可激活&#x200B;**叫客过渡**&#x200B;及其标签。 此特定过渡适合用于&#x200B;**超时**&#x200B;或有效载荷超过&#x200B;**数据大小限制**&#x200B;时。
 
 ![](assets/externalAPI-transition.png)
 
 ### 执行选项
 
-大多数工作流活动中都提供了此选项卡。有关更多信息，请参阅[活动属性](../../automating/using/activity-properties.md)一节。
+大多数工作流活动中都提供了此选项卡。 有关更多信息，请参阅[活动属性](../../automating/using/activity-properties.md)一节。
 
 ![](assets/externalAPI-options.png)
 
@@ -161,9 +167,9 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
 
 要使用简单的测试端点测试外部API功能，您可以使用Postman Echo： https://docs.postman-echo.com.
 
-## 疑难解答
+## 故障排除
 
-此新工作流活动已添加了两种类型的日志消息：信息和错误。它们可以帮助您排除潜在的问题。
+此新工作流活动已添加了两种类型的日志消息：信息和错误。 它们可以帮助您排除潜在的问题。
 
 ### 信息
 
@@ -190,11 +196,11 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
   </tr>
   <tr> 
    <td> Using cached access token for provider ID '%s'.</td> 
-   <td> <p>正在对提供程序 ID 'EXT25’ 使用缓存访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。 </p></td> 
+   <td> <p>正在对提供程序 ID 'EXT25’ 使用缓存访问令牌。 注意：EXT25 是外部帐户的 ID（或名称）。 </p></td> 
   </tr>
   <tr> 
    <td> Fetched access token from server for provider ID '%s'.</td> 
-   <td> <p>已从服务器获取提供程序 ID 'EXT25’ 的访问令牌。注意：EXT25 是外部帐户的 ID（或名称）。</p></td> 
+   <td> <p>已从服务器获取提供程序 ID 'EXT25’ 的访问令牌。 注意：EXT25 是外部帐户的 ID（或名称）。</p></td> 
   </tr>
   <tr> 
    <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
@@ -247,9 +253,9 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> <p>API URL 必须是安全 URL (https)（请求的 URL：'https://example.com/api/v1/web-coupon?count=2'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - 无法创建请求主体 JSON。Error when adding '%s'.</td> 
-   <td> <p>无法创建请求主体 JSON。添加“params”时出错。</p>
-    <p>无法创建请求主体 JSON。添加“data”时出错。</p></td>
+   <td> WKF-560249 - 无法创建请求主体 JSON。 Error when adding '%s'.</td> 
+   <td> <p>无法创建请求主体 JSON。 添加“params”时出错。</p>
+    <p>无法创建请求主体 JSON。 添加“data”时出错。</p></td>
   </tr> 
   <tr> 
    <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
@@ -278,7 +284,7 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
    <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>因 HTTP 401 错误响应导致活动失败时 - 活动失败（原因：'HTTP - 401'）。</p>
         <p>因内部调用失败导致活动失败时 - 活动失败（原因：'iRc - -Nn'）。</p>
-        <p>因 Content-Type 标头无效导致活动失败时- 活动失败（原因：'Content-Type - application/html'）。</p></td> 
+        <p>因 Content-Type 标头无效导致活动失败时 - 活动失败（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
    <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
@@ -290,27 +296,27 @@ JSON 解析器设计为适应标准 JSON 结构模式类型，但也存在一些
   </tr>
   <tr> 
    <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
-   <td> <p>找不到 'EXT25' ID 的外部帐户。  注意：此错误表示活动配置为使用外部帐户，但再也找不到该外部帐户。从数据库中删除帐户后很可能会发生此情况，而在正常操作环境中不可能发生此情况。</p></td>
+   <td> <p>找不到 'EXT25' ID 的外部帐户。  注意：此错误表示活动配置为使用外部帐户，但再也找不到该外部帐户。 从数据库中删除帐户后很可能会发生此情况，而在正常操作环境中不可能发生此情况。</p></td>
   </tr>
   <tr> 
    <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
-   <td> <p>已禁用 'EXT25' ID 的外部帐户。注意：此错误表示活动配置为使用外部帐户，但已禁用该帐户（或标记为非活动）。</p></td>
+   <td> <p>已禁用 'EXT25' ID 的外部帐户。 注意：此错误表示活动配置为使用外部帐户，但已禁用该帐户（或标记为非活动）。</p></td>
   </tr>
   <tr> 
    <td> WKF-560282 - Protocol not supported.</td> 
-   <td> <p>此错误表示与活动关联的外部帐户不是 OAuth2.0 外部帐户。因此，除非出现某些损坏或手动更改活动配置，否则不可能发生此错误。</p></td>
+   <td> <p>此错误表示与活动关联的外部帐户不是 OAuth2.0 外部帐户。 因此，除非出现某些损坏或手动更改活动配置，否则不可能发生此错误。</p></td>
   </tr>
   <tr> 
    <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
-   <td> <p>此错误的最常见原因是外部帐户配置错误（例如，使用外部帐户，但未测试连接是否成功）。外部帐户上的 URL/凭据可能已更改。</p></td>
+   <td> <p>此错误的最常见原因是外部帐户配置错误（例如， 使用外部帐户，但未测试连接是否成功）。 外部帐户上的 URL/凭据可能已更改。</p></td>
   </tr>
   <tr> 
    <td> CRL-290199 - Cannot reach page at: %s.</td> 
-   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着外部授权服务器的 URL 不正确/已更改/来自服务器的响应为“找不到页面”。</p></td>
+   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。 这意味着外部授权服务器的 URL 不正确/已更改/来自服务器的响应为“找不到页面”。</p></td>
   </tr>
   <tr> 
    <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
-   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。这意味着凭据不正确或缺少连接到身份验证服务器所需的其他凭据。
+   <td> <p>为 OAuth 设置外部帐户 UI 时，在该屏幕上会显示此错误消息。 这意味着凭据不正确或缺少连接到身份验证服务器所需的其他凭据。
 </p></td>
   </tr>
  </tbody> 

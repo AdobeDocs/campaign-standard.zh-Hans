@@ -1,15 +1,20 @@
 ---
 title: 监测准则
-description: 本页介绍了监视Campaign Standard的一般准则
+description: 本页介绍了监控Campaign Standard的一般准则
 audience: production
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 12%
+source-wordcount: 512
+ht-degree: 18%
 
 ---
 
@@ -29,7 +34,7 @@ Campaign Standard提供了多种监测实例的方法，以确保您的系统正
 
 **系统通知**
 
-Campaign Standard界面提供了一个通知窗格，允许您随时了解系统中发生的情况：事件状态、系统更新、需要执行操作等。 [了解更多信息](../../start/using/interface-description.md#top-bar)
+Campaign Standard界面提供了一个通知窗格，允许您随时了解系统中发生的情况：事件状态、系统更新、所需操作等。[了解更多](../../start/using/interface-description.md#top-bar)
 
 
 **技术工作流**
@@ -38,15 +43,15 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **控制面板**
 
-控制面板允许您管理实例的多个设置： URL权限，检查实例详细信息（如服务器的内部版本号），监控活动配置文件使用情况等。 它还允许您监视连接到实例的SFTP服务器上的可用空间。 [了解更多信息](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
+控制面板允许您管理实例的多个设置： URL权限，检查实例详细信息（如服务器的内部版本号），监控活动配置文件使用情况等。它还允许您监视连接到实例的SFTP服务器上的可用空间。 [了解更多信息](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
->所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
+>所有管理员用户都可访问控制面板。 [此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
 **技术对象**
 
-**[!UICONTROL Diagnosis]**&#x200B;菜单是监视和分析应用程序生成的不同技术对象的关键工具：数据架构、网页、批处理作业等。 [了解更多信息](../../developing/using/monitoring-data-model-changes.md)
+**[!UICONTROL Diagnosis]**&#x200B;菜单是用于监视和分析应用程序生成的不同技术对象的关键工具：数据架构、网页、批处理作业等。[了解更多](../../developing/using/monitoring-data-model-changes.md)
 
 **导出审核**
 
@@ -55,7 +60,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **许可证**
 
-使用&#x200B;**[!UICONTROL Licenses]**&#x200B;菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
+使用&#x200B;**[!UICONTROL Licenses]**菜单，监视有关实例的信息：已安装的许可证、内部版本和条款协议接受情况。
 [了解更多信息](../../administration/using/licenses.md)
 
 ## 监控工作流 {#monitoring-workflows}
@@ -74,7 +79,7 @@ Campaign Standard界面提供了一个通知窗格，允许您随时了解系统
 
 **通知**
 
-Campaign Standard允许您向主管发送通知，以监控工作流的执行情况，并查看是否存在需要您注意的错误。
+Campaign Standard允许您向主管发送通知，以监控工作流的执行情况，并查看是否存在需要您关注的错误。
 [了解更多信息](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 监控投放 {#monitoring-deliveries}
@@ -83,7 +88,7 @@ Campaign Standard允许您向主管发送通知，以监控工作流的执行情
 
 **可投放性**
 
-Campaign Standard提供了多种可投放性工具来帮助您提高成功投放的邮件的数量：投放吞吐量报告、发送时间优化、邮件预览、电子邮件渲染、隔离管理等。
+Campaign Standard提供了多种可投放性工具来帮助您提高成功投放的邮件数：投放吞吐量报告、发送时间优化、邮件预览、电子邮件渲染、隔离管理等。
 [了解更多信息](../../sending/using/about-deliverability.md)
 
 **投放**
@@ -99,4 +104,4 @@ Campaign Standard提供了多种可投放性工具来帮助您提高成功投放
 **动态报告**
 
 动态报告提供各种报告，帮助您随时了解投放的执行情况：跳出次数、收件人查看的投放次数最多、投放的吞吐量等。
-[了解更多信息](../../reporting/using/about-dynamic-reports.md)
+[了解更多](../../reporting/using/about-dynamic-reports.md)

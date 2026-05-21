@@ -9,9 +9,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lPW7QI7jtfKL-78I3E8l6W2c9xJQml9JFXpw-5NX0aA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 594
 ht-degree: 4%
 
 ---
@@ -82,7 +87,7 @@ ht-degree: 4%
 
 * *“无法发送消息，因为当前IP关联未由任何发送进程处理。”*
 
-  如果您看到此消息，则表示IP关联定义级别或发送进程级别存在问题。 请联系您的Adobe管理员。
+  如果您看到此消息，则表示IP关联定义级别或发送进程级别存在问题。 联系Adobe管理员。
 
 * *”这是一个现成的事务性消息模板。 如果要修改它，必须复制它并制作副本。&quot;*
 

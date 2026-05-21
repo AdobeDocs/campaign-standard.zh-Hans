@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/B-Za0p8ZN6AGt1reyaUID4B6IIzVHgNvOBil2XKpawA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 773
 ht-degree: 46%
 
 ---
@@ -37,7 +41,7 @@ ht-degree: 46%
 
 同一工作流中的上游活动，通过查询、交集之类的定向活动，定义了收件人。
 
-根据工作流执行参数，触发消息准备。在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认要求）。您可以手动启动工作流，或在工作流中放置调度程序活动以自动执行。
+根据工作流执行参数，触发消息准备。 在消息仪表板中，您可以选择是否请求手动确认以发送消息（默认要求）。 您可以手动启动工作流，或在工作流中放置调度程序活动以自动执行。
 
 **相关主题**
 
@@ -50,19 +54,19 @@ ht-degree: 46%
 
    >[!NOTE]
    >
-   >您可以通过活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。此按钮专用于 **[!UICONTROL Push notification]** 活动。可以通过推送仪表板中的操作栏，访问推送通知的属性。
+   >您可以通过活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮，访问活动的常规属性和高级选项（而非投放本身）。 此按钮专用于 **[!UICONTROL Push notification]** 活动。 可以通过推送仪表板中的操作栏，访问推送通知的属性。
 
 1. 选择推送通知发送模式：
 
-   * **[!UICONTROL Single notification]**：推送通知只发送一次。 您可以在此处指定是否向活动添加叫客过渡。此程序的第 7 步详细介绍了各种过渡类型。
-   * **[!UICONTROL Recurring notification]**：根据&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动中定义的频率，多次发送推送通知。 选择发送的聚合期。这样，您可以将规定时间段内发生的所有发送重组到一封单独的推送通知中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该推送通知。
+   * **[!UICONTROL Single notification]**：推送通知只发送一次。 您可以在此处指定是否向活动添加叫客过渡。 此程序的第 7 步详细介绍了各种过渡类型。
+   * **[!UICONTROL Recurring notification]**：根据&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动中定义的频率，多次发送推送通知。 选择发送的聚合期。 这样，您可以将规定时间段内发生的所有发送重组到一封单独的推送通知中（也称为&#x200B;**定期执行**），并可从应用程序的营销活动列表访问该推送通知。
 
      例如，对于每天发送的定期生日通知，您可以选择聚合每月的发送。 这样，尽管每天都会发送通知，但您可以按月接收投放报告。
 
 1. 选择通知类型。 这些类型来自&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;菜单中定义的推送通知模板。
-1. 输入推送通知的常规属性。 您还可以将其连接到现有营销策划。工作流投放活动的标签将更新为推送通知标签。
+1. 输入推送通知的常规属性。 您还可以将其连接到现有营销策划。 工作流投放活动的标签将更新为推送通知标签。
 1. 定义推送通知内容。 请参阅[创建推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-1. 默认情况下，**[!UICONTROL Push notification]** 活动不包含任何叫客过渡。如果要向 **[!UICONTROL Push Notification]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
+1. 默认情况下，**[!UICONTROL Push notification]** 活动不包含任何叫客过渡。 如果要向 **[!UICONTROL Push Notification]** 互动添加叫客过渡，请转到高级活动选项的 **[!UICONTROL General]** 选项卡（活动快速操作中的 ![](assets/dlv_activity_params-24px.png) 按钮），然后选中以下选项之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：通过此选项可生成叫客过渡，其中包含的群体与集客过渡完全相同。
    * **[!UICONTROL Add outbound transition with the population]**：通过此选项可生成叫客过渡，其中包含接收通知的群体。 在投放准备期间被排除的目标成员将从此过渡中排除。
@@ -71,10 +75,10 @@ ht-degree: 46%
 
 重新打开活动时，您将直接转到推送通知仪表板。 只能编辑其内容。
 
-默认情况下，启动投放工作流只会触发消息准备。在工作流启动后，发送从工作流创建的消息，仍需要确认。但是在消息仪表板中，仅当通过工作流创建消息时，才能禁用 **[!UICONTROL Request confirmation before sending messages]** 选项。取消选中此选项后，消息在准备完成后即发送，不会进一步通知。
+默认情况下，启动投放工作流只会触发消息准备。 在工作流启动后，发送从工作流创建的消息，仍需要确认。 但是在消息仪表板中，仅当通过工作流创建消息时，才能禁用 **[!UICONTROL Request confirmation before sending messages]** 选项。 取消选中此选项后，消息在准备完成后即发送，不会进一步通知。
 
 ## 备注 {#remarks}
 
-可以在应用程序的营销活动列表中，访问在工作流中创建的投放。您可以使用仪表板查看工作流的执行状态。利用推送通知摘要窗格中的链接，可直接访问链接的元素（工作流、活动等）。
+可以在应用程序的营销活动列表中，访问在工作流中创建的投放。 您可以使用仪表板查看工作流的执行状态。 利用推送通知摘要窗格中的链接，可直接访问链接的元素（工作流、活动等）。
 
 在可从营销活动列表访问的父投放中，您可以查看已处理的发送总数（基于配置&#x200B;**[!UICONTROL Push notification]**&#x200B;活动时指定的聚合期）。 要执行此操作，请通过选择 **[!UICONTROL Deployment]** 以打开父投放 ![](assets/wkf_dlv_detail_button.png) 块的详细视图。

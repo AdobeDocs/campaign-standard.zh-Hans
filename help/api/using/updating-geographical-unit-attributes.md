@@ -9,16 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NQoeChz9CMFQEYy8LrNu1FQLGFy5Vgad8l8hmXiIPSU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: 86
 ht-degree: 0%
 
 ---
 
 # 更新地理单位属性 {#managing-geographical-units}
 
-1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单位密钥。
+1. 对&#x200B;**geoUnitBase**&#x200B;资源执行GET请求以检索地理单位PKey。
 1. 对地理单位执行PATCH请求，并在有效负荷中使用要更新的属性。
 
 <br/>

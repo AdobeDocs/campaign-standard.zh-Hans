@@ -7,14 +7,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/lfD2ncth570TSScQZE3UiO3ikqqxpjf4CVd7PvuAFXs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 40%
+source-wordcount: 182
+ht-degree: 46%
 
 ---
 
-# 种子成员(nms：seedMember)
+# 种子成员(nms:seedMember)
 
 ## 对象说明
 
@@ -39,7 +42,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>已创建</td>
-                  <td>已创建</td>
+                  <td>创建时间</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -99,7 +102,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>MARKETING CLOUDID</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>字符串(256)</td>
                   <td> </td>
                </tr>
@@ -111,7 +114,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>移动电话</td>
-                  <td>移动</td>
+                  <td>移动设备</td>
                   <td>字符串(32)</td>
                   <td> </td>
                </tr>
@@ -129,7 +132,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>nms_recipient</td>
-                  <td>用户档案</td>
+                  <td>轮廓</td>
                   <td>项 </td>
                   <td> </td>
                </tr>
@@ -177,7 +180,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>短信</td>
-                  <td>移动</td>
+                  <td>移动设备</td>
                   <td>字符串(255)</td>
                   <td> </td>
                </tr>
@@ -207,7 +210,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>陷印</td>
-                  <td>陷印</td>
+                  <td>陷阱</td>
                   <td>布尔值 </td>
                   <td> </td>
                </tr>

@@ -9,10 +9,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 77%
+source-wordcount: 868
+ht-degree: 74%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 77%
 
 要在事务型消息中添加已放弃产品的清单，请执行以下步骤。
 
-您还可以观看[这组视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hans#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
+您还可以观看[这组视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)，其中说明了在事务型电子邮件中配置产品清单所需的步骤。
 
 >[!NOTE]
 >
@@ -34,12 +39,12 @@ ht-degree: 77%
 
 ## 定义产品清单 {#defining-a-product-listing}
 
-在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
+在事务型消息中使用产品清单之前，您需要在事件层级定义产品清单以及要显示的清单中各个产品的字段。 有关更多信息，请参阅[定义数据集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)。
 
 1. 在事务型消息中，单击 **[!UICONTROL Content]** 块以修改电子邮件的内容。
-1. 将结构组件拖放到工作区。有关详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 将结构组件拖放到工作区。 有关详细信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。有关此内容的详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   例如，选择一列结构组件并添加文本组件、图像组件和按钮组件。 有关此内容的详细信息，请参阅[使用内容组件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 1. 选择之前创建的结构组件，然后单击上下文工具栏中的 **[!UICONTROL Enable product listing]** 图标。
 
@@ -56,9 +61,9 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >仅当使用多列结构组件（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 和 **[!UICONTROL 4:4 column]**）时，才可使用 **[!UICONTROL Column]** 选项。编辑产品清单时，仅填写第一列：不考虑其他列。有关选择结构组件的更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >仅当使用多列结构组件（ **[!UICONTROL 2:2列]**、**[!UICONTROL 3:3列]**&#x200B;和&#x200B;**[!UICONTROL 4:4列]** ）时，**[!UICONTROL Column]**&#x200B;选项才可用。 编辑产品清单时，仅填写第一列：不考虑其他列。 有关选择结构组件的更多信息，请参阅[定义电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 选择配置与事务型消息相关的事件时创建的数据集合。您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
+1. 选择配置与事务型消息相关的事件时创建的数据集合。 您可以通过 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点找到该数据集合。
 
    ![](assets/message-center_loop_selection.png)
 
@@ -66,13 +71,13 @@ ht-degree: 77%
 
 1. 使用 **[!UICONTROL First item]** 下拉列表选择电子邮件中显示清单的开头元素。
 
-   例如，如果您选择“2”，则集合的第一个项将不会显示在电子邮件中。产品清单将从第二项开始。
+   例如，如果您选择“2”，则集合的第一个项将不会显示在电子邮件中。 产品清单将从第二项开始。
 
 1. 选择要在清单中显示的最大项数。
 
    >[!NOTE]
    >
-   >如果希望垂直显示清单中的元素 (**[!UICONTROL Column]**)，则最大项数将根据选则的结构组件（2 列、3 列或 4 列）而有所限制。有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >如果希望垂直显示清单中的元素 (**[!UICONTROL Column]**)，则最大项数将根据选则的结构组件（2 列、3 列或 4 列）而有所限制。 有关选择结构组件的更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ## 填充产品清单 {#populating-the-product-listing}
 
@@ -86,30 +91,30 @@ ht-degree: 77%
 
 1. 在打开的 **[!UICONTROL Image source URL]** 窗口中选择 **[!UICONTROL Add personalization field]**。
 
-   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前定义的图像字段（此处为 **[!UICONTROL Product image]**）。单击 **[!UICONTROL Save]**。
+   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前定义的图像字段（此处为 **[!UICONTROL Product image]**）。 单击 **[!UICONTROL Save]**。
 
    ![](assets/message-center_loop_product-image.png)
 
    现在，您选择的个性化字段即已显示在设置窗格中。
 
-1. 在所需位置，从上下文工具栏中选择&#x200B;**[!UICONTROL Insert personalization field]** 
+1. 在所需位置，从上下文工具栏中选择&#x200B;**[!UICONTROL Insert personalization field]**
 
    ![](assets/message-center_loop_product.png)
 
-1. 前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的字段（此处为 **[!UICONTROL Product name]**）。单击 **[!UICONTROL Confirm]**。
+1. 前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的字段（此处为 **[!UICONTROL Product name]**）。 单击 **[!UICONTROL Confirm]**。
 
    ![](assets/message-center_loop_product_node.png)
 
    现在，您选择的个性化字段即已显示在电子邮件内容中所需的位置。
 
 1. 接下来以类似方式插入价格。
-1. 选择一些文本，然后从上下文工具栏中选择&#x200B;**[!UICONTROL Insert link]** 
+1. 选择一些文本，然后从上下文工具栏中选择&#x200B;**[!UICONTROL Insert link]**
 
    ![](assets/message-center_loop_link_insert.png)
 
 1. 在打开的 **[!UICONTROL Insert link]** 窗口中选择 **[!UICONTROL Add personalization field]**。
 
-   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的 URL 字段（此处为 **[!UICONTROL Product URL]**）。单击 **[!UICONTROL Save]**。
+   前往 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 节点，打开与您创建的集合对应的节点（此处为 **[!UICONTROL Product list]**），然后选择之前创建的 URL 字段（此处为 **[!UICONTROL Product URL]**）。 单击 **[!UICONTROL Save]**。
 
    >[!IMPORTANT]
    >
@@ -129,9 +134,9 @@ ht-degree: 77%
 
    如果触发事件时集合为空（例如，如果客户购物车中没有任何内容），将显示回退内容。
 
-1. 在“设置”窗格中，编辑产品清单的样式。有关此内容的更多信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
-1. 使用链接了相关事务型事件并为其定义了集合数据的测试用户档案，预览电子邮件。例如，在要使用的测试用户档案的 **[!UICONTROL Event data]** 部分中添加以下信息：
+1. 在“设置”窗格中，编辑产品清单的样式。 有关此内容的更多信息，请参阅[管理电子邮件样式](../../designing/using/styles.md)。
+1. 使用链接了相关事务型事件并为其定义了集合数据的测试轮廓，预览电子邮件。 例如，在要使用的测试轮廓的 **[!UICONTROL Event data]** 部分中添加以下信息：
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   有关定义事务型消息中的测试用户档案的更多信息，请参阅[本章节](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   有关定义事务型消息中的测试轮廓的更多信息，请参阅[本章节](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。

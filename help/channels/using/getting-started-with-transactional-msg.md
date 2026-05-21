@@ -9,9 +9,16 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 996
 ht-degree: 8%
 
 ---
@@ -20,11 +27,11 @@ ht-degree: 8%
 
 事务型消息是由提供程序（如网站）实时发送的单个且唯一的通信。 由于它包含收件人要检查或确认的重要信息，因此尤其需要使用。
 
-* **何时到期？**&#x200B;由于此邮件包含重要信息，用户希望实时发送该邮件。 因此，触发的事件与收到消息之间的延迟必须非常短。
+* **何时到期？** 由于此消息包含重要信息，因此用户希望实时发送该消息。 因此，触发的事件与收到消息之间的延迟必须非常短。
 
-* **为什么它很重要？**&#x200B;通常，事务型消息的打开率较高。 因此，应仔细设计，因为它在定义客户关系时可能会对客户行为产生强烈的影响。
+* **为什么它很重要？** 通常，事务型消息的打开率较高。 因此，应仔细设计，因为它在定义客户关系时可能会对客户行为产生强烈的影响。
 
-* **例如？**&#x200B;可能是创建帐户后的欢迎消息、确认订单已发运的消息、发票、确认密码更改的消息或客户浏览您的网站后的通知等。
+* **例如？** 它可能是创建帐户后的欢迎消息、确认订单已发运的消息、发票、确认密码更改的消息或客户浏览您的网站后的通知等。
 
 Adobe Campaign允许您将此功能与信息系统集成，该信息系统发送要转换为自定义事务型消息的事件。
 
@@ -71,7 +78,7 @@ Adobe Campaign提供两种类型的事务型消息。
 
 例如，您可以在客户在您的网站上放弃购物车后联系客户时使用此类型的消息，以鼓励他们继续购买。 这样，您就可以更轻松地通过直接访问用户档案数据库中的所有信息来个性化消息、应用营销规则并将此消息包含到全局客户历程和报告中，以便更好地查看客户行为。
 
-在配置要转换为事件的事务型消息时，就决定了消息的类型。请参阅[基于事件的事务型消息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)和[基于用户档案的事务型消息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)配置部分。
+在配置要转换为事件的事务型消息时，就决定了消息的类型。 请参阅[基于事件的事务型消息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)和[基于用户档案的事务型消息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)配置部分。
 
 ## 关键步骤 {#key-steps}
 
@@ -109,7 +116,7 @@ Adobe Campaign提供两种类型的事务型消息。
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-创建事件后，您需要将此事件的触发集成到您的网站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->为此，您的网站Web开发人员必须使用&#x200B;**Adobe Campaign Standard REST API**。
+创建事件后，您需要将此事件的触发集成到您的网站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 为此，您的网站Web开发人员必须使用&#x200B;**Adobe Campaign Standard REST API**。
 
 | 实施触发器 | 用户 | 操作 | 结果 |
 | --- |--- |--- |--- |

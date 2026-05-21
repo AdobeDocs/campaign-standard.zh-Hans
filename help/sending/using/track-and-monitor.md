@@ -9,10 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/500SaHxJS30x-b1g3zGpx9TB7xVmfr1tzJnFv814Q-E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: 435
+ht-degree: 2%
 
 ---
 
@@ -36,7 +42,7 @@ ht-degree: 3%
 
 ## 跟踪 {#tracking-deliveries}
 
-为了更好地了解定向用户档案的行为，您可以跟踪他们对投放的反应：接收、打开、单击链接、取消订阅等。 请参阅投放的&#x200B;**跟踪日志**&#x200B;选项卡。
+为了更好地了解定向用户档案的行为，您可以跟踪他们对投放的反应：接收、打开、单击链接、取消订阅等。请参阅投放的&#x200B;**跟踪日志**&#x200B;选项卡。
 
 **提示**：默认情况下启用邮件跟踪。 要配置URL，请选择投放向导下方的显示URL选项。 对于消息的每个URL，您可以选择是否激活跟踪。
 

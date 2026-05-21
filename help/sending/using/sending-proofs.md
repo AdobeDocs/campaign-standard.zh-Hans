@@ -9,9 +9,13 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 585
 ht-degree: 98%
 
 ---
@@ -20,19 +24,19 @@ ht-degree: 98%
 
 ## 关于校样 {#about-proofs}
 
-利用校样这种特定的消息，可在将消息发送到主目标之前对消息进行测试。校样的收件人负责审阅消息（的内容和形式）。
+利用校样这种特定的消息，可在将消息发送到主目标之前对消息进行测试。 校样的收件人负责审阅消息（的内容和形式）。
 
 有两种校样收件人:
 
-* 利用&#x200B;**测试用户档案**&#x200B;可定向不符合所规定定向标准的其他收件人。
+* 利用&#x200B;**测试轮廓**&#x200B;可定向不符合所规定定向标准的其他收件人。
 
-  可以将校样收件人添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。有关更多信息，请参阅[管理测试用户档案](../../audiences/using/managing-test-profiles.md)。
+  可以将校样收件人添加到消息的受众，以检测收件人数据库是否用于任何欺诈行为，或确保电子邮件送达收件箱中。 有关更多信息，请参阅[管理测试轮廓](../../audiences/using/managing-test-profiles.md)。
 
   >[!NOTE]
   >
-  >要发送校样，消息的受众中必须包含测试用户档案。
+  >要发送校样，消息的受众中必须包含测试轮廓。
 
-* 利用&#x200B;**替换用户档案**，可将您自己置于某一个定向用户档案的位置，并获得该用户档案将会收到的精确消息。有关更多信息，请参阅[使用定向用户档案测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
+* 利用&#x200B;**替换轮廓**，可将您自己置于某一个定向轮廓的位置，并获得该轮廓将会收到的精确消息。 有关更多信息，请参阅[使用定向轮廓测试电子邮件消息](../../sending/using/testing-messages-using-target.md)。
 
   >[!NOTE]
   >
@@ -43,8 +47,8 @@ ht-degree: 98%
 要发送校样，请执行以下步骤：
 
 1. 确保已配置校样收件人:
-   * 消息的受众中必须包含&#x200B;**测试用户档案**。
-   * 一旦成功地准备了消息，必须添加&#x200B;**替换用户档案**（请参阅[此章节](../../sending/using/testing-messages-using-target.md)）。
+   * 消息的受众中必须包含&#x200B;**测试轮廓**。
+   * 一旦成功地准备了消息，必须添加&#x200B;**替换轮廓**（请参阅[此章节](../../sending/using/testing-messages-using-target.md)）。
 
 1. 单击 **[!UICONTROL Send a test]** 按钮。
 
@@ -52,15 +56,15 @@ ht-degree: 98%
 
 1. 选择要使用的校样类型：
 
-   * **[!UICONTROL Email rendering]**：选择此选项可根据定向的收件箱测试接收消息的方式。有关更多信息，请参见[电子邮件渲染](../../sending/using/email-rendering.md)。
-   * **[!UICONTROL Proof]**：选择此选项，可在将消息发送到主目标之前对消息进行测试。校样收件人负责审阅投放，检查投放的内容和格式。
+   * **[!UICONTROL Email rendering]**：选择此选项可根据定向的收件箱测试接收消息的方式。 有关更多信息，请参见[电子邮件渲染](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Proof]**：选择此选项，可在将消息发送到主目标之前对消息进行测试。 校样收件人负责审阅投放，检查投放的内容和格式。
    * **[!UICONTROL Proof + Email rendering]**：此选项是前两个选项的组合。
 
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >电子邮件渲染仅适用于测试用户档案。如果尚未向消息添加测试用户档案，则只提供 **[!UICONTROL Proof]** 选项供您选择。
+   >电子邮件渲染仅适用于测试轮廓。 如果尚未向消息添加测试轮廓，则只提供 **[!UICONTROL Proof]** 选项供您选择。
 
 1. 确认您的选择。
 
@@ -72,13 +76,13 @@ ht-degree: 98%
 
    ![](assets/bat_view.png)
 
-1. 选择校样以访问其摘要。对于电子邮件，如果您已选择了 **Email rendering** 选项作为校样类型，则验证标签的右侧将显示 **[!UICONTROL Access email rendering]** 图标。请参阅[电子邮件渲染](../../sending/using/email-rendering.md)。
+1. 选择校样以访问其摘要。 对于电子邮件，如果您已选择了 **Email rendering** 选项作为校样类型，则验证标签的右侧将显示 **[!UICONTROL Access email rendering]** 图标。 请参阅[电子邮件渲染](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-根据校样收件人的评论，可能会要求您修改投放的内容。进行修改后，您必须重新开始准备电子邮件，然后重新发送校样。可使用 **[!UICONTROL Show proofs]** 按钮访问每个新校样。
+根据校样收件人的评论，可能会要求您修改投放的内容。 进行修改后，您必须重新开始准备电子邮件，然后重新发送校样。 可使用 **[!UICONTROL Show proofs]** 按钮访问每个新校样。
 
-您必须发送所需数量的校样，直到完成投放的内容为止。完成此操作后，您可以将投放发送到主目标并结束审阅循环。
+您必须发送所需数量的校样，直到完成投放的内容为止。 完成此操作后，您可以将投放发送到主目标并结束审阅循环。
 
 ## 配置校样的主题行 {#configuring-proofs-subject-line}
 
@@ -99,12 +103,12 @@ ht-degree: 98%
 
 ![](assets/proof-prefix-configuration.png)
 
-1. 单击 **[!UICONTROL Confirm]**。这些设置将默认应用于为选定消息发送的所有校样。
+1. 单击 **[!UICONTROL Confirm]**。 这些设置将默认应用于为选定消息发送的所有校样。
 
 **相关主题：**
 
 * [发送测试、准备和发送电子邮件](../../sending/using/get-started-sending-messages.md#video)视频
-* [使用目标用户档案测试电子邮件](../../sending/using/testing-messages-using-target.md)
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
+* [使用目标轮廓测试电子邮件](../../sending/using/testing-messages-using-target.md)
+* [管理测试轮廓](../../audiences/using/managing-test-profiles.md)
 * [预览消息](../../sending/using/previewing-messages.md)
 * [配置电子邮件渠道](../../administration/using/configuring-email-channel.md)

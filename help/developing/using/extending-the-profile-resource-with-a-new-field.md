@@ -1,6 +1,6 @@
 ---
-title: 使用新字段扩展用户档案资源
-description: 了解如何扩展用户档案资源。
+title: 使用新字段扩展轮廓资源
+description: 了解如何扩展轮廓资源。
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
@@ -8,29 +8,33 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1039
 ht-degree: 92%
 
 ---
 
-# 使用新字段扩展用户档案资源{#extending-the-profile-resource-with-a-new-field}
+# 使用新字段扩展轮廓资源{#extending-the-profile-resource-with-a-new-field}
 
 ## 关于扩展用户档案 {#about-extending-profiles}
 
-本使用案例详细说明了如何使用专用字段扩展用户档案和测试用户档案。
+本使用案例详细说明了如何使用专用字段扩展轮廓和测试轮廓。
 
-在本例中，我们希望通过登陆页面使用新字段更新用户档案，然后通过用户档案感兴趣的新闻通讯定向用户档案。
+在本例中，我们希望通过登陆页面使用新字段更新轮廓，然后通过轮廓感兴趣的新闻通讯定向轮廓。
 
 要实现此目的，请执行以下步骤：
 
 * [第1步：扩展用户档案资源](#step-1--extend-the-profile-resource)
 * [第2步：扩展测试用户档案](#step-2--extend-the-test-profile)
-* [步骤3：Publish您的自定义资源](#step-3--publish-your-custom-resource)
+* [步骤3：发布自定义资源](#step-3--publish-your-custom-resource)
 * [步骤4：使用工作流更新和定向用户档案](#step-4--update-and-target-profiles-with-a-workflow)
 
-随后，以下字段将添加到我们的用户档案，并可在投放中定向：
+随后，以下字段将添加到我们的轮廓，并可在投放中定向：
 
 ![](assets/schema_extension_uc20.png)
 
@@ -38,11 +42,11 @@ ht-degree: 92%
 
 * [关于自定义资源](../../developing/using/data-model-concepts.md)
 * [管理用户档案](../../audiences/using/about-profiles.md)
-* [管理测试用户档案](../../audiences/using/managing-test-profiles.md)
+* [管理测试轮廓](../../audiences/using/managing-test-profiles.md)
 
 ## 第1步：扩展用户档案资源 {#step-1--extend-the-profile-resource}
 
-要为我们的用户档案创建新的 **Interest** 字段，您首先需要扩展现成的 **[!UICONTROL Profiles (profile)]** 资源。
+要为我们的轮廓创建新的 **Interest** 字段，您首先需要扩展现成的 **[!UICONTROL Profiles (profile)]** 资源。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
 1. 如果尚未扩展 **[!UICONTROL Profiles]** 资源，请单击 **[!UICONTROL Create]**。
@@ -60,7 +64,7 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc6.png)
 
-1. 添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。选择 **[!UICONTROL Text]** 类型并单击 **[!UICONTROL Add]**。
+1. 添加 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。 选择 **[!UICONTROL Text]** 类型并单击 **[!UICONTROL Add]**。
 
    ![](assets/schema_extension_uc9.png)
 
@@ -80,23 +84,23 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc12.png)
 
-1. 选择 **[!UICONTROL Type]**。在这里，我们想要添加一个输入字段。然后，选择您之前创建的字段并单击 **[!UICONTROL Add]**。
+1. 选择 **[!UICONTROL Type]**。 在这里，我们想要添加一个输入字段。 然后，选择您之前创建的字段并单击 **[!UICONTROL Add]**。
 
    ![](assets/schema_extension_uc2.png)
 
-1. 要添加分隔符以更好地管理用户档案窗口，请单击 **[!UICONTROL Create an element]**，并从 **[!UICONTROL Type]** 下拉菜单中选择 **[!UICONTROL Separator]**。
+1. 要添加分隔符以更好地管理轮廓窗口，请单击 **[!UICONTROL Create an element]**，并从 **[!UICONTROL Type]** 下拉菜单中选择 **[!UICONTROL Separator]**。
 
    ![](assets/schema_extension_uc19.png)
 
-字段现已配置完成。现在，我们需要将其扩展到测试用户档案。
+字段现已配置完成。 现在，我们需要将其扩展到测试轮廓。
 
 >[!NOTE]
 >
->如果不需要扩展测试用户档案资源，可跳转到发布步骤。
+>如果不需要扩展测试轮廓资源，可跳转到发布步骤。
 
 ## 第2步：扩展测试用户档案 {#step-2--extend-the-test-profile}
 
-要测试新创建的字段是否正确配置，可通过向测试用户档案发送投放以进行测试。首先，也需要对测试用户档案应用新字段。
+要测试新创建的字段是否正确配置，可通过向测试轮廓发送投放以进行测试。 首先，也需要对测试轮廓应用新字段。
 
 1. 从高级菜单中，通过 Adobe Campaign 徽标，选择 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然后选择 **[!UICONTROL Custom resources]**。
 1. 如果尚未扩展 **[!UICONTROL Profiles]** 资源，请单击 **[!UICONTROL Create]**。
@@ -114,12 +118,12 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc16.png)
 
-1. 执行与上文中扩展用户档案过程中第 11 步至第 13 步的相同步骤，将此字段添加到 **[!UICONTROL Test profile]** 屏幕中。
+1. 执行与上文中扩展轮廓过程中第 11 步至第 13 步的相同步骤，将此字段添加到 **[!UICONTROL Test profile]** 屏幕中。
 1. 单击 **[!UICONTROL Save]**。
 
-用户档案和测试用户档案现在都已拥有可用的新字段。要使其正确配置，您需要发布自定义资源。
+轮廓和测试轮廓现在都已拥有可用的新字段。 要使其正确配置，您需要发布自定义资源。
 
-## 步骤3：Publish您的自定义资源 {#step-3--publish-your-custom-resource}
+## 步骤3：发布自定义资源 {#step-3--publish-your-custom-resource}
 
 要应用对资源所作的更改并使用更改后的资源，必须执行数据库更新。
 
@@ -145,37 +149,37 @@ ht-degree: 92%
 
 ## 步骤4：使用工作流更新和定向用户档案 {#step-4--update-and-target-profiles-with-a-workflow}
 
-要使用新自定义字段更新用户档案的数据，您可以使用 **[!UICONTROL Profile acquisition]** 模板创建登陆页面。有关登陆页面的更多信息，请参阅[此页面](../../channels/using/getting-started-with-landing-pages.md)。
+要使用新自定义字段更新轮廓的数据，您可以使用 **[!UICONTROL Profile acquisition]** 模板创建登陆页面。 有关登陆页面的更多信息，请参阅[此页面](../../channels/using/getting-started-with-landing-pages.md)。
 
-在这里，我们要在工作流中定向未填写此字段的用户档案。他们将收到一封电子邮件，要求他们更新用户档案，以接收个性化的新闻通讯和优惠信息。然后，每个用户档案都会收到基于其所选兴趣的个性化新闻通讯。
+在这里，我们要在工作流中定向未填写此字段的轮廓。 他们将收到一封电子邮件，要求他们更新轮廓，以接收个性化的新闻通讯和产品建议信息。 然后，每个轮廓都会收到基于其所选兴趣的个性化新闻通讯。
 
-首先，我们需要创建一个登陆页面，以更新定向用户档案的 **Interest** 字段：
+首先，我们需要创建一个登陆页面，以更新定向轮廓的 **Interest** 字段：
 
 1. 在 **[!UICONTROL Marketing activities]** 中，单击 **[!UICONTROL Create]**，然后选择 **[!UICONTROL Landing page]**。
-1. 选择登陆页面的类型。在这里，由于我们想要更新用户档案，请选择 **[!UICONTROL Profile acquisition]**。
+1. 选择登陆页面的类型。 在这里，由于我们想要更新轮廓，请选择 **[!UICONTROL Profile acquisition]**。
 1. 单击 **[!UICONTROL Create]**。
 1. 单击 **[!UICONTROL Content]** 块以开始编辑登陆页面的内容。
 
    ![](assets/schema_extension_uc21.png)
 
 1. 根据需要自定义登陆页面。
-1. 单击为用户档案配置的字段，以选择 Interest 选项。在左窗格中，选择您之前创建的 **Interest** 自定义资源。
+1. 单击为轮廓配置的字段，以选择 Interest 选项。 在左窗格中，选择您之前创建的 **Interest** 自定义资源。
 
    ![](assets/schema_extension_uc22.png)
 
 1. 保存登陆页面并进行测试，以检查字段是否正确配置。
 1. 在登陆页面准备就绪后，单击 **[!UICONTROL Publish]**。
 
-您的登陆页面现已准备就绪。要更新用户档案，您可以创建工作流，该工作流将根据所选的 Interest 发送优惠信息。
+您的登陆页面现已准备就绪。 要更新轮廓，您可以创建工作流，该工作流将根据所选的 Interest 发送产品建议信息。
 
 1. 在 **[!UICONTROL Marketing activities]** 选项卡中，单击 **[!UICONTROL Create]**，然后选择 **[!UICONTROL Workflow]**。
-1. 拖放 **[!UICONTROL Query]** 活动以定向您需要的用户档案或受众。
-1. 拖放 **[!UICONTROL Email delivery]** 活动以开始配置包含登陆页面链接的电子邮件。选择 **[!UICONTROL Add an outbound transition with the population]**。
+1. 拖放 **[!UICONTROL Query]** 活动以定向您需要的轮廓或受众。
+1. 拖放 **[!UICONTROL Email delivery]** 活动以开始配置包含登陆页面链接的电子邮件。 选择 **[!UICONTROL Add an outbound transition with the population]**。
 
    ![](assets/schema_extension_uc3.png)
 
-1. 根据需要创建和设计电子邮件。有关电子邮件个性化的更多信息，请参阅[此页面](../../designing/using/quick-start.md)。
-1. 在电子邮件中添加一个按钮，将用户档案重定向到您的登陆页面。
+1. 根据需要创建和设计电子邮件。 有关电子邮件个性化的更多信息，请参阅[此页面](../../designing/using/quick-start.md)。
+1. 在电子邮件中添加一个按钮，将轮廓重定向到您的登陆页面。
 1. 选择要添加的按钮，然后单击左窗格 **[!UICONTROL Link]** 部分中的 ![](assets/schema_extension_uc7.png)。
 
    ![](assets/schema_extension_uc23.png)
@@ -184,8 +188,8 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc24.png)
 
-1. 单击 **[!UICONTROL Save]**。您的电子邮件已准备就绪，现在可返回至工作流。
-1. 添加 **[!UICONTROL Wait]** 活动，留出一段时间让用户档案填充登陆页面。
+1. 单击 **[!UICONTROL Save]**。 您的电子邮件已准备就绪，现在可返回至工作流。
+1. 添加 **[!UICONTROL Wait]** 活动，留出一段时间让轮廓填充登陆页面。
 1. 添加 **[!UICONTROL Segmentation]** 活动以根据 **Interest** 划分叫客过渡。
 1. 为每个 **Interest** 创建一个叫客分段。
 
@@ -196,4 +200,4 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc25.png)
 
-用户档案现在将收到一封电子邮件要求填写此 Interest 字段，随后将收到基于所选值的个性化电子邮件。
+轮廓现在将收到一封电子邮件要求填写此 Interest 字段，随后将收到基于所选值的个性化电子邮件。

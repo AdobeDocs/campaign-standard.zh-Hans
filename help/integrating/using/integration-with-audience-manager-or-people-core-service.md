@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 4%
+source-wordcount: 796
+ht-degree: 7%
 
 ---
 
@@ -24,7 +31,7 @@ ht-degree: 4%
 
 通过Audience Manager (AAM)或People核心服务集成，您可以在Adobe Campaign中导入和导出受众或区段。
 
-必须首先配置此集成。要请求配置此集成，请联系Adobe支持并提供以下信息：
+必须首先配置此集成。 要请求配置此集成，请联系Adobe支持并提供以下信息：
 
 <table> 
  <tbody> 
@@ -38,7 +45,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <strong>IMS组织ID</strong><br /> </td> 
-   <td> 您的组织ID。 <br>要查找您的组织ID，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hans">此页面</a></td> 
+   <td> 您的组织ID。<br> 要查找您的组织ID，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans">此页面</a></td> 
   </tr> 
   <tr> 
    <td> <strong>环境：</strong><br /> </td> 
@@ -100,7 +107,7 @@ ht-degree: 4%
 
    ![](assets/integration_aam_2.png)
 
-1. 在&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Data Source/ Alias]**。
+1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Adobe Campaign]**。
 1. 输入Adobe提供的&#x200B;**[!UICONTROL AAM Destination ID]**。
 
    ![](assets/integration_aam_3.png)
@@ -119,7 +126,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->如果您为&#x200B;**[!UICONTROL AAM Destination ID]** Campaign-Triggers集成[配置共享数据源，则不需要使用](../../integrating/using/configuring-triggers-in-experience-cloud.md)字段。 仅在配置Triggers - Campaign集成时需要&#x200B;**[!UICONTROL Priority]**。 优先级决定首先配置哪些数据Source。 优先级可以是任意数字，如1或100。 优先级越高，协调期间的优先级越高。
+>如果您为[Campaign-Triggers集成](../../integrating/using/configuring-triggers-in-experience-cloud.md)配置共享数据源，则不需要使用&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;字段。 仅在配置Triggers - Campaign集成时需要&#x200B;**[!UICONTROL Priority]**。 优先级决定首先配置哪些数据Source。 优先级可以是任意数字，如1或100。 优先级越高，协调期间的优先级越高。
 
 ### 步骤3：配置Campaign跟踪服务器 {#step-3--configure-campaign-tracking-server}
 
@@ -133,8 +140,8 @@ ht-degree: 4%
 
 ### 步骤4：配置访客ID服务 {#step-4--configure-the-visitor-id-service}
 
-如果从未在您的Web属性或网站上配置过您的访客ID服务，请参阅以下[文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=zh-Hans)以了解如何配置您的服务或以下[视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)。
+如果从未在您的Web属性或网站上配置过您的访客ID服务，请参阅以下[文档](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)以了解如何配置您的服务或以下[视频](https://helpx.adobe.com/cn/marketing-cloud/how-to/email-marketing.html#step-two)。
 
-使用集成代码`setCustomerID`在Experience Cloud ID服务中使用`AdobeCampaignID`函数将客户标识符与声明的ID同步。 `AdobeCampaignID`应与[步骤2：配置数据源](#step-2--configure-the-data-sources)中配置的收件人数据Source中设置的协调键值匹配。
+使用集成代码`AdobeCampaignID`在Experience Cloud ID服务中使用`setCustomerID`函数将客户标识符与声明的ID同步。 `AdobeCampaignID`应与[步骤2：配置数据源](#step-2--configure-the-data-sources)中配置的收件人数据Source中设置的协调键值匹配。
 
 您的配置和配置已完成，集成现在可用于导入和导出受众或区段。

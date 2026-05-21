@@ -8,16 +8,21 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cfyUEkc2uP7VKNu2Kzd-9EERkuzfwiFFbJ9-QHgWWX4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 8%
+source-wordcount: 444
+ht-degree: 6%
 
 ---
 
 # 转换旧版编辑器的电子邮件内容 {#converting-an-html-content}
 
-开始使用Email Designer，并从在旧版编辑器中创建的电子邮件HTML构建可重用模板和片段。
+开始使用Email Designer，并从在旧版编辑器中创建的电子邮件HTML中构建可重用模板和片段。
 
 通过此用例，您可以使用HTML电子邮件并将其分为Email Designer中的HTML组件，来创建电子邮件Designer模板。
 
@@ -32,13 +37,13 @@ ht-degree: 8%
 ## 准备电子邮件内容
 
 1. 选择HTML电子邮件。
-1. 确定用于划分HTML电子邮件的部分。
-1. 从HTML中剪下几个街区。
+1. 确定要划分HTML电子邮件的部分。
+1. 从HTML中划出几个街区。
 
 ## 创建电子邮件结构
 
 1. 打开&#x200B;**[!UICONTROL Email Designer]**&#x200B;以创建空的电子邮件内容。
-1. 设置正文级别属性：背景颜色、宽度等。 有关更多信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
+1. 设置正文级别属性：背景颜色、宽度等。有关详细信息，请参阅[编辑电子邮件样式](../../designing/using/styles.md)。
 1. 添加具有部分的结构组件，数量不限。 有关更多信息，请参阅[编辑电子邮件结构](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ## 添加HTML内容
@@ -85,7 +90,7 @@ ht-degree: 8%
 
 ![](assets/html-dce-view-mail.png)
 
-要确定HTML的哪个部分，可以选择该元素。
+要识别哪个元素是HTML的哪个部分，您可以选择它。
 
 ![](assets/breadcrumbs.png)
 

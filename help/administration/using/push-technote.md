@@ -6,16 +6,21 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: 1210
+ht-degree: 4%
 
 ---
 
 # 推送通知渠道更改 {#push-upgrade}
 
-您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 Android Firebase Cloud Messaging (FCM)服务的一些重要更改将于2024年发布，可能会影响您的Adobe Campaign实施。 您可能需要更新Android推送消息的订阅服务配置才能支持此更改。
+您可以使用Campaign在Android和iOS设备上发送推送通知。 要执行此操作，Campaign需要依赖特定的订阅服务。 Android Firebase Cloud Messaging (FCM)服务的一些重要更改将于2024年发布，可能会影响您的Adobe Campaign实施。 您可能需要更新 Android 推送消息的订阅服务配置，才能支持此更改。
 
 此外，Adobe强烈建议迁移到基于令牌的APN连接，而不是迁移到基于证书的连接，后者更安全、更可扩展。
 
@@ -57,7 +62,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 如果您仍在使用此旧版SDK，则必须使用Adobe Experience Platform SDK更新实施。 请参阅[本文](sdkv4-migration.md)以了解如何迁移到Adobe Experience Platform SDK。
 
-* 执行以下步骤之前，请确保您在Adobe Experience Platform数据收集移动设备中具有&#x200B;**移动设备应用程序配置**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=zh-Hans#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 执行以下步骤之前，请确保您在Adobe Experience Platform数据收集移动设备中具有&#x200B;**移动设备应用程序配置**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 过渡过程 {#fcm-transition-steps}
@@ -122,7 +127,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### 先决条件 {#ios-transition-prerequisites}
 
-* **24.1版本**&#x200B;中添加了对[基于令牌的身份验证](../../rn/using/release-notes.md)模式的支持。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
+* [24.1版本](../../rn/using/release-notes.md)中添加了对&#x200B;**基于令牌的身份验证**&#x200B;模式的支持。 如果您的环境运行在旧版本上，则此更改的先决条件是将您的环境升级到[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
 * 您需要APN身份验证令牌签名密钥来生成您的服务器使用的令牌。 您从Apple开发人员帐户请求此密钥，如[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}中所述。
 

@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 7%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 3%
 
 内容块和内容片段是可重复使用的内容片段，在多个电子邮件中很常见。 它们用于确保电子邮件之间的一致性，并优化/标准化电子邮件创建。 内容块和内容片段之间的区别在于可能的自定义级别。
 
-* 内容块是手动插入HTML代码的纯HTML（对用户不友好的UI，它是直接源代码）。 尽管它实际上面向具有HTML知识的人员，但它允许内容片段中不提供的个性化级别。
+* 内容块是纯HTML，手动插入HTML代码（对用户不友好的UI，它是直接源代码）。 尽管它实际上面向具有HTML知识的人员，但它允许内容片段中不提供的个性化级别。
 
 * 内容片段是通过Email Designer创建的可视内容片段，使用其用户友好的UI。 但是，无法个性化内容。 如果需要个性化，则只能通过内容块完成个性化。
 
@@ -29,7 +34,7 @@ ht-degree: 3%
 
 您可以使用HTML痕迹导航添加内边距。
 
-1. 在屏幕左下方，单击HTML痕迹导航。
+1. 在屏幕的左下方，单击HTML痕迹导航。
 
    ![](assets/do-not-localize/breadcrumb.png)
 
@@ -37,9 +42,9 @@ ht-degree: 3%
 1. 单击HTML痕迹导航中的父标记。
 现在，您可以向此元素添加内边距。
 
-## 我是否可以在电子邮件Designer中导入HTML内容？
+## 能否在电子邮件Designer中导入HTML内容？
 
-您可以将自己的HTML内容上传到Email Designer。 如果它不是通过Email Designer创建的，则它将以兼容性模式加载，该模式旨在保留原始HTML，但通过UI限制某些版本功能。
+您可以将自己的HTML内容上传到Email Designer。 如果它不是通过Email Designer创建的，则它将以兼容性模式加载，该模式旨在保留您的原始HTML，但限制通过UI的某些版本功能。
 
 有关详细信息，请参阅[兼容模式](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -52,13 +57,13 @@ ht-degree: 3%
 
 ## 为什么需要更新片段？
 
-Email Designer 正在不断改进。如果您从头开始创建、从现成模板创建电子邮件内容，或者如果您创建了片段，则可能需要将内容更新到最新版本以避免CSS冲突问题之类的问题。
+Email Designer 正在不断改进。 如果您从头开始创建、从现成模板创建电子邮件内容，或者如果您创建了片段，则可能需要将内容更新到最新版本以避免CSS冲突问题之类的问题。
 
 有关详细信息，请参阅[更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## 能否保存主题中的样式？
 
-无法将样式另存为主题以供将来重用。但是，CSS样式可以保存在内容模板或电子邮件中。
+无法将样式另存为主题以供将来重用。 但是，CSS 样式可保存在内容模板或电子邮件中。
 
 有关详细信息，请参阅[样式](../../designing/using/styles.md)
 

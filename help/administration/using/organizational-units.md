@@ -6,9 +6,14 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 844
 ht-degree: 4%
 
 ---
@@ -21,9 +26,9 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->如果用户未链接到任何设备，则该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问权限，请勿将其链接到&#x200B;**[!UICONTROL All]**&#x200B;设备。 建议在导入任何配置文件之前添加选项&#x200B;**访问授权管理字段**。 有关更多信息，请参阅此[&#128279;](../../administration/using/organizational-units.md#partitioning-profiles)章节。
+>如果用户未链接到任何设备，则该用户将无法连接到Adobe Campaign。 如果要限制特定用户或用户组的访问权限，请勿将其链接到&#x200B;**[!UICONTROL All]**&#x200B;设备。 建议在导入任何配置文件之前添加选项&#x200B;**访问授权管理字段**。 有关更多信息，请参阅此](../../administration/using/organizational-units.md#partitioning-profiles)章节[。
 >
->默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。该项为只读项，无法修改。
+>默认情况下，**[!UICONTROL All (all)]** 组织单位被分配给 **[!UICONTROL Administrators]** 安全组。 该项为只读项，无法修改。
 
 用户对父单位中的所有对象具有只读访问权限。 此类用户对其单位和子单位的所有对象具有读写访问权限。 用户无权访问并行分支中的对象。
 
@@ -41,9 +46,9 @@ ht-degree: 4%
 
 组织单位允许您根据用户链接到的组织筛选实例。 此单位可以代表您实例中的地区、国家/地区甚至品牌。
 
-在本例中，我们以前创建了一些安全组，这些安全组具有分配给两个用户的不同角色：一个用户被分配了安全组“管理员”和“Geometrixx”，另一个用户属于安全组“标准用户”和“Geometrixx服饰”。有关完整示例，请参阅[创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
+在本例中，我们之前创建了安全组，并为两个用户分配了不同的角色：一个用户分配了安全组Administrators和Geometrixx，另一个用户属于安全组Standard user和Geometrixx Clothes。有关完整示例，请参阅[创建安全组并分配用户](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 
-我们现在需要为Geometrixx服装和Geometrixx安全小组创建组织单位：
+现在，我们需要为Geometrixx Clothes和Geometrixx安全组创建组织单位：
 
 1. 从Adobe促销活动高级菜单中，选择&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
 1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;开始配置组织单位。
@@ -56,11 +61,11 @@ ht-degree: 4%
    ![](assets/manage_units_2.png)
 
 1. 最后，单击&#x200B;**[!UICONTROL Create]**&#x200B;开始将新的组织单位分配给安全组。
-1. 对Geometrixx服装单元执行相同的过程，但父单元必须是先前创建的单元Geometrixx。
+1. 对Geometrixx Clothes单元执行相同的过程，只是其父单元必须是之前创建的单元Geometrixx。
 
    ![](assets/manage_units_3.png)
 
-要查看将不同设备分配给不同安全组的影响，分配给“管理员”和“Geometrixx”组的用户将创建两个电子邮件模板，以查看分配给“标准用户”和“Geometrixx服装”的其他用户可以访问或不能访问的内容。
+要查看将不同单位分配给不同安全组的影响，分配给“管理员”组和Geometrixx组的用户将创建两个电子邮件模板，以查看分配给“标准用户”组和Geometrixx Clothes组的其他用户能够访问或不能访问的内容。
 
 1. 从高级菜单中选择&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
 1. 复制现有模板并根据需要对其进行个性化。 有关详细信息，请参阅[关于模板](../../start/using/marketing-activity-templates.md)部分。
@@ -74,17 +79,17 @@ ht-degree: 4%
 
    ![](assets/manage_units_5.png)
 
-1. 按照相同的步骤创建分配给之前创建的Geometrixx服装组织单位的第二个模板。
+1. 按照相同的步骤创建分配给之前创建的Geometrixx Clothes组织单位的第二个模板。
 
-分配给&#x200B;**标准用户**&#x200B;和&#x200B;**Geometrixx服饰**&#x200B;组的用户将能够看到这两个模板。 由于组织单位的层级结构，他们对链接到Geometrixx服装单位的模板具有读写访问权限，对链接到Geometrixx单位的模板具有只读访问权限。
+分配给&#x200B;**标准用户**&#x200B;和&#x200B;**Geometrixx Clothes**&#x200B;组的用户将能够看到这两个模板。 由于组织单位的分层结构，他们将对链接到Geometrixx Clothes单位的模板具有读写访问权限，对链接到Geometrixx单位的模板具有只读访问权限。
 
 ![](assets/manage_units_7.png)
 
-由于“Geometrixx服装”单位是子Geometrixx单位，因此当用户尝试修改Geometrixx模板时，将显示以下消息：
+由于Geometrixx Clothes单位是Geometrixx的子单位，因此当用户尝试修改Geometrixx模板时，会显示以下消息：
 
 ![](assets/manage_units_8.png)
 
-组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的GeometrixxClothes用户访问&#x200B;**[!UICONTROL Profiles]**&#x200B;选项卡，他们将能够通过GeometrixxClothes组织单位完全访问和修改配置文件。
+组织单位可以限制对不同功能（如用户档案）的访问。 例如，如果我们的Geometrixx Clothes用户访问&#x200B;**[!UICONTROL Profiles]**&#x200B;选项卡，他们将能够通过Geometrixx Clothes组织单位完全访问和修改配置文件。
 
 虽然具有Geometrixx组织单位的用户档案将为只读，但如果用户尝试修改一个用户档案，则会出现以下错误： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
 

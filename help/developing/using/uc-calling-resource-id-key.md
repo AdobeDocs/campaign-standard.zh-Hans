@@ -5,9 +5,15 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: 593
 ht-degree: 6%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 6%
 
 * [创建或扩展资源](../../developing/using/creating-or-extending-the-resource.md)
 * [定义标识键](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [CAMPAIGN STANDARDREST API](../../api/using/get-started-apis.md)
+* [CAMPAIGN STANDARD REST API](../../api/using/get-started-apis.md)
 
 ## 步骤1：配置标识键{#step-1-configure-the-identification-key}
 
@@ -94,7 +100,7 @@ ht-degree: 6%
 
 ![](assets/uc_idkey9.png)
 
-要使用Campaign StandardREST API中的过滤器定义，请使用以下语法：
+要使用Campaign Standard REST API中的过滤器定义，请使用以下语法：
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -109,4 +115,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-有关详细信息，请参阅[Campaign StandardREST API文档](../../api/using/filtering.md)。
+有关详细信息，请参阅[Campaign Standard REST API文档](../../api/using/filtering.md)。

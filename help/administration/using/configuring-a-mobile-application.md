@@ -6,10 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 2%
+source-wordcount: 1443
+ht-degree: 3%
 
 ---
 
@@ -19,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans){target="_blank"}。
+> Adobe Experience Platform Launch已更名为Adobe Experience Platform中的一套数据收集技术。 因此，产品文档中的术语有一些改动。 有关术语更改的综合参考，请参阅[以下文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
 
 请注意，推送通知和应用程序内实施必须由专家用户执行。 要获取帮助，请联系您的Adobe客户经理或专业服务合作伙伴。
 
@@ -43,7 +47,7 @@ ht-degree: 2%
    * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience Platform SDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
-此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
+此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
 
    要完成其他任务，例如安装扩展、发布应用程序、配置环境等，您需要在产品配置文件中设置权限。
 
@@ -55,7 +59,7 @@ ht-degree: 2%
 
 1. 在Adobe Campaign Standard中，配置您在数据收集UI中创建的移动资产。 请参阅[在Adobe Campaign中设置Adobe Experience Platform Launch应用程序](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
-1. 将特定于渠道的配置添加到您的移动应用程序设置中。
+1. 将特定于渠道的配置添加到您的移动应用设置中。
 有关更多信息，请参阅 [Adobe Campaign 中特定于渠道的应用程序配置](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如果需要，您可以删除标记属性。
@@ -97,7 +101,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 选择您在数据收集UI中创建的移动应用程序。
-其&#x200B;**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
+其**[!UICONTROL Property Status]**&#x200B;应为&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >

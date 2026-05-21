@@ -9,9 +9,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: ht
-source-wordcount: '4728'
+TQID: https://experienceleague.adobe.com/PMS6AkxTQdW2TmqSY1f1eJaBauin62PcxPlkCFGFQNA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 4728
 ht-degree: 100%
 
 ---
@@ -39,7 +46,7 @@ ht-degree: 100%
 <li>改进的用户帮助 - 将 Experience League 引入到产品中，搜索结果还包括社区论坛中的结果和更多视频内容，使您能够更轻松地访问更多内容，从而充分利用应用程序。 我们还在“帮助”菜单中添加了反馈机制，使得报告问题或分享构想更加轻松。</li>
 <li>改进的通知 - “通知”下拉列表现在包含两个选项卡：一个用于您自己的产品通知，另一个用于更多全球产品公告。</li>
 </ul>
-<p>有关更多信息，请参阅<a href="../../start/using/interface-description.md#top-bar">详细文档</a>。
+<p>有关更多信息，请参阅<a href="../../start/using/interface-description.md#top-bar">有详细介绍的文档</a>。
 </p>
 </td> 
 </tr> 
@@ -49,7 +56,7 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th><strong>审核记录</strong><br /></th> 
+<th> <strong>审核记录</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -246,7 +253,7 @@ ht-degree: 100%
 <li>现在，<b>已传送</b>指示器的计算基于来自增强型 MTA 的实时反馈，以提高准确性和反应性。</li>
 <li>EFS 解决了同步软退回报告的延迟问题。</li>
 </ul>
-<p>有关更多信息，请参阅<a href="../../sending/using/confirming-the-send.md">详细文档</a>。
+<p>有关更多信息，请参阅<a href="../../sending/using/confirming-the-send.md">有详细介绍的文档</a>。
 </p>
 </td> 
 </tr> 
@@ -256,15 +263,15 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th><strong>Adobe Experience Manager 集成改进</strong><br /></th> 
+<th> <strong>Adobe Experience Manager 集成改进</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Campaign 与 Adobe Experience Manager 的集成已得到改进：您现在可以更轻松地从 Adobe Experience Manager 导入多语言内容。<p>
+<p>Campaign 与 Adobe Experience Manager 的集成已得到改进：您现在可以更轻松地从 Adobe Experience Manager 导入多语言内容。 <p>
 <p>Adobe Campaign Standard 现在自动从 Adobe Experience Manager 内容中检测语言变体，并允许批量导入和创建变体，从而大幅简化从业者基于 Adobe Experience Manager 内容创建多语言活动所需执行的步骤数。</p>
-<p>有关更多信息，请参阅<a href="../../integrating/using/creating-multilingual-email-aem.md">详细文档</a>。
+<p>有关更多信息，请参阅<a href="../../integrating/using/creating-multilingual-email-aem.md">有详细介绍的文档</a>。
 </p>
 </td> 
 </tr> 

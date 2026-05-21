@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 95%
+source-wordcount: 2020
+ht-degree: 92%
 
 ---
 
@@ -20,9 +23,9 @@ ht-degree: 95%
 
 ## 关于函数 {#about-functions}
 
-利用查询编辑工具，可使用高级函数进行复杂筛选。为实现此目的，工具面板提供了可用于工作区的 **[!UICONTROL Expression]** 元素。有关此元素的详细信息，请参阅[特定章节](../../automating/using/advanced-expression-editing.md)。
+利用查询编辑工具，可使用高级函数进行复杂筛选。 为实现此目的，工具面板提供了可用于工作区的 **[!UICONTROL Expression]** 元素。 有关此元素的详细信息，请参阅[特定章节](../../automating/using/advanced-expression-editing.md)。
 
-利用此元素，可手动输入条件。您可以在此使用以下部分中定义的函数。
+利用此元素，可手动输入条件。 您可以在此使用以下部分中定义的函数。
 
 根据所需结果和操作数据的类型，可使用以下几种函数类型：
 
@@ -221,7 +224,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 将字符串转换为日期+时区。<br />示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
+   <td> 将字符串转换为日期+时区。<br /> 示例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;字符串&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -385,7 +388,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 其他  {#others}
+## 其他 {#others}
 
 此表包含剩余的可用函数。
 
@@ -398,7 +401,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 如果条件已验证，则返回值 1。否则，返回值 2<br /> </td> 
+   <td> 如果条件已验证，则返回值 1。 否则，返回值 2<br /> </td> 
    <td> Case(When(&lt;条件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -468,7 +471,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果验证了表达式，则返回值 1。否则，返回值 2（只能用作 case 函数的参数）<br /> </td> 
+   <td> 如果验证了表达式，则返回值 1。 否则，返回值 2（只能用作 case 函数的参数）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;值 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +660,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> 使用 AES 算法（CBC 块模式），用密钥（第 2 个参数）和初始化矢量（第 3 个参数）对字符串（第 1 个参数）进行加密。密钥和初始化矢量必须以十六进制表示形式提供（以 <strong>\x</strong> 开头）。结果将以十六进制表示，但不带 <strong>\x</strong>。<br />请注意，密钥大小可以是 128 位、192 位、256 位（16、24、32 个十六进制字符），但建议您使用 256 位和与密钥长度相同的随机 IV。<br /> </td> 
+   <td> 使用 AES 算法（CBC 块模式），用密钥（第 2 个参数）和初始化矢量（第 3 个参数）对字符串（第 1 个参数）进行加密。 密钥和初始化矢量必须以十六进制表示形式提供（以 <strong>\x</strong> 开头）。 结果将以十六进制表示，但不带<strong>\x</strong>.<br /> 请注意，密钥大小可以是128位、192位、256位（16、24、32个十六进制字符），但建议您使用256位和与密钥长度相同的随机IV。<br /> </td> 
    <td> encryption_aescbcEncrypt（&lt;字符串&gt;， &lt;字符串&gt;， &lt;字符串&gt;）<br />例如：encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>"， "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
@@ -747,7 +750,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 根据表分区和排序序列生成行号。MySQL 不支持此函数<br /> </td> 
+   <td> 根据表分区和排序序列生成行号。 MySQL 不支持此函数<br /> </td> 
    <td> RowNum(PartitionBy(&lt;值 1&gt;), OrderBy(&lt;值 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

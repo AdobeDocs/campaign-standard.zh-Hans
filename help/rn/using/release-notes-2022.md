@@ -5,9 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -29,7 +34,7 @@ ht-degree: 100%
 ### 修复{#rn-fixes}
 
 * 修复了计划报表在计划时间之前一小时被触发的问题。 (CAMP-51502)
-* 修复了投放仪表板中投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。(CAMP-51127)
+* 修复了投放仪表板中投放指标与发送日志 (nms:broadLogRcp) 不匹配的问题。 (CAMP-51127)
 * 修复了导致无法使用 ACS 连接器（高级服务）扩展自定义资源的问题。 (CAMP-51033)
 * 改进了隐私请求响应的发布流程，以避免延迟。 (CAMP-50613)
 
@@ -76,7 +81,7 @@ ht-degree: 100%
 <tbody> 
 <tr> 
 <td>
-<p>Apache log4j 已修复 Apache log4j 2.17.1 版本中报告的漏洞。Adobe Campaign Standard 使用 Apache log4j，并且在此版本中包含最新的 Apache log4j 2.17.1 版本 </p>
+<p>Apache log4j 已修复 Apache log4j 2.17.1 版本中报告的漏洞。 Adobe Campaign Standard 使用 Apache log4j，并且在此版本中包含最新的 Apache log4j 2.17.1 版本 </p>
 </td> 
 </tr> 
 </tbody> 
@@ -99,7 +104,7 @@ ht-degree: 100%
 **修补程序**
 
 * 修复了动态报告中 **Send report now** 选项的问题：当投放包含多变体时，PDF 生成作业会失败。 (CAMP-49120)
-* 修复了当 Adobe Experience Manager 中的重复内容共享同一密钥 (cq:uuid) 时，用户无法从其 Adobe Campaign Standard 投放中刷新或取消链接 AEM (AEM) 内容的问题。(CAMP-49161)
+* 修复了当 Adobe Experience Manager 中的重复内容共享同一密钥 (cq:uuid) 时，用户无法从其 Adobe Campaign Standard 投放中刷新或取消链接 AEM (AEM) 内容的问题。 (CAMP-49161)
 * 修复了访问实例时出现页面未加载、投放无法打开或无法保存任何待处理的修改的错误。 (CAMP-50195)
 * 修复了当投放警报标准所应用的 **Delivery filter** 字段未填写时该标准无法打开的问题。 (CAMP-49093)
 * 修复了在应用内投放中编辑 **Secondary** 按钮时导致无法采纳变更的问题。 (CAMP-50250)

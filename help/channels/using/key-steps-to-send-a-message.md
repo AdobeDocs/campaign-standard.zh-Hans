@@ -8,10 +8,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/jEwlV4sdPtwlYNW-3uSWMBJOOCiffDv1GbCFMN1wNF4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 11%
+source-wordcount: 370
+ht-degree: 10%
 
 ---
 
@@ -31,7 +37,7 @@ ht-degree: 11%
 
 ## 创建您的消息
 
-利用Campaign Standard[营销活动](../../start/using/marketing-activities.md)创建电子邮件、短信、直邮、推送通知或应用程序内消息。
+利用Campaign Standard [营销活动](../../start/using/marketing-activities.md)创建电子邮件、短信、直邮、推送通知或应用程序内消息。
 
 ![](assets/marketing-activities.png)
 
@@ -62,7 +68,7 @@ ht-degree: 11%
 
 ![](assets/steps-prepare.png)
 
-**在使用Campaign Standard功能（预览、电子邮件渲染、校对等）发送邮件之前，检查并测试邮件**。 如需详细信息，请参阅[此小节](../../sending/using/previewing-messages.md)。
+**在使用Campaign Standard功能（预览、电子邮件渲染、验证等）发送邮件之前，检查并测试邮件**。有关详细信息，请参阅[此部分](../../sending/using/previewing-messages.md)。
 
 使用&#x200B;**[!UICONTROL Schedule]**&#x200B;块定义何时发送消息（请参阅[计划消息发送](../../sending/using/about-scheduling-messages.md)）。
 
@@ -74,7 +80,7 @@ ht-degree: 11%
 
 ![](assets/steps-send.png)
 
-有几个日志可帮助您监视邮件的投放（请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)）。 由于Campaign Standard的[跟踪功能](../../sending/using/tracking-messages.md)，您还可以跟踪投放收件人的行为。
+有几个日志可帮助您监视邮件的投放（请参阅[监视投放](../../sending/using/monitoring-a-delivery.md)）。 借助Campaign Standard的[跟踪功能](../../sending/using/tracking-messages.md)，您还可以跟踪投放收件人的行为。
 
 ![](../../sending/using/assets/tracking_logs.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 使用协调进行数据更新
-description: 下方的示例演示了一个工作流，该工作流直接从包含新客户的导入文件创建用户档案受众。
+description: 下方的示例演示了直接从包含新客户的导入文件创建受众轮廓的工作流。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,16 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 33%
+source-wordcount: 128
+ht-degree: 49%
 
 ---
 
 # 使用协调进行数据更新 {#data-update-reconciliation}
 
-下方的示例演示了直接从包含新客户的导入文件创建受众轮廓的工作流。该工作流由以下活动组成：
+下方的示例演示了直接从包含新客户的导入文件创建受众轮廓的工作流。 该工作流由以下活动组成：
 
 ![](assets/identification_example2.png)
 
@@ -38,7 +42,7 @@ ht-degree: 33%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [协调](../../automating/using/reconciliation.md)活动，用于将加载文件的每个列链接到用户档案维度列。 无法识别的文件记录（缺少数据、数据类型不兼容等）将被忽略，以保持最终受众数据的完整性。
+* [协调](../../automating/using/reconciliation.md)活动，用于将加载文件的每个列链接到用户档案维度列。 无法识别的文件记录（缺少数据、数据类型不兼容等） 将被忽略，以保持最终受众数据的完整性。
 
   ![](assets/identification_example1.png)
 

@@ -8,10 +8,17 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/SC-25nzjfan6OmPZny5QnaeheMiHf2OiJXO9SGVimfo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 621
+ht-degree: 11%
 
 ---
 
@@ -62,7 +69,7 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 
 对于Campaign，我们建议您通过[服务](../../audiences/using/creating-a-service.md)和[登陆页](../../channels/using/getting-started-with-landing-pages.md)使用&#x200B;**简单的选择加入和选择退出机制**&#x200B;来更新您的联系信息并扩展数据库。
 
-列入阻止列表在消息中提供&#x200B;**退订链接**&#x200B;将允许在必要时向添加用户档案，因此可提高平台可投放性。 有关阻止列表管理的更多信息，请参阅[关于Campaign中的选择加入和选择退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+在消息中提供&#x200B;**退订链接**&#x200B;将允许在必要时向添加用户档案，因此可提高平台可投放性。 有关阻止列表管理的更多信息，请参阅[关于Campaign中的选择加入和选择退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!IMPORTANT]
 >
@@ -89,4 +96,4 @@ Adobe Campaign提供一套工具来帮助您遵守&#x200B;**隐私合规性**（
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
-* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=zh-Hans)
+* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

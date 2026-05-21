@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/65HKTwwETEWkW1P6c1pfYBIJQDYwqC-DPmq7JQiye7s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: 339
 ht-degree: 76%
 
 ---
@@ -63,7 +69,7 @@ ht-degree: 76%
 
 ## 定向因特定原因投放失败的用户档案 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的轮廓。此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
+以下示例显示了一个查询活动，该活动配置为筛选因其邮箱已满而导致投放失败的轮廓。 此查询仅适用于具有管理权限且归属于 **[!UICONTROL All (all)]** 组织单位的用户（请参阅[此章节](../../administration/using/organizational-units.md)）。
 
 1. 选择 **[!UICONTROL Delivery logs]** 资源，以便直接在投放日志表中进行筛选（请参阅[使用与定向维度不同的资源](../../automating/using/using-resources-different-from-targeting-dimensions.md)）。
 
@@ -73,7 +79,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_failure2.png)
 
-1. 选择要定向的失败类型。以 **[!UICONTROL Mailbox full]** 为例。
+1. 选择要定向的失败类型。 以 **[!UICONTROL Mailbox full]** 为例。
 
    ![](assets/query_sample_failure3.png)
 

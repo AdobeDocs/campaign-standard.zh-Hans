@@ -5,9 +5,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '4572'
+source-wordcount: 4623
 ht-degree: 3%
 
 ---
@@ -28,11 +35,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 疲劳管理<br /> </td> 
-   <td> 疲劳管理允许您创建疲劳规则来管理与用户档案的过度通信。 疲劳规则易于构建，但极其灵活，具有多种功能，例如跨多个渠道对消息进行计数（包括事务型消息）、仅对特定投放进行计数或将规则应用于特定用户档案。<br />有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md">详细文档</a>。<br /> </td> 
+   <td> 疲劳管理允许您创建疲劳规则来管理与用户档案的过度通信。 疲劳规则易于构建，但具有非常灵活的功能，例如跨多个渠道对消息进行计数（包括事务型消息）、仅对特定投放进行计数或将规则应用于特定用户档案。<br /> 有关详细信息，请参阅<a href="../../sending/using/fatigue-rules.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 内容创建：从URL<br />导入 </td> 
-   <td> 通过URL导入，您可以从网站中快速检索创意内容，为任何投放构建电子邮件。 此外，您还可以通过使第三方直接通过URL共享内容来简化您的创作过程。 导入的内容可以灵活地用作单个投放的一部分或在模板级别使用，以确保所有相关营销活动的品牌一致性（无论是基于工作流的消息还是事务型消息），并包括A/B或多变量测试。 从URL导入会自动转换和跟踪所有链接，以通过动态报告监控电子邮件性能。<br />有关详细信息，请参阅<a href="../../designing/using/using-existing-content.md">详细文档</a>。<br /> </td> 
+   <td> 通过URL导入，您可以从网站中快速检索创意内容，为任何投放构建电子邮件。 此外，您还可以通过使第三方直接通过URL共享内容来简化您的创作过程。 导入的内容可以灵活地用作单个投放的一部分或在模板级别使用，以确保所有相关营销活动的品牌一致性（无论是基于工作流的消息还是事务型消息），并包括A/B或多变量测试。 从URL导入会自动转换和跟踪所有链接，以通过动态报告监控电子邮件性能。<br /> 有关详细信息，请参阅<a href="../../designing/using/using-existing-content.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +50,7 @@ _平台_
 
 * 修复了可能导致无法正确解压缩大型压缩文件的问题。
 * 品牌管理的安全性已得到改进。 现在，Adobe技术管理员可以修改品牌名称和发件人地址。
-* 为了提高安全性，adobe.com域不再提供用户生成的内容（图像、镜像页面、登陆页面等）。 现在，必须使用自己的域通过品牌策略处理这些资源。
+* 为了提高安全性，需要用户生成内容（图像、镜像页面、登陆页面等） adobe.com域无法再提供服务。 现在，必须使用自己的域通过品牌策略处理这些资源。
 * 修复了显示和筛选营销活动时的界面问题。
 * 修复了订阅日期字段无法通过POST Rest API调用进行更新的问题。
 
@@ -107,15 +114,15 @@ _自定义资源_
  <tbody> 
   <tr> 
    <td> 电子邮件模板库<br /> </td> 
-   <td> 向您介绍18个全新的响应式模板，这些模板采用两个精美的主题 — Astro和Feather设计。 这些可自定义的模板与行业无关，可立即使用。 模板包括各种用例的内容，让您的电子邮件营销活动比以往任何时候都更快、更高效和更美观地设计和投放。<br />有关详细信息，请参阅<a href="../../designing/using/using-reusable-content.md#content-templates">详细文档</a>。<br /> </td> 
+   <td> 向您介绍18个全新的响应式模板，这些模板采用两个精美的主题 — Astro和Feather设计。 这些可自定义的模板与行业无关，可立即使用。 模板包括各种用例的内容，用于更快、更高效和更美观地设计和投放您的电子邮件营销活动。<br /> 有关详细信息，请参阅<a href="../../designing/using/using-reusable-content.md#content-templates">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用配置文件数据进行动态报告<br /> </td> 
-   <td> 动态报告提供完全可自定义的实时业务报告。 在此版本中，对动态报告的强大增强功能增加了对用户档案数据的访问，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还支持按用户档案维度（如性别、城市、邮政编码和年龄）进行人口统计分析。 通过同一个易于使用的拖放界面，可以比以往更容易地确定针对最重要的客户细分执行电子邮件促销活动的方式。<br />有关详细信息，请参阅<a href="../../reporting/using/about-dynamic-reports.md">详细文档</a>。<br /> </td> 
+   <td> 动态报告提供完全可自定义的实时业务报告。 在此版本中，对动态报告的强大增强功能增加了对用户档案数据的访问，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还支持按用户档案维度（如性别、城市、邮政编码和年龄）进行人口统计分析。 通过相同的易用的拖放界面，可以比以往更容易地确定针对最重要的客户细分执行电子邮件促销活动的方式。<br /> 有关详细信息，请参阅<a href="../../reporting/using/about-dynamic-reports.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 具有起源和日期<br />的大量订阅 </td> 
-   <td> 借助此批量订阅增强功能，您现在可以通过工作流中的订阅服务活动，将订阅信息（来源和日期）直接存储在Adobe Campaign Standard数据库中。<br />有关详细信息，请参阅<a href="../../automating/using/subscription-services.md">详细文档</a>。<br /> </td> 
+   <td> 借助此批量订阅增强功能，您现在可以通过工作流中的订阅服务活动，将订阅信息（来源和日期）直接存储在Adobe Campaign Standard数据库中。<br /> 有关详细信息，请参阅<a href="../../automating/using/subscription-services.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,27 +186,27 @@ _用户档案和受众_
  <tbody> 
   <tr> 
    <td> 多语言电子邮件和短信投放<br /> </td> 
-   <td> 根据自动分段客户的首选语言，通过单一投放定义和执行多语言电子邮件和短信投放。 关于每次投放之绩效的报告，可以细分到语言和各个级别。<br />随着国内外企业的发展，越来越多的公司面临着以多种语言提供内容的挑战。 因此，对于跨国公司、使用多种语言的国家/地区的公司以及希望无论客户位于何处，都能在语言层面进一步个性化内容的公司而言，简化本地化的报文交付是有效客户沟通战略的关键部分。 有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>.<br /> </td> 
+   <td> 根据自动分段客户的首选语言，通过单一投放定义和执行多语言电子邮件和短信投放。 报告每次投放的性能，具体到语言和各个级别。<br /> 随着国内外企业的成长，越来越多的公司面临着以多种语言提供内容的挑战。 因此，对于跨国公司、使用多种语言的国家/地区的公司以及希望无论客户位于何处，都能在语言层面进一步个性化内容的公司而言，简化本地化的报文交付是有效客户沟通战略的关键部分。 有关详细信息，请参阅<a href="../../channels/using/creating-a-multilingual-email.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行中的投放进度或工作流出错时，您会收到通知。<br />实时通知让相关利益相关者随时了解情况，并让用户能够立即直接从应用程序内对活动通知采取行动。 对于团队而言，其结果是提高了营销活动的灵活性、效率和平顺执行。 有关详细信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">详细文档</a>.<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有关重要系统活动的通知。 例如，当正在进行中的投放进度或工作流出错时，您会收到通知。<br /> 实时通知可随时告知相关利益相关者，并让用户能够立即直接从应用程序内对活动通知采取行动。 对于团队而言，其结果是提高了营销活动的灵活性、效率和平顺执行。 有关详细信息，请参阅<a href="../../administration/using/sending-internal-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 传递警报<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供了一个电子邮件警报系统，以触发向用户或外部利益相关者发送有关重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和功能板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板，使公司中所有涉及的Adobe Campaign用户自动获知投放执行状态，从而提高效率。 有关详细信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>.<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中查看通知之外，Adobe Campaign现在还提供了一个电子邮件警报系统，以触发向用户或外部利益相关者发送有关重要系统活动的电子邮件警报。 创建、管理和接收可自定义的警报和仪表板，以跟踪投放成功或失败。<br /> Adobe Campaign投放警报通过电子邮件和仪表板让公司中所有涉及的Adobe Campaign用户自动了解投放执行状态，从而提高效率。 有关详细信息，请参阅<a href="../../sending/using/receiving-alerts-when-failures-happen.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 数据源中加密的已声明ID<br /> </td> 
-   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售配置文件。<br />通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群的忠诚度并相应地赢取新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>.<br /> </td> 
+   <td> 使用加密的联系信息（电子邮件地址或电话号码）作为声明的ID，无需在Campaign中现有用户档案即可发送电子邮件和短信触发器。 由于Adobe Campaign Standard可以对加密的声明ID进行解码，因此，在从包含先前未知联系人的其他Experience Cloud解决方案接收受众时，Campaign现在可以创建新的可销售配置文件。<br /> 通过电子邮件和短信实时定位客户和未知潜在客户，以提高现有客户群中的忠诚度并吸引新客户。 一旦潜在客户在Adobe Campaign中验证并利用这些洞察信息，即可充分利用您的第一方Cookie数据（来自Adobe Audience Manager*）。<br /> *需要Adobe Audience Manager。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 从Campaign到Analytics的KPI共享<br /> </td> 
-   <td> 与Adobe Analytics共享促销活动数据，以通过转化、统一点击前和点击后行为来测量促销活动的电子邮件营销量度以及其他营销和广告效果。<br />直接跟踪整体性能并发现Analytics中与外部程序的协同作用。 将来自此整合视图的学习应用回您的营销活动；最终提高开放式、点进和转化率，从而提高收入和整体营销活动效果。 <br /> Adobe Analytics为必填。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>.<br /> </td> 
+   <td> 与Adobe Analytics共享促销活动数据，以便通过转化、统一点击前和点击后的行为来测量促销活动的电子邮件营销量度以及其他营销和广告工作。<br /> 直接跟踪整体绩效并发现Analytics中与外部程序的协同效应。 将来自此整合视图的学习应用回您的营销活动；最终提高开放式、点进和转化率，从而提高收入和整体营销活动效果。<br /> Adobe Analytics为必填项。 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-analytics-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 直邮渠道 — 退回发件人<br /> </td> 
-   <td> 现在支持与直邮提供商进行平面文件交换，其中纳入了“返回发件人”信息。 对直邮渠道的这种增强允许从未来的通信中排除相应的邮政地址。<br />这使营销人员能够收到地址不正确的通知，并通过其他渠道与客户接洽，或鼓励他们更新邮政地址。 这还可以减少营销资金浪费的数量，因为营销人员会避免将邮件发送到错误的地址。 <br />直邮作为加载项渠道提供。 有关详细信息，请参阅<a href="../../channels/using/return-to-sender.md">详细文档</a>.<br /> </td> 
+   <td> 现在支持与直邮提供商进行平面文件交换，其中纳入了“返回发件人”信息。 对直邮渠道的这一增强功能允许将相应的邮政地址排除在未来的通信之外。<br /> 这样，营销人员就可以收到地址错误的通知，并通过其他渠道与客户互动，或者鼓励他们更新邮政地址。 这还可以减少营销资金浪费的数量，因为营销人员会避免将邮件发送到错误的地址。<br /> 直邮可用作附加渠道。 有关详细信息，请参阅<a href="../../channels/using/return-to-sender.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,11 +262,11 @@ _工作流_
  <tbody> 
   <tr> 
    <td> 直邮<br /> </td> 
-   <td> 通过Adobe Campaign Standard的第一个离线渠道Direct Mail，突破数字屏障，连接到物理世界。 通过此功能，您可以个性化和生成直邮提供商所需的文件，作为跨渠道营销活动的一部分。 利用Direct Mail，通过一种吸引人的触觉接触点将客户引导至您的应用程序、网站或商店，从而重新吸引客户或增强客户体验。<br />有关详细信息，请参阅<a href="../../channels/using/about-direct-mail.md">详细文档</a>。<br /> </td> 
+   <td> 通过Adobe Campaign Standard的第一个离线渠道Direct Mail，突破数字屏障，连接到物理世界。 通过此功能，您可以个性化和生成直邮提供商所需的文件，作为跨渠道营销活动的一部分。 利用Direct Mail，通过一种吸引人的触觉接触点将客户引导至您的应用程序、网站或商店，从而重新吸引客户或增强客户体验。<br /> 有关详细信息，请参阅<a href="../../channels/using/about-direct-mail.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件密件抄送<br /> </td> 
-   <td> 电子邮件密件抄送功能可以保存发送给每位收件人的独特电子邮件，从而允许品牌存档这些邮件。 通过向所有电子邮件添加密件抄送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的精确副本。 这是金融服务业的常见法律要求，有助于帮助客户服务中心实时解决冲突。<br />有关详细信息，请参阅<a href="../../sending/using/archiving.md">详细文档</a>。<br /> </td> 
+   <td> 电子邮件密件抄送功能可以保存发送给每位收件人的独特电子邮件，从而允许品牌存档这些邮件。 通过向所有电子邮件添加密件抄送电子邮件地址，Adobe Campaign Standard客户可以使用此功能保留每封电子邮件的精确副本。 这是金融服务业的常见法律要求，有助于帮助客户服务中心实时解决冲突。<br /> 有关详细信息，请参阅<a href="../../sending/using/archiving.md">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,23 +309,23 @@ _推送通知_
  <tbody> 
   <tr> 
    <td> Creative SDK<br />的图像编辑功能得到增强 </td> 
-   <td> 您现在可以访问由Creative SDK提供支持的完整功能集，以便在编辑电子邮件或登陆页面时直接在内容编辑器中增强图像。<br />此功能不需要购买其他Creative Cloud解决方案。<br />有关详细信息，请参阅<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">详细文档</a>。<br /> </td> 
+   <td> 您现在可以访问由Creative SDK提供支持的完整功能集，以便在编辑电子邮件或登陆页面时直接在内容编辑器中增强图像。<br /> 此功能不需要获取其他Creative Cloud解决方案。<br /> 有关详细信息，请参阅<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性推送通知<br /> </td> 
-   <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能。 事务型消息现在支持三个渠道：电子邮件、短信和推送通知。<br />有关详细信息，请参阅<a href="../../channels/using/transactional-push-notifications.md">详细文档</a>。<br /> </td> 
+   <td> 移动应用程序渠道已添加到Adobe Campaign的事务性消息传递功能。 事务性消息现在支持三个渠道：电子邮件、短信和推送通知。<br /> 有关详细信息，请参阅<a href="../../channels/using/transactional-push-notifications.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 定期推送通知<br /> </td> 
-   <td> 您现在可以在工作流中配置定期推送通知。 如果您的客户希望定期更新（如每周提醒）以签出新内容或促销，则可以使用定期推送通知。<br />有关详细信息，请参阅<a href="../../automating/using/push-notification-delivery.md">详细文档</a>。<br /> </td> 
+   <td> 您现在可以在工作流中配置定期推送通知。 如果您的客户希望定期更新（如每周提醒）以签出新内容或促销，则可以使用定期推送通知。<br /> 有关详细信息，请参阅<a href="../../automating/using/push-notification-delivery.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3)连接器<br /> </td> 
-   <td> Amazon Simple Storage Service (S3)连接器现在可用于将数据导入或导出到Adobe Campaign。 它可以在工作流活动中设置。 配置在外部帐户中完成。<br />有关详细信息，请参阅<a href="../../administration/using/external-accounts.md">详细文档</a>。<br /> </td> 
+   <td> Amazon Simple Storage Service (S3)连接器现在可用于将数据导入或导出到Adobe Campaign。 它可以在工作流活动中设置。 配置是在外部帐户中完成的。<br /> 有关详细信息，请参阅<a href="../../administration/using/external-accounts.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver集成上线<br /> </td> 
-   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 它现在可与Dreamweaver官方上次发布版本(17.0.2)配合使用。<br />这要求安装Adobe Campaign集成扩展。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
+   <td> Adobe Campaign与Dreamweaver之间的集成现已上线。 它现在可与Dreamweaver官方上次发布版本(17.0.2)配合使用。<br /> 需要安装Adobe Campaign集成扩展。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,15 +394,15 @@ _推送通知_
  <tbody> 
   <tr> 
    <td> 动态报告<br /> </td> 
-   <td> Dynamic Reporting提供新一代完全可自定义的实时业务报告。 此功能基于可视动态数据透视表和图形，允许您拖放变量和维度来分析营销活动的效率和效果。 动态报告还允许您从头开始创建自己的业务报告，并将其保存以供将来使用。<br />有关详细信息，请参阅<a href="../../reporting/using/about-dynamic-reports.md">详细文档</a>。<br /> </td> 
+   <td> Dynamic Reporting提供新一代完全可自定义的实时业务报告。 此功能基于可视动态数据透视表和图形，允许您拖放变量和维度来分析营销活动的效率和效果。 动态报告还允许您从头开始创建自己的业务报告，并将其保存以供将来使用。<br /> 有关详细信息，请参阅<a href="../../reporting/using/about-dynamic-reports.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver集成（实验室）<br /> </td> 
-   <td> 通过Adobe Campaign与Dreamweaver集成，您现在拥有了一个使用Adobe解决方案创建电子邮件营销活动的集成流程。<br />您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并让内容在两个解决方案之间无缝同步。<br />对于初始版本，该集成作为“Labs”功能提供，并且仅适用于Dreamweaver预发行版Beta。 如果想要激活它，请联系AC-DW-integration@adobe.com。<br />有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>。<br /> </td> 
+   <td> 通过Adobe Campaign与Dreamweaver集成，您现在拥有使用Adobe解决方案创建电子邮件营销活动的集成流程。<br /> 您可以在Dreamweaver中编辑Adobe Campaign电子邮件，并让内容在两个解决方案之间无缝同步。<br /> 在初始版本中，该集成作为“Labs”功能提供，并且仅适用于Dreamweaver预发行版Beta。 如果要激活它，请联系AC-DW-integration@adobe.com。<br /> 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hans">视频</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
-   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。 <br />有两个新选项可用： <br /> 
+   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。<br /> 有两个新选项可用： <br /> 
     <ul> 
      <li> 所有收件人都会收到考虑了当地时区时间的消息。 </li> 
      <li> 每个收件人都会在公式定义的计算日期和时间收到消息。 </li> 
@@ -414,7 +421,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
-   <td> 使用新的<span class="uicontrol">Signal</span>活动从另一个工作流触发工作流。<br />由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。 您可以更好地监控客户历程，并在出现问题时做出反应。<br />已更新多个工作流活动：<br /> 
+   <td> 使用新的<span class="uicontrol">Signal</span>活动触发来自另一个工作流的工作流。<br /> 由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。 您可以更好地监视客户历程，并在出现问题时做出反应。<br /> 已更新多个工作流活动：<br /> 
     <ul> 
      <li> <span class="uicontrol">结束</span>活动：您现在可以通过新的选项卡指定要在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span>活动：使用新的空出站转化，添加触发另一个工作流的<strong>End</strong>活动。 空出站转化不携带任何数据，也不会占用系统中不必要的空间 </li> 
@@ -422,15 +429,15 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 工作流：新的读取受众活动<br /> </td> 
-   <td> 使用现有受众开始您的定位流程，您可以轻松地在一个活动中选择和优化这些受众。<br />有关详细信息，请参阅<a href="../../automating/using/read-audience.md">详细文档</a>。<br /> </td> 
+   <td> 以现有受众开始定位流程，您可以在一个活动中轻松选择和优化这些受众。<br /> 有关详细信息，请参阅<a href="../../automating/using/read-audience.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 兴趣点数据<br /> </td> 
-   <td> 兴趣点数据将Adobe Campaign与适用于移动设备的Adobe Analytics集成。 当用户打开品牌的应用程序时，品牌可以从用户的移动位置（称为<strong>目标点</strong>）收集数据。 这使品牌能够利用Adobe Campaign工作流程，根据用户的位置发送个性化消息。 此渠道利用Mobile核心服务的SDK。<br />请注意，使用此功能需要Analytics for Mobile，这是一个付费解决方案。<br />有关详细信息，请参阅<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>。<br /> </td> 
+   <td> 兴趣点数据将Adobe Campaign与适用于移动设备的Adobe Analytics集成。 当用户打开品牌的应用程序时，品牌可以从用户的移动位置（称为<strong>目标点</strong>）收集数据。 这使品牌能够利用Adobe Campaign工作流程，根据用户的位置发送个性化消息。 此渠道利用Mobile核心服务的SDK。<br /> 请注意，使用此功能需要Analytics for Mobile，这是一个付费解决方案。<br /> 有关详细信息，请参阅<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
-   <td> 现在，API中提供了在任何级别链接到用户档案或服务资源的资源。<br />有关详细信息，请参阅<a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">详细文档</a>。<br /> </td> 
+   <td> 现在，任何级别链接到用户档案或服务资源的资源在API中均可用。<br /> 有关详细信息，请参阅<a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">详细文档</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -470,17 +477,17 @@ _工作流_
  <tbody> 
   <tr> 
    <td> 外部报告的日志导出<br /> </td> 
-   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。 您可以将简单工作流与增量查询结合使用，以自动定期导出新日志。<br />除了资源选取器的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> 
+   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。 您可以使用简单工作流和增量查询来自动定期导出新日志。<br /> 除了资源选取器的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> 
     <ul> 
      <li> <span class="uicontrol">增量查询</span>现在允许您使用日期字段检索新数据或更新数据。 以前，即使先前执行得出的所有结果在上次执行后进行了更新，也会自动将其排除。 </li> 
      <li> <span class="uicontrol">提取文件</span>现在可以导出枚举值的标签而不是ID。 </li> 
-    </ul> 管理员可以使用这些活动访问所有地域和组织单位。<br />有关导出日志的详细信息，请参阅<a href="../../automating/using/exporting-logs.md">详细文档</a>。<br /> </td> 
+    </ul> 管理员可以使用这些活动访问所有地理和组织单位。<br /> 有关导出日志的详细信息，请参阅<a href="../../automating/using/exporting-logs.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性消息的营销功能<br /> </td> 
    <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。 这允许他们：<br /> 
     <ul> 
-     <li> 应用营销分类规则，如阻止列表<span class="uicontrol">上的</span>地址。 </li> 
+     <li> 应用营销分类规则，如阻止列表</span>上的<span class="uicontrol">地址。 </li> 
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
      <li> 在客户历程中使用事务型消息。 </li> 
@@ -522,7 +529,7 @@ _工作流_
 
 * 修复了可能导致无法预览有关事件资源（如rtEvent）的查询的问题。
 * 现在可以在叫客过渡中检索由&#x200B;**[!UICONTROL Load file]**&#x200B;活动生成的拒绝文件，并在下一个活动中处理。 例如，使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;通过SFTP服务器上传拒绝文件。
-* 修复了可能导致用户无法限制区段群体的问题（如果在&#x200B;**[!UICONTROL Temporary resource]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Segmentation]**）。
+* 修复了可能导致用户无法限制区段群体的问题（如果在&#x200B;**[!UICONTROL Segmentation]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Temporary resource]**）。
 * 无法再将&#x200B;**[!UICONTROL Scheduler]**&#x200B;活动设置为每10分钟触发一次以上的工作流。
 * 修复了可能导致&#x200B;**[!UICONTROL Use common columns]**&#x200B;无法在&#x200B;**[!UICONTROL Union]**&#x200B;活动中正常工作的问题。
 
@@ -530,4 +537,4 @@ _集成_
 
 * 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 将“30天内回访的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从人员核心服务导入受众时，可能导致技术工作流清除Target Dimension字段的问题。 后续查询无法检索导入的受众。
-* 修复了在选中选项&#x200B;**[!UICONTROL Save audience]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;活动失败的问题。
+* 修复了在选中选项&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Save audience]**&#x200B;活动失败的问题。

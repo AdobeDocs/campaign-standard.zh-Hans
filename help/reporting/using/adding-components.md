@@ -8,9 +8,15 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/OqhCjOt2SS-vKiuXSCmjgzJ1TNoFu1FHqL4cER0-o0g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 4%
 
 ---
@@ -27,7 +33,7 @@ ht-degree: 4%
 
    组件表分为四类：
 
-   * **Dimension**：从投放日志获取详细信息，如收件人的浏览器或域，或者投放是否成功。
+   * **维度**：从投放日志获取详细信息，如收件人的浏览器或域，或者投放是否成功。
    * **量度**：获取有关消息状态的详细信息。 例如，如果传送了消息并且用户将其打开。
    * **[!UICONTROL Segments]**：根据收件人的年龄范围筛选数据。 **[!UICONTROL Segments]**&#x200B;可以直接拖放到自由格式表或面板的顶部栏中。
 

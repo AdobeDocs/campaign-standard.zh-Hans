@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PnbExucfP9-JLJA-0krFYAkYXJYExhHxEl7TRu5efec
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 298
 ht-degree: 98%
 
 ---
@@ -23,11 +27,11 @@ ht-degree: 98%
 
 ![](assets/wait.png)
 
-**[!UICONTROL Wait]** 活动可暂停执行部分工作流。利用此活动，可以在延迟一段时间后（范围从几秒钟到几个月）再激活叫客过渡，即执行后续活动。
+**[!UICONTROL Wait]** 活动可暂停执行部分工作流。 利用此活动，可以在延迟一段时间后（范围从几秒钟到几个月）再激活叫客过渡，即执行后续活动。
 
 ## 使用环境 {#context-of-use}
 
-**[!UICONTROL Wait]** 活动可为两个执行的活动之间添加一段等待的时间。例如，在执行电子邮件投放活动后，等待几天，再分析这期间产生的打开次数和点击次数，然后再执行所有后续操作（提醒电子邮件、创建受众等）。
+**[!UICONTROL Wait]** 活动可为两个执行的活动之间添加一段等待的时间。 例如，在执行电子邮件投放活动后，等待几天，再分析这期间产生的打开次数和点击次数，然后再执行所有后续操作（提醒电子邮件、创建受众等）。
 
 ## 配置 {#configuration}
 
@@ -43,7 +47,7 @@ ht-degree: 98%
 
 ## 示例 {#example}
 
-下方的示例展示了典型使用案例中的 **[!UICONTROL Wait]** 活动。发送某个活动的电子邮件邀请。邮件发送 24 小时后，分析电子邮件投放日志，并向收到第一封邮件但未注册的人发送提醒电子邮件。
+下方的示例展示了典型使用案例中的 **[!UICONTROL Wait]** 活动。 发送某个活动的电子邮件邀请。 邮件发送 24 小时后，分析电子邮件投放日志，并向收到第一封邮件但未注册的人发送提醒电子邮件。
 
 其工作流如下所示：
 

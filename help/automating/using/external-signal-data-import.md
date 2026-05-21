@@ -10,20 +10,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/fQTQgLluJa5WPu4ju1gGs84gWfqQ-sWIWuJSTXgQYHA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 79%
 
 ---
 
 # 外部信号和数据导入 {#external-signal-data-import}
 
-下方的示例展示了典型使用案例中的 **[!UICONTROL External signal]** 活动。在源工作流中执行数据导入。完成导入并更新数据库后，将触发第二个工作流。第二个工作流用于更新导入数据的聚合。
+下方的示例展示了典型使用案例中的 **[!UICONTROL External signal]** 活动。 在源工作流中执行数据导入。 完成导入并更新数据库后，将触发第二个工作流。 第二个工作流用于更新导入数据的聚合。
 
 源工作流如下所示：
 
-* [加载文件](../../automating/using/load-file.md)活动，上传包含新购买数据的文件。请注意，[数据库已扩展](../../developing/using/data-model-concepts.md)，因为默认情况下，数据库中不存在购买数据。
+* [加载文件](../../automating/using/load-file.md)活动，上传包含新购买数据的文件。 请注意，[数据库已扩展](../../developing/using/data-model-concepts.md)，因为默认情况下，数据库中不存在购买数据。
 
   例如：
 
@@ -47,6 +51,6 @@ ht-degree: 79%
 
 * [外部信号](../../automating/using/external-signal.md)活动等待源工作流成功完成。
 * [查询](../../automating/using/query.md#enriching-data)活动会定向轮廓，并通过集合集对进行扩充，以检索上次购买日期。
-* [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。请注意，轮廓资源已扩展，添加了 **Last purchase date** 字段。
+* [更新数据](../../automating/using/update-data.md)活动将附加数据存储在专用的自定义字段中。 请注意，轮廓资源已扩展，添加了 **Last purchase date** 字段。
 
 ![](assets/signal_example_source2.png)
