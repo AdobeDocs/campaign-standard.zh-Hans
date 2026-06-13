@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 91%
+source-wordcount: 238
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 91%
 
 了解如何在 Campaign 和实时客户数据平台 (RTCDP) 之间共享数据。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
 
 >[!ENDTABS]
 
@@ -121,9 +121,9 @@ ht-degree: 91%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的页面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品说明</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a> - <a href="https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">电子邮件跟踪像素和CNIL指南</a>
 </td>
 <td><strong>技术资源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
 </td>
 </tr></table>
