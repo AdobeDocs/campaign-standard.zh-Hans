@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -95,8 +95,8 @@ ht-degree: 100%
 
 ### 什么是控制面板？
 
-控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Campaign Standard 的产品管理员提高工作效率。
-[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
+此控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为Campaign Standard的产品管理员提高工作效率。
+[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans#discover-control-panel)以了解详细信息。
 
 >[!NOTE]
 >
@@ -139,3 +139,4 @@ ht-degree: 100%
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
 请按照[本页面](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
+

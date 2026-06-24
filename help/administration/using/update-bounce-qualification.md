@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 3%
@@ -55,3 +55,4 @@ Google已声明，导致此问题的Gmail中断和中断从12月14日的6:55AM�
 **相关主题：**
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [退回邮件鉴别](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+

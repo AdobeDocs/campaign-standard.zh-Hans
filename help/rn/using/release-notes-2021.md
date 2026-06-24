@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -283,7 +283,7 @@ ht-degree: 100%
 <td>
 <p>Campaign 与 Adobe Experience Manager 的集成已得到改进：您现在可以更轻松地从 Adobe Experience Manager 导入多语言内容。 <p>
 <p>Adobe Campaign Standard 现在自动从 Adobe Experience Manager 内容中检测语言变体，并允许批量导入和创建变体，从而大幅简化从业者基于 Adobe Experience Manager 内容创建多语言活动所需执行的步骤数。</p>
-<p>有关更多信息，请参阅<a href="../../integrating/using/creating-multilingual-email-aem.md">有详细介绍的文档</a>。
+<p>有关更多信息，请参阅<a href="../../integrating/using/creating-multilingual-email-aem.md">详细文档</a>。
 </p>
 </td> 
 </tr> 
@@ -457,3 +457,4 @@ ht-degree: 100%
 * 修复了在 **Email Designer** 预览中搜索轮廓时阻止测试轮廓列表刷新的问题。 (CAMP-45265)
 * 修复了在 **Email Designer** 预览中搜索轮廓时阻止自定义测试轮廓显示在列表中的问题。 (CAMP-45589)
 * 修复了在从&#x200B;**投放摘要报告**&#x200B;生成趋势图时导致显示不匹配日期的问题。 (CAMP-45521)
+

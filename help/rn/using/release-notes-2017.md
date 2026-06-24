@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: 4540
 ht-degree: 3%
 
 ---
@@ -423,7 +423,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
-   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。<br /> 有两个新选项可用： <br /> 
+   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。<br />有两个新选项可用： <br /> 
     <ul> 
      <li> 所有收件人都会收到考虑了当地时区时间的消息。 </li> 
      <li> 每个收件人都会在公式定义的计算日期和时间收到消息。 </li> 
@@ -442,7 +442,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
-   <td> 使用新的<span class="uicontrol">Signal</span>活动触发来自另一个工作流的工作流。<br /> 由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。 您可以更好地监视客户历程，并在出现问题时做出反应。<br /> 已更新多个工作流活动：<br /> 
+   <td> 使用新的<span class="uicontrol">Signal</span>活动从另一个工作流触发工作流。<br />由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。您可以更好地监视客户历程，并在出现问题时做出反应。<br />已更新多个工作流活动：<br /> 
     <ul> 
      <li> <span class="uicontrol">结束</span>活动：您现在可以通过新的选项卡指定要在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span>活动：使用新的空出站转化，添加触发另一个工作流的<strong>End</strong>活动。 空出站转化不携带任何数据，也不会占用系统中不必要的空间 </li> 
@@ -498,7 +498,7 @@ _工作流_
  <tbody> 
   <tr> 
    <td> 外部报告的日志导出<br /> </td> 
-   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。 您可以使用简单工作流和增量查询来自动定期导出新日志。<br /> 除了资源选取器的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> 
+   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。您可以使用带有增量查询的简单工作流自动定期导出新日志。<br />除了资源选取器中的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> 
     <ul> 
      <li> <span class="uicontrol">增量查询</span>现在允许您使用日期字段检索新数据或更新数据。 以前，即使先前执行得出的所有结果在上次执行后进行了更新，也会自动将其排除。 </li> 
      <li> <span class="uicontrol">提取文件</span>现在可以导出枚举值的标签而不是ID。 </li> 
@@ -506,7 +506,7 @@ _工作流_
   </tr> 
   <tr> 
    <td> 事务性消息的营销功能<br /> </td> 
-   <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。 这允许他们：<br /> 
+   <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。这允许他们：<br /> 
     <ul> 
      <li> 应用营销分类规则，如阻止列表</span>上的<span class="uicontrol">地址。 </li> 
      <li> 在消息中包含退订链接。 </li> 
@@ -559,3 +559,4 @@ _集成_
 * 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 将“30天内回访的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从人员核心服务导入受众时，可能导致技术工作流清除Target Dimension字段的问题。 后续查询无法检索导入的受众。
 * 修复了在选中选项&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Save audience]**&#x200B;活动失败的问题。
+

@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5439
-ht-degree: 95%
+source-wordcount: 5380
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您现在可以使用<strong>对照组</strong>通过排除活动的一部分受众来衡量其影响。 然后，便能够将收到消息的目标群体的行为与非目标联系人的行为进行比较。 根据发送日志，还可以在将来活动中以对照组为目标。
+  <td> <p>您现在可以使用<strong>控制组</strong>通过排除部分控制组受众来衡量营销活动的影响。然后，您将能够将收到消息的目标群体的行为与未作为目标的联系人的行为进行比较。根据发送日志，您还可以在未来的活动中以控制组为目标。
 </p>
 <p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hans">教程视频</a>。
 </p>
@@ -81,7 +81,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign 现在支持使用 OAuth 在<strong>外部 API</strong> 工作流活动中进行身份验证。 此新功能使此活动能够与需要 OAuth 支持的系统进行通信。
+  <td> <p>Adobe Campaign现在支持使用OAuth在<strong>外部API</strong>工作流活动中进行身份验证。此新功能使此活动能够与需要OAuth支持的系统进行通信。
 </p>
 <p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">有详细介绍的文档</a>。
 </p>
@@ -515,3 +515,4 @@ ht-degree: 95%
 * 修复了发送应用程序内消息时，发送日志屏幕中不显示地址的问题。
 * 修复了短信发送日志无法更新正确退件数量的问题。 (CAMP-38395)
 * 修复了允许应用程序订阅后调用以更新推送通知令牌的漏洞。 (CAMP-39273)
+

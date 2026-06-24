@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -174,7 +174,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API活动（公共Beta）<br /> </td> 
-   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点（例如，Data Platform、Target、Analytics、Campaign）。</p><p>此功能当前处于公开测试阶段。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hans">操作方法视频</a>。</p></td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点（例如Data Platform、Target、Analytics、Campaign）。</p><p>此功能当前处于公开测试阶段。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hans">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流区段<br />的报告 </td> 
@@ -633,3 +633,4 @@ ht-degree: 10%
 * SMS消息的发送吞吐量已得到改进和稳定。
 * 修复了在短信消息中无法使用“~”字符的问题。 (CAMP-29172)
 * 修复了使用发送时间优化选项进行投放时出现的问题。 (CAMP-29231)
+
