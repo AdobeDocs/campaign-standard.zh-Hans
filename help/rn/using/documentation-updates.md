@@ -6,8 +6,8 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: '7629'
 ht-degree: 100%
 
@@ -588,7 +588,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于动态报告的指标计算章节。 [了解更多](../../reporting/using/indicator-calculation.md)
 
-添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hans)
+添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 更新了工作流的功能列表。 [了解更多](../../automating/using/list-of-functions.md)
 
@@ -866,7 +866,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../..
 
 添加了关于如何准备投放的分步使用案例。 [了解更多](../../sending/using/preparing-the-send.md)
 
-删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans) (PDF)。
+删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 添加了关于如何使用短信自动回复的分步使用案例。 [了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1038,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。 [阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
@@ -1121,3 +1121,4 @@ URL 更改：资源核心服务 - [了解更多](../../integrating/using/working
 URL 更改：People 核心服务 - [了解更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 重组了轮廓和受众指南。 [了解更多](../../audiences/using/get-started-profiles-and-audiences.md)
+

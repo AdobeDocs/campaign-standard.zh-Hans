@@ -8,21 +8,15 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -95,8 +89,8 @@ ht-degree: 100%
 
 ### 什么是控制面板？
 
-控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为 Campaign Standard 的产品管理员提高工作效率。
-[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans#discover-control-panel)以了解更多信息。
+此控制面板允许您管理每个实例的设置并跟踪使用情况，从而帮助您作为Campaign Standard的产品管理员提高工作效率。
+[单击此处](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans#discover-control-panel)以了解详细信息。
 
 >[!NOTE]
 >
@@ -130,7 +124,7 @@ ht-degree: 100%
 
 ### 询问专家！
 
-加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。 [加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
+加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。 [加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 创建工单或开始聊天
 
@@ -139,3 +133,4 @@ ht-degree: 100%
 如需在新系统中登记问题或开始聊天会话，请连接到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
 请按照[本页面](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中所述的详细步骤进行操作。
+
