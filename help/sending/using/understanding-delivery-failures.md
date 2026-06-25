@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 55%
@@ -84,7 +84,7 @@ ht-degree: 55%
 | **[!UICONTROL Not connected]** | 已忽略 | 用户档案的手机在发送消息时关闭或未连接到网络。 |
 | **[!UICONTROL Invalid domain]** | 软 | 电子邮件地址的域不正确或不再存在。 此轮廓将被重新定向，直到错误计数达到 5 为止。 此后，该记录将设置为隔离状态，并且以后不会再进行重试。 |
 | **[!UICONTROL Text too long]** | 已忽略 | 短信消息中的字符数超过限制。 有关更多信息，请参阅[短信编码、长度和音译](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
-| **[!UICONTROL Character not supported by encoding]** | 已忽略 | 短信消息包含一个或多个编码不支持的字符。 有关更多信息，请参阅[字符表 - GSM 标准](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
+| **[!UICONTROL Character not supported by encoding]** | 已忽略 | 短信消息包含一个或多个编码不支持的字符。 有关更多信息，请参阅[字符表 - GSM 标准](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard)。 |
 
 
 **相关主题：**

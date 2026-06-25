@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 # 2021 年版发行说明{#release-notes-2021}
 
-## 21.3 版 - 2021 年 9 月 {#release-21-3---sept-2021}
+## 21.3 版 - 2021 年 9 月 {#release-21-3-sept-2021}
 
 下面列出了 Campaign Standard 最新版本中包含的新增功能、改进和修复。
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 * 修复了数据库清理工作流失败并出现错误的问题。 (CAMP-49097)
 
 
-## 21.2 版 - 2021 年 6 月 {#release-21-2---june-2021}
+## 21.2 版 - 2021 年 6 月 {#release-21-2-june-2021}
 
 下面列出了下一个 Campaign Standard 版本中包含的新增功能、改进和修复。 下面列出了此 Campaign Standard 版本中包含的新增功能、改进和修复。
 
@@ -246,7 +246,7 @@ ht-degree: 100%
 
 * 修复了由于 Campaign 不支持由 Journey Orchestration 事件发送的具有精确值（即以 00 结尾）的时间戳，从而阻止某些 Journey Orchestration 投放的问题。
 
-## 21.1 版 - 2021 年 2 月 {#release-21-1---february-2021}
+## 21.1 版 - 2021 年 2 月 {#release-21-1-february-2021}
 
 **新增功能**
 

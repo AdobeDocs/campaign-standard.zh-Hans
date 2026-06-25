@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5380
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
-## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
+## 20.4 版 - 2020 年 10 月 {#release-20-4-october-2020}
 
 **新增功能**
 
@@ -218,7 +218,7 @@ ht-degree: 94%
 
 
 
-## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
+## 20.3 版 - 2020 年 5 月 {#release-20-3-may-2020}
 
 **新增功能**
 
@@ -322,7 +322,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
-## 20.2 版 - 2020 年 4 月 {#release-20-2---april-2020}
+## 20.2 版 - 2020 年 4 月 {#release-20-2-april-2020}
 
 **新增功能**
 
@@ -407,15 +407,15 @@ ht-degree: 94%
 * 修复了在执行具有多个集客过渡的活动时，工作流中可能发生的问题。
 * 修复了阻止标准用户在工作流查询或投放中将“订阅应用程序”用作定向维度的问题。 (CAMP-37618)
 
-## 20.1.4版 — 2020年2月 {#release-20-1-4---february-2020}
+## 20.1.4版 — 2020年2月 {#release-20-1-4-february-2020}
 
 * 修复了在现有工作流上打开&#x200B;**读取受众**&#x200B;活动时发生的问题。 (CAMP-41002)
 
-## 20.1.3版 — 2020年2月 {#release-20-1-3---february-2020}
+## 20.1.3版 — 2020年2月 {#release-20-1-3-february-2020}
 
 * 修复了 20.1 版引入的可能导致客户使用漏洞的退化问题 (CAMP-39273)。 CAMP-39273 之前已被修复。
 
-## 20.1.2版 — 2020年2月 {#release-20-1-2---february-2020}
+## 20.1.2版 — 2020年2月 {#release-20-1-2-february-2020}
 
 **Email Designer 增强功能**
 
@@ -423,7 +423,7 @@ ht-degree: 94%
 * 修复了在使用动态内容时添加空格的问题。 (CAMP-40605)
 * 修复了配置事务性电子邮件模板时的问题。 (CAMP-40604)
 
-## 20.1 版 - 2020 年 2 月 {#release-20-1---february-2020}
+## 20.1 版 - 2020 年 2 月 {#release-20-1-february-2020}
 
 **新增功能**
 
