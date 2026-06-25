@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5217
 ht-degree: 4%
@@ -42,7 +21,7 @@ ht-degree: 4%
 
 # 2018 年版发行说明{#release-notes}
 
-## 18.9 版 - 2018 年 9 月 {#release-18-9---september-2018}
+## 18.9 版 - 2018 年 9 月 {#release-18-9-september-2018}
 
 **新增功能**
 
@@ -107,7 +86,7 @@ ht-degree: 4%
 * 修复了阻止显示导致&#x200B;**数据库清理**&#x200B;工作流失败的错误的问题。 (CAMP-26876)
 * 修复了可能阻止删除推送通知定义中自定义字段的问题。 (CAMP-25588)
 
-## 18.7 版 - 2018 年 7 月 {#release-18-7---july-2018}
+## 18.7 版 - 2018 年 7 月 {#release-18-7-july-2018}
 
 **新增功能**
 
@@ -144,7 +123,7 @@ ht-degree: 4%
 
 **改进**
 
-* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=zh-Hans)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
+* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
 * 现在，GDPR隐私访问/删除请求会考虑具有指向用户档案资源的owncopy链接的自定义资源。 对于1个基数简单链接和N个基数收集链接，您需要选择自定义资源中的“删除/复制目标记录意味着删除/复制链接引用的记录”。 对于0或1基数简单链接，选择“删除/复制记录意味着删除/复制链接引用的目标记录”。
 
 **其他变更**
@@ -170,7 +149,7 @@ ht-degree: 4%
 * 修复了Creative Designer中在将某些具有内置样式的文本更改为链接或编辑该链接时导致不想要的颜色字体和格式的问题。 (CAMP-26001)
 * 修复了导致热门点击报告无法在包含动态内容的投放中显示每个条件的百分比的问题。 以前，仅显示对默认变体的点击。
 
-## 18.6 版 - 2018 年 6 月 {#release-18-6---june-2018}
+## 18.6 版 - 2018 年 6 月 {#release-18-6-june-2018}
 
 **改进**
 
@@ -180,7 +159,7 @@ ht-degree: 4%
 
 **其他变更**
 
-* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此[&#128279;](../../sending/using/confirming-the-send.md)章节。
+* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
 * 在&#x200B;**可投放性更新**&#x200B;现成技术工作流中，功能管理员现在可以在&#x200B;**更新规则** javascript活动中定义要忽略的连续错误数。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 已优化管理单元访问限制条件时生成的SQL。
 * **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅（nms:appSubscriptionRcp表）相关的数据。
@@ -208,7 +187,7 @@ ht-degree: 4%
 * 修复了在动态报告中显示帐户级别的国际数据时出现的问题。
 * 现在可以创建不含订阅或退订确认消息的服务。
 
-## 18.5 版 - 2018 年 5 月 {#release-18-5---may-2018}
+## 18.5 版 - 2018 年 5 月 {#release-18-5-may-2018}
 
 **新增功能**
 
@@ -222,7 +201,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR：核心服务集成<br /> </td> 
-   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
+   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进 — 详细的投放反馈<br /> </td> 
@@ -280,7 +259,7 @@ ht-degree: 4%
 * 修复了可能导致无法加载Creative Designer的问题。 (CAMP-24573)
 * 修复了删除在电子邮件主题中的个性化字段后添加的字符的问题。 (CAMP-24113)
 
-## 18.4 版 - 2018 年 4 月 {#release-18-4---april-2018}
+## 18.4 版 - 2018 年 4 月 {#release-18-4-april-2018}
 
 **修补程序**
 
@@ -306,7 +285,7 @@ _自定义资源_
 
 * 修复了导致自定义资源准备失败的错误。
 
-## 18.3 版 - 2018 年 3 月 {#release-18-3---march-2018}
+## 18.3 版 - 2018 年 3 月 {#release-18-3-march-2018}
 
 **新功能**
 
@@ -324,7 +303,7 @@ _自定义资源_
     <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
@@ -334,7 +313,7 @@ _自定义资源_
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> 适用于电子邮件的Creative Designer只有英文版。<br /> 有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> 适用于电子邮件的Creative Designer只有英文版。<br /> 有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
@@ -396,7 +375,7 @@ _事务性消息_
 * 修复了扩展投放资源时事务性消息模板出现的错误。
 * 现在可以删除事务型消息。
 
-## 18.2 版 - 2018 年 2 月 {#release-18-2---february-2018}
+## 18.2 版 - 2018 年 2 月 {#release-18-2-february-2018}
 
 **新功能**
 
@@ -460,7 +439,7 @@ _已知问题_
 
 从Campaign界面使用上下文帮助链接时，可能会出现一些问题。 将在18.3中修复它们。
 
-## 18.1 版 - 2018 年 1 月 {#release-18-1---january-2018}
+## 18.1 版 - 2018 年 1 月 {#release-18-1-january-2018}
 
 **新功能**
 
@@ -488,7 +467,7 @@ _已知问题_
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hans">此技术说明</a>。<br /> </td> 
+    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技术说明</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化投放<br /> </td> 

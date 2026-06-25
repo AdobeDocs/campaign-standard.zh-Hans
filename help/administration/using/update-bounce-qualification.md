@@ -4,11 +4,9 @@ description: 了解如何在ISP中断后更新退回限制条件。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 3%
@@ -53,6 +51,7 @@ Google已声明，导致此问题的Gmail中断和中断从12月14日的6:55AM�
 在获得受影响的收件人列表后，您可以将他们的状态设置为&#x200B;**[!UICONTROL Valid]**，以便通过&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流将其从隔离列表中删除，或者只是从表中删除他们。
 
 **相关主题：**
+
 * [了解投放失败](../../sending/using/understanding-delivery-failures.md)
 * [退回邮件鉴别](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 

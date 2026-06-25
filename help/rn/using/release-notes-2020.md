@@ -9,37 +9,13 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5380
 ht-degree: 94%
@@ -52,7 +28,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月版**，其中使用 CNAME 进行域配置并新增数据库监视功能。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
-## 20.4 版 - 2020 年 10 月 {#release-20-4---october-2020}
+## 20.4 版 - 2020 年 10 月 {#release-20-4-october-2020}
 
 **新增功能**
 
@@ -66,7 +42,7 @@ ht-degree: 94%
 <tr> 
   <td> <p>您现在可以使用<strong>控制组</strong>通过排除部分控制组受众来衡量营销活动的影响。然后，您将能够将收到消息的目标群体的行为与未作为目标的联系人的行为进行比较。根据发送日志，您还可以在未来的活动中以控制组为目标。
 </p>
-<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hans">教程视频</a>。
+<p>有关更多信息，请参阅<a href="../../sending/using/control-group.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">教程视频</a>。
 </p>
 </td> 
 </tr> 
@@ -102,8 +78,8 @@ ht-degree: 94%
   <p>历程人工智能使用高级机器学习(ML)，通过预测每个人的参与偏好，使企业能够优化客户旅程的设计和交付。</p>
   <P>Journey AI 包含两个 ML 功能：</p>
 <ul> 
-     <li> <strong>预测参与度评分</strong> - 智能确定客户首选的参与度级别，以更好地针对和个性化信息，从而提高转化率和保留率。 观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=zh-Hans">教程视频</a>。</li> 
-     <li> <strong>预测发送时间优化</strong> - 预测向活动中的每个人发送电子邮件的最佳时间，从而最大化参与率并提高电子邮件活动 ROI。 观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=zh-Hans">教程视频</a>。</li>
+     <li> <strong>预测参与度评分</strong> - 智能确定客户首选的参与度级别，以更好地针对和个性化信息，从而提高转化率和保留率。 观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">教程视频</a>。</li> 
+     <li> <strong>预测发送时间优化</strong> - 预测向活动中的每个人发送电子邮件的最佳时间，从而最大化参与率并提高电子邮件活动 ROI。 观看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">教程视频</a>。</li>
     </ul>
   <p>如果您想要了解如何开始使用 Journey AI，请查阅<a href="../../sending/using/predictive.md">详细文档</a>并联系您的客户主管。 请注意，尽管现有 Campaign 客户可免费使用 Journey Ai，但实施成本约为 50 个小时。</p>
     </td> 
@@ -113,7 +89,7 @@ ht-degree: 94%
 
 **改进**
 
-* **隐私管理**：**CCPA 选择退出**&#x200B;字段（通过 Campaign 界面和 API 提供）现在也通过隐私核心服务受支持。 此字段允许 Adobe Campaign 用户跟踪消费者是否已选择退出出售个人信息。 [了解详情](https://helpx.adobe.com/content/help/cn/zh-Hans/campaign/kb/acs-privacy.html#ccpa)
+* **隐私管理**：**CCPA 选择退出**&#x200B;字段（通过 Campaign 界面和 API 提供）现在也通过隐私核心服务受支持。 此字段允许 Adobe Campaign 用户跟踪消费者是否已选择退出出售个人信息。 [了解详情](https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#ccpa)
 * **工作流执行改进** （Beta 版）：在围绕工作流的全局倡议的背景下，已经制定了一些重大改进来稳定内存管理，减少延迟和优化工作流在执行期间消耗的内存。 这些改进目前在 Beta 版中实施，并且仅对部分客户可用。 计划于 2021 年初全面可用。
 * 为了提高安全性，Campaign 现在使用&#x200B;**签名机制**&#x200B;来跟踪电子邮件中的链接。
 * 上传 iOS 证书或 Android 密钥时，移动应用程序配置已通过&#x200B;**提高错误消息清晰度**&#x200B;进行了改进。
@@ -218,7 +194,7 @@ ht-degree: 94%
 
 
 
-## 20.3 版 - 2020 年 5 月 {#release-20-3---may-2020}
+## 20.3 版 - 2020 年 5 月 {#release-20-3-may-2020}
 
 **新增功能**
 
@@ -233,10 +209,10 @@ ht-degree: 94%
 <td> <p>泰国的个人数据保护法 (PDPA) 是新的隐私法，旨在将泰国的数据保护要求现代化并协调一致。 此法规适用于所持有数据的数据主体居住于泰国的 Adobe Campaign 客户。</p>
 <p>除了 Adobe Campaign 已提供的隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还利用此机会加入了额外的功能，以帮助您为 PDPA 做好准备：</p>
 <ul>
-<li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。 <a href="https://helpx.adobe.com/content/help/cn/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
+<li>访问权和删除权：我们将充分利用 GDPR 和 CCPA 所增加的权利。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
 <li><p>创建隐私请求时，“隐私核心服务”中添加了 PDPA 法规类型。 您应将此方法应用于所有访问和删除请求。 将 Campaign API 和接口用于访问和删除请求的方法已被弃用。  请参阅<a href="../../rn/using/deprecated-features.md">已弃用和已删除的功能</a>一文。</p></li>
 </ul>
-<p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hans">操作方法视频</a>。</p>
+<p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -257,7 +233,7 @@ ht-degree: 94%
 <li>从 JSON 中选择并使用数组对象，而无需将对象命名为“data”或让其处于顶级。</li>
 </ul>
 <p><strong>注意：</strong>客户需要用其工作流中的 GA External API 活动替换所有<strong>测试版 External API 活动</strong>。  从 20.3 版起，使用 External API 测试版的工作流将被废除。</p>
-<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hans">操作方法视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -322,7 +298,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **新控制面板 5 月发布**， 为 CNAME 子域提供证书续订功能。 [了解详情](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans)。
 
-## 20.2 版 - 2020 年 4 月 {#release-20-2---april-2020}
+## 20.2 版 - 2020 年 4 月 {#release-20-2-april-2020}
 
 **新增功能**
 
@@ -350,7 +326,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td> <p>除了测试轮廓之外，您现在还可以在真正的定向轮廓上测试电子邮件。 利用此功能，可了解轮廓将收到之以下消息的精确表示形式：自定义字段、动态和个性化信息，包含来自工作流的附加数据等。 </p>
-    <p>有关更多信息，请参阅<a href="../../sending/using/testing-messages-using-target.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=zh-Hans">教程视频</a>。 </p>
+    <p>有关更多信息，请参阅<a href="../../sending/using/testing-messages-using-target.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教程视频</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -407,15 +383,15 @@ ht-degree: 94%
 * 修复了在执行具有多个集客过渡的活动时，工作流中可能发生的问题。
 * 修复了阻止标准用户在工作流查询或投放中将“订阅应用程序”用作定向维度的问题。 (CAMP-37618)
 
-## 20.1.4版 — 2020年2月 {#release-20-1-4---february-2020}
+## 20.1.4版 — 2020年2月 {#release-20-1-4-february-2020}
 
 * 修复了在现有工作流上打开&#x200B;**读取受众**&#x200B;活动时发生的问题。 (CAMP-41002)
 
-## 20.1.3版 — 2020年2月 {#release-20-1-3---february-2020}
+## 20.1.3版 — 2020年2月 {#release-20-1-3-february-2020}
 
 * 修复了 20.1 版引入的可能导致客户使用漏洞的退化问题 (CAMP-39273)。 CAMP-39273 之前已被修复。
 
-## 20.1.2版 — 2020年2月 {#release-20-1-2---february-2020}
+## 20.1.2版 — 2020年2月 {#release-20-1-2-february-2020}
 
 **Email Designer 增强功能**
 
@@ -423,7 +399,7 @@ ht-degree: 94%
 * 修复了在使用动态内容时添加空格的问题。 (CAMP-40605)
 * 修复了配置事务性电子邮件模板时的问题。 (CAMP-40604)
 
-## 20.1 版 - 2020 年 2 月 {#release-20-1---february-2020}
+## 20.1 版 - 2020 年 2 月 {#release-20-1-february-2020}
 
 **新增功能**
 

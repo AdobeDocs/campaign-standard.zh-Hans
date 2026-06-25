@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +21,7 @@ ht-degree: 10%
 
 # 2019 年版发行说明{#release-notes-2019}
 
-## 19.4版 — 2019年12月 {#release-19-4---october-2019}
+## 19.4版 — 2019年12月 {#release-19-4-october-2019}
 
 **新增功能**
 
@@ -49,11 +36,11 @@ ht-degree: 10%
    <td> <p>CCPA是加利福尼亚州新推行的隐私法，旨在实现数据保护要求的协调和现代化，于2020年1月1日正式生效。 CCPA适用于位于加利福尼亚州且持有数据主体数据的Adobe Campaign客户。</p>
    <p>除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还利用这个机会纳入了其他功能，以帮助您为CCPA做好准备：</p>
    <ul>
-    <li>访问权利和删除权利：我们将利用为GDPR添加的功能。 <a href="https://helpx.adobe.com/content/help/cn/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
+    <li>访问权利和删除权利：我们将利用为GDPR添加的功能。 <a href="https://helpx.adobe.com/content/help/zh-Hans/campaign/kb/acs-privacy.html#righttoaccess">了解详情</a> </li>
     <li><p>在创建隐私请求时，隐私核心服务中添加了法规类型（GDPR或CCPA）。 您应将此方法应用于所有访问和删除请求。 将 Campaign API 和接口用于访问和删除请求的方法已被弃用。  请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">已弃用和已删除的功能</a>一文。</p></li>
     <li>已将<strong>CCPA选择退出</strong>字段添加到用户档案资源，以便Adobe Campaign用户能够跟踪消费者是否已选择退出个人信息销售。 <a href="https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ccpa">了解详情</a>。</li>
   </ul>
-    <p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hans">操作方法视频</a>。</p>
+    <p>请参阅<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">操作方法视频</a>。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -160,7 +147,7 @@ ht-degree: 10%
 * 修复了在投放完成之后，投放状态仍可能为“开始挂起”的问题。 (CAMP-35355)
 * 修复了在启用然后禁用SQL日志后阻止显示工作流日志的问题。
 
-## 19.3 版 - 2019 年 7 月 {#release-19-3---july-2019}
+## 19.3 版 - 2019 年 7 月 {#release-19-3-july-2019}
 
 **新增功能**
 
@@ -174,11 +161,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API活动（公共Beta）<br /> </td> 
-   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点（例如Data Platform、Target、Analytics、Campaign）。</p><p>此功能当前处于公开测试阶段。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hans">操作方法视频</a>。</p></td> 
+   <td> <p>为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。 REST端点可以是客户管理系统、Adobe I/O Runtime或Adobe Experience Cloud REST端点（例如Data Platform、Target、Analytics、Campaign）。</p><p>此功能当前处于公开测试阶段。</p><p>有关更多信息，请参阅<a href="../../automating/using/external-api.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流区段<br />的报告 </td> 
-   <td> <p>此功能允许营销人员按区段代码细分其交付性能。 在创建工作流并使用分段活动将区段分配给投放群体时，这些区段现在可以进入同一投放。 这样，您就可以根据单个投放中的多个区段，显示打开/点击次数统计信息。</p><p>有关更多信息，请参阅<a href="../../reporting/using/creating-a-report-workflow-segment.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=zh-Hans">操作方法视频</a>。</p></td>
+   <td> <p>此功能允许营销人员按区段代码细分其交付性能。 在创建工作流并使用分段活动将区段分配给投放群体时，这些区段现在可以进入同一投放。 这样，您就可以根据单个投放中的多个区段，显示打开/点击次数统计信息。</p><p>有关更多信息，请参阅<a href="../../reporting/using/creating-a-report-workflow-segment.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">操作方法视频</a>。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +258,7 @@ ht-degree: 10%
 * 修复了在主题包含多行时破坏电子邮件内容的安全问题。
 
 
-## 19.2.7版 — 2019年7月 {#release-19-2-7---july-2019}
+## 19.2.7版 — 2019年7月 {#release-19-2-7-july-2019}
 
 **改进**
 
@@ -280,13 +267,13 @@ ht-degree: 10%
 * 修复了可能导致非管理员用户无法保存或计划报表的问题。 (CAMP-31133)
 * 修复了在加载文件工作流活动中使用“|”作为日期分隔符时的问题。 (CAMP-34706)
 
-## 19.2.4版 — 2019年6月 {#release-19-2-4---june-2019}
+## 19.2.4版 — 2019年6月 {#release-19-2-4-june-2019}
 
 **电子邮件设计器**
 
 * 修复了在HTML中使用空样式标记时阻止用户编辑片段的问题。 这是19.2.3中CAMP-33778的后续修复。
 
-## 19.2.3版 — 2019年6月 {#release-19-2-3---june-2019}
+## 19.2.3版 — 2019年6月 {#release-19-2-3-june-2019}
 
 **电子邮件设计器**
 
@@ -305,7 +292,7 @@ ht-degree: 10%
 * 修复了阻止使用服务资源中的信息扩充事务型消息内容的问题。 (CAMP-33707)
 * 修复了在尝试取消订阅服务中的用户档案时在阻止列表登陆页面中发生的问题。
 
-## 19.2 版 - 2019 年 5 月 {#release-19-2---may-2019}
+## 19.2 版 - 2019 年 5 月 {#release-19-2-may-2019}
 
 **新增功能**
 
@@ -327,7 +314,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> 工作流增强 — 向外部信号活动添加有效负载<br /> </td> 
-   <td> <p>在成功满足已定义的条件时，通过其他工作流或REST API调用启动具有有效负荷的工作流，以与外部系统集成。 这还包括一个新的<strong>测试</strong>活动，您可以在其中对此功能运行测试。</p><p>有关更多信息，请参阅<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=zh-Hans">操作方法视频</a>。</p></td> 
+   <td> <p>在成功满足已定义的条件时，通过其他工作流或REST API调用启动具有有效负荷的工作流，以与外部系统集成。 这还包括一个新的<strong>测试</strong>活动，您可以在其中对此功能运行测试。</p><p>有关更多信息，请参阅<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">操作方法视频</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登陆页面增强功能 — Google reCAPTCHA<br /> </td> 
@@ -409,7 +396,7 @@ ht-degree: 10%
 * 修复了导致可投放性工作流在未成功完成时关闭的问题。
 * 修复了可能会阻止用户保存或计划报表的问题。 (CAMP-31133)
 
-## 19.1.3版 — 2019年3月 {#release-19-1-3---march-2019}
+## 19.1.3版 — 2019年3月 {#release-19-1-3-march-2019}
 
 **Email Designer 增强功能**
 
@@ -423,7 +410,7 @@ ht-degree: 10%
 * 修复了阻止编辑分类规则的问题。 (CAMP-31750)
 * 修复了inMail进程可能意外停止的问题。 (CAMP-31238)
 
-## 19.1 版 - 2019 年 2 月 {#release-19-1---february-2019}
+## 19.1 版 - 2019 年 2 月 {#release-19-1-february-2019}
 
 **新增功能**
 
@@ -445,7 +432,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> 移动应用程序内消息传递<br /> </td> 
-   <td> <p>此发行版本包含Campaign中的应用程序内渠道的GA版本。 从功能的角度来看，Beta版本中新增的最显着功能包括：应用程序内渠道的动态报表，以及Mobile SDK与MCIAS（向SDK提供应用程序内规则的Marketing Cloud应用程序内消息传送服务）之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意用户手中，并允许您在用户每次注销时清除消息缓存来维护用户在共享设备上的隐私。</p><p>有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>和专用的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hans">应用程序内教程</a>。</p> </td> 
+   <td> <p>此发行版本包含Campaign中的应用程序内渠道的GA版本。 从功能的角度来看，Beta版本中新增的最显着功能包括：应用程序内渠道的动态报表，以及Mobile SDK与MCIAS（向SDK提供应用程序内规则的Marketing Cloud应用程序内消息传送服务）之间的安全握手。 安全握手可确保用户的PII数据不会落入恶意用户手中，并允许您在用户每次注销时清除消息缓存来维护用户在共享设备上的隐私。</p><p>有关详细信息，请参阅<a href="../../channels/using/about-in-app-messaging.md">详细文档</a>和专用的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">应用程序内教程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流增强功能<br /> </td> 
@@ -529,7 +516,7 @@ ht-degree: 10%
 * 修复了在创建应用程序内投放时目标用户档案与投放仪表板中显示的用户档案不一致的问题。 (CAMP-28722)
 * 修复了Campaign与Assets核心服务集成的问题，该问题可能会阻止您在电子邮件中选择共享资源。
 
-## 19.0 版 - 2019 年 1 月 {#release-19-0---january-2019}
+## 19.0 版 - 2019 年 1 月 {#release-19-0-january-2019}
 
 **新增功能**
 
@@ -550,11 +537,11 @@ ht-degree: 10%
      <li> 能够在准备时自动<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">从URL检索内容</a> </li> 
      <li> 完全兼容的<a href="../../designing/using/using-reusable-content.md#content-templates">现成的内容模板</a>。 </li> 
     </ul> 
-    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hans">操作方法视频</a>。 下面列出了改进和修复。</p><p>因此，现已弃用旧版的电子邮件内容编辑器。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>。</p> </td> 
+    <p>有关更多信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作方法视频</a>。 下面列出了改进和修复。</p><p>因此，现已弃用旧版的电子邮件内容编辑器。 有关详细信息，请参阅此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hans#release-notes">页面</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 事务性电子邮件中的产品清单<br /> </td> 
-   <td> <p>现在，您可以在事务型电子邮件中引用一个或多个产品集合。 例如，您可以自动发送一封有关购物车弃置的电子邮件，其中列出用户购物车中的所有产品，并附带每个产品的图像、价格和链接。</p><p>有关更多信息，请参阅<a href="../../designing/using/using-product-listings.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hans">操作方法视频</a>。</p> </td> 
+   <td> <p>现在，您可以在事务型电子邮件中引用一个或多个产品集合。 例如，您可以自动发送一封有关购物车弃置的电子邮件，其中列出用户购物车中的所有产品，并附带每个产品的图像、价格和链接。</p><p>有关更多信息，请参阅<a href="../../designing/using/using-product-listings.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">操作方法视频</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 电子邮件Designer<br />中的移动设备视图 </td> 

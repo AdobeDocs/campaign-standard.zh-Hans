@@ -10,25 +10,13 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 TQID: https://experienceleague.adobe.com/PMS6AkxTQdW2TmqSY1f1eJaBauin62PcxPlkCFGFQNA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -37,7 +25,7 @@ ht-degree: 100%
 
 # 2021 年版发行说明{#release-notes-2021}
 
-## 21.3 版 - 2021 年 9 月 {#release-21-3---sept-2021}
+## 21.3 版 - 2021 年 9 月 {#release-21-3-sept-2021}
 
 下面列出了 Campaign Standard 最新版本中包含的新增功能、改进和修复。
 
@@ -158,7 +146,7 @@ ht-degree: 100%
 * 修复了数据库清理工作流失败并出现错误的问题。 (CAMP-49097)
 
 
-## 21.2 版 - 2021 年 6 月 {#release-21-2---june-2021}
+## 21.2 版 - 2021 年 6 月 {#release-21-2-june-2021}
 
 下面列出了下一个 Campaign Standard 版本中包含的新增功能、改进和修复。 下面列出了此 Campaign Standard 版本中包含的新增功能、改进和修复。
 
@@ -246,7 +234,7 @@ ht-degree: 100%
 
 * 修复了由于 Campaign 不支持由 Journey Orchestration 事件发送的具有精确值（即以 00 结尾）的时间戳，从而阻止某些 Journey Orchestration 投放的问题。
 
-## 21.1 版 - 2021 年 2 月 {#release-21-1---february-2021}
+## 21.1 版 - 2021 年 2 月 {#release-21-1-february-2021}
 
 **新增功能**
 
