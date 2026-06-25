@@ -48,7 +48,7 @@ ht-degree: 55%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
@@ -88,8 +88,8 @@ ht-degree: 55%
 
 
 **相关主题：**
-* [硬退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [软退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [硬退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#hard-bounces)
+* [软退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#soft-bounces)
 
 ## 投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
@@ -133,7 +133,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。 要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
+有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)。
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS
