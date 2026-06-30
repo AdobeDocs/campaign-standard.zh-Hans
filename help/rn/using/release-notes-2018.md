@@ -33,10 +33,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5217
-ht-degree: 4%
+source-wordcount: 5477
+ht-degree: 3%
 
 ---
 
@@ -230,8 +230,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 投放日志扩展<br /> </td> 
-   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。然后，此信息便可在动态报告中使用，并允许您在发送投放时保留某些信息的快照。<br />还有2个用例：<br /> 
-    <ul> 
+   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。 然后，此信息便可用于动态报告中，并允许您在发送投放时保留某些信息的快照。<br /> 还有2个用例：<br /> <ul> 
      <li> 导出包含“冻结”数据的扩展broadlog：作为营销人员，我想导出区段代码等于“A”（来自工作流引擎）的所有用户档案。 </li> 
      <li> 对“冻结”数据进行分段：作为营销人员，我希望<strong>重新定位</strong>自上次发送以来获得1000个忠诚度点数或区段代码等于“A”的所有用户档案。 </li> 
     </ul> 有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>.<br /> </td> 
@@ -320,16 +319,14 @@ _自定义资源_
  <tbody> 
   <tr> 
    <td> 欧盟通用数据保护条例(GDPR)<br /> </td> 
-   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br />除了Adobe Campaign中已有的隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理者的身份利用此机会来包含其他功能，以帮助您作为数据控制者为特定GDPR请求做好准备：<br /> 
-    <ul> 
+   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
     </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
-   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。<br />关键功能包括：<br /> 
-    <ul> 
+   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。<br /> 关键功能包括：<br /> <ul> 
      <li> 通过拖放界面，通过本机Creative Cloud集成增强，直观地设计和创建完全个性化、响应式电子邮件 </li> 
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
@@ -342,8 +339,7 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 在事务性消息传递中使用自定义资源<br /> </td> 
-   <td> 除了现成字段外，事务型消息传递现在还允许您使用自定义资源扩充消息的内容。<br />例如：<br /> 
-    <ul> 
+   <td> 除了现成字段外，事务型消息传递现在还允许您使用自定义资源扩充消息的内容。<br /> 例如：<br /> <ul> 
      <li> 利用自定义字段作为协调条件，将事务型消息与用户档案进行匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据进一步个性化事务型消息 </li> 
     </ul> 有关详细信息，请参阅<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>.<br /> </td> 
@@ -482,8 +478,7 @@ _已知问题_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br />有关更多信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>。<br />可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。通过增加的“可用内容”支持，Adobe Campaign用户可以在发送推送通知时唤醒应用程序，在后台刷新其数据，从而增强对用户应用程序内体验的一致性和控制。<br />可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在可以利用其移动应用程序扩展进一步修改从Adobe Campaign发送的推送通知的内容或演示。例如，用户可以将“可变内容”用于： <br /> 
-    <ul> 
+   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br /> 有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>.<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，以便在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以将“可变内容”用于： <br /> <ul> 
      <li> 解密以加密格式传送的数据 </li> 
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
@@ -542,4 +537,5 @@ _用户档案和受众_
 * 添加了工具提示，在计数查询群体后显示准确的结果编号。
 * 修复了可能阻止用户选择受众或关闭受众选取器窗口的问题。
 * 表达式编辑器中可用函数的列表已更新。 已删除&#x200B;**FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函数。
+
 

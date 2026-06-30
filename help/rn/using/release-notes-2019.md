@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -633,4 +633,5 @@ ht-degree: 10%
 * SMS消息的发送吞吐量已得到改进和稳定。
 * 修复了在短信消息中无法使用“~”字符的问题。 (CAMP-29172)
 * 修复了使用发送时间优化选项进行投放时出现的问题。 (CAMP-29231)
+
 

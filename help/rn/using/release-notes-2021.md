@@ -28,8 +28,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
 
@@ -275,7 +275,7 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th><strong>Adobe Experience Manager 集成改进</strong><br /></th> 
+<th> <strong>Adobe Experience Manager 集成改进</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -457,4 +457,5 @@ ht-degree: 100%
 * 修复了在 **Email Designer** 预览中搜索轮廓时阻止测试轮廓列表刷新的问题。 (CAMP-45265)
 * 修复了在 **Email Designer** 预览中搜索轮廓时阻止自定义测试轮廓显示在列表中的问题。 (CAMP-45589)
 * 修复了在从&#x200B;**投放摘要报告**&#x200B;生成趋势图时导致显示不匹配日期的问题。 (CAMP-45521)
+
 
