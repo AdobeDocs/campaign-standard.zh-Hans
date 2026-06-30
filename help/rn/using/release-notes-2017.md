@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 4540
+source-wordcount: 4623
 ht-degree: 3%
 
 ---
@@ -423,8 +402,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 手动发送时间优化<br /> </td> 
-   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。<br />有两个新选项可用： <br /> 
-    <ul> 
+   <td> 您现在可以在投放级别或使用工作流手动定义每个收件人的自定义发送时间。<br /> 有两个新选项可用： <br /> <ul> 
      <li> 所有收件人都会收到考虑了当地时区时间的消息。 </li> 
      <li> 每个收件人都会在公式定义的计算日期和时间收到消息。 </li> 
     </ul> 有关详细信息，请参阅<a href="../../sending/using/optimizing-the-sending-time.md">详细文档</a>.<br /> </td> 
@@ -442,8 +420,7 @@ _推送通知_
   </tr> 
   <tr> 
    <td> 工作流：新信号活动<br /> </td> 
-   <td> 使用新的<span class="uicontrol">Signal</span>活动从另一个工作流触发工作流。<br />由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。您可以更好地监视客户历程，并在出现问题时做出反应。<br />已更新多个工作流活动：<br /> 
-    <ul> 
+   <td> 使用新的<span class="uicontrol">Signal</span>活动触发来自另一个工作流的工作流。<br /> 由于能够从另一个工作流启动一个工作流，您现在可以支持更复杂的客户历程。 您可以更好地监视客户历程，并在出现问题时做出反应。<br /> 已更新多个工作流活动：<br /> <ul> 
      <li> <span class="uicontrol">结束</span>活动：您现在可以通过新的选项卡指定要在执行此活动后触发的工作流。 </li> 
      <li> <span class="uicontrol">更新数据</span>活动：使用新的空出站转化，添加触发另一个工作流的<strong>End</strong>活动。 空出站转化不携带任何数据，也不会占用系统中不必要的空间 </li> 
     </ul> 有关详细信息，请参阅<a href="../../automating/using/external-signal.md">详细文档</a>.<br /> </td> 
@@ -498,16 +475,14 @@ _工作流_
  <tbody> 
   <tr> 
    <td> 外部报告的日志导出<br /> </td> 
-   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。您可以使用带有增量查询的简单工作流自动定期导出新日志。<br />除了资源选取器中的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> 
-    <ul> 
+   <td> 导出日志（如投放和跟踪日志），以便在您的首选报告或BI工具中处理它们。 您可以使用简单工作流和增量查询来自动定期导出新日志。<br /> 除了资源选取器的日志资源可用性之外，还对<a href="../../automating/using/incremental-query.md">增量查询</a>和<a href="../../automating/using/extract-file.md">提取文件</a>活动进行了增强：<br /> <ul> 
      <li> <span class="uicontrol">增量查询</span>现在允许您使用日期字段检索新数据或更新数据。 以前，即使先前执行得出的所有结果在上次执行后进行了更新，也会自动将其排除。 </li> 
      <li> <span class="uicontrol">提取文件</span>现在可以导出枚举值的标签而不是ID。 </li> 
     </ul> 管理员可以使用这些活动访问所有地理和组织单位。<br /> 有关导出日志的详细信息，请参阅<a href="../../automating/using/exporting-logs.md">详细文档</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事务性消息的营销功能<br /> </td> 
-   <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。这允许他们：<br /> 
-    <ul> 
+   <td> 营销人员现在可以根据客户营销用户档案发送事务型消息。 这允许他们：<br /> <ul> 
      <li> 应用营销分类规则，如阻止列表</span>上的<span class="uicontrol">地址。 </li> 
      <li> 在消息中包含退订链接。 </li> 
      <li> 将事务型消息添加到全局投放报告。 </li> 
@@ -559,4 +534,5 @@ _集成_
 * 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 将“30天内回访的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从人员核心服务导入受众时，可能导致技术工作流清除Target Dimension字段的问题。 后续查询无法检索导入的受众。
 * 修复了在选中选项&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Save audience]**&#x200B;活动失败的问题。
+
 
