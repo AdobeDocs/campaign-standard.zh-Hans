@@ -144,7 +144,7 @@ ht-degree: 3%
 
 **改进**
 
-* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
+* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=zh-Hans)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
 * 现在，GDPR隐私访问/删除请求会考虑具有指向用户档案资源的owncopy链接的自定义资源。 对于1个基数简单链接和N个基数收集链接，您需要选择自定义资源中的“删除/复制目标记录意味着删除/复制链接引用的记录”。 对于0或1基数简单链接，选择“删除/复制记录意味着删除/复制链接引用的目标记录”。
 
 **其他变更**
@@ -222,7 +222,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR：核心服务集成<br /> </td> 
-   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
+   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进 — 详细的投放反馈<br /> </td> 
@@ -322,7 +322,7 @@ _自定义资源_
    <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
@@ -483,7 +483,7 @@ _已知问题_
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技术说明</a>。<br /> </td> 
+    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hans">此技术说明</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化投放<br /> </td> 
