@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 3%
@@ -555,5 +555,3 @@ _集成_
 * 修复了在Adobe Campaign中部署事件触发器时可能导致错误的问题。 将“30天内回访的可能性”元数据添加到Adobe Marketing Cloud中的“放弃”触发器时，会发生此错误。
 * 修复了在从人员核心服务导入受众时，可能导致技术工作流清除Target Dimension字段的问题。 后续查询无法检索导入的受众。
 * 修复了在选中选项&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;时可能导致工作流的&#x200B;**[!UICONTROL Save audience]**&#x200B;活动失败的问题。
-
-

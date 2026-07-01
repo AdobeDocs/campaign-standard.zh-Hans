@@ -4,13 +4,12 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '1796'
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+workflow-type: tm+mt
+source-wordcount: '1800'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign Standard 文档 {#using}
 
@@ -509,4 +508,3 @@ ht-degree: 100%
       + [更新地理单位属性](api/using/updating-geographical-unit-attributes.md)
    + [故障排除](api/using/troubleshooting.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans)
-

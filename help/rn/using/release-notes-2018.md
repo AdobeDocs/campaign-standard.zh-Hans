@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 3%
@@ -285,7 +285,7 @@ ht-degree: 3%
 
 _平台_
 
-* 修复了可能会阻止正确处理GDPR访问或删除请求的错误。 在某些极少数情况下，当提取的数据包含以下字符之一时，就会出现这种行为： &amp; &lt; > &quot; &#39;。
+* 修复了可能会阻止正确处理GDPR访问或删除请求的错误。 在某些极少数情况下观察到此行为，即提取的数据包含以下字符之一： `& < > " '`。
 
 _电子邮件、短信和直邮_
 
@@ -537,5 +537,3 @@ _用户档案和受众_
 * 添加了工具提示，在计数查询群体后显示准确的结果编号。
 * 修复了可能阻止用户选择受众或关闭受众选取器窗口的问题。
 * 表达式编辑器中可用函数的列表已更新。 已删除&#x200B;**FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函数。
-
-
