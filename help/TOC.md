@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 产品文档。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文档
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: f097d24265d3542ca8fc8a7f2727c49e7a21e773
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 100%
+source-wordcount: '1802'
+ht-degree: 99%
 
 ---
 
@@ -436,6 +436,7 @@ ht-degree: 100%
    + 配置渠道 {#configuring-channels}
       + [关于渠道配置](administration/using/about-channel-configuration.md)
       + [配置电子邮件渠道](administration/using/configuring-email-channel.md)
+      + {hide-from-toc}[关于电子邮件跟踪像素的CNIL指南](administration/using/cnil-pixel-tracking.md)
       + {hide-from-toc}[在 ISP 中断后更新退回鉴定](administration/using/update-bounce-qualification.md)
       + [配置移动应用程序](administration/using/configuring-a-mobile-application.md)
    + 配置移动渠道 {#configuring-mobile}
