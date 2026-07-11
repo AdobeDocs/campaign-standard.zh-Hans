@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
-workflow-type: ht
-source-wordcount: 238
-ht-degree: 100%
+source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
+workflow-type: tm+mt
+source-wordcount: 594
+ht-degree: 94%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
       <strong>轮廓和受众</strong><br/><a href="audiences/using/about-audiences.md">受众</a> - <a href="audiences/using/about-profiles.md">轮廓</a> - <a href="audiences/using/about-subscriptions.md">订阅</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">选择启用和选择禁用</a>
-</td>
+    </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
       <strong>数据管理</strong><br/><a href="developing/using/data-model-concepts.md">Campaign Standard 数据模型</a> - <a href="developing/using/key-steps-to-add-a-resource.md">添加或扩展资源</a> - <a href="automating/using/about-data-import-and-export.md">数据导入和导出</a> - <a href="automating/using/managing-encrypted-data.md">管理加密数据</a>
@@ -121,9 +121,7 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的页面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发布计划</a> - <a href="https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">电子邮件跟踪像素与 CNIL 指南</a>
-</td>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品说明</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a> - <a href="administration/using/cnil-pixel-tracking.md">CNIL关于电子邮件跟踪像素的指南</a></td>
 <td><strong>技术资源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
-</td>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a></td>
 </tr></table>
