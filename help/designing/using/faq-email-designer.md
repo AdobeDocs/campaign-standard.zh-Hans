@@ -8,16 +8,12 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 7%
@@ -43,8 +39,7 @@ ht-degree: 7%
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. 单击要添加内边距的元素。
-1. 单击HTML痕迹导航中的父标记。
-现在，您可以向此元素添加内边距。
+1. 单击HTML痕迹导航中的父标记。现在，您可以向此元素添加内边距。
 
 ## 能否在电子邮件Designer中导入HTML内容？
 
@@ -54,8 +49,7 @@ ht-degree: 7%
 
 ## 如何创建我的第一个电子邮件内容？
 
-首先，从主页创建电子邮件。
-然后，要将内容添加到电子邮件，您需要添加一个结构组件，并在其中插入一个内容组件。
+首先，从主页创建电子邮件。然后，要将内容添加到电子邮件，您需要添加一个结构组件，并在其中插入一个内容组件。
 
 有关详细信息，请参阅[从头开始创建电子邮件](../../designing/using/quick-start.md#from-scratch-email)
 
