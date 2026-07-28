@@ -21,9 +21,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
-workflow-type: tm+mt
-source-wordcount: 594
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: 227
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,9 @@ ht-degree: 94%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的页面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品说明</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a> - <a href="administration/using/cnil-pixel-tracking.md">CNIL关于电子邮件跟踪像素的指南</a></td>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发布计划</a> - <a href="administration/using/cnil-pixel-tracking.md">有关电子邮件跟踪像素的 CNIL 指南</a>
+</td>
 <td><strong>技术资源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a></td>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans">错误消息列表</a>
+</td>
 </tr></table>

@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7650'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
 
 
-## 2026年6月 {#doc-updates-june-2026}
+## 2026 年 6 月 {#doc-updates-june-2026}
 
-添加了有关CNIL指南的页面，介绍电子邮件跟踪像素和相关的Adobe Campaign Standard功能。 [了解更多信息](../../administration/using/cnil-pixel-tracking.md)
+新增了有关 CNIL 指南的页面，介绍电子邮件跟踪像素和相关的 Adobe Campaign Standard 功能。[了解更多信息](../../administration/using/cnil-pixel-tracking.md)
 
 ## 24.1 版 - 2024 年冬季版 {#release-24-1}
 
