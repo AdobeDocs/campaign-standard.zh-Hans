@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 2026 年 6 月 {#doc-updates-june-2026}
 
-新增了有关 CNIL 指南的页面，介绍电子邮件跟踪像素和相关的 Adobe Campaign Standard 功能。[了解更多信息](../../administration/using/cnil-pixel-tracking.md)
+新增了有关 CNIL 指南的页面，介绍电子邮件跟踪像素和相关的 Adobe Campaign Standard 功能。 [了解更多](../../administration/using/cnil-pixel-tracking.md)
 
 ## 24.1 版 - 2024 年冬季版 {#release-24-1}
 
@@ -452,8 +452,6 @@ Microsoft Dynamics 365 集成 (GA) - [了解更多](../../integrating/using/d365
 
 **随版本提供的其他文档更新**
 
-Adobe Campaign 的错误消息列表已更新。 [阅读更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
-
 GDPR 入门指南已得到改进和丰富。 它现在是包括 GDPR 和 CCPA 在内的隐私管理文档。 [了解更多](https://helpx.adobe.com/content/help/cn/campaign/kb/campaign-privacy.html)
 
 添加了用于表示事务型消息传递发布过程的新图表。 [了解更多](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 新增了关于工作流最佳实践的章节。 [了解更多](../../automating/using/best-practices-workflows.md)
 
-更新了 Campaign Standard 和 Classic 的错误消息列表。 [了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
-
 在自定义资源文档中添加了警告。 我们建议为自定义资源 ID 最多使用 30 个字符。 这也适用于自定义资源字段、键值、索引和链接。 [了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 2019 年 6 月至 7 月 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 添加了关于如何使用组合检索表调用轮廓的用例。 [了解更多](../../developing/using/uc-calling-resource-id-key.md)
 
 添加了一项关于使用参数调用工作流时使用无聚合期定期投放的建议。 [了解更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-更新了 Campaign Standard 和 Classic 的错误消息列表。 [了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 在自定义资源文档中添加了警告。 我们建议为自定义资源 ID 最多使用 30 个字符。 这也适用于自定义资源字段、键值、索引和链接。 [了解更多](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于动态报告的指标计算章节。 [了解更多](../../reporting/using/indicator-calculation.md)
 
-添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hans)
+添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 更新了工作流的功能列表。 [了解更多](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 添加了关于如何从 Adobe Campaign Standard 推送通知显示图像的新技术说明。 [了解更多](../../administration/using/image-push-notification.md)
 
 添加了关于推送跟踪实施的新技术说明。 [了解更多](../../administration/using/push-tracking.md)
-
-更新了 Campaign Standard 和 Classic 的错误消息列表。 [了解更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hans)
 
 更新了“Triggers - Campaign 集成”文档。 [了解更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../..
 
 添加了关于如何准备投放的分步使用案例。 [了解更多](../../sending/using/preparing-the-send.md)
 
-删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans) (PDF)。
+删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 添加了关于如何使用短信自动回复的分步使用案例。 [了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。 [阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 
