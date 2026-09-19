@@ -1,18 +1,16 @@
 ---
-title: 2025 年版发行说明
-description: 本页列出了所有 2025 年版的 Adobe Campaign Standard
+title: 2025年版发行说明
+description: 本页列出了所有2025版的Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
-
+ht-degree: 94%
 ---
-
-# 2025 年版发行说明 {#release-notes-2025}
+# 2025年版发行说明 {#release-notes-2025}
 
 ## 版本 25.2 - 2025 夏季版 {#summer-25}
 
@@ -23,11 +21,11 @@ ht-degree: 100%
 
 ### 其他修复 {#summer-25-fixes}
 
-* 改进了对序列耗尽的处理，提高了系统的可靠性。(CAMP-57281)
-* 常规产品稳定性更新。(CAMP-57339)
+* 改进了对序列耗尽的处理，提高了系统的可靠性。 (CAMP-57281)
+* 常规产品稳定性更新。 (CAMP-57339)
 * 对“动态报告”进行了改进，从而提高稳健性并减少数据不匹配的情况。 (CAMP-58157)
-* 修复了下拉菜单无法正确进行文本换行的问题。(CAMP-57360)
-* 更新了报告功能，防止用户查询早于 2 年以上的数据。(CAMP-59262)
+* 修复了下拉菜单无法正确进行文本换行的问题。 (CAMP-57360)
+* 更新了报告功能，防止用户查询早于 2 年以上的数据。 (CAMP-59262)
 
 ## 版本 25.1.2 {#25.1.2}
 
@@ -38,8 +36,8 @@ ht-degree: 100%
 
 ### 其他修复 {#25.1.2-fixes}
 
-* 修复了可能会阻止用户通过 IMS 登录的令牌解析问题。(CAMP-57337)
-* 改进了自动序列 ID 生成机制，提高了系统的可靠性。(CAMP-57281)
+* 修复了可能会阻止用户通过 IMS 登录的令牌解析问题。 (CAMP-57337)
+* 改进了自动序列 ID 生成机制，提高了系统的可靠性。 (CAMP-57281)
 
 ## 25.1 版 - 2025 年冬季版 {#winter-25}
 
@@ -58,4 +56,3 @@ ht-degree: 100%
 * 修复了计费流程的性能问题 (CAMP-56796)
 * 修复了 JSSP 网页上 `>` 字符的 HTML 编码问题 (CAMP-56497)
 * 修复了使用&#x200B;**在选定行上显示**&#x200B;选项时动态报告中出现的问题 (CAMP-55895)
-
