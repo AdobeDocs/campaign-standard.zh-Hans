@@ -1,16 +1,15 @@
 ---
 title: 自定义列表
-description: “了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和操作：排序、筛选、删除或复制元素。 列表屏幕会显示一个或多个给定资源的元素。”
+description: 了解如何在Adobe Campaign Standard中自定义列表屏幕的显示和操作：对元素进行排序、筛选、删除或复制元素。 列表屏幕可显示一个或多个给定资源的元素。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '584'
+ht-degree: 23%
 
 ---
-
 
 # 设计和发送消息
 
@@ -45,7 +44,7 @@ ht-degree: 18%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -56,7 +55,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
@@ -75,7 +74,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 * 插入[预定义的个性化块](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件或短信的发件人](../../designing/using/subject-line.md)
 * [个性化电子邮件的主题行](../../designing/using/subject-line.md)
-* 在电子邮件[&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建条件内容
+* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容
 * 在短信消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
@@ -90,13 +89,13 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-除了功能强大且开箱即用的报告模板之外，Adobe Campaign 还允许您创建有关投放、营销活动、用户或区段级别的自定义报告。通过逐步丰富客户的用户档案数据，跟踪消息并了解客户的行为。 利用报告和分析工具，您可以充分利用每一个新活动、更好地定位营销活动，并优化其影响力和投资回报。
+除了功能强大且开箱即用的报告模板之外，Adobe Campaign 还允许您创建有关投放、营销活动、用户或区段级别的自定义报告。 通过逐步丰富客户的用户档案数据，跟踪消息并了解客户的行为。 利用报告和分析工具，您可以充分利用每一个新活动、更好地定位营销活动，并优化其影响力和投资回报。
 
 图形界面提供对主要指标和投放统计信息的快速、轻松访问。
 
 ![](assets/dynamic_report_intro.png)
 
-营销活动报告用户界面有助于创建动态报告。 您可以使用拖放变量来自定义报告并分析营销活动是否成功。根据查询和计算的复杂性，可以将数据聚合到列表视图中，或以便于生成营销分析报告的格式进行访问。
+营销活动报告用户界面有助于创建动态报告。 您可以使用拖放变量来自定义报告并分析营销活动是否成功。 根据查询和计算的复杂性，可以将数据聚合到列表视图中，或以便于生成营销分析报告的格式进行访问。
 
 借助Adobe Campaign，您可以单独监控和跟踪每次投放。 消息仪表板显示用于跟进流程、规则的专用日志，并识别可能的错误和警告。
 
@@ -111,7 +110,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，无花白犀牛。 整数luctus blandit ligula。 小车乌古拉，一种大白鲨。 青紫色牛肝菌。 莫里斯大发雷霆。 无痕小车。 埃尼安·特卢斯·夸姆、三体quis risus consectetur、普维纳尔·莱门图姆·杜伊。
 
 **了解更多信息**
 
