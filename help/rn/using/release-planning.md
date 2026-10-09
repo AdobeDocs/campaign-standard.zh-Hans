@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # 发行计划 {#release-planning}
 
 Adobe 通过添加新功能、增强功能和修复错误，不断改进其解决方案。
@@ -30,39 +31,13 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 升级分两个阶段进行。 首先，升级“暂存”实例，这样，您就能够测试新功能并在需要时调整配置。 随后将升级“生产”实例。
 
-所有发行日期都可能会发生更改：请定期访问此页面以检查更新。 在下面指定的时间段内，将分批进行环境更新。 具体日期会通过电子邮件发送给每位客户。
+所有发行日期都可能会发生更改：请定期访问此页面以检查更新。 环境更新分批次进行。 具体日期会通过电子邮件发送给每位客户。
 
 ## 版本 26.3 {#release-26-3-release}
 
 当暂存环境升级开始时，有关此版本的详细信息可在[发行说明](release-notes.md)中获取。
 
-<table>
- <thead>
-  <tr>
-   <th> 环境 </th>
-   <th> 日期</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>暂存 </td>
-   <td>8 月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>生产 </td>
-   <td>9 月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+26.3版的升级日期尚不可用。 请定期访问此页面以检查更新。
 
 ## 问题与回答(&amp;A) {#questions-and-answers}
 
