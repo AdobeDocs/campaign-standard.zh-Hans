@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 53%
-
 ---
-
 # 配置电子邮件渠道{#configuring-email-channel}
 
 Campaign [管理员](../../administration/using/users-management.md#functional-administrators)可以配置电子邮件渠道设置。 这些高级设置包括常规电子邮件渠道参数、电子邮件路由帐户、电子邮件处理规则和电子邮件属性。 在此页面上，了解如何编辑常规电子邮件和发送参数的默认值。
@@ -44,10 +51,10 @@ Campaign [管理员](../../administration/using/users-management.md#functional-a
 
   Adobe Campaign 会检查在消息准备阶段期间输入的地址是否有效。 此操作模式可确保不使用可能触发可投放性问题的地址。
 
-   * 发件人地址和错误地址均由 Adobe 设置。 这些字段不能为空。
-   * 您无法编辑这些字段。 要更新地址，请与 Adobe 客户关怀团队联系。
-   * 要添加其他地址，您可以使用[促销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans)来设置新的子域，或与Adobe客户关怀团队联系。 请注意，如果使用多个掩码，则它们之间用逗号分隔。
-   * 使用星号（如&#x200B;**@yourdomain.com**）设置地址是很好的做法：它允许您使用以子域名结尾的任何地址。
+  * 发件人地址和错误地址均由 Adobe 设置。 这些字段不能为空。
+  * 您无法编辑这些字段。 要更新地址，请与 Adobe 客户关怀团队联系。
+  * 要添加其他地址，您可以使用[促销活动控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hans)来设置新的子域，或与Adobe客户关怀团队联系。 请注意，如果使用多个掩码，则它们之间用逗号分隔。
+  * 使用星号（如&#x200B;**@yourdomain.com**）设置地址是很好的做法：它允许您使用以子域名结尾的任何地址。
 
 * **可投放性**
 
@@ -237,10 +244,10 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**：此字段用于已上传的资源，主要用于镜像页面和图像。 本页上的资源仅在限制时间内有效（以节省磁盘空间）。
 * **[!UICONTROL Mirror page management]**：镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。 其内容与电子邮件内容相同。 默认情况下，如果将链接插入到邮件内容中，则会生成镜像页面。 使用此字段可修改生成此页面的方式：
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（默认模式）：如果将链接插入到邮件内容中，则会生成镜像页面。
-   * **强制生成镜像页面**：即使消息中未插入指向镜像页面的链接，也会创建镜像页面。
-   * **不生成镜像页面**：即使消息中存在链接，也不生成镜像页面。
-   * **生成仅可使用消息 ID 访问的镜像页面**：利用此选项，您可以在投放日志窗口中访问带有个性化信息的镜像页面内容。
+  * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（默认模式）：如果将链接插入到邮件内容中，则会生成镜像页面。
+  * **强制生成镜像页面**：即使消息中未插入指向镜像页面的链接，也会创建镜像页面。
+  * **不生成镜像页面**：即使消息中存在链接，也不生成镜像页面。
+  * **生成仅可使用消息 ID 访问的镜像页面**：利用此选项，您可以在投放日志窗口中访问带有个性化信息的镜像页面内容。
 
   >[!IMPORTANT]
   >

@@ -8,21 +8,24 @@ exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '593'
 ht-degree: 6%
-
 ---
-
 # 使用复合标识关键码调用资源{#calling-a-resource-using-a-composite-identification-key}
 
 在某些情况下，您可能需要为资源定义一个由两个字段组成的标识键。 配置标识键后，您需要配置过滤器定义，以便能够从Campaign Standard界面或API使用此标识键调用资源。
