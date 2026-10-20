@@ -87,7 +87,7 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 
 >[!IMPORTANT]
 >
->您需要遵守[Adobe Campaign可接受的使用策略](https://www.adobe.com/legal/terms/aup.html)。
+>您需要遵守[Adobe Campaign可接受的使用策略](https://www.adobe.com/cn/legal/terms/aup.html)。
 
 了解更多：
 
