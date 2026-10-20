@@ -61,7 +61,7 @@ Adobe Campaign 功能帮助您遵守以下法规：
 * **GDPR**（[通用数据保护条例](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是一项欧盟 (EU) 隐私法律，旨在协调欧盟国家或地区的数据保护要求并使之现代化。 请访问下面的链接以查找有关 GDPR 的常规信息：
 
    * https://www.adobe.com/cn/privacy/general-data-protection-regulation.html
-   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+   * https://www.adobe.com/cn/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**（[加州消费者隐私法案](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)）为加利福尼亚州居民提供与其个人信息有关的新权利，并要求在加利福尼亚开展业务的特定实体承担数据保护责任。
 * **PDPA**（[个人数据保护法案](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）是一项新的隐私法律，旨在协调泰国的数据保护要求并使之现代化。
