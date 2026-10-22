@@ -101,7 +101,7 @@ Adobe Campaign实时构建丰富的客户档案，允许您随着客户偏好变
 
 >[!IMPORTANT]
 >
->您需要遵守[Adobe Campaign可接受的使用策略](https://www.adobe.com/legal/terms/aup.html)。
+>您需要遵守[Adobe Campaign可接受的使用策略](https://www.adobe.com/cn/legal/terms/aup.html)。
 
 了解更多：
 
@@ -124,4 +124,4 @@ Adobe Campaign提供一套工具来帮助您遵守&#x200B;**隐私合规性**（
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共享受众](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流导入用户档案](../../automating/using/creating-import-workflow-templates.md)
-* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [用户档案和受众视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=zh-Hans)

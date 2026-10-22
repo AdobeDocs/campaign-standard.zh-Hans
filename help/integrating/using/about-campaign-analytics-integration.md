@@ -52,6 +52,6 @@ Adobe Analytics核心服务&#x200B;**触发器**&#x200B;与Adobe Campaign的集�
 
 **相关主题：**
 
-* [Campaign Standard与Analytics集成概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [配置Campaign Standard集成](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign Standard与Analytics集成概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=zh-Hans)
+* [配置Campaign Standard集成](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=zh-Hans)
 * [Analytics 中的 Campaign 维度和指标](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

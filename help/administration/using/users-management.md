@@ -76,7 +76,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 **相关主题：**
 
-* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)视频
+* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=zh-Hans)视频
 * [角色列表](../../administration/using/list-of-roles.md)
 * [授权列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
