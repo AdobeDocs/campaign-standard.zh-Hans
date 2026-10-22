@@ -8,25 +8,34 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
+TQID: 'https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1208
+source-wordcount: '1218'
 ht-degree: 3%
-
 ---
-
 # 故障排除{#troubleshooting}
 
 您可以在此部分中找到与动态报告相关的常见问题。
@@ -119,9 +128,9 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 ## 如何计算定期/事务投放的计数？ {#counts-recurring-deliveries}
 
 处理循环和事务型投放时，这些计数将同时归属于父投放和子投放。
-我们以名为&#x200B;**R1**&#x200B;的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
-假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放会分别将&#x200B;**[!UICONTROL Open]**&#x200B;计数显示为1。
-但是，由于同一人单击了所有投放，因此父定期投放也将&#x200B;**[!UICONTROL Unique open]**&#x200B;作为1。
+我们以名为**R1**的定期投放为例，该投放设置为在第1天(RC1)、第2天(RC2)和第3天(RC3)每天运行。
+假设只有一个人员多次打开所有子投放。 在这种情况下，各个定期子投放会分别将**[!UICONTROL Open]**计数显示为1。
+但是，由于同一人单击了所有投放，因此父定期投放也将**[!UICONTROL Unique open]**&#x200B;作为1。
 
 报表应如下所示：
 
@@ -211,16 +220,16 @@ P1在第一天打开电子邮件两次，然后在第二天打开电子邮件树
 
   例如：
 
-   * 如果用户档案A在不同的日期打开电子邮件，则按日期划分的用户档案将在三行中显示A，但在标题中，A将被计为1。
+  * 如果用户档案A在不同的日期打开电子邮件，则按日期划分的用户档案将在三行中显示A，但在标题中，A将被计为1。
 
-   * 如果个人资料A在同一天点击电子邮件中的三个不同链接，则按跟踪URL划分的将在三行中显示A，但在标题中，A将被计为1。 这同样适用于按设备和浏览器进行的划分。
+  * 如果个人资料A在同一天点击电子邮件中的三个不同链接，则按跟踪URL划分的将在三行中显示A，但在标题中，A将被计为1。 这同样适用于按设备和浏览器进行的划分。
 
 * **打开量度**：打开次数计数是通过汇总实际打开事件和独特点击事件（按收件人ID）的总计来确定的，不包括由于没有打开事件无法点击电子邮件链接而未发生打开事件的情况。
 
   例如：
 
-   * 当配置文件A打开跟踪电子邮件（带URL U1）时，它将注册为打开事件，URL标为null。 稍后单击U1会生成一个单击事件。 尽管A对U1的点击也计为打开事件，但U1没有特定的打开事件。 因此，A在唯一打开计数中只被计数一次。
+  * 当配置文件A打开跟踪电子邮件（带URL U1）时，它将注册为打开事件，URL标为null。 稍后单击U1会生成一个单击事件。 尽管A对U1的点击也计为打开事件，但U1没有特定的打开事件。 因此，A在唯一打开计数中只被计数一次。
 
-   * 用户档案R在第1天打开电子邮件，注册打开事件，然后单击链接。 在接下来的两天中， R会重新打开电子邮件并再次单击链接，从而每天生成一次点击事件。 虽然R的参与每天在Open编号中进行跟踪，但R在列标题中仅计数一次，侧重于唯一参与。
+  * 用户档案R在第1天打开电子邮件，注册打开事件，然后单击链接。 在接下来的两天中， R会重新打开电子邮件并再次单击链接，从而每天生成一次点击事件。 虽然R的参与每天在Open编号中进行跟踪，但R在列标题中仅计数一次，侧重于唯一参与。
 
 * **否定事件**：在报表中，否定事件表示最初标记为成功但在重试后最终失败的投放尝试。 这些值由计数–1表示。 为避免混淆，这些负数会从显示的投放量度数字中排除。 因此，投放量度的所有行总数可能与列标题数字不匹配。

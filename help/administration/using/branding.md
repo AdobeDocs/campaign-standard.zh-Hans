@@ -7,26 +7,38 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+TQID: 'https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 73%
-
 ---
-
 # 品牌化{#branding}
 
 ## 关于品牌标识 {#about-brand-identity}
@@ -59,20 +71,20 @@ ht-degree: 73%
 
   ![](assets/branding_01.png)
 
-   * 显示在界面中的 **Label**
-   * **Brand name**
-   * 品牌的 **Website URL** 和 **Website label**
-   * **Brand logo**
+  * 显示在界面中的 **Label**
+  * **Brand name**
+  * 品牌的 **Website URL** 和 **Website label**
+  * **Brand logo**
 
 * **[!UICONTROL Header parameters of sent emails]** 可将展示给营销策划收件人的标题个性化。 此部分包含以下字段：
 
   ![](assets/branding_04_header.png)
 
-   * 使用品牌电子邮件地址的 **Sender (email address)**。
-   * 使用品牌名称的 **Sender (name)**。
-   * 带有客户回信用电子邮件地址的 **Reply to (email address)**。
-   * 带有品牌名称的 **Reply to (name)**。
-   * 带有出错回复用电子邮件地址的 **Error (email address)**。
+  * 使用品牌电子邮件地址的 **Sender (email address)**。
+  * 使用品牌名称的 **Sender (name)**。
+  * 带有客户回信用电子邮件地址的 **Reply to (email address)**。
+  * 带有品牌名称的 **Reply to (name)**。
+  * 带有出错回复用电子邮件地址的 **Error (email address)**。
 
   >[!IMPORTANT]
   >
@@ -82,9 +94,9 @@ ht-degree: 73%
 
   ![](assets/configure_branding_04.png)
 
-   * 用于托管和访问您创建的各种登陆页面的&#x200B;**应用程序服务器外部 URL**。
-   * **External URL of the tracking server** 用作投放期间的跟踪 URL。
-   * **External URL of the mirror page server** 用作投放中的默认镜像页面。
+  * 用于托管和访问您创建的各种登陆页面的&#x200B;**应用程序服务器外部 URL**。
+  * **External URL of the tracking server** 用作投放期间的跟踪 URL。
+  * **External URL of the mirror page server** 用作投放中的默认镜像页面。
 
   >[!NOTE]
   >
@@ -100,7 +112,7 @@ ht-degree: 73%
 
 您可以在Campaign中添加组织的新实体，或创建必须在其他子域下发送的新类型电子邮件。 要执行此操作，请按照以下步骤进行：
 
-1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 请参阅本文[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans)以了解有关子域配置的更多信息。
+1. **配置新子域** — 对于Adobe要使用的任何新子域，第一步是对其进行配置。 您可以通过[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hans)或联系您的Adobe技术联系人来执行此操作。 请参阅本文](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)以了解有关子域配置[的更多信息。
 
    >[!NOTE]
    >
@@ -118,7 +130,7 @@ ht-degree: 73%
 
 1. **创建投放模板** — 新品牌可用后，最佳做法是至少创建一个引用此新品牌的新空白投放模板。 [了解详情](#linking-a-brand-to-a-template)。
 
-1. **检查可投放性准则** — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 在本节[&#128279;](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践的更多信息。
+1. **检查可投放性准则** — 在开始使用新域之前，应与Adobe可投放性团队讨论该策略。 例如，如果应该创建新的关联以便在域之间拆分IP，和/或是否应定义提升计划，则这些规则将有助于定义最佳实践。 在本节](../../sending/using/about-deliverability.md)中了解有关可投放性最佳实践[的更多信息。
 
 ## 为品牌分配电子邮件 {#assigning-a-brand-to-an-email}
 

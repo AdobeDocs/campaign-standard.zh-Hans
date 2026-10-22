@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1263'
 ht-degree: 83%
-
 ---
-
 # Campaign Email Designer{#designing-content-in-adobe-campaign}
 
 在 Adobe Campaign 中创建电子邮件后，您需要定义其内容。
@@ -46,9 +56,9 @@ Email Designer 旨在提供为响应式设计而优化的 HTML，因此使您能
 * 要了解如何创建电子邮件内容，请参阅 [Email Designer 入门](../../designing/using/quick-start.md)。
 * 有关 Email Designer 的概述，请参阅[使用 Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 有关构建内容的更多信息：
-   * 从头开始，请参阅[从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
-   * 使用现有内容，请参阅[使用现有内容进行设计](../../designing/using/using-existing-content.md)。
-   * 使用 Creative Cloud 集成，请参阅[多解决方案电子邮件设计](../../designing/using/using-integrations.md)。
+  * 从头开始，请参阅[从头开始设计电子邮件](../../designing/using/designing-from-scratch.md)。
+  * 使用现有内容，请参阅[使用现有内容进行设计](../../designing/using/using-existing-content.md)。
+  * 使用 Creative Cloud 集成，请参阅[多解决方案电子邮件设计](../../designing/using/using-integrations.md)。
 * 有关个性化的更多信息，请参阅[个性化](../../designing/using/personalization.md)。
 
 创建电子邮件时，您可以选择使用预定义模板或从其他源加载现有内容。 请参阅[选择现有内容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
@@ -179,6 +189,6 @@ Adobe 建议将内容更新为最新版本，以避免 CSS 冲突问题之类的
 
 此视频概要介绍了Email Designer。
 
->[!VIDEO](https://video.tv.adobe.com/v/330104?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-要开始使用Email Designer，请观看此[视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hans#GettingStarted)，其中说明了Email Designer的一般功能以及如何从头开始或使用模板来设计电子邮件
+要开始使用Email Designer，请观看此[视频集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中说明了Email Designer的一般功能以及如何从头开始或使用模板来设计电子邮件

@@ -6,42 +6,63 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+TQID: 'https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 81%
-
 ---
-
 # 用户管理{#users-management}
 
 ## 关于用户 {#about-users}
 
 Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以访问界面的哪些部分。
 
-以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)。
+以下各节详细介绍了各种特定的角色和相应的权限：[了解角色](../../administration/using/list-of-roles.md)和[权限](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 管理员可以从Admin Console管理用户。 然后，用户将自动与 Adobe Campaign 同步。 有关详细信息，请参阅[Admin Console](https://helpx.adobe.com/cn/enterprise/using/users.html)文档。
 
@@ -55,9 +76,9 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 **相关主题：**
 
-* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=zh-Hans)视频
+* [管理用户权限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)视频
 * [角色列表](../../administration/using/list-of-roles.md)
-* [授权列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+* [授权列表](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## 用户类型 {#type-of-users}
 
@@ -83,7 +104,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 >
 >只有角色为&#x200B;**[!UICONTROL Administration]**&#x200B;且有权访问&#x200B;**所有**&#x200B;单位的功能管理员才能访问发送日志、消息日志、跟踪日志、排除日志、建议日志和订阅日志。 非管理员用户可以定位这些日志，但从链接表（用户档案、投放）开始。
 
-功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。 由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。 这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。 有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
+功能管理员是唯一可访问 Adobe Campaign 界面 **[!UICONTROL Administration]** 菜单的用户。 由于这些用户需要访问技术资源，因此应该为他们分配更高级的角色，例如 **[!UICONTROL Administration]** 和 **[!UICONTROL Datamodel]** 即装即用角色。 这些角色将在 **[!UICONTROL Administrators]** 即装即用安全组中进行组合。 有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
 下方提供了他们可以执行的主要任务：
 
@@ -99,7 +120,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 高级用户是在 Adobe Campaign 中执行技术性使用案例的营销用户。 他们负责预配置营销人员发送和监控投放所需的所有元素。
 
-与功能管理员相比，此类用户需要进行较多的常规操作，但仍应能够执行一些技术操作。 为此，应该为他们分配诸如 **[!UICONTROL Export]**、**[!UICONTROL Generic import]** 或 **[!UICONTROL Workflow]** 即装即用角色。 有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
+与功能管理员相比，此类用户需要进行较多的常规操作，但仍应能够执行一些技术操作。 为此，应该为他们分配诸如 **[!UICONTROL Export]**、**[!UICONTROL Generic import]** 或 **[!UICONTROL Workflow]** 即装即用角色。 有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
 下方提供了他们可以执行的主要任务：
 
@@ -111,7 +132,7 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 ### 基本用户 {#basic-users}
 
-借助功能管理员和高级用户的帮助，营销人员可以集中精力进行个性化、投放和监控活动，而无需考虑技术配置。 为此，应该为他们分配诸如 **[!UICONTROL Prepare deliveries]**、**[!UICONTROL Workflow]** 和 **[!UICONTROL Start deliveries]** 即装即用角色。 这些角色将在 **[!UICONTROL Standard Users]** 即装即用安全组中进行组合。 有关更多信息，请参阅此[&#128279;](../../administration/using/list-of-roles.md)章节。
+借助功能管理员和高级用户的帮助，营销人员可以集中精力进行个性化、投放和监控活动，而无需考虑技术配置。 为此，应该为他们分配诸如 **[!UICONTROL Prepare deliveries]**、**[!UICONTROL Workflow]** 和 **[!UICONTROL Start deliveries]** 即装即用角色。 这些角色将在 **[!UICONTROL Standard Users]** 即装即用安全组中进行组合。 有关更多信息，请参阅此](../../administration/using/list-of-roles.md)章节[。
 
 下方提供了他们可以执行的主要任务：
 
@@ -178,6 +199,6 @@ Adobe Campaign 允许您为用户分配一系列角色，以定义他们可以�
 
 本视频说明如何管理用户访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/35856?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

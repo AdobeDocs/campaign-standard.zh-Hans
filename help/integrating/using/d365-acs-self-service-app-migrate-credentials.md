@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-TQID: https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k
+TQID: 'https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: '598'
 ht-degree: 1%
-
 ---
-
 # 将凭据从 JWT 机制迁移到 OAuth 服务器到服务器机制
 
 服务帐户(JWT)凭据已弃用，支持新的OAuth服务器到服务器凭据。 新的凭据使您能够更轻松地维护Adobe应用程序。 它还消除定期轮换证书的需要，并使用标准OAuth2库开箱即用。
@@ -38,7 +47,7 @@ ht-degree: 1%
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**&#x200B;以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
+3. 从左侧导航栏中打开服务帐户(JWT)凭据选项卡，并查看迁移卡。 在迁移卡上，单击按钮&#x200B;**添加新凭据**以添加等效的OAuth服务器到服务器凭据。 将OAuth服务器到服务器凭据添加到您的项目将开始迁移。
    ![](assets/JwtToOAuthMigration2.png)
 4. 新凭据&#x200B;**OAuth服务器到服务器**&#x200B;将添加到左侧导航中。
    * 如果要取消迁移，请单击取消迁移。
@@ -67,5 +76,5 @@ ht-degree: 1%
      ![](assets/JwtToOAuthMigration5.png)
    * 查看上次访问或上次使用菜单的时间戳，以验证集成应用程序是使用新的OAuth凭据生成访问令牌，还是仍使用旧的JWT凭据。
      ![](assets/JwtToOAuthMigration6.png)
-   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**&#x200B;按钮继续删除旧凭据，从而完成迁移。
+   * 在验证集成应用程序正在使用新的OAuth凭据并且不再使用JWT凭据后，单击&#x200B;**确认并继续**按钮继续删除旧凭据，从而完成迁移。
      ![](assets/JwtToOAuthMigration7.png)

@@ -9,18 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+TQID: 'https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '324'
 ht-degree: 24%
-
 ---
-
 # 关于数据导入和导出{#about-data-import-and-export}
 
 根据您的业务需求，您可以通过多种方法来使用Adobe Campaign导入和导出数据：
@@ -29,8 +40,8 @@ ht-degree: 24%
 * **列表**：可以配置所有列表屏幕，显示的数据以单独的文件导出。
 * **工作流**：从文件导入数据，并使用它更新数据库或发送电子邮件。 您还可以选择要导出到文件中的数据。 工作流是自动执行定期更新（如用户档案导入）的最佳方法。
 
-   * 利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。 此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。 有关如何使用此活动的详细信息，请参阅[此部分](../../automating/using/load-file.md)。
-   * 利用 **[!UICONTROL Transfer file]** 活动，可接收或发送文件、测试文件是否存在或列出 Adobe Campaign 中的文件。 如果您需要从外部源检索文件，可以在&#x200B;**[!UICONTROL Load file]**&#x200B;之前使用此活动。 有关如何使用此活动的详细信息，请参阅[此部分](../../automating/using/transfer-file.md)。
+  * 利用 **[!UICONTROL Load file]** 活动，可将数据导入一个结构化表单，以便在 Adobe Campaign 中使用该数据。 此时数据属于临时导入，需要进行另一个活动才能将其确实集成到 Adobe Campaign 数据库中。 有关如何使用此活动的详细信息，请参阅[此部分](../../automating/using/load-file.md)。
+  * 利用 **[!UICONTROL Transfer file]** 活动，可接收或发送文件、测试文件是否存在或列出 Adobe Campaign 中的文件。 如果您需要从外部源检索文件，可以在&#x200B;**[!UICONTROL Load file]**&#x200B;之前使用此活动。 有关如何使用此活动的详细信息，请参阅[此部分](../../automating/using/transfer-file.md)。
 
 在设计导入流程时，最佳实践是使用可以根据您的需求调整的工作流模板。 有关如何设置工作流模板以导入数据的详细信息，请参阅[此用例](../../automating/using/creating-import-workflow-templates.md)。
 

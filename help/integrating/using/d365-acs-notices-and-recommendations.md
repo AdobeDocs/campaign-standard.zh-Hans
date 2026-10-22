@@ -9,26 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2582
+source-wordcount: '2582'
 ht-degree: 1%
-
 ---
-
 # 最佳实践和限制 {#acs-msdyn-best-practices}
 
 ## 管理数据 {#acs-msdyn-manage-data}
@@ -170,13 +186,13 @@ ht-degree: 1%
 
   使用以下内容帮助估算集成中的引擎调用量：
 
-   * 记录插入（即新记录）：1个引擎调用
-   * 记录删除： 1个引擎调用
-   * 记录更新：2个引擎调用（如果目标记录与源记录相同，即如果促销活动记录没有更改，则仅调用1个）
+  * 记录插入（即新记录）：1个引擎调用
+  * 记录删除： 1个引擎调用
+  * 记录更新：2个引擎调用（如果目标记录与源记录相同，即如果促销活动记录没有更改，则仅调用1个）
 
   在估计整个Campaign引擎调用量时，务必要考虑其他引擎调用源，包括登陆页面、WebApps、JSSP、API、移动应用程序注册等。
 
-  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
+  在此处查看Adobe Campaign Standard包信息：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)
 
 * 该集成最多支持在Campaign中首次同步到资源的总共1500万条记录。 增量同步受Adobe Campaign Standard包限制。
 
@@ -194,7 +210,7 @@ ht-degree: 1%
 
 * 请注意，集成使用率显着增加或“激增”（例如，新记录或更新记录急剧增加）可能会导致数据同步速度减慢。
 
-* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[&#128279;](../../integrating/using/d365-acs-configure-d365.md)
+* 作为集成的一部分，您需要在Microsoft Azure和Dynamics 365中完成集成前配置步骤。 请参阅此页面上的配置步骤[](../../integrating/using/d365-acs-configure-d365.md)
 
 * 预计您会将Dynamics 365和Campaign数据模型引入集成并对其进行维护。
 

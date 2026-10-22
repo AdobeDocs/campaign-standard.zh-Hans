@@ -8,24 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+TQID: 'https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1072'
 ht-degree: 2%
-
 ---
-
 # 计算发送日期{#computing-the-sending-date}
 
 您可以定义一个公式，以在特定日期和时间将消息发送给每个收件人。
@@ -52,7 +62,7 @@ ht-degree: 2%
 
    * 填写&#x200B;**[!UICONTROL Segment code]**&#x200B;字段：手动输入发送消息的所需日期和时间。
 
-     例如，您想在6月1日上午10:00 GMT+1发送第一批。 使用以下格式： **`YYYY-MM-DD hh:mm:ss+tz`**。
+     例如，您希望在6月1日上午10:00 GMT+1发送第一批。 使用以下格式： **`YYYY-MM-DD hh:mm:ss+tz`**。
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -60,9 +70,9 @@ ht-degree: 2%
 
      对于剩余的段，按以下方式定义后续的批：
 
-      * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+     * **2017-06-03 10:00:00+01**
+     * **2017-06-04 10:00:00+01**
+     * **2017-06-05 10:00:00+01**
 
    * 确保选择&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;选项。
 
@@ -128,10 +138,10 @@ ht-degree: 2%
 
    * 按以下方式定义区段代码：
 
-      * 上午8:00 - 10:00上午： **0**。 消息将于上午8:00（联系日期）发送到目标群体的第一季度。
-      * 上午10:00 — 下午12:00： **2**。 消息将于上午10:00（联系日期+ 2小时）发送到目标群体的第二季度。
-      * 下午2:00 — 下午4:00： **6**。 呼叫中心在中午12:00点到下午2:00点之间关闭，消息将在下午2:00点（联系日期+ 6个小时）发送到目标群体的第三季度。
-      * 下午4:00 - 6:00下午： **8**。 消息将在下午4:00（联系日期+ 8小时）发送给目标群体的上一季度。
+     * 上午8:00 - 10:00： **0**。 该消息将于上午8:00（联系日期）发送给目标群体的第一季度。
+     * 上午10:00 — 中午12:00： **2**。 该消息将于上午10:00（联系日期+ 2小时）发送到目标群体的第二季度。
+     * 下午2:00 — 下午4:00： **6**。 呼叫中心在下午12:00到下午2:00之间关闭，则消息将在下午2:00（联系日期+ 6个小时）发送到目标人口的第三季度。
+     * 下午4:00 — 下午6:00： **8**。 该消息将在下午4:00（联系日期+ 8小时）发送给目标群体的最后一个季度。
 
      >[!NOTE]
      >
@@ -181,7 +191,7 @@ ht-degree: 2%
 
 1. 确认以保存表达式。 确认计划，保存投放并执行工作流。
 
-* 第一个区段将在联系日期（5月25日上午8:00）收到消息。
+* 第一部分将在联系日期（5月25日上午8:00）收到消息。
 * 第二个区段将在两小时后（5月25日上午10:00）收到消息。
-* 第三个区段将在六小时后（5月25日下午2:00）收到消息。
-* 第四个区段将在八小时后（5月25日下午4:00）收到消息。
+* 第三部分将在6小时后（5月25日下午2:00）收到消息。
+* 第四个区段将在八小时后（5月25日下午4点）收到消息。

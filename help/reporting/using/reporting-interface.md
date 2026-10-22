@@ -8,23 +8,34 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
+TQID: 'https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Insights
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 3%
-
 ---
-
 # 报告界面{#reporting-interface}
 
 例如，顶部工具栏允许您修改、保存或打印报告。
@@ -121,37 +132,37 @@ ht-degree: 3%
 
 * **[!UICONTROL Send report now]**：通过一次性电子邮件将报告发送给选定的收件人列表。
 
-   1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;窗口中，根据需要添加描述。
+  1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;窗口中，根据需要添加描述。
 
-      ![](assets/tab_share_4.png)
+     ![](assets/tab_share_4.png)
 
-   1. 从下拉列表中选择收件人。 请注意，您不能选择组织外部的用户。
-   1. 如果要发送定期电子邮件，请勾选&#x200B;**[!UICONTROL Show scheduling options]**。 也可以通过在&#x200B;**[!UICONTROL Share]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Send Report on schedule]**&#x200B;来完成此操作。
-   1. 单击 **[!UICONTROL Send now]**。 然后，收件人将收到一封电子邮件，其中包含您的附加报告。
+  1. 从下拉列表中选择收件人。 请注意，您不能选择组织外部的用户。
+  1. 如果要发送定期电子邮件，请勾选&#x200B;**[!UICONTROL Show scheduling options]**。 也可以通过在&#x200B;**[!UICONTROL Share]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL Send Report on schedule]**&#x200B;来完成此操作。
+  1. 单击 **[!UICONTROL Send now]**。 然后，收件人将收到一封电子邮件，其中包含您的附加报告。
 
 * **[!UICONTROL Send report on schedule]**：计划您的报告并向收件人发送定期电子邮件。
 
-   1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;窗口中，根据需要添加描述。
-   1. 从下拉列表中选择收件人。 请注意，您不能选择组织外部的用户。
+  1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;窗口中，根据需要添加描述。
+  1. 从下拉列表中选择收件人。 请注意，您不能选择组织外部的用户。
 
-      ![](assets/tab_share_5.png)
+     ![](assets/tab_share_5.png)
 
-   1. 选择您的开始日期和结束日期以在&#x200B;**[!UICONTROL Starting on]**&#x200B;和&#x200B;**[!UICONTROL Ending on]**&#x200B;字段中配置电子邮件有效期。
-   1. 选择发送电子邮件的频率。
+  1. 选择您的开始日期和结束日期以在&#x200B;**[!UICONTROL Starting on]**&#x200B;和&#x200B;**[!UICONTROL Ending on]**&#x200B;字段中配置电子邮件有效期。
+  1. 选择发送电子邮件的频率。
 
-      ![](assets/tab_share_2.png)
+     ![](assets/tab_share_2.png)
 
-   1. 单击&#x200B;**[!UICONTROL Send on schedule]**，收件人将根据所选的频率接收定期电子邮件。
+  1. 单击&#x200B;**[!UICONTROL Send on schedule]**，收件人将根据所选的频率接收定期电子邮件。
 
 * **[!UICONTROL Scheduled reports]**：查找并配置所有计划报告。
 
-   1. 在&#x200B;**[!UICONTROL Scheduled reports]**&#x200B;窗口中，查找所有定期发送的报告。
+  1. 在&#x200B;**[!UICONTROL Scheduled reports]**&#x200B;窗口中，查找所有定期发送的报告。
 
-      ![](assets/tab_share_3.png)
+     ![](assets/tab_share_3.png)
 
-   1. 如果需要删除计划报告之一，请选择要删除的计划报告，然后单击&#x200B;**[!UICONTROL Delete the section]**。
-   1. 要配置或检查计划报表，请直接单击需要更改的报告。
-   1. 出现&#x200B;**[!UICONTROL Edit scheduled report]**&#x200B;窗口，您现在可以根据需要更改电子邮件的收件人或频率。
+  1. 如果需要删除计划报告之一，请选择要删除的计划报告，然后单击&#x200B;**[!UICONTROL Delete the section]**。
+  1. 要配置或检查计划报表，请直接单击需要更改的报告。
+  1. 出现&#x200B;**[!UICONTROL Edit scheduled report]**&#x200B;窗口，您现在可以根据需要更改电子邮件的收件人或频率。
 
 随后，定向用户将收到一封电子邮件，其中包含您的报告，并直接附加在其收件箱中。 用户始终可以使用每封定期电子邮件中的退订链接决定停止接收定期电子邮件。
 

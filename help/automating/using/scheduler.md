@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 52%
-
 ---
-
 # 调度程序{#scheduler}
 
 ## 说明 {#description}
@@ -76,19 +85,19 @@ ht-degree: 52%
 
    * 要在一天中定期执行工作流，请打开&#x200B;**[!UICONTROL Periodic]**&#x200B;选项，然后配置执行周期：
 
-      1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;字段中，指定工作流应执行的间隔（例如，每30分钟、每2小时）。
+     1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;字段中，指定工作流应执行的间隔（例如，每30分钟、每2小时）。
 
-         >[!NOTE]
-         >
-         >此选项还允许每日、每月或每年重复频率。 请注意，在这种情况下，工作流不会每天执行多次，而是根据您在此字段中指定的频率执行。
-         >
-         > 如果您的工作流不需要在一天内多次执行，而是需要每天、每月或每年运行，则最好使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉列表中提供的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;选项。
+        >[!NOTE]
+        >
+        >此选项还允许每日、每月或每年重复频率。 请注意，在这种情况下，工作流不会每天执行多次，而是根据您在此字段中指定的频率执行。
+        >
+        > 如果您的工作流不需要在一天内多次执行，而是需要每天、每月或每年运行，则最好使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉列表中提供的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;选项。
 
-      1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;时间字段中，定义工作流执行的开始和结束时间。
+     1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;时间字段中，定义工作流执行的开始和结束时间。
 
-         如果未指定结束时间，则执行将在午夜00:00:00时终止，并在第二天指定的开始时间开始下一次执行。
+        如果未指定结束时间，则执行将在午夜00:00:00时终止，并在第二天指定的开始时间开始下一次执行。
 
-      1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期字段中，选择第一次执行的开始日期。
+     1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期字段中，选择第一次执行的开始日期。
 
    在下面的示例中，活动配置为从3月1日开始每隔2小时执行一次工作流，时间介于上午8点至下午5点。
 

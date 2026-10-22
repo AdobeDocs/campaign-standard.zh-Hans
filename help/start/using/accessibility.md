@@ -8,24 +8,29 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-TQID: https://experienceleague.adobe.com/tRlMSUm-bynVDmN2YClSdIvfWmwmh-9sNublU2wFnpo
+TQID: 'https://experienceleague.adobe.com/tRlMSUm-bynVDmN2YClSdIvfWmwmh-9sNublU2wFnpo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Accessibility
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 661
-ht-degree: 100%
-
+source-wordcount: '663'
+ht-degree: 95%
 ---
-
 # Adobe Campaign Standard 中的辅助功能 {#accessibility-acs}
 
 了解 Adobe Campaign Standard 工作区中的辅助功能支持。
@@ -40,11 +45,11 @@ Adobe Campaign Standard 提供使其更便于使用的功能，例如对比度�
 
 Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对比度，以确保视力低下或色觉缺失的用户具有无障碍的观看体验。
 
-* 大文本和标题已得到增强，达到 3:1 对比度。
+* 大文本和标题已得到增强，达到3:1的对比度。
 
   ![](assets/accessibility_2.png)
 
-* 应用程序中的帮助内容和正文文本已更新，达到 4.5:1 的对比度。
+* 应用程序中的帮助内容和正文文本已更新，达到4.5:1的对比度。
 
 * 工作流的暂停和取消图标已更新，以提高背景色和前景色之间的对比度。
 
@@ -60,7 +65,7 @@ Adobe Campaign Standard 用户界面通过向可视元素添加替代文本以�
 
   ![](assets/accessibility_3.png)
 
-* 鼠标悬停或聚焦时显示的内容可被用户关闭，并且不会遮挡其他内容。
+* 鼠标悬停或聚焦时显示的内容可被用户忽略，并且不会模糊其他内容。
 
   ![](assets/accessibility_4.png)
 

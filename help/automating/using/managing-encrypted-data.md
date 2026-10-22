@@ -9,18 +9,33 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-TQID: https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I
+TQID: 'https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 934
-ht-degree: 5%
-
+source-wordcount: '934'
+ht-degree: 7%
 ---
-
 # 管理加密数据 {#managing-encrypted-data}
 
 ## 关于预处理阶段 {#about-preprocessing-stages}
@@ -47,7 +62,7 @@ ht-degree: 5%
 * [加载文件](../../automating/using/load-file.md)
 * [提取文件](../../automating/using/extract-file.md)
 
-## 用例：导入使用控制面板生成的密钥加密的数据 {#use-case-gpg-decrypt}
+## 用例：使用控制面板生成的密钥导入加密数据 {#use-case-gpg-decrypt}
 
 在此使用案例中，构建一个工作流，以使用在控制面板中生成的密钥导入已在外部系统中加密的数据。
 
@@ -55,7 +70,7 @@ ht-degree: 5%
 
 执行此用例的步骤如下：
 
-1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#decrypting-data)中提供了详细步骤。
+1. 使用控制面板生成密钥对（公共/私有）。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了详细步骤。
 
    * 公共密钥将与外部系统共享，外部系统将使用它来加密要发送到Campaign的数据。
    * Campaign将使用私钥对传入的加密数据进行解密。
@@ -99,7 +114,7 @@ ht-degree: 5%
 
 执行此用例的步骤如下：
 
-1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hans#encrypting-data)中提供了详细步骤。
+1. 使用GPG实用程序生成GPG密钥对（公共/私有），然后将公共密钥安装到控制面板上。 [控制面板文档](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了详细步骤。
 
    ![](assets/gpg_install.png)
 
@@ -133,10 +148,10 @@ ht-degree: 5%
 
 本视频说明如何使用GPG密钥解密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 本视频说明如何使用GPG密钥加密数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/41338?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 [此处](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans)提供了其他Campaign Standard操作方法视频。

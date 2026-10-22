@@ -10,18 +10,33 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 4%
 ---
-
 # 关于 Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[中了解更多](../../rn/using/deprecated-features.md)
+>Adobe Experience Platform Data Connector现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面](../../rn/using/deprecated-features.md)中了解更多[
 
 Adobe Experience Platform Data Connector通过将XTK数据（在Campaign中引入的数据）映射到Adobe Experience Platform上的Experience Data Model (XDM)数据，帮助现有客户使其数据在Adobe Experience Platform上可用。
 
@@ -38,14 +53,14 @@ Adobe Experience Platform Data Connector面向&#x200B;**数据工程师**，他�
 >
 >可以通过API或Adobe Experience Platform界面执行此操作。 有关更多信息，请参阅专用文档：
 >
->* [为实时客户个人资料启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=zh-Hans)
->* [使用API为Real-time Customer Profile和Identity服务配置数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=zh-Hans)
+>* [为实时客户个人资料启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [使用API为Real-time Customer Profile和Identity服务配置数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## 重要概念 {#key-concepts}
 
 * 开箱即用映射仅适用于默认情况下Campaign Standard中提供的字段。 为了摄取所有自定义字段和资源，每个客户需要定义自己的映射。
 
-* Adobe Experience Platform Data Connector将定期通过平台推送用户档案数据&#x200B;。 间隔持续时间为15分钟。 可以使用[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans)修改此值。
+* Adobe Experience Platform Data Connector将定期通过平台推送配置文件数据&#x200B;。间隔持续时间为15分钟。 可以使用[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)修改此值。
 
 * 数据工程师可以发布、修改和暂停从Campaign到Adobe Experience Platform的映射。
 
@@ -59,7 +74,7 @@ Adobe Experience Platform Data Connector面向&#x200B;**数据工程师**，他�
 
 * Experience Cloud ID服务(ECID)是一个设备标识符，默认情况下通过Experience Events发送。
 
-  它是分配给访客的唯一永久性ID，可供Platform Identity服务用来在不同的Experience Cloud解决方案中识别同一访客及其数据。 有关详细信息，请参阅[Experience Cloud Identity Service帮助](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+  它是分配给访客的唯一永久性ID，可供Platform Identity服务用来在不同的Experience Cloud解决方案中识别同一访客及其数据。 有关详细信息，请参阅[Experience Cloud Identity服务帮助](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
   >[!NOTE]
   >
@@ -69,7 +84,7 @@ Adobe Experience Platform Data Connector面向&#x200B;**数据工程师**，他�
 
 * 不支持开箱即用的订阅事件传输。 要传输订阅事件，您可以在Adobe Experience Platform上创建相应的XDM和数据集，然后为这些数据配置自定义数据映射。
 
-* 关于隐私请求（访问和删除操作），客户需要通过[隐私核心服务](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans#how-to-use-privacy-service-to-manage-privacy-job-requests)发出单独的请求：一个用于Campaign，一个用于Adobe Experience Platform。 有关此内容的更多信息，请参阅Campaign中的[关于隐私请求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)和[管理隐私请求](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+* 关于隐私请求（访问和删除操作），客户需要通过[隐私核心服务](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)发出单独的请求：一个用于Campaign，一个用于Adobe Experience Platform。 有关此内容的更多信息，请参阅Campaign中的[关于隐私请求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hans#getting-started)和[管理隐私请求](https://helpx.adobe.com/cn/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 * 对于每个XDM字段，需要在Adobe Experience Platform中完成DULE标签设置。 客户有责任应用DULE标签。
 
@@ -81,6 +96,6 @@ Adobe Experience Platform Data Connector面向&#x200B;**数据工程师**，他�
 
 此视频概述Adobe Experience Platform Data Connector。
 
->[!VIDEO](https://video.tv.adobe.com/v/34316?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=zh-Hans)提供了与Adobe Experience Platform Data Connector相关的其他视频。
+[此处](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)提供了与Adobe Experience Platform Data Connector相关的其他视频。

@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # 映射定义 {#mapping-definition}
 
 >[!IMPORTANT]
@@ -43,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile [启用数据集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=zh-Hans)。
+>对于要摄取到Real-time Customer Profile或Identity Service的批次，必须为Real-time Customer Profile ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)启用数据集[。
 >
 >如果您选择的数据集已在现有数据映射中使用，则会出现一条警告，通知您可能会在Adobe Experience Platform上覆盖您的数据。 当使用同一数据集的数据映射中存在一些常见收件人时，可能会发生此情况。
 
@@ -63,7 +78,7 @@ Campaign Standard中定义的扩展资源被映射为喜欢所有本地字段。
 
 您可以通过API自定义XDM扩展，并定义您自己的扩展，以便更好地控制映射。
 
-有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+有关XDM API的更多详细信息，请参阅[架构注册表API教程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 要映射枚举字段，需要使用表达式编辑器定义与XDM值对应的每个枚举值。 例如，postaladdressfield需要定义为：
 

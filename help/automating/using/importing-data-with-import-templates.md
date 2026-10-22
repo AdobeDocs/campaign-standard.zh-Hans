@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+TQID: 'https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 99%
-
 ---
-
 # 使用导入模板导入数据{#importing-data-with-import-templates}
 
 通过导入数据，可收集数据以填充 Campaign 的数据库。
@@ -63,14 +75,14 @@ ht-degree: 99%
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**：此模板可用作新导入的基础，用于更新直邮的隔离和投放日志。 模板的工作流包含以下活动：
 * **[!UICONTROL Import data]**：此模板可用作新导入的基础，用于将来自文件的数据插入数据库。 此模板的工作流包含以下活动：
 
-   * **[!UICONTROL Load file]**：此活动用于向 Adobe Campaign 服务器上传文件。
-   * **[!UICONTROL Update data]**：此活动用于将来自文件的数据插入数据库。
+  * **[!UICONTROL Load file]**：此活动用于向 Adobe Campaign 服务器上传文件。
+  * **[!UICONTROL Update data]**：此活动用于将来自文件的数据插入数据库。
 
 * **[!UICONTROL Import list]**：此模板可用作新导入的基础，用于根据来自文件的数据创建 **List** 类型受众。 此模板的工作流包含以下活动：
 
-   * **[!UICONTROL Load file]**：此活动用于向 Adobe Campaign 服务器上传文件。
-   * **[!UICONTROL Reconciliation]**：此活动用于将定向维度链接到导入的数据。 然后，您可以创建 **List** 类型受众。 如果导入数据的定向维度未知，则受众为 **File** 类型。 请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-   * **[!UICONTROL Save audience]**：此活动允许您以 **List** 类型受众的形式保存导入的数据。 所保存受众的名称对应于用户所导入文件的名称，并将添加指明导入日期和时间的后缀。 例如：“profiles_20150406_151448”。
+  * **[!UICONTROL Load file]**：此活动用于向 Adobe Campaign 服务器上传文件。
+  * **[!UICONTROL Reconciliation]**：此活动用于将定向维度链接到导入的数据。 然后，您可以创建 **List** 类型受众。 如果导入数据的定向维度未知，则受众为 **File** 类型。 请参阅[定向维度和资源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+  * **[!UICONTROL Save audience]**：此活动允许您以 **List** 类型受众的形式保存导入的数据。 所保存受众的名称对应于用户所导入文件的名称，并将添加指明导入日期和时间的后缀。 例如：“profiles_20150406_151448”。
 
 这些默认模板属于只读模板，且标准用户不可见。 要创建可供用户使用的模板，请执行以下步骤：
 

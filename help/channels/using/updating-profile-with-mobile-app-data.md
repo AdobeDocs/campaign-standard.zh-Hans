@@ -9,20 +9,29 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+TQID: 'https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: '996'
 ht-degree: 2%
-
 ---
-
 # 基于移动应用程序数据创建和更新轮廓信息
 
 ## 概述
@@ -127,7 +136,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在这种情况下，工作流会执行UPSERT，但由于它基于&#x200B;**[!UICONTROL Incremental query]**&#x200B;数据，因此仅插入。 更改查询会影响插入或更新的数据。
+>在这种情况下，工作流会执行UPSERT，但由于它基于&#x200B;**[!UICONTROL Incremental query]**数据，因此仅插入。 更改查询会影响插入或更新的数据。
 >此外，要更新的字段选项卡中的设置确定在特定条件下插入或更新哪些字段。 这些设置对于每个应用程序或客户可能都是唯一的。
 >配置这些设置时请务必小心，可能会产生意想不到的结果，因为根据appSubscriptionRcp数据更新配置文件中的记录可能会更改用户的个人信息，而无需进行验证。
 

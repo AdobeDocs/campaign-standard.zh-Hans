@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-TQID: https://experienceleague.adobe.com/tVdAYIiQsxqtt8UyvRdrIBZO0EpjrPQx6lfkxHC9CSk
+TQID: 'https://experienceleague.adobe.com/tVdAYIiQsxqtt8UyvRdrIBZO0EpjrPQx6lfkxHC9CSk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1102
-ht-degree: 0%
-
+source-wordcount: '1113'
+ht-degree: 1%
 ---
-
 # 自助服务集成应用程序入门 {#gs-self-service-app}
 
 Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集成，使您能够配置数据流，控制数据流是否运行以及在哪个环境中运行。 但是，在开始使用自助集成应用程序之前，您必须先完成一些先决条件。
@@ -144,7 +154,7 @@ Adobe Campaign Standard与Microsoft Dynamics 365自助式集成应用程序集�
 
 * **文档**：此选项是特定于该集成的Adobe Campaign文档的链接
 
-* **客户关怀**：这是与打开客户关怀票证相关的Experience Cloud文档的链接
+* **客户关怀**：这是指向与打开客户关怀票证相关的Experience Cloud文档的链接
 
 * **注销**：这将使您从应用程序中注销，并允许您以其他用户身份重新登录。
 

@@ -5,41 +5,64 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+TQID: 'https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: '5477'
 ht-degree: 3%
-
 ---
-
 # 2018 年版发行说明{#release-notes}
 
 ## 18.9 版 - 2018 年 9 月 {#release-18-9-september-2018}
@@ -144,7 +167,7 @@ ht-degree: 3%
 
 **改进**
 
-* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=zh-Hans)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
+* Adobe Campaign和Adobe Target集成现在允许您利用Target的[权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 现在，在电子邮件中包含Adobe Target中的动态图像时，您可以指定Target属性（at_property代码）。
 * 现在，GDPR隐私访问/删除请求会考虑具有指向用户档案资源的owncopy链接的自定义资源。 对于1个基数简单链接和N个基数收集链接，您需要选择自定义资源中的“删除/复制目标记录意味着删除/复制链接引用的记录”。 对于0或1基数简单链接，选择“删除/复制记录意味着删除/复制链接引用的目标记录”。
 
 **其他变更**
@@ -180,7 +203,7 @@ ht-degree: 3%
 
 **其他变更**
 
-* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此[&#128279;](../../sending/using/confirming-the-send.md)章节。
+* 已将&#x200B;**[!UICONTROL Compute stats]**&#x200B;按钮添加到已发送投放的&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中。 它允许您检索最新的KPI，例如，如果发送结果更新时间过长或未考虑在内。 有关更多信息，请参阅此](../../sending/using/confirming-the-send.md)章节[。
 * 在&#x200B;**可投放性更新**&#x200B;现成技术工作流中，功能管理员现在可以在&#x200B;**更新规则** javascript活动中定义要忽略的连续错误数。 默认情况下，字段值设置为0，这意味着将忽略所有错误。
 * 已优化管理单元访问限制条件时生成的SQL。
 * **[!UICONTROL Update]**&#x200B;活动现在允许您添加、更新或删除与订阅（nms:appSubscriptionRcp表）相关的数据。
@@ -222,7 +245,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR：核心服务集成<br /> </td> 
-   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
+   <td> 通过隐私核心服务集成，您可以通过单个JSON API调用在多解决方案上下文中自动处理GDPR请求。<br /> 从Privacy Core Service推送到所有Experience Cloud解决方案的GDPR请求现在可由Campaign自动处理。<br /> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送改进 — 详细的投放反馈<br /> </td> 
@@ -230,7 +253,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 投放日志扩展<br /> </td> 
-   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。 然后，此信息便可用于动态报告中，并允许您在发送投放时保留某些信息的快照。<br /> 还有2个用例：<br /> <ul> 
+   <td> 通过投放日志扩展，您可以使用来自工作流的用户档案数据和区段代码来扩展发送日志。 然后，此信息便可用于动态报告中，并允许您在发送投放时保留某些信息的快照。<br /> 还有2个用例：<br /> 
+    <ul> 
      <li> 导出包含“冻结”数据的扩展broadlog：作为营销人员，我想导出区段代码等于“A”（来自工作流引擎）的所有用户档案。 </li> 
      <li> 对“冻结”数据进行分段：作为营销人员，我希望<strong>重新定位</strong>自上次发送以来获得1000个忠诚度点数或区段代码等于“A”的所有用户档案。 </li> 
     </ul> 有关详细信息，请参阅<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">详细文档</a>.<br /> </td> 
@@ -319,19 +343,21 @@ _自定义资源_
  <tbody> 
   <tr> 
    <td> 欧盟通用数据保护条例(GDPR)<br /> </td> 
-   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> <ul> 
+   <td> GDPR是欧盟(EU)的新隐私法，旨在协调数据保护要求并使之现代化，于2018年5月25日生效。 GDPR适用于所持有数据的数据主体位于欧盟的Adobe Campaign客户。<br /> 除了Adobe Campaign中已有的可用隐私功能（包括同意管理、数据保留设置和用户角色）之外，我们还以数据处理方的身份利用此机会来包含其他功能，以帮助您作为数据控制方为特定GDPR请求做好准备：<br /> 
+    <ul> 
      <li> 访问权：允许数据主体接收数据控制者捕获的个人数据的副本，可能包括存储在Adobe Campaign中的数据。 </li> 
      <li> 删除权：授权数据主体擦除数据控制者捕获的个人数据，可能包括存储在Adobe Campaign中的数据。 </li> 
-    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hans">详细文档</a>.<br /> </td> 
+    </ul> 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">详细文档</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 适用于电子邮件的Creative Designer (Beta)<br /> </td> 
-   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。<br /> 关键功能包括：<br /> <ul> 
+   <td> Adobe Campaign的全新Creative Designer在Campaign中提供了完全集成的创建体验，可让您快速、轻松地创建引人入胜的个性化电子邮件，而无需编写一行代码。 通过其强大的拖放界面，无论用户是从空白板开始，还是利用现有的内容片段或模板，Creative Designer都可以帮助扩展电子邮件创建。<br /> 关键功能包括：<br /> 
+    <ul> 
      <li> 通过拖放界面，通过本机Creative Cloud集成增强，直观地设计和创建完全个性化、响应式电子邮件 </li> 
      <li> 创建和保存电子邮件内容模板，并利用保存的模板来帮助扩展电子邮件创建 </li> 
      <li> 创建和保存内容片段（例如页眉、页脚、文章等） 简化内容创建并确保品牌一致性 </li> 
      <li> 在拖放界面中创建和单击按钮直接编辑电子邮件的HTML之间无缝切换 </li> 
-    </ul> 适用于电子邮件的Creative Designer只有英文版。<br /> 有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">视频</a>。<br /> </td> 
+    </ul> 适用于电子邮件的Creative Designer只有英文版。<br /> 有关详细信息，请参阅<a href="../../designing/using/designing-content-in-adobe-campaign.md">详细文档</a>并观看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">视频</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多语言推送投放<br /> </td> 
@@ -339,7 +365,8 @@ _自定义资源_
   </tr> 
   <tr> 
    <td> 在事务性消息传递中使用自定义资源<br /> </td> 
-   <td> 除了现成字段外，事务型消息传递现在还允许您使用自定义资源扩充消息的内容。<br /> 例如：<br /> <ul> 
+   <td> 除了现成字段外，事务型消息传递现在还允许您使用自定义资源扩充消息的内容。<br /> 例如：<br /> 
+    <ul> 
      <li> 利用自定义字段作为协调条件，将事务型消息与用户档案进行匹配 </li> 
      <li> 利用完整的用户档案、服务和链接数据进一步个性化事务型消息 </li> 
     </ul> 有关详细信息，请参阅<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">详细文档</a>.<br /> </td> 
@@ -478,12 +505,13 @@ _已知问题_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br /> 有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>.<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，以便在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以将“可变内容”用于： <br /> <ul> 
+   <td> 推送消息预览 — 在测试或执行投放之前，可从推送通知内容编辑器中预览iOS和Android设备上的推送通知，以精确地查看接收人将要看到的内容。<br /> 有关详细信息，请参阅<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">详细文档</a>.<br /> 可用内容 — 如果应用程序较长时间未打开，应用程序中的数据可能会过期。 这导致在用户最终打开应用程序时必须更新或替换数据，这可能会导致使用应用程序时出现延迟。 通过增加的“可用内容”支持，Adobe Campaign用户可以在提交推送通知时唤醒应用程序，以便在后台刷新其数据，从而更好地一致和控制用户的应用程序内体验。<br /> 可变内容 — 通过增加的“可变内容”支持，Adobe Campaign用户现在能够利用其移动应用程序扩展，进一步对接收到的来自Adobe Campaign的推送通知进行内容或外观上的修改。 例如，用户可以将“可变内容”用于： <br /> 
+    <ul> 
      <li> 解密以加密格式传送的数据 </li> 
      <li> 下载图像或其他媒体文件，并将它们作为附件添加到通知中 </li> 
      <li> 更改通知的正文或标题文本 </li> 
      <li> 向通知添加线程标识符 </li> 
-    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hans">此技术说明</a>。<br /> </td> 
+    </ul> 有关可用内容和可变内容的更多信息，请参阅<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">详细文档</a>.<br /> <strong>警告：</strong>推送通知的这些更新要求客户升级其移动应用程序。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技术说明</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 时区优化投放<br /> </td> 

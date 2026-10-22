@@ -8,26 +8,35 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
+TQID: 'https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: '1347'
 ht-degree: 55%
-
 ---
-
 # 了解投放失败{#understanding-delivery-failures}
 
 ## 关于投放失败 {#about-delivery-failures}
@@ -48,11 +57,11 @@ ht-degree: 55%
 
 * [了解隔离管理](../../sending/using/understanding-quarantine-management.md)
 * [关于 Campaign 中的选择启用和选择禁用](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)
+* [退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 识别消息的投放失败 {#identifying-delivery-failures-for-a-message}
 
-发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[&#x200B; 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
+发送投放后，利用 **[!UICONTROL Sending logs]** 选项卡（请[ 阅此章节](../../sending/using/monitoring-a-delivery.md#sending-logs)），可查看每个轮廓的投放状态以及相关失败的类型和原因（请参阅[投放失败类型和原因](#delivery-failure-types-and-reasons)）。
 
 ![](assets/sending_logs.png)
 
@@ -88,8 +97,8 @@ ht-degree: 55%
 
 
 **相关主题：**
-* [硬退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#hard-bounces)
-* [软退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#soft-bounces)
+* [硬退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [软退回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 投放临时失败后重试 {#retries-after-a-delivery-temporary-failure}
 
@@ -103,7 +112,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
->**现在，Campaign投放中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**参数仅在3.5天或更短的时间内使用。** 如果定义的值超过3.5天，则不会将其考虑在内。
+>**现在，Campaign投放中的&#x200B;**[!UICONTROL Delivery duration]**参数仅在3.5天或更短的时间内使用。** 如果定义的值超过3.5天，则不会将其考虑在内。
 
 例如，如果希望重试在一天后停止投放，您可以将投放持续时间设置为&#x200B;**1d**，并且重试队列中的消息在一天后将被删除。
 
@@ -133,7 +142,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 异步退回仍然由 inMail 流程通过 **[!UICONTROL Inbound email]** 规则进行鉴别。 要访问这些规则，请单击左上角的&#x200B;**Adobe**&#x200B;徽标，然后选择&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;并选择&#x200B;**[!UICONTROL Bounce mails]**。 有关此规则的更多信息，请参阅[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hans#metrics-for-deliverability)。
+有关退回和各种退回的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

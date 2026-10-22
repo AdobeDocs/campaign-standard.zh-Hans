@@ -9,23 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+TQID: 'https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '964'
 ht-degree: 0%
-
 ---
-
 # 配置Microsoft Dynamics 365以便与Adobe Campaign Standard集成
 
 了解如何在与Adobe Campaign Standard的跨渠道通信中配置Microsoft Dynamics 365集成并激活您的CRM数据。
@@ -48,7 +61,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 以下视频概述了主要步骤：
 
->[!VIDEO](https://video.tv.adobe.com/v/34833?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 要生成OAuth访问令牌，请执行以下步骤。
 
@@ -124,7 +137,7 @@ OAuth访问令牌允许集成工具通过Web API对您的Microsoft Dynamics 365�
 
 ### 获取租户ID {#get-the-tenant-id}
 
-按照此页面[&#128279;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的说明查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
+按照此页面](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的说明[查找您的租户ID。  在集成工具中设置预集成期间，您将需要此ID。
 
 ## 安装适用于Microsoft Dynamics 365的Campaign Standard {#install-appsource-app}
 

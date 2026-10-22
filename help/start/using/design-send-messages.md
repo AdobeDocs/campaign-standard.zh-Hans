@@ -4,11 +4,15 @@ description: 了解如何在Adobe Campaign Standard中自定义列表屏幕的�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 23%
-
 ---
 
 # 设计和发送消息
@@ -74,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭长颈斑蛇，�
 * 插入[预定义的个性化块](../../designing/using/personalization.md#adding-a-content-block)
 * [个性化电子邮件或短信的发件人](../../designing/using/subject-line.md)
 * [个性化电子邮件的主题行](../../designing/using/subject-line.md)
-* 在电子邮件[&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建条件内容
+* 在电子邮件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中创建[条件内容，或在登陆页面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中创建[条件内容
 * 在短信消息或推送通知中插入[动态文本](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)

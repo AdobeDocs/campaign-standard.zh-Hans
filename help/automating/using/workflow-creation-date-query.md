@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
+TQID: 'https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 32%
-
+source-wordcount: '368'
+ht-degree: 37%
 ---
-
 # 在轮廓的创建日期创建投放 {#creation-date-query}
 
 您可以在客户用户档案创建周年纪念日通过电子邮件发送选件。
@@ -55,7 +64,7 @@ ht-degree: 32%
 
 ### 检索在执行日期的同一天创建的用户档案 {#retrieving-profiles-created-on-the-same-day}
 
-1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;字段。然后单击&#x200B;**[!UICONTROL Advanced Mode]**。
+1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;字段。 并单击&#x200B;**[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
 1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，双击&#x200B;**[!UICONTROL Date]**&#x200B;节点中的&#x200B;**[!UICONTROL Day]**。
 1. 然后，插入字段&#x200B;**[!UICONTROL Created]**&#x200B;作为参数。
@@ -101,8 +110,8 @@ ht-degree: 32%
 1. 输入电子邮件属性，然后单击 **[!UICONTROL Next]**。
 1. 要创建电子邮件的布局，请单击 **[!UICONTROL Email Designer]**。
 1. 插入元素或选择现有模板。
-1. 使用字段和链接个性化电子邮件。
-有关详细信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 使用字段和链接将电子邮件个性化。
+有关更多信息，请参阅[设计电子邮件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 单击 **[!UICONTROL Preview]** 以检查布局。
 1. 单击 **[!UICONTROL Save]**。
 

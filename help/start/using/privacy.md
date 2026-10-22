@@ -13,25 +13,38 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-TQID: https://experienceleague.adobe.com/o0pn-BQ8WMtzQLWcjINMhhGqdpQOJ5dYL02EXNeUZos
+TQID: 'https://experienceleague.adobe.com/o0pn-BQ8WMtzQLWcjINMhhGqdpQOJ5dYL02EXNeUZos'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1468
+source-wordcount: '1468'
 ht-degree: 100%
-
 ---
-
 # 隐私和同意{#privacy-and-consent}
 
 ## 一般建议 {#general-recommendations}
@@ -70,15 +83,15 @@ Adobe Campaign 是 Adobe Experience Cloud 解决方案的一部分。 Campaign �
 
 * **如何使用 Adobe Experience Cloud 收集信息**
 
-   * Adobe Experience Cloud 解决方案使用 cookie 及网络信标（也称为标记或像素）之类的类似技术使您能够收集信息。 有关 Adobe Campaign 的 cookie 和跟踪功能的更多信息，请参阅[此部分](#tracking-capabilities)。
-   * 您还可以在移动应用程序中使用 Adobe Experience Cloud 技术。 有关使用 Campaign 发送移动投放的更多信息，请参阅[此页面](../../channels/using/mobile-guide.md)。
+  * Adobe Experience Cloud 解决方案使用 cookie 及网络信标（也称为标记或像素）之类的类似技术使您能够收集信息。 有关 Adobe Campaign 的 cookie 和跟踪功能的更多信息，请参阅[此部分](#tracking-capabilities)。
+  * 您还可以在移动应用程序中使用 Adobe Experience Cloud 技术。 有关使用 Campaign 发送移动投放的更多信息，请参阅[此页面](../../channels/using/mobile-guide.md)。
 
 * **用户对您使用 Adobe Experience Cloud 的隐私选择**
 
   Adobe 要求您提供客户隐私政策，其中描述：
 
-   * 关于 Adobe Experience Cloud 的隐私条例
-   * 用户如何可为收集或使用与 Adobe Experience Cloud 有关的信息设置首选项
+  * 关于 Adobe Experience Cloud 的隐私条例
+  * 用户如何可为收集或使用与 Adobe Experience Cloud 有关的信息设置首选项
 
   >[!NOTE]
   >

@@ -4,13 +4,16 @@ description: 了解如何在Adobe Campaign Standard中自定义列表屏幕的�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 9%
-
 ---
-
 
 # 使用用户档案和受众
 
@@ -81,7 +84,8 @@ Campaign Standard提供了多种工具来帮助您增长营销数据库。 本�
 
 ### 从Microsoft Dynamics 365同步用户档案
 
-Campaign Standard与Microsoft Dynamics 365集成允许您将联系数据从Microsoft Dynamics 365传递到Campaign数据库。然后，这些联系人会显示在用户档案列表中，并可在营销活动中定位。 有关此集成的详细信息，请参阅[专用文档](../../integrating/using/d365-acs-get-started.md)。
+Campaign Standard与Microsoft Dynamics 365集成允许您将联系数据从Microsoft Dynamics 365传递到Campaign数据库。
+然后，这些联系人会显示在用户档案列表中，并可在营销活动中定位。 有关此集成的详细信息，请参阅[专用文档](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
@@ -98,7 +102,7 @@ Campaign Standard API允许您执行更新数据库的操作，如用户档案�
 
 >[!CAUTION]
 >
->在通过API调用执行用户档案批量创建或更新之前，请检查与您的许可协议对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在通过API调用执行用户档案批量创建或更新之前，请检查与您的许可协议对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 **了解更多信息**
 

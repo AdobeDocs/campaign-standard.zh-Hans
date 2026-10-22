@@ -8,26 +8,39 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+TQID: 'https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1289
+source-wordcount: '1289'
 ht-degree: 79%
-
 ---
-
 # 准备和发送应用程序内消息{#preparing-and-sending-an-in-app-message}
 
 Adobe Campaign 提供两种类型的应用程序内消息：
@@ -93,7 +106,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支持的现成生命周期事件。
 
-     有关生命周期事件的更多信息，请参阅[本页面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hans)。
+     有关生命周期事件的更多信息，请参阅[本页面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根据移动应用程序中的感知方式，支持以下三种类别：Adobe Analytics、上下文数据或视图状态。
 
@@ -101,7 +114,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    * **[!UICONTROL Places]**：以下三个类别利用实时位置数据来提供与上下文相关的移动体验：Places 上下文数据、Places 自定义元数据或 Places 事件类型。
 
-     有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans)。
+     有关 Adobe Places 的更多信息，请参阅 [Places 文档](https://experienceleague.adobe.com/docs/places/using/home.html)。
 
    ![](assets/inapp_creating_4.png)
 
@@ -166,7 +179,7 @@ Adobe Campaign 提供两种类型的应用程序内消息：
 
    ![](assets/inapp_sending_6.png)
 
-1. 通过消息仪表板和日志，检查投放的状态。 有关更多信息，请参阅此[&#128279;](../../sending/using/monitoring-a-delivery.md)章节。
+1. 通过消息仪表板和日志，检查投放的状态。 有关更多信息，请参阅此](../../sending/using/monitoring-a-delivery.md)章节[。
 
    **[!UICONTROL Delivered]** 和 **[!UICONTROL Sent]** KPI 计数基于成功从 Campaign 发送到消息投放服务的内容。 请注意，这些 KPI 并不表示从消息投放服务成功接收或下载消息的移动设备计数。
 

@@ -1,6 +1,6 @@
 ---
 title: 使用 Audience Manager 或 People 核心服务共享受众
-description: 了解如何在其他Adobe Experience Cloud解决方案中导入或导出受众。
+description: 了解如何在不同的Adobe Experience Cloud解决方案中导入或导出受众。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -9,27 +9,37 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-TQID: https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y
+TQID: 'https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: a8512b64-d668-4084-b4f0-34baa899e306
+    internal-label: People Core Service integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 819
+source-wordcount: '819'
 ht-degree: 3%
-
 ---
-
 # 使用 Audience Manager 或 People 核心服务共享受众{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## 导入受众 {#importing-an-audience}
 
-People核心服务集成允许通过技术工作流将受众直接导入Adobe Campaign，以丰富您的数据库。 有关在People核心服务中共享受众的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)。
+People核心服务集成允许通过技术工作流将受众直接导入Adobe Campaign，以丰富您的数据库。 有关在People核心服务中共享受众的详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
 只有通过IMS（通过Adobe ID进行身份验证）连接的用户，才能从&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入Adobe Campaign中的人员核心服务中的受众/区段。
 
@@ -55,7 +65,7 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 
 >[!NOTE]
 >
->如果您要将受众从Adobe Analytics导入Adobe Campaign，则需要首先在People Core Service或Audience Manager中共享这些受众。 此过程需要12-24小时，必须将其添加到与Campaign的24-36小时同步中。 在该特定情况下，受众共享时间范围最长可达60小时。 有关在People Core Service和Audience Manager中共享Adobe Analytics受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)。
+>如果您要将受众从Adobe Analytics导入Adobe Campaign，则需要首先在People Core Service或Audience Manager中共享这些受众。 此过程需要12-24小时，必须将其添加到与Campaign的24-36小时同步中。 在该特定情况下，受众共享时间范围最长可达60小时。 有关在People Core Service和Audience Manager中共享Adobe Analytics受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
 ## 导出受众 {#exporting-an-audience}
 
@@ -85,7 +95,7 @@ People核心服务集成允许通过技术工作流将受众直接导入Adobe Ca
 1. 确认活动的配置并保存工作流。
 1. 启动工作流以导出受众。 Adobe Campaign与People核心服务之间的同步可能需要几个小时
 
-Adobe Campaign与People核心服务之间的同步需要24-36小时。 在此时段后，您将能够在People核心服务中找到新受众，并在其他Adobe Experience Cloud解决方案中重复使用它。 有关在Adobe People核心服务中使用Adobe Campaign共享受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=zh-Hans)。
+Adobe Campaign与People核心服务之间的同步需要24-36小时。 在此时段后，您将能够在People核心服务中找到新受众，并在其他Adobe Experience Cloud解决方案中重复使用它。 有关在Adobe People核心服务中使用Adobe Campaign共享受众的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)。
 
 **相关主题：**
 
