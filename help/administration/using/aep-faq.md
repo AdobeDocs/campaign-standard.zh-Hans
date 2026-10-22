@@ -56,7 +56,7 @@ ht-degree: 2%
 
 是，[!DNL Adobe Experience Platform SDK]集成可用于Adobe Campaign Standard和Adobe Campaign Classic。 必须通过[!DNL Data Collection UI]安装相应的&#x200B;**[!UICONTROL Extension]**&#x200B;才能启用集成。
 
-有关详细信息，请参见此 [ 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}。
+有关详细信息，请参见此 [&#x200B; 页面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}。
 
 ## Adobe Experience Platform SDK集成有助于在Adobe Campaign中实现哪些功能？ {#aep-capabilities}
 

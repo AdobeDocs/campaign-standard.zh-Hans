@@ -73,7 +73,7 @@ Adobe Campaign 默认使用轮廓来定义消息的主目标。
    ![](assets/profile_creation1.png)
 
    * 联系信息，如名字、姓氏、性别、出生日期、照片、首选语言（用于[多语言电子邮件](../../channels/using/creating-a-multilingual-email.md)）等，有助于更好地个性化投放。
-   * 轮廓的 **[!UICONTROL Time zone]** 用于以轮廓的时区确定投放发送时间。 有关更多信息，请参阅此](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)章节[。
+   * 轮廓的 **[!UICONTROL Time zone]** 用于以轮廓的时区确定投放发送时间。 有关更多信息，请参阅此[&#128279;](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)章节。
    * **[!UICONTROL Channels]** 类别包含电子邮件地址、手机号码和选择退出信息，可让您了解联系轮廓的渠道。
 
      >[!NOTE]
