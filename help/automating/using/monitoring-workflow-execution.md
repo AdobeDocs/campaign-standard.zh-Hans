@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+TQID: 'https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: '580'
 ht-degree: 6%
-
 ---
-
 # 监控工作流执行 {#monitoring}
 
 ## 工作流日志和任务 {#workflow-log-and-tasks}
@@ -70,11 +79,11 @@ ht-degree: 6%
 
 * **[!UICONTROL In case of error]**：用于指定活动遇到错误时要执行的操作。 有两个选项可用于此目的：
 
-   * **挂起进程**：工作流已自动挂起。 然后，工作流状态为&#x200B;**错误**，关联的颜色变为红色。 问题解决后，请重新启动工作流。
-   * **忽略**：该活动未执行，因此，它之后的任何活动也不执行（在同一分支中）。 事实可能会证明，这对于周期性任务非常有用。 如果分支具有置于上游的调度程序，这应在下一个执行日期触发。
+  * **挂起进程**：工作流已自动挂起。 然后，工作流状态为&#x200B;**错误**，关联的颜色变为红色。 问题解决后，请重新启动工作流。
+  * **忽略**：该活动未执行，因此，它之后的任何活动也不执行（在同一分支中）。 事实可能会证明，这对于周期性任务非常有用。 如果分支具有置于上游的调度程序，这应在下一个执行日期触发。
 
 * **[!UICONTROL Consecutive errors]** ：允许您定义在自动暂停工作流执行之前授权的连续错误数。
 
-   * 如果指定的数字为&#x200B;**[!UICONTROL 0]**，或者只要未达到指定的数字，则会忽略遇到错误的活动。 其他工作流分支正常执行。
+  * 如果指定的数字为&#x200B;**[!UICONTROL 0]**，或者只要未达到指定的数字，则会忽略遇到错误的活动。 其他工作流分支正常执行。
 
-   * 如果达到指定的数字，则整个工作流将挂起，并变为&#x200B;**[!UICONTROL Erroneous]**。 如果已经定义了主管，则会通过电子邮件自动通知他们。 请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+  * 如果达到指定的数字，则整个工作流将挂起，并变为&#x200B;**[!UICONTROL Erroneous]**。 如果已经定义了主管，则会通过电子邮件自动通知他们。 请参阅 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。

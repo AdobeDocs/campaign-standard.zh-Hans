@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 3%
-
 ---
-
 # 管理事务型消息 {#managing-transactional-messages}
 
 创建并发布事务型事件后，您需要将此事件的触发集成到网站中。
@@ -27,7 +39,7 @@ ht-degree: 3%
 例如，您希望每当客户在购物车中购买产品之前离开您的网站时，都会触发“购物车放弃”事件。 要执行此操作，作为Web开发人员，您必须使用REST事务型消息API。
 
 1. 根据POST方法发送请求，这会触发事务性事件的[发送](#sending-a-transactional-event)。
-1. 对POST请求的响应包含一个主键，用于通过GET请求发送一个或多个请求。 然后，即可获取[事件状态](#transactional-event-status)。
+1. 对POST请求的响应包含主键，该主键允许您通过GET请求发送一个或多个请求。 然后，即可获取[事件状态](#transactional-event-status)。
 
 ## 发送事务性事件 {#sending-a-transactional-event}
 

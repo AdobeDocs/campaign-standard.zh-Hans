@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 87%
-
+source-wordcount: '1624'
+ht-degree: 88%
 ---
-
 # 配置短信渠道{#configuring-sms-channel}
 
 要发送短信消息，管理员必须通过 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 菜单配置一个或多个外部帐户。
@@ -302,8 +314,8 @@ CR：回车
 
 * 未勾选 **[!UICONTROL Define a specific mapping of encodings]** 功能时，连接器会采取常规行为：
 
-   * 它会尝试将 GSM 编码用于分配值 **data_coding = 0**。
-   * 如果 GSM 编码失败，则会将 **UCS2** 编码用于分配值 **data_coding = 8**。
+  * 它会尝试将 GSM 编码用于分配值 **data_coding = 0**。
+  * 如果 GSM 编码失败，则会将 **UCS2** 编码用于分配值 **data_coding = 8**。
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ CR：回车
 
 * 利用 **[!UICONTROL Transmission mode]** 字段，可确定短信消息的投放方法：
 
-   * **[!UICONTROL Saved on SIM card]**：消息存储在收件人的手机 SIM 卡上。
-   * **[!UICONTROL Saved on mobile]**：消息存储在手机的内部存储中。
-   * **[!UICONTROL Flash]**：消息将作为通知显示在收件人的手机上，然后通知会消失且不进行保存。
+  * **[!UICONTROL Saved on SIM card]**：消息存储在收件人的手机 SIM 卡上。
+  * **[!UICONTROL Saved on mobile]**：消息存储在手机的内部存储中。
+  * **[!UICONTROL Flash]**：消息将作为通知显示在收件人的手机上，然后通知会消失且不进行保存。

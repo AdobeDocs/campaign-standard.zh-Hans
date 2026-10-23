@@ -4,19 +4,22 @@ description: 了解有关地理单位和API的更多信息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
-
+source-wordcount: '145'
+ht-degree: 6%
 ---
-
 
 # 关于地理单位 {#about-geographical-units}
 
 >[!CAUTION]
 >
->地理单位功能已在Campaign Standard18.7版本中弃用。
+>Campaign Standard 18.7版本已弃用地理单位功能。
 >
 >因此，从18.7版本开始，新Campaign Standard实例以及未创建地理单位的现有实例无法实现此功能。
 >

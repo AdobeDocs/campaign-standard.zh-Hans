@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '247'
 ht-degree: 100%
-
 ---
-
 # Campaign Standard API 快速入门 {#get-started-apis}
 
 Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的技术**&#x200B;面板连接，**使您为 Adobe Campaign Standard 创建集成，**&#x200B;并构建您自己的生态系统。
@@ -38,10 +50,10 @@ Campaign Standard API 旨在通过将 **Adobe Campaign Standard 与您使用的�
 
 >[!NOTE]
 >
->在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。 有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
-要使用 Campaign Standard API，您需要 AdobeI/O 帐户。这是前进和发现 API 功能的必备第一步。
-如需详细信息，请参阅[此部分](../../api/using/setting-up-api-access.md)。
+要使用 Campaign Standard API，您需要 AdobeI/O 帐户。 这是前进和发现 API 功能的必备第一步。
+如需详细信息，请参阅[此小节](../../api/using/setting-up-api-access.md)。
 
 我们提供的 API 使用 REST 接口的&#x200B;**标准概念**&#x200B;以及 JSON 负载。
 

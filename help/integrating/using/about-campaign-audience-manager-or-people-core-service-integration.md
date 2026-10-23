@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+TQID: 'https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '520'
 ht-degree: 22%
-
 ---
-
 # 关于 Campaign-Audience Manager 或 People 核心服务集成{#about-campaign-audience-manager-or-people-core-service-integration}
 
 >[!CAUTION]
@@ -31,15 +40,15 @@ ht-degree: 22%
 
 Adobe Campaign允许您与其他Adobe Experience Cloud应用程序交换和共享受众/区段。 通过将&#x200B;**Adobe Campaign**&#x200B;与&#x200B;**People核心服务**（也称为&#x200B;**Profiles &amp; Audiences核心服务**）或Adobe Audience Manager集成，您可以：
 
-* 从不同的Adobe Experience Cloud解决方案导入受众/区段到Adobe Campaign。 可以从Adobe Campaign中的&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入受众。
+* 从不同的Adobe Experience Cloud解决方案导入受众/区段到Adobe Campaign中。 可以从Adobe Campaign中的&#x200B;**[!UICONTROL Audiences]**&#x200B;菜单导入受众。
 * 将受众导出为共享受众/区段。 您可在所用的不同 Adobe Experience Cloud 解决方案中使用这些受众。 在工作流中定位活动后，可使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活动导出受众。
 
 集成支持两种类型的Adobe Experience Cloud ID：
 
 * **访客ID**：此类型的ID允许您协调Adobe Experience Cloud访客与Adobe Campaign配置文件。 通过Adobe IMS启用连接后，Marketing Cloud访客ID服务即会激活，这将替换Adobe Campaign使用的永久Cookie。 这允许您识别访客，然后将其链接到用户档案。
   <br>访客ID在配置文件单击通过Adobe Campaign发送的电子邮件后立即链接到配置文件：
-   * 如果配置文件已具有访客ID，则该配置文件的浏览器数据允许Adobe Campaign进行恢复，并自动将配置文件链接到访客ID。
-   * 如果未找到访客ID，则会创建一个新的ID。 此访客ID存储在配置文件跟踪日志中。
+  * 如果配置文件已具有访客ID，则该配置文件的浏览器数据允许Adobe Campaign进行恢复，并自动将配置文件链接到访客ID。
+  * 如果未找到访客ID，则会创建一个新的ID。 此访客ID存储在配置文件跟踪日志中。
 
   随后，该ID将由具有相同CNAME的其他Adobe Marketing Cloud应用程序识别。
 

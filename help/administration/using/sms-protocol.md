@@ -6,24 +6,37 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+TQID: 'https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: '8720'
 ht-degree: 1%
-
 ---
-
 # 短信连接器协议和设置 {#sms-connector-protocol}
 
 >[!NOTE]
@@ -847,7 +860,7 @@ SMS协议将SMS限制为255部分，但某些手机无法拼合长度超过10部
 * **检查SR是否已正确处理**
 在投放日志中，短信应标记为已接收。 投放日志应该成功，并且应该如下所示：
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-检查您是否更改了投放提供商名称。 在生产环境中，投放日志绝不应该包含&#x200B;**SR Generic**。
+  检查您是否更改了投放提供商名称。 在生产环境中，投放日志绝不应该包含&#x200B;**SR Generic**。
 
 * **检查是否已处理MO**
 如果需要处理MO（自动回复、将MO存储在数据库中等）， 试着做些测试。 为所有自动回复关键字发送几条短信，并检查回复是否足够快，不超过几秒。

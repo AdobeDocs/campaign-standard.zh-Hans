@@ -6,22 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+TQID: 'https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1460'
 ht-degree: 3%
-
 ---
-
 # 配置移动应用程序{#configuring-a-mobile-application}
 
 ## 使用Adobe Experience Platform SDK配置移动应用程序 {#using-adobe-experience-platform-sdk}
@@ -52,7 +63,7 @@ ht-degree: 3%
    * 在Adobe Campaign Standard中，确保IMS用户属于标准用户和管理员产品配置文件。 此步骤允许用户登录Adobe Campaign Standard，导航到Experience Platform SDK移动应用程序页面，并查看您在数据收集UI中创建的移动应用程序属性。
 
    * 在数据收集UI中，确保您的IMS用户属于Experience Platform Launch产品配置文件。
-此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
+     此步骤允许用户登录数据收集UI以创建和查看属性。 有关数据收集UI中产品配置文件的详细信息，请参阅[创建产品配置文件](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hans#gain-admin-rights-for-a-tags-product-profile)。 在产品配置文件中，应该不会对公司或资产设置权限，但用户应该仍然能够登录。
 
    要完成其他任务，例如安装扩展、发布应用程序、配置环境等，您需要在产品配置文件中设置权限。
 

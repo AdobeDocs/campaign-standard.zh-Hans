@@ -10,18 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+TQID: 'https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1103
+source-wordcount: '1115'
 ht-degree: 92%
-
 ---
-
 # 高级表达式编辑{#advanced-expression-editing}
 
 ## 关于高级表达式编辑 {#about-advanced-expression-editing}
@@ -78,9 +89,9 @@ ht-degree: 92%
 
 * 每个条件都采用 **&lt;value1> &lt;comparison operator> &lt;value2>** 的形式，其中：
 
-   * **&lt;value1>** 是字段或函数 例如 **@created** 对应于创建轮廓的日期，而 **Year(@created)** 对应于创建轮廓的年份。
-   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
-   * **&lt;value2>** 是手动输入的字段、函数或值。
+  * **&lt;value1>** 是字段或函数 例如 **@created** 对应于创建轮廓的日期，而 **Year(@created)** 对应于创建轮廓的年份。
+  * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;value1>** 和 **&lt;value2>** 之间的比较方法。
+  * **&lt;value2>** 是手动输入的字段、函数或值。
 
   >[!NOTE]
   >
@@ -88,8 +99,8 @@ ht-degree: 92%
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
-   * **[!UICONTROL AND]**：两个条件相交。
-   * **[!UICONTROL OR]**：两个条件相并。
+  * **[!UICONTROL AND]**：两个条件相交。
+  * **[!UICONTROL OR]**：两个条件相并。
 
 例如：
 
@@ -107,9 +118,9 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
 
 * 每个条件都采用 **&lt;context> &lt;comparison operator> &lt;value2>** 的形式，其中：
 
-   * **&lt;context>** 是用于指定上下文的字段或函数。 例如，**context.profile.@email**&#x200B;用于用户档案的电子邮件地址，或者&#x200B;**context.profile.firstName.length()**&#x200B;用于用户档案名字的字符数。
-   * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
-   * **&lt;value2>** 是手动输入的字段、函数或值。
+  * **&lt;context>** 是用于指定上下文的字段或函数。 例如，**context.profile.@email**&#x200B;用于用户档案的电子邮件地址，或者&#x200B;**context.profile.firstName.length()**&#x200B;用于用户档案名字的字符数。
+  * **&lt;comparison operator>** 是 [Comparison operators](../../automating/using/advanced-expression-editing.md#comparison-operators) 部分中列出的运算符之一。 此运算符用于定义 **&lt;context>** 和 **&lt;value2>** 之间的比较方法。
+  * **&lt;value2>** 是手动输入的字段、函数或值。
 
   >[!NOTE]
   >
@@ -117,8 +128,8 @@ JavaScript 表达式由一个或多个条件组成，其中使用了以下语法
 
 * 如果要使用多个条件，则可使用逻辑运算符将它们组合在一起。
 
-   * **[!UICONTROL &&]**：两个条件相交。
-   * **[!UICONTROL ||]**：两个条件相并。
+  * **[!UICONTROL &&]**：两个条件相交。
+  * **[!UICONTROL ||]**：两个条件相并。
 
 例如：
 

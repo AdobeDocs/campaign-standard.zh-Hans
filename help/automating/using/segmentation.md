@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+TQID: 'https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 79%
-
 ---
-
 # 分段{#segmentation}
 
 ## 说明 {#description}
@@ -104,8 +113,8 @@ ht-degree: 79%
 1. 根据需要，编辑 **[!UICONTROL Advanced options]** 选项卡中的参数：
 
    * **[!UICONTROL Enable overlapping of outbound populations]**&#x200B;选项定义如何管理属于多个区段的用户档案：
-      * 未启用该选项时，**[!UICONTROL Segmentation]**&#x200B;活动会检查在多个输出转换中不存在配置文件，即使此配置文件满足多个子集的条件也是如此。
-      * 启用该选项后，如果用户档案符合筛选条件，则可以在多个子集中找到这些用户档案。
+     * 未启用该选项时，**[!UICONTROL Segmentation]**&#x200B;活动会检查在多个输出转换中不存在配置文件，即使此配置文件满足多个子集的条件也是如此。
+     * 启用该选项后，如果用户档案符合筛选条件，则可以在多个子集中找到这些用户档案。
    * 如果已经为集客群体分配了要保留的段码，请选中&#x200B;**[!UICONTROL Concatenate the code of each segment]**&#x200B;选项。 在活动中指定的段码，将被添加到初始段码。
    * 如果需要利用剩余群体，请选中&#x200B;**[!UICONTROL Generate complement]**&#x200B;选项。 请参阅[用例：创建具有补码](../../automating/using/workflow-created-query-with-complement.md)的投放。
 

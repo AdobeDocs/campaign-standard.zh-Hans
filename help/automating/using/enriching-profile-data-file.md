@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 79%
-
 ---
-
 # 使用文件中包含的数据扩充轮廓数据 {#enriching-profile-data-with-data-contained-in-a-file}
 
 此示例展示了如何使用文件中包含的购买数据扩充轮廓的数据。 在本案例中，我们假设购买数据存储在第三方系统中。 每个轮廓都可以在文件中存储多次购买。 该工作流的最终目标是向至少购买了两件物品的目标轮廓发送电子邮件，以感谢他们对于品牌的信任。
@@ -56,37 +67,37 @@ ht-degree: 79%
 
   创建链接后，将添加两组 **[!UICONTROL Additional data]**：
 
-   * 包含两个行的集合，对应于各个轮廓的最后两次交易。 对于此集合，将添加产品名称、交易日期和产品价格作为附加数据。 对数据应用降序排序。 要创建集合，请从 **[!UICONTROL Additional data]** 选项卡：
+  * 包含两个行的集合，对应于各个轮廓的最后两次交易。 对于此集合，将添加产品名称、交易日期和产品价格作为附加数据。 对数据应用降序排序。 要创建集合，请从 **[!UICONTROL Additional data]** 选项卡：
 
-     选择之前在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义的链接。
+    选择之前在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义的链接。
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     勾选 **[!UICONTROL Collection]** 并指定要检索的行数（在本例中为“2”）。 在此屏幕中，您可以自定义集合的 **[!UICONTROL Alias]** 和 **[!UICONTROL Label]**。 引用此集合时，在工作流的以下活动中会显示这些值。
+    勾选 **[!UICONTROL Collection]** 并指定要检索的行数（在本例中为“2”）。 在此屏幕中，您可以自定义集合的 **[!UICONTROL Alias]** 和 **[!UICONTROL Label]**。 引用此集合时，在工作流的以下活动中会显示这些值。
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     对于集合中要保留的 **[!UICONTROL Data]**，请选择要用在最终投放中的列。
+    对于集合中要保留的 **[!UICONTROL Data]**，请选择要用在最终投放中的列。
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     对交易日期应用降序排序，以确保检索最新交易。
+    对交易日期应用降序排序，以确保检索最新交易。
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * 聚合可计入每个轮廓的交易总数。 此聚合稍后将用于筛选至少记录了两次交易的轮廓。 要创建聚合，请从 **[!UICONTROL Additional data]** 选项卡：
+  * 聚合可计入每个轮廓的交易总数。 此聚合稍后将用于筛选至少记录了两次交易的轮廓。 要创建聚合，请从 **[!UICONTROL Additional data]** 选项卡：
 
-     选择之前在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义的链接。
+    选择之前在活动的 **[!UICONTROL Advanced relations]** 选项卡中定义的链接。
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     选择 **[!UICONTROL Aggregate]**。
+    选择 **[!UICONTROL Aggregate]**。
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     要保留 **[!UICONTROL Data]**，请定义 **Count All** 聚合。 需要时请指定自定义别名，以便在后续活动中更快地找到它。
+    要保留 **[!UICONTROL Data]**，请定义 **Count All** 聚合。 需要时请指定自定义别名，以便在后续活动中更快地找到它。
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * 仅带有一个区段的[分段](../../automating/using/segmentation.md)活动，用于检索至少记录了两次交易的原始目标的用户档案。 仅进行了一次交易的轮廓将被排除。 要实现此目的，应根据之前定义的聚合进行分段查询。
 

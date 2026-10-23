@@ -6,13 +6,28 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7568'
 ht-degree: 100%
-
 ---
-
 # 文档更新{#documentation-updates}
 
 除了 Adobe Campaign [发行说明](../../rn/using/release-notes.md)，本页还列出了 Adobe Campaign Standard 文档的所有新更新内容。
@@ -586,7 +601,7 @@ Campaign Standard 实施指南现已上线。[了解更多](https://helpx.adobe.
 
 更新了关于动态报告的指标计算章节。 [了解更多](../../reporting/using/indicator-calculation.md)
 
-添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hans)
+添加了动态报告兼容性表格，以更好地理解维度和指标之间的兼容性。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 更新了工作流的功能列表。 [了解更多](../../automating/using/list-of-functions.md)
 
@@ -862,7 +877,7 @@ datamodel v1 现在可搭配 SQL 结构用于内置资源 - [了解更多](../..
 
 添加了关于如何准备投放的分步使用案例。 [了解更多](../../sending/using/preparing-the-send.md)
 
-删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans) (PDF)。
+删除了包含授权列表的章节。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 添加了关于如何使用短信自动回复的分步使用案例。 [了解更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1034,7 +1049,7 @@ Adobe Campaign 通知 - [了解更多](../../administration/using/sending-intern
 
 添加了对于使用 Adobe Campaign 配置 People 核心服务或 Audience Manager 集成的说明。 [阅读更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)
+修改了授权表，使某些角色的职能更加清晰。 [了解更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新了可直接从 Adobe Campaign 访问的上下文帮助链接。
 

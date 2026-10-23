@@ -6,23 +6,34 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+TQID: 'https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: '990'
 ht-degree: 66%
-
 ---
-
 # 管理组和用户{#managing-groups-and-users}
 
 ## 关于安全组 {#about-security-groups}
@@ -35,7 +46,7 @@ ht-degree: 66%
 
 用户必须始终链接到安全组。 这将允许您为他们分配特定的角色和组织单位。 要限制某个用户的访问，请勿将该用户添加到Campaign **[!UICONTROL Standard Users]**&#x200B;组，因为该组已链接到&#x200B;**[!UICONTROL All]**&#x200B;组织单位。
 
-有关角色的更多信息，下页中的表显示了根据用户的角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hans)。
+有关角色的更多信息，下页中的表显示了根据用户的角色可执行的操作： [Adobe Campaign Standard授权](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 默认安全组为：
 

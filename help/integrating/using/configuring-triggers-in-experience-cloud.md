@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+TQID: 'https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 6%
-
 ---
-
 # 在 Experience Cloud 中配置触发器{#configuring-triggers-in-experience-cloud}
 
 ## 激活功能 {#activating-the-functionality}
@@ -67,7 +77,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 ### 配置Experience Cloud DTM核心服务 {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience Cloud DTM核心服务(Dynamic Tag Management)中，激活网站页面的Experience Cloud ID和Adobe Analytics。
+1. 在Experience Cloud DTM核心服务(Dynamic Tag Management)中，激活网站页面的Experience Cloud ID和Adobe Analytics 。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -75,7 +85,7 @@ Adobe团队需要以下信息才能激活触发器：
 
    ![](assets/trigger_uc_conf_2.png)
 
-### 配置Experience Cloud People核心服务 {#configuring-experience-cloud-people-core-service}
+### 配置Experience Cloud人员核心服务 {#configuring-experience-cloud-people-core-service}
 
 以前在DTM中引用的别名需要通过客户属性在Experience Cloud People Core Service中创建。 确保创建新别名，并在集成代码（例如“visitorid”）中引用相同的DTM别名。
 
@@ -101,7 +111,7 @@ Adobe团队需要以下信息才能激活触发器：
 
 ## 在Experience Cloud界面中创建触发器 {#creating-a-trigger-in-the-experience-cloud-interface}
 
-需要创建一个Adobe Experience Cloud触发器，以便您可以在Campaign中使用它。
+需要创建Adobe Experience Cloud触发器，以便在Campaign中使用它。
 
 在Experience Cloud中创建新触发器，并确保选择您网站上使用的报表包。 确保选择正确的维度，以便触发程序。
 

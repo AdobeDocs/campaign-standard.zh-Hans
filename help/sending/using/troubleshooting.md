@@ -9,27 +9,36 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+TQID: 'https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 475
+source-wordcount: '475'
 ht-degree: 1%
-
 ---
-
 # 故障排除{#troubleshooting}
 
 您是否遇到过可投放性问题？ 您可以在此处找到解决方案。
@@ -50,9 +59,9 @@ ht-degree: 1%
 
 * **阻止列表的电子邮件地址与隔离的电子邮件地址有何区别？**
 
-   * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hans#feedback-loops)的结果（当某人报告邮件为垃圾邮件时）。
+  * 状态&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反馈循环](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hans#feedback-loops)的结果（当某人报告邮件为垃圾邮件时）。
 
-   * 状态&#x200B;**[!UICONTROL Quarantined]**&#x200B;是软退回或硬退回的结果。
+  * 状态&#x200B;**[!UICONTROL Quarantined]**&#x200B;是软退回或硬退回的结果。
 
   有关更多信息，请参阅[此章节](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。
 
@@ -66,15 +75,15 @@ ht-degree: 1%
 
 * **我的一名收件人被错误地添加到阻止列表中。 如何从阻止列表中删除这些邮件，以便我能够再次向他们发送邮件？**
 
-   * 转到&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
-   * 在对应的记录的详细信息中，将&#x200B;**[!UICONTROL Status]**&#x200B;字段的值设置为&#x200B;**[!UICONTROL Valid]**。
-   * 保存记录。
+  * 转到&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
+  * 在对应的记录的详细信息中，将&#x200B;**[!UICONTROL Status]**&#x200B;字段的值设置为&#x200B;**[!UICONTROL Valid]**。
+  * 保存记录。
 
 * **如何确定我的IP是否处于状态？ 如何从阻止列表中删除我的IP？**
 
   要检查您的IP地址是否处于阻止列表状态，您可以使用各种网站对其进行验证，例如：
-   * [MX Toolbox](https://mxtoolbox.com/)
-   * [我的IP地址是什么](https://whatismyipaddress.com)
+  * [MX Toolbox](https://mxtoolbox.com/)
+  * [我的IP地址是什么](https://whatismyipaddress.com)
 
   通常，IP地址检查的结果将返回一个列表，其中包含IP地址的详细信息，以及阻止IP地址的网站的名称。
 

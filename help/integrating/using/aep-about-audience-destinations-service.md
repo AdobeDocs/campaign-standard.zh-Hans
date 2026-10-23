@@ -11,18 +11,33 @@ role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '376'
 ht-degree: 2%
-
 ---
-
 # 关于 Audience Destinations 服务 {#about-audiences}
 
 >[!IMPORTANT]
 >
->Audience Destinations服务现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[中了解更多](../../rn/using/deprecated-features.md)
+>Audience Destinations服务现已弃用。 已弃用的功能仍然可用，但不会进一步增强或支持这些功能。 在此页面[&#128279;](../../rn/using/deprecated-features.md)中了解更多
 
 利用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)基于大型复杂数据集构建具有高度针对性的受众，从而增强您的消费者体验。 Adobe Experience Platform可整合在线和离线来源（包括Adobe Analytics）中的用户档案、行为和多实体数据，以帮助您构建客户的360度视图，使您能够有效地管理客户体验。
 
@@ -30,7 +45,7 @@ ht-degree: 2%
 
 **受众**&#x200B;是通过首先构建&#x200B;**区段**&#x200B;创建的，这些区段实际上是一组规则，基于来自Adobe Experience Platform的客户配置文件中的几乎任何变量（例如，配置文件、事件、多实体数据）来创建多维目标。 有关实时客户配置文件和分段服务的全局概念可在以下专用文档中引用：
 
-* [实时客户个人资料概述](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
+* [Real-time Customer Profile概述](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
 * [分段服务概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)
 
 创建区段后，您可以将其激活为[Campaign Standard工作流](../../integrating/using/aep-targeting-audiences.md)中投放的受众。 此外，您还可以使用来自Adobe Experience Platform的上下文数据对[进行个性化](../../integrating/using/aep-personalizing-campaigns.md)并将动态内容添加到营销活动。

@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: '2045'
 ht-degree: 3%
-
 ---
-
 # 在失败时接收提醒{#receiving-alerts-when-failures-happen}
 
 ## 关于投放警报 {#about-delivery-alerting}
@@ -247,41 +260,41 @@ ht-degree: 3%
 
 * **[!UICONTROL Deliveries failed]**：此条件会通知您所有状态错误的投放。 原因可能是：
 
-   * 投放服务器（MTA、消息传输代理）出现问题
-   * Adobe Campaign投放服务器与接收服务器之间的连接超时
-   * 投放能力问题
-   * 错误的工作流
+  * 投放服务器（MTA、消息传输代理）出现问题
+  * Adobe Campaign投放服务器与接收服务器之间的连接超时
+  * 投放能力问题
+  * 错误的工作流
 
   如果通过工作流触发投放，请检查该工作流是否已正确启动。 有关详细信息，请参阅[执行工作流](../../automating/using/about-workflow-execution.md)。 否则，请与Adobe Campaign管理员联系以解决此问题。
 
 * **[!UICONTROL Deliveries with preparation failed]**：在准备投放期间可能会出现以下错误：
 
-   * 投放缺少主题。
-   * 个性化字段中存在错误的语法。
-   * 目标不见了。
-   * 投放超出大小限制。
+  * 投放缺少主题。
+  * 个性化字段中存在错误的语法。
+  * 目标不见了。
+  * 投放超出大小限制。
 
   有关此内容的详细信息，请参阅[准备发送](../../sending/using/preparing-the-send.md)。 但是，这些错误通常会在消息分析期间发现。 请参阅[控制规则](../../sending/using/control-rules.md)。
 
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**&#x200B;警报的可能原因可能是：
 
-   * 收件人的服务器已关闭。
-   * 收件人的邮箱已满。
+  * 收件人的服务器已关闭。
+  * 收件人的邮箱已满。
 
   有关详细信息，请检查投放日志的&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;和&#x200B;**[!UICONTROL Exclusion causes]**&#x200B;选项卡。 请参阅[排除日志](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
 
   **[!UICONTROL Delivery with bad error ratio for hard bounces]**&#x200B;警报的可能原因可能是：
 
-   * 收件人将添加到阻止列表，这意味着他们不再希望被联系。
-   * 收件人的电子邮件地址不存在。
-   * 收件人的域不存在。
-   * 收件人的服务器正在阻止投放。
+  * 收件人将添加到阻止列表，这意味着他们不再希望被联系。
+  * 收件人的电子邮件地址不存在。
+  * 收件人的域不存在。
+  * 收件人的服务器正在阻止投放。
 
   要避免软退回和硬退回错误，请遵循以下最佳实践：
 
-   * 构建过滤分类规则，以在投放分析期间排除部分消息目标，如隔离的收件人。 请参阅[创建筛选规则](../../sending/using/filtering-rules.md)。
-   * 定期更新客户数据库以保持良好的隔离管理流程。 请参阅[关于隔离](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
-   * 一般而言，请尽可能改善可投放性。 请参阅Adobe Campaign [可投放性](../../sending/using/about-deliverability.md)详细文档，并联系Adobe Campaign管理员以获取帮助。
+  * 构建过滤分类规则，以在投放分析期间排除部分消息目标，如隔离的收件人。 请参阅[创建筛选规则](../../sending/using/filtering-rules.md)。
+  * 定期更新客户数据库以保持良好的隔离管理流程。 请参阅[关于隔离](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
+  * 一般而言，请尽可能改善可投放性。 请参阅Adobe Campaign [可投放性](../../sending/using/about-deliverability.md)详细文档，并联系Adobe Campaign管理员以获取帮助。
 
 * **[!UICONTROL Deliveries with long start pending]**：这通常意味着在MTA（消息传输代理）级别有问题。 执行过程正在等待某些资源的可用性。 MTA可能尚未启动。
 

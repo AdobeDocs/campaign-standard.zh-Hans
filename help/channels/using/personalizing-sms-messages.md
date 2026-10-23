@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+TQID: 'https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 99%
-
 ---
-
 # 个性化短信消息{#personalizing-sms-messages}
 
 个性化短信消息的原理与电子邮件[相同](../../designing/using/personalization.md#inserting-a-personalization-field)。 但是，您必须了解音译选项，因为这些选项会影响编码，从而影响要发送的短信消息数量。 有关更多信息，请参阅[音译和短信长度](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)一节。
@@ -36,8 +46,8 @@ ht-degree: 99%
 * 对于名为“John Smith”的收件人，由于其中不包含特殊字符，Adobe Campaign 将选择 GSM 编码，该编码将对每条短信消息最多授权 160 个字符。 因此，该消息将通过单条短信发送。
 * 对于名为“Raphaël Forêt”的收件人，字符“ë”和“ê”不能使用 GSM 编码。 根据是否启用了音译，Adobe Campaign 可以选择两种行为：
 
-   * 如果授权了音译，则“ë”、“ê”将被“e”取代，这意味着可在短信中使用 GSM 编码，因此最多授权 160 个字符。 此消息将作为单条短信消息发送，但稍微有一些变化。
-   * 如果不授权音译，Adobe Campaign 将选择以二进制格式 (Unicode) 发送消息：因此，所有字符都将以该格式发送。 由于 Unicode 格式的短信消息长度限制为 70 个字符，因此 Adobe Campaign 必须分两部分发送该消息。
+  * 如果授权了音译，则“ë”、“ê”将被“e”取代，这意味着可在短信中使用 GSM 编码，因此最多授权 160 个字符。 此消息将作为单条短信消息发送，但稍微有一些变化。
+  * 如果不授权音译，Adobe Campaign 将选择以二进制格式 (Unicode) 发送消息：因此，所有字符都将以该格式发送。 由于 Unicode 格式的短信消息长度限制为 70 个字符，因此 Adobe Campaign 必须分两部分发送该消息。
 
 >[!NOTE]
 >

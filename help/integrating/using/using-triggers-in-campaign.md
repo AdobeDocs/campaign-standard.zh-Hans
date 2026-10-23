@@ -1,6 +1,6 @@
 ---
 title: 在 Campaign 中使用触发器
-description: 在Adobe Campaign中基于现有的Adobe Experience Cloud trigger创建触发器事件。
+description: 基于现有Adobe Experience Cloud触发器在Adobe Campaign中创建触发器事件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-TQID: https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE
+TQID: 'https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 73%
-
 ---
-
 # 在 Campaign 中使用触发器{#using-triggers-in-campaign}
 
 ## 在Campaign中创建映射触发器 {#creating-a-mapped-trigger-in-campaign}
@@ -63,7 +75,7 @@ ht-degree: 73%
 
 ## 在Campaign中发布触发器 {#publishing-trigger-in-campaign}
 
-现在，在基于现有Adobe Experience Cloud trigger的Adobe Campaign中创建触发器事件后，您需要发布该事件。
+在基于现有Adobe Experience Cloud trigger的Adobe Campaign中创建触发器事件后，现在需要发布它。
 
 1. 在之前创建的触发器中，单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮以开始发布触发器事件。
 

@@ -3,18 +3,20 @@ title: 在 ISP 中断后更新退回鉴定
 description: 了解如何在ISP中断后更新退回限制条件。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '446'
 ht-degree: 3%
-
 ---
-
 # 在 ISP 中断后更新退回鉴定 {#update-bounce-qualification.md}
 
 ## 上下文
@@ -23,7 +25,7 @@ ht-degree: 3%
 
 2020年12月，Gmail的一个全局问题导致发送到有效Gmail电子邮件地址的某些电子邮件被错误地硬退回，作为Gmail服务器的无效电子邮件地址，并返回以下响应： *&quot;550-5.1.1您尝试访问的电子邮件帐户不存在。&quot;*
 
-Google已声明，导致此问题的Gmail中断和中断从12月14日的6:55AM开始，到12月15日的6:09PM EST结束。 我们的数据分析还显示，Gmail在12月16日2:06AM EST的跳出率也出现了非常短暂的峰值，大多数发生在12月15日EST下午2:00到6:30 EST之间。
+Google已声明，导致此问题的Gmail中断和中断从12月14日早上6:55开始并在12月15日晚上6:09 EST结束。 我们的数据分析还显示，Gmail在12月16日凌晨2:06点（东部标准时间）的跳出率出现了非常短暂的峰值，大多数跳出发生在12月15日下午2:00（东部标准时间）到下午6:30（东部标准时间）之间。
 
 >[!NOTE]
 >

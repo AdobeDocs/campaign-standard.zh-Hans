@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # 保存受众{#save-audience}
 
 ## 说明 {#description}
@@ -51,18 +60,18 @@ ht-degree: 99%
 
    * **[!UICONTROL Update an existing audience]**：选择现有受众，然后选择更新类型：
 
-      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
-      * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
+     * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
+     * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
    * **[!UICONTROL Create then update an audience]**：输入受众的名称并选择更新类型。 如果受众不存在，则创建受众。 如果受众已存在，则会根据选定的模式更新受众：
 
-      * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
+     * **[!UICONTROL Replace audience content with new data]**：替换整个受众内容。 旧数据会丢失。 只保留来自保存受众活动之集客过渡的数据。
 
-        警告，此选项会清除更新受众的受众类型和定向维度。
+       警告，此选项会清除更新受众的受众类型和定向维度。
 
-      * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
+     * **[!UICONTROL Complete audience with new data]**：保留旧受众数据，并将来自保存受众活动之集客过渡的数据添加到旧数据中。
 
-        警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。 例如，您无法使用来自查询的轮廓填充文件类型受众。
+       警告，如果所更新受众的受众类型或定向维度与工作流的当前配置不兼容，则此选项会导致出错。 例如，您无法使用来自查询的轮廓填充文件类型受众。
 
    * **[!UICONTROL Create a new audience]**：输入所创建受众的名称。 创建受众的时间和日期将自动添加到受众名称中。 这样可让每次执行工作流时，创建的受众具有唯一性。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您已经定向了轮廓，并且要将受众导出到 Adobe Experience Cloud，请选择此选项，然后选择现有共享受众或创建新受众。
