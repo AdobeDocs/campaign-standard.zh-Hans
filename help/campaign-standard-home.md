@@ -35,9 +35,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard 文档 {#campaign-standard-documentation}
 
@@ -133,9 +133,9 @@ ht-degree: 95%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的页面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品说明</a> - <a href="rn/using/deprecated-features.md">已弃用和已删除的功能</a> - <a href="rn/using/release-planning.md">发行计划</a> - <a href="administration/using/cnil-pixel-tracking.md">CNIL关于电子邮件跟踪像素的指南</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html" target="_blank">产品描述</a> - <a href="rn/using/deprecated-features.md">已弃用和已移除的功能</a> - <a href="rn/using/release-planning.md">版本规划</a> - <a href="administration/using/cnil-pixel-tracking.md">有关电子邮件跟踪像素的 CNIL 指南</a>
 </td>
 <td><strong>技术资源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 触发器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/cn/campaign/kb/acs-article-list.html" target="blank">技术说明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans" target="_blank">控制面板文档</a>
 </td>
 </tr></table>

@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard 中的辅助功能 {#accessibility-acs}
 
@@ -45,11 +45,11 @@ Adobe Campaign Standard 提供使其更便于使用的功能，例如对比度�
 
 Adobe Campaign Standard 用户界面努力在应用程序中提供足够的对比度，以确保视力低下或色觉缺失的用户具有无障碍的观看体验。
 
-* 大文本和标题已得到增强，达到3:1的对比度。
+* 大号文本和标题已得到增强，以达到 3:1 的对比度。
 
   ![](assets/accessibility_2.png)
 
-* 应用程序中的帮助内容和正文文本已更新，达到4.5:1的对比度。
+* 应用程序中的帮助内容和正文文本已更新，以达到 4.5:1 的对比度。
 
 * 工作流的暂停和取消图标已更新，以提高背景色和前景色之间的对比度。
 
