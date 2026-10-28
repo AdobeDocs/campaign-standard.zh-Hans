@@ -28,7 +28,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
 ---
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 ### 询问专家！
 
-加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。 [加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hans)
+加入 Campaign 社区：在现有问题中搜索答案，或向社区提问。 [加入对话](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 创建工单或开始聊天
 

@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # 发行计划 {#release-planning}
 
@@ -39,13 +39,13 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 升级分两个阶段进行。 首先，升级“暂存”实例，这样，您就能够测试新功能并在需要时调整配置。 随后将升级“生产”实例。
 
-所有发行日期都可能会发生更改：请定期访问此页面以检查更新。 环境更新分批次进行。 具体日期会通过电子邮件发送给每位客户。
+所有发行日期都可能会发生更改：请定期访问此页面以检查更新。 环境更新分批次进行。具体日期会通过电子邮件发送给每位客户。
 
 ## 版本 26.3 {#release-26-3-release}
 
 当暂存环境升级开始时，有关此版本的详细信息可在[发行说明](release-notes.md)中获取。
 
-26.3版的升级日期尚不可用。 请定期访问此页面以检查更新。
+版本 26.3 的升级日期暂未公布。请定期访问此页面以检查更新。
 
 ## 问题与回答(&amp;A) {#questions-and-answers}
 
@@ -77,4 +77,4 @@ Adobe 通过添加新功能、增强功能和修复错误，不断改进其解�
 
 答：登录到 Campaign 时，将显示最新版本发行说明弹出窗口。
 
-如有其他问题，请联系 [&#x200B; Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+如有其他问题，请联系 [ Adobe 客户服务](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
